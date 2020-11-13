@@ -24,15 +24,15 @@ namespace System {
     // Set static field: static private readonly System.ConsoleKeyInfo EmptyConsoleKeyInfo
     static void _set_EmptyConsoleKeyInfo(System::ConsoleKeyInfo value);
     // static private System.Void .cctor()
-    // Offset: 0x184B4B8
+    // Offset: 0x1712B60
     static void _cctor();
     // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0x184B448
+    // Offset: 0x1712AF0
     // Implemented from: System.IConsoleDriver
     // Base method: System.ConsoleKeyInfo IConsoleDriver::ReadKey(System.Boolean intercept)
     System::ConsoleKeyInfo ReadKey(bool intercept);
     // public System.Void .ctor()
-    // Offset: 0x184B4B4
+    // Offset: 0x1712B5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NullConsoleDriver* New_ctor();

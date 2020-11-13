@@ -25,15 +25,15 @@ namespace System::Diagnostics::Tracing {
   class UInt64TypeInfo : public System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<uint64_t> {
     public:
     // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref System.UInt64 value)
-    // Offset: 0x104B7CC
+    // Offset: 0x11230FC
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, uint64_t& value);
     // public override System.Void WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
-    // Offset: 0x104B73C
+    // Offset: 0x112306C
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Void TraceLoggingTypeInfo::WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::Il2CppString* name, System::Diagnostics::Tracing::EventFieldFormat format);
     // public System.Void .ctor()
-    // Offset: 0x104B7E4
+    // Offset: 0x1123114
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
     // Base method: System.Void TraceLoggingTypeInfo_1::.ctor()
     // Base method: System.Void Object::.ctor()

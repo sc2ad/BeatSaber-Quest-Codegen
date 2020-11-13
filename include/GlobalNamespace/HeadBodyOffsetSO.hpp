@@ -22,13 +22,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Vector3 get_headNeckOffset()
-    // Offset: 0x200D024
+    // Offset: 0xF12DBC
     UnityEngine::Vector3 get_headNeckOffset();
     // public System.Single get_verticalOffset()
-    // Offset: 0x200D030
+    // Offset: 0xF12DC8
     float get_verticalOffset();
     // public System.Void .ctor()
-    // Offset: 0x200D038
+    // Offset: 0xF12DD0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

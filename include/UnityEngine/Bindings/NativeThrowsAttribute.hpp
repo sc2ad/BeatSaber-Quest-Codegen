@@ -21,10 +21,10 @@ namespace UnityEngine::Bindings {
       return ThrowsException;
     }
     // public System.Void set_ThrowsException(System.Boolean value)
-    // Offset: 0x1F741DC
+    // Offset: 0x1A04518
     void set_ThrowsException(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1F741E8
+    // Offset: 0x1A04524
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

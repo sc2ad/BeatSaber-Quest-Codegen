@@ -11,12 +11,20 @@
 #include "GlobalNamespace/PacketEncryptionLayer_IEncryptionState.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
+// Including type: System.Int32
+#include "System/Int32.hpp"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: System::Security::Cryptography
-namespace System::Security::Cryptography {
-  // Forward declaring type: HMAC
-  class HMAC;
+// Forward declaring namespace: System::Collections::Concurrent
+namespace System::Collections::Concurrent {
+  // Forward declaring type: ConcurrentQueue`1<T>
+  template<typename T>
+  class ConcurrentQueue_1;
+}
+// Forward declaring namespace: Org::BouncyCastle::Crypto::Macs
+namespace Org::BouncyCastle::Crypto::Macs {
+  // Forward declaring type: HMac
+  class HMac;
 }
 // Completed forward declares
 // Type namespace: 
@@ -27,48 +35,39 @@ namespace GlobalNamespace {
     // private readonly System.UInt32 _protocolVersion
     // Offset: 0x10
     uint protocolVersion;
-    // private System.Boolean _isVerified
+    // private System.Boolean _isValid
     // Offset: 0x14
-    bool isVerified;
-    // private System.String _userId
+    bool isValid;
+    // private System.Int32 _lastSentSequenceNum
     // Offset: 0x18
-    ::Il2CppString* userId;
-    // private System.String _userName
+    int lastSentSequenceNum;
+    // private System.Boolean _hasReceivedSequenceNum
+    // Offset: 0x1C
+    bool hasReceivedSequenceNum;
+    // private System.UInt32 _lastReceivedSequenceNum
     // Offset: 0x20
-    ::Il2CppString* userName;
-    // private System.Int64 _lastUsedTime
+    uint lastReceivedSequenceNum;
+    // private readonly System.Boolean[] _receivedSequenceNumBuffer
     // Offset: 0x28
-    int64_t lastUsedTime;
-    // private System.UInt32 _lastSentSequenceId
-    // Offset: 0x30
-    uint lastSentSequenceId;
-    // private System.Int32 _lastReceivedSequenceIdIndex
-    // Offset: 0x34
-    int lastReceivedSequenceIdIndex;
-    // private System.Int32 _receivedSequenceCount
-    // Offset: 0x38
-    int receivedSequenceCount;
-    // public readonly System.Object sendMutex
-    // Offset: 0x40
-    ::Il2CppObject* sendMutex;
-    // public readonly System.Object receiveMutex
-    // Offset: 0x48
-    ::Il2CppObject* receiveMutex;
-    // private readonly System.UInt32[] _receivedSequenceIds
-    // Offset: 0x50
-    ::Array<uint>* receivedSequenceIds;
+    ::Array<bool>* receivedSequenceNumBuffer;
     // public readonly System.Byte[] sendKey
-    // Offset: 0x58
+    // Offset: 0x30
     ::Array<uint8_t>* sendKey;
     // public readonly System.Byte[] receiveKey
-    // Offset: 0x60
+    // Offset: 0x38
     ::Array<uint8_t>* receiveKey;
-    // public readonly System.Security.Cryptography.HMAC receiveMac
-    // Offset: 0x68
-    System::Security::Cryptography::HMAC* receiveMac;
-    // public readonly System.Security.Cryptography.HMAC sendMac
-    // Offset: 0x70
-    System::Security::Cryptography::HMAC* sendMac;
+    // private readonly System.Byte[] _sendMacKey
+    // Offset: 0x40
+    ::Array<uint8_t>* sendMacKey;
+    // private readonly System.Byte[] _receiveMacKey
+    // Offset: 0x48
+    ::Array<uint8_t>* receiveMacKey;
+    // private readonly System.Collections.Concurrent.ConcurrentQueue`1<Org.BouncyCastle.Crypto.Macs.HMac> _sendMacQueue
+    // Offset: 0x50
+    System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac*>* sendMacQueue;
+    // private readonly System.Collections.Concurrent.ConcurrentQueue`1<Org.BouncyCastle.Crypto.Macs.HMac> _receiveMacQueue
+    // Offset: 0x58
+    System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac*>* receiveMacQueue;
     // Creating interface conversion operator: operator GlobalNamespace::PacketEncryptionLayer::IEncryptionState
     operator GlobalNamespace::PacketEncryptionLayer::IEncryptionState() noexcept {
       return *reinterpret_cast<GlobalNamespace::PacketEncryptionLayer::IEncryptionState*>(this);
@@ -77,40 +76,46 @@ namespace GlobalNamespace {
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
-    // public System.Boolean Verify(System.UInt32 protocolVersion, System.String userId, System.String userName)
-    // Offset: 0x21F3744
-    bool Verify(uint protocolVersion, ::Il2CppString* userId, ::Il2CppString* userName);
-    // public System.Boolean HasTimedOut(System.Int64 timeout)
-    // Offset: 0x21F3FB0
-    bool HasTimedOut(int64_t timeout);
+    // static field const value: static private System.Int32 kReceivedSequencNumBufferLength
+    static constexpr const int kReceivedSequencNumBufferLength = 64;
+    // Get static field: static private System.Int32 kReceivedSequencNumBufferLength
+    static int _get_kReceivedSequencNumBufferLength();
+    // Set static field: static private System.Int32 kReceivedSequencNumBufferLength
+    static void _set_kReceivedSequencNumBufferLength(int value);
+    // public System.Byte[] ComputeSendMac(System.Byte[] data, System.Int32 offset, System.Int32 count)
+    // Offset: 0x1E4FF74
+    ::Array<uint8_t>* ComputeSendMac(::Array<uint8_t>* data, int offset, int count);
+    // public System.Byte[] ComputeReceiveMac(System.Byte[] data, System.Int32 offset, System.Int32 count)
+    // Offset: 0x1E4FA88
+    ::Array<uint8_t>* ComputeReceiveMac(::Array<uint8_t>* data, int offset, int count);
     // public System.Boolean IsValidSequenceNum(System.UInt32 sequenceNum)
-    // Offset: 0x21F5994
+    // Offset: 0x1E4F938
     bool IsValidSequenceNum(uint sequenceNum);
     // public System.Boolean PutSequenceNum(System.UInt32 sequenceNum)
-    // Offset: 0x21F5A48
+    // Offset: 0x1E4FC9C
     bool PutSequenceNum(uint sequenceNum);
     // public System.UInt32 GetNextSentSequenceNum()
-    // Offset: 0x21F6558
+    // Offset: 0x1E4FED8
     uint GetNextSentSequenceNum();
     // public System.Void .ctor(System.UInt32 protocolVersion, System.Byte[] preMasterSecret, System.Byte[] serverSeed, System.Byte[] clientSeed, System.Boolean isClient)
-    // Offset: 0x21F2C28
+    // Offset: 0x1E4DAF8
     static PacketEncryptionLayer::EncryptionState* New_ctor(uint protocolVersion, ::Array<uint8_t>* preMasterSecret, ::Array<uint8_t>* serverSeed, ::Array<uint8_t>* clientSeed, bool isClient);
     // private System.Byte[] MakeSeed(System.Byte[] baseSeed, System.Byte[] serverSeed, System.Byte[] clientSeed)
-    // Offset: 0x21F69A0
+    // Offset: 0x1E508A0
     ::Array<uint8_t>* MakeSeed(::Array<uint8_t>* baseSeed, ::Array<uint8_t>* serverSeed, ::Array<uint8_t>* clientSeed);
     // static private System.Byte[] PRF(System.Byte[] key, System.Byte[] seed, System.Int32 length)
-    // Offset: 0x21F6A88
+    // Offset: 0x1E50988
     static ::Array<uint8_t>* PRF(::Array<uint8_t>* key, ::Array<uint8_t>* seed, int length);
     // static private System.Void PRF_Hash(System.Byte[] key, System.Byte[] seed, ref System.Int32 length)
-    // Offset: 0x21F6B78
+    // Offset: 0x1E50A78
     static void PRF_Hash(::Array<uint8_t>* key, ::Array<uint8_t>* seed, int& length);
-    // public System.Boolean SetIdentity(System.String userId, System.String userNmae)
-    // Offset: 0x21F2F2C
+    // public System.Boolean get_isValid()
+    // Offset: 0x1E5087C
     // Implemented from: PacketEncryptionLayer/IEncryptionState
-    // Base method: System.Boolean IEncryptionState::SetIdentity(System.String userId, System.String userNmae)
-    bool SetIdentity(::Il2CppString* userId, ::Il2CppString* userNmae);
+    // Base method: System.Boolean IEncryptionState::get_isValid()
+    bool get_isValid();
     // public System.Void Dispose()
-    // Offset: 0x21F6D40
+    // Offset: 0x1E50C40
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

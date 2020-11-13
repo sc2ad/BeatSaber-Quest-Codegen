@@ -7,10 +7,20 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.RuntimeAnimatorController
 #include "UnityEngine/RuntimeAnimatorController.hpp"
+// Including type: System.Collections.Generic.KeyValuePair`2
+#include "System/Collections/Generic/KeyValuePair_2.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: AnimationClip
+  class AnimationClip;
+}
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: IList`1<T>
+  template<typename T>
+  class IList_1;
 }
 // Completed forward declares
 // Type namespace: UnityEngine
@@ -25,8 +35,23 @@ namespace UnityEngine {
     UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback* OnOverrideControllerDirty;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
+    // public System.Void .ctor(UnityEngine.RuntimeAnimatorController controller)
+    // Offset: 0x19CB334
+    static AnimatorOverrideController* New_ctor(UnityEngine::RuntimeAnimatorController* controller);
+    // static private System.Void Internal_Create(UnityEngine.AnimatorOverrideController self, UnityEngine.RuntimeAnimatorController controller)
+    // Offset: 0x19CB400
+    static void Internal_Create(UnityEngine::AnimatorOverrideController* self, UnityEngine::RuntimeAnimatorController* controller);
+    // private System.Void SetClip(UnityEngine.AnimationClip originalClip, UnityEngine.AnimationClip overrideClip, System.Boolean notify)
+    // Offset: 0x19CB450
+    void SetClip(UnityEngine::AnimationClip* originalClip, UnityEngine::AnimationClip* overrideClip, bool notify);
+    // private System.Void SendNotification()
+    // Offset: 0x19CB4B8
+    void SendNotification();
+    // public System.Void ApplyOverrides(System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.AnimationClip,UnityEngine.AnimationClip>> overrides)
+    // Offset: 0x19CB4F8
+    void ApplyOverrides(System::Collections::Generic::IList_1<System::Collections::Generic::KeyValuePair_2<UnityEngine::AnimationClip*, UnityEngine::AnimationClip*>>* overrides);
     // static System.Void OnInvalidateOverrideController(UnityEngine.AnimatorOverrideController controller)
-    // Offset: 0x1F3E120
+    // Offset: 0x19CB74C
     static void OnInvalidateOverrideController(UnityEngine::AnimatorOverrideController* controller);
   }; // UnityEngine.AnimatorOverrideController
 }

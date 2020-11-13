@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class BeatEffect::Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::BeatEffect*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x203B338
+    // Offset: 0x1A778BC
     // Implemented from: Zenject.MonoMemoryPool`1
     // Base method: System.Void MonoMemoryPool_1::.ctor()
     // Base method: System.Void MemoryPool_1::.ctor()

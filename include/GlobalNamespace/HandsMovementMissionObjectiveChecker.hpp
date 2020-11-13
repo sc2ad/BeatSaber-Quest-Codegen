@@ -24,18 +24,18 @@ namespace GlobalNamespace {
     // Offset: 0x48
     GlobalNamespace::SaberActivityCounter* saberActivityCounter;
     // protected System.Void OnDestroy()
-    // Offset: 0x200CE4C
+    // Offset: 0xF12BE4
     void OnDestroy();
     // private System.Void HandleTotalDistanceDidChange(System.Single distance)
-    // Offset: 0x200CF28
+    // Offset: 0xF12CC0
     void HandleTotalDistanceDidChange(float distance);
     // protected override System.Void Init()
-    // Offset: 0x200CF58
+    // Offset: 0xF12CF0
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x200D01C
+    // Offset: 0xF12DB4
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()

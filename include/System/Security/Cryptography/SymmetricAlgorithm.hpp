@@ -58,67 +58,67 @@ namespace System::Security::Cryptography {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void Clear()
-    // Offset: 0x120760C
+    // Offset: 0x127C6C4
     void Clear();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x12076B0
+    // Offset: 0x127C768
     void Dispose(bool disposing);
     // public System.Int32 get_BlockSize()
-    // Offset: 0x120772C
+    // Offset: 0x127C7E4
     int get_BlockSize();
     // public System.Void set_BlockSize(System.Int32 value)
-    // Offset: 0x1207734
+    // Offset: 0x127C7EC
     void set_BlockSize(int value);
     // public System.Int32 get_FeedbackSize()
-    // Offset: 0x1207878
+    // Offset: 0x127C930
     int get_FeedbackSize();
     // public System.Byte[] get_IV()
-    // Offset: 0x1207880
+    // Offset: 0x127C938
     ::Array<uint8_t>* get_IV();
     // public System.Void set_IV(System.Byte[] value)
-    // Offset: 0x120791C
+    // Offset: 0x127C9D4
     void set_IV(::Array<uint8_t>* value);
     // public System.Byte[] get_Key()
-    // Offset: 0x1207A60
+    // Offset: 0x127CB18
     ::Array<uint8_t>* get_Key();
     // public System.Void set_Key(System.Byte[] value)
-    // Offset: 0x1207AFC
+    // Offset: 0x127CBB4
     void set_Key(::Array<uint8_t>* value);
     // public System.Security.Cryptography.KeySizes[] get_LegalKeySizes()
-    // Offset: 0x1207CF8
+    // Offset: 0x127CDB0
     ::Array<System::Security::Cryptography::KeySizes*>* get_LegalKeySizes();
     // public System.Int32 get_KeySize()
-    // Offset: 0x1207D78
+    // Offset: 0x127CE30
     int get_KeySize();
     // public System.Void set_KeySize(System.Int32 value)
-    // Offset: 0x1207D80
+    // Offset: 0x127CE38
     void set_KeySize(int value);
     // public System.Security.Cryptography.CipherMode get_Mode()
-    // Offset: 0x1207E3C
+    // Offset: 0x127CEF4
     System::Security::Cryptography::CipherMode get_Mode();
     // public System.Void set_Mode(System.Security.Cryptography.CipherMode value)
-    // Offset: 0x1207E44
+    // Offset: 0x127CEFC
     void set_Mode(System::Security::Cryptography::CipherMode value);
     // public System.Security.Cryptography.PaddingMode get_Padding()
-    // Offset: 0x1207EF0
+    // Offset: 0x127CFA8
     System::Security::Cryptography::PaddingMode get_Padding();
     // public System.Void set_Padding(System.Security.Cryptography.PaddingMode value)
-    // Offset: 0x1207EF8
+    // Offset: 0x127CFB0
     void set_Padding(System::Security::Cryptography::PaddingMode value);
     // public System.Boolean ValidKeySize(System.Int32 bitLength)
-    // Offset: 0x1207C44
+    // Offset: 0x127CCFC
     bool ValidKeySize(int bitLength);
     // static public System.Security.Cryptography.SymmetricAlgorithm Create(System.String algName)
-    // Offset: 0x1207FA4
+    // Offset: 0x127D05C
     static System::Security::Cryptography::SymmetricAlgorithm* Create(::Il2CppString* algName);
     // public System.Security.Cryptography.ICryptoTransform CreateEncryptor()
-    // Offset: 0x120802C
+    // Offset: 0x127D0E4
     System::Security::Cryptography::ICryptoTransform* CreateEncryptor();
     // public System.Security.Cryptography.ICryptoTransform CreateEncryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
     // Offset: 0xFFFFFFFF
     System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::Array<uint8_t>* rgbKey, ::Array<uint8_t>* rgbIV);
     // public System.Security.Cryptography.ICryptoTransform CreateDecryptor()
-    // Offset: 0x1208080
+    // Offset: 0x127D138
     System::Security::Cryptography::ICryptoTransform* CreateDecryptor();
     // public System.Security.Cryptography.ICryptoTransform CreateDecryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
     // Offset: 0xFFFFFFFF
@@ -130,12 +130,12 @@ namespace System::Security::Cryptography {
     // Offset: 0xFFFFFFFF
     void GenerateIV();
     // protected System.Void .ctor()
-    // Offset: 0x1207560
+    // Offset: 0x127C618
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SymmetricAlgorithm* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0x1207590
+    // Offset: 0x127C648
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

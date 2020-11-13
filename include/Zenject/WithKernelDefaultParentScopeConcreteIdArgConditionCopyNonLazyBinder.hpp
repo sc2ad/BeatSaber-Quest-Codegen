@@ -27,7 +27,7 @@ namespace Zenject {
   class WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder : public Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder {
     public:
     // public Zenject.DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder WithKernel()
-    // Offset: 0x1F4003C
+    // Offset: 0x19D2A20
     Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
     // public Zenject.DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder WithKernel()
     // Offset: 0xFFFFFFFF
@@ -37,7 +37,7 @@ namespace Zenject {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, "WithKernel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKernel>::get()})));
     }
     // public System.Void .ctor(Zenject.SubContainerCreatorBindInfo subContainerBindInfo, Zenject.BindInfo bindInfo)
-    // Offset: 0x1F40034
+    // Offset: 0x19D2A18
     // Implemented from: Zenject.DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder
     // Base method: System.Void DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::.ctor(Zenject.SubContainerCreatorBindInfo subContainerBindInfo, Zenject.BindInfo bindInfo)
     static WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, Zenject::BindInfo* bindInfo);

@@ -96,7 +96,7 @@ namespace LiteNetLib::Utils {
     // Offset: 0x20
     LiteNetLib::Utils::NetDataWriter* netDataWriter;
     // public System.Void .ctor(System.Int32 maxStringLength)
-    // Offset: 0x1F63E24
+    // Offset: 0x22B4F30
     static NetPacketProcessor* New_ctor(int maxStringLength);
     // protected System.UInt64 GetHash()
     // Offset: 0xFFFFFFFF
@@ -105,7 +105,7 @@ namespace LiteNetLib::Utils {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<uint64_t>(this, "GetHash", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // protected LiteNetLib.Utils.NetPacketProcessor/SubscribeDelegate GetCallbackFromData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1F63F94
+    // Offset: 0x22B50A0
     LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate* GetCallbackFromData(LiteNetLib::Utils::NetDataReader* reader);
     // protected System.Void WriteHash(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0xFFFFFFFF
@@ -134,13 +134,13 @@ namespace LiteNetLib::Utils {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "RegisterNestedType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, constructor));
     }
     // public System.Void ReadAllPackets(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1F640D4
+    // Offset: 0x22B51E0
     void ReadAllPackets(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void ReadAllPackets(LiteNetLib.Utils.NetDataReader reader, System.Object userData)
-    // Offset: 0x1F6412C
+    // Offset: 0x22B5238
     void ReadAllPackets(LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData);
     // public System.Void ReadPacket(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1F64124
+    // Offset: 0x22B5230
     void ReadPacket(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Send(LiteNetLib.NetPeer peer, T packet, LiteNetLib.DeliveryMethod options)
     // Offset: 0xFFFFFFFF
@@ -195,7 +195,7 @@ namespace LiteNetLib::Utils {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<uint8_t>*>(this, "WriteNetSerializable", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, packet)));
     }
     // public System.Void ReadPacket(LiteNetLib.Utils.NetDataReader reader, System.Object userData)
-    // Offset: 0x1F64188
+    // Offset: 0x22B5294
     void ReadPacket(LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData);
     // public System.Void Subscribe(System.Action`1<T> onReceive, System.Func`1<T> packetConstructor)
     // Offset: 0xFFFFFFFF
@@ -256,7 +256,7 @@ namespace LiteNetLib::Utils {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(this, "RemoveSubscription", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // public System.Void .ctor()
-    // Offset: 0x1F63D48
+    // Offset: 0x22B4E54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NetPacketProcessor* New_ctor();

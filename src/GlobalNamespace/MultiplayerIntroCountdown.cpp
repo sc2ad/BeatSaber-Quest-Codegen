@@ -5,18 +5,16 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: MultiplayerIntroCountdown
 #include "GlobalNamespace/MultiplayerIntroCountdown.hpp"
-// Including type: MultiplayerIntroCountdown/<CountdownRoutine>d__24
-#include "GlobalNamespace/MultiplayerIntroCountdown_-CountdownRoutine-d__24.hpp"
-// Including type: MultiplayerIntroCountdown/<PlayDelayed>d__25
-#include "GlobalNamespace/MultiplayerIntroCountdown_-PlayDelayed-d__25.hpp"
-// Including type: MultiplayerIntroCountdown/<>c__DisplayClass26_0
-#include "GlobalNamespace/MultiplayerIntroCountdown_--c__DisplayClass26_0.hpp"
-// Including type: MultiplayerIntroCountdown/<PhaseRoutine>d__26
-#include "GlobalNamespace/MultiplayerIntroCountdown_-PhaseRoutine-d__26.hpp"
+// Including type: MultiplayerIntroCountdown/<CountdownRoutine>d__23
+#include "GlobalNamespace/MultiplayerIntroCountdown_-CountdownRoutine-d__23.hpp"
+// Including type: MultiplayerIntroCountdown/<PlayDelayed>d__24
+#include "GlobalNamespace/MultiplayerIntroCountdown_-PlayDelayed-d__24.hpp"
+// Including type: MultiplayerIntroCountdown/<>c__DisplayClass25_0
+#include "GlobalNamespace/MultiplayerIntroCountdown_--c__DisplayClass25_0.hpp"
+// Including type: MultiplayerIntroCountdown/<PhaseRoutine>d__25
+#include "GlobalNamespace/MultiplayerIntroCountdown_-PhaseRoutine-d__25.hpp"
 // Including type: UnityEngine.AudioClip
 #include "UnityEngine/AudioClip.hpp"
-// Including type: UnityEngine.ParticleSystem
-#include "UnityEngine/ParticleSystem.hpp"
 // Including type: MultiplayerIntroCountdownTextController
 #include "GlobalNamespace/MultiplayerIntroCountdownTextController.hpp"
 // Including type: UnityEngine.AudioSource

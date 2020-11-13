@@ -23,17 +23,17 @@ namespace LiteNetLib {
   class SimpleChannel : public LiteNetLib::BaseChannel {
     public:
     // public System.Void .ctor(LiteNetLib.NetPeer peer)
-    // Offset: 0x1813434
+    // Offset: 0x1DD2990
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Void BaseChannel::.ctor(LiteNetLib.NetPeer peer)
     static SimpleChannel* New_ctor(LiteNetLib::NetPeer* peer);
     // public override System.Void SendNextPackets()
-    // Offset: 0x1813438
+    // Offset: 0x1DD2994
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Void BaseChannel::SendNextPackets()
     void SendNextPackets();
     // public override System.Boolean ProcessPacket(LiteNetLib.NetPacket packet)
-    // Offset: 0x1813584
+    // Offset: 0x1DD2AE0
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Boolean BaseChannel::ProcessPacket(LiteNetLib.NetPacket packet)
     bool ProcessPacket(LiteNetLib::NetPacket* packet);

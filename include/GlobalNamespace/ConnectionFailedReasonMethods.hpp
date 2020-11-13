@@ -84,10 +84,10 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kConnectionFailedNetworkNotConnected
     static void _set_kConnectionFailedNetworkNotConnected(::Il2CppString* value);
     // static public System.String LocalizedKey(ConnectionFailedReason connectionFailedReason)
-    // Offset: 0x1FBB8A0
+    // Offset: 0x1A53DF0
     static ::Il2CppString* LocalizedKey(GlobalNamespace::ConnectionFailedReason connectionFailedReason);
     // static public System.String ErrorCode(ConnectionFailedReason connectionFailedReason)
-    // Offset: 0x1FBB908
+    // Offset: 0x1A53E58
     static ::Il2CppString* ErrorCode(GlobalNamespace::ConnectionFailedReason connectionFailedReason);
   }; // ConnectionFailedReasonMethods
 }

@@ -21,7 +21,7 @@ namespace System {
   class IOSelector : public ::Il2CppObject {
     public:
     // static public System.Void Add(System.IntPtr handle, System.IOSelectorJob job)
-    // Offset: 0x14F2054
+    // Offset: 0x1490E54
     static void Add(System::IntPtr handle, System::IOSelectorJob* job);
   }; // System.IOSelector
 }

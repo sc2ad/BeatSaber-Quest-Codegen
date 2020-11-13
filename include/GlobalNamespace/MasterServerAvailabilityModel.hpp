@@ -67,24 +67,24 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kRequestCacheTimeHours
     static void _set_kRequestCacheTimeHours(float value);
     // private System.Void Init()
-    // Offset: 0x1FC20C0
+    // Offset: 0x1A717C8
     void Init();
     // private System.Boolean IsAvailabilityTaskValid()
-    // Offset: 0x1FC21BC
+    // Offset: 0x1A718C4
     bool IsAvailabilityTaskValid();
     // private System.Void StartRequest()
-    // Offset: 0x1FC20C4
+    // Offset: 0x1A717CC
     void StartRequest();
     // private System.Threading.Tasks.Task`1<MasterServerAvailabilityData> GetAvailabilityAsyncInternal()
-    // Offset: 0x1FC22C8
+    // Offset: 0x1A719D0
     System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerAvailabilityData*>* GetAvailabilityAsyncInternal();
     // public System.Threading.Tasks.Task`1<MasterServerAvailabilityData> GetAvailabilityAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1FC2148
+    // Offset: 0x1A71850
     // Implemented from: IMasterServerAvailabilityModel
     // Base method: System.Threading.Tasks.Task`1<MasterServerAvailabilityData> IMasterServerAvailabilityModel::GetAvailabilityAsync(System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerAvailabilityData*>* GetAvailabilityAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x1FC23E0
+    // Offset: 0x1A71AE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MasterServerAvailabilityModel* New_ctor();

@@ -55,19 +55,19 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static private System.Byte[] Empty
     static void _set_Empty(::Array<uint8_t>* value);
     // System.Void .ctor(Mono.Security.X509.X509Certificate cert)
-    // Offset: 0x1477994
+    // Offset: 0x1461DA0
     static X509ExtensionCollection* New_ctor(Mono::Security::X509::X509Certificate* cert);
     // public System.Security.Cryptography.X509Certificates.X509Extension get_Item(System.String oid)
-    // Offset: 0x14769B0
+    // Offset: 0x1460DBC
     System::Security::Cryptography::X509Certificates::X509Extension* get_Item(::Il2CppString* oid);
     // public System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator GetEnumerator()
-    // Offset: 0x147E798
+    // Offset: 0x1468C50
     System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator* GetEnumerator();
     // static private System.Void .cctor()
-    // Offset: 0x14808CC
+    // Offset: 0x146AD84
     static void _cctor();
     // public System.Int32 get_Count()
-    // Offset: 0x1476DB4
+    // Offset: 0x14611C0
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();
@@ -75,12 +75,12 @@ namespace System::Security::Cryptography::X509Certificates {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x1480708
+    // Offset: 0x146ABC0
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1480868
+    // Offset: 0x146AD20
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

@@ -35,52 +35,52 @@ namespace RootMotion::FinalIK {
     // Offset: 0x40
     bool initiated;
     // public System.Boolean get_initiated()
-    // Offset: 0x18318B4
+    // Offset: 0x16F8F5C
     bool get_initiated();
     // private System.Void set_initiated(System.Boolean value)
-    // Offset: 0x18318BC
+    // Offset: 0x16F8F64
     void set_initiated(bool value);
     // public System.Boolean IsValid(ref System.String errorMessage)
-    // Offset: 0x18318C8
+    // Offset: 0x16F8F70
     bool IsValid(::Il2CppString*& errorMessage);
     // public System.Void AutoDetect()
-    // Offset: 0x1831954
+    // Offset: 0x16F8FFC
     void AutoDetect();
     // public System.Void AddFinger(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3, UnityEngine.Transform tip, UnityEngine.Transform target)
-    // Offset: 0x1831CC4
+    // Offset: 0x16F936C
     void AddFinger(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, UnityEngine::Transform* bone3, UnityEngine::Transform* tip, UnityEngine::Transform* target);
     // public System.Void RemoveFinger(System.Int32 index)
-    // Offset: 0x1831E84
+    // Offset: 0x16F952C
     void RemoveFinger(int index);
     // private System.Void AddChildrenRecursive(UnityEngine.Transform parent, ref UnityEngine.Transform[] array)
-    // Offset: 0x1831BB4
+    // Offset: 0x16F925C
     void AddChildrenRecursive(UnityEngine::Transform* parent, ::Array<UnityEngine::Transform*>*& array);
     // public System.Void UpdateFingerSolvers()
-    // Offset: 0x18320D0
+    // Offset: 0x16F9778
     void UpdateFingerSolvers();
     // public System.Void FixFingerTransforms()
-    // Offset: 0x183214C
+    // Offset: 0x16F97F4
     void FixFingerTransforms();
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x18321C4
+    // Offset: 0x16F986C
     void StoreDefaultLocalState();
     // protected override System.Void InitiateSolver()
-    // Offset: 0x1832008
+    // Offset: 0x16F96B0
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::InitiateSolver()
     void InitiateSolver();
     // protected override System.Void UpdateSolver()
-    // Offset: 0x1832230
+    // Offset: 0x16F98D8
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::UpdateSolver()
     void UpdateSolver();
     // protected override System.Void FixTransforms()
-    // Offset: 0x1832234
+    // Offset: 0x16F98DC
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::FixTransforms()
     void FixTransforms();
     // public System.Void .ctor()
-    // Offset: 0x1832248
+    // Offset: 0x16F98F0
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

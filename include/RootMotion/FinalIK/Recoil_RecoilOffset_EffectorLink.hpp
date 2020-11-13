@@ -22,7 +22,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x14
     float weight;
     // public System.Void .ctor()
-    // Offset: 0x16920F8
+    // Offset: 0x15E5CBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Recoil::RecoilOffset::EffectorLink* New_ctor();

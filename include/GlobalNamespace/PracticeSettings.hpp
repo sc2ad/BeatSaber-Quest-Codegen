@@ -29,37 +29,37 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kDelayBeforeStart
     static void _set_kDelayBeforeStart(float value);
     // public System.Single get_startSongTime()
-    // Offset: 0x209033C
+    // Offset: 0xF2BD58
     float get_startSongTime();
     // public System.Void set_startSongTime(System.Single value)
-    // Offset: 0x2090344
+    // Offset: 0xF2BD60
     void set_startSongTime(float value);
     // public System.Single get_songSpeedMul()
-    // Offset: 0x209034C
+    // Offset: 0xF2BD68
     float get_songSpeedMul();
     // public System.Void set_songSpeedMul(System.Single value)
-    // Offset: 0x2090354
+    // Offset: 0xF2BD70
     void set_songSpeedMul(float value);
     // public System.Boolean get_startInAdvanceAndClearNotes()
-    // Offset: 0x209035C
+    // Offset: 0xF2BD78
     bool get_startInAdvanceAndClearNotes();
     // public System.Void set_startInAdvanceAndClearNotes(System.Boolean value)
-    // Offset: 0x2090364
+    // Offset: 0xF2BD80
     void set_startInAdvanceAndClearNotes(bool value);
     // static public PracticeSettings get_defaultPracticeSettings()
-    // Offset: 0x2090370
+    // Offset: 0xF2BD8C
     static GlobalNamespace::PracticeSettings* get_defaultPracticeSettings();
     // public System.Void .ctor(PracticeSettings practiceSettings)
-    // Offset: 0x20903FC
+    // Offset: 0xF2BE18
     static PracticeSettings* New_ctor(GlobalNamespace::PracticeSettings* practiceSettings);
     // public System.Void .ctor(System.Single startSongTime, System.Single songSpeedMul)
-    // Offset: 0x208B568
+    // Offset: 0xF26E30
     static PracticeSettings* New_ctor(float startSongTime, float songSpeedMul);
     // public System.Void ResetToDefault()
-    // Offset: 0x20903E4
+    // Offset: 0xF2BE00
     void ResetToDefault();
     // public System.Void .ctor()
-    // Offset: 0x2087B5C
+    // Offset: 0xF274D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PracticeSettings* New_ctor();

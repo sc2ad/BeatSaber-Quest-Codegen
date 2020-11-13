@@ -41,12 +41,12 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // private System.Void MoveNext()
-    // Offset: 0xE4DC78
+    // Offset: 0xC92F44
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xE4DC80
+    // Offset: 0xC92F4C
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

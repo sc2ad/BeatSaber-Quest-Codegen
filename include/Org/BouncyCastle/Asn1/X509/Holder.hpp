@@ -46,16 +46,16 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x28
     int version;
     // static public Org.BouncyCastle.Asn1.X509.Holder GetInstance(System.Object obj)
-    // Offset: 0x160947C
+    // Offset: 0x1578278
     static Org::BouncyCastle::Asn1::X509::Holder* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1TaggedObject tagObj)
-    // Offset: 0x160D4B0
+    // Offset: 0x157C2AC
     static Holder* New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject* tagObj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x160D280
+    // Offset: 0x157C07C
     static Holder* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x160D600
+    // Offset: 0x157C3FC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

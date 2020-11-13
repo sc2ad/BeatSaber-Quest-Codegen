@@ -33,10 +33,10 @@ namespace HMUI {
     // Offset: 0x28
     HMUI::FlowCoordinator* flowCoordinatorToReplace;
     // System.Void <ReplaceChildFlowCoordinator>b__0()
-    // Offset: 0x21875C8
+    // Offset: 0x10B03C4
     void $ReplaceChildFlowCoordinator$b__0();
     // public System.Void .ctor()
-    // Offset: 0x2186644
+    // Offset: 0x10AF440
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FlowCoordinator::$$c__DisplayClass37_0* New_ctor();

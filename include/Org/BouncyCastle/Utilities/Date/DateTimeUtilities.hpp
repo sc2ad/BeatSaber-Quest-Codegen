@@ -18,13 +18,13 @@ namespace Org::BouncyCastle::Utilities::Date {
     // Set static field: static public readonly System.DateTime UnixEpoch
     static void _set_UnixEpoch(System::DateTime value);
     // static public System.Int64 DateTimeToUnixMs(System.DateTime dateTime)
-    // Offset: 0x1B355C0
+    // Offset: 0x18BD910
     static int64_t DateTimeToUnixMs(System::DateTime dateTime);
     // static public System.Int64 CurrentUnixMs()
-    // Offset: 0x1B35714
+    // Offset: 0x18BDA64
     static int64_t CurrentUnixMs();
     // static private System.Void .cctor()
-    // Offset: 0x1B357A4
+    // Offset: 0x18BDAF4
     static void _cctor();
   }; // Org.BouncyCastle.Utilities.Date.DateTimeUtilities
 }

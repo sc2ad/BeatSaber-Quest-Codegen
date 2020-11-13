@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class PureAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1F5CEA8
+    // Offset: 0x19EE88C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

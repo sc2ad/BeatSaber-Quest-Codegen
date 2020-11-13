@@ -33,16 +33,16 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Offset: 0x18
     Org::BouncyCastle::Asn1::Asn1OctetString* iv;
     // static public Org.BouncyCastle.Asn1.Pkcs.RC2CbcParameter GetInstance(System.Object obj)
-    // Offset: 0x140C448
+    // Offset: 0x13FE340
     static Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x140C5A4
+    // Offset: 0x13FE49C
     static RC2CbcParameter* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public System.Byte[] GetIV()
-    // Offset: 0x140C6EC
+    // Offset: 0x13FE5E4
     ::Array<uint8_t>* GetIV();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x140C774
+    // Offset: 0x13FE66C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

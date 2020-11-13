@@ -23,10 +23,10 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _randomValueID
     static void _set__randomValueID(int value);
     // public System.Void SetRandomValueToShaders()
-    // Offset: 0x1CFB59C
+    // Offset: 0x1878218
     void SetRandomValueToShaders();
     // public System.Void .ctor()
-    // Offset: 0x1D03764
+    // Offset: 0x18812A4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static RandomValueToShader* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1D03774
+    // Offset: 0x18812B4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

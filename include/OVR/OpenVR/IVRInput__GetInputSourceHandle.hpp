@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRInput::_GetInputSourceHandle : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AB50A4
+    // Offset: 0x18645DC
     static IVRInput::_GetInputSourceHandle* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRInputError Invoke(System.String pchInputSourcePath, ref System.UInt64 pHandle)
-    // Offset: 0x1AB50B8
+    // Offset: 0x18645F0
     OVR::OpenVR::EVRInputError Invoke(::Il2CppString* pchInputSourcePath, uint64_t& pHandle);
     // public System.IAsyncResult BeginInvoke(System.String pchInputSourcePath, ref System.UInt64 pHandle, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AB54C4
+    // Offset: 0x18649FC
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchInputSourcePath, uint64_t& pHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRInputError EndInvoke(ref System.UInt64 pHandle, System.IAsyncResult result)
-    // Offset: 0x1AB5560
+    // Offset: 0x1864A98
     OVR::OpenVR::EVRInputError EndInvoke(uint64_t& pHandle, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRInput/_GetInputSourceHandle
 }

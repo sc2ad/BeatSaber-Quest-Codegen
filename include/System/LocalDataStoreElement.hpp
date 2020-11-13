@@ -18,16 +18,16 @@ namespace System {
     // Offset: 0x18
     int64_t m_cookie;
     // public System.Void .ctor(System.Int64 cookie)
-    // Offset: 0x1372E78
+    // Offset: 0x13B4304
     static LocalDataStoreElement* New_ctor(int64_t cookie);
     // public System.Object get_Value()
-    // Offset: 0x1372EA4
+    // Offset: 0x13B4330
     ::Il2CppObject* get_Value();
     // public System.Void set_Value(System.Object value)
-    // Offset: 0x1372EAC
+    // Offset: 0x13B4338
     void set_Value(::Il2CppObject* value);
     // public System.Int64 get_Cookie()
-    // Offset: 0x1372EB4
+    // Offset: 0x13B4340
     int64_t get_Cookie();
   }; // System.LocalDataStoreElement
 }

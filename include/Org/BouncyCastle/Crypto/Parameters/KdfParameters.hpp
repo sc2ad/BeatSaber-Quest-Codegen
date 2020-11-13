@@ -24,13 +24,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDerivationParameters*>(this);
     }
     // public System.Void .ctor(System.Byte[] shared, System.Byte[] iv)
-    // Offset: 0xF4D314
+    // Offset: 0x1048D20
     static KdfParameters* New_ctor(::Array<uint8_t>* shared, ::Array<uint8_t>* iv);
     // public System.Byte[] GetSharedSecret()
-    // Offset: 0xF4D364
+    // Offset: 0x1048D70
     ::Array<uint8_t>* GetSharedSecret();
     // public System.Byte[] GetIV()
-    // Offset: 0xF4D36C
+    // Offset: 0x1048D78
     ::Array<uint8_t>* GetIV();
   }; // Org.BouncyCastle.Crypto.Parameters.KdfParameters
 }

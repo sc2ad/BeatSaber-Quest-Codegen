@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     // Offset: 0x1C
     float previewDuration;
     // public System.Void .ctor(UnityEngine.AudioClip audioClip, System.Single previewStartTime, System.Single previewDuration)
-    // Offset: 0x204BC34
+    // Offset: 0xF70444
     static MultiplayerLocalPlayerOutroAudio::InitData* New_ctor(UnityEngine::AudioClip* audioClip, float previewStartTime, float previewDuration);
   }; // MultiplayerLocalPlayerOutroAudio/InitData
 }

@@ -30,10 +30,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return lup;
     }
     // System.Boolean <BevelEdges>b__4(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x11C02A8
+    // Offset: 0x124B638
     bool $BevelEdges$b__4(UnityEngine::ProBuilder::WingedEdge* x);
     // public System.Void .ctor()
-    // Offset: 0x11BF4A0
+    // Offset: 0x124A830
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Bevel::$$c__DisplayClass0_1* New_ctor();

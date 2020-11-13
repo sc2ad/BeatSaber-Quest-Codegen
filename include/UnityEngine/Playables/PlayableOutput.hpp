@@ -42,10 +42,10 @@ namespace UnityEngine::Playables {
     // Set static field: static private readonly UnityEngine.Playables.PlayableOutput m_NullPlayableOutput
     static void _set_m_NullPlayableOutput(UnityEngine::Playables::PlayableOutput value);
     // static public UnityEngine.Playables.PlayableOutput get_Null()
-    // Offset: 0x193F8C8
+    // Offset: 0x17318FC
     static UnityEngine::Playables::PlayableOutput get_Null();
     // System.Void .ctor(UnityEngine.Playables.PlayableOutputHandle handle)
-    // Offset: 0xC7BBB0
+    // Offset: 0xCA73C8
     // ABORTED: conflicts with another method.  PlayableOutput(UnityEngine::Playables::PlayableOutputHandle handle);
     // public System.Boolean IsPlayableOutputOfType()
     // Offset: 0xFFFFFFFF
@@ -55,15 +55,15 @@ namespace UnityEngine::Playables {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(*this, "IsPlayableOutputOfType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1941AC0
+    // Offset: 0x1733AF4
     static void _cctor();
     // public UnityEngine.Playables.PlayableOutputHandle GetHandle()
-    // Offset: 0xC7BBB8
+    // Offset: 0xCA73D0
     // Implemented from: UnityEngine.Playables.IPlayableOutput
     // Base method: UnityEngine.Playables.PlayableOutputHandle IPlayableOutput::GetHandle()
     UnityEngine::Playables::PlayableOutputHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Playables.PlayableOutput other)
-    // Offset: 0xC7BBC4
+    // Offset: 0xCA73DC
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Playables.PlayableOutput other)
     bool Equals(UnityEngine::Playables::PlayableOutput other);

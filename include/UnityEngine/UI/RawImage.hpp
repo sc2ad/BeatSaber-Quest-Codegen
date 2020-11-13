@@ -34,19 +34,19 @@ namespace UnityEngine::UI {
     // Offset: 0xC8
     UnityEngine::Rect m_UVRect;
     // public UnityEngine.Texture get_texture()
-    // Offset: 0x15E311C
+    // Offset: 0x15677C0
     UnityEngine::Texture* get_texture();
     // public System.Void set_texture(UnityEngine.Texture value)
-    // Offset: 0x15E3124
+    // Offset: 0x15677C8
     void set_texture(UnityEngine::Texture* value);
     // public UnityEngine.Rect get_uvRect()
-    // Offset: 0x15E31F0
+    // Offset: 0x1567894
     UnityEngine::Rect get_uvRect();
     // public System.Void set_uvRect(UnityEngine.Rect value)
-    // Offset: 0x15E31FC
+    // Offset: 0x15678A0
     void set_uvRect(UnityEngine::Rect value);
     // protected System.Void .ctor()
-    // Offset: 0x15E2F44
+    // Offset: 0x15675E8
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::.ctor()
     // Base method: System.Void Graphic::.ctor()
@@ -58,22 +58,22 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static RawImage* New_ctor();
     // public override UnityEngine.Texture get_mainTexture()
-    // Offset: 0x15E2F9C
+    // Offset: 0x1567640
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: UnityEngine.Texture Graphic::get_mainTexture()
     UnityEngine::Texture* get_mainTexture();
     // public override System.Void SetNativeSize()
-    // Offset: 0x15E328C
+    // Offset: 0x1567930
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::SetNativeSize()
     void SetNativeSize();
     // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x15E3450
+    // Offset: 0x1567AF4
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
     void OnPopulateMesh(UnityEngine::UI::VertexHelper* vh);
     // protected override System.Void OnDidApplyAnimationProperties()
-    // Offset: 0x15E3888
+    // Offset: 0x1567F2C
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnDidApplyAnimationProperties()
     void OnDidApplyAnimationProperties();

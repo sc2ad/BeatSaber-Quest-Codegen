@@ -75,24 +75,24 @@ namespace System::Net {
     // Offset: 0x40
     System::Net::TimerThread::TimerNode* prev;
     // System.Net.TimerThread/TimerNode get_Next()
-    // Offset: 0x118B73C
+    // Offset: 0x1216ACC
     System::Net::TimerThread::TimerNode* get_Next();
     // System.Void set_Next(System.Net.TimerThread/TimerNode value)
-    // Offset: 0x118B744
+    // Offset: 0x1216AD4
     void set_Next(System::Net::TimerThread::TimerNode* value);
     // System.Net.TimerThread/TimerNode get_Prev()
-    // Offset: 0x118B74C
+    // Offset: 0x1216ADC
     System::Net::TimerThread::TimerNode* get_Prev();
     // System.Void set_Prev(System.Net.TimerThread/TimerNode value)
-    // Offset: 0x118B754
+    // Offset: 0x1216AE4
     void set_Prev(System::Net::TimerThread::TimerNode* value);
     // System.Void .ctor()
-    // Offset: 0x118B700
+    // Offset: 0x1216A90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TimerThread::TimerNode* New_ctor();
     // override System.Boolean Cancel()
-    // Offset: 0x118B75C
+    // Offset: 0x1216AEC
     // Implemented from: System.Net.TimerThread/Timer
     // Base method: System.Boolean Timer::Cancel()
     bool Cancel();

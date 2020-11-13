@@ -23,18 +23,18 @@ namespace UnityEngine {
   class UnityException : public System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x173E654
+    // Offset: 0x16C9534
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static UnityException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1738F04
+    // Offset: 0x16C3D54
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     static UnityException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x173E6D8
+    // Offset: 0x16C95B8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static UnityException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

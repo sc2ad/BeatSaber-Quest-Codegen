@@ -47,46 +47,46 @@ namespace Org::BouncyCastle::Crypto::Encodings {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher)
-    // Offset: 0x14D546C
+    // Offset: 0x14C060C
     static OaepEncoding* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest hash)
-    // Offset: 0x14D54F0
+    // Offset: 0x14C0690
     static OaepEncoding* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, Org::BouncyCastle::Crypto::IDigest* hash);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest hash, System.Byte[] encodingParams)
-    // Offset: 0x14D54E4
+    // Offset: 0x14C0684
     static OaepEncoding* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, Org::BouncyCastle::Crypto::IDigest* hash, ::Array<uint8_t>* encodingParams);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest hash, Org.BouncyCastle.Crypto.IDigest mgf1Hash, System.Byte[] encodingParams)
-    // Offset: 0x14D54FC
+    // Offset: 0x14C069C
     static OaepEncoding* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, Org::BouncyCastle::Crypto::IDigest* hash, Org::BouncyCastle::Crypto::IDigest* mgf1Hash, ::Array<uint8_t>* encodingParams);
     // private System.Byte[] EncodeBlock(System.Byte[] inBytes, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x14D5A74
+    // Offset: 0x14C0C14
     ::Array<uint8_t>* EncodeBlock(::Array<uint8_t>* inBytes, int inOff, int inLen);
     // private System.Byte[] DecodeBlock(System.Byte[] inBytes, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x14D5D94
+    // Offset: 0x14C0F34
     ::Array<uint8_t>* DecodeBlock(::Array<uint8_t>* inBytes, int inOff, int inLen);
     // private System.Void ItoOSP(System.Int32 i, System.Byte[] sp)
-    // Offset: 0x14D6708
+    // Offset: 0x14C18A8
     void ItoOSP(int i, ::Array<uint8_t>* sp);
     // private System.Byte[] maskGeneratorFunction1(System.Byte[] Z, System.Int32 zOff, System.Int32 zLen, System.Int32 length)
-    // Offset: 0x14D61F8
+    // Offset: 0x14C1398
     ::Array<uint8_t>* maskGeneratorFunction1(::Array<uint8_t>* Z, int zOff, int zLen, int length);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters param)
-    // Offset: 0x14D576C
+    // Offset: 0x14C090C
     // Implemented from: Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
     // Base method: System.Void IAsymmetricBlockCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters param)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* param);
     // public System.Int32 GetInputBlockSize()
-    // Offset: 0x14D58B4
+    // Offset: 0x14C0A54
     // Implemented from: Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
     // Base method: System.Int32 IAsymmetricBlockCipher::GetInputBlockSize()
     int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x14D598C
+    // Offset: 0x14C0B2C
     // Implemented from: Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
     // Base method: System.Int32 IAsymmetricBlockCipher::GetOutputBlockSize()
     int GetOutputBlockSize();
     // public System.Byte[] ProcessBlock(System.Byte[] inBytes, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x14D5A64
+    // Offset: 0x14C0C04
     // Implemented from: Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
     // Base method: System.Byte[] IAsymmetricBlockCipher::ProcessBlock(System.Byte[] inBytes, System.Int32 inOff, System.Int32 inLen)
     ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* inBytes, int inOff, int inLen);

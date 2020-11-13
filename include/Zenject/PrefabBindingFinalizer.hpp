@@ -67,16 +67,16 @@ namespace Zenject {
     // Deleting conversion operator: operator Zenject::BindInfo*
     constexpr operator Zenject::BindInfo*() const noexcept = delete;
     // public System.Void .ctor(Zenject.BindInfo bindInfo, Zenject.GameObjectCreationParameters gameObjectBindInfo, UnityEngine.Object prefab, System.Func`3<System.Type,Zenject.IPrefabInstantiator,Zenject.IProvider> providerFactory)
-    // Offset: 0x12E9FB8
+    // Offset: 0x13497A4
     static PrefabBindingFinalizer* New_ctor(Zenject::BindInfo* bindInfo, Zenject::GameObjectCreationParameters* gameObjectBindInfo, UnityEngine::Object* prefab, System::Func_3<System::Type*, Zenject::IPrefabInstantiator*, Zenject::IProvider*>* providerFactory);
     // private System.Void FinalizeBindingConcrete(Zenject.DiContainer container, System.Collections.Generic.List`1<System.Type> concreteTypes)
-    // Offset: 0x12EA3F0
+    // Offset: 0x1349BDC
     void FinalizeBindingConcrete(Zenject::DiContainer* container, System::Collections::Generic::List_1<System::Type*>* concreteTypes);
     // private System.Void FinalizeBindingSelf(Zenject.DiContainer container)
-    // Offset: 0x12EA104
+    // Offset: 0x13498F0
     void FinalizeBindingSelf(Zenject::DiContainer* container);
     // protected override System.Void OnFinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x12EA06C
+    // Offset: 0x1349858
     // Implemented from: Zenject.ProviderBindingFinalizer
     // Base method: System.Void ProviderBindingFinalizer::OnFinalizeBinding(Zenject.DiContainer container)
     void OnFinalizeBinding(Zenject::DiContainer* container);

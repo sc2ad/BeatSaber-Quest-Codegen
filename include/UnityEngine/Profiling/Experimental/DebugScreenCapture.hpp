@@ -32,16 +32,16 @@ namespace UnityEngine::Profiling::Experimental {
     // Creating value type constructor for type: DebugScreenCapture
     constexpr DebugScreenCapture(Unity::Collections::NativeArray_1<uint8_t> rawImageDataReference_ = {}, UnityEngine::TextureFormat imageFormat_ = {}, int width_ = {}, int height_ = {}) noexcept : rawImageDataReference{rawImageDataReference_}, imageFormat{imageFormat_}, width{width_}, height{height_} {}
     // public System.Void set_rawImageDataReference(Unity.Collections.NativeArray`1<System.Byte> value)
-    // Offset: 0xC7BD18
+    // Offset: 0xCA7530
     void set_rawImageDataReference(Unity::Collections::NativeArray_1<uint8_t> value);
     // public System.Void set_imageFormat(UnityEngine.TextureFormat value)
-    // Offset: 0xC7BD20
+    // Offset: 0xCA7538
     void set_imageFormat(UnityEngine::TextureFormat value);
     // public System.Void set_width(System.Int32 value)
-    // Offset: 0xC7BD28
+    // Offset: 0xCA7540
     void set_width(int value);
     // public System.Void set_height(System.Int32 value)
-    // Offset: 0xC7BD30
+    // Offset: 0xCA7548
     void set_height(int value);
   }; // UnityEngine.Profiling.Experimental.DebugScreenCapture
 }

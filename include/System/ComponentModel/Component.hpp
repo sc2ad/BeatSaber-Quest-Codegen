@@ -46,30 +46,30 @@ namespace System::ComponentModel {
     // Set static field: static private readonly System.Object EventDisposed
     static void _set_EventDisposed(::Il2CppObject* value);
     // protected System.Boolean get_CanRaiseEvents()
-    // Offset: 0x14E1658
+    // Offset: 0x1480238
     bool get_CanRaiseEvents();
     // System.Boolean get_CanRaiseEventsInternal()
-    // Offset: 0x14E1660
+    // Offset: 0x1480240
     bool get_CanRaiseEventsInternal();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x14E16E8
+    // Offset: 0x14802C8
     void Dispose(bool disposing);
     // protected System.Object GetService(System.Type service)
-    // Offset: 0x14E1A20
+    // Offset: 0x1480600
     ::Il2CppObject* GetService(System::Type* service);
     // protected System.Boolean get_DesignMode()
-    // Offset: 0x14E1AF0
+    // Offset: 0x14806D0
     bool get_DesignMode();
     // static private System.Void .cctor()
-    // Offset: 0x14E1CE0
+    // Offset: 0x14808C0
     static void _cctor();
     // protected override System.Void Finalize()
-    // Offset: 0x14E15E4
+    // Offset: 0x14801C4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public System.Void Dispose()
-    // Offset: 0x14E166C
+    // Offset: 0x148024C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -77,12 +77,12 @@ namespace System::ComponentModel {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public override System.String ToString()
-    // Offset: 0x14E1BB0
+    // Offset: 0x1480790
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0x14E1CD8
+    // Offset: 0x14808B8
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()

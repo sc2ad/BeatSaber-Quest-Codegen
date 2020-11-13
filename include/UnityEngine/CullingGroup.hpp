@@ -27,7 +27,7 @@ namespace UnityEngine {
     // Offset: 0x18
     UnityEngine::CullingGroup::StateChanged* m_OnStateChanged;
     // static private System.Void SendEvents(UnityEngine.CullingGroup cullingGroup, System.IntPtr eventsPtr, System.Int32 count)
-    // Offset: 0x178E13C
+    // Offset: 0x1683E6C
     static void SendEvents(UnityEngine::CullingGroup* cullingGroup, System::IntPtr eventsPtr, int count);
   }; // UnityEngine.CullingGroup
 }

@@ -137,144 +137,144 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x12C
     UnityEngine::EventSystems::PointerEventData::InputButton button;
     // public UnityEngine.GameObject get_pointerEnter()
-    // Offset: 0x10798E0
+    // Offset: 0x1150210
     UnityEngine::GameObject* get_pointerEnter();
     // public System.Void set_pointerEnter(UnityEngine.GameObject value)
-    // Offset: 0x10798E8
+    // Offset: 0x1150218
     void set_pointerEnter(UnityEngine::GameObject* value);
     // public UnityEngine.GameObject get_lastPress()
-    // Offset: 0x10798F0
+    // Offset: 0x1150220
     UnityEngine::GameObject* get_lastPress();
     // private System.Void set_lastPress(UnityEngine.GameObject value)
-    // Offset: 0x10798F8
+    // Offset: 0x1150228
     void set_lastPress(UnityEngine::GameObject* value);
     // public UnityEngine.GameObject get_rawPointerPress()
-    // Offset: 0x1079900
+    // Offset: 0x1150230
     UnityEngine::GameObject* get_rawPointerPress();
     // public System.Void set_rawPointerPress(UnityEngine.GameObject value)
-    // Offset: 0x1079908
+    // Offset: 0x1150238
     void set_rawPointerPress(UnityEngine::GameObject* value);
     // public UnityEngine.GameObject get_pointerDrag()
-    // Offset: 0x1079910
+    // Offset: 0x1150240
     UnityEngine::GameObject* get_pointerDrag();
     // public System.Void set_pointerDrag(UnityEngine.GameObject value)
-    // Offset: 0x1079918
+    // Offset: 0x1150248
     void set_pointerDrag(UnityEngine::GameObject* value);
     // public UnityEngine.EventSystems.RaycastResult get_pointerCurrentRaycast()
-    // Offset: 0x1079920
+    // Offset: 0x1150250
     UnityEngine::EventSystems::RaycastResult get_pointerCurrentRaycast();
     // public System.Void set_pointerCurrentRaycast(UnityEngine.EventSystems.RaycastResult value)
-    // Offset: 0x1079930
+    // Offset: 0x1150260
     void set_pointerCurrentRaycast(UnityEngine::EventSystems::RaycastResult value);
     // public UnityEngine.EventSystems.RaycastResult get_pointerPressRaycast()
-    // Offset: 0x1079960
+    // Offset: 0x1150290
     UnityEngine::EventSystems::RaycastResult get_pointerPressRaycast();
     // public System.Void set_pointerPressRaycast(UnityEngine.EventSystems.RaycastResult value)
-    // Offset: 0x1079970
+    // Offset: 0x11502A0
     void set_pointerPressRaycast(UnityEngine::EventSystems::RaycastResult value);
     // public System.Boolean get_eligibleForClick()
-    // Offset: 0x10799A0
+    // Offset: 0x11502D0
     bool get_eligibleForClick();
     // public System.Void set_eligibleForClick(System.Boolean value)
-    // Offset: 0x10799A8
+    // Offset: 0x11502D8
     void set_eligibleForClick(bool value);
     // public System.Int32 get_pointerId()
-    // Offset: 0x10799B4
+    // Offset: 0x11502E4
     int get_pointerId();
     // public System.Void set_pointerId(System.Int32 value)
-    // Offset: 0x10799BC
+    // Offset: 0x11502EC
     void set_pointerId(int value);
     // public UnityEngine.Vector2 get_position()
-    // Offset: 0x10799C4
+    // Offset: 0x11502F4
     UnityEngine::Vector2 get_position();
     // public System.Void set_position(UnityEngine.Vector2 value)
-    // Offset: 0x10799CC
+    // Offset: 0x11502FC
     void set_position(UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_delta()
-    // Offset: 0x10799D4
+    // Offset: 0x1150304
     UnityEngine::Vector2 get_delta();
     // public System.Void set_delta(UnityEngine.Vector2 value)
-    // Offset: 0x10799DC
+    // Offset: 0x115030C
     void set_delta(UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_pressPosition()
-    // Offset: 0x10799E4
+    // Offset: 0x1150314
     UnityEngine::Vector2 get_pressPosition();
     // public System.Void set_pressPosition(UnityEngine.Vector2 value)
-    // Offset: 0x10799EC
+    // Offset: 0x115031C
     void set_pressPosition(UnityEngine::Vector2 value);
     // public UnityEngine.Vector3 get_worldPosition()
-    // Offset: 0x10799F4
+    // Offset: 0x1150324
     UnityEngine::Vector3 get_worldPosition();
     // public System.Void set_worldPosition(UnityEngine.Vector3 value)
-    // Offset: 0x1079A04
+    // Offset: 0x1150334
     void set_worldPosition(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_worldNormal()
-    // Offset: 0x1079A14
+    // Offset: 0x1150344
     UnityEngine::Vector3 get_worldNormal();
     // public System.Void set_worldNormal(UnityEngine.Vector3 value)
-    // Offset: 0x1079A24
+    // Offset: 0x1150354
     void set_worldNormal(UnityEngine::Vector3 value);
     // public System.Single get_clickTime()
-    // Offset: 0x1079A34
+    // Offset: 0x1150364
     float get_clickTime();
     // public System.Void set_clickTime(System.Single value)
-    // Offset: 0x1079A3C
+    // Offset: 0x115036C
     void set_clickTime(float value);
     // public System.Int32 get_clickCount()
-    // Offset: 0x1079A44
+    // Offset: 0x1150374
     int get_clickCount();
     // public System.Void set_clickCount(System.Int32 value)
-    // Offset: 0x1079A4C
+    // Offset: 0x115037C
     void set_clickCount(int value);
     // public UnityEngine.Vector2 get_scrollDelta()
-    // Offset: 0x1079A54
+    // Offset: 0x1150384
     UnityEngine::Vector2 get_scrollDelta();
     // public System.Void set_scrollDelta(UnityEngine.Vector2 value)
-    // Offset: 0x1079A60
+    // Offset: 0x1150390
     void set_scrollDelta(UnityEngine::Vector2 value);
     // public System.Boolean get_useDragThreshold()
-    // Offset: 0x1079A6C
+    // Offset: 0x115039C
     bool get_useDragThreshold();
     // public System.Void set_useDragThreshold(System.Boolean value)
-    // Offset: 0x1079A74
+    // Offset: 0x11503A4
     void set_useDragThreshold(bool value);
     // public System.Boolean get_dragging()
-    // Offset: 0x1079A80
+    // Offset: 0x11503B0
     bool get_dragging();
     // public System.Void set_dragging(System.Boolean value)
-    // Offset: 0x1079A88
+    // Offset: 0x11503B8
     void set_dragging(bool value);
     // public UnityEngine.EventSystems.PointerEventData/InputButton get_button()
-    // Offset: 0x1079A94
+    // Offset: 0x11503C4
     UnityEngine::EventSystems::PointerEventData::InputButton get_button();
     // public System.Void set_button(UnityEngine.EventSystems.PointerEventData/InputButton value)
-    // Offset: 0x1079A9C
+    // Offset: 0x11503CC
     void set_button(UnityEngine::EventSystems::PointerEventData::InputButton value);
     // public System.Boolean IsPointerMoving()
-    // Offset: 0x1079BB4
+    // Offset: 0x11504E4
     bool IsPointerMoving();
     // public System.Boolean IsScrolling()
-    // Offset: 0x1079BE8
+    // Offset: 0x1150518
     bool IsScrolling();
     // public UnityEngine.Camera get_enterEventCamera()
-    // Offset: 0x1079C1C
+    // Offset: 0x115054C
     UnityEngine::Camera* get_enterEventCamera();
     // public UnityEngine.Camera get_pressEventCamera()
-    // Offset: 0x1079CBC
+    // Offset: 0x11505EC
     UnityEngine::Camera* get_pressEventCamera();
     // public UnityEngine.GameObject get_pointerPress()
-    // Offset: 0x1079D5C
+    // Offset: 0x115068C
     UnityEngine::GameObject* get_pointerPress();
     // public System.Void set_pointerPress(UnityEngine.GameObject value)
-    // Offset: 0x1079D64
+    // Offset: 0x1150694
     void set_pointerPress(UnityEngine::GameObject* value);
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
-    // Offset: 0x1079AA4
+    // Offset: 0x11503D4
     // Implemented from: UnityEngine.EventSystems.BaseEventData
     // Base method: System.Void BaseEventData::.ctor(UnityEngine.EventSystems.EventSystem eventSystem)
     static PointerEventData* New_ctor(UnityEngine::EventSystems::EventSystem* eventSystem);
     // public override System.String ToString()
-    // Offset: 0x1079E18
+    // Offset: 0x1150748
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

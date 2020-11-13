@@ -35,23 +35,23 @@ namespace GlobalNamespace {
     // Offset: 0x60
     UnityEngine::UI::Image* highlightImage;
     // public System.Void set_text(System.String value)
-    // Offset: 0x2020FE0
+    // Offset: 0x1A10DE8
     void set_text(::Il2CppString* value);
     // public System.String get_text()
-    // Offset: 0x2020FFC
+    // Offset: 0x1A10E04
     ::Il2CppString* get_text();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x2021018
+    // Offset: 0x1A10E20
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x20210B0
+    // Offset: 0x1A10EB8
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0x20210EC
+    // Offset: 0x1A10EF4
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

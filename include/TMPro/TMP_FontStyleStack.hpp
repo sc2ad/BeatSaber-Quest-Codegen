@@ -53,13 +53,13 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_FontStyleStack
     constexpr TMP_FontStyleStack(uint8_t bold_ = {}, uint8_t italic_ = {}, uint8_t underline_ = {}, uint8_t strikethrough_ = {}, uint8_t highlight_ = {}, uint8_t superscript_ = {}, uint8_t subscript_ = {}, uint8_t uppercase_ = {}, uint8_t lowercase_ = {}, uint8_t smallcaps_ = {}) noexcept : bold{bold_}, italic{italic_}, underline{underline_}, strikethrough{strikethrough_}, highlight{highlight_}, superscript{superscript_}, subscript{subscript_}, uppercase{uppercase_}, lowercase{lowercase_}, smallcaps{smallcaps_} {}
     // public System.Void Clear()
-    // Offset: 0xC58BA0
+    // Offset: 0xC92C04
     void Clear();
     // public System.Byte Add(TMPro.FontStyles style)
-    // Offset: 0xC58BAC
+    // Offset: 0xC92C10
     uint8_t Add(TMPro::FontStyles style);
     // public System.Byte Remove(TMPro.FontStyles style)
-    // Offset: 0xC58BB4
+    // Offset: 0xC92C18
     uint8_t Remove(TMPro::FontStyles style);
   }; // TMPro.TMP_FontStyleStack
 }

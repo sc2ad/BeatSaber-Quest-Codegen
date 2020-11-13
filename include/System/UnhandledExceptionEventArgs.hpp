@@ -20,13 +20,13 @@ namespace System {
     // Offset: 0x18
     bool IsTerminating;
     // public System.Void .ctor(System.Object exception, System.Boolean isTerminating)
-    // Offset: 0x170D210
+    // Offset: 0x165EDD4
     static UnhandledExceptionEventArgs* New_ctor(::Il2CppObject* exception, bool isTerminating);
     // public System.Object get_ExceptionObject()
-    // Offset: 0x170D2A4
+    // Offset: 0x165EE68
     ::Il2CppObject* get_ExceptionObject();
     // public System.Boolean get_IsTerminating()
-    // Offset: 0x170D2AC
+    // Offset: 0x165EE70
     bool get_IsTerminating();
   }; // System.UnhandledExceptionEventArgs
 }

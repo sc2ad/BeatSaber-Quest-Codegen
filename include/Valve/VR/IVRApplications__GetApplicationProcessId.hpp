@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRApplications::_GetApplicationProcessId : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x130E558
+    // Offset: 0x136DD44
     static IVRApplications::_GetApplicationProcessId* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.String pchAppKey)
-    // Offset: 0x130310C
+    // Offset: 0x13628F8
     uint Invoke(::Il2CppString* pchAppKey);
     // public System.IAsyncResult BeginInvoke(System.String pchAppKey, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x130E56C
+    // Offset: 0x136DD58
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchAppKey, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x130E590
+    // Offset: 0x136DD7C
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRApplications/_GetApplicationProcessId
 }

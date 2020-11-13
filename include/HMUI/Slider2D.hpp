@@ -88,106 +88,106 @@ namespace HMUI {
       return *reinterpret_cast<UnityEngine::UI::ICanvasElement*>(this);
     }
     // public UnityEngine.RectTransform get_handleRect()
-    // Offset: 0x21753C4
+    // Offset: 0x1085248
     UnityEngine::RectTransform* get_handleRect();
     // public System.Void set_handleRect(UnityEngine.RectTransform value)
-    // Offset: 0x21753CC
+    // Offset: 0x1085250
     void set_handleRect(UnityEngine::RectTransform* value);
     // public System.Void set_handleColor(UnityEngine.Color value)
-    // Offset: 0x21755D0
+    // Offset: 0x1085454
     void set_handleColor(UnityEngine::Color value);
     // public UnityEngine.Vector2 get_normalizedValue()
-    // Offset: 0x21756A4
+    // Offset: 0x1085528
     UnityEngine::Vector2 get_normalizedValue();
     // public System.Void set_normalizedValue(UnityEngine.Vector2 value)
-    // Offset: 0x21756AC
+    // Offset: 0x1085530
     void set_normalizedValue(UnityEngine::Vector2 value);
     // public System.Void add_normalizedValueDidChangeEvent(System.Action`2<HMUI.Slider2D,UnityEngine.Vector2> value)
-    // Offset: 0x21757EC
+    // Offset: 0x1085670
     void add_normalizedValueDidChangeEvent(System::Action_2<HMUI::Slider2D*, UnityEngine::Vector2>* value);
     // public System.Void remove_normalizedValueDidChangeEvent(System.Action`2<HMUI.Slider2D,UnityEngine.Vector2> value)
-    // Offset: 0x2175894
+    // Offset: 0x1085718
     void remove_normalizedValueDidChangeEvent(System::Action_2<HMUI::Slider2D*, UnityEngine::Vector2>* value);
     // private System.Void UpdateCachedReferences()
-    // Offset: 0x217545C
+    // Offset: 0x10852E0
     void UpdateCachedReferences();
     // private System.Void SetNormalizedValue(UnityEngine.Vector2 input)
-    // Offset: 0x21759C4
+    // Offset: 0x1085848
     void SetNormalizedValue(UnityEngine::Vector2 input);
     // private System.Void SetNormalizedValue(UnityEngine.Vector2 input, System.Boolean sendCallback)
-    // Offset: 0x21756B4
+    // Offset: 0x1085538
     void SetNormalizedValue(UnityEngine::Vector2 input, bool sendCallback);
     // protected System.Void UpdateVisuals()
-    // Offset: 0x2175A20
+    // Offset: 0x10858A4
     void UpdateVisuals();
     // private System.Void UpdateDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x2175BEC
+    // Offset: 0x1085A70
     void UpdateDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // private System.Boolean MayDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x2175DB0
+    // Offset: 0x1085C34
     bool MayDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void Rebuild(UnityEngine.UI.CanvasUpdate executing)
-    // Offset: 0x217593C
+    // Offset: 0x10857C0
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::Rebuild(UnityEngine.UI.CanvasUpdate executing)
     void Rebuild(UnityEngine::UI::CanvasUpdate executing);
     // public System.Void LayoutComplete()
-    // Offset: 0x2175940
+    // Offset: 0x10857C4
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::LayoutComplete()
     void LayoutComplete();
     // public System.Void GraphicUpdateComplete()
-    // Offset: 0x2175944
+    // Offset: 0x10857C8
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::GraphicUpdateComplete()
     void GraphicUpdateComplete();
     // protected override System.Void OnEnable()
-    // Offset: 0x2175948
+    // Offset: 0x10857CC
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x2175994
+    // Offset: 0x1085818
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnDisable()
     void OnDisable();
     // protected override System.Void OnRectTransformDimensionsChange()
-    // Offset: 0x21759CC
+    // Offset: 0x1085850
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnRectTransformDimensionsChange()
     void OnRectTransformDimensionsChange();
     // public System.Void OnBeginDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x2175E18
+    // Offset: 0x1085C9C
     // Implemented from: UnityEngine.EventSystems.IBeginDragHandler
     // Base method: System.Void IBeginDragHandler::OnBeginDrag(UnityEngine.EventSystems.PointerEventData eventData)
     void OnBeginDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x2175EB4
+    // Offset: 0x1085D38
     // Implemented from: UnityEngine.EventSystems.IDragHandler
     // Base method: System.Void IDragHandler::OnDrag(UnityEngine.EventSystems.PointerEventData eventData)
     void OnDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // public override System.Void OnPointerDown(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x2175F60
+    // Offset: 0x1085DE4
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnPointerDown(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerDown(UnityEngine::EventSystems::PointerEventData* eventData);
     // public override System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x217601C
+    // Offset: 0x1085EA0
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
-    // Offset: 0x2176024
+    // Offset: 0x1085EA8
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
     void DoStateTransition(UnityEngine::UI::Selectable::SelectionState state, bool instant);
     // public System.Void OnInitializePotentialDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x2176030
+    // Offset: 0x1085EB4
     // Implemented from: UnityEngine.EventSystems.IInitializePotentialDragHandler
     // Base method: System.Void IInitializePotentialDragHandler::OnInitializePotentialDrag(UnityEngine.EventSystems.PointerEventData eventData)
     void OnInitializePotentialDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x2176048
+    // Offset: 0x1085ECC
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -198,7 +198,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static Slider2D* New_ctor();
     // private UnityEngine.Transform UnityEngine.UI.ICanvasElement.get_transform()
-    // Offset: 0x21760B0
+    // Offset: 0x1085F34
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();

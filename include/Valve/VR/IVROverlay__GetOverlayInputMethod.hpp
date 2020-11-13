@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVROverlay::_GetOverlayInputMethod : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1B8E3A4
+    // Offset: 0x18F21BC
     static IVROverlay::_GetOverlayInputMethod* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, ref Valve.VR.VROverlayInputMethod peInputMethod)
-    // Offset: 0x1B8E3B8
+    // Offset: 0x18F21D0
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, Valve::VR::VROverlayInputMethod& peInputMethod);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, ref Valve.VR.VROverlayInputMethod peInputMethod, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1B8E63C
+    // Offset: 0x18F2454
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::VROverlayInputMethod& peInputMethod, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(ref Valve.VR.VROverlayInputMethod peInputMethod, System.IAsyncResult result)
-    // Offset: 0x1B8E6EC
+    // Offset: 0x18F2504
     Valve::VR::EVROverlayError EndInvoke(Valve::VR::VROverlayInputMethod& peInputMethod, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetOverlayInputMethod
 }

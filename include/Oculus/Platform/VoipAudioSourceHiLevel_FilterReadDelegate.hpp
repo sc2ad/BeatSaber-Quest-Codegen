@@ -24,13 +24,13 @@ namespace Oculus::Platform {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Awake()
-    // Offset: 0x1F6B178
+    // Offset: 0x19FB4F8
     void Awake();
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0x1F6B238
+    // Offset: 0x19FB5B8
     void OnAudioFilterRead(::Array<float>* data, int channels);
     // public System.Void .ctor()
-    // Offset: 0x1F6B730
+    // Offset: 0x19FBAB0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

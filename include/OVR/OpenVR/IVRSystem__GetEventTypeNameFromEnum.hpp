@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_GetEventTypeNameFromEnum : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C94444
+    // Offset: 0x191261C
     static IVRSystem::_GetEventTypeNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(OVR.OpenVR.EVREventType eType)
-    // Offset: 0x1C94458
+    // Offset: 0x1912630
     System::IntPtr Invoke(OVR::OpenVR::EVREventType eType);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EVREventType eType, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C946CC
+    // Offset: 0x19128A4
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVREventType eType, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C94758
+    // Offset: 0x1912930
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetEventTypeNameFromEnum
 }

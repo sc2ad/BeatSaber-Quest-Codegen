@@ -34,22 +34,22 @@ namespace System::Security::Util {
     // Offset: 0x18
     System::Security::Util::Tokenizer* t;
     // System.Security.SecurityElement GetTopElement()
-    // Offset: 0x12114CC
+    // Offset: 0x1286584
     System::Security::SecurityElement* GetTopElement();
     // private System.Void GetRequiredSizes(System.Security.Util.TokenizerStream stream, ref System.Int32 index)
-    // Offset: 0x1211500
+    // Offset: 0x12865B8
     void GetRequiredSizes(System::Security::Util::TokenizerStream* stream, int& index);
     // private System.Int32 DetermineFormat(System.Security.Util.TokenizerStream stream)
-    // Offset: 0x1211C68
+    // Offset: 0x1286D20
     int DetermineFormat(System::Security::Util::TokenizerStream* stream);
     // private System.Void ParseContents()
-    // Offset: 0x1212BF8
+    // Offset: 0x1287CB0
     void ParseContents();
     // private System.Void .ctor(System.Security.Util.Tokenizer t)
-    // Offset: 0x1213068
+    // Offset: 0x1288120
     static Parser* New_ctor(System::Security::Util::Tokenizer* t);
     // System.Void .ctor(System.String input)
-    // Offset: 0x121317C
+    // Offset: 0x1288234
     static Parser* New_ctor(::Il2CppString* input);
   }; // System.Security.Util.Parser
 }

@@ -46,34 +46,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_edgeDistanceFromCenterWasCalculatedEvent(System.Action`1<System.Single> value)
-    // Offset: 0x205DBE0
+    // Offset: 0xFA74E8
     void add_edgeDistanceFromCenterWasCalculatedEvent(System::Action_1<float>* value);
     // public System.Void remove_edgeDistanceFromCenterWasCalculatedEvent(System.Action`1<System.Single> value)
-    // Offset: 0x205DC84
+    // Offset: 0xFA758C
     void remove_edgeDistanceFromCenterWasCalculatedEvent(System::Action_1<float>* value);
     // public System.Boolean get_isEdgeDistanceFromCenterCalculated()
-    // Offset: 0x205DD28
+    // Offset: 0xFA7630
     bool get_isEdgeDistanceFromCenterCalculated();
     // private System.Void set_isEdgeDistanceFromCenterCalculated(System.Boolean value)
-    // Offset: 0x205DD30
+    // Offset: 0xFA7638
     void set_isEdgeDistanceFromCenterCalculated(bool value);
     // public System.Single get_edgeDistanceFromCenter()
-    // Offset: 0x205DD3C
+    // Offset: 0xFA7644
     float get_edgeDistanceFromCenter();
     // private System.Void set_edgeDistanceFromCenter(System.Single value)
-    // Offset: 0x205DD44
+    // Offset: 0xFA764C
     void set_edgeDistanceFromCenter(float value);
     // protected System.Void Start()
-    // Offset: 0x205DD4C
+    // Offset: 0xFA7654
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x205DEE0
+    // Offset: 0xFA7888
     void OnDestroy();
     // private System.Void HandlePlayersLayoutWasCalculated(MultiplayerPlayerLayout layout, System.Int32 numberOfPlayers)
-    // Offset: 0x205DE00
+    // Offset: 0xFA7704
     void HandlePlayersLayoutWasCalculated(GlobalNamespace::MultiplayerPlayerLayout layout, int numberOfPlayers);
     // public System.Void .ctor()
-    // Offset: 0x205DF80
+    // Offset: 0xFA79C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

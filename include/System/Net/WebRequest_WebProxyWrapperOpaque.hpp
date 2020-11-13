@@ -41,17 +41,17 @@ namespace System::Net {
       return webProxy;
     }
     // public System.Uri GetProxy(System.Uri destination)
-    // Offset: 0x119E4CC
+    // Offset: 0x122985C
     // Implemented from: System.Net.IWebProxy
     // Base method: System.Uri IWebProxy::GetProxy(System.Uri destination)
     System::Uri* GetProxy(System::Uri* destination);
     // public System.Boolean IsBypassed(System.Uri host)
-    // Offset: 0x119E4E4
+    // Offset: 0x1229874
     // Implemented from: System.Net.IWebProxy
     // Base method: System.Boolean IWebProxy::IsBypassed(System.Uri host)
     bool IsBypassed(System::Uri* host);
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x119E4FC
+    // Offset: 0x122988C
     // Implemented from: System.Net.IWebProxy
     // Base method: System.Net.ICredentials IWebProxy::get_Credentials()
     System::Net::ICredentials* get_Credentials();

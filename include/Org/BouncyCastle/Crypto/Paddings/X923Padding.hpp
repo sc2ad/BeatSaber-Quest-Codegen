@@ -32,22 +32,22 @@ namespace Org::BouncyCastle::Crypto::Paddings {
       return random;
     }
     // public System.Void Init(Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0xF46AAC
+    // Offset: 0x10424B8
     // Implemented from: Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding
     // Base method: System.Void IBlockCipherPadding::Init(Org.BouncyCastle.Security.SecureRandom random)
     void Init(Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Int32 AddPadding(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0xF46AB4
+    // Offset: 0x10424C0
     // Implemented from: Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding
     // Base method: System.Int32 IBlockCipherPadding::AddPadding(System.Byte[] input, System.Int32 inOff)
     int AddPadding(::Array<uint8_t>* input, int inOff);
     // public System.Int32 PadCount(System.Byte[] input)
-    // Offset: 0xF46B9C
+    // Offset: 0x10425A8
     // Implemented from: Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding
     // Base method: System.Int32 IBlockCipherPadding::PadCount(System.Byte[] input)
     int PadCount(::Array<uint8_t>* input);
     // public System.Void .ctor()
-    // Offset: 0xF46C4C
+    // Offset: 0x1042658
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static X923Padding* New_ctor();

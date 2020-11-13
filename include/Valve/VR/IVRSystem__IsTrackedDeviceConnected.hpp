@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRSystem::_IsTrackedDeviceConnected : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1CB198C
+    // Offset: 0x192FB64
     static IVRSystem::_IsTrackedDeviceConnected* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.UInt32 unDeviceIndex)
-    // Offset: 0x1CB19A0
+    // Offset: 0x192FB78
     bool Invoke(uint unDeviceIndex);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceIndex, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1CB1C18
+    // Offset: 0x192FDF0
     System::IAsyncResult* BeginInvoke(uint unDeviceIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1CB1CA4
+    // Offset: 0x192FE7C
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_IsTrackedDeviceConnected
 }

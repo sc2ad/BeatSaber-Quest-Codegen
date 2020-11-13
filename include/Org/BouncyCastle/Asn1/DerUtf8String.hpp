@@ -29,23 +29,23 @@ namespace Org::BouncyCastle::Asn1 {
       return str;
     }
     // public System.Void .ctor(System.Byte[] str)
-    // Offset: 0x1315F94
+    // Offset: 0x1374780
     static DerUtf8String* New_ctor(::Array<uint8_t>* str);
     // public System.Void .ctor(System.String str)
-    // Offset: 0x1327778
+    // Offset: 0x1385F64
     static DerUtf8String* New_ctor(::Il2CppString* str);
     // public override System.String GetString()
-    // Offset: 0x132781C
+    // Offset: 0x1386008
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::GetString()
     ::Il2CppString* GetString();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x1327824
+    // Offset: 0x1386010
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x13278D8
+    // Offset: 0x13860C4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);

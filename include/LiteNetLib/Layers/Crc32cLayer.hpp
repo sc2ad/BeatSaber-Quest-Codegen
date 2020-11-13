@@ -21,17 +21,17 @@ namespace LiteNetLib::Layers {
   class Crc32cLayer : public LiteNetLib::Layers::PacketLayerBase {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1804CBC
+    // Offset: 0x1DC4024
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Crc32cLayer* New_ctor();
     // public override System.Void ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x1804D14
+    // Offset: 0x1DC407C
     // Implemented from: LiteNetLib.Layers.PacketLayerBase
     // Base method: System.Void PacketLayerBase::ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
     void ProcessInboundPacket(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length);
     // public override System.Void ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x1805374
+    // Offset: 0x1DC46DC
     // Implemented from: LiteNetLib.Layers.PacketLayerBase
     // Base method: System.Void PacketLayerBase::ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
     void ProcessOutBoundPacket(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length);

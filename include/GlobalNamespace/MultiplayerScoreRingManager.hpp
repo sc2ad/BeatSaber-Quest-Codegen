@@ -103,49 +103,49 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1FD93E0
+    // Offset: 0xF80218
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1FD9AB0
+    // Offset: 0xF808E8
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1FD9DD0
+    // Offset: 0xF80C08
     void Update();
     // private System.Void UpdateScore(IConnectedPlayer playerToUpdate)
-    // Offset: 0x1FD9EB4
+    // Offset: 0xF80CEC
     void UpdateScore(GlobalNamespace::IConnectedPlayer* playerToUpdate);
     // public System.Void AnimateColorsForPlayer(System.String userId, UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x1FDA08C
+    // Offset: 0xF80EC4
     void AnimateColorsForPlayer(::Il2CppString* userId, UnityEngine::Color nameColor, UnityEngine::Color scoreColor, float duration, Tweening::EaseType easeType);
     // public System.Void AnimateColorsForAllPlayers(UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x1FD35D0
+    // Offset: 0xF7A4A0
     void AnimateColorsForAllPlayers(UnityEngine::Color nameColor, UnityEngine::Color scoreColor, float duration, Tweening::EaseType easeType);
     // private System.Void SetPlayerToFailedState(IConnectedPlayer player)
-    // Offset: 0x1FDA1F8
+    // Offset: 0xF81030
     void SetPlayerToFailedState(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void TrySpawnTexts()
-    // Offset: 0x1FDA308
+    // Offset: 0xF81140
     void TrySpawnTexts();
     // private System.Void SpawnTexts()
-    // Offset: 0x1FDA320
+    // Offset: 0xF81158
     void SpawnTexts();
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x1FD959C
+    // Offset: 0xF803D4
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // private System.Void HandleSpawnCenterDistanceWasFound(System.Single spawnCenterDistance)
-    // Offset: 0x1FD956C
+    // Offset: 0xF803A4
     void HandleSpawnCenterDistanceWasFound(float spawnCenterDistance);
     // private System.Void HandlePlayerSpawningDidFinish()
-    // Offset: 0x1FD9584
+    // Offset: 0xF803BC
     void HandlePlayerSpawningDidFinish();
     // private System.Void HandlePlayerStateChanged(IConnectedPlayer player)
-    // Offset: 0x1FDA950
+    // Offset: 0xF81788
     void HandlePlayerStateChanged(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandlePlayerDisconnected(IConnectedPlayer player)
-    // Offset: 0x1FDA994
+    // Offset: 0xF817CC
     void HandlePlayerDisconnected(GlobalNamespace::IConnectedPlayer* player);
     // public System.Void .ctor()
-    // Offset: 0x1FDA998
+    // Offset: 0xF817D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

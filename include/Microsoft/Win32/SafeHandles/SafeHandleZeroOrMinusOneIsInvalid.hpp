@@ -14,10 +14,10 @@ namespace Microsoft::Win32::SafeHandles {
   class SafeHandleZeroOrMinusOneIsInvalid : public System::Runtime::InteropServices::SafeHandle {
     public:
     // protected System.Void .ctor(System.Boolean ownsHandle)
-    // Offset: 0x1578050
+    // Offset: 0x15168C0
     static SafeHandleZeroOrMinusOneIsInvalid* New_ctor(bool ownsHandle);
     // public override System.Boolean get_IsInvalid()
-    // Offset: 0x15781D0
+    // Offset: 0x1516A40
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::get_IsInvalid()
     bool get_IsInvalid();

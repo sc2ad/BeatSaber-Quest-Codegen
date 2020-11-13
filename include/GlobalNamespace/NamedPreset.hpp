@@ -19,10 +19,10 @@ namespace GlobalNamespace {
       return presetNameLocalizationKey;
     }
     // public System.String get_presetNameLocalizationKey()
-    // Offset: 0x1FDD8F0
+    // Offset: 0xFD6288
     ::Il2CppString* get_presetNameLocalizationKey();
     // public System.Void .ctor()
-    // Offset: 0x1FDD8F8
+    // Offset: 0xFD6290
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NamedPreset* New_ctor();

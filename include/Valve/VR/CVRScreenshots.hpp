@@ -42,28 +42,28 @@ namespace Valve::VR {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x130C0F0
+    // Offset: 0x136B8DC
     static CVRScreenshots* New_ctor(System::IntPtr pInterface);
     // public Valve.VR.EVRScreenshotError RequestScreenshot(ref System.UInt32 pOutScreenshotHandle, Valve.VR.EVRScreenshotType type, System.String pchPreviewFilename, System.String pchVRFilename)
-    // Offset: 0x130C20C
+    // Offset: 0x136B9F8
     Valve::VR::EVRScreenshotError RequestScreenshot(uint& pOutScreenshotHandle, Valve::VR::EVRScreenshotType type, ::Il2CppString* pchPreviewFilename, ::Il2CppString* pchVRFilename);
     // public Valve.VR.EVRScreenshotError HookScreenshot(Valve.VR.EVRScreenshotType[] pSupportedTypes)
-    // Offset: 0x130C22C
+    // Offset: 0x136BA18
     Valve::VR::EVRScreenshotError HookScreenshot(::Array<Valve::VR::EVRScreenshotType>* pSupportedTypes);
     // public Valve.VR.EVRScreenshotType GetScreenshotPropertyType(System.UInt32 screenshotHandle, ref Valve.VR.EVRScreenshotError pError)
-    // Offset: 0x130C254
+    // Offset: 0x136BA40
     Valve::VR::EVRScreenshotType GetScreenshotPropertyType(uint screenshotHandle, Valve::VR::EVRScreenshotError& pError);
     // public System.UInt32 GetScreenshotPropertyFilename(System.UInt32 screenshotHandle, Valve.VR.EVRScreenshotPropertyFilenames filenameType, System.Text.StringBuilder pchFilename, System.UInt32 cchFilename, ref Valve.VR.EVRScreenshotError pError)
-    // Offset: 0x130C270
+    // Offset: 0x136BA5C
     uint GetScreenshotPropertyFilename(uint screenshotHandle, Valve::VR::EVRScreenshotPropertyFilenames filenameType, System::Text::StringBuilder* pchFilename, uint cchFilename, Valve::VR::EVRScreenshotError& pError);
     // public Valve.VR.EVRScreenshotError UpdateScreenshotProgress(System.UInt32 screenshotHandle, System.Single flProgress)
-    // Offset: 0x12FED98
+    // Offset: 0x135E584
     Valve::VR::EVRScreenshotError UpdateScreenshotProgress(uint screenshotHandle, float flProgress);
     // public Valve.VR.EVRScreenshotError TakeStereoScreenshot(ref System.UInt32 pOutScreenshotHandle, System.String pchPreviewFilename, System.String pchVRFilename)
-    // Offset: 0x130C28C
+    // Offset: 0x136BA78
     Valve::VR::EVRScreenshotError TakeStereoScreenshot(uint& pOutScreenshotHandle, ::Il2CppString* pchPreviewFilename, ::Il2CppString* pchVRFilename);
     // public Valve.VR.EVRScreenshotError SubmitScreenshot(System.UInt32 screenshotHandle, Valve.VR.EVRScreenshotType type, System.String pchSourcePreviewFilename, System.String pchSourceVRFilename)
-    // Offset: 0x130C2AC
+    // Offset: 0x136BA98
     Valve::VR::EVRScreenshotError SubmitScreenshot(uint screenshotHandle, Valve::VR::EVRScreenshotType type, ::Il2CppString* pchSourcePreviewFilename, ::Il2CppString* pchSourceVRFilename);
   }; // Valve.VR.CVRScreenshots
 }

@@ -38,10 +38,10 @@ namespace System::Runtime::Serialization {
       return type;
     }
     // System.Reflection.MemberInfo[] <GetSerializableMembers>b__0(System.Runtime.Serialization.MemberHolder _)
-    // Offset: 0x12E0540
+    // Offset: 0x133FD2C
     ::Array<System::Reflection::MemberInfo*>* $GetSerializableMembers$b__0(System::Runtime::Serialization::MemberHolder* _);
     // public System.Void .ctor()
-    // Offset: 0x12DF284
+    // Offset: 0x133EA70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FormatterServices::$$c__DisplayClass9_0* New_ctor();

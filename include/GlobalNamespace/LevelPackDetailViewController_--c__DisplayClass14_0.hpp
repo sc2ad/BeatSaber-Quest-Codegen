@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::LevelPackDetailViewController* $$4__this;
     // System.Void <DidActivate>b__1()
-    // Offset: 0x20BDFB0
+    // Offset: 0x1AC2C0C
     void $DidActivate$b__1();
     // System.Void <DidActivate>b__2()
-    // Offset: 0x20BDFE0
+    // Offset: 0x1AC2CDC
     void $DidActivate$b__2();
     // public System.Void .ctor()
-    // Offset: 0x20BDA58
+    // Offset: 0x1AC255C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LevelPackDetailViewController::$$c__DisplayClass14_0* New_ctor();

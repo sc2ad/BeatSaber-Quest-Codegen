@@ -29,13 +29,13 @@ namespace Zenject::Internal {
     // Offset: 0x18
     System::Reflection::PropertyInfo* propInfo;
     // System.Void <GetSetter>b__0(System.Object injectable, System.Object value)
-    // Offset: 0x122E600
+    // Offset: 0x12A36B8
     void $GetSetter$b__0(::Il2CppObject* injectable, ::Il2CppObject* value);
     // System.Void <GetSetter>b__1(System.Object injectable, System.Object value)
-    // Offset: 0x122E61C
+    // Offset: 0x12A36D4
     void $GetSetter$b__1(::Il2CppObject* injectable, ::Il2CppObject* value);
     // public System.Void .ctor()
-    // Offset: 0x122E2D0
+    // Offset: 0x12A3388
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ReflectionInfoTypeInfoConverter::$$c__DisplayClass9_0* New_ctor();

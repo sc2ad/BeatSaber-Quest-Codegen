@@ -54,15 +54,15 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
     // public System.Void .ctor(NUnit.Framework.Internal.Test test, NUnit.Framework.Interfaces.ResultState resultState, System.String message)
-    // Offset: 0x10AEA98
+    // Offset: 0x11843C8
     static FailCommand* New_ctor(NUnit::Framework::Internal::Test* test, NUnit::Framework::Interfaces::ResultState* resultState, ::Il2CppString* message);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x10AEAE8
+    // Offset: 0x1184418
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
     // public System.Collections.IEnumerable ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x10AEC10
+    // Offset: 0x1184540
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.IEnumerableTestMethodCommand
     // Base method: System.Collections.IEnumerable IEnumerableTestMethodCommand::ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
     System::Collections::IEnumerable* ExecuteEnumerable(NUnit::Framework::Internal::ITestExecutionContext* context);

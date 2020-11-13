@@ -27,34 +27,34 @@ namespace Mono::Security {
     // Offset: 0x18
     Mono::Security::ASN1* content;
     // public System.Void .ctor(System.String oid)
-    // Offset: 0x19296F0
+    // Offset: 0x17B8878
     static PKCS7::ContentInfo* New_ctor(::Il2CppString* oid);
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x1929720
+    // Offset: 0x17B88A8
     static PKCS7::ContentInfo* New_ctor(::Array<uint8_t>* data);
     // public System.Void .ctor(Mono.Security.ASN1 asn1)
-    // Offset: 0x1929790
+    // Offset: 0x17B8918
     static PKCS7::ContentInfo* New_ctor(Mono::Security::ASN1* asn1);
     // public Mono.Security.ASN1 get_ASN1()
-    // Offset: 0x1929950
+    // Offset: 0x17B8AD8
     Mono::Security::ASN1* get_ASN1();
     // public Mono.Security.ASN1 get_Content()
-    // Offset: 0x1929A1C
+    // Offset: 0x17B8BA4
     Mono::Security::ASN1* get_Content();
     // public System.Void set_Content(Mono.Security.ASN1 value)
-    // Offset: 0x1929A24
+    // Offset: 0x17B8BAC
     void set_Content(Mono::Security::ASN1* value);
     // public System.String get_ContentType()
-    // Offset: 0x1929A2C
+    // Offset: 0x17B8BB4
     ::Il2CppString* get_ContentType();
     // public System.Void set_ContentType(System.String value)
-    // Offset: 0x1929A34
+    // Offset: 0x17B8BBC
     void set_ContentType(::Il2CppString* value);
     // Mono.Security.ASN1 GetASN1()
-    // Offset: 0x1929954
+    // Offset: 0x17B8ADC
     Mono::Security::ASN1* GetASN1();
     // public System.Void .ctor()
-    // Offset: 0x1929664
+    // Offset: 0x17B87EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PKCS7::ContentInfo* New_ctor();

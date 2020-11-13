@@ -63,40 +63,40 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void add_sceneSetupDidFinishEvent(System.Action value)
-    // Offset: 0x21FA9B8
+    // Offset: 0x1E54CD8
     void add_sceneSetupDidFinishEvent(System::Action* value);
     // public System.Void remove_sceneSetupDidFinishEvent(System.Action value)
-    // Offset: 0x21FAA5C
+    // Offset: 0x1E54D7C
     void remove_sceneSetupDidFinishEvent(System::Action* value);
     // public System.Void add_sceneSetupDidReceiveTooLateEvent(System.Action value)
-    // Offset: 0x21FAB00
+    // Offset: 0x1E54E20
     void add_sceneSetupDidReceiveTooLateEvent(System::Action* value);
     // public System.Void remove_sceneSetupDidReceiveTooLateEvent(System.Action value)
-    // Offset: 0x21FABA4
+    // Offset: 0x1E54EC4
     void remove_sceneSetupDidReceiveTooLateEvent(System::Action* value);
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, PlayersAtGameStartModel playersAtGameStartModel)
-    // Offset: 0x21FAC48
+    // Offset: 0x1E54F68
     static SceneStartHandler* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, GlobalNamespace::PlayersAtGameStartModel* playersAtGameStartModel);
     // public System.Void GetSceneLoadStatus()
-    // Offset: 0x21FB04C
+    // Offset: 0x1E5536C
     void GetSceneLoadStatus();
     // public System.Void ForceStart()
-    // Offset: 0x21FB5C8
+    // Offset: 0x1E558E8
     void ForceStart();
     // private System.Void HandleSetGameplaySceneReady(System.String userId)
-    // Offset: 0x21FBBFC
+    // Offset: 0x1E55F1C
     void HandleSetGameplaySceneReady(::Il2CppString* userId);
     // private System.Void HandleGetGameplaySceneReady(System.String userId)
-    // Offset: 0x21FBF74
+    // Offset: 0x1E56294
     void HandleGetGameplaySceneReady(::Il2CppString* userId);
     // private System.Void HandleSetGameplaySceneSyncFinished(System.String userId, PlayersAtGameStartNetSerializable playersAtGameStart)
-    // Offset: 0x21FC028
+    // Offset: 0x1E56348
     void HandleSetGameplaySceneSyncFinished(::Il2CppString* userId, GlobalNamespace::PlayersAtGameStartNetSerializable* playersAtGameStart);
     // private System.Void HandleSetPlayerDidConnectLate(System.String userId, System.String failedUserId, PlayersAtGameStartNetSerializable playersAtGameStart)
-    // Offset: 0x21FC080
+    // Offset: 0x1E563A0
     void HandleSetPlayerDidConnectLate(::Il2CppString* userId, ::Il2CppString* failedUserId, GlobalNamespace::PlayersAtGameStartNetSerializable* playersAtGameStart);
     // public System.Void Dispose()
-    // Offset: 0x21FAD10
+    // Offset: 0x1E55030
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

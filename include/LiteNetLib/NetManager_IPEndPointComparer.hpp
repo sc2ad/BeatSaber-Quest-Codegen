@@ -27,17 +27,17 @@ namespace LiteNetLib {
       return *reinterpret_cast<System::Collections::Generic::IEqualityComparer_1<System::Net::IPEndPoint*>*>(this);
     }
     // public System.Boolean Equals(System.Net.IPEndPoint x, System.Net.IPEndPoint y)
-    // Offset: 0x180DE5C
+    // Offset: 0x1DCD214
     // Implemented from: System.Collections.Generic.IEqualityComparer`1
     // Base method: System.Boolean IEqualityComparer_1::Equals(System.Net.IPEndPoint x, System.Net.IPEndPoint y)
     bool Equals(System::Net::IPEndPoint* x, System::Net::IPEndPoint* y);
     // public System.Int32 GetHashCode(System.Net.IPEndPoint obj)
-    // Offset: 0x180DEBC
+    // Offset: 0x1DCD274
     // Implemented from: System.Collections.Generic.IEqualityComparer`1
     // Base method: System.Int32 IEqualityComparer_1::GetHashCode(System.Net.IPEndPoint obj)
     int GetHashCode(System::Net::IPEndPoint* obj);
     // public System.Void .ctor()
-    // Offset: 0x1808468
+    // Offset: 0x1DC77D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NetManager::IPEndPointComparer* New_ctor();

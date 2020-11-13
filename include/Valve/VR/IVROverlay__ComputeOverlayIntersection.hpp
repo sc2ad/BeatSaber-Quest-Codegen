@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVROverlay::_ComputeOverlayIntersection : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1B8A214
+    // Offset: 0x18EE02C
     static IVROverlay::_ComputeOverlayIntersection* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.UInt64 ulOverlayHandle, ref Valve.VR.VROverlayIntersectionParams_t pParams, ref Valve.VR.VROverlayIntersectionResults_t pResults)
-    // Offset: 0x1B8A228
+    // Offset: 0x18EE040
     bool Invoke(uint64_t ulOverlayHandle, Valve::VR::VROverlayIntersectionParams_t& pParams, Valve::VR::VROverlayIntersectionResults_t& pResults);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, ref Valve.VR.VROverlayIntersectionParams_t pParams, ref Valve.VR.VROverlayIntersectionResults_t pResults, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1B8A4C4
+    // Offset: 0x18EE2DC
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::VROverlayIntersectionParams_t& pParams, Valve::VR::VROverlayIntersectionResults_t& pResults, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref Valve.VR.VROverlayIntersectionParams_t pParams, ref Valve.VR.VROverlayIntersectionResults_t pResults, System.IAsyncResult result)
-    // Offset: 0x1B8A598
+    // Offset: 0x18EE3B0
     bool EndInvoke(Valve::VR::VROverlayIntersectionParams_t& pParams, Valve::VR::VROverlayIntersectionResults_t& pResults, System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_ComputeOverlayIntersection
 }

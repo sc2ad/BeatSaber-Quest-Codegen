@@ -36,13 +36,13 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0x30
     UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* Triangle;
     // public System.Void .ctor(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point)
-    // Offset: 0x1F15B38
+    // Offset: 0x19AB750
     static AdvancingFrontNode* New_ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
     // public System.Boolean get_HasNext()
-    // Offset: 0x1F15B80
+    // Offset: 0x19AB798
     bool get_HasNext();
     // public System.Boolean get_HasPrev()
-    // Offset: 0x1F15B90
+    // Offset: 0x19AB7A8
     bool get_HasPrev();
   }; // UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode
 }

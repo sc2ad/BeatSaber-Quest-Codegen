@@ -51,16 +51,16 @@ namespace LiteNetLib {
     // Set static field: static public System.Int32 HeaderSize
     static void _set_HeaderSize(int value);
     // private System.Void .ctor(System.Int64 connectionTime, System.Byte connectionNumber, System.Byte[] targetAddress, LiteNetLib.Utils.NetDataReader data)
-    // Offset: 0x1806EBC
+    // Offset: 0x1DC6224
     static NetConnectRequestPacket* New_ctor(int64_t connectionTime, uint8_t connectionNumber, ::Array<uint8_t>* targetAddress, LiteNetLib::Utils::NetDataReader* data);
     // static public System.Int32 GetProtocolId(LiteNetLib.NetPacket packet)
-    // Offset: 0x1806F24
+    // Offset: 0x1DC628C
     static int GetProtocolId(LiteNetLib::NetPacket* packet);
     // static public LiteNetLib.NetConnectRequestPacket FromData(LiteNetLib.NetPacket packet)
-    // Offset: 0x1806F9C
+    // Offset: 0x1DC6304
     static LiteNetLib::NetConnectRequestPacket* FromData(LiteNetLib::NetPacket* packet);
     // static public LiteNetLib.NetPacket Make(LiteNetLib.Utils.NetDataWriter connectData, System.Net.SocketAddress addressBytes, System.Int64 connectId)
-    // Offset: 0x18071E4
+    // Offset: 0x1DC654C
     static LiteNetLib::NetPacket* Make(LiteNetLib::Utils::NetDataWriter* connectData, System::Net::SocketAddress* addressBytes, int64_t connectId);
   }; // LiteNetLib.NetConnectRequestPacket
 }

@@ -53,31 +53,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Single get_destRotZ()
-    // Offset: 0x1F9BB24
+    // Offset: 0xFED1D8
     float get_destRotZ();
     // public System.Void Init(UnityEngine.Vector3 position, UnityEngine.Vector3 positionOffset)
-    // Offset: 0x1F9BB2C
+    // Offset: 0xFED1E0
     void Init(UnityEngine::Vector3 position, UnityEngine::Vector3 positionOffset);
     // public System.Void FixedUpdateRing(System.Single fixedDeltaTime)
-    // Offset: 0x1F9BC20
+    // Offset: 0xFED2D4
     void FixedUpdateRing(float fixedDeltaTime);
     // public System.Void LateUpdateRing(System.Single interpolationFactor)
-    // Offset: 0x1F9BCE0
+    // Offset: 0xFED394
     void LateUpdateRing(float interpolationFactor);
     // public System.Void SetDestRotation(System.Single destRotZ, System.Single rotateSpeed)
-    // Offset: 0x1F9BDA0
+    // Offset: 0xFED454
     void SetDestRotation(float destRotZ, float rotateSpeed);
     // public System.Single GetRotation()
-    // Offset: 0x1F9BDA8
+    // Offset: 0xFED45C
     float GetRotation();
     // public System.Single GetDestinationRotation()
-    // Offset: 0x1F9BDB0
+    // Offset: 0xFED464
     float GetDestinationRotation();
     // public System.Void SetPosition(System.Single destPosZ, System.Single moveSpeed)
-    // Offset: 0x1F9BDB8
+    // Offset: 0xFED46C
     void SetPosition(float destPosZ, float moveSpeed);
     // public System.Void .ctor()
-    // Offset: 0x1F9BDC0
+    // Offset: 0xFED474
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

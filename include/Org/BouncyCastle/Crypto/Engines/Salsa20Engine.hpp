@@ -68,58 +68,58 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static protected readonly System.Byte[] tau
     static void _set_tau(::Array<uint8_t>* value);
     // System.Void PackTauOrSigma(System.Int32 keyLength, System.UInt32[] state, System.Int32 stateOffset)
-    // Offset: 0x19D8F14
+    // Offset: 0x180A0F4
     void PackTauOrSigma(int keyLength, ::Array<uint>* state, int stateOffset);
     // public System.Void .ctor(System.Int32 rounds)
-    // Offset: 0x19D9118
+    // Offset: 0x180A2F8
     static Salsa20Engine* New_ctor(int rounds);
     // protected System.Int32 get_NonceSize()
-    // Offset: 0x19D9588
+    // Offset: 0x180A768
     int get_NonceSize();
     // public System.String get_AlgorithmName()
-    // Offset: 0x19D9590
+    // Offset: 0x180A770
     ::Il2CppString* get_AlgorithmName();
     // protected System.Void AdvanceCounter()
-    // Offset: 0x19D9664
+    // Offset: 0x180A844
     void AdvanceCounter();
     // protected System.Void ResetCounter()
-    // Offset: 0x19D9990
+    // Offset: 0x180AB70
     void ResetCounter();
     // protected System.Void SetKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x19D99C8
+    // Offset: 0x180ABA8
     void SetKey(::Array<uint8_t>* keyBytes, ::Array<uint8_t>* ivBytes);
     // protected System.Void GenerateKeyStream(System.Byte[] output)
-    // Offset: 0x19D9C30
+    // Offset: 0x180AE10
     void GenerateKeyStream(::Array<uint8_t>* output);
     // static System.Void SalsaCore(System.Int32 rounds, System.UInt32[] input, System.UInt32[] x)
-    // Offset: 0x19D9CCC
+    // Offset: 0x180AEAC
     static void SalsaCore(int rounds, ::Array<uint>* input, ::Array<uint>* x);
     // private System.Void ResetLimitCounter()
-    // Offset: 0x19D9984
+    // Offset: 0x180AB64
     void ResetLimitCounter();
     // private System.Boolean LimitExceeded(System.UInt32 len)
-    // Offset: 0x19D992C
+    // Offset: 0x180AB0C
     bool LimitExceeded(uint len);
     // static private System.Void .cctor()
-    // Offset: 0x19DA344
+    // Offset: 0x180B524
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x19D90A8
+    // Offset: 0x180A288
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Salsa20Engine* New_ctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x19D9228
+    // Offset: 0x180A408
     // Implemented from: Org.BouncyCastle.Crypto.IStreamCipher
     // Base method: System.Void IStreamCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x19D96C8
+    // Offset: 0x180A8A8
     // Implemented from: Org.BouncyCastle.Crypto.IStreamCipher
     // Base method: System.Void IStreamCipher::ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len, System.Byte[] outBytes, System.Int32 outOff)
     void ProcessBytes(::Array<uint8_t>* inBytes, int inOff, int len, ::Array<uint8_t>* outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x19D9968
+    // Offset: 0x180AB48
     // Implemented from: Org.BouncyCastle.Crypto.IStreamCipher
     // Base method: System.Void IStreamCipher::Reset()
     void Reset();

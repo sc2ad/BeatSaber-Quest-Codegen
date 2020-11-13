@@ -60,47 +60,47 @@ namespace MasterServer {
     // Set static field: static public System.Int32 kMaximumDataSize
     static void _set_kMaximumDataSize(int value);
     // private System.Void set_multipartMessageId(System.UInt32 value)
-    // Offset: 0x2168FE8
+    // Offset: 0x1B5662C
     void set_multipartMessageId(uint value);
     // private System.Void set_offset(System.Int32 value)
-    // Offset: 0x2168FF8
+    // Offset: 0x1B5663C
     void set_offset(int value);
     // private System.Void set_length(System.Int32 value)
-    // Offset: 0x2169008
+    // Offset: 0x1B5664C
     void set_length(int value);
     // private System.Void set_totalLength(System.Int32 value)
-    // Offset: 0x2169018
+    // Offset: 0x1B5665C
     void set_totalLength(int value);
     // public MasterServer.BaseMasterServerMultipartMessage Init(System.UInt32 multipartMessageId, System.Byte[] data, System.Int32 offset, System.Int32 length, System.Int32 totalLength)
-    // Offset: 0x2169028
+    // Offset: 0x1B5666C
     MasterServer::BaseMasterServerMultipartMessage* Init(uint multipartMessageId, ::Array<uint8_t>* data, int offset, int length, int totalLength);
     // public System.UInt32 get_multipartMessageId()
-    // Offset: 0x2168FE0
+    // Offset: 0x1B56624
     // Implemented from: MasterServer.IMasterServerMultipartMessage
     // Base method: System.UInt32 IMasterServerMultipartMessage::get_multipartMessageId()
     uint get_multipartMessageId();
     // public System.Int32 get_offset()
-    // Offset: 0x2168FF0
+    // Offset: 0x1B56634
     // Implemented from: MasterServer.IMasterServerMultipartMessage
     // Base method: System.Int32 IMasterServerMultipartMessage::get_offset()
     int get_offset();
     // public System.Int32 get_length()
-    // Offset: 0x2169000
+    // Offset: 0x1B56644
     // Implemented from: MasterServer.IMasterServerMultipartMessage
     // Base method: System.Int32 IMasterServerMultipartMessage::get_length()
     int get_length();
     // public System.Int32 get_totalLength()
-    // Offset: 0x2169010
+    // Offset: 0x1B56654
     // Implemented from: MasterServer.IMasterServerMultipartMessage
     // Base method: System.Int32 IMasterServerMultipartMessage::get_totalLength()
     int get_totalLength();
     // public System.Byte[] get_data()
-    // Offset: 0x2169020
+    // Offset: 0x1B56664
     // Implemented from: MasterServer.IMasterServerMultipartMessage
     // Base method: System.Byte[] IMasterServerMultipartMessage::get_data()
     ::Array<uint8_t>* get_data();
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2169084
+    // Offset: 0x1B566C8
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -108,7 +108,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2169110
+    // Offset: 0x1B56754
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -116,7 +116,7 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // protected System.Void .ctor()
-    // Offset: 0x2169278
+    // Offset: 0x1B568BC
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -55,19 +55,19 @@ namespace Zenject {
     // Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Nullable`1<System.Int32>> <>9__3_1
     static void _set_$$9__3_1(System::Func_2<ModestTree::Util::ValuePair_2<System::Type*, int>*, System::Nullable_1<int>>* value);
     // static private System.Void .cctor()
-    // Offset: 0x12E9E14
+    // Offset: 0x1349600
     static void _cctor();
     // System.Int32 <.ctor>b__2_1(Zenject.PoolableManager/PoolableInfo x)
-    // Offset: 0x12E9E84
+    // Offset: 0x1349670
     int $_ctor$b__2_1(Zenject::PoolableManager::PoolableInfo x);
     // Zenject.IPoolable <.ctor>b__2_2(Zenject.PoolableManager/PoolableInfo x)
-    // Offset: 0x12E9E8C
+    // Offset: 0x1349678
     Zenject::IPoolable* $_ctor$b__2_2(Zenject::PoolableManager::PoolableInfo x);
     // System.Nullable`1<System.Int32> <CreatePoolableInfo>b__3_1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x12E9E94
+    // Offset: 0x1349680
     System::Nullable_1<int> $CreatePoolableInfo$b__3_1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // public System.Void .ctor()
-    // Offset: 0x12E9E7C
+    // Offset: 0x1349668
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PoolableManager::$$c* New_ctor();

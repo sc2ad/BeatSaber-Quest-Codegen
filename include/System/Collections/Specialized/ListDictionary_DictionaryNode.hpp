@@ -23,7 +23,7 @@ namespace System::Collections::Specialized {
     // Offset: 0x20
     System::Collections::Specialized::ListDictionary::DictionaryNode* next;
     // public System.Void .ctor()
-    // Offset: 0x14DDCAC
+    // Offset: 0x147C88C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ListDictionary::DictionaryNode* New_ctor();

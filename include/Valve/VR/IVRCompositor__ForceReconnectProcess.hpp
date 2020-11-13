@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRCompositor::_ForceReconnectProcess : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1B81D94
+    // Offset: 0x18E5BAC
     static IVRCompositor::_ForceReconnectProcess* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x1B81DA8
+    // Offset: 0x18E5BC0
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1B81FB4
+    // Offset: 0x18E5DCC
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1B81FE0
+    // Offset: 0x18E5DF8
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_ForceReconnectProcess
 }

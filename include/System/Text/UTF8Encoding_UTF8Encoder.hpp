@@ -32,25 +32,25 @@ namespace System::Text {
       return surrogateChar;
     }
     // public System.Void .ctor(System.Text.UTF8Encoding encoding)
-    // Offset: 0x17B9294
+    // Offset: 0x16ACCEC
     static UTF8Encoding::UTF8Encoder* New_ctor(System::Text::UTF8Encoding* encoding);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x17B9B14
+    // Offset: 0x16AD56C
     // Implemented from: System.Text.EncoderNLS
     // Base method: System.Void EncoderNLS::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static UTF8Encoding::UTF8Encoder* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x17B9DEC
+    // Offset: 0x16AD844
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Void Reset()
-    // Offset: 0x17B9F08
+    // Offset: 0x16AD960
     // Implemented from: System.Text.EncoderNLS
     // Base method: System.Void EncoderNLS::Reset()
     void Reset();
     // override System.Boolean get_HasState()
-    // Offset: 0x17B9F28
+    // Offset: 0x16AD980
     // Implemented from: System.Text.EncoderNLS
     // Base method: System.Boolean EncoderNLS::get_HasState()
     bool get_HasState();

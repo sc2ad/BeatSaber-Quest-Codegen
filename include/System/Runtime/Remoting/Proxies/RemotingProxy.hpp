@@ -67,39 +67,39 @@ namespace System::Runtime::Remoting::Proxies {
     // Set static field: static private System.Reflection.MethodInfo _cache_GetHashCodeMethod
     static void _set__cache_GetHashCodeMethod(System::Reflection::MethodInfo* value);
     // System.Void .ctor(System.Type type, System.String activationUrl, System.Object[] activationAttributes)
-    // Offset: 0x12D2F9C
+    // Offset: 0x1332788
     static RemotingProxy* New_ctor(System::Type* type, ::Il2CppString* activationUrl, ::Array<::Il2CppObject*>* activationAttributes);
     // System.Void AttachIdentity(System.Runtime.Remoting.Identity identity)
-    // Offset: 0x12D5218
+    // Offset: 0x1334A04
     void AttachIdentity(System::Runtime::Remoting::Identity* identity);
     // System.Runtime.Remoting.Messaging.IMessage ActivateRemoteObject(System.Runtime.Remoting.Messaging.IMethodMessage request)
-    // Offset: 0x12D3DA0
+    // Offset: 0x133358C
     System::Runtime::Remoting::Messaging::IMessage* ActivateRemoteObject(System::Runtime::Remoting::Messaging::IMethodMessage* request);
     // static private System.Void .cctor()
-    // Offset: 0x12D5AB4
+    // Offset: 0x13352A0
     static void _cctor();
     // System.Void .ctor(System.Type type, System.Runtime.Remoting.ClientIdentity identity)
-    // Offset: 0x12D4C00
+    // Offset: 0x13343EC
     // Implemented from: System.Runtime.Remoting.Proxies.RealProxy
     // Base method: System.Void RealProxy::.ctor(System.Type type, System.Runtime.Remoting.ClientIdentity identity)
     static RemotingProxy* New_ctor(System::Type* type, System::Runtime::Remoting::ClientIdentity* identity);
     // public override System.Runtime.Remoting.Messaging.IMessage Invoke(System.Runtime.Remoting.Messaging.IMessage request)
-    // Offset: 0x12D4C58
+    // Offset: 0x1334444
     // Implemented from: System.Runtime.Remoting.Proxies.RealProxy
     // Base method: System.Runtime.Remoting.Messaging.IMessage RealProxy::Invoke(System.Runtime.Remoting.Messaging.IMessage request)
     System::Runtime::Remoting::Messaging::IMessage* Invoke(System::Runtime::Remoting::Messaging::IMessage* request);
     // public System.String get_TypeName()
-    // Offset: 0x12D5494
+    // Offset: 0x1334C80
     // Implemented from: System.Runtime.Remoting.IRemotingTypeInfo
     // Base method: System.String IRemotingTypeInfo::get_TypeName()
     ::Il2CppString* get_TypeName();
     // public System.Boolean CanCastTo(System.Type fromType, System.Object o)
-    // Offset: 0x12D55D0
+    // Offset: 0x1334DBC
     // Implemented from: System.Runtime.Remoting.IRemotingTypeInfo
     // Base method: System.Boolean IRemotingTypeInfo::CanCastTo(System.Type fromType, System.Object o)
     bool CanCastTo(System::Type* fromType, ::Il2CppObject* o);
     // protected override System.Void Finalize()
-    // Offset: 0x12D57DC
+    // Offset: 0x1334FC8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

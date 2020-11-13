@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Offset: 0x38
     GlobalNamespace::EnvironmentInfoSO* environmentInfo;
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.Boolean useTestNoteCutSoundEffects, EnvironmentInfoSO environmentInfo)
-    // Offset: 0x2007314
+    // Offset: 0x1A21614
     static GameplayCoreSceneSetupData* New_ctor(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects, GlobalNamespace::EnvironmentInfoSO* environmentInfo);
   }; // GameplayCoreSceneSetupData
 }

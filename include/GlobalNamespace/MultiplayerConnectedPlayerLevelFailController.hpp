@@ -57,28 +57,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_playerDidFailEvent(System.Action value)
-    // Offset: 0x2060D20
+    // Offset: 0xFAAB04
     void add_playerDidFailEvent(System::Action* value);
     // public System.Void remove_playerDidFailEvent(System.Action value)
-    // Offset: 0x2060804
+    // Offset: 0xFAA47C
     void remove_playerDidFailEvent(System::Action* value);
     // protected System.Void Start()
-    // Offset: 0x2061E4C
+    // Offset: 0xFABCD0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2061FF0
+    // Offset: 0xFABE74
     void OnDestroy();
     // private System.Void CheckIfPlayerFailed(IConnectedPlayer player)
-    // Offset: 0x2062194
+    // Offset: 0xFAC018
     void CheckIfPlayerFailed(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandlePlayerDisconnected(IConnectedPlayer player)
-    // Offset: 0x20623BC
+    // Offset: 0xFAC240
     void HandlePlayerDisconnected(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandlePlayerStateChanged(IConnectedPlayer player)
-    // Offset: 0x20623C0
+    // Offset: 0xFAC244
     void HandlePlayerStateChanged(GlobalNamespace::IConnectedPlayer* player);
     // public System.Void .ctor()
-    // Offset: 0x20623C4
+    // Offset: 0xFAC248
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

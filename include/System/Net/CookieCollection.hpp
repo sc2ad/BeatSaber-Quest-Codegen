@@ -58,36 +58,36 @@ namespace System::Net {
       return *reinterpret_cast<System::Collections::ICollection*>(this);
     }
     // public System.Net.Cookie get_Item(System.Int32 index)
-    // Offset: 0x12AFE84
+    // Offset: 0x130F670
     System::Net::Cookie* get_Item(int index);
     // public System.Void Add(System.Net.Cookie cookie)
-    // Offset: 0x12AFF70
+    // Offset: 0x130F75C
     void Add(System::Net::Cookie* cookie);
     // public System.Void Add(System.Net.CookieCollection cookies)
-    // Offset: 0x12B03F4
+    // Offset: 0x130FBE0
     void Add(System::Net::CookieCollection* cookies);
     // System.DateTime TimeStamp(System.Net.CookieCollection/Stamp how)
-    // Offset: 0x12B0710
+    // Offset: 0x130FEFC
     System::DateTime TimeStamp(System::Net::CookieCollection::Stamp how);
     // System.Boolean get_IsOtherVersionSeen()
-    // Offset: 0x12B0808
+    // Offset: 0x130FFF4
     bool get_IsOtherVersionSeen();
     // System.Int32 InternalAdd(System.Net.Cookie cookie, System.Boolean isStrict)
-    // Offset: 0x12B0810
+    // Offset: 0x130FFFC
     int InternalAdd(System::Net::Cookie* cookie, bool isStrict);
     // System.Int32 IndexOf(System.Net.Cookie cookie)
-    // Offset: 0x12B0060
+    // Offset: 0x130F84C
     int IndexOf(System::Net::Cookie* cookie);
     // System.Void RemoveAt(System.Int32 idx)
-    // Offset: 0x12B0C74
+    // Offset: 0x1310460
     void RemoveAt(int idx);
     // public System.Void .ctor()
-    // Offset: 0x12AFDD4
+    // Offset: 0x130F5C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CookieCollection* New_ctor();
     // public System.Int32 get_Count()
-    // Offset: 0x12B06C8
+    // Offset: 0x130FEB4
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();
@@ -95,7 +95,7 @@ namespace System::Net {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // public System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x12B06EC
+    // Offset: 0x130FED8
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void CopyTo(System::Array* array, int index);
@@ -103,7 +103,7 @@ namespace System::Net {
     // Maps to method: CopyTo
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x12B0668
+    // Offset: 0x130FE54
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();

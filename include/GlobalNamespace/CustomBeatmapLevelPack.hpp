@@ -47,38 +47,38 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelPack*>(this);
     }
     // public System.Boolean get_isPackAlwaysOwned()
-    // Offset: 0x1FBDFB4
+    // Offset: 0x1A566E4
     bool get_isPackAlwaysOwned();
     // public System.Void .ctor(System.String packID, System.String packName, System.String shortPackName, UnityEngine.Sprite coverImage, CustomBeatmapLevelCollection customBeatmapLevelCollection)
-    // Offset: 0x1FBDFBC
+    // Offset: 0x1A566EC
     static CustomBeatmapLevelPack* New_ctor(::Il2CppString* packID, ::Il2CppString* packName, ::Il2CppString* shortPackName, UnityEngine::Sprite* coverImage, GlobalNamespace::CustomBeatmapLevelCollection* customBeatmapLevelCollection);
     // public System.String get_packID()
-    // Offset: 0x1FBDF84
+    // Offset: 0x1A566B4
     // Implemented from: IBeatmapLevelPack
     // Base method: System.String IBeatmapLevelPack::get_packID()
     ::Il2CppString* get_packID();
     // public System.String get_packName()
-    // Offset: 0x1FBDF8C
+    // Offset: 0x1A566BC
     // Implemented from: IBeatmapLevelPack
     // Base method: System.String IBeatmapLevelPack::get_packName()
     ::Il2CppString* get_packName();
     // public System.String get_shortPackName()
-    // Offset: 0x1FBDF94
+    // Offset: 0x1A566C4
     // Implemented from: IBeatmapLevelPack
     // Base method: System.String IBeatmapLevelPack::get_shortPackName()
     ::Il2CppString* get_shortPackName();
     // public System.String get_collectionName()
-    // Offset: 0x1FBDF9C
+    // Offset: 0x1A566CC
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: System.String IAnnotatedBeatmapLevelCollection::get_collectionName()
     ::Il2CppString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x1FBDFA4
+    // Offset: 0x1A566D4
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: UnityEngine.Sprite IAnnotatedBeatmapLevelCollection::get_coverImage()
     UnityEngine::Sprite* get_coverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x1FBDFAC
+    // Offset: 0x1A566DC
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: IBeatmapLevelCollection IAnnotatedBeatmapLevelCollection::get_beatmapLevelCollection()
     GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();

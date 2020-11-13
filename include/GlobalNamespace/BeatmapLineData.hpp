@@ -41,16 +41,16 @@ namespace GlobalNamespace {
       return beatmapObjectsData;
     }
     // public System.Void .ctor(System.Int32 initialCapacity)
-    // Offset: 0x2241A30
+    // Offset: 0x19F5DAC
     static BeatmapLineData* New_ctor(int initialCapacity);
     // public System.Void .ctor(System.Collections.Generic.List`1<BeatmapObjectData> beatmapObjectData)
-    // Offset: 0x2241ABC
+    // Offset: 0x19F5E38
     static BeatmapLineData* New_ctor(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>* beatmapObjectData);
     // public System.Void AddBeatmapObjectData(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x2241AF0
+    // Offset: 0x19F5E6C
     void AddBeatmapObjectData(GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // public System.Collections.Generic.IReadOnlyList`1<BeatmapObjectData> get_beatmapObjectsData()
-    // Offset: 0x2241A28
+    // Offset: 0x19F5DA4
     // Implemented from: IReadonlyBeatmapLineData
     // Base method: System.Collections.Generic.IReadOnlyList`1<BeatmapObjectData> IReadonlyBeatmapLineData::get_beatmapObjectsData()
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();

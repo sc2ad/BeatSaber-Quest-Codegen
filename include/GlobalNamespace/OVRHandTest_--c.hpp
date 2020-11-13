@@ -28,19 +28,19 @@ namespace GlobalNamespace {
     // Set static field: static public OVRHandTest/BoolMonitor/BoolGenerator <>9__14_1
     static void _set_$$9__14_1(GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator* value);
     // static private System.Void .cctor()
-    // Offset: 0x10E0FA8
+    // Offset: 0x11B78D8
     static void _cctor();
     // System.Boolean <Start>b__14_0()
-    // Offset: 0x10E1018
+    // Offset: 0x11B7948
     bool $Start$b__14_0();
     // System.Boolean <Start>b__14_1()
-    // Offset: 0x10E11BC
+    // Offset: 0x11B7AEC
     bool $Start$b__14_1();
     // System.Boolean <.cctor>b__19_0()
-    // Offset: 0x10E1298
+    // Offset: 0x11B7BC8
     bool $_cctor$b__19_0();
     // public System.Void .ctor()
-    // Offset: 0x10E1010
+    // Offset: 0x11B7940
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRHandTest::$$c* New_ctor();

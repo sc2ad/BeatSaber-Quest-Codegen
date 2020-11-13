@@ -26,16 +26,16 @@ namespace GlobalNamespace {
   class AvatarVisualController::HighlighterDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2036EE4
+    // Offset: 0x1A48C60
     static AvatarVisualController::HighlighterDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Boolean highlighted, System.Int32 uvSegmentNumber)
-    // Offset: 0x2037778
+    // Offset: 0x1A494F4
     void Invoke(bool highlighted, int uvSegmentNumber);
     // public System.IAsyncResult BeginInvoke(System.Boolean highlighted, System.Int32 uvSegmentNumber, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2037ACC
+    // Offset: 0x1A49848
     System::IAsyncResult* BeginInvoke(bool highlighted, int uvSegmentNumber, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2037B7C
+    // Offset: 0x1A498F8
     void EndInvoke(System::IAsyncResult* result);
   }; // AvatarVisualController/HighlighterDelegate
 }

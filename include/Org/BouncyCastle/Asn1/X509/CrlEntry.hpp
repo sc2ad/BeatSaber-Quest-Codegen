@@ -44,19 +44,19 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x28
     Org::BouncyCastle::Asn1::X509::X509Extensions* crlEntryExtensions;
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x160AE04
+    // Offset: 0x1579C00
     static CrlEntry* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public Org.BouncyCastle.Asn1.DerInteger get_UserCertificate()
-    // Offset: 0x160B12C
+    // Offset: 0x1579F28
     Org::BouncyCastle::Asn1::DerInteger* get_UserCertificate();
     // public Org.BouncyCastle.Asn1.X509.Time get_RevocationDate()
-    // Offset: 0x160B134
+    // Offset: 0x1579F30
     Org::BouncyCastle::Asn1::X509::Time* get_RevocationDate();
     // public Org.BouncyCastle.Asn1.X509.X509Extensions get_Extensions()
-    // Offset: 0x160B13C
+    // Offset: 0x1579F38
     Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x160B204
+    // Offset: 0x157A000
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

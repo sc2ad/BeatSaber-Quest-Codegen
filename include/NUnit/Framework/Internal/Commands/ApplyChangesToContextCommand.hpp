@@ -41,13 +41,13 @@ namespace NUnit::Framework::Internal::Commands {
     // Offset: 0x20
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::IApplyToContext*>* changes;
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.IApplyToContext> changes)
-    // Offset: 0x13C8334
+    // Offset: 0x13EDCCC
     static ApplyChangesToContextCommand* New_ctor(NUnit::Framework::Internal::Commands::TestCommand* innerCommand, System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::IApplyToContext*>* changes);
     // public System.Void ApplyChanges(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x13C83BC
+    // Offset: 0x13EDD54
     void ApplyChanges(NUnit::Framework::Internal::ITestExecutionContext* context);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x13C86A0
+    // Offset: 0x13EE038
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);

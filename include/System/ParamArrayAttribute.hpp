@@ -14,7 +14,7 @@ namespace System {
   class ParamArrayAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1854130
+    // Offset: 0x171B7D8
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

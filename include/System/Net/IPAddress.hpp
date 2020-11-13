@@ -88,65 +88,65 @@ namespace System::Net {
     // Set static field: static System.Int32 NumberOfLabels
     static void _set_NumberOfLabels(int value);
     // public System.Void .ctor(System.Int64 newAddress)
-    // Offset: 0x1246408
+    // Offset: 0x12BB504
     static IPAddress* New_ctor(int64_t newAddress);
     // public System.Void .ctor(System.Byte[] address, System.Int64 scopeid)
-    // Offset: 0x12464D4
+    // Offset: 0x12BB5D0
     static IPAddress* New_ctor(::Array<uint8_t>* address, int64_t scopeid);
     // private System.Void .ctor(System.UInt16[] address, System.UInt32 scopeid)
-    // Offset: 0x12466BC
+    // Offset: 0x12BB7B8
     static IPAddress* New_ctor(::Array<uint16_t>* address, uint scopeid);
     // public System.Void .ctor(System.Byte[] address)
-    // Offset: 0x1246768
+    // Offset: 0x12BB864
     static IPAddress* New_ctor(::Array<uint8_t>* address);
     // System.Void .ctor(System.Int32 newAddress)
-    // Offset: 0x1246958
+    // Offset: 0x12BBA54
     static IPAddress* New_ctor(int newAddress);
     // static public System.Boolean TryParse(System.String ipString, out System.Net.IPAddress address)
-    // Offset: 0x1240914
+    // Offset: 0x12B5A10
     static bool TryParse(::Il2CppString* ipString, System::Net::IPAddress*& address);
     // static public System.Net.IPAddress Parse(System.String ipString)
-    // Offset: 0x1246D38
+    // Offset: 0x12BBE34
     static System::Net::IPAddress* Parse(::Il2CppString* ipString);
     // static private System.Net.IPAddress InternalParse(System.String ipString, System.Boolean tryParse)
-    // Offset: 0x12469E4
+    // Offset: 0x12BBAE0
     static System::Net::IPAddress* InternalParse(::Il2CppString* ipString, bool tryParse);
     // public System.Byte[] GetAddressBytes()
-    // Offset: 0x1246DA0
+    // Offset: 0x12BBE9C
     ::Array<uint8_t>* GetAddressBytes();
     // public System.Net.Sockets.AddressFamily get_AddressFamily()
-    // Offset: 0x1246EE8
+    // Offset: 0x12BBFE4
     System::Net::Sockets::AddressFamily get_AddressFamily();
     // public System.Int64 get_ScopeId()
-    // Offset: 0x1246EF0
+    // Offset: 0x12BBFEC
     int64_t get_ScopeId();
     // static public System.Boolean IsLoopback(System.Net.IPAddress address)
-    // Offset: 0x1247480
+    // Offset: 0x12BC57C
     static bool IsLoopback(System::Net::IPAddress* address);
     // public System.Boolean get_IsIPv6Multicast()
-    // Offset: 0x1247590
+    // Offset: 0x12BC68C
     bool get_IsIPv6Multicast();
     // System.Boolean Equals(System.Object comparandObj, System.Boolean compareScopeId)
-    // Offset: 0x12475E0
+    // Offset: 0x12BC6DC
     bool Equals(::Il2CppObject* comparandObj, bool compareScopeId);
     // public System.Net.IPAddress MapToIPv6()
-    // Offset: 0x1247824
+    // Offset: 0x12BC920
     System::Net::IPAddress* MapToIPv6();
     // static private System.Void .cctor()
-    // Offset: 0x1247908
+    // Offset: 0x12BCA04
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x1246F74
+    // Offset: 0x12BC070
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object comparand)
-    // Offset: 0x1247720
+    // Offset: 0x12BC81C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object comparand)
     bool Equals(::Il2CppObject* comparand);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1247728
+    // Offset: 0x12BC824
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

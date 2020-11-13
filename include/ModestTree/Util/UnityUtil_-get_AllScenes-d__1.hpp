@@ -46,15 +46,15 @@ namespace ModestTree::Util {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<UnityEngine::SceneManagement::Scene>*>(this);
     }
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0xFEBB84
+    // Offset: 0x10E752C
     static UnityUtil::$get_AllScenes$d__1* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0xFEDCFC
+    // Offset: 0x10E96A4
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0xFEDD00
+    // Offset: 0x10E96A8
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -62,27 +62,27 @@ namespace ModestTree::Util {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // private UnityEngine.SceneManagement.Scene System.Collections.Generic.IEnumerator<UnityEngine.SceneManagement.Scene>.get_Current()
-    // Offset: 0xFEDD84
+    // Offset: 0x10E972C
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     UnityEngine::SceneManagement::Scene System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0xFEDD8C
+    // Offset: 0x10E9734
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xFEDDEC
+    // Offset: 0x10E9794
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // private System.Collections.Generic.IEnumerator`1<UnityEngine.SceneManagement.Scene> System.Collections.Generic.IEnumerable<UnityEngine.SceneManagement.Scene>.GetEnumerator()
-    // Offset: 0xFEDE50
+    // Offset: 0x10E97F8
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<UnityEngine::SceneManagement::Scene>* System_Collections_Generic_IEnumerable_1_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xFEDEE8
+    // Offset: 0x10E9890
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

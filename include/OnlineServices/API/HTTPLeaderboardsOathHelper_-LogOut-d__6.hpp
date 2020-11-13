@@ -40,12 +40,12 @@ namespace OnlineServices::API {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // private System.Void MoveNext()
-    // Offset: 0xE4D61C
+    // Offset: 0xC91D0C
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xE4D624
+    // Offset: 0xC91D14
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);

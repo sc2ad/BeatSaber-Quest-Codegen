@@ -42,12 +42,12 @@ namespace System::Reflection {
     // Offset: 0x2C
     int handler_length;
     // protected System.Void .ctor()
-    // Offset: 0x16722D8
+    // Offset: 0x15C6E9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ExceptionHandlingClause* New_ctor();
     // public override System.String ToString()
-    // Offset: 0x16722E0
+    // Offset: 0x15C6EA4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

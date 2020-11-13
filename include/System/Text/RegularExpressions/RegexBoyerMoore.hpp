@@ -46,19 +46,19 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x40
     System::Globalization::CultureInfo* culture;
     // System.Void .ctor(System.String pattern, System.Boolean caseInsensitive, System.Boolean rightToLeft, System.Globalization.CultureInfo culture)
-    // Offset: 0x1486180
+    // Offset: 0x1470638
     static RegexBoyerMoore* New_ctor(::Il2CppString* pattern, bool caseInsensitive, bool rightToLeft, System::Globalization::CultureInfo* culture);
     // private System.Boolean MatchPattern(System.String text, System.Int32 index)
-    // Offset: 0x14866D0
+    // Offset: 0x1470B88
     bool MatchPattern(::Il2CppString* text, int index);
     // System.Boolean IsMatch(System.String text, System.Int32 index, System.Int32 beglimit, System.Int32 endlimit)
-    // Offset: 0x14867F8
+    // Offset: 0x1470CB0
     bool IsMatch(::Il2CppString* text, int index, int beglimit, int endlimit);
     // System.Int32 Scan(System.String text, System.Int32 index, System.Int32 beglimit, System.Int32 endlimit)
-    // Offset: 0x1486868
+    // Offset: 0x1470D20
     int Scan(::Il2CppString* text, int index, int beglimit, int endlimit);
     // public override System.String ToString()
-    // Offset: 0x1486BAC
+    // Offset: 0x1471064
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

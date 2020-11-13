@@ -34,10 +34,10 @@ namespace OnlineServices {
     // Offset: 0x28
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // public System.Void .ctor(System.Int32 score, System.Int32 rank, System.String displayName, System.String playerId, GameplayModifiers gameplayModifiers)
-    // Offset: 0x1F8A174
+    // Offset: 0xEFDF68
     static LeaderboardEntryData* New_ctor(int score, int rank, ::Il2CppString* displayName, ::Il2CppString* playerId, GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public override System.String ToString()
-    // Offset: 0x1F8A1EC
+    // Offset: 0xEFDFE0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

@@ -23,14 +23,14 @@ namespace NUnit::Framework::Internal::Filters {
   class OrFilter : public NUnit::Framework::Internal::Filters::CompositeFilter {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13CD584
+    // Offset: 0x13F2F1C
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Void CompositeFilter::.ctor()
     // Base method: System.Void TestFilter::.ctor()
     // Base method: System.Void Object::.ctor()
     static OrFilter* New_ctor();
     // public System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
-    // Offset: 0x13CD588
+    // Offset: 0x13F2F20
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Void CompositeFilter::.ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
     static OrFilter* New_ctor(::Array<NUnit::Framework::Interfaces::ITestFilter*>* filters);
@@ -42,22 +42,22 @@ namespace NUnit::Framework::Internal::Filters {
       return New_ctor({filters...});
     }
     // public override System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x13CD58C
+    // Offset: 0x13F2F24
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Boolean CompositeFilter::Pass(NUnit.Framework.Interfaces.ITest test)
     bool Pass(NUnit::Framework::Interfaces::ITest* test);
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x13CD8D8
+    // Offset: 0x13F3270
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Boolean CompositeFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(NUnit::Framework::Interfaces::ITest* test);
     // public override System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x13CDBF4
+    // Offset: 0x13F358C
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Boolean CompositeFilter::IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
     bool IsExplicitMatch(NUnit::Framework::Interfaces::ITest* test);
     // protected override System.String get_ElementName()
-    // Offset: 0x13CDF10
+    // Offset: 0x13F38A8
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.String CompositeFilter::get_ElementName()
     ::Il2CppString* get_ElementName();

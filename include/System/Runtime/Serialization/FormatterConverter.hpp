@@ -25,37 +25,37 @@ namespace System::Runtime::Serialization {
       return *reinterpret_cast<System::Runtime::Serialization::IFormatterConverter*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x12DDDB8
+    // Offset: 0x133D5A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FormatterConverter* New_ctor();
     // public System.Object Convert(System.Object value, System.Type type)
-    // Offset: 0x12DDDC0
+    // Offset: 0x133D5AC
     // Implemented from: System.Runtime.Serialization.IFormatterConverter
     // Base method: System.Object IFormatterConverter::Convert(System.Object value, System.Type type)
     ::Il2CppObject* Convert(::Il2CppObject* value, System::Type* type);
     // public System.Boolean ToBoolean(System.Object value)
-    // Offset: 0x12DDEAC
+    // Offset: 0x133D698
     // Implemented from: System.Runtime.Serialization.IFormatterConverter
     // Base method: System.Boolean IFormatterConverter::ToBoolean(System.Object value)
     bool ToBoolean(::Il2CppObject* value);
     // public System.Int32 ToInt32(System.Object value)
-    // Offset: 0x12DDF88
+    // Offset: 0x133D774
     // Implemented from: System.Runtime.Serialization.IFormatterConverter
     // Base method: System.Int32 IFormatterConverter::ToInt32(System.Object value)
     int ToInt32(::Il2CppObject* value);
     // public System.Int64 ToInt64(System.Object value)
-    // Offset: 0x12DE064
+    // Offset: 0x133D850
     // Implemented from: System.Runtime.Serialization.IFormatterConverter
     // Base method: System.Int64 IFormatterConverter::ToInt64(System.Object value)
     int64_t ToInt64(::Il2CppObject* value);
     // public System.Single ToSingle(System.Object value)
-    // Offset: 0x12DE140
+    // Offset: 0x133D92C
     // Implemented from: System.Runtime.Serialization.IFormatterConverter
     // Base method: System.Single IFormatterConverter::ToSingle(System.Object value)
     float ToSingle(::Il2CppObject* value);
     // public System.String ToString(System.Object value)
-    // Offset: 0x12DE21C
+    // Offset: 0x133DA08
     // Implemented from: System.Runtime.Serialization.IFormatterConverter
     // Base method: System.String IFormatterConverter::ToString(System.Object value)
     ::Il2CppString* ToString(::Il2CppObject* value);

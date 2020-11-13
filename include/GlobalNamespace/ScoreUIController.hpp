@@ -57,31 +57,31 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxNumberOfDigits
     static void _set_kMaxNumberOfDigits(int value);
     // protected System.Void Start()
-    // Offset: 0x207ED04
+    // Offset: 0xFC8E9C
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x207F0A4
+    // Offset: 0xFC923C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x207F0A8
+    // Offset: 0xFC9240
     void OnDisable();
     // private System.Void RegisterForEvents()
-    // Offset: 0x207ED88
+    // Offset: 0xFC8F20
     void RegisterForEvents();
     // private System.Void UnregisterFromEvents()
-    // Offset: 0x207F0AC
+    // Offset: 0xFC9244
     void UnregisterFromEvents();
     // private System.Void HandleScoreDidChangeRealtime(System.Int32 rawScore, System.Int32 modifiedScore)
-    // Offset: 0x207F184
+    // Offset: 0xFC931C
     void HandleScoreDidChangeRealtime(int rawScore, int modifiedScore);
     // protected System.Void UpdateScore(System.Int32 rawScore, System.Int32 modifiedScore)
-    // Offset: 0x207EE9C
+    // Offset: 0xFC9034
     void UpdateScore(int rawScore, int modifiedScore);
     // private System.Void Append000Number(System.Text.StringBuilder stringBuilder, System.Int32 number)
-    // Offset: 0x207F188
+    // Offset: 0xFC9320
     void Append000Number(System::Text::StringBuilder* stringBuilder, int number);
     // public System.Void .ctor()
-    // Offset: 0x207F238
+    // Offset: 0xFC93D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

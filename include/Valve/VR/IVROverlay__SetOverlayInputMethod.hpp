@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVROverlay::_SetOverlayInputMethod : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1B96F80
+    // Offset: 0x18FAD98
     static IVROverlay::_SetOverlayInputMethod* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, Valve.VR.VROverlayInputMethod eInputMethod)
-    // Offset: 0x1B96F94
+    // Offset: 0x18FADAC
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, Valve::VR::VROverlayInputMethod eInputMethod);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, Valve.VR.VROverlayInputMethod eInputMethod, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1B97218
+    // Offset: 0x18FB030
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, Valve::VR::VROverlayInputMethod eInputMethod, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1B972C4
+    // Offset: 0x18FB0DC
     Valve::VR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetOverlayInputMethod
 }

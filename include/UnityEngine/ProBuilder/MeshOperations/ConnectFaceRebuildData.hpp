@@ -31,7 +31,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x18
     System::Collections::Generic::List_1<int>* newVertexIndexes;
     // public System.Void .ctor(UnityEngine.ProBuilder.FaceRebuildData faceRebuildData, System.Collections.Generic.List`1<System.Int32> newVertexIndexes)
-    // Offset: 0x11C74D0
+    // Offset: 0x1252860
     static ConnectFaceRebuildData* New_ctor(UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData, System::Collections::Generic::List_1<int>* newVertexIndexes);
   }; // UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData
 }

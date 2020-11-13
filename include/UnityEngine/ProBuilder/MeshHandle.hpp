@@ -27,13 +27,13 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x18
     UnityEngine::Mesh* m_Mesh;
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x16F00EC
+    // Offset: 0x1642CB0
     UnityEngine::Mesh* get_mesh();
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.Mesh mesh)
-    // Offset: 0x16F00F4
+    // Offset: 0x1642CB8
     static MeshHandle* New_ctor(UnityEngine::Transform* transform, UnityEngine::Mesh* mesh);
     // public System.Void DrawMeshNow(System.Int32 submeshIndex)
-    // Offset: 0x16F0144
+    // Offset: 0x1642D08
     void DrawMeshNow(int submeshIndex);
   }; // UnityEngine.ProBuilder.MeshHandle
 }

@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVROverlay::_ShowDashboard : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C9D968
+    // Offset: 0x191BB40
     static IVROverlay::_ShowDashboard* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.String pchOverlayToShow)
-    // Offset: 0x1C9D97C
+    // Offset: 0x191BB54
     void Invoke(::Il2CppString* pchOverlayToShow);
     // public System.IAsyncResult BeginInvoke(System.String pchOverlayToShow, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C9DD34
+    // Offset: 0x191BF0C
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchOverlayToShow, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C9DD58
+    // Offset: 0x191BF30
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_ShowDashboard
 }

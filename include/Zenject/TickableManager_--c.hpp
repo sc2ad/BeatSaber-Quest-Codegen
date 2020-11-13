@@ -58,28 +58,28 @@ namespace Zenject {
     // Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Int32> <>9__19_2
     static void _set_$$9__19_2(System::Func_2<ModestTree::Util::ValuePair_2<System::Type*, int>*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x12F9F0C
+    // Offset: 0x13596F8
     static void _cctor();
     // System.Type <InitFixedTickables>b__17_0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x12F9F7C
+    // Offset: 0x1359768
     System::Type* $InitFixedTickables$b__17_0(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Int32 <InitFixedTickables>b__17_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x12F9F94
+    // Offset: 0x1359780
     int $InitFixedTickables$b__17_2(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Type <InitTickables>b__18_0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x12F9FAC
+    // Offset: 0x1359798
     System::Type* $InitTickables$b__18_0(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Int32 <InitTickables>b__18_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x12F9FC4
+    // Offset: 0x13597B0
     int $InitTickables$b__18_2(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Type <InitLateTickables>b__19_0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x12F9FDC
+    // Offset: 0x13597C8
     System::Type* $InitLateTickables$b__19_0(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Int32 <InitLateTickables>b__19_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x12F9FF4
+    // Offset: 0x13597E0
     int $InitLateTickables$b__19_2(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // public System.Void .ctor()
-    // Offset: 0x12F9F74
+    // Offset: 0x1359760
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TickableManager::$$c* New_ctor();

@@ -46,13 +46,13 @@ namespace MasterServer {
       return *reinterpret_cast<MasterServer::IHandshakeServerToClientMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.ServerHelloRequest> get_pool()
-    // Offset: 0x2121924
+    // Offset: 0x1AD7F28
     static GlobalNamespace::PacketPool_1<MasterServer::ServerHelloRequest*>* get_pool();
     // public MasterServer.ServerHelloRequest Init(System.Byte[] random, System.Byte[] publicKey, System.Byte[] signature)
-    // Offset: 0x2129614
+    // Offset: 0x1AE0310
     MasterServer::ServerHelloRequest* Init(::Array<uint8_t>* random, ::Array<uint8_t>* publicKey, ::Array<uint8_t>* signature);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2129680
+    // Offset: 0x1AE037C
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -60,7 +60,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x21296E4
+    // Offset: 0x1AE03E0
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -68,12 +68,12 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x2129748
+    // Offset: 0x1AE0444
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x21297D4
+    // Offset: 0x1AE04D0
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()

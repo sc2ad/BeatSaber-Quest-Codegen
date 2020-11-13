@@ -36,13 +36,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::NoteCutInfo* noteCutInfo;
     // public System.Void .ctor(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler/DidFinishCallback finishCallback)
-    // Offset: 0x20D63B4
+    // Offset: 0x1A275A4
     static BeatmapObjectExecutionRatingsRecorder::CutScoreHandler* New_ctor(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::DidFinishCallback* finishCallback);
     // public System.Void Set(NoteCutInfo noteCutInfo, NoteExecutionRating noteExecutionRating, ISaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0x20D6AD0
+    // Offset: 0x1A27D08
     void Set(GlobalNamespace::NoteCutInfo* noteCutInfo, GlobalNamespace::NoteExecutionRating* noteExecutionRating, GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
     // private System.Void HandleSwingRatingCounterDidFinish(ISaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0x20D6F10
+    // Offset: 0x1A28150
     void HandleSwingRatingCounterDidFinish(GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
   }; // BeatmapObjectExecutionRatingsRecorder/CutScoreHandler
 }

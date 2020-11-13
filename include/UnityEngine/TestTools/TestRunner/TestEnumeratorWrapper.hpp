@@ -33,13 +33,13 @@ namespace UnityEngine::TestTools::TestRunner {
       return m_TestMethod;
     }
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
-    // Offset: 0x10B9EE0
+    // Offset: 0x118F810
     static TestEnumeratorWrapper* New_ctor(NUnit::Framework::Internal::TestMethod* testMethod);
     // public System.Collections.IEnumerator GetEnumerator(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x10B9F14
+    // Offset: 0x118F844
     System::Collections::IEnumerator* GetEnumerator(NUnit::Framework::Internal::ITestExecutionContext* context);
     // private System.Collections.IEnumerator HandleEnumerableTest(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x10C21D4
+    // Offset: 0x1197B04
     System::Collections::IEnumerator* HandleEnumerableTest(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // UnityEngine.TestTools.TestRunner.TestEnumeratorWrapper
 }

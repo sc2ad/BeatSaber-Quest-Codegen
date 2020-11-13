@@ -21,16 +21,16 @@ namespace Mono::Net::Security {
       return InitialSize;
     }
     // public System.Void .ctor(System.Int32 size)
-    // Offset: 0x11F0C98
+    // Offset: 0x1265D50
     static BufferOffsetSize2* New_ctor(int size);
     // public System.Void Reset()
-    // Offset: 0x11F0D10
+    // Offset: 0x1265DC8
     void Reset();
     // public System.Void MakeRoom(System.Int32 size)
-    // Offset: 0x11F0DAC
+    // Offset: 0x1265E64
     void MakeRoom(int size);
     // public System.Void AppendData(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x11F0E94
+    // Offset: 0x1265F4C
     void AppendData(::Array<uint8_t>* buffer, int offset, int size);
   }; // Mono.Net.Security.BufferOffsetSize2
 }

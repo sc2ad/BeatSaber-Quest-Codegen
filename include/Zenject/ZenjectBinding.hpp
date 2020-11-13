@@ -87,31 +87,31 @@ namespace Zenject {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_UseSceneContext()
-    // Offset: 0x1F403C4
+    // Offset: 0x19D2DA8
     bool get_UseSceneContext();
     // public System.Boolean get_IfNotBound()
-    // Offset: 0x1F403CC
+    // Offset: 0x19D2DB0
     bool get_IfNotBound();
     // public Zenject.Context get_Context()
-    // Offset: 0x1F403D4
+    // Offset: 0x19D2DB8
     Zenject::Context* get_Context();
     // public System.Void set_Context(Zenject.Context value)
-    // Offset: 0x1F403DC
+    // Offset: 0x19D2DC0
     void set_Context(Zenject::Context* value);
     // public UnityEngine.Component[] get_Components()
-    // Offset: 0x1F403E4
+    // Offset: 0x19D2DC8
     ::Array<UnityEngine::Component*>* get_Components();
     // public System.String get_Identifier()
-    // Offset: 0x1F403EC
+    // Offset: 0x19D2DD0
     ::Il2CppString* get_Identifier();
     // public Zenject.ZenjectBinding/BindTypes get_BindType()
-    // Offset: 0x1F403F4
+    // Offset: 0x19D2DD8
     Zenject::ZenjectBinding::BindTypes get_BindType();
     // public System.Void Start()
-    // Offset: 0x1F403FC
+    // Offset: 0x19D2DE0
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x1F40400
+    // Offset: 0x19D2DE4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

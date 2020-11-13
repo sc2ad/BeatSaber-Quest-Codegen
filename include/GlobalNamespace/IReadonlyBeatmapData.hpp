@@ -4,6 +4,9 @@
 #pragma once
 #pragma pack(push, 8)
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: BeatmapEventType
+#include "GlobalNamespace/BeatmapEventType.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -11,6 +14,12 @@ namespace System::Collections::Generic {
   // Forward declaring type: IReadOnlyList`1<T>
   template<typename T>
   class IReadOnlyList_1;
+  // Forward declaring type: IReadOnlyDictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
+  class IReadOnlyDictionary_2;
+  // Forward declaring type: HashSet`1<T>
+  template<typename T>
+  class HashSet_1;
   // Forward declaring type: IEnumerable`1<T>
   template<typename T>
   class IEnumerable_1;
@@ -38,6 +47,9 @@ namespace GlobalNamespace {
     // public System.Collections.Generic.IReadOnlyList`1<BeatmapEventData> get_beatmapEventsData()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapEventData*>* get_beatmapEventsData();
+    // public System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.Collections.Generic.HashSet`1<BeatmapEventType>> get_availableSpecialEventsPerKeywordDictionary()
+    // Offset: 0xFFFFFFFF
+    System::Collections::Generic::IReadOnlyDictionary_2<::Il2CppString*, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*>* get_availableSpecialEventsPerKeywordDictionary();
     // public System.Int32 get_numberOfLines()
     // Offset: 0xFFFFFFFF
     int get_numberOfLines();

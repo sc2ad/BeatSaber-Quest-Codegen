@@ -28,7 +28,7 @@ namespace Org::BouncyCastle::Crypto {
     // Offset: 0x20
     int mIterationCount;
     // public System.Void Init(System.Byte[] password, System.Byte[] salt, System.Int32 iterationCount)
-    // Offset: 0xF4EBB0
+    // Offset: 0x104A5BC
     void Init(::Array<uint8_t>* password, ::Array<uint8_t>* salt, int iterationCount);
     // public Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedParameters(System.String algorithm, System.Int32 keySize)
     // Offset: 0xFFFFFFFF
@@ -40,13 +40,13 @@ namespace Org::BouncyCastle::Crypto {
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int keySize);
     // static public System.Byte[] Pkcs5PasswordToBytes(System.Char[] password)
-    // Offset: 0xF4ECC8
+    // Offset: 0x104A6D4
     static ::Array<uint8_t>* Pkcs5PasswordToBytes(::Array<::Il2CppChar>* password);
     // static public System.Byte[] Pkcs12PasswordToBytes(System.Char[] password, System.Boolean wrongPkcs12Zero)
-    // Offset: 0xF4ED30
+    // Offset: 0x104A73C
     static ::Array<uint8_t>* Pkcs12PasswordToBytes(::Array<::Il2CppChar>* password, bool wrongPkcs12Zero);
     // protected System.Void .ctor()
-    // Offset: 0xF4EBA8
+    // Offset: 0x104A5B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PbeParametersGenerator* New_ctor();

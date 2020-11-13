@@ -38,10 +38,10 @@ namespace Oculus::Platform {
     // Offset: 0x18
     ::Array<Oculus::Platform::Matchmaking::CustomQuery::Criterion>* criteria;
     // public System.IntPtr ToUnmanaged()
-    // Offset: 0x1131338
+    // Offset: 0x11D1FF8
     System::IntPtr ToUnmanaged();
     // public System.Void .ctor()
-    // Offset: 0x1132818
+    // Offset: 0x11D34D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Matchmaking::CustomQuery* New_ctor();

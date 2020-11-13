@@ -82,40 +82,40 @@ namespace GlobalNamespace {
     // Offset: 0xB8
     System::Threading::CancellationTokenSource* cancellationTokenSource;
     // public System.Void set_showNewRibbon(System.Boolean value)
-    // Offset: 0x202B1C0
+    // Offset: 0x1A3CF3C
     void set_showNewRibbon(bool value);
     // public System.Void SetData(IAnnotatedBeatmapLevelCollection annotatedBeatmapLevelCollection)
-    // Offset: 0x202B23C
+    // Offset: 0x1A3CFB8
     void SetData(GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection);
     // private System.Void RefreshVisuals()
-    // Offset: 0x202B584
+    // Offset: 0x1A3D300
     void RefreshVisuals();
     // private System.String GetInfoText(System.String name, System.Int32 songs, System.Int32 purchased)
-    // Offset: 0x202B498
+    // Offset: 0x1A3D214
     ::Il2CppString* GetInfoText(::Il2CppString* name, int songs, int purchased);
     // public System.Void RefreshAvailabilityAsync(AdditionalContentModel contentModel)
-    // Offset: 0x202B6AC
+    // Offset: 0x1A3D428
     void RefreshAvailabilityAsync(GlobalNamespace::AdditionalContentModel* contentModel);
     // public System.Void CancelAsyncOperations()
-    // Offset: 0x202B698
+    // Offset: 0x1A3D414
     void CancelAsyncOperations();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x202B580
+    // Offset: 0x1A3D2FC
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x202B680
+    // Offset: 0x1A3D3FC
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void WasPreparedForReuse()
-    // Offset: 0x202B684
+    // Offset: 0x1A3D400
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::WasPreparedForReuse()
     void WasPreparedForReuse();
     // public System.Void .ctor()
-    // Offset: 0x202B79C
+    // Offset: 0x1A3D518
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

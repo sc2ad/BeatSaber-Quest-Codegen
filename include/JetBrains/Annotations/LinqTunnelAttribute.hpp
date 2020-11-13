@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class LinqTunnelAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1F5CBC0
+    // Offset: 0x19EE5A4
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

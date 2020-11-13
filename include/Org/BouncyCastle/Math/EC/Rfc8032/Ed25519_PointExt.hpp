@@ -26,7 +26,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     // Offset: 0x28
     ::Array<int>* t;
     // public System.Void .ctor()
-    // Offset: 0x18FDDA4
+    // Offset: 0x178CF2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Ed25519::PointExt* New_ctor();

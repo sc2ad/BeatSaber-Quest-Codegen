@@ -21,15 +21,15 @@ namespace Org::BouncyCastle::Asn1::X509 {
   class CrlNumber : public Org::BouncyCastle::Asn1::DerInteger {
     public:
     // public Org.BouncyCastle.Math.BigInteger get_Number()
-    // Offset: 0x160B214
+    // Offset: 0x157A010
     Org::BouncyCastle::Math::BigInteger* get_Number();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger number)
-    // Offset: 0x160B20C
+    // Offset: 0x157A008
     // Implemented from: Org.BouncyCastle.Asn1.DerInteger
     // Base method: System.Void DerInteger::.ctor(Org.BouncyCastle.Math.BigInteger number)
     static CrlNumber* New_ctor(Org::BouncyCastle::Math::BigInteger* number);
     // public override System.String ToString()
-    // Offset: 0x160B21C
+    // Offset: 0x157A018
     // Implemented from: Org.BouncyCastle.Asn1.DerInteger
     // Base method: System.String DerInteger::ToString()
     ::Il2CppString* ToString();

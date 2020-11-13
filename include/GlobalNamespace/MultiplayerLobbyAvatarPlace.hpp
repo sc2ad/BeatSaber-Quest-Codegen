@@ -26,10 +26,10 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::MultiplayerLobbyAvatarPlace::Pool
     class Pool;
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 worldPos, UnityEngine.Quaternion rotation)
-    // Offset: 0x2044730
+    // Offset: 0xFB94A0
     void SetPositionAndRotation(UnityEngine::Vector3 worldPos, UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
-    // Offset: 0x20447AC
+    // Offset: 0xFB951C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

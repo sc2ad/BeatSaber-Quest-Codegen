@@ -26,13 +26,13 @@ namespace System::Net {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // System.Void .ctor(System.Int32 durationMilliseconds)
-    // Offset: 0x118B6BC
+    // Offset: 0x1216A4C
     static TimerThread::Timer* New_ctor(int durationMilliseconds);
     // System.Boolean Cancel()
     // Offset: 0xFFFFFFFF
     bool Cancel();
     // public System.Void Dispose()
-    // Offset: 0x118B6F4
+    // Offset: 0x1216A84
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

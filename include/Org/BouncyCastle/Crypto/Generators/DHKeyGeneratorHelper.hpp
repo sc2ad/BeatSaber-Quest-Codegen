@@ -33,16 +33,16 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Set static field: static readonly Org.BouncyCastle.Crypto.Generators.DHKeyGeneratorHelper Instance
     static void _set_Instance(Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* value);
     // Org.BouncyCastle.Math.BigInteger CalculatePrivate(Org.BouncyCastle.Crypto.Parameters.DHParameters dhParams, Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x14ACD30
+    // Offset: 0x1497ED0
     Org::BouncyCastle::Math::BigInteger* CalculatePrivate(Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, Org::BouncyCastle::Security::SecureRandom* random);
     // Org.BouncyCastle.Math.BigInteger CalculatePublic(Org.BouncyCastle.Crypto.Parameters.DHParameters dhParams, Org.BouncyCastle.Math.BigInteger x)
-    // Offset: 0x14ACF30
+    // Offset: 0x14980D0
     Org::BouncyCastle::Math::BigInteger* CalculatePublic(Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, Org::BouncyCastle::Math::BigInteger* x);
     // static private System.Void .cctor()
-    // Offset: 0x14ACF70
+    // Offset: 0x1498110
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x14ACF68
+    // Offset: 0x1498108
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DHKeyGeneratorHelper* New_ctor();

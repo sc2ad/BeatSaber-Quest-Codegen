@@ -51,37 +51,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_packID()
-    // Offset: 0x20D0BF8
+    // Offset: 0x1A891C4
     // Implemented from: IBeatmapLevelPack
     // Base method: System.String IBeatmapLevelPack::get_packID()
     ::Il2CppString* get_packID();
     // public System.String get_packName()
-    // Offset: 0x20D0C00
+    // Offset: 0x1A891CC
     // Implemented from: IBeatmapLevelPack
     // Base method: System.String IBeatmapLevelPack::get_packName()
     ::Il2CppString* get_packName();
     // public System.String get_shortPackName()
-    // Offset: 0x20D0C08
+    // Offset: 0x1A891D4
     // Implemented from: IBeatmapLevelPack
     // Base method: System.String IBeatmapLevelPack::get_shortPackName()
     ::Il2CppString* get_shortPackName();
     // public System.String get_collectionName()
-    // Offset: 0x20D0C10
+    // Offset: 0x1A891DC
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: System.String IAnnotatedBeatmapLevelCollection::get_collectionName()
     ::Il2CppString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x20D0C18
+    // Offset: 0x1A891E4
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: UnityEngine.Sprite IAnnotatedBeatmapLevelCollection::get_coverImage()
     UnityEngine::Sprite* get_coverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x20D0C20
+    // Offset: 0x1A891EC
     // Implemented from: IAnnotatedBeatmapLevelCollection
     // Base method: IBeatmapLevelCollection IAnnotatedBeatmapLevelCollection::get_beatmapLevelCollection()
     GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0x20D0C28
+    // Offset: 0x1A891F4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

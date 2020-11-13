@@ -65,27 +65,27 @@ namespace GlobalNamespace {
     // Offset: 0x80
     System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`1<HowToPlayViewController/HowToPlayOptions> value)
-    // Offset: 0x20AE7AC
+    // Offset: 0xF1A858
     void add_didFinishEvent(System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<HowToPlayViewController/HowToPlayOptions> value)
-    // Offset: 0x20AE850
+    // Offset: 0xF1A8FC
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>* value);
     // public System.Void Setup(System.Boolean showTutorialButton)
-    // Offset: 0x20AE8F4
+    // Offset: 0xF1A9A0
     void Setup(bool showTutorialButton);
     // private System.Void <DidActivate>b__7_0()
-    // Offset: 0x20AEA34
+    // Offset: 0xF1AAE0
     void $DidActivate$b__7_0();
     // private System.Void <DidActivate>b__7_1()
-    // Offset: 0x20AEA98
+    // Offset: 0xF1AB44
     void $DidActivate$b__7_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x20AE930
+    // Offset: 0xF1A9DC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x20AEA2C
+    // Offset: 0xF1AAD8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

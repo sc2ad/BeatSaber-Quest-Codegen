@@ -64,13 +64,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x20F3D8C
+    // Offset: 0xFE2AE8
     void Awake();
     // public System.Void SpawnParticles(UnityEngine.Vector3 pos, UnityEngine.Vector3 cutNormal, UnityEngine.Vector3 saberDir, UnityEngine.Vector3 moveVec, UnityEngine.Color32 color, System.Int32 sparkleParticlesCount, System.Int32 explosionParticlesCount, System.Single lifetimeMultiplier)
-    // Offset: 0x20F3290
+    // Offset: 0xFE1F34
     void SpawnParticles(UnityEngine::Vector3 pos, UnityEngine::Vector3 cutNormal, UnityEngine::Vector3 saberDir, UnityEngine::Vector3 moveVec, UnityEngine::Color32 color, int sparkleParticlesCount, int explosionParticlesCount, float lifetimeMultiplier);
     // public System.Void .ctor()
-    // Offset: 0x20F3EDC
+    // Offset: 0xFE2C38
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

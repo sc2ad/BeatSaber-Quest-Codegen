@@ -29,22 +29,22 @@ namespace System {
     // Set static field: static System.AttributeUsageAttribute Default
     static void _set_Default(System::AttributeUsageAttribute* value);
     // public System.Void .ctor(System.AttributeTargets validOn)
-    // Offset: 0x13A19CC
+    // Offset: 0x1CAAABC
     static AttributeUsageAttribute* New_ctor(System::AttributeTargets validOn);
     // public System.Boolean get_AllowMultiple()
-    // Offset: 0x13A1A08
+    // Offset: 0x1CAAAF8
     bool get_AllowMultiple();
     // public System.Void set_AllowMultiple(System.Boolean value)
-    // Offset: 0x13A1A10
+    // Offset: 0x1CAAB00
     void set_AllowMultiple(bool value);
     // public System.Boolean get_Inherited()
-    // Offset: 0x13A1A1C
+    // Offset: 0x1CAAB0C
     bool get_Inherited();
     // public System.Void set_Inherited(System.Boolean value)
-    // Offset: 0x13A1A24
+    // Offset: 0x1CAAB14
     void set_Inherited(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x13A1A30
+    // Offset: 0x1CAAB20
     static void _cctor();
   }; // System.AttributeUsageAttribute
 }

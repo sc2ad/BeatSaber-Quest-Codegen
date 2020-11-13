@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_PostPresentHandoff : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AAE658
+    // Offset: 0x185DB90
     static IVRCompositor::_PostPresentHandoff* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x1AAE66C
+    // Offset: 0x185DBA4
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AAE878
+    // Offset: 0x185DDB0
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1AAE8A4
+    // Offset: 0x185DDDC
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_PostPresentHandoff
 }

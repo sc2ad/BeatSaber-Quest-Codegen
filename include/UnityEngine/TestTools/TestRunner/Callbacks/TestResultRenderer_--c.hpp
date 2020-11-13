@@ -35,13 +35,13 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Set static field: static public System.Func`2<NUnit.Framework.Interfaces.ITestResult,System.String> <>9__8_0
     static void _set_$$9__8_0(System::Func_2<NUnit::Framework::Interfaces::ITestResult*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x10BF5CC
+    // Offset: 0x1194EFC
     static void _cctor();
     // System.String <Draw>b__8_0(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x10BF63C
+    // Offset: 0x1194F6C
     ::Il2CppString* $Draw$b__8_0(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void .ctor()
-    // Offset: 0x10BF634
+    // Offset: 0x1194F64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestResultRenderer::$$c* New_ctor();

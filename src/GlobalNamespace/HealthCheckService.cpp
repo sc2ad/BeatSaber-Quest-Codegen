@@ -8,6 +8,8 @@
 #include "System/Threading/Thread.hpp"
 // Including type: System.Threading.ManualResetEvent
 #include "System/Threading/ManualResetEvent.hpp"
+// Including type: System.Net.HttpListener
+#include "System/Net/HttpListener.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

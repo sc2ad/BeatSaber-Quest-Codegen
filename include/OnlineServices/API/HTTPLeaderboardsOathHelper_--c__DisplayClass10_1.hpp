@@ -33,10 +33,10 @@ namespace OnlineServices::API {
     // Offset: 0x18
     OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0* CS$$$8__locals1;
     // System.Void <SendWebRequestAsync>b__0(UnityEngine.AsyncOperation asyncOperation2)
-    // Offset: 0x1F87A8C
+    // Offset: 0xEFB880
     void $SendWebRequestAsync$b__0(UnityEngine::AsyncOperation* asyncOperation2);
     // public System.Void .ctor()
-    // Offset: 0x1F87A84
+    // Offset: 0xEFB878
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1* New_ctor();

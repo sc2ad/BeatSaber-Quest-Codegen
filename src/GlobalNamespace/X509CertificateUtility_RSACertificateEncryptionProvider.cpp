@@ -5,6 +5,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: X509CertificateUtility/RSACertificateEncryptionProvider
 #include "GlobalNamespace/X509CertificateUtility_RSACertificateEncryptionProvider.hpp"
+// Including type: Org.BouncyCastle.Crypto.ISigner
+#include "Org/BouncyCastle/Crypto/ISigner.hpp"
 // Including type: Org.BouncyCastle.Crypto.Parameters.RsaPrivateCrtKeyParameters
 #include "Org/BouncyCastle/Crypto/Parameters/RsaPrivateCrtKeyParameters.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

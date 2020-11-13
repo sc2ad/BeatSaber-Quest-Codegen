@@ -37,30 +37,30 @@ namespace Org::BouncyCastle::Math::Field {
       return *reinterpret_cast<Org::BouncyCastle::Math::Field::IPolynomialExtensionField*>(this);
     }
     // System.Void .ctor(Org.BouncyCastle.Math.Field.IFiniteField subfield, Org.BouncyCastle.Math.Field.IPolynomial polynomial)
-    // Offset: 0x1902D74
+    // Offset: 0x1791EFC
     static GenericPolynomialExtensionField* New_ctor(Org::BouncyCastle::Math::Field::IFiniteField* subfield, Org::BouncyCastle::Math::Field::IPolynomial* polynomial);
     // public Org.BouncyCastle.Math.BigInteger get_Characteristic()
-    // Offset: 0x1903284
+    // Offset: 0x179240C
     // Implemented from: Org.BouncyCastle.Math.Field.IFiniteField
     // Base method: Org.BouncyCastle.Math.BigInteger IFiniteField::get_Characteristic()
     Org::BouncyCastle::Math::BigInteger* get_Characteristic();
     // public System.Int32 get_Dimension()
-    // Offset: 0x1903334
+    // Offset: 0x17924BC
     // Implemented from: Org.BouncyCastle.Math.Field.IFiniteField
     // Base method: System.Int32 IFiniteField::get_Dimension()
     int get_Dimension();
     // public Org.BouncyCastle.Math.Field.IPolynomial get_MinimalPolynomial()
-    // Offset: 0x1903464
+    // Offset: 0x17925EC
     // Implemented from: Org.BouncyCastle.Math.Field.IPolynomialExtensionField
     // Base method: Org.BouncyCastle.Math.Field.IPolynomial IPolynomialExtensionField::get_MinimalPolynomial()
     Org::BouncyCastle::Math::Field::IPolynomial* get_MinimalPolynomial();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x190346C
+    // Offset: 0x17925F4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1903550
+    // Offset: 0x17926D8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

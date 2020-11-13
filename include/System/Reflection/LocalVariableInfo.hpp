@@ -28,12 +28,12 @@ namespace System::Reflection {
     // Offset: 0x1A
     uint16_t position;
     // protected System.Void .ctor()
-    // Offset: 0x1672D00
+    // Offset: 0x15C78C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LocalVariableInfo* New_ctor();
     // public override System.String ToString()
-    // Offset: 0x1672D08
+    // Offset: 0x15C78CC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

@@ -148,178 +148,178 @@ namespace System::Net {
     // Set static field: static private System.Byte[] crlf
     static void _set_crlf(::Array<uint8_t>* value);
     // public System.Void .ctor(System.Net.WebConnection cnc, System.Net.WebConnectionData data)
-    // Offset: 0x1190AB0
+    // Offset: 0x121BE40
     static WebConnectionStream* New_ctor(System::Net::WebConnection* cnc, System::Net::WebConnectionData* data);
     // public System.Void .ctor(System.Net.WebConnection cnc, System.Net.HttpWebRequest request)
-    // Offset: 0x1191548
+    // Offset: 0x121C8D8
     static WebConnectionStream* New_ctor(System::Net::WebConnection* cnc, System::Net::HttpWebRequest* request);
     // private System.Boolean CheckAuthHeader(System.String headerName)
-    // Offset: 0x11958B0
+    // Offset: 0x1220C40
     bool CheckAuthHeader(::Il2CppString* headerName);
     // private System.Boolean IsNtlmAuth()
-    // Offset: 0x119536C
+    // Offset: 0x12206FC
     bool IsNtlmAuth();
     // System.Void CheckResponseInBuffer()
-    // Offset: 0x1190E6C
+    // Offset: 0x121C1FC
     void CheckResponseInBuffer();
     // System.Net.WebConnection get_Connection()
-    // Offset: 0x1195948
+    // Offset: 0x1220CD8
     System::Net::WebConnection* get_Connection();
     // System.Boolean get_CompleteRequestWritten()
-    // Offset: 0x1195960
+    // Offset: 0x1220CF0
     bool get_CompleteRequestWritten();
     // System.Void set_SendChunked(System.Boolean value)
-    // Offset: 0x1195968
+    // Offset: 0x1220CF8
     void set_SendChunked(bool value);
     // System.Void set_ReadBuffer(System.Byte[] value)
-    // Offset: 0x1195974
+    // Offset: 0x1220D04
     void set_ReadBuffer(::Array<uint8_t>* value);
     // System.Void set_ReadBufferOffset(System.Int32 value)
-    // Offset: 0x119597C
+    // Offset: 0x1220D0C
     void set_ReadBufferOffset(int value);
     // System.Void set_ReadBufferSize(System.Int32 value)
-    // Offset: 0x1195984
+    // Offset: 0x1220D14
     void set_ReadBufferSize(int value);
     // System.Byte[] get_WriteBuffer()
-    // Offset: 0x119598C
+    // Offset: 0x1220D1C
     ::Array<uint8_t>* get_WriteBuffer();
     // System.Int32 get_WriteBufferLength()
-    // Offset: 0x11959B0
+    // Offset: 0x1220D40
     int get_WriteBufferLength();
     // System.Void ForceCompletion()
-    // Offset: 0x1190EC0
+    // Offset: 0x121C250
     void ForceCompletion();
     // System.Void CheckComplete()
-    // Offset: 0x11959DC
+    // Offset: 0x1220D6C
     void CheckComplete();
     // System.Void ReadAll()
-    // Offset: 0x11954B0
+    // Offset: 0x1220840
     void ReadAll();
     // private System.Void WriteCallbackWrapper(System.IAsyncResult r)
-    // Offset: 0x1195A20
+    // Offset: 0x1220DB0
     void WriteCallbackWrapper(System::IAsyncResult* r);
     // private System.Void ReadCallbackWrapper(System.IAsyncResult r)
-    // Offset: 0x1195C7C
+    // Offset: 0x122100C
     void ReadCallbackWrapper(System::IAsyncResult* r);
     // private System.Void WriteAsyncCB(System.IAsyncResult r)
-    // Offset: 0x11966F0
+    // Offset: 0x1221A80
     void WriteAsyncCB(System::IAsyncResult* r);
     // private System.Void CheckWriteOverflow(System.Int64 contentLength, System.Int64 totalWritten, System.Int64 size)
-    // Offset: 0x11970C4
+    // Offset: 0x1222454
     void CheckWriteOverflow(int64_t contentLength, int64_t totalWritten, int64_t size);
     // System.Void SetHeadersAsync(System.Boolean setInternalLength, System.Net.SimpleAsyncCallback callback)
-    // Offset: 0x1197518
+    // Offset: 0x12228A8
     void SetHeadersAsync(bool setInternalLength, System::Net::SimpleAsyncCallback* callback);
     // private System.Boolean SetHeadersAsync(System.Net.SimpleAsyncResult result, System.Boolean setInternalLength)
-    // Offset: 0x11975EC
+    // Offset: 0x122297C
     bool SetHeadersAsync(System::Net::SimpleAsyncResult* result, bool setInternalLength);
     // System.Boolean get_RequestWritten()
-    // Offset: 0x1197900
+    // Offset: 0x1222C90
     bool get_RequestWritten();
     // System.Boolean WriteRequestAsync(System.Net.SimpleAsyncResult result)
-    // Offset: 0x1197908
+    // Offset: 0x1222C98
     bool WriteRequestAsync(System::Net::SimpleAsyncResult* result);
     // System.Void InternalClose()
-    // Offset: 0x1197AF4
+    // Offset: 0x1222E84
     void InternalClose();
     // System.Boolean get_GetResponseOnClose()
-    // Offset: 0x1197B00
+    // Offset: 0x1222E90
     bool get_GetResponseOnClose();
     // System.Void KillBuffer()
-    // Offset: 0x11969DC
+    // Offset: 0x1221D6C
     void KillBuffer();
     // public override System.Int32 get_ReadTimeout()
-    // Offset: 0x1195950
+    // Offset: 0x1220CE0
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::get_ReadTimeout()
     int get_ReadTimeout();
     // public override System.Int32 get_WriteTimeout()
-    // Offset: 0x1195958
+    // Offset: 0x1220CE8
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::get_WriteTimeout()
     int get_WriteTimeout();
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1195EA0
+    // Offset: 0x1221230
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     int Read(::Array<uint8_t>* buffer, int offset, int size);
     // public override System.IAsyncResult BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
-    // Offset: 0x1196018
+    // Offset: 0x12213A8
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
     System::IAsyncResult* BeginRead(::Array<uint8_t>* buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
     // public override System.Int32 EndRead(System.IAsyncResult r)
-    // Offset: 0x1196358
+    // Offset: 0x12216E8
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::EndRead(System.IAsyncResult r)
     int EndRead(System::IAsyncResult* r);
     // public override System.IAsyncResult BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
-    // Offset: 0x11969E8
+    // Offset: 0x1221D78
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
     System::IAsyncResult* BeginWrite(::Array<uint8_t>* buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
     // public override System.Void EndWrite(System.IAsyncResult r)
-    // Offset: 0x1197198
+    // Offset: 0x1222528
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::EndWrite(System.IAsyncResult r)
     void EndWrite(System::IAsyncResult* r);
     // public override System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1197394
+    // Offset: 0x1222724
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     void Write(::Array<uint8_t>* buffer, int offset, int size);
     // public override System.Void Flush()
-    // Offset: 0x1197514
+    // Offset: 0x12228A4
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Flush()
     void Flush();
     // public override System.Void Close()
-    // Offset: 0x1197B08
+    // Offset: 0x1222E98
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Close()
     void Close();
     // public override System.Int64 Seek(System.Int64 a, System.IO.SeekOrigin b)
-    // Offset: 0x1197E14
+    // Offset: 0x12231A4
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::Seek(System.Int64 a, System.IO.SeekOrigin b)
     int64_t Seek(int64_t a, System::IO::SeekOrigin b);
     // public override System.Void SetLength(System.Int64 a)
-    // Offset: 0x1197E74
+    // Offset: 0x1223204
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::SetLength(System.Int64 a)
     void SetLength(int64_t a);
     // public override System.Boolean get_CanSeek()
-    // Offset: 0x1197ED4
+    // Offset: 0x1223264
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanSeek()
     bool get_CanSeek();
     // public override System.Boolean get_CanRead()
-    // Offset: 0x1197EDC
+    // Offset: 0x122326C
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanRead()
     bool get_CanRead();
     // public override System.Boolean get_CanWrite()
-    // Offset: 0x1197EFC
+    // Offset: 0x122328C
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanWrite()
     bool get_CanWrite();
     // public override System.Int64 get_Length()
-    // Offset: 0x1197F1C
+    // Offset: 0x12232AC
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Length()
     int64_t get_Length();
     // public override System.Int64 get_Position()
-    // Offset: 0x1197F98
+    // Offset: 0x1223328
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Position()
     int64_t get_Position();
     // public override System.Void set_Position(System.Int64 value)
-    // Offset: 0x1197FF8
+    // Offset: 0x1223388
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::set_Position(System.Int64 value)
     void set_Position(int64_t value);
     // static private System.Void .cctor()
-    // Offset: 0x1198058
+    // Offset: 0x12233E8
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::.cctor()
     static void _cctor();

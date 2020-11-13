@@ -21,7 +21,7 @@ namespace UnityEngine {
       return m_Url;
     }
     // public System.Void .ctor(System.String url)
-    // Offset: 0x1797954
+    // Offset: 0x168D7D4
     static HelpURLAttribute* New_ctor(::Il2CppString* url);
   }; // UnityEngine.HelpURLAttribute
 }

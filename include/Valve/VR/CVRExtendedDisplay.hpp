@@ -33,16 +33,16 @@ namespace Valve::VR {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x130A22C
+    // Offset: 0x1369A18
     static CVRExtendedDisplay* New_ctor(System::IntPtr pInterface);
     // public System.Void GetWindowBounds(ref System.Int32 pnX, ref System.Int32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
-    // Offset: 0x130A33C
+    // Offset: 0x1369B28
     void GetWindowBounds(int& pnX, int& pnY, uint& pnWidth, uint& pnHeight);
     // public System.Void GetEyeOutputViewport(Valve.VR.EVREye eEye, ref System.UInt32 pnX, ref System.UInt32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
-    // Offset: 0x130A368
+    // Offset: 0x1369B54
     void GetEyeOutputViewport(Valve::VR::EVREye eEye, uint& pnX, uint& pnY, uint& pnWidth, uint& pnHeight);
     // public System.Void GetDXGIOutputInfo(ref System.Int32 pnAdapterIndex, ref System.Int32 pnAdapterOutputIndex)
-    // Offset: 0x130A394
+    // Offset: 0x1369B80
     void GetDXGIOutputInfo(int& pnAdapterIndex, int& pnAdapterOutputIndex);
   }; // Valve.VR.CVRExtendedDisplay
 }

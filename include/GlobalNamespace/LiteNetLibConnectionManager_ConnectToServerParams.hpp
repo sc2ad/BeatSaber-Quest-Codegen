@@ -23,19 +23,19 @@ namespace GlobalNamespace {
   class LiteNetLibConnectionManager::ConnectToServerParams : public GlobalNamespace::LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase {
     public:
     // public System.Net.IPEndPoint endPoint
-    // Offset: 0x30
+    // Offset: 0x38
     System::Net::IPEndPoint* endPoint;
     // public System.String serverUserId
-    // Offset: 0x38
+    // Offset: 0x40
     ::Il2CppString* serverUserId;
     // public System.String serverUserName
-    // Offset: 0x40
+    // Offset: 0x48
     ::Il2CppString* serverUserName;
     // public System.Boolean serverIsConnectionOwner
-    // Offset: 0x48
+    // Offset: 0x50
     bool serverIsConnectionOwner;
     // public System.Void .ctor()
-    // Offset: 0x21636A4
+    // Offset: 0x1B52228
     // Implemented from: LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase
     // Base method: System.Void LiteNetLibConnectionParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()

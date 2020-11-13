@@ -91,37 +91,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public ColorSchemesSettings get_colorSchemesSettings()
-    // Offset: 0x1FBA498
+    // Offset: 0x1A52674
     GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
     // public System.Void SetData(ColorSchemesSettings colorSchemesSettings)
-    // Offset: 0x1FBA4A0
+    // Offset: 0x1A5267C
     void SetData(GlobalNamespace::ColorSchemesSettings* colorSchemesSettings);
     // protected System.Void OnDestroy()
-    // Offset: 0x1FBA6C0
+    // Offset: 0x1A529DC
     void OnDestroy();
     // protected System.Void OnDisable()
-    // Offset: 0x1FBA8B8
+    // Offset: 0x1A52D14
     void OnDisable();
     // private System.Void HandleDropDownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropDownWithTableView, System.Int32 idx)
-    // Offset: 0x1FBAA60
+    // Offset: 0x1A52EBC
     void HandleDropDownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropDownWithTableView, int idx);
     // private System.Void HandleOverrideColorsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x1FBAABC
+    // Offset: 0x1A52F18
     void HandleOverrideColorsToggleValueChanged(bool isOn);
     // private System.Void HandleEditColorSchemeButtonWasPressed()
-    // Offset: 0x1FBABD0
+    // Offset: 0x1A5302C
     void HandleEditColorSchemeButtonWasPressed();
     // private System.Void HandleEditColorSchemeControllerDidFinish()
-    // Offset: 0x1FBAC4C
+    // Offset: 0x1A530C0
     void HandleEditColorSchemeControllerDidFinish();
     // private System.Void HandleEditColorSchemeControllerDidChangeColorScheme(ColorScheme colorScheme)
-    // Offset: 0x1FBACA8
+    // Offset: 0x1A5311C
     void HandleEditColorSchemeControllerDidChangeColorScheme(GlobalNamespace::ColorScheme* colorScheme);
     // private System.Void <HandleOverrideColorsToggleValueChanged>b__18_0()
-    // Offset: 0x1FBACC8
+    // Offset: 0x1A5313C
     void $HandleOverrideColorsToggleValueChanged$b__18_0();
     // public System.Void Refresh()
-    // Offset: 0x1FBA8DC
+    // Offset: 0x1A52D38
     // Implemented from: IRefreshable
     // Base method: System.Void IRefreshable::Refresh()
     void Refresh();
@@ -129,7 +129,7 @@ namespace GlobalNamespace {
     // Maps to method: Refresh
     void GlobalNamespace_IRefreshable_Refresh();
     // public System.Void .ctor()
-    // Offset: 0x1FBACC0
+    // Offset: 0x1A53134
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

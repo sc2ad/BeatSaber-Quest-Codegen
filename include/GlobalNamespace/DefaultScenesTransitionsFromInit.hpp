@@ -41,13 +41,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public MenuScenesTransitionSetupDataSO get_mainMenuScenesTransitionSetupData()
-    // Offset: 0x2016E6C
+    // Offset: 0x1A59C2C
     GlobalNamespace::MenuScenesTransitionSetupDataSO* get_mainMenuScenesTransitionSetupData();
     // public System.Void TransitionToNextScene(System.Boolean goStraightToMenu)
-    // Offset: 0x2016E74
+    // Offset: 0x1A59C34
     void TransitionToNextScene(bool goStraightToMenu);
     // public System.Void .ctor()
-    // Offset: 0x2016F64
+    // Offset: 0x1A59D24
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

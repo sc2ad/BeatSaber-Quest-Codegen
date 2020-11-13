@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::ResultsViewController* resultsViewController;
     // System.Void <HandleResultsViewControllerRestartButtonPressed>b__0()
-    // Offset: 0x1FDEDC4
+    // Offset: 0xFD775C
     void $HandleResultsViewControllerRestartButtonPressed$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1FDED8C
+    // Offset: 0xFD7724
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NetEaseArcadeFlowCoordinator::$$c__DisplayClass27_0* New_ctor();

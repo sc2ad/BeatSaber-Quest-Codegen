@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Set static field: static public readonly OVRPlugin/PoseStatef identity
     static void _set_identity(GlobalNamespace::OVRPlugin::PoseStatef value);
     // static private System.Void .cctor()
-    // Offset: 0x126B36C
+    // Offset: 0x12E0468
     static void _cctor();
   }; // OVRPlugin/PoseStatef
 }

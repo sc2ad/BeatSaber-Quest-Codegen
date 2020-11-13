@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Tuple`2<SongPackMask,System.String>,System.String> <>9__7_0
     static void _set_$$9__7_0(System::Func_2<System::Tuple_2<GlobalNamespace::SongPackMask, ::Il2CppString*>*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1FF3BEC
+    // Offset: 0xF3AB2C
     static void _cctor();
     // System.String <Start>b__7_0(System.Tuple`2<SongPackMask,System.String> x)
-    // Offset: 0x1FF3C5C
+    // Offset: 0xF3AB9C
     ::Il2CppString* $Start$b__7_0(System::Tuple_2<GlobalNamespace::SongPackMask, ::Il2CppString*>* x);
     // public System.Void .ctor()
-    // Offset: 0x1FF3C54
+    // Offset: 0xF3AB94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SongPacksDropdown::$$c* New_ctor();

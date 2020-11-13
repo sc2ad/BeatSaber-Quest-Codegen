@@ -79,109 +79,109 @@ namespace TMPro {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public TMPro.TMP_FontAsset get_fontAsset()
-    // Offset: 0xEE0518
+    // Offset: 0xF8CC64
     TMPro::TMP_FontAsset* get_fontAsset();
     // public System.Void set_fontAsset(TMPro.TMP_FontAsset value)
-    // Offset: 0xEE0520
+    // Offset: 0xF8CC6C
     void set_fontAsset(TMPro::TMP_FontAsset* value);
     // public TMPro.TMP_SpriteAsset get_spriteAsset()
-    // Offset: 0xEE0528
+    // Offset: 0xF8CC74
     TMPro::TMP_SpriteAsset* get_spriteAsset();
     // public System.Void set_spriteAsset(TMPro.TMP_SpriteAsset value)
-    // Offset: 0xEE0530
+    // Offset: 0xF8CC7C
     void set_spriteAsset(TMPro::TMP_SpriteAsset* value);
     // public UnityEngine.Material get_material()
-    // Offset: 0xEE0538
+    // Offset: 0xF8CC84
     UnityEngine::Material* get_material();
     // public System.Void set_material(UnityEngine.Material value)
-    // Offset: 0xEE06A0
+    // Offset: 0xF8CDEC
     void set_material(UnityEngine::Material* value);
     // public UnityEngine.Material get_sharedMaterial()
-    // Offset: 0xEE08B8
+    // Offset: 0xF8D004
     UnityEngine::Material* get_sharedMaterial();
     // public System.Void set_sharedMaterial(UnityEngine.Material value)
-    // Offset: 0xEE08C0
+    // Offset: 0xF8D00C
     void set_sharedMaterial(UnityEngine::Material* value);
     // public UnityEngine.Material get_fallbackMaterial()
-    // Offset: 0xEE08F8
+    // Offset: 0xF8D044
     UnityEngine::Material* get_fallbackMaterial();
     // public System.Void set_fallbackMaterial(UnityEngine.Material value)
-    // Offset: 0xEE0900
+    // Offset: 0xF8D04C
     void set_fallbackMaterial(UnityEngine::Material* value);
     // public UnityEngine.Material get_fallbackSourceMaterial()
-    // Offset: 0xEE0A74
+    // Offset: 0xF8D1C0
     UnityEngine::Material* get_fallbackSourceMaterial();
     // public System.Void set_fallbackSourceMaterial(UnityEngine.Material value)
-    // Offset: 0xEE0A7C
+    // Offset: 0xF8D1C8
     void set_fallbackSourceMaterial(UnityEngine::Material* value);
     // public System.Boolean get_isDefaultMaterial()
-    // Offset: 0xEE0A84
+    // Offset: 0xF8D1D0
     bool get_isDefaultMaterial();
     // public System.Void set_isDefaultMaterial(System.Boolean value)
-    // Offset: 0xEE0A8C
+    // Offset: 0xF8D1D8
     void set_isDefaultMaterial(bool value);
     // public System.Single get_padding()
-    // Offset: 0xEE0A98
+    // Offset: 0xF8D1E4
     float get_padding();
     // public System.Void set_padding(System.Single value)
-    // Offset: 0xEE0AA0
+    // Offset: 0xF8D1EC
     void set_padding(float value);
     // public UnityEngine.Renderer get_renderer()
-    // Offset: 0xEE0AA8
+    // Offset: 0xF8D1F4
     UnityEngine::Renderer* get_renderer();
     // public UnityEngine.MeshFilter get_meshFilter()
-    // Offset: 0xEE0B54
+    // Offset: 0xF8D2A0
     UnityEngine::MeshFilter* get_meshFilter();
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0xEE0C00
+    // Offset: 0xF8D34C
     UnityEngine::Mesh* get_mesh();
     // public System.Void set_mesh(UnityEngine.Mesh value)
-    // Offset: 0xEE0CE4
+    // Offset: 0xF8D430
     void set_mesh(UnityEngine::Mesh* value);
     // private System.Void OnEnable()
-    // Offset: 0xEE0CEC
+    // Offset: 0xF8D438
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0xEE0E1C
+    // Offset: 0xF8D568
     void OnDisable();
     // private System.Void OnDestroy()
-    // Offset: 0xEE0EF0
+    // Offset: 0xF8D63C
     void OnDestroy();
     // static public TMPro.TMP_SubMesh AddSubTextObject(TMPro.TextMeshPro textComponent, TMPro.MaterialReference materialReference)
-    // Offset: 0xEE100C
+    // Offset: 0xF8D758
     static TMPro::TMP_SubMesh* AddSubTextObject(TMPro::TextMeshPro* textComponent, TMPro::MaterialReference materialReference);
     // public System.Void DestroySelf()
-    // Offset: 0xEE1390
+    // Offset: 0xF8DADC
     void DestroySelf();
     // private UnityEngine.Material GetMaterial(UnityEngine.Material mat)
-    // Offset: 0xEE0540
+    // Offset: 0xF8CC8C
     UnityEngine::Material* GetMaterial(UnityEngine::Material* mat);
     // private UnityEngine.Material CreateMaterialInstance(UnityEngine.Material source)
-    // Offset: 0xEE1410
+    // Offset: 0xF8DB5C
     UnityEngine::Material* CreateMaterialInstance(UnityEngine::Material* source);
     // private UnityEngine.Material GetSharedMaterial()
-    // Offset: 0xEE14CC
+    // Offset: 0xF8DC18
     UnityEngine::Material* GetSharedMaterial();
     // private System.Void SetSharedMaterial(UnityEngine.Material mat)
-    // Offset: 0xEE08C4
+    // Offset: 0xF8D010
     void SetSharedMaterial(UnityEngine::Material* mat);
     // public System.Single GetPaddingForMaterial()
-    // Offset: 0xEE0744
+    // Offset: 0xF8CE90
     float GetPaddingForMaterial();
     // public System.Void UpdateMeshPadding(System.Boolean isExtraPadding, System.Boolean isUsingBold)
-    // Offset: 0xEE1584
+    // Offset: 0xF8DCD0
     void UpdateMeshPadding(bool isExtraPadding, bool isUsingBold);
     // public System.Void SetVerticesDirty()
-    // Offset: 0xEE07DC
+    // Offset: 0xF8CF28
     void SetVerticesDirty();
     // public System.Void SetMaterialDirty()
-    // Offset: 0xEE08B4
+    // Offset: 0xF8D000
     void SetMaterialDirty();
     // protected System.Void UpdateMaterial()
-    // Offset: 0xEE1648
+    // Offset: 0xF8DD94
     void UpdateMaterial();
     // public System.Void .ctor()
-    // Offset: 0xEE16F8
+    // Offset: 0xF8DE44
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

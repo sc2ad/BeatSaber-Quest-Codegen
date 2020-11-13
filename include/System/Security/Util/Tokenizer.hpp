@@ -137,22 +137,22 @@ namespace System::Security::Util {
     // Offset: 0x68
     ::Il2CppString* inNestedString;
     // System.Void BasicInitialization()
-    // Offset: 0x1213244
+    // Offset: 0x12882FC
     void BasicInitialization();
     // public System.Void Recycle()
-    // Offset: 0x1213114
+    // Offset: 0x12881CC
     void Recycle();
     // System.Void .ctor(System.String input)
-    // Offset: 0x12131EC
+    // Offset: 0x12882A4
     static Tokenizer* New_ctor(::Il2CppString* input);
     // System.Void ChangeFormat(System.Text.Encoding encoding)
-    // Offset: 0x12126C0
+    // Offset: 0x1287778
     void ChangeFormat(System::Text::Encoding* encoding);
     // System.Void GetTokens(System.Security.Util.TokenizerStream stream, System.Int32 maxNum, System.Boolean endAfterKet)
-    // Offset: 0x1211E30
+    // Offset: 0x1286EE8
     void GetTokens(System::Security::Util::TokenizerStream* stream, int maxNum, bool endAfterKet);
     // private System.String GetStringToken()
-    // Offset: 0x1213924
+    // Offset: 0x12889DC
     ::Il2CppString* GetStringToken();
   }; // System.Security.Util.Tokenizer
 }

@@ -70,23 +70,23 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxShowPlayer
     static void _set_kMaxShowPlayer(int value);
     // public System.Void Init(EnterPlayerGuestNameViewController/FinishDelegate didFinishCallback)
-    // Offset: 0x201D260
+    // Offset: 0x1A5FBE8
     void Init(GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate* didFinishCallback);
     // private System.Void OkButtonPressed()
-    // Offset: 0x201D5A0
+    // Offset: 0x1A5FF28
     void OkButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x201D268
+    // Offset: 0x1A5FBF0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x201D4D8
+    // Offset: 0x1A5FE60
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x201DA8C
+    // Offset: 0x1A60414
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

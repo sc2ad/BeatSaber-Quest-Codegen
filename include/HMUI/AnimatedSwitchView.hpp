@@ -165,37 +165,37 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x217DE08
+    // Offset: 0x10A6C04
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x217DE68
+    // Offset: 0x10A6C64
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x217E608
+    // Offset: 0x10A7404
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x217E740
+    // Offset: 0x10A753C
     void Update();
     // private System.Void LerpPosition(System.Single switchAmount)
-    // Offset: 0x217E598
+    // Offset: 0x10A7394
     void LerpPosition(float switchAmount);
     // private System.Void LerpStretch(System.Single switchAmount)
-    // Offset: 0x217EBA0
+    // Offset: 0x10A799C
     void LerpStretch(float switchAmount);
     // private System.Void LerpColors(System.Single switchAmount, System.Single highlightAmount, System.Single disabledAmount)
-    // Offset: 0x217DFF0
+    // Offset: 0x10A6DEC
     void LerpColors(float switchAmount, float highlightAmount, float disabledAmount);
     // private UnityEngine.Color LerpColor(System.Single switchAmount, System.Single highlightAmount, System.Single disabledAmount, HMUI.AnimatedSwitchView/GetColorDelegate getColorDelegate)
-    // Offset: 0x217EC88
+    // Offset: 0x10A7A84
     UnityEngine::Color LerpColor(float switchAmount, float highlightAmount, float disabledAmount, HMUI::AnimatedSwitchView::GetColorDelegate* getColorDelegate);
     // private System.Void HandleOnValueChanged(System.Boolean value)
-    // Offset: 0x217F220
+    // Offset: 0x10A801C
     void HandleOnValueChanged(bool value);
     // private System.Void HandleStateDidChange(HMUI.ToggleWithCallbacks/SelectionState selectionState)
-    // Offset: 0x217F248
+    // Offset: 0x10A8044
     void HandleStateDidChange(HMUI::ToggleWithCallbacks::SelectionState selectionState);
     // public System.Void .ctor()
-    // Offset: 0x217F344
+    // Offset: 0x10A8140
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

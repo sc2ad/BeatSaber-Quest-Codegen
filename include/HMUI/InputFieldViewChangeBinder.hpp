@@ -46,25 +46,25 @@ namespace HMUI {
     // Offset: 0x18
     bool enabled;
     // private System.Void Init()
-    // Offset: 0x216A484
+    // Offset: 0x107A308
     void Init();
     // public System.Void AddBindings(System.Collections.Generic.List`1<System.Tuple`2<HMUI.InputFieldView,System.Action`1<HMUI.InputFieldView>>> bindings)
-    // Offset: 0x216A4F4
+    // Offset: 0x107A378
     void AddBindings(System::Collections::Generic::List_1<System::Tuple_2<HMUI::InputFieldView*, System::Action_1<HMUI::InputFieldView*>*>*>* bindings);
     // public System.Void AddBinding(HMUI.InputFieldView inputField, System.Action`1<HMUI.InputFieldView> action)
-    // Offset: 0x216A5FC
+    // Offset: 0x107A480
     void AddBinding(HMUI::InputFieldView* inputField, System::Action_1<HMUI::InputFieldView*>* action);
     // public System.Void ClearBindings()
-    // Offset: 0x216A6BC
+    // Offset: 0x107A540
     void ClearBindings();
     // public System.Void Disable()
-    // Offset: 0x216A854
+    // Offset: 0x107A6D8
     void Disable();
     // public System.Void Enable()
-    // Offset: 0x216A9DC
+    // Offset: 0x107A860
     void Enable();
     // public System.Void .ctor()
-    // Offset: 0x216A454
+    // Offset: 0x107A2D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InputFieldViewChangeBinder* New_ctor();

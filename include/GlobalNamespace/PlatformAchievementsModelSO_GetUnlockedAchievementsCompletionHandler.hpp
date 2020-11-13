@@ -26,16 +26,16 @@ namespace GlobalNamespace {
   class PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2083B30
+    // Offset: 0xF08310
     static PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(PlatformAchievementsModelSO/GetUnlockedAchievementsResult result, System.String[] unlockedAchievementsIds)
-    // Offset: 0x20838A0
+    // Offset: 0xF08080
     void Invoke(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::Array<::Il2CppString*>* unlockedAchievementsIds);
     // public System.IAsyncResult BeginInvoke(PlatformAchievementsModelSO/GetUnlockedAchievementsResult result, System.String[] unlockedAchievementsIds, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2083B44
+    // Offset: 0xF08324
     System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::Array<::Il2CppString*>* unlockedAchievementsIds, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2083BDC
+    // Offset: 0xF083BC
     void EndInvoke(System::IAsyncResult* result);
   }; // PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler
 }

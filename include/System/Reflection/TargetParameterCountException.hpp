@@ -23,20 +23,20 @@ namespace System::Reflection {
   class TargetParameterCountException : public System::ApplicationException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1677F54
+    // Offset: 0x15CCB18
     // Implemented from: System.ApplicationException
     // Base method: System.Void ApplicationException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static TargetParameterCountException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x167D144
+    // Offset: 0x15D1D08
     // Implemented from: System.ApplicationException
     // Base method: System.Void ApplicationException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static TargetParameterCountException* New_ctor(::Il2CppString* message);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x167D178
+    // Offset: 0x15D1D3C
     // Implemented from: System.ApplicationException
     // Base method: System.Void ApplicationException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

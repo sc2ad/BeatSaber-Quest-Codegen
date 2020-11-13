@@ -14,7 +14,7 @@ namespace Zenject {
   class NoReflectionBakingAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1F5D6AC
+    // Offset: 0x19EF090
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

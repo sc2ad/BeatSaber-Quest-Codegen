@@ -48,7 +48,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x40
     ::Il2CppString* RequestHash;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x113B504
+    // Offset: 0x11DC1C4
     static MatchmakingEnqueueResult* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.MatchmakingEnqueueResult
 }

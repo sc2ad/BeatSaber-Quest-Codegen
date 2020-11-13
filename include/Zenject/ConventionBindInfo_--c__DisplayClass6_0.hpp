@@ -34,10 +34,10 @@ namespace Zenject {
       return assembly;
     }
     // System.Boolean <ShouldIncludeAssembly>b__0(System.Func`2<System.Reflection.Assembly,System.Boolean> predicate)
-    // Offset: 0xFF64B8
+    // Offset: 0x10F1E60
     bool $ShouldIncludeAssembly$b__0(System::Func_2<System::Reflection::Assembly*, bool>* predicate);
     // public System.Void .ctor()
-    // Offset: 0xFF6260
+    // Offset: 0x10F1C08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConventionBindInfo::$$c__DisplayClass6_0* New_ctor();

@@ -43,49 +43,49 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
     }
     // System.Int32 DecrementPromotionCountdown()
-    // Offset: 0x18F5E20
+    // Offset: 0x1784FA8
     int DecrementPromotionCountdown();
     // System.Int32 get_PromotionCountdown()
-    // Offset: 0x18F5E64
+    // Offset: 0x1784FEC
     int get_PromotionCountdown();
     // System.Void set_PromotionCountdown(System.Int32 value)
-    // Offset: 0x18F5E88
+    // Offset: 0x1785010
     void set_PromotionCountdown(int value);
     // public System.Boolean get_IsPromoted()
-    // Offset: 0x18F5EB0
+    // Offset: 0x1785038
     bool get_IsPromoted();
     // public System.Int32 get_ConfWidth()
-    // Offset: 0x18F5ED8
+    // Offset: 0x1785060
     int get_ConfWidth();
     // public System.Void set_ConfWidth(System.Int32 value)
-    // Offset: 0x18F5EE0
+    // Offset: 0x1785068
     void set_ConfWidth(int value);
     // public Org.BouncyCastle.Math.EC.ECPoint[] get_PreComp()
-    // Offset: 0x18F5EE8
+    // Offset: 0x1785070
     ::Array<Org::BouncyCastle::Math::EC::ECPoint*>* get_PreComp();
     // public System.Void set_PreComp(Org.BouncyCastle.Math.EC.ECPoint[] value)
-    // Offset: 0x18F5EF0
+    // Offset: 0x1785078
     void set_PreComp(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* value);
     // public Org.BouncyCastle.Math.EC.ECPoint[] get_PreCompNeg()
-    // Offset: 0x18F5EF8
+    // Offset: 0x1785080
     ::Array<Org::BouncyCastle::Math::EC::ECPoint*>* get_PreCompNeg();
     // public System.Void set_PreCompNeg(Org.BouncyCastle.Math.EC.ECPoint[] value)
-    // Offset: 0x18F5F00
+    // Offset: 0x1785088
     void set_PreCompNeg(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* value);
     // public Org.BouncyCastle.Math.EC.ECPoint get_Twice()
-    // Offset: 0x18F5F08
+    // Offset: 0x1785090
     Org::BouncyCastle::Math::EC::ECPoint* get_Twice();
     // public System.Void set_Twice(Org.BouncyCastle.Math.EC.ECPoint value)
-    // Offset: 0x18F5F10
+    // Offset: 0x1785098
     void set_Twice(Org::BouncyCastle::Math::EC::ECPoint* value);
     // public System.Int32 get_Width()
-    // Offset: 0x18F5F18
+    // Offset: 0x17850A0
     int get_Width();
     // public System.Void set_Width(System.Int32 value)
-    // Offset: 0x18F5F20
+    // Offset: 0x17850A8
     void set_Width(int value);
     // public System.Void .ctor()
-    // Offset: 0x18F5F28
+    // Offset: 0x17850B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static WNafPreCompInfo* New_ctor();

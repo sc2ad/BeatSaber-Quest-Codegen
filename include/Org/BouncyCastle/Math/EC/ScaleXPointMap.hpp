@@ -34,10 +34,10 @@ namespace Org::BouncyCastle::Math::EC {
       return scale;
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECFieldElement scale)
-    // Offset: 0x1902B18
+    // Offset: 0x1791CA0
     static ScaleXPointMap* New_ctor(Org::BouncyCastle::Math::EC::ECFieldElement* scale);
     // public Org.BouncyCastle.Math.EC.ECPoint Map(Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x1902B4C
+    // Offset: 0x1791CD4
     // Implemented from: Org.BouncyCastle.Math.EC.ECPointMap
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECPointMap::Map(Org.BouncyCastle.Math.EC.ECPoint p)
     Org::BouncyCastle::Math::EC::ECPoint* Map(Org::BouncyCastle::Math::EC::ECPoint* p);

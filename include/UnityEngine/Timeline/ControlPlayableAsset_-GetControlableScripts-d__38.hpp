@@ -60,15 +60,15 @@ namespace UnityEngine::Timeline {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<UnityEngine::MonoBehaviour*>*>(this);
     }
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x13F2D18
+    // Offset: 0x14194B8
     static ControlPlayableAsset::$GetControlableScripts$d__38* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x13F3F0C
+    // Offset: 0x141AC88
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x13F3F10
+    // Offset: 0x141AC8C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -76,27 +76,27 @@ namespace UnityEngine::Timeline {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // private UnityEngine.MonoBehaviour System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>.get_Current()
-    // Offset: 0x13F407C
+    // Offset: 0x141ADF8
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     UnityEngine::MonoBehaviour* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x13F4084
+    // Offset: 0x141AE00
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x13F40E4
+    // Offset: 0x141AE60
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // private System.Collections.Generic.IEnumerator`1<UnityEngine.MonoBehaviour> System.Collections.Generic.IEnumerable<UnityEngine.MonoBehaviour>.GetEnumerator()
-    // Offset: 0x13F40EC
+    // Offset: 0x141AE68
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<UnityEngine::MonoBehaviour*>* System_Collections_Generic_IEnumerable_1_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x13F41A0
+    // Offset: 0x141AF1C
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

@@ -30,16 +30,16 @@ namespace DataModels::PlayerAvatar {
     // Set static field: static private readonly DataModels.PlayerAvatar.RandomizeAvatarColorMap[] _randomizeColorsParamsCollection
     static void _set__randomizeColorsParamsCollection(::Array<DataModels::PlayerAvatar::RandomizeAvatarColorMap*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2015AA8
+    // Offset: 0x1A58868
     static void _cctor();
     // static public System.Void RandomizeAll(AvatarData avatarData, AvatarPartsModel avatarPartsModel)
-    // Offset: 0x2016104
+    // Offset: 0x1A58EC4
     static void RandomizeAll(GlobalNamespace::AvatarData* avatarData, GlobalNamespace::AvatarPartsModel* avatarPartsModel);
     // static public System.Void RandomizeModels(AvatarData avatarData, AvatarPartsModel avatarPartsModel)
-    // Offset: 0x2016180
+    // Offset: 0x1A58F40
     static void RandomizeModels(GlobalNamespace::AvatarData* avatarData, GlobalNamespace::AvatarPartsModel* avatarPartsModel);
     // static public System.Void RandomizeColors(AvatarData avatarData)
-    // Offset: 0x20162E8
+    // Offset: 0x1A590A8
     static void RandomizeColors(GlobalNamespace::AvatarData* avatarData);
   }; // DataModels.PlayerAvatar.AvatarRandomizer
 }

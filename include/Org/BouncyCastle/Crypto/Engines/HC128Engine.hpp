@@ -49,67 +49,67 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IStreamCipher*>(this);
     }
     // static private System.UInt32 F1(System.UInt32 x)
-    // Offset: 0x196FFEC
+    // Offset: 0x17D0984
     static uint F1(uint x);
     // static private System.UInt32 F2(System.UInt32 x)
-    // Offset: 0x1970004
+    // Offset: 0x17D099C
     static uint F2(uint x);
     // private System.UInt32 G1(System.UInt32 x, System.UInt32 y, System.UInt32 z)
-    // Offset: 0x1970014
+    // Offset: 0x17D09AC
     uint G1(uint x, uint y, uint z);
     // private System.UInt32 G2(System.UInt32 x, System.UInt32 y, System.UInt32 z)
-    // Offset: 0x1970028
+    // Offset: 0x17D09C0
     uint G2(uint x, uint y, uint z);
     // static private System.UInt32 RotateLeft(System.UInt32 x, System.Int32 bits)
-    // Offset: 0x197003C
+    // Offset: 0x17D09D4
     static uint RotateLeft(uint x, int bits);
     // static private System.UInt32 RotateRight(System.UInt32 x, System.Int32 bits)
-    // Offset: 0x196FFFC
+    // Offset: 0x17D0994
     static uint RotateRight(uint x, int bits);
     // private System.UInt32 H1(System.UInt32 x)
-    // Offset: 0x1970048
+    // Offset: 0x17D09E0
     uint H1(uint x);
     // private System.UInt32 H2(System.UInt32 x)
-    // Offset: 0x19700A0
+    // Offset: 0x17D0A38
     uint H2(uint x);
     // static private System.UInt32 Mod1024(System.UInt32 x)
-    // Offset: 0x19700F8
+    // Offset: 0x17D0A90
     static uint Mod1024(uint x);
     // static private System.UInt32 Mod512(System.UInt32 x)
-    // Offset: 0x1970100
+    // Offset: 0x17D0A98
     static uint Mod512(uint x);
     // static private System.UInt32 Dim(System.UInt32 x, System.UInt32 y)
-    // Offset: 0x1970108
+    // Offset: 0x17D0AA0
     static uint Dim(uint x, uint y);
     // private System.UInt32 Step()
-    // Offset: 0x1970114
+    // Offset: 0x17D0AAC
     uint Step();
     // private System.Void Init()
-    // Offset: 0x19702E0
+    // Offset: 0x17D0C78
     void Init();
     // public System.String get_AlgorithmName()
-    // Offset: 0x19705EC
+    // Offset: 0x17D0F84
     ::Il2CppString* get_AlgorithmName();
     // private System.Byte GetByte()
-    // Offset: 0x1970828
+    // Offset: 0x17D11C0
     uint8_t GetByte();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1970634
+    // Offset: 0x17D0FCC
     // Implemented from: Org.BouncyCastle.Crypto.IStreamCipher
     // Base method: System.Void IStreamCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x19708A8
+    // Offset: 0x17D1240
     // Implemented from: Org.BouncyCastle.Crypto.IStreamCipher
     // Base method: System.Void IStreamCipher::ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
     void ProcessBytes(::Array<uint8_t>* input, int inOff, int len, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1970A48
+    // Offset: 0x17D13E0
     // Implemented from: Org.BouncyCastle.Crypto.IStreamCipher
     // Base method: System.Void IStreamCipher::Reset()
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x1970A4C
+    // Offset: 0x17D13E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HC128Engine* New_ctor();

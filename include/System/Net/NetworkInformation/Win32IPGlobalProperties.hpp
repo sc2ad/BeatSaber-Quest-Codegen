@@ -14,12 +14,12 @@ namespace System::Net::NetworkInformation {
   class Win32IPGlobalProperties : public System::Net::NetworkInformation::IPGlobalProperties {
     public:
     // public override System.String get_DomainName()
-    // Offset: 0x10C8130
+    // Offset: 0x119DA60
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties
     // Base method: System.String IPGlobalProperties::get_DomainName()
     ::Il2CppString* get_DomainName();
     // public System.Void .ctor()
-    // Offset: 0x10C4490
+    // Offset: 0x1199DC0
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties
     // Base method: System.Void IPGlobalProperties::.ctor()
     // Base method: System.Void Object::.ctor()

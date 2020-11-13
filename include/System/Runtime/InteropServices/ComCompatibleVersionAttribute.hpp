@@ -26,7 +26,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1C
     int revision;
     // public System.Void .ctor(System.Int32 major, System.Int32 minor, System.Int32 build, System.Int32 revision)
-    // Offset: 0x108DB0C
+    // Offset: 0x116443C
     static ComCompatibleVersionAttribute* New_ctor(int major, int minor, int build, int revision);
   }; // System.Runtime.InteropServices.ComCompatibleVersionAttribute
 }

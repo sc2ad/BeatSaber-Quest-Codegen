@@ -31,15 +31,15 @@ namespace System::Reflection {
     // Set static field: static public readonly System.Reflection.Missing Value
     static void _set_Value(System::Reflection::Missing* value);
     // static private System.Void .cctor()
-    // Offset: 0x16756FC
+    // Offset: 0x15CA2C0
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x167565C
+    // Offset: 0x15CA220
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Missing* New_ctor();
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1675664
+    // Offset: 0x15CA228
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

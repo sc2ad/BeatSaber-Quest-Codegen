@@ -23,22 +23,22 @@ namespace System {
   class InvalidTimeZoneException : public System::Exception {
     public:
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1372344
+    // Offset: 0x13B37D0
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     static InvalidTimeZoneException* New_ctor(::Il2CppString* message);
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x13723BC
+    // Offset: 0x13B3848
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     static InvalidTimeZoneException* New_ctor(::Il2CppString* message, System::Exception* innerException);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x137243C
+    // Offset: 0x13B38C8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static InvalidTimeZoneException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Void .ctor()
-    // Offset: 0x13724CC
+    // Offset: 0x13B3958
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()

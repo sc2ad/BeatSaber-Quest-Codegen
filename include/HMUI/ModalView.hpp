@@ -83,40 +83,40 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_blockerClickedEvent(System.Action value)
-    // Offset: 0x216B07C
+    // Offset: 0x107AF00
     void add_blockerClickedEvent(System::Action* value);
     // public System.Void remove_blockerClickedEvent(System.Action value)
-    // Offset: 0x216B120
+    // Offset: 0x107AFA4
     void remove_blockerClickedEvent(System::Action* value);
     // private System.Void OnDisable()
-    // Offset: 0x216B1C4
+    // Offset: 0x107B048
     void OnDisable();
     // private System.Void OnDestroy()
-    // Offset: 0x216B3C4
+    // Offset: 0x107B248
     void OnDestroy();
     // private System.Void SetupView(UnityEngine.Transform screenTransform)
-    // Offset: 0x216B474
+    // Offset: 0x107B2F8
     void SetupView(UnityEngine::Transform* screenTransform);
     // public System.Void Hide(System.Boolean animated, System.Action finishedCallback)
-    // Offset: 0x216B1D0
+    // Offset: 0x107B054
     void Hide(bool animated, System::Action* finishedCallback);
     // public System.Void Show(System.Boolean animated, System.Boolean moveToCenter, System.Action finishedCallback)
-    // Offset: 0x216B7CC
+    // Offset: 0x107B650
     void Show(bool animated, bool moveToCenter, System::Action* finishedCallback);
     // private UnityEngine.GameObject CreateBlocker()
-    // Offset: 0x216BBF0
+    // Offset: 0x107BA74
     UnityEngine::GameObject* CreateBlocker();
     // private System.Void HandleBlockerButtonClicked()
-    // Offset: 0x216BFD8
+    // Offset: 0x107BE5C
     void HandleBlockerButtonClicked();
     // private System.Void HandleParentViewControllerDidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x216BFEC
+    // Offset: 0x107BE70
     void HandleParentViewControllerDidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // static private UnityEngine.Transform GetModalRootTransform(UnityEngine.Transform transform, out UnityEngine.Canvas canvas, out HMUI.ViewController viewController)
-    // Offset: 0x216BAEC
+    // Offset: 0x107B970
     static UnityEngine::Transform* GetModalRootTransform(UnityEngine::Transform* transform, UnityEngine::Canvas*& canvas, HMUI::ViewController*& viewController);
     // public System.Void .ctor()
-    // Offset: 0x216C0C0
+    // Offset: 0x107BF44
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

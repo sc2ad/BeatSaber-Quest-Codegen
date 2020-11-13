@@ -21,7 +21,7 @@ namespace UnityEngine {
       return min;
     }
     // public System.Void .ctor(System.Single min)
-    // Offset: 0x193A840
+    // Offset: 0x172C86C
     static MinAttribute* New_ctor(float min);
   }; // UnityEngine.MinAttribute
 }

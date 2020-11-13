@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithUserAndRoomList : public Oculus::Platform::Message_1<Oculus::Platform::Models::UserAndRoomList*> {
     public:
     // protected Oculus.Platform.Models.UserAndRoomList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x113F4AC
+    // Offset: 0x11E016C
     Oculus::Platform::Models::UserAndRoomList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1135C68
+    // Offset: 0x11D6928
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithUserAndRoomList* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.UserAndRoomList GetUserAndRoomList()
-    // Offset: 0x113F468
+    // Offset: 0x11E0128
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.UserAndRoomList Message::GetUserAndRoomList()
     Oculus::Platform::Models::UserAndRoomList* GetUserAndRoomList();

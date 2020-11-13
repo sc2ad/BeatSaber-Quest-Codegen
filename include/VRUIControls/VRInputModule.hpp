@@ -109,77 +109,77 @@ namespace VRUIControls {
     // Set static field: static private readonly System.Comparison`1<UnityEngine.EventSystems.RaycastResult> _raycastComparer
     static void _set__raycastComparer(System::Comparison_1<UnityEngine::EventSystems::RaycastResult>* value);
     // public System.Boolean get_useMouseForPressInput()
-    // Offset: 0x1EFA688
+    // Offset: 0x19912A0
     bool get_useMouseForPressInput();
     // public System.Void set_useMouseForPressInput(System.Boolean value)
-    // Offset: 0x1EFA690
+    // Offset: 0x19912A8
     void set_useMouseForPressInput(bool value);
     // public System.Void add_onProcessMousePressEvent(System.Action`1<UnityEngine.GameObject> value)
-    // Offset: 0x1EFA69C
+    // Offset: 0x19912B4
     void add_onProcessMousePressEvent(System::Action_1<UnityEngine::GameObject*>* value);
     // public System.Void remove_onProcessMousePressEvent(System.Action`1<UnityEngine.GameObject> value)
-    // Offset: 0x1EFA740
+    // Offset: 0x1991358
     void remove_onProcessMousePressEvent(System::Action_1<UnityEngine::GameObject*>* value);
     // protected System.Boolean GetPointerData(System.Int32 id, out UnityEngine.EventSystems.PointerEventData data, System.Boolean create)
-    // Offset: 0x1EFA99C
+    // Offset: 0x19915B4
     bool GetPointerData(int id, UnityEngine::EventSystems::PointerEventData*& data, bool create);
     // protected VRUIControls.MouseState GetMousePointerEventData(System.Int32 id)
-    // Offset: 0x1EFAA8C
+    // Offset: 0x19916A4
     VRUIControls::MouseState* GetMousePointerEventData(int id);
     // protected UnityEngine.EventSystems.PointerEventData GetLastPointerEventData(System.Int32 id)
-    // Offset: 0x1EFAE78
+    // Offset: 0x1991A90
     UnityEngine::EventSystems::PointerEventData* GetLastPointerEventData(int id);
     // private System.Boolean ShouldStartDrag(UnityEngine.Vector2 pressPos, UnityEngine.Vector2 currentPos, System.Single threshold, System.Boolean useDragThreshold)
-    // Offset: 0x1EFAEA4
+    // Offset: 0x1991ABC
     bool ShouldStartDrag(UnityEngine::Vector2 pressPos, UnityEngine::Vector2 currentPos, float threshold, bool useDragThreshold);
     // protected System.Void ProcessMove(UnityEngine.EventSystems.PointerEventData pointerEvent)
-    // Offset: 0x1EFAF74
+    // Offset: 0x1991B8C
     void ProcessMove(UnityEngine::EventSystems::PointerEventData* pointerEvent);
     // protected System.Void ProcessDrag(UnityEngine.EventSystems.PointerEventData pointerEvent)
-    // Offset: 0x1EFB8E8
+    // Offset: 0x1992500
     void ProcessDrag(UnityEngine::EventSystems::PointerEventData* pointerEvent);
     // protected System.Void ClearSelection()
-    // Offset: 0x1EFA80C
+    // Offset: 0x1991424
     void ClearSelection();
     // protected System.Void DeselectIfSelectionChanged(UnityEngine.GameObject currentOverGo, UnityEngine.EventSystems.BaseEventData pointerEvent)
-    // Offset: 0x1EFBE80
+    // Offset: 0x1992A98
     void DeselectIfSelectionChanged(UnityEngine::GameObject* currentOverGo, UnityEngine::EventSystems::BaseEventData* pointerEvent);
     // protected System.Boolean SendUpdateEventToSelectedObject()
-    // Offset: 0x1EFC9BC
+    // Offset: 0x19935D4
     bool SendUpdateEventToSelectedObject();
     // protected System.Void ProcessMousePress(VRUIControls.MouseButtonEventData data)
-    // Offset: 0x1EFC148
+    // Offset: 0x1992D60
     void ProcessMousePress(VRUIControls::MouseButtonEventData* data);
     // static private System.Int32 RaycastComparer(UnityEngine.EventSystems.RaycastResult lhs, UnityEngine.EventSystems.RaycastResult rhs)
-    // Offset: 0x1EFCB10
+    // Offset: 0x1993728
     static int RaycastComparer(UnityEngine::EventSystems::RaycastResult lhs, UnityEngine::EventSystems::RaycastResult rhs);
     // protected override System.Void OnDisable()
-    // Offset: 0x1EFA7E4
+    // Offset: 0x19913FC
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::OnDisable()
     void OnDisable();
     // public override System.Boolean IsPointerOverGameObject(System.Int32 pointerId)
-    // Offset: 0x1EFBBF0
+    // Offset: 0x1992808
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Boolean BaseInputModule::IsPointerOverGameObject(System.Int32 pointerId)
     bool IsPointerOverGameObject(int pointerId);
     // public override System.String ToString()
-    // Offset: 0x1EFBC9C
+    // Offset: 0x19928B4
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Void Process()
-    // Offset: 0x1EFBF70
+    // Offset: 0x1992B88
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::Process()
     void Process();
     // protected System.Void HandlePointerExitAndEnter(UnityEngine.EventSystems.PointerEventData currentPointerData, UnityEngine.GameObject newEnterTarget)
-    // Offset: 0x1EFAF8C
+    // Offset: 0x1991BA4
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::HandlePointerExitAndEnter(UnityEngine.EventSystems.PointerEventData currentPointerData, UnityEngine.GameObject newEnterTarget)
     void HandlePointerExitAndEnter(UnityEngine::EventSystems::PointerEventData* currentPointerData, UnityEngine::GameObject* newEnterTarget);
     // public System.Void .ctor()
-    // Offset: 0x1EFCEE0
+    // Offset: 0x1993AF8
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -190,7 +190,7 @@ namespace VRUIControls {
     // Base method: System.Void Object::.ctor()
     static VRInputModule* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1EFCFBC
+    // Offset: 0x1993BD4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

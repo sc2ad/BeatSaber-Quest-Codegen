@@ -25,13 +25,13 @@ namespace Org::BouncyCastle::Crypto {
     // Offset: 0x18
     Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateParameter;
     // public System.Void .ctor(Org.BouncyCastle.Crypto.AsymmetricKeyParameter publicParameter, Org.BouncyCastle.Crypto.AsymmetricKeyParameter privateParameter)
-    // Offset: 0x161EAC4
+    // Offset: 0x158D8C0
     static AsymmetricCipherKeyPair* New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicParameter, Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateParameter);
     // public Org.BouncyCastle.Crypto.AsymmetricKeyParameter get_Public()
-    // Offset: 0x161EBC4
+    // Offset: 0x158D9C0
     Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Public();
     // public Org.BouncyCastle.Crypto.AsymmetricKeyParameter get_Private()
-    // Offset: 0x161EBCC
+    // Offset: 0x158D9C8
     Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Private();
   }; // Org.BouncyCastle.Crypto.AsymmetricCipherKeyPair
 }

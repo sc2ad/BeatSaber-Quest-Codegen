@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     float fadeInEndTime;
     // public System.Void .ctor()
-    // Offset: 0x1FF6630
+    // Offset: 0xF3D5A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SpawnRotationChevronManager::DirectionData* New_ctor();

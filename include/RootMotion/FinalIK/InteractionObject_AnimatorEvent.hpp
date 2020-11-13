@@ -52,16 +52,16 @@ namespace RootMotion::FinalIK {
     // Set static field: static private System.String empty
     static void _set_empty(::Il2CppString* value);
     // public System.Void Activate(System.Boolean pickUp)
-    // Offset: 0x199E744
+    // Offset: 0x17EBB34
     void Activate(bool pickUp);
     // private System.Void Activate(UnityEngine.Animator animator)
-    // Offset: 0x199E838
+    // Offset: 0x17EBC28
     void Activate(UnityEngine::Animator* animator);
     // private System.Void Activate(UnityEngine.Animation animation)
-    // Offset: 0x199E8F0
+    // Offset: 0x17EBCE0
     void Activate(UnityEngine::Animation* animation);
     // public System.Void .ctor()
-    // Offset: 0x199E9D0
+    // Offset: 0x17EBDC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InteractionObject::AnimatorEvent* New_ctor();

@@ -35,16 +35,16 @@ namespace OVR::OpenVR {
   class IVRInput::_GetPoseActionData : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AB5CE0
+    // Offset: 0x1865218
     static IVRInput::_GetPoseActionData* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRInputError Invoke(System.UInt64 action, OVR.OpenVR.ETrackingUniverseOrigin eOrigin, System.Single fPredictedSecondsFromNow, ref OVR.OpenVR.InputPoseActionData_t pActionData, System.UInt32 unActionDataSize, System.UInt64 ulRestrictToDevice)
-    // Offset: 0x1AB5CF4
+    // Offset: 0x186522C
     OVR::OpenVR::EVRInputError Invoke(uint64_t action, OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsFromNow, OVR::OpenVR::InputPoseActionData_t& pActionData, uint unActionDataSize, uint64_t ulRestrictToDevice);
     // public System.IAsyncResult BeginInvoke(System.UInt64 action, OVR.OpenVR.ETrackingUniverseOrigin eOrigin, System.Single fPredictedSecondsFromNow, ref OVR.OpenVR.InputPoseActionData_t pActionData, System.UInt32 unActionDataSize, System.UInt64 ulRestrictToDevice, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AB5FD8
+    // Offset: 0x1865510
     System::IAsyncResult* BeginInvoke(uint64_t action, OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsFromNow, OVR::OpenVR::InputPoseActionData_t& pActionData, uint unActionDataSize, uint64_t ulRestrictToDevice, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRInputError EndInvoke(ref OVR.OpenVR.InputPoseActionData_t pActionData, System.IAsyncResult result)
-    // Offset: 0x1AB6104
+    // Offset: 0x186563C
     OVR::OpenVR::EVRInputError EndInvoke(OVR::OpenVR::InputPoseActionData_t& pActionData, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRInput/_GetPoseActionData
 }

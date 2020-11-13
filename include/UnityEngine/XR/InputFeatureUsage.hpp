@@ -30,23 +30,23 @@ namespace UnityEngine::XR {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::XR::InputFeatureUsage>*>(this);
     }
     // public System.String get_name()
-    // Offset: 0xC8B60C
+    // Offset: 0xCB853C
     ::Il2CppString* get_name();
     // UnityEngine.XR.InputFeatureType get_internalType()
-    // Offset: 0xC8B614
+    // Offset: 0xCB8544
     UnityEngine::XR::InputFeatureType get_internalType();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xC8B61C
+    // Offset: 0xCB854C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.InputFeatureUsage other)
-    // Offset: 0xC8B624
+    // Offset: 0xCB8554
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.XR.InputFeatureUsage other)
     bool Equals(UnityEngine::XR::InputFeatureUsage other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xC8B668
+    // Offset: 0xCB8598
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

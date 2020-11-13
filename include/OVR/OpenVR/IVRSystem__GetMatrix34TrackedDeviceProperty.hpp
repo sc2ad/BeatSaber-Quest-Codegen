@@ -35,16 +35,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_GetMatrix34TrackedDeviceProperty : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C95630
+    // Offset: 0x1913808
     static IVRSystem::_GetMatrix34TrackedDeviceProperty* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.HmdMatrix34_t Invoke(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, ref OVR.OpenVR.ETrackedPropertyError pError)
-    // Offset: 0x1C95644
+    // Offset: 0x191381C
     OVR::OpenVR::HmdMatrix34_t Invoke(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, OVR::OpenVR::ETrackedPropertyError& pError);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, ref OVR.OpenVR.ETrackedPropertyError pError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C95920
+    // Offset: 0x1913AF8
     System::IAsyncResult* BeginInvoke(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, OVR::OpenVR::ETrackedPropertyError& pError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.HmdMatrix34_t EndInvoke(ref OVR.OpenVR.ETrackedPropertyError pError, System.IAsyncResult result)
-    // Offset: 0x1C959F4
+    // Offset: 0x1913BCC
     OVR::OpenVR::HmdMatrix34_t EndInvoke(OVR::OpenVR::ETrackedPropertyError& pError, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetMatrix34TrackedDeviceProperty
 }

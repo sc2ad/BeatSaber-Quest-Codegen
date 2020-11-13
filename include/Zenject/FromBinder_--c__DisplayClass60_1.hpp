@@ -38,10 +38,10 @@ namespace Zenject {
     // Offset: 0x18
     Zenject::FromBinder::$$c__DisplayClass60_0* CS$$$8__locals1;
     // System.Collections.Generic.IEnumerable`1<System.Object> <FromComponentsInChildrenBase>b__1(Zenject.InjectContext ctx)
-    // Offset: 0x1226814
+    // Offset: 0x129B8CC
     System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* $FromComponentsInChildrenBase$b__1(Zenject::InjectContext* ctx);
     // public System.Void .ctor()
-    // Offset: 0x122680C
+    // Offset: 0x129B8C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FromBinder::$$c__DisplayClass60_1* New_ctor();

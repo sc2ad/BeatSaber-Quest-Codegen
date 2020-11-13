@@ -106,13 +106,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void ReadFrom(OVRManager manager)
-    // Offset: 0x11A4E38
+    // Offset: 0x12301C8
     void ReadFrom(GlobalNamespace::OVRManager* manager);
     // public System.Void ApplyTo(OVRManager manager)
-    // Offset: 0x11A4F0C
+    // Offset: 0x123029C
     void ApplyTo(GlobalNamespace::OVRManager* manager);
     // public System.Void .ctor()
-    // Offset: 0x11A4FE0
+    // Offset: 0x1230370
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

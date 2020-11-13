@@ -39,13 +39,13 @@ namespace UnityEngine {
     // Set static field: static private System.Action`3<System.Boolean,System.Boolean,System.Int32> Completed
     static void _set_Completed(System::Action_3<bool, bool, int>* value);
     // static System.Void RemoteSettingsUpdated(System.Boolean wasLastUpdatedFromServer)
-    // Offset: 0x1F79CE8
+    // Offset: 0x1A0A024
     static void RemoteSettingsUpdated(bool wasLastUpdatedFromServer);
     // static System.Void RemoteSettingsBeforeFetchFromServer()
-    // Offset: 0x1F79F54
+    // Offset: 0x1A0A290
     static void RemoteSettingsBeforeFetchFromServer();
     // static System.Void RemoteSettingsUpdateCompleted(System.Boolean wasLastUpdatedFromServer, System.Boolean settingsChanged, System.Int32 response)
-    // Offset: 0x1F79FB8
+    // Offset: 0x1A0A2F4
     static void RemoteSettingsUpdateCompleted(bool wasLastUpdatedFromServer, bool settingsChanged, int response);
   }; // UnityEngine.RemoteSettings
 }

@@ -66,16 +66,16 @@ namespace GlobalNamespace {
     // Set static field: static public OVRComposition currentComposition
     static void _set_currentComposition(GlobalNamespace::OVRComposition* value);
     // static public System.Void Update(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, OVRManager/CompositionMethod compositionMethod, System.Boolean useDynamicLighting, OVRManager/CameraDevice cameraDevice, OVRManager/DepthQuality depthQuality, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityBackgroundCameraGameObject, System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> instantiateMixedRealityForegroundCameraGameObject)
-    // Offset: 0x11A4100
+    // Offset: 0x122F490
     static void Update(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera, GlobalNamespace::OVRManager::CompositionMethod compositionMethod, bool useDynamicLighting, GlobalNamespace::OVRManager::CameraDevice cameraDevice, GlobalNamespace::OVRManager::DepthQuality depthQuality, System::Func_2<UnityEngine::Camera*, UnityEngine::GameObject*>* instantiateMixedRealityBackgroundCameraGameObject, System::Func_2<UnityEngine::Camera*, UnityEngine::GameObject*>* instantiateMixedRealityForegroundCameraGameObject);
     // static public System.Void Cleanup()
-    // Offset: 0x11A4964
+    // Offset: 0x122FCF4
     static void Cleanup();
     // static public System.Void RecenterPose()
-    // Offset: 0x11A4B68
+    // Offset: 0x122FEF8
     static void RecenterPose();
     // static private System.Void .cctor()
-    // Offset: 0x11A4C14
+    // Offset: 0x122FFA4
     static void _cctor();
   }; // OVRMixedReality
 }

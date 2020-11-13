@@ -88,20 +88,20 @@ namespace GlobalNamespace {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
     // public System.Void .ctor(NoteCutInfo noteCutInfo, NoteData noteData, UnityEngine.Vector3 notePosition, UnityEngine.Quaternion noteRotation, UnityEngine.Vector3 moveVec)
-    // Offset: 0x1F0FFCC
+    // Offset: 0x19A6BE4
     static NoteCutInfoNetSerializable* New_ctor(GlobalNamespace::NoteCutInfo* noteCutInfo, GlobalNamespace::NoteData* noteData, UnityEngine::Vector3 notePosition, UnityEngine::Quaternion noteRotation, UnityEngine::Vector3 moveVec);
     // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1F0F5EC
+    // Offset: 0x19A6204
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // private System.Void LiteNetLib.Utils.INetSerializable.Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1F0FA04
+    // Offset: 0x19A661C
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void .ctor()
-    // Offset: 0x1F0FFC4
+    // Offset: 0x19A6BDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NoteCutInfoNetSerializable* New_ctor();

@@ -115,28 +115,28 @@ namespace RootMotion {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void OpenUserManual()
-    // Offset: 0x1860CCC
+    // Offset: 0x173EC30
     void OpenUserManual();
     // private System.Void OpenScriptReference()
-    // Offset: 0x1860D18
+    // Offset: 0x173EC7C
     void OpenScriptReference();
     // private System.Void SupportGroup()
-    // Offset: 0x1860D64
+    // Offset: 0x173ECC8
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x1860DB0
+    // Offset: 0x173ED14
     void ASThread();
     // public System.Boolean get_isBaking()
-    // Offset: 0x1860DFC
+    // Offset: 0x173ED60
     bool get_isBaking();
     // private System.Void set_isBaking(System.Boolean value)
-    // Offset: 0x1860E04
+    // Offset: 0x173ED68
     void set_isBaking(bool value);
     // public System.Single get_bakingProgress()
-    // Offset: 0x1860E10
+    // Offset: 0x173ED74
     float get_bakingProgress();
     // private System.Void set_bakingProgress(System.Single value)
-    // Offset: 0x1860E18
+    // Offset: 0x173ED7C
     void set_bakingProgress(float value);
     // protected UnityEngine.Transform GetCharacterRoot()
     // Offset: 0xFFFFFFFF
@@ -154,22 +154,22 @@ namespace RootMotion {
     // Offset: 0xFFFFFFFF
     void OnSetKeyframes(float time, bool lastFrame);
     // protected System.Single get_clipLength()
-    // Offset: 0x1860E20
+    // Offset: 0x173ED84
     float get_clipLength();
     // private System.Void set_clipLength(System.Single value)
-    // Offset: 0x1860E28
+    // Offset: 0x173ED8C
     void set_clipLength(float value);
     // public System.Void BakeClip()
-    // Offset: 0x1860E30
+    // Offset: 0x173ED94
     void BakeClip();
     // public System.Void StartBaking()
-    // Offset: 0x1860E34
+    // Offset: 0x173ED98
     void StartBaking();
     // public System.Void StopBaking()
-    // Offset: 0x1860E38
+    // Offset: 0x173ED9C
     void StopBaking();
     // protected System.Void .ctor()
-    // Offset: 0x1860E3C
+    // Offset: 0x173EDA0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

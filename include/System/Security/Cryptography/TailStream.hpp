@@ -33,71 +33,71 @@ namespace System::Security::Cryptography {
     // Offset: 0x38
     bool BufferFull;
     // public System.Void .ctor(System.Int32 bufferSize)
-    // Offset: 0x12080D4
+    // Offset: 0x127D18C
     static TailStream* New_ctor(int bufferSize);
     // public System.Void Clear()
-    // Offset: 0x1208174
+    // Offset: 0x127D22C
     void Clear();
     // public System.Byte[] get_Buffer()
-    // Offset: 0x1208234
+    // Offset: 0x127D2EC
     ::Array<uint8_t>* get_Buffer();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1208184
+    // Offset: 0x127D23C
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Boolean get_CanRead()
-    // Offset: 0x12082B4
+    // Offset: 0x127D36C
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanRead()
     bool get_CanRead();
     // public override System.Boolean get_CanSeek()
-    // Offset: 0x12082BC
+    // Offset: 0x127D374
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanSeek()
     bool get_CanSeek();
     // public override System.Boolean get_CanWrite()
-    // Offset: 0x12082C4
+    // Offset: 0x127D37C
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanWrite()
     bool get_CanWrite();
     // public override System.Int64 get_Length()
-    // Offset: 0x12082D4
+    // Offset: 0x127D38C
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Length()
     int64_t get_Length();
     // public override System.Int64 get_Position()
-    // Offset: 0x1208354
+    // Offset: 0x127D40C
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Position()
     int64_t get_Position();
     // public override System.Void set_Position(System.Int64 value)
-    // Offset: 0x12083D4
+    // Offset: 0x127D48C
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::set_Position(System.Int64 value)
     void set_Position(int64_t value);
     // public override System.Void Flush()
-    // Offset: 0x1208454
+    // Offset: 0x127D50C
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Flush()
     void Flush();
     // public override System.Int64 Seek(System.Int64 offset, System.IO.SeekOrigin origin)
-    // Offset: 0x1208458
+    // Offset: 0x127D510
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::Seek(System.Int64 offset, System.IO.SeekOrigin origin)
     int64_t Seek(int64_t offset, System::IO::SeekOrigin origin);
     // public override System.Void SetLength(System.Int64 value)
-    // Offset: 0x12084D8
+    // Offset: 0x127D590
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::SetLength(System.Int64 value)
     void SetLength(int64_t value);
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1208558
+    // Offset: 0x127D610
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(::Array<uint8_t>* buffer, int offset, int count);
     // public override System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x12085D8
+    // Offset: 0x127D690
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     void Write(::Array<uint8_t>* buffer, int offset, int count);

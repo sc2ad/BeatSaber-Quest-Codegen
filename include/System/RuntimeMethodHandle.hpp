@@ -53,22 +53,22 @@ namespace System {
       return value;
     }
     // System.Void .ctor(System.IntPtr v)
-    // Offset: 0xC706E8
+    // Offset: 0xCA00B8
     // ABORTED: conflicts with another method.  RuntimeMethodHandle(System::IntPtr v);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xC706F0
+    // Offset: 0xCA00C0
     RuntimeMethodHandle(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.IntPtr get_Value()
-    // Offset: 0xC706F8
+    // Offset: 0xCA00C8
     System::IntPtr get_Value();
     // static System.String ConstructInstantiation(System.Reflection.RuntimeMethodInfo method, System.TypeNameFormatFlags format)
-    // Offset: 0x145CD50
+    // Offset: 0x144715C
     static ::Il2CppString* ConstructInstantiation(System::Reflection::RuntimeMethodInfo* method, System::TypeNameFormatFlags format);
     // System.Boolean IsNullHandle()
-    // Offset: 0xC7071C
+    // Offset: 0xCA00EC
     bool IsNullHandle();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xC70700
+    // Offset: 0xCA00D0
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -76,12 +76,12 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xC70708
+    // Offset: 0xCA00D8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xC70710
+    // Offset: 0xCA00E0
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

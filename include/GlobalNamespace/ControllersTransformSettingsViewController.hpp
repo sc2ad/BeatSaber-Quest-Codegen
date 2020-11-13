@@ -68,23 +68,23 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kRotationStep
     static void _set_kRotationStep(float value);
     // private System.Void HandlePositionSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0x1FBC120
+    // Offset: 0x1A54670
     void HandlePositionSliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);
     // private System.Void HandleRotationSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0x1FBC1FC
+    // Offset: 0x1A5474C
     void HandleRotationSliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1FBB984
+    // Offset: 0x1A53ED4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1FBBDF4
+    // Offset: 0x1A54344
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1FBC2CC
+    // Offset: 0x1A5481C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

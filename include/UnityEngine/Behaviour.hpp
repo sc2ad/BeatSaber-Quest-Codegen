@@ -14,16 +14,16 @@ namespace UnityEngine {
   class Behaviour : public UnityEngine::Component {
     public:
     // public System.Boolean get_enabled()
-    // Offset: 0x1787F40
+    // Offset: 0x167DC70
     bool get_enabled();
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x1787F80
+    // Offset: 0x167DCB0
     void set_enabled(bool value);
     // public System.Boolean get_isActiveAndEnabled()
-    // Offset: 0x1787FD0
+    // Offset: 0x167DD00
     bool get_isActiveAndEnabled();
     // public System.Void .ctor()
-    // Offset: 0x1788010
+    // Offset: 0x167DD40
     // Implemented from: UnityEngine.Component
     // Base method: System.Void Component::.ctor()
     // Base method: System.Void Object::.ctor()

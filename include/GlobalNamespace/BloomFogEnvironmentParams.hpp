@@ -19,10 +19,16 @@ namespace GlobalNamespace {
     // public System.Single offset
     // Offset: 0x1C
     float offset;
+    // public System.Single heightFogStartY
+    // Offset: 0x20
+    float heightFogStartY;
+    // public System.Single heightFogHeight
+    // Offset: 0x24
+    float heightFogHeight;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void .ctor()
-    // Offset: 0x1CF7854
+    // Offset: 0x18737BC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

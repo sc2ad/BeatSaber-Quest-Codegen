@@ -63,58 +63,58 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Set static field: static private readonly System.Int32 BlockSize
     static void _set_BlockSize(int value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
-    // Offset: 0x14B7B94
+    // Offset: 0x14A2D34
     static CcmBlockCipher* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* cipher);
     // public System.Int32 ProcessPacket(System.Byte[] input, System.Int32 inOff, System.Int32 inLen, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x14B83E0
+    // Offset: 0x14A3580
     int ProcessPacket(::Array<uint8_t>* input, int inOff, int inLen, ::Array<uint8_t>* output, int outOff);
     // private System.Int32 CalculateMac(System.Byte[] data, System.Int32 dataOff, System.Int32 dataLen, System.Byte[] macBlock)
-    // Offset: 0x14B8CD8
+    // Offset: 0x14A3E78
     int CalculateMac(::Array<uint8_t>* data, int dataOff, int dataLen, ::Array<uint8_t>* macBlock);
     // private System.Int32 GetMacSize(System.Boolean forEncryption, System.Int32 requestedMacBits)
-    // Offset: 0x14B7FEC
+    // Offset: 0x14A318C
     int GetMacSize(bool forEncryption, int requestedMacBits);
     // private System.Int32 GetAssociatedTextLength()
-    // Offset: 0x14B9640
+    // Offset: 0x14A47E0
     int GetAssociatedTextLength();
     // private System.Boolean HasAssociatedText()
-    // Offset: 0x14B9624
+    // Offset: 0x14A47C4
     bool HasAssociatedText();
     // static private System.Void .cctor()
-    // Offset: 0x14B9684
+    // Offset: 0x14A4824
     static void _cctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x14B7DC8
+    // Offset: 0x14A2F68
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Void IAeadCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x14B8090
+    // Offset: 0x14A3230
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadBlockCipher
     // Base method: System.Int32 IAeadBlockCipher::GetBlockSize()
     int GetBlockSize();
     // public System.Int32 ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 inLen, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x14B8144
+    // Offset: 0x14A32E4
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Int32 IAeadCipher::ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 inLen, System.Byte[] outBytes, System.Int32 outOff)
     int ProcessBytes(::Array<uint8_t>* inBytes, int inOff, int inLen, ::Array<uint8_t>* outBytes, int outOff);
     // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x14B81EC
+    // Offset: 0x14A338C
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Int32 IAeadCipher::DoFinal(System.Byte[] outBytes, System.Int32 outOff)
     int DoFinal(::Array<uint8_t>* outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x14B8294
+    // Offset: 0x14A3434
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Void IAeadCipher::Reset()
     void Reset();
     // public System.Int32 GetUpdateOutputSize(System.Int32 len)
-    // Offset: 0x14B8380
+    // Offset: 0x14A3520
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Int32 IAeadCipher::GetUpdateOutputSize(System.Int32 len)
     int GetUpdateOutputSize(int len);
     // public System.Int32 GetOutputSize(System.Int32 len)
-    // Offset: 0x14B8388
+    // Offset: 0x14A3528
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Int32 IAeadCipher::GetOutputSize(System.Int32 len)
     int GetOutputSize(int len);

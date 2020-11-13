@@ -120,73 +120,73 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kDisabledSectionAlpha
     static void _set_kDisabledSectionAlpha(float value);
     // public System.Void add_didChangePlayerSettingsEvent(System.Action value)
-    // Offset: 0x208DAA4
+    // Offset: 0xF294C0
     void add_didChangePlayerSettingsEvent(System::Action* value);
     // public System.Void remove_didChangePlayerSettingsEvent(System.Action value)
-    // Offset: 0x208DB48
+    // Offset: 0xF29564
     void remove_didChangePlayerSettingsEvent(System::Action* value);
     // public PlayerSpecificSettings get_playerSpecificSettings()
-    // Offset: 0x208D594
+    // Offset: 0xF28FB0
     GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
     // public System.Void SetData(PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x208D2D8
+    // Offset: 0xF28CF4
     void SetData(GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
     // public System.Void SetLayout(PlayerSettingsPanelController/PlayerSettingsPanelLayout layout)
-    // Offset: 0x208D2A8
+    // Offset: 0xF28CC4
     void SetLayout(GlobalNamespace::PlayerSettingsPanelController::PlayerSettingsPanelLayout layout);
     // protected System.Void Awake()
-    // Offset: 0x208DC58
+    // Offset: 0xF29674
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0x208E068
+    // Offset: 0xF29A84
     void OnDestroy();
     // private System.Void HandleSFXVolumeSettingsControllerValueDidChange(FormattedFloatListSettingsController settingsController, System.Single value)
-    // Offset: 0x208E248
+    // Offset: 0xF29C64
     void HandleSFXVolumeSettingsControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController* settingsController, float value);
     // private System.Void HandleSaberTrailIntensitySettingsControllerValueDidChange(FormattedFloatListSettingsController settingsController, System.Single value)
-    // Offset: 0x208E288
+    // Offset: 0xF29CA4
     void HandleSaberTrailIntensitySettingsControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController* settingsController, float value);
     // private System.Void HandlePlayerHeightSettingsControllerValueDidChange(System.Single value)
-    // Offset: 0x208E2A8
+    // Offset: 0xF29CC4
     void HandlePlayerHeightSettingsControllerValueDidChange(float value);
     // private System.Void HandleNoteJumpStartBeatOffsetPositionSelected(System.Int32 idx)
-    // Offset: 0x208E2C8
+    // Offset: 0xF29CE4
     void HandleNoteJumpStartBeatOffsetPositionSelected(int idx);
     // private System.Void HandleAdvancedHudToggleChanged(System.Boolean on)
-    // Offset: 0x208E2E8
+    // Offset: 0xF29D04
     void HandleAdvancedHudToggleChanged(bool on);
     // private System.Void HandleNoTextsAndHudsToggleChanged(System.Boolean on)
-    // Offset: 0x208E340
+    // Offset: 0xF29D5C
     void HandleNoTextsAndHudsToggleChanged(bool on);
     // private System.Void SetIsDirty()
-    // Offset: 0x208E268
+    // Offset: 0xF29C84
     void SetIsDirty();
     // private System.Void SetSection(UnityEngine.CanvasGroup sectionCanvasGroup, System.Boolean block)
-    // Offset: 0x208DBEC
+    // Offset: 0xF29608
     void SetSection(UnityEngine::CanvasGroup* sectionCanvasGroup, bool block);
     // private System.Void <Awake>b__27_0(System.Boolean on)
-    // Offset: 0x208E3A0
+    // Offset: 0xF29DBC
     void $Awake$b__27_0(bool on);
     // private System.Void <Awake>b__27_1(System.Boolean on)
-    // Offset: 0x208E3C0
+    // Offset: 0xF29DDC
     void $Awake$b__27_1(bool on);
     // private System.Void <Awake>b__27_2(System.Boolean on)
-    // Offset: 0x208E3E0
+    // Offset: 0xF29DFC
     void $Awake$b__27_2(bool on);
     // private System.Void <Awake>b__27_3(System.Boolean on)
-    // Offset: 0x208E400
+    // Offset: 0xF29E1C
     void $Awake$b__27_3(bool on);
     // private System.Void <Awake>b__27_4(System.Boolean on)
-    // Offset: 0x208E420
+    // Offset: 0xF29E3C
     void $Awake$b__27_4(bool on);
     // private System.Void <Awake>b__27_5(System.Boolean on)
-    // Offset: 0x208E440
+    // Offset: 0xF29E5C
     void $Awake$b__27_5(bool on);
     // private System.Void <Awake>b__27_6(System.Boolean on)
-    // Offset: 0x208E460
+    // Offset: 0xF29E7C
     void $Awake$b__27_6(bool on);
     // public System.Void Refresh()
-    // Offset: 0x208D32C
+    // Offset: 0xF28D48
     // Implemented from: IRefreshable
     // Base method: System.Void IRefreshable::Refresh()
     void Refresh();
@@ -194,7 +194,7 @@ namespace GlobalNamespace {
     // Maps to method: Refresh
     void GlobalNamespace_IRefreshable_Refresh();
     // public System.Void .ctor()
-    // Offset: 0x208E398
+    // Offset: 0xF29DB4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

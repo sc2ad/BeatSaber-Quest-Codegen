@@ -60,46 +60,46 @@ namespace System::Net::Http {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void .ctor(System.Net.HttpStatusCode statusCode)
-    // Offset: 0x118383C
+    // Offset: 0x120DBCC
     static HttpResponseMessage* New_ctor(System::Net::HttpStatusCode statusCode);
     // public System.Net.Http.HttpContent get_Content()
-    // Offset: 0x11866E8
+    // Offset: 0x1210A78
     System::Net::Http::HttpContent* get_Content();
     // public System.Void set_Content(System.Net.Http.HttpContent value)
-    // Offset: 0x11866F0
+    // Offset: 0x1210A80
     void set_Content(System::Net::Http::HttpContent* value);
     // public System.Net.Http.Headers.HttpResponseHeaders get_Headers()
-    // Offset: 0x1183924
+    // Offset: 0x120DCB4
     System::Net::Http::Headers::HttpResponseHeaders* get_Headers();
     // public System.Boolean get_IsSuccessStatusCode()
-    // Offset: 0x11866F8
+    // Offset: 0x1210A88
     bool get_IsSuccessStatusCode();
     // public System.String get_ReasonPhrase()
-    // Offset: 0x118670C
+    // Offset: 0x1210A9C
     ::Il2CppString* get_ReasonPhrase();
     // public System.Void set_ReasonPhrase(System.String value)
-    // Offset: 0x1186728
+    // Offset: 0x1210AB8
     void set_ReasonPhrase(::Il2CppString* value);
     // public System.Void set_RequestMessage(System.Net.Http.HttpRequestMessage value)
-    // Offset: 0x1186730
+    // Offset: 0x1210AC0
     void set_RequestMessage(System::Net::Http::HttpRequestMessage* value);
     // public System.Net.HttpStatusCode get_StatusCode()
-    // Offset: 0x1186738
+    // Offset: 0x1210AC8
     System::Net::HttpStatusCode get_StatusCode();
     // public System.Void set_StatusCode(System.Net.HttpStatusCode value)
-    // Offset: 0x1186664
+    // Offset: 0x12109F4
     void set_StatusCode(System::Net::HttpStatusCode value);
     // public System.Version get_Version()
-    // Offset: 0x1186740
+    // Offset: 0x1210AD0
     System::Version* get_Version();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x11867C4
+    // Offset: 0x1210B54
     void Dispose(bool disposing);
     // public System.Net.Http.HttpResponseMessage EnsureSuccessStatusCode()
-    // Offset: 0x11824BC
+    // Offset: 0x120C84C
     System::Net::Http::HttpResponseMessage* EnsureSuccessStatusCode();
     // public System.Void Dispose()
-    // Offset: 0x11867B4
+    // Offset: 0x1210B44
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -107,7 +107,7 @@ namespace System::Net::Http {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public override System.String ToString()
-    // Offset: 0x11867F8
+    // Offset: 0x1210B88
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

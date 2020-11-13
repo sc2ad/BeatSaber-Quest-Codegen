@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Action* finishedCallback;
     // System.Void <Finish>b__0()
-    // Offset: 0x206DD44
+    // Offset: 0xF325D8
     void $Finish$b__0();
     // public System.Void .ctor()
-    // Offset: 0x206DAD4
+    // Offset: 0xF32368
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static QuickPlayLobbyFlowCoordinator::$$c__DisplayClass55_0* New_ctor();

@@ -33,10 +33,10 @@ namespace GlobalNamespace {
     // Offset: 0x40
     GlobalNamespace::SceneInfo* menuViewControllersSceneInfo;
     // public System.Void Init()
-    // Offset: 0x1FC3410
+    // Offset: 0x1A72A2C
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x1FC357C
+    // Offset: 0x1A72B98
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

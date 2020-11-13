@@ -42,22 +42,22 @@ namespace HMUI {
     // Offset: 0x58
     UnityEngine::GameObject* backgroundGameObject;
     // public System.Void set_sprite(UnityEngine.Sprite value)
-    // Offset: 0x218D8D0
+    // Offset: 0x10B66CC
     void set_sprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_sprite()
-    // Offset: 0x218DAA8
+    // Offset: 0x10B68A4
     UnityEngine::Sprite* get_sprite();
     // public System.Void set_hintText(System.String value)
-    // Offset: 0x218D8EC
+    // Offset: 0x10B66E8
     void set_hintText(::Il2CppString* value);
     // public System.Void set_iconSize(System.Single value)
-    // Offset: 0x218D9B4
+    // Offset: 0x10B67B0
     void set_iconSize(float value);
     // public System.Void set_hideBackgroundImage(System.Boolean value)
-    // Offset: 0x218D908
+    // Offset: 0x10B6704
     void set_hideBackgroundImage(bool value);
     // public System.Void .ctor()
-    // Offset: 0x218DAC4
+    // Offset: 0x10B68C0
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

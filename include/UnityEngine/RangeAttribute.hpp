@@ -20,7 +20,7 @@ namespace UnityEngine {
     // Offset: 0x14
     float max;
     // public System.Void .ctor(System.Single min, System.Single max)
-    // Offset: 0x19460D0
+    // Offset: 0x1738104
     static RangeAttribute* New_ctor(float min, float max);
   }; // UnityEngine.RangeAttribute
 }

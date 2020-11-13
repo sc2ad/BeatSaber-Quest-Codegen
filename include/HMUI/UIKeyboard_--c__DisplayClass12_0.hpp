@@ -27,10 +27,10 @@ namespace HMUI {
     // Offset: 0x18
     HMUI::UIKeyboard* $$4__this;
     // System.Void <Awake>b__2()
-    // Offset: 0x1EDF334
+    // Offset: 0x197FBC8
     void $Awake$b__2();
     // public System.Void .ctor()
-    // Offset: 0x1EDF1CC
+    // Offset: 0x197FA60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UIKeyboard::$$c__DisplayClass12_0* New_ctor();

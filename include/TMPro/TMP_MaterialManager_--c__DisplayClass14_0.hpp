@@ -28,10 +28,10 @@ namespace TMPro {
       return baseMaterial;
     }
     // System.Boolean <ReleaseBaseMaterial>b__0(TMPro.TMP_MaterialManager/MaskingMaterial item)
-    // Offset: 0xED9C44
+    // Offset: 0xF86390
     bool $ReleaseBaseMaterial$b__0(TMPro::TMP_MaterialManager::MaskingMaterial* item);
     // public System.Void .ctor()
-    // Offset: 0xED87DC
+    // Offset: 0xF84F28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_MaterialManager::$$c__DisplayClass14_0* New_ctor();

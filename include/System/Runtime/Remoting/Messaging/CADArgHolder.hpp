@@ -19,7 +19,7 @@ namespace System::Runtime::Remoting::Messaging {
       return index;
     }
     // public System.Void .ctor(System.Int32 i)
-    // Offset: 0x10A13E0
+    // Offset: 0x1177D10
     static CADArgHolder* New_ctor(int i);
   }; // System.Runtime.Remoting.Messaging.CADArgHolder
 }

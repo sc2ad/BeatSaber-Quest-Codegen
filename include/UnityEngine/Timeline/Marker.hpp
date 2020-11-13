@@ -35,33 +35,33 @@ namespace UnityEngine::Timeline {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void set_parent(UnityEngine.Timeline.TrackAsset value)
-    // Offset: 0x13F6380
+    // Offset: 0x141D0F8
     void set_parent(UnityEngine::Timeline::TrackAsset* value);
     // public System.Void OnInitialize(UnityEngine.Timeline.TrackAsset aPent)
-    // Offset: 0x13F6584
+    // Offset: 0x141D2FC
     void OnInitialize(UnityEngine::Timeline::TrackAsset* aPent);
     // public UnityEngine.Timeline.TrackAsset get_parent()
-    // Offset: 0x13F6378
+    // Offset: 0x141D0F0
     // Implemented from: UnityEngine.Timeline.IMarker
     // Base method: UnityEngine.Timeline.TrackAsset IMarker::get_parent()
     UnityEngine::Timeline::TrackAsset* get_parent();
     // public System.Double get_time()
-    // Offset: 0x13F6388
+    // Offset: 0x141D100
     // Implemented from: UnityEngine.Timeline.IMarker
     // Base method: System.Double IMarker::get_time()
     double get_time();
     // public System.Void set_time(System.Double value)
-    // Offset: 0x13F6390
+    // Offset: 0x141D108
     // Implemented from: UnityEngine.Timeline.IMarker
     // Base method: System.Void IMarker::set_time(System.Double value)
     void set_time(double value);
     // private System.Void UnityEngine.Timeline.IMarker.Initialize(UnityEngine.Timeline.TrackAsset parentTrack)
-    // Offset: 0x13F6410
+    // Offset: 0x141D188
     // Implemented from: UnityEngine.Timeline.IMarker
     // Base method: System.Void IMarker::Initialize(UnityEngine.Timeline.TrackAsset parentTrack)
     void UnityEngine_Timeline_IMarker_Initialize(UnityEngine::Timeline::TrackAsset* parentTrack);
     // protected System.Void .ctor()
-    // Offset: 0x13F6588
+    // Offset: 0x141D300
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

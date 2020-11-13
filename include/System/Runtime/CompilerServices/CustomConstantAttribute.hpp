@@ -17,7 +17,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* get_Value();
     // protected System.Void .ctor()
-    // Offset: 0x108C728
+    // Offset: 0x1163058
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

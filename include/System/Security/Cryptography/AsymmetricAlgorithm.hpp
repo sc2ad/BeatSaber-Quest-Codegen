@@ -31,30 +31,30 @@ namespace System::Security::Cryptography {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void Clear()
-    // Offset: 0x146C8F4
+    // Offset: 0x1456D00
     void Clear();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x146C970
+    // Offset: 0x1456D7C
     void Dispose(bool disposing);
     // public System.Int32 get_KeySize()
-    // Offset: 0x146C974
+    // Offset: 0x1456D80
     int get_KeySize();
     // public System.Void set_KeySize(System.Int32 value)
-    // Offset: 0x146C97C
+    // Offset: 0x1456D88
     void set_KeySize(int value);
     // public System.Void FromXmlString(System.String xmlString)
-    // Offset: 0x146CA98
+    // Offset: 0x1456EA4
     void FromXmlString(::Il2CppString* xmlString);
     // public System.String ToXmlString(System.Boolean includePrivateParameters)
-    // Offset: 0x146CAF8
+    // Offset: 0x1456F04
     ::Il2CppString* ToXmlString(bool includePrivateParameters);
     // protected System.Void .ctor()
-    // Offset: 0x146C8E8
+    // Offset: 0x1456CF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AsymmetricAlgorithm* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0x146C8F0
+    // Offset: 0x1456CFC
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

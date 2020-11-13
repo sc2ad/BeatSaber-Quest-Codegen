@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRTrackedCamera::_ReleaseVideoStreamingService : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xF6A594
+    // Offset: 0x1066064
     static IVRTrackedCamera::_ReleaseVideoStreamingService* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRTrackedCameraError Invoke(System.UInt64 hTrackedCamera)
-    // Offset: 0xF6A5A8
+    // Offset: 0x1066078
     OVR::OpenVR::EVRTrackedCameraError Invoke(uint64_t hTrackedCamera);
     // public System.IAsyncResult BeginInvoke(System.UInt64 hTrackedCamera, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xF6A810
+    // Offset: 0x10662E0
     System::IAsyncResult* BeginInvoke(uint64_t hTrackedCamera, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRTrackedCameraError EndInvoke(System.IAsyncResult result)
-    // Offset: 0xF6A89C
+    // Offset: 0x106636C
     OVR::OpenVR::EVRTrackedCameraError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRTrackedCamera/_ReleaseVideoStreamingService
 }

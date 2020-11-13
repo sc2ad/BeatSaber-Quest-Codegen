@@ -41,39 +41,39 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set static field: static private readonly System.String[] algorithms
     static void _set_algorithms(::Array<::Il2CppString*>* value);
     // protected System.Void .ctor(System.String algorithm, System.Boolean isPrivate, Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters)
-    // Offset: 0xF4A7D8
+    // Offset: 0x10461E4
     static ECKeyParameters* New_ctor(::Il2CppString* algorithm, bool isPrivate, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
     // protected System.Void .ctor(System.String algorithm, System.Boolean isPrivate, Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet)
-    // Offset: 0xF4AA14
+    // Offset: 0x1046420
     static ECKeyParameters* New_ctor(::Il2CppString* algorithm, bool isPrivate, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
     // public System.String get_AlgorithmName()
-    // Offset: 0xF4AC28
+    // Offset: 0x1046634
     ::Il2CppString* get_AlgorithmName();
     // public Org.BouncyCastle.Crypto.Parameters.ECDomainParameters get_Parameters()
-    // Offset: 0xF4AC30
+    // Offset: 0x104663C
     Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* get_Parameters();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_PublicKeyParamSet()
-    // Offset: 0xF4AC38
+    // Offset: 0x1046644
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.ECKeyParameters other)
-    // Offset: 0xF4ACF8
+    // Offset: 0x1046704
     bool Equals(Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* other);
     // static System.String VerifyAlgorithmName(System.String algorithm)
-    // Offset: 0xF4A8E8
+    // Offset: 0x10462F4
     static ::Il2CppString* VerifyAlgorithmName(::Il2CppString* algorithm);
     // static Org.BouncyCastle.Crypto.Parameters.ECDomainParameters LookupParameters(Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet)
-    // Offset: 0xF4AB3C
+    // Offset: 0x1046548
     static Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* LookupParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
     // static private System.Void .cctor()
-    // Offset: 0xF4ADA0
+    // Offset: 0x10467AC
     static void _cctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF4AC40
+    // Offset: 0x104664C
     // Implemented from: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
     // Base method: System.Boolean AsymmetricKeyParameter::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF4AD58
+    // Offset: 0x1046764
     // Implemented from: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
     // Base method: System.Int32 AsymmetricKeyParameter::GetHashCode()
     int GetHashCode();

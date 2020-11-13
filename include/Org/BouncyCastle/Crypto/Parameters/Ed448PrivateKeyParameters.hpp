@@ -39,16 +39,16 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set static field: static public readonly System.Int32 SignatureSize
     static void _set_SignatureSize(int value);
     // public System.Void .ctor(System.Byte[] buf, System.Int32 off)
-    // Offset: 0xF4BD74
+    // Offset: 0x1047780
     static Ed448PrivateKeyParameters* New_ctor(::Array<uint8_t>* buf, int off);
     // public Org.BouncyCastle.Crypto.Parameters.Ed448PublicKeyParameters GeneratePublicKey()
-    // Offset: 0xF4BE4C
+    // Offset: 0x1047858
     Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* GeneratePublicKey();
     // public System.Void Sign(Org.BouncyCastle.Math.EC.Rfc8032.Ed448/Algorithm algorithm, System.Byte[] ctx, System.Byte[] msg, System.Int32 msgOff, System.Int32 msgLen, System.Byte[] sig, System.Int32 sigOff)
-    // Offset: 0xF4C068
+    // Offset: 0x1047A74
     void Sign(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::Algorithm algorithm, ::Array<uint8_t>* ctx, ::Array<uint8_t>* msg, int msgOff, int msgLen, ::Array<uint8_t>* sig, int sigOff);
     // static private System.Void .cctor()
-    // Offset: 0xF4C32C
+    // Offset: 0x1047D38
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Parameters.Ed448PrivateKeyParameters
 }

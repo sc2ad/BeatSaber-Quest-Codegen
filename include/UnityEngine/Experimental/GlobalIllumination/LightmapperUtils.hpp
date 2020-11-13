@@ -34,25 +34,25 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   class LightmapperUtils : public ::Il2CppObject {
     public:
     // static public UnityEngine.Experimental.GlobalIllumination.LinearColor ExtractIndirect(UnityEngine.Light l)
-    // Offset: 0x1792748
+    // Offset: 0x1688478
     static UnityEngine::Experimental::GlobalIllumination::LinearColor ExtractIndirect(UnityEngine::Light* l);
     // static public System.Single ExtractInnerCone(UnityEngine.Light l)
-    // Offset: 0x17929D0
+    // Offset: 0x1688700
     static float ExtractInnerCone(UnityEngine::Light* l);
     // static public System.Void Extract(UnityEngine.Light l, ref UnityEngine.Experimental.GlobalIllumination.DirectionalLight dir)
-    // Offset: 0x1792AE4
+    // Offset: 0x1688814
     static void Extract(UnityEngine::Light* l, UnityEngine::Experimental::GlobalIllumination::DirectionalLight& dir);
     // static public System.Void Extract(UnityEngine.Light l, ref UnityEngine.Experimental.GlobalIllumination.PointLight point)
-    // Offset: 0x1792C58
+    // Offset: 0x1688988
     static void Extract(UnityEngine::Light* l, UnityEngine::Experimental::GlobalIllumination::PointLight& point);
     // static public System.Void Extract(UnityEngine.Light l, ref UnityEngine.Experimental.GlobalIllumination.SpotLight spot)
-    // Offset: 0x1792E00
+    // Offset: 0x1688B30
     static void Extract(UnityEngine::Light* l, UnityEngine::Experimental::GlobalIllumination::SpotLight& spot);
     // static public System.Void Extract(UnityEngine.Light l, ref UnityEngine.Experimental.GlobalIllumination.RectangleLight rect)
-    // Offset: 0x1792FE4
+    // Offset: 0x1688D14
     static void Extract(UnityEngine::Light* l, UnityEngine::Experimental::GlobalIllumination::RectangleLight& rect);
     // static public System.Void Extract(UnityEngine.Light l, ref UnityEngine.Experimental.GlobalIllumination.DiscLight disc)
-    // Offset: 0x1793184
+    // Offset: 0x1688EB4
     static void Extract(UnityEngine::Light* l, UnityEngine::Experimental::GlobalIllumination::DiscLight& disc);
   }; // UnityEngine.Experimental.GlobalIllumination.LightmapperUtils
 }

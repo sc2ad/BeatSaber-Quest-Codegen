@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x11544B0
+    // Offset: 0x11F5170
     static CVRExtendedDisplay* New_ctor(System::IntPtr pInterface);
     // public System.Void GetWindowBounds(ref System.Int32 pnX, ref System.Int32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
-    // Offset: 0x11545C0
+    // Offset: 0x11F5280
     void GetWindowBounds(int& pnX, int& pnY, uint& pnWidth, uint& pnHeight);
     // public System.Void GetEyeOutputViewport(OVR.OpenVR.EVREye eEye, ref System.UInt32 pnX, ref System.UInt32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
-    // Offset: 0x11545EC
+    // Offset: 0x11F52AC
     void GetEyeOutputViewport(OVR::OpenVR::EVREye eEye, uint& pnX, uint& pnY, uint& pnWidth, uint& pnHeight);
     // public System.Void GetDXGIOutputInfo(ref System.Int32 pnAdapterIndex, ref System.Int32 pnAdapterOutputIndex)
-    // Offset: 0x1154618
+    // Offset: 0x11F52D8
     void GetDXGIOutputInfo(int& pnAdapterIndex, int& pnAdapterOutputIndex);
   }; // OVR.OpenVR.CVRExtendedDisplay
 }

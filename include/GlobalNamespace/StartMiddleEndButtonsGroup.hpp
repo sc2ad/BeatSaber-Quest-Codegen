@@ -20,17 +20,17 @@ namespace GlobalNamespace {
       return *reinterpret_cast<UnityEngine::UI::ILayoutController*>(this);
     }
     // public System.Void SetLayoutHorizontal()
-    // Offset: 0x1F93704
+    // Offset: 0xF455CC
     // Implemented from: UnityEngine.UI.ILayoutController
     // Base method: System.Void ILayoutController::SetLayoutHorizontal()
     void SetLayoutHorizontal();
     // public System.Void SetLayoutVertical()
-    // Offset: 0x1F93808
+    // Offset: 0xF456D0
     // Implemented from: UnityEngine.UI.ILayoutController
     // Base method: System.Void ILayoutController::SetLayoutVertical()
     void SetLayoutVertical();
     // public System.Void .ctor()
-    // Offset: 0x1F9380C
+    // Offset: 0xF456D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ObstacleSpawnData
     constexpr ObstacleSpawnData(UnityEngine::Vector3 moveStartPos_ = {}, UnityEngine::Vector3 moveEndPos_ = {}, UnityEngine::Vector3 jumpEndPos_ = {}, float obstacleHeight_ = {}, float moveDuration_ = {}, float jumpDuration_ = {}, float noteLinesDistance_ = {}) noexcept : moveStartPos{moveStartPos_}, moveEndPos{moveEndPos_}, jumpEndPos{jumpEndPos_}, obstacleHeight{obstacleHeight_}, moveDuration{moveDuration_}, jumpDuration{jumpDuration_}, noteLinesDistance{noteLinesDistance_} {}
     // public System.Void .ctor(UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single obstacleHeight, System.Single moveDuration, System.Single jumpDuration, System.Single noteLinesDistance)
-    // Offset: 0xE4DAB0
+    // Offset: 0xE7F1BC
     // ABORTED: conflicts with another method.  ObstacleSpawnData(UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float obstacleHeight, float moveDuration, float jumpDuration, float noteLinesDistance);
   }; // BeatmapObjectSpawnMovementData/ObstacleSpawnData
 }

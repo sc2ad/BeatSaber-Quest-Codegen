@@ -26,10 +26,10 @@ namespace Zenject {
     // Deleting conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept = delete;
     // public System.Void .ctor(UnityEngine.Animator animator)
-    // Offset: 0xFEF130
+    // Offset: 0x10EAAD8
     static AnimatorInstaller* New_ctor(UnityEngine::Animator* animator);
     // public override System.Void InstallBindings()
-    // Offset: 0xFEF19C
+    // Offset: 0x10EAB44
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();

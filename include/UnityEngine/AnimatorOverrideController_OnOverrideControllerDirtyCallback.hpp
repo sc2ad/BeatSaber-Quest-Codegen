@@ -26,16 +26,16 @@ namespace UnityEngine {
   class AnimatorOverrideController::OnOverrideControllerDirtyCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F3E34C
+    // Offset: 0x19CB978
     static AnimatorOverrideController::OnOverrideControllerDirtyCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x1F3E140
+    // Offset: 0x19CB76C
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F3E360
+    // Offset: 0x19CB98C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F3E38C
+    // Offset: 0x19CB9B8
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.AnimatorOverrideController/OnOverrideControllerDirtyCallback
 }

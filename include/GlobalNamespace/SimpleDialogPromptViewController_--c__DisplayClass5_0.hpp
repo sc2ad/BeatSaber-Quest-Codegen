@@ -20,10 +20,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::SimpleDialogPromptViewController* $$4__this;
     // System.Void <DidActivate>b__0()
-    // Offset: 0x1FEE470
+    // Offset: 0xFCEDEC
     void $DidActivate$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1FEE24C
+    // Offset: 0xFCEBC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SimpleDialogPromptViewController::$$c__DisplayClass5_0* New_ctor();

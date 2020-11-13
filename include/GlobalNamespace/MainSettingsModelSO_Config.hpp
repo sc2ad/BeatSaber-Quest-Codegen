@@ -120,44 +120,50 @@ namespace GlobalNamespace {
     // public System.Single smoothCameraPositionSmooth
     // Offset: 0x98
     float smoothCameraPositionSmooth;
-    // public System.Single volume
+    // public System.Boolean useCustomServerEnvironment
     // Offset: 0x9C
+    bool useCustomServerEnvironment;
+    // public System.String customServerHostName
+    // Offset: 0xA0
+    ::Il2CppString* customServerHostName;
+    // public System.Single volume
+    // Offset: 0xA8
     float volume;
     // public System.Boolean controllersRumbleEnabled
-    // Offset: 0xA0
+    // Offset: 0xAC
     bool controllersRumbleEnabled;
     // public System.Int32 enableAlphaFeatures
-    // Offset: 0xA4
+    // Offset: 0xB0
     int enableAlphaFeatures;
     // public System.Int32 pauseButtonPressDurationLevel
-    // Offset: 0xA8
+    // Offset: 0xB4
     int pauseButtonPressDurationLevel;
     // public System.Int32 maxShockwaveParticles
-    // Offset: 0xAC
+    // Offset: 0xB8
     int maxShockwaveParticles;
     // public System.Boolean overrideAudioLatency
-    // Offset: 0xB0
+    // Offset: 0xBC
     bool overrideAudioLatency;
     // public System.Single audioLatency
-    // Offset: 0xB4
+    // Offset: 0xC0
     float audioLatency;
     // public System.Int32 maxNumberOfCutSoundEffects
-    // Offset: 0xB8
+    // Offset: 0xC4
     int maxNumberOfCutSoundEffects;
     // public System.Boolean onlineServicesEnabled
-    // Offset: 0xBC
+    // Offset: 0xC8
     bool onlineServicesEnabled;
     // public System.Boolean oculusMRCEnabled
-    // Offset: 0xBD
+    // Offset: 0xC9
     bool oculusMRCEnabled;
     // public System.Boolean openVrThreadedHaptics
-    // Offset: 0xBE
+    // Offset: 0xCA
     bool openVrThreadedHaptics;
     // public System.Int32 languageSettings
-    // Offset: 0xC0
+    // Offset: 0xCC
     int languageSettings;
     // public System.Void .ctor()
-    // Offset: 0x1FC0560
+    // Offset: 0x1A6FA98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MainSettingsModelSO::Config* New_ctor();

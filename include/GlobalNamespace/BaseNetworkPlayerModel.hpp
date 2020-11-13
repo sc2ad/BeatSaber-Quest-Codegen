@@ -61,80 +61,80 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::BaseNetworkPlayerModel::$GetOtherPlayers$d__56
     class $GetOtherPlayers$d__56;
     // private ConnectedPlayerManager _connectedPlayerManager
-    // Offset: 0x20
+    // Offset: 0x30
     GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager;
     // private INetworkPlayerModel _partyManager
-    // Offset: 0x28
+    // Offset: 0x38
     GlobalNamespace::INetworkPlayerModel* partyManager;
     // private System.Int32 _maxPartySize
-    // Offset: 0x30
+    // Offset: 0x40
     int maxPartySize;
     // private GameplayServerConfiguration _configuration
-    // Offset: 0x38
+    // Offset: 0x48
     GlobalNamespace::GameplayServerConfiguration configuration;
     // private System.Boolean <discoveryEnabled>k__BackingField
-    // Offset: 0x50
+    // Offset: 0x60
     bool discoveryEnabled;
     // private System.Action`1<INetworkPlayerModel> connectedPlayerManagerCreatedEvent
-    // Offset: 0x58
+    // Offset: 0x68
     System::Action_1<GlobalNamespace::INetworkPlayerModel*>* connectedPlayerManagerCreatedEvent;
     // private System.Action`1<INetworkPlayerModel> connectedPlayerManagerDestroyedEvent
-    // Offset: 0x60
+    // Offset: 0x70
     System::Action_1<GlobalNamespace::INetworkPlayerModel*>* connectedPlayerManagerDestroyedEvent;
     // Creating interface conversion operator: operator GlobalNamespace::INetworkPlayerModel
     operator GlobalNamespace::INetworkPlayerModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayerModel*>(this);
     }
     // public INetworkPlayerModel get_partyManager()
-    // Offset: 0x20389B8
+    // Offset: 0x1A4D5E4
     GlobalNamespace::INetworkPlayerModel* get_partyManager();
     // protected System.Boolean get_isConnectedOrConnecting()
-    // Offset: 0x20389C8
+    // Offset: 0x1A4D5F4
     bool get_isConnectedOrConnecting();
     // protected System.Boolean get_isConnectionOwner()
-    // Offset: 0x20389DC
+    // Offset: 0x1A4D608
     bool get_isConnectionOwner();
     // public INetworkPlayer get_localPlayer()
-    // Offset: 0x20389F0
+    // Offset: 0x1A4D61C
     GlobalNamespace::INetworkPlayer* get_localPlayer();
     // protected System.Boolean get_isServer()
-    // Offset: 0x2038D08
+    // Offset: 0x1A4D934
     bool get_isServer();
     // protected System.Boolean get_isClient()
-    // Offset: 0x2038D54
+    // Offset: 0x1A4D980
     bool get_isClient();
     // protected System.Collections.Generic.IEnumerable`1<INetworkPlayer> GetPartyPlayers()
-    // Offset: 0x2039058
+    // Offset: 0x1A4DC84
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* GetPartyPlayers();
     // protected System.Collections.Generic.IEnumerable`1<INetworkPlayer> GetOtherPlayers()
-    // Offset: 0x2039100
+    // Offset: 0x1A4DCE4
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* GetOtherPlayers();
     // protected System.Void ConnectionFailed(ConnectionFailedReason reason)
-    // Offset: 0x20391A8
+    // Offset: 0x1A4DD44
     void ConnectionFailed(GlobalNamespace::ConnectionFailedReason reason);
     // protected System.Void PlayerConnected(IConnectedPlayer player)
-    // Offset: 0x20391AC
+    // Offset: 0x1A4DD48
     void PlayerConnected(GlobalNamespace::IConnectedPlayer* player);
     // protected System.Void PlayerDisconnected(IConnectedPlayer player)
-    // Offset: 0x20391B0
+    // Offset: 0x1A4DD4C
     void PlayerDisconnected(GlobalNamespace::IConnectedPlayer* player);
     // protected System.Void PlayerStateChanged(IConnectedPlayer player)
-    // Offset: 0x20391B4
+    // Offset: 0x1A4DD50
     void PlayerStateChanged(GlobalNamespace::IConnectedPlayer* player);
     // protected System.Void ConnectedPlayerManagerChanged()
-    // Offset: 0x20391B8
+    // Offset: 0x1A4DD54
     void ConnectedPlayerManagerChanged();
     // protected System.Void PlayerOrderChanged(IConnectedPlayer player)
-    // Offset: 0x20391BC
+    // Offset: 0x1A4DD58
     void PlayerOrderChanged(GlobalNamespace::IConnectedPlayer* player);
     // protected System.Void PartySizeChanged(System.Int32 currentPartySize)
-    // Offset: 0x20391C0
+    // Offset: 0x1A4DD5C
     void PartySizeChanged(int currentPartySize);
     // protected System.Void Disconnected(DisconnectedReason disconnectedReason)
-    // Offset: 0x20391C4
+    // Offset: 0x1A4DD60
     void Disconnected(GlobalNamespace::DisconnectedReason disconnectedReason);
     // protected System.Void DestroyConnectedPlayerManager()
-    // Offset: 0x2038DB0
+    // Offset: 0x1A4D9DC
     void DestroyConnectedPlayerManager();
     // protected System.Void CreateConnectedPlayerManager(IConnectionInitParams`1<T> initParams)
     // Offset: 0xFFFFFFFF
@@ -144,125 +144,125 @@ namespace GlobalNamespace {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "CreateConnectedPlayerManager", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, initParams));
     }
     // protected System.Void Log(System.String message)
-    // Offset: 0x20392E4
+    // Offset: 0x1A4DE80
     void Log(::Il2CppString* message);
     // public ConnectedPlayerManager get_connectedPlayerManager()
-    // Offset: 0x20389B0
+    // Offset: 0x1A4D5DC
     // Implemented from: INetworkPlayerModel
     // Base method: ConnectedPlayerManager INetworkPlayerModel::get_connectedPlayerManager()
     GlobalNamespace::ConnectedPlayerManager* get_connectedPlayerManager();
     // public System.Boolean get_discoveryEnabled()
-    // Offset: 0x20389F8
+    // Offset: 0x1A4D624
     // Implemented from: INetworkPlayerModel
     // Base method: System.Boolean INetworkPlayerModel::get_discoveryEnabled()
     bool get_discoveryEnabled();
     // public System.Void set_discoveryEnabled(System.Boolean value)
-    // Offset: 0x2038A00
+    // Offset: 0x1A4D62C
     // Implemented from: INetworkPlayerModel
     // Base method: System.Void INetworkPlayerModel::set_discoveryEnabled(System.Boolean value)
     void set_discoveryEnabled(bool value);
     // public System.Int32 get_currentPartySize()
-    // Offset: 0x2038A0C
+    // Offset: 0x1A4D638
     // Implemented from: INetworkPlayerModel
     // Base method: System.Int32 INetworkPlayerModel::get_currentPartySize()
     int get_currentPartySize();
     // public System.Int32 get_maxPartySize()
-    // Offset: 0x2038A14
+    // Offset: 0x1A4D640
     // Implemented from: INetworkPlayerModel
     // Base method: System.Int32 INetworkPlayerModel::get_maxPartySize()
     int get_maxPartySize();
     // public GameplayServerConfiguration get_configuration()
-    // Offset: 0x2038A1C
+    // Offset: 0x1A4D648
     // Implemented from: INetworkPlayerModel
     // Base method: GameplayServerConfiguration INetworkPlayerModel::get_configuration()
     GlobalNamespace::GameplayServerConfiguration get_configuration();
     // public System.Void add_connectedPlayerManagerCreatedEvent(System.Action`1<INetworkPlayerModel> value)
-    // Offset: 0x2038A30
+    // Offset: 0x1A4D65C
     // Implemented from: INetworkPlayerModel
     // Base method: System.Void INetworkPlayerModel::add_connectedPlayerManagerCreatedEvent(System.Action`1<INetworkPlayerModel> value)
     void add_connectedPlayerManagerCreatedEvent(System::Action_1<GlobalNamespace::INetworkPlayerModel*>* value);
     // public System.Void remove_connectedPlayerManagerCreatedEvent(System.Action`1<INetworkPlayerModel> value)
-    // Offset: 0x2038AD4
+    // Offset: 0x1A4D700
     // Implemented from: INetworkPlayerModel
     // Base method: System.Void INetworkPlayerModel::remove_connectedPlayerManagerCreatedEvent(System.Action`1<INetworkPlayerModel> value)
     void remove_connectedPlayerManagerCreatedEvent(System::Action_1<GlobalNamespace::INetworkPlayerModel*>* value);
     // public System.Void add_connectedPlayerManagerDestroyedEvent(System.Action`1<INetworkPlayerModel> value)
-    // Offset: 0x2038B78
+    // Offset: 0x1A4D7A4
     // Implemented from: INetworkPlayerModel
     // Base method: System.Void INetworkPlayerModel::add_connectedPlayerManagerDestroyedEvent(System.Action`1<INetworkPlayerModel> value)
     void add_connectedPlayerManagerDestroyedEvent(System::Action_1<GlobalNamespace::INetworkPlayerModel*>* value);
     // public System.Void remove_connectedPlayerManagerDestroyedEvent(System.Action`1<INetworkPlayerModel> value)
-    // Offset: 0x2038C1C
+    // Offset: 0x1A4D848
     // Implemented from: INetworkPlayerModel
     // Base method: System.Void INetworkPlayerModel::remove_connectedPlayerManagerDestroyedEvent(System.Action`1<INetworkPlayerModel> value)
     void remove_connectedPlayerManagerDestroyedEvent(System::Action_1<GlobalNamespace::INetworkPlayerModel*>* value);
     // public System.Void add_partyChangedEvent(System.Action`1<INetworkPlayerModel> value)
-    // Offset: 0x2038CC0
+    // Offset: 0x1A4D8EC
     // Implemented from: INetworkPlayerModel
     // Base method: System.Void INetworkPlayerModel::add_partyChangedEvent(System.Action`1<INetworkPlayerModel> value)
     void add_partyChangedEvent(System::Action_1<GlobalNamespace::INetworkPlayerModel*>* value);
     // public System.Void remove_partyChangedEvent(System.Action`1<INetworkPlayerModel> value)
-    // Offset: 0x2038CC4
+    // Offset: 0x1A4D8F0
     // Implemented from: INetworkPlayerModel
     // Base method: System.Void INetworkPlayerModel::remove_partyChangedEvent(System.Action`1<INetworkPlayerModel> value)
     void remove_partyChangedEvent(System::Action_1<GlobalNamespace::INetworkPlayerModel*>* value);
     // public System.Void add_partySizeChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x2038CC8
+    // Offset: 0x1A4D8F4
     // Implemented from: INetworkPlayerModel
     // Base method: System.Void INetworkPlayerModel::add_partySizeChangedEvent(System.Action`1<System.Int32> value)
     void add_partySizeChangedEvent(System::Action_1<int>* value);
     // public System.Void remove_partySizeChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x2038CCC
+    // Offset: 0x1A4D8F8
     // Implemented from: INetworkPlayerModel
     // Base method: System.Void INetworkPlayerModel::remove_partySizeChangedEvent(System.Action`1<System.Int32> value)
     void remove_partySizeChangedEvent(System::Action_1<int>* value);
     // public System.Void add_joinRequestedEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x2038CD0
+    // Offset: 0x1A4D8FC
     // Implemented from: INetworkPlayerModel
     // Base method: System.Void INetworkPlayerModel::add_joinRequestedEvent(System.Action`1<INetworkPlayer> value)
     void add_joinRequestedEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
     // public System.Void remove_joinRequestedEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x2038CD4
+    // Offset: 0x1A4D900
     // Implemented from: INetworkPlayerModel
     // Base method: System.Void INetworkPlayerModel::remove_joinRequestedEvent(System.Action`1<INetworkPlayer> value)
     void remove_joinRequestedEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
     // public System.Void add_inviteRequestedEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x2038CD8
+    // Offset: 0x1A4D904
     // Implemented from: INetworkPlayerModel
     // Base method: System.Void INetworkPlayerModel::add_inviteRequestedEvent(System.Action`1<INetworkPlayer> value)
     void add_inviteRequestedEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
     // public System.Void remove_inviteRequestedEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x2038CDC
+    // Offset: 0x1A4D908
     // Implemented from: INetworkPlayerModel
     // Base method: System.Void INetworkPlayerModel::remove_inviteRequestedEvent(System.Action`1<INetworkPlayer> value)
     void remove_inviteRequestedEvent(System::Action_1<GlobalNamespace::INetworkPlayer*>* value);
     // public System.Collections.Generic.IEnumerable`1<INetworkPlayer> get_partyPlayers()
-    // Offset: 0x2038CE0
+    // Offset: 0x1A4D90C
     // Implemented from: INetworkPlayerModel
     // Base method: System.Collections.Generic.IEnumerable`1<INetworkPlayer> INetworkPlayerModel::get_partyPlayers()
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* get_partyPlayers();
     // private System.Collections.Generic.IEnumerable`1<INetworkPlayer> INetworkPlayerModel.get_otherPlayers()
-    // Offset: 0x2038CF0
+    // Offset: 0x1A4D91C
     // Implemented from: INetworkPlayerModel
     // Base method: System.Collections.Generic.IEnumerable`1<INetworkPlayer> INetworkPlayerModel::get_otherPlayers()
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* GlobalNamespace_INetworkPlayerModel_get_otherPlayers();
     // public System.Boolean get_localPlayerIsPartyOwner()
-    // Offset: 0x2038D00
+    // Offset: 0x1A4D92C
     // Implemented from: INetworkPlayerModel
     // Base method: System.Boolean INetworkPlayerModel::get_localPlayerIsPartyOwner()
     bool get_localPlayerIsPartyOwner();
     // protected override System.Void OnDestroy()
-    // Offset: 0x2038DAC
+    // Offset: 0x1A4D9D8
     // Implemented from: StandaloneMonobehavior
     // Base method: System.Void StandaloneMonobehavior::OnDestroy()
     void OnDestroy();
     // protected override System.Void Update()
-    // Offset: 0x2039044
+    // Offset: 0x1A4DC70
     // Implemented from: StandaloneMonobehavior
     // Base method: System.Void StandaloneMonobehavior::Update()
     void Update();
     // public System.Void Disconnect()
-    // Offset: 0x20391D4
+    // Offset: 0x1A4DD70
     // Implemented from: INetworkPlayerModel
     // Base method: System.Void INetworkPlayerModel::Disconnect()
     void Disconnect();
@@ -276,12 +276,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(this, "CreateParty", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, createConfig)));
     }
     // public System.Void DestroyParty()
-    // Offset: 0x20391D8
+    // Offset: 0x1A4DD74
     // Implemented from: INetworkPlayerModel
     // Base method: System.Void INetworkPlayerModel::DestroyParty()
     void DestroyParty();
     // protected System.Void .ctor()
-    // Offset: 0x20393AC
+    // Offset: 0x1A4DF48
     // Implemented from: StandaloneMonobehavior
     // Base method: System.Void StandaloneMonobehavior::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

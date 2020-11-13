@@ -18,31 +18,31 @@ namespace System {
   class ValueType : public System::Object {
     public:
     // static private System.Boolean InternalEquals(System.Object o1, System.Object o2, out System.Object[] fields)
-    // Offset: 0x170ECA0
+    // Offset: 0x1660864
     static bool InternalEquals(::Il2CppObject* o1, ::Il2CppObject* o2, ::Array<::Il2CppObject*>*& fields);
     // static System.Boolean DefaultEquals(System.Object o1, System.Object o2)
-    // Offset: 0x170ECA4
+    // Offset: 0x1660868
     static bool DefaultEquals(::Il2CppObject* o1, ::Il2CppObject* o2);
     // static System.Int32 InternalGetHashCode(System.Object o, out System.Object[] fields)
-    // Offset: 0x170EE70
+    // Offset: 0x1660A34
     static int InternalGetHashCode(::Il2CppObject* o, ::Array<::Il2CppObject*>*& fields);
     // protected System.Void .ctor()
-    // Offset: 0x170EC98
+    // Offset: 0x166085C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ValueType* New_ctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x170EE6C
+    // Offset: 0x1660A30
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x170EE74
+    // Offset: 0x1660A38
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x170EF00
+    // Offset: 0x1660AC4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

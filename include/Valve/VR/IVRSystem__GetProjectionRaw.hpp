@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRSystem::_GetProjectionRaw : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1CAE8D0
+    // Offset: 0x192CAA8
     static IVRSystem::_GetProjectionRaw* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Valve.VR.EVREye eEye, ref System.Single pfLeft, ref System.Single pfRight, ref System.Single pfTop, ref System.Single pfBottom)
-    // Offset: 0x1CAE8E4
+    // Offset: 0x192CABC
     void Invoke(Valve::VR::EVREye eEye, float& pfLeft, float& pfRight, float& pfTop, float& pfBottom);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVREye eEye, ref System.Single pfLeft, ref System.Single pfRight, ref System.Single pfTop, ref System.Single pfBottom, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1CAEBC0
+    // Offset: 0x192CD98
     System::IAsyncResult* BeginInvoke(Valve::VR::EVREye eEye, float& pfLeft, float& pfRight, float& pfTop, float& pfBottom, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(ref System.Single pfLeft, ref System.Single pfRight, ref System.Single pfTop, ref System.Single pfBottom, System.IAsyncResult result)
-    // Offset: 0x1CAECC4
+    // Offset: 0x192CE9C
     void EndInvoke(float& pfLeft, float& pfRight, float& pfTop, float& pfBottom, System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetProjectionRaw
 }

@@ -48,10 +48,10 @@ namespace GlobalNamespace {
     // Offset: 0x78
     TMPro::TextMeshProUGUI* rankText;
     // public System.Void SetData(System.Int32 order, IConnectedPlayer connectedPlayer, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x206F4DC
+    // Offset: 0xF33EA0
     void SetData(int order, GlobalNamespace::IConnectedPlayer* connectedPlayer, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0x206F87C
+    // Offset: 0xF341C0
     // Implemented from: TableCellWithSeparator
     // Base method: System.Void TableCellWithSeparator::.ctor()
     // Base method: System.Void TableCell::.ctor()

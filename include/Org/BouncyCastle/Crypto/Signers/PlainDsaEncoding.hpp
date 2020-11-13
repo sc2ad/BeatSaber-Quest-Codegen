@@ -29,21 +29,21 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Set static field: static public readonly Org.BouncyCastle.Crypto.Signers.PlainDsaEncoding Instance
     static void _set_Instance(Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding* value);
     // protected Org.BouncyCastle.Math.BigInteger CheckValue(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger x)
-    // Offset: 0xF55E44
+    // Offset: 0x1051850
     Org::BouncyCastle::Math::BigInteger* CheckValue(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* x);
     // protected System.Void EncodeValue(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger x, System.Byte[] buf, System.Int32 off, System.Int32 len)
-    // Offset: 0xF55EFC
+    // Offset: 0x1051908
     void EncodeValue(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* x, ::Array<uint8_t>* buf, int off, int len);
     // static private System.Void .cctor()
-    // Offset: 0xF56034
+    // Offset: 0x1051A40
     static void _cctor();
     // public System.Byte[] Encode(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger r, Org.BouncyCastle.Math.BigInteger s)
-    // Offset: 0xF55D70
+    // Offset: 0x105177C
     // Implemented from: Org.BouncyCastle.Crypto.Signers.IDsaEncoding
     // Base method: System.Byte[] IDsaEncoding::Encode(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger r, Org.BouncyCastle.Math.BigInteger s)
     ::Array<uint8_t>* Encode(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* r, Org::BouncyCastle::Math::BigInteger* s);
     // public System.Void .ctor()
-    // Offset: 0xF5609C
+    // Offset: 0x1051AA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlainDsaEncoding* New_ctor();

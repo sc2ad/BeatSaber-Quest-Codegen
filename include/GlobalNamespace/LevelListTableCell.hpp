@@ -100,34 +100,34 @@ namespace GlobalNamespace {
     // Offset: 0xE8
     ::Il2CppString* settingDataFromLevelId;
     // public System.Void SetDataFromLevelAsync(IPreviewBeatmapLevel level, System.Boolean isFavorite)
-    // Offset: 0x20B6D80
+    // Offset: 0x1AC0354
     void SetDataFromLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* level, bool isFavorite);
     // private System.Void RefreshVisuals()
-    // Offset: 0x20BBD88
+    // Offset: 0x1AC0454
     void RefreshVisuals();
     // public System.Void RefreshAvailabilityAsync(AdditionalContentModel contentModel, System.String levelID)
-    // Offset: 0x20B6E7C
+    // Offset: 0x1AC0588
     void RefreshAvailabilityAsync(GlobalNamespace::AdditionalContentModel* contentModel, ::Il2CppString* levelID);
     // public System.Void CancelAsyncOperations()
-    // Offset: 0x20B7450
+    // Offset: 0x1AC052C
     void CancelAsyncOperations();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x20BBD84
+    // Offset: 0x1AC0450
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x20BBE58
+    // Offset: 0x1AC0524
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void WasPreparedForReuse()
-    // Offset: 0x20BBE5C
+    // Offset: 0x1AC0528
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::WasPreparedForReuse()
     void WasPreparedForReuse();
     // public System.Void .ctor()
-    // Offset: 0x20BBE60
+    // Offset: 0x1AC068C
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

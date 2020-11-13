@@ -28,13 +28,13 @@ namespace System::Runtime::CompilerServices {
       return m_relaxations;
     }
     // public System.Void .ctor(System.Int32 relaxations)
-    // Offset: 0x108C4CC
+    // Offset: 0x1162DFC
     static CompilationRelaxationsAttribute* New_ctor(int relaxations);
     // public System.Void .ctor(System.Runtime.CompilerServices.CompilationRelaxations relaxations)
-    // Offset: 0x108C4F8
+    // Offset: 0x1162E28
     static CompilationRelaxationsAttribute* New_ctor(System::Runtime::CompilerServices::CompilationRelaxations relaxations);
     // public System.Int32 get_CompilationRelaxations()
-    // Offset: 0x108C524
+    // Offset: 0x1162E54
     int get_CompilationRelaxations();
   }; // System.Runtime.CompilerServices.CompilationRelaxationsAttribute
 }

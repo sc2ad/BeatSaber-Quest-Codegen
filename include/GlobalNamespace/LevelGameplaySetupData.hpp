@@ -43,47 +43,47 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::ILevelGameplaySetupData*>(this);
     }
     // public IPreviewBeatmapLevel get_beatmapLevel()
-    // Offset: 0x20BBCCC
+    // Offset: 0x1AC029C
     // Implemented from: ILevelGameplaySetupData
     // Base method: IPreviewBeatmapLevel ILevelGameplaySetupData::get_beatmapLevel()
     GlobalNamespace::IPreviewBeatmapLevel* get_beatmapLevel();
     // public System.Void set_beatmapLevel(IPreviewBeatmapLevel value)
-    // Offset: 0x20BBCD4
+    // Offset: 0x1AC02A4
     // Implemented from: ILevelGameplaySetupData
     // Base method: System.Void ILevelGameplaySetupData::set_beatmapLevel(IPreviewBeatmapLevel value)
     void set_beatmapLevel(GlobalNamespace::IPreviewBeatmapLevel* value);
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x20BBCDC
+    // Offset: 0x1AC02AC
     // Implemented from: ILevelGameplaySetupData
     // Base method: BeatmapCharacteristicSO ILevelGameplaySetupData::get_beatmapCharacteristic()
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public System.Void set_beatmapCharacteristic(BeatmapCharacteristicSO value)
-    // Offset: 0x20BBCE4
+    // Offset: 0x1AC02B4
     // Implemented from: ILevelGameplaySetupData
     // Base method: System.Void ILevelGameplaySetupData::set_beatmapCharacteristic(BeatmapCharacteristicSO value)
     void set_beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
     // public BeatmapDifficulty get_beatmapDifficulty()
-    // Offset: 0x20BBCEC
+    // Offset: 0x1AC02BC
     // Implemented from: ILevelGameplaySetupData
     // Base method: BeatmapDifficulty ILevelGameplaySetupData::get_beatmapDifficulty()
     GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
     // public System.Void set_beatmapDifficulty(BeatmapDifficulty value)
-    // Offset: 0x20BBCF4
+    // Offset: 0x1AC02C4
     // Implemented from: ILevelGameplaySetupData
     // Base method: System.Void ILevelGameplaySetupData::set_beatmapDifficulty(BeatmapDifficulty value)
     void set_beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x20BBCFC
+    // Offset: 0x1AC02CC
     // Implemented from: ILevelGameplaySetupData
     // Base method: GameplayModifiers ILevelGameplaySetupData::get_gameplayModifiers()
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void set_gameplayModifiers(GameplayModifiers value)
-    // Offset: 0x20BBD74
+    // Offset: 0x1AC0344
     // Implemented from: ILevelGameplaySetupData
     // Base method: System.Void ILevelGameplaySetupData::set_gameplayModifiers(GameplayModifiers value)
     void set_gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
     // public System.Void .ctor()
-    // Offset: 0x20BBD7C
+    // Offset: 0x1AC034C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LevelGameplaySetupData* New_ctor();

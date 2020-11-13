@@ -35,37 +35,37 @@ namespace TMPro {
     // Set static field: static private System.String k_LookupStringU
     static void _set_k_LookupStringU(::Il2CppString* value);
     // static private System.Void .cctor()
-    // Offset: 0x105C510
+    // Offset: 0x1133E40
     static void _cctor();
     // static public TMPro.TMP_TextParsingUtilities get_instance()
-    // Offset: 0x105C580
+    // Offset: 0x1133EB0
     static TMPro::TMP_TextParsingUtilities* get_instance();
     // static public System.UInt32 GetHashCode(System.String s)
-    // Offset: 0x105C5E8
+    // Offset: 0x1133F18
     static uint GetHashCode(::Il2CppString* s);
     // static public System.Int32 GetHashCodeCaseSensitive(System.String s)
-    // Offset: 0x105C738
+    // Offset: 0x1134068
     static int GetHashCodeCaseSensitive(::Il2CppString* s);
     // static public System.Char ToLowerASCIIFast(System.Char c)
-    // Offset: 0x105C7B0
+    // Offset: 0x11340E0
     static ::Il2CppChar ToLowerASCIIFast(::Il2CppChar c);
     // static public System.Char ToUpperASCIIFast(System.Char c)
-    // Offset: 0x105C6BC
+    // Offset: 0x1133FEC
     static ::Il2CppChar ToUpperASCIIFast(::Il2CppChar c);
     // static public System.UInt32 ToUpperASCIIFast(System.UInt32 c)
-    // Offset: 0x105C82C
+    // Offset: 0x113415C
     static uint ToUpperASCIIFast(uint c);
     // static public System.UInt32 ToLowerASCIIFast(System.UInt32 c)
-    // Offset: 0x105C8A8
+    // Offset: 0x11341D8
     static uint ToLowerASCIIFast(uint c);
     // static public System.Boolean IsHighSurrogate(System.UInt32 c)
-    // Offset: 0x105C924
+    // Offset: 0x1134254
     static bool IsHighSurrogate(uint c);
     // static public System.Boolean IsLowSurrogate(System.UInt32 c)
-    // Offset: 0x105C938
+    // Offset: 0x1134268
     static bool IsLowSurrogate(uint c);
     // public System.Void .ctor()
-    // Offset: 0x105C578
+    // Offset: 0x1133EA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_TextParsingUtilities* New_ctor();

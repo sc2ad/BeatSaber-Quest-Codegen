@@ -76,28 +76,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_animatedUpdateIsRequired()
-    // Offset: 0x1FC9260
+    // Offset: 0x101AB60
     bool get_animatedUpdateIsRequired();
     // public System.Void ScrollToTopMostNotClearedMission()
-    // Offset: 0x1FC93A8
+    // Offset: 0x101ACA8
     void ScrollToTopMostNotClearedMission();
     // public System.Void UpdateMissionMapAfterMissionWasCleared(System.Boolean animated, System.Action finishCallback)
-    // Offset: 0x1FC95E8
+    // Offset: 0x101AEE8
     void UpdateMissionMapAfterMissionWasCleared(bool animated, System::Action* finishCallback);
     // private System.Collections.IEnumerator UpdateMissionMapCoroutine(MissionNode lastClearedMissionNode, System.Action finishCallback)
-    // Offset: 0x1FC9724
+    // Offset: 0x101B024
     System::Collections::IEnumerator* UpdateMissionMapCoroutine(GlobalNamespace::MissionNode* lastClearedMissionNode, System::Action* finishCallback);
     // private System.Collections.IEnumerator UpdateClearedNodeStateCoroutine(MissionNode lastClearedMissionNode)
-    // Offset: 0x1FC97FC
+    // Offset: 0x101B0FC
     System::Collections::IEnumerator* UpdateClearedNodeStateCoroutine(GlobalNamespace::MissionNode* lastClearedMissionNode);
     // private System.Collections.IEnumerator UpdateStageCoroutine()
-    // Offset: 0x1FC98C0
+    // Offset: 0x101B1C0
     System::Collections::IEnumerator* UpdateStageCoroutine();
     // private System.Collections.IEnumerator UpdateNodesAndConnectionCoroutine()
-    // Offset: 0x1FC9968
+    // Offset: 0x101B268
     System::Collections::IEnumerator* UpdateNodesAndConnectionCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x1FC9A10
+    // Offset: 0x101B310
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -49,28 +49,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x20C52F0
+    // Offset: 0x1A7CB60
     void add_didSelectCellWithIdxEvent(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x20C5394
+    // Offset: 0x1A7CC04
     void remove_didSelectCellWithIdxEvent(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // protected System.Void Start()
-    // Offset: 0x20C5438
+    // Offset: 0x1A7CCA8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x20C55D0
+    // Offset: 0x1A7CE40
     void OnDestroy();
     // public BeatmapCharacteristicSO GetSelectedBeatmapCharacteristic()
-    // Offset: 0x20C56AC
+    // Offset: 0x1A7CF1C
     GlobalNamespace::BeatmapCharacteristicSO* GetSelectedBeatmapCharacteristic();
     // public System.Void SelectCellWithBeatmapCharacteristic(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x20C56FC
+    // Offset: 0x1A7CF6C
     void SelectCellWithBeatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x20C57A8
+    // Offset: 0x1A7D018
     void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // public System.Void .ctor()
-    // Offset: 0x20C584C
+    // Offset: 0x1A7D0BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

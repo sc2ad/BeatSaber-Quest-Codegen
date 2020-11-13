@@ -43,24 +43,24 @@ namespace System::Reflection {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
     // System.Reflection.BindingFlags get_BindingFlags()
-    // Offset: 0x167C390
+    // Offset: 0x15D0F54
     System::Reflection::BindingFlags get_BindingFlags();
     // System.RuntimeType GetDeclaringTypeInternal()
-    // Offset: 0x167C3BC
+    // Offset: 0x15D0F80
     System::RuntimeType* GetDeclaringTypeInternal();
     // private System.RuntimeType get_ReflectedTypeInternal()
-    // Offset: 0x167C448
+    // Offset: 0x15D100C
     System::RuntimeType* get_ReflectedTypeInternal();
     // System.Reflection.RuntimeModule GetRuntimeModule()
-    // Offset: 0x167C39C
+    // Offset: 0x15D0F60
     System::Reflection::RuntimeModule* GetRuntimeModule();
     // public override System.Reflection.Module get_Module()
-    // Offset: 0x167C398
+    // Offset: 0x15D0F5C
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.Module MemberInfo::get_Module()
     System::Reflection::Module* get_Module();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x167C4D4
+    // Offset: 0x15D1098
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -68,7 +68,7 @@ namespace System::Reflection {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // protected System.Void .ctor()
-    // Offset: 0x167BC8C
+    // Offset: 0x15D0850
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.Void FieldInfo::.ctor()
     // Base method: System.Void MemberInfo::.ctor()

@@ -208,148 +208,148 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_selectionType(HMUI.TableViewSelectionType value)
-    // Offset: 0x2177430
+    // Offset: 0x10872B4
     void set_selectionType(HMUI::TableViewSelectionType value);
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`2<HMUI.TableView,System.Int32> value)
-    // Offset: 0x2177440
+    // Offset: 0x10872C4
     void add_didSelectCellWithIdxEvent(System::Action_2<HMUI::TableView*, int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`2<HMUI.TableView,System.Int32> value)
-    // Offset: 0x21774E4
+    // Offset: 0x1087368
     void remove_didSelectCellWithIdxEvent(System::Action_2<HMUI::TableView*, int>* value);
     // public System.Void add_didReloadDataEvent(System.Action`1<HMUI.TableView> value)
-    // Offset: 0x2177588
+    // Offset: 0x108740C
     void add_didReloadDataEvent(System::Action_1<HMUI::TableView*>* value);
     // public System.Void remove_didReloadDataEvent(System.Action`1<HMUI.TableView> value)
-    // Offset: 0x217762C
+    // Offset: 0x10874B0
     void remove_didReloadDataEvent(System::Action_1<HMUI::TableView*>* value);
     // public System.Void add_didInsertCellsEvent(System.Action`1<HMUI.TableView> value)
-    // Offset: 0x21776D0
+    // Offset: 0x1087554
     void add_didInsertCellsEvent(System::Action_1<HMUI::TableView*>* value);
     // public System.Void remove_didInsertCellsEvent(System.Action`1<HMUI.TableView> value)
-    // Offset: 0x2177774
+    // Offset: 0x10875F8
     void remove_didInsertCellsEvent(System::Action_1<HMUI::TableView*>* value);
     // public System.Void add_didDeleteCellsEvent(System.Action`1<HMUI.TableView> value)
-    // Offset: 0x2177818
+    // Offset: 0x108769C
     void add_didDeleteCellsEvent(System::Action_1<HMUI::TableView*>* value);
     // public System.Void remove_didDeleteCellsEvent(System.Action`1<HMUI.TableView> value)
-    // Offset: 0x21778BC
+    // Offset: 0x1087740
     void remove_didDeleteCellsEvent(System::Action_1<HMUI::TableView*>* value);
     // public System.Void add_didChangeRectSize(System.Action`1<HMUI.TableView> value)
-    // Offset: 0x2177960
+    // Offset: 0x10877E4
     void add_didChangeRectSize(System::Action_1<HMUI::TableView*>* value);
     // public System.Void remove_didChangeRectSize(System.Action`1<HMUI.TableView> value)
-    // Offset: 0x2177A04
+    // Offset: 0x1087888
     void remove_didChangeRectSize(System::Action_1<HMUI::TableView*>* value);
     // public HMUI.TableView/IDataSource get_dataSource()
-    // Offset: 0x2177AA8
+    // Offset: 0x108792C
     HMUI::TableView::IDataSource* get_dataSource();
     // public System.Void SetDataSource(HMUI.TableView/IDataSource newDataSource, System.Boolean reloadData)
-    // Offset: 0x2177AB0
+    // Offset: 0x1087934
     void SetDataSource(HMUI::TableView::IDataSource* newDataSource, bool reloadData);
     // public System.Collections.Generic.IEnumerable`1<HMUI.TableCell> get_visibleCells()
-    // Offset: 0x2177AF4
+    // Offset: 0x1087978
     System::Collections::Generic::IEnumerable_1<HMUI::TableCell*>* get_visibleCells();
     // public UnityEngine.RectTransform get_viewportTransform()
-    // Offset: 0x2177AFC
+    // Offset: 0x1087980
     UnityEngine::RectTransform* get_viewportTransform();
     // public UnityEngine.RectTransform get_contentTransform()
-    // Offset: 0x2177B04
+    // Offset: 0x1087988
     UnityEngine::RectTransform* get_contentTransform();
     // public UnityEngine.UI.ScrollRect get_scrollRect()
-    // Offset: 0x2177B0C
+    // Offset: 0x1087990
     UnityEngine::UI::ScrollRect* get_scrollRect();
     // public System.Single get_cellSize()
-    // Offset: 0x2177B1C
+    // Offset: 0x10879A0
     float get_cellSize();
     // public HMUI.TableView/TableType get_tableType()
-    // Offset: 0x2177B24
+    // Offset: 0x10879A8
     HMUI::TableView::TableType get_tableType();
     // protected System.Void Awake()
-    // Offset: 0x2177B2C
+    // Offset: 0x10879B0
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x21781BC
+    // Offset: 0x1088040
     void OnEnable();
     // private System.Void LazyInit()
-    // Offset: 0x2177B3C
+    // Offset: 0x10879C0
     void LazyInit();
     // public System.Void Hide()
-    // Offset: 0x2178D18
+    // Offset: 0x1088B9C
     void Hide();
     // public System.Void Show()
-    // Offset: 0x2178D40
+    // Offset: 0x1088BC4
     void Show();
     // private System.Void RefreshContentSize()
-    // Offset: 0x2178D68
+    // Offset: 0x1088BEC
     void RefreshContentSize();
     // public System.Void RefreshCellsContent()
-    // Offset: 0x2178DE0
+    // Offset: 0x1088C64
     void RefreshCellsContent();
     // protected System.Tuple`2<System.Int32,System.Int32> GetVisibleCellsIdRange()
-    // Offset: 0x2178DEC
+    // Offset: 0x1088C70
     System::Tuple_2<int, int>* GetVisibleCellsIdRange();
     // private System.Void RefreshCells(System.Boolean forcedVisualsRefresh, System.Boolean forcedContentRefresh)
-    // Offset: 0x2178220
+    // Offset: 0x10880A4
     void RefreshCells(bool forcedVisualsRefresh, bool forcedContentRefresh);
     // private System.Void LayoutCellForIdx(HMUI.TableCell cell, System.Int32 idx, System.Single offset)
-    // Offset: 0x21790AC
+    // Offset: 0x1088F30
     void LayoutCellForIdx(HMUI::TableCell* cell, int idx, float offset);
     // private System.Void AddCellToReusableCells(HMUI.TableCell cell)
-    // Offset: 0x2178FB8
+    // Offset: 0x1088E3C
     void AddCellToReusableCells(HMUI::TableCell* cell);
     // private System.Void HandleScrollRectValueChanged(UnityEngine.Vector2 pos)
-    // Offset: 0x21792F8
+    // Offset: 0x108917C
     void HandleScrollRectValueChanged(UnityEngine::Vector2 pos);
     // private System.Void HandleCellSelectionDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/TransitionType transitionType, System.Object changeOwner)
-    // Offset: 0x2179304
+    // Offset: 0x1089188
     void HandleCellSelectionDidChange(HMUI::SelectableCell* selectableCell, HMUI::SelectableCell::TransitionType transitionType, ::Il2CppObject* changeOwner);
     // protected System.Void DidSelectCellWithIdx(System.Int32 idx)
-    // Offset: 0x2179548
+    // Offset: 0x10893CC
     void DidSelectCellWithIdx(int idx);
     // public System.Void ReloadData()
-    // Offset: 0x21726A0
+    // Offset: 0x1082524
     void ReloadData();
     // public System.Void InsertCells(System.Int32 idx, System.Int32 count)
-    // Offset: 0x2172C70
+    // Offset: 0x1082AF4
     void InsertCells(int idx, int count);
     // public System.Void DeleteCells(System.Int32 idx, System.Int32 count)
-    // Offset: 0x217305C
+    // Offset: 0x1082EE0
     void DeleteCells(int idx, int count);
     // public HMUI.TableCell DequeueReusableCellForIdentifier(System.String identifier)
-    // Offset: 0x21751A4
+    // Offset: 0x1085028
     HMUI::TableCell* DequeueReusableCellForIdentifier(::Il2CppString* identifier);
     // public System.Void SelectCellWithIdx(System.Int32 idx, System.Boolean callbackTable)
-    // Offset: 0x21795C0
+    // Offset: 0x1089444
     void SelectCellWithIdx(int idx, bool callbackTable);
     // public System.Void ClearSelection()
-    // Offset: 0x2179730
+    // Offset: 0x10895B4
     void ClearSelection();
     // public System.Void ClearHighlights()
-    // Offset: 0x2178780
+    // Offset: 0x1088604
     void ClearHighlights();
     // public System.Void ScrollToCellWithIdx(System.Int32 idx, HMUI.TableViewScroller/ScrollPositionType scrollPositionType, System.Boolean animated)
-    // Offset: 0x21733BC
+    // Offset: 0x1083240
     void ScrollToCellWithIdx(int idx, HMUI::TableViewScroller::ScrollPositionType scrollPositionType, bool animated);
     // public System.Void ChangeRectSize(UnityEngine.RectTransform/Axis axis, System.Single size)
-    // Offset: 0x2179A34
+    // Offset: 0x10898B8
     void ChangeRectSize(UnityEngine::RectTransform::Axis axis, float size);
     // public HMUI.TableViewSelectionType get_selectionType()
-    // Offset: 0x2177428
+    // Offset: 0x10872AC
     // Implemented from: HMUI.ITableCellOwner
     // Base method: HMUI.TableViewSelectionType ITableCellOwner::get_selectionType()
     HMUI::TableViewSelectionType get_selectionType();
     // public System.Boolean get_canSelectSelectedCell()
-    // Offset: 0x2177438
+    // Offset: 0x10872BC
     // Implemented from: HMUI.ITableCellOwner
     // Base method: System.Boolean ITableCellOwner::get_canSelectSelectedCell()
     bool get_canSelectSelectedCell();
     // public System.Int32 get_numberOfCells()
-    // Offset: 0x2177B14
+    // Offset: 0x1087998
     // Implemented from: HMUI.ITableCellOwner
     // Base method: System.Int32 ITableCellOwner::get_numberOfCells()
     int get_numberOfCells();
     // public System.Void .ctor()
-    // Offset: 0x2173410
+    // Offset: 0x1083294
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

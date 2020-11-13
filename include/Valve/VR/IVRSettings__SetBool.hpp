@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRSettings::_SetBool : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1CA7F10
+    // Offset: 0x19260E8
     static IVRSettings::_SetBool* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.String pchSection, System.String pchSettingsKey, System.Boolean bValue, ref Valve.VR.EVRSettingsError peError)
-    // Offset: 0x1CA7F24
+    // Offset: 0x19260FC
     void Invoke(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, bool bValue, Valve::VR::EVRSettingsError& peError);
     // public System.IAsyncResult BeginInvoke(System.String pchSection, System.String pchSettingsKey, System.Boolean bValue, ref Valve.VR.EVRSettingsError peError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1CA8374
+    // Offset: 0x192654C
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, bool bValue, Valve::VR::EVRSettingsError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(ref Valve.VR.EVRSettingsError peError, System.IAsyncResult result)
-    // Offset: 0x1CA8440
+    // Offset: 0x1926618
     void EndInvoke(Valve::VR::EVRSettingsError& peError, System::IAsyncResult* result);
   }; // Valve.VR.IVRSettings/_SetBool
 }

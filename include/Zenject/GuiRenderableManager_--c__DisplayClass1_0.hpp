@@ -39,10 +39,10 @@ namespace Zenject {
       return renderable;
     }
     // System.Boolean <.ctor>b__1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x122A288
+    // Offset: 0x129F340
     bool $_ctor$b__1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // public System.Void .ctor()
-    // Offset: 0x1229EA8
+    // Offset: 0x129EF60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GuiRenderableManager::$$c__DisplayClass1_0* New_ctor();

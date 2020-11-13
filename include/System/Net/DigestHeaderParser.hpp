@@ -28,37 +28,37 @@ namespace System::Net {
     // Set static field: static private System.String[] keywords
     static void _set_keywords(::Array<::Il2CppString*>* value);
     // public System.Void .ctor(System.String header)
-    // Offset: 0x12B6FF4
+    // Offset: 0x13167E0
     static DigestHeaderParser* New_ctor(::Il2CppString* header);
     // public System.String get_Realm()
-    // Offset: 0x12B70C0
+    // Offset: 0x13168AC
     ::Il2CppString* get_Realm();
     // public System.String get_Opaque()
-    // Offset: 0x12B70F4
+    // Offset: 0x13168E0
     ::Il2CppString* get_Opaque();
     // public System.String get_Nonce()
-    // Offset: 0x12B712C
+    // Offset: 0x1316918
     ::Il2CppString* get_Nonce();
     // public System.String get_Algorithm()
-    // Offset: 0x12B7164
+    // Offset: 0x1316950
     ::Il2CppString* get_Algorithm();
     // public System.String get_QOP()
-    // Offset: 0x12B719C
+    // Offset: 0x1316988
     ::Il2CppString* get_QOP();
     // public System.Boolean Parse()
-    // Offset: 0x12B71D4
+    // Offset: 0x13169C0
     bool Parse();
     // private System.Void SkipWhitespace()
-    // Offset: 0x12B7598
+    // Offset: 0x1316D84
     void SkipWhitespace();
     // private System.String GetKey()
-    // Offset: 0x12B7624
+    // Offset: 0x1316E10
     ::Il2CppString* GetKey();
     // private System.Boolean GetKeywordAndValue(out System.String key, out System.String value)
-    // Offset: 0x12B73C8
+    // Offset: 0x1316BB4
     bool GetKeywordAndValue(::Il2CppString*& key, ::Il2CppString*& value);
     // static private System.Void .cctor()
-    // Offset: 0x12B76B8
+    // Offset: 0x1316EA4
     static void _cctor();
   }; // System.Net.DigestHeaderParser
 }

@@ -43,18 +43,18 @@ namespace System {
       return *reinterpret_cast<System::Threading::IThreadPoolWorkItem*>(this);
     }
     // public System.Void .ctor(System.IOOperation operation, System.IOAsyncCallback callback, System.IOAsyncResult state)
-    // Offset: 0x14F2058
+    // Offset: 0x1490E58
     static IOSelectorJob* New_ctor(System::IOOperation operation, System::IOAsyncCallback* callback, System::IOAsyncResult* state);
     // public System.Void MarkDisposed()
-    // Offset: 0x14F20D4
+    // Offset: 0x1490ED4
     void MarkDisposed();
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0x14F20B0
+    // Offset: 0x1490EB0
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::ExecuteWorkItem()
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x14F20D0
+    // Offset: 0x1490ED0
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);

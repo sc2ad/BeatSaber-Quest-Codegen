@@ -46,13 +46,13 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* intersectingObstacles;
     // public System.Collections.Generic.List`1<ObstacleController> get_intersectingObstacles()
-    // Offset: 0x208C2E0
+    // Offset: 0xF27C94
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* get_intersectingObstacles();
     // private System.Void GetObstaclesContainingPoint(UnityEngine.Vector3 worldPos, System.Collections.Generic.List`1<ObstacleController> obstacleControllers)
-    // Offset: 0x208C350
+    // Offset: 0xF27D04
     void GetObstaclesContainingPoint(UnityEngine::Vector3 worldPos, System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* obstacleControllers);
     // public System.Void .ctor()
-    // Offset: 0x208C510
+    // Offset: 0xF27EC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerHeadAndObstacleInteraction* New_ctor();

@@ -30,12 +30,12 @@ namespace System::Net {
       return *reinterpret_cast<System::Net::IWebRequestCreate*>(this);
     }
     // System.Void .ctor()
-    // Offset: 0x123F57C
+    // Offset: 0x12B4678
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HttpRequestCreator* New_ctor();
     // public System.Net.WebRequest Create(System.Uri uri)
-    // Offset: 0x123F584
+    // Offset: 0x12B4680
     // Implemented from: System.Net.IWebRequestCreate
     // Base method: System.Net.WebRequest IWebRequestCreate::Create(System.Uri uri)
     System::Net::WebRequest* Create(System::Uri* uri);

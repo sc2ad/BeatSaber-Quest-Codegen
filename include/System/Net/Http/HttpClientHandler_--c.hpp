@@ -37,16 +37,16 @@ namespace System::Net::Http {
     // Set static field: static public System.Action`1<System.Object> <>9__64_0
     static void _set_$$9__64_0(System::Action_1<::Il2CppObject*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1183BD4
+    // Offset: 0x120DF64
     static void _cctor();
     // System.Boolean <CreateWebRequest>b__61_0(System.String l)
-    // Offset: 0x1183C44
+    // Offset: 0x120DFD4
     bool $CreateWebRequest$b__61_0(::Il2CppString* l);
     // System.Void <SendAsync>b__64_0(System.Object l)
-    // Offset: 0x1183C98
+    // Offset: 0x120E028
     void $SendAsync$b__64_0(::Il2CppObject* l);
     // public System.Void .ctor()
-    // Offset: 0x1183C3C
+    // Offset: 0x120DFCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HttpClientHandler::$$c* New_ctor();

@@ -39,7 +39,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void AutoMapping();
     // public System.Void UpdateManual()
-    // Offset: 0x168EE90
+    // Offset: 0x15E2A54
     void UpdateManual();
     // protected System.Void InitiatePoser()
     // Offset: 0xFFFFFFFF
@@ -51,22 +51,22 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void FixPoserTransforms();
     // protected override System.Void UpdateSolver()
-    // Offset: 0x168EE9C
+    // Offset: 0x15E2A60
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::UpdateSolver()
     void UpdateSolver();
     // protected override System.Void InitiateSolver()
-    // Offset: 0x168EEF0
+    // Offset: 0x15E2AB4
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::InitiateSolver()
     void InitiateSolver();
     // protected override System.Void FixTransforms()
-    // Offset: 0x168EF2C
+    // Offset: 0x15E2AF0
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::FixTransforms()
     void FixTransforms();
     // protected System.Void .ctor()
-    // Offset: 0x168EF44
+    // Offset: 0x15E2B08
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

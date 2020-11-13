@@ -41,16 +41,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Init(ExternalCamerasManager/InitData initData)
-    // Offset: 0x1EF2568
+    // Offset: 0x1989180
     void Init(GlobalNamespace::ExternalCamerasManager::InitData* initData);
     // private UnityEngine.GameObject InstantiateMixedRealityBackgroundCameraGameObject(UnityEngine.Camera mainCamera)
-    // Offset: 0x1EF2650
+    // Offset: 0x1989268
     UnityEngine::GameObject* InstantiateMixedRealityBackgroundCameraGameObject(UnityEngine::Camera* mainCamera);
     // private UnityEngine.GameObject InstantiateMixedRealityForegroundCameraGameObject(UnityEngine.Camera mainCamera)
-    // Offset: 0x1EF26D4
+    // Offset: 0x19892EC
     UnityEngine::GameObject* InstantiateMixedRealityForegroundCameraGameObject(UnityEngine::Camera* mainCamera);
     // public System.Void .ctor()
-    // Offset: 0x1EF2758
+    // Offset: 0x1989370
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -29,10 +29,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return b;
     }
     // System.Boolean <SewUVs>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> x)
-    // Offset: 0x1357240
+    // Offset: 0x13976CC
     bool $SewUVs$b__0(System::Collections::Generic::KeyValuePair_2<int, int> x);
     // public System.Void .ctor()
-    // Offset: 0x13557F8
+    // Offset: 0x1395C84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UVEditing::$$c__DisplayClass13_0* New_ctor();

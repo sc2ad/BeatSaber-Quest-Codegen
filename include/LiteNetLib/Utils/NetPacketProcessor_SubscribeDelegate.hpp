@@ -31,16 +31,16 @@ namespace LiteNetLib::Utils {
   class NetPacketProcessor::SubscribeDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F645C8
+    // Offset: 0x22B56D4
     static NetPacketProcessor::SubscribeDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(LiteNetLib.Utils.NetDataReader reader, System.Object userData)
-    // Offset: 0x1F641C4
+    // Offset: 0x22B52D0
     void Invoke(LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData);
     // public System.IAsyncResult BeginInvoke(LiteNetLib.Utils.NetDataReader reader, System.Object userData, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F645DC
+    // Offset: 0x22B56E8
     System::IAsyncResult* BeginInvoke(LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F6460C
+    // Offset: 0x22B5718
     void EndInvoke(System::IAsyncResult* result);
   }; // LiteNetLib.Utils.NetPacketProcessor/SubscribeDelegate
 }

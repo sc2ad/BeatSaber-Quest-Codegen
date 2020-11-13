@@ -30,12 +30,12 @@ namespace System::Net {
       return *reinterpret_cast<System::Net::IWebRequestCreate*>(this);
     }
     // public System.Net.WebRequest Create(System.Uri uri)
-    // Offset: 0x12C13E8
+    // Offset: 0x1320BD4
     // Implemented from: System.Net.IWebRequestCreate
     // Base method: System.Net.WebRequest IWebRequestCreate::Create(System.Uri uri)
     System::Net::WebRequest* Create(System::Uri* uri);
     // public System.Void .ctor()
-    // Offset: 0x12C1558
+    // Offset: 0x1320D44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FtpRequestCreator* New_ctor();

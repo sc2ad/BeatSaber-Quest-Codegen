@@ -28,7 +28,7 @@ namespace System::Security::Cryptography {
     // Offset: 0xFFFFFFFF
     bool VerifySignature(::Array<uint8_t>* rgbHash, ::Array<uint8_t>* rgbSignature);
     // protected System.Void .ctor()
-    // Offset: 0x146CB58
+    // Offset: 0x1456F64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AsymmetricSignatureDeformatter* New_ctor();

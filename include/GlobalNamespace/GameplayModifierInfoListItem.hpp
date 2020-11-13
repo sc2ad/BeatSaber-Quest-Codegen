@@ -39,13 +39,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_modifierIcon(UnityEngine.Sprite value)
-    // Offset: 0x20037A4
+    // Offset: 0x1A1D990
     void set_modifierIcon(UnityEngine::Sprite* value);
     // public System.Void set_hoverHintText(System.String value)
-    // Offset: 0x20037C0
+    // Offset: 0x1A1D9AC
     void set_hoverHintText(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x200758C
+    // Offset: 0x1A2188C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

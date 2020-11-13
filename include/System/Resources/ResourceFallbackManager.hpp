@@ -50,13 +50,13 @@ namespace System::Resources {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<System::Globalization::CultureInfo*>*>(this);
     }
     // System.Void .ctor(System.Globalization.CultureInfo startingCulture, System.Globalization.CultureInfo neutralResourcesCulture, System.Boolean useParents)
-    // Offset: 0x16811A8
+    // Offset: 0x15D5D6C
     static ResourceFallbackManager* New_ctor(System::Globalization::CultureInfo* startingCulture, System::Globalization::CultureInfo* neutralResourcesCulture, bool useParents);
     // public System.Collections.Generic.IEnumerator`1<System.Globalization.CultureInfo> GetEnumerator()
-    // Offset: 0x1681278
+    // Offset: 0x15D5E3C
     System::Collections::Generic::IEnumerator_1<System::Globalization::CultureInfo*>* GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1681274
+    // Offset: 0x15D5E38
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

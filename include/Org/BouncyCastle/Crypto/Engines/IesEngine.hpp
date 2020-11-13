@@ -61,19 +61,19 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Offset: 0x50
     Org::BouncyCastle::Crypto::Parameters::IesParameters* param;
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBasicAgreement agree, Org.BouncyCastle.Crypto.IDerivationFunction kdf, Org.BouncyCastle.Crypto.IMac mac)
-    // Offset: 0x197248C
+    // Offset: 0x17D2E24
     static IesEngine* New_ctor(Org::BouncyCastle::Crypto::IBasicAgreement* agree, Org::BouncyCastle::Crypto::IDerivationFunction* kdf, Org::BouncyCastle::Crypto::IMac* mac);
     // private System.Byte[] DecryptBlock(System.Byte[] in_enc, System.Int32 inOff, System.Int32 inLen, System.Byte[] z)
-    // Offset: 0x19725BC
+    // Offset: 0x17D2F54
     ::Array<uint8_t>* DecryptBlock(::Array<uint8_t>* in_enc, int inOff, int inLen, ::Array<uint8_t>* z);
     // private System.Byte[] EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen, System.Byte[] z)
-    // Offset: 0x1972DD0
+    // Offset: 0x17D3768
     ::Array<uint8_t>* EncryptBlock(::Array<uint8_t>* input, int inOff, int inLen, ::Array<uint8_t>* z);
     // private System.Byte[] GenerateKdfBytes(Org.BouncyCastle.Crypto.Parameters.KdfParameters kParam, System.Int32 length)
-    // Offset: 0x1972C64
+    // Offset: 0x17D35FC
     ::Array<uint8_t>* GenerateKdfBytes(Org::BouncyCastle::Crypto::Parameters::KdfParameters* kParam, int length);
     // public System.Byte[] ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x19733D4
+    // Offset: 0x17D3D6C
     ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* input, int inOff, int inLen);
   }; // Org.BouncyCastle.Crypto.Engines.IesEngine
 }

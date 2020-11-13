@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x13
     bool randomSongIfNoneSuggested;
     // public System.Void .ctor()
-    // Offset: 0x20310F4
+    // Offset: 0x1A42E70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AutoSetupData* New_ctor();

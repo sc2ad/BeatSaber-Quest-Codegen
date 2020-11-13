@@ -20,82 +20,82 @@ namespace Org::BouncyCastle::Utilities {
     // Set static field: static public readonly System.Int32[] EmptyInts
     static void _set_EmptyInts(::Array<int>* value);
     // static public System.Boolean AreEqual(System.Byte[] a, System.Byte[] b)
-    // Offset: 0xFD4840
+    // Offset: 0x10D01E8
     static bool AreEqual(::Array<uint8_t>* a, ::Array<uint8_t>* b);
     // static public System.Boolean ConstantTimeAreEqual(System.Byte[] a, System.Byte[] b)
-    // Offset: 0xFE4478
+    // Offset: 0x10DFE20
     static bool ConstantTimeAreEqual(::Array<uint8_t>* a, ::Array<uint8_t>* b);
     // static public System.Boolean ConstantTimeAreEqual(System.Int32 len, System.Byte[] a, System.Int32 aOff, System.Byte[] b, System.Int32 bOff)
-    // Offset: 0xFE459C
+    // Offset: 0x10DFF44
     static bool ConstantTimeAreEqual(int len, ::Array<uint8_t>* a, int aOff, ::Array<uint8_t>* b, int bOff);
     // static public System.Boolean AreEqual(System.Int32[] a, System.Int32[] b)
-    // Offset: 0xFE4790
+    // Offset: 0x10E0138
     static bool AreEqual(::Array<int>* a, ::Array<int>* b);
     // static public System.Boolean AreEqual(System.UInt32[] a, System.UInt32[] b)
-    // Offset: 0xFE48A4
+    // Offset: 0x10E024C
     static bool AreEqual(::Array<uint>* a, ::Array<uint>* b);
     // static private System.Boolean HaveSameContents(System.Byte[] a, System.Byte[] b)
-    // Offset: 0xFE4400
+    // Offset: 0x10DFDA8
     static bool HaveSameContents(::Array<uint8_t>* a, ::Array<uint8_t>* b);
     // static private System.Boolean HaveSameContents(System.Int32[] a, System.Int32[] b)
-    // Offset: 0xFE482C
+    // Offset: 0x10E01D4
     static bool HaveSameContents(::Array<int>* a, ::Array<int>* b);
     // static private System.Boolean HaveSameContents(System.UInt32[] a, System.UInt32[] b)
-    // Offset: 0xFE4940
+    // Offset: 0x10E02E8
     static bool HaveSameContents(::Array<uint>* a, ::Array<uint>* b);
     // static public System.Int32 GetHashCode(System.Byte[] data)
-    // Offset: 0xFE49B8
+    // Offset: 0x10E0360
     static int GetHashCode(::Array<uint8_t>* data);
     // static public System.Int32 GetHashCode(System.Int32[] data)
-    // Offset: 0xFE4A18
+    // Offset: 0x10E03C0
     static int GetHashCode(::Array<int>* data);
     // static public System.Int32 GetHashCode(System.UInt32[] data, System.Int32 off, System.Int32 len)
-    // Offset: 0xFE4A78
+    // Offset: 0x10E0420
     static int GetHashCode(::Array<uint>* data, int off, int len);
     // static public System.Int32 GetHashCode(System.UInt64[] data, System.Int32 off, System.Int32 len)
-    // Offset: 0xFE4AD4
+    // Offset: 0x10E047C
     static int GetHashCode(::Array<uint64_t>* data, int off, int len);
     // static public System.Byte[] Clone(System.Byte[] data)
-    // Offset: 0xFE4B38
+    // Offset: 0x10E04E0
     static ::Array<uint8_t>* Clone(::Array<uint8_t>* data);
     // static public System.Int32[] Clone(System.Int32[] data)
-    // Offset: 0xFE4BB8
+    // Offset: 0x10E0560
     static ::Array<int>* Clone(::Array<int>* data);
     // static public System.UInt32[] Clone(System.UInt32[] data)
-    // Offset: 0xFE4C38
+    // Offset: 0x10E05E0
     static ::Array<uint>* Clone(::Array<uint>* data);
     // static public System.Int64[] Clone(System.Int64[] data)
-    // Offset: 0xFE4CB8
+    // Offset: 0x10E0660
     static ::Array<int64_t>* Clone(::Array<int64_t>* data);
     // static public System.UInt64[] Clone(System.UInt64[] data)
-    // Offset: 0xFE4D38
+    // Offset: 0x10E06E0
     static ::Array<uint64_t>* Clone(::Array<uint64_t>* data);
     // static public System.Boolean Contains(System.Byte[] a, System.Byte n)
-    // Offset: 0xFE4DB8
+    // Offset: 0x10E0760
     static bool Contains(::Array<uint8_t>* a, uint8_t n);
     // static public System.Void Fill(System.Byte[] buf, System.Byte b)
-    // Offset: 0xFE4E1C
+    // Offset: 0x10E07C4
     static void Fill(::Array<uint8_t>* buf, uint8_t b);
     // static public System.Void Fill(System.Byte[] buf, System.Int32 from, System.Int32 to, System.Byte b)
-    // Offset: 0xFE4E84
+    // Offset: 0x10E082C
     static void Fill(::Array<uint8_t>* buf, int from, int to, uint8_t b);
     // static public System.Byte[] CopyOfRange(System.Byte[] data, System.Int32 from, System.Int32 to)
-    // Offset: 0xFE4EE0
+    // Offset: 0x10E0888
     static ::Array<uint8_t>* CopyOfRange(::Array<uint8_t>* data, int from, int to);
     // static private System.Int32 GetLength(System.Int32 from, System.Int32 to)
-    // Offset: 0xFE4FD8
+    // Offset: 0x10E0980
     static int GetLength(int from, int to);
     // static public System.Byte[] Prepend(System.Byte[] a, System.Byte b)
-    // Offset: 0xFE50B0
+    // Offset: 0x10E0A58
     static ::Array<uint8_t>* Prepend(::Array<uint8_t>* a, uint8_t b);
     // static public System.Byte[] Reverse(System.Byte[] a)
-    // Offset: 0xFD6470
+    // Offset: 0x10D1E18
     static ::Array<uint8_t>* Reverse(::Array<uint8_t>* a);
     // static public System.Boolean IsNullOrContainsNull(System.Object[] array)
-    // Offset: 0xFE517C
+    // Offset: 0x10E0B24
     static bool IsNullOrContainsNull(::Array<::Il2CppObject*>* array);
     // static private System.Void .cctor()
-    // Offset: 0xFE51B8
+    // Offset: 0x10E0B60
     static void _cctor();
   }; // Org.BouncyCastle.Utilities.Arrays
 }

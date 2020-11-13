@@ -27,21 +27,21 @@ namespace HMUI {
     // Offset: 0x40
     HMUI::SegmentedControl* segmentedControl;
     // public System.Int32 get_cellNumber()
-    // Offset: 0x217431C
+    // Offset: 0x10841A0
     int get_cellNumber();
     // private System.Void set_cellNumber(System.Int32 value)
-    // Offset: 0x2174324
+    // Offset: 0x10841A8
     void set_cellNumber(int value);
     // public System.Void SegmentedControlSetup(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0x2173D5C
+    // Offset: 0x1083BE0
     void SegmentedControlSetup(HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // protected override System.Void InternalToggle()
-    // Offset: 0x217432C
+    // Offset: 0x10841B0
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::InternalToggle()
     void InternalToggle();
     // public System.Void .ctor()
-    // Offset: 0x217434C
+    // Offset: 0x10841D0
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::.ctor()
     // Base method: System.Void Interactable::.ctor()

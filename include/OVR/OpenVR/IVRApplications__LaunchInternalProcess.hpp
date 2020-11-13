@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRApplications::_LaunchInternalProcess : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1159BEC
+    // Offset: 0x11FA8AC
     static IVRApplications::_LaunchInternalProcess* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRApplicationError Invoke(System.String pchBinaryPath, System.String pchArguments, System.String pchWorkingDirectory)
-    // Offset: 0x114E958
+    // Offset: 0x11EF618
     OVR::OpenVR::EVRApplicationError Invoke(::Il2CppString* pchBinaryPath, ::Il2CppString* pchArguments, ::Il2CppString* pchWorkingDirectory);
     // public System.IAsyncResult BeginInvoke(System.String pchBinaryPath, System.String pchArguments, System.String pchWorkingDirectory, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1159C00
+    // Offset: 0x11FA8C0
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchBinaryPath, ::Il2CppString* pchArguments, ::Il2CppString* pchWorkingDirectory, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRApplicationError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1159C30
+    // Offset: 0x11FA8F0
     OVR::OpenVR::EVRApplicationError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRApplications/_LaunchInternalProcess
 }

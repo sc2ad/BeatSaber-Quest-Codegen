@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>* colorSchemes;
     // public System.Void .ctor(System.Boolean overrideDefaultColors, System.String selectedColorSchemeId, System.Collections.Generic.List`1<PlayerSaveData/ColorScheme> colorSchemes)
-    // Offset: 0x2089A60
+    // Offset: 0xF252CC
     static PlayerSaveData::ColorSchemesSettings* New_ctor(bool overrideDefaultColors, ::Il2CppString* selectedColorSchemeId, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>* colorSchemes);
   }; // PlayerSaveData/ColorSchemesSettings
 }

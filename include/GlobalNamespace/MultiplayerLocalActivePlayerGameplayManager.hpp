@@ -69,40 +69,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
-    // Offset: 0x20493E4
+    // Offset: 0xF6DBF4
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x2049844
+    // Offset: 0xF6E054
     void OnDisable();
     // private System.Void PerformPlayerFail()
-    // Offset: 0x2049D6C
+    // Offset: 0xF6E57C
     void PerformPlayerFail();
     // private System.Void HandleGameEnergyDidReach0()
-    // Offset: 0x2049F6C
+    // Offset: 0xF6E77C
     void HandleGameEnergyDidReach0();
     // private System.Void HandleInGameMenuControllerDidGiveUp()
-    // Offset: 0x2049F70
+    // Offset: 0xF6E780
     void HandleInGameMenuControllerDidGiveUp();
     // private System.Void HandleInGameMenuControllerRequestsDisconnect()
-    // Offset: 0x2049F74
+    // Offset: 0xF6E784
     void HandleInGameMenuControllerRequestsDisconnect();
     // private System.Void HandleSongDidFinish()
-    // Offset: 0x204A1A4
+    // Offset: 0xF6E9B4
     void HandleSongDidFinish();
     // private System.Void HandleLevelEndedEarly(System.String userId)
-    // Offset: 0x204A3A4
+    // Offset: 0xF6EBB4
     void HandleLevelEndedEarly(::Il2CppString* userId);
     // private System.Void HandleHmdUnmounted()
-    // Offset: 0x204A3A8
+    // Offset: 0xF6EBB8
     void HandleHmdUnmounted();
     // private System.Void HandleInputFocusWasCaptured()
-    // Offset: 0x204A3AC
+    // Offset: 0xF6EBBC
     void HandleInputFocusWasCaptured();
     // private System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x204A3B0
+    // Offset: 0xF6EBC0
     void OnApplicationFocus(bool hasFocus);
     // public System.Void .ctor()
-    // Offset: 0x204A3BC
+    // Offset: 0xF6EBCC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

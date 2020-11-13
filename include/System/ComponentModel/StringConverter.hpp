@@ -14,7 +14,7 @@ namespace System::ComponentModel {
   class StringConverter : public System::ComponentModel::TypeConverter {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14E2D60
+    // Offset: 0x1481B60
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Void TypeConverter::.ctor()
     // Base method: System.Void Object::.ctor()

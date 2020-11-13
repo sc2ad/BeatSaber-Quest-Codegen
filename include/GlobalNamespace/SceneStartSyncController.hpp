@@ -70,40 +70,40 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kLoadSelfTimeout
     static void _set_kLoadSelfTimeout(float value);
     // public System.Void add_syncStartDidSuccessEvent(System.Action value)
-    // Offset: 0x207C030
+    // Offset: 0xFC5F38
     void add_syncStartDidSuccessEvent(System::Action* value);
     // public System.Void remove_syncStartDidSuccessEvent(System.Action value)
-    // Offset: 0x207C0D4
+    // Offset: 0xFC5FDC
     void remove_syncStartDidSuccessEvent(System::Action* value);
     // public System.Void add_syncStartDidReceiveTooLateEvent(System.Action value)
-    // Offset: 0x207C178
+    // Offset: 0xFC6080
     void add_syncStartDidReceiveTooLateEvent(System::Action* value);
     // public System.Void remove_syncStartDidReceiveTooLateEvent(System.Action value)
-    // Offset: 0x207C21C
+    // Offset: 0xFC6124
     void remove_syncStartDidReceiveTooLateEvent(System::Action* value);
     // public System.Void add_syncStartDidFailEvent(System.Action value)
-    // Offset: 0x207C2C0
+    // Offset: 0xFC61C8
     void add_syncStartDidFailEvent(System::Action* value);
     // public System.Void remove_syncStartDidFailEvent(System.Action value)
-    // Offset: 0x207C364
+    // Offset: 0xFC626C
     void remove_syncStartDidFailEvent(System::Action* value);
     // public System.Void StartSceneLoadSync()
-    // Offset: 0x207C408
+    // Offset: 0xFC6310
     void StartSceneLoadSync();
     // protected System.Void Update()
-    // Offset: 0x207C538
+    // Offset: 0xFC6440
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0x207C6F0
+    // Offset: 0xFC65F8
     void OnDestroy();
     // private System.Void HandleSceneSetupDidFinish()
-    // Offset: 0x207C7D8
+    // Offset: 0xFC66E0
     void HandleSceneSetupDidFinish();
     // private System.Void HandleSceneSetupDidReceiveTooLate()
-    // Offset: 0x207C818
+    // Offset: 0xFC6720
     void HandleSceneSetupDidReceiveTooLate();
     // public System.Void .ctor()
-    // Offset: 0x207C858
+    // Offset: 0xFC6760
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

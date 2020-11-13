@@ -18,13 +18,13 @@ namespace System::Net::Http::Headers {
     // Set static field: static public readonly System.Net.Http.Headers.Parser/DateTime/<>c <>9
     static void _set_$$9(System::Net::Http::Headers::Parser::DateTime::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x117C4A0
+    // Offset: 0x1206830
     static void _cctor();
     // System.String <.cctor>b__2_0(System.Object l)
-    // Offset: 0x117C510
+    // Offset: 0x12068A0
     ::Il2CppString* $_cctor$b__2_0(::Il2CppObject* l);
     // public System.Void .ctor()
-    // Offset: 0x117C508
+    // Offset: 0x1206898
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Parser::DateTime::$$c* New_ctor();

@@ -61,37 +61,37 @@ namespace RootMotion::FinalIK {
     // Offset: 0x50
     UnityEngine::Transform* root;
     // public System.Boolean IsValid()
-    // Offset: 0x1847DE4
+    // Offset: 0x170F48C
     bool IsValid();
     // public System.Boolean IsValid(ref System.String message)
     // Offset: 0xFFFFFFFF
     bool IsValid(::Il2CppString*& message);
     // public System.Void Initiate(UnityEngine.Transform root)
-    // Offset: 0x18403E0
+    // Offset: 0x1707A88
     void Initiate(UnityEngine::Transform* root);
     // public System.Void Update()
-    // Offset: 0x1840300
+    // Offset: 0x17079A8
     void Update();
     // public UnityEngine.Vector3 GetIKPosition()
-    // Offset: 0x1847E60
+    // Offset: 0x170F508
     UnityEngine::Vector3 GetIKPosition();
     // public System.Void SetIKPosition(UnityEngine.Vector3 position)
-    // Offset: 0x1847E6C
+    // Offset: 0x170F514
     void SetIKPosition(UnityEngine::Vector3 position);
     // public System.Single GetIKPositionWeight()
-    // Offset: 0x1847E78
+    // Offset: 0x170F520
     float GetIKPositionWeight();
     // public System.Void SetIKPositionWeight(System.Single weight)
-    // Offset: 0x1847E80
+    // Offset: 0x170F528
     void SetIKPositionWeight(float weight);
     // public UnityEngine.Transform GetRoot()
-    // Offset: 0x1847F04
+    // Offset: 0x170F5AC
     UnityEngine::Transform* GetRoot();
     // public System.Boolean get_initiated()
-    // Offset: 0x1847F0C
+    // Offset: 0x170F5B4
     bool get_initiated();
     // private System.Void set_initiated(System.Boolean value)
-    // Offset: 0x1847F14
+    // Offset: 0x170F5BC
     void set_initiated(bool value);
     // public RootMotion.FinalIK.IKSolver/Point[] GetPoints()
     // Offset: 0xFFFFFFFF
@@ -112,19 +112,19 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void OnUpdate();
     // protected System.Void LogWarning(System.String message)
-    // Offset: 0x1847F20
+    // Offset: 0x170F5C8
     void LogWarning(::Il2CppString* message);
     // static public UnityEngine.Transform ContainsDuplicateBone(RootMotion.FinalIK.IKSolver/Bone[] bones)
-    // Offset: 0x1847F38
+    // Offset: 0x170F5E0
     static UnityEngine::Transform* ContainsDuplicateBone(::Array<RootMotion::FinalIK::IKSolver::Bone*>* bones);
     // static public System.Boolean HierarchyIsValid(RootMotion.FinalIK.IKSolver/Bone[] bones)
-    // Offset: 0x1848074
+    // Offset: 0x170F71C
     static bool HierarchyIsValid(::Array<RootMotion::FinalIK::IKSolver::Bone*>* bones);
     // static protected System.Single PreSolveBones(ref RootMotion.FinalIK.IKSolver/Bone[] bones)
-    // Offset: 0x1848120
+    // Offset: 0x170F7C8
     static float PreSolveBones(::Array<RootMotion::FinalIK::IKSolver::Bone*>*& bones);
     // protected System.Void .ctor()
-    // Offset: 0x18484A4
+    // Offset: 0x170FB4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IKSolver* New_ctor();

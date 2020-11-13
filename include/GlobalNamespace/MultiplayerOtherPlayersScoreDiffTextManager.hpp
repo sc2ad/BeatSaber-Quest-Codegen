@@ -62,25 +62,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kUpdateInterval
     static void _set_kUpdateInterval(float value);
     // protected System.Void Start()
-    // Offset: 0x1FD115C
+    // Offset: 0xF7803C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1FD1224
+    // Offset: 0xF78104
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1FD1300
+    // Offset: 0xF781E0
     void Update();
     // private System.Void InitLeftRightPositions()
-    // Offset: 0x1FD1C74
+    // Offset: 0xF78B54
     void InitLeftRightPositions();
     // private System.Void HideAll()
-    // Offset: 0x1FD16C8
+    // Offset: 0xF785A8
     void HideAll();
     // private System.Void HandleStateChanged(MultiplayerController/State newState)
-    // Offset: 0x1FD2178
+    // Offset: 0xF79058
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State newState);
     // public System.Void .ctor()
-    // Offset: 0x1FD2298
+    // Offset: 0xF79178
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

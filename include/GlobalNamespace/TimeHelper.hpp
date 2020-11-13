@@ -35,40 +35,40 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single <interpolationFactor>k__BackingField
     static void _set_$interpolationFactor$k__BackingField(float value);
     // static public System.Single get_time()
-    // Offset: 0x223F138
+    // Offset: 0x19CE7D8
     static float get_time();
     // static private System.Void set_time(System.Single value)
-    // Offset: 0x223F188
+    // Offset: 0x19CE828
     static void set_time(float value);
     // static public System.Single get_deltaTime()
-    // Offset: 0x223F1E4
+    // Offset: 0x19CE884
     static float get_deltaTime();
     // static private System.Void set_deltaTime(System.Single value)
-    // Offset: 0x223F234
+    // Offset: 0x19CE8D4
     static void set_deltaTime(float value);
     // static public System.Single get_fixedDeltaTime()
-    // Offset: 0x223F290
+    // Offset: 0x19CE930
     static float get_fixedDeltaTime();
     // static private System.Void set_fixedDeltaTime(System.Single value)
-    // Offset: 0x223F2E0
+    // Offset: 0x19CE980
     static void set_fixedDeltaTime(float value);
     // static public System.Single get_interpolationFactor()
-    // Offset: 0x223F33C
+    // Offset: 0x19CE9DC
     static float get_interpolationFactor();
     // static private System.Void set_interpolationFactor(System.Single value)
-    // Offset: 0x223F38C
+    // Offset: 0x19CEA2C
     static void set_interpolationFactor(float value);
     // protected System.Void Awake()
-    // Offset: 0x223F3E8
+    // Offset: 0x19CEA88
     void Awake();
     // protected System.Void FixedUpdate()
-    // Offset: 0x223F498
+    // Offset: 0x19CEB38
     void FixedUpdate();
     // protected System.Void Update()
-    // Offset: 0x223F548
+    // Offset: 0x19CEBE8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x223F6FC
+    // Offset: 0x19CED9C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

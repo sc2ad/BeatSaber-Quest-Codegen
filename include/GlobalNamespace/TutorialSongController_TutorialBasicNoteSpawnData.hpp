@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator GlobalNamespace::NoteLineLayer
     constexpr operator GlobalNamespace::NoteLineLayer() const noexcept = delete;
     // public System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, NoteLineLayer noteLineLayer, NoteCutDirection cutDirection, ColorType colorType)
-    // Offset: 0x1FA1AE0
+    // Offset: 0xFF34D8
     static TutorialSongController::TutorialBasicNoteSpawnData* New_ctor(GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, GlobalNamespace::NoteCutDirection cutDirection, GlobalNamespace::ColorType colorType);
   }; // TutorialSongController/TutorialBasicNoteSpawnData
 }

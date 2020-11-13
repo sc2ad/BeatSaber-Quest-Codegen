@@ -84,22 +84,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetMissionObjectiveChecker(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x1FCD3D0
+    // Offset: 0x101F478
     void SetMissionObjectiveChecker(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // private System.Void HandleMissionObjectiveStatusDidChange(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x1FCD7DC
+    // Offset: 0x101F884
     void HandleMissionObjectiveStatusDidChange(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // private System.Void HandleMissionObjectiveCheckedValueDidChange(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x1FCD7E0
+    // Offset: 0x101F888
     void HandleMissionObjectiveCheckedValueDidChange(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // private System.Void RefreshIcon()
-    // Offset: 0x1FCD66C
+    // Offset: 0x101F714
     void RefreshIcon();
     // private System.Void RefreshValue()
-    // Offset: 0x1FCD780
+    // Offset: 0x101F828
     void RefreshValue();
     // public System.Void .ctor()
-    // Offset: 0x1FCD7E4
+    // Offset: 0x101F88C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

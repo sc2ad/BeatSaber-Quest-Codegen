@@ -39,16 +39,16 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.Texture3D _texture
     static void _set__texture(UnityEngine::Texture3D* value);
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x1EF59A4
+    // Offset: 0x198C5BC
     static void NoDomainReloadInit();
     // protected System.Void Awake()
-    // Offset: 0x1EF5A10
+    // Offset: 0x198C628
     void Awake();
     // private UnityEngine.Color32[] CreateNoisePixels(System.Int32 width, System.Int32 height, System.Int32 depth, System.Single scale, System.Int32 repeat, System.Single contrast)
-    // Offset: 0x1EF5CA4
+    // Offset: 0x198C8BC
     ::Array<UnityEngine::Color32>* CreateNoisePixels(int width, int height, int depth, float scale, int repeat, float contrast);
     // public System.Void .ctor()
-    // Offset: 0x1EF5F30
+    // Offset: 0x198CB48
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static Noise3DTexturesGenerator* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1EF5F38
+    // Offset: 0x198CB50
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

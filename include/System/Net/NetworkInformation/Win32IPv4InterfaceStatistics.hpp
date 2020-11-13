@@ -23,7 +23,7 @@ namespace System::Net::NetworkInformation {
       return info;
     }
     // public System.Void .ctor(System.Net.NetworkInformation.Win32_MIB_IFROW info)
-    // Offset: 0x10C8984
+    // Offset: 0x119E2B4
     static Win32IPv4InterfaceStatistics* New_ctor(System::Net::NetworkInformation::Win32_MIB_IFROW info);
   }; // System.Net.NetworkInformation.Win32IPv4InterfaceStatistics
 }

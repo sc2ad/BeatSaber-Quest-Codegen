@@ -24,7 +24,7 @@ namespace Mono::Globalization::Unicode {
     // Creating value type constructor for type: PreviousInfo
     constexpr PreviousInfo(int Code_ = {}, uint8_t* SortKey_ = {}) noexcept : Code{Code_}, SortKey{SortKey_} {}
     // public System.Void .ctor(System.Boolean dummy)
-    // Offset: 0xC71984
+    // Offset: 0xCA0BEC
     PreviousInfo(bool dummy);
   }; // Mono.Globalization.Unicode.SimpleCollator/PreviousInfo
 }

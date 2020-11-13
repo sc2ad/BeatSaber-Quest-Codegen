@@ -20,7 +20,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Offset: 0x18
     ::Array<uint64_t>* kw;
     // protected System.Void .ctor(System.UInt64[] kw, System.UInt64[] t)
-    // Offset: 0x19E245C
+    // Offset: 0x181363C
     static ThreefishEngine::ThreefishCipher* New_ctor(::Array<uint64_t>* kw, ::Array<uint64_t>* t);
     // System.Void EncryptBlock(System.UInt64[] block, System.UInt64[] outWords)
     // Offset: 0xFFFFFFFF

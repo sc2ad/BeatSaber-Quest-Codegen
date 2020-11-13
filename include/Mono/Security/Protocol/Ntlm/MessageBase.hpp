@@ -24,31 +24,31 @@ namespace Mono::Security::Protocol::Ntlm {
     // Set static field: static private System.Byte[] header
     static void _set_header(::Array<uint8_t>* value);
     // protected System.Void .ctor(System.Int32 messageType)
-    // Offset: 0x192C2E8
+    // Offset: 0x17BB470
     static MessageBase* New_ctor(int messageType);
     // public Mono.Security.Protocol.Ntlm.NtlmFlags get_Flags()
-    // Offset: 0x192C314
+    // Offset: 0x17BB49C
     Mono::Security::Protocol::Ntlm::NtlmFlags get_Flags();
     // public System.Void set_Flags(Mono.Security.Protocol.Ntlm.NtlmFlags value)
-    // Offset: 0x192C31C
+    // Offset: 0x17BB4A4
     void set_Flags(Mono::Security::Protocol::Ntlm::NtlmFlags value);
     // public System.Int32 get_Type()
-    // Offset: 0x192C324
+    // Offset: 0x17BB4AC
     int get_Type();
     // protected System.Byte[] PrepareMessage(System.Int32 messageSize)
-    // Offset: 0x192C32C
+    // Offset: 0x17BB4B4
     ::Array<uint8_t>* PrepareMessage(int messageSize);
     // protected System.Void Decode(System.Byte[] message)
-    // Offset: 0x192C438
+    // Offset: 0x17BB5C0
     void Decode(::Array<uint8_t>* message);
     // protected System.Boolean CheckHeader(System.Byte[] message)
-    // Offset: 0x192C5DC
+    // Offset: 0x17BB764
     bool CheckHeader(::Array<uint8_t>* message);
     // public System.Byte[] GetBytes()
     // Offset: 0xFFFFFFFF
     ::Array<uint8_t>* GetBytes();
     // static private System.Void .cctor()
-    // Offset: 0x192C718
+    // Offset: 0x17BB8A0
     static void _cctor();
   }; // Mono.Security.Protocol.Ntlm.MessageBase
 }

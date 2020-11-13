@@ -37,16 +37,16 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
     // public Org.BouncyCastle.Crypto.Parameters.KeyParameter get_Key()
-    // Offset: 0xF46D1C
+    // Offset: 0x1042728
     Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
     // public System.Int32 get_MacSize()
-    // Offset: 0xF46D24
+    // Offset: 0x1042730
     int get_MacSize();
     // public System.Byte[] GetAssociatedText()
-    // Offset: 0xF46D2C
+    // Offset: 0x1042738
     ::Array<uint8_t>* GetAssociatedText();
     // public System.Byte[] GetNonce()
-    // Offset: 0xF46D34
+    // Offset: 0x1042740
     ::Array<uint8_t>* GetNonce();
   }; // Org.BouncyCastle.Crypto.Parameters.AeadParameters
 }

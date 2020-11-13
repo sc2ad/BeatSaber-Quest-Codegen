@@ -26,21 +26,21 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // protected System.Void .ctor(System.Boolean isPrivate, Org.BouncyCastle.Crypto.Parameters.ElGamalParameters parameters)
-    // Offset: 0xF4C43C
+    // Offset: 0x1047E48
     static ElGamalKeyParameters* New_ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
     // public Org.BouncyCastle.Crypto.Parameters.ElGamalParameters get_Parameters()
-    // Offset: 0xF4C474
+    // Offset: 0x1047E80
     Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* get_Parameters();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.ElGamalKeyParameters other)
-    // Offset: 0xF4C52C
+    // Offset: 0x1047F38
     bool Equals(Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF4C47C
+    // Offset: 0x1047E88
     // Implemented from: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
     // Base method: System.Boolean AsymmetricKeyParameter::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF4C584
+    // Offset: 0x1047F90
     // Implemented from: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
     // Base method: System.Int32 AsymmetricKeyParameter::GetHashCode()
     int GetHashCode();

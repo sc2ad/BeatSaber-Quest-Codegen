@@ -105,18 +105,18 @@ namespace Zenject {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void SetContextInfo(System.String contextInfo)
-    // Offset: 0xFEFA20
+    // Offset: 0x10EB3C8
     void SetContextInfo(::Il2CppString* contextInfo);
     // public System.Void Reset()
-    // Offset: 0xFEF8B8
+    // Offset: 0x10EB260
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0xFEF7D4
+    // Offset: 0x10EB17C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BindInfo* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0xFEF9B8
+    // Offset: 0x10EB360
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

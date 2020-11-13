@@ -21,10 +21,10 @@ namespace HMUI {
       return threshold;
     }
     // System.Boolean <HandleJoystickWasCenteredThisFrame>b__1(System.Single posy)
-    // Offset: 0x21711D0
+    // Offset: 0x1081054
     bool $HandleJoystickWasCenteredThisFrame$b__1(float posy);
     // public System.Void .ctor()
-    // Offset: 0x21710AC
+    // Offset: 0x1080F30
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ScrollView::$$c__DisplayClass42_1* New_ctor();

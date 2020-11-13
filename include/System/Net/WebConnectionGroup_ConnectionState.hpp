@@ -43,38 +43,38 @@ namespace System::Net {
       return *reinterpret_cast<System::Net::IWebConnectionState*>(this);
     }
     // public System.Net.WebConnection get_Connection()
-    // Offset: 0x119507C
+    // Offset: 0x122040C
     System::Net::WebConnection* get_Connection();
     // private System.Void set_Connection(System.Net.WebConnection value)
-    // Offset: 0x1195084
+    // Offset: 0x1220414
     void set_Connection(System::Net::WebConnection* value);
     // private System.Void set_Group(System.Net.WebConnectionGroup value)
-    // Offset: 0x1195094
+    // Offset: 0x1220424
     void set_Group(System::Net::WebConnectionGroup* value);
     // public System.Net.ServicePoint get_ServicePoint()
-    // Offset: 0x119509C
+    // Offset: 0x122042C
     System::Net::ServicePoint* get_ServicePoint();
     // public System.Boolean get_Busy()
-    // Offset: 0x11950B8
+    // Offset: 0x1220448
     bool get_Busy();
     // public System.DateTime get_IdleSince()
-    // Offset: 0x11950C0
+    // Offset: 0x1220450
     System::DateTime get_IdleSince();
     // public System.Void .ctor(System.Net.WebConnectionGroup group)
-    // Offset: 0x1194AB0
+    // Offset: 0x121FE40
     static WebConnectionGroup::ConnectionState* New_ctor(System::Net::WebConnectionGroup* group);
     // public System.Net.WebConnectionGroup get_Group()
-    // Offset: 0x119508C
+    // Offset: 0x122041C
     // Implemented from: System.Net.IWebConnectionState
     // Base method: System.Net.WebConnectionGroup IWebConnectionState::get_Group()
     System::Net::WebConnectionGroup* get_Group();
     // public System.Boolean TrySetBusy()
-    // Offset: 0x11950C8
+    // Offset: 0x1220458
     // Implemented from: System.Net.IWebConnectionState
     // Base method: System.Boolean IWebConnectionState::TrySetBusy()
     bool TrySetBusy();
     // public System.Void SetIdle()
-    // Offset: 0x119526C
+    // Offset: 0x12205FC
     // Implemented from: System.Net.IWebConnectionState
     // Base method: System.Void IWebConnectionState::SetIdle()
     void SetIdle();

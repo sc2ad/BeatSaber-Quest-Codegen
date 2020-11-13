@@ -33,13 +33,13 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Action* $$9__1;
     // System.Void <StartLevelOrShow360Prompt>b__0(System.Int32 buttonNumber)
-    // Offset: 0x1FF1A90
+    // Offset: 0xF389C0
     void $StartLevelOrShow360Prompt$b__0(int buttonNumber);
     // System.Void <StartLevelOrShow360Prompt>b__1()
-    // Offset: 0x1FF1B38
+    // Offset: 0xF38A6C
     void $StartLevelOrShow360Prompt$b__1();
     // public System.Void .ctor()
-    // Offset: 0x1FF1900
+    // Offset: 0xF389B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0* New_ctor();

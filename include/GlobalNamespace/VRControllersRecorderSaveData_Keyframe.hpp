@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     float time;
     // public System.Void .ctor()
-    // Offset: 0x21EB79C
+    // Offset: 0x1974C04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VRControllersRecorderSaveData::Keyframe* New_ctor();

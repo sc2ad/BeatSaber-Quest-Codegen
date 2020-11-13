@@ -38,46 +38,58 @@ namespace UnityEngine {
       return *reinterpret_cast<System::Collections::IEnumerable*>(this);
     }
     // public UnityEngine.AnimationClip get_clip()
-    // Offset: 0x1F39B84
+    // Offset: 0x19C6A94
     UnityEngine::AnimationClip* get_clip();
+    // public System.Void Rewind(System.String name)
+    // Offset: 0x19C6AD4
+    void Rewind(::Il2CppString* name);
+    // private System.Void Internal_RewindByName(System.String name)
+    // Offset: 0x19C6B24
+    void Internal_RewindByName(::Il2CppString* name);
     // public System.Void Rewind()
-    // Offset: 0x1F39BC4
+    // Offset: 0x19C6B74
     void Rewind();
     // static private System.Void INTERNAL_CALL_Rewind(UnityEngine.Animation self)
-    // Offset: 0x1F39C04
+    // Offset: 0x19C6BB4
     static void INTERNAL_CALL_Rewind(UnityEngine::Animation* self);
+    // public System.Void Sample()
+    // Offset: 0x19C6BF4
+    void Sample();
+    // static private System.Void INTERNAL_CALL_Sample(UnityEngine.Animation self)
+    // Offset: 0x19C6C34
+    static void INTERNAL_CALL_Sample(UnityEngine::Animation* self);
     // public UnityEngine.AnimationState get_Item(System.String name)
-    // Offset: 0x1F39C44
+    // Offset: 0x19C6C74
     UnityEngine::AnimationState* get_Item(::Il2CppString* name);
     // public System.Boolean Play()
-    // Offset: 0x1F39CE4
+    // Offset: 0x19C6D14
     bool Play();
     // public System.Boolean Play(UnityEngine.PlayMode mode)
-    // Offset: 0x1F39D28
+    // Offset: 0x19C6D58
     bool Play(UnityEngine::PlayMode mode);
     // public System.Void CrossFade(System.String animation, System.Single fadeLength, UnityEngine.PlayMode mode)
-    // Offset: 0x1F39DC8
+    // Offset: 0x19C6DF8
     void CrossFade(::Il2CppString* animation, float fadeLength, UnityEngine::PlayMode mode);
     // public System.Void CrossFade(System.String animation, System.Single fadeLength)
-    // Offset: 0x1F39E30
+    // Offset: 0x19C6E60
     void CrossFade(::Il2CppString* animation, float fadeLength);
     // private System.Boolean PlayDefaultAnimation(UnityEngine.PlayMode mode)
-    // Offset: 0x1F39D78
+    // Offset: 0x19C6DA8
     bool PlayDefaultAnimation(UnityEngine::PlayMode mode);
     // UnityEngine.AnimationState GetState(System.String name)
-    // Offset: 0x1F39C94
+    // Offset: 0x19C6CC4
     UnityEngine::AnimationState* GetState(::Il2CppString* name);
     // UnityEngine.AnimationState GetStateAtIndex(System.Int32 index)
-    // Offset: 0x1F39F48
+    // Offset: 0x19C6F78
     UnityEngine::AnimationState* GetStateAtIndex(int index);
     // System.Int32 GetStateCount()
-    // Offset: 0x1F39F98
+    // Offset: 0x19C6FC8
     int GetStateCount();
     // public System.Boolean get_animatePhysics()
-    // Offset: 0x1F39FD8
+    // Offset: 0x19C7008
     bool get_animatePhysics();
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1F39E94
+    // Offset: 0x19C6EC4
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();

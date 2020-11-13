@@ -85,13 +85,13 @@ namespace MasterServer {
       return result;
     }
     // static public PacketPool`1<MasterServer.BroadcastServerHeartbeatResponse> get_pool()
-    // Offset: 0x211CD48
+    // Offset: 0x1AD3350
     static GlobalNamespace::PacketPool_1<MasterServer::BroadcastServerHeartbeatResponse*>* get_pool();
     // public MasterServer.BroadcastServerHeartbeatResponse Init(MasterServer.BroadcastServerHeartbeatResponse/Result result)
-    // Offset: 0x211CD90
+    // Offset: 0x1AD3398
     MasterServer::BroadcastServerHeartbeatResponse* Init(MasterServer::BroadcastServerHeartbeatResponse::Result result);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x211CD98
+    // Offset: 0x1AD33A0
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -99,7 +99,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x211CDBC
+    // Offset: 0x1AD33C4
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -107,12 +107,12 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x211CDF4
+    // Offset: 0x1AD33FC
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x211CE50
+    // Offset: 0x1AD3458
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BroadcastServerHeartbeatResponse* New_ctor();

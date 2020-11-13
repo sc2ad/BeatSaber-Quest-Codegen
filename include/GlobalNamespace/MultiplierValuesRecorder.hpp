@@ -42,7 +42,7 @@ namespace GlobalNamespace {
       // Creating value type constructor for type: MultiplierValue
       constexpr MultiplierValue(int multiplier_ = {}, float time_ = {}) noexcept : multiplier{multiplier_}, time{time_} {}
       // public System.Void .ctor(System.Int32 multiplier, System.Single time)
-      // Offset: 0xE4DC58
+      // Offset: 0xC92F24
       // ABORTED: conflicts with another method.  MultiplierValue(int multiplier, float time);
     }; // MultiplierValuesRecorder/MultiplierValue
     // private ScoreController _scoreController
@@ -57,19 +57,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.Generic.List`1<MultiplierValuesRecorder/MultiplierValue> get_multiplierValues()
-    // Offset: 0x1FDCE6C
+    // Offset: 0xFD5804
     System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>* get_multiplierValues();
     // protected System.Void Start()
-    // Offset: 0x1FDCE74
+    // Offset: 0xFD580C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1FDCF08
+    // Offset: 0xFD58A0
     void OnDestroy();
     // private System.Void HandleScoreControllerMultiplierDidChange(System.Int32 multiplier, System.Single multiplierProgress)
-    // Offset: 0x1FDCFE4
+    // Offset: 0xFD597C
     void HandleScoreControllerMultiplierDidChange(int multiplier, float multiplierProgress);
     // public System.Void .ctor()
-    // Offset: 0x1FDD098
+    // Offset: 0xFD5A30
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

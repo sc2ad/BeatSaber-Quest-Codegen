@@ -33,13 +33,13 @@ namespace UnityEngine {
       return *reinterpret_cast<UnityEngine::ILogHandler*>(this);
     }
     // static System.Void Internal_Log(UnityEngine.LogType level, UnityEngine.LogOption options, System.String msg, UnityEngine.Object obj)
-    // Offset: 0x178F620
+    // Offset: 0x1685350
     static void Internal_Log(UnityEngine::LogType level, UnityEngine::LogOption options, ::Il2CppString* msg, UnityEngine::Object* obj);
     // static System.Void Internal_LogException(System.Exception exception, UnityEngine.Object obj)
-    // Offset: 0x178F688
+    // Offset: 0x16853B8
     static void Internal_LogException(System::Exception* exception, UnityEngine::Object* obj);
     // public System.Void LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, params System.Object[] args)
-    // Offset: 0x178F6D8
+    // Offset: 0x1685408
     // Implemented from: UnityEngine.ILogHandler
     // Base method: System.Void ILogHandler::LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, params System.Object[] args)
     void LogFormat(UnityEngine::LogType logType, UnityEngine::Object* context, ::Il2CppString* format, ::Array<::Il2CppObject*>* args);
@@ -51,12 +51,12 @@ namespace UnityEngine {
       LogFormat(logType, context, format, {args...});
     }
     // public System.Void LogException(System.Exception exception, UnityEngine.Object context)
-    // Offset: 0x178F744
+    // Offset: 0x1685474
     // Implemented from: UnityEngine.ILogHandler
     // Base method: System.Void ILogHandler::LogException(System.Exception exception, UnityEngine.Object context)
     void LogException(System::Exception* exception, UnityEngine::Object* context);
     // public System.Void .ctor()
-    // Offset: 0x178F5D0
+    // Offset: 0x1685300
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DebugLogHandler* New_ctor();

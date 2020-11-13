@@ -41,13 +41,13 @@ namespace UnityEngine {
     // Creating value type constructor for type: Color32
     constexpr Color32(int rgba_ = {}, uint8_t r_ = {}, uint8_t g_ = {}, uint8_t b_ = {}, uint8_t a_ = {}) noexcept : rgba{rgba_}, r{r_}, g{g_}, b{b_}, a{a_} {}
     // public System.Void .ctor(System.Byte r, System.Byte g, System.Byte b, System.Byte a)
-    // Offset: 0xC77E18
+    // Offset: 0xCA4BB4
     Color32(uint8_t r, uint8_t g, uint8_t b, uint8_t a);
     // static public UnityEngine.Color32 Lerp(UnityEngine.Color32 a, UnityEngine.Color32 b, System.Single t)
-    // Offset: 0x178C330
+    // Offset: 0x1682060
     static UnityEngine::Color32 Lerp(UnityEngine::Color32 a, UnityEngine::Color32 b, float t);
     // public override System.String ToString()
-    // Offset: 0xC77E2C
+    // Offset: 0xCA4BC8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

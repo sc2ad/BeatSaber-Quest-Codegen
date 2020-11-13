@@ -44,15 +44,15 @@ namespace UnityEngine::TestTools {
       return *reinterpret_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);
     }
     // public System.Void .ctor(NUnit.Framework.RepeatAttribute/RepeatedTestCommand commandToReplace)
-    // Offset: 0x10AFFB8
+    // Offset: 0x11858E8
     static EnumerableRepeatedTestCommand* New_ctor(NUnit::Framework::RepeatAttribute::RepeatedTestCommand* commandToReplace);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x10B82CC
+    // Offset: 0x118DBFC
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
     // public System.Collections.IEnumerable ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x10B8338
+    // Offset: 0x118DC68
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.IEnumerableTestMethodCommand
     // Base method: System.Collections.IEnumerable IEnumerableTestMethodCommand::ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
     System::Collections::IEnumerable* ExecuteEnumerable(NUnit::Framework::Internal::ITestExecutionContext* context);

@@ -14,18 +14,18 @@ namespace Org::BouncyCastle::Crypto {
   class CryptoException : public System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x189A1E4
+    // Offset: 0x1757DE4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static CryptoException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x189A24C
+    // Offset: 0x1757E4C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     static CryptoException* New_ctor(::Il2CppString* message);
     // public System.Void .ctor(System.String message, System.Exception exception)
-    // Offset: 0x189A2C4
+    // Offset: 0x1757EC4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception exception)
     static CryptoException* New_ctor(::Il2CppString* message, System::Exception* exception);

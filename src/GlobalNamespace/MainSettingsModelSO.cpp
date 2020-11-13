@@ -19,6 +19,8 @@
 #include "GlobalNamespace/IntSO.hpp"
 // Including type: Vector3SO
 #include "GlobalNamespace/Vector3SO.hpp"
+// Including type: StringSO
+#include "GlobalNamespace/StringSO.hpp"
 // Including type: System.String
 #include "System/String.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

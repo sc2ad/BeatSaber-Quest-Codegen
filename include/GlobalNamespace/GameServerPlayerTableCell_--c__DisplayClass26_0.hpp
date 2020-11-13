@@ -36,10 +36,10 @@ namespace GlobalNamespace {
       return modifiersList;
     }
     // System.Void <SetData>b__0(System.Int32 id, GameplayModifierInfoListItem listItem)
-    // Offset: 0x20036BC
+    // Offset: 0x1A1D8A8
     void $SetData$b__0(int id, GlobalNamespace::GameplayModifierInfoListItem* listItem);
     // public System.Void .ctor()
-    // Offset: 0x2003158
+    // Offset: 0x1A1D4F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GameServerPlayerTableCell::$$c__DisplayClass26_0* New_ctor();

@@ -30,10 +30,10 @@ namespace Org::BouncyCastle::Asn1 {
       return parser;
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1StreamParser parser)
-    // Offset: 0x1314CD0
+    // Offset: 0x13734BC
     static DerExternalParser* New_ctor(Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x132325C
+    // Offset: 0x1381A48
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

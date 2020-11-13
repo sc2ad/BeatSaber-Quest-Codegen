@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class LiteNetLibConnectionManager::StartRelayParams : public GlobalNamespace::LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2163894
+    // Offset: 0x1B52430
     // Implemented from: LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase
     // Base method: System.Void LiteNetLibConnectionParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()

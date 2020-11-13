@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IBeatmapLevelPack,System.String> <>9__19_0
     static void _set_$$9__19_0(System::Func_2<GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x208BC78
+    // Offset: 0xF275E4
     static void _cctor();
     // System.String <LoadCorrectedSongPackMask>b__19_0(IBeatmapLevelPack pack)
-    // Offset: 0x208BCE8
+    // Offset: 0xF27654
     ::Il2CppString* $LoadCorrectedSongPackMask$b__19_0(GlobalNamespace::IBeatmapLevelPack* pack);
     // public System.Void .ctor()
-    // Offset: 0x208BCE0
+    // Offset: 0xF2764C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerDataFileManagerSO::$$c* New_ctor();

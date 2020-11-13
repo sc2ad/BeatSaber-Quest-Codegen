@@ -37,33 +37,33 @@ namespace RootMotion::FinalIK {
     // Offset: 0x20
     RootMotion::FinalIK::IKMapping::BoneMap* boneMap;
     // public System.Void .ctor(UnityEngine.Transform bone)
-    // Offset: 0x1845480
+    // Offset: 0x170CB28
     static IKMappingBone* New_ctor(UnityEngine::Transform* bone);
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x184552C
+    // Offset: 0x170CBD4
     void StoreDefaultLocalState();
     // public System.Void FixTransforms()
-    // Offset: 0x1845544
+    // Offset: 0x170CBEC
     void FixTransforms();
     // public System.Void ReadPose()
-    // Offset: 0x184560C
+    // Offset: 0x170CCB4
     void ReadPose();
     // public System.Void WritePose(System.Single solverWeight)
-    // Offset: 0x1845624
+    // Offset: 0x170CCCC
     void WritePose(float solverWeight);
     // public override System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
-    // Offset: 0x1845344
+    // Offset: 0x170C9EC
     // Implemented from: RootMotion.FinalIK.IKMapping
     // Base method: System.Boolean IKMapping::IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
     bool IsValid(RootMotion::FinalIK::IKSolver* solver, ::Il2CppString*& message);
     // public System.Void .ctor()
-    // Offset: 0x18453F0
+    // Offset: 0x170CA98
     // Implemented from: RootMotion.FinalIK.IKMapping
     // Base method: System.Void IKMapping::.ctor()
     // Base method: System.Void Object::.ctor()
     static IKMappingBone* New_ctor();
     // public override System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1845560
+    // Offset: 0x170CC08
     // Implemented from: RootMotion.FinalIK.IKMapping
     // Base method: System.Void IKMapping::Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
     void Initiate(RootMotion::FinalIK::IKSolverFullBody* solver);

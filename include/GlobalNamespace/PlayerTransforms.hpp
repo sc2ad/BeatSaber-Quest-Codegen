@@ -44,31 +44,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Vector3 get_headPos()
-    // Offset: 0x208F1F0
+    // Offset: 0xF2ABEC
     UnityEngine::Vector3 get_headPos();
     // public UnityEngine.Quaternion get_headRot()
-    // Offset: 0x208F1FC
+    // Offset: 0xF2ABF8
     UnityEngine::Quaternion get_headRot();
     // public UnityEngine.Vector3 get_headLocalPos()
-    // Offset: 0x208F208
+    // Offset: 0xF2AC04
     UnityEngine::Vector3 get_headLocalPos();
     // public UnityEngine.Quaternion get_headLocalRot()
-    // Offset: 0x208F214
+    // Offset: 0xF2AC10
     UnityEngine::Quaternion get_headLocalRot();
     // public System.Void OverrideHeadPos(UnityEngine.Vector3 pos)
-    // Offset: 0x208F220
+    // Offset: 0xF2AC1C
     void OverrideHeadPos(UnityEngine::Vector3 pos);
     // protected System.Void Update()
-    // Offset: 0x208F23C
+    // Offset: 0xF2AC38
     void Update();
     // public System.Single MoveTowardsHead(System.Single start, System.Single end, UnityEngine.Quaternion noteInverseWorldRotation, System.Single t)
-    // Offset: 0x208F2C4
+    // Offset: 0xF2ACC0
     float MoveTowardsHead(float start, float end, UnityEngine::Quaternion noteInverseWorldRotation, float t);
+    // public System.Single GetZPosOffsetByHeadPosAtTime(System.Single start, System.Single end, System.Single t)
+    // Offset: 0xF2AE70
+    float GetZPosOffsetByHeadPosAtTime(float start, float end, float t);
+    // private System.Single GetZPos(System.Single start, System.Single end, System.Single headOffsetZ, System.Single t)
+    // Offset: 0xF2ADD0
+    float GetZPos(float start, float end, float headOffsetZ, float t);
     // public System.Single HeadOffsetZ(UnityEngine.Quaternion noteInverseWorldRotation)
-    // Offset: 0x208F3A0
+    // Offset: 0xF2AD10
     float HeadOffsetZ(UnityEngine::Quaternion noteInverseWorldRotation);
     // public System.Void .ctor()
-    // Offset: 0x208F460
+    // Offset: 0xF2AE7C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -153,97 +153,97 @@ namespace UnityEngine::UI {
       return *reinterpret_cast<UnityEngine::UI::ICanvasElement*>(this);
     }
     // public UnityEngine.RectTransform get_fillRect()
-    // Offset: 0x15EF974
+    // Offset: 0x1574018
     UnityEngine::RectTransform* get_fillRect();
     // public System.Void set_fillRect(UnityEngine.RectTransform value)
-    // Offset: 0x15EF97C
+    // Offset: 0x1574020
     void set_fillRect(UnityEngine::RectTransform* value);
     // public UnityEngine.RectTransform get_handleRect()
-    // Offset: 0x15F0014
+    // Offset: 0x15746B8
     UnityEngine::RectTransform* get_handleRect();
     // public System.Void set_handleRect(UnityEngine.RectTransform value)
-    // Offset: 0x15F001C
+    // Offset: 0x15746C0
     void set_handleRect(UnityEngine::RectTransform* value);
     // public UnityEngine.UI.Slider/Direction get_direction()
-    // Offset: 0x15F00A0
+    // Offset: 0x1574744
     UnityEngine::UI::Slider::Direction get_direction();
     // public System.Void set_direction(UnityEngine.UI.Slider/Direction value)
-    // Offset: 0x15F00A8
+    // Offset: 0x157474C
     void set_direction(UnityEngine::UI::Slider::Direction value);
     // public System.Single get_minValue()
-    // Offset: 0x15F0124
+    // Offset: 0x15747C8
     float get_minValue();
     // public System.Void set_minValue(System.Single value)
-    // Offset: 0x15F012C
+    // Offset: 0x15747D0
     void set_minValue(float value);
     // public System.Single get_maxValue()
-    // Offset: 0x15F01C4
+    // Offset: 0x1574868
     float get_maxValue();
     // public System.Void set_maxValue(System.Single value)
-    // Offset: 0x15F01CC
+    // Offset: 0x1574870
     void set_maxValue(float value);
     // public System.Boolean get_wholeNumbers()
-    // Offset: 0x15F0264
+    // Offset: 0x1574908
     bool get_wholeNumbers();
     // public System.Void set_wholeNumbers(System.Boolean value)
-    // Offset: 0x15F026C
+    // Offset: 0x1574910
     void set_wholeNumbers(bool value);
     // public System.Single get_value()
-    // Offset: 0x15F0304
+    // Offset: 0x15749A8
     float get_value();
     // public System.Void set_value(System.Single value)
-    // Offset: 0x15F03F0
+    // Offset: 0x1574A94
     void set_value(float value);
     // public System.Void SetValueWithoutNotify(System.Single input)
-    // Offset: 0x15F0404
+    // Offset: 0x1574AA8
     void SetValueWithoutNotify(float input);
     // public System.Single get_normalizedValue()
-    // Offset: 0x15F0418
+    // Offset: 0x1574ABC
     float get_normalizedValue();
     // public System.Void set_normalizedValue(System.Single value)
-    // Offset: 0x15F0504
+    // Offset: 0x1574BA8
     void set_normalizedValue(float value);
     // public UnityEngine.UI.Slider/SliderEvent get_onValueChanged()
-    // Offset: 0x15F05A4
+    // Offset: 0x1574C48
     UnityEngine::UI::Slider::SliderEvent* get_onValueChanged();
     // public System.Void set_onValueChanged(UnityEngine.UI.Slider/SliderEvent value)
-    // Offset: 0x15F05AC
+    // Offset: 0x1574C50
     void set_onValueChanged(UnityEngine::UI::Slider::SliderEvent* value);
     // private System.Single get_stepSize()
-    // Offset: 0x15F05BC
+    // Offset: 0x1574C60
     float get_stepSize();
     // protected System.Void Update()
-    // Offset: 0x15F0730
+    // Offset: 0x1574DD4
     void Update();
     // private System.Void UpdateCachedReferences()
-    // Offset: 0x15EFA00
+    // Offset: 0x15740A4
     void UpdateCachedReferences();
     // private System.Single ClampValue(System.Single input)
-    // Offset: 0x15F09AC
+    // Offset: 0x1575050
     float ClampValue(float input);
     // protected System.Void Set(System.Single input, System.Boolean sendCallback)
-    // Offset: 0x15F0AFC
+    // Offset: 0x15751A0
     void Set(float input, bool sendCallback);
     // private UnityEngine.UI.Slider/Axis get_axis()
-    // Offset: 0x15F0AEC
+    // Offset: 0x1575190
     UnityEngine::UI::Slider::Axis get_axis();
     // private System.Boolean get_reverseValue()
-    // Offset: 0x15F0AD8
+    // Offset: 0x157517C
     bool get_reverseValue();
     // private System.Void UpdateVisuals()
-    // Offset: 0x15EFD54
+    // Offset: 0x15743F8
     void UpdateVisuals();
     // private System.Void UpdateDrag(UnityEngine.EventSystems.PointerEventData eventData, UnityEngine.Camera cam)
-    // Offset: 0x15F0C10
+    // Offset: 0x15752B4
     void UpdateDrag(UnityEngine::EventSystems::PointerEventData* eventData, UnityEngine::Camera* cam);
     // private System.Boolean MayDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x15F0EB4
+    // Offset: 0x1575558
     bool MayDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void SetDirection(UnityEngine.UI.Slider/Direction direction, System.Boolean includeRectLayouts)
-    // Offset: 0x15F1454
+    // Offset: 0x1575AF8
     void SetDirection(UnityEngine::UI::Slider::Direction direction, bool includeRectLayouts);
     // protected System.Void .ctor()
-    // Offset: 0x15F05E8
+    // Offset: 0x1574C8C
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -254,82 +254,82 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static Slider* New_ctor();
     // public System.Void Rebuild(UnityEngine.UI.CanvasUpdate executing)
-    // Offset: 0x15F06B0
+    // Offset: 0x1574D54
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::Rebuild(UnityEngine.UI.CanvasUpdate executing)
     void Rebuild(UnityEngine::UI::CanvasUpdate executing);
     // public System.Void LayoutComplete()
-    // Offset: 0x15F06B4
+    // Offset: 0x1574D58
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::LayoutComplete()
     void LayoutComplete();
     // public System.Void GraphicUpdateComplete()
-    // Offset: 0x15F06B8
+    // Offset: 0x1574D5C
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::GraphicUpdateComplete()
     void GraphicUpdateComplete();
     // protected override System.Void OnEnable()
-    // Offset: 0x15F06BC
+    // Offset: 0x1574D60
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x15F0704
+    // Offset: 0x1574DA8
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnDisable()
     void OnDisable();
     // protected override System.Void OnDidApplyAnimationProperties()
-    // Offset: 0x15F0778
+    // Offset: 0x1574E1C
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnDidApplyAnimationProperties()
     void OnDidApplyAnimationProperties();
     // protected override System.Void OnRectTransformDimensionsChange()
-    // Offset: 0x15F0BC8
+    // Offset: 0x157526C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnRectTransformDimensionsChange()
     void OnRectTransformDimensionsChange();
     // public override System.Void OnPointerDown(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x15F0F1C
+    // Offset: 0x15755C0
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnPointerDown(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerDown(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x15F10E0
+    // Offset: 0x1575784
     // Implemented from: UnityEngine.EventSystems.IDragHandler
     // Base method: System.Void IDragHandler::OnDrag(UnityEngine.EventSystems.PointerEventData eventData)
     void OnDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // public override System.Void OnMove(UnityEngine.EventSystems.AxisEventData eventData)
-    // Offset: 0x15F1134
+    // Offset: 0x15757D8
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnMove(UnityEngine.EventSystems.AxisEventData eventData)
     void OnMove(UnityEngine::EventSystems::AxisEventData* eventData);
     // public override UnityEngine.UI.Selectable FindSelectableOnLeft()
-    // Offset: 0x15F13AC
+    // Offset: 0x1575A50
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: UnityEngine.UI.Selectable Selectable::FindSelectableOnLeft()
     UnityEngine::UI::Selectable* FindSelectableOnLeft();
     // public override UnityEngine.UI.Selectable FindSelectableOnRight()
-    // Offset: 0x15F13D0
+    // Offset: 0x1575A74
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: UnityEngine.UI.Selectable Selectable::FindSelectableOnRight()
     UnityEngine::UI::Selectable* FindSelectableOnRight();
     // public override UnityEngine.UI.Selectable FindSelectableOnUp()
-    // Offset: 0x15F13F4
+    // Offset: 0x1575A98
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: UnityEngine.UI.Selectable Selectable::FindSelectableOnUp()
     UnityEngine::UI::Selectable* FindSelectableOnUp();
     // public override UnityEngine.UI.Selectable FindSelectableOnDown()
-    // Offset: 0x15F1418
+    // Offset: 0x1575ABC
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: UnityEngine.UI.Selectable Selectable::FindSelectableOnDown()
     UnityEngine::UI::Selectable* FindSelectableOnDown();
     // public System.Void OnInitializePotentialDrag(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x15F143C
+    // Offset: 0x1575AE0
     // Implemented from: UnityEngine.EventSystems.IInitializePotentialDragHandler
     // Base method: System.Void IInitializePotentialDragHandler::OnInitializePotentialDrag(UnityEngine.EventSystems.PointerEventData eventData)
     void OnInitializePotentialDrag(UnityEngine::EventSystems::PointerEventData* eventData);
     // private UnityEngine.Transform UnityEngine.UI.ICanvasElement.get_transform()
-    // Offset: 0x15F15E8
+    // Offset: 0x1575C8C
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();

@@ -82,64 +82,64 @@ namespace System::Reflection {
       return *reinterpret_cast<System::Runtime::InteropServices::_ParameterInfo*>(this);
     }
     // static System.Void FormatParameters(System.Text.StringBuilder sb, System.Reflection.ParameterInfo[] p, System.Reflection.CallingConventions callingConvention, System.Boolean serialization)
-    // Offset: 0x167A848
+    // Offset: 0x15CF40C
     static void FormatParameters(System::Text::StringBuilder* sb, ::Array<System::Reflection::ParameterInfo*>* p, System::Reflection::CallingConventions callingConvention, bool serialization);
     // public System.Type get_ParameterType()
-    // Offset: 0x167AA48
+    // Offset: 0x15CF60C
     System::Type* get_ParameterType();
     // public System.Reflection.ParameterAttributes get_Attributes()
-    // Offset: 0x167AA50
+    // Offset: 0x15CF614
     System::Reflection::ParameterAttributes get_Attributes();
     // public System.Boolean get_IsIn()
-    // Offset: 0x167AA58
+    // Offset: 0x15CF61C
     bool get_IsIn();
     // public System.Boolean get_IsOptional()
-    // Offset: 0x167AA78
+    // Offset: 0x15CF63C
     bool get_IsOptional();
     // public System.Boolean get_IsOut()
-    // Offset: 0x167AA98
+    // Offset: 0x15CF65C
     bool get_IsOut();
     // public System.Boolean get_IsRetval()
-    // Offset: 0x167A828
+    // Offset: 0x15CF3EC
     bool get_IsRetval();
     // public System.Reflection.MemberInfo get_Member()
-    // Offset: 0x167AAB8
+    // Offset: 0x15CF67C
     System::Reflection::MemberInfo* get_Member();
     // public System.String get_Name()
-    // Offset: 0x167AAC0
+    // Offset: 0x15CF684
     ::Il2CppString* get_Name();
     // public System.Int32 get_Position()
-    // Offset: 0x167AAC8
+    // Offset: 0x15CF68C
     int get_Position();
     // System.Object[] GetPseudoCustomAttributes()
-    // Offset: 0x167AAD0
+    // Offset: 0x15CF694
     ::Array<::Il2CppObject*>* GetPseudoCustomAttributes();
     // System.Object GetDefaultValueImpl()
-    // Offset: 0x167AD4C
+    // Offset: 0x15CF910
     ::Il2CppObject* GetDefaultValueImpl();
     // public System.Object get_DefaultValue()
-    // Offset: 0x167AD54
+    // Offset: 0x15CF918
     ::Il2CppObject* get_DefaultValue();
     // static System.Reflection.ParameterInfo New(System.Reflection.ParameterInfo pinfo, System.Reflection.MemberInfo member)
-    // Offset: 0x1679740
+    // Offset: 0x15CE304
     static System::Reflection::ParameterInfo* New(System::Reflection::ParameterInfo* pinfo, System::Reflection::MemberInfo* member);
     // protected System.Void .ctor()
-    // Offset: 0x167A66C
+    // Offset: 0x15CF230
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ParameterInfo* New_ctor();
     // public override System.String ToString()
-    // Offset: 0x167A674
+    // Offset: 0x15CF238
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x167ADB4
+    // Offset: 0x15CF978
     // Implemented from: System.Reflection.ICustomAttributeProvider
     // Base method: System.Object[] ICustomAttributeProvider::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public System.Object GetRealObject(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x167AE00
+    // Offset: 0x15CF9C4
     // Implemented from: System.Runtime.Serialization.IObjectReference
     // Base method: System.Object IObjectReference::GetRealObject(System.Runtime.Serialization.StreamingContext context)
     ::Il2CppObject* GetRealObject(System::Runtime::Serialization::StreamingContext context);
@@ -147,7 +147,7 @@ namespace System::Reflection {
     // Maps to method: GetRealObject
     ::Il2CppObject* System_Runtime_Serialization_IObjectReference_GetRealObject(System::Runtime::Serialization::StreamingContext context);
     // public System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x167AE60
+    // Offset: 0x15CFA24
     // Implemented from: System.Reflection.ICustomAttributeProvider
     // Base method: System.Boolean ICustomAttributeProvider::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);

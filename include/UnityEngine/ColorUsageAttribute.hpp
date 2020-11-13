@@ -32,7 +32,7 @@ namespace UnityEngine {
     // Offset: 0x20
     float maxExposureValue;
     // public System.Void .ctor(System.Boolean showAlpha)
-    // Offset: 0x178C64C
+    // Offset: 0x168237C
     static ColorUsageAttribute* New_ctor(bool showAlpha);
   }; // UnityEngine.ColorUsageAttribute
 }

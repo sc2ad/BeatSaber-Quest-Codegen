@@ -98,22 +98,22 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.Vector3[] _meshVertices
     static void _set__meshVertices(::Array<UnityEngine::Vector3>* value);
     // public System.Void add_didFinishEvent(System.Action`1<NoteDebris> value)
-    // Offset: 0x20F6290
+    // Offset: 0xFE4FE4
     void add_didFinishEvent(System::Action_1<GlobalNamespace::NoteDebris*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<NoteDebris> value)
-    // Offset: 0x20F6334
+    // Offset: 0xFE5088
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::NoteDebris*>* value);
     // protected System.Void Awake()
-    // Offset: 0x20F63D8
+    // Offset: 0xFE512C
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x20F6498
+    // Offset: 0xFE51EC
     void Update();
     // public System.Void Init(ColorType colorType, UnityEngine.Vector3 notePos, UnityEngine.Quaternion noteRot, UnityEngine.Vector3 positionOffset, UnityEngine.Quaternion rotationOffset, UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, UnityEngine.Vector3 force, UnityEngine.Vector3 torque, System.Single lifeTime)
-    // Offset: 0x20F65BC
+    // Offset: 0xFE5310
     void Init(GlobalNamespace::ColorType colorType, UnityEngine::Vector3 notePos, UnityEngine::Quaternion noteRot, UnityEngine::Vector3 positionOffset, UnityEngine::Quaternion rotationOffset, UnityEngine::Vector3 cutPoint, UnityEngine::Vector3 cutNormal, UnityEngine::Vector3 force, UnityEngine::Vector3 torque, float lifeTime);
     // public System.Void .ctor()
-    // Offset: 0x20F6E88
+    // Offset: 0xFE5BDC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -122,7 +122,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NoteDebris* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x20F6EE0
+    // Offset: 0xFE5C34
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

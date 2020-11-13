@@ -44,25 +44,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Single get_spawnCenterDistance()
-    // Offset: 0x1FAA100
+    // Offset: 0x1A29AD4
     float get_spawnCenterDistance();
     // public System.Boolean get_spawnCenterDistanceWasFound()
-    // Offset: 0x1FAA108
+    // Offset: 0x1A29ADC
     bool get_spawnCenterDistanceWasFound();
     // public System.Void add_spawnCenterDistanceWasFoundEvent(System.Action`1<System.Single> value)
-    // Offset: 0x1FAA110
+    // Offset: 0x1A29AE4
     void add_spawnCenterDistanceWasFoundEvent(System::Action_1<float>* value);
     // public System.Void remove_spawnCenterDistanceWasFoundEvent(System.Action`1<System.Single> value)
-    // Offset: 0x1FAA1B4
+    // Offset: 0x1A29B88
     void remove_spawnCenterDistanceWasFoundEvent(System::Action_1<float>* value);
     // public System.Single CalculateSpawnCenterPosition(System.Int32 numberOfPlayers)
-    // Offset: 0x1FAA258
+    // Offset: 0x1A29C2C
     float CalculateSpawnCenterPosition(int numberOfPlayers);
     // private System.Void ReportAndSaveSpawnCenterDistance(System.Single distance)
-    // Offset: 0x1FAA384
+    // Offset: 0x1A29D58
     void ReportAndSaveSpawnCenterDistance(float distance);
     // public System.Void .ctor()
-    // Offset: 0x1FAA404
+    // Offset: 0x1A29DD8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -14,7 +14,7 @@ namespace System::Diagnostics {
   class DebuggerStepThroughAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x176F150
+    // Offset: 0x16778E8
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

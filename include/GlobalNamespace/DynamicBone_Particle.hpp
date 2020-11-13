@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     // Offset: 0x64
     UnityEngine::Quaternion m_InitLocalRotation;
     // public System.Void .ctor()
-    // Offset: 0x1F5449C
+    // Offset: 0x19E5E80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DynamicBone::Particle* New_ctor();

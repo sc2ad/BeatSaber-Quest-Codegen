@@ -38,7 +38,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x30
     ::Il2CppString* ZoneId;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x113BFE4
+    // Offset: 0x11DCCA4
     static NetSyncConnection* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.NetSyncConnection
 }

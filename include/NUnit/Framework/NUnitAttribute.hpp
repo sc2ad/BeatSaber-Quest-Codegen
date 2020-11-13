@@ -14,7 +14,7 @@ namespace NUnit::Framework {
   class NUnitAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1ED5C28
+    // Offset: 0x1964C5C
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

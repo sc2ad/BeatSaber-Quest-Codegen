@@ -48,22 +48,22 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<bool>*>(this);
     }
     // public System.Boolean get_Item(System.Int32 index)
-    // Offset: 0xC89E94
+    // Offset: 0xCB6940
     bool get_Item(int index);
     // public System.Void set_Item(System.Int32 index, System.Boolean value)
-    // Offset: 0xC89E9C
+    // Offset: 0xCB6948
     void set_Item(int index, bool value);
     // public System.Void Clear()
-    // Offset: 0xC89EA8
+    // Offset: 0xCB6954
     void Clear();
     // private System.Collections.Generic.IEnumerable`1<System.Boolean> Enumerate()
-    // Offset: 0xC89EB4
+    // Offset: 0xCB6960
     System::Collections::Generic::IEnumerable_1<bool>* Enumerate();
     // public System.Collections.Generic.IEnumerator`1<System.Boolean> GetEnumerator()
-    // Offset: 0xC89EBC
+    // Offset: 0xCB6968
     System::Collections::Generic::IEnumerator_1<bool>* GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0xC89EC4
+    // Offset: 0xCB6970
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

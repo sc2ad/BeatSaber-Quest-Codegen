@@ -5,6 +5,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BeatmapCallbackItemDataList/SpawnObstacleCallback
 #include "GlobalNamespace/BeatmapCallbackItemDataList_SpawnObstacleCallback.hpp"
+// Including type: System.IntPtr
+#include "System/IntPtr.hpp"
 // Including type: ObstacleData
 #include "GlobalNamespace/ObstacleData.hpp"
 // Including type: System.IAsyncResult

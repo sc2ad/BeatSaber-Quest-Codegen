@@ -39,22 +39,22 @@ namespace Zenject {
     // Offset: 0x20
     Zenject::GameObjectCreationParameters* GameObjectInfo;
     // public System.Void .ctor(Zenject.BindInfo bindInfo, Zenject.GameObjectCreationParameters gameObjectInfo)
-    // Offset: 0x12E8F5C
+    // Offset: 0x1348748
     static TransformScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(Zenject::BindInfo* bindInfo, Zenject::GameObjectCreationParameters* gameObjectInfo);
     // protected Zenject.GameObjectCreationParameters get_GameObjectInfo()
-    // Offset: 0x12FA280
+    // Offset: 0x1359A6C
     Zenject::GameObjectCreationParameters* get_GameObjectInfo();
     // private System.Void set_GameObjectInfo(Zenject.GameObjectCreationParameters value)
-    // Offset: 0x12FA288
+    // Offset: 0x1359A74
     void set_GameObjectInfo(Zenject::GameObjectCreationParameters* value);
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder UnderTransform(UnityEngine.Transform parent)
-    // Offset: 0x12FA290
+    // Offset: 0x1359A7C
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransform(UnityEngine::Transform* parent);
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder UnderTransform(System.Func`2<Zenject.InjectContext,UnityEngine.Transform> parentGetter)
-    // Offset: 0x12FA2C4
+    // Offset: 0x1359AB0
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransform(System::Func_2<Zenject::InjectContext*, UnityEngine::Transform*>* parentGetter);
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder UnderTransformGroup(System.String transformGroupname)
-    // Offset: 0x12FA2F8
+    // Offset: 0x1359AE4
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransformGroup(::Il2CppString* transformGroupname);
   }; // Zenject.TransformScopeConcreteIdArgConditionCopyNonLazyBinder
 }

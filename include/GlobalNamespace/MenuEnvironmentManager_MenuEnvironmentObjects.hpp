@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::GameObject* wrapper;
     // public MenuEnvironmentManager/MenuEnvironmentType get_menuEnvironmentType()
-    // Offset: 0x1FC288C
+    // Offset: 0x1A71F94
     GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType get_menuEnvironmentType();
     // public UnityEngine.GameObject get_wrapper()
-    // Offset: 0x1FC2894
+    // Offset: 0x1A71F9C
     UnityEngine::GameObject* get_wrapper();
     // public System.Void .ctor()
-    // Offset: 0x1FC289C
+    // Offset: 0x1A71FA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MenuEnvironmentManager::MenuEnvironmentObjects* New_ctor();

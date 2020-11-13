@@ -44,15 +44,15 @@ namespace System::Collections {
       return table;
     }
     // System.Void .ctor(System.Collections.Hashtable table)
-    // Offset: 0x158BA20
+    // Offset: 0x1529290
     static Hashtable::SyncHashtable* New_ctor(System::Collections::Hashtable* table);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x158BA58
+    // Offset: 0x15292C8
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Void Hashtable::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static Hashtable::SyncHashtable* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x158BBD4
+    // Offset: 0x1529444
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Void Hashtable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -60,7 +60,7 @@ namespace System::Collections {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Int32 get_Count()
-    // Offset: 0x158BD54
+    // Offset: 0x15295C4
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Int32 Hashtable::get_Count()
     int get_Count();
@@ -68,7 +68,7 @@ namespace System::Collections {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // public override System.Object get_Item(System.Object key)
-    // Offset: 0x158BD78
+    // Offset: 0x15295E8
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Object Hashtable::get_Item(System.Object key)
     ::Il2CppObject* get_Item(::Il2CppObject* key);
@@ -76,7 +76,7 @@ namespace System::Collections {
     // Maps to method: get_Item
     ::Il2CppObject* System_Collections_IDictionary_get_Item(::Il2CppObject* key);
     // public override System.Void set_Item(System.Object key, System.Object value)
-    // Offset: 0x158BD9C
+    // Offset: 0x152960C
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Void Hashtable::set_Item(System.Object key, System.Object value)
     void set_Item(::Il2CppObject* key, ::Il2CppObject* value);
@@ -84,12 +84,12 @@ namespace System::Collections {
     // Maps to method: set_Item
     void System_Collections_IDictionary_set_Item(::Il2CppObject* key, ::Il2CppObject* value);
     // public override System.Object get_SyncRoot()
-    // Offset: 0x158BE80
+    // Offset: 0x15296F0
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Object Hashtable::get_SyncRoot()
     ::Il2CppObject* get_SyncRoot();
     // public override System.Void Add(System.Object key, System.Object value)
-    // Offset: 0x158BEA4
+    // Offset: 0x1529714
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Void Hashtable::Add(System.Object key, System.Object value)
     void Add(::Il2CppObject* key, ::Il2CppObject* value);
@@ -97,12 +97,12 @@ namespace System::Collections {
     // Maps to method: Add
     void System_Collections_IDictionary_Add(::Il2CppObject* key, ::Il2CppObject* value);
     // public override System.Void Clear()
-    // Offset: 0x158BF88
+    // Offset: 0x15297F8
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Void Hashtable::Clear()
     void Clear();
     // public override System.Boolean Contains(System.Object key)
-    // Offset: 0x158C054
+    // Offset: 0x15298C4
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Boolean Hashtable::Contains(System.Object key)
     bool Contains(::Il2CppObject* key);
@@ -110,12 +110,12 @@ namespace System::Collections {
     // Maps to method: Contains
     bool System_Collections_IDictionary_Contains(::Il2CppObject* key);
     // public override System.Boolean ContainsKey(System.Object key)
-    // Offset: 0x158C078
+    // Offset: 0x15298E8
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Boolean Hashtable::ContainsKey(System.Object key)
     bool ContainsKey(::Il2CppObject* key);
     // public override System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x158C140
+    // Offset: 0x15299B0
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Void Hashtable::CopyTo(System.Array array, System.Int32 arrayIndex)
     void CopyTo(System::Array* array, int arrayIndex);
@@ -123,7 +123,7 @@ namespace System::Collections {
     // Maps to method: CopyTo
     void System_Collections_ICollection_CopyTo(System::Array* array, int arrayIndex);
     // public override System.Object Clone()
-    // Offset: 0x158C224
+    // Offset: 0x1529A94
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Object Hashtable::Clone()
     ::Il2CppObject* Clone();
@@ -131,12 +131,12 @@ namespace System::Collections {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x158C374
+    // Offset: 0x1529BE4
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public override System.Collections.IDictionaryEnumerator GetEnumerator()
-    // Offset: 0x158C398
+    // Offset: 0x1529C08
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Collections.IDictionaryEnumerator Hashtable::GetEnumerator()
     System::Collections::IDictionaryEnumerator* GetEnumerator();
@@ -144,7 +144,7 @@ namespace System::Collections {
     // Maps to method: GetEnumerator
     System::Collections::IDictionaryEnumerator* System_Collections_IDictionary_GetEnumerator();
     // public override System.Collections.ICollection get_Keys()
-    // Offset: 0x158C3BC
+    // Offset: 0x1529C2C
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Collections.ICollection Hashtable::get_Keys()
     System::Collections::ICollection* get_Keys();
@@ -152,17 +152,17 @@ namespace System::Collections {
     // Maps to method: get_Keys
     System::Collections::ICollection* System_Collections_IDictionary_get_Keys();
     // public override System.Collections.ICollection get_Values()
-    // Offset: 0x158C4A0
+    // Offset: 0x1529D10
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Collections.ICollection Hashtable::get_Values()
     System::Collections::ICollection* get_Values();
     // public override System.Void Remove(System.Object key)
-    // Offset: 0x158C584
+    // Offset: 0x1529DF4
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Void Hashtable::Remove(System.Object key)
     void Remove(::Il2CppObject* key);
     // public override System.Void OnDeserialization(System.Object sender)
-    // Offset: 0x158C658
+    // Offset: 0x1529EC8
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Void Hashtable::OnDeserialization(System.Object sender)
     void OnDeserialization(::Il2CppObject* sender);

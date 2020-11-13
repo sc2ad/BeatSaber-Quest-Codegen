@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRCompositor::_CompositorDumpImages : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1B80BE0
+    // Offset: 0x18E49F8
     static IVRCompositor::_CompositorDumpImages* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x1B80BF4
+    // Offset: 0x18E4A0C
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1B80E00
+    // Offset: 0x18E4C18
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1B80E2C
+    // Offset: 0x18E4C44
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_CompositorDumpImages
 }

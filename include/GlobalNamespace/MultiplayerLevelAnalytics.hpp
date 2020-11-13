@@ -39,16 +39,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x2040D6C
+    // Offset: 0xFB5D20
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2040EA0
+    // Offset: 0xFB5E54
     void OnDestroy();
     // private System.Void HandleMultiplayerLevelDidFinishEvent(MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData, LevelCompletionResults levelCompletionResults, System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults> otherPlayersLevelCompletionResults)
-    // Offset: 0x2040FD4
+    // Offset: 0xFB5F88
     void HandleMultiplayerLevelDidFinishEvent(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData, GlobalNamespace::LevelCompletionResults* levelCompletionResults, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>* otherPlayersLevelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0x2041440
+    // Offset: 0xFB63F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

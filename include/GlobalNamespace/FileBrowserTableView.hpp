@@ -66,46 +66,46 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kCellIdentifier
     static void _set_kCellIdentifier(::Il2CppString* value);
     // public System.Void add_didSelectRow(System.Action`2<FileBrowserTableView,FileBrowserItem> value)
-    // Offset: 0x20210F4
+    // Offset: 0x1A10EFC
     void add_didSelectRow(System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>* value);
     // public System.Void remove_didSelectRow(System.Action`2<FileBrowserTableView,FileBrowserItem> value)
-    // Offset: 0x2021198
+    // Offset: 0x1A10FA0
     void remove_didSelectRow(System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>* value);
     // public System.Void Init(FileBrowserItem[] items)
-    // Offset: 0x202123C
+    // Offset: 0x1A11044
     void Init(::Array<GlobalNamespace::FileBrowserItem*>* items);
     // public System.Void SetItems(FileBrowserItem[] items)
-    // Offset: 0x2021358
+    // Offset: 0x1A11160
     void SetItems(::Array<GlobalNamespace::FileBrowserItem*>* items);
     // public System.Boolean SelectAndScrollRowToItemWithPath(System.String folderPath)
-    // Offset: 0x20213B4
+    // Offset: 0x1A111BC
     bool SelectAndScrollRowToItemWithPath(::Il2CppString* folderPath);
     // private System.Void HandleDidSelectRowEvent(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x202163C
+    // Offset: 0x1A11444
     void HandleDidSelectRowEvent(HMUI::TableView* tableView, int row);
     // public System.Void SelectAndScrollRow(System.Int32 row)
-    // Offset: 0x2021454
+    // Offset: 0x1A1125C
     void SelectAndScrollRow(int row);
     // public System.Void ClearSelection(System.Boolean animated, System.Boolean scrollToRow0)
-    // Offset: 0x20216DC
+    // Offset: 0x1A114E4
     void ClearSelection(bool animated, bool scrollToRow0);
     // public System.Single CellSize()
-    // Offset: 0x20214A4
+    // Offset: 0x1A112AC
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Single IDataSource::CellSize()
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x20214AC
+    // Offset: 0x1A112B4
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Int32 IDataSource::NumberOfCells()
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x20214C4
+    // Offset: 0x1A112CC
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: HMUI.TableCell IDataSource::CellForIdx(HMUI.TableView tableView, System.Int32 row)
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int row);
     // public System.Void .ctor()
-    // Offset: 0x2021748
+    // Offset: 0x1A11550
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRInput::_SetActionManifestPath : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AB6DB0
+    // Offset: 0x18662E8
     static IVRInput::_SetActionManifestPath* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRInputError Invoke(System.String pchActionManifestPath)
-    // Offset: 0x1AB6DC4
+    // Offset: 0x18662FC
     OVR::OpenVR::EVRInputError Invoke(::Il2CppString* pchActionManifestPath);
     // public System.IAsyncResult BeginInvoke(System.String pchActionManifestPath, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AB7184
+    // Offset: 0x18666BC
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchActionManifestPath, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRInputError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1AB71A8
+    // Offset: 0x18666E0
     OVR::OpenVR::EVRInputError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRInput/_SetActionManifestPath
 }

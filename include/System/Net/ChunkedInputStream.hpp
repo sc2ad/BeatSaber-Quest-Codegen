@@ -48,28 +48,28 @@ namespace System::Net {
     // Offset: 0x68
     bool no_more_data;
     // public System.Void .ctor(System.Net.HttpListenerContext context, System.IO.Stream stream, System.Byte[] buffer, System.Int32 offset, System.Int32 length)
-    // Offset: 0x12AC50C
+    // Offset: 0x130BCF8
     static ChunkedInputStream* New_ctor(System::Net::HttpListenerContext* context, System::IO::Stream* stream, ::Array<uint8_t>* buffer, int offset, int length);
     // private System.Void OnRead(System.IAsyncResult base_ares)
-    // Offset: 0x12AC9BC
+    // Offset: 0x130C1A8
     void OnRead(System::IAsyncResult* base_ares);
     // public override System.Int32 Read(in System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x12AC624
+    // Offset: 0x130BE10
     // Implemented from: System.Net.RequestStream
     // Base method: System.Int32 RequestStream::Read(in System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(::Array<uint8_t>*& buffer, int offset, int count);
     // public override System.IAsyncResult BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback cback, System.Object state)
-    // Offset: 0x12AC66C
+    // Offset: 0x130BE58
     // Implemented from: System.Net.RequestStream
     // Base method: System.IAsyncResult RequestStream::BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback cback, System.Object state)
     System::IAsyncResult* BeginRead(::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* cback, ::Il2CppObject* state);
     // public override System.Int32 EndRead(System.IAsyncResult ares)
-    // Offset: 0x12ACD50
+    // Offset: 0x130C53C
     // Implemented from: System.Net.RequestStream
     // Base method: System.Int32 RequestStream::EndRead(System.IAsyncResult ares)
     int EndRead(System::IAsyncResult* ares);
     // public override System.Void Close()
-    // Offset: 0x12ACFE0
+    // Offset: 0x130C7CC
     // Implemented from: System.Net.RequestStream
     // Base method: System.Void RequestStream::Close()
     void Close();

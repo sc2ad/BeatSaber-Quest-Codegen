@@ -18,15 +18,15 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Set static field: static private readonly System.String[] ReasonString
     static void _set_ReasonString(::Array<::Il2CppString*>* value);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerEnumerated reason)
-    // Offset: 0x160B280
+    // Offset: 0x157A07C
     static CrlReason* New_ctor(Org::BouncyCastle::Asn1::DerEnumerated* reason);
     // public override System.String ToString()
-    // Offset: 0x160B30C
+    // Offset: 0x157A108
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // static private System.Void .cctor()
-    // Offset: 0x160B3D8
+    // Offset: 0x157A1D4
     // Implemented from: Org.BouncyCastle.Asn1.DerEnumerated
     // Base method: System.Void DerEnumerated::.cctor()
     static void _cctor();

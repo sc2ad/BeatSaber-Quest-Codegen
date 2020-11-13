@@ -37,10 +37,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // System.Boolean <FilerBeatmapLevelPackCollectionAsync>b__0(IPreviewBeatmapLevel beatmapLevel)
-    // Offset: 0x20CEE6C
+    // Offset: 0x1A87438
     bool $FilerBeatmapLevelPackCollectionAsync$b__0(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
     // public System.Void .ctor()
-    // Offset: 0x20CEE64
+    // Offset: 0x1A87430
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapLevelFilterModel::$$c__DisplayClass0_0* New_ctor();

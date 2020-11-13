@@ -33,7 +33,7 @@ namespace GlobalNamespace {
       return loggers;
     }
     // public System.Void .ctor(params Microsoft.Extensions.Logging.ILogger[] loggers)
-    // Offset: 0x2155678
+    // Offset: 0x1B4314C
     static BGNetLogger* New_ctor(::Array<Microsoft::Extensions::Logging::ILogger*>* loggers);
     // Creating initializer_list -> params proxy for: System.Void .ctor(params Microsoft.Extensions.Logging.ILogger[] loggers)
     static BGNetLogger* New_ctor(std::initializer_list<Microsoft::Extensions::Logging::ILogger*> loggers);
@@ -43,17 +43,17 @@ namespace GlobalNamespace {
       return New_ctor({loggers...});
     }
     // public System.Void LogError(System.String message)
-    // Offset: 0x21556AC
+    // Offset: 0x1B43180
     // Implemented from: BGNetDebug/ILogger
     // Base method: System.Void ILogger::LogError(System.String message)
     void LogError(::Il2CppString* message);
     // public System.Void LogInfo(System.String message)
-    // Offset: 0x21557B0
+    // Offset: 0x1B43284
     // Implemented from: BGNetDebug/ILogger
     // Base method: System.Void ILogger::LogInfo(System.String message)
     void LogInfo(::Il2CppString* message);
     // public System.Void LogWarning(System.String message)
-    // Offset: 0x21558B8
+    // Offset: 0x1B4338C
     // Implemented from: BGNetDebug/ILogger
     // Base method: System.Void ILogger::LogWarning(System.String message)
     void LogWarning(::Il2CppString* message);

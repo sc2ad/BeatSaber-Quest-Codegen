@@ -26,10 +26,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public ColorSchemeSO[] get_colorSchemes()
-    // Offset: 0x1F7BC68
+    // Offset: 0x1A0AFA4
     ::Array<GlobalNamespace::ColorSchemeSO*>* get_colorSchemes();
     // public System.Void .ctor()
-    // Offset: 0x1F7BC70
+    // Offset: 0x1A0AFAC
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

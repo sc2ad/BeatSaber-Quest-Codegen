@@ -36,22 +36,22 @@ namespace Mono::Security::X509 {
     // Deleting conversion operator: operator System::Collections::ArrayList*
     constexpr operator System::Collections::ArrayList*() const noexcept = delete;
     // public System.Void .ctor(Mono.Security.ASN1 asn1)
-    // Offset: 0x1F35340
+    // Offset: 0x19C2250
     static X509ExtensionCollection* New_ctor(Mono::Security::ASN1* asn1);
     // public System.Int32 IndexOf(System.String oid)
-    // Offset: 0x1F38C10
+    // Offset: 0x19C5B20
     int IndexOf(::Il2CppString* oid);
     // public Mono.Security.X509.X509Extension get_Item(System.String oid)
-    // Offset: 0x1F38D88
+    // Offset: 0x19C5C98
     Mono::Security::X509::X509Extension* get_Item(::Il2CppString* oid);
     // public System.Void .ctor()
-    // Offset: 0x1F38C08
+    // Offset: 0x19C5B18
     // Implemented from: System.Collections.CollectionBase
     // Base method: System.Void CollectionBase::.ctor()
     // Base method: System.Void Object::.ctor()
     static X509ExtensionCollection* New_ctor();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1F38D5C
+    // Offset: 0x19C5C6C
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

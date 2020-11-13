@@ -74,27 +74,27 @@ namespace GlobalNamespace {
     // Offset: 0x88
     System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`1<OptionsViewController/OptionsButton> value)
-    // Offset: 0x1F8CF88
+    // Offset: 0xF00D7C
     void add_didFinishEvent(System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<OptionsViewController/OptionsButton> value)
-    // Offset: 0x1F8D02C
+    // Offset: 0xF00E20
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::OptionsViewController::OptionsButton>* value);
     // private System.Void <DidActivate>b__7_0()
-    // Offset: 0x1F8D218
+    // Offset: 0xF0100C
     void $DidActivate$b__7_0();
     // private System.Void <DidActivate>b__7_1()
-    // Offset: 0x1F8D27C
+    // Offset: 0xF01070
     void $DidActivate$b__7_1();
     // private System.Void <DidActivate>b__7_2()
-    // Offset: 0x1F8D2E0
+    // Offset: 0xF010D4
     void $DidActivate$b__7_2();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1F8D0D0
+    // Offset: 0xF00EC4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x1F8D210
+    // Offset: 0xF01004
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

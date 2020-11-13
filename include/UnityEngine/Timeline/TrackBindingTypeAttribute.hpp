@@ -29,10 +29,10 @@ namespace UnityEngine::Timeline {
     // Offset: 0x18
     UnityEngine::Timeline::TrackBindingFlags flags;
     // public System.Void .ctor(System.Type type)
-    // Offset: 0x1EECD54
+    // Offset: 0x19728E0
     static TrackBindingTypeAttribute* New_ctor(System::Type* type);
     // public System.Void .ctor(System.Type type, UnityEngine.Timeline.TrackBindingFlags flags)
-    // Offset: 0x1EECD94
+    // Offset: 0x1972920
     static TrackBindingTypeAttribute* New_ctor(System::Type* type, UnityEngine::Timeline::TrackBindingFlags flags);
   }; // UnityEngine.Timeline.TrackBindingTypeAttribute
 }

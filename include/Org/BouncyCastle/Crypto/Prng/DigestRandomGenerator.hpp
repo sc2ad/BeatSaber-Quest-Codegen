@@ -40,34 +40,34 @@ namespace Org::BouncyCastle::Crypto::Prng {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Prng::IRandomGenerator*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0xF4EE98
+    // Offset: 0x104A8A4
     static DigestRandomGenerator* New_ctor(Org::BouncyCastle::Crypto::IDigest* digest);
     // public System.Void AddSeedMaterial(System.Byte[] inSeed)
-    // Offset: 0xF4F03C
+    // Offset: 0x104AA48
     void AddSeedMaterial(::Array<uint8_t>* inSeed);
     // public System.Void AddSeedMaterial(System.Int64 rSeed)
-    // Offset: 0xF4F274
+    // Offset: 0x104AC80
     void AddSeedMaterial(int64_t rSeed);
     // public System.Void NextBytes(System.Byte[] bytes, System.Int32 start, System.Int32 len)
-    // Offset: 0xF4F434
+    // Offset: 0x104AE40
     void NextBytes(::Array<uint8_t>* bytes, int start, int len);
     // private System.Void CycleSeed()
-    // Offset: 0xF4F614
+    // Offset: 0x104B020
     void CycleSeed();
     // private System.Void GenerateState()
-    // Offset: 0xF4F590
+    // Offset: 0x104AF9C
     void GenerateState();
     // private System.Void DigestAddCounter(System.Int64 seedVal)
-    // Offset: 0xF4F310
+    // Offset: 0x104AD1C
     void DigestAddCounter(int64_t seedVal);
     // private System.Void DigestUpdate(System.Byte[] inSeed)
-    // Offset: 0xF4F0D8
+    // Offset: 0x104AAE4
     void DigestUpdate(::Array<uint8_t>* inSeed);
     // private System.Void DigestDoFinal(System.Byte[] result)
-    // Offset: 0xF4F1AC
+    // Offset: 0x104ABB8
     void DigestDoFinal(::Array<uint8_t>* result);
     // public System.Void NextBytes(System.Byte[] bytes)
-    // Offset: 0xF4F418
+    // Offset: 0x104AE24
     // Implemented from: Org.BouncyCastle.Crypto.Prng.IRandomGenerator
     // Base method: System.Void IRandomGenerator::NextBytes(System.Byte[] bytes)
     void NextBytes(::Array<uint8_t>* bytes);

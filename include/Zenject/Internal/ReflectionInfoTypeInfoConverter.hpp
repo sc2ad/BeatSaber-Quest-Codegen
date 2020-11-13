@@ -66,37 +66,37 @@ namespace Zenject::Internal {
     // Nested type: Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass9_0
     class $$c__DisplayClass9_0;
     // static public Zenject.InjectTypeInfo/InjectMethodInfo ConvertMethod(Zenject.Internal.ReflectionTypeInfo/InjectMethodInfo injectMethod)
-    // Offset: 0x122D64C
+    // Offset: 0x12A2704
     static Zenject::InjectTypeInfo::InjectMethodInfo* ConvertMethod(Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo* injectMethod);
     // static public Zenject.InjectTypeInfo/InjectConstructorInfo ConvertConstructor(Zenject.Internal.ReflectionTypeInfo/InjectConstructorInfo injectConstructor, System.Type type)
-    // Offset: 0x122D828
+    // Offset: 0x12A28E0
     static Zenject::InjectTypeInfo::InjectConstructorInfo* ConvertConstructor(Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo* injectConstructor, System::Type* type);
     // static public Zenject.InjectTypeInfo/InjectMemberInfo ConvertField(System.Type parentType, Zenject.Internal.ReflectionTypeInfo/InjectFieldInfo injectField)
-    // Offset: 0x122DB30
+    // Offset: 0x12A2BE8
     static Zenject::InjectTypeInfo::InjectMemberInfo* ConvertField(System::Type* parentType, Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo* injectField);
     // static public Zenject.InjectTypeInfo/InjectMemberInfo ConvertProperty(System.Type parentType, Zenject.Internal.ReflectionTypeInfo/InjectPropertyInfo injectProperty)
-    // Offset: 0x122DD84
+    // Offset: 0x12A2E3C
     static Zenject::InjectTypeInfo::InjectMemberInfo* ConvertProperty(System::Type* parentType, Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo* injectProperty);
     // static private Zenject.ZenFactoryMethod TryCreateFactoryMethod(System.Type type, Zenject.Internal.ReflectionTypeInfo/InjectConstructorInfo reflectionInfo)
-    // Offset: 0x122D988
+    // Offset: 0x12A2A40
     static Zenject::ZenFactoryMethod* TryCreateFactoryMethod(System::Type* type, Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo* reflectionInfo);
     // static private Zenject.ZenFactoryMethod TryCreateFactoryMethodCompiledLambdaExpression(System.Type type, System.Reflection.ConstructorInfo constructor)
-    // Offset: 0x122DE20
+    // Offset: 0x12A2ED8
     static Zenject::ZenFactoryMethod* TryCreateFactoryMethodCompiledLambdaExpression(System::Type* type, System::Reflection::ConstructorInfo* constructor);
     // static private Zenject.ZenInjectMethod TryCreateActionForMethod(System.Reflection.MethodInfo methodInfo)
-    // Offset: 0x122D820
+    // Offset: 0x12A28D8
     static Zenject::ZenInjectMethod* TryCreateActionForMethod(System::Reflection::MethodInfo* methodInfo);
     // static private System.Collections.Generic.IEnumerable`1<System.Reflection.FieldInfo> GetAllFields(System.Type t, System.Reflection.BindingFlags flags)
-    // Offset: 0x122DE28
+    // Offset: 0x12A2EE0
     static System::Collections::Generic::IEnumerable_1<System::Reflection::FieldInfo*>* GetAllFields(System::Type* t, System::Reflection::BindingFlags flags);
     // static private Zenject.ZenMemberSetterMethod GetOnlyPropertySetter(System.Type parentType, System.String propertyName)
-    // Offset: 0x122DFA8
+    // Offset: 0x12A3060
     static Zenject::ZenMemberSetterMethod* GetOnlyPropertySetter(System::Type* parentType, ::Il2CppString* propertyName);
     // static private Zenject.ZenMemberSetterMethod GetSetter(System.Type parentType, System.Reflection.MemberInfo memInfo)
-    // Offset: 0x122DBC4
+    // Offset: 0x12A2C7C
     static Zenject::ZenMemberSetterMethod* GetSetter(System::Type* parentType, System::Reflection::MemberInfo* memInfo);
     // static private Zenject.ZenMemberSetterMethod TryGetSetterAsCompiledExpression(System.Type parentType, System.Reflection.MemberInfo memInfo)
-    // Offset: 0x122E2D8
+    // Offset: 0x12A3390
     static Zenject::ZenMemberSetterMethod* TryGetSetterAsCompiledExpression(System::Type* parentType, System::Reflection::MemberInfo* memInfo);
   }; // Zenject.Internal.ReflectionInfoTypeInfoConverter
 }

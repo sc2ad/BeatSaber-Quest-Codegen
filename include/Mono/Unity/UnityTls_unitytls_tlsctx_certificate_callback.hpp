@@ -26,16 +26,16 @@ namespace Mono::Unity {
   class UnityTls::unitytls_tlsctx_certificate_callback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11FDCC8
+    // Offset: 0x1272D80
     static UnityTls::unitytls_tlsctx_certificate_callback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Void* userData, Mono.Unity.UnityTls/unitytls_tlsctx* ctx, System.Byte* cn, System.IntPtr cnLen, Mono.Unity.UnityTls/unitytls_x509name* caList, System.IntPtr caListLen, Mono.Unity.UnityTls/unitytls_x509list_ref* chain, Mono.Unity.UnityTls/unitytls_key_ref* key, Mono.Unity.UnityTls/unitytls_errorstate* errorState)
-    // Offset: 0x11FDCDC
+    // Offset: 0x1272D94
     void Invoke(void* userData, Mono::Unity::UnityTls::unitytls_tlsctx* ctx, uint8_t* cn, System::IntPtr cnLen, Mono::Unity::UnityTls::unitytls_x509name* caList, System::IntPtr caListLen, Mono::Unity::UnityTls::unitytls_x509list_ref* chain, Mono::Unity::UnityTls::unitytls_key_ref* key, Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // public System.IAsyncResult BeginInvoke(System.Void* userData, Mono.Unity.UnityTls/unitytls_tlsctx* ctx, System.Byte* cn, System.IntPtr cnLen, Mono.Unity.UnityTls/unitytls_x509name* caList, System.IntPtr caListLen, Mono.Unity.UnityTls/unitytls_x509list_ref* chain, Mono.Unity.UnityTls/unitytls_key_ref* key, Mono.Unity.UnityTls/unitytls_errorstate* errorState, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11FDFA4
+    // Offset: 0x127305C
     System::IAsyncResult* BeginInvoke(void* userData, Mono::Unity::UnityTls::unitytls_tlsctx* ctx, uint8_t* cn, System::IntPtr cnLen, Mono::Unity::UnityTls::unitytls_x509name* caList, System::IntPtr caListLen, Mono::Unity::UnityTls::unitytls_x509list_ref* chain, Mono::Unity::UnityTls::unitytls_key_ref* key, Mono::Unity::UnityTls::unitytls_errorstate* errorState, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11FE084
+    // Offset: 0x127313C
     void EndInvoke(System::IAsyncResult* result);
   }; // Mono.Unity.UnityTls/unitytls_tlsctx_certificate_callback
 }

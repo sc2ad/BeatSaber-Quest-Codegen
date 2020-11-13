@@ -66,26 +66,26 @@ namespace GlobalNamespace {
     // Offset: 0xA8
     HMUI::ToggleBinder* toggleBinder;
     // private System.Void SliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0x202FBC4
+    // Offset: 0x1A41940
     void SliderValueDidChange(HMUI::RangeValuesTextSlider* slider, float value);
     // private System.Void HandleOverrideAudioLatencyToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x202FC40
+    // Offset: 0x1A419BC
     void HandleOverrideAudioLatencyToggleValueChanged(bool isOn);
     // private System.Void RefreshVisuals(System.Boolean overrideAudioLatencyIsEnabled)
-    // Offset: 0x202F9E0
+    // Offset: 0x1A4175C
     void RefreshVisuals(bool overrideAudioLatencyIsEnabled);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x202F800
+    // Offset: 0x1A4157C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x202FADC
+    // Offset: 0x1A41858
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x202FCB8
+    // Offset: 0x1A41A34
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

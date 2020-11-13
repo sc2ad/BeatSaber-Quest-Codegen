@@ -30,16 +30,16 @@ namespace Org::BouncyCastle::Asn1::X9 {
       return y;
     }
     // static public Org.BouncyCastle.Asn1.X9.DHPublicKey GetInstance(System.Object obj)
-    // Offset: 0x16161A0
+    // Offset: 0x1584F9C
     static Org::BouncyCastle::Asn1::X9::DHPublicKey* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerInteger y)
-    // Offset: 0x1616320
+    // Offset: 0x158511C
     static DHPublicKey* New_ctor(Org::BouncyCastle::Asn1::DerInteger* y);
     // public Org.BouncyCastle.Asn1.DerInteger get_Y()
-    // Offset: 0x16163C4
+    // Offset: 0x15851C0
     Org::BouncyCastle::Asn1::DerInteger* get_Y();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x16163CC
+    // Offset: 0x15851C8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

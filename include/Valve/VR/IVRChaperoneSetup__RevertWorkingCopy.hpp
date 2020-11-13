@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRChaperoneSetup::_RevertWorkingCopy : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1B7ECD4
+    // Offset: 0x18E2AEC
     static IVRChaperoneSetup::_RevertWorkingCopy* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x1B7ECE8
+    // Offset: 0x18E2B00
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1B7EEF4
+    // Offset: 0x18E2D0C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1B7EF20
+    // Offset: 0x18E2D38
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperoneSetup/_RevertWorkingCopy
 }

@@ -32,15 +32,15 @@ namespace Org::BouncyCastle::Crypto::Prng {
       return rndProv;
     }
     // public System.Void .ctor(System.Security.Cryptography.RandomNumberGenerator rng)
-    // Offset: 0xF4EE44
+    // Offset: 0x104A850
     static CryptoApiRandomGenerator* New_ctor(System::Security::Cryptography::RandomNumberGenerator* rng);
     // public System.Void .ctor()
-    // Offset: 0xF4EE04
+    // Offset: 0x104A810
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CryptoApiRandomGenerator* New_ctor();
     // public System.Void NextBytes(System.Byte[] bytes)
-    // Offset: 0xF4EE78
+    // Offset: 0x104A884
     // Implemented from: Org.BouncyCastle.Crypto.Prng.IRandomGenerator
     // Base method: System.Void IRandomGenerator::NextBytes(System.Byte[] bytes)
     void NextBytes(::Array<uint8_t>* bytes);

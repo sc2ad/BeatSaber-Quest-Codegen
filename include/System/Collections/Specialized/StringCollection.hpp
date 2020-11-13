@@ -39,31 +39,31 @@ namespace System::Collections::Specialized {
       return data;
     }
     // public System.String get_Item(System.Int32 index)
-    // Offset: 0x14E0DF4
+    // Offset: 0x147F9D4
     ::Il2CppString* get_Item(int index);
     // public System.Void set_Item(System.Int32 index, System.String value)
-    // Offset: 0x14E0E80
+    // Offset: 0x147FA60
     void set_Item(int index, ::Il2CppString* value);
     // public System.Int32 Add(System.String value)
-    // Offset: 0x14E0ED0
+    // Offset: 0x147FAB0
     int Add(::Il2CppString* value);
     // public System.Boolean Contains(System.String value)
-    // Offset: 0x14E0F18
+    // Offset: 0x147FAF8
     bool Contains(::Il2CppString* value);
     // public System.Void CopyTo(System.String[] array, System.Int32 index)
-    // Offset: 0x14E0F3C
+    // Offset: 0x147FB1C
     void CopyTo(::Array<::Il2CppString*>* array, int index);
     // public System.Int32 IndexOf(System.String value)
-    // Offset: 0x14E0F60
+    // Offset: 0x147FB40
     int IndexOf(::Il2CppString* value);
     // public System.Void Insert(System.Int32 index, System.String value)
-    // Offset: 0x14E0F84
+    // Offset: 0x147FB64
     void Insert(int index, ::Il2CppString* value);
     // public System.Void Remove(System.String value)
-    // Offset: 0x14E0FA8
+    // Offset: 0x147FB88
     void Remove(::Il2CppString* value);
     // public System.Int32 get_Count()
-    // Offset: 0x14E0EA4
+    // Offset: 0x147FA84
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();
@@ -71,12 +71,12 @@ namespace System::Collections::Specialized {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // private System.Boolean System.Collections.IList.get_IsReadOnly()
-    // Offset: 0x14E0EC8
+    // Offset: 0x147FAA8
     // Implemented from: System.Collections.IList
     // Base method: System.Boolean IList::get_IsReadOnly()
     bool System_Collections_IList_get_IsReadOnly();
     // public System.Void Clear()
-    // Offset: 0x14E0EF4
+    // Offset: 0x147FAD4
     // Implemented from: System.Collections.IList
     // Base method: System.Void IList::Clear()
     void Clear();
@@ -84,7 +84,7 @@ namespace System::Collections::Specialized {
     // Maps to method: Clear
     void System_Collections_IList_Clear();
     // public System.Void RemoveAt(System.Int32 index)
-    // Offset: 0x14E0FCC
+    // Offset: 0x147FBAC
     // Implemented from: System.Collections.IList
     // Base method: System.Void IList::RemoveAt(System.Int32 index)
     void RemoveAt(int index);
@@ -92,52 +92,52 @@ namespace System::Collections::Specialized {
     // Maps to method: RemoveAt
     void System_Collections_IList_RemoveAt(int index);
     // private System.Object System.Collections.IList.get_Item(System.Int32 index)
-    // Offset: 0x14E0FF0
+    // Offset: 0x147FBD0
     // Implemented from: System.Collections.IList
     // Base method: System.Object IList::get_Item(System.Int32 index)
     ::Il2CppObject* System_Collections_IList_get_Item(int index);
     // private System.Void System.Collections.IList.set_Item(System.Int32 index, System.Object value)
-    // Offset: 0x14E0FF4
+    // Offset: 0x147FBD4
     // Implemented from: System.Collections.IList
     // Base method: System.Void IList::set_Item(System.Int32 index, System.Object value)
     void System_Collections_IList_set_Item(int index, ::Il2CppObject* value);
     // private System.Int32 System.Collections.IList.Add(System.Object value)
-    // Offset: 0x14E1088
+    // Offset: 0x147FC68
     // Implemented from: System.Collections.IList
     // Base method: System.Int32 IList::Add(System.Object value)
     int System_Collections_IList_Add(::Il2CppObject* value);
     // private System.Boolean System.Collections.IList.Contains(System.Object value)
-    // Offset: 0x14E1114
+    // Offset: 0x147FCF4
     // Implemented from: System.Collections.IList
     // Base method: System.Boolean IList::Contains(System.Object value)
     bool System_Collections_IList_Contains(::Il2CppObject* value);
     // private System.Int32 System.Collections.IList.IndexOf(System.Object value)
-    // Offset: 0x14E11A0
+    // Offset: 0x147FD80
     // Implemented from: System.Collections.IList
     // Base method: System.Int32 IList::IndexOf(System.Object value)
     int System_Collections_IList_IndexOf(::Il2CppObject* value);
     // private System.Void System.Collections.IList.Insert(System.Int32 index, System.Object value)
-    // Offset: 0x14E122C
+    // Offset: 0x147FE0C
     // Implemented from: System.Collections.IList
     // Base method: System.Void IList::Insert(System.Int32 index, System.Object value)
     void System_Collections_IList_Insert(int index, ::Il2CppObject* value);
     // private System.Void System.Collections.IList.Remove(System.Object value)
-    // Offset: 0x14E12C0
+    // Offset: 0x147FEA0
     // Implemented from: System.Collections.IList
     // Base method: System.Void IList::Remove(System.Object value)
     void System_Collections_IList_Remove(::Il2CppObject* value);
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x14E134C
+    // Offset: 0x147FF2C
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x14E1370
+    // Offset: 0x147FF50
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Void .ctor()
-    // Offset: 0x14E1394
+    // Offset: 0x147FF74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static StringCollection* New_ctor();

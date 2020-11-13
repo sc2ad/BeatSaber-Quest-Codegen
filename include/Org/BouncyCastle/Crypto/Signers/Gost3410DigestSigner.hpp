@@ -44,26 +44,28 @@ namespace Org::BouncyCastle::Crypto::Signers {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDsa signer, Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0xF53C6C
+    // Offset: 0x104F678
     static Gost3410DigestSigner* New_ctor(Org::BouncyCastle::Crypto::IDsa* signer, Org::BouncyCastle::Crypto::IDigest* digest);
-    // public System.Void Reset()
-    // Offset: 0xF5440C
-    void Reset();
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0xF53D64
+    // Offset: 0x104F770
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Void ISigner::Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0xF53F6C
+    // Offset: 0x104F978
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Void ISigner::BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     void BlockUpdate(::Array<uint8_t>* input, int inOff, int length);
     // public System.Byte[] GenerateSignature()
-    // Offset: 0xF54048
+    // Offset: 0x104FA54
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Byte[] ISigner::GenerateSignature()
     ::Array<uint8_t>* GenerateSignature();
+    // public System.Void Reset()
+    // Offset: 0x104FE18
+    // Implemented from: Org.BouncyCastle.Crypto.ISigner
+    // Base method: System.Void ISigner::Reset()
+    void Reset();
   }; // Org.BouncyCastle.Crypto.Signers.Gost3410DigestSigner
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

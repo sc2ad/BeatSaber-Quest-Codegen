@@ -26,20 +26,20 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   class EncryptionScheme : public Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier {
     public:
     // static public Org.BouncyCastle.Asn1.Pkcs.EncryptionScheme GetInstance(System.Object obj)
-    // Offset: 0x14087B4
+    // Offset: 0x13FA6AC
     static Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerObjectIdentifier objectID, Org.BouncyCastle.Asn1.Asn1Encodable parameters)
-    // Offset: 0x14086DC
+    // Offset: 0x13FA5D4
     // Implemented from: Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier
     // Base method: System.Void AlgorithmIdentifier::.ctor(Org.BouncyCastle.Asn1.DerObjectIdentifier objectID, Org.BouncyCastle.Asn1.Asn1Encodable parameters)
     static EncryptionScheme* New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier* objectID, Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x14086E4
+    // Offset: 0x13FA5DC
     // Implemented from: Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier
     // Base method: System.Void AlgorithmIdentifier::.ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     static EncryptionScheme* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1408934
+    // Offset: 0x13FA82C
     // Implemented from: Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier
     // Base method: Org.BouncyCastle.Asn1.Asn1Object AlgorithmIdentifier::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

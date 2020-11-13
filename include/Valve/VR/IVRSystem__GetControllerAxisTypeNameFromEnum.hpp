@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRSystem::_GetControllerAxisTypeNameFromEnum : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1CAB368
+    // Offset: 0x1929540
     static IVRSystem::_GetControllerAxisTypeNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(Valve.VR.EVRControllerAxisType eAxisType)
-    // Offset: 0x1CAB37C
+    // Offset: 0x1929554
     System::IntPtr Invoke(Valve::VR::EVRControllerAxisType eAxisType);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVRControllerAxisType eAxisType, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1CAB5F0
+    // Offset: 0x19297C8
     System::IAsyncResult* BeginInvoke(Valve::VR::EVRControllerAxisType eAxisType, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1CAB67C
+    // Offset: 0x1929854
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetControllerAxisTypeNameFromEnum
 }

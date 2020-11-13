@@ -51,28 +51,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public MissionObjective[] get_missionObjectives()
-    // Offset: 0x1FC65D4
+    // Offset: 0x1017848
     ::Array<GlobalNamespace::MissionObjective*>* get_missionObjectives();
     // public BeatmapLevelSO get_level()
-    // Offset: 0x1FC65DC
+    // Offset: 0x1017850
     GlobalNamespace::BeatmapLevelSO* get_level();
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x1FC65E4
+    // Offset: 0x1017858
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public BeatmapDifficulty get_beatmapDifficulty()
-    // Offset: 0x1FC65EC
+    // Offset: 0x1017860
     GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x1FC65F4
+    // Offset: 0x1017868
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public MissionHelpSO get_missionHelp()
-    // Offset: 0x1FC65FC
+    // Offset: 0x1017870
     GlobalNamespace::MissionHelpSO* get_missionHelp();
     // private System.Void OnValidate()
-    // Offset: 0x1FC6604
+    // Offset: 0x1017878
     void OnValidate();
     // public System.Void .ctor()
-    // Offset: 0x1FC66A8
+    // Offset: 0x101791C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

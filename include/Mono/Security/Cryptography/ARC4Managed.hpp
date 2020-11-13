@@ -35,83 +35,83 @@ namespace Mono::Security::Cryptography {
       return *reinterpret_cast<System::Security::Cryptography::ICryptoTransform*>(this);
     }
     // private System.Void KeySetup(System.Byte[] key)
-    // Offset: 0x1922DA4
+    // Offset: 0x17B1F2C
     void KeySetup(::Array<uint8_t>* key);
     // private System.Void CheckInput(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1923024
+    // Offset: 0x17B21AC
     void CheckInput(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
     // private System.Int32 InternalTransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
-    // Offset: 0x19232D8
+    // Offset: 0x17B2460
     int InternalTransformBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount, ::Array<uint8_t>* outputBuffer, int outputOffset);
     // public System.Void .ctor()
-    // Offset: 0x1922988
+    // Offset: 0x17B1B10
     // Implemented from: Mono.Security.Cryptography.RC4
     // Base method: System.Void RC4::.ctor()
     // Base method: System.Void SymmetricAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
     static ARC4Managed* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x1922AC0
+    // Offset: 0x17B1C48
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1922B34
+    // Offset: 0x17B1CBC
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Byte[] get_Key()
-    // Offset: 0x1922C10
+    // Offset: 0x17B1D98
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Byte[] SymmetricAlgorithm::get_Key()
     ::Array<uint8_t>* get_Key();
     // public override System.Void set_Key(System.Byte[] value)
-    // Offset: 0x1922CAC
+    // Offset: 0x17B1E34
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::set_Key(System.Byte[] value)
     void set_Key(::Array<uint8_t>* value);
     // public override System.Security.Cryptography.ICryptoTransform CreateEncryptor(System.Byte[] rgbKey, System.Byte[] rgvIV)
-    // Offset: 0x1922E98
+    // Offset: 0x17B2020
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateEncryptor(System.Byte[] rgbKey, System.Byte[] rgvIV)
     System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::Array<uint8_t>* rgbKey, ::Array<uint8_t>* rgvIV);
     // public override System.Security.Cryptography.ICryptoTransform CreateDecryptor(System.Byte[] rgbKey, System.Byte[] rgvIV)
-    // Offset: 0x1922EC4
+    // Offset: 0x17B204C
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateDecryptor(System.Byte[] rgbKey, System.Byte[] rgvIV)
     System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::Array<uint8_t>* rgbKey, ::Array<uint8_t>* rgvIV);
     // public override System.Void GenerateIV()
-    // Offset: 0x1922EFC
+    // Offset: 0x17B2084
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::GenerateIV()
     void GenerateIV();
     // public override System.Void GenerateKey()
-    // Offset: 0x1922F60
+    // Offset: 0x17B20E8
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::GenerateKey()
     void GenerateKey();
     // public System.Boolean get_CanTransformMultipleBlocks()
-    // Offset: 0x192300C
+    // Offset: 0x17B2194
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Boolean ICryptoTransform::get_CanTransformMultipleBlocks()
     bool get_CanTransformMultipleBlocks();
     // public System.Int32 get_InputBlockSize()
-    // Offset: 0x1923014
+    // Offset: 0x17B219C
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Int32 ICryptoTransform::get_InputBlockSize()
     int get_InputBlockSize();
     // public System.Int32 get_OutputBlockSize()
-    // Offset: 0x192301C
+    // Offset: 0x17B21A4
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Int32 ICryptoTransform::get_OutputBlockSize()
     int get_OutputBlockSize();
     // public System.Int32 TransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
-    // Offset: 0x192316C
+    // Offset: 0x17B22F4
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Int32 ICryptoTransform::TransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
     int TransformBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount, ::Array<uint8_t>* outputBuffer, int outputOffset);
     // public System.Byte[] TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1923430
+    // Offset: 0x17B25B8
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Byte[] ICryptoTransform::TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
     ::Array<uint8_t>* TransformFinalBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);

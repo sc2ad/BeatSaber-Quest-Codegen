@@ -31,19 +31,19 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x18
     ::Array<int>* offset;
     // System.Boolean <DeleteVertices>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> x)
-    // Offset: 0x11C860C
+    // Offset: 0x125399C
     bool $DeleteVertices$b__0(System::Collections::Generic::KeyValuePair_2<int, int> x);
     // System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> <DeleteVertices>b__1(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> y)
-    // Offset: 0x11C867C
+    // Offset: 0x1253A0C
     System::Collections::Generic::KeyValuePair_2<int, int> $DeleteVertices$b__1(System::Collections::Generic::KeyValuePair_2<int, int> y);
     // System.Boolean <DeleteVertices>b__2(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> x)
-    // Offset: 0x11C871C
+    // Offset: 0x1253AAC
     bool $DeleteVertices$b__2(System::Collections::Generic::KeyValuePair_2<int, int> x);
     // System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> <DeleteVertices>b__3(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> y)
-    // Offset: 0x11C878C
+    // Offset: 0x1253B1C
     System::Collections::Generic::KeyValuePair_2<int, int> $DeleteVertices$b__3(System::Collections::Generic::KeyValuePair_2<int, int> y);
     // public System.Void .ctor()
-    // Offset: 0x11C7E18
+    // Offset: 0x12531A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DeleteElements::$$c__DisplayClass0_0* New_ctor();

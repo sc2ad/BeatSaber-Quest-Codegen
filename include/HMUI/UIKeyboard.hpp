@@ -63,37 +63,37 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1EDEC18
+    // Offset: 0x197F4AC
     void add_okButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1EDECBC
+    // Offset: 0x197F550
     void remove_okButtonWasPressedEvent(System::Action* value);
     // public System.Void add_keyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x1EDED60
+    // Offset: 0x197F5F4
     void add_keyWasPressedEvent(System::Action_1<::Il2CppChar>* value);
     // public System.Void remove_keyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x1EDEE04
+    // Offset: 0x197F698
     void remove_keyWasPressedEvent(System::Action_1<::Il2CppChar>* value);
     // public System.Void add_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1EDEEA8
+    // Offset: 0x197F73C
     void add_deleteButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1EDEF4C
+    // Offset: 0x197F7E0
     void remove_deleteButtonWasPressedEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x1EDEFF0
+    // Offset: 0x197F884
     void Awake();
     // private System.Void HandleKeyPress(UnityEngine.KeyCode keyCode)
-    // Offset: 0x1EDF1D4
+    // Offset: 0x197FA68
     void HandleKeyPress(UnityEngine::KeyCode keyCode);
     // private System.Void <Awake>b__12_0()
-    // Offset: 0x1EDF30C
+    // Offset: 0x197FBA0
     void $Awake$b__12_0();
     // private System.Void <Awake>b__12_1()
-    // Offset: 0x1EDF320
+    // Offset: 0x197FBB4
     void $Awake$b__12_1();
     // public System.Void .ctor()
-    // Offset: 0x1EDF298
+    // Offset: 0x197FB2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

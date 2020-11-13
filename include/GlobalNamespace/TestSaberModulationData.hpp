@@ -80,10 +80,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     float multiplier;
     // public System.Single Evaluate(System.Single time)
-    // Offset: 0x1F9B450
+    // Offset: 0xFECB04
     float Evaluate(float time);
     // public System.Void .ctor()
-    // Offset: 0x1F9B5D4
+    // Offset: 0xFECC88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestSaberModulationData* New_ctor();

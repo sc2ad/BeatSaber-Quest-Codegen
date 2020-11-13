@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<BeatmapCharacteristicSO,System.String> <>9__5_0
     static void _set_$$9__5_0(System::Func_2<GlobalNamespace::BeatmapCharacteristicSO*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x20C5854
+    // Offset: 0x1A7D0C4
     static void _cctor();
     // System.String <Start>b__5_0(BeatmapCharacteristicSO x)
-    // Offset: 0x20C58C4
+    // Offset: 0x1A7D134
     ::Il2CppString* $Start$b__5_0(GlobalNamespace::BeatmapCharacteristicSO* x);
     // public System.Void .ctor()
-    // Offset: 0x20C58BC
+    // Offset: 0x1A7D12C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapCharacteristicsDropdown::$$c* New_ctor();

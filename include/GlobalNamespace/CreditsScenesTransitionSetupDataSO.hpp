@@ -25,16 +25,16 @@ namespace GlobalNamespace {
     // Offset: 0x30
     System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`1<CreditsScenesTransitionSetupDataSO> value)
-    // Offset: 0x1FBD4DC
+    // Offset: 0x1A55C0C
     void add_didFinishEvent(System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<CreditsScenesTransitionSetupDataSO> value)
-    // Offset: 0x1FBD580
+    // Offset: 0x1A55CB0
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* value);
     // public System.Void Finish()
-    // Offset: 0x1FBD1A0
+    // Offset: 0x1A558D0
     void Finish();
     // public System.Void .ctor()
-    // Offset: 0x1FBD624
+    // Offset: 0x1A55D54
     // Implemented from: NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()

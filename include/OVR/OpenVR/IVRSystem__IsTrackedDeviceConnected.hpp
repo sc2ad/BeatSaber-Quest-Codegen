@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_IsTrackedDeviceConnected : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C99288
+    // Offset: 0x1917460
     static IVRSystem::_IsTrackedDeviceConnected* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.UInt32 unDeviceIndex)
-    // Offset: 0x1C9929C
+    // Offset: 0x1917474
     bool Invoke(uint unDeviceIndex);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceIndex, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C99514
+    // Offset: 0x19176EC
     System::IAsyncResult* BeginInvoke(uint unDeviceIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C995A0
+    // Offset: 0x1917778
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_IsTrackedDeviceConnected
 }

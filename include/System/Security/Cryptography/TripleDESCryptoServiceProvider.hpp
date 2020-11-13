@@ -21,29 +21,29 @@ namespace System::Security::Cryptography {
   class TripleDESCryptoServiceProvider : public System::Security::Cryptography::TripleDES {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1208C64
+    // Offset: 0x127DD1C
     // Implemented from: System.Security.Cryptography.TripleDES
     // Base method: System.Void TripleDES::.ctor()
     // Base method: System.Void SymmetricAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
     static TripleDESCryptoServiceProvider* New_ctor();
     // public override System.Security.Cryptography.ICryptoTransform CreateEncryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
-    // Offset: 0x1209130
+    // Offset: 0x127E1E8
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateEncryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
     System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::Array<uint8_t>* rgbKey, ::Array<uint8_t>* rgbIV);
     // public override System.Security.Cryptography.ICryptoTransform CreateDecryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
-    // Offset: 0x1209594
+    // Offset: 0x127E64C
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateDecryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
     System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::Array<uint8_t>* rgbKey, ::Array<uint8_t>* rgbIV);
     // public override System.Void GenerateKey()
-    // Offset: 0x1209698
+    // Offset: 0x127E750
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::GenerateKey()
     void GenerateKey();
     // public override System.Void GenerateIV()
-    // Offset: 0x1209820
+    // Offset: 0x127E8D8
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::GenerateIV()
     void GenerateIV();

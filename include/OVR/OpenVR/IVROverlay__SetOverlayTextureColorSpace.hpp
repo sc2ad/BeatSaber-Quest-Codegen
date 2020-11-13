@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_SetOverlayTextureColorSpace : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C826C4
+    // Offset: 0x190089C
     static IVROverlay::_SetOverlayTextureColorSpace* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, OVR.OpenVR.EColorSpace eTextureColorSpace)
-    // Offset: 0x1C826D8
+    // Offset: 0x19008B0
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, OVR::OpenVR::EColorSpace eTextureColorSpace);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, OVR.OpenVR.EColorSpace eTextureColorSpace, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C8295C
+    // Offset: 0x1900B34
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, OVR::OpenVR::EColorSpace eTextureColorSpace, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C82A08
+    // Offset: 0x1900BE0
     OVR::OpenVR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_SetOverlayTextureColorSpace
 }

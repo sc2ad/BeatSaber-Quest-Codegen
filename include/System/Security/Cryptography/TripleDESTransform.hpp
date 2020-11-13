@@ -41,13 +41,13 @@ namespace System::Security::Cryptography {
     // Offset: 0x80
     System::Security::Cryptography::DESTransform* D3;
     // public System.Void .ctor(System.Security.Cryptography.TripleDES algo, System.Boolean encryption, System.Byte[] key, System.Byte[] iv)
-    // Offset: 0x1209234
+    // Offset: 0x127E2EC
     static TripleDESTransform* New_ctor(System::Security::Cryptography::TripleDES* algo, bool encryption, ::Array<uint8_t>* key, ::Array<uint8_t>* iv);
     // static System.Byte[] GetStrongKey()
-    // Offset: 0x120989C
+    // Offset: 0x127E954
     static ::Array<uint8_t>* GetStrongKey();
     // protected override System.Void ECB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1209954
+    // Offset: 0x127EA0C
     // Implemented from: Mono.Security.Cryptography.SymmetricTransform
     // Base method: System.Void SymmetricTransform::ECB(System.Byte[] input, System.Byte[] output)
     void ECB(::Array<uint8_t>* input, ::Array<uint8_t>* output);

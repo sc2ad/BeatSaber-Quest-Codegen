@@ -39,27 +39,27 @@ namespace GlobalNamespace {
     // Offset: 0x50
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0x2069708
+    // Offset: 0xF2DF9C
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0x2069724
+    // Offset: 0xF2DFB8
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0x2069770
+    // Offset: 0xF2E004
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0x20697AC
+    // Offset: 0xF2E040
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x206987C
+    // Offset: 0xF2E110
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()

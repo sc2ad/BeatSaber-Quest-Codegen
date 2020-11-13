@@ -52,7 +52,7 @@ namespace System {
     // Creating value type constructor for type: ParsingInfo
     constexpr ParsingInfo(System::Globalization::Calendar* calendar_ = {}, int dayOfWeek_ = {}, System::DateTimeParse::TM timeMark_ = {}, bool fUseHour12_ = {}, bool fUseTwoDigitYear_ = {}, bool fAllowInnerWhite_ = {}, bool fAllowTrailingWhite_ = {}, bool fCustomNumberParser_ = {}, System::DateTimeParse::MatchNumberDelegate* parseNumberDelegate_ = {}) noexcept : calendar{calendar_}, dayOfWeek{dayOfWeek_}, timeMark{timeMark_}, fUseHour12{fUseHour12_}, fUseTwoDigitYear{fUseTwoDigitYear_}, fAllowInnerWhite{fAllowInnerWhite_}, fAllowTrailingWhite{fAllowTrailingWhite_}, fCustomNumberParser{fCustomNumberParser_}, parseNumberDelegate{parseNumberDelegate_} {}
     // System.Void Init()
-    // Offset: 0xC78EC8
+    // Offset: 0xCA6BB4
     void Init();
   }; // System.ParsingInfo
 }

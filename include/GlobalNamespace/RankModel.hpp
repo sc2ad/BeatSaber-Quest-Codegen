@@ -19,10 +19,10 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::RankModel::Rank
     struct Rank;
     // static public System.String GetRankName(RankModel/Rank rank)
-    // Offset: 0x1F10B58
+    // Offset: 0x19A7770
     static ::Il2CppString* GetRankName(GlobalNamespace::RankModel::Rank rank);
     // static public RankModel/Rank GetRankForScore(System.Int32 rawScore, System.Int32 modifiedScore, System.Int32 maxRawScore, System.Int32 maxModifiedScore)
-    // Offset: 0x1F10BBC
+    // Offset: 0x19A77D4
     static GlobalNamespace::RankModel::Rank GetRankForScore(int rawScore, int modifiedScore, int maxRawScore, int maxModifiedScore);
   }; // RankModel
 }

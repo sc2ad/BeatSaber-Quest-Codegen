@@ -76,12 +76,12 @@ namespace GlobalNamespace {
     // public System.Void remove_onConnectionConnectedEvent(System.Action`1<IConnection> value)
     // Offset: 0xFFFFFFFF
     void remove_onConnectionConnectedEvent(System::Action_1<GlobalNamespace::IConnection*>* value);
-    // public System.Void add_onConnectionDisconnectedEvent(System.Action`1<IConnection> value)
+    // public System.Void add_onConnectionDisconnectedEvent(System.Action`2<IConnection,DisconnectedReason> value)
     // Offset: 0xFFFFFFFF
-    void add_onConnectionDisconnectedEvent(System::Action_1<GlobalNamespace::IConnection*>* value);
-    // public System.Void remove_onConnectionDisconnectedEvent(System.Action`1<IConnection> value)
+    void add_onConnectionDisconnectedEvent(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>* value);
+    // public System.Void remove_onConnectionDisconnectedEvent(System.Action`2<IConnection,DisconnectedReason> value)
     // Offset: 0xFFFFFFFF
-    void remove_onConnectionDisconnectedEvent(System::Action_1<GlobalNamespace::IConnection*>* value);
+    void remove_onConnectionDisconnectedEvent(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>* value);
     // public System.Void add_onLatencyUpdatedEvent(System.Action`2<IConnection,System.Single> value)
     // Offset: 0xFFFFFFFF
     void add_onLatencyUpdatedEvent(System::Action_2<GlobalNamespace::IConnection*, float>* value);
@@ -106,6 +106,9 @@ namespace GlobalNamespace {
     // public System.Boolean get_isConnecting()
     // Offset: 0xFFFFFFFF
     bool get_isConnecting();
+    // public System.Boolean get_isDisconnecting()
+    // Offset: 0xFFFFFFFF
+    bool get_isDisconnecting();
     // public System.Int32 get_connectionCount()
     // Offset: 0xFFFFFFFF
     int get_connectionCount();

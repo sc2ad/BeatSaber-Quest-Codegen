@@ -21,19 +21,19 @@ namespace System::Security::Cryptography {
       return KeyValue;
     }
     // public System.Byte[] get_Key()
-    // Offset: 0x17783D4
+    // Offset: 0x16988C8
     ::Array<uint8_t>* get_Key();
     // public System.Void set_Key(System.Byte[] value)
-    // Offset: 0x1778454
+    // Offset: 0x1698948
     void set_Key(::Array<uint8_t>* value);
     // protected System.Void .ctor()
-    // Offset: 0x1777390
+    // Offset: 0x1697884
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
     static KeyedHashAlgorithm* New_ctor();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1777320
+    // Offset: 0x1697814
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);

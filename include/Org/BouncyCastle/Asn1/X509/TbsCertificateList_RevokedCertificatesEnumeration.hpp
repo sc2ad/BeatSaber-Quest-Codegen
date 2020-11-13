@@ -39,10 +39,10 @@ namespace Org::BouncyCastle::Asn1::X509 {
       return en;
     }
     // System.Void .ctor(System.Collections.IEnumerable en)
-    // Offset: 0x160F9A4
+    // Offset: 0x157E7A0
     static TbsCertificateList::RevokedCertificatesEnumeration* New_ctor(System::Collections::IEnumerable* en);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x160F9E8
+    // Offset: 0x157E7E4
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();

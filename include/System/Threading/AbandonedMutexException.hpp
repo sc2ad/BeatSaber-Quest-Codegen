@@ -36,20 +36,20 @@ namespace System::Threading {
     // Offset: 0x90
     System::Threading::Mutex* m_Mutex;
     // public System.Void .ctor(System.Int32 location, System.Threading.WaitHandle handle)
-    // Offset: 0x17BDF00
+    // Offset: 0x16B1958
     static AbandonedMutexException* New_ctor(int location, System::Threading::WaitHandle* handle);
     // private System.Void SetupException(System.Int32 location, System.Threading.WaitHandle handle)
-    // Offset: 0x17BDF9C
+    // Offset: 0x16B19F4
     void SetupException(int location, System::Threading::WaitHandle* handle);
     // public System.Void .ctor()
-    // Offset: 0x17BDE84
+    // Offset: 0x16B18DC
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static AbandonedMutexException* New_ctor();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x17BE024
+    // Offset: 0x16B1A7C
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

@@ -28,16 +28,16 @@ namespace Mono::Unity {
   class UnityTls::unitytls_interface_struct::unitytls_x509list_free_t : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11FCE74
+    // Offset: 0x1271F2C
     static UnityTls::unitytls_interface_struct::unitytls_x509list_free_t* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Mono.Unity.UnityTls/unitytls_x509list* list)
-    // Offset: 0x11FCE88
+    // Offset: 0x1271F40
     void Invoke(Mono::Unity::UnityTls::unitytls_x509list* list);
     // public System.IAsyncResult BeginInvoke(Mono.Unity.UnityTls/unitytls_x509list* list, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11FD0D8
+    // Offset: 0x1272190
     System::IAsyncResult* BeginInvoke(Mono::Unity::UnityTls::unitytls_x509list* list, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11FD0FC
+    // Offset: 0x12721B4
     void EndInvoke(System::IAsyncResult* result);
   }; // Mono.Unity.UnityTls/unitytls_interface_struct/unitytls_x509list_free_t
 }

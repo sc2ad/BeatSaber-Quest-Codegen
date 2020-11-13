@@ -24,10 +24,10 @@ namespace TMPro {
     // Creating value type constructor for type: Extents
     constexpr Extents(UnityEngine::Vector2 min_ = {}, UnityEngine::Vector2 max_ = {}) noexcept : min{min_}, max{max_} {}
     // public System.Void .ctor(UnityEngine.Vector2 min, UnityEngine.Vector2 max)
-    // Offset: 0xC58684
+    // Offset: 0xC926E8
     // ABORTED: conflicts with another method.  Extents(UnityEngine::Vector2 min, UnityEngine::Vector2 max);
     // public override System.String ToString()
-    // Offset: 0xC58690
+    // Offset: 0xC926F4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

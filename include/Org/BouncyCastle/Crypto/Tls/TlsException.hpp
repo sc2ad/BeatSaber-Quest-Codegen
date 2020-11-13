@@ -20,7 +20,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
   class TlsException : public System::IO::IOException {
     public:
     // public System.Void .ctor(System.String message, System.Exception cause)
-    // Offset: 0xF5C1D4
+    // Offset: 0x1057CA4
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor(System.String message, System.Exception cause)
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception cause)

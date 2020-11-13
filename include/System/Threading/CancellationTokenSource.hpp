@@ -122,93 +122,93 @@ namespace System::Threading {
     // Set static field: static private readonly System.Threading.TimerCallback s_timerCallback
     static void _set_s_timerCallback(System::Threading::TimerCallback* value);
     // static private System.Void LinkedTokenCancelDelegate(System.Object source)
-    // Offset: 0x17BF668
+    // Offset: 0x16B30C0
     static void LinkedTokenCancelDelegate(::Il2CppObject* source);
     // public System.Boolean get_IsCancellationRequested()
-    // Offset: 0x17BE50C
+    // Offset: 0x16B1F64
     bool get_IsCancellationRequested();
     // System.Boolean get_IsCancellationCompleted()
-    // Offset: 0x17BF414
+    // Offset: 0x16B2E6C
     bool get_IsCancellationCompleted();
     // System.Boolean get_IsDisposed()
-    // Offset: 0x17BF71C
+    // Offset: 0x16B3174
     bool get_IsDisposed();
     // System.Void set_ThreadIDExecutingCallbacks(System.Int32 value)
-    // Offset: 0x17BF724
+    // Offset: 0x16B317C
     void set_ThreadIDExecutingCallbacks(int value);
     // System.Int32 get_ThreadIDExecutingCallbacks()
-    // Offset: 0x17BF43C
+    // Offset: 0x16B2E94
     int get_ThreadIDExecutingCallbacks();
     // public System.Threading.CancellationToken get_Token()
-    // Offset: 0x17BF74C
+    // Offset: 0x16B31A4
     System::Threading::CancellationToken get_Token();
     // System.Boolean get_CanBeCanceled()
-    // Offset: 0x17BE56C
+    // Offset: 0x16B1FC4
     bool get_CanBeCanceled();
     // System.Threading.CancellationCallbackInfo get_ExecutingCallback()
-    // Offset: 0x17BF7EC
+    // Offset: 0x16B3244
     System::Threading::CancellationCallbackInfo* get_ExecutingCallback();
     // private System.Void .ctor(System.Boolean set)
-    // Offset: 0x17BF850
+    // Offset: 0x16B32A8
     static CancellationTokenSource* New_ctor(bool set);
     // public System.Void Cancel()
-    // Offset: 0x17BF6F4
+    // Offset: 0x16B314C
     void Cancel();
     // public System.Void Cancel(System.Boolean throwOnFirstException)
-    // Offset: 0x17BF8A4
+    // Offset: 0x16B32FC
     void Cancel(bool throwOnFirstException);
     // public System.Void CancelAfter(System.TimeSpan delay)
-    // Offset: 0x17BFA40
+    // Offset: 0x16B3498
     void CancelAfter(System::TimeSpan delay);
     // public System.Void CancelAfter(System.Int32 millisecondsDelay)
-    // Offset: 0x17BFAF0
+    // Offset: 0x16B3548
     void CancelAfter(int millisecondsDelay);
     // static private System.Void TimerCallbackLogic(System.Object obj)
-    // Offset: 0x17BFCD8
+    // Offset: 0x16B3730
     static void TimerCallbackLogic(::Il2CppObject* obj);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x17BFE84
+    // Offset: 0x16B38DC
     void Dispose(bool disposing);
     // System.Void ThrowIfDisposed()
-    // Offset: 0x17BF780
+    // Offset: 0x16B31D8
     void ThrowIfDisposed();
     // static private System.Void ThrowObjectDisposedException()
-    // Offset: 0x17BFF90
+    // Offset: 0x16B39E8
     static void ThrowObjectDisposedException();
     // static System.Threading.CancellationTokenSource InternalGetStaticSource(System.Boolean set)
-    // Offset: 0x17BEE84
+    // Offset: 0x16B28DC
     static System::Threading::CancellationTokenSource* InternalGetStaticSource(bool set);
     // System.Threading.CancellationTokenRegistration InternalRegister(System.Action`1<System.Object> callback, System.Object stateForCallback, System.Threading.SynchronizationContext targetSyncContext, System.Threading.ExecutionContext executionContext)
-    // Offset: 0x17BEAE0
+    // Offset: 0x16B2538
     System::Threading::CancellationTokenRegistration InternalRegister(System::Action_1<::Il2CppObject*>* callback, ::Il2CppObject* stateForCallback, System::Threading::SynchronizationContext* targetSyncContext, System::Threading::ExecutionContext* executionContext);
     // private System.Void NotifyCancellation(System.Boolean throwOnFirstException)
-    // Offset: 0x17BF8D0
+    // Offset: 0x16B3328
     void NotifyCancellation(bool throwOnFirstException);
     // private System.Void ExecuteCallbackHandlers(System.Boolean throwOnFirstException)
-    // Offset: 0x17C00A0
+    // Offset: 0x16B3AF8
     void ExecuteCallbackHandlers(bool throwOnFirstException);
     // private System.Void CancellationCallbackCoreWork_OnSyncContext(System.Object obj)
-    // Offset: 0x17C05F4
+    // Offset: 0x16B404C
     void CancellationCallbackCoreWork_OnSyncContext(::Il2CppObject* obj);
     // private System.Void CancellationCallbackCoreWork(System.Threading.CancellationCallbackCoreWorkArguments args)
-    // Offset: 0x17C051C
+    // Offset: 0x16B3F74
     void CancellationCallbackCoreWork(System::Threading::CancellationCallbackCoreWorkArguments args);
     // static public System.Threading.CancellationTokenSource CreateLinkedTokenSource(System.Threading.CancellationToken token1, System.Threading.CancellationToken token2)
-    // Offset: 0x17C067C
+    // Offset: 0x16B40D4
     static System::Threading::CancellationTokenSource* CreateLinkedTokenSource(System::Threading::CancellationToken token1, System::Threading::CancellationToken token2);
     // System.Void WaitForCallbackToComplete(System.Threading.CancellationCallbackInfo callbackInfo)
-    // Offset: 0x17BF460
+    // Offset: 0x16B2EB8
     void WaitForCallbackToComplete(System::Threading::CancellationCallbackInfo* callbackInfo);
     // static private System.Void .cctor()
-    // Offset: 0x17C08B8
+    // Offset: 0x16B4310
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x17BF810
+    // Offset: 0x16B3268
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CancellationTokenSource* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0x17BFE08
+    // Offset: 0x16B3860
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

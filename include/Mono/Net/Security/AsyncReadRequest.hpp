@@ -23,12 +23,12 @@ namespace Mono::Net::Security {
   class AsyncReadRequest : public Mono::Net::Security::AsyncReadOrWriteRequest {
     public:
     // public System.Void .ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean sync, System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x11F08AC
+    // Offset: 0x1265964
     // Implemented from: Mono.Net.Security.AsyncReadOrWriteRequest
     // Base method: System.Void AsyncReadOrWriteRequest::.ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean sync, System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     static AsyncReadRequest* New_ctor(Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::Array<uint8_t>* buffer, int offset, int size);
     // protected override Mono.Net.Security.AsyncOperationStatus Run(Mono.Net.Security.AsyncOperationStatus status)
-    // Offset: 0x11F08B4
+    // Offset: 0x126596C
     // Implemented from: Mono.Net.Security.AsyncProtocolRequest
     // Base method: Mono.Net.Security.AsyncOperationStatus AsyncProtocolRequest::Run(Mono.Net.Security.AsyncOperationStatus status)
     Mono::Net::Security::AsyncOperationStatus Run(Mono::Net::Security::AsyncOperationStatus status);

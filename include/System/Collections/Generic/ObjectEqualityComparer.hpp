@@ -22,20 +22,20 @@ namespace System::Collections::Generic {
     // Set static field: static readonly System.Collections.Generic.ObjectEqualityComparer Default
     static void _set_Default(System::Collections::Generic::ObjectEqualityComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x13AD66C
+    // Offset: 0x1CB675C
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x13AD614
+    // Offset: 0x1CB6704
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ObjectEqualityComparer* New_ctor();
     // private System.Int32 System.Collections.IEqualityComparer.GetHashCode(System.Object obj)
-    // Offset: 0x13AD61C
+    // Offset: 0x1CB670C
     // Implemented from: System.Collections.IEqualityComparer
     // Base method: System.Int32 IEqualityComparer::GetHashCode(System.Object obj)
     int System_Collections_IEqualityComparer_GetHashCode(::Il2CppObject* obj);
     // private System.Boolean System.Collections.IEqualityComparer.Equals(System.Object x, System.Object y)
-    // Offset: 0x13AD63C
+    // Offset: 0x1CB672C
     // Implemented from: System.Collections.IEqualityComparer
     // Base method: System.Boolean IEqualityComparer::Equals(System.Object x, System.Object y)
     bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* x, ::Il2CppObject* y);

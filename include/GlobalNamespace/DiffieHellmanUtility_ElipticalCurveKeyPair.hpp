@@ -14,6 +14,11 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
+// Forward declaring namespace: Org::BouncyCastle::Crypto::Agreement
+namespace Org::BouncyCastle::Crypto::Agreement {
+  // Forward declaring type: ECDHBasicAgreement
+  class ECDHBasicAgreement;
+}
 // Forward declaring namespace: Org::BouncyCastle::Crypto::Parameters
 namespace Org::BouncyCastle::Crypto::Parameters {
   // Forward declaring type: ECPrivateKeyParameters
@@ -33,9 +38,9 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::$$c__DisplayClass5_0
     class $$c__DisplayClass5_0;
-    // private readonly Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters _privateKeyParameters
+    // private readonly Org.BouncyCastle.Crypto.Agreement.ECDHBasicAgreement _ecdhBasicAgreement
     // Offset: 0x10
-    Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privateKeyParameters;
+    Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* ecdhBasicAgreement;
     // private readonly System.Byte[] _publicKey
     // Offset: 0x18
     ::Array<uint8_t>* publicKey;
@@ -44,18 +49,23 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IDiffieHellmanKeyPair*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters privateKeyParameters, System.Byte[] publicKey)
-    // Offset: 0x215CA00
+    // Offset: 0x1B4AA5C
     static DiffieHellmanUtility::ElipticalCurveKeyPair* New_ctor(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privateKeyParameters, ::Array<uint8_t>* publicKey);
     // public System.Byte[] get_publicKey()
-    // Offset: 0x215CF9C
+    // Offset: 0x1B4B13C
     // Implemented from: IDiffieHellmanKeyPair
     // Base method: System.Byte[] IDiffieHellmanKeyPair::get_publicKey()
     ::Array<uint8_t>* get_publicKey();
     // public System.Threading.Tasks.Task`1<System.Byte[]> GetPreMasterSecretAsync(System.Byte[] clientPublicKey)
-    // Offset: 0x215CFA4
+    // Offset: 0x1B4B144
     // Implemented from: IDiffieHellmanKeyPair
     // Base method: System.Threading.Tasks.Task`1<System.Byte[]> IDiffieHellmanKeyPair::GetPreMasterSecretAsync(System.Byte[] clientPublicKey)
     System::Threading::Tasks::Task_1<::Array<uint8_t>*>* GetPreMasterSecretAsync(::Array<uint8_t>* clientPublicKey);
+    // public System.Byte[] GetPreMasterSecret(System.Byte[] clientPublicKey)
+    // Offset: 0x1B4B240
+    // Implemented from: IDiffieHellmanKeyPair
+    // Base method: System.Byte[] IDiffieHellmanKeyPair::GetPreMasterSecret(System.Byte[] clientPublicKey)
+    ::Array<uint8_t>* GetPreMasterSecret(::Array<uint8_t>* clientPublicKey);
   }; // DiffieHellmanUtility/ElipticalCurveKeyPair
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

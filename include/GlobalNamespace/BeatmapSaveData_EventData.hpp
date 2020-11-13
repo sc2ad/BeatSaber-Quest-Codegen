@@ -31,21 +31,21 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::BeatmapSaveData::ITime*>(this);
     }
     // public BeatmapSaveData/BeatmapEventType get_type()
-    // Offset: 0x1FAC350
+    // Offset: 0x1A2D4B0
     GlobalNamespace::BeatmapSaveData::BeatmapEventType get_type();
     // public System.Int32 get_value()
-    // Offset: 0x1FAC358
+    // Offset: 0x1A2D4B8
     int get_value();
     // public System.Void .ctor(System.Single time, BeatmapSaveData/BeatmapEventType type, System.Int32 value)
-    // Offset: 0x1FAC360
+    // Offset: 0x1A2D4C0
     static BeatmapSaveData::EventData* New_ctor(float time, GlobalNamespace::BeatmapSaveData::BeatmapEventType type, int value);
     // public System.Single get_time()
-    // Offset: 0x1FAC348
+    // Offset: 0x1A2D4A8
     // Implemented from: BeatmapSaveData/ITime
     // Base method: System.Single ITime::get_time()
     float get_time();
     // public System.Void MoveTime(System.Single offset)
-    // Offset: 0x1FAC3A8
+    // Offset: 0x1A2D508
     // Implemented from: BeatmapSaveData/ITime
     // Base method: System.Void ITime::MoveTime(System.Single offset)
     void MoveTime(float offset);

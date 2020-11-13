@@ -31,10 +31,10 @@ namespace UnityEngine::Analytics {
     // Set static field: static private UnityEngine.Analytics.AnalyticsSessionInfo/IdentityTokenChanged identityTokenChanged
     static void _set_identityTokenChanged(UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged* value);
     // static System.Void CallSessionStateChanged(UnityEngine.Analytics.AnalyticsSessionState sessionState, System.Int64 sessionId, System.Int64 sessionElapsedTime, System.Boolean sessionChanged)
-    // Offset: 0x1F793A4
+    // Offset: 0x1A096E0
     static void CallSessionStateChanged(UnityEngine::Analytics::AnalyticsSessionState sessionState, int64_t sessionId, int64_t sessionElapsedTime, bool sessionChanged);
     // static System.Void CallIdentityTokenChanged(System.String token)
-    // Offset: 0x1F79700
+    // Offset: 0x1A09A3C
     static void CallIdentityTokenChanged(::Il2CppString* token);
   }; // UnityEngine.Analytics.AnalyticsSessionInfo
 }

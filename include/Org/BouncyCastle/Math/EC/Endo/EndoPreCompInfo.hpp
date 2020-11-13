@@ -36,19 +36,19 @@ namespace Org::BouncyCastle::Math::EC::Endo {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
     }
     // public Org.BouncyCastle.Math.EC.Endo.ECEndomorphism get_Endomorphism()
-    // Offset: 0x1D6B670
+    // Offset: 0x193D2A0
     Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* get_Endomorphism();
     // public System.Void set_Endomorphism(Org.BouncyCastle.Math.EC.Endo.ECEndomorphism value)
-    // Offset: 0x1D6B678
+    // Offset: 0x193D2A8
     void set_Endomorphism(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* value);
     // public Org.BouncyCastle.Math.EC.ECPoint get_MappedPoint()
-    // Offset: 0x1D6B680
+    // Offset: 0x193D2B0
     Org::BouncyCastle::Math::EC::ECPoint* get_MappedPoint();
     // public System.Void set_MappedPoint(Org.BouncyCastle.Math.EC.ECPoint value)
-    // Offset: 0x1D6B688
+    // Offset: 0x193D2B8
     void set_MappedPoint(Org::BouncyCastle::Math::EC::ECPoint* value);
     // public System.Void .ctor()
-    // Offset: 0x1D6B690
+    // Offset: 0x193D2C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EndoPreCompInfo* New_ctor();

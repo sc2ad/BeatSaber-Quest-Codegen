@@ -31,7 +31,7 @@ namespace System::Net {
     // Offset: 0x18
     System::Security::Authentication::ExtendedProtection::ServiceNameCollection* serviceNameCollection;
     // public System.Void .ctor()
-    // Offset: 0x10CD49C
+    // Offset: 0x11A2DCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ServiceNameStore* New_ctor();

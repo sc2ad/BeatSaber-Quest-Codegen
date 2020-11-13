@@ -36,31 +36,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x21E7BDC
+    // Offset: 0xFFE238
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x21E7C40
+    // Offset: 0xFFE29C
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x21E7E10
+    // Offset: 0xFFE46C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x21E7EE8
+    // Offset: 0xFFE544
     void OnDisable();
     // private System.Void HandleRoomCenterDidChange()
-    // Offset: 0x21E7FC0
+    // Offset: 0xFFE61C
     void HandleRoomCenterDidChange();
     // private System.Void HandleRoomRotationDidChange()
-    // Offset: 0x21E8038
+    // Offset: 0xFFE694
     void HandleRoomRotationDidChange();
     // protected System.Void Update()
-    // Offset: 0x21E80E4
+    // Offset: 0xFFE740
     void Update();
     // public System.Void ResetRoom()
-    // Offset: 0x21E7D64
+    // Offset: 0xFFE3C0
     void ResetRoom();
     // public System.Void .ctor()
-    // Offset: 0x21E8120
+    // Offset: 0xFFE77C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -14,7 +14,7 @@ namespace UnityEngine {
   class PreloadData : public UnityEngine::Object {
     public:
     // System.Void PreloadDataDontStripMe()
-    // Offset: 0x1943BCC
+    // Offset: 0x1735C00
     void PreloadDataDontStripMe();
   }; // UnityEngine.PreloadData
 }

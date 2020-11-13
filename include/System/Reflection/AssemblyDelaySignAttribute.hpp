@@ -21,7 +21,7 @@ namespace System::Reflection {
       return m_delaySign;
     }
     // public System.Void .ctor(System.Boolean delaySign)
-    // Offset: 0x1858FA4
+    // Offset: 0x172064C
     static AssemblyDelaySignAttribute* New_ctor(bool delaySign);
   }; // System.Reflection.AssemblyDelaySignAttribute
 }

@@ -39,13 +39,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Nested type: UnityEngine::ProBuilder::MeshOperations::MergeElements::$$c
     class $$c;
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> MergePairs(UnityEngine.ProBuilder.ProBuilderMesh target, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face>> pairs, System.Boolean collapseCoincidentVertices)
-    // Offset: 0x1349570
+    // Offset: 0x13899FC
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>* MergePairs(UnityEngine::ProBuilder::ProBuilderMesh* target, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::Face*, UnityEngine::ProBuilder::Face*>>* pairs, bool collapseCoincidentVertices);
     // static public UnityEngine.ProBuilder.Face Merge(UnityEngine.ProBuilder.ProBuilderMesh target, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x1349EF4
+    // Offset: 0x138A380
     static UnityEngine::ProBuilder::Face* Merge(UnityEngine::ProBuilder::ProBuilderMesh* target, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);
     // static System.Void CollapseCoincidentVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x1349AB4
+    // Offset: 0x1389F40
     static void CollapseCoincidentVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);
   }; // UnityEngine.ProBuilder.MeshOperations.MergeElements
 }

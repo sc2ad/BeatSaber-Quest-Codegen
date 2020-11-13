@@ -33,52 +33,52 @@ namespace UnityEngine::Playables {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x193F55C
+    // Offset: 0x1731588
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayableBehaviour* New_ctor();
     // public System.Void OnGraphStart(UnityEngine.Playables.Playable playable)
-    // Offset: 0x193F564
+    // Offset: 0x1731590
     // Implemented from: UnityEngine.Playables.IPlayableBehaviour
     // Base method: System.Void IPlayableBehaviour::OnGraphStart(UnityEngine.Playables.Playable playable)
     void OnGraphStart(UnityEngine::Playables::Playable playable);
     // public System.Void OnGraphStop(UnityEngine.Playables.Playable playable)
-    // Offset: 0x193F568
+    // Offset: 0x1731594
     // Implemented from: UnityEngine.Playables.IPlayableBehaviour
     // Base method: System.Void IPlayableBehaviour::OnGraphStop(UnityEngine.Playables.Playable playable)
     void OnGraphStop(UnityEngine::Playables::Playable playable);
     // public System.Void OnPlayableCreate(UnityEngine.Playables.Playable playable)
-    // Offset: 0x193F56C
+    // Offset: 0x1731598
     // Implemented from: UnityEngine.Playables.IPlayableBehaviour
     // Base method: System.Void IPlayableBehaviour::OnPlayableCreate(UnityEngine.Playables.Playable playable)
     void OnPlayableCreate(UnityEngine::Playables::Playable playable);
     // public System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0x193F570
+    // Offset: 0x173159C
     // Implemented from: UnityEngine.Playables.IPlayableBehaviour
     // Base method: System.Void IPlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     void OnPlayableDestroy(UnityEngine::Playables::Playable playable);
     // public System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x193F574
+    // Offset: 0x17315A0
     // Implemented from: UnityEngine.Playables.IPlayableBehaviour
     // Base method: System.Void IPlayableBehaviour::OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public System.Void OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x193F578
+    // Offset: 0x17315A4
     // Implemented from: UnityEngine.Playables.IPlayableBehaviour
     // Base method: System.Void IPlayableBehaviour::OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPause(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public System.Void PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x193F57C
+    // Offset: 0x17315A8
     // Implemented from: UnityEngine.Playables.IPlayableBehaviour
     // Base method: System.Void IPlayableBehaviour::PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void PrepareFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x193F580
+    // Offset: 0x17315AC
     // Implemented from: UnityEngine.Playables.IPlayableBehaviour
     // Base method: System.Void IPlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
     // public System.Object Clone()
-    // Offset: 0x193F584
+    // Offset: 0x17315B0
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();

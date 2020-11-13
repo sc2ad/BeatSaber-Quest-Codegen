@@ -36,16 +36,16 @@ namespace GlobalNamespace {
       return poseDictionary;
     }
     // public System.Int32 GetState(StandardScoreSyncState/Score type, System.Single time)
-    // Offset: 0x205BA5C
+    // Offset: 0xFA4BB8
     int GetState(GlobalNamespace::StandardScoreSyncState_Score type, float time);
     // public System.Void SetState(StandardScoreSyncState/Score type, System.Int32 state)
-    // Offset: 0x205BADC
+    // Offset: 0xFA4C38
     void SetState(GlobalNamespace::StandardScoreSyncState_Score type, int state);
     // public System.Void SetMockedState(StandardScoreSyncState/Score type, System.Int32 state)
-    // Offset: 0x205B6BC
+    // Offset: 0xFA4C3C
     void SetMockedState(GlobalNamespace::StandardScoreSyncState_Score type, int state);
     // public System.Void .ctor(IConnectedPlayer player, System.Single reliableUpdateFrequency, System.Single unreliableUpdateFrequency, System.Int32 size, StateBuffer`3/InterpolationDelegate<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> interpolator, StateBuffer`3/SmoothingDelegate<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> smoother)
-    // Offset: 0x205B2B0
+    // Offset: 0xFA4CAC
     static MockStandardScoreSyncState* New_ctor(GlobalNamespace::IConnectedPlayer* player, float reliableUpdateFrequency, float unreliableUpdateFrequency, int size, typename GlobalNamespace::StateBuffer_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>::InterpolationDelegate* interpolator, typename GlobalNamespace::StateBuffer_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>::SmoothingDelegate* smoother);
   }; // MockStandardScoreSyncState
 }

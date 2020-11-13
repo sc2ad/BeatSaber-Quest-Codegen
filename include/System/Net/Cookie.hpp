@@ -112,127 +112,127 @@ namespace System::Net {
     // Set static field: static private System.Net.Comparer staticComparer
     static void _set_staticComparer(System::Net::Comparer* value);
     // public System.String get_Comment()
-    // Offset: 0x12ADBB4
+    // Offset: 0x130D3A0
     ::Il2CppString* get_Comment();
     // public System.Void set_Comment(System.String value)
-    // Offset: 0x12ADBBC
+    // Offset: 0x130D3A8
     void set_Comment(::Il2CppString* value);
     // public System.Void set_CommentUri(System.Uri value)
-    // Offset: 0x12ADC2C
+    // Offset: 0x130D418
     void set_CommentUri(System::Uri* value);
     // public System.Void set_HttpOnly(System.Boolean value)
-    // Offset: 0x12ADC34
+    // Offset: 0x130D420
     void set_HttpOnly(bool value);
     // public System.Void set_Discard(System.Boolean value)
-    // Offset: 0x12ADC40
+    // Offset: 0x130D42C
     void set_Discard(bool value);
     // public System.String get_Domain()
-    // Offset: 0x12ADC4C
+    // Offset: 0x130D438
     ::Il2CppString* get_Domain();
     // public System.Void set_Domain(System.String value)
-    // Offset: 0x12ADC54
+    // Offset: 0x130D440
     void set_Domain(::Il2CppString* value);
     // private System.String get__Domain()
-    // Offset: 0x12ADCF8
+    // Offset: 0x130D4E4
     ::Il2CppString* get__Domain();
     // public System.Boolean get_Expired()
-    // Offset: 0x12ADDCC
+    // Offset: 0x130D5B8
     bool get_Expired();
     // public System.Void set_Expires(System.DateTime value)
-    // Offset: 0x12ADEA8
+    // Offset: 0x130D694
     void set_Expires(System::DateTime value);
     // public System.String get_Name()
-    // Offset: 0x12ADEB0
+    // Offset: 0x130D69C
     ::Il2CppString* get_Name();
     // public System.Void set_Name(System.String value)
-    // Offset: 0x12ADEB8
+    // Offset: 0x130D6A4
     void set_Name(::Il2CppString* value);
     // System.Boolean InternalSetName(System.String value)
-    // Offset: 0x12AE010
+    // Offset: 0x130D7FC
     bool InternalSetName(::Il2CppString* value);
     // public System.String get_Path()
-    // Offset: 0x12AE134
+    // Offset: 0x130D920
     ::Il2CppString* get_Path();
     // public System.Void set_Path(System.String value)
-    // Offset: 0x12AE13C
+    // Offset: 0x130D928
     void set_Path(::Il2CppString* value);
     // private System.String get__Path()
-    // Offset: 0x12AE1C4
+    // Offset: 0x130D9B0
     ::Il2CppString* get__Path();
     // System.Boolean get_Plain()
-    // Offset: 0x12ADDBC
+    // Offset: 0x130D5A8
     bool get_Plain();
     // static private System.Boolean IsDomainEqualToHost(System.String domain, System.String host)
-    // Offset: 0x12AE25C
+    // Offset: 0x130DA48
     static bool IsDomainEqualToHost(::Il2CppString* domain, ::Il2CppString* host);
     // System.Boolean VerifySetDefaults(System.Net.CookieVariant variant, System.Uri uri, System.Boolean isLocalDomain, System.String localDomain, System.Boolean set_default, System.Boolean isThrow)
-    // Offset: 0x12AE2C0
+    // Offset: 0x130DAAC
     bool VerifySetDefaults(System::Net::CookieVariant variant, System::Uri* uri, bool isLocalDomain, ::Il2CppString* localDomain, bool set_default, bool isThrow);
     // static private System.Boolean DomainCharsTest(System.String name)
-    // Offset: 0x12AED5C
+    // Offset: 0x130E548
     static bool DomainCharsTest(::Il2CppString* name);
     // public System.String get_Port()
-    // Offset: 0x12AEEC8
+    // Offset: 0x130E6B4
     ::Il2CppString* get_Port();
     // public System.Void set_Port(System.String value)
-    // Offset: 0x12AEED0
+    // Offset: 0x130E6BC
     void set_Port(::Il2CppString* value);
     // System.Int32[] get_PortList()
-    // Offset: 0x12AF1B4
+    // Offset: 0x130E9A0
     ::Array<int>* get_PortList();
     // private System.String get__Port()
-    // Offset: 0x12AF1BC
+    // Offset: 0x130E9A8
     ::Il2CppString* get__Port();
     // public System.Boolean get_Secure()
-    // Offset: 0x12AF27C
+    // Offset: 0x130EA68
     bool get_Secure();
     // public System.Void set_Secure(System.Boolean value)
-    // Offset: 0x12AF284
+    // Offset: 0x130EA70
     void set_Secure(bool value);
     // public System.String get_Value()
-    // Offset: 0x12AF290
+    // Offset: 0x130EA7C
     ::Il2CppString* get_Value();
     // public System.Void set_Value(System.String value)
-    // Offset: 0x12AF298
+    // Offset: 0x130EA84
     void set_Value(::Il2CppString* value);
     // System.Net.CookieVariant get_Variant()
-    // Offset: 0x12AF318
+    // Offset: 0x130EB04
     System::Net::CookieVariant get_Variant();
     // System.String get_DomainKey()
-    // Offset: 0x12AF320
+    // Offset: 0x130EB0C
     ::Il2CppString* get_DomainKey();
     // public System.Int32 get_Version()
-    // Offset: 0x12AF33C
+    // Offset: 0x130EB28
     int get_Version();
     // public System.Void set_Version(System.Int32 value)
-    // Offset: 0x12AF344
+    // Offset: 0x130EB30
     void set_Version(int value);
     // private System.String get__Version()
-    // Offset: 0x12AF3EC
+    // Offset: 0x130EBD8
     ::Il2CppString* get__Version();
     // static System.Collections.IComparer GetComparer()
-    // Offset: 0x12AF4E8
+    // Offset: 0x130ECD4
     static System::Collections::IComparer* GetComparer();
     // static private System.Void .cctor()
-    // Offset: 0x12AFC90
+    // Offset: 0x130F47C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x12ADA60
+    // Offset: 0x130D24C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Cookie* New_ctor();
     // public override System.Boolean Equals(System.Object comparand)
-    // Offset: 0x12AF550
+    // Offset: 0x130ED3C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object comparand)
     bool Equals(::Il2CppObject* comparand);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x12AF630
+    // Offset: 0x130EE1C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x12AF90C
+    // Offset: 0x130F0F8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

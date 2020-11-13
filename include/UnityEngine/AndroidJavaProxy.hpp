@@ -39,37 +39,37 @@ namespace UnityEngine {
     // Set static field: static private readonly System.IntPtr s_HashCodeMethodID
     static void _set_s_HashCodeMethodID(System::IntPtr value);
     // public System.Void .ctor(System.String javaInterface)
-    // Offset: 0x1F087C8
+    // Offset: 0x199F3E0
     static AndroidJavaProxy* New_ctor(::Il2CppString* javaInterface);
     // public System.Void .ctor(UnityEngine.AndroidJavaClass javaInterface)
-    // Offset: 0x1F08838
+    // Offset: 0x199F450
     static AndroidJavaProxy* New_ctor(UnityEngine::AndroidJavaClass* javaInterface);
     // public UnityEngine.AndroidJavaObject Invoke(System.String methodName, System.Object[] args)
-    // Offset: 0x1F0890C
+    // Offset: 0x199F524
     UnityEngine::AndroidJavaObject* Invoke(::Il2CppString* methodName, ::Array<::Il2CppObject*>* args);
     // public UnityEngine.AndroidJavaObject Invoke(System.String methodName, UnityEngine.AndroidJavaObject[] javaArgs)
-    // Offset: 0x1F09B58
+    // Offset: 0x19A0770
     UnityEngine::AndroidJavaObject* Invoke(::Il2CppString* methodName, ::Array<UnityEngine::AndroidJavaObject*>* javaArgs);
     // public System.Boolean equals(UnityEngine.AndroidJavaObject obj)
-    // Offset: 0x1F0A370
+    // Offset: 0x19A0F88
     bool equals(UnityEngine::AndroidJavaObject* obj);
     // public System.Int32 hashCode()
-    // Offset: 0x1F0A3FC
+    // Offset: 0x19A1014
     int hashCode();
     // public System.String toString()
-    // Offset: 0x1F0A4B8
+    // Offset: 0x19A10D0
     ::Il2CppString* toString();
     // UnityEngine.AndroidJavaObject GetProxyObject()
-    // Offset: 0x1F0A518
+    // Offset: 0x19A1130
     UnityEngine::AndroidJavaObject* GetProxyObject();
     // System.IntPtr GetRawProxy()
-    // Offset: 0x1F0991C
+    // Offset: 0x19A0534
     System::IntPtr GetRawProxy();
     // static private System.Void .cctor()
-    // Offset: 0x1F0A58C
+    // Offset: 0x19A11A4
     static void _cctor();
     // protected override System.Void Finalize()
-    // Offset: 0x1F088A0
+    // Offset: 0x199F4B8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

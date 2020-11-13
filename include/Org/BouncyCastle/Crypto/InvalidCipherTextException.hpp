@@ -14,14 +14,14 @@ namespace Org::BouncyCastle::Crypto {
   class InvalidCipherTextException : public Org::BouncyCastle::Crypto::CryptoException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14AFE24
+    // Offset: 0x149AFC4
     // Implemented from: Org.BouncyCastle.Crypto.CryptoException
     // Base method: System.Void CryptoException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static InvalidCipherTextException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x14AFE2C
+    // Offset: 0x149AFCC
     // Implemented from: Org.BouncyCastle.Crypto.CryptoException
     // Base method: System.Void CryptoException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)

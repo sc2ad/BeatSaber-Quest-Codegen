@@ -26,7 +26,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x2C
     int face;
     // public System.Void .ctor(System.Single distance, UnityEngine.Vector3 point, UnityEngine.Vector3 normal, System.Int32 face)
-    // Offset: 0x13841F4
+    // Offset: 0x13C5680
     static RaycastHit* New_ctor(float distance, UnityEngine::Vector3 point, UnityEngine::Vector3 normal, int face);
   }; // UnityEngine.ProBuilder.RaycastHit
 }

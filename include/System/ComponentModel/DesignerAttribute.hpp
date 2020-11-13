@@ -27,18 +27,18 @@ namespace System::ComponentModel {
     // Offset: 0x18
     ::Il2CppString* designerBaseTypeName;
     // public System.Void .ctor(System.String designerTypeName)
-    // Offset: 0x14E2490
+    // Offset: 0x1481070
     static DesignerAttribute* New_ctor(::Il2CppString* designerTypeName);
     // public System.Void .ctor(System.String designerTypeName, System.Type designerBaseType)
-    // Offset: 0x14E2590
+    // Offset: 0x1481170
     static DesignerAttribute* New_ctor(::Il2CppString* designerTypeName, System::Type* designerBaseType);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x14E2660
+    // Offset: 0x1481240
     // Implemented from: System.Attribute
     // Base method: System.Boolean Attribute::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x14E2718
+    // Offset: 0x14812F8
     // Implemented from: System.Attribute
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();

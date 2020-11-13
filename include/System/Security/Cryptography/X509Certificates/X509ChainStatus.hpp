@@ -24,19 +24,19 @@ namespace System::Security::Cryptography::X509Certificates {
     // Creating value type constructor for type: X509ChainStatus
     constexpr X509ChainStatus(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags status_ = {}, ::Il2CppString* info_ = {}) noexcept : status{status_}, info{info_} {}
     // System.Void .ctor(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flag)
-    // Offset: 0xC7096C
+    // Offset: 0xCA033C
     X509ChainStatus(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag);
     // public System.Security.Cryptography.X509Certificates.X509ChainStatusFlags get_Status()
-    // Offset: 0xC709A0
+    // Offset: 0xCA0370
     System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_Status();
     // public System.Void set_Status(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags value)
-    // Offset: 0xC709A8
+    // Offset: 0xCA0378
     void set_Status(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
     // public System.Void set_StatusInformation(System.String value)
-    // Offset: 0xC709B0
+    // Offset: 0xCA0380
     void set_StatusInformation(::Il2CppString* value);
     // static System.String GetInformation(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flags)
-    // Offset: 0x147B528
+    // Offset: 0x146596C
     static ::Il2CppString* GetInformation(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
   }; // System.Security.Cryptography.X509Certificates.X509ChainStatus
 }

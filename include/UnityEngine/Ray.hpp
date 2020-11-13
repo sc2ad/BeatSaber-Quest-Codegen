@@ -24,25 +24,25 @@ namespace UnityEngine {
     // Creating value type constructor for type: Ray
     constexpr Ray(UnityEngine::Vector3 m_Origin_ = {}, UnityEngine::Vector3 m_Direction_ = {}) noexcept : m_Origin{m_Origin_}, m_Direction{m_Direction_} {}
     // public System.Void .ctor(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction)
-    // Offset: 0xC7BE38
+    // Offset: 0xCA7650
     // ABORTED: conflicts with another method.  Ray(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction);
     // public UnityEngine.Vector3 get_origin()
-    // Offset: 0xC7BE40
+    // Offset: 0xCA7658
     UnityEngine::Vector3 get_origin();
     // public System.Void set_origin(UnityEngine.Vector3 value)
-    // Offset: 0xC7BE4C
+    // Offset: 0xCA7664
     void set_origin(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_direction()
-    // Offset: 0xC7BE58
+    // Offset: 0xCA7670
     UnityEngine::Vector3 get_direction();
     // public System.Void set_direction(UnityEngine.Vector3 value)
-    // Offset: 0xC7BE64
+    // Offset: 0xCA767C
     void set_direction(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 GetPoint(System.Single distance)
-    // Offset: 0xC7BEA4
+    // Offset: 0xCA76BC
     UnityEngine::Vector3 GetPoint(float distance);
     // public override System.String ToString()
-    // Offset: 0xC7BEAC
+    // Offset: 0xCA76C4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

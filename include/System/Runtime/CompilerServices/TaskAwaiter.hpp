@@ -40,33 +40,33 @@ namespace System::Runtime::CompilerServices {
       return m_task;
     }
     // System.Void .ctor(System.Threading.Tasks.Task task)
-    // Offset: 0xC5DBE8
+    // Offset: 0xC9485C
     // ABORTED: conflicts with another method.  TaskAwaiter(System::Threading::Tasks::Task* task);
     // public System.Boolean get_IsCompleted()
-    // Offset: 0xC5DBF0
+    // Offset: 0xC94864
     bool get_IsCompleted();
     // public System.Void GetResult()
-    // Offset: 0xC5DC2C
+    // Offset: 0xC948A0
     void GetResult();
     // static System.Void ValidateEnd(System.Threading.Tasks.Task task)
-    // Offset: 0x108C6D8
+    // Offset: 0x1163008
     static void ValidateEnd(System::Threading::Tasks::Task* task);
     // static private System.Void HandleNonSuccessAndDebuggerNotification(System.Threading.Tasks.Task task)
-    // Offset: 0x108CD68
+    // Offset: 0x1163698
     static void HandleNonSuccessAndDebuggerNotification(System::Threading::Tasks::Task* task);
     // static private System.Void ThrowForNonSuccess(System.Threading.Tasks.Task task)
-    // Offset: 0x108CDD8
+    // Offset: 0x1163708
     static void ThrowForNonSuccess(System::Threading::Tasks::Task* task);
     // static System.Void OnCompletedInternal(System.Threading.Tasks.Task task, System.Action continuation, System.Boolean continueOnCapturedContext, System.Boolean flowExecutionContext)
-    // Offset: 0x108C5F0
+    // Offset: 0x1162F20
     static void OnCompletedInternal(System::Threading::Tasks::Task* task, System::Action* continuation, bool continueOnCapturedContext, bool flowExecutionContext);
     // public System.Void OnCompleted(System.Action continuation)
-    // Offset: 0xC5DC0C
+    // Offset: 0xC94880
     // Implemented from: System.Runtime.CompilerServices.INotifyCompletion
     // Base method: System.Void INotifyCompletion::OnCompleted(System.Action continuation)
     void OnCompleted(System::Action* continuation);
     // public System.Void UnsafeOnCompleted(System.Action continuation)
-    // Offset: 0xC5DC1C
+    // Offset: 0xC94890
     // Implemented from: System.Runtime.CompilerServices.ICriticalNotifyCompletion
     // Base method: System.Void ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action continuation)
     void UnsafeOnCompleted(System::Action* continuation);

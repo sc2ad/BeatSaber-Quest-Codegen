@@ -32,12 +32,12 @@ namespace UnityEngine::Timeline {
     // Offset: 0x18
     float spatialBlend;
     // public override System.Void PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x13EF1A4
+    // Offset: 0x1415B00
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void PrepareFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public System.Void .ctor()
-    // Offset: 0x13EF3C0
+    // Offset: 0x1415D1C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()

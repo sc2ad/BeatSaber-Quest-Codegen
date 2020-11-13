@@ -102,22 +102,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kMenuButtonOculusTouch
     static void _set_kMenuButtonOculusTouch(::Il2CppString* value);
     // public System.Single TriggerValue(UnityEngine.XR.XRNode node)
-    // Offset: 0x2240300
+    // Offset: 0x19D0534
     float TriggerValue(UnityEngine::XR::XRNode node);
     // public System.Single VerticalAxisValue(UnityEngine.XR.XRNode node)
-    // Offset: 0x22404A0
+    // Offset: 0x19D06D4
     float VerticalAxisValue(UnityEngine::XR::XRNode node);
     // public System.Single HorizontalAxisValue(UnityEngine.XR.XRNode node)
-    // Offset: 0x2240538
+    // Offset: 0x19D076C
     float HorizontalAxisValue(UnityEngine::XR::XRNode node);
     // public System.Boolean MenuButtonDown()
-    // Offset: 0x2240A04
+    // Offset: 0x19D0C38
     bool MenuButtonDown();
     // public System.Boolean MenuButton()
-    // Offset: 0x2240C94
+    // Offset: 0x19D0EC8
     bool MenuButton();
     // public System.Void .ctor()
-    // Offset: 0x2240F24
+    // Offset: 0x19D1158
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VRControllersInputManager* New_ctor();

@@ -28,27 +28,27 @@ namespace Org::BouncyCastle::Crypto::Modes {
       return blockSize;
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
-    // Offset: 0x14BBE40
+    // Offset: 0x14A6FE0
     // Implemented from: Org.BouncyCastle.Crypto.BufferedBlockCipher
     // Base method: System.Void BufferedBlockCipher::.ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
     static CtsBlockCipher* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* cipher);
     // public override System.Int32 GetUpdateOutputSize(System.Int32 length)
-    // Offset: 0x14BBFF8
+    // Offset: 0x14A7198
     // Implemented from: Org.BouncyCastle.Crypto.BufferedBlockCipher
     // Base method: System.Int32 BufferedBlockCipher::GetUpdateOutputSize(System.Int32 length)
     int GetUpdateOutputSize(int length);
     // public override System.Int32 GetOutputSize(System.Int32 length)
-    // Offset: 0x14BC030
+    // Offset: 0x14A71D0
     // Implemented from: Org.BouncyCastle.Crypto.BufferedBlockCipher
     // Base method: System.Int32 BufferedBlockCipher::GetOutputSize(System.Int32 length)
     int GetOutputSize(int length);
     // public override System.Int32 ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x14BC03C
+    // Offset: 0x14A71DC
     // Implemented from: Org.BouncyCastle.Crypto.BufferedBlockCipher
     // Base method: System.Int32 BufferedBlockCipher::ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length, System.Byte[] output, System.Int32 outOff)
     int ProcessBytes(::Array<uint8_t>* input, int inOff, int length, ::Array<uint8_t>* output, int outOff);
     // public override System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x14BC37C
+    // Offset: 0x14A751C
     // Implemented from: Org.BouncyCastle.Crypto.BufferedBlockCipher
     // Base method: System.Int32 BufferedBlockCipher::DoFinal(System.Byte[] output, System.Int32 outOff)
     int DoFinal(::Array<uint8_t>* output, int outOff);

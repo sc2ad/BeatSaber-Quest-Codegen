@@ -57,24 +57,24 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<GlobalNamespace::INetworkPlayer*>*>(this);
     }
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x21E4A10
+    // Offset: 0xFF8AC8
     static UnifiedNetworkPlayerModel::$GetOtherPlayers$d__92* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()
-    // Offset: 0x21E4A9C
+    // Offset: 0xFFB230
     void $$m__Finally1();
     // private System.Void <>m__Finally2()
-    // Offset: 0x21E4AF4
+    // Offset: 0xFFB288
     void $$m__Finally2();
     // private System.Void <>m__Finally3()
-    // Offset: 0x21E4BB4
+    // Offset: 0xFFB348
     void $$m__Finally3();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x21E4A48
+    // Offset: 0xFFB1DC
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x21E4C74
+    // Offset: 0xFFB408
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -82,27 +82,27 @@ namespace GlobalNamespace {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // private INetworkPlayer System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current()
-    // Offset: 0x21E51AC
+    // Offset: 0xFFB938
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     GlobalNamespace::INetworkPlayer* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x21E51B4
+    // Offset: 0xFFB940
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x21E5214
+    // Offset: 0xFFB9A0
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // private System.Collections.Generic.IEnumerator`1<INetworkPlayer> System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator()
-    // Offset: 0x21E521C
+    // Offset: 0xFFB9A8
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<GlobalNamespace::INetworkPlayer*>* System_Collections_Generic_IEnumerable_1_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x21E52D0
+    // Offset: 0xFFBA5C
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

@@ -30,10 +30,10 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x20
     ::Array<::Il2CppObject*>* args;
     // public System.Object <InvokeMethod>b__0()
-    // Offset: 0x1ECB3AC
+    // Offset: 0x195A3E0
     ::Il2CppObject* $InvokeMethod$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1ECB2C0
+    // Offset: 0x195A2F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Reflect::$$c__DisplayClass2* New_ctor();

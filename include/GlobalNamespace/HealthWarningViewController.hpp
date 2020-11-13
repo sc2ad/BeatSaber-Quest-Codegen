@@ -65,39 +65,39 @@ namespace GlobalNamespace {
     // Offset: 0xB0
     System::Action* didFinishEvent;
     // public System.Void add_privacyPolicyButtonPressedEvent(System.Action value)
-    // Offset: 0x200D4A8
+    // Offset: 0xF13240
     void add_privacyPolicyButtonPressedEvent(System::Action* value);
     // public System.Void remove_privacyPolicyButtonPressedEvent(System.Action value)
-    // Offset: 0x200D7F0
+    // Offset: 0xF13588
     void remove_privacyPolicyButtonPressedEvent(System::Action* value);
     // public System.Void add_openDataPrivacyPageButtonPressedEvent(System.Action value)
-    // Offset: 0x200D54C
+    // Offset: 0xF132E4
     void add_openDataPrivacyPageButtonPressedEvent(System::Action* value);
     // public System.Void remove_openDataPrivacyPageButtonPressedEvent(System.Action value)
-    // Offset: 0x200D894
+    // Offset: 0xF1362C
     void remove_openDataPrivacyPageButtonPressedEvent(System::Action* value);
     // public System.Void add_didFinishEvent(System.Action value)
-    // Offset: 0x200D404
+    // Offset: 0xF1319C
     void add_didFinishEvent(System::Action* value);
     // public System.Void remove_didFinishEvent(System.Action value)
-    // Offset: 0x200D74C
+    // Offset: 0xF134E4
     void remove_didFinishEvent(System::Action* value);
     // private System.Void <DidActivate>b__15_0()
-    // Offset: 0x200E374
+    // Offset: 0xF1410C
     void $DidActivate$b__15_0();
     // private System.Void <DidActivate>b__15_1()
-    // Offset: 0x200E388
+    // Offset: 0xF14120
     void $DidActivate$b__15_1();
     // private System.Void <DidActivate>b__15_2()
-    // Offset: 0x200E39C
+    // Offset: 0xF14134
     void $DidActivate$b__15_2();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x200E0D4
+    // Offset: 0xF13E6C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x200E36C
+    // Offset: 0xF14104
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

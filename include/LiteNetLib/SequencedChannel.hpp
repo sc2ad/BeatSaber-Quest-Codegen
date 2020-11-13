@@ -47,15 +47,15 @@ namespace LiteNetLib {
     // Offset: 0x48
     int64_t lastPacketSendTime;
     // public System.Void .ctor(LiteNetLib.NetPeer peer, System.Boolean reliable, System.Byte id)
-    // Offset: 0x180EB20
+    // Offset: 0x1DCDED8
     static SequencedChannel* New_ctor(LiteNetLib::NetPeer* peer, bool reliable, uint8_t id);
     // public override System.Void SendNextPackets()
-    // Offset: 0x1812F8C
+    // Offset: 0x1DD24A8
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Void BaseChannel::SendNextPackets()
     void SendNextPackets();
     // public override System.Boolean ProcessPacket(LiteNetLib.NetPacket packet)
-    // Offset: 0x1813290
+    // Offset: 0x1DD27AC
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Boolean BaseChannel::ProcessPacket(LiteNetLib.NetPacket packet)
     bool ProcessPacket(LiteNetLib::NetPacket* packet);

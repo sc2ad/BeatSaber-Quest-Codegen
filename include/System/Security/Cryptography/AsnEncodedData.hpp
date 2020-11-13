@@ -25,55 +25,55 @@ namespace System::Security::Cryptography {
     // Offset: 0x18
     ::Array<uint8_t>* raw;
     // public System.Void .ctor(System.String oid, System.Byte[] rawData)
-    // Offset: 0x119FAE0
+    // Offset: 0x122AE70
     static AsnEncodedData* New_ctor(::Il2CppString* oid, ::Array<uint8_t>* rawData);
     // public System.Void .ctor(System.Security.Cryptography.Oid oid, System.Byte[] rawData)
-    // Offset: 0x119FC48
+    // Offset: 0x122AFD8
     static AsnEncodedData* New_ctor(System::Security::Cryptography::Oid* oid, ::Array<uint8_t>* rawData);
     // public System.Security.Cryptography.Oid get_Oid()
-    // Offset: 0x119FD1C
+    // Offset: 0x122B0AC
     System::Security::Cryptography::Oid* get_Oid();
     // public System.Void set_Oid(System.Security.Cryptography.Oid value)
-    // Offset: 0x119FC90
+    // Offset: 0x122B020
     void set_Oid(System::Security::Cryptography::Oid* value);
     // public System.Byte[] get_RawData()
-    // Offset: 0x119FD24
+    // Offset: 0x122B0B4
     ::Array<uint8_t>* get_RawData();
     // public System.Void set_RawData(System.Byte[] value)
-    // Offset: 0x119FB74
+    // Offset: 0x122AF04
     void set_RawData(::Array<uint8_t>* value);
     // public System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x119FD2C
+    // Offset: 0x122B0BC
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);
     // public System.String Format(System.Boolean multiLine)
-    // Offset: 0x119FE00
+    // Offset: 0x122B190
     ::Il2CppString* Format(bool multiLine);
     // System.String ToString(System.Boolean multiLine)
-    // Offset: 0x119FFC0
+    // Offset: 0x122B350
     ::Il2CppString* ToString(bool multiLine);
     // System.String Default(System.Boolean multiLine)
-    // Offset: 0x119FEA8
+    // Offset: 0x122B238
     ::Il2CppString* Default(bool multiLine);
     // System.String BasicConstraintsExtension(System.Boolean multiLine)
-    // Offset: 0x11A015C
+    // Offset: 0x122B4EC
     ::Il2CppString* BasicConstraintsExtension(bool multiLine);
     // System.String EnhancedKeyUsageExtension(System.Boolean multiLine)
-    // Offset: 0x11A0274
+    // Offset: 0x122B604
     ::Il2CppString* EnhancedKeyUsageExtension(bool multiLine);
     // System.String KeyUsageExtension(System.Boolean multiLine)
-    // Offset: 0x11A038C
+    // Offset: 0x122B71C
     ::Il2CppString* KeyUsageExtension(bool multiLine);
     // System.String SubjectKeyIdentifierExtension(System.Boolean multiLine)
-    // Offset: 0x11A04A4
+    // Offset: 0x122B834
     ::Il2CppString* SubjectKeyIdentifierExtension(bool multiLine);
     // System.String SubjectAltName(System.Boolean multiLine)
-    // Offset: 0x11A05BC
+    // Offset: 0x122B94C
     ::Il2CppString* SubjectAltName(bool multiLine);
     // System.String NetscapeCertType(System.Boolean multiLine)
-    // Offset: 0x11A0938
+    // Offset: 0x122BCC8
     ::Il2CppString* NetscapeCertType(bool multiLine);
     // protected System.Void .ctor()
-    // Offset: 0x119FAD8
+    // Offset: 0x122AE68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AsnEncodedData* New_ctor();

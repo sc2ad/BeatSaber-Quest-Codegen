@@ -31,28 +31,28 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Set static field: static readonly System.String PRECOMP_NAME
     static void _set_PRECOMP_NAME(::Il2CppString* value);
     // System.Boolean HasFailed()
-    // Offset: 0x18F55A0
+    // Offset: 0x1784728
     bool HasFailed();
     // System.Void ReportFailed()
-    // Offset: 0x18F55A8
+    // Offset: 0x1784730
     void ReportFailed();
     // System.Boolean HasCurveEquationPassed()
-    // Offset: 0x18F55B4
+    // Offset: 0x178473C
     bool HasCurveEquationPassed();
     // System.Void ReportCurveEquationPassed()
-    // Offset: 0x18F55BC
+    // Offset: 0x1784744
     void ReportCurveEquationPassed();
     // System.Boolean HasOrderPassed()
-    // Offset: 0x18F55C8
+    // Offset: 0x1784750
     bool HasOrderPassed();
     // System.Void ReportOrderPassed()
-    // Offset: 0x18F55D0
+    // Offset: 0x1784758
     void ReportOrderPassed();
     // static private System.Void .cctor()
-    // Offset: 0x18F55DC
+    // Offset: 0x1784764
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x18F5638
+    // Offset: 0x17847C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ValidityPreCompInfo* New_ctor();

@@ -14,7 +14,7 @@ namespace Org::BouncyCastle::Security {
   class InvalidKeyException : public Org::BouncyCastle::Security::KeyException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFC972C
+    // Offset: 0x10C50D4
     // Implemented from: Org.BouncyCastle.Security.KeyException
     // Base method: System.Void KeyException::.ctor()
     // Base method: System.Void GeneralSecurityException::.ctor()
@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Security {
     // Base method: System.Void Object::.ctor()
     static InvalidKeyException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xFC9734
+    // Offset: 0x10C50DC
     // Implemented from: Org.BouncyCastle.Security.KeyException
     // Base method: System.Void KeyException::.ctor(System.String message)
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message)

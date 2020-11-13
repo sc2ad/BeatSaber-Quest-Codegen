@@ -97,46 +97,46 @@ namespace Zenject {
     // Offset: 0x30
     System::Type* ContractType;
     // public System.Void .ctor(Zenject.DiContainer bindContainer, System.Type contractType, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
-    // Offset: 0x1220204
+    // Offset: 0x12952BC
     static FactoryFromBinderBase* New_ctor(Zenject::DiContainer* bindContainer, System::Type* contractType, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo);
     // Zenject.DiContainer get_BindContainer()
-    // Offset: 0x12202EC
+    // Offset: 0x12953A4
     Zenject::DiContainer* get_BindContainer();
     // private System.Void set_BindContainer(Zenject.DiContainer value)
-    // Offset: 0x12202F4
+    // Offset: 0x12953AC
     void set_BindContainer(Zenject::DiContainer* value);
     // protected Zenject.FactoryBindInfo get_FactoryBindInfo()
-    // Offset: 0x12202FC
+    // Offset: 0x12953B4
     Zenject::FactoryBindInfo* get_FactoryBindInfo();
     // private System.Void set_FactoryBindInfo(Zenject.FactoryBindInfo value)
-    // Offset: 0x1220304
+    // Offset: 0x12953BC
     void set_FactoryBindInfo(Zenject::FactoryBindInfo* value);
     // System.Func`2<Zenject.DiContainer,Zenject.IProvider> get_ProviderFunc()
-    // Offset: 0x122030C
+    // Offset: 0x12953C4
     System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* get_ProviderFunc();
     // System.Void set_ProviderFunc(System.Func`2<Zenject.DiContainer,Zenject.IProvider> value)
-    // Offset: 0x1220328
+    // Offset: 0x12953E0
     void set_ProviderFunc(System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* value);
     // protected System.Type get_ContractType()
-    // Offset: 0x1220344
+    // Offset: 0x12953FC
     System::Type* get_ContractType();
     // private System.Void set_ContractType(System.Type value)
-    // Offset: 0x122034C
+    // Offset: 0x1295404
     void set_ContractType(System::Type* value);
     // public System.Collections.Generic.IEnumerable`1<System.Type> get_AllParentTypes()
-    // Offset: 0x1220354
+    // Offset: 0x129540C
     System::Collections::Generic::IEnumerable_1<System::Type*>* get_AllParentTypes();
     // public Zenject.ConditionCopyNonLazyBinder FromNew()
-    // Offset: 0x1220418
+    // Offset: 0x12954D0
     Zenject::ConditionCopyNonLazyBinder* FromNew();
     // public Zenject.ConditionCopyNonLazyBinder FromResolve()
-    // Offset: 0x1220450
+    // Offset: 0x1295508
     Zenject::ConditionCopyNonLazyBinder* FromResolve();
     // public Zenject.ConditionCopyNonLazyBinder FromInstance(System.Object instance)
-    // Offset: 0x1220534
+    // Offset: 0x12955EC
     Zenject::ConditionCopyNonLazyBinder* FromInstance(::Il2CppObject* instance);
     // public Zenject.ConditionCopyNonLazyBinder FromResolve(System.Object subIdentifier)
-    // Offset: 0x1220458
+    // Offset: 0x1295510
     Zenject::ConditionCopyNonLazyBinder* FromResolve(::Il2CppObject* subIdentifier);
     // Zenject.ConcreteBinderGeneric`1<T> CreateIFactoryBinder(out System.Guid factoryId)
     // Offset: 0xFFFFFFFF
@@ -145,46 +145,46 @@ namespace Zenject {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ConcreteBinderGeneric_1<T>*>(this, "CreateIFactoryBinder", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, factoryId)));
     }
     // public Zenject.ConditionCopyNonLazyBinder FromComponentOn(UnityEngine.GameObject gameObject)
-    // Offset: 0x1220640
+    // Offset: 0x12956F8
     Zenject::ConditionCopyNonLazyBinder* FromComponentOn(UnityEngine::GameObject* gameObject);
     // public Zenject.ConditionCopyNonLazyBinder FromComponentOn(System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> gameObjectGetter)
-    // Offset: 0x122074C
+    // Offset: 0x1295804
     Zenject::ConditionCopyNonLazyBinder* FromComponentOn(System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>* gameObjectGetter);
     // public Zenject.ConditionCopyNonLazyBinder FromComponentOnRoot()
-    // Offset: 0x1220848
+    // Offset: 0x1295900
     Zenject::ConditionCopyNonLazyBinder* FromComponentOnRoot();
     // public Zenject.ConditionCopyNonLazyBinder FromNewComponentOn(UnityEngine.GameObject gameObject)
-    // Offset: 0x12208C4
+    // Offset: 0x129597C
     Zenject::ConditionCopyNonLazyBinder* FromNewComponentOn(UnityEngine::GameObject* gameObject);
     // public Zenject.ConditionCopyNonLazyBinder FromNewComponentOn(System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> gameObjectGetter)
-    // Offset: 0x12209D0
+    // Offset: 0x1295A88
     Zenject::ConditionCopyNonLazyBinder* FromNewComponentOn(System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>* gameObjectGetter);
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder FromNewComponentOnNewPrefab(UnityEngine.Object prefab)
-    // Offset: 0x1220ACC
+    // Offset: 0x1295B84
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromNewComponentOnNewPrefab(UnityEngine::Object* prefab);
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder FromComponentInNewPrefab(UnityEngine.Object prefab)
-    // Offset: 0x1220C3C
+    // Offset: 0x1295CF4
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentInNewPrefab(UnityEngine::Object* prefab);
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder FromComponentInNewPrefabResource(System.String resourcePath)
-    // Offset: 0x1220D98
+    // Offset: 0x1295E50
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentInNewPrefabResource(::Il2CppString* resourcePath);
     // public Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder FromNewComponentOnNewPrefabResource(System.String resourcePath)
-    // Offset: 0x1220EF4
+    // Offset: 0x1295FAC
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromNewComponentOnNewPrefabResource(::Il2CppString* resourcePath);
     // public Zenject.ConditionCopyNonLazyBinder FromNewScriptableObjectResource(System.String resourcePath)
-    // Offset: 0x122105C
+    // Offset: 0x1296114
     Zenject::ConditionCopyNonLazyBinder* FromNewScriptableObjectResource(::Il2CppString* resourcePath);
     // public Zenject.ConditionCopyNonLazyBinder FromScriptableObjectResource(System.String resourcePath)
-    // Offset: 0x122115C
+    // Offset: 0x1296214
     Zenject::ConditionCopyNonLazyBinder* FromScriptableObjectResource(::Il2CppString* resourcePath);
     // public Zenject.ConditionCopyNonLazyBinder FromResource(System.String resourcePath)
-    // Offset: 0x122125C
+    // Offset: 0x1296314
     Zenject::ConditionCopyNonLazyBinder* FromResource(::Il2CppString* resourcePath);
     // private Zenject.IProvider <.ctor>b__0_0(Zenject.DiContainer container)
-    // Offset: 0x122134C
+    // Offset: 0x1296404
     Zenject::IProvider* $_ctor$b__0_0(Zenject::DiContainer* container);
     // private UnityEngine.GameObject <FromComponentOnRoot>b__25_0(Zenject.InjectContext ctx)
-    // Offset: 0x12213FC
+    // Offset: 0x12964B4
     UnityEngine::GameObject* $FromComponentOnRoot$b__25_0(Zenject::InjectContext* ctx);
   }; // Zenject.FactoryFromBinderBase
 }

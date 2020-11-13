@@ -14,10 +14,10 @@ namespace Org::BouncyCastle::Asn1::Misc {
   class NetscapeRevocationUrl : public Org::BouncyCastle::Asn1::DerIA5String {
     public:
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerIA5String str)
-    // Offset: 0x1404908
+    // Offset: 0x13F6800
     static NetscapeRevocationUrl* New_ctor(Org::BouncyCastle::Asn1::DerIA5String* str);
     // public override System.String ToString()
-    // Offset: 0x140494C
+    // Offset: 0x13F6844
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::ToString()
     ::Il2CppString* ToString();

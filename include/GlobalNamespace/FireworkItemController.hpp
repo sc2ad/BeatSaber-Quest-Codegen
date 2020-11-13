@@ -84,31 +84,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didFinishEvent(System.Action`1<FireworkItemController> value)
-    // Offset: 0x2022BE8
+    // Offset: 0x1A12A44
     void add_didFinishEvent(System::Action_1<GlobalNamespace::FireworkItemController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<FireworkItemController> value)
-    // Offset: 0x2022C8C
+    // Offset: 0x1A12AE8
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::FireworkItemController*>* value);
     // protected System.Void Awake()
-    // Offset: 0x2022D30
+    // Offset: 0x1A12B8C
     void Awake();
     // protected System.Void OnDisable()
-    // Offset: 0x2022DB8
+    // Offset: 0x1A12C14
     void OnDisable();
     // public System.Void Fire()
-    // Offset: 0x2022EF4
+    // Offset: 0x1A12D50
     void Fire();
     // private System.Collections.IEnumerator FireCoroutine()
-    // Offset: 0x2022F20
+    // Offset: 0x1A12D7C
     System::Collections::IEnumerator* FireCoroutine();
     // private System.Void SetLightsColor(System.Single intensity)
-    // Offset: 0x2022E3C
+    // Offset: 0x1A12C98
     void SetLightsColor(float intensity);
     // private System.Void PlayExplosionSound()
-    // Offset: 0x2022FC8
+    // Offset: 0x1A12E24
     void PlayExplosionSound();
     // public System.Void .ctor()
-    // Offset: 0x20230B4
+    // Offset: 0x1A12F10
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

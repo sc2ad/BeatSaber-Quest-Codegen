@@ -22,13 +22,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_sceneName()
-    // Offset: 0x211A954
+    // Offset: 0x103CA40
     ::Il2CppString* get_sceneName();
     // public System.Boolean get_disabledRootObjects()
-    // Offset: 0x211A95C
+    // Offset: 0x103CA48
     bool get_disabledRootObjects();
     // public System.Void .ctor()
-    // Offset: 0x211A964
+    // Offset: 0x103CA50
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

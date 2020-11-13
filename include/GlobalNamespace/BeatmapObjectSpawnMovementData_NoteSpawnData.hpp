@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NoteSpawnData
     constexpr NoteSpawnData(UnityEngine::Vector3 moveStartPos_ = {}, UnityEngine::Vector3 moveEndPos_ = {}, UnityEngine::Vector3 jumpEndPos_ = {}, float jumpGravity_ = {}, float moveDuration_ = {}, float jumpDuration_ = {}) noexcept : moveStartPos{moveStartPos_}, moveEndPos{moveEndPos_}, jumpEndPos{jumpEndPos_}, jumpGravity{jumpGravity_}, moveDuration{moveDuration_}, jumpDuration{jumpDuration_} {}
     // public System.Void .ctor(UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single jumpGravity, System.Single moveDuration, System.Single jumpDuration)
-    // Offset: 0xE4DA80
+    // Offset: 0xE7F18C
     // ABORTED: conflicts with another method.  NoteSpawnData(UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float jumpGravity, float moveDuration, float jumpDuration);
   }; // BeatmapObjectSpawnMovementData/NoteSpawnData
 }

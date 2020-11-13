@@ -22,19 +22,19 @@ namespace Mono::Security::Interface {
     // Offset: 0x11
     Mono::Security::Interface::AlertDescription description;
     // public Mono.Security.Interface.AlertLevel get_Level()
-    // Offset: 0x1928348
+    // Offset: 0x17B74D0
     Mono::Security::Interface::AlertLevel get_Level();
     // public Mono.Security.Interface.AlertDescription get_Description()
-    // Offset: 0x1928350
+    // Offset: 0x17B74D8
     Mono::Security::Interface::AlertDescription get_Description();
     // public System.Void .ctor(Mono.Security.Interface.AlertDescription description)
-    // Offset: 0x1928358
+    // Offset: 0x17B74E0
     static Alert* New_ctor(Mono::Security::Interface::AlertDescription description);
     // private System.Void inferAlertLevel()
-    // Offset: 0x19283D0
+    // Offset: 0x17B7558
     void inferAlertLevel();
     // public override System.String ToString()
-    // Offset: 0x1928410
+    // Offset: 0x17B7598
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

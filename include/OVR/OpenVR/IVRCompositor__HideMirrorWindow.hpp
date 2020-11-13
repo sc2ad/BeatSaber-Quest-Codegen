@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_HideMirrorWindow : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AADBEC
+    // Offset: 0x185D124
     static IVRCompositor::_HideMirrorWindow* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x1AADC00
+    // Offset: 0x185D138
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AADE0C
+    // Offset: 0x185D344
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1AADE38
+    // Offset: 0x185D370
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_HideMirrorWindow
 }

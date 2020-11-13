@@ -60,16 +60,16 @@ namespace UnityEngine::TestTools {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Reset()
-    // Offset: 0x10B79E0
+    // Offset: 0x118D310
     void Reset();
     // public System.Void StoreTestResult(NUnit.Framework.Internal.TestResult result)
-    // Offset: 0x10B7A3C
+    // Offset: 0x118D36C
     void StoreTestResult(NUnit::Framework::Internal::TestResult* result);
     // public System.Void ApplyTestResult(NUnit.Framework.Internal.TestResult result)
-    // Offset: 0x10B7B00
+    // Offset: 0x118D430
     void ApplyTestResult(NUnit::Framework::Internal::TestResult* result);
     // public System.Void .ctor()
-    // Offset: 0x10B7BA0
+    // Offset: 0x118D4D0
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

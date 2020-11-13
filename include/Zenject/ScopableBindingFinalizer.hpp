@@ -48,16 +48,16 @@ namespace Zenject {
     // Deleting conversion operator: operator Zenject::BindInfo*
     constexpr operator Zenject::BindInfo*() const noexcept = delete;
     // public System.Void .ctor(Zenject.BindInfo bindInfo, System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> providerFactory)
-    // Offset: 0x12F29B4
+    // Offset: 0x13521A0
     static ScopableBindingFinalizer* New_ctor(Zenject::BindInfo* bindInfo, System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* providerFactory);
     // private System.Void FinalizeBindingConcrete(Zenject.DiContainer container, System.Collections.Generic.List`1<System.Type> concreteTypes)
-    // Offset: 0x12F2BB4
+    // Offset: 0x13523A0
     void FinalizeBindingConcrete(Zenject::DiContainer* container, System::Collections::Generic::List_1<System::Type*>* concreteTypes);
     // private System.Void FinalizeBindingSelf(Zenject.DiContainer container)
-    // Offset: 0x12F2A9C
+    // Offset: 0x1352288
     void FinalizeBindingSelf(Zenject::DiContainer* container);
     // protected override System.Void OnFinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x12F2A04
+    // Offset: 0x13521F0
     // Implemented from: Zenject.ProviderBindingFinalizer
     // Base method: System.Void ProviderBindingFinalizer::OnFinalizeBinding(Zenject.DiContainer container)
     void OnFinalizeBinding(Zenject::DiContainer* container);

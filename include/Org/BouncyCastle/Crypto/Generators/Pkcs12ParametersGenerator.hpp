@@ -32,26 +32,26 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Offset: 0x34
     int v;
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x14ADF68
+    // Offset: 0x1499108
     static Pkcs12ParametersGenerator* New_ctor(Org::BouncyCastle::Crypto::IDigest* digest);
     // private System.Void Adjust(System.Byte[] a, System.Int32 aOff, System.Byte[] b)
-    // Offset: 0x14AE0B0
+    // Offset: 0x1499250
     void Adjust(::Array<uint8_t>* a, int aOff, ::Array<uint8_t>* b);
     // private System.Byte[] GenerateDerivedKey(System.Int32 idByte, System.Int32 n)
-    // Offset: 0x14AE190
+    // Offset: 0x1499330
     ::Array<uint8_t>* GenerateDerivedKey(int idByte, int n);
     // public override Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedParameters(System.String algorithm, System.Int32 keySize)
-    // Offset: 0x14AE7B8
+    // Offset: 0x1499958
     // Implemented from: Org.BouncyCastle.Crypto.PbeParametersGenerator
     // Base method: Org.BouncyCastle.Crypto.ICipherParameters PbeParametersGenerator::GenerateDerivedParameters(System.String algorithm, System.Int32 keySize)
     Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::Il2CppString* algorithm, int keySize);
     // public override Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedParameters(System.String algorithm, System.Int32 keySize, System.Int32 ivSize)
-    // Offset: 0x14AE864
+    // Offset: 0x1499A04
     // Implemented from: Org.BouncyCastle.Crypto.PbeParametersGenerator
     // Base method: Org.BouncyCastle.Crypto.ICipherParameters PbeParametersGenerator::GenerateDerivedParameters(System.String algorithm, System.Int32 keySize, System.Int32 ivSize)
     Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::Il2CppString* algorithm, int keySize, int ivSize);
     // public override Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedMacParameters(System.Int32 keySize)
-    // Offset: 0x14AE97C
+    // Offset: 0x1499B1C
     // Implemented from: Org.BouncyCastle.Crypto.PbeParametersGenerator
     // Base method: Org.BouncyCastle.Crypto.ICipherParameters PbeParametersGenerator::GenerateDerivedMacParameters(System.Int32 keySize)
     Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int keySize);

@@ -46,22 +46,22 @@ namespace Org::BouncyCastle::Crypto::Signers {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDsaExt*>(this);
     }
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0xF544C0
+    // Offset: 0x104FECC
     // Implemented from: Org.BouncyCastle.Crypto.IDsa
     // Base method: System.Void IDsa::Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public Org.BouncyCastle.Math.BigInteger get_Order()
-    // Offset: 0xF54668
+    // Offset: 0x1050074
     // Implemented from: Org.BouncyCastle.Crypto.IDsaExt
     // Base method: Org.BouncyCastle.Math.BigInteger IDsaExt::get_Order()
     Org::BouncyCastle::Math::BigInteger* get_Order();
     // public Org.BouncyCastle.Math.BigInteger[] GenerateSignature(System.Byte[] message)
-    // Offset: 0xF54690
+    // Offset: 0x105009C
     // Implemented from: Org.BouncyCastle.Crypto.IDsa
     // Base method: Org.BouncyCastle.Math.BigInteger[] IDsa::GenerateSignature(System.Byte[] message)
     ::Array<Org::BouncyCastle::Math::BigInteger*>* GenerateSignature(::Array<uint8_t>* message);
     // public System.Void .ctor()
-    // Offset: 0xF548E0
+    // Offset: 0x10502EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Gost3410Signer* New_ctor();

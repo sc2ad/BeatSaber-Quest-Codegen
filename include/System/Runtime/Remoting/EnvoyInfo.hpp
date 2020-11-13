@@ -32,10 +32,10 @@ namespace System::Runtime::Remoting {
       return envoySinks;
     }
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessageSink sinks)
-    // Offset: 0x109E5DC
+    // Offset: 0x1174F0C
     static EnvoyInfo* New_ctor(System::Runtime::Remoting::Messaging::IMessageSink* sinks);
     // public System.Runtime.Remoting.Messaging.IMessageSink get_EnvoySinks()
-    // Offset: 0x109E610
+    // Offset: 0x1174F40
     // Implemented from: System.Runtime.Remoting.IEnvoyInfo
     // Base method: System.Runtime.Remoting.Messaging.IMessageSink IEnvoyInfo::get_EnvoySinks()
     System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySinks();

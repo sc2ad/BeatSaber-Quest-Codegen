@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Il2CppString* userName;
     // public System.Void .ctor(UserInfo/Platform platform, System.String platformUserId, System.String userName)
-    // Offset: 0x21E6CA4
+    // Offset: 0xFEC6AC
     static UserInfo* New_ctor(GlobalNamespace::UserInfo::Platform platform, ::Il2CppString* platformUserId, ::Il2CppString* userName);
   }; // UserInfo
 }

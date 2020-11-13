@@ -48,19 +48,19 @@ namespace System {
     // Creating value type constructor for type: EnumResult
     constexpr EnumResult(::Il2CppObject* parsedEnum_ = {}, bool canThrow_ = {}, System::Enum::ParseFailureKind m_failure_ = {}, ::Il2CppString* m_failureMessageID_ = {}, ::Il2CppString* m_failureParameter_ = {}, ::Il2CppObject* m_failureMessageFormatArgument_ = {}, System::Exception* m_innerException_ = {}) noexcept : parsedEnum{parsedEnum_}, canThrow{canThrow_}, m_failure{m_failure_}, m_failureMessageID{m_failureMessageID_}, m_failureParameter{m_failureParameter_}, m_failureMessageFormatArgument{m_failureMessageFormatArgument_}, m_innerException{m_innerException_} {}
     // System.Void Init(System.Boolean canMethodThrow)
-    // Offset: 0xC5D354
+    // Offset: 0xC93FC8
     void Init(bool canMethodThrow);
     // System.Void SetFailure(System.Exception unhandledException)
-    // Offset: 0xC5D360
+    // Offset: 0xC93FD4
     void SetFailure(System::Exception* unhandledException);
     // System.Void SetFailure(System.Enum/ParseFailureKind failure, System.String failureParameter)
-    // Offset: 0xC5D370
+    // Offset: 0xC93FE4
     void SetFailure(System::Enum::ParseFailureKind failure, ::Il2CppString* failureParameter);
     // System.Void SetFailure(System.Enum/ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
-    // Offset: 0xC5D378
+    // Offset: 0xC93FEC
     void SetFailure(System::Enum::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Exception GetEnumParseException()
-    // Offset: 0xC5D380
+    // Offset: 0xC93FF4
     System::Exception* GetEnumParseException();
   }; // System.Enum/EnumResult
 }

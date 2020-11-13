@@ -60,37 +60,37 @@ namespace Org::BouncyCastle::OpenSsl {
     // Deleting conversion operator: operator System::IO::TextReader*
     constexpr operator System::IO::TextReader*() const noexcept = delete;
     // public System.Void .ctor(System.IO.TextReader reader, Org.BouncyCastle.OpenSsl.IPasswordFinder pFinder)
-    // Offset: 0xFB5254
+    // Offset: 0x109A6CC
     static PemReader* New_ctor(System::IO::TextReader* reader, Org::BouncyCastle::OpenSsl::IPasswordFinder* pFinder);
     // public System.Object ReadObject()
-    // Offset: 0xFB5288
+    // Offset: 0x109A700
     ::Il2CppObject* ReadObject();
     // private Org.BouncyCastle.Crypto.AsymmetricKeyParameter ReadRsaPublicKey(Org.BouncyCastle.Utilities.IO.Pem.PemObject pemObject)
-    // Offset: 0xFB6728
+    // Offset: 0x109BBA0
     Org::BouncyCastle::Crypto::AsymmetricKeyParameter* ReadRsaPublicKey(Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
     // private Org.BouncyCastle.Crypto.AsymmetricKeyParameter ReadPublicKey(Org.BouncyCastle.Utilities.IO.Pem.PemObject pemObject)
-    // Offset: 0xFB670C
+    // Offset: 0x109BB84
     Org::BouncyCastle::Crypto::AsymmetricKeyParameter* ReadPublicKey(Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
     // private Org.BouncyCastle.X509.X509Certificate ReadCertificate(Org.BouncyCastle.Utilities.IO.Pem.PemObject pemObject)
-    // Offset: 0xFB6908
+    // Offset: 0x109BD80
     Org::BouncyCastle::X509::X509Certificate* ReadCertificate(Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
     // private Org.BouncyCastle.X509.X509Crl ReadCrl(Org.BouncyCastle.Utilities.IO.Pem.PemObject pemObject)
-    // Offset: 0xFB6BA4
+    // Offset: 0x109C01C
     Org::BouncyCastle::X509::X509Crl* ReadCrl(Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
     // private Org.BouncyCastle.Pkcs.Pkcs10CertificationRequest ReadCertificateRequest(Org.BouncyCastle.Utilities.IO.Pem.PemObject pemObject)
-    // Offset: 0xFB67C0
+    // Offset: 0x109BC38
     Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest* ReadCertificateRequest(Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
     // private Org.BouncyCastle.X509.IX509AttributeCertificate ReadAttributeCertificate(Org.BouncyCastle.Utilities.IO.Pem.PemObject pemObject)
-    // Offset: 0xFB6D04
+    // Offset: 0x109C17C
     Org::BouncyCastle::X509::IX509AttributeCertificate* ReadAttributeCertificate(Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
     // private Org.BouncyCastle.Asn1.Cms.ContentInfo ReadPkcs7(Org.BouncyCastle.Utilities.IO.Pem.PemObject pemObject)
-    // Offset: 0xFB6A68
+    // Offset: 0x109BEE0
     Org::BouncyCastle::Asn1::Cms::ContentInfo* ReadPkcs7(Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
     // private System.Object ReadPrivateKey(Org.BouncyCastle.Utilities.IO.Pem.PemObject pemObject)
-    // Offset: 0xFB56C4
+    // Offset: 0x109AB3C
     ::Il2CppObject* ReadPrivateKey(Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
     // public System.Void .ctor(System.IO.TextReader reader)
-    // Offset: 0xFB5224
+    // Offset: 0x109A69C
     // Implemented from: Org.BouncyCastle.Utilities.IO.Pem.PemReader
     // Base method: System.Void PemReader::.ctor(System.IO.TextReader reader)
     static PemReader* New_ctor(System::IO::TextReader* reader);

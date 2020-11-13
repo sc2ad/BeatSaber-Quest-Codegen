@@ -24,21 +24,21 @@ namespace GlobalNamespace {
     // Offset: 0x48
     GlobalNamespace::GameEnergyCounter* energyCounter;
     // protected System.Void OnDestroy()
-    // Offset: 0x201CFCC
+    // Offset: 0x1A5F954
     void OnDestroy();
     // private System.Void HandleEnergyDidChange(System.Single energy)
-    // Offset: 0x201D0A4
+    // Offset: 0x1A5FA2C
     void HandleEnergyDidChange(float energy);
     // private System.Void CheckAndUpdateStatus()
-    // Offset: 0x201D0DC
+    // Offset: 0x1A5FA64
     void CheckAndUpdateStatus();
     // protected override System.Void Init()
-    // Offset: 0x201D158
+    // Offset: 0x1A5FAE0
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x201D258
+    // Offset: 0x1A5FBE0
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

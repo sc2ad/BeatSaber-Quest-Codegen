@@ -66,25 +66,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kCellIdentifier
     static void _set_kCellIdentifier(::Il2CppString* value);
     // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<MultiplayerResultsTableView/Data> dataList)
-    // Offset: 0x206FAFC
+    // Offset: 0xF34440
     void SetData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerResultsTableView::Data*>* dataList);
     // public System.Single CellSize()
-    // Offset: 0x206F884
+    // Offset: 0xF341C8
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Single IDataSource::CellSize()
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x206F88C
+    // Offset: 0xF341D0
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Int32 IDataSource::NumberOfCells()
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x206F93C
+    // Offset: 0xF34280
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: HMUI.TableCell IDataSource::CellForIdx(HMUI.TableView tableView, System.Int32 idx)
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
     // public System.Void .ctor()
-    // Offset: 0x206FB40
+    // Offset: 0xF34484
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

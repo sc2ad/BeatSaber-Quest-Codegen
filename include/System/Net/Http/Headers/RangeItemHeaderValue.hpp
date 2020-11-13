@@ -26,37 +26,37 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // public System.Void .ctor(System.Nullable`1<System.Int64> from, System.Nullable`1<System.Int64> to)
-    // Offset: 0x117E770
+    // Offset: 0x1208B00
     static RangeItemHeaderValue* New_ctor(System::Nullable_1<int64_t> from, System::Nullable_1<int64_t> to);
     // public System.Nullable`1<System.Int64> get_From()
-    // Offset: 0x117EA1C
+    // Offset: 0x1208DAC
     System::Nullable_1<int64_t> get_From();
     // private System.Void set_From(System.Nullable`1<System.Int64> value)
-    // Offset: 0x117EA28
+    // Offset: 0x1208DB8
     void set_From(System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_To()
-    // Offset: 0x117EA30
+    // Offset: 0x1208DC0
     System::Nullable_1<int64_t> get_To();
     // private System.Void set_To(System.Nullable`1<System.Int64> value)
-    // Offset: 0x117EA3C
+    // Offset: 0x1208DCC
     void set_To(System::Nullable_1<int64_t> value);
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x117EA44
+    // Offset: 0x1208DD4
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x117EA4C
+    // Offset: 0x1208DDC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x117EB40
+    // Offset: 0x1208ED0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x117EBC8
+    // Offset: 0x1208F58
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

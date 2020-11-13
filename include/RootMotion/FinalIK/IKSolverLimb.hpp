@@ -121,40 +121,40 @@ namespace RootMotion::FinalIK {
     // Offset: 0x138
     ::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>* axisDirectionsRight;
     // public System.Void MaintainRotation()
-    // Offset: 0x1825A04
+    // Offset: 0x16ED0AC
     void MaintainRotation();
     // public System.Void MaintainBend()
-    // Offset: 0x1825A54
+    // Offset: 0x16ED0FC
     void MaintainBend();
     // public System.Void .ctor(UnityEngine.AvatarIKGoal goal)
-    // Offset: 0x18270BC
+    // Offset: 0x16EE764
     static IKSolverLimb* New_ctor(UnityEngine::AvatarIKGoal goal);
     // private RootMotion.FinalIK.IKSolverLimb/AxisDirection[] get_axisDirections()
-    // Offset: 0x182715C
+    // Offset: 0x16EE804
     ::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>* get_axisDirections();
     // private System.Void StoreAxisDirections(ref RootMotion.FinalIK.IKSolverLimb/AxisDirection[] axisDirections)
-    // Offset: 0x1825EE4
+    // Offset: 0x16ED58C
     void StoreAxisDirections(::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>*& axisDirections);
     // private UnityEngine.Vector3 GetModifiedBendNormal()
-    // Offset: 0x1826304
+    // Offset: 0x16ED9AC
     UnityEngine::Vector3 GetModifiedBendNormal();
     // protected override System.Void OnInitiateVirtual()
-    // Offset: 0x1825B68
+    // Offset: 0x16ED210
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::OnInitiateVirtual()
     void OnInitiateVirtual();
     // protected override System.Void OnUpdateVirtual()
-    // Offset: 0x18261D8
+    // Offset: 0x16ED880
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::OnUpdateVirtual()
     void OnUpdateVirtual();
     // protected override System.Void OnPostSolveVirtual()
-    // Offset: 0x1826DB4
+    // Offset: 0x16EE45C
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::OnPostSolveVirtual()
     void OnPostSolveVirtual();
     // public System.Void .ctor()
-    // Offset: 0x1826EFC
+    // Offset: 0x16EE5A4
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::.ctor()
     // Base method: System.Void IKSolver::.ctor()

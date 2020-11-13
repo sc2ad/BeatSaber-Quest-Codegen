@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVROverlay::_SetDashboardOverlaySceneProcess : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1B948D8
+    // Offset: 0x18F86F0
     static IVROverlay::_SetDashboardOverlaySceneProcess* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.UInt32 unProcessId)
-    // Offset: 0x1B948EC
+    // Offset: 0x18F8704
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint unProcessId);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.UInt32 unProcessId, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1B94B70
+    // Offset: 0x18F8988
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint unProcessId, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1B94C1C
+    // Offset: 0x18F8A34
     Valve::VR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetDashboardOverlaySceneProcess
 }

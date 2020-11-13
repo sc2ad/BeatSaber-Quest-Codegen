@@ -14,14 +14,14 @@ namespace Org::BouncyCastle::Security::Certificates {
   class CrlException : public Org::BouncyCastle::Security::GeneralSecurityException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFBCA54
+    // Offset: 0x10A1ECC
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static CrlException* New_ctor();
     // public System.Void .ctor(System.String msg)
-    // Offset: 0xFBCA5C
+    // Offset: 0x10A1ED4
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor(System.String msg)
     // Base method: System.Void Exception::.ctor(System.String msg)

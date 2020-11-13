@@ -33,46 +33,46 @@ namespace System::Security::Cryptography {
     // Set static field: static private readonly System.UInt32[] K
     static void _set_K(::Array<uint>* value);
     // private System.Void ProcessBlock(System.Byte[] inputBuffer, System.Int32 inputOffset)
-    // Offset: 0x1778D2C
+    // Offset: 0x1699220
     void ProcessBlock(::Array<uint8_t>* inputBuffer, int inputOffset);
     // private System.Void ProcessFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1779AD4
+    // Offset: 0x1699FC8
     void ProcessFinalBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
     // System.Void AddLength(System.UInt64 length, System.Byte[] buffer, System.Int32 position)
-    // Offset: 0x1779D2C
+    // Offset: 0x169A220
     void AddLength(uint64_t length, ::Array<uint8_t>* buffer, int position);
     // static private System.Void .cctor()
-    // Offset: 0x1779E28
+    // Offset: 0x169A31C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1777498
+    // Offset: 0x169798C
     // Implemented from: System.Security.Cryptography.MD5
     // Base method: System.Void MD5::.ctor()
     // Base method: System.Void HashAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
     static MD5CryptoServiceProvider* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x1778B40
+    // Offset: 0x1699034
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1778BB8
+    // Offset: 0x16990AC
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // protected override System.Void HashCore(System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize)
-    // Offset: 0x1778C28
+    // Offset: 0x169911C
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::HashCore(System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize)
     void HashCore(::Array<uint8_t>* rgb, int ibStart, int cbSize);
     // protected override System.Byte[] HashFinal()
-    // Offset: 0x17799E4
+    // Offset: 0x1699ED8
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
     ::Array<uint8_t>* HashFinal();
     // public override System.Void Initialize()
-    // Offset: 0x1779C88
+    // Offset: 0x169A17C
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::Initialize()
     void Initialize();

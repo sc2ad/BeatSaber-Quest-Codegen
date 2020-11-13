@@ -39,31 +39,31 @@ namespace UnityEngine {
     // Set static field: static System.Int32 size
     static void _set_size(int value);
     // public UnityEngine.Vector3 get_normal()
-    // Offset: 0xC7B61C
+    // Offset: 0xCA6E2C
     UnityEngine::Vector3 get_normal();
     // public System.Void .ctor(UnityEngine.Vector3 inNormal, UnityEngine.Vector3 inPoint)
-    // Offset: 0xC7B628
+    // Offset: 0xCA6E38
     Plane(UnityEngine::Vector3 inNormal, UnityEngine::Vector3 inPoint);
     // public System.Void .ctor(UnityEngine.Vector3 a, UnityEngine.Vector3 b, UnityEngine.Vector3 c)
-    // Offset: 0xC7B630
+    // Offset: 0xCA6E40
     Plane(UnityEngine::Vector3 a, UnityEngine::Vector3 b, UnityEngine::Vector3 c);
     // public System.Void SetNormalAndPosition(UnityEngine.Vector3 inNormal, UnityEngine.Vector3 inPoint)
-    // Offset: 0xC7B648
+    // Offset: 0xCA6E58
     void SetNormalAndPosition(UnityEngine::Vector3 inNormal, UnityEngine::Vector3 inPoint);
     // public UnityEngine.Vector3 ClosestPointOnPlane(UnityEngine.Vector3 point)
-    // Offset: 0xC7B650
+    // Offset: 0xCA6E60
     UnityEngine::Vector3 ClosestPointOnPlane(UnityEngine::Vector3 point);
     // public System.Single GetDistanceToPoint(UnityEngine.Vector3 point)
-    // Offset: 0xC7B658
+    // Offset: 0xCA6E68
     float GetDistanceToPoint(UnityEngine::Vector3 point);
     // public System.Boolean SameSide(UnityEngine.Vector3 inPt0, UnityEngine.Vector3 inPt1)
-    // Offset: 0xC7B660
+    // Offset: 0xCA6E70
     bool SameSide(UnityEngine::Vector3 inPt0, UnityEngine::Vector3 inPt1);
     // public System.Boolean Raycast(UnityEngine.Ray ray, out System.Single enter)
-    // Offset: 0xC7B668
+    // Offset: 0xCA6E78
     bool Raycast(UnityEngine::Ray ray, float& enter);
     // public override System.String ToString()
-    // Offset: 0xC7B6A0
+    // Offset: 0xCA6EB0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

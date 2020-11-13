@@ -70,40 +70,40 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kFixedStartDelay
     static void _set_kFixedStartDelay(float value);
     // public System.Single get_songStartSyncTime()
-    // Offset: 0x21FC73C
+    // Offset: 0x1E57030
     float get_songStartSyncTime();
     // public System.Void add_setSongStartSyncTimeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x21FC744
+    // Offset: 0x1E57038
     void add_setSongStartSyncTimeEvent(System::Action_1<float>* value);
     // public System.Void remove_setSongStartSyncTimeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x21FC7E8
+    // Offset: 0x1E570DC
     void remove_setSongStartSyncTimeEvent(System::Action_1<float>* value);
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, PlayersAtGameStartModel playersAtGameStartModel)
-    // Offset: 0x21FC88C
+    // Offset: 0x1E57180
     static SongStartHandler* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, GlobalNamespace::PlayersAtGameStartModel* playersAtGameStartModel);
     // public System.Void GetLevelStartTimeOffset()
-    // Offset: 0x21FC954
+    // Offset: 0x1E57248
     void GetLevelStartTimeOffset();
     // public System.Void ForceStart()
-    // Offset: 0x21FD098
+    // Offset: 0x1E5798C
     void ForceStart();
     // private System.Void StartSong()
-    // Offset: 0x21FD6CC
+    // Offset: 0x1E57FC0
     void StartSong();
     // private System.Void HandleSetGameplaySongReady(System.String user)
-    // Offset: 0x21FD98C
+    // Offset: 0x1E58280
     void HandleSetGameplaySongReady(::Il2CppString* user);
     // private System.Void HandleGetGameplaySongReady(System.String user)
-    // Offset: 0x21FDC4C
+    // Offset: 0x1E58540
     void HandleGetGameplaySongReady(::Il2CppString* user);
     // private System.Void HandleSetSongStartTime(System.String user, System.Single time)
-    // Offset: 0x21FDD00
+    // Offset: 0x1E585F4
     void HandleSetSongStartTime(::Il2CppString* user, float time);
     // private System.Void Log(System.String message)
-    // Offset: 0x21FDD80
+    // Offset: 0x1E58674
     void Log(::Il2CppString* message);
     // public System.Void Dispose()
-    // Offset: 0x21FCE64
+    // Offset: 0x1E57758
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

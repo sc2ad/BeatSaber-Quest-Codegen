@@ -27,19 +27,19 @@ namespace HMUI {
     // Offset: 0x18
     ::Il2CppString* hintText;
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x218DA38
+    // Offset: 0x10B6834
     UnityEngine::Sprite* get_icon();
     // private System.Void set_icon(UnityEngine.Sprite value)
-    // Offset: 0x218DA40
+    // Offset: 0x10B683C
     void set_icon(UnityEngine::Sprite* value);
     // public System.String get_hintText()
-    // Offset: 0x218DA48
+    // Offset: 0x10B6844
     ::Il2CppString* get_hintText();
     // private System.Void set_hintText(System.String value)
-    // Offset: 0x218DA50
+    // Offset: 0x10B684C
     void set_hintText(::Il2CppString* value);
     // public System.Void .ctor(UnityEngine.Sprite icon, System.String hintText)
-    // Offset: 0x218DA58
+    // Offset: 0x10B6854
     static IconSegmentedControl::DataItem* New_ctor(UnityEngine::Sprite* icon, ::Il2CppString* hintText);
   }; // HMUI.IconSegmentedControl/DataItem
 }

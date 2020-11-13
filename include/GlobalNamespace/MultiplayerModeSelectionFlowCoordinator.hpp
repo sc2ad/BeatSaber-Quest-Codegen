@@ -146,106 +146,106 @@ namespace GlobalNamespace {
     // Offset: 0x148
     System::Threading::Tasks::TaskCompletionSource_1<bool>* transitionFinishedTaskSource;
     // public System.Void add_didFinishEvent(System.Action`1<MultiplayerModeSelectionFlowCoordinator> value)
-    // Offset: 0x204FFE0
+    // Offset: 0xF74B08
     void add_didFinishEvent(System::Action_1<GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<MultiplayerModeSelectionFlowCoordinator> value)
-    // Offset: 0x2050088
+    // Offset: 0xF74BB0
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* value);
     // private System.Void HandleMultiplayerLobbyConnectionControllerConnectionSuccessActivateModel()
-    // Offset: 0x20511B0
+    // Offset: 0xF75E78
     void HandleMultiplayerLobbyConnectionControllerConnectionSuccessActivateModel();
     // private System.Void HandleMultiplayerLobbyConnectionControllerConnectionSuccess()
-    // Offset: 0x20511CC
+    // Offset: 0xF75E94
     void HandleMultiplayerLobbyConnectionControllerConnectionSuccess();
     // private System.Void HandleMultiplayerLobbyConnectionControllerConnectionFailed(ConnectionFailedReason reason)
-    // Offset: 0x20511D0
+    // Offset: 0xF75E98
     void HandleMultiplayerLobbyConnectionControllerConnectionFailed(GlobalNamespace::ConnectionFailedReason reason);
     // private System.Void HandleMultiplayerLobbyControllerDidFinish(MultiplayerModeSelectionViewController viewController, MultiplayerModeSelectionViewController/MenuButton menuButton)
-    // Offset: 0x205129C
+    // Offset: 0xF75F64
     void HandleMultiplayerLobbyControllerDidFinish(GlobalNamespace::MultiplayerModeSelectionViewController* viewController, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton menuButton);
     // private System.Void HandleGameServerBrowserFlowCoordinatorDidFinish(GameServerBrowserFlowCoordinator flowCoordinator)
-    // Offset: 0x2051380
+    // Offset: 0xF76048
     void HandleGameServerBrowserFlowCoordinatorDidFinish(GlobalNamespace::GameServerBrowserFlowCoordinator* flowCoordinator);
     // private System.Void HandleJoiningLobbyViewControllerDidFinish()
-    // Offset: 0x2051394
+    // Offset: 0xF7605C
     void HandleJoiningLobbyViewControllerDidFinish();
     // private System.Void HandleJoinQuickPlayViewControllerDidFinish(System.Boolean success)
-    // Offset: 0x2051458
+    // Offset: 0xF76120
     void HandleJoinQuickPlayViewControllerDidFinish(bool success);
     // private System.Void HandleServerCodeEntryViewControllerDidFinish(System.Boolean success, System.String code)
-    // Offset: 0x2051560
+    // Offset: 0xF7622C
     void HandleServerCodeEntryViewControllerDidFinish(bool success, ::Il2CppString* code);
     // private System.Void HandleCreateServerViewControllerDidFinish(System.Boolean success, UnifiedNetworkPlayerModel/CreatePartyConfig createPartyConfig)
-    // Offset: 0x2051648
+    // Offset: 0xF76318
     void HandleCreateServerViewControllerDidFinish(bool success, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig* createPartyConfig);
     // private System.Void HandleClientGameServerLobbyFlowCoordinatorDidFinish(ClientGameServerLobbyFlowCoordinator obj)
-    // Offset: 0x2051750
+    // Offset: 0xF76424
     void HandleClientGameServerLobbyFlowCoordinatorDidFinish(GlobalNamespace::ClientGameServerLobbyFlowCoordinator* obj);
     // private System.Void HandleQuickPlayLobbyFlowCoordinatorDidFinish()
-    // Offset: 0x20518A0
+    // Offset: 0xF76578
     void HandleQuickPlayLobbyFlowCoordinatorDidFinish();
     // private System.Void HandleHostGameServerLobbyFlowCoordinatorDidFinish(HostGameServerLobbyFlowCoordinator flowCoordinator)
-    // Offset: 0x20519E8
+    // Offset: 0xF766C4
     void HandleHostGameServerLobbyFlowCoordinatorDidFinish(GlobalNamespace::HostGameServerLobbyFlowCoordinator* flowCoordinator);
     // private System.Void HandleConnectedPlayerManagerCreated(INetworkPlayerModel networkPlayerModel)
-    // Offset: 0x2051AC8
+    // Offset: 0xF767A8
     void HandleConnectedPlayerManagerCreated(GlobalNamespace::INetworkPlayerModel* networkPlayerModel);
     // private System.Void TryShowModeSelection(System.Boolean shouldProvideInitialViewControllers)
-    // Offset: 0x2050434
+    // Offset: 0xF75008
     void TryShowModeSelection(bool shouldProvideInitialViewControllers);
     // private System.Void ResolveAndPresentNextFlowCoordinator()
-    // Offset: 0x2050EF8
+    // Offset: 0xF75B90
     void ResolveAndPresentNextFlowCoordinator();
     // private System.Void PresentConnectionErrorDialog(ConnectionFailedReason reason)
-    // Offset: 0x2050F94
+    // Offset: 0xF75C2C
     void PresentConnectionErrorDialog(GlobalNamespace::ConnectionFailedReason reason);
     // private System.Void PresentMasterServerUnavailableErrorDialog(MultiplayerUnavailableReason reason, System.Nullable`1<System.Int64> maintenanceWindowEndTime, System.String remoteLocalizedMessage)
-    // Offset: 0x2051CB8
+    // Offset: 0xF76998
     void PresentMasterServerUnavailableErrorDialog(GlobalNamespace::MultiplayerUnavailableReason reason, System::Nullable_1<int64_t> maintenanceWindowEndTime, ::Il2CppString* remoteLocalizedMessage);
     // private System.Void <ResolveAndPresentNextFlowCoordinator>b__43_0()
-    // Offset: 0x2051F1C
+    // Offset: 0xF76BFC
     void $ResolveAndPresentNextFlowCoordinator$b__43_0();
     // private System.Void <PresentConnectionErrorDialog>b__44_0(System.Int32 btnId)
-    // Offset: 0x2052158
+    // Offset: 0xF76E44
     void $PresentConnectionErrorDialog$b__44_0(int btnId);
     // private System.Void <PresentConnectionErrorDialog>b__44_1(System.Int32 btnId)
-    // Offset: 0x2052170
+    // Offset: 0xF76E5C
     void $PresentConnectionErrorDialog$b__44_1(int btnId);
     // private System.Void <PresentMasterServerUnavailableErrorDialog>b__45_0(System.Int32 btnId)
-    // Offset: 0x2052188
+    // Offset: 0xF76E74
     void $PresentMasterServerUnavailableErrorDialog$b__45_0(int btnId);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x2050130
+    // Offset: 0xF74C58
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x2050504
+    // Offset: 0xF750D8
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0x2050858
+    // Offset: 0xF754D8
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x2050944
+    // Offset: 0xF755C4
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
     void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
     // protected override System.Void TransitionDidStart()
-    // Offset: 0x2050B80
+    // Offset: 0xF75800
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TransitionDidStart()
     void TransitionDidStart();
     // protected override System.Void TransitionDidFinish()
-    // Offset: 0x2050CB8
+    // Offset: 0xF75940
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TransitionDidFinish()
     void TransitionDidFinish();
     // public System.Void .ctor()
-    // Offset: 0x2051F14
+    // Offset: 0xF76BF4
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

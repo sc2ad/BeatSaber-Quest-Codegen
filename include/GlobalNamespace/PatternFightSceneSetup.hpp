@@ -50,12 +50,12 @@ namespace GlobalNamespace {
     // Offset: 0x48
     GlobalNamespace::PatternFightSceneSetupData* sceneSetupData;
     // public override System.Void InstallBindings()
-    // Offset: 0x1F90B20
+    // Offset: 0xF049A8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1F911AC
+    // Offset: 0xF0509C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

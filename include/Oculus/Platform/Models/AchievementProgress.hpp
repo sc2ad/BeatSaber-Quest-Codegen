@@ -36,7 +36,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x30
     System::DateTime UnlockTime;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x113FE78
+    // Offset: 0x11E0B38
     static AchievementProgress* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.AchievementProgress
 }

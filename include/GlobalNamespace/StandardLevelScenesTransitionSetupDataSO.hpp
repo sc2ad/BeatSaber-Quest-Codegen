@@ -56,31 +56,31 @@ namespace GlobalNamespace {
     // Offset: 0x48
     GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // public System.Void add_didFinishEvent(System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> value)
-    // Offset: 0x1F9311C
+    // Offset: 0xF3DF0C
     void add_didFinishEvent(System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> value)
-    // Offset: 0x1F931C0
+    // Offset: 0xF3E040
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* value);
     // public System.String get_gameMode()
-    // Offset: 0x1F93264
+    // Offset: 0xF4512C
     ::Il2CppString* get_gameMode();
     // private System.Void set_gameMode(System.String value)
-    // Offset: 0x1F9326C
+    // Offset: 0xF45134
     void set_gameMode(::Il2CppString* value);
     // public IDifficultyBeatmap get_difficultyBeatmap()
-    // Offset: 0x1F93274
+    // Offset: 0xF4513C
     GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
     // private System.Void set_difficultyBeatmap(IDifficultyBeatmap value)
-    // Offset: 0x1F9327C
+    // Offset: 0xF45144
     void set_difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap* value);
     // public System.Void Init(System.String gameMode, IDifficultyBeatmap difficultyBeatmap, OverrideEnvironmentSettings overrideEnvironmentSettings, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.String backButtonText, System.Boolean useTestNoteCutSoundEffects)
-    // Offset: 0x1F92A48
+    // Offset: 0xF44AD4
     void Init(::Il2CppString* gameMode, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::PracticeSettings* practiceSettings, ::Il2CppString* backButtonText, bool useTestNoteCutSoundEffects);
     // public System.Void Finish(LevelCompletionResults levelCompletionResults)
-    // Offset: 0x1F9304C
+    // Offset: 0xF43138
     void Finish(GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0x1F93284
+    // Offset: 0xF4514C
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

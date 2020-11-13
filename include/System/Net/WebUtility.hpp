@@ -45,31 +45,31 @@ namespace System::Net {
     // Set static field: static private System.Net.Configuration.UnicodeEncodingConformance _htmlEncodeConformance
     static void _set__htmlEncodeConformance(System::Net::Configuration::UnicodeEncodingConformance value);
     // static public System.String HtmlEncode(System.String value)
-    // Offset: 0x119E770
+    // Offset: 0x1229B00
     static ::Il2CppString* HtmlEncode(::Il2CppString* value);
     // static public System.Void HtmlEncode(System.String value, System.IO.TextWriter output)
-    // Offset: 0x119E9EC
+    // Offset: 0x1229D7C
     static void HtmlEncode(::Il2CppString* value, System::IO::TextWriter* output);
     // static private System.Int32 IndexOfHtmlEncodingChars(System.String s, System.Int32 startPos)
-    // Offset: 0x119E898
+    // Offset: 0x1229C28
     static int IndexOfHtmlEncodingChars(::Il2CppString* s, int startPos);
     // static private System.Net.Configuration.UnicodeEncodingConformance get_HtmlEncodeConformance()
-    // Offset: 0x119ED60
+    // Offset: 0x122A0F0
     static System::Net::Configuration::UnicodeEncodingConformance get_HtmlEncodeConformance();
     // static private System.String UrlDecodeInternal(System.String value, System.Text.Encoding encoding)
-    // Offset: 0x119EF2C
+    // Offset: 0x122A2BC
     static ::Il2CppString* UrlDecodeInternal(::Il2CppString* value, System::Text::Encoding* encoding);
     // static public System.String UrlDecode(System.String encodedValue)
-    // Offset: 0x119F3F4
+    // Offset: 0x122A784
     static ::Il2CppString* UrlDecode(::Il2CppString* encodedValue);
     // static private System.Int32 GetNextUnicodeScalarValueFromUtf16Surrogate(ref System.Char* pch, ref System.Int32 charsRemaining)
-    // Offset: 0x119EE64
+    // Offset: 0x122A1F4
     static int GetNextUnicodeScalarValueFromUtf16Surrogate(::Il2CppChar*& pch, int& charsRemaining);
     // static private System.Int32 HexToInt(System.Char h)
-    // Offset: 0x119F1E4
+    // Offset: 0x122A574
     static int HexToInt(::Il2CppChar h);
     // static private System.Void .cctor()
-    // Offset: 0x119F47C
+    // Offset: 0x122A80C
     static void _cctor();
   }; // System.Net.WebUtility
 }

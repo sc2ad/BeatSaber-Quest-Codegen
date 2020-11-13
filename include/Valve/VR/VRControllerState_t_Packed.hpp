@@ -49,10 +49,10 @@ namespace Valve::VR {
     // Creating value type constructor for type: VRControllerState_t_Packed
     constexpr VRControllerState_t_Packed(uint unPacketNum_ = {}, uint64_t ulButtonPressed_ = {}, uint64_t ulButtonTouched_ = {}, Valve::VR::VRControllerAxis_t rAxis0_ = {}, Valve::VR::VRControllerAxis_t rAxis1_ = {}, Valve::VR::VRControllerAxis_t rAxis2_ = {}, Valve::VR::VRControllerAxis_t rAxis3_ = {}, Valve::VR::VRControllerAxis_t rAxis4_ = {}) noexcept : unPacketNum{unPacketNum_}, ulButtonPressed{ulButtonPressed_}, ulButtonTouched{ulButtonTouched_}, rAxis0{rAxis0_}, rAxis1{rAxis1_}, rAxis2{rAxis2_}, rAxis3{rAxis3_}, rAxis4{rAxis4_} {}
     // public System.Void .ctor(Valve.VR.VRControllerState_t unpacked)
-    // Offset: 0xC89D94
+    // Offset: 0xCB6840
     VRControllerState_t_Packed(Valve::VR::VRControllerState_t unpacked);
     // public System.Void Unpack(ref Valve.VR.VRControllerState_t unpacked)
-    // Offset: 0xC89DC0
+    // Offset: 0xCB686C
     void Unpack(Valve::VR::VRControllerState_t& unpacked);
   }; // Valve.VR.VRControllerState_t_Packed
 }

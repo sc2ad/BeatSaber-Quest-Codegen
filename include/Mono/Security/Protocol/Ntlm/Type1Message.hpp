@@ -20,23 +20,23 @@ namespace Mono::Security::Protocol::Ntlm {
     // Offset: 0x20
     ::Il2CppString* domain;
     // public System.Void set_Domain(System.String value)
-    // Offset: 0x192C900
+    // Offset: 0x17BBA88
     void set_Domain(::Il2CppString* value);
     // public System.Void set_Host(System.String value)
-    // Offset: 0x192C990
+    // Offset: 0x17BBB18
     void set_Host(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x192C854
+    // Offset: 0x17BB9DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Type1Message* New_ctor();
     // protected override System.Void Decode(System.Byte[] message)
-    // Offset: 0x192CA20
+    // Offset: 0x17BBBA8
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Void MessageBase::Decode(System.Byte[] message)
     void Decode(::Array<uint8_t>* message);
     // public override System.Byte[] GetBytes()
-    // Offset: 0x192CB2C
+    // Offset: 0x17BBCB4
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Byte[] MessageBase::GetBytes()
     ::Array<uint8_t>* GetBytes();

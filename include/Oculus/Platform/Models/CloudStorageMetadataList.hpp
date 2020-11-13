@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   class CloudStorageMetadataList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::CloudStorageMetadata*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x1138CC8
+    // Offset: 0x11D9988
     static CloudStorageMetadataList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.CloudStorageMetadataList
 }

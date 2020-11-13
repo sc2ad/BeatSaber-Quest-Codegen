@@ -21,7 +21,7 @@ namespace LIV::SDK::Unity {
       return text;
     }
     // public System.Void .ctor(System.String text)
-    // Offset: 0x1F7DCA8
+    // Offset: 0x1A0D0D4
     static HelpAttribute* New_ctor(::Il2CppString* text);
   }; // LIV.SDK.Unity.HelpAttribute
 }

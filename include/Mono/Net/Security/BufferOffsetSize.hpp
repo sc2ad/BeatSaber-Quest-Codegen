@@ -27,16 +27,16 @@ namespace Mono::Net::Security {
     // Offset: 0x24
     bool Complete;
     // public System.Int32 get_EndOffset()
-    // Offset: 0x11F0BC8
+    // Offset: 0x1265C80
     int get_EndOffset();
     // public System.Int32 get_Remaining()
-    // Offset: 0x11F0BD4
+    // Offset: 0x1265C8C
     int get_Remaining();
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x11F0728
+    // Offset: 0x12657E0
     static BufferOffsetSize* New_ctor(::Array<uint8_t>* buffer, int offset, int size);
     // public override System.String ToString()
-    // Offset: 0x11F0BFC
+    // Offset: 0x1265CB4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

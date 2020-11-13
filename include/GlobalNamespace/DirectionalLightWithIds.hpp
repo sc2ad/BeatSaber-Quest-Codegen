@@ -14,6 +14,11 @@ namespace GlobalNamespace {
   // Forward declaring type: DirectionalLight
   class DirectionalLight;
 }
+// Forward declaring namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: Color
+  struct Color;
+}
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -21,13 +26,15 @@ namespace GlobalNamespace {
   class DirectionalLightWithIds : public GlobalNamespace::LightWithIds {
     public:
     // private DirectionalLight _directionalLight
-    // Offset: 0x50
+    // Offset: 0x38
     GlobalNamespace::DirectionalLight* directionalLight;
-    // protected System.Void LateUpdate()
-    // Offset: 0x1CFC3F8
-    void LateUpdate();
+    // protected override System.Void ColorWasSet(UnityEngine.Color color)
+    // Offset: 0x1879074
+    // Implemented from: LightWithIds
+    // Base method: System.Void LightWithIds::ColorWasSet(UnityEngine.Color color)
+    void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1CFC428
+    // Offset: 0x1879094
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

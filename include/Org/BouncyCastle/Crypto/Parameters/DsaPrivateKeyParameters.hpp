@@ -29,21 +29,21 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x20
     Org::BouncyCastle::Math::BigInteger* x;
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Crypto.Parameters.DsaParameters parameters)
-    // Offset: 0xF49850
+    // Offset: 0x104525C
     static DsaPrivateKeyParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* x, Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters);
     // public Org.BouncyCastle.Math.BigInteger get_X()
-    // Offset: 0xF4990C
+    // Offset: 0x1045318
     Org::BouncyCastle::Math::BigInteger* get_X();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.DsaPrivateKeyParameters other)
-    // Offset: 0xF499C4
+    // Offset: 0x10453D0
     bool Equals(Org::BouncyCastle::Crypto::Parameters::DsaPrivateKeyParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF49914
+    // Offset: 0x1045320
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.DsaKeyParameters
     // Base method: System.Boolean DsaKeyParameters::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF49A20
+    // Offset: 0x104542C
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.DsaKeyParameters
     // Base method: System.Int32 DsaKeyParameters::GetHashCode()
     int GetHashCode();

@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallback* callback;
     // public System.Void .ctor(BeatmapObjectCallbackController/BeatmapObjectCallback callback, System.Single aheadTime, System.Int32 numberOfLines)
-    // Offset: 0x20D5C38
+    // Offset: 0x1A26E10
     static BeatmapObjectCallbackController::BeatmapObjectCallbackData* New_ctor(GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallback* callback, float aheadTime, int numberOfLines);
   }; // BeatmapObjectCallbackController/BeatmapObjectCallbackData
 }

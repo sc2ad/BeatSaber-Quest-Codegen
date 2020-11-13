@@ -14,7 +14,7 @@ namespace System::Net::NetworkInformation {
   class UnixIPGlobalProperties : public System::Net::NetworkInformation::CommonUnixIPGlobalProperties {
     public:
     // public System.Void .ctor()
-    // Offset: 0x10C4488
+    // Offset: 0x1199DB8
     // Implemented from: System.Net.NetworkInformation.CommonUnixIPGlobalProperties
     // Base method: System.Void CommonUnixIPGlobalProperties::.ctor()
     // Base method: System.Void IPGlobalProperties::.ctor()

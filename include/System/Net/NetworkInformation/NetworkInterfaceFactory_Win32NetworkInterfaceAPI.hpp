@@ -28,18 +28,18 @@ namespace System::Net::NetworkInformation {
   class NetworkInterfaceFactory::Win32NetworkInterfaceAPI : public System::Net::NetworkInformation::NetworkInterfaceFactory {
     public:
     // static private System.Int32 GetAdaptersAddresses(System.UInt32 family, System.UInt32 flags, System.IntPtr reserved, System.IntPtr info, ref System.Int32 size)
-    // Offset: 0x10C7330
+    // Offset: 0x119CC60
     static int GetAdaptersAddresses(uint family, uint flags, System::IntPtr reserved, System::IntPtr info, int& size);
     // static private System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES[] GetAdaptersAddresses()
-    // Offset: 0x10C73EC
+    // Offset: 0x119CD1C
     static ::Array<System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES>* GetAdaptersAddresses();
     // public override System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
-    // Offset: 0x10C7670
+    // Offset: 0x119CFA0
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Net.NetworkInformation.NetworkInterface[] NetworkInterfaceFactory::GetAllNetworkInterfaces()
     ::Array<System::Net::NetworkInformation::NetworkInterface*>* GetAllNetworkInterfaces();
     // public System.Void .ctor()
-    // Offset: 0x10C5F3C
+    // Offset: 0x119B86C
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Void NetworkInterfaceFactory::.ctor()
     // Base method: System.Void Object::.ctor()

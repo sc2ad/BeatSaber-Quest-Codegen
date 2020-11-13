@@ -47,16 +47,16 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x216EFE8
+    // Offset: 0x107EE6C
     void Awake();
     // public System.Void SetMode(HMUI.ScreenModeData screenModeData)
-    // Offset: 0x216F204
+    // Offset: 0x107F088
     void SetMode(HMUI::ScreenModeData* screenModeData);
     // public System.Void SetDefaultMode()
-    // Offset: 0x216F46C
+    // Offset: 0x107F2F0
     void SetDefaultMode();
     // public System.Void .ctor()
-    // Offset: 0x216F474
+    // Offset: 0x107F2F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

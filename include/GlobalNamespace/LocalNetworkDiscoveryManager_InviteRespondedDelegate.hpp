@@ -26,16 +26,16 @@ namespace GlobalNamespace {
   class LocalNetworkDiscoveryManager::InviteRespondedDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x20A5A6C
+    // Offset: 0x1A67504
     static LocalNetworkDiscoveryManager::InviteRespondedDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.String userId, System.Boolean accepted, System.Boolean blocked)
-    // Offset: 0x20A5290
+    // Offset: 0x1A66D28
     void Invoke(::Il2CppString* userId, bool accepted, bool blocked);
     // public System.IAsyncResult BeginInvoke(System.String userId, System.Boolean accepted, System.Boolean blocked, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x20A5A80
+    // Offset: 0x1A67518
     System::IAsyncResult* BeginInvoke(::Il2CppString* userId, bool accepted, bool blocked, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x20A5B3C
+    // Offset: 0x1A675D4
     void EndInvoke(System::IAsyncResult* result);
   }; // LocalNetworkDiscoveryManager/InviteRespondedDelegate
 }

@@ -14,20 +14,20 @@ namespace System::Text {
   class DecoderExceptionFallbackBuffer : public System::Text::DecoderFallbackBuffer {
     public:
     // private System.Void Throw(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x162B050
+    // Offset: 0x1599E4C
     void Throw(::Array<uint8_t>* bytesUnknown, int index);
     // public override System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x162B044
+    // Offset: 0x1599E40
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Boolean DecoderFallbackBuffer::Fallback(System.Byte[] bytesUnknown, System.Int32 index)
     bool Fallback(::Array<uint8_t>* bytesUnknown, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x162B26C
+    // Offset: 0x159A068
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Char DecoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
     // public System.Void .ctor()
-    // Offset: 0x162AFC8
+    // Offset: 0x1599DC4
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Void DecoderFallbackBuffer::.ctor()
     // Base method: System.Void Object::.ctor()

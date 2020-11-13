@@ -32,20 +32,20 @@ namespace System::Net {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // System.Void .ctor(System.Net.CookieCollection cookies)
-    // Offset: 0x12B0C98
+    // Offset: 0x1310484
     static CookieCollection::CookieCollectionEnumerator* New_ctor(System::Net::CookieCollection* cookies);
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x12B0D04
+    // Offset: 0x13104F0
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // private System.Boolean System.Collections.IEnumerator.MoveNext()
-    // Offset: 0x12B0DD0
+    // Offset: 0x13105BC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x12B0E94
+    // Offset: 0x1310680
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();

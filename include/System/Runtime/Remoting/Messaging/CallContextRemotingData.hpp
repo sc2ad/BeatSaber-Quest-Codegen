@@ -25,16 +25,16 @@ namespace System::Runtime::Remoting::Messaging {
       return logicalCallID;
     }
     // System.String get_LogicalCallID()
-    // Offset: 0x10A4368
+    // Offset: 0x117AC98
     ::Il2CppString* get_LogicalCallID();
     // System.Void set_LogicalCallID(System.String value)
-    // Offset: 0x10A4370
+    // Offset: 0x117ACA0
     void set_LogicalCallID(::Il2CppString* value);
     // System.Boolean get_HasInfo()
-    // Offset: 0x10A4378
+    // Offset: 0x117ACA8
     bool get_HasInfo();
     // public System.Object Clone()
-    // Offset: 0x10A4388
+    // Offset: 0x117ACB8
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
@@ -42,7 +42,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
     // public System.Void .ctor()
-    // Offset: 0x10A4400
+    // Offset: 0x117AD30
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CallContextRemotingData* New_ctor();

@@ -35,32 +35,32 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Deleting conversion operator: operator ::Array<int>*
     constexpr operator ::Array<int>*() const noexcept = delete;
     // public override System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x196D2CC
+    // Offset: 0x17CDC64
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.Void DesEngine::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public override System.String get_AlgorithmName()
-    // Offset: 0x196DB08
+    // Offset: 0x17CE4A0
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.String DesEngine::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public override System.Int32 GetBlockSize()
-    // Offset: 0x196DB50
+    // Offset: 0x17CE4E8
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.Int32 DesEngine::GetBlockSize()
     int GetBlockSize();
     // public override System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x196DB58
+    // Offset: 0x17CE4F0
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.Int32 DesEngine::ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // public override System.Void Reset()
-    // Offset: 0x196E184
+    // Offset: 0x17CEB1C
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.Void DesEngine::Reset()
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x196E188
+    // Offset: 0x17CEB20
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.Void DesEngine::.ctor()
     // Base method: System.Void Object::.ctor()

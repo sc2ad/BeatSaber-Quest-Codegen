@@ -61,7 +61,7 @@ namespace LeaderboardsDTO {
     // Offset: 0x60
     ::Il2CppString* extraDataBase64;
     // public System.Void .ctor()
-    // Offset: 0x20B2714
+    // Offset: 0xF1E9D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LevelScoreResultDTO* New_ctor();

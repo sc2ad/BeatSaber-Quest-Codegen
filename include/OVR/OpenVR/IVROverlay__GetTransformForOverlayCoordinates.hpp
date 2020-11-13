@@ -37,16 +37,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_GetTransformForOverlayCoordinates : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AC1428
+    // Offset: 0x1870960
     static IVROverlay::_GetTransformForOverlayCoordinates* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, OVR.OpenVR.ETrackingUniverseOrigin eTrackingOrigin, OVR.OpenVR.HmdVector2_t coordinatesInOverlay, ref OVR.OpenVR.HmdMatrix34_t pmatTransform)
-    // Offset: 0x1AC143C
+    // Offset: 0x1870974
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, OVR::OpenVR::HmdVector2_t coordinatesInOverlay, OVR::OpenVR::HmdMatrix34_t& pmatTransform);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, OVR.OpenVR.ETrackingUniverseOrigin eTrackingOrigin, OVR.OpenVR.HmdVector2_t coordinatesInOverlay, ref OVR.OpenVR.HmdMatrix34_t pmatTransform, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AC1704
+    // Offset: 0x1870C3C
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, OVR::OpenVR::HmdVector2_t coordinatesInOverlay, OVR::OpenVR::HmdMatrix34_t& pmatTransform, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(ref OVR.OpenVR.HmdMatrix34_t pmatTransform, System.IAsyncResult result)
-    // Offset: 0x1AC17F4
+    // Offset: 0x1870D2C
     OVR::OpenVR::EVROverlayError EndInvoke(OVR::OpenVR::HmdMatrix34_t& pmatTransform, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetTransformForOverlayCoordinates
 }

@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRApplications::_GetCurrentSceneProcessId : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1159678
+    // Offset: 0x11FA338
     static IVRApplications::_GetCurrentSceneProcessId* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke()
-    // Offset: 0x114EDA0
+    // Offset: 0x11EFA60
     uint Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x115968C
+    // Offset: 0x11FA34C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11596B8
+    // Offset: 0x11FA378
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRApplications/_GetCurrentSceneProcessId
 }

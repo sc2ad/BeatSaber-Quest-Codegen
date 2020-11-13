@@ -48,44 +48,44 @@ namespace GlobalNamespace {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
     // public ColorType get_colorType()
-    // Offset: 0x1F1014C
+    // Offset: 0x19A6D64
     GlobalNamespace::ColorType get_colorType();
     // private System.Void set_colorType(ColorType value)
-    // Offset: 0x1F10154
+    // Offset: 0x19A6D6C
     void set_colorType(GlobalNamespace::ColorType value);
     // public System.Single get_noteTime()
-    // Offset: 0x1F1015C
+    // Offset: 0x19A6D74
     float get_noteTime();
     // private System.Void set_noteTime(System.Single value)
-    // Offset: 0x1F10164
+    // Offset: 0x19A6D7C
     void set_noteTime(float value);
     // public System.Int32 get_noteLineIndex()
-    // Offset: 0x1F1016C
+    // Offset: 0x19A6D84
     int get_noteLineIndex();
     // private System.Void set_noteLineIndex(System.Int32 value)
-    // Offset: 0x1F10174
+    // Offset: 0x19A6D8C
     void set_noteLineIndex(int value);
     // public NoteLineLayer get_noteLineLayer()
-    // Offset: 0x1F1017C
+    // Offset: 0x19A6D94
     GlobalNamespace::NoteLineLayer get_noteLineLayer();
     // private System.Void set_noteLineLayer(NoteLineLayer value)
-    // Offset: 0x1F10184
+    // Offset: 0x19A6D9C
     void set_noteLineLayer(GlobalNamespace::NoteLineLayer value);
     // public System.Void .ctor(NoteData noteData)
-    // Offset: 0x1F1029C
+    // Offset: 0x19A6EB4
     static NoteMissInfoNetSerializable* New_ctor(GlobalNamespace::NoteData* noteData);
     // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1F1018C
+    // Offset: 0x19A6DA4
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // private System.Void LiteNetLib.Utils.INetSerializable.Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1F10224
+    // Offset: 0x19A6E3C
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void .ctor()
-    // Offset: 0x1F10294
+    // Offset: 0x19A6EAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NoteMissInfoNetSerializable* New_ctor();

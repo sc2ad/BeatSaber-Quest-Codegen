@@ -26,25 +26,25 @@ namespace System::Security::Principal {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // System.Void .ctor(System.IntPtr token)
-    // Offset: 0x120D2FC
+    // Offset: 0x12823B4
     static WindowsImpersonationContext* New_ctor(System::IntPtr token);
     // public System.Void Undo()
-    // Offset: 0x120D8D0
+    // Offset: 0x1282988
     void Undo();
     // static private System.Boolean CloseToken(System.IntPtr token)
-    // Offset: 0x120D994
+    // Offset: 0x1282A4C
     static bool CloseToken(System::IntPtr token);
     // static private System.IntPtr DuplicateToken(System.IntPtr token)
-    // Offset: 0x120D888
+    // Offset: 0x1282940
     static System::IntPtr DuplicateToken(System::IntPtr token);
     // static private System.Boolean SetCurrentToken(System.IntPtr token)
-    // Offset: 0x120D88C
+    // Offset: 0x1282944
     static bool SetCurrentToken(System::IntPtr token);
     // static private System.Boolean RevertToSelf()
-    // Offset: 0x120D990
+    // Offset: 0x1282A48
     static bool RevertToSelf();
     // public System.Void Dispose()
-    // Offset: 0x120D8C0
+    // Offset: 0x1282978
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

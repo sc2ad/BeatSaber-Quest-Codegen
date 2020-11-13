@@ -14,7 +14,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   class NativeContainerSupportsDeferredConvertListToArray : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1783FC8
+    // Offset: 0x1679CF8
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

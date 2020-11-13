@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRSystem::_GetRecommendedRenderTargetSize : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1CAF2F4
+    // Offset: 0x192D4CC
     static IVRSystem::_GetRecommendedRenderTargetSize* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
-    // Offset: 0x1CAF308
+    // Offset: 0x192D4E0
     void Invoke(uint& pnWidth, uint& pnHeight);
     // public System.IAsyncResult BeginInvoke(ref System.UInt32 pnWidth, ref System.UInt32 pnHeight, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1CAF574
+    // Offset: 0x192D74C
     System::IAsyncResult* BeginInvoke(uint& pnWidth, uint& pnHeight, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(ref System.UInt32 pnWidth, ref System.UInt32 pnHeight, System.IAsyncResult result)
-    // Offset: 0x1CAF620
+    // Offset: 0x192D7F8
     void EndInvoke(uint& pnWidth, uint& pnHeight, System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_GetRecommendedRenderTargetSize
 }

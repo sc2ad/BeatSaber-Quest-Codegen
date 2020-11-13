@@ -9,6 +9,8 @@
 #include "GlobalNamespace/ConnectedPlayerManager.hpp"
 // Including type: IConnectedPlayer
 #include "GlobalNamespace/IConnectedPlayer.hpp"
+// Including type: DisconnectedReason
+#include "GlobalNamespace/DisconnectedReason.hpp"
 // Including type: BloomFilter
 #include "GlobalNamespace/BloomFilter.hpp"
 // Including type: MultiplayerAvatarData
@@ -63,17 +65,20 @@ namespace GlobalNamespace {
     // private System.Boolean _isConnected
     // Offset: 0x48
     bool isConnected;
+    // private DisconnectedReason _disconnectedReason
+    // Offset: 0x4C
+    GlobalNamespace::DisconnectedReason disconnectedReason;
     // private System.Boolean _isKicked
-    // Offset: 0x49
+    // Offset: 0x50
     bool isKicked;
     // private BloomFilter _playerState
-    // Offset: 0x50
+    // Offset: 0x58
     GlobalNamespace::BloomFilter playerState;
     // private MultiplayerAvatarData _playerAvatar
-    // Offset: 0x60
+    // Offset: 0x68
     GlobalNamespace::MultiplayerAvatarData playerAvatar;
     // private readonly RollingAverage _latency
-    // Offset: 0xD0
+    // Offset: 0xD8
     GlobalNamespace::RollingAverage* latency;
     // Creating interface conversion operator: operator GlobalNamespace::IConnectedPlayer
     operator GlobalNamespace::IConnectedPlayer() noexcept {
@@ -86,116 +91,121 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kFixedOffset
     static void _set_kFixedOffset(float value);
     // public IConnection get_connection()
-    // Offset: 0x215BBE4
+    // Offset: 0x1B49874
     GlobalNamespace::IConnection* get_connection();
     // public System.Byte get_connectionId()
-    // Offset: 0x215BBEC
+    // Offset: 0x1B4987C
     uint8_t get_connectionId();
     // public System.Byte get_remoteConnectionId()
-    // Offset: 0x215BBF4
+    // Offset: 0x1B49884
     uint8_t get_remoteConnectionId();
     // public System.Boolean get_isDirectConnection()
-    // Offset: 0x2157468
+    // Offset: 0x1B44F7C
     bool get_isDirectConnection();
     // private System.Void .ctor(ConnectedPlayerManager manager, System.Byte connectionId, System.Byte remoteConnectionId, IConnection connection, ConnectedPlayerManager/ConnectedPlayer parent, System.String userId, System.String userName, System.Boolean isConnectionOwner, System.Boolean isMe)
-    // Offset: 0x215BD18
+    // Offset: 0x1B499B0
     static ConnectedPlayerManager::ConnectedPlayer* New_ctor(GlobalNamespace::ConnectedPlayerManager* manager, uint8_t connectionId, uint8_t remoteConnectionId, GlobalNamespace::IConnection* connection, GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* parent, ::Il2CppString* userId, ::Il2CppString* userName, bool isConnectionOwner, bool isMe);
     // static public ConnectedPlayerManager/ConnectedPlayer CreateLocalPlayer(ConnectedPlayerManager manager, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x21597C4
+    // Offset: 0x1B4739C
     static GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* CreateLocalPlayer(GlobalNamespace::ConnectedPlayerManager* manager, ::Il2CppString* userId, ::Il2CppString* userName, bool isConnectionOwner);
     // static public ConnectedPlayerManager/ConnectedPlayer CreateDirectlyConnectedPlayer(ConnectedPlayerManager manager, System.Byte connectionId, IConnection connection)
-    // Offset: 0x215A6F8
+    // Offset: 0x1B482D4
     static GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* CreateDirectlyConnectedPlayer(GlobalNamespace::ConnectedPlayerManager* manager, uint8_t connectionId, GlobalNamespace::IConnection* connection);
     // static public ConnectedPlayerManager/ConnectedPlayer CreateRemoteConnectedPlayer(ConnectedPlayerManager manager, System.Byte connectionId, ConnectedPlayerManager/PlayerConnectedPacket packet, ConnectedPlayerManager/ConnectedPlayer parent)
-    // Offset: 0x215B220
+    // Offset: 0x1B48EA8
     static GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* CreateRemoteConnectedPlayer(GlobalNamespace::ConnectedPlayerManager* manager, uint8_t connectionId, GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket* packet, GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* parent);
     // public ConnectedPlayerManager/PlayerConnectedPacket GetPlayerConnectedPacket()
-    // Offset: 0x21572C4
+    // Offset: 0x1B44DD8
     GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket* GetPlayerConnectedPacket();
     // public ConnectedPlayerManager/PlayerStatePacket GetPlayerStatePacket()
-    // Offset: 0x21575E4
+    // Offset: 0x1B450F8
     GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket* GetPlayerStatePacket();
     // public ConnectedPlayerManager/PlayerSortOrderPacket GetPlayerSortOrderPacket()
-    // Offset: 0x2157568
+    // Offset: 0x1B4507C
     GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket* GetPlayerSortOrderPacket();
-    // public System.Void Disconnect()
-    // Offset: 0x2156C5C
-    void Disconnect();
+    // public System.Void Disconnect(DisconnectedReason disconnectedReason)
+    // Offset: 0x1B4474C
+    void Disconnect(GlobalNamespace::DisconnectedReason disconnectedReason);
     // public System.Void UpdateLatency(System.Single latency)
-    // Offset: 0x215A9C4
+    // Offset: 0x1B485A0
     void UpdateLatency(float latency);
     // public System.Boolean UpdateSortIndex(System.Int32 index)
-    // Offset: 0x215A5CC
+    // Offset: 0x1B481AC
     bool UpdateSortIndex(int index);
     // public System.Void SetKicked()
-    // Offset: 0x215A334
+    // Offset: 0x1B47F14
     void SetKicked();
     // public System.Void UpdateState(ConnectedPlayerManager/PlayerStatePacket packet)
-    // Offset: 0x215B428
+    // Offset: 0x1B490B0
     void UpdateState(GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket* packet);
     // public System.Void SetPlayerState(BloomFilter bloomFilter)
-    // Offset: 0x215BF6C
+    // Offset: 0x1B49C04
     void SetPlayerState(GlobalNamespace::BloomFilter bloomFilter);
     // public System.Void SetPlayerAvatar(MultiplayerAvatarData avatarData)
-    // Offset: 0x215BF74
+    // Offset: 0x1B49C0C
     void SetPlayerAvatar(GlobalNamespace::MultiplayerAvatarData avatarData);
     // public System.Boolean get_isConnected()
-    // Offset: 0x215BBFC
+    // Offset: 0x1B4988C
     // Implemented from: IConnectedPlayer
     // Base method: System.Boolean IConnectedPlayer::get_isConnected()
     bool get_isConnected();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x215BC04
+    // Offset: 0x1B49894
     // Implemented from: IConnectedPlayer
     // Base method: System.Boolean IConnectedPlayer::get_isConnectionOwner()
     bool get_isConnectionOwner();
     // public System.Boolean get_isKicked()
-    // Offset: 0x215BC0C
+    // Offset: 0x1B4989C
     // Implemented from: IConnectedPlayer
     // Base method: System.Boolean IConnectedPlayer::get_isKicked()
     bool get_isKicked();
+    // public DisconnectedReason get_disconnectedReason()
+    // Offset: 0x1B498A4
+    // Implemented from: IConnectedPlayer
+    // Base method: DisconnectedReason IConnectedPlayer::get_disconnectedReason()
+    GlobalNamespace::DisconnectedReason get_disconnectedReason();
     // public System.Int32 get_sortIndex()
-    // Offset: 0x215BC14
+    // Offset: 0x1B498AC
     // Implemented from: IConnectedPlayer
     // Base method: System.Int32 IConnectedPlayer::get_sortIndex()
     int get_sortIndex();
     // public System.String get_userId()
-    // Offset: 0x215BC1C
+    // Offset: 0x1B498B4
     // Implemented from: IConnectedPlayer
     // Base method: System.String IConnectedPlayer::get_userId()
     ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x215BC24
+    // Offset: 0x1B498BC
     // Implemented from: IConnectedPlayer
     // Base method: System.String IConnectedPlayer::get_userName()
     ::Il2CppString* get_userName();
     // public System.Boolean get_isMe()
-    // Offset: 0x215BC2C
+    // Offset: 0x1B498C4
     // Implemented from: IConnectedPlayer
     // Base method: System.Boolean IConnectedPlayer::get_isMe()
     bool get_isMe();
     // public System.Single get_currentLatency()
-    // Offset: 0x215A9E0
+    // Offset: 0x1B485BC
     // Implemented from: IConnectedPlayer
     // Base method: System.Single IConnectedPlayer::get_currentLatency()
     float get_currentLatency();
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x215BC34
+    // Offset: 0x1B498CC
     // Implemented from: IConnectedPlayer
     // Base method: System.Single IConnectedPlayer::get_offsetSyncTime()
     float get_offsetSyncTime();
     // public MultiplayerAvatarData get_multiplayerAvatarData()
-    // Offset: 0x215BD08
+    // Offset: 0x1B499A0
     // Implemented from: IConnectedPlayer
     // Base method: MultiplayerAvatarData IConnectedPlayer::get_multiplayerAvatarData()
     GlobalNamespace::MultiplayerAvatarData get_multiplayerAvatarData();
     // public System.Boolean HasState(System.String state)
-    // Offset: 0x215BF2C
+    // Offset: 0x1B49BC4
     // Implemented from: IConnectedPlayer
     // Base method: System.Boolean IConnectedPlayer::HasState(System.String state)
     bool HasState(::Il2CppString* state);
     // public override System.String ToString()
-    // Offset: 0x215BFA4
+    // Offset: 0x1B49C3C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

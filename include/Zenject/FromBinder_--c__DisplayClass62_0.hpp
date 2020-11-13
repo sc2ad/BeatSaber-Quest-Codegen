@@ -34,10 +34,10 @@ namespace Zenject {
     // Offset: 0x11
     bool excludeSelf;
     // Zenject.IProvider <FromComponentsInParents>b__0(Zenject.DiContainer container, System.Type concreteType)
-    // Offset: 0x1227098
+    // Offset: 0x129C150
     Zenject::IProvider* $FromComponentsInParents$b__0(Zenject::DiContainer* container, System::Type* concreteType);
     // public System.Void .ctor()
-    // Offset: 0x1224E0C
+    // Offset: 0x1299EC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FromBinder::$$c__DisplayClass62_0* New_ctor();

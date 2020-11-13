@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRChaperone::_GetBoundsColor : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x130F660
+    // Offset: 0x136EE4C
     static IVRChaperone::_GetBoundsColor* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(ref Valve.VR.HmdColor_t pOutputColorArray, System.Int32 nNumOutputColors, System.Single flCollisionBoundsFadeDistance, ref Valve.VR.HmdColor_t pOutputCameraColor)
-    // Offset: 0x13084C4
+    // Offset: 0x1367CB0
     void Invoke(Valve::VR::HmdColor_t& pOutputColorArray, int nNumOutputColors, float flCollisionBoundsFadeDistance, Valve::VR::HmdColor_t& pOutputCameraColor);
     // public System.IAsyncResult BeginInvoke(ref Valve.VR.HmdColor_t pOutputColorArray, System.Int32 nNumOutputColors, System.Single flCollisionBoundsFadeDistance, ref Valve.VR.HmdColor_t pOutputCameraColor, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x130F674
+    // Offset: 0x136EE60
     System::IAsyncResult* BeginInvoke(Valve::VR::HmdColor_t& pOutputColorArray, int nNumOutputColors, float flCollisionBoundsFadeDistance, Valve::VR::HmdColor_t& pOutputCameraColor, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(ref Valve.VR.HmdColor_t pOutputColorArray, ref Valve.VR.HmdColor_t pOutputCameraColor, System.IAsyncResult result)
-    // Offset: 0x130F760
+    // Offset: 0x136EF4C
     void EndInvoke(Valve::VR::HmdColor_t& pOutputColorArray, Valve::VR::HmdColor_t& pOutputCameraColor, System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperone/_GetBoundsColor
 }

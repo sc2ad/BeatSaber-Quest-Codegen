@@ -39,24 +39,24 @@ namespace Org::BouncyCastle::Asn1::X509 {
       return time;
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Object time)
-    // Offset: 0x16104F8
+    // Offset: 0x157F2F4
     static Time* New_ctor(Org::BouncyCastle::Asn1::Asn1Object* time);
     // static public Org.BouncyCastle.Asn1.X509.Time GetInstance(System.Object obj)
-    // Offset: 0x160AF80
+    // Offset: 0x1579D7C
     static Org::BouncyCastle::Asn1::X509::Time* GetInstance(::Il2CppObject* obj);
     // public System.String GetTime()
-    // Offset: 0x1610628
+    // Offset: 0x157F424
     ::Il2CppString* GetTime();
     // public System.DateTime ToDateTime()
-    // Offset: 0x1610714
+    // Offset: 0x157F510
     System::DateTime ToDateTime();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x16108E8
+    // Offset: 0x157F6E4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x16108F0
+    // Offset: 0x157F6EC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

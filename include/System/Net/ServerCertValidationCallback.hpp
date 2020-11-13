@@ -44,13 +44,13 @@ namespace System::Net {
     // Offset: 0x18
     System::Threading::ExecutionContext* m_Context;
     // System.Void .ctor(System.Net.Security.RemoteCertificateValidationCallback validationCallback)
-    // Offset: 0x10CD194
+    // Offset: 0x11A2AC4
     static ServerCertValidationCallback* New_ctor(System::Net::Security::RemoteCertificateValidationCallback* validationCallback);
     // System.Void Callback(System.Object state)
-    // Offset: 0x10CD230
+    // Offset: 0x11A2B60
     void Callback(::Il2CppObject* state);
     // System.Boolean Invoke(System.Object request, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors)
-    // Offset: 0x10CD2E0
+    // Offset: 0x11A2C10
     bool Invoke(::Il2CppObject* request, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Security::Cryptography::X509Certificates::X509Chain* chain, System::Net::Security::SslPolicyErrors sslPolicyErrors);
   }; // System.Net.ServerCertValidationCallback
 }

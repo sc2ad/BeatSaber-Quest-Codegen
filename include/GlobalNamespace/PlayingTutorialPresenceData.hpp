@@ -38,20 +38,20 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kPlayingCampaignRichPresenceLocalizationKey
     static void _set_kPlayingCampaignRichPresenceLocalizationKey(::Il2CppString* value);
     // private System.Void set_localizedDescription(System.String value)
-    // Offset: 0x208FAC8
+    // Offset: 0xF2B4E4
     void set_localizedDescription(::Il2CppString* value);
     // public System.String get_apiName()
-    // Offset: 0x208FA78
+    // Offset: 0xF2B494
     // Implemented from: IRichPresenceData
     // Base method: System.String IRichPresenceData::get_apiName()
     ::Il2CppString* get_apiName();
     // public System.String get_localizedDescription()
-    // Offset: 0x208FAC0
+    // Offset: 0xF2B4DC
     // Implemented from: IRichPresenceData
     // Base method: System.String IRichPresenceData::get_localizedDescription()
     ::Il2CppString* get_localizedDescription();
     // public System.Void .ctor()
-    // Offset: 0x208FAD0
+    // Offset: 0xF2B4EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayingTutorialPresenceData* New_ctor();

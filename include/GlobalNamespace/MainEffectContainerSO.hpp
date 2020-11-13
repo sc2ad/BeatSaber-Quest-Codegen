@@ -31,18 +31,18 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public MainEffectSO get_mainEffect()
-    // Offset: 0x1EF3334
+    // Offset: 0x1989F4C
     GlobalNamespace::MainEffectSO* get_mainEffect();
     // public System.Void Init(MainEffectSO mainEffect)
-    // Offset: 0x1EF33BC
+    // Offset: 0x1989FD4
     void Init(GlobalNamespace::MainEffectSO* mainEffect);
     // protected override System.Void OnEnable()
-    // Offset: 0x1EF333C
+    // Offset: 0x1989F54
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x1EF344C
+    // Offset: 0x198A064
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -28,13 +28,13 @@ namespace GlobalNamespace {
       return levelPack;
     }
     // System.Boolean <SelectAnnotatedBeatmapLevelCollection>b__1(System.String packID)
-    // Offset: 0x20BB658
+    // Offset: 0x1ABFC28
     bool $SelectAnnotatedBeatmapLevelCollection$b__1(::Il2CppString* packID);
     // System.Boolean <SelectAnnotatedBeatmapLevelCollection>b__3(System.String packID)
-    // Offset: 0x20BB724
+    // Offset: 0x1ABFCF4
     bool $SelectAnnotatedBeatmapLevelCollection$b__3(::Il2CppString* packID);
     // public System.Void .ctor()
-    // Offset: 0x20BB2C0
+    // Offset: 0x1ABF7E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LevelFilteringNavigationController::$$c__DisplayClass41_0* New_ctor();

@@ -14,7 +14,7 @@ namespace System::Reflection {
   class TypeInfo : public System::Type {
     public:
     // System.Void .ctor()
-    // Offset: 0x167D5EC
+    // Offset: 0x15D21B0
     // Implemented from: System.Type
     // Base method: System.Void Type::.ctor()
     // Base method: System.Void MemberInfo::.ctor()

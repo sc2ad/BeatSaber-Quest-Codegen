@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRInput::_GetActionOrigins : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AB4024
+    // Offset: 0x186355C
     static IVRInput::_GetActionOrigins* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRInputError Invoke(System.UInt64 actionSetHandle, System.UInt64 digitalActionHandle, in System.UInt64[] originsOut, System.UInt32 originOutCount)
-    // Offset: 0x1AB4038
+    // Offset: 0x1863570
     OVR::OpenVR::EVRInputError Invoke(uint64_t actionSetHandle, uint64_t digitalActionHandle, ::Array<uint64_t>*& originsOut, uint originOutCount);
     // public System.IAsyncResult BeginInvoke(System.UInt64 actionSetHandle, System.UInt64 digitalActionHandle, in System.UInt64[] originsOut, System.UInt32 originOutCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AB42E8
+    // Offset: 0x1863820
     System::IAsyncResult* BeginInvoke(uint64_t actionSetHandle, uint64_t digitalActionHandle, ::Array<uint64_t>*& originsOut, uint originOutCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRInputError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1AB43B4
+    // Offset: 0x18638EC
     OVR::OpenVR::EVRInputError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRInput/_GetActionOrigins
 }

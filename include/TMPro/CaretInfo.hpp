@@ -24,7 +24,7 @@ namespace TMPro {
     // Creating value type constructor for type: CaretInfo
     constexpr CaretInfo(int index_ = {}, TMPro::CaretPosition position_ = {}) noexcept : index{index_}, position{position_} {}
     // public System.Void .ctor(System.Int32 index, TMPro.CaretPosition position)
-    // Offset: 0xC585AC
+    // Offset: 0xC92610
     // ABORTED: conflicts with another method.  CaretInfo(int index, TMPro::CaretPosition position);
   }; // TMPro.CaretInfo
 }

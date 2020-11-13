@@ -54,36 +54,36 @@ namespace UnityEngine::Animations {
     // Set static field: static private readonly UnityEngine.Animations.AnimationLayerMixerPlayable m_NullPlayable
     static void _set_m_NullPlayable(UnityEngine::Animations::AnimationLayerMixerPlayable value);
     // static public UnityEngine.Animations.AnimationLayerMixerPlayable Create(UnityEngine.Playables.PlayableGraph graph, System.Int32 inputCount)
-    // Offset: 0x1F3AD60
+    // Offset: 0x19C7DE0
     static UnityEngine::Animations::AnimationLayerMixerPlayable Create(UnityEngine::Playables::PlayableGraph graph, int inputCount);
     // static private UnityEngine.Playables.PlayableHandle CreateHandle(UnityEngine.Playables.PlayableGraph graph, System.Int32 inputCount)
-    // Offset: 0x1F3AE08
+    // Offset: 0x19C7E88
     static UnityEngine::Playables::PlayableHandle CreateHandle(UnityEngine::Playables::PlayableGraph graph, int inputCount);
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0xC8A140
+    // Offset: 0xCB6BEC
     // ABORTED: conflicts with another method.  AnimationLayerMixerPlayable(UnityEngine::Playables::PlayableHandle handle);
     // public System.Void SetLayerMaskFromAvatarMask(System.UInt32 layerIndex, UnityEngine.AvatarMask mask)
-    // Offset: 0xC8A15C
+    // Offset: 0xCB6C08
     void SetLayerMaskFromAvatarMask(uint layerIndex, UnityEngine::AvatarMask* mask);
     // static private System.Boolean CreateHandleInternal(UnityEngine.Playables.PlayableGraph graph, ref UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x1F3AFB8
+    // Offset: 0x19C8038
     static bool CreateHandleInternal(UnityEngine::Playables::PlayableGraph graph, UnityEngine::Playables::PlayableHandle& handle);
     // static private System.Void SetLayerMaskFromAvatarMaskInternal(ref UnityEngine.Playables.PlayableHandle handle, System.UInt32 layerIndex, UnityEngine.AvatarMask mask)
-    // Offset: 0x1F3B2F8
+    // Offset: 0x19C8378
     static void SetLayerMaskFromAvatarMaskInternal(UnityEngine::Playables::PlayableHandle& handle, uint layerIndex, UnityEngine::AvatarMask* mask);
     // static private System.Void .cctor()
-    // Offset: 0x1F3B3A0
+    // Offset: 0x19C8420
     static void _cctor();
     // static private System.Boolean CreateHandleInternal_Injected(ref UnityEngine.Playables.PlayableGraph graph, ref UnityEngine.Playables.PlayableHandle handle)
-    // Offset: 0x1F3B350
+    // Offset: 0x19C83D0
     static bool CreateHandleInternal_Injected(UnityEngine::Playables::PlayableGraph& graph, UnityEngine::Playables::PlayableHandle& handle);
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xC8A148
+    // Offset: 0xCB6BF4
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Animations.AnimationLayerMixerPlayable other)
-    // Offset: 0xC8A154
+    // Offset: 0xCB6C00
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Animations.AnimationLayerMixerPlayable other)
     bool Equals(UnityEngine::Animations::AnimationLayerMixerPlayable other);

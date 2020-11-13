@@ -24,19 +24,19 @@ namespace System::Security::Cryptography {
     // Offset: 0x28
     ::Il2CppString* strDeformatter;
     // public System.Void set_KeyAlgorithm(System.String value)
-    // Offset: 0x1207540
+    // Offset: 0x127C5F8
     void set_KeyAlgorithm(::Il2CppString* value);
     // public System.Void set_DigestAlgorithm(System.String value)
-    // Offset: 0x1207548
+    // Offset: 0x127C600
     void set_DigestAlgorithm(::Il2CppString* value);
     // public System.Void set_FormatterAlgorithm(System.String value)
-    // Offset: 0x1207550
+    // Offset: 0x127C608
     void set_FormatterAlgorithm(::Il2CppString* value);
     // public System.Void set_DeformatterAlgorithm(System.String value)
-    // Offset: 0x1207558
+    // Offset: 0x127C610
     void set_DeformatterAlgorithm(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1207538
+    // Offset: 0x127C5F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SignatureDescription* New_ctor();

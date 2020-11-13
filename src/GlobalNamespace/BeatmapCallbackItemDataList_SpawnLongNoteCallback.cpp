@@ -5,6 +5,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BeatmapCallbackItemDataList/SpawnLongNoteCallback
 #include "GlobalNamespace/BeatmapCallbackItemDataList_SpawnLongNoteCallback.hpp"
+// Including type: System.IntPtr
+#include "System/IntPtr.hpp"
 // Including type: NoteData
 #include "GlobalNamespace/NoteData.hpp"
 // Including type: System.IAsyncResult

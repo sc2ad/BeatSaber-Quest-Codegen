@@ -28,7 +28,7 @@ namespace UnityEngine {
     // Offset: 0x18
     System::Action_1<bool>* Updated;
     // static System.Void RemoteConfigSettingsUpdated(UnityEngine.RemoteConfigSettings rcs, System.Boolean wasLastUpdatedFromServer)
-    // Offset: 0x1F79C6C
+    // Offset: 0x1A09FA8
     static void RemoteConfigSettingsUpdated(UnityEngine::RemoteConfigSettings* rcs, bool wasLastUpdatedFromServer);
   }; // UnityEngine.RemoteConfigSettings
 }

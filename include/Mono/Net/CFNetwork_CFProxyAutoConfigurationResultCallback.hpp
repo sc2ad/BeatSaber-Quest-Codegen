@@ -26,16 +26,16 @@ namespace Mono::Net {
   class CFNetwork::CFProxyAutoConfigurationResultCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11EC2B0
+    // Offset: 0x1261368
     static CFNetwork::CFProxyAutoConfigurationResultCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.IntPtr client, System.IntPtr proxyList, System.IntPtr error)
-    // Offset: 0x11ECCBC
+    // Offset: 0x1261D74
     void Invoke(System::IntPtr client, System::IntPtr proxyList, System::IntPtr error);
     // public System.IAsyncResult BeginInvoke(System.IntPtr client, System.IntPtr proxyList, System.IntPtr error, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11ECF4C
+    // Offset: 0x1262004
     System::IAsyncResult* BeginInvoke(System::IntPtr client, System::IntPtr proxyList, System::IntPtr error, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11ED004
+    // Offset: 0x12620BC
     void EndInvoke(System::IAsyncResult* result);
   }; // Mono.Net.CFNetwork/CFProxyAutoConfigurationResultCallback
 }

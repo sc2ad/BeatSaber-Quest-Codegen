@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_SetDisplayVisibility : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xF66E70
+    // Offset: 0x1062940
     static IVRSystem::_SetDisplayVisibility* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Boolean bIsVisibleOnDesktop)
-    // Offset: 0xF66E84
+    // Offset: 0x1062954
     bool Invoke(bool bIsVisibleOnDesktop);
     // public System.IAsyncResult BeginInvoke(System.Boolean bIsVisibleOnDesktop, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xF6710C
+    // Offset: 0x1062BDC
     System::IAsyncResult* BeginInvoke(bool bIsVisibleOnDesktop, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0xF6719C
+    // Offset: 0x1062C6C
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_SetDisplayVisibility
 }

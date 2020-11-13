@@ -33,10 +33,10 @@ namespace HMUI {
     // Offset: 0x28
     float baseCanvasGroupAlpha;
     // System.Void <DoHorizontalTransition>b__0(System.Single t)
-    // Offset: 0x1EE1B8C
+    // Offset: 0x1982420
     void $DoHorizontalTransition$b__0(float t);
     // public System.Void .ctor()
-    // Offset: 0x1EE1B84
+    // Offset: 0x1982418
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ViewControllerTransitionHelpers::$$c__DisplayClass5_0* New_ctor();

@@ -82,19 +82,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void AnimateOutro(LevelCompletionResults localPlayerResults, System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults> otherPlayersResults, System.Action onCompleted)
-    // Offset: 0x1FD2328
+    // Offset: 0xF79208
     void AnimateOutro(GlobalNamespace::LevelCompletionResults* localPlayerResults, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>* otherPlayersResults, System::Action* onCompleted);
     // private System.Collections.IEnumerator PlayOutroAnimation(LevelCompletionResults localPlayerLevelCompletionResults, System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults> otherPlayersLevelCompletionResults, System.Action onCompleted)
-    // Offset: 0x1FD2354
+    // Offset: 0xF79234
     System::Collections::IEnumerator* PlayOutroAnimation(GlobalNamespace::LevelCompletionResults* localPlayerLevelCompletionResults, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>* otherPlayersLevelCompletionResults, System::Action* onCompleted);
     // private System.Collections.IEnumerator PlayBigAvatarHideSfxClip(System.Single delay)
-    // Offset: 0x1FD2448
+    // Offset: 0xF79328
     System::Collections::IEnumerator* PlayBigAvatarHideSfxClip(float delay);
     // private System.Void PlayMusicPreview(System.Single maxDuration)
-    // Offset: 0x1FD2500
+    // Offset: 0xF793E0
     void PlayMusicPreview(float maxDuration);
     // public System.Void .ctor()
-    // Offset: 0x1FD25E0
+    // Offset: 0xF794B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -48,13 +48,13 @@ namespace GlobalNamespace {
       return latency;
     }
     // static public PacketPool`1<ConnectedPlayerManager/PlayerLatencyPacket> get_pool()
-    // Offset: 0x2159404
+    // Offset: 0x1B46FDC
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerLatencyPacket*>* get_pool();
     // public ConnectedPlayerManager/PlayerLatencyPacket Init(System.Single latency)
-    // Offset: 0x215AA20
+    // Offset: 0x1B485FC
     GlobalNamespace::ConnectedPlayerManager::PlayerLatencyPacket* Init(float latency);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x215C298
+    // Offset: 0x1B49F38
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x215C2B8
+    // Offset: 0x1B49F58
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -70,12 +70,12 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x215B560
+    // Offset: 0x1B491E8
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x215C2EC
+    // Offset: 0x1B49F8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConnectedPlayerManager::PlayerLatencyPacket* New_ctor();

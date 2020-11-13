@@ -269,442 +269,442 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.Collections.Generic.HashSet`1<System.Int32> s_CachedHashSet
     static void _set_s_CachedHashSet(System::Collections::Generic::HashSet_1<int>* value);
     // public System.Boolean get_userCollisions()
-    // Offset: 0x1378050
+    // Offset: 0x13B94DC
     bool get_userCollisions();
     // public System.Void set_userCollisions(System.Boolean value)
-    // Offset: 0x1378058
+    // Offset: 0x13B94E4
     void set_userCollisions(bool value);
     // public UnityEngine.ProBuilder.UnwrapParameters get_unwrapParameters()
-    // Offset: 0x1378064
+    // Offset: 0x13B94F0
     UnityEngine::ProBuilder::UnwrapParameters* get_unwrapParameters();
     // public System.Void set_unwrapParameters(UnityEngine.ProBuilder.UnwrapParameters value)
-    // Offset: 0x137806C
+    // Offset: 0x13B94F8
     void set_unwrapParameters(UnityEngine::ProBuilder::UnwrapParameters* value);
     // UnityEngine.MeshRenderer get_renderer()
-    // Offset: 0x1378074
+    // Offset: 0x13B9500
     UnityEngine::MeshRenderer* get_renderer();
     // UnityEngine.MeshFilter get_filter()
-    // Offset: 0x13780F0
+    // Offset: 0x13B957C
     UnityEngine::MeshFilter* get_filter();
     // public System.Boolean get_preserveMeshAssetOnDestroy()
-    // Offset: 0x13781AC
+    // Offset: 0x13B9638
     bool get_preserveMeshAssetOnDestroy();
     // public System.Void set_preserveMeshAssetOnDestroy(System.Boolean value)
-    // Offset: 0x13781B4
+    // Offset: 0x13B9640
     void set_preserveMeshAssetOnDestroy(bool value);
     // public System.Boolean HasArrays(UnityEngine.ProBuilder.MeshArrays channels)
-    // Offset: 0x13781C0
+    // Offset: 0x13B964C
     bool HasArrays(UnityEngine::ProBuilder::MeshArrays channels);
     // UnityEngine.ProBuilder.Face[] get_facesInternal()
-    // Offset: 0x13784B0
+    // Offset: 0x13B993C
     ::Array<UnityEngine::ProBuilder::Face*>* get_facesInternal();
     // System.Void set_facesInternal(UnityEngine.ProBuilder.Face[] value)
-    // Offset: 0x13784B8
+    // Offset: 0x13B9944
     void set_facesInternal(::Array<UnityEngine::ProBuilder::Face*>* value);
     // public System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face> get_faces()
-    // Offset: 0x13784C0
+    // Offset: 0x13B994C
     System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Face*>* get_faces();
     // public System.Void set_faces(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face> value)
-    // Offset: 0x1378530
+    // Offset: 0x13B99BC
     void set_faces(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Face*>* value);
     // System.Void InvalidateSharedVertexLookup()
-    // Offset: 0x13785DC
+    // Offset: 0x13B9A68
     void InvalidateSharedVertexLookup();
     // System.Void InvalidateSharedTextureLookup()
-    // Offset: 0x137868C
+    // Offset: 0x13B9B18
     void InvalidateSharedTextureLookup();
     // System.Void InvalidateFaces()
-    // Offset: 0x137873C
+    // Offset: 0x13B9BC8
     void InvalidateFaces();
     // System.Void InvalidateCaches()
-    // Offset: 0x13789EC
+    // Offset: 0x13B9E78
     void InvalidateCaches();
     // UnityEngine.ProBuilder.SharedVertex[] get_sharedVerticesInternal()
-    // Offset: 0x1378A24
+    // Offset: 0x13B9EB0
     ::Array<UnityEngine::ProBuilder::SharedVertex*>* get_sharedVerticesInternal();
     // System.Void set_sharedVerticesInternal(UnityEngine.ProBuilder.SharedVertex[] value)
-    // Offset: 0x1378A2C
+    // Offset: 0x13B9EB8
     void set_sharedVerticesInternal(::Array<UnityEngine::ProBuilder::SharedVertex*>* value);
     // public System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex> get_sharedVertices()
-    // Offset: 0x1378A54
+    // Offset: 0x13B9EE0
     System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SharedVertex*>* get_sharedVertices();
     // public System.Void set_sharedVertices(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex> value)
-    // Offset: 0x1378AC4
+    // Offset: 0x13B9F50
     void set_sharedVertices(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SharedVertex*>* value);
     // System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> get_sharedVertexLookup()
-    // Offset: 0x1378D0C
+    // Offset: 0x13BA198
     System::Collections::Generic::Dictionary_2<int, int>* get_sharedVertexLookup();
     // System.Void SetSharedVertices(System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>> indexes)
-    // Offset: 0x1378DBC
+    // Offset: 0x13BA248
     void SetSharedVertices(System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<int, int>>* indexes);
     // UnityEngine.ProBuilder.SharedVertex[] get_sharedTextures()
-    // Offset: 0x1378E68
+    // Offset: 0x13BA2F4
     ::Array<UnityEngine::ProBuilder::SharedVertex*>* get_sharedTextures();
     // System.Void set_sharedTextures(UnityEngine.ProBuilder.SharedVertex[] value)
-    // Offset: 0x1378E70
+    // Offset: 0x13BA2FC
     void set_sharedTextures(::Array<UnityEngine::ProBuilder::SharedVertex*>* value);
     // System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> get_sharedTextureLookup()
-    // Offset: 0x1378E98
+    // Offset: 0x13BA324
     System::Collections::Generic::Dictionary_2<int, int>* get_sharedTextureLookup();
     // System.Void SetSharedTextures(System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>> indexes)
-    // Offset: 0x1378F4C
+    // Offset: 0x13BA3D8
     void SetSharedTextures(System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<int, int>>* indexes);
     // UnityEngine.Vector3[] get_positionsInternal()
-    // Offset: 0x1378FF8
+    // Offset: 0x13BA484
     ::Array<UnityEngine::Vector3>* get_positionsInternal();
     // System.Void set_positionsInternal(UnityEngine.Vector3[] value)
-    // Offset: 0x1379000
+    // Offset: 0x13BA48C
     void set_positionsInternal(::Array<UnityEngine::Vector3>* value);
     // public System.Collections.Generic.IList`1<UnityEngine.Vector3> get_positions()
-    // Offset: 0x1379008
+    // Offset: 0x13BA494
     System::Collections::Generic::IList_1<UnityEngine::Vector3>* get_positions();
     // public System.Void set_positions(System.Collections.Generic.IList`1<UnityEngine.Vector3> value)
-    // Offset: 0x1379078
+    // Offset: 0x13BA504
     void set_positions(System::Collections::Generic::IList_1<UnityEngine::Vector3>* value);
     // public UnityEngine.ProBuilder.Vertex[] GetVertices(System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x1379124
+    // Offset: 0x13BA5B0
     ::Array<UnityEngine::ProBuilder::Vertex*>* GetVertices(System::Collections::Generic::IList_1<int>* indexes);
     // public System.Void SetVertices(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex> vertices, System.Boolean applyMesh)
-    // Offset: 0x1379BC0
+    // Offset: 0x13BB04C
     void SetVertices(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>* vertices, bool applyMesh);
     // public System.Collections.Generic.IList`1<UnityEngine.Vector3> get_normals()
-    // Offset: 0x1379FE0
+    // Offset: 0x13BB46C
     System::Collections::Generic::IList_1<UnityEngine::Vector3>* get_normals();
     // UnityEngine.Vector3[] get_normalsInternal()
-    // Offset: 0x137A05C
+    // Offset: 0x13BB4E8
     ::Array<UnityEngine::Vector3>* get_normalsInternal();
     // System.Void set_normalsInternal(UnityEngine.Vector3[] value)
-    // Offset: 0x137A064
+    // Offset: 0x13BB4F0
     void set_normalsInternal(::Array<UnityEngine::Vector3>* value);
     // public UnityEngine.Vector3[] GetNormals()
-    // Offset: 0x137985C
+    // Offset: 0x13BACE8
     ::Array<UnityEngine::Vector3>* GetNormals();
     // UnityEngine.Color[] get_colorsInternal()
-    // Offset: 0x137A06C
+    // Offset: 0x13BB4F8
     ::Array<UnityEngine::Color>* get_colorsInternal();
     // System.Void set_colorsInternal(UnityEngine.Color[] value)
-    // Offset: 0x137A074
+    // Offset: 0x13BB500
     void set_colorsInternal(::Array<UnityEngine::Color>* value);
     // public System.Collections.Generic.IList`1<UnityEngine.Color> get_colors()
-    // Offset: 0x137A07C
+    // Offset: 0x13BB508
     System::Collections::Generic::IList_1<UnityEngine::Color>* get_colors();
     // public System.Void set_colors(System.Collections.Generic.IList`1<UnityEngine.Color> value)
-    // Offset: 0x137A0F8
+    // Offset: 0x13BB584
     void set_colors(System::Collections::Generic::IList_1<UnityEngine::Color>* value);
     // public UnityEngine.Color[] GetColors()
-    // Offset: 0x137A1E8
+    // Offset: 0x13BB674
     ::Array<UnityEngine::Color>* GetColors();
     // public System.Collections.Generic.IList`1<UnityEngine.Vector4> get_tangents()
-    // Offset: 0x137A280
+    // Offset: 0x13BB70C
     System::Collections::Generic::IList_1<UnityEngine::Vector4>* get_tangents();
     // public System.Void set_tangents(System.Collections.Generic.IList`1<UnityEngine.Vector4> value)
-    // Offset: 0x137A314
+    // Offset: 0x13BB7A0
     void set_tangents(System::Collections::Generic::IList_1<UnityEngine::Vector4>* value);
     // UnityEngine.Vector4[] get_tangentsInternal()
-    // Offset: 0x137A404
+    // Offset: 0x13BB890
     ::Array<UnityEngine::Vector4>* get_tangentsInternal();
     // System.Void set_tangentsInternal(UnityEngine.Vector4[] value)
-    // Offset: 0x137A40C
+    // Offset: 0x13BB898
     void set_tangentsInternal(::Array<UnityEngine::Vector4>* value);
     // public UnityEngine.Vector4[] GetTangents()
-    // Offset: 0x13797CC
+    // Offset: 0x13BAC58
     ::Array<UnityEngine::Vector4>* GetTangents();
     // UnityEngine.Vector2[] get_texturesInternal()
-    // Offset: 0x137A414
+    // Offset: 0x13BB8A0
     ::Array<UnityEngine::Vector2>* get_texturesInternal();
     // System.Void set_texturesInternal(UnityEngine.Vector2[] value)
-    // Offset: 0x137A41C
+    // Offset: 0x13BB8A8
     void set_texturesInternal(::Array<UnityEngine::Vector2>* value);
     // public System.Collections.Generic.IList`1<UnityEngine.Vector2> get_textures()
-    // Offset: 0x137A424
+    // Offset: 0x13BB8B0
     System::Collections::Generic::IList_1<UnityEngine::Vector2>* get_textures();
     // public System.Void set_textures(System.Collections.Generic.IList`1<UnityEngine.Vector2> value)
-    // Offset: 0x137A4A0
+    // Offset: 0x13BB92C
     void set_textures(System::Collections::Generic::IList_1<UnityEngine::Vector2>* value);
     // public System.Void GetUVs(System.Int32 channel, System.Collections.Generic.List`1<UnityEngine.Vector4> uvs)
-    // Offset: 0x13798EC
+    // Offset: 0x13BAD78
     void GetUVs(int channel, System::Collections::Generic::List_1<UnityEngine::Vector4>* uvs);
     // System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2> GetUVs(System.Int32 channel)
-    // Offset: 0x137A584
+    // Offset: 0x13BBA10
     System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::Vector2>* GetUVs(int channel);
     // public System.Void SetUVs(System.Int32 channel, System.Collections.Generic.List`1<UnityEngine.Vector4> uvs)
-    // Offset: 0x137A68C
+    // Offset: 0x13BBB18
     void SetUVs(int channel, System::Collections::Generic::List_1<UnityEngine::Vector4>* uvs);
     // public System.Int32 get_faceCount()
-    // Offset: 0x137A98C
+    // Offset: 0x13BBE18
     int get_faceCount();
     // public System.Int32 get_vertexCount()
-    // Offset: 0x13783AC
+    // Offset: 0x13B9838
     int get_vertexCount();
     // public System.Int32 get_edgeCount()
-    // Offset: 0x137A9A4
+    // Offset: 0x13BBE30
     int get_edgeCount();
     // public System.Int32 get_indexCount()
-    // Offset: 0x137AA3C
+    // Offset: 0x13BBEC8
     int get_indexCount();
     // public System.Int32 get_triangleCount()
-    // Offset: 0x137AB4C
+    // Offset: 0x13BBFD8
     int get_triangleCount();
     // static public System.Void add_meshWillBeDestroyed(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh> value)
-    // Offset: 0x137AC6C
+    // Offset: 0x13BC0F8
     static void add_meshWillBeDestroyed(System::Action_1<UnityEngine::ProBuilder::ProBuilderMesh*>* value);
     // static public System.Void remove_meshWillBeDestroyed(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh> value)
-    // Offset: 0x137AD58
+    // Offset: 0x13BC1E4
     static void remove_meshWillBeDestroyed(System::Action_1<UnityEngine::ProBuilder::ProBuilderMesh*>* value);
     // static System.Void add_componentWillBeDestroyed(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh> value)
-    // Offset: 0x137AE44
+    // Offset: 0x13BC2D0
     static void add_componentWillBeDestroyed(System::Action_1<UnityEngine::ProBuilder::ProBuilderMesh*>* value);
     // static System.Void remove_componentWillBeDestroyed(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh> value)
-    // Offset: 0x137AF34
+    // Offset: 0x13BC3C0
     static void remove_componentWillBeDestroyed(System::Action_1<UnityEngine::ProBuilder::ProBuilderMesh*>* value);
     // static System.Void add_componentHasBeenReset(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh> value)
-    // Offset: 0x137B024
+    // Offset: 0x13BC4B0
     static void add_componentHasBeenReset(System::Action_1<UnityEngine::ProBuilder::ProBuilderMesh*>* value);
     // static System.Void remove_componentHasBeenReset(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh> value)
-    // Offset: 0x137B114
+    // Offset: 0x13BC5A0
     static void remove_componentHasBeenReset(System::Action_1<UnityEngine::ProBuilder::ProBuilderMesh*>* value);
     // static public System.Void add_elementSelectionChanged(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh> value)
-    // Offset: 0x137B204
+    // Offset: 0x13BC690
     static void add_elementSelectionChanged(System::Action_1<UnityEngine::ProBuilder::ProBuilderMesh*>* value);
     // static public System.Void remove_elementSelectionChanged(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh> value)
-    // Offset: 0x137B2F4
+    // Offset: 0x13BC780
     static void remove_elementSelectionChanged(System::Action_1<UnityEngine::ProBuilder::ProBuilderMesh*>* value);
     // UnityEngine.Mesh get_mesh()
-    // Offset: 0x13783C4
+    // Offset: 0x13B9850
     UnityEngine::Mesh* get_mesh();
     // System.Void set_mesh(UnityEngine.Mesh value)
-    // Offset: 0x137B3E4
+    // Offset: 0x13BC870
     void set_mesh(UnityEngine::Mesh* value);
     // System.Int32 get_id()
-    // Offset: 0x137B3EC
+    // Offset: 0x13BC878
     int get_id();
     // public UnityEngine.ProBuilder.MeshSyncState get_meshSyncState()
-    // Offset: 0x137B410
+    // Offset: 0x13BC89C
     UnityEngine::ProBuilder::MeshSyncState get_meshSyncState();
     // private System.Void Awake()
-    // Offset: 0x137B52C
+    // Offset: 0x13BC9B8
     void Awake();
     // private System.Void Reset()
-    // Offset: 0x137B710
+    // Offset: 0x13BCB9C
     void Reset();
     // private System.Void OnDestroy()
-    // Offset: 0x137B7FC
+    // Offset: 0x13BCC88
     void OnDestroy();
     // public System.Void Clear()
-    // Offset: 0x1379EA0
+    // Offset: 0x13BB32C
     void Clear();
     // System.Void EnsureMeshFilterIsAssigned()
-    // Offset: 0x137B5A0
+    // Offset: 0x13BCA2C
     void EnsureMeshFilterIsAssigned();
     // static UnityEngine.ProBuilder.ProBuilderMesh CreateInstanceWithPoints(UnityEngine.Vector3[] positions)
-    // Offset: 0x137BB94
+    // Offset: 0x13BD020
     static UnityEngine::ProBuilder::ProBuilderMesh* CreateInstanceWithPoints(::Array<UnityEngine::Vector3>* positions);
     // static public UnityEngine.ProBuilder.ProBuilderMesh Create()
-    // Offset: 0x137BEC4
+    // Offset: 0x13BD350
     static UnityEngine::ProBuilder::ProBuilderMesh* Create();
     // static public UnityEngine.ProBuilder.ProBuilderMesh Create(System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3> positions, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x137BF50
+    // Offset: 0x13BD3DC
     static UnityEngine::ProBuilder::ProBuilderMesh* Create(System::Collections::Generic::IEnumerable_1<UnityEngine::Vector3>* positions, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);
     // static public UnityEngine.ProBuilder.ProBuilderMesh Create(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face> faces, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex> sharedVertices, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex> sharedTextures, System.Collections.Generic.IList`1<UnityEngine.Material> materials)
-    // Offset: 0x137C130
+    // Offset: 0x13BD5BC
     static UnityEngine::ProBuilder::ProBuilderMesh* Create(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>* vertices, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Face*>* faces, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SharedVertex*>* sharedVertices, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SharedVertex*>* sharedTextures, System::Collections::Generic::IList_1<UnityEngine::Material*>* materials);
     // private System.Void GeometryWithPoints(UnityEngine.Vector3[] points)
-    // Offset: 0x137BC8C
+    // Offset: 0x13BD118
     void GeometryWithPoints(::Array<UnityEngine::Vector3>* points);
     // public System.Void RebuildWithPositionsAndFaces(System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3> vertices, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x137C010
+    // Offset: 0x13BD49C
     void RebuildWithPositionsAndFaces(System::Collections::Generic::IEnumerable_1<UnityEngine::Vector3>* vertices, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);
     // System.Void Rebuild()
-    // Offset: 0x137B6E4
+    // Offset: 0x13BCB70
     void Rebuild();
     // public System.Void ToMesh(UnityEngine.MeshTopology preferredTopology)
-    // Offset: 0x137C2B4
+    // Offset: 0x13BD740
     void ToMesh(UnityEngine::MeshTopology preferredTopology);
     // System.Void MakeUnique()
-    // Offset: 0x137C618
+    // Offset: 0x13BDAA4
     void MakeUnique();
     // public System.Void CopyFrom(UnityEngine.ProBuilder.ProBuilderMesh other)
-    // Offset: 0x137C698
+    // Offset: 0x13BDB24
     void CopyFrom(UnityEngine::ProBuilder::ProBuilderMesh* other);
     // public System.Void Refresh(UnityEngine.ProBuilder.RefreshMask mask)
-    // Offset: 0x137C5A0
+    // Offset: 0x13BDA2C
     void Refresh(UnityEngine::ProBuilder::RefreshMask mask);
     // private System.Void EnsureMeshColliderIsAssigned()
-    // Offset: 0x137BAD4
+    // Offset: 0x13BCF60
     void EnsureMeshColliderIsAssigned();
     // System.Int32 GetUnusedTextureGroup(System.Int32 i)
-    // Offset: 0x137CF60
+    // Offset: 0x13BE3EC
     int GetUnusedTextureGroup(int i);
     // static private System.Boolean IsValidTextureGroup(System.Int32 group)
-    // Offset: 0x137D04C
+    // Offset: 0x13BE4D8
     static bool IsValidTextureGroup(int group);
     // System.Int32 UnusedElementGroup(System.Int32 i)
-    // Offset: 0x137D058
+    // Offset: 0x13BE4E4
     int UnusedElementGroup(int i);
     // public System.Void RefreshUV(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> facesToRefresh)
-    // Offset: 0x137C944
+    // Offset: 0x13BDDD0
     void RefreshUV(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* facesToRefresh);
     // System.Void SetGroupUV(UnityEngine.ProBuilder.AutoUnwrapSettings settings, System.Int32 group)
-    // Offset: 0x137D144
+    // Offset: 0x13BE5D0
     void SetGroupUV(UnityEngine::ProBuilder::AutoUnwrapSettings settings, int group);
     // private System.Void RefreshColors()
-    // Offset: 0x137CE1C
+    // Offset: 0x13BE2A8
     void RefreshColors();
     // public System.Void SetFaceColor(UnityEngine.ProBuilder.Face face, UnityEngine.Color color)
-    // Offset: 0x137D220
+    // Offset: 0x13BE6AC
     void SetFaceColor(UnityEngine::ProBuilder::Face* face, UnityEngine::Color color);
     // public System.Void SetMaterial(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, UnityEngine.Material material)
-    // Offset: 0x137D510
+    // Offset: 0x13BE99C
     void SetMaterial(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, UnityEngine::Material* material);
     // private System.Void RefreshNormals()
-    // Offset: 0x137CE58
+    // Offset: 0x13BE2E4
     void RefreshNormals();
     // private System.Void RefreshTangents()
-    // Offset: 0x137CEDC
+    // Offset: 0x13BE368
     void RefreshTangents();
     // System.Int32 GetSharedVertexHandle(System.Int32 vertex)
-    // Offset: 0x137D9CC
+    // Offset: 0x13BEE58
     int GetSharedVertexHandle(int vertex);
     // System.Collections.Generic.HashSet`1<System.Int32> GetSharedVertexHandles(System.Collections.Generic.IEnumerable`1<System.Int32> vertices)
-    // Offset: 0x137DB3C
+    // Offset: 0x13BEFC8
     System::Collections::Generic::HashSet_1<int>* GetSharedVertexHandles(System::Collections::Generic::IEnumerable_1<int>* vertices);
     // public System.Collections.Generic.List`1<System.Int32> GetCoincidentVertices(System.Collections.Generic.IEnumerable`1<System.Int32> vertices)
-    // Offset: 0x137DE28
+    // Offset: 0x13BF2B4
     System::Collections::Generic::List_1<int>* GetCoincidentVertices(System::Collections::Generic::IEnumerable_1<int>* vertices);
     // public System.Void GetCoincidentVertices(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Collections.Generic.List`1<System.Int32> coincident)
-    // Offset: 0x137E350
+    // Offset: 0x13BF7DC
     void GetCoincidentVertices(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, System::Collections::Generic::List_1<int>* coincident);
     // public System.Void GetCoincidentVertices(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges, System.Collections.Generic.List`1<System.Int32> coincident)
-    // Offset: 0x137E824
+    // Offset: 0x13BFCB0
     void GetCoincidentVertices(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges, System::Collections::Generic::List_1<int>* coincident);
     // public System.Void GetCoincidentVertices(System.Collections.Generic.IEnumerable`1<System.Int32> vertices, System.Collections.Generic.List`1<System.Int32> coincident)
-    // Offset: 0x137DEEC
+    // Offset: 0x13BF378
     void GetCoincidentVertices(System::Collections::Generic::IEnumerable_1<int>* vertices, System::Collections::Generic::List_1<int>* coincident);
     // public System.Void GetCoincidentVertices(System.Int32 vertex, System.Collections.Generic.List`1<System.Int32> coincident)
-    // Offset: 0x137ED78
+    // Offset: 0x13C0204
     void GetCoincidentVertices(int vertex, System::Collections::Generic::List_1<int>* coincident);
     // public System.Void SetVerticesCoincident(System.Collections.Generic.IEnumerable`1<System.Int32> vertices)
-    // Offset: 0x137EEEC
+    // Offset: 0x13C0378
     void SetVerticesCoincident(System::Collections::Generic::IEnumerable_1<int>* vertices);
     // System.Void SetTexturesCoincident(System.Collections.Generic.IEnumerable`1<System.Int32> vertices)
-    // Offset: 0x137EF98
+    // Offset: 0x13C0424
     void SetTexturesCoincident(System::Collections::Generic::IEnumerable_1<int>* vertices);
     // System.Void AddToSharedVertex(System.Int32 sharedVertexHandle, System.Int32 vertex)
-    // Offset: 0x137EFE4
+    // Offset: 0x13C0470
     void AddToSharedVertex(int sharedVertexHandle, int vertex);
     // System.Void AddSharedVertex(UnityEngine.ProBuilder.SharedVertex vertex)
-    // Offset: 0x137F0B8
+    // Offset: 0x13C0544
     void AddSharedVertex(UnityEngine::ProBuilder::SharedVertex* vertex);
     // public System.Boolean get_selectable()
-    // Offset: 0x137F174
+    // Offset: 0x13C0600
     bool get_selectable();
     // public System.Void set_selectable(System.Boolean value)
-    // Offset: 0x137F17C
+    // Offset: 0x13C0608
     void set_selectable(bool value);
     // public System.Int32 get_selectedFaceCount()
-    // Offset: 0x137F188
+    // Offset: 0x13C0614
     int get_selectedFaceCount();
     // public System.Int32 get_selectedVertexCount()
-    // Offset: 0x137F1A4
+    // Offset: 0x13C0630
     int get_selectedVertexCount();
     // public System.Int32 get_selectedEdgeCount()
-    // Offset: 0x137F1C0
+    // Offset: 0x13C064C
     int get_selectedEdgeCount();
     // System.Int32 get_selectedSharedVerticesCount()
-    // Offset: 0x137F1DC
+    // Offset: 0x13C0668
     int get_selectedSharedVerticesCount();
     // System.Int32 get_selectedCoincidentVertexCount()
-    // Offset: 0x137F6A8
+    // Offset: 0x13C0B34
     int get_selectedCoincidentVertexCount();
     // System.Collections.Generic.IEnumerable`1<System.Int32> get_selectedSharedVertices()
-    // Offset: 0x137F6CC
+    // Offset: 0x13C0B58
     System::Collections::Generic::IEnumerable_1<int>* get_selectedSharedVertices();
     // System.Collections.Generic.IEnumerable`1<System.Int32> get_selectedCoincidentVertices()
-    // Offset: 0x137F6F0
+    // Offset: 0x13C0B7C
     System::Collections::Generic::IEnumerable_1<int>* get_selectedCoincidentVertices();
     // private System.Void CacheSelection()
-    // Offset: 0x137F200
+    // Offset: 0x13C068C
     void CacheSelection();
     // public UnityEngine.ProBuilder.Face[] GetSelectedFaces()
-    // Offset: 0x137F714
+    // Offset: 0x13C0BA0
     ::Array<UnityEngine::ProBuilder::Face*>* GetSelectedFaces();
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32> get_selectedFaceIndexes()
-    // Offset: 0x137F844
+    // Offset: 0x13C0CD0
     System::Collections::ObjectModel::ReadOnlyCollection_1<int>* get_selectedFaceIndexes();
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32> get_selectedVertices()
-    // Offset: 0x137F8B4
+    // Offset: 0x13C0D40
     System::Collections::ObjectModel::ReadOnlyCollection_1<int>* get_selectedVertices();
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.ProBuilder.Edge> get_selectedEdges()
-    // Offset: 0x137F924
+    // Offset: 0x13C0DB0
     System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::Edge>* get_selectedEdges();
     // UnityEngine.ProBuilder.Face[] get_selectedFacesInternal()
-    // Offset: 0x137F994
+    // Offset: 0x13C0E20
     ::Array<UnityEngine::ProBuilder::Face*>* get_selectedFacesInternal();
     // System.Void set_selectedFacesInternal(UnityEngine.ProBuilder.Face[] value)
-    // Offset: 0x137F998
+    // Offset: 0x13C0E24
     void set_selectedFacesInternal(::Array<UnityEngine::ProBuilder::Face*>* value);
     // System.Int32[] get_selectedFaceIndicesInternal()
-    // Offset: 0x137FA4C
+    // Offset: 0x13C0ED8
     ::Array<int>* get_selectedFaceIndicesInternal();
     // System.Void set_selectedFaceIndicesInternal(System.Int32[] value)
-    // Offset: 0x137FA54
+    // Offset: 0x13C0EE0
     void set_selectedFaceIndicesInternal(::Array<int>* value);
     // UnityEngine.ProBuilder.Edge[] get_selectedEdgesInternal()
-    // Offset: 0x137FA5C
+    // Offset: 0x13C0EE8
     ::Array<UnityEngine::ProBuilder::Edge>* get_selectedEdgesInternal();
     // System.Void set_selectedEdgesInternal(UnityEngine.ProBuilder.Edge[] value)
-    // Offset: 0x137FA64
+    // Offset: 0x13C0EF0
     void set_selectedEdgesInternal(::Array<UnityEngine::ProBuilder::Edge>* value);
     // System.Int32[] get_selectedIndexesInternal()
-    // Offset: 0x137FA6C
+    // Offset: 0x13C0EF8
     ::Array<int>* get_selectedIndexesInternal();
     // System.Void set_selectedIndexesInternal(System.Int32[] value)
-    // Offset: 0x137FA74
+    // Offset: 0x13C0F00
     void set_selectedIndexesInternal(::Array<int>* value);
     // UnityEngine.ProBuilder.Face GetActiveFace()
-    // Offset: 0x137FA7C
+    // Offset: 0x13C0F08
     UnityEngine::ProBuilder::Face* GetActiveFace();
     // UnityEngine.ProBuilder.Edge GetActiveEdge()
-    // Offset: 0x137FAE4
+    // Offset: 0x13C0F70
     UnityEngine::ProBuilder::Edge GetActiveEdge();
     // System.Int32 GetActiveVertex()
-    // Offset: 0x137FB7C
+    // Offset: 0x13C1008
     int GetActiveVertex();
     // System.Void AddToFaceSelection(System.Int32 index)
-    // Offset: 0x137FBB8
+    // Offset: 0x13C1044
     void AddToFaceSelection(int index);
     // public System.Void SetSelectedFaces(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> selected)
-    // Offset: 0x137FE24
+    // Offset: 0x13C12B0
     void SetSelectedFaces(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* selected);
     // System.Void SetSelectedFaces(System.Collections.Generic.IEnumerable`1<System.Int32> selected)
-    // Offset: 0x137FC38
+    // Offset: 0x13C10C4
     void SetSelectedFaces(System::Collections::Generic::IEnumerable_1<int>* selected);
     // public System.Void SetSelectedEdges(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges)
-    // Offset: 0x137FED8
+    // Offset: 0x13C1364
     void SetSelectedEdges(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges);
     // public System.Void SetSelectedVertices(System.Collections.Generic.IEnumerable`1<System.Int32> vertices)
-    // Offset: 0x1380020
+    // Offset: 0x13C14AC
     void SetSelectedVertices(System::Collections::Generic::IEnumerable_1<int>* vertices);
     // System.Void RemoveFromFaceSelectionAtIndex(System.Int32 index)
-    // Offset: 0x1380188
+    // Offset: 0x13C1614
     void RemoveFromFaceSelectionAtIndex(int index);
     // public System.Void ClearSelection()
-    // Offset: 0x137BA28
+    // Offset: 0x13BCEB4
     void ClearSelection();
     // private System.Int32 <set_selectedFacesInternal>b__207_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1380388
+    // Offset: 0x13C1814
     int $set_selectedFacesInternal$b__207_0(UnityEngine::ProBuilder::Face* x);
     // private System.Int32 <SetSelectedFaces>b__221_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x13803E8
+    // Offset: 0x13C1874
     int $SetSelectedFaces$b__221_0(UnityEngine::ProBuilder::Face* x);
     // private System.Collections.Generic.IEnumerable`1<System.Int32> <SetSelectedFaces>b__222_0(System.Int32 x)
-    // Offset: 0x1380448
+    // Offset: 0x13C18D4
     System::Collections::Generic::IEnumerable_1<int>* $SetSelectedFaces$b__222_0(int x);
     // private System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> <SetSelectedFaces>b__222_1(System.Int32 x)
-    // Offset: 0x138048C
+    // Offset: 0x13C1918
     System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* $SetSelectedFaces$b__222_1(int x);
     // public System.Void .ctor()
-    // Offset: 0x13801F4
+    // Offset: 0x13C1680
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -713,7 +713,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.ctor()
     static ProBuilderMesh* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1380310
+    // Offset: 0x13C179C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRExtendedDisplay::_GetWindowBounds : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AB1F9C
+    // Offset: 0x18614D4
     static IVRExtendedDisplay::_GetWindowBounds* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(ref System.Int32 pnX, ref System.Int32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
-    // Offset: 0x1AB1FB0
+    // Offset: 0x18614E8
     void Invoke(int& pnX, int& pnY, uint& pnWidth, uint& pnHeight);
     // public System.IAsyncResult BeginInvoke(ref System.Int32 pnX, ref System.Int32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AB2248
+    // Offset: 0x1861780
     System::IAsyncResult* BeginInvoke(int& pnX, int& pnY, uint& pnWidth, uint& pnHeight, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(ref System.Int32 pnX, ref System.Int32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight, System.IAsyncResult result)
-    // Offset: 0x1AB2334
+    // Offset: 0x186186C
     void EndInvoke(int& pnX, int& pnY, uint& pnWidth, uint& pnHeight, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRExtendedDisplay/_GetWindowBounds
 }

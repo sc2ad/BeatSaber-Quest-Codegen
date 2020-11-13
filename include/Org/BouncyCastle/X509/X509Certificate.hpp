@@ -69,55 +69,55 @@ namespace Org::BouncyCastle::X509 {
     // Offset: 0x4C
     int hashValue;
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.X509CertificateStructure c)
-    // Offset: 0x1B38D7C
+    // Offset: 0x18C10CC
     static X509Certificate* New_ctor(Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c);
     // public System.Int32 get_Version()
-    // Offset: 0x1B39590
+    // Offset: 0x18C18E0
     int get_Version();
     // public Org.BouncyCastle.Math.BigInteger get_SerialNumber()
-    // Offset: 0x1B395AC
+    // Offset: 0x18C18FC
     Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
     // public Org.BouncyCastle.Asn1.X509.X509Name get_IssuerDN()
-    // Offset: 0x1B395D8
+    // Offset: 0x18C1928
     Org::BouncyCastle::Asn1::X509::X509Name* get_IssuerDN();
     // public Org.BouncyCastle.Asn1.X509.X509Name get_SubjectDN()
-    // Offset: 0x1B395F4
+    // Offset: 0x18C1944
     Org::BouncyCastle::Asn1::X509::X509Name* get_SubjectDN();
     // public System.DateTime get_NotBefore()
-    // Offset: 0x1B39610
+    // Offset: 0x18C1960
     System::DateTime get_NotBefore();
     // public System.DateTime get_NotAfter()
-    // Offset: 0x1B3963C
+    // Offset: 0x18C198C
     System::DateTime get_NotAfter();
     // public System.Byte[] GetSignature()
-    // Offset: 0x1B39668
+    // Offset: 0x18C19B8
     ::Array<uint8_t>* GetSignature();
     // public System.String get_SigAlgName()
-    // Offset: 0x1B39684
+    // Offset: 0x18C19D4
     ::Il2CppString* get_SigAlgName();
     // public Org.BouncyCastle.Crypto.AsymmetricKeyParameter GetPublicKey()
-    // Offset: 0x1B396DC
+    // Offset: 0x18C1A2C
     Org::BouncyCastle::Crypto::AsymmetricKeyParameter* GetPublicKey();
     // public System.Byte[] GetEncoded()
-    // Offset: 0x1B397C4
+    // Offset: 0x18C1B14
     ::Array<uint8_t>* GetEncoded();
     // protected override Org.BouncyCastle.Asn1.X509.X509Extensions GetX509Extensions()
-    // Offset: 0x1B3968C
+    // Offset: 0x18C19DC
     // Implemented from: Org.BouncyCastle.X509.X509ExtensionBase
     // Base method: Org.BouncyCastle.Asn1.X509.X509Extensions X509ExtensionBase::GetX509Extensions()
     Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x1B397E0
+    // Offset: 0x18C1B30
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1B39908
+    // Offset: 0x18C1C58
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1B39970
+    // Offset: 0x18C1CC0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

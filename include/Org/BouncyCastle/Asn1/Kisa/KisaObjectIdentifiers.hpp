@@ -27,7 +27,7 @@ namespace Org::BouncyCastle::Asn1::Kisa {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IdNpkiAppCmsSeedWrap
     static void _set_IdNpkiAppCmsSeedWrap(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x1403534
+    // Offset: 0x13F542C
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Kisa.KisaObjectIdentifiers
 }

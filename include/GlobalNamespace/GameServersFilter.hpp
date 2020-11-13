@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Offset: 0x2A
     bool showInternetGames;
     // public System.Void .ctor()
-    // Offset: 0x2004DCC
+    // Offset: 0x1A1EFB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GameServersFilter* New_ctor();

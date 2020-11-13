@@ -23,13 +23,13 @@ namespace System::Text {
     // Set static field: static private System.Text.StringBuilder CachedInstance
     static void _set_CachedInstance(System::Text::StringBuilder* value);
     // static public System.Text.StringBuilder Acquire(System.Int32 capacity)
-    // Offset: 0x17B09E4
+    // Offset: 0x16A443C
     static System::Text::StringBuilder* Acquire(int capacity);
     // static public System.Void Release(System.Text.StringBuilder sb)
-    // Offset: 0x17B0AA8
+    // Offset: 0x16A4500
     static void Release(System::Text::StringBuilder* sb);
     // static public System.String GetStringAndRelease(System.Text.StringBuilder sb)
-    // Offset: 0x17B0B28
+    // Offset: 0x16A4580
     static ::Il2CppString* GetStringAndRelease(System::Text::StringBuilder* sb);
   }; // System.Text.StringBuilderCache
 }

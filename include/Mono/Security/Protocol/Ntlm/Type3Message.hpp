@@ -50,35 +50,35 @@ namespace Mono::Security::Protocol::Ntlm {
     // Offset: 0x58
     ::Array<uint8_t>* nt;
     // public System.Void .ctor(Mono.Security.Protocol.Ntlm.Type2Message type2)
-    // Offset: 0x192D134
+    // Offset: 0x17BC2BC
     static Type3Message* New_ctor(Mono::Security::Protocol::Ntlm::Type2Message* type2);
     // public System.Void set_Domain(System.String value)
-    // Offset: 0x192D430
+    // Offset: 0x17BC5B8
     void set_Domain(::Il2CppString* value);
     // public System.Void set_Password(System.String value)
-    // Offset: 0x192D4C0
+    // Offset: 0x17BC648
     void set_Password(::Il2CppString* value);
     // public System.Void set_Username(System.String value)
-    // Offset: 0x192D4C8
+    // Offset: 0x17BC650
     void set_Username(::Il2CppString* value);
     // private System.String DecodeString(System.Byte[] buffer, System.Int32 offset, System.Int32 len)
-    // Offset: 0x192D740
+    // Offset: 0x17BC8C8
     ::Il2CppString* DecodeString(::Array<uint8_t>* buffer, int offset, int len);
     // private System.Byte[] EncodeString(System.String text)
-    // Offset: 0x192D7A4
+    // Offset: 0x17BC92C
     ::Array<uint8_t>* EncodeString(::Il2CppString* text);
     // protected override System.Void Finalize()
-    // Offset: 0x192D37C
+    // Offset: 0x17BC504
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Decode(System.Byte[] message)
-    // Offset: 0x192D4D0
+    // Offset: 0x17BC658
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Void MessageBase::Decode(System.Byte[] message)
     void Decode(::Array<uint8_t>* message);
     // public override System.Byte[] GetBytes()
-    // Offset: 0x192D848
+    // Offset: 0x17BC9D0
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Byte[] MessageBase::GetBytes()
     ::Array<uint8_t>* GetBytes();

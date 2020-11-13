@@ -49,21 +49,21 @@ namespace System::Net::NetworkInformation {
       return addresses;
     }
     // public System.Void CopyTo(System.Net.IPAddress[] array, System.Int32 offset)
-    // Offset: 0x10C3EA4
+    // Offset: 0x11997D4
     void CopyTo(::Array<System::Net::IPAddress*>* array, int offset);
     // System.Void InternalAdd(System.Net.IPAddress address)
-    // Offset: 0x10C3FF4
+    // Offset: 0x1199924
     void InternalAdd(System::Net::IPAddress* address);
     // public System.Collections.Generic.IEnumerator`1<System.Net.IPAddress> GetEnumerator()
-    // Offset: 0x10C40D4
+    // Offset: 0x1199A04
     System::Collections::Generic::IEnumerator_1<System::Net::IPAddress*>* GetEnumerator();
     // protected internal System.Void .ctor()
-    // Offset: 0x10C3E28
+    // Offset: 0x1199758
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IPAddressCollection* New_ctor();
     // public System.Int32 get_Count()
-    // Offset: 0x10C3F14
+    // Offset: 0x1199844
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Int32 ICollection_1::get_Count()
     int get_Count();
@@ -71,7 +71,7 @@ namespace System::Net::NetworkInformation {
     // Maps to method: get_Count
     int System_Collections_Generic_ICollection_1_get_Count();
     // public System.Boolean get_IsReadOnly()
-    // Offset: 0x10C3F6C
+    // Offset: 0x119989C
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::get_IsReadOnly()
     bool get_IsReadOnly();
@@ -79,7 +79,7 @@ namespace System::Net::NetworkInformation {
     // Maps to method: get_IsReadOnly
     bool System_Collections_Generic_ICollection_1_get_IsReadOnly();
     // public System.Void Add(System.Net.IPAddress address)
-    // Offset: 0x10C3F74
+    // Offset: 0x11998A4
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection_1::Add(System.Net.IPAddress address)
     void Add(System::Net::IPAddress* address);
@@ -87,7 +87,7 @@ namespace System::Net::NetworkInformation {
     // Maps to method: Add
     void System_Collections_Generic_ICollection_1_Add(System::Net::IPAddress* address);
     // public System.Boolean Contains(System.Net.IPAddress address)
-    // Offset: 0x10C405C
+    // Offset: 0x119998C
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::Contains(System.Net.IPAddress address)
     bool Contains(System::Net::IPAddress* address);
@@ -95,12 +95,12 @@ namespace System::Net::NetworkInformation {
     // Maps to method: Contains
     bool System_Collections_Generic_ICollection_1_Contains(System::Net::IPAddress* address);
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x10C40C4
+    // Offset: 0x11999F4
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Boolean Remove(System.Net.IPAddress address)
-    // Offset: 0x10C412C
+    // Offset: 0x1199A5C
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::Remove(System.Net.IPAddress address)
     bool Remove(System::Net::IPAddress* address);
@@ -108,7 +108,7 @@ namespace System::Net::NetworkInformation {
     // Maps to method: Remove
     bool System_Collections_Generic_ICollection_1_Remove(System::Net::IPAddress* address);
     // public System.Void Clear()
-    // Offset: 0x10C41AC
+    // Offset: 0x1199ADC
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection_1::Clear()
     void Clear();

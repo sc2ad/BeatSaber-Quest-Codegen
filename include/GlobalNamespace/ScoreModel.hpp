@@ -71,16 +71,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMaxDistanceForDistanceToCenterScore
     static void _set_kMaxDistanceForDistanceToCenterScore(float value);
     // static public System.Int32 MaxRawScoreForNumberOfNotes(System.Int32 noteCount)
-    // Offset: 0x207DC44
+    // Offset: 0xFC7CA4
     static int MaxRawScoreForNumberOfNotes(int noteCount);
     // static public System.Void RawScoreWithoutMultiplier(NoteCutInfo noteCutInfo, out System.Int32 beforeCutRawScore, out System.Int32 afterCutRawScore, out System.Int32 cutDistanceRawScore)
-    // Offset: 0x207E38C
+    // Offset: 0xFC8524
     static void RawScoreWithoutMultiplier(GlobalNamespace::NoteCutInfo* noteCutInfo, int& beforeCutRawScore, int& afterCutRawScore, int& cutDistanceRawScore);
     // static public System.Int32 GetModifiedScoreForGameplayModifiersScoreMultiplier(System.Int32 rawScore, System.Single gameplayModifiersScoreMultiplier)
-    // Offset: 0x207D3F0
+    // Offset: 0xFC7450
     static int GetModifiedScoreForGameplayModifiersScoreMultiplier(int rawScore, float gameplayModifiersScoreMultiplier);
     // public System.Void .ctor()
-    // Offset: 0x207E5D0
+    // Offset: 0xFC8768
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ScoreModel* New_ctor();

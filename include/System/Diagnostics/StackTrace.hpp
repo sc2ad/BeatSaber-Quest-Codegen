@@ -61,48 +61,48 @@ namespace System::Diagnostics {
     // Set static field: static private System.String aotid
     static void _set_aotid(::Il2CppString* value);
     // public System.Void .ctor(System.Boolean fNeedFileInfo)
-    // Offset: 0x176F7F4
+    // Offset: 0x1677F8C
     static StackTrace* New_ctor(bool fNeedFileInfo);
     // public System.Void .ctor(System.Int32 skipFrames, System.Boolean fNeedFileInfo)
-    // Offset: 0x176F828
+    // Offset: 0x1677FC0
     static StackTrace* New_ctor(int skipFrames, bool fNeedFileInfo);
     // private System.Void init_frames(System.Int32 skipFrames, System.Boolean fNeedFileInfo)
-    // Offset: 0x176F658
+    // Offset: 0x1677DF0
     void init_frames(int skipFrames, bool fNeedFileInfo);
     // static private System.Diagnostics.StackFrame[] get_trace(System.Exception e, System.Int32 skipFrames, System.Boolean fNeedFileInfo)
-    // Offset: 0x176F868
+    // Offset: 0x1678000
     static ::Array<System::Diagnostics::StackFrame*>* get_trace(System::Exception* e, int skipFrames, bool fNeedFileInfo);
     // public System.Void .ctor(System.Exception e, System.Boolean fNeedFileInfo)
-    // Offset: 0x176F870
+    // Offset: 0x1678008
     static StackTrace* New_ctor(System::Exception* e, bool fNeedFileInfo);
     // public System.Void .ctor(System.Exception e, System.Int32 skipFrames, System.Boolean fNeedFileInfo)
-    // Offset: 0x176F87C
+    // Offset: 0x1678014
     static StackTrace* New_ctor(System::Exception* e, int skipFrames, bool fNeedFileInfo);
     // public System.Int32 get_FrameCount()
-    // Offset: 0x176F98C
+    // Offset: 0x1678124
     int get_FrameCount();
     // public System.Diagnostics.StackFrame GetFrame(System.Int32 index)
-    // Offset: 0x176F9A4
+    // Offset: 0x167813C
     System::Diagnostics::StackFrame* GetFrame(int index);
     // static private System.String GetAotId()
-    // Offset: 0x176FA10
+    // Offset: 0x16781A8
     static ::Il2CppString* GetAotId();
     // private System.Boolean AddFrames(System.Text.StringBuilder sb)
-    // Offset: 0x176FB04
+    // Offset: 0x167829C
     bool AddFrames(System::Text::StringBuilder* sb);
     // System.Void GetFullNameForStackTrace(System.Text.StringBuilder sb, System.Reflection.MethodBase mi)
-    // Offset: 0x176FF90
+    // Offset: 0x1678728
     void GetFullNameForStackTrace(System::Text::StringBuilder* sb, System::Reflection::MethodBase* mi);
     // System.String ToString(System.Diagnostics.StackTrace/TraceFormat traceFormat)
-    // Offset: 0x17704D4
+    // Offset: 0x1678C6C
     ::Il2CppString* ToString(System::Diagnostics::StackTrace::TraceFormat traceFormat);
     // public System.Void .ctor()
-    // Offset: 0x176F628
+    // Offset: 0x1677DC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static StackTrace* New_ctor();
     // public override System.String ToString()
-    // Offset: 0x17703A8
+    // Offset: 0x1678B40
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

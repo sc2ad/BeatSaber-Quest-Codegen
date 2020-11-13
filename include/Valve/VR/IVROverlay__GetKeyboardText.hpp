@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVROverlay::_GetKeyboardText : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1B8C0FC
+    // Offset: 0x18EFF14
     static IVROverlay::_GetKeyboardText* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.Text.StringBuilder pchText, System.UInt32 cchText)
-    // Offset: 0x1B8C110
+    // Offset: 0x18EFF28
     uint Invoke(System::Text::StringBuilder* pchText, uint cchText);
     // public System.IAsyncResult BeginInvoke(System.Text.StringBuilder pchText, System.UInt32 cchText, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1B8C544
+    // Offset: 0x18F035C
     System::IAsyncResult* BeginInvoke(System::Text::StringBuilder* pchText, uint cchText, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1B8C5E0
+    // Offset: 0x18F03F8
     uint EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetKeyboardText
 }

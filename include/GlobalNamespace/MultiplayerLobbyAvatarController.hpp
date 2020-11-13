@@ -26,10 +26,10 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::MultiplayerLobbyAvatarController::Factory
     class Factory;
     // public System.Void Spawn(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x2043A8C
+    // Offset: 0xFB87FC
     void Spawn(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
-    // Offset: 0x2043B08
+    // Offset: 0xFB8878
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

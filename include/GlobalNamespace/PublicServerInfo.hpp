@@ -51,18 +51,18 @@ namespace GlobalNamespace {
       return *reinterpret_cast<LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::PublicServerInfo>*>(this);
     }
     // public System.Void .ctor(System.String serverName, System.String code, System.Int32 currentPlayerCount, System.Int32 maxPlayerCount, System.Boolean hasPassword, GameplayServerConfiguration configuration)
-    // Offset: 0xE50828
+    // Offset: 0xE8FF20
     // ABORTED: conflicts with another method.  PublicServerInfo(::Il2CppString* serverName, ::Il2CppString* code, int currentPlayerCount, int maxPlayerCount, bool hasPassword, GlobalNamespace::GameplayServerConfiguration configuration);
     // static public PublicServerInfo Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x21FA4C8
+    // Offset: 0x1E547D8
     static GlobalNamespace::PublicServerInfo Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xE508B0
+    // Offset: 0xE8FFA8
     // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
     // Base method: System.Void INetImmutableSerializable_1::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public PublicServerInfo CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xE508B8
+    // Offset: 0xE8FFB0
     // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
     // Base method: T INetImmutableSerializable_1::CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
     GlobalNamespace::PublicServerInfo CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);

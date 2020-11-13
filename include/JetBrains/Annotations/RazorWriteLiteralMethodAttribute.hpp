@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class RazorWriteLiteralMethodAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1F5D064
+    // Offset: 0x19EEA48
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

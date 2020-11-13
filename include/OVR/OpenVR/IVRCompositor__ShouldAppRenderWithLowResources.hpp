@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_ShouldAppRenderWithLowResources : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AAF8BC
+    // Offset: 0x185EDF4
     static IVRCompositor::_ShouldAppRenderWithLowResources* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
-    // Offset: 0x1AAF8D0
+    // Offset: 0x185EE08
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AAFAE8
+    // Offset: 0x185F020
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1AAFB14
+    // Offset: 0x185F04C
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_ShouldAppRenderWithLowResources
 }

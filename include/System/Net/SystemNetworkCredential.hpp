@@ -18,10 +18,10 @@ namespace System::Net {
     // Set static field: static readonly System.Net.SystemNetworkCredential defaultCredential
     static void _set_defaultCredential(System::Net::SystemNetworkCredential* value);
     // static private System.Void .cctor()
-    // Offset: 0x118AA7C
+    // Offset: 0x1215E0C
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x118AA18
+    // Offset: 0x1215DA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SystemNetworkCredential* New_ctor();

@@ -66,28 +66,28 @@ namespace RootMotion {
     // Offset: 0x6C
     UnityEngine::Quaternion relativeRotation;
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.Transform root, System.Boolean recordPosition, System.Boolean isRootNode)
-    // Offset: 0x1862A5C
+    // Offset: 0x17409C0
     static BakerTransform* New_ctor(UnityEngine::Transform* transform, UnityEngine::Transform* root, bool recordPosition, bool isRootNode);
     // public System.Void SetRelativeSpace(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x1862C54
+    // Offset: 0x1740BB8
     void SetRelativeSpace(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // public System.Void SetCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x1862C68
+    // Offset: 0x1740BCC
     void SetCurves(UnityEngine::AnimationClip*& clip);
     // private System.Void AddRootMotionCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x1862EF8
+    // Offset: 0x1740E5C
     void AddRootMotionCurves(UnityEngine::AnimationClip*& clip);
     // public System.Void Reset()
-    // Offset: 0x1862B0C
+    // Offset: 0x1740A70
     void Reset();
     // public System.Void ReduceKeyframes(System.Single maxError)
-    // Offset: 0x1863144
+    // Offset: 0x17410A8
     void ReduceKeyframes(float maxError);
     // public System.Void SetKeyframes(System.Single time)
-    // Offset: 0x18631B8
+    // Offset: 0x174111C
     void SetKeyframes(float time);
     // public System.Void AddLoopFrame(System.Single time)
-    // Offset: 0x1863404
+    // Offset: 0x1741368
     void AddLoopFrame(float time);
   }; // RootMotion.BakerTransform
 }

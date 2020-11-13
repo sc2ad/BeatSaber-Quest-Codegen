@@ -40,25 +40,25 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IStreamCipher*>(this);
     }
     // protected System.Void InitKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x14AB62C
+    // Offset: 0x14967CC
     void InitKey(::Array<uint8_t>* keyBytes, ::Array<uint8_t>* ivBytes);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x14AB48C
+    // Offset: 0x149662C
     // Implemented from: Org.BouncyCastle.Crypto.IStreamCipher
     // Base method: System.Void IStreamCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x14AB864
+    // Offset: 0x1496A04
     // Implemented from: Org.BouncyCastle.Crypto.IStreamCipher
     // Base method: System.Void IStreamCipher::ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
     void ProcessBytes(::Array<uint8_t>* input, int inOff, int len, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x14ABA44
+    // Offset: 0x1496BE4
     // Implemented from: Org.BouncyCastle.Crypto.IStreamCipher
     // Base method: System.Void IStreamCipher::Reset()
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x14ABA54
+    // Offset: 0x1496BF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VmpcEngine* New_ctor();

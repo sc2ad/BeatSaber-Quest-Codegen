@@ -21,10 +21,10 @@ namespace System {
       return comment;
     }
     // public System.Void .ctor(System.String comment)
-    // Offset: 0x184A7C4
+    // Offset: 0x1711E6C
     static MonoTODOAttribute* New_ctor(::Il2CppString* comment);
     // public System.Void .ctor()
-    // Offset: 0x184A7FC
+    // Offset: 0x1711EA4
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

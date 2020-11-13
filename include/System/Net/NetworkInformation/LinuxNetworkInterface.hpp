@@ -32,23 +32,23 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x48
     ::Il2CppString* iface_flags_path;
     // System.String get_IfacePath()
-    // Offset: 0x10C4CFC
+    // Offset: 0x119A62C
     ::Il2CppString* get_IfacePath();
     // static System.String ReadLine(System.String path)
-    // Offset: 0x10C517C
+    // Offset: 0x119AAAC
     static ::Il2CppString* ReadLine(::Il2CppString* path);
     // System.Void .ctor(System.String name)
-    // Offset: 0x10C4D04
+    // Offset: 0x119A634
     // Implemented from: System.Net.NetworkInformation.UnixNetworkInterface
     // Base method: System.Void UnixNetworkInterface::.ctor(System.String name)
     static LinuxNetworkInterface* New_ctor(::Il2CppString* name);
     // public override System.Net.NetworkInformation.IPInterfaceProperties GetIPProperties()
-    // Offset: 0x10C4E74
+    // Offset: 0x119A7A4
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.IPInterfaceProperties NetworkInterface::GetIPProperties()
     System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
     // public override System.Net.NetworkInformation.OperationalStatus get_OperationalStatus()
-    // Offset: 0x10C4F00
+    // Offset: 0x119A830
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.OperationalStatus NetworkInterface::get_OperationalStatus()
     System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();

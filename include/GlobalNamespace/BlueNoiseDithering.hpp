@@ -34,10 +34,10 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _globalNoiseTextureID
     static void _set__globalNoiseTextureID(int value);
     // public System.Void SetBlueNoiseShaderParams(System.Int32 cameraPixelWidth, System.Int32 cameraPixelHeight)
-    // Offset: 0x1CFB174
+    // Offset: 0x1877DF0
     void SetBlueNoiseShaderParams(int cameraPixelWidth, int cameraPixelHeight);
     // public System.Void .ctor()
-    // Offset: 0x1CFB294
+    // Offset: 0x1877F10
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BlueNoiseDithering* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1CFB29C
+    // Offset: 0x1877F18
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

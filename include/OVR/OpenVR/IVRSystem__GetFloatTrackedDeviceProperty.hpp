@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_GetFloatTrackedDeviceProperty : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C94B18
+    // Offset: 0x1912CF0
     static IVRSystem::_GetFloatTrackedDeviceProperty* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Single Invoke(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, ref OVR.OpenVR.ETrackedPropertyError pError)
-    // Offset: 0x1C94B2C
+    // Offset: 0x1912D04
     float Invoke(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, OVR::OpenVR::ETrackedPropertyError& pError);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, ref OVR.OpenVR.ETrackedPropertyError pError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C94DD8
+    // Offset: 0x1912FB0
     System::IAsyncResult* BeginInvoke(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, OVR::OpenVR::ETrackedPropertyError& pError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Single EndInvoke(ref OVR.OpenVR.ETrackedPropertyError pError, System.IAsyncResult result)
-    // Offset: 0x1C94EAC
+    // Offset: 0x1913084
     float EndInvoke(OVR::OpenVR::ETrackedPropertyError& pError, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetFloatTrackedDeviceProperty
 }

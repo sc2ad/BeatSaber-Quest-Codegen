@@ -27,7 +27,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x18
     uint64_t UserId;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1141034
+    // Offset: 0x11E1CF4
     static SdkAccount* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.SdkAccount
 }

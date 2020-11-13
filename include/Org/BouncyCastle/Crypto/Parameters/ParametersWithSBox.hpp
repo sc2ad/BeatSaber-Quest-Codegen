@@ -24,13 +24,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.ICipherParameters parameters, System.Byte[] sBox)
-    // Offset: 0xF4D534
+    // Offset: 0x1048F40
     static ParametersWithSBox* New_ctor(Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::Array<uint8_t>* sBox);
     // public System.Byte[] GetSBox()
-    // Offset: 0xF4D584
+    // Offset: 0x1048F90
     ::Array<uint8_t>* GetSBox();
     // public Org.BouncyCastle.Crypto.ICipherParameters get_Parameters()
-    // Offset: 0xF4D58C
+    // Offset: 0x1048F98
     Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
   }; // Org.BouncyCastle.Crypto.Parameters.ParametersWithSBox
 }

@@ -33,10 +33,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return m_topLevelAssembly;
     }
     // public System.Void .ctor(System.Reflection.Assembly topLevelAssembly)
-    // Offset: 0x129A668
+    // Offset: 0x12F9E54
     static ObjectReader::TopLevelAssemblyTypeResolver* New_ctor(System::Reflection::Assembly* topLevelAssembly);
     // public System.Type ResolveType(System.Reflection.Assembly assembly, System.String simpleTypeName, System.Boolean ignoreCase)
-    // Offset: 0x129A69C
+    // Offset: 0x12F9E88
     System::Type* ResolveType(System::Reflection::Assembly* assembly, ::Il2CppString* simpleTypeName, bool ignoreCase);
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectReader/TopLevelAssemblyTypeResolver
 }

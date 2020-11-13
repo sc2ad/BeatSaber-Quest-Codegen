@@ -14,13 +14,13 @@ namespace Org::BouncyCastle::Asn1::X509 {
   class KeyUsage : public Org::BouncyCastle::Asn1::DerBitString {
     public:
     // static public Org.BouncyCastle.Asn1.X509.KeyUsage GetInstance(System.Object obj)
-    // Offset: 0x160E3C0
+    // Offset: 0x157D1BC
     static Org::BouncyCastle::Asn1::X509::KeyUsage* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.DerBitString usage)
-    // Offset: 0x160E4D8
+    // Offset: 0x157D2D4
     static KeyUsage* New_ctor(Org::BouncyCastle::Asn1::DerBitString* usage);
     // public override System.String ToString()
-    // Offset: 0x160E584
+    // Offset: 0x157D380
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::ToString()
     ::Il2CppString* ToString();

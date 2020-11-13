@@ -539,7 +539,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier PbewithShaAnd40BitRC2Cbc
     static void _set_PbewithShaAnd40BitRC2Cbc(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x1409EE0
+    // Offset: 0x13FBDD8
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Pkcs.PkcsObjectIdentifiers
 }

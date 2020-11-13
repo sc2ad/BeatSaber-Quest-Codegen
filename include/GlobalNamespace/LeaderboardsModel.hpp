@@ -19,10 +19,10 @@ namespace GlobalNamespace {
   class LeaderboardsModel : public ::Il2CppObject {
     public:
     // static public System.String GetLeaderboardID(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x20B272C
+    // Offset: 0xF1E9E8
     static ::Il2CppString* GetLeaderboardID(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void .ctor()
-    // Offset: 0x20B2790
+    // Offset: 0xF1EA4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LeaderboardsModel* New_ctor();

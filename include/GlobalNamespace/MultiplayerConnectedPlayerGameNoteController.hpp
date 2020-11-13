@@ -53,21 +53,21 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IGameNoteTypeProvider*>(this);
     }
     // public System.Void add_gameNoteControllerDidInitEvent(System.Action`1<MultiplayerConnectedPlayerGameNoteController> value)
-    // Offset: 0x20603BC
+    // Offset: 0xFA9E00
     void add_gameNoteControllerDidInitEvent(System::Action_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value);
     // public System.Void remove_gameNoteControllerDidInitEvent(System.Action`1<MultiplayerConnectedPlayerGameNoteController> value)
-    // Offset: 0x2060460
+    // Offset: 0xFA9EA4
     void remove_gameNoteControllerDidInitEvent(System::Action_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value);
     // public System.Void Init(NoteData noteData, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity, GameNoteController/GameNoteType gameNoteType, System.Single cutDirectionAngleOffset)
-    // Offset: 0x205EF78
+    // Offset: 0xFA89BC
     void Init(GlobalNamespace::NoteData* noteData, float worldRotation, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity, GlobalNamespace::GameNoteController_GameNoteType gameNoteType, float cutDirectionAngleOffset);
     // public GameNoteController/GameNoteType get_gameNoteType()
-    // Offset: 0x2060504
+    // Offset: 0xFA9F48
     // Implemented from: IGameNoteTypeProvider
     // Base method: GameNoteController/GameNoteType IGameNoteTypeProvider::get_gameNoteType()
     GlobalNamespace::GameNoteController_GameNoteType get_gameNoteType();
     // public System.Void .ctor()
-    // Offset: 0x206050C
+    // Offset: 0xFA9F50
     // Implemented from: MultiplayerConnectedPlayerNoteController
     // Base method: System.Void MultiplayerConnectedPlayerNoteController::.ctor()
     // Base method: System.Void NoteController::.ctor()

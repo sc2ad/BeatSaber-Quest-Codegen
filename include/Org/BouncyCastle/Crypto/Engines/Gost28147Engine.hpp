@@ -75,61 +75,61 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static private readonly System.Collections.IDictionary sBoxes
     static void _set_sBoxes(System::Collections::IDictionary* value);
     // static private System.Void .cctor()
-    // Offset: 0x196EFD8
+    // Offset: 0x17CF970
     static void _cctor();
     // static private System.Void AddSBox(System.String sBoxName, System.Byte[] sBox)
-    // Offset: 0x196F308
+    // Offset: 0x17CFCA0
     static void AddSBox(::Il2CppString* sBoxName, ::Array<uint8_t>* sBox);
     // private System.Int32[] generateWorkingKey(System.Boolean forEncryption, System.Byte[] userKey)
-    // Offset: 0x196F73C
+    // Offset: 0x17D00D4
     ::Array<int>* generateWorkingKey(bool forEncryption, ::Array<uint8_t>* userKey);
     // private System.Int32 Gost28147_mainStep(System.Int32 n1, System.Int32 key)
-    // Offset: 0x196FCBC
+    // Offset: 0x17D0654
     int Gost28147_mainStep(int n1, int key);
     // private System.Void Gost28147Func(System.Int32[] workingKey, System.Byte[] inBytes, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x196F9CC
+    // Offset: 0x17D0364
     void Gost28147Func(::Array<int>* workingKey, ::Array<uint8_t>* inBytes, int inOff, ::Array<uint8_t>* outBytes, int outOff);
     // static private System.Int32 bytesToint(System.Byte[] inBytes, System.Int32 inOff)
-    // Offset: 0x196FC3C
+    // Offset: 0x17D05D4
     static int bytesToint(::Array<uint8_t>* inBytes, int inOff);
     // static private System.Void intTobytes(System.Int32 num, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x196FDB0
+    // Offset: 0x17D0748
     static void intTobytes(int num, ::Array<uint8_t>* outBytes, int outOff);
     // static public System.Byte[] GetSBox(System.String sBoxName)
-    // Offset: 0x196FE3C
+    // Offset: 0x17D07D4
     static ::Array<uint8_t>* GetSBox(::Il2CppString* sBoxName);
     // public System.Void .ctor()
-    // Offset: 0x196F42C
+    // Offset: 0x17CFDC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Gost28147Engine* New_ctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x196F4BC
+    // Offset: 0x17CFE54
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Void IBlockCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.String get_AlgorithmName()
-    // Offset: 0x196F870
+    // Offset: 0x17D0208
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.String IBlockCipher::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x196F8B8
+    // Offset: 0x17D0250
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Boolean IBlockCipher::get_IsPartialBlockOkay()
     bool get_IsPartialBlockOkay();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x196F8C0
+    // Offset: 0x17D0258
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Int32 IBlockCipher::GetBlockSize()
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x196F8C8
+    // Offset: 0x17D0260
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Int32 IBlockCipher::ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x196FC38
+    // Offset: 0x17D05D0
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();

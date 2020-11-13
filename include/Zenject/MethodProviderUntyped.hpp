@@ -49,25 +49,25 @@ namespace Zenject {
       return *reinterpret_cast<Zenject::IProvider*>(this);
     }
     // public System.Void .ctor(System.Func`2<Zenject.InjectContext,System.Object> method, Zenject.DiContainer container)
-    // Offset: 0x12E8AFC
+    // Offset: 0x13482E8
     static MethodProviderUntyped* New_ctor(System::Func_2<Zenject::InjectContext*, ::Il2CppObject*>* method, Zenject::DiContainer* container);
     // public System.Boolean get_IsCached()
-    // Offset: 0x12E8B4C
+    // Offset: 0x1348338
     // Implemented from: Zenject.IProvider
     // Base method: System.Boolean IProvider::get_IsCached()
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x12E8B54
+    // Offset: 0x1348340
     // Implemented from: Zenject.IProvider
     // Base method: System.Boolean IProvider::get_TypeVariesBasedOnMemberType()
     bool get_TypeVariesBasedOnMemberType();
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x12E8B5C
+    // Offset: 0x1348348
     // Implemented from: Zenject.IProvider
     // Base method: System.Type IProvider::GetInstanceType(Zenject.InjectContext context)
     System::Type* GetInstanceType(Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x12E8B78
+    // Offset: 0x1348364
     // Implemented from: Zenject.IProvider
     // Base method: System.Void IProvider::GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);

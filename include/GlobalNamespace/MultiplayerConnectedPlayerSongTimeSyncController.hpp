@@ -66,35 +66,35 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void set_songTime(System.Single value)
-    // Offset: 0x2063A64
+    // Offset: 0xFADA28
     void set_songTime(float value);
     // protected System.Void Start()
-    // Offset: 0x2063A78
+    // Offset: 0xFADA3C
     void Start();
     // protected System.Void Update()
-    // Offset: 0x2063A84
+    // Offset: 0xFADA48
     void Update();
     // public System.Void StartSong(System.Single songStartSyncTime)
-    // Offset: 0x20601B8
+    // Offset: 0xFA9BFC
     void StartSong(float songStartSyncTime);
     // public System.Void SetConnectedPlayerSongTime(System.Single syncTime, System.Single songTime)
-    // Offset: 0x2062BE4
+    // Offset: 0xFACA68
     void SetConnectedPlayerSongTime(float syncTime, float songTime);
     // public System.Void StopSong()
-    // Offset: 0x2060358
+    // Offset: 0xFA9D9C
     void StopSong();
     // public System.Single get_songTime()
-    // Offset: 0x2063A5C
+    // Offset: 0xFADA20
     // Implemented from: IAudioTimeSource
     // Base method: System.Single IAudioTimeSource::get_songTime()
     float get_songTime();
     // public System.Single get_songEndTime()
-    // Offset: 0x2063A6C
+    // Offset: 0xFADA30
     // Implemented from: IAudioTimeSource
     // Base method: System.Single IAudioTimeSource::get_songEndTime()
     float get_songEndTime();
     // public System.Void .ctor()
-    // Offset: 0x2063C10
+    // Offset: 0xFADBD4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

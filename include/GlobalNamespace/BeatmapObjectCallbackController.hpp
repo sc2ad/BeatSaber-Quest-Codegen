@@ -7,12 +7,16 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
+// Including type: BeatmapEventType
+#include "GlobalNamespace/BeatmapEventType.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: IAudioTimeSource
   class IAudioTimeSource;
+  // Forward declaring type: EnvironmentKeywords
+  class EnvironmentKeywords;
   // Forward declaring type: BeatmapObjectData
   class BeatmapObjectData;
   // Forward declaring type: BeatmapEventData
@@ -25,6 +29,9 @@ namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
   template<typename T>
   class List_1;
+  // Forward declaring type: HashSet`1<T>
+  template<typename T>
+  class HashSet_1;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -50,82 +57,88 @@ namespace GlobalNamespace {
     class BeatmapObjectCallback;
     // Nested type: GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallback
     class BeatmapEventCallback;
-    // private BeatmapObjectCallbackController/InitData _initData
+    // private readonly BeatmapObjectCallbackController/InitData _initData
     // Offset: 0x18
     GlobalNamespace::BeatmapObjectCallbackController::InitData* initData;
-    // private IAudioTimeSource _audioTimeSource
+    // private readonly IAudioTimeSource _audioTimeSource
     // Offset: 0x20
     GlobalNamespace::IAudioTimeSource* audioTimeSource;
-    // private System.Collections.Generic.List`1<BeatmapObjectData> _beatmapObjectDataCallbackCacheList
+    // private readonly EnvironmentKeywords _environmentKeywords
     // Offset: 0x28
+    GlobalNamespace::EnvironmentKeywords* environmentKeywords;
+    // private readonly System.Collections.Generic.List`1<BeatmapObjectData> _beatmapObjectDataCallbackCacheList
+    // Offset: 0x30
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>* beatmapObjectDataCallbackCacheList;
     // private System.Action`1<BeatmapEventData> beatmapEventDidTriggerEvent
-    // Offset: 0x30
+    // Offset: 0x38
     System::Action_1<GlobalNamespace::BeatmapEventData*>* beatmapEventDidTriggerEvent;
     // private System.Action callbacksForThisFrameWereProcessedEvent
-    // Offset: 0x38
-    System::Action* callbacksForThisFrameWereProcessedEvent;
-    // private System.Collections.Generic.List`1<BeatmapObjectCallbackController/BeatmapObjectCallbackData> _beatmapObjectCallbackData
     // Offset: 0x40
-    System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallbackData*>* beatmapObjectCallbackData;
-    // private System.Collections.Generic.List`1<BeatmapObjectCallbackController/BeatmapEventCallbackData> _beatmapEventCallbackData
+    System::Action* callbacksForThisFrameWereProcessedEvent;
+    // private readonly System.Collections.Generic.List`1<BeatmapObjectCallbackController/BeatmapObjectCallbackData> _beatmapObjectCallbackData
     // Offset: 0x48
+    System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallbackData*>* beatmapObjectCallbackData;
+    // private readonly System.Collections.Generic.List`1<BeatmapObjectCallbackController/BeatmapEventCallbackData> _beatmapEventCallbackData
+    // Offset: 0x50
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallbackData*>* beatmapEventCallbackData;
     // private System.Int32 _nextEventIndex
-    // Offset: 0x50
+    // Offset: 0x58
     int nextEventIndex;
     // private System.Single _spawningStartTime
-    // Offset: 0x54
+    // Offset: 0x5C
     float spawningStartTime;
     // private IReadonlyBeatmapData _beatmapData
-    // Offset: 0x58
+    // Offset: 0x60
     GlobalNamespace::IReadonlyBeatmapData* beatmapData;
+    // private readonly System.Collections.Generic.HashSet`1<BeatmapEventType> _validEvents
+    // Offset: 0x68
+    System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>* validEvents;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_beatmapEventDidTriggerEvent(System.Action`1<BeatmapEventData> value)
-    // Offset: 0x20D4054
+    // Offset: 0x1A24CC0
     void add_beatmapEventDidTriggerEvent(System::Action_1<GlobalNamespace::BeatmapEventData*>* value);
     // public System.Void remove_beatmapEventDidTriggerEvent(System.Action`1<BeatmapEventData> value)
-    // Offset: 0x20D40F8
+    // Offset: 0x1A24D64
     void remove_beatmapEventDidTriggerEvent(System::Action_1<GlobalNamespace::BeatmapEventData*>* value);
     // public System.Void add_callbacksForThisFrameWereProcessedEvent(System.Action value)
-    // Offset: 0x20D419C
+    // Offset: 0x1A24E08
     void add_callbacksForThisFrameWereProcessedEvent(System::Action* value);
     // public System.Void remove_callbacksForThisFrameWereProcessedEvent(System.Action value)
-    // Offset: 0x20D4240
+    // Offset: 0x1A24EAC
     void remove_callbacksForThisFrameWereProcessedEvent(System::Action* value);
     // protected System.Void Start()
-    // Offset: 0x20D42E4
+    // Offset: 0x1A24F50
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x20D45AC
+    // Offset: 0x1A2573C
     void LateUpdate();
     // public BeatmapObjectCallbackController/BeatmapObjectCallbackData AddBeatmapObjectCallback(BeatmapObjectCallbackController/BeatmapObjectCallback callback, System.Single aheadTime)
-    // Offset: 0x20D5AAC
+    // Offset: 0x1A26C84
     GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallbackData* AddBeatmapObjectCallback(GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallback* callback, float aheadTime);
     // public System.Void RemoveBeatmapObjectCallback(BeatmapObjectCallbackController/BeatmapObjectCallbackData callbackData)
-    // Offset: 0x20D5D20
+    // Offset: 0x1A26EF8
     void RemoveBeatmapObjectCallback(GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallbackData* callbackData);
     // public BeatmapObjectCallbackController/BeatmapEventCallbackData AddBeatmapEventCallback(BeatmapObjectCallbackController/BeatmapEventCallback callback, System.Single aheadTime)
-    // Offset: 0x20D5D94
+    // Offset: 0x1A26F6C
     GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallbackData* AddBeatmapEventCallback(GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallback* callback, float aheadTime);
     // public System.Void RemoveBeatmapEventCallback(BeatmapObjectCallbackController/BeatmapEventCallbackData callbackData)
-    // Offset: 0x20D5E90
+    // Offset: 0x1A27068
     void RemoveBeatmapEventCallback(GlobalNamespace::BeatmapObjectCallbackController::BeatmapEventCallbackData* callbackData);
     // public System.Void SendBeatmapEventDidTriggerEvent(BeatmapEventData beatmapEventData)
-    // Offset: 0x20D5A38
+    // Offset: 0x1A26BE8
     void SendBeatmapEventDidTriggerEvent(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void SetNewBeatmapData(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x20D4314
+    // Offset: 0x1A24F80
     void SetNewBeatmapData(GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // public System.Void Pause()
-    // Offset: 0x20D5F04
+    // Offset: 0x1A270DC
     void Pause();
     // public System.Void Resume()
-    // Offset: 0x20D5F10
+    // Offset: 0x1A270E8
     void Resume();
     // public System.Void .ctor()
-    // Offset: 0x20D5F1C
+    // Offset: 0x1A270F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

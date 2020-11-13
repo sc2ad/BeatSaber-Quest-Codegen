@@ -40,20 +40,20 @@ namespace System::Collections {
       return *reinterpret_cast<System::Collections::ICollection*>(this);
     }
     // public System.Void .ctor(System.Collections.ListDictionaryInternal list, System.Boolean isKeys)
-    // Offset: 0x158CC74
+    // Offset: 0x152A4E4
     static ListDictionaryInternal::NodeKeyValueCollection* New_ctor(System::Collections::ListDictionaryInternal* list, bool isKeys);
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x158D7CC
+    // Offset: 0x152B03C
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // private System.Int32 System.Collections.ICollection.get_Count()
-    // Offset: 0x158D9C8
+    // Offset: 0x152B238
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int System_Collections_ICollection_get_Count();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x158DA00
+    // Offset: 0x152B270
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

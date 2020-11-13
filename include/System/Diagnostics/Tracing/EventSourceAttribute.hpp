@@ -23,22 +23,22 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x20
     ::Il2CppString* LocalizationResources;
     // public System.String get_Name()
-    // Offset: 0x1263724
+    // Offset: 0x12D8820
     ::Il2CppString* get_Name();
     // public System.Void set_Name(System.String value)
-    // Offset: 0x126372C
+    // Offset: 0x12D8828
     void set_Name(::Il2CppString* value);
     // public System.String get_Guid()
-    // Offset: 0x1263734
+    // Offset: 0x12D8830
     ::Il2CppString* get_Guid();
     // public System.Void set_Guid(System.String value)
-    // Offset: 0x126373C
+    // Offset: 0x12D8838
     void set_Guid(::Il2CppString* value);
     // public System.String get_LocalizationResources()
-    // Offset: 0x1263744
+    // Offset: 0x12D8840
     ::Il2CppString* get_LocalizationResources();
     // public System.Void .ctor()
-    // Offset: 0x126374C
+    // Offset: 0x12D8848
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

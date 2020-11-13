@@ -106,234 +106,234 @@ namespace TMPro {
       return *reinterpret_cast<UnityEngine::UI::ILayoutElement*>(this);
     }
     // private System.Void UpdateEnvMapMatrix()
-    // Offset: 0x1064BA4
+    // Offset: 0x113C4D4
     void UpdateEnvMapMatrix();
     // private System.Void SetMask(TMPro.MaskingTypes maskType)
-    // Offset: 0x1064E98
+    // Offset: 0x113C7C8
     void SetMask(TMPro::MaskingTypes maskType);
     // private System.Void SetMaskCoordinates(UnityEngine.Vector4 coords)
-    // Offset: 0x106501C
+    // Offset: 0x113C94C
     void SetMaskCoordinates(UnityEngine::Vector4 coords);
     // private System.Void SetMaskCoordinates(UnityEngine.Vector4 coords, System.Single softX, System.Single softY)
-    // Offset: 0x10650CC
+    // Offset: 0x113C9FC
     void SetMaskCoordinates(UnityEngine::Vector4 coords, float softX, float softY);
     // private System.Void EnableMasking()
-    // Offset: 0x10651D4
+    // Offset: 0x113CB04
     void EnableMasking();
     // private System.Void DisableMasking()
-    // Offset: 0x1065380
+    // Offset: 0x113CCB0
     void DisableMasking();
     // private System.Void UpdateMask()
-    // Offset: 0x10652F0
+    // Offset: 0x113CC20
     void UpdateMask();
     // private System.Void CreateMaterialInstance()
-    // Offset: 0x1065498
+    // Offset: 0x113CDC8
     void CreateMaterialInstance();
     // private System.Void SetPerspectiveCorrection()
-    // Offset: 0x106660C
+    // Offset: 0x113DF3C
     void SetPerspectiveCorrection();
     // private System.Void OnPreRenderObject()
-    // Offset: 0x1068ADC
+    // Offset: 0x114040C
     void OnPreRenderObject();
     // private System.Void SetMeshFilters(System.Boolean state)
-    // Offset: 0x1070E58
+    // Offset: 0x1148788
     void SetMeshFilters(bool state);
     // private System.Void UpdateSDFScale(System.Single scaleDelta)
-    // Offset: 0x10688E4
+    // Offset: 0x1140214
     void UpdateSDFScale(float scaleDelta);
     // public System.Int32 get_sortingLayerID()
-    // Offset: 0x1071A20
+    // Offset: 0x1149350
     int get_sortingLayerID();
     // public System.Void set_sortingLayerID(System.Int32 value)
-    // Offset: 0x1071A3C
+    // Offset: 0x114936C
     void set_sortingLayerID(int value);
     // public System.Int32 get_sortingOrder()
-    // Offset: 0x1071A58
+    // Offset: 0x1149388
     int get_sortingOrder();
     // public System.Void set_sortingOrder(System.Int32 value)
-    // Offset: 0x1071A74
+    // Offset: 0x11493A4
     void set_sortingOrder(int value);
     // public TMPro.TextContainer get_textContainer()
-    // Offset: 0x1071AF8
+    // Offset: 0x1149428
     TMPro::TextContainer* get_textContainer();
     // public UnityEngine.Renderer get_renderer()
-    // Offset: 0x1071B00
+    // Offset: 0x1149430
     UnityEngine::Renderer* get_renderer();
     // public UnityEngine.MeshFilter get_meshFilter()
-    // Offset: 0x1064480
+    // Offset: 0x113BDB0
     UnityEngine::MeshFilter* get_meshFilter();
     // public TMPro.MaskingTypes get_maskType()
-    // Offset: 0x1071C90
+    // Offset: 0x11495C0
     TMPro::MaskingTypes get_maskType();
     // public System.Void set_maskType(TMPro.MaskingTypes value)
-    // Offset: 0x1071C98
+    // Offset: 0x11495C8
     void set_maskType(TMPro::MaskingTypes value);
     // public System.Void SetMask(TMPro.MaskingTypes type, UnityEngine.Vector4 maskCoords)
-    // Offset: 0x1071CA0
+    // Offset: 0x11495D0
     void SetMask(TMPro::MaskingTypes type, UnityEngine::Vector4 maskCoords);
     // public System.Void SetMask(TMPro.MaskingTypes type, UnityEngine.Vector4 maskCoords, System.Single softnessX, System.Single softnessY)
-    // Offset: 0x1071CF4
+    // Offset: 0x1149624
     void SetMask(TMPro::MaskingTypes type, UnityEngine::Vector4 maskCoords, float softnessX, float softnessY);
     // public System.Void UpdateFontAsset()
-    // Offset: 0x1072720
+    // Offset: 0x114A050
     void UpdateFontAsset();
     // protected override System.Void Awake()
-    // Offset: 0x1063E10
+    // Offset: 0x113B740
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::Awake()
     void Awake();
     // protected override System.Void OnEnable()
-    // Offset: 0x10643B4
+    // Offset: 0x113BCE4
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x106452C
+    // Offset: 0x113BE5C
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::OnDisable()
     void OnDisable();
     // protected override System.Void OnDestroy()
-    // Offset: 0x1064594
+    // Offset: 0x113BEC4
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnDestroy()
     void OnDestroy();
     // protected override System.Void LoadFontAsset()
-    // Offset: 0x106464C
+    // Offset: 0x113BF7C
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::LoadFontAsset()
     void LoadFontAsset();
     // protected override UnityEngine.Material GetMaterial(UnityEngine.Material mat)
-    // Offset: 0x1065568
+    // Offset: 0x113CE98
     // Implemented from: TMPro.TMP_Text
     // Base method: UnityEngine.Material TMP_Text::GetMaterial(UnityEngine.Material mat)
     UnityEngine::Material* GetMaterial(UnityEngine::Material* mat);
     // protected override UnityEngine.Material[] GetMaterials(UnityEngine.Material[] mats)
-    // Offset: 0x106569C
+    // Offset: 0x113CFCC
     // Implemented from: TMPro.TMP_Text
     // Base method: UnityEngine.Material[] TMP_Text::GetMaterials(UnityEngine.Material[] mats)
     ::Array<UnityEngine::Material*>* GetMaterials(::Array<UnityEngine::Material*>* mats);
     // protected override System.Void SetSharedMaterial(UnityEngine.Material mat)
-    // Offset: 0x1065878
+    // Offset: 0x113D1A8
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::SetSharedMaterial(UnityEngine.Material mat)
     void SetSharedMaterial(UnityEngine::Material* mat);
     // protected override UnityEngine.Material[] GetSharedMaterials()
-    // Offset: 0x10658C4
+    // Offset: 0x113D1F4
     // Implemented from: TMPro.TMP_Text
     // Base method: UnityEngine.Material[] TMP_Text::GetSharedMaterials()
     ::Array<UnityEngine::Material*>* GetSharedMaterials();
     // protected override System.Void SetSharedMaterials(UnityEngine.Material[] materials)
-    // Offset: 0x1065A7C
+    // Offset: 0x113D3AC
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::SetSharedMaterials(UnityEngine.Material[] materials)
     void SetSharedMaterials(::Array<UnityEngine::Material*>* materials);
     // protected override System.Void SetOutlineThickness(System.Single thickness)
-    // Offset: 0x1065E4C
+    // Offset: 0x113D77C
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::SetOutlineThickness(System.Single thickness)
     void SetOutlineThickness(float thickness);
     // protected override System.Void SetFaceColor(UnityEngine.Color32 color)
-    // Offset: 0x1065FD0
+    // Offset: 0x113D900
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::SetFaceColor(UnityEngine.Color32 color)
     void SetFaceColor(UnityEngine::Color32 color);
     // protected override System.Void SetOutlineColor(UnityEngine.Color32 color)
-    // Offset: 0x10660EC
+    // Offset: 0x113DA1C
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::SetOutlineColor(UnityEngine.Color32 color)
     void SetOutlineColor(UnityEngine::Color32 color);
     // protected override System.Void SetShaderDepth()
-    // Offset: 0x1066208
+    // Offset: 0x113DB38
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::SetShaderDepth()
     void SetShaderDepth();
     // protected override System.Void SetCulling()
-    // Offset: 0x106632C
+    // Offset: 0x113DC5C
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::SetCulling()
     void SetCulling();
     // protected override System.Single GetPaddingForMaterial(UnityEngine.Material mat)
-    // Offset: 0x10666B8
+    // Offset: 0x113DFE8
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Single TMP_Text::GetPaddingForMaterial(UnityEngine.Material mat)
     float GetPaddingForMaterial(UnityEngine::Material* mat);
     // protected override System.Single GetPaddingForMaterial()
-    // Offset: 0x1066794
+    // Offset: 0x113E0C4
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Single TMP_Text::GetPaddingForMaterial()
     float GetPaddingForMaterial();
     // protected override System.Int32 SetArraySizes(TMPro.TMP_Text/UnicodeChar[] chars)
-    // Offset: 0x10668D0
+    // Offset: 0x113E200
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Int32 TMP_Text::SetArraySizes(TMPro.TMP_Text/UnicodeChar[] chars)
     int SetArraySizes(::Array<TMPro::TMP_Text::UnicodeChar>* chars);
     // public override System.Void ComputeMarginSize()
-    // Offset: 0x1068638
+    // Offset: 0x113FF68
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::ComputeMarginSize()
     void ComputeMarginSize();
     // protected override System.Void OnDidApplyAnimationProperties()
-    // Offset: 0x1068764
+    // Offset: 0x1140094
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnDidApplyAnimationProperties()
     void OnDidApplyAnimationProperties();
     // protected override System.Void OnTransformParentChanged()
-    // Offset: 0x1068780
+    // Offset: 0x11400B0
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::OnTransformParentChanged()
     void OnTransformParentChanged();
     // protected override System.Void OnRectTransformDimensionsChange()
-    // Offset: 0x10687BC
+    // Offset: 0x11400EC
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnRectTransformDimensionsChange()
     void OnRectTransformDimensionsChange();
     // override System.Void InternalUpdate()
-    // Offset: 0x106880C
+    // Offset: 0x114013C
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::InternalUpdate()
     void InternalUpdate();
     // protected override System.Void GenerateTextMesh()
-    // Offset: 0x1068C6C
+    // Offset: 0x114059C
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::GenerateTextMesh()
     void GenerateTextMesh();
     // protected override UnityEngine.Vector3[] GetTextContainerLocalCorners()
-    // Offset: 0x1070DA4
+    // Offset: 0x11486D4
     // Implemented from: TMPro.TMP_Text
     // Base method: UnityEngine.Vector3[] TMP_Text::GetTextContainerLocalCorners()
     ::Array<UnityEngine::Vector3>* GetTextContainerLocalCorners();
     // protected override System.Void SetActiveSubMeshes(System.Boolean state)
-    // Offset: 0x1071044
+    // Offset: 0x1148974
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::SetActiveSubMeshes(System.Boolean state)
     void SetActiveSubMeshes(bool state);
     // protected override System.Void ClearSubMeshObjects()
-    // Offset: 0x1071164
+    // Offset: 0x1148A94
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::ClearSubMeshObjects()
     void ClearSubMeshObjects();
     // protected override UnityEngine.Bounds GetCompoundBounds()
-    // Offset: 0x10712F0
+    // Offset: 0x1148C20
     // Implemented from: TMPro.TMP_Text
     // Base method: UnityEngine.Bounds TMP_Text::GetCompoundBounds()
     UnityEngine::Bounds GetCompoundBounds();
     // protected override System.Void AdjustLineOffset(System.Int32 startIndex, System.Int32 endIndex, System.Single offset)
-    // Offset: 0x1071608
+    // Offset: 0x1148F38
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::AdjustLineOffset(System.Int32 startIndex, System.Int32 endIndex, System.Single offset)
     void AdjustLineOffset(int startIndex, int endIndex, float offset);
     // public override System.Boolean get_autoSizeTextContainer()
-    // Offset: 0x1071A90
+    // Offset: 0x11493C0
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Boolean TMP_Text::get_autoSizeTextContainer()
     bool get_autoSizeTextContainer();
     // public override System.Void set_autoSizeTextContainer(System.Boolean value)
-    // Offset: 0x1071A98
+    // Offset: 0x11493C8
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::set_autoSizeTextContainer(System.Boolean value)
     void set_autoSizeTextContainer(bool value);
     // public UnityEngine.Transform get_transform()
-    // Offset: 0x1064308
+    // Offset: 0x113BC38
     // Implemented from: TMPro.TMP_Text
     // Base method: UnityEngine.Transform TMP_Text::get_transform()
     // Base method: UnityEngine.Transform Graphic::UnityEngine.UI.ICanvasElement.get_transform()
@@ -350,92 +350,92 @@ namespace TMPro {
     // Maps to method: get_transform
     // Skipping redundant proxy method: UnityEngine_UI_ICanvasElement_get_transform
     // public override UnityEngine.Mesh get_mesh()
-    // Offset: 0x1071BAC
+    // Offset: 0x11494DC
     // Implemented from: TMPro.TMP_Text
     // Base method: UnityEngine.Mesh TMP_Text::get_mesh()
     UnityEngine::Mesh* get_mesh();
     // public override System.Void SetVerticesDirty()
-    // Offset: 0x1071D60
+    // Offset: 0x1149690
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::SetVerticesDirty()
     void SetVerticesDirty();
     // public override System.Void SetLayoutDirty()
-    // Offset: 0x1071E00
+    // Offset: 0x1149730
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::SetLayoutDirty()
     void SetLayoutDirty();
     // public override System.Void SetMaterialDirty()
-    // Offset: 0x1071EA8
+    // Offset: 0x11497D8
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::SetMaterialDirty()
     void SetMaterialDirty();
     // public override System.Void SetAllDirty()
-    // Offset: 0x1071EB8
+    // Offset: 0x11497E8
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::SetAllDirty()
     void SetAllDirty();
     // public override System.Void Rebuild(UnityEngine.UI.CanvasUpdate update)
-    // Offset: 0x1071F10
+    // Offset: 0x1149840
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::Rebuild(UnityEngine.UI.CanvasUpdate update)
     void Rebuild(UnityEngine::UI::CanvasUpdate update);
     // protected override System.Void UpdateMaterial()
-    // Offset: 0x107200C
+    // Offset: 0x114993C
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::UpdateMaterial()
     void UpdateMaterial();
     // public override System.Void UpdateMeshPadding()
-    // Offset: 0x1072138
+    // Offset: 0x1149A68
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::UpdateMeshPadding()
     void UpdateMeshPadding();
     // public override System.Void ForceMeshUpdate()
-    // Offset: 0x1072250
+    // Offset: 0x1149B80
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::ForceMeshUpdate()
     void ForceMeshUpdate();
     // public override System.Void ForceMeshUpdate(System.Boolean ignoreInactive)
-    // Offset: 0x107225C
+    // Offset: 0x1149B8C
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::ForceMeshUpdate(System.Boolean ignoreInactive)
     void ForceMeshUpdate(bool ignoreInactive);
     // public override TMPro.TMP_TextInfo GetTextInfo(System.String text)
-    // Offset: 0x107226C
+    // Offset: 0x1149B9C
     // Implemented from: TMPro.TMP_Text
     // Base method: TMPro.TMP_TextInfo TMP_Text::GetTextInfo(System.String text)
     TMPro::TMP_TextInfo* GetTextInfo(::Il2CppString* text);
     // public override System.Void ClearMesh(System.Boolean updateMesh)
-    // Offset: 0x10722E4
+    // Offset: 0x1149C14
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::ClearMesh(System.Boolean updateMesh)
     void ClearMesh(bool updateMesh);
     // public override System.Void UpdateGeometry(UnityEngine.Mesh mesh, System.Int32 index)
-    // Offset: 0x10723C0
+    // Offset: 0x1149CF0
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::UpdateGeometry(UnityEngine.Mesh mesh, System.Int32 index)
     void UpdateGeometry(UnityEngine::Mesh* mesh, int index);
     // public override System.Void UpdateVertexData(TMPro.TMP_VertexDataUpdateFlags flags)
-    // Offset: 0x10723DC
+    // Offset: 0x1149D0C
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::UpdateVertexData(TMPro.TMP_VertexDataUpdateFlags flags)
     void UpdateVertexData(TMPro::TMP_VertexDataUpdateFlags flags);
     // public override System.Void UpdateVertexData()
-    // Offset: 0x1072580
+    // Offset: 0x1149EB0
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::UpdateVertexData()
     void UpdateVertexData();
     // public System.Void CalculateLayoutInputHorizontal()
-    // Offset: 0x1072730
+    // Offset: 0x114A060
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Void ILayoutElement::CalculateLayoutInputHorizontal()
     void CalculateLayoutInputHorizontal();
     // public System.Void CalculateLayoutInputVertical()
-    // Offset: 0x1072860
+    // Offset: 0x114A190
     // Implemented from: UnityEngine.UI.ILayoutElement
     // Base method: System.Void ILayoutElement::CalculateLayoutInputVertical()
     void CalculateLayoutInputVertical();
     // public System.Void .ctor()
-    // Offset: 0x107296C
+    // Offset: 0x114A29C
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::.ctor()
     // Base method: System.Void MaskableGraphic::.ctor()

@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_ApplyTransform : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C91598
+    // Offset: 0x190F770
     static IVRSystem::_ApplyTransform* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(ref OVR.OpenVR.TrackedDevicePose_t pOutputPose, ref OVR.OpenVR.TrackedDevicePose_t pTrackedDevicePose, ref OVR.OpenVR.HmdMatrix34_t pTransform)
-    // Offset: 0x1C915AC
+    // Offset: 0x190F784
     void Invoke(OVR::OpenVR::TrackedDevicePose_t& pOutputPose, OVR::OpenVR::TrackedDevicePose_t& pTrackedDevicePose, OVR::OpenVR::HmdMatrix34_t& pTransform);
     // public System.IAsyncResult BeginInvoke(ref OVR.OpenVR.TrackedDevicePose_t pOutputPose, ref OVR.OpenVR.TrackedDevicePose_t pTrackedDevicePose, ref OVR.OpenVR.HmdMatrix34_t pTransform, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C91830
+    // Offset: 0x190FA08
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::TrackedDevicePose_t& pOutputPose, OVR::OpenVR::TrackedDevicePose_t& pTrackedDevicePose, OVR::OpenVR::HmdMatrix34_t& pTransform, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(ref OVR.OpenVR.TrackedDevicePose_t pOutputPose, ref OVR.OpenVR.TrackedDevicePose_t pTrackedDevicePose, ref OVR.OpenVR.HmdMatrix34_t pTransform, System.IAsyncResult result)
-    // Offset: 0x1C91904
+    // Offset: 0x190FADC
     void EndInvoke(OVR::OpenVR::TrackedDevicePose_t& pOutputPose, OVR::OpenVR::TrackedDevicePose_t& pTrackedDevicePose, OVR::OpenVR::HmdMatrix34_t& pTransform, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_ApplyTransform
 }

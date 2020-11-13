@@ -43,16 +43,16 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x20
     Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* objectDigestInfo;
     // static public Org.BouncyCastle.Asn1.X509.V2Form GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x16086D8
+    // Offset: 0x15774D4
     static Org::BouncyCastle::Asn1::X509::V2Form* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // static public Org.BouncyCastle.Asn1.X509.V2Form GetInstance(System.Object obj)
-    // Offset: 0x160852C
+    // Offset: 0x1577328
     static Org::BouncyCastle::Asn1::X509::V2Form* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x16108F4
+    // Offset: 0x157F6F0
     static V2Form* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1610B50
+    // Offset: 0x157F94C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

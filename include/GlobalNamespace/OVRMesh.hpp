@@ -76,22 +76,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_IsInitialized()
-    // Offset: 0x11A2E94
+    // Offset: 0x122E224
     bool get_IsInitialized();
     // private System.Void set_IsInitialized(System.Boolean value)
-    // Offset: 0x11A2E9C
+    // Offset: 0x122E22C
     void set_IsInitialized(bool value);
     // public UnityEngine.Mesh get_Mesh()
-    // Offset: 0x11A2EA8
+    // Offset: 0x122E238
     UnityEngine::Mesh* get_Mesh();
     // private System.Void Awake()
-    // Offset: 0x11A2EB0
+    // Offset: 0x122E240
     void Awake();
     // private System.Void Initialize(OVRMesh/MeshType meshType)
-    // Offset: 0x11A2FC0
+    // Offset: 0x122E350
     void Initialize(GlobalNamespace::OVRMesh::MeshType meshType);
     // public System.Void .ctor()
-    // Offset: 0x11A36DC
+    // Offset: 0x122EA6C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

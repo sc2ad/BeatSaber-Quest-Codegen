@@ -29,33 +29,33 @@ namespace System::Security::Cryptography {
     // Set static field: static private System.Security.Cryptography.KeySizes[] s_legalKeySizes
     static void _set_s_legalKeySizes(::Array<System::Security::Cryptography::KeySizes*>* value);
     // static public System.Security.Cryptography.TripleDES Create()
-    // Offset: 0x1208C0C
+    // Offset: 0x127DCC4
     static System::Security::Cryptography::TripleDES* Create();
     // static public System.Boolean IsWeakKey(System.Byte[] rgbKey)
-    // Offset: 0x12088F8
+    // Offset: 0x127D9B0
     static bool IsWeakKey(::Array<uint8_t>* rgbKey);
     // static private System.Boolean EqualBytes(System.Byte[] rgbKey, System.Int32 start1, System.Int32 start2, System.Int32 count)
-    // Offset: 0x1208DD0
+    // Offset: 0x127DE88
     static bool EqualBytes(::Array<uint8_t>* rgbKey, int start1, int start2, int count);
     // static private System.Boolean IsLegalKeySize(System.Byte[] rgbKey)
-    // Offset: 0x1208CD4
+    // Offset: 0x127DD8C
     static bool IsLegalKeySize(::Array<uint8_t>* rgbKey);
     // static private System.Void .cctor()
-    // Offset: 0x1208FB4
+    // Offset: 0x127E06C
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x1208770
+    // Offset: 0x127D828
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
     static TripleDES* New_ctor();
     // public override System.Byte[] get_Key()
-    // Offset: 0x1208824
+    // Offset: 0x127D8DC
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Byte[] SymmetricAlgorithm::get_Key()
     ::Array<uint8_t>* get_Key();
     // public override System.Void set_Key(System.Byte[] value)
-    // Offset: 0x1208A4C
+    // Offset: 0x127DB04
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::set_Key(System.Byte[] value)
     void set_Key(::Array<uint8_t>* value);

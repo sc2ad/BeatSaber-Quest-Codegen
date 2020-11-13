@@ -27,20 +27,20 @@ namespace UnityEngine::Networking {
       return m_Ptr;
     }
     // private System.Void Release()
-    // Offset: 0x1F4E1B0
+    // Offset: 0x19DFB94
     void Release();
     // System.Void .ctor()
-    // Offset: 0x1F4E1F0
+    // Offset: 0x19DFBD4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UploadHandler* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x1F4E1F8
+    // Offset: 0x19DFBDC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public System.Void Dispose()
-    // Offset: 0x1F4CF50
+    // Offset: 0x19DE934
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

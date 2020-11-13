@@ -28,13 +28,13 @@ namespace GlobalNamespace {
       return nextScenesTransitionSetupData;
     }
     // public ScenesTransitionSetupDataSO get_nextScenesTransitionSetupData()
-    // Offset: 0x1FECD40
+    // Offset: 0xFCD510
     GlobalNamespace::ScenesTransitionSetupDataSO* get_nextScenesTransitionSetupData();
     // private System.Void set_nextScenesTransitionSetupData(ScenesTransitionSetupDataSO value)
-    // Offset: 0x1FECD48
+    // Offset: 0xFCD518
     void set_nextScenesTransitionSetupData(GlobalNamespace::ScenesTransitionSetupDataSO* value);
     // public System.Void .ctor(ScenesTransitionSetupDataSO nextScenesTransitionSetupData)
-    // Offset: 0x1FECD50
+    // Offset: 0xFCD520
     static ShaderWarmupSceneSetupData* New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
   }; // ShaderWarmupSceneSetupData
 }

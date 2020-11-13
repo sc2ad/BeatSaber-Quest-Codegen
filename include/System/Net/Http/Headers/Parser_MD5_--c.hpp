@@ -18,13 +18,13 @@ namespace System::Net::Http::Headers {
     // Set static field: static public readonly System.Net.Http.Headers.Parser/MD5/<>c <>9
     static void _set_$$9(System::Net::Http::Headers::Parser::MD5::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x117CA7C
+    // Offset: 0x1206E0C
     static void _cctor();
     // System.String <.cctor>b__2_0(System.Object l)
-    // Offset: 0x117CAEC
+    // Offset: 0x1206E7C
     ::Il2CppString* $_cctor$b__2_0(::Il2CppObject* l);
     // public System.Void .ctor()
-    // Offset: 0x117CAE4
+    // Offset: 0x1206E74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Parser::MD5::$$c* New_ctor();

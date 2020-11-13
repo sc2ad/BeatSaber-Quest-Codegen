@@ -40,38 +40,38 @@ namespace UnityEngine::TextCore {
     // Set static field: static private readonly UnityEngine.TextCore.GlyphRect s_ZeroGlyphRect
     static void _set_s_ZeroGlyphRect(UnityEngine::TextCore::GlyphRect value);
     // public System.Int32 get_x()
-    // Offset: 0xC8B1E0
+    // Offset: 0xCB8110
     int get_x();
     // public System.Int32 get_y()
-    // Offset: 0xC8B1E8
+    // Offset: 0xCB8118
     int get_y();
     // public System.Int32 get_width()
-    // Offset: 0xC8B1F0
+    // Offset: 0xCB8120
     int get_width();
     // public System.Int32 get_height()
-    // Offset: 0xC8B1F8
+    // Offset: 0xCB8128
     int get_height();
     // static public UnityEngine.TextCore.GlyphRect get_zero()
-    // Offset: 0x1F560D8
+    // Offset: 0x19E7ABC
     static UnityEngine::TextCore::GlyphRect get_zero();
     // public System.Void .ctor(System.Int32 x, System.Int32 y, System.Int32 width, System.Int32 height)
-    // Offset: 0xC8B200
+    // Offset: 0xCB8130
     // ABORTED: conflicts with another method.  GlyphRect(int x, int y, int width, int height);
     // static private System.Void .cctor()
-    // Offset: 0x1F562EC
+    // Offset: 0x19E7CD0
     static void _cctor();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xC8B20C
+    // Offset: 0xCB813C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xC8B214
+    // Offset: 0xCB8144
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.TextCore.GlyphRect other)
-    // Offset: 0xC8B21C
+    // Offset: 0xCB814C
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.TextCore.GlyphRect other)
     bool Equals(UnityEngine::TextCore::GlyphRect other);

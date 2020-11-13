@@ -116,81 +116,81 @@ namespace HMUI {
     // Set static field: static private readonly UnityEngine.Vector3[] s_Uv
     static void _set_s_Uv(::Array<UnityEngine::Vector3>* value);
     // public System.Boolean get_gradient()
-    // Offset: 0x218DACC
+    // Offset: 0x10B68C8
     bool get_gradient();
     // public System.Single get_skew()
-    // Offset: 0x218DAD4
+    // Offset: 0x10B68D0
     float get_skew();
     // public System.Void set_color0(UnityEngine.Color value)
-    // Offset: 0x217EE14
+    // Offset: 0x10A7C10
     void set_color0(UnityEngine::Color value);
     // public System.Void set_color1(UnityEngine.Color value)
-    // Offset: 0x217EE34
+    // Offset: 0x10A7C30
     void set_color1(UnityEngine::Color value);
     // private System.Void GenerateSimpleSprite(UnityEngine.UI.VertexHelper vh, System.Boolean lPreserveAspect, System.Single curvedUIRadius)
-    // Offset: 0x218DCB8
+    // Offset: 0x10B6AB4
     void GenerateSimpleSprite(UnityEngine::UI::VertexHelper* vh, bool lPreserveAspect, float curvedUIRadius);
     // private System.Void GenerateSlicedSprite(UnityEngine.UI.VertexHelper toFill, System.Single curvedUIRadius)
-    // Offset: 0x218E464
+    // Offset: 0x10B7260
     void GenerateSlicedSprite(UnityEngine::UI::VertexHelper* toFill, float curvedUIRadius);
     // private System.Void GenerateTiledSprite(UnityEngine.UI.VertexHelper toFill, System.Single curvedUIRadius)
-    // Offset: 0x218F740
+    // Offset: 0x10B853C
     void GenerateTiledSprite(UnityEngine::UI::VertexHelper* toFill, float curvedUIRadius);
     // static private System.Void AddQuad(UnityEngine.UI.VertexHelper vertexHelper, UnityEngine.Vector2 posMin, UnityEngine.Vector2 posMax, UnityEngine.Color32 color, UnityEngine.Vector2 uvMin, UnityEngine.Vector2 uvMax, System.Single elementWidthScale, System.Single curvedUIRadius)
-    // Offset: 0x2192970
+    // Offset: 0x10BB76C
     static void AddQuad(UnityEngine::UI::VertexHelper* vertexHelper, UnityEngine::Vector2 posMin, UnityEngine::Vector2 posMax, UnityEngine::Color32 color, UnityEngine::Vector2 uvMin, UnityEngine::Vector2 uvMax, float elementWidthScale, float curvedUIRadius);
     // static private System.Void AddQuad(UnityEngine.UI.VertexHelper vertexHelper, UnityEngine.Vector2 posMin, UnityEngine.Vector2 posMax, UnityEngine.Color32 color, UnityEngine.Vector2 uv0Min, UnityEngine.Vector2 uv0Max, UnityEngine.Vector2 uv1Min, UnityEngine.Vector2 uv1Max, System.Single elementWidthScale, System.Single curvedUIRadius, System.Single skewFactor, System.Single skewOffset)
-    // Offset: 0x21925CC
+    // Offset: 0x10BB3C8
     static void AddQuad(UnityEngine::UI::VertexHelper* vertexHelper, UnityEngine::Vector2 posMin, UnityEngine::Vector2 posMax, UnityEngine::Color32 color, UnityEngine::Vector2 uv0Min, UnityEngine::Vector2 uv0Max, UnityEngine::Vector2 uv1Min, UnityEngine::Vector2 uv1Max, float elementWidthScale, float curvedUIRadius, float skewFactor, float skewOffset);
     // static private System.Void AddQuadWithHorizontalGradient(UnityEngine.UI.VertexHelper vertexHelper, UnityEngine.Vector2 posMin, UnityEngine.Vector2 posMax, UnityEngine.Color32 color0, UnityEngine.Color32 color1, UnityEngine.Vector2 uv0Min, UnityEngine.Vector2 uv0Max, UnityEngine.Vector2 uv1Min, UnityEngine.Vector2 uv1Max, System.Single elementWidthScale, System.Single curvedUIRadius, System.Single skewFactor, System.Single skewOffset)
-    // Offset: 0x2191DC8
+    // Offset: 0x10BABC4
     static void AddQuadWithHorizontalGradient(UnityEngine::UI::VertexHelper* vertexHelper, UnityEngine::Vector2 posMin, UnityEngine::Vector2 posMax, UnityEngine::Color32 color0, UnityEngine::Color32 color1, UnityEngine::Vector2 uv0Min, UnityEngine::Vector2 uv0Max, UnityEngine::Vector2 uv1Min, UnityEngine::Vector2 uv1Max, float elementWidthScale, float curvedUIRadius, float skewFactor, float skewOffset);
     // static private System.Void AddQuadWithVerticalGradient(UnityEngine.UI.VertexHelper vertexHelper, UnityEngine.Vector2 posMin, UnityEngine.Vector2 posMax, UnityEngine.Color32 color0, UnityEngine.Color32 color1, UnityEngine.Vector2 uv0Min, UnityEngine.Vector2 uv0Max, UnityEngine.Vector2 uv1Min, UnityEngine.Vector2 uv1Max, System.Single elementWidthScale, System.Single curvedUIRadius, System.Single skewFactor, System.Single skewOffset)
-    // Offset: 0x2192220
+    // Offset: 0x10BB01C
     static void AddQuadWithVerticalGradient(UnityEngine::UI::VertexHelper* vertexHelper, UnityEngine::Vector2 posMin, UnityEngine::Vector2 posMax, UnityEngine::Color32 color0, UnityEngine::Color32 color1, UnityEngine::Vector2 uv0Min, UnityEngine::Vector2 uv0Max, UnityEngine::Vector2 uv1Min, UnityEngine::Vector2 uv1Max, float elementWidthScale, float curvedUIRadius, float skewFactor, float skewOffset);
     // private System.Void GenerateFilledSprite(UnityEngine.UI.VertexHelper toFill, System.Boolean preserveAspect, System.Single curvedUIRadius)
-    // Offset: 0x21907AC
+    // Offset: 0x10B95A8
     void GenerateFilledSprite(UnityEngine::UI::VertexHelper* toFill, bool preserveAspect, float curvedUIRadius);
     // static private System.Int32 GetNumberOfElements(System.Single curvedUIRadius, System.Single width)
-    // Offset: 0x2191C0C
+    // Offset: 0x10BAA08
     static int GetNumberOfElements(float curvedUIRadius, float width);
     // protected override System.Void OnEnable()
-    // Offset: 0x218DADC
+    // Offset: 0x10B68D8
     // Implemented from: UnityEngine.UI.Image
     // Base method: System.Void Image::OnEnable()
     void OnEnable();
     // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper toFill)
-    // Offset: 0x218DB30
+    // Offset: 0x10B692C
     // Implemented from: UnityEngine.UI.Image
     // Base method: System.Void Image::OnPopulateMesh(UnityEngine.UI.VertexHelper toFill)
     void OnPopulateMesh(UnityEngine::UI::VertexHelper* toFill);
     // static private System.Void AddQuad(UnityEngine.UI.VertexHelper vertexHelper, UnityEngine.Vector3[] quadPositions, UnityEngine.Color32 color, UnityEngine.Vector3[] quadUVs)
-    // Offset: 0x2192C94
+    // Offset: 0x10BBA90
     // Implemented from: UnityEngine.UI.Image
     // Base method: System.Void Image::AddQuad(UnityEngine.UI.VertexHelper vertexHelper, UnityEngine.Vector3[] quadPositions, UnityEngine.Color32 color, UnityEngine.Vector3[] quadUVs)
     static void AddQuad(UnityEngine::UI::VertexHelper* vertexHelper, ::Array<UnityEngine::Vector3>* quadPositions, UnityEngine::Color32 color, ::Array<UnityEngine::Vector3>* quadUVs);
     // static private UnityEngine.Vector4 GetAdjustedBorders(UnityEngine.Vector4 border, UnityEngine.Rect rect)
-    // Offset: 0x2191CAC
+    // Offset: 0x10BAAA8
     // Implemented from: UnityEngine.UI.Image
     // Base method: UnityEngine.Vector4 Image::GetAdjustedBorders(UnityEngine.Vector4 border, UnityEngine.Rect rect)
     static UnityEngine::Vector4 GetAdjustedBorders(UnityEngine::Vector4 border, UnityEngine::Rect rect);
     // static private System.Boolean RadialCut(UnityEngine.Vector3[] xy, UnityEngine.Vector3[] uv, System.Single fill, System.Boolean invert, System.Int32 corner)
-    // Offset: 0x2192E1C
+    // Offset: 0x10BBC18
     // Implemented from: UnityEngine.UI.Image
     // Base method: System.Boolean Image::RadialCut(UnityEngine.Vector3[] xy, UnityEngine.Vector3[] uv, System.Single fill, System.Boolean invert, System.Int32 corner)
     static bool RadialCut(::Array<UnityEngine::Vector3>* xy, ::Array<UnityEngine::Vector3>* uv, float fill, bool invert, int corner);
     // static private System.Void RadialCut(UnityEngine.Vector3[] xy, System.Single cos, System.Single sin, System.Boolean invert, System.Int32 corner)
-    // Offset: 0x2192F88
+    // Offset: 0x10BBD84
     // Implemented from: UnityEngine.UI.Image
     // Base method: System.Void Image::RadialCut(UnityEngine.Vector3[] xy, System.Single cos, System.Single sin, System.Boolean invert, System.Int32 corner)
     static void RadialCut(::Array<UnityEngine::Vector3>* xy, float cos, float sin, bool invert, int corner);
     // private UnityEngine.Vector4 GetDrawingDimensions(System.Boolean shouldPreserveAspect)
-    // Offset: 0x2191768
+    // Offset: 0x10BA564
     // Implemented from: UnityEngine.UI.Image
     // Base method: UnityEngine.Vector4 Image::GetDrawingDimensions(System.Boolean shouldPreserveAspect)
     UnityEngine::Vector4 GetDrawingDimensions(bool shouldPreserveAspect);
     // public System.Void .ctor()
-    // Offset: 0x2193500
+    // Offset: 0x10BC2FC
     // Implemented from: UnityEngine.UI.Image
     // Base method: System.Void Image::.ctor()
     // Base method: System.Void MaskableGraphic::.ctor()
@@ -203,7 +203,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static ImageView* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x2193594
+    // Offset: 0x10BC390
     // Implemented from: UnityEngine.UI.Image
     // Base method: System.Void Image::.cctor()
     // Base method: System.Void Graphic::.cctor()

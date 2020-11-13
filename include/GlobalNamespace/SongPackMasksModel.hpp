@@ -44,16 +44,16 @@ namespace GlobalNamespace {
       return songPackMaskData;
     }
     // public System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<SongPackMask,System.String>> get_songPackMaskData()
-    // Offset: 0x1FF2FBC
+    // Offset: 0xF39EFC
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::SongPackMask, ::Il2CppString*>*>* get_songPackMaskData();
     // public System.Void .ctor(BeatmapLevelsModel beatmapLevelsModel)
-    // Offset: 0x1FF2FC4
+    // Offset: 0xF39F04
     static SongPackMasksModel* New_ctor(GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
     // public SongPackMask GetAllSongsMask()
-    // Offset: 0x1FF31D0
+    // Offset: 0xF3A110
     GlobalNamespace::SongPackMask GetAllSongsMask();
     // public System.String GetSongPackMaskText(SongPackMask songPackMask)
-    // Offset: 0x1FF3294
+    // Offset: 0xF3A1D4
     ::Il2CppString* GetSongPackMaskText(GlobalNamespace::SongPackMask songPackMask);
   }; // SongPackMasksModel
 }

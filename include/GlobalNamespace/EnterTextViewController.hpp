@@ -49,24 +49,24 @@ namespace GlobalNamespace {
     // Offset: 0x88
     System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`2<EnterTextViewController,System.String> value)
-    // Offset: 0x201DC40
+    // Offset: 0x1A605C8
     void add_didFinishEvent(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<EnterTextViewController,System.String> value)
-    // Offset: 0x201DCE4
+    // Offset: 0x1A6066C
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* value);
     // public System.Void Init(System.String titleText)
-    // Offset: 0x201DD88
+    // Offset: 0x1A60710
     void Init(::Il2CppString* titleText);
     // public System.Void OkButtonPressed()
-    // Offset: 0x201DE80
+    // Offset: 0x1A60808
     void OkButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x201DDA4
+    // Offset: 0x1A6072C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x201DF20
+    // Offset: 0x1A608A8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

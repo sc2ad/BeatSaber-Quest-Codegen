@@ -26,16 +26,16 @@ namespace System::Threading {
   class OSSpecificSynchronizationContext::InvocationEntryDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x148FD28
+    // Offset: 0x1D085E8
     static OSSpecificSynchronizationContext::InvocationEntryDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.IntPtr arg)
-    // Offset: 0x148FD3C
+    // Offset: 0x1D085FC
     void Invoke(System::IntPtr arg);
     // public System.IAsyncResult BeginInvoke(System.IntPtr arg, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x148FF9C
+    // Offset: 0x1D0885C
     System::IAsyncResult* BeginInvoke(System::IntPtr arg, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1490028
+    // Offset: 0x1D088E8
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Threading.OSSpecificSynchronizationContext/InvocationEntryDelegate
 }

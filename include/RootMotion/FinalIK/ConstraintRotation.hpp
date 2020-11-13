@@ -30,15 +30,15 @@ namespace RootMotion::FinalIK {
       return rotation;
     }
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x186F69C
+    // Offset: 0x174D600
     static ConstraintRotation* New_ctor(UnityEngine::Transform* transform);
     // public override System.Void UpdateConstraint()
-    // Offset: 0x186F56C
+    // Offset: 0x174D4D0
     // Implemented from: RootMotion.FinalIK.Constraint
     // Base method: System.Void Constraint::UpdateConstraint()
     void UpdateConstraint();
     // public System.Void .ctor()
-    // Offset: 0x186F694
+    // Offset: 0x174D5F8
     // Implemented from: RootMotion.FinalIK.Constraint
     // Base method: System.Void Constraint::.ctor()
     // Base method: System.Void Object::.ctor()

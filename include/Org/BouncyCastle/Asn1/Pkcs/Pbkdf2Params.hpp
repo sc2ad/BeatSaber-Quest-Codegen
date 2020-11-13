@@ -53,31 +53,31 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Set static field: static private Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algid_hmacWithSHA1
     static void _set_algid_hmacWithSHA1(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
     // static public Org.BouncyCastle.Asn1.Pkcs.Pbkdf2Params GetInstance(System.Object obj)
-    // Offset: 0x140918C
+    // Offset: 0x13FB084
     static Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x140942C
+    // Offset: 0x13FB324
     static Pbkdf2Params* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public System.Byte[] GetSalt()
-    // Offset: 0x140972C
+    // Offset: 0x13FB624
     ::Array<uint8_t>* GetSalt();
     // public Org.BouncyCastle.Math.BigInteger get_IterationCount()
-    // Offset: 0x140974C
+    // Offset: 0x13FB644
     Org::BouncyCastle::Math::BigInteger* get_IterationCount();
     // public Org.BouncyCastle.Math.BigInteger get_KeyLength()
-    // Offset: 0x1409768
+    // Offset: 0x13FB660
     Org::BouncyCastle::Math::BigInteger* get_KeyLength();
     // public System.Boolean get_IsDefaultPrf()
-    // Offset: 0x140977C
+    // Offset: 0x13FB674
     bool get_IsDefaultPrf();
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_Prf()
-    // Offset: 0x1409808
+    // Offset: 0x13FB700
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Prf();
     // static private System.Void .cctor()
-    // Offset: 0x1409A24
+    // Offset: 0x13FB91C
     static void _cctor();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x140987C
+    // Offset: 0x13FB774
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

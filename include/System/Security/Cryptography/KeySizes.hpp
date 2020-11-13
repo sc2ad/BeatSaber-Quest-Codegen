@@ -21,22 +21,22 @@ namespace System::Security::Cryptography {
     // Offset: 0x18
     int m_skipSize;
     // public System.Int32 get_MinSize()
-    // Offset: 0x17782D8
+    // Offset: 0x16987CC
     int get_MinSize();
     // public System.Int32 get_MaxSize()
-    // Offset: 0x17782E0
+    // Offset: 0x16987D4
     int get_MaxSize();
     // public System.Int32 get_SkipSize()
-    // Offset: 0x17782E8
+    // Offset: 0x16987DC
     int get_SkipSize();
     // public System.Void .ctor(System.Int32 minSize, System.Int32 maxSize, System.Int32 skipSize)
-    // Offset: 0x1773900
+    // Offset: 0x1693DF4
     static KeySizes* New_ctor(int minSize, int maxSize, int skipSize);
     // System.Boolean IsLegal(System.Int32 keySize)
-    // Offset: 0x17782F0
+    // Offset: 0x16987E4
     bool IsLegal(int keySize);
     // static System.Boolean IsLegalKeySize(System.Security.Cryptography.KeySizes[] legalKeys, System.Int32 size)
-    // Offset: 0x177833C
+    // Offset: 0x1698830
     static bool IsLegalKeySize(::Array<System::Security::Cryptography::KeySizes*>* legalKeys, int size);
   }; // System.Security.Cryptography.KeySizes
 }

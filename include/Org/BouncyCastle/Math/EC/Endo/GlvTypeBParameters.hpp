@@ -33,13 +33,13 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Offset: 0x20
     Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* m_splitParams;
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger beta, Org.BouncyCastle.Math.BigInteger lambda, Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters splitParams)
-    // Offset: 0x1D6BE84
+    // Offset: 0x193DAB4
     static GlvTypeBParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* beta, Org::BouncyCastle::Math::BigInteger* lambda, Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams);
     // public Org.BouncyCastle.Math.BigInteger get_Beta()
-    // Offset: 0x1D6BEE8
+    // Offset: 0x193DB18
     Org::BouncyCastle::Math::BigInteger* get_Beta();
     // public Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters get_SplitParams()
-    // Offset: 0x1D6BEF0
+    // Offset: 0x193DB20
     Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* get_SplitParams();
   }; // Org.BouncyCastle.Math.EC.Endo.GlvTypeBParameters
 }

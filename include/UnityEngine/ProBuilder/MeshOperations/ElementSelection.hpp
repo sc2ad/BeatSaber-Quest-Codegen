@@ -67,76 +67,76 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static private readonly UnityEngine.Vector3 Vector3_Zero
     static void _set_Vector3_Zero(UnityEngine::Vector3 value);
     // static System.Collections.Generic.List`1<UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Edge>> GetNeighborFaces(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Edge edge)
-    // Offset: 0x11C8898
+    // Offset: 0x1253C28
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::Face*, UnityEngine::ProBuilder::Edge>>* GetNeighborFaces(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Edge edge);
     // static System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> GetNeighborFaces(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32[] indexes)
-    // Offset: 0x11C8B08
+    // Offset: 0x1253E98
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>* GetNeighborFaces(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<int>* indexes);
     // static UnityEngine.ProBuilder.Edge[] GetConnectedEdges(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32[] indexes)
-    // Offset: 0x11C8D44
+    // Offset: 0x12540D4
     static ::Array<UnityEngine::ProBuilder::Edge>* GetConnectedEdges(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<int>* indexes);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> GetPerimeterEdges(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x11C9244
+    // Offset: 0x12545D4
     static System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* GetPerimeterEdges(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);
     // static System.Int32[] GetPerimeterEdges(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Edge> edges)
-    // Offset: 0x11C9720
+    // Offset: 0x1254AB0
     static ::Array<int>* GetPerimeterEdges(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Edge>* edges);
     // static System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> GetPerimeterFaces(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x11C9A1C
+    // Offset: 0x1254DAC
     static System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* GetPerimeterFaces(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);
     // static System.Int32[] GetPerimeterVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32[] indexes, UnityEngine.ProBuilder.Edge[] universal_edges_all)
-    // Offset: 0x11C9FF0
+    // Offset: 0x1255380
     static ::Array<int>* GetPerimeterVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<int>* indexes, ::Array<UnityEngine::ProBuilder::Edge>* universal_edges_all);
     // static private UnityEngine.ProBuilder.WingedEdge EdgeRingNext(UnityEngine.ProBuilder.WingedEdge edge)
-    // Offset: 0x11CA2E0
+    // Offset: 0x1255670
     static UnityEngine::ProBuilder::WingedEdge* EdgeRingNext(UnityEngine::ProBuilder::WingedEdge* edge);
     // static System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> GetEdgeRing(UnityEngine.ProBuilder.ProBuilderMesh pb, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges)
-    // Offset: 0x11CA36C
+    // Offset: 0x12556FC
     static System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* GetEdgeRing(UnityEngine::ProBuilder::ProBuilderMesh* pb, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges);
     // static System.Boolean GetEdgeLoop(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges, out UnityEngine.ProBuilder.Edge[] loop)
-    // Offset: 0x11CA774
+    // Offset: 0x1255B04
     static bool GetEdgeLoop(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges, ::Array<UnityEngine::ProBuilder::Edge>*& loop);
     // static private System.Boolean GetEdgeLoopInternal(UnityEngine.ProBuilder.WingedEdge start, System.Int32 startIndex, System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.EdgeLookup> used)
-    // Offset: 0x11CAAEC
+    // Offset: 0x1255E7C
     static bool GetEdgeLoopInternal(UnityEngine::ProBuilder::WingedEdge* start, int startIndex, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::EdgeLookup>* used);
     // static private UnityEngine.ProBuilder.WingedEdge NextSpoke(UnityEngine.ProBuilder.WingedEdge wing, System.Int32 pivot, System.Boolean opp)
-    // Offset: 0x11CAEBC
+    // Offset: 0x125624C
     static UnityEngine::ProBuilder::WingedEdge* NextSpoke(UnityEngine::ProBuilder::WingedEdge* wing, int pivot, bool opp);
     // static System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> GetSpokes(UnityEngine.ProBuilder.WingedEdge wing, System.Int32 sharedIndex, System.Boolean allowHoles)
-    // Offset: 0x11CACD0
+    // Offset: 0x1256060
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>* GetSpokes(UnityEngine::ProBuilder::WingedEdge* wing, int sharedIndex, bool allowHoles);
     // static public System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> GrowSelection(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Single maxAngleDiff)
-    // Offset: 0x11CAF54
+    // Offset: 0x12562E4
     static System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* GrowSelection(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, float maxAngleDiff);
     // static System.Void Flood(UnityEngine.ProBuilder.WingedEdge wing, System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> selection)
-    // Offset: 0x11CB3C0
+    // Offset: 0x1256750
     static void Flood(UnityEngine::ProBuilder::WingedEdge* wing, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* selection);
     // static System.Void Flood(UnityEngine.ProBuilder.ProBuilderMesh pb, UnityEngine.ProBuilder.WingedEdge wing, UnityEngine.Vector3 wingNrm, System.Single maxAngle, System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> selection)
-    // Offset: 0x11CB44C
+    // Offset: 0x12567DC
     static void Flood(UnityEngine::ProBuilder::ProBuilderMesh* pb, UnityEngine::ProBuilder::WingedEdge* wing, UnityEngine::Vector3 wingNrm, float maxAngle, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* selection);
     // static public System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> FloodSelection(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face> faces, System.Single maxAngleDiff)
-    // Offset: 0x11CB62C
+    // Offset: 0x12569BC
     static System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* FloodSelection(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Face*>* faces, float maxAngleDiff);
     // static public System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> GetFaceLoop(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face[] faces, System.Boolean ring)
-    // Offset: 0x11CB8E0
+    // Offset: 0x1256C70
     static System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* GetFaceLoop(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<UnityEngine::ProBuilder::Face*>* faces, bool ring);
     // static public System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> GetFaceRingAndLoop(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face[] faces)
-    // Offset: 0x11CBC74
+    // Offset: 0x1257004
     static System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* GetFaceRingAndLoop(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::Array<UnityEngine::ProBuilder::Face*>* faces);
     // static private System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> GetFaceLoop(System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> wings, UnityEngine.ProBuilder.Face face, System.Boolean ring)
-    // Offset: 0x11CBAC8
+    // Offset: 0x1256E58
     static System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* GetFaceLoop(System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>* wings, UnityEngine::ProBuilder::Face* face, bool ring);
     // static System.Collections.Generic.List`1<System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge>> FindHoles(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> indexes)
-    // Offset: 0x11CBE74
+    // Offset: 0x1257204
     static System::Collections::Generic::List_1<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>*>* FindHoles(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<int>* indexes);
     // static System.Collections.Generic.List`1<System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>> FindHoles(System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> wings, System.Collections.Generic.HashSet`1<System.Int32> common)
-    // Offset: 0x11CC128
+    // Offset: 0x12574B8
     static System::Collections::Generic::List_1<System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>*>* FindHoles(System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>* wings, System::Collections::Generic::HashSet_1<int>* common);
     // static private UnityEngine.ProBuilder.WingedEdge FindNextEdgeInHole(UnityEngine.ProBuilder.WingedEdge wing, System.Int32 common)
-    // Offset: 0x11CC7E4
+    // Offset: 0x1257B74
     static UnityEngine::ProBuilder::WingedEdge* FindNextEdgeInHole(UnityEngine::ProBuilder::WingedEdge* wing, int common);
     // static private System.Void .cctor()
-    // Offset: 0x11CC874
+    // Offset: 0x1257C04
     static void _cctor();
   }; // UnityEngine.ProBuilder.MeshOperations.ElementSelection
 }

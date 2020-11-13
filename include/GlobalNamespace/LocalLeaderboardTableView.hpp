@@ -24,10 +24,10 @@ namespace GlobalNamespace {
   class LocalLeaderboardTableView : public GlobalNamespace::LeaderboardTableView {
     public:
     // public System.Void SetScores(System.Collections.Generic.List`1<LocalLeaderboardsModel/ScoreData> scores, System.Int32 specialScorePos, System.Int32 maxNumberOfCells)
-    // Offset: 0x20A0EAC
+    // Offset: 0x1A62944
     void SetScores(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>* scores, int specialScorePos, int maxNumberOfCells);
     // public System.Void .ctor()
-    // Offset: 0x20A1074
+    // Offset: 0x1A62B0C
     // Implemented from: LeaderboardTableView
     // Base method: System.Void LeaderboardTableView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

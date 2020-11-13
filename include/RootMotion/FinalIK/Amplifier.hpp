@@ -24,12 +24,12 @@ namespace RootMotion::FinalIK {
     // Offset: 0x30
     ::Array<RootMotion::FinalIK::Amplifier::Body*>* bodies;
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x186D0D4
+    // Offset: 0x174B038
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
     // public System.Void .ctor()
-    // Offset: 0x186D678
+    // Offset: 0x174B5DC
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

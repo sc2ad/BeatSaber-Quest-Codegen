@@ -48,13 +48,13 @@ namespace GlobalNamespace {
       return syncTime;
     }
     // static public PacketPool`1<ConnectedPlayerManager/SyncTimePacket> get_pool()
-    // Offset: 0x2157148
+    // Offset: 0x1B44C5C
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::SyncTimePacket*>* get_pool();
     // public ConnectedPlayerManager/SyncTimePacket Init(System.Single syncTime)
-    // Offset: 0x21571CC
+    // Offset: 0x1B44CE0
     GlobalNamespace::ConnectedPlayerManager::SyncTimePacket* Init(float syncTime);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x215C498
+    // Offset: 0x1B4A138
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x215C4B8
+    // Offset: 0x1B4A158
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -70,12 +70,12 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x215BB04
+    // Offset: 0x1B49794
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x215C4EC
+    // Offset: 0x1B4A18C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConnectedPlayerManager::SyncTimePacket* New_ctor();

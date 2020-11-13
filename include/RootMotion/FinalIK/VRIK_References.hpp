@@ -87,19 +87,19 @@ namespace RootMotion::FinalIK {
     // Offset: 0xB8
     UnityEngine::Transform* rightToes;
     // public UnityEngine.Transform[] GetTransforms()
-    // Offset: 0x1697FAC
+    // Offset: 0x15EBB70
     ::Array<UnityEngine::Transform*>* GetTransforms();
     // public System.Boolean get_isFilled()
-    // Offset: 0x1697910
+    // Offset: 0x15EB4D4
     bool get_isFilled();
     // public System.Boolean get_isEmpty()
-    // Offset: 0x1697494
+    // Offset: 0x15EB058
     bool get_isEmpty();
     // static public System.Boolean AutoDetectReferences(UnityEngine.Transform root, out RootMotion.FinalIK.VRIK/References references)
-    // Offset: 0x1696F70
+    // Offset: 0x15EAB34
     static bool AutoDetectReferences(UnityEngine::Transform* root, RootMotion::FinalIK::VRIK::References*& references);
     // public System.Void .ctor()
-    // Offset: 0x1697FA4
+    // Offset: 0x15EBB68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VRIK::References* New_ctor();

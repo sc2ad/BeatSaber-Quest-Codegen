@@ -47,16 +47,16 @@ namespace System::Xml::Xsl::Runtime {
     // Creating value type constructor for type: StringConcat
     constexpr StringConcat(::Il2CppString* s1_ = {}, ::Il2CppString* s2_ = {}, ::Il2CppString* s3_ = {}, ::Il2CppString* s4_ = {}, ::Il2CppString* delimiter_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* strList_ = {}, int idxStr_ = {}) noexcept : s1{s1_}, s2{s2_}, s3{s3_}, s4{s4_}, delimiter{delimiter_}, strList{strList_}, idxStr{idxStr_} {}
     // public System.Void Clear()
-    // Offset: 0xC8AAB4
+    // Offset: 0xCB79E4
     void Clear();
     // System.Int32 get_Count()
-    // Offset: 0xC8AAC4
+    // Offset: 0xCB79F4
     int get_Count();
     // public System.String GetResult()
-    // Offset: 0xC8AACC
+    // Offset: 0xCB79FC
     ::Il2CppString* GetResult();
     // System.Void ConcatNoDelimiter(System.String s)
-    // Offset: 0xC8AAD4
+    // Offset: 0xCB7A04
     void ConcatNoDelimiter(::Il2CppString* s);
   }; // System.Xml.Xsl.Runtime.StringConcat
 }

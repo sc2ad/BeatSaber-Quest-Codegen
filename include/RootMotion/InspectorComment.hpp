@@ -20,10 +20,10 @@ namespace RootMotion {
     // Offset: 0x18
     ::Il2CppString* color;
     // public System.Void .ctor(System.String name)
-    // Offset: 0x169E2A0
+    // Offset: 0x15F1E64
     static InspectorComment* New_ctor(::Il2CppString* name);
     // public System.Void .ctor(System.String name, System.String color)
-    // Offset: 0x169E330
+    // Offset: 0x15F1EF4
     static InspectorComment* New_ctor(::Il2CppString* name, ::Il2CppString* color);
   }; // RootMotion.InspectorComment
 }

@@ -25,10 +25,10 @@ namespace RootMotion::FinalIK {
     // Offset: 0x18
     float verticalWeight;
     // public System.Void .ctor(RootMotion.FinalIK.FullBodyBipedEffector effectorType, System.Single horizontalWeight, System.Single verticalWeight)
-    // Offset: 0x183604C
+    // Offset: 0x16FD6F4
     static GrounderFBBIK::SpineEffector* New_ctor(RootMotion::FinalIK::FullBodyBipedEffector effectorType, float horizontalWeight, float verticalWeight);
     // public System.Void .ctor()
-    // Offset: 0x183603C
+    // Offset: 0x16FD6E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GrounderFBBIK::SpineEffector* New_ctor();

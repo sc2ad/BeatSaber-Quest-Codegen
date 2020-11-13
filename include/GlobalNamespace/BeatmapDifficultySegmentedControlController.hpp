@@ -56,31 +56,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectDifficultyEvent(System.Action`2<BeatmapDifficultySegmentedControlController,BeatmapDifficulty> value)
-    // Offset: 0x20CA104
+    // Offset: 0x1A826D0
     void add_didSelectDifficultyEvent(System::Action_2<GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty>* value);
     // public System.Void remove_didSelectDifficultyEvent(System.Action`2<BeatmapDifficultySegmentedControlController,BeatmapDifficulty> value)
-    // Offset: 0x20CA1A8
+    // Offset: 0x1A82774
     void remove_didSelectDifficultyEvent(System::Action_2<GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty>* value);
     // public BeatmapDifficulty get_selectedDifficulty()
-    // Offset: 0x20CA24C
+    // Offset: 0x1A82818
     GlobalNamespace::BeatmapDifficulty get_selectedDifficulty();
     // protected System.Void Awake()
-    // Offset: 0x20CA254
+    // Offset: 0x1A82820
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x20CA2E8
+    // Offset: 0x1A828B4
     void OnDestroy();
     // private System.Int32 GetClosestDifficultyIndex(BeatmapDifficulty searchDifficulty)
-    // Offset: 0x20CA3C4
+    // Offset: 0x1A82990
     int GetClosestDifficultyIndex(GlobalNamespace::BeatmapDifficulty searchDifficulty);
     // private System.Void HandleDifficultySegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x20CA4CC
+    // Offset: 0x1A82A98
     void HandleDifficultySegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // public System.Void SetData(IDifficultyBeatmap[] difficultyBeatmaps, BeatmapDifficulty selectedDifficulty)
-    // Offset: 0x20CA570
+    // Offset: 0x1A82B3C
     void SetData(::Array<GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps, GlobalNamespace::BeatmapDifficulty selectedDifficulty);
     // public System.Void .ctor()
-    // Offset: 0x20CA800
+    // Offset: 0x1A82DCC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

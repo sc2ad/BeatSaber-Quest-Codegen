@@ -22,7 +22,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x14
     float weight;
     // public System.Void .ctor()
-    // Offset: 0x168EE88
+    // Offset: 0x15E2A4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PenetrationAvoidance::Avoider::EffectorLink* New_ctor();

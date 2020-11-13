@@ -64,43 +64,43 @@ namespace System::Net {
     // Set static field: static private System.Net.LazyAsyncResult/ThreadContext t_ThreadContext
     static void _set_t_ThreadContext(System::Net::LazyAsyncResult::ThreadContext* value);
     // static private System.Net.LazyAsyncResult/ThreadContext get_CurrentThreadContext()
-    // Offset: 0x124888C
+    // Offset: 0x12BD988
     static System::Net::LazyAsyncResult::ThreadContext* get_CurrentThreadContext();
     // System.Void .ctor(System.Object myObject, System.Object myState, System.AsyncCallback myCallBack)
-    // Offset: 0x124891C
+    // Offset: 0x12BDA18
     static LazyAsyncResult* New_ctor(::Il2CppObject* myObject, ::Il2CppObject* myState, System::AsyncCallback* myCallBack);
     // System.Object get_AsyncObject()
-    // Offset: 0x12489E8
+    // Offset: 0x12BDAE4
     ::Il2CppObject* get_AsyncObject();
     // private System.Boolean LazilyCreateEvent(out System.Threading.ManualResetEvent waitHandle)
-    // Offset: 0x1248AAC
+    // Offset: 0x12BDBA8
     bool LazilyCreateEvent(System::Threading::ManualResetEvent*& waitHandle);
     // System.Boolean get_InternalPeekCompleted()
-    // Offset: 0x1248C90
+    // Offset: 0x12BDD8C
     bool get_InternalPeekCompleted();
     // protected System.Void ProtectedInvokeCallback(System.Object result, System.IntPtr userToken)
-    // Offset: 0x1248D08
+    // Offset: 0x12BDE04
     void ProtectedInvokeCallback(::Il2CppObject* result, System::IntPtr userToken);
     // System.Void InvokeCallback(System.Object result)
-    // Offset: 0x1248EF8
+    // Offset: 0x12BDFF4
     void InvokeCallback(::Il2CppObject* result);
     // protected System.Void Complete(System.IntPtr userToken)
-    // Offset: 0x1248F50
+    // Offset: 0x12BE04C
     void Complete(System::IntPtr userToken);
     // private System.Void WorkerThreadComplete(System.Object state)
-    // Offset: 0x12490A0
+    // Offset: 0x12BE19C
     void WorkerThreadComplete(::Il2CppObject* state);
     // protected System.Void Cleanup()
-    // Offset: 0x1249128
+    // Offset: 0x12BE224
     void Cleanup();
     // System.Object InternalWaitForCompletion()
-    // Offset: 0x124912C
+    // Offset: 0x12BE228
     ::Il2CppObject* InternalWaitForCompletion();
     // private System.Object WaitForCompletion(System.Boolean snap)
-    // Offset: 0x1249134
+    // Offset: 0x12BE230
     ::Il2CppObject* WaitForCompletion(bool snap);
     // public System.Object get_AsyncState()
-    // Offset: 0x12489F0
+    // Offset: 0x12BDAEC
     // Implemented from: System.IAsyncResult
     // Base method: System.Object IAsyncResult::get_AsyncState()
     ::Il2CppObject* get_AsyncState();
@@ -108,7 +108,7 @@ namespace System::Net {
     // Maps to method: get_AsyncState
     ::Il2CppObject* System_IAsyncResult_get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x12489F8
+    // Offset: 0x12BDAF4
     // Implemented from: System.IAsyncResult
     // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
     System::Threading::WaitHandle* get_AsyncWaitHandle();
@@ -116,7 +116,7 @@ namespace System::Net {
     // Maps to method: get_AsyncWaitHandle
     System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x1248CA0
+    // Offset: 0x12BDD9C
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_CompletedSynchronously()
     bool get_CompletedSynchronously();
@@ -124,7 +124,7 @@ namespace System::Net {
     // Maps to method: get_CompletedSynchronously
     bool System_IAsyncResult_get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1248CD4
+    // Offset: 0x12BDDD0
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_IsCompleted()
     bool get_IsCompleted();

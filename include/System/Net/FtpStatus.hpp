@@ -20,13 +20,13 @@ namespace System::Net {
     // Offset: 0x18
     ::Il2CppString* statusDescription;
     // public System.Void .ctor(System.Net.FtpStatusCode statusCode, System.String statusDescription)
-    // Offset: 0x12C1560
+    // Offset: 0x1320D4C
     static FtpStatus* New_ctor(System::Net::FtpStatusCode statusCode, ::Il2CppString* statusDescription);
     // public System.Net.FtpStatusCode get_StatusCode()
-    // Offset: 0x12C15A4
+    // Offset: 0x1320D90
     System::Net::FtpStatusCode get_StatusCode();
     // public System.String get_StatusDescription()
-    // Offset: 0x12C15AC
+    // Offset: 0x1320D98
     ::Il2CppString* get_StatusDescription();
   }; // System.Net.FtpStatus
 }

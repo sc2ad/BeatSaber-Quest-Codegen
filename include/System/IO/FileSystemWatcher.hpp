@@ -115,80 +115,80 @@ namespace System::IO {
     // Set static field: static private System.Object lockobj
     static void _set_lockobj(::Il2CppObject* value);
     // public System.Void .ctor(System.String path, System.String filter)
-    // Offset: 0x14F0294
+    // Offset: 0x148F094
     static FileSystemWatcher* New_ctor(::Il2CppString* path, ::Il2CppString* filter);
     // private System.Void InitWatcher()
-    // Offset: 0x14F043C
+    // Offset: 0x148F23C
     void InitWatcher();
     // System.Boolean get_Waiting()
-    // Offset: 0x14F0734
+    // Offset: 0x148F534
     bool get_Waiting();
     // System.Void set_Waiting(System.Boolean value)
-    // Offset: 0x14F073C
+    // Offset: 0x148F53C
     void set_Waiting(bool value);
     // System.String get_MangledFilter()
-    // Offset: 0x14ED6DC
+    // Offset: 0x148C4DC
     ::Il2CppString* get_MangledFilter();
     // System.IO.SearchPattern2 get_Pattern()
-    // Offset: 0x14ED644
+    // Offset: 0x148C444
     System::IO::SearchPattern2* get_Pattern();
     // System.String get_FullPath()
-    // Offset: 0x14ED588
+    // Offset: 0x148C388
     ::Il2CppString* get_FullPath();
     // public System.Void set_EnableRaisingEvents(System.Boolean value)
-    // Offset: 0x14F0750
+    // Offset: 0x148F550
     void set_EnableRaisingEvents(bool value);
     // public System.Boolean get_IncludeSubdirectories()
-    // Offset: 0x14F0938
+    // Offset: 0x148F738
     bool get_IncludeSubdirectories();
     // public System.Void set_NotifyFilter(System.IO.NotifyFilters value)
-    // Offset: 0x14F0940
+    // Offset: 0x148F740
     void set_NotifyFilter(System::IO::NotifyFilters value);
     // private System.Void RaiseEvent(System.Delegate ev, System.EventArgs arg, System.IO.FileSystemWatcher/EventType evtype)
-    // Offset: 0x14F0A34
+    // Offset: 0x148F834
     void RaiseEvent(System::Delegate* ev, System::EventArgs* arg, System::IO::FileSystemWatcher::EventType evtype);
     // protected System.Void OnChanged(System.IO.FileSystemEventArgs e)
-    // Offset: 0x14F0D48
+    // Offset: 0x148FB48
     void OnChanged(System::IO::FileSystemEventArgs* e);
     // protected System.Void OnCreated(System.IO.FileSystemEventArgs e)
-    // Offset: 0x14F0D5C
+    // Offset: 0x148FB5C
     void OnCreated(System::IO::FileSystemEventArgs* e);
     // protected System.Void OnDeleted(System.IO.FileSystemEventArgs e)
-    // Offset: 0x14F0D70
+    // Offset: 0x148FB70
     void OnDeleted(System::IO::FileSystemEventArgs* e);
     // protected System.Void OnRenamed(System.IO.RenamedEventArgs e)
-    // Offset: 0x14F0D84
+    // Offset: 0x148FB84
     void OnRenamed(System::IO::RenamedEventArgs* e);
     // System.Void DispatchEvents(System.IO.FileAction act, System.String filename, ref System.IO.RenamedEventArgs renamed)
-    // Offset: 0x14EE558
+    // Offset: 0x148D358
     void DispatchEvents(System::IO::FileAction act, ::Il2CppString* filename, System::IO::RenamedEventArgs*& renamed);
     // private System.Void Start()
-    // Offset: 0x14F077C
+    // Offset: 0x148F57C
     void Start();
     // private System.Void Stop()
-    // Offset: 0x14F0858
+    // Offset: 0x148F658
     void Stop();
     // public System.Void add_Changed(System.IO.FileSystemEventHandler value)
-    // Offset: 0x14F0E58
+    // Offset: 0x148FC58
     void add_Changed(System::IO::FileSystemEventHandler* value);
     // public System.Void remove_Changed(System.IO.FileSystemEventHandler value)
-    // Offset: 0x14F0EFC
+    // Offset: 0x148FCFC
     void remove_Changed(System::IO::FileSystemEventHandler* value);
     // static private System.Int32 InternalSupportsFSW()
-    // Offset: 0x14F068C
+    // Offset: 0x148F48C
     static int InternalSupportsFSW();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x14F098C
+    // Offset: 0x148F78C
     // Implemented from: System.ComponentModel.Component
     // Base method: System.Void Component::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // protected override System.Void Finalize()
-    // Offset: 0x14F09CC
+    // Offset: 0x148F7CC
     // Implemented from: System.ComponentModel.Component
     // Base method: System.Void Component::Finalize()
     void Finalize();
     // static private System.Void .cctor()
-    // Offset: 0x14F0FA0
+    // Offset: 0x148FDA0
     // Implemented from: System.ComponentModel.Component
     // Base method: System.Void Component::.cctor()
     static void _cctor();

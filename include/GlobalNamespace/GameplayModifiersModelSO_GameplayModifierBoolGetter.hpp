@@ -31,16 +31,16 @@ namespace GlobalNamespace {
   class GameplayModifiersModelSO::GameplayModifierBoolGetter : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x200907C
+    // Offset: 0xF0EAC8
     static GameplayModifiersModelSO::GameplayModifierBoolGetter* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(GameplayModifiers gameplayModifiers)
-    // Offset: 0x2009368
+    // Offset: 0xF0EDB4
     bool Invoke(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.IAsyncResult BeginInvoke(GameplayModifiers gameplayModifiers, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2009AB4
+    // Offset: 0xF0F7A8
     System::IAsyncResult* BeginInvoke(GlobalNamespace::GameplayModifiers* gameplayModifiers, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2009AD8
+    // Offset: 0xF0F7CC
     bool EndInvoke(System::IAsyncResult* result);
   }; // GameplayModifiersModelSO/GameplayModifierBoolGetter
 }

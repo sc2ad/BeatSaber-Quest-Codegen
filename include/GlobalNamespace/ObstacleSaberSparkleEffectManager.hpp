@@ -97,37 +97,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_sparkleEffectDidStartEvent(System.Action`1<SaberType> value)
-    // Offset: 0x20FD28C
+    // Offset: 0x1003868
     void add_sparkleEffectDidStartEvent(System::Action_1<GlobalNamespace::SaberType>* value);
     // public System.Void remove_sparkleEffectDidStartEvent(System.Action`1<SaberType> value)
-    // Offset: 0x20FD4F0
+    // Offset: 0x1003ACC
     void remove_sparkleEffectDidStartEvent(System::Action_1<GlobalNamespace::SaberType>* value);
     // public System.Void add_sparkleEffectDidEndEvent(System.Action`1<SaberType> value)
-    // Offset: 0x20FD330
+    // Offset: 0x100390C
     void add_sparkleEffectDidEndEvent(System::Action_1<GlobalNamespace::SaberType>* value);
     // public System.Void remove_sparkleEffectDidEndEvent(System.Action`1<SaberType> value)
-    // Offset: 0x20FD594
+    // Offset: 0x1003B70
     void remove_sparkleEffectDidEndEvent(System::Action_1<GlobalNamespace::SaberType>* value);
     // protected System.Void Start()
-    // Offset: 0x20FDC3C
+    // Offset: 0x1004218
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x20FDF48
+    // Offset: 0x1004524
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0x20FE004
+    // Offset: 0x10045E0
     void Update();
     // private UnityEngine.Quaternion GetEffectRotation(UnityEngine.Vector3 pos, UnityEngine.Transform transform, UnityEngine.Bounds bounds)
-    // Offset: 0x20FE8BC
+    // Offset: 0x1004E98
     UnityEngine::Quaternion GetEffectRotation(UnityEngine::Vector3 pos, UnityEngine::Transform* transform, UnityEngine::Bounds bounds);
     // public UnityEngine.Vector3 BurnMarkPosForSaberType(SaberType saberType)
-    // Offset: 0x20FD77C
+    // Offset: 0x1003D58
     UnityEngine::Vector3 BurnMarkPosForSaberType(GlobalNamespace::SaberType saberType);
     // private System.Boolean GetBurnMarkPos(UnityEngine.Bounds bounds, UnityEngine.Transform transform, UnityEngine.Vector3 bladeBottomPos, UnityEngine.Vector3 bladeTopPos, out UnityEngine.Vector3 burnMarkPos)
-    // Offset: 0x20FE664
+    // Offset: 0x1004C40
     bool GetBurnMarkPos(UnityEngine::Bounds bounds, UnityEngine::Transform* transform, UnityEngine::Vector3 bladeBottomPos, UnityEngine::Vector3 bladeTopPos, UnityEngine::Vector3& burnMarkPos);
     // public System.Void .ctor()
-    // Offset: 0x20FEA74
+    // Offset: 0x1005050
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

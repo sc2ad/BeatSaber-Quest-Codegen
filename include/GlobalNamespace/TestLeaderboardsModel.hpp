@@ -60,28 +60,28 @@ namespace GlobalNamespace {
       return scoreForLeaderboardDidUploadEvent;
     }
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0x1F99294
+    // Offset: 0xF4B15C
     void add_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0x1F99338
+    // Offset: 0xF4B200
     void remove_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
     // public System.String GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x1F993DC
+    // Offset: 0xF4B2A4
     // Implemented from: OnlineServices.ILeaderboardsModel
     // Base method: System.String ILeaderboardsModel::GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
     ::Il2CppString* GetLeaderboardId(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Threading.Tasks.Task`1<OnlineServices.GetLeaderboardEntriesResult> GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1F993E8
+    // Offset: 0xF4B2B0
     // Implemented from: OnlineServices.ILeaderboardsModel
     // Base method: System.Threading.Tasks.Task`1<OnlineServices.GetLeaderboardEntriesResult> ILeaderboardsModel::GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<OnlineServices::GetLeaderboardEntriesResult>* GetLeaderboardEntriesAsync(OnlineServices::GetLeaderboardFilterData leaderboardFilterData, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.SendLeaderboardEntryResult> SendLevelScoreResultAsync(OnlineServices.LevelScoreResultsData levelScoreResult, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1F99514
+    // Offset: 0xF4B3DC
     // Implemented from: OnlineServices.ILeaderboardsModel
     // Base method: System.Threading.Tasks.Task`1<OnlineServices.SendLeaderboardEntryResult> ILeaderboardsModel::SendLevelScoreResultAsync(OnlineServices.LevelScoreResultsData levelScoreResult, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<OnlineServices::SendLeaderboardEntryResult>* SendLevelScoreResultAsync(OnlineServices::LevelScoreResultsData levelScoreResult, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x1F99668
+    // Offset: 0xF4B530
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestLeaderboardsModel* New_ctor();

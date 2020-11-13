@@ -20,6 +20,8 @@ namespace System::Net::Sockets {
 namespace System::Threading {
   // Forward declaring type: Thread
   class Thread;
+  // Forward declaring type: ThreadPriority
+  struct ThreadPriority;
 }
 // Forward declaring namespace: LiteNetLib
 namespace LiteNetLib {
@@ -81,43 +83,43 @@ namespace LiteNetLib {
     // Set static field: static readonly System.Boolean IPv6Support
     static void _set_IPv6Support(bool value);
     // public System.Int32 get_LocalPort()
-    // Offset: 0x18103B0
+    // Offset: 0x1DCF780
     int get_LocalPort();
     // private System.Void set_LocalPort(System.Int32 value)
-    // Offset: 0x18103B8
+    // Offset: 0x1DCF788
     void set_LocalPort(int value);
     // public System.Int16 get_Ttl()
-    // Offset: 0x18103C0
+    // Offset: 0x1DCF790
     int16_t get_Ttl();
     // public System.Void set_Ttl(System.Int16 value)
-    // Offset: 0x1806630
+    // Offset: 0x1DC5998
     void set_Ttl(int16_t value);
     // static private System.Void .cctor()
-    // Offset: 0x18103DC
+    // Offset: 0x1DCF7AC
     static void _cctor();
     // public System.Void .ctor(LiteNetLib.INetSocketListener listener)
-    // Offset: 0x1808390
+    // Offset: 0x1DC7700
     static NetSocket* New_ctor(LiteNetLib::INetSocketListener* listener);
     // private System.Boolean IsActive()
-    // Offset: 0x18104A4
+    // Offset: 0x1DCF874
     bool IsActive();
     // private System.Void ReceiveLogic(System.Object state)
-    // Offset: 0x18104C8
+    // Offset: 0x1DCF898
     void ReceiveLogic(::Il2CppObject* state);
-    // public System.Boolean Bind(System.Net.IPAddress addressIPv4, System.Net.IPAddress addressIPv6, System.Int32 port, System.Boolean reuseAddress, System.Boolean ipv6)
-    // Offset: 0x180C0FC
-    bool Bind(System::Net::IPAddress* addressIPv4, System::Net::IPAddress* addressIPv6, int port, bool reuseAddress, bool ipv6);
+    // public System.Boolean Bind(System.Net.IPAddress addressIPv4, System.Net.IPAddress addressIPv6, System.Int32 port, System.Boolean reuseAddress, System.Boolean ipv6, System.Threading.ThreadPriority priority)
+    // Offset: 0x1DCB480
+    bool Bind(System::Net::IPAddress* addressIPv4, System::Net::IPAddress* addressIPv6, int port, bool reuseAddress, bool ipv6, System::Threading::ThreadPriority priority);
     // private System.Boolean BindSocket(System.Net.Sockets.Socket socket, System.Net.IPEndPoint ep, System.Boolean reuseAddress)
-    // Offset: 0x1810A48
+    // Offset: 0x1DCFE18
     bool BindSocket(System::Net::Sockets::Socket* socket, System::Net::IPEndPoint* ep, bool reuseAddress);
     // public System.Boolean SendBroadcast(System.Byte[] data, System.Int32 offset, System.Int32 size, System.Int32 port)
-    // Offset: 0x180CAD0
+    // Offset: 0x1DCBE88
     bool SendBroadcast(::Array<uint8_t>* data, int offset, int size, int port);
     // public System.Int32 SendTo(System.Byte[] data, System.Int32 offset, System.Int32 size, System.Net.IPEndPoint remoteEndPoint, ref System.Net.Sockets.SocketError errorCode)
-    // Offset: 0x180664C
+    // Offset: 0x1DC59B4
     int SendTo(::Array<uint8_t>* data, int offset, int size, System::Net::IPEndPoint* remoteEndPoint, System::Net::Sockets::SocketError& errorCode);
     // public System.Void Close(System.Boolean suspend)
-    // Offset: 0x180D978
+    // Offset: 0x1DCCD30
     void Close(bool suspend);
   }; // LiteNetLib.NetSocket
 }

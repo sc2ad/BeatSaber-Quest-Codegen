@@ -18,16 +18,16 @@ namespace GlobalNamespace {
     // Offset: 0x18
     bool cleared;
     // public System.String get_missionId()
-    // Offset: 0x208D058
+    // Offset: 0xF28A74
     ::Il2CppString* get_missionId();
     // public System.Boolean get_cleared()
-    // Offset: 0x208D060
+    // Offset: 0xF28A7C
     bool get_cleared();
     // public System.Void set_cleared(System.Boolean value)
-    // Offset: 0x208D068
+    // Offset: 0xF28A84
     void set_cleared(bool value);
     // public System.Void .ctor(System.String missionId, System.Boolean cleared)
-    // Offset: 0x20883F0
+    // Offset: 0xF26DE4
     static PlayerMissionStatsData* New_ctor(::Il2CppString* missionId, bool cleared);
   }; // PlayerMissionStatsData
 }

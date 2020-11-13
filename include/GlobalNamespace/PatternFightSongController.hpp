@@ -116,43 +116,43 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kPhaseLengthInBeats
     static void _set_kPhaseLengthInBeats(float value);
     // protected System.Void Start()
-    // Offset: 0x2080BA8
+    // Offset: 0xF052A8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2080D38
+    // Offset: 0xF05438
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x2080DD8
+    // Offset: 0xF054D8
     void Update();
     // private System.Void HandleNoteWasCut(NoteController noteController, NoteCutInfo noteCutInfo)
-    // Offset: 0x2081154
+    // Offset: 0xF05854
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfo* noteCutInfo);
     // private System.Void NoteWasMissed(NoteController noteController)
-    // Offset: 0x208135C
+    // Offset: 0xF05A5C
     void NoteWasMissed(GlobalNamespace::NoteController* noteController);
     // private System.Void CreatePattern(System.Single time)
-    // Offset: 0x2080E88
+    // Offset: 0xF05588
     void CreatePattern(float time);
     // public System.Void StartSong(System.Single startTimeOffset)
-    // Offset: 0x2080D1C
+    // Offset: 0xF0541C
     void StartSong(float startTimeOffset);
     // public override System.Void StopSong()
-    // Offset: 0x2081460
+    // Offset: 0xF05B60
     // Implemented from: SongController
     // Base method: System.Void SongController::StopSong()
     void StopSong();
     // public override System.Void PauseSong()
-    // Offset: 0x208147C
+    // Offset: 0xF05B7C
     // Implemented from: SongController
     // Base method: System.Void SongController::PauseSong()
     void PauseSong();
     // public override System.Void ResumeSong()
-    // Offset: 0x2081498
+    // Offset: 0xF05B98
     // Implemented from: SongController
     // Base method: System.Void SongController::ResumeSong()
     void ResumeSong();
     // public System.Void .ctor()
-    // Offset: 0x20814B4
+    // Offset: 0xF05BB4
     // Implemented from: SongController
     // Base method: System.Void SongController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

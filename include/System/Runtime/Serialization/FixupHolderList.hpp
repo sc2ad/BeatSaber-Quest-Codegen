@@ -25,16 +25,16 @@ namespace System::Runtime::Serialization {
     // Offset: 0x18
     int m_count;
     // System.Void .ctor(System.Int32 startingSize)
-    // Offset: 0x12DDBE0
+    // Offset: 0x133D3CC
     static FixupHolderList* New_ctor(int startingSize);
     // System.Void Add(System.Runtime.Serialization.FixupHolder fixup)
-    // Offset: 0x12DDC5C
+    // Offset: 0x133D448
     void Add(System::Runtime::Serialization::FixupHolder* fixup);
     // private System.Void EnlargeArray()
-    // Offset: 0x12DDD14
+    // Offset: 0x133D500
     void EnlargeArray();
     // System.Void .ctor()
-    // Offset: 0x12DDBD8
+    // Offset: 0x133D3C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FixupHolderList* New_ctor();

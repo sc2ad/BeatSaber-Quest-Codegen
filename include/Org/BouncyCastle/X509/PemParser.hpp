@@ -36,13 +36,13 @@ namespace Org::BouncyCastle::X509 {
     // Offset: 0x28
     ::Il2CppString* footer2;
     // System.Void .ctor(System.String type)
-    // Offset: 0x1B38980
+    // Offset: 0x18C0CD0
     static PemParser* New_ctor(::Il2CppString* type);
     // private System.String ReadLine(System.IO.Stream inStream)
-    // Offset: 0x1B38A8C
+    // Offset: 0x18C0DDC
     ::Il2CppString* ReadLine(System::IO::Stream* inStream);
     // Org.BouncyCastle.Asn1.Asn1Sequence ReadPemObject(System.IO.Stream inStream)
-    // Offset: 0x1B38B64
+    // Offset: 0x18C0EB4
     Org::BouncyCastle::Asn1::Asn1Sequence* ReadPemObject(System::IO::Stream* inStream);
   }; // Org.BouncyCastle.X509.PemParser
 }

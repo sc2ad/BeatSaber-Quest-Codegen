@@ -89,71 +89,71 @@ namespace UnityEngine {
     // Offset: 0x8C
     int m_MarginBottom;
     // public System.Void ResetCursor()
-    // Offset: 0x16B3EBC
+    // Offset: 0x1607A80
     void ResetCursor();
     // public UnityEngine.GUILayoutEntry GetNext()
-    // Offset: 0x16B3EC4
+    // Offset: 0x1607A88
     UnityEngine::GUILayoutEntry* GetNext();
     // public System.Void Add(UnityEngine.GUILayoutEntry e)
-    // Offset: 0x16B4150
+    // Offset: 0x1607D14
     void Add(UnityEngine::GUILayoutEntry* e);
     // public override System.Int32 get_marginLeft()
-    // Offset: 0x16B3BE4
+    // Offset: 0x16077A8
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Int32 GUILayoutEntry::get_marginLeft()
     int get_marginLeft();
     // public override System.Int32 get_marginRight()
-    // Offset: 0x16B3BEC
+    // Offset: 0x16077B0
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Int32 GUILayoutEntry::get_marginRight()
     int get_marginRight();
     // public override System.Int32 get_marginTop()
-    // Offset: 0x16B3BF4
+    // Offset: 0x16077B8
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Int32 GUILayoutEntry::get_marginTop()
     int get_marginTop();
     // public override System.Int32 get_marginBottom()
-    // Offset: 0x16B3BFC
+    // Offset: 0x16077C0
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Int32 GUILayoutEntry::get_marginBottom()
     int get_marginBottom();
     // public System.Void .ctor()
-    // Offset: 0x16B3C04
+    // Offset: 0x16077C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GUILayoutGroup* New_ctor();
     // public override System.Void ApplyOptions(UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x16B3D14
+    // Offset: 0x16078D8
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::ApplyOptions(UnityEngine.GUILayoutOption[] options)
     void ApplyOptions(::Array<UnityEngine::GUILayoutOption*>* options);
     // protected override System.Void ApplyStyleSettings(UnityEngine.GUIStyle style)
-    // Offset: 0x16B3E44
+    // Offset: 0x1607A08
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::ApplyStyleSettings(UnityEngine.GUIStyle style)
     void ApplyStyleSettings(UnityEngine::GUIStyle* style);
     // public override System.Void CalcWidth()
-    // Offset: 0x16B41B8
+    // Offset: 0x1607D7C
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::CalcWidth()
     void CalcWidth();
     // public override System.Void SetHorizontal(System.Single x, System.Single width)
-    // Offset: 0x16B498C
+    // Offset: 0x1608550
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::SetHorizontal(System.Single x, System.Single width)
     void SetHorizontal(float x, float width);
     // public override System.Void CalcHeight()
-    // Offset: 0x16B5294
+    // Offset: 0x1608E58
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::CalcHeight()
     void CalcHeight();
     // public override System.Void SetVertical(System.Single y, System.Single height)
-    // Offset: 0x16B593C
+    // Offset: 0x1609500
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::SetVertical(System.Single y, System.Single height)
     void SetVertical(float y, float height);
     // public override System.String ToString()
-    // Offset: 0x16B6240
+    // Offset: 0x1609E04
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.String GUILayoutEntry::ToString()
     ::Il2CppString* ToString();

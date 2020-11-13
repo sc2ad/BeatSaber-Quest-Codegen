@@ -39,13 +39,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParamsList;
     // System.Void <RefreshContent>b__0(System.Int32 idx, ObjectiveListItem objectiveListItem)
-    // Offset: 0x1FC7554
+    // Offset: 0x1018910
     void $RefreshContent$b__0(int idx, GlobalNamespace::ObjectiveListItem* objectiveListItem);
     // System.Void <RefreshContent>b__1(System.Int32 idx, GameplayModifierInfoListItem gameplayModifierInfoListItem)
-    // Offset: 0x1FC7784
+    // Offset: 0x1018B40
     void $RefreshContent$b__1(int idx, GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem);
     // public System.Void .ctor()
-    // Offset: 0x1FC74E0
+    // Offset: 0x101889C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MissionLevelDetailViewController::$$c__DisplayClass14_0* New_ctor();

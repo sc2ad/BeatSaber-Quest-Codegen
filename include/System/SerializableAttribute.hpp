@@ -14,7 +14,7 @@ namespace System {
   class SerializableAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1213E00
+    // Offset: 0x1288EB8
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

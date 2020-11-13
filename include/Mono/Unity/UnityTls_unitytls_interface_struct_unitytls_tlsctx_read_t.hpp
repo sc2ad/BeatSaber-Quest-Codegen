@@ -28,16 +28,16 @@ namespace Mono::Unity {
   class UnityTls::unitytls_interface_struct::unitytls_tlsctx_read_t : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11FB05C
+    // Offset: 0x1270114
     static UnityTls::unitytls_interface_struct::unitytls_tlsctx_read_t* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(Mono.Unity.UnityTls/unitytls_tlsctx* ctx, System.Byte* buffer, System.IntPtr bufferLen, Mono.Unity.UnityTls/unitytls_errorstate* errorState)
-    // Offset: 0x11FB070
+    // Offset: 0x1270128
     System::IntPtr Invoke(Mono::Unity::UnityTls::unitytls_tlsctx* ctx, uint8_t* buffer, System::IntPtr bufferLen, Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // public System.IAsyncResult BeginInvoke(Mono.Unity.UnityTls/unitytls_tlsctx* ctx, System.Byte* buffer, System.IntPtr bufferLen, Mono.Unity.UnityTls/unitytls_errorstate* errorState, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11FB310
+    // Offset: 0x12703C8
     System::IAsyncResult* BeginInvoke(Mono::Unity::UnityTls::unitytls_tlsctx* ctx, uint8_t* buffer, System::IntPtr bufferLen, Mono::Unity::UnityTls::unitytls_errorstate* errorState, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11FB3B8
+    // Offset: 0x1270470
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // Mono.Unity.UnityTls/unitytls_interface_struct/unitytls_tlsctx_read_t
 }

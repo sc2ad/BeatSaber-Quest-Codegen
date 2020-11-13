@@ -26,16 +26,16 @@ namespace System::Net {
   class FtpDataStream::ReadDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x12BFF38
+    // Offset: 0x131F724
     static FtpDataStream::ReadDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Int32 Invoke(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x12C0B40
+    // Offset: 0x132032C
     int Invoke(::Array<uint8_t>* buffer, int offset, int size);
     // public System.IAsyncResult BeginInvoke(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x12BFF4C
+    // Offset: 0x131F738
     System::IAsyncResult* BeginInvoke(::Array<uint8_t>* buffer, int offset, int size, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x12C011C
+    // Offset: 0x131F908
     int EndInvoke(System::IAsyncResult* result);
   }; // System.Net.FtpDataStream/ReadDelegate
 }

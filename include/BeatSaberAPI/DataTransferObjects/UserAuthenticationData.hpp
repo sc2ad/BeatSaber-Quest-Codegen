@@ -37,7 +37,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Offset: 0x38
     ::Il2CppString* publicUserDisplayName;
     // public System.Void .ctor()
-    // Offset: 0x20C1540
+    // Offset: 0x1A78DB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UserAuthenticationData* New_ctor();

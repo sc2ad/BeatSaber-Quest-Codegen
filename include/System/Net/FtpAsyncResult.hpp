@@ -71,40 +71,40 @@ namespace System::Net {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
     // public System.Void .ctor(System.AsyncCallback callback, System.Object state)
-    // Offset: 0x12BF254
+    // Offset: 0x131EA40
     static FtpAsyncResult* New_ctor(System::AsyncCallback* callback, ::Il2CppObject* state);
     // System.Boolean get_GotException()
-    // Offset: 0x12BF4B4
+    // Offset: 0x131ECA0
     bool get_GotException();
     // System.Exception get_Exception()
-    // Offset: 0x12BF4C4
+    // Offset: 0x131ECB0
     System::Exception* get_Exception();
     // System.Net.FtpWebResponse get_Response()
-    // Offset: 0x12BF4CC
+    // Offset: 0x131ECB8
     System::Net::FtpWebResponse* get_Response();
     // System.IO.Stream get_Stream()
-    // Offset: 0x12BF4D4
+    // Offset: 0x131ECC0
     System::IO::Stream* get_Stream();
     // System.Void set_Stream(System.IO.Stream value)
-    // Offset: 0x12BF4DC
+    // Offset: 0x131ECC8
     void set_Stream(System::IO::Stream* value);
     // System.Boolean WaitUntilComplete(System.Int32 timeout, System.Boolean exitContext)
-    // Offset: 0x12BF4E4
+    // Offset: 0x131ECD0
     bool WaitUntilComplete(int timeout, bool exitContext);
     // System.Void SetCompleted(System.Boolean synch, System.Exception exc, System.Net.FtpWebResponse response)
-    // Offset: 0x12BF54C
+    // Offset: 0x131ED38
     void SetCompleted(bool synch, System::Exception* exc, System::Net::FtpWebResponse* response);
     // System.Void SetCompleted(System.Boolean synch, System.Net.FtpWebResponse response)
-    // Offset: 0x12BF6FC
+    // Offset: 0x131EEE8
     void SetCompleted(bool synch, System::Net::FtpWebResponse* response);
     // System.Void SetCompleted(System.Boolean synch, System.Exception exc)
-    // Offset: 0x12BF70C
+    // Offset: 0x131EEF8
     void SetCompleted(bool synch, System::Exception* exc);
     // System.Void DoCallback()
-    // Offset: 0x12BF634
+    // Offset: 0x131EE20
     void DoCallback();
     // public System.Object get_AsyncState()
-    // Offset: 0x12BF2F8
+    // Offset: 0x131EAE4
     // Implemented from: System.IAsyncResult
     // Base method: System.Object IAsyncResult::get_AsyncState()
     ::Il2CppObject* get_AsyncState();
@@ -112,7 +112,7 @@ namespace System::Net {
     // Maps to method: get_AsyncState
     ::Il2CppObject* System_IAsyncResult_get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x12BF300
+    // Offset: 0x131EAEC
     // Implemented from: System.IAsyncResult
     // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
     System::Threading::WaitHandle* get_AsyncWaitHandle();
@@ -120,7 +120,7 @@ namespace System::Net {
     // Maps to method: get_AsyncWaitHandle
     System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x12BF400
+    // Offset: 0x131EBEC
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_CompletedSynchronously()
     bool get_CompletedSynchronously();
@@ -128,7 +128,7 @@ namespace System::Net {
     // Maps to method: get_CompletedSynchronously
     bool System_IAsyncResult_get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x12BF408
+    // Offset: 0x131EBF4
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_IsCompleted()
     bool get_IsCompleted();

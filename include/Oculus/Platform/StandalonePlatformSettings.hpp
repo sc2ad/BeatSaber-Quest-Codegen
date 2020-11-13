@@ -12,25 +12,25 @@ namespace Oculus::Platform {
   class StandalonePlatformSettings : public ::Il2CppObject {
     public:
     // static public System.String get_OculusPlatformTestUserEmail()
-    // Offset: 0x11463FC
+    // Offset: 0x11E70BC
     static ::Il2CppString* get_OculusPlatformTestUserEmail();
     // static public System.Void set_OculusPlatformTestUserEmail(System.String value)
-    // Offset: 0x114644C
+    // Offset: 0x11E710C
     static void set_OculusPlatformTestUserEmail(::Il2CppString* value);
     // static public System.String get_OculusPlatformTestUserPassword()
-    // Offset: 0x1146450
+    // Offset: 0x11E7110
     static ::Il2CppString* get_OculusPlatformTestUserPassword();
     // static public System.Void set_OculusPlatformTestUserPassword(System.String value)
-    // Offset: 0x11464A0
+    // Offset: 0x11E7160
     static void set_OculusPlatformTestUserPassword(::Il2CppString* value);
     // static public System.String get_OculusPlatformTestUserAccessToken()
-    // Offset: 0x11464A4
+    // Offset: 0x11E7164
     static ::Il2CppString* get_OculusPlatformTestUserAccessToken();
     // static public System.Void set_OculusPlatformTestUserAccessToken(System.String value)
-    // Offset: 0x11464F4
+    // Offset: 0x11E71B4
     static void set_OculusPlatformTestUserAccessToken(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x11464F8
+    // Offset: 0x11E71B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static StandalonePlatformSettings* New_ctor();

@@ -31,16 +31,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Renderer[] get_renderers()
-    // Offset: 0x1D009F8
+    // Offset: 0x187DEE0
     ::Array<UnityEngine::Renderer*>* get_renderers();
     // public UnityEngine.MaterialPropertyBlock get_materialPropertyBlock()
-    // Offset: 0x1CFCCE8
+    // Offset: 0x187DCD0
     UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
     // public System.Void ApplyChanges()
-    // Offset: 0x1CFCD60
+    // Offset: 0x187DC18
     void ApplyChanges();
     // public System.Void .ctor()
-    // Offset: 0x1D00A00
+    // Offset: 0x187DEE8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -33,10 +33,10 @@ namespace Org::BouncyCastle::Asn1 {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Convertible*>(this);
     }
     // System.Void .ctor(System.Int32 tag, Org.BouncyCastle.Asn1.Asn1StreamParser parser)
-    // Offset: 0x13147AC
+    // Offset: 0x1372F98
     static BerApplicationSpecificParser* New_ctor(int tag, Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x13147F0
+    // Offset: 0x1372FDC
     // Implemented from: Org.BouncyCastle.Asn1.IAsn1Convertible
     // Base method: Org.BouncyCastle.Asn1.Asn1Object IAsn1Convertible::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

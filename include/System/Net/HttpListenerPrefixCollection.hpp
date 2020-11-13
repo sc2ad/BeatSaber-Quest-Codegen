@@ -45,16 +45,16 @@ namespace System::Net {
       return *reinterpret_cast<System::Collections::Generic::ICollection_1<::Il2CppString*>*>(this);
     }
     // System.Void .ctor(System.Net.HttpListener listener)
-    // Offset: 0x1238CDC
+    // Offset: 0x12ADD94
     static HttpListenerPrefixCollection* New_ctor(System::Net::HttpListener* listener);
     // public System.Void CopyTo(System.String[] array, System.Int32 offset)
-    // Offset: 0x123BA30
+    // Offset: 0x12B0B2C
     void CopyTo(::Array<::Il2CppString*>* array, int offset);
     // public System.Collections.Generic.IEnumerator`1<System.String> GetEnumerator()
-    // Offset: 0x123BAAC
+    // Offset: 0x12B0BA8
     System::Collections::Generic::IEnumerator_1<::Il2CppString*>* GetEnumerator();
     // public System.Int32 get_Count()
-    // Offset: 0x123ABC8
+    // Offset: 0x12AFCC4
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Int32 ICollection_1::get_Count()
     int get_Count();
@@ -62,7 +62,7 @@ namespace System::Net {
     // Maps to method: get_Count
     int System_Collections_Generic_ICollection_1_get_Count();
     // public System.Boolean get_IsReadOnly()
-    // Offset: 0x123B528
+    // Offset: 0x12B0624
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::get_IsReadOnly()
     bool get_IsReadOnly();
@@ -70,7 +70,7 @@ namespace System::Net {
     // Maps to method: get_IsReadOnly
     bool System_Collections_Generic_ICollection_1_get_IsReadOnly();
     // public System.Void Add(System.String uriPrefix)
-    // Offset: 0x123B530
+    // Offset: 0x12B062C
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection_1::Add(System.String uriPrefix)
     void Add(::Il2CppString* uriPrefix);
@@ -78,7 +78,7 @@ namespace System::Net {
     // Maps to method: Add
     void System_Collections_Generic_ICollection_1_Add(::Il2CppString* uriPrefix);
     // public System.Void Clear()
-    // Offset: 0x123B910
+    // Offset: 0x12B0A0C
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection_1::Clear()
     void Clear();
@@ -86,7 +86,7 @@ namespace System::Net {
     // Maps to method: Clear
     void System_Collections_Generic_ICollection_1_Clear();
     // public System.Boolean Contains(System.String uriPrefix)
-    // Offset: 0x123B9BC
+    // Offset: 0x12B0AB8
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::Contains(System.String uriPrefix)
     bool Contains(::Il2CppString* uriPrefix);
@@ -94,12 +94,12 @@ namespace System::Net {
     // Maps to method: Contains
     bool System_Collections_Generic_ICollection_1_Contains(::Il2CppString* uriPrefix);
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x123BB38
+    // Offset: 0x12B0C34
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Boolean Remove(System.String uriPrefix)
-    // Offset: 0x123BBC4
+    // Offset: 0x12B0CC0
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::Remove(System.String uriPrefix)
     bool Remove(::Il2CppString* uriPrefix);

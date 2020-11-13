@@ -28,12 +28,42 @@ namespace MasterServer {
     static MasterServer::AnalyticsMetricUnit _get_None();
     // Set static field: static public MasterServer.AnalyticsMetricUnit None
     static void _set_None(MasterServer::AnalyticsMetricUnit value);
+    // static field const value: static public MasterServer.AnalyticsMetricUnit Count
+    static constexpr const int Count = 1;
+    // Get static field: static public MasterServer.AnalyticsMetricUnit Count
+    static MasterServer::AnalyticsMetricUnit _get_Count();
+    // Set static field: static public MasterServer.AnalyticsMetricUnit Count
+    static void _set_Count(MasterServer::AnalyticsMetricUnit value);
+    // static field const value: static public MasterServer.AnalyticsMetricUnit Percent
+    static constexpr const int Percent = 2;
+    // Get static field: static public MasterServer.AnalyticsMetricUnit Percent
+    static MasterServer::AnalyticsMetricUnit _get_Percent();
+    // Set static field: static public MasterServer.AnalyticsMetricUnit Percent
+    static void _set_Percent(MasterServer::AnalyticsMetricUnit value);
     // static field const value: static public MasterServer.AnalyticsMetricUnit Seconds
-    static constexpr const int Seconds = 1;
+    static constexpr const int Seconds = 3;
     // Get static field: static public MasterServer.AnalyticsMetricUnit Seconds
     static MasterServer::AnalyticsMetricUnit _get_Seconds();
     // Set static field: static public MasterServer.AnalyticsMetricUnit Seconds
     static void _set_Seconds(MasterServer::AnalyticsMetricUnit value);
+    // static field const value: static public MasterServer.AnalyticsMetricUnit Milliseconds
+    static constexpr const int Milliseconds = 4;
+    // Get static field: static public MasterServer.AnalyticsMetricUnit Milliseconds
+    static MasterServer::AnalyticsMetricUnit _get_Milliseconds();
+    // Set static field: static public MasterServer.AnalyticsMetricUnit Milliseconds
+    static void _set_Milliseconds(MasterServer::AnalyticsMetricUnit value);
+    // static field const value: static public MasterServer.AnalyticsMetricUnit Microseconds
+    static constexpr const int Microseconds = 5;
+    // Get static field: static public MasterServer.AnalyticsMetricUnit Microseconds
+    static MasterServer::AnalyticsMetricUnit _get_Microseconds();
+    // Set static field: static public MasterServer.AnalyticsMetricUnit Microseconds
+    static void _set_Microseconds(MasterServer::AnalyticsMetricUnit value);
+    // static field const value: static public MasterServer.AnalyticsMetricUnit Bytes
+    static constexpr const int Bytes = 6;
+    // Get static field: static public MasterServer.AnalyticsMetricUnit Bytes
+    static MasterServer::AnalyticsMetricUnit _get_Bytes();
+    // Set static field: static public MasterServer.AnalyticsMetricUnit Bytes
+    static void _set_Bytes(MasterServer::AnalyticsMetricUnit value);
   }; // MasterServer.AnalyticsMetricUnit
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

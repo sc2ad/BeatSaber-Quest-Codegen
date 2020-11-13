@@ -28,19 +28,19 @@ namespace GlobalNamespace {
       return m_output;
     }
     // public System.Void .ctor(System.UInt32 outputIndex)
-    // Offset: 0x10E1C8C
+    // Offset: 0x11B85BC
     static OVRHaptics::OVRHapticsChannel* New_ctor(uint outputIndex);
     // public System.Void Preempt(OVRHapticsClip clip)
-    // Offset: 0x10E2DE4
+    // Offset: 0x11B9714
     void Preempt(GlobalNamespace::OVRHapticsClip* clip);
     // public System.Void Queue(OVRHapticsClip clip)
-    // Offset: 0x10E2EAC
+    // Offset: 0x11B97DC
     void Queue(GlobalNamespace::OVRHapticsClip* clip);
     // public System.Void Mix(OVRHapticsClip clip)
-    // Offset: 0x10E2F5C
+    // Offset: 0x11B988C
     void Mix(GlobalNamespace::OVRHapticsClip* clip);
     // public System.Void Clear()
-    // Offset: 0x10E345C
+    // Offset: 0x11B9D8C
     void Clear();
   }; // OVRHaptics/OVRHapticsChannel
 }

@@ -44,52 +44,52 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static private readonly System.Int16[] ftable
     static void _set_ftable(::Array<int16_t>* value);
     // private System.Int32 G(System.Int32 k, System.Int32 w)
-    // Offset: 0x19E0564
+    // Offset: 0x1811744
     int G(int k, int w);
     // public System.Int32 EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x19E06D8
+    // Offset: 0x18118B8
     int EncryptBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* outBytes, int outOff);
     // private System.Int32 H(System.Int32 k, System.Int32 w)
-    // Offset: 0x19E092C
+    // Offset: 0x1811B0C
     int H(int k, int w);
     // public System.Int32 DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x19E0AA0
+    // Offset: 0x1811C80
     int DecryptBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* outBytes, int outOff);
     // static private System.Void .cctor()
-    // Offset: 0x19E0D10
+    // Offset: 0x1811EF0
     static void _cctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x19E006C
+    // Offset: 0x181124C
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Void IBlockCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.String get_AlgorithmName()
-    // Offset: 0x19E03E8
+    // Offset: 0x18115C8
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.String IBlockCipher::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x19E0430
+    // Offset: 0x1811610
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Boolean IBlockCipher::get_IsPartialBlockOkay()
     bool get_IsPartialBlockOkay();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x19E0438
+    // Offset: 0x1811618
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Int32 IBlockCipher::GetBlockSize()
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x19E0440
+    // Offset: 0x1811620
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Int32 IBlockCipher::ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x19E0560
+    // Offset: 0x1811740
     // Implemented from: Org.BouncyCastle.Crypto.IBlockCipher
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x19E0D90
+    // Offset: 0x1811F70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SkipjackEngine* New_ctor();

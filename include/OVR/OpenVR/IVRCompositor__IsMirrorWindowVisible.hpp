@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_IsMirrorWindowVisible : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AAE0C8
+    // Offset: 0x185D600
     static IVRCompositor::_IsMirrorWindowVisible* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
-    // Offset: 0x1AAE0DC
+    // Offset: 0x185D614
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AAE2F4
+    // Offset: 0x185D82C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1AAE320
+    // Offset: 0x185D858
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_IsMirrorWindowVisible
 }

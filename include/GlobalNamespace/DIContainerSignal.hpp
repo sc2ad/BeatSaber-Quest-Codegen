@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   class DIContainerSignal : public GlobalNamespace::GenericSignal_1<Zenject::DiContainer*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x210A6B0
+    // Offset: 0x102C62C
     // Implemented from: GenericSignal`1
     // Base method: System.Void GenericSignal_1::.ctor()
     // Base method: System.Void Signal::.ctor()

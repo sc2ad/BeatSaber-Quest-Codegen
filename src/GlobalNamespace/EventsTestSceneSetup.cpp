@@ -4,6 +4,10 @@
 // Begin includes
 // Including type: EventsTestSceneSetup
 #include "GlobalNamespace/EventsTestSceneSetup.hpp"
+// Including type: BeatmapLevelSO
+#include "GlobalNamespace/BeatmapLevelSO.hpp"
+// Including type: BeatmapCharacteristicSO
+#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

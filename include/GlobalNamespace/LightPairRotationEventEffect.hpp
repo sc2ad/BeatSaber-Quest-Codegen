@@ -88,22 +88,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kSpeedMultiplier
     static void _set_kSpeedMultiplier(float value);
     // protected System.Void Start()
-    // Offset: 0x20943C4
+    // Offset: 0x1AC699C
     void Start();
     // protected System.Void Update()
-    // Offset: 0x2094698
+    // Offset: 0x1AC6C70
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0x209491C
+    // Offset: 0x1AC6EF4
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x20949F8
+    // Offset: 0x1AC6FD0
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void UpdateRotationData(System.Int32 beatmapEventDataValue, LightPairRotationEventEffect/RotationData rotationData, System.Single startRotationOffset, System.Single direction)
-    // Offset: 0x2094C78
+    // Offset: 0x1AC7258
     void UpdateRotationData(int beatmapEventDataValue, GlobalNamespace::LightPairRotationEventEffect::RotationData* rotationData, float startRotationOffset, float direction);
     // public System.Void .ctor()
-    // Offset: 0x2094EEC
+    // Offset: 0x1AC74CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

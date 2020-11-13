@@ -47,10 +47,10 @@ namespace System {
     // Offset: 0x40
     System::DelegateSerializationHolder::DelegateEntry* delegateEntry;
     // public System.Void .ctor(System.Delegate del, System.String targetLabel)
-    // Offset: 0x176ECE8
+    // Offset: 0x1677480
     static DelegateSerializationHolder::DelegateEntry* New_ctor(System::Delegate* del, ::Il2CppString* targetLabel);
     // public System.Delegate DeserializeDelegate(System.Runtime.Serialization.SerializationInfo info, System.Int32 index)
-    // Offset: 0x176EA74
+    // Offset: 0x167720C
     System::Delegate* DeserializeDelegate(System::Runtime::Serialization::SerializationInfo* info, int index);
   }; // System.DelegateSerializationHolder/DelegateEntry
 }

@@ -30,22 +30,22 @@ namespace System::Threading {
     // Offset: 0x20
     System::Threading::ThreadPoolWorkQueue::QueueSegment* Next;
     // private System.Void GetIndexes(out System.Int32 upper, out System.Int32 lower)
-    // Offset: 0x14A4EFC
+    // Offset: 0x1D1D788
     void GetIndexes(int& upper, int& lower);
     // private System.Boolean CompareExchangeIndexes(ref System.Int32 prevUpper, System.Int32 newUpper, ref System.Int32 prevLower, System.Int32 newLower)
-    // Offset: 0x14A4F3C
+    // Offset: 0x1D1D7C8
     bool CompareExchangeIndexes(int& prevUpper, int newUpper, int& prevLower, int newLower);
     // public System.Boolean IsUsedUp()
-    // Offset: 0x14A4800
+    // Offset: 0x1D1D08C
     bool IsUsedUp();
     // public System.Boolean TryEnqueue(System.Threading.IThreadPoolWorkItem node)
-    // Offset: 0x14A3E6C
+    // Offset: 0x1D1C6F8
     bool TryEnqueue(System::Threading::IThreadPoolWorkItem* node);
     // public System.Boolean TryDequeue(out System.Threading.IThreadPoolWorkItem node)
-    // Offset: 0x14A46E8
+    // Offset: 0x1D1CF74
     bool TryDequeue(System::Threading::IThreadPoolWorkItem*& node);
     // public System.Void .ctor()
-    // Offset: 0x14A36B4
+    // Offset: 0x1D1BF40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ThreadPoolWorkQueue::QueueSegment* New_ctor();

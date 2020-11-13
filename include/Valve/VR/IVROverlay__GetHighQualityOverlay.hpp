@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVROverlay::_GetHighQualityOverlay : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1B8BE7C
+    // Offset: 0x18EFC94
     static IVROverlay::_GetHighQualityOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt64 Invoke()
-    // Offset: 0x1B8BE90
+    // Offset: 0x18EFCA8
     uint64_t Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1B8C0A4
+    // Offset: 0x18EFEBC
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt64 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1B8C0D0
+    // Offset: 0x18EFEE8
     uint64_t EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_GetHighQualityOverlay
 }

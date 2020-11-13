@@ -33,40 +33,40 @@ namespace Org::BouncyCastle::Asn1 {
       return time;
     }
     // System.Void .ctor(System.Byte[] bytes)
-    // Offset: 0x1315F54
+    // Offset: 0x1374740
     static DerUtcTime* New_ctor(::Array<uint8_t>* bytes);
     // public System.DateTime ToAdjustedDateTime()
-    // Offset: 0x132707C
+    // Offset: 0x1385868
     System::DateTime ToAdjustedDateTime();
     // private System.DateTime ParseDateString(System.String dateStr, System.String formatStr)
-    // Offset: 0x132715C
+    // Offset: 0x1385948
     System::DateTime ParseDateString(::Il2CppString* dateStr, ::Il2CppString* formatStr);
     // public System.String get_TimeString()
-    // Offset: 0x1327220
+    // Offset: 0x1385A0C
     ::Il2CppString* get_TimeString();
     // public System.String get_AdjustedTimeString()
-    // Offset: 0x13270D4
+    // Offset: 0x13858C0
     ::Il2CppString* get_AdjustedTimeString();
     // private System.Byte[] GetOctets()
-    // Offset: 0x1327658
+    // Offset: 0x1385E44
     ::Array<uint8_t>* GetOctets();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x1327664
+    // Offset: 0x1385E50
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x13276A0
+    // Offset: 0x1385E8C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x1327754
+    // Offset: 0x1385F40
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1327770
+    // Offset: 0x1385F5C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

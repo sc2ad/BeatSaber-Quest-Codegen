@@ -167,126 +167,126 @@ namespace GlobalNamespace {
     // Offset: 0x168
     bool isAlreadyFinishing;
     // public System.Void add_didFinishedEvent(System.Action value)
-    // Offset: 0x2069B08
+    // Offset: 0xF2E3A0
     void add_didFinishedEvent(System::Action* value);
     // public System.Void remove_didFinishedEvent(System.Action value)
-    // Offset: 0x2069BB0
+    // Offset: 0xF2E448
     void remove_didFinishedEvent(System::Action* value);
     // private System.Void HandleLobbyPlayersDataModelDidChange(System.String userId)
-    // Offset: 0x206C384
+    // Offset: 0xF30C1C
     void HandleLobbyPlayersDataModelDidChange(::Il2CppString* userId);
     // private System.Void HandleQuickPlaySetupViewControllerSetPlayerReady(System.Boolean isReady)
-    // Offset: 0x206C388
+    // Offset: 0xF30C20
     void HandleQuickPlaySetupViewControllerSetPlayerReady(bool isReady);
     // private System.Void HandleQuickPlaySetupViewControllerSuggestBeatmap()
-    // Offset: 0x206C44C
+    // Offset: 0xF30CE4
     void HandleQuickPlaySetupViewControllerSuggestBeatmap();
     // private System.Void HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel(LevelSelectionFlowCoordinator/State state)
-    // Offset: 0x206C620
+    // Offset: 0xF30EB8
     void HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel(GlobalNamespace::LevelSelectionFlowCoordinator::State* state);
     // private System.Void HandleMultiplayerLevelSelectionFlowCoordinatorDidFinish()
-    // Offset: 0x206C96C
+    // Offset: 0xF31204
     void HandleMultiplayerLevelSelectionFlowCoordinatorDidFinish();
     // private System.Void HandleQuickPlaySetupViewControllerDeleteSuggestedBeatmap()
-    // Offset: 0x206C9B0
+    // Offset: 0xF31248
     void HandleQuickPlaySetupViewControllerDeleteSuggestedBeatmap();
     // private System.Void HandleServerPlayerListControllerSelectSuggestedBeatmap(System.String levelId, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0x206CA64
+    // Offset: 0xF312FC
     void HandleServerPlayerListControllerSelectSuggestedBeatmap(::Il2CppString* levelId, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
     // private System.Void HandleLobbyGameStateControllerLobbyDisconnected()
-    // Offset: 0x206CB40
+    // Offset: 0xF313D8
     void HandleLobbyGameStateControllerLobbyDisconnected();
     // private System.Void HandleLobbyGameStateControllerGameStarted()
-    // Offset: 0x206CC00
+    // Offset: 0xF31498
     void HandleLobbyGameStateControllerGameStarted();
     // private System.Void HandleLobbyGameStateControllerGameStartedPresentView()
-    // Offset: 0x206CE34
+    // Offset: 0xF316CC
     void HandleLobbyGameStateControllerGameStartedPresentView();
     // private System.Void HandleLobbyGameStateControllerCountdownStarted()
-    // Offset: 0x206CEFC
+    // Offset: 0xF31794
     void HandleLobbyGameStateControllerCountdownStarted();
     // private System.Void HandleLobbyGameStateControllerCountdownCancelled()
-    // Offset: 0x206CFC4
+    // Offset: 0xF3185C
     void HandleLobbyGameStateControllerCountdownCancelled();
     // private System.Void HandleLobbyGameStateControllerSongStillDownloading()
-    // Offset: 0x206CFE4
+    // Offset: 0xF3187C
     void HandleLobbyGameStateControllerSongStillDownloading();
     // private System.Void HandleMenuRpcManagerSetMultiplayerGameState(System.String userId, MultiplayerGameState gameState)
-    // Offset: 0x206CFE8
+    // Offset: 0xF31880
     void HandleMenuRpcManagerSetMultiplayerGameState(::Il2CppString* userId, GlobalNamespace::MultiplayerGameState gameState);
     // private System.Void HandleLobbyGameStateControllerLevelFinished(MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData, LevelCompletionResults myCompletionResults, System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults> othersCompletionResults)
-    // Offset: 0x206D1F8
+    // Offset: 0xF31A90
     void HandleLobbyGameStateControllerLevelFinished(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData, GlobalNamespace::LevelCompletionResults* myCompletionResults, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>* othersCompletionResults);
     // private System.Void HandleLobbyGameStateControllerLevelDidGetDisconnected(DisconnectedReason disconnectedReason)
-    // Offset: 0x206D794
+    // Offset: 0xF32028
     void HandleLobbyGameStateControllerLevelDidGetDisconnected(GlobalNamespace::DisconnectedReason disconnectedReason);
     // private System.Void HandleLobbyGameStateControllerBeforeSceneSwitch()
-    // Offset: 0x206D798
+    // Offset: 0xF3202C
     void HandleLobbyGameStateControllerBeforeSceneSwitch();
     // private System.Void HandleMultiplayerResultsViewControllerBackToLobbyPressed(MultiplayerResultsViewController multiplayerResultsViewController)
-    // Offset: 0x206D874
+    // Offset: 0xF32108
     void HandleMultiplayerResultsViewControllerBackToLobbyPressed(GlobalNamespace::MultiplayerResultsViewController* multiplayerResultsViewController);
     // private System.Void SetupGameStarting()
-    // Offset: 0x206CC04
+    // Offset: 0xF3149C
     void SetupGameStarting();
     // private System.Void SetLocalPlayerDataModelToViews(System.String userId)
-    // Offset: 0x206A80C
+    // Offset: 0xF2F0A4
     void SetLocalPlayerDataModelToViews(::Il2CppString* userId);
     // private System.Void PresentBackButtonConfirmationDialog()
-    // Offset: 0x206B71C
+    // Offset: 0xF2FFB4
     void PresentBackButtonConfirmationDialog();
     // private System.Void Finish(System.Action finishedCallback, System.Boolean withFadeOut)
-    // Offset: 0x206D5E8
+    // Offset: 0xF31E7C
     void Finish(System::Action* finishedCallback, bool withFadeOut);
     // private System.Void DismissViewControllersAndCoordinators()
-    // Offset: 0x206DADC
+    // Offset: 0xF32370
     void DismissViewControllersAndCoordinators();
     // private System.Void ShowDisconnectDialogAndFinish(DisconnectedReason disconnectedReason)
-    // Offset: 0x206C23C
+    // Offset: 0xF30AD4
     void ShowDisconnectDialogAndFinish(GlobalNamespace::DisconnectedReason disconnectedReason);
     // private System.Void <PresentBackButtonConfirmationDialog>b__54_0(System.Int32 btnIndex)
-    // Offset: 0x206DBF4
+    // Offset: 0xF32488
     void $PresentBackButtonConfirmationDialog$b__54_0(int btnIndex);
     // private System.Void <ShowDisconnectDialogAndFinish>b__57_0()
-    // Offset: 0x206DD38
+    // Offset: 0xF325CC
     void $ShowDisconnectDialogAndFinish$b__57_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x2069C58
+    // Offset: 0xF2E4F0
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x206AABC
+    // Offset: 0xF2F354
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x206B518
+    // Offset: 0xF2FDB0
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
     void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0x206B66C
+    // Offset: 0xF2FF04
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // protected override System.Void InitialViewControllerWasPresented()
-    // Offset: 0x206B920
+    // Offset: 0xF301B8
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::InitialViewControllerWasPresented()
     void InitialViewControllerWasPresented();
     // protected override System.Void TransitionDidStart()
-    // Offset: 0x206BB24
+    // Offset: 0xF303BC
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TransitionDidStart()
     void TransitionDidStart();
     // protected override System.Void TransitionDidFinish()
-    // Offset: 0x206BD74
+    // Offset: 0xF3060C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TransitionDidFinish()
     void TransitionDidFinish();
     // public System.Void .ctor()
-    // Offset: 0x206DBEC
+    // Offset: 0xF32480
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

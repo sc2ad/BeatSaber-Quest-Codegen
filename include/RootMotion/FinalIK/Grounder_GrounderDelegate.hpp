@@ -26,16 +26,16 @@ namespace RootMotion::FinalIK {
   class Grounder::GrounderDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1833964
+    // Offset: 0x16FB00C
     static Grounder::GrounderDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x1833978
+    // Offset: 0x16FB020
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1833B84
+    // Offset: 0x16FB22C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1833BB0
+    // Offset: 0x16FB258
     void EndInvoke(System::IAsyncResult* result);
   }; // RootMotion.FinalIK.Grounder/GrounderDelegate
 }

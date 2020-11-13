@@ -45,7 +45,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x48
     ::Il2CppString* VersionHandle;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1138FC8
+    // Offset: 0x11D9C88
     static CloudStorageMetadata* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.CloudStorageMetadata
 }

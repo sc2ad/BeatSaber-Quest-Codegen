@@ -63,22 +63,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x202FFE4
+    // Offset: 0x1A41D60
     void Start();
     // private System.Collections.IEnumerator StartEffectCoroutine(System.Single volumeScale, System.Action finishCallback)
-    // Offset: 0x2030018
+    // Offset: 0x1A41D94
     System::Collections::IEnumerator* StartEffectCoroutine(float volumeScale, System::Action* finishCallback);
     // public System.Void StartEffect(System.Single volumeScale, System.Action finishCallback)
-    // Offset: 0x20300EC
+    // Offset: 0x1A41E68
     void StartEffect(float volumeScale, System::Action* finishCallback);
     // public System.Void InterruptEffect()
-    // Offset: 0x2030128
+    // Offset: 0x1A41EA4
     void InterruptEffect();
     // public System.Void SetAudioSource(UnityEngine.AudioSource audioSource)
-    // Offset: 0x203018C
+    // Offset: 0x1A41F08
     void SetAudioSource(UnityEngine::AudioSource* audioSource);
     // public System.Void .ctor()
-    // Offset: 0x2030194
+    // Offset: 0x1A41F10
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

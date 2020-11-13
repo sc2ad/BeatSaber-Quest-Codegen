@@ -27,12 +27,12 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
       return *reinterpret_cast<System::Collections::Generic::IComparer_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>*>(this);
     }
     // public System.Int32 Compare(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem x, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem y)
-    // Offset: 0x10AC8BC
+    // Offset: 0x11821EC
     // Implemented from: System.Collections.Generic.IComparer`1
     // Base method: System.Int32 IComparer_1::Compare(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem x, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem y)
     int Compare(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* x, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* y);
     // public System.Void .ctor()
-    // Offset: 0x10AA51C
+    // Offset: 0x117FE4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CompositeWorkItem::UnityWorkItemOrderComparer* New_ctor();

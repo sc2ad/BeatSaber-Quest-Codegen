@@ -16,48 +16,48 @@ namespace GlobalNamespace {
   class OVRInput::OVRControllerLTouch : public GlobalNamespace::OVRInput::OVRControllerBase {
     public:
     // public System.Void .ctor()
-    // Offset: 0x10E4E00
+    // Offset: 0x11BB730
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::.ctor()
     // Base method: System.Void Object::.ctor()
     static OVRInput::OVRControllerLTouch* New_ctor();
     // public override System.Void ConfigureButtonMap()
-    // Offset: 0x10EBF84
+    // Offset: 0x11C28B4
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureButtonMap()
     void ConfigureButtonMap();
     // public override System.Void ConfigureTouchMap()
-    // Offset: 0x10EC15C
+    // Offset: 0x11C2A8C
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureTouchMap()
     void ConfigureTouchMap();
     // public override System.Void ConfigureNearTouchMap()
-    // Offset: 0x10EC220
+    // Offset: 0x11C2B50
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureNearTouchMap()
     void ConfigureNearTouchMap();
     // public override System.Void ConfigureAxis1DMap()
-    // Offset: 0x10EC278
+    // Offset: 0x11C2BA8
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureAxis1DMap()
     void ConfigureAxis1DMap();
     // public override System.Void ConfigureAxis2DMap()
-    // Offset: 0x10EC2D0
+    // Offset: 0x11C2C00
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureAxis2DMap()
     void ConfigureAxis2DMap();
     // public override System.Boolean WasRecentered()
-    // Offset: 0x10EC324
+    // Offset: 0x11C2C54
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Boolean OVRControllerBase::WasRecentered()
     bool WasRecentered();
     // public override System.Byte GetRecenterCount()
-    // Offset: 0x10EC338
+    // Offset: 0x11C2C68
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Byte OVRControllerBase::GetRecenterCount()
     uint8_t GetRecenterCount();
     // public override System.Byte GetBatteryPercentRemaining()
-    // Offset: 0x10EC340
+    // Offset: 0x11C2C70
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Byte OVRControllerBase::GetBatteryPercentRemaining()
     uint8_t GetBatteryPercentRemaining();

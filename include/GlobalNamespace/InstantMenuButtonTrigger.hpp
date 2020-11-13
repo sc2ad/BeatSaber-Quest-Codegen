@@ -42,22 +42,22 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IMenuButtonTrigger*>(this);
     }
     // public System.Void add_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0x20AF24C
+    // Offset: 0xF1B508
     // Implemented from: IMenuButtonTrigger
     // Base method: System.Void IMenuButtonTrigger::add_menuButtonTriggeredEvent(System.Action value)
     void add_menuButtonTriggeredEvent(System::Action* value);
     // public System.Void remove_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0x20AF2F0
+    // Offset: 0xF1B5AC
     // Implemented from: IMenuButtonTrigger
     // Base method: System.Void IMenuButtonTrigger::remove_menuButtonTriggeredEvent(System.Action value)
     void remove_menuButtonTriggeredEvent(System::Action* value);
     // public System.Void Tick()
-    // Offset: 0x20AF394
+    // Offset: 0xF1B650
     // Implemented from: Zenject.ITickable
     // Base method: System.Void ITickable::Tick()
     void Tick();
     // public System.Void .ctor()
-    // Offset: 0x20AF3E0
+    // Offset: 0xF1B69C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InstantMenuButtonTrigger* New_ctor();

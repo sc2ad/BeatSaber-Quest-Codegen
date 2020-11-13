@@ -87,38 +87,38 @@ namespace GlobalNamespace {
     // Offset: 0xE0
     System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`2<SearchFilterParamsViewController,LevelFilterParams> value)
-    // Offset: 0x207F2E0
+    // Offset: 0xFC9478
     void add_didFinishEvent(System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<SearchFilterParamsViewController,LevelFilterParams> value)
-    // Offset: 0x207F384
+    // Offset: 0xFC951C
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>* value);
     // public System.Void Setup(LevelFilterParams levelFilterParams)
-    // Offset: 0x207F428
+    // Offset: 0xFC95C0
     void Setup(GlobalNamespace::LevelFilterParams* levelFilterParams);
     // private System.Void OkButtonPressed()
-    // Offset: 0x207F858
+    // Offset: 0xFC99F0
     void OkButtonPressed();
     // private System.Void MinBpmControllerValueDidChange(FormattedFloatListSettingsController minBpmController, System.Single value)
-    // Offset: 0x207FA70
+    // Offset: 0xFC9C08
     void MinBpmControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController* minBpmController, float value);
     // private System.Void MaxBpmControllerValueDidChange(FormattedFloatListSettingsController maxBpmController, System.Single value)
-    // Offset: 0x207FB08
+    // Offset: 0xFC9CA0
     void MaxBpmControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController* maxBpmController, float value);
     // private System.Void Refresh(LevelFilterParams levelFilterParams)
-    // Offset: 0x207F45C
+    // Offset: 0xFC95F4
     void Refresh(GlobalNamespace::LevelFilterParams* levelFilterParams);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x207F600
+    // Offset: 0xFC9798
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x207F764
+    // Offset: 0xFC98FC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x207FBA0
+    // Offset: 0xFC9D38
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

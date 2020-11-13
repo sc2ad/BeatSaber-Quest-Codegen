@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<LevelCompletionResults,System.Boolean> <>9__40_0
     static void _set_$$9__40_0(System::Func_2<GlobalNamespace::LevelCompletionResults*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2066538
+    // Offset: 0xFB0C3C
     static void _cctor();
     // System.Boolean <HandleAllResultsCollected>b__40_0(LevelCompletionResults result)
-    // Offset: 0x20665A8
+    // Offset: 0xFB0CAC
     bool $HandleAllResultsCollected$b__40_0(GlobalNamespace::LevelCompletionResults* result);
     // public System.Void .ctor()
-    // Offset: 0x20665A0
+    // Offset: 0xFB0CA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MultiplayerController::$$c* New_ctor();

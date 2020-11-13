@@ -68,28 +68,28 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kHeightScaleAdjust
     static void _set_kHeightScaleAdjust(float value);
     // public System.Void add_playerHeightDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x208C598
+    // Offset: 0xF27F4C
     void add_playerHeightDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_playerHeightDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x208C63C
+    // Offset: 0xF27FF0
     void remove_playerHeightDidChangeEvent(System::Action_1<float>* value);
     // public System.Single get_playerHeight()
-    // Offset: 0x208C6E0
+    // Offset: 0xF28094
     float get_playerHeight();
     // protected System.Void Start()
-    // Offset: 0x208C6E8
+    // Offset: 0xF2809C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x208C808
+    // Offset: 0xF281BC
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0x208C89C
+    // Offset: 0xF28250
     void LateUpdate();
     // private System.Void BeatmapObjectSpawnCallback(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x208CA20
+    // Offset: 0xF283D4
     void BeatmapObjectSpawnCallback(GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // public System.Void .ctor()
-    // Offset: 0x208CB2C
+    // Offset: 0xF284E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -46,22 +46,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_saberType(SaberType value)
-    // Offset: 0x1FEBB18
+    // Offset: 0xFC12B4
     void set_saberType(GlobalNamespace::SaberType value);
     // protected System.Void Start()
-    // Offset: 0x1FEBBAC
+    // Offset: 0xFCC348
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1FEBC88
+    // Offset: 0xFCC424
     void OnDestroy();
     // private System.Void HandleColorManagerColorsDidChange()
-    // Offset: 0x1FEBD5C
+    // Offset: 0xFCC4F8
     void HandleColorManagerColorsDidChange();
     // private System.Void SetColors()
-    // Offset: 0x1FEBB4C
+    // Offset: 0xFCC2E8
     void SetColors();
     // public System.Void .ctor()
-    // Offset: 0x1FEBD60
+    // Offset: 0xFCC4FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

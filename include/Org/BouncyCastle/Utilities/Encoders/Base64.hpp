@@ -12,7 +12,7 @@ namespace Org::BouncyCastle::Utilities::Encoders {
   class Base64 : public ::Il2CppObject {
     public:
     // static public System.Byte[] Decode(System.String data)
-    // Offset: 0x1B35800
+    // Offset: 0x18BDB50
     static ::Array<uint8_t>* Decode(::Il2CppString* data);
   }; // Org.BouncyCastle.Utilities.Encoders.Base64
 }

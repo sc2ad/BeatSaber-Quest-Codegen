@@ -29,16 +29,16 @@ namespace System::Text::RegularExpressions {
   class MatchEvaluator : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x148414C
+    // Offset: 0x146E604
     static MatchEvaluator* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.String Invoke(System.Text.RegularExpressions.Match match)
-    // Offset: 0x1484160
+    // Offset: 0x146E618
     ::Il2CppString* Invoke(System::Text::RegularExpressions::Match* match);
     // public System.IAsyncResult BeginInvoke(System.Text.RegularExpressions.Match match, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1484520
+    // Offset: 0x146E9D8
     System::IAsyncResult* BeginInvoke(System::Text::RegularExpressions::Match* match, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.String EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1484544
+    // Offset: 0x146E9FC
     ::Il2CppString* EndInvoke(System::IAsyncResult* result);
   }; // System.Text.RegularExpressions.MatchEvaluator
 }

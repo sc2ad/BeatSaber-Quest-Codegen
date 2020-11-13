@@ -16,6 +16,8 @@
 #include "GlobalNamespace/BeatmapObjectCallbackController_BeatmapEventCallback.hpp"
 // Including type: IAudioTimeSource
 #include "GlobalNamespace/IAudioTimeSource.hpp"
+// Including type: EnvironmentKeywords
+#include "GlobalNamespace/EnvironmentKeywords.hpp"
 // Including type: System.Collections.Generic.List`1
 #include "System/Collections/Generic/List_1.hpp"
 // Including type: BeatmapObjectData
@@ -28,6 +30,8 @@
 #include "System/Action.hpp"
 // Including type: IReadonlyBeatmapData
 #include "GlobalNamespace/IReadonlyBeatmapData.hpp"
+// Including type: System.Collections.Generic.HashSet`1
+#include "System/Collections/Generic/HashSet_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

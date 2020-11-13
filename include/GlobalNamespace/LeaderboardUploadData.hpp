@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Offset: 0x60
     System::Collections::Generic::List_1<::Il2CppString*>* modifiers;
     // public System.Void .ctor(System.String playerName, System.String playerId, System.String score, System.String leaderboardId, System.String songName, System.String songSubName, System.String authorName, System.String bpm, System.String difficulty, System.String infoHash, System.Collections.Generic.List`1<System.String> modifiers)
-    // Offset: 0x20B25D0
+    // Offset: 0xF1E88C
     static LeaderboardUploadData* New_ctor(::Il2CppString* playerName, ::Il2CppString* playerId, ::Il2CppString* score, ::Il2CppString* leaderboardId, ::Il2CppString* songName, ::Il2CppString* songSubName, ::Il2CppString* authorName, ::Il2CppString* bpm, ::Il2CppString* difficulty, ::Il2CppString* infoHash, System::Collections::Generic::List_1<::Il2CppString*>* modifiers);
   }; // LeaderboardUploadData
 }

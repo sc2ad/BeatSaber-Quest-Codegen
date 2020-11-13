@@ -21,10 +21,10 @@ namespace System::Runtime::Serialization {
       return versionAdded;
     }
     // public System.Void set_VersionAdded(System.Int32 value)
-    // Offset: 0x14570DC
+    // Offset: 0x14414E8
     void set_VersionAdded(int value);
     // public System.Void .ctor()
-    // Offset: 0x14570CC
+    // Offset: 0x14414D8
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

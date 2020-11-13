@@ -38,10 +38,10 @@ namespace GlobalNamespace {
     // Set static field: static public readonly OVRPlugin/TextureRectMatrixf zero
     static void _set_zero(GlobalNamespace::OVRPlugin::TextureRectMatrixf value);
     // static private System.Void .cctor()
-    // Offset: 0x126BA90
+    // Offset: 0x12E0B8C
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xC6B43C
+    // Offset: 0xC9BE00
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

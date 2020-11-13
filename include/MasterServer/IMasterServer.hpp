@@ -44,6 +44,11 @@ namespace MasterServer {
   // Forward declaring type: GetPublicServersResponse
   class GetPublicServersResponse;
 }
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: Exception
+  class Exception;
+}
 // Completed forward declares
 // Type namespace: MasterServer
 namespace MasterServer {
@@ -92,9 +97,9 @@ namespace MasterServer {
     // public System.Boolean ShouldHandleMessageFromEndPoint(System.Net.IPEndPoint remoteEndPoint)
     // Offset: 0xFFFFFFFF
     bool ShouldHandleMessageFromEndPoint(System::Net::IPEndPoint* remoteEndPoint);
-    // public System.Void ReportExceptionForEndPoint(System.Net.IPEndPoint remoteEndPoint)
+    // public System.Void ReportExceptionForEndPoint(System.Net.IPEndPoint remoteEndPoint, System.Exception exception)
     // Offset: 0xFFFFFFFF
-    void ReportExceptionForEndPoint(System::Net::IPEndPoint* remoteEndPoint);
+    void ReportExceptionForEndPoint(System::Net::IPEndPoint* remoteEndPoint, System::Exception* exception);
   }; // MasterServer.IMasterServer
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

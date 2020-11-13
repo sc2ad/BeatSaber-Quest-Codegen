@@ -24,18 +24,18 @@ namespace GlobalNamespace {
     // Offset: 0x48
     GlobalNamespace::ScoreController* scoreController;
     // protected System.Void OnDestroy()
-    // Offset: 0x207E188
+    // Offset: 0xFC826C
     void OnDestroy();
     // private System.Void HandleScoreDidChange(System.Int32 rawScore, System.Int32 modifiedScore)
-    // Offset: 0x207E260
+    // Offset: 0xFC8344
     void HandleScoreDidChange(int rawScore, int modifiedScore);
     // protected override System.Void Init()
-    // Offset: 0x207E28C
+    // Offset: 0xFC841C
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x207E384
+    // Offset: 0xFC8514
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()

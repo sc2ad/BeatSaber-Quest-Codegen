@@ -29,15 +29,15 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Set static field: static public readonly System.Collections.IEnumerable Instance
     static void _set_Instance(System::Collections::IEnumerable* value);
     // static private System.Void .cctor()
-    // Offset: 0xFE5B6C
+    // Offset: 0x10E1514
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0xFE5AFC
+    // Offset: 0x10E14A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EmptyEnumerable* New_ctor();
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0xFE5B04
+    // Offset: 0x10E14AC
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();

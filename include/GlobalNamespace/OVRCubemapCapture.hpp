@@ -46,19 +46,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Update()
-    // Offset: 0xF71A30
+    // Offset: 0x106D500
     void Update();
     // static public System.Void TriggerCubemapCapture(UnityEngine.Vector3 capturePos, System.Int32 cubemapSize, System.String pathName)
-    // Offset: 0xF71AE8
+    // Offset: 0x106D5B8
     static void TriggerCubemapCapture(UnityEngine::Vector3 capturePos, int cubemapSize, ::Il2CppString* pathName);
     // static public System.Void RenderIntoCubemap(UnityEngine.Camera ownerCamera, UnityEngine.Cubemap outCubemap)
-    // Offset: 0xF71D60
+    // Offset: 0x106D830
     static void RenderIntoCubemap(UnityEngine::Camera* ownerCamera, UnityEngine::Cubemap* outCubemap);
     // static public System.Boolean SaveCubemapCapture(UnityEngine.Cubemap cubemap, System.String pathName)
-    // Offset: 0xF723BC
+    // Offset: 0x106DE8C
     static bool SaveCubemapCapture(UnityEngine::Cubemap* cubemap, ::Il2CppString* pathName);
     // public System.Void .ctor()
-    // Offset: 0xF72AB4
+    // Offset: 0x106E584
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

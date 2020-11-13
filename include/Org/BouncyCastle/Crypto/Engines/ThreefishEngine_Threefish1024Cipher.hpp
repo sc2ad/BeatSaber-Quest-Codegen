@@ -16,17 +16,17 @@ namespace Org::BouncyCastle::Crypto::Engines {
   class ThreefishEngine::Threefish1024Cipher : public Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher {
     public:
     // public System.Void .ctor(System.UInt64[] kw, System.UInt64[] t)
-    // Offset: 0x19E16D8
+    // Offset: 0x18128B8
     // Implemented from: Org.BouncyCastle.Crypto.Engines.ThreefishEngine/ThreefishCipher
     // Base method: System.Void ThreefishCipher::.ctor(System.UInt64[] kw, System.UInt64[] t)
     static ThreefishEngine::Threefish1024Cipher* New_ctor(::Array<uint64_t>* kw, ::Array<uint64_t>* t);
     // override System.Void EncryptBlock(System.UInt64[] block, System.UInt64[] outWords)
-    // Offset: 0x19E24AC
+    // Offset: 0x181368C
     // Implemented from: Org.BouncyCastle.Crypto.Engines.ThreefishEngine/ThreefishCipher
     // Base method: System.Void ThreefishCipher::EncryptBlock(System.UInt64[] block, System.UInt64[] outWords)
     void EncryptBlock(::Array<uint64_t>* block, ::Array<uint64_t>* outWords);
     // override System.Void DecryptBlock(System.UInt64[] block, System.UInt64[] state)
-    // Offset: 0x19E2E28
+    // Offset: 0x1814008
     // Implemented from: Org.BouncyCastle.Crypto.Engines.ThreefishEngine/ThreefishCipher
     // Base method: System.Void ThreefishCipher::DecryptBlock(System.UInt64[] block, System.UInt64[] state)
     void DecryptBlock(::Array<uint64_t>* block, ::Array<uint64_t>* state);

@@ -57,52 +57,52 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_objectiveDidFailEvent(System.Action value)
-    // Offset: 0x1FC8C68
+    // Offset: 0x101A024
     void add_objectiveDidFailEvent(System::Action* value);
     // public System.Void remove_objectiveDidFailEvent(System.Action value)
-    // Offset: 0x1FC87C8
+    // Offset: 0x1019B84
     void remove_objectiveDidFailEvent(System::Action* value);
     // public System.Void add_objectiveWasClearedEvent(System.Action value)
-    // Offset: 0x1FC5AFC
+    // Offset: 0x101E864
     void add_objectiveWasClearedEvent(System::Action* value);
     // public System.Void remove_objectiveWasClearedEvent(System.Action value)
-    // Offset: 0x1FC5C28
+    // Offset: 0x101E908
     void remove_objectiveWasClearedEvent(System::Action* value);
     // public System.Void add_objectivesListDidChangeEvent(System.Action value)
-    // Offset: 0x1FCC904
+    // Offset: 0x101E9AC
     void add_objectivesListDidChangeEvent(System::Action* value);
     // public System.Void remove_objectivesListDidChangeEvent(System.Action value)
-    // Offset: 0x1FCC9A8
+    // Offset: 0x101EA50
     void remove_objectivesListDidChangeEvent(System::Action* value);
     // public MissionObjectiveChecker[] get_activeMissionObjectiveCheckers()
-    // Offset: 0x1FCCA4C
+    // Offset: 0x101EAF4
     ::Array<GlobalNamespace::MissionObjectiveChecker*>* get_activeMissionObjectiveCheckers();
     // protected System.Void Start()
-    // Offset: 0x1FCCA54
+    // Offset: 0x101EAFC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1FCCF64
+    // Offset: 0x101F00C
     void OnDestroy();
     // private System.Void HandleMissionObjectiveCheckerStatusDidChange(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x1FCD100
+    // Offset: 0x101F1A8
     void HandleMissionObjectiveCheckerStatusDidChange(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // public MissionObjectiveChecker GetMissionObjectiveChecker(MissionObjectiveTypeSO missionObjectiveType)
-    // Offset: 0x1FCD140
+    // Offset: 0x101F1E8
     GlobalNamespace::MissionObjectiveChecker* GetMissionObjectiveChecker(GlobalNamespace::MissionObjectiveTypeSO* missionObjectiveType);
     // public MissionObjectiveResult[] GetResults()
-    // Offset: 0x1FC7CB0
+    // Offset: 0x101906C
     ::Array<GlobalNamespace::MissionObjectiveResult*>* GetResults();
     // private System.Void HandleLevelFailed()
-    // Offset: 0x1FCD274
+    // Offset: 0x101F31C
     void HandleLevelFailed();
     // private System.Void HandleLevelFinished()
-    // Offset: 0x1FCD360
+    // Offset: 0x101F408
     void HandleLevelFinished();
     // private System.Void StopChecking()
-    // Offset: 0x1FCD278
+    // Offset: 0x101F320
     void StopChecking();
     // public System.Void .ctor()
-    // Offset: 0x1FCD364
+    // Offset: 0x101F40C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

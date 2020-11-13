@@ -21,7 +21,7 @@ namespace UnityEngine::Serialization {
       return m_oldName;
     }
     // public System.Void .ctor(System.String oldName)
-    // Offset: 0x17357F0
+    // Offset: 0x16C05C8
     static FormerlySerializedAsAttribute* New_ctor(::Il2CppString* oldName);
   }; // UnityEngine.Serialization.FormerlySerializedAsAttribute
 }

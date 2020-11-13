@@ -45,12 +45,12 @@ namespace GlobalNamespace {
       return mockSettings;
     }
     // public System.Threading.Tasks.Task`1<MasterServerAvailabilityData> GetAvailabilityAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x2054D68
+    // Offset: 0x1022658
     // Implemented from: IMasterServerAvailabilityModel
     // Base method: System.Threading.Tasks.Task`1<MasterServerAvailabilityData> IMasterServerAvailabilityModel::GetAvailabilityAsync(System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerAvailabilityData*>* GetAvailabilityAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x2054DE8
+    // Offset: 0x10226D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MockMasterServerAvailabilityModel* New_ctor();

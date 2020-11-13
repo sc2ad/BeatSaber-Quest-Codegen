@@ -22,12 +22,12 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<System::Threading::Tasks::ITaskCompletionAction*>(this);
     }
     // System.Void .ctor()
-    // Offset: 0x149C040
+    // Offset: 0x1D148C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Task::SetOnInvokeMres* New_ctor();
     // public System.Void Invoke(System.Threading.Tasks.Task completingTask)
-    // Offset: 0x149EC5C
+    // Offset: 0x1D174E0
     // Implemented from: System.Threading.Tasks.ITaskCompletionAction
     // Base method: System.Void ITaskCompletionAction::Invoke(System.Threading.Tasks.Task completingTask)
     void Invoke(System::Threading::Tasks::Task* completingTask);

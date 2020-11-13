@@ -21,37 +21,37 @@ namespace UnityEngine {
   class Random : public ::Il2CppObject {
     public:
     // static public System.Void InitState(System.Int32 seed)
-    // Offset: 0x1945C8C
+    // Offset: 0x1737CC0
     static void InitState(int seed);
     // static public System.Single Range(System.Single min, System.Single max)
-    // Offset: 0x1945CCC
+    // Offset: 0x1737D00
     static float Range(float min, float max);
     // static public System.Int32 Range(System.Int32 min, System.Int32 max)
-    // Offset: 0x1945D18
+    // Offset: 0x1737D4C
     static int Range(int min, int max);
     // static private System.Int32 RandomRangeInt(System.Int32 min, System.Int32 max)
-    // Offset: 0x1945D68
+    // Offset: 0x1737D9C
     static int RandomRangeInt(int min, int max);
     // static public System.Single get_value()
-    // Offset: 0x1945DB8
+    // Offset: 0x1737DEC
     static float get_value();
     // static public UnityEngine.Vector3 get_insideUnitSphere()
-    // Offset: 0x1945DEC
+    // Offset: 0x1737E20
     static UnityEngine::Vector3 get_insideUnitSphere();
     // static public UnityEngine.Vector3 get_onUnitSphere()
-    // Offset: 0x1945E84
+    // Offset: 0x1737EB8
     static UnityEngine::Vector3 get_onUnitSphere();
     // static public UnityEngine.Color ColorHSV()
-    // Offset: 0x1945F1C
+    // Offset: 0x1737F50
     static UnityEngine::Color ColorHSV();
     // static public UnityEngine.Color ColorHSV(System.Single hueMin, System.Single hueMax, System.Single saturationMin, System.Single saturationMax, System.Single valueMin, System.Single valueMax, System.Single alphaMin, System.Single alphaMax)
-    // Offset: 0x1945F40
+    // Offset: 0x1737F74
     static UnityEngine::Color ColorHSV(float hueMin, float hueMax, float saturationMin, float saturationMax, float valueMin, float valueMax, float alphaMin, float alphaMax);
     // static private System.Void get_insideUnitSphere_Injected(out UnityEngine.Vector3 ret)
-    // Offset: 0x1945E44
+    // Offset: 0x1737E78
     static void get_insideUnitSphere_Injected(UnityEngine::Vector3& ret);
     // static private System.Void get_onUnitSphere_Injected(out UnityEngine.Vector3 ret)
-    // Offset: 0x1945EDC
+    // Offset: 0x1737F10
     static void get_onUnitSphere_Injected(UnityEngine::Vector3& ret);
   }; // UnityEngine.Random
 }

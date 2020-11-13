@@ -32,10 +32,10 @@ namespace System::Net {
     // Offset: 0x18
     System::Net::SimpleAsyncResult* result;
     // System.Void <SetHeadersAsync>b__0(System.IAsyncResult r)
-    // Offset: 0x1198114
+    // Offset: 0x12234A4
     void $SetHeadersAsync$b__0(System::IAsyncResult* r);
     // public System.Void .ctor()
-    // Offset: 0x11978F8
+    // Offset: 0x1222C88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static WebConnectionStream::$$c__DisplayClass76_0* New_ctor();

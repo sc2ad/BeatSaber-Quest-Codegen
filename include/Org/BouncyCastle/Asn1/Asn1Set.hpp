@@ -44,35 +44,35 @@ namespace Org::BouncyCastle::Asn1 {
       return elements;
     }
     // static public Org.BouncyCastle.Asn1.Asn1Set GetInstance(System.Object obj)
-    // Offset: 0x1317854
+    // Offset: 0x1376040
     static Org::BouncyCastle::Asn1::Asn1Set* GetInstance(::Il2CppObject* obj);
     // static public Org.BouncyCastle.Asn1.Asn1Set GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x1317BE0
+    // Offset: 0x13763CC
     static Org::BouncyCastle::Asn1::Asn1Set* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // protected internal System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Encodable element)
-    // Offset: 0x131813C
+    // Offset: 0x1376928
     static Asn1Set* New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable* element);
     // protected internal System.Void .ctor(Org.BouncyCastle.Asn1.Asn1EncodableVector elementVector)
-    // Offset: 0x1318244
+    // Offset: 0x1376A30
     static Asn1Set* New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
     // public Org.BouncyCastle.Asn1.Asn1Encodable get_Item(System.Int32 index)
-    // Offset: 0x131830C
+    // Offset: 0x1376AF8
     Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(int index);
     // public System.Int32 get_Count()
-    // Offset: 0x1318348
+    // Offset: 0x1376B34
     int get_Count();
     // protected internal System.Void Sort()
-    // Offset: 0x1318584
+    // Offset: 0x1376D70
     void Sort();
     // protected internal System.Void .ctor()
-    // Offset: 0x13180BC
+    // Offset: 0x13768A8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::.ctor()
     // Base method: System.Void Asn1Encodable::.ctor()
     // Base method: System.Void Object::.ctor()
     static Asn1Set* New_ctor();
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x13182F0
+    // Offset: 0x1376ADC
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();
@@ -80,17 +80,17 @@ namespace Org::BouncyCastle::Asn1 {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x1318364
+    // Offset: 0x1376B50
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x1318408
+    // Offset: 0x1376BF4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // public override System.String ToString()
-    // Offset: 0x13186F4
+    // Offset: 0x1376EE0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

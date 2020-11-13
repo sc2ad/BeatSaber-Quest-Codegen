@@ -60,56 +60,56 @@ namespace GlobalNamespace {
     // Offset: 0x98
     System::Action_1<::Il2CppString*>* kickPlayerEvent;
     // public System.Void add_selectSuggestedBeatmapEvent(System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> value)
-    // Offset: 0x1FEAB44
+    // Offset: 0xFCB198
     void add_selectSuggestedBeatmapEvent(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* value);
     // public System.Void remove_selectSuggestedBeatmapEvent(System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> value)
-    // Offset: 0x1FEABE8
+    // Offset: 0xFCB23C
     void remove_selectSuggestedBeatmapEvent(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* value);
     // public System.Void add_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0x1FEAC8C
+    // Offset: 0xFCB2E0
     void add_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void remove_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0x1FEAD30
+    // Offset: 0xFCB384
     void remove_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void add_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0x1FEADD4
+    // Offset: 0xFCB428
     void add_kickPlayerEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0x1FEAE78
+    // Offset: 0xFCB4CC
     void remove_kickPlayerEvent(System::Action_1<::Il2CppString*>* value);
     // private System.Void HandleLobbyPlayersDataDidChange(System.String userId)
-    // Offset: 0x1FEB6A8
+    // Offset: 0xFCBCFC
     void HandleLobbyPlayersDataDidChange(::Il2CppString* userId);
     // private System.Void HandleLobbyStateDataPlayerConnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0x1FEB6AC
+    // Offset: 0xFCBD00
     void HandleLobbyStateDataPlayerConnected(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void HandleLobbyStateDataPlayerDisconnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0x1FEB6B0
+    // Offset: 0xFCBD04
     void HandleLobbyStateDataPlayerDisconnected(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void SetDataToTable()
-    // Offset: 0x1FEB234
+    // Offset: 0xFCB888
     void SetDataToTable();
     // private System.Void HandleSelectSuggestedLevel(System.String levelId, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0x1FEB6B4
+    // Offset: 0xFCBD08
     void HandleSelectSuggestedLevel(::Il2CppString* levelId, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
     // private System.Void HandleSelectSuggestedGameplayModifiers(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1FEB744
+    // Offset: 0xFCBD98
     void HandleSelectSuggestedGameplayModifiers(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // private System.Void HandleKickPlayer(System.String userId)
-    // Offset: 0x1FEB7B8
+    // Offset: 0xFCBE0C
     void HandleKickPlayer(::Il2CppString* userId);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1FEAF1C
+    // Offset: 0xFCB570
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1FEB390
+    // Offset: 0xFCB9E4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x1FEB82C
+    // Offset: 0xFCBE80
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

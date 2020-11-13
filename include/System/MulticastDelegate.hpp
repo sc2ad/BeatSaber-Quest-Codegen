@@ -35,10 +35,10 @@ namespace System {
       return delegates;
     }
     // private System.Int32 LastIndexOf(System.Delegate[] haystack, System.Delegate[] needle)
-    // Offset: 0x184ADB8
+    // Offset: 0x1712460
     int LastIndexOf(::Array<System::Delegate*>* haystack, ::Array<System::Delegate*>* needle);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x184A808
+    // Offset: 0x1711EB0
     // Implemented from: System.Delegate
     // Base method: System.Void Delegate::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -46,32 +46,32 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x184A810
+    // Offset: 0x1711EB8
     // Implemented from: System.Delegate
     // Base method: System.Boolean Delegate::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x184A988
+    // Offset: 0x1712030
     // Implemented from: System.Delegate
     // Base method: System.Int32 Delegate::GetHashCode()
     int GetHashCode();
     // protected override System.Reflection.MethodInfo GetMethodImpl()
-    // Offset: 0x184A990
+    // Offset: 0x1712038
     // Implemented from: System.Delegate
     // Base method: System.Reflection.MethodInfo Delegate::GetMethodImpl()
     System::Reflection::MethodInfo* GetMethodImpl();
     // public override System.Delegate[] GetInvocationList()
-    // Offset: 0x184A9E4
+    // Offset: 0x171208C
     // Implemented from: System.Delegate
     // Base method: System.Delegate[] Delegate::GetInvocationList()
     ::Array<System::Delegate*>* GetInvocationList();
     // protected override System.Delegate CombineImpl(System.Delegate follow)
-    // Offset: 0x184AADC
+    // Offset: 0x1712184
     // Implemented from: System.Delegate
     // Base method: System.Delegate Delegate::CombineImpl(System.Delegate follow)
     System::Delegate* CombineImpl(System::Delegate* follow);
     // protected override System.Delegate RemoveImpl(System.Delegate value)
-    // Offset: 0x184AEF8
+    // Offset: 0x17125A0
     // Implemented from: System.Delegate
     // Base method: System.Delegate Delegate::RemoveImpl(System.Delegate value)
     System::Delegate* RemoveImpl(System::Delegate* value);

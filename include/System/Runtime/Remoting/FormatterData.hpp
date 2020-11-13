@@ -14,7 +14,7 @@ namespace System::Runtime::Remoting {
   class FormatterData : public System::Runtime::Remoting::ProviderData {
     public:
     // public System.Void .ctor()
-    // Offset: 0x109B4C8
+    // Offset: 0x1171DF8
     // Implemented from: System.Runtime.Remoting.ProviderData
     // Base method: System.Void ProviderData::.ctor()
     // Base method: System.Void Object::.ctor()

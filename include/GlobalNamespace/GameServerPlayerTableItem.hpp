@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool isReady;
     // public System.Void .ctor(System.String playerName, System.String suggestedLevel, System.String suggestedModifiers, System.Boolean isReady)
-    // Offset: 0x2003BF4
+    // Offset: 0x1A1DDE0
     static GameServerPlayerTableItem* New_ctor(::Il2CppString* playerName, ::Il2CppString* suggestedLevel, ::Il2CppString* suggestedModifiers, bool isReady);
   }; // GameServerPlayerTableItem
 }

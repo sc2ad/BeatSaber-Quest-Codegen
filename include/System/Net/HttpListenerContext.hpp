@@ -53,37 +53,37 @@ namespace System::Net {
     // Offset: 0x40
     System::Net::HttpListener* Listener;
     // System.Void .ctor(System.Net.HttpConnection cnc)
-    // Offset: 0x1234D20
+    // Offset: 0x12A9DD8
     static HttpListenerContext* New_ctor(System::Net::HttpConnection* cnc);
     // System.Int32 get_ErrorStatus()
-    // Offset: 0x123B11C
+    // Offset: 0x12B0218
     int get_ErrorStatus();
     // System.Void set_ErrorStatus(System.Int32 value)
-    // Offset: 0x123B124
+    // Offset: 0x12B0220
     void set_ErrorStatus(int value);
     // System.String get_ErrorMessage()
-    // Offset: 0x123B12C
+    // Offset: 0x12B0228
     ::Il2CppString* get_ErrorMessage();
     // System.Void set_ErrorMessage(System.String value)
-    // Offset: 0x123B134
+    // Offset: 0x12B0230
     void set_ErrorMessage(::Il2CppString* value);
     // System.Boolean get_HaveError()
-    // Offset: 0x123608C
+    // Offset: 0x12AB144
     bool get_HaveError();
     // System.Net.HttpConnection get_Connection()
-    // Offset: 0x123B13C
+    // Offset: 0x12B0238
     System::Net::HttpConnection* get_Connection();
     // public System.Net.HttpListenerRequest get_Request()
-    // Offset: 0x123B144
+    // Offset: 0x12B0240
     System::Net::HttpListenerRequest* get_Request();
     // public System.Net.HttpListenerResponse get_Response()
-    // Offset: 0x123B14C
+    // Offset: 0x12B0248
     System::Net::HttpListenerResponse* get_Response();
     // System.Void ParseAuthentication(System.Net.AuthenticationSchemes expectedSchemes)
-    // Offset: 0x123A99C
+    // Offset: 0x12AFA98
     void ParseAuthentication(System::Net::AuthenticationSchemes expectedSchemes);
     // System.Security.Principal.IPrincipal ParseBasicAuthentication(System.String authData)
-    // Offset: 0x123B154
+    // Offset: 0x12B0250
     System::Security::Principal::IPrincipal* ParseBasicAuthentication(::Il2CppString* authData);
   }; // System.Net.HttpListenerContext
 }

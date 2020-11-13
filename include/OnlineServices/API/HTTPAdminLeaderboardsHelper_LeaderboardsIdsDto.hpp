@@ -21,7 +21,7 @@ namespace OnlineServices::API {
       return leaderboardsIds;
     }
     // public System.Void .ctor()
-    // Offset: 0x1F8571C
+    // Offset: 0xEFA3B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto* New_ctor();

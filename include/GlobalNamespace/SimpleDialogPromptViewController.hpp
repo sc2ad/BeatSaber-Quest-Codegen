@@ -52,26 +52,26 @@ namespace GlobalNamespace {
     // Offset: 0x90
     System::Action_1<int>* didFinishAction;
     // public System.Void Init(System.String title, System.String message, System.String buttonText, System.Action`1<System.Int32> didFinishAction)
-    // Offset: 0x1FEE268
+    // Offset: 0xFCEBE4
     void Init(::Il2CppString* title, ::Il2CppString* message, ::Il2CppString* buttonText, System::Action_1<int>* didFinishAction);
     // public System.Void Init(System.String title, System.String message, System.String firstButtonText, System.String secondButtonText, System.Action`1<System.Int32> didFinishAction)
-    // Offset: 0x1FEE45C
+    // Offset: 0xFCEDD8
     void Init(::Il2CppString* title, ::Il2CppString* message, ::Il2CppString* firstButtonText, ::Il2CppString* secondButtonText, System::Action_1<int>* didFinishAction);
     // public System.Void Init(System.String title, System.String message, System.String firstButtonText, System.String secondButtonText, System.String thirdButtonText, System.Action`1<System.Int32> didFinishAction)
-    // Offset: 0x1FEE278
+    // Offset: 0xFCEBF4
     void Init(::Il2CppString* title, ::Il2CppString* message, ::Il2CppString* firstButtonText, ::Il2CppString* secondButtonText, ::Il2CppString* thirdButtonText, System::Action_1<int>* didFinishAction);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1FEE118
+    // Offset: 0xFCEA94
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1FEE254
+    // Offset: 0xFCEBD0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x1FEE468
+    // Offset: 0xFCEDE4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

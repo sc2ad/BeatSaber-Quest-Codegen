@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVRApplications::_LaunchTemplateApplication : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x130F23C
+    // Offset: 0x136EA28
     static IVRApplications::_LaunchTemplateApplication* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRApplicationError Invoke(System.String pchTemplateAppKey, System.String pchNewAppKey, in Valve.VR.AppOverrideKeys_t[] pKeys, System.UInt32 unKeys)
-    // Offset: 0x1301E20
+    // Offset: 0x136160C
     Valve::VR::EVRApplicationError Invoke(::Il2CppString* pchTemplateAppKey, ::Il2CppString* pchNewAppKey, ::Array<Valve::VR::AppOverrideKeys_t>*& pKeys, uint unKeys);
     // public System.IAsyncResult BeginInvoke(System.String pchTemplateAppKey, System.String pchNewAppKey, in Valve.VR.AppOverrideKeys_t[] pKeys, System.UInt32 unKeys, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x130F250
+    // Offset: 0x136EA3C
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchTemplateAppKey, ::Il2CppString* pchNewAppKey, ::Array<Valve::VR::AppOverrideKeys_t>*& pKeys, uint unKeys, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRApplicationError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x130F300
+    // Offset: 0x136EAEC
     Valve::VR::EVRApplicationError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRApplications/_LaunchTemplateApplication
 }

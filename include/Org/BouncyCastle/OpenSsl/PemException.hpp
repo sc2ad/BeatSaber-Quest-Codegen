@@ -14,7 +14,7 @@ namespace Org::BouncyCastle::OpenSsl {
   class PemException : public System::IO::IOException {
     public:
     // public System.Void .ctor(System.String message)
-    // Offset: 0xFB521C
+    // Offset: 0x109A694
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)

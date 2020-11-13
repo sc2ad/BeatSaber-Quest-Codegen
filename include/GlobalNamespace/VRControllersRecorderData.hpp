@@ -40,22 +40,22 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorderData::Keyframe*>* keyframes;
     // public System.Void .ctor(VRControllersRecorderData/NodeInfo[] nodesInfo)
-    // Offset: 0x21EA874
+    // Offset: 0x1973CDC
     static VRControllersRecorderData* New_ctor(::Array<GlobalNamespace::VRControllersRecorderData::NodeInfo*>* nodesInfo);
     // public System.Void AddKeyFrame(VRControllersRecorderData/PositionAndRotation[] positionsAndRotations, System.Single time)
-    // Offset: 0x21EA90C
+    // Offset: 0x1973D74
     void AddKeyFrame(::Array<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>* positionsAndRotations, float time);
     // public VRControllersRecorderData/PositionAndRotation GetPositionAndRotation(System.Int32 frameIdx, UnityEngine.XR.XRNode nodeType, System.Int32 nodeIdx)
-    // Offset: 0x21EA9FC
+    // Offset: 0x1973E64
     GlobalNamespace::VRControllersRecorderData::PositionAndRotation GetPositionAndRotation(int frameIdx, UnityEngine::XR::XRNode nodeType, int nodeIdx);
     // public VRControllersRecorderData/PositionAndRotation GetLerpedPositionAndRotation(System.Int32 frameIdx, System.Single t, UnityEngine.XR.XRNode nodeType, System.Int32 nodeIdx)
-    // Offset: 0x21EAB28
+    // Offset: 0x1973F90
     GlobalNamespace::VRControllersRecorderData::PositionAndRotation GetLerpedPositionAndRotation(int frameIdx, float t, UnityEngine::XR::XRNode nodeType, int nodeIdx);
     // public System.Single GetFrameTime(System.Int32 frameIdx)
-    // Offset: 0x21EAD24
+    // Offset: 0x197418C
     float GetFrameTime(int frameIdx);
     // public System.Int32 get_numberOfKeyframes()
-    // Offset: 0x21EADA4
+    // Offset: 0x197420C
     int get_numberOfKeyframes();
   }; // VRControllersRecorderData
 }

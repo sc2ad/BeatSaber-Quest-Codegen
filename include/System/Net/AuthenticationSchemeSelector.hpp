@@ -31,16 +31,16 @@ namespace System::Net {
   class AuthenticationSchemeSelector : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x12AAF14
+    // Offset: 0x130A700
     static AuthenticationSchemeSelector* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Net.AuthenticationSchemes Invoke(System.Net.HttpListenerRequest httpRequest)
-    // Offset: 0x12AAF28
+    // Offset: 0x130A714
     System::Net::AuthenticationSchemes Invoke(System::Net::HttpListenerRequest* httpRequest);
     // public System.IAsyncResult BeginInvoke(System.Net.HttpListenerRequest httpRequest, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x12AB2E8
+    // Offset: 0x130AAD4
     System::IAsyncResult* BeginInvoke(System::Net::HttpListenerRequest* httpRequest, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Net.AuthenticationSchemes EndInvoke(System.IAsyncResult result)
-    // Offset: 0x12AB30C
+    // Offset: 0x130AAF8
     System::Net::AuthenticationSchemes EndInvoke(System::IAsyncResult* result);
   }; // System.Net.AuthenticationSchemeSelector
 }

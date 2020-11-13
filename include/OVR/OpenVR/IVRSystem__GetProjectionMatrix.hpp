@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_GetProjectionMatrix : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C95DCC
+    // Offset: 0x1913FA4
     static IVRSystem::_GetProjectionMatrix* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.HmdMatrix44_t Invoke(OVR.OpenVR.EVREye eEye, System.Single fNearZ, System.Single fFarZ)
-    // Offset: 0x1C95DE0
+    // Offset: 0x1913FB8
     OVR::OpenVR::HmdMatrix44_t Invoke(OVR::OpenVR::EVREye eEye, float fNearZ, float fFarZ);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EVREye eEye, System.Single fNearZ, System.Single fFarZ, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C960C8
+    // Offset: 0x19142A0
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVREye eEye, float fNearZ, float fFarZ, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.HmdMatrix44_t EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C96188
+    // Offset: 0x1914360
     OVR::OpenVR::HmdMatrix44_t EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetProjectionMatrix
 }

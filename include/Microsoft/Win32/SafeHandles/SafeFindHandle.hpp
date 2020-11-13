@@ -20,10 +20,10 @@ namespace Microsoft::Win32::SafeHandles {
   class SafeFindHandle : public Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
     public:
     // System.Void .ctor(System.IntPtr preexistingHandle)
-    // Offset: 0x1578138
+    // Offset: 0x15169A8
     static SafeFindHandle* New_ctor(System::IntPtr preexistingHandle);
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0x1578164
+    // Offset: 0x15169D4
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();

@@ -57,12 +57,12 @@ namespace GlobalNamespace {
     // Offset: 0x50
     GlobalNamespace::PyramidBloomRendererSO* bloomRenderer;
     // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x1EF139C
+    // Offset: 0x1987FB4
     // Implemented from: TextureEffectSO
     // Base method: System.Void TextureEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public System.Void .ctor()
-    // Offset: 0x1EF13F0
+    // Offset: 0x1988008
     // Implemented from: BloomPrePassEffectSO
     // Base method: System.Void BloomPrePassEffectSO::.ctor()
     // Base method: System.Void TextureEffectSO::.ctor()

@@ -20,13 +20,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap*>* difficultyBeatmaps;
     // public System.String get_beatmapCharacteristicName()
-    // Offset: 0x1F92450
+    // Offset: 0xF44530
     ::Il2CppString* get_beatmapCharacteristicName();
     // public StandardLevelInfoSaveData/DifficultyBeatmap[] get_difficultyBeatmaps()
-    // Offset: 0x1F92458
+    // Offset: 0xF44538
     ::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap*>* get_difficultyBeatmaps();
     // public System.Void .ctor(System.String beatmapCharacteristicName, StandardLevelInfoSaveData/DifficultyBeatmap[] difficultyBeatmaps)
-    // Offset: 0x1F92460
+    // Offset: 0xF444B8
     static StandardLevelInfoSaveData::DifficultyBeatmapSet* New_ctor(::Il2CppString* beatmapCharacteristicName, ::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap*>* difficultyBeatmaps);
   }; // StandardLevelInfoSaveData/DifficultyBeatmapSet
 }

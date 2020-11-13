@@ -20,16 +20,16 @@ namespace UnityEngine {
     // Offset: 0x18
     ::Il2CppString* Declaration;
     // private System.Void set_QualifiedNativeName(System.String value)
-    // Offset: 0x1F744D0
+    // Offset: 0x1A0480C
     void set_QualifiedNativeName(::Il2CppString* value);
     // private System.Void set_Declaration(System.String value)
-    // Offset: 0x1F744D8
+    // Offset: 0x1A04814
     void set_Declaration(::Il2CppString* value);
     // public System.Void .ctor(System.String qualifiedCppName)
-    // Offset: 0x1F744E0
+    // Offset: 0x1A0481C
     static NativeClassAttribute* New_ctor(::Il2CppString* qualifiedCppName);
     // public System.Void .ctor(System.String qualifiedCppName, System.String declaration)
-    // Offset: 0x1F7456C
+    // Offset: 0x1A048A8
     static NativeClassAttribute* New_ctor(::Il2CppString* qualifiedCppName, ::Il2CppString* declaration);
   }; // UnityEngine.NativeClassAttribute
 }

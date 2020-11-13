@@ -46,32 +46,32 @@ namespace GlobalNamespace {
     // Offset: 0x88
     GlobalNamespace::INetworkPlayer* selectedNetworkPlayer;
     // public System.Void add_didFinishEvent(System.Action`2<INetworkPlayer,System.String> value)
-    // Offset: 0x1FEA784
+    // Offset: 0xFCADD8
     void add_didFinishEvent(System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<INetworkPlayer,System.String> value)
-    // Offset: 0x1FEA828
+    // Offset: 0xFCAE7C
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>* value);
     // public System.Void Setup(INetworkPlayer selectedPlayer)
-    // Offset: 0x1FEA8CC
+    // Offset: 0xFCAF20
     void Setup(GlobalNamespace::INetworkPlayer* selectedPlayer);
     // private System.Void HandleJoinClicked()
-    // Offset: 0x1FEAA54
+    // Offset: 0xFCB0A8
     void HandleJoinClicked();
     // private System.Void HandleUIKeyboardOkButtonWasPressed()
-    // Offset: 0x1FEAAC8
+    // Offset: 0xFCB11C
     void HandleUIKeyboardOkButtonWasPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1FEA8D4
+    // Offset: 0xFCAF28
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1FEA99C
+    // Offset: 0xFCAFF0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x1FEAB3C
+    // Offset: 0xFCB190
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

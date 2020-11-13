@@ -98,22 +98,22 @@ namespace GlobalNamespace {
     // Offset: 0x80
     float maxNotesAlignmentAngle;
     // public System.Void .ctor(BeatmapCallbackItemDataList/SpawnBasicNoteCallback spawnBasicNoteCallback, BeatmapCallbackItemDataList/SpawnBombNoteCallback spawnBombNoteCallback, BeatmapCallbackItemDataList/SpawnObstacleCallback spawnObstacleCallback, BeatmapCallbackItemDataList/ProcessBeatmapEventCallback processEarlyBeatmapEventCallback, BeatmapCallbackItemDataList/ProcessBeatmapEventCallback processLateBeatmapEventCallback, System.Action earlyEventsWereProcessedCallback, BeatmapCallbackItemDataList/GetRelativeNoteOffsetCallback getRelativeNoteOffsetCallback)
-    // Offset: 0x20C16C4
+    // Offset: 0x1A78F34
     static BeatmapCallbackItemDataList* New_ctor(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback* spawnBasicNoteCallback, GlobalNamespace::BeatmapCallbackItemDataList::SpawnBombNoteCallback* spawnBombNoteCallback, GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback* spawnObstacleCallback, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processEarlyBeatmapEventCallback, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processLateBeatmapEventCallback, System::Action* earlyEventsWereProcessedCallback, GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback* getRelativeNoteOffsetCallback);
     // public System.Void InsertBeatmapObjectData(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x20C1A48
+    // Offset: 0x1A792B8
     void InsertBeatmapObjectData(GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // public System.Void InsertBeatmapEventData(BeatmapEventData beatmapEventData)
-    // Offset: 0x20C1B4C
+    // Offset: 0x1A793BC
     void InsertBeatmapEventData(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void ProcessData()
-    // Offset: 0x20C1C50
+    // Offset: 0x1A794C0
     void ProcessData();
     // private System.Boolean ProcessNotesByColorType(System.Collections.Generic.List`1<NoteData> notesWithTheSameColorTypeList)
-    // Offset: 0x20C29F0
+    // Offset: 0x1A7A260
     bool ProcessNotesByColorType(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* notesWithTheSameColorTypeList);
     // private System.Void SpawnNoteOrLongNote(NoteData noteData, System.Single cutDirectionAngleOffset)
-    // Offset: 0x20C2C1C
+    // Offset: 0x1A7A48C
     void SpawnNoteOrLongNote(GlobalNamespace::NoteData* noteData, float cutDirectionAngleOffset);
   }; // BeatmapCallbackItemDataList
 }

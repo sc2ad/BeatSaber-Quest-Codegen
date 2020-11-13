@@ -33,49 +33,49 @@ namespace RootMotion::FinalIK {
     // Offset: 0x48
     ::Array<UnityEngine::Transform*>* feet;
     // private System.Void OpenTutorial()
-    // Offset: 0x1839D80
+    // Offset: 0x1701428
     void OpenTutorial();
     // private System.Boolean IsReadyToInitiate()
-    // Offset: 0x1839E7C
+    // Offset: 0x1701524
     bool IsReadyToInitiate();
     // private System.Void Update()
-    // Offset: 0x1839F14
+    // Offset: 0x17015BC
     void Update();
     // private System.Void Initiate()
-    // Offset: 0x1839FC8
+    // Offset: 0x1701670
     void Initiate();
     // private System.Void OnSolverUpdate()
-    // Offset: 0x183A214
+    // Offset: 0x17018BC
     void OnSolverUpdate();
     // private System.Void SetLegIK(RootMotion.FinalIK.IKSolverVR/PositionOffset positionOffset, UnityEngine.Transform bone, RootMotion.FinalIK.Grounding/Leg leg)
-    // Offset: 0x183A4A8
+    // Offset: 0x1701B50
     void SetLegIK(RootMotion::FinalIK::IKSolverVR::PositionOffset positionOffset, UnityEngine::Transform* bone, RootMotion::FinalIK::Grounding::Leg* leg);
     // private System.Void OnPostSolverUpdate()
-    // Offset: 0x183A5B0
+    // Offset: 0x1701C58
     void OnPostSolverUpdate();
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x183A7B0
+    // Offset: 0x1701E58
     void OnDrawGizmosSelected();
     // private System.Void OnDestroy()
-    // Offset: 0x183A90C
+    // Offset: 0x1701FB4
     void OnDestroy();
     // protected override System.Void OpenUserManual()
-    // Offset: 0x1839DCC
+    // Offset: 0x1701474
     // Implemented from: RootMotion.FinalIK.Grounder
     // Base method: System.Void Grounder::OpenUserManual()
     void OpenUserManual();
     // protected override System.Void OpenScriptReference()
-    // Offset: 0x1839E18
+    // Offset: 0x17014C0
     // Implemented from: RootMotion.FinalIK.Grounder
     // Base method: System.Void Grounder::OpenScriptReference()
     void OpenScriptReference();
     // public override System.Void ResetPosition()
-    // Offset: 0x1839E64
+    // Offset: 0x170150C
     // Implemented from: RootMotion.FinalIK.Grounder
     // Base method: System.Void Grounder::ResetPosition()
     void ResetPosition();
     // public System.Void .ctor()
-    // Offset: 0x183AAA0
+    // Offset: 0x1702148
     // Implemented from: RootMotion.FinalIK.Grounder
     // Base method: System.Void Grounder::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

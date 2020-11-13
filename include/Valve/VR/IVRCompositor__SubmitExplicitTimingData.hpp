@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRCompositor::_SubmitExplicitTimingData : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1B87748
+    // Offset: 0x18EB560
     static IVRCompositor::_SubmitExplicitTimingData* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRCompositorError Invoke()
-    // Offset: 0x1B8775C
+    // Offset: 0x18EB574
     Valve::VR::EVRCompositorError Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1B87970
+    // Offset: 0x18EB788
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRCompositorError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1B8799C
+    // Offset: 0x18EB7B4
     Valve::VR::EVRCompositorError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_SubmitExplicitTimingData
 }

@@ -112,62 +112,62 @@ namespace GlobalNamespace {
     // Set static field: static private PlatformLeaderboardsModel/ScoresScope _scoresScope
     static void _set__scoresScope(GlobalNamespace::PlatformLeaderboardsModel::ScoresScope value);
     // public PlatformLeaderboardsModel get_leaderboardsModel()
-    // Offset: 0x2084438
+    // Offset: 0xF08C18
     GlobalNamespace::PlatformLeaderboardsModel* get_leaderboardsModel();
     // private System.Int32 ScoreScopeToScoreScopeIndex(PlatformLeaderboardsModel/ScoresScope scoresScope)
-    // Offset: 0x2084B34
+    // Offset: 0xF09314
     int ScoreScopeToScoreScopeIndex(GlobalNamespace::PlatformLeaderboardsModel::ScoresScope scoresScope);
     // private PlatformLeaderboardsModel/ScoresScope ScopeScopeIndexToScoreScope(System.Int32 scoreScopeIndex)
-    // Offset: 0x2085018
+    // Offset: 0xF097F8
     GlobalNamespace::PlatformLeaderboardsModel::ScoresScope ScopeScopeIndexToScoreScope(int scoreScopeIndex);
     // private System.Void HandleDidPressRefreshButton()
-    // Offset: 0x2085064
+    // Offset: 0xF09844
     void HandleDidPressRefreshButton();
     // private System.Void HandleLeaderboardsResultsReturned(PlatformLeaderboardsModel/GetScoresResult result, PlatformLeaderboardsModel/LeaderboardScore[] scores, System.Int32 playerScoreIndex)
-    // Offset: 0x2085070
+    // Offset: 0xF09850
     void HandleLeaderboardsResultsReturned(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::Array<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>* scores, int playerScoreIndex);
     // private System.Void HandleScopeSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0x2085290
+    // Offset: 0xF09A70
     void HandleScopeSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // private System.Void HandlePlatformLeaderboardsModelAllScoresDidUpload()
-    // Offset: 0x2085328
+    // Offset: 0xF09B08
     void HandlePlatformLeaderboardsModelAllScoresDidUpload();
     // private System.Void Refresh(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0x20844A8
+    // Offset: 0xF08C88
     void Refresh(bool showLoadingIndicator, bool clear);
     // private System.Collections.IEnumerator RefreshDelayed(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0x2085404
+    // Offset: 0xF09BE4
     System::Collections::IEnumerator* RefreshDelayed(bool showLoadingIndicator, bool clear);
     // private System.Void ClearContent()
-    // Offset: 0x2085334
+    // Offset: 0xF09B14
     void ClearContent();
     // public override System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x2084440
+    // Offset: 0xF08C20
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::SetData(IDifficultyBeatmap difficultyBeatmap)
     void SetData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public override System.Void RefreshLevelStats()
-    // Offset: 0x2084668
+    // Offset: 0xF08E48
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::RefreshLevelStats()
     void RefreshLevelStats();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x208469C
+    // Offset: 0xF08E7C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x2084CA0
+    // Offset: 0xF09480
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x2084E58
+    // Offset: 0xF09638
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x20854CC
+    // Offset: 0xF09CAC
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()
@@ -178,7 +178,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PlatformLeaderboardViewController* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x208554C
+    // Offset: 0xF09D2C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

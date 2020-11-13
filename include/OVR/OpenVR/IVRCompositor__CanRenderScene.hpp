@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_CanRenderScene : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AA8CA8
+    // Offset: 0x18581E0
     static IVRCompositor::_CanRenderScene* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
-    // Offset: 0x1AA8CBC
+    // Offset: 0x18581F4
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AA8ED4
+    // Offset: 0x185840C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1AA8F00
+    // Offset: 0x1858438
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_CanRenderScene
 }

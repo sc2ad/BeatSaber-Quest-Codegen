@@ -35,13 +35,13 @@ namespace TMPro {
   class TMPro_ExtensionMethods : public ::Il2CppObject {
     public:
     // static public System.String ArrayToString(System.Char[] chars)
-    // Offset: 0x106245C
+    // Offset: 0x1139D8C
     static ::Il2CppString* ArrayToString(::Array<::Il2CppChar>* chars);
     // static public System.String IntToString(System.Int32[] unicodes)
-    // Offset: 0x1062520
+    // Offset: 0x1139E50
     static ::Il2CppString* IntToString(::Array<int>* unicodes);
     // static public System.String IntToString(System.Int32[] unicodes, System.Int32 start, System.Int32 length)
-    // Offset: 0x10625E0
+    // Offset: 0x1139F10
     static ::Il2CppString* IntToString(::Array<int>* unicodes, int start, int length);
     // static public System.Int32 FindInstanceID(System.Collections.Generic.List`1<T> list, T target)
     // Offset: 0xFFFFFFFF
@@ -51,31 +51,31 @@ namespace TMPro {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<int>("TMPro", "TMPro_ExtensionMethods", "FindInstanceID", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, target)));
     }
     // static public System.Boolean Compare(UnityEngine.Color32 a, UnityEngine.Color32 b)
-    // Offset: 0x1062728
+    // Offset: 0x113A058
     static bool Compare(UnityEngine::Color32 a, UnityEngine::Color32 b);
     // static public System.Boolean CompareRGB(UnityEngine.Color32 a, UnityEngine.Color32 b)
-    // Offset: 0x106276C
+    // Offset: 0x113A09C
     static bool CompareRGB(UnityEngine::Color32 a, UnityEngine::Color32 b);
     // static public System.Boolean Compare(UnityEngine.Color a, UnityEngine.Color b)
-    // Offset: 0x10627A4
+    // Offset: 0x113A0D4
     static bool Compare(UnityEngine::Color a, UnityEngine::Color b);
     // static public System.Boolean CompareRGB(UnityEngine.Color a, UnityEngine.Color b)
-    // Offset: 0x10627D4
+    // Offset: 0x113A104
     static bool CompareRGB(UnityEngine::Color a, UnityEngine::Color b);
     // static public UnityEngine.Color32 Multiply(UnityEngine.Color32 c1, UnityEngine.Color32 c2)
-    // Offset: 0x10627FC
+    // Offset: 0x113A12C
     static UnityEngine::Color32 Multiply(UnityEngine::Color32 c1, UnityEngine::Color32 c2);
     // static public UnityEngine.Color32 Tint(UnityEngine.Color32 c1, UnityEngine.Color32 c2)
-    // Offset: 0x10628C0
+    // Offset: 0x113A1F0
     static UnityEngine::Color32 Tint(UnityEngine::Color32 c1, UnityEngine::Color32 c2);
     // static public UnityEngine.Color32 Tint(UnityEngine.Color32 c1, System.Single tint)
-    // Offset: 0x1062984
+    // Offset: 0x113A2B4
     static UnityEngine::Color32 Tint(UnityEngine::Color32 c1, float tint);
     // static public System.Boolean Compare(UnityEngine.Vector3 v1, UnityEngine.Vector3 v2, System.Int32 accuracy)
-    // Offset: 0x1062AE0
+    // Offset: 0x113A410
     static bool Compare(UnityEngine::Vector3 v1, UnityEngine::Vector3 v2, int accuracy);
     // static public System.Boolean Compare(UnityEngine.Quaternion q1, UnityEngine.Quaternion q2, System.Int32 accuracy)
-    // Offset: 0x1062B38
+    // Offset: 0x113A468
     static bool Compare(UnityEngine::Quaternion q1, UnityEngine::Quaternion q2, int accuracy);
   }; // TMPro.TMPro_ExtensionMethods
 }

@@ -41,67 +41,67 @@ namespace System::Collections::Specialized {
     // Offset: 0x50
     ::Array<::Il2CppString*>* allKeys;
     // protected System.Void InvalidateCachedArrays()
-    // Offset: 0x14E0600
+    // Offset: 0x147F1E0
     void InvalidateCachedArrays();
     // static private System.String GetAsOneString(System.Collections.ArrayList list)
-    // Offset: 0x14E0634
+    // Offset: 0x147F214
     static ::Il2CppString* GetAsOneString(System::Collections::ArrayList* list);
     // static private System.String[] GetAsStringArray(System.Collections.ArrayList list)
-    // Offset: 0x14E07EC
+    // Offset: 0x147F3CC
     static ::Array<::Il2CppString*>* GetAsStringArray(System::Collections::ArrayList* list);
     // public System.Void Add(System.String name, System.String value)
-    // Offset: 0x14E089C
+    // Offset: 0x147F47C
     void Add(::Il2CppString* name, ::Il2CppString* value);
     // public System.String Get(System.String name)
-    // Offset: 0x14E0A28
+    // Offset: 0x147F608
     ::Il2CppString* Get(::Il2CppString* name);
     // public System.String[] GetValues(System.String name)
-    // Offset: 0x14E0AC4
+    // Offset: 0x147F6A4
     ::Array<::Il2CppString*>* GetValues(::Il2CppString* name);
     // public System.Void Set(System.String name, System.String value)
-    // Offset: 0x14E0B60
+    // Offset: 0x147F740
     void Set(::Il2CppString* name, ::Il2CppString* value);
     // public System.Void Remove(System.String name)
-    // Offset: 0x14E0C64
+    // Offset: 0x147F844
     void Remove(::Il2CppString* name);
     // public System.String get_Item(System.String name)
-    // Offset: 0x14E0CA8
+    // Offset: 0x147F888
     ::Il2CppString* get_Item(::Il2CppString* name);
     // public System.Void set_Item(System.String name, System.String value)
-    // Offset: 0x14E0CB8
+    // Offset: 0x147F898
     void set_Item(::Il2CppString* name, ::Il2CppString* value);
     // public System.String Get(System.Int32 index)
-    // Offset: 0x14E0CC8
+    // Offset: 0x147F8A8
     ::Il2CppString* Get(int index);
     // public System.String[] GetValues(System.Int32 index)
-    // Offset: 0x14E0D5C
+    // Offset: 0x147F93C
     ::Array<::Il2CppString*>* GetValues(int index);
     // public System.String GetKey(System.Int32 index)
-    // Offset: 0x14E0DF0
+    // Offset: 0x147F9D0
     ::Il2CppString* GetKey(int index);
     // public System.Void .ctor()
-    // Offset: 0x14E03B8
+    // Offset: 0x147EF98
     // Implemented from: System.Collections.Specialized.NameObjectCollectionBase
     // Base method: System.Void NameObjectCollectionBase::.ctor()
     // Base method: System.Void Object::.ctor()
     static NameValueCollection* New_ctor();
     // public System.Void .ctor(System.Int32 capacity)
-    // Offset: 0x14E041C
+    // Offset: 0x147EFFC
     // Implemented from: System.Collections.Specialized.NameObjectCollectionBase
     // Base method: System.Void NameObjectCollectionBase::.ctor(System.Int32 capacity)
     static NameValueCollection* New_ctor(int capacity);
     // public System.Void .ctor(System.Int32 capacity, System.Collections.IEqualityComparer equalityComparer)
-    // Offset: 0x14E0490
+    // Offset: 0x147F070
     // Implemented from: System.Collections.Specialized.NameObjectCollectionBase
     // Base method: System.Void NameObjectCollectionBase::.ctor(System.Int32 capacity, System.Collections.IEqualityComparer equalityComparer)
     static NameValueCollection* New_ctor(int capacity, System::Collections::IEqualityComparer* equalityComparer);
     // System.Void .ctor(System.DBNull dummy)
-    // Offset: 0x14E0514
+    // Offset: 0x147F0F4
     // Implemented from: System.Collections.Specialized.NameObjectCollectionBase
     // Base method: System.Void NameObjectCollectionBase::.ctor(System.DBNull dummy)
     static NameValueCollection* New_ctor(System::DBNull* dummy);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x14E057C
+    // Offset: 0x147F15C
     // Implemented from: System.Collections.Specialized.NameObjectCollectionBase
     // Base method: System.Void NameObjectCollectionBase::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static NameValueCollection* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

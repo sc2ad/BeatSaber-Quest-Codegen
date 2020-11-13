@@ -46,22 +46,22 @@ namespace HMUI {
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,HMUI.CurvedCanvasSettings> _curvedCanvasCache
     static void _set__curvedCanvasCache(System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, HMUI::CurvedCanvasSettings*>* value);
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x218308C
+    // Offset: 0x10ABE88
     static void NoDomainReloadInit();
     // public System.Void Reset()
-    // Offset: 0x218311C
+    // Offset: 0x10ABF18
     void Reset();
     // public HMUI.CurvedCanvasSettings GetCurvedCanvasSettings(UnityEngine.Canvas canvas)
-    // Offset: 0x2183158
+    // Offset: 0x10ABF54
     HMUI::CurvedCanvasSettings* GetCurvedCanvasSettings(UnityEngine::Canvas* canvas);
     // static private HMUI.CurvedCanvasSettings GetCurvedCanvasSettingsForCanvas(UnityEngine.Canvas canvas)
-    // Offset: 0x21833AC
+    // Offset: 0x10AC1A8
     static HMUI::CurvedCanvasSettings* GetCurvedCanvasSettingsForCanvas(UnityEngine::Canvas* canvas);
     // static private System.Void .cctor()
-    // Offset: 0x21834C8
+    // Offset: 0x10AC2C4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x21834C0
+    // Offset: 0x10AC2BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CurvedCanvasSettingsHelper* New_ctor();

@@ -43,29 +43,29 @@ namespace System::Security::Cryptography {
     // Deleting conversion operator: operator ::Array<uint8_t>*
     constexpr operator ::Array<uint8_t>*() const noexcept = delete;
     // public System.Void .ctor()
-    // Offset: 0x1778544
+    // Offset: 0x1698A38
     // Implemented from: System.Security.Cryptography.KeyedHashAlgorithm
     // Base method: System.Void KeyedHashAlgorithm::.ctor()
     // Base method: System.Void HashAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
     static MACTripleDES* New_ctor();
     // public override System.Void Initialize()
-    // Offset: 0x17786AC
+    // Offset: 0x1698BA0
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::Initialize()
     void Initialize();
     // protected override System.Void HashCore(System.Byte[] rgbData, System.Int32 ibStart, System.Int32 cbSize)
-    // Offset: 0x17786B8
+    // Offset: 0x1698BAC
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::HashCore(System.Byte[] rgbData, System.Int32 ibStart, System.Int32 cbSize)
     void HashCore(::Array<uint8_t>* rgbData, int ibStart, int cbSize);
     // protected override System.Byte[] HashFinal()
-    // Offset: 0x1778848
+    // Offset: 0x1698D3C
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
     ::Array<uint8_t>* HashFinal();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x17789C4
+    // Offset: 0x1698EB8
     // Implemented from: System.Security.Cryptography.KeyedHashAlgorithm
     // Base method: System.Void KeyedHashAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);

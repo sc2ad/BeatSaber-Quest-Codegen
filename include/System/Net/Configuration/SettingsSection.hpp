@@ -21,12 +21,12 @@ namespace System::Net::Configuration {
   class SettingsSection : public System::Configuration::ConfigurationSection {
     public:
     // public System.Void .ctor()
-    // Offset: 0x12AD720
+    // Offset: 0x130CF0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SettingsSection* New_ctor();
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x12AD760
+    // Offset: 0x130CF4C
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();

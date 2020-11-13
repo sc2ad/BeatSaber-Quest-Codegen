@@ -35,16 +35,16 @@ namespace OVR::OpenVR {
   class CVRSystem::_GetControllerStateWithPosePacked : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1158544
+    // Offset: 0x11F9204
     static CVRSystem::_GetControllerStateWithPosePacked* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(OVR.OpenVR.ETrackingUniverseOrigin eOrigin, System.UInt32 unControllerDeviceIndex, ref OVR.OpenVR.VRControllerState_t_Packed pControllerState, System.UInt32 unControllerStateSize, ref OVR.OpenVR.TrackedDevicePose_t pTrackedDevicePose)
-    // Offset: 0x1157F20
+    // Offset: 0x11F8BE0
     bool Invoke(OVR::OpenVR::ETrackingUniverseOrigin eOrigin, uint unControllerDeviceIndex, OVR::OpenVR::VRControllerState_t_Packed& pControllerState, uint unControllerStateSize, OVR::OpenVR::TrackedDevicePose_t& pTrackedDevicePose);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.ETrackingUniverseOrigin eOrigin, System.UInt32 unControllerDeviceIndex, ref OVR.OpenVR.VRControllerState_t_Packed pControllerState, System.UInt32 unControllerStateSize, ref OVR.OpenVR.TrackedDevicePose_t pTrackedDevicePose, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1158558
+    // Offset: 0x11F9218
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::ETrackingUniverseOrigin eOrigin, uint unControllerDeviceIndex, OVR::OpenVR::VRControllerState_t_Packed& pControllerState, uint unControllerStateSize, OVR::OpenVR::TrackedDevicePose_t& pTrackedDevicePose, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref OVR.OpenVR.VRControllerState_t_Packed pControllerState, ref OVR.OpenVR.TrackedDevicePose_t pTrackedDevicePose, System.IAsyncResult result)
-    // Offset: 0x1158660
+    // Offset: 0x11F9320
     bool EndInvoke(OVR::OpenVR::VRControllerState_t_Packed& pControllerState, OVR::OpenVR::TrackedDevicePose_t& pTrackedDevicePose, System::IAsyncResult* result);
   }; // OVR.OpenVR.CVRSystem/_GetControllerStateWithPosePacked
 }

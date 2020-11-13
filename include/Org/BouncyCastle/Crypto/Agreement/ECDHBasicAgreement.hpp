@@ -42,22 +42,22 @@ namespace Org::BouncyCastle::Crypto::Agreement {
       return privKey;
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x161E748
+    // Offset: 0x158D544
     // Implemented from: Org.BouncyCastle.Crypto.IBasicAgreement
     // Base method: System.Void IBasicAgreement::Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetFieldSize()
-    // Offset: 0x161E81C
+    // Offset: 0x158D618
     // Implemented from: Org.BouncyCastle.Crypto.IBasicAgreement
     // Base method: System.Int32 IBasicAgreement::GetFieldSize()
     int GetFieldSize();
     // public Org.BouncyCastle.Math.BigInteger CalculateAgreement(Org.BouncyCastle.Crypto.ICipherParameters pubKey)
-    // Offset: 0x161E868
+    // Offset: 0x158D664
     // Implemented from: Org.BouncyCastle.Crypto.IBasicAgreement
     // Base method: Org.BouncyCastle.Math.BigInteger IBasicAgreement::CalculateAgreement(Org.BouncyCastle.Crypto.ICipherParameters pubKey)
     Org::BouncyCastle::Math::BigInteger* CalculateAgreement(Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
     // public System.Void .ctor()
-    // Offset: 0x161EABC
+    // Offset: 0x158D8B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ECDHBasicAgreement* New_ctor();

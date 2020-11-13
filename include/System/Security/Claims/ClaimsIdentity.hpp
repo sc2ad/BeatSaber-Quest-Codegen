@@ -88,83 +88,83 @@ namespace System::Security::Claims {
       return *reinterpret_cast<System::Security::Principal::IIdentity*>(this);
     }
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.Security.Claims.Claim> claims)
-    // Offset: 0x146834C
+    // Offset: 0x1452758
     static ClaimsIdentity* New_ctor(System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>* claims);
     // public System.Void .ctor(System.Security.Principal.IIdentity identity, System.Collections.Generic.IEnumerable`1<System.Security.Claims.Claim> claims, System.String authenticationType, System.String nameType, System.String roleType)
-    // Offset: 0x1468368
+    // Offset: 0x1452774
     static ClaimsIdentity* New_ctor(System::Security::Principal::IIdentity* identity, System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>* claims, ::Il2CppString* authenticationType, ::Il2CppString* nameType, ::Il2CppString* roleType);
     // System.Void .ctor(System.Security.Principal.IIdentity identity, System.Collections.Generic.IEnumerable`1<System.Security.Claims.Claim> claims, System.String authenticationType, System.String nameType, System.String roleType, System.Boolean checkAuthType)
-    // Offset: 0x1468370
+    // Offset: 0x145277C
     static ClaimsIdentity* New_ctor(System::Security::Principal::IIdentity* identity, System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>* claims, ::Il2CppString* authenticationType, ::Il2CppString* nameType, ::Il2CppString* roleType, bool checkAuthType);
     // protected System.Void .ctor(System.Security.Claims.ClaimsIdentity other)
-    // Offset: 0x1468DD4
+    // Offset: 0x14531E0
     static ClaimsIdentity* New_ctor(System::Security::Claims::ClaimsIdentity* other);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1468FDC
+    // Offset: 0x14533E8
     static ClaimsIdentity* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Security.Claims.ClaimsIdentity get_Actor()
-    // Offset: 0x1469844
+    // Offset: 0x1453C50
     System::Security::Claims::ClaimsIdentity* get_Actor();
     // public System.Void set_Actor(System.Security.Claims.ClaimsIdentity value)
-    // Offset: 0x146984C
+    // Offset: 0x1453C58
     void set_Actor(System::Security::Claims::ClaimsIdentity* value);
     // public System.Collections.Generic.IEnumerable`1<System.Security.Claims.Claim> get_Claims()
-    // Offset: 0x1469914
+    // Offset: 0x1453D20
     System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>* get_Claims();
     // public System.String get_NameClaimType()
-    // Offset: 0x1469A00
+    // Offset: 0x1453E0C
     ::Il2CppString* get_NameClaimType();
     // public System.Security.Claims.ClaimsIdentity Clone()
-    // Offset: 0x1469A08
+    // Offset: 0x1453E14
     System::Security::Claims::ClaimsIdentity* Clone();
     // public System.Void AddClaim(System.Security.Claims.Claim claim)
-    // Offset: 0x1469B90
+    // Offset: 0x1453F9C
     void AddClaim(System::Security::Claims::Claim* claim);
     // private System.Void SafeAddClaims(System.Collections.Generic.IEnumerable`1<System.Security.Claims.Claim> claims)
-    // Offset: 0x1468A4C
+    // Offset: 0x1452E58
     void SafeAddClaims(System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>* claims);
     // private System.Void SafeAddClaim(System.Security.Claims.Claim claim)
-    // Offset: 0x1468D2C
+    // Offset: 0x1453138
     void SafeAddClaim(System::Security::Claims::Claim* claim);
     // public System.Security.Claims.Claim FindFirst(System.String type)
-    // Offset: 0x1469C74
+    // Offset: 0x1454080
     System::Security::Claims::Claim* FindFirst(::Il2CppString* type);
     // private System.Void OnSerializingMethod(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1469F9C
+    // Offset: 0x14543A8
     void OnSerializingMethod(System::Runtime::Serialization::StreamingContext context);
     // private System.Void OnDeserializedMethod(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x146A20C
+    // Offset: 0x1454618
     void OnDeserializedMethod(System::Runtime::Serialization::StreamingContext context);
     // private System.Void OnDeserializingMethod(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x146A5AC
+    // Offset: 0x14549B8
     void OnDeserializingMethod(System::Runtime::Serialization::StreamingContext context);
     // protected System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x146A674
+    // Offset: 0x1454A80
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.Void DeserializeClaims(System.String serializedClaims)
-    // Offset: 0x146A2F8
+    // Offset: 0x1454704
     void DeserializeClaims(::Il2CppString* serializedClaims);
     // private System.String SerializeClaims()
-    // Offset: 0x146A034
+    // Offset: 0x1454440
     ::Il2CppString* SerializeClaims();
     // private System.Boolean IsCircular(System.Security.Claims.ClaimsIdentity subject)
-    // Offset: 0x1468A14
+    // Offset: 0x1452E20
     bool IsCircular(System::Security::Claims::ClaimsIdentity* subject);
     // private System.Void Deserialize(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context, System.Boolean useContext)
-    // Offset: 0x1469148
+    // Offset: 0x1453554
     void Deserialize(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context, bool useContext);
     // public System.Void .ctor()
-    // Offset: 0x1468330
+    // Offset: 0x145273C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ClaimsIdentity* New_ctor();
     // public System.String get_AuthenticationType()
-    // Offset: 0x146983C
+    // Offset: 0x1453C48
     // Implemented from: System.Security.Principal.IIdentity
     // Base method: System.String IIdentity::get_AuthenticationType()
     ::Il2CppString* get_AuthenticationType();
     // public System.String get_Name()
-    // Offset: 0x14699D8
+    // Offset: 0x1453DE4
     // Implemented from: System.Security.Principal.IIdentity
     // Base method: System.String IIdentity::get_Name()
     ::Il2CppString* get_Name();

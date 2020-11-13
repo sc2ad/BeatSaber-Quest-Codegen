@@ -36,19 +36,19 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Offset: 0x18
     Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* scheme;
     // static public Org.BouncyCastle.Asn1.Pkcs.PbeS2Parameters GetInstance(System.Object obj)
-    // Offset: 0x1408E54
+    // Offset: 0x13FAD4C
     static Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1408EF8
+    // Offset: 0x13FADF0
     static PbeS2Parameters* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public Org.BouncyCastle.Asn1.Pkcs.KeyDerivationFunc get_KeyDerivationFunc()
-    // Offset: 0x140930C
+    // Offset: 0x13FB204
     Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* get_KeyDerivationFunc();
     // public Org.BouncyCastle.Asn1.Pkcs.EncryptionScheme get_EncryptionScheme()
-    // Offset: 0x1409314
+    // Offset: 0x13FB20C
     Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* get_EncryptionScheme();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x140931C
+    // Offset: 0x13FB214
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

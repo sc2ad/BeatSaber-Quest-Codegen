@@ -67,28 +67,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_valueDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x208CB48
+    // Offset: 0xF284FC
     void add_valueDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_valueDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x208CBEC
+    // Offset: 0xF285A0
     void remove_valueDidChangeEvent(System::Action_1<float>* value);
     // public System.Single get_value()
-    // Offset: 0x208CC90
+    // Offset: 0xF28644
     float get_value();
     // protected System.Void Awake()
-    // Offset: 0x208CC98
+    // Offset: 0xF2864C
     void Awake();
     // public System.Void Init(System.Single playerHeight)
-    // Offset: 0x208CD5C
+    // Offset: 0xF28710
     void Init(float playerHeight);
     // private System.Void AutoSetHeight()
-    // Offset: 0x208CE00
+    // Offset: 0xF287B4
     void AutoSetHeight();
     // private System.Void RefreshUI()
-    // Offset: 0x208CD64
+    // Offset: 0xF28718
     void RefreshUI();
     // public System.Void .ctor()
-    // Offset: 0x208CF24
+    // Offset: 0xF288D8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

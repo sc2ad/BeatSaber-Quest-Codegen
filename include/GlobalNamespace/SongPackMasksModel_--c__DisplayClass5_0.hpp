@@ -31,10 +31,10 @@ namespace GlobalNamespace {
       return songPackMask;
     }
     // System.Boolean <GetSongPackMaskText>b__0(System.Tuple`2<SongPackMask,System.String> songPackTuple)
-    // Offset: 0x1FF34A4
+    // Offset: 0xF3A3E4
     bool $GetSongPackMaskText$b__0(System::Tuple_2<GlobalNamespace::SongPackMask, ::Il2CppString*>* songPackTuple);
     // public System.Void .ctor()
-    // Offset: 0x1FF3380
+    // Offset: 0xF3A2C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SongPackMasksModel::$$c__DisplayClass5_0* New_ctor();

@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRRenderModels::_LoadRenderModel_Async : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C8910C
+    // Offset: 0x19072E4
     static IVRRenderModels::_LoadRenderModel_Async* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRRenderModelError Invoke(System.String pchRenderModelName, ref System.IntPtr ppRenderModel)
-    // Offset: 0x1C89120
+    // Offset: 0x19072F8
     OVR::OpenVR::EVRRenderModelError Invoke(::Il2CppString* pchRenderModelName, System::IntPtr& ppRenderModel);
     // public System.IAsyncResult BeginInvoke(System.String pchRenderModelName, ref System.IntPtr ppRenderModel, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C8952C
+    // Offset: 0x1907704
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchRenderModelName, System::IntPtr& ppRenderModel, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRRenderModelError EndInvoke(ref System.IntPtr ppRenderModel, System.IAsyncResult result)
-    // Offset: 0x1C895C8
+    // Offset: 0x19077A0
     OVR::OpenVR::EVRRenderModelError EndInvoke(System::IntPtr& ppRenderModel, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRRenderModels/_LoadRenderModel_Async
 }

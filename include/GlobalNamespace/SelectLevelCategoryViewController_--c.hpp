@@ -36,16 +36,16 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<SelectLevelCategoryViewController/LevelCategoryInfo,SelectLevelCategoryViewController/LevelCategory> <>9__11_2
     static void _set_$$9__11_2(System::Func_2<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1FE9D88
+    // Offset: 0xFCA3DC
     static void _cctor();
     // HMUI.IconSegmentedControl/DataItem <Setup>b__11_1(SelectLevelCategoryViewController/LevelCategoryInfo x)
-    // Offset: 0x1FE9DF8
+    // Offset: 0xFCA44C
     HMUI::IconSegmentedControl::DataItem* $Setup$b__11_1(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo* x);
     // SelectLevelCategoryViewController/LevelCategory <Setup>b__11_2(SelectLevelCategoryViewController/LevelCategoryInfo x)
-    // Offset: 0x1FE9E84
+    // Offset: 0xFCA4D8
     GlobalNamespace::SelectLevelCategoryViewController::LevelCategory $Setup$b__11_2(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x1FE9DF0
+    // Offset: 0xFCA444
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SelectLevelCategoryViewController::$$c* New_ctor();

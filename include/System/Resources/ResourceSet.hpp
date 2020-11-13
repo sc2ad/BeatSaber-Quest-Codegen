@@ -49,45 +49,45 @@ namespace System::Resources {
       return *reinterpret_cast<System::Collections::IEnumerable*>(this);
     }
     // System.Void .ctor(System.Boolean junk)
-    // Offset: 0x1687CA0
+    // Offset: 0x15DC864
     static ResourceSet* New_ctor(bool junk);
     // private System.Void CommonInit()
-    // Offset: 0x1687C38
+    // Offset: 0x15DC7FC
     void CommonInit();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1687CA8
+    // Offset: 0x15DC86C
     void Dispose(bool disposing);
     // public System.Collections.IDictionaryEnumerator GetEnumerator()
-    // Offset: 0x1687DA8
+    // Offset: 0x15DC96C
     System::Collections::IDictionaryEnumerator* GetEnumerator();
     // private System.Collections.IDictionaryEnumerator GetEnumeratorHelper()
-    // Offset: 0x1687DAC
+    // Offset: 0x15DC970
     System::Collections::IDictionaryEnumerator* GetEnumeratorHelper();
     // public System.String GetString(System.String name)
-    // Offset: 0x1687E58
+    // Offset: 0x15DCA1C
     ::Il2CppString* GetString(::Il2CppString* name);
     // public System.String GetString(System.String name, System.Boolean ignoreCase)
-    // Offset: 0x16880C0
+    // Offset: 0x15DCC84
     ::Il2CppString* GetString(::Il2CppString* name, bool ignoreCase);
     // public System.Object GetObject(System.String name)
-    // Offset: 0x16885B4
+    // Offset: 0x15DD178
     ::Il2CppObject* GetObject(::Il2CppString* name);
     // public System.Object GetObject(System.String name, System.Boolean ignoreCase)
-    // Offset: 0x16885B8
+    // Offset: 0x15DD17C
     ::Il2CppObject* GetObject(::Il2CppString* name, bool ignoreCase);
     // private System.Object GetObjectInternal(System.String name)
-    // Offset: 0x1687FC8
+    // Offset: 0x15DCB8C
     ::Il2CppObject* GetObjectInternal(::Il2CppString* name);
     // private System.Object GetCaseInsensitiveObjectInternal(System.String name)
-    // Offset: 0x16882C4
+    // Offset: 0x15DCE88
     ::Il2CppObject* GetCaseInsensitiveObjectInternal(::Il2CppString* name);
     // protected System.Void .ctor()
-    // Offset: 0x1687C10
+    // Offset: 0x15DC7D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ResourceSet* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0x1682F70
+    // Offset: 0x15D7B34
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -95,7 +95,7 @@ namespace System::Resources {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1687E54
+    // Offset: 0x15DCA18
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

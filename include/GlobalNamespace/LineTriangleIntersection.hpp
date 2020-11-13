@@ -21,10 +21,10 @@ namespace GlobalNamespace {
   class LineTriangleIntersection : public ::Il2CppObject {
     public:
     // static public System.Boolean Intersects(UnityEngine.Ray ray, UnityEngine.Vector3 p0, UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0x2115730
+    // Offset: 0x103781C
     static bool Intersects(UnityEngine::Ray ray, UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 p2);
     // public System.Void .ctor()
-    // Offset: 0x2115738
+    // Offset: 0x1037824
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LineTriangleIntersection* New_ctor();

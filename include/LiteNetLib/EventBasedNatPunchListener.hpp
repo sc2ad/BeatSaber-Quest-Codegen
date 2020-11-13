@@ -40,29 +40,29 @@ namespace LiteNetLib {
       return *reinterpret_cast<LiteNetLib::INatPunchListener*>(this);
     }
     // public System.Void add_NatIntroductionRequest(LiteNetLib.EventBasedNatPunchListener/OnNatIntroductionRequest value)
-    // Offset: 0x1801054
+    // Offset: 0x1DC03BC
     void add_NatIntroductionRequest(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest* value);
     // public System.Void remove_NatIntroductionRequest(LiteNetLib.EventBasedNatPunchListener/OnNatIntroductionRequest value)
-    // Offset: 0x18010F8
+    // Offset: 0x1DC0460
     void remove_NatIntroductionRequest(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest* value);
     // public System.Void add_NatIntroductionSuccess(LiteNetLib.EventBasedNatPunchListener/OnNatIntroductionSuccess value)
-    // Offset: 0x180119C
+    // Offset: 0x1DC0504
     void add_NatIntroductionSuccess(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess* value);
     // public System.Void remove_NatIntroductionSuccess(LiteNetLib.EventBasedNatPunchListener/OnNatIntroductionSuccess value)
-    // Offset: 0x1801240
+    // Offset: 0x1DC05A8
     void remove_NatIntroductionSuccess(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess* value);
     // private System.Void LiteNetLib.INatPunchListener.OnNatIntroductionRequest(System.Net.IPEndPoint localEndPoint, System.Net.IPEndPoint remoteEndPoint, System.String token)
-    // Offset: 0x18012E4
+    // Offset: 0x1DC064C
     // Implemented from: LiteNetLib.INatPunchListener
     // Base method: System.Void INatPunchListener::OnNatIntroductionRequest(System.Net.IPEndPoint localEndPoint, System.Net.IPEndPoint remoteEndPoint, System.String token)
     void LiteNetLib_INatPunchListener_OnNatIntroductionRequest(System::Net::IPEndPoint* localEndPoint, System::Net::IPEndPoint* remoteEndPoint, ::Il2CppString* token);
     // private System.Void LiteNetLib.INatPunchListener.OnNatIntroductionSuccess(System.Net.IPEndPoint targetEndPoint, LiteNetLib.NatAddressType type, System.String token)
-    // Offset: 0x180171C
+    // Offset: 0x1DC0A84
     // Implemented from: LiteNetLib.INatPunchListener
     // Base method: System.Void INatPunchListener::OnNatIntroductionSuccess(System.Net.IPEndPoint targetEndPoint, LiteNetLib.NatAddressType type, System.String token)
     void LiteNetLib_INatPunchListener_OnNatIntroductionSuccess(System::Net::IPEndPoint* targetEndPoint, LiteNetLib::NatAddressType type, ::Il2CppString* token);
     // public System.Void .ctor()
-    // Offset: 0x1801B7C
+    // Offset: 0x1DC0EE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EventBasedNatPunchListener* New_ctor();

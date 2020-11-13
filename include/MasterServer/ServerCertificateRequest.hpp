@@ -54,16 +54,16 @@ namespace MasterServer {
       return *reinterpret_cast<MasterServer::IHandshakeServerToClientMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.ServerCertificateRequest> get_pool()
-    // Offset: 0x212196C
+    // Offset: 0x1AD7F70
     static GlobalNamespace::PacketPool_1<MasterServer::ServerCertificateRequest*>* get_pool();
     // public System.Collections.Generic.IEnumerable`1<System.Byte[]> get_certificateList()
-    // Offset: 0x21288F8
+    // Offset: 0x1ADF5F4
     System::Collections::Generic::IEnumerable_1<::Array<uint8_t>*>* get_certificateList();
     // public MasterServer.ServerCertificateRequest Init(System.Collections.Generic.IEnumerable`1<System.Byte[]> certificateList)
-    // Offset: 0x21289BC
+    // Offset: 0x1ADF6B8
     MasterServer::ServerCertificateRequest* Init(System::Collections::Generic::IEnumerable_1<::Array<uint8_t>*>* certificateList);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2128D10
+    // Offset: 0x1ADFA0C
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -71,7 +71,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2128DAC
+    // Offset: 0x1ADFAA8
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -79,12 +79,12 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x2128F20
+    // Offset: 0x1ADFC1C
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x2128FD0
+    // Offset: 0x1ADFCCC
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()

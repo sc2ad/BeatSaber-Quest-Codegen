@@ -99,34 +99,34 @@ namespace UnityEngine::UI {
       return *reinterpret_cast<UnityEngine::UI::ICanvasElement*>(this);
     }
     // public UnityEngine.UI.ToggleGroup get_group()
-    // Offset: 0x1F30E58
+    // Offset: 0x19BCD68
     UnityEngine::UI::ToggleGroup* get_group();
     // public System.Void set_group(UnityEngine.UI.ToggleGroup value)
-    // Offset: 0x1F30E60
+    // Offset: 0x19BCD70
     void set_group(UnityEngine::UI::ToggleGroup* value);
     // private System.Void SetToggleGroup(UnityEngine.UI.ToggleGroup newGroup, System.Boolean setMemberValue)
-    // Offset: 0x1F30E8C
+    // Offset: 0x19BCD9C
     void SetToggleGroup(UnityEngine::UI::ToggleGroup* newGroup, bool setMemberValue);
     // public System.Boolean get_isOn()
-    // Offset: 0x1F31848
+    // Offset: 0x19BD758
     bool get_isOn();
     // public System.Void set_isOn(System.Boolean value)
-    // Offset: 0x1F31850
+    // Offset: 0x19BD760
     void set_isOn(bool value);
     // public System.Void SetIsOnWithoutNotify(System.Boolean value)
-    // Offset: 0x1F3185C
+    // Offset: 0x19BD76C
     void SetIsOnWithoutNotify(bool value);
     // private System.Void Set(System.Boolean value, System.Boolean sendCallback)
-    // Offset: 0x1F31488
+    // Offset: 0x19BD398
     void Set(bool value, bool sendCallback);
     // private System.Void PlayEffect(System.Boolean instant)
-    // Offset: 0x1F31004
+    // Offset: 0x19BCF14
     void PlayEffect(bool instant);
     // private System.Void InternalToggle()
-    // Offset: 0x1F319A8
+    // Offset: 0x19BD8B8
     void InternalToggle();
     // protected System.Void .ctor()
-    // Offset: 0x1F310D8
+    // Offset: 0x19BCFE8
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -137,57 +137,57 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static Toggle* New_ctor();
     // public System.Void Rebuild(UnityEngine.UI.CanvasUpdate executing)
-    // Offset: 0x1F311C0
+    // Offset: 0x19BD0D0
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::Rebuild(UnityEngine.UI.CanvasUpdate executing)
     void Rebuild(UnityEngine::UI::CanvasUpdate executing);
     // public System.Void LayoutComplete()
-    // Offset: 0x1F311C4
+    // Offset: 0x19BD0D4
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::LayoutComplete()
     void LayoutComplete();
     // public System.Void GraphicUpdateComplete()
-    // Offset: 0x1F311C8
+    // Offset: 0x19BD0D8
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::GraphicUpdateComplete()
     void GraphicUpdateComplete();
     // protected override System.Void OnDestroy()
-    // Offset: 0x1F311CC
+    // Offset: 0x19BD0DC
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDestroy()
     void OnDestroy();
     // protected override System.Void OnEnable()
-    // Offset: 0x1F31310
+    // Offset: 0x19BD220
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x1F3134C
+    // Offset: 0x19BD25C
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnDisable()
     void OnDisable();
     // protected override System.Void OnDidApplyAnimationProperties()
-    // Offset: 0x1F3137C
+    // Offset: 0x19BD28C
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::OnDidApplyAnimationProperties()
     void OnDidApplyAnimationProperties();
     // protected override System.Void Start()
-    // Offset: 0x1F319A0
+    // Offset: 0x19BD8B0
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::Start()
     void Start();
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1F31A0C
+    // Offset: 0x19BD91C
     // Implemented from: UnityEngine.EventSystems.IPointerClickHandler
     // Base method: System.Void IPointerClickHandler::OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerClick(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x1F31A2C
+    // Offset: 0x19BD93C
     // Implemented from: UnityEngine.EventSystems.ISubmitHandler
     // Base method: System.Void ISubmitHandler::OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
     void OnSubmit(UnityEngine::EventSystems::BaseEventData* eventData);
     // private UnityEngine.Transform UnityEngine.UI.ICanvasElement.get_transform()
-    // Offset: 0x1F31A30
+    // Offset: 0x19BD940
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();

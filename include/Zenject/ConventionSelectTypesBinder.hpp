@@ -30,25 +30,25 @@ namespace Zenject {
       return bindInfo;
     }
     // public System.Void .ctor(Zenject.ConventionBindInfo bindInfo)
-    // Offset: 0xFF3850
+    // Offset: 0x10EF1F8
     static ConventionSelectTypesBinder* New_ctor(Zenject::ConventionBindInfo* bindInfo);
     // private Zenject.ConventionFilterTypesBinder CreateNextBinder()
-    // Offset: 0xFF73A0
+    // Offset: 0x10F2D48
     Zenject::ConventionFilterTypesBinder* CreateNextBinder();
     // public Zenject.ConventionFilterTypesBinder AllTypes()
-    // Offset: 0xFF7414
+    // Offset: 0x10F2DBC
     Zenject::ConventionFilterTypesBinder* AllTypes();
     // public Zenject.ConventionFilterTypesBinder AllClasses()
-    // Offset: 0xFF7418
+    // Offset: 0x10F2DC0
     Zenject::ConventionFilterTypesBinder* AllClasses();
     // public Zenject.ConventionFilterTypesBinder AllNonAbstractClasses()
-    // Offset: 0xFF751C
+    // Offset: 0x10F2EC4
     Zenject::ConventionFilterTypesBinder* AllNonAbstractClasses();
     // public Zenject.ConventionFilterTypesBinder AllAbstractClasses()
-    // Offset: 0xFF7620
+    // Offset: 0x10F2FC8
     Zenject::ConventionFilterTypesBinder* AllAbstractClasses();
     // public Zenject.ConventionFilterTypesBinder AllInterfaces()
-    // Offset: 0xFF7724
+    // Offset: 0x10F30CC
     Zenject::ConventionFilterTypesBinder* AllInterfaces();
   }; // Zenject.ConventionSelectTypesBinder
 }

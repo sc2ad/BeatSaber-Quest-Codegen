@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_GetRecommendedRenderTargetSize : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C96BF0
+    // Offset: 0x1914DC8
     static IVRSystem::_GetRecommendedRenderTargetSize* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
-    // Offset: 0x1C96C04
+    // Offset: 0x1914DDC
     void Invoke(uint& pnWidth, uint& pnHeight);
     // public System.IAsyncResult BeginInvoke(ref System.UInt32 pnWidth, ref System.UInt32 pnHeight, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C96E70
+    // Offset: 0x1915048
     System::IAsyncResult* BeginInvoke(uint& pnWidth, uint& pnHeight, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(ref System.UInt32 pnWidth, ref System.UInt32 pnHeight, System.IAsyncResult result)
-    // Offset: 0x1C96F1C
+    // Offset: 0x19150F4
     void EndInvoke(uint& pnWidth, uint& pnHeight, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetRecommendedRenderTargetSize
 }

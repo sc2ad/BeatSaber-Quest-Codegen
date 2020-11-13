@@ -45,12 +45,12 @@ namespace GlobalNamespace {
     // Offset: 0x40
     GlobalNamespace::EffectPoolsManualInstaller* effectPoolsManualInstaller;
     // public override System.Void InstallBindings()
-    // Offset: 0x1F9FBB8
+    // Offset: 0xFF13EC
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1FA0324
+    // Offset: 0xFF1BC0
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

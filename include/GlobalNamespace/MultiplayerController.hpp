@@ -213,76 +213,76 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMinAnimationDurationPercentage
     static void _set_kMinAnimationDurationPercentage(float value);
     // public MultiplayerController/State get_state()
-    // Offset: 0x20642A8
+    // Offset: 0xFAE26C
     GlobalNamespace::MultiplayerController::State get_state();
     // public System.Void add_stateChangedEvent(System.Action`1<MultiplayerController/State> value)
-    // Offset: 0x205B378
+    // Offset: 0xFAE274
     void add_stateChangedEvent(System::Action_1<GlobalNamespace::MultiplayerController::State>* value);
     // public System.Void remove_stateChangedEvent(System.Action`1<MultiplayerController/State> value)
-    // Offset: 0x20642B0
+    // Offset: 0xFAE318
     void remove_stateChangedEvent(System::Action_1<GlobalNamespace::MultiplayerController::State>* value);
     // protected System.Void Start()
-    // Offset: 0x2064354
+    // Offset: 0xFAE3BC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2064840
+    // Offset: 0xFAE8A8
     void OnDestroy();
     // private System.Void HandleSetMultiplayerGameState(System.String userId, MultiplayerGameState gameState)
-    // Offset: 0x2064D88
+    // Offset: 0xFAEE90
     void HandleSetMultiplayerGameState(::Il2CppString* userId, GlobalNamespace::MultiplayerGameState gameState);
     // private System.Void StartSceneLoadSync()
-    // Offset: 0x2064720
+    // Offset: 0xFAE788
     void StartSceneLoadSync();
     // private System.Collections.IEnumerator PerformSongStartSync(MultiplayerPlayerStartState localPlayerSyncState)
-    // Offset: 0x2064F08
+    // Offset: 0xFAF08C
     System::Collections::IEnumerator* PerformSongStartSync(GlobalNamespace::MultiplayerPlayerStartState localPlayerSyncState);
     // private System.Void HandleDidSwitchPlayerToInactive()
-    // Offset: 0x2064FC0
+    // Offset: 0xFAF144
     void HandleDidSwitchPlayerToInactive();
     // private System.Void HandleSceneStartSyncControllerSyncStartDidSuccess()
-    // Offset: 0x206523C
+    // Offset: 0xFAF3BC
     void HandleSceneStartSyncControllerSyncStartDidSuccess();
     // private System.Void HandleSceneStartSyncControllerSyncStartDidReceiveTooLate()
-    // Offset: 0x206526C
+    // Offset: 0xFAF3EC
     void HandleSceneStartSyncControllerSyncStartDidReceiveTooLate();
     // private System.Void HandleSceneStartSyncControllerSyncStartDidFail()
-    // Offset: 0x206529C
+    // Offset: 0xFAF41C
     void HandleSceneStartSyncControllerSyncStartDidFail();
     // private System.Void HandleSongStartSyncControllerSyncStartSuccess(System.Single introAnimationStartSyncTime)
-    // Offset: 0x20652BC
+    // Offset: 0xFAF43C
     void HandleSongStartSyncControllerSyncStartSuccess(float introAnimationStartSyncTime);
     // private System.Void HandleSongStartSyncControllerSyncResume(System.Single introAnimationStartSyncTime)
-    // Offset: 0x2065CF4
+    // Offset: 0xFB02E8
     void HandleSongStartSyncControllerSyncResume(float introAnimationStartSyncTime);
     // private System.Void HandleSongStartSyncControllerSyncStartFailed()
-    // Offset: 0x2066164
+    // Offset: 0xFB0758
     void HandleSongStartSyncControllerSyncStartFailed();
     // private System.Void StartGameplay(System.Single introAnimationStartSyncTime)
-    // Offset: 0x2065490
+    // Offset: 0xFAFA88
     void StartGameplay(float introAnimationStartSyncTime);
     // private System.Void HandleAllResultsCollected(LevelCompletionResults localPlayerResults, System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults> otherPlayerResults)
-    // Offset: 0x2066184
+    // Offset: 0xFB0778
     void HandleAllResultsCollected(GlobalNamespace::LevelCompletionResults* localPlayerResults, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>* otherPlayerResults);
     // private System.Void HandleOutroAnimationDidFinish()
-    // Offset: 0x2066408
+    // Offset: 0xFB0AA0
     void HandleOutroAnimationDidFinish();
     // private System.Void HandleRpcReturnToMenu(System.String userId)
-    // Offset: 0x2066440
+    // Offset: 0xFB0AD4
     void HandleRpcReturnToMenu(::Il2CppString* userId);
     // private System.Void HandleDisconnected(DisconnectedReason disconnectedReason)
-    // Offset: 0x20664F4
+    // Offset: 0xFB0B84
     void HandleDisconnected(GlobalNamespace::DisconnectedReason disconnectedReason);
     // private System.Void ChangeState(MultiplayerController/State newState)
-    // Offset: 0x20646A8
+    // Offset: 0xFAE710
     void ChangeState(GlobalNamespace::MultiplayerController::State newState);
     // private System.Single GetCurrentSongTime(System.Single songStartSyncTime)
-    // Offset: 0x2065174
+    // Offset: 0xFAF2F4
     float GetCurrentSongTime(float songStartSyncTime);
     // private System.Single GetSongStartSyncTime(System.Single introAnimationStartSyncTime)
-    // Offset: 0x2065134
+    // Offset: 0xFAF2B8
     float GetSongStartSyncTime(float introAnimationStartSyncTime);
     // public System.Void .ctor()
-    // Offset: 0x2066530
+    // Offset: 0xFB0C34
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

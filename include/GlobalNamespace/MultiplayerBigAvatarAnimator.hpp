@@ -61,31 +61,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDestroy()
-    // Offset: 0x205D41C
+    // Offset: 0xFA6D24
     void OnDestroy();
     // private System.Void InitIfNeeded()
-    // Offset: 0x205D4B4
+    // Offset: 0xFA6DBC
     void InitIfNeeded();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x205D68C
+    // Offset: 0xFA6F94
     void SetPositionAndRotation(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // public System.Void HideInstant()
-    // Offset: 0x205D708
+    // Offset: 0xFA7010
     void HideInstant();
     // public System.Void Animate(System.Boolean show, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x205D7CC
+    // Offset: 0xFA70D4
     void Animate(bool show, float duration, Tweening::EaseType easeType);
     // private System.Void <InitIfNeeded>b__8_0(System.Single val)
-    // Offset: 0x205D9C8
+    // Offset: 0xFA72D0
     void $InitIfNeeded$b__8_0(float val);
     // private System.Void <InitIfNeeded>b__8_1(System.Single val)
-    // Offset: 0x205DA5C
+    // Offset: 0xFA7364
     void $InitIfNeeded$b__8_1(float val);
     // private System.Void <InitIfNeeded>b__8_2()
-    // Offset: 0x205DAF0
+    // Offset: 0xFA73F8
     void $InitIfNeeded$b__8_2();
     // public System.Void .ctor()
-    // Offset: 0x205D9B8
+    // Offset: 0xFA72C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

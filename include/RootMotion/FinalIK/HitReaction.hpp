@@ -37,18 +37,18 @@ namespace RootMotion::FinalIK {
     // Offset: 0x38
     ::Array<RootMotion::FinalIK::HitReaction::HitPointBone*>* boneHitPoints;
     // public System.Boolean get_inProgress()
-    // Offset: 0x183DEF0
+    // Offset: 0x1705598
     bool get_inProgress();
     // public System.Void Hit(UnityEngine.Collider collider, UnityEngine.Vector3 force, UnityEngine.Vector3 point)
-    // Offset: 0x183E1E0
+    // Offset: 0x1705888
     void Hit(UnityEngine::Collider* collider, UnityEngine::Vector3 force, UnityEngine::Vector3 point);
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x183DFC0
+    // Offset: 0x1705668
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
     // public System.Void .ctor()
-    // Offset: 0x183E54C
+    // Offset: 0x1705BF4
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -34,32 +34,32 @@ namespace System::IO {
       return maybeFullPath;
     }
     // public System.Void .ctor(System.String message, System.Int32 hresult)
-    // Offset: 0x1453EB0
+    // Offset: 0x143E2BC
     static IOException* New_ctor(::Il2CppString* message, int hresult);
     // System.Void .ctor(System.String message, System.Int32 hresult, System.String maybeFullPath)
-    // Offset: 0x1453EE4
+    // Offset: 0x143E2F0
     static IOException* New_ctor(::Il2CppString* message, int hresult, ::Il2CppString* maybeFullPath);
     // public System.Void .ctor()
-    // Offset: 0x14530AC
+    // Offset: 0x143D4B8
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static IOException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1446A98
+    // Offset: 0x1430EA4
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static IOException* New_ctor(::Il2CppString* message);
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x14466E0
+    // Offset: 0x1430AEC
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     static IOException* New_ctor(::Il2CppString* message, System::Exception* innerException);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x144BE54
+    // Offset: 0x1436260
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

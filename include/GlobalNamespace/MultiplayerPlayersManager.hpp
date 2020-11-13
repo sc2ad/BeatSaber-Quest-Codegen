@@ -167,87 +167,87 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_playerSpawningFinished()
-    // Offset: 0x1FD4884
+    // Offset: 0xF7B754
     bool get_playerSpawningFinished();
     // private System.Void set_playerSpawningFinished(System.Boolean value)
-    // Offset: 0x1FD488C
+    // Offset: 0xF7B75C
     void set_playerSpawningFinished(bool value);
     // public System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> get_allActivePlayers()
-    // Offset: 0x1FD4898
+    // Offset: 0xF7B768
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* get_allActivePlayers();
     // public IStartSeekSongControllerProvider get_localPlayerStartSeekSongController()
-    // Offset: 0x1FD48A0
+    // Offset: 0xF7B770
     GlobalNamespace::IStartSeekSongControllerProvider* get_localPlayerStartSeekSongController();
     // public MultiplayerLocalActivePlayerFacade get_activeLocalPlayerFacade()
-    // Offset: 0x1FD48A8
+    // Offset: 0xF7B778
     GlobalNamespace::MultiplayerLocalActivePlayerFacade* get_activeLocalPlayerFacade();
     // public MultiplayerLocalInactivePlayerFacade get_inactivePlayerFacade()
-    // Offset: 0x1FD48B0
+    // Offset: 0xF7B780
     GlobalNamespace::MultiplayerLocalInactivePlayerFacade* get_inactivePlayerFacade();
     // public UnityEngine.Transform get_localPlayerTransform()
-    // Offset: 0x1FD10C4
+    // Offset: 0xF77FA4
     UnityEngine::Transform* get_localPlayerTransform();
     // public System.Void add_playerSpawningDidFinishEvent(System.Action value)
-    // Offset: 0x1FD48B8
+    // Offset: 0xF7B788
     void add_playerSpawningDidFinishEvent(System::Action* value);
     // public System.Void remove_playerSpawningDidFinishEvent(System.Action value)
-    // Offset: 0x1FD495C
+    // Offset: 0xF7B82C
     void remove_playerSpawningDidFinishEvent(System::Action* value);
     // public System.Void add_didSwitchPlayerToInactiveEvent(System.Action value)
-    // Offset: 0x1FD4A00
+    // Offset: 0xF7B8D0
     void add_didSwitchPlayerToInactiveEvent(System::Action* value);
     // public System.Void remove_didSwitchPlayerToInactiveEvent(System.Action value)
-    // Offset: 0x1FD4AA4
+    // Offset: 0xF7B974
     void remove_didSwitchPlayerToInactiveEvent(System::Action* value);
     // public System.Void SpawnPlayers(MultiplayerPlayerStartState localPlayerStartState)
-    // Offset: 0x1FD4DD8
+    // Offset: 0xF7BCA8
     void SpawnPlayers(GlobalNamespace::MultiplayerPlayerStartState localPlayerStartState);
     // public System.Boolean TryGetConnectedPlayerController(System.String userId, out MultiplayerConnectedPlayerFacade connectedPlayerController)
-    // Offset: 0x1FD1C04
+    // Offset: 0xF78AE4
     bool TryGetConnectedPlayerController(::Il2CppString* userId, GlobalNamespace::MultiplayerConnectedPlayerFacade*& connectedPlayerController);
     // public System.Boolean TryGetConnectedCenterFacingRotation(System.String userId, out System.Single centerFacingRotation)
-    // Offset: 0x1FD5774
+    // Offset: 0xF7C608
     bool TryGetConnectedCenterFacingRotation(::Il2CppString* userId, float& centerFacingRotation);
     // public System.Void SwitchLocalPlayerToInactive()
-    // Offset: 0x1FD57E4
+    // Offset: 0xF6D014
     void SwitchLocalPlayerToInactive();
     // public System.Void ReportLocalPlayerNetworkDidFailed(PlayerNetworkFailReason failReason)
-    // Offset: 0x1FD588C
+    // Offset: 0xF7C6F4
     void ReportLocalPlayerNetworkDidFailed(GlobalNamespace::PlayerNetworkFailReason failReason);
     // private System.Collections.IEnumerator SwitchLocalPlayerToInactiveCoroutine()
-    // Offset: 0x1FD5810
+    // Offset: 0xF7C678
     System::Collections::IEnumerator* SwitchLocalPlayerToInactiveCoroutine();
     // private System.Void BindPlayerFactories(MultiplayerPlayerLayout layout)
-    // Offset: 0x1FD5558
+    // Offset: 0xF7C418
     void BindPlayerFactories(GlobalNamespace::MultiplayerPlayerLayout layout);
     // private System.Void HandlePlayerDidFinish(LevelCompletionResults levelCompletionResults)
-    // Offset: 0x1FD592C
+    // Offset: 0xF7C794
     void HandlePlayerDidFinish(GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // private System.Void HandlePlayerNetworkDidFailed(PlayerNetworkFailReason failReason)
-    // Offset: 0x1FD59A0
+    // Offset: 0xF7C808
     void HandlePlayerNetworkDidFailed(GlobalNamespace::PlayerNetworkFailReason failReason);
     // public System.Void add_playerDidFinishEvent(System.Action`1<LevelCompletionResults> value)
-    // Offset: 0x1FD4B48
+    // Offset: 0xF7BA18
     // Implemented from: IMultiplayerLevelEndActionsPublisher
     // Base method: System.Void IMultiplayerLevelEndActionsPublisher::add_playerDidFinishEvent(System.Action`1<LevelCompletionResults> value)
     void add_playerDidFinishEvent(System::Action_1<GlobalNamespace::LevelCompletionResults*>* value);
     // public System.Void remove_playerDidFinishEvent(System.Action`1<LevelCompletionResults> value)
-    // Offset: 0x1FD4BEC
+    // Offset: 0xF7BABC
     // Implemented from: IMultiplayerLevelEndActionsPublisher
     // Base method: System.Void IMultiplayerLevelEndActionsPublisher::remove_playerDidFinishEvent(System.Action`1<LevelCompletionResults> value)
     void remove_playerDidFinishEvent(System::Action_1<GlobalNamespace::LevelCompletionResults*>* value);
     // public System.Void add_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
-    // Offset: 0x1FD4C90
+    // Offset: 0xF7BB60
     // Implemented from: IMultiplayerLevelEndActionsPublisher
     // Base method: System.Void IMultiplayerLevelEndActionsPublisher::add_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
     void add_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
     // public System.Void remove_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
-    // Offset: 0x1FD4D34
+    // Offset: 0xF7BC04
     // Implemented from: IMultiplayerLevelEndActionsPublisher
     // Base method: System.Void IMultiplayerLevelEndActionsPublisher::remove_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
     void remove_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
     // public System.Void .ctor()
-    // Offset: 0x1FD59A4
+    // Offset: 0xF7C80C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

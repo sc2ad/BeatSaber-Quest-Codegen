@@ -51,11 +51,6 @@ namespace System::Threading::Tasks {
     bool TrySetException(System::Exception* exception) {
       return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TrySetException", exception));
     }
-    // public System.Void SetException(System.Exception exception)
-    // Offset: 0xFFFFFFFF
-    void SetException(System::Exception* exception) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "SetException", exception));
-    }
     // public System.Boolean TrySetResult(TResult result)
     // Offset: 0xFFFFFFFF
     bool TrySetResult(TResult result) {

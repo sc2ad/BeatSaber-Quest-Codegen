@@ -24,13 +24,13 @@ namespace NetEase::Docker {
     // Creating value type constructor for type: RequestHighscoreData
     constexpr RequestHighscoreData(::Il2CppString* Track_ = {}, ::Il2CppString* HighscoreType_ = {}) noexcept : Track{Track_}, HighscoreType{HighscoreType_} {}
     // public System.String get_Track()
-    // Offset: 0xC8CDA0
+    // Offset: 0xCB9CD0
     ::Il2CppString* get_Track();
     // public System.Void set_Track(System.String value)
-    // Offset: 0xC8CDA8
+    // Offset: 0xCB9CD8
     void set_Track(::Il2CppString* value);
     // public System.Void set_HighscoreType(System.String value)
-    // Offset: 0xC8CDB0
+    // Offset: 0xCB9CE0
     void set_HighscoreType(::Il2CppString* value);
   }; // NetEase.Docker.RequestHighscoreData
 }

@@ -33,13 +33,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // private System.Void .ctor(System.String operationName)
-    // Offset: 0x215D11C
+    // Offset: 0x1B4B334
     static DiffieHellmanUtility::OperationTimer* New_ctor(::Il2CppString* operationName);
     // static public DiffieHellmanUtility/OperationTimer Time(System.String operation)
-    // Offset: 0x215C854
+    // Offset: 0x1B4A998
     static GlobalNamespace::DiffieHellmanUtility::OperationTimer* Time(::Il2CppString* operation);
     // public System.Void Dispose()
-    // Offset: 0x215D1C0
+    // Offset: 0x1B4B3D8
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

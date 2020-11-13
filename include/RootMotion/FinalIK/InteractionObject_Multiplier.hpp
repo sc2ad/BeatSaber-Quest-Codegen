@@ -23,10 +23,10 @@ namespace RootMotion::FinalIK {
     // Offset: 0x18
     RootMotion::FinalIK::InteractionObject::WeightCurve::Type result;
     // public System.Single GetValue(RootMotion.FinalIK.InteractionObject/WeightCurve weightCurve, System.Single timer)
-    // Offset: 0x199E630
+    // Offset: 0x17EBA20
     float GetValue(RootMotion::FinalIK::InteractionObject::WeightCurve* weightCurve, float timer);
     // public System.Void .ctor()
-    // Offset: 0x199EAE4
+    // Offset: 0x17EBED4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InteractionObject::Multiplier* New_ctor();

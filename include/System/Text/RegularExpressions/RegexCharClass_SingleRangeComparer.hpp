@@ -20,12 +20,12 @@ namespace System::Text::RegularExpressions {
       return *reinterpret_cast<System::Collections::Generic::IComparer_1<System::Text::RegularExpressions::RegexCharClass::SingleRange*>*>(this);
     }
     // public System.Int32 Compare(System.Text.RegularExpressions.RegexCharClass/SingleRange x, System.Text.RegularExpressions.RegexCharClass/SingleRange y)
-    // Offset: 0x15A7310
+    // Offset: 0x1544B80
     // Implemented from: System.Collections.Generic.IComparer`1
     // Base method: System.Int32 IComparer_1::Compare(System.Text.RegularExpressions.RegexCharClass/SingleRange x, System.Text.RegularExpressions.RegexCharClass/SingleRange y)
     int Compare(System::Text::RegularExpressions::RegexCharClass::SingleRange* x, System::Text::RegularExpressions::RegexCharClass::SingleRange* y);
     // public System.Void .ctor()
-    // Offset: 0x15A734C
+    // Offset: 0x1544BBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RegexCharClass::SingleRangeComparer* New_ctor();

@@ -79,35 +79,35 @@ namespace GlobalNamespace {
     // Offset: 0xD8
     ::Array<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData>* statsScopeDatas;
     // private System.Void UpdateView(PlayerAllOverallStatsData/PlayerOverallStatsData playerOverallStatsData)
-    // Offset: 0x208EA44
+    // Offset: 0xF2A460
     void UpdateView(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* playerOverallStatsData);
     // private System.Void HandleStatsScopeSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x208F064
+    // Offset: 0xF2AA70
     void HandleStatsScopeSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // private PlayerAllOverallStatsData/PlayerOverallStatsData <DidActivate>b__15_0()
-    // Offset: 0x208F100
+    // Offset: 0xF2AB0C
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* $DidActivate$b__15_0();
     // private PlayerAllOverallStatsData/PlayerOverallStatsData <DidActivate>b__15_1()
-    // Offset: 0x208F140
+    // Offset: 0xF2AB3C
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* $DidActivate$b__15_1();
     // private PlayerAllOverallStatsData/PlayerOverallStatsData <DidActivate>b__15_2()
-    // Offset: 0x208F170
+    // Offset: 0xF2AB6C
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* $DidActivate$b__15_2();
     // private PlayerAllOverallStatsData/PlayerOverallStatsData <DidActivate>b__15_3()
-    // Offset: 0x208F1A0
+    // Offset: 0xF2AB9C
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* $DidActivate$b__15_3();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x208E5C0
+    // Offset: 0xF29FDC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x208EFB8
+    // Offset: 0xF2A9C4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x208F0F8
+    // Offset: 0xF2AB04
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -46,7 +46,7 @@ namespace UnityEngine::Playables {
     // Creating value type constructor for type: PlayableGraph
     constexpr PlayableGraph(System::IntPtr m_Handle_ = {}, uint m_Version_ = {}) noexcept : m_Handle{m_Handle_}, m_Version{m_Version_} {}
     // public UnityEngine.Playables.Playable GetRootPlayable(System.Int32 index)
-    // Offset: 0xC7B818
+    // Offset: 0xCA7030
     UnityEngine::Playables::Playable GetRootPlayable(int index);
     // public System.Boolean Connect(U source, System.Int32 sourceOutputPort, V destination, System.Int32 destinationInputPort)
     // Offset: 0xFFFFFFFF
@@ -57,58 +57,58 @@ namespace UnityEngine::Playables {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(*this, "Connect", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<V>::get()}, source, sourceOutputPort, destination, destinationInputPort)));
     }
     // public System.Boolean IsValid()
-    // Offset: 0xC7B820
+    // Offset: 0xCA7038
     bool IsValid();
     // public System.Boolean IsPlaying()
-    // Offset: 0xC7B860
+    // Offset: 0xCA7078
     bool IsPlaying();
     // public UnityEngine.IExposedPropertyTable GetResolver()
-    // Offset: 0xC7B8A0
+    // Offset: 0xCA70B8
     UnityEngine::IExposedPropertyTable* GetResolver();
     // public System.Int32 GetPlayableCount()
-    // Offset: 0xC7B8E0
+    // Offset: 0xCA70F8
     int GetPlayableCount();
     // public System.Int32 GetRootPlayableCount()
-    // Offset: 0xC7B920
+    // Offset: 0xCA7138
     int GetRootPlayableCount();
     // UnityEngine.Playables.PlayableHandle CreatePlayableHandle()
-    // Offset: 0xC7B960
+    // Offset: 0xCA7178
     UnityEngine::Playables::PlayableHandle CreatePlayableHandle();
     // System.Boolean CreateScriptOutputInternal(System.String name, out UnityEngine.Playables.PlayableOutputHandle handle)
-    // Offset: 0xC7B968
+    // Offset: 0xCA7180
     bool CreateScriptOutputInternal(::Il2CppString* name, UnityEngine::Playables::PlayableOutputHandle& handle);
     // UnityEngine.Playables.PlayableHandle GetRootPlayableInternal(System.Int32 index)
-    // Offset: 0xC7B9C0
+    // Offset: 0xCA71D8
     UnityEngine::Playables::PlayableHandle GetRootPlayableInternal(int index);
     // private System.Boolean ConnectInternal(UnityEngine.Playables.PlayableHandle source, System.Int32 sourceOutputPort, UnityEngine.Playables.PlayableHandle destination, System.Int32 destinationInputPort)
-    // Offset: 0xC7B9C8
+    // Offset: 0xCA71E0
     bool ConnectInternal(UnityEngine::Playables::PlayableHandle source, int sourceOutputPort, UnityEngine::Playables::PlayableHandle destination, int destinationInputPort);
     // static private System.Boolean IsValid_Injected(ref UnityEngine.Playables.PlayableGraph _unity_self)
-    // Offset: 0x193FBD0
+    // Offset: 0x1731C04
     static bool IsValid_Injected(UnityEngine::Playables::PlayableGraph& _unity_self);
     // static private System.Boolean IsPlaying_Injected(ref UnityEngine.Playables.PlayableGraph _unity_self)
-    // Offset: 0x193FC50
+    // Offset: 0x1731C84
     static bool IsPlaying_Injected(UnityEngine::Playables::PlayableGraph& _unity_self);
     // static private UnityEngine.IExposedPropertyTable GetResolver_Injected(ref UnityEngine.Playables.PlayableGraph _unity_self)
-    // Offset: 0x193FCD0
+    // Offset: 0x1731D04
     static UnityEngine::IExposedPropertyTable* GetResolver_Injected(UnityEngine::Playables::PlayableGraph& _unity_self);
     // static private System.Int32 GetPlayableCount_Injected(ref UnityEngine.Playables.PlayableGraph _unity_self)
-    // Offset: 0x193FD50
+    // Offset: 0x1731D84
     static int GetPlayableCount_Injected(UnityEngine::Playables::PlayableGraph& _unity_self);
     // static private System.Int32 GetRootPlayableCount_Injected(ref UnityEngine.Playables.PlayableGraph _unity_self)
-    // Offset: 0x193FDD0
+    // Offset: 0x1731E04
     static int GetRootPlayableCount_Injected(UnityEngine::Playables::PlayableGraph& _unity_self);
     // static private System.Void CreatePlayableHandle_Injected(ref UnityEngine.Playables.PlayableGraph _unity_self, out UnityEngine.Playables.PlayableHandle ret)
-    // Offset: 0x193FE10
+    // Offset: 0x1731E44
     static void CreatePlayableHandle_Injected(UnityEngine::Playables::PlayableGraph& _unity_self, UnityEngine::Playables::PlayableHandle& ret);
     // static private System.Boolean CreateScriptOutputInternal_Injected(ref UnityEngine.Playables.PlayableGraph _unity_self, System.String name, out UnityEngine.Playables.PlayableOutputHandle handle)
-    // Offset: 0x193FEB8
+    // Offset: 0x1731EEC
     static bool CreateScriptOutputInternal_Injected(UnityEngine::Playables::PlayableGraph& _unity_self, ::Il2CppString* name, UnityEngine::Playables::PlayableOutputHandle& handle);
     // static private System.Void GetRootPlayableInternal_Injected(ref UnityEngine.Playables.PlayableGraph _unity_self, System.Int32 index, out UnityEngine.Playables.PlayableHandle ret)
-    // Offset: 0x193FF10
+    // Offset: 0x1731F44
     static void GetRootPlayableInternal_Injected(UnityEngine::Playables::PlayableGraph& _unity_self, int index, UnityEngine::Playables::PlayableHandle& ret);
     // static private System.Boolean ConnectInternal_Injected(ref UnityEngine.Playables.PlayableGraph _unity_self, ref UnityEngine.Playables.PlayableHandle source, System.Int32 sourceOutputPort, ref UnityEngine.Playables.PlayableHandle destination, System.Int32 destinationInputPort)
-    // Offset: 0x193FFE0
+    // Offset: 0x1732014
     static bool ConnectInternal_Injected(UnityEngine::Playables::PlayableGraph& _unity_self, UnityEngine::Playables::PlayableHandle& source, int sourceOutputPort, UnityEngine::Playables::PlayableHandle& destination, int destinationInputPort);
   }; // UnityEngine.Playables.PlayableGraph
 }

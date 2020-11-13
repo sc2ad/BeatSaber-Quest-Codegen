@@ -25,10 +25,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x18
     ::Array<uint8_t>* id;
     // public System.Byte[] GetID()
-    // Offset: 0xF4D3F4
+    // Offset: 0x1048E00
     ::Array<uint8_t>* GetID();
     // public Org.BouncyCastle.Crypto.ICipherParameters get_Parameters()
-    // Offset: 0xF4D3FC
+    // Offset: 0x1048E08
     Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
   }; // Org.BouncyCastle.Crypto.Parameters.ParametersWithID
 }

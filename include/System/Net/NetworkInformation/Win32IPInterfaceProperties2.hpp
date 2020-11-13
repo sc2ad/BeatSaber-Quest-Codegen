@@ -40,18 +40,18 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x188
     System::Net::NetworkInformation::Win32_MIB_IFROW mib6;
     // public System.Void .ctor(System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr, System.Net.NetworkInformation.Win32_MIB_IFROW mib4, System.Net.NetworkInformation.Win32_MIB_IFROW mib6)
-    // Offset: 0x10C8268
+    // Offset: 0x119DB98
     static Win32IPInterfaceProperties2* New_ctor(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES addr, System::Net::NetworkInformation::Win32_MIB_IFROW mib4, System::Net::NetworkInformation::Win32_MIB_IFROW mib6);
     // static private System.Net.NetworkInformation.UnicastIPAddressInformationCollection Win32FromUnicast(System.IntPtr ptr)
-    // Offset: 0x10C8764
+    // Offset: 0x119E094
     static System::Net::NetworkInformation::UnicastIPAddressInformationCollection* Win32FromUnicast(System::IntPtr ptr);
     // public override System.Net.NetworkInformation.GatewayIPAddressInformationCollection get_GatewayAddresses()
-    // Offset: 0x10C82F8
+    // Offset: 0x119DC28
     // Implemented from: System.Net.NetworkInformation.IPInterfaceProperties
     // Base method: System.Net.NetworkInformation.GatewayIPAddressInformationCollection IPInterfaceProperties::get_GatewayAddresses()
     System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
     // public override System.Net.NetworkInformation.UnicastIPAddressInformationCollection get_UnicastAddresses()
-    // Offset: 0x10C868C
+    // Offset: 0x119DFBC
     // Implemented from: System.Net.NetworkInformation.IPInterfaceProperties
     // Base method: System.Net.NetworkInformation.UnicastIPAddressInformationCollection IPInterfaceProperties::get_UnicastAddresses()
     System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses();

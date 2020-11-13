@@ -21,10 +21,10 @@ namespace System::Runtime::InteropServices {
       return inited;
     }
     // public System.Void AcquirePointer(ref System.Byte* pointer)
-    // Offset: 0x108F3FC
+    // Offset: 0x1165D2C
     void AcquirePointer(uint8_t*& pointer);
     // public System.Void ReleasePointer()
-    // Offset: 0x108F590
+    // Offset: 0x1165EC0
     void ReleasePointer();
   }; // System.Runtime.InteropServices.SafeBuffer
 }

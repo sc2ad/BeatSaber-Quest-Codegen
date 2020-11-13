@@ -25,10 +25,10 @@ namespace UnityEngine::Experimental::Audio {
     // Offset: 0x18
     UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler* sampleFramesOverflow;
     // private System.Void InvokeSampleFramesAvailable(System.Int32 sampleFrameCount)
-    // Offset: 0x1F5C08C
+    // Offset: 0x19EDA70
     void InvokeSampleFramesAvailable(int sampleFrameCount);
     // private System.Void InvokeSampleFramesOverflow(System.Int32 droppedSampleFrameCount)
-    // Offset: 0x1F5C4D4
+    // Offset: 0x19EDEB8
     void InvokeSampleFramesOverflow(int droppedSampleFrameCount);
   }; // UnityEngine.Experimental.Audio.AudioSampleProvider
 }

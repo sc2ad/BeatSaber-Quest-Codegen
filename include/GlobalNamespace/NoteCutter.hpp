@@ -45,10 +45,10 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxNumberOfColliders
     static void _set_kMaxNumberOfColliders(int value);
     // public System.Void Cut(Saber saber)
-    // Offset: 0x20F5A98
+    // Offset: 0xFE47EC
     void Cut(GlobalNamespace::Saber* saber);
     // public System.Void .ctor()
-    // Offset: 0x20F5924
+    // Offset: 0xFE4678
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NoteCutter* New_ctor();

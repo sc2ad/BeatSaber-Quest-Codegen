@@ -37,13 +37,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Vertex,UnityEngine.Vector3> <>9__9_0
     static void _set_$$9__9_0(System::Func_2<UnityEngine::ProBuilder::Vertex*, UnityEngine::Vector3>* value);
     // static private System.Void .cctor()
-    // Offset: 0x134C854
+    // Offset: 0x138CCE0
     static void _cctor();
     // UnityEngine.Vector3 <Import>b__9_0(UnityEngine.ProBuilder.Vertex x)
-    // Offset: 0x134C8C4
+    // Offset: 0x138CD50
     UnityEngine::Vector3 $Import$b__9_0(UnityEngine::ProBuilder::Vertex* x);
     // public System.Void .ctor()
-    // Offset: 0x134C8BC
+    // Offset: 0x138CD48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MeshImporter::$$c* New_ctor();

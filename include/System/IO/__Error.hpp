@@ -12,43 +12,43 @@ namespace System::IO {
   class __Error : public ::Il2CppObject {
     public:
     // static System.Void EndOfFile()
-    // Offset: 0x136F4D0
+    // Offset: 0x13B095C
     static void EndOfFile();
     // static System.Void FileNotOpen()
-    // Offset: 0x136F550
+    // Offset: 0x13B09DC
     static void FileNotOpen();
     // static System.Void StreamIsClosed()
-    // Offset: 0x136DE60
+    // Offset: 0x13AF2EC
     static void StreamIsClosed();
     // static System.Void MemoryStreamNotExpandable()
-    // Offset: 0x136F5D4
+    // Offset: 0x13B0A60
     static void MemoryStreamNotExpandable();
     // static System.Void ReaderClosed()
-    // Offset: 0x1367EE0
+    // Offset: 0x13A936C
     static void ReaderClosed();
     // static System.Void ReadNotSupported()
-    // Offset: 0x1364A68
+    // Offset: 0x13A5EF4
     static void ReadNotSupported();
     // static System.Void WrongAsyncResult()
-    // Offset: 0x13671FC
+    // Offset: 0x13A8688
     static void WrongAsyncResult();
     // static System.Void EndReadCalledTwice()
-    // Offset: 0x136727C
+    // Offset: 0x13A8708
     static void EndReadCalledTwice();
     // static System.Void EndWriteCalledTwice()
-    // Offset: 0x13672FC
+    // Offset: 0x13A8788
     static void EndWriteCalledTwice();
     // static System.String GetDisplayablePath(System.String path, System.Boolean isInvalidPath)
-    // Offset: 0x136F654
+    // Offset: 0x13B0AE0
     static ::Il2CppString* GetDisplayablePath(::Il2CppString* path, bool isInvalidPath);
     // static System.Void WinIOError(System.Int32 errorCode, System.String maybeFullPath)
-    // Offset: 0x136F770
+    // Offset: 0x13B0BFC
     static void WinIOError(int errorCode, ::Il2CppString* maybeFullPath);
     // static System.Void WriteNotSupported()
-    // Offset: 0x1365768
+    // Offset: 0x13A6BF4
     static void WriteNotSupported();
     // static System.Void WriterClosed()
-    // Offset: 0x1369DEC
+    // Offset: 0x13AB278
     static void WriterClosed();
   }; // System.IO.__Error
 }

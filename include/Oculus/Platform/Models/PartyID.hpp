@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
       return ID;
     }
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x113CF28
+    // Offset: 0x11DDBE8
     static PartyID* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.PartyID
 }

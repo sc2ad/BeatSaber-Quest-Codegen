@@ -14,18 +14,18 @@ namespace Org::BouncyCastle::Security {
   class GeneralSecurityException : public System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFC51A4
+    // Offset: 0x10C0B4C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static GeneralSecurityException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xFC520C
+    // Offset: 0x10C0BB4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     static GeneralSecurityException* New_ctor(::Il2CppString* message);
     // public System.Void .ctor(System.String message, System.Exception exception)
-    // Offset: 0xFC5284
+    // Offset: 0x10C0C2C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception exception)
     static GeneralSecurityException* New_ctor(::Il2CppString* message, System::Exception* exception);

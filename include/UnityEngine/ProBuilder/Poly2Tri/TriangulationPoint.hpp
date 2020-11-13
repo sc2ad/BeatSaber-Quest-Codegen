@@ -37,22 +37,22 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0x28
     int Index;
     // public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint> get_Edges()
-    // Offset: 0x1F1C194
+    // Offset: 0x19B1DAC
     System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* get_Edges();
     // private System.Void set_Edges(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint> value)
-    // Offset: 0x1F1C19C
+    // Offset: 0x19B1DB4
     void set_Edges(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* value);
     // public System.Void .ctor(System.Double x, System.Double y, System.Int32 index)
-    // Offset: 0x1F1A870
+    // Offset: 0x19B0488
     static TriangulationPoint* New_ctor(double x, double y, int index);
     // public System.Void AddEdge(UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint e)
-    // Offset: 0x1F1A088
+    // Offset: 0x19AFCA0
     void AddEdge(UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* e);
     // public System.Boolean get_HasEdges()
-    // Offset: 0x1F16460
+    // Offset: 0x19AC078
     bool get_HasEdges();
     // public override System.String ToString()
-    // Offset: 0x1F1C1A4
+    // Offset: 0x19B1DBC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

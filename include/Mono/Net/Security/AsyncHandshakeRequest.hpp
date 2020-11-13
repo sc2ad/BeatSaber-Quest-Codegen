@@ -23,12 +23,12 @@ namespace Mono::Net::Security {
   class AsyncHandshakeRequest : public Mono::Net::Security::AsyncProtocolRequest {
     public:
     // public System.Void .ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean sync)
-    // Offset: 0x11EEF58
+    // Offset: 0x1264010
     // Implemented from: Mono.Net.Security.AsyncProtocolRequest
     // Base method: System.Void AsyncProtocolRequest::.ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean sync)
     static AsyncHandshakeRequest* New_ctor(Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync);
     // protected override Mono.Net.Security.AsyncOperationStatus Run(Mono.Net.Security.AsyncOperationStatus status)
-    // Offset: 0x11EF000
+    // Offset: 0x12640B8
     // Implemented from: Mono.Net.Security.AsyncProtocolRequest
     // Base method: Mono.Net.Security.AsyncOperationStatus AsyncProtocolRequest::Run(Mono.Net.Security.AsyncOperationStatus status)
     Mono::Net::Security::AsyncOperationStatus Run(Mono::Net::Security::AsyncOperationStatus status);

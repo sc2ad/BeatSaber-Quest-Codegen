@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     // Set static field: static public System.UInt64 Trigger
     static void _set_Trigger(uint64_t value);
     // public System.Void .ctor()
-    // Offset: 0x102C364
+    // Offset: 0x1103C94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SteamVR_Controller::ButtonMask* New_ctor();

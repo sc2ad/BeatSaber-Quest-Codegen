@@ -52,37 +52,37 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Offset: 0x48
     Org::BouncyCastle::Math::BigInteger* coefficient;
     // static public Org.BouncyCastle.Asn1.Pkcs.RsaPrivateKeyStructure GetInstance(System.Object obj)
-    // Offset: 0x140C88C
+    // Offset: 0x13FE784
     static Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x140C930
+    // Offset: 0x13FE828
     static RsaPrivateKeyStructure* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public Org.BouncyCastle.Math.BigInteger get_Modulus()
-    // Offset: 0x140CD10
+    // Offset: 0x13FEC08
     Org::BouncyCastle::Math::BigInteger* get_Modulus();
     // public Org.BouncyCastle.Math.BigInteger get_PublicExponent()
-    // Offset: 0x140CD18
+    // Offset: 0x13FEC10
     Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
     // public Org.BouncyCastle.Math.BigInteger get_PrivateExponent()
-    // Offset: 0x140CD20
+    // Offset: 0x13FEC18
     Org::BouncyCastle::Math::BigInteger* get_PrivateExponent();
     // public Org.BouncyCastle.Math.BigInteger get_Prime1()
-    // Offset: 0x140CD28
+    // Offset: 0x13FEC20
     Org::BouncyCastle::Math::BigInteger* get_Prime1();
     // public Org.BouncyCastle.Math.BigInteger get_Prime2()
-    // Offset: 0x140CD30
+    // Offset: 0x13FEC28
     Org::BouncyCastle::Math::BigInteger* get_Prime2();
     // public Org.BouncyCastle.Math.BigInteger get_Exponent1()
-    // Offset: 0x140CD38
+    // Offset: 0x13FEC30
     Org::BouncyCastle::Math::BigInteger* get_Exponent1();
     // public Org.BouncyCastle.Math.BigInteger get_Exponent2()
-    // Offset: 0x140CD40
+    // Offset: 0x13FEC38
     Org::BouncyCastle::Math::BigInteger* get_Exponent2();
     // public Org.BouncyCastle.Math.BigInteger get_Coefficient()
-    // Offset: 0x140CD48
+    // Offset: 0x13FEC40
     Org::BouncyCastle::Math::BigInteger* get_Coefficient();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x140CD50
+    // Offset: 0x13FEC48
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

@@ -34,17 +34,17 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IMultiplayerObservable*>(this);
     }
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x205CC1C
+    // Offset: 0xFA6524
     // Implemented from: IMultiplayerObservable
     // Base method: System.Single IMultiplayerObservable::get_offsetSyncTime()
     float get_offsetSyncTime();
     // public System.Boolean get_isFailed()
-    // Offset: 0x205CE44
+    // Offset: 0xFA674C
     // Implemented from: IMultiplayerObservable
     // Base method: System.Boolean IMultiplayerObservable::get_isFailed()
     bool get_isFailed();
     // public System.Void .ctor()
-    // Offset: 0x205CFA4
+    // Offset: 0xFA68AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MultiplayerActivePlayersTimeOffsetAverage* New_ctor();

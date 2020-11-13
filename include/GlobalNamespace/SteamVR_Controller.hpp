@@ -32,16 +32,16 @@ namespace GlobalNamespace {
     // Set static field: static private SteamVR_Controller/Device[] devices
     static void _set_devices(::Array<GlobalNamespace::SteamVR_Controller::Device*>* value);
     // static public SteamVR_Controller/Device Input(System.Int32 deviceIndex)
-    // Offset: 0x102BC1C
+    // Offset: 0x110354C
     static GlobalNamespace::SteamVR_Controller::Device* Input(int deviceIndex);
     // static public System.Void Update()
-    // Offset: 0x102BDBC
+    // Offset: 0x11036EC
     static void Update();
     // static public System.Int32 GetDeviceIndex(SteamVR_Controller/DeviceRelation relation, Valve.VR.ETrackedDeviceClass deviceClass, System.Int32 relativeTo)
-    // Offset: 0x102BF80
+    // Offset: 0x11038B0
     static int GetDeviceIndex(GlobalNamespace::SteamVR_Controller::DeviceRelation relation, Valve::VR::ETrackedDeviceClass deviceClass, int relativeTo);
     // public System.Void .ctor()
-    // Offset: 0x102C35C
+    // Offset: 0x1103C8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SteamVR_Controller* New_ctor();

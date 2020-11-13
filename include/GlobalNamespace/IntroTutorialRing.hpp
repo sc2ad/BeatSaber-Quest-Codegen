@@ -81,40 +81,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x20AFE38
+    // Offset: 0xF1C0F4
     void set_alpha(float value);
     // public System.Boolean get_fullyActivated()
-    // Offset: 0x20AFB94
+    // Offset: 0xF1BE50
     bool get_fullyActivated();
     // public SaberType get_saberType()
-    // Offset: 0x20AFFFC
+    // Offset: 0xF1C2B8
     GlobalNamespace::SaberType get_saberType();
     // public System.Void set_saberType(SaberType value)
-    // Offset: 0x20B0004
+    // Offset: 0xF1C2C0
     void set_saberType(GlobalNamespace::SaberType value);
     // protected System.Void Start()
-    // Offset: 0x20B000C
+    // Offset: 0xF1C2C8
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x20B00A4
+    // Offset: 0xF1C360
     void OnEnable();
     // protected System.Void Update()
-    // Offset: 0x20B00FC
+    // Offset: 0xF1C3B8
     void Update();
     // private System.Void SetProgressImagesfillAmount(System.Single fillAmount)
-    // Offset: 0x20B026C
+    // Offset: 0xF1C528
     void SetProgressImagesfillAmount(float fillAmount);
     // private System.Void OnTriggerEnter(UnityEngine.Collider other)
-    // Offset: 0x20B02E8
+    // Offset: 0xF1C5A4
     void OnTriggerEnter(UnityEngine::Collider* other);
     // private System.Void OnTriggerExit(UnityEngine.Collider other)
-    // Offset: 0x20B03EC
+    // Offset: 0xF1C6A8
     void OnTriggerExit(UnityEngine::Collider* other);
     // private System.Void OnTriggerStay(UnityEngine.Collider other)
-    // Offset: 0x20B04F0
+    // Offset: 0xF1C7AC
     void OnTriggerStay(UnityEngine::Collider* other);
     // public System.Void .ctor()
-    // Offset: 0x20B0600
+    // Offset: 0xF1C8BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

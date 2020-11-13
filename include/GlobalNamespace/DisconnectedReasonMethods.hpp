@@ -66,10 +66,10 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kDisconnectedMasterServerUnreachable
     static void _set_kDisconnectedMasterServerUnreachable(::Il2CppString* value);
     // static public System.String LocalizedKey(DisconnectedReason connectionFailedReason)
-    // Offset: 0x2018E2C
+    // Offset: 0x1A53CF0
     static ::Il2CppString* LocalizedKey(GlobalNamespace::DisconnectedReason connectionFailedReason);
     // static public System.String ErrorCode(DisconnectedReason disconnectedReason)
-    // Offset: 0x2018E94
+    // Offset: 0x1A53D58
     static ::Il2CppString* ErrorCode(GlobalNamespace::DisconnectedReason disconnectedReason);
   }; // DisconnectedReasonMethods
 }

@@ -34,6 +34,12 @@ namespace GlobalNamespace {
     static GlobalNamespace::BeatmapObjectType _get_Obstacle();
     // Set static field: static public BeatmapObjectType Obstacle
     static void _set_Obstacle(GlobalNamespace::BeatmapObjectType value);
+    // static field const value: static public BeatmapObjectType Waypoint
+    static constexpr const int Waypoint = 3;
+    // Get static field: static public BeatmapObjectType Waypoint
+    static GlobalNamespace::BeatmapObjectType _get_Waypoint();
+    // Set static field: static public BeatmapObjectType Waypoint
+    static void _set_Waypoint(GlobalNamespace::BeatmapObjectType value);
     // static field const value: static public BeatmapObjectType None
     static constexpr const int None = -1;
     // Get static field: static public BeatmapObjectType None

@@ -25,17 +25,17 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IRichPresencePlatformHandler*>(this);
     }
     // public System.Void SetPresence(IRichPresenceData richPresenceData)
-    // Offset: 0x1F9B2F8
+    // Offset: 0xFEC9AC
     // Implemented from: IRichPresencePlatformHandler
     // Base method: System.Void IRichPresencePlatformHandler::SetPresence(IRichPresenceData richPresenceData)
     void SetPresence(GlobalNamespace::IRichPresenceData* richPresenceData);
     // public System.Void Clear()
-    // Offset: 0x1F9B3DC
+    // Offset: 0xFECA90
     // Implemented from: IRichPresencePlatformHandler
     // Base method: System.Void IRichPresencePlatformHandler::Clear()
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x1F9B448
+    // Offset: 0xFECAFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestRichPresencePlatformHandler* New_ctor();

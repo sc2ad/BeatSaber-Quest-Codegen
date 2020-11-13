@@ -73,34 +73,34 @@ namespace UnityEngine {
     // Creating value type constructor for type: Particle
     constexpr Particle(UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Vector3 m_Velocity_ = {}, UnityEngine::Vector3 m_AnimatedVelocity_ = {}, UnityEngine::Vector3 m_InitialVelocity_ = {}, UnityEngine::Vector3 m_AxisOfRotation_ = {}, UnityEngine::Vector3 m_Rotation_ = {}, UnityEngine::Vector3 m_AngularVelocity_ = {}, UnityEngine::Vector3 m_StartSize_ = {}, UnityEngine::Color32 m_StartColor_ = {}, uint m_RandomSeed_ = {}, uint m_ParentRandomSeed_ = {}, float m_Lifetime_ = {}, float m_StartLifetime_ = {}, int m_MeshIndex_ = {}, float m_EmitAccumulator0_ = {}, float m_EmitAccumulator1_ = {}, uint m_Flags_ = {}) noexcept : m_Position{m_Position_}, m_Velocity{m_Velocity_}, m_AnimatedVelocity{m_AnimatedVelocity_}, m_InitialVelocity{m_InitialVelocity_}, m_AxisOfRotation{m_AxisOfRotation_}, m_Rotation{m_Rotation_}, m_AngularVelocity{m_AngularVelocity_}, m_StartSize{m_StartSize_}, m_StartColor{m_StartColor_}, m_RandomSeed{m_RandomSeed_}, m_ParentRandomSeed{m_ParentRandomSeed_}, m_Lifetime{m_Lifetime_}, m_StartLifetime{m_StartLifetime_}, m_MeshIndex{m_MeshIndex_}, m_EmitAccumulator0{m_EmitAccumulator0_}, m_EmitAccumulator1{m_EmitAccumulator1_}, m_Flags{m_Flags_} {}
     // public System.Void set_lifetime(System.Single value)
-    // Offset: 0xC8C38C
+    // Offset: 0xCB92BC
     void set_lifetime(float value);
     // public System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0xC8C394
+    // Offset: 0xCB92C4
     void set_position(UnityEngine::Vector3 value);
     // public System.Void set_velocity(UnityEngine.Vector3 value)
-    // Offset: 0xC8C3A0
+    // Offset: 0xCB92D0
     void set_velocity(UnityEngine::Vector3 value);
     // public System.Void set_remainingLifetime(System.Single value)
-    // Offset: 0xC8C3AC
+    // Offset: 0xCB92DC
     void set_remainingLifetime(float value);
     // public System.Void set_startLifetime(System.Single value)
-    // Offset: 0xC8C3B4
+    // Offset: 0xCB92E4
     void set_startLifetime(float value);
     // public System.Void set_startColor(UnityEngine.Color32 value)
-    // Offset: 0xC8C3BC
+    // Offset: 0xCB92EC
     void set_startColor(UnityEngine::Color32 value);
     // public System.Void set_randomSeed(System.UInt32 value)
-    // Offset: 0xC8C3C4
+    // Offset: 0xCB92F4
     void set_randomSeed(uint value);
     // public System.Void set_startSize(System.Single value)
-    // Offset: 0xC8C3CC
+    // Offset: 0xCB92FC
     void set_startSize(float value);
     // public System.Void set_rotation3D(UnityEngine.Vector3 value)
-    // Offset: 0xC8C41C
+    // Offset: 0xCB934C
     void set_rotation3D(UnityEngine::Vector3 value);
     // public System.Void set_angularVelocity3D(UnityEngine.Vector3 value)
-    // Offset: 0xC8C424
+    // Offset: 0xCB9354
     void set_angularVelocity3D(UnityEngine::Vector3 value);
   }; // UnityEngine.ParticleSystem/Particle
 }

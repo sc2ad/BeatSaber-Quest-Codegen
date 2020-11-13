@@ -19,10 +19,10 @@ namespace System::Net {
   class HttpStatusDescription : public ::Il2CppObject {
     public:
     // static System.String Get(System.Net.HttpStatusCode code)
-    // Offset: 0x123F7BC
+    // Offset: 0x12B48B8
     static ::Il2CppString* Get(System::Net::HttpStatusCode code);
     // static System.String Get(System.Int32 code)
-    // Offset: 0x1237A54
+    // Offset: 0x12ACB0C
     static ::Il2CppString* Get(int code);
   }; // System.Net.HttpStatusDescription
 }

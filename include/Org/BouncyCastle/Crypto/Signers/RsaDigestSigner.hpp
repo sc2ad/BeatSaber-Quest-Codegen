@@ -62,44 +62,46 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Set static field: static private readonly System.Collections.IDictionary oidMap
     static void _set_oidMap(System::Collections::IDictionary* value);
     // static private System.Void .cctor()
-    // Offset: 0xF57384
+    // Offset: 0x1052E44
     static void _cctor();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0xF57AFC
+    // Offset: 0x10535BC
     static RsaDigestSigner* New_ctor(Org::BouncyCastle::Crypto::IDigest* digest);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest, Org.BouncyCastle.Asn1.DerObjectIdentifier digestOid)
-    // Offset: 0xF57CA4
+    // Offset: 0x1053764
     static RsaDigestSigner* New_ctor(Org::BouncyCastle::Crypto::IDigest* digest, Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest, Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algId)
-    // Offset: 0xF57D58
+    // Offset: 0x1053818
     static RsaDigestSigner* New_ctor(Org::BouncyCastle::Crypto::IDigest* digest, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IRsa rsa, Org.BouncyCastle.Crypto.IDigest digest, Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algId)
-    // Offset: 0xF57DD4
+    // Offset: 0x1053894
     static RsaDigestSigner* New_ctor(Org::BouncyCastle::Crypto::IRsa* rsa, Org::BouncyCastle::Crypto::IDigest* digest, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher rsaEngine, Org.BouncyCastle.Crypto.IDigest digest, Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algId)
-    // Offset: 0xF57E60
+    // Offset: 0x1053920
     static RsaDigestSigner* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* rsaEngine, Org::BouncyCastle::Crypto::IDigest* digest, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId);
-    // public System.Void Reset()
-    // Offset: 0xF584BC
-    void Reset();
     // private System.Byte[] DerEncode(System.Byte[] hash)
-    // Offset: 0xF58420
+    // Offset: 0x1053EE0
     ::Array<uint8_t>* DerEncode(::Array<uint8_t>* hash);
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0xF57F14
+    // Offset: 0x10539D4
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Void ISigner::Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0xF5811C
+    // Offset: 0x1053BDC
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Void ISigner::BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     void BlockUpdate(::Array<uint8_t>* input, int inOff, int length);
     // public System.Byte[] GenerateSignature()
-    // Offset: 0xF581F8
+    // Offset: 0x1053CB8
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Byte[] ISigner::GenerateSignature()
     ::Array<uint8_t>* GenerateSignature();
+    // public System.Void Reset()
+    // Offset: 0x1053F7C
+    // Implemented from: Org.BouncyCastle.Crypto.ISigner
+    // Base method: System.Void ISigner::Reset()
+    void Reset();
   }; // Org.BouncyCastle.Crypto.Signers.RsaDigestSigner
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

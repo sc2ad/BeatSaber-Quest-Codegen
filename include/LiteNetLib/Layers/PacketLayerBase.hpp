@@ -26,7 +26,7 @@ namespace LiteNetLib::Layers {
       return ExtraPacketSizeForLayer;
     }
     // protected System.Void .ctor(System.Int32 extraPacketSizeForLayer)
-    // Offset: 0x1804CE8
+    // Offset: 0x1DC4050
     static PacketLayerBase* New_ctor(int extraPacketSizeForLayer);
     // public System.Void ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
     // Offset: 0xFFFFFFFF

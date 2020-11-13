@@ -19,10 +19,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String[] get_strings()
-    // Offset: 0x223E7CC
+    // Offset: 0x19CDE6C
     ::Array<::Il2CppString*>* get_strings();
     // public System.Void .ctor()
-    // Offset: 0x223E7D4
+    // Offset: 0x19CDE74
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

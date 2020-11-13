@@ -45,19 +45,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Init(System.Single innerCircleRadius, System.Single minOuterCircleRadius)
-    // Offset: 0x2045638
+    // Offset: 0xFBA3A8
     void Init(float innerCircleRadius, float minOuterCircleRadius);
     // public System.Void ActivateCenterStageManager()
-    // Offset: 0x2045640
+    // Offset: 0xFBA3B0
     void ActivateCenterStageManager();
     // public System.Void DeactivateCenterStageManager()
-    // Offset: 0x20457C4
+    // Offset: 0xFBA534
     void DeactivateCenterStageManager();
     // private System.Void RecalculateCenterPosition()
-    // Offset: 0x2045670
+    // Offset: 0xFBA3E0
     void RecalculateCenterPosition();
     // public System.Void .ctor()
-    // Offset: 0x20457F4
+    // Offset: 0xFBA564
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -145,139 +145,139 @@ namespace UnityEngine::UI {
     // Set static field: static private readonly UnityEngine.UI.VertexHelper s_VertexHelper
     static void _set_s_VertexHelper(UnityEngine::UI::VertexHelper* value);
     // static public UnityEngine.Material get_defaultGraphicMaterial()
-    // Offset: 0x150BD70
+    // Offset: 0x14C6F2C
     static UnityEngine::Material* get_defaultGraphicMaterial();
     // public UnityEngine.Color get_color()
-    // Offset: 0x150BE70
+    // Offset: 0x14C702C
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x150BE7C
+    // Offset: 0x14C7038
     void set_color(UnityEngine::Color value);
     // public System.Boolean get_raycastTarget()
-    // Offset: 0x150BEC4
+    // Offset: 0x14C7080
     bool get_raycastTarget();
     // public System.Void set_raycastTarget(System.Boolean value)
-    // Offset: 0x150BECC
+    // Offset: 0x14C7088
     void set_raycastTarget(bool value);
     // protected System.Boolean get_useLegacyMeshGeneration()
-    // Offset: 0x150BED8
+    // Offset: 0x14C7094
     bool get_useLegacyMeshGeneration();
     // protected System.Void set_useLegacyMeshGeneration(System.Boolean value)
-    // Offset: 0x150BEE0
+    // Offset: 0x14C709C
     void set_useLegacyMeshGeneration(bool value);
     // public System.Void SetAllDirty()
-    // Offset: 0x150BFB4
+    // Offset: 0x14C7170
     void SetAllDirty();
     // public System.Void SetLayoutDirty()
-    // Offset: 0x150C028
+    // Offset: 0x14C71E4
     void SetLayoutDirty();
     // public System.Void SetVerticesDirty()
-    // Offset: 0x150C144
+    // Offset: 0x14C7300
     void SetVerticesDirty();
     // public System.Void SetMaterialDirty()
-    // Offset: 0x150C1E4
+    // Offset: 0x14C73A0
     void SetMaterialDirty();
     // public System.Int32 get_depth()
-    // Offset: 0x150C974
+    // Offset: 0x14C7B30
     int get_depth();
     // public UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0x150C0D0
+    // Offset: 0x14C728C
     UnityEngine::RectTransform* get_rectTransform();
     // public UnityEngine.Canvas get_canvas()
-    // Offset: 0x150C3F8
+    // Offset: 0x14C75B4
     UnityEngine::Canvas* get_canvas();
     // private System.Void CacheCanvas()
-    // Offset: 0x150C694
+    // Offset: 0x14C7850
     void CacheCanvas();
     // public UnityEngine.CanvasRenderer get_canvasRenderer()
-    // Offset: 0x150C994
+    // Offset: 0x14C7B50
     UnityEngine::CanvasRenderer* get_canvasRenderer();
     // public UnityEngine.Material get_defaultMaterial()
-    // Offset: 0x150CA08
+    // Offset: 0x14C7BC4
     UnityEngine::Material* get_defaultMaterial();
     // public UnityEngine.Material get_material()
-    // Offset: 0x150CA64
+    // Offset: 0x14C7C20
     UnityEngine::Material* get_material();
     // public System.Void set_material(UnityEngine.Material value)
-    // Offset: 0x150CAFC
+    // Offset: 0x14C7CB8
     void set_material(UnityEngine::Material* value);
     // public UnityEngine.Material get_materialForRendering()
-    // Offset: 0x150CBB4
+    // Offset: 0x14C7D70
     UnityEngine::Material* get_materialForRendering();
     // public UnityEngine.Texture get_mainTexture()
-    // Offset: 0x150CDB0
+    // Offset: 0x14C7F6C
     UnityEngine::Texture* get_mainTexture();
     // public System.Void OnCullingChanged()
-    // Offset: 0x150D298
+    // Offset: 0x14C8454
     void OnCullingChanged();
     // protected System.Void UpdateMaterial()
-    // Offset: 0x150D434
+    // Offset: 0x14C85F0
     void UpdateMaterial();
     // protected System.Void UpdateGeometry()
-    // Offset: 0x150D4F0
+    // Offset: 0x14C86AC
     void UpdateGeometry();
     // private System.Void DoMeshGeneration()
-    // Offset: 0x150D898
+    // Offset: 0x14C8A54
     void DoMeshGeneration();
     // private System.Void DoLegacyMeshGeneration()
-    // Offset: 0x150D500
+    // Offset: 0x14C86BC
     void DoLegacyMeshGeneration();
     // static protected UnityEngine.Mesh get_workerMesh()
-    // Offset: 0x150DC64
+    // Offset: 0x14C8E20
     static UnityEngine::Mesh* get_workerMesh();
     // protected System.Void OnFillVBO(System.Collections.Generic.List`1<UnityEngine.UIVertex> vbo)
-    // Offset: 0x150DDB4
+    // Offset: 0x14C8F70
     void OnFillVBO(System::Collections::Generic::List_1<UnityEngine::UIVertex>* vbo);
     // protected System.Void OnPopulateMesh(UnityEngine.Mesh m)
-    // Offset: 0x150DDB8
+    // Offset: 0x14C8F74
     void OnPopulateMesh(UnityEngine::Mesh* m);
     // protected System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x150DE60
+    // Offset: 0x14C901C
     void OnPopulateMesh(UnityEngine::UI::VertexHelper* vh);
     // public System.Void SetNativeSize()
-    // Offset: 0x150E210
+    // Offset: 0x14C93CC
     void SetNativeSize();
     // public System.Boolean Raycast(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
-    // Offset: 0x150E214
+    // Offset: 0x14C93D0
     bool Raycast(UnityEngine::Vector2 sp, UnityEngine::Camera* eventCamera);
     // public UnityEngine.Vector2 PixelAdjustPoint(UnityEngine.Vector2 point)
-    // Offset: 0x150E68C
+    // Offset: 0x14C9848
     UnityEngine::Vector2 PixelAdjustPoint(UnityEngine::Vector2 point);
     // public UnityEngine.Rect GetPixelAdjustedRect()
-    // Offset: 0x150E0C8
+    // Offset: 0x14C9284
     UnityEngine::Rect GetPixelAdjustedRect();
     // public System.Void CrossFadeColor(UnityEngine.Color targetColor, System.Single duration, System.Boolean ignoreTimeScale, System.Boolean useAlpha)
-    // Offset: 0x150E7D8
+    // Offset: 0x14C9994
     void CrossFadeColor(UnityEngine::Color targetColor, float duration, bool ignoreTimeScale, bool useAlpha);
     // public System.Void CrossFadeColor(UnityEngine.Color targetColor, System.Single duration, System.Boolean ignoreTimeScale, System.Boolean useAlpha, System.Boolean useRGB)
-    // Offset: 0x150E7F4
+    // Offset: 0x14C99B0
     void CrossFadeColor(UnityEngine::Color targetColor, float duration, bool ignoreTimeScale, bool useAlpha, bool useRGB);
     // static private UnityEngine.Color CreateColorFromAlpha(System.Single alpha)
-    // Offset: 0x150EA40
+    // Offset: 0x14C9BFC
     static UnityEngine::Color CreateColorFromAlpha(float alpha);
     // public System.Void CrossFadeAlpha(System.Single alpha, System.Single duration, System.Boolean ignoreTimeScale)
-    // Offset: 0x150EA68
+    // Offset: 0x14C9C24
     void CrossFadeAlpha(float alpha, float duration, bool ignoreTimeScale);
     // public System.Void RegisterDirtyLayoutCallback(UnityEngine.Events.UnityAction action)
-    // Offset: 0x150EB10
+    // Offset: 0x14C9CCC
     void RegisterDirtyLayoutCallback(UnityEngine::Events::UnityAction* action);
     // public System.Void UnregisterDirtyLayoutCallback(UnityEngine.Events.UnityAction action)
-    // Offset: 0x150EBA0
+    // Offset: 0x14C9D5C
     void UnregisterDirtyLayoutCallback(UnityEngine::Events::UnityAction* action);
     // public System.Void RegisterDirtyVerticesCallback(UnityEngine.Events.UnityAction action)
-    // Offset: 0x150EC30
+    // Offset: 0x14C9DEC
     void RegisterDirtyVerticesCallback(UnityEngine::Events::UnityAction* action);
     // public System.Void UnregisterDirtyVerticesCallback(UnityEngine.Events.UnityAction action)
-    // Offset: 0x150ECC0
+    // Offset: 0x14C9E7C
     void UnregisterDirtyVerticesCallback(UnityEngine::Events::UnityAction* action);
     // public System.Void RegisterDirtyMaterialCallback(UnityEngine.Events.UnityAction action)
-    // Offset: 0x150ED50
+    // Offset: 0x14C9F0C
     void RegisterDirtyMaterialCallback(UnityEngine::Events::UnityAction* action);
     // public System.Void UnregisterDirtyMaterialCallback(UnityEngine.Events.UnityAction action)
-    // Offset: 0x150EDE0
+    // Offset: 0x14C9F9C
     void UnregisterDirtyMaterialCallback(UnityEngine::Events::UnityAction* action);
     // protected System.Void .ctor()
-    // Offset: 0x150BEEC
+    // Offset: 0x14C70A8
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -287,67 +287,67 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static Graphic* New_ctor();
     // protected override System.Void OnRectTransformDimensionsChange()
-    // Offset: 0x150C284
+    // Offset: 0x14C7440
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnRectTransformDimensionsChange()
     void OnRectTransformDimensionsChange();
     // protected override System.Void OnBeforeTransformParentChanged()
-    // Offset: 0x150C344
+    // Offset: 0x14C7500
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnBeforeTransformParentChanged()
     void OnBeforeTransformParentChanged();
     // protected override System.Void OnTransformParentChanged()
-    // Offset: 0x150C5C4
+    // Offset: 0x14C7780
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnTransformParentChanged()
     void OnTransformParentChanged();
     // protected override System.Void OnEnable()
-    // Offset: 0x150CE18
+    // Offset: 0x14C7FD4
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x150CF60
+    // Offset: 0x14C811C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // protected override System.Void OnDestroy()
-    // Offset: 0x150D0A8
+    // Offset: 0x14C8264
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDestroy()
     void OnDestroy();
     // protected override System.Void OnCanvasHierarchyChanged()
-    // Offset: 0x150D168
+    // Offset: 0x14C8324
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnCanvasHierarchyChanged()
     void OnCanvasHierarchyChanged();
     // public System.Void Rebuild(UnityEngine.UI.CanvasUpdate update)
-    // Offset: 0x150D338
+    // Offset: 0x14C84F4
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::Rebuild(UnityEngine.UI.CanvasUpdate update)
     void Rebuild(UnityEngine::UI::CanvasUpdate update);
     // public System.Void LayoutComplete()
-    // Offset: 0x150D42C
+    // Offset: 0x14C85E8
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::LayoutComplete()
     void LayoutComplete();
     // public System.Void GraphicUpdateComplete()
-    // Offset: 0x150D430
+    // Offset: 0x14C85EC
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: System.Void ICanvasElement::GraphicUpdateComplete()
     void GraphicUpdateComplete();
     // protected override System.Void OnDidApplyAnimationProperties()
-    // Offset: 0x150E200
+    // Offset: 0x14C93BC
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDidApplyAnimationProperties()
     void OnDidApplyAnimationProperties();
     // static private System.Void .cctor()
-    // Offset: 0x150EE70
+    // Offset: 0x14CA02C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
     // private UnityEngine.Transform UnityEngine.UI.ICanvasElement.get_transform()
-    // Offset: 0x150EF08
+    // Offset: 0x14CA0C4
     // Implemented from: UnityEngine.UI.ICanvasElement
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();

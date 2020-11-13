@@ -44,10 +44,10 @@ namespace RootMotion::FinalIK {
     // Offset: 0x28
     UnityEngine::Events::UnityEvent* unityEvent;
     // public System.Void Activate(UnityEngine.Transform t)
-    // Offset: 0x199CA5C
+    // Offset: 0x17E9E4C
     void Activate(UnityEngine::Transform* t);
     // public System.Void .ctor()
-    // Offset: 0x199EAD4
+    // Offset: 0x17EBEC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InteractionObject::InteractionEvent* New_ctor();

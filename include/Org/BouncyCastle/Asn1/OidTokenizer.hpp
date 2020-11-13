@@ -18,13 +18,13 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x18
     int index;
     // public System.Void .ctor(System.String oid)
-    // Offset: 0x1406644
+    // Offset: 0x13F853C
     static OidTokenizer* New_ctor(::Il2CppString* oid);
     // public System.Boolean get_HasMoreTokens()
-    // Offset: 0x1406678
+    // Offset: 0x13F8570
     bool get_HasMoreTokens();
     // public System.String NextToken()
-    // Offset: 0x1406688
+    // Offset: 0x13F8580
     ::Il2CppString* NextToken();
   }; // Org.BouncyCastle.Asn1.OidTokenizer
 }

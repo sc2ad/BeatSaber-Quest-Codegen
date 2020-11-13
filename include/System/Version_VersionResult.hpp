@@ -42,16 +42,16 @@ namespace System {
     // Creating value type constructor for type: VersionResult
     constexpr VersionResult(System::Version* m_parsedVersion_ = {}, System::Version::ParseFailureKind m_failure_ = {}, ::Il2CppString* m_exceptionArgument_ = {}, ::Il2CppString* m_argumentName_ = {}, bool m_canThrow_ = {}) noexcept : m_parsedVersion{m_parsedVersion_}, m_failure{m_failure_}, m_exceptionArgument{m_exceptionArgument_}, m_argumentName{m_argumentName_}, m_canThrow{m_canThrow_} {}
     // System.Void Init(System.String argumentName, System.Boolean canThrow)
-    // Offset: 0xC8AC8C
+    // Offset: 0xCB7BBC
     void Init(::Il2CppString* argumentName, bool canThrow);
     // System.Void SetFailure(System.Version/ParseFailureKind failure)
-    // Offset: 0xC8AC9C
+    // Offset: 0xCB7BCC
     void SetFailure(System::Version::ParseFailureKind failure);
     // System.Void SetFailure(System.Version/ParseFailureKind failure, System.String argument)
-    // Offset: 0xC8ACA4
+    // Offset: 0xCB7BD4
     void SetFailure(System::Version::ParseFailureKind failure, ::Il2CppString* argument);
     // System.Exception GetVersionParseException()
-    // Offset: 0xC8ACAC
+    // Offset: 0xCB7BDC
     System::Exception* GetVersionParseException();
   }; // System.Version/VersionResult
 }

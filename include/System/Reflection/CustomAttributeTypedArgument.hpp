@@ -32,23 +32,23 @@ namespace System::Reflection {
     // Creating value type constructor for type: CustomAttributeTypedArgument
     constexpr CustomAttributeTypedArgument(System::Type* argumentType_ = {}, ::Il2CppObject* value_ = {}) noexcept : argumentType{argumentType_}, value{value_} {}
     // public System.Void .ctor(System.Type argumentType, System.Object value)
-    // Offset: 0xC78FF8
+    // Offset: 0xCA6CE4
     // ABORTED: conflicts with another method.  CustomAttributeTypedArgument(System::Type* argumentType, ::Il2CppObject* value);
     // public System.Object get_Value()
-    // Offset: 0xC79000
+    // Offset: 0xCA6CEC
     ::Il2CppObject* get_Value();
     // public override System.String ToString()
-    // Offset: 0xC79008
+    // Offset: 0xCA6CF4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xC79010
+    // Offset: 0xCA6CFC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xC79018
+    // Offset: 0xCA6D04
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

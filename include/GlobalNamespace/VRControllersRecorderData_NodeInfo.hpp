@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Offset: 0x14
     int nodeIdx;
     // public System.Void .ctor(UnityEngine.XR.XRNode nodeType, System.Int32 nodeIdx)
-    // Offset: 0x21EADF4
+    // Offset: 0x197425C
     static VRControllersRecorderData::NodeInfo* New_ctor(UnityEngine::XR::XRNode nodeType, int nodeIdx);
   }; // VRControllersRecorderData/NodeInfo
 }

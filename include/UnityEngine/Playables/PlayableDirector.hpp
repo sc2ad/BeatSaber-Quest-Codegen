@@ -56,61 +56,70 @@ namespace UnityEngine::Playables {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Playables.DirectorWrapMode get_extrapolationMode()
-    // Offset: 0x1F7CEE4
+    // Offset: 0x1A0C220
     UnityEngine::Playables::DirectorWrapMode get_extrapolationMode();
     // public UnityEngine.Playables.PlayableAsset get_playableAsset()
-    // Offset: 0x1F7CF64
+    // Offset: 0x1A0C2A0
     UnityEngine::Playables::PlayableAsset* get_playableAsset();
     // public UnityEngine.Playables.PlayableGraph get_playableGraph()
-    // Offset: 0x1F7D04C
+    // Offset: 0x1A0C388
     UnityEngine::Playables::PlayableGraph get_playableGraph();
+    // public System.Void SetGenericBinding(UnityEngine.Object key, UnityEngine.Object value)
+    // Offset: 0x1A0C3E4
+    void SetGenericBinding(UnityEngine::Object* key, UnityEngine::Object* value);
     // public System.Void set_time(System.Double value)
-    // Offset: 0x1F7D0A8
+    // Offset: 0x1A0C494
     void set_time(double value);
     // public System.Double get_time()
-    // Offset: 0x1F7D0F8
+    // Offset: 0x1A0C4E4
     double get_time();
+    // public System.Double get_duration()
+    // Offset: 0x1A0C524
+    double get_duration();
     // public System.Void Evaluate()
-    // Offset: 0x1F7D138
+    // Offset: 0x1A0C564
     void Evaluate();
     // public System.Void Play()
-    // Offset: 0x1F7D178
+    // Offset: 0x1A0C5A4
     void Play();
     // public System.Void Stop()
-    // Offset: 0x1F7D1B8
+    // Offset: 0x1A0C5E4
     void Stop();
     // public System.Void Pause()
-    // Offset: 0x1F7D1F8
+    // Offset: 0x1A0C624
     void Pause();
     // public UnityEngine.Object GetGenericBinding(UnityEngine.Object key)
-    // Offset: 0x1F7D2EC
+    // Offset: 0x1A0C718
     UnityEngine::Object* GetGenericBinding(UnityEngine::Object* key);
     // private UnityEngine.Playables.DirectorWrapMode GetWrapMode()
-    // Offset: 0x1F7CF24
+    // Offset: 0x1A0C260
     UnityEngine::Playables::DirectorWrapMode GetWrapMode();
     // private UnityEngine.Playables.PlayableGraph GetGraphHandle()
-    // Offset: 0x1F7D050
+    // Offset: 0x1A0C38C
     UnityEngine::Playables::PlayableGraph GetGraphHandle();
+    // private System.Void Internal_SetGenericBinding(UnityEngine.Object key, UnityEngine.Object value)
+    // Offset: 0x1A0C43C
+    void Internal_SetGenericBinding(UnityEngine::Object* key, UnityEngine::Object* value);
     // private UnityEngine.ScriptableObject Internal_GetPlayableAsset()
-    // Offset: 0x1F7D00C
+    // Offset: 0x1A0C348
     UnityEngine::ScriptableObject* Internal_GetPlayableAsset();
     // private System.Void SendOnPlayableDirectorPlay()
-    // Offset: 0x1F7D38C
+    // Offset: 0x1A0C7B8
     void SendOnPlayableDirectorPlay();
     // private System.Void SendOnPlayableDirectorPause()
-    // Offset: 0x1F7D3F0
+    // Offset: 0x1A0C81C
     void SendOnPlayableDirectorPause();
     // private System.Void SendOnPlayableDirectorStop()
-    // Offset: 0x1F7D454
+    // Offset: 0x1A0C880
     void SendOnPlayableDirectorStop();
     // private UnityEngine.Object GetReferenceValue_Injected(ref UnityEngine.PropertyName id, out System.Boolean idValid)
-    // Offset: 0x1F7D294
+    // Offset: 0x1A0C6C0
     UnityEngine::Object* GetReferenceValue_Injected(UnityEngine::PropertyName& id, bool& idValid);
     // private System.Void GetGraphHandle_Injected(out UnityEngine.Playables.PlayableGraph ret)
-    // Offset: 0x1F7D33C
+    // Offset: 0x1A0C768
     void GetGraphHandle_Injected(UnityEngine::Playables::PlayableGraph& ret);
     // public UnityEngine.Object GetReferenceValue(UnityEngine.PropertyName id, out System.Boolean idValid)
-    // Offset: 0x1F7D238
+    // Offset: 0x1A0C664
     // Implemented from: UnityEngine.IExposedPropertyTable
     // Base method: UnityEngine.Object IExposedPropertyTable::GetReferenceValue(UnityEngine.PropertyName id, out System.Boolean idValid)
     UnityEngine::Object* GetReferenceValue(UnityEngine::PropertyName id, bool& idValid);

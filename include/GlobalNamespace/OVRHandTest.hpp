@@ -92,13 +92,13 @@ namespace GlobalNamespace {
     // Set static field: static private OVRHandTest/BoolMonitor controllers
     static void _set_controllers(GlobalNamespace::OVRHandTest::BoolMonitor* value);
     // private System.Void Start()
-    // Offset: 0x10DFDBC
+    // Offset: 0x11B66EC
     void Start();
     // private System.Void Update()
-    // Offset: 0x10E01C0
+    // Offset: 0x11B6AF0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x10E0E00
+    // Offset: 0x11B7730
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -107,7 +107,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRHandTest* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x10E0EA0
+    // Offset: 0x11B77D0
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

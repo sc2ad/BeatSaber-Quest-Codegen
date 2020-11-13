@@ -21,10 +21,10 @@ namespace UnityEngine::Timeline {
   class TrackAssetExtensions : public ::Il2CppObject {
     public:
     // static public UnityEngine.Timeline.GroupTrack GetGroup(UnityEngine.Timeline.TrackAsset asset)
-    // Offset: 0x1EEC90C
+    // Offset: 0x1972498
     static UnityEngine::Timeline::GroupTrack* GetGroup(UnityEngine::Timeline::TrackAsset* asset);
     // static public System.Void SetGroup(UnityEngine.Timeline.TrackAsset asset, UnityEngine.Timeline.GroupTrack group)
-    // Offset: 0x1EEC9D4
+    // Offset: 0x1972560
     static void SetGroup(UnityEngine::Timeline::TrackAsset* asset, UnityEngine::Timeline::GroupTrack* group);
   }; // UnityEngine.Timeline.TrackAssetExtensions
 }

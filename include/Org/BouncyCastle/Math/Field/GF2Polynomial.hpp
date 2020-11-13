@@ -25,25 +25,25 @@ namespace Org::BouncyCastle::Math::Field {
       return exponents;
     }
     // System.Void .ctor(System.Int32[] exponents)
-    // Offset: 0x1902CE4
+    // Offset: 0x1791E6C
     static GF2Polynomial* New_ctor(::Array<int>* exponents);
     // public System.Int32 get_Degree()
-    // Offset: 0x1903084
+    // Offset: 0x179220C
     // Implemented from: Org.BouncyCastle.Math.Field.IPolynomial
     // Base method: System.Int32 IPolynomial::get_Degree()
     int get_Degree();
     // public System.Int32[] GetExponentsPresent()
-    // Offset: 0x19030C4
+    // Offset: 0x179224C
     // Implemented from: Org.BouncyCastle.Math.Field.IPolynomial
     // Base method: System.Int32[] IPolynomial::GetExponentsPresent()
     ::Array<int>* GetExponentsPresent();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1903130
+    // Offset: 0x17922B8
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1903218
+    // Offset: 0x17923A0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

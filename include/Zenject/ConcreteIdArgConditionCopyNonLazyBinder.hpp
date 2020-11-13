@@ -21,10 +21,10 @@ namespace Zenject {
   class ConcreteIdArgConditionCopyNonLazyBinder : public Zenject::ArgConditionCopyNonLazyBinder {
     public:
     // public Zenject.ArgConditionCopyNonLazyBinder WithConcreteId(System.Object id)
-    // Offset: 0xFF3A90
+    // Offset: 0x10EF438
     Zenject::ArgConditionCopyNonLazyBinder* WithConcreteId(::Il2CppObject* id);
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0xFF3A88
+    // Offset: 0x10EF430
     // Implemented from: Zenject.ArgConditionCopyNonLazyBinder
     // Base method: System.Void ArgConditionCopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo)
     // Base method: System.Void InstantiateCallbackConditionCopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo)

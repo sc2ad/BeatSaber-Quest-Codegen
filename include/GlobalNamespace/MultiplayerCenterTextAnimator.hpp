@@ -64,46 +64,46 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x205DF88
+    // Offset: 0xFA79D0
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x205E368
+    // Offset: 0xFA7DB0
     void OnDestroy();
     // public System.Void AnimateTextColor(UnityEngine.Color color, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x205E400
+    // Offset: 0xFA7E48
     void AnimateTextColor(UnityEngine::Color color, float duration, Tweening::EaseType easeType);
     // public System.Void AnimateFontSize(System.Single fontSize, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x205E4B0
+    // Offset: 0xFA7EF8
     void AnimateFontSize(float fontSize, float duration, Tweening::EaseType easeType);
     // public System.Void AnimatePositionOffsetSize(UnityEngine.Vector3 offset, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x205E514
+    // Offset: 0xFA7F5C
     void AnimatePositionOffsetSize(UnityEngine::Vector3 offset, float duration, Tweening::EaseType easeType);
     // public System.Void AnimateEnabled(System.Boolean isEnabled, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x205E5B8
+    // Offset: 0xFA8000
     void AnimateEnabled(bool isEnabled, float duration, Tweening::EaseType easeType);
     // public System.Void SetText(System.String text)
-    // Offset: 0x205E734
+    // Offset: 0xFA817C
     void SetText(::Il2CppString* text);
     // private System.Void <Awake>b__8_0(System.Single val)
-    // Offset: 0x205E758
+    // Offset: 0xFA81A0
     void $Awake$b__8_0(float val);
     // private System.Void <Awake>b__8_1(System.Single val)
-    // Offset: 0x205E7EC
+    // Offset: 0xFA8234
     void $Awake$b__8_1(float val);
     // private System.Void <Awake>b__8_5()
-    // Offset: 0x205E880
+    // Offset: 0xFA82C8
     void $Awake$b__8_5();
     // private System.Void <Awake>b__8_2(System.Single val)
-    // Offset: 0x205E8B0
+    // Offset: 0xFA82F8
     void $Awake$b__8_2(float val);
     // private System.Void <Awake>b__8_3(UnityEngine.Color val)
-    // Offset: 0x205E8CC
+    // Offset: 0xFA8314
     void $Awake$b__8_3(UnityEngine::Color val);
     // private System.Void <Awake>b__8_4(UnityEngine.Vector3 val)
-    // Offset: 0x205E8F0
+    // Offset: 0xFA8338
     void $Awake$b__8_4(UnityEngine::Vector3 val);
     // public System.Void .ctor()
-    // Offset: 0x205E750
+    // Offset: 0xFA8198
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

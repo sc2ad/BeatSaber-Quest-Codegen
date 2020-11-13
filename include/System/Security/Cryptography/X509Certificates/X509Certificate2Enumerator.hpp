@@ -34,26 +34,26 @@ namespace System::Security::Cryptography::X509Certificates {
       return enumerator;
     }
     // System.Void .ctor(System.Security.Cryptography.X509Certificates.X509Certificate2Collection collection)
-    // Offset: 0x1476EC8
+    // Offset: 0x14612D4
     static X509Certificate2Enumerator* New_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2Collection* collection);
     // public System.Security.Cryptography.X509Certificates.X509Certificate2 get_Current()
-    // Offset: 0x1477064
+    // Offset: 0x1461470
     System::Security::Cryptography::X509Certificates::X509Certificate2* get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x1477158
+    // Offset: 0x1461564
     bool MoveNext();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1477208
+    // Offset: 0x1461614
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // private System.Boolean System.Collections.IEnumerator.MoveNext()
-    // Offset: 0x14772BC
+    // Offset: 0x14616C8
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x147736C
+    // Offset: 0x1461778
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();

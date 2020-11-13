@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::INetworkPlayerModel* partyManager;
     // public System.Void .ctor()
-    // Offset: 0x2039604
+    // Offset: 0x1A759D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BaseNetworkPlayerModel::PartyConfig* New_ctor();

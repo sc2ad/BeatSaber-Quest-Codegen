@@ -24,15 +24,15 @@ namespace HMUI {
     // Offset: 0x8C
     float depth;
     // protected System.Void OnDrawGizmosSelected()
-    // Offset: 0x2184584
+    // Offset: 0x10AD380
     void OnDrawGizmosSelected();
     // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x21841C4
+    // Offset: 0x10ACFC0
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
     void OnPopulateMesh(UnityEngine::UI::VertexHelper* vh);
     // public System.Void .ctor()
-    // Offset: 0x21847F0
+    // Offset: 0x10AD5EC
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()

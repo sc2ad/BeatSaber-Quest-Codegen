@@ -44,42 +44,42 @@ namespace System::Reflection {
     // Set static field: static public readonly System.String TypeConstructorName
     static void _set_TypeConstructorName(::Il2CppString* value);
     // public System.Object Invoke(System.Object[] parameters)
-    // Offset: 0x185A2EC
+    // Offset: 0x1721994
     ::Il2CppObject* Invoke(::Array<::Il2CppObject*>* parameters);
     // public System.Object Invoke(System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* Invoke(System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* parameters, System::Globalization::CultureInfo* culture);
     // static private System.Void .cctor()
-    // Offset: 0x185A454
+    // Offset: 0x1721AFC
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x185A2DC
+    // Offset: 0x1721984
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Void MethodBase::.ctor()
     // Base method: System.Void MemberInfo::.ctor()
     // Base method: System.Void Object::.ctor()
     static ConstructorInfo* New_ctor();
     // public override System.Reflection.MemberTypes get_MemberType()
-    // Offset: 0x185A2E4
+    // Offset: 0x172198C
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.MemberTypes MemberInfo::get_MemberType()
     System::Reflection::MemberTypes get_MemberType();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x185A398
+    // Offset: 0x1721A40
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Boolean MethodBase::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x185A3A4
+    // Offset: 0x1721A4C
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Int32 MethodBase::GetHashCode()
     int GetHashCode();
   }; // System.Reflection.ConstructorInfo
   // static public System.Boolean op_Equality(System.Reflection.ConstructorInfo left, System.Reflection.ConstructorInfo right)
-  // Offset: 0x185A3AC
+  // Offset: 0x1721A54
   bool operator ==(System::Reflection::ConstructorInfo* left, System::Reflection::ConstructorInfo& right);
   // static public System.Boolean op_Inequality(System.Reflection.ConstructorInfo left, System.Reflection.ConstructorInfo right)
-  // Offset: 0x185A3F8
+  // Offset: 0x1721AA0
   bool operator !=(System::Reflection::ConstructorInfo* left, System::Reflection::ConstructorInfo& right);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -21,13 +21,13 @@ namespace UnityEngine {
     // Nested type: UnityEngine::UISystemProfilerApi::SampleType
     struct SampleType;
     // static public System.Void BeginSample(UnityEngine.UISystemProfilerApi/SampleType type)
-    // Offset: 0x1F6F9F8
+    // Offset: 0x19FED78
     static void BeginSample(UnityEngine::UISystemProfilerApi::SampleType type);
     // static public System.Void EndSample(UnityEngine.UISystemProfilerApi/SampleType type)
-    // Offset: 0x1F6FA38
+    // Offset: 0x19FEDB8
     static void EndSample(UnityEngine::UISystemProfilerApi::SampleType type);
     // static public System.Void AddMarker(System.String name, UnityEngine.Object obj)
-    // Offset: 0x1F6FA78
+    // Offset: 0x19FEDF8
     static void AddMarker(::Il2CppString* name, UnityEngine::Object* obj);
   }; // UnityEngine.UISystemProfilerApi
 }

@@ -107,32 +107,32 @@ namespace GlobalNamespace {
     // Offset: 0x90
     ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*>* levelCategoryInfos;
     // public System.Void add_didSelectLevelCategoryEvent(System.Action`2<SelectLevelCategoryViewController,SelectLevelCategoryViewController/LevelCategory> value)
-    // Offset: 0x1FE96EC
+    // Offset: 0xFC9D40
     void add_didSelectLevelCategoryEvent(System::Action_2<GlobalNamespace::SelectLevelCategoryViewController*, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* value);
     // public System.Void remove_didSelectLevelCategoryEvent(System.Action`2<SelectLevelCategoryViewController,SelectLevelCategoryViewController/LevelCategory> value)
-    // Offset: 0x1FE9790
+    // Offset: 0xFC9DE4
     void remove_didSelectLevelCategoryEvent(System::Action_2<GlobalNamespace::SelectLevelCategoryViewController*, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* value);
     // public SelectLevelCategoryViewController/LevelCategory get_selectedLevelCategory()
-    // Offset: 0x1FE9834
+    // Offset: 0xFC9E88
     GlobalNamespace::SelectLevelCategoryViewController::LevelCategory get_selectedLevelCategory();
     // public System.Void Setup(SelectLevelCategoryViewController/LevelCategory selectedCategory, SelectLevelCategoryViewController/LevelCategory[] enabledLevelCategories)
-    // Offset: 0x1FE9898
+    // Offset: 0xFC9EEC
     void Setup(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory selectedCategory, ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* enabledLevelCategories);
     // private System.Void LevelFilterCategoryIconSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 index)
-    // Offset: 0x1FE9CC4
+    // Offset: 0xFCA318
     void LevelFilterCategoryIconSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int index);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1FE9B6C
+    // Offset: 0xFCA1C0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1FE9C18
+    // Offset: 0xFCA26C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x1FE9D80
+    // Offset: 0xFCA3D4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

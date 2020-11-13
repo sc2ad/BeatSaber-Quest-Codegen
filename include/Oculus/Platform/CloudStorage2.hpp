@@ -20,7 +20,7 @@ namespace Oculus::Platform {
   class CloudStorage2 : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request`1<System.String> GetUserDirectoryPath()
-    // Offset: 0x112ED4C
+    // Offset: 0x11CFA0C
     static Oculus::Platform::Request_1<::Il2CppString*>* GetUserDirectoryPath();
   }; // Oculus.Platform.CloudStorage2
 }

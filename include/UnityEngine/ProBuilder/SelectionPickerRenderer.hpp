@@ -129,58 +129,58 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private UnityEngine.RenderTextureFormat[] s_PreferredFormats
     static void _set_s_PreferredFormats(::Array<UnityEngine::RenderTextureFormat>* value);
     // static private UnityEngine.RenderTextureFormat get_renderTextureFormat()
-    // Offset: 0x1387C88
+    // Offset: 0x13C9114
     static UnityEngine::RenderTextureFormat get_renderTextureFormat();
     // static private UnityEngine.TextureFormat get_textureFormat()
-    // Offset: 0x1387E28
+    // Offset: 0x13C92B4
     static UnityEngine::TextureFormat get_textureFormat();
     // static private UnityEngine.ProBuilder.SelectionPickerRenderer/ISelectionPickerRenderer get_pickerRenderer()
-    // Offset: 0x1387E30
+    // Offset: 0x13C92BC
     static UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer* get_pickerRenderer();
     // static public System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face>> PickFacesInRect(UnityEngine.Camera camera, UnityEngine.Rect pickerRect, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh> selection, System.Int32 renderTextureWidth, System.Int32 renderTextureHeight)
-    // Offset: 0x1386A24
+    // Offset: 0x13C7EB0
     static System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*>* PickFacesInRect(UnityEngine::Camera* camera, UnityEngine::Rect pickerRect, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>* selection, int renderTextureWidth, int renderTextureHeight);
     // static public System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.HashSet`1<System.Int32>> PickVerticesInRect(UnityEngine.Camera camera, UnityEngine.Rect pickerRect, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh> selection, System.Boolean doDepthTest, System.Int32 renderTextureWidth, System.Int32 renderTextureHeight)
-    // Offset: 0x138518C
+    // Offset: 0x13C6618
     static System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::HashSet_1<int>*>* PickVerticesInRect(UnityEngine::Camera* camera, UnityEngine::Rect pickerRect, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest, int renderTextureWidth, int renderTextureHeight);
     // static public System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Edge>> PickEdgesInRect(UnityEngine.Camera camera, UnityEngine.Rect pickerRect, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh> selection, System.Boolean doDepthTest, System.Int32 renderTextureWidth, System.Int32 renderTextureHeight)
-    // Offset: 0x138764C
+    // Offset: 0x13C8AD8
     static System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Edge>*>* PickEdgesInRect(UnityEngine::Camera* camera, UnityEngine::Rect pickerRect, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest, int renderTextureWidth, int renderTextureHeight);
     // static UnityEngine.Texture2D RenderSelectionPickerTexture(UnityEngine.Camera camera, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh> selection, out System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face>> map, System.Int32 width, System.Int32 height)
-    // Offset: 0x1387F34
+    // Offset: 0x13C93C0
     static UnityEngine::Texture2D* RenderSelectionPickerTexture(UnityEngine::Camera* camera, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>* selection, System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Face*>>*& map, int width, int height);
     // static UnityEngine.Texture2D RenderSelectionPickerTexture(UnityEngine.Camera camera, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh> selection, System.Boolean doDepthTest, out System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Int32>> map, System.Int32 width, System.Int32 height)
-    // Offset: 0x1388208
+    // Offset: 0x13C9694
     static UnityEngine::Texture2D* RenderSelectionPickerTexture(UnityEngine::Camera* camera, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest, System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, int>>*& map, int width, int height);
     // static UnityEngine.Texture2D RenderSelectionPickerTexture(UnityEngine.Camera camera, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh> selection, System.Boolean doDepthTest, out System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge>> map, System.Int32 width, System.Int32 height)
-    // Offset: 0x1388500
+    // Offset: 0x13C998C
     static UnityEngine::Texture2D* RenderSelectionPickerTexture(UnityEngine::Camera* camera, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest, System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Edge>>*& map, int width, int height);
     // static private UnityEngine.GameObject[] GenerateFacePickingObjects(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh> selection, out System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face>> map)
-    // Offset: 0x13887F0
+    // Offset: 0x13C9C7C
     static ::Array<UnityEngine::GameObject*>* GenerateFacePickingObjects(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>* selection, System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Face*>>*& map);
     // static private System.Void GenerateVertexPickingObjects(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh> selection, System.Boolean doDepthTest, out System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Int32>> map, out UnityEngine.GameObject[] depthObjects, out UnityEngine.GameObject[] pickerObjects)
-    // Offset: 0x1388D78
+    // Offset: 0x13CA204
     static void GenerateVertexPickingObjects(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest, System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, int>>*& map, ::Array<UnityEngine::GameObject*>*& depthObjects, ::Array<UnityEngine::GameObject*>*& pickerObjects);
     // static private System.Void GenerateEdgePickingObjects(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh> selection, System.Boolean doDepthTest, out System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge>> map, out UnityEngine.GameObject[] depthObjects, out UnityEngine.GameObject[] pickerObjects)
-    // Offset: 0x1389298
+    // Offset: 0x13CA724
     static void GenerateEdgePickingObjects(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest, System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Edge>>*& map, ::Array<UnityEngine::GameObject*>*& depthObjects, ::Array<UnityEngine::GameObject*>*& pickerObjects);
     // static private UnityEngine.Mesh BuildVertexMesh(UnityEngine.ProBuilder.ProBuilderMesh pb, System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Int32>> map, ref System.UInt32 index)
-    // Offset: 0x138986C
+    // Offset: 0x13CACF8
     static UnityEngine::Mesh* BuildVertexMesh(UnityEngine::ProBuilder::ProBuilderMesh* pb, System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, int>>* map, uint& index);
     // static private UnityEngine.Mesh BuildEdgeMesh(UnityEngine.ProBuilder.ProBuilderMesh pb, System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge>> map, ref System.UInt32 index)
-    // Offset: 0x138A014
+    // Offset: 0x13CB4A0
     static UnityEngine::Mesh* BuildEdgeMesh(UnityEngine::ProBuilder::ProBuilderMesh* pb, System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Edge>>* map, uint& index);
     // static public System.UInt32 DecodeRGBA(UnityEngine.Color32 color)
-    // Offset: 0x1388170
+    // Offset: 0x13C95FC
     static uint DecodeRGBA(UnityEngine::Color32 color);
     // static public UnityEngine.Color32 EncodeRGBA(System.UInt32 hash)
-    // Offset: 0x13897B8
+    // Offset: 0x13CAC44
     static UnityEngine::Color32 EncodeRGBA(uint hash);
     // static private System.Boolean ShouldUseHDRP()
-    // Offset: 0x1387F1C
+    // Offset: 0x13C93A8
     static bool ShouldUseHDRP();
     // static private System.Void .cctor()
-    // Offset: 0x138A4A8
+    // Offset: 0x13CB934
     static void _cctor();
   }; // UnityEngine.ProBuilder.SelectionPickerRenderer
 }

@@ -16,7 +16,7 @@ namespace UnityEngine::Networking::PlayerConnection {
   class PlayerEditorConnectionEvents::ConnectionChangeEvent : public UnityEngine::Events::UnityEvent_1<int> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x193D114
+    // Offset: 0x172F140
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

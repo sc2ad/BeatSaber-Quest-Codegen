@@ -37,16 +37,16 @@ namespace Mono::Security::X509 {
     // Offset: 0x20
     Mono::Security::X509::X509ExtensionCollection* extensions;
     // System.Void .ctor(Mono.Security.ASN1 entry)
-    // Offset: 0x1F37820
+    // Offset: 0x19C4730
     static X509Crl::X509CrlEntry* New_ctor(Mono::Security::ASN1* entry);
     // public System.Byte[] get_SerialNumber()
-    // Offset: 0x1F37D5C
+    // Offset: 0x19C4C6C
     ::Array<uint8_t>* get_SerialNumber();
     // public System.DateTime get_RevocationDate()
-    // Offset: 0x1F382CC
+    // Offset: 0x19C51DC
     System::DateTime get_RevocationDate();
     // public Mono.Security.X509.X509ExtensionCollection get_Extensions()
-    // Offset: 0x1F382D4
+    // Offset: 0x19C51E4
     Mono::Security::X509::X509ExtensionCollection* get_Extensions();
   }; // Mono.Security.X509.X509Crl/X509CrlEntry
 }

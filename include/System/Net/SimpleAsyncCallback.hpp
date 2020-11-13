@@ -29,16 +29,16 @@ namespace System::Net {
   class SimpleAsyncCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x10CFD0C
+    // Offset: 0x11A563C
     static SimpleAsyncCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Net.SimpleAsyncResult result)
-    // Offset: 0x10CFD20
+    // Offset: 0x11A5650
     void Invoke(System::Net::SimpleAsyncResult* result);
     // public System.IAsyncResult BeginInvoke(System.Net.SimpleAsyncResult result, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x10D00D8
+    // Offset: 0x11A5A08
     System::IAsyncResult* BeginInvoke(System::Net::SimpleAsyncResult* result, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x10D00FC
+    // Offset: 0x11A5A2C
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Net.SimpleAsyncCallback
 }

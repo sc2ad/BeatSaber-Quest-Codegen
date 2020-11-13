@@ -76,25 +76,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public OverrideEnvironmentSettings get_overrideEnvironmentSettings()
-    // Offset: 0x201E0A4
+    // Offset: 0x1A0D60C
     GlobalNamespace::OverrideEnvironmentSettings* get_overrideEnvironmentSettings();
     // public System.Void SetData(OverrideEnvironmentSettings overrideEnvironmentSettings)
-    // Offset: 0x201E0AC
+    // Offset: 0x1A0D614
     void SetData(GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings);
     // protected System.Void OnDestroy()
-    // Offset: 0x201E458
+    // Offset: 0x1A0D9C0
     void OnDestroy();
     // private System.Void HandleDropDownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropDownWithTableView, System.Int32 idx)
-    // Offset: 0x201E748
+    // Offset: 0x1A0DCB0
     void HandleDropDownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropDownWithTableView, int idx);
     // private System.Void HandleOverrideEnvironmentsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x201E884
+    // Offset: 0x1A0DDEC
     void HandleOverrideEnvironmentsToggleValueChanged(bool isOn);
     // private System.Void <HandleOverrideEnvironmentsToggleValueChanged>b__15_0()
-    // Offset: 0x201E9A0
+    // Offset: 0x1A0DF08
     void $HandleOverrideEnvironmentsToggleValueChanged$b__15_0();
     // public System.Void Refresh()
-    // Offset: 0x201E5E0
+    // Offset: 0x1A0DB48
     // Implemented from: IRefreshable
     // Base method: System.Void IRefreshable::Refresh()
     void Refresh();
@@ -102,7 +102,7 @@ namespace GlobalNamespace {
     // Maps to method: Refresh
     void GlobalNamespace_IRefreshable_Refresh();
     // public System.Void .ctor()
-    // Offset: 0x201E998
+    // Offset: 0x1A0DF00
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

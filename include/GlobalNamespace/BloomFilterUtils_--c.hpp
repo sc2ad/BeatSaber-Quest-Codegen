@@ -32,13 +32,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`3<BloomFilter,System.String,BloomFilter> <>9__0_0
     static void _set_$$9__0_0(System::Func_3<GlobalNamespace::BloomFilter, ::Il2CppString*, GlobalNamespace::BloomFilter>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1F0CEDC
+    // Offset: 0x19A3AF4
     static void _cctor();
     // BloomFilter <ToBloomFilter>b__0_0(BloomFilter a, System.String b)
-    // Offset: 0x1F0CF4C
+    // Offset: 0x19A3B64
     GlobalNamespace::BloomFilter $ToBloomFilter$b__0_0(GlobalNamespace::BloomFilter a, ::Il2CppString* b);
     // public System.Void .ctor()
-    // Offset: 0x1F0CF44
+    // Offset: 0x19A3B5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BloomFilterUtils::$$c* New_ctor();

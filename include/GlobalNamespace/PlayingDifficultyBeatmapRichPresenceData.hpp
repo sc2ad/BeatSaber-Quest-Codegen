@@ -31,24 +31,24 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IRichPresenceData*>(this);
     }
     // private System.Void set_apiName(System.String value)
-    // Offset: 0x208F580
+    // Offset: 0xF2AF9C
     void set_apiName(::Il2CppString* value);
     // private System.Void set_localizedDescription(System.String value)
-    // Offset: 0x208F590
+    // Offset: 0xF2AFAC
     void set_localizedDescription(::Il2CppString* value);
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x208F598
+    // Offset: 0xF2AFB4
     static PlayingDifficultyBeatmapRichPresenceData* New_ctor(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // private System.String GetDestinationLocalizedString(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x208F5F0
+    // Offset: 0xF2B00C
     ::Il2CppString* GetDestinationLocalizedString(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.String get_apiName()
-    // Offset: 0x208F578
+    // Offset: 0xF2AF94
     // Implemented from: IRichPresenceData
     // Base method: System.String IRichPresenceData::get_apiName()
     ::Il2CppString* get_apiName();
     // public System.String get_localizedDescription()
-    // Offset: 0x208F588
+    // Offset: 0xF2AFA4
     // Implemented from: IRichPresenceData
     // Base method: System.String IRichPresenceData::get_localizedDescription()
     ::Il2CppString* get_localizedDescription();

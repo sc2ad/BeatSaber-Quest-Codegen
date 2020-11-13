@@ -40,10 +40,10 @@ namespace GlobalNamespace {
       return launchCheckoutFlowTaskSource;
     }
     // System.Void <LaunchCheckoutFlow>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.Purchase> msg)
-    // Offset: 0x1F80118
+    // Offset: 0x100FB2C
     void $LaunchCheckoutFlow$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::Purchase*>* msg);
     // public System.Void .ctor()
-    // Offset: 0x1F80110
+    // Offset: 0x100FB24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusPlatformAdditionalContentModel::$$c__DisplayClass10_0* New_ctor();

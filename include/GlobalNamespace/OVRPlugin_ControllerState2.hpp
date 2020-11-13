@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ControllerState2
     constexpr ControllerState2(uint ConnectedControllers_ = {}, uint Buttons_ = {}, uint Touches_ = {}, uint NearTouches_ = {}, float LIndexTrigger_ = {}, float RIndexTrigger_ = {}, float LHandTrigger_ = {}, float RHandTrigger_ = {}, GlobalNamespace::OVRPlugin::Vector2f LThumbstick_ = {}, GlobalNamespace::OVRPlugin::Vector2f RThumbstick_ = {}, GlobalNamespace::OVRPlugin::Vector2f LTouchpad_ = {}, GlobalNamespace::OVRPlugin::Vector2f RTouchpad_ = {}) noexcept : ConnectedControllers{ConnectedControllers_}, Buttons{Buttons_}, Touches{Touches_}, NearTouches{NearTouches_}, LIndexTrigger{LIndexTrigger_}, RIndexTrigger{RIndexTrigger_}, LHandTrigger{LHandTrigger_}, RHandTrigger{RHandTrigger_}, LThumbstick{LThumbstick_}, RThumbstick{RThumbstick_}, LTouchpad{LTouchpad_}, RTouchpad{RTouchpad_} {}
     // public System.Void .ctor(OVRPlugin/ControllerState cs)
-    // Offset: 0xC678E0
+    // Offset: 0xC9923C
     ControllerState2(GlobalNamespace::OVRPlugin::ControllerState cs);
   }; // OVRPlugin/ControllerState2
 }

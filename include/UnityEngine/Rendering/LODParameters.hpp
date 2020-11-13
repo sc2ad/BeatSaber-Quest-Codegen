@@ -39,17 +39,17 @@ namespace UnityEngine::Rendering {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::Rendering::LODParameters>*>(this);
     }
     // public System.Boolean Equals(UnityEngine.Rendering.LODParameters other)
-    // Offset: 0xC74FA8
+    // Offset: 0xCA5E1C
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Rendering.LODParameters other)
     bool Equals(UnityEngine::Rendering::LODParameters other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xC74FE0
+    // Offset: 0xCA5E54
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xC74FE8
+    // Offset: 0xCA5E5C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

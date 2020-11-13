@@ -23,7 +23,7 @@ namespace System::Collections {
     // Offset: 0x20
     System::Collections::ListDictionaryInternal::DictionaryNode* next;
     // public System.Void .ctor()
-    // Offset: 0x158CBEC
+    // Offset: 0x152A45C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ListDictionaryInternal::DictionaryNode* New_ctor();

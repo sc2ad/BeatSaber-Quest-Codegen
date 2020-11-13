@@ -42,25 +42,25 @@ namespace System::Runtime::Remoting::Proxies {
     // Offset: 0x20
     bool custom_type_info;
     // System.RuntimeType GetProxyType()
-    // Offset: 0x12D5B9C
+    // Offset: 0x1335388
     System::RuntimeType* GetProxyType();
     // private System.Boolean get_IsContextBoundObject()
-    // Offset: 0x12D5C70
+    // Offset: 0x133545C
     bool get_IsContextBoundObject();
     // private System.Runtime.Remoting.Contexts.Context get_TargetContext()
-    // Offset: 0x12D5C90
+    // Offset: 0x133547C
     System::Runtime::Remoting::Contexts::Context* get_TargetContext();
     // private System.Boolean InCurrentContext()
-    // Offset: 0x12D5CAC
+    // Offset: 0x1335498
     bool InCurrentContext();
     // System.Object LoadRemoteFieldNew(System.IntPtr classPtr, System.IntPtr fieldPtr)
-    // Offset: 0x12D5CF8
+    // Offset: 0x13354E4
     ::Il2CppObject* LoadRemoteFieldNew(System::IntPtr classPtr, System::IntPtr fieldPtr);
     // System.Void StoreRemoteField(System.IntPtr classPtr, System.IntPtr fieldPtr, System.Object arg)
-    // Offset: 0x12D5FBC
+    // Offset: 0x13357A8
     void StoreRemoteField(System::IntPtr classPtr, System::IntPtr fieldPtr, ::Il2CppObject* arg);
     // public System.Void .ctor()
-    // Offset: 0x12D628C
+    // Offset: 0x1335A78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TransparentProxy* New_ctor();

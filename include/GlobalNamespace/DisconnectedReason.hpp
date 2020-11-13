@@ -64,6 +64,18 @@ namespace GlobalNamespace {
     static GlobalNamespace::DisconnectedReason _get_MasterServerUnreachable();
     // Set static field: static public DisconnectedReason MasterServerUnreachable
     static void _set_MasterServerUnreachable(GlobalNamespace::DisconnectedReason value);
+    // static field const value: static public DisconnectedReason ClientShutDown
+    static constexpr const int ClientShutDown = 8;
+    // Get static field: static public DisconnectedReason ClientShutDown
+    static GlobalNamespace::DisconnectedReason _get_ClientShutDown();
+    // Set static field: static public DisconnectedReason ClientShutDown
+    static void _set_ClientShutDown(GlobalNamespace::DisconnectedReason value);
+    // static field const value: static public DisconnectedReason NetworkDisconnected
+    static constexpr const int NetworkDisconnected = 9;
+    // Get static field: static public DisconnectedReason NetworkDisconnected
+    static GlobalNamespace::DisconnectedReason _get_NetworkDisconnected();
+    // Set static field: static public DisconnectedReason NetworkDisconnected
+    static void _set_NetworkDisconnected(GlobalNamespace::DisconnectedReason value);
   }; // DisconnectedReason
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

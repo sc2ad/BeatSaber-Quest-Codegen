@@ -21,7 +21,7 @@ namespace System::Security::Cryptography {
       return oid;
     }
     // public System.Void .ctor()
-    // Offset: 0x17764F8
+    // Offset: 0x16969EC
     // Implemented from: System.Security.Cryptography.AsymmetricSignatureFormatter
     // Base method: System.Void AsymmetricSignatureFormatter::.ctor()
     // Base method: System.Void Object::.ctor()

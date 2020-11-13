@@ -39,17 +39,17 @@ namespace RootMotion::FinalIK {
     // Offset: 0x4C
     UnityEngine::Vector3 lastForward;
     // protected override System.Void Start()
-    // Offset: 0x186ECE0
+    // Offset: 0x174CC44
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::Start()
     void Start();
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x186ED28
+    // Offset: 0x174CC8C
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
     // public System.Void .ctor()
-    // Offset: 0x186EF58
+    // Offset: 0x174CEBC
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

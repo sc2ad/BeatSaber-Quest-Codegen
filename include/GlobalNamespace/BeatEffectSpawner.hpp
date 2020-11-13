@@ -67,31 +67,31 @@ namespace GlobalNamespace {
     // private MonoMemoryPoolContainer`1<BeatEffect> _beatEffectPoolContainer
     // Offset: 0x58
     GlobalNamespace::MonoMemoryPoolContainer_1<GlobalNamespace::BeatEffect*>* beatEffectPoolContainer;
-    // private System.Collections.Generic.List`1<BeatEffect> _beatEffectsToDespawn
+    // private readonly System.Collections.Generic.List`1<BeatEffect> _beatEffectsToDespawn
     // Offset: 0x60
     System::Collections::Generic::List_1<GlobalNamespace::BeatEffect*>* beatEffectsToDespawn;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Init(BeatEffect/Pool beatEffectPool)
-    // Offset: 0x203B388
+    // Offset: 0x1A7790C
     void Init(GlobalNamespace::BeatEffect::Pool* beatEffectPool);
     // protected System.Void Start()
-    // Offset: 0x203B408
+    // Offset: 0x1A7798C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x203B49C
+    // Offset: 0x1A77A20
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x203B53C
+    // Offset: 0x1A77AC0
     void Update();
     // private System.Void HandleNoteDidStartJump(NoteController noteController)
-    // Offset: 0x203B72C
+    // Offset: 0x1A77CB0
     void HandleNoteDidStartJump(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleBeatEffectDidFinish(BeatEffect beatEffect)
-    // Offset: 0x203BA04
+    // Offset: 0x1A77F88
     void HandleBeatEffectDidFinish(GlobalNamespace::BeatEffect* beatEffect);
     // public System.Void .ctor()
-    // Offset: 0x203BAB0
+    // Offset: 0x1A78034
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

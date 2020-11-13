@@ -44,18 +44,18 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>>*>(this);
     }
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x11789E0
+    // Offset: 0x1202D70
     static HttpHeaders::$GetEnumerator$d__19* New_ctor(int $$1__state);
     // private System.Void <>m__Finally1()
-    // Offset: 0x117941C
+    // Offset: 0x12037AC
     void $$m__Finally1();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1179400
+    // Offset: 0x1203790
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1179474
+    // Offset: 0x1203804
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -63,17 +63,17 @@ namespace System::Net::Http::Headers {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IEnumerable`1<System.String>> System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Collections.Generic.IEnumerable<System.String>>>.get_Current()
-    // Offset: 0x11796DC
+    // Offset: 0x1203A6C
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*> System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x11796E8
+    // Offset: 0x1203A78
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1179748
+    // Offset: 0x1203AD8
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();

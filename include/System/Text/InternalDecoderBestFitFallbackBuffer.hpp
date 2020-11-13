@@ -37,31 +37,31 @@ namespace System::Text {
     // Set static field: static private System.Object s_InternalSyncObject
     static void _set_s_InternalSyncObject(::Il2CppObject* value);
     // static private System.Object get_InternalSyncObject()
-    // Offset: 0x1635DA4
+    // Offset: 0x15A4BA0
     static ::Il2CppObject* get_InternalSyncObject();
     // public System.Void .ctor(System.Text.InternalDecoderBestFitFallback fallback)
-    // Offset: 0x1635B9C
+    // Offset: 0x15A4998
     static InternalDecoderBestFitFallbackBuffer* New_ctor(System::Text::InternalDecoderBestFitFallback* fallback);
     // private System.Char TryBestFit(System.Byte[] bytesCheck)
-    // Offset: 0x1635E80
+    // Offset: 0x15A4C7C
     ::Il2CppChar TryBestFit(::Array<uint8_t>* bytesCheck);
     // public override System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x1635E34
+    // Offset: 0x15A4C30
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Boolean DecoderFallbackBuffer::Fallback(System.Byte[] bytesUnknown, System.Int32 index)
     bool Fallback(::Array<uint8_t>* bytesUnknown, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x1635FCC
+    // Offset: 0x15A4DC8
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Char DecoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
     // public override System.Void Reset()
-    // Offset: 0x163600C
+    // Offset: 0x15A4E08
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Void DecoderFallbackBuffer::Reset()
     void Reset();
     // override System.Int32 InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
-    // Offset: 0x163601C
+    // Offset: 0x15A4E18
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Int32 DecoderFallbackBuffer::InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
     int InternalFallback(::Array<uint8_t>* bytes, uint8_t* pBytes);

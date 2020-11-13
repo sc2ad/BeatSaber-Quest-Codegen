@@ -51,29 +51,29 @@ namespace MasterServer {
       return *reinterpret_cast<MasterServer::IUserClientToServerMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.BroadcastServerHeartbeatRequest> get_pool()
-    // Offset: 0x211CB2C
+    // Offset: 0x1AD3134
     static GlobalNamespace::PacketPool_1<MasterServer::BroadcastServerHeartbeatRequest*>* get_pool();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x211CB7C
+    // Offset: 0x1AD3184
     void set_userId(::Il2CppString* value);
     // private System.Void set_userName(System.String value)
-    // Offset: 0x211CB8C
+    // Offset: 0x1AD3194
     void set_userName(::Il2CppString* value);
     // public MasterServer.BroadcastServerHeartbeatRequest Init(System.String userId, System.String userName, System.String secret, System.Int32 currentPlayerCount)
-    // Offset: 0x211CB94
+    // Offset: 0x1AD319C
     MasterServer::BroadcastServerHeartbeatRequest* Init(::Il2CppString* userId, ::Il2CppString* userName, ::Il2CppString* secret, int currentPlayerCount);
     // public System.String get_userId()
-    // Offset: 0x211CB74
+    // Offset: 0x1AD317C
     // Implemented from: MasterServer.IUserClientToServerMessage
     // Base method: System.String IUserClientToServerMessage::get_userId()
     ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x211CB84
+    // Offset: 0x1AD318C
     // Implemented from: MasterServer.IUserClientToServerMessage
     // Base method: System.String IUserClientToServerMessage::get_userName()
     ::Il2CppString* get_userName();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x211CBF4
+    // Offset: 0x1AD31FC
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -81,7 +81,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x211CC58
+    // Offset: 0x1AD3260
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -89,12 +89,12 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x211CCE4
+    // Offset: 0x1AD32EC
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x211CD40
+    // Offset: 0x1AD3348
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BroadcastServerHeartbeatRequest* New_ctor();

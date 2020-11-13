@@ -41,7 +41,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::MasterServerConnectionManager*>*>(this);
     }
     // protected System.Void .ctor()
-    // Offset: 0x21304B8
+    // Offset: 0x1AE71DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MasterServerConnectionManager::MasterServerConnectionManagerParamsBase* New_ctor();

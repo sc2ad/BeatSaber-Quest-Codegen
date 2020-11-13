@@ -14,10 +14,10 @@ namespace System::Security::Cryptography {
   class HMACSHA256 : public System::Security::Cryptography::HMAC {
     public:
     // public System.Void .ctor(System.Byte[] key)
-    // Offset: 0x1777888
+    // Offset: 0x1697D7C
     static HMACSHA256* New_ctor(::Array<uint8_t>* key);
     // public System.Void .ctor()
-    // Offset: 0x1777858
+    // Offset: 0x1697D4C
     // Implemented from: System.Security.Cryptography.HMAC
     // Base method: System.Void HMAC::.ctor()
     // Base method: System.Void KeyedHashAlgorithm::.ctor()

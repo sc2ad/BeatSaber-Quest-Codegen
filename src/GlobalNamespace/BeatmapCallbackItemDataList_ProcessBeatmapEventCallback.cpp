@@ -5,6 +5,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BeatmapCallbackItemDataList/ProcessBeatmapEventCallback
 #include "GlobalNamespace/BeatmapCallbackItemDataList_ProcessBeatmapEventCallback.hpp"
+// Including type: System.IntPtr
+#include "System/IntPtr.hpp"
 // Including type: BeatmapEventData
 #include "GlobalNamespace/BeatmapEventData.hpp"
 // Including type: System.IAsyncResult

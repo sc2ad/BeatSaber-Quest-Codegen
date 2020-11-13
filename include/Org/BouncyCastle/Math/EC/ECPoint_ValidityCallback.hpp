@@ -36,10 +36,10 @@ namespace Org::BouncyCastle::Math::EC {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);
     }
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECPoint outer, System.Boolean decompressed, System.Boolean checkOrder)
-    // Offset: 0x1D6A83C
+    // Offset: 0x193C46C
     static ECPoint::ValidityCallback* New_ctor(Org::BouncyCastle::Math::EC::ECPoint* outer, bool decompressed, bool checkOrder);
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
-    // Offset: 0x1D6B154
+    // Offset: 0x193CD84
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.IPreCompCallback
     // Base method: Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo IPreCompCallback::Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
     Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);

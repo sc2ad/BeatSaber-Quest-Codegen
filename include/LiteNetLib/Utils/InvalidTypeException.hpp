@@ -14,7 +14,7 @@ namespace LiteNetLib::Utils {
   class InvalidTypeException : public System::ArgumentException {
     public:
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1813884
+    // Offset: 0x1DD2DE0
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)

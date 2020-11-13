@@ -23,7 +23,7 @@ namespace System::Net {
   class HttpListenerException : public System::ComponentModel::Win32Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x123B37C
+    // Offset: 0x12B0478
     // Implemented from: System.ComponentModel.Win32Exception
     // Base method: System.Void Win32Exception::.ctor()
     // Base method: System.Void ExternalException::.ctor()
@@ -32,12 +32,12 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     static HttpListenerException* New_ctor();
     // public System.Void .ctor(System.Int32 errorCode, System.String message)
-    // Offset: 0x123B418
+    // Offset: 0x12B0514
     // Implemented from: System.ComponentModel.Win32Exception
     // Base method: System.Void Win32Exception::.ctor(System.Int32 errorCode, System.String message)
     static HttpListenerException* New_ctor(int errorCode, ::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x123B498
+    // Offset: 0x12B0594
     // Implemented from: System.ComponentModel.Win32Exception
     // Base method: System.Void Win32Exception::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // Base method: System.Void ExternalException::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)

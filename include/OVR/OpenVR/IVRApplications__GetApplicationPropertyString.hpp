@@ -38,16 +38,16 @@ namespace OVR::OpenVR {
   class IVRApplications::_GetApplicationPropertyString : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11590E4
+    // Offset: 0x11F9DA4
     static IVRApplications::_GetApplicationPropertyString* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.String pchAppKey, OVR.OpenVR.EVRApplicationProperty eProperty, System.Text.StringBuilder pchPropertyValueBuffer, System.UInt32 unPropertyValueBufferLen, ref OVR.OpenVR.EVRApplicationError peError)
-    // Offset: 0x114B024
+    // Offset: 0x11EBCE4
     uint Invoke(::Il2CppString* pchAppKey, OVR::OpenVR::EVRApplicationProperty eProperty, System::Text::StringBuilder* pchPropertyValueBuffer, uint unPropertyValueBufferLen, OVR::OpenVR::EVRApplicationError& peError);
     // public System.IAsyncResult BeginInvoke(System.String pchAppKey, OVR.OpenVR.EVRApplicationProperty eProperty, System.Text.StringBuilder pchPropertyValueBuffer, System.UInt32 unPropertyValueBufferLen, ref OVR.OpenVR.EVRApplicationError peError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11590F8
+    // Offset: 0x11F9DB8
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchAppKey, OVR::OpenVR::EVRApplicationProperty eProperty, System::Text::StringBuilder* pchPropertyValueBuffer, uint unPropertyValueBufferLen, OVR::OpenVR::EVRApplicationError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(ref OVR.OpenVR.EVRApplicationError peError, System.IAsyncResult result)
-    // Offset: 0x11591E0
+    // Offset: 0x11F9EA0
     uint EndInvoke(OVR::OpenVR::EVRApplicationError& peError, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRApplications/_GetApplicationPropertyString
 }

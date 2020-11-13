@@ -27,7 +27,7 @@ namespace OnlineServices::API {
     // Offset: 0x18
     OnlineServices::API::HTTPLeaderboardsOathHelper* $$4__this;
     // public System.Void .ctor()
-    // Offset: 0x1F87A7C
+    // Offset: 0xEFB870
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0* New_ctor();

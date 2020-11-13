@@ -34,22 +34,22 @@ namespace Org::BouncyCastle::Asn1::X9 {
       return params;
     }
     // static public Org.BouncyCastle.Asn1.X9.X962Parameters GetInstance(System.Object obj)
-    // Offset: 0x161AAD4
+    // Offset: 0x15898D0
     static Org::BouncyCastle::Asn1::X9::X962Parameters* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Object obj)
-    // Offset: 0x161AD68
+    // Offset: 0x1589B64
     static X962Parameters* New_ctor(Org::BouncyCastle::Asn1::Asn1Object* obj);
     // public System.Boolean get_IsNamedCurve()
-    // Offset: 0x161AD9C
+    // Offset: 0x1589B98
     bool get_IsNamedCurve();
     // public System.Boolean get_IsImplicitlyCA()
-    // Offset: 0x161AE20
+    // Offset: 0x1589C1C
     bool get_IsImplicitlyCA();
     // public Org.BouncyCastle.Asn1.Asn1Object get_Parameters()
-    // Offset: 0x161AEA4
+    // Offset: 0x1589CA0
     Org::BouncyCastle::Asn1::Asn1Object* get_Parameters();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x161AEAC
+    // Offset: 0x1589CA8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

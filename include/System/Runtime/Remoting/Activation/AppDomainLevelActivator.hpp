@@ -33,15 +33,15 @@ namespace System::Runtime::Remoting::Activation {
       return *reinterpret_cast<System::Runtime::Remoting::Activation::IActivator*>(this);
     }
     // public System.Void .ctor(System.String activationUrl, System.Runtime.Remoting.Activation.IActivator next)
-    // Offset: 0x1090E88
+    // Offset: 0x11677B8
     static AppDomainLevelActivator* New_ctor(::Il2CppString* activationUrl, System::Runtime::Remoting::Activation::IActivator* next);
     // public System.Runtime.Remoting.Activation.IActivator get_NextActivator()
-    // Offset: 0x10914A0
+    // Offset: 0x1167DD0
     // Implemented from: System.Runtime.Remoting.Activation.IActivator
     // Base method: System.Runtime.Remoting.Activation.IActivator IActivator::get_NextActivator()
     System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
     // public System.Runtime.Remoting.Activation.IConstructionReturnMessage Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage ctorCall)
-    // Offset: 0x10914A8
+    // Offset: 0x1167DD8
     // Implemented from: System.Runtime.Remoting.Activation.IActivator
     // Base method: System.Runtime.Remoting.Activation.IConstructionReturnMessage IActivator::Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage ctorCall)
     System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);

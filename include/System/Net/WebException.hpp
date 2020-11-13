@@ -45,28 +45,28 @@ namespace System::Net {
     // Offset: 0x98
     System::Net::WebExceptionInternalStatus m_InternalStatus;
     // public System.Void .ctor(System.String message, System.Net.WebExceptionStatus status)
-    // Offset: 0x119287C
+    // Offset: 0x121DC0C
     static WebException* New_ctor(::Il2CppString* message, System::Net::WebExceptionStatus status);
     // System.Void .ctor(System.String message, System.Net.WebExceptionStatus status, System.Net.WebExceptionInternalStatus internalStatus, System.Exception innerException)
-    // Offset: 0x1197DF8
+    // Offset: 0x1223188
     static WebException* New_ctor(::Il2CppString* message, System::Net::WebExceptionStatus status, System::Net::WebExceptionInternalStatus internalStatus, System::Exception* innerException);
     // public System.Void .ctor(System.String message, System.Exception innerException, System.Net.WebExceptionStatus status, System.Net.WebResponse response)
-    // Offset: 0x1191534
+    // Offset: 0x121C8C4
     static WebException* New_ctor(::Il2CppString* message, System::Exception* innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse* response);
     // System.Void .ctor(System.String message, System.String data, System.Exception innerException, System.Net.WebExceptionStatus status, System.Net.WebResponse response)
-    // Offset: 0x119865C
+    // Offset: 0x12239EC
     static WebException* New_ctor(::Il2CppString* message, ::Il2CppString* data, System::Exception* innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse* response);
     // System.Void .ctor(System.String message, System.Exception innerException, System.Net.WebExceptionStatus status, System.Net.WebResponse response, System.Net.WebExceptionInternalStatus internalStatus)
-    // Offset: 0x1198644
+    // Offset: 0x12239D4
     static WebException* New_ctor(::Il2CppString* message, System::Exception* innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse* response, System::Net::WebExceptionInternalStatus internalStatus);
     // System.Void .ctor(System.String message, System.String data, System.Exception innerException, System.Net.WebExceptionStatus status, System.Net.WebResponse response, System.Net.WebExceptionInternalStatus internalStatus)
-    // Offset: 0x119873C
+    // Offset: 0x1223ACC
     static WebException* New_ctor(::Il2CppString* message, ::Il2CppString* data, System::Exception* innerException, System::Net::WebExceptionStatus status, System::Net::WebResponse* response, System::Net::WebExceptionInternalStatus internalStatus);
     // public System.Net.WebExceptionStatus get_Status()
-    // Offset: 0x119884C
+    // Offset: 0x1223BDC
     System::Net::WebExceptionStatus get_Status();
     // public System.Void .ctor()
-    // Offset: 0x1198610
+    // Offset: 0x12239A0
     // Implemented from: System.InvalidOperationException
     // Base method: System.Void InvalidOperationException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -74,33 +74,33 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     static WebException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1198620
+    // Offset: 0x12239B0
     // Implemented from: System.InvalidOperationException
     // Base method: System.Void InvalidOperationException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static WebException* New_ctor(::Il2CppString* message);
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x1198634
+    // Offset: 0x12239C4
     // Implemented from: System.InvalidOperationException
     // Base method: System.Void InvalidOperationException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     static WebException* New_ctor(::Il2CppString* message, System::Exception* innerException);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1198828
+    // Offset: 0x1223BB8
     // Implemented from: System.InvalidOperationException
     // Base method: System.Void InvalidOperationException::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     static WebException* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1198838
+    // Offset: 0x1223BC8
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1198844
+    // Offset: 0x1223BD4
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);

@@ -14,7 +14,7 @@ namespace UnityEngine::Timeline {
   class SignalTrack : public UnityEngine::Timeline::MarkerTrack {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13FAC20
+    // Offset: 0x14215A0
     // Implemented from: UnityEngine.Timeline.MarkerTrack
     // Base method: System.Void MarkerTrack::.ctor()
     // Base method: System.Void TrackAsset::.ctor()

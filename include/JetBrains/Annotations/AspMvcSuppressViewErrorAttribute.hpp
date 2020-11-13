@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class AspMvcSuppressViewErrorAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1F5C89C
+    // Offset: 0x19EE280
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

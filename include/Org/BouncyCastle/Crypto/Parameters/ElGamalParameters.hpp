@@ -34,27 +34,27 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger g)
-    // Offset: 0xF4C5CC
+    // Offset: 0x1047FD8
     static ElGamalParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* g);
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger g, System.Int32 l)
-    // Offset: 0xF4C5D4
+    // Offset: 0x1047FE0
     static ElGamalParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* p, Org::BouncyCastle::Math::BigInteger* g, int l);
     // public Org.BouncyCastle.Math.BigInteger get_P()
-    // Offset: 0xF4C6C0
+    // Offset: 0x10480CC
     Org::BouncyCastle::Math::BigInteger* get_P();
     // public Org.BouncyCastle.Math.BigInteger get_G()
-    // Offset: 0xF4C6C8
+    // Offset: 0x10480D4
     Org::BouncyCastle::Math::BigInteger* get_G();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.ElGamalParameters other)
-    // Offset: 0xF4C780
+    // Offset: 0x104818C
     bool Equals(Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF4C6D0
+    // Offset: 0x10480DC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF4C7F8
+    // Offset: 0x1048204
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

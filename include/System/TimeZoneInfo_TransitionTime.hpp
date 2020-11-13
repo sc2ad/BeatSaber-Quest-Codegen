@@ -67,66 +67,66 @@ namespace System {
       return *reinterpret_cast<System::Runtime::Serialization::IDeserializationCallback*>(this);
     }
     // public System.DateTime get_TimeOfDay()
-    // Offset: 0xC744C8
+    // Offset: 0xCA3A40
     System::DateTime get_TimeOfDay();
     // public System.Int32 get_Month()
-    // Offset: 0xC744D0
+    // Offset: 0xCA3A48
     int get_Month();
     // public System.Int32 get_Week()
-    // Offset: 0xC744D8
+    // Offset: 0xCA3A50
     int get_Week();
     // public System.Int32 get_Day()
-    // Offset: 0xC744E0
+    // Offset: 0xCA3A58
     int get_Day();
     // public System.DayOfWeek get_DayOfWeek()
-    // Offset: 0xC744E8
+    // Offset: 0xCA3A60
     System::DayOfWeek get_DayOfWeek();
     // public System.Boolean get_IsFixedDateRule()
-    // Offset: 0xC744F0
+    // Offset: 0xCA3A68
     bool get_IsFixedDateRule();
     // static public System.TimeZoneInfo/TransitionTime CreateFixedDateRule(System.DateTime timeOfDay, System.Int32 month, System.Int32 day)
-    // Offset: 0x16FA96C
+    // Offset: 0x164C530
     static System::TimeZoneInfo::TransitionTime CreateFixedDateRule(System::DateTime timeOfDay, int month, int day);
     // static public System.TimeZoneInfo/TransitionTime CreateFloatingDateRule(System.DateTime timeOfDay, System.Int32 month, System.Int32 week, System.DayOfWeek dayOfWeek)
-    // Offset: 0x16FBA8C
+    // Offset: 0x164D650
     static System::TimeZoneInfo::TransitionTime CreateFloatingDateRule(System::DateTime timeOfDay, int month, int week, System::DayOfWeek dayOfWeek);
     // static private System.TimeZoneInfo/TransitionTime CreateTransitionTime(System.DateTime timeOfDay, System.Int32 month, System.Int32 week, System.Int32 day, System.DayOfWeek dayOfWeek, System.Boolean isFixedDateRule)
-    // Offset: 0x1703778
+    // Offset: 0x165533C
     static System::TimeZoneInfo::TransitionTime CreateTransitionTime(System::DateTime timeOfDay, int month, int week, int day, System::DayOfWeek dayOfWeek, bool isFixedDateRule);
     // static private System.Void ValidateTransitionTime(System.DateTime timeOfDay, System.Int32 month, System.Int32 week, System.Int32 day, System.DayOfWeek dayOfWeek)
-    // Offset: 0x17037F4
+    // Offset: 0x16553B8
     static void ValidateTransitionTime(System::DateTime timeOfDay, int month, int week, int day, System::DayOfWeek dayOfWeek);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xC7455C
+    // Offset: 0xCA3AD4
     TransitionTime(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xC744F8
+    // Offset: 0xCA3A70
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(System.TimeZoneInfo/TransitionTime other)
-    // Offset: 0xC74500
+    // Offset: 0xCA3A78
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(System.TimeZoneInfo/TransitionTime other)
     bool Equals(System::TimeZoneInfo::TransitionTime other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xC74538
+    // Offset: 0xCA3AB0
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // private System.Void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object sender)
-    // Offset: 0xC7454C
+    // Offset: 0xCA3AC4
     // Implemented from: System.Runtime.Serialization.IDeserializationCallback
     // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xC74554
+    // Offset: 0xCA3ACC
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.TimeZoneInfo/TransitionTime
   // static public System.Boolean op_Inequality(System.TimeZoneInfo/TransitionTime t1, System.TimeZoneInfo/TransitionTime t2)
-  // Offset: 0x1702B50
+  // Offset: 0x1654714
   bool operator !=(const System::TimeZoneInfo::TransitionTime& t1, const System::TimeZoneInfo::TransitionTime& t2);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

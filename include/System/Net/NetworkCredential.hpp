@@ -39,40 +39,40 @@ namespace System::Net {
       return *reinterpret_cast<System::Net::ICredentials*>(this);
     }
     // public System.Void .ctor(System.String userName, System.String password)
-    // Offset: 0x124B7F8
+    // Offset: 0x12C08F4
     static NetworkCredential* New_ctor(::Il2CppString* userName, ::Il2CppString* password);
     // public System.Void .ctor(System.String userName, System.String password, System.String domain)
-    // Offset: 0x124B868
+    // Offset: 0x12C0964
     static NetworkCredential* New_ctor(::Il2CppString* userName, ::Il2CppString* password, ::Il2CppString* domain);
     // public System.String get_UserName()
-    // Offset: 0x124B9FC
+    // Offset: 0x12C0AF8
     ::Il2CppString* get_UserName();
     // public System.Void set_UserName(System.String value)
-    // Offset: 0x124B8D0
+    // Offset: 0x12C09CC
     void set_UserName(::Il2CppString* value);
     // public System.String get_Password()
-    // Offset: 0x124BA04
+    // Offset: 0x12C0B00
     ::Il2CppString* get_Password();
     // public System.Void set_Password(System.String value)
-    // Offset: 0x124B94C
+    // Offset: 0x12C0A48
     void set_Password(::Il2CppString* value);
     // public System.String get_Domain()
-    // Offset: 0x124BA1C
+    // Offset: 0x12C0B18
     ::Il2CppString* get_Domain();
     // public System.Void set_Domain(System.String value)
-    // Offset: 0x124B980
+    // Offset: 0x12C0A7C
     void set_Domain(::Il2CppString* value);
     // System.String InternalGetUserName()
-    // Offset: 0x124BA24
+    // Offset: 0x12C0B20
     ::Il2CppString* InternalGetUserName();
     // System.String InternalGetPassword()
-    // Offset: 0x124BA10
+    // Offset: 0x12C0B0C
     ::Il2CppString* InternalGetPassword();
     // System.String InternalGetDomain()
-    // Offset: 0x124BA2C
+    // Offset: 0x12C0B28
     ::Il2CppString* InternalGetDomain();
     // public System.Net.NetworkCredential GetCredential(System.Uri uri, System.String authType)
-    // Offset: 0x124BA34
+    // Offset: 0x12C0B30
     // Implemented from: System.Net.ICredentials
     // Base method: System.Net.NetworkCredential ICredentials::GetCredential(System.Uri uri, System.String authType)
     System::Net::NetworkCredential* GetCredential(System::Uri* uri, ::Il2CppString* authType);

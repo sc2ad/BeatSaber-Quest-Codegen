@@ -86,16 +86,16 @@ namespace Zenject::Internal {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::Dictionary_2<TKey, TValue>*>("Zenject.Internal", "ZenPools", "SpawnDictionary", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()})));
     }
     // static public Zenject.BindStatement SpawnStatement()
-    // Offset: 0x12308C4
+    // Offset: 0x12A597C
     static Zenject::BindStatement* SpawnStatement();
     // static public System.Void DespawnStatement(Zenject.BindStatement statement)
-    // Offset: 0x1230940
+    // Offset: 0x12A59F8
     static void DespawnStatement(Zenject::BindStatement* statement);
     // static public Zenject.BindInfo SpawnBindInfo()
-    // Offset: 0x12309D4
+    // Offset: 0x12A5A8C
     static Zenject::BindInfo* SpawnBindInfo();
     // static public System.Void DespawnBindInfo(Zenject.BindInfo bindInfo)
-    // Offset: 0x1230A50
+    // Offset: 0x12A5B08
     static void DespawnBindInfo(Zenject::BindInfo* bindInfo);
     // static public System.Void DespawnDictionary(System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary)
     // Offset: 0xFFFFFFFF
@@ -110,10 +110,10 @@ namespace Zenject::Internal {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("Zenject.Internal", "ZenPools", "DespawnHashSet", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, set));
     }
     // static public Zenject.Internal.LookupId SpawnLookupId(Zenject.IProvider provider, Zenject.BindingId bindingId)
-    // Offset: 0x1230AE4
+    // Offset: 0x12A5B9C
     static Zenject::Internal::LookupId* SpawnLookupId(Zenject::IProvider* provider, Zenject::BindingId bindingId);
     // static public System.Void DespawnLookupId(Zenject.Internal.LookupId lookupId)
-    // Offset: 0x1230BA4
+    // Offset: 0x12A5C5C
     static void DespawnLookupId(Zenject::Internal::LookupId* lookupId);
     // static public System.Collections.Generic.List`1<T> SpawnList()
     // Offset: 0xFFFFFFFF
@@ -140,16 +140,16 @@ namespace Zenject::Internal {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("Zenject.Internal", "ZenPools", "SpawnArray", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, length)));
     }
     // static public Zenject.InjectContext SpawnInjectContext(Zenject.DiContainer container, System.Type memberType)
-    // Offset: 0x1230C28
+    // Offset: 0x12A5CE0
     static Zenject::InjectContext* SpawnInjectContext(Zenject::DiContainer* container, System::Type* memberType);
     // static public System.Void DespawnInjectContext(Zenject.InjectContext context)
-    // Offset: 0x122B6D4
+    // Offset: 0x12A078C
     static void DespawnInjectContext(Zenject::InjectContext* context);
     // static public Zenject.InjectContext SpawnInjectContext(Zenject.DiContainer container, Zenject.InjectableInfo injectableInfo, Zenject.InjectContext currentContext, System.Object targetInstance, System.Type targetType, System.Object concreteIdentifier)
-    // Offset: 0x1230CE0
+    // Offset: 0x12A5D98
     static Zenject::InjectContext* SpawnInjectContext(Zenject::DiContainer* container, Zenject::InjectableInfo* injectableInfo, Zenject::InjectContext* currentContext, ::Il2CppObject* targetInstance, System::Type* targetType, ::Il2CppObject* concreteIdentifier);
     // static private System.Void .cctor()
-    // Offset: 0x1230E0C
+    // Offset: 0x12A5EC4
     static void _cctor();
   }; // Zenject.Internal.ZenPools
 }

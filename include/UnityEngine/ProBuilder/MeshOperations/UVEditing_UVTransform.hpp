@@ -29,7 +29,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Creating value type constructor for type: UVTransform
     constexpr UVTransform(UnityEngine::Vector2 translation_ = {}, float rotation_ = {}, UnityEngine::Vector2 scale_ = {}) noexcept : translation{translation_}, rotation{rotation_}, scale{scale_} {}
     // public override System.String ToString()
-    // Offset: 0xC6DEA8
+    // Offset: 0xC9E79C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

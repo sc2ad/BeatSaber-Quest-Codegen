@@ -37,29 +37,29 @@ namespace HMUI {
     // Set static field: static public System.Single kMaxElementWidth
     static void _set_kMaxElementWidth(float value);
     // public System.Single get_radius()
-    // Offset: 0x2182C78
+    // Offset: 0x10ABA74
     float get_radius();
     // public System.Void SetRadius(System.Single value)
-    // Offset: 0x2182C80
+    // Offset: 0x10ABA7C
     void SetRadius(float value);
     // private UnityEngine.Vector3 TransformPointFromCanvasTo3D(UnityEngine.Vector2 point)
-    // Offset: 0x2182F4C
+    // Offset: 0x10ABD48
     UnityEngine::Vector3 TransformPointFromCanvasTo3D(UnityEngine::Vector2 point);
     // static private System.Void RebuildAndSetup(UnityEngine.Transform t)
-    // Offset: 0x2182C9C
+    // Offset: 0x10ABA98
     static void RebuildAndSetup(UnityEngine::Transform* t);
     // protected override System.Void Start()
-    // Offset: 0x2182D90
+    // Offset: 0x10ABB8C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::Start()
     void Start();
     // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x2182E3C
+    // Offset: 0x10ABC38
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
     void OnPopulateMesh(UnityEngine::UI::VertexHelper* vh);
     // public System.Void .ctor()
-    // Offset: 0x218301C
+    // Offset: 0x10ABE18
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()

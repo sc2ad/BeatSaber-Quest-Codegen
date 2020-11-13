@@ -23,10 +23,10 @@ namespace UnityEngine::TextCore::LowLevel {
     // Creating value type constructor for type: GlyphPairAdjustmentRecord
     constexpr GlyphPairAdjustmentRecord(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord m_FirstAdjustmentRecord_ = {}, UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord m_SecondAdjustmentRecord_ = {}) noexcept : m_FirstAdjustmentRecord{m_FirstAdjustmentRecord_}, m_SecondAdjustmentRecord{m_SecondAdjustmentRecord_} {}
     // public UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord get_firstAdjustmentRecord()
-    // Offset: 0xC8B240
+    // Offset: 0xCB8170
     UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord get_firstAdjustmentRecord();
     // public UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord get_secondAdjustmentRecord()
-    // Offset: 0xC8B254
+    // Offset: 0xCB8184
     UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord get_secondAdjustmentRecord();
   }; // UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
 }

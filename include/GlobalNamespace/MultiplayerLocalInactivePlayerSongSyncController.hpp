@@ -84,43 +84,43 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kReSyncThreshold
     static void _set_kReSyncThreshold(float value);
     // private System.Boolean get_isAudioLoaded()
-    // Offset: 0x204DDDC
+    // Offset: 0xF72904
     bool get_isAudioLoaded();
     // protected System.Void Awake()
-    // Offset: 0x204DE88
+    // Offset: 0xF729B0
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x204DFA4
+    // Offset: 0xF72ACC
     void Update();
     // public System.Void FollowOffsetSyncTime(IMultiplayerObservable observable)
-    // Offset: 0x204E688
+    // Offset: 0xF731B0
     void FollowOffsetSyncTime(GlobalNamespace::IMultiplayerObservable* observable);
     // private System.Void UpdateOffsetSyncTime(System.Single offsetSyncTime, System.Boolean forceUpdate)
-    // Offset: 0x204E268
+    // Offset: 0xF72D90
     void UpdateOffsetSyncTime(float offsetSyncTime, bool forceUpdate);
     // private System.Void SeekTo(System.Single offsetTime, System.Boolean crossFade, System.Single toVolume)
-    // Offset: 0x204E4BC
+    // Offset: 0xF72FE4
     void SeekTo(float offsetTime, bool crossFade, float toVolume);
     // private System.Boolean <get_waitUntilIsReadyToStartTheSong>b__6_0()
-    // Offset: 0x204E8A0
+    // Offset: 0xF733C8
     bool $get_waitUntilIsReadyToStartTheSong$b__6_0();
     // public UnityEngine.WaitUntil get_waitUntilIsReadyToStartTheSong()
-    // Offset: 0x204DD44
+    // Offset: 0xF7286C
     // Implemented from: IStartSeekSongController
     // Base method: UnityEngine.WaitUntil IStartSeekSongController::get_waitUntilIsReadyToStartTheSong()
     UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
     // public System.Void StartSong(System.Single offsetTime)
-    // Offset: 0x204E3C4
+    // Offset: 0xF72EEC
     // Implemented from: IStartSeekSongController
     // Base method: System.Void IStartSeekSongController::StartSong(System.Single offsetTime)
     void StartSong(float offsetTime);
     // public System.Void SeekTo(System.Single offsetTime)
-    // Offset: 0x204E88C
+    // Offset: 0xF733B4
     // Implemented from: IStartSeekSongController
     // Base method: System.Void IStartSeekSongController::SeekTo(System.Single offsetTime)
     void SeekTo(float offsetTime);
     // public System.Void .ctor()
-    // Offset: 0x204E898
+    // Offset: 0xF733C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

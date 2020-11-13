@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRRenderModels::_FreeTextureD3D11 : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C9F4B4
+    // Offset: 0x191D68C
     static IVRRenderModels::_FreeTextureD3D11* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.IntPtr pD3D11Texture2D)
-    // Offset: 0x1C9F4C8
+    // Offset: 0x191D6A0
     void Invoke(System::IntPtr pD3D11Texture2D);
     // public System.IAsyncResult BeginInvoke(System.IntPtr pD3D11Texture2D, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C9F728
+    // Offset: 0x191D900
     System::IAsyncResult* BeginInvoke(System::IntPtr pD3D11Texture2D, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C9F7B4
+    // Offset: 0x191D98C
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRRenderModels/_FreeTextureD3D11
 }

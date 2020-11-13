@@ -73,26 +73,26 @@ namespace HMUI {
       return *reinterpret_cast<HMUI::SegmentedControl::IDataSource*>(this);
     }
     // protected System.Void Init()
-    // Offset: 0x218D534
+    // Offset: 0x10B6330
     void Init();
     // public System.Void SetData(HMUI.IconSegmentedControl/DataItem[] dataItems)
-    // Offset: 0x218D554
+    // Offset: 0x10B6350
     void SetData(::Array<HMUI::IconSegmentedControl::DataItem*>* dataItems);
     // private HMUI.IconSegmentedControlCell InstantiateCell(UnityEngine.Object prefab)
-    // Offset: 0x218D774
+    // Offset: 0x10B6570
     HMUI::IconSegmentedControlCell* InstantiateCell(UnityEngine::Object* prefab);
     // public System.Int32 NumberOfCells()
-    // Offset: 0x218D5AC
+    // Offset: 0x10B63A8
     // Implemented from: HMUI.SegmentedControl/IDataSource
     // Base method: System.Int32 IDataSource::NumberOfCells()
     int NumberOfCells();
     // public HMUI.SegmentedControlCell CellForCellNumber(System.Int32 cellNumber)
-    // Offset: 0x218D5C4
+    // Offset: 0x10B63C0
     // Implemented from: HMUI.SegmentedControl/IDataSource
     // Base method: HMUI.SegmentedControlCell IDataSource::CellForCellNumber(System.Int32 cellNumber)
     HMUI::SegmentedControlCell* CellForCellNumber(int cellNumber);
     // public System.Void .ctor()
-    // Offset: 0x218DA24
+    // Offset: 0x10B6820
     // Implemented from: HMUI.SegmentedControl
     // Base method: System.Void SegmentedControl::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

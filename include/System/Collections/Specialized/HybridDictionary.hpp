@@ -49,21 +49,21 @@ namespace System::Collections::Specialized {
       return *reinterpret_cast<System::Collections::IDictionary*>(this);
     }
     // private System.Collections.Specialized.ListDictionary get_List()
-    // Offset: 0x14DCF54
+    // Offset: 0x147BB34
     System::Collections::Specialized::ListDictionary* get_List();
     // private System.Void ChangeOver()
-    // Offset: 0x14DCA64
+    // Offset: 0x147B644
     void ChangeOver();
     // public System.Collections.ICollection get_Values()
-    // Offset: 0x14DD1AC
+    // Offset: 0x147BD8C
     System::Collections::ICollection* get_Values();
     // public System.Void .ctor()
-    // Offset: 0x14DC684
+    // Offset: 0x147B264
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HybridDictionary* New_ctor();
     // public System.Object get_Item(System.Object key)
-    // Offset: 0x14DC68C
+    // Offset: 0x147B26C
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Object IDictionary::get_Item(System.Object key)
     ::Il2CppObject* get_Item(::Il2CppObject* key);
@@ -71,7 +71,7 @@ namespace System::Collections::Specialized {
     // Maps to method: get_Item
     ::Il2CppObject* System_Collections_IDictionary_get_Item(::Il2CppObject* key);
     // public System.Void set_Item(System.Object key, System.Object value)
-    // Offset: 0x14DC8E8
+    // Offset: 0x147B4C8
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Void IDictionary::set_Item(System.Object key, System.Object value)
     void set_Item(::Il2CppObject* key, ::Il2CppObject* value);
@@ -79,7 +79,7 @@ namespace System::Collections::Specialized {
     // Maps to method: set_Item
     void System_Collections_IDictionary_set_Item(::Il2CppObject* key, ::Il2CppObject* value);
     // public System.Int32 get_Count()
-    // Offset: 0x14DD0C0
+    // Offset: 0x147BCA0
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();
@@ -87,7 +87,7 @@ namespace System::Collections::Specialized {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // public System.Collections.ICollection get_Keys()
-    // Offset: 0x14DD0F4
+    // Offset: 0x147BCD4
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Collections.ICollection IDictionary::get_Keys()
     System::Collections::ICollection* get_Keys();
@@ -95,7 +95,7 @@ namespace System::Collections::Specialized {
     // Maps to method: get_Keys
     System::Collections::ICollection* System_Collections_IDictionary_get_Keys();
     // public System.Void Add(System.Object key, System.Object value)
-    // Offset: 0x14DD260
+    // Offset: 0x147BE40
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Void IDictionary::Add(System.Object key, System.Object value)
     void Add(::Il2CppObject* key, ::Il2CppObject* value);
@@ -103,7 +103,7 @@ namespace System::Collections::Specialized {
     // Maps to method: Add
     void System_Collections_IDictionary_Add(::Il2CppObject* key, ::Il2CppObject* value);
     // public System.Boolean Contains(System.Object key)
-    // Offset: 0x14DD5FC
+    // Offset: 0x147C1DC
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Boolean IDictionary::Contains(System.Object key)
     bool Contains(::Il2CppObject* key);
@@ -111,7 +111,7 @@ namespace System::Collections::Specialized {
     // Maps to method: Contains
     bool System_Collections_IDictionary_Contains(::Il2CppObject* key);
     // public System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x14DD844
+    // Offset: 0x147C424
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void CopyTo(System::Array* array, int index);
@@ -119,7 +119,7 @@ namespace System::Collections::Specialized {
     // Maps to method: CopyTo
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // public System.Collections.IDictionaryEnumerator GetEnumerator()
-    // Offset: 0x14DDA34
+    // Offset: 0x147C614
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Collections.IDictionaryEnumerator IDictionary::GetEnumerator()
     System::Collections::IDictionaryEnumerator* GetEnumerator();
@@ -127,7 +127,7 @@ namespace System::Collections::Specialized {
     // Maps to method: GetEnumerator
     System::Collections::IDictionaryEnumerator* System_Collections_IDictionary_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x14DDB6C
+    // Offset: 0x147C74C
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

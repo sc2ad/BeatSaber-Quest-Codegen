@@ -46,13 +46,13 @@ namespace UnityEngine::Playables {
       return *reinterpret_cast<UnityEngine::Playables::IPlayableAsset*>(this);
     }
     // public System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> get_outputs()
-    // Offset: 0x193F3D8
+    // Offset: 0x1731404
     System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* get_outputs();
     // static System.Void Internal_CreatePlayable(UnityEngine.Playables.PlayableAsset asset, UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go, System.IntPtr ptr)
-    // Offset: 0x193F440
+    // Offset: 0x173146C
     static void Internal_CreatePlayable(UnityEngine::Playables::PlayableAsset* asset, UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go, System::IntPtr ptr);
     // static System.Void Internal_GetPlayableAssetDuration(UnityEngine.Playables.PlayableAsset asset, System.IntPtr ptrToDouble)
-    // Offset: 0x193F520
+    // Offset: 0x173154C
     static void Internal_GetPlayableAssetDuration(UnityEngine::Playables::PlayableAsset* asset, System::IntPtr ptrToDouble);
     // public UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject owner)
     // Offset: 0xFFFFFFFF
@@ -60,12 +60,12 @@ namespace UnityEngine::Playables {
     // Base method: UnityEngine.Playables.Playable IPlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject owner)
     UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* owner);
     // public System.Double get_duration()
-    // Offset: 0x193F370
+    // Offset: 0x173139C
     // Implemented from: UnityEngine.Playables.IPlayableAsset
     // Base method: System.Double IPlayableAsset::get_duration()
     double get_duration();
     // protected System.Void .ctor()
-    // Offset: 0x193F554
+    // Offset: 0x1731580
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

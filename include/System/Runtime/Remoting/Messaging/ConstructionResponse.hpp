@@ -46,20 +46,20 @@ namespace System::Runtime::Remoting::Messaging {
       return *reinterpret_cast<System::Runtime::Remoting::Activation::IConstructionReturnMessage*>(this);
     }
     // System.Void .ctor(System.Object resultObject, System.Runtime.Remoting.Messaging.LogicalCallContext callCtx, System.Runtime.Remoting.Messaging.IMethodCallMessage msg)
-    // Offset: 0x1091310
+    // Offset: 0x1167C40
     static ConstructionResponse* New_ctor(::Il2CppObject* resultObject, System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx, System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
     // System.Void .ctor(System.Exception e, System.Runtime.Remoting.Messaging.IMethodCallMessage msg)
-    // Offset: 0x1091984
+    // Offset: 0x11682B4
     // Implemented from: System.Runtime.Remoting.Messaging.MethodResponse
     // Base method: System.Void MethodResponse::.ctor(System.Exception e, System.Runtime.Remoting.Messaging.IMethodCallMessage msg)
     static ConstructionResponse* New_ctor(System::Exception* e, System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x10A5A78
+    // Offset: 0x117C3A8
     // Implemented from: System.Runtime.Remoting.Messaging.MethodResponse
     // Base method: System.Void MethodResponse::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static ConstructionResponse* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Collections.IDictionary get_Properties()
-    // Offset: 0x10A5A80
+    // Offset: 0x117C3B0
     // Implemented from: System.Runtime.Remoting.Messaging.MethodResponse
     // Base method: System.Collections.IDictionary MethodResponse::get_Properties()
     System::Collections::IDictionary* get_Properties();

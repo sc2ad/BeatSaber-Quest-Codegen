@@ -40,10 +40,10 @@ namespace System::Threading::Tasks {
       return m_antecedent;
     }
     // public System.Void .ctor(System.Threading.Tasks.Task antecedent, System.Delegate action, System.Object state, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.InternalTaskOptions internalOptions, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1496048
+    // Offset: 0x1D0E8CC
     static ContinuationTaskFromTask* New_ctor(System::Threading::Tasks::Task* antecedent, System::Delegate* action, ::Il2CppObject* state, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions, System::Threading::StackCrawlMark& stackMark);
     // override System.Void InnerInvoke()
-    // Offset: 0x149625C
+    // Offset: 0x1D0EAE0
     // Implemented from: System.Threading.Tasks.Task
     // Base method: System.Void Task::InnerInvoke()
     void InnerInvoke();

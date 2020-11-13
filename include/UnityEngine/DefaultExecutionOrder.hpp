@@ -21,10 +21,10 @@ namespace UnityEngine {
       return m_Order;
     }
     // public System.Void .ctor(System.Int32 order)
-    // Offset: 0x178F7F8
+    // Offset: 0x1685528
     static DefaultExecutionOrder* New_ctor(int order);
     // public System.Int32 get_order()
-    // Offset: 0x1787AD4
+    // Offset: 0x167D804
     int get_order();
   }; // UnityEngine.DefaultExecutionOrder
 }

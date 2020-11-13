@@ -30,10 +30,10 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<System::Threading::Tasks::ITaskCompletionAction*>(this);
     }
     // System.Void .ctor(System.Threading.Tasks.Task[] tasks)
-    // Offset: 0x149DEE0
+    // Offset: 0x1D16764
     static Task::WhenAllPromise* New_ctor(::Array<System::Threading::Tasks::Task*>* tasks);
     // public System.Void Invoke(System.Threading.Tasks.Task completedTask)
-    // Offset: 0x149EC64
+    // Offset: 0x1D174E8
     // Implemented from: System.Threading.Tasks.ITaskCompletionAction
     // Base method: System.Void ITaskCompletionAction::Invoke(System.Threading.Tasks.Task completedTask)
     void Invoke(System::Threading::Tasks::Task* completedTask);
@@ -41,7 +41,7 @@ namespace System::Threading::Tasks {
     // Maps to method: Invoke
     void System_Threading_Tasks_ITaskCompletionAction_Invoke(System::Threading::Tasks::Task* completedTask);
     // override System.Boolean get_ShouldNotifyDebuggerOfWaitCompletion()
-    // Offset: 0x149EEFC
+    // Offset: 0x1D17780
     // Implemented from: System.Threading.Tasks.Task
     // Base method: System.Boolean Task::get_ShouldNotifyDebuggerOfWaitCompletion()
     bool get_ShouldNotifyDebuggerOfWaitCompletion();

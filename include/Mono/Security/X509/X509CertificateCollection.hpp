@@ -28,27 +28,27 @@ namespace Mono::Security::X509 {
     // Nested type: Mono::Security::X509::X509CertificateCollection::X509CertificateEnumerator
     class X509CertificateEnumerator;
     // public Mono.Security.X509.X509Certificate get_Item(System.Int32 index)
-    // Offset: 0x1F369C4
+    // Offset: 0x19C38D4
     Mono::Security::X509::X509Certificate* get_Item(int index);
     // public System.Int32 Add(Mono.Security.X509.X509Certificate value)
-    // Offset: 0x1F36A74
+    // Offset: 0x19C3984
     int Add(Mono::Security::X509::X509Certificate* value);
     // public Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator GetEnumerator()
-    // Offset: 0x1F36B24
+    // Offset: 0x19C3A34
     Mono::Security::X509::X509CertificateCollection::X509CertificateEnumerator* GetEnumerator();
     // public System.Void .ctor()
-    // Offset: 0x1F369BC
+    // Offset: 0x19C38CC
     // Implemented from: System.Collections.CollectionBase
     // Base method: System.Void CollectionBase::.ctor()
     // Base method: System.Void Object::.ctor()
     static X509CertificateCollection* New_ctor();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1F36C58
+    // Offset: 0x19C3B68
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1F36C84
+    // Offset: 0x19C3B94
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

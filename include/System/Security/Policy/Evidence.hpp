@@ -46,12 +46,12 @@ namespace System::Security::Policy {
       return *reinterpret_cast<System::Collections::ICollection*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x120C2B0
+    // Offset: 0x1281368
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Evidence* New_ctor();
     // public System.Int32 get_Count()
-    // Offset: 0x120C2B8
+    // Offset: 0x1281370
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();
@@ -59,7 +59,7 @@ namespace System::Security::Policy {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // public System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x120C318
+    // Offset: 0x12813D0
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void CopyTo(System::Array* array, int index);
@@ -67,7 +67,7 @@ namespace System::Security::Policy {
     // Maps to method: CopyTo
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x120C3E0
+    // Offset: 0x1281498
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();

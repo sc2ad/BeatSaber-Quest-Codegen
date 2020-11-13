@@ -73,19 +73,19 @@ namespace GlobalNamespace {
     // Offset: 0x40
     System::Action_2<GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`2<PatternFightScenesTransitionSetupDataSO,PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType> value)
-    // Offset: 0x1F911F0
+    // Offset: 0xF050E0
     void add_didFinishEvent(System::Action_2<GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<PatternFightScenesTransitionSetupDataSO,PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType> value)
-    // Offset: 0x1F91294
+    // Offset: 0xF05184
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>* value);
     // public System.Void Init(PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x1F90880
+    // Offset: 0xF04708
     void Init(GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
     // public System.Void Finish(PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType endState)
-    // Offset: 0x1F91338
+    // Offset: 0xF05228
     void Finish(GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType endState);
     // public System.Void .ctor()
-    // Offset: 0x1F913B0
+    // Offset: 0xF052A0
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

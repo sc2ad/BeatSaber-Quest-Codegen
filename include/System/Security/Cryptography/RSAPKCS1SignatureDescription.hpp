@@ -21,7 +21,7 @@ namespace System::Security::Cryptography {
       return hashAlgorithm;
     }
     // protected System.Void .ctor(System.String hashAlgorithm, System.String digestAlgorithm)
-    // Offset: 0x177F288
+    // Offset: 0x169F77C
     static RSAPKCS1SignatureDescription* New_ctor(::Il2CppString* hashAlgorithm, ::Il2CppString* digestAlgorithm);
   }; // System.Security.Cryptography.RSAPKCS1SignatureDescription
 }

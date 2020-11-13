@@ -55,16 +55,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0x2007614
+    // Offset: 0x1A21914
     UnityEngine::UI::Toggle* get_toggle();
     // public GameplayModifierParamsSO get_gameplayModifier()
-    // Offset: 0x200761C
+    // Offset: 0x1A2191C
     GlobalNamespace::GameplayModifierParamsSO* get_gameplayModifier();
     // protected System.Void Start()
-    // Offset: 0x2007624
+    // Offset: 0x1A21924
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x2007764
+    // Offset: 0x1A21A64
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -49,30 +49,30 @@ namespace GlobalNamespace {
     // Offset: 0x90
     int selectedSubMenuInfoIdx;
     // public System.Void add_didSelectSettingsSubMenuEvent(System.Action`2<SettingsSubMenuInfo,System.Int32> value)
-    // Offset: 0x1FBFC64
+    // Offset: 0x1A6F164
     void add_didSelectSettingsSubMenuEvent(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* value);
     // public System.Void remove_didSelectSettingsSubMenuEvent(System.Action`2<SettingsSubMenuInfo,System.Int32> value)
-    // Offset: 0x1FBFD08
+    // Offset: 0x1A6F208
     void remove_didSelectSettingsSubMenuEvent(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>* value);
     // public System.Int32 get_numberOfSubMenus()
-    // Offset: 0x1FBFDAC
+    // Offset: 0x1A6F2AC
     int get_numberOfSubMenus();
     // public SettingsSubMenuInfo get_selectedSubMenuInfo()
-    // Offset: 0x1FBFDC8
+    // Offset: 0x1A6F2C8
     GlobalNamespace::SettingsSubMenuInfo* get_selectedSubMenuInfo();
     // public System.Void Init(System.Int32 selectedSubMenuInfoIdx)
-    // Offset: 0x1FBFDD0
+    // Offset: 0x1A6F2D0
     void Init(int selectedSubMenuInfoIdx);
     // private System.Void HandleSettingsMenuSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x1FBFFAC
+    // Offset: 0x1A6F4AC
     void HandleSettingsMenuSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1FBFE14
+    // Offset: 0x1A6F314
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x1FC0060
+    // Offset: 0x1A6F560
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

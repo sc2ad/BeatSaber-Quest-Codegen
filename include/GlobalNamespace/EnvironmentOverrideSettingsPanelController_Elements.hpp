@@ -51,13 +51,13 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* environmentInfos;
     // public System.Collections.Generic.List`1<EnvironmentInfoSO> get_environmentInfos()
-    // Offset: 0x201EA48
+    // Offset: 0x1A0DFB0
     System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* get_environmentInfos();
     // public System.Void set_environmentInfos(System.Collections.Generic.List`1<EnvironmentInfoSO> value)
-    // Offset: 0x201EA50
+    // Offset: 0x1A0DFB8
     void set_environmentInfos(System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* value);
     // public System.Void .ctor()
-    // Offset: 0x201EA58
+    // Offset: 0x1A0DFC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EnvironmentOverrideSettingsPanelController::Elements* New_ctor();

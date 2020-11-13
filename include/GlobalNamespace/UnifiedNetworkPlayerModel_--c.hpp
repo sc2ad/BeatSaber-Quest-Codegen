@@ -30,13 +30,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Comparison`1<UnifiedNetworkPlayerModel/UnifiedNetworkPlayer> <>9__120_0
     static void _set_$$9__120_0(System::Comparison_1<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x21E4524
+    // Offset: 0xFFACFC
     static void _cctor();
     // System.Int32 <PlayerOrderChanged>b__120_0(UnifiedNetworkPlayerModel/UnifiedNetworkPlayer a, UnifiedNetworkPlayerModel/UnifiedNetworkPlayer b)
-    // Offset: 0x21E4594
+    // Offset: 0xFFAD6C
     int $PlayerOrderChanged$b__120_0(GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer* a, GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer* b);
     // public System.Void .ctor()
-    // Offset: 0x21E458C
+    // Offset: 0xFFAD64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UnifiedNetworkPlayerModel::$$c* New_ctor();

@@ -50,19 +50,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_lobbyActivated()
-    // Offset: 0x2046A4C
+    // Offset: 0xF6B1E4
     bool get_lobbyActivated();
     // private System.Void set_lobbyActivated(System.Boolean value)
-    // Offset: 0x2046A54
+    // Offset: 0xF6B1EC
     void set_lobbyActivated(bool value);
     // public System.Void ActivateMultiplayerLobby()
-    // Offset: 0x2046A60
+    // Offset: 0xF6B1F8
     void ActivateMultiplayerLobby();
     // public System.Void DeactivateMultiplayerLobby()
-    // Offset: 0x2046AFC
+    // Offset: 0xF6B2A4
     void DeactivateMultiplayerLobby();
     // public System.Void .ctor()
-    // Offset: 0x2046B70
+    // Offset: 0xF6B324
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

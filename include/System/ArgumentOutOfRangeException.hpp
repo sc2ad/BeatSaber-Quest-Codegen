@@ -32,13 +32,13 @@ namespace System {
     // Set static field: static private System.String _rangeMessage
     static void _set__rangeMessage(::Il2CppString* value);
     // static private System.String get_RangeMessage()
-    // Offset: 0x13990C0
+    // Offset: 0x1CA21B0
     static ::Il2CppString* get_RangeMessage();
     // public System.Void .ctor(System.String paramName, System.Object actualValue, System.String message)
-    // Offset: 0x1399230
+    // Offset: 0x1CA2320
     static ArgumentOutOfRangeException* New_ctor(::Il2CppString* paramName, ::Il2CppObject* actualValue, ::Il2CppString* message);
     // public System.Void .ctor()
-    // Offset: 0x139915C
+    // Offset: 0x1CA224C
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -46,24 +46,24 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static ArgumentOutOfRangeException* New_ctor();
     // public System.Void .ctor(System.String paramName)
-    // Offset: 0x13991B0
+    // Offset: 0x1CA22A0
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String paramName)
     // Base method: System.Void SystemException::.ctor(System.String paramName)
     // Base method: System.Void Exception::.ctor(System.String paramName)
     static ArgumentOutOfRangeException* New_ctor(::Il2CppString* paramName);
     // public System.Void .ctor(System.String paramName, System.String message)
-    // Offset: 0x13991F4
+    // Offset: 0x1CA22E4
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String paramName, System.String message)
     static ArgumentOutOfRangeException* New_ctor(::Il2CppString* paramName, ::Il2CppString* message);
     // public override System.String get_Message()
-    // Offset: 0x139927C
+    // Offset: 0x1CA236C
     // Implemented from: System.ArgumentException
     // Base method: System.String ArgumentException::get_Message()
     ::Il2CppString* get_Message();
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x13993AC
+    // Offset: 0x1CA249C
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -71,7 +71,7 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x13994B0
+    // Offset: 0x1CA25A0
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

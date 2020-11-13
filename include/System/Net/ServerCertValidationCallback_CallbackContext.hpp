@@ -40,7 +40,7 @@ namespace System::Net {
     // Offset: 0x2C
     bool result;
     // System.Void .ctor(System.Object request, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors)
-    // Offset: 0x10CD424
+    // Offset: 0x11A2D54
     static ServerCertValidationCallback::CallbackContext* New_ctor(::Il2CppObject* request, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Security::Cryptography::X509Certificates::X509Chain* chain, System::Net::Security::SslPolicyErrors sslPolicyErrors);
   }; // System.Net.ServerCertValidationCallback/CallbackContext
 }

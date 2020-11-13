@@ -8,6 +8,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
+  // Forward declaring type: DisconnectedReason
+  struct DisconnectedReason;
   // Forward declaring type: MultiplayerAvatarData
   struct MultiplayerAvatarData;
 }
@@ -35,6 +37,9 @@ namespace GlobalNamespace {
     // public System.Boolean get_isConnected()
     // Offset: 0xFFFFFFFF
     bool get_isConnected();
+    // public DisconnectedReason get_disconnectedReason()
+    // Offset: 0xFFFFFFFF
+    GlobalNamespace::DisconnectedReason get_disconnectedReason();
     // public System.Boolean get_isConnectionOwner()
     // Offset: 0xFFFFFFFF
     bool get_isConnectionOwner();

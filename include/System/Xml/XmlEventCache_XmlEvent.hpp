@@ -35,37 +35,37 @@ namespace System::Xml {
     // Creating value type constructor for type: XmlEvent
     constexpr XmlEvent(System::Xml::XmlEventCache::XmlEventType eventType_ = {}, ::Il2CppString* s1_ = {}, ::Il2CppString* s2_ = {}, ::Il2CppString* s3_ = {}, ::Il2CppObject* o_ = {}) noexcept : eventType{eventType_}, s1{s1_}, s2{s2_}, s3{s3_}, o{o_} {}
     // public System.Void InitEvent(System.Xml.XmlEventCache/XmlEventType eventType)
-    // Offset: 0xC71410
+    // Offset: 0xCA09A0
     void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType);
     // public System.Void InitEvent(System.Xml.XmlEventCache/XmlEventType eventType, System.String s1)
-    // Offset: 0xC71418
+    // Offset: 0xCA09A8
     void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::Il2CppString* s1);
     // public System.Void InitEvent(System.Xml.XmlEventCache/XmlEventType eventType, System.String s1, System.String s2)
-    // Offset: 0xC71428
+    // Offset: 0xCA09B8
     void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::Il2CppString* s1, ::Il2CppString* s2);
     // public System.Void InitEvent(System.Xml.XmlEventCache/XmlEventType eventType, System.String s1, System.String s2, System.String s3)
-    // Offset: 0xC71464
+    // Offset: 0xCA09F4
     void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::Il2CppString* s1, ::Il2CppString* s2, ::Il2CppString* s3);
     // public System.Void InitEvent(System.Xml.XmlEventCache/XmlEventType eventType, System.String s1, System.String s2, System.String s3, System.Object o)
-    // Offset: 0xC7146C
+    // Offset: 0xCA09FC
     void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::Il2CppString* s1, ::Il2CppString* s2, ::Il2CppString* s3, ::Il2CppObject* o);
     // public System.Void InitEvent(System.Xml.XmlEventCache/XmlEventType eventType, System.Object o)
-    // Offset: 0xC71474
+    // Offset: 0xCA0A04
     void InitEvent(System::Xml::XmlEventCache::XmlEventType eventType, ::Il2CppObject* o);
     // public System.Xml.XmlEventCache/XmlEventType get_EventType()
-    // Offset: 0xC71484
+    // Offset: 0xCA0A14
     System::Xml::XmlEventCache::XmlEventType get_EventType();
     // public System.String get_String1()
-    // Offset: 0xC7148C
+    // Offset: 0xCA0A1C
     ::Il2CppString* get_String1();
     // public System.String get_String2()
-    // Offset: 0xC71494
+    // Offset: 0xCA0A24
     ::Il2CppString* get_String2();
     // public System.String get_String3()
-    // Offset: 0xC7149C
+    // Offset: 0xCA0A2C
     ::Il2CppString* get_String3();
     // public System.Object get_Object()
-    // Offset: 0xC714A4
+    // Offset: 0xCA0A34
     ::Il2CppObject* get_Object();
   }; // System.Xml.XmlEventCache/XmlEvent
 }

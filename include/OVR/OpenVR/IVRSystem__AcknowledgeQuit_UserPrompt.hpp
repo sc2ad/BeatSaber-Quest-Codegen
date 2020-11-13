@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_AcknowledgeQuit_UserPrompt : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C91340
+    // Offset: 0x190F518
     static IVRSystem::_AcknowledgeQuit_UserPrompt* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke()
-    // Offset: 0x1C91354
+    // Offset: 0x190F52C
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C91560
+    // Offset: 0x190F738
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C9158C
+    // Offset: 0x190F764
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_AcknowledgeQuit_UserPrompt
 }

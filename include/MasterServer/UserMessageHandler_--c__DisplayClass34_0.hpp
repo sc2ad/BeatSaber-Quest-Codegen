@@ -92,13 +92,13 @@ namespace MasterServer {
     // Offset: 0x80
     System::Action_2<System::Net::IPEndPoint*, ::Il2CppString*>* onSuccess;
     // System.Void <StartBroadcastingServer>b__0(ConnectionFailedReason result)
-    // Offset: 0x212AE6C
+    // Offset: 0x1AE1B64
     void $StartBroadcastingServer$b__0(GlobalNamespace::ConnectionFailedReason result);
     // System.Threading.Tasks.Task <StartBroadcastingServer>b__1()
-    // Offset: 0x212AEFC
+    // Offset: 0x1AE1BF4
     System::Threading::Tasks::Task* $StartBroadcastingServer$b__1();
     // public System.Void .ctor()
-    // Offset: 0x212A49C
+    // Offset: 0x1AE1198
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UserMessageHandler::$$c__DisplayClass34_0* New_ctor();

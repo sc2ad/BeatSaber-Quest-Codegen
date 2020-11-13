@@ -95,40 +95,40 @@ namespace GlobalNamespace {
     // Offset: 0xC8
     UnityEngine::Sprite* blurredPackArtwork;
     // public System.Void SetData(IBeatmapLevelPack pack)
-    // Offset: 0x20B55CC
+    // Offset: 0x1AC1FF0
     void SetData(GlobalNamespace::IBeatmapLevelPack* pack);
     // private System.Void RefreshAvailabilityAsync()
-    // Offset: 0x20BD7C4
+    // Offset: 0x1AC22C8
     void RefreshAvailabilityAsync();
     // private System.Void OpenLevelPackProductStoreAsync()
-    // Offset: 0x20BDC28
+    // Offset: 0x1AC272C
     void OpenLevelPackProductStoreAsync();
     // private System.Void ShowContent(LevelPackDetailViewController/ContentType contentType, System.String errorText)
-    // Offset: 0x20BDD04
+    // Offset: 0x1AC2808
     void ShowContent(GlobalNamespace::LevelPackDetailViewController::ContentType contentType, ::Il2CppString* errorText);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x20BDF34
+    // Offset: 0x1AC2B90
     void HandleAdditionalContentModelDidInvalidateData();
     // private System.Void <DidActivate>b__14_0()
-    // Offset: 0x20BDFAC
+    // Offset: 0x1AC2C08
     void $DidActivate$b__14_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x20BD8A0
+    // Offset: 0x1AC23A4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x20BDA60
+    // Offset: 0x1AC2564
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x20BDB0C
+    // Offset: 0x1AC2610
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x20BDF38
+    // Offset: 0x1AC2B94
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -56,31 +56,31 @@ namespace UnityEngine::Rendering {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::Rendering::RenderTargetIdentifier>*>(this);
     }
     // public System.Void .ctor(UnityEngine.Rendering.BuiltinRenderTextureType type)
-    // Offset: 0xC74FF0
+    // Offset: 0xCA5E64
     RenderTargetIdentifier(UnityEngine::Rendering::BuiltinRenderTextureType type);
     // public System.Void .ctor(System.Int32 nameID)
-    // Offset: 0xC75058
+    // Offset: 0xCA5ECC
     RenderTargetIdentifier(int nameID);
     // public System.Void .ctor(UnityEngine.Texture tex)
-    // Offset: 0xC750C0
+    // Offset: 0xCA5F34
     RenderTargetIdentifier(UnityEngine::Texture* tex);
     // public override System.String ToString()
-    // Offset: 0xC750C8
+    // Offset: 0xCA5F3C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xC750D0
+    // Offset: 0xCA5F44
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public System.Boolean Equals(UnityEngine.Rendering.RenderTargetIdentifier rhs)
-    // Offset: 0xC750D8
+    // Offset: 0xCA5F4C
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Rendering.RenderTargetIdentifier rhs)
     bool Equals(UnityEngine::Rendering::RenderTargetIdentifier rhs);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xC75110
+    // Offset: 0xCA5F84
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

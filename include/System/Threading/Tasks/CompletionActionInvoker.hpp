@@ -38,10 +38,10 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<System::Threading::IThreadPoolWorkItem*>(this);
     }
     // System.Void .ctor(System.Threading.Tasks.ITaskCompletionAction action, System.Threading.Tasks.Task completingTask)
-    // Offset: 0x1495F3C
+    // Offset: 0x1D0E7C0
     static CompletionActionInvoker* New_ctor(System::Threading::Tasks::ITaskCompletionAction* action, System::Threading::Tasks::Task* completingTask);
     // public System.Void ExecuteWorkItem()
-    // Offset: 0x1495F8C
+    // Offset: 0x1D0E810
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::ExecuteWorkItem()
     void ExecuteWorkItem();
@@ -49,7 +49,7 @@ namespace System::Threading::Tasks {
     // Maps to method: ExecuteWorkItem
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // public System.Void MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x1496044
+    // Offset: 0x1D0E8C8
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void MarkAborted(System::Threading::ThreadAbortException* tae);

@@ -46,12 +46,12 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected override System.Void OnCanvasGroupChanged()
-    // Offset: 0x216AE54
+    // Offset: 0x107ACD8
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnCanvasGroupChanged()
     void OnCanvasGroupChanged();
     // public System.Void .ctor()
-    // Offset: 0x216AFEC
+    // Offset: 0x107AE70
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

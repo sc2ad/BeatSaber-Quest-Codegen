@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0* CS$$$8__locals1;
     // public System.Void .ctor()
-    // Offset: 0x20CC3E8
+    // Offset: 0x1A849B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1* New_ctor();

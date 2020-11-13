@@ -28,7 +28,7 @@ namespace GlobalNamespace {
       return nextScenesTransitionSetupData;
     }
     // public System.Void .ctor(ScenesTransitionSetupDataSO nextScenesTransitionSetupData)
-    // Offset: 0x200DCB4
+    // Offset: 0xF13A4C
     static HealthWarningFlowCoordinator::InitData* New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
   }; // HealthWarningFlowCoordinator/InitData
 }

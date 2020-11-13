@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_GetVulkanDeviceExtensionsRequired : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AAD34C
+    // Offset: 0x185C884
     static IVRCompositor::_GetVulkanDeviceExtensionsRequired* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.IntPtr pPhysicalDevice, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)
-    // Offset: 0x1AAD360
+    // Offset: 0x185C898
     uint Invoke(System::IntPtr pPhysicalDevice, System::Text::StringBuilder* pchValue, uint unBufferSize);
     // public System.IAsyncResult BeginInvoke(System.IntPtr pPhysicalDevice, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AAD5F8
+    // Offset: 0x185CB30
     System::IAsyncResult* BeginInvoke(System::IntPtr pPhysicalDevice, System::Text::StringBuilder* pchValue, uint unBufferSize, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1AAD6B0
+    // Offset: 0x185CBE8
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_GetVulkanDeviceExtensionsRequired
 }

@@ -66,25 +66,25 @@ namespace Zenject {
     // Set static field: static public System.Func`2<UnityEngine.GameObject,System.Collections.Generic.IEnumerable`1<Zenject.SceneDecoratorContext>> <>9__49_1
     static void _set_$$9__49_1(System::Func_2<UnityEngine::GameObject*, System::Collections::Generic::IEnumerable_1<Zenject::SceneDecoratorContext*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x12F1C04
+    // Offset: 0x13513F0
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> <GetParentContainers>b__48_0(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x12F1C74
+    // Offset: 0x1351460
     System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* $GetParentContainers$b__48_0(UnityEngine::SceneManagement::Scene scene);
     // System.Collections.Generic.IEnumerable`1<Zenject.SceneContext> <GetParentContainers>b__48_1(UnityEngine.GameObject root)
-    // Offset: 0x12F1C9C
+    // Offset: 0x1351488
     System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>* $GetParentContainers$b__48_1(UnityEngine::GameObject* root);
     // Zenject.DiContainer <GetParentContainers>b__48_3(Zenject.SceneContext x)
-    // Offset: 0x12F1CF4
+    // Offset: 0x13514E0
     Zenject::DiContainer* $GetParentContainers$b__48_3(Zenject::SceneContext* x);
     // System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> <LookupDecoratorContexts>b__49_0(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x12F1D14
+    // Offset: 0x1351500
     System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* $LookupDecoratorContexts$b__49_0(UnityEngine::SceneManagement::Scene scene);
     // System.Collections.Generic.IEnumerable`1<Zenject.SceneDecoratorContext> <LookupDecoratorContexts>b__49_1(UnityEngine.GameObject root)
-    // Offset: 0x12F1D3C
+    // Offset: 0x1351528
     System::Collections::Generic::IEnumerable_1<Zenject::SceneDecoratorContext*>* $LookupDecoratorContexts$b__49_1(UnityEngine::GameObject* root);
     // public System.Void .ctor()
-    // Offset: 0x12F1C6C
+    // Offset: 0x1351458
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SceneContext::$$c* New_ctor();

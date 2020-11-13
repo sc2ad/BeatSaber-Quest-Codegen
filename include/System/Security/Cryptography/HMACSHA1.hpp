@@ -14,13 +14,13 @@ namespace System::Security::Cryptography {
   class HMACSHA1 : public System::Security::Cryptography::HMAC {
     public:
     // public System.Void .ctor(System.Byte[] key)
-    // Offset: 0x1777778
+    // Offset: 0x1697C6C
     static HMACSHA1* New_ctor(::Array<uint8_t>* key);
     // public System.Void .ctor(System.Byte[] key, System.Boolean useManagedSha1)
-    // Offset: 0x1777780
+    // Offset: 0x1697C74
     static HMACSHA1* New_ctor(::Array<uint8_t>* key, bool useManagedSha1);
     // public System.Void .ctor()
-    // Offset: 0x1776B28
+    // Offset: 0x169701C
     // Implemented from: System.Security.Cryptography.HMAC
     // Base method: System.Void HMAC::.ctor()
     // Base method: System.Void KeyedHashAlgorithm::.ctor()

@@ -14,7 +14,7 @@ namespace Zenject {
   class ScriptableObjectInstaller : public Zenject::ScriptableObjectInstallerBase {
     public:
     // public System.Void .ctor()
-    // Offset: 0x12F2E50
+    // Offset: 0x135263C
     // Implemented from: Zenject.ScriptableObjectInstallerBase
     // Base method: System.Void ScriptableObjectInstallerBase::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

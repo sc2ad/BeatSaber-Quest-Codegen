@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   class SdkAccountList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::SdkAccount*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x113EAF0
+    // Offset: 0x11DF7B0
     static SdkAccountList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.SdkAccountList
 }

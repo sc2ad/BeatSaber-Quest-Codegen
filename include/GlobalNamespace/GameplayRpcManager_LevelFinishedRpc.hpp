@@ -23,7 +23,7 @@ namespace GlobalNamespace {
   class GameplayRpcManager::LevelFinishedRpc : public GlobalNamespace::RemoteProcedureCall_1<GlobalNamespace::LevelCompletionResults*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x215F4E4
+    // Offset: 0x1B4D704
     // Implemented from: RemoteProcedureCall`1
     // Base method: System.Void RemoteProcedureCall_1::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

@@ -27,7 +27,7 @@ namespace System::Threading {
     // Offset: 0x28
     System::Threading::ReaderWriterCount* next;
     // public System.Void .ctor()
-    // Offset: 0x1F2C2A0
+    // Offset: 0x19B81B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ReaderWriterCount* New_ctor();

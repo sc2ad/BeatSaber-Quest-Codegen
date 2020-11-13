@@ -39,15 +39,15 @@ namespace Org::BouncyCastle::Asn1 {
       return parser;
     }
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1StreamParser parser)
-    // Offset: 0x13149E0
+    // Offset: 0x13731CC
     static BerOctetStringParser* New_ctor(Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
     // public System.IO.Stream GetOctetStream()
-    // Offset: 0x131AFF0
+    // Offset: 0x13797DC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1OctetStringParser
     // Base method: System.IO.Stream Asn1OctetStringParser::GetOctetStream()
     System::IO::Stream* GetOctetStream();
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1314A14
+    // Offset: 0x1373200
     // Implemented from: Org.BouncyCastle.Asn1.IAsn1Convertible
     // Base method: Org.BouncyCastle.Asn1.Asn1Object IAsn1Convertible::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

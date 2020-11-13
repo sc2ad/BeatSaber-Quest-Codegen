@@ -35,10 +35,10 @@ namespace Mono::Net::Security::Private {
       return callback;
     }
     // System.Security.Cryptography.X509Certificates.X509Certificate <MonoToInternal>b__0(System.String t, System.Security.Cryptography.X509Certificates.X509CertificateCollection lc, System.Security.Cryptography.X509Certificates.X509Certificate rc, System.String[] ai)
-    // Offset: 0x11F70E8
+    // Offset: 0x126C1A0
     System::Security::Cryptography::X509Certificates::X509Certificate* $MonoToInternal$b__0(::Il2CppString* t, System::Security::Cryptography::X509Certificates::X509CertificateCollection* lc, System::Security::Cryptography::X509Certificates::X509Certificate* rc, ::Array<::Il2CppString*>* ai);
     // public System.Void .ctor()
-    // Offset: 0x11F70A4
+    // Offset: 0x126C15C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CallbackHelpers::$$c__DisplayClass8_0* New_ctor();

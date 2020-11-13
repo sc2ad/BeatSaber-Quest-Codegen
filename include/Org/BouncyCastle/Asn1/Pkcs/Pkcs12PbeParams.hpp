@@ -38,19 +38,19 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Offset: 0x18
     Org::BouncyCastle::Asn1::Asn1OctetString* iv;
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1409B00
+    // Offset: 0x13FB9F8
     static Pkcs12PbeParams* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // static public Org.BouncyCastle.Asn1.Pkcs.Pkcs12PbeParams GetInstance(System.Object obj)
-    // Offset: 0x1409C14
+    // Offset: 0x13FBB0C
     static Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams* GetInstance(::Il2CppObject* obj);
     // public Org.BouncyCastle.Math.BigInteger get_Iterations()
-    // Offset: 0x1409D94
+    // Offset: 0x13FBC8C
     Org::BouncyCastle::Math::BigInteger* get_Iterations();
     // public System.Byte[] GetIV()
-    // Offset: 0x1409DB0
+    // Offset: 0x13FBCA8
     ::Array<uint8_t>* GetIV();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1409DD0
+    // Offset: 0x13FBCC8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

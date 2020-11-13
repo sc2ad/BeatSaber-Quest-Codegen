@@ -20,7 +20,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0x18
     ::Il2CppObject* c;
     // public System.Void .ctor()
-    // Offset: 0x12DAF7C
+    // Offset: 0x133A768
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RemotingServices::CACD* New_ctor();

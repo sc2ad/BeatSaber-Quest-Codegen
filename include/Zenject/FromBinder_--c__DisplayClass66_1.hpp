@@ -56,13 +56,13 @@ namespace Zenject {
     // Offset: 0x28
     System::Func_2<UnityEngine::GameObject*, System::Collections::Generic::IEnumerable_1<UnityEngine::Component*>*>* $$9__2;
     // System.Collections.Generic.IEnumerable`1<System.Object> <FromComponentsInHierarchyBase>b__1(Zenject.InjectContext ctx)
-    // Offset: 0x1227E70
+    // Offset: 0x129CF28
     System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* $FromComponentsInHierarchyBase$b__1(Zenject::InjectContext* ctx);
     // System.Collections.Generic.IEnumerable`1<UnityEngine.Component> <FromComponentsInHierarchyBase>b__2(UnityEngine.GameObject x)
-    // Offset: 0x122800C
+    // Offset: 0x129D0C4
     System::Collections::Generic::IEnumerable_1<UnityEngine::Component*>* $FromComponentsInHierarchyBase$b__2(UnityEngine::GameObject* x);
     // public System.Void .ctor()
-    // Offset: 0x1227E68
+    // Offset: 0x129CF20
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FromBinder::$$c__DisplayClass66_1* New_ctor();

@@ -35,7 +35,7 @@ namespace ModestTree {
   class MiscExtensions : public ::Il2CppObject {
     public:
     // static public System.String Fmt(System.String s, params System.Object[] args)
-    // Offset: 0xFE8184
+    // Offset: 0x10E3B2C
     static ::Il2CppString* Fmt(::Il2CppString* s, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.String Fmt(System.String s, params System.Object[] args)
     static ::Il2CppString* Fmt(::Il2CppString* s, std::initializer_list<::Il2CppObject*> args);
@@ -51,7 +51,7 @@ namespace ModestTree {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<int>("ModestTree", "MiscExtensions", "IndexOf", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, item)));
     }
     // static public System.String Join(System.Collections.Generic.IEnumerable`1<System.String> values, System.String separator)
-    // Offset: 0xFE924C
+    // Offset: 0x10E4BF4
     static ::Il2CppString* Join(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* values, ::Il2CppString* separator);
     // static public System.Void AllocFreeAddRange(System.Collections.Generic.IList`1<T> list, System.Collections.Generic.IList`1<T> items)
     // Offset: 0xFFFFFFFF

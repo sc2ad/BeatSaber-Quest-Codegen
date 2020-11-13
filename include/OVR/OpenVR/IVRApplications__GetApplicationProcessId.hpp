@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRApplications::_GetApplicationProcessId : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1158F78
+    // Offset: 0x11F9C38
     static IVRApplications::_GetApplicationProcessId* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.String pchAppKey)
-    // Offset: 0x114A948
+    // Offset: 0x11EB608
     uint Invoke(::Il2CppString* pchAppKey);
     // public System.IAsyncResult BeginInvoke(System.String pchAppKey, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1158F8C
+    // Offset: 0x11F9C4C
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchAppKey, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1158FB0
+    // Offset: 0x11F9C70
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRApplications/_GetApplicationProcessId
 }

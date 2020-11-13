@@ -44,62 +44,62 @@ namespace System::Reflection {
     // Deleting conversion operator: operator System::Reflection::EventInfo::AddEventAdapter*
     constexpr operator System::Reflection::EventInfo::AddEventAdapter*() const noexcept = delete;
     // public override System.Reflection.MethodInfo GetAddMethod(System.Boolean nonPublic)
-    // Offset: 0x1676F20
+    // Offset: 0x15CBAE4
     // Implemented from: System.Reflection.EventInfo
     // Base method: System.Reflection.MethodInfo EventInfo::GetAddMethod(System.Boolean nonPublic)
     System::Reflection::MethodInfo* GetAddMethod(bool nonPublic);
     // public override System.Reflection.MethodInfo GetRaiseMethod(System.Boolean nonPublic)
-    // Offset: 0x1676FF8
+    // Offset: 0x15CBBBC
     // Implemented from: System.Reflection.EventInfo
     // Base method: System.Reflection.MethodInfo EventInfo::GetRaiseMethod(System.Boolean nonPublic)
     System::Reflection::MethodInfo* GetRaiseMethod(bool nonPublic);
     // public override System.Reflection.MethodInfo GetRemoveMethod(System.Boolean nonPublic)
-    // Offset: 0x1677088
+    // Offset: 0x15CBC4C
     // Implemented from: System.Reflection.EventInfo
     // Base method: System.Reflection.MethodInfo EventInfo::GetRemoveMethod(System.Boolean nonPublic)
     System::Reflection::MethodInfo* GetRemoveMethod(bool nonPublic);
     // public override System.Type get_DeclaringType()
-    // Offset: 0x1677118
+    // Offset: 0x15CBCDC
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Type MemberInfo::get_DeclaringType()
     System::Type* get_DeclaringType();
     // public override System.Type get_ReflectedType()
-    // Offset: 0x1677148
+    // Offset: 0x15CBD0C
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Type MemberInfo::get_ReflectedType()
     System::Type* get_ReflectedType();
     // public override System.String get_Name()
-    // Offset: 0x1677178
+    // Offset: 0x15CBD3C
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.String MemberInfo::get_Name()
     ::Il2CppString* get_Name();
     // public override System.String ToString()
-    // Offset: 0x16771A8
+    // Offset: 0x15CBD6C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1677228
+    // Offset: 0x15CBDEC
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Boolean MemberInfo::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Boolean inherit)
-    // Offset: 0x16772A8
+    // Offset: 0x15CBE6C
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Boolean inherit)
     ::Array<::Il2CppObject*>* GetCustomAttributes(bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1677320
+    // Offset: 0x15CBEE4
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public override System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> GetCustomAttributesData()
-    // Offset: 0x16773A0
+    // Offset: 0x15CBF64
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> MemberInfo::GetCustomAttributesData()
     System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* GetCustomAttributesData();
     // public System.Void .ctor()
-    // Offset: 0x16773A8
+    // Offset: 0x15CBF6C
     // Implemented from: System.Reflection.RuntimeEventInfo
     // Base method: System.Void RuntimeEventInfo::.ctor()
     // Base method: System.Void EventInfo::.ctor()

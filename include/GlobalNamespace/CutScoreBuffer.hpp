@@ -49,22 +49,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator uint64_t
     constexpr operator uint64_t() const noexcept = delete;
     // public System.Int32 get_scoreWithMultiplier()
-    // Offset: 0x2014570
+    // Offset: 0x1A57330
     int get_scoreWithMultiplier();
     // public System.Int32 get_multiplier()
-    // Offset: 0x2014584
+    // Offset: 0x1A57344
     int get_multiplier();
     // public System.Void .ctor(NoteCutInfo noteCutInfo, System.Int32 multiplier)
-    // Offset: 0x201458C
+    // Offset: 0x1A5734C
     static CutScoreBuffer* New_ctor(GlobalNamespace::NoteCutInfo* noteCutInfo, int multiplier);
     // private System.Void HandleSwingRatingCounterDidChangeEvent(ISaberSwingRatingCounter swingRatingCounter, System.Single rating)
-    // Offset: 0x20147D8
+    // Offset: 0x1A57598
     void HandleSwingRatingCounterDidChangeEvent(GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter, float rating);
     // private System.Void RefreshScores()
-    // Offset: 0x201476C
+    // Offset: 0x1A5752C
     void RefreshScores();
     // private System.Void HandleSwingRatingCounterDidFinishEvent(ISaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0x20147DC
+    // Offset: 0x1A5759C
     void HandleSwingRatingCounterDidFinishEvent(GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
   }; // CutScoreBuffer
 }

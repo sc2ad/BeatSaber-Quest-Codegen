@@ -37,19 +37,19 @@ namespace Org::BouncyCastle::Asn1::Nist {
     // Set static field: static private readonly System.Collections.IDictionary names
     static void _set_names(System::Collections::IDictionary* value);
     // static private System.Void DefineCurveAlias(System.String name, Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x1404A60
+    // Offset: 0x13F6958
     static void DefineCurveAlias(::Il2CppString* name, Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static private System.Void .cctor()
-    // Offset: 0x1404C08
+    // Offset: 0x13F6B00
     static void _cctor();
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByName(System.String name)
-    // Offset: 0x1404E6C
+    // Offset: 0x13F6D64
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::Il2CppString* name);
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByOid(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x1405054
+    // Offset: 0x13F6F4C
     static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static public Org.BouncyCastle.Asn1.DerObjectIdentifier GetOid(System.String name)
-    // Offset: 0x1404F04
+    // Offset: 0x13F6DFC
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::Il2CppString* name);
   }; // Org.BouncyCastle.Asn1.Nist.NistNamedCurves
 }

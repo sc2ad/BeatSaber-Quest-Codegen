@@ -35,10 +35,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Il2CppString* levelId;
     // System.Threading.Tasks.Task`1<EntitlementsStatus> <UpdateMissingEntitlementsAsync>b__1(IConnectedPlayer player)
-    // Offset: 0x20AD0E8
+    // Offset: 0xF19C7C
     System::Threading::Tasks::Task_1<GlobalNamespace::EntitlementsStatus>* $UpdateMissingEntitlementsAsync$b__1(GlobalNamespace::IConnectedPlayer* player);
     // public System.Void .ctor()
-    // Offset: 0x20AD0E0
+    // Offset: 0xF19C74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HostGameServerLobbyFlowCoordinator::$$c__DisplayClass40_0* New_ctor();

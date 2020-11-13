@@ -20,22 +20,22 @@ namespace UnityEngine {
   class BoxCollider : public UnityEngine::Collider {
     public:
     // public System.Void set_center(UnityEngine.Vector3 value)
-    // Offset: 0x1F5F9A4
+    // Offset: 0x19F1388
     void set_center(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_size()
-    // Offset: 0x1F5FA4C
+    // Offset: 0x19F1430
     UnityEngine::Vector3 get_size();
     // public System.Void set_size(UnityEngine.Vector3 value)
-    // Offset: 0x1F5FAFC
+    // Offset: 0x19F14E0
     void set_size(UnityEngine::Vector3 value);
     // private System.Void set_center_Injected(ref UnityEngine.Vector3 value)
-    // Offset: 0x1F5F9FC
+    // Offset: 0x19F13E0
     void set_center_Injected(UnityEngine::Vector3& value);
     // private System.Void get_size_Injected(out UnityEngine.Vector3 ret)
-    // Offset: 0x1F5FAAC
+    // Offset: 0x19F1490
     void get_size_Injected(UnityEngine::Vector3& ret);
     // private System.Void set_size_Injected(ref UnityEngine.Vector3 value)
-    // Offset: 0x1F5FB54
+    // Offset: 0x19F1538
     void set_size_Injected(UnityEngine::Vector3& value);
   }; // UnityEngine.BoxCollider
 }

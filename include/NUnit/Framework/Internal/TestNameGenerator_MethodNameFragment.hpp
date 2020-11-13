@@ -23,12 +23,12 @@ namespace NUnit::Framework::Internal {
   class TestNameGenerator::MethodNameFragment : public NUnit::Framework::Internal::TestNameGenerator::NameFragment {
     public:
     // public override System.String GetText(System.Reflection.MethodInfo method, System.Object[] args)
-    // Offset: 0x1ECFC94
+    // Offset: 0x195ECC8
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NameFragment
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] args)
     ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::Array<::Il2CppObject*>* args);
     // public System.Void .ctor()
-    // Offset: 0x1ECED8C
+    // Offset: 0x195DDC0
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NameFragment
     // Base method: System.Void NameFragment::.ctor()
     // Base method: System.Void Object::.ctor()

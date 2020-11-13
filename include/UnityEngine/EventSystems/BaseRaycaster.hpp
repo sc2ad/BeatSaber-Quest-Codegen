@@ -45,44 +45,44 @@ namespace UnityEngine::EventSystems {
     // Offset: 0xFFFFFFFF
     UnityEngine::Camera* get_eventCamera();
     // public System.Int32 get_priority()
-    // Offset: 0x1074EC0
+    // Offset: 0x114B7F0
     int get_priority();
     // public System.Int32 get_sortOrderPriority()
-    // Offset: 0x1074EC8
+    // Offset: 0x114B7F8
     int get_sortOrderPriority();
     // public System.Int32 get_renderOrderPriority()
-    // Offset: 0x1074ED0
+    // Offset: 0x114B800
     int get_renderOrderPriority();
     // public UnityEngine.EventSystems.BaseRaycaster get_rootRaycaster()
-    // Offset: 0x1074ED8
+    // Offset: 0x114B808
     UnityEngine::EventSystems::BaseRaycaster* get_rootRaycaster();
     // public override System.String ToString()
-    // Offset: 0x1074FB0
+    // Offset: 0x114B8E0
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // protected override System.Void OnEnable()
-    // Offset: 0x10752A8
+    // Offset: 0x114BBD8
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x10753DC
+    // Offset: 0x114BD0C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // protected override System.Void OnCanvasHierarchyChanged()
-    // Offset: 0x1075510
+    // Offset: 0x114BE40
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnCanvasHierarchyChanged()
     void OnCanvasHierarchyChanged();
     // protected override System.Void OnTransformParentChanged()
-    // Offset: 0x1075520
+    // Offset: 0x114BE50
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnTransformParentChanged()
     void OnTransformParentChanged();
     // protected System.Void .ctor()
-    // Offset: 0x1075530
+    // Offset: 0x114BE60
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

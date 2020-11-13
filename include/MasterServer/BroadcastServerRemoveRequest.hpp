@@ -48,29 +48,29 @@ namespace MasterServer {
       return *reinterpret_cast<MasterServer::IUserClientToServerMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.BroadcastServerRemoveRequest> get_pool()
-    // Offset: 0x211CE58
+    // Offset: 0x1AD3460
     static GlobalNamespace::PacketPool_1<MasterServer::BroadcastServerRemoveRequest*>* get_pool();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x211CEA8
+    // Offset: 0x1AD34B0
     void set_userId(::Il2CppString* value);
     // private System.Void set_userName(System.String value)
-    // Offset: 0x211CEB8
+    // Offset: 0x1AD34C0
     void set_userName(::Il2CppString* value);
     // public MasterServer.BroadcastServerRemoveRequest Init(System.String userId, System.String userName, System.String secret)
-    // Offset: 0x211CEC0
+    // Offset: 0x1AD34C8
     MasterServer::BroadcastServerRemoveRequest* Init(::Il2CppString* userId, ::Il2CppString* userName, ::Il2CppString* secret);
     // public System.String get_userId()
-    // Offset: 0x211CEA0
+    // Offset: 0x1AD34A8
     // Implemented from: MasterServer.IUserClientToServerMessage
     // Base method: System.String IUserClientToServerMessage::get_userId()
     ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x211CEB0
+    // Offset: 0x1AD34B8
     // Implemented from: MasterServer.IUserClientToServerMessage
     // Base method: System.String IUserClientToServerMessage::get_userName()
     ::Il2CppString* get_userName();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x211CF18
+    // Offset: 0x1AD3520
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -78,7 +78,7 @@ namespace MasterServer {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x211CF6C
+    // Offset: 0x1AD3574
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -86,12 +86,12 @@ namespace MasterServer {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x211CFE4
+    // Offset: 0x1AD35EC
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x211D040
+    // Offset: 0x1AD3648
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BroadcastServerRemoveRequest* New_ctor();

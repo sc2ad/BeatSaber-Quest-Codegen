@@ -36,16 +36,16 @@ namespace Mono::Security::Interface {
   class MonoRemoteCertificateValidationCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1928A58
+    // Offset: 0x17B7BE0
     static MonoRemoteCertificateValidationCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.String targetHost, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, Mono.Security.Interface.MonoSslPolicyErrors sslPolicyErrors)
-    // Offset: 0x1928A6C
+    // Offset: 0x17B7BF4
     bool Invoke(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Security::Cryptography::X509Certificates::X509Chain* chain, Mono::Security::Interface::MonoSslPolicyErrors sslPolicyErrors);
     // public System.IAsyncResult BeginInvoke(System.String targetHost, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, Mono.Security.Interface.MonoSslPolicyErrors sslPolicyErrors, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1928EC4
+    // Offset: 0x17B804C
     System::IAsyncResult* BeginInvoke(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Security::Cryptography::X509Certificates::X509Chain* chain, Mono::Security::Interface::MonoSslPolicyErrors sslPolicyErrors, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1928F74
+    // Offset: 0x17B80FC
     bool EndInvoke(System::IAsyncResult* result);
   }; // Mono.Security.Interface.MonoRemoteCertificateValidationCallback
 }

@@ -39,17 +39,17 @@ namespace UnityEngine::Timeline {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineClipAsset*>(this);
     }
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x13E9D40
+    // Offset: 0x1410014
     // Implemented from: UnityEngine.Timeline.ITimelineClipAsset
     // Base method: UnityEngine.Timeline.ClipCaps ITimelineClipAsset::get_clipCaps()
     UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x13E9D48
+    // Offset: 0x141001C
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);
     // public System.Void .ctor()
-    // Offset: 0x13E9DC4
+    // Offset: 0x1410098
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Void PlayableAsset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

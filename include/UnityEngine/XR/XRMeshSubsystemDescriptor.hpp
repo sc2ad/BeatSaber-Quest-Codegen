@@ -21,7 +21,7 @@ namespace UnityEngine::XR {
   class XRMeshSubsystemDescriptor : public UnityEngine::IntegratedSubsystemDescriptor_1<UnityEngine::XR::XRMeshSubsystem*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1F5F74C
+    // Offset: 0x19F1130
     // Implemented from: UnityEngine.IntegratedSubsystemDescriptor`1
     // Base method: System.Void IntegratedSubsystemDescriptor_1::.ctor()
     // Base method: System.Void IntegratedSubsystemDescriptor::.ctor()

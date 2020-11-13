@@ -23,22 +23,22 @@ namespace UnityEngine::ProBuilder {
   class TriggerBehaviour : public UnityEngine::ProBuilder::EntityBehaviour {
     public:
     // public override System.Void Initialize()
-    // Offset: 0x1E79830
+    // Offset: 0x194E7D8
     // Implemented from: UnityEngine.ProBuilder.EntityBehaviour
     // Base method: System.Void EntityBehaviour::Initialize()
     void Initialize();
     // public override System.Void OnEnterPlayMode()
-    // Offset: 0x1E79A28
+    // Offset: 0x194E9D0
     // Implemented from: UnityEngine.ProBuilder.EntityBehaviour
     // Base method: System.Void EntityBehaviour::OnEnterPlayMode()
     void OnEnterPlayMode();
     // public override System.Void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
-    // Offset: 0x1E79AD8
+    // Offset: 0x194EA80
     // Implemented from: UnityEngine.ProBuilder.EntityBehaviour
     // Base method: System.Void EntityBehaviour::OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
     void OnSceneLoaded(UnityEngine::SceneManagement::Scene scene, UnityEngine::SceneManagement::LoadSceneMode mode);
     // public System.Void .ctor()
-    // Offset: 0x1E79B88
+    // Offset: 0x194EB30
     // Implemented from: UnityEngine.ProBuilder.EntityBehaviour
     // Base method: System.Void EntityBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

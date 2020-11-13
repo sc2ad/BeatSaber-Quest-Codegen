@@ -52,7 +52,7 @@ namespace System::Runtime::CompilerServices {
     // Creating value type constructor for type: AsyncVoidMethodBuilder
     constexpr AsyncVoidMethodBuilder(System::Threading::SynchronizationContext* m_synchronizationContext_ = {}, System::Runtime::CompilerServices::AsyncMethodBuilderCore m_coreState_ = {}, System::Threading::Tasks::Task* m_task_ = {}) noexcept : m_synchronizationContext{m_synchronizationContext_}, m_coreState{m_coreState_}, m_task{m_task_} {}
     // static public System.Runtime.CompilerServices.AsyncVoidMethodBuilder Create()
-    // Offset: 0x108C16C
+    // Offset: 0x1162A9C
     static System::Runtime::CompilerServices::AsyncVoidMethodBuilder Create();
     // public System.Void Start(ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
@@ -62,7 +62,7 @@ namespace System::Runtime::CompilerServices {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(*this, "Start", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()}, stateMachine));
     }
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xC5D850
+    // Offset: 0xC944C4
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
     // public System.Void AwaitUnsafeOnCompleted(ref TAwaiter awaiter, ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
@@ -73,16 +73,16 @@ namespace System::Runtime::CompilerServices {
       THROW_UNLESS((il2cpp_utils::RunGenericMethod(*this, "AwaitUnsafeOnCompleted", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TAwaiter>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()}, awaiter, stateMachine)));
     }
     // public System.Void SetResult()
-    // Offset: 0xC5D85C
+    // Offset: 0xC944D0
     void SetResult();
     // public System.Void SetException(System.Exception exception)
-    // Offset: 0xC5D864
+    // Offset: 0xC944D8
     void SetException(System::Exception* exception);
     // private System.Void NotifySynchronizationContextOfCompletion()
-    // Offset: 0xC5D86C
+    // Offset: 0xC944E0
     void NotifySynchronizationContextOfCompletion();
     // private System.Threading.Tasks.Task get_Task()
-    // Offset: 0xC5D874
+    // Offset: 0xC944E8
     System::Threading::Tasks::Task* get_Task();
   }; // System.Runtime.CompilerServices.AsyncVoidMethodBuilder
 }

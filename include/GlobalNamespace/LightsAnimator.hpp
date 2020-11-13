@@ -51,25 +51,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x20959D4
+    // Offset: 0x1AC7F9C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x2095B00
+    // Offset: 0x1AC80C8
     void OnDestroy();
     // public System.Void AnimateToColor(UnityEngine.Color color, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x2095B98
+    // Offset: 0x1AC8160
     void AnimateToColor(UnityEngine::Color color, float duration, Tweening::EaseType easeType);
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x2095CA8
+    // Offset: 0x1AC8270
     void SetColor(UnityEngine::Color color);
     // private System.Void SetLightsColor(UnityEngine.Color color)
-    // Offset: 0x2095D0C
+    // Offset: 0x1AC82D4
     void SetLightsColor(UnityEngine::Color color);
     // public System.Void SetLightsWidth(System.Single width)
-    // Offset: 0x2095E14
+    // Offset: 0x1AC83DC
     void SetLightsWidth(float width);
     // public System.Void .ctor()
-    // Offset: 0x2095E90
+    // Offset: 0x1AC8458
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

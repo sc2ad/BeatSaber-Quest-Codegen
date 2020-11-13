@@ -24,17 +24,17 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*>(this);
     }
     // public System.Void Init(System.Byte[] H)
-    // Offset: 0x14BFB10
+    // Offset: 0x14AACB0
     // Implemented from: Org.BouncyCastle.Crypto.Modes.Gcm.IGcmMultiplier
     // Base method: System.Void IGcmMultiplier::Init(System.Byte[] H)
     void Init(::Array<uint8_t>* H);
     // public System.Void MultiplyH(System.Byte[] x)
-    // Offset: 0x14C0434
+    // Offset: 0x14AB5D4
     // Implemented from: Org.BouncyCastle.Crypto.Modes.Gcm.IGcmMultiplier
     // Base method: System.Void IGcmMultiplier::MultiplyH(System.Byte[] x)
     void MultiplyH(::Array<uint8_t>* x);
     // public System.Void .ctor()
-    // Offset: 0x14C0658
+    // Offset: 0x14AB7F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Tables8kGcmMultiplier* New_ctor();

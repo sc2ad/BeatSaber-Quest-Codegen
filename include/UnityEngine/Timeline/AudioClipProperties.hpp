@@ -21,7 +21,7 @@ namespace UnityEngine::Timeline {
       return volume;
     }
     // public System.Void .ctor()
-    // Offset: 0x13EF194
+    // Offset: 0x1415AF0
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -5,6 +5,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BeatmapCallbackItemDataList/GetRelativeNoteOffsetCallback
 #include "GlobalNamespace/BeatmapCallbackItemDataList_GetRelativeNoteOffsetCallback.hpp"
+// Including type: System.IntPtr
+#include "System/IntPtr.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
 // Including type: NoteLineLayer

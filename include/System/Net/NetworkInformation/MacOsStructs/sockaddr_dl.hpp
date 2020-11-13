@@ -51,7 +51,7 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     // Creating value type constructor for type: sockaddr_dl
     constexpr sockaddr_dl(uint8_t sdl_len_ = {}, uint8_t sdl_family_ = {}, uint16_t sdl_index_ = {}, uint8_t sdl_type_ = {}, uint8_t sdl_nlen_ = {}, uint8_t sdl_alen_ = {}, uint8_t sdl_slen_ = {}, ::Array<uint8_t>* sdl_data_ = {}) noexcept : sdl_len{sdl_len_}, sdl_family{sdl_family_}, sdl_index{sdl_index_}, sdl_type{sdl_type_}, sdl_nlen{sdl_nlen_}, sdl_alen{sdl_alen_}, sdl_slen{sdl_slen_}, sdl_data{sdl_data_} {}
     // System.Void Read(System.IntPtr ptr)
-    // Offset: 0xC5E2E8
+    // Offset: 0xC94F5C
     void Read(System::IntPtr ptr);
   }; // System.Net.NetworkInformation.MacOsStructs.sockaddr_dl
 }

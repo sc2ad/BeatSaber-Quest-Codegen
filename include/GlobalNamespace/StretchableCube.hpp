@@ -117,22 +117,22 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32[] triangles
     static void _set_triangles(::Array<int>* value);
     // protected System.Void Awake()
-    // Offset: 0x1F95D98
+    // Offset: 0xF47C60
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1F95F68
+    // Offset: 0xF47E30
     void OnDestroy();
     // private UnityEngine.Mesh CreateBox()
-    // Offset: 0x1F95E28
+    // Offset: 0xF47CF0
     UnityEngine::Mesh* CreateBox();
     // private System.Void RecalculateUVs(UnityEngine.Vector2[] uvs)
-    // Offset: 0x1F95F74
+    // Offset: 0xF47E3C
     void RecalculateUVs(::Array<UnityEngine::Vector2>* uvs);
     // public System.Void RefreshUVs()
-    // Offset: 0x1F9624C
+    // Offset: 0xF48114
     void RefreshUVs();
     // public System.Void .ctor()
-    // Offset: 0x1F962F0
+    // Offset: 0xF481B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -141,7 +141,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static StretchableCube* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1F962F8
+    // Offset: 0xF481C0
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

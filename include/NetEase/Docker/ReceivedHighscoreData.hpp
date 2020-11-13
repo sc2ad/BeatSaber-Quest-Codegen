@@ -40,25 +40,25 @@ namespace NetEase::Docker {
     // Creating value type constructor for type: ReceivedHighscoreData
     constexpr ReceivedHighscoreData(bool FetchingSuccessful_ = {}, int HighscoreCode_ = {}, ::Il2CppString* Track_ = {}, System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* Scores_ = {}) noexcept : FetchingSuccessful{FetchingSuccessful_}, HighscoreCode{HighscoreCode_}, Track{Track_}, Scores{Scores_} {}
     // public System.Boolean get_FetchingSuccessful()
-    // Offset: 0xC8CCA0
+    // Offset: 0xCB9BD0
     bool get_FetchingSuccessful();
     // public System.Void set_FetchingSuccessful(System.Boolean value)
-    // Offset: 0xC8CCA8
+    // Offset: 0xCB9BD8
     void set_FetchingSuccessful(bool value);
     // public System.Void set_HighscoreCode(System.Int32 value)
-    // Offset: 0xC8CCB4
+    // Offset: 0xCB9BE4
     void set_HighscoreCode(int value);
     // public System.String get_Track()
-    // Offset: 0xC8CCBC
+    // Offset: 0xCB9BEC
     ::Il2CppString* get_Track();
     // public System.Void set_Track(System.String value)
-    // Offset: 0xC8CCC4
+    // Offset: 0xCB9BF4
     void set_Track(::Il2CppString* value);
     // public System.Collections.Generic.List`1<NetEase.Docker.ScoreData> get_Scores()
-    // Offset: 0xC8CCCC
+    // Offset: 0xCB9BFC
     System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* get_Scores();
     // public System.Void set_Scores(System.Collections.Generic.List`1<NetEase.Docker.ScoreData> value)
-    // Offset: 0xC8CCD4
+    // Offset: 0xCB9C04
     void set_Scores(System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* value);
   }; // NetEase.Docker.ReceivedHighscoreData
 }

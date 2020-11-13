@@ -49,35 +49,35 @@ namespace UnityEngine::Timeline {
       return *reinterpret_cast<UnityEngine::Timeline::INotificationOptionProvider*>(this);
     }
     // public System.Boolean get_retroactive()
-    // Offset: 0x13F9DD0
+    // Offset: 0x1420728
     bool get_retroactive();
     // public System.Void set_retroactive(System.Boolean value)
-    // Offset: 0x13F9DD8
+    // Offset: 0x1420730
     void set_retroactive(bool value);
     // public System.Boolean get_emitOnce()
-    // Offset: 0x13F9DE4
+    // Offset: 0x142073C
     bool get_emitOnce();
     // public System.Void set_emitOnce(System.Boolean value)
-    // Offset: 0x13F9DEC
+    // Offset: 0x1420744
     void set_emitOnce(bool value);
     // public UnityEngine.Timeline.SignalAsset get_asset()
-    // Offset: 0x13F9DF8
+    // Offset: 0x1420750
     UnityEngine::Timeline::SignalAsset* get_asset();
     // public System.Void set_asset(UnityEngine.Timeline.SignalAsset value)
-    // Offset: 0x13F9E00
+    // Offset: 0x1420758
     void set_asset(UnityEngine::Timeline::SignalAsset* value);
     // private UnityEngine.PropertyName UnityEngine.Playables.INotification.get_id()
-    // Offset: 0x13F9E08
+    // Offset: 0x1420760
     // Implemented from: UnityEngine.Playables.INotification
     // Base method: UnityEngine.PropertyName INotification::get_id()
     UnityEngine::PropertyName UnityEngine_Playables_INotification_get_id();
     // private UnityEngine.Timeline.NotificationFlags UnityEngine.Timeline.INotificationOptionProvider.get_flags()
-    // Offset: 0x13F9ECC
+    // Offset: 0x1420824
     // Implemented from: UnityEngine.Timeline.INotificationOptionProvider
     // Base method: UnityEngine.Timeline.NotificationFlags INotificationOptionProvider::get_flags()
     UnityEngine::Timeline::NotificationFlags UnityEngine_Timeline_INotificationOptionProvider_get_flags();
     // public System.Void .ctor()
-    // Offset: 0x13F9EF4
+    // Offset: 0x142084C
     // Implemented from: UnityEngine.Timeline.Marker
     // Base method: System.Void Marker::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

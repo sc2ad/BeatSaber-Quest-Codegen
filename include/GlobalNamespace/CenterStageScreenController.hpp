@@ -76,46 +76,46 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_countdownShown()
-    // Offset: 0x1FB054C
+    // Offset: 0x1A33C18
     bool get_countdownShown();
     // private System.Void set_countdownShown(System.Boolean value)
-    // Offset: 0x1FB0554
+    // Offset: 0x1A33C20
     void set_countdownShown(bool value);
     // public System.Void Setup(System.Boolean showModifiers)
-    // Offset: 0x1FB0560
+    // Offset: 0x1A33C2C
     void Setup(bool showModifiers);
     // public System.Void Show()
-    // Offset: 0x1FB059C
+    // Offset: 0x1A33C68
     void Show();
     // public System.Void Hide()
-    // Offset: 0x1FB0B24
+    // Offset: 0x1A341F0
     void Hide();
     // public System.Void ShowCountdown(System.Single countdownEndTime)
-    // Offset: 0x1FB0C9C
+    // Offset: 0x1A3436C
     void ShowCountdown(float countdownEndTime);
     // public System.Void HideCountdown(System.Boolean instant)
-    // Offset: 0x1FB0C58
+    // Offset: 0x1A34324
     void HideCountdown(bool instant);
     // public System.Void SetCountdownEndTime(System.Single countdownEndTime)
-    // Offset: 0x1FB0E54
+    // Offset: 0x1A343B4
     void SetCountdownEndTime(float countdownEndTime);
     // public System.Void ShowCountdownColorPreset(System.Boolean animated)
-    // Offset: 0x1FB0F24
+    // Offset: 0x1A3441C
     void ShowCountdownColorPreset(bool animated);
     // public System.Void ShowLobbyColorPreset(System.Boolean animated)
-    // Offset: 0x1FB07E4
+    // Offset: 0x1A33EB0
     void ShowLobbyColorPreset(bool animated);
     // public System.Void SetHostDataManual(IPreviewBeatmapLevel previewBeatmapLevel, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0x1FB0F50
+    // Offset: 0x1A34448
     void SetHostDataManual(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
     // private System.Void SetNextGameData(ILobbyPlayerDataModel playerData)
-    // Offset: 0x1FB0810
+    // Offset: 0x1A33EDC
     void SetNextGameData(GlobalNamespace::ILobbyPlayerDataModel* playerData);
     // private System.Void HandleLobbyPlayersDataModelDidChange(System.String userId)
-    // Offset: 0x1FB0F78
+    // Offset: 0x1A34470
     void HandleLobbyPlayersDataModelDidChange(::Il2CppString* userId);
     // public System.Void .ctor()
-    // Offset: 0x1FB10D8
+    // Offset: 0x1A345D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

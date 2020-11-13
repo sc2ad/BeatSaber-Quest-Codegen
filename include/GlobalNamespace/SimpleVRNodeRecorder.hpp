@@ -52,7 +52,7 @@ namespace GlobalNamespace {
         return keyframes;
       }
       // public System.Void .ctor()
-      // Offset: 0x1FF0BA0
+      // Offset: 0xFD151C
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static SimpleVRNodeRecorder::SavedData* New_ctor();
@@ -127,25 +127,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x1FEFEE0
+    // Offset: 0xFD085C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1FF0304
+    // Offset: 0xFD0C80
     void OnDestroy();
     // private System.Void RecordNewKeyFrame()
-    // Offset: 0x1FF0454
+    // Offset: 0xFD0DD0
     void RecordNewKeyFrame();
     // protected System.Void Update()
-    // Offset: 0x1FF0620
+    // Offset: 0xFD0F9C
     void Update();
     // private System.Void Save()
-    // Offset: 0x1FF0314
+    // Offset: 0xFD0C90
     void Save();
     // private System.Void Load()
-    // Offset: 0x1FEFFFC
+    // Offset: 0xFD0978
     void Load();
     // public System.Void .ctor()
-    // Offset: 0x1FF0BA8
+    // Offset: 0xFD1524
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

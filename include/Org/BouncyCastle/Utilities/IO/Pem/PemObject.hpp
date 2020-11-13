@@ -28,16 +28,16 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     // Offset: 0x20
     ::Array<uint8_t>* content;
     // public System.Void .ctor(System.String type, System.Collections.IList headers, System.Byte[] content)
-    // Offset: 0x1B37280
+    // Offset: 0x18BF5D0
     static PemObject* New_ctor(::Il2CppString* type, System::Collections::IList* headers, ::Array<uint8_t>* content);
     // public System.String get_Type()
-    // Offset: 0x1B373A0
+    // Offset: 0x18BF6F0
     ::Il2CppString* get_Type();
     // public System.Collections.IList get_Headers()
-    // Offset: 0x1B373A8
+    // Offset: 0x18BF6F8
     System::Collections::IList* get_Headers();
     // public System.Byte[] get_Content()
-    // Offset: 0x1B373B0
+    // Offset: 0x18BF700
     ::Array<uint8_t>* get_Content();
   }; // Org.BouncyCastle.Utilities.IO.Pem.PemObject
 }

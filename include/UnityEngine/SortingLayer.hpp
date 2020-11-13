@@ -22,7 +22,7 @@ namespace UnityEngine {
       return m_Id;
     }
     // static public System.Int32 GetLayerValueFromID(System.Int32 id)
-    // Offset: 0x17363AC
+    // Offset: 0x16C115C
     static int GetLayerValueFromID(int id);
   }; // UnityEngine.SortingLayer
 }

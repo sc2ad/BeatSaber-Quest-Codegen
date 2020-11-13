@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   class TeamList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Team*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x1140E5C
+    // Offset: 0x11E1B1C
     static TeamList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.TeamList
 }

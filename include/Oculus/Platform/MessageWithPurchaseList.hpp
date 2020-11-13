@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithPurchaseList : public Oculus::Platform::Message_1<Oculus::Platform::Models::PurchaseList*> {
     public:
     // protected Oculus.Platform.Models.PurchaseList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x113DD1C
+    // Offset: 0x11DE9DC
     Oculus::Platform::Models::PurchaseList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x11357E8
+    // Offset: 0x11D64A8
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithPurchaseList* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.PurchaseList GetPurchaseList()
-    // Offset: 0x113DCD8
+    // Offset: 0x11DE998
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.PurchaseList Message::GetPurchaseList()
     Oculus::Platform::Models::PurchaseList* GetPurchaseList();

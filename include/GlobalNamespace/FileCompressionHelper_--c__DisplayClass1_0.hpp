@@ -34,13 +34,13 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Action_1<bool>* finishCallback;
     // System.Void <ExtractZipToDirectoryAsync>b__0()
-    // Offset: 0x210DF34
+    // Offset: 0x102FEB0
     void $ExtractZipToDirectoryAsync$b__0();
     // System.Void <ExtractZipToDirectoryAsync>b__1()
-    // Offset: 0x210DF40
+    // Offset: 0x102FEBC
     void $ExtractZipToDirectoryAsync$b__1();
     // public System.Void .ctor()
-    // Offset: 0x210DD74
+    // Offset: 0x102FCF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FileCompressionHelper::$$c__DisplayClass1_0* New_ctor();

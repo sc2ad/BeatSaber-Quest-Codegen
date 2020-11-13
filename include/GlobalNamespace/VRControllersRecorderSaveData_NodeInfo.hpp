@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Offset: 0x14
     int nodeIdx;
     // public System.Void .ctor()
-    // Offset: 0x21EB794
+    // Offset: 0x1974BFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VRControllersRecorderSaveData::NodeInfo* New_ctor();

@@ -26,16 +26,16 @@ namespace UnityEngine::Experimental::Rendering {
       return implementation;
     }
     // UnityEngine.Experimental.Rendering.IScriptableRuntimeReflectionSystem get_implementation()
-    // Offset: 0x1794610
+    // Offset: 0x168A340
     UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* get_implementation();
     // System.Void set_implementation(UnityEngine.Experimental.Rendering.IScriptableRuntimeReflectionSystem value)
-    // Offset: 0x1794618
+    // Offset: 0x168A348
     void set_implementation(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
     // private System.Void Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes(out System.Boolean result)
-    // Offset: 0x1794620
+    // Offset: 0x168A350
     void Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes(bool& result);
     // public System.Void .ctor()
-    // Offset: 0x1794608
+    // Offset: 0x168A338
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ScriptableRuntimeReflectionSystemWrapper* New_ctor();

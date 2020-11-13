@@ -78,46 +78,46 @@ namespace System::Net::Http {
     // Set static field: static private readonly System.TimeSpan TimeoutDefault
     static void _set_TimeoutDefault(System::TimeSpan value);
     // public System.Int64 get_MaxResponseContentBufferSize()
-    // Offset: 0x1181688
+    // Offset: 0x120BA18
     int64_t get_MaxResponseContentBufferSize();
     // public System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> GetAsync(System.String requestUri, System.Net.Http.HttpCompletionOption completionOption)
-    // Offset: 0x1181738
+    // Offset: 0x120BAC8
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* GetAsync(::Il2CppString* requestUri, System::Net::Http::HttpCompletionOption completionOption);
     // public System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Net.Http.HttpCompletionOption completionOption)
-    // Offset: 0x11818C0
+    // Offset: 0x120BC50
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsync(System::Net::Http::HttpRequestMessage* request, System::Net::Http::HttpCompletionOption completionOption);
     // public System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1181948
+    // Offset: 0x120BCD8
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsync(System::Net::Http::HttpRequestMessage* request, System::Net::Http::HttpCompletionOption completionOption, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsyncWorker(System.Net.Http.HttpRequestMessage request, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1181D58
+    // Offset: 0x120C0E8
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsyncWorker(System::Net::Http::HttpRequestMessage* request, System::Net::Http::HttpCompletionOption completionOption, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.String> GetStringAsync(System.String requestUri)
-    // Offset: 0x1181EC0
+    // Offset: 0x120C250
     System::Threading::Tasks::Task_1<::Il2CppString*>* GetStringAsync(::Il2CppString* requestUri);
     // static private System.Void .cctor()
-    // Offset: 0x1181FF8
+    // Offset: 0x120C388
     static void _cctor();
     // private System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> <>n__0(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1182078
+    // Offset: 0x120C408
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* $$n__0(System::Net::Http::HttpRequestMessage* request, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x11813DC
+    // Offset: 0x120B76C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HttpClient* New_ctor();
     // public System.Void .ctor(System.Net.Http.HttpMessageHandler handler, System.Boolean disposeHandler)
-    // Offset: 0x1181514
+    // Offset: 0x120B8A4
     // Implemented from: System.Net.Http.HttpMessageInvoker
     // Base method: System.Void HttpMessageInvoker::.ctor(System.Net.Http.HttpMessageHandler handler, System.Boolean disposeHandler)
     static HttpClient* New_ctor(System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1181690
+    // Offset: 0x120BA20
     // Implemented from: System.Net.Http.HttpMessageInvoker
     // Base method: System.Void HttpMessageInvoker::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1181BCC
+    // Offset: 0x120BF5C
     // Implemented from: System.Net.Http.HttpMessageInvoker
     // Base method: System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> HttpMessageInvoker::SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsync(System::Net::Http::HttpRequestMessage* request, System::Threading::CancellationToken cancellationToken);

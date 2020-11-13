@@ -7,8 +7,10 @@
 #include "MasterServer/MessageHandler.hpp"
 // Including type: MasterServer.MessageHandler/IMessageSender
 #include "MasterServer/MessageHandler_IMessageSender.hpp"
-// Including type: SmallBufferPool
-#include "GlobalNamespace/SmallBufferPool.hpp"
+// Including type: MasterServer.MessageHandler/ConnectionState
+#include "MasterServer/MessageHandler_ConnectionState.hpp"
+// Including type: System.Net.IPEndPoint
+#include "System/Net/IPEndPoint.hpp"
 // Including type: MasterServer.MessageHandler/RequestWaiter
 #include "MasterServer/MessageHandler_RequestWaiter.hpp"
 // Including type: MasterServer.MessageHandler/SentRequestWaiter
@@ -29,30 +31,32 @@
 #include "MasterServer/MessageHandler_--c__DisplayClass74_0_1.hpp"
 // Including type: MasterServer.MessageHandler/<>c__DisplayClass75_0`1
 #include "MasterServer/MessageHandler_--c__DisplayClass75_0_1.hpp"
-// Including type: MasterServer.MessageHandler/<GetAndSendResponse>d__81`2
-#include "MasterServer/MessageHandler_-GetAndSendResponse-d__81_2.hpp"
-// Including type: MasterServer.MessageHandler/<GetAndSendResponseAsync>d__82`2
-#include "MasterServer/MessageHandler_-GetAndSendResponseAsync-d__82_2.hpp"
-// Including type: MasterServer.MessageHandler/<GetAndSendUnreilableResponse>d__83`2
-#include "MasterServer/MessageHandler_-GetAndSendUnreilableResponse-d__83_2.hpp"
-// Including type: MasterServer.MessageHandler/<SendMessageWithRetry>d__96
-#include "MasterServer/MessageHandler_-SendMessageWithRetry-d__96.hpp"
-// Including type: MasterServer.MessageHandler/<>c__DisplayClass98_0
-#include "MasterServer/MessageHandler_--c__DisplayClass98_0.hpp"
-// Including type: MasterServer.MessageHandler/<SendMultipartMessageWithRetryAsync>d__98
-#include "MasterServer/MessageHandler_-SendMultipartMessageWithRetryAsync-d__98.hpp"
-// Including type: MasterServer.MessageHandler/<SendMessageWithRetryAsyncInternal>d__99
-#include "MasterServer/MessageHandler_-SendMessageWithRetryAsyncInternal-d__99.hpp"
-// Including type: MasterServer.MessageHandler/<SendMessageWithRetryAwaitResponseAsync>d__100`1
-#include "MasterServer/MessageHandler_-SendMessageWithRetryAwaitResponseAsync-d__100_1.hpp"
-// Including type: MasterServer.MessageHandler/<>c__DisplayClass101_0`1
-#include "MasterServer/MessageHandler_--c__DisplayClass101_0_1.hpp"
-// Including type: MasterServer.MessageHandler/<AwaitResponseAsync>d__102`1
-#include "MasterServer/MessageHandler_-AwaitResponseAsync-d__102_1.hpp"
+// Including type: MasterServer.MessageHandler/<GetAndSendResponse>d__80`2
+#include "MasterServer/MessageHandler_-GetAndSendResponse-d__80_2.hpp"
+// Including type: MasterServer.MessageHandler/<GetAndSendResponseAsync>d__81`2
+#include "MasterServer/MessageHandler_-GetAndSendResponseAsync-d__81_2.hpp"
+// Including type: MasterServer.MessageHandler/<GetAndSendUnreilableResponse>d__82`2
+#include "MasterServer/MessageHandler_-GetAndSendUnreilableResponse-d__82_2.hpp"
+// Including type: MasterServer.MessageHandler/<SendMessageWithRetry>d__95
+#include "MasterServer/MessageHandler_-SendMessageWithRetry-d__95.hpp"
+// Including type: MasterServer.MessageHandler/<>c__DisplayClass97_0
+#include "MasterServer/MessageHandler_--c__DisplayClass97_0.hpp"
+// Including type: MasterServer.MessageHandler/<SendMultipartMessageWithRetryAsync>d__97
+#include "MasterServer/MessageHandler_-SendMultipartMessageWithRetryAsync-d__97.hpp"
+// Including type: MasterServer.MessageHandler/<SendMessageWithRetryAsyncInternal>d__98
+#include "MasterServer/MessageHandler_-SendMessageWithRetryAsyncInternal-d__98.hpp"
+// Including type: MasterServer.MessageHandler/<SendMessageWithRetryAwaitResponseAsync>d__99`1
+#include "MasterServer/MessageHandler_-SendMessageWithRetryAwaitResponseAsync-d__99_1.hpp"
+// Including type: MasterServer.MessageHandler/<>c__DisplayClass100_0`1
+#include "MasterServer/MessageHandler_--c__DisplayClass100_0_1.hpp"
+// Including type: MasterServer.MessageHandler/<AwaitResponseAsync>d__101`1
+#include "MasterServer/MessageHandler_-AwaitResponseAsync-d__101_1.hpp"
 // Including type: NetworkPacketSerializer`2
 #include "GlobalNamespace/NetworkPacketSerializer_2.hpp"
-// Including type: TimedCircularBuffer`2
-#include "GlobalNamespace/TimedCircularBuffer_2.hpp"
+// Including type: ExpiringDictionary`2
+#include "GlobalNamespace/ExpiringDictionary_2.hpp"
+// Including type: SmallBufferPool
+#include "GlobalNamespace/SmallBufferPool.hpp"
 // Including type: System.Threading.CancellationTokenSource
 #include "System/Threading/CancellationTokenSource.hpp"
 // Including type: MasterServer.IHandshakeMessage
@@ -117,8 +121,6 @@
 #include "System/Action_2.hpp"
 // Including type: MasterServer.IMasterServerUnreliableMessage
 #include "MasterServer/IMasterServerUnreliableMessage.hpp"
-// Including type: System.Net.IPEndPoint
-#include "System/Net/IPEndPoint.hpp"
 // Including type: MasterServer.IMasterServerResponse
 #include "MasterServer/IMasterServerResponse.hpp"
 // Including type: System.Func`3
@@ -281,43 +283,43 @@ void MasterServer::MessageHandler::_set_kRetryDelay4Ms(int value) {
   THROW_UNLESS(il2cpp_utils::SetFieldValue("MasterServer", "MessageHandler", "kRetryDelay4Ms", value));
 }
 // Autogenerated static field getter
-// Get static field: static private System.Single kSentRequestTimeout
-float MasterServer::MessageHandler::_get_kSentRequestTimeout() {
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<float>("MasterServer", "MessageHandler", "kSentRequestTimeout"));
+// Get static field: static private System.Int64 kConnectionStateTimeout
+int64_t MasterServer::MessageHandler::_get_kConnectionStateTimeout() {
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<int64_t>("MasterServer", "MessageHandler", "kConnectionStateTimeout"));
 }
 // Autogenerated static field setter
-// Set static field: static private System.Single kSentRequestTimeout
-void MasterServer::MessageHandler::_set_kSentRequestTimeout(float value) {
+// Set static field: static private System.Int64 kConnectionStateTimeout
+void MasterServer::MessageHandler::_set_kConnectionStateTimeout(int64_t value) {
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("MasterServer", "MessageHandler", "kConnectionStateTimeout", value));
+}
+// Autogenerated static field getter
+// Get static field: static private System.Int64 kSentRequestTimeout
+int64_t MasterServer::MessageHandler::_get_kSentRequestTimeout() {
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<int64_t>("MasterServer", "MessageHandler", "kSentRequestTimeout"));
+}
+// Autogenerated static field setter
+// Set static field: static private System.Int64 kSentRequestTimeout
+void MasterServer::MessageHandler::_set_kSentRequestTimeout(int64_t value) {
   THROW_UNLESS(il2cpp_utils::SetFieldValue("MasterServer", "MessageHandler", "kSentRequestTimeout", value));
 }
 // Autogenerated static field getter
-// Get static field: static private System.Single kSentRequestWithResponseTimeout
-float MasterServer::MessageHandler::_get_kSentRequestWithResponseTimeout() {
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<float>("MasterServer", "MessageHandler", "kSentRequestWithResponseTimeout"));
+// Get static field: static private System.Int64 kSentRequestWithResponseTimeout
+int64_t MasterServer::MessageHandler::_get_kSentRequestWithResponseTimeout() {
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<int64_t>("MasterServer", "MessageHandler", "kSentRequestWithResponseTimeout"));
 }
 // Autogenerated static field setter
-// Set static field: static private System.Single kSentRequestWithResponseTimeout
-void MasterServer::MessageHandler::_set_kSentRequestWithResponseTimeout(float value) {
+// Set static field: static private System.Int64 kSentRequestWithResponseTimeout
+void MasterServer::MessageHandler::_set_kSentRequestWithResponseTimeout(int64_t value) {
   THROW_UNLESS(il2cpp_utils::SetFieldValue("MasterServer", "MessageHandler", "kSentRequestWithResponseTimeout", value));
 }
 // Autogenerated static field getter
-// Get static field: static private System.Single kReceivedRequestTimeout
-float MasterServer::MessageHandler::_get_kReceivedRequestTimeout() {
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<float>("MasterServer", "MessageHandler", "kReceivedRequestTimeout"));
+// Get static field: static private System.Int64 kMultipartMessageTimeout
+int64_t MasterServer::MessageHandler::_get_kMultipartMessageTimeout() {
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<int64_t>("MasterServer", "MessageHandler", "kMultipartMessageTimeout"));
 }
 // Autogenerated static field setter
-// Set static field: static private System.Single kReceivedRequestTimeout
-void MasterServer::MessageHandler::_set_kReceivedRequestTimeout(float value) {
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("MasterServer", "MessageHandler", "kReceivedRequestTimeout", value));
-}
-// Autogenerated static field getter
-// Get static field: static private System.Single kMultipartMessageTimeout
-float MasterServer::MessageHandler::_get_kMultipartMessageTimeout() {
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<float>("MasterServer", "MessageHandler", "kMultipartMessageTimeout"));
-}
-// Autogenerated static field setter
-// Set static field: static private System.Single kMultipartMessageTimeout
-void MasterServer::MessageHandler::_set_kMultipartMessageTimeout(float value) {
+// Set static field: static private System.Int64 kMultipartMessageTimeout
+void MasterServer::MessageHandler::_set_kMultipartMessageTimeout(int64_t value) {
   THROW_UNLESS(il2cpp_utils::SetFieldValue("MasterServer", "MessageHandler", "kMultipartMessageTimeout", value));
 }
 // Autogenerated method: MasterServer.MessageHandler..ctor
@@ -432,10 +434,6 @@ void MasterServer::MessageHandler::HandleDedicatedServerShutDownRequest(MasterSe
 void MasterServer::MessageHandler::HandleDedicatedServerPrepareForConnectionRequest(MasterServer::DedicatedServerPrepareForConnectionRequest* packet, MasterServer::MessageHandler::MessageOrigin origin) {
   THROW_UNLESS(il2cpp_utils::RunMethod(this, "HandleDedicatedServerPrepareForConnectionRequest", packet, origin));
 }
-// Autogenerated method: MasterServer.MessageHandler.IsNewRequest
-bool MasterServer::MessageHandler::IsNewRequest(MasterServer::IMasterServerReliableRequest* packet, System::Net::IPEndPoint* remoteEndPoint) {
-  return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "IsNewRequest", packet, remoteEndPoint));
-}
 // Autogenerated method: MasterServer.MessageHandler.IsUnhandledMessage
 bool MasterServer::MessageHandler::IsUnhandledMessage(MasterServer::IMasterServerReliableRequest* packet, MasterServer::MessageHandler::MessageOrigin origin) {
   return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "IsUnhandledMessage", packet, origin));
@@ -525,16 +523,32 @@ bool MasterServer::MessageHandler::ShouldHandleMessageFromEndPoint(System::Net::
   return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "ShouldHandleMessageFromEndPoint", endPoint));
 }
 // Autogenerated method: MasterServer.MessageHandler.ReceivedMessageException
-void MasterServer::MessageHandler::ReceivedMessageException(System::Net::IPEndPoint* endPoint, System::Exception* ex) {
-  THROW_UNLESS(il2cpp_utils::RunMethod(this, "ReceivedMessageException", endPoint, ex));
+void MasterServer::MessageHandler::ReceivedMessageException(System::Net::IPEndPoint* endPoint, System::Exception* exception) {
+  THROW_UNLESS(il2cpp_utils::RunMethod(this, "ReceivedMessageException", endPoint, exception));
 }
-// Autogenerated method: MasterServer.MessageHandler.ResetEpoch
-void MasterServer::MessageHandler::ResetEpoch() {
-  THROW_UNLESS(il2cpp_utils::RunMethod(this, "ResetEpoch"));
+// Autogenerated method: MasterServer.MessageHandler.BeginSession
+void MasterServer::MessageHandler::BeginSession(System::Net::IPEndPoint* endPoint) {
+  THROW_UNLESS(il2cpp_utils::RunMethod(this, "BeginSession", endPoint));
+}
+// Autogenerated method: MasterServer.MessageHandler.BeginSession
+void MasterServer::MessageHandler::BeginSession(System::Net::IPEndPoint* endPoint, uint requestId) {
+  THROW_UNLESS(il2cpp_utils::RunMethod(this, "BeginSession", endPoint, requestId));
 }
 // Autogenerated method: MasterServer.MessageHandler.GetNextRequestId
-uint MasterServer::MessageHandler::GetNextRequestId() {
-  return THROW_UNLESS(il2cpp_utils::RunMethod<uint>(this, "GetNextRequestId"));
+uint MasterServer::MessageHandler::GetNextRequestId(System::Net::IPEndPoint* endPoint) {
+  return THROW_UNLESS(il2cpp_utils::RunMethod<uint>(this, "GetNextRequestId", endPoint));
+}
+// Autogenerated method: MasterServer.MessageHandler.GetConnectionState
+MasterServer::MessageHandler::ConnectionState* MasterServer::MessageHandler::GetConnectionState(System::Net::IPEndPoint* endPoint) {
+  return THROW_UNLESS(il2cpp_utils::RunMethod<MasterServer::MessageHandler::ConnectionState*>(this, "GetConnectionState", endPoint));
+}
+// Autogenerated method: MasterServer.MessageHandler.IsValidSessionStartRequestId
+bool MasterServer::MessageHandler::IsValidSessionStartRequestId(System::Net::IPEndPoint* endPoint, uint requestId) {
+  return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "IsValidSessionStartRequestId", endPoint, requestId));
+}
+// Autogenerated method: MasterServer.MessageHandler.IsConnectionStateEncrypted
+bool MasterServer::MessageHandler::IsConnectionStateEncrypted(System::Net::IPEndPoint* endPoint) {
+  return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "IsConnectionStateEncrypted", endPoint));
 }
 // Autogenerated method: MasterServer.MessageHandler.GetSerializer
 GlobalNamespace::INetworkPacketSerializer_1<MasterServer::MessageHandler::MessageOrigin>* MasterServer::MessageHandler::GetSerializer(uint protocolVersion, uint messageType) {

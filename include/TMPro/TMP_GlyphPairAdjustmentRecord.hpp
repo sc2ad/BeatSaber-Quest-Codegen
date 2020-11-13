@@ -32,28 +32,28 @@ namespace TMPro {
     // Offset: 0x38
     TMPro::FontFeatureLookupFlags m_FeatureLookupFlags;
     // public TMPro.TMP_GlyphAdjustmentRecord get_firstAdjustmentRecord()
-    // Offset: 0xEC9970
+    // Offset: 0xF5EA48
     TMPro::TMP_GlyphAdjustmentRecord get_firstAdjustmentRecord();
     // public System.Void set_firstAdjustmentRecord(TMPro.TMP_GlyphAdjustmentRecord value)
-    // Offset: 0xEC9984
+    // Offset: 0xF5EA5C
     void set_firstAdjustmentRecord(TMPro::TMP_GlyphAdjustmentRecord value);
     // public TMPro.TMP_GlyphAdjustmentRecord get_secondAdjustmentRecord()
-    // Offset: 0xEC9998
+    // Offset: 0xF5EA70
     TMPro::TMP_GlyphAdjustmentRecord get_secondAdjustmentRecord();
     // public System.Void set_secondAdjustmentRecord(TMPro.TMP_GlyphAdjustmentRecord value)
-    // Offset: 0xEC99AC
+    // Offset: 0xF5EA84
     void set_secondAdjustmentRecord(TMPro::TMP_GlyphAdjustmentRecord value);
     // public TMPro.FontFeatureLookupFlags get_featureLookupFlags()
-    // Offset: 0xEC99C0
+    // Offset: 0xF5EA98
     TMPro::FontFeatureLookupFlags get_featureLookupFlags();
     // public System.Void set_featureLookupFlags(TMPro.FontFeatureLookupFlags value)
-    // Offset: 0xEC99C8
+    // Offset: 0xF5EAA0
     void set_featureLookupFlags(TMPro::FontFeatureLookupFlags value);
     // public System.Void .ctor(TMPro.TMP_GlyphAdjustmentRecord firstAdjustmentRecord, TMPro.TMP_GlyphAdjustmentRecord secondAdjustmentRecord)
-    // Offset: 0xEC7F30
+    // Offset: 0xF5D008
     static TMP_GlyphPairAdjustmentRecord* New_ctor(TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord, TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord);
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord glyphPairAdjustmentRecord)
-    // Offset: 0xEC78F8
+    // Offset: 0xF5C9D0
     static TMP_GlyphPairAdjustmentRecord* New_ctor(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord);
   }; // TMPro.TMP_GlyphPairAdjustmentRecord
 }

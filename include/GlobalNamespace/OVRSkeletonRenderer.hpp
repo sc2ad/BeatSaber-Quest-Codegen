@@ -167,46 +167,46 @@ namespace GlobalNamespace {
     // Set static field: static private readonly UnityEngine.Quaternion _capsuleRotationOffset
     static void _set__capsuleRotationOffset(UnityEngine::Quaternion value);
     // public System.Boolean get_IsInitialized()
-    // Offset: 0x1ED7924
+    // Offset: 0x19781B8
     bool get_IsInitialized();
     // private System.Void set_IsInitialized(System.Boolean value)
-    // Offset: 0x1ED792C
+    // Offset: 0x19781C0
     void set_IsInitialized(bool value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0x1ED7938
+    // Offset: 0x19781CC
     bool get_IsDataValid();
     // private System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0x1ED7940
+    // Offset: 0x19781D4
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0x1ED794C
+    // Offset: 0x19781E0
     bool get_IsDataHighConfidence();
     // private System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0x1ED7954
+    // Offset: 0x19781E8
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0x1ED7960
+    // Offset: 0x19781F4
     bool get_ShouldUseSystemGestureMaterial();
     // private System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0x1ED7968
+    // Offset: 0x19781FC
     void set_ShouldUseSystemGestureMaterial(bool value);
     // private System.Void Awake()
-    // Offset: 0x1ED7974
+    // Offset: 0x1978208
     void Awake();
     // private System.Void Start()
-    // Offset: 0x1ED7A58
+    // Offset: 0x19782EC
     void Start();
     // private System.Void Initialize()
-    // Offset: 0x1ED7AEC
+    // Offset: 0x1978380
     void Initialize();
     // public System.Void Update()
-    // Offset: 0x1ED8620
+    // Offset: 0x1978EB4
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0x1ED8D20
+    // Offset: 0x19795B4
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1ED8E90
+    // Offset: 0x1979724
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -215,7 +215,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRSkeletonRenderer* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1ED8EA0
+    // Offset: 0x1979734
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

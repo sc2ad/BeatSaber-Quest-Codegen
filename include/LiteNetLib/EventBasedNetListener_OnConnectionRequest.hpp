@@ -31,16 +31,16 @@ namespace LiteNetLib {
   class EventBasedNetListener::OnConnectionRequest : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1804818
+    // Offset: 0x1DC3B80
     static EventBasedNetListener::OnConnectionRequest* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(LiteNetLib.ConnectionRequest request)
-    // Offset: 0x1804044
+    // Offset: 0x1DC33AC
     void Invoke(LiteNetLib::ConnectionRequest* request);
     // public System.IAsyncResult BeginInvoke(LiteNetLib.ConnectionRequest request, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x180482C
+    // Offset: 0x1DC3B94
     System::IAsyncResult* BeginInvoke(LiteNetLib::ConnectionRequest* request, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1804850
+    // Offset: 0x1DC3BB8
     void EndInvoke(System::IAsyncResult* result);
   }; // LiteNetLib.EventBasedNetListener/OnConnectionRequest
 }

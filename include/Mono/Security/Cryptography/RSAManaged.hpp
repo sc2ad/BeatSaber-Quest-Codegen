@@ -67,21 +67,21 @@ namespace Mono::Security::Cryptography {
     // Offset: 0x68
     Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler* KeyGenerated;
     // private System.Void GenerateKeyPair()
-    // Offset: 0x19270D0
+    // Offset: 0x17B6258
     void GenerateKeyPair();
     // public System.Boolean get_PublicOnly()
-    // Offset: 0x192781C
+    // Offset: 0x17B69A4
     bool get_PublicOnly();
     // private System.Byte[] GetPaddedValue(Mono.Math.BigInteger value, System.Int32 length)
-    // Offset: 0x1927C88
+    // Offset: 0x17B6E10
     ::Array<uint8_t>* GetPaddedValue(Mono::Math::BigInteger* value, int length);
     // public override System.Security.Cryptography.RSAParameters ExportParameters(System.Boolean includePrivateParameters)
-    // Offset: 0x19278E0
+    // Offset: 0x17B6A68
     // Implemented from: System.Security.Cryptography.RSA
     // Base method: System.Security.Cryptography.RSAParameters RSA::ExportParameters(System.Boolean includePrivateParameters)
     System::Security::Cryptography::RSAParameters ExportParameters(bool includePrivateParameters);
     // public override System.Void ImportParameters(System.Security.Cryptography.RSAParameters parameters)
-    // Offset: 0x1927D48
+    // Offset: 0x17B6ED0
     // Implemented from: System.Security.Cryptography.RSA
     // Base method: System.Void RSA::ImportParameters(System.Security.Cryptography.RSAParameters parameters)
     void ImportParameters(System::Security::Cryptography::RSAParameters parameters);

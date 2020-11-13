@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_GetOverlayTransformTrackedDeviceRelative : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AC06F0
+    // Offset: 0x186FC28
     static IVROverlay::_GetOverlayTransformTrackedDeviceRelative* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, ref System.UInt32 punTrackedDevice, ref OVR.OpenVR.HmdMatrix34_t pmatTrackedDeviceToOverlayTransform)
-    // Offset: 0x1AC0704
+    // Offset: 0x186FC3C
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint& punTrackedDevice, OVR::OpenVR::HmdMatrix34_t& pmatTrackedDeviceToOverlayTransform);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, ref System.UInt32 punTrackedDevice, ref OVR.OpenVR.HmdMatrix34_t pmatTrackedDeviceToOverlayTransform, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AC099C
+    // Offset: 0x186FED4
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint& punTrackedDevice, OVR::OpenVR::HmdMatrix34_t& pmatTrackedDeviceToOverlayTransform, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(ref System.UInt32 punTrackedDevice, ref OVR.OpenVR.HmdMatrix34_t pmatTrackedDeviceToOverlayTransform, System.IAsyncResult result)
-    // Offset: 0x1AC0A70
+    // Offset: 0x186FFA8
     OVR::OpenVR::EVROverlayError EndInvoke(uint& punTrackedDevice, OVR::OpenVR::HmdMatrix34_t& pmatTrackedDeviceToOverlayTransform, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayTransformTrackedDeviceRelative
 }

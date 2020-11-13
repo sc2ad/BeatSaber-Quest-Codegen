@@ -49,22 +49,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void OnDeviceConnected(System.Int32 index, System.Boolean connected)
-    // Offset: 0x103F0CC
+    // Offset: 0x11169FC
     void OnDeviceConnected(int index, bool connected);
     // private System.Void OnEnable()
-    // Offset: 0x103F6D0
+    // Offset: 0x1117000
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x103F794
+    // Offset: 0x11170C4
     void OnDisable();
     // private System.Void PrintControllerStatus(System.Int32 index)
-    // Offset: 0x103F280
+    // Offset: 0x1116BB0
     void PrintControllerStatus(int index);
     // private System.Void Update()
-    // Offset: 0x103F858
+    // Offset: 0x1117188
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x10401A8
+    // Offset: 0x1117AD8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

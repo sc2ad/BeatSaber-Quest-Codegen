@@ -14,7 +14,7 @@ namespace System::Net::Configuration {
   class NetSectionGroup : public System::Configuration::ConfigurationSectionGroup {
     public:
     // public System.Void .ctor()
-    // Offset: 0x12AD560
+    // Offset: 0x130CD4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NetSectionGroup* New_ctor();

@@ -29,16 +29,16 @@ namespace System::IO {
   class FileSystemEventHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x14EFE40
+    // Offset: 0x148EC40
     static FileSystemEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Object sender, System.IO.FileSystemEventArgs e)
-    // Offset: 0x14EFE54
+    // Offset: 0x148EC54
     void Invoke(::Il2CppObject* sender, System::IO::FileSystemEventArgs* e);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.IO.FileSystemEventArgs e, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x14F0258
+    // Offset: 0x148F058
     System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::IO::FileSystemEventArgs* e, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x14F0288
+    // Offset: 0x148F088
     void EndInvoke(System::IAsyncResult* result);
   }; // System.IO.FileSystemEventHandler
 }

@@ -5,6 +5,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Net.AuthenticationSchemeSelector
 #include "System/Net/AuthenticationSchemeSelector.hpp"
+// Including type: System.IntPtr
+#include "System/IntPtr.hpp"
 // Including type: System.Net.AuthenticationSchemes
 #include "System/Net/AuthenticationSchemes.hpp"
 // Including type: System.Net.HttpListenerRequest

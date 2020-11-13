@@ -27,7 +27,7 @@ namespace System::Security::Principal {
     // Offset: 0x30
     ::Array<::Il2CppString*>* m_roles;
     // public System.Void .ctor(System.Security.Principal.IIdentity identity, System.String[] roles)
-    // Offset: 0x120CD98
+    // Offset: 0x1281E50
     static GenericPrincipal* New_ctor(System::Security::Principal::IIdentity* identity, ::Array<::Il2CppString*>* roles);
   }; // System.Security.Principal.GenericPrincipal
 }

@@ -36,12 +36,18 @@ namespace GlobalNamespace {
     // public System.Boolean enableBackgroundSentry
     // Offset: 0x2E
     bool enableBackgroundSentry;
+    // public System.Boolean enableStatistics
+    // Offset: 0x2F
+    bool enableStatistics;
+    // public System.Int32 disconnectTimeoutMs
+    // Offset: 0x30
+    int disconnectTimeoutMs;
     // Creating interface conversion operator: operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::LiteNetLibConnectionManager*>
     operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::LiteNetLibConnectionManager*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::LiteNetLibConnectionManager*>*>(this);
     }
     // protected System.Void .ctor()
-    // Offset: 0x21636B4
+    // Offset: 0x1B52240
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase* New_ctor();

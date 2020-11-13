@@ -33,43 +33,43 @@ namespace GlobalNamespace {
     // Offset: 0x40
     bool succeeded;
     // public System.String get_playerId()
-    // Offset: 0x20B0ECC
+    // Offset: 0xF1D188
     ::Il2CppString* get_playerId();
     // private System.Void set_playerId(System.String value)
-    // Offset: 0x20B0ED4
+    // Offset: 0xF1D190
     void set_playerId(::Il2CppString* value);
     // public System.String get_playerName()
-    // Offset: 0x20B0EDC
+    // Offset: 0xF1D198
     ::Il2CppString* get_playerName();
     // private System.Void set_playerName(System.String value)
-    // Offset: 0x20B0EE4
+    // Offset: 0xF1D1A0
     void set_playerName(::Il2CppString* value);
     // public System.String get_playerKey()
-    // Offset: 0x20B0EEC
+    // Offset: 0xF1D1A8
     ::Il2CppString* get_playerKey();
     // private System.Void set_playerKey(System.String value)
-    // Offset: 0x20B0EF4
+    // Offset: 0xF1D1B0
     void set_playerKey(::Il2CppString* value);
     // public System.String get_authType()
-    // Offset: 0x20B0EFC
+    // Offset: 0xF1D1B8
     ::Il2CppString* get_authType();
     // private System.Void set_authType(System.String value)
-    // Offset: 0x20B0F04
+    // Offset: 0xF1D1C0
     void set_authType(::Il2CppString* value);
     // public System.String get_playerFriends()
-    // Offset: 0x20B0F0C
+    // Offset: 0xF1D1C8
     ::Il2CppString* get_playerFriends();
     // private System.Void set_playerFriends(System.String value)
-    // Offset: 0x20B0F14
+    // Offset: 0xF1D1D0
     void set_playerFriends(::Il2CppString* value);
     // public System.Boolean get_succeeded()
-    // Offset: 0x20B0F1C
+    // Offset: 0xF1D1D8
     bool get_succeeded();
     // private System.Void set_succeeded(System.Boolean value)
-    // Offset: 0x20B0F24
+    // Offset: 0xF1D1E0
     void set_succeeded(bool value);
     // public System.Void .ctor(System.Boolean succeeded, System.String playerId, System.String playerName, System.String playerKey, System.String authType, System.String playerFriends)
-    // Offset: 0x20B0F30
+    // Offset: 0xF1D1EC
     static LeaderboardPlayerInfo* New_ctor(bool succeeded, ::Il2CppString* playerId, ::Il2CppString* playerName, ::Il2CppString* playerKey, ::Il2CppString* authType, ::Il2CppString* playerFriends);
   }; // LeaderboardPlayerInfo
 }

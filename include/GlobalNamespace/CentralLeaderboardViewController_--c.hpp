@@ -45,19 +45,19 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<GameplayModifierParamsSO,System.String> <>9__37_0
     static void _set_$$9__37_0(System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1FB247C
+    // Offset: 0x1A35974
     static void _cctor();
     // System.String <DidActivate>b__26_1(CentralLeaderboardViewController/LeaderboardPanel x)
-    // Offset: 0x1FB24EC
+    // Offset: 0x1A359E4
     ::Il2CppString* $DidActivate$b__26_1(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel* x);
     // HMUI.IconSegmentedControl/DataItem <DidActivate>b__26_2(CentralLeaderboardViewController/ScoreScopeInfo x)
-    // Offset: 0x1FB2504
+    // Offset: 0x1A359FC
     HMUI::IconSegmentedControl::DataItem* $DidActivate$b__26_2(GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo* x);
     // System.String <LoadScoresAsync>b__37_0(GameplayModifierParamsSO m)
-    // Offset: 0x1FB2580
+    // Offset: 0x1A35A78
     ::Il2CppString* $LoadScoresAsync$b__37_0(GlobalNamespace::GameplayModifierParamsSO* m);
     // public System.Void .ctor()
-    // Offset: 0x1FB24E4
+    // Offset: 0x1A359DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CentralLeaderboardViewController::$$c* New_ctor();

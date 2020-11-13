@@ -19,25 +19,25 @@ namespace GlobalNamespace {
   class ConnectedPlayerHelpers : public ::Il2CppObject {
     public:
     // static public System.Boolean WantsToPlayNextLevel(IConnectedPlayer connectedPlayer)
-    // Offset: 0x2156524
+    // Offset: 0x1B43FFC
     static bool WantsToPlayNextLevel(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean WasActiveAtLevelStart(IConnectedPlayer connectedPlayer)
-    // Offset: 0x21565E4
+    // Offset: 0x1B440BC
     static bool WasActiveAtLevelStart(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean IsActive(IConnectedPlayer connectedPlayer)
-    // Offset: 0x21566A4
+    // Offset: 0x1B4417C
     static bool IsActive(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean HasFinishedLevel(IConnectedPlayer connectedPlayer)
-    // Offset: 0x2156764
+    // Offset: 0x1B4423C
     static bool HasFinishedLevel(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean IsActiveOrFinished(IConnectedPlayer connectedPlayer)
-    // Offset: 0x2156824
+    // Offset: 0x1B442FC
     static bool IsActiveOrFinished(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean IsLeftHanded(IConnectedPlayer connectedPlayer)
-    // Offset: 0x215685C
+    // Offset: 0x1B44334
     static bool IsLeftHanded(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean IsFailed(IConnectedPlayer connectedPlayer)
-    // Offset: 0x215691C
+    // Offset: 0x1B443F4
     static bool IsFailed(GlobalNamespace::IConnectedPlayer* connectedPlayer);
   }; // ConnectedPlayerHelpers
 }

@@ -45,19 +45,19 @@ namespace UnityEngine {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock> s_OrderBlocks
     static void _set_s_OrderBlocks(System::Collections::Generic::List_1<UnityEngine::BeforeRenderHelper::OrderBlock>* value);
     // static private System.Int32 GetUpdateOrder(UnityEngine.Events.UnityAction callback)
-    // Offset: 0x1787BA0
+    // Offset: 0x167D8D0
     static int GetUpdateOrder(UnityEngine::Events::UnityAction* callback);
     // static public System.Void RegisterCallback(UnityEngine.Events.UnityAction callback)
-    // Offset: 0x17858E0
+    // Offset: 0x167B610
     static void RegisterCallback(UnityEngine::Events::UnityAction* callback);
     // static public System.Void UnregisterCallback(UnityEngine.Events.UnityAction callback)
-    // Offset: 0x1785CE4
+    // Offset: 0x167BA14
     static void UnregisterCallback(UnityEngine::Events::UnityAction* callback);
     // static public System.Void Invoke()
-    // Offset: 0x1786388
+    // Offset: 0x167C0B8
     static void Invoke();
     // static private System.Void .cctor()
-    // Offset: 0x1787EC0
+    // Offset: 0x167DBF0
     static void _cctor();
   }; // UnityEngine.BeforeRenderHelper
 }

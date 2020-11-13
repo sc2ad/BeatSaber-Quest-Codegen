@@ -22,7 +22,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x1C
     float tangentWeight;
     // public System.Void .ctor()
-    // Offset: 0x16944FC
+    // Offset: 0x15E80C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RotationLimitPolygonal::LimitPoint* New_ctor();

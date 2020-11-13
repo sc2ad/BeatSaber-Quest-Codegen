@@ -28,7 +28,7 @@ namespace System::Diagnostics {
       return typeName;
     }
     // public System.Void .ctor(System.Type type)
-    // Offset: 0x176F158
+    // Offset: 0x16778F0
     static DebuggerTypeProxyAttribute* New_ctor(System::Type* type);
   }; // System.Diagnostics.DebuggerTypeProxyAttribute
 }

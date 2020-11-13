@@ -35,13 +35,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return index;
     }
     // UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint <Triangulate>b__0(UnityEngine.Vector2 x)
-    // Offset: 0x1352B80
+    // Offset: 0x139300C
     UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* $Triangulate$b__0(UnityEngine::Vector2 x);
     // UnityEngine.ProBuilder.Poly2Tri.PolygonPoint <Triangulate>b__1(UnityEngine.Vector2 x)
-    // Offset: 0x1352C08
+    // Offset: 0x1393094
     UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* $Triangulate$b__1(UnityEngine::Vector2 x);
     // public System.Void .ctor()
-    // Offset: 0x1352B70
+    // Offset: 0x1392FFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Triangulation::$$c__DisplayClass7_0* New_ctor();

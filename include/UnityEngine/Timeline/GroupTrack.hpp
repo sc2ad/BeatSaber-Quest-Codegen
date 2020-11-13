@@ -22,17 +22,17 @@ namespace UnityEngine::Timeline {
   class GroupTrack : public UnityEngine::Timeline::TrackAsset {
     public:
     // override System.Boolean CanCompileClips()
-    // Offset: 0x13F5ECC
+    // Offset: 0x141CC44
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Boolean TrackAsset::CanCompileClips()
     bool CanCompileClips();
     // public override System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> get_outputs()
-    // Offset: 0x13F5ED4
+    // Offset: 0x141CC4C
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> TrackAsset::get_outputs()
     System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* get_outputs();
     // public System.Void .ctor()
-    // Offset: 0x13F5F3C
+    // Offset: 0x141CCB4
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Void TrackAsset::.ctor()
     // Base method: System.Void PlayableAsset::.ctor()

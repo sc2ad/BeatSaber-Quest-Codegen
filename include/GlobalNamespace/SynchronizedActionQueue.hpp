@@ -40,7 +40,7 @@ namespace GlobalNamespace {
       // Creating value type constructor for type: SynchronizedAction
       constexpr SynchronizedAction(float time_ = {}, System::Action* action_ = {}) noexcept : time{time_}, action{action_} {}
       // public System.Void .ctor(System.Single time, System.Action action)
-      // Offset: 0xE509B4
+      // Offset: 0xE90060
       // ABORTED: conflicts with another method.  SynchronizedAction(float time, System::Action* action);
     }; // SynchronizedActionQueue/SynchronizedAction
     // private readonly System.Collections.Generic.List`1<SynchronizedActionQueue/SynchronizedAction> _synchronizedActionQueue
@@ -51,16 +51,16 @@ namespace GlobalNamespace {
       return synchronizedActionQueue;
     }
     // public System.Void Clear()
-    // Offset: 0x21F0B20
+    // Offset: 0x1E4ABF4
     void Clear();
     // public System.Void EnqueueAction(System.Single time, System.Action action)
-    // Offset: 0x21F0C04
+    // Offset: 0x1E4ACD8
     void EnqueueAction(float time, System::Action* action);
     // public System.Void Update(System.Single time)
-    // Offset: 0x21F0CA0
+    // Offset: 0x1E4AD74
     void Update(float time);
     // public System.Void .ctor()
-    // Offset: 0x21F1B38
+    // Offset: 0x1E4BC08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SynchronizedActionQueue* New_ctor();

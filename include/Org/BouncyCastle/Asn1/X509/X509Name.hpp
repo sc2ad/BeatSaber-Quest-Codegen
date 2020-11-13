@@ -221,33 +221,33 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Set static field: static public readonly System.Collections.Hashtable DefaultLookup
     static void _set_DefaultLookup(System::Collections::Hashtable* value);
     // static public System.Boolean get_DefaultReverse()
-    // Offset: 0x16126D8
+    // Offset: 0x15814D4
     static bool get_DefaultReverse();
     // static private System.Void .cctor()
-    // Offset: 0x1612760
+    // Offset: 0x158155C
     static void _cctor();
     // static public Org.BouncyCastle.Asn1.X509.X509Name GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x160CC10
+    // Offset: 0x157BA0C
     static Org::BouncyCastle::Asn1::X509::X509Name* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // static public Org.BouncyCastle.Asn1.X509.X509Name GetInstance(System.Object obj)
-    // Offset: 0x160CDCC
+    // Offset: 0x157BBC8
     static Org::BouncyCastle::Asn1::X509::X509Name* GetInstance(::Il2CppObject* obj);
     // protected System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1613DB8
+    // Offset: 0x1582BB4
     static X509Name* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // private System.Void AppendValue(System.Text.StringBuilder buf, System.Collections.IDictionary oidSymbols, Org.BouncyCastle.Asn1.DerObjectIdentifier oid, System.String val)
-    // Offset: 0x1614B38
+    // Offset: 0x1583934
     void AppendValue(System::Text::StringBuilder* buf, System::Collections::IDictionary* oidSymbols, Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Il2CppString* val);
     // public System.String ToString(System.Boolean reverse, System.Collections.IDictionary oidSymbols)
-    // Offset: 0x1614DFC
+    // Offset: 0x1583BF8
     ::Il2CppString* ToString(bool reverse, System::Collections::IDictionary* oidSymbols);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1614664
+    // Offset: 0x1583460
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x16153D4
+    // Offset: 0x15841D0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

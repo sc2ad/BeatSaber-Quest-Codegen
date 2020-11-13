@@ -21,7 +21,7 @@ namespace System::Runtime::CompilerServices {
   class IteratorStateMachineAttribute : public System::Runtime::CompilerServices::StateMachineAttribute {
     public:
     // public System.Void .ctor(System.Type stateMachineType)
-    // Offset: 0x108C914
+    // Offset: 0x1163244
     // Implemented from: System.Runtime.CompilerServices.StateMachineAttribute
     // Base method: System.Void StateMachineAttribute::.ctor(System.Type stateMachineType)
     static IteratorStateMachineAttribute* New_ctor(System::Type* stateMachineType);

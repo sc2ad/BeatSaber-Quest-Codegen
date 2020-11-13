@@ -42,16 +42,16 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.GuiRenderableManager/RenderableInfo,System.Int32> <>9__1_0
     static void _set_$$9__1_0(System::Func_2<Zenject::GuiRenderableManager::RenderableInfo*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x122A1E8
+    // Offset: 0x129F2A0
     static void _cctor();
     // System.Int32 <.ctor>b__1_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x122A258
+    // Offset: 0x129F310
     int $_ctor$b__1_2(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Int32 <.ctor>b__1_0(Zenject.GuiRenderableManager/RenderableInfo x)
-    // Offset: 0x122A270
+    // Offset: 0x129F328
     int $_ctor$b__1_0(Zenject::GuiRenderableManager::RenderableInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x122A250
+    // Offset: 0x129F308
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GuiRenderableManager::$$c* New_ctor();

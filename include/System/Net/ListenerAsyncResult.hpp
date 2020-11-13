@@ -78,28 +78,28 @@ namespace System::Net {
     // Set static field: static private System.Threading.WaitCallback InvokeCB
     static void _set_InvokeCB(System::Threading::WaitCallback* value);
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x1239D10
+    // Offset: 0x12AEE0C
     static ListenerAsyncResult* New_ctor(System::AsyncCallback* cb, ::Il2CppObject* state);
     // System.Void Complete(System.Exception exc)
-    // Offset: 0x12398BC
+    // Offset: 0x12AE9B8
     void Complete(System::Exception* exc);
     // static private System.Void InvokeCallback(System.Object o)
-    // Offset: 0x12493DC
+    // Offset: 0x12BE4D8
     static void InvokeCallback(::Il2CppObject* o);
     // System.Void Complete(System.Net.HttpListenerContext context)
-    // Offset: 0x123AD00
+    // Offset: 0x12AFDFC
     void Complete(System::Net::HttpListenerContext* context);
     // System.Void Complete(System.Net.HttpListenerContext context, System.Boolean synch)
-    // Offset: 0x1239E80
+    // Offset: 0x12AEF7C
     void Complete(System::Net::HttpListenerContext* context, bool synch);
     // System.Net.HttpListenerContext GetContext()
-    // Offset: 0x123A8F8
+    // Offset: 0x12AF9F4
     System::Net::HttpListenerContext* GetContext();
     // static private System.Void .cctor()
-    // Offset: 0x1249558
+    // Offset: 0x12BE654
     static void _cctor();
     // public System.Object get_AsyncState()
-    // Offset: 0x1249530
+    // Offset: 0x12BE62C
     // Implemented from: System.IAsyncResult
     // Base method: System.Object IAsyncResult::get_AsyncState()
     ::Il2CppObject* get_AsyncState();
@@ -107,7 +107,7 @@ namespace System::Net {
     // Maps to method: get_AsyncState
     ::Il2CppObject* System_IAsyncResult_get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x123A7DC
+    // Offset: 0x12AF8D8
     // Implemented from: System.IAsyncResult
     // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
     System::Threading::WaitHandle* get_AsyncWaitHandle();
@@ -115,7 +115,7 @@ namespace System::Net {
     // Maps to method: get_AsyncWaitHandle
     System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x1249544
+    // Offset: 0x12BE640
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_CompletedSynchronously()
     bool get_CompletedSynchronously();
@@ -123,7 +123,7 @@ namespace System::Net {
     // Maps to method: get_CompletedSynchronously
     bool System_IAsyncResult_get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x123A718
+    // Offset: 0x12AF814
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_IsCompleted()
     bool get_IsCompleted();

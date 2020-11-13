@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x48
     ::Il2CppString* secret;
     // public System.Void .ctor()
-    // Offset: 0x21304B0
+    // Offset: 0x1AE71D4
     // Implemented from: MasterServerConnectionManager/MasterServerConnectionManagerParamsBase
     // Base method: System.Void MasterServerConnectionManagerParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()

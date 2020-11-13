@@ -21,7 +21,7 @@ namespace System::Reflection {
       return m_trademark;
     }
     // public System.Void .ctor(System.String trademark)
-    // Offset: 0x185A2A4
+    // Offset: 0x172194C
     static AssemblyTrademarkAttribute* New_ctor(::Il2CppString* trademark);
   }; // System.Reflection.AssemblyTrademarkAttribute
 }

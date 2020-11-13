@@ -54,58 +54,58 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`2<HMUI.DropdownWithTableView,System.Int32> value)
-    // Offset: 0x2183990
+    // Offset: 0x10AC78C
     void add_didSelectCellWithIdxEvent(System::Action_2<HMUI::DropdownWithTableView*, int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`2<HMUI.DropdownWithTableView,System.Int32> value)
-    // Offset: 0x2183A34
+    // Offset: 0x10AC830
     void remove_didSelectCellWithIdxEvent(System::Action_2<HMUI::DropdownWithTableView*, int>* value);
     // public HMUI.TableView/IDataSource get_tableViewDataSource()
-    // Offset: 0x2183AD8
+    // Offset: 0x10AC8D4
     HMUI::TableView::IDataSource* get_tableViewDataSource();
     // public System.Int32 get_selectedIndex()
-    // Offset: 0x2183AF4
+    // Offset: 0x10AC8F0
     int get_selectedIndex();
     // private System.Void set_selectedIndex(System.Int32 value)
-    // Offset: 0x2183AFC
+    // Offset: 0x10AC8F8
     void set_selectedIndex(int value);
     // public System.Void Init(HMUI.TableView/IDataSource tableViewDataSource)
-    // Offset: 0x2183B04
+    // Offset: 0x10AC900
     void Init(HMUI::TableView::IDataSource* tableViewDataSource);
     // public System.Void ReloadData()
-    // Offset: 0x2183B24
+    // Offset: 0x10AC920
     void ReloadData();
     // public System.Void SelectCellWithIdx(System.Int32 idx)
-    // Offset: 0x2183D20
+    // Offset: 0x10ACB1C
     void SelectCellWithIdx(int idx);
     // protected System.Void Awake()
-    // Offset: 0x2183D48
+    // Offset: 0x10ACB44
     void Awake();
     // protected System.Void OnDisable()
-    // Offset: 0x2183E8C
+    // Offset: 0x10ACC88
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x2183EDC
+    // Offset: 0x10ACCD8
     void OnDestroy();
     // private System.Void RefreshSize(HMUI.TableView/IDataSource dataSource)
-    // Offset: 0x2183B68
+    // Offset: 0x10AC964
     void RefreshSize(HMUI::TableView::IDataSource* dataSource);
     // private System.Void OnButtonClick()
-    // Offset: 0x21840A8
+    // Offset: 0x10ACEA4
     void OnButtonClick();
     // private System.Void HandleTableViewDidSelectCellWithIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x2184134
+    // Offset: 0x10ACF30
     void HandleTableViewDidSelectCellWithIdx(HMUI::TableView* tableView, int idx);
     // private System.Void Hide(System.Boolean animated)
-    // Offset: 0x2183E94
+    // Offset: 0x10ACC90
     void Hide(bool animated);
     // private System.Void Show(System.Boolean animated)
-    // Offset: 0x21840B0
+    // Offset: 0x10ACEAC
     void Show(bool animated);
     // private System.Void HandleModalViewBlockerClicked()
-    // Offset: 0x21841AC
+    // Offset: 0x10ACFA8
     void HandleModalViewBlockerClicked();
     // public System.Void .ctor()
-    // Offset: 0x21841B4
+    // Offset: 0x10ACFB0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

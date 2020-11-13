@@ -21,7 +21,7 @@ namespace System::Runtime::CompilerServices {
       return transformNames;
     }
     // public System.Void .ctor(System.String[] transformNames)
-    // Offset: 0x108CF10
+    // Offset: 0x1163840
     static TupleElementNamesAttribute* New_ctor(::Array<::Il2CppString*>* transformNames);
   }; // System.Runtime.CompilerServices.TupleElementNamesAttribute
 }

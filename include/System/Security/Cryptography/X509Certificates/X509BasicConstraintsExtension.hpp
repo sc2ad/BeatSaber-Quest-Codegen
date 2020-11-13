@@ -53,40 +53,40 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static System.String friendlyName
     static void _set_friendlyName(::Il2CppString* value);
     // public System.Void .ctor(System.Security.Cryptography.AsnEncodedData encodedBasicConstraints, System.Boolean critical)
-    // Offset: 0x14738C0
+    // Offset: 0x145DCCC
     static X509BasicConstraintsExtension* New_ctor(System::Security::Cryptography::AsnEncodedData* encodedBasicConstraints, bool critical);
     // public System.Void .ctor(System.Boolean certificateAuthority, System.Boolean hasPathLengthConstraint, System.Int32 pathLengthConstraint, System.Boolean critical)
-    // Offset: 0x1473B74
+    // Offset: 0x145DF80
     static X509BasicConstraintsExtension* New_ctor(bool certificateAuthority, bool hasPathLengthConstraint, int pathLengthConstraint, bool critical);
     // public System.Boolean get_CertificateAuthority()
-    // Offset: 0x1473E00
+    // Offset: 0x145E20C
     bool get_CertificateAuthority();
     // public System.Boolean get_HasPathLengthConstraint()
-    // Offset: 0x1473E90
+    // Offset: 0x145E29C
     bool get_HasPathLengthConstraint();
     // public System.Int32 get_PathLengthConstraint()
-    // Offset: 0x1473F20
+    // Offset: 0x145E32C
     int get_PathLengthConstraint();
     // System.Security.Cryptography.AsnDecodeStatus Decode(System.Byte[] extension)
-    // Offset: 0x1473990
+    // Offset: 0x145DD9C
     System::Security::Cryptography::AsnDecodeStatus Decode(::Array<uint8_t>* extension);
     // System.Byte[] Encode()
-    // Offset: 0x1473C94
+    // Offset: 0x145E0A0
     ::Array<uint8_t>* Encode();
     // public System.Void .ctor()
-    // Offset: 0x1473830
+    // Offset: 0x145DC3C
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::.ctor()
     // Base method: System.Void AsnEncodedData::.ctor()
     // Base method: System.Void Object::.ctor()
     static X509BasicConstraintsExtension* New_ctor();
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x1473FB0
+    // Offset: 0x145E3BC
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);
     // override System.String ToString(System.Boolean multiLine)
-    // Offset: 0x1474150
+    // Offset: 0x145E55C
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
     ::Il2CppString* ToString(bool multiLine);

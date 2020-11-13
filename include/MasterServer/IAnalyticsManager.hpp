@@ -22,6 +22,15 @@ namespace MasterServer {
   // Forward declaring type: IMasterServerResponse
   class IMasterServerResponse;
 }
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Forward declaring type: DedicatedServerType
+  struct DedicatedServerType;
+  // Forward declaring type: ConnectionFailedReason
+  struct ConnectionFailedReason;
+  // Forward declaring type: DisconnectedReason
+  struct DisconnectedReason;
+}
 // Completed forward declares
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
@@ -34,15 +43,15 @@ namespace MasterServer {
     // public System.Void PollUpdate()
     // Offset: 0xFFFFFFFF
     void PollUpdate();
-    // public System.Void UpdateState(System.String metricName, System.Int64 state)
+    // public System.Void UpdateState(System.String metricName, System.Int64 state, MasterServer.AnalyticsMetricUnit unit, System.Boolean alarmMetric)
     // Offset: 0xFFFFFFFF
-    void UpdateState(::Il2CppString* metricName, int64_t state);
-    // public System.Void UpdateAverage(System.String metricName, System.Double value, MasterServer.AnalyticsMetricUnit unit)
+    void UpdateState(::Il2CppString* metricName, int64_t state, MasterServer::AnalyticsMetricUnit unit, bool alarmMetric);
+    // public System.Void UpdateAverage(System.String metricName, System.Double value, MasterServer.AnalyticsMetricUnit unit, System.Boolean alarmMetric)
     // Offset: 0xFFFFFFFF
-    void UpdateAverage(::Il2CppString* metricName, double value, MasterServer::AnalyticsMetricUnit unit);
-    // public System.Void IncrementCounter(System.String metricName)
+    void UpdateAverage(::Il2CppString* metricName, double value, MasterServer::AnalyticsMetricUnit unit, bool alarmMetric);
+    // public System.Void IncrementCounter(System.String metricName, System.Int64 incrementAmount, MasterServer.AnalyticsMetricUnit unit)
     // Offset: 0xFFFFFFFF
-    void IncrementCounter(::Il2CppString* metricName);
+    void IncrementCounter(::Il2CppString* metricName, int64_t incrementAmount, MasterServer::AnalyticsMetricUnit unit);
     // public System.Void ReceivedReliableRequestEvent(MasterServer.IMasterServerReliableRequest request)
     // Offset: 0xFFFFFFFF
     void ReceivedReliableRequestEvent(MasterServer::IMasterServerReliableRequest* request);
@@ -67,6 +76,21 @@ namespace MasterServer {
     // public System.Void ReceivedUnreliableResponseEvent(MasterServer.IMasterServerResponse response)
     // Offset: 0xFFFFFFFF
     void ReceivedUnreliableResponseEvent(MasterServer::IMasterServerResponse* response);
+    // public System.Void DedicatedServerServerConnectedEvent(DedicatedServerType serverType)
+    // Offset: 0xFFFFFFFF
+    void DedicatedServerServerConnectedEvent(GlobalNamespace::DedicatedServerType serverType);
+    // public System.Void DedicatedServerServerConnectionFailedEvent(DedicatedServerType serverType, ConnectionFailedReason reason)
+    // Offset: 0xFFFFFFFF
+    void DedicatedServerServerConnectionFailedEvent(GlobalNamespace::DedicatedServerType serverType, GlobalNamespace::ConnectionFailedReason reason);
+    // public System.Void DedicatedServerServerDisconnectedEvent(DedicatedServerType serverType, DisconnectedReason reason)
+    // Offset: 0xFFFFFFFF
+    void DedicatedServerServerDisconnectedEvent(GlobalNamespace::DedicatedServerType serverType, GlobalNamespace::DisconnectedReason reason);
+    // public System.Void DedicatedServerPlayerConnectedEvent(DedicatedServerType serverType)
+    // Offset: 0xFFFFFFFF
+    void DedicatedServerPlayerConnectedEvent(GlobalNamespace::DedicatedServerType serverType);
+    // public System.Void DedicatedServerPlayerDisconnectedEvent(DedicatedServerType serverType, DisconnectedReason reason)
+    // Offset: 0xFFFFFFFF
+    void DedicatedServerPlayerDisconnectedEvent(GlobalNamespace::DedicatedServerType serverType, GlobalNamespace::DisconnectedReason reason);
   }; // MasterServer.IAnalyticsManager
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

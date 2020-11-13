@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   class TutorialSongController::TutorialBombNoteSpawnData : public GlobalNamespace::TutorialSongController::TutorialJumpingNoteSpawnData {
     public:
     // public System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x1FA1B54
+    // Offset: 0xFF354C
     // Implemented from: TutorialSongController/TutorialJumpingNoteSpawnData
     // Base method: System.Void TutorialJumpingNoteSpawnData::.ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, NoteLineLayer noteLineLayer)
     static TutorialSongController::TutorialBombNoteSpawnData* New_ctor(GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);

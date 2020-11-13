@@ -36,19 +36,19 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_isBeingDestroyed()
-    // Offset: 0x216E7DC
+    // Offset: 0x107E660
     bool get_isBeingDestroyed();
     // public System.Void SetRootViewController(HMUI.ViewController newRootViewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x216E7E4
+    // Offset: 0x107E668
     void SetRootViewController(HMUI::ViewController* newRootViewController, HMUI::ViewController::AnimationType animationType);
     // private System.Collections.IEnumerator TransitionCoroutine(HMUI.ViewController newRootViewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x216E8C4
+    // Offset: 0x107E748
     System::Collections::IEnumerator* TransitionCoroutine(HMUI::ViewController* newRootViewController, HMUI::ViewController::AnimationType animationType);
     // protected System.Void OnDestroy()
-    // Offset: 0x216E990
+    // Offset: 0x107E814
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x216E99C
+    // Offset: 0x107E820
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -132,55 +132,55 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public HMUI.ViewController get_topViewController()
-    // Offset: 0x2184CE0
+    // Offset: 0x10ADADC
     HMUI::ViewController* get_topViewController();
     // public HMUI.FlowCoordinator get_childFlowCoordinator()
-    // Offset: 0x2184D4C
+    // Offset: 0x10ADB48
     HMUI::FlowCoordinator* get_childFlowCoordinator();
     // public System.Boolean get_isActivated()
-    // Offset: 0x2184D54
+    // Offset: 0x10ADB50
     bool get_isActivated();
     // protected System.String get_title()
-    // Offset: 0x2184D5C
+    // Offset: 0x10ADB58
     ::Il2CppString* get_title();
     // protected System.Void SetTitle(System.String value, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x2184D64
+    // Offset: 0x10ADB60
     void SetTitle(::Il2CppString* value, HMUI::ViewController::AnimationType animationType);
     // protected System.Void set_showBackButton(System.Boolean value)
-    // Offset: 0x2184F08
+    // Offset: 0x10ADD04
     void set_showBackButton(bool value);
     // protected System.Boolean get_showBackButton()
-    // Offset: 0x2184F14
+    // Offset: 0x10ADD10
     bool get_showBackButton();
     // public System.Void __StartOnScreenSystem(HMUI.ScreenSystem screenSystem)
-    // Offset: 0x2184F1C
+    // Offset: 0x10ADD18
     void __StartOnScreenSystem(HMUI::ScreenSystem* screenSystem);
     // protected System.Void PresentFlowCoordinator(HMUI.FlowCoordinator flowCoordinator, System.Action finishedCallback, HMUI.ViewController/AnimationDirection animationDirection, System.Boolean immediately, System.Boolean replaceTopViewController)
-    // Offset: 0x21858D8
+    // Offset: 0x10AE6D4
     void PresentFlowCoordinator(HMUI::FlowCoordinator* flowCoordinator, System::Action* finishedCallback, HMUI::ViewController::AnimationDirection animationDirection, bool immediately, bool replaceTopViewController);
     // protected System.Void DismissFlowCoordinator(HMUI.FlowCoordinator flowCoordinator, HMUI.ViewController/AnimationDirection animationDirection, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x2185F6C
+    // Offset: 0x10AED68
     void DismissFlowCoordinator(HMUI::FlowCoordinator* flowCoordinator, HMUI::ViewController::AnimationDirection animationDirection, System::Action* finishedCallback, bool immediately);
     // protected System.Void ReplaceChildFlowCoordinator(HMUI.FlowCoordinator flowCoordinator, System.Action finishedCallback, HMUI.ViewController/AnimationDirection animationDirection, System.Boolean immediately)
-    // Offset: 0x21862E0
+    // Offset: 0x10AF0DC
     void ReplaceChildFlowCoordinator(HMUI::FlowCoordinator* flowCoordinator, System::Action* finishedCallback, HMUI::ViewController::AnimationDirection animationDirection, bool immediately);
     // protected System.Void PresentViewController(HMUI.ViewController viewController, System.Action finishedCallback, HMUI.ViewController/AnimationDirection animationDirection, System.Boolean immediately)
-    // Offset: 0x2185578
+    // Offset: 0x10AE374
     void PresentViewController(HMUI::ViewController* viewController, System::Action* finishedCallback, HMUI::ViewController::AnimationDirection animationDirection, bool immediately);
     // protected System.Void DismissViewController(HMUI.ViewController viewController, HMUI.ViewController/AnimationDirection animationDirection, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x218665C
+    // Offset: 0x10AF458
     void DismissViewController(HMUI::ViewController* viewController, HMUI::ViewController::AnimationDirection animationDirection, System::Action* finishedCallback, bool immediately);
     // protected System.Void ReplaceTopViewController(HMUI.ViewController viewController, System.Action finishedCallback, HMUI.ViewController/AnimationType animationType, HMUI.ViewController/AnimationDirection animationDirection)
-    // Offset: 0x2186838
+    // Offset: 0x10AF634
     void ReplaceTopViewController(HMUI::ViewController* viewController, System::Action* finishedCallback, HMUI::ViewController::AnimationType animationType, HMUI::ViewController::AnimationDirection animationDirection);
     // private System.Void ReplaceTopViewController(HMUI.ViewController viewController, HMUI.FlowCoordinator originalOwnerFlowCoordinator, HMUI.FlowCoordinator newOwnerFlowCoordinator, System.Action finishedCallback, HMUI.ViewController/AnimationType animationType, HMUI.ViewController/AnimationDirection animationDirection)
-    // Offset: 0x2185DAC
+    // Offset: 0x10AEBA8
     void ReplaceTopViewController(HMUI::ViewController* viewController, HMUI::FlowCoordinator* originalOwnerFlowCoordinator, HMUI::FlowCoordinator* newOwnerFlowCoordinator, System::Action* finishedCallback, HMUI::ViewController::AnimationType animationType, HMUI::ViewController::AnimationDirection animationDirection);
     // protected System.Void PushViewControllerToNavigationController(HMUI.NavigationController navigationController, HMUI.ViewController viewController, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x2186924
+    // Offset: 0x10AF720
     void PushViewControllerToNavigationController(HMUI::NavigationController* navigationController, HMUI::ViewController* viewController, System::Action* finishedCallback, bool immediately);
     // protected System.Void SetViewControllersToNavigationController(HMUI.NavigationController navigationController, params HMUI.ViewController[] viewControllers)
-    // Offset: 0x2186A78
+    // Offset: 0x10AF874
     void SetViewControllersToNavigationController(HMUI::NavigationController* navigationController, ::Array<HMUI::ViewController*>* viewControllers);
     // Creating initializer_list -> params proxy for: System.Void SetViewControllersToNavigationController(HMUI.NavigationController navigationController, params HMUI.ViewController[] viewControllers)
     void SetViewControllersToNavigationController(HMUI::NavigationController* navigationController, std::initializer_list<HMUI::ViewController*> viewControllers);
@@ -190,82 +190,82 @@ namespace HMUI {
       SetViewControllersToNavigationController(navigationController, {viewControllers...});
     }
     // protected System.Void SetViewControllerToNavigationController(HMUI.NavigationController navigationController, HMUI.ViewController viewController)
-    // Offset: 0x2186A94
+    // Offset: 0x10AF890
     void SetViewControllerToNavigationController(HMUI::NavigationController* navigationController, HMUI::ViewController* viewController);
     // protected System.Void PopViewControllerFromNavigationController(HMUI.NavigationController navigationController, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x2186AB0
+    // Offset: 0x10AF8AC
     void PopViewControllerFromNavigationController(HMUI::NavigationController* navigationController, System::Action* finishedCallback, bool immediately);
     // protected System.Void PopViewControllersFromNavigationController(HMUI.NavigationController navigationController, System.Int32 numberOfControllers, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x2186BFC
+    // Offset: 0x10AF9F8
     void PopViewControllersFromNavigationController(HMUI::NavigationController* navigationController, int numberOfControllers, System::Action* finishedCallback, bool immediately);
     // protected System.Void SetLeftScreenViewController(HMUI.ViewController viewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x2185138
+    // Offset: 0x10ADF34
     void SetLeftScreenViewController(HMUI::ViewController* viewController, HMUI::ViewController::AnimationType animationType);
     // protected System.Void SetRightScreenViewController(HMUI.ViewController viewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x2185248
+    // Offset: 0x10AE044
     void SetRightScreenViewController(HMUI::ViewController* viewController, HMUI::ViewController::AnimationType animationType);
     // protected System.Void SetBottomScreenViewController(HMUI.ViewController viewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x2185358
+    // Offset: 0x10AE154
     void SetBottomScreenViewController(HMUI::ViewController* viewController, HMUI::ViewController::AnimationType animationType);
     // protected System.Void SetTopScreenViewController(HMUI.ViewController viewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x2185468
+    // Offset: 0x10AE264
     void SetTopScreenViewController(HMUI::ViewController* viewController, HMUI::ViewController::AnimationType animationType);
     // private System.Void PresentTitle(System.String title, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x2184E8C
+    // Offset: 0x10ADC88
     void PresentTitle(::Il2CppString* title, HMUI::ViewController::AnimationType animationType);
     // public System.Boolean IsFlowCoordinatorInHierarchy(HMUI.FlowCoordinator flowCoordinator)
-    // Offset: 0x2184DC8
+    // Offset: 0x10ADBC4
     bool IsFlowCoordinatorInHierarchy(HMUI::FlowCoordinator* flowCoordinator);
     // public HMUI.FlowCoordinator YoungestChildFlowCoordinatorOrSelf()
-    // Offset: 0x2186D50
+    // Offset: 0x10AFB4C
     HMUI::FlowCoordinator* YoungestChildFlowCoordinatorOrSelf();
     // protected System.Void ProvideInitialViewControllers(HMUI.ViewController mainViewController, HMUI.ViewController leftScreenViewController, HMUI.ViewController rightScreenViewController, HMUI.ViewController bottomScreenViewController, HMUI.ViewController topScreenViewController)
-    // Offset: 0x2186DE4
+    // Offset: 0x10AFBE0
     void ProvideInitialViewControllers(HMUI::ViewController* mainViewController, HMUI::ViewController* leftScreenViewController, HMUI::ViewController* rightScreenViewController, HMUI::ViewController* bottomScreenViewController, HMUI::ViewController* topScreenViewController);
     // private System.Void Activate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x2185074
+    // Offset: 0x10ADE70
     void Activate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // private System.Void Deactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x2185CF4
+    // Offset: 0x10AEAF0
     void Deactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void __ExternalActivate()
-    // Offset: 0x2186E74
+    // Offset: 0x10AFC70
     void __ExternalActivate();
     // public System.Void __ExternalDeactivate()
-    // Offset: 0x21870A8
+    // Offset: 0x10AFEA4
     void __ExternalDeactivate();
     // private System.Void HandleScreenSystemBackButtonWasPressed()
-    // Offset: 0x21872EC
+    // Offset: 0x10B00E8
     void HandleScreenSystemBackButtonWasPressed();
     // protected System.Void SetGlobalUserInteraction(System.Boolean value)
-    // Offset: 0x21862C0
+    // Offset: 0x10AF0BC
     void SetGlobalUserInteraction(bool value);
     // protected System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     // Offset: 0xFFFFFFFF
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x218731C
+    // Offset: 0x10B0118
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected System.Void TransitionDidStart()
-    // Offset: 0x2187320
+    // Offset: 0x10B011C
     void TransitionDidStart();
     // protected System.Void TransitionDidFinish()
-    // Offset: 0x218732C
+    // Offset: 0x10B0128
     void TransitionDidFinish();
     // protected System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x2187334
+    // Offset: 0x10B0130
     void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
     // protected System.Void InitialViewControllerWasPresented()
-    // Offset: 0x2187338
+    // Offset: 0x10B0134
     void InitialViewControllerWasPresented();
     // protected System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0x218733C
+    // Offset: 0x10B0138
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // static private System.Void Log(System.String message)
-    // Offset: 0x2187340
+    // Offset: 0x10B013C
     static void Log(::Il2CppString* message);
     // protected System.Void .ctor()
-    // Offset: 0x21873A8
+    // Offset: 0x10B01A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

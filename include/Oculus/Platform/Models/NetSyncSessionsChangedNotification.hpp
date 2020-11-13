@@ -30,7 +30,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x18
     Oculus::Platform::Models::NetSyncSessionList* Sessions;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x113C4AC
+    // Offset: 0x11DD16C
     static NetSyncSessionsChangedNotification* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.NetSyncSessionsChangedNotification
 }

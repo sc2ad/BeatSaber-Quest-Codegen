@@ -24,15 +24,15 @@ namespace HMUI {
     // Offset: 0x8C
     float skew;
     // public System.Single get_skew()
-    // Offset: 0x1EDEB8C
+    // Offset: 0x197F420
     float get_skew();
     // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x1EDEB94
+    // Offset: 0x197F428
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
     void OnPopulateMesh(UnityEngine::UI::VertexHelper* vh);
     // public System.Void .ctor()
-    // Offset: 0x1EDEBB0
+    // Offset: 0x197F444
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()

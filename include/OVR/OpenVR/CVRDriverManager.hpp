@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x115434C
+    // Offset: 0x11F500C
     static CVRDriverManager* New_ctor(System::IntPtr pInterface);
     // public System.UInt32 GetDriverCount()
-    // Offset: 0x115445C
+    // Offset: 0x11F511C
     uint GetDriverCount();
     // public System.UInt32 GetDriverName(System.UInt32 nDriver, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)
-    // Offset: 0x1154478
+    // Offset: 0x11F5138
     uint GetDriverName(uint nDriver, System::Text::StringBuilder* pchValue, uint unBufferSize);
     // public System.UInt64 GetDriverHandle(System.String pchDriverName)
-    // Offset: 0x1154494
+    // Offset: 0x11F5154
     uint64_t GetDriverHandle(::Il2CppString* pchDriverName);
   }; // OVR.OpenVR.CVRDriverManager
 }

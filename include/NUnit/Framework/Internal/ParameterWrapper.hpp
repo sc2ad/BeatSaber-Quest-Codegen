@@ -43,24 +43,24 @@ namespace NUnit::Framework::Internal {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IParameterInfo*>(this);
     }
     // public System.Void .ctor(NUnit.Framework.Interfaces.IMethodInfo method, System.Reflection.ParameterInfo parameterInfo)
-    // Offset: 0x1EC8EF8
+    // Offset: 0x1957F2C
     static ParameterWrapper* New_ctor(NUnit::Framework::Interfaces::IMethodInfo* method, System::Reflection::ParameterInfo* parameterInfo);
     // private System.Void set_Method(NUnit.Framework.Interfaces.IMethodInfo value)
-    // Offset: 0x1EC952C
+    // Offset: 0x1958560
     void set_Method(NUnit::Framework::Interfaces::IMethodInfo* value);
     // public System.Reflection.ParameterInfo get_ParameterInfo()
-    // Offset: 0x1EC9524
+    // Offset: 0x1958558
     System::Reflection::ParameterInfo* get_ParameterInfo();
     // private System.Void set_ParameterInfo(System.Reflection.ParameterInfo value)
-    // Offset: 0x1EC9534
+    // Offset: 0x1958568
     void set_ParameterInfo(System::Reflection::ParameterInfo* value);
     // public System.Boolean get_IsOptional()
-    // Offset: 0x1EC9508
+    // Offset: 0x195853C
     // Implemented from: NUnit.Framework.Interfaces.IParameterInfo
     // Base method: System.Boolean IParameterInfo::get_IsOptional()
     bool get_IsOptional();
     // public System.Type get_ParameterType()
-    // Offset: 0x1EC953C
+    // Offset: 0x1958570
     // Implemented from: NUnit.Framework.Interfaces.IParameterInfo
     // Base method: System.Type IParameterInfo::get_ParameterType()
     System::Type* get_ParameterType();

@@ -31,16 +31,16 @@ namespace UnityEngine::Analytics {
   class AnalyticsSessionInfo::SessionStateChanged : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F79B64
+    // Offset: 0x1A09EA0
     static AnalyticsSessionInfo::SessionStateChanged* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngine.Analytics.AnalyticsSessionState sessionState, System.Int64 sessionId, System.Int64 sessionElapsedTime, System.Boolean sessionChanged)
-    // Offset: 0x1F7943C
+    // Offset: 0x1A09778
     void Invoke(UnityEngine::Analytics::AnalyticsSessionState sessionState, int64_t sessionId, int64_t sessionElapsedTime, bool sessionChanged);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Analytics.AnalyticsSessionState sessionState, System.Int64 sessionId, System.Int64 sessionElapsedTime, System.Boolean sessionChanged, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F79B78
+    // Offset: 0x1A09EB4
     System::IAsyncResult* BeginInvoke(UnityEngine::Analytics::AnalyticsSessionState sessionState, int64_t sessionId, int64_t sessionElapsedTime, bool sessionChanged, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F79C60
+    // Offset: 0x1A09F9C
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Analytics.AnalyticsSessionInfo/SessionStateChanged
 }

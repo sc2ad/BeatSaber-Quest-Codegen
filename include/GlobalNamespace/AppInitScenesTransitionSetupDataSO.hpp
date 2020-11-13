@@ -23,13 +23,13 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData
     class AppInitSceneSetupData;
     // public System.Void Init()
-    // Offset: 0x202E12C
+    // Offset: 0x1A3FEA8
     void Init();
     // public System.Void __Init(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType appInitOverrideStartType)
-    // Offset: 0x202E19C
+    // Offset: 0x1A3FF18
     void __Init(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType);
     // public System.Void .ctor()
-    // Offset: 0x202E214
+    // Offset: 0x1A3FF90
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()

@@ -38,66 +38,84 @@ namespace GlobalNamespace {
     // private System.Action didPauseEvent
     // Offset: 0x10
     System::Action* didPauseEvent;
-    // private System.Action didResumeEvent
+    // private System.Action willResumeEvent
     // Offset: 0x18
+    System::Action* willResumeEvent;
+    // private System.Action didResumeEvent
+    // Offset: 0x20
     System::Action* didResumeEvent;
     // private GameEnergyCounter _gameEnergyCounter
-    // Offset: 0x20
+    // Offset: 0x28
     GlobalNamespace::GameEnergyCounter* gameEnergyCounter;
     // private ScoreController _scoreController
-    // Offset: 0x28
+    // Offset: 0x30
     GlobalNamespace::ScoreController* scoreController;
     // private BeatmapObjectExecutionRatingsRecorder _beatmapObjectExecutionRatingsRecorder
-    // Offset: 0x30
+    // Offset: 0x38
     GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* beatmapObjectExecutionRatingsRecorder;
     // private SongController _songController
-    // Offset: 0x38
+    // Offset: 0x40
     GlobalNamespace::SongController* songController;
     // private NoteCutSoundEffectManager _noteCutSoundEffectManager
-    // Offset: 0x40
+    // Offset: 0x48
     GlobalNamespace::NoteCutSoundEffectManager* noteCutSoundEffectManager;
     // private SaberManager saberManager
-    // Offset: 0x48
+    // Offset: 0x50
     GlobalNamespace::SaberManager* saberManager;
     // private System.Boolean _pause
-    // Offset: 0x50
+    // Offset: 0x58
     bool pause;
     // Creating interface conversion operator: operator GlobalNamespace::IGamePause
     operator GlobalNamespace::IGamePause() noexcept {
       return *reinterpret_cast<GlobalNamespace::IGamePause*>(this);
     }
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0x2000048
+    // Offset: 0x1A1A30C
     // Implemented from: IGamePause
     // Base method: System.Void IGamePause::add_didPauseEvent(System.Action value)
     void add_didPauseEvent(System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0x20000EC
+    // Offset: 0x1A1A3B0
     // Implemented from: IGamePause
     // Base method: System.Void IGamePause::remove_didPauseEvent(System.Action value)
     void remove_didPauseEvent(System::Action* value);
+    // public System.Void add_willResumeEvent(System.Action value)
+    // Offset: 0x1A1A454
+    // Implemented from: IGamePause
+    // Base method: System.Void IGamePause::add_willResumeEvent(System.Action value)
+    void add_willResumeEvent(System::Action* value);
+    // public System.Void remove_willResumeEvent(System.Action value)
+    // Offset: 0x1A1A4F8
+    // Implemented from: IGamePause
+    // Base method: System.Void IGamePause::remove_willResumeEvent(System.Action value)
+    void remove_willResumeEvent(System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0x2000190
+    // Offset: 0x1A1A59C
     // Implemented from: IGamePause
     // Base method: System.Void IGamePause::add_didResumeEvent(System.Action value)
     void add_didResumeEvent(System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0x2000234
+    // Offset: 0x1A1A640
     // Implemented from: IGamePause
     // Base method: System.Void IGamePause::remove_didResumeEvent(System.Action value)
     void remove_didResumeEvent(System::Action* value);
     // public System.Void Pause()
-    // Offset: 0x20002D8
+    // Offset: 0x1A1A6E4
     // Implemented from: IGamePause
     // Base method: System.Void IGamePause::Pause()
     void Pause();
+    // public System.Void WillResume()
+    // Offset: 0x1A1A7A0
+    // Implemented from: IGamePause
+    // Base method: System.Void IGamePause::WillResume()
+    void WillResume();
     // public System.Void Resume()
-    // Offset: 0x2000394
+    // Offset: 0x1A1A7BC
     // Implemented from: IGamePause
     // Base method: System.Void IGamePause::Resume()
     void Resume();
     // public System.Void .ctor()
-    // Offset: 0x200044C
+    // Offset: 0x1A1A874
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GamePause* New_ctor();

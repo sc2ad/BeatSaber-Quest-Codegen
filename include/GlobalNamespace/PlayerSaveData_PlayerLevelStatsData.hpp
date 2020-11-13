@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Offset: 0x3C
     int playCount;
     // public System.Void .ctor()
-    // Offset: 0x2089978
+    // Offset: 0xF251E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveData::PlayerLevelStatsData* New_ctor();

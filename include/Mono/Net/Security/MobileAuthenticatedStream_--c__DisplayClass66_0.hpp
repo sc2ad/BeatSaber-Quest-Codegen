@@ -20,10 +20,10 @@ namespace Mono::Net::Security {
     // Offset: 0x18
     int len;
     // System.Int32 <InnerRead>b__0()
-    // Offset: 0x11F3A98
+    // Offset: 0x1268B50
     int $InnerRead$b__0();
     // public System.Void .ctor()
-    // Offset: 0x11F3A90
+    // Offset: 0x1268B48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MobileAuthenticatedStream::$$c__DisplayClass66_0* New_ctor();

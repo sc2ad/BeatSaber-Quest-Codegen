@@ -31,23 +31,23 @@ namespace UnityEngine::XR {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::XR::Hand>*>(this);
     }
     // System.UInt64 get_deviceId()
-    // Offset: 0xC8B454
+    // Offset: 0xCB8384
     uint64_t get_deviceId();
     // System.UInt32 get_featureIndex()
-    // Offset: 0xC8B45C
+    // Offset: 0xCB838C
     uint get_featureIndex();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xC8B464
+    // Offset: 0xCB8394
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.Hand other)
-    // Offset: 0xC8B46C
+    // Offset: 0xCB839C
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.XR.Hand other)
     bool Equals(UnityEngine::XR::Hand other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xC8B490
+    // Offset: 0xCB83C0
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

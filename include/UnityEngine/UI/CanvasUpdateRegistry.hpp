@@ -67,61 +67,61 @@ namespace UnityEngine::UI {
     // Set static field: static private readonly System.Comparison`1<UnityEngine.UI.ICanvasElement> s_SortLayoutFunction
     static void _set_s_SortLayoutFunction(System::Comparison_1<UnityEngine::UI::ICanvasElement*>* value);
     // static public UnityEngine.UI.CanvasUpdateRegistry get_instance()
-    // Offset: 0x1080D2C
+    // Offset: 0x115765C
     static UnityEngine::UI::CanvasUpdateRegistry* get_instance();
     // private System.Boolean ObjectValidForUpdate(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x1080DF4
+    // Offset: 0x1157724
     bool ObjectValidForUpdate(UnityEngine::UI::ICanvasElement* element);
     // private System.Void CleanInvalidItems()
-    // Offset: 0x1080ED4
+    // Offset: 0x1157804
     void CleanInvalidItems();
     // private System.Void PerformUpdate()
-    // Offset: 0x10811D0
+    // Offset: 0x1157B00
     void PerformUpdate();
     // static private System.Int32 ParentCount(UnityEngine.Transform child)
-    // Offset: 0x1081AB8
+    // Offset: 0x11583E8
     static int ParentCount(UnityEngine::Transform* child);
     // static private System.Int32 SortLayoutList(UnityEngine.UI.ICanvasElement x, UnityEngine.UI.ICanvasElement y)
-    // Offset: 0x1081B98
+    // Offset: 0x11584C8
     static int SortLayoutList(UnityEngine::UI::ICanvasElement* x, UnityEngine::UI::ICanvasElement* y);
     // static public System.Void RegisterCanvasElementForLayoutRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x1081D04
+    // Offset: 0x1158634
     static void RegisterCanvasElementForLayoutRebuild(UnityEngine::UI::ICanvasElement* element);
     // static public System.Boolean TryRegisterCanvasElementForLayoutRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x1081E10
+    // Offset: 0x1158740
     static bool TryRegisterCanvasElementForLayoutRebuild(UnityEngine::UI::ICanvasElement* element);
     // private System.Boolean InternalRegisterCanvasElementForLayoutRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x1081D74
+    // Offset: 0x11586A4
     bool InternalRegisterCanvasElementForLayoutRebuild(UnityEngine::UI::ICanvasElement* element);
     // static public System.Void RegisterCanvasElementForGraphicRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x1081E80
+    // Offset: 0x11587B0
     static void RegisterCanvasElementForGraphicRebuild(UnityEngine::UI::ICanvasElement* element);
     // static public System.Boolean TryRegisterCanvasElementForGraphicRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x1081FC0
+    // Offset: 0x11588F0
     static bool TryRegisterCanvasElementForGraphicRebuild(UnityEngine::UI::ICanvasElement* element);
     // private System.Boolean InternalRegisterCanvasElementForGraphicRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x1081EF0
+    // Offset: 0x1158820
     bool InternalRegisterCanvasElementForGraphicRebuild(UnityEngine::UI::ICanvasElement* element);
     // static public System.Void UnRegisterCanvasElementForRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x1082030
+    // Offset: 0x1158960
     static void UnRegisterCanvasElementForRebuild(UnityEngine::UI::ICanvasElement* element);
     // private System.Void InternalUnRegisterCanvasElementForLayoutRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x10820B0
+    // Offset: 0x11589E0
     void InternalUnRegisterCanvasElementForLayoutRebuild(UnityEngine::UI::ICanvasElement* element);
     // private System.Void InternalUnRegisterCanvasElementForGraphicRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x1082210
+    // Offset: 0x1158B40
     void InternalUnRegisterCanvasElementForGraphicRebuild(UnityEngine::UI::ICanvasElement* element);
     // static public System.Boolean IsRebuildingLayout()
-    // Offset: 0x1082370
+    // Offset: 0x1158CA0
     static bool IsRebuildingLayout();
     // static public System.Boolean IsRebuildingGraphics()
-    // Offset: 0x10823DC
+    // Offset: 0x1158D0C
     static bool IsRebuildingGraphics();
     // static private System.Void .cctor()
-    // Offset: 0x1082448
+    // Offset: 0x1158D78
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x1080AB4
+    // Offset: 0x11573E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CanvasUpdateRegistry* New_ctor();

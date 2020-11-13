@@ -28,13 +28,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     int shortestWord;
     // public System.Void AddWord(System.String word, System.Int32 index)
-    // Offset: 0x21F9A98
+    // Offset: 0x1E53DA0
     void AddWord(::Il2CppString* word, int index);
     // public System.Boolean IsMatch(System.String word, System.Int32 index)
-    // Offset: 0x21F9F10
+    // Offset: 0x1E54218
     bool IsMatch(::Il2CppString* word, int index);
     // public System.Void .ctor()
-    // Offset: 0x21F9A88
+    // Offset: 0x1E53D90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ProfanityFilter::TrieNode* New_ctor();

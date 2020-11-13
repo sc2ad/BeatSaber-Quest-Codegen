@@ -47,13 +47,13 @@ namespace System {
       return delegate;
     }
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0x176E854
+    // Offset: 0x1676FEC
     static DelegateSerializationHolder* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext ctx);
     // static public System.Void GetDelegateData(System.Delegate instance, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0x176E040
+    // Offset: 0x16767D8
     static void GetDelegateData(System::Delegate* instance, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext ctx);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x176EE68
+    // Offset: 0x1677600
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -61,7 +61,7 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Object GetRealObject(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x176EEC8
+    // Offset: 0x1677660
     // Implemented from: System.Runtime.Serialization.IObjectReference
     // Base method: System.Object IObjectReference::GetRealObject(System.Runtime.Serialization.StreamingContext context)
     ::Il2CppObject* GetRealObject(System::Runtime::Serialization::StreamingContext context);

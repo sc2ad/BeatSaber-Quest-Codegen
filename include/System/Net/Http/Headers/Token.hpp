@@ -112,28 +112,28 @@ namespace System::Net::Http::Headers {
     // Set static field: static public readonly System.Net.Http.Headers.Token Empty
     static void _set_Empty(System::Net::Http::Headers::Token value);
     // public System.Void .ctor(System.Net.Http.Headers.Token/Type type, System.Int32 startPosition, System.Int32 endPosition)
-    // Offset: 0xC67354
+    // Offset: 0xC98CB0
     // ABORTED: conflicts with another method.  Token(System::Net::Http::Headers::Token::Type type, int startPosition, int endPosition);
     // public System.Int32 get_StartPosition()
-    // Offset: 0xC67360
+    // Offset: 0xC98CBC
     int get_StartPosition();
     // private System.Void set_StartPosition(System.Int32 value)
-    // Offset: 0xC67368
+    // Offset: 0xC98CC4
     void set_StartPosition(int value);
     // public System.Int32 get_EndPosition()
-    // Offset: 0xC67370
+    // Offset: 0xC98CCC
     int get_EndPosition();
     // private System.Void set_EndPosition(System.Int32 value)
-    // Offset: 0xC67378
+    // Offset: 0xC98CD4
     void set_EndPosition(int value);
     // public System.Net.Http.Headers.Token/Type get_Kind()
-    // Offset: 0xC67380
+    // Offset: 0xC98CDC
     System::Net::Http::Headers::Token::Type get_Kind();
     // static private System.Void .cctor()
-    // Offset: 0x117FA74
+    // Offset: 0x1209E04
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xC67388
+    // Offset: 0xC98CE4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

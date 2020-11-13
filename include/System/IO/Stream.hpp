@@ -81,7 +81,7 @@ namespace System::IO {
     // Set static field: static private System.Int32 _DefaultCopyBufferSize
     static void _set__DefaultCopyBufferSize(int value);
     // System.Threading.SemaphoreSlim EnsureAsyncActiveSemaphoreInitialized()
-    // Offset: 0x1364150
+    // Offset: 0x13A55DC
     System::Threading::SemaphoreSlim* EnsureAsyncActiveSemaphoreInitialized();
     // public System.Boolean get_CanRead()
     // Offset: 0xFFFFFFFF
@@ -102,70 +102,70 @@ namespace System::IO {
     // Offset: 0xFFFFFFFF
     void set_Position(int64_t value);
     // public System.Int32 get_ReadTimeout()
-    // Offset: 0x1364248
+    // Offset: 0x13A56D4
     int get_ReadTimeout();
     // public System.Int32 get_WriteTimeout()
-    // Offset: 0x13642F8
+    // Offset: 0x13A5784
     int get_WriteTimeout();
     // public System.Threading.Tasks.Task CopyToAsync(System.IO.Stream destination)
-    // Offset: 0x1364374
+    // Offset: 0x13A5800
     System::Threading::Tasks::Task* CopyToAsync(System::IO::Stream* destination);
     // public System.Threading.Tasks.Task CopyToAsync(System.IO.Stream destination, System.Int32 bufferSize)
-    // Offset: 0x1364380
+    // Offset: 0x13A580C
     System::Threading::Tasks::Task* CopyToAsync(System::IO::Stream* destination, int bufferSize);
     // public System.Threading.Tasks.Task CopyToAsync(System.IO.Stream destination, System.Int32 bufferSize, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1364414
+    // Offset: 0x13A58A0
     System::Threading::Tasks::Task* CopyToAsync(System::IO::Stream* destination, int bufferSize, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task CopyToAsyncInternal(System.IO.Stream destination, System.Int32 bufferSize, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x136466C
+    // Offset: 0x13A5AF8
     System::Threading::Tasks::Task* CopyToAsyncInternal(System::IO::Stream* destination, int bufferSize, System::Threading::CancellationToken cancellationToken);
     // public System.Void Close()
-    // Offset: 0x13647C4
+    // Offset: 0x13A5C50
     void Close();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1364854
+    // Offset: 0x13A5CE0
     void Dispose(bool disposing);
     // public System.Void Flush()
     // Offset: 0xFFFFFFFF
     void Flush();
     // public System.IAsyncResult BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object state)
-    // Offset: 0x1364858
+    // Offset: 0x13A5CE4
     System::IAsyncResult* BeginRead(::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* state);
     // System.IAsyncResult BeginReadInternal(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object state, System.Boolean serializeAsynchronously)
-    // Offset: 0x1364860
+    // Offset: 0x13A5CEC
     System::IAsyncResult* BeginReadInternal(::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* state, bool serializeAsynchronously);
     // public System.Int32 EndRead(System.IAsyncResult asyncResult)
-    // Offset: 0x13650A0
+    // Offset: 0x13A652C
     int EndRead(System::IAsyncResult* asyncResult);
     // public System.Threading.Tasks.Task`1<System.Int32> ReadAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13652C8
+    // Offset: 0x13A6754
     System::Threading::Tasks::Task_1<int>* ReadAsync(::Array<uint8_t>* buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<System.Int32> BeginEndReadAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1365388
+    // Offset: 0x13A6814
     System::Threading::Tasks::Task_1<int>* BeginEndReadAsync(::Array<uint8_t>* buffer, int offset, int count);
     // public System.IAsyncResult BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object state)
-    // Offset: 0x1365558
+    // Offset: 0x13A69E4
     System::IAsyncResult* BeginWrite(::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* state);
     // System.IAsyncResult BeginWriteInternal(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object state, System.Boolean serializeAsynchronously)
-    // Offset: 0x1365560
+    // Offset: 0x13A69EC
     System::IAsyncResult* BeginWriteInternal(::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* state, bool serializeAsynchronously);
     // private System.Void RunReadWriteTaskWhenReady(System.Threading.Tasks.Task asyncWaiter, System.IO.Stream/ReadWriteTask readWriteTask)
-    // Offset: 0x1364DF8
+    // Offset: 0x13A6284
     void RunReadWriteTaskWhenReady(System::Threading::Tasks::Task* asyncWaiter, System::IO::Stream::ReadWriteTask* readWriteTask);
     // private System.Void RunReadWriteTask(System.IO.Stream/ReadWriteTask readWriteTask)
-    // Offset: 0x1364FBC
+    // Offset: 0x13A6448
     void RunReadWriteTask(System::IO::Stream::ReadWriteTask* readWriteTask);
     // public System.Void EndWrite(System.IAsyncResult asyncResult)
-    // Offset: 0x136595C
+    // Offset: 0x13A6DE8
     void EndWrite(System::IAsyncResult* asyncResult);
     // public System.Threading.Tasks.Task WriteAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1365B70
+    // Offset: 0x13A6FFC
     System::Threading::Tasks::Task* WriteAsync(::Array<uint8_t>* buffer, int offset, int count);
     // public System.Threading.Tasks.Task WriteAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1365C14
+    // Offset: 0x13A70A0
     System::Threading::Tasks::Task* WriteAsync(::Array<uint8_t>* buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task BeginEndWriteAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1365CCC
+    // Offset: 0x13A7158
     System::Threading::Tasks::Task* BeginEndWriteAsync(::Array<uint8_t>* buffer, int offset, int count);
     // public System.Int64 Seek(System.Int64 offset, System.IO.SeekOrigin origin)
     // Offset: 0xFFFFFFFF
@@ -177,31 +177,31 @@ namespace System::IO {
     // Offset: 0xFFFFFFFF
     int Read(::Array<uint8_t>*& buffer, int offset, int count);
     // public System.Int32 ReadByte()
-    // Offset: 0x1365E9C
+    // Offset: 0x13A7328
     int ReadByte();
     // public System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     // Offset: 0xFFFFFFFF
     void Write(::Array<uint8_t>* buffer, int offset, int count);
     // public System.Void WriteByte(System.Byte value)
-    // Offset: 0x1365F40
+    // Offset: 0x13A73CC
     void WriteByte(uint8_t value);
     // System.IAsyncResult BlockingBeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object state)
-    // Offset: 0x1364AE8
+    // Offset: 0x13A5F74
     System::IAsyncResult* BlockingBeginRead(::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* state);
     // static System.Int32 BlockingEndRead(System.IAsyncResult asyncResult)
-    // Offset: 0x13652C4
+    // Offset: 0x13A6750
     static int BlockingEndRead(System::IAsyncResult* asyncResult);
     // System.IAsyncResult BlockingBeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object state)
-    // Offset: 0x13657E8
+    // Offset: 0x13A6C74
     System::IAsyncResult* BlockingBeginWrite(::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* state);
     // static System.Void BlockingEndWrite(System.IAsyncResult asyncResult)
-    // Offset: 0x1365B6C
+    // Offset: 0x13A6FF8
     static void BlockingEndWrite(System::IAsyncResult* asyncResult);
     // static private System.Void .cctor()
-    // Offset: 0x1366200
+    // Offset: 0x13A768C
     static void _cctor();
     // public System.Void Dispose()
-    // Offset: 0x1364844
+    // Offset: 0x13A5CD0
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -209,7 +209,7 @@ namespace System::IO {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // protected System.Void .ctor()
-    // Offset: 0x13661F0
+    // Offset: 0x13A767C
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()

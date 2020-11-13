@@ -19,7 +19,7 @@ namespace UnityEngine {
   class WWWForm : public ::Il2CppObject {
     public:
     // static System.Text.Encoding get_DefaultEncoding()
-    // Offset: 0x1F4E380
+    // Offset: 0x19DFD64
     static System::Text::Encoding* get_DefaultEncoding();
   }; // UnityEngine.WWWForm
 }

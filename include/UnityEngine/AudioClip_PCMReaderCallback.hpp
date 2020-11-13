@@ -26,16 +26,16 @@ namespace UnityEngine {
   class AudioClip::PCMReaderCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F5ABCC
+    // Offset: 0x19EC5B0
     static AudioClip::PCMReaderCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Single[] data)
-    // Offset: 0x1F5A598
+    // Offset: 0x19EBF7C
     void Invoke(::Array<float>* data);
     // public System.IAsyncResult BeginInvoke(System.Single[] data, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F5ABE0
+    // Offset: 0x19EC5C4
     System::IAsyncResult* BeginInvoke(::Array<float>* data, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F5AC04
+    // Offset: 0x19EC5E8
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.AudioClip/PCMReaderCallback
 }

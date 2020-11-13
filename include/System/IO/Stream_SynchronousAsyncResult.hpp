@@ -62,25 +62,25 @@ namespace System::IO {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
     // System.Void .ctor(System.Int32 bytesRead, System.Object asyncStateObject)
-    // Offset: 0x1365FDC
+    // Offset: 0x13A7468
     static Stream::SynchronousAsyncResult* New_ctor(int bytesRead, ::Il2CppObject* asyncStateObject);
     // System.Void .ctor(System.Object asyncStateObject)
-    // Offset: 0x136611C
+    // Offset: 0x13A75A8
     static Stream::SynchronousAsyncResult* New_ctor(::Il2CppObject* asyncStateObject);
     // System.Void .ctor(System.Exception ex, System.Object asyncStateObject, System.Boolean isWrite)
-    // Offset: 0x1366020
+    // Offset: 0x13A74AC
     static Stream::SynchronousAsyncResult* New_ctor(System::Exception* ex, ::Il2CppObject* asyncStateObject, bool isWrite);
     // System.Void ThrowIfError()
-    // Offset: 0x13671E8
+    // Offset: 0x13A8674
     void ThrowIfError();
     // static System.Int32 EndRead(System.IAsyncResult asyncResult)
-    // Offset: 0x136608C
+    // Offset: 0x13A7518
     static int EndRead(System::IAsyncResult* asyncResult);
     // static System.Void EndWrite(System.IAsyncResult asyncResult)
-    // Offset: 0x136615C
+    // Offset: 0x13A75E8
     static void EndWrite(System::IAsyncResult* asyncResult);
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x13670D8
+    // Offset: 0x13A8564
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_IsCompleted()
     bool get_IsCompleted();
@@ -88,7 +88,7 @@ namespace System::IO {
     // Maps to method: get_IsCompleted
     bool System_IAsyncResult_get_IsCompleted();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x13670E0
+    // Offset: 0x13A856C
     // Implemented from: System.IAsyncResult
     // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
     System::Threading::WaitHandle* get_AsyncWaitHandle();
@@ -96,7 +96,7 @@ namespace System::IO {
     // Maps to method: get_AsyncWaitHandle
     System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
     // public System.Object get_AsyncState()
-    // Offset: 0x13671D8
+    // Offset: 0x13A8664
     // Implemented from: System.IAsyncResult
     // Base method: System.Object IAsyncResult::get_AsyncState()
     ::Il2CppObject* get_AsyncState();
@@ -104,7 +104,7 @@ namespace System::IO {
     // Maps to method: get_AsyncState
     ::Il2CppObject* System_IAsyncResult_get_AsyncState();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x13671E0
+    // Offset: 0x13A866C
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_CompletedSynchronously()
     bool get_CompletedSynchronously();

@@ -36,16 +36,16 @@ namespace OVR::OpenVR {
   class IVRApplications::_GetApplicationKeyByIndex : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1158CA8
+    // Offset: 0x11F9968
     static IVRApplications::_GetApplicationKeyByIndex* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRApplicationError Invoke(System.UInt32 unApplicationIndex, System.Text.StringBuilder pchAppKeyBuffer, System.UInt32 unAppKeyBufferLen)
-    // Offset: 0x1148CF0
+    // Offset: 0x11E99B0
     OVR::OpenVR::EVRApplicationError Invoke(uint unApplicationIndex, System::Text::StringBuilder* pchAppKeyBuffer, uint unAppKeyBufferLen);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unApplicationIndex, System.Text.StringBuilder pchAppKeyBuffer, System.UInt32 unAppKeyBufferLen, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1158CBC
+    // Offset: 0x11F997C
     System::IAsyncResult* BeginInvoke(uint unApplicationIndex, System::Text::StringBuilder* pchAppKeyBuffer, uint unAppKeyBufferLen, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRApplicationError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1158D6C
+    // Offset: 0x11F9A2C
     OVR::OpenVR::EVRApplicationError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRApplications/_GetApplicationKeyByIndex
 }

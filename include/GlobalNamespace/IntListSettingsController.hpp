@@ -31,31 +31,31 @@ namespace GlobalNamespace {
     // Offset: 0x30
     System::Action_1<int>* valueChangedEvent;
     // public System.Void add_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x20AF3E8
+    // Offset: 0xF1B6A4
     void add_valueChangedEvent(System::Action_1<int>* value);
     // public System.Void remove_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x20AF48C
+    // Offset: 0xF1B748
     void remove_valueChangedEvent(System::Action_1<int>* value);
     // public System.Void InitValues(System.Int32 numberOfElements, System.Int32 index)
-    // Offset: 0x20AF530
+    // Offset: 0xF1B7EC
     void InitValues(int numberOfElements, int index);
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x20AF5C8
+    // Offset: 0xF1B884
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(int& idx, int& numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x20AF5E0
+    // Offset: 0xF1B89C
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x20AF658
+    // Offset: 0xF1B914
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0x20AF680
+    // Offset: 0xF1B93C
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()

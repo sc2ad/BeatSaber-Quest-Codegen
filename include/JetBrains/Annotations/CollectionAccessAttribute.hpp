@@ -23,13 +23,13 @@ namespace JetBrains::Annotations {
       return CollectionAccessType;
     }
     // public System.Void .ctor(JetBrains.Annotations.CollectionAccessType collectionAccessType)
-    // Offset: 0x1F5CA28
+    // Offset: 0x19EE40C
     static CollectionAccessAttribute* New_ctor(JetBrains::Annotations::CollectionAccessType collectionAccessType);
     // public JetBrains.Annotations.CollectionAccessType get_CollectionAccessType()
-    // Offset: 0x1F5CA54
+    // Offset: 0x19EE438
     JetBrains::Annotations::CollectionAccessType get_CollectionAccessType();
     // private System.Void set_CollectionAccessType(JetBrains.Annotations.CollectionAccessType value)
-    // Offset: 0x1F5CA5C
+    // Offset: 0x19EE440
     void set_CollectionAccessType(JetBrains::Annotations::CollectionAccessType value);
   }; // JetBrains.Annotations.CollectionAccessAttribute
 }

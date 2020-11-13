@@ -35,10 +35,10 @@ namespace Zenject::Internal {
       return type;
     }
     // Zenject.Internal.ReflectionTypeInfo/InjectFieldInfo <GetFieldInfos>b__1(System.Reflection.FieldInfo x)
-    // Offset: 0x1230374
+    // Offset: 0x12A542C
     Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo* $GetFieldInfos$b__1(System::Reflection::FieldInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x122F328
+    // Offset: 0x12A43E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ReflectionTypeAnalyzer::$$c__DisplayClass6_0* New_ctor();

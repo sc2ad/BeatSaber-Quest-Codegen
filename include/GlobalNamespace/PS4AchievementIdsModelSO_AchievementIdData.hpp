@@ -27,13 +27,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::AchievementSO* achievement;
     // public System.Int32 get_ps4TrophyId()
-    // Offset: 0x1F8DED4
+    // Offset: 0xF01CC8
     int get_ps4TrophyId();
     // public System.String get_achievementId()
-    // Offset: 0x1F8DCD4
+    // Offset: 0xF01AC8
     ::Il2CppString* get_achievementId();
     // public System.Void .ctor()
-    // Offset: 0x1F8DEDC
+    // Offset: 0xF01CD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PS4AchievementIdsModelSO::AchievementIdData* New_ctor();

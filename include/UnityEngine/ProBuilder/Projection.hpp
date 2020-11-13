@@ -47,40 +47,40 @@ namespace UnityEngine::ProBuilder {
     // Nested type: UnityEngine::ProBuilder::Projection::$$c
     class $$c;
     // static public UnityEngine.Vector2[] PlanarProject(System.Collections.Generic.IList`1<UnityEngine.Vector3> positions, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x1381744
+    // Offset: 0x13C2BD0
     static ::Array<UnityEngine::Vector2>* PlanarProject(System::Collections::Generic::IList_1<UnityEngine::Vector3>* positions, System::Collections::Generic::IList_1<int>* indexes);
     // static public UnityEngine.Vector2[] PlanarProject(System.Collections.Generic.IList`1<UnityEngine.Vector3> positions, System.Collections.Generic.IList`1<System.Int32> indexes, UnityEngine.Vector3 direction)
-    // Offset: 0x138209C
+    // Offset: 0x13C3528
     static ::Array<UnityEngine::Vector2>* PlanarProject(System::Collections::Generic::IList_1<UnityEngine::Vector3>* positions, System::Collections::Generic::IList_1<int>* indexes, UnityEngine::Vector3 direction);
     // static System.Void PlanarProject(System.Collections.Generic.IList`1<UnityEngine.Vector3> positions, System.Collections.Generic.IList`1<System.Int32> indexes, UnityEngine.Vector3 direction, System.Collections.Generic.List`1<UnityEngine.Vector2> results)
-    // Offset: 0x138223C
+    // Offset: 0x13C36C8
     static void PlanarProject(System::Collections::Generic::IList_1<UnityEngine::Vector3>* positions, System::Collections::Generic::IList_1<int>* indexes, UnityEngine::Vector3 direction, System::Collections::Generic::List_1<UnityEngine::Vector2>* results);
     // static System.Void PlanarProject(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32 textureGroup, UnityEngine.ProBuilder.AutoUnwrapSettings unwrapSettings)
-    // Offset: 0x1382AB0
+    // Offset: 0x13C3F3C
     static void PlanarProject(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int textureGroup, UnityEngine::ProBuilder::AutoUnwrapSettings unwrapSettings);
     // static System.Void PlanarProject(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face, UnityEngine.Vector3 projection)
-    // Offset: 0x1382EDC
+    // Offset: 0x13C4368
     static void PlanarProject(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* face, UnityEngine::Vector3 projection);
     // static UnityEngine.Vector2[] SphericalProject(System.Collections.Generic.IList`1<UnityEngine.Vector3> vertices, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x138322C
+    // Offset: 0x13C46B8
     static ::Array<UnityEngine::Vector2>* SphericalProject(System::Collections::Generic::IList_1<UnityEngine::Vector3>* vertices, System::Collections::Generic::IList_1<int>* indexes);
     // static System.Collections.Generic.IList`1<UnityEngine.Vector2> Sort(System.Collections.Generic.IList`1<UnityEngine.Vector2> verts, UnityEngine.ProBuilder.SortMethod method)
-    // Offset: 0x13835D8
+    // Offset: 0x13C4A64
     static System::Collections::Generic::IList_1<UnityEngine::Vector2>* Sort(System::Collections::Generic::IList_1<UnityEngine::Vector2>* verts, UnityEngine::ProBuilder::SortMethod method);
     // static UnityEngine.Vector3 GetTangentToAxis(UnityEngine.ProBuilder.ProjectionAxis axis)
-    // Offset: 0x13829F4
+    // Offset: 0x13C3E80
     static UnityEngine::Vector3 GetTangentToAxis(UnityEngine::ProBuilder::ProjectionAxis axis);
     // static UnityEngine.Vector3 ProjectionAxisToVector(UnityEngine.ProBuilder.ProjectionAxis axis)
-    // Offset: 0x1383A58
+    // Offset: 0x13C4EE4
     static UnityEngine::Vector3 ProjectionAxisToVector(UnityEngine::ProBuilder::ProjectionAxis axis);
     // static UnityEngine.ProBuilder.ProjectionAxis VectorToProjectionAxis(UnityEngine.Vector3 direction)
-    // Offset: 0x13828C4
+    // Offset: 0x13C3D50
     static UnityEngine::ProBuilder::ProjectionAxis VectorToProjectionAxis(UnityEngine::Vector3 direction);
     // static public UnityEngine.Plane FindBestPlane(System.Collections.Generic.IList`1<UnityEngine.Vector3> points, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x1381790
+    // Offset: 0x13C2C1C
     static UnityEngine::Plane FindBestPlane(System::Collections::Generic::IList_1<UnityEngine::Vector3>* points, System::Collections::Generic::IList_1<int>* indexes);
     // static UnityEngine.Plane FindBestPlane(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32 textureGroup)
-    // Offset: 0x1383BFC
+    // Offset: 0x13C5088
     static UnityEngine::Plane FindBestPlane(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int textureGroup);
   }; // UnityEngine.ProBuilder.Projection
 }

@@ -14,7 +14,7 @@ namespace HMUI {
   class ItemForFocussedScrolling : public UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x216B074
+    // Offset: 0x107AEF8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -14,7 +14,7 @@ namespace UnityEngine {
   class SelectionBaseAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x17357E8
+    // Offset: 0x16C05C0
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

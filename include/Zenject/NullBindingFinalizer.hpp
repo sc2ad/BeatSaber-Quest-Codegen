@@ -27,17 +27,17 @@ namespace Zenject {
       return *reinterpret_cast<Zenject::IBindingFinalizer*>(this);
     }
     // public Zenject.BindingInheritanceMethods get_BindingInheritanceMethod()
-    // Offset: 0x12E911C
+    // Offset: 0x1348908
     // Implemented from: Zenject.IBindingFinalizer
     // Base method: Zenject.BindingInheritanceMethods IBindingFinalizer::get_BindingInheritanceMethod()
     Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
     // public System.Void FinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x12E9124
+    // Offset: 0x1348910
     // Implemented from: Zenject.IBindingFinalizer
     // Base method: System.Void IBindingFinalizer::FinalizeBinding(Zenject.DiContainer container)
     void FinalizeBinding(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x12E9128
+    // Offset: 0x1348914
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NullBindingFinalizer* New_ctor();

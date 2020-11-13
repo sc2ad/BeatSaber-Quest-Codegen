@@ -69,31 +69,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didViewFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x2018944
+    // Offset: 0x1A5B6B8
     void add_didViewFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didViewFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x20189E8
+    // Offset: 0x1A5B75C
     void remove_didViewFinishEvent(System::Action_1<bool>* value);
     // private System.Void OnEnable()
-    // Offset: 0x2018A8C
+    // Offset: 0x1A5B800
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x2018B6C
+    // Offset: 0x1A5B8E0
     void OnDisable();
     // public System.Void Show()
-    // Offset: 0x2018B88
+    // Offset: 0x1A5B8FC
     void Show();
     // public System.Void Hide(System.Action finishedCallback)
-    // Offset: 0x2018BCC
+    // Offset: 0x1A5B940
     void Hide(System::Action* finishedCallback);
     // private System.Void <OnEnable>b__9_0()
-    // Offset: 0x2018D1C
+    // Offset: 0x1A5BA90
     void $OnEnable$b__9_0();
     // private System.Void <OnEnable>b__9_1()
-    // Offset: 0x2018D80
+    // Offset: 0x1A5BAF4
     void $OnEnable$b__9_1();
     // public System.Void .ctor()
-    // Offset: 0x2018CA8
+    // Offset: 0x1A5BA1C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

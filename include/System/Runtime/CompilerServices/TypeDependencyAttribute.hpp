@@ -21,7 +21,7 @@ namespace System::Runtime::CompilerServices {
       return typeName;
     }
     // public System.Void .ctor(System.String typeName)
-    // Offset: 0x108CFB4
+    // Offset: 0x11638E4
     static TypeDependencyAttribute* New_ctor(::Il2CppString* typeName);
   }; // System.Runtime.CompilerServices.TypeDependencyAttribute
 }

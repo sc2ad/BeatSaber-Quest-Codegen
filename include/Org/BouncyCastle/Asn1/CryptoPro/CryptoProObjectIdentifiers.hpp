@@ -111,7 +111,7 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier GostElSgDH3410x1
     static void _set_GostElSgDH3410x1(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x131D774
+    // Offset: 0x137BF60
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.CryptoPro.CryptoProObjectIdentifiers
 }

@@ -40,10 +40,10 @@ namespace Zenject {
       return gameObject;
     }
     // Zenject.IProvider <FromComponentOn>b__0(Zenject.DiContainer container, System.Type type)
-    // Offset: 0x1225E64
+    // Offset: 0x129AF1C
     Zenject::IProvider* $FromComponentOn$b__0(Zenject::DiContainer* container, System::Type* type);
     // public System.Void .ctor()
-    // Offset: 0x1222E38
+    // Offset: 0x1297EF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FromBinder::$$c__DisplayClass30_0* New_ctor();

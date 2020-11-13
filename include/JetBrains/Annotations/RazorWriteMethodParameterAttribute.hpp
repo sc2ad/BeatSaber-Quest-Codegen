@@ -14,7 +14,7 @@ namespace JetBrains::Annotations {
   class RazorWriteMethodParameterAttribute : public System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1F5D074
+    // Offset: 0x19EEA58
     // Implemented from: System.Attribute
     // Base method: System.Void Attribute::.ctor()
     // Base method: System.Void Object::.ctor()

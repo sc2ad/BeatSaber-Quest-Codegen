@@ -48,54 +48,54 @@ namespace System::Runtime::InteropServices {
     // Set static field: static private System.Int32 RefCount_One
     static void _set_RefCount_One(int value);
     // protected System.Void .ctor(System.IntPtr invalidHandleValue, System.Boolean ownsHandle)
-    // Offset: 0x108F618
+    // Offset: 0x1165F48
     static SafeHandle* New_ctor(System::IntPtr invalidHandleValue, bool ownsHandle);
     // protected System.Void SetHandle(System.IntPtr handle)
-    // Offset: 0x108F734
+    // Offset: 0x1166064
     void SetHandle(System::IntPtr handle);
     // public System.IntPtr DangerousGetHandle()
-    // Offset: 0x108F73C
+    // Offset: 0x116606C
     System::IntPtr DangerousGetHandle();
     // public System.Boolean get_IsClosed()
-    // Offset: 0x108F744
+    // Offset: 0x1166074
     bool get_IsClosed();
     // public System.Boolean get_IsInvalid()
     // Offset: 0xFFFFFFFF
     bool get_IsInvalid();
     // public System.Void Close()
-    // Offset: 0x108F750
+    // Offset: 0x1166080
     void Close();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x108F770
+    // Offset: 0x11660A0
     void Dispose(bool disposing);
     // protected System.Boolean ReleaseHandle()
     // Offset: 0xFFFFFFFF
     bool ReleaseHandle();
     // public System.Void SetHandleAsInvalid()
-    // Offset: 0x108F84C
+    // Offset: 0x116617C
     void SetHandleAsInvalid();
     // public System.Void DangerousAddRef(ref System.Boolean success)
-    // Offset: 0x108F4AC
+    // Offset: 0x1165DDC
     void DangerousAddRef(bool& success);
     // public System.Void DangerousRelease()
-    // Offset: 0x108F610
+    // Offset: 0x1165F40
     void DangerousRelease();
     // private System.Void InternalDispose()
-    // Offset: 0x108F78C
+    // Offset: 0x11660BC
     void InternalDispose();
     // private System.Void InternalFinalize()
-    // Offset: 0x108F838
+    // Offset: 0x1166168
     void InternalFinalize();
     // private System.Void DangerousReleaseInternal(System.Boolean dispose)
-    // Offset: 0x108F8E0
+    // Offset: 0x1166210
     void DangerousReleaseInternal(bool dispose);
     // protected override System.Void Finalize()
-    // Offset: 0x108F6C0
+    // Offset: 0x1165FF0
     // Implemented from: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
     // Base method: System.Void CriticalFinalizerObject::Finalize()
     void Finalize();
     // public System.Void Dispose()
-    // Offset: 0x108F760
+    // Offset: 0x1166090
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

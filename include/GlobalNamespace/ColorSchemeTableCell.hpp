@@ -45,19 +45,19 @@ namespace GlobalNamespace {
     // Offset: 0x60
     UnityEngine::UI::Image* editIcon;
     // public System.Void set_text(System.String value)
-    // Offset: 0x1FB9538
+    // Offset: 0x1A51700
     void set_text(::Il2CppString* value);
     // public System.String get_text()
-    // Offset: 0x1FB9978
+    // Offset: 0x1A51B40
     ::Il2CppString* get_text();
     // public System.Void set_showEditIcon(System.Boolean value)
-    // Offset: 0x1FB9518
+    // Offset: 0x1A516E0
     void set_showEditIcon(bool value);
     // public System.Void SetColors(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environment0Color, UnityEngine.Color environment1Color, UnityEngine.Color obstacleColor)
-    // Offset: 0x1FB9554
+    // Offset: 0x1A5171C
     void SetColors(UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environment0Color, UnityEngine::Color environment1Color, UnityEngine::Color obstacleColor);
     // public System.Void .ctor()
-    // Offset: 0x1FB9994
+    // Offset: 0x1A51B5C
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

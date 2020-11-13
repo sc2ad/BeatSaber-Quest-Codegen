@@ -35,13 +35,13 @@ namespace UnityEngine::Timeline {
     // Set static field: static public System.Comparison`1<UnityEngine.Timeline.TimelineClip> <>9__2_0
     static void _set_$$9__2_0(System::Comparison_1<UnityEngine::Timeline::TimelineClip*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13F5E1C
+    // Offset: 0x141CB94
     static void _cctor();
     // System.Int32 <SortClipsByStartTime>b__2_0(UnityEngine.Timeline.TimelineClip clip1, UnityEngine.Timeline.TimelineClip clip2)
-    // Offset: 0x13F5E8C
+    // Offset: 0x141CC04
     int $SortClipsByStartTime$b__2_0(UnityEngine::Timeline::TimelineClip* clip1, UnityEngine::Timeline::TimelineClip* clip2);
     // public System.Void .ctor()
-    // Offset: 0x13F5E84
+    // Offset: 0x141CBFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Extrapolation::$$c* New_ctor();

@@ -57,33 +57,33 @@ namespace GlobalNamespace {
     // Set static field: static public readonly PacketPool`1<StandardScoreSyncStateNetSerializable> pool
     static void _set_pool(GlobalNamespace::PacketPool_1<GlobalNamespace::StandardScoreSyncStateNetSerializable*>* value);
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x1F93490
+    // Offset: 0xF45358
     static void NoDomainReloadInit();
     // static private System.Void .cctor()
-    // Offset: 0x1F93618
+    // Offset: 0xF454E0
     static void _cctor();
     // private System.Single ISyncStateSerializable<StandardScoreSyncState>.get_time()
-    // Offset: 0x1F93458
+    // Offset: 0xF45320
     // Implemented from: ISyncStateSerializable`1
     // Base method: System.Single ISyncStateSerializable_1::get_time()
     float GlobalNamespace_ISyncStateSerializable_1_get_time();
     // private System.Void ISyncStateSerializable<StandardScoreSyncState>.set_time(System.Single value)
-    // Offset: 0x1F93460
+    // Offset: 0xF45328
     // Implemented from: ISyncStateSerializable`1
     // Base method: System.Void ISyncStateSerializable_1::set_time(System.Single value)
     void GlobalNamespace_ISyncStateSerializable_1_set_time(float value);
     // private StandardScoreSyncState ISyncStateSerializable<StandardScoreSyncState>.get_state()
-    // Offset: 0x1F93468
+    // Offset: 0xF45330
     // Implemented from: ISyncStateSerializable`1
     // Base method: T ISyncStateSerializable_1::get_state()
     GlobalNamespace::StandardScoreSyncState GlobalNamespace_ISyncStateSerializable_1_get_state();
     // private System.Void ISyncStateSerializable<StandardScoreSyncState>.set_state(StandardScoreSyncState value)
-    // Offset: 0x1F9347C
+    // Offset: 0xF45344
     // Implemented from: ISyncStateSerializable`1
     // Base method: System.Void ISyncStateSerializable_1::set_state(StandardScoreSyncState value)
     void GlobalNamespace_ISyncStateSerializable_1_set_state(GlobalNamespace::StandardScoreSyncState value);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1F9350C
+    // Offset: 0xF453D4
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1F9354C
+    // Offset: 0xF45414
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -99,12 +99,12 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1F9358C
+    // Offset: 0xF45454
     // Implemented from: IPoolablePacket
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x1F93610
+    // Offset: 0xF454D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static StandardScoreSyncStateNetSerializable* New_ctor();

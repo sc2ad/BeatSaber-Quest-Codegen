@@ -34,28 +34,28 @@ namespace UnityEngine::UI {
   class MaskUtilities : public ::Il2CppObject {
     public:
     // static public System.Void Notify2DMaskStateChanged(UnityEngine.Component mask)
-    // Offset: 0x15E0B04
+    // Offset: 0x15651A8
     static void Notify2DMaskStateChanged(UnityEngine::Component* mask);
     // static public System.Void NotifyStencilStateChanged(UnityEngine.Component mask)
-    // Offset: 0x15DFF1C
+    // Offset: 0x15645C0
     static void NotifyStencilStateChanged(UnityEngine::Component* mask);
     // static public UnityEngine.Transform FindRootSortOverrideCanvas(UnityEngine.Transform start)
-    // Offset: 0x15E06F8
+    // Offset: 0x1564D9C
     static UnityEngine::Transform* FindRootSortOverrideCanvas(UnityEngine::Transform* start);
     // static public System.Int32 GetStencilDepth(UnityEngine.Transform transform, UnityEngine.Transform stopAfter)
-    // Offset: 0x15E0874
+    // Offset: 0x1564F18
     static int GetStencilDepth(UnityEngine::Transform* transform, UnityEngine::Transform* stopAfter);
     // static public System.Boolean IsDescendantOrSelf(UnityEngine.Transform father, UnityEngine.Transform child)
-    // Offset: 0x15E0D58
+    // Offset: 0x15653FC
     static bool IsDescendantOrSelf(UnityEngine::Transform* father, UnityEngine::Transform* child);
     // static public UnityEngine.UI.RectMask2D GetRectMaskForClippable(UnityEngine.UI.IClippable clippable)
-    // Offset: 0x15E0ED8
+    // Offset: 0x156557C
     static UnityEngine::UI::RectMask2D* GetRectMaskForClippable(UnityEngine::UI::IClippable* clippable);
     // static public System.Void GetRectMasksForClip(UnityEngine.UI.RectMask2D clipper, System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D> masks)
-    // Offset: 0x15E12BC
+    // Offset: 0x1565960
     static void GetRectMasksForClip(UnityEngine::UI::RectMask2D* clipper, System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>* masks);
     // public System.Void .ctor()
-    // Offset: 0x15E15B0
+    // Offset: 0x1565C54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MaskUtilities* New_ctor();

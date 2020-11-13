@@ -54,28 +54,28 @@ namespace Zenject {
       return *reinterpret_cast<Zenject::IProvider*>(this);
     }
     // public System.Void .ctor(System.Type dependencyType, System.Object identifier, Zenject.ISubContainerCreator subContainerCreator, System.Boolean resolveAll)
-    // Offset: 0x12F5F64
+    // Offset: 0x1355750
     static SubContainerDependencyProvider* New_ctor(System::Type* dependencyType, ::Il2CppObject* identifier, Zenject::ISubContainerCreator* subContainerCreator, bool resolveAll);
     // private Zenject.InjectContext CreateSubContext(Zenject.InjectContext parent, Zenject.DiContainer subContainer)
-    // Offset: 0x12F7DAC
+    // Offset: 0x1357598
     Zenject::InjectContext* CreateSubContext(Zenject::InjectContext* parent, Zenject::DiContainer* subContainer);
     // public System.Boolean get_IsCached()
-    // Offset: 0x12F7D94
+    // Offset: 0x1357580
     // Implemented from: Zenject.IProvider
     // Base method: System.Boolean IProvider::get_IsCached()
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x12F7D9C
+    // Offset: 0x1357588
     // Implemented from: Zenject.IProvider
     // Base method: System.Boolean IProvider::get_TypeVariesBasedOnMemberType()
     bool get_TypeVariesBasedOnMemberType();
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x12F7DA4
+    // Offset: 0x1357590
     // Implemented from: Zenject.IProvider
     // Base method: System.Type IProvider::GetInstanceType(Zenject.InjectContext context)
     System::Type* GetInstanceType(Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x12F7E04
+    // Offset: 0x13575F0
     // Implemented from: Zenject.IProvider
     // Base method: System.Void IProvider::GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);

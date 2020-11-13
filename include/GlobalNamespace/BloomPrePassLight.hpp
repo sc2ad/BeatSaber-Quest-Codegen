@@ -70,28 +70,28 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Collections.Generic.List`1<BloomPrePassLight/LightsDataItem> _lightsDataItems
     static void _set__lightsDataItems(System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassLight::LightsDataItem*>* value);
     // static public System.Collections.Generic.List`1<BloomPrePassLight/LightsDataItem> get_lightsDataItems()
-    // Offset: 0x1CF9A18
+    // Offset: 0x1876298
     static System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassLight::LightsDataItem*>* get_lightsDataItems();
     // static protected System.Void NoDomainReloadInit()
-    // Offset: 0x1CF9A80
+    // Offset: 0x1876300
     static void NoDomainReloadInit();
     // protected System.Void OnEnable()
-    // Offset: 0x1CF9B1C
+    // Offset: 0x187639C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1CF9DB4
+    // Offset: 0x1876634
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x1CF9E7C
+    // Offset: 0x18766FC
     void OnDestroy();
     // protected System.Void set_visible(System.Boolean value)
-    // Offset: 0x1CF9E88
+    // Offset: 0x1876708
     void set_visible(bool value);
     // private System.Void RegisterLight()
-    // Offset: 0x1CF9B2C
+    // Offset: 0x18763AC
     void RegisterLight();
     // private System.Void UnregisterLight()
-    // Offset: 0x1CF9DB8
+    // Offset: 0x1876638
     void UnregisterLight();
     // protected System.Void DidRegisterLight()
     // Offset: 0xFFFFFFFF
@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void FillMeshData(int lightNum, ::Array<UnityEngine::Vector3>* vertices, ::Array<UnityEngine::Color>* colors, ::Array<UnityEngine::Vector4>* viewPos, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix, float lineWidth);
     // protected System.Void .ctor()
-    // Offset: 0x1CF9F24
+    // Offset: 0x18767A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BloomPrePassLight* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1CF9F34
+    // Offset: 0x18767B4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

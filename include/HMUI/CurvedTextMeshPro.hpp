@@ -24,17 +24,17 @@ namespace HMUI {
     // Offset: 0xBE0
     HMUI::CurvedCanvasSettingsHelper* curvedCanvasSettingsHelper;
     // protected override System.Void OnEnable()
-    // Offset: 0x2183540
+    // Offset: 0x10AC33C
     // Implemented from: TMPro.TextMeshProUGUI
     // Base method: System.Void TextMeshProUGUI::OnEnable()
     void OnEnable();
     // protected override System.Void GenerateTextMesh()
-    // Offset: 0x2183594
+    // Offset: 0x10AC390
     // Implemented from: TMPro.TextMeshProUGUI
     // Base method: System.Void TextMeshProUGUI::GenerateTextMesh()
     void GenerateTextMesh();
     // public System.Void .ctor()
-    // Offset: 0x218389C
+    // Offset: 0x10AC698
     // Implemented from: TMPro.TextMeshProUGUI
     // Base method: System.Void TextMeshProUGUI::.ctor()
     // Base method: System.Void TMP_Text::.ctor()

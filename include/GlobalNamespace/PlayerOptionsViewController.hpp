@@ -46,26 +46,26 @@ namespace GlobalNamespace {
     // Offset: 0x88
     System::Action_1<HMUI::ViewController*>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`1<HMUI.ViewController> value)
-    // Offset: 0x208D074
+    // Offset: 0xF28A90
     void add_didFinishEvent(System::Action_1<HMUI::ViewController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<HMUI.ViewController> value)
-    // Offset: 0x208D118
+    // Offset: 0xF28B34
     void remove_didFinishEvent(System::Action_1<HMUI::ViewController*>* value);
     // private System.Void <DidActivate>b__6_0()
-    // Offset: 0x208D808
+    // Offset: 0xF29224
     void $DidActivate$b__6_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x208D1BC
+    // Offset: 0xF28BD8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x208D4D8
+    // Offset: 0xF28EF4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x208D800
+    // Offset: 0xF2921C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

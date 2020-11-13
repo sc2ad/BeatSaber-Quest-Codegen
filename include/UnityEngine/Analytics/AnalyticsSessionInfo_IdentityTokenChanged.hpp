@@ -26,16 +26,16 @@ namespace UnityEngine::Analytics {
   class AnalyticsSessionInfo::IdentityTokenChanged : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F79B20
+    // Offset: 0x1A09E5C
     static AnalyticsSessionInfo::IdentityTokenChanged* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.String token)
-    // Offset: 0x1F79768
+    // Offset: 0x1A09AA4
     void Invoke(::Il2CppString* token);
     // public System.IAsyncResult BeginInvoke(System.String token, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F79B34
+    // Offset: 0x1A09E70
     System::IAsyncResult* BeginInvoke(::Il2CppString* token, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F79B58
+    // Offset: 0x1A09E94
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Analytics.AnalyticsSessionInfo/IdentityTokenChanged
 }

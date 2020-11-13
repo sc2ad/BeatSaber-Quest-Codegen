@@ -27,18 +27,18 @@ namespace Mono {
       return value;
     }
     // System.Void .ctor(System.IntPtr v)
-    // Offset: 0xC71A14
+    // Offset: 0xCA0C7C
     // ABORTED: conflicts with another method.  RuntimeEventHandle(System::IntPtr v);
     // public System.IntPtr get_Value()
-    // Offset: 0xC71A1C
+    // Offset: 0xCA0C84
     System::IntPtr get_Value();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xC71A24
+    // Offset: 0xCA0C8C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xC71A2C
+    // Offset: 0xCA0C94
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

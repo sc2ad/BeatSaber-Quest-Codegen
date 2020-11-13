@@ -36,17 +36,17 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelData*>(this);
     }
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0x201CE78
+    // Offset: 0x1A5F800
     // Implemented from: IBeatmapLevelData
     // Base method: UnityEngine.AudioClip IBeatmapLevelData::get_audioClip()
     UnityEngine::AudioClip* get_audioClip();
     // public IDifficultyBeatmapSet[] get_difficultyBeatmapSets()
-    // Offset: 0x201CE80
+    // Offset: 0x1A5F808
     // Implemented from: IBeatmapLevelData
     // Base method: IDifficultyBeatmapSet[] IBeatmapLevelData::get_difficultyBeatmapSets()
     ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
     // public System.Void .ctor()
-    // Offset: 0x201CE70
+    // Offset: 0x1A5F7F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EmptyBeatmapLevelData* New_ctor();

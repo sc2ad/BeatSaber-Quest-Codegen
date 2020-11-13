@@ -33,10 +33,10 @@ namespace System {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppChar>*>(this);
     }
     // System.Void .ctor(System.String str)
-    // Offset: 0x13A80BC
+    // Offset: 0x1CB11AC
     static CharEnumerator* New_ctor(::Il2CppString* str);
     // public System.Object Clone()
-    // Offset: 0x13A80FC
+    // Offset: 0x1CB11EC
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
@@ -44,7 +44,7 @@ namespace System {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x13A8104
+    // Offset: 0x1CB11F4
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -52,7 +52,7 @@ namespace System {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Dispose()
-    // Offset: 0x13A8164
+    // Offset: 0x1CB1254
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -60,12 +60,12 @@ namespace System {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x13A8184
+    // Offset: 0x1CB1274
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Char get_Current()
-    // Offset: 0x13A8268
+    // Offset: 0x1CB1358
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     ::Il2CppChar get_Current();
@@ -73,7 +73,7 @@ namespace System {
     // Maps to method: get_Current
     ::Il2CppChar System_Collections_Generic_IEnumerator_1_get_Current();
     // public System.Void Reset()
-    // Offset: 0x13A832C
+    // Offset: 0x1CB141C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -81,7 +81,7 @@ namespace System {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // System.Void .ctor()
-    // Offset: 0x13A833C
+    // Offset: 0x1CB142C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CharEnumerator* New_ctor();

@@ -35,41 +35,41 @@ namespace System {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
     // private System.Void AllocateHandle(System.Object target)
-    // Offset: 0x1F4F73C
+    // Offset: 0x19E1120
     void AllocateHandle(::Il2CppObject* target);
     // public System.Void .ctor(System.Object target)
-    // Offset: 0x1F4F778
+    // Offset: 0x19E115C
     static WeakReference* New_ctor(::Il2CppObject* target);
     // public System.Void .ctor(System.Object target, System.Boolean trackResurrection)
-    // Offset: 0x1F4F7AC
+    // Offset: 0x19E1190
     static WeakReference* New_ctor(::Il2CppObject* target, bool trackResurrection);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1F4F7F0
+    // Offset: 0x19E11D4
     static WeakReference* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Boolean get_IsAlive()
-    // Offset: 0x1F4F904
+    // Offset: 0x19E12E8
     bool get_IsAlive();
     // public System.Object get_Target()
-    // Offset: 0x1F4F928
+    // Offset: 0x19E130C
     ::Il2CppObject* get_Target();
     // public System.Void set_Target(System.Object value)
-    // Offset: 0x1F4F96C
+    // Offset: 0x19E1350
     void set_Target(::Il2CppObject* value);
     // public System.Boolean get_TrackResurrection()
-    // Offset: 0x1F4F978
+    // Offset: 0x19E135C
     bool get_TrackResurrection();
     // protected System.Void .ctor()
-    // Offset: 0x1F4F770
+    // Offset: 0x19E1154
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static WeakReference* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x1F4F980
+    // Offset: 0x19E1364
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1F4F9F0
+    // Offset: 0x19E13D4
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

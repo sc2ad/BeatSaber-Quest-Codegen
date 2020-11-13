@@ -65,31 +65,31 @@ namespace GlobalNamespace {
     // Offset: 0x24
     float cutDirDeviation;
     // public NoteExecutionRating/Rating get_rating()
-    // Offset: 0x20F7918
+    // Offset: 0xFE666C
     GlobalNamespace::NoteExecutionRating::Rating get_rating();
     // public System.Void set_rating(NoteExecutionRating/Rating value)
-    // Offset: 0x20F7920
+    // Offset: 0xFE6674
     void set_rating(GlobalNamespace::NoteExecutionRating::Rating value);
     // public System.Int32 get_cutScore()
-    // Offset: 0x20F7928
+    // Offset: 0xFE667C
     int get_cutScore();
     // public System.Void set_cutScore(System.Int32 value)
-    // Offset: 0x20F7930
+    // Offset: 0xFE6684
     void set_cutScore(int value);
     // public System.Single get_cutTimeDeviation()
-    // Offset: 0x20F7938
+    // Offset: 0xFE668C
     float get_cutTimeDeviation();
     // public System.Void set_cutTimeDeviation(System.Single value)
-    // Offset: 0x20F7940
+    // Offset: 0xFE6694
     void set_cutTimeDeviation(float value);
     // public System.Single get_cutDirDeviation()
-    // Offset: 0x20F7948
+    // Offset: 0xFE669C
     float get_cutDirDeviation();
     // public System.Void set_cutDirDeviation(System.Single value)
-    // Offset: 0x20F7950
+    // Offset: 0xFE66A4
     void set_cutDirDeviation(float value);
     // public System.Void .ctor(System.Single time, NoteExecutionRating/Rating rating, System.Int32 cutScore, System.Single cutTimeDeviation, System.Single cutDirDeviation)
-    // Offset: 0x20F7958
+    // Offset: 0xFE66AC
     static NoteExecutionRating* New_ctor(float time, GlobalNamespace::NoteExecutionRating::Rating rating, int cutScore, float cutTimeDeviation, float cutDirDeviation);
   }; // NoteExecutionRating
 }

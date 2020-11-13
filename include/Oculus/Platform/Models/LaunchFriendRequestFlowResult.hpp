@@ -25,7 +25,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11
     bool DidSendRequest;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1139DB0
+    // Offset: 0x11DAA70
     static LaunchFriendRequestFlowResult* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.LaunchFriendRequestFlowResult
 }

@@ -50,19 +50,19 @@ namespace UnityEngine::XR {
     // Set static field: static private System.Action`1<UnityEngine.XR.XRNodeState> nodeRemoved
     static void _set_nodeRemoved(System::Action_1<UnityEngine::XR::XRNodeState>* value);
     // static private System.Void InvokeTrackingEvent(UnityEngine.XR.InputTracking/TrackingStateEventType eventType, UnityEngine.XR.XRNode nodeType, System.Int64 uniqueID, System.Boolean tracked)
-    // Offset: 0x1F5EA24
+    // Offset: 0x19F0408
     static void InvokeTrackingEvent(UnityEngine::XR::InputTracking::TrackingStateEventType eventType, UnityEngine::XR::XRNode nodeType, int64_t uniqueID, bool tracked);
     // static public System.Void Recenter()
-    // Offset: 0x1F5EC44
+    // Offset: 0x19F0628
     static void Recenter();
     // static public System.Void GetNodeStates(System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState> nodeStates)
-    // Offset: 0x1F5EC78
+    // Offset: 0x19F065C
     static void GetNodeStates(System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>* nodeStates);
     // static private System.Void GetNodeStates_Internal(System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState> nodeStates)
-    // Offset: 0x1F5ED50
+    // Offset: 0x19F0734
     static void GetNodeStates_Internal(System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>* nodeStates);
     // static private System.Void .cctor()
-    // Offset: 0x1F5ED90
+    // Offset: 0x19F0774
     static void _cctor();
   }; // UnityEngine.XR.InputTracking
 }

@@ -79,38 +79,43 @@ namespace Org::BouncyCastle::Crypto::Signers {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0xF58570
+    // Offset: 0x1054030
     static SM2Signer* New_ctor(Org::BouncyCastle::Crypto::IDigest* digest);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Signers.IDsaEncoding encoding, Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0xF585F0
+    // Offset: 0x10540B0
     static SM2Signer* New_ctor(Org::BouncyCastle::Crypto::Signers::IDsaEncoding* encoding, Org::BouncyCastle::Crypto::IDigest* digest);
     // private System.Byte[] GetZ(System.Byte[] userID)
-    // Offset: 0xF58CB0
+    // Offset: 0x1054774
     ::Array<uint8_t>* GetZ(::Array<uint8_t>* userID);
     // private System.Void AddUserID(Org.BouncyCastle.Crypto.IDigest digest, System.Byte[] userID)
-    // Offset: 0xF593F4
+    // Offset: 0x1055014
     void AddUserID(Org::BouncyCastle::Crypto::IDigest* digest, ::Array<uint8_t>* userID);
     // private System.Void AddFieldElement(Org.BouncyCastle.Crypto.IDigest digest, Org.BouncyCastle.Math.EC.ECFieldElement v)
-    // Offset: 0xF5959C
+    // Offset: 0x10551BC
     void AddFieldElement(Org::BouncyCastle::Crypto::IDigest* digest, Org::BouncyCastle::Math::EC::ECFieldElement* v);
     // protected Org.BouncyCastle.Math.BigInteger CalculateE(Org.BouncyCastle.Math.BigInteger n, System.Byte[] message)
-    // Offset: 0xF59688
+    // Offset: 0x10552A8
     Org::BouncyCastle::Math::BigInteger* CalculateE(Org::BouncyCastle::Math::BigInteger* n, ::Array<uint8_t>* message);
     // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateBasePointMultiplier()
-    // Offset: 0xF596EC
+    // Offset: 0x105530C
     Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0xF58694
+    // Offset: 0x1054154
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Void ISigner::Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] buf, System.Int32 off, System.Int32 len)
-    // Offset: 0xF58E38
+    // Offset: 0x10548FC
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Void ISigner::BlockUpdate(System.Byte[] buf, System.Int32 off, System.Int32 len)
     void BlockUpdate(::Array<uint8_t>* buf, int off, int len);
+    // public System.Void Reset()
+    // Offset: 0x10549D8
+    // Implemented from: Org.BouncyCastle.Crypto.ISigner
+    // Base method: System.Void ISigner::Reset()
+    void Reset();
     // public System.Byte[] GenerateSignature()
-    // Offset: 0xF58F14
+    // Offset: 0x1054B30
     // Implemented from: Org.BouncyCastle.Crypto.ISigner
     // Base method: System.Byte[] ISigner::GenerateSignature()
     ::Array<uint8_t>* GenerateSignature();

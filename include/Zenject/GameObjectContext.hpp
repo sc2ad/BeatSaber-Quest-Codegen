@@ -61,57 +61,57 @@ namespace Zenject {
     // Offset: 0x70
     Zenject::DiContainer* container;
     // public System.Void add_PreInstall(System.Action value)
-    // Offset: 0x1228200
+    // Offset: 0x129D2B8
     void add_PreInstall(System::Action* value);
     // public System.Void remove_PreInstall(System.Action value)
-    // Offset: 0x12282A4
+    // Offset: 0x129D35C
     void remove_PreInstall(System::Action* value);
     // public System.Void add_PostInstall(System.Action value)
-    // Offset: 0x1228348
+    // Offset: 0x129D400
     void add_PostInstall(System::Action* value);
     // public System.Void remove_PostInstall(System.Action value)
-    // Offset: 0x12283EC
+    // Offset: 0x129D4A4
     void remove_PostInstall(System::Action* value);
     // public System.Void add_PreResolve(System.Action value)
-    // Offset: 0x1228490
+    // Offset: 0x129D548
     void add_PreResolve(System::Action* value);
     // public System.Void remove_PreResolve(System.Action value)
-    // Offset: 0x1228534
+    // Offset: 0x129D5EC
     void remove_PreResolve(System::Action* value);
     // public System.Void add_PostResolve(System.Action value)
-    // Offset: 0x12285D8
+    // Offset: 0x129D690
     void add_PostResolve(System::Action* value);
     // public System.Void remove_PostResolve(System.Action value)
-    // Offset: 0x122867C
+    // Offset: 0x129D734
     void remove_PostResolve(System::Action* value);
     // public System.Void Construct(Zenject.DiContainer parentContainer)
-    // Offset: 0x12287E4
+    // Offset: 0x129D89C
     void Construct(Zenject::DiContainer* parentContainer);
     // private System.Void InstallBindings(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> injectableMonoBehaviours)
-    // Offset: 0x1228B54
+    // Offset: 0x129DC0C
     void InstallBindings(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* injectableMonoBehaviours);
     // public override Zenject.DiContainer get_Container()
-    // Offset: 0x1228720
+    // Offset: 0x129D7D8
     // Implemented from: Zenject.Context
     // Base method: Zenject.DiContainer Context::get_Container()
     Zenject::DiContainer* get_Container();
     // public override System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> GetRootGameObjects()
-    // Offset: 0x1228728
+    // Offset: 0x129D7E0
     // Implemented from: Zenject.Context
     // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> Context::GetRootGameObjects()
     System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* GetRootGameObjects();
     // protected override System.Void RunInternal()
-    // Offset: 0x1228848
+    // Offset: 0x129D900
     // Implemented from: Zenject.RunnableContext
     // Base method: System.Void RunnableContext::RunInternal()
     void RunInternal();
     // protected override System.Void GetInjectableMonoBehaviours(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> monoBehaviours)
-    // Offset: 0x1228D04
+    // Offset: 0x129DDBC
     // Implemented from: Zenject.Context
     // Base method: System.Void Context::GetInjectableMonoBehaviours(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> monoBehaviours)
     void GetInjectableMonoBehaviours(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* monoBehaviours);
     // public System.Void .ctor()
-    // Offset: 0x1228F18
+    // Offset: 0x129DFD0
     // Implemented from: Zenject.RunnableContext
     // Base method: System.Void RunnableContext::.ctor()
     // Base method: System.Void Context::.ctor()

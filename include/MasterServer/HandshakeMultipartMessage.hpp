@@ -28,15 +28,15 @@ namespace MasterServer {
       return *reinterpret_cast<MasterServer::IHandshakeMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.HandshakeMultipartMessage> get_pool()
-    // Offset: 0x2120AE0
+    // Offset: 0x1AD70E8
     static GlobalNamespace::PacketPool_1<MasterServer::HandshakeMultipartMessage*>* get_pool();
     // public override System.Void Release()
-    // Offset: 0x2120B28
+    // Offset: 0x1AD7130
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x2120B84
+    // Offset: 0x1AD718C
     // Implemented from: MasterServer.BaseMasterServerMultipartMessage
     // Base method: System.Void BaseMasterServerMultipartMessage::.ctor()
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()

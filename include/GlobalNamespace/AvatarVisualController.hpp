@@ -108,31 +108,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Color get_lightColor()
-    // Offset: 0x2036C24
+    // Offset: 0x1A489A0
     UnityEngine::Color get_lightColor();
     // protected System.Void Awake()
-    // Offset: 0x2036C30
+    // Offset: 0x1A489AC
     void Awake();
     // public System.Void UpdateAvatarVisual(AvatarData avatarData)
-    // Offset: 0x2036EF8
+    // Offset: 0x1A48C74
     void UpdateAvatarVisual(GlobalNamespace::AvatarData* avatarData);
     // public System.Void SetLightColor(UnityEngine.Color color)
-    // Offset: 0x20376C4
+    // Offset: 0x1A49440
     void SetLightColor(UnityEngine::Color color);
     // private System.Void UpdateAvatarColors()
-    // Offset: 0x2037354
+    // Offset: 0x1A490D0
     void UpdateAvatarColors();
     // public System.Void HighlightEditedPart(EditAvatarViewController/AvatarEditPart editPart, System.Int32 uvSegment)
-    // Offset: 0x20376D0
+    // Offset: 0x1A4944C
     void HighlightEditedPart(GlobalNamespace::EditAvatarViewController::AvatarEditPart editPart, int uvSegment);
     // public System.Void DisableEditedPartHighlight()
-    // Offset: 0x2037A10
+    // Offset: 0x1A4978C
     void DisableEditedPartHighlight();
     // private System.Void SetHandsHighlight(System.Boolean highlighted, System.Int32 uvSegment)
-    // Offset: 0x2037A4C
+    // Offset: 0x1A497C8
     void SetHandsHighlight(bool highlighted, int uvSegment);
     // public System.Void .ctor()
-    // Offset: 0x2037A98
+    // Offset: 0x1A49814
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

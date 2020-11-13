@@ -31,16 +31,16 @@ namespace LiteNetLib {
   class EventBasedNatPunchListener::OnNatIntroductionRequest : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1801B84
+    // Offset: 0x1DC0EEC
     static EventBasedNatPunchListener::OnNatIntroductionRequest* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Net.IPEndPoint localEndPoint, System.Net.IPEndPoint remoteEndPoint, System.String token)
-    // Offset: 0x18012F4
+    // Offset: 0x1DC065C
     void Invoke(System::Net::IPEndPoint* localEndPoint, System::Net::IPEndPoint* remoteEndPoint, ::Il2CppString* token);
     // public System.IAsyncResult BeginInvoke(System.Net.IPEndPoint localEndPoint, System.Net.IPEndPoint remoteEndPoint, System.String token, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1801B98
+    // Offset: 0x1DC0F00
     System::IAsyncResult* BeginInvoke(System::Net::IPEndPoint* localEndPoint, System::Net::IPEndPoint* remoteEndPoint, ::Il2CppString* token, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1801BC8
+    // Offset: 0x1DC0F30
     void EndInvoke(System::IAsyncResult* result);
   }; // LiteNetLib.EventBasedNatPunchListener/OnNatIntroductionRequest
 }

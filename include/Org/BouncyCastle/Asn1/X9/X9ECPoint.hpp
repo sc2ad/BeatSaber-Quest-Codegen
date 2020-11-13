@@ -39,19 +39,19 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Offset: 0x20
     Org::BouncyCastle::Math::EC::ECPoint* p;
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECPoint p, System.Boolean compressed)
-    // Offset: 0x161C7F8
+    // Offset: 0x158B5F4
     static X9ECPoint* New_ctor(Org::BouncyCastle::Math::EC::ECPoint* p, bool compressed);
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve c, System.Byte[] encoding)
-    // Offset: 0x1616C10
+    // Offset: 0x1585A0C
     static X9ECPoint* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* c, ::Array<uint8_t>* encoding);
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve c, Org.BouncyCastle.Asn1.Asn1OctetString s)
-    // Offset: 0x161BFA4
+    // Offset: 0x158ADA0
     static X9ECPoint* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* c, Org::BouncyCastle::Asn1::Asn1OctetString* s);
     // public Org.BouncyCastle.Math.EC.ECPoint get_Point()
-    // Offset: 0x1616CDC
+    // Offset: 0x1585AD8
     Org::BouncyCastle::Math::EC::ECPoint* get_Point();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x161C8CC
+    // Offset: 0x158B6C8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

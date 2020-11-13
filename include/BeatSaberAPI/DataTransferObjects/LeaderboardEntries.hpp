@@ -26,7 +26,7 @@ namespace BeatSaberAPI::DataTransferObjects {
       return entries;
     }
     // public System.Void .ctor()
-    // Offset: 0x20C1508
+    // Offset: 0x1A78D78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LeaderboardEntries* New_ctor();

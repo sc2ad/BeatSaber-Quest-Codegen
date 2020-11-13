@@ -28,10 +28,10 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static private readonly System.Collections.IDictionary algorithms
     static void _set_algorithms(System::Collections::IDictionary* value);
     // static private System.Void .cctor()
-    // Offset: 0xFC9744
+    // Offset: 0x10C50EC
     static void _cctor();
     // static public Org.BouncyCastle.Crypto.IMac GetMac(System.String algorithm)
-    // Offset: 0xFCB1B4
+    // Offset: 0x10C6B5C
     static Org::BouncyCastle::Crypto::IMac* GetMac(::Il2CppString* algorithm);
   }; // Org.BouncyCastle.Security.MacUtilities
 }

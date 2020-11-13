@@ -46,10 +46,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>* otherPlayersCompletionResults;
     // System.Void <HandleMultiplayerLevelDidFinish>b__0(Zenject.DiContainer container)
-    // Offset: 0x1FC5154
+    // Offset: 0x1A73D64
     void $HandleMultiplayerLevelDidFinish$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x1FC4AF0
+    // Offset: 0x1A736FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MenuTransitionsHelper::$$c__DisplayClass23_0* New_ctor();

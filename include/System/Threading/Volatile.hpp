@@ -14,10 +14,10 @@ namespace System::Threading {
   class Volatile : public ::Il2CppObject {
     public:
     // static public System.Boolean Read(ref System.Boolean location)
-    // Offset: 0x14A6D08
+    // Offset: 0x1D1F594
     static bool Read(bool& location);
     // static public System.Int32 Read(ref System.Int32 location)
-    // Offset: 0x14A6D2C
+    // Offset: 0x1D1F5B8
     static int Read(int& location);
     // static public T Read(ref T location)
     // Offset: 0xFFFFFFFF
@@ -26,10 +26,10 @@ namespace System::Threading {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("System.Threading", "Volatile", "Read", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, location)));
     }
     // static public System.Void Write(ref System.Boolean location, System.Boolean value)
-    // Offset: 0x14A6D50
+    // Offset: 0x1D1F5DC
     static void Write(bool& location, bool value);
     // static public System.Void Write(ref System.Int32 location, System.Int32 value)
-    // Offset: 0x14A6D78
+    // Offset: 0x1D1F604
     static void Write(int& location, int value);
     // static public System.Void Write(ref T location, T value)
     // Offset: 0xFFFFFFFF

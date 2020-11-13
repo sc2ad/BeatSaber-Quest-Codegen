@@ -44,26 +44,26 @@ namespace UnityEngine::Timeline {
     // Offset: 0x18
     UnityEngine::GameObject* m_BoundGameObject;
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.ActivationMixerPlayable> Create(UnityEngine.Playables.PlayableGraph graph, System.Int32 inputCount)
-    // Offset: 0x13E99F4
+    // Offset: 0x140FCC8
     static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::ActivationMixerPlayable*> Create(UnityEngine::Playables::PlayableGraph graph, int inputCount);
     // public UnityEngine.Timeline.ActivationTrack/PostPlaybackState get_postPlaybackState()
-    // Offset: 0x13E9A7C
+    // Offset: 0x140FD50
     UnityEngine::Timeline::ActivationTrack::PostPlaybackState get_postPlaybackState();
     // public System.Void set_postPlaybackState(UnityEngine.Timeline.ActivationTrack/PostPlaybackState value)
-    // Offset: 0x13E9A84
+    // Offset: 0x140FD58
     void set_postPlaybackState(UnityEngine::Timeline::ActivationTrack::PostPlaybackState value);
     // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0x13E9A8C
+    // Offset: 0x140FD60
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     void OnPlayableDestroy(UnityEngine::Playables::Playable playable);
     // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x13E9B5C
+    // Offset: 0x140FE30
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
     // public System.Void .ctor()
-    // Offset: 0x13E9D38
+    // Offset: 0x141000C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -27,13 +27,13 @@ namespace Zenject {
     // Set static field: static public readonly Zenject.MemoryPoolSettings Default
     static void _set_Default(Zenject::MemoryPoolSettings* value);
     // public System.Void .ctor(System.Int32 initialSize, System.Int32 maxSize, Zenject.PoolExpandMethods expandMethod)
-    // Offset: 0x12E8570
+    // Offset: 0x1347D5C
     static MemoryPoolSettings* New_ctor(int initialSize, int maxSize, Zenject::PoolExpandMethods expandMethod);
     // static private System.Void .cctor()
-    // Offset: 0x12E85B0
+    // Offset: 0x1347D9C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x12E853C
+    // Offset: 0x1347D28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MemoryPoolSettings* New_ctor();

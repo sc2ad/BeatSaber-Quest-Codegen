@@ -86,13 +86,13 @@ namespace GlobalNamespace {
     // Offset: 0xD4
     UnityEngine::Color lightColor;
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x1FD6C10
+    // Offset: 0xF7DA48
     void set_alpha(float value);
     // public System.Void SetData(IConnectedPlayer connectedPlayer, System.Int32 position, System.String playerName, LevelCompletionResults levelCompletionResults, System.Boolean isLocalPlayer, System.Int32 numberOfPlayers)
-    // Offset: 0x1FD6CCC
+    // Offset: 0xF7DB04
     void SetData(GlobalNamespace::IConnectedPlayer* connectedPlayer, int position, ::Il2CppString* playerName, GlobalNamespace::LevelCompletionResults* levelCompletionResults, bool isLocalPlayer, int numberOfPlayers);
     // public System.Void .ctor()
-    // Offset: 0x1FD7064
+    // Offset: 0xF7DE9C
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

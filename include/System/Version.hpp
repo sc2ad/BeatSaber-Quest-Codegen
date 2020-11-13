@@ -74,54 +74,54 @@ namespace System {
     // Set static field: static private System.Int32 ZERO_CHAR_VALUE
     static void _set_ZERO_CHAR_VALUE(int value);
     // public System.Void .ctor(System.Int32 major, System.Int32 minor, System.Int32 build, System.Int32 revision)
-    // Offset: 0x170F00C
+    // Offset: 0x1660BD0
     static Version* New_ctor(int major, int minor, int build, int revision);
     // public System.Void .ctor(System.Int32 major, System.Int32 minor, System.Int32 build)
-    // Offset: 0x170F19C
+    // Offset: 0x1660D60
     static Version* New_ctor(int major, int minor, int build);
     // public System.Void .ctor(System.Int32 major, System.Int32 minor)
-    // Offset: 0x170F2EC
+    // Offset: 0x1660EB0
     static Version* New_ctor(int major, int minor);
     // public System.Void .ctor(System.String version)
-    // Offset: 0x170F3F0
+    // Offset: 0x1660FB4
     static Version* New_ctor(::Il2CppString* version);
     // public System.Int32 get_Major()
-    // Offset: 0x170F5E0
+    // Offset: 0x16611A4
     int get_Major();
     // public System.Int32 get_Minor()
-    // Offset: 0x170F5E8
+    // Offset: 0x16611AC
     int get_Minor();
     // public System.Int32 get_Build()
-    // Offset: 0x170F5F0
+    // Offset: 0x16611B4
     int get_Build();
     // public System.Int32 get_Revision()
-    // Offset: 0x170F5F8
+    // Offset: 0x16611BC
     int get_Revision();
     // public System.String ToString(System.Int32 fieldCount)
-    // Offset: 0x170FAAC
+    // Offset: 0x1661670
     ::Il2CppString* ToString(int fieldCount);
     // static private System.Void AppendPositiveNumber(System.Int32 num, System.Text.StringBuilder sb)
-    // Offset: 0x170FE68
+    // Offset: 0x1661A2C
     static void AppendPositiveNumber(int num, System::Text::StringBuilder* sb);
     // static public System.Version Parse(System.String input)
-    // Offset: 0x170F4A0
+    // Offset: 0x1661064
     static System::Version* Parse(::Il2CppString* input);
     // static private System.Boolean TryParseVersion(System.String version, ref System.Version/VersionResult result)
-    // Offset: 0x170FEF0
+    // Offset: 0x1661AB4
     static bool TryParseVersion(::Il2CppString* version, System::Version::VersionResult& result);
     // static private System.Boolean TryParseComponent(System.String component, System.String componentName, ref System.Version/VersionResult result, out System.Int32 parsedComponent)
-    // Offset: 0x17101A0
+    // Offset: 0x1661D64
     static bool TryParseComponent(::Il2CppString* component, ::Il2CppString* componentName, System::Version::VersionResult& result, int& parsedComponent);
     // static private System.Void .cctor()
-    // Offset: 0x1710530
+    // Offset: 0x16620F4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x170F5B0
+    // Offset: 0x1661174
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Version* New_ctor();
     // public System.Object Clone()
-    // Offset: 0x170F600
+    // Offset: 0x16611C4
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
@@ -129,7 +129,7 @@ namespace System {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
     // public System.Int32 CompareTo(System.Object version)
-    // Offset: 0x170F694
+    // Offset: 0x1661258
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object version)
     int CompareTo(::Il2CppObject* version);
@@ -137,48 +137,48 @@ namespace System {
     // Maps to method: CompareTo
     int System_IComparable_CompareTo(::Il2CppObject* version);
     // public System.Int32 CompareTo(System.Version value)
-    // Offset: 0x170F7E0
+    // Offset: 0x16613A4
     // Implemented from: System.IComparable`1
     // Base method: System.Int32 IComparable_1::CompareTo(System.Version value)
     int CompareTo(System::Version* value);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x170F8C0
+    // Offset: 0x1661484
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(System.Version obj)
-    // Offset: 0x170F99C
+    // Offset: 0x1661560
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(System.Version obj)
     bool Equals(System::Version* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x170FA68
+    // Offset: 0x166162C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x170FA84
+    // Offset: 0x1661648
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Version
   // static public System.Boolean op_Equality(System.Version v1, System.Version v2)
-  // Offset: 0x170F7CC
+  // Offset: 0x1661390
   bool operator ==(System::Version* v1, System::Version& v2);
   // static public System.Boolean op_Inequality(System.Version v1, System.Version v2)
-  // Offset: 0x1710278
+  // Offset: 0x1661E3C
   bool operator !=(System::Version* v1, System::Version& v2);
   // static public System.Boolean op_LessThan(System.Version v1, System.Version v2)
-  // Offset: 0x171030C
+  // Offset: 0x1661ED0
   bool operator <(System::Version* v1, System::Version& v2);
   // static public System.Boolean op_LessThanOrEqual(System.Version v1, System.Version v2)
-  // Offset: 0x17103A8
+  // Offset: 0x1661F6C
   bool operator <=(System::Version* v1, System::Version& v2);
   // static public System.Boolean op_GreaterThan(System.Version v1, System.Version v2)
-  // Offset: 0x1710448
+  // Offset: 0x166200C
   bool operator >(System::Version* v1, System::Version& v2);
   // static public System.Boolean op_GreaterThanOrEqual(System.Version v1, System.Version v2)
-  // Offset: 0x17104BC
+  // Offset: 0x1662080
   bool operator >=(System::Version* v1, System::Version& v2);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

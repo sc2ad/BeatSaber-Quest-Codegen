@@ -31,10 +31,10 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
-    // Offset: 0x2160054
+    // Offset: 0x1B4E274
     static GameplayServerFiniteStateMachine* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, GlobalNamespace::GameplayServerConfiguration configuration, GlobalNamespace::IServerBeatmapProvider* beatmapProvider);
     // public System.Void Dispose()
-    // Offset: 0x216005C
+    // Offset: 0x1B4E27C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

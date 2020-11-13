@@ -41,16 +41,16 @@ namespace UnityEngine {
     // Set static field: static private UnityEngine.Camera[] m_Cameras
     static void _set_m_Cameras(::Array<UnityEngine::Camera*>* value);
     // static private System.Void SetMouseMoved()
-    // Offset: 0x1F75FFC
+    // Offset: 0x1A06338
     static void SetMouseMoved();
     // static private System.Void DoSendMouseEvents(System.Int32 skipRTCameras)
-    // Offset: 0x1F76068
+    // Offset: 0x1A063A4
     static void DoSendMouseEvents(int skipRTCameras);
     // static private System.Void SendEvents(System.Int32 i, UnityEngine.SendMouseEvents/HitInfo hit)
-    // Offset: 0x1F76AA4
+    // Offset: 0x1A06DE0
     static void SendEvents(int i, UnityEngine::SendMouseEvents::HitInfo hit);
     // static private System.Void .cctor()
-    // Offset: 0x1F7710C
+    // Offset: 0x1A07448
     static void _cctor();
   }; // UnityEngine.SendMouseEvents
 }

@@ -41,7 +41,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x30
     Oculus::Platform::Models::User* User;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x11403E0
+    // Offset: 0x11E10A0
     static LeaderboardEntry* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.LeaderboardEntry
 }

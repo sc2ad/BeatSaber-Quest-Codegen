@@ -20,10 +20,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::PromoViewController* $$4__this;
     // System.Void <DidActivate>b__0()
-    // Offset: 0x2069510
+    // Offset: 0xF2DDA4
     void $DidActivate$b__0();
     // public System.Void .ctor()
-    // Offset: 0x2069500
+    // Offset: 0xF2DD94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PromoViewController::$$c__DisplayClass5_0* New_ctor();

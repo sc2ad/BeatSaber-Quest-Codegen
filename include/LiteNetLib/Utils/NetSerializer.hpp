@@ -156,7 +156,7 @@ namespace LiteNetLib::Utils {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "RegisterNestedType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, writer, reader));
     }
     // public System.Void .ctor(System.Int32 maxStringLength)
-    // Offset: 0x1F63F04
+    // Offset: 0x22B5010
     static NetSerializer* New_ctor(int maxStringLength);
     // private LiteNetLib.Utils.NetSerializer/ClassInfo`1<T> RegisterInternal()
     // Offset: 0xFFFFFFFF
@@ -195,7 +195,7 @@ namespace LiteNetLib::Utils {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<uint8_t>*>(this, "Serialize", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, obj)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1F63E1C
+    // Offset: 0x22B4F28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NetSerializer* New_ctor();

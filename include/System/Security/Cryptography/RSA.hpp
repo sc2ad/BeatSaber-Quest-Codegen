@@ -30,25 +30,25 @@ namespace System::Security::Cryptography {
   class RSA : public System::Security::Cryptography::AsymmetricAlgorithm {
     public:
     // static public System.Security.Cryptography.RSA Create()
-    // Offset: 0x177D6FC
+    // Offset: 0x169DBF0
     static System::Security::Cryptography::RSA* Create();
     // public System.Boolean VerifyHash(System.Byte[] hash, System.Byte[] signature, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.RSASignaturePadding padding)
-    // Offset: 0x177D7A8
+    // Offset: 0x169DC9C
     bool VerifyHash(::Array<uint8_t>* hash, ::Array<uint8_t>* signature, System::Security::Cryptography::HashAlgorithmName hashAlgorithm, System::Security::Cryptography::RSASignaturePadding* padding);
     // protected System.Byte[] HashData(System.Byte[] data, System.Int32 offset, System.Int32 count, System.Security.Cryptography.HashAlgorithmName hashAlgorithm)
-    // Offset: 0x177D868
+    // Offset: 0x169DD5C
     ::Array<uint8_t>* HashData(::Array<uint8_t>* data, int offset, int count, System::Security::Cryptography::HashAlgorithmName hashAlgorithm);
     // public System.Boolean VerifyData(System.Byte[] data, System.Int32 offset, System.Int32 count, System.Byte[] signature, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.RSASignaturePadding padding)
-    // Offset: 0x177D8AC
+    // Offset: 0x169DDA0
     bool VerifyData(::Array<uint8_t>* data, int offset, int count, ::Array<uint8_t>* signature, System::Security::Cryptography::HashAlgorithmName hashAlgorithm, System::Security::Cryptography::RSASignaturePadding* padding);
     // static private System.Exception DerivedClassMustOverride()
-    // Offset: 0x177D7EC
+    // Offset: 0x169DCE0
     static System::Exception* DerivedClassMustOverride();
     // static System.Exception HashAlgorithmNameNullOrEmpty()
-    // Offset: 0x177DA90
+    // Offset: 0x169DF84
     static System::Exception* HashAlgorithmNameNullOrEmpty();
     // public System.Byte[] EncryptValue(System.Byte[] rgb)
-    // Offset: 0x177DB2C
+    // Offset: 0x169E020
     ::Array<uint8_t>* EncryptValue(::Array<uint8_t>* rgb);
     // public System.Security.Cryptography.RSAParameters ExportParameters(System.Boolean includePrivateParameters)
     // Offset: 0xFFFFFFFF
@@ -57,18 +57,18 @@ namespace System::Security::Cryptography {
     // Offset: 0xFFFFFFFF
     void ImportParameters(System::Security::Cryptography::RSAParameters parameters);
     // protected System.Void .ctor()
-    // Offset: 0x177D6F4
+    // Offset: 0x169DBE8
     // Implemented from: System.Security.Cryptography.AsymmetricAlgorithm
     // Base method: System.Void AsymmetricAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
     static RSA* New_ctor();
     // public override System.Void FromXmlString(System.String xmlString)
-    // Offset: 0x177DBAC
+    // Offset: 0x169E0A0
     // Implemented from: System.Security.Cryptography.AsymmetricAlgorithm
     // Base method: System.Void AsymmetricAlgorithm::FromXmlString(System.String xmlString)
     void FromXmlString(::Il2CppString* xmlString);
     // public override System.String ToXmlString(System.Boolean includePrivateParameters)
-    // Offset: 0x177E0A0
+    // Offset: 0x169E594
     // Implemented from: System.Security.Cryptography.AsymmetricAlgorithm
     // Base method: System.String AsymmetricAlgorithm::ToXmlString(System.Boolean includePrivateParameters)
     ::Il2CppString* ToXmlString(bool includePrivateParameters);

@@ -23,20 +23,20 @@ namespace System {
   class MemberAccessException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13742F8
+    // Offset: 0x13B5784
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static MemberAccessException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x137436C
+    // Offset: 0x13B57F8
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static MemberAccessException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x13743A0
+    // Offset: 0x13B582C
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

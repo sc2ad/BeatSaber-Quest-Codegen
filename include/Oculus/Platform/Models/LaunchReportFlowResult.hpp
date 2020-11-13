@@ -25,7 +25,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x18
     uint64_t UserReportId;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1139F90
+    // Offset: 0x11DAC50
     static LaunchReportFlowResult* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.LaunchReportFlowResult
 }

@@ -63,34 +63,34 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Set static field: static private readonly Org.BouncyCastle.Math.BigInteger Eight
     static void _set_Eight(Org::BouncyCastle::Math::BigInteger* value);
     // protected Org.BouncyCastle.Math.BigInteger CalculateE(Org.BouncyCastle.Math.BigInteger n, System.Byte[] message)
-    // Offset: 0xF51404
+    // Offset: 0x104CE10
     Org::BouncyCastle::Math::BigInteger* CalculateE(Org::BouncyCastle::Math::BigInteger* n, ::Array<uint8_t>* message);
     // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateBasePointMultiplier()
-    // Offset: 0xF514D8
+    // Offset: 0x104CEE4
     Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
     // protected Org.BouncyCastle.Security.SecureRandom InitSecureRandom(System.Boolean needed, Org.BouncyCastle.Security.SecureRandom provided)
-    // Offset: 0xF51534
+    // Offset: 0x104CF40
     Org::BouncyCastle::Security::SecureRandom* InitSecureRandom(bool needed, Org::BouncyCastle::Security::SecureRandom* provided);
     // static private System.Void .cctor()
-    // Offset: 0xF515B4
+    // Offset: 0x104CFC0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0xF50C80
+    // Offset: 0x104C68C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ECDsaSigner* New_ctor();
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0xF50D14
+    // Offset: 0x104C720
     // Implemented from: Org.BouncyCastle.Crypto.IDsa
     // Base method: System.Void IDsa::Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public Org.BouncyCastle.Math.BigInteger get_Order()
-    // Offset: 0xF50F50
+    // Offset: 0x104C95C
     // Implemented from: Org.BouncyCastle.Crypto.IDsaExt
     // Base method: Org.BouncyCastle.Math.BigInteger IDsaExt::get_Order()
     Org::BouncyCastle::Math::BigInteger* get_Order();
     // public Org.BouncyCastle.Math.BigInteger[] GenerateSignature(System.Byte[] message)
-    // Offset: 0xF50F78
+    // Offset: 0x104C984
     // Implemented from: Org.BouncyCastle.Crypto.IDsa
     // Base method: Org.BouncyCastle.Math.BigInteger[] IDsa::GenerateSignature(System.Byte[] message)
     ::Array<Org::BouncyCastle::Math::BigInteger*>* GenerateSignature(::Array<uint8_t>* message);

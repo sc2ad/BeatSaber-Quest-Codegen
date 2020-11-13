@@ -28,10 +28,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PositionAndRotation
     constexpr PositionAndRotation(UnityEngine::Vector3 pos_ = {}, UnityEngine::Quaternion rot_ = {}) noexcept : pos{pos_}, rot{rot_} {}
     // public System.Void .ctor(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0xE50658
+    // Offset: 0xCB5A04
     // ABORTED: conflicts with another method.  PositionAndRotation(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // static public VRControllersRecorderData/PositionAndRotation Lerp(VRControllersRecorderData/PositionAndRotation a, VRControllersRecorderData/PositionAndRotation b, System.Single t)
-    // Offset: 0x21EABC8
+    // Offset: 0x1974030
     static GlobalNamespace::VRControllersRecorderData::PositionAndRotation Lerp(GlobalNamespace::VRControllersRecorderData::PositionAndRotation a, GlobalNamespace::VRControllersRecorderData::PositionAndRotation b, float t);
   }; // VRControllersRecorderData/PositionAndRotation
 }

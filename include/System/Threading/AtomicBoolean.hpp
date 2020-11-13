@@ -19,26 +19,26 @@ namespace System::Threading {
       return flag;
     }
     // public System.Boolean TryRelaxedSet()
-    // Offset: 0x17BE034
+    // Offset: 0x16B1A8C
     bool TryRelaxedSet();
     // public System.Boolean Exchange(System.Boolean newVal)
-    // Offset: 0x17BE064
+    // Offset: 0x16B1ABC
     bool Exchange(bool newVal);
     // public System.Boolean Equals(System.Threading.AtomicBoolean rhs)
-    // Offset: 0x17BE08C
+    // Offset: 0x16B1AE4
     bool Equals(System::Threading::AtomicBoolean* rhs);
     // public override System.Boolean Equals(System.Object rhs)
-    // Offset: 0x17BE0B0
+    // Offset: 0x16B1B08
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object rhs)
     bool Equals(::Il2CppObject* rhs);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x17BE14C
+    // Offset: 0x16B1BA4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public System.Void .ctor()
-    // Offset: 0x17BE158
+    // Offset: 0x16B1BB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AtomicBoolean* New_ctor();

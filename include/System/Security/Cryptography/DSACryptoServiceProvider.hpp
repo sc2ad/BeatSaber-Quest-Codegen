@@ -55,51 +55,51 @@ namespace System::Security::Cryptography {
     // Set static field: static private System.Boolean useMachineKeyStore
     static void _set_useMachineKeyStore(bool value);
     // public System.Void .ctor(System.Int32 dwKeySize)
-    // Offset: 0x1775ADC
+    // Offset: 0x1695FD0
     static DSACryptoServiceProvider* New_ctor(int dwKeySize);
     // private System.Void Common(System.Int32 dwKeySize, System.Boolean parameters)
-    // Offset: 0x1775B18
+    // Offset: 0x169600C
     void Common(int dwKeySize, bool parameters);
     // public System.Boolean get_PublicOnly()
-    // Offset: 0x1775DDC
+    // Offset: 0x16962D0
     bool get_PublicOnly();
     // private System.Void OnKeyGenerated(System.Object sender, System.EventArgs e)
-    // Offset: 0x1775F94
+    // Offset: 0x1696488
     void OnKeyGenerated(::Il2CppObject* sender, System::EventArgs* e);
     // public System.Void .ctor()
-    // Offset: 0x1775168
+    // Offset: 0x169565C
     // Implemented from: System.Security.Cryptography.DSA
     // Base method: System.Void DSA::.ctor()
     // Base method: System.Void AsymmetricAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
     static DSACryptoServiceProvider* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x1775D48
+    // Offset: 0x169623C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public override System.Int32 get_KeySize()
-    // Offset: 0x1775DBC
+    // Offset: 0x16962B0
     // Implemented from: System.Security.Cryptography.AsymmetricAlgorithm
     // Base method: System.Int32 AsymmetricAlgorithm::get_KeySize()
     int get_KeySize();
     // public override System.Security.Cryptography.DSAParameters ExportParameters(System.Boolean includePrivateParameters)
-    // Offset: 0x1775DF8
+    // Offset: 0x16962EC
     // Implemented from: System.Security.Cryptography.DSA
     // Base method: System.Security.Cryptography.DSAParameters DSA::ExportParameters(System.Boolean includePrivateParameters)
     System::Security::Cryptography::DSAParameters ExportParameters(bool includePrivateParameters);
     // public override System.Void ImportParameters(System.Security.Cryptography.DSAParameters parameters)
-    // Offset: 0x1775EBC
+    // Offset: 0x16963B0
     // Implemented from: System.Security.Cryptography.DSA
     // Base method: System.Void DSA::ImportParameters(System.Security.Cryptography.DSAParameters parameters)
     void ImportParameters(System::Security::Cryptography::DSAParameters parameters);
     // public override System.Boolean VerifySignature(System.Byte[] rgbHash, System.Byte[] rgbSignature)
-    // Offset: 0x1775F14
+    // Offset: 0x1696408
     // Implemented from: System.Security.Cryptography.DSA
     // Base method: System.Boolean DSA::VerifySignature(System.Byte[] rgbHash, System.Byte[] rgbSignature)
     bool VerifySignature(::Array<uint8_t>* rgbHash, ::Array<uint8_t>* rgbSignature);
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1775F34
+    // Offset: 0x1696428
     // Implemented from: System.Security.Cryptography.AsymmetricAlgorithm
     // Base method: System.Void AsymmetricAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);

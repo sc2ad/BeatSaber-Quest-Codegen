@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRResources::_GetResourceFullPath : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C8A1D0
+    // Offset: 0x19083A8
     static IVRResources::_GetResourceFullPath* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.String pchResourceName, System.String pchResourceTypeDirectory, System.Text.StringBuilder pchPathBuffer, System.UInt32 unBufferLen)
-    // Offset: 0x1C8A1E4
+    // Offset: 0x19083BC
     uint Invoke(::Il2CppString* pchResourceName, ::Il2CppString* pchResourceTypeDirectory, System::Text::StringBuilder* pchPathBuffer, uint unBufferLen);
     // public System.IAsyncResult BeginInvoke(System.String pchResourceName, System.String pchResourceTypeDirectory, System.Text.StringBuilder pchPathBuffer, System.UInt32 unBufferLen, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C8A638
+    // Offset: 0x1908810
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchResourceName, ::Il2CppString* pchResourceTypeDirectory, System::Text::StringBuilder* pchPathBuffer, uint unBufferLen, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C8A6E8
+    // Offset: 0x19088C0
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRResources/_GetResourceFullPath
 }

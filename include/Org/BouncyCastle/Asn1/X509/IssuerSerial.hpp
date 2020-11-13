@@ -43,16 +43,16 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x20
     Org::BouncyCastle::Asn1::DerBitString* issuerUid;
     // static public Org.BouncyCastle.Asn1.X509.IssuerSerial GetInstance(System.Object obj)
-    // Offset: 0x160D734
+    // Offset: 0x157C530
     static Org::BouncyCastle::Asn1::X509::IssuerSerial* GetInstance(::Il2CppObject* obj);
     // static public Org.BouncyCastle.Asn1.X509.IssuerSerial GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x160D5C8
+    // Offset: 0x157C3C4
     static Org::BouncyCastle::Asn1::X509::IssuerSerial* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x160D8B4
+    // Offset: 0x157C6B0
     static IssuerSerial* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x160DAA4
+    // Offset: 0x157C8A0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

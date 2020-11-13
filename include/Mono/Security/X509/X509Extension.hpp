@@ -33,41 +33,41 @@ namespace Mono::Security::X509 {
     // Offset: 0x20
     Mono::Security::ASN1* extnValue;
     // public System.Void .ctor(Mono.Security.ASN1 asn1)
-    // Offset: 0x1F382DC
+    // Offset: 0x19C51EC
     static X509Extension* New_ctor(Mono::Security::ASN1* asn1);
     // public System.Void .ctor(Mono.Security.X509.X509Extension extension)
-    // Offset: 0x1F385BC
+    // Offset: 0x19C54CC
     static X509Extension* New_ctor(Mono::Security::X509::X509Extension* extension);
     // protected System.Void Decode()
-    // Offset: 0x1F38768
+    // Offset: 0x19C5678
     void Decode();
     // protected System.Void Encode()
-    // Offset: 0x1F3876C
+    // Offset: 0x19C567C
     void Encode();
     // public System.String get_Oid()
-    // Offset: 0x1F38770
+    // Offset: 0x19C5680
     ::Il2CppString* get_Oid();
     // public System.Boolean get_Critical()
-    // Offset: 0x1F38778
+    // Offset: 0x19C5688
     bool get_Critical();
     // public Mono.Security.ASN1 get_Value()
-    // Offset: 0x1F38730
+    // Offset: 0x19C5640
     Mono::Security::ASN1* get_Value();
     // private System.Void WriteLine(System.Text.StringBuilder sb, System.Int32 n, System.Int32 pos)
-    // Offset: 0x1F38900
+    // Offset: 0x19C5810
     void WriteLine(System::Text::StringBuilder* sb, int n, int pos);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1F38780
+    // Offset: 0x19C5690
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1F388E0
+    // Offset: 0x19C57F0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1F38B0C
+    // Offset: 0x19C5A1C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

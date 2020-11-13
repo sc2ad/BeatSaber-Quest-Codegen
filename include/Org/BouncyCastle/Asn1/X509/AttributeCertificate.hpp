@@ -41,16 +41,16 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x20
     Org::BouncyCastle::Asn1::DerBitString* signatureValue;
     // static public Org.BouncyCastle.Asn1.X509.AttributeCertificate GetInstance(System.Object obj)
-    // Offset: 0x1608B8C
+    // Offset: 0x1577988
     static Org::BouncyCastle::Asn1::X509::AttributeCertificate* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1608C30
+    // Offset: 0x1577A2C
     static AttributeCertificate* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public Org.BouncyCastle.Asn1.X509.AttributeCertificateInfo get_ACInfo()
-    // Offset: 0x1608F50
+    // Offset: 0x1577D4C
     Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* get_ACInfo();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1608F58
+    // Offset: 0x1577D54
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

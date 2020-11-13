@@ -59,34 +59,34 @@ namespace UnityEngine {
     // Set static field: static private System.String cloneDestroyedMessage
     static void _set_cloneDestroyedMessage(::Il2CppString* value);
     // public System.Int32 GetInstanceID()
-    // Offset: 0x193D3D0
+    // Offset: 0x172F3FC
     int GetInstanceID();
     // static private System.Boolean CompareBaseObjects(UnityEngine.Object lhs, UnityEngine.Object rhs)
-    // Offset: 0x193D658
+    // Offset: 0x172F684
     static bool CompareBaseObjects(UnityEngine::Object* lhs, UnityEngine::Object* rhs);
     // static private System.Boolean IsNativeObjectAlive(UnityEngine.Object o)
-    // Offset: 0x193D794
+    // Offset: 0x172F7C0
     static bool IsNativeObjectAlive(UnityEngine::Object* o);
     // private System.IntPtr GetCachedPtr()
-    // Offset: 0x193D7E8
+    // Offset: 0x172F814
     System::IntPtr GetCachedPtr();
     // public System.String get_name()
-    // Offset: 0x1939548
+    // Offset: 0x172B574
     ::Il2CppString* get_name();
     // public System.Void set_name(System.String value)
-    // Offset: 0x193D830
+    // Offset: 0x172F85C
     void set_name(::Il2CppString* value);
     // static public UnityEngine.Object Instantiate(UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x193D914
+    // Offset: 0x172F940
     static UnityEngine::Object* Instantiate(UnityEngine::Object* original, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // static public UnityEngine.Object Instantiate(UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent)
-    // Offset: 0x193DBE0
+    // Offset: 0x172FC0C
     static UnityEngine::Object* Instantiate(UnityEngine::Object* original, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Transform* parent);
     // static public UnityEngine.Object Instantiate(UnityEngine.Object original)
-    // Offset: 0x193DE4C
+    // Offset: 0x172FE78
     static UnityEngine::Object* Instantiate(UnityEngine::Object* original);
     // static public UnityEngine.Object Instantiate(UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace)
-    // Offset: 0x193DF78
+    // Offset: 0x172FFA4
     static UnityEngine::Object* Instantiate(UnityEngine::Object* original, UnityEngine::Transform* parent, bool instantiateInWorldSpace);
     // static public T Instantiate(T original)
     // Offset: 0xFFFFFFFF
@@ -124,28 +124,28 @@ namespace UnityEngine {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine", "Object", "Instantiate", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, original, parent, worldPositionStays)));
     }
     // static public System.Void Destroy(UnityEngine.Object obj, System.Single t)
-    // Offset: 0x193E128
+    // Offset: 0x1730154
     static void Destroy(UnityEngine::Object* obj, float t);
     // static public System.Void Destroy(UnityEngine.Object obj)
-    // Offset: 0x193E178
+    // Offset: 0x17301A4
     static void Destroy(UnityEngine::Object* obj);
     // static public System.Void DestroyImmediate(UnityEngine.Object obj, System.Boolean allowDestroyingAssets)
-    // Offset: 0x193E200
+    // Offset: 0x173022C
     static void DestroyImmediate(UnityEngine::Object* obj, bool allowDestroyingAssets);
     // static public System.Void DestroyImmediate(UnityEngine.Object obj)
-    // Offset: 0x193E250
+    // Offset: 0x173027C
     static void DestroyImmediate(UnityEngine::Object* obj);
     // static public UnityEngine.Object[] FindObjectsOfType(System.Type type)
-    // Offset: 0x193E2D8
+    // Offset: 0x1730304
     static ::Array<UnityEngine::Object*>* FindObjectsOfType(System::Type* type);
     // static public System.Void DontDestroyOnLoad(UnityEngine.Object target)
-    // Offset: 0x193E318
+    // Offset: 0x1730344
     static void DontDestroyOnLoad(UnityEngine::Object* target);
     // public UnityEngine.HideFlags get_hideFlags()
-    // Offset: 0x193E358
+    // Offset: 0x1730384
     UnityEngine::HideFlags get_hideFlags();
     // public System.Void set_hideFlags(UnityEngine.HideFlags value)
-    // Offset: 0x193B738
+    // Offset: 0x172D764
     void set_hideFlags(UnityEngine::HideFlags value);
     // static public T[] FindObjectsOfType()
     // Offset: 0xFFFFFFFF
@@ -162,73 +162,73 @@ namespace UnityEngine {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine", "Object", "FindObjectOfType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // static private System.Void CheckNullArgument(System.Object arg, System.String message)
-    // Offset: 0x193DAB4
+    // Offset: 0x172FAE0
     static void CheckNullArgument(::Il2CppObject* arg, ::Il2CppString* message);
     // static public UnityEngine.Object FindObjectOfType(System.Type type)
-    // Offset: 0x193E398
+    // Offset: 0x17303C4
     static UnityEngine::Object* FindObjectOfType(System::Type* type);
     // static private System.Int32 GetOffsetOfInstanceIDInCPlusPlusObject()
-    // Offset: 0x193D508
+    // Offset: 0x172F534
     static int GetOffsetOfInstanceIDInCPlusPlusObject();
     // static private UnityEngine.Object Internal_CloneSingle(UnityEngine.Object data)
-    // Offset: 0x193DF38
+    // Offset: 0x172FF64
     static UnityEngine::Object* Internal_CloneSingle(UnityEngine::Object* data);
     // static private UnityEngine.Object Internal_CloneSingleWithParent(UnityEngine.Object data, UnityEngine.Transform parent, System.Boolean worldPositionStays)
-    // Offset: 0x193E0D0
+    // Offset: 0x17300FC
     static UnityEngine::Object* Internal_CloneSingleWithParent(UnityEngine::Object* data, UnityEngine::Transform* parent, bool worldPositionStays);
     // static private UnityEngine.Object Internal_InstantiateSingle(UnityEngine.Object data, UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0x193DB38
+    // Offset: 0x172FB64
     static UnityEngine::Object* Internal_InstantiateSingle(UnityEngine::Object* data, UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // static private UnityEngine.Object Internal_InstantiateSingleWithParent(UnityEngine.Object data, UnityEngine.Transform parent, UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0x193DD94
+    // Offset: 0x172FDC0
     static UnityEngine::Object* Internal_InstantiateSingleWithParent(UnityEngine::Object* data, UnityEngine::Transform* parent, UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // static private System.String ToString(UnityEngine.Object obj)
-    // Offset: 0x193E4C0
+    // Offset: 0x17304EC
     static ::Il2CppString* ToString(UnityEngine::Object* obj);
     // static private System.String GetName(UnityEngine.Object obj)
-    // Offset: 0x193D7F0
+    // Offset: 0x172F81C
     static ::Il2CppString* GetName(UnityEngine::Object* obj);
     // static private System.Void SetName(UnityEngine.Object obj, System.String name)
-    // Offset: 0x193D8C4
+    // Offset: 0x172F8F0
     static void SetName(UnityEngine::Object* obj, ::Il2CppString* name);
     // static UnityEngine.Object FindObjectFromInstanceID(System.Int32 instanceID)
-    // Offset: 0x193E640
+    // Offset: 0x173066C
     static UnityEngine::Object* FindObjectFromInstanceID(int instanceID);
     // static private System.Void .cctor()
-    // Offset: 0x193E680
+    // Offset: 0x17306AC
     static void _cctor();
     // static private UnityEngine.Object Internal_InstantiateSingle_Injected(UnityEngine.Object data, ref UnityEngine.Vector3 pos, ref UnityEngine.Quaternion rot)
-    // Offset: 0x193E580
+    // Offset: 0x17305AC
     static UnityEngine::Object* Internal_InstantiateSingle_Injected(UnityEngine::Object* data, UnityEngine::Vector3& pos, UnityEngine::Quaternion& rot);
     // static private UnityEngine.Object Internal_InstantiateSingleWithParent_Injected(UnityEngine.Object data, UnityEngine.Transform parent, ref UnityEngine.Vector3 pos, ref UnityEngine.Quaternion rot)
-    // Offset: 0x193E5D8
+    // Offset: 0x1730604
     static UnityEngine::Object* Internal_InstantiateSingleWithParent_Injected(UnityEngine::Object* data, UnityEngine::Transform* parent, UnityEngine::Vector3& pos, UnityEngine::Quaternion& rot);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x193D53C
+    // Offset: 0x172F568
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x193D544
+    // Offset: 0x172F570
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
     // public override System.String ToString()
-    // Offset: 0x193E43C
+    // Offset: 0x1730468
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0x1937B68
+    // Offset: 0x1729B94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Object* New_ctor();
   }; // UnityEngine.Object
   // static public System.Boolean op_Equality(UnityEngine.Object x, UnityEngine.Object y)
-  // Offset: 0x193B4DC
+  // Offset: 0x172D508
   bool operator ==(UnityEngine::Object* x, UnityEngine::Object& y);
   // static public System.Boolean op_Inequality(UnityEngine.Object x, UnityEngine.Object y)
-  // Offset: 0x193E500
+  // Offset: 0x173052C
   bool operator !=(UnityEngine::Object* x, UnityEngine::Object& y);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Object*, "UnityEngine", "Object");

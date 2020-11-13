@@ -59,109 +59,109 @@ namespace System::Net::Sockets {
     // Offset: 0x40
     int m_CurrentWriteTimeout;
     // public System.Void .ctor(System.Net.Sockets.Socket socket)
-    // Offset: 0x10D1998
+    // Offset: 0x11A72C8
     static NetworkStream* New_ctor(System::Net::Sockets::Socket* socket);
     // public System.Void .ctor(System.Net.Sockets.Socket socket, System.Boolean ownsSocket)
-    // Offset: 0x10D1B88
+    // Offset: 0x11A74B8
     static NetworkStream* New_ctor(System::Net::Sockets::Socket* socket, bool ownsSocket);
     // public System.Boolean get_DataAvailable()
-    // Offset: 0x10D1F28
+    // Offset: 0x11A7858
     bool get_DataAvailable();
     // System.Void InitNetworkStream(System.Net.Sockets.Socket socket, System.IO.FileAccess Access)
-    // Offset: 0x10D1A6C
+    // Offset: 0x11A739C
     void InitNetworkStream(System::Net::Sockets::Socket* socket, System::IO::FileAccess Access);
     // public override System.Boolean get_CanRead()
-    // Offset: 0x10D1C6C
+    // Offset: 0x11A759C
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanRead()
     bool get_CanRead();
     // public override System.Boolean get_CanSeek()
-    // Offset: 0x10D1C74
+    // Offset: 0x11A75A4
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanSeek()
     bool get_CanSeek();
     // public override System.Boolean get_CanWrite()
-    // Offset: 0x10D1C7C
+    // Offset: 0x11A75AC
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanWrite()
     bool get_CanWrite();
     // public override System.Int32 get_ReadTimeout()
-    // Offset: 0x10D1C84
+    // Offset: 0x11A75B4
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::get_ReadTimeout()
     int get_ReadTimeout();
     // public override System.Int32 get_WriteTimeout()
-    // Offset: 0x10D1E98
+    // Offset: 0x11A77C8
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::get_WriteTimeout()
     int get_WriteTimeout();
     // public override System.Int64 get_Length()
-    // Offset: 0x10D2148
+    // Offset: 0x11A7A78
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Length()
     int64_t get_Length();
     // public override System.Int64 get_Position()
-    // Offset: 0x10D21C8
+    // Offset: 0x11A7AF8
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Position()
     int64_t get_Position();
     // public override System.Void set_Position(System.Int64 value)
-    // Offset: 0x10D2248
+    // Offset: 0x11A7B78
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::set_Position(System.Int64 value)
     void set_Position(int64_t value);
     // public override System.Int64 Seek(System.Int64 offset, System.IO.SeekOrigin origin)
-    // Offset: 0x10D22C8
+    // Offset: 0x11A7BF8
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::Seek(System.Int64 offset, System.IO.SeekOrigin origin)
     int64_t Seek(int64_t offset, System::IO::SeekOrigin origin);
     // public override System.Int32 Read(in System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x10D2348
+    // Offset: 0x11A7C78
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(in System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     int Read(::Array<uint8_t>*& buffer, int offset, int size);
     // public override System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x10D280C
+    // Offset: 0x11A813C
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     void Write(::Array<uint8_t>* buffer, int offset, int size);
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x10D2CD0
+    // Offset: 0x11A8600
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // protected override System.Void Finalize()
-    // Offset: 0x10D2DF0
+    // Offset: 0x11A8720
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public override System.IAsyncResult BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback callback, System.Object state)
-    // Offset: 0x10D2E68
+    // Offset: 0x11A8798
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback callback, System.Object state)
     System::IAsyncResult* BeginRead(::Array<uint8_t>* buffer, int offset, int size, System::AsyncCallback* callback, ::Il2CppObject* state);
     // public override System.Int32 EndRead(System.IAsyncResult asyncResult)
-    // Offset: 0x10D3364
+    // Offset: 0x11A8C94
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::EndRead(System.IAsyncResult asyncResult)
     int EndRead(System::IAsyncResult* asyncResult);
     // public override System.IAsyncResult BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback callback, System.Object state)
-    // Offset: 0x10D3728
+    // Offset: 0x11A9058
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback callback, System.Object state)
     System::IAsyncResult* BeginWrite(::Array<uint8_t>* buffer, int offset, int size, System::AsyncCallback* callback, ::Il2CppObject* state);
     // public override System.Void EndWrite(System.IAsyncResult asyncResult)
-    // Offset: 0x10D3C24
+    // Offset: 0x11A9554
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::EndWrite(System.IAsyncResult asyncResult)
     void EndWrite(System::IAsyncResult* asyncResult);
     // public override System.Void Flush()
-    // Offset: 0x10D3FE8
+    // Offset: 0x11A9918
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Flush()
     void Flush();
     // public override System.Void SetLength(System.Int64 value)
-    // Offset: 0x10D3FEC
+    // Offset: 0x11A991C
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::SetLength(System.Int64 value)
     void SetLength(int64_t value);

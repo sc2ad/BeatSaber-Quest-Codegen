@@ -45,13 +45,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return name;
     }
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_Name()
-    // Offset: 0xF4AFC0
+    // Offset: 0x10469CC
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Name();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerObjectIdentifier name, Org.BouncyCastle.Asn1.X9.X9ECParameters x9)
-    // Offset: 0xF4AFC8
+    // Offset: 0x10469D4
     static ECNamedDomainParameters* New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier* name, Org::BouncyCastle::Asn1::X9::X9ECParameters* x9);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerObjectIdentifier name, Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECPoint g, Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger h, System.Byte[] seed)
-    // Offset: 0xF4A724
+    // Offset: 0x1046130
     static ECNamedDomainParameters* New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier* name, Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECPoint* g, Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* h, ::Array<uint8_t>* seed);
   }; // Org.BouncyCastle.Crypto.Parameters.ECNamedDomainParameters
 }

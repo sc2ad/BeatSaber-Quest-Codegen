@@ -23,7 +23,7 @@ namespace System::IO {
   class DriveNotFoundException : public System::IO::IOException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x144BE5C
+    // Offset: 0x1436268
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -31,14 +31,14 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     static DriveNotFoundException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x144BEE4
+    // Offset: 0x14362F0
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static DriveNotFoundException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x144BF2C
+    // Offset: 0x1436338
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

@@ -57,7 +57,7 @@ namespace UnityEngine::UI {
     // Offset: 0x3C
     UnityEngine::Rendering::ColorWriteMask colorMask;
     // public System.Void .ctor()
-    // Offset: 0x1F2ED5C
+    // Offset: 0x19BAC6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static StencilMaterial::MatEntry* New_ctor();

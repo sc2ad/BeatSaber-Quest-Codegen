@@ -29,28 +29,28 @@ namespace System::Net {
       return *reinterpret_cast<System::Net::IAuthenticationModule*>(this);
     }
     // static private System.Byte[] GetBytes(System.String str)
-    // Offset: 0x12AB924
+    // Offset: 0x130B110
     static ::Array<uint8_t>* GetBytes(::Il2CppString* str);
     // static private System.Net.Authorization InternalAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x12AB580
+    // Offset: 0x130AD6C
     static System::Net::Authorization* InternalAuthenticate(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x12AB4CC
+    // Offset: 0x130ACB8
     // Implemented from: System.Net.IAuthenticationModule
     // Base method: System.Net.Authorization IAuthenticationModule::Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
     System::Net::Authorization* Authenticate(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x12AB9DC
+    // Offset: 0x130B1C8
     // Implemented from: System.Net.IAuthenticationModule
     // Base method: System.Net.Authorization IAuthenticationModule::PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
     System::Net::Authorization* PreAuthenticate(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.String get_AuthenticationType()
-    // Offset: 0x12AB9E8
+    // Offset: 0x130B1D4
     // Implemented from: System.Net.IAuthenticationModule
     // Base method: System.String IAuthenticationModule::get_AuthenticationType()
     ::Il2CppString* get_AuthenticationType();
     // public System.Void .ctor()
-    // Offset: 0x12AA418
+    // Offset: 0x1309C04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BasicClient* New_ctor();

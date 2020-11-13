@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class MenuRpcManager::GetOwnedSongPacksRpc : public GlobalNamespace::RemoteProcedureCall {
     public:
     // public System.Void .ctor()
-    // Offset: 0x21EEDF0
+    // Offset: 0x1E48EA4
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()

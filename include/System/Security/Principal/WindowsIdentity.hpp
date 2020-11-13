@@ -72,42 +72,42 @@ namespace System::Security::Principal {
     // Set static field: static private System.IntPtr invalidWindows
     static void _set_invalidWindows(System::IntPtr value);
     // public System.Void .ctor(System.IntPtr userToken, System.String type, System.Security.Principal.WindowsAccountType acctType, System.Boolean isAuthenticated)
-    // Offset: 0x120CF24
+    // Offset: 0x1281FDC
     static WindowsIdentity* New_ctor(System::IntPtr userToken, ::Il2CppString* type, System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated);
     // System.Void .ctor(System.Security.Claims.ClaimsIdentity claimsIdentity, System.IntPtr userToken)
-    // Offset: 0x120D124
+    // Offset: 0x12821DC
     static WindowsIdentity* New_ctor(System::Security::Claims::ClaimsIdentity* claimsIdentity, System::IntPtr userToken);
     // static public System.Security.Principal.WindowsIdentity GetCurrent()
-    // Offset: 0x120D208
+    // Offset: 0x12822C0
     static System::Security::Principal::WindowsIdentity* GetCurrent();
     // public System.Security.Principal.WindowsImpersonationContext Impersonate()
-    // Offset: 0x120D298
+    // Offset: 0x1282350
     System::Security::Principal::WindowsImpersonationContext* Impersonate();
     // System.Security.Claims.ClaimsIdentity CloneAsBase()
-    // Offset: 0x120D828
+    // Offset: 0x12828E0
     System::Security::Claims::ClaimsIdentity* CloneAsBase();
     // System.IntPtr GetTokenInternal()
-    // Offset: 0x120D830
+    // Offset: 0x12828E8
     System::IntPtr GetTokenInternal();
     // private System.Void SetToken(System.IntPtr token)
-    // Offset: 0x120CF9C
+    // Offset: 0x1282054
     void SetToken(System::IntPtr token);
     // static System.IntPtr GetCurrentToken()
-    // Offset: 0x120D294
+    // Offset: 0x128234C
     static System::IntPtr GetCurrentToken();
     // static private System.String GetTokenName(System.IntPtr token)
-    // Offset: 0x120D43C
+    // Offset: 0x12824F4
     static ::Il2CppString* GetTokenName(System::IntPtr token);
     // static private System.Void .cctor()
-    // Offset: 0x120D838
+    // Offset: 0x12828F0
     static void _cctor();
     // public System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x120D0F0
+    // Offset: 0x12821A8
     // Implemented from: System.Security.Claims.ClaimsIdentity
     // Base method: System.Void ClaimsIdentity::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static WindowsIdentity* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Void Dispose()
-    // Offset: 0x120D1C4
+    // Offset: 0x128227C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -115,22 +115,22 @@ namespace System::Security::Principal {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public override System.String get_AuthenticationType()
-    // Offset: 0x120D3A8
+    // Offset: 0x1282460
     // Implemented from: System.Security.Claims.ClaimsIdentity
     // Base method: System.String ClaimsIdentity::get_AuthenticationType()
     ::Il2CppString* get_AuthenticationType();
     // public override System.String get_Name()
-    // Offset: 0x120D3B0
+    // Offset: 0x1282468
     // Implemented from: System.Security.Claims.ClaimsIdentity
     // Base method: System.String ClaimsIdentity::get_Name()
     ::Il2CppString* get_Name();
     // private System.Void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object sender)
-    // Offset: 0x120D440
+    // Offset: 0x12824F8
     // Implemented from: System.Runtime.Serialization.IDeserializationCallback
     // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x120D708
+    // Offset: 0x12827C0
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

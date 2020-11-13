@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BpmChangeData
     constexpr BpmChangeData(float bpmChangeStartTime_ = {}, float bpmChangeStartBpmTime_ = {}, float bpm_ = {}) noexcept : bpmChangeStartTime{bpmChangeStartTime_}, bpmChangeStartBpmTime{bpmChangeStartBpmTime_}, bpm{bpm_} {}
     // public System.Void .ctor(System.Single bpmChangeStartTime, System.Single bpmChangeStartBpmTime, System.Single bpm)
-    // Offset: 0xE4E780
+    // Offset: 0xE7F888
     // ABORTED: conflicts with another method.  BpmChangeData(float bpmChangeStartTime, float bpmChangeStartBpmTime, float bpm);
   }; // BeatmapDataLoader/BpmChangeData
 }

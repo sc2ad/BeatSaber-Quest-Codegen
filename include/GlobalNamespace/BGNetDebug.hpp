@@ -25,19 +25,19 @@ namespace GlobalNamespace {
     // Set static field: static private BGNetDebug/ILogger _logger
     static void _set__logger(GlobalNamespace::BGNetDebug::ILogger* value);
     // static private System.Void .cctor()
-    // Offset: 0x215503C
+    // Offset: 0x1B42B10
     static void _cctor();
     // static public System.Void SetLogger(BGNetDebug/ILogger logger)
-    // Offset: 0x21550CC
+    // Offset: 0x1B42BA0
     static void SetLogger(GlobalNamespace::BGNetDebug::ILogger* logger);
     // static public System.Void Log(System.String message)
-    // Offset: 0x215513C
+    // Offset: 0x1B42C10
     static void Log(::Il2CppString* message);
     // static public System.Void LogError(System.String message)
-    // Offset: 0x2155254
+    // Offset: 0x1B42D28
     static void LogError(::Il2CppString* message);
     // static public System.Void LogWarning(System.String message)
-    // Offset: 0x2155398
+    // Offset: 0x1B42E6C
     static void LogWarning(::Il2CppString* message);
   }; // BGNetDebug
 }

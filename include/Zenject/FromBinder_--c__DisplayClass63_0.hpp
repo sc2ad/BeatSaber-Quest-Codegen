@@ -39,10 +39,10 @@ namespace Zenject {
       return concreteType;
     }
     // System.Collections.Generic.IEnumerable`1<System.Object> <FromComponentSibling>b__1(Zenject.InjectContext ctx)
-    // Offset: 0x1227498
+    // Offset: 0x129C550
     System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* $FromComponentSibling$b__1(Zenject::InjectContext* ctx);
     // public System.Void .ctor()
-    // Offset: 0x1225C64
+    // Offset: 0x129AD1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FromBinder::$$c__DisplayClass63_0* New_ctor();

@@ -42,94 +42,94 @@ namespace UnityEngine {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_hasPopInstruction(System.Boolean value)
-    // Offset: 0x1F6DE44
+    // Offset: 0x19FD1C4
     void set_hasPopInstruction(bool value);
     // public System.Int32 get_materialCount()
-    // Offset: 0x1F6DE94
+    // Offset: 0x19FD214
     int get_materialCount();
     // public System.Void set_materialCount(System.Int32 value)
-    // Offset: 0x1F6DED4
+    // Offset: 0x19FD254
     void set_materialCount(int value);
     // public System.Void set_popMaterialCount(System.Int32 value)
-    // Offset: 0x1F6DF24
+    // Offset: 0x19FD2A4
     void set_popMaterialCount(int value);
     // public System.Int32 get_absoluteDepth()
-    // Offset: 0x1F6DF74
+    // Offset: 0x19FD2F4
     int get_absoluteDepth();
     // public System.Boolean get_hasMoved()
-    // Offset: 0x1F6DFB4
+    // Offset: 0x19FD334
     bool get_hasMoved();
     // public System.Boolean get_cull()
-    // Offset: 0x1F6DFF4
+    // Offset: 0x19FD374
     bool get_cull();
     // public System.Void set_cull(System.Boolean value)
-    // Offset: 0x1F6E034
+    // Offset: 0x19FD3B4
     void set_cull(bool value);
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x1F6E084
+    // Offset: 0x19FD404
     void SetColor(UnityEngine::Color color);
     // public UnityEngine.Color GetColor()
-    // Offset: 0x1F6E12C
+    // Offset: 0x19FD4AC
     UnityEngine::Color GetColor();
     // public System.Void EnableRectClipping(UnityEngine.Rect rect)
-    // Offset: 0x1F6E1D8
+    // Offset: 0x19FD558
     void EnableRectClipping(UnityEngine::Rect rect);
     // public System.Void DisableRectClipping()
-    // Offset: 0x1F6E280
+    // Offset: 0x19FD600
     void DisableRectClipping();
     // public System.Void SetMaterial(UnityEngine.Material material, System.Int32 index)
-    // Offset: 0x1F6E2C0
+    // Offset: 0x19FD640
     void SetMaterial(UnityEngine::Material* material, int index);
     // public UnityEngine.Material GetMaterial(System.Int32 index)
-    // Offset: 0x1F6E318
+    // Offset: 0x19FD698
     UnityEngine::Material* GetMaterial(int index);
     // public System.Void SetPopMaterial(UnityEngine.Material material, System.Int32 index)
-    // Offset: 0x1F6E368
+    // Offset: 0x19FD6E8
     void SetPopMaterial(UnityEngine::Material* material, int index);
     // public System.Void SetTexture(UnityEngine.Texture texture)
-    // Offset: 0x1F6E3C0
+    // Offset: 0x19FD740
     void SetTexture(UnityEngine::Texture* texture);
     // public System.Void SetAlphaTexture(UnityEngine.Texture texture)
-    // Offset: 0x1F6E410
+    // Offset: 0x19FD790
     void SetAlphaTexture(UnityEngine::Texture* texture);
     // public System.Void SetMesh(UnityEngine.Mesh mesh)
-    // Offset: 0x1F6E460
+    // Offset: 0x19FD7E0
     void SetMesh(UnityEngine::Mesh* mesh);
     // public System.Void Clear()
-    // Offset: 0x1F6E4B0
+    // Offset: 0x19FD830
     void Clear();
     // public System.Void SetMaterial(UnityEngine.Material material, UnityEngine.Texture texture)
-    // Offset: 0x1F6E4F0
+    // Offset: 0x19FD870
     void SetMaterial(UnityEngine::Material* material, UnityEngine::Texture* texture);
     // public UnityEngine.Material GetMaterial()
-    // Offset: 0x1F6E630
+    // Offset: 0x19FD9B0
     UnityEngine::Material* GetMaterial();
     // static public System.Void SplitUIVertexStreams(System.Collections.Generic.List`1<UnityEngine.UIVertex> verts, System.Collections.Generic.List`1<UnityEngine.Vector3> positions, System.Collections.Generic.List`1<UnityEngine.Color32> colors, System.Collections.Generic.List`1<UnityEngine.Vector2> uv0S, System.Collections.Generic.List`1<UnityEngine.Vector2> uv1S, System.Collections.Generic.List`1<UnityEngine.Vector2> uv2S, System.Collections.Generic.List`1<UnityEngine.Vector2> uv3S, System.Collections.Generic.List`1<UnityEngine.Vector3> normals, System.Collections.Generic.List`1<UnityEngine.Vector4> tangents, System.Collections.Generic.List`1<System.Int32> indices)
-    // Offset: 0x1F6E674
+    // Offset: 0x19FD9F4
     static void SplitUIVertexStreams(System::Collections::Generic::List_1<UnityEngine::UIVertex>* verts, System::Collections::Generic::List_1<UnityEngine::Vector3>* positions, System::Collections::Generic::List_1<UnityEngine::Color32>* colors, System::Collections::Generic::List_1<UnityEngine::Vector2>* uv0S, System::Collections::Generic::List_1<UnityEngine::Vector2>* uv1S, System::Collections::Generic::List_1<UnityEngine::Vector2>* uv2S, System::Collections::Generic::List_1<UnityEngine::Vector2>* uv3S, System::Collections::Generic::List_1<UnityEngine::Vector3>* normals, System::Collections::Generic::List_1<UnityEngine::Vector4>* tangents, System::Collections::Generic::List_1<int>* indices);
     // static public System.Void CreateUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex> verts, System.Collections.Generic.List`1<UnityEngine.Vector3> positions, System.Collections.Generic.List`1<UnityEngine.Color32> colors, System.Collections.Generic.List`1<UnityEngine.Vector2> uv0S, System.Collections.Generic.List`1<UnityEngine.Vector2> uv1S, System.Collections.Generic.List`1<UnityEngine.Vector2> uv2S, System.Collections.Generic.List`1<UnityEngine.Vector2> uv3S, System.Collections.Generic.List`1<UnityEngine.Vector3> normals, System.Collections.Generic.List`1<UnityEngine.Vector4> tangents, System.Collections.Generic.List`1<System.Int32> indices)
-    // Offset: 0x1F6E840
+    // Offset: 0x19FDBC0
     static void CreateUIVertexStream(System::Collections::Generic::List_1<UnityEngine::UIVertex>* verts, System::Collections::Generic::List_1<UnityEngine::Vector3>* positions, System::Collections::Generic::List_1<UnityEngine::Color32>* colors, System::Collections::Generic::List_1<UnityEngine::Vector2>* uv0S, System::Collections::Generic::List_1<UnityEngine::Vector2>* uv1S, System::Collections::Generic::List_1<UnityEngine::Vector2>* uv2S, System::Collections::Generic::List_1<UnityEngine::Vector2>* uv3S, System::Collections::Generic::List_1<UnityEngine::Vector3>* normals, System::Collections::Generic::List_1<UnityEngine::Vector4>* tangents, System::Collections::Generic::List_1<int>* indices);
     // static public System.Void AddUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex> verts, System.Collections.Generic.List`1<UnityEngine.Vector3> positions, System.Collections.Generic.List`1<UnityEngine.Color32> colors, System.Collections.Generic.List`1<UnityEngine.Vector2> uv0S, System.Collections.Generic.List`1<UnityEngine.Vector2> uv1S, System.Collections.Generic.List`1<UnityEngine.Vector2> uv2S, System.Collections.Generic.List`1<UnityEngine.Vector2> uv3S, System.Collections.Generic.List`1<UnityEngine.Vector3> normals, System.Collections.Generic.List`1<UnityEngine.Vector4> tangents)
-    // Offset: 0x1F6E988
+    // Offset: 0x19FDD08
     static void AddUIVertexStream(System::Collections::Generic::List_1<UnityEngine::UIVertex>* verts, System::Collections::Generic::List_1<UnityEngine::Vector3>* positions, System::Collections::Generic::List_1<UnityEngine::Color32>* colors, System::Collections::Generic::List_1<UnityEngine::Vector2>* uv0S, System::Collections::Generic::List_1<UnityEngine::Vector2>* uv1S, System::Collections::Generic::List_1<UnityEngine::Vector2>* uv2S, System::Collections::Generic::List_1<UnityEngine::Vector2>* uv3S, System::Collections::Generic::List_1<UnityEngine::Vector3>* normals, System::Collections::Generic::List_1<UnityEngine::Vector4>* tangents);
     // static private System.Void SplitIndicesStreamsInternal(System.Object verts, System.Object indices)
-    // Offset: 0x1F6E7F0
+    // Offset: 0x19FDB70
     static void SplitIndicesStreamsInternal(::Il2CppObject* verts, ::Il2CppObject* indices);
     // static private System.Void SplitUIVertexStreamsInternal(System.Object verts, System.Object positions, System.Object colors, System.Object uv0S, System.Object uv1S, System.Object uv2S, System.Object uv3S, System.Object normals, System.Object tangents)
-    // Offset: 0x1F6E750
+    // Offset: 0x19FDAD0
     static void SplitUIVertexStreamsInternal(::Il2CppObject* verts, ::Il2CppObject* positions, ::Il2CppObject* colors, ::Il2CppObject* uv0S, ::Il2CppObject* uv1S, ::Il2CppObject* uv2S, ::Il2CppObject* uv3S, ::Il2CppObject* normals, ::Il2CppObject* tangents);
     // static private System.Void CreateUIVertexStreamInternal(System.Object verts, System.Object positions, System.Object colors, System.Object uv0S, System.Object uv1S, System.Object uv2S, System.Object uv3S, System.Object normals, System.Object tangents, System.Object indices)
-    // Offset: 0x1F6E8E4
+    // Offset: 0x19FDC64
     static void CreateUIVertexStreamInternal(::Il2CppObject* verts, ::Il2CppObject* positions, ::Il2CppObject* colors, ::Il2CppObject* uv0S, ::Il2CppObject* uv1S, ::Il2CppObject* uv2S, ::Il2CppObject* uv3S, ::Il2CppObject* normals, ::Il2CppObject* tangents, ::Il2CppObject* indices);
     // private System.Void SetColor_Injected(ref UnityEngine.Color color)
-    // Offset: 0x1F6E0DC
+    // Offset: 0x19FD45C
     void SetColor_Injected(UnityEngine::Color& color);
     // private System.Void GetColor_Injected(out UnityEngine.Color ret)
-    // Offset: 0x1F6E188
+    // Offset: 0x19FD508
     void GetColor_Injected(UnityEngine::Color& ret);
     // private System.Void EnableRectClipping_Injected(ref UnityEngine.Rect rect)
-    // Offset: 0x1F6E230
+    // Offset: 0x19FD5B0
     void EnableRectClipping_Injected(UnityEngine::Rect& rect);
   }; // UnityEngine.CanvasRenderer
 }

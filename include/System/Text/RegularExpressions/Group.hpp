@@ -27,16 +27,16 @@ namespace System::Text::RegularExpressions {
     // Set static field: static System.Text.RegularExpressions.Group _emptygroup
     static void _set__emptygroup(System::Text::RegularExpressions::Group* value);
     // System.Void .ctor(System.String text, System.Int32[] caps, System.Int32 capcount, System.String name)
-    // Offset: 0x148297C
+    // Offset: 0x146CE34
     static Group* New_ctor(::Il2CppString* text, ::Array<int>* caps, int capcount, ::Il2CppString* name);
     // public System.Boolean get_Success()
-    // Offset: 0x1482A4C
+    // Offset: 0x146CF04
     bool get_Success();
     // static private System.Void .cctor()
-    // Offset: 0x1482A5C
+    // Offset: 0x146CF14
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0x1482B1C
+    // Offset: 0x146CFD4
     // Implemented from: System.Text.RegularExpressions.Capture
     // Base method: System.Void Capture::.ctor()
     // Base method: System.Void Object::.ctor()

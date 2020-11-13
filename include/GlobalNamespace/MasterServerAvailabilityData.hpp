@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::MasterServerAvailabilityData::UserMessage* userMessage;
     // public System.Void .ctor()
-    // Offset: 0x1FC20A8
+    // Offset: 0x1A717B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MasterServerAvailabilityData* New_ctor();

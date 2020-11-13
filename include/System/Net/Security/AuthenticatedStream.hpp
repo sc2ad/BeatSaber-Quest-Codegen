@@ -20,16 +20,16 @@ namespace System::Net::Security {
     // Offset: 0x30
     bool LeaveStreamOpen;
     // protected System.Void .ctor(System.IO.Stream innerStream, System.Boolean leaveInnerStreamOpen)
-    // Offset: 0x10CB4E4
+    // Offset: 0x11A0E14
     static AuthenticatedStream* New_ctor(System::IO::Stream* innerStream, bool leaveInnerStreamOpen);
     // protected System.IO.Stream get_InnerStream()
-    // Offset: 0x10CB694
+    // Offset: 0x11A0FC4
     System::IO::Stream* get_InnerStream();
     // public System.Boolean get_IsAuthenticated()
     // Offset: 0xFFFFFFFF
     bool get_IsAuthenticated();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x10CB69C
+    // Offset: 0x11A0FCC
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);

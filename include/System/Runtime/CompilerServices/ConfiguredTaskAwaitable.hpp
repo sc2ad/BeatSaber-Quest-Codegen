@@ -48,21 +48,21 @@ namespace System::Runtime::CompilerServices {
         return *reinterpret_cast<System::Runtime::CompilerServices::ICriticalNotifyCompletion*>(this);
       }
       // System.Void .ctor(System.Threading.Tasks.Task task, System.Boolean continueOnCapturedContext)
-      // Offset: 0xC5D90C
+      // Offset: 0xC94580
       // ABORTED: conflicts with another method.  ConfiguredTaskAwaiter(System::Threading::Tasks::Task* task, bool continueOnCapturedContext);
       // public System.Boolean get_IsCompleted()
-      // Offset: 0xC5D940
+      // Offset: 0xC945B4
       bool get_IsCompleted();
       // public System.Void GetResult()
-      // Offset: 0xC5D984
+      // Offset: 0xC945F8
       void GetResult();
       // public System.Void OnCompleted(System.Action continuation)
-      // Offset: 0xC5D95C
+      // Offset: 0xC945D0
       // Implemented from: System.Runtime.CompilerServices.INotifyCompletion
       // Base method: System.Void INotifyCompletion::OnCompleted(System.Action continuation)
       void OnCompleted(System::Action* continuation);
       // public System.Void UnsafeOnCompleted(System.Action continuation)
-      // Offset: 0xC5D970
+      // Offset: 0xC945E4
       // Implemented from: System.Runtime.CompilerServices.ICriticalNotifyCompletion
       // Base method: System.Void ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action continuation)
       void UnsafeOnCompleted(System::Action* continuation);
@@ -77,10 +77,10 @@ namespace System::Runtime::CompilerServices {
       return m_configuredTaskAwaiter;
     }
     // System.Void .ctor(System.Threading.Tasks.Task task, System.Boolean continueOnCapturedContext)
-    // Offset: 0xC5D8B8
+    // Offset: 0xC9452C
     ConfiguredTaskAwaitable(System::Threading::Tasks::Task* task, bool continueOnCapturedContext);
     // public System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter GetAwaiter()
-    // Offset: 0xC5D8C4
+    // Offset: 0xC94538
     System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter GetAwaiter();
   }; // System.Runtime.CompilerServices.ConfiguredTaskAwaitable
 }

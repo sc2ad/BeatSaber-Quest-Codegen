@@ -39,35 +39,35 @@ namespace UnityEngine::TextCore {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::TextCore::GlyphMetrics>*>(this);
     }
     // public System.Single get_width()
-    // Offset: 0xC8B160
+    // Offset: 0xCB8090
     float get_width();
     // public System.Single get_height()
-    // Offset: 0xC8B168
+    // Offset: 0xCB8098
     float get_height();
     // public System.Single get_horizontalBearingX()
-    // Offset: 0xC8B170
+    // Offset: 0xCB80A0
     float get_horizontalBearingX();
     // public System.Single get_horizontalBearingY()
-    // Offset: 0xC8B178
+    // Offset: 0xCB80A8
     float get_horizontalBearingY();
     // public System.Single get_horizontalAdvance()
-    // Offset: 0xC8B180
+    // Offset: 0xCB80B0
     float get_horizontalAdvance();
     // public System.Void .ctor(System.Single width, System.Single height, System.Single bearingX, System.Single bearingY, System.Single advance)
-    // Offset: 0xC8B188
+    // Offset: 0xCB80B8
     // ABORTED: conflicts with another method.  GlyphMetrics(float width, float height, float bearingX, float bearingY, float advance);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xC8B198
+    // Offset: 0xCB80C8
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xC8B1A0
+    // Offset: 0xCB80D0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.TextCore.GlyphMetrics other)
-    // Offset: 0xC8B1A8
+    // Offset: 0xCB80D8
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.TextCore.GlyphMetrics other)
     bool Equals(UnityEngine::TextCore::GlyphMetrics other);

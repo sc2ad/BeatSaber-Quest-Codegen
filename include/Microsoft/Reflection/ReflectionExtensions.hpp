@@ -26,25 +26,25 @@ namespace Microsoft::Reflection {
   class ReflectionExtensions : public ::Il2CppObject {
     public:
     // static public System.Boolean IsEnum(System.Type type)
-    // Offset: 0x15725AC
+    // Offset: 0x1510E1C
     static bool IsEnum(System::Type* type);
     // static public System.Boolean IsAbstract(System.Type type)
-    // Offset: 0x15725CC
+    // Offset: 0x1510E3C
     static bool IsAbstract(System::Type* type);
     // static public System.Boolean IsSealed(System.Type type)
-    // Offset: 0x15725E4
+    // Offset: 0x1510E54
     static bool IsSealed(System::Type* type);
     // static public System.Type BaseType(System.Type type)
-    // Offset: 0x15725FC
+    // Offset: 0x1510E6C
     static System::Type* BaseType(System::Type* type);
     // static public System.Reflection.Assembly Assembly(System.Type type)
-    // Offset: 0x157261C
+    // Offset: 0x1510E8C
     static System::Reflection::Assembly* Assembly(System::Type* type);
     // static public System.TypeCode GetTypeCode(System.Type type)
-    // Offset: 0x157263C
+    // Offset: 0x1510EAC
     static System::TypeCode GetTypeCode(System::Type* type);
     // static public System.Boolean ReflectionOnly(System.Reflection.Assembly assm)
-    // Offset: 0x15726A4
+    // Offset: 0x1510F14
     static bool ReflectionOnly(System::Reflection::Assembly* assm);
   }; // Microsoft.Reflection.ReflectionExtensions
 }

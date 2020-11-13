@@ -34,13 +34,13 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,Zenject.TypeValuePair> <>9__0_0
     static void _set_$$9__0_0(System::Func_2<System::Type*, Zenject::TypeValuePair>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1F3FF18
+    // Offset: 0x19D28FC
     static void _cctor();
     // Zenject.TypeValuePair <CreateDefaultArgs>b__0_0(System.Type x)
-    // Offset: 0x1F3FF88
+    // Offset: 0x19D296C
     Zenject::TypeValuePair $CreateDefaultArgs$b__0_0(System::Type* x);
     // public System.Void .ctor()
-    // Offset: 0x1F3FF80
+    // Offset: 0x19D2964
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ValidationUtil::$$c* New_ctor();

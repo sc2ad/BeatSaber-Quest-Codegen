@@ -34,15 +34,15 @@ namespace GlobalNamespace {
       return requestId;
     }
     // private System.Void set_requestId(System.UInt32 value)
-    // Offset: 0x2155B48
+    // Offset: 0x1B4361C
     void set_requestId(uint value);
     // public System.UInt32 get_requestId()
-    // Offset: 0x2155B40
+    // Offset: 0x1B43614
     // Implemented from: MasterServer.IMasterServerReliableRequest
     // Base method: System.UInt32 IMasterServerReliableRequest::get_requestId()
     uint get_requestId();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2155B50
+    // Offset: 0x1B43624
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Maps to method: Serialize
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2155B74
+    // Offset: 0x1B43648
     // Implemented from: LiteNetLib.Utils.INetSerializable
     // Base method: System.Void INetSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
@@ -63,12 +63,12 @@ namespace GlobalNamespace {
     // Base method: System.Void IPoolablePacket::Release()
     void Release();
     // private MasterServer.IMasterServerReliableRequest MasterServer.IMasterServerReliableRequest.WithRequestId(System.UInt32 requestId)
-    // Offset: 0x2155BA8
+    // Offset: 0x1B4367C
     // Implemented from: MasterServer.IMasterServerReliableRequest
     // Base method: MasterServer.IMasterServerReliableRequest IMasterServerReliableRequest::WithRequestId(System.UInt32 requestId)
     MasterServer::IMasterServerReliableRequest* MasterServer_IMasterServerReliableRequest_WithRequestId(uint requestId);
     // protected System.Void .ctor()
-    // Offset: 0x2155BB0
+    // Offset: 0x1B43684
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BaseMasterServerReliableRequest* New_ctor();

@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRSettings::_GetInt32 : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C8CFE4
+    // Offset: 0x190B1BC
     static IVRSettings::_GetInt32* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Int32 Invoke(System.String pchSection, System.String pchSettingsKey, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x1C8CFF8
+    // Offset: 0x190B1D0
     int Invoke(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, OVR::OpenVR::EVRSettingsError& peError);
     // public System.IAsyncResult BeginInvoke(System.String pchSection, System.String pchSettingsKey, ref OVR.OpenVR.EVRSettingsError peError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C8D428
+    // Offset: 0x190B600
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, OVR::OpenVR::EVRSettingsError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(ref OVR.OpenVR.EVRSettingsError peError, System.IAsyncResult result)
-    // Offset: 0x1C8D4D0
+    // Offset: 0x190B6A8
     int EndInvoke(OVR::OpenVR::EVRSettingsError& peError, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSettings/_GetInt32
 }

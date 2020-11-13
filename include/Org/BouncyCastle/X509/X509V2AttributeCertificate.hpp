@@ -45,29 +45,29 @@ namespace Org::BouncyCastle::X509 {
       return *reinterpret_cast<Org::BouncyCastle::X509::IX509AttributeCertificate*>(this);
     }
     // static private Org.BouncyCastle.Asn1.X509.AttributeCertificate GetObject(System.IO.Stream input)
-    // Offset: 0x1B3DFA8
+    // Offset: 0x18C62F8
     static Org::BouncyCastle::Asn1::X509::AttributeCertificate* GetObject(System::IO::Stream* input);
     // public System.Void .ctor(System.IO.Stream encIn)
-    // Offset: 0x1B3E0E0
+    // Offset: 0x18C6430
     static X509V2AttributeCertificate* New_ctor(System::IO::Stream* encIn);
     // public System.Void .ctor(System.Byte[] encoded)
-    // Offset: 0x1B3E2A8
+    // Offset: 0x18C65F8
     static X509V2AttributeCertificate* New_ctor(::Array<uint8_t>* encoded);
     // System.Void .ctor(Org.BouncyCastle.Asn1.X509.AttributeCertificate cert)
-    // Offset: 0x1B3E10C
+    // Offset: 0x18C645C
     static X509V2AttributeCertificate* New_ctor(Org::BouncyCastle::Asn1::X509::AttributeCertificate* cert);
     // protected override Org.BouncyCastle.Asn1.X509.X509Extensions GetX509Extensions()
-    // Offset: 0x1B3E328
+    // Offset: 0x18C6678
     // Implemented from: Org.BouncyCastle.X509.X509ExtensionBase
     // Base method: Org.BouncyCastle.Asn1.X509.X509Extensions X509ExtensionBase::GetX509Extensions()
     Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1B3E350
+    // Offset: 0x18C66A0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1B3E414
+    // Offset: 0x18C6764
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

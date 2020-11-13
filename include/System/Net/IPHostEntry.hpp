@@ -31,22 +31,22 @@ namespace System::Net {
     // Offset: 0x28
     bool isTrustedHost;
     // public System.String get_HostName()
-    // Offset: 0x1248264
+    // Offset: 0x12BD360
     ::Il2CppString* get_HostName();
     // public System.Void set_HostName(System.String value)
-    // Offset: 0x124826C
+    // Offset: 0x12BD368
     void set_HostName(::Il2CppString* value);
     // public System.Void set_Aliases(System.String[] value)
-    // Offset: 0x1248274
+    // Offset: 0x12BD370
     void set_Aliases(::Array<::Il2CppString*>* value);
     // public System.Net.IPAddress[] get_AddressList()
-    // Offset: 0x124827C
+    // Offset: 0x12BD378
     ::Array<System::Net::IPAddress*>* get_AddressList();
     // public System.Void set_AddressList(System.Net.IPAddress[] value)
-    // Offset: 0x1248284
+    // Offset: 0x12BD380
     void set_AddressList(::Array<System::Net::IPAddress*>* value);
     // public System.Void .ctor()
-    // Offset: 0x124828C
+    // Offset: 0x12BD388
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IPHostEntry* New_ctor();

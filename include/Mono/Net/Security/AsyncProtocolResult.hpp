@@ -25,16 +25,16 @@ namespace Mono::Net::Security {
     // Offset: 0x18
     System::Runtime::ExceptionServices::ExceptionDispatchInfo* Error;
     // public System.Int32 get_UserResult()
-    // Offset: 0x11F0654
+    // Offset: 0x126570C
     int get_UserResult();
     // public System.Runtime.ExceptionServices.ExceptionDispatchInfo get_Error()
-    // Offset: 0x11F065C
+    // Offset: 0x1265714
     System::Runtime::ExceptionServices::ExceptionDispatchInfo* get_Error();
     // public System.Void .ctor(System.Int32 result)
-    // Offset: 0x11F041C
+    // Offset: 0x12654D4
     static AsyncProtocolResult* New_ctor(int result);
     // public System.Void .ctor(System.Runtime.ExceptionServices.ExceptionDispatchInfo error)
-    // Offset: 0x11F05C0
+    // Offset: 0x1265678
     static AsyncProtocolResult* New_ctor(System::Runtime::ExceptionServices::ExceptionDispatchInfo* error);
   }; // Mono.Net.Security.AsyncProtocolResult
 }

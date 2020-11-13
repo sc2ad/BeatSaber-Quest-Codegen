@@ -27,7 +27,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x18
     ::Il2CppString* assemblyName;
     // public System.Void .ctor()
-    // Offset: 0x129A660
+    // Offset: 0x12F9E4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ObjectReader::TypeNAssembly* New_ctor();

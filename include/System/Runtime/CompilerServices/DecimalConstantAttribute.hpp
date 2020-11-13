@@ -23,10 +23,10 @@ namespace System::Runtime::CompilerServices {
       return dec;
     }
     // public System.Void .ctor(System.Byte scale, System.Byte sign, System.UInt32 hi, System.UInt32 mid, System.UInt32 low)
-    // Offset: 0x108C794
+    // Offset: 0x11630C4
     static DecimalConstantAttribute* New_ctor(uint8_t scale, uint8_t sign, uint hi, uint mid, uint low);
     // public System.Decimal get_Value()
-    // Offset: 0x108C814
+    // Offset: 0x1163144
     System::Decimal get_Value();
   }; // System.Runtime.CompilerServices.DecimalConstantAttribute
 }

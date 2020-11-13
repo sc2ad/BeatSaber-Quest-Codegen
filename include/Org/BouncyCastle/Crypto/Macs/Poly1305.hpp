@@ -93,46 +93,46 @@ namespace Org::BouncyCastle::Crypto::Macs {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);
     }
     // private System.Void SetKey(System.Byte[] key, System.Byte[] nonce)
-    // Offset: 0x14B57C0
+    // Offset: 0x14A0960
     void SetKey(::Array<uint8_t>* key, ::Array<uint8_t>* nonce);
     // private System.Void ProcessBlock()
-    // Offset: 0x14B5C3C
+    // Offset: 0x14A0DDC
     void ProcessBlock();
     // static private System.UInt64 mul32x32_64(System.UInt32 i1, System.UInt32 i2)
-    // Offset: 0x14B5E6C
+    // Offset: 0x14A100C
     static uint64_t mul32x32_64(uint i1, uint i2);
     // public System.Void .ctor()
-    // Offset: 0x14B55A8
+    // Offset: 0x14A0748
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Poly1305* New_ctor();
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x14B5644
+    // Offset: 0x14A07E4
     // Implemented from: Org.BouncyCastle.Crypto.IMac
     // Base method: System.Void IMac::Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetMacSize()
-    // Offset: 0x14B5AFC
+    // Offset: 0x14A0C9C
     // Implemented from: Org.BouncyCastle.Crypto.IMac
     // Base method: System.Int32 IMac::GetMacSize()
     int GetMacSize();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x14B5B04
+    // Offset: 0x14A0CA4
     // Implemented from: Org.BouncyCastle.Crypto.IMac
     // Base method: System.Void IMac::Update(System.Byte input)
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x14B5B44
+    // Offset: 0x14A0CE4
     // Implemented from: Org.BouncyCastle.Crypto.IMac
     // Base method: System.Void IMac::BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
     void BlockUpdate(::Array<uint8_t>* input, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x14B5E74
+    // Offset: 0x14A1014
     // Implemented from: Org.BouncyCastle.Crypto.IMac
     // Base method: System.Int32 IMac::DoFinal(System.Byte[] output, System.Int32 outOff)
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x14B5AF0
+    // Offset: 0x14A0C90
     // Implemented from: Org.BouncyCastle.Crypto.IMac
     // Base method: System.Void IMac::Reset()
     void Reset();

@@ -31,10 +31,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
     // public Org.BouncyCastle.Crypto.Parameters.KeyParameter get_Key()
-    // Offset: 0xF4E6D0
+    // Offset: 0x104A0DC
     Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
     // public System.Byte[] get_Tweak()
-    // Offset: 0xF4E6D8
+    // Offset: 0x104A0E4
     ::Array<uint8_t>* get_Tweak();
   }; // Org.BouncyCastle.Crypto.Parameters.TweakableBlockCipherParameters
 }

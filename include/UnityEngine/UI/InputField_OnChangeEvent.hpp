@@ -16,7 +16,7 @@ namespace UnityEngine::UI {
   class InputField::OnChangeEvent : public UnityEngine::Events::UnityEvent_1<::Il2CppString*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x15DB2B0
+    // Offset: 0x155F954
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

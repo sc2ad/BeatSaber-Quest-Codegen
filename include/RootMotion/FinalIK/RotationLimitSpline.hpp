@@ -30,30 +30,30 @@ namespace RootMotion::FinalIK {
     // Offset: 0x40
     UnityEngine::AnimationCurve* spline;
     // private System.Void OpenUserManual()
-    // Offset: 0x1695494
+    // Offset: 0x15E9058
     void OpenUserManual();
     // private System.Void OpenScriptReference()
-    // Offset: 0x16954E0
+    // Offset: 0x15E90A4
     void OpenScriptReference();
     // private System.Void SupportGroup()
-    // Offset: 0x169552C
+    // Offset: 0x15E90F0
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x1695578
+    // Offset: 0x15E913C
     void ASThread();
     // public System.Void SetSpline(UnityEngine.Keyframe[] keyframes)
-    // Offset: 0x16955C4
+    // Offset: 0x15E9188
     void SetSpline(::Array<UnityEngine::Keyframe>* keyframes);
     // public UnityEngine.Quaternion LimitSwing(UnityEngine.Quaternion rotation)
-    // Offset: 0x1695698
+    // Offset: 0x15E925C
     UnityEngine::Quaternion LimitSwing(UnityEngine::Quaternion rotation);
     // protected override UnityEngine.Quaternion LimitRotation(UnityEngine.Quaternion rotation)
-    // Offset: 0x16955E0
+    // Offset: 0x15E91A4
     // Implemented from: RootMotion.FinalIK.RotationLimit
     // Base method: UnityEngine.Quaternion RotationLimit::LimitRotation(UnityEngine.Quaternion rotation)
     UnityEngine::Quaternion LimitRotation(UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
-    // Offset: 0x16959C4
+    // Offset: 0x15E9588
     // Implemented from: RootMotion.FinalIK.RotationLimit
     // Base method: System.Void RotationLimit::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

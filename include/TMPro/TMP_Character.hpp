@@ -21,13 +21,13 @@ namespace TMPro {
   class TMP_Character : public TMPro::TMP_TextElement {
     public:
     // public System.Void .ctor(System.UInt32 unicode, UnityEngine.TextCore.Glyph glyph)
-    // Offset: 0xEBD6D8
+    // Offset: 0xF527B0
     static TMP_Character* New_ctor(uint unicode, UnityEngine::TextCore::Glyph* glyph);
     // System.Void .ctor(System.UInt32 unicode, System.UInt32 glyphIndex)
-    // Offset: 0xEBD744
+    // Offset: 0xF5281C
     static TMP_Character* New_ctor(uint unicode, uint glyphIndex);
     // public System.Void .ctor()
-    // Offset: 0xEBD6A4
+    // Offset: 0xF5277C
     // Implemented from: TMPro.TMP_TextElement
     // Base method: System.Void TMP_TextElement::.ctor()
     // Base method: System.Void Object::.ctor()

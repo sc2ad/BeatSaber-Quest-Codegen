@@ -31,19 +31,19 @@ namespace UnityEngine::EventSystems {
       return m_TrackedButtons;
     }
     // public System.Boolean AnyPressesThisFrame()
-    // Offset: 0x107BB8C
+    // Offset: 0x11524BC
     bool AnyPressesThisFrame();
     // public System.Boolean AnyReleasesThisFrame()
-    // Offset: 0x107BC40
+    // Offset: 0x1152570
     bool AnyReleasesThisFrame();
     // public UnityEngine.EventSystems.PointerInputModule/ButtonState GetButtonState(UnityEngine.EventSystems.PointerEventData/InputButton button)
-    // Offset: 0x107BCF4
+    // Offset: 0x1152624
     UnityEngine::EventSystems::PointerInputModule::ButtonState* GetButtonState(UnityEngine::EventSystems::PointerEventData::InputButton button);
     // public System.Void SetButtonState(UnityEngine.EventSystems.PointerEventData/InputButton button, UnityEngine.EventSystems.PointerEventData/FramePressState stateForMouseButton, UnityEngine.EventSystems.PointerEventData data)
-    // Offset: 0x107B0E8
+    // Offset: 0x1151A18
     void SetButtonState(UnityEngine::EventSystems::PointerEventData::InputButton button, UnityEngine::EventSystems::PointerEventData::FramePressState stateForMouseButton, UnityEngine::EventSystems::PointerEventData* data);
     // public System.Void .ctor()
-    // Offset: 0x107BAB8
+    // Offset: 0x11523E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PointerInputModule::MouseState* New_ctor();

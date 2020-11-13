@@ -23,10 +23,10 @@ namespace UnityEngine::Networking::PlayerConnection {
       return messageId;
     }
     // System.Boolean <AddAndCreate>b__0(UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers x)
-    // Offset: 0x193D218
+    // Offset: 0x172F244
     bool $AddAndCreate$b__0(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageTypeSubscribers* x);
     // public System.Void .ctor()
-    // Offset: 0x193CFFC
+    // Offset: 0x172F028
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerEditorConnectionEvents::$$c__DisplayClass7_0* New_ctor();

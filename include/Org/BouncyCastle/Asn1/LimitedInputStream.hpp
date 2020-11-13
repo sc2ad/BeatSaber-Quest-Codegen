@@ -26,13 +26,13 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x38
     int limit;
     // System.Void .ctor(System.IO.Stream inStream, System.Int32 limit)
-    // Offset: 0x14031FC
+    // Offset: 0x13F50F4
     static LimitedInputStream* New_ctor(System::IO::Stream* inStream, int limit);
     // System.Int32 get_Limit()
-    // Offset: 0x1403D44
+    // Offset: 0x13F5C3C
     int get_Limit();
     // protected System.Void SetParentEofDetect(System.Boolean on)
-    // Offset: 0x1403D4C
+    // Offset: 0x13F5C44
     void SetParentEofDetect(bool on);
   }; // Org.BouncyCastle.Asn1.LimitedInputStream
 }

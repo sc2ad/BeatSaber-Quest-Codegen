@@ -29,26 +29,26 @@ namespace System::Security::Cryptography {
     // Offset: 0x18
     ::Il2CppString* hashName;
     // public System.Void .ctor(System.Security.Cryptography.AsymmetricAlgorithm key)
-    // Offset: 0x177F464
+    // Offset: 0x169F958
     static RSAPKCS1SignatureDeformatter* New_ctor(System::Security::Cryptography::AsymmetricAlgorithm* key);
     // public System.Void .ctor()
-    // Offset: 0x177F45C
+    // Offset: 0x169F950
     // Implemented from: System.Security.Cryptography.AsymmetricSignatureDeformatter
     // Base method: System.Void AsymmetricSignatureDeformatter::.ctor()
     // Base method: System.Void Object::.ctor()
     static RSAPKCS1SignatureDeformatter* New_ctor();
     // public override System.Void SetHashAlgorithm(System.String strName)
-    // Offset: 0x177F49C
+    // Offset: 0x169F990
     // Implemented from: System.Security.Cryptography.AsymmetricSignatureDeformatter
     // Base method: System.Void AsymmetricSignatureDeformatter::SetHashAlgorithm(System.String strName)
     void SetHashAlgorithm(::Il2CppString* strName);
     // public override System.Void SetKey(System.Security.Cryptography.AsymmetricAlgorithm key)
-    // Offset: 0x177F534
+    // Offset: 0x169FA28
     // Implemented from: System.Security.Cryptography.AsymmetricSignatureDeformatter
     // Base method: System.Void AsymmetricSignatureDeformatter::SetKey(System.Security.Cryptography.AsymmetricAlgorithm key)
     void SetKey(System::Security::Cryptography::AsymmetricAlgorithm* key);
     // public override System.Boolean VerifySignature(System.Byte[] rgbHash, System.Byte[] rgbSignature)
-    // Offset: 0x177F608
+    // Offset: 0x169FAFC
     // Implemented from: System.Security.Cryptography.AsymmetricSignatureDeformatter
     // Base method: System.Boolean AsymmetricSignatureDeformatter::VerifySignature(System.Byte[] rgbHash, System.Byte[] rgbSignature)
     bool VerifySignature(::Array<uint8_t>* rgbHash, ::Array<uint8_t>* rgbSignature);

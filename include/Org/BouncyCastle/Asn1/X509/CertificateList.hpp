@@ -50,40 +50,40 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x20
     Org::BouncyCastle::Asn1::DerBitString* sig;
     // static public Org.BouncyCastle.Asn1.X509.CertificateList GetInstance(System.Object obj)
-    // Offset: 0x160A2D0
+    // Offset: 0x15790CC
     static Org::BouncyCastle::Asn1::X509::CertificateList* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x160A374
+    // Offset: 0x1579170
     static CertificateList* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public Org.BouncyCastle.Asn1.X509.TbsCertificateList get_TbsCertList()
-    // Offset: 0x160A65C
+    // Offset: 0x1579458
     Org::BouncyCastle::Asn1::X509::TbsCertificateList* get_TbsCertList();
     // public System.Collections.IEnumerable GetRevokedCertificateEnumeration()
-    // Offset: 0x160A664
+    // Offset: 0x1579460
     System::Collections::IEnumerable* GetRevokedCertificateEnumeration();
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_SignatureAlgorithm()
-    // Offset: 0x160A724
+    // Offset: 0x1579520
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_SignatureAlgorithm();
     // public Org.BouncyCastle.Asn1.DerBitString get_Signature()
-    // Offset: 0x160A72C
+    // Offset: 0x1579528
     Org::BouncyCastle::Asn1::DerBitString* get_Signature();
     // public System.Byte[] GetSignatureOctets()
-    // Offset: 0x160A734
+    // Offset: 0x1579530
     ::Array<uint8_t>* GetSignatureOctets();
     // public System.Int32 get_Version()
-    // Offset: 0x160A754
+    // Offset: 0x1579550
     int get_Version();
     // public Org.BouncyCastle.Asn1.X509.X509Name get_Issuer()
-    // Offset: 0x160A794
+    // Offset: 0x1579590
     Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
     // public Org.BouncyCastle.Asn1.X509.Time get_ThisUpdate()
-    // Offset: 0x160A7B0
+    // Offset: 0x15795AC
     Org::BouncyCastle::Asn1::X509::Time* get_ThisUpdate();
     // public Org.BouncyCastle.Asn1.X509.Time get_NextUpdate()
-    // Offset: 0x160A7CC
+    // Offset: 0x15795C8
     Org::BouncyCastle::Asn1::X509::Time* get_NextUpdate();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x160A7E8
+    // Offset: 0x15795E4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

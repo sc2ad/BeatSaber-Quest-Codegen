@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVROverlay::_SetOverlayNeighbor : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C9A740
+    // Offset: 0x1918918
     static IVROverlay::_SetOverlayNeighbor* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(Valve.VR.EOverlayDirection eDirection, System.UInt64 ulFrom, System.UInt64 ulTo)
-    // Offset: 0x1C9A754
+    // Offset: 0x191892C
     Valve::VR::EVROverlayError Invoke(Valve::VR::EOverlayDirection eDirection, uint64_t ulFrom, uint64_t ulTo);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EOverlayDirection eDirection, System.UInt64 ulFrom, System.UInt64 ulTo, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C9AA00
+    // Offset: 0x1918BD8
     System::IAsyncResult* BeginInvoke(Valve::VR::EOverlayDirection eDirection, uint64_t ulFrom, uint64_t ulTo, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C9AAC0
+    // Offset: 0x1918C98
     Valve::VR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetOverlayNeighbor
 }

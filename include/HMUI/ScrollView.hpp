@@ -187,70 +187,70 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Single get_scrollPageHeight()
-    // Offset: 0x216F7E0
+    // Offset: 0x107F664
     float get_scrollPageHeight();
     // private System.Single get_contentHeight()
-    // Offset: 0x216F824
+    // Offset: 0x107F6A8
     float get_contentHeight();
     // protected System.Void Awake()
-    // Offset: 0x216F868
+    // Offset: 0x107F6EC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x216FE54
+    // Offset: 0x107FCD8
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x2170034
+    // Offset: 0x107FEB8
     void Update();
     // protected System.Void SetContentHeight(System.Single contentHeight)
-    // Offset: 0x216FBCC
+    // Offset: 0x107FA50
     void SetContentHeight(float contentHeight);
     // public System.Void ScrollDown(System.Boolean animated)
-    // Offset: 0x2170228
+    // Offset: 0x10800AC
     void ScrollDown(bool animated);
     // public System.Void ScrollToWorldPosition(UnityEngine.Vector3 worldPosition, System.Single pageRelativePosition, System.Boolean animated)
-    // Offset: 0x217026C
+    // Offset: 0x10800F0
     void ScrollToWorldPosition(UnityEngine::Vector3 worldPosition, float pageRelativePosition, bool animated);
     // public System.Void ScrollToWorldPositionIfOutsideArea(UnityEngine.Vector3 worldPosition, System.Single pageRelativePosition, System.Single relativeBoundaryStart, System.Single relativeBoundaryEnd, System.Boolean animated)
-    // Offset: 0x21703E4
+    // Offset: 0x1080268
     void ScrollToWorldPositionIfOutsideArea(UnityEngine::Vector3 worldPosition, float pageRelativePosition, float relativeBoundaryStart, float relativeBoundaryEnd, bool animated);
     // public System.Void ScrollTo(System.Single destinationPosY, System.Boolean animated)
-    // Offset: 0x216F75C
+    // Offset: 0x107F5E0
     void ScrollTo(float destinationPosY, bool animated);
     // private UnityEngine.Vector2 WorldPositionToScrollViewPosition(UnityEngine.Vector3 worldPosition)
-    // Offset: 0x21702B8
+    // Offset: 0x108013C
     UnityEngine::Vector2 WorldPositionToScrollViewPosition(UnityEngine::Vector3 worldPosition);
     // private System.Void SetDestinationPosY(System.Single value)
-    // Offset: 0x2170498
+    // Offset: 0x108031C
     void SetDestinationPosY(float value);
     // private System.Void UpdateVerticalScrollIndicator(System.Single posY)
-    // Offset: 0x2170164
+    // Offset: 0x107FFE8
     void UpdateVerticalScrollIndicator(float posY);
     // private System.Void PageUpButtonPressed()
-    // Offset: 0x2170548
+    // Offset: 0x10803CC
     void PageUpButtonPressed();
     // private System.Void PageDownButtonPressed()
-    // Offset: 0x2170720
+    // Offset: 0x10805A4
     void PageDownButtonPressed();
     // private System.Void RefreshButtons()
-    // Offset: 0x216FDC8
+    // Offset: 0x107FC4C
     void RefreshButtons();
     // private System.Void HandlePointerDidEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x2170928
+    // Offset: 0x10807AC
     void HandlePointerDidEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // private System.Void HandlePointerDidExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x2170AC8
+    // Offset: 0x108094C
     void HandlePointerDidExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // private System.Void HandleJoystickWasNotCenteredThisFrame(UnityEngine.Vector2 deltaPos)
-    // Offset: 0x2170FC8
+    // Offset: 0x1080E4C
     void HandleJoystickWasNotCenteredThisFrame(UnityEngine::Vector2 deltaPos);
     // private System.Void HandleJoystickWasCenteredThisFrame()
-    // Offset: 0x2170C78
+    // Offset: 0x1080AFC
     void HandleJoystickWasCenteredThisFrame();
     // private System.Single <Awake>b__25_0(HMUI.ItemForFocussedScrolling item)
-    // Offset: 0x21710E4
+    // Offset: 0x1080F68
     float $Awake$b__25_0(HMUI::ItemForFocussedScrolling* item);
     // public System.Void .ctor()
-    // Offset: 0x21710B4
+    // Offset: 0x1080F38
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

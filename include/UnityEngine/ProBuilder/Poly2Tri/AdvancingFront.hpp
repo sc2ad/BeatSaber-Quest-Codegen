@@ -30,28 +30,28 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0x20
     UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Search;
     // public System.Void .ctor(UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode head, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode tail)
-    // Offset: 0x1F1581C
+    // Offset: 0x19AB434
     static AdvancingFront* New_ctor(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* head, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* tail);
     // public System.Void AddNode(UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x1F1587C
+    // Offset: 0x19AB494
     void AddNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // public System.Void RemoveNode(UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x1F15880
+    // Offset: 0x19AB498
     void RemoveNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // private UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode FindSearchNode(System.Double x)
-    // Offset: 0x1F1596C
+    // Offset: 0x19AB584
     UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* FindSearchNode(double x);
     // public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode LocateNode(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point)
-    // Offset: 0x1F15974
+    // Offset: 0x19AB58C
     UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocateNode(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
     // private UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode LocateNode(System.Double x)
-    // Offset: 0x1F1598C
+    // Offset: 0x19AB5A4
     UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocateNode(double x);
     // public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode LocatePoint(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point)
-    // Offset: 0x1F15A08
+    // Offset: 0x19AB620
     UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocatePoint(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
     // public override System.String ToString()
-    // Offset: 0x1F15884
+    // Offset: 0x19AB49C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

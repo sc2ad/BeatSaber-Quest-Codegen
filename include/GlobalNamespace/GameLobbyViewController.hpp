@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class GameLobbyViewController : public HMUI::StackedController {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1FFF2CC
+    // Offset: 0x1A19590
     // Implemented from: HMUI.StackedController
     // Base method: System.Void StackedController::.ctor()
     // Base method: System.Void ContainerViewController::.ctor()

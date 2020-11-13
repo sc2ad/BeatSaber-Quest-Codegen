@@ -27,26 +27,26 @@ namespace System::Runtime::Remoting {
   class RemotingException : public System::SystemException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x12D8894
+    // Offset: 0x1338080
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static RemotingException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x12CB1E4
+    // Offset: 0x132A9D0
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static RemotingException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x12D889C
+    // Offset: 0x1338088
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static RemotingException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Void .ctor(System.String message, System.Exception InnerException)
-    // Offset: 0x12D88A4
+    // Offset: 0x1338090
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception InnerException)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception InnerException)

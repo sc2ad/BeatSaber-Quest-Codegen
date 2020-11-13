@@ -33,23 +33,23 @@ namespace Org::BouncyCastle::Asn1 {
     // Set static field: static private readonly System.Char[] table
     static void _set_table(::Array<::Il2CppChar>* value);
     // public System.Void .ctor(System.Byte[] str)
-    // Offset: 0x1315EB0
+    // Offset: 0x137469C
     static DerUniversalString* New_ctor(::Array<uint8_t>* str);
     // static private System.Void .cctor()
-    // Offset: 0x1326FFC
+    // Offset: 0x13857E8
     static void _cctor();
     // public override System.String GetString()
-    // Offset: 0x1326D94
+    // Offset: 0x1385580
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::GetString()
     ::Il2CppString* GetString();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x1326F00
+    // Offset: 0x13856EC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x1326F24
+    // Offset: 0x1385710
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);

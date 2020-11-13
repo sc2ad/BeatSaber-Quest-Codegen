@@ -55,13 +55,13 @@ namespace Zenject {
       return *reinterpret_cast<Zenject::ISubContainerCreator*>(this);
     }
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SubContainerCreatorBindInfo containerBindInfo, System.Type installerType, System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArgs)
-    // Offset: 0x12F6210
+    // Offset: 0x13559FC
     static SubContainerCreatorByInstaller* New_ctor(Zenject::DiContainer* container, Zenject::SubContainerCreatorBindInfo* containerBindInfo, System::Type* installerType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>* extraArgs);
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SubContainerCreatorBindInfo containerBindInfo, System.Type installerType)
-    // Offset: 0x12F4F48
+    // Offset: 0x1354734
     static SubContainerCreatorByInstaller* New_ctor(Zenject::DiContainer* container, Zenject::SubContainerCreatorBindInfo* containerBindInfo, System::Type* installerType);
     // public Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
-    // Offset: 0x12F631C
+    // Offset: 0x1355B08
     // Implemented from: Zenject.ISubContainerCreator
     // Base method: Zenject.DiContainer ISubContainerCreator::CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* context);

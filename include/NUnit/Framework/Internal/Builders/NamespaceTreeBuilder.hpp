@@ -36,25 +36,25 @@ namespace NUnit::Framework::Internal::Builders {
     // Offset: 0x18
     NUnit::Framework::Internal::TestSuite* rootSuite;
     // public System.Void .ctor(NUnit.Framework.Internal.TestSuite rootSuite)
-    // Offset: 0x13B3F50
+    // Offset: 0x13D98E8
     static NamespaceTreeBuilder* New_ctor(NUnit::Framework::Internal::TestSuite* rootSuite);
     // public NUnit.Framework.Internal.TestSuite get_RootSuite()
-    // Offset: 0x13B42A0
+    // Offset: 0x13D9C38
     NUnit::Framework::Internal::TestSuite* get_RootSuite();
     // public System.Void Add(System.Collections.Generic.IList`1<NUnit.Framework.Internal.Test> fixtures)
-    // Offset: 0x13B3FE8
+    // Offset: 0x13D9980
     void Add(System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>* fixtures);
     // public System.Void Add(NUnit.Framework.Internal.TestSuite fixture)
-    // Offset: 0x13C7658
+    // Offset: 0x13ECFF0
     void Add(NUnit::Framework::Internal::TestSuite* fixture);
     // static private System.String GetNamespaceForFixture(NUnit.Framework.Internal.TestSuite fixture)
-    // Offset: 0x13C7728
+    // Offset: 0x13ED0C0
     static ::Il2CppString* GetNamespaceForFixture(NUnit::Framework::Internal::TestSuite* fixture);
     // private NUnit.Framework.Internal.TestSuite BuildFromNameSpace(System.String ns)
-    // Offset: 0x13C7844
+    // Offset: 0x13ED1DC
     NUnit::Framework::Internal::TestSuite* BuildFromNameSpace(::Il2CppString* ns);
     // private System.Void AddSetUpFixture(NUnit.Framework.Internal.TestSuite newSetupFixture, NUnit.Framework.Internal.TestSuite containingSuite, System.String ns)
-    // Offset: 0x13C7A0C
+    // Offset: 0x13ED3A4
     void AddSetUpFixture(NUnit::Framework::Internal::TestSuite* newSetupFixture, NUnit::Framework::Internal::TestSuite* containingSuite, ::Il2CppString* ns);
   }; // NUnit.Framework.Internal.Builders.NamespaceTreeBuilder
 }

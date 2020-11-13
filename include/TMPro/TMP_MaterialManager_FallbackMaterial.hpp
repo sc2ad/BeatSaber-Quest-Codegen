@@ -36,7 +36,7 @@ namespace TMPro {
     // Offset: 0x30
     int count;
     // public System.Void .ctor()
-    // Offset: 0xED93A8
+    // Offset: 0xF85AF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_MaterialManager::FallbackMaterial* New_ctor();

@@ -7,8 +7,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: UnityEngine.Color
-#include "UnityEngine/Color.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -16,11 +14,10 @@ namespace GlobalNamespace {
   // Forward declaring type: LightWithIdManager
   class LightWithIdManager;
 }
-// Forward declaring namespace: System::Collections::Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
-  class Dictionary_2;
+// Forward declaring namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: Color
+  struct Color;
 }
 // Completed forward declares
 // Type namespace: 
@@ -39,34 +36,37 @@ namespace GlobalNamespace {
     // private LightWithIds/LightIntensityData[] _lightIntensityData
     // Offset: 0x20
     ::Array<GlobalNamespace::LightWithIds::LightIntensityData*>* lightIntensityData;
-    // private LightWithIdManager _lightManager
+    // private readonly LightWithIdManager _lightManager
     // Offset: 0x28
     GlobalNamespace::LightWithIdManager* lightManager;
-    // private System.Collections.Generic.Dictionary`2<System.Int32,System.Single> _intensities
+    // private System.Boolean _isRegistered
     // Offset: 0x30
-    System::Collections::Generic::Dictionary_2<int, float>* intensities;
-    // private UnityEngine.Color _color
-    // Offset: 0x38
-    UnityEngine::Color color;
-    // private System.Int32 _lastRefreshColorFrameNum
-    // Offset: 0x48
-    int lastRefreshColorFrameNum;
+    bool isRegistered;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1CFFB60
+    // Offset: 0x187CBB0
     void Start();
-    // protected System.Void OnValidate()
-    // Offset: 0x1CFFC54
-    void OnValidate();
-    // protected UnityEngine.Color RefreshAndGetColor()
-    // Offset: 0x1CF7758
-    UnityEngine::Color RefreshAndGetColor();
-    // private System.Void RefreshLightColor()
-    // Offset: 0x1CFFD1C
-    void RefreshLightColor();
+    // protected System.Void OnEnable()
+    // Offset: 0x187CCDC
+    void OnEnable();
+    // private System.Void RegisterForColorChanges()
+    // Offset: 0x187CBB4
+    void RegisterForColorChanges();
+    // protected System.Void OnDisable()
+    // Offset: 0x187CCE0
+    void OnDisable();
+    // protected System.Void ColorWasSet(UnityEngine.Color color)
+    // Offset: 0xFFFFFFFF
+    void ColorWasSet(UnityEngine::Color color);
+    // private System.Void HandleLightManagerDidChangeSomeColorsThisFrame()
+    // Offset: 0x187CDFC
+    void HandleLightManagerDidChangeSomeColorsThisFrame();
+    // private UnityEngine.Color GetLightColor()
+    // Offset: 0x187CE28
+    UnityEngine::Color GetLightColor();
     // protected System.Void .ctor()
-    // Offset: 0x1CF77BC
+    // Offset: 0x18790A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

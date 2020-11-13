@@ -58,6 +58,12 @@ namespace UnityEngine::Timeline {
     static UnityEngine::Timeline::ClipCaps _get_Blending();
     // Set static field: static public UnityEngine.Timeline.ClipCaps Blending
     static void _set_Blending(UnityEngine::Timeline::ClipCaps value);
+    // static field const value: static public UnityEngine.Timeline.ClipCaps AutoScale
+    static constexpr const int AutoScale = 40;
+    // Get static field: static public UnityEngine.Timeline.ClipCaps AutoScale
+    static UnityEngine::Timeline::ClipCaps _get_AutoScale();
+    // Set static field: static public UnityEngine.Timeline.ClipCaps AutoScale
+    static void _set_AutoScale(UnityEngine::Timeline::ClipCaps value);
     // static field const value: static public UnityEngine.Timeline.ClipCaps All
     static constexpr const int All = -1;
     // Get static field: static public UnityEngine.Timeline.ClipCaps All

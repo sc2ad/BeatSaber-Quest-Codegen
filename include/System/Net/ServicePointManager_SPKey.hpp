@@ -30,18 +30,18 @@ namespace System::Net {
     // Offset: 0x20
     bool use_connect;
     // public System.Void .ctor(System.Uri uri, System.Uri proxy, System.Boolean use_connect)
-    // Offset: 0x10CF6AC
+    // Offset: 0x11A4FDC
     static ServicePointManager::SPKey* New_ctor(System::Uri* uri, System::Uri* proxy, bool use_connect);
     // public System.Boolean get_UsesProxy()
-    // Offset: 0x10CFAA4
+    // Offset: 0x11A53D4
     bool get_UsesProxy();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x10CFB14
+    // Offset: 0x11A5444
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x10CFBF8
+    // Offset: 0x11A5528
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

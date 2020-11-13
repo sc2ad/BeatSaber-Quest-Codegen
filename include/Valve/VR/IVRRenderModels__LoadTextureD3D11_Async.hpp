@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRRenderModels::_LoadTextureD3D11_Async : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1CA2D68
+    // Offset: 0x1920F40
     static IVRRenderModels::_LoadTextureD3D11_Async* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRRenderModelError Invoke(System.Int32 textureId, System.IntPtr pD3D11Device, ref System.IntPtr ppD3D11Texture2D)
-    // Offset: 0x1CA2D7C
+    // Offset: 0x1920F54
     Valve::VR::EVRRenderModelError Invoke(int textureId, System::IntPtr pD3D11Device, System::IntPtr& ppD3D11Texture2D);
     // public System.IAsyncResult BeginInvoke(System.Int32 textureId, System.IntPtr pD3D11Device, ref System.IntPtr ppD3D11Texture2D, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1CA3028
+    // Offset: 0x1921200
     System::IAsyncResult* BeginInvoke(int textureId, System::IntPtr pD3D11Device, System::IntPtr& ppD3D11Texture2D, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRRenderModelError EndInvoke(ref System.IntPtr ppD3D11Texture2D, System.IAsyncResult result)
-    // Offset: 0x1CA30F0
+    // Offset: 0x19212C8
     Valve::VR::EVRRenderModelError EndInvoke(System::IntPtr& ppD3D11Texture2D, System::IAsyncResult* result);
   }; // Valve.VR.IVRRenderModels/_LoadTextureD3D11_Async
 }

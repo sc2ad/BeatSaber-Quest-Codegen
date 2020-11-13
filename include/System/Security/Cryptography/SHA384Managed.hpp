@@ -30,63 +30,63 @@ namespace System::Security::Cryptography {
     // Set static field: static private readonly System.UInt64[] _K
     static void _set__K(::Array<uint64_t>* value);
     // private System.Void InitializeState()
-    // Offset: 0x1205450
+    // Offset: 0x127A508
     void InitializeState();
     // private System.Void _HashData(System.Byte[] partIn, System.Int32 ibStart, System.Int32 cbSize)
-    // Offset: 0x1205604
+    // Offset: 0x127A6BC
     void _HashData(::Array<uint8_t>* partIn, int ibStart, int cbSize);
     // private System.Byte[] _EndHash()
-    // Offset: 0x1205820
+    // Offset: 0x127A8D8
     ::Array<uint8_t>* _EndHash();
     // static private System.Void SHATransform(System.UInt64* expandedBuffer, System.UInt64* state, System.Byte* block)
-    // Offset: 0x12059E8
+    // Offset: 0x127AAA0
     static void SHATransform(uint64_t* expandedBuffer, uint64_t* state, uint8_t* block);
     // static private System.UInt64 RotateRight(System.UInt64 x, System.Int32 n)
-    // Offset: 0x12063B8
+    // Offset: 0x127B470
     static uint64_t RotateRight(uint64_t x, int n);
     // static private System.UInt64 Ch(System.UInt64 x, System.UInt64 y, System.UInt64 z)
-    // Offset: 0x1206328
+    // Offset: 0x127B3E0
     static uint64_t Ch(uint64_t x, uint64_t y, uint64_t z);
     // static private System.UInt64 Maj(System.UInt64 x, System.UInt64 y, System.UInt64 z)
-    // Offset: 0x12063A4
+    // Offset: 0x127B45C
     static uint64_t Maj(uint64_t x, uint64_t y, uint64_t z);
     // static private System.UInt64 Sigma_0(System.UInt64 x)
-    // Offset: 0x1206338
+    // Offset: 0x127B3F0
     static uint64_t Sigma_0(uint64_t x);
     // static private System.UInt64 Sigma_1(System.UInt64 x)
-    // Offset: 0x12062BC
+    // Offset: 0x127B374
     static uint64_t Sigma_1(uint64_t x);
     // static private System.UInt64 sigma_0(System.UInt64 x)
-    // Offset: 0x12063C0
+    // Offset: 0x127B478
     static uint64_t sigma_0(uint64_t x);
     // static private System.UInt64 sigma_1(System.UInt64 x)
-    // Offset: 0x120642C
+    // Offset: 0x127B4E4
     static uint64_t sigma_1(uint64_t x);
     // static private System.Void SHA384Expand(System.UInt64* x)
-    // Offset: 0x1206204
+    // Offset: 0x127B2BC
     static void SHA384Expand(uint64_t* x);
     // static private System.Void .cctor()
-    // Offset: 0x1206498
+    // Offset: 0x127B550
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1205338
+    // Offset: 0x127A3F0
     // Implemented from: System.Security.Cryptography.SHA384
     // Base method: System.Void SHA384::.ctor()
     // Base method: System.Void HashAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
     static SHA384Managed* New_ctor();
     // public override System.Void Initialize()
-    // Offset: 0x12055B0
+    // Offset: 0x127A668
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::Initialize()
     void Initialize();
     // protected override System.Void HashCore(System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize)
-    // Offset: 0x1205600
+    // Offset: 0x127A6B8
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::HashCore(System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize)
     void HashCore(::Array<uint8_t>* rgb, int ibStart, int cbSize);
     // protected override System.Byte[] HashFinal()
-    // Offset: 0x120581C
+    // Offset: 0x127A8D4
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
     ::Array<uint8_t>* HashFinal();

@@ -95,13 +95,13 @@ namespace Zenject {
     // Set static field: static private readonly Zenject.StaticMemoryPool`1<Zenject.DisposeBlock> _pool
     static void _set__pool(Zenject::StaticMemoryPool_1<Zenject::DisposeBlock*>* value);
     // static private System.Void OnSpawned(Zenject.DisposeBlock that)
-    // Offset: 0x121F7D4
+    // Offset: 0x129488C
     static void OnSpawned(Zenject::DisposeBlock* that);
     // static private System.Void OnDespawned(Zenject.DisposeBlock that)
-    // Offset: 0x121F80C
+    // Offset: 0x12948C4
     static void OnDespawned(Zenject::DisposeBlock* that);
     // private System.Void LazyInitializeDisposableList()
-    // Offset: 0x121FA9C
+    // Offset: 0x1294B54
     void LazyInitializeDisposableList();
     // public System.Void AddRange(System.Collections.Generic.IList`1<T> disposables)
     // Offset: 0xFFFFFFFF
@@ -111,10 +111,10 @@ namespace Zenject {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "AddRange", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, disposables));
     }
     // public System.Void Add(System.IDisposable disposable)
-    // Offset: 0x121FB44
+    // Offset: 0x1294BFC
     void Add(System::IDisposable* disposable);
     // public System.Void Remove(System.IDisposable disposable)
-    // Offset: 0x121FBE0
+    // Offset: 0x1294C98
     void Remove(System::IDisposable* disposable);
     // private System.Void StoreSpawnedObject(T obj, Zenject.IDespawnableMemoryPool`1<T> pool)
     // Offset: 0xFFFFFFFF
@@ -183,13 +183,13 @@ namespace Zenject {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::List_1<T>*>(this, "SpawnList", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // static public Zenject.DisposeBlock Spawn()
-    // Offset: 0x121FC4C
+    // Offset: 0x1294D04
     static Zenject::DisposeBlock* Spawn();
     // static private System.Void .cctor()
-    // Offset: 0x121FD54
+    // Offset: 0x1294E0C
     static void _cctor();
     // public System.Void Dispose()
-    // Offset: 0x121FCC8
+    // Offset: 0x1294D80
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -197,7 +197,7 @@ namespace Zenject {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public System.Void .ctor()
-    // Offset: 0x121FD4C
+    // Offset: 0x1294E04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DisposeBlock* New_ctor();

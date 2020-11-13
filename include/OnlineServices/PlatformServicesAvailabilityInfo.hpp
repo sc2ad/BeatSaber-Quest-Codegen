@@ -53,13 +53,13 @@ namespace OnlineServices {
     // Offset: 0x18
     ::Il2CppString* localizedMessage;
     // private System.Void .ctor(OnlineServices.PlatformServicesAvailabilityInfo/OnlineServicesAvailability availability, System.String localizedMessage)
-    // Offset: 0x1F8B7BC
+    // Offset: 0xEFF5B0
     static PlatformServicesAvailabilityInfo* New_ctor(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability availability, ::Il2CppString* localizedMessage);
     // static public OnlineServices.PlatformServicesAvailabilityInfo get_everythingOK()
-    // Offset: 0x1F8B6EC
+    // Offset: 0xEFF4E0
     static OnlineServices::PlatformServicesAvailabilityInfo* get_everythingOK();
     // static public OnlineServices.PlatformServicesAvailabilityInfo get_onlineServicesUnavailableError()
-    // Offset: 0x1F8B800
+    // Offset: 0xEFF5F4
     static OnlineServices::PlatformServicesAvailabilityInfo* get_onlineServicesUnavailableError();
   }; // OnlineServices.PlatformServicesAvailabilityInfo
 }

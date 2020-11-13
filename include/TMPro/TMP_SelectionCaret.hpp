@@ -21,12 +21,12 @@ namespace TMPro {
   class TMP_SelectionCaret : public UnityEngine::UI::MaskableGraphic {
     public:
     // public override System.Void Cull(UnityEngine.Rect clipRect, System.Boolean validRect)
-    // Offset: 0xEDCA20
+    // Offset: 0xF8916C
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::Cull(UnityEngine.Rect clipRect, System.Boolean validRect)
     void Cull(UnityEngine::Rect clipRect, bool validRect);
     // public System.Void .ctor()
-    // Offset: 0xEDCA24
+    // Offset: 0xF89170
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::.ctor()
     // Base method: System.Void Graphic::.ctor()

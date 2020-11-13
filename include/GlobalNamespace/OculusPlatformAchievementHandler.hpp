@@ -36,15 +36,15 @@ namespace GlobalNamespace {
       return achievementIdsModel;
     }
     // public System.Void .ctor(AchievementIdsModelSO achievementIdsModel)
-    // Offset: 0x1F7EE78
+    // Offset: 0x100E894
     static OculusPlatformAchievementHandler* New_ctor(GlobalNamespace::AchievementIdsModelSO* achievementIdsModel);
     // public override HMAsyncRequest UnlockAchievement(System.String achievementId, PlatformAchievementsModelSO/UnlockAchievementCompletionHandler completionHandler)
-    // Offset: 0x1F7EEAC
+    // Offset: 0x100E8C8
     // Implemented from: PlatformAchievementsHandler
     // Base method: HMAsyncRequest PlatformAchievementsHandler::UnlockAchievement(System.String achievementId, PlatformAchievementsModelSO/UnlockAchievementCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* UnlockAchievement(::Il2CppString* achievementId, GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler* completionHandler);
     // public override HMAsyncRequest GetUnlockedAchievements(PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler)
-    // Offset: 0x1F7EF9C
+    // Offset: 0x100E9B8
     // Implemented from: PlatformAchievementsHandler
     // Base method: HMAsyncRequest PlatformAchievementsHandler::GetUnlockedAchievements(PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* completionHandler);

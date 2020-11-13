@@ -28,10 +28,10 @@ namespace GlobalNamespace {
       return nextScenesTransitionSetupData;
     }
     // public ScenesTransitionSetupDataSO get_nextScenesTransitionSetupData()
-    // Offset: 0x200DEDC
+    // Offset: 0xF13C74
     GlobalNamespace::ScenesTransitionSetupDataSO* get_nextScenesTransitionSetupData();
     // public System.Void .ctor(ScenesTransitionSetupDataSO nextScenesTransitionSetupData)
-    // Offset: 0x200DEE4
+    // Offset: 0xF13C7C
     static HealthWarningSceneSetupData* New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
   }; // HealthWarningSceneSetupData
 }

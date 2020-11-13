@@ -33,16 +33,16 @@ namespace Mono::Security {
     // Offset: 0x28
     ::Array<uint8_t>* encrypted;
     // public System.Void .ctor(Mono.Security.ASN1 asn1)
-    // Offset: 0x1929A64
+    // Offset: 0x17B8BEC
     static PKCS7::EncryptedData* New_ctor(Mono::Security::ASN1* asn1);
     // public Mono.Security.PKCS7/ContentInfo get_EncryptionAlgorithm()
-    // Offset: 0x1929D64
+    // Offset: 0x17B8EEC
     Mono::Security::PKCS7::ContentInfo* get_EncryptionAlgorithm();
     // public System.Byte[] get_EncryptedContent()
-    // Offset: 0x1929D6C
+    // Offset: 0x17B8EF4
     ::Array<uint8_t>* get_EncryptedContent();
     // public System.Void .ctor()
-    // Offset: 0x1929A3C
+    // Offset: 0x17B8BC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PKCS7::EncryptedData* New_ctor();

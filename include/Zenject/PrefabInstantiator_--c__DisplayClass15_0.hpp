@@ -49,10 +49,10 @@ namespace Zenject {
     // Offset: 0x30
     bool shouldMakeActive;
     // System.Void <Instantiate>b__0()
-    // Offset: 0x12EB9A4
+    // Offset: 0x134B190
     void $Instantiate$b__0();
     // public System.Void .ctor()
-    // Offset: 0x12EB99C
+    // Offset: 0x134B188
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PrefabInstantiator::$$c__DisplayClass15_0* New_ctor();

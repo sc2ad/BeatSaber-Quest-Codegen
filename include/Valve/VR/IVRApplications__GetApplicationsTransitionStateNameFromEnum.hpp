@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRApplications::_GetApplicationsTransitionStateNameFromEnum : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x130EB8C
+    // Offset: 0x136E378
     static IVRApplications::_GetApplicationsTransitionStateNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(Valve.VR.EVRApplicationTransitionState state)
-    // Offset: 0x1306C60
+    // Offset: 0x136644C
     System::IntPtr Invoke(Valve::VR::EVRApplicationTransitionState state);
     // public System.IAsyncResult BeginInvoke(Valve.VR.EVRApplicationTransitionState state, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x130EBA0
+    // Offset: 0x136E38C
     System::IAsyncResult* BeginInvoke(Valve::VR::EVRApplicationTransitionState state, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
-    // Offset: 0x130EC2C
+    // Offset: 0x136E418
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRApplications/_GetApplicationsTransitionStateNameFromEnum
 }

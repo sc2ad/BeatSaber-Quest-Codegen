@@ -44,18 +44,18 @@ namespace System::Diagnostics {
       return list;
     }
     // public System.Int32 Add(System.Diagnostics.TraceListener listener)
-    // Offset: 0x14E76E4
+    // Offset: 0x14864E4
     int Add(System::Diagnostics::TraceListener* listener);
     // System.Void InitializeListener(System.Diagnostics.TraceListener listener)
-    // Offset: 0x14E83B0
+    // Offset: 0x14871B0
     void InitializeListener(System::Diagnostics::TraceListener* listener);
     // System.Void .ctor()
-    // Offset: 0x14E758C
+    // Offset: 0x148638C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TraceListenerCollection* New_ctor();
     // public System.Int32 get_Count()
-    // Offset: 0x14E838C
+    // Offset: 0x148718C
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();
@@ -63,7 +63,7 @@ namespace System::Diagnostics {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // public System.Void Clear()
-    // Offset: 0x14E84B8
+    // Offset: 0x14872B8
     // Implemented from: System.Collections.IList
     // Base method: System.Void IList::Clear()
     void Clear();
@@ -71,7 +71,7 @@ namespace System::Diagnostics {
     // Maps to method: Clear
     void System_Collections_IList_Clear();
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x14E8168
+    // Offset: 0x1486F68
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();
@@ -79,7 +79,7 @@ namespace System::Diagnostics {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Void RemoveAt(System.Int32 index)
-    // Offset: 0x14E8520
+    // Offset: 0x1487320
     // Implemented from: System.Collections.IList
     // Base method: System.Void IList::RemoveAt(System.Int32 index)
     void RemoveAt(int index);
@@ -87,47 +87,47 @@ namespace System::Diagnostics {
     // Maps to method: RemoveAt
     void System_Collections_IList_RemoveAt(int index);
     // private System.Object System.Collections.IList.get_Item(System.Int32 index)
-    // Offset: 0x14E8628
+    // Offset: 0x1487428
     // Implemented from: System.Collections.IList
     // Base method: System.Object IList::get_Item(System.Int32 index)
     ::Il2CppObject* System_Collections_IList_get_Item(int index);
     // private System.Void System.Collections.IList.set_Item(System.Int32 index, System.Object value)
-    // Offset: 0x14E864C
+    // Offset: 0x148744C
     // Implemented from: System.Collections.IList
     // Base method: System.Void IList::set_Item(System.Int32 index, System.Object value)
     void System_Collections_IList_set_Item(int index, ::Il2CppObject* value);
     // private System.Boolean System.Collections.IList.get_IsReadOnly()
-    // Offset: 0x14E8748
+    // Offset: 0x1487548
     // Implemented from: System.Collections.IList
     // Base method: System.Boolean IList::get_IsReadOnly()
     bool System_Collections_IList_get_IsReadOnly();
     // private System.Int32 System.Collections.IList.Add(System.Object value)
-    // Offset: 0x14E8750
+    // Offset: 0x1487550
     // Implemented from: System.Collections.IList
     // Base method: System.Int32 IList::Add(System.Object value)
     int System_Collections_IList_Add(::Il2CppObject* value);
     // private System.Boolean System.Collections.IList.Contains(System.Object value)
-    // Offset: 0x14E88FC
+    // Offset: 0x14876FC
     // Implemented from: System.Collections.IList
     // Base method: System.Boolean IList::Contains(System.Object value)
     bool System_Collections_IList_Contains(::Il2CppObject* value);
     // private System.Int32 System.Collections.IList.IndexOf(System.Object value)
-    // Offset: 0x14E8920
+    // Offset: 0x1487720
     // Implemented from: System.Collections.IList
     // Base method: System.Int32 IList::IndexOf(System.Object value)
     int System_Collections_IList_IndexOf(::Il2CppObject* value);
     // private System.Void System.Collections.IList.Insert(System.Int32 index, System.Object value)
-    // Offset: 0x14E8944
+    // Offset: 0x1487744
     // Implemented from: System.Collections.IList
     // Base method: System.Void IList::Insert(System.Int32 index, System.Object value)
     void System_Collections_IList_Insert(int index, ::Il2CppObject* value);
     // private System.Void System.Collections.IList.Remove(System.Object value)
-    // Offset: 0x14E8AE8
+    // Offset: 0x14878E8
     // Implemented from: System.Collections.IList
     // Base method: System.Void IList::Remove(System.Object value)
     void System_Collections_IList_Remove(::Il2CppObject* value);
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x14E8BF0
+    // Offset: 0x14879F0
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);

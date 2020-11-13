@@ -39,70 +39,70 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.Texture2D cachedTexture
     static void _set_cachedTexture(UnityEngine::Texture2D* value);
     // static public System.Boolean Initialize()
-    // Offset: 0x11BA96C
+    // Offset: 0x1245CFC
     static bool Initialize();
     // static public System.Boolean Shutdown()
-    // Offset: 0x11BAA6C
+    // Offset: 0x1245DFC
     static bool Shutdown();
     // static public System.Boolean GetInitialized()
-    // Offset: 0x11A5360
+    // Offset: 0x12306F0
     static bool GetInitialized();
     // static public System.Boolean Update()
-    // Offset: 0x11BAB6C
+    // Offset: 0x1245EFC
     static bool Update();
     // static public OVRPlugin/Media/MrcActivationMode GetMrcActivationMode()
-    // Offset: 0x11BAC6C
+    // Offset: 0x1245FFC
     static GlobalNamespace::OVRPlugin::Media::MrcActivationMode GetMrcActivationMode();
     // static public System.Boolean SetMrcActivationMode(OVRPlugin/Media/MrcActivationMode mode)
-    // Offset: 0x11BAD78
+    // Offset: 0x1246108
     static bool SetMrcActivationMode(GlobalNamespace::OVRPlugin::Media::MrcActivationMode mode);
     // static public System.Boolean IsMrcEnabled()
-    // Offset: 0x11BAE80
+    // Offset: 0x1246210
     static bool IsMrcEnabled();
     // static public System.Boolean IsMrcActivated()
-    // Offset: 0x11BAF90
+    // Offset: 0x1246320
     static bool IsMrcActivated();
     // static public System.Boolean UseMrcDebugCamera()
-    // Offset: 0x11A4854
+    // Offset: 0x122FBE4
     static bool UseMrcDebugCamera();
     // static public System.Boolean SetMrcInputVideoBufferType(OVRPlugin/Media/InputVideoBufferType videoBufferType)
-    // Offset: 0x11BB0A0
+    // Offset: 0x1246430
     static bool SetMrcInputVideoBufferType(GlobalNamespace::OVRPlugin::Media::InputVideoBufferType videoBufferType);
     // static public OVRPlugin/Media/InputVideoBufferType GetMrcInputVideoBufferType()
-    // Offset: 0x11BB1A8
+    // Offset: 0x1246538
     static GlobalNamespace::OVRPlugin::Media::InputVideoBufferType GetMrcInputVideoBufferType();
     // static public System.Boolean SetMrcFrameSize(System.Int32 frameWidth, System.Int32 frameHeight)
-    // Offset: 0x11BB2B0
+    // Offset: 0x1246640
     static bool SetMrcFrameSize(int frameWidth, int frameHeight);
     // static public System.Void GetMrcFrameSize(out System.Int32 frameWidth, out System.Int32 frameHeight)
-    // Offset: 0x11BB3C8
+    // Offset: 0x1246758
     static void GetMrcFrameSize(int& frameWidth, int& frameHeight);
     // static public System.Boolean SetMrcAudioSampleRate(System.Int32 sampleRate)
-    // Offset: 0x11BB4EC
+    // Offset: 0x124687C
     static bool SetMrcAudioSampleRate(int sampleRate);
     // static public System.Int32 GetMrcAudioSampleRate()
-    // Offset: 0x11BB5F4
+    // Offset: 0x1246984
     static int GetMrcAudioSampleRate();
     // static public System.Boolean SetMrcFrameImageFlipped(System.Boolean imageFlipped)
-    // Offset: 0x11BB6F8
+    // Offset: 0x1246A88
     static bool SetMrcFrameImageFlipped(bool imageFlipped);
     // static public System.Boolean GetMrcFrameImageFlipped()
-    // Offset: 0x11BB804
+    // Offset: 0x1246B94
     static bool GetMrcFrameImageFlipped();
     // static public System.Boolean EncodeMrcFrame(System.IntPtr textureHandle, System.Single[] audioData, System.Int32 audioFrames, System.Int32 audioChannels, System.Double timestamp, ref System.Int32 outSyncId)
-    // Offset: 0x11BB910
+    // Offset: 0x1246CA0
     static bool EncodeMrcFrame(System::IntPtr textureHandle, ::Array<float>* audioData, int audioFrames, int audioChannels, double timestamp, int& outSyncId);
     // static public System.Boolean EncodeMrcFrame(UnityEngine.RenderTexture frame, System.Single[] audioData, System.Int32 audioFrames, System.Int32 audioChannels, System.Double timestamp, ref System.Int32 outSyncId)
-    // Offset: 0x11BBB4C
+    // Offset: 0x1246EDC
     static bool EncodeMrcFrame(UnityEngine::RenderTexture* frame, ::Array<float>* audioData, int audioFrames, int audioChannels, double timestamp, int& outSyncId);
     // static public System.Boolean SyncMrcFrame(System.Int32 syncId)
-    // Offset: 0x11BC038
+    // Offset: 0x12473C8
     static bool SyncMrcFrame(int syncId);
     // static private System.Void .cctor()
-    // Offset: 0x11BC148
+    // Offset: 0x12474D8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x11BC140
+    // Offset: 0x12474D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRPlugin::Media* New_ctor();

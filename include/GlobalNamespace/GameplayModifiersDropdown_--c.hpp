@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Tuple`2<GameplayModifierMask,System.String>,System.String> <>9__8_0
     static void _set_$$9__8_0(System::Func_2<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x20080C4
+    // Offset: 0x1A222CC
     static void _cctor();
     // System.String <Start>b__8_0(System.Tuple`2<GameplayModifierMask,System.String> x)
-    // Offset: 0x2008134
+    // Offset: 0x1A2233C
     ::Il2CppString* $Start$b__8_0(System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>* x);
     // public System.Void .ctor()
-    // Offset: 0x200812C
+    // Offset: 0x1A22334
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GameplayModifiersDropdown::$$c* New_ctor();

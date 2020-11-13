@@ -173,22 +173,22 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier ExpiredCertsOnCrl
     static void _set_ExpiredCertsOnCrl(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static public Org.BouncyCastle.Asn1.X509.X509Extensions GetInstance(System.Object obj)
-    // Offset: 0x1609668
+    // Offset: 0x1578464
     static Org::BouncyCastle::Asn1::X509::X509Extensions* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1611234
+    // Offset: 0x1580030
     static X509Extensions* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public System.Collections.IEnumerable get_ExtensionOids()
-    // Offset: 0x161197C
+    // Offset: 0x1580778
     System::Collections::IEnumerable* get_ExtensionOids();
     // public Org.BouncyCastle.Asn1.X509.X509Extension GetExtension(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x16119E4
+    // Offset: 0x15807E0
     Org::BouncyCastle::Asn1::X509::X509Extension* GetExtension(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static private System.Void .cctor()
-    // Offset: 0x1612008
+    // Offset: 0x1580E04
     static void _cctor();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1611AE4
+    // Offset: 0x15808E0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

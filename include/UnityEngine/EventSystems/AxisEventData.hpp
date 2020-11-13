@@ -31,19 +31,19 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x28
     UnityEngine::EventSystems::MoveDirection moveDir;
     // public UnityEngine.Vector2 get_moveVector()
-    // Offset: 0x1073A58
+    // Offset: 0x114A388
     UnityEngine::Vector2 get_moveVector();
     // public System.Void set_moveVector(UnityEngine.Vector2 value)
-    // Offset: 0x1073A60
+    // Offset: 0x114A390
     void set_moveVector(UnityEngine::Vector2 value);
     // public UnityEngine.EventSystems.MoveDirection get_moveDir()
-    // Offset: 0x1073A68
+    // Offset: 0x114A398
     UnityEngine::EventSystems::MoveDirection get_moveDir();
     // public System.Void set_moveDir(UnityEngine.EventSystems.MoveDirection value)
-    // Offset: 0x1073A70
+    // Offset: 0x114A3A0
     void set_moveDir(UnityEngine::EventSystems::MoveDirection value);
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
-    // Offset: 0x1073A78
+    // Offset: 0x114A3A8
     // Implemented from: UnityEngine.EventSystems.BaseEventData
     // Base method: System.Void BaseEventData::.ctor(UnityEngine.EventSystems.EventSystem eventSystem)
     static AxisEventData* New_ctor(UnityEngine::EventSystems::EventSystem* eventSystem);

@@ -36,16 +36,16 @@ namespace OVR::OpenVR {
   class IVRRenderModels::_GetRenderModelThumbnailURL : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C88828
+    // Offset: 0x1906A00
     static IVRRenderModels::_GetRenderModelThumbnailURL* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.String pchRenderModelName, System.Text.StringBuilder pchThumbnailURL, System.UInt32 unThumbnailURLLen, ref OVR.OpenVR.EVRRenderModelError peError)
-    // Offset: 0x1C8883C
+    // Offset: 0x1906A14
     uint Invoke(::Il2CppString* pchRenderModelName, System::Text::StringBuilder* pchThumbnailURL, uint unThumbnailURLLen, OVR::OpenVR::EVRRenderModelError& peError);
     // public System.IAsyncResult BeginInvoke(System.String pchRenderModelName, System.Text.StringBuilder pchThumbnailURL, System.UInt32 unThumbnailURLLen, ref OVR.OpenVR.EVRRenderModelError peError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C88C90
+    // Offset: 0x1906E68
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchRenderModelName, System::Text::StringBuilder* pchThumbnailURL, uint unThumbnailURLLen, OVR::OpenVR::EVRRenderModelError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(ref OVR.OpenVR.EVRRenderModelError peError, System.IAsyncResult result)
-    // Offset: 0x1C88D58
+    // Offset: 0x1906F30
     uint EndInvoke(OVR::OpenVR::EVRRenderModelError& peError, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRRenderModels/_GetRenderModelThumbnailURL
 }

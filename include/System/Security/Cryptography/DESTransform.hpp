@@ -70,31 +70,31 @@ namespace System::Security::Cryptography {
     // Set static field: static readonly System.UInt32[] fpTab
     static void _set_fpTab(::Array<uint>* value);
     // System.Void .ctor(System.Security.Cryptography.SymmetricAlgorithm symmAlgo, System.Boolean encryption, System.Byte[] key, System.Byte[] iv)
-    // Offset: 0x1773A70
+    // Offset: 0x1693F64
     static DESTransform* New_ctor(System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::Array<uint8_t>* key, ::Array<uint8_t>* iv);
     // private System.UInt32 CipherFunct(System.UInt32 r, System.Int32 n)
-    // Offset: 0x1774464
+    // Offset: 0x1694958
     uint CipherFunct(uint r, int n);
     // static System.Void Permutation(System.Byte[] input, System.Byte[] output, System.UInt32[] permTab, System.Boolean preSwap)
-    // Offset: 0x17746AC
+    // Offset: 0x1694BA0
     static void Permutation(::Array<uint8_t>* input, ::Array<uint8_t>* output, ::Array<uint>* permTab, bool preSwap);
     // static private System.Void BSwap(System.Byte[] byteBuff)
-    // Offset: 0x17749FC
+    // Offset: 0x1694EF0
     static void BSwap(::Array<uint8_t>* byteBuff);
     // System.Void SetKey(System.Byte[] key)
-    // Offset: 0x1774064
+    // Offset: 0x1694558
     void SetKey(::Array<uint8_t>* key);
     // public System.Void ProcessBlock(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1774A80
+    // Offset: 0x1694F74
     void ProcessBlock(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // static System.Byte[] GetStrongKey()
-    // Offset: 0x1773F70
+    // Offset: 0x1694464
     static ::Array<uint8_t>* GetStrongKey();
     // static private System.Void .cctor()
-    // Offset: 0x1774EEC
+    // Offset: 0x16953E0
     static void _cctor();
     // protected override System.Void ECB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1774E38
+    // Offset: 0x169532C
     // Implemented from: Mono.Security.Cryptography.SymmetricTransform
     // Base method: System.Void SymmetricTransform::ECB(System.Byte[] input, System.Byte[] output)
     void ECB(::Array<uint8_t>* input, ::Array<uint8_t>* output);

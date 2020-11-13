@@ -31,35 +31,35 @@ namespace NUnit::Framework::Internal {
   class TestCaseResult : public NUnit::Framework::Internal::TestResult {
     public:
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod test)
-    // Offset: 0x1ECCBAC
+    // Offset: 0x195BBE0
     static TestCaseResult* New_ctor(NUnit::Framework::Internal::TestMethod* test);
     // public override System.Int32 get_FailCount()
-    // Offset: 0x1ECCD4C
+    // Offset: 0x195BD80
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Int32 TestResult::get_FailCount()
     int get_FailCount();
     // public override System.Int32 get_PassCount()
-    // Offset: 0x1ECCD80
+    // Offset: 0x195BDB4
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Int32 TestResult::get_PassCount()
     int get_PassCount();
     // public override System.Int32 get_SkipCount()
-    // Offset: 0x1ECCDAC
+    // Offset: 0x195BDE0
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Int32 TestResult::get_SkipCount()
     int get_SkipCount();
     // public override System.Int32 get_InconclusiveCount()
-    // Offset: 0x1ECCDD8
+    // Offset: 0x195BE0C
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Int32 TestResult::get_InconclusiveCount()
     int get_InconclusiveCount();
     // public override System.Boolean get_HasChildren()
-    // Offset: 0x1ECCE04
+    // Offset: 0x195BE38
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Boolean TestResult::get_HasChildren()
     bool get_HasChildren();
     // public override System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestResult> get_Children()
-    // Offset: 0x1ECCE0C
+    // Offset: 0x195BE40
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestResult> TestResult::get_Children()
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestResult*>* get_Children();

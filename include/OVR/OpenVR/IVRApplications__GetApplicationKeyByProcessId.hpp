@@ -36,16 +36,16 @@ namespace OVR::OpenVR {
   class IVRApplications::_GetApplicationKeyByProcessId : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1158D98
+    // Offset: 0x11F9A58
     static IVRApplications::_GetApplicationKeyByProcessId* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRApplicationError Invoke(System.UInt32 unProcessId, System.Text.StringBuilder pchAppKeyBuffer, System.UInt32 unAppKeyBufferLen)
-    // Offset: 0x1148FB4
+    // Offset: 0x11E9C74
     OVR::OpenVR::EVRApplicationError Invoke(uint unProcessId, System::Text::StringBuilder* pchAppKeyBuffer, uint unAppKeyBufferLen);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unProcessId, System.Text.StringBuilder pchAppKeyBuffer, System.UInt32 unAppKeyBufferLen, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1158DAC
+    // Offset: 0x11F9A6C
     System::IAsyncResult* BeginInvoke(uint unProcessId, System::Text::StringBuilder* pchAppKeyBuffer, uint unAppKeyBufferLen, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRApplicationError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1158E5C
+    // Offset: 0x11F9B1C
     OVR::OpenVR::EVRApplicationError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRApplications/_GetApplicationKeyByProcessId
 }

@@ -39,13 +39,13 @@ namespace GlobalNamespace {
     // Offset: 0x30
     int64_t lastSampleValue;
     // public System.Void PollUpdate()
-    // Offset: 0x215635C
+    // Offset: 0x1B43E30
     void PollUpdate();
-    // public System.Int32 get_utilization()
-    // Offset: 0x2156454
-    int get_utilization();
+    // public System.Single get_utilization()
+    // Offset: 0x1B43F38
+    float get_utilization();
     // public System.Void .ctor()
-    // Offset: 0x2156488
+    // Offset: 0x1B43F60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CPUMonitor* New_ctor();

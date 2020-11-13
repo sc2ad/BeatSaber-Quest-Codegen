@@ -31,6 +31,9 @@ namespace Org::BouncyCastle::Crypto {
     // public System.Byte[] GenerateSignature()
     // Offset: 0xFFFFFFFF
     ::Array<uint8_t>* GenerateSignature();
+    // public System.Void Reset()
+    // Offset: 0xFFFFFFFF
+    void Reset();
   }; // Org.BouncyCastle.Crypto.ISigner
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -43,28 +43,28 @@ namespace UnityEngine::Events {
       return *reinterpret_cast<UnityEngine::ISerializationCallbackReceiver*>(this);
     }
     // public UnityEngine.Object get_unityObjectArgument()
-    // Offset: 0x179037C
+    // Offset: 0x16860AC
     UnityEngine::Object* get_unityObjectArgument();
     // public System.String get_unityObjectArgumentAssemblyTypeName()
-    // Offset: 0x1790384
+    // Offset: 0x16860B4
     ::Il2CppString* get_unityObjectArgumentAssemblyTypeName();
     // public System.Int32 get_intArgument()
-    // Offset: 0x179038C
+    // Offset: 0x16860BC
     int get_intArgument();
     // public System.Single get_floatArgument()
-    // Offset: 0x1790394
+    // Offset: 0x16860C4
     float get_floatArgument();
     // public System.String get_stringArgument()
-    // Offset: 0x179039C
+    // Offset: 0x16860CC
     ::Il2CppString* get_stringArgument();
     // public System.Boolean get_boolArgument()
-    // Offset: 0x17903A4
+    // Offset: 0x16860D4
     bool get_boolArgument();
     // private System.Void TidyAssemblyTypeName()
-    // Offset: 0x17903AC
+    // Offset: 0x16860DC
     void TidyAssemblyTypeName();
     // public System.Void OnBeforeSerialize()
-    // Offset: 0x17905E8
+    // Offset: 0x1686318
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnBeforeSerialize()
     void OnBeforeSerialize();
@@ -72,7 +72,7 @@ namespace UnityEngine::Events {
     // Maps to method: OnBeforeSerialize
     void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
     // public System.Void OnAfterDeserialize()
-    // Offset: 0x17905EC
+    // Offset: 0x168631C
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnAfterDeserialize()
     void OnAfterDeserialize();
@@ -80,7 +80,7 @@ namespace UnityEngine::Events {
     // Maps to method: OnAfterDeserialize
     void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
     // public System.Void .ctor()
-    // Offset: 0x17905F0
+    // Offset: 0x1686320
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ArgumentCache* New_ctor();

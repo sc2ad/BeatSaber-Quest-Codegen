@@ -14,13 +14,13 @@ namespace GlobalNamespace {
   class NetEaseLeaderboardModel : public UnityEngine::MonoBehaviour {
     public:
     // private System.Void Start()
-    // Offset: 0x1FDF134
+    // Offset: 0xFD7ACC
     void Start();
     // private System.Void Update()
-    // Offset: 0x1FDF138
+    // Offset: 0xFD7AD0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1FDF13C
+    // Offset: 0xFD7AD4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

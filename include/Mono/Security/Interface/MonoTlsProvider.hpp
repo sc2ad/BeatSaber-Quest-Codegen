@@ -82,7 +82,7 @@ namespace Mono::Security::Interface {
     // Offset: 0xFFFFFFFF
     bool get_SupportsCleanShutdown();
     // System.Void .ctor()
-    // Offset: 0x1929074
+    // Offset: 0x17B81FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MonoTlsProvider* New_ctor();

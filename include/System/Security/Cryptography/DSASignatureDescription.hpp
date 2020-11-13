@@ -14,7 +14,7 @@ namespace System::Security::Cryptography {
   class DSASignatureDescription : public System::Security::Cryptography::SignatureDescription {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1776450
+    // Offset: 0x1696944
     // Implemented from: System.Security.Cryptography.SignatureDescription
     // Base method: System.Void SignatureDescription::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -31,13 +31,13 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   class WorkItemFactory : public ::Il2CppObject {
     public:
     // public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem Create(NUnit.Framework.Interfaces.ITest loadedTest, NUnit.Framework.Interfaces.ITestFilter filter)
-    // Offset: 0x10AA208
+    // Offset: 0x117FB38
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* Create(NUnit::Framework::Interfaces::ITest* loadedTest, NUnit::Framework::Interfaces::ITestFilter* filter);
     // protected UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem Create(NUnit.Framework.Internal.TestMethod method, NUnit.Framework.Interfaces.ITestFilter filter, NUnit.Framework.Interfaces.ITest loadedTest)
     // Offset: 0xFFFFFFFF
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* Create(NUnit::Framework::Internal::TestMethod* method, NUnit::Framework::Interfaces::ITestFilter* filter, NUnit::Framework::Interfaces::ITest* loadedTest);
     // protected System.Void .ctor()
-    // Offset: 0x10AEFB8
+    // Offset: 0x11848E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static WorkItemFactory* New_ctor();

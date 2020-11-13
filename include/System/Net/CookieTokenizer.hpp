@@ -59,58 +59,58 @@ namespace System::Net {
     // Set static field: static private System.Net.CookieTokenizer/RecognizedAttribute[] RecognizedServerAttributes
     static void _set_RecognizedServerAttributes(::Array<System::Net::CookieTokenizer::RecognizedAttribute>* value);
     // System.Void .ctor(System.String tokenStream)
-    // Offset: 0x12B4E2C
+    // Offset: 0x1314618
     static CookieTokenizer* New_ctor(::Il2CppString* tokenStream);
     // System.Boolean get_EndOfCookie()
-    // Offset: 0x12B4FAC
+    // Offset: 0x1314798
     bool get_EndOfCookie();
     // System.Void set_EndOfCookie(System.Boolean value)
-    // Offset: 0x12B4FB4
+    // Offset: 0x13147A0
     void set_EndOfCookie(bool value);
     // System.Boolean get_Eof()
-    // Offset: 0x12B4F9C
+    // Offset: 0x1314788
     bool get_Eof();
     // System.String get_Name()
-    // Offset: 0x12B4FC0
+    // Offset: 0x13147AC
     ::Il2CppString* get_Name();
     // System.Void set_Name(System.String value)
-    // Offset: 0x12B4FC8
+    // Offset: 0x13147B4
     void set_Name(::Il2CppString* value);
     // System.Boolean get_Quoted()
-    // Offset: 0x12B4FD0
+    // Offset: 0x13147BC
     bool get_Quoted();
     // System.Void set_Quoted(System.Boolean value)
-    // Offset: 0x12B4FD8
+    // Offset: 0x13147C4
     void set_Quoted(bool value);
     // System.Net.CookieToken get_Token()
-    // Offset: 0x12B4FE4
+    // Offset: 0x13147D0
     System::Net::CookieToken get_Token();
     // System.Void set_Token(System.Net.CookieToken value)
-    // Offset: 0x12B4FEC
+    // Offset: 0x13147D8
     void set_Token(System::Net::CookieToken value);
     // System.String get_Value()
-    // Offset: 0x12B4FF4
+    // Offset: 0x13147E0
     ::Il2CppString* get_Value();
     // System.Void set_Value(System.String value)
-    // Offset: 0x12B4FFC
+    // Offset: 0x13147E8
     void set_Value(::Il2CppString* value);
     // System.String Extract()
-    // Offset: 0x12B5004
+    // Offset: 0x13147F0
     ::Il2CppString* Extract();
     // System.Net.CookieToken FindNext(System.Boolean ignoreComma, System.Boolean ignoreEquals)
-    // Offset: 0x12B5094
+    // Offset: 0x1314880
     System::Net::CookieToken FindNext(bool ignoreComma, bool ignoreEquals);
     // System.Net.CookieToken Next(System.Boolean first, System.Boolean parseResponseCookies)
-    // Offset: 0x12B4E70
+    // Offset: 0x131465C
     System::Net::CookieToken Next(bool first, bool parseResponseCookies);
     // System.Void Reset()
-    // Offset: 0x12B5350
+    // Offset: 0x1314B3C
     void Reset();
     // System.Net.CookieToken TokenFromName(System.Boolean parseResponseCookies)
-    // Offset: 0x12B53D8
+    // Offset: 0x1314BC4
     System::Net::CookieToken TokenFromName(bool parseResponseCookies);
     // static private System.Void .cctor()
-    // Offset: 0x12B5608
+    // Offset: 0x1314DF4
     static void _cctor();
   }; // System.Net.CookieTokenizer
 }

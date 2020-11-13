@@ -1032,235 +1032,235 @@ namespace Oculus::Platform {
     // Set static field: static private Oculus.Platform.Message/ExtraMessageTypesHandler <HandleExtraMessageTypes>k__BackingField
     static void _set_$HandleExtraMessageTypes$k__BackingField(Oculus::Platform::Message::ExtraMessageTypesHandler* value);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1133084
+    // Offset: 0x11D3D44
     static Message* New_ctor(System::IntPtr c_message);
     // public Oculus.Platform.Message/MessageType get_Type()
-    // Offset: 0x1133334
+    // Offset: 0x11D3FF4
     Oculus::Platform::Message::MessageType get_Type();
     // public System.Boolean get_IsError()
-    // Offset: 0x113333C
+    // Offset: 0x11D3FFC
     bool get_IsError();
     // public System.UInt64 get_RequestID()
-    // Offset: 0x113334C
+    // Offset: 0x11D400C
     uint64_t get_RequestID();
     // public Oculus.Platform.Models.Error GetError()
-    // Offset: 0x1133354
+    // Offset: 0x11D4014
     Oculus::Platform::Models::Error* GetError();
     // public Oculus.Platform.Models.PingResult GetPingResult()
-    // Offset: 0x113335C
+    // Offset: 0x11D401C
     Oculus::Platform::Models::PingResult* GetPingResult();
     // public Oculus.Platform.Models.NetworkingPeer GetNetworkingPeer()
-    // Offset: 0x1133364
+    // Offset: 0x11D4024
     Oculus::Platform::Models::NetworkingPeer* GetNetworkingPeer();
     // public Oculus.Platform.Models.HttpTransferUpdate GetHttpTransferUpdate()
-    // Offset: 0x113336C
+    // Offset: 0x11D402C
     Oculus::Platform::Models::HttpTransferUpdate* GetHttpTransferUpdate();
     // public Oculus.Platform.Models.PlatformInitialize GetPlatformInitialize()
-    // Offset: 0x1133374
+    // Offset: 0x11D4034
     Oculus::Platform::Models::PlatformInitialize* GetPlatformInitialize();
     // public Oculus.Platform.Models.AbuseReportRecording GetAbuseReportRecording()
-    // Offset: 0x113337C
+    // Offset: 0x11D403C
     Oculus::Platform::Models::AbuseReportRecording* GetAbuseReportRecording();
     // public Oculus.Platform.Models.AchievementDefinitionList GetAchievementDefinitions()
-    // Offset: 0x1133384
+    // Offset: 0x11D4044
     Oculus::Platform::Models::AchievementDefinitionList* GetAchievementDefinitions();
     // public Oculus.Platform.Models.AchievementProgressList GetAchievementProgressList()
-    // Offset: 0x113338C
+    // Offset: 0x11D404C
     Oculus::Platform::Models::AchievementProgressList* GetAchievementProgressList();
     // public Oculus.Platform.Models.AchievementUpdate GetAchievementUpdate()
-    // Offset: 0x1133394
+    // Offset: 0x11D4054
     Oculus::Platform::Models::AchievementUpdate* GetAchievementUpdate();
     // public Oculus.Platform.Models.ApplicationVersion GetApplicationVersion()
-    // Offset: 0x113339C
+    // Offset: 0x11D405C
     Oculus::Platform::Models::ApplicationVersion* GetApplicationVersion();
     // public Oculus.Platform.Models.AssetDetails GetAssetDetails()
-    // Offset: 0x11333A4
+    // Offset: 0x11D4064
     Oculus::Platform::Models::AssetDetails* GetAssetDetails();
     // public Oculus.Platform.Models.AssetDetailsList GetAssetDetailsList()
-    // Offset: 0x11333AC
+    // Offset: 0x11D406C
     Oculus::Platform::Models::AssetDetailsList* GetAssetDetailsList();
     // public Oculus.Platform.Models.AssetFileDeleteResult GetAssetFileDeleteResult()
-    // Offset: 0x11333B4
+    // Offset: 0x11D4074
     Oculus::Platform::Models::AssetFileDeleteResult* GetAssetFileDeleteResult();
     // public Oculus.Platform.Models.AssetFileDownloadCancelResult GetAssetFileDownloadCancelResult()
-    // Offset: 0x11333BC
+    // Offset: 0x11D407C
     Oculus::Platform::Models::AssetFileDownloadCancelResult* GetAssetFileDownloadCancelResult();
     // public Oculus.Platform.Models.AssetFileDownloadResult GetAssetFileDownloadResult()
-    // Offset: 0x11333C4
+    // Offset: 0x11D4084
     Oculus::Platform::Models::AssetFileDownloadResult* GetAssetFileDownloadResult();
     // public Oculus.Platform.Models.AssetFileDownloadUpdate GetAssetFileDownloadUpdate()
-    // Offset: 0x11333CC
+    // Offset: 0x11D408C
     Oculus::Platform::Models::AssetFileDownloadUpdate* GetAssetFileDownloadUpdate();
     // public Oculus.Platform.Models.CalApplicationFinalized GetCalApplicationFinalized()
-    // Offset: 0x11333D4
+    // Offset: 0x11D4094
     Oculus::Platform::Models::CalApplicationFinalized* GetCalApplicationFinalized();
     // public Oculus.Platform.Models.CalApplicationProposed GetCalApplicationProposed()
-    // Offset: 0x11333DC
+    // Offset: 0x11D409C
     Oculus::Platform::Models::CalApplicationProposed* GetCalApplicationProposed();
     // public Oculus.Platform.Models.CalApplicationSuggestionList GetCalApplicationSuggestionList()
-    // Offset: 0x11333E4
+    // Offset: 0x11D40A4
     Oculus::Platform::Models::CalApplicationSuggestionList* GetCalApplicationSuggestionList();
     // public Oculus.Platform.Models.CloudStorageConflictMetadata GetCloudStorageConflictMetadata()
-    // Offset: 0x11333EC
+    // Offset: 0x11D40AC
     Oculus::Platform::Models::CloudStorageConflictMetadata* GetCloudStorageConflictMetadata();
     // public Oculus.Platform.Models.CloudStorageData GetCloudStorageData()
-    // Offset: 0x11333F4
+    // Offset: 0x11D40B4
     Oculus::Platform::Models::CloudStorageData* GetCloudStorageData();
     // public Oculus.Platform.Models.CloudStorageMetadata GetCloudStorageMetadata()
-    // Offset: 0x11333FC
+    // Offset: 0x11D40BC
     Oculus::Platform::Models::CloudStorageMetadata* GetCloudStorageMetadata();
     // public Oculus.Platform.Models.CloudStorageMetadataList GetCloudStorageMetadataList()
-    // Offset: 0x1133404
+    // Offset: 0x11D40C4
     Oculus::Platform::Models::CloudStorageMetadataList* GetCloudStorageMetadataList();
     // public Oculus.Platform.Models.CloudStorageUpdateResponse GetCloudStorageUpdateResponse()
-    // Offset: 0x113340C
+    // Offset: 0x11D40CC
     Oculus::Platform::Models::CloudStorageUpdateResponse* GetCloudStorageUpdateResponse();
     // public Oculus.Platform.Models.DestinationList GetDestinationList()
-    // Offset: 0x1133414
+    // Offset: 0x11D40D4
     Oculus::Platform::Models::DestinationList* GetDestinationList();
     // public Oculus.Platform.Models.InstalledApplicationList GetInstalledApplicationList()
-    // Offset: 0x113341C
+    // Offset: 0x11D40DC
     Oculus::Platform::Models::InstalledApplicationList* GetInstalledApplicationList();
     // public Oculus.Platform.Models.LaunchBlockFlowResult GetLaunchBlockFlowResult()
-    // Offset: 0x1133424
+    // Offset: 0x11D40E4
     Oculus::Platform::Models::LaunchBlockFlowResult* GetLaunchBlockFlowResult();
     // public Oculus.Platform.Models.LaunchFriendRequestFlowResult GetLaunchFriendRequestFlowResult()
-    // Offset: 0x113342C
+    // Offset: 0x11D40EC
     Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetLaunchFriendRequestFlowResult();
     // public Oculus.Platform.Models.LaunchReportFlowResult GetLaunchReportFlowResult()
-    // Offset: 0x1133434
+    // Offset: 0x11D40F4
     Oculus::Platform::Models::LaunchReportFlowResult* GetLaunchReportFlowResult();
     // public Oculus.Platform.Models.LaunchUnblockFlowResult GetLaunchUnblockFlowResult()
-    // Offset: 0x113343C
+    // Offset: 0x11D40FC
     Oculus::Platform::Models::LaunchUnblockFlowResult* GetLaunchUnblockFlowResult();
     // public System.Boolean GetLeaderboardDidUpdate()
-    // Offset: 0x1133444
+    // Offset: 0x11D4104
     bool GetLeaderboardDidUpdate();
     // public Oculus.Platform.Models.LeaderboardEntryList GetLeaderboardEntryList()
-    // Offset: 0x113344C
+    // Offset: 0x11D410C
     Oculus::Platform::Models::LeaderboardEntryList* GetLeaderboardEntryList();
     // public Oculus.Platform.Models.LinkedAccountList GetLinkedAccountList()
-    // Offset: 0x1133454
+    // Offset: 0x11D4114
     Oculus::Platform::Models::LinkedAccountList* GetLinkedAccountList();
     // public Oculus.Platform.Models.LivestreamingApplicationStatus GetLivestreamingApplicationStatus()
-    // Offset: 0x113345C
+    // Offset: 0x11D411C
     Oculus::Platform::Models::LivestreamingApplicationStatus* GetLivestreamingApplicationStatus();
     // public Oculus.Platform.Models.LivestreamingStartResult GetLivestreamingStartResult()
-    // Offset: 0x1133464
+    // Offset: 0x11D4124
     Oculus::Platform::Models::LivestreamingStartResult* GetLivestreamingStartResult();
     // public Oculus.Platform.Models.LivestreamingStatus GetLivestreamingStatus()
-    // Offset: 0x113346C
+    // Offset: 0x11D412C
     Oculus::Platform::Models::LivestreamingStatus* GetLivestreamingStatus();
     // public Oculus.Platform.Models.LivestreamingVideoStats GetLivestreamingVideoStats()
-    // Offset: 0x1133474
+    // Offset: 0x11D4134
     Oculus::Platform::Models::LivestreamingVideoStats* GetLivestreamingVideoStats();
     // public Oculus.Platform.Models.MatchmakingAdminSnapshot GetMatchmakingAdminSnapshot()
-    // Offset: 0x113347C
+    // Offset: 0x11D413C
     Oculus::Platform::Models::MatchmakingAdminSnapshot* GetMatchmakingAdminSnapshot();
     // public Oculus.Platform.Models.MatchmakingBrowseResult GetMatchmakingBrowseResult()
-    // Offset: 0x1133484
+    // Offset: 0x11D4144
     Oculus::Platform::Models::MatchmakingBrowseResult* GetMatchmakingBrowseResult();
     // public Oculus.Platform.Models.MatchmakingEnqueueResult GetMatchmakingEnqueueResult()
-    // Offset: 0x113348C
+    // Offset: 0x11D414C
     Oculus::Platform::Models::MatchmakingEnqueueResult* GetMatchmakingEnqueueResult();
     // public Oculus.Platform.Models.MatchmakingEnqueueResultAndRoom GetMatchmakingEnqueueResultAndRoom()
-    // Offset: 0x1133494
+    // Offset: 0x11D4154
     Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom* GetMatchmakingEnqueueResultAndRoom();
     // public Oculus.Platform.Models.MatchmakingStats GetMatchmakingStats()
-    // Offset: 0x113349C
+    // Offset: 0x11D415C
     Oculus::Platform::Models::MatchmakingStats* GetMatchmakingStats();
     // public Oculus.Platform.Models.NetSyncConnection GetNetSyncConnection()
-    // Offset: 0x11334A4
+    // Offset: 0x11D4164
     Oculus::Platform::Models::NetSyncConnection* GetNetSyncConnection();
     // public Oculus.Platform.Models.NetSyncSessionList GetNetSyncSessionList()
-    // Offset: 0x11334AC
+    // Offset: 0x11D416C
     Oculus::Platform::Models::NetSyncSessionList* GetNetSyncSessionList();
     // public Oculus.Platform.Models.NetSyncSessionsChangedNotification GetNetSyncSessionsChangedNotification()
-    // Offset: 0x11334B4
+    // Offset: 0x11D4174
     Oculus::Platform::Models::NetSyncSessionsChangedNotification* GetNetSyncSessionsChangedNotification();
     // public Oculus.Platform.Models.NetSyncSetSessionPropertyResult GetNetSyncSetSessionPropertyResult()
-    // Offset: 0x11334BC
+    // Offset: 0x11D417C
     Oculus::Platform::Models::NetSyncSetSessionPropertyResult* GetNetSyncSetSessionPropertyResult();
     // public Oculus.Platform.Models.OrgScopedID GetOrgScopedID()
-    // Offset: 0x11334C4
+    // Offset: 0x11D4184
     Oculus::Platform::Models::OrgScopedID* GetOrgScopedID();
     // public Oculus.Platform.Models.Party GetParty()
-    // Offset: 0x11334CC
+    // Offset: 0x11D418C
     Oculus::Platform::Models::Party* GetParty();
     // public Oculus.Platform.Models.PartyID GetPartyID()
-    // Offset: 0x11334D4
+    // Offset: 0x11D4194
     Oculus::Platform::Models::PartyID* GetPartyID();
     // public Oculus.Platform.Models.PartyUpdateNotification GetPartyUpdateNotification()
-    // Offset: 0x11334DC
+    // Offset: 0x11D419C
     Oculus::Platform::Models::PartyUpdateNotification* GetPartyUpdateNotification();
     // public Oculus.Platform.Models.PidList GetPidList()
-    // Offset: 0x11334E4
+    // Offset: 0x11D41A4
     Oculus::Platform::Models::PidList* GetPidList();
     // public Oculus.Platform.Models.ProductList GetProductList()
-    // Offset: 0x11334EC
+    // Offset: 0x11D41AC
     Oculus::Platform::Models::ProductList* GetProductList();
     // public Oculus.Platform.Models.Purchase GetPurchase()
-    // Offset: 0x11334F4
+    // Offset: 0x11D41B4
     Oculus::Platform::Models::Purchase* GetPurchase();
     // public Oculus.Platform.Models.PurchaseList GetPurchaseList()
-    // Offset: 0x11334FC
+    // Offset: 0x11D41BC
     Oculus::Platform::Models::PurchaseList* GetPurchaseList();
     // public Oculus.Platform.Models.Room GetRoom()
-    // Offset: 0x1133504
+    // Offset: 0x11D41C4
     Oculus::Platform::Models::Room* GetRoom();
     // public Oculus.Platform.Models.RoomInviteNotification GetRoomInviteNotification()
-    // Offset: 0x113350C
+    // Offset: 0x11D41CC
     Oculus::Platform::Models::RoomInviteNotification* GetRoomInviteNotification();
     // public Oculus.Platform.Models.RoomInviteNotificationList GetRoomInviteNotificationList()
-    // Offset: 0x1133514
+    // Offset: 0x11D41D4
     Oculus::Platform::Models::RoomInviteNotificationList* GetRoomInviteNotificationList();
     // public Oculus.Platform.Models.RoomList GetRoomList()
-    // Offset: 0x113351C
+    // Offset: 0x11D41DC
     Oculus::Platform::Models::RoomList* GetRoomList();
     // public Oculus.Platform.Models.SdkAccountList GetSdkAccountList()
-    // Offset: 0x1133524
+    // Offset: 0x11D41E4
     Oculus::Platform::Models::SdkAccountList* GetSdkAccountList();
     // public Oculus.Platform.Models.ShareMediaResult GetShareMediaResult()
-    // Offset: 0x113352C
+    // Offset: 0x11D41EC
     Oculus::Platform::Models::ShareMediaResult* GetShareMediaResult();
     // public System.String GetString()
-    // Offset: 0x1133534
+    // Offset: 0x11D41F4
     ::Il2CppString* GetString();
     // public Oculus.Platform.Models.SystemPermission GetSystemPermission()
-    // Offset: 0x113353C
+    // Offset: 0x11D41FC
     Oculus::Platform::Models::SystemPermission* GetSystemPermission();
     // public Oculus.Platform.Models.SystemVoipState GetSystemVoipState()
-    // Offset: 0x1133544
+    // Offset: 0x11D4204
     Oculus::Platform::Models::SystemVoipState* GetSystemVoipState();
     // public Oculus.Platform.Models.User GetUser()
-    // Offset: 0x113354C
+    // Offset: 0x11D420C
     Oculus::Platform::Models::User* GetUser();
     // public Oculus.Platform.Models.UserAndRoomList GetUserAndRoomList()
-    // Offset: 0x1133554
+    // Offset: 0x11D4214
     Oculus::Platform::Models::UserAndRoomList* GetUserAndRoomList();
     // public Oculus.Platform.Models.UserList GetUserList()
-    // Offset: 0x113355C
+    // Offset: 0x11D421C
     Oculus::Platform::Models::UserList* GetUserList();
     // public Oculus.Platform.Models.UserProof GetUserProof()
-    // Offset: 0x1133564
+    // Offset: 0x11D4224
     Oculus::Platform::Models::UserProof* GetUserProof();
     // public Oculus.Platform.Models.UserReportID GetUserReportID()
-    // Offset: 0x113356C
+    // Offset: 0x11D422C
     Oculus::Platform::Models::UserReportID* GetUserReportID();
     // static Oculus.Platform.Message ParseMessageHandle(System.IntPtr messageHandle)
-    // Offset: 0x1133574
+    // Offset: 0x11D4234
     static Oculus::Platform::Message* ParseMessageHandle(System::IntPtr messageHandle);
     // static public Oculus.Platform.Message PopMessage()
-    // Offset: 0x112D4CC
+    // Offset: 0x11CE18C
     static Oculus::Platform::Message* PopMessage();
     // static System.Void set_HandleExtraMessageTypes(Oculus.Platform.Message/ExtraMessageTypesHandler value)
-    // Offset: 0x1136758
+    // Offset: 0x11D7418
     static void set_HandleExtraMessageTypes(Oculus::Platform::Message::ExtraMessageTypesHandler* value);
     // static private Oculus.Platform.Message/ExtraMessageTypesHandler get_HandleExtraMessageTypes()
-    // Offset: 0x11367B0
+    // Offset: 0x11D7470
     static Oculus::Platform::Message::ExtraMessageTypesHandler* get_HandleExtraMessageTypes();
     // protected override System.Void Finalize()
-    // Offset: 0x113332C
+    // Offset: 0x11D3FEC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

@@ -34,18 +34,18 @@ namespace System::Runtime::Remoting::Lifetime {
       return nextSink;
     }
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessageSink nextSink)
-    // Offset: 0x109D0B4
+    // Offset: 0x11739E4
     static LeaseSink* New_ctor(System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
     // private System.Void RenewLease(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x10A01F0
+    // Offset: 0x1176B20
     void RenewLease(System::Runtime::Remoting::Messaging::IMessage* msg);
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x10A0128
+    // Offset: 0x1176A58
     // Implemented from: System.Runtime.Remoting.Messaging.IMessageSink
     // Base method: System.Runtime.Remoting.Messaging.IMessage IMessageSink::SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
     System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // public System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x10A0494
+    // Offset: 0x1176DC4
     // Implemented from: System.Runtime.Remoting.Messaging.IMessageSink
     // Base method: System.Runtime.Remoting.Messaging.IMessageCtrl IMessageSink::AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);

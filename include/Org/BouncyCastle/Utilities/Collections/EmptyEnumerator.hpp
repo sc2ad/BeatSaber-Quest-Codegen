@@ -22,15 +22,15 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Set static field: static public readonly System.Collections.IEnumerator Instance
     static void _set_Instance(System::Collections::IEnumerator* value);
     // static private System.Void .cctor()
-    // Offset: 0xFE5C54
+    // Offset: 0x10E15FC
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0xFE5BD4
+    // Offset: 0x10E157C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EmptyEnumerator* New_ctor();
     // public System.Boolean MoveNext()
-    // Offset: 0xFE5BDC
+    // Offset: 0x10E1584
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -38,7 +38,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0xFE5BE4
+    // Offset: 0x10E158C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();
@@ -46,7 +46,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
     // public System.Object get_Current()
-    // Offset: 0xFE5BE8
+    // Offset: 0x10E1590
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();

@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRIOBuffer::_PropertyContainer : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AB2C74
+    // Offset: 0x18621AC
     static IVRIOBuffer::_PropertyContainer* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt64 Invoke(System.UInt64 ulBuffer)
-    // Offset: 0x1AB2C88
+    // Offset: 0x18621C0
     uint64_t Invoke(uint64_t ulBuffer);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulBuffer, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AB2EF0
+    // Offset: 0x1862428
     System::IAsyncResult* BeginInvoke(uint64_t ulBuffer, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt64 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1AB2F7C
+    // Offset: 0x18624B4
     uint64_t EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRIOBuffer/_PropertyContainer
 }

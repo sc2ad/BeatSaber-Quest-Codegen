@@ -34,7 +34,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x30
     ::Il2CppString* VersionName;
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x114018C
+    // Offset: 0x11E0E4C
     static InstalledApplication* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.InstalledApplication
 }

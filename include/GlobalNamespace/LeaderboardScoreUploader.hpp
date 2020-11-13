@@ -73,34 +73,34 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kScoresToUploadFileName
     static void _set_kScoresToUploadFileName(::Il2CppString* value);
     // public System.Void add_allScoresDidUploadEvent(System.Action value)
-    // Offset: 0x20B0FDC
+    // Offset: 0xF1D298
     void add_allScoresDidUploadEvent(System::Action* value);
     // public System.Void remove_allScoresDidUploadEvent(System.Action value)
-    // Offset: 0x20B1080
+    // Offset: 0xF1D33C
     void remove_allScoresDidUploadEvent(System::Action* value);
     // public System.Void Init(LeaderboardScoreUploader/UploadScoreCallback uploadScoreCallback, System.String playerId)
-    // Offset: 0x20B1124
+    // Offset: 0xF1D3E0
     void Init(GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback* uploadScoreCallback, ::Il2CppString* playerId);
     // private System.Void OnApplicationQuit()
-    // Offset: 0x20B1200
+    // Offset: 0xF1D4BC
     void OnApplicationQuit();
     // private System.Collections.IEnumerator UploadScoresCoroutine()
-    // Offset: 0x20B1184
+    // Offset: 0xF1D440
     System::Collections::IEnumerator* UploadScoresCoroutine();
     // private System.Void LoadScoresToUploadFromFile()
-    // Offset: 0x20B1230
+    // Offset: 0xF1D4EC
     void LoadScoresToUploadFromFile();
     // private System.Void SaveScoresToUploadToFile()
-    // Offset: 0x20B1438
+    // Offset: 0xF1D6F4
     void SaveScoresToUploadToFile();
     // public System.Void AddScore(LeaderboardScoreUploader/ScoreData scoreData)
-    // Offset: 0x20B154C
+    // Offset: 0xF1D808
     void AddScore(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData);
     // private System.Boolean <UploadScoresCoroutine>b__14_1()
-    // Offset: 0x20B16C8
+    // Offset: 0xF1D984
     bool $UploadScoresCoroutine$b__14_1();
     // public System.Void .ctor()
-    // Offset: 0x20B1620
+    // Offset: 0xF1D8DC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

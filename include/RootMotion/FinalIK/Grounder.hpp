@@ -47,22 +47,22 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void ResetPosition();
     // public System.Boolean get_initiated()
-    // Offset: 0x1833320
+    // Offset: 0x16FA9C8
     bool get_initiated();
     // protected System.Void set_initiated(System.Boolean value)
-    // Offset: 0x1833328
+    // Offset: 0x16FA9D0
     void set_initiated(bool value);
     // protected UnityEngine.Vector3 GetSpineOffsetTarget()
-    // Offset: 0x1833334
+    // Offset: 0x16FA9DC
     UnityEngine::Vector3 GetSpineOffsetTarget();
     // protected System.Void LogWarning(System.String message)
-    // Offset: 0x1833608
+    // Offset: 0x16FACB0
     void LogWarning(::Il2CppString* message);
     // private UnityEngine.Vector3 GetLegSpineBendVector(RootMotion.FinalIK.Grounding/Leg leg)
-    // Offset: 0x1833478
+    // Offset: 0x16FAB20
     UnityEngine::Vector3 GetLegSpineBendVector(RootMotion::FinalIK::Grounding::Leg* leg);
     // private UnityEngine.Vector3 GetLegSpineTangent(RootMotion.FinalIK.Grounding/Leg leg)
-    // Offset: 0x183363C
+    // Offset: 0x16FACE4
     UnityEngine::Vector3 GetLegSpineTangent(RootMotion::FinalIK::Grounding::Leg* leg);
     // protected System.Void OpenUserManual()
     // Offset: 0xFFFFFFFF
@@ -71,7 +71,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void OpenScriptReference();
     // protected System.Void .ctor()
-    // Offset: 0x1833844
+    // Offset: 0x16FAEEC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

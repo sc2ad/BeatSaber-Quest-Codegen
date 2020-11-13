@@ -41,22 +41,22 @@ namespace UnityEngine::Networking {
       return m_Ptr;
     }
     // private System.Void Release()
-    // Offset: 0x1F4C02C
+    // Offset: 0x19DDA10
     void Release();
     // public System.String get_text()
-    // Offset: 0x1F4C15C
+    // Offset: 0x19DDB40
     ::Il2CppString* get_text();
     // protected System.Byte[] GetData()
-    // Offset: 0x1F4C168
+    // Offset: 0x19DDB4C
     ::Array<uint8_t>* GetData();
     // protected System.String GetText()
-    // Offset: 0x1F4C170
+    // Offset: 0x19DDB54
     ::Il2CppString* GetText();
     // private System.Text.Encoding GetTextEncoder()
-    // Offset: 0x1F4C210
+    // Offset: 0x19DDBF4
     System::Text::Encoding* GetTextEncoder();
     // private System.String GetContentType()
-    // Offset: 0x1F4C47C
+    // Offset: 0x19DDE60
     ::Il2CppString* GetContentType();
     // static protected T GetCheckedDownloader(UnityEngine.Networking.UnityWebRequest www)
     // Offset: 0xFFFFFFFF
@@ -66,20 +66,20 @@ namespace UnityEngine::Networking {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine.Networking", "DownloadHandler", "GetCheckedDownloader", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, www)));
     }
     // static System.Byte[] InternalGetByteArray(UnityEngine.Networking.DownloadHandler dh)
-    // Offset: 0x1F4C4BC
+    // Offset: 0x19DDEA0
     static ::Array<uint8_t>* InternalGetByteArray(UnityEngine::Networking::DownloadHandler* dh);
     // System.Void .ctor()
-    // Offset: 0x1F4C06C
+    // Offset: 0x19DDA50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DownloadHandler* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x1F4C074
+    // Offset: 0x19DDA58
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public System.Void Dispose()
-    // Offset: 0x1F4C0DC
+    // Offset: 0x19DDAC0
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

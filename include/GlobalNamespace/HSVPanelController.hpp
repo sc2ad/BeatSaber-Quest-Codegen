@@ -52,37 +52,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x200B248
+    // Offset: 0xF10FD4
     void add_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x200B2EC
+    // Offset: 0xF11078
     void remove_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x200B390
+    // Offset: 0xF1111C
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x200B3A0
+    // Offset: 0xF1112C
     void set_color(UnityEngine::Color value);
     // protected System.Void Awake()
-    // Offset: 0x200B468
+    // Offset: 0xF111F4
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x200B548
+    // Offset: 0xF112D4
     void OnDestroy();
     // private System.Void HandleColorSaturationOrValueDidChange(ColorSaturationValueSlider slider, UnityEngine.Vector2 colorSaturationAndValue, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x200B6A0
+    // Offset: 0xF1142C
     void HandleColorSaturationOrValueDidChange(GlobalNamespace::ColorSaturationValueSlider* slider, UnityEngine::Vector2 colorSaturationAndValue, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void HandleColorHueDidChange(ColorHueSlider slider, System.Single hue, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x200B738
+    // Offset: 0xF114C4
     void HandleColorHueDidChange(GlobalNamespace::ColorHueSlider* slider, float hue, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void RefreshSlidersValues()
-    // Offset: 0x200B400
+    // Offset: 0xF1118C
     void RefreshSlidersValues();
     // private System.Void RefreshSlidersColors()
-    // Offset: 0x200B3DC
+    // Offset: 0xF11168
     void RefreshSlidersColors();
     // public System.Void .ctor()
-    // Offset: 0x200B7C8
+    // Offset: 0xF11554
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

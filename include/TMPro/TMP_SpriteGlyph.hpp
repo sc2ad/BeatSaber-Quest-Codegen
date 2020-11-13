@@ -33,16 +33,16 @@ namespace TMPro {
       return sprite;
     }
     // public System.Void .ctor(System.UInt32 index, UnityEngine.TextCore.GlyphMetrics metrics, UnityEngine.TextCore.GlyphRect glyphRect, System.Single scale, System.Int32 atlasIndex, UnityEngine.Sprite sprite)
-    // Offset: 0xEDFC6C
+    // Offset: 0xF8C3B8
     static TMP_SpriteGlyph* New_ctor(uint index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float scale, int atlasIndex, UnityEngine::Sprite* sprite);
     // public System.Void .ctor()
-    // Offset: 0xEDF8FC
+    // Offset: 0xF8C048
     // Implemented from: UnityEngine.TextCore.Glyph
     // Base method: System.Void Glyph::.ctor()
     // Base method: System.Void Object::.ctor()
     static TMP_SpriteGlyph* New_ctor();
     // public System.Void .ctor(System.UInt32 index, UnityEngine.TextCore.GlyphMetrics metrics, UnityEngine.TextCore.GlyphRect glyphRect, System.Single scale, System.Int32 atlasIndex)
-    // Offset: 0xEDFBAC
+    // Offset: 0xF8C2F8
     // Implemented from: UnityEngine.TextCore.Glyph
     // Base method: System.Void Glyph::.ctor(System.UInt32 index, UnityEngine.TextCore.GlyphMetrics metrics, UnityEngine.TextCore.GlyphRect glyphRect, System.Single scale, System.Int32 atlasIndex)
     static TMP_SpriteGlyph* New_ctor(uint index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float scale, int atlasIndex);

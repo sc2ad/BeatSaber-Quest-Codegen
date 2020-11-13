@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithCloudStorageMetadataUnderLocal : public Oculus::Platform::Message_1<Oculus::Platform::Models::CloudStorageMetadata*> {
     public:
     // protected Oculus.Platform.Models.CloudStorageMetadata GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1138F2C
+    // Offset: 0x11D9BEC
     Oculus::Platform::Models::CloudStorageMetadata* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1135008
+    // Offset: 0x11D5CC8
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithCloudStorageMetadataUnderLocal* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.CloudStorageMetadata GetCloudStorageMetadata()
-    // Offset: 0x1138EE8
+    // Offset: 0x11D9BA8
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.CloudStorageMetadata Message::GetCloudStorageMetadata()
     Oculus::Platform::Models::CloudStorageMetadata* GetCloudStorageMetadata();

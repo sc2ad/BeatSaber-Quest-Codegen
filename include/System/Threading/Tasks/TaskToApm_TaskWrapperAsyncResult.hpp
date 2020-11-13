@@ -41,25 +41,25 @@ namespace System::Threading::Tasks {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
     // System.Void .ctor(System.Threading.Tasks.Task task, System.Object state, System.Boolean completedSynchronously)
-    // Offset: 0x14A10CC
+    // Offset: 0x1D19950
     static TaskToApm::TaskWrapperAsyncResult* New_ctor(System::Threading::Tasks::Task* task, ::Il2CppObject* state, bool completedSynchronously);
     // private System.Object System.IAsyncResult.get_AsyncState()
-    // Offset: 0x14A132C
+    // Offset: 0x1D19BB0
     // Implemented from: System.IAsyncResult
     // Base method: System.Object IAsyncResult::get_AsyncState()
     ::Il2CppObject* System_IAsyncResult_get_AsyncState();
     // private System.Boolean System.IAsyncResult.get_CompletedSynchronously()
-    // Offset: 0x14A1334
+    // Offset: 0x1D19BB8
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_CompletedSynchronously()
     bool System_IAsyncResult_get_CompletedSynchronously();
     // private System.Boolean System.IAsyncResult.get_IsCompleted()
-    // Offset: 0x14A133C
+    // Offset: 0x1D19BC0
     // Implemented from: System.IAsyncResult
     // Base method: System.Boolean IAsyncResult::get_IsCompleted()
     bool System_IAsyncResult_get_IsCompleted();
     // private System.Threading.WaitHandle System.IAsyncResult.get_AsyncWaitHandle()
-    // Offset: 0x14A1354
+    // Offset: 0x1D19BD8
     // Implemented from: System.IAsyncResult
     // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
     System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();

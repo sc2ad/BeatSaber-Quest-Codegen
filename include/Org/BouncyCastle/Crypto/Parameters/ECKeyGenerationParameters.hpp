@@ -37,13 +37,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x28
     Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet;
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Parameters.ECDomainParameters domainParameters, Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0xF4A768
+    // Offset: 0x1046174
     static ECKeyGenerationParameters* New_ctor(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* domainParameters, Org::BouncyCastle::Security::SecureRandom* random);
     // public Org.BouncyCastle.Crypto.Parameters.ECDomainParameters get_DomainParameters()
-    // Offset: 0xF4A7C8
+    // Offset: 0x10461D4
     Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* get_DomainParameters();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_PublicKeyParamSet()
-    // Offset: 0xF4A7D0
+    // Offset: 0x10461DC
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
   }; // Org.BouncyCastle.Crypto.Parameters.ECKeyGenerationParameters
 }

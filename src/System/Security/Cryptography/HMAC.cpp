@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Security.Cryptography.HMAC
 #include "System/Security/Cryptography/HMAC.hpp"
-// Including type: System.Security.Cryptography.HashAlgorithm
-#include "System/Security/Cryptography/HashAlgorithm.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

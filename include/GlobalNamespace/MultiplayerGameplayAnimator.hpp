@@ -66,22 +66,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x203CAB0
+    // Offset: 0xFAA04C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x203CB60
+    // Offset: 0xFAA2EC
     void OnDestroy();
     // protected System.Void AnimateNewLeaderSelected(System.Boolean isLeading)
     // Offset: 0xFFFFFFFF
     void AnimateNewLeaderSelected(bool isLeading);
     // protected System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x203CD98
+    // Offset: 0xFAA994
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // private System.Void HandleNewLeaderWasSelected(System.String userId)
-    // Offset: 0x203CFAC
+    // Offset: 0xFB2C54
     void HandleNewLeaderWasSelected(::Il2CppString* userId);
     // protected System.Void .ctor()
-    // Offset: 0x203D0B0
+    // Offset: 0xFAAC4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

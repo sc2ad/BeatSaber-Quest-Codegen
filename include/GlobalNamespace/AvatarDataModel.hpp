@@ -36,34 +36,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public AvatarData get_avatarData()
-    // Offset: 0x203200C
+    // Offset: 0x1A43D88
     GlobalNamespace::AvatarData* get_avatarData();
     // public System.Void set_avatarData(AvatarData value)
-    // Offset: 0x2032014
+    // Offset: 0x1A43D90
     void set_avatarData(GlobalNamespace::AvatarData* value);
     // protected System.Void OnEnable()
-    // Offset: 0x203201C
+    // Offset: 0x1A43D98
     void OnEnable();
     // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0x2032068
+    // Offset: 0x1A43DE4
     void OnApplicationPause(bool pauseStatus);
     // protected System.Void OnDisable()
-    // Offset: 0x2032090
+    // Offset: 0x1A43E0C
     void OnDisable();
     // public System.Void Randomize()
-    // Offset: 0x2032094
+    // Offset: 0x1A43E10
     void Randomize();
     // public System.Void Save()
-    // Offset: 0x2032074
+    // Offset: 0x1A43DF0
     void Save();
     // public System.Void Load()
-    // Offset: 0x2032020
+    // Offset: 0x1A43D9C
     void Load();
     // private AvatarData CreateDefaultAvatarData()
-    // Offset: 0x20320C0
+    // Offset: 0x1A43E3C
     GlobalNamespace::AvatarData* CreateDefaultAvatarData();
     // public System.Void .ctor()
-    // Offset: 0x203221C
+    // Offset: 0x1A43F98
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

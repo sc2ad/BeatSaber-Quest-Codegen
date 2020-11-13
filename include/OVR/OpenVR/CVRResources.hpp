@@ -33,13 +33,13 @@ namespace OVR::OpenVR {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x1156758
+    // Offset: 0x11F7418
     static CVRResources* New_ctor(System::IntPtr pInterface);
     // public System.UInt32 LoadSharedResource(System.String pchResourceName, System.String pchBuffer, System.UInt32 unBufferLen)
-    // Offset: 0x1156860
+    // Offset: 0x11F7520
     uint LoadSharedResource(::Il2CppString* pchResourceName, ::Il2CppString* pchBuffer, uint unBufferLen);
     // public System.UInt32 GetResourceFullPath(System.String pchResourceName, System.String pchResourceTypeDirectory, System.Text.StringBuilder pchPathBuffer, System.UInt32 unBufferLen)
-    // Offset: 0x115687C
+    // Offset: 0x11F753C
     uint GetResourceFullPath(::Il2CppString* pchResourceName, ::Il2CppString* pchResourceTypeDirectory, System::Text::StringBuilder* pchPathBuffer, uint unBufferLen);
   }; // OVR.OpenVR.CVRResources
 }

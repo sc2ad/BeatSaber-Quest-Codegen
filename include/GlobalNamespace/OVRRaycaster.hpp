@@ -90,25 +90,25 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Collections.Generic.List`1<OVRRaycaster/RaycastHit> s_SortedGraphics
     static void _set_s_SortedGraphics(System::Collections::Generic::List_1<GlobalNamespace::OVRRaycaster::RaycastHit>* value);
     // private System.Void Raycast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList, UnityEngine.Ray ray, System.Boolean checkForBlocking)
-    // Offset: 0x126CE30
+    // Offset: 0x12E1F2C
     void Raycast(UnityEngine::EventSystems::PointerEventData* eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* resultAppendList, UnityEngine::Ray ray, bool checkForBlocking);
     // public System.Void RaycastPointer(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList)
-    // Offset: 0x126DA38
+    // Offset: 0x12E2B34
     void RaycastPointer(UnityEngine::EventSystems::PointerEventData* eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* resultAppendList);
     // private System.Void GraphicRaycast(UnityEngine.Canvas canvas, UnityEngine.Ray ray, System.Collections.Generic.List`1<OVRRaycaster/RaycastHit> results)
-    // Offset: 0x126D430
+    // Offset: 0x12E252C
     void GraphicRaycast(UnityEngine::Canvas* canvas, UnityEngine::Ray ray, System::Collections::Generic::List_1<GlobalNamespace::OVRRaycaster::RaycastHit>* results);
     // public UnityEngine.Vector2 GetScreenPosition(UnityEngine.EventSystems.RaycastResult raycastResult)
-    // Offset: 0x126E044
+    // Offset: 0x12E3140
     UnityEngine::Vector2 GetScreenPosition(UnityEngine::EventSystems::RaycastResult raycastResult);
     // static private System.Boolean RayIntersectsRectTransform(UnityEngine.RectTransform rectTransform, UnityEngine.Ray ray, out UnityEngine.Vector3 worldPos)
-    // Offset: 0x126DC44
+    // Offset: 0x12E2D40
     static bool RayIntersectsRectTransform(UnityEngine::RectTransform* rectTransform, UnityEngine::Ray ray, UnityEngine::Vector3& worldPos);
     // public System.Boolean IsFocussed()
-    // Offset: 0x126E108
+    // Offset: 0x12E3204
     bool IsFocussed();
     // protected System.Void .ctor()
-    // Offset: 0x126CB74
+    // Offset: 0x12E1C70
     // Implemented from: UnityEngine.UI.GraphicRaycaster
     // Base method: System.Void GraphicRaycaster::.ctor()
     // Base method: System.Void BaseRaycaster::.ctor()
@@ -120,37 +120,37 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRRaycaster* New_ctor();
     // private UnityEngine.Canvas get_canvas()
-    // Offset: 0x126CC10
+    // Offset: 0x12E1D0C
     // Implemented from: UnityEngine.UI.GraphicRaycaster
     // Base method: UnityEngine.Canvas GraphicRaycaster::get_canvas()
     UnityEngine::Canvas* get_canvas();
     // public override UnityEngine.Camera get_eventCamera()
-    // Offset: 0x126CCBC
+    // Offset: 0x12E1DB8
     // Implemented from: UnityEngine.UI.GraphicRaycaster
     // Base method: UnityEngine.Camera GraphicRaycaster::get_eventCamera()
     UnityEngine::Camera* get_eventCamera();
     // public override System.Int32 get_sortOrderPriority()
-    // Offset: 0x126CCDC
+    // Offset: 0x12E1DD8
     // Implemented from: UnityEngine.UI.GraphicRaycaster
     // Base method: System.Int32 GraphicRaycaster::get_sortOrderPriority()
     int get_sortOrderPriority();
     // protected override System.Void Start()
-    // Offset: 0x126CCE4
+    // Offset: 0x12E1DE0
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::Start()
     void Start();
     // public override System.Void Raycast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList)
-    // Offset: 0x126D9C0
+    // Offset: 0x12E2ABC
     // Implemented from: UnityEngine.UI.GraphicRaycaster
     // Base method: System.Void GraphicRaycaster::Raycast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList)
     void Raycast(UnityEngine::EventSystems::PointerEventData* eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* resultAppendList);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData e)
-    // Offset: 0x126E234
+    // Offset: 0x12E3330
     // Implemented from: UnityEngine.EventSystems.IPointerEnterHandler
     // Base method: System.Void IPointerEnterHandler::OnPointerEnter(UnityEngine.EventSystems.PointerEventData e)
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* e);
     // static private System.Void .cctor()
-    // Offset: 0x126E358
+    // Offset: 0x12E3454
     // Implemented from: UnityEngine.UI.GraphicRaycaster
     // Base method: System.Void GraphicRaycaster::.cctor()
     // Base method: System.Void Object::.cctor()

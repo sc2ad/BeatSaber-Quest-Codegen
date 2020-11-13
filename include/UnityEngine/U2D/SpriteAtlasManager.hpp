@@ -36,22 +36,22 @@ namespace UnityEngine::U2D {
     // Set static field: static private System.Action`1<UnityEngine.U2D.SpriteAtlas> atlasRegistered
     static void _set_atlasRegistered(System::Action_1<UnityEngine::U2D::SpriteAtlas*>* value);
     // static private System.Boolean RequestAtlas(System.String tag)
-    // Offset: 0x173DFD0
+    // Offset: 0x16C8EB0
     static bool RequestAtlas(::Il2CppString* tag);
     // static public System.Void add_atlasRegistered(System.Action`1<UnityEngine.U2D.SpriteAtlas> value)
-    // Offset: 0x173E0CC
+    // Offset: 0x16C8FAC
     static void add_atlasRegistered(System::Action_1<UnityEngine::U2D::SpriteAtlas*>* value);
     // static public System.Void remove_atlasRegistered(System.Action`1<UnityEngine.U2D.SpriteAtlas> value)
-    // Offset: 0x173E1BC
+    // Offset: 0x16C909C
     static void remove_atlasRegistered(System::Action_1<UnityEngine::U2D::SpriteAtlas*>* value);
     // static private System.Void PostRegisteredAtlas(UnityEngine.U2D.SpriteAtlas spriteAtlas)
-    // Offset: 0x173E2AC
+    // Offset: 0x16C918C
     static void PostRegisteredAtlas(UnityEngine::U2D::SpriteAtlas* spriteAtlas);
     // static System.Void Register(UnityEngine.U2D.SpriteAtlas spriteAtlas)
-    // Offset: 0x173E338
+    // Offset: 0x16C9218
     static void Register(UnityEngine::U2D::SpriteAtlas* spriteAtlas);
     // static private System.Void .cctor()
-    // Offset: 0x173E378
+    // Offset: 0x16C9258
     static void _cctor();
   }; // UnityEngine.U2D.SpriteAtlasManager
 }

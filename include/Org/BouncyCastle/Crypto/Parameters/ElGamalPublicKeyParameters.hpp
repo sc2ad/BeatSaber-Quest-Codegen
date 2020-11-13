@@ -29,21 +29,21 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x20
     Org::BouncyCastle::Math::BigInteger* y;
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger y, Org.BouncyCastle.Crypto.Parameters.ElGamalParameters parameters)
-    // Offset: 0xF4CA68
+    // Offset: 0x1048474
     static ElGamalPublicKeyParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* y, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
     // public Org.BouncyCastle.Math.BigInteger get_Y()
-    // Offset: 0xF4CB24
+    // Offset: 0x1048530
     Org::BouncyCastle::Math::BigInteger* get_Y();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.ElGamalPublicKeyParameters other)
-    // Offset: 0xF4CBDC
+    // Offset: 0x10485E8
     bool Equals(Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF4CB2C
+    // Offset: 0x1048538
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.ElGamalKeyParameters
     // Base method: System.Boolean ElGamalKeyParameters::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF4CC38
+    // Offset: 0x1048644
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.ElGamalKeyParameters
     // Base method: System.Int32 ElGamalKeyParameters::GetHashCode()
     int GetHashCode();

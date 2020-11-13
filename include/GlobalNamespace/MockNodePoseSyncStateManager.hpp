@@ -44,40 +44,40 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::INodePoseSyncStateManager*>(this);
     }
     // public LocalMultiplayerSyncState`3<NodePoseSyncState,NodePoseSyncState/NodePose,PoseSerializable> get_localState()
-    // Offset: 0x2058BD8
+    // Offset: 0x1026518
     GlobalNamespace::LocalMultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* get_localState();
     // private System.Void Init()
-    // Offset: 0x2058BE0
+    // Offset: 0x1026520
     void Init();
     // public MultiplayerSyncState`3<NodePoseSyncState,NodePoseSyncState/NodePose,PoseSerializable> GetSyncStateForPlayer(IConnectedPlayer player)
-    // Offset: 0x2058CF4
+    // Offset: 0x1026634
     GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* GetSyncStateForPlayer(GlobalNamespace::IConnectedPlayer* player);
     // public MultiplayerSyncState`3<NodePoseSyncState,NodePoseSyncState/NodePose,PoseSerializable> GetSyncState(System.Int32 i)
-    // Offset: 0x2058CFC
+    // Offset: 0x102663C
     GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* GetSyncState(int i);
     // private PoseSerializable Interpolate(PoseSerializable prev, System.Single prevTime, PoseSerializable curr, System.Single currTime, System.Single time)
-    // Offset: 0x2058D5C
+    // Offset: 0x102669C
     GlobalNamespace::PoseSerializable Interpolate(GlobalNamespace::PoseSerializable prev, float prevTime, GlobalNamespace::PoseSerializable curr, float currTime, float time);
     // private PoseSerializable Smooth(PoseSerializable a, PoseSerializable b, System.Single smooth)
-    // Offset: 0x2058DA4
+    // Offset: 0x10266E4
     GlobalNamespace::PoseSerializable Smooth(GlobalNamespace::PoseSerializable a, GlobalNamespace::PoseSerializable b, float smooth);
     // public System.Single get_syncTime()
-    // Offset: 0x2058B1C
+    // Offset: 0x102645C
     // Implemented from: INodePoseSyncStateManager`4
     // Base method: System.Single INodePoseSyncStateManager_4::get_syncTime()
     float get_syncTime();
     // public System.Int32 get_connectedPlayerCount()
-    // Offset: 0x2058BD0
+    // Offset: 0x1026510
     // Implemented from: INodePoseSyncStateManager`4
     // Base method: System.Int32 INodePoseSyncStateManager_4::get_connectedPlayerCount()
     int get_connectedPlayerCount();
     // public System.Void ClearBufferedStates()
-    // Offset: 0x2058D04
+    // Offset: 0x1026644
     // Implemented from: INodePoseSyncStateManager`4
     // Base method: System.Void INodePoseSyncStateManager_4::ClearBufferedStates()
     void ClearBufferedStates();
     // public System.Void .ctor()
-    // Offset: 0x2058DEC
+    // Offset: 0x102672C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MockNodePoseSyncStateManager* New_ctor();

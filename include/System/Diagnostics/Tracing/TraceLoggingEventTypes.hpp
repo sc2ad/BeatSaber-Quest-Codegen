@@ -73,7 +73,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x48
     System::Diagnostics::Tracing::ConcurrentSet_2<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Diagnostics::Tracing::EventTags>, System::Diagnostics::Tracing::NameInfo*> nameInfos;
     // System.Void .ctor(System.String name, System.Diagnostics.Tracing.EventTags tags, params System.Type[] types)
-    // Offset: 0x104980C
+    // Offset: 0x112113C
     static TraceLoggingEventTypes* New_ctor(::Il2CppString* name, System::Diagnostics::Tracing::EventTags tags, ::Array<System::Type*>* types);
     // Creating initializer_list -> params proxy for: System.Void .ctor(System.String name, System.Diagnostics.Tracing.EventTags tags, params System.Type[] types)
     static TraceLoggingEventTypes* New_ctor(::Il2CppString* name, System::Diagnostics::Tracing::EventTags tags, std::initializer_list<System::Type*> types);
@@ -83,25 +83,25 @@ namespace System::Diagnostics::Tracing {
       return New_ctor(name, tags, {types...});
     }
     // System.Void .ctor(System.String name, System.Diagnostics.Tracing.EventTags tags, System.Reflection.ParameterInfo[] paramInfos)
-    // Offset: 0x1049BF8
+    // Offset: 0x1121528
     static TraceLoggingEventTypes* New_ctor(::Il2CppString* name, System::Diagnostics::Tracing::EventTags tags, ::Array<System::Reflection::ParameterInfo*>* paramInfos);
     // private System.Void .ctor(System.Diagnostics.Tracing.EventTags tags, System.String defaultName, System.Diagnostics.Tracing.TraceLoggingTypeInfo[] typeInfos)
-    // Offset: 0x10499F8
+    // Offset: 0x1121328
     static TraceLoggingEventTypes* New_ctor(System::Diagnostics::Tracing::EventTags tags, ::Il2CppString* defaultName, ::Array<System::Diagnostics::Tracing::TraceLoggingTypeInfo*>* typeInfos);
     // System.String get_Name()
-    // Offset: 0x104A150
+    // Offset: 0x1121A80
     ::Il2CppString* get_Name();
     // System.Diagnostics.Tracing.EventTags get_Tags()
-    // Offset: 0x104A158
+    // Offset: 0x1121A88
     System::Diagnostics::Tracing::EventTags get_Tags();
     // System.Diagnostics.Tracing.NameInfo GetNameInfo(System.String name, System.Diagnostics.Tracing.EventTags tags)
-    // Offset: 0x104A160
+    // Offset: 0x1121A90
     System::Diagnostics::Tracing::NameInfo* GetNameInfo(::Il2CppString* name, System::Diagnostics::Tracing::EventTags tags);
     // private System.Diagnostics.Tracing.TraceLoggingTypeInfo[] MakeArray(System.Reflection.ParameterInfo[] paramInfos)
-    // Offset: 0x1049E40
+    // Offset: 0x1121770
     ::Array<System::Diagnostics::Tracing::TraceLoggingTypeInfo*>* MakeArray(::Array<System::Reflection::ParameterInfo*>* paramInfos);
     // static private System.Diagnostics.Tracing.TraceLoggingTypeInfo[] MakeArray(System.Type[] types)
-    // Offset: 0x1049850
+    // Offset: 0x1121180
     static ::Array<System::Diagnostics::Tracing::TraceLoggingTypeInfo*>* MakeArray(::Array<System::Type*>* types);
   }; // System.Diagnostics.Tracing.TraceLoggingEventTypes
 }

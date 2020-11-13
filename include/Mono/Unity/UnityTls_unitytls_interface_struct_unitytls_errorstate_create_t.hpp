@@ -28,16 +28,16 @@ namespace Mono::Unity {
   class UnityTls::unitytls_interface_struct::unitytls_errorstate_create_t : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11F8338
+    // Offset: 0x126D3F0
     static UnityTls::unitytls_interface_struct::unitytls_errorstate_create_t* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Mono.Unity.UnityTls/unitytls_errorstate Invoke()
-    // Offset: 0x11F834C
+    // Offset: 0x126D404
     Mono::Unity::UnityTls::unitytls_errorstate Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11F8564
+    // Offset: 0x126D61C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Mono.Unity.UnityTls/unitytls_errorstate EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11F8590
+    // Offset: 0x126D648
     Mono::Unity::UnityTls::unitytls_errorstate EndInvoke(System::IAsyncResult* result);
   }; // Mono.Unity.UnityTls/unitytls_interface_struct/unitytls_errorstate_create_t
 }

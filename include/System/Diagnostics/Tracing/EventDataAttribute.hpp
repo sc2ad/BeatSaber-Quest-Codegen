@@ -37,19 +37,19 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x28
     System::Diagnostics::Tracing::EventTags Tags;
     // public System.String get_Name()
-    // Offset: 0x12518E0
+    // Offset: 0x12C69DC
     ::Il2CppString* get_Name();
     // System.Diagnostics.Tracing.EventLevel get_Level()
-    // Offset: 0x12518E8
+    // Offset: 0x12C69E4
     System::Diagnostics::Tracing::EventLevel get_Level();
     // System.Diagnostics.Tracing.EventOpcode get_Opcode()
-    // Offset: 0x12518F0
+    // Offset: 0x12C69EC
     System::Diagnostics::Tracing::EventOpcode get_Opcode();
     // System.Diagnostics.Tracing.EventKeywords get_Keywords()
-    // Offset: 0x12518F8
+    // Offset: 0x12C69F4
     System::Diagnostics::Tracing::EventKeywords get_Keywords();
     // System.Diagnostics.Tracing.EventTags get_Tags()
-    // Offset: 0x1251900
+    // Offset: 0x12C69FC
     System::Diagnostics::Tracing::EventTags get_Tags();
   }; // System.Diagnostics.Tracing.EventDataAttribute
 }

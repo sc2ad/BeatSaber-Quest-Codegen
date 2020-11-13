@@ -34,27 +34,27 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x30
     Org::BouncyCastle::Math::BigInteger* d;
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger d, Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters)
-    // Offset: 0xF4AFFC
+    // Offset: 0x1046A08
     static ECPrivateKeyParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* d, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
     // public System.Void .ctor(System.String algorithm, Org.BouncyCastle.Math.BigInteger d, Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters)
-    // Offset: 0xF4B064
+    // Offset: 0x1046A70
     static ECPrivateKeyParameters* New_ctor(::Il2CppString* algorithm, Org::BouncyCastle::Math::BigInteger* d, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
     // public System.Void .ctor(System.String algorithm, Org.BouncyCastle.Math.BigInteger d, Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet)
-    // Offset: 0xF4B114
+    // Offset: 0x1046B20
     static ECPrivateKeyParameters* New_ctor(::Il2CppString* algorithm, Org::BouncyCastle::Math::BigInteger* d, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
     // public Org.BouncyCastle.Math.BigInteger get_D()
-    // Offset: 0xF4B1C4
+    // Offset: 0x1046BD0
     Org::BouncyCastle::Math::BigInteger* get_D();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters other)
-    // Offset: 0xF4B27C
+    // Offset: 0x1046C88
     bool Equals(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF4B1CC
+    // Offset: 0x1046BD8
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.ECKeyParameters
     // Base method: System.Boolean ECKeyParameters::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF4B2D8
+    // Offset: 0x1046CE4
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.ECKeyParameters
     // Base method: System.Int32 ECKeyParameters::GetHashCode()
     int GetHashCode();

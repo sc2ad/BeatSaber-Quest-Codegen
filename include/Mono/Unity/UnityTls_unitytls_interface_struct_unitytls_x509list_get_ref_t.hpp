@@ -28,16 +28,16 @@ namespace Mono::Unity {
   class UnityTls::unitytls_interface_struct::unitytls_x509list_get_ref_t : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11FD108
+    // Offset: 0x12721C0
     static UnityTls::unitytls_interface_struct::unitytls_x509list_get_ref_t* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Mono.Unity.UnityTls/unitytls_x509list_ref Invoke(Mono.Unity.UnityTls/unitytls_x509list* list, Mono.Unity.UnityTls/unitytls_errorstate* errorState)
-    // Offset: 0x11FD11C
+    // Offset: 0x12721D4
     Mono::Unity::UnityTls::unitytls_x509list_ref Invoke(Mono::Unity::UnityTls::unitytls_x509list* list, Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // public System.IAsyncResult BeginInvoke(Mono.Unity.UnityTls/unitytls_x509list* list, Mono.Unity.UnityTls/unitytls_errorstate* errorState, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11FD390
+    // Offset: 0x1272448
     System::IAsyncResult* BeginInvoke(Mono::Unity::UnityTls::unitytls_x509list* list, Mono::Unity::UnityTls::unitytls_errorstate* errorState, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Mono.Unity.UnityTls/unitytls_x509list_ref EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11FD3C0
+    // Offset: 0x1272478
     Mono::Unity::UnityTls::unitytls_x509list_ref EndInvoke(System::IAsyncResult* result);
   }; // Mono.Unity.UnityTls/unitytls_interface_struct/unitytls_x509list_get_ref_t
 }

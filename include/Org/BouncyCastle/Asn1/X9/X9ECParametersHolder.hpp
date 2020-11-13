@@ -26,13 +26,13 @@ namespace Org::BouncyCastle::Asn1::X9 {
       return parameters;
     }
     // public Org.BouncyCastle.Asn1.X9.X9ECParameters get_Parameters()
-    // Offset: 0x1617948
+    // Offset: 0x1586744
     Org::BouncyCastle::Asn1::X9::X9ECParameters* get_Parameters();
     // protected Org.BouncyCastle.Asn1.X9.X9ECParameters CreateParameters()
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
     // protected System.Void .ctor()
-    // Offset: 0x16179F4
+    // Offset: 0x15867F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static X9ECParametersHolder* New_ctor();

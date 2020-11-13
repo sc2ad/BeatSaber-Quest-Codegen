@@ -56,13 +56,13 @@ namespace GlobalNamespace {
     // Offset: 0x40
     System::Action_1<Zenject::DiContainer*>* $$9__1;
     // System.Void <PopScenes>b__0(Zenject.DiContainer emptySceneContainer)
-    // Offset: 0x211183C
+    // Offset: 0x10337B8
     void $PopScenes$b__0(Zenject::DiContainer* emptySceneContainer);
     // System.Void <PopScenes>b__1(Zenject.DiContainer container)
-    // Offset: 0x2111940
+    // Offset: 0x10338BC
     void $PopScenes$b__1(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x21102D4
+    // Offset: 0x1032250
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GameScenesManager::$$c__DisplayClass31_0* New_ctor();

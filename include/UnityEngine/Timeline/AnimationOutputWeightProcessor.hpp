@@ -58,16 +58,16 @@ namespace UnityEngine::Timeline {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineEvaluateCallback*>(this);
     }
     // public System.Void .ctor(UnityEngine.Animations.AnimationPlayableOutput output)
-    // Offset: 0x13EA144
+    // Offset: 0x1410418
     static AnimationOutputWeightProcessor* New_ctor(UnityEngine::Animations::AnimationPlayableOutput output);
     // private System.Void FindMixers()
-    // Offset: 0x13EA1F8
+    // Offset: 0x14104CC
     void FindMixers();
     // private System.Void FindMixers(UnityEngine.Playables.Playable parent, System.Int32 port, UnityEngine.Playables.Playable node)
-    // Offset: 0x13EA2CC
+    // Offset: 0x14105A0
     void FindMixers(UnityEngine::Playables::Playable parent, int port, UnityEngine::Playables::Playable node);
     // public System.Void Evaluate()
-    // Offset: 0x13EA510
+    // Offset: 0x14107E4
     // Implemented from: UnityEngine.Timeline.ITimelineEvaluateCallback
     // Base method: System.Void ITimelineEvaluateCallback::Evaluate()
     void Evaluate();

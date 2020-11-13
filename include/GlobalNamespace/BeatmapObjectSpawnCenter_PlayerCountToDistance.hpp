@@ -20,13 +20,13 @@ namespace GlobalNamespace {
     // Offset: 0x14
     float distance;
     // public System.Int32 get_playerCount()
-    // Offset: 0x1FAA414
+    // Offset: 0x1A29DE8
     int get_playerCount();
     // public System.Single get_distance()
-    // Offset: 0x1FAA41C
+    // Offset: 0x1A29DF0
     float get_distance();
     // public System.Void .ctor()
-    // Offset: 0x1FAA424
+    // Offset: 0x1A29DF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapObjectSpawnCenter::PlayerCountToDistance* New_ctor();

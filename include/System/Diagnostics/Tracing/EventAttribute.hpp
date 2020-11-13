@@ -56,55 +56,55 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x3C
     bool m_opcodeSet;
     // public System.Void .ctor(System.Int32 eventId)
-    // Offset: 0x125170C
+    // Offset: 0x12C6808
     static EventAttribute* New_ctor(int eventId);
     // public System.Int32 get_EventId()
-    // Offset: 0x1251740
+    // Offset: 0x12C683C
     int get_EventId();
     // private System.Void set_EventId(System.Int32 value)
-    // Offset: 0x1251748
+    // Offset: 0x12C6844
     void set_EventId(int value);
     // public System.Diagnostics.Tracing.EventLevel get_Level()
-    // Offset: 0x1251750
+    // Offset: 0x12C684C
     System::Diagnostics::Tracing::EventLevel get_Level();
     // public System.Void set_Level(System.Diagnostics.Tracing.EventLevel value)
-    // Offset: 0x1251758
+    // Offset: 0x12C6854
     void set_Level(System::Diagnostics::Tracing::EventLevel value);
     // public System.Diagnostics.Tracing.EventKeywords get_Keywords()
-    // Offset: 0x1251760
+    // Offset: 0x12C685C
     System::Diagnostics::Tracing::EventKeywords get_Keywords();
     // public System.Diagnostics.Tracing.EventOpcode get_Opcode()
-    // Offset: 0x1251768
+    // Offset: 0x12C6864
     System::Diagnostics::Tracing::EventOpcode get_Opcode();
     // public System.Void set_Opcode(System.Diagnostics.Tracing.EventOpcode value)
-    // Offset: 0x1251770
+    // Offset: 0x12C686C
     void set_Opcode(System::Diagnostics::Tracing::EventOpcode value);
     // System.Boolean get_IsOpcodeSet()
-    // Offset: 0x1251780
+    // Offset: 0x12C687C
     bool get_IsOpcodeSet();
     // public System.Diagnostics.Tracing.EventTask get_Task()
-    // Offset: 0x1251788
+    // Offset: 0x12C6884
     System::Diagnostics::Tracing::EventTask get_Task();
     // public System.Void set_Task(System.Diagnostics.Tracing.EventTask value)
-    // Offset: 0x1251790
+    // Offset: 0x12C688C
     void set_Task(System::Diagnostics::Tracing::EventTask value);
     // public System.Byte get_Version()
-    // Offset: 0x1251798
+    // Offset: 0x12C6894
     uint8_t get_Version();
     // public System.String get_Message()
-    // Offset: 0x12517A0
+    // Offset: 0x12C689C
     ::Il2CppString* get_Message();
     // public System.Void set_Message(System.String value)
-    // Offset: 0x12517A8
+    // Offset: 0x12C68A4
     void set_Message(::Il2CppString* value);
     // public System.Diagnostics.Tracing.EventTags get_Tags()
-    // Offset: 0x12517B0
+    // Offset: 0x12C68AC
     System::Diagnostics::Tracing::EventTags get_Tags();
     // public System.Diagnostics.Tracing.EventActivityOptions get_ActivityOptions()
-    // Offset: 0x12517B8
+    // Offset: 0x12C68B4
     System::Diagnostics::Tracing::EventActivityOptions get_ActivityOptions();
     // public System.Void set_ActivityOptions(System.Diagnostics.Tracing.EventActivityOptions value)
-    // Offset: 0x12517C0
+    // Offset: 0x12C68BC
     void set_ActivityOptions(System::Diagnostics::Tracing::EventActivityOptions value);
   }; // System.Diagnostics.Tracing.EventAttribute
 }

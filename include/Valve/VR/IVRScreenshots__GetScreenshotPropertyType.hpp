@@ -33,16 +33,16 @@ namespace Valve::VR {
   class IVRScreenshots::_GetScreenshotPropertyType : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1CA47A8
+    // Offset: 0x1922980
     static IVRScreenshots::_GetScreenshotPropertyType* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRScreenshotType Invoke(System.UInt32 screenshotHandle, ref Valve.VR.EVRScreenshotError pError)
-    // Offset: 0x1CA47BC
+    // Offset: 0x1922994
     Valve::VR::EVRScreenshotType Invoke(uint screenshotHandle, Valve::VR::EVRScreenshotError& pError);
     // public System.IAsyncResult BeginInvoke(System.UInt32 screenshotHandle, ref Valve.VR.EVRScreenshotError pError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1CA4A4C
+    // Offset: 0x1922C24
     System::IAsyncResult* BeginInvoke(uint screenshotHandle, Valve::VR::EVRScreenshotError& pError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRScreenshotType EndInvoke(ref Valve.VR.EVRScreenshotError pError, System.IAsyncResult result)
-    // Offset: 0x1CA4B00
+    // Offset: 0x1922CD8
     Valve::VR::EVRScreenshotType EndInvoke(Valve::VR::EVRScreenshotError& pError, System::IAsyncResult* result);
   }; // Valve.VR.IVRScreenshots/_GetScreenshotPropertyType
 }

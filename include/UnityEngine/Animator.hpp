@@ -19,6 +19,10 @@ namespace UnityEngine {
   class StateMachineBehaviour;
   // Forward declaring type: ScriptableObject
   class ScriptableObject;
+  // Forward declaring type: StateInfoIndex
+  struct StateInfoIndex;
+  // Forward declaring type: AnimatorStateInfo
+  struct AnimatorStateInfo;
   // Forward declaring type: Transform
   class Transform;
   // Forward declaring type: HumanBodyBones
@@ -42,40 +46,40 @@ namespace UnityEngine {
   class Animator : public UnityEngine::Behaviour {
     public:
     // public System.Boolean get_isHuman()
-    // Offset: 0x1F3D5BC
+    // Offset: 0x19CA63C
     bool get_isHuman();
     // public System.Boolean get_hasRootMotion()
-    // Offset: 0x1F3D5FC
+    // Offset: 0x19CA67C
     bool get_hasRootMotion();
     // public System.Single get_humanScale()
-    // Offset: 0x1F3D63C
+    // Offset: 0x19CA6BC
     float get_humanScale();
     // public System.Boolean GetBool(System.Int32 id)
-    // Offset: 0x1F3D67C
+    // Offset: 0x19CA6FC
     bool GetBool(int id);
     // public System.Void SetBool(System.String name, System.Boolean value)
-    // Offset: 0x1F3D71C
+    // Offset: 0x19CA79C
     void SetBool(::Il2CppString* name, bool value);
     // public System.Void SetBool(System.Int32 id, System.Boolean value)
-    // Offset: 0x1F3D7CC
+    // Offset: 0x19CA84C
     void SetBool(int id, bool value);
     // public System.Void SetTrigger(System.String name)
-    // Offset: 0x1F3D87C
+    // Offset: 0x19CA8FC
     void SetTrigger(::Il2CppString* name);
     // public System.Void SetTrigger(System.Int32 id)
-    // Offset: 0x1F3D91C
+    // Offset: 0x19CA99C
     void SetTrigger(int id);
     // public System.Void ResetTrigger(System.String name)
-    // Offset: 0x1F3D9BC
+    // Offset: 0x19CAA3C
     void ResetTrigger(::Il2CppString* name);
     // public System.Void set_applyRootMotion(System.Boolean value)
-    // Offset: 0x1F3DA5C
+    // Offset: 0x19CAADC
     void set_applyRootMotion(bool value);
     // public UnityEngine.AnimatorUpdateMode get_updateMode()
-    // Offset: 0x1F3DAAC
+    // Offset: 0x19CAB2C
     UnityEngine::AnimatorUpdateMode get_updateMode();
     // public System.Void set_updateMode(UnityEngine.AnimatorUpdateMode value)
-    // Offset: 0x1F3DAEC
+    // Offset: 0x19CAB6C
     void set_updateMode(UnityEngine::AnimatorUpdateMode value);
     // static private T[] ConvertStateMachineBehaviour(UnityEngine.ScriptableObject[] rawObjects)
     // Offset: 0xFFFFFFFF
@@ -92,70 +96,82 @@ namespace UnityEngine {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>(this, "GetBehaviours", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // UnityEngine.ScriptableObject[] InternalGetBehaviours(System.Type type)
-    // Offset: 0x1F3DB3C
+    // Offset: 0x19CABBC
     ::Array<UnityEngine::ScriptableObject*>* InternalGetBehaviours(System::Type* type);
+    // private System.Void GetAnimatorStateInfo(System.Int32 layerIndex, UnityEngine.StateInfoIndex stateInfoIndex, out UnityEngine.AnimatorStateInfo info)
+    // Offset: 0x19CAC0C
+    void GetAnimatorStateInfo(int layerIndex, UnityEngine::StateInfoIndex stateInfoIndex, UnityEngine::AnimatorStateInfo& info);
+    // public UnityEngine.AnimatorStateInfo GetCurrentAnimatorStateInfo(System.Int32 layerIndex)
+    // Offset: 0x19CAC74
+    UnityEngine::AnimatorStateInfo GetCurrentAnimatorStateInfo(int layerIndex);
+    // public System.Void set_speed(System.Single value)
+    // Offset: 0x19CAD00
+    void set_speed(float value);
     // public System.Void CrossFade(System.String stateName, System.Single normalizedTransitionDuration, System.Int32 layer, System.Single normalizedTimeOffset)
-    // Offset: 0x1F3DB8C
+    // Offset: 0x19CAD50
     void CrossFade(::Il2CppString* stateName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset);
     // public System.Void CrossFade(System.String stateName, System.Single normalizedTransitionDuration, System.Int32 layer)
-    // Offset: 0x1F3DC40
+    // Offset: 0x19CAE04
     void CrossFade(::Il2CppString* stateName, float normalizedTransitionDuration, int layer);
     // public System.Void CrossFade(System.String stateName, System.Single normalizedTransitionDuration, System.Int32 layer, System.Single normalizedTimeOffset, System.Single normalizedTransitionTime)
-    // Offset: 0x1F3DB94
+    // Offset: 0x19CAD58
     void CrossFade(::Il2CppString* stateName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset, float normalizedTransitionTime);
     // public System.Void CrossFade(System.Int32 stateHashName, System.Single normalizedTransitionDuration, System.Int32 layer, System.Single normalizedTimeOffset, System.Single normalizedTransitionTime)
-    // Offset: 0x1F3DC90
+    // Offset: 0x19CAE54
     void CrossFade(int stateHashName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset, float normalizedTransitionTime);
     // public System.Void Play(System.String stateName, System.Int32 layer, System.Single normalizedTime)
-    // Offset: 0x1F3DD10
+    // Offset: 0x19CAED4
     void Play(::Il2CppString* stateName, int layer, float normalizedTime);
     // public System.Void Play(System.Int32 stateNameHash, System.Int32 layer, System.Single normalizedTime)
-    // Offset: 0x1F3DDA4
+    // Offset: 0x19CAF68
     void Play(int stateNameHash, int layer, float normalizedTime);
     // public UnityEngine.Transform GetBoneTransform(UnityEngine.HumanBodyBones humanBoneId)
-    // Offset: 0x1F3DE0C
+    // Offset: 0x19CAFD0
     UnityEngine::Transform* GetBoneTransform(UnityEngine::HumanBodyBones humanBoneId);
     // UnityEngine.Transform GetBoneTransformInternal(System.Int32 humanBoneId)
-    // Offset: 0x1F3DF68
+    // Offset: 0x19CB12C
     UnityEngine::Transform* GetBoneTransformInternal(int humanBoneId);
     // public System.Void set_cullingMode(UnityEngine.AnimatorCullingMode value)
-    // Offset: 0x1F3DFB8
+    // Offset: 0x19CB17C
     void set_cullingMode(UnityEngine::AnimatorCullingMode value);
     // public UnityEngine.RuntimeAnimatorController get_runtimeAnimatorController()
-    // Offset: 0x1F3E008
+    // Offset: 0x19CB1CC
     UnityEngine::RuntimeAnimatorController* get_runtimeAnimatorController();
+    // public System.Void set_runtimeAnimatorController(UnityEngine.RuntimeAnimatorController value)
+    // Offset: 0x19CB20C
+    void set_runtimeAnimatorController(UnityEngine::RuntimeAnimatorController* value);
     // public System.Boolean get_hasBoundPlayables()
-    // Offset: 0x1F3E048
+    // Offset: 0x19CB25C
     bool get_hasBoundPlayables();
     // static public System.Int32 StringToHash(System.String name)
-    // Offset: 0x1F3DC50
+    // Offset: 0x19CAE14
     static int StringToHash(::Il2CppString* name);
     // public UnityEngine.Avatar get_avatar()
-    // Offset: 0x1F3E088
+    // Offset: 0x19CB29C
     UnityEngine::Avatar* get_avatar();
     // private System.Void SetBoolString(System.String name, System.Boolean value)
-    // Offset: 0x1F3D774
+    // Offset: 0x19CA7F4
     void SetBoolString(::Il2CppString* name, bool value);
     // private System.Void SetBoolID(System.Int32 id, System.Boolean value)
-    // Offset: 0x1F3D824
+    // Offset: 0x19CA8A4
     void SetBoolID(int id, bool value);
     // private System.Boolean GetBoolID(System.Int32 id)
-    // Offset: 0x1F3D6CC
+    // Offset: 0x19CA74C
     bool GetBoolID(int id);
     // private System.Void SetTriggerString(System.String name)
-    // Offset: 0x1F3D8CC
+    // Offset: 0x19CA94C
     void SetTriggerString(::Il2CppString* name);
     // private System.Void SetTriggerID(System.Int32 id)
-    // Offset: 0x1F3D96C
+    // Offset: 0x19CA9EC
     void SetTriggerID(int id);
     // private System.Void ResetTriggerString(System.String name)
-    // Offset: 0x1F3DA0C
+    // Offset: 0x19CAA8C
     void ResetTriggerString(::Il2CppString* name);
     // public System.Void set_keepAnimatorControllerStateOnDisable(System.Boolean value)
-    // Offset: 0x1F3E0C8
+    // Offset: 0x19CB2DC
     void set_keepAnimatorControllerStateOnDisable(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1F3E118
+    // Offset: 0x19CB32C
     // Implemented from: UnityEngine.Behaviour
     // Base method: System.Void Behaviour::.ctor()
     // Base method: System.Void Component::.ctor()

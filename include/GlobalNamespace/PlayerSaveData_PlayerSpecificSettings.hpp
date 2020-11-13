@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Offset: 0x31
     bool adaptiveSfx;
     // public System.Void .ctor()
-    // Offset: 0x2089888
+    // Offset: 0xF250F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveData::PlayerSpecificSettings* New_ctor();

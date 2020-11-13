@@ -64,28 +64,28 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxColors
     static void _set_kMaxColors(int value);
     // public System.Void add_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x2068E7C
+    // Offset: 0xF2D6D0
     void add_colorWasSelectedEvent(System::Action_1<UnityEngine::Color>* value);
     // public System.Void remove_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x2068F20
+    // Offset: 0xF2D774
     void remove_colorWasSelectedEvent(System::Action_1<UnityEngine::Color>* value);
     // protected System.Void Awake()
-    // Offset: 0x2068FC4
+    // Offset: 0xF2D818
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x2069088
+    // Offset: 0xF2D8DC
     void OnDestroy();
     // public System.Void AddColor(UnityEngine.Color color)
-    // Offset: 0x20690A4
+    // Offset: 0xF2D8F8
     void AddColor(UnityEngine::Color color);
     // public System.Void DiscardUpcomingColor()
-    // Offset: 0x206915C
+    // Offset: 0xF2D9B0
     void DiscardUpcomingColor();
     // private System.Void <Awake>b__9_0()
-    // Offset: 0x20691AC
+    // Offset: 0xF2DA00
     void $Awake$b__9_0();
     // public System.Void .ctor()
-    // Offset: 0x2069168
+    // Offset: 0xF2D9BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

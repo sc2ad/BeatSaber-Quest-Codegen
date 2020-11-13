@@ -11,14 +11,18 @@
 #include "GlobalNamespace/SettingsNavigationController.hpp"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: HMUI
+namespace HMUI {
+  // Skipping declaration: ViewController because it is already included!
+}
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: SettingsSubMenuInfo
-  class SettingsSubMenuInfo;
   // Forward declaring type: MainSettingsModelSO
   class MainSettingsModelSO;
   // Forward declaring type: MainSettingsMenuViewController
   class MainSettingsMenuViewController;
+  // Forward declaring type: SettingsSubMenuInfo
+  class SettingsSubMenuInfo;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -82,35 +86,41 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 _selectedSettingsSubMenuInfoIdx
     static void _set__selectedSettingsSubMenuInfoIdx(int value);
     // public System.Void add_didFinishEvent(System.Action`2<SettingsFlowCoordinator,SettingsFlowCoordinator/FinishAction> value)
-    // Offset: 0x1FEC140
+    // Offset: 0xFCC8A8
     void add_didFinishEvent(System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<SettingsFlowCoordinator,SettingsFlowCoordinator/FinishAction> value)
-    // Offset: 0x1FEC1E4
+    // Offset: 0xFCC94C
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>* value);
+    // public System.Void ShowSecretViewController(HMUI.ViewController viewController)
+    // Offset: 0xFCBFF0
+    void ShowSecretViewController(HMUI::ViewController* viewController);
     // private System.Void HandleDidSelectSettingsSubMenu(SettingsSubMenuInfo settingsSubMenuInfo, System.Int32 idx)
-    // Offset: 0x1FEC778
+    // Offset: 0xFCCF84
     void HandleDidSelectSettingsSubMenu(GlobalNamespace::SettingsSubMenuInfo* settingsSubMenuInfo, int idx);
+    // private System.Void ReplaceViewController(HMUI.ViewController viewController)
+    // Offset: 0xFCCEE0
+    void ReplaceViewController(HMUI::ViewController* viewController);
     // private System.Void HandleSettingsNavigationControllerDidFinish(SettingsNavigationController/FinishAction finishAction)
-    // Offset: 0x1FEC840
+    // Offset: 0xFCD010
     void HandleSettingsNavigationControllerDidFinish(GlobalNamespace::SettingsNavigationController::FinishAction finishAction);
     // private System.Void ApplySettings()
-    // Offset: 0x1FEC91C
+    // Offset: 0xFCD0EC
     void ApplySettings();
     // private System.Void CancelSettings()
-    // Offset: 0x1FEC95C
+    // Offset: 0xFCD12C
     void CancelSettings();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1FEC288
+    // Offset: 0xFCC9F0
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1FEC5E0
+    // Offset: 0xFCCD48
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x1FEC97C
+    // Offset: 0xFCD14C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -120,7 +130,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SettingsFlowCoordinator* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1FEC984
+    // Offset: 0xFCD154
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

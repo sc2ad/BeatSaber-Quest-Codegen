@@ -14,6 +14,11 @@ namespace Unity::Collections {
   // Forward declaring type: Allocator
   struct Allocator;
 }
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: ValueType
+  class ValueType;
+}
 // Completed forward declares
 // Type namespace: Unity.Collections.LowLevel.Unsafe
 namespace Unity::Collections::LowLevel::Unsafe {
@@ -21,7 +26,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   class UnsafeUtility : public ::Il2CppObject {
     public:
     // static public System.Void Free(System.Void* memory, Unity.Collections.Allocator allocator)
-    // Offset: 0x1783FE0
+    // Offset: 0x1679D10
     static void Free(void* memory, Unity::Collections::Allocator allocator);
     // static public T ReadArrayElement(System.Void* source, System.Int32 index)
     // Offset: 0xFFFFFFFF
@@ -34,6 +39,13 @@ namespace Unity::Collections::LowLevel::Unsafe {
     template<class T>
     static void WriteArrayElement(void* destination, int index, T value) {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", "WriteArrayElement", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, destination, index, value));
+    }
+    // static public System.Int32 SizeOf()
+    // Offset: 0xFFFFFFFF
+    template<class T>
+    static int SizeOf() {
+      static_assert(is_value_type_v<T>);
+      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<int>("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", "SizeOf", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
   }; // Unity.Collections.LowLevel.Unsafe.UnsafeUtility
 }

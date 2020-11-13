@@ -63,45 +63,45 @@ namespace GlobalNamespace {
     // Offset: 0x99
     bool hasScoresData;
     // private System.Void HandleLoadingControlDidPressRefreshButton()
-    // Offset: 0x1FDF510
+    // Offset: 0xFD7EA8
     void HandleLoadingControlDidPressRefreshButton();
     // public System.Void Refresh()
-    // Offset: 0x1FDEAA8
+    // Offset: 0xFD7440
     void Refresh();
     // private System.Void Refresh(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0x1FDF1A4
+    // Offset: 0xFD7B3C
     void Refresh(bool showLoadingIndicator, bool clear);
     // private System.Collections.IEnumerator RefreshDelayed(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0x1FDF590
+    // Offset: 0xFD7F28
     System::Collections::IEnumerator* RefreshDelayed(bool showLoadingIndicator, bool clear);
     // private System.Void LoadScoresAsync()
-    // Offset: 0x1FDF658
+    // Offset: 0xFD7FF0
     void LoadScoresAsync();
     // private System.Void ClearContent()
-    // Offset: 0x1FDF51C
+    // Offset: 0xFD7EB4
     void ClearContent();
     // public override System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x1FDF144
+    // Offset: 0xFD7ADC
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::SetData(IDifficultyBeatmap difficultyBeatmap)
     void SetData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1FDF344
+    // Offset: 0xFD7CDC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1FDF408
+    // Offset: 0xFD7DA0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1FDF434
+    // Offset: 0xFD7DCC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1FDF734
+    // Offset: 0xFD80CC
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()

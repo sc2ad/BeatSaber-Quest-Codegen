@@ -32,41 +32,41 @@ namespace GlobalNamespace {
     // Offset: 0x20
     int width;
     // public ObstacleType get_obstacleType()
-    // Offset: 0x22429C0
+    // Offset: 0x19F6D58
     GlobalNamespace::ObstacleType get_obstacleType();
     // private System.Void set_obstacleType(ObstacleType value)
-    // Offset: 0x22429C8
+    // Offset: 0x19F6D60
     void set_obstacleType(GlobalNamespace::ObstacleType value);
     // public System.Single get_duration()
-    // Offset: 0x22429D0
+    // Offset: 0x19F6D68
     float get_duration();
     // private System.Void set_duration(System.Single value)
-    // Offset: 0x22429D8
+    // Offset: 0x19F6D70
     void set_duration(float value);
     // public System.Int32 get_width()
-    // Offset: 0x22429E0
+    // Offset: 0x19F6D78
     int get_width();
     // private System.Void set_width(System.Int32 value)
-    // Offset: 0x22429E8
+    // Offset: 0x19F6D80
     void set_width(int value);
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, ObstacleType obstacleType, System.Single duration, System.Int32 width)
-    // Offset: 0x22429F0
+    // Offset: 0x19F6D88
     static ObstacleData* New_ctor(float time, int lineIndex, GlobalNamespace::ObstacleType obstacleType, float duration, int width);
     // public System.Void UpdateDuration(System.Single duration)
-    // Offset: 0x2242A48
+    // Offset: 0x19F6DE0
     void UpdateDuration(float duration);
     // public override BeatmapObjectType get_beatmapObjectType()
-    // Offset: 0x22429B8
+    // Offset: 0x19F6D50
     // Implemented from: BeatmapObjectData
     // Base method: BeatmapObjectType BeatmapObjectData::get_beatmapObjectType()
     GlobalNamespace::BeatmapObjectType get_beatmapObjectType();
     // public override BeatmapObjectData GetCopy()
-    // Offset: 0x2242A50
+    // Offset: 0x19F6DE8
     // Implemented from: BeatmapObjectData
     // Base method: BeatmapObjectData BeatmapObjectData::GetCopy()
     GlobalNamespace::BeatmapObjectData* GetCopy();
     // public override System.Void MirrorLineIndex(System.Int32 lineCount)
-    // Offset: 0x2242AD0
+    // Offset: 0x19F6E68
     // Implemented from: BeatmapObjectData
     // Base method: System.Void BeatmapObjectData::MirrorLineIndex(System.Int32 lineCount)
     void MirrorLineIndex(int lineCount);

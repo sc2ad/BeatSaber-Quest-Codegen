@@ -42,34 +42,34 @@ namespace UnityEngine::Timeline {
       return m_Instance;
     }
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.PrefabControlPlayable> Create(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject prefabGameObject, UnityEngine.Transform parentTransform)
-    // Offset: 0x13F1154
+    // Offset: 0x14178F4
     static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::PrefabControlPlayable*> Create(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* prefabGameObject, UnityEngine::Transform* parentTransform);
     // public UnityEngine.GameObject get_prefabInstance()
-    // Offset: 0x13F86F4
+    // Offset: 0x141F4DC
     UnityEngine::GameObject* get_prefabInstance();
     // public UnityEngine.GameObject Initialize(UnityEngine.GameObject prefabGameObject, UnityEngine.Transform parentTransform)
-    // Offset: 0x13F845C
+    // Offset: 0x141F244
     UnityEngine::GameObject* Initialize(UnityEngine::GameObject* prefabGameObject, UnityEngine::Transform* parentTransform);
     // static private System.Void SetHideFlagsRecursive(UnityEngine.GameObject gameObject)
-    // Offset: 0x13F86FC
+    // Offset: 0x141F4E4
     static void SetHideFlagsRecursive(UnityEngine::GameObject* gameObject);
     // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0x13F89C8
+    // Offset: 0x141F7B0
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     void OnPlayableDestroy(UnityEngine::Playables::Playable playable);
     // public override System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x13F8AB4
+    // Offset: 0x141F89C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public override System.Void OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x13F8B4C
+    // Offset: 0x141F934
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPause(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public System.Void .ctor()
-    // Offset: 0x13F8C04
+    // Offset: 0x141F9EC
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()

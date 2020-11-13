@@ -69,49 +69,49 @@ namespace GlobalNamespace {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);
     }
     // private System.Void LazyInit()
-    // Offset: 0x1FB8E6C
+    // Offset: 0x1A51034
     void LazyInit();
     // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<ColorScheme> colorSchemes)
-    // Offset: 0x1FB9004
+    // Offset: 0x1A511CC
     void SetData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::ColorScheme*>* colorSchemes);
     // private System.Void HandleDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x1FB967C
+    // Offset: 0x1A51844
     void HandleDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // private System.Void RefreshUI(ColorScheme colorScheme)
-    // Offset: 0x1FB9184
+    // Offset: 0x1A5134C
     void RefreshUI(GlobalNamespace::ColorScheme* colorScheme);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1FB8F18
+    // Offset: 0x1A510E0
     // Implemented from: HMUI.DropdownWithTableView
     // Base method: System.Void DropdownWithTableView::OnDestroy()
     void OnDestroy();
     // public System.Void Init(HMUI.TableView/IDataSource initTableViewDataSource)
-    // Offset: 0x1FB8FA4
+    // Offset: 0x1A5116C
     // Implemented from: HMUI.DropdownWithTableView
     // Base method: System.Void DropdownWithTableView::Init(HMUI.TableView/IDataSource initTableViewDataSource)
     void Init(HMUI::TableView::IDataSource* initTableViewDataSource);
     // public System.Single CellSize()
-    // Offset: 0x1FB9224
+    // Offset: 0x1A513EC
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Single IDataSource::CellSize()
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x1FB922C
+    // Offset: 0x1A513F4
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: System.Int32 IDataSource::NumberOfCells()
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x1FB92E8
+    // Offset: 0x1A514B0
     // Implemented from: HMUI.TableView/IDataSource
     // Base method: HMUI.TableCell IDataSource::CellForIdx(HMUI.TableView tableView, System.Int32 idx)
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
     // public override System.Void SelectCellWithIdx(System.Int32 idx)
-    // Offset: 0x1FB95A0
+    // Offset: 0x1A51768
     // Implemented from: HMUI.DropdownWithTableView
     // Base method: System.Void DropdownWithTableView::SelectCellWithIdx(System.Int32 idx)
     void SelectCellWithIdx(int idx);
     // public System.Void .ctor()
-    // Offset: 0x1FB9910
+    // Offset: 0x1A51AD8
     // Implemented from: HMUI.DropdownWithTableView
     // Base method: System.Void DropdownWithTableView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

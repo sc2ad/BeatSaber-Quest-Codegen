@@ -24,7 +24,7 @@ namespace System::Xml {
     // Set static field: static private System.UInt32 HasValueBitmap
     static void _set_HasValueBitmap(uint value);
     // static private System.Void .cctor()
-    // Offset: 0x1552BF8
+    // Offset: 0x14F00A8
     static void _cctor();
   }; // System.Xml.XmlReader
 }

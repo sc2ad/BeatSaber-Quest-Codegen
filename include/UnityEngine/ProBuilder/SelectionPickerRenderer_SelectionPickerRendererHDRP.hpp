@@ -31,12 +31,12 @@ namespace UnityEngine::ProBuilder {
       return *reinterpret_cast<UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer*>(this);
     }
     // public UnityEngine.Texture2D RenderLookupTexture(UnityEngine.Camera camera, UnityEngine.Shader shader, System.String tag, System.Int32 width, System.Int32 height)
-    // Offset: 0x138A6E4
+    // Offset: 0x13CBB70
     // Implemented from: UnityEngine.ProBuilder.SelectionPickerRenderer/ISelectionPickerRenderer
     // Base method: UnityEngine.Texture2D ISelectionPickerRenderer::RenderLookupTexture(UnityEngine.Camera camera, UnityEngine.Shader shader, System.String tag, System.Int32 width, System.Int32 height)
     UnityEngine::Texture2D* RenderLookupTexture(UnityEngine::Camera* camera, UnityEngine::Shader* shader, ::Il2CppString* tag, int width, int height);
     // public System.Void .ctor()
-    // Offset: 0x1387F2C
+    // Offset: 0x13C93B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SelectionPickerRenderer::SelectionPickerRendererHDRP* New_ctor();

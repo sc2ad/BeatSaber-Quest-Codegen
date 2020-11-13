@@ -24,10 +24,10 @@ namespace UnityEngine {
   class SetupCoroutine : public ::Il2CppObject {
     public:
     // static public System.Void InvokeMoveNext(System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress)
-    // Offset: 0x173582C
+    // Offset: 0x16C0604
     static void InvokeMoveNext(System::Collections::IEnumerator* enumerator, System::IntPtr returnValueAddress);
     // static public System.Object InvokeMember(System.Object behaviour, System.String name, System.Object variable)
-    // Offset: 0x173595C
+    // Offset: 0x16C0734
     static ::Il2CppObject* InvokeMember(::Il2CppObject* behaviour, ::Il2CppString* name, ::Il2CppObject* variable);
   }; // UnityEngine.SetupCoroutine
 }

@@ -49,40 +49,40 @@ namespace System::IO {
     // Set static field: static public readonly System.IO.TextReader Null
     static void _set_Null(System::IO::TextReader* value);
     // public System.Void Close()
-    // Offset: 0x136AF70
+    // Offset: 0x13AC3FC
     void Close();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1367E70
+    // Offset: 0x13A92FC
     void Dispose(bool disposing);
     // public System.Int32 Peek()
-    // Offset: 0x136B068
+    // Offset: 0x13AC4F4
     int Peek();
     // public System.Int32 Read()
-    // Offset: 0x136B070
+    // Offset: 0x13AC4FC
     int Read();
     // public System.Int32 Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x136B078
+    // Offset: 0x13AC504
     int Read(::Array<::Il2CppChar>*& buffer, int index, int count);
     // public System.String ReadToEnd()
-    // Offset: 0x136B27C
+    // Offset: 0x13AC708
     ::Il2CppString* ReadToEnd();
     // public System.String ReadLine()
-    // Offset: 0x136B374
+    // Offset: 0x13AC800
     ::Il2CppString* ReadLine();
     // static public System.IO.TextReader Synchronized(System.IO.TextReader reader)
-    // Offset: 0x136B478
+    // Offset: 0x13AC904
     static System::IO::TextReader* Synchronized(System::IO::TextReader* reader);
     // static private System.Void .cctor()
-    // Offset: 0x136B5AC
+    // Offset: 0x13ACA38
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x1367564
+    // Offset: 0x13A89F0
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static TextReader* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0x136AFEC
+    // Offset: 0x13AC478
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

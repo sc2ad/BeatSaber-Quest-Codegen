@@ -33,25 +33,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1FDB20C
+    // Offset: 0xFD3B38
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1FDB4C8
+    // Offset: 0xFD3DF4
     void OnDestroy();
     // private System.Void HandleSpectatingSpotDidChangeEvent(IMultiplayerSpectatingSpot spectatingSpot)
-    // Offset: 0x1FDB6F4
+    // Offset: 0xFD4020
     void HandleSpectatingSpotDidChangeEvent(GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
     // private System.Void RefreshSpectatingSpotName()
-    // Offset: 0x1FDB324
+    // Offset: 0xFD3C50
     void RefreshSpectatingSpotName();
     // private System.Void HandleIncButtonWasPressed()
-    // Offset: 0x1FDB6F8
+    // Offset: 0xFD4024
     void HandleIncButtonWasPressed();
     // private System.Void HandleDecButtonWasPressed()
-    // Offset: 0x1FDB75C
+    // Offset: 0xFD4088
     void HandleDecButtonWasPressed();
     // public System.Void .ctor()
-    // Offset: 0x1FDB7C0
+    // Offset: 0xFD40EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

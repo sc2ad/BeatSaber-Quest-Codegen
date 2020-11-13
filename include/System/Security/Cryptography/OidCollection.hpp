@@ -44,18 +44,18 @@ namespace System::Security::Cryptography {
       return m_list;
     }
     // public System.Int32 Add(System.Security.Cryptography.Oid oid)
-    // Offset: 0x1471BD8
+    // Offset: 0x145BFE4
     int Add(System::Security::Cryptography::Oid* oid);
     // public System.Security.Cryptography.Oid get_Item(System.Int32 index)
-    // Offset: 0x1471BFC
+    // Offset: 0x145C008
     System::Security::Cryptography::Oid* get_Item(int index);
     // public System.Void .ctor()
-    // Offset: 0x1471B64
+    // Offset: 0x145BF70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OidCollection* New_ctor();
     // public System.Int32 get_Count()
-    // Offset: 0x1471C84
+    // Offset: 0x145C090
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();
@@ -63,12 +63,12 @@ namespace System::Security::Cryptography {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1471CA8
+    // Offset: 0x145C0B4
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x1471D60
+    // Offset: 0x145C16C
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);

@@ -35,13 +35,13 @@ namespace RootMotion::FinalIK {
     // Offset: 0x60
     UnityEngine::Vector3 offset;
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x18493F0
+    // Offset: 0x1710A98
     static IKSolver::Node* New_ctor(UnityEngine::Transform* transform);
     // public System.Void .ctor(UnityEngine.Transform transform, System.Single weight)
-    // Offset: 0x1849420
+    // Offset: 0x1710AC8
     static IKSolver::Node* New_ctor(UnityEngine::Transform* transform, float weight);
     // public System.Void .ctor()
-    // Offset: 0x18493EC
+    // Offset: 0x1710A94
     // Implemented from: RootMotion.FinalIK.IKSolver/Point
     // Base method: System.Void Point::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -21,24 +21,24 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x1C
     int length;
     // System.Void .ctor(System.String text, System.Int32 i, System.Int32 l)
-    // Offset: 0x1482728
+    // Offset: 0x146CBE0
     static Capture* New_ctor(::Il2CppString* text, int i, int l);
     // public System.Int32 get_Index()
-    // Offset: 0x1482774
+    // Offset: 0x146CC2C
     int get_Index();
     // public System.Int32 get_Length()
-    // Offset: 0x148277C
+    // Offset: 0x146CC34
     int get_Length();
     // public System.String get_Value()
-    // Offset: 0x1482784
+    // Offset: 0x146CC3C
     ::Il2CppString* get_Value();
     // public override System.String ToString()
-    // Offset: 0x14827A8
+    // Offset: 0x146CC60
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // System.Void .ctor()
-    // Offset: 0x14827AC
+    // Offset: 0x146CC64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Capture* New_ctor();

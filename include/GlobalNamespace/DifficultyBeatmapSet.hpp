@@ -33,21 +33,21 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IDifficultyBeatmapSet*>(this);
     }
     // private System.Void set_beatmapCharacteristic(BeatmapCharacteristicSO value)
-    // Offset: 0x2017890
+    // Offset: 0x1A5A650
     void set_beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
     // private System.Void set_difficultyBeatmaps(IDifficultyBeatmap[] value)
-    // Offset: 0x20178A0
+    // Offset: 0x1A5A660
     void set_difficultyBeatmaps(::Array<GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void .ctor(BeatmapCharacteristicSO beatmapCharacteristic, IDifficultyBeatmap[] difficultyBeatmaps)
-    // Offset: 0x20178A8
+    // Offset: 0x1A5A668
     static DifficultyBeatmapSet* New_ctor(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::Array<GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps);
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x2017888
+    // Offset: 0x1A5A648
     // Implemented from: IDifficultyBeatmapSet
     // Base method: BeatmapCharacteristicSO IDifficultyBeatmapSet::get_beatmapCharacteristic()
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public IDifficultyBeatmap[] get_difficultyBeatmaps()
-    // Offset: 0x2017898
+    // Offset: 0x1A5A658
     // Implemented from: IDifficultyBeatmapSet
     // Base method: IDifficultyBeatmap[] IDifficultyBeatmapSet::get_difficultyBeatmaps()
     ::Array<GlobalNamespace::IDifficultyBeatmap*>* get_difficultyBeatmaps();

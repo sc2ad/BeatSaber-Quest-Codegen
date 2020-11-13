@@ -23,10 +23,10 @@ namespace UnityEngine::Scripting::APIUpdating {
       return data;
     }
     // public System.Void .ctor(System.Boolean autoUpdateAPI, System.String sourceNamespace, System.String sourceAssembly, System.String sourceClassName)
-    // Offset: 0x1735570
+    // Offset: 0x16C0348
     static MovedFromAttribute* New_ctor(bool autoUpdateAPI, ::Il2CppString* sourceNamespace, ::Il2CppString* sourceAssembly, ::Il2CppString* sourceClassName);
     // public System.Void .ctor(System.String sourceNamespace)
-    // Offset: 0x1735668
+    // Offset: 0x16C0440
     static MovedFromAttribute* New_ctor(::Il2CppString* sourceNamespace);
   }; // UnityEngine.Scripting.APIUpdating.MovedFromAttribute
 }

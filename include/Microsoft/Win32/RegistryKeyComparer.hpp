@@ -18,7 +18,7 @@ namespace Microsoft::Win32 {
       return *reinterpret_cast<System::Collections::IEqualityComparer*>(this);
     }
     // public System.Boolean Equals(System.Object x, System.Object y)
-    // Offset: 0x1577EEC
+    // Offset: 0x151675C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object x, System.Object y)
     // Base method: System.Boolean IEqualityComparer::Equals(System.Object x, System.Object y)
@@ -27,7 +27,7 @@ namespace Microsoft::Win32 {
     // Maps to method: Equals
     bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Int32 GetHashCode(System.Object obj)
-    // Offset: 0x1577FA0
+    // Offset: 0x1516810
     // Implemented from: System.Collections.IEqualityComparer
     // Base method: System.Int32 IEqualityComparer::GetHashCode(System.Object obj)
     int GetHashCode(::Il2CppObject* obj);
@@ -35,7 +35,7 @@ namespace Microsoft::Win32 {
     // Maps to method: GetHashCode
     int System_Collections_IEqualityComparer_GetHashCode(::Il2CppObject* obj);
     // public System.Void .ctor()
-    // Offset: 0x15729A4
+    // Offset: 0x1511214
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static RegistryKeyComparer* New_ctor();

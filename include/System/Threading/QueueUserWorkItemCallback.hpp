@@ -46,21 +46,21 @@ namespace System::Threading {
     // Set static field: static System.Threading.ContextCallback ccb
     static void _set_ccb(System::Threading::ContextCallback* value);
     // static private System.Void .cctor()
-    // Offset: 0x1490510
+    // Offset: 0x1D08DD0
     static void _cctor();
     // System.Void .ctor(System.Threading.WaitCallback waitCallback, System.Object stateObj, System.Boolean compressStack, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1490590
+    // Offset: 0x1D08E50
     static QueueUserWorkItemCallback* New_ctor(System::Threading::WaitCallback* waitCallback, ::Il2CppObject* stateObj, bool compressStack, System::Threading::StackCrawlMark& stackMark);
     // static private System.Void WaitCallback_Context(System.Object state)
-    // Offset: 0x1490B38
+    // Offset: 0x1D093F8
     static void WaitCallback_Context(::Il2CppObject* state);
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0x1490694
+    // Offset: 0x1D08F54
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::ExecuteWorkItem()
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x1490B34
+    // Offset: 0x1D093F4
     // Implemented from: System.Threading.IThreadPoolWorkItem
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);

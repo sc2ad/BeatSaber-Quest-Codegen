@@ -47,34 +47,34 @@ namespace GlobalNamespace {
     // Offset: 0x88
     bool initialized;
     // private System.Void InitializeIfNeeded()
-    // Offset: 0x2048EA0
+    // Offset: 0xF6D694
     void InitializeIfNeeded();
     // private System.Void TransitionIntoFailedState()
-    // Offset: 0x2049140
+    // Offset: 0xF6D938
     void TransitionIntoFailedState();
     // private System.Void HandlePlayerDidFinish(LevelCompletionResults levelCompletionResults)
-    // Offset: 0x2049360
+    // Offset: 0xF6DB58
     void HandlePlayerDidFinish(GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // private System.Void <InitializeIfNeeded>b__6_0(System.Single f)
-    // Offset: 0x2049398
+    // Offset: 0xF6DB84
     void $InitializeIfNeeded$b__6_0(float f);
     // protected override System.Void OnDestroy()
-    // Offset: 0x2048D98
+    // Offset: 0xF6D588
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::OnDestroy()
     void OnDestroy();
     // protected override System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x2048F7C
+    // Offset: 0xF6D770
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::HandleStateChanged(MultiplayerController/State state)
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // protected override System.Void AnimateNewLeaderSelected(System.Boolean isLeading)
-    // Offset: 0x2049268
+    // Offset: 0xF6DA60
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::AnimateNewLeaderSelected(System.Boolean isLeading)
     void AnimateNewLeaderSelected(bool isLeading);
     // public System.Void .ctor()
-    // Offset: 0x2049384
+    // Offset: 0xF6DB7C
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

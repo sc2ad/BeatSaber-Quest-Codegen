@@ -26,16 +26,16 @@ namespace Mono::Unity {
   class UnityTls::unitytls_tlsctx_trace_callback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11FE418
+    // Offset: 0x12734D0
     static UnityTls::unitytls_tlsctx_trace_callback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Void* userData, Mono.Unity.UnityTls/unitytls_tlsctx* ctx, System.Byte* traceMessage, System.IntPtr traceMessageLen)
-    // Offset: 0x11FE42C
+    // Offset: 0x12734E4
     void Invoke(void* userData, Mono::Unity::UnityTls::unitytls_tlsctx* ctx, uint8_t* traceMessage, System::IntPtr traceMessageLen);
     // public System.IAsyncResult BeginInvoke(System.Void* userData, Mono.Unity.UnityTls/unitytls_tlsctx* ctx, System.Byte* traceMessage, System.IntPtr traceMessageLen, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11FE6C4
+    // Offset: 0x127377C
     System::IAsyncResult* BeginInvoke(void* userData, Mono::Unity::UnityTls::unitytls_tlsctx* ctx, uint8_t* traceMessage, System::IntPtr traceMessageLen, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11FE770
+    // Offset: 0x1273828
     void EndInvoke(System::IAsyncResult* result);
   }; // Mono.Unity.UnityTls/unitytls_tlsctx_trace_callback
 }

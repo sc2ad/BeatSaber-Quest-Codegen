@@ -29,10 +29,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   class Subdivision : public ::Il2CppObject {
     public:
     // static public UnityEngine.ProBuilder.ActionResult Subdivide(UnityEngine.ProBuilder.ProBuilderMesh pb)
-    // Offset: 0x134F3D4
+    // Offset: 0x138F860
     static UnityEngine::ProBuilder::ActionResult* Subdivide(UnityEngine::ProBuilder::ProBuilderMesh* pb);
     // static public UnityEngine.ProBuilder.Face[] Subdivide(UnityEngine.ProBuilder.ProBuilderMesh pb, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x134F480
+    // Offset: 0x138F90C
     static ::Array<UnityEngine::ProBuilder::Face*>* Subdivide(UnityEngine::ProBuilder::ProBuilderMesh* pb, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Face*>* faces);
   }; // UnityEngine.ProBuilder.MeshOperations.Subdivision
 }

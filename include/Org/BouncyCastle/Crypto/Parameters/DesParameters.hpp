@@ -18,27 +18,27 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set static field: static private readonly System.Byte[] DES_weak_keys
     static void _set_DES_weak_keys(::Array<uint8_t>* value);
     // static public System.Boolean IsWeakKey(System.Byte[] key, System.Int32 offset)
-    // Offset: 0xF48D84
+    // Offset: 0x1044790
     static bool IsWeakKey(::Array<uint8_t>* key, int offset);
     // static public System.Boolean IsWeakKey(System.Byte[] key)
-    // Offset: 0xF48FC8
+    // Offset: 0x10449D4
     static bool IsWeakKey(::Array<uint8_t>* key);
     // static public System.Byte SetOddParity(System.Byte b)
-    // Offset: 0xF49254
+    // Offset: 0x1044C60
     static uint8_t SetOddParity(uint8_t b);
     // static public System.Void SetOddParity(System.Byte[] bytes)
-    // Offset: 0xF49274
+    // Offset: 0x1044C80
     static void SetOddParity(::Array<uint8_t>* bytes);
     // static private System.Void .cctor()
-    // Offset: 0xF49350
+    // Offset: 0x1044D5C
     static void _cctor();
     // public System.Void .ctor(System.Byte[] key)
-    // Offset: 0xF48C24
+    // Offset: 0x1044630
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.KeyParameter
     // Base method: System.Void KeyParameter::.ctor(System.Byte[] key)
     static DesParameters* New_ctor(::Array<uint8_t>* key);
     // public System.Void .ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
-    // Offset: 0xF49030
+    // Offset: 0x1044A3C
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.KeyParameter
     // Base method: System.Void KeyParameter::.ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
     static DesParameters* New_ctor(::Array<uint8_t>* key, int keyOff, int keyLen);

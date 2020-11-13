@@ -41,7 +41,7 @@ namespace Org::BouncyCastle::Crypto {
     // Offset: 0xFFFFFFFF
     ::Array<uint8_t>* ProcessBytes(::Array<uint8_t>* input, int inOff, int length);
     // public System.Int32 ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1899350
+    // Offset: 0x1756F50
     int ProcessBytes(::Array<uint8_t>* input, int inOff, int length, ::Array<uint8_t>* output, int outOff);
     // public System.Byte[] DoFinal()
     // Offset: 0xFFFFFFFF
@@ -50,13 +50,13 @@ namespace Org::BouncyCastle::Crypto {
     // Offset: 0xFFFFFFFF
     ::Array<uint8_t>* DoFinal(::Array<uint8_t>* input, int inOff, int length);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1899478
+    // Offset: 0x1757078
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
     // Offset: 0xFFFFFFFF
     void Reset();
     // static private System.Void .cctor()
-    // Offset: 0x189954C
+    // Offset: 0x175714C
     static void _cctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0xFFFFFFFF
@@ -64,12 +64,12 @@ namespace Org::BouncyCastle::Crypto {
     // Base method: System.Void IBufferedCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Byte[] DoFinal(System.Byte[] input)
-    // Offset: 0x1899450
+    // Offset: 0x1757050
     // Implemented from: Org.BouncyCastle.Crypto.IBufferedCipher
     // Base method: System.Byte[] IBufferedCipher::DoFinal(System.Byte[] input)
     ::Array<uint8_t>* DoFinal(::Array<uint8_t>* input);
     // protected System.Void .ctor()
-    // Offset: 0x18995B8
+    // Offset: 0x17571B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BufferedCipherBase* New_ctor();

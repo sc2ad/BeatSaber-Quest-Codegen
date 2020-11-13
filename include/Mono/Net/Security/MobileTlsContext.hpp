@@ -76,28 +76,28 @@ namespace Mono::Net::Security {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void .ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean serverMode, System.String targetHost, System.Security.Authentication.SslProtocols enabledProtocols, System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate, System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates, System.Boolean askForClientCert)
-    // Offset: 0x11F5228
+    // Offset: 0x126A2E0
     static MobileTlsContext* New_ctor(Mono::Net::Security::MobileAuthenticatedStream* parent, bool serverMode, ::Il2CppString* targetHost, System::Security::Authentication::SslProtocols enabledProtocols, System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates, bool askForClientCert);
     // Mono.Net.Security.MobileAuthenticatedStream get_Parent()
-    // Offset: 0x11F53B4
+    // Offset: 0x126A46C
     Mono::Net::Security::MobileAuthenticatedStream* get_Parent();
     // public Mono.Security.Interface.MonoTlsSettings get_Settings()
-    // Offset: 0x11F53BC
+    // Offset: 0x126A474
     Mono::Security::Interface::MonoTlsSettings* get_Settings();
     // public System.Boolean get_IsAuthenticated()
     // Offset: 0xFFFFFFFF
     bool get_IsAuthenticated();
     // public System.Boolean get_IsServer()
-    // Offset: 0x11F53D8
+    // Offset: 0x126A490
     bool get_IsServer();
     // protected System.String get_TargetHost()
-    // Offset: 0x11F53E0
+    // Offset: 0x126A498
     ::Il2CppString* get_TargetHost();
     // protected System.String get_ServerName()
-    // Offset: 0x11F53E8
+    // Offset: 0x126A4A0
     ::Il2CppString* get_ServerName();
     // protected System.Security.Cryptography.X509Certificates.X509CertificateCollection get_ClientCertificates()
-    // Offset: 0x11F53F0
+    // Offset: 0x126A4A8
     System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
     // public System.Void StartHandshake()
     // Offset: 0xFFFFFFFF
@@ -109,7 +109,7 @@ namespace Mono::Net::Security {
     // Offset: 0xFFFFFFFF
     void FinishHandshake();
     // System.Security.Cryptography.X509Certificates.X509Certificate get_LocalServerCertificate()
-    // Offset: 0x11F53F8
+    // Offset: 0x126A4B0
     System::Security::Cryptography::X509Certificates::X509Certificate* get_LocalServerCertificate();
     // System.Security.Cryptography.X509Certificates.X509Certificate get_LocalClientCertificate()
     // Offset: 0xFFFFFFFF
@@ -124,19 +124,19 @@ namespace Mono::Net::Security {
     // Offset: 0xFFFFFFFF
     void Shutdown();
     // protected System.Boolean ValidateCertificate(System.Security.Cryptography.X509Certificates.X509Certificate leaf, System.Security.Cryptography.X509Certificates.X509Chain chain)
-    // Offset: 0x11F5400
+    // Offset: 0x126A4B8
     bool ValidateCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* leaf, System::Security::Cryptography::X509Certificates::X509Chain* chain);
     // protected System.Boolean ValidateCertificate(System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates)
-    // Offset: 0x11F5508
+    // Offset: 0x126A5C0
     bool ValidateCertificate(System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates);
     // protected System.Security.Cryptography.X509Certificates.X509Certificate SelectClientCertificate(System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate, System.String[] acceptableIssuers)
-    // Offset: 0x11F5604
+    // Offset: 0x126A6BC
     System::Security::Cryptography::X509Certificates::X509Certificate* SelectClientCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, ::Array<::Il2CppString*>* acceptableIssuers);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x11F5780
+    // Offset: 0x126A838
     void Dispose(bool disposing);
     // public System.Void Dispose()
-    // Offset: 0x11F3628
+    // Offset: 0x12686E0
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -144,7 +144,7 @@ namespace Mono::Net::Security {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x11F5784
+    // Offset: 0x126A83C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

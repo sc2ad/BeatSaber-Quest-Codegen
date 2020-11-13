@@ -42,7 +42,7 @@ namespace LeaderboardsDTO {
     // Offset: 0x38
     ::Array<LeaderboardsDTO::GameplayModifiersDto>* gameplayModifiers;
     // public System.Void .ctor()
-    // Offset: 0x20B2704
+    // Offset: 0xF1E9C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LeaderboardEntryDTO* New_ctor();

@@ -37,13 +37,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0x20CE890
+    // Offset: 0x1A86E5C
     UnityEngine::AudioClip* get_audioClip();
     // public BeatmapLevelDataSO/DifficultyBeatmapSet[] get_difficultyBeatmapSets()
-    // Offset: 0x20CE898
+    // Offset: 0x1A86E64
     ::Array<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>* get_difficultyBeatmapSets();
     // public System.Void .ctor()
-    // Offset: 0x20CE8A0
+    // Offset: 0x1A86E6C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

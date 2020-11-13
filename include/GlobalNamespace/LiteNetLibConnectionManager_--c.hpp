@@ -25,18 +25,18 @@ namespace GlobalNamespace {
     static GlobalNamespace::LiteNetLibConnectionManager::$$c* _get_$$9();
     // Set static field: static public readonly LiteNetLibConnectionManager/<>c <>9
     static void _set_$$9(GlobalNamespace::LiteNetLibConnectionManager::$$c* value);
-    // Get static field: static public System.Predicate`1<LiteNetLibConnectionManager/NetPeerConnection> <>9__62_0
-    static System::Predicate_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>* _get_$$9__62_0();
-    // Set static field: static public System.Predicate`1<LiteNetLibConnectionManager/NetPeerConnection> <>9__62_0
-    static void _set_$$9__62_0(System::Predicate_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>* value);
+    // Get static field: static public System.Predicate`1<LiteNetLibConnectionManager/NetPeerConnection> <>9__70_0
+    static System::Predicate_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>* _get_$$9__70_0();
+    // Set static field: static public System.Predicate`1<LiteNetLibConnectionManager/NetPeerConnection> <>9__70_0
+    static void _set_$$9__70_0(System::Predicate_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2162F38
+    // Offset: 0x1B51ABC
     static void _cctor();
-    // System.Boolean <get_hasConnectionOwner>b__62_0(LiteNetLibConnectionManager/NetPeerConnection c)
-    // Offset: 0x2162FA8
-    bool $get_hasConnectionOwner$b__62_0(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection* c);
+    // System.Boolean <get_hasConnectionOwner>b__70_0(LiteNetLibConnectionManager/NetPeerConnection c)
+    // Offset: 0x1B51B2C
+    bool $get_hasConnectionOwner$b__70_0(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection* c);
     // public System.Void .ctor()
-    // Offset: 0x2162FA0
+    // Offset: 0x1B51B24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LiteNetLibConnectionManager::$$c* New_ctor();

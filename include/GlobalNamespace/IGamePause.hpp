@@ -23,6 +23,12 @@ namespace GlobalNamespace {
     // public System.Void remove_didPauseEvent(System.Action value)
     // Offset: 0xFFFFFFFF
     void remove_didPauseEvent(System::Action* value);
+    // public System.Void add_willResumeEvent(System.Action value)
+    // Offset: 0xFFFFFFFF
+    void add_willResumeEvent(System::Action* value);
+    // public System.Void remove_willResumeEvent(System.Action value)
+    // Offset: 0xFFFFFFFF
+    void remove_willResumeEvent(System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
     // Offset: 0xFFFFFFFF
     void add_didResumeEvent(System::Action* value);
@@ -32,6 +38,9 @@ namespace GlobalNamespace {
     // public System.Void Pause()
     // Offset: 0xFFFFFFFF
     void Pause();
+    // public System.Void WillResume()
+    // Offset: 0xFFFFFFFF
+    void WillResume();
     // public System.Void Resume()
     // Offset: 0xFFFFFFFF
     void Resume();

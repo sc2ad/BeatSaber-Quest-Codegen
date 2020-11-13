@@ -82,13 +82,13 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kCacheMaxMaxCapacity
     static void _set_kCacheMaxMaxCapacity(int value);
     // public System.Byte[] GetBuffer(System.Int32 length)
-    // Offset: 0x21FC310
+    // Offset: 0x1E56C04
     ::Array<uint8_t>* GetBuffer(int length);
     // public System.Void ReleaseBuffer(System.Byte[] buffer)
-    // Offset: 0x21FC4EC
+    // Offset: 0x1E56DE0
     void ReleaseBuffer(::Array<uint8_t>* buffer);
     // public System.Void .ctor()
-    // Offset: 0x21FC63C
+    // Offset: 0x1E56F30
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SmallBufferPool* New_ctor();

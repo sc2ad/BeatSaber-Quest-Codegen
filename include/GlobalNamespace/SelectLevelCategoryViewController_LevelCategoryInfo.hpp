@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     UnityEngine::Sprite* categoryIcon;
     // public System.Void .ctor()
-    // Offset: 0x1FE9F04
+    // Offset: 0xFCA558
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SelectLevelCategoryViewController::LevelCategoryInfo* New_ctor();

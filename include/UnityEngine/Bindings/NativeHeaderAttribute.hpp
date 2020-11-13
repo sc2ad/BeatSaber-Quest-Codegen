@@ -21,10 +21,10 @@ namespace UnityEngine::Bindings {
       return Header;
     }
     // public System.Void set_Header(System.String value)
-    // Offset: 0x1F73E5C
+    // Offset: 0x1A04198
     void set_Header(::Il2CppString* value);
     // public System.Void .ctor(System.String header)
-    // Offset: 0x1F73E64
+    // Offset: 0x1A041A0
     static NativeHeaderAttribute* New_ctor(::Il2CppString* header);
   }; // UnityEngine.Bindings.NativeHeaderAttribute
 }

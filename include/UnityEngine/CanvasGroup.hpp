@@ -29,31 +29,31 @@ namespace UnityEngine {
       return *reinterpret_cast<UnityEngine::ICanvasRaycastFilter*>(this);
     }
     // public System.Single get_alpha()
-    // Offset: 0x1F6DBC4
+    // Offset: 0x19FCF44
     float get_alpha();
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x1F6DC04
+    // Offset: 0x19FCF84
     void set_alpha(float value);
     // public System.Boolean get_interactable()
-    // Offset: 0x1F6DC54
+    // Offset: 0x19FCFD4
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x1F6DC94
+    // Offset: 0x19FD014
     void set_interactable(bool value);
     // public System.Boolean get_blocksRaycasts()
-    // Offset: 0x1F6DCE4
+    // Offset: 0x19FD064
     bool get_blocksRaycasts();
     // public System.Void set_blocksRaycasts(System.Boolean value)
-    // Offset: 0x1F6DD24
+    // Offset: 0x19FD0A4
     void set_blocksRaycasts(bool value);
     // public System.Boolean get_ignoreParentGroups()
-    // Offset: 0x1F6DD74
+    // Offset: 0x19FD0F4
     bool get_ignoreParentGroups();
     // public System.Void set_ignoreParentGroups(System.Boolean value)
-    // Offset: 0x1F6DDB4
+    // Offset: 0x19FD134
     void set_ignoreParentGroups(bool value);
     // public System.Boolean IsRaycastLocationValid(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
-    // Offset: 0x1F6DE04
+    // Offset: 0x19FD184
     // Implemented from: UnityEngine.ICanvasRaycastFilter
     // Base method: System.Boolean ICanvasRaycastFilter::IsRaycastLocationValid(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
     bool IsRaycastLocationValid(UnityEngine::Vector2 sp, UnityEngine::Camera* eventCamera);

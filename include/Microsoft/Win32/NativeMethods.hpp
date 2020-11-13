@@ -33,37 +33,37 @@ namespace Microsoft::Win32 {
   class NativeMethods : public ::Il2CppObject {
     public:
     // static public System.Boolean DuplicateHandle(System.Runtime.InteropServices.HandleRef hSourceProcessHandle, System.Runtime.InteropServices.SafeHandle hSourceHandle, System.Runtime.InteropServices.HandleRef hTargetProcess, out Microsoft.Win32.SafeHandles.SafeWaitHandle targetHandle, System.Int32 dwDesiredAccess, System.Boolean bInheritHandle, System.Int32 dwOptions)
-    // Offset: 0x11E9BE4
+    // Offset: 0x125EC9C
     static bool DuplicateHandle(System::Runtime::InteropServices::HandleRef hSourceProcessHandle, System::Runtime::InteropServices::SafeHandle* hSourceHandle, System::Runtime::InteropServices::HandleRef hTargetProcess, Microsoft::Win32::SafeHandles::SafeWaitHandle*& targetHandle, int dwDesiredAccess, bool bInheritHandle, int dwOptions);
     // static public System.Boolean DuplicateHandle(System.Runtime.InteropServices.HandleRef hSourceProcessHandle, System.Runtime.InteropServices.HandleRef hSourceHandle, System.Runtime.InteropServices.HandleRef hTargetProcess, out Microsoft.Win32.SafeHandles.SafeProcessHandle targetHandle, System.Int32 dwDesiredAccess, System.Boolean bInheritHandle, System.Int32 dwOptions)
-    // Offset: 0x11E9DB8
+    // Offset: 0x125EE70
     static bool DuplicateHandle(System::Runtime::InteropServices::HandleRef hSourceProcessHandle, System::Runtime::InteropServices::HandleRef hSourceHandle, System::Runtime::InteropServices::HandleRef hTargetProcess, Microsoft::Win32::SafeHandles::SafeProcessHandle*& targetHandle, int dwDesiredAccess, bool bInheritHandle, int dwOptions);
     // static public System.IntPtr GetCurrentProcess()
-    // Offset: 0x11E9F30
+    // Offset: 0x125EFE8
     static System::IntPtr GetCurrentProcess();
     // static public System.Boolean GetExitCodeProcess(System.IntPtr processHandle, out System.Int32 exitCode)
-    // Offset: 0x11E9F34
+    // Offset: 0x125EFEC
     static bool GetExitCodeProcess(System::IntPtr processHandle, int& exitCode);
     // static public System.Boolean GetExitCodeProcess(Microsoft.Win32.SafeHandles.SafeProcessHandle processHandle, out System.Int32 exitCode)
-    // Offset: 0x11E9F38
+    // Offset: 0x125EFF0
     static bool GetExitCodeProcess(Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle, int& exitCode);
     // static public System.Boolean TerminateProcess(System.IntPtr processHandle, System.Int32 exitCode)
-    // Offset: 0x11E9FFC
+    // Offset: 0x125F0B4
     static bool TerminateProcess(System::IntPtr processHandle, int exitCode);
     // static public System.Boolean TerminateProcess(Microsoft.Win32.SafeHandles.SafeProcessHandle processHandle, System.Int32 exitCode)
-    // Offset: 0x11EA000
+    // Offset: 0x125F0B8
     static bool TerminateProcess(Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle, int exitCode);
     // static public System.Boolean GetProcessTimes(System.IntPtr handle, out System.Int64 creation, out System.Int64 exit, out System.Int64 kernel, out System.Int64 user)
-    // Offset: 0x11EA0C4
+    // Offset: 0x125F17C
     static bool GetProcessTimes(System::IntPtr handle, int64_t& creation, int64_t& exit, int64_t& kernel, int64_t& user);
     // static public System.Boolean GetProcessTimes(Microsoft.Win32.SafeHandles.SafeProcessHandle handle, out System.Int64 creation, out System.Int64 exit, out System.Int64 kernel, out System.Int64 user)
-    // Offset: 0x11EA0C8
+    // Offset: 0x125F180
     static bool GetProcessTimes(Microsoft::Win32::SafeHandles::SafeProcessHandle* handle, int64_t& creation, int64_t& exit, int64_t& kernel, int64_t& user);
     // static public System.Int32 GetCurrentProcessId()
-    // Offset: 0x11EA1A4
+    // Offset: 0x125F25C
     static int GetCurrentProcessId();
     // static public System.Boolean CloseProcess(System.IntPtr handle)
-    // Offset: 0x11EA1A8
+    // Offset: 0x125F260
     static bool CloseProcess(System::IntPtr handle);
   }; // Microsoft.Win32.NativeMethods
 }

@@ -27,24 +27,24 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x18
     Org::BouncyCastle::Asn1::Asn1OctetString* value;
     // public System.Void .ctor(System.Boolean critical, Org.BouncyCastle.Asn1.Asn1OctetString value)
-    // Offset: 0x16110D4
+    // Offset: 0x157FED0
     static X509Extension* New_ctor(bool critical, Org::BouncyCastle::Asn1::Asn1OctetString* value);
     // public System.Boolean get_IsCritical()
-    // Offset: 0x161111C
+    // Offset: 0x157FF18
     bool get_IsCritical();
     // public Org.BouncyCastle.Asn1.Asn1OctetString get_Value()
-    // Offset: 0x1611124
+    // Offset: 0x157FF20
     Org::BouncyCastle::Asn1::Asn1OctetString* get_Value();
     // static public Org.BouncyCastle.Asn1.Asn1Object ConvertValueToObject(Org.BouncyCastle.Asn1.X509.X509Extension ext)
-    // Offset: 0x1609C48
+    // Offset: 0x1578A44
     static Org::BouncyCastle::Asn1::Asn1Object* ConvertValueToObject(Org::BouncyCastle::Asn1::X509::X509Extension* ext);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x161112C
+    // Offset: 0x157FF28
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1611168
+    // Offset: 0x157FF64
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

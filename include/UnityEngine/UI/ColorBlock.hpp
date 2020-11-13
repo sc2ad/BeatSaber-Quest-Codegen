@@ -47,71 +47,71 @@ namespace UnityEngine::UI {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::UI::ColorBlock>*>(this);
     }
     // public UnityEngine.Color get_normalColor()
-    // Offset: 0xC5D4F4
+    // Offset: 0xC94168
     UnityEngine::Color get_normalColor();
     // public System.Void set_normalColor(UnityEngine.Color value)
-    // Offset: 0xC5D500
+    // Offset: 0xC94174
     void set_normalColor(UnityEngine::Color value);
     // public UnityEngine.Color get_highlightedColor()
-    // Offset: 0xC5D50C
+    // Offset: 0xC94180
     UnityEngine::Color get_highlightedColor();
     // public System.Void set_highlightedColor(UnityEngine.Color value)
-    // Offset: 0xC5D518
+    // Offset: 0xC9418C
     void set_highlightedColor(UnityEngine::Color value);
     // public UnityEngine.Color get_pressedColor()
-    // Offset: 0xC5D524
+    // Offset: 0xC94198
     UnityEngine::Color get_pressedColor();
     // public System.Void set_pressedColor(UnityEngine.Color value)
-    // Offset: 0xC5D530
+    // Offset: 0xC941A4
     void set_pressedColor(UnityEngine::Color value);
     // public UnityEngine.Color get_selectedColor()
-    // Offset: 0xC5D53C
+    // Offset: 0xC941B0
     UnityEngine::Color get_selectedColor();
     // public System.Void set_selectedColor(UnityEngine.Color value)
-    // Offset: 0xC5D548
+    // Offset: 0xC941BC
     void set_selectedColor(UnityEngine::Color value);
     // public UnityEngine.Color get_disabledColor()
-    // Offset: 0xC5D554
+    // Offset: 0xC941C8
     UnityEngine::Color get_disabledColor();
     // public System.Void set_disabledColor(UnityEngine.Color value)
-    // Offset: 0xC5D560
+    // Offset: 0xC941D4
     void set_disabledColor(UnityEngine::Color value);
     // public System.Single get_colorMultiplier()
-    // Offset: 0xC5D56C
+    // Offset: 0xC941E0
     float get_colorMultiplier();
     // public System.Void set_colorMultiplier(System.Single value)
-    // Offset: 0xC5D574
+    // Offset: 0xC941E8
     void set_colorMultiplier(float value);
     // public System.Single get_fadeDuration()
-    // Offset: 0xC5D57C
+    // Offset: 0xC941F0
     float get_fadeDuration();
     // public System.Void set_fadeDuration(System.Single value)
-    // Offset: 0xC5D584
+    // Offset: 0xC941F8
     void set_fadeDuration(float value);
     // static public UnityEngine.UI.ColorBlock get_defaultColorBlock()
-    // Offset: 0x10828C8
+    // Offset: 0x11591F8
     static UnityEngine::UI::ColorBlock get_defaultColorBlock();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xC5D58C
+    // Offset: 0xC94200
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.UI.ColorBlock other)
-    // Offset: 0xC5D594
+    // Offset: 0xC94208
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.UI.ColorBlock other)
     bool Equals(UnityEngine::UI::ColorBlock other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xC5D5D4
+    // Offset: 0xC94248
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.UI.ColorBlock
   // static public System.Boolean op_Equality(UnityEngine.UI.ColorBlock point1, UnityEngine.UI.ColorBlock point2)
-  // Offset: 0x1082BF4
+  // Offset: 0x1159524
   bool operator ==(const UnityEngine::UI::ColorBlock& point1, const UnityEngine::UI::ColorBlock& point2);
   // static public System.Boolean op_Inequality(UnityEngine.UI.ColorBlock point1, UnityEngine.UI.ColorBlock point2)
-  // Offset: 0x1082C34
+  // Offset: 0x1159564
   bool operator !=(const UnityEngine::UI::ColorBlock& point1, const UnityEngine::UI::ColorBlock& point2);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

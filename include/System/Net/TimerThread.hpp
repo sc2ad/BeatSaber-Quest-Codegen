@@ -84,16 +84,16 @@ namespace System::Net {
     // Set static field: static private System.Collections.Hashtable s_QueuesCache
     static void _set_s_QueuesCache(System::Collections::Hashtable* value);
     // static private System.Void .cctor()
-    // Offset: 0x118AAE0
+    // Offset: 0x1215E70
     static void _cctor();
     // static System.Net.TimerThread/Queue CreateQueue(System.Int32 durationMilliseconds)
-    // Offset: 0x118AD44
+    // Offset: 0x12160D4
     static System::Net::TimerThread::Queue* CreateQueue(int durationMilliseconds);
     // static private System.Void StopTimerThread()
-    // Offset: 0x118B020
+    // Offset: 0x12163B0
     static void StopTimerThread();
     // static private System.Void OnDomainUnload(System.Object sender, System.EventArgs e)
-    // Offset: 0x118B0AC
+    // Offset: 0x121643C
     static void OnDomainUnload(::Il2CppObject* sender, System::EventArgs* e);
   }; // System.Net.TimerThread
 }

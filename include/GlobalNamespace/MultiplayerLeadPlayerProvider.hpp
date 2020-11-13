@@ -52,34 +52,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_newLeaderWasSelectedEvent(System.Action`1<System.String> value)
-    // Offset: 0x203CF08
+    // Offset: 0xFAD18C
     void add_newLeaderWasSelectedEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_newLeaderWasSelectedEvent(System.Action`1<System.String> value)
-    // Offset: 0x203CCF4
+    // Offset: 0xFAD34C
     void remove_newLeaderWasSelectedEvent(System::Action_1<::Il2CppString*>* value);
     // protected System.Void Start()
-    // Offset: 0x2040154
+    // Offset: 0xFB5110
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2040224
+    // Offset: 0xFB51DC
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x204037C
+    // Offset: 0xFB5330
     void Update();
     // private System.Void StopProviding()
-    // Offset: 0x2040458
+    // Offset: 0xFB540C
     void StopProviding();
     // private System.Void StartProviding()
-    // Offset: 0x20404FC
+    // Offset: 0xFB54B0
     void StartProviding();
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x2040214
+    // Offset: 0xFB51CC
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // private System.Void HandleFirstPlayerDidChange(MultiplayerScoreProvider/RankedPlayer firstPlayer)
-    // Offset: 0x20405A4
+    // Offset: 0xFB5558
     void HandleFirstPlayerDidChange(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* firstPlayer);
     // public System.Void .ctor()
-    // Offset: 0x20406F4
+    // Offset: 0xFB56A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

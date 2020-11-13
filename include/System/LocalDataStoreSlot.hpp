@@ -28,19 +28,19 @@ namespace System {
     // Offset: 0x20
     int64_t m_cookie;
     // System.Void .ctor(System.LocalDataStoreMgr mgr, System.Int32 slot, System.Int64 cookie)
-    // Offset: 0x13732E8
+    // Offset: 0x13B4774
     static LocalDataStoreSlot* New_ctor(System::LocalDataStoreMgr* mgr, int slot, int64_t cookie);
     // System.LocalDataStoreMgr get_Manager()
-    // Offset: 0x1373894
+    // Offset: 0x13B4D20
     System::LocalDataStoreMgr* get_Manager();
     // System.Int32 get_Slot()
-    // Offset: 0x137389C
+    // Offset: 0x13B4D28
     int get_Slot();
     // System.Int64 get_Cookie()
-    // Offset: 0x13738A4
+    // Offset: 0x13B4D30
     int64_t get_Cookie();
     // protected override System.Void Finalize()
-    // Offset: 0x13738AC
+    // Offset: 0x13B4D38
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

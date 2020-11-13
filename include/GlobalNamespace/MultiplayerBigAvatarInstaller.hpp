@@ -29,12 +29,12 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::SaberManager::InitData* saberManagerInitData;
     // public override System.Void InstallBindings()
-    // Offset: 0x205DB20
+    // Offset: 0xFA7428
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x205DBD8
+    // Offset: 0xFA74E0
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Tuple`2<BeatmapDifficultyMask,System.String>,System.String> <>9__11_0
     static void _set_$$9__11_0(System::Func_2<System::Tuple_2<GlobalNamespace::BeatmapDifficultyMask, ::Il2CppString*>*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x20C9F90
+    // Offset: 0x1A8255C
     static void _cctor();
     // System.String <Start>b__11_0(System.Tuple`2<BeatmapDifficultyMask,System.String> x)
-    // Offset: 0x20CA000
+    // Offset: 0x1A825CC
     ::Il2CppString* $Start$b__11_0(System::Tuple_2<GlobalNamespace::BeatmapDifficultyMask, ::Il2CppString*>* x);
     // public System.Void .ctor()
-    // Offset: 0x20C9FF8
+    // Offset: 0x1A825C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapDifficultyDropdown::$$c* New_ctor();

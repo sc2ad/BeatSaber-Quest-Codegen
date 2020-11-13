@@ -82,25 +82,25 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x2176C88
+    // Offset: 0x1086B0C
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x2176CE8
+    // Offset: 0x1086B6C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2176FA8
+    // Offset: 0x1086E2C
     void OnDestroy();
     // private System.Void HandleOnValueChanged(System.Boolean value)
-    // Offset: 0x217713C
+    // Offset: 0x1086FC0
     void HandleOnValueChanged(bool value);
     // private System.Void HandleStateDidChange(HMUI.ToggleWithCallbacks/SelectionState value)
-    // Offset: 0x2177140
+    // Offset: 0x1086FC4
     void HandleStateDidChange(HMUI::ToggleWithCallbacks::SelectionState value);
     // private System.Void RefreshVisuals()
-    // Offset: 0x2176E84
+    // Offset: 0x1086D08
     void RefreshVisuals();
     // public System.Void .ctor()
-    // Offset: 0x21771A4
+    // Offset: 0x1087028
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

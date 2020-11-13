@@ -34,12 +34,12 @@ namespace GlobalNamespace {
     // Offset: 0x30
     GlobalNamespace::MultiplayerLobbyAvatarPlace* multiplayerAvatarPlacePrefab;
     // public override System.Void InstallBindings()
-    // Offset: 0x1FC28A4
+    // Offset: 0x1A71FAC
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1FC29A8
+    // Offset: 0x1A720B0
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()

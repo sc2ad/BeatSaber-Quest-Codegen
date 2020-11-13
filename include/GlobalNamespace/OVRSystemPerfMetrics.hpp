@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 MaxMessageLength
     static void _set_MaxMessageLength(int value);
     // public System.Void .ctor()
-    // Offset: 0x1ED8F78
+    // Offset: 0x197980C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRSystemPerfMetrics* New_ctor();

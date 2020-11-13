@@ -34,24 +34,24 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x28
     Org::BouncyCastle::Math::BigInteger* x;
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Crypto.Parameters.DHParameters parameters)
-    // Offset: 0xF47AAC
+    // Offset: 0x10434B8
     static DHPrivateKeyParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* x, Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Crypto.Parameters.DHParameters parameters, Org.BouncyCastle.Asn1.DerObjectIdentifier algorithmOid)
-    // Offset: 0xF47AE0
+    // Offset: 0x10434EC
     static DHPrivateKeyParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* x, Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters, Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid);
     // public Org.BouncyCastle.Math.BigInteger get_X()
-    // Offset: 0xF47B14
+    // Offset: 0x1043520
     Org::BouncyCastle::Math::BigInteger* get_X();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.DHPrivateKeyParameters other)
-    // Offset: 0xF47BCC
+    // Offset: 0x10435D8
     bool Equals(Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF47B1C
+    // Offset: 0x1043528
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.DHKeyParameters
     // Base method: System.Boolean DHKeyParameters::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF47C28
+    // Offset: 0x1043634
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.DHKeyParameters
     // Base method: System.Int32 DHKeyParameters::GetHashCode()
     int GetHashCode();

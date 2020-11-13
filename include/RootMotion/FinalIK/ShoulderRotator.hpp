@@ -39,22 +39,22 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
-    // Offset: 0x16959D0
+    // Offset: 0x15E9594
     void Start();
     // private System.Void RotateShoulders()
-    // Offset: 0x1695AC4
+    // Offset: 0x15E9688
     void RotateShoulders();
     // private System.Void RotateShoulder(RootMotion.FinalIK.FullBodyBipedChain chain, System.Single weight, System.Single offset)
-    // Offset: 0x1695BB0
+    // Offset: 0x15E9774
     void RotateShoulder(RootMotion::FinalIK::FullBodyBipedChain chain, float weight, float offset);
     // private RootMotion.FinalIK.IKMapping/BoneMap GetParentBoneMap(RootMotion.FinalIK.FullBodyBipedChain chain)
-    // Offset: 0x1695FF8
+    // Offset: 0x15E9BBC
     RootMotion::FinalIK::IKMapping::BoneMap* GetParentBoneMap(RootMotion::FinalIK::FullBodyBipedChain chain);
     // private System.Void OnDestroy()
-    // Offset: 0x1696030
+    // Offset: 0x15E9BF4
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x169614C
+    // Offset: 0x15E9D10
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_GetVulkanInstanceExtensionsRequired : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AAD6DC
+    // Offset: 0x185CC14
     static IVRCompositor::_GetVulkanInstanceExtensionsRequired* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)
-    // Offset: 0x1AAD6F0
+    // Offset: 0x185CC28
     uint Invoke(System::Text::StringBuilder* pchValue, uint unBufferSize);
     // public System.IAsyncResult BeginInvoke(System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AADB24
+    // Offset: 0x185D05C
     System::IAsyncResult* BeginInvoke(System::Text::StringBuilder* pchValue, uint unBufferSize, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1AADBC0
+    // Offset: 0x185D0F8
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_GetVulkanInstanceExtensionsRequired
 }

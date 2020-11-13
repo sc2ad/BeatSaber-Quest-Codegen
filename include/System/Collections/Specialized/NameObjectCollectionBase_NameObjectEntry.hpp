@@ -20,7 +20,7 @@ namespace System::Collections::Specialized {
     // Offset: 0x18
     ::Il2CppObject* Value;
     // System.Void .ctor(System.String name, System.Object value)
-    // Offset: 0x14DF818
+    // Offset: 0x147E3F8
     static NameObjectCollectionBase::NameObjectEntry* New_ctor(::Il2CppString* name, ::Il2CppObject* value);
   }; // System.Collections.Specialized.NameObjectCollectionBase/NameObjectEntry
 }

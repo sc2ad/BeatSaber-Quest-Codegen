@@ -25,10 +25,10 @@
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Timeline
 namespace UnityEngine::Timeline {
-  // Forward declaring type: ClipCaps
-  struct ClipCaps;
   // Forward declaring type: IPropertyCollector
   class IPropertyCollector;
+  // Forward declaring type: ClipCaps
+  struct ClipCaps;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
@@ -149,37 +149,37 @@ namespace UnityEngine::Timeline {
     // Set static field: static private System.Collections.Generic.HashSet`1<UnityEngine.GameObject> s_CreatedPrefabs
     static void _set_s_CreatedPrefabs(System::Collections::Generic::HashSet_1<UnityEngine::GameObject*>* value);
     // System.Boolean get_controllingDirectors()
-    // Offset: 0x13F090C
+    // Offset: 0x14170AC
     bool get_controllingDirectors();
     // private System.Void set_controllingDirectors(System.Boolean value)
-    // Offset: 0x13F0914
+    // Offset: 0x14170B4
     void set_controllingDirectors(bool value);
     // System.Boolean get_controllingParticles()
-    // Offset: 0x13F0920
+    // Offset: 0x14170C0
     bool get_controllingParticles();
     // private System.Void set_controllingParticles(System.Boolean value)
-    // Offset: 0x13F0928
+    // Offset: 0x14170C8
     void set_controllingParticles(bool value);
     // public System.Void OnEnable()
-    // Offset: 0x13F0934
+    // Offset: 0x14170D4
     void OnEnable();
     // static private UnityEngine.Playables.Playable ConnectPlayablesToMixer(UnityEngine.Playables.PlayableGraph graph, System.Collections.Generic.List`1<UnityEngine.Playables.Playable> playables)
-    // Offset: 0x13F27B8
+    // Offset: 0x1418F58
     static UnityEngine::Playables::Playable ConnectPlayablesToMixer(UnityEngine::Playables::PlayableGraph graph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>* playables);
     // private System.Void CreateActivationPlayable(UnityEngine.GameObject root, UnityEngine.Playables.PlayableGraph graph, System.Collections.Generic.List`1<UnityEngine.Playables.Playable> outplayables)
-    // Offset: 0x13F1BCC
+    // Offset: 0x141836C
     void CreateActivationPlayable(UnityEngine::GameObject* root, UnityEngine::Playables::PlayableGraph graph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>* outplayables);
     // private System.Void SearchHiearchyAndConnectParticleSystem(System.Collections.Generic.IEnumerable`1<UnityEngine.ParticleSystem> particleSystems, UnityEngine.Playables.PlayableGraph graph, System.Collections.Generic.List`1<UnityEngine.Playables.Playable> outplayables)
-    // Offset: 0x13F20A0
+    // Offset: 0x1418840
     void SearchHiearchyAndConnectParticleSystem(System::Collections::Generic::IEnumerable_1<UnityEngine::ParticleSystem*>* particleSystems, UnityEngine::Playables::PlayableGraph graph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>* outplayables);
     // private System.Void SearchHierarchyAndConnectDirector(System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableDirector> directors, UnityEngine.Playables.PlayableGraph graph, System.Collections.Generic.List`1<UnityEngine.Playables.Playable> outplayables, System.Boolean disableSelfReferences)
-    // Offset: 0x13F1CD0
+    // Offset: 0x1418470
     void SearchHierarchyAndConnectDirector(System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableDirector*>* directors, UnityEngine::Playables::PlayableGraph graph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>* outplayables, bool disableSelfReferences);
     // static private System.Void SearchHierarchyAndConnectControlableScripts(System.Collections.Generic.IEnumerable`1<UnityEngine.MonoBehaviour> controlableScripts, UnityEngine.Playables.PlayableGraph graph, System.Collections.Generic.List`1<UnityEngine.Playables.Playable> outplayables)
-    // Offset: 0x13F247C
+    // Offset: 0x1418C1C
     static void SearchHierarchyAndConnectControlableScripts(System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>* controlableScripts, UnityEngine::Playables::PlayableGraph graph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>* outplayables);
     // static private System.Void ConnectMixerAndPlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.Playables.Playable mixer, UnityEngine.Playables.Playable playable, System.Int32 portIndex)
-    // Offset: 0x13F2904
+    // Offset: 0x14190A4
     static void ConnectMixerAndPlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::Playables::Playable mixer, UnityEngine::Playables::Playable playable, int portIndex);
     // System.Collections.Generic.IList`1<T> GetComponent(UnityEngine.GameObject gameObject)
     // Offset: 0xFFFFFFFF
@@ -187,40 +187,52 @@ namespace UnityEngine::Timeline {
     System::Collections::Generic::IList_1<T>* GetComponent(UnityEngine::GameObject* gameObject) {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IList_1<T>*>(this, "GetComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, gameObject)));
     }
-    // static private System.Collections.Generic.IEnumerable`1<UnityEngine.MonoBehaviour> GetControlableScripts(UnityEngine.GameObject root)
-    // Offset: 0x13F23F0
+    // static System.Collections.Generic.IEnumerable`1<UnityEngine.MonoBehaviour> GetControlableScripts(UnityEngine.GameObject root)
+    // Offset: 0x1418B90
     static System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>* GetControlableScripts(UnityEngine::GameObject* root);
     // System.Void UpdateDurationAndLoopFlag(System.Collections.Generic.IList`1<UnityEngine.Playables.PlayableDirector> directors, System.Collections.Generic.IList`1<UnityEngine.ParticleSystem> particleSystems)
-    // Offset: 0x13F1374
+    // Offset: 0x1417B14
     void UpdateDurationAndLoopFlag(System::Collections::Generic::IList_1<UnityEngine::Playables::PlayableDirector*>* directors, System::Collections::Generic::IList_1<UnityEngine::ParticleSystem*>* particleSystems);
     // private System.Collections.Generic.IList`1<UnityEngine.ParticleSystem> GetParticleSystemRoots(UnityEngine.GameObject go)
-    // Offset: 0x13F128C
+    // Offset: 0x1417A2C
     System::Collections::Generic::IList_1<UnityEngine::ParticleSystem*>* GetParticleSystemRoots(UnityEngine::GameObject* go);
     // static private System.Void GetParticleSystemRoots(UnityEngine.Transform t, System.Collections.Generic.ICollection`1<UnityEngine.ParticleSystem> roots)
-    // Offset: 0x13F2DF4
+    // Offset: 0x1419594
     static void GetParticleSystemRoots(UnityEngine::Transform* t, System::Collections::Generic::ICollection_1<UnityEngine::ParticleSystem*>* roots);
+    // static System.Void PreviewParticles(UnityEngine.Timeline.IPropertyCollector driver, System.Collections.Generic.IEnumerable`1<UnityEngine.ParticleSystem> particles)
+    // Offset: 0x1419A48
+    static void PreviewParticles(UnityEngine::Timeline::IPropertyCollector* driver, System::Collections::Generic::IEnumerable_1<UnityEngine::ParticleSystem*>* particles);
+    // static System.Void PreviewActivation(UnityEngine.Timeline.IPropertyCollector driver, System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> objects)
+    // Offset: 0x1419E1C
+    static void PreviewActivation(UnityEngine::Timeline::IPropertyCollector* driver, System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* objects);
+    // static System.Void PreviewTimeControl(UnityEngine.Timeline.IPropertyCollector driver, UnityEngine.Playables.PlayableDirector director, System.Collections.Generic.IEnumerable`1<UnityEngine.MonoBehaviour> scripts)
+    // Offset: 0x141A118
+    static void PreviewTimeControl(UnityEngine::Timeline::IPropertyCollector* driver, UnityEngine::Playables::PlayableDirector* director, System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>* scripts);
+    // static System.Void PreviewDirectors(UnityEngine.Timeline.IPropertyCollector driver, System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableDirector> directors)
+    // Offset: 0x141A4C0
+    static void PreviewDirectors(UnityEngine::Timeline::IPropertyCollector* driver, System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableDirector*>* directors);
     // public override System.Double get_duration()
-    // Offset: 0x13F0970
+    // Offset: 0x1417110
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Double PlayableAsset::get_duration()
     double get_duration();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x13F0978
+    // Offset: 0x1417118
     // Implemented from: UnityEngine.Timeline.ITimelineClipAsset
     // Base method: UnityEngine.Timeline.ClipCaps ITimelineClipAsset::get_clipCaps()
     UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x13F0984
+    // Offset: 0x1417124
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);
     // public System.Void GatherProperties(UnityEngine.Playables.PlayableDirector director, UnityEngine.Timeline.IPropertyCollector driver)
-    // Offset: 0x13F2F98
+    // Offset: 0x1419738
     // Implemented from: UnityEngine.Timeline.IPropertyPreview
     // Base method: System.Void IPropertyPreview::GatherProperties(UnityEngine.Playables.PlayableDirector director, UnityEngine.Timeline.IPropertyCollector driver)
     void GatherProperties(UnityEngine::Playables::PlayableDirector* director, UnityEngine::Timeline::IPropertyCollector* driver);
     // public System.Void .ctor()
-    // Offset: 0x13F3D50
+    // Offset: 0x141AACC
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Void PlayableAsset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -228,7 +240,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     static ControlPlayableAsset* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x13F3DE4
+    // Offset: 0x141AB60
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

@@ -33,16 +33,16 @@ namespace OVR::OpenVR {
   class IVRInput::_ShowBindingsForActionSet : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AB7538
+    // Offset: 0x1866A70
     static IVRInput::_ShowBindingsForActionSet* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRInputError Invoke(in OVR.OpenVR.VRActiveActionSet_t[] pSets, System.UInt32 unSizeOfVRSelectedActionSet_t, System.UInt32 unSetCount, System.UInt64 originToHighlight)
-    // Offset: 0x1AB754C
+    // Offset: 0x1866A84
     OVR::OpenVR::EVRInputError Invoke(::Array<OVR::OpenVR::VRActiveActionSet_t>*& pSets, uint unSizeOfVRSelectedActionSet_t, uint unSetCount, uint64_t originToHighlight);
     // public System.IAsyncResult BeginInvoke(in OVR.OpenVR.VRActiveActionSet_t[] pSets, System.UInt32 unSizeOfVRSelectedActionSet_t, System.UInt32 unSetCount, System.UInt64 originToHighlight, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AB77EC
+    // Offset: 0x1866D24
     System::IAsyncResult* BeginInvoke(::Array<OVR::OpenVR::VRActiveActionSet_t>*& pSets, uint unSizeOfVRSelectedActionSet_t, uint unSetCount, uint64_t originToHighlight, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRInputError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1AB78B8
+    // Offset: 0x1866DF0
     OVR::OpenVR::EVRInputError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRInput/_ShowBindingsForActionSet
 }

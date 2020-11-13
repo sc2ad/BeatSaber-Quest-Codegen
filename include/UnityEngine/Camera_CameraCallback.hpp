@@ -26,16 +26,16 @@ namespace UnityEngine {
   class Camera::CameraCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x178B168
+    // Offset: 0x1680E98
     static Camera::CameraCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(UnityEngine.Camera cam)
-    // Offset: 0x178ACDC
+    // Offset: 0x1680A0C
     void Invoke(UnityEngine::Camera* cam);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Camera cam, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x178B17C
+    // Offset: 0x1680EAC
     System::IAsyncResult* BeginInvoke(UnityEngine::Camera* cam, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x178B1A0
+    // Offset: 0x1680ED0
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Camera/CameraCallback
 }

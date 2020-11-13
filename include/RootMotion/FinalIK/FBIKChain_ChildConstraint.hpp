@@ -56,28 +56,28 @@ namespace RootMotion::FinalIK {
     // Offset: 0x3C
     int chain2Index;
     // public System.Single get_nominalDistance()
-    // Offset: 0x1876F10
+    // Offset: 0x1754E74
     float get_nominalDistance();
     // private System.Void set_nominalDistance(System.Single value)
-    // Offset: 0x1876F18
+    // Offset: 0x1754E7C
     void set_nominalDistance(float value);
     // public System.Boolean get_isRigid()
-    // Offset: 0x1876F20
+    // Offset: 0x1754E84
     bool get_isRigid();
     // private System.Void set_isRigid(System.Boolean value)
-    // Offset: 0x1876F28
+    // Offset: 0x1754E8C
     void set_isRigid(bool value);
     // public System.Void .ctor(UnityEngine.Transform bone1, UnityEngine.Transform bone2, System.Single pushElasticity, System.Single pullElasticity)
-    // Offset: 0x1876F34
+    // Offset: 0x1754E98
     static FBIKChain::ChildConstraint* New_ctor(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, float pushElasticity, float pullElasticity);
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1874C94
+    // Offset: 0x1752BF8
     void Initiate(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void OnPreSolve(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x18751D4
+    // Offset: 0x1753138
     void OnPreSolve(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void Solve(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1876C0C
+    // Offset: 0x1754B70
     void Solve(RootMotion::FinalIK::IKSolverFullBody* solver);
   }; // RootMotion.FinalIK.FBIKChain/ChildConstraint
 }

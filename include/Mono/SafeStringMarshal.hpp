@@ -32,19 +32,19 @@ namespace Mono {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // static public System.IntPtr StringToUtf8(System.String str)
-    // Offset: 0x1588ED0
+    // Offset: 0x1527740
     static System::IntPtr StringToUtf8(::Il2CppString* str);
     // static public System.Void GFree(System.IntPtr ptr)
-    // Offset: 0x1588ED4
+    // Offset: 0x1527744
     static void GFree(System::IntPtr ptr);
     // public System.Void .ctor(System.String str)
-    // Offset: 0xC71C44
+    // Offset: 0xCA0EAC
     SafeStringMarshal(::Il2CppString* str);
     // public System.IntPtr get_Value()
-    // Offset: 0xC71C4C
+    // Offset: 0xCA0EB4
     System::IntPtr get_Value();
     // public System.Void Dispose()
-    // Offset: 0xC71C54
+    // Offset: 0xCA0EBC
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

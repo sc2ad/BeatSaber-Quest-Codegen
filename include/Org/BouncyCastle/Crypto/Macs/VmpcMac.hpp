@@ -58,40 +58,40 @@ namespace Org::BouncyCastle::Crypto::Macs {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);
     }
     // private System.Void initKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x14B6C70
+    // Offset: 0x14A1E10
     void initKey(::Array<uint8_t>* keyBytes, ::Array<uint8_t>* ivBytes);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x14B663C
+    // Offset: 0x14A17DC
     // Implemented from: Org.BouncyCastle.Crypto.IMac
     // Base method: System.Int32 IMac::DoFinal(System.Byte[] output, System.Int32 outOff)
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Int32 GetMacSize()
-    // Offset: 0x14B6ABC
+    // Offset: 0x14A1C5C
     // Implemented from: Org.BouncyCastle.Crypto.IMac
     // Base method: System.Int32 IMac::GetMacSize()
     int GetMacSize();
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x14B6AC4
+    // Offset: 0x14A1C64
     // Implemented from: Org.BouncyCastle.Crypto.IMac
     // Base method: System.Void IMac::Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void Reset()
-    // Offset: 0x14B6EA8
+    // Offset: 0x14A2048
     // Implemented from: Org.BouncyCastle.Crypto.IMac
     // Base method: System.Void IMac::Reset()
     void Reset();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x14B6F60
+    // Offset: 0x14A2100
     // Implemented from: Org.BouncyCastle.Crypto.IMac
     // Base method: System.Void IMac::Update(System.Byte input)
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x14B71CC
+    // Offset: 0x14A236C
     // Implemented from: Org.BouncyCastle.Crypto.IMac
     // Base method: System.Void IMac::BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
     void BlockUpdate(::Array<uint8_t>* input, int inOff, int len);
     // public System.Void .ctor()
-    // Offset: 0x14B72F4
+    // Offset: 0x14A2494
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static VmpcMac* New_ctor();

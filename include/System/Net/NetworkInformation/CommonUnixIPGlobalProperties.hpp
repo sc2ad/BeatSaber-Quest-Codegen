@@ -14,15 +14,15 @@ namespace System::Net::NetworkInformation {
   class CommonUnixIPGlobalProperties : public System::Net::NetworkInformation::IPGlobalProperties {
     public:
     // static private System.Int32 getdomainname(System.Byte[] name, System.Int32 len)
-    // Offset: 0x124BA38
+    // Offset: 0x12C0B34
     static int getdomainname(::Array<uint8_t>* name, int len);
     // public override System.String get_DomainName()
-    // Offset: 0x124BAD0
+    // Offset: 0x12C0BCC
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties
     // Base method: System.String IPGlobalProperties::get_DomainName()
     ::Il2CppString* get_DomainName();
     // protected System.Void .ctor()
-    // Offset: 0x124BC3C
+    // Offset: 0x12C0D38
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties
     // Base method: System.Void IPGlobalProperties::.ctor()
     // Base method: System.Void Object::.ctor()

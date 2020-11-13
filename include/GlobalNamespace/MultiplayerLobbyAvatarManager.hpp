@@ -48,28 +48,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Init(System.Single innerCircleRadius, System.Single minOuterCircleRadius)
-    // Offset: 0x2043B60
+    // Offset: 0xFB88D0
     void Init(float innerCircleRadius, float minOuterCircleRadius);
     // public System.Void ActivateMultiplayerLobbyAvatarManager()
-    // Offset: 0x2043B68
+    // Offset: 0xFB88D8
     void ActivateMultiplayerLobbyAvatarManager();
     // public System.Void DeactivateMultiplayerLobbyAvatarManager()
-    // Offset: 0x204424C
+    // Offset: 0xFB8FBC
     void DeactivateMultiplayerLobbyAvatarManager();
     // private System.Void HandleLobbyStateDataModelPlayerConnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0x20444E4
+    // Offset: 0xFB9254
     void HandleLobbyStateDataModelPlayerConnected(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void HandleLobbyStateDataModelPlayerDisconnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0x20444E8
+    // Offset: 0xFB9258
     void HandleLobbyStateDataModelPlayerDisconnected(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void AddPlayer(IConnectedPlayer connectedPlayer)
-    // Offset: 0x2043E08
+    // Offset: 0xFB8B78
     void AddPlayer(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void RemovePlayer(IConnectedPlayer connectedPlayer)
-    // Offset: 0x20444EC
+    // Offset: 0xFB925C
     void RemovePlayer(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // public System.Void .ctor()
-    // Offset: 0x20446A8
+    // Offset: 0xFB9418
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

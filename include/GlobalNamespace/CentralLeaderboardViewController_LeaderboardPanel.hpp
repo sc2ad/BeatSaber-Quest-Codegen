@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     bool mixed;
     // public System.Void .ctor(System.String title, System.String hint, System.Boolean mixed)
-    // Offset: 0x1FB1B4C
+    // Offset: 0x1A35044
     static CentralLeaderboardViewController::LeaderboardPanel* New_ctor(::Il2CppString* title, ::Il2CppString* hint, bool mixed);
   }; // CentralLeaderboardViewController/LeaderboardPanel
 }

@@ -40,31 +40,31 @@ namespace UnityEngine::UI {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::UI::SpriteState>*>(this);
     }
     // public UnityEngine.Sprite get_highlightedSprite()
-    // Offset: 0xC89F38
+    // Offset: 0xCB69E4
     UnityEngine::Sprite* get_highlightedSprite();
     // public System.Void set_highlightedSprite(UnityEngine.Sprite value)
-    // Offset: 0xC89F40
+    // Offset: 0xCB69EC
     void set_highlightedSprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_pressedSprite()
-    // Offset: 0xC89F48
+    // Offset: 0xCB69F4
     UnityEngine::Sprite* get_pressedSprite();
     // public System.Void set_pressedSprite(UnityEngine.Sprite value)
-    // Offset: 0xC89F50
+    // Offset: 0xCB69FC
     void set_pressedSprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_selectedSprite()
-    // Offset: 0xC89F58
+    // Offset: 0xCB6A04
     UnityEngine::Sprite* get_selectedSprite();
     // public System.Void set_selectedSprite(UnityEngine.Sprite value)
-    // Offset: 0xC89F60
+    // Offset: 0xCB6A0C
     void set_selectedSprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_disabledSprite()
-    // Offset: 0xC89F68
+    // Offset: 0xCB6A14
     UnityEngine::Sprite* get_disabledSprite();
     // public System.Void set_disabledSprite(UnityEngine.Sprite value)
-    // Offset: 0xC89F70
+    // Offset: 0xCB6A1C
     void set_disabledSprite(UnityEngine::Sprite* value);
     // public System.Boolean Equals(UnityEngine.UI.SpriteState other)
-    // Offset: 0xC89F78
+    // Offset: 0xCB6A24
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.UI.SpriteState other)
     bool Equals(UnityEngine::UI::SpriteState other);

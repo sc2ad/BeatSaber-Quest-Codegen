@@ -87,54 +87,54 @@ namespace GlobalNamespace {
     // Set static field: static private LocalLeaderboardsModel/LeaderboardType _leaderboardType
     static void _set__leaderboardType(GlobalNamespace::LocalLeaderboardsModel::LeaderboardType value);
     // public LocalLeaderboardsModel get_leaderboardsModel()
-    // Offset: 0x20A107C
+    // Offset: 0x1A62B14
     GlobalNamespace::LocalLeaderboardsModel* get_leaderboardsModel();
     // public System.Void Setup(System.Boolean enableClear)
-    // Offset: 0x20A1084
+    // Offset: 0x1A62B1C
     void Setup(bool enableClear);
     // private System.Void RefreshScopeSegmentedControl()
-    // Offset: 0x20A1334
+    // Offset: 0x1A62DCC
     void RefreshScopeSegmentedControl();
     // private System.Void HandleScopeSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0x20A17B8
+    // Offset: 0x1A63250
     void HandleScopeSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // private System.Void ClearLeaderboards()
-    // Offset: 0x20A1938
+    // Offset: 0x1A633D0
     void ClearLeaderboards();
     // private System.Void SetContent(System.String leaderboardID, LocalLeaderboardsModel/LeaderboardType leaderboardType)
-    // Offset: 0x20A1AD0
+    // Offset: 0x1A63568
     void SetContent(::Il2CppString* leaderboardID, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType);
     // private System.Void HandleNewScoreWasAddedToLeaderboard(System.String leaderboardID, LocalLeaderboardsModel/LeaderboardType leaderboardType)
-    // Offset: 0x20A1C0C
+    // Offset: 0x1A636A4
     void HandleNewScoreWasAddedToLeaderboard(::Il2CppString* leaderboardID, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType);
     // private System.Void Refresh()
-    // Offset: 0x20A10EC
+    // Offset: 0x1A62B84
     void Refresh();
     // private System.Void <DidActivate>b__18_0()
-    // Offset: 0x20A1CE8
+    // Offset: 0x1A63780
     void $DidActivate$b__18_0();
     // public override System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x20A1090
+    // Offset: 0x1A62B28
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::SetData(IDifficultyBeatmap difficultyBeatmap)
     void SetData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x20A1180
+    // Offset: 0x1A62C18
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x20A1584
+    // Offset: 0x1A6301C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x20A171C
+    // Offset: 0x1A631B4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x20A1CD4
+    // Offset: 0x1A6376C
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()
@@ -145,7 +145,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LocalLeaderboardViewController* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x20A1CE4
+    // Offset: 0x1A6377C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

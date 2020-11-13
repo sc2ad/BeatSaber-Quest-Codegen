@@ -30,10 +30,10 @@ namespace TMPro {
     // Offset: 0x18
     ::Array<UnityEngine::Color>* Colors;
     // public System.Void .ctor(TMPro.Compute_DistanceTransform_EventTypes type, System.Single progress)
-    // Offset: 0xEB859C
+    // Offset: 0xF4D674
     static Compute_DT_EventArgs* New_ctor(TMPro::Compute_DistanceTransform_EventTypes type, float progress);
     // public System.Void .ctor(TMPro.Compute_DistanceTransform_EventTypes type, UnityEngine.Color[] colors)
-    // Offset: 0xEB85D8
+    // Offset: 0xF4D6B0
     static Compute_DT_EventArgs* New_ctor(TMPro::Compute_DistanceTransform_EventTypes type, ::Array<UnityEngine::Color>* colors);
   }; // TMPro.Compute_DT_EventArgs
 }

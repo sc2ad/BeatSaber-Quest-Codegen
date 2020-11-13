@@ -85,7 +85,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Offset: 0x88
     ::Array<::Il2CppString*>* childrenIds;
     // System.Void .ctor(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x10B5B28
+    // Offset: 0x118B458
     static RemoteTestResultData* New_ctor(NUnit::Framework::Interfaces::ITestResult* result);
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData
 }

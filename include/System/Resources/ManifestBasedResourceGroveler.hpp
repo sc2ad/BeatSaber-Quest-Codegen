@@ -63,43 +63,43 @@ namespace System::Resources {
       return mediator;
     }
     // public System.Void .ctor(System.Resources.ResourceManager/ResourceManagerMediator mediator)
-    // Offset: 0x167EB38
+    // Offset: 0x15D36FC
     static ManifestBasedResourceGroveler* New_ctor(System::Resources::ResourceManager::ResourceManagerMediator* mediator);
     // private System.Globalization.CultureInfo UltimateFallbackFixup(System.Globalization.CultureInfo lookForCulture)
-    // Offset: 0x167EDF4
+    // Offset: 0x15D39B8
     System::Globalization::CultureInfo* UltimateFallbackFixup(System::Globalization::CultureInfo* lookForCulture);
     // static System.Globalization.CultureInfo GetNeutralResourcesLanguage(System.Reflection.Assembly a, ref System.Resources.UltimateResourceFallbackLocation fallbackLocation)
-    // Offset: 0x1680204
+    // Offset: 0x15D4DC8
     static System::Globalization::CultureInfo* GetNeutralResourcesLanguage(System::Reflection::Assembly* a, System::Resources::UltimateResourceFallbackLocation& fallbackLocation);
     // System.Resources.ResourceSet CreateResourceSet(System.IO.Stream store, System.Reflection.Assembly assembly)
-    // Offset: 0x167F590
+    // Offset: 0x15D4154
     System::Resources::ResourceSet* CreateResourceSet(System::IO::Stream* store, System::Reflection::Assembly* assembly);
     // private System.IO.Stream GetManifestResourceStream(System.Reflection.RuntimeAssembly satellite, System.String fileName, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x167F4B4
+    // Offset: 0x15D4078
     System::IO::Stream* GetManifestResourceStream(System::Reflection::RuntimeAssembly* satellite, ::Il2CppString* fileName, System::Threading::StackCrawlMark& stackMark);
     // private System.IO.Stream CaseInsensitiveManifestResourceStreamLookup(System.Reflection.RuntimeAssembly satellite, System.String name)
-    // Offset: 0x1680854
+    // Offset: 0x15D5418
     System::IO::Stream* CaseInsensitiveManifestResourceStreamLookup(System::Reflection::RuntimeAssembly* satellite, ::Il2CppString* name);
     // private System.Reflection.RuntimeAssembly GetSatelliteAssembly(System.Globalization.CultureInfo lookForCulture, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x167EFBC
+    // Offset: 0x15D3B80
     System::Reflection::RuntimeAssembly* GetSatelliteAssembly(System::Globalization::CultureInfo* lookForCulture, System::Threading::StackCrawlMark& stackMark);
     // private System.Boolean CanUseDefaultResourceClasses(System.String readerTypeName, System.String resSetTypeName)
-    // Offset: 0x16805D0
+    // Offset: 0x15D5194
     bool CanUseDefaultResourceClasses(::Il2CppString* readerTypeName, ::Il2CppString* resSetTypeName);
     // private System.String GetSatelliteAssemblyName()
-    // Offset: 0x1680CA4
+    // Offset: 0x15D5868
     ::Il2CppString* GetSatelliteAssemblyName();
     // private System.Void HandleSatelliteMissing()
-    // Offset: 0x167F168
+    // Offset: 0x15D3D2C
     void HandleSatelliteMissing();
     // private System.Void HandleResourceStreamMissing(System.String fileName)
-    // Offset: 0x167FEF4
+    // Offset: 0x15D4AB8
     void HandleResourceStreamMissing(::Il2CppString* fileName);
     // static private System.Boolean GetNeutralResourcesLanguageAttribute(System.Reflection.Assembly assembly, ref System.String cultureName, ref System.Int16 fallbackLocation)
-    // Offset: 0x1680548
+    // Offset: 0x15D510C
     static bool GetNeutralResourcesLanguageAttribute(System::Reflection::Assembly* assembly, ::Il2CppString*& cultureName, int16_t& fallbackLocation);
     // public System.Resources.ResourceSet GrovelForResourceSet(System.Globalization.CultureInfo culture, System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceSet> localResourceSets, System.Boolean tryParents, System.Boolean createIfNotExists, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x167EB6C
+    // Offset: 0x15D3730
     // Implemented from: System.Resources.IResourceGroveler
     // Base method: System.Resources.ResourceSet IResourceGroveler::GrovelForResourceSet(System.Globalization.CultureInfo culture, System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceSet> localResourceSets, System.Boolean tryParents, System.Boolean createIfNotExists, ref System.Threading.StackCrawlMark stackMark)
     System::Resources::ResourceSet* GrovelForResourceSet(System::Globalization::CultureInfo* culture, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceSet*>* localResourceSets, bool tryParents, bool createIfNotExists, System::Threading::StackCrawlMark& stackMark);

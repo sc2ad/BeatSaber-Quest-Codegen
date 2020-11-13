@@ -48,65 +48,65 @@ namespace UnityEngine {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::BoneWeight>*>(this);
     }
     // public System.Single get_weight0()
-    // Offset: 0xC77B74
+    // Offset: 0xCA4910
     float get_weight0();
     // public System.Void set_weight0(System.Single value)
-    // Offset: 0xC77B7C
+    // Offset: 0xCA4918
     void set_weight0(float value);
     // public System.Single get_weight1()
-    // Offset: 0xC77B84
+    // Offset: 0xCA4920
     float get_weight1();
     // public System.Void set_weight1(System.Single value)
-    // Offset: 0xC77B8C
+    // Offset: 0xCA4928
     void set_weight1(float value);
     // public System.Single get_weight2()
-    // Offset: 0xC77B94
+    // Offset: 0xCA4930
     float get_weight2();
     // public System.Void set_weight2(System.Single value)
-    // Offset: 0xC77B9C
+    // Offset: 0xCA4938
     void set_weight2(float value);
     // public System.Single get_weight3()
-    // Offset: 0xC77BA4
+    // Offset: 0xCA4940
     float get_weight3();
     // public System.Void set_weight3(System.Single value)
-    // Offset: 0xC77BAC
+    // Offset: 0xCA4948
     void set_weight3(float value);
     // public System.Int32 get_boneIndex0()
-    // Offset: 0xC77BB4
+    // Offset: 0xCA4950
     int get_boneIndex0();
     // public System.Void set_boneIndex0(System.Int32 value)
-    // Offset: 0xC77BBC
+    // Offset: 0xCA4958
     void set_boneIndex0(int value);
     // public System.Int32 get_boneIndex1()
-    // Offset: 0xC77BC4
+    // Offset: 0xCA4960
     int get_boneIndex1();
     // public System.Void set_boneIndex1(System.Int32 value)
-    // Offset: 0xC77BCC
+    // Offset: 0xCA4968
     void set_boneIndex1(int value);
     // public System.Int32 get_boneIndex2()
-    // Offset: 0xC77BD4
+    // Offset: 0xCA4970
     int get_boneIndex2();
     // public System.Void set_boneIndex2(System.Int32 value)
-    // Offset: 0xC77BDC
+    // Offset: 0xCA4978
     void set_boneIndex2(int value);
     // public System.Int32 get_boneIndex3()
-    // Offset: 0xC77BE4
+    // Offset: 0xCA4980
     int get_boneIndex3();
     // public System.Void set_boneIndex3(System.Int32 value)
-    // Offset: 0xC77BEC
+    // Offset: 0xCA4988
     void set_boneIndex3(int value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xC77BF4
+    // Offset: 0xCA4990
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0xC77BFC
+    // Offset: 0xCA4998
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
     // public System.Boolean Equals(UnityEngine.BoneWeight other)
-    // Offset: 0xC77C04
+    // Offset: 0xCA49A0
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.BoneWeight other)
     bool Equals(UnityEngine::BoneWeight other);

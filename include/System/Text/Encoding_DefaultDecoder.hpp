@@ -43,13 +43,13 @@ namespace System::Text {
       return *reinterpret_cast<System::Runtime::Serialization::IObjectReference*>(this);
     }
     // public System.Void .ctor(System.Text.Encoding encoding)
-    // Offset: 0x1632A8C
+    // Offset: 0x15A1888
     static Encoding::DefaultDecoder* New_ctor(System::Text::Encoding* encoding);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x16332F0
+    // Offset: 0x15A20EC
     static Encoding::DefaultDecoder* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Object GetRealObject(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1633560
+    // Offset: 0x15A235C
     // Implemented from: System.Runtime.Serialization.IObjectReference
     // Base method: System.Object IObjectReference::GetRealObject(System.Runtime.Serialization.StreamingContext context)
     ::Il2CppObject* GetRealObject(System::Runtime::Serialization::StreamingContext context);
@@ -57,37 +57,37 @@ namespace System::Text {
     // Maps to method: GetRealObject
     ::Il2CppObject* System_Runtime_Serialization_IObjectReference_GetRealObject(System::Runtime::Serialization::StreamingContext context);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x16335C0
+    // Offset: 0x15A23BC
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Int32 GetCharCount(System.Byte[] bytes, System.Int32 index, System.Int32 count)
-    // Offset: 0x1633664
+    // Offset: 0x15A2460
     // Implemented from: System.Text.Decoder
     // Base method: System.Int32 Decoder::GetCharCount(System.Byte[] bytes, System.Int32 index, System.Int32 count)
     int GetCharCount(::Array<uint8_t>* bytes, int index, int count);
     // public override System.Int32 GetCharCount(System.Byte[] bytes, System.Int32 index, System.Int32 count, System.Boolean flush)
-    // Offset: 0x1633674
+    // Offset: 0x15A2470
     // Implemented from: System.Text.Decoder
     // Base method: System.Int32 Decoder::GetCharCount(System.Byte[] bytes, System.Int32 index, System.Int32 count, System.Boolean flush)
     int GetCharCount(::Array<uint8_t>* bytes, int index, int count, bool flush);
     // public override System.Int32 GetCharCount(System.Byte* bytes, System.Int32 count, System.Boolean flush)
-    // Offset: 0x1633698
+    // Offset: 0x15A2494
     // Implemented from: System.Text.Decoder
     // Base method: System.Int32 Decoder::GetCharCount(System.Byte* bytes, System.Int32 count, System.Boolean flush)
     int GetCharCount(uint8_t* bytes, int count, bool flush);
     // public override System.Int32 GetChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
-    // Offset: 0x16336BC
+    // Offset: 0x15A24B8
     // Implemented from: System.Text.Decoder
     // Base method: System.Int32 Decoder::GetChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
     int GetChars(::Array<uint8_t>* bytes, int byteIndex, int byteCount, ::Array<::Il2CppChar>* chars, int charIndex);
     // public override System.Int32 GetChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex, System.Boolean flush)
-    // Offset: 0x16336CC
+    // Offset: 0x15A24C8
     // Implemented from: System.Text.Decoder
     // Base method: System.Int32 Decoder::GetChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex, System.Boolean flush)
     int GetChars(::Array<uint8_t>* bytes, int byteIndex, int byteCount, ::Array<::Il2CppChar>* chars, int charIndex, bool flush);
     // public override System.Int32 GetChars(System.Byte* bytes, System.Int32 byteCount, System.Char* chars, System.Int32 charCount, System.Boolean flush)
-    // Offset: 0x16336F0
+    // Offset: 0x15A24EC
     // Implemented from: System.Text.Decoder
     // Base method: System.Int32 Decoder::GetChars(System.Byte* bytes, System.Int32 byteCount, System.Char* chars, System.Int32 charCount, System.Boolean flush)
     int GetChars(uint8_t* bytes, int byteCount, ::Il2CppChar* chars, int charCount, bool flush);

@@ -21,16 +21,16 @@ namespace System::Net {
     // Offset: 0x20
     ::Il2CppString* ModuleAuthenticationType;
     // public System.Void .ctor(System.String token)
-    // Offset: 0x12AB338
+    // Offset: 0x130AB24
     static Authorization* New_ctor(::Il2CppString* token);
     // public System.Void .ctor(System.String token, System.Boolean finished)
-    // Offset: 0x12AB3D4
+    // Offset: 0x130ABC0
     static Authorization* New_ctor(::Il2CppString* token, bool finished);
     // public System.String get_Message()
-    // Offset: 0x12AB474
+    // Offset: 0x130AC60
     ::Il2CppString* get_Message();
     // public System.Boolean get_Complete()
-    // Offset: 0x12AB47C
+    // Offset: 0x130AC68
     bool get_Complete();
   }; // System.Net.Authorization
 }

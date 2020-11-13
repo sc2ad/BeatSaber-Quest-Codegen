@@ -20,22 +20,22 @@ namespace Mono::Math {
     // Offset: 0x18
     Mono::Math::BigInteger* constant;
     // public System.Void .ctor(Mono.Math.BigInteger modulus)
-    // Offset: 0x191E48C
+    // Offset: 0x17AD614
     static BigInteger::ModulusRing* New_ctor(Mono::Math::BigInteger* modulus);
     // public System.Void BarrettReduction(Mono.Math.BigInteger x)
-    // Offset: 0x191E7C0
+    // Offset: 0x17AD948
     void BarrettReduction(Mono::Math::BigInteger* x);
     // public Mono.Math.BigInteger Multiply(Mono.Math.BigInteger a, Mono.Math.BigInteger b)
-    // Offset: 0x191EA30
+    // Offset: 0x17ADBB8
     Mono::Math::BigInteger* Multiply(Mono::Math::BigInteger* a, Mono::Math::BigInteger* b);
     // public Mono.Math.BigInteger Difference(Mono.Math.BigInteger a, Mono.Math.BigInteger b)
-    // Offset: 0x191E5B0
+    // Offset: 0x17AD738
     Mono::Math::BigInteger* Difference(Mono::Math::BigInteger* a, Mono::Math::BigInteger* b);
     // public Mono.Math.BigInteger Pow(Mono.Math.BigInteger a, Mono.Math.BigInteger k)
-    // Offset: 0x191EC00
+    // Offset: 0x17ADD88
     Mono::Math::BigInteger* Pow(Mono::Math::BigInteger* a, Mono::Math::BigInteger* k);
     // public Mono.Math.BigInteger Pow(System.UInt32 b, Mono.Math.BigInteger exp)
-    // Offset: 0x191ED1C
+    // Offset: 0x17ADEA4
     Mono::Math::BigInteger* Pow(uint b, Mono::Math::BigInteger* exp);
   }; // Mono.Math.BigInteger/ModulusRing
 }

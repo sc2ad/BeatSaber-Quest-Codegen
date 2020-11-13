@@ -31,13 +31,13 @@ namespace GlobalNamespace {
     // Set static field: static public Oculus.Platform.Message`1/Callback<Oculus.Platform.Models.LeaderboardEntryList> <>9__2_0
     static void _set_$$9__2_0(typename Oculus::Platform::Message_1<Oculus::Platform::Models::LeaderboardEntryList*>::Callback* value);
     // static private System.Void .cctor()
-    // Offset: 0x1F8283C
+    // Offset: 0x1012240
     static void _cctor();
     // System.Void <.ctor>b__2_0(Oculus.Platform.Message`1<Oculus.Platform.Models.LeaderboardEntryList> message)
-    // Offset: 0x1F828AC
+    // Offset: 0x10122B0
     void $_ctor$b__2_0(Oculus::Platform::Message_1<Oculus::Platform::Models::LeaderboardEntryList*>* message);
     // public System.Void .ctor()
-    // Offset: 0x1F828A4
+    // Offset: 0x10122A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusPlatformLeaderboardsHandler::$$c* New_ctor();

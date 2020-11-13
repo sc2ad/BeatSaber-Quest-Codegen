@@ -20,22 +20,22 @@ namespace Oculus::Platform {
     // Offset: 0x18
     uint64_t RequestID;
     // public System.Void .ctor(System.UInt64 requestID)
-    // Offset: 0x112F94C
+    // Offset: 0x11D060C
     static Request* New_ctor(uint64_t requestID);
     // public System.UInt64 get_RequestID()
-    // Offset: 0x11433CC
+    // Offset: 0x11E408C
     uint64_t get_RequestID();
     // public System.Void set_RequestID(System.UInt64 value)
-    // Offset: 0x11433D4
+    // Offset: 0x11E4094
     void set_RequestID(uint64_t value);
     // public Oculus.Platform.Request OnComplete(Oculus.Platform.Message/Callback callback)
-    // Offset: 0x11433DC
+    // Offset: 0x11E409C
     Oculus::Platform::Request* OnComplete(Oculus::Platform::Message::Callback* callback);
     // public System.Void HandleMessage(Oculus.Platform.Message msg)
-    // Offset: 0x1143464
+    // Offset: 0x11E4124
     void HandleMessage(Oculus::Platform::Message* msg);
     // static public System.Void RunCallbacks(System.UInt32 limit)
-    // Offset: 0x112E04C
+    // Offset: 0x11CED0C
     static void RunCallbacks(uint limit);
   }; // Oculus.Platform.Request
 }

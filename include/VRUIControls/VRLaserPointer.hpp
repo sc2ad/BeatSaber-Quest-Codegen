@@ -37,16 +37,16 @@ namespace VRUIControls {
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
     // public System.Void SetLocalPosition(UnityEngine.Vector3 position)
-    // Offset: 0x1EFD044
+    // Offset: 0x1993C5C
     void SetLocalPosition(UnityEngine::Vector3 position);
     // public System.Void SetLocalScale(UnityEngine.Vector3 scale)
-    // Offset: 0x1EFD090
+    // Offset: 0x1993CA8
     void SetLocalScale(UnityEngine::Vector3 scale);
     // public System.Void SetFadeDistance(System.Single distance)
-    // Offset: 0x1EFD0DC
+    // Offset: 0x1993CF4
     void SetFadeDistance(float distance);
     // public System.Void .ctor()
-    // Offset: 0x1EFD1FC
+    // Offset: 0x1993E14
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -55,7 +55,7 @@ namespace VRUIControls {
     // Base method: System.Void Object::.ctor()
     static VRLaserPointer* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1EFD204
+    // Offset: 0x1993E1C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

@@ -12,7 +12,7 @@ namespace System::Net::NetworkInformation {
   class GatewayIPAddressInformation : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x10C3A1C
+    // Offset: 0x119934C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GatewayIPAddressInformation* New_ctor();

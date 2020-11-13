@@ -39,10 +39,10 @@ namespace Zenject {
     // Offset: 0x1C
     bool matchAll;
     // Zenject.IProvider <FromResolveInternal>b__0(Zenject.DiContainer container, System.Type type)
-    // Offset: 0x1225D50
+    // Offset: 0x129AE08
     Zenject::IProvider* $FromResolveInternal$b__0(Zenject::DiContainer* container, System::Type* type);
     // public System.Void .ctor()
-    // Offset: 0x1222AA0
+    // Offset: 0x1297B58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FromBinder::$$c__DisplayClass22_0* New_ctor();

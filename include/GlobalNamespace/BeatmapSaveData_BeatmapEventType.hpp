@@ -126,6 +126,30 @@ namespace GlobalNamespace {
     static GlobalNamespace::BeatmapSaveData::BeatmapEventType _get_VoidEvent();
     // Set static field: static public BeatmapSaveData/BeatmapEventType VoidEvent
     static void _set_VoidEvent(GlobalNamespace::BeatmapSaveData::BeatmapEventType value);
+    // static field const value: static public BeatmapSaveData/BeatmapEventType Special0
+    static constexpr const int Special0 = 40;
+    // Get static field: static public BeatmapSaveData/BeatmapEventType Special0
+    static GlobalNamespace::BeatmapSaveData::BeatmapEventType _get_Special0();
+    // Set static field: static public BeatmapSaveData/BeatmapEventType Special0
+    static void _set_Special0(GlobalNamespace::BeatmapSaveData::BeatmapEventType value);
+    // static field const value: static public BeatmapSaveData/BeatmapEventType Special1
+    static constexpr const int Special1 = 41;
+    // Get static field: static public BeatmapSaveData/BeatmapEventType Special1
+    static GlobalNamespace::BeatmapSaveData::BeatmapEventType _get_Special1();
+    // Set static field: static public BeatmapSaveData/BeatmapEventType Special1
+    static void _set_Special1(GlobalNamespace::BeatmapSaveData::BeatmapEventType value);
+    // static field const value: static public BeatmapSaveData/BeatmapEventType Special2
+    static constexpr const int Special2 = 42;
+    // Get static field: static public BeatmapSaveData/BeatmapEventType Special2
+    static GlobalNamespace::BeatmapSaveData::BeatmapEventType _get_Special2();
+    // Set static field: static public BeatmapSaveData/BeatmapEventType Special2
+    static void _set_Special2(GlobalNamespace::BeatmapSaveData::BeatmapEventType value);
+    // static field const value: static public BeatmapSaveData/BeatmapEventType Special3
+    static constexpr const int Special3 = 43;
+    // Get static field: static public BeatmapSaveData/BeatmapEventType Special3
+    static GlobalNamespace::BeatmapSaveData::BeatmapEventType _get_Special3();
+    // Set static field: static public BeatmapSaveData/BeatmapEventType Special3
+    static void _set_Special3(GlobalNamespace::BeatmapSaveData::BeatmapEventType value);
   }; // BeatmapSaveData/BeatmapEventType
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

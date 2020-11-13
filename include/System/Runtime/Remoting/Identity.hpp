@@ -57,46 +57,46 @@ namespace System::Runtime::Remoting {
     // Offset: 0x40
     bool disposed;
     // public System.Void .ctor(System.String objectUri)
-    // Offset: 0x109802C
+    // Offset: 0x116E95C
     static Identity* New_ctor(::Il2CppString* objectUri);
     // public System.Runtime.Remoting.ObjRef CreateObjRef(System.Type requestedType)
     // Offset: 0xFFFFFFFF
     System::Runtime::Remoting::ObjRef* CreateObjRef(System::Type* requestedType);
     // public System.Runtime.Remoting.Messaging.IMessageSink get_ChannelSink()
-    // Offset: 0x109E618
+    // Offset: 0x1174F48
     System::Runtime::Remoting::Messaging::IMessageSink* get_ChannelSink();
     // public System.Void set_ChannelSink(System.Runtime.Remoting.Messaging.IMessageSink value)
-    // Offset: 0x109E620
+    // Offset: 0x1174F50
     void set_ChannelSink(System::Runtime::Remoting::Messaging::IMessageSink* value);
     // public System.Runtime.Remoting.Messaging.IMessageSink get_EnvoySink()
-    // Offset: 0x109E628
+    // Offset: 0x1174F58
     System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySink();
     // public System.String get_ObjectUri()
-    // Offset: 0x109E630
+    // Offset: 0x1174F60
     ::Il2CppString* get_ObjectUri();
     // public System.Void set_ObjectUri(System.String value)
-    // Offset: 0x109E638
+    // Offset: 0x1174F68
     void set_ObjectUri(::Il2CppString* value);
     // public System.Boolean get_IsConnected()
-    // Offset: 0x109E640
+    // Offset: 0x1174F70
     bool get_IsConnected();
     // public System.Boolean get_Disposed()
-    // Offset: 0x109E650
+    // Offset: 0x1174F80
     bool get_Disposed();
     // public System.Void set_Disposed(System.Boolean value)
-    // Offset: 0x109E658
+    // Offset: 0x1174F88
     void set_Disposed(bool value);
     // public System.Runtime.Remoting.Contexts.DynamicPropertyCollection get_ClientDynamicProperties()
-    // Offset: 0x109C274
+    // Offset: 0x1172BA4
     System::Runtime::Remoting::Contexts::DynamicPropertyCollection* get_ClientDynamicProperties();
     // public System.Boolean get_HasServerDynamicSinks()
-    // Offset: 0x109E664
+    // Offset: 0x1174F94
     bool get_HasServerDynamicSinks();
     // public System.Void NotifyClientDynamicSinks(System.Boolean start, System.Runtime.Remoting.Messaging.IMessage req_msg, System.Boolean client_site, System.Boolean async)
-    // Offset: 0x109E6A8
+    // Offset: 0x1174FD8
     void NotifyClientDynamicSinks(bool start, System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
     // public System.Void NotifyServerDynamicSinks(System.Boolean start, System.Runtime.Remoting.Messaging.IMessage req_msg, System.Boolean client_site, System.Boolean async)
-    // Offset: 0x109E73C
+    // Offset: 0x117506C
     void NotifyServerDynamicSinks(bool start, System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
   }; // System.Runtime.Remoting.Identity
 }

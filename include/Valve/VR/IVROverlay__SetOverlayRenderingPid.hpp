@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVROverlay::_SetOverlayRenderingPid : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C9B284
+    // Offset: 0x191945C
     static IVROverlay::_SetOverlayRenderingPid* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, System.UInt32 unPID)
-    // Offset: 0x1C9B298
+    // Offset: 0x1919470
     Valve::VR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint unPID);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.UInt32 unPID, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C9B51C
+    // Offset: 0x19196F4
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint unPID, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVROverlayError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C9B5C8
+    // Offset: 0x19197A0
     Valve::VR::EVROverlayError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVROverlay/_SetOverlayRenderingPid
 }

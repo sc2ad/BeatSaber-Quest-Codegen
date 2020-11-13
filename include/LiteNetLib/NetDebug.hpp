@@ -30,7 +30,7 @@ namespace LiteNetLib {
     // Set static field: static private readonly System.Object DebugLogLock
     static void _set_DebugLogLock(::Il2CppObject* value);
     // static private System.Void WriteLogic(LiteNetLib.NetLogLevel logLevel, System.String str, params System.Object[] args)
-    // Offset: 0x1807404
+    // Offset: 0x1DC676C
     static void WriteLogic(LiteNetLib::NetLogLevel logLevel, ::Il2CppString* str, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void WriteLogic(LiteNetLib.NetLogLevel logLevel, System.String str, params System.Object[] args)
     static void WriteLogic(LiteNetLib::NetLogLevel logLevel, ::Il2CppString* str, std::initializer_list<::Il2CppObject*> args);
@@ -40,7 +40,7 @@ namespace LiteNetLib {
       WriteLogic(logLevel, str, {args...});
     }
     // static System.Void Write(System.String str, params System.Object[] args)
-    // Offset: 0x1807634
+    // Offset: 0x1DC699C
     static void Write(::Il2CppString* str, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void Write(System.String str, params System.Object[] args)
     static void Write(::Il2CppString* str, std::initializer_list<::Il2CppObject*> args);
@@ -50,7 +50,7 @@ namespace LiteNetLib {
       Write(str, {args...});
     }
     // static System.Void Write(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
-    // Offset: 0x18076AC
+    // Offset: 0x1DC6A14
     static void Write(LiteNetLib::NetLogLevel level, ::Il2CppString* str, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void Write(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
     static void Write(LiteNetLib::NetLogLevel level, ::Il2CppString* str, std::initializer_list<::Il2CppObject*> args);
@@ -60,7 +60,7 @@ namespace LiteNetLib {
       Write(level, str, {args...});
     }
     // static System.Void WriteForce(System.String str, params System.Object[] args)
-    // Offset: 0x1807728
+    // Offset: 0x1DC6A90
     static void WriteForce(::Il2CppString* str, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void WriteForce(System.String str, params System.Object[] args)
     static void WriteForce(::Il2CppString* str, std::initializer_list<::Il2CppObject*> args);
@@ -70,7 +70,7 @@ namespace LiteNetLib {
       WriteForce(str, {args...});
     }
     // static System.Void WriteForce(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
-    // Offset: 0x18077A0
+    // Offset: 0x1DC6B08
     static void WriteForce(LiteNetLib::NetLogLevel level, ::Il2CppString* str, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void WriteForce(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
     static void WriteForce(LiteNetLib::NetLogLevel level, ::Il2CppString* str, std::initializer_list<::Il2CppObject*> args);
@@ -80,7 +80,7 @@ namespace LiteNetLib {
       WriteForce(level, str, {args...});
     }
     // static System.Void WriteError(System.String str, params System.Object[] args)
-    // Offset: 0x1800A24
+    // Offset: 0x1DBFD8C
     static void WriteError(::Il2CppString* str, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void WriteError(System.String str, params System.Object[] args)
     static void WriteError(::Il2CppString* str, std::initializer_list<::Il2CppObject*> args);
@@ -90,7 +90,7 @@ namespace LiteNetLib {
       WriteError(str, {args...});
     }
     // static private System.Void .cctor()
-    // Offset: 0x180781C
+    // Offset: 0x1DC6B84
     static void _cctor();
   }; // LiteNetLib.NetDebug
 }

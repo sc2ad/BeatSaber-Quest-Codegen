@@ -33,33 +33,33 @@ namespace Mono::Security::Cryptography {
     // Set static field: static private readonly System.Byte[] PI_SUBST
     static void _set_PI_SUBST(::Array<uint8_t>* value);
     // private System.Byte[] Padding(System.Int32 nLength)
-    // Offset: 0x192413C
+    // Offset: 0x17B32C4
     ::Array<uint8_t>* Padding(int nLength);
     // private System.Void MD2Transform(System.Byte[] state, System.Byte[] checksum, System.Byte[] block, System.Int32 index)
-    // Offset: 0x1924328
+    // Offset: 0x17B34B0
     void MD2Transform(::Array<uint8_t>* state, ::Array<uint8_t>* checksum, ::Array<uint8_t>* block, int index);
     // static private System.Void .cctor()
-    // Offset: 0x19246B0
+    // Offset: 0x17B3838
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1924060
+    // Offset: 0x17B31E8
     // Implemented from: Mono.Security.Cryptography.MD2
     // Base method: System.Void MD2::.ctor()
     // Base method: System.Void HashAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
     static MD2Managed* New_ctor();
     // public override System.Void Initialize()
-    // Offset: 0x19241E8
+    // Offset: 0x17B3370
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::Initialize()
     void Initialize();
     // protected override System.Void HashCore(System.Byte[] array, System.Int32 ibStart, System.Int32 cbSize)
-    // Offset: 0x1924254
+    // Offset: 0x17B33DC
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::HashCore(System.Byte[] array, System.Int32 ibStart, System.Int32 cbSize)
     void HashCore(::Array<uint8_t>* array, int ibStart, int cbSize);
     // protected override System.Byte[] HashFinal()
-    // Offset: 0x19245B8
+    // Offset: 0x17B3740
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
     ::Array<uint8_t>* HashFinal();

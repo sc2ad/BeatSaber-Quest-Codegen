@@ -14,7 +14,7 @@ namespace System {
   class MonoLimitationAttribute : public System::MonoTODOAttribute {
     public:
     // public System.Void .ctor(System.String comment)
-    // Offset: 0x184A790
+    // Offset: 0x1711E38
     // Implemented from: System.MonoTODOAttribute
     // Base method: System.Void MonoTODOAttribute::.ctor(System.String comment)
     static MonoLimitationAttribute* New_ctor(::Il2CppString* comment);

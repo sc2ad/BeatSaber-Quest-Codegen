@@ -71,90 +71,90 @@ namespace System::Net {
     // Set static field: static private System.Net.WebHeaderCollection/RfcChar[] RfcCharMap
     static void _set_RfcCharMap(::Array<System::Net::WebHeaderCollection::RfcChar>* value);
     // private System.Void NormalizeCommonHeaders()
-    // Offset: 0x1198A84
+    // Offset: 0x1223E14
     void NormalizeCommonHeaders();
     // private System.Collections.Specialized.NameValueCollection get_InnerCollection()
-    // Offset: 0x1198BB4
+    // Offset: 0x1223F44
     System::Collections::Specialized::NameValueCollection* get_InnerCollection();
     // static System.Boolean AllowMultiValues(System.String name)
-    // Offset: 0x1190F04
+    // Offset: 0x121C294
     static bool AllowMultiValues(::Il2CppString* name);
     // private System.Boolean get_AllowHttpRequestHeader()
-    // Offset: 0x1198C68
+    // Offset: 0x1223FF8
     bool get_AllowHttpRequestHeader();
     // public System.Void Remove(System.Net.HttpRequestHeader header)
-    // Offset: 0x1198CA0
+    // Offset: 0x1224030
     void Remove(System::Net::HttpRequestHeader header);
     // System.Void AddInternal(System.String name, System.String value)
-    // Offset: 0x1190FB4
+    // Offset: 0x121C344
     void AddInternal(::Il2CppString* name, ::Il2CppString* value);
     // System.Void ChangeInternal(System.String name, System.String value)
-    // Offset: 0x1198DA0
+    // Offset: 0x1224130
     void ChangeInternal(::Il2CppString* name, ::Il2CppString* value);
     // System.Void RemoveInternal(System.String name)
-    // Offset: 0x1198E00
+    // Offset: 0x1224190
     void RemoveInternal(::Il2CppString* name);
     // static System.String CheckBadChars(System.String name, System.Boolean isHeaderValue)
-    // Offset: 0x1198E60
+    // Offset: 0x12241F0
     static ::Il2CppString* CheckBadChars(::Il2CppString* name, bool isHeaderValue);
     // static System.Boolean ContainsNonAsciiChars(System.String token)
-    // Offset: 0x11991EC
+    // Offset: 0x122457C
     static bool ContainsNonAsciiChars(::Il2CppString* token);
     // System.Void ThrowOnRestrictedHeader(System.String headerName)
-    // Offset: 0x1199274
+    // Offset: 0x1224604
     void ThrowOnRestrictedHeader(::Il2CppString* headerName);
     // public System.Void Add(System.String header)
-    // Offset: 0x118EDCC
+    // Offset: 0x121A15C
     void Add(::Il2CppString* header);
     // System.Void SetInternal(System.String name, System.String value)
-    // Offset: 0x1191014
+    // Offset: 0x121C3A4
     void SetInternal(::Il2CppString* name, ::Il2CppString* value);
     // static System.String GetAsString(System.Collections.Specialized.NameValueCollection cc, System.Boolean winInetCompat, System.Boolean forTrace)
-    // Offset: 0x1199B80
+    // Offset: 0x1224F10
     static ::Il2CppString* GetAsString(System::Collections::Specialized::NameValueCollection* cc, bool winInetCompat, bool forTrace);
     // System.Void .ctor(System.Net.WebHeaderCollectionType type)
-    // Offset: 0x1199E20
+    // Offset: 0x12251B0
     static WebHeaderCollection* New_ctor(System::Net::WebHeaderCollectionType type);
     // public override System.Void Add(System.String name, System.String value)
-    // Offset: 0x1199400
+    // Offset: 0x1224790
     // Implemented from: System.Collections.Specialized.NameValueCollection
     // Base method: System.Void NameValueCollection::Add(System.String name, System.String value)
     void Add(::Il2CppString* name, ::Il2CppString* value);
     // public override System.Void Set(System.String name, System.String value)
-    // Offset: 0x11995B8
+    // Offset: 0x1224948
     // Implemented from: System.Collections.Specialized.NameValueCollection
     // Base method: System.Void NameValueCollection::Set(System.String name, System.String value)
     void Set(::Il2CppString* name, ::Il2CppString* value);
     // public override System.Void Remove(System.String name)
-    // Offset: 0x11997D8
+    // Offset: 0x1224B68
     // Implemented from: System.Collections.Specialized.NameValueCollection
     // Base method: System.Void NameValueCollection::Remove(System.String name)
     void Remove(::Il2CppString* name);
     // public override System.String[] GetValues(System.String header)
-    // Offset: 0x1199910
+    // Offset: 0x1224CA0
     // Implemented from: System.Collections.Specialized.NameValueCollection
     // Base method: System.String[] NameValueCollection::GetValues(System.String header)
     ::Array<::Il2CppString*>* GetValues(::Il2CppString* header);
     // public override System.String ToString()
-    // Offset: 0x1199B14
+    // Offset: 0x1224EA4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0x118ECB4
+    // Offset: 0x121A044
     // Implemented from: System.Collections.Specialized.NameValueCollection
     // Base method: System.Void NameValueCollection::.ctor()
     // Base method: System.Void NameObjectCollectionBase::.ctor()
     // Base method: System.Void Object::.ctor()
     static WebHeaderCollection* New_ctor();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1199F1C
+    // Offset: 0x12252AC
     // Implemented from: System.Collections.Specialized.NameValueCollection
     // Base method: System.Void NameValueCollection::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // Base method: System.Void NameObjectCollectionBase::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     static WebHeaderCollection* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // public override System.Void OnDeserialization(System.Object sender)
-    // Offset: 0x119A0DC
+    // Offset: 0x122546C
     // Implemented from: System.Collections.Specialized.NameObjectCollectionBase
     // Base method: System.Void NameObjectCollectionBase::OnDeserialization(System.Object sender)
     void OnDeserialization(::Il2CppObject* sender);
@@ -162,7 +162,7 @@ namespace System::Net {
     // Maps to method: OnDeserialization
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x119A0E0
+    // Offset: 0x1225470
     // Implemented from: System.Collections.Specialized.NameObjectCollectionBase
     // Base method: System.Void NameObjectCollectionBase::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
@@ -170,17 +170,17 @@ namespace System::Net {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x119A258
+    // Offset: 0x12255E8
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // ABORTED: conflicts with another method. void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // public override System.String Get(System.String name)
-    // Offset: 0x119A264
+    // Offset: 0x12255F4
     // Implemented from: System.Collections.Specialized.NameValueCollection
     // Base method: System.String NameValueCollection::Get(System.String name)
     ::Il2CppString* Get(::Il2CppString* name);
     // public override System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x119A5C8
+    // Offset: 0x1225958
     // Implemented from: System.Collections.Specialized.NameObjectCollectionBase
     // Base method: System.Collections.IEnumerator NameObjectCollectionBase::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();
@@ -188,7 +188,7 @@ namespace System::Net {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public override System.Int32 get_Count()
-    // Offset: 0x119A644
+    // Offset: 0x12259D4
     // Implemented from: System.Collections.Specialized.NameObjectCollectionBase
     // Base method: System.Int32 NameObjectCollectionBase::get_Count()
     int get_Count();
@@ -196,22 +196,22 @@ namespace System::Net {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // public override System.String Get(System.Int32 index)
-    // Offset: 0x119A67C
+    // Offset: 0x1225A0C
     // Implemented from: System.Collections.Specialized.NameValueCollection
     // Base method: System.String NameValueCollection::Get(System.Int32 index)
     ::Il2CppString* Get(int index);
     // public override System.String[] GetValues(System.Int32 index)
-    // Offset: 0x119A6C0
+    // Offset: 0x1225A50
     // Implemented from: System.Collections.Specialized.NameValueCollection
     // Base method: System.String[] NameValueCollection::GetValues(System.Int32 index)
     ::Array<::Il2CppString*>* GetValues(int index);
     // public override System.String GetKey(System.Int32 index)
-    // Offset: 0x119A704
+    // Offset: 0x1225A94
     // Implemented from: System.Collections.Specialized.NameValueCollection
     // Base method: System.String NameValueCollection::GetKey(System.Int32 index)
     ::Il2CppString* GetKey(int index);
     // static private System.Void .cctor()
-    // Offset: 0x119A748
+    // Offset: 0x1225AD8
     // Implemented from: System.Collections.Specialized.NameObjectCollectionBase
     // Base method: System.Void NameObjectCollectionBase::.cctor()
     static void _cctor();

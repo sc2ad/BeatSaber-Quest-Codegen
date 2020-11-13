@@ -43,27 +43,27 @@ namespace GlobalNamespace {
     // Offset: 0x88
     System::Action* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action value)
-    // Offset: 0x20B0A20
+    // Offset: 0xF1CCDC
     void add_didFinishEvent(System::Action* value);
     // public System.Void remove_didFinishEvent(System.Action value)
-    // Offset: 0x20B0AC4
+    // Offset: 0xF1CD80
     void remove_didFinishEvent(System::Action* value);
     // public System.Void Init(System.String text)
-    // Offset: 0x20B0B68
+    // Offset: 0xF1CE24
     void Init(::Il2CppString* text);
     // public System.Void HideLoading()
-    // Offset: 0x20B0BB0
+    // Offset: 0xF1CE6C
     void HideLoading();
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0x20B0CC4
+    // Offset: 0xF1CF80
     void $DidActivate$b__8_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x20B0BFC
+    // Offset: 0xF1CEB8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x20B0CBC
+    // Offset: 0xF1CF78
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

@@ -95,40 +95,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x2073460
+    // Offset: 0xFBC7BC
     void add_totalDistanceDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x2073504
+    // Offset: 0xFBC860
     void remove_totalDistanceDidChangeEvent(System::Action_1<float>* value);
     // public System.Single get_leftSaberMovementDistance()
-    // Offset: 0x20735A8
+    // Offset: 0xFBC904
     float get_leftSaberMovementDistance();
     // public System.Single get_rightSaberMovementDistance()
-    // Offset: 0x20735B0
+    // Offset: 0xFBC90C
     float get_rightSaberMovementDistance();
     // public System.Single get_leftHandMovementDistance()
-    // Offset: 0x20735B8
+    // Offset: 0xFBC914
     float get_leftHandMovementDistance();
     // public System.Single get_rightHandMovementDistance()
-    // Offset: 0x20735C0
+    // Offset: 0xFBC91C
     float get_rightHandMovementDistance();
     // public AveragingValueRecorder get_saberMovementAveragingValueRecorder()
-    // Offset: 0x20735C8
+    // Offset: 0xFBC924
     GlobalNamespace::AveragingValueRecorder* get_saberMovementAveragingValueRecorder();
     // public AveragingValueRecorder get_handMovementAveragingValueRecorder()
-    // Offset: 0x20735E4
+    // Offset: 0xFBC940
     GlobalNamespace::AveragingValueRecorder* get_handMovementAveragingValueRecorder();
     // protected System.Void Awake()
-    // Offset: 0x2073600
+    // Offset: 0xFBC95C
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x20736D4
+    // Offset: 0xFBCA30
     void Start();
     // protected System.Void Update()
-    // Offset: 0x2073724
+    // Offset: 0xFBCA80
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x2073AE8
+    // Offset: 0xFBCE24
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

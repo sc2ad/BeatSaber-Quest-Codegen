@@ -19,18 +19,18 @@ namespace System::Net::Http {
     // Offset: 0x50
     int64_t maxSize;
     // public System.Void .ctor(System.Int64 maxSize)
-    // Offset: 0x1185258
+    // Offset: 0x120F5E8
     static HttpContent::FixedMemoryStream* New_ctor(int64_t maxSize);
     // private System.Void CheckOverflow(System.Int32 count)
-    // Offset: 0x1185B58
+    // Offset: 0x120FEE8
     void CheckOverflow(int count);
     // public override System.Void WriteByte(System.Byte value)
-    // Offset: 0x1185CA8
+    // Offset: 0x1210038
     // Implemented from: System.IO.MemoryStream
     // Base method: System.Void MemoryStream::WriteByte(System.Byte value)
     void WriteByte(uint8_t value);
     // public override System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1185CDC
+    // Offset: 0x121006C
     // Implemented from: System.IO.MemoryStream
     // Base method: System.Void MemoryStream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     void Write(::Array<uint8_t>* buffer, int offset, int count);

@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithAssetFileDownloadResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadResult*> {
     public:
     // protected Oculus.Platform.Models.AssetFileDownloadResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1137F64
+    // Offset: 0x11D8C24
     Oculus::Platform::Models::AssetFileDownloadResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1134DC8
+    // Offset: 0x11D5A88
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithAssetFileDownloadResult* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.AssetFileDownloadResult GetAssetFileDownloadResult()
-    // Offset: 0x1137F20
+    // Offset: 0x11D8BE0
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.AssetFileDownloadResult Message::GetAssetFileDownloadResult()
     Oculus::Platform::Models::AssetFileDownloadResult* GetAssetFileDownloadResult();

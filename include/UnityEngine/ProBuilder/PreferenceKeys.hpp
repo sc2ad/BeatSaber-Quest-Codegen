@@ -643,7 +643,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static System.String defaultUnwrapParameters
     static void _set_defaultUnwrapParameters(::Il2CppString* value);
     // static private System.Void .cctor()
-    // Offset: 0x1377F5C
+    // Offset: 0x13B93E8
     static void _cctor();
   }; // UnityEngine.ProBuilder.PreferenceKeys
 }

@@ -33,10 +33,10 @@ namespace UnityEngine {
       return *reinterpret_cast<UnityEngine::ISubsystem*>(this);
     }
     // System.Void SetHandle(UnityEngine.IntegratedSubsystem inst)
-    // Offset: 0x1F771EC
+    // Offset: 0x1A07528
     void SetHandle(UnityEngine::IntegratedSubsystem* inst);
     // public System.Void .ctor()
-    // Offset: 0x1F7723C
+    // Offset: 0x1A07578
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IntegratedSubsystem* New_ctor();

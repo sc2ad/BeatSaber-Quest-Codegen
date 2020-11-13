@@ -85,67 +85,67 @@ namespace System::IO {
     // Set static field: static private System.Action`1<System.Object> _FlushDelegate
     static void _set__FlushDelegate(System::Action_1<::Il2CppObject*>* value);
     // static private System.String get_InitialNewLine()
-    // Offset: 0x136BAB8
+    // Offset: 0x13ACF44
     static ::Il2CppString* get_InitialNewLine();
     // protected System.Void .ctor(System.IFormatProvider formatProvider)
-    // Offset: 0x13691E8
+    // Offset: 0x13AA674
     static TextWriter* New_ctor(System::IFormatProvider* formatProvider);
     // public System.IFormatProvider get_FormatProvider()
-    // Offset: 0x136BB60
+    // Offset: 0x13ACFEC
     System::IFormatProvider* get_FormatProvider();
     // public System.Void Close()
-    // Offset: 0x136BB8C
+    // Offset: 0x13AD018
     void Close();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1369DBC
+    // Offset: 0x13AB248
     void Dispose(bool disposing);
     // public System.Void Flush()
-    // Offset: 0x136BC84
+    // Offset: 0x13AD110
     void Flush();
     // public System.Text.Encoding get_Encoding()
     // Offset: 0xFFFFFFFF
     System::Text::Encoding* get_Encoding();
     // static public System.IO.TextWriter Synchronized(System.IO.TextWriter writer)
-    // Offset: 0x136BC88
+    // Offset: 0x13AD114
     static System::IO::TextWriter* Synchronized(System::IO::TextWriter* writer);
     // public System.Void Write(System.Char value)
-    // Offset: 0x136BDD4
+    // Offset: 0x13AD260
     void Write(::Il2CppChar value);
     // public System.Void Write(System.Char[] buffer)
-    // Offset: 0x136BDD8
+    // Offset: 0x13AD264
     void Write(::Array<::Il2CppChar>* buffer);
     // public System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x136BDF8
+    // Offset: 0x13AD284
     void Write(::Array<::Il2CppChar>* buffer, int index, int count);
     // public System.Void Write(System.String value)
-    // Offset: 0x136C004
+    // Offset: 0x13AD490
     void Write(::Il2CppString* value);
     // public System.Void Write(System.String format, System.Object arg0)
-    // Offset: 0x136C048
+    // Offset: 0x13AD4D4
     void Write(::Il2CppString* format, ::Il2CppObject* arg0);
     // public System.Void Write(System.String format, System.Object arg0, System.Object arg1, System.Object arg2)
-    // Offset: 0x136C0A8
+    // Offset: 0x13AD534
     void Write(::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
     // public System.Void WriteLine()
-    // Offset: 0x136C120
+    // Offset: 0x13AD5AC
     void WriteLine();
     // public System.Void WriteLine(System.Char value)
-    // Offset: 0x136C134
+    // Offset: 0x13AD5C0
     void WriteLine(::Il2CppChar value);
     // public System.Void WriteLine(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x136C16C
+    // Offset: 0x13AD5F8
     void WriteLine(::Array<::Il2CppChar>* buffer, int index, int count);
     // public System.Void WriteLine(System.String value)
-    // Offset: 0x136C1A8
+    // Offset: 0x13AD634
     void WriteLine(::Il2CppString* value);
     // public System.Void WriteLine(System.String format, System.Object arg0)
-    // Offset: 0x136C350
+    // Offset: 0x13AD7DC
     void WriteLine(::Il2CppString* format, ::Il2CppObject* arg0);
     // public System.Void WriteLine(System.String format, System.Object arg0, System.Object arg1)
-    // Offset: 0x136C3B0
+    // Offset: 0x13AD83C
     void WriteLine(::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1);
     // public System.Void WriteLine(System.String format, params System.Object[] arg)
-    // Offset: 0x136C418
+    // Offset: 0x13AD8A4
     void WriteLine(::Il2CppString* format, ::Array<::Il2CppObject*>* arg);
     // Creating initializer_list -> params proxy for: System.Void WriteLine(System.String format, params System.Object[] arg)
     void WriteLine(::Il2CppString* format, std::initializer_list<::Il2CppObject*> arg);
@@ -155,16 +155,16 @@ namespace System::IO {
       WriteLine(format, {arg...});
     }
     // static private System.Void .cctor()
-    // Offset: 0x136C478
+    // Offset: 0x13AD904
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x136BAC0
+    // Offset: 0x13ACF4C
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static TextWriter* New_ctor();
     // public System.Void Dispose()
-    // Offset: 0x136BC08
+    // Offset: 0x13AD094
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

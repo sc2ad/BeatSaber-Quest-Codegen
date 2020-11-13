@@ -30,10 +30,10 @@ namespace Mono::Security::Interface {
       return alert;
     }
     // public System.Void .ctor(Mono.Security.Interface.Alert alert, System.String message)
-    // Offset: 0x19294F4
+    // Offset: 0x17B867C
     static TlsException* New_ctor(Mono::Security::Interface::Alert* alert, ::Il2CppString* message);
     // public System.Void .ctor(Mono.Security.Interface.AlertDescription description, System.String message)
-    // Offset: 0x1929580
+    // Offset: 0x17B8708
     static TlsException* New_ctor(Mono::Security::Interface::AlertDescription description, ::Il2CppString* message);
   }; // Mono.Security.Interface.TlsException
 }

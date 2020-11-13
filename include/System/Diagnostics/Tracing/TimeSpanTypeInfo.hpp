@@ -27,15 +27,15 @@ namespace System::Diagnostics::Tracing {
   class TimeSpanTypeInfo : public System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<System::TimeSpan> {
     public:
     // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref System.TimeSpan value)
-    // Offset: 0x1048D74
+    // Offset: 0x11206A4
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, System::TimeSpan& value);
     // public override System.Void WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
-    // Offset: 0x1048CEC
+    // Offset: 0x112061C
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Void TraceLoggingTypeInfo::WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::Il2CppString* name, System::Diagnostics::Tracing::EventFieldFormat format);
     // public System.Void .ctor()
-    // Offset: 0x1048D8C
+    // Offset: 0x11206BC
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
     // Base method: System.Void TraceLoggingTypeInfo_1::.ctor()
     // Base method: System.Void Object::.ctor()

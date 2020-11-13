@@ -35,16 +35,16 @@ namespace OVR::OpenVR {
   class IVRTrackedCamera::_GetCameraProjection : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xF6895C
+    // Offset: 0x106442C
     static IVRTrackedCamera::_GetCameraProjection* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRTrackedCameraError Invoke(System.UInt32 nDeviceIndex, OVR.OpenVR.EVRTrackedCameraFrameType eFrameType, System.Single flZNear, System.Single flZFar, ref OVR.OpenVR.HmdMatrix44_t pProjection)
-    // Offset: 0xF68970
+    // Offset: 0x1064440
     OVR::OpenVR::EVRTrackedCameraError Invoke(uint nDeviceIndex, OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, float flZNear, float flZFar, OVR::OpenVR::HmdMatrix44_t& pProjection);
     // public System.IAsyncResult BeginInvoke(System.UInt32 nDeviceIndex, OVR.OpenVR.EVRTrackedCameraFrameType eFrameType, System.Single flZNear, System.Single flZFar, ref OVR.OpenVR.HmdMatrix44_t pProjection, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xF68C54
+    // Offset: 0x1064724
     System::IAsyncResult* BeginInvoke(uint nDeviceIndex, OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, float flZNear, float flZFar, OVR::OpenVR::HmdMatrix44_t& pProjection, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRTrackedCameraError EndInvoke(ref OVR.OpenVR.HmdMatrix44_t pProjection, System.IAsyncResult result)
-    // Offset: 0xF68D5C
+    // Offset: 0x106482C
     OVR::OpenVR::EVRTrackedCameraError EndInvoke(OVR::OpenVR::HmdMatrix44_t& pProjection, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRTrackedCamera/_GetCameraProjection
 }

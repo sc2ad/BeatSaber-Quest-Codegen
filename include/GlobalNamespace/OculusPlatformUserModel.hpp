@@ -61,27 +61,27 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IPlatformUserModel*>(this);
     }
     // public System.Threading.Tasks.Task`1<UserInfo> GetUserInfo()
-    // Offset: 0x1F82CBC
+    // Offset: 0x10126C0
     // Implemented from: IPlatformUserModel
     // Base method: System.Threading.Tasks.Task`1<UserInfo> IPlatformUserModel::GetUserInfo()
     System::Threading::Tasks::Task_1<GlobalNamespace::UserInfo*>* GetUserInfo();
     // public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> GetUserFriendsUserIds(System.Boolean cached)
-    // Offset: 0x1F82DDC
+    // Offset: 0x10127E0
     // Implemented from: IPlatformUserModel
     // Base method: System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> IPlatformUserModel::GetUserFriendsUserIds(System.Boolean cached)
     System::Threading::Tasks::Task_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* GetUserFriendsUserIds(bool cached);
     // public System.Threading.Tasks.Task`1<System.String> GetUserAuthToken()
-    // Offset: 0x1F82F20
+    // Offset: 0x1012924
     // Implemented from: IPlatformUserModel
     // Base method: System.Threading.Tasks.Task`1<System.String> IPlatformUserModel::GetUserAuthToken()
     System::Threading::Tasks::Task_1<::Il2CppString*>* GetUserAuthToken();
     // public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> GetUserNamesForUserIds(System.Collections.Generic.IReadOnlyList`1<System.String> userIds)
-    // Offset: 0x1F8302C
+    // Offset: 0x1012A30
     // Implemented from: IPlatformUserModel
     // Base method: System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> IPlatformUserModel::GetUserNamesForUserIds(System.Collections.Generic.IReadOnlyList`1<System.String> userIds)
     System::Threading::Tasks::Task_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* GetUserNamesForUserIds(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* userIds);
     // public System.Void .ctor()
-    // Offset: 0x1F83144
+    // Offset: 0x1012B48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusPlatformUserModel* New_ctor();

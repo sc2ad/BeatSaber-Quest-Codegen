@@ -28,10 +28,10 @@ namespace GlobalNamespace {
       return buttonAction;
     }
     // System.Void <Init>b__0(System.Int32 btnIdx)
-    // Offset: 0x1FBB88C
+    // Offset: 0x1A53DDC
     void $Init$b__0(int btnIdx);
     // public System.Void .ctor()
-    // Offset: 0x1FBB87C
+    // Offset: 0x1A53CE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConnectionErrorDialogViewController::$$c__DisplayClass0_0* New_ctor();

@@ -14,12 +14,12 @@ namespace System::Net::NetworkInformation {
   class UnixNoLibCIPGlobalProperties : public System::Net::NetworkInformation::UnixIPGlobalProperties {
     public:
     // public override System.String get_DomainName()
-    // Offset: 0x10C80E0
+    // Offset: 0x119DA10
     // Implemented from: System.Net.NetworkInformation.CommonUnixIPGlobalProperties
     // Base method: System.String CommonUnixIPGlobalProperties::get_DomainName()
     ::Il2CppString* get_DomainName();
     // public System.Void .ctor()
-    // Offset: 0x10C431C
+    // Offset: 0x1199C4C
     // Implemented from: System.Net.NetworkInformation.UnixIPGlobalProperties
     // Base method: System.Void UnixIPGlobalProperties::.ctor()
     // Base method: System.Void CommonUnixIPGlobalProperties::.ctor()

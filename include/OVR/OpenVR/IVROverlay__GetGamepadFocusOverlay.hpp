@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_GetGamepadFocusOverlay : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1ABA7AC
+    // Offset: 0x1869CE4
     static IVROverlay::_GetGamepadFocusOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt64 Invoke()
-    // Offset: 0x1ABA7C0
+    // Offset: 0x1869CF8
     uint64_t Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1ABA9D4
+    // Offset: 0x1869F0C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt64 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1ABAA00
+    // Offset: 0x1869F38
     uint64_t EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetGamepadFocusOverlay
 }

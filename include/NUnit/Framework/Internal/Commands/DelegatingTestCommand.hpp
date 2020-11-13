@@ -19,10 +19,10 @@ namespace NUnit::Framework::Internal::Commands {
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
     // public NUnit.Framework.Internal.Commands.TestCommand GetInnerCommand()
-    // Offset: 0x13C8914
+    // Offset: 0x13EE2AC
     NUnit::Framework::Internal::Commands::TestCommand* GetInnerCommand();
     // protected System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0x13C8364
+    // Offset: 0x13EDCFC
     static DelegatingTestCommand* New_ctor(NUnit::Framework::Internal::Commands::TestCommand* innerCommand);
   }; // NUnit.Framework.Internal.Commands.DelegatingTestCommand
 }

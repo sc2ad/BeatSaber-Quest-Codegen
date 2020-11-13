@@ -6,6 +6,8 @@
 #include "Unity/Collections/LowLevel/Unsafe/UnsafeUtility.hpp"
 // Including type: Unity.Collections.Allocator
 #include "Unity/Collections/Allocator.hpp"
+// Including type: System.ValueType
+#include "System/ValueType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

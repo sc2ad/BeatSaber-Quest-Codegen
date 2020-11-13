@@ -32,21 +32,21 @@ namespace Polyglot {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Reset()
-    // Offset: 0x1EEDC3C
+    // Offset: 0x1984854
     void Reset();
     // public System.Void Start()
-    // Offset: 0x1EEDC9C
+    // Offset: 0x19848B4
     void Start();
     // private System.Void CreateDropdown()
-    // Offset: 0x1EEDCCC
+    // Offset: 0x19848E4
     void CreateDropdown();
     // public System.Void OnLocalize()
-    // Offset: 0x1EEE1BC
+    // Offset: 0x1984DD4
     // Implemented from: Polyglot.ILocalize
     // Base method: System.Void ILocalize::OnLocalize()
     void OnLocalize();
     // public System.Void .ctor()
-    // Offset: 0x1EEE2F0
+    // Offset: 0x1984F08
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

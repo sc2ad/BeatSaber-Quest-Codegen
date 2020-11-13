@@ -9,6 +9,8 @@
 #include "GlobalNamespace/X509CertificateUtility_PasswordFinder.hpp"
 // Including type: X509CertificateUtility/RSACertificateEncryptionProvider
 #include "GlobalNamespace/X509CertificateUtility_RSACertificateEncryptionProvider.hpp"
+// Including type: X509CertificateUtility/<>c
+#include "GlobalNamespace/X509CertificateUtility_--c.hpp"
 // Including type: ICertificateEncryptionProvider
 #include "GlobalNamespace/ICertificateEncryptionProvider.hpp"
 // Including type: System.Security.Cryptography.X509Certificates.X509Certificate2

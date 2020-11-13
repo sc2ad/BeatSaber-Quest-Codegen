@@ -33,13 +33,13 @@ namespace System::Security::Util {
       return *reinterpret_cast<System::Security::Util::Tokenizer::ITokenReader*>(this);
     }
     // System.Void .ctor(System.IO.StreamReader input)
-    // Offset: 0x12133B8
+    // Offset: 0x1288470
     static Tokenizer::StreamTokenReader* New_ctor(System::IO::StreamReader* input);
     // System.Int32 get_NumCharEncountered()
-    // Offset: 0x1213AA8
+    // Offset: 0x1288B60
     int get_NumCharEncountered();
     // public System.Int32 Read()
-    // Offset: 0x1213A60
+    // Offset: 0x1288B18
     // Implemented from: System.Security.Util.Tokenizer/ITokenReader
     // Base method: System.Int32 ITokenReader::Read()
     int Read();

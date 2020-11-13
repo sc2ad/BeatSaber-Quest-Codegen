@@ -36,19 +36,19 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Offset: 0x18
     Org::BouncyCastle::Asn1::Asn1OctetString* data;
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1408310
+    // Offset: 0x13FA208
     static EncryptedPrivateKeyInfo* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // static public Org.BouncyCastle.Asn1.Pkcs.EncryptedPrivateKeyInfo GetInstance(System.Object obj)
-    // Offset: 0x1408424
+    // Offset: 0x13FA31C
     static Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* GetInstance(::Il2CppObject* obj);
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_EncryptionAlgorithm()
-    // Offset: 0x14085A4
+    // Offset: 0x13FA49C
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithm();
     // public System.Byte[] GetEncryptedData()
-    // Offset: 0x14085AC
+    // Offset: 0x13FA4A4
     ::Array<uint8_t>* GetEncryptedData();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x14085CC
+    // Offset: 0x13FA4C4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

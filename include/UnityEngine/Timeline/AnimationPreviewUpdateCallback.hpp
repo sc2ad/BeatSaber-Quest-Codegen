@@ -44,13 +44,13 @@ namespace UnityEngine::Timeline {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineEvaluateCallback*>(this);
     }
     // public System.Void .ctor(UnityEngine.Animations.AnimationPlayableOutput output)
-    // Offset: 0x13EB970
+    // Offset: 0x1411C4C
     static AnimationPreviewUpdateCallback* New_ctor(UnityEngine::Animations::AnimationPlayableOutput output);
     // private System.Void FetchPreviewComponents()
-    // Offset: 0x13EBBAC
+    // Offset: 0x1411E88
     void FetchPreviewComponents();
     // public System.Void Evaluate()
-    // Offset: 0x13EBA20
+    // Offset: 0x1411CFC
     // Implemented from: UnityEngine.Timeline.ITimelineEvaluateCallback
     // Base method: System.Void ITimelineEvaluateCallback::Evaluate()
     void Evaluate();

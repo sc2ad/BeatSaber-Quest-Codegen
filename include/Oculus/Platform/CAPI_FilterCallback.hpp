@@ -28,16 +28,16 @@ namespace Oculus::Platform {
   class CAPI::FilterCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x112CD78
+    // Offset: 0x11CDA38
     static CAPI::FilterCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(in System.Int16[] pcmData, System.UIntPtr pcmDataLength, System.Int32 frequency, System.Int32 numChannels)
-    // Offset: 0x112CD8C
+    // Offset: 0x11CDA4C
     void Invoke(::Array<int16_t>*& pcmData, System::UIntPtr pcmDataLength, int frequency, int numChannels);
     // public System.IAsyncResult BeginInvoke(in System.Int16[] pcmData, System.UIntPtr pcmDataLength, System.Int32 frequency, System.Int32 numChannels, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x112D024
+    // Offset: 0x11CDCE4
     System::IAsyncResult* BeginInvoke(::Array<int16_t>*& pcmData, System::UIntPtr pcmDataLength, int frequency, int numChannels, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x112D0F4
+    // Offset: 0x11CDDB4
     void EndInvoke(System::IAsyncResult* result);
   }; // Oculus.Platform.CAPI/FilterCallback
 }

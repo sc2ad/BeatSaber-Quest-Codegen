@@ -29,24 +29,24 @@ namespace Mono::Security::Cryptography {
     // Set static field: static private System.Security.Cryptography.KeySizes[] s_legalKeySizes
     static void _set_s_legalKeySizes(::Array<System::Security::Cryptography::KeySizes*>* value);
     // static public Mono.Security.Cryptography.RC4 Create()
-    // Offset: 0x19221BC
+    // Offset: 0x17B1344
     static Mono::Security::Cryptography::RC4* Create();
     // static private System.Void .cctor()
-    // Offset: 0x1926F5C
+    // Offset: 0x17B60E4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1922A18
+    // Offset: 0x17B1BA0
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
     static RC4* New_ctor();
     // public override System.Byte[] get_IV()
-    // Offset: 0x1926F0C
+    // Offset: 0x17B6094
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Byte[] SymmetricAlgorithm::get_IV()
     ::Array<uint8_t>* get_IV();
     // public override System.Void set_IV(System.Byte[] value)
-    // Offset: 0x1926F58
+    // Offset: 0x17B60E0
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::set_IV(System.Byte[] value)
     void set_IV(::Array<uint8_t>* value);

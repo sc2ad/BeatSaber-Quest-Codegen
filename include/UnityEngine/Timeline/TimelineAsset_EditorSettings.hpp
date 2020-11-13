@@ -16,10 +16,9 @@ namespace UnityEngine::Timeline {
     // private System.Single m_Framerate
     // Offset: 0x10
     float m_Framerate;
-    // Creating conversion operator: operator float
-    constexpr operator float() const noexcept {
-      return m_Framerate;
-    }
+    // private System.Boolean m_ScenePreview
+    // Offset: 0x14
+    bool m_ScenePreview;
     // Get static field: static readonly System.Single kMinFps
     static float _get_kMinFps();
     // Set static field: static readonly System.Single kMinFps
@@ -33,16 +32,22 @@ namespace UnityEngine::Timeline {
     // Set static field: static readonly System.Single kDefaultFps
     static void _set_kDefaultFps(float value);
     // public System.Single get_fps()
-    // Offset: 0x1400620
+    // Offset: 0x1966958
     float get_fps();
     // public System.Void set_fps(System.Single value)
-    // Offset: 0x13FE104
+    // Offset: 0x1966960
     void set_fps(float value);
+    // public System.Boolean get_scenePreview()
+    // Offset: 0x1966988
+    bool get_scenePreview();
+    // public System.Void set_scenePreview(System.Boolean value)
+    // Offset: 0x1966990
+    void set_scenePreview(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x1400628
+    // Offset: 0x1966A1C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x13FFDB8
+    // Offset: 0x196699C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TimelineAsset::EditorSettings* New_ctor();

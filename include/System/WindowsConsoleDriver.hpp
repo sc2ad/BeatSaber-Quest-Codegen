@@ -42,24 +42,24 @@ namespace System {
       return *reinterpret_cast<System::IConsoleDriver*>(this);
     }
     // static private System.Boolean IsModifierKey(System.Int16 virtualKeyCode)
-    // Offset: 0x1F4FF58
+    // Offset: 0x19E193C
     static bool IsModifierKey(int16_t virtualKeyCode);
     // static private System.IntPtr GetStdHandle(System.Handles handle)
-    // Offset: 0x1F4FBC8
+    // Offset: 0x19E15AC
     static System::IntPtr GetStdHandle(System::Handles handle);
     // static private System.Boolean GetConsoleScreenBufferInfo(System.IntPtr handle, out System.ConsoleScreenBufferInfo info)
-    // Offset: 0x1F4FC50
+    // Offset: 0x19E1634
     static bool GetConsoleScreenBufferInfo(System::IntPtr handle, System::ConsoleScreenBufferInfo& info);
     // static private System.Boolean ReadConsoleInput(System.IntPtr handle, out System.InputRecord record, System.Int32 length, out System.Int32 nread)
-    // Offset: 0x1F4FE68
+    // Offset: 0x19E184C
     static bool ReadConsoleInput(System::IntPtr handle, System::InputRecord& record, int length, int& nread);
     // public System.Void .ctor()
-    // Offset: 0x1F4FB68
+    // Offset: 0x19E154C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static WindowsConsoleDriver* New_ctor();
     // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0x1F4FCF0
+    // Offset: 0x19E16D4
     // Implemented from: System.IConsoleDriver
     // Base method: System.ConsoleKeyInfo IConsoleDriver::ReadKey(System.Boolean intercept)
     System::ConsoleKeyInfo ReadKey(bool intercept);

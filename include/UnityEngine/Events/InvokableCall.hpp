@@ -33,29 +33,29 @@ namespace UnityEngine::Events {
       return Delegate;
     }
     // private System.Void add_Delegate(UnityEngine.Events.UnityAction value)
-    // Offset: 0x1790774
+    // Offset: 0x16864A4
     void add_Delegate(UnityEngine::Events::UnityAction* value);
     // private System.Void remove_Delegate(UnityEngine.Events.UnityAction value)
-    // Offset: 0x1790818
+    // Offset: 0x1686548
     void remove_Delegate(UnityEngine::Events::UnityAction* value);
     // public System.Void .ctor(UnityEngine.Events.UnityAction action)
-    // Offset: 0x1790994
+    // Offset: 0x16866C4
     static InvokableCall* New_ctor(UnityEngine::Events::UnityAction* action);
     // public System.Void Invoke()
-    // Offset: 0x1790A04
+    // Offset: 0x1686734
     void Invoke();
     // public System.Void .ctor(System.Object target, System.Reflection.MethodInfo theFunction)
-    // Offset: 0x17908BC
+    // Offset: 0x16865EC
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Void BaseInvokableCall::.ctor(System.Object target, System.Reflection.MethodInfo theFunction)
     static InvokableCall* New_ctor(::Il2CppObject* target, System::Reflection::MethodInfo* theFunction);
     // public override System.Void Invoke(System.Object[] args)
-    // Offset: 0x17909C4
+    // Offset: 0x16866F4
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Void BaseInvokableCall::Invoke(System.Object[] args)
     void Invoke(::Array<::Il2CppObject*>* args);
     // public override System.Boolean Find(System.Object targetObj, System.Reflection.MethodInfo method)
-    // Offset: 0x1790A44
+    // Offset: 0x1686774
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Boolean BaseInvokableCall::Find(System.Object targetObj, System.Reflection.MethodInfo method)
     bool Find(::Il2CppObject* targetObj, System::Reflection::MethodInfo* method);

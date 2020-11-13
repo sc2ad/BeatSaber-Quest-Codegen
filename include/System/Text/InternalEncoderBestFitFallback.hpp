@@ -31,25 +31,25 @@ namespace System::Text {
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // System.Void .ctor(System.Text.Encoding encoding)
-    // Offset: 0x162FAB8
+    // Offset: 0x159E8B4
     static InternalEncoderBestFitFallback* New_ctor(System::Text::Encoding* encoding);
     // public override System.Text.EncoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x1636024
+    // Offset: 0x15A4E20
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Text.EncoderFallbackBuffer EncoderFallback::CreateFallbackBuffer()
     System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x16361A8
+    // Offset: 0x15A4FA4
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Int32 EncoderFallback::get_MaxCharCount()
     int get_MaxCharCount();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x16361B0
+    // Offset: 0x15A4FAC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1636284
+    // Offset: 0x15A5080
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

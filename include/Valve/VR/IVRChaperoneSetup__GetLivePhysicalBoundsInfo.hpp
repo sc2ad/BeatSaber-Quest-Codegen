@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRChaperoneSetup::_GetLivePhysicalBoundsInfo : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1B7CD88
+    // Offset: 0x18E0BA0
     static IVRChaperoneSetup::_GetLivePhysicalBoundsInfo* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(in Valve.VR.HmdQuad_t[] pQuadsBuffer, ref System.UInt32 punQuadsCount)
-    // Offset: 0x1B7CD9C
+    // Offset: 0x18E0BB4
     bool Invoke(::Array<Valve::VR::HmdQuad_t>*& pQuadsBuffer, uint& punQuadsCount);
     // public System.IAsyncResult BeginInvoke(in Valve.VR.HmdQuad_t[] pQuadsBuffer, ref System.UInt32 punQuadsCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1B7D014
+    // Offset: 0x18E0E2C
     System::IAsyncResult* BeginInvoke(::Array<Valve::VR::HmdQuad_t>*& pQuadsBuffer, uint& punQuadsCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref System.UInt32 punQuadsCount, System.IAsyncResult result)
-    // Offset: 0x1B7D0B0
+    // Offset: 0x18E0EC8
     bool EndInvoke(uint& punQuadsCount, System::IAsyncResult* result);
   }; // Valve.VR.IVRChaperoneSetup/_GetLivePhysicalBoundsInfo
 }

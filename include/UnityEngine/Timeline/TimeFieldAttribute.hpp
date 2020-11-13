@@ -56,10 +56,10 @@ namespace UnityEngine::Timeline {
       return useEditMode;
     }
     // public UnityEngine.Timeline.TimeFieldAttribute/UseEditMode get_useEditMode()
-    // Offset: 0x13FAEF8
+    // Offset: 0x1421878
     UnityEngine::Timeline::TimeFieldAttribute::UseEditMode get_useEditMode();
     // public System.Void .ctor(UnityEngine.Timeline.TimeFieldAttribute/UseEditMode useEditMode)
-    // Offset: 0x13FAF00
+    // Offset: 0x1421880
     static TimeFieldAttribute* New_ctor(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode useEditMode);
   }; // UnityEngine.Timeline.TimeFieldAttribute
 }

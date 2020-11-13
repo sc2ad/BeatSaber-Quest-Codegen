@@ -55,25 +55,25 @@ namespace UnityEngine::ProBuilder {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_isEditing()
-    // Offset: 0x1AE1C5C
+    // Offset: 0x1885B58
     bool get_isEditing();
     // public System.Void set_isEditing(System.Boolean value)
-    // Offset: 0x1AE1C64
+    // Offset: 0x1885B60
     void set_isEditing(bool value);
     // public UnityEngine.ProBuilder.ProBuilderMesh get_mesh()
-    // Offset: 0x1AE1C70
+    // Offset: 0x1885B6C
     UnityEngine::ProBuilder::ProBuilderMesh* get_mesh();
     // public System.Void set_mesh(UnityEngine.ProBuilder.ProBuilderMesh value)
-    // Offset: 0x1AE1D1C
+    // Offset: 0x1885C18
     void set_mesh(UnityEngine::ProBuilder::ProBuilderMesh* value);
     // public System.Void Init()
-    // Offset: 0x1AE1D24
+    // Offset: 0x1885C20
     void Init();
     // public System.Void Refresh()
-    // Offset: 0x1AE1F58
+    // Offset: 0x1885E54
     void Refresh();
     // public System.Void .ctor()
-    // Offset: 0x1AE2028
+    // Offset: 0x1885F24
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

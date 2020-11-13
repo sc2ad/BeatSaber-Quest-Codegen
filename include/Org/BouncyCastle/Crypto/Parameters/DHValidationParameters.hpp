@@ -18,18 +18,18 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x18
     int counter;
     // public System.Void .ctor(System.Byte[] seed, System.Int32 counter)
-    // Offset: 0xF486F4
+    // Offset: 0x1044100
     static DHValidationParameters* New_ctor(::Array<uint8_t>* seed, int counter);
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.DHValidationParameters other)
-    // Offset: 0xF48890
+    // Offset: 0x104429C
     bool Equals(Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF487E0
+    // Offset: 0x10441EC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF4893C
+    // Offset: 0x1044348
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

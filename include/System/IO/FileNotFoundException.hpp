@@ -31,16 +31,16 @@ namespace System::IO {
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // public System.Void .ctor(System.String message, System.String fileName)
-    // Offset: 0x144CFD8
+    // Offset: 0x14373E4
     static FileNotFoundException* New_ctor(::Il2CppString* message, ::Il2CppString* fileName);
     // private System.Void SetMessageField()
-    // Offset: 0x144EC74
+    // Offset: 0x1439080
     void SetMessageField();
     // public System.String get_FusionLog()
-    // Offset: 0x144F134
+    // Offset: 0x1439540
     ::Il2CppString* get_FusionLog();
     // public System.Void .ctor()
-    // Offset: 0x144EB80
+    // Offset: 0x1438F8C
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -48,31 +48,31 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     static FileNotFoundException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x144EC08
+    // Offset: 0x1439014
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static FileNotFoundException* New_ctor(::Il2CppString* message);
     // public override System.String get_Message()
-    // Offset: 0x144EC50
+    // Offset: 0x143905C
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
     ::Il2CppString* get_Message();
     // public override System.String ToString()
-    // Offset: 0x144ED10
+    // Offset: 0x143911C
     // Implemented from: System.Exception
     // Base method: System.String Exception::ToString()
     ::Il2CppString* ToString();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x144EFDC
+    // Offset: 0x14393E8
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static FileNotFoundException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x144F13C
+    // Offset: 0x1439548
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

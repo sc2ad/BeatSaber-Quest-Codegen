@@ -36,16 +36,16 @@ namespace System::Net::Security {
   class RemoteCertificateValidationCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x10CBBFC
+    // Offset: 0x11A152C
     static RemoteCertificateValidationCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Object sender, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors)
-    // Offset: 0x10CBC10
+    // Offset: 0x11A1540
     bool Invoke(::Il2CppObject* sender, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Security::Cryptography::X509Certificates::X509Chain* chain, System::Net::Security::SslPolicyErrors sslPolicyErrors);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x10CC068
+    // Offset: 0x11A1998
     System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Security::Cryptography::X509Certificates::X509Chain* chain, System::Net::Security::SslPolicyErrors sslPolicyErrors, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x10CC118
+    // Offset: 0x11A1A48
     bool EndInvoke(System::IAsyncResult* result);
   }; // System.Net.Security.RemoteCertificateValidationCallback
 }

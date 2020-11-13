@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRApplications::_AddApplicationManifest : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1158A94
+    // Offset: 0x11F9754
     static IVRApplications::_AddApplicationManifest* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRApplicationError Invoke(System.String pchApplicationManifestFullPath, System.Boolean bTemporary)
-    // Offset: 0x1147EA8
+    // Offset: 0x11E8B68
     OVR::OpenVR::EVRApplicationError Invoke(::Il2CppString* pchApplicationManifestFullPath, bool bTemporary);
     // public System.IAsyncResult BeginInvoke(System.String pchApplicationManifestFullPath, System.Boolean bTemporary, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1158AA8
+    // Offset: 0x11F9768
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchApplicationManifestFullPath, bool bTemporary, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRApplicationError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1158B48
+    // Offset: 0x11F9808
     OVR::OpenVR::EVRApplicationError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRApplications/_AddApplicationManifest
 }

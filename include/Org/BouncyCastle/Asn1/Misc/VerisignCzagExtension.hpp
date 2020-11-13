@@ -14,10 +14,10 @@ namespace Org::BouncyCastle::Asn1::Misc {
   class VerisignCzagExtension : public Org::BouncyCastle::Asn1::DerIA5String {
     public:
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerIA5String str)
-    // Offset: 0x14049B4
+    // Offset: 0x13F68AC
     static VerisignCzagExtension* New_ctor(Org::BouncyCastle::Asn1::DerIA5String* str);
     // public override System.String ToString()
-    // Offset: 0x14049F8
+    // Offset: 0x13F68F0
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::ToString()
     ::Il2CppString* ToString();

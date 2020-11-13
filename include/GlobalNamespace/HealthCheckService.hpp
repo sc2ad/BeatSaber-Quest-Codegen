@@ -18,6 +18,11 @@ namespace System::Threading {
   // Forward declaring type: ManualResetEvent
   class ManualResetEvent;
 }
+// Forward declaring namespace: System::Net
+namespace System::Net {
+  // Forward declaring type: HttpListener
+  class HttpListener;
+}
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -30,9 +35,15 @@ namespace GlobalNamespace {
     // private readonly System.Threading.Thread _runThread
     // Offset: 0x18
     System::Threading::Thread* runThread;
-    // private System.Threading.ManualResetEvent _manualResetEvent
+    // private System.Boolean _disposed
     // Offset: 0x20
+    bool disposed;
+    // private System.Threading.ManualResetEvent _manualResetEvent
+    // Offset: 0x28
     System::Threading::ManualResetEvent* manualResetEvent;
+    // private System.Net.HttpListener _listener
+    // Offset: 0x30
+    System::Net::HttpListener* listener;
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -44,16 +55,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kTimeoutLengthMs
     static void _set_kTimeoutLengthMs(int value);
     // public System.Void .ctor(System.Int32 port)
-    // Offset: 0x2160060
+    // Offset: 0x1B4E280
     static HealthCheckService* New_ctor(int port);
     // public System.Void PollUpdate()
-    // Offset: 0x2160174
+    // Offset: 0x1B4E450
     void PollUpdate();
     // private System.Void Run()
-    // Offset: 0x216023C
+    // Offset: 0x1B4E518
     void Run();
     // public System.Void Dispose()
-    // Offset: 0x2160158
+    // Offset: 0x1B4E378
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

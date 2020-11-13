@@ -23,27 +23,27 @@ namespace NUnit::Framework::Internal {
   class TestFilter::EmptyFilter : public NUnit::Framework::Internal::TestFilter {
     public:
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1ECDB24
+    // Offset: 0x195CB58
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Boolean TestFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(NUnit::Framework::Interfaces::ITest* test);
     // public override System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1ECDB2C
+    // Offset: 0x195CB60
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Boolean TestFilter::Pass(NUnit.Framework.Interfaces.ITest test)
     bool Pass(NUnit::Framework::Interfaces::ITest* test);
     // public override System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1ECDB34
+    // Offset: 0x195CB68
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Boolean TestFilter::IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
     bool IsExplicitMatch(NUnit::Framework::Interfaces::ITest* test);
     // public override NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x1ECDB3C
+    // Offset: 0x195CB70
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: NUnit.Framework.Interfaces.TNode TestFilter::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
     // public System.Void .ctor()
-    // Offset: 0x1ECDABC
+    // Offset: 0x195CAF0
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Void TestFilter::.ctor()
     // Base method: System.Void Object::.ctor()

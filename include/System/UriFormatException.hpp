@@ -23,7 +23,7 @@ namespace System {
   class UriFormatException : public System::FormatException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1F43780
+    // Offset: 0x19D5164
     // Implemented from: System.FormatException
     // Base method: System.Void FormatException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -31,21 +31,21 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static UriFormatException* New_ctor();
     // public System.Void .ctor(System.String textString)
-    // Offset: 0x1F43674
+    // Offset: 0x19D5058
     // Implemented from: System.FormatException
     // Base method: System.Void FormatException::.ctor(System.String textString)
     // Base method: System.Void SystemException::.ctor(System.String textString)
     // Base method: System.Void Exception::.ctor(System.String textString)
     static UriFormatException* New_ctor(::Il2CppString* textString);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1F43788
+    // Offset: 0x19D516C
     // Implemented from: System.FormatException
     // Base method: System.Void FormatException::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     static UriFormatException* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1F43790
+    // Offset: 0x19D5174
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);

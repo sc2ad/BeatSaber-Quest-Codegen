@@ -22,7 +22,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Il2CppString* message;
     // public System.Void .ctor()
-    // Offset: 0x1FC20B8
+    // Offset: 0x1A717C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MasterServerAvailabilityData::UserMessage::LocalizedMessage* New_ctor();

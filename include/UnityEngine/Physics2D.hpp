@@ -40,61 +40,61 @@ namespace UnityEngine {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.Rigidbody2D> m_LastDisabledRigidbody2D
     static void _set_m_LastDisabledRigidbody2D(System::Collections::Generic::List_1<UnityEngine::Rigidbody2D*>* value);
     // static public UnityEngine.PhysicsScene2D get_defaultPhysicsScene()
-    // Offset: 0x1F71650
+    // Offset: 0x1A0098C
     static UnityEngine::PhysicsScene2D get_defaultPhysicsScene();
     // static public System.Boolean get_queriesHitTriggers()
-    // Offset: 0x1F7161C
+    // Offset: 0x1A00958
     static bool get_queriesHitTriggers();
     // static public UnityEngine.RaycastHit2D Raycast(UnityEngine.Vector2 origin, UnityEngine.Vector2 direction)
-    // Offset: 0x1F71658
+    // Offset: 0x1A00994
     static UnityEngine::RaycastHit2D Raycast(UnityEngine::Vector2 origin, UnityEngine::Vector2 direction);
     // static public UnityEngine.RaycastHit2D Raycast(UnityEngine.Vector2 origin, UnityEngine.Vector2 direction, System.Single distance)
-    // Offset: 0x1F71800
+    // Offset: 0x1A00B3C
     static UnityEngine::RaycastHit2D Raycast(UnityEngine::Vector2 origin, UnityEngine::Vector2 direction, float distance);
     // static public UnityEngine.RaycastHit2D Raycast(UnityEngine.Vector2 origin, UnityEngine.Vector2 direction, System.Single distance, System.Int32 layerMask)
-    // Offset: 0x1F718E4
+    // Offset: 0x1A00C20
     static UnityEngine::RaycastHit2D Raycast(UnityEngine::Vector2 origin, UnityEngine::Vector2 direction, float distance, int layerMask);
     // static public UnityEngine.RaycastHit2D Raycast(UnityEngine.Vector2 origin, UnityEngine.Vector2 direction, System.Single distance, System.Int32 layerMask, System.Single minDepth)
-    // Offset: 0x1F71A8C
+    // Offset: 0x1A00DC8
     static UnityEngine::RaycastHit2D Raycast(UnityEngine::Vector2 origin, UnityEngine::Vector2 direction, float distance, int layerMask, float minDepth);
     // static public UnityEngine.RaycastHit2D Raycast(UnityEngine.Vector2 origin, UnityEngine.Vector2 direction, System.Single distance, System.Int32 layerMask, System.Single minDepth, System.Single maxDepth)
-    // Offset: 0x1F71BCC
+    // Offset: 0x1A00F08
     static UnityEngine::RaycastHit2D Raycast(UnityEngine::Vector2 origin, UnityEngine::Vector2 direction, float distance, int layerMask, float minDepth, float maxDepth);
     // static public System.Int32 Raycast(UnityEngine.Vector2 origin, UnityEngine.Vector2 direction, UnityEngine.ContactFilter2D contactFilter, UnityEngine.RaycastHit2D[] results)
-    // Offset: 0x1F71D14
+    // Offset: 0x1A01050
     static int Raycast(UnityEngine::Vector2 origin, UnityEngine::Vector2 direction, UnityEngine::ContactFilter2D contactFilter, ::Array<UnityEngine::RaycastHit2D>* results);
     // static public System.Int32 Raycast(UnityEngine.Vector2 origin, UnityEngine.Vector2 direction, UnityEngine.ContactFilter2D contactFilter, UnityEngine.RaycastHit2D[] results, System.Single distance)
-    // Offset: 0x1F71E14
+    // Offset: 0x1A01150
     static int Raycast(UnityEngine::Vector2 origin, UnityEngine::Vector2 direction, UnityEngine::ContactFilter2D contactFilter, ::Array<UnityEngine::RaycastHit2D>* results, float distance);
     // static public System.Int32 Raycast(UnityEngine.Vector2 origin, UnityEngine.Vector2 direction, UnityEngine.ContactFilter2D contactFilter, System.Collections.Generic.List`1<UnityEngine.RaycastHit2D> results, System.Single distance)
-    // Offset: 0x1F71EE8
+    // Offset: 0x1A01224
     static int Raycast(UnityEngine::Vector2 origin, UnityEngine::Vector2 direction, UnityEngine::ContactFilter2D contactFilter, System::Collections::Generic::List_1<UnityEngine::RaycastHit2D>* results, float distance);
     // static public UnityEngine.RaycastHit2D[] GetRayIntersectionAll(UnityEngine.Ray ray)
-    // Offset: 0x1F71FF0
+    // Offset: 0x1A0132C
     static ::Array<UnityEngine::RaycastHit2D>* GetRayIntersectionAll(UnityEngine::Ray ray);
     // static public UnityEngine.RaycastHit2D[] GetRayIntersectionAll(UnityEngine.Ray ray, System.Single distance)
-    // Offset: 0x1F7216C
+    // Offset: 0x1A014A8
     static ::Array<UnityEngine::RaycastHit2D>* GetRayIntersectionAll(UnityEngine::Ray ray, float distance);
     // static public UnityEngine.RaycastHit2D[] GetRayIntersectionAll(UnityEngine.Ray ray, System.Single distance, System.Int32 layerMask)
-    // Offset: 0x1F72228
+    // Offset: 0x1A01564
     static ::Array<UnityEngine::RaycastHit2D>* GetRayIntersectionAll(UnityEngine::Ray ray, float distance, int layerMask);
     // static private UnityEngine.RaycastHit2D[] GetRayIntersectionAll_Internal(UnityEngine.PhysicsScene2D physicsScene, UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, System.Single distance, System.Int32 layerMask)
-    // Offset: 0x1F720AC
+    // Offset: 0x1A013E8
     static ::Array<UnityEngine::RaycastHit2D>* GetRayIntersectionAll_Internal(UnityEngine::PhysicsScene2D physicsScene, UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, float distance, int layerMask);
     // static public System.Int32 GetRayIntersectionNonAlloc(UnityEngine.Ray ray, UnityEngine.RaycastHit2D[] results)
-    // Offset: 0x1F72368
+    // Offset: 0x1A016A4
     static int GetRayIntersectionNonAlloc(UnityEngine::Ray ray, ::Array<UnityEngine::RaycastHit2D>* results);
     // static public System.Int32 GetRayIntersectionNonAlloc(UnityEngine.Ray ray, UnityEngine.RaycastHit2D[] results, System.Single distance)
-    // Offset: 0x1F724A0
+    // Offset: 0x1A017DC
     static int GetRayIntersectionNonAlloc(UnityEngine::Ray ray, ::Array<UnityEngine::RaycastHit2D>* results, float distance);
     // static public System.Int32 GetRayIntersectionNonAlloc(UnityEngine.Ray ray, UnityEngine.RaycastHit2D[] results, System.Single distance, System.Int32 layerMask)
-    // Offset: 0x1F72550
+    // Offset: 0x1A0188C
     static int GetRayIntersectionNonAlloc(UnityEngine::Ray ray, ::Array<UnityEngine::RaycastHit2D>* results, float distance, int layerMask);
     // static private System.Void .cctor()
-    // Offset: 0x1F72604
+    // Offset: 0x1A01940
     static void _cctor();
     // static private UnityEngine.RaycastHit2D[] GetRayIntersectionAll_Internal_Injected(ref UnityEngine.PhysicsScene2D physicsScene, ref UnityEngine.Vector3 origin, ref UnityEngine.Vector3 direction, System.Single distance, System.Int32 layerMask)
-    // Offset: 0x1F722F0
+    // Offset: 0x1A0162C
     static ::Array<UnityEngine::RaycastHit2D>* GetRayIntersectionAll_Internal_Injected(UnityEngine::PhysicsScene2D& physicsScene, UnityEngine::Vector3& origin, UnityEngine::Vector3& direction, float distance, int layerMask);
   }; // UnityEngine.Physics2D
 }

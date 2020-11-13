@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRScreenshots::_UpdateScreenshotProgress : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C8C218
+    // Offset: 0x190A3F0
     static IVRScreenshots::_UpdateScreenshotProgress* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRScreenshotError Invoke(System.UInt32 screenshotHandle, System.Single flProgress)
-    // Offset: 0x1C8C22C
+    // Offset: 0x190A404
     OVR::OpenVR::EVRScreenshotError Invoke(uint screenshotHandle, float flProgress);
     // public System.IAsyncResult BeginInvoke(System.UInt32 screenshotHandle, System.Single flProgress, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C8C4C0
+    // Offset: 0x190A698
     System::IAsyncResult* BeginInvoke(uint screenshotHandle, float flProgress, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRScreenshotError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C8C56C
+    // Offset: 0x190A744
     OVR::OpenVR::EVRScreenshotError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRScreenshots/_UpdateScreenshotProgress
 }

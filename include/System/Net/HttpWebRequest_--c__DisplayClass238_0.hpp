@@ -29,10 +29,10 @@ namespace System::Net {
     // Offset: 0x18
     System::Net::HttpWebRequest* $$4__this;
     // System.Void <BeginGetResponse>b__0(System.Net.SimpleAsyncResult inner)
-    // Offset: 0x1245858
+    // Offset: 0x12BA954
     void $BeginGetResponse$b__0(System::Net::SimpleAsyncResult* inner);
     // public System.Void .ctor()
-    // Offset: 0x1241AB4
+    // Offset: 0x12B6BB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HttpWebRequest::$$c__DisplayClass238_0* New_ctor();

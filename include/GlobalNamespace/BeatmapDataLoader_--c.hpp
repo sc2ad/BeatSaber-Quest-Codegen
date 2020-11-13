@@ -31,21 +31,28 @@ namespace GlobalNamespace {
     static System::Comparison_1<GlobalNamespace::BeatmapSaveData::NoteData*>* _get_$$9__2_0();
     // Set static field: static public System.Comparison`1<BeatmapSaveData/NoteData> <>9__2_0
     static void _set_$$9__2_0(System::Comparison_1<GlobalNamespace::BeatmapSaveData::NoteData*>* value);
-    // Get static field: static public System.Comparison`1<BeatmapSaveData/ObstacleData> <>9__2_1
-    static System::Comparison_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* _get_$$9__2_1();
-    // Set static field: static public System.Comparison`1<BeatmapSaveData/ObstacleData> <>9__2_1
-    static void _set_$$9__2_1(System::Comparison_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* value);
+    // Get static field: static public System.Comparison`1<BeatmapSaveData/WaypointData> <>9__2_1
+    static System::Comparison_1<GlobalNamespace::BeatmapSaveData::WaypointData*>* _get_$$9__2_1();
+    // Set static field: static public System.Comparison`1<BeatmapSaveData/WaypointData> <>9__2_1
+    static void _set_$$9__2_1(System::Comparison_1<GlobalNamespace::BeatmapSaveData::WaypointData*>* value);
+    // Get static field: static public System.Comparison`1<BeatmapSaveData/ObstacleData> <>9__2_2
+    static System::Comparison_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* _get_$$9__2_2();
+    // Set static field: static public System.Comparison`1<BeatmapSaveData/ObstacleData> <>9__2_2
+    static void _set_$$9__2_2(System::Comparison_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x20C80B0
+    // Offset: 0x1A80424
     static void _cctor();
     // System.Int32 <GetBeatmapDataFromBeatmapSaveData>b__2_0(BeatmapSaveData/NoteData x, BeatmapSaveData/NoteData y)
-    // Offset: 0x20C8120
+    // Offset: 0x1A80494
     int $GetBeatmapDataFromBeatmapSaveData$b__2_0(GlobalNamespace::BeatmapSaveData::NoteData* x, GlobalNamespace::BeatmapSaveData::NoteData* y);
-    // System.Int32 <GetBeatmapDataFromBeatmapSaveData>b__2_1(BeatmapSaveData/ObstacleData x, BeatmapSaveData/ObstacleData y)
-    // Offset: 0x20C8150
-    int $GetBeatmapDataFromBeatmapSaveData$b__2_1(GlobalNamespace::BeatmapSaveData::ObstacleData* x, GlobalNamespace::BeatmapSaveData::ObstacleData* y);
+    // System.Int32 <GetBeatmapDataFromBeatmapSaveData>b__2_1(BeatmapSaveData/WaypointData x, BeatmapSaveData/WaypointData y)
+    // Offset: 0x1A804C4
+    int $GetBeatmapDataFromBeatmapSaveData$b__2_1(GlobalNamespace::BeatmapSaveData::WaypointData* x, GlobalNamespace::BeatmapSaveData::WaypointData* y);
+    // System.Int32 <GetBeatmapDataFromBeatmapSaveData>b__2_2(BeatmapSaveData/ObstacleData x, BeatmapSaveData/ObstacleData y)
+    // Offset: 0x1A804F4
+    int $GetBeatmapDataFromBeatmapSaveData$b__2_2(GlobalNamespace::BeatmapSaveData::ObstacleData* x, GlobalNamespace::BeatmapSaveData::ObstacleData* y);
     // public System.Void .ctor()
-    // Offset: 0x20C8118
+    // Offset: 0x1A8048C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapDataLoader::$$c* New_ctor();

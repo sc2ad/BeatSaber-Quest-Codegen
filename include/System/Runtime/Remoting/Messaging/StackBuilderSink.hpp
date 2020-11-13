@@ -43,24 +43,24 @@ namespace System::Runtime::Remoting::Messaging {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMessageSink*>(this);
     }
     // public System.Void .ctor(System.MarshalByRefObject obj, System.Boolean forceInternalExecute)
-    // Offset: 0x12CF9F0
+    // Offset: 0x132F1DC
     static StackBuilderSink* New_ctor(System::MarshalByRefObject* obj, bool forceInternalExecute);
     // private System.Void ExecuteAsyncMessage(System.Object ob)
-    // Offset: 0x12D0B38
+    // Offset: 0x1330324
     void ExecuteAsyncMessage(::Il2CppObject* ob);
     // private System.Void CheckParameters(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x12CFB5C
+    // Offset: 0x132F348
     void CheckParameters(System::Runtime::Remoting::Messaging::IMessage* msg);
     // private System.Void <AsyncProcessMessage>b__4_0(System.Object data)
-    // Offset: 0x12D0D38
+    // Offset: 0x1330524
     void $AsyncProcessMessage$b__4_0(::Il2CppObject* data);
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x12CFA84
+    // Offset: 0x132F270
     // Implemented from: System.Runtime.Remoting.Messaging.IMessageSink
     // Base method: System.Runtime.Remoting.Messaging.IMessage IMessageSink::SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
     System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // public System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x12D0A0C
+    // Offset: 0x13301F8
     // Implemented from: System.Runtime.Remoting.Messaging.IMessageSink
     // Base method: System.Runtime.Remoting.Messaging.IMessageCtrl IMessageSink::AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);

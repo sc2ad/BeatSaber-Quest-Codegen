@@ -137,58 +137,58 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void StartStandardLevel(System.String gameMode, IDifficultyBeatmap difficultyBeatmap, OverrideEnvironmentSettings overrideEnvironmentSettings, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.String backButtonText, System.Boolean useTestNoteCutSoundEffects, System.Action beforeSceneSwitchCallback, System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> levelFinishedCallback)
-    // Offset: 0x1FC3828
+    // Offset: 0x1A72E44
     void StartStandardLevel(::Il2CppString* gameMode, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::PracticeSettings* practiceSettings, ::Il2CppString* backButtonText, bool useTestNoteCutSoundEffects, System::Action* beforeSceneSwitchCallback, System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback);
     // public System.Void StartStandardLevel(System.String gameMode, IDifficultyBeatmap difficultyBeatmap, OverrideEnvironmentSettings overrideEnvironmentSettings, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.String backButtonText, System.Boolean useTestNoteCutSoundEffects, System.Action beforeSceneSwitchCallback, System.Action`1<Zenject.DiContainer> afterSceneSwitchCallback, System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> levelFinishedCallback)
-    // Offset: 0x1FC3864
+    // Offset: 0x1A72E80
     void StartStandardLevel(::Il2CppString* gameMode, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::PracticeSettings* practiceSettings, ::Il2CppString* backButtonText, bool useTestNoteCutSoundEffects, System::Action* beforeSceneSwitchCallback, System::Action_1<Zenject::DiContainer*>* afterSceneSwitchCallback, System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback);
     // public System.Void StartMissionLevel(System.String missionId, IDifficultyBeatmap difficultyBeatmap, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, MissionObjective[] missionObjectives, PlayerSpecificSettings playerSpecificSettings, System.Action beforeSceneSwitchCallback, System.Action`2<MissionLevelScenesTransitionSetupDataSO,MissionCompletionResults> levelFinishedCallback)
-    // Offset: 0x1FC39D8
+    // Offset: 0x1A72FF4
     void StartMissionLevel(::Il2CppString* missionId, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, ::Array<GlobalNamespace::MissionObjective*>* missionObjectives, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, System::Action* beforeSceneSwitchCallback, System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* levelFinishedCallback);
     // public System.Void StartMultiplayerLevel(System.String gameMode, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, IDifficultyBeatmap difficultyBeatmap, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.String backButtonText, System.Boolean useTestNoteCutSoundEffects, System.Action beforeSceneSwitchCallback, System.Action`3<MultiplayerLevelScenesTransitionSetupDataSO,LevelCompletionResults,System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults>> levelFinishedCallback, System.Action`1<DisconnectedReason> didDisconnectCallback)
-    // Offset: 0x1FC41D0
+    // Offset: 0x1A7316C
     void StartMultiplayerLevel(::Il2CppString* gameMode, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::PracticeSettings* practiceSettings, ::Il2CppString* backButtonText, bool useTestNoteCutSoundEffects, System::Action* beforeSceneSwitchCallback, System::Action_3<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>*>* levelFinishedCallback, System::Action_1<GlobalNamespace::DisconnectedReason>* didDisconnectCallback);
     // private System.Void StartMultiplayerLevel(System.String gameMode, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, IDifficultyBeatmap difficultyBeatmap, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.String backButtonText, System.Boolean useTestNoteCutSoundEffects, System.Action beforeSceneSwitchCallback, System.Action`1<Zenject.DiContainer> afterSceneSwitchCallback, System.Action`3<MultiplayerLevelScenesTransitionSetupDataSO,LevelCompletionResults,System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults>> levelFinishedCallback, System.Action`1<DisconnectedReason> didDisconnectCallback)
-    // Offset: 0x1FC4210
+    // Offset: 0x1A731AC
     void StartMultiplayerLevel(::Il2CppString* gameMode, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::PracticeSettings* practiceSettings, ::Il2CppString* backButtonText, bool useTestNoteCutSoundEffects, System::Action* beforeSceneSwitchCallback, System::Action_1<Zenject::DiContainer*>* afterSceneSwitchCallback, System::Action_3<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>*>* levelFinishedCallback, System::Action_1<GlobalNamespace::DisconnectedReason>* didDisconnectCallback);
     // public System.Void StartTutorial(System.Action beforeSceneSwitchCallback)
-    // Offset: 0x1FC4418
+    // Offset: 0x1A6D5B8
     void StartTutorial(System::Action* beforeSceneSwitchCallback);
     // public System.Void ShowCredits()
-    // Offset: 0x1FC4528
+    // Offset: 0x1A6D6C8
     void ShowCredits();
     // public System.Void StartBeatmapEditor(System.Action beatmapEditorFinishedCallback)
-    // Offset: 0x1FC462C
+    // Offset: 0x1A6D330
     void StartBeatmapEditor(System::Action* beatmapEditorFinishedCallback);
     // public System.Void RestartGame()
-    // Offset: 0x1FC4744
+    // Offset: 0x1A6D904
     void RestartGame();
     // private System.Void HandleMainGameSceneDidFinish(StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x1FC47A8
+    // Offset: 0x1A733B4
     void HandleMainGameSceneDidFinish(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // private System.Void HandleMultiplayerLevelDidFinish(MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData, LevelCompletionResults levelCompletionResults, System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults> otherPlayersCompletionResults)
-    // Offset: 0x1FC4920
+    // Offset: 0x1A7352C
     void HandleMultiplayerLevelDidFinish(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData, GlobalNamespace::LevelCompletionResults* levelCompletionResults, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>* otherPlayersCompletionResults);
     // private System.Void HandleMultiplayerLevelDidDisconnect(MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData, DisconnectedReason disconnectedReason)
-    // Offset: 0x1FC4AF8
+    // Offset: 0x1A73704
     void HandleMultiplayerLevelDidDisconnect(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData, GlobalNamespace::DisconnectedReason disconnectedReason);
     // private System.Void HandleMissionLevelSceneDidFinish(MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData, MissionCompletionResults missionCompletionResults)
-    // Offset: 0x1FC4C74
+    // Offset: 0x1A73880
     void HandleMissionLevelSceneDidFinish(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData, GlobalNamespace::MissionCompletionResults* missionCompletionResults);
     // private System.Void HandleTutorialSceneDidFinish(TutorialScenesTransitionSetupDataSO tutorialSceneTransitionSetupData, TutorialScenesTransitionSetupDataSO/TutorialEndStateType endState)
-    // Offset: 0x1FC4DEC
+    // Offset: 0x1A739FC
     void HandleTutorialSceneDidFinish(GlobalNamespace::TutorialScenesTransitionSetupDataSO* tutorialSceneTransitionSetupData, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType endState);
     // private System.Void HandleCreditsSceneDidFinish(CreditsScenesTransitionSetupDataSO creditsSceneTransitionSetupData)
-    // Offset: 0x1FC4F28
+    // Offset: 0x1A73B38
     void HandleCreditsSceneDidFinish(GlobalNamespace::CreditsScenesTransitionSetupDataSO* creditsSceneTransitionSetupData);
     // private System.Void HandleBeatmapEditorSceneDidFinish(BeatmapEditorScenesTransitionSetupDataSO beatmapEditorScenesTransitionSetupData)
-    // Offset: 0x1FC4FDC
+    // Offset: 0x1A73BEC
     void HandleBeatmapEditorSceneDidFinish(GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO* beatmapEditorScenesTransitionSetupData);
     // private System.Void <HandleBeatmapEditorSceneDidFinish>b__28_0(Zenject.DiContainer container)
-    // Offset: 0x1FC50D0
+    // Offset: 0x1A73CE0
     void $HandleBeatmapEditorSceneDidFinish$b__28_0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x1FC50C8
+    // Offset: 0x1A73CD8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

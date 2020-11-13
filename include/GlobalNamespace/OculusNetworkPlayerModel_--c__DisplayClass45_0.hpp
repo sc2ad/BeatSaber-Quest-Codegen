@@ -39,10 +39,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Threading::Tasks::TaskCompletionSource_1<::Il2CppString*>* tcs;
     // System.Void <GetUserNameAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.User> result)
-    // Offset: 0x2106350
+    // Offset: 0x100CB24
     void $GetUserNameAsync$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::User*>* result);
     // public System.Void .ctor()
-    // Offset: 0x21054D8
+    // Offset: 0x100BB78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusNetworkPlayerModel::$$c__DisplayClass45_0* New_ctor();

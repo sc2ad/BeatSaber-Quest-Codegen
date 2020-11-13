@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     float timeScale;
     // public System.Void .ctor(UnityEngine.AudioClip audioClip, System.Single startSongTime, System.Single songTimeOffset, System.Single timeScale)
-    // Offset: 0x204DBFC
+    // Offset: 0xF72684
     static MultiplayerLocalInactivePlayerSongSyncController::InitData* New_ctor(UnityEngine::AudioClip* audioClip, float startSongTime, float songTimeOffset, float timeScale);
   }; // MultiplayerLocalInactivePlayerSongSyncController/InitData
 }

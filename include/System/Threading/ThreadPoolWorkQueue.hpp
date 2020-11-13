@@ -41,31 +41,31 @@ namespace System::Threading {
     // Set static field: static System.Threading.ThreadPoolWorkQueue/SparseArray`1<System.Threading.ThreadPoolWorkQueue/WorkStealingQueue> allThreadQueues
     static void _set_allThreadQueues(System::Threading::ThreadPoolWorkQueue::SparseArray_1<System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*>* value);
     // public System.Threading.ThreadPoolWorkQueueThreadLocals EnsureCurrentThreadHasQueue()
-    // Offset: 0x14A3720
+    // Offset: 0x1D1BFAC
     System::Threading::ThreadPoolWorkQueueThreadLocals* EnsureCurrentThreadHasQueue();
     // System.Void EnsureThreadRequested()
-    // Offset: 0x14A38D0
+    // Offset: 0x1D1C15C
     void EnsureThreadRequested();
     // System.Void MarkThreadRequestSatisfied()
-    // Offset: 0x14A3988
+    // Offset: 0x1D1C214
     void MarkThreadRequestSatisfied();
     // public System.Void Enqueue(System.Threading.IThreadPoolWorkItem callback, System.Boolean forceGlobal)
-    // Offset: 0x14A33C8
+    // Offset: 0x1D1BC54
     void Enqueue(System::Threading::IThreadPoolWorkItem* callback, bool forceGlobal);
     // System.Boolean LocalFindAndPop(System.Threading.IThreadPoolWorkItem callback)
-    // Offset: 0x14A34F4
+    // Offset: 0x1D1BD80
     bool LocalFindAndPop(System::Threading::IThreadPoolWorkItem* callback);
     // public System.Void Dequeue(System.Threading.ThreadPoolWorkQueueThreadLocals tl, out System.Threading.IThreadPoolWorkItem callback, out System.Boolean missedSteal)
-    // Offset: 0x14A4210
+    // Offset: 0x1D1CA9C
     void Dequeue(System::Threading::ThreadPoolWorkQueueThreadLocals* tl, System::Threading::IThreadPoolWorkItem*& callback, bool& missedSteal);
     // static System.Boolean Dispatch()
-    // Offset: 0x14A4858
+    // Offset: 0x1D1D0E4
     static bool Dispatch();
     // static private System.Void .cctor()
-    // Offset: 0x14A4E80
+    // Offset: 0x1D1D70C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x14A362C
+    // Offset: 0x1D1BEB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ThreadPoolWorkQueue* New_ctor();

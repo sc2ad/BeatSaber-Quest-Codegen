@@ -48,13 +48,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Setup(GameServersFilter filter)
-    // Offset: 0x2004E18
+    // Offset: 0x1A1F004
     void Setup(GlobalNamespace::GameServersFilter* filter);
     // public System.Void Setup(BeatmapDifficultyMask beatmapDifficultyMask, SongPackMask songPackMask)
-    // Offset: 0x2004FC8
+    // Offset: 0x1A1F1B4
     void Setup(GlobalNamespace::BeatmapDifficultyMask beatmapDifficultyMask, GlobalNamespace::SongPackMask songPackMask);
     // public System.Void .ctor()
-    // Offset: 0x2005150
+    // Offset: 0x1A1F33C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

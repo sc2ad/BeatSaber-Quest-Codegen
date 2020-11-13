@@ -36,42 +36,42 @@ namespace GlobalNamespace {
     // Offset: 0x110
     GlobalNamespace::GameplayServerFiniteStateMachine* fsm;
     // public System.Void add_onJoin(System.Action value)
-    // Offset: 0x2055164
+    // Offset: 0x1022A54
     void add_onJoin(System::Action* value);
     // public System.Void remove_onJoin(System.Action value)
-    // Offset: 0x20556E0
+    // Offset: 0x1022FD0
     void remove_onJoin(System::Action* value);
     // public System.Void SetConfiguration(GameplayServerConfiguration configuration)
-    // Offset: 0x2058A84
+    // Offset: 0x10263C4
     void SetConfiguration(GlobalNamespace::GameplayServerConfiguration configuration);
     // public override System.Boolean get_canJoin()
-    // Offset: 0x205B898
+    // Offset: 0x102902C
     // Implemented from: MockPlayer
     // Base method: System.Boolean MockPlayer::get_canJoin()
     bool get_canJoin();
     // public System.Void .ctor()
-    // Offset: 0x205B8A0
+    // Offset: 0x1029034
     // Implemented from: MockPlayer
     // Base method: System.Void MockPlayer::.ctor()
     // Base method: System.Void Object::.ctor()
     static MockServer* New_ctor();
     // public override System.Void Join()
-    // Offset: 0x205B8E4
+    // Offset: 0x1029078
     // Implemented from: MockPlayer
     // Base method: System.Void MockPlayer::Join()
     void Join();
     // public override System.Void Join(System.String password)
-    // Offset: 0x205B8F8
+    // Offset: 0x102908C
     // Implemented from: MockPlayer
     // Base method: System.Void MockPlayer::Join(System.String password)
     void Join(::Il2CppString* password);
     // public override System.Void Connect(MockMultiplayerSessionManager multiplayerSessionManager)
-    // Offset: 0x205B90C
+    // Offset: 0x10290A0
     // Implemented from: MockPlayer
     // Base method: System.Void MockPlayer::Connect(MockMultiplayerSessionManager multiplayerSessionManager)
     void Connect(GlobalNamespace::MockMultiplayerSessionManager* multiplayerSessionManager);
     // public override System.Void Disconnect()
-    // Offset: 0x205BA18
+    // Offset: 0x10291AC
     // Implemented from: MockPlayer
     // Base method: System.Void MockPlayer::Disconnect()
     void Disconnect();

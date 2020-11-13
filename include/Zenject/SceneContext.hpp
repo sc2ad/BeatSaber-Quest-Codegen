@@ -118,105 +118,105 @@ namespace Zenject {
     // Set static field: static public System.Collections.Generic.IEnumerable`1<Zenject.DiContainer> ParentContainers
     static void _set_ParentContainers(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>* value);
     // public System.Void add_PreInstall(System.Action value)
-    // Offset: 0x12EFC00
+    // Offset: 0x134F3EC
     void add_PreInstall(System::Action* value);
     // public System.Void remove_PreInstall(System.Action value)
-    // Offset: 0x12EFCA4
+    // Offset: 0x134F490
     void remove_PreInstall(System::Action* value);
     // public System.Void add_PostInstall(System.Action value)
-    // Offset: 0x12EFD48
+    // Offset: 0x134F534
     void add_PostInstall(System::Action* value);
     // public System.Void remove_PostInstall(System.Action value)
-    // Offset: 0x12EFDEC
+    // Offset: 0x134F5D8
     void remove_PostInstall(System::Action* value);
     // public System.Void add_PreResolve(System.Action value)
-    // Offset: 0x12EFE90
+    // Offset: 0x134F67C
     void add_PreResolve(System::Action* value);
     // public System.Void remove_PreResolve(System.Action value)
-    // Offset: 0x12EFF34
+    // Offset: 0x134F720
     void remove_PreResolve(System::Action* value);
     // public System.Void add_PostResolve(System.Action value)
-    // Offset: 0x12EFFD8
+    // Offset: 0x134F7C4
     void add_PostResolve(System::Action* value);
     // public System.Void remove_PostResolve(System.Action value)
-    // Offset: 0x12F007C
+    // Offset: 0x134F868
     void remove_PostResolve(System::Action* value);
     // public System.Boolean get_HasResolved()
-    // Offset: 0x12F0128
+    // Offset: 0x134F914
     bool get_HasResolved();
     // public System.Boolean get_HasInstalled()
-    // Offset: 0x12F0130
+    // Offset: 0x134F91C
     bool get_HasInstalled();
     // public System.Boolean get_IsValidating()
-    // Offset: 0x12F0138
+    // Offset: 0x134F924
     bool get_IsValidating();
     // public System.Collections.Generic.IEnumerable`1<System.String> get_ContractNames()
-    // Offset: 0x12F0168
+    // Offset: 0x134F954
     System::Collections::Generic::IEnumerable_1<::Il2CppString*>* get_ContractNames();
     // public System.Void set_ContractNames(System.Collections.Generic.IEnumerable`1<System.String> value)
-    // Offset: 0x12F0170
+    // Offset: 0x134F95C
     void set_ContractNames(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* value);
     // public System.Collections.Generic.IEnumerable`1<System.String> get_ParentContractNames()
-    // Offset: 0x12F01F0
+    // Offset: 0x134F9DC
     System::Collections::Generic::IEnumerable_1<::Il2CppString*>* get_ParentContractNames();
     // public System.Void set_ParentContractNames(System.Collections.Generic.IEnumerable`1<System.String> value)
-    // Offset: 0x12F0278
+    // Offset: 0x134FA64
     void set_ParentContractNames(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* value);
     // public System.Boolean get_ParentNewObjectsUnderSceneContext()
-    // Offset: 0x12F02E4
+    // Offset: 0x134FAD0
     bool get_ParentNewObjectsUnderSceneContext();
     // public System.Void set_ParentNewObjectsUnderSceneContext(System.Boolean value)
-    // Offset: 0x12F02EC
+    // Offset: 0x134FAD8
     void set_ParentNewObjectsUnderSceneContext(bool value);
     // public System.Void Awake()
-    // Offset: 0x12F02F8
+    // Offset: 0x134FAE4
     void Awake();
     // public System.Void Validate()
-    // Offset: 0x12F02FC
+    // Offset: 0x134FAE8
     void Validate();
     // private System.Collections.Generic.IEnumerable`1<Zenject.DiContainer> GetParentContainers()
-    // Offset: 0x12F08D4
+    // Offset: 0x13500C0
     System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>* GetParentContainers();
     // private System.Collections.Generic.List`1<Zenject.SceneDecoratorContext> LookupDecoratorContexts()
-    // Offset: 0x12F0E54
+    // Offset: 0x1350640
     System::Collections::Generic::List_1<Zenject::SceneDecoratorContext*>* LookupDecoratorContexts();
     // public System.Void Install()
-    // Offset: 0x12F0334
+    // Offset: 0x134FB20
     void Install();
     // public System.Void Resolve()
-    // Offset: 0x12F07D4
+    // Offset: 0x134FFC0
     void Resolve();
     // private System.Void InstallBindings(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> injectableMonoBehaviours)
-    // Offset: 0x12F1264
+    // Offset: 0x1350A50
     void InstallBindings(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* injectableMonoBehaviours);
     // static public Zenject.SceneContext Create()
-    // Offset: 0x12F19F4
+    // Offset: 0x13511E0
     static Zenject::SceneContext* Create();
     // private System.Boolean <LookupDecoratorContexts>b__49_2(Zenject.SceneDecoratorContext decoratorContext)
-    // Offset: 0x12F1B98
+    // Offset: 0x1351384
     bool $LookupDecoratorContexts$b__49_2(Zenject::SceneDecoratorContext* decoratorContext);
     // public override Zenject.DiContainer get_Container()
-    // Offset: 0x12F0120
+    // Offset: 0x134F90C
     // Implemented from: Zenject.Context
     // Base method: Zenject.DiContainer Context::get_Container()
     Zenject::DiContainer* get_Container();
     // protected override System.Void RunInternal()
-    // Offset: 0x12F0874
+    // Offset: 0x1350060
     // Implemented from: Zenject.RunnableContext
     // Base method: System.Void RunnableContext::RunInternal()
     void RunInternal();
     // public override System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> GetRootGameObjects()
-    // Offset: 0x12F08A8
+    // Offset: 0x1350094
     // Implemented from: Zenject.Context
     // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> Context::GetRootGameObjects()
     System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* GetRootGameObjects();
     // protected override System.Void GetInjectableMonoBehaviours(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> monoBehaviours)
-    // Offset: 0x12F19AC
+    // Offset: 0x1351198
     // Implemented from: Zenject.Context
     // Base method: System.Void Context::GetInjectableMonoBehaviours(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> monoBehaviours)
     void GetInjectableMonoBehaviours(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* monoBehaviours);
     // public System.Void .ctor()
-    // Offset: 0x12F1A88
+    // Offset: 0x1351274
     // Implemented from: Zenject.RunnableContext
     // Base method: System.Void RunnableContext::.ctor()
     // Base method: System.Void Context::.ctor()

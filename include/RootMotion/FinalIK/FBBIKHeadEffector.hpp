@@ -172,46 +172,46 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
-    // Offset: 0x1870D54
+    // Offset: 0x174ECB8
     void Start();
     // private System.Void OnStoreDefaultLocalState()
-    // Offset: 0x18710D8
+    // Offset: 0x174F03C
     void OnStoreDefaultLocalState();
     // private System.Void OnFixTransforms()
-    // Offset: 0x18715D4
+    // Offset: 0x174F538
     void OnFixTransforms();
     // private System.Void OnPreRead()
-    // Offset: 0x18719C8
+    // Offset: 0x174F92C
     void OnPreRead();
     // private System.Void SpineBend()
-    // Offset: 0x1872340
+    // Offset: 0x17502A4
     void SpineBend();
     // private System.Void CCDPass()
-    // Offset: 0x187268C
+    // Offset: 0x17505F0
     void CCDPass();
     // private System.Void Iterate(System.Int32 iteration)
-    // Offset: 0x1872A28
+    // Offset: 0x175098C
     void Iterate(int iteration);
     // private System.Void OnPostUpdate()
-    // Offset: 0x1873494
+    // Offset: 0x17513F8
     void OnPostUpdate();
     // private System.Void ChestDirection()
-    // Offset: 0x187206C
+    // Offset: 0x174FFD0
     void ChestDirection();
     // private System.Void PostStretching()
-    // Offset: 0x18736A4
+    // Offset: 0x1751608
     void PostStretching();
     // private System.Void LerpSolverPosition(RootMotion.FinalIK.IKEffector effector, UnityEngine.Vector3 position, System.Single weight, UnityEngine.Vector3 offset)
-    // Offset: 0x1873350
+    // Offset: 0x17512B4
     void LerpSolverPosition(RootMotion::FinalIK::IKEffector* effector, UnityEngine::Vector3 position, float weight, UnityEngine::Vector3 offset);
     // private System.Void Solve(ref UnityEngine.Vector3 pos1, ref UnityEngine.Vector3 pos2, System.Single nominalDistance)
-    // Offset: 0x18731B4
+    // Offset: 0x1751118
     void Solve(UnityEngine::Vector3& pos1, UnityEngine::Vector3& pos2, float nominalDistance);
     // private System.Void OnDestroy()
-    // Offset: 0x1873A10
+    // Offset: 0x1751974
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1873CF4
+    // Offset: 0x1751C58
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

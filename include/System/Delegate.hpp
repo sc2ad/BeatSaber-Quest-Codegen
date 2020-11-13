@@ -87,70 +87,70 @@ namespace System {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
     // public System.Reflection.MethodInfo get_Method()
-    // Offset: 0x176CA30
+    // Offset: 0x16751C8
     System::Reflection::MethodInfo* get_Method();
     // private System.Reflection.MethodInfo GetVirtualMethod_internal()
-    // Offset: 0x176CA3C
+    // Offset: 0x16751D4
     System::Reflection::MethodInfo* GetVirtualMethod_internal();
     // public System.Object get_Target()
-    // Offset: 0x176CA40
+    // Offset: 0x16751D8
     ::Il2CppObject* get_Target();
     // static System.Delegate CreateDelegate_internal(System.Type type, System.Object target, System.Reflection.MethodInfo info, System.Boolean throwOnBindFailure)
-    // Offset: 0x176CA48
+    // Offset: 0x16751E0
     static System::Delegate* CreateDelegate_internal(System::Type* type, ::Il2CppObject* target, System::Reflection::MethodInfo* info, bool throwOnBindFailure);
     // static private System.Boolean arg_type_match(System.Type delArgType, System.Type argType)
-    // Offset: 0x176CA50
+    // Offset: 0x16751E8
     static bool arg_type_match(System::Type* delArgType, System::Type* argType);
     // static private System.Boolean arg_type_match_this(System.Type delArgType, System.Type argType, System.Boolean boxedThis)
-    // Offset: 0x176CC0C
+    // Offset: 0x16753A4
     static bool arg_type_match_this(System::Type* delArgType, System::Type* argType, bool boxedThis);
     // static private System.Boolean return_type_match(System.Type delReturnType, System.Type returnType)
-    // Offset: 0x176CD88
+    // Offset: 0x1675520
     static bool return_type_match(System::Type* delReturnType, System::Type* returnType);
     // static public System.Delegate CreateDelegate(System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method, System.Boolean throwOnBindFailure)
-    // Offset: 0x176CE50
+    // Offset: 0x16755E8
     static System::Delegate* CreateDelegate(System::Type* type, ::Il2CppObject* firstArgument, System::Reflection::MethodInfo* method, bool throwOnBindFailure);
     // static private System.Delegate CreateDelegate(System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method, System.Boolean throwOnBindFailure, System.Boolean allowClosed)
-    // Offset: 0x176CE5C
+    // Offset: 0x16755F4
     static System::Delegate* CreateDelegate(System::Type* type, ::Il2CppObject* firstArgument, System::Reflection::MethodInfo* method, bool throwOnBindFailure, bool allowClosed);
     // static public System.Delegate CreateDelegate(System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method)
-    // Offset: 0x176D670
+    // Offset: 0x1675E08
     static System::Delegate* CreateDelegate(System::Type* type, ::Il2CppObject* firstArgument, System::Reflection::MethodInfo* method);
     // static public System.Delegate CreateDelegate(System.Type type, System.Reflection.MethodInfo method, System.Boolean throwOnBindFailure)
-    // Offset: 0x176D67C
+    // Offset: 0x1675E14
     static System::Delegate* CreateDelegate(System::Type* type, System::Reflection::MethodInfo* method, bool throwOnBindFailure);
     // static public System.Delegate CreateDelegate(System.Type type, System.Reflection.MethodInfo method)
-    // Offset: 0x176D694
+    // Offset: 0x1675E2C
     static System::Delegate* CreateDelegate(System::Type* type, System::Reflection::MethodInfo* method);
     // static public System.Delegate CreateDelegate(System.Type type, System.Object target, System.String method)
-    // Offset: 0x176D6A8
+    // Offset: 0x1675E40
     static System::Delegate* CreateDelegate(System::Type* type, ::Il2CppObject* target, ::Il2CppString* method);
     // static private System.Reflection.MethodInfo GetCandidateMethod(System.Type type, System.Type target, System.String method, System.Reflection.BindingFlags bflags, System.Boolean ignoreCase, System.Boolean throwOnBindFailure)
-    // Offset: 0x176D6C0
+    // Offset: 0x1675E58
     static System::Reflection::MethodInfo* GetCandidateMethod(System::Type* type, System::Type* target, ::Il2CppString* method, System::Reflection::BindingFlags bflags, bool ignoreCase, bool throwOnBindFailure);
     // static public System.Delegate CreateDelegate(System.Type type, System.Type target, System.String method, System.Boolean ignoreCase, System.Boolean throwOnBindFailure)
-    // Offset: 0x176DAD4
+    // Offset: 0x167626C
     static System::Delegate* CreateDelegate(System::Type* type, System::Type* target, ::Il2CppString* method, bool ignoreCase, bool throwOnBindFailure);
     // static public System.Delegate CreateDelegate(System.Type type, System.Type target, System.String method)
-    // Offset: 0x176DBF4
+    // Offset: 0x167638C
     static System::Delegate* CreateDelegate(System::Type* type, System::Type* target, ::Il2CppString* method);
     // static public System.Delegate CreateDelegate(System.Type type, System.Object target, System.String method, System.Boolean ignoreCase, System.Boolean throwOnBindFailure)
-    // Offset: 0x176DC00
+    // Offset: 0x1676398
     static System::Delegate* CreateDelegate(System::Type* type, ::Il2CppObject* target, ::Il2CppString* method, bool ignoreCase, bool throwOnBindFailure);
     // static public System.Delegate CreateDelegate(System.Type type, System.Object target, System.String method, System.Boolean ignoreCase)
-    // Offset: 0x176D6B4
+    // Offset: 0x1675E4C
     static System::Delegate* CreateDelegate(System::Type* type, ::Il2CppObject* target, ::Il2CppString* method, bool ignoreCase);
     // protected System.Reflection.MethodInfo GetMethodImpl()
-    // Offset: 0x176DF4C
+    // Offset: 0x16766E4
     System::Reflection::MethodInfo* GetMethodImpl();
     // public System.Delegate[] GetInvocationList()
-    // Offset: 0x176E274
+    // Offset: 0x1676A0C
     ::Array<System::Delegate*>* GetInvocationList();
     // static public System.Delegate Combine(System.Delegate a, System.Delegate b)
-    // Offset: 0x176E320
+    // Offset: 0x1676AB8
     static System::Delegate* Combine(System::Delegate* a, System::Delegate* b);
     // static public System.Delegate Combine(params System.Delegate[] delegates)
-    // Offset: 0x176E514
+    // Offset: 0x1676CAC
     static System::Delegate* Combine(::Array<System::Delegate*>* delegates);
     // Creating initializer_list -> params proxy for: System.Delegate Combine(params System.Delegate[] delegates)
     static System::Delegate* Combine(std::initializer_list<System::Delegate*> delegates);
@@ -160,22 +160,22 @@ namespace System {
       return Combine({delegates...});
     }
     // protected System.Delegate CombineImpl(System.Delegate d)
-    // Offset: 0x176E58C
+    // Offset: 0x1676D24
     System::Delegate* CombineImpl(System::Delegate* d);
     // static public System.Delegate Remove(System.Delegate source, System.Delegate value)
-    // Offset: 0x176E604
+    // Offset: 0x1676D9C
     static System::Delegate* Remove(System::Delegate* source, System::Delegate* value);
     // protected System.Delegate RemoveImpl(System.Delegate d)
-    // Offset: 0x176E7F0
+    // Offset: 0x1676F88
     System::Delegate* RemoveImpl(System::Delegate* d);
     // static System.Delegate CreateDelegateNoSecurityCheck(System.RuntimeType type, System.Object firstArgument, System.Reflection.MethodInfo method)
-    // Offset: 0x176E848
+    // Offset: 0x1676FE0
     static System::Delegate* CreateDelegateNoSecurityCheck(System::RuntimeType* type, ::Il2CppObject* firstArgument, System::Reflection::MethodInfo* method);
     // static System.MulticastDelegate AllocDelegateLike_internal(System.Delegate d)
-    // Offset: 0x176E850
+    // Offset: 0x1676FE8
     static System::MulticastDelegate* AllocDelegateLike_internal(System::Delegate* d);
     // public System.Object Clone()
-    // Offset: 0x176DCFC
+    // Offset: 0x1676494
     // Implemented from: System.ICloneable
     // Base method: System.Object ICloneable::Clone()
     ::Il2CppObject* Clone();
@@ -183,17 +183,17 @@ namespace System {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x176DD04
+    // Offset: 0x167649C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x176DECC
+    // Offset: 0x1676664
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x176E03C
+    // Offset: 0x16767D4
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -202,7 +202,7 @@ namespace System {
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Delegate
   // static public System.Boolean op_Equality(System.Delegate d1, System.Delegate d2)
-  // Offset: 0x176E820
+  // Offset: 0x1676FB8
   bool operator ==(System::Delegate* d1, System::Delegate& d2);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

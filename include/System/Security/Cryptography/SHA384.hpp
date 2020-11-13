@@ -14,10 +14,10 @@ namespace System::Security::Cryptography {
   class SHA384 : public System::Security::Cryptography::HashAlgorithm {
     public:
     // static public System.Security.Cryptography.SHA384 Create()
-    // Offset: 0x12052E0
+    // Offset: 0x127A398
     static System::Security::Cryptography::SHA384* Create();
     // protected System.Void .ctor()
-    // Offset: 0x12052B4
+    // Offset: 0x127A36C
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()

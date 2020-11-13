@@ -52,10 +52,10 @@ namespace Zenject {
     // Offset: 0x38
     UnityEngine::GameObject* gameObj;
     // System.Void <GetAllInstancesWithInjectSplit>b__0()
-    // Offset: 0xFEEBCC
+    // Offset: 0x10EA574
     void $GetAllInstancesWithInjectSplit$b__0();
     // public System.Void .ctor()
-    // Offset: 0xFEEBC4
+    // Offset: 0x10EA56C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0* New_ctor();

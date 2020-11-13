@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::DisconnectedReason disconnectedReason;
     // System.Void <HandleMultiplayerLevelDidDisconnect>b__0(Zenject.DiContainer container)
-    // Offset: 0x1FC51C8
+    // Offset: 0x1A73DD8
     void $HandleMultiplayerLevelDidDisconnect$b__0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x1FC4C6C
+    // Offset: 0x1A73878
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MenuTransitionsHelper::$$c__DisplayClass24_0* New_ctor();

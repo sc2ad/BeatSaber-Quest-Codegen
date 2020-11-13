@@ -36,16 +36,16 @@ namespace OVR::OpenVR {
   class IVRSpatialAnchors::_GetSpatialAnchorDescriptor : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C90974
+    // Offset: 0x190EB4C
     static IVRSpatialAnchors::_GetSpatialAnchorDescriptor* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRSpatialAnchorError Invoke(System.UInt32 unHandle, System.Text.StringBuilder pchDescriptorOut, ref System.UInt32 punDescriptorBufferLenInOut)
-    // Offset: 0x1C90988
+    // Offset: 0x190EB60
     OVR::OpenVR::EVRSpatialAnchorError Invoke(uint unHandle, System::Text::StringBuilder* pchDescriptorOut, uint& punDescriptorBufferLenInOut);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unHandle, System.Text.StringBuilder pchDescriptorOut, ref System.UInt32 punDescriptorBufferLenInOut, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C90C34
+    // Offset: 0x190EE0C
     System::IAsyncResult* BeginInvoke(uint unHandle, System::Text::StringBuilder* pchDescriptorOut, uint& punDescriptorBufferLenInOut, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRSpatialAnchorError EndInvoke(ref System.UInt32 punDescriptorBufferLenInOut, System.IAsyncResult result)
-    // Offset: 0x1C90CE4
+    // Offset: 0x190EEBC
     OVR::OpenVR::EVRSpatialAnchorError EndInvoke(uint& punDescriptorBufferLenInOut, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSpatialAnchors/_GetSpatialAnchorDescriptor
 }

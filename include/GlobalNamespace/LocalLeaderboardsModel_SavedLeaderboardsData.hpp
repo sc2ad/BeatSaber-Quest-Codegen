@@ -29,7 +29,7 @@ namespace GlobalNamespace {
       return leaderboardsData;
     }
     // public System.Void .ctor()
-    // Offset: 0x20A2060
+    // Offset: 0x1A63AF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LocalLeaderboardsModel::SavedLeaderboardsData* New_ctor();

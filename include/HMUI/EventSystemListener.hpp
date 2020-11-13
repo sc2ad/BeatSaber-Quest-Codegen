@@ -47,29 +47,29 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_pointerDidEnterEvent(System.Action`1<UnityEngine.EventSystems.PointerEventData> value)
-    // Offset: 0x2184960
+    // Offset: 0x10AD75C
     void add_pointerDidEnterEvent(System::Action_1<UnityEngine::EventSystems::PointerEventData*>* value);
     // public System.Void remove_pointerDidEnterEvent(System.Action`1<UnityEngine.EventSystems.PointerEventData> value)
-    // Offset: 0x2184A04
+    // Offset: 0x10AD800
     void remove_pointerDidEnterEvent(System::Action_1<UnityEngine::EventSystems::PointerEventData*>* value);
     // public System.Void add_pointerDidExitEvent(System.Action`1<UnityEngine.EventSystems.PointerEventData> value)
-    // Offset: 0x2184AA8
+    // Offset: 0x10AD8A4
     void add_pointerDidExitEvent(System::Action_1<UnityEngine::EventSystems::PointerEventData*>* value);
     // public System.Void remove_pointerDidExitEvent(System.Action`1<UnityEngine.EventSystems.PointerEventData> value)
-    // Offset: 0x2184B4C
+    // Offset: 0x10AD948
     void remove_pointerDidExitEvent(System::Action_1<UnityEngine::EventSystems::PointerEventData*>* value);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x2184BF0
+    // Offset: 0x10AD9EC
     // Implemented from: UnityEngine.EventSystems.IPointerEnterHandler
     // Base method: System.Void IPointerEnterHandler::OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x2184C64
+    // Offset: 0x10ADA60
     // Implemented from: UnityEngine.EventSystems.IPointerExitHandler
     // Base method: System.Void IPointerExitHandler::OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
     void OnPointerExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x2184CD8
+    // Offset: 0x10ADAD4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -43,66 +43,66 @@ namespace GlobalNamespace {
     // Set static field: static private System.String DllName
     static void _set_DllName(::Il2CppString* value);
     // static private System.Boolean OVR_GamepadController_Initialize()
-    // Offset: 0x10EA790
+    // Offset: 0x11C10C0
     static bool OVR_GamepadController_Initialize();
     // static private System.Boolean OVR_GamepadController_Destroy()
-    // Offset: 0x10EA87C
+    // Offset: 0x11C11AC
     static bool OVR_GamepadController_Destroy();
     // static private System.Boolean OVR_GamepadController_Update()
-    // Offset: 0x10EAEA4
+    // Offset: 0x11C17D4
     static bool OVR_GamepadController_Update();
     // static private System.Single OVR_GamepadController_GetAxis(System.Int32 axis)
-    // Offset: 0x10EAFA8
+    // Offset: 0x11C18D8
     static float OVR_GamepadController_GetAxis(int axis);
     // static private System.Boolean OVR_GamepadController_GetButton(System.Int32 button)
-    // Offset: 0x10EAF20
+    // Offset: 0x11C1850
     static bool OVR_GamepadController_GetButton(int button);
     // static private System.Boolean OVR_GamepadController_SetVibration(System.Int32 node, System.Single strength, System.Single frequency)
-    // Offset: 0x10EB404
+    // Offset: 0x11C1D34
     static bool OVR_GamepadController_SetVibration(int node, float strength, float frequency);
     // public System.Void .ctor()
-    // Offset: 0x10EA75C
+    // Offset: 0x11C108C
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::.ctor()
     // Base method: System.Void Object::.ctor()
     static OVRInput::OVRControllerGamepadMac* New_ctor();
     // protected override System.Void Finalize()
-    // Offset: 0x10EA80C
+    // Offset: 0x11C113C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public override OVRInput/Controller Update()
-    // Offset: 0x10EA8F8
+    // Offset: 0x11C1228
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: OVRInput/Controller OVRControllerBase::Update()
     GlobalNamespace::OVRInput::Controller Update();
     // public override System.Void ConfigureButtonMap()
-    // Offset: 0x10EB028
+    // Offset: 0x11C1958
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureButtonMap()
     void ConfigureButtonMap();
     // public override System.Void ConfigureTouchMap()
-    // Offset: 0x10EB238
+    // Offset: 0x11C1B68
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureTouchMap()
     void ConfigureTouchMap();
     // public override System.Void ConfigureNearTouchMap()
-    // Offset: 0x10EB2E8
+    // Offset: 0x11C1C18
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureNearTouchMap()
     void ConfigureNearTouchMap();
     // public override System.Void ConfigureAxis1DMap()
-    // Offset: 0x10EB338
+    // Offset: 0x11C1C68
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureAxis1DMap()
     void ConfigureAxis1DMap();
     // public override System.Void ConfigureAxis2DMap()
-    // Offset: 0x10EB390
+    // Offset: 0x11C1CC0
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureAxis2DMap()
     void ConfigureAxis2DMap();
     // public override System.Void SetControllerVibration(System.Single frequency, System.Single amplitude)
-    // Offset: 0x10EB3E8
+    // Offset: 0x11C1D18
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::SetControllerVibration(System.Single frequency, System.Single amplitude)
     void SetControllerVibration(float frequency, float amplitude);

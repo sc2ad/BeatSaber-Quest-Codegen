@@ -30,6 +30,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::LevelFilteringNavigationController::$$c* _get_$$9();
     // Set static field: static public readonly LevelFilteringNavigationController/<>c <>9
     static void _set_$$9(GlobalNamespace::LevelFilteringNavigationController::$$c* value);
+    // Get static field: static public System.Func`2<IBeatmapLevelPack,System.String> <>9__28_0
+    static System::Func_2<GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*>* _get_$$9__28_0();
+    // Set static field: static public System.Func`2<IBeatmapLevelPack,System.String> <>9__28_0
+    static void _set_$$9__28_0(System::Func_2<GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*>* value);
     // Get static field: static public System.Func`2<IBeatmapLevelPack,System.String> <>9__41_0
     static System::Func_2<GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*>* _get_$$9__41_0();
     // Set static field: static public System.Func`2<IBeatmapLevelPack,System.String> <>9__41_0
@@ -39,16 +43,19 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IBeatmapLevelPack,System.String> <>9__41_2
     static void _set_$$9__41_2(System::Func_2<GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x20BB490
+    // Offset: 0x1ABF9B4
     static void _cctor();
+    // System.String <Setup>b__28_0(IBeatmapLevelPack pack)
+    // Offset: 0x1ABFA24
+    ::Il2CppString* $Setup$b__28_0(GlobalNamespace::IBeatmapLevelPack* pack);
     // System.String <SelectAnnotatedBeatmapLevelCollection>b__41_0(IBeatmapLevelPack pack)
-    // Offset: 0x20BB500
+    // Offset: 0x1ABFAD0
     ::Il2CppString* $SelectAnnotatedBeatmapLevelCollection$b__41_0(GlobalNamespace::IBeatmapLevelPack* pack);
     // System.String <SelectAnnotatedBeatmapLevelCollection>b__41_2(IBeatmapLevelPack pack)
-    // Offset: 0x20BB5AC
+    // Offset: 0x1ABFB7C
     ::Il2CppString* $SelectAnnotatedBeatmapLevelCollection$b__41_2(GlobalNamespace::IBeatmapLevelPack* pack);
     // public System.Void .ctor()
-    // Offset: 0x20BB4F8
+    // Offset: 0x1ABFA1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LevelFilteringNavigationController::$$c* New_ctor();

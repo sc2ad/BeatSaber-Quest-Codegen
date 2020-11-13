@@ -33,10 +33,10 @@ namespace GlobalNamespace {
       return achievement;
     }
     // System.Boolean <GetUnlockedAchievements>b__1(AchievementSO x)
-    // Offset: 0x1F7F4BC
+    // Offset: 0x100EED8
     bool $GetUnlockedAchievements$b__1(GlobalNamespace::AchievementSO* x);
     // public System.Void .ctor()
-    // Offset: 0x1F7F4B4
+    // Offset: 0x100EED0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusPlatformAchievementHandler::$$c__DisplayClass3_1* New_ctor();

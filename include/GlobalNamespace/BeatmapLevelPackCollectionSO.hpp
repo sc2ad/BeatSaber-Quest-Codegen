@@ -42,15 +42,15 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void LoadAllBeatmapLevelPacksAsync()
-    // Offset: 0x20D0A70
+    // Offset: 0x1A8903C
     void LoadAllBeatmapLevelPacksAsync();
     // public IBeatmapLevelPack[] get_beatmapLevelPacks()
-    // Offset: 0x20D0A40
+    // Offset: 0x1A8900C
     // Implemented from: IBeatmapLevelPackCollection
     // Base method: IBeatmapLevelPack[] IBeatmapLevelPackCollection::get_beatmapLevelPacks()
     ::Array<GlobalNamespace::IBeatmapLevelPack*>* get_beatmapLevelPacks();
     // public System.Void .ctor()
-    // Offset: 0x20D0BF0
+    // Offset: 0x1A891BC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -33,16 +33,16 @@ namespace UnityEngine::UI {
   class ReflectionMethodsCache::RaycastAllCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x15E6C70
+    // Offset: 0x156B314
     static ReflectionMethodsCache::RaycastAllCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public UnityEngine.RaycastHit[] Invoke(UnityEngine.Ray r, System.Single f, System.Int32 i)
-    // Offset: 0x15E6C84
+    // Offset: 0x156B328
     ::Array<UnityEngine::RaycastHit>* Invoke(UnityEngine::Ray r, float f, int i);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Ray r, System.Single f, System.Int32 i, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15E6FEC
+    // Offset: 0x156B690
     System::IAsyncResult* BeginInvoke(UnityEngine::Ray r, float f, int i, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public UnityEngine.RaycastHit[] EndInvoke(System.IAsyncResult result)
-    // Offset: 0x15E70C0
+    // Offset: 0x156B764
     ::Array<UnityEngine::RaycastHit>* EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.UI.ReflectionMethodsCache/RaycastAllCallback
 }

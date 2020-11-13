@@ -27,15 +27,15 @@ namespace System::Diagnostics::Tracing {
   class DateTimeTypeInfo : public System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<System::DateTime> {
     public:
     // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref System.DateTime value)
-    // Offset: 0x1250B18
+    // Offset: 0x12C5C14
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, System::DateTime& value);
     // public override System.Void WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
-    // Offset: 0x1250A80
+    // Offset: 0x12C5B7C
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Void TraceLoggingTypeInfo::WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::Il2CppString* name, System::Diagnostics::Tracing::EventFieldFormat format);
     // public System.Void .ctor()
-    // Offset: 0x1250B74
+    // Offset: 0x12C5C70
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
     // Base method: System.Void TraceLoggingTypeInfo_1::.ctor()
     // Base method: System.Void Object::.ctor()

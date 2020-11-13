@@ -20,20 +20,20 @@ namespace Org::BouncyCastle::Security::Certificates {
   class CertificateException : public Org::BouncyCastle::Security::GeneralSecurityException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFBCA2C
+    // Offset: 0x10A1EA4
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static CertificateException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xFBCA34
+    // Offset: 0x10A1EAC
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static CertificateException* New_ctor(::Il2CppString* message);
     // public System.Void .ctor(System.String message, System.Exception exception)
-    // Offset: 0xFBCA3C
+    // Offset: 0x10A1EB4
     // Implemented from: Org.BouncyCastle.Security.GeneralSecurityException
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message, System.Exception exception)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception exception)

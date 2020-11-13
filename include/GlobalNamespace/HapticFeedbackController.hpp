@@ -58,25 +58,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kContinuousRumbleFrameDuration
     static void _set_kContinuousRumbleFrameDuration(float value);
     // public Libraries.HM.HMLib.VR.HapticPresetSO get_continuousRumblePreset()
-    // Offset: 0x211403C
+    // Offset: 0x1035FB8
     Libraries::HM::HMLib::VR::HapticPresetSO* get_continuousRumblePreset();
     // protected System.Void Awake()
-    // Offset: 0x2114044
+    // Offset: 0x1035FC0
     void Awake();
     // public System.Void PlayHapticFeedback(UnityEngine.XR.XRNode node, Libraries.HM.HMLib.VR.HapticPresetSO hapticPreset)
-    // Offset: 0x211410C
+    // Offset: 0x1036088
     void PlayHapticFeedback(UnityEngine::XR::XRNode node, Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
     // private System.Void Update()
-    // Offset: 0x21142F0
+    // Offset: 0x103626C
     void Update();
     // private System.Void UpdateRumbles()
-    // Offset: 0x21142F4
+    // Offset: 0x1036270
     void UpdateRumbles();
     // private HapticFeedbackController/RumbleData GetRumble(UnityEngine.XR.XRNode node, System.Object preset)
-    // Offset: 0x21141F4
+    // Offset: 0x1036170
     GlobalNamespace::HapticFeedbackController::RumbleData* GetRumble(UnityEngine::XR::XRNode node, ::Il2CppObject* preset);
     // public System.Void .ctor()
-    // Offset: 0x2114708
+    // Offset: 0x1036684
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

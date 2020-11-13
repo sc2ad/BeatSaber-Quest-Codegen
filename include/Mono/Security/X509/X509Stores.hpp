@@ -25,10 +25,10 @@ namespace Mono::Security::X509 {
     // Offset: 0x18
     bool newFormat;
     // System.Void .ctor(System.String path, System.Boolean newFormat)
-    // Offset: 0x1F39968
+    // Offset: 0x19C6878
     static X509Stores* New_ctor(::Il2CppString* path, bool newFormat);
     // public Mono.Security.X509.X509Store Open(System.String storeName, System.Boolean create)
-    // Offset: 0x1F39A6C
+    // Offset: 0x19C697C
     Mono::Security::X509::X509Store* Open(::Il2CppString* storeName, bool create);
   }; // Mono.Security.X509.X509Stores
 }

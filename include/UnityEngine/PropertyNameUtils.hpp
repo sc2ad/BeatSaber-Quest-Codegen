@@ -19,10 +19,10 @@ namespace UnityEngine {
   class PropertyNameUtils : public ::Il2CppObject {
     public:
     // static public UnityEngine.PropertyName PropertyNameFromString(System.String name)
-    // Offset: 0x194410C
+    // Offset: 0x1736140
     static UnityEngine::PropertyName PropertyNameFromString(::Il2CppString* name);
     // static private System.Void PropertyNameFromString_Injected(System.String name, out UnityEngine.PropertyName ret)
-    // Offset: 0x1944298
+    // Offset: 0x17362CC
     static void PropertyNameFromString_Injected(::Il2CppString* name, UnityEngine::PropertyName& ret);
   }; // UnityEngine.PropertyNameUtils
 }

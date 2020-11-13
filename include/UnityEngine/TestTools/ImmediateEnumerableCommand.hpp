@@ -27,12 +27,12 @@ namespace UnityEngine::TestTools {
   class ImmediateEnumerableCommand : public NUnit::Framework::Internal::Commands::DelegatingTestCommand {
     public:
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0x10AFAA4
+    // Offset: 0x11853D4
     // Implemented from: NUnit.Framework.Internal.Commands.DelegatingTestCommand
     // Base method: System.Void DelegatingTestCommand::.ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
     static ImmediateEnumerableCommand* New_ctor(NUnit::Framework::Internal::Commands::TestCommand* innerCommand);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x10BAA28
+    // Offset: 0x1190358
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);

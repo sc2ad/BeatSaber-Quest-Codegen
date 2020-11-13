@@ -32,32 +32,32 @@ namespace System {
       return cancellationToken;
     }
     // public System.Threading.CancellationToken get_CancellationToken()
-    // Offset: 0x1853B68
+    // Offset: 0x171B210
     System::Threading::CancellationToken get_CancellationToken();
     // private System.Void set_CancellationToken(System.Threading.CancellationToken value)
-    // Offset: 0x1853B70
+    // Offset: 0x171B218
     void set_CancellationToken(System::Threading::CancellationToken value);
     // public System.Void .ctor(System.Threading.CancellationToken token)
-    // Offset: 0x1853C24
+    // Offset: 0x171B2CC
     static OperationCanceledException* New_ctor(System::Threading::CancellationToken token);
     // public System.Void .ctor(System.String message, System.Threading.CancellationToken token)
-    // Offset: 0x1853C54
+    // Offset: 0x171B2FC
     static OperationCanceledException* New_ctor(::Il2CppString* message, System::Threading::CancellationToken token);
     // public System.Void .ctor()
-    // Offset: 0x1853B7C
+    // Offset: 0x171B224
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static OperationCanceledException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1853BF0
+    // Offset: 0x171B298
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static OperationCanceledException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1853C9C
+    // Offset: 0x171B344
     // Implemented from: System.SystemException
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

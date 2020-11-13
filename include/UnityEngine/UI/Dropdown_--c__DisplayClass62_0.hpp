@@ -20,10 +20,10 @@ namespace UnityEngine::UI {
     // Offset: 0x18
     UnityEngine::UI::Dropdown* $$4__this;
     // System.Void <Show>b__0(System.Boolean x)
-    // Offset: 0x150B0F0
+    // Offset: 0x14C62AC
     void $Show$b__0(bool x);
     // public System.Void .ctor()
-    // Offset: 0x150B0E8
+    // Offset: 0x14C62A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Dropdown::$$c__DisplayClass62_0* New_ctor();

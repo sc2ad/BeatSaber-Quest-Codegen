@@ -21,30 +21,30 @@ namespace System {
       return ignoreCase;
     }
     // System.Void .ctor(System.Boolean ignoreCase)
-    // Offset: 0x1853CA4
+    // Offset: 0x171B34C
     static OrdinalComparer* New_ctor(bool ignoreCase);
     // public override System.Int32 Compare(System.String x, System.String y)
-    // Offset: 0x1853D24
+    // Offset: 0x171B3CC
     // Implemented from: System.StringComparer
     // Base method: System.Int32 StringComparer::Compare(System.String x, System.String y)
     int Compare(::Il2CppString* x, ::Il2CppString* y);
     // public override System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x1853D7C
+    // Offset: 0x171B424
     // Implemented from: System.StringComparer
     // Base method: System.Boolean StringComparer::Equals(System.String x, System.String y)
     bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // public override System.Int32 GetHashCode(System.String obj)
-    // Offset: 0x1853DFC
+    // Offset: 0x171B4A4
     // Implemented from: System.StringComparer
     // Base method: System.Int32 StringComparer::GetHashCode(System.String obj)
     int GetHashCode(::Il2CppString* obj);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1853EB4
+    // Offset: 0x171B55C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1853F4C
+    // Offset: 0x171B5F4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

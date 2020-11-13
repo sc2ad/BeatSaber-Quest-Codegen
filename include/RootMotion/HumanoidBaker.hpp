@@ -82,38 +82,38 @@ namespace RootMotion {
     // Offset: 0x108
     UnityEngine::Quaternion lastBodyRotation;
     // private System.Void Awake()
-    // Offset: 0x169D510
+    // Offset: 0x15F10D4
     void Awake();
     // private System.Void UpdateHumanPose()
-    // Offset: 0x169E104
+    // Offset: 0x15F1CC8
     void UpdateHumanPose();
     // protected override UnityEngine.Transform GetCharacterRoot()
-    // Offset: 0x169D9F4
+    // Offset: 0x15F15B8
     // Implemented from: RootMotion.Baker
     // Base method: UnityEngine.Transform Baker::GetCharacterRoot()
     UnityEngine::Transform* GetCharacterRoot();
     // protected override System.Void OnStartBaking()
-    // Offset: 0x169DA10
+    // Offset: 0x15F15D4
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnStartBaking()
     void OnStartBaking();
     // protected override System.Void OnSetLoopFrame(System.Single time)
-    // Offset: 0x169DB30
+    // Offset: 0x15F16F4
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetLoopFrame(System.Single time)
     void OnSetLoopFrame(float time);
     // protected override System.Void OnSetCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x169DC0C
+    // Offset: 0x15F17D0
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetCurves(ref UnityEngine.AnimationClip clip)
     void OnSetCurves(UnityEngine::AnimationClip*& clip);
     // protected override System.Void OnSetKeyframes(System.Single time, System.Boolean lastFrame)
-    // Offset: 0x169DDDC
+    // Offset: 0x15F19A0
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetKeyframes(System.Single time, System.Boolean lastFrame)
     void OnSetKeyframes(float time, bool lastFrame);
     // public System.Void .ctor()
-    // Offset: 0x169E1E0
+    // Offset: 0x15F1DA4
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

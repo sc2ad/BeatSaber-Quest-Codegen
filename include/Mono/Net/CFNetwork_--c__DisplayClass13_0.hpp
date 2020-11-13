@@ -34,10 +34,10 @@ namespace Mono::Net {
     // Offset: 0x18
     Mono::Net::CFRunLoop* runLoop;
     // System.Void <ExecuteProxyAutoConfigurationURL>b__0(System.IntPtr client, System.IntPtr proxyList, System.IntPtr error)
-    // Offset: 0x11ECAD8
+    // Offset: 0x1261B90
     void $ExecuteProxyAutoConfigurationURL$b__0(System::IntPtr client, System::IntPtr proxyList, System::IntPtr error);
     // public System.Void .ctor()
-    // Offset: 0x11EC234
+    // Offset: 0x12612EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CFNetwork::$$c__DisplayClass13_0* New_ctor();

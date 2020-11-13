@@ -23,7 +23,7 @@ namespace System::Runtime::InteropServices {
       return val;
     }
     // public System.Void .ctor(System.Runtime.InteropServices.ClassInterfaceType classInterfaceType)
-    // Offset: 0x108DAE0
+    // Offset: 0x1164410
     static ClassInterfaceAttribute* New_ctor(System::Runtime::InteropServices::ClassInterfaceType classInterfaceType);
   }; // System.Runtime.InteropServices.ClassInterfaceAttribute
 }

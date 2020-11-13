@@ -68,48 +68,48 @@ namespace GlobalNamespace {
     // Offset: 0xE8
     System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::Il2CppString*>* viewControllerTitles;
     // protected System.Void Update()
-    // Offset: 0x200DA0C
+    // Offset: 0xF137A4
     void Update();
     // private System.Void HandleEulaViewControllerDidFinish(System.Boolean agreed)
-    // Offset: 0x200DA4C
+    // Offset: 0xF137E4
     void HandleEulaViewControllerDidFinish(bool agreed);
     // private System.Void HandleHealthWarningViewControllerPrivacyPolicyButtonPressed()
-    // Offset: 0x200DAC0
+    // Offset: 0xF13858
     void HandleHealthWarningViewControllerPrivacyPolicyButtonPressed();
     // private System.Void HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed()
-    // Offset: 0x200DAD8
+    // Offset: 0xF13870
     void HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed();
     // private System.Void HandleHealthWarningViewControllerDidFinish()
-    // Offset: 0x200DA48
+    // Offset: 0xF137E0
     void HandleHealthWarningViewControllerDidFinish();
     // private System.Void GoToNextScene()
-    // Offset: 0x200DBAC
+    // Offset: 0xF13944
     void GoToNextScene();
     // private System.Void <HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed>b__16_0(System.Int32 button)
-    // Offset: 0x200DC9C
+    // Offset: 0xF13A34
     void $HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed$b__16_0(int button);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x200D158
+    // Offset: 0xF12EF0
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x200D5F0
+    // Offset: 0xF13388
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x200D938
+    // Offset: 0xF136D0
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
     void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0x200DBE8
+    // Offset: 0xF13980
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // public System.Void .ctor()
-    // Offset: 0x200DC94
+    // Offset: 0xF13A2C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

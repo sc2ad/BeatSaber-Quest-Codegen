@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Offset: 0xA0
     GlobalNamespace::LoadingControl* smallLoadingControl;
     // public System.Void .ctor()
-    // Offset: 0x2000470
+    // Offset: 0x1A1A898
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

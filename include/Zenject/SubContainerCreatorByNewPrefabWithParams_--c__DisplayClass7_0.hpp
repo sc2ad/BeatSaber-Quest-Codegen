@@ -30,13 +30,13 @@ namespace Zenject {
       return argPair;
     }
     // System.Boolean <CreateTempContainer>b__0(Zenject.InjectableInfo x)
-    // Offset: 0x12F7A78
+    // Offset: 0x1357264
     bool $CreateTempContainer$b__0(Zenject::InjectableInfo* x);
     // System.Int32 <CreateTempContainer>b__1(Zenject.InjectableInfo x)
-    // Offset: 0x12F7B00
+    // Offset: 0x13572EC
     int $CreateTempContainer$b__1(Zenject::InjectableInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x12F78DC
+    // Offset: 0x13570C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0* New_ctor();

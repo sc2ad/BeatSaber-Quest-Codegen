@@ -28,10 +28,10 @@ namespace Zenject {
       return suffix;
     }
     // System.Boolean <WithSuffix>b__0(System.Type t)
-    // Offset: 0xFF7014
+    // Offset: 0x10F29BC
     bool $WithSuffix$b__0(System::Type* t);
     // public System.Void .ctor()
-    // Offset: 0xFF6C24
+    // Offset: 0x10F25CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConventionFilterTypesBinder::$$c__DisplayClass14_0* New_ctor();

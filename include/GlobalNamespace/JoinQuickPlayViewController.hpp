@@ -54,33 +54,33 @@ namespace GlobalNamespace {
     // Offset: 0x98
     GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings;
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x20B0688
+    // Offset: 0xF1C944
     void add_didFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x20B072C
+    // Offset: 0xF1C9E8
     void remove_didFinishEvent(System::Action_1<bool>* value);
     // public MultiplayerModeSettings get_multiplayerModeSettings()
-    // Offset: 0x20B07D0
+    // Offset: 0xF1CA8C
     GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
     // public System.Void Setup(MultiplayerModeSettings multiplayerModeSettings)
-    // Offset: 0x20B07D8
+    // Offset: 0xF1CA94
     void Setup(GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
     // private System.Void ButtonPressed(System.Boolean success)
-    // Offset: 0x20B0958
+    // Offset: 0xF1CC14
     void ButtonPressed(bool success);
     // private System.Void <DidActivate>b__11_0()
-    // Offset: 0x20B0A10
+    // Offset: 0xF1CCCC
     void $DidActivate$b__11_0();
     // private System.Void <DidActivate>b__11_1()
-    // Offset: 0x20B0A18
+    // Offset: 0xF1CCD4
     void $DidActivate$b__11_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x20B083C
+    // Offset: 0xF1CAF8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x20B0A08
+    // Offset: 0xF1CCC4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

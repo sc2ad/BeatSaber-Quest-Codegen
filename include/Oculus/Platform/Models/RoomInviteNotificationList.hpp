@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   class RoomInviteNotificationList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::RoomInviteNotification*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x113E330
+    // Offset: 0x11DEFF0
     static RoomInviteNotificationList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.RoomInviteNotificationList
 }

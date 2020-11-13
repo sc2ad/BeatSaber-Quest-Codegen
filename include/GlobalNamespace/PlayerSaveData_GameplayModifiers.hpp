@@ -145,7 +145,7 @@ namespace GlobalNamespace {
     // Offset: 0x28
     bool noArrows;
     // public System.Void .ctor()
-    // Offset: 0x2089880
+    // Offset: 0xF250EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveData::GameplayModifiers* New_ctor();

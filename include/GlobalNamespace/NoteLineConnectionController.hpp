@@ -83,22 +83,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didFinishEvent(System.Action`1<NoteLineConnectionController> value)
-    // Offset: 0x20FA2C8
+    // Offset: 0xFE9014
     void add_didFinishEvent(System::Action_1<GlobalNamespace::NoteLineConnectionController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<NoteLineConnectionController> value)
-    // Offset: 0x20FA36C
+    // Offset: 0xFE90B8
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::NoteLineConnectionController*>* value);
     // public System.Void Setup(NoteController noteController0, NoteController noteController1, System.Single fadeOutStartDistance, System.Single fadeOutEndDistance, System.Single noteTime)
-    // Offset: 0x20FA410
+    // Offset: 0xFE915C
     void Setup(GlobalNamespace::NoteController* noteController0, GlobalNamespace::NoteController* noteController1, float fadeOutStartDistance, float fadeOutEndDistance, float noteTime);
     // protected System.Void Update()
-    // Offset: 0x20FA6D0
+    // Offset: 0xFE941C
     void Update();
     // private System.Void UpdatePositionsAndColors()
-    // Offset: 0x20FA4E4
+    // Offset: 0xFE9230
     void UpdatePositionsAndColors();
     // public System.Void .ctor()
-    // Offset: 0x20FA768
+    // Offset: 0xFE94B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -121,39 +121,39 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _tempTexture1ID
     static void _set__tempTexture1ID(int value);
     // public System.Int32[] GetBlurKernel(KawaseBlurRendererSO/KernelSize kernelSize)
-    // Offset: 0x1CFCDF0
+    // Offset: 0x18796F8
     ::Array<int>* GetBlurKernel(GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize);
     // protected System.Void OnDisable()
-    // Offset: 0x1CFD41C
+    // Offset: 0x1879D24
     void OnDisable();
     // public System.Void Bloom(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Int32 iterationsStart, System.Int32 iterations, System.Single boost, System.Single alphaWeights, KawaseBlurRendererSO/WeightsType blurStartWeightsType, System.Single[] bloomIterationWeights)
-    // Offset: 0x1CFD464
+    // Offset: 0x1879D6C
     void Bloom(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, int iterationsStart, int iterations, float boost, float alphaWeights, GlobalNamespace::KawaseBlurRendererSO::WeightsType blurStartWeightsType, ::Array<float>* bloomIterationWeights);
     // public System.Void DoubleBlur(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, KawaseBlurRendererSO/KernelSize kernelSize0, System.Single boost0, KawaseBlurRendererSO/KernelSize kernelSize1, System.Single boost1, System.Single secondBlurAlpha, System.Int32 downsample, System.Boolean gammaCorrection)
-    // Offset: 0x1CFDEBC
+    // Offset: 0x187A7C4
     void DoubleBlur(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize0, float boost0, GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize1, float boost1, float secondBlurAlpha, int downsample, bool gammaCorrection);
     // public UnityEngine.Texture2D Blur(UnityEngine.Texture src, KawaseBlurRendererSO/KernelSize kernelSize, System.Int32 downsample)
-    // Offset: 0x1CFE134
+    // Offset: 0x187AA3C
     UnityEngine::Texture2D* Blur(UnityEngine::Texture* src, GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize, int downsample);
     // public System.Void Blur(UnityEngine.Texture src, UnityEngine.RenderTexture dest, KawaseBlurRendererSO/KernelSize kernelSize, System.Single boost, System.Int32 downsample)
-    // Offset: 0x1CFE1FC
+    // Offset: 0x187AB04
     void Blur(UnityEngine::Texture* src, UnityEngine::RenderTexture* dest, GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize, float boost, int downsample);
     // private System.Void Blur(UnityEngine.Texture src, UnityEngine.RenderTexture dest, System.Int32[] kernel, System.Single boost, System.Int32 downsample, System.Int32 startIdx, System.Int32 length, System.Single alphaWeights, System.Single additiveAlpha, System.Boolean additivelyBlendToDest, System.Boolean gammaCorrection, KawaseBlurRendererSO/WeightsType blurStartWeightsType)
-    // Offset: 0x1CFD9BC
+    // Offset: 0x187A2C4
     void Blur(UnityEngine::Texture* src, UnityEngine::RenderTexture* dest, ::Array<int>* kernel, float boost, int downsample, int startIdx, int length, float alphaWeights, float additiveAlpha, bool additivelyBlendToDest, bool gammaCorrection, GlobalNamespace::KawaseBlurRendererSO::WeightsType blurStartWeightsType);
     // public System.Void AlphaWeights(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x1CFE288
+    // Offset: 0x187AB90
     void AlphaWeights(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public UnityEngine.Rendering.CommandBuffer CreateBlurCommandBuffer(System.Int32 width, System.Int32 height, System.String globalTextureName, KawaseBlurRendererSO/KernelSize kernelSize, System.Single boost)
-    // Offset: 0x1CFE394
+    // Offset: 0x187AC9C
     UnityEngine::Rendering::CommandBuffer* CreateBlurCommandBuffer(int width, int height, ::Il2CppString* globalTextureName, GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize, float boost);
     // protected override System.Void OnEnable()
-    // Offset: 0x1CFD004
+    // Offset: 0x187990C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x1CFE6B4
+    // Offset: 0x187AFBC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -161,7 +161,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static KawaseBlurRendererSO* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1CFE6BC
+    // Offset: 0x187AFC4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

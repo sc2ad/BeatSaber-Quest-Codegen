@@ -31,10 +31,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::OVRInput::RawNearTouch SecondaryThumbButtons;
     // public OVRInput/RawNearTouch ToRawMask(OVRInput/NearTouch virtualMask)
-    // Offset: 0x10EA2A0
+    // Offset: 0x11C0BD0
     GlobalNamespace::OVRInput::RawNearTouch ToRawMask(GlobalNamespace::OVRInput::NearTouch virtualMask);
     // public System.Void .ctor()
-    // Offset: 0x10E9490
+    // Offset: 0x11BFDC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRInput::OVRControllerBase::VirtualNearTouchMap* New_ctor();

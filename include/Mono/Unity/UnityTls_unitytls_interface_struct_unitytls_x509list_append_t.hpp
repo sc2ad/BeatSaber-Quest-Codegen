@@ -28,16 +28,16 @@ namespace Mono::Unity {
   class UnityTls::unitytls_interface_struct::unitytls_x509list_append_t : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11FC894
+    // Offset: 0x127194C
     static UnityTls::unitytls_interface_struct::unitytls_x509list_append_t* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Mono.Unity.UnityTls/unitytls_x509list* list, Mono.Unity.UnityTls/unitytls_x509_ref cert, Mono.Unity.UnityTls/unitytls_errorstate* errorState)
-    // Offset: 0x11FC8A8
+    // Offset: 0x1271960
     void Invoke(Mono::Unity::UnityTls::unitytls_x509list* list, Mono::Unity::UnityTls::unitytls_x509_ref cert, Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // public System.IAsyncResult BeginInvoke(Mono.Unity.UnityTls/unitytls_x509list* list, Mono.Unity.UnityTls/unitytls_x509_ref cert, Mono.Unity.UnityTls/unitytls_errorstate* errorState, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11FCB2C
+    // Offset: 0x1271BE4
     System::IAsyncResult* BeginInvoke(Mono::Unity::UnityTls::unitytls_x509list* list, Mono::Unity::UnityTls::unitytls_x509_ref cert, Mono::Unity::UnityTls::unitytls_errorstate* errorState, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11FCBCC
+    // Offset: 0x1271C84
     void EndInvoke(System::IAsyncResult* result);
   }; // Mono.Unity.UnityTls/unitytls_interface_struct/unitytls_x509list_append_t
 }

@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LayerDesc
     constexpr LayerDesc(GlobalNamespace::OVRPlugin::OverlayShape Shape_ = {}, GlobalNamespace::OVRPlugin::LayerLayout Layout_ = {}, GlobalNamespace::OVRPlugin::Sizei TextureSize_ = {}, int MipLevels_ = {}, int SampleCount_ = {}, GlobalNamespace::OVRPlugin::EyeTextureFormat Format_ = {}, int LayerFlags_ = {}, ::Array<GlobalNamespace::OVRPlugin::Fovf>* Fov_ = {}, ::Array<GlobalNamespace::OVRPlugin::Rectf>* VisibleRect_ = {}, GlobalNamespace::OVRPlugin::Sizei MaxViewportSize_ = {}, GlobalNamespace::OVRPlugin::EyeTextureFormat DepthFormat_ = {}) noexcept : Shape{Shape_}, Layout{Layout_}, TextureSize{TextureSize_}, MipLevels{MipLevels_}, SampleCount{SampleCount_}, Format{Format_}, LayerFlags{LayerFlags_}, Fov{Fov_}, VisibleRect{VisibleRect_}, MaxViewportSize{MaxViewportSize_}, DepthFormat{DepthFormat_} {}
     // public override System.String ToString()
-    // Offset: 0xC67F50
+    // Offset: 0xC998AC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

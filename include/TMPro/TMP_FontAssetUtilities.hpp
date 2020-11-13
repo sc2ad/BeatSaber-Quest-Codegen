@@ -48,28 +48,28 @@ namespace TMPro {
     // Set static field: static private System.Boolean k_IsFontEngineInitialized
     static void _set_k_IsFontEngineInitialized(bool value);
     // static private System.Void .cctor()
-    // Offset: 0xEC82DC
+    // Offset: 0xF5D3B4
     static void _cctor();
     // static public TMPro.TMP_FontAssetUtilities get_instance()
-    // Offset: 0xEC834C
+    // Offset: 0xF5D424
     static TMPro::TMP_FontAssetUtilities* get_instance();
     // static public TMPro.TMP_Character GetCharacterFromFontAsset(System.UInt32 unicode, TMPro.TMP_FontAsset sourceFontAsset, System.Boolean includeFallbacks, TMPro.FontStyles fontStyle, TMPro.FontWeight fontWeight, out System.Boolean isAlternativeTypeface, out TMPro.TMP_FontAsset fontAsset)
-    // Offset: 0xEC83B4
+    // Offset: 0xF5D48C
     static TMPro::TMP_Character* GetCharacterFromFontAsset(uint unicode, TMPro::TMP_FontAsset* sourceFontAsset, bool includeFallbacks, TMPro::FontStyles fontStyle, TMPro::FontWeight fontWeight, bool& isAlternativeTypeface, TMPro::TMP_FontAsset*& fontAsset);
     // static private TMPro.TMP_Character GetCharacterFromFontAsset_Internal(System.UInt32 unicode, TMPro.TMP_FontAsset sourceFontAsset, System.Boolean includeFallbacks, TMPro.FontStyles fontStyle, TMPro.FontWeight fontWeight, out System.Boolean isAlternativeTypeface, out TMPro.TMP_FontAsset fontAsset)
-    // Offset: 0xEC852C
+    // Offset: 0xF5D604
     static TMPro::TMP_Character* GetCharacterFromFontAsset_Internal(uint unicode, TMPro::TMP_FontAsset* sourceFontAsset, bool includeFallbacks, TMPro::FontStyles fontStyle, TMPro::FontWeight fontWeight, bool& isAlternativeTypeface, TMPro::TMP_FontAsset*& fontAsset);
     // static public TMPro.TMP_Character GetCharacterFromFontAssets(System.UInt32 unicode, System.Collections.Generic.List`1<TMPro.TMP_FontAsset> fontAssets, System.Boolean includeFallbacks, TMPro.FontStyles fontStyle, TMPro.FontWeight fontWeight, out System.Boolean isAlternativeTypeface, out TMPro.TMP_FontAsset fontAsset)
-    // Offset: 0xEC895C
+    // Offset: 0xF5DA34
     static TMPro::TMP_Character* GetCharacterFromFontAssets(uint unicode, System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>* fontAssets, bool includeFallbacks, TMPro::FontStyles fontStyle, TMPro::FontWeight fontWeight, bool& isAlternativeTypeface, TMPro::TMP_FontAsset*& fontAsset);
     // static private System.Boolean TryGetCharacterFromFontFile(System.UInt32 unicode, TMPro.TMP_FontAsset fontAsset, out TMPro.TMP_Character character)
-    // Offset: 0xEC8B98
+    // Offset: 0xF5DC70
     static bool TryGetCharacterFromFontFile(uint unicode, TMPro::TMP_FontAsset* fontAsset, TMPro::TMP_Character*& character);
     // static public System.Boolean TryGetGlyphFromFontFile(System.UInt32 glyphIndex, TMPro.TMP_FontAsset fontAsset, out UnityEngine.TextCore.Glyph glyph)
-    // Offset: 0xEC8DBC
+    // Offset: 0xF5DE94
     static bool TryGetGlyphFromFontFile(uint glyphIndex, TMPro::TMP_FontAsset* fontAsset, UnityEngine::TextCore::Glyph*& glyph);
     // public System.Void .ctor()
-    // Offset: 0xEC8344
+    // Offset: 0xF5D41C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_FontAssetUtilities* New_ctor();

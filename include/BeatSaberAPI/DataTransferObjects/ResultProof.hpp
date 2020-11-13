@@ -19,13 +19,13 @@ namespace BeatSaberAPI::DataTransferObjects {
       return proof;
     }
     // public System.String get_proof()
-    // Offset: 0x20C1528
+    // Offset: 0x1A78D98
     ::Il2CppString* get_proof();
     // public System.Void set_proof(System.String value)
-    // Offset: 0x20C1530
+    // Offset: 0x1A78DA0
     void set_proof(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x20C1538
+    // Offset: 0x1A78DA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ResultProof* New_ctor();

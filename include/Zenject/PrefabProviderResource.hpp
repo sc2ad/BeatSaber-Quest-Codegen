@@ -32,10 +32,10 @@ namespace Zenject {
       return resourcePath;
     }
     // public System.Void .ctor(System.String resourcePath)
-    // Offset: 0x12EC2A0
+    // Offset: 0x134BA8C
     static PrefabProviderResource* New_ctor(::Il2CppString* resourcePath);
     // public UnityEngine.Object GetPrefab()
-    // Offset: 0x12EC2D4
+    // Offset: 0x134BAC0
     // Implemented from: Zenject.IPrefabProvider
     // Base method: UnityEngine.Object IPrefabProvider::GetPrefab()
     UnityEngine::Object* GetPrefab();

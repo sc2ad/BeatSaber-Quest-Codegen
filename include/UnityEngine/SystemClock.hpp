@@ -18,10 +18,10 @@ namespace UnityEngine {
     // Set static field: static private readonly System.DateTime s_Epoch
     static void _set_s_Epoch(System::DateTime value);
     // static public System.DateTime get_now()
-    // Offset: 0x1737FAC
+    // Offset: 0x16C2D5C
     static System::DateTime get_now();
     // static private System.Void .cctor()
-    // Offset: 0x173800C
+    // Offset: 0x16C2DBC
     static void _cctor();
   }; // UnityEngine.SystemClock
 }

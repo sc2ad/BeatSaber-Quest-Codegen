@@ -21,10 +21,10 @@ namespace GlobalNamespace {
   class TextureEffectSO : public GlobalNamespace::PersistentScriptableObject {
     public:
     // public System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x1D038E8
+    // Offset: 0x18814C4
     void Render(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public System.Void .ctor()
-    // Offset: 0x1CF9A10
+    // Offset: 0x1876290
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

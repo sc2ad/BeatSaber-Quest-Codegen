@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_ShowMessageOverlay : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C84960
+    // Offset: 0x1902B38
     static IVROverlay::_ShowMessageOverlay* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.VRMessageOverlayResponse Invoke(System.String pchText, System.String pchCaption, System.String pchButton0Text, System.String pchButton1Text, System.String pchButton2Text, System.String pchButton3Text)
-    // Offset: 0x1C84974
+    // Offset: 0x1902B4C
     OVR::OpenVR::VRMessageOverlayResponse Invoke(::Il2CppString* pchText, ::Il2CppString* pchCaption, ::Il2CppString* pchButton0Text, ::Il2CppString* pchButton1Text, ::Il2CppString* pchButton2Text, ::Il2CppString* pchButton3Text);
     // public System.IAsyncResult BeginInvoke(System.String pchText, System.String pchCaption, System.String pchButton0Text, System.String pchButton1Text, System.String pchButton2Text, System.String pchButton3Text, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C84DEC
+    // Offset: 0x1902FC4
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchText, ::Il2CppString* pchCaption, ::Il2CppString* pchButton0Text, ::Il2CppString* pchButton1Text, ::Il2CppString* pchButton2Text, ::Il2CppString* pchButton3Text, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.VRMessageOverlayResponse EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C84E28
+    // Offset: 0x1903000
     OVR::OpenVR::VRMessageOverlayResponse EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_ShowMessageOverlay
 }

@@ -24,16 +24,16 @@ namespace System::Net {
   class EndPoint : public ::Il2CppObject {
     public:
     // public System.Net.Sockets.AddressFamily get_AddressFamily()
-    // Offset: 0x12B88B4
+    // Offset: 0x13180A0
     System::Net::Sockets::AddressFamily get_AddressFamily();
     // public System.Net.SocketAddress Serialize()
-    // Offset: 0x12B8974
+    // Offset: 0x1318160
     System::Net::SocketAddress* Serialize();
     // public System.Net.EndPoint Create(System.Net.SocketAddress socketAddress)
-    // Offset: 0x12B8A34
+    // Offset: 0x1318220
     System::Net::EndPoint* Create(System::Net::SocketAddress* socketAddress);
     // protected System.Void .ctor()
-    // Offset: 0x12B8A78
+    // Offset: 0x1318264
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EndPoint* New_ctor();

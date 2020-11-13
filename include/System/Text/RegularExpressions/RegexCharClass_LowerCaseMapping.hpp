@@ -30,7 +30,7 @@ namespace System::Text::RegularExpressions {
     // Creating value type constructor for type: LowerCaseMapping
     constexpr LowerCaseMapping(::Il2CppChar chMin_ = {}, ::Il2CppChar chMax_ = {}, int lcOp_ = {}, int data_ = {}) noexcept : chMin{chMin_}, chMax{chMax_}, lcOp{lcOp_}, data{data_} {}
     // System.Void .ctor(System.Char chMin, System.Char chMax, System.Int32 lcOp, System.Int32 data)
-    // Offset: 0xC72478
+    // Offset: 0xCA26E0
     // ABORTED: conflicts with another method.  LowerCaseMapping(::Il2CppChar chMin, ::Il2CppChar chMax, int lcOp, int data);
   }; // System.Text.RegularExpressions.RegexCharClass/LowerCaseMapping
 }

@@ -50,37 +50,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Int32 get_maxPartySize()
-    // Offset: 0x1FE1584
+    // Offset: 0xFD9F1C
     // Implemented from: INetworkConfig
     // Base method: System.Int32 INetworkConfig::get_maxPartySize()
     int get_maxPartySize();
     // public System.Int32 get_discoveryPort()
-    // Offset: 0x1FE158C
+    // Offset: 0xFD9F24
     // Implemented from: INetworkConfig
     // Base method: System.Int32 INetworkConfig::get_discoveryPort()
     int get_discoveryPort();
     // public System.Int32 get_partyPort()
-    // Offset: 0x1FE1594
+    // Offset: 0xFD9F2C
     // Implemented from: INetworkConfig
     // Base method: System.Int32 INetworkConfig::get_partyPort()
     int get_partyPort();
     // public System.Int32 get_multiplayerPort()
-    // Offset: 0x1FE159C
+    // Offset: 0xFD9F34
     // Implemented from: INetworkConfig
     // Base method: System.Int32 INetworkConfig::get_multiplayerPort()
     int get_multiplayerPort();
     // public MasterServerEndPoint get_masterServerEndPoint()
-    // Offset: 0x1FE15A4
+    // Offset: 0xFD9F3C
     // Implemented from: INetworkConfig
     // Base method: MasterServerEndPoint INetworkConfig::get_masterServerEndPoint()
     GlobalNamespace::MasterServerEndPoint* get_masterServerEndPoint();
     // public System.String get_masterServerStatusUrl()
-    // Offset: 0x1FE161C
+    // Offset: 0xFD9FB4
     // Implemented from: INetworkConfig
     // Base method: System.String INetworkConfig::get_masterServerStatusUrl()
     ::Il2CppString* get_masterServerStatusUrl();
     // public System.Void .ctor()
-    // Offset: 0x1FE1624
+    // Offset: 0xFD9FBC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -35,28 +35,28 @@ namespace System::Net {
       return m_list;
     }
     // public System.Int32 get_Count()
-    // Offset: 0x10C8EDC
+    // Offset: 0x119E80C
     int get_Count();
     // public System.Int32 GetCookiesCount()
-    // Offset: 0x10C8F00
+    // Offset: 0x119E830
     int GetCookiesCount();
     // public System.Collections.ICollection get_Values()
-    // Offset: 0x10C92B4
+    // Offset: 0x119EBE4
     System::Collections::ICollection* get_Values();
     // public System.Object get_Item(System.String s)
-    // Offset: 0x10C92D8
+    // Offset: 0x119EC08
     ::Il2CppObject* get_Item(::Il2CppString* s);
     // public System.Void set_Item(System.String s, System.Object value)
-    // Offset: 0x10C92FC
+    // Offset: 0x119EC2C
     void set_Item(::Il2CppString* s, ::Il2CppObject* value);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x10C93E0
+    // Offset: 0x119ED10
     System::Collections::IEnumerator* GetEnumerator();
     // public System.Object get_SyncRoot()
-    // Offset: 0x10C9290
+    // Offset: 0x119EBC0
     ::Il2CppObject* get_SyncRoot();
     // public System.Void .ctor()
-    // Offset: 0x10C8E0C
+    // Offset: 0x119E73C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PathList* New_ctor();

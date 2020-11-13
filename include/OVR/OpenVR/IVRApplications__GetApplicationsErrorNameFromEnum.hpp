@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRApplications::_GetApplicationsErrorNameFromEnum : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1159400
+    // Offset: 0x11FA0C0
     static IVRApplications::_GetApplicationsErrorNameFromEnum* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.IntPtr Invoke(OVR.OpenVR.EVRApplicationError error)
-    // Offset: 0x114AD98
+    // Offset: 0x11EBA58
     System::IntPtr Invoke(OVR::OpenVR::EVRApplicationError error);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EVRApplicationError error, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1159414
+    // Offset: 0x11FA0D4
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVRApplicationError error, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.IntPtr EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11594A0
+    // Offset: 0x11FA160
     System::IntPtr EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRApplications/_GetApplicationsErrorNameFromEnum
 }

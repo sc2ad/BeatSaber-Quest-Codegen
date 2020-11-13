@@ -21,7 +21,7 @@ namespace System::Net {
       return password;
     }
     // public System.Void .ctor(System.String username, System.String password)
-    // Offset: 0x123AEB8
+    // Offset: 0x12AFFB4
     // Implemented from: System.Security.Principal.GenericIdentity
     // Base method: System.Void GenericIdentity::.ctor(System.String username, System.String password)
     static HttpListenerBasicIdentity* New_ctor(::Il2CppString* username, ::Il2CppString* password);

@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRCompositor::_IsMirrorWindowVisible : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1B85674
+    // Offset: 0x18E948C
     static IVRCompositor::_IsMirrorWindowVisible* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
-    // Offset: 0x1B85688
+    // Offset: 0x18E94A0
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1B858A0
+    // Offset: 0x18E96B8
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1B858CC
+    // Offset: 0x18E96E4
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRCompositor/_IsMirrorWindowVisible
 }

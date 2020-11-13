@@ -14,13 +14,13 @@ namespace Org::BouncyCastle::Security {
   class SecurityUtilityException : public System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0xFD85AC
+    // Offset: 0x10D3F54
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static SecurityUtilityException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xFC4FE4
+    // Offset: 0x10C098C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     static SecurityUtilityException* New_ctor(::Il2CppString* message);

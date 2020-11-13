@@ -49,13 +49,13 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: EventSourceOptions
     constexpr EventSourceOptions(System::Diagnostics::Tracing::EventKeywords keywords_ = {}, System::Diagnostics::Tracing::EventTags tags_ = {}, System::Diagnostics::Tracing::EventActivityOptions activityOptions_ = {}, uint8_t level_ = {}, uint8_t opcode_ = {}, uint8_t valuesSet_ = {}) noexcept : keywords{keywords_}, tags{tags_}, activityOptions{activityOptions_}, level{level_}, opcode{opcode_}, valuesSet{valuesSet_} {}
     // public System.Void set_Level(System.Diagnostics.Tracing.EventLevel value)
-    // Offset: 0xC6B170
+    // Offset: 0xC9BB34
     void set_Level(System::Diagnostics::Tracing::EventLevel value);
     // public System.Void set_Opcode(System.Diagnostics.Tracing.EventOpcode value)
-    // Offset: 0xC6B178
+    // Offset: 0xC9BB3C
     void set_Opcode(System::Diagnostics::Tracing::EventOpcode value);
     // public System.Void set_Keywords(System.Diagnostics.Tracing.EventKeywords value)
-    // Offset: 0xC6B180
+    // Offset: 0xC9BB44
     void set_Keywords(System::Diagnostics::Tracing::EventKeywords value);
   }; // System.Diagnostics.Tracing.EventSourceOptions
 }

@@ -27,19 +27,19 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::FileCompressionHelper::$$c__DisplayClass1_0
     class $$c__DisplayClass1_0;
     // static public System.Void CreateZipFromDirectoryAsync(System.String sourceDirectoryName, System.String destinationArchiveFileName, System.Action`1<System.Boolean> finishCallback)
-    // Offset: 0x210D934
+    // Offset: 0x102F8B0
     static void CreateZipFromDirectoryAsync(::Il2CppString* sourceDirectoryName, ::Il2CppString* destinationArchiveFileName, System::Action_1<bool>* finishCallback);
     // static public System.Void ExtractZipToDirectoryAsync(System.String sourceArchiveFileName, System.String destinationDirectoryName, System.Action`1<System.Boolean> finishCallback)
-    // Offset: 0x210DC54
+    // Offset: 0x102FBD0
     static void ExtractZipToDirectoryAsync(::Il2CppString* sourceArchiveFileName, ::Il2CppString* destinationDirectoryName, System::Action_1<bool>* finishCallback);
     // static public System.Boolean CreateZipFromDirectory(System.String sourceDirectoryName, System.String destinationArchiveFileName)
-    // Offset: 0x210DD7C
+    // Offset: 0x102FCF8
     static bool CreateZipFromDirectory(::Il2CppString* sourceDirectoryName, ::Il2CppString* destinationArchiveFileName);
     // static public System.Boolean ExtractZipToDirectory(System.String sourceArchiveFileName, System.String destinationDirectoryName)
-    // Offset: 0x210DE1C
+    // Offset: 0x102FD98
     static bool ExtractZipToDirectory(::Il2CppString* sourceArchiveFileName, ::Il2CppString* destinationDirectoryName);
     // public System.Void .ctor()
-    // Offset: 0x210DEBC
+    // Offset: 0x102FE38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FileCompressionHelper* New_ctor();

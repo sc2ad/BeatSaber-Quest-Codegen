@@ -35,38 +35,38 @@ namespace System::Runtime::Remoting::Channels {
     // Set static field: static private System.Object s_lock
     static void _set_s_lock(::Il2CppObject* value);
     // static System.Void RegisterCrossAppDomainChannel()
-    // Offset: 0x109686C
+    // Offset: 0x116D19C
     static void RegisterCrossAppDomainChannel();
     // static private System.Void .cctor()
-    // Offset: 0x1096F30
+    // Offset: 0x116D860
     static void _cctor();
     // public System.String get_ChannelName()
-    // Offset: 0x1096990
+    // Offset: 0x116D2C0
     // Implemented from: System.Runtime.Remoting.Channels.IChannel
     // Base method: System.String IChannel::get_ChannelName()
     ::Il2CppString* get_ChannelName();
     // public System.Int32 get_ChannelPriority()
-    // Offset: 0x10969D8
+    // Offset: 0x116D308
     // Implemented from: System.Runtime.Remoting.Channels.IChannel
     // Base method: System.Int32 IChannel::get_ChannelPriority()
     int get_ChannelPriority();
     // public System.Object get_ChannelData()
-    // Offset: 0x10969E0
+    // Offset: 0x116D310
     // Implemented from: System.Runtime.Remoting.Channels.IChannelReceiver
     // Base method: System.Object IChannelReceiver::get_ChannelData()
     ::Il2CppObject* get_ChannelData();
     // public System.Void StartListening(System.Object data)
-    // Offset: 0x1096B08
+    // Offset: 0x116D438
     // Implemented from: System.Runtime.Remoting.Channels.IChannelReceiver
     // Base method: System.Void IChannelReceiver::StartListening(System.Object data)
     void StartListening(::Il2CppObject* data);
     // public System.Runtime.Remoting.Messaging.IMessageSink CreateMessageSink(System.String url, System.Object data, out System.String uri)
-    // Offset: 0x1096B0C
+    // Offset: 0x116D43C
     // Implemented from: System.Runtime.Remoting.Channels.IChannelSender
     // Base method: System.Runtime.Remoting.Messaging.IMessageSink IChannelSender::CreateMessageSink(System.String url, System.Object data, out System.String uri)
     System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink(::Il2CppString* url, ::Il2CppObject* data, ::Il2CppString*& uri);
     // public System.Void .ctor()
-    // Offset: 0x1096988
+    // Offset: 0x116D2B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CrossAppDomainChannel* New_ctor();

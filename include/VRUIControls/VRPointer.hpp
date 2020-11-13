@@ -92,49 +92,49 @@ namespace VRUIControls {
     // Set static field: static private System.Boolean _leftControllerWasReleased
     static void _set__leftControllerWasReleased(bool value);
     // public VRController get_vrController()
-    // Offset: 0x1EFD268
+    // Offset: 0x1993E80
     GlobalNamespace::VRController* get_vrController();
     // public UnityEngine.Vector3 get_cursorPosition()
-    // Offset: 0x1EFD270
+    // Offset: 0x1993E88
     UnityEngine::Vector3 get_cursorPosition();
     // private UnityEngine.EventSystems.EventSystem get_eventSystem()
-    // Offset: 0x1EFD28C
+    // Offset: 0x1993EA4
     UnityEngine::EventSystems::EventSystem* get_eventSystem();
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x1EFD30C
+    // Offset: 0x1993F24
     static void NoDomainReloadInit();
     // protected System.Void Awake()
-    // Offset: 0x1EFD390
+    // Offset: 0x1993FA8
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x1EFD42C
+    // Offset: 0x1994044
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1EFD6C8
+    // Offset: 0x19942E0
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0x1EFD868
+    // Offset: 0x1994480
     void LateUpdate();
     // private System.Void CreateLaserPointerAndLaserHit()
-    // Offset: 0x1EFD430
+    // Offset: 0x1994048
     void CreateLaserPointerAndLaserHit();
     // private System.Void RefreshLaserPointerAndLaserHit(UnityEngine.EventSystems.PointerEventData pointerData)
-    // Offset: 0x1EFDC68
+    // Offset: 0x1994880
     void RefreshLaserPointerAndLaserHit(UnityEngine::EventSystems::PointerEventData* pointerData);
     // private System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x1EFDF34
+    // Offset: 0x1994B4C
     void OnApplicationFocus(bool hasFocus);
     // private System.Void DestroyLaserAndHit()
-    // Offset: 0x1EFD6CC
+    // Offset: 0x19942E4
     void DestroyLaserAndHit();
     // public System.String get_state()
-    // Offset: 0x1EFDFEC
+    // Offset: 0x1994C04
     ::Il2CppString* get_state();
     // public System.Void Process(UnityEngine.EventSystems.PointerEventData pointerEventData)
-    // Offset: 0x1EFC934
+    // Offset: 0x199354C
     void Process(UnityEngine::EventSystems::PointerEventData* pointerEventData);
     // public System.Void .ctor()
-    // Offset: 0x1EFE2D4
+    // Offset: 0x1994EEC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -143,7 +143,7 @@ namespace VRUIControls {
     // Base method: System.Void Object::.ctor()
     static VRPointer* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1EFE2E8
+    // Offset: 0x1994F00
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

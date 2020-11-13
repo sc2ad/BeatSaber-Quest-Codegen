@@ -42,10 +42,10 @@ namespace System::Threading::Tasks {
       return m_scheduler;
     }
     // System.Void .ctor(System.Threading.Tasks.TaskScheduler scheduler, System.Action action, System.Boolean flowExecutionContext, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x149B61C
+    // Offset: 0x1D13EA0
     static TaskSchedulerAwaitTaskContinuation* New_ctor(System::Threading::Tasks::TaskScheduler* scheduler, System::Action* action, bool flowExecutionContext, System::Threading::StackCrawlMark& stackMark);
     // override System.Void Run(System.Threading.Tasks.Task ignored, System.Boolean canInlineContinuationTask)
-    // Offset: 0x14A0ADC
+    // Offset: 0x1D19360
     // Implemented from: System.Threading.Tasks.AwaitTaskContinuation
     // Base method: System.Void AwaitTaskContinuation::Run(System.Threading.Tasks.Task ignored, System.Boolean canInlineContinuationTask)
     void Run(System::Threading::Tasks::Task* ignored, bool canInlineContinuationTask);

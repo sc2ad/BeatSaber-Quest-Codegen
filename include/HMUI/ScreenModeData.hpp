@@ -35,7 +35,7 @@ namespace HMUI {
     // Offset: 0x38
     float minYPos;
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Vector3 rotation, System.Single scale, System.Single radius, System.Boolean offsetHeightByHeadPos, System.Single yOffsetRelativeToHead, System.Single minYPos)
-    // Offset: 0x216F15C
+    // Offset: 0x107EFE0
     static ScreenModeData* New_ctor(UnityEngine::Vector3 position, UnityEngine::Vector3 rotation, float scale, float radius, bool offsetHeightByHeadPos, float yOffsetRelativeToHead, float minYPos);
   }; // HMUI.ScreenModeData
 }

@@ -59,7 +59,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0x20
     System::Func_2<::Il2CppObject*, ::Il2CppString*>* CustomToString;
     // protected System.Void .ctor(System.String name, System.Net.Http.Headers.HttpHeaderKind headerKind)
-    // Offset: 0x1176060
+    // Offset: 0x12003F0
     static HeaderInfo* New_ctor(::Il2CppString* name, System::Net::Http::Headers::HttpHeaderKind headerKind);
     // static public System.Net.Http.Headers.HeaderInfo CreateSingle(System.String name, System.Net.Http.Headers.TryParseDelegate`1<T> parser, System.Net.Http.Headers.HttpHeaderKind headerKind, System.Func`2<System.Object,System.String> toString)
     // Offset: 0xFFFFFFFF
@@ -74,16 +74,16 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Net::Http::Headers::HeaderInfo*>("System.Net.Http.Headers", "HeaderInfo", "CreateMulti", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, name, elementParser, headerKind, minimalCount, separator)));
     }
     // public System.Object CreateCollection(System.Net.Http.Headers.HttpHeaders headers)
-    // Offset: 0x11760A8
+    // Offset: 0x1200438
     ::Il2CppObject* CreateCollection(System::Net::Http::Headers::HttpHeaders* headers);
     // public System.Func`2<System.Object,System.String> get_CustomToString()
-    // Offset: 0x11760B8
+    // Offset: 0x1200448
     System::Func_2<::Il2CppObject*, ::Il2CppString*>* get_CustomToString();
     // private System.Void set_CustomToString(System.Func`2<System.Object,System.String> value)
-    // Offset: 0x11760C0
+    // Offset: 0x1200450
     void set_CustomToString(System::Func_2<::Il2CppObject*, ::Il2CppString*>* value);
     // public System.String get_Separator()
-    // Offset: 0x11760C8
+    // Offset: 0x1200458
     ::Il2CppString* get_Separator();
     // public System.Void AddToCollection(System.Object collection, System.Object value)
     // Offset: 0xFFFFFFFF

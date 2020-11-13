@@ -76,24 +76,24 @@ namespace GlobalNamespace {
     // Offset: 0xA0
     System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* backToLobbyPressedEvent;
     // public System.Void add_backToLobbyPressedEvent(System.Action`1<MultiplayerResultsViewController> value)
-    // Offset: 0x1FD7D40
+    // Offset: 0xF7EB78
     void add_backToLobbyPressedEvent(System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* value);
     // public System.Void remove_backToLobbyPressedEvent(System.Action`1<MultiplayerResultsViewController> value)
-    // Offset: 0x1FD7DE4
+    // Offset: 0xF7EC1C
     void remove_backToLobbyPressedEvent(System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* value);
     // public System.Void Init(LevelCompletionResults localPlayerLevelCompletionResults, System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults> otherPlayersLevelCompletionResults, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x1FD7E88
+    // Offset: 0xF7ECC0
     void Init(GlobalNamespace::LevelCompletionResults* localPlayerLevelCompletionResults, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelCompletionResults*>* otherPlayersLevelCompletionResults, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // private System.Void BackToLobbyPressed()
-    // Offset: 0x1FD82D0
+    // Offset: 0xF7F108
     void BackToLobbyPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1FD8224
+    // Offset: 0xF7F05C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x1FD8334
+    // Offset: 0xF7F16C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

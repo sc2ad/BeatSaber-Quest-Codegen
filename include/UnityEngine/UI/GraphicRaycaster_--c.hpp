@@ -35,13 +35,13 @@ namespace UnityEngine::UI {
     // Set static field: static public System.Comparison`1<UnityEngine.UI.Graphic> <>9__24_0
     static void _set_$$9__24_0(System::Comparison_1<UnityEngine::UI::Graphic*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1510744
+    // Offset: 0x14CB900
     static void _cctor();
     // System.Int32 <Raycast>b__24_0(UnityEngine.UI.Graphic g1, UnityEngine.UI.Graphic g2)
-    // Offset: 0x15107B4
+    // Offset: 0x14CB970
     int $Raycast$b__24_0(UnityEngine::UI::Graphic* g1, UnityEngine::UI::Graphic* g2);
     // public System.Void .ctor()
-    // Offset: 0x15107AC
+    // Offset: 0x14CB968
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static GraphicRaycaster::$$c* New_ctor();

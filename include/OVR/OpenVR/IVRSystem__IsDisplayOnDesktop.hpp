@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_IsDisplayOnDesktop : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C98AFC
+    // Offset: 0x1916CD4
     static IVRSystem::_IsDisplayOnDesktop* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
-    // Offset: 0x1C98B10
+    // Offset: 0x1916CE8
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C98D28
+    // Offset: 0x1916F00
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C98D54
+    // Offset: 0x1916F2C
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_IsDisplayOnDesktop
 }

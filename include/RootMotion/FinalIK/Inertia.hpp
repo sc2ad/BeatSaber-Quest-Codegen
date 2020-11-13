@@ -27,15 +27,15 @@ namespace RootMotion::FinalIK {
     // Offset: 0x38
     ::Array<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>* limits;
     // public System.Void ResetBodies()
-    // Offset: 0x1999988
+    // Offset: 0x17E6D78
     void ResetBodies();
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1999ADC
+    // Offset: 0x17E6ECC
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
     // public System.Void .ctor()
-    // Offset: 0x1999F10
+    // Offset: 0x17E7300
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

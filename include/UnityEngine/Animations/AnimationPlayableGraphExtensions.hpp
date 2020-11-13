@@ -21,7 +21,7 @@ namespace UnityEngine::Animations {
   class AnimationPlayableGraphExtensions : public ::Il2CppObject {
     public:
     // static System.Boolean InternalCreateAnimationOutput(ref UnityEngine.Playables.PlayableGraph graph, System.String name, out UnityEngine.Playables.PlayableOutputHandle handle)
-    // Offset: 0x1F3C708
+    // Offset: 0x19C9788
     static bool InternalCreateAnimationOutput(UnityEngine::Playables::PlayableGraph& graph, ::Il2CppString* name, UnityEngine::Playables::PlayableOutputHandle& handle);
   }; // UnityEngine.Animations.AnimationPlayableGraphExtensions
 }

@@ -25,16 +25,16 @@ namespace Oculus::Platform {
   class MessageWithLinkedAccountList : public Oculus::Platform::Message_1<Oculus::Platform::Models::LinkedAccountList*> {
     public:
     // protected Oculus.Platform.Models.LinkedAccountList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x113A69C
+    // Offset: 0x11DB35C
     Oculus::Platform::Models::LinkedAccountList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x113A5F8
+    // Offset: 0x11DB2B8
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
     static MessageWithLinkedAccountList* New_ctor(System::IntPtr c_message);
     // public override Oculus.Platform.Models.LinkedAccountList GetLinkedAccountList()
-    // Offset: 0x113A658
+    // Offset: 0x11DB318
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.LinkedAccountList Message::GetLinkedAccountList()
     Oculus::Platform::Models::LinkedAccountList* GetLinkedAccountList();

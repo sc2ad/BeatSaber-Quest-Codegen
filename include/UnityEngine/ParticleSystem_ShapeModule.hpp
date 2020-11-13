@@ -31,19 +31,19 @@ namespace UnityEngine {
       return m_ParticleSystem;
     }
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0xC8C468
+    // Offset: 0xCB9398
     // ABORTED: conflicts with another method.  ShapeModule(UnityEngine::ParticleSystem* particleSystem);
     // public System.Void set_position(UnityEngine.Vector3 value)
-    // Offset: 0xC8C470
+    // Offset: 0xCB93A0
     void set_position(UnityEngine::Vector3 value);
     // public System.Void set_rotation(UnityEngine.Vector3 value)
-    // Offset: 0xC8C478
+    // Offset: 0xCB93A8
     void set_rotation(UnityEngine::Vector3 value);
     // static private System.Void set_position_Injected(ref UnityEngine.ParticleSystem/ShapeModule _unity_self, ref UnityEngine.Vector3 value)
-    // Offset: 0x1F712E8
+    // Offset: 0x1A00624
     static void set_position_Injected(UnityEngine::ParticleSystem::ShapeModule& _unity_self, UnityEngine::Vector3& value);
     // static private System.Void set_rotation_Injected(ref UnityEngine.ParticleSystem/ShapeModule _unity_self, ref UnityEngine.Vector3 value)
-    // Offset: 0x1F71390
+    // Offset: 0x1A006CC
     static void set_rotation_Injected(UnityEngine::ParticleSystem::ShapeModule& _unity_self, UnityEngine::Vector3& value);
   }; // UnityEngine.ParticleSystem/ShapeModule
 }

@@ -51,23 +51,23 @@ namespace GlobalNamespace {
     // Offset: 0x80
     UnityEngine::Color bgHighlightColor;
     // public System.Void SetData(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x20C51B8
+    // Offset: 0x1A7CA28
     void SetData(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // private System.Void RefreshVisuals()
-    // Offset: 0x20C5220
+    // Offset: 0x1A7CA90
     void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x20C521C
+    // Offset: 0x1A7CA8C
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x20C52A8
+    // Offset: 0x1A7CB18
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0x20C52AC
+    // Offset: 0x1A7CB1C
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

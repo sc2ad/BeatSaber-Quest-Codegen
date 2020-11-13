@@ -106,76 +106,76 @@ namespace Org::BouncyCastle::Crypto::Modes {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher c)
-    // Offset: 0x14C0660
+    // Offset: 0x14AB800
     static GcmBlockCipher* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* c);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher c, Org.BouncyCastle.Crypto.Modes.Gcm.IGcmMultiplier m)
-    // Offset: 0x14C0668
+    // Offset: 0x14AB808
     static GcmBlockCipher* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* c, Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier* m);
     // public System.Void ProcessAadBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x14C119C
+    // Offset: 0x14AC33C
     void ProcessAadBytes(::Array<uint8_t>* inBytes, int inOff, int len);
     // private System.Void InitCipher()
-    // Offset: 0x14C1318
+    // Offset: 0x14AC4B8
     void InitCipher();
     // private System.Void Reset(System.Boolean clearMac)
-    // Offset: 0x14C1FA0
+    // Offset: 0x14AD140
     void Reset(bool clearMac);
     // private System.Void ProcessBlock(System.Byte[] buf, System.Int32 bufOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x14C1768
+    // Offset: 0x14AC908
     void ProcessBlock(::Array<uint8_t>* buf, int bufOff, ::Array<uint8_t>* output, int outOff);
     // private System.Void ProcessPartial(System.Byte[] buf, System.Int32 off, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x14C1E3C
+    // Offset: 0x14ACFDC
     void ProcessPartial(::Array<uint8_t>* buf, int off, int len, ::Array<uint8_t>* output, int outOff);
     // private System.Void gHASH(System.Byte[] Y, System.Byte[] b, System.Int32 len)
-    // Offset: 0x14C0F7C
+    // Offset: 0x14AC11C
     void gHASH(::Array<uint8_t>* Y, ::Array<uint8_t>* b, int len);
     // private System.Void gHASHBlock(System.Byte[] Y, System.Byte[] b)
-    // Offset: 0x14C1048
+    // Offset: 0x14AC1E8
     void gHASHBlock(::Array<uint8_t>* Y, ::Array<uint8_t>* b);
     // private System.Void gHASHBlock(System.Byte[] Y, System.Byte[] b, System.Int32 off)
-    // Offset: 0x14C2384
+    // Offset: 0x14AD524
     void gHASHBlock(::Array<uint8_t>* Y, ::Array<uint8_t>* b, int off);
     // private System.Void gHASHPartial(System.Byte[] Y, System.Byte[] b, System.Int32 off, System.Int32 len)
-    // Offset: 0x14C13BC
+    // Offset: 0x14AC55C
     void gHASHPartial(::Array<uint8_t>* Y, ::Array<uint8_t>* b, int off, int len);
     // private System.Void GetNextCtrBlock(System.Byte[] block)
-    // Offset: 0x14C21D0
+    // Offset: 0x14AD370
     void GetNextCtrBlock(::Array<uint8_t>* block);
     // private System.Void CheckStatus()
-    // Offset: 0x14C127C
+    // Offset: 0x14AC41C
     void CheckStatus();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x14C0804
+    // Offset: 0x14AB9A4
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadBlockCipher
     // Base method: System.Int32 IAeadBlockCipher::GetBlockSize()
     int GetBlockSize();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x14C080C
+    // Offset: 0x14AB9AC
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Void IAeadCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetOutputSize(System.Int32 len)
-    // Offset: 0x14C113C
+    // Offset: 0x14AC2DC
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Int32 IAeadCipher::GetOutputSize(System.Int32 len)
     int GetOutputSize(int len);
     // public System.Int32 GetUpdateOutputSize(System.Int32 len)
-    // Offset: 0x14C1164
+    // Offset: 0x14AC304
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Int32 IAeadCipher::GetUpdateOutputSize(System.Int32 len)
     int GetUpdateOutputSize(int len);
     // public System.Int32 ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x14C14C8
+    // Offset: 0x14AC668
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Int32 IAeadCipher::ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
     int ProcessBytes(::Array<uint8_t>* input, int inOff, int len, ::Array<uint8_t>* output, int outOff);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x14C18E0
+    // Offset: 0x14ACA80
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Int32 IAeadCipher::DoFinal(System.Byte[] output, System.Int32 outOff)
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x14C21C8
+    // Offset: 0x14AD368
     // Implemented from: Org.BouncyCastle.Crypto.Modes.IAeadCipher
     // Base method: System.Void IAeadCipher::Reset()
     void Reset();

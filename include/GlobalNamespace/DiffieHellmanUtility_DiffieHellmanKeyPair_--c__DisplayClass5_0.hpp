@@ -20,10 +20,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     ::Array<uint8_t>* clientPublicKey;
     // System.Byte[] <GetPreMasterSecretAsync>b__0()
-    // Offset: 0x215CF20
+    // Offset: 0x1B4B0C0
     ::Array<uint8_t>* $GetPreMasterSecretAsync$b__0();
     // public System.Void .ctor()
-    // Offset: 0x215CF18
+    // Offset: 0x1B4B040
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DiffieHellmanUtility::DiffieHellmanKeyPair::$$c__DisplayClass5_0* New_ctor();

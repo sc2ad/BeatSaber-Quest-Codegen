@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
       return RecordingUuid;
     }
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1136CD4
+    // Offset: 0x11D7994
     static AbuseReportRecording* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.AbuseReportRecording
 }

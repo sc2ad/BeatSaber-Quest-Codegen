@@ -44,10 +44,10 @@ namespace Zenject {
       return *reinterpret_cast<Zenject::ILateDisposable*>(this);
     }
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IMemoryPool> poolFactories, System.Collections.Generic.List`1<System.Type> ignoredPools)
-    // Offset: 0x12E9130
+    // Offset: 0x134891C
     static PoolCleanupChecker* New_ctor(System::Collections::Generic::List_1<Zenject::IMemoryPool*>* poolFactories, System::Collections::Generic::List_1<System::Type*>* ignoredPools);
     // public System.Void LateDispose()
-    // Offset: 0x12E9264
+    // Offset: 0x1348A50
     // Implemented from: Zenject.ILateDisposable
     // Base method: System.Void ILateDisposable::LateDispose()
     void LateDispose();

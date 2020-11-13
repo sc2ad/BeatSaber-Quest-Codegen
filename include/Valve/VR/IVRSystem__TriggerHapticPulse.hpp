@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRSystem::_TriggerHapticPulse : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1CB3248
+    // Offset: 0x1931420
     static IVRSystem::_TriggerHapticPulse* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.UInt32 unControllerDeviceIndex, System.UInt32 unAxisId, System.Char usDurationMicroSec)
-    // Offset: 0x1CB325C
+    // Offset: 0x1931434
     void Invoke(uint unControllerDeviceIndex, uint unAxisId, ::Il2CppChar usDurationMicroSec);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unControllerDeviceIndex, System.UInt32 unAxisId, System.Char usDurationMicroSec, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1CB3500
+    // Offset: 0x19316D8
     System::IAsyncResult* BeginInvoke(uint unControllerDeviceIndex, uint unAxisId, ::Il2CppChar usDurationMicroSec, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1CB35C4
+    // Offset: 0x193179C
     void EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_TriggerHapticPulse
 }

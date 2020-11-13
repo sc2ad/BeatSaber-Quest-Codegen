@@ -34,13 +34,13 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::MultiplayerResultsTableCell* cell;
     // System.Void <StartAnimation>b__0(UnityEngine.Vector2 val)
-    // Offset: 0x1FD784C
+    // Offset: 0xF7E684
     void $StartAnimation$b__0(UnityEngine::Vector2 val);
     // System.Void <StartAnimation>b__2(System.Single val)
-    // Offset: 0x1FD7868
+    // Offset: 0xF7E6A0
     void $StartAnimation$b__2(float val);
     // public System.Void .ctor()
-    // Offset: 0x1FD7630
+    // Offset: 0xF7E468
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MultiplayerResultsTableView::$$c__DisplayClass31_0* New_ctor();

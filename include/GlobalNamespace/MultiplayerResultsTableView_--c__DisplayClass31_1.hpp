@@ -30,10 +30,10 @@ namespace GlobalNamespace {
       return winnerRectTransform;
     }
     // System.Void <StartAnimation>b__3(UnityEngine.Vector2 val)
-    // Offset: 0x1FD7880
+    // Offset: 0xF7E6B8
     void $StartAnimation$b__3(UnityEngine::Vector2 val);
     // public System.Void .ctor()
-    // Offset: 0x1FD7638
+    // Offset: 0xF7E470
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MultiplayerResultsTableView::$$c__DisplayClass31_1* New_ctor();

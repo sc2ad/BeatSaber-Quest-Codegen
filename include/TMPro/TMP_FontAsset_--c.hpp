@@ -44,16 +44,16 @@ namespace TMPro {
     // Set static field: static public System.Func`2<UnityEngine.TextCore.Glyph,System.UInt32> <>9__101_0
     static void _set_$$9__101_0(System::Func_2<UnityEngine::TextCore::Glyph*, uint>* value);
     // static private System.Void .cctor()
-    // Offset: 0xEC8238
+    // Offset: 0xF5D310
     static void _cctor();
     // System.UInt32 <SortCharacterTable>b__100_0(TMPro.TMP_Character c)
-    // Offset: 0xEC82A8
+    // Offset: 0xF5D380
     uint $SortCharacterTable$b__100_0(TMPro::TMP_Character* c);
     // System.UInt32 <SortGlyphTable>b__101_0(UnityEngine.TextCore.Glyph c)
-    // Offset: 0xEC82C0
+    // Offset: 0xF5D398
     uint $SortGlyphTable$b__101_0(UnityEngine::TextCore::Glyph* c);
     // public System.Void .ctor()
-    // Offset: 0xEC82A0
+    // Offset: 0xF5D378
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_FontAsset::$$c* New_ctor();

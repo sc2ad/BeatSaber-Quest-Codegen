@@ -51,15 +51,15 @@ namespace Zenject {
       return gameObjectBindInfo;
     }
     // public System.Void .ctor(Zenject.DiContainer container, System.Type componentType, System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArguments, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.Object concreteIdentifier, System.Action`2<Zenject.InjectContext,System.Object> instantiateCallback)
-    // Offset: 0xFEED9C
+    // Offset: 0x10EA744
     static AddToNewGameObjectComponentProvider* New_ctor(Zenject::DiContainer* container, System::Type* componentType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>* extraArguments, Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Il2CppObject* concreteIdentifier, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback);
     // protected override System.Boolean get_ShouldToggleActive()
-    // Offset: 0xFEEDD4
+    // Offset: 0x10EA77C
     // Implemented from: Zenject.AddToGameObjectComponentProviderBase
     // Base method: System.Boolean AddToGameObjectComponentProviderBase::get_ShouldToggleActive()
     bool get_ShouldToggleActive();
     // protected override UnityEngine.GameObject GetGameObject(Zenject.InjectContext context)
-    // Offset: 0xFEEDDC
+    // Offset: 0x10EA784
     // Implemented from: Zenject.AddToGameObjectComponentProviderBase
     // Base method: UnityEngine.GameObject AddToGameObjectComponentProviderBase::GetGameObject(Zenject.InjectContext context)
     UnityEngine::GameObject* GetGameObject(Zenject::InjectContext* context);

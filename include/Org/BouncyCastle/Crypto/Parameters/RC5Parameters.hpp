@@ -19,7 +19,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Deleting conversion operator: operator ::Array<uint8_t>*
     constexpr operator ::Array<uint8_t>*() const noexcept = delete;
     // public System.Int32 get_Rounds()
-    // Offset: 0xF4D600
+    // Offset: 0x104900C
     int get_Rounds();
   }; // Org.BouncyCastle.Crypto.Parameters.RC5Parameters
 }

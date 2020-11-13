@@ -33,10 +33,10 @@ namespace NUnit::Compatibility {
       return to;
     }
     // public System.Boolean <IsCastableFrom>b__0(System.Reflection.MethodInfo m)
-    // Offset: 0x13B2488
+    // Offset: 0x13D7E20
     bool $IsCastableFrom$b__0(System::Reflection::MethodInfo* m);
     // public System.Void .ctor()
-    // Offset: 0x13B1A58
+    // Offset: 0x13D73F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AdditionalTypeExtensions::$$c__DisplayClass1* New_ctor();

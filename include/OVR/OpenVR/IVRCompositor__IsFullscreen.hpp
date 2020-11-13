@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_IsFullscreen : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AADE44
+    // Offset: 0x185D37C
     static IVRCompositor::_IsFullscreen* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
-    // Offset: 0x1AADE58
+    // Offset: 0x185D390
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AAE070
+    // Offset: 0x185D5A8
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1AAE09C
+    // Offset: 0x185D5D4
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_IsFullscreen
 }

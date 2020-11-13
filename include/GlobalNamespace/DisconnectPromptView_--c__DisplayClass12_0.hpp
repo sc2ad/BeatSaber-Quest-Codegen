@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::DisconnectPromptView* $$4__this;
     // System.Void <Hide>b__0()
-    // Offset: 0x2018DE4
+    // Offset: 0x1A5BB58
     void $Hide$b__0();
     // public System.Void .ctor()
-    // Offset: 0x2018CA0
+    // Offset: 0x1A5BA14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DisconnectPromptView::$$c__DisplayClass12_0* New_ctor();

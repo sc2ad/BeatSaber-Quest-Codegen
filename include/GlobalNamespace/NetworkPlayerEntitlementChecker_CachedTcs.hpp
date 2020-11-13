@@ -36,16 +36,16 @@ namespace GlobalNamespace {
     // Offset: 0x20
     float creationTime;
     // public System.Threading.Tasks.Task`1<EntitlementsStatus> get_task()
-    // Offset: 0x1FE2D80
+    // Offset: 0xFDB718
     System::Threading::Tasks::Task_1<GlobalNamespace::EntitlementsStatus>* get_task();
     // public System.Void SetResult(EntitlementsStatus status)
-    // Offset: 0x1FE2224
+    // Offset: 0xFDABBC
     void SetResult(GlobalNamespace::EntitlementsStatus status);
     // public System.Boolean Refresh()
-    // Offset: 0x1FE2CEC
+    // Offset: 0xFDB684
     bool Refresh();
     // public System.Void .ctor()
-    // Offset: 0x1FE2758
+    // Offset: 0xFDB0F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NetworkPlayerEntitlementChecker::CachedTcs* New_ctor();

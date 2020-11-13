@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_GetProjectionRaw : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C961CC
+    // Offset: 0x19143A4
     static IVRSystem::_GetProjectionRaw* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(OVR.OpenVR.EVREye eEye, ref System.Single pfLeft, ref System.Single pfRight, ref System.Single pfTop, ref System.Single pfBottom)
-    // Offset: 0x1C961E0
+    // Offset: 0x19143B8
     void Invoke(OVR::OpenVR::EVREye eEye, float& pfLeft, float& pfRight, float& pfTop, float& pfBottom);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.EVREye eEye, ref System.Single pfLeft, ref System.Single pfRight, ref System.Single pfTop, ref System.Single pfBottom, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C964BC
+    // Offset: 0x1914694
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::EVREye eEye, float& pfLeft, float& pfRight, float& pfTop, float& pfBottom, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(ref System.Single pfLeft, ref System.Single pfRight, ref System.Single pfTop, ref System.Single pfBottom, System.IAsyncResult result)
-    // Offset: 0x1C965C0
+    // Offset: 0x1914798
     void EndInvoke(float& pfLeft, float& pfRight, float& pfTop, float& pfBottom, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetProjectionRaw
 }

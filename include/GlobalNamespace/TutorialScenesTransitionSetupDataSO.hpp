@@ -77,19 +77,19 @@ namespace GlobalNamespace {
     // Offset: 0x40
     System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`2<TutorialScenesTransitionSetupDataSO,TutorialScenesTransitionSetupDataSO/TutorialEndStateType> value)
-    // Offset: 0x1FA135C
+    // Offset: 0xFF2D54
     void add_didFinishEvent(System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<TutorialScenesTransitionSetupDataSO,TutorialScenesTransitionSetupDataSO/TutorialEndStateType> value)
-    // Offset: 0x1FA1400
+    // Offset: 0xFF2DF8
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>* value);
     // public System.Void Init()
-    // Offset: 0x1FA0374
+    // Offset: 0xFF1C10
     void Init();
     // public System.Void Finish(TutorialScenesTransitionSetupDataSO/TutorialEndStateType endState)
-    // Offset: 0x1F9FAD0
+    // Offset: 0xFF1304
     void Finish(GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType endState);
     // public System.Void .ctor()
-    // Offset: 0x1FA14A4
+    // Offset: 0xFF2E9C
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

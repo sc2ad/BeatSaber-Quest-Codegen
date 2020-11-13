@@ -44,37 +44,37 @@ namespace TMPro {
     // Set static field: static private TMPro.TMP_UpdateRegistry s_Instance
     static void _set_s_Instance(TMPro::TMP_UpdateRegistry* value);
     // static public TMPro.TMP_UpdateRegistry get_instance()
-    // Offset: 0x10610C0
+    // Offset: 0x11389F0
     static TMPro::TMP_UpdateRegistry* get_instance();
     // static public System.Void RegisterCanvasElementForLayoutRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x1061284
+    // Offset: 0x1138BB4
     static void RegisterCanvasElementForLayoutRebuild(UnityEngine::UI::ICanvasElement* element);
     // private System.Boolean InternalRegisterCanvasElementForLayoutRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x10612B0
+    // Offset: 0x1138BE0
     bool InternalRegisterCanvasElementForLayoutRebuild(UnityEngine::UI::ICanvasElement* element);
     // static public System.Void RegisterCanvasElementForGraphicRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x10613B4
+    // Offset: 0x1138CE4
     static void RegisterCanvasElementForGraphicRebuild(UnityEngine::UI::ICanvasElement* element);
     // private System.Boolean InternalRegisterCanvasElementForGraphicRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x10613E0
+    // Offset: 0x1138D10
     bool InternalRegisterCanvasElementForGraphicRebuild(UnityEngine::UI::ICanvasElement* element);
     // private System.Void PerformUpdateForCanvasRendererObjects()
-    // Offset: 0x10614E4
+    // Offset: 0x1138E14
     void PerformUpdateForCanvasRendererObjects();
     // private System.Void PerformUpdateForMeshRendererObjects()
-    // Offset: 0x1061724
+    // Offset: 0x1139054
     void PerformUpdateForMeshRendererObjects();
     // static public System.Void UnRegisterCanvasElementForRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x1061790
+    // Offset: 0x11390C0
     static void UnRegisterCanvasElementForRebuild(UnityEngine::UI::ICanvasElement* element);
     // private System.Void InternalUnRegisterCanvasElementForLayoutRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x10617CC
+    // Offset: 0x11390FC
     void InternalUnRegisterCanvasElementForLayoutRebuild(UnityEngine::UI::ICanvasElement* element);
     // private System.Void InternalUnRegisterCanvasElementForGraphicRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x10618A0
+    // Offset: 0x11391D0
     void InternalUnRegisterCanvasElementForGraphicRebuild(UnityEngine::UI::ICanvasElement* element);
     // protected System.Void .ctor()
-    // Offset: 0x1061144
+    // Offset: 0x1138A74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_UpdateRegistry* New_ctor();

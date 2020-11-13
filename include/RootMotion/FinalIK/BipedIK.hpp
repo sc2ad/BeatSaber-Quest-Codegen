@@ -41,85 +41,85 @@ namespace RootMotion::FinalIK {
     // Offset: 0x40
     RootMotion::FinalIK::BipedIKSolvers* solvers;
     // private System.Void OpenUserManual()
-    // Offset: 0x186D85C
+    // Offset: 0x174B7C0
     void OpenUserManual();
     // private System.Void OpenScriptReference()
-    // Offset: 0x186D8A8
+    // Offset: 0x174B80C
     void OpenScriptReference();
     // private System.Void SupportGroup()
-    // Offset: 0x186D8F4
+    // Offset: 0x174B858
     void SupportGroup();
     // private System.Void ASThread()
-    // Offset: 0x186D940
+    // Offset: 0x174B8A4
     void ASThread();
     // public System.Single GetIKPositionWeight(UnityEngine.AvatarIKGoal goal)
-    // Offset: 0x186D98C
+    // Offset: 0x174B8F0
     float GetIKPositionWeight(UnityEngine::AvatarIKGoal goal);
     // public System.Single GetIKRotationWeight(UnityEngine.AvatarIKGoal goal)
-    // Offset: 0x186DA28
+    // Offset: 0x174B98C
     float GetIKRotationWeight(UnityEngine::AvatarIKGoal goal);
     // public System.Void SetIKPositionWeight(UnityEngine.AvatarIKGoal goal, System.Single weight)
-    // Offset: 0x186DA48
+    // Offset: 0x174B9AC
     void SetIKPositionWeight(UnityEngine::AvatarIKGoal goal, float weight);
     // public System.Void SetIKRotationWeight(UnityEngine.AvatarIKGoal goal, System.Single weight)
-    // Offset: 0x186DA78
+    // Offset: 0x174B9DC
     void SetIKRotationWeight(UnityEngine::AvatarIKGoal goal, float weight);
     // public System.Void SetIKPosition(UnityEngine.AvatarIKGoal goal, UnityEngine.Vector3 IKPosition)
-    // Offset: 0x186DAA8
+    // Offset: 0x174BA0C
     void SetIKPosition(UnityEngine::AvatarIKGoal goal, UnityEngine::Vector3 IKPosition);
     // public System.Void SetIKRotation(UnityEngine.AvatarIKGoal goal, UnityEngine.Quaternion IKRotation)
-    // Offset: 0x186DAE8
+    // Offset: 0x174BA4C
     void SetIKRotation(UnityEngine::AvatarIKGoal goal, UnityEngine::Quaternion IKRotation);
     // public UnityEngine.Vector3 GetIKPosition(UnityEngine.AvatarIKGoal goal)
-    // Offset: 0x186DB2C
+    // Offset: 0x174BA90
     UnityEngine::Vector3 GetIKPosition(UnityEngine::AvatarIKGoal goal);
     // public UnityEngine.Quaternion GetIKRotation(UnityEngine.AvatarIKGoal goal)
-    // Offset: 0x186DB50
+    // Offset: 0x174BAB4
     UnityEngine::Quaternion GetIKRotation(UnityEngine::AvatarIKGoal goal);
     // public System.Void SetLookAtWeight(System.Single weight, System.Single bodyWeight, System.Single headWeight, System.Single eyesWeight, System.Single clampWeight, System.Single clampWeightHead, System.Single clampWeightEyes)
-    // Offset: 0x186DB74
+    // Offset: 0x174BAD8
     void SetLookAtWeight(float weight, float bodyWeight, float headWeight, float eyesWeight, float clampWeight, float clampWeightHead, float clampWeightEyes);
     // public System.Void SetLookAtPosition(UnityEngine.Vector3 lookAtPosition)
-    // Offset: 0x186DB9C
+    // Offset: 0x174BB00
     void SetLookAtPosition(UnityEngine::Vector3 lookAtPosition);
     // public System.Void SetSpinePosition(UnityEngine.Vector3 spinePosition)
-    // Offset: 0x186DBC8
+    // Offset: 0x174BB2C
     void SetSpinePosition(UnityEngine::Vector3 spinePosition);
     // public System.Void SetSpineWeight(System.Single weight)
-    // Offset: 0x186DBF4
+    // Offset: 0x174BB58
     void SetSpineWeight(float weight);
     // public RootMotion.FinalIK.IKSolverLimb GetGoalIK(UnityEngine.AvatarIKGoal goal)
-    // Offset: 0x186D9AC
+    // Offset: 0x174B910
     RootMotion::FinalIK::IKSolverLimb* GetGoalIK(UnityEngine::AvatarIKGoal goal);
     // public System.Void InitiateBipedIK()
-    // Offset: 0x186DC1C
+    // Offset: 0x174BB80
     void InitiateBipedIK();
     // public System.Void UpdateBipedIK()
-    // Offset: 0x186DC28
+    // Offset: 0x174BB8C
     void UpdateBipedIK();
     // public System.Void SetToDefaults()
-    // Offset: 0x186DC34
+    // Offset: 0x174BB98
     void SetToDefaults();
     // public System.Void LogWarning(System.String message)
-    // Offset: 0x186E834
+    // Offset: 0x174C798
     void LogWarning(::Il2CppString* message);
     // protected override System.Void FixTransforms()
-    // Offset: 0x186DF5C
+    // Offset: 0x174BEC0
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::FixTransforms()
     void FixTransforms();
     // protected override System.Void InitiateSolver()
-    // Offset: 0x186E004
+    // Offset: 0x174BF68
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::InitiateSolver()
     void InitiateSolver();
     // protected override System.Void UpdateSolver()
-    // Offset: 0x186E34C
+    // Offset: 0x174C2B0
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::UpdateSolver()
     void UpdateSolver();
     // public System.Void .ctor()
-    // Offset: 0x186E868
+    // Offset: 0x174C7CC
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

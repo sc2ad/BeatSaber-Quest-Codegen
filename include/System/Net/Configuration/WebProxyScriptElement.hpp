@@ -21,12 +21,12 @@ namespace System::Net::Configuration {
   class WebProxyScriptElement : public System::Configuration::ConfigurationElement {
     public:
     // public System.Void .ctor()
-    // Offset: 0x12AD920
+    // Offset: 0x130D10C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static WebProxyScriptElement* New_ctor();
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x12AD960
+    // Offset: 0x130D14C
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();

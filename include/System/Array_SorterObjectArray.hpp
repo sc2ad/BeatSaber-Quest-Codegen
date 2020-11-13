@@ -34,34 +34,34 @@ namespace System {
     // Creating value type constructor for type: SorterObjectArray
     constexpr SorterObjectArray(::Array<::Il2CppObject*>* keys_ = {}, ::Array<::Il2CppObject*>* items_ = {}, System::Collections::IComparer* comparer_ = {}) noexcept : keys{keys_}, items{items_}, comparer{comparer_} {}
     // System.Void .ctor(System.Object[] keys, System.Object[] items, System.Collections.IComparer comparer)
-    // Offset: 0xC6EE78
+    // Offset: 0xE8B550
     // ABORTED: conflicts with another method.  SorterObjectArray(::Array<::Il2CppObject*>* keys, ::Array<::Il2CppObject*>* items, System::Collections::IComparer* comparer);
     // System.Void SwapIfGreaterWithItems(System.Int32 a, System.Int32 b)
-    // Offset: 0xC6EE80
+    // Offset: 0xE8B558
     void SwapIfGreaterWithItems(int a, int b);
     // private System.Void Swap(System.Int32 i, System.Int32 j)
-    // Offset: 0xC6EE88
+    // Offset: 0xE8B560
     void Swap(int i, int j);
     // System.Void Sort(System.Int32 left, System.Int32 length)
-    // Offset: 0xC6EE90
+    // Offset: 0xE8B568
     void Sort(int left, int length);
     // private System.Void IntrospectiveSort(System.Int32 left, System.Int32 length)
-    // Offset: 0xC6EE98
+    // Offset: 0xE8B570
     void IntrospectiveSort(int left, int length);
     // private System.Void IntroSort(System.Int32 lo, System.Int32 hi, System.Int32 depthLimit)
-    // Offset: 0xC6EEA0
+    // Offset: 0xE8B578
     void IntroSort(int lo, int hi, int depthLimit);
     // private System.Int32 PickPivotAndPartition(System.Int32 lo, System.Int32 hi)
-    // Offset: 0xC6EEA8
+    // Offset: 0xE8B580
     int PickPivotAndPartition(int lo, int hi);
     // private System.Void Heapsort(System.Int32 lo, System.Int32 hi)
-    // Offset: 0xC6EEB0
+    // Offset: 0xE8B588
     void Heapsort(int lo, int hi);
     // private System.Void DownHeap(System.Int32 i, System.Int32 n, System.Int32 lo)
-    // Offset: 0xC6EEB8
+    // Offset: 0xE8B590
     void DownHeap(int i, int n, int lo);
     // private System.Void InsertionSort(System.Int32 lo, System.Int32 hi)
-    // Offset: 0xC6EEC0
+    // Offset: 0xE8B598
     void InsertionSort(int lo, int hi);
   }; // System.Array/SorterObjectArray
 }

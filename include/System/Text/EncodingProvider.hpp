@@ -37,19 +37,19 @@ namespace System::Text {
     // Offset: 0xFFFFFFFF
     System::Text::Encoding* GetEncoding(int codepage);
     // public System.Text.Encoding GetEncoding(System.Int32 codepage, System.Text.EncoderFallback encoderFallback, System.Text.DecoderFallback decoderFallback)
-    // Offset: 0x16359C8
+    // Offset: 0x15A47C4
     System::Text::Encoding* GetEncoding(int codepage, System::Text::EncoderFallback* encoderFallback, System::Text::DecoderFallback* decoderFallback);
     // static System.Text.Encoding GetEncodingFromProvider(System.Int32 codepage)
-    // Offset: 0x1630A58
+    // Offset: 0x159F854
     static System::Text::Encoding* GetEncodingFromProvider(int codepage);
     // static System.Text.Encoding GetEncodingFromProvider(System.String encodingName)
-    // Offset: 0x1631ADC
+    // Offset: 0x15A08D8
     static System::Text::Encoding* GetEncodingFromProvider(::Il2CppString* encodingName);
     // static System.Text.Encoding GetEncodingFromProvider(System.Int32 codepage, System.Text.EncoderFallback enc, System.Text.DecoderFallback dec)
-    // Offset: 0x163173C
+    // Offset: 0x15A0538
     static System::Text::Encoding* GetEncodingFromProvider(int codepage, System::Text::EncoderFallback* enc, System::Text::DecoderFallback* dec);
     // static private System.Void .cctor()
-    // Offset: 0x1635ACC
+    // Offset: 0x15A48C8
     static void _cctor();
   }; // System.Text.EncodingProvider
 }

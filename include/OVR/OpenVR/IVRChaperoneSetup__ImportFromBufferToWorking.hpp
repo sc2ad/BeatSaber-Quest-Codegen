@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRChaperoneSetup::_ImportFromBufferToWorking : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x115AEB4
+    // Offset: 0x11FBB74
     static IVRChaperoneSetup::_ImportFromBufferToWorking* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.String pBuffer, System.UInt32 nImportFlags)
-    // Offset: 0x11538F8
+    // Offset: 0x11F45B8
     bool Invoke(::Il2CppString* pBuffer, uint nImportFlags);
     // public System.IAsyncResult BeginInvoke(System.String pBuffer, System.UInt32 nImportFlags, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x115AEC8
+    // Offset: 0x11FBB88
     System::IAsyncResult* BeginInvoke(::Il2CppString* pBuffer, uint nImportFlags, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x115AF64
+    // Offset: 0x11FBC24
     bool EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRChaperoneSetup/_ImportFromBufferToWorking
 }

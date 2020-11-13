@@ -81,82 +81,82 @@ namespace UnityEngine::UI {
       return *reinterpret_cast<UnityEngine::UI::IMaterialModifier*>(this);
     }
     // public UnityEngine.UI.MaskableGraphic/CullStateChangedEvent get_onCullStateChanged()
-    // Offset: 0x15E15B8
+    // Offset: 0x1565C5C
     UnityEngine::UI::MaskableGraphic::CullStateChangedEvent* get_onCullStateChanged();
     // public System.Void set_onCullStateChanged(UnityEngine.UI.MaskableGraphic/CullStateChangedEvent value)
-    // Offset: 0x15E15C0
+    // Offset: 0x1565C64
     void set_onCullStateChanged(UnityEngine::UI::MaskableGraphic::CullStateChangedEvent* value);
     // public System.Boolean get_maskable()
-    // Offset: 0x15E15C8
+    // Offset: 0x1565C6C
     bool get_maskable();
     // public System.Void set_maskable(System.Boolean value)
-    // Offset: 0x15E15D0
+    // Offset: 0x1565C74
     void set_maskable(bool value);
     // public System.Boolean get_isMaskingGraphic()
-    // Offset: 0x15E1608
+    // Offset: 0x1565CAC
     bool get_isMaskingGraphic();
     // public System.Void set_isMaskingGraphic(System.Boolean value)
-    // Offset: 0x15DFEFC
+    // Offset: 0x15645A0
     void set_isMaskingGraphic(bool value);
     // private System.Void UpdateCull(System.Boolean cull)
-    // Offset: 0x15E1AE8
+    // Offset: 0x156618C
     void UpdateCull(bool cull);
     // public System.Void ParentMaskStateChanged()
-    // Offset: 0x15E1F60
+    // Offset: 0x1566604
     void ParentMaskStateChanged();
     // private UnityEngine.Rect get_rootCanvasRect()
-    // Offset: 0x15E1798
+    // Offset: 0x1565E3C
     UnityEngine::Rect get_rootCanvasRect();
     // private System.Void UpdateClipParent()
-    // Offset: 0x15E1CA8
+    // Offset: 0x156634C
     void UpdateClipParent();
     // public UnityEngine.Material GetModifiedMaterial(UnityEngine.Material baseMaterial)
-    // Offset: 0x15E1610
+    // Offset: 0x1565CB4
     // Implemented from: UnityEngine.UI.IMaterialModifier
     // Base method: UnityEngine.Material IMaterialModifier::GetModifiedMaterial(UnityEngine.Material baseMaterial)
     UnityEngine::Material* GetModifiedMaterial(UnityEngine::Material* baseMaterial);
     // public System.Void Cull(UnityEngine.Rect clipRect, System.Boolean validRect)
-    // Offset: 0x15E1738
+    // Offset: 0x1565DDC
     // Implemented from: UnityEngine.UI.IClippable
     // Base method: System.Void IClippable::Cull(UnityEngine.Rect clipRect, System.Boolean validRect)
     void Cull(UnityEngine::Rect clipRect, bool validRect);
     // public System.Void SetClipRect(UnityEngine.Rect clipRect, System.Boolean validRect)
-    // Offset: 0x15E1BCC
+    // Offset: 0x1566270
     // Implemented from: UnityEngine.UI.IClippable
     // Base method: System.Void IClippable::SetClipRect(UnityEngine.Rect clipRect, System.Boolean validRect)
     void SetClipRect(UnityEngine::Rect clipRect, bool validRect);
     // protected override System.Void OnEnable()
-    // Offset: 0x15E1C48
+    // Offset: 0x15662EC
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x15E1E28
+    // Offset: 0x15664CC
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnDisable()
     void OnDisable();
     // protected override System.Void OnTransformParentChanged()
-    // Offset: 0x15E1F00
+    // Offset: 0x15665A4
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnTransformParentChanged()
     void OnTransformParentChanged();
     // protected override System.Void OnCanvasHierarchyChanged()
-    // Offset: 0x15E1F64
+    // Offset: 0x1566608
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnCanvasHierarchyChanged()
     void OnCanvasHierarchyChanged();
     // public System.Void RecalculateClipping()
-    // Offset: 0x15E2254
+    // Offset: 0x15668F8
     // Implemented from: UnityEngine.UI.IClippable
     // Base method: System.Void IClippable::RecalculateClipping()
     void RecalculateClipping();
     // public System.Void RecalculateMasking()
-    // Offset: 0x15E2258
+    // Offset: 0x15668FC
     // Implemented from: UnityEngine.UI.IMaskable
     // Base method: System.Void IMaskable::RecalculateMasking()
     void RecalculateMasking();
     // protected System.Void .ctor()
-    // Offset: 0x15E22FC
+    // Offset: 0x15669A0
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -167,7 +167,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static MaskableGraphic* New_ctor();
     // private UnityEngine.GameObject UnityEngine.UI.IClippable.get_gameObject()
-    // Offset: 0x15E2418
+    // Offset: 0x1566ABC
     // Implemented from: UnityEngine.UI.IClippable
     // Base method: UnityEngine.GameObject IClippable::get_gameObject()
     UnityEngine::GameObject* UnityEngine_UI_IClippable_get_gameObject();

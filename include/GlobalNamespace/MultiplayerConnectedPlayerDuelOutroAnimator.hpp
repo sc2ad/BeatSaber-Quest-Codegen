@@ -70,21 +70,21 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDestroy()
-    // Offset: 0x205FB30
+    // Offset: 0xFA9574
     void OnDestroy();
     // private System.Void InitIfNeeded()
-    // Offset: 0x205FBC8
+    // Offset: 0xFA960C
     void InitIfNeeded();
     // private System.Void <InitIfNeeded>b__9_0(UnityEngine.Vector3 val)
-    // Offset: 0x205FE5C
+    // Offset: 0xFA98A0
     void $InitIfNeeded$b__9_0(UnityEngine::Vector3 val);
     // public System.Void Animate(System.Single duration)
-    // Offset: 0x205FD14
+    // Offset: 0xFA9758
     // Implemented from: IMultiplayerConnectedPlayerOutroAnimator
     // Base method: System.Void IMultiplayerConnectedPlayerOutroAnimator::Animate(System.Single duration)
     void Animate(float duration);
     // public System.Void .ctor()
-    // Offset: 0x205FE54
+    // Offset: 0xFA9898
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -49,48 +49,48 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x38
     Org::BouncyCastle::Math::BigInteger* hInv;
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X9.X9ECParameters x9)
-    // Offset: 0xF49DE4
+    // Offset: 0x10457F0
     static ECDomainParameters* New_ctor(Org::BouncyCastle::Asn1::X9::X9ECParameters* x9);
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECPoint g, Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger h)
-    // Offset: 0xF49FB4
+    // Offset: 0x10459C0
     static ECDomainParameters* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECPoint* g, Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* h);
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECPoint g, Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger h, System.Byte[] seed)
-    // Offset: 0xF49E38
+    // Offset: 0x1045844
     static ECDomainParameters* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECPoint* g, Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* h, ::Array<uint8_t>* seed);
     // public Org.BouncyCastle.Math.EC.ECCurve get_Curve()
-    // Offset: 0xF4A0F8
+    // Offset: 0x1045B04
     Org::BouncyCastle::Math::EC::ECCurve* get_Curve();
     // public Org.BouncyCastle.Math.EC.ECPoint get_G()
-    // Offset: 0xF4A100
+    // Offset: 0x1045B0C
     Org::BouncyCastle::Math::EC::ECPoint* get_G();
     // public Org.BouncyCastle.Math.BigInteger get_N()
-    // Offset: 0xF4A108
+    // Offset: 0x1045B14
     Org::BouncyCastle::Math::BigInteger* get_N();
     // public Org.BouncyCastle.Math.BigInteger get_H()
-    // Offset: 0xF4A110
+    // Offset: 0x1045B1C
     Org::BouncyCastle::Math::BigInteger* get_H();
     // public Org.BouncyCastle.Math.BigInteger get_HInv()
-    // Offset: 0xF4A118
+    // Offset: 0x1045B24
     Org::BouncyCastle::Math::BigInteger* get_HInv();
     // public System.Byte[] GetSeed()
-    // Offset: 0xF4A318
+    // Offset: 0x1045D24
     ::Array<uint8_t>* GetSeed();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.ECDomainParameters other)
-    // Offset: 0xF4A43C
+    // Offset: 0x1045E48
     bool Equals(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* other);
     // public Org.BouncyCastle.Math.BigInteger ValidatePrivateScalar(Org.BouncyCastle.Math.BigInteger d)
-    // Offset: 0xF4A548
+    // Offset: 0x1045F54
     Org::BouncyCastle::Math::BigInteger* ValidatePrivateScalar(Org::BouncyCastle::Math::BigInteger* d);
     // static Org.BouncyCastle.Math.EC.ECPoint ValidatePublicPoint(Org.BouncyCastle.Math.EC.ECCurve c, Org.BouncyCastle.Math.EC.ECPoint q)
-    // Offset: 0xF49FBC
+    // Offset: 0x10459C8
     static Org::BouncyCastle::Math::EC::ECPoint* ValidatePublicPoint(Org::BouncyCastle::Math::EC::ECCurve* c, Org::BouncyCastle::Math::EC::ECPoint* q);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF4A384
+    // Offset: 0x1045D90
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF4A4C8
+    // Offset: 0x1045ED4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

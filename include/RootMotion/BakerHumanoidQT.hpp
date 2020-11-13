@@ -85,34 +85,34 @@ namespace RootMotion {
     // Offset: 0x9C
     bool lastQSet;
     // public System.Void .ctor(System.String name)
-    // Offset: 0x1860F2C
+    // Offset: 0x173EE90
     static BakerHumanoidQT* New_ctor(::Il2CppString* name);
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.AvatarIKGoal goal, System.String name)
-    // Offset: 0x1861224
+    // Offset: 0x173F188
     static BakerHumanoidQT* New_ctor(UnityEngine::Transform* transform, UnityEngine::AvatarIKGoal goal, ::Il2CppString* name);
     // public System.Void Reset()
-    // Offset: 0x18610A0
+    // Offset: 0x173F004
     void Reset();
     // public System.Void SetIKKeyframes(System.Single time, UnityEngine.Avatar avatar, System.Single humanScale, UnityEngine.Vector3 bodyPosition, UnityEngine.Quaternion bodyRotation)
-    // Offset: 0x18613BC
+    // Offset: 0x173F320
     void SetIKKeyframes(float time, UnityEngine::Avatar* avatar, float humanScale, UnityEngine::Vector3 bodyPosition, UnityEngine::Quaternion bodyRotation);
     // public System.Void SetKeyframes(System.Single time, UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0x1861864
+    // Offset: 0x173F7C8
     void SetKeyframes(float time, UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // public System.Void MoveLastKeyframes(System.Single time)
-    // Offset: 0x1861960
+    // Offset: 0x173F8C4
     void MoveLastKeyframes(float time);
     // public System.Void SetLoopFrame(System.Single time)
-    // Offset: 0x1861A5C
+    // Offset: 0x173F9C0
     void SetLoopFrame(float time);
     // private System.Void MoveLastKeyframe(System.Single time, UnityEngine.AnimationCurve curve)
-    // Offset: 0x18619D4
+    // Offset: 0x173F938
     void MoveLastKeyframe(float time, UnityEngine::AnimationCurve* curve);
     // public System.Void MultiplyLength(UnityEngine.AnimationCurve curve, System.Single mlp)
-    // Offset: 0x1861D1C
+    // Offset: 0x173FC80
     void MultiplyLength(UnityEngine::AnimationCurve* curve, float mlp);
     // public System.Void SetCurves(ref UnityEngine.AnimationClip clip, System.Single maxError, System.Single lengthMlp)
-    // Offset: 0x1861DD0
+    // Offset: 0x173FD34
     void SetCurves(UnityEngine::AnimationClip*& clip, float maxError, float lengthMlp);
   }; // RootMotion.BakerHumanoidQT
 }

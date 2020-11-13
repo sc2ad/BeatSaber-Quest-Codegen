@@ -90,39 +90,39 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didChangeGameplayModifiersEvent(System.Action value)
-    // Offset: 0x2009B04
+    // Offset: 0xF0F7F8
     void add_didChangeGameplayModifiersEvent(System::Action* value);
     // public System.Void remove_didChangeGameplayModifiersEvent(System.Action value)
-    // Offset: 0x2009BA8
+    // Offset: 0xF0F89C
     void remove_didChangeGameplayModifiersEvent(System::Action* value);
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x2009C4C
+    // Offset: 0xF0F940
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void SetData(GameplayModifiers newGameplayModifiers)
-    // Offset: 0x2009C54
+    // Offset: 0xF0F948
     void SetData(GlobalNamespace::GameplayModifiers* newGameplayModifiers);
     // protected System.Void Awake()
-    // Offset: 0x2009C5C
+    // Offset: 0xF0F950
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0x2009E00
+    // Offset: 0xF0FAF4
     void OnDestroy();
     // private System.Void SetToggleValueWithGameplayModifierParams(GameplayModifierParamsSO gameplayModifierParams, System.Boolean value)
-    // Offset: 0x2009E14
+    // Offset: 0xF0FB08
     void SetToggleValueWithGameplayModifierParams(GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams, bool value);
     // private System.Boolean GetToggleValueWithGameplayModifierParams(GameplayModifierParamsSO gameplayModifierParams)
-    // Offset: 0x2009EAC
+    // Offset: 0xF0FBA0
     bool GetToggleValueWithGameplayModifierParams(GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
     // private System.Void RefreshTotalMultiplierAndRankUI()
-    // Offset: 0x2009F40
+    // Offset: 0xF0FC34
     void RefreshTotalMultiplierAndRankUI();
     // private System.Void IRefreshable.Refresh()
-    // Offset: 0x200A018
+    // Offset: 0xF0FD0C
     // Implemented from: IRefreshable
     // Base method: System.Void IRefreshable::Refresh()
     void GlobalNamespace_IRefreshable_Refresh();
     // public System.Void .ctor()
-    // Offset: 0x200A120
+    // Offset: 0xF0FE14
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

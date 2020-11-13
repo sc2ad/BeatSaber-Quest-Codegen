@@ -23,94 +23,94 @@ namespace UnityEngine {
   class AudioSource : public UnityEngine::AudioBehaviour {
     public:
     // static private System.Single GetPitch(UnityEngine.AudioSource source)
-    // Offset: 0x1F5B734
+    // Offset: 0x19ED118
     static float GetPitch(UnityEngine::AudioSource* source);
     // static private System.Void SetPitch(UnityEngine.AudioSource source, System.Single pitch)
-    // Offset: 0x1F5B774
+    // Offset: 0x19ED158
     static void SetPitch(UnityEngine::AudioSource* source, float pitch);
     // static private System.Void PlayHelper(UnityEngine.AudioSource source, System.UInt64 delay)
-    // Offset: 0x1F5B7C4
+    // Offset: 0x19ED1A8
     static void PlayHelper(UnityEngine::AudioSource* source, uint64_t delay);
     // private System.Void Play(System.Double delay)
-    // Offset: 0x1F5B814
+    // Offset: 0x19ED1F8
     void Play(double delay);
     // static private System.Void PlayOneShotHelper(UnityEngine.AudioSource source, UnityEngine.AudioClip clip, System.Single volumeScale)
-    // Offset: 0x1F5B864
+    // Offset: 0x19ED248
     static void PlayOneShotHelper(UnityEngine::AudioSource* source, UnityEngine::AudioClip* clip, float volumeScale);
     // private System.Void Stop(System.Boolean stopOneShots)
-    // Offset: 0x1F5B8C4
+    // Offset: 0x19ED2A8
     void Stop(bool stopOneShots);
     // static private System.Void GetSpectrumDataHelper(UnityEngine.AudioSource source, out System.Single[] samples, System.Int32 channel, UnityEngine.FFTWindow window)
-    // Offset: 0x1F5B914
+    // Offset: 0x19ED2F8
     static void GetSpectrumDataHelper(UnityEngine::AudioSource* source, ::Array<float>*& samples, int channel, UnityEngine::FFTWindow window);
     // public System.Single get_volume()
-    // Offset: 0x1F5B97C
+    // Offset: 0x19ED360
     float get_volume();
     // public System.Void set_volume(System.Single value)
-    // Offset: 0x1F5B9BC
+    // Offset: 0x19ED3A0
     void set_volume(float value);
     // public System.Single get_pitch()
-    // Offset: 0x1F5BA0C
+    // Offset: 0x19ED3F0
     float get_pitch();
     // public System.Void set_pitch(System.Single value)
-    // Offset: 0x1F5BA4C
+    // Offset: 0x19ED430
     void set_pitch(float value);
     // public System.Single get_time()
-    // Offset: 0x1F5BA9C
+    // Offset: 0x19ED480
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x1F5BADC
+    // Offset: 0x19ED4C0
     void set_time(float value);
     // public System.Int32 get_timeSamples()
-    // Offset: 0x1F5BB2C
+    // Offset: 0x19ED510
     int get_timeSamples();
     // public UnityEngine.AudioClip get_clip()
-    // Offset: 0x1F5BB6C
+    // Offset: 0x19ED550
     UnityEngine::AudioClip* get_clip();
     // public System.Void set_clip(UnityEngine.AudioClip value)
-    // Offset: 0x1F5BBAC
+    // Offset: 0x19ED590
     void set_clip(UnityEngine::AudioClip* value);
     // public System.Void Play()
-    // Offset: 0x1F5BBFC
+    // Offset: 0x19ED5E0
     void Play();
     // public System.Void PlayScheduled(System.Double time)
-    // Offset: 0x1F5BC40
+    // Offset: 0x19ED624
     void PlayScheduled(double time);
     // public System.Void PlayOneShot(UnityEngine.AudioClip clip)
-    // Offset: 0x1F5BC9C
+    // Offset: 0x19ED680
     void PlayOneShot(UnityEngine::AudioClip* clip);
     // public System.Void PlayOneShot(UnityEngine.AudioClip clip, System.Single volumeScale)
-    // Offset: 0x1F5BCA4
+    // Offset: 0x19ED688
     void PlayOneShot(UnityEngine::AudioClip* clip, float volumeScale);
     // public System.Void Stop()
-    // Offset: 0x1F5BDA0
+    // Offset: 0x19ED784
     void Stop();
     // public System.Void Pause()
-    // Offset: 0x1F5BDE4
+    // Offset: 0x19ED7C8
     void Pause();
     // public System.Void UnPause()
-    // Offset: 0x1F5BE24
+    // Offset: 0x19ED808
     void UnPause();
     // public System.Boolean get_isPlaying()
-    // Offset: 0x1F5BE64
+    // Offset: 0x19ED848
     bool get_isPlaying();
     // public System.Void set_loop(System.Boolean value)
-    // Offset: 0x1F5BEA4
+    // Offset: 0x19ED888
     void set_loop(bool value);
     // public System.Boolean get_playOnAwake()
-    // Offset: 0x1F5BEF4
+    // Offset: 0x19ED8D8
     bool get_playOnAwake();
     // public System.Void set_playOnAwake(System.Boolean value)
-    // Offset: 0x1F5BF34
+    // Offset: 0x19ED918
     void set_playOnAwake(bool value);
     // public System.Void set_reverbZoneMix(System.Single value)
-    // Offset: 0x1F5BF84
+    // Offset: 0x19ED968
     void set_reverbZoneMix(float value);
     // public System.Void set_priority(System.Int32 value)
-    // Offset: 0x1F5BFD4
+    // Offset: 0x19ED9B8
     void set_priority(int value);
     // public System.Void GetSpectrumData(System.Single[] samples, System.Int32 channel, UnityEngine.FFTWindow window)
-    // Offset: 0x1F5C024
+    // Offset: 0x19EDA08
     void GetSpectrumData(::Array<float>* samples, int channel, UnityEngine::FFTWindow window);
   }; // UnityEngine.AudioSource
 }

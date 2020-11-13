@@ -26,30 +26,30 @@ namespace GlobalNamespace {
     // Offset: 0x30
     float m_Height;
     // private System.Void OnValidate()
-    // Offset: 0x1F54788
+    // Offset: 0x19E616C
     void OnValidate();
     // static private System.Void OutsideSphere(ref UnityEngine.Vector3 particlePosition, System.Single particleRadius, UnityEngine.Vector3 sphereCenter, System.Single sphereRadius)
-    // Offset: 0x1F54A78
+    // Offset: 0x19E645C
     static void OutsideSphere(UnityEngine::Vector3& particlePosition, float particleRadius, UnityEngine::Vector3 sphereCenter, float sphereRadius);
     // static private System.Void InsideSphere(ref UnityEngine.Vector3 particlePosition, System.Single particleRadius, UnityEngine.Vector3 sphereCenter, System.Single sphereRadius)
-    // Offset: 0x1F54C0C
+    // Offset: 0x19E65F0
     static void InsideSphere(UnityEngine::Vector3& particlePosition, float particleRadius, UnityEngine::Vector3 sphereCenter, float sphereRadius);
     // static private System.Void OutsideCapsule(ref UnityEngine.Vector3 particlePosition, System.Single particleRadius, UnityEngine.Vector3 capsuleP0, UnityEngine.Vector3 capsuleP1, System.Single capsuleRadius)
-    // Offset: 0x1F54DB0
+    // Offset: 0x19E6794
     static void OutsideCapsule(UnityEngine::Vector3& particlePosition, float particleRadius, UnityEngine::Vector3 capsuleP0, UnityEngine::Vector3 capsuleP1, float capsuleRadius);
     // static private System.Void InsideCapsule(ref UnityEngine.Vector3 particlePosition, System.Single particleRadius, UnityEngine.Vector3 capsuleP0, UnityEngine.Vector3 capsuleP1, System.Single capsuleRadius)
-    // Offset: 0x1F551EC
+    // Offset: 0x19E6BD0
     static void InsideCapsule(UnityEngine::Vector3& particlePosition, float particleRadius, UnityEngine::Vector3 capsuleP0, UnityEngine::Vector3 capsuleP1, float capsuleRadius);
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x1F555FC
+    // Offset: 0x19E6FE0
     void OnDrawGizmosSelected();
     // public override System.Void Collide(ref UnityEngine.Vector3 particlePosition, System.Single particleRadius)
-    // Offset: 0x1F54820
+    // Offset: 0x19E6204
     // Implemented from: DynamicBoneColliderBase
     // Base method: System.Void DynamicBoneColliderBase::Collide(ref UnityEngine.Vector3 particlePosition, System.Single particleRadius)
     void Collide(UnityEngine::Vector3& particlePosition, float particleRadius);
     // public System.Void .ctor()
-    // Offset: 0x1F557E4
+    // Offset: 0x19E71C8
     // Implemented from: DynamicBoneColliderBase
     // Base method: System.Void DynamicBoneColliderBase::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

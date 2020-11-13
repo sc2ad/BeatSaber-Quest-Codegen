@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kMinLifeTime
-    static constexpr const float kMinLifeTime = 0.1;
+    static constexpr const float kMinLifeTime = 0.2;
     // Get static field: static private System.Single kMinLifeTime
     static float _get_kMinLifeTime();
     // Set static field: static private System.Single kMinLifeTime
@@ -63,13 +63,13 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kLifeTimeOffset
     static void _set_kLifeTimeOffset(float value);
     // public System.Void SpawnDebris(UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, System.Single saberSpeed, UnityEngine.Vector3 saberDir, UnityEngine.Vector3 notePos, UnityEngine.Quaternion noteRotation, ColorType colorType, System.Single timeToNextColorNote, UnityEngine.Vector3 moveVec)
-    // Offset: 0x20F3644
+    // Offset: 0xFE22E8
     void SpawnDebris(UnityEngine::Vector3 cutPoint, UnityEngine::Vector3 cutNormal, float saberSpeed, UnityEngine::Vector3 saberDir, UnityEngine::Vector3 notePos, UnityEngine::Quaternion noteRotation, GlobalNamespace::ColorType colorType, float timeToNextColorNote, UnityEngine::Vector3 moveVec);
     // private System.Void HandleNoteDebrisDidFinish(NoteDebris noteDebris)
-    // Offset: 0x20F7478
+    // Offset: 0xFE61CC
     void HandleNoteDebrisDidFinish(GlobalNamespace::NoteDebris* noteDebris);
     // public System.Void .ctor()
-    // Offset: 0x20F7524
+    // Offset: 0xFE6278
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

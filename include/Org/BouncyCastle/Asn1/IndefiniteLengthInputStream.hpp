@@ -26,26 +26,26 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x40
     bool eofOn00;
     // System.Void SetEofOn00(System.Boolean eofOn00)
-    // Offset: 0x1403394
+    // Offset: 0x13F528C
     void SetEofOn00(bool eofOn00);
     // private System.Boolean CheckForEof()
-    // Offset: 0x14032D4
+    // Offset: 0x13F51CC
     bool CheckForEof();
     // private System.Int32 RequireByte()
-    // Offset: 0x1403244
+    // Offset: 0x13F513C
     int RequireByte();
     // System.Void .ctor(System.IO.Stream inStream, System.Int32 limit)
-    // Offset: 0x140319C
+    // Offset: 0x13F5094
     // Implemented from: Org.BouncyCastle.Asn1.LimitedInputStream
     // Base method: System.Void LimitedInputStream::.ctor(System.IO.Stream inStream, System.Int32 limit)
     static IndefiniteLengthInputStream* New_ctor(System::IO::Stream* inStream, int limit);
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x14033A8
+    // Offset: 0x13F52A0
     // Implemented from: Org.BouncyCastle.Utilities.IO.BaseInputStream
     // Base method: System.Int32 BaseInputStream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(::Array<uint8_t>* buffer, int offset, int count);
     // public override System.Int32 ReadByte()
-    // Offset: 0x14034E8
+    // Offset: 0x13F53E0
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::ReadByte()
     int ReadByte();

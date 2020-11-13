@@ -23,21 +23,21 @@ namespace System::Diagnostics::Tracing {
   class EventSourceException : public System::Exception {
     public:
     // System.Void .ctor(System.Exception innerException)
-    // Offset: 0x125E774
+    // Offset: 0x12D3870
     static EventSourceException* New_ctor(System::Exception* innerException);
     // public System.Void .ctor()
-    // Offset: 0x126375C
+    // Offset: 0x12D8858
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static EventSourceException* New_ctor();
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x125EB94
+    // Offset: 0x12D3C90
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     static EventSourceException* New_ctor(::Il2CppString* message, System::Exception* innerException);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x12637E4
+    // Offset: 0x12D88E0
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static EventSourceException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

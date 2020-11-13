@@ -14,7 +14,7 @@ namespace System::Security::Cryptography {
   class RSAPKCS1SignatureFormatter : public System::Security::Cryptography::AsymmetricSignatureFormatter {
     public:
     // public System.Void .ctor()
-    // Offset: 0x177F754
+    // Offset: 0x169FC48
     // Implemented from: System.Security.Cryptography.AsymmetricSignatureFormatter
     // Base method: System.Void AsymmetricSignatureFormatter::.ctor()
     // Base method: System.Void Object::.ctor()

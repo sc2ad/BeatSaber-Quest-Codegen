@@ -36,28 +36,28 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Offset: 0x18
     Org::BouncyCastle::Asn1::Asn1Object* parameters;
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger primeP)
-    // Offset: 0x161BFE8
+    // Offset: 0x158ADE4
     static X9FieldID* New_ctor(Org::BouncyCastle::Math::BigInteger* primeP);
     // public System.Void .ctor(System.Int32 m, System.Int32 k1)
-    // Offset: 0x161C0A4
+    // Offset: 0x158AEA0
     static X9FieldID* New_ctor(int m, int k1);
     // public System.Void .ctor(System.Int32 m, System.Int32 k1, System.Int32 k2, System.Int32 k3)
-    // Offset: 0x161C0B0
+    // Offset: 0x158AEAC
     static X9FieldID* New_ctor(int m, int k1, int k2, int k3);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x161CAB8
+    // Offset: 0x158B8B4
     static X9FieldID* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // static public Org.BouncyCastle.Asn1.X9.X9FieldID GetInstance(System.Object obj)
-    // Offset: 0x161BF00
+    // Offset: 0x158ACFC
     static Org::BouncyCastle::Asn1::X9::X9FieldID* GetInstance(::Il2CppObject* obj);
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_Identifier()
-    // Offset: 0x161CBA0
+    // Offset: 0x158B99C
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Identifier();
     // public Org.BouncyCastle.Asn1.Asn1Object get_Parameters()
-    // Offset: 0x161CBA8
+    // Offset: 0x158B9A4
     Org::BouncyCastle::Asn1::Asn1Object* get_Parameters();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x161CBB0
+    // Offset: 0x158B9AC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

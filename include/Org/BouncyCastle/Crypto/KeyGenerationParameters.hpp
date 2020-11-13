@@ -25,13 +25,13 @@ namespace Org::BouncyCastle::Crypto {
     // Offset: 0x18
     int strength;
     // public System.Void .ctor(Org.BouncyCastle.Security.SecureRandom random, System.Int32 strength)
-    // Offset: 0x14AFE34
+    // Offset: 0x149AFD4
     static KeyGenerationParameters* New_ctor(Org::BouncyCastle::Security::SecureRandom* random, int strength);
     // public Org.BouncyCastle.Security.SecureRandom get_Random()
-    // Offset: 0x14AFF24
+    // Offset: 0x149B0C4
     Org::BouncyCastle::Security::SecureRandom* get_Random();
     // public System.Int32 get_Strength()
-    // Offset: 0x14AFF2C
+    // Offset: 0x149B0CC
     int get_Strength();
   }; // Org.BouncyCastle.Crypto.KeyGenerationParameters
 }

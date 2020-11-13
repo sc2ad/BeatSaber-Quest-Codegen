@@ -33,13 +33,13 @@ namespace Tweening {
   class Vector2Tween : public Tweening::Tween_1<UnityEngine::Vector2> {
     public:
     // public System.Void .ctor(UnityEngine.Vector2 fromValue, UnityEngine.Vector2 toValue, System.Action`1<UnityEngine.Vector2> onUpdate, System.Single duration, Tweening.EaseType easeType, System.Single delay)
-    // Offset: 0x1FA3664
+    // Offset: 0xFF505C
     static Vector2Tween* New_ctor(UnityEngine::Vector2 fromValue, UnityEngine::Vector2 toValue, System::Action_1<UnityEngine::Vector2>* onUpdate, float duration, Tweening::EaseType easeType, float delay);
     // public System.Void .ctor(UnityEngine.Vector2 fromValue, UnityEngine.Vector2 toValue, System.Action`1<UnityEngine.Vector2> onUpdate, System.Single duration, UnityEngine.AnimationCurve animationCurve, System.Single delay)
-    // Offset: 0x1FA3714
+    // Offset: 0xFF510C
     static Vector2Tween* New_ctor(UnityEngine::Vector2 fromValue, UnityEngine::Vector2 toValue, System::Action_1<UnityEngine::Vector2>* onUpdate, float duration, UnityEngine::AnimationCurve* animationCurve, float delay);
     // public UnityEngine.Vector2 GetValue(System.Single t)
-    // Offset: 0x1FA37C4
+    // Offset: 0xFF51BC
     UnityEngine::Vector2 GetValue(float t);
   }; // Tweening.Vector2Tween
 }

@@ -50,36 +50,36 @@ namespace GlobalNamespace {
     // Offset: 0x90
     GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot* playerSpectatingSpot;
     // private System.Void TransitionIntoFailedState()
-    // Offset: 0x206094C
+    // Offset: 0xFAA5C4
     void TransitionIntoFailedState();
     // private System.Void HandlePlayerDidFail()
-    // Offset: 0x2060DC4
+    // Offset: 0xFAABA8
     void HandlePlayerDidFail();
     // private System.Void HandleIsObservedChanged(System.Boolean isObserved)
-    // Offset: 0x2060DC8
+    // Offset: 0xFAABAC
     void HandleIsObservedChanged(bool isObserved);
     // protected override System.Void Start()
-    // Offset: 0x2060564
+    // Offset: 0xFA9FA8
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::Start()
     void Start();
     // protected override System.Void OnDestroy()
-    // Offset: 0x20606B0
+    // Offset: 0xFAA19C
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::OnDestroy()
     void OnDestroy();
     // protected override System.Void AnimateNewLeaderSelected(System.Boolean isLeading)
-    // Offset: 0x2060AB4
+    // Offset: 0xFAA72C
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::AnimateNewLeaderSelected(System.Boolean isLeading)
     void AnimateNewLeaderSelected(bool isLeading);
     // protected override System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x2060C0C
+    // Offset: 0xFAA884
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::HandleStateChanged(MultiplayerController/State state)
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // public System.Void .ctor()
-    // Offset: 0x2060E54
+    // Offset: 0xFAAC38
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

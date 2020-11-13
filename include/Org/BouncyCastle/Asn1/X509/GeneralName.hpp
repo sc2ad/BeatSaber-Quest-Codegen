@@ -33,24 +33,24 @@ namespace Org::BouncyCastle::Asn1::X509 {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Choice*>(this);
     }
     // public System.Void .ctor(System.Int32 tag, Org.BouncyCastle.Asn1.Asn1Encodable name)
-    // Offset: 0x160C7B0
+    // Offset: 0x157B5AC
     static GeneralName* New_ctor(int tag, Org::BouncyCastle::Asn1::Asn1Encodable* name);
     // static public Org.BouncyCastle.Asn1.X509.GeneralName GetInstance(System.Object obj)
-    // Offset: 0x160C7F8
+    // Offset: 0x157B5F4
     static Org::BouncyCastle::Asn1::X509::GeneralName* GetInstance(::Il2CppObject* obj);
     // public System.Int32 get_TagNo()
-    // Offset: 0x160CC98
+    // Offset: 0x157BA94
     int get_TagNo();
     // public Org.BouncyCastle.Asn1.Asn1Encodable get_Name()
-    // Offset: 0x160CCA0
+    // Offset: 0x157BA9C
     Org::BouncyCastle::Asn1::Asn1Encodable* get_Name();
     // public override System.String ToString()
-    // Offset: 0x160CCA8
+    // Offset: 0x157BAA4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x160CE70
+    // Offset: 0x157BC6C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

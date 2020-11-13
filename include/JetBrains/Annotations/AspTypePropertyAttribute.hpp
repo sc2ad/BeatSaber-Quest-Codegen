@@ -21,13 +21,13 @@ namespace JetBrains::Annotations {
       return CreateConstructorReferences;
     }
     // public System.Boolean get_CreateConstructorReferences()
-    // Offset: 0x1F5C94C
+    // Offset: 0x19EE330
     bool get_CreateConstructorReferences();
     // private System.Void set_CreateConstructorReferences(System.Boolean value)
-    // Offset: 0x1F5C954
+    // Offset: 0x19EE338
     void set_CreateConstructorReferences(bool value);
     // public System.Void .ctor(System.Boolean createConstructorReferences)
-    // Offset: 0x1F5C960
+    // Offset: 0x19EE344
     static AspTypePropertyAttribute* New_ctor(bool createConstructorReferences);
   }; // JetBrains.Annotations.AspTypePropertyAttribute
 }

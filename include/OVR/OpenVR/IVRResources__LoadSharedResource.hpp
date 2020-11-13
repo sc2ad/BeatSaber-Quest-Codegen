@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRResources::_LoadSharedResource : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C8A714
+    // Offset: 0x19088EC
     static IVRResources::_LoadSharedResource* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.UInt32 Invoke(System.String pchResourceName, System.String pchBuffer, System.UInt32 unBufferLen)
-    // Offset: 0x1C8A728
+    // Offset: 0x1908900
     uint Invoke(::Il2CppString* pchResourceName, ::Il2CppString* pchBuffer, uint unBufferLen);
     // public System.IAsyncResult BeginInvoke(System.String pchResourceName, System.String pchBuffer, System.UInt32 unBufferLen, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C8AB58
+    // Offset: 0x1908D30
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchResourceName, ::Il2CppString* pchBuffer, uint unBufferLen, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C8ABF8
+    // Offset: 0x1908DD0
     uint EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRResources/_LoadSharedResource
 }

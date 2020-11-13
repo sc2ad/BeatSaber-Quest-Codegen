@@ -58,55 +58,55 @@ namespace Zenject {
     // Offset: 0x68
     System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* injectableMonoBehaviours;
     // public System.Collections.Generic.IEnumerable`1<Zenject.MonoInstaller> get_LateInstallers()
-    // Offset: 0x12F2640
+    // Offset: 0x1351E2C
     System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>* get_LateInstallers();
     // public System.Void set_LateInstallers(System.Collections.Generic.IEnumerable`1<Zenject.MonoInstaller> value)
-    // Offset: 0x12F2648
+    // Offset: 0x1351E34
     void set_LateInstallers(System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>* value);
     // public System.Collections.Generic.IEnumerable`1<Zenject.MonoInstaller> get_LateInstallerPrefabs()
-    // Offset: 0x12F26C8
+    // Offset: 0x1351EB4
     System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>* get_LateInstallerPrefabs();
     // public System.Void set_LateInstallerPrefabs(System.Collections.Generic.IEnumerable`1<Zenject.MonoInstaller> value)
-    // Offset: 0x12F26D0
+    // Offset: 0x1351EBC
     void set_LateInstallerPrefabs(System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>* value);
     // public System.Collections.Generic.IEnumerable`1<Zenject.ScriptableObjectInstaller> get_LateScriptableObjectInstallers()
-    // Offset: 0x12F2750
+    // Offset: 0x1351F3C
     System::Collections::Generic::IEnumerable_1<Zenject::ScriptableObjectInstaller*>* get_LateScriptableObjectInstallers();
     // public System.Void set_LateScriptableObjectInstallers(System.Collections.Generic.IEnumerable`1<Zenject.ScriptableObjectInstaller> value)
-    // Offset: 0x12F2758
+    // Offset: 0x1351F44
     void set_LateScriptableObjectInstallers(System::Collections::Generic::IEnumerable_1<Zenject::ScriptableObjectInstaller*>* value);
     // public System.String get_DecoratedContractName()
-    // Offset: 0x12F27D8
+    // Offset: 0x1351FC4
     ::Il2CppString* get_DecoratedContractName();
     // public System.Void Initialize(Zenject.DiContainer container)
-    // Offset: 0x12F1108
+    // Offset: 0x13508F4
     void Initialize(Zenject::DiContainer* container);
     // public System.Void InstallDecoratorSceneBindings()
-    // Offset: 0x12F187C
+    // Offset: 0x1351068
     void InstallDecoratorSceneBindings();
     // public System.Void InstallDecoratorInstallers()
-    // Offset: 0x12F18FC
+    // Offset: 0x13510E8
     void InstallDecoratorInstallers();
     // public System.Void InstallLateDecoratorInstallers()
-    // Offset: 0x12F1904
+    // Offset: 0x13510F0
     void InstallLateDecoratorInstallers();
     // public override Zenject.DiContainer get_Container()
-    // Offset: 0x12F27E0
+    // Offset: 0x1351FCC
     // Implemented from: Zenject.Context
     // Base method: Zenject.DiContainer Context::get_Container()
     Zenject::DiContainer* get_Container();
     // public override System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> GetRootGameObjects()
-    // Offset: 0x12F280C
+    // Offset: 0x1351FF8
     // Implemented from: Zenject.Context
     // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> Context::GetRootGameObjects()
     System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* GetRootGameObjects();
     // protected override System.Void GetInjectableMonoBehaviours(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> monoBehaviours)
-    // Offset: 0x12F2854
+    // Offset: 0x1352040
     // Implemented from: Zenject.Context
     // Base method: System.Void Context::GetInjectableMonoBehaviours(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> monoBehaviours)
     void GetInjectableMonoBehaviours(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* monoBehaviours);
     // public System.Void .ctor()
-    // Offset: 0x12F289C
+    // Offset: 0x1352088
     // Implemented from: Zenject.Context
     // Base method: System.Void Context::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

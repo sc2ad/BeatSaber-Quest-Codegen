@@ -30,10 +30,10 @@ namespace Zenject::Internal {
       return scene;
     }
     // System.Boolean <GetRootGameObjects>b__1(UnityEngine.GameObject x)
-    // Offset: 0x12E76E8
+    // Offset: 0x1346ED4
     bool $GetRootGameObjects$b__1(UnityEngine::GameObject* x);
     // public System.Void .ctor()
-    // Offset: 0x12E7588
+    // Offset: 0x1346D74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ZenUtilInternal::$$c__DisplayClass10_0* New_ctor();

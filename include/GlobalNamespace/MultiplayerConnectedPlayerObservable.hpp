@@ -32,15 +32,15 @@ namespace GlobalNamespace {
       return connectedPlayer;
     }
     // public System.Void .ctor(IConnectedPlayer connectedPlayer)
-    // Offset: 0x2062E4C
+    // Offset: 0xFACCD0
     static MultiplayerConnectedPlayerObservable* New_ctor(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x2062E80
+    // Offset: 0xFACD04
     // Implemented from: IMultiplayerObservable
     // Base method: System.Single IMultiplayerObservable::get_offsetSyncTime()
     float get_offsetSyncTime();
     // public System.Boolean get_isFailed()
-    // Offset: 0x2062F34
+    // Offset: 0xFACDB8
     // Implemented from: IMultiplayerObservable
     // Base method: System.Boolean IMultiplayerObservable::get_isFailed()
     bool get_isFailed();

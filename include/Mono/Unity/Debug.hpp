@@ -21,10 +21,10 @@ namespace Mono::Unity {
   class Debug : public ::Il2CppObject {
     public:
     // static public System.Void CheckAndThrow(Mono.Unity.UnityTls/unitytls_errorstate errorState, System.String context, Mono.Security.Interface.AlertDescription defaultAlert)
-    // Offset: 0x11F8128
+    // Offset: 0x126D1E0
     static void CheckAndThrow(Mono::Unity::UnityTls::unitytls_errorstate errorState, ::Il2CppString* context, Mono::Security::Interface::AlertDescription defaultAlert);
     // static public System.Void CheckAndThrow(Mono.Unity.UnityTls/unitytls_errorstate errorState, Mono.Unity.UnityTls/unitytls_x509verify_result verifyResult, System.String context, Mono.Security.Interface.AlertDescription defaultAlert)
-    // Offset: 0x11F8200
+    // Offset: 0x126D2B8
     static void CheckAndThrow(Mono::Unity::UnityTls::unitytls_errorstate errorState, Mono::Unity::UnityTls::unitytls_x509verify_result verifyResult, ::Il2CppString* context, Mono::Security::Interface::AlertDescription defaultAlert);
   }; // Mono.Unity.Debug
 }

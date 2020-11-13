@@ -37,13 +37,13 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.Reflection.Assembly> <>9__8_0
     static void _set_$$9__8_0(System::Func_2<System::Type*, System::Reflection::Assembly*>* value);
     // static private System.Void .cctor()
-    // Offset: 0xFF6014
+    // Offset: 0x10F19BC
     static void _cctor();
     // System.Reflection.Assembly <FromAssembliesContaining>b__8_0(System.Type t)
-    // Offset: 0xFF6084
+    // Offset: 0x10F1A2C
     System::Reflection::Assembly* $FromAssembliesContaining$b__8_0(System::Type* t);
     // public System.Void .ctor()
-    // Offset: 0xFF607C
+    // Offset: 0x10F1A24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConventionAssemblySelectionBinder::$$c* New_ctor();

@@ -52,32 +52,32 @@ namespace UnityEngine::XR {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::XR::MeshGenerationResult>*>(this);
     }
     // public UnityEngine.XR.MeshId get_MeshId()
-    // Offset: 0xC8B6AC
+    // Offset: 0xCB85DC
     UnityEngine::XR::MeshId get_MeshId();
     // public UnityEngine.Mesh get_Mesh()
-    // Offset: 0xC8B6B8
+    // Offset: 0xCB85E8
     UnityEngine::Mesh* get_Mesh();
     // public UnityEngine.MeshCollider get_MeshCollider()
-    // Offset: 0xC8B6C0
+    // Offset: 0xCB85F0
     UnityEngine::MeshCollider* get_MeshCollider();
     // public UnityEngine.XR.MeshGenerationStatus get_Status()
-    // Offset: 0xC8B6C8
+    // Offset: 0xCB85F8
     UnityEngine::XR::MeshGenerationStatus get_Status();
     // public UnityEngine.XR.MeshVertexAttributes get_Attributes()
-    // Offset: 0xC8B6D0
+    // Offset: 0xCB8600
     UnityEngine::XR::MeshVertexAttributes get_Attributes();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xC8B6D8
+    // Offset: 0xCB8608
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.XR.MeshGenerationResult other)
-    // Offset: 0xC8B6E0
+    // Offset: 0xCB8610
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.XR.MeshGenerationResult other)
     bool Equals(UnityEngine::XR::MeshGenerationResult other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xC8B718
+    // Offset: 0xCB8648
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

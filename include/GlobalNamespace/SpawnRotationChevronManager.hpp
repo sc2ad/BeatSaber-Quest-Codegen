@@ -108,25 +108,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1FF54B8
+    // Offset: 0xF3C42C
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1FF5750
+    // Offset: 0xF3C6C4
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0x1FF6144
+    // Offset: 0xF3D0B8
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallback(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x1FF6270
+    // Offset: 0xF3D1E4
     void HandleBeatmapObjectCallback(GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // private System.Void HandleBeatmapEventCallback(BeatmapEventData beatmapEventData)
-    // Offset: 0x1FF6638
+    // Offset: 0xF3D5AC
     void HandleBeatmapEventCallback(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void HandleBeatmapObjectSpawnControllerDidInit()
-    // Offset: 0x1FF5600
+    // Offset: 0xF3C574
     void HandleBeatmapObjectSpawnControllerDidInit();
     // public System.Void .ctor()
-    // Offset: 0x1FF66B4
+    // Offset: 0xF3D628
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

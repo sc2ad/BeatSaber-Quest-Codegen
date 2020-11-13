@@ -139,7 +139,7 @@ namespace RootMotion::FinalIK {
     // Set static field: static private System.Single maxLimbLength
     static void _set_maxLimbLength(float value);
     // public System.Void .ctor(System.Single pin, System.Single pull, params UnityEngine.Transform[] nodeTransforms)
-    // Offset: 0x1874108
+    // Offset: 0x175206C
     static FBIKChain* New_ctor(float pin, float pull, ::Array<UnityEngine::Transform*>* nodeTransforms);
     // Creating initializer_list -> params proxy for: System.Void .ctor(System.Single pin, System.Single pull, params UnityEngine.Transform[] nodeTransforms)
     static FBIKChain* New_ctor(float pin, float pull, std::initializer_list<UnityEngine::Transform*> nodeTransforms);
@@ -149,7 +149,7 @@ namespace RootMotion::FinalIK {
       return New_ctor(pin, pull, {nodeTransforms...});
     }
     // public System.Void SetNodes(params UnityEngine.Transform[] boneTransforms)
-    // Offset: 0x1874258
+    // Offset: 0x17521BC
     void SetNodes(::Array<UnityEngine::Transform*>* boneTransforms);
     // Creating initializer_list -> params proxy for: System.Void SetNodes(params UnityEngine.Transform[] boneTransforms)
     void SetNodes(std::initializer_list<UnityEngine::Transform*> boneTransforms);
@@ -159,58 +159,58 @@ namespace RootMotion::FinalIK {
       SetNodes({boneTransforms...});
     }
     // public System.Int32 GetNodeIndex(UnityEngine.Transform boneTransform)
-    // Offset: 0x187438C
+    // Offset: 0x17522F0
     int GetNodeIndex(UnityEngine::Transform* boneTransform);
     // public System.Boolean IsValid(ref System.String message)
-    // Offset: 0x1874468
+    // Offset: 0x17523CC
     bool IsValid(::Il2CppString*& message);
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1874578
+    // Offset: 0x17524DC
     void Initiate(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void ReadPose(RootMotion.FinalIK.IKSolverFullBody solver, System.Boolean fullBody)
-    // Offset: 0x1874CEC
+    // Offset: 0x1752C50
     void ReadPose(RootMotion::FinalIK::IKSolverFullBody* solver, bool fullBody);
     // private System.Void CalculateBoneLengths(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1874714
+    // Offset: 0x1752678
     void CalculateBoneLengths(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void Reach(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x18753D8
+    // Offset: 0x175333C
     void Reach(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public UnityEngine.Vector3 Push(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x187577C
+    // Offset: 0x17536E0
     UnityEngine::Vector3 Push(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void SolveTrigonometric(RootMotion.FinalIK.IKSolverFullBody solver, System.Boolean calculateBendDirection)
-    // Offset: 0x1875B60
+    // Offset: 0x1753AC4
     void SolveTrigonometric(RootMotion::FinalIK::IKSolverFullBody* solver, bool calculateBendDirection);
     // public System.Void Stage1(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x18760E4
+    // Offset: 0x1754048
     void Stage1(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void Stage2(RootMotion.FinalIK.IKSolverFullBody solver, UnityEngine.Vector3 position)
-    // Offset: 0x18766B4
+    // Offset: 0x1754618
     void Stage2(RootMotion::FinalIK::IKSolverFullBody* solver, UnityEngine::Vector3 position);
     // public System.Void SolveConstraintSystems(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x187694C
+    // Offset: 0x17548B0
     void SolveConstraintSystems(RootMotion::FinalIK::IKSolverFullBody* solver);
     // private UnityEngine.Vector3 SolveFABRIKJoint(UnityEngine.Vector3 pos1, UnityEngine.Vector3 pos2, System.Single length)
-    // Offset: 0x18765AC
+    // Offset: 0x1754510
     UnityEngine::Vector3 SolveFABRIKJoint(UnityEngine::Vector3 pos1, UnityEngine::Vector3 pos2, float length);
     // protected UnityEngine.Vector3 GetDirToBendPoint(UnityEngine.Vector3 direction, UnityEngine.Vector3 bendDirection, System.Single directionMagnitude)
-    // Offset: 0x1875ECC
+    // Offset: 0x1753E30
     UnityEngine::Vector3 GetDirToBendPoint(UnityEngine::Vector3 direction, UnityEngine::Vector3 bendDirection, float directionMagnitude);
     // private System.Void SolveChildConstraints(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1876534
+    // Offset: 0x1754498
     void SolveChildConstraints(RootMotion::FinalIK::IKSolverFullBody* solver);
     // private System.Void SolveLinearConstraint(RootMotion.FinalIK.IKSolver/Node node1, RootMotion.FinalIK.IKSolver/Node node2, System.Single crossFade, System.Single distance)
-    // Offset: 0x1876A34
+    // Offset: 0x1754998
     void SolveLinearConstraint(RootMotion::FinalIK::IKSolver::Node* node1, RootMotion::FinalIK::IKSolver::Node* node2, float crossFade, float distance);
     // public System.Void ForwardReach(UnityEngine.Vector3 position)
-    // Offset: 0x1876454
+    // Offset: 0x17543B8
     void ForwardReach(UnityEngine::Vector3 position);
     // private System.Void BackwardReach(UnityEngine.Vector3 position)
-    // Offset: 0x1876834
+    // Offset: 0x1754798
     void BackwardReach(UnityEngine::Vector3 position);
     // public System.Void .ctor()
-    // Offset: 0x187400C
+    // Offset: 0x1751F70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FBIKChain* New_ctor();

@@ -12,7 +12,7 @@ namespace System {
   class EnvironmentHelpers : public ::Il2CppObject {
     public:
     // static System.Boolean IsWindowsVistaOrAbove()
-    // Offset: 0x14E615C
+    // Offset: 0x1484F5C
     static bool IsWindowsVistaOrAbove();
   }; // System.EnvironmentHelpers
 }

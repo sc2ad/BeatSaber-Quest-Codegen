@@ -39,38 +39,38 @@ namespace System::Net::Mail {
     // Offset: 0x30
     ::Il2CppString* to_string;
     // public System.Void .ctor(System.String address)
-    // Offset: 0x1249A18
+    // Offset: 0x12BEB14
     static MailAddress* New_ctor(::Il2CppString* address);
     // public System.Void .ctor(System.String address, System.String displayName)
-    // Offset: 0x1249A4C
+    // Offset: 0x12BEB48
     static MailAddress* New_ctor(::Il2CppString* address, ::Il2CppString* displayName);
     // public System.Void .ctor(System.String address, System.String displayName, System.Text.Encoding displayNameEncoding)
-    // Offset: 0x1249A8C
+    // Offset: 0x12BEB88
     static MailAddress* New_ctor(::Il2CppString* address, ::Il2CppString* displayName, System::Text::Encoding* displayNameEncoding);
     // private System.Void ParseAddress(System.String address)
-    // Offset: 0x1249B84
+    // Offset: 0x12BEC80
     void ParseAddress(::Il2CppString* address);
     // public System.String get_Address()
-    // Offset: 0x1249E78
+    // Offset: 0x12BEF74
     ::Il2CppString* get_Address();
     // public System.String get_DisplayName()
-    // Offset: 0x1249E80
+    // Offset: 0x12BEF7C
     ::Il2CppString* get_DisplayName();
     // static private System.FormatException CreateFormatException()
-    // Offset: 0x1249E10
+    // Offset: 0x12BEF0C
     static System::FormatException* CreateFormatException();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x1249EDC
+    // Offset: 0x12BEFD8
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1249F40
+    // Offset: 0x12BF03C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1249F6C
+    // Offset: 0x12BF068
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

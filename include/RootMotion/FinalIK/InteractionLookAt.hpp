@@ -48,22 +48,22 @@ namespace RootMotion::FinalIK {
     // Offset: 0x38
     bool firstFBBIKSolve;
     // public System.Void Look(UnityEngine.Transform target, System.Single time)
-    // Offset: 0x199D160
+    // Offset: 0x17EA550
     void Look(UnityEngine::Transform* target, float time);
     // public System.Void OnFixTransforms()
-    // Offset: 0x199D2E4
+    // Offset: 0x17EA6D4
     void OnFixTransforms();
     // public System.Void Update()
-    // Offset: 0x199D38C
+    // Offset: 0x17EA77C
     void Update();
     // public System.Void SolveSpine()
-    // Offset: 0x199D5E0
+    // Offset: 0x17EA9D0
     void SolveSpine();
     // public System.Void SolveHead()
-    // Offset: 0x199D6D8
+    // Offset: 0x17EAAC8
     void SolveHead();
     // public System.Void .ctor()
-    // Offset: 0x199D7A4
+    // Offset: 0x17EAB94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InteractionLookAt* New_ctor();

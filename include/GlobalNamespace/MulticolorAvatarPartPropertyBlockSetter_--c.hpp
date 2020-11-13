@@ -32,13 +32,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<MulticolorAvatarPartPropertyBlockSetter/ColorData,UnityEngine.Color> <>9__10_0
     static void _set_$$9__10_0(System::Func_2<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*, UnityEngine::Color>* value);
     // static private System.Void .cctor()
-    // Offset: 0x205CB34
+    // Offset: 0xFA643C
     static void _cctor();
     // UnityEngine.Color <OnValidate>b__10_0(MulticolorAvatarPartPropertyBlockSetter/ColorData x)
-    // Offset: 0x205CBA4
+    // Offset: 0xFA64AC
     UnityEngine::Color $OnValidate$b__10_0(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData* x);
     // public System.Void .ctor()
-    // Offset: 0x205CB9C
+    // Offset: 0xFA64A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MulticolorAvatarPartPropertyBlockSetter::$$c* New_ctor();

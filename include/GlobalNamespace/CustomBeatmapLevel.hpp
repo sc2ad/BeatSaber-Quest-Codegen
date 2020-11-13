@@ -41,13 +41,13 @@ namespace GlobalNamespace {
       return beatmapLevelData;
     }
     // public System.Void .ctor(CustomPreviewBeatmapLevel customPreviewBeatmapLevel, UnityEngine.AudioClip previewAudioClip)
-    // Offset: 0x1FBDD44
+    // Offset: 0x1A56474
     static CustomBeatmapLevel* New_ctor(GlobalNamespace::CustomPreviewBeatmapLevel* customPreviewBeatmapLevel, UnityEngine::AudioClip* previewAudioClip);
     // public System.Void SetBeatmapLevelData(BeatmapLevelData beatmapLevelData)
-    // Offset: 0x1FBDF40
+    // Offset: 0x1A56670
     void SetBeatmapLevelData(GlobalNamespace::BeatmapLevelData* beatmapLevelData);
     // public IBeatmapLevelData get_beatmapLevelData()
-    // Offset: 0x1FBDD3C
+    // Offset: 0x1A5646C
     // Implemented from: IBeatmapLevel
     // Base method: IBeatmapLevelData IBeatmapLevel::get_beatmapLevelData()
     GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();

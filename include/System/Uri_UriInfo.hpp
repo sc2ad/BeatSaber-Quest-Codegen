@@ -34,7 +34,7 @@ namespace System {
     // Offset: 0x40
     System::Uri::MoreInfo* MoreInfo;
     // public System.Void .ctor()
-    // Offset: 0x1F422EC
+    // Offset: 0x19D3CD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Uri::UriInfo* New_ctor();

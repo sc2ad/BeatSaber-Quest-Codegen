@@ -36,7 +36,7 @@ namespace System::Net {
     // Offset: 0x28
     System::Net::HttpStreamAsyncResult* Ares;
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Net.HttpStreamAsyncResult ares)
-    // Offset: 0x12AC954
+    // Offset: 0x130C140
     static ChunkedInputStream::ReadBufferState* New_ctor(::Array<uint8_t>* buffer, int offset, int count, System::Net::HttpStreamAsyncResult* ares);
   }; // System.Net.ChunkedInputStream/ReadBufferState
 }

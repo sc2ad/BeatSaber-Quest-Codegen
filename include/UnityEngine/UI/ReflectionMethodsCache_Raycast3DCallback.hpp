@@ -33,16 +33,16 @@ namespace UnityEngine::UI {
   class ReflectionMethodsCache::Raycast3DCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x15E67AC
+    // Offset: 0x156AE50
     static ReflectionMethodsCache::Raycast3DCallback* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(UnityEngine.Ray r, out UnityEngine.RaycastHit hit, System.Single f, System.Int32 i)
-    // Offset: 0x15E67C0
+    // Offset: 0x156AE64
     bool Invoke(UnityEngine::Ray r, UnityEngine::RaycastHit& hit, float f, int i);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Ray r, out UnityEngine.RaycastHit hit, System.Single f, System.Int32 i, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15E6B44
+    // Offset: 0x156B1E8
     System::IAsyncResult* BeginInvoke(UnityEngine::Ray r, UnityEngine::RaycastHit& hit, float f, int i, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(out UnityEngine.RaycastHit hit, System.IAsyncResult result)
-    // Offset: 0x15E6C38
+    // Offset: 0x156B2DC
     bool EndInvoke(UnityEngine::RaycastHit& hit, System::IAsyncResult* result);
   }; // UnityEngine.UI.ReflectionMethodsCache/Raycast3DCallback
 }

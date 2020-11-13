@@ -73,197 +73,197 @@ namespace UnityEngine::Playables {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(*this, "IsPlayableOfType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // static public UnityEngine.Playables.PlayableHandle get_Null()
-    // Offset: 0x193F308
+    // Offset: 0x1731334
     static UnityEngine::Playables::PlayableHandle get_Null();
     // UnityEngine.Playables.Playable GetInput(System.Int32 inputPort)
-    // Offset: 0xC7B9D0
+    // Offset: 0xCA71E8
     UnityEngine::Playables::Playable GetInput(int inputPort);
     // System.Boolean SetInputWeight(System.Int32 inputIndex, System.Single weight)
-    // Offset: 0xC7B9D8
+    // Offset: 0xCA71F0
     bool SetInputWeight(int inputIndex, float weight);
     // System.Single GetInputWeight(System.Int32 inputIndex)
-    // Offset: 0xC7BA24
+    // Offset: 0xCA723C
     float GetInputWeight(int inputIndex);
     // static System.Boolean CompareVersion(UnityEngine.Playables.PlayableHandle lhs, UnityEngine.Playables.PlayableHandle rhs)
-    // Offset: 0x19402CC
+    // Offset: 0x1732300
     static bool CompareVersion(UnityEngine::Playables::PlayableHandle lhs, UnityEngine::Playables::PlayableHandle rhs);
     // System.Boolean CheckInputBounds(System.Int32 inputIndex)
-    // Offset: 0xC7BAA4
+    // Offset: 0xCA72BC
     bool CheckInputBounds(int inputIndex);
     // System.Boolean CheckInputBounds(System.Int32 inputIndex, System.Boolean acceptAny)
-    // Offset: 0xC7BAC4
+    // Offset: 0xCA72DC
     bool CheckInputBounds(int inputIndex, bool acceptAny);
     // System.Boolean IsValid()
-    // Offset: 0xC7BAE4
+    // Offset: 0xCA72FC
     bool IsValid();
     // System.Type GetPlayableType()
-    // Offset: 0xC7BAEC
+    // Offset: 0xCA7304
     System::Type* GetPlayableType();
     // System.Void SetScriptInstance(System.Object scriptInstance)
-    // Offset: 0xC7BAF4
+    // Offset: 0xCA730C
     void SetScriptInstance(::Il2CppObject* scriptInstance);
     // UnityEngine.Playables.PlayState GetPlayState()
-    // Offset: 0xC7BAFC
+    // Offset: 0xCA7314
     UnityEngine::Playables::PlayState GetPlayState();
     // System.Void Play()
-    // Offset: 0xC7BB04
+    // Offset: 0xCA731C
     void Play();
     // System.Void Pause()
-    // Offset: 0xC7BB0C
+    // Offset: 0xCA7324
     void Pause();
     // System.Void SetSpeed(System.Double value)
-    // Offset: 0xC7BB14
+    // Offset: 0xCA732C
     void SetSpeed(double value);
     // System.Double GetTime()
-    // Offset: 0xC7BB1C
+    // Offset: 0xCA7334
     double GetTime();
     // System.Void SetTime(System.Double value)
-    // Offset: 0xC7BB24
+    // Offset: 0xCA733C
     void SetTime(double value);
     // System.Boolean IsDone()
-    // Offset: 0xC7BB2C
+    // Offset: 0xCA7344
     bool IsDone();
     // System.Double GetDuration()
-    // Offset: 0xC7BB34
+    // Offset: 0xCA734C
     double GetDuration();
     // System.Void SetDuration(System.Double value)
-    // Offset: 0xC7BB3C
+    // Offset: 0xCA7354
     void SetDuration(double value);
     // System.Void SetPropagateSetTime(System.Boolean value)
-    // Offset: 0xC7BB44
+    // Offset: 0xCA735C
     void SetPropagateSetTime(bool value);
     // UnityEngine.Playables.PlayableGraph GetGraph()
-    // Offset: 0xC7BB50
+    // Offset: 0xCA7368
     UnityEngine::Playables::PlayableGraph GetGraph();
     // System.Int32 GetInputCount()
-    // Offset: 0xC7BB58
+    // Offset: 0xCA7370
     int GetInputCount();
     // System.Void SetInputCount(System.Int32 value)
-    // Offset: 0xC7BB60
+    // Offset: 0xCA7378
     void SetInputCount(int value);
     // System.Void SetInputWeight(UnityEngine.Playables.PlayableHandle input, System.Single weight)
-    // Offset: 0xC7BB68
+    // Offset: 0xCA7380
     void SetInputWeight(UnityEngine::Playables::PlayableHandle input, float weight);
     // System.Double GetPreviousTime()
-    // Offset: 0xC7BB70
+    // Offset: 0xCA7388
     double GetPreviousTime();
     // System.Void SetTraversalMode(UnityEngine.Playables.PlayableTraversalMode mode)
-    // Offset: 0xC7BB78
+    // Offset: 0xCA7390
     void SetTraversalMode(UnityEngine::Playables::PlayableTraversalMode mode);
     // UnityEngine.Playables.DirectorWrapMode GetTimeWrapMode()
-    // Offset: 0xC7BB80
+    // Offset: 0xCA7398
     UnityEngine::Playables::DirectorWrapMode GetTimeWrapMode();
     // System.Void SetTimeWrapMode(UnityEngine.Playables.DirectorWrapMode mode)
-    // Offset: 0xC7BB88
+    // Offset: 0xCA73A0
     void SetTimeWrapMode(UnityEngine::Playables::DirectorWrapMode mode);
     // private System.Object GetScriptInstance()
-    // Offset: 0xC7BB90
+    // Offset: 0xCA73A8
     ::Il2CppObject* GetScriptInstance();
     // private UnityEngine.Playables.PlayableHandle GetInputHandle(System.Int32 index)
-    // Offset: 0xC7BB98
+    // Offset: 0xCA73B0
     UnityEngine::Playables::PlayableHandle GetInputHandle(int index);
     // private System.Void SetInputWeightFromIndex(System.Int32 index, System.Single weight)
-    // Offset: 0xC7BBA0
+    // Offset: 0xCA73B8
     void SetInputWeightFromIndex(int index, float weight);
     // private System.Single GetInputWeightFromIndex(System.Int32 index)
-    // Offset: 0xC7BBA8
+    // Offset: 0xCA73C0
     float GetInputWeightFromIndex(int index);
     // static private System.Void .cctor()
-    // Offset: 0x1941940
+    // Offset: 0x1733974
     static void _cctor();
     // static private System.Boolean IsValid_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self)
-    // Offset: 0x1940780
+    // Offset: 0x17327B4
     static bool IsValid_Injected(UnityEngine::Playables::PlayableHandle& _unity_self);
     // static private System.Type GetPlayableType_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self)
-    // Offset: 0x19407C0
+    // Offset: 0x17327F4
     static System::Type* GetPlayableType_Injected(UnityEngine::Playables::PlayableHandle& _unity_self);
     // static private System.Void SetScriptInstance_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self, System.Object scriptInstance)
-    // Offset: 0x1940894
+    // Offset: 0x17328C8
     static void SetScriptInstance_Injected(UnityEngine::Playables::PlayableHandle& _unity_self, ::Il2CppObject* scriptInstance);
     // static private UnityEngine.Playables.PlayState GetPlayState_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self)
-    // Offset: 0x1940968
+    // Offset: 0x173299C
     static UnityEngine::Playables::PlayState GetPlayState_Injected(UnityEngine::Playables::PlayableHandle& _unity_self);
     // static private System.Void Play_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self)
-    // Offset: 0x1940A2C
+    // Offset: 0x1732A60
     static void Play_Injected(UnityEngine::Playables::PlayableHandle& _unity_self);
     // static private System.Void Pause_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self)
-    // Offset: 0x1940AF0
+    // Offset: 0x1732B24
     static void Pause_Injected(UnityEngine::Playables::PlayableHandle& _unity_self);
     // static private System.Void SetSpeed_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self, System.Double value)
-    // Offset: 0x1940BC4
+    // Offset: 0x1732BF8
     static void SetSpeed_Injected(UnityEngine::Playables::PlayableHandle& _unity_self, double value);
     // static private System.Double GetTime_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self)
-    // Offset: 0x1940C98
+    // Offset: 0x1732CCC
     static double GetTime_Injected(UnityEngine::Playables::PlayableHandle& _unity_self);
     // static private System.Void SetTime_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self, System.Double value)
-    // Offset: 0x1940D6C
+    // Offset: 0x1732DA0
     static void SetTime_Injected(UnityEngine::Playables::PlayableHandle& _unity_self, double value);
     // static private System.Boolean IsDone_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self)
-    // Offset: 0x1940E40
+    // Offset: 0x1732E74
     static bool IsDone_Injected(UnityEngine::Playables::PlayableHandle& _unity_self);
     // static private System.Double GetDuration_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self)
-    // Offset: 0x1940F04
+    // Offset: 0x1732F38
     static double GetDuration_Injected(UnityEngine::Playables::PlayableHandle& _unity_self);
     // static private System.Void SetDuration_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self, System.Double value)
-    // Offset: 0x1940FD8
+    // Offset: 0x173300C
     static void SetDuration_Injected(UnityEngine::Playables::PlayableHandle& _unity_self, double value);
     // static private System.Void SetPropagateSetTime_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self, System.Boolean value)
-    // Offset: 0x19410BC
+    // Offset: 0x17330F0
     static void SetPropagateSetTime_Injected(UnityEngine::Playables::PlayableHandle& _unity_self, bool value);
     // static private System.Void GetGraph_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self, out UnityEngine.Playables.PlayableGraph ret)
-    // Offset: 0x19411A8
+    // Offset: 0x17331DC
     static void GetGraph_Injected(UnityEngine::Playables::PlayableHandle& _unity_self, UnityEngine::Playables::PlayableGraph& ret);
     // static private System.Int32 GetInputCount_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self)
-    // Offset: 0x19411F8
+    // Offset: 0x173322C
     static int GetInputCount_Injected(UnityEngine::Playables::PlayableHandle& _unity_self);
     // static private System.Void SetInputCount_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self, System.Int32 value)
-    // Offset: 0x19412CC
+    // Offset: 0x1733300
     static void SetInputCount_Injected(UnityEngine::Playables::PlayableHandle& _unity_self, int value);
     // static private System.Void SetInputWeight_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self, ref UnityEngine.Playables.PlayableHandle input, System.Single weight)
-    // Offset: 0x19413C4
+    // Offset: 0x17333F8
     static void SetInputWeight_Injected(UnityEngine::Playables::PlayableHandle& _unity_self, UnityEngine::Playables::PlayableHandle& input, float weight);
     // static private System.Double GetPreviousTime_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self)
-    // Offset: 0x19414A8
+    // Offset: 0x17334DC
     static double GetPreviousTime_Injected(UnityEngine::Playables::PlayableHandle& _unity_self);
     // static private System.Void SetTraversalMode_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self, UnityEngine.Playables.PlayableTraversalMode mode)
-    // Offset: 0x194157C
+    // Offset: 0x17335B0
     static void SetTraversalMode_Injected(UnityEngine::Playables::PlayableHandle& _unity_self, UnityEngine::Playables::PlayableTraversalMode mode);
     // static private UnityEngine.Playables.DirectorWrapMode GetTimeWrapMode_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self)
-    // Offset: 0x1941650
+    // Offset: 0x1733684
     static UnityEngine::Playables::DirectorWrapMode GetTimeWrapMode_Injected(UnityEngine::Playables::PlayableHandle& _unity_self);
     // static private System.Void SetTimeWrapMode_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self, UnityEngine.Playables.DirectorWrapMode mode)
-    // Offset: 0x1941724
+    // Offset: 0x1733758
     static void SetTimeWrapMode_Injected(UnityEngine::Playables::PlayableHandle& _unity_self, UnityEngine::Playables::DirectorWrapMode mode);
     // static private System.Object GetScriptInstance_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self)
-    // Offset: 0x19417F8
+    // Offset: 0x173382C
     static ::Il2CppObject* GetScriptInstance_Injected(UnityEngine::Playables::PlayableHandle& _unity_self);
     // static private System.Void GetInputHandle_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self, System.Int32 index, out UnityEngine.Playables.PlayableHandle ret)
-    // Offset: 0x1941838
+    // Offset: 0x173386C
     static void GetInputHandle_Injected(UnityEngine::Playables::PlayableHandle& _unity_self, int index, UnityEngine::Playables::PlayableHandle& ret);
     // static private System.Void SetInputWeightFromIndex_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self, System.Int32 index, System.Single weight)
-    // Offset: 0x1941890
+    // Offset: 0x17338C4
     static void SetInputWeightFromIndex_Injected(UnityEngine::Playables::PlayableHandle& _unity_self, int index, float weight);
     // static private System.Single GetInputWeightFromIndex_Injected(ref UnityEngine.Playables.PlayableHandle _unity_self, System.Int32 index)
-    // Offset: 0x19418F0
+    // Offset: 0x1733924
     static float GetInputWeightFromIndex_Injected(UnityEngine::Playables::PlayableHandle& _unity_self, int index);
     // public override System.Boolean Equals(System.Object p)
-    // Offset: 0xC7BA58
+    // Offset: 0xCA7270
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object p)
     bool Equals(::Il2CppObject* p);
     // public System.Boolean Equals(UnityEngine.Playables.PlayableHandle other)
-    // Offset: 0xC7BA60
+    // Offset: 0xCA7278
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Playables.PlayableHandle other)
     bool Equals(UnityEngine::Playables::PlayableHandle other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xC7BA68
+    // Offset: 0xCA7280
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.Playables.PlayableHandle
   // static public System.Boolean op_Equality(UnityEngine.Playables.PlayableHandle x, UnityEngine.Playables.PlayableHandle y)
-  // Offset: 0x193F1FC
+  // Offset: 0x1731228
   bool operator ==(const UnityEngine::Playables::PlayableHandle& x, const UnityEngine::Playables::PlayableHandle& y);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableHandle, "UnityEngine.Playables", "PlayableHandle");

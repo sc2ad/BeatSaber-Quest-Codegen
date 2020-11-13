@@ -42,7 +42,7 @@ namespace OnlineServices {
     // Creating value type constructor for type: GetLeaderboardFilterData
     constexpr GetLeaderboardFilterData(GlobalNamespace::IDifficultyBeatmap* beatmap_ = {}, int count_ = {}, int fromRank_ = {}, OnlineServices::ScoresScope scope_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : beatmap{beatmap_}, count{count_}, fromRank{fromRank_}, scope{scope_}, gameplayModifiers{gameplayModifiers_} {}
     // public System.Void .ctor(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, OnlineServices.ScoresScope scope, GameplayModifiers gameplayModifiers)
-    // Offset: 0xE4D760
+    // Offset: 0xC91E50
     // ABORTED: conflicts with another method.  GetLeaderboardFilterData(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, OnlineServices::ScoresScope scope, GlobalNamespace::GameplayModifiers* gameplayModifiers);
   }; // OnlineServices.GetLeaderboardFilterData
 }

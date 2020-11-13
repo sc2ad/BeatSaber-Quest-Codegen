@@ -36,34 +36,34 @@ namespace System::Diagnostics {
     // Set static field: static public readonly System.Boolean IsHighResolution
     static void _set_IsHighResolution(bool value);
     // static public System.Int64 GetTimestamp()
-    // Offset: 0x14E6F18
+    // Offset: 0x1485D18
     static int64_t GetTimestamp();
     // public System.TimeSpan get_Elapsed()
-    // Offset: 0x14E6F24
+    // Offset: 0x1485D24
     System::TimeSpan get_Elapsed();
     // public System.Int64 get_ElapsedMilliseconds()
-    // Offset: 0x14E70C0
+    // Offset: 0x1485EC0
     int64_t get_ElapsedMilliseconds();
     // public System.Int64 get_ElapsedTicks()
-    // Offset: 0x14E7040
+    // Offset: 0x1485E40
     int64_t get_ElapsedTicks();
     // public System.Boolean get_IsRunning()
-    // Offset: 0x14E71CC
+    // Offset: 0x1485FCC
     bool get_IsRunning();
     // public System.Void Reset()
-    // Offset: 0x14E71D4
+    // Offset: 0x1485FD4
     void Reset();
     // public System.Void Start()
-    // Offset: 0x14E71E0
+    // Offset: 0x1485FE0
     void Start();
     // public System.Void Stop()
-    // Offset: 0x14E7258
+    // Offset: 0x1486058
     void Stop();
     // static private System.Void .cctor()
-    // Offset: 0x14E72E0
+    // Offset: 0x14860E0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x14E6F1C
+    // Offset: 0x1485D1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Stopwatch* New_ctor();

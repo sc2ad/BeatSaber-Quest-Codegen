@@ -28,16 +28,16 @@ namespace System::Runtime::Serialization {
     // Offset: 0x20
     ::Array<int>* m_parentIndex;
     // public System.Void .ctor(System.Int64 containerID, System.Reflection.FieldInfo member, System.Int32[] parentIndex)
-    // Offset: 0x145C244
+    // Offset: 0x1446650
     static ValueTypeFixupInfo* New_ctor(int64_t containerID, System::Reflection::FieldInfo* member, ::Array<int>* parentIndex);
     // public System.Int64 get_ContainerID()
-    // Offset: 0x145C3D0
+    // Offset: 0x14467DC
     int64_t get_ContainerID();
     // public System.Reflection.FieldInfo get_ParentField()
-    // Offset: 0x145C3D8
+    // Offset: 0x14467E4
     System::Reflection::FieldInfo* get_ParentField();
     // public System.Int32[] get_ParentIndex()
-    // Offset: 0x145C3E0
+    // Offset: 0x14467EC
     ::Array<int>* get_ParentIndex();
   }; // System.Runtime.Serialization.ValueTypeFixupInfo
 }

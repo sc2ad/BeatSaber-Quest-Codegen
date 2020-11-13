@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1* CS$$$8__locals2;
     // System.Void <LoadBeatmalLevelDataAsync>b__1(UnityEngine.AsyncOperation asyncOperation2)
-    // Offset: 0x20CC3F8
+    // Offset: 0x1A849C4
     void $LoadBeatmalLevelDataAsync$b__1(UnityEngine::AsyncOperation* asyncOperation2);
     // public System.Void .ctor()
-    // Offset: 0x20CC3F0
+    // Offset: 0x1A849BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BeatmapLevelDataLoaderSO::$$c__DisplayClass6_2* New_ctor();

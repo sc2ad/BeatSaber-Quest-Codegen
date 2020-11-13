@@ -39,26 +39,26 @@ namespace NUnit::Framework::Internal {
     // Offset: 0xFFFFFFFF
     bool Match(NUnit::Framework::Interfaces::ITest* test);
     // public System.Boolean MatchParent(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1ECD3DC
+    // Offset: 0x195C410
     bool MatchParent(NUnit::Framework::Interfaces::ITest* test);
     // protected System.Boolean MatchDescendant(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1ECD5EC
+    // Offset: 0x195C620
     bool MatchDescendant(NUnit::Framework::Interfaces::ITest* test);
     // static private System.Void .cctor()
-    // Offset: 0x1ECDA50
+    // Offset: 0x195CA84
     static void _cctor();
     // public System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1ECD37C
+    // Offset: 0x195C3B0
     // Implemented from: NUnit.Framework.Interfaces.ITestFilter
     // Base method: System.Boolean ITestFilter::Pass(NUnit.Framework.Interfaces.ITest test)
     bool Pass(NUnit::Framework::Interfaces::ITest* test);
     // public System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1ECD59C
+    // Offset: 0x195C5D0
     // Implemented from: NUnit.Framework.Interfaces.ITestFilter
     // Base method: System.Boolean ITestFilter::IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
     bool IsExplicitMatch(NUnit::Framework::Interfaces::ITest* test);
     // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
-    // Offset: 0x1ECD9C0
+    // Offset: 0x195C9F4
     // Implemented from: NUnit.Framework.Interfaces.IXmlNodeBuilder
     // Base method: NUnit.Framework.Interfaces.TNode IXmlNodeBuilder::ToXml(System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);
@@ -68,7 +68,7 @@ namespace NUnit::Framework::Internal {
     // Base method: NUnit.Framework.Interfaces.TNode IXmlNodeBuilder::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
     // protected System.Void .ctor()
-    // Offset: 0x1ECDA48
+    // Offset: 0x195CA7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestFilter* New_ctor();

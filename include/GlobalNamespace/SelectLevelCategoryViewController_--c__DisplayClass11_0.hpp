@@ -21,10 +21,10 @@ namespace GlobalNamespace {
       return enabledLevelCategories;
     }
     // System.Boolean <Setup>b__0(SelectLevelCategoryViewController/LevelCategoryInfo data)
-    // Offset: 0x1FE9E9C
+    // Offset: 0xFCA4F0
     bool $Setup$b__0(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo* data);
     // public System.Void .ctor()
-    // Offset: 0x1FE9B64
+    // Offset: 0xFCA1B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SelectLevelCategoryViewController::$$c__DisplayClass11_0* New_ctor();

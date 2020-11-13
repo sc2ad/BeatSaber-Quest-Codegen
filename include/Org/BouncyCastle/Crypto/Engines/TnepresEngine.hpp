@@ -14,27 +14,27 @@ namespace Org::BouncyCastle::Crypto::Engines {
   class TnepresEngine : public Org::BouncyCastle::Crypto::Engines::SerpentEngineBase {
     public:
     // public override System.String get_AlgorithmName()
-    // Offset: 0x19E4EE8
+    // Offset: 0x18160C8
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
     // Base method: System.String SerpentEngineBase::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // protected override System.Int32[] MakeWorkingKey(System.Byte[] key)
-    // Offset: 0x19E4F30
+    // Offset: 0x1816110
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
     // Base method: System.Int32[] SerpentEngineBase::MakeWorkingKey(System.Byte[] key)
     ::Array<int>* MakeWorkingKey(::Array<uint8_t>* key);
     // protected override System.Void EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x19E69D8
+    // Offset: 0x1817BB8
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
     // Base method: System.Void SerpentEngineBase::EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     void EncryptBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // protected override System.Void DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x19E7F48
+    // Offset: 0x1819128
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
     // Base method: System.Void SerpentEngineBase::DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     void DecryptBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // public System.Void .ctor()
-    // Offset: 0x19E980C
+    // Offset: 0x181A9EC
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
     // Base method: System.Void SerpentEngineBase::.ctor()
     // Base method: System.Void Object::.ctor()

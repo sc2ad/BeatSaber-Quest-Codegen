@@ -61,13 +61,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
-    // Offset: 0x205E90C
+    // Offset: 0xFA8354
     void Start();
     // private System.Void HandlePlayersLayoutWasCalculated(MultiplayerPlayerLayout layout, System.Int32 playersCount)
-    // Offset: 0x205E9BC
+    // Offset: 0xFA8400
     void HandlePlayersLayoutWasCalculated(GlobalNamespace::MultiplayerPlayerLayout layout, int playersCount);
     // public System.Void .ctor()
-    // Offset: 0x205EA20
+    // Offset: 0xFA8464
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

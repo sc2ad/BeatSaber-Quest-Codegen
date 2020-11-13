@@ -32,19 +32,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_objectiveName()
-    // Offset: 0x1FCD828
+    // Offset: 0x101F8D0
     ::Il2CppString* get_objectiveName();
     // public System.String get_objectiveNameLocalized()
-    // Offset: 0x1FC7778
+    // Offset: 0x1018B34
     ::Il2CppString* get_objectiveNameLocalized();
     // public System.Boolean get_noConditionValue()
-    // Offset: 0x1FCD830
+    // Offset: 0x101F8D8
     bool get_noConditionValue();
     // public ObjectiveValueFormatterSO get_objectiveValueFormater()
-    // Offset: 0x1FCD838
+    // Offset: 0x101F8E0
     GlobalNamespace::ObjectiveValueFormatterSO* get_objectiveValueFormater();
     // public System.Void .ctor()
-    // Offset: 0x1FCD840
+    // Offset: 0x101F8E8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

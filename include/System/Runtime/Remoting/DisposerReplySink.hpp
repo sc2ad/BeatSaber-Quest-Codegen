@@ -38,15 +38,15 @@ namespace System::Runtime::Remoting {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMessageSink*>(this);
     }
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessageSink next, System.IDisposable disposable)
-    // Offset: 0x109E3FC
+    // Offset: 0x1174D2C
     static DisposerReplySink* New_ctor(System::Runtime::Remoting::Messaging::IMessageSink* next, System::IDisposable* disposable);
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x109E44C
+    // Offset: 0x1174D7C
     // Implemented from: System.Runtime.Remoting.Messaging.IMessageSink
     // Base method: System.Runtime.Remoting.Messaging.IMessage IMessageSink::SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
     System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // public System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x109E57C
+    // Offset: 0x1174EAC
     // Implemented from: System.Runtime.Remoting.Messaging.IMessageSink
     // Base method: System.Runtime.Remoting.Messaging.IMessageCtrl IMessageSink::AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);

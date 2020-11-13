@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IMultiplayerSpectatingSpot,System.Boolean> <>9__3_0
     static void _set_$$9__3_0(System::Func_2<GlobalNamespace::IMultiplayerSpectatingSpot*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1FDB0EC
+    // Offset: 0xFD3A18
     static void _cctor();
     // System.Boolean <get_defaultSpot>b__3_0(IMultiplayerSpectatingSpot s)
-    // Offset: 0x1FDB15C
+    // Offset: 0xFD3A88
     bool $get_defaultSpot$b__3_0(GlobalNamespace::IMultiplayerSpectatingSpot* s);
     // public System.Void .ctor()
-    // Offset: 0x1FDB154
+    // Offset: 0xFD3A80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MultiplayerSpectatingSpotManager::$$c* New_ctor();

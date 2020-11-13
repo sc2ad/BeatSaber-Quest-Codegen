@@ -40,25 +40,25 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x217477C
+    // Offset: 0x1084600
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x2174854
+    // Offset: 0x10846D8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x21748C8
+    // Offset: 0x108474C
     void OnDestroy();
     // private System.Void HandleSelectionDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/TransitionType transitionType, System.Object changeOwner)
-    // Offset: 0x21749A0
+    // Offset: 0x1084824
     void HandleSelectionDidChange(HMUI::SelectableCell* selectableCell, HMUI::SelectableCell::TransitionType transitionType, ::Il2CppObject* changeOwner);
     // private System.Void HandleHighlightDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x21749A4
+    // Offset: 0x1084828
     void HandleHighlightDidChange(HMUI::SelectableCell* selectableCell, HMUI::SelectableCell::TransitionType transitionType);
     // private System.Void RefreshVisuals()
-    // Offset: 0x2174858
+    // Offset: 0x10846DC
     void RefreshVisuals();
     // public System.Void .ctor()
-    // Offset: 0x21749A8
+    // Offset: 0x108482C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

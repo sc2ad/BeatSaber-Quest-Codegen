@@ -27,10 +27,10 @@ namespace UnityEngine::Timeline {
     // Offset: 0x18
     bool allowAutoCreate;
     // public System.Void .ctor(System.Type clipClass)
-    // Offset: 0x1EECDDC
+    // Offset: 0x1972968
     static TrackClipTypeAttribute* New_ctor(System::Type* clipClass);
     // public System.Void .ctor(System.Type clipClass, System.Boolean allowAutoCreate)
-    // Offset: 0x1EECE1C
+    // Offset: 0x19729A8
     static TrackClipTypeAttribute* New_ctor(System::Type* clipClass, bool allowAutoCreate);
   }; // UnityEngine.Timeline.TrackClipTypeAttribute
 }

@@ -23,28 +23,28 @@ namespace GlobalNamespace {
     // Offset: 0x19
     bool ElementSingleLine;
     // public System.String get_ElementHeader()
-    // Offset: 0x211A5B0
+    // Offset: 0x103C69C
     ::Il2CppString* get_ElementHeader();
     // protected System.Void set_ElementHeader(System.String value)
-    // Offset: 0x211A5B8
+    // Offset: 0x103C6A4
     void set_ElementHeader(::Il2CppString* value);
     // public System.Boolean get_HeaderZeroIndex()
-    // Offset: 0x211A5C0
+    // Offset: 0x103C6AC
     bool get_HeaderZeroIndex();
     // protected System.Void set_HeaderZeroIndex(System.Boolean value)
-    // Offset: 0x211A5C8
+    // Offset: 0x103C6B4
     void set_HeaderZeroIndex(bool value);
     // public System.Boolean get_ElementSingleLine()
-    // Offset: 0x211A5D4
+    // Offset: 0x103C6C0
     bool get_ElementSingleLine();
     // protected System.Void set_ElementSingleLine(System.Boolean value)
-    // Offset: 0x211A5DC
+    // Offset: 0x103C6C8
     void set_ElementSingleLine(bool value);
     // public System.Void .ctor(System.String headerString, System.Boolean isZeroIndex, System.Boolean isSingleLine)
-    // Offset: 0x211A658
+    // Offset: 0x103C744
     static ReorderableAttribute* New_ctor(::Il2CppString* headerString, bool isZeroIndex, bool isSingleLine);
     // public System.Void .ctor()
-    // Offset: 0x211A5E8
+    // Offset: 0x103C6D4
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

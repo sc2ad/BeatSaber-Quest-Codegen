@@ -19,46 +19,46 @@ namespace UnityEngine {
   class GL : public ::Il2CppObject {
     public:
     // static public System.Void Vertex3(System.Single x, System.Single y, System.Single z)
-    // Offset: 0x17946F4
+    // Offset: 0x168A4A8
     static void Vertex3(float x, float y, float z);
     // static public System.Void TexCoord3(System.Single x, System.Single y, System.Single z)
-    // Offset: 0x1794750
+    // Offset: 0x168A504
     static void TexCoord3(float x, float y, float z);
     // static public System.Void TexCoord2(System.Single x, System.Single y)
-    // Offset: 0x17947AC
+    // Offset: 0x168A560
     static void TexCoord2(float x, float y);
     // static public System.Boolean get_invertCulling()
-    // Offset: 0x17947FC
+    // Offset: 0x168A5B0
     static bool get_invertCulling();
     // static public System.Void set_invertCulling(System.Boolean value)
-    // Offset: 0x1794830
+    // Offset: 0x168A5E4
     static void set_invertCulling(bool value);
     // static public System.Void Flush()
-    // Offset: 0x1794870
+    // Offset: 0x168A624
     static void Flush();
     // static public System.Void PushMatrix()
-    // Offset: 0x17948A4
+    // Offset: 0x168A658
     static void PushMatrix();
     // static public System.Void PopMatrix()
-    // Offset: 0x17948D8
+    // Offset: 0x168A68C
     static void PopMatrix();
     // static public System.Void LoadOrtho()
-    // Offset: 0x179490C
+    // Offset: 0x168A6C0
     static void LoadOrtho();
     // static public System.Void Begin(System.Int32 mode)
-    // Offset: 0x1794940
+    // Offset: 0x168A6F4
     static void Begin(int mode);
     // static public System.Void End()
-    // Offset: 0x1794980
+    // Offset: 0x168A734
     static void End();
     // static private System.Void GLClear(System.Boolean clearDepth, System.Boolean clearColor, UnityEngine.Color backgroundColor, System.Single depth)
-    // Offset: 0x17949B4
+    // Offset: 0x168A768
     static void GLClear(bool clearDepth, bool clearColor, UnityEngine::Color backgroundColor, float depth);
     // static public System.Void Clear(System.Boolean clearDepth, System.Boolean clearColor, UnityEngine.Color backgroundColor)
-    // Offset: 0x1794A94
+    // Offset: 0x168A848
     static void Clear(bool clearDepth, bool clearColor, UnityEngine::Color backgroundColor);
     // static private System.Void GLClear_Injected(System.Boolean clearDepth, System.Boolean clearColor, ref UnityEngine.Color backgroundColor, System.Single depth)
-    // Offset: 0x1794A2C
+    // Offset: 0x168A7E0
     static void GLClear_Injected(bool clearDepth, bool clearColor, UnityEngine::Color& backgroundColor, float depth);
   }; // UnityEngine.GL
 }

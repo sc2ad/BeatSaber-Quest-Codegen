@@ -63,16 +63,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxParticles
     static void _set_kMaxParticles(int value);
     // protected System.Void Start()
-    // Offset: 0x1F9E034
+    // Offset: 0xFEF868
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x1F9E130
+    // Offset: 0xFEF964
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x1F9E208
+    // Offset: 0xFEFA3C
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x1F9E3E8
+    // Offset: 0xFEFC1C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

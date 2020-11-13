@@ -43,52 +43,52 @@ namespace System::Security::Cryptography {
     // Deleting conversion operator: operator ::Array<uint8_t>*
     constexpr operator ::Array<uint8_t>*() const noexcept = delete;
     // protected System.Int32 get_BlockSizeValue()
-    // Offset: 0x1776594
+    // Offset: 0x1696A88
     int get_BlockSizeValue();
     // protected System.Void set_BlockSizeValue(System.Int32 value)
-    // Offset: 0x177659C
+    // Offset: 0x1696A90
     void set_BlockSizeValue(int value);
     // private System.Void UpdateIOPadBuffers()
-    // Offset: 0x17765A4
+    // Offset: 0x1696A98
     void UpdateIOPadBuffers();
     // System.Void InitializeKey(System.Byte[] key)
-    // Offset: 0x1776748
+    // Offset: 0x1696C3C
     void InitializeKey(::Array<uint8_t>* key);
     // static public System.Security.Cryptography.HMAC Create()
-    // Offset: 0x1776AB8
+    // Offset: 0x1696FAC
     static System::Security::Cryptography::HMAC* Create();
     // public override System.Byte[] get_Key()
-    // Offset: 0x1776990
+    // Offset: 0x1696E84
     // Implemented from: System.Security.Cryptography.KeyedHashAlgorithm
     // Base method: System.Byte[] KeyedHashAlgorithm::get_Key()
     ::Array<uint8_t>* get_Key();
     // public override System.Void set_Key(System.Byte[] value)
-    // Offset: 0x1776A10
+    // Offset: 0x1696F04
     // Implemented from: System.Security.Cryptography.KeyedHashAlgorithm
     // Base method: System.Void KeyedHashAlgorithm::set_Key(System.Byte[] value)
     void set_Key(::Array<uint8_t>* value);
     // public override System.Void Initialize()
-    // Offset: 0x1776B5C
+    // Offset: 0x1697050
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::Initialize()
     void Initialize();
     // protected override System.Void HashCore(System.Byte[] rgb, System.Int32 ib, System.Int32 cb)
-    // Offset: 0x1776BB0
+    // Offset: 0x16970A4
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::HashCore(System.Byte[] rgb, System.Int32 ib, System.Int32 cb)
     void HashCore(::Array<uint8_t>* rgb, int ib, int cb);
     // protected override System.Byte[] HashFinal()
-    // Offset: 0x1776E2C
+    // Offset: 0x1697320
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
     ::Array<uint8_t>* HashFinal();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x17771B8
+    // Offset: 0x16976AC
     // Implemented from: System.Security.Cryptography.KeyedHashAlgorithm
     // Base method: System.Void KeyedHashAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // protected System.Void .ctor()
-    // Offset: 0x1777380
+    // Offset: 0x1697874
     // Implemented from: System.Security.Cryptography.KeyedHashAlgorithm
     // Base method: System.Void KeyedHashAlgorithm::.ctor()
     // Base method: System.Void HashAlgorithm::.ctor()

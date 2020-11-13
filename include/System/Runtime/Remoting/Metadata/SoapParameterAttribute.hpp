@@ -14,7 +14,7 @@ namespace System::Runtime::Remoting::Metadata {
   class SoapParameterAttribute : public System::Runtime::Remoting::Metadata::SoapAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x12D1264
+    // Offset: 0x1330A50
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
     // Base method: System.Void SoapAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

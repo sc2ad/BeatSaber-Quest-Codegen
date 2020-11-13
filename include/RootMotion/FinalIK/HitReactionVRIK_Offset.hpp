@@ -60,34 +60,34 @@ namespace RootMotion::FinalIK {
     // Offset: 0x4C
     float lastTime;
     // protected System.Single get_crossFader()
-    // Offset: 0x183F614
+    // Offset: 0x1706CBC
     float get_crossFader();
     // private System.Void set_crossFader(System.Single value)
-    // Offset: 0x183F61C
+    // Offset: 0x1706CC4
     void set_crossFader(float value);
     // protected System.Single get_timer()
-    // Offset: 0x183F624
+    // Offset: 0x1706CCC
     float get_timer();
     // private System.Void set_timer(System.Single value)
-    // Offset: 0x183F62C
+    // Offset: 0x1706CD4
     void set_timer(float value);
     // protected UnityEngine.Vector3 get_force()
-    // Offset: 0x183F634
+    // Offset: 0x1706CDC
     UnityEngine::Vector3 get_force();
     // private System.Void set_force(UnityEngine.Vector3 value)
-    // Offset: 0x183F640
+    // Offset: 0x1706CE8
     void set_force(UnityEngine::Vector3 value);
     // protected UnityEngine.Vector3 get_point()
-    // Offset: 0x183F64C
+    // Offset: 0x1706CF4
     UnityEngine::Vector3 get_point();
     // private System.Void set_point(UnityEngine.Vector3 value)
-    // Offset: 0x183F658
+    // Offset: 0x1706D00
     void set_point(UnityEngine::Vector3 value);
     // public System.Void Hit(UnityEngine.Vector3 force, UnityEngine.AnimationCurve[] curves, UnityEngine.Vector3 point)
-    // Offset: 0x183F4CC
+    // Offset: 0x1706B74
     void Hit(UnityEngine::Vector3 force, ::Array<UnityEngine::AnimationCurve*>* curves, UnityEngine::Vector3 point);
     // public System.Void Apply(RootMotion.FinalIK.VRIK ik, UnityEngine.AnimationCurve[] curves, System.Single weight)
-    // Offset: 0x183F130
+    // Offset: 0x17067D8
     void Apply(RootMotion::FinalIK::VRIK* ik, ::Array<UnityEngine::AnimationCurve*>* curves, float weight);
     // protected System.Single GetLength(UnityEngine.AnimationCurve[] curves)
     // Offset: 0xFFFFFFFF
@@ -99,7 +99,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void OnApply(RootMotion::FinalIK::VRIK* ik, ::Array<UnityEngine::AnimationCurve*>* curves, float weight);
     // protected System.Void .ctor()
-    // Offset: 0x183F664
+    // Offset: 0x1706D0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HitReactionVRIK::Offset* New_ctor();

@@ -26,22 +26,22 @@ namespace Mono {
   class RuntimeMarshal : public ::Il2CppObject {
     public:
     // static System.String PtrToUtf8String(System.IntPtr ptr)
-    // Offset: 0x1588A40
+    // Offset: 0x15272B0
     static ::Il2CppString* PtrToUtf8String(System::IntPtr ptr);
     // static Mono.SafeStringMarshal MarshalString(System.String str)
-    // Offset: 0x1588B10
+    // Offset: 0x1527380
     static Mono::SafeStringMarshal MarshalString(::Il2CppString* str);
     // static private System.Int32 DecodeBlobSize(System.IntPtr in_ptr, out System.IntPtr out_ptr)
-    // Offset: 0x1588B9C
+    // Offset: 0x152740C
     static int DecodeBlobSize(System::IntPtr in_ptr, System::IntPtr& out_ptr);
     // static System.Byte[] DecodeBlobArray(System.IntPtr ptr)
-    // Offset: 0x1588C20
+    // Offset: 0x1527490
     static ::Array<uint8_t>* DecodeBlobArray(System::IntPtr ptr);
     // static System.Int32 AsciHexDigitValue(System.Int32 c)
-    // Offset: 0x1588CDC
+    // Offset: 0x152754C
     static int AsciHexDigitValue(int c);
     // static System.Void FreeAssemblyName(ref Mono.MonoAssemblyName name, System.Boolean freeStruct)
-    // Offset: 0x1588D08
+    // Offset: 0x1527578
     static void FreeAssemblyName(Mono::MonoAssemblyName& name, bool freeStruct);
   }; // Mono.RuntimeMarshal
 }

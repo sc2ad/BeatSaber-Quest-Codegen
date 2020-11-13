@@ -36,31 +36,31 @@ namespace UnityEngine {
     // Set static field: static private readonly UnityEngine.Pose k_Identity
     static void _set_k_Identity(UnityEngine::Pose value);
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0xC7BC7C
+    // Offset: 0xCA7494
     // ABORTED: conflicts with another method.  Pose(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // public UnityEngine.Vector3 get_forward()
-    // Offset: 0xC7BC98
+    // Offset: 0xCA74B0
     UnityEngine::Vector3 get_forward();
     // static private System.Void .cctor()
-    // Offset: 0x1943A9C
+    // Offset: 0x1735AD0
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xC7BC90
+    // Offset: 0xCA74A8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xC7BCA0
+    // Offset: 0xCA74B8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public System.Boolean Equals(UnityEngine.Pose other)
-    // Offset: 0xC7BCA8
+    // Offset: 0xCA74C0
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Pose other)
     bool Equals(UnityEngine::Pose other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xC7BCE0
+    // Offset: 0xCA74F8
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

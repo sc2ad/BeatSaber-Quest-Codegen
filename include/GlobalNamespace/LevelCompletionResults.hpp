@@ -222,21 +222,21 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IComparable*>(this);
     }
     // public System.Void .ctor(LevelCompletionResults/LevelEndAction levelEndAction)
-    // Offset: 0x1F0DBC4
+    // Offset: 0x19A47DC
     static LevelCompletionResults* New_ctor(GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction);
     // public System.Void .ctor(GameplayModifiers gameplayModifiers, System.Int32 modifiedScore, System.Int32 rawScore, RankModel/Rank rank, System.Boolean fullCombo, System.Single leftSaberMovementDistance, System.Single rightSaberMovementDistance, System.Single leftHandMovementDistance, System.Single rightHandMovementDistance, System.Single songDuration, LevelCompletionResults/LevelEndStateType levelEndStateType, LevelCompletionResults/LevelEndAction levelEndAction, System.Single energy, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 notGoodCount, System.Int32 okCount, System.Int32 averageCutScore, System.Int32 maxCutScore, System.Int32 maxCombo, System.Single minDirDeviation, System.Single maxDirDeviation, System.Single averageDirDeviation, System.Single minTimeDeviation, System.Single maxTimeDeviation, System.Single averageTimeDeviation, System.Single endSongTime)
-    // Offset: 0x1F0DC5C
+    // Offset: 0x19A4874
     static LevelCompletionResults* New_ctor(GlobalNamespace::GameplayModifiers* gameplayModifiers, int modifiedScore, int rawScore, GlobalNamespace::RankModel::Rank rank, bool fullCombo, float leftSaberMovementDistance, float rightSaberMovementDistance, float leftHandMovementDistance, float rightHandMovementDistance, float songDuration, GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction, float energy, int goodCutsCount, int badCutsCount, int missedCount, int notGoodCount, int okCount, int averageCutScore, int maxCutScore, int maxCombo, float minDirDeviation, float maxDirDeviation, float averageDirDeviation, float minTimeDeviation, float maxTimeDeviation, float averageTimeDeviation, float endSongTime);
     // static public LevelCompletionResults CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1F0E120
+    // Offset: 0x19A4D38
     static GlobalNamespace::LevelCompletionResults* CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x1F0DBBC
+    // Offset: 0x19A47D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LevelCompletionResults* New_ctor();
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0x1F0DDD8
+    // Offset: 0x19A49F0
     // Implemented from: System.IComparable
     // Base method: System.Int32 IComparable::CompareTo(System.Object obj)
     int CompareTo(::Il2CppObject* obj);
@@ -244,12 +244,12 @@ namespace GlobalNamespace {
     // Maps to method: CompareTo
     int System_IComparable_CompareTo(::Il2CppObject* obj);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1F0DEF4
+    // Offset: 0x19A4B0C
     // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
     // Base method: System.Void INetImmutableSerializable_1::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // private LevelCompletionResults LiteNetLib.Utils.INetImmutableSerializable<LevelCompletionResults>.CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1F0E118
+    // Offset: 0x19A4D30
     // Implemented from: LiteNetLib.Utils.INetImmutableSerializable`1
     // Base method: T INetImmutableSerializable_1::CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
     GlobalNamespace::LevelCompletionResults* LiteNetLib_Utils_INetImmutableSerializable_1_CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);

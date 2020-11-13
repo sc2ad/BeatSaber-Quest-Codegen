@@ -26,16 +26,16 @@ namespace System {
   class AssemblyLoadEventHandler : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x139FDF0
+    // Offset: 0x1CA8EE0
     static AssemblyLoadEventHandler* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.Object sender, System.AssemblyLoadEventArgs args)
-    // Offset: 0x1397884
+    // Offset: 0x1CA0974
     void Invoke(::Il2CppObject* sender, System::AssemblyLoadEventArgs* args);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.AssemblyLoadEventArgs args, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x139FE04
+    // Offset: 0x1CA8EF4
     System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, System::AssemblyLoadEventArgs* args, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x139FE34
+    // Offset: 0x1CA8F24
     void EndInvoke(System::IAsyncResult* result);
   }; // System.AssemblyLoadEventHandler
 }

@@ -48,40 +48,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public Saber get_leftSaber()
-    // Offset: 0x20774FC
+    // Offset: 0xFC0844
     GlobalNamespace::Saber* get_leftSaber();
     // public Saber get_rightSaber()
-    // Offset: 0x2077504
+    // Offset: 0xFC084C
     GlobalNamespace::Saber* get_rightSaber();
     // public System.Void add_didUpdateSaberPositionsEvent(System.Action`2<Saber,Saber> value)
-    // Offset: 0x207750C
+    // Offset: 0xFC0854
     void add_didUpdateSaberPositionsEvent(System::Action_2<GlobalNamespace::Saber*, GlobalNamespace::Saber*>* value);
     // public System.Void remove_didUpdateSaberPositionsEvent(System.Action`2<Saber,Saber> value)
-    // Offset: 0x20775B0
+    // Offset: 0xFC08F8
     void remove_didUpdateSaberPositionsEvent(System::Action_2<GlobalNamespace::Saber*, GlobalNamespace::Saber*>* value);
     // public System.Void set_disableSabers(System.Boolean value)
-    // Offset: 0x2077654
+    // Offset: 0xFC099C
     void set_disableSabers(bool value);
     // protected System.Void Start()
-    // Offset: 0x2077664
+    // Offset: 0xFC09AC
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x20777B4
+    // Offset: 0xFC0B10
     void OnDisable();
     // protected System.Void OnEnable()
-    // Offset: 0x20777B8
+    // Offset: 0xFC0B14
     void OnEnable();
     // protected System.Void Update()
-    // Offset: 0x20777C8
+    // Offset: 0xFC0B24
     void Update();
     // public Saber SaberForType(SaberType saberType)
-    // Offset: 0x2077890
+    // Offset: 0xFC0C0C
     GlobalNamespace::Saber* SaberForType(GlobalNamespace::SaberType saberType);
     // private System.Void RefreshSabers()
-    // Offset: 0x207768C
+    // Offset: 0xFC09D4
     void RefreshSabers();
     // public System.Void .ctor()
-    // Offset: 0x20778E8
+    // Offset: 0xFC0C7C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

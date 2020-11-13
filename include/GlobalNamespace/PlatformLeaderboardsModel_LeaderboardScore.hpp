@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Il2CppString* playerId;
     // public System.Void .ctor(System.Int32 score, System.Int32 rank, System.String playerName, System.String playerId, System.Collections.Generic.List`1<GameplayModifierParamsSO> gameplayModifiers)
-    // Offset: 0x208659C
+    // Offset: 0xF0ADFC
     static PlatformLeaderboardsModel::LeaderboardScore* New_ctor(int score, int rank, ::Il2CppString* playerName, ::Il2CppString* playerId, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* gameplayModifiers);
   }; // PlatformLeaderboardsModel/LeaderboardScore
 }

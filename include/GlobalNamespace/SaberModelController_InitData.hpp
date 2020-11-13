@@ -23,10 +23,10 @@ namespace GlobalNamespace {
       return trailTintColor;
     }
     // public System.Void .ctor(UnityEngine.Color trailTintColor)
-    // Offset: 0x2077F50
+    // Offset: 0xFC138C
     static SaberModelController::InitData* New_ctor(UnityEngine::Color trailTintColor);
     // public System.Void .ctor()
-    // Offset: 0x2077F1C
+    // Offset: 0xFC1358
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SaberModelController::InitData* New_ctor();

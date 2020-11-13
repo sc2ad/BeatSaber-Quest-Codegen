@@ -26,19 +26,19 @@ namespace Mono::Math::Prime::Generator {
   class PrimeGeneratorBase : public ::Il2CppObject {
     public:
     // public Mono.Math.Prime.ConfidenceFactor get_Confidence()
-    // Offset: 0x191ED94
+    // Offset: 0x17ADF1C
     Mono::Math::Prime::ConfidenceFactor get_Confidence();
     // public Mono.Math.Prime.PrimalityTest get_PrimalityTest()
-    // Offset: 0x191ED9C
+    // Offset: 0x17ADF24
     Mono::Math::Prime::PrimalityTest* get_PrimalityTest();
     // public System.Int32 get_TrialDivisionBounds()
-    // Offset: 0x191EE28
+    // Offset: 0x17ADFB0
     int get_TrialDivisionBounds();
     // public Mono.Math.BigInteger GenerateNewPrime(System.Int32 bits)
     // Offset: 0xFFFFFFFF
     Mono::Math::BigInteger* GenerateNewPrime(int bits);
     // protected System.Void .ctor()
-    // Offset: 0x191EE30
+    // Offset: 0x17ADFB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PrimeGeneratorBase* New_ctor();

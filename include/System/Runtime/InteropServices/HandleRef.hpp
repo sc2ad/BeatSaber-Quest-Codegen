@@ -26,10 +26,10 @@ namespace System::Runtime::InteropServices {
     // Creating value type constructor for type: HandleRef
     constexpr HandleRef(::Il2CppObject* m_wrapper_ = {}, System::IntPtr m_handle_ = {}) noexcept : m_wrapper{m_wrapper_}, m_handle{m_handle_} {}
     // public System.Void .ctor(System.Object wrapper, System.IntPtr handle)
-    // Offset: 0xC5DD58
+    // Offset: 0xC949CC
     // ABORTED: conflicts with another method.  HandleRef(::Il2CppObject* wrapper, System::IntPtr handle);
     // public System.IntPtr get_Handle()
-    // Offset: 0xC5DD88
+    // Offset: 0xC949FC
     System::IntPtr get_Handle();
   }; // System.Runtime.InteropServices.HandleRef
 }

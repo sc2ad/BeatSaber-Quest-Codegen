@@ -52,25 +52,25 @@ namespace UnityEngine::EventSystems {
     // Set static field: static protected System.Int32 kNoEventMaskSet
     static void _set_kNoEventMaskSet(int value);
     // public System.Int32 get_depth()
-    // Offset: 0x1EDE23C
+    // Offset: 0x197EAD0
     int get_depth();
     // public System.Int32 get_finalEventMask()
-    // Offset: 0x1EDE304
+    // Offset: 0x197EB98
     int get_finalEventMask();
     // public UnityEngine.LayerMask get_eventMask()
-    // Offset: 0x1EDE3D8
+    // Offset: 0x197EC6C
     UnityEngine::LayerMask get_eventMask();
     // public System.Void set_eventMask(UnityEngine.LayerMask value)
-    // Offset: 0x1EDE3E0
+    // Offset: 0x197EC74
     void set_eventMask(UnityEngine::LayerMask value);
     // public System.Void Spherecast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList, System.Single radius)
-    // Offset: 0x1EDD050
+    // Offset: 0x197D8E4
     void Spherecast(UnityEngine::EventSystems::PointerEventData* eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* resultAppendList, float radius);
     // public UnityEngine.Vector2 GetScreenPos(UnityEngine.Vector3 worldPosition)
-    // Offset: 0x1EDD3AC
+    // Offset: 0x197DC40
     UnityEngine::Vector2 GetScreenPos(UnityEngine::Vector3 worldPosition);
     // protected System.Void .ctor()
-    // Offset: 0x1EDE1A8
+    // Offset: 0x197EA3C
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: System.Void BaseRaycaster::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -81,17 +81,17 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     static OVRPhysicsRaycaster* New_ctor();
     // public override UnityEngine.Camera get_eventCamera()
-    // Offset: 0x1EDE1DC
+    // Offset: 0x197EA70
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: UnityEngine.Camera BaseRaycaster::get_eventCamera()
     UnityEngine::Camera* get_eventCamera();
     // public override System.Int32 get_sortOrderPriority()
-    // Offset: 0x1EDE2FC
+    // Offset: 0x197EB90
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: System.Int32 BaseRaycaster::get_sortOrderPriority()
     int get_sortOrderPriority();
     // public override System.Void Raycast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList)
-    // Offset: 0x1EDE3E8
+    // Offset: 0x197EC7C
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: System.Void BaseRaycaster::Raycast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList)
     void Raycast(UnityEngine::EventSystems::PointerEventData* eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* resultAppendList);

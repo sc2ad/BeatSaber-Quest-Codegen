@@ -80,30 +80,30 @@ namespace Zenject {
       return *reinterpret_cast<Zenject::IPrefabInstantiator*>(this);
     }
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.Type argumentTarget, System.Collections.Generic.IEnumerable`1<System.Type> instantiateCallbackTypes, System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArguments, Zenject.IPrefabProvider prefabProvider, System.Action`2<Zenject.InjectContext,System.Object> instantiateCallback)
-    // Offset: 0x12EAEE8
+    // Offset: 0x134A6D4
     static PrefabInstantiator* New_ctor(Zenject::DiContainer* container, Zenject::GameObjectCreationParameters* gameObjectBindInfo, System::Type* argumentTarget, System::Collections::Generic::IEnumerable_1<System::Type*>* instantiateCallbackTypes, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>* extraArguments, Zenject::IPrefabProvider* prefabProvider, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback);
     // public Zenject.GameObjectCreationParameters get_GameObjectCreationParameters()
-    // Offset: 0x12EB700
+    // Offset: 0x134AEEC
     // Implemented from: Zenject.IPrefabInstantiator
     // Base method: Zenject.GameObjectCreationParameters IPrefabInstantiator::get_GameObjectCreationParameters()
     Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();
     // public System.Type get_ArgumentTarget()
-    // Offset: 0x12EB708
+    // Offset: 0x134AEF4
     // Implemented from: Zenject.IPrefabInstantiator
     // Base method: System.Type IPrefabInstantiator::get_ArgumentTarget()
     System::Type* get_ArgumentTarget();
     // public System.Collections.Generic.List`1<Zenject.TypeValuePair> get_ExtraArguments()
-    // Offset: 0x12EB710
+    // Offset: 0x134AEFC
     // Implemented from: Zenject.IPrefabInstantiator
     // Base method: System.Collections.Generic.List`1<Zenject.TypeValuePair> IPrefabInstantiator::get_ExtraArguments()
     System::Collections::Generic::List_1<Zenject::TypeValuePair>* get_ExtraArguments();
     // public UnityEngine.Object GetPrefab()
-    // Offset: 0x12EB718
+    // Offset: 0x134AF04
     // Implemented from: Zenject.IPrefabInstantiator
     // Base method: UnityEngine.Object IPrefabInstantiator::GetPrefab()
     UnityEngine::Object* GetPrefab();
     // public UnityEngine.GameObject Instantiate(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction)
-    // Offset: 0x12EB7C8
+    // Offset: 0x134AFB4
     // Implemented from: Zenject.IPrefabInstantiator
     // Base method: UnityEngine.GameObject IPrefabInstantiator::Instantiate(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction)
     UnityEngine::GameObject* Instantiate(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction);

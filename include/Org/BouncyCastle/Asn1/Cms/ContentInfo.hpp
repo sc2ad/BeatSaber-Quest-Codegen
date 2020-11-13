@@ -31,13 +31,13 @@ namespace Org::BouncyCastle::Asn1::Cms {
     // Offset: 0x18
     Org::BouncyCastle::Asn1::Asn1Encodable* content;
     // static public Org.BouncyCastle.Asn1.Cms.ContentInfo GetInstance(System.Object obj)
-    // Offset: 0x131CD48
+    // Offset: 0x137B534
     static Org::BouncyCastle::Asn1::Cms::ContentInfo* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x131CEBC
+    // Offset: 0x137B6A8
     static ContentInfo* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x131D144
+    // Offset: 0x137B930
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

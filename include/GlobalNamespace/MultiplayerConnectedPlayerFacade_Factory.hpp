@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class MultiplayerConnectedPlayerFacade::Factory : public Zenject::PlaceholderFactory_3<GlobalNamespace::IConnectedPlayer*, GlobalNamespace::MultiplayerPlayerStartState, GlobalNamespace::MultiplayerConnectedPlayerFacade*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x206036C
+    // Offset: 0xFA9DB0
     // Implemented from: Zenject.PlaceholderFactory`3
     // Base method: System.Void PlaceholderFactory_3::.ctor()
     // Base method: System.Void PlaceholderFactoryBase_1::.ctor()

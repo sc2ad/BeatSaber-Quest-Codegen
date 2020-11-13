@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x11
     bool ignoreBadCuts;
     // public System.Void .ctor(System.Boolean useTestAudioClips, System.Boolean ignoreBadCuts)
-    // Offset: 0x20F58E0
+    // Offset: 0xFE4634
     static NoteCutSoundEffectManager::InitData* New_ctor(bool useTestAudioClips, bool ignoreBadCuts);
   }; // NoteCutSoundEffectManager/InitData
 }

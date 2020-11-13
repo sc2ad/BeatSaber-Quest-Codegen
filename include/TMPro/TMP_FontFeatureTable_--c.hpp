@@ -39,16 +39,16 @@ namespace TMPro {
     // Set static field: static public System.Func`2<TMPro.TMP_GlyphPairAdjustmentRecord,System.UInt32> <>9__6_1
     static void _set_$$9__6_1(System::Func_2<TMPro::TMP_GlyphPairAdjustmentRecord*, uint>* value);
     // static private System.Void .cctor()
-    // Offset: 0xEC9170
+    // Offset: 0xF5E248
     static void _cctor();
     // System.UInt32 <SortGlyphPairAdjustmentRecords>b__6_0(TMPro.TMP_GlyphPairAdjustmentRecord s)
-    // Offset: 0xEC91E0
+    // Offset: 0xF5E2B8
     uint $SortGlyphPairAdjustmentRecords$b__6_0(TMPro::TMP_GlyphPairAdjustmentRecord* s);
     // System.UInt32 <SortGlyphPairAdjustmentRecords>b__6_1(TMPro.TMP_GlyphPairAdjustmentRecord s)
-    // Offset: 0xEC91F8
+    // Offset: 0xF5E2D0
     uint $SortGlyphPairAdjustmentRecords$b__6_1(TMPro::TMP_GlyphPairAdjustmentRecord* s);
     // public System.Void .ctor()
-    // Offset: 0xEC91D8
+    // Offset: 0xF5E2B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TMP_FontFeatureTable::$$c* New_ctor();

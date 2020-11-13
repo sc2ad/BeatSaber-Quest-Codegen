@@ -37,34 +37,34 @@ namespace Org::BouncyCastle::Asn1::Sec {
       return seq;
     }
     // static public Org.BouncyCastle.Asn1.Sec.ECPrivateKeyStructure GetInstance(System.Object obj)
-    // Offset: 0x140E6E0
+    // Offset: 0x14005D8
     static Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x140E784
+    // Offset: 0x140067C
     static ECPrivateKeyStructure* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public System.Void .ctor(System.Int32 orderBitLength, Org.BouncyCastle.Math.BigInteger key)
-    // Offset: 0x140E828
+    // Offset: 0x1400720
     static ECPrivateKeyStructure* New_ctor(int orderBitLength, Org::BouncyCastle::Math::BigInteger* key);
     // public System.Void .ctor(System.Int32 orderBitLength, Org.BouncyCastle.Math.BigInteger key, Org.BouncyCastle.Asn1.Asn1Encodable parameters)
-    // Offset: 0x140E834
+    // Offset: 0x140072C
     static ECPrivateKeyStructure* New_ctor(int orderBitLength, Org::BouncyCastle::Math::BigInteger* key, Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
     // public System.Void .ctor(System.Int32 orderBitLength, Org.BouncyCastle.Math.BigInteger key, Org.BouncyCastle.Asn1.DerBitString publicKey, Org.BouncyCastle.Asn1.Asn1Encodable parameters)
-    // Offset: 0x140E840
+    // Offset: 0x1400738
     static ECPrivateKeyStructure* New_ctor(int orderBitLength, Org::BouncyCastle::Math::BigInteger* key, Org::BouncyCastle::Asn1::DerBitString* publicKey, Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
     // public Org.BouncyCastle.Math.BigInteger GetKey()
-    // Offset: 0x140EB0C
+    // Offset: 0x1400A04
     Org::BouncyCastle::Math::BigInteger* GetKey();
     // public Org.BouncyCastle.Asn1.DerBitString GetPublicKey()
-    // Offset: 0x140EBDC
+    // Offset: 0x1400AD4
     Org::BouncyCastle::Asn1::DerBitString* GetPublicKey();
     // public Org.BouncyCastle.Asn1.Asn1Object GetParameters()
-    // Offset: 0x140EF6C
+    // Offset: 0x1400E64
     Org::BouncyCastle::Asn1::Asn1Object* GetParameters();
     // private Org.BouncyCastle.Asn1.Asn1Object GetObjectInTag(System.Int32 tagNo)
-    // Offset: 0x140EC64
+    // Offset: 0x1400B5C
     Org::BouncyCastle::Asn1::Asn1Object* GetObjectInTag(int tagNo);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x140EF74
+    // Offset: 0x1400E6C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

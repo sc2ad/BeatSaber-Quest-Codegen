@@ -39,13 +39,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Init()
-    // Offset: 0x2103E7C
+    // Offset: 0x100A4FC
     void Init();
     // private System.Void InitCallback(Oculus.Platform.Message`1<Oculus.Platform.Models.PlatformInitialize> msg)
-    // Offset: 0x210403C
+    // Offset: 0x100A6BC
     void InitCallback(Oculus::Platform::Message_1<Oculus::Platform::Models::PlatformInitialize*>* msg);
     // public System.Void .ctor()
-    // Offset: 0x21041D4
+    // Offset: 0x100A854
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

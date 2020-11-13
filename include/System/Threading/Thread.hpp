@@ -17,6 +17,8 @@
 namespace System::Threading {
   // Forward declaring type: InternalThread
   class InternalThread;
+  // Forward declaring type: ThreadPriority
+  struct ThreadPriority;
   // Forward declaring type: AsyncLocal`1<T>
   template<typename T>
   class AsyncLocal_1;
@@ -38,12 +40,12 @@ namespace System::Security::Principal {
 namespace System {
   // Forward declaring type: MulticastDelegate
   class MulticastDelegate;
-  // Forward declaring type: Delegate
-  class Delegate;
   // Forward declaring type: LocalDataStoreMgr
   class LocalDataStoreMgr;
   // Forward declaring type: LocalDataStoreHolder
   class LocalDataStoreHolder;
+  // Forward declaring type: Delegate
+  class Delegate;
   // Forward declaring type: AppDomain
   class AppDomain;
   // Forward declaring type: IntPtr
@@ -122,189 +124,195 @@ namespace System::Threading {
     // Set static field: static private System.Threading.Thread current_thread
     static void _set_current_thread(System::Threading::Thread* value);
     // public System.Void .ctor(System.Threading.ThreadStart start)
-    // Offset: 0x14A19F8
+    // Offset: 0x1D1A27C
     static Thread* New_ctor(System::Threading::ThreadStart* start);
     // public System.Void .ctor(System.Threading.ParameterizedThreadStart start)
-    // Offset: 0x14A1568
+    // Offset: 0x1D19DEC
     static Thread* New_ctor(System::Threading::ParameterizedThreadStart* start);
     // public System.Void Start()
-    // Offset: 0x14A1B98
+    // Offset: 0x1D1A41C
     void Start();
     // public System.Void Start(System.Object parameter)
-    // Offset: 0x14A1658
+    // Offset: 0x1D19EDC
     void Start(::Il2CppObject* parameter);
     // private System.Void Start(ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x14A1BC0
+    // Offset: 0x1D1A444
     void Start(System::Threading::StackCrawlMark& stackMark);
     // System.Threading.ExecutionContext/Reader GetExecutionContextReader()
-    // Offset: 0x1494D54
+    // Offset: 0x1D0D5D8
     System::Threading::ExecutionContext::Reader GetExecutionContextReader();
     // System.Boolean get_ExecutionContextBelongsToCurrentScope()
-    // Offset: 0x14A1D48
+    // Offset: 0x1D1A5CC
     bool get_ExecutionContextBelongsToCurrentScope();
     // System.Void set_ExecutionContextBelongsToCurrentScope(System.Boolean value)
-    // Offset: 0x14A1D58
+    // Offset: 0x1D1A5DC
     void set_ExecutionContextBelongsToCurrentScope(bool value);
     // System.Threading.ExecutionContext GetMutableExecutionContext()
-    // Offset: 0x1494C50
+    // Offset: 0x1D0D4D4
     System::Threading::ExecutionContext* GetMutableExecutionContext();
     // System.Void SetExecutionContext(System.Threading.ExecutionContext value, System.Boolean belongsToCurrentScope)
-    // Offset: 0x14A1D68
+    // Offset: 0x1D1A5EC
     void SetExecutionContext(System::Threading::ExecutionContext* value, bool belongsToCurrentScope);
     // System.Void SetExecutionContext(System.Threading.ExecutionContext/Reader value, System.Boolean belongsToCurrentScope)
-    // Offset: 0x14A1DA0
+    // Offset: 0x1D1A624
     void SetExecutionContext(System::Threading::ExecutionContext::Reader value, bool belongsToCurrentScope);
     // static public System.Void ResetAbort()
-    // Offset: 0x14A1DD8
+    // Offset: 0x1D1A65C
     static void ResetAbort();
     // private System.Void ResetAbortNative()
-    // Offset: 0x14A1EB0
+    // Offset: 0x1D1A734
     void ResetAbortNative();
+    // public System.Void set_Priority(System.Threading.ThreadPriority value)
+    // Offset: 0x1D1A73C
+    void set_Priority(System::Threading::ThreadPriority value);
+    // private System.Void SetPriorityNative(System.Int32 priority)
+    // Offset: 0x1D1A740
+    void SetPriorityNative(int priority);
     // private System.Boolean JoinInternal(System.Int32 millisecondsTimeout)
-    // Offset: 0x14A1EB8
+    // Offset: 0x1D1A744
     bool JoinInternal(int millisecondsTimeout);
     // public System.Void Join()
-    // Offset: 0x14A1EBC
+    // Offset: 0x1D1A748
     void Join();
     // static private System.Void SleepInternal(System.Int32 millisecondsTimeout)
-    // Offset: 0x14A1EC4
+    // Offset: 0x1D1A750
     static void SleepInternal(int millisecondsTimeout);
     // static public System.Void Sleep(System.Int32 millisecondsTimeout)
-    // Offset: 0x1494754
+    // Offset: 0x1D0CFE0
     static void Sleep(int millisecondsTimeout);
     // static private System.Boolean YieldInternal()
-    // Offset: 0x14A1EC8
+    // Offset: 0x1D1A754
     static bool YieldInternal();
     // static public System.Boolean Yield()
-    // Offset: 0x14947FC
+    // Offset: 0x1D0D088
     static bool Yield();
     // private System.Void SetStartHelper(System.Delegate start, System.Int32 maxStackSize)
-    // Offset: 0x14A1A9C
+    // Offset: 0x1D1A320
     void SetStartHelper(System::Delegate* start, int maxStackSize);
     // public System.Globalization.CultureInfo get_CurrentUICulture()
-    // Offset: 0x14A2028
+    // Offset: 0x1D1A8B4
     System::Globalization::CultureInfo* get_CurrentUICulture();
     // System.Globalization.CultureInfo GetCurrentUICultureNoAppX()
-    // Offset: 0x14A202C
+    // Offset: 0x1D1A8B8
     System::Globalization::CultureInfo* GetCurrentUICultureNoAppX();
     // public System.Globalization.CultureInfo get_CurrentCulture()
-    // Offset: 0x14A20E4
+    // Offset: 0x1D1A970
     System::Globalization::CultureInfo* get_CurrentCulture();
     // private System.Globalization.CultureInfo GetCurrentCultureNoAppX()
-    // Offset: 0x14A20E8
+    // Offset: 0x1D1A974
     System::Globalization::CultureInfo* GetCurrentCultureNoAppX();
     // static public System.Void MemoryBarrier()
-    // Offset: 0x14A21A0
+    // Offset: 0x1D1AA2C
     static void MemoryBarrier();
     // private System.Void ConstructInternalThread()
-    // Offset: 0x14A21A4
+    // Offset: 0x1D1AA30
     void ConstructInternalThread();
     // private System.Threading.InternalThread get_Internal()
-    // Offset: 0x14A21A8
+    // Offset: 0x1D1AA34
     System::Threading::InternalThread* get_Internal();
     // static public System.Runtime.Remoting.Contexts.Context get_CurrentContext()
-    // Offset: 0x14A21D8
+    // Offset: 0x1D1AA64
     static System::Runtime::Remoting::Contexts::Context* get_CurrentContext();
     // static private System.Byte[] ByteArrayToCurrentDomain(System.Byte[] arr)
-    // Offset: 0x14A21E0
+    // Offset: 0x1D1AA6C
     static ::Array<uint8_t>* ByteArrayToCurrentDomain(::Array<uint8_t>* arr);
     // static private System.Void DeserializePrincipal(System.Threading.Thread th)
-    // Offset: 0x14A21E4
+    // Offset: 0x1D1AA70
     static void DeserializePrincipal(System::Threading::Thread* th);
     // static public System.Security.Principal.IPrincipal get_CurrentPrincipal()
-    // Offset: 0x14A2568
+    // Offset: 0x1D1ADF4
     static System::Security::Principal::IPrincipal* get_CurrentPrincipal();
     // static private System.Threading.Thread GetCurrentThread()
-    // Offset: 0x14A26E8
+    // Offset: 0x1D1AF74
     static System::Threading::Thread* GetCurrentThread();
     // static public System.Threading.Thread get_CurrentThread()
-    // Offset: 0x1494800
+    // Offset: 0x1D0D08C
     static System::Threading::Thread* get_CurrentThread();
     // static System.Int32 get_CurrentThreadId()
-    // Offset: 0x14A26EC
+    // Offset: 0x1D1AF78
     static int get_CurrentThreadId();
     // static public System.AppDomain GetDomain()
-    // Offset: 0x14A26E0
+    // Offset: 0x1D1AF6C
     static System::AppDomain* GetDomain();
     // static public System.Int32 GetDomainID()
-    // Offset: 0x14A2714
+    // Offset: 0x1D1AFA0
     static int GetDomainID();
     // private System.IntPtr Thread_internal(System.MulticastDelegate start)
-    // Offset: 0x14A2718
+    // Offset: 0x1D1AFA4
     System::IntPtr Thread_internal(System::MulticastDelegate* start);
     // public System.Boolean get_IsThreadPoolThread()
-    // Offset: 0x14A0D5C
+    // Offset: 0x1D195E0
     bool get_IsThreadPoolThread();
     // System.Boolean get_IsThreadPoolThreadInternal()
-    // Offset: 0x14A2724
+    // Offset: 0x1D1AFB0
     bool get_IsThreadPoolThreadInternal();
     // public System.Void set_IsBackground(System.Boolean value)
-    // Offset: 0x14A160C
+    // Offset: 0x1D19E90
     void set_IsBackground(bool value);
     // static private System.Void SetName_internal(System.Threading.InternalThread thread, System.String name)
-    // Offset: 0x14A27F8
+    // Offset: 0x1D1B084
     static void SetName_internal(System::Threading::InternalThread* thread, ::Il2CppString* name);
     // public System.Void set_Name(System.String value)
-    // Offset: 0x14A27FC
+    // Offset: 0x1D1B088
     void set_Name(::Il2CppString* value);
     // public System.Threading.ThreadState get_ThreadState()
-    // Offset: 0x149C2D4
+    // Offset: 0x1D14B58
     System::Threading::ThreadState get_ThreadState();
     // static private System.Void Abort_internal(System.Threading.InternalThread thread, System.Object stateInfo)
-    // Offset: 0x14A2838
+    // Offset: 0x1D1B0C4
     static void Abort_internal(System::Threading::InternalThread* thread, ::Il2CppObject* stateInfo);
     // public System.Void Abort()
-    // Offset: 0x14A283C
+    // Offset: 0x1D1B0C8
     void Abort();
     // private System.Void ClearAbortReason()
-    // Offset: 0x14A1EB4
+    // Offset: 0x1D1A738
     void ClearAbortReason();
     // static private System.Void SpinWait_nop()
-    // Offset: 0x14A2870
+    // Offset: 0x1D1B0FC
     static void SpinWait_nop();
     // static public System.Void SpinWait(System.Int32 iterations)
-    // Offset: 0x1494720
+    // Offset: 0x1D0CFAC
     static void SpinWait(int iterations);
     // private System.Void StartInternal(System.Security.Principal.IPrincipal principal, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x14A1CA4
+    // Offset: 0x1D1A528
     void StartInternal(System::Security::Principal::IPrincipal* principal, System::Threading::StackCrawlMark& stackMark);
     // static private System.Void SetState(System.Threading.InternalThread thread, System.Threading.ThreadState set)
-    // Offset: 0x14A27F0
+    // Offset: 0x1D1B07C
     static void SetState(System::Threading::InternalThread* thread, System::Threading::ThreadState set);
     // static private System.Void ClrState(System.Threading.InternalThread thread, System.Threading.ThreadState clr)
-    // Offset: 0x14A27F4
+    // Offset: 0x1D1B080
     static void ClrState(System::Threading::InternalThread* thread, System::Threading::ThreadState clr);
     // static private System.Threading.ThreadState GetState(System.Threading.InternalThread thread)
-    // Offset: 0x14A2834
+    // Offset: 0x1D1B0C0
     static System::Threading::ThreadState GetState(System::Threading::InternalThread* thread);
     // static private System.Int32 SystemMaxStackStize()
-    // Offset: 0x14A2874
+    // Offset: 0x1D1B100
     static int SystemMaxStackStize();
     // static private System.Int32 GetProcessDefaultStackSize(System.Int32 maxStackSize)
-    // Offset: 0x14A1ECC
+    // Offset: 0x1D1A758
     static int GetProcessDefaultStackSize(int maxStackSize);
     // private System.Void SetStart(System.MulticastDelegate start, System.Int32 maxStackSize)
-    // Offset: 0x14A1FD0
+    // Offset: 0x1D1A85C
     void SetStart(System::MulticastDelegate* start, int maxStackSize);
     // public System.Int32 get_ManagedThreadId()
-    // Offset: 0x1494858
+    // Offset: 0x1D0D0E4
     int get_ManagedThreadId();
     // static public System.Void BeginCriticalRegion()
-    // Offset: 0x1493F80
+    // Offset: 0x1D0C80C
     static void BeginCriticalRegion();
     // static public System.Void EndCriticalRegion()
-    // Offset: 0x14944E0
+    // Offset: 0x1D0CD6C
     static void EndCriticalRegion();
     // private System.Threading.ThreadState ValidateThreadState()
-    // Offset: 0x14A275C
+    // Offset: 0x1D1AFE8
     System::Threading::ThreadState ValidateThreadState();
     // protected override System.Void Finalize()
-    // Offset: 0x14A271C
+    // Offset: 0x1D1AFA8
     // Implemented from: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
     // Base method: System.Void CriticalFinalizerObject::Finalize()
     void Finalize();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x14A2878
+    // Offset: 0x1D1B104
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

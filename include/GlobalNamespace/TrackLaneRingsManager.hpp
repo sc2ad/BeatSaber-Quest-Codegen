@@ -29,31 +29,34 @@ namespace GlobalNamespace {
     // private System.Single _ringPositionStep
     // Offset: 0x24
     float ringPositionStep;
-    // private TrackLaneRing[] _rings
+    // private System.Boolean _spawnAsChildren
     // Offset: 0x28
+    bool spawnAsChildren;
+    // private TrackLaneRing[] _rings
+    // Offset: 0x30
     ::Array<GlobalNamespace::TrackLaneRing*>* rings;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Single get_ringPositionStep()
-    // Offset: 0x1F9BDC8
+    // Offset: 0xFED47C
     float get_ringPositionStep();
     // public TrackLaneRing[] get_Rings()
-    // Offset: 0x1F9BDD0
+    // Offset: 0xFED484
     ::Array<GlobalNamespace::TrackLaneRing*>* get_Rings();
     // protected System.Void Awake()
-    // Offset: 0x1F9BDD8
+    // Offset: 0xFED48C
     void Awake();
     // protected System.Void FixedUpdate()
-    // Offset: 0x1F9BFF4
+    // Offset: 0xFED830
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x1F9C0A0
+    // Offset: 0xFED8DC
     void LateUpdate();
     // protected System.Void OnDrawGizmosSelected()
-    // Offset: 0x1F9C14C
+    // Offset: 0xFED988
     void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0x1F9C49C
+    // Offset: 0xFEDCD8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -47,7 +47,7 @@ namespace Microsoft::Win32 {
     // Set static field: static public readonly Microsoft.Win32.RegistryKey Users
     static void _set_Users(Microsoft::Win32::RegistryKey* value);
     // static private System.Void .cctor()
-    // Offset: 0x1576E00
+    // Offset: 0x1515670
     static void _cctor();
   }; // Microsoft.Win32.Registry
 }

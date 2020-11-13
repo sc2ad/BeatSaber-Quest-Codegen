@@ -65,16 +65,16 @@ namespace GlobalNamespace {
     // Offset: 0x50
     GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter;
     // public System.Boolean get_allIsOK()
-    // Offset: 0x1F0F3E4
+    // Offset: 0x19A5FFC
     bool get_allIsOK();
     // public System.Boolean get_allExceptSaberTypeIsOK()
-    // Offset: 0x1F0F414
+    // Offset: 0x19A602C
     bool get_allExceptSaberTypeIsOK();
     // public System.String get_failText()
-    // Offset: 0x1F0F43C
+    // Offset: 0x19A6054
     ::Il2CppString* get_failText();
     // public System.Void .ctor(System.Boolean speedOK, System.Boolean directionOK, System.Boolean saberTypeOK, System.Boolean wasCutTooSoon, System.Single saberSpeed, UnityEngine.Vector3 saberDir, SaberType saberType, System.Single timeDeviation, System.Single cutDirDeviation, UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, System.Single cutDistanceToCenter, System.Single cutAngle, ISaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0x1F0F4D8
+    // Offset: 0x19A60F0
     static NoteCutInfo* New_ctor(bool speedOK, bool directionOK, bool saberTypeOK, bool wasCutTooSoon, float saberSpeed, UnityEngine::Vector3 saberDir, GlobalNamespace::SaberType saberType, float timeDeviation, float cutDirDeviation, UnityEngine::Vector3 cutPoint, UnityEngine::Vector3 cutNormal, float cutDistanceToCenter, float cutAngle, GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
   }; // NoteCutInfo
 }

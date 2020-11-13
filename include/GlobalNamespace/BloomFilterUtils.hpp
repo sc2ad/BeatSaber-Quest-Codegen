@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::BloomFilterUtils::$$c
     class $$c;
     // static public BloomFilter ToBloomFilter(System.Collections.Generic.IEnumerable`1<System.String> strings)
-    // Offset: 0x1F0CDE0
+    // Offset: 0x19A39F8
     static GlobalNamespace::BloomFilter ToBloomFilter(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* strings);
   }; // BloomFilterUtils
 }

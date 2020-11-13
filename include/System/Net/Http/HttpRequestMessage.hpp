@@ -60,43 +60,43 @@ namespace System::Net::Http {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void .ctor(System.Net.Http.HttpMethod method, System.String requestUri)
-    // Offset: 0x1181824
+    // Offset: 0x120BBB4
     static HttpRequestMessage* New_ctor(System::Net::Http::HttpMethod* method, ::Il2CppString* requestUri);
     // public System.Void .ctor(System.Net.Http.HttpMethod method, System.Uri requestUri)
-    // Offset: 0x118616C
+    // Offset: 0x12104FC
     static HttpRequestMessage* New_ctor(System::Net::Http::HttpMethod* method, System::Uri* requestUri);
     // public System.Net.Http.HttpContent get_Content()
-    // Offset: 0x118626C
+    // Offset: 0x12105FC
     System::Net::Http::HttpContent* get_Content();
     // public System.Net.Http.Headers.HttpRequestHeaders get_Headers()
-    // Offset: 0x1181CE4
+    // Offset: 0x120C074
     System::Net::Http::Headers::HttpRequestHeaders* get_Headers();
     // public System.Net.Http.HttpMethod get_Method()
-    // Offset: 0x1186274
+    // Offset: 0x1210604
     System::Net::Http::HttpMethod* get_Method();
     // public System.Void set_Method(System.Net.Http.HttpMethod value)
-    // Offset: 0x11861B4
+    // Offset: 0x1210544
     void set_Method(System::Net::Http::HttpMethod* value);
     // public System.Uri get_RequestUri()
-    // Offset: 0x118627C
+    // Offset: 0x121060C
     System::Uri* get_RequestUri();
     // public System.Void set_RequestUri(System.Uri value)
-    // Offset: 0x1181BF8
+    // Offset: 0x120BF88
     void set_RequestUri(System::Uri* value);
     // static private System.Boolean IsAllowedAbsoluteUri(System.Uri uri)
-    // Offset: 0x1186284
+    // Offset: 0x1210614
     static bool IsAllowedAbsoluteUri(System::Uri* uri);
     // public System.Version get_Version()
-    // Offset: 0x1183570
+    // Offset: 0x120D900
     System::Version* get_Version();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x11863FC
+    // Offset: 0x121078C
     void Dispose(bool disposing);
     // System.Boolean SetIsUsed()
-    // Offset: 0x1181BD8
+    // Offset: 0x120BF68
     bool SetIsUsed();
     // public System.Void Dispose()
-    // Offset: 0x11863EC
+    // Offset: 0x121077C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -104,7 +104,7 @@ namespace System::Net::Http {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // public override System.String ToString()
-    // Offset: 0x1186430
+    // Offset: 0x12107C0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();

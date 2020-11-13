@@ -56,25 +56,25 @@ namespace System {
       return value;
     }
     // System.Void .ctor(System.IntPtr v)
-    // Offset: 0xC706B4
+    // Offset: 0xCA0084
     // ABORTED: conflicts with another method.  RuntimeFieldHandle(System::IntPtr v);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xC706BC
+    // Offset: 0xCA008C
     RuntimeFieldHandle(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.IntPtr get_Value()
-    // Offset: 0xC706C4
+    // Offset: 0xCA0094
     System::IntPtr get_Value();
     // static private System.Void SetValueInternal(System.Reflection.FieldInfo fi, System.Object obj, System.Object value)
-    // Offset: 0x145C91C
+    // Offset: 0x1446D28
     static void SetValueInternal(System::Reflection::FieldInfo* fi, ::Il2CppObject* obj, ::Il2CppObject* value);
     // static System.Void SetValue(System.Reflection.RtFieldInfo field, System.Object obj, System.Object value, System.RuntimeType fieldType, System.Reflection.FieldAttributes fieldAttr, System.RuntimeType declaringType, ref System.Boolean domainInitialized)
-    // Offset: 0x145C920
+    // Offset: 0x1446D2C
     static void SetValue(System::Reflection::RtFieldInfo* field, ::Il2CppObject* obj, ::Il2CppObject* value, System::RuntimeType* fieldType, System::Reflection::FieldAttributes fieldAttr, System::RuntimeType* declaringType, bool& domainInitialized);
     // static System.Void SetValueDirect(System.Reflection.RtFieldInfo field, System.RuntimeType fieldType, System.Void* pTypedRef, System.Object value, System.RuntimeType contextType)
-    // Offset: 0x145C924
+    // Offset: 0x1446D30
     static void SetValueDirect(System::Reflection::RtFieldInfo* field, System::RuntimeType* fieldType, void* pTypedRef, ::Il2CppObject* value, System::RuntimeType* contextType);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0xC706CC
+    // Offset: 0xCA009C
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -82,12 +82,12 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xC706D4
+    // Offset: 0xCA00A4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xC706DC
+    // Offset: 0xCA00AC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

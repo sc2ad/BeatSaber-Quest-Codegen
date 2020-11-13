@@ -16,7 +16,7 @@ namespace UnityEngine::UI {
   class InputField::SubmitEvent : public UnityEngine::Events::UnityEvent_1<::Il2CppString*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x15DB854
+    // Offset: 0x155FEF8
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

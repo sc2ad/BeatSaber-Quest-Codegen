@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // private System.String _property
     // Offset: 0x18
     ::Il2CppString* property;
-    // private MaterialPropertyBlockController _materialPropertyBlockController
+    // protected MaterialPropertyBlockController _materialPropertyBlockController
     // Offset: 0x20
     GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController;
     // private System.Int32 _propertyId
@@ -40,19 +40,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Color get_color()
-    // Offset: 0x1CFC8D4
+    // Offset: 0x187DD7C
     UnityEngine::Color get_color();
+    // public MaterialPropertyBlockController get_materialPropertyBlockController()
+    // Offset: 0x187DDB4
+    GlobalNamespace::MaterialPropertyBlockController* get_materialPropertyBlockController();
+    // public System.Void set_materialPropertyBlockController(MaterialPropertyBlockController value)
+    // Offset: 0x187DDBC
+    void set_materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController* value);
     // protected System.Void Awake()
-    // Offset: 0x1D00970
+    // Offset: 0x187DDC4
     void Awake();
     // private System.Void InitIfNeeded()
-    // Offset: 0x1D009B0
+    // Offset: 0x187DE04
     void InitIfNeeded();
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x1CFC9C8
+    // Offset: 0x187DE44
     void SetColor(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1D009F0
+    // Offset: 0x187DED8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

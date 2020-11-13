@@ -27,7 +27,7 @@ namespace System::Resources {
     // Offset: 0x18
     System::Resources::ResourceSet* lastResourceSet;
     // public System.Void .ctor()
-    // Offset: 0x1681760
+    // Offset: 0x15D6324
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ResourceManager::CultureNameResourceSetPair* New_ctor();

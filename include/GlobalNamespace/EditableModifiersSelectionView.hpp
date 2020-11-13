@@ -46,24 +46,24 @@ namespace GlobalNamespace {
     // Offset: 0x50
     bool interactable;
     // public UnityEngine.UI.Button get_editButton()
-    // Offset: 0x201C954
+    // Offset: 0x1A5F348
     UnityEngine::UI::Button* get_editButton();
     // public UnityEngine.UI.Button get_clearButton()
-    // Offset: 0x201C95C
+    // Offset: 0x1A5F350
     UnityEngine::UI::Button* get_clearButton();
     // public System.Boolean get_interactable()
-    // Offset: 0x201C964
+    // Offset: 0x1A5F358
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x201C96C
+    // Offset: 0x1A4ED30
     void set_interactable(bool value);
     // public override System.Void SetGameplayModifiers(GameplayModifiers gameplayModifiers)
-    // Offset: 0x201C9D8
+    // Offset: 0x1A5F360
     // Implemented from: ModifiersSelectionView
     // Base method: System.Void ModifiersSelectionView::SetGameplayModifiers(GameplayModifiers gameplayModifiers)
     void SetGameplayModifiers(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void .ctor()
-    // Offset: 0x201CA48
+    // Offset: 0x1A5F3D0
     // Implemented from: ModifiersSelectionView
     // Base method: System.Void ModifiersSelectionView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

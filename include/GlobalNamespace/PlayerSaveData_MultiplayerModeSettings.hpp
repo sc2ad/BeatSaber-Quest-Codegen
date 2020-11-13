@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Array<uint8_t>* quickPlaySongPackMask;
     // public System.Void .ctor()
-    // Offset: 0x2089AC4
+    // Offset: 0xF25330
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PlayerSaveData::MultiplayerModeSettings* New_ctor();

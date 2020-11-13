@@ -32,7 +32,7 @@ namespace GlobalNamespace {
       return noteLineLayer;
     }
     // protected System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x1FA2450
+    // Offset: 0xFF3E48
     static TutorialSongController::TutorialJumpingNoteSpawnData* New_ctor(GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
   }; // TutorialSongController/TutorialJumpingNoteSpawnData
 }

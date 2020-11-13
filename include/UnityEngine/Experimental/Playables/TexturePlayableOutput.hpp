@@ -30,7 +30,7 @@ namespace UnityEngine::Experimental::Playables {
       return m_Handle;
     }
     // public UnityEngine.Playables.PlayableOutputHandle GetHandle()
-    // Offset: 0xC783A0
+    // Offset: 0xCA513C
     // Implemented from: UnityEngine.Playables.IPlayableOutput
     // Base method: UnityEngine.Playables.PlayableOutputHandle IPlayableOutput::GetHandle()
     UnityEngine::Playables::PlayableOutputHandle GetHandle();

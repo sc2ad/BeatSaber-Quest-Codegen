@@ -36,12 +36,12 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* GetValue(::Il2CppObject* k);
     // protected System.Void .ctor()
-    // Offset: 0x1B34FE4
+    // Offset: 0x18BD334
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UnmodifiableDictionary* New_ctor();
     // public System.Void Add(System.Object k, System.Object v)
-    // Offset: 0x1B34FEC
+    // Offset: 0x18BD33C
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Void IDictionary::Add(System.Object k, System.Object v)
     void Add(::Il2CppObject* k, ::Il2CppObject* v);
@@ -73,7 +73,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1B3504C
+    // Offset: 0x18BD39C
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
@@ -94,7 +94,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Maps to method: get_Keys
     System::Collections::ICollection* System_Collections_IDictionary_get_Keys();
     // public System.Object get_Item(System.Object k)
-    // Offset: 0x1B3505C
+    // Offset: 0x18BD3AC
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Object IDictionary::get_Item(System.Object k)
     ::Il2CppObject* get_Item(::Il2CppObject* k);
@@ -102,7 +102,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Maps to method: get_Item
     ::Il2CppObject* System_Collections_IDictionary_get_Item(::Il2CppObject* k);
     // public System.Void set_Item(System.Object k, System.Object value)
-    // Offset: 0x1B3506C
+    // Offset: 0x18BD3BC
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Void IDictionary::set_Item(System.Object k, System.Object value)
     void set_Item(::Il2CppObject* k, ::Il2CppObject* value);

@@ -23,7 +23,7 @@ namespace GlobalNamespace {
   class GameplayRpcManager::SetPlayerDidConnectLateRpc : public GlobalNamespace::RemoteProcedureCall_2<::Il2CppString*, GlobalNamespace::PlayersAtGameStartNetSerializable*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x215F63C
+    // Offset: 0x1B4D85C
     // Implemented from: RemoteProcedureCall`2
     // Base method: System.Void RemoteProcedureCall_2::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

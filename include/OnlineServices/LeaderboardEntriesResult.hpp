@@ -33,22 +33,22 @@ namespace OnlineServices {
     // Offset: 0x28
     int referencePlayerScoreIndex;
     // private System.Void .ctor(OnlineServices.LeaderboardEntryData[] leaderboardEntries, System.Int32 referencePlayerScoreIndex, System.Boolean isError, System.String localizedErrorMessage)
-    // Offset: 0x1F89F20
+    // Offset: 0xEFDD14
     static LeaderboardEntriesResult* New_ctor(::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries, int referencePlayerScoreIndex, bool isError, ::Il2CppString* localizedErrorMessage);
     // static private OnlineServices.LeaderboardEntriesResult ErrorResult(System.String localizedErrorMessage)
-    // Offset: 0x1F89F90
+    // Offset: 0xEFDD84
     static OnlineServices::LeaderboardEntriesResult* ErrorResult(::Il2CppString* localizedErrorMessage);
     // static public OnlineServices.LeaderboardEntriesResult get_notInicializedError()
-    // Offset: 0x1F89FFC
+    // Offset: 0xEFDDF0
     static OnlineServices::LeaderboardEntriesResult* get_notInicializedError();
     // static public OnlineServices.LeaderboardEntriesResult get_somethingWentWrongError()
-    // Offset: 0x1F8A04C
+    // Offset: 0xEFDE40
     static OnlineServices::LeaderboardEntriesResult* get_somethingWentWrongError();
     // static public OnlineServices.LeaderboardEntriesResult get_onlineServicesUnavailableError()
-    // Offset: 0x1F8A09C
+    // Offset: 0xEFDE90
     static OnlineServices::LeaderboardEntriesResult* get_onlineServicesUnavailableError();
     // static public OnlineServices.LeaderboardEntriesResult FromGetLeaderboardEntriesResult(OnlineServices.GetLeaderboardEntriesResult getLeaderboardEntriesResult)
-    // Offset: 0x1F8A0EC
+    // Offset: 0xEFDEE0
     static OnlineServices::LeaderboardEntriesResult* FromGetLeaderboardEntriesResult(OnlineServices::GetLeaderboardEntriesResult getLeaderboardEntriesResult);
   }; // OnlineServices.LeaderboardEntriesResult
 }

@@ -62,58 +62,58 @@ namespace GlobalNamespace {
     // Offset: 0x48
     System::Action* RecenteredPose;
     // public System.Void Update()
-    // Offset: 0xF74D4C
+    // Offset: 0x107081C
     void Update();
     // public System.Void add_RecenteredPose(System.Action value)
-    // Offset: 0xF75038
+    // Offset: 0x1070B08
     void add_RecenteredPose(System::Action* value);
     // public System.Void remove_RecenteredPose(System.Action value)
-    // Offset: 0xF750DC
+    // Offset: 0x1070BAC
     void remove_RecenteredPose(System::Action* value);
     // public System.Void RecenterPose()
-    // Offset: 0xF75180
+    // Offset: 0x1070C50
     void RecenterPose();
     // public UnityEngine.Vector3 get_acceleration()
-    // Offset: 0xF751FC
+    // Offset: 0x1070CCC
     UnityEngine::Vector3 get_acceleration();
     // public UnityEngine.Vector3 get_angularAcceleration()
-    // Offset: 0xF75328
+    // Offset: 0x1070DF8
     UnityEngine::Vector3 get_angularAcceleration();
     // public UnityEngine.Vector3 get_velocity()
-    // Offset: 0xF75454
+    // Offset: 0x1070F24
     UnityEngine::Vector3 get_velocity();
     // public UnityEngine.Vector3 get_angularVelocity()
-    // Offset: 0xF75580
+    // Offset: 0x1071050
     UnityEngine::Vector3 get_angularVelocity();
     // public OVRDisplay/EyeRenderDesc GetEyeRenderDesc(UnityEngine.XR.XRNode eye)
-    // Offset: 0xF74B14
+    // Offset: 0x10705E4
     GlobalNamespace::OVRDisplay::EyeRenderDesc GetEyeRenderDesc(UnityEngine::XR::XRNode eye);
     // public OVRDisplay/LatencyData get_latency()
-    // Offset: 0xF756AC
+    // Offset: 0x107117C
     GlobalNamespace::OVRDisplay::LatencyData get_latency();
     // public System.Single get_appFramerate()
-    // Offset: 0xF75878
+    // Offset: 0x1071348
     float get_appFramerate();
     // public System.Int32 get_recommendedMSAALevel()
-    // Offset: 0xF75914
+    // Offset: 0x10713E4
     int get_recommendedMSAALevel();
     // public System.Single[] get_displayFrequenciesAvailable()
-    // Offset: 0xF75980
+    // Offset: 0x1071450
     ::Array<float>* get_displayFrequenciesAvailable();
     // public System.Single get_displayFrequency()
-    // Offset: 0xF759E0
+    // Offset: 0x10714B0
     float get_displayFrequency();
     // public System.Void set_displayFrequency(System.Single value)
-    // Offset: 0xF75A40
+    // Offset: 0x1071510
     void set_displayFrequency(float value);
     // private System.Void UpdateTextures()
-    // Offset: 0xF74D20
+    // Offset: 0x10707F0
     void UpdateTextures();
     // private System.Void ConfigureEyeDesc(UnityEngine.XR.XRNode eye)
-    // Offset: 0xF75AB0
+    // Offset: 0x1071580
     void ConfigureEyeDesc(UnityEngine::XR::XRNode eye);
     // public System.Void .ctor()
-    // Offset: 0xF74B70
+    // Offset: 0x1070640
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRDisplay* New_ctor();

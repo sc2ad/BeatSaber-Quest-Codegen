@@ -57,10 +57,10 @@ namespace System::IO {
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x144BA08
+    // Offset: 0x1435E14
     static FileSystemInfo* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.String get_FullName()
-    // Offset: 0x1453BB0
+    // Offset: 0x143DFBC
     ::Il2CppString* get_FullName();
     // public System.String get_Name()
     // Offset: 0xFFFFFFFF
@@ -69,37 +69,37 @@ namespace System::IO {
     // Offset: 0xFFFFFFFF
     bool get_Exists();
     // public System.DateTime get_CreationTime()
-    // Offset: 0x1453BB8
+    // Offset: 0x143DFC4
     System::DateTime get_CreationTime();
     // public System.DateTime get_CreationTimeUtc()
-    // Offset: 0x1453BE4
+    // Offset: 0x143DFF0
     System::DateTime get_CreationTimeUtc();
     // public System.DateTime get_LastAccessTime()
-    // Offset: 0x1453C8C
+    // Offset: 0x143E098
     System::DateTime get_LastAccessTime();
     // public System.DateTime get_LastAccessTimeUtc()
-    // Offset: 0x1453CB8
+    // Offset: 0x143E0C4
     System::DateTime get_LastAccessTimeUtc();
     // public System.Void Refresh()
-    // Offset: 0x144BBA4
+    // Offset: 0x1435FB0
     void Refresh();
     // public System.IO.FileAttributes get_Attributes()
-    // Offset: 0x1453D60
+    // Offset: 0x143E16C
     System::IO::FileAttributes get_Attributes();
     // System.String get_DisplayPath()
-    // Offset: 0x1453EA0
+    // Offset: 0x143E2AC
     ::Il2CppString* get_DisplayPath();
     // System.Void set_DisplayPath(System.String value)
-    // Offset: 0x1453EA8
+    // Offset: 0x143E2B4
     void set_DisplayPath(::Il2CppString* value);
     // protected System.Void .ctor()
-    // Offset: 0x144B578
+    // Offset: 0x1435984
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()
     static FileSystemInfo* New_ctor();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1453DBC
+    // Offset: 0x143E1C8
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

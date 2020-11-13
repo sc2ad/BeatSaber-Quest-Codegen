@@ -24,12 +24,12 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   class KeyDerivationFunc : public Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier {
     public:
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1408A64
+    // Offset: 0x13FA95C
     // Implemented from: Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier
     // Base method: System.Void AlgorithmIdentifier::.ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     static KeyDerivationFunc* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerObjectIdentifier id, Org.BouncyCastle.Asn1.Asn1Encodable parameters)
-    // Offset: 0x1408A6C
+    // Offset: 0x13FA964
     // Implemented from: Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier
     // Base method: System.Void AlgorithmIdentifier::.ctor(Org.BouncyCastle.Asn1.DerObjectIdentifier id, Org.BouncyCastle.Asn1.Asn1Encodable parameters)
     static KeyDerivationFunc* New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier* id, Org::BouncyCastle::Asn1::Asn1Encodable* parameters);

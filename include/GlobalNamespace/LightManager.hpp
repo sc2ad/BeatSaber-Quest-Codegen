@@ -62,32 +62,32 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _pointLightColorsID
     static void _set__pointLightColorsID(int value);
     // protected System.Void OnDisable()
-    // Offset: 0x1CFEA24
+    // Offset: 0x187B32C
     void OnDisable();
     // private System.Void OnWillRenderObject()
-    // Offset: 0x1CFEA88
+    // Offset: 0x187B390
     void OnWillRenderObject();
     // private System.Void OnBecameInvisible()
-    // Offset: 0x1CFEB00
+    // Offset: 0x187B408
     void OnBecameInvisible();
     // protected System.Void OnDestroy()
-    // Offset: 0x1CFF088
+    // Offset: 0x187B990
     void OnDestroy();
     // private System.Void ResetColors()
-    // Offset: 0x1CFF08C
+    // Offset: 0x187B994
     void ResetColors();
     // public System.Void OnCameraPreRender(UnityEngine.Camera camera)
-    // Offset: 0x1CFEB64
+    // Offset: 0x187B46C
     // Implemented from: CameraRenderCallbacksManager/ICameraRenderCallbacks
     // Base method: System.Void ICameraRenderCallbacks::OnCameraPreRender(UnityEngine.Camera camera)
     void OnCameraPreRender(UnityEngine::Camera* camera);
     // public System.Void OnCameraPostRender(UnityEngine.Camera camera)
-    // Offset: 0x1CFF084
+    // Offset: 0x187B98C
     // Implemented from: CameraRenderCallbacksManager/ICameraRenderCallbacks
     // Base method: System.Void ICameraRenderCallbacks::OnCameraPostRender(UnityEngine.Camera camera)
     void OnCameraPostRender(UnityEngine::Camera* camera);
     // public System.Void .ctor()
-    // Offset: 0x1CFF208
+    // Offset: 0x187BB10
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -96,7 +96,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LightManager* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1CFF2D0
+    // Offset: 0x187BBD8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

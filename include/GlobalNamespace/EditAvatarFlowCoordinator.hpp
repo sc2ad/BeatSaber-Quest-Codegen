@@ -109,41 +109,41 @@ namespace GlobalNamespace {
     // Offset: 0xE8
     System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`2<EditAvatarFlowCoordinator,EditAvatarFlowCoordinator/EditAvatarType> value)
-    // Offset: 0x2018F94
+    // Offset: 0x1A5BC24
     void add_didFinishEvent(System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<EditAvatarFlowCoordinator,EditAvatarFlowCoordinator/EditAvatarType> value)
-    // Offset: 0x2019038
+    // Offset: 0x1A5BCC8
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>* value);
     // public System.Void Setup(EditAvatarFlowCoordinator/EditAvatarType editAvatarType)
-    // Offset: 0x20190DC
+    // Offset: 0x1A5BD6C
     void Setup(GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType editAvatarType);
     // private System.Void HandleEditAvatarViewControllerDidRequestColorChange(System.Action`1<UnityEngine.Color> colorCallback, UnityEngine.Color currentColor, EditAvatarViewController/AvatarEditPart editPart, System.Int32 uvSegment)
-    // Offset: 0x2019DE0
+    // Offset: 0x1A5CA70
     void HandleEditAvatarViewControllerDidRequestColorChange(System::Action_1<UnityEngine::Color>* colorCallback, UnityEngine::Color currentColor, GlobalNamespace::EditAvatarViewController::AvatarEditPart editPart, int uvSegment);
     // private System.Void HandleEditAvatarViewControllerChangedAvatarPart(EditAvatarViewController/AvatarEditPart avatarPart)
-    // Offset: 0x2019ED8
+    // Offset: 0x1A5CB68
     void HandleEditAvatarViewControllerChangedAvatarPart(GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarPart);
     // private System.Void HandleEditAvatarViewControllerDidFinished()
-    // Offset: 0x2019F78
+    // Offset: 0x1A5CC08
     void HandleEditAvatarViewControllerDidFinished();
     // private System.Void HandleEditColorViewControllerDidChangedColor(UnityEngine.Color color)
-    // Offset: 0x2019FE0
+    // Offset: 0x1A5CC70
     void HandleEditColorViewControllerDidChangedColor(UnityEngine::Color color);
     // private System.Void HandleEditColorViewControllerDidFinish(System.Boolean apply)
-    // Offset: 0x201A00C
+    // Offset: 0x1A5CC9C
     void HandleEditColorViewControllerDidFinish(bool apply);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x201918C
+    // Offset: 0x1A5BE1C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x20198E8
+    // Offset: 0x1A5C578
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x201A09C
+    // Offset: 0x1A5CD2C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

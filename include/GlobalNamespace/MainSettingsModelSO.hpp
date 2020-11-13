@@ -21,6 +21,8 @@ namespace GlobalNamespace {
   class IntSO;
   // Forward declaring type: Vector3SO
   class Vector3SO;
+  // Forward declaring type: StringSO
+  class StringSO;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -142,20 +144,26 @@ namespace GlobalNamespace {
     // public IntSO languageSettings
     // Offset: 0x128
     GlobalNamespace::IntSO* languageSettings;
-    // public BoolSO depthTextureEnabled
+    // public BoolSO useCustomServerEnvironment
     // Offset: 0x130
+    GlobalNamespace::BoolSO* useCustomServerEnvironment;
+    // public StringSO customServerHostName
+    // Offset: 0x138
+    GlobalNamespace::StringSO* customServerHostName;
+    // public BoolSO depthTextureEnabled
+    // Offset: 0x140
     GlobalNamespace::BoolSO* depthTextureEnabled;
     // private System.Boolean <createScreenshotDuringTheGame>k__BackingField
-    // Offset: 0x138
+    // Offset: 0x148
     bool createScreenshotDuringTheGame;
     // private System.Boolean <playingForTheFirstTime>k__BackingField
-    // Offset: 0x139
+    // Offset: 0x149
     bool playingForTheFirstTime;
     // private System.Boolean _playingForTheFirstTimeChecked
-    // Offset: 0x13A
+    // Offset: 0x14A
     bool playingForTheFirstTimeChecked;
     // private System.Boolean _isLoaded
-    // Offset: 0x13B
+    // Offset: 0x14B
     bool isLoaded;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
@@ -208,36 +216,36 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kControllersRotationOffsetLimit
     static void _set_kControllersRotationOffsetLimit(float value);
     // public System.Boolean get_createScreenshotDuringTheGame()
-    // Offset: 0x1FC0114
+    // Offset: 0x1A6F614
     bool get_createScreenshotDuringTheGame();
     // private System.Void set_createScreenshotDuringTheGame(System.Boolean value)
-    // Offset: 0x1FC011C
+    // Offset: 0x1A6F61C
     void set_createScreenshotDuringTheGame(bool value);
     // public System.Boolean get_playingForTheFirstTime()
-    // Offset: 0x1FC0128
+    // Offset: 0x1A6F628
     bool get_playingForTheFirstTime();
     // private System.Void set_playingForTheFirstTime(System.Boolean value)
-    // Offset: 0x1FC0130
+    // Offset: 0x1A6F630
     void set_playingForTheFirstTime(bool value);
     // public System.Void Save()
-    // Offset: 0x1FC013C
+    // Offset: 0x1A6F63C
     void Save();
     // public System.Void Load(System.Boolean forced)
-    // Offset: 0x1FC0624
+    // Offset: 0x1A6FB74
     void Load(bool forced);
     // public System.Void __DeleteSettingsFiles()
-    // Offset: 0x1FC0C48
+    // Offset: 0x1A701C8
     void __DeleteSettingsFiles();
     // protected System.Void OnDisable()
-    // Offset: 0x1FC0E14
+    // Offset: 0x1A70394
     void OnDisable();
     // protected override System.Void OnEnable()
-    // Offset: 0x1FC0D80
+    // Offset: 0x1A70300
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x1FC0E18
+    // Offset: 0x1A70398
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

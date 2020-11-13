@@ -24,16 +24,16 @@ namespace NUnit::Framework::Constraints {
   class ValueFormatter : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x13B9FA0
+    // Offset: 0x13DF938
     static ValueFormatter* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.String Invoke(System.Object val)
-    // Offset: 0x13BA458
+    // Offset: 0x13DFDF0
     ::Il2CppString* Invoke(::Il2CppObject* val);
     // public System.IAsyncResult BeginInvoke(System.Object val, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x13C0DE4
+    // Offset: 0x13E677C
     System::IAsyncResult* BeginInvoke(::Il2CppObject* val, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.String EndInvoke(System.IAsyncResult result)
-    // Offset: 0x13C0E08
+    // Offset: 0x13E67A0
     ::Il2CppString* EndInvoke(System::IAsyncResult* result);
   }; // NUnit.Framework.Constraints.ValueFormatter
 }

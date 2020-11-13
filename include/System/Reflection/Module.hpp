@@ -94,42 +94,42 @@ namespace System::Reflection {
     // Set static field: static private System.Reflection.BindingFlags defaultBindingFlags
     static void _set_defaultBindingFlags(System::Reflection::BindingFlags value);
     // System.Guid GetModuleVersionId()
-    // Offset: 0x16757D4
+    // Offset: 0x15CA398
     System::Guid GetModuleVersionId();
     // static private System.Boolean filter_by_type_name(System.Type m, System.Object filterCriteria)
-    // Offset: 0x167580C
+    // Offset: 0x15CA3D0
     static bool filter_by_type_name(System::Type* m, ::Il2CppObject* filterCriteria);
     // static private System.Boolean filter_by_type_name_ignore_case(System.Type m, System.Object filterCriteria)
-    // Offset: 0x1675910
+    // Offset: 0x15CA4D4
     static bool filter_by_type_name_ignore_case(System::Type* m, ::Il2CppObject* filterCriteria);
     // private System.String GetGuidInternal()
-    // Offset: 0x1675808
+    // Offset: 0x15CA3CC
     ::Il2CppString* GetGuidInternal();
     // public System.Reflection.Assembly get_Assembly()
-    // Offset: 0x1675A88
+    // Offset: 0x15CA64C
     System::Reflection::Assembly* get_Assembly();
     // public System.String get_ScopeName()
-    // Offset: 0x1675B54
+    // Offset: 0x15CA718
     ::Il2CppString* get_ScopeName();
     // public System.Guid get_ModuleVersionId()
-    // Offset: 0x1675BB8
+    // Offset: 0x15CA77C
     System::Guid get_ModuleVersionId();
     // static private System.Exception CreateNIE()
-    // Offset: 0x1675AEC
+    // Offset: 0x15CA6B0
     static System::Exception* CreateNIE();
     // public System.Boolean IsResource()
-    // Offset: 0x1675C1C
+    // Offset: 0x15CA7E0
     bool IsResource();
     // static private System.Void .cctor()
-    // Offset: 0x1675D48
+    // Offset: 0x15CA90C
     static void _cctor();
     // protected System.Void .ctor()
-    // Offset: 0x1675764
+    // Offset: 0x15CA328
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Module* New_ctor();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x167576C
+    // Offset: 0x15CA330
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -137,33 +137,33 @@ namespace System::Reflection {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.String ToString()
-    // Offset: 0x16757CC
+    // Offset: 0x15CA390
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0x1675A28
+    // Offset: 0x15CA5EC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1675A34
+    // Offset: 0x15CA5F8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1675C80
+    // Offset: 0x15CA844
     // Implemented from: System.Reflection.ICustomAttributeProvider
     // Base method: System.Object[] ICustomAttributeProvider::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1675CE4
+    // Offset: 0x15CA8A8
     // Implemented from: System.Reflection.ICustomAttributeProvider
     // Base method: System.Boolean ICustomAttributeProvider::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);
   }; // System.Reflection.Module
   // static public System.Boolean op_Equality(System.Reflection.Module left, System.Reflection.Module right)
-  // Offset: 0x1675A3C
+  // Offset: 0x15CA600
   bool operator ==(System::Reflection::Module* left, System::Reflection::Module& right);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

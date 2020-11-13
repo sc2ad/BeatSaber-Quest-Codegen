@@ -20,10 +20,10 @@ namespace System::Net {
     // Offset: 0x18
     int Offset;
     // public System.Void .ctor(System.Byte[] chunk)
-    // Offset: 0x124AFE4
+    // Offset: 0x12C00E0
     static MonoChunkStream::Chunk* New_ctor(::Array<uint8_t>* chunk);
     // public System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x124A4BC
+    // Offset: 0x12BF5B8
     int Read(::Array<uint8_t>* buffer, int offset, int size);
   }; // System.Net.MonoChunkStream/Chunk
 }

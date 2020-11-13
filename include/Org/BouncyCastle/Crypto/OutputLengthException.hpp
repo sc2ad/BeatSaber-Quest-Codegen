@@ -14,7 +14,7 @@ namespace Org::BouncyCastle::Crypto {
   class OutputLengthException : public Org::BouncyCastle::Crypto::DataLengthException {
     public:
     // public System.Void .ctor()
-    // Offset: 0xF45990
+    // Offset: 0x104139C
     // Implemented from: Org.BouncyCastle.Crypto.DataLengthException
     // Base method: System.Void DataLengthException::.ctor()
     // Base method: System.Void CryptoException::.ctor()
@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Crypto {
     // Base method: System.Void Object::.ctor()
     static OutputLengthException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0xF45998
+    // Offset: 0x10413A4
     // Implemented from: Org.BouncyCastle.Crypto.DataLengthException
     // Base method: System.Void DataLengthException::.ctor(System.String message)
     // Base method: System.Void CryptoException::.ctor(System.String message)

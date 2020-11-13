@@ -107,40 +107,40 @@ namespace RootMotion::Demos {
     // Offset: 0x68
     float nextPathTime;
     // public UnityEngine.Vector3 get_normalizedDeltaPosition()
-    // Offset: 0x186AE54
+    // Offset: 0x1748DB8
     UnityEngine::Vector3 get_normalizedDeltaPosition();
     // private System.Void set_normalizedDeltaPosition(UnityEngine.Vector3 value)
-    // Offset: 0x186AE60
+    // Offset: 0x1748DC4
     void set_normalizedDeltaPosition(UnityEngine::Vector3 value);
     // public RootMotion.Demos.Navigator/State get_state()
-    // Offset: 0x186AE6C
+    // Offset: 0x1748DD0
     RootMotion::Demos::Navigator::State get_state();
     // private System.Void set_state(RootMotion.Demos.Navigator/State value)
-    // Offset: 0x186AE74
+    // Offset: 0x1748DD8
     void set_state(RootMotion::Demos::Navigator::State value);
     // public System.Void Initiate(UnityEngine.Transform transform)
-    // Offset: 0x186AE7C
+    // Offset: 0x1748DE0
     void Initiate(UnityEngine::Transform* transform);
     // public System.Void Update(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x186AF74
+    // Offset: 0x1748ED8
     void Update(UnityEngine::Vector3 targetPosition);
     // private System.Void CalculatePath(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x186B4CC
+    // Offset: 0x1749430
     void CalculatePath(UnityEngine::Vector3 targetPosition);
     // private System.Boolean Find(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x186B53C
+    // Offset: 0x17494A0
     bool Find(UnityEngine::Vector3 targetPosition);
     // private System.Void Stop()
-    // Offset: 0x186B394
+    // Offset: 0x17492F8
     void Stop();
     // private System.Single HorDistance(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0x186B408
+    // Offset: 0x174936C
     float HorDistance(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2);
     // public System.Void Visualize()
-    // Offset: 0x186B684
+    // Offset: 0x17495E8
     void Visualize();
     // public System.Void .ctor()
-    // Offset: 0x186B834
+    // Offset: 0x1749798
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Navigator* New_ctor();

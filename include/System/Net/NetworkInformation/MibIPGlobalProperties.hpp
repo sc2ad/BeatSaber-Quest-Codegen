@@ -36,10 +36,10 @@ namespace System::Net::NetworkInformation {
     // Set static field: static private readonly System.Char[] wsChars
     static void _set_wsChars(::Array<::Il2CppChar>* value);
     // public System.Void .ctor(System.String procDir)
-    // Offset: 0x10C4324
+    // Offset: 0x1199C54
     static MibIPGlobalProperties* New_ctor(::Il2CppString* procDir);
     // static private System.Void .cctor()
-    // Offset: 0x10C58E8
+    // Offset: 0x119B218
     static void _cctor();
   }; // System.Net.NetworkInformation.MibIPGlobalProperties
 }

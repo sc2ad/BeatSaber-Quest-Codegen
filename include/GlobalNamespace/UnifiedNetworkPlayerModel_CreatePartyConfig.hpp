@@ -41,7 +41,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayerModelPartyConfig_1<GlobalNamespace::UnifiedNetworkPlayerModel*>*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x21E6870
+    // Offset: 0xFFCEC4
     // Implemented from: BaseNetworkPlayerModel/PartyConfig
     // Base method: System.Void PartyConfig::.ctor()
     // Base method: System.Void Object::.ctor()

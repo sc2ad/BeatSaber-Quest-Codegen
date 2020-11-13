@@ -49,21 +49,21 @@ namespace System::Net::NetworkInformation {
       return addresses;
     }
     // public System.Void CopyTo(System.Net.NetworkInformation.UnicastIPAddressInformation[] array, System.Int32 offset)
-    // Offset: 0x10C7A70
+    // Offset: 0x119D3A0
     void CopyTo(::Array<System::Net::NetworkInformation::UnicastIPAddressInformation*>* array, int offset);
     // System.Void InternalAdd(System.Net.NetworkInformation.UnicastIPAddressInformation address)
-    // Offset: 0x10C7BC0
+    // Offset: 0x119D4F0
     void InternalAdd(System::Net::NetworkInformation::UnicastIPAddressInformation* address);
     // public System.Collections.Generic.IEnumerator`1<System.Net.NetworkInformation.UnicastIPAddressInformation> GetEnumerator()
-    // Offset: 0x10C7CA0
+    // Offset: 0x119D5D0
     System::Collections::Generic::IEnumerator_1<System::Net::NetworkInformation::UnicastIPAddressInformation*>* GetEnumerator();
     // protected internal System.Void .ctor()
-    // Offset: 0x10C79F4
+    // Offset: 0x119D324
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UnicastIPAddressInformationCollection* New_ctor();
     // public System.Int32 get_Count()
-    // Offset: 0x10C7AE0
+    // Offset: 0x119D410
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Int32 ICollection_1::get_Count()
     int get_Count();
@@ -71,7 +71,7 @@ namespace System::Net::NetworkInformation {
     // Maps to method: get_Count
     int System_Collections_Generic_ICollection_1_get_Count();
     // public System.Boolean get_IsReadOnly()
-    // Offset: 0x10C7B38
+    // Offset: 0x119D468
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::get_IsReadOnly()
     bool get_IsReadOnly();
@@ -79,7 +79,7 @@ namespace System::Net::NetworkInformation {
     // Maps to method: get_IsReadOnly
     bool System_Collections_Generic_ICollection_1_get_IsReadOnly();
     // public System.Void Add(System.Net.NetworkInformation.UnicastIPAddressInformation address)
-    // Offset: 0x10C7B40
+    // Offset: 0x119D470
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection_1::Add(System.Net.NetworkInformation.UnicastIPAddressInformation address)
     void Add(System::Net::NetworkInformation::UnicastIPAddressInformation* address);
@@ -87,7 +87,7 @@ namespace System::Net::NetworkInformation {
     // Maps to method: Add
     void System_Collections_Generic_ICollection_1_Add(System::Net::NetworkInformation::UnicastIPAddressInformation* address);
     // public System.Boolean Contains(System.Net.NetworkInformation.UnicastIPAddressInformation address)
-    // Offset: 0x10C7C28
+    // Offset: 0x119D558
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::Contains(System.Net.NetworkInformation.UnicastIPAddressInformation address)
     bool Contains(System::Net::NetworkInformation::UnicastIPAddressInformation* address);
@@ -95,12 +95,12 @@ namespace System::Net::NetworkInformation {
     // Maps to method: Contains
     bool System_Collections_Generic_ICollection_1_Contains(System::Net::NetworkInformation::UnicastIPAddressInformation* address);
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x10C7C90
+    // Offset: 0x119D5C0
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Boolean Remove(System.Net.NetworkInformation.UnicastIPAddressInformation address)
-    // Offset: 0x10C7CF8
+    // Offset: 0x119D628
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::Remove(System.Net.NetworkInformation.UnicastIPAddressInformation address)
     bool Remove(System::Net::NetworkInformation::UnicastIPAddressInformation* address);
@@ -108,7 +108,7 @@ namespace System::Net::NetworkInformation {
     // Maps to method: Remove
     bool System_Collections_Generic_ICollection_1_Remove(System::Net::NetworkInformation::UnicastIPAddressInformation* address);
     // public System.Void Clear()
-    // Offset: 0x10C7D78
+    // Offset: 0x119D6A8
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection_1::Clear()
     void Clear();

@@ -32,10 +32,10 @@ namespace System::ComponentModel {
     // Offset: 0x18
     System::ComponentModel::Component* parent;
     // public System.Delegate get_Item(System.Object key)
-    // Offset: 0x14E19C0
+    // Offset: 0x14805A0
     System::Delegate* get_Item(::Il2CppObject* key);
     // private System.ComponentModel.EventHandlerList/ListEntry Find(System.Object key)
-    // Offset: 0x14E2CCC
+    // Offset: 0x1481ACC
     System::ComponentModel::EventHandlerList::ListEntry* Find(::Il2CppObject* key);
   }; // System.ComponentModel.EventHandlerList
 }

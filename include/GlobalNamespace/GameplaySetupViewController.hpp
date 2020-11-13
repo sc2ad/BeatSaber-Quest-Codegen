@@ -99,57 +99,57 @@ namespace GlobalNamespace {
     // Offset: 0xB8
     bool isInitialized;
     // public System.Void add_didChangeGameplayModifiersEvent(System.Action value)
-    // Offset: 0x200A304
+    // Offset: 0xF0FFF8
     void add_didChangeGameplayModifiersEvent(System::Action* value);
     // public System.Void remove_didChangeGameplayModifiersEvent(System.Action value)
-    // Offset: 0x200A3A8
+    // Offset: 0xF1009C
     void remove_didChangeGameplayModifiersEvent(System::Action* value);
     // public PlayerSpecificSettings get_playerSettings()
-    // Offset: 0x200A44C
+    // Offset: 0xF10140
     GlobalNamespace::PlayerSpecificSettings* get_playerSettings();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x200A468
+    // Offset: 0xF1015C
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public OverrideEnvironmentSettings get_environmentOverrideSettings()
-    // Offset: 0x200A484
+    // Offset: 0xF10178
     GlobalNamespace::OverrideEnvironmentSettings* get_environmentOverrideSettings();
     // public ColorSchemesSettings get_colorSchemesSettings()
-    // Offset: 0x200A4AC
+    // Offset: 0xF101A0
     GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
     // public System.Void Setup(System.Boolean showModifiers, System.Boolean showEnvironmentOverrideSettings, System.Boolean showColorSchemesSettings, System.Boolean multiplayer)
-    // Offset: 0x2000CB8
+    // Offset: 0xF101C8
     void Setup(bool showModifiers, bool showEnvironmentOverrideSettings, bool showColorSchemesSettings, bool multiplayer);
     // private System.Void Init()
-    // Offset: 0x200A4D4
+    // Offset: 0xF10260
     void Init();
     // protected System.Void OnDisable()
-    // Offset: 0x200AB7C
+    // Offset: 0xF10908
     void OnDisable();
     // private System.Void HandleSelectionSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x200AC64
+    // Offset: 0xF109F0
     void HandleSelectionSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // private System.Void HandlePlayerSettingsPanelControllerDidChangePlayerSettings()
-    // Offset: 0x200AC6C
+    // Offset: 0xF109F8
     void HandlePlayerSettingsPanelControllerDidChangePlayerSettings();
     // private System.Void HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers()
-    // Offset: 0x200ACB4
+    // Offset: 0xF10A40
     void HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers();
     // private System.Void SetActivePanel(System.Int32 panelIdx)
-    // Offset: 0x200AAC4
+    // Offset: 0xF10850
     void SetActivePanel(int panelIdx);
     // private System.Void RefreshContent()
-    // Offset: 0x200A578
+    // Offset: 0xF10304
     void RefreshContent();
     // private System.Void RefreshActivePanel()
-    // Offset: 0x200AD10
+    // Offset: 0xF10A9C
     void RefreshActivePanel();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x200A974
+    // Offset: 0xF10700
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x200AE60
+    // Offset: 0xF10BEC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

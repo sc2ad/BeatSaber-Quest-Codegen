@@ -21,12 +21,12 @@ namespace System::Net::Configuration {
   class WebRequestModulesSection : public System::Configuration::ConfigurationSection {
     public:
     // public System.Void .ctor()
-    // Offset: 0x12AD9E0
+    // Offset: 0x130D1CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static WebRequestModulesSection* New_ctor();
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x12ADA20
+    // Offset: 0x130D20C
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();

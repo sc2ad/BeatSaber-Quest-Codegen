@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRSettings::_Sync : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C8FCDC
+    // Offset: 0x190DEB4
     static IVRSettings::_Sync* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(System.Boolean bForce, ref OVR.OpenVR.EVRSettingsError peError)
-    // Offset: 0x1C8FCF0
+    // Offset: 0x190DEC8
     bool Invoke(bool bForce, OVR::OpenVR::EVRSettingsError& peError);
     // public System.IAsyncResult BeginInvoke(System.Boolean bForce, ref OVR.OpenVR.EVRSettingsError peError, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C8FF94
+    // Offset: 0x190E16C
     System::IAsyncResult* BeginInvoke(bool bForce, OVR::OpenVR::EVRSettingsError& peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref OVR.OpenVR.EVRSettingsError peError, System.IAsyncResult result)
-    // Offset: 0x1C9004C
+    // Offset: 0x190E224
     bool EndInvoke(OVR::OpenVR::EVRSettingsError& peError, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSettings/_Sync
 }

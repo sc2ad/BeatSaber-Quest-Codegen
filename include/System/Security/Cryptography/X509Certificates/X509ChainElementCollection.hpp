@@ -48,27 +48,27 @@ namespace System::Security::Cryptography::X509Certificates {
       return list;
     }
     // public System.Security.Cryptography.X509Certificates.X509ChainElement get_Item(System.Int32 index)
-    // Offset: 0x147B9F0
+    // Offset: 0x1465E34
     System::Security::Cryptography::X509Certificates::X509ChainElement* get_Item(int index);
     // public System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator GetEnumerator()
-    // Offset: 0x147BABC
+    // Offset: 0x1465F00
     System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator* GetEnumerator();
     // System.Void Add(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x147BC58
+    // Offset: 0x146609C
     void Add(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // System.Void Clear()
-    // Offset: 0x147BCE0
+    // Offset: 0x1466124
     void Clear();
     // System.Boolean Contains(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x147BD04
+    // Offset: 0x1466148
     bool Contains(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // System.Void .ctor()
-    // Offset: 0x147B958
+    // Offset: 0x1465D9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static X509ChainElementCollection* New_ctor();
     // public System.Int32 get_Count()
-    // Offset: 0x147B9CC
+    // Offset: 0x1465E10
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();
@@ -76,12 +76,12 @@ namespace System::Security::Cryptography::X509Certificates {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x147BA98
+    // Offset: 0x1465EDC
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x147BBF4
+    // Offset: 0x1466038
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

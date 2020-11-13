@@ -25,7 +25,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return seed;
     }
     // public System.Byte[] GetSeed()
-    // Offset: 0xF4D30C
+    // Offset: 0x1048D18
     ::Array<uint8_t>* GetSeed();
   }; // Org.BouncyCastle.Crypto.Parameters.Iso18033KdfParameters
 }

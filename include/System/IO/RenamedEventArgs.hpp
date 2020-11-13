@@ -26,7 +26,7 @@ namespace System::IO {
     // Offset: 0x30
     ::Il2CppString* oldFullPath;
     // public System.Void .ctor(System.IO.WatcherChangeTypes changeType, System.String directory, System.String name, System.String oldName)
-    // Offset: 0x14F0D98
+    // Offset: 0x148FB98
     static RenamedEventArgs* New_ctor(System::IO::WatcherChangeTypes changeType, ::Il2CppString* directory, ::Il2CppString* name, ::Il2CppString* oldName);
   }; // System.IO.RenamedEventArgs
 }

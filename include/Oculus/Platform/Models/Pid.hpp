@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
       return Id;
     }
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1140C24
+    // Offset: 0x11E18E4
     static Pid* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.Pid
 }

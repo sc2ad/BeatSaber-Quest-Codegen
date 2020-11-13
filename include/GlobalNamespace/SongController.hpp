@@ -26,13 +26,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_songDidFinishEvent(System.Action value)
-    // Offset: 0x1FF2E58
+    // Offset: 0xF39D98
     void add_songDidFinishEvent(System::Action* value);
     // public System.Void remove_songDidFinishEvent(System.Action value)
-    // Offset: 0x1FF2EFC
+    // Offset: 0xF39E3C
     void remove_songDidFinishEvent(System::Action* value);
     // public System.Void SendSongDidFinishEvent()
-    // Offset: 0x1FF2FA0
+    // Offset: 0xF39EE0
     void SendSongDidFinishEvent();
     // public System.Void StopSong()
     // Offset: 0xFFFFFFFF
@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void ResumeSong();
     // protected System.Void .ctor()
-    // Offset: 0x1FF2FB4
+    // Offset: 0xF39EF4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

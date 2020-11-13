@@ -35,13 +35,13 @@ namespace System::Net::Http::Headers {
     // Set static field: static public System.Predicate`1<System.Net.Http.Headers.NameValueHeaderValue> <>9__6_0
     static void _set_$$9__6_0(System::Predicate_1<System::Net::Http::Headers::NameValueHeaderValue*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x117B474
+    // Offset: 0x1205804
     static void _cctor();
     // System.Boolean <get_CharSet>b__6_0(System.Net.Http.Headers.NameValueHeaderValue l)
-    // Offset: 0x117B4E4
+    // Offset: 0x1205874
     bool $get_CharSet$b__6_0(System::Net::Http::Headers::NameValueHeaderValue* l);
     // public System.Void .ctor()
-    // Offset: 0x117B4DC
+    // Offset: 0x120586C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MediaTypeHeaderValue::$$c* New_ctor();

@@ -21,10 +21,10 @@ namespace UnityEngine::Bindings {
       return Name;
     }
     // public System.Void set_Name(System.String value)
-    // Offset: 0x1F7408C
+    // Offset: 0x1A043C8
     void set_Name(::Il2CppString* value);
     // public System.Void .ctor(System.String name)
-    // Offset: 0x1F74094
+    // Offset: 0x1A043D0
     static NativeNameAttribute* New_ctor(::Il2CppString* name);
   }; // UnityEngine.Bindings.NativeNameAttribute
 }

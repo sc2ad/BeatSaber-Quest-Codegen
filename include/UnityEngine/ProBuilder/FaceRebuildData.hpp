@@ -50,21 +50,21 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x30
     int appliedOffset;
     // public System.Int32 Offset()
-    // Offset: 0x16E2BC8
+    // Offset: 0x163578C
     int Offset();
     // static public System.Void Apply(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.FaceRebuildData> newFaces, UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x16E2C6C
+    // Offset: 0x1635830
     static void Apply(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::FaceRebuildData*>* newFaces, UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* vertices, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>* faces);
     // static public System.Void Apply(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.FaceRebuildData> newFaces, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> faces, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> sharedVertexLookup, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> sharedTextureLookup)
-    // Offset: 0x16E2DCC
+    // Offset: 0x1635990
     static void Apply(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::FaceRebuildData*>* newFaces, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* vertices, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>* faces, System::Collections::Generic::Dictionary_2<int, int>* sharedVertexLookup, System::Collections::Generic::Dictionary_2<int, int>* sharedTextureLookup);
     // public override System.String ToString()
-    // Offset: 0x16E2BD0
+    // Offset: 0x1635794
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0x16E32A4
+    // Offset: 0x1635E68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FaceRebuildData* New_ctor();

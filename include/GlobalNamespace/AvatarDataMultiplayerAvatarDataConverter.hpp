@@ -21,10 +21,10 @@ namespace GlobalNamespace {
   class AvatarDataMultiplayerAvatarDataConverter : public ::Il2CppObject {
     public:
     // static public MultiplayerAvatarData CreateMultiplayerAvatarData(AvatarData avatarData)
-    // Offset: 0x2032224
+    // Offset: 0x1A43FA0
     static GlobalNamespace::MultiplayerAvatarData CreateMultiplayerAvatarData(GlobalNamespace::AvatarData* avatarData);
     // static public AvatarData CreateAvatarData(MultiplayerAvatarData multiplayerAvatarData)
-    // Offset: 0x20323A8
+    // Offset: 0x1A44124
     static GlobalNamespace::AvatarData* CreateAvatarData(GlobalNamespace::MultiplayerAvatarData multiplayerAvatarData);
   }; // AvatarDataMultiplayerAvatarDataConverter
 }

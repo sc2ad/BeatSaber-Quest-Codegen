@@ -29,23 +29,23 @@ namespace Org::BouncyCastle::Asn1 {
   class LazyAsn1InputStream : public Org::BouncyCastle::Asn1::Asn1InputStream {
     public:
     // public System.Void .ctor(System.Byte[] input)
-    // Offset: 0x14035EC
+    // Offset: 0x13F54E4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1InputStream
     // Base method: System.Void Asn1InputStream::.ctor(System.Byte[] input)
     static LazyAsn1InputStream* New_ctor(::Array<uint8_t>* input);
     // public System.Void .ctor(System.IO.Stream inputStream)
-    // Offset: 0x14035F4
+    // Offset: 0x13F54EC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1InputStream
     // Base method: System.Void Asn1InputStream::.ctor(System.IO.Stream inputStream)
     // Base method: System.Void FilterStream::.ctor(System.IO.Stream inputStream)
     static LazyAsn1InputStream* New_ctor(System::IO::Stream* inputStream);
     // override Org.BouncyCastle.Asn1.DerSequence CreateDerSequence(Org.BouncyCastle.Asn1.DefiniteLengthInputStream dIn)
-    // Offset: 0x14035FC
+    // Offset: 0x13F54F4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1InputStream
     // Base method: Org.BouncyCastle.Asn1.DerSequence Asn1InputStream::CreateDerSequence(Org.BouncyCastle.Asn1.DefiniteLengthInputStream dIn)
     Org::BouncyCastle::Asn1::DerSequence* CreateDerSequence(Org::BouncyCastle::Asn1::DefiniteLengthInputStream* dIn);
     // override Org.BouncyCastle.Asn1.DerSet CreateDerSet(Org.BouncyCastle.Asn1.DefiniteLengthInputStream dIn)
-    // Offset: 0x14036FC
+    // Offset: 0x13F55F4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1InputStream
     // Base method: Org.BouncyCastle.Asn1.DerSet Asn1InputStream::CreateDerSet(Org.BouncyCastle.Asn1.DefiniteLengthInputStream dIn)
     Org::BouncyCastle::Asn1::DerSet* CreateDerSet(Org::BouncyCastle::Asn1::DefiniteLengthInputStream* dIn);

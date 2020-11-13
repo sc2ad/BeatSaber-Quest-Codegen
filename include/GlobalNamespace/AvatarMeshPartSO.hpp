@@ -21,10 +21,10 @@ namespace GlobalNamespace {
   class AvatarMeshPartSO : public GlobalNamespace::AvatarPartSO_1<UnityEngine::Mesh*> {
     public:
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x2032D8C
+    // Offset: 0x1A44B08
     UnityEngine::Mesh* get_mesh();
     // public System.Void .ctor()
-    // Offset: 0x2032DD0
+    // Offset: 0x1A44B4C
     // Implemented from: AvatarPartSO`1
     // Base method: System.Void AvatarPartSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

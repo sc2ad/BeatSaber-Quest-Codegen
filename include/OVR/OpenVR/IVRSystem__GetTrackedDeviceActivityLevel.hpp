@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_GetTrackedDeviceActivityLevel : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C97D70
+    // Offset: 0x1915F48
     static IVRSystem::_GetTrackedDeviceActivityLevel* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EDeviceActivityLevel Invoke(System.UInt32 unDeviceId)
-    // Offset: 0x1C97D84
+    // Offset: 0x1915F5C
     OVR::OpenVR::EDeviceActivityLevel Invoke(uint unDeviceId);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unDeviceId, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C97FF8
+    // Offset: 0x19161D0
     System::IAsyncResult* BeginInvoke(uint unDeviceId, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EDeviceActivityLevel EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C98084
+    // Offset: 0x191625C
     OVR::OpenVR::EDeviceActivityLevel EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_GetTrackedDeviceActivityLevel
 }

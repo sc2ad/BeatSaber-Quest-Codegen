@@ -26,16 +26,16 @@ namespace Valve::VR {
   class IVRSystem::_IsInputAvailable : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1CB1484
+    // Offset: 0x192F65C
     static IVRSystem::_IsInputAvailable* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke()
-    // Offset: 0x1CB1498
+    // Offset: 0x192F670
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1CB16B0
+    // Offset: 0x192F888
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1CB16DC
+    // Offset: 0x192F8B4
     bool EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRSystem/_IsInputAvailable
 }

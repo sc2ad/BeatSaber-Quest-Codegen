@@ -28,13 +28,13 @@ namespace System::Net {
       return m_tokenizer;
     }
     // System.Void .ctor(System.String cookieString)
-    // Offset: 0x12B36F4
+    // Offset: 0x1312EE0
     static CookieParser* New_ctor(::Il2CppString* cookieString);
     // System.Net.Cookie Get()
-    // Offset: 0x12B3774
+    // Offset: 0x1312F60
     System::Net::Cookie* Get();
     // static System.String CheckQuoted(System.String value)
-    // Offset: 0x12AEDFC
+    // Offset: 0x130E5E8
     static ::Il2CppString* CheckQuoted(::Il2CppString* value);
   }; // System.Net.CookieParser
 }

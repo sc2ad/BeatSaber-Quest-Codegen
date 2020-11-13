@@ -32,7 +32,7 @@ namespace System {
     // Offset: 0x38
     ::Il2CppObject* out_args;
     // public System.Void .ctor()
-    // Offset: 0x1374E08
+    // Offset: 0x13B6294
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MonoAsyncCall* New_ctor();

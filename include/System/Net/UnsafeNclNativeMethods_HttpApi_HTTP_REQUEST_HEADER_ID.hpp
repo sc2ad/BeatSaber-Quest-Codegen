@@ -18,10 +18,10 @@ namespace System::Net {
     // Set static field: static private System.String[] m_Strings
     static void _set_m_Strings(::Array<::Il2CppString*>* value);
     // static System.String ToString(System.Int32 position)
-    // Offset: 0x118C180
+    // Offset: 0x1217510
     static ::Il2CppString* ToString(int position);
     // static private System.Void .cctor()
-    // Offset: 0x118C214
+    // Offset: 0x12175A4
     static void _cctor();
   }; // System.Net.UnsafeNclNativeMethods/HttpApi/HTTP_REQUEST_HEADER_ID
 }

@@ -31,10 +31,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::OVRInput::RawAxis1D SecondaryHandTrigger;
     // public OVRInput/RawAxis1D ToRawMask(OVRInput/Axis1D virtualMask)
-    // Offset: 0x10EA2F4
+    // Offset: 0x11C0C24
     GlobalNamespace::OVRInput::RawAxis1D ToRawMask(GlobalNamespace::OVRInput::Axis1D virtualMask);
     // public System.Void .ctor()
-    // Offset: 0x10E9498
+    // Offset: 0x11BFDC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRInput::OVRControllerBase::VirtualAxis1DMap* New_ctor();

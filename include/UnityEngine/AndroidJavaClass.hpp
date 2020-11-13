@@ -21,13 +21,13 @@ namespace UnityEngine {
   class AndroidJavaClass : public UnityEngine::AndroidJavaObject {
     public:
     // public System.Void .ctor(System.String className)
-    // Offset: 0x1F0731C
+    // Offset: 0x199DF34
     static AndroidJavaClass* New_ctor(::Il2CppString* className);
     // private System.Void _AndroidJavaClass(System.String className)
-    // Offset: 0x1F073A4
+    // Offset: 0x199DFBC
     void _AndroidJavaClass(::Il2CppString* className);
     // System.Void .ctor(System.IntPtr jclass)
-    // Offset: 0x1F075CC
+    // Offset: 0x199E1E4
     // Implemented from: UnityEngine.AndroidJavaObject
     // Base method: System.Void AndroidJavaObject::.ctor(System.IntPtr jclass)
     static AndroidJavaClass* New_ctor(System::IntPtr jclass);

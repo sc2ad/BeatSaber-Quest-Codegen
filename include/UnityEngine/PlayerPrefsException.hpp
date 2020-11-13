@@ -14,7 +14,7 @@ namespace UnityEngine {
   class PlayerPrefsException : public System::Exception {
     public:
     // public System.Void .ctor(System.String error)
-    // Offset: 0x19430A8
+    // Offset: 0x17350DC
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String error)
     static PlayerPrefsException* New_ctor(::Il2CppString* error);

@@ -137,15 +137,15 @@ namespace System::Threading {
     // Offset: 0x118
     System::IntPtr last;
     // private System.Void Thread_free_internal()
-    // Offset: 0x17C2B34
+    // Offset: 0x16B6590
     void Thread_free_internal();
     // protected override System.Void Finalize()
-    // Offset: 0x17C2B38
+    // Offset: 0x16B6594
     // Implemented from: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
     // Base method: System.Void CriticalFinalizerObject::Finalize()
     void Finalize();
     // public System.Void .ctor()
-    // Offset: 0x17C2BA0
+    // Offset: 0x16B65FC
     // Implemented from: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
     // Base method: System.Void CriticalFinalizerObject::.ctor()
     // Base method: System.Void Object::.ctor()

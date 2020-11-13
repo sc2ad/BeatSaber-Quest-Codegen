@@ -74,7 +74,7 @@ namespace VRUIControls {
       // Creating value type constructor for type: VRGraphicRaycastResult
       constexpr VRGraphicRaycastResult(UnityEngine::UI::Graphic* graphic_ = {}, float distance_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Vector2 insideRootCanvasPosition_ = {}) noexcept : graphic{graphic_}, distance{distance_}, position{position_}, insideRootCanvasPosition{insideRootCanvasPosition_} {}
       // public System.Void .ctor(UnityEngine.UI.Graphic graphic, System.Single distance, UnityEngine.Vector3 position, UnityEngine.Vector2 insideRootCanvasPosition)
-      // Offset: 0xC8928C
+      // Offset: 0xCB5D38
       // ABORTED: conflicts with another method.  VRGraphicRaycastResult(UnityEngine::UI::Graphic* graphic, float distance, UnityEngine::Vector3 position, UnityEngine::Vector2 insideRootCanvasPosition);
     }; // VRUIControls.VRGraphicRaycaster/VRGraphicRaycastResult
     // private UnityEngine.LayerMask _blockingMask
@@ -103,25 +103,25 @@ namespace VRUIControls {
     // Set static field: static private readonly System.Single[] _ray2DCircleIntersectionDistances
     static void _set__ray2DCircleIntersectionDistances(::Array<float>* value);
     // static private System.Void RaycastCanvas(UnityEngine.Canvas canvas, UnityEngine.Ray ray, System.Single hitDistance, System.Single curvedUIRadius, System.Collections.Generic.List`1<VRUIControls.VRGraphicRaycaster/VRGraphicRaycastResult> results)
-    // Offset: 0x1EF983C
+    // Offset: 0x1990454
     static void RaycastCanvas(UnityEngine::Canvas* canvas, UnityEngine::Ray ray, float hitDistance, float curvedUIRadius, System::Collections::Generic::List_1<VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>* results);
     // public override UnityEngine.Camera get_eventCamera()
-    // Offset: 0x1EF91B0
+    // Offset: 0x198FDC8
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: UnityEngine.Camera BaseRaycaster::get_eventCamera()
     UnityEngine::Camera* get_eventCamera();
     // protected override System.Void OnEnable()
-    // Offset: 0x1EF91B8
+    // Offset: 0x198FDD0
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: System.Void BaseRaycaster::OnEnable()
     void OnEnable();
     // public override System.Void Raycast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList)
-    // Offset: 0x1EF9238
+    // Offset: 0x198FE50
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: System.Void BaseRaycaster::Raycast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList)
     void Raycast(UnityEngine::EventSystems::PointerEventData* eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* resultAppendList);
     // public System.Void .ctor()
-    // Offset: 0x1EFA49C
+    // Offset: 0x19910B4
     // Implemented from: UnityEngine.EventSystems.BaseRaycaster
     // Base method: System.Void BaseRaycaster::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -132,7 +132,7 @@ namespace VRUIControls {
     // Base method: System.Void Object::.ctor()
     static VRGraphicRaycaster* New_ctor();
     // static private System.Void .cctor()
-    // Offset: 0x1EFA554
+    // Offset: 0x199116C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

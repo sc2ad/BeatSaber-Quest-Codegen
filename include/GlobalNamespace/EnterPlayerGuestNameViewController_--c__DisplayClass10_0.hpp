@@ -33,10 +33,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::EnterPlayerGuestNameViewController* $$4__this;
     // System.Void <DidActivate>b__0(System.Int32 idx, GuestNameButtonsListItem item)
-    // Offset: 0x201DA94
+    // Offset: 0x1A6041C
     void $DidActivate$b__0(int idx, GlobalNamespace::GuestNameButtonsListItem* item);
     // public System.Void .ctor()
-    // Offset: 0x201D4D0
+    // Offset: 0x1A5FE58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EnterPlayerGuestNameViewController::$$c__DisplayClass10_0* New_ctor();

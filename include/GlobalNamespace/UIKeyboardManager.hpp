@@ -65,40 +65,40 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kKeyboardTopOffset
     static void _set_kKeyboardTopOffset(float value);
     // public HMUI.UIKeyboard get_keyboard()
-    // Offset: 0x1FA5270
+    // Offset: 0xFF6C68
     HMUI::UIKeyboard* get_keyboard();
     // protected System.Void Start()
-    // Offset: 0x1FA5278
+    // Offset: 0xFF6C70
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1FA530C
+    // Offset: 0xFF6D04
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1FA5398
+    // Offset: 0xFF6D90
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x1FA5424
+    // Offset: 0xFF6E1C
     void OnDestroy();
     // public System.Void OpenKeyboardFor(HMUI.InputFieldView input)
-    // Offset: 0x1FA54FC
+    // Offset: 0xFF6EF4
     void OpenKeyboardFor(HMUI::InputFieldView* input);
     // public System.Void CloseKeyboard()
-    // Offset: 0x1FA579C
+    // Offset: 0xFF7194
     void CloseKeyboard();
     // private System.Void TransferKeyboardTo(HMUI.InputFieldView nextInput)
-    // Offset: 0x1FA585C
+    // Offset: 0xFF7254
     void TransferKeyboardTo(HMUI::InputFieldView* nextInput);
     // private System.Boolean ShouldCloseKeyboard(UnityEngine.GameObject root)
-    // Offset: 0x1FA5900
+    // Offset: 0xFF72F8
     bool ShouldCloseKeyboard(UnityEngine::GameObject* root);
     // private System.Void ProcessMousePress(UnityEngine.GameObject currentOverGo)
-    // Offset: 0x1FA5964
+    // Offset: 0xFF735C
     void ProcessMousePress(UnityEngine::GameObject* currentOverGo);
     // private System.Void HandleKeyboardOkButton()
-    // Offset: 0x1FA5AFC
+    // Offset: 0xFF74F4
     void HandleKeyboardOkButton();
     // public System.Void .ctor()
-    // Offset: 0x1FA5C80
+    // Offset: 0xFF7678
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

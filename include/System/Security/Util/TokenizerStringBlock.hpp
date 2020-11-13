@@ -18,7 +18,7 @@ namespace System::Security::Util {
     // Offset: 0x18
     System::Security::Util::TokenizerStringBlock* m_next;
     // public System.Void .ctor()
-    // Offset: 0x1213D34
+    // Offset: 0x1288DEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TokenizerStringBlock* New_ctor();

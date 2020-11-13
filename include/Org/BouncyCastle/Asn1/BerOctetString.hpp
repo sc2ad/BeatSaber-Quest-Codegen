@@ -49,34 +49,34 @@ namespace Org::BouncyCastle::Asn1 {
     // Set static field: static private readonly System.Int32 DefaultChunkSize
     static void _set_DefaultChunkSize(int value);
     // static public Org.BouncyCastle.Asn1.BerOctetString FromSequence(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1316B54
+    // Offset: 0x1375340
     static Org::BouncyCastle::Asn1::BerOctetString* FromSequence(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // static private System.Byte[] ToBytes(Org.BouncyCastle.Asn1.Asn1OctetString[] octs)
-    // Offset: 0x131A6D8
+    // Offset: 0x1378EC4
     static ::Array<uint8_t>* ToBytes(::Array<Org::BouncyCastle::Asn1::Asn1OctetString*>* octs);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1OctetString[] octs)
-    // Offset: 0x1313358
+    // Offset: 0x1371B44
     static BerOctetString* New_ctor(::Array<Org::BouncyCastle::Asn1::Asn1OctetString*>* octs);
     // public System.Void .ctor(System.Byte[] str, System.Int32 chunkSize)
-    // Offset: 0x131A864
+    // Offset: 0x1379050
     static BerOctetString* New_ctor(::Array<uint8_t>* str, int chunkSize);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1OctetString[] octs, System.Int32 chunkSize)
-    // Offset: 0x131A89C
+    // Offset: 0x1379088
     static BerOctetString* New_ctor(::Array<Org::BouncyCastle::Asn1::Asn1OctetString*>* octs, int chunkSize);
     // private System.Void .ctor(System.Byte[] str, Org.BouncyCastle.Asn1.Asn1OctetString[] octs, System.Int32 chunkSize)
-    // Offset: 0x131A934
+    // Offset: 0x1379120
     static BerOctetString* New_ctor(::Array<uint8_t>* str, ::Array<Org::BouncyCastle::Asn1::Asn1OctetString*>* octs, int chunkSize);
     // static private System.Void .cctor()
-    // Offset: 0x131ADC4
+    // Offset: 0x13795B0
     static void _cctor();
     // public System.Void .ctor(System.Byte[] str)
-    // Offset: 0x131A7CC
+    // Offset: 0x1378FB8
     // Implemented from: Org.BouncyCastle.Asn1.DerOctetString
     // Base method: System.Void DerOctetString::.ctor(System.Byte[] str)
     // Base method: System.Void Asn1OctetString::.ctor(System.Byte[] str)
     static BerOctetString* New_ctor(::Array<uint8_t>* str);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x131A978
+    // Offset: 0x1379164
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* GetEnumerator();
@@ -84,7 +84,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x131AA64
+    // Offset: 0x1379250
     // Implemented from: Org.BouncyCastle.Asn1.DerOctetString
     // Base method: System.Void DerOctetString::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);

@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRNotifications::_RemoveNotification : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1B89948
+    // Offset: 0x18ED760
     static IVRNotifications::_RemoveNotification* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRNotificationError Invoke(System.UInt32 notificationId)
-    // Offset: 0x1B8995C
+    // Offset: 0x18ED774
     Valve::VR::EVRNotificationError Invoke(uint notificationId);
     // public System.IAsyncResult BeginInvoke(System.UInt32 notificationId, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1B89BD0
+    // Offset: 0x18ED9E8
     System::IAsyncResult* BeginInvoke(uint notificationId, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRNotificationError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1B89C5C
+    // Offset: 0x18EDA74
     Valve::VR::EVRNotificationError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRNotifications/_RemoveNotification
 }

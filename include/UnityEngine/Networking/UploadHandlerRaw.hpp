@@ -20,10 +20,10 @@ namespace UnityEngine::Networking {
   class UploadHandlerRaw : public UnityEngine::Networking::UploadHandler {
     public:
     // static private System.IntPtr Create(UnityEngine.Networking.UploadHandlerRaw self, System.Byte[] data)
-    // Offset: 0x1F4E260
+    // Offset: 0x19DFC44
     static System::IntPtr Create(UnityEngine::Networking::UploadHandlerRaw* self, ::Array<uint8_t>* data);
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x1F4E2B0
+    // Offset: 0x19DFC94
     static UploadHandlerRaw* New_ctor(::Array<uint8_t>* data);
   }; // UnityEngine.Networking.UploadHandlerRaw
 }

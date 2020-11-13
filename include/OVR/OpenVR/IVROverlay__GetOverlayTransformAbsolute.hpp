@@ -35,16 +35,16 @@ namespace OVR::OpenVR {
   class IVROverlay::_GetOverlayTransformAbsolute : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1ABFBBC
+    // Offset: 0x186F0F4
     static IVROverlay::_GetOverlayTransformAbsolute* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVROverlayError Invoke(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.ETrackingUniverseOrigin peTrackingOrigin, ref OVR.OpenVR.HmdMatrix34_t pmatTrackingOriginToOverlayTransform)
-    // Offset: 0x1ABFBD0
+    // Offset: 0x186F108
     OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, OVR::OpenVR::ETrackingUniverseOrigin& peTrackingOrigin, OVR::OpenVR::HmdMatrix34_t& pmatTrackingOriginToOverlayTransform);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.ETrackingUniverseOrigin peTrackingOrigin, ref OVR.OpenVR.HmdMatrix34_t pmatTrackingOriginToOverlayTransform, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1ABFE68
+    // Offset: 0x186F3A0
     System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, OVR::OpenVR::ETrackingUniverseOrigin& peTrackingOrigin, OVR::OpenVR::HmdMatrix34_t& pmatTrackingOriginToOverlayTransform, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVROverlayError EndInvoke(ref OVR.OpenVR.ETrackingUniverseOrigin peTrackingOrigin, ref OVR.OpenVR.HmdMatrix34_t pmatTrackingOriginToOverlayTransform, System.IAsyncResult result)
-    // Offset: 0x1ABFF3C
+    // Offset: 0x186F474
     OVR::OpenVR::EVROverlayError EndInvoke(OVR::OpenVR::ETrackingUniverseOrigin& peTrackingOrigin, OVR::OpenVR::HmdMatrix34_t& pmatTrackingOriginToOverlayTransform, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVROverlay/_GetOverlayTransformAbsolute
 }

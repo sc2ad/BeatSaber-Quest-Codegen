@@ -30,12 +30,12 @@ namespace NUnit::Framework::Internal::Builders {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IParameterDataProvider*>(this);
     }
     // public System.Collections.IEnumerable GetDataFor(NUnit.Framework.Interfaces.IParameterInfo parameter)
-    // Offset: 0x13C7F00
+    // Offset: 0x13ED898
     // Implemented from: NUnit.Framework.Interfaces.IParameterDataProvider
     // Base method: System.Collections.IEnumerable IParameterDataProvider::GetDataFor(NUnit.Framework.Interfaces.IParameterInfo parameter)
     System::Collections::IEnumerable* GetDataFor(NUnit::Framework::Interfaces::IParameterInfo* parameter);
     // public System.Void .ctor()
-    // Offset: 0x13B4678
+    // Offset: 0x13DA010
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ParameterDataSourceProvider* New_ctor();

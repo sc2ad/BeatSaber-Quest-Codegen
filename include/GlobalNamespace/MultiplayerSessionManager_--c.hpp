@@ -30,18 +30,18 @@ namespace GlobalNamespace {
     static GlobalNamespace::MultiplayerSessionManager::$$c* _get_$$9();
     // Set static field: static public readonly MultiplayerSessionManager/<>c <>9
     static void _set_$$9(GlobalNamespace::MultiplayerSessionManager::$$c* value);
-    // Get static field: static public System.Func`2<IConnectedPlayer,System.Int32> <>9__95_0
-    static System::Func_2<GlobalNamespace::IConnectedPlayer*, int>* _get_$$9__95_0();
-    // Set static field: static public System.Func`2<IConnectedPlayer,System.Int32> <>9__95_0
-    static void _set_$$9__95_0(System::Func_2<GlobalNamespace::IConnectedPlayer*, int>* value);
+    // Get static field: static public System.Func`2<IConnectedPlayer,System.Int32> <>9__96_0
+    static System::Func_2<GlobalNamespace::IConnectedPlayer*, int>* _get_$$9__96_0();
+    // Set static field: static public System.Func`2<IConnectedPlayer,System.Int32> <>9__96_0
+    static void _set_$$9__96_0(System::Func_2<GlobalNamespace::IConnectedPlayer*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x21F1BBC
+    // Offset: 0x1E4BCF0
     static void _cctor();
-    // System.Int32 <TryUpdateConnectedPlayer>b__95_0(IConnectedPlayer p)
-    // Offset: 0x21F1C2C
-    int $TryUpdateConnectedPlayer$b__95_0(GlobalNamespace::IConnectedPlayer* p);
+    // System.Int32 <TryUpdateConnectedPlayer>b__96_0(IConnectedPlayer p)
+    // Offset: 0x1E4BD60
+    int $TryUpdateConnectedPlayer$b__96_0(GlobalNamespace::IConnectedPlayer* p);
     // public System.Void .ctor()
-    // Offset: 0x21F1C24
+    // Offset: 0x1E4BD58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MultiplayerSessionManager::$$c* New_ctor();

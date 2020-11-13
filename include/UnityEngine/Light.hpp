@@ -39,46 +39,46 @@ namespace UnityEngine {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.LightType get_type()
-    // Offset: 0x1793DCC
+    // Offset: 0x1689AFC
     UnityEngine::LightType get_type();
     // public System.Single get_spotAngle()
-    // Offset: 0x1792AA4
+    // Offset: 0x16887D4
     float get_spotAngle();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1792800
+    // Offset: 0x1688530
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1797C00
+    // Offset: 0x168DA80
     void set_color(UnityEngine::Color value);
     // public System.Single get_intensity()
-    // Offset: 0x179285C
+    // Offset: 0x168858C
     float get_intensity();
     // public System.Void set_intensity(System.Single value)
-    // Offset: 0x1797CA8
+    // Offset: 0x168DB28
     void set_intensity(float value);
     // public System.Single get_bounceIntensity()
-    // Offset: 0x179289C
+    // Offset: 0x16885CC
     float get_bounceIntensity();
     // public System.Single get_range()
-    // Offset: 0x1792DC0
+    // Offset: 0x1688AF0
     float get_range();
     // public UnityEngine.LightShadows get_shadows()
-    // Offset: 0x1792C18
+    // Offset: 0x1688948
     UnityEngine::LightShadows get_shadows();
     // public System.Void AddCommandBuffer(UnityEngine.Rendering.LightEvent evt, UnityEngine.Rendering.CommandBuffer buffer)
-    // Offset: 0x1797CF8
+    // Offset: 0x168DB78
     void AddCommandBuffer(UnityEngine::Rendering::LightEvent evt, UnityEngine::Rendering::CommandBuffer* buffer);
     // public System.Void AddCommandBuffer(UnityEngine.Rendering.LightEvent evt, UnityEngine.Rendering.CommandBuffer buffer, UnityEngine.Rendering.ShadowMapPass shadowPassMask)
-    // Offset: 0x1797D54
+    // Offset: 0x168DBD4
     void AddCommandBuffer(UnityEngine::Rendering::LightEvent evt, UnityEngine::Rendering::CommandBuffer* buffer, UnityEngine::Rendering::ShadowMapPass shadowPassMask);
     // public System.Void RemoveCommandBuffer(UnityEngine.Rendering.LightEvent evt, UnityEngine.Rendering.CommandBuffer buffer)
-    // Offset: 0x1797DBC
+    // Offset: 0x168DC3C
     void RemoveCommandBuffer(UnityEngine::Rendering::LightEvent evt, UnityEngine::Rendering::CommandBuffer* buffer);
     // private System.Void get_color_Injected(out UnityEngine.Color ret)
-    // Offset: 0x1797BB0
+    // Offset: 0x168DA30
     void get_color_Injected(UnityEngine::Color& ret);
     // private System.Void set_color_Injected(ref UnityEngine.Color value)
-    // Offset: 0x1797C58
+    // Offset: 0x168DAD8
     void set_color_Injected(UnityEngine::Color& value);
   }; // UnityEngine.Light
 }

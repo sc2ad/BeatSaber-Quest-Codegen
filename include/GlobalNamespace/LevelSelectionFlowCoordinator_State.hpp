@@ -41,16 +41,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // private System.Void .ctor(System.Nullable`1<SelectLevelCategoryViewController/LevelCategory> levelCategory, IBeatmapLevelPack beatmapLevelPack, IPreviewBeatmapLevel previewBeatmapLevel, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x2092CB4
+    // Offset: 0x1AC5A5C
     static LevelSelectionFlowCoordinator::State* New_ctor(System::Nullable_1<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory> levelCategory, GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void .ctor(IBeatmapLevelPack beatmapLevelPack)
-    // Offset: 0x2092D28
+    // Offset: 0x1AC5AD0
     static LevelSelectionFlowCoordinator::State* New_ctor(GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack);
     // public System.Void .ctor(IBeatmapLevelPack beatmapLevelPack, IPreviewBeatmapLevel previewBeatmapLevel)
-    // Offset: 0x2092D3C
+    // Offset: 0x1AC5AE4
     static LevelSelectionFlowCoordinator::State* New_ctor(GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
     // public System.Void .ctor(SelectLevelCategoryViewController/LevelCategory levelCategory, IBeatmapLevelPack beatmapLevelPack, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x2092D50
+    // Offset: 0x1AC5AF8
     static LevelSelectionFlowCoordinator::State* New_ctor(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory levelCategory, GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
   }; // LevelSelectionFlowCoordinator/State
 }

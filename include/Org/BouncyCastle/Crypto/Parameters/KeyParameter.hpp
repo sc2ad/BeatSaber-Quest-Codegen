@@ -25,13 +25,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return key;
     }
     // public System.Void .ctor(System.Byte[] key)
-    // Offset: 0xF48EE8
+    // Offset: 0x10448F4
     static KeyParameter* New_ctor(::Array<uint8_t>* key);
     // public System.Void .ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
-    // Offset: 0xF4910C
+    // Offset: 0x1044B18
     static KeyParameter* New_ctor(::Array<uint8_t>* key, int keyOff, int keyLen);
     // public System.Byte[] GetKey()
-    // Offset: 0xF4D374
+    // Offset: 0x1048D80
     ::Array<uint8_t>* GetKey();
   }; // Org.BouncyCastle.Crypto.Parameters.KeyParameter
 }

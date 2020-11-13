@@ -36,13 +36,13 @@ namespace Mono::Http {
     // Set static field: static public System.Runtime.CompilerServices.ConditionalWeakTable`2/CreateValueCallback<System.Net.HttpWebRequest,Mono.Http.NtlmSession> <>9__1_0
     static void _set_$$9__1_0(typename System::Runtime::CompilerServices::ConditionalWeakTable_2<System::Net::HttpWebRequest*, Mono::Http::NtlmSession*>::CreateValueCallback* value);
     // static private System.Void .cctor()
-    // Offset: 0x11EAACC
+    // Offset: 0x125FB84
     static void _cctor();
     // Mono.Http.NtlmSession <Authenticate>b__1_0(System.Net.HttpWebRequest x)
-    // Offset: 0x11EAB3C
+    // Offset: 0x125FBF4
     Mono::Http::NtlmSession* $Authenticate$b__1_0(System::Net::HttpWebRequest* x);
     // public System.Void .ctor()
-    // Offset: 0x11EAB34
+    // Offset: 0x125FBEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NtlmClient::$$c* New_ctor();

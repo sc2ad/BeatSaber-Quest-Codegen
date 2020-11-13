@@ -28,16 +28,16 @@ namespace Mono::Unity {
   class UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_supported_ciphersuites_t : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x11FBA14
+    // Offset: 0x1270ACC
     static UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_supported_ciphersuites_t* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(Mono.Unity.UnityTls/unitytls_tlsctx* ctx, Mono.Unity.UnityTls/unitytls_ciphersuite* supportedCiphersuites, System.IntPtr supportedCiphersuitesLen, Mono.Unity.UnityTls/unitytls_errorstate* errorState)
-    // Offset: 0x11FBA28
+    // Offset: 0x1270AE0
     void Invoke(Mono::Unity::UnityTls::unitytls_tlsctx* ctx, Mono::Unity::UnityTls::unitytls_ciphersuite* supportedCiphersuites, System::IntPtr supportedCiphersuitesLen, Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // public System.IAsyncResult BeginInvoke(Mono.Unity.UnityTls/unitytls_tlsctx* ctx, Mono.Unity.UnityTls/unitytls_ciphersuite* supportedCiphersuites, System.IntPtr supportedCiphersuitesLen, Mono.Unity.UnityTls/unitytls_errorstate* errorState, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x11FBCC0
+    // Offset: 0x1270D78
     System::IAsyncResult* BeginInvoke(Mono::Unity::UnityTls::unitytls_tlsctx* ctx, Mono::Unity::UnityTls::unitytls_ciphersuite* supportedCiphersuites, System::IntPtr supportedCiphersuitesLen, Mono::Unity::UnityTls::unitytls_errorstate* errorState, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x11FBD68
+    // Offset: 0x1270E20
     void EndInvoke(System::IAsyncResult* result);
   }; // Mono.Unity.UnityTls/unitytls_interface_struct/unitytls_tlsctx_set_supported_ciphersuites_t
 }

@@ -90,22 +90,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1F8F864
+    // Offset: 0xF03660
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x1F8FB18
+    // Offset: 0xF03914
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1F8FBF4
+    // Offset: 0xF039F0
     void Update();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x1F8FD18
+    // Offset: 0xF03B14
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void RefreshParticles()
-    // Offset: 0x1F8F9DC
+    // Offset: 0xF037D8
     void RefreshParticles();
     // public System.Void .ctor()
-    // Offset: 0x1F8FF00
+    // Offset: 0xF03CFC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

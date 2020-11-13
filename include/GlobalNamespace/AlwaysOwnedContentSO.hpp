@@ -31,13 +31,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public BeatmapLevelPackSO[] get_alwaysOwnedPacks()
-    // Offset: 0x202AE78
+    // Offset: 0x1A3CBF4
     ::Array<GlobalNamespace::BeatmapLevelPackSO*>* get_alwaysOwnedPacks();
     // public BeatmapLevelSO[] get_alwaysOwnedBeatmapLevels()
-    // Offset: 0x202AE80
+    // Offset: 0x1A3CBFC
     ::Array<GlobalNamespace::BeatmapLevelSO*>* get_alwaysOwnedBeatmapLevels();
     // public System.Void .ctor()
-    // Offset: 0x202AE88
+    // Offset: 0x1A3CC04
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

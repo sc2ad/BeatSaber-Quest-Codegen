@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   class UserAndRoomList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::UserAndRoom*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x113F548
+    // Offset: 0x11E0208
     static UserAndRoomList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.UserAndRoomList
 }

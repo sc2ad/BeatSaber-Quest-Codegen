@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRIOBuffer::_Read : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AB2FA8
+    // Offset: 0x18624E0
     static IVRIOBuffer::_Read* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EIOBufferError Invoke(System.UInt64 ulBuffer, System.IntPtr pDst, System.UInt32 unBytes, ref System.UInt32 punRead)
-    // Offset: 0x1AB2FBC
+    // Offset: 0x18624F4
     OVR::OpenVR::EIOBufferError Invoke(uint64_t ulBuffer, System::IntPtr pDst, uint unBytes, uint& punRead);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulBuffer, System.IntPtr pDst, System.UInt32 unBytes, ref System.UInt32 punRead, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AB326C
+    // Offset: 0x18627A4
     System::IAsyncResult* BeginInvoke(uint64_t ulBuffer, System::IntPtr pDst, uint unBytes, uint& punRead, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EIOBufferError EndInvoke(ref System.UInt32 punRead, System.IAsyncResult result)
-    // Offset: 0x1AB3354
+    // Offset: 0x186288C
     OVR::OpenVR::EIOBufferError EndInvoke(uint& punRead, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRIOBuffer/_Read
 }

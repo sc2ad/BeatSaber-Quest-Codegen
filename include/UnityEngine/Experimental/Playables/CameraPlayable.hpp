@@ -36,12 +36,12 @@ namespace UnityEngine::Experimental::Playables {
       return m_Handle;
     }
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xC78364
+    // Offset: 0xCA5100
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Experimental.Playables.CameraPlayable other)
-    // Offset: 0xC78370
+    // Offset: 0xCA510C
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Experimental.Playables.CameraPlayable other)
     bool Equals(UnityEngine::Experimental::Playables::CameraPlayable other);

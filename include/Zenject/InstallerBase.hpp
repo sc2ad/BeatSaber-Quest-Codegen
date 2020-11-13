@@ -32,10 +32,10 @@ namespace Zenject {
       return container;
     }
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x122D21C
+    // Offset: 0x12A22D4
     Zenject::DiContainer* get_Container();
     // public System.Boolean get_IsEnabled()
-    // Offset: 0x122D224
+    // Offset: 0x12A22DC
     // Implemented from: Zenject.IInstaller
     // Base method: System.Boolean IInstaller::get_IsEnabled()
     bool get_IsEnabled();
@@ -48,7 +48,7 @@ namespace Zenject {
     // Base method: System.Void IInstaller::InstallBindings()
     void InstallBindings();
     // protected System.Void .ctor()
-    // Offset: 0x122D214
+    // Offset: 0x12A22CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static InstallerBase* New_ctor();

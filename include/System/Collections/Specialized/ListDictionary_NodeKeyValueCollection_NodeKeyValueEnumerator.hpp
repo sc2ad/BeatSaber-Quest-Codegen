@@ -37,10 +37,10 @@ namespace System::Collections::Specialized {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // public System.Void .ctor(System.Collections.Specialized.ListDictionary list, System.Boolean isKeys)
-    // Offset: 0x14DE35C
+    // Offset: 0x147CF3C
     static ListDictionary::NodeKeyValueCollection::NodeKeyValueEnumerator* New_ctor(System::Collections::Specialized::ListDictionary* list, bool isKeys);
     // public System.Object get_Current()
-    // Offset: 0x14DE3D0
+    // Offset: 0x147CFB0
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* get_Current();
@@ -48,7 +48,7 @@ namespace System::Collections::Specialized {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x14DE470
+    // Offset: 0x147D050
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -56,7 +56,7 @@ namespace System::Collections::Specialized {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // public System.Void Reset()
-    // Offset: 0x14DE550
+    // Offset: 0x147D130
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void Reset();

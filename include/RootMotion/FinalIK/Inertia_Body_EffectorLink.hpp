@@ -22,7 +22,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x14
     float weight;
     // public System.Void .ctor()
-    // Offset: 0x1999F34
+    // Offset: 0x17E7324
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Inertia::Body::EffectorLink* New_ctor();

@@ -31,16 +31,16 @@ namespace Valve::VR {
   class IVRApplications::_LaunchInternalProcess : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x130F1CC
+    // Offset: 0x136E9B8
     static IVRApplications::_LaunchInternalProcess* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public Valve.VR.EVRApplicationError Invoke(System.String pchBinaryPath, System.String pchArguments, System.String pchWorkingDirectory)
-    // Offset: 0x130711C
+    // Offset: 0x1366908
     Valve::VR::EVRApplicationError Invoke(::Il2CppString* pchBinaryPath, ::Il2CppString* pchArguments, ::Il2CppString* pchWorkingDirectory);
     // public System.IAsyncResult BeginInvoke(System.String pchBinaryPath, System.String pchArguments, System.String pchWorkingDirectory, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x130F1E0
+    // Offset: 0x136E9CC
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchBinaryPath, ::Il2CppString* pchArguments, ::Il2CppString* pchWorkingDirectory, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRApplicationError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x130F210
+    // Offset: 0x136E9FC
     Valve::VR::EVRApplicationError EndInvoke(System::IAsyncResult* result);
   }; // Valve.VR.IVRApplications/_LaunchInternalProcess
 }

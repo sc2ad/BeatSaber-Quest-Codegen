@@ -20,7 +20,7 @@ namespace Org::BouncyCastle::Asn1 {
       return *reinterpret_cast<System::Collections::IComparer*>(this);
     }
     // public System.Int32 Compare(System.Object x, System.Object y)
-    // Offset: 0x1318700
+    // Offset: 0x1376EEC
     // Implemented from: System.Collections.IComparer
     // Base method: System.Int32 IComparer::Compare(System.Object x, System.Object y)
     int Compare(::Il2CppObject* x, ::Il2CppObject* y);
@@ -28,7 +28,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Maps to method: Compare
     int System_Collections_IComparer_Compare(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Void .ctor()
-    // Offset: 0x13186EC
+    // Offset: 0x1376ED8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Asn1Set::DerComparer* New_ctor();

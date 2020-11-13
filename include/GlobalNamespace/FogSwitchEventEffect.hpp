@@ -51,22 +51,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kTransitionDuration
     static void _set_kTransitionDuration(float value);
     // protected System.Void Start()
-    // Offset: 0x20264D4
+    // Offset: 0x1A16330
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x2026568
+    // Offset: 0x1A163C4
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x2026644
+    // Offset: 0x1A164A0
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void AnimateToFog(System.Single duration, System.Single value)
-    // Offset: 0x2026698
+    // Offset: 0x1A164F4
     void AnimateToFog(float duration, float value);
     // private System.Collections.IEnumerator AnimateToFogCoroutine(System.Single duration, System.Single value)
-    // Offset: 0x20266E8
+    // Offset: 0x1A16544
     System::Collections::IEnumerator* AnimateToFogCoroutine(float duration, float value);
     // public System.Void .ctor()
-    // Offset: 0x20267A4
+    // Offset: 0x1A16600
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

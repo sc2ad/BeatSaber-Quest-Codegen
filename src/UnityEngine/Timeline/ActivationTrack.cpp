@@ -6,6 +6,8 @@
 #include "UnityEngine/Timeline/ActivationTrack.hpp"
 // Including type: UnityEngine.Timeline.ActivationMixerPlayable
 #include "UnityEngine/Timeline/ActivationMixerPlayable.hpp"
+// Including type: UnityEngine.Playables.Playable
+#include "UnityEngine/Playables/Playable.hpp"
 // Including type: UnityEngine.Playables.PlayableGraph
 #include "UnityEngine/Playables/PlayableGraph.hpp"
 // Including type: UnityEngine.GameObject

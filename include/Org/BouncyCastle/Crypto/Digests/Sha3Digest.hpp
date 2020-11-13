@@ -20,28 +20,28 @@ namespace Org::BouncyCastle::Crypto::Digests {
   class Sha3Digest : public Org::BouncyCastle::Crypto::Digests::KeccakDigest {
     public:
     // static private System.Int32 CheckBitLength(System.Int32 bitLength)
-    // Offset: 0x14CABD4
+    // Offset: 0x14B5D74
     static int CheckBitLength(int bitLength);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.Sha3Digest source)
-    // Offset: 0x14CAD48
+    // Offset: 0x14B5EE8
     static Sha3Digest* New_ctor(Org::BouncyCastle::Crypto::Digests::Sha3Digest* source);
     // public System.Void .ctor(System.Int32 bitLength)
-    // Offset: 0x14CACC0
+    // Offset: 0x14B5E60
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
     // Base method: System.Void KeccakDigest::.ctor(System.Int32 bitLength)
     static Sha3Digest* New_ctor(int bitLength);
     // public override System.String get_AlgorithmName()
-    // Offset: 0x14CADC0
+    // Offset: 0x14B5F60
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
     // Base method: System.String KeccakDigest::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public override System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x14CAE40
+    // Offset: 0x14B5FE0
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
     // Base method: System.Int32 KeccakDigest::DoFinal(System.Byte[] output, System.Int32 outOff)
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public override Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x14CAE8C
+    // Offset: 0x14B602C
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
     // Base method: Org.BouncyCastle.Utilities.IMemoable KeccakDigest::Copy()
     Org::BouncyCastle::Utilities::IMemoable* Copy();

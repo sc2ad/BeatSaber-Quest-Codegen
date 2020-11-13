@@ -116,89 +116,89 @@ namespace System {
     // Set static field: static private System.Int32 _COMPlusExceptionCode
     static void _set__COMPlusExceptionCode(int value);
     // private System.Void Init()
-    // Offset: 0x1052CCC
+    // Offset: 0x112A5FC
     void Init();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1052D98
+    // Offset: 0x112A6C8
     static Exception* New_ctor(::Il2CppString* message);
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x1052DD4
+    // Offset: 0x112A704
     static Exception* New_ctor(::Il2CppString* message, System::Exception* innerException);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1052E2C
+    // Offset: 0x112A75C
     static Exception* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.String get_Message()
-    // Offset: 0x105321C
+    // Offset: 0x112AB4C
     ::Il2CppString* get_Message();
     // public System.Collections.IDictionary get_Data()
-    // Offset: 0x1053368
+    // Offset: 0x112AC98
     System::Collections::IDictionary* get_Data();
     // static private System.Boolean IsImmutableAgileException(System.Exception e)
-    // Offset: 0x1053400
+    // Offset: 0x112AD30
     static bool IsImmutableAgileException(System::Exception* e);
     // private System.String GetClassName()
-    // Offset: 0x1053310
+    // Offset: 0x112AC40
     ::Il2CppString* GetClassName();
     // public System.Exception get_InnerException()
-    // Offset: 0x1053410
+    // Offset: 0x112AD40
     System::Exception* get_InnerException();
     // public System.String get_StackTrace()
-    // Offset: 0x1053418
+    // Offset: 0x112AD48
     ::Il2CppString* get_StackTrace();
     // private System.String GetStackTrace(System.Boolean needFileInfo)
-    // Offset: 0x1053420
+    // Offset: 0x112AD50
     ::Il2CppString* GetStackTrace(bool needFileInfo);
     // System.Void SetErrorCode(System.Int32 hr)
-    // Offset: 0x104BA98
+    // Offset: 0x11233C8
     void SetErrorCode(int hr);
     // public System.String get_Source()
-    // Offset: 0x1053480
+    // Offset: 0x112ADB0
     ::Il2CppString* get_Source();
     // private System.String ToString(System.Boolean needFileLineInfo, System.Boolean needMessage)
-    // Offset: 0x10535B4
+    // Offset: 0x112AEE4
     ::Il2CppString* ToString(bool needFileLineInfo, bool needMessage);
     // private System.Void OnDeserialized(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1053C4C
+    // Offset: 0x112B57C
     void OnDeserialized(System::Runtime::Serialization::StreamingContext context);
     // System.Void InternalPreserveStackTrace()
-    // Offset: 0x1053CE4
+    // Offset: 0x112B614
     void InternalPreserveStackTrace();
     // private System.String StripFileInfo(System.String stackTrace, System.Boolean isRemoteStackTrace)
-    // Offset: 0x1053478
+    // Offset: 0x112ADA8
     ::Il2CppString* StripFileInfo(::Il2CppString* stackTrace, bool isRemoteStackTrace);
     // System.Void RestoreExceptionDispatchInfo(System.Runtime.ExceptionServices.ExceptionDispatchInfo exceptionDispatchInfo)
-    // Offset: 0x1053D60
+    // Offset: 0x112B690
     void RestoreExceptionDispatchInfo(System::Runtime::ExceptionServices::ExceptionDispatchInfo* exceptionDispatchInfo);
     // public System.Int32 get_HResult()
-    // Offset: 0x1053E14
+    // Offset: 0x112B744
     int get_HResult();
     // protected System.Void set_HResult(System.Int32 value)
-    // Offset: 0x1053E1C
+    // Offset: 0x112B74C
     void set_HResult(int value);
     // static System.String GetMessageFromNativeResources(System.Exception/ExceptionMessageKind kind)
-    // Offset: 0x1053E24
+    // Offset: 0x112B754
     static ::Il2CppString* GetMessageFromNativeResources(System::Exception::ExceptionMessageKind kind);
     // System.Exception FixRemotingException()
-    // Offset: 0x1053E80
+    // Offset: 0x112B7B0
     System::Exception* FixRemotingException();
     // static System.Void ReportUnhandledException(System.Exception exception)
-    // Offset: 0x1053F7C
+    // Offset: 0x112B8AC
     static void ReportUnhandledException(System::Exception* exception);
     // static private System.Void .cctor()
-    // Offset: 0x1053F80
+    // Offset: 0x112B8B0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1052D70
+    // Offset: 0x112A6A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Exception* New_ctor();
     // public override System.String ToString()
-    // Offset: 0x10535A8
+    // Offset: 0x112AED8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1053874
+    // Offset: 0x112B1A4
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -206,7 +206,7 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Type GetType()
-    // Offset: 0x1053408
+    // Offset: 0x112AD38
     // Implemented from: System.Object
     // Base method: System.Type Object::GetType()
     System::Type* GetType();

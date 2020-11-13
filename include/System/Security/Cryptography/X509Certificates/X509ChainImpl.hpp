@@ -15,6 +15,8 @@ namespace System::Security::Cryptography::X509Certificates {
   class X509ChainElementCollection;
   // Forward declaring type: X509ChainPolicy
   class X509ChainPolicy;
+  // Forward declaring type: X509ChainStatus
+  struct X509ChainStatus;
   // Forward declaring type: X509Certificate2
   class X509Certificate2;
 }
@@ -40,6 +42,9 @@ namespace System::Security::Cryptography::X509Certificates {
     // public System.Void set_ChainPolicy(System.Security.Cryptography.X509Certificates.X509ChainPolicy value)
     // Offset: 0xFFFFFFFF
     void set_ChainPolicy(System::Security::Cryptography::X509Certificates::X509ChainPolicy* value);
+    // public System.Security.Cryptography.X509Certificates.X509ChainStatus[] get_ChainStatus()
+    // Offset: 0xFFFFFFFF
+    ::Array<System::Security::Cryptography::X509Certificates::X509ChainStatus>* get_ChainStatus();
     // public System.Boolean Build(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
     // Offset: 0xFFFFFFFF
     bool Build(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
@@ -47,10 +52,10 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFF
     void Reset();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x147C128
+    // Offset: 0x146656C
     void Dispose(bool disposing);
     // public System.Void Dispose()
-    // Offset: 0x147B2E0
+    // Offset: 0x1465724
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();
@@ -58,12 +63,12 @@ namespace System::Security::Cryptography::X509Certificates {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x147C12C
+    // Offset: 0x1466570
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected System.Void .ctor()
-    // Offset: 0x147C1A0
+    // Offset: 0x14665E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static X509ChainImpl* New_ctor();

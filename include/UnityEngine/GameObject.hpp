@@ -49,7 +49,7 @@ namespace UnityEngine {
   class GameObject : public UnityEngine::Object {
     public:
     // static public UnityEngine.GameObject CreatePrimitive(UnityEngine.PrimitiveType type)
-    // Offset: 0x1794AA4
+    // Offset: 0x168A858
     static UnityEngine::GameObject* CreatePrimitive(UnityEngine::PrimitiveType type);
     // public T GetComponent()
     // Offset: 0xFFFFFFFF
@@ -58,22 +58,22 @@ namespace UnityEngine {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "GetComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // public UnityEngine.Component GetComponent(System.Type type)
-    // Offset: 0x178C794
+    // Offset: 0x16824C4
     UnityEngine::Component* GetComponent(System::Type* type);
     // System.Void GetComponentFastPath(System.Type type, System.IntPtr oneFurtherThanResultValue)
-    // Offset: 0x1794AE4
+    // Offset: 0x168A898
     void GetComponentFastPath(System::Type* type, System::IntPtr oneFurtherThanResultValue);
     // UnityEngine.Component GetComponentByName(System.String type)
-    // Offset: 0x1794B3C
+    // Offset: 0x168A8F0
     UnityEngine::Component* GetComponentByName(::Il2CppString* type);
     // public UnityEngine.Component GetComponent(System.String type)
-    // Offset: 0x1794B8C
+    // Offset: 0x168A940
     UnityEngine::Component* GetComponent(::Il2CppString* type);
     // public UnityEngine.Component GetComponentInChildren(System.Type type, System.Boolean includeInactive)
-    // Offset: 0x178C8C8
+    // Offset: 0x16825F8
     UnityEngine::Component* GetComponentInChildren(System::Type* type, bool includeInactive);
     // public UnityEngine.Component GetComponentInChildren(System.Type type)
-    // Offset: 0x1794BDC
+    // Offset: 0x168A990
     UnityEngine::Component* GetComponentInChildren(System::Type* type);
     // public T GetComponentInChildren()
     // Offset: 0xFFFFFFFF
@@ -88,13 +88,13 @@ namespace UnityEngine {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "GetComponentInChildren", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, includeInactive)));
     }
     // public UnityEngine.Component GetComponentInParent(System.Type type)
-    // Offset: 0x178CAC4
+    // Offset: 0x16827F4
     UnityEngine::Component* GetComponentInParent(System::Type* type);
     // private System.Array GetComponentsInternal(System.Type type, System.Boolean useSearchTypeAsArrayReturnType, System.Boolean recursive, System.Boolean includeInactive, System.Boolean reverse, System.Object resultList)
-    // Offset: 0x1794C30
+    // Offset: 0x168A9E4
     System::Array* GetComponentsInternal(System::Type* type, bool useSearchTypeAsArrayReturnType, bool recursive, bool includeInactive, bool reverse, ::Il2CppObject* resultList);
     // public UnityEngine.Component[] GetComponents(System.Type type)
-    // Offset: 0x178CC90
+    // Offset: 0x16829C0
     ::Array<UnityEngine::Component*>* GetComponents(System::Type* type);
     // public T[] GetComponents()
     // Offset: 0xFFFFFFFF
@@ -109,7 +109,7 @@ namespace UnityEngine {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "GetComponents", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, results));
     }
     // public UnityEngine.Component[] GetComponentsInChildren(System.Type type, System.Boolean includeInactive)
-    // Offset: 0x178C984
+    // Offset: 0x16826B4
     ::Array<UnityEngine::Component*>* GetComponentsInChildren(System::Type* type, bool includeInactive);
     // public T[] GetComponentsInChildren(System.Boolean includeInactive)
     // Offset: 0xFFFFFFFF
@@ -130,7 +130,7 @@ namespace UnityEngine {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>(this, "GetComponentsInChildren", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // public UnityEngine.Component[] GetComponentsInParent(System.Type type, System.Boolean includeInactive)
-    // Offset: 0x178CB78
+    // Offset: 0x16828A8
     ::Array<UnityEngine::Component*>* GetComponentsInParent(System::Type* type, bool includeInactive);
     // public System.Void GetComponentsInParent(System.Boolean includeInactive, System.Collections.Generic.List`1<T> results)
     // Offset: 0xFFFFFFFF
@@ -151,13 +151,13 @@ namespace UnityEngine {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(this, "TryGetComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, component)));
     }
     // System.Void TryGetComponentFastPath(System.Type type, System.IntPtr oneFurtherThanResultValue)
-    // Offset: 0x1794CB8
+    // Offset: 0x168AA6C
     void TryGetComponentFastPath(System::Type* type, System::IntPtr oneFurtherThanResultValue);
     // private UnityEngine.Component Internal_AddComponentWithType(System.Type componentType)
-    // Offset: 0x1794D10
+    // Offset: 0x168AAC4
     UnityEngine::Component* Internal_AddComponentWithType(System::Type* componentType);
     // public UnityEngine.Component AddComponent(System.Type componentType)
-    // Offset: 0x1794D60
+    // Offset: 0x168AB14
     UnityEngine::Component* AddComponent(System::Type* componentType);
     // public T AddComponent()
     // Offset: 0xFFFFFFFF
@@ -167,46 +167,46 @@ namespace UnityEngine {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "AddComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
     }
     // public UnityEngine.Transform get_transform()
-    // Offset: 0x1794DB0
+    // Offset: 0x168AB64
     UnityEngine::Transform* get_transform();
     // public System.Int32 get_layer()
-    // Offset: 0x1794DF0
+    // Offset: 0x168ABA4
     int get_layer();
     // public System.Void set_layer(System.Int32 value)
-    // Offset: 0x1794E30
+    // Offset: 0x168ABE4
     void set_layer(int value);
     // public System.Void SetActive(System.Boolean value)
-    // Offset: 0x1794E80
+    // Offset: 0x168AC34
     void SetActive(bool value);
     // public System.Boolean get_activeSelf()
-    // Offset: 0x1794ED0
+    // Offset: 0x168AC84
     bool get_activeSelf();
     // public System.Boolean get_activeInHierarchy()
-    // Offset: 0x1794F10
+    // Offset: 0x168ACC4
     bool get_activeInHierarchy();
     // public System.String get_tag()
-    // Offset: 0x178CE6C
+    // Offset: 0x1682B9C
     ::Il2CppString* get_tag();
     // public System.Void set_tag(System.String value)
-    // Offset: 0x178CF30
+    // Offset: 0x1682C60
     void set_tag(::Il2CppString* value);
     // public System.Boolean CompareTag(System.String tag)
-    // Offset: 0x178D004
+    // Offset: 0x1682D34
     bool CompareTag(::Il2CppString* tag);
     // static public UnityEngine.GameObject[] FindGameObjectsWithTag(System.String tag)
-    // Offset: 0x1794F50
+    // Offset: 0x168AD04
     static ::Array<UnityEngine::GameObject*>* FindGameObjectsWithTag(::Il2CppString* tag);
     // public System.Void SendMessage(System.String methodName, System.Object value, UnityEngine.SendMessageOptions options)
-    // Offset: 0x1794F90
+    // Offset: 0x168AD44
     void SendMessage(::Il2CppString* methodName, ::Il2CppObject* value, UnityEngine::SendMessageOptions options);
     // public System.Void BroadcastMessage(System.String methodName, System.Object parameter, UnityEngine.SendMessageOptions options)
-    // Offset: 0x1794FF8
+    // Offset: 0x168ADAC
     void BroadcastMessage(::Il2CppString* methodName, ::Il2CppObject* parameter, UnityEngine::SendMessageOptions options);
     // public System.Void .ctor(System.String name)
-    // Offset: 0x1795060
+    // Offset: 0x168AE14
     static GameObject* New_ctor(::Il2CppString* name);
     // public System.Void .ctor(System.String name, params System.Type[] components)
-    // Offset: 0x17951E4
+    // Offset: 0x168AF98
     static GameObject* New_ctor(::Il2CppString* name, ::Array<System::Type*>* components);
     // Creating initializer_list -> params proxy for: System.Void .ctor(System.String name, params System.Type[] components)
     static GameObject* New_ctor(::Il2CppString* name, std::initializer_list<System::Type*> components);
@@ -216,22 +216,22 @@ namespace UnityEngine {
       return New_ctor(name, {components...});
     }
     // static private System.Void Internal_CreateGameObject(UnityEngine.GameObject self, System.String name)
-    // Offset: 0x1795100
+    // Offset: 0x168AEB4
     static void Internal_CreateGameObject(UnityEngine::GameObject* self, ::Il2CppString* name);
     // static public UnityEngine.GameObject Find(System.String name)
-    // Offset: 0x1795314
+    // Offset: 0x168B0C8
     static UnityEngine::GameObject* Find(::Il2CppString* name);
     // public UnityEngine.SceneManagement.Scene get_scene()
-    // Offset: 0x1795354
+    // Offset: 0x168B108
     UnityEngine::SceneManagement::Scene get_scene();
     // public UnityEngine.GameObject get_gameObject()
-    // Offset: 0x17953FC
+    // Offset: 0x168B1B0
     UnityEngine::GameObject* get_gameObject();
     // private System.Void get_scene_Injected(out UnityEngine.SceneManagement.Scene ret)
-    // Offset: 0x17953AC
+    // Offset: 0x168B160
     void get_scene_Injected(UnityEngine::SceneManagement::Scene& ret);
     // public System.Void .ctor()
-    // Offset: 0x1795150
+    // Offset: 0x168AF04
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()

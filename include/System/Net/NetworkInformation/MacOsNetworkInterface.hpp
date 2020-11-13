@@ -30,15 +30,15 @@ namespace System::Net::NetworkInformation {
       return ifa_flags;
     }
     // System.Void .ctor(System.String name, System.UInt32 ifa_flags)
-    // Offset: 0x10C5684
+    // Offset: 0x119AFB4
     static MacOsNetworkInterface* New_ctor(::Il2CppString* name, uint ifa_flags);
     // public override System.Net.NetworkInformation.IPInterfaceProperties GetIPProperties()
-    // Offset: 0x10C56AC
+    // Offset: 0x119AFDC
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.IPInterfaceProperties NetworkInterface::GetIPProperties()
     System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
     // public override System.Net.NetworkInformation.OperationalStatus get_OperationalStatus()
-    // Offset: 0x10C5738
+    // Offset: 0x119B068
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.OperationalStatus NetworkInterface::get_OperationalStatus()
     System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();

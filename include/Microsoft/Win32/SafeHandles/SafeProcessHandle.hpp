@@ -24,18 +24,18 @@ namespace Microsoft::Win32::SafeHandles {
     // Set static field: static Microsoft.Win32.SafeHandles.SafeProcessHandle InvalidHandle
     static void _set_InvalidHandle(Microsoft::Win32::SafeHandles::SafeProcessHandle* value);
     // System.Void .ctor(System.IntPtr handle)
-    // Offset: 0x11EA1AC
+    // Offset: 0x125F264
     static SafeProcessHandle* New_ctor(System::IntPtr handle);
     // static private System.Void .cctor()
-    // Offset: 0x11EA1E4
+    // Offset: 0x125F29C
     static void _cctor();
     // public System.Void .ctor(System.IntPtr existingHandle, System.Boolean ownsHandle)
-    // Offset: 0x11E9F00
+    // Offset: 0x125EFB8
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Void SafeHandle::.ctor(System.IntPtr existingHandle, System.Boolean ownsHandle)
     static SafeProcessHandle* New_ctor(System::IntPtr existingHandle, bool ownsHandle);
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0x11EA1DC
+    // Offset: 0x125F294
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();

@@ -11,6 +11,8 @@
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: HumanDescription
+  struct HumanDescription;
   // Skipping declaration: Quaternion because it is already included!
 }
 // Completed forward declares
@@ -20,28 +22,34 @@ namespace UnityEngine {
   class Avatar : public UnityEngine::Object {
     public:
     // public System.Boolean get_isValid()
-    // Offset: 0x1F3E400
+    // Offset: 0x19CBA34
     bool get_isValid();
     // public System.Boolean get_isHuman()
-    // Offset: 0x1F3E440
+    // Offset: 0x19CBA74
     bool get_isHuman();
+    // public UnityEngine.HumanDescription get_humanDescription()
+    // Offset: 0x19CBAB4
+    UnityEngine::HumanDescription get_humanDescription();
     // System.Single GetAxisLength(System.Int32 humanId)
-    // Offset: 0x1F3E480
+    // Offset: 0x19CBB7C
     float GetAxisLength(int humanId);
     // UnityEngine.Quaternion GetPostRotation(System.Int32 humanId)
-    // Offset: 0x1F3E54C
+    // Offset: 0x19CBC48
     UnityEngine::Quaternion GetPostRotation(int humanId);
     // System.Single Internal_GetAxisLength(System.Int32 humanId)
-    // Offset: 0x1F3E4FC
+    // Offset: 0x19CBBF8
     float Internal_GetAxisLength(int humanId);
     // UnityEngine.Quaternion Internal_GetPostRotation(System.Int32 humanId)
-    // Offset: 0x1F3E5A4
+    // Offset: 0x19CBCA0
     UnityEngine::Quaternion Internal_GetPostRotation(int humanId);
+    // private System.Void get_humanDescription_Injected(out UnityEngine.HumanDescription ret)
+    // Offset: 0x19CBB2C
+    void get_humanDescription_Injected(UnityEngine::HumanDescription& ret);
     // private System.Void Internal_GetPostRotation_Injected(System.Int32 humanId, out UnityEngine.Quaternion ret)
-    // Offset: 0x1F3E610
+    // Offset: 0x19CBD0C
     void Internal_GetPostRotation_Injected(int humanId, UnityEngine::Quaternion& ret);
     // private System.Void .ctor()
-    // Offset: 0x1F3E398
+    // Offset: 0x19CB9CC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()

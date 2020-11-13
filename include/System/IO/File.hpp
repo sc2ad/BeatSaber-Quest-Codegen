@@ -52,85 +52,85 @@ namespace System::IO {
     // Set static field: static private System.Nullable`1<System.DateTime> defaultLocalFileTime
     static void _set_defaultLocalFileTime(System::Nullable_1<System::DateTime> value);
     // static public System.IO.StreamWriter AppendText(System.String path)
-    // Offset: 0x144C00C
+    // Offset: 0x1436418
     static System::IO::StreamWriter* AppendText(::Il2CppString* path);
     // static public System.IO.FileStream Create(System.String path)
-    // Offset: 0x144C074
+    // Offset: 0x1436480
     static System::IO::FileStream* Create(::Il2CppString* path);
     // static public System.IO.FileStream Create(System.String path, System.Int32 bufferSize)
-    // Offset: 0x144C07C
+    // Offset: 0x1436488
     static System::IO::FileStream* Create(::Il2CppString* path, int bufferSize);
     // static public System.IO.StreamWriter CreateText(System.String path)
-    // Offset: 0x144C12C
+    // Offset: 0x1436538
     static System::IO::StreamWriter* CreateText(::Il2CppString* path);
     // static public System.Void Delete(System.String path)
-    // Offset: 0x144AC48
+    // Offset: 0x1435054
     static void Delete(::Il2CppString* path);
     // static public System.Boolean Exists(System.String path)
-    // Offset: 0x1449BB8
+    // Offset: 0x1433FC4
     static bool Exists(::Il2CppString* path);
     // static public System.IO.FileAttributes GetAttributes(System.String path)
-    // Offset: 0x144C224
+    // Offset: 0x1436630
     static System::IO::FileAttributes GetAttributes(::Il2CppString* path);
     // static public System.DateTime GetCreationTime(System.String path)
-    // Offset: 0x144C394
+    // Offset: 0x14367A0
     static System::DateTime GetCreationTime(::Il2CppString* path);
     // static public System.DateTime GetLastWriteTime(System.String path)
-    // Offset: 0x144C630
+    // Offset: 0x1436A3C
     static System::DateTime GetLastWriteTime(::Il2CppString* path);
     // static public System.IO.FileStream Open(System.String path, System.IO.FileMode mode)
-    // Offset: 0x144C76C
+    // Offset: 0x1436B78
     static System::IO::FileStream* Open(::Il2CppString* path, System::IO::FileMode mode);
     // static public System.IO.FileStream Open(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share)
-    // Offset: 0x144C82C
+    // Offset: 0x1436C38
     static System::IO::FileStream* Open(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share);
     // static public System.IO.FileStream OpenRead(System.String path)
-    // Offset: 0x144C8C8
+    // Offset: 0x1436CD4
     static System::IO::FileStream* OpenRead(::Il2CppString* path);
     // static public System.IO.StreamReader OpenText(System.String path)
-    // Offset: 0x144C948
+    // Offset: 0x1436D54
     static System::IO::StreamReader* OpenText(::Il2CppString* path);
     // static public System.Void Replace(System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName)
-    // Offset: 0x144C9AC
+    // Offset: 0x1436DB8
     static void Replace(::Il2CppString* sourceFileName, ::Il2CppString* destinationFileName, ::Il2CppString* destinationBackupFileName);
     // static public System.Void Replace(System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors)
-    // Offset: 0x144C9B4
+    // Offset: 0x1436DC0
     static void Replace(::Il2CppString* sourceFileName, ::Il2CppString* destinationFileName, ::Il2CppString* destinationBackupFileName, bool ignoreMetadataErrors);
     // static public System.Byte[] ReadAllBytes(System.String path)
-    // Offset: 0x144D0F8
+    // Offset: 0x1437504
     static ::Array<uint8_t>* ReadAllBytes(::Il2CppString* path);
     // static public System.String[] ReadAllLines(System.String path)
-    // Offset: 0x144D33C
+    // Offset: 0x1437748
     static ::Array<::Il2CppString*>* ReadAllLines(::Il2CppString* path);
     // static private System.String[] ReadAllLines(System.IO.StreamReader reader)
-    // Offset: 0x144D450
+    // Offset: 0x143785C
     static ::Array<::Il2CppString*>* ReadAllLines(System::IO::StreamReader* reader);
     // static public System.String ReadAllText(System.String path)
-    // Offset: 0x144D528
+    // Offset: 0x1437934
     static ::Il2CppString* ReadAllText(::Il2CppString* path);
     // static public System.Void WriteAllBytes(System.String path, System.Byte[] bytes)
-    // Offset: 0x144D664
+    // Offset: 0x1437A70
     static void WriteAllBytes(::Il2CppString* path, ::Array<uint8_t>* bytes);
     // static public System.Void WriteAllLines(System.String path, System.String[] contents)
-    // Offset: 0x144D79C
+    // Offset: 0x1437BA8
     static void WriteAllLines(::Il2CppString* path, ::Array<::Il2CppString*>* contents);
     // static private System.Void WriteAllLines(System.IO.StreamWriter writer, System.String[] contents)
-    // Offset: 0x144D8C4
+    // Offset: 0x1437CD0
     static void WriteAllLines(System::IO::StreamWriter* writer, ::Array<::Il2CppString*>* contents);
     // static public System.Void WriteAllText(System.String path, System.String contents)
-    // Offset: 0x144D94C
+    // Offset: 0x1437D58
     static void WriteAllText(::Il2CppString* path, ::Il2CppString* contents);
     // static public System.Void WriteAllText(System.String path, System.String contents, System.Text.Encoding encoding)
-    // Offset: 0x144D9CC
+    // Offset: 0x1437DD8
     static void WriteAllText(::Il2CppString* path, ::Il2CppString* contents, System::Text::Encoding* encoding);
     // static private System.DateTime get_DefaultLocalFileTime()
-    // Offset: 0x144C55C
+    // Offset: 0x1436968
     static System::DateTime get_DefaultLocalFileTime();
     // static public System.Void AppendAllLines(System.String path, System.Collections.Generic.IEnumerable`1<System.String> contents)
-    // Offset: 0x144DB10
+    // Offset: 0x1437F1C
     static void AppendAllLines(::Il2CppString* path, System::Collections::Generic::IEnumerable_1<::Il2CppString*>* contents);
     // static System.Int32 FillAttributeInfo(System.String path, ref System.IO.MonoIOStat data, System.Boolean tryagain, System.Boolean returnErrorOnNotFound)
-    // Offset: 0x144DE90
+    // Offset: 0x143829C
     static int FillAttributeInfo(::Il2CppString* path, System::IO::MonoIOStat& data, bool tryagain, bool returnErrorOnNotFound);
   }; // System.IO.File
 }

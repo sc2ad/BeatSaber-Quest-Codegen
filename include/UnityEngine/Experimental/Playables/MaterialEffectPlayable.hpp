@@ -36,12 +36,12 @@ namespace UnityEngine::Experimental::Playables {
       return m_Handle;
     }
     // public UnityEngine.Playables.PlayableHandle GetHandle()
-    // Offset: 0xC78378
+    // Offset: 0xCA5114
     // Implemented from: UnityEngine.Playables.IPlayable
     // Base method: UnityEngine.Playables.PlayableHandle IPlayable::GetHandle()
     UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Experimental.Playables.MaterialEffectPlayable other)
-    // Offset: 0xC78384
+    // Offset: 0xCA5120
     // Implemented from: System.IEquatable`1
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Experimental.Playables.MaterialEffectPlayable other)
     bool Equals(UnityEngine::Experimental::Playables::MaterialEffectPlayable other);

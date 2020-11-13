@@ -20,6 +20,15 @@ namespace GlobalNamespace {
   // Forward declaring type: EnvironmentSizeData
   class EnvironmentSizeData;
 }
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: List`1<T>
+  template<typename T>
+  class List_1;
+  // Forward declaring type: IReadOnlyList`1<T>
+  template<typename T>
+  class IReadOnlyList_1;
+}
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -44,28 +53,34 @@ namespace GlobalNamespace {
     // private EnvironmentSizeData _environmentSizeData
     // Offset: 0x40
     GlobalNamespace::EnvironmentSizeData* environmentSizeData;
+    // private System.Collections.Generic.List`1<System.String> _environmentKeywords
+    // Offset: 0x48
+    System::Collections::Generic::List_1<::Il2CppString*>* environmentKeywords;
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public SceneInfo get_sceneInfo()
-    // Offset: 0x201E038
+    // Offset: 0x1A0D420
     GlobalNamespace::SceneInfo* get_sceneInfo();
     // public System.String get_environmentName()
-    // Offset: 0x201E040
+    // Offset: 0x1A0D428
     ::Il2CppString* get_environmentName();
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0x201E048
+    // Offset: 0x1A0D430
     GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.String get_serializedName()
-    // Offset: 0x201E050
+    // Offset: 0x1A0D438
     ::Il2CppString* get_serializedName();
     // public EnvironmentTypeSO get_environmentType()
-    // Offset: 0x201E058
+    // Offset: 0x1A0D440
     GlobalNamespace::EnvironmentTypeSO* get_environmentType();
     // public EnvironmentSizeData get_environmentSizeData()
-    // Offset: 0x201E060
+    // Offset: 0x1A0D448
     GlobalNamespace::EnvironmentSizeData* get_environmentSizeData();
+    // public System.Collections.Generic.IReadOnlyList`1<System.String> get_environmentKeywords()
+    // Offset: 0x1A0D450
+    System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* get_environmentKeywords();
     // public System.Void .ctor()
-    // Offset: 0x201E068
+    // Offset: 0x1A0D458
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

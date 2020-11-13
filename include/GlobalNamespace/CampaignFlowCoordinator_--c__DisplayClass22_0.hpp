@@ -27,10 +27,10 @@ namespace GlobalNamespace {
     // Offset: 0x18
     GlobalNamespace::MissionResultsViewController* viewController;
     // System.Void <HandleMissionResultsViewControllerRetryButtonPressed>b__0()
-    // Offset: 0x1FAFF58
+    // Offset: 0x1A33624
     void $HandleMissionResultsViewControllerRetryButtonPressed$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1FAFB80
+    // Offset: 0x1A33260
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static CampaignFlowCoordinator::$$c__DisplayClass22_0* New_ctor();

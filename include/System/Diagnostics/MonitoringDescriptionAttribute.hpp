@@ -14,12 +14,12 @@ namespace System::Diagnostics {
   class MonitoringDescriptionAttribute : public System::ComponentModel::DescriptionAttribute {
     public:
     // public System.Void .ctor(System.String description)
-    // Offset: 0x14E5288
+    // Offset: 0x1484088
     // Implemented from: System.ComponentModel.DescriptionAttribute
     // Base method: System.Void DescriptionAttribute::.ctor(System.String description)
     static MonitoringDescriptionAttribute* New_ctor(::Il2CppString* description);
     // public override System.String get_Description()
-    // Offset: 0x14E530C
+    // Offset: 0x148410C
     // Implemented from: System.ComponentModel.DescriptionAttribute
     // Base method: System.String DescriptionAttribute::get_Description()
     ::Il2CppString* get_Description();

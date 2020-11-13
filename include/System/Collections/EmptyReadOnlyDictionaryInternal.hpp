@@ -35,17 +35,17 @@ namespace System::Collections {
       return *reinterpret_cast<System::Collections::IDictionary*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x13AC644
+    // Offset: 0x1CB5734
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EmptyReadOnlyDictionaryInternal* New_ctor();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x13AC64C
+    // Offset: 0x1CB573C
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x13AC6B0
+    // Offset: 0x1CB57A0
     // Implemented from: System.Collections.ICollection
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void CopyTo(System::Array* array, int index);
@@ -53,7 +53,7 @@ namespace System::Collections {
     // Maps to method: CopyTo
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // public System.Int32 get_Count()
-    // Offset: 0x13AC838
+    // Offset: 0x1CB5928
     // Implemented from: System.Collections.ICollection
     // Base method: System.Int32 ICollection::get_Count()
     int get_Count();
@@ -61,7 +61,7 @@ namespace System::Collections {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
     // public System.Object get_Item(System.Object key)
-    // Offset: 0x13AC840
+    // Offset: 0x1CB5930
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Object IDictionary::get_Item(System.Object key)
     ::Il2CppObject* get_Item(::Il2CppObject* key);
@@ -69,7 +69,7 @@ namespace System::Collections {
     // Maps to method: get_Item
     ::Il2CppObject* System_Collections_IDictionary_get_Item(::Il2CppObject* key);
     // public System.Void set_Item(System.Object key, System.Object value)
-    // Offset: 0x13AC8E0
+    // Offset: 0x1CB59D0
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Void IDictionary::set_Item(System.Object key, System.Object value)
     void set_Item(::Il2CppObject* key, ::Il2CppObject* value);
@@ -77,7 +77,7 @@ namespace System::Collections {
     // Maps to method: set_Item
     void System_Collections_IDictionary_set_Item(::Il2CppObject* key, ::Il2CppObject* value);
     // public System.Collections.ICollection get_Keys()
-    // Offset: 0x13ACA88
+    // Offset: 0x1CB5B78
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Collections.ICollection IDictionary::get_Keys()
     System::Collections::ICollection* get_Keys();
@@ -85,7 +85,7 @@ namespace System::Collections {
     // Maps to method: get_Keys
     System::Collections::ICollection* System_Collections_IDictionary_get_Keys();
     // public System.Boolean Contains(System.Object key)
-    // Offset: 0x13ACAF0
+    // Offset: 0x1CB5BE0
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Boolean IDictionary::Contains(System.Object key)
     bool Contains(::Il2CppObject* key);
@@ -93,7 +93,7 @@ namespace System::Collections {
     // Maps to method: Contains
     bool System_Collections_IDictionary_Contains(::Il2CppObject* key);
     // public System.Void Add(System.Object key, System.Object value)
-    // Offset: 0x13ACAF8
+    // Offset: 0x1CB5BE8
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Void IDictionary::Add(System.Object key, System.Object value)
     void Add(::Il2CppObject* key, ::Il2CppObject* value);
@@ -101,7 +101,7 @@ namespace System::Collections {
     // Maps to method: Add
     void System_Collections_IDictionary_Add(::Il2CppObject* key, ::Il2CppObject* value);
     // public System.Collections.IDictionaryEnumerator GetEnumerator()
-    // Offset: 0x13ACCA0
+    // Offset: 0x1CB5D90
     // Implemented from: System.Collections.IDictionary
     // Base method: System.Collections.IDictionaryEnumerator IDictionary::GetEnumerator()
     System::Collections::IDictionaryEnumerator* GetEnumerator();

@@ -48,43 +48,43 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1F958B0
+    // Offset: 0xF47778
     void add_decButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1F95954
+    // Offset: 0xF4781C
     void remove_decButtonWasPressedEvent(System::Action* value);
     // public System.Void add_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1F959F8
+    // Offset: 0xF478C0
     void add_incButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1F95A9C
+    // Offset: 0xF47964
     void remove_incButtonWasPressedEvent(System::Action* value);
     // public System.String get_text()
-    // Offset: 0x1F95B40
+    // Offset: 0xF47A08
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x1F95B5C
+    // Offset: 0xF47A24
     void set_text(::Il2CppString* value);
     // public System.Void set_decButtonInteractable(System.Boolean value)
-    // Offset: 0x1F95B78
+    // Offset: 0xF47A40
     void set_decButtonInteractable(bool value);
     // public System.Void set_incButtonInteractable(System.Boolean value)
-    // Offset: 0x1F95B98
+    // Offset: 0xF47A60
     void set_incButtonInteractable(bool value);
     // protected System.Void OnEnable()
-    // Offset: 0x1F95BB8
+    // Offset: 0xF47A80
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1F95C90
+    // Offset: 0xF47B58
     void OnDisable();
     // private System.Void IncButtonPressed()
-    // Offset: 0x1F95D68
+    // Offset: 0xF47C30
     void IncButtonPressed();
     // private System.Void DecButtonPressed()
-    // Offset: 0x1F95D7C
+    // Offset: 0xF47C44
     void DecButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x1F95D90
+    // Offset: 0xF47C58
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

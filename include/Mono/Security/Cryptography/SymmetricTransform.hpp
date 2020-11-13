@@ -65,82 +65,82 @@ namespace Mono::Security::Cryptography {
       return *reinterpret_cast<System::Security::Cryptography::ICryptoTransform*>(this);
     }
     // public System.Void .ctor(System.Security.Cryptography.SymmetricAlgorithm symmAlgo, System.Boolean encryption, System.Byte[] rgbIV)
-    // Offset: 0x164828C
+    // Offset: 0x15B7088
     static SymmetricTransform* New_ctor(System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::Array<uint8_t>* rgbIV);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1648678
+    // Offset: 0x15B7474
     void Dispose(bool disposing);
     // protected System.Void Transform(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1648714
+    // Offset: 0x15B7510
     void Transform(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // protected System.Void ECB(System.Byte[] input, System.Byte[] output)
     // Offset: 0xFFFFFFFF
     void ECB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // protected System.Void CBC(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x16488C8
+    // Offset: 0x15B76C4
     void CBC(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // protected System.Void CFB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1648A40
+    // Offset: 0x15B783C
     void CFB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // protected System.Void OFB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1648C1C
+    // Offset: 0x15B7A18
     void OFB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // protected System.Void CTS(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1648C88
+    // Offset: 0x15B7A84
     void CTS(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // private System.Void CheckInput(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1648CF4
+    // Offset: 0x15B7AF0
     void CheckInput(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
     // private System.Boolean get_KeepLastBlock()
-    // Offset: 0x1649064
+    // Offset: 0x15B7E60
     bool get_KeepLastBlock();
     // private System.Int32 InternalTransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
-    // Offset: 0x1649088
+    // Offset: 0x15B7E84
     int InternalTransformBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount, ::Array<uint8_t>* outputBuffer, int outputOffset);
     // private System.Void Random(System.Byte[] buffer, System.Int32 start, System.Int32 length)
-    // Offset: 0x1649268
+    // Offset: 0x15B8064
     void Random(::Array<uint8_t>* buffer, int start, int length);
     // private System.Void ThrowBadPaddingException(System.Security.Cryptography.PaddingMode padding, System.Int32 length, System.Int32 position)
-    // Offset: 0x1649334
+    // Offset: 0x15B8130
     void ThrowBadPaddingException(System::Security::Cryptography::PaddingMode padding, int length, int position);
     // protected System.Byte[] FinalEncrypt(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x16494A0
+    // Offset: 0x15B829C
     ::Array<uint8_t>* FinalEncrypt(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
     // protected System.Byte[] FinalDecrypt(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1649744
+    // Offset: 0x15B8540
     ::Array<uint8_t>* FinalDecrypt(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
     // protected override System.Void Finalize()
-    // Offset: 0x1648588
+    // Offset: 0x15B7384
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x16485FC
+    // Offset: 0x15B73F8
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // public System.Boolean get_CanTransformMultipleBlocks()
-    // Offset: 0x16486FC
+    // Offset: 0x15B74F8
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Boolean ICryptoTransform::get_CanTransformMultipleBlocks()
     bool get_CanTransformMultipleBlocks();
     // public System.Int32 get_InputBlockSize()
-    // Offset: 0x1648704
+    // Offset: 0x15B7500
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Int32 ICryptoTransform::get_InputBlockSize()
     int get_InputBlockSize();
     // public System.Int32 get_OutputBlockSize()
-    // Offset: 0x164870C
+    // Offset: 0x15B7508
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Int32 ICryptoTransform::get_OutputBlockSize()
     int get_OutputBlockSize();
     // public System.Int32 TransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
-    // Offset: 0x1648E4C
+    // Offset: 0x15B7C48
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Int32 ICryptoTransform::TransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
     int TransformBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount, ::Array<uint8_t>* outputBuffer, int outputOffset);
     // public System.Byte[] TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x16499F8
+    // Offset: 0x15B87F4
     // Implemented from: System.Security.Cryptography.ICryptoTransform
     // Base method: System.Byte[] ICryptoTransform::TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
     ::Array<uint8_t>* TransformFinalBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);

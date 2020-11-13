@@ -45,25 +45,25 @@ namespace UnityEngine {
     // Creating value type constructor for type: MinMaxCurve
     constexpr MinMaxCurve(UnityEngine::ParticleSystemCurveMode m_Mode_ = {}, float m_CurveMultiplier_ = {}, UnityEngine::AnimationCurve* m_CurveMin_ = {}, UnityEngine::AnimationCurve* m_CurveMax_ = {}, float m_ConstantMin_ = {}, float m_ConstantMax_ = {}) noexcept : m_Mode{m_Mode_}, m_CurveMultiplier{m_CurveMultiplier_}, m_CurveMin{m_CurveMin_}, m_CurveMax{m_CurveMax_}, m_ConstantMin{m_ConstantMin_}, m_ConstantMax{m_ConstantMax_} {}
     // public System.Void .ctor(System.Single min, System.Single max)
-    // Offset: 0xC8C2F0
+    // Offset: 0xCB9220
     MinMaxCurve(float min, float max);
     // public UnityEngine.ParticleSystemCurveMode get_mode()
-    // Offset: 0xC8C344
+    // Offset: 0xCB9274
     UnityEngine::ParticleSystemCurveMode get_mode();
     // public System.Void set_constantMax(System.Single value)
-    // Offset: 0xC8C34C
+    // Offset: 0xCB927C
     void set_constantMax(float value);
     // public System.Void set_constantMin(System.Single value)
-    // Offset: 0xC8C354
+    // Offset: 0xCB9284
     void set_constantMin(float value);
     // public System.Single get_constant()
-    // Offset: 0xC8C35C
+    // Offset: 0xCB928C
     float get_constant();
     // public System.Single Evaluate(System.Single time)
-    // Offset: 0xC8C364
+    // Offset: 0xCB9294
     float Evaluate(float time);
     // public System.Single Evaluate(System.Single time, System.Single lerpFactor)
-    // Offset: 0xC8C370
+    // Offset: 0xCB92A0
     float Evaluate(float time, float lerpFactor);
   }; // UnityEngine.ParticleSystem/MinMaxCurve
 }

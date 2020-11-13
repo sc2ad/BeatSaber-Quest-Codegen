@@ -58,100 +58,100 @@ namespace System::Security::Cryptography::X509Certificates {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // System.Void .ctor(System.Byte[] data, System.Boolean dates)
-    // Offset: 0x120A060
+    // Offset: 0x127F118
     static X509Certificate* New_ctor(::Array<uint8_t>* data, bool dates);
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x120A0C4
+    // Offset: 0x127F17C
     static X509Certificate* New_ctor(::Array<uint8_t>* data);
     // System.Void .ctor(System.Security.Cryptography.X509Certificates.X509CertificateImpl impl)
-    // Offset: 0x120A0CC
+    // Offset: 0x127F184
     static X509Certificate* New_ctor(System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl);
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.X509Certificate cert)
-    // Offset: 0x120A258
+    // Offset: 0x127F310
     static X509Certificate* New_ctor(System::Security::Cryptography::X509Certificates::X509Certificate* cert);
     // System.Void ImportHandle(System.Security.Cryptography.X509Certificates.X509CertificateImpl impl)
-    // Offset: 0x120A3EC
+    // Offset: 0x127F4A4
     void ImportHandle(System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl);
     // System.Security.Cryptography.X509Certificates.X509CertificateImpl get_Impl()
-    // Offset: 0x120A42C
+    // Offset: 0x127F4E4
     System::Security::Cryptography::X509Certificates::X509CertificateImpl* get_Impl();
     // System.Boolean get_IsValid()
-    // Offset: 0x120A4C0
+    // Offset: 0x127F578
     bool get_IsValid();
     // public System.Boolean Equals(System.Security.Cryptography.X509Certificates.X509Certificate other)
-    // Offset: 0x120A4EC
+    // Offset: 0x127F5A4
     bool Equals(System::Security::Cryptography::X509Certificates::X509Certificate* other);
     // public System.Byte[] GetCertHash()
-    // Offset: 0x120A5E4
+    // Offset: 0x127F69C
     ::Array<uint8_t>* GetCertHash();
     // public System.String GetCertHashString()
-    // Offset: 0x120A668
+    // Offset: 0x127F720
     ::Il2CppString* GetCertHashString();
     // public System.Byte[] GetRawCertData()
-    // Offset: 0x120A7E4
+    // Offset: 0x127F89C
     ::Array<uint8_t>* GetRawCertData();
     // public System.Byte[] GetSerialNumber()
-    // Offset: 0x120A81C
+    // Offset: 0x127F8D4
     ::Array<uint8_t>* GetSerialNumber();
     // public System.String GetSerialNumberString()
-    // Offset: 0x120A858
+    // Offset: 0x127F910
     ::Il2CppString* GetSerialNumberString();
     // public System.String ToString(System.Boolean fVerbose)
-    // Offset: 0x120A8C8
+    // Offset: 0x127F980
     ::Il2CppString* ToString(bool fVerbose);
     // public System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x120A938
+    // Offset: 0x127F9F0
     static X509Certificate* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.String get_Issuer()
-    // Offset: 0x120AA38
+    // Offset: 0x127FAF0
     ::Il2CppString* get_Issuer();
     // public System.String get_Subject()
-    // Offset: 0x120AA98
+    // Offset: 0x127FB50
     ::Il2CppString* get_Subject();
     // public System.Void Import(System.Byte[] rawData, System.String password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags)
-    // Offset: 0x120ABA0
+    // Offset: 0x127FC58
     void Import(::Array<uint8_t>* rawData, ::Il2CppString* password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
     // public System.Void Import(System.String fileName, System.String password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags)
-    // Offset: 0x120AD30
+    // Offset: 0x127FDE8
     void Import(::Il2CppString* fileName, ::Il2CppString* password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x120AE64
+    // Offset: 0x127FF1C
     void Dispose(bool disposing);
     // public System.Void Reset()
-    // Offset: 0x120AE7C
+    // Offset: 0x127FF34
     void Reset();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x120A78C
+    // Offset: 0x127F844
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x120A8C0
+    // Offset: 0x127F978
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0x120A930
+    // Offset: 0x127F9E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static X509Certificate* New_ctor();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x120AAF8
+    // Offset: 0x127FBB0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // private System.Void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object sender)
-    // Offset: 0x120AD84
+    // Offset: 0x127FE3C
     // Implemented from: System.Runtime.Serialization.IDeserializationCallback
     // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x120AD88
+    // Offset: 0x127FE40
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Void Dispose()
-    // Offset: 0x120AE50
+    // Offset: 0x127FF08
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose();

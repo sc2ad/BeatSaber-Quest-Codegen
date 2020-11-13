@@ -32,16 +32,16 @@ namespace System {
       return LocalTimeZone;
     }
     // static public System.Boolean GetTimeZoneData(System.Int32 year, out System.Int64[] data, out System.String[] names, out System.Boolean daylight_inverted)
-    // Offset: 0x159F720
+    // Offset: 0x153CF90
     static bool GetTimeZoneData(int year, ::Array<int64_t>*& data, ::Array<::Il2CppString*>*& names, bool& daylight_inverted);
     // System.Void .ctor()
-    // Offset: 0x159F5D0
+    // Offset: 0x153CE40
     // Implemented from: System.TimeZone
     // Base method: System.Void TimeZone::.ctor()
     // Base method: System.Void Object::.ctor()
     static CurrentSystemTimeZone* New_ctor();
     // public override System.TimeSpan GetUtcOffset(System.DateTime dateTime)
-    // Offset: 0x159F650
+    // Offset: 0x153CEC0
     // Implemented from: System.TimeZone
     // Base method: System.TimeSpan TimeZone::GetUtcOffset(System.DateTime dateTime)
     System::TimeSpan GetUtcOffset(System::DateTime dateTime);

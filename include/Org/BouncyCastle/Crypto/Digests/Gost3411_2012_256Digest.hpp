@@ -24,35 +24,35 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Set static field: static private readonly System.Byte[] IV
     static void _set_IV(::Array<uint8_t>* value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.Gost3411_2012_256Digest other)
-    // Offset: 0x18A1F9C
+    // Offset: 0x175FB9C
     static Gost3411_2012_256Digest* New_ctor(Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest* other);
     // public override System.String get_AlgorithmName()
-    // Offset: 0x18A1EBC
+    // Offset: 0x175FABC
     // Implemented from: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
     // Base method: System.String Gost3411_2012Digest::get_AlgorithmName()
     ::Il2CppString* get_AlgorithmName();
     // public System.Void .ctor()
-    // Offset: 0x18A1F04
+    // Offset: 0x175FB04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Gost3411_2012_256Digest* New_ctor();
     // public override System.Int32 GetDigestSize()
-    // Offset: 0x18A204C
+    // Offset: 0x175FC4C
     // Implemented from: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
     // Base method: System.Int32 Gost3411_2012Digest::GetDigestSize()
     int GetDigestSize();
     // public override System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x18A2054
+    // Offset: 0x175FC54
     // Implemented from: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
     // Base method: System.Int32 Gost3411_2012Digest::DoFinal(System.Byte[] output, System.Int32 outOff)
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public override Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x18A20EC
+    // Offset: 0x175FCEC
     // Implemented from: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
     // Base method: Org.BouncyCastle.Utilities.IMemoable Gost3411_2012Digest::Copy()
     Org::BouncyCastle::Utilities::IMemoable* Copy();
     // static private System.Void .cctor()
-    // Offset: 0x18A214C
+    // Offset: 0x175FD4C
     // Implemented from: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
     // Base method: System.Void Gost3411_2012Digest::.cctor()
     static void _cctor();

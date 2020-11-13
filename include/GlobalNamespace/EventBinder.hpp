@@ -32,13 +32,13 @@ namespace GlobalNamespace {
       return unsubscribes;
     }
     // public System.Void Bind(System.Action subscribe, System.Action unsubscribe)
-    // Offset: 0x210CE58
+    // Offset: 0x102EDD4
     void Bind(System::Action* subscribe, System::Action* unsubscribe);
     // public System.Void ClearAllBindings()
-    // Offset: 0x210CED4
+    // Offset: 0x102EE50
     void ClearAllBindings();
     // public System.Void .ctor()
-    // Offset: 0x210CFE4
+    // Offset: 0x102EF60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EventBinder* New_ctor();

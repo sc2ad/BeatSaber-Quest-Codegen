@@ -20,7 +20,7 @@ namespace UnityEngine {
     // Offset: 0x14
     int maxLines;
     // public System.Void .ctor(System.Int32 minLines, System.Int32 maxLines)
-    // Offset: 0x17385D4
+    // Offset: 0x16C33D4
     static TextAreaAttribute* New_ctor(int minLines, int maxLines);
   }; // UnityEngine.TextAreaAttribute
 }

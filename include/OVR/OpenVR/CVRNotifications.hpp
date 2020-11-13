@@ -39,13 +39,13 @@ namespace OVR::OpenVR {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x1154B44
+    // Offset: 0x11F5804
     static CVRNotifications* New_ctor(System::IntPtr pInterface);
     // public OVR.OpenVR.EVRNotificationError CreateNotification(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, OVR.OpenVR.EVRNotificationType type, System.String pchText, OVR.OpenVR.EVRNotificationStyle style, ref OVR.OpenVR.NotificationBitmap_t pImage, ref System.UInt32 pNotificationId)
-    // Offset: 0x1154C4C
+    // Offset: 0x11F590C
     OVR::OpenVR::EVRNotificationError CreateNotification(uint64_t ulOverlayHandle, uint64_t ulUserValue, OVR::OpenVR::EVRNotificationType type, ::Il2CppString* pchText, OVR::OpenVR::EVRNotificationStyle style, OVR::OpenVR::NotificationBitmap_t& pImage, uint& pNotificationId);
     // public OVR.OpenVR.EVRNotificationError RemoveNotification(System.UInt32 notificationId)
-    // Offset: 0x1154C70
+    // Offset: 0x11F5930
     OVR::OpenVR::EVRNotificationError RemoveNotification(uint notificationId);
   }; // OVR.OpenVR.CVRNotifications
 }

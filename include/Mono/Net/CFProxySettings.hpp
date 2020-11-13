@@ -52,13 +52,13 @@ namespace Mono::Net {
     // Set static field: static private System.IntPtr kCFNetworkProxiesProxyAutoConfigURLString
     static void _set_kCFNetworkProxiesProxyAutoConfigURLString(System::IntPtr value);
     // static private System.Void .cctor()
-    // Offset: 0x11EE724
+    // Offset: 0x12637DC
     static void _cctor();
     // public System.Void .ctor(Mono.Net.CFDictionary settings)
-    // Offset: 0x11EC9D0
+    // Offset: 0x1261A88
     static CFProxySettings* New_ctor(Mono::Net::CFDictionary* settings);
     // public Mono.Net.CFDictionary get_Dictionary()
-    // Offset: 0x11EE840
+    // Offset: 0x12638F8
     Mono::Net::CFDictionary* get_Dictionary();
   }; // Mono.Net.CFProxySettings
 }

@@ -34,7 +34,7 @@ namespace System::Net {
     // Offset: 0x28
     bool AllowMultiValues;
     // System.Void .ctor(System.String name, System.Boolean requestRestricted, System.Boolean responseRestricted, System.Boolean multi, System.Net.HeaderParser p)
-    // Offset: 0x12327C0
+    // Offset: 0x12A7878
     static HeaderInfo* New_ctor(::Il2CppString* name, bool requestRestricted, bool responseRestricted, bool multi, System::Net::HeaderParser* p);
   }; // System.Net.HeaderInfo
 }

@@ -67,55 +67,55 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static System.Diagnostics.Tracing.DataCollector ThreadInstance
     static void _set_ThreadInstance(System::Diagnostics::Tracing::DataCollector value);
     // System.Void Enable(System.Byte* scratch, System.Int32 scratchSize, System.Diagnostics.Tracing.EventSource/EventData* datas, System.Int32 dataCount, System.Runtime.InteropServices.GCHandle* pins, System.Int32 pinCount)
-    // Offset: 0xC6AD40
+    // Offset: 0xC9B704
     void Enable(uint8_t* scratch, int scratchSize, System::Diagnostics::Tracing::EventSource::EventData* datas, int dataCount, System::Runtime::InteropServices::GCHandle* pins, int pinCount);
     // System.Void Disable()
-    // Offset: 0xC6AD64
+    // Offset: 0xC9B728
     void Disable();
     // System.Diagnostics.Tracing.EventSource/EventData* Finish()
-    // Offset: 0xC6AD74
+    // Offset: 0xC9B738
     System::Diagnostics::Tracing::EventSource::EventData* Finish();
     // System.Void AddScalar(System.Void* value, System.Int32 size)
-    // Offset: 0xC6AD9C
+    // Offset: 0xC9B760
     void AddScalar(void* value, int size);
     // System.Void AddBinary(System.String value, System.Int32 size)
-    // Offset: 0xC6ADA4
+    // Offset: 0xC9B768
     void AddBinary(::Il2CppString* value, int size);
     // System.Void AddBinary(System.Array value, System.Int32 size)
-    // Offset: 0xC6ADAC
+    // Offset: 0xC9B770
     void AddBinary(System::Array* value, int size);
     // System.Void AddArray(System.Array value, System.Int32 length, System.Int32 itemSize)
-    // Offset: 0xC6ADB8
+    // Offset: 0xC9B77C
     void AddArray(System::Array* value, int length, int itemSize);
     // System.Int32 BeginBufferedArray()
-    // Offset: 0xC6ADC0
+    // Offset: 0xC9B784
     int BeginBufferedArray();
     // System.Void EndBufferedArray(System.Int32 bookmark, System.Int32 count)
-    // Offset: 0xC6ADFC
+    // Offset: 0xC9B7C0
     void EndBufferedArray(int bookmark, int count);
     // System.Void BeginBuffered()
-    // Offset: 0xC6AE04
+    // Offset: 0xC9B7C8
     void BeginBuffered();
     // System.Void EndBuffered()
-    // Offset: 0xC6AE34
+    // Offset: 0xC9B7F8
     void EndBuffered();
     // private System.Void EnsureBuffer()
-    // Offset: 0xC6AE3C
+    // Offset: 0xC9B800
     void EnsureBuffer();
     // private System.Void EnsureBuffer(System.Int32 additionalSize)
-    // Offset: 0xC6AE60
+    // Offset: 0xC9B824
     void EnsureBuffer(int additionalSize);
     // private System.Void GrowBuffer(System.Int32 required)
-    // Offset: 0xC6AE88
+    // Offset: 0xC9B84C
     void GrowBuffer(int required);
     // private System.Void PinArray(System.Object value, System.Int32 size)
-    // Offset: 0xC6AE90
+    // Offset: 0xC9B854
     void PinArray(::Il2CppObject* value, int size);
     // private System.Void ScalarsBegin()
-    // Offset: 0xC6AE98
+    // Offset: 0xC9B85C
     void ScalarsBegin();
     // private System.Void ScalarsEnd()
-    // Offset: 0xC6AEA0
+    // Offset: 0xC9B864
     void ScalarsEnd();
   }; // System.Diagnostics.Tracing.DataCollector
 }

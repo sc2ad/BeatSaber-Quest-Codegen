@@ -27,13 +27,13 @@ namespace GlobalNamespace {
       return password;
     }
     // public System.Void .ctor(System.Byte[] password)
-    // Offset: 0x21FFEA8
+    // Offset: 0x1E5A29C
     static X509CertificateUtility::PasswordFinder* New_ctor(::Array<uint8_t>* password);
     // public System.Void .ctor(System.String password)
-    // Offset: 0x21FEDB0
+    // Offset: 0x1E58D34
     static X509CertificateUtility::PasswordFinder* New_ctor(::Il2CppString* password);
     // public System.Char[] GetPassword()
-    // Offset: 0x21FFF80
+    // Offset: 0x1E5A374
     // Implemented from: Org.BouncyCastle.OpenSsl.IPasswordFinder
     // Base method: System.Char[] IPasswordFinder::GetPassword()
     ::Array<::Il2CppChar>* GetPassword();

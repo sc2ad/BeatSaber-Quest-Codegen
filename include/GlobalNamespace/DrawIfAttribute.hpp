@@ -61,10 +61,10 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::DrawIfAttribute::DisablingType disablingType;
     // public System.Void .ctor(System.String propertyName, System.Object value, DrawIfAttribute/DisablingType disablingType)
-    // Offset: 0x210B2CC
+    // Offset: 0x102D248
     static DrawIfAttribute* New_ctor(::Il2CppString* propertyName, ::Il2CppObject* value, GlobalNamespace::DrawIfAttribute::DisablingType disablingType);
     // public System.Void .ctor(System.String propertyName, System.Object value, System.Object orValue, DrawIfAttribute/DisablingType disablingType)
-    // Offset: 0x210B328
+    // Offset: 0x102D2A4
     static DrawIfAttribute* New_ctor(::Il2CppString* propertyName, ::Il2CppObject* value, ::Il2CppObject* orValue, GlobalNamespace::DrawIfAttribute::DisablingType disablingType);
   }; // DrawIfAttribute
 }

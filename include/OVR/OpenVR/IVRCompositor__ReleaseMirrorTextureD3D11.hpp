@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRCompositor::_ReleaseMirrorTextureD3D11 : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AAE8B0
+    // Offset: 0x185DDE8
     static IVRCompositor::_ReleaseMirrorTextureD3D11* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.IntPtr pD3D11ShaderResourceView)
-    // Offset: 0x1AAE8C4
+    // Offset: 0x185DDFC
     void Invoke(System::IntPtr pD3D11ShaderResourceView);
     // public System.IAsyncResult BeginInvoke(System.IntPtr pD3D11ShaderResourceView, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AAEB24
+    // Offset: 0x185E05C
     System::IAsyncResult* BeginInvoke(System::IntPtr pD3D11ShaderResourceView, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1AAEBB0
+    // Offset: 0x185E0E8
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRCompositor/_ReleaseMirrorTextureD3D11
 }

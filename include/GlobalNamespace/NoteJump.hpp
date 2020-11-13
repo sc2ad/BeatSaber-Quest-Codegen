@@ -142,55 +142,55 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kMissedTimeOffset
     static void _set_kMissedTimeOffset(float value);
     // public System.Void add_noteJumpDidFinishEvent(System.Action value)
-    // Offset: 0x20F8040
+    // Offset: 0xFE6D94
     void add_noteJumpDidFinishEvent(System::Action* value);
     // public System.Void remove_noteJumpDidFinishEvent(System.Action value)
-    // Offset: 0x20F80E4
+    // Offset: 0xFE6E38
     void remove_noteJumpDidFinishEvent(System::Action* value);
     // public System.Void add_noteJumpDidPassMissedMarkerEvent(System.Action value)
-    // Offset: 0x20F8188
+    // Offset: 0xFE6EDC
     void add_noteJumpDidPassMissedMarkerEvent(System::Action* value);
     // public System.Void remove_noteJumpDidPassMissedMarkerEvent(System.Action value)
-    // Offset: 0x20F822C
+    // Offset: 0xFE6F80
     void remove_noteJumpDidPassMissedMarkerEvent(System::Action* value);
     // public System.Void add_noteJumpDidPassThreeQuartersEvent(System.Action`1<NoteJump> value)
-    // Offset: 0x20F82D0
+    // Offset: 0xFE7024
     void add_noteJumpDidPassThreeQuartersEvent(System::Action_1<GlobalNamespace::NoteJump*>* value);
     // public System.Void remove_noteJumpDidPassThreeQuartersEvent(System.Action`1<NoteJump> value)
-    // Offset: 0x20F8374
+    // Offset: 0xFE70C8
     void remove_noteJumpDidPassThreeQuartersEvent(System::Action_1<GlobalNamespace::NoteJump*>* value);
     // public System.Void add_noteJumpDidPassHalfEvent(System.Action value)
-    // Offset: 0x20F8418
+    // Offset: 0xFE716C
     void add_noteJumpDidPassHalfEvent(System::Action* value);
     // public System.Void remove_noteJumpDidPassHalfEvent(System.Action value)
-    // Offset: 0x20F84BC
+    // Offset: 0xFE7210
     void remove_noteJumpDidPassHalfEvent(System::Action* value);
     // public System.Void add_noteJumpDidUpdateProgressEvent(System.Action`1<System.Single> value)
-    // Offset: 0x20F8560
+    // Offset: 0xFE72B4
     void add_noteJumpDidUpdateProgressEvent(System::Action_1<float>* value);
     // public System.Void remove_noteJumpDidUpdateProgressEvent(System.Action`1<System.Single> value)
-    // Offset: 0x20F8604
+    // Offset: 0xFE7358
     void remove_noteJumpDidUpdateProgressEvent(System::Action_1<float>* value);
     // public System.Single get_distanceToPlayer()
-    // Offset: 0x20F86A8
+    // Offset: 0xFE73FC
     float get_distanceToPlayer();
     // public UnityEngine.Vector3 get_beatPos()
-    // Offset: 0x20F879C
+    // Offset: 0xFE74F0
     UnityEngine::Vector3 get_beatPos();
     // public System.Single get_jumpDuration()
-    // Offset: 0x20F8848
+    // Offset: 0xFE759C
     float get_jumpDuration();
     // public UnityEngine.Vector3 get_moveVec()
-    // Offset: 0x20F8850
+    // Offset: 0xFE75A4
     UnityEngine::Vector3 get_moveVec();
     // public System.Void Init(System.Single beatTime, System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Single jumpDuration, System.Single gravity, System.Single flipYSide, System.Single endRotation)
-    // Offset: 0x20F885C
+    // Offset: 0xFE75B0
     void Init(float beatTime, float worldRotation, UnityEngine::Vector3 startPos, UnityEngine::Vector3 endPos, float jumpDuration, float gravity, float flipYSide, float endRotation);
     // public UnityEngine.Vector3 ManualUpdate()
-    // Offset: 0x20F8B64
+    // Offset: 0xFE78B8
     UnityEngine::Vector3 ManualUpdate();
     // public System.Void .ctor()
-    // Offset: 0x20F9258
+    // Offset: 0xFE7FAC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

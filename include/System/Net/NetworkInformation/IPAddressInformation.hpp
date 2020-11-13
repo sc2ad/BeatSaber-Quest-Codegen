@@ -22,7 +22,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0xFFFFFFFF
     System::Net::IPAddress* get_Address();
     // protected System.Void .ctor()
-    // Offset: 0x10C422C
+    // Offset: 0x1199B5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static IPAddressInformation* New_ctor();

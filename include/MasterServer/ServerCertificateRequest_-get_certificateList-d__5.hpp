@@ -47,15 +47,15 @@ namespace MasterServer {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Array<uint8_t>*>*>(this);
     }
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x2128984
+    // Offset: 0x1ADF680
     static ServerCertificateRequest::$get_certificateList$d__5* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x2129430
+    // Offset: 0x1AE012C
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x2129434
+    // Offset: 0x1AE0130
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -63,27 +63,27 @@ namespace MasterServer {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Byte[] System.Collections.Generic.IEnumerator<System.Byte[]>.get_Current()
-    // Offset: 0x21294EC
+    // Offset: 0x1AE01E8
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     ::Array<uint8_t>* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x21294F4
+    // Offset: 0x1AE01F0
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x2129554
+    // Offset: 0x1AE0250
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // private System.Collections.Generic.IEnumerator`1<System.Byte[]> System.Collections.Generic.IEnumerable<System.Byte[]>.GetEnumerator()
-    // Offset: 0x212955C
+    // Offset: 0x1AE0258
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<::Array<uint8_t>*>* System_Collections_Generic_IEnumerable_1_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x2129610
+    // Offset: 0x1AE030C
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

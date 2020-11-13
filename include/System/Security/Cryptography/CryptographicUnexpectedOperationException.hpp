@@ -23,7 +23,7 @@ namespace System::Security::Cryptography {
   class CryptographicUnexpectedOperationException : public System::Security::Cryptography::CryptographicException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1772C70
+    // Offset: 0x1693164
     // Implemented from: System.Security.Cryptography.CryptographicException
     // Base method: System.Void CryptographicException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -31,14 +31,14 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     static CryptographicUnexpectedOperationException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1772CA0
+    // Offset: 0x1693194
     // Implemented from: System.Security.Cryptography.CryptographicException
     // Base method: System.Void CryptographicException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     static CryptographicUnexpectedOperationException* New_ctor(::Il2CppString* message);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1772CEC
+    // Offset: 0x16931E0
     // Implemented from: System.Security.Cryptography.CryptographicException
     // Base method: System.Void CryptographicException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)

@@ -24,19 +24,19 @@ namespace UnityEngine {
     // Creating value type constructor for type: Ray2D
     constexpr Ray2D(UnityEngine::Vector2 m_Origin_ = {}, UnityEngine::Vector2 m_Direction_ = {}) noexcept : m_Origin{m_Origin_}, m_Direction{m_Direction_} {}
     // public System.Void .ctor(UnityEngine.Vector2 origin, UnityEngine.Vector2 direction)
-    // Offset: 0xC7BEB4
+    // Offset: 0xCA76CC
     // ABORTED: conflicts with another method.  Ray2D(UnityEngine::Vector2 origin, UnityEngine::Vector2 direction);
     // public UnityEngine.Vector2 get_origin()
-    // Offset: 0xC7BEE8
+    // Offset: 0xCA7700
     UnityEngine::Vector2 get_origin();
     // public UnityEngine.Vector2 get_direction()
-    // Offset: 0xC7BEF0
+    // Offset: 0xCA7708
     UnityEngine::Vector2 get_direction();
     // public UnityEngine.Vector2 GetPoint(System.Single distance)
-    // Offset: 0xC7BEF8
+    // Offset: 0xCA7710
     UnityEngine::Vector2 GetPoint(float distance);
     // public override System.String ToString()
-    // Offset: 0xC7BF00
+    // Offset: 0xCA7718
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();

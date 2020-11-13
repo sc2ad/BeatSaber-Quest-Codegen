@@ -38,10 +38,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     ::Il2CppString* referencePlayerId;
     // System.Void <GetScores>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.LeaderboardEntryList> message)
-    // Offset: 0x1F8291C
+    // Offset: 0x1012320
     void $GetScores$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::LeaderboardEntryList*>* message);
     // public System.Void .ctor()
-    // Offset: 0x1F826E4
+    // Offset: 0x10120E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusPlatformLeaderboardsHandler::$$c__DisplayClass5_0* New_ctor();

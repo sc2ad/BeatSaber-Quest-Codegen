@@ -73,52 +73,52 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kSmoothDownBladeSpeedCoef
     static void _set_kSmoothDownBladeSpeedCoef(float value);
     // public System.Void AddDataProcessor(ISaberMovementDataProcessor dataProcessor)
-    // Offset: 0x207800C
+    // Offset: 0xFC14EC
     void AddDataProcessor(GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
     // public System.Void RemoveDataProcessor(ISaberMovementDataProcessor dataProcessor)
-    // Offset: 0x20780A4
+    // Offset: 0xFC1584
     void RemoveDataProcessor(GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
     // public System.Void RequestLastDataProcessing(ISaberMovementDataProcessor dataProcessor)
-    // Offset: 0x207810C
+    // Offset: 0xFC15EC
     void RequestLastDataProcessing(GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
     // public System.Void AddNewData(UnityEngine.Vector3 topPos, UnityEngine.Vector3 bottomPos, System.Single time)
-    // Offset: 0x2072700
+    // Offset: 0xFC1790
     void AddNewData(UnityEngine::Vector3 topPos, UnityEngine::Vector3 bottomPos, float time);
     // private System.Void ComputeAdditionalData(UnityEngine.Vector3 topPos, UnityEngine.Vector3 bottomPos, System.Int32 idxOffset, out UnityEngine.Vector3 segmentNormal, out System.Single segmentAngle)
-    // Offset: 0x20782B0
+    // Offset: 0xFC1D40
     void ComputeAdditionalData(UnityEngine::Vector3 topPos, UnityEngine::Vector3 bottomPos, int idxOffset, UnityEngine::Vector3& segmentNormal, float& segmentAngle);
     // private UnityEngine.Vector3 ComputePlaneNormal(UnityEngine.Vector3 tp0, UnityEngine.Vector3 bp0, UnityEngine.Vector3 tp1, UnityEngine.Vector3 bp1)
-    // Offset: 0x2078498
+    // Offset: 0xFC1F28
     UnityEngine::Vector3 ComputePlaneNormal(UnityEngine::Vector3 tp0, UnityEngine::Vector3 bp0, UnityEngine::Vector3 tp1, UnityEngine::Vector3 bp1);
     // public UnityEngine.Vector3 ComputeCutPlaneNormal()
-    // Offset: 0x20785FC
+    // Offset: 0xFC208C
     UnityEngine::Vector3 ComputeCutPlaneNormal();
     // public System.Single ComputeSwingRating(System.Single overrideSegmentAngle)
-    // Offset: 0x20786A8
+    // Offset: 0xFC2138
     float ComputeSwingRating(float overrideSegmentAngle);
     // public System.Single ComputeSwingRating()
-    // Offset: 0x20788D8
+    // Offset: 0xFC2368
     float ComputeSwingRating();
     // private System.Single ComputeSwingRating(System.Boolean overrideSegmenAngle, System.Single overrideValue)
-    // Offset: 0x20786B0
+    // Offset: 0xFC2140
     float ComputeSwingRating(bool overrideSegmenAngle, float overrideValue);
     // public System.Single get_bladeSpeed()
-    // Offset: 0x2077F9C
+    // Offset: 0xFC13D8
     // Implemented from: IBladeMovementData
     // Base method: System.Single IBladeMovementData::get_bladeSpeed()
     float get_bladeSpeed();
     // public BladeMovementDataElement get_lastAddedData()
-    // Offset: 0x2076CE0
+    // Offset: 0xFC0028
     // Implemented from: IBladeMovementData
     // Base method: BladeMovementDataElement IBladeMovementData::get_lastAddedData()
     GlobalNamespace::BladeMovementDataElement get_lastAddedData();
     // public BladeMovementDataElement get_prevAddedData()
-    // Offset: 0x2077FA4
+    // Offset: 0xFC13E0
     // Implemented from: IBladeMovementData
     // Base method: BladeMovementDataElement IBladeMovementData::get_prevAddedData()
     GlobalNamespace::BladeMovementDataElement get_prevAddedData();
     // public System.Void .ctor()
-    // Offset: 0x20733BC
+    // Offset: 0xFC1448
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SaberMovementData* New_ctor();

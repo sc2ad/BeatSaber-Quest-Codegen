@@ -86,36 +86,36 @@ namespace UnityEngine::Timeline {
     // Offset: 0xA8
     UnityEngine::Timeline::ActivationMixerPlayable* m_ActivationMixer;
     // public UnityEngine.Timeline.ActivationTrack/PostPlaybackState get_postPlaybackState()
-    // Offset: 0x13E9E0C
+    // Offset: 0x14100E0
     UnityEngine::Timeline::ActivationTrack::PostPlaybackState get_postPlaybackState();
     // public System.Void set_postPlaybackState(UnityEngine.Timeline.ActivationTrack/PostPlaybackState value)
-    // Offset: 0x13E9E14
+    // Offset: 0x14100E8
     void set_postPlaybackState(UnityEngine::Timeline::ActivationTrack::PostPlaybackState value);
     // System.Void UpdateTrackMode()
-    // Offset: 0x13E9E28
+    // Offset: 0x14100FC
     void UpdateTrackMode();
     // override System.Boolean CanCompileClips()
-    // Offset: 0x13E9DCC
+    // Offset: 0x14100A0
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Boolean TrackAsset::CanCompileClips()
     bool CanCompileClips();
     // public override UnityEngine.Playables.Playable CreateTrackMixer(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go, System.Int32 inputCount)
-    // Offset: 0x13E9E3C
+    // Offset: 0x1410110
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: UnityEngine.Playables.Playable TrackAsset::CreateTrackMixer(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go, System.Int32 inputCount)
     UnityEngine::Playables::Playable CreateTrackMixer(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go, int inputCount);
     // public override System.Void GatherProperties(UnityEngine.Playables.PlayableDirector director, UnityEngine.Timeline.IPropertyCollector driver)
-    // Offset: 0x13E9F2C
+    // Offset: 0x1410200
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Void TrackAsset::GatherProperties(UnityEngine.Playables.PlayableDirector director, UnityEngine.Timeline.IPropertyCollector driver)
     void GatherProperties(UnityEngine::Playables::PlayableDirector* director, UnityEngine::Timeline::IPropertyCollector* driver);
     // protected override System.Void OnCreateClip(UnityEngine.Timeline.TimelineClip clip)
-    // Offset: 0x13EA05C
+    // Offset: 0x1410330
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Void TrackAsset::OnCreateClip(UnityEngine.Timeline.TimelineClip clip)
     void OnCreateClip(UnityEngine::Timeline::TimelineClip* clip);
     // public System.Void .ctor()
-    // Offset: 0x13EA0D4
+    // Offset: 0x14103A8
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Void TrackAsset::.ctor()
     // Base method: System.Void PlayableAsset::.ctor()

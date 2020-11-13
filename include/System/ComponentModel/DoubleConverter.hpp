@@ -14,7 +14,7 @@ namespace System::ComponentModel {
   class DoubleConverter : public System::ComponentModel::BaseNumberConverter {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14E2BC0
+    // Offset: 0x14819C0
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Void BaseNumberConverter::.ctor()
     // Base method: System.Void TypeConverter::.ctor()

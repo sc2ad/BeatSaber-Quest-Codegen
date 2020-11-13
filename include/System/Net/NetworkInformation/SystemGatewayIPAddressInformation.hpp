@@ -35,10 +35,10 @@ namespace System::Net::NetworkInformation {
       return address;
     }
     // System.Void .ctor(System.Net.IPAddress address)
-    // Offset: 0x10C7964
+    // Offset: 0x119D294
     static SystemGatewayIPAddressInformation* New_ctor(System::Net::IPAddress* address);
     // static System.Net.NetworkInformation.GatewayIPAddressInformationCollection ToGatewayIpAddressInformationCollection(System.Net.NetworkInformation.IPAddressCollection addresses)
-    // Offset: 0x10C4A84
+    // Offset: 0x119A3B4
     static System::Net::NetworkInformation::GatewayIPAddressInformationCollection* ToGatewayIpAddressInformationCollection(System::Net::NetworkInformation::IPAddressCollection* addresses);
   }; // System.Net.NetworkInformation.SystemGatewayIPAddressInformation
 }

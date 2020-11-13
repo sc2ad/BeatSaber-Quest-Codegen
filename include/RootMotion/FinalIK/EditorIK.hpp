@@ -26,13 +26,13 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
-    // Offset: 0x186F9EC
+    // Offset: 0x174D950
     void Start();
     // private System.Void Update()
-    // Offset: 0x186FA94
+    // Offset: 0x174D9F8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x186FB64
+    // Offset: 0x174DAC8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

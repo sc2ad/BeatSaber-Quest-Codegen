@@ -58,13 +58,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static System.Reflection.MemberInfo valueInfo
     static void _set_valueInfo(System::Reflection::MemberInfo* value);
     // System.Void .ctor(System.Array arrayObj, System.Int32[] indexMap)
-    // Offset: 0x1298C1C
+    // Offset: 0x12F8408
     static ValueFixup* New_ctor(System::Array* arrayObj, ::Array<int>* indexMap);
     // System.Void .ctor(System.Object memberObject, System.String memberName, System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo objectInfo)
-    // Offset: 0x1299380
+    // Offset: 0x12F8B6C
     static ValueFixup* New_ctor(::Il2CppObject* memberObject, ::Il2CppString* memberName, System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo);
     // System.Void Fixup(System.Runtime.Serialization.Formatters.Binary.ParseRecord record, System.Runtime.Serialization.Formatters.Binary.ParseRecord parent)
-    // Offset: 0x129804C
+    // Offset: 0x12F7838
     void Fixup(System::Runtime::Serialization::Formatters::Binary::ParseRecord* record, System::Runtime::Serialization::Formatters::Binary::ParseRecord* parent);
   }; // System.Runtime.Serialization.Formatters.Binary.ValueFixup
 }

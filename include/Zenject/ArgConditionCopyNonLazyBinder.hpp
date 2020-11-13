@@ -67,13 +67,13 @@ namespace Zenject {
       return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::InstantiateCallbackConditionCopyNonLazyBinder*>(this, "WithArguments", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get()}, param1, param2, param3, param4, param5, param6)));
     }
     // public Zenject.InstantiateCallbackConditionCopyNonLazyBinder WithArguments(System.Object[] args)
-    // Offset: 0xFEF3DC
+    // Offset: 0x10EAD84
     Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArguments(::Array<::Il2CppObject*>* args);
     // public Zenject.InstantiateCallbackConditionCopyNonLazyBinder WithArgumentsExplicit(System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArgs)
-    // Offset: 0xFEF50C
+    // Offset: 0x10EAEB4
     Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArgumentsExplicit(System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>* extraArgs);
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0xFEF3D4
+    // Offset: 0x10EAD7C
     // Implemented from: Zenject.InstantiateCallbackConditionCopyNonLazyBinder
     // Base method: System.Void InstantiateCallbackConditionCopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo)
     // Base method: System.Void ConditionCopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo)

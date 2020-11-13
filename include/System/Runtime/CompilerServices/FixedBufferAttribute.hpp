@@ -27,13 +27,13 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x18
     int length;
     // public System.Void .ctor(System.Type elementType, System.Int32 length)
-    // Offset: 0x108C854
+    // Offset: 0x1163184
     static FixedBufferAttribute* New_ctor(System::Type* elementType, int length);
     // public System.Type get_ElementType()
-    // Offset: 0x108C89C
+    // Offset: 0x11631CC
     System::Type* get_ElementType();
     // public System.Int32 get_Length()
-    // Offset: 0x108C8A4
+    // Offset: 0x11631D4
     int get_Length();
   }; // System.Runtime.CompilerServices.FixedBufferAttribute
 }

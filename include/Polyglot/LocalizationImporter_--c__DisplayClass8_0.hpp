@@ -28,10 +28,10 @@ namespace Polyglot {
       return settings;
     }
     // System.Void <DownloadCustomSheet>b__0(System.String s)
-    // Offset: 0x1EF066C
+    // Offset: 0x1987284
     void $DownloadCustomSheet$b__0(::Il2CppString* s);
     // public System.Void .ctor()
-    // Offset: 0x1EEFCA0
+    // Offset: 0x19868B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LocalizationImporter::$$c__DisplayClass8_0* New_ctor();

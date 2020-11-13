@@ -65,50 +65,50 @@ namespace GlobalNamespace {
     // Offset: 0xB8
     bool colorChanged;
     // public System.Void add_didChangeColorEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x201974C
+    // Offset: 0x1A5C3DC
     void add_didChangeColorEvent(System::Action_1<UnityEngine::Color>* value);
     // public System.Void remove_didChangeColorEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x2019C98
+    // Offset: 0x1A5C928
     void remove_didChangeColorEvent(System::Action_1<UnityEngine::Color>* value);
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x20197F0
+    // Offset: 0x1A5C480
     void add_didFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x2019D3C
+    // Offset: 0x1A5C9CC
     void remove_didFinishEvent(System::Action_1<bool>* value);
     // public System.Void SetColorCallback(System.Action`1<UnityEngine.Color> colorCallback)
-    // Offset: 0x201B87C
+    // Offset: 0x1A5E584
     void SetColorCallback(System::Action_1<UnityEngine::Color>* colorCallback);
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x2019E64
+    // Offset: 0x1A5CAF4
     void SetColor(UnityEngine::Color color);
     // private System.Void HandleHSVPanelControllerColorDidChange(UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x201BAEC
+    // Offset: 0x1A5E7F4
     void HandleHSVPanelControllerColorDidChange(UnityEngine::Color color, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void HandlePreviousColorPanelControllerColorWasSelected(UnityEngine.Color color)
-    // Offset: 0x201BC30
+    // Offset: 0x1A5E938
     void HandlePreviousColorPanelControllerColorWasSelected(UnityEngine::Color color);
     // private System.Void HandleCancelButtonWasPressed()
-    // Offset: 0x201BCB4
+    // Offset: 0x1A5E9BC
     void HandleCancelButtonWasPressed();
     // private System.Void HandleApplyButtonWasPressed()
-    // Offset: 0x201BD44
+    // Offset: 0x1A5EA4C
     void HandleApplyButtonWasPressed();
     // private System.Void ChangeColor(UnityEngine.Color color)
-    // Offset: 0x201BB68
+    // Offset: 0x1A5E870
     void ChangeColor(UnityEngine::Color color);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x201B884
+    // Offset: 0x1A5E58C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x201BA0C
+    // Offset: 0x1A5E714
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x201BDA8
+    // Offset: 0x1A5EAB0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

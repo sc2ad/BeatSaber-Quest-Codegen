@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRApplications::_LaunchApplicationFromMimeType : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1159B18
+    // Offset: 0x11FA7D8
     static IVRApplications::_LaunchApplicationFromMimeType* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRApplicationError Invoke(System.String pchMimeType, System.String pchArgs)
-    // Offset: 0x1149AC8
+    // Offset: 0x11EA788
     OVR::OpenVR::EVRApplicationError Invoke(::Il2CppString* pchMimeType, ::Il2CppString* pchArgs);
     // public System.IAsyncResult BeginInvoke(System.String pchMimeType, System.String pchArgs, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1159B2C
+    // Offset: 0x11FA7EC
     System::IAsyncResult* BeginInvoke(::Il2CppString* pchMimeType, ::Il2CppString* pchArgs, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRApplicationError EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1159B5C
+    // Offset: 0x11FA81C
     OVR::OpenVR::EVRApplicationError EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRApplications/_LaunchApplicationFromMimeType
 }

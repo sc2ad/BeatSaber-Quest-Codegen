@@ -13,19 +13,19 @@ namespace System::Security::Cryptography {
   class CryptoConfig : public ::Il2CppObject {
     public:
     // static public System.Byte[] EncodeOID(System.String str)
-    // Offset: 0x146CB68
+    // Offset: 0x1456F74
     static ::Array<uint8_t>* EncodeOID(::Il2CppString* str);
     // static private System.Byte[] EncodeLongNumber(System.Int64 x)
-    // Offset: 0x146CF68
+    // Offset: 0x1457374
     static ::Array<uint8_t>* EncodeLongNumber(int64_t x);
     // static public System.Boolean get_AllowOnlyFipsAlgorithms()
-    // Offset: 0x146D110
+    // Offset: 0x145751C
     static bool get_AllowOnlyFipsAlgorithms();
     // static public System.Object CreateFromName(System.String name)
-    // Offset: 0x146D118
+    // Offset: 0x1457524
     static ::Il2CppObject* CreateFromName(::Il2CppString* name);
     // static public System.Object CreateFromName(System.String name, params System.Object[] args)
-    // Offset: 0x146D11C
+    // Offset: 0x1457528
     static ::Il2CppObject* CreateFromName(::Il2CppString* name, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Object CreateFromName(System.String name, params System.Object[] args)
     static ::Il2CppObject* CreateFromName(::Il2CppString* name, std::initializer_list<::Il2CppObject*> args);
@@ -35,10 +35,10 @@ namespace System::Security::Cryptography {
       return CreateFromName(name, {args...});
     }
     // static System.String MapNameToOID(System.String name, System.Object arg)
-    // Offset: 0x146E4CC
+    // Offset: 0x14588D8
     static ::Il2CppString* MapNameToOID(::Il2CppString* name, ::Il2CppObject* arg);
     // static public System.String MapNameToOID(System.String name)
-    // Offset: 0x146E4D0
+    // Offset: 0x14588DC
     static ::Il2CppString* MapNameToOID(::Il2CppString* name);
   }; // System.Security.Cryptography.CryptoConfig
 }

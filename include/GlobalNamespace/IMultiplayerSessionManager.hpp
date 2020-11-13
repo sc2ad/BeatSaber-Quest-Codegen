@@ -71,6 +71,9 @@ namespace GlobalNamespace {
     // public System.Single get_syncTimeDelay()
     // Offset: 0xFFFFFFFF
     float get_syncTimeDelay();
+    // public System.Int32 get_maxPlayerCount()
+    // Offset: 0xFFFFFFFF
+    int get_maxPlayerCount();
     // public System.Int32 get_connectedPlayerCount()
     // Offset: 0xFFFFFFFF
     int get_connectedPlayerCount();
@@ -83,6 +86,9 @@ namespace GlobalNamespace {
     // public System.Boolean get_isConnecting()
     // Offset: 0xFFFFFFFF
     bool get_isConnecting();
+    // public System.Boolean get_isDisconnecting()
+    // Offset: 0xFFFFFFFF
+    bool get_isDisconnecting();
     // public System.Boolean get_isSpectating()
     // Offset: 0xFFFFFFFF
     bool get_isSpectating();

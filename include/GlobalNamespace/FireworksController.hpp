@@ -42,19 +42,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnEnable()
-    // Offset: 0x2023348
+    // Offset: 0x1A131A4
     void OnEnable();
     // private System.Collections.IEnumerator SpawningCoroutine()
-    // Offset: 0x2023374
+    // Offset: 0x1A131D0
     System::Collections::IEnumerator* SpawningCoroutine();
     // private System.Void HandleFireworkItemControllerDidFinish(FireworkItemController fireworkItemController)
-    // Offset: 0x202341C
+    // Offset: 0x1A13278
     void HandleFireworkItemControllerDidFinish(GlobalNamespace::FireworkItemController* fireworkItemController);
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x20234C8
+    // Offset: 0x1A13324
     void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0x202354C
+    // Offset: 0x1A133A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

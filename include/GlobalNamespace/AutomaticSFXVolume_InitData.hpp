@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Offset: 0x14
     bool adaptiveSfx;
     // public System.Void .ctor(System.Single volumeOffset, System.Boolean adaptiveSfx)
-    // Offset: 0x20315CC
+    // Offset: 0x1A43348
     static AutomaticSFXVolume::InitData* New_ctor(float volumeOffset, bool adaptiveSfx);
   }; // AutomaticSFXVolume/InitData
 }

@@ -59,19 +59,19 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.String s_LogFilePath
     static void _set_s_LogFilePath(::Il2CppString* value);
     // static public System.Void PushLogLevel(UnityEngine.ProBuilder.LogLevel level)
-    // Offset: 0x16E8CC0
+    // Offset: 0x163B884
     static void PushLogLevel(UnityEngine::ProBuilder::LogLevel level);
     // static public System.Void PopLogLevel()
-    // Offset: 0x16E8D54
+    // Offset: 0x163B918
     static void PopLogLevel();
     // static public System.Void SetLogLevel(UnityEngine.ProBuilder.LogLevel level)
-    // Offset: 0x16E8DE0
+    // Offset: 0x163B9A4
     static void SetLogLevel(UnityEngine::ProBuilder::LogLevel level);
     // static public System.Void SetOutput(UnityEngine.ProBuilder.LogOutput output)
-    // Offset: 0x16E8E4C
+    // Offset: 0x163BA10
     static void SetOutput(UnityEngine::ProBuilder::LogOutput output);
     // static public System.Void SetLogFile(System.String path)
-    // Offset: 0x16E8EB8
+    // Offset: 0x163BA7C
     static void SetLogFile(::Il2CppString* path);
     // static public System.Void Debug(T value)
     // Offset: 0xFFFFFFFF
@@ -80,10 +80,10 @@ namespace UnityEngine::ProBuilder {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.ProBuilder", "Log", "Debug", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, value));
     }
     // static public System.Void Debug(System.String message)
-    // Offset: 0x16E8F28
+    // Offset: 0x163BAEC
     static void Debug(::Il2CppString* message);
     // static public System.Void Debug(System.String format, params System.Object[] values)
-    // Offset: 0x16E9088
+    // Offset: 0x163BC4C
     static void Debug(::Il2CppString* format, ::Array<::Il2CppObject*>* values);
     // Creating initializer_list -> params proxy for: System.Void Debug(System.String format, params System.Object[] values)
     static void Debug(::Il2CppString* format, std::initializer_list<::Il2CppObject*> values);
@@ -93,7 +93,7 @@ namespace UnityEngine::ProBuilder {
       Debug(format, {values...});
     }
     // static public System.Void Info(System.String format, params System.Object[] values)
-    // Offset: 0x16E908C
+    // Offset: 0x163BC50
     static void Info(::Il2CppString* format, ::Array<::Il2CppObject*>* values);
     // Creating initializer_list -> params proxy for: System.Void Info(System.String format, params System.Object[] values)
     static void Info(::Il2CppString* format, std::initializer_list<::Il2CppObject*> values);
@@ -103,10 +103,10 @@ namespace UnityEngine::ProBuilder {
       Info(format, {values...});
     }
     // static public System.Void Info(System.String message)
-    // Offset: 0x16E9114
+    // Offset: 0x163BCD8
     static void Info(::Il2CppString* message);
     // static public System.Void Warning(System.String format, params System.Object[] values)
-    // Offset: 0x16E91AC
+    // Offset: 0x163BD70
     static void Warning(::Il2CppString* format, ::Array<::Il2CppObject*>* values);
     // Creating initializer_list -> params proxy for: System.Void Warning(System.String format, params System.Object[] values)
     static void Warning(::Il2CppString* format, std::initializer_list<::Il2CppObject*> values);
@@ -116,10 +116,10 @@ namespace UnityEngine::ProBuilder {
       Warning(format, {values...});
     }
     // static public System.Void Warning(System.String message)
-    // Offset: 0x16E9234
+    // Offset: 0x163BDF8
     static void Warning(::Il2CppString* message);
     // static public System.Void Error(System.String format, params System.Object[] values)
-    // Offset: 0x16E92CC
+    // Offset: 0x163BE90
     static void Error(::Il2CppString* format, ::Array<::Il2CppObject*>* values);
     // Creating initializer_list -> params proxy for: System.Void Error(System.String format, params System.Object[] values)
     static void Error(::Il2CppString* format, std::initializer_list<::Il2CppObject*> values);
@@ -129,7 +129,7 @@ namespace UnityEngine::ProBuilder {
       Error(format, {values...});
     }
     // static public System.Void Error(System.String message)
-    // Offset: 0x16E9354
+    // Offset: 0x163BF18
     static void Error(::Il2CppString* message);
     // static System.Void Watch(T key, K value)
     // Offset: 0xFFFFFFFF
@@ -138,16 +138,16 @@ namespace UnityEngine::ProBuilder {
       THROW_UNLESS((il2cpp_utils::RunGenericMethod("UnityEngine.ProBuilder", "Log", "Watch", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<K>::get()}, key, value)));
     }
     // static private System.Void DoPrint(System.String message, UnityEngine.LogType type)
-    // Offset: 0x16E8F90
+    // Offset: 0x163BB54
     static void DoPrint(::Il2CppString* message, UnityEngine::LogType type);
     // static private System.Void PrintToFile(System.String message, System.String path)
-    // Offset: 0x16E9500
+    // Offset: 0x163C0C4
     static void PrintToFile(::Il2CppString* message, ::Il2CppString* path);
     // static public System.Void ClearLogFile()
-    // Offset: 0x16E9850
+    // Offset: 0x163C414
     static void ClearLogFile();
     // static private System.Void PrintToConsole(System.String message, UnityEngine.LogType type)
-    // Offset: 0x16E93EC
+    // Offset: 0x163BFB0
     static void PrintToConsole(::Il2CppString* message, UnityEngine::LogType type);
     // static System.Void NotNull(T obj, System.String message)
     // Offset: 0xFFFFFFFF
@@ -156,7 +156,7 @@ namespace UnityEngine::ProBuilder {
       THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.ProBuilder", "Log", "NotNull", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, obj, message));
     }
     // static private System.Void .cctor()
-    // Offset: 0x16E98F8
+    // Offset: 0x163C4BC
     static void _cctor();
   }; // UnityEngine.ProBuilder.Log
 }

@@ -91,55 +91,55 @@ namespace TMPro {
       return *reinterpret_cast<TMPro::ITweenValue*>(this);
     }
     // public UnityEngine.Color get_startColor()
-    // Offset: 0xC585F0
+    // Offset: 0xC92654
     UnityEngine::Color get_startColor();
     // public System.Void set_startColor(UnityEngine.Color value)
-    // Offset: 0xC585FC
+    // Offset: 0xC92660
     void set_startColor(UnityEngine::Color value);
     // public UnityEngine.Color get_targetColor()
-    // Offset: 0xC58608
+    // Offset: 0xC9266C
     UnityEngine::Color get_targetColor();
     // public System.Void set_targetColor(UnityEngine.Color value)
-    // Offset: 0xC58614
+    // Offset: 0xC92678
     void set_targetColor(UnityEngine::Color value);
     // public TMPro.ColorTween/ColorTweenMode get_tweenMode()
-    // Offset: 0xC58620
+    // Offset: 0xC92684
     TMPro::ColorTween::ColorTweenMode get_tweenMode();
     // public System.Void set_tweenMode(TMPro.ColorTween/ColorTweenMode value)
-    // Offset: 0xC58628
+    // Offset: 0xC9268C
     void set_tweenMode(TMPro::ColorTween::ColorTweenMode value);
     // public System.Void set_duration(System.Single value)
-    // Offset: 0xC58638
+    // Offset: 0xC9269C
     void set_duration(float value);
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0xC58648
+    // Offset: 0xC926AC
     void set_ignoreTimeScale(bool value);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<UnityEngine.Color> callback)
-    // Offset: 0xC5865C
+    // Offset: 0xC926C0
     void AddOnChangedCallback(UnityEngine::Events::UnityAction_1<UnityEngine::Color>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0xC58664
+    // Offset: 0xC926C8
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0xC5866C
+    // Offset: 0xC926D0
     float GetDuration();
     // public System.Single get_duration()
-    // Offset: 0xC58630
+    // Offset: 0xC92694
     // Implemented from: TMPro.ITweenValue
     // Base method: System.Single ITweenValue::get_duration()
     float get_duration();
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0xC58640
+    // Offset: 0xC926A4
     // Implemented from: TMPro.ITweenValue
     // Base method: System.Boolean ITweenValue::get_ignoreTimeScale()
     bool get_ignoreTimeScale();
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0xC58654
+    // Offset: 0xC926B8
     // Implemented from: TMPro.ITweenValue
     // Base method: System.Void ITweenValue::TweenValue(System.Single floatPercentage)
     void TweenValue(float floatPercentage);
     // public System.Boolean ValidTarget()
-    // Offset: 0xC58674
+    // Offset: 0xC926D8
     // Implemented from: TMPro.ITweenValue
     // Base method: System.Boolean ITweenValue::ValidTarget()
     bool ValidTarget();

@@ -43,20 +43,20 @@ namespace Org::BouncyCastle::Math::EC::Endo {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.Endo.GlvTypeBParameters parameters)
-    // Offset: 0x1D6BD10
+    // Offset: 0x193D940
     static GlvTypeBEndomorphism* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* parameters);
     // public Org.BouncyCastle.Math.BigInteger[] DecomposeScalar(Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x1D6BDE0
+    // Offset: 0x193DA10
     // Implemented from: Org.BouncyCastle.Math.EC.Endo.GlvEndomorphism
     // Base method: Org.BouncyCastle.Math.BigInteger[] GlvEndomorphism::DecomposeScalar(Org.BouncyCastle.Math.BigInteger k)
     ::Array<Org::BouncyCastle::Math::BigInteger*>* DecomposeScalar(Org::BouncyCastle::Math::BigInteger* k);
     // public Org.BouncyCastle.Math.EC.ECPointMap get_PointMap()
-    // Offset: 0x1D6BE74
+    // Offset: 0x193DAA4
     // Implemented from: Org.BouncyCastle.Math.EC.Endo.ECEndomorphism
     // Base method: Org.BouncyCastle.Math.EC.ECPointMap ECEndomorphism::get_PointMap()
     Org::BouncyCastle::Math::EC::ECPointMap* get_PointMap();
     // public System.Boolean get_HasEfficientPointMap()
-    // Offset: 0x1D6BE7C
+    // Offset: 0x193DAAC
     // Implemented from: Org.BouncyCastle.Math.EC.Endo.ECEndomorphism
     // Base method: System.Boolean ECEndomorphism::get_HasEfficientPointMap()
     bool get_HasEfficientPointMap();

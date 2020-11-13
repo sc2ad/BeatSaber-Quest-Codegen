@@ -33,16 +33,16 @@ namespace LiteNetLib {
   class EventBasedNetListener::OnPeerDisconnected : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1804BE8
+    // Offset: 0x1DC3F50
     static EventBasedNetListener::OnPeerDisconnected* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(LiteNetLib.NetPeer peer, LiteNetLib.DisconnectInfo disconnectInfo)
-    // Offset: 0x1802B0C
+    // Offset: 0x1DC1E74
     void Invoke(LiteNetLib::NetPeer* peer, LiteNetLib::DisconnectInfo disconnectInfo);
     // public System.IAsyncResult BeginInvoke(LiteNetLib.NetPeer peer, LiteNetLib.DisconnectInfo disconnectInfo, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1804BFC
+    // Offset: 0x1DC3F64
     System::IAsyncResult* BeginInvoke(LiteNetLib::NetPeer* peer, LiteNetLib::DisconnectInfo disconnectInfo, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1804C98
+    // Offset: 0x1DC4000
     void EndInvoke(System::IAsyncResult* result);
   }; // LiteNetLib.EventBasedNetListener/OnPeerDisconnected
 }

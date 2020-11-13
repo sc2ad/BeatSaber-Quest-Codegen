@@ -31,16 +31,16 @@ namespace OVR::OpenVR {
   class IVRScreenshots::_TakeStereoScreenshot : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C8BE98
+    // Offset: 0x190A070
     static IVRScreenshots::_TakeStereoScreenshot* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public OVR.OpenVR.EVRScreenshotError Invoke(ref System.UInt32 pOutScreenshotHandle, System.String pchPreviewFilename, System.String pchVRFilename)
-    // Offset: 0x1C8BEAC
+    // Offset: 0x190A084
     OVR::OpenVR::EVRScreenshotError Invoke(uint& pOutScreenshotHandle, ::Il2CppString* pchPreviewFilename, ::Il2CppString* pchVRFilename);
     // public System.IAsyncResult BeginInvoke(ref System.UInt32 pOutScreenshotHandle, System.String pchPreviewFilename, System.String pchVRFilename, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C8C138
+    // Offset: 0x190A310
     System::IAsyncResult* BeginInvoke(uint& pOutScreenshotHandle, ::Il2CppString* pchPreviewFilename, ::Il2CppString* pchVRFilename, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRScreenshotError EndInvoke(ref System.UInt32 pOutScreenshotHandle, System.IAsyncResult result)
-    // Offset: 0x1C8C1E0
+    // Offset: 0x190A3B8
     OVR::OpenVR::EVRScreenshotError EndInvoke(uint& pOutScreenshotHandle, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRScreenshots/_TakeStereoScreenshot
 }

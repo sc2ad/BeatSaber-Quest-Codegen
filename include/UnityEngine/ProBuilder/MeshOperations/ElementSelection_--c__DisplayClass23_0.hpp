@@ -42,13 +42,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x20
     System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>* $$9__2;
     // System.Boolean <FindHoles>b__1(UnityEngine.ProBuilder.WingedEdge w)
-    // Offset: 0x11CCBB0
+    // Offset: 0x1257F40
     bool $FindHoles$b__1(UnityEngine::ProBuilder::WingedEdge* w);
     // System.Boolean <FindHoles>b__2(UnityEngine.ProBuilder.WingedEdge w)
-    // Offset: 0x11CCC1C
+    // Offset: 0x1257FAC
     bool $FindHoles$b__2(UnityEngine::ProBuilder::WingedEdge* w);
     // public System.Void .ctor()
-    // Offset: 0x11CC7DC
+    // Offset: 0x1257B6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ElementSelection::$$c__DisplayClass23_0* New_ctor();

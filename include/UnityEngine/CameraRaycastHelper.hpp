@@ -23,16 +23,16 @@ namespace UnityEngine {
   class CameraRaycastHelper : public ::Il2CppObject {
     public:
     // static UnityEngine.GameObject RaycastTry(UnityEngine.Camera cam, UnityEngine.Ray ray, System.Single distance, System.Int32 layerMask)
-    // Offset: 0x1F7562C
+    // Offset: 0x1A05968
     static UnityEngine::GameObject* RaycastTry(UnityEngine::Camera* cam, UnityEngine::Ray ray, float distance, int layerMask);
     // static UnityEngine.GameObject RaycastTry2D(UnityEngine.Camera cam, UnityEngine.Ray ray, System.Single distance, System.Int32 layerMask)
-    // Offset: 0x1F756FC
+    // Offset: 0x1A05A38
     static UnityEngine::GameObject* RaycastTry2D(UnityEngine::Camera* cam, UnityEngine::Ray ray, float distance, int layerMask);
     // static private UnityEngine.GameObject RaycastTry_Injected(UnityEngine.Camera cam, ref UnityEngine.Ray ray, System.Single distance, System.Int32 layerMask)
-    // Offset: 0x1F75694
+    // Offset: 0x1A059D0
     static UnityEngine::GameObject* RaycastTry_Injected(UnityEngine::Camera* cam, UnityEngine::Ray& ray, float distance, int layerMask);
     // static private UnityEngine.GameObject RaycastTry2D_Injected(UnityEngine.Camera cam, ref UnityEngine.Ray ray, System.Single distance, System.Int32 layerMask)
-    // Offset: 0x1F75764
+    // Offset: 0x1A05AA0
     static UnityEngine::GameObject* RaycastTry2D_Injected(UnityEngine::Camera* cam, UnityEngine::Ray& ray, float distance, int layerMask);
   }; // UnityEngine.CameraRaycastHelper
 }

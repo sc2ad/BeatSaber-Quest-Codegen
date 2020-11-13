@@ -14,7 +14,7 @@ namespace GlobalNamespace {
   class PSSortingLayer : public UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x211870C
+    // Offset: 0x103A7F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

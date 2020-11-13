@@ -107,58 +107,58 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didChangeDifficultyBeatmapEvent(System.Action`2<StandardLevelDetailView,IDifficultyBeatmap> value)
-    // Offset: 0x1FF7518
+    // Offset: 0xF3E5CC
     void add_didChangeDifficultyBeatmapEvent(System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void remove_didChangeDifficultyBeatmapEvent(System.Action`2<StandardLevelDetailView,IDifficultyBeatmap> value)
-    // Offset: 0x1FF75BC
+    // Offset: 0xF3E670
     void remove_didChangeDifficultyBeatmapEvent(System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void add_didFavoriteToggleChangeEvent(System.Action`2<StandardLevelDetailView,UnityEngine.UI.Toggle> value)
-    // Offset: 0x1FF7660
+    // Offset: 0xF3E714
     void add_didFavoriteToggleChangeEvent(System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>* value);
     // public System.Void remove_didFavoriteToggleChangeEvent(System.Action`2<StandardLevelDetailView,UnityEngine.UI.Toggle> value)
-    // Offset: 0x1FF7704
+    // Offset: 0xF3E7B8
     void remove_didFavoriteToggleChangeEvent(System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>* value);
     // public IDifficultyBeatmap get_selectedDifficultyBeatmap()
-    // Offset: 0x1FF77A8
+    // Offset: 0xF3E85C
     GlobalNamespace::IDifficultyBeatmap* get_selectedDifficultyBeatmap();
     // public UnityEngine.UI.Button get_actionButton()
-    // Offset: 0x1FF77B0
+    // Offset: 0xF3E864
     UnityEngine::UI::Button* get_actionButton();
     // public System.Void set_actionButtonText(System.String value)
-    // Offset: 0x1FF77B8
+    // Offset: 0xF3E86C
     void set_actionButtonText(::Il2CppString* value);
     // public UnityEngine.UI.Button get_practiceButton()
-    // Offset: 0x1FF77D4
+    // Offset: 0xF3E888
     UnityEngine::UI::Button* get_practiceButton();
     // public System.Void set_hidePracticeButton(System.Boolean value)
-    // Offset: 0x1FF77DC
+    // Offset: 0xF3E890
     void set_hidePracticeButton(bool value);
     // public System.Void set_disableActionButton(System.Boolean value)
-    // Offset: 0x1FF781C
+    // Offset: 0xF3E8D0
     void set_disableActionButton(bool value);
     // public System.Void SetContent(IBeatmapLevel level, BeatmapDifficulty defaultDifficulty, BeatmapCharacteristicSO defaultBeatmapCharacteristic, PlayerData playerData, System.Boolean showPlayerStats)
-    // Offset: 0x1FF7840
+    // Offset: 0xF3E8F4
     void SetContent(GlobalNamespace::IBeatmapLevel* level, GlobalNamespace::BeatmapDifficulty defaultDifficulty, GlobalNamespace::BeatmapCharacteristicSO* defaultBeatmapCharacteristic, GlobalNamespace::PlayerData* playerData, bool showPlayerStats);
     // protected System.Void Awake()
-    // Offset: 0x1FF8048
+    // Offset: 0xF3F0FC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1FF81AC
+    // Offset: 0xF3F260
     void OnDestroy();
     // private System.Void HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty(BeatmapDifficultySegmentedControlController controller, BeatmapDifficulty difficulty)
-    // Offset: 0x1FF8314
+    // Offset: 0xF3F3C8
     void HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty(GlobalNamespace::BeatmapDifficultySegmentedControlController* controller, GlobalNamespace::BeatmapDifficulty difficulty);
     // private System.Void HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic(BeatmapCharacteristicSegmentedControlController controller, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x1FF8384
+    // Offset: 0xF3F438
     void HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSegmentedControlController* controller, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // public System.Void RefreshContent()
-    // Offset: 0x1FF7B60
+    // Offset: 0xF3EC14
     void RefreshContent();
     // private System.Void <Awake>b__32_0(System.Boolean on)
-    // Offset: 0x1FF8528
+    // Offset: 0xF3F5DC
     void $Awake$b__32_0(bool on);
     // public System.Void .ctor()
-    // Offset: 0x1FF8520
+    // Offset: 0xF3F5D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

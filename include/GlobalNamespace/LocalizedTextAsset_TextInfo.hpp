@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     UnityEngine::TextAsset* localizedText;
     // public System.Void .ctor()
-    // Offset: 0x20AA3F8
+    // Offset: 0x1A6BE8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static LocalizedTextAsset::TextInfo* New_ctor();

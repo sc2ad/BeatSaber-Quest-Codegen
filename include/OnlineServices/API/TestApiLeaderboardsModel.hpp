@@ -49,22 +49,22 @@ namespace OnlineServices::API {
       return *reinterpret_cast<OnlineServices::API::IApiLeaderboardsModel*>(this);
     }
     // public System.Void LogoutAsync()
-    // Offset: 0x1F89364
+    // Offset: 0xEFD158
     // Implemented from: OnlineServices.API.IApiLeaderboardsModel
     // Base method: System.Void IApiLeaderboardsModel::LogoutAsync()
     void LogoutAsync();
     // public System.Threading.Tasks.Task`1<OnlineServices.API.ApiResponse`1<BeatSaberAPI.DataTransferObjects.LeaderboardEntries>> GetLeaderboardEntriesAsync(BeatSaberAPI.DataTransferObjects.LeaderboardQuery leaderboardQueryDTO, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1F8941C
+    // Offset: 0xEFD210
     // Implemented from: OnlineServices.API.IApiLeaderboardsModel
     // Base method: System.Threading.Tasks.Task`1<OnlineServices.API.ApiResponse`1<BeatSaberAPI.DataTransferObjects.LeaderboardEntries>> IApiLeaderboardsModel::GetLeaderboardEntriesAsync(BeatSaberAPI.DataTransferObjects.LeaderboardQuery leaderboardQueryDTO, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>* GetLeaderboardEntriesAsync(BeatSaberAPI::DataTransferObjects::LeaderboardQuery* leaderboardQueryDTO, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.API.Response> SendLevelScoreResultAsync(BeatSaberAPI.DataTransferObjects.LevelScoreResult levelScoreResult, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1F89528
+    // Offset: 0xEFD31C
     // Implemented from: OnlineServices.API.IApiLeaderboardsModel
     // Base method: System.Threading.Tasks.Task`1<OnlineServices.API.Response> IApiLeaderboardsModel::SendLevelScoreResultAsync(BeatSaberAPI.DataTransferObjects.LevelScoreResult levelScoreResult, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<OnlineServices::API::Response>* SendLevelScoreResultAsync(BeatSaberAPI::DataTransferObjects::LevelScoreResult* levelScoreResult, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x1F89634
+    // Offset: 0xEFD428
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TestApiLeaderboardsModel* New_ctor();

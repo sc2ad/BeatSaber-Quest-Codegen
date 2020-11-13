@@ -5,18 +5,18 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LevelFilteringNavigationController
 #include "GlobalNamespace/LevelFilteringNavigationController.hpp"
-// Including type: LevelFilteringNavigationController/<>c__DisplayClass41_0
-#include "GlobalNamespace/LevelFilteringNavigationController_--c__DisplayClass41_0.hpp"
 // Including type: LevelFilteringNavigationController/<>c
 #include "GlobalNamespace/LevelFilteringNavigationController_--c.hpp"
+// Including type: LevelFilteringNavigationController/<>c__DisplayClass41_0
+#include "GlobalNamespace/LevelFilteringNavigationController_--c__DisplayClass41_0.hpp"
 // Including type: LevelFilteringNavigationController/<UpdateCustomSongs>d__42
 #include "GlobalNamespace/LevelFilteringNavigationController_-UpdateCustomSongs-d__42.hpp"
 // Including type: UnityEngine.GameObject
 #include "UnityEngine/GameObject.hpp"
 // Including type: PlayerDataModel
 #include "GlobalNamespace/PlayerDataModel.hpp"
-// Including type: System.Collections.Generic.IReadOnlyList`1
-#include "System/Collections/Generic/IReadOnlyList_1.hpp"
+// Including type: IBeatmapLevelPack
+#include "GlobalNamespace/IBeatmapLevelPack.hpp"
 // Including type: AnnotatedBeatmapLevelCollectionsViewController
 #include "GlobalNamespace/AnnotatedBeatmapLevelCollectionsViewController.hpp"
 // Including type: LevelSearchViewController
@@ -33,8 +33,8 @@
 #include "System/Action_1.hpp"
 // Including type: System.Threading.CancellationTokenSource
 #include "System/Threading/CancellationTokenSource.hpp"
-// Including type: IBeatmapLevelPack
-#include "GlobalNamespace/IBeatmapLevelPack.hpp"
+// Including type: System.Collections.Generic.IReadOnlyList`1
+#include "System/Collections/Generic/IReadOnlyList_1.hpp"
 // Including type: HMUI.ViewController
 #include "HMUI/ViewController.hpp"
 // Including type: SelectLevelCategoryViewController/LevelCategory

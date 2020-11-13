@@ -13,10 +13,10 @@ namespace System::Xml {
   class Res : public ::Il2CppObject {
     public:
     // static public System.String GetString(System.String name)
-    // Offset: 0x1544268
+    // Offset: 0x14E1718
     static ::Il2CppString* GetString(::Il2CppString* name);
     // static public System.String GetString(System.String name, params System.Object[] args)
-    // Offset: 0x1549920
+    // Offset: 0x14E6DD0
     static ::Il2CppString* GetString(::Il2CppString* name, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.String GetString(System.String name, params System.Object[] args)
     static ::Il2CppString* GetString(::Il2CppString* name, std::initializer_list<::Il2CppObject*> args);

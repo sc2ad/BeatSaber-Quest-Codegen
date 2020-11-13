@@ -32,16 +32,16 @@ namespace GlobalNamespace {
     // Offset: 0x28
     GlobalNamespace::LocalStateBuffer_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* stateBuffer;
     // protected StateBuffer`3<NodePoseSyncState,NodePoseSyncState/NodePose,PoseSerializable> get_stateBuffer()
-    // Offset: 0x20548F8
+    // Offset: 0x10221E8
     GlobalNamespace::StateBuffer_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>* get_stateBuffer();
     // public PoseSerializable GetState(NodePoseSyncState/NodePose type, System.Single time)
-    // Offset: 0x2054900
+    // Offset: 0x10221F0
     GlobalNamespace::PoseSerializable GetState(GlobalNamespace::NodePoseSyncState_NodePose type, float time);
     // public System.Void SetState(NodePoseSyncState/NodePose type, PoseSerializable state)
-    // Offset: 0x2054980
+    // Offset: 0x1022270
     void SetState(GlobalNamespace::NodePoseSyncState_NodePose type, GlobalNamespace::PoseSerializable state);
     // public System.Void .ctor(IConnectedPlayer player, System.Single reliableUpdateFrequency, System.Single unreliableUpdateFrequency, System.Int32 size, StateBuffer`3/InterpolationDelegate<NodePoseSyncState,NodePoseSyncState/NodePose,PoseSerializable> interpolator, StateBuffer`3/SmoothingDelegate<NodePoseSyncState,NodePoseSyncState/NodePose,PoseSerializable> smoother)
-    // Offset: 0x2054C84
+    // Offset: 0x1022574
     static MockLocalMultiplayerPoseSyncState* New_ctor(GlobalNamespace::IConnectedPlayer* player, float reliableUpdateFrequency, float unreliableUpdateFrequency, int size, typename GlobalNamespace::StateBuffer_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>::InterpolationDelegate* interpolator, typename GlobalNamespace::StateBuffer_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>::SmoothingDelegate* smoother);
   }; // MockLocalMultiplayerPoseSyncState
 }

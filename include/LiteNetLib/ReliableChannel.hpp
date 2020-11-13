@@ -74,18 +74,18 @@ namespace LiteNetLib {
     // Set static field: static private System.Int32 BitsInByte
     static void _set_BitsInByte(int value);
     // public System.Void .ctor(LiteNetLib.NetPeer peer, System.Boolean ordered, System.Byte id)
-    // Offset: 0x180E978
+    // Offset: 0x1DCDD30
     static ReliableChannel* New_ctor(LiteNetLib::NetPeer* peer, bool ordered, uint8_t id);
     // private System.Void ProcessAck(LiteNetLib.NetPacket packet)
-    // Offset: 0x1812158
+    // Offset: 0x1DD1630
     void ProcessAck(LiteNetLib::NetPacket* packet);
     // public override System.Void SendNextPackets()
-    // Offset: 0x18124DC
+    // Offset: 0x1DD19F8
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Void BaseChannel::SendNextPackets()
     void SendNextPackets();
     // public override System.Boolean ProcessPacket(LiteNetLib.NetPacket packet)
-    // Offset: 0x18129F4
+    // Offset: 0x1DD1F10
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Boolean BaseChannel::ProcessPacket(LiteNetLib.NetPacket packet)
     bool ProcessPacket(LiteNetLib::NetPacket* packet);

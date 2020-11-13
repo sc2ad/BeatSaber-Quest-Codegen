@@ -49,35 +49,35 @@ namespace System::Threading {
     // Set static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Threading.OSSpecificSynchronizationContext> s_ContextCache
     static void _set_s_ContextCache(System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Threading::OSSpecificSynchronizationContext*>* value);
     // private System.Void .ctor(System.Object osContext)
-    // Offset: 0x17C4528
+    // Offset: 0x16B7F84
     static OSSpecificSynchronizationContext* New_ctor(::Il2CppObject* osContext);
     // static public System.Threading.OSSpecificSynchronizationContext Get()
-    // Offset: 0x17C455C
+    // Offset: 0x16B7FB8
     static System::Threading::OSSpecificSynchronizationContext* Get();
     // static private System.Void InvocationEntry(System.IntPtr arg)
-    // Offset: 0x17C43C8
+    // Offset: 0x16B7E24
     static void InvocationEntry(System::IntPtr arg);
     // static private System.Object GetOSContext()
-    // Offset: 0x17C46B8
+    // Offset: 0x16B8114
     static ::Il2CppObject* GetOSContext();
     // static private System.Void PostInternal(System.Object osSynchronizationContext, System.IntPtr callback, System.IntPtr arg)
-    // Offset: 0x17C48C4
+    // Offset: 0x16B8320
     static void PostInternal(::Il2CppObject* osSynchronizationContext, System::IntPtr callback, System::IntPtr arg);
     // static private System.Void .cctor()
-    // Offset: 0x17C48C8
+    // Offset: 0x16B8324
     static void _cctor();
     // public override System.Threading.SynchronizationContext CreateCopy()
-    // Offset: 0x17C46BC
+    // Offset: 0x16B8118
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Threading.SynchronizationContext SynchronizationContext::CreateCopy()
     System::Threading::SynchronizationContext* CreateCopy();
     // public override System.Void Send(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0x17C4730
+    // Offset: 0x16B818C
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Send(System.Threading.SendOrPostCallback d, System.Object state)
     void Send(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
     // public override System.Void Post(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0x17C4790
+    // Offset: 0x16B81EC
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Post(System.Threading.SendOrPostCallback d, System.Object state)
     void Post(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);

@@ -26,16 +26,16 @@ namespace System::IO {
   class FileStream::ReadDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1451814
+    // Offset: 0x143BC20
     static FileStream::ReadDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Int32 Invoke(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1453190
+    // Offset: 0x143D59C
     int Invoke(::Array<uint8_t>* buffer, int offset, int count);
     // public System.IAsyncResult BeginInvoke(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1451828
+    // Offset: 0x143BC34
     System::IAsyncResult* BeginInvoke(::Array<uint8_t>* buffer, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1451A28
+    // Offset: 0x143BE34
     int EndInvoke(System::IAsyncResult* result);
   }; // System.IO.FileStream/ReadDelegate
 }

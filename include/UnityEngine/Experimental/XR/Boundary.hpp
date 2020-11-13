@@ -27,25 +27,25 @@ namespace UnityEngine::Experimental::XR {
     // Nested type: UnityEngine::Experimental::XR::Boundary::Type
     struct Type;
     // static public System.Boolean TryGetDimensions(out UnityEngine.Vector3 dimensionsOut, UnityEngine.Experimental.XR.Boundary/Type boundaryType)
-    // Offset: 0x1F78018
+    // Offset: 0x1A08354
     static bool TryGetDimensions(UnityEngine::Vector3& dimensionsOut, UnityEngine::Experimental::XR::Boundary::Type boundaryType);
     // static private System.Boolean TryGetDimensionsInternal(out UnityEngine.Vector3 dimensionsOut, UnityEngine.Experimental.XR.Boundary/Type boundaryType)
-    // Offset: 0x1F78068
+    // Offset: 0x1A083A4
     static bool TryGetDimensionsInternal(UnityEngine::Vector3& dimensionsOut, UnityEngine::Experimental::XR::Boundary::Type boundaryType);
     // static public System.Boolean get_visible()
-    // Offset: 0x1F780B8
+    // Offset: 0x1A083F4
     static bool get_visible();
     // static public System.Void set_visible(System.Boolean value)
-    // Offset: 0x1F780EC
+    // Offset: 0x1A08428
     static void set_visible(bool value);
     // static public System.Boolean get_configured()
-    // Offset: 0x1F7812C
+    // Offset: 0x1A08468
     static bool get_configured();
     // static public System.Boolean TryGetGeometry(System.Collections.Generic.List`1<UnityEngine.Vector3> geometry, UnityEngine.Experimental.XR.Boundary/Type boundaryType)
-    // Offset: 0x1F78160
+    // Offset: 0x1A0849C
     static bool TryGetGeometry(System::Collections::Generic::List_1<UnityEngine::Vector3>* geometry, UnityEngine::Experimental::XR::Boundary::Type boundaryType);
     // static private System.Boolean TryGetGeometryScriptingInternal(System.Collections.Generic.List`1<UnityEngine.Vector3> geometry, UnityEngine.Experimental.XR.Boundary/Type boundaryType)
-    // Offset: 0x1F78228
+    // Offset: 0x1A08564
     static bool TryGetGeometryScriptingInternal(System::Collections::Generic::List_1<UnityEngine::Vector3>* geometry, UnityEngine::Experimental::XR::Boundary::Type boundaryType);
   }; // UnityEngine.Experimental.XR.Boundary
 }

@@ -26,16 +26,16 @@ namespace OVR::OpenVR {
   class IVRRenderModels::_FreeRenderModel : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C85188
+    // Offset: 0x1903360
     static IVRRenderModels::_FreeRenderModel* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Void Invoke(System.IntPtr pRenderModel)
-    // Offset: 0x1C8519C
+    // Offset: 0x1903374
     void Invoke(System::IntPtr pRenderModel);
     // public System.IAsyncResult BeginInvoke(System.IntPtr pRenderModel, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C853FC
+    // Offset: 0x19035D4
     System::IAsyncResult* BeginInvoke(System::IntPtr pRenderModel, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C85488
+    // Offset: 0x1903660
     void EndInvoke(System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRRenderModels/_FreeRenderModel
 }

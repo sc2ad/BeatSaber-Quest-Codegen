@@ -61,54 +61,54 @@ namespace System::Resources {
     // Set static field: static System.Int32 Version
     static void _set_Version(int value);
     // System.Void .ctor(System.String fileName)
-    // Offset: 0x167EA10
+    // Offset: 0x15D35D4
     static RuntimeResourceSet* New_ctor(::Il2CppString* fileName);
     // System.Void .ctor(System.IO.Stream stream)
-    // Offset: 0x168073C
+    // Offset: 0x15D5300
     static RuntimeResourceSet* New_ctor(System::IO::Stream* stream);
     // private System.Object GetObject(System.String key, System.Boolean ignoreCase, System.Boolean isString)
-    // Offset: 0x16888E4
+    // Offset: 0x15DD4A8
     ::Il2CppObject* GetObject(::Il2CppString* key, bool ignoreCase, bool isString);
     // private System.Object ResolveResourceLocator(System.Resources.ResourceLocator resLocation, System.String key, System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> copyOfCache, System.Boolean keyInWrongCase)
-    // Offset: 0x16892EC
+    // Offset: 0x15DDEB0
     ::Il2CppObject* ResolveResourceLocator(System::Resources::ResourceLocator resLocation, ::Il2CppString* key, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>* copyOfCache, bool keyInWrongCase);
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1688608
+    // Offset: 0x15DD1CC
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.Void ResourceSet::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Collections.IDictionaryEnumerator GetEnumerator()
-    // Offset: 0x1688748
+    // Offset: 0x15DD30C
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.Collections.IDictionaryEnumerator ResourceSet::GetEnumerator()
     System::Collections::IDictionaryEnumerator* GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1688860
+    // Offset: 0x15DD424
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // private System.Collections.IDictionaryEnumerator GetEnumeratorHelper()
-    // Offset: 0x168874C
+    // Offset: 0x15DD310
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.Collections.IDictionaryEnumerator ResourceSet::GetEnumeratorHelper()
     System::Collections::IDictionaryEnumerator* GetEnumeratorHelper();
     // public override System.String GetString(System.String key)
-    // Offset: 0x1688864
+    // Offset: 0x15DD428
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.String ResourceSet::GetString(System.String key)
     ::Il2CppString* GetString(::Il2CppString* key);
     // public override System.String GetString(System.String key, System.Boolean ignoreCase)
-    // Offset: 0x1689250
+    // Offset: 0x15DDE14
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.String ResourceSet::GetString(System.String key, System.Boolean ignoreCase)
     ::Il2CppString* GetString(::Il2CppString* key, bool ignoreCase);
     // public override System.Object GetObject(System.String key)
-    // Offset: 0x16892D4
+    // Offset: 0x15DDE98
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.Object ResourceSet::GetObject(System.String key)
     ::Il2CppObject* GetObject(::Il2CppString* key);
     // public override System.Object GetObject(System.String key, System.Boolean ignoreCase)
-    // Offset: 0x16892E0
+    // Offset: 0x15DDEA4
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.Object ResourceSet::GetObject(System.String key, System.Boolean ignoreCase)
     ::Il2CppObject* GetObject(::Il2CppString* key, bool ignoreCase);

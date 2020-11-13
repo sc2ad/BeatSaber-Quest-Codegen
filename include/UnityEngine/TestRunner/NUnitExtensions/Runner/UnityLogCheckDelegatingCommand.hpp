@@ -76,41 +76,41 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Object,System.Nullable`1<System.Boolean>> s_AttributeCache
     static void _set_s_AttributeCache(System::Collections::Generic::Dictionary_2<::Il2CppObject*, System::Nullable_1<bool>>* value);
     // static private System.Boolean CaptureException(NUnit.Framework.Internal.TestResult result, System.Action action)
-    // Offset: 0x10B0930
+    // Offset: 0x1186260
     static bool CaptureException(NUnit::Framework::Internal::TestResult* result, System::Action* action);
     // static private System.Boolean ExecuteAndCheckLog(UnityEngine.TestTools.Logging.LogScope logScope, NUnit.Framework.Internal.TestResult result, System.Action action)
-    // Offset: 0x10B0628
+    // Offset: 0x1185F58
     static bool ExecuteAndCheckLog(UnityEngine::TestTools::Logging::LogScope* logScope, NUnit::Framework::Internal::TestResult* result, System::Action* action);
     // static private System.Void PostTestValidation(UnityEngine.TestTools.Logging.LogScope logScope, NUnit.Framework.Internal.Commands.TestCommand command, NUnit.Framework.Internal.TestResult result)
-    // Offset: 0x10B06DC
+    // Offset: 0x118600C
     static void PostTestValidation(UnityEngine::TestTools::Logging::LogScope* logScope, NUnit::Framework::Internal::Commands::TestCommand* command, NUnit::Framework::Internal::TestResult* result);
     // static private System.Boolean CheckLogs(NUnit.Framework.Internal.TestResult result, UnityEngine.TestTools.Logging.LogScope logScope)
-    // Offset: 0x10B0A20
+    // Offset: 0x1186350
     static bool CheckLogs(NUnit::Framework::Internal::TestResult* result, UnityEngine::TestTools::Logging::LogScope* logScope);
     // static private System.Boolean CheckFailingLogs(UnityEngine.TestTools.Logging.LogScope logScope, NUnit.Framework.Internal.TestResult result)
-    // Offset: 0x10B0D94
+    // Offset: 0x11866C4
     static bool CheckFailingLogs(UnityEngine::TestTools::Logging::LogScope* logScope, NUnit::Framework::Internal::TestResult* result);
     // static private System.Boolean CheckExpectedLogs(UnityEngine.TestTools.Logging.LogScope logScope, NUnit.Framework.Internal.TestResult result)
-    // Offset: 0x10B0E4C
+    // Offset: 0x118677C
     static bool CheckExpectedLogs(UnityEngine::TestTools::Logging::LogScope* logScope, NUnit::Framework::Internal::TestResult* result);
     // static private System.Boolean MustExpect(System.Reflection.MemberInfo method)
-    // Offset: 0x10B0AD0
+    // Offset: 0x1186400
     static bool MustExpect(System::Reflection::MemberInfo* method);
     // static private System.Void .cctor()
-    // Offset: 0x10B0F58
+    // Offset: 0x1186888
     static void _cctor();
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0x10AEFF4
+    // Offset: 0x1184924
     // Implemented from: NUnit.Framework.Internal.Commands.DelegatingTestCommand
     // Base method: System.Void DelegatingTestCommand::.ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
     static UnityLogCheckDelegatingCommand* New_ctor(NUnit::Framework::Internal::Commands::TestCommand* innerCommand);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x10B02C0
+    // Offset: 0x1185BF0
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
     // public System.Collections.IEnumerable ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x10B0850
+    // Offset: 0x1186180
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.IEnumerableTestMethodCommand
     // Base method: System.Collections.IEnumerable IEnumerableTestMethodCommand::ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
     System::Collections::IEnumerable* ExecuteEnumerable(NUnit::Framework::Internal::ITestExecutionContext* context);

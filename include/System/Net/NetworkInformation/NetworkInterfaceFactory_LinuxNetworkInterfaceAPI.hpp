@@ -28,18 +28,18 @@ namespace System::Net::NetworkInformation {
   class NetworkInterfaceFactory::LinuxNetworkInterfaceAPI : public System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI {
     public:
     // static private System.Void FreeInterfaceAddresses(System.IntPtr ifap)
-    // Offset: 0x10C5F4C
+    // Offset: 0x119B87C
     static void FreeInterfaceAddresses(System::IntPtr ifap);
     // static private System.Int32 GetInterfaceAddresses(out System.IntPtr ifap)
-    // Offset: 0x10C5FD0
+    // Offset: 0x119B900
     static int GetInterfaceAddresses(System::IntPtr& ifap);
     // public override System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
-    // Offset: 0x10C6054
+    // Offset: 0x119B984
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Net.NetworkInformation.NetworkInterface[] NetworkInterfaceFactory::GetAllNetworkInterfaces()
     ::Array<System::Net::NetworkInformation::NetworkInterface*>* GetAllNetworkInterfaces();
     // public System.Void .ctor()
-    // Offset: 0x10C5F34
+    // Offset: 0x119B864
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory/UnixNetworkInterfaceAPI
     // Base method: System.Void UnixNetworkInterfaceAPI::.ctor()
     // Base method: System.Void NetworkInterfaceFactory::.ctor()

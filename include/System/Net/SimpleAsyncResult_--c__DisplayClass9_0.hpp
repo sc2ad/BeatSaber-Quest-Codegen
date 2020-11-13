@@ -27,10 +27,10 @@ namespace System::Net {
     // Offset: 0x18
     System::Net::SimpleAsyncResult* $$4__this;
     // System.Void <.ctor>b__0(System.Net.SimpleAsyncResult result)
-    // Offset: 0x10D0C20
+    // Offset: 0x11A6550
     void $_ctor$b__0(System::Net::SimpleAsyncResult* result);
     // public System.Void .ctor()
-    // Offset: 0x10D02B8
+    // Offset: 0x11A5BE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SimpleAsyncResult::$$c__DisplayClass9_0* New_ctor();

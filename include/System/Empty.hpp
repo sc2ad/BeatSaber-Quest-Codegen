@@ -31,20 +31,20 @@ namespace System {
     // Set static field: static public readonly System.Empty Value
     static void _set_Value(System::Empty* value);
     // static private System.Void .cctor()
-    // Offset: 0x104CCA8
+    // Offset: 0x11245D8
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x104CBBC
+    // Offset: 0x11244EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Empty* New_ctor();
     // public override System.String ToString()
-    // Offset: 0x104CBC4
+    // Offset: 0x11244F4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x104CC14
+    // Offset: 0x1124544
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

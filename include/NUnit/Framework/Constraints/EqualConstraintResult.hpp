@@ -92,34 +92,34 @@ namespace NUnit::Framework::Constraints {
     // Set static field: static private readonly System.String ValuesDiffer_2
     static void _set_ValuesDiffer_2(::Il2CppString* value);
     // public System.Void .ctor(NUnit.Framework.Constraints.EqualConstraint constraint, System.Object actual, System.Boolean hasSucceeded)
-    // Offset: 0x13B748C
+    // Offset: 0x13DCE24
     static EqualConstraintResult* New_ctor(NUnit::Framework::Constraints::EqualConstraint* constraint, ::Il2CppObject* actual, bool hasSucceeded);
     // private System.Void DisplayDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.Object expected, System.Object actual, System.Int32 depth)
-    // Offset: 0x13B7884
+    // Offset: 0x13DD21C
     void DisplayDifferences(NUnit::Framework::Constraints::MessageWriter* writer, ::Il2CppObject* expected, ::Il2CppObject* actual, int depth);
     // private System.Void DisplayStringDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.String expected, System.String actual)
-    // Offset: 0x13B7B68
+    // Offset: 0x13DD500
     void DisplayStringDifferences(NUnit::Framework::Constraints::MessageWriter* writer, ::Il2CppString* expected, ::Il2CppString* actual);
     // private System.Void DisplayStreamDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.IO.Stream expected, System.IO.Stream actual, System.Int32 depth)
-    // Offset: 0x13B82A0
+    // Offset: 0x13DDC38
     void DisplayStreamDifferences(NUnit::Framework::Constraints::MessageWriter* writer, System::IO::Stream* expected, System::IO::Stream* actual, int depth);
     // private System.Void DisplayCollectionDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.Collections.ICollection expected, System.Collections.ICollection actual, System.Int32 depth)
-    // Offset: 0x13B7E94
+    // Offset: 0x13DD82C
     void DisplayCollectionDifferences(NUnit::Framework::Constraints::MessageWriter* writer, System::Collections::ICollection* expected, System::Collections::ICollection* actual, int depth);
     // private System.Void DisplayTypesAndSizes(NUnit.Framework.Constraints.MessageWriter writer, System.Collections.IEnumerable expected, System.Collections.IEnumerable actual, System.Int32 indent)
-    // Offset: 0x13B876C
+    // Offset: 0x13DE104
     void DisplayTypesAndSizes(NUnit::Framework::Constraints::MessageWriter* writer, System::Collections::IEnumerable* expected, System::Collections::IEnumerable* actual, int indent);
     // private System.Void DisplayFailurePoint(NUnit.Framework.Constraints.MessageWriter writer, System.Collections.IEnumerable expected, System.Collections.IEnumerable actual, NUnit.Framework.Constraints.NUnitEqualityComparer/FailurePoint failurePoint, System.Int32 indent)
-    // Offset: 0x13B8C3C
+    // Offset: 0x13DE5D4
     void DisplayFailurePoint(NUnit::Framework::Constraints::MessageWriter* writer, System::Collections::IEnumerable* expected, System::Collections::IEnumerable* actual, NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint* failurePoint, int indent);
     // private System.Void DisplayEnumerableDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.Collections.IEnumerable expected, System.Collections.IEnumerable actual, System.Int32 depth)
-    // Offset: 0x13B80E8
+    // Offset: 0x13DDA80
     void DisplayEnumerableDifferences(NUnit::Framework::Constraints::MessageWriter* writer, System::Collections::IEnumerable* expected, System::Collections::IEnumerable* actual, int depth);
     // static private System.Void .cctor()
-    // Offset: 0x13B941C
+    // Offset: 0x13DEDB4
     static void _cctor();
     // public override System.Void WriteMessageTo(NUnit.Framework.Constraints.MessageWriter writer)
-    // Offset: 0x13B7874
+    // Offset: 0x13DD20C
     // Implemented from: NUnit.Framework.Constraints.ConstraintResult
     // Base method: System.Void ConstraintResult::WriteMessageTo(NUnit.Framework.Constraints.MessageWriter writer)
     void WriteMessageTo(NUnit::Framework::Constraints::MessageWriter* writer);

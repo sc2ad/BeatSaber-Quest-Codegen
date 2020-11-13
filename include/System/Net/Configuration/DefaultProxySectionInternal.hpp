@@ -30,22 +30,22 @@ namespace System::Net::Configuration {
     // Set static field: static private System.Object classSyncObject
     static void _set_classSyncObject(::Il2CppObject* value);
     // static private System.Net.IWebProxy GetDefaultProxy_UsingOldMonoCode()
-    // Offset: 0x12AD2A8
+    // Offset: 0x130CA94
     static System::Net::IWebProxy* GetDefaultProxy_UsingOldMonoCode();
     // static private System.Net.IWebProxy GetSystemWebProxy()
-    // Offset: 0x12AD2B0
+    // Offset: 0x130CA9C
     static System::Net::IWebProxy* GetSystemWebProxy();
     // static System.Object get_ClassSyncObject()
-    // Offset: 0x12AD2B8
+    // Offset: 0x130CAA4
     static ::Il2CppObject* get_ClassSyncObject();
     // static System.Net.Configuration.DefaultProxySectionInternal GetSection()
-    // Offset: 0x12AD34C
+    // Offset: 0x130CB38
     static System::Net::Configuration::DefaultProxySectionInternal* GetSection();
     // System.Net.IWebProxy get_WebProxy()
-    // Offset: 0x12AD458
+    // Offset: 0x130CC44
     System::Net::IWebProxy* get_WebProxy();
     // public System.Void .ctor()
-    // Offset: 0x12AD450
+    // Offset: 0x130CC3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DefaultProxySectionInternal* New_ctor();

@@ -21,16 +21,16 @@ namespace UnityEngine::ProBuilder {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.ProBuilder.EntityType get_entityType()
-    // Offset: 0x16E0EC0
+    // Offset: 0x1633A84
     UnityEngine::ProBuilder::EntityType get_entityType();
     // public System.Void Awake()
-    // Offset: 0x16E0EC8
+    // Offset: 0x1633A8C
     void Awake();
     // public System.Void SetEntity(UnityEngine.ProBuilder.EntityType t)
-    // Offset: 0x16E0F88
+    // Offset: 0x1633B4C
     void SetEntity(UnityEngine::ProBuilder::EntityType t);
     // public System.Void .ctor()
-    // Offset: 0x16E0F90
+    // Offset: 0x1633B54
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

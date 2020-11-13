@@ -14,14 +14,14 @@ namespace Org::BouncyCastle::Crypto {
   class DataLengthException : public Org::BouncyCastle::Crypto::CryptoException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x189A344
+    // Offset: 0x1757F44
     // Implemented from: Org.BouncyCastle.Crypto.CryptoException
     // Base method: System.Void CryptoException::.ctor()
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
     static DataLengthException* New_ctor();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x189944C
+    // Offset: 0x175704C
     // Implemented from: Org.BouncyCastle.Crypto.CryptoException
     // Base method: System.Void CryptoException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)

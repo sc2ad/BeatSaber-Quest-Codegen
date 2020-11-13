@@ -61,37 +61,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x200776C
+    // Offset: 0x1A21A6C
     void add_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x2007810
+    // Offset: 0x1A21B10
     void remove_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<GameplayModifierMask,System.String>> get_gameplayModifiersData()
-    // Offset: 0x20078B4
+    // Offset: 0x1A21BB4
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>*>* get_gameplayModifiersData();
     // protected System.Void Start()
-    // Offset: 0x2007A40
+    // Offset: 0x1A21D40
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2007BC8
+    // Offset: 0x1A21EC8
     void OnDestroy();
     // public GameplayModifierMask GetSelectedGameplayModifierMask()
-    // Offset: 0x20052E4
+    // Offset: 0x1A1F4D0
     GlobalNamespace::GameplayModifierMask GetSelectedGameplayModifierMask();
     // public System.Void SelectCellWithGameplayModifierMask(GameplayModifierMask gameplayModifierMask)
-    // Offset: 0x2005640
+    // Offset: 0x1A1F82C
     void SelectCellWithGameplayModifierMask(GlobalNamespace::GameplayModifierMask gameplayModifierMask);
     // private System.Int32 GetIdxForGameplayModifierMask(GameplayModifierMask gameplayModifierMask)
-    // Offset: 0x2007CA4
+    // Offset: 0x1A21FA4
     int GetIdxForGameplayModifierMask(GlobalNamespace::GameplayModifierMask gameplayModifierMask);
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x2007E28
+    // Offset: 0x1A22128
     void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // private System.Tuple`2<GameplayModifierMask,System.String> <get_gameplayModifiersData>b__7_0(GameplayModifierMask value)
-    // Offset: 0x2007EA4
+    // Offset: 0x1A221A4
     System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::Il2CppString*>* $get_gameplayModifiersData$b__7_0(GlobalNamespace::GameplayModifierMask value);
     // public System.Void .ctor()
-    // Offset: 0x2007E9C
+    // Offset: 0x1A2219C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -54,40 +54,40 @@ namespace UnityEngine::XR {
     // Creating value type constructor for type: XRNodeState
     constexpr XRNodeState(UnityEngine::XR::XRNode m_Type_ = {}, UnityEngine::XR::AvailableTrackingData m_AvailableFields_ = {}, UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Quaternion m_Rotation_ = {}, UnityEngine::Vector3 m_Velocity_ = {}, UnityEngine::Vector3 m_AngularVelocity_ = {}, UnityEngine::Vector3 m_Acceleration_ = {}, UnityEngine::Vector3 m_AngularAcceleration_ = {}, int m_Tracked_ = {}, uint64_t m_UniqueID_ = {}) noexcept : m_Type{m_Type_}, m_AvailableFields{m_AvailableFields_}, m_Position{m_Position_}, m_Rotation{m_Rotation_}, m_Velocity{m_Velocity_}, m_AngularVelocity{m_AngularVelocity_}, m_Acceleration{m_Acceleration_}, m_AngularAcceleration{m_AngularAcceleration_}, m_Tracked{m_Tracked_}, m_UniqueID{m_UniqueID_} {}
     // public System.Void set_uniqueID(System.UInt64 value)
-    // Offset: 0xC8B8A0
+    // Offset: 0xCB87D0
     void set_uniqueID(uint64_t value);
     // public UnityEngine.XR.XRNode get_nodeType()
-    // Offset: 0xC8B8A8
+    // Offset: 0xCB87D8
     UnityEngine::XR::XRNode get_nodeType();
     // public System.Void set_nodeType(UnityEngine.XR.XRNode value)
-    // Offset: 0xC8B8B0
+    // Offset: 0xCB87E0
     void set_nodeType(UnityEngine::XR::XRNode value);
     // public System.Void set_tracked(System.Boolean value)
-    // Offset: 0xC8B8B8
+    // Offset: 0xCB87E8
     void set_tracked(bool value);
     // public System.Boolean TryGetPosition(out UnityEngine.Vector3 position)
-    // Offset: 0xC8B8C4
+    // Offset: 0xCB87F4
     bool TryGetPosition(UnityEngine::Vector3& position);
     // public System.Boolean TryGetRotation(out UnityEngine.Quaternion rotation)
-    // Offset: 0xC8B8DC
+    // Offset: 0xCB880C
     bool TryGetRotation(UnityEngine::Quaternion& rotation);
     // public System.Boolean TryGetVelocity(out UnityEngine.Vector3 velocity)
-    // Offset: 0xC8B8F4
+    // Offset: 0xCB8824
     bool TryGetVelocity(UnityEngine::Vector3& velocity);
     // public System.Boolean TryGetAngularVelocity(out UnityEngine.Vector3 angularVelocity)
-    // Offset: 0xC8B90C
+    // Offset: 0xCB883C
     bool TryGetAngularVelocity(UnityEngine::Vector3& angularVelocity);
     // public System.Boolean TryGetAcceleration(out UnityEngine.Vector3 acceleration)
-    // Offset: 0xC8B924
+    // Offset: 0xCB8854
     bool TryGetAcceleration(UnityEngine::Vector3& acceleration);
     // public System.Boolean TryGetAngularAcceleration(out UnityEngine.Vector3 angularAcceleration)
-    // Offset: 0xC8B93C
+    // Offset: 0xCB886C
     bool TryGetAngularAcceleration(UnityEngine::Vector3& angularAcceleration);
     // private System.Boolean TryGet(UnityEngine.Vector3 inValue, UnityEngine.XR.AvailableTrackingData availabilityFlag, out UnityEngine.Vector3 outValue)
-    // Offset: 0xC8B954
+    // Offset: 0xCB8884
     bool TryGet(UnityEngine::Vector3 inValue, UnityEngine::XR::AvailableTrackingData availabilityFlag, UnityEngine::Vector3& outValue);
     // private System.Boolean TryGet(UnityEngine.Quaternion inValue, UnityEngine.XR.AvailableTrackingData availabilityFlag, out UnityEngine.Quaternion outValue)
-    // Offset: 0xC8B95C
+    // Offset: 0xCB888C
     bool TryGet(UnityEngine::Quaternion inValue, UnityEngine::XR::AvailableTrackingData availabilityFlag, UnityEngine::Quaternion& outValue);
   }; // UnityEngine.XR.XRNodeState
 }

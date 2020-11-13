@@ -130,44 +130,44 @@ namespace GlobalNamespace {
     // Offset: 0x120
     UnityEngine::Coroutine* startFireworksAfterDelayCoroutine;
     // public System.Void add_continueButtonPressedEvent(System.Action`1<MissionResultsViewController> value)
-    // Offset: 0x1FCDD08
+    // Offset: 0x101FDB0
     void add_continueButtonPressedEvent(System::Action_1<GlobalNamespace::MissionResultsViewController*>* value);
     // public System.Void remove_continueButtonPressedEvent(System.Action`1<MissionResultsViewController> value)
-    // Offset: 0x1FCDDB0
+    // Offset: 0x101FE58
     void remove_continueButtonPressedEvent(System::Action_1<GlobalNamespace::MissionResultsViewController*>* value);
     // public System.Void add_retryButtonPressedEvent(System.Action`1<MissionResultsViewController> value)
-    // Offset: 0x1FCDE58
+    // Offset: 0x101FF00
     void add_retryButtonPressedEvent(System::Action_1<GlobalNamespace::MissionResultsViewController*>* value);
     // public System.Void remove_retryButtonPressedEvent(System.Action`1<MissionResultsViewController> value)
-    // Offset: 0x1FCDF00
+    // Offset: 0x101FFA8
     void remove_retryButtonPressedEvent(System::Action_1<GlobalNamespace::MissionResultsViewController*>* value);
     // public System.Void Init(MissionNode missionNode, MissionCompletionResults missionCompletionResults)
-    // Offset: 0x1FCDFA8
+    // Offset: 0x1020050
     void Init(GlobalNamespace::MissionNode* missionNode, GlobalNamespace::MissionCompletionResults* missionCompletionResults);
     // private System.Collections.IEnumerator StartFireworksAfterDelay(System.Single delay)
-    // Offset: 0x1FCE3C8
+    // Offset: 0x1020470
     System::Collections::IEnumerator* StartFireworksAfterDelay(float delay);
     // private System.Void SetDataToUI()
-    // Offset: 0x1FCE164
+    // Offset: 0x102020C
     void SetDataToUI();
     // private System.Void ContinueButtonPressed()
-    // Offset: 0x1FCE4E0
+    // Offset: 0x1020588
     void ContinueButtonPressed();
     // private System.Void RetryButtonPressed()
-    // Offset: 0x1FCE544
+    // Offset: 0x10205EC
     void RetryButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1FCDFE0
+    // Offset: 0x1020088
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1FCE454
+    // Offset: 0x10204FC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x1FCE5A8
+    // Offset: 0x1020650
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

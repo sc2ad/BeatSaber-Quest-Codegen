@@ -38,19 +38,19 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Offset: 0x18
     Org::BouncyCastle::Asn1::DerInteger* iterationCount;
     // static public Org.BouncyCastle.Asn1.Pkcs.PbeParameter GetInstance(System.Object obj)
-    // Offset: 0x1408A74
+    // Offset: 0x13FA96C
     static Org::BouncyCastle::Asn1::Pkcs::PbeParameter* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1408BF4
+    // Offset: 0x13FAAEC
     static PbeParameter* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // public System.Byte[] GetSalt()
-    // Offset: 0x1408D08
+    // Offset: 0x13FAC00
     ::Array<uint8_t>* GetSalt();
     // public Org.BouncyCastle.Math.BigInteger get_IterationCount()
-    // Offset: 0x1408D28
+    // Offset: 0x13FAC20
     Org::BouncyCastle::Math::BigInteger* get_IterationCount();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1408D44
+    // Offset: 0x13FAC3C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

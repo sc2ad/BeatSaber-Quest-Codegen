@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Offset: 0x18
     System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>* lights;
     // public System.Void .ctor(BloomPrePassLightTypeSO lightType, System.Collections.Generic.HashSet`1<BloomPrePassLight> lights)
-    // Offset: 0x1CF9ED4
+    // Offset: 0x1876754
     static BloomPrePassLight::LightsDataItem* New_ctor(GlobalNamespace::BloomPrePassLightTypeSO* lightType, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>* lights);
   }; // BloomPrePassLight/LightsDataItem
 }

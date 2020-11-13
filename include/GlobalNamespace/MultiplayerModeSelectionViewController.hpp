@@ -15,6 +15,8 @@
 namespace GlobalNamespace {
   // Forward declaring type: MasterServerAvailabilityData
   class MasterServerAvailabilityData;
+  // Forward declaring type: INetworkConfig
+  class INetworkConfig;
   // Skipping declaration: MenuButton because it is already included!
 }
 // Forward declaring namespace: UnityEngine::UI
@@ -93,40 +95,46 @@ namespace GlobalNamespace {
     // private TMPro.TextMeshProUGUI _maintenanceMessageText
     // Offset: 0x90
     TMPro::TextMeshProUGUI* maintenanceMessageText;
-    // private System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> didFinishEvent
+    // private TMPro.TextMeshProUGUI _customServerEndPointText
     // Offset: 0x98
+    TMPro::TextMeshProUGUI* customServerEndPointText;
+    // private readonly INetworkConfig _networkConfig
+    // Offset: 0xA0
+    GlobalNamespace::INetworkConfig* networkConfig;
+    // private System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> didFinishEvent
+    // Offset: 0xA8
     System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* didFinishEvent;
     // public System.Void add_didFinishEvent(System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> value)
-    // Offset: 0x1FD06EC
+    // Offset: 0xF74F64
     void add_didFinishEvent(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> value)
-    // Offset: 0x1FD0790
+    // Offset: 0xF75434
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* value);
     // public System.Void SetData(MasterServerAvailabilityData masterServerAvailabilityData)
-    // Offset: 0x1FD09B8
+    // Offset: 0xF775F4
     void SetData(GlobalNamespace::MasterServerAvailabilityData* masterServerAvailabilityData);
     // private System.Void HandleMenuButton(MultiplayerModeSelectionViewController/MenuButton menuButton)
-    // Offset: 0x1FD0C14
+    // Offset: 0xF77AF4
     void HandleMenuButton(GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton menuButton);
-    // private System.Void <DidActivate>b__9_0()
-    // Offset: 0x1FD0C94
-    void $DidActivate$b__9_0();
-    // private System.Void <DidActivate>b__9_1()
-    // Offset: 0x1FD0C9C
-    void $DidActivate$b__9_1();
-    // private System.Void <DidActivate>b__9_2()
-    // Offset: 0x1FD0CA4
-    void $DidActivate$b__9_2();
-    // private System.Void <DidActivate>b__9_3()
-    // Offset: 0x1FD0CAC
-    void $DidActivate$b__9_3();
+    // private System.Void <DidActivate>b__11_0()
+    // Offset: 0xF77B74
+    void $DidActivate$b__11_0();
+    // private System.Void <DidActivate>b__11_1()
+    // Offset: 0xF77B7C
+    void $DidActivate$b__11_1();
+    // private System.Void <DidActivate>b__11_2()
+    // Offset: 0xF77B84
+    void $DidActivate$b__11_2();
+    // private System.Void <DidActivate>b__11_3()
+    // Offset: 0xF77B8C
+    void $DidActivate$b__11_3();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1FD0834
+    // Offset: 0xF7785C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x1FD0C8C
+    // Offset: 0xF77B6C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

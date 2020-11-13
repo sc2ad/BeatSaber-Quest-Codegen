@@ -68,54 +68,54 @@ namespace UnityEngine::Timeline {
       return *reinterpret_cast<UnityEngine::ISerializationCallbackReceiver*>(this);
     }
     // public System.Collections.Generic.List`1<UnityEngine.Timeline.IMarker> get_markers()
-    // Offset: 0xC6FDB4
+    // Offset: 0xC9F784
     System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* get_markers();
     // public System.Void .ctor(System.Int32 capacity)
-    // Offset: 0xC6FDDC
+    // Offset: 0xC9F7AC
     MarkerList(int capacity);
     // public System.Void Add(UnityEngine.ScriptableObject item)
-    // Offset: 0xC6FDE4
+    // Offset: 0xC9F7B4
     void Add(UnityEngine::ScriptableObject* item);
     // public System.Boolean Remove(UnityEngine.Timeline.IMarker item)
-    // Offset: 0xC6FDEC
+    // Offset: 0xC9F7BC
     bool Remove(UnityEngine::Timeline::IMarker* item);
     // public System.Boolean Remove(UnityEngine.ScriptableObject item, UnityEngine.Timeline.TimelineAsset timelineAsset, UnityEngine.Playables.PlayableAsset thingToDirty)
-    // Offset: 0xC6FDF4
+    // Offset: 0xC9F7C4
     bool Remove(UnityEngine::ScriptableObject* item, UnityEngine::Timeline::TimelineAsset* timelineAsset, UnityEngine::Playables::PlayableAsset* thingToDirty);
     // public System.Void Clear()
-    // Offset: 0xC6FDFC
+    // Offset: 0xC9F7CC
     void Clear();
     // public System.Boolean Contains(UnityEngine.ScriptableObject item)
-    // Offset: 0xC6FE04
+    // Offset: 0xC9F7D4
     bool Contains(UnityEngine::ScriptableObject* item);
     // public System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.IMarker> GetMarkers()
-    // Offset: 0xC6FE0C
+    // Offset: 0xC9F7DC
     System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::IMarker*>* GetMarkers();
     // public System.Int32 get_Count()
-    // Offset: 0xC6FE34
+    // Offset: 0xC9F804
     int get_Count();
     // public UnityEngine.Timeline.IMarker get_Item(System.Int32 idx)
-    // Offset: 0xC6FE3C
+    // Offset: 0xC9F80C
     UnityEngine::Timeline::IMarker* get_Item(int idx);
     // public System.Collections.Generic.List`1<UnityEngine.ScriptableObject> GetRawMarkerList()
-    // Offset: 0xC6FE44
+    // Offset: 0xC9F814
     System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* GetRawMarkerList();
     // public UnityEngine.Timeline.IMarker CreateMarker(System.Type type, System.Double time, UnityEngine.Timeline.TrackAsset owner)
-    // Offset: 0xC6FE4C
+    // Offset: 0xC9F81C
     UnityEngine::Timeline::IMarker* CreateMarker(System::Type* type, double time, UnityEngine::Timeline::TrackAsset* owner);
     // public System.Boolean HasNotifications()
-    // Offset: 0xC6FE54
+    // Offset: 0xC9F824
     bool HasNotifications();
     // private System.Void BuildCache()
-    // Offset: 0xC6FE8C
+    // Offset: 0xC9F85C
     void BuildCache();
     // private System.Void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()
-    // Offset: 0xC6FE7C
+    // Offset: 0xC9F84C
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnBeforeSerialize()
     void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
     // private System.Void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize()
-    // Offset: 0xC6FE80
+    // Offset: 0xC9F850
     // Implemented from: UnityEngine.ISerializationCallbackReceiver
     // Base method: System.Void ISerializationCallbackReceiver::OnAfterDeserialize()
     void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();

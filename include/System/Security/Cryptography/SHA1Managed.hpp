@@ -26,39 +26,39 @@ namespace System::Security::Cryptography {
     // Offset: 0x40
     ::Array<uint>* expandedBuffer;
     // private System.Void InitializeState()
-    // Offset: 0x12038AC
+    // Offset: 0x1278964
     void InitializeState();
     // private System.Void _HashData(System.Byte[] partIn, System.Int32 ibStart, System.Int32 cbSize)
-    // Offset: 0x12039C0
+    // Offset: 0x1278A78
     void _HashData(::Array<uint8_t>* partIn, int ibStart, int cbSize);
     // private System.Byte[] _EndHash()
-    // Offset: 0x1203B74
+    // Offset: 0x1278C2C
     ::Array<uint8_t>* _EndHash();
     // static private System.Void SHATransform(System.UInt32* expandedBuffer, System.UInt32* state, System.Byte* block)
-    // Offset: 0x1203D3C
+    // Offset: 0x1278DF4
     static void SHATransform(uint* expandedBuffer, uint* state, uint8_t* block);
     // static private System.Void SHAExpand(System.UInt32* x)
-    // Offset: 0x1204290
+    // Offset: 0x1279348
     static void SHAExpand(uint* x);
     // public System.Void .ctor()
-    // Offset: 0x1203794
+    // Offset: 0x127884C
     // Implemented from: System.Security.Cryptography.SHA1
     // Base method: System.Void SHA1::.ctor()
     // Base method: System.Void HashAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
     static SHA1Managed* New_ctor();
     // public override System.Void Initialize()
-    // Offset: 0x120396C
+    // Offset: 0x1278A24
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::Initialize()
     void Initialize();
     // protected override System.Void HashCore(System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize)
-    // Offset: 0x12039BC
+    // Offset: 0x1278A74
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::HashCore(System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize)
     void HashCore(::Array<uint8_t>* rgb, int ibStart, int cbSize);
     // protected override System.Byte[] HashFinal()
-    // Offset: 0x1203B70
+    // Offset: 0x1278C28
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
     ::Array<uint8_t>* HashFinal();

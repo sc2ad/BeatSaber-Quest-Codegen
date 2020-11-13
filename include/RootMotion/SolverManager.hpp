@@ -45,49 +45,49 @@ namespace RootMotion {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Disable()
-    // Offset: 0x16A063C
+    // Offset: 0x15F4200
     void Disable();
     // protected System.Void InitiateSolver()
-    // Offset: 0x16A06D4
+    // Offset: 0x15F4298
     void InitiateSolver();
     // protected System.Void UpdateSolver()
-    // Offset: 0x16A06D8
+    // Offset: 0x15F429C
     void UpdateSolver();
     // protected System.Void FixTransforms()
-    // Offset: 0x16A06DC
+    // Offset: 0x15F42A0
     void FixTransforms();
     // private System.Void OnDisable()
-    // Offset: 0x16A06E0
+    // Offset: 0x15F42A4
     void OnDisable();
     // private System.Void Start()
-    // Offset: 0x16A0770
+    // Offset: 0x15F4334
     void Start();
     // private System.Boolean get_animatePhysics()
-    // Offset: 0x16A0774
+    // Offset: 0x15F4338
     bool get_animatePhysics();
     // private System.Void Initiate()
-    // Offset: 0x16A0718
+    // Offset: 0x15F42DC
     void Initiate();
     // private System.Void Update()
-    // Offset: 0x16A0A5C
+    // Offset: 0x15F4620
     void Update();
     // private System.Void FindAnimatorRecursive(UnityEngine.Transform t, System.Boolean findInChildren)
-    // Offset: 0x16A0864
+    // Offset: 0x15F4428
     void FindAnimatorRecursive(UnityEngine::Transform* t, bool findInChildren);
     // private System.Boolean get_isAnimated()
-    // Offset: 0x16A0AA8
+    // Offset: 0x15F466C
     bool get_isAnimated();
     // private System.Void FixedUpdate()
-    // Offset: 0x16A0B64
+    // Offset: 0x15F4728
     void FixedUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x16A0BC0
+    // Offset: 0x15F4784
     void LateUpdate();
     // public System.Void UpdateSolverExternal()
-    // Offset: 0x16A0C1C
+    // Offset: 0x15F47E0
     void UpdateSolverExternal();
     // public System.Void .ctor()
-    // Offset: 0x168EF5C
+    // Offset: 0x15E2B20
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

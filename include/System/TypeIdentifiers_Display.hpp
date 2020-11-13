@@ -28,18 +28,18 @@ namespace System {
       return *reinterpret_cast<System::TypeIdentifier*>(this);
     }
     // System.Void .ctor(System.String displayName)
-    // Offset: 0x1707F38
+    // Offset: 0x1659AFC
     static TypeIdentifiers::Display* New_ctor(::Il2CppString* displayName);
     // private System.String GetInternalName()
-    // Offset: 0x1707FD0
+    // Offset: 0x1659B94
     ::Il2CppString* GetInternalName();
     // public override System.String get_DisplayName()
-    // Offset: 0x1707F84
+    // Offset: 0x1659B48
     // Implemented from: System.TypeNames/ATypeName
     // Base method: System.String ATypeName::get_DisplayName()
     ::Il2CppString* get_DisplayName();
     // public System.String get_InternalName()
-    // Offset: 0x1707F8C
+    // Offset: 0x1659B50
     // Implemented from: System.TypeIdentifier
     // Base method: System.String TypeIdentifier::get_InternalName()
     ::Il2CppString* get_InternalName();

@@ -60,95 +60,95 @@ namespace GlobalNamespace {
     // Offset: 0x118
     GlobalNamespace::LevelSelectionFlowCoordinator::State* state;
     // public System.Void add_didSelectLevelEvent(System.Action`1<LevelSelectionFlowCoordinator/State> value)
-    // Offset: 0x20431F0
+    // Offset: 0xFB7F60
     void add_didSelectLevelEvent(System::Action_1<GlobalNamespace::LevelSelectionFlowCoordinator::State*>* value);
     // public System.Void remove_didSelectLevelEvent(System.Action`1<LevelSelectionFlowCoordinator/State> value)
-    // Offset: 0x2043294
+    // Offset: 0xFB8004
     void remove_didSelectLevelEvent(System::Action_1<GlobalNamespace::LevelSelectionFlowCoordinator::State*>* value);
     // public System.Void add_didFinishedEvent(System.Action value)
-    // Offset: 0x2043338
+    // Offset: 0xFB80A8
     void add_didFinishedEvent(System::Action* value);
     // public System.Void remove_didFinishedEvent(System.Action value)
-    // Offset: 0x20433DC
+    // Offset: 0xFB814C
     void remove_didFinishedEvent(System::Action* value);
     // public System.Void Setup(LevelSelectionFlowCoordinator/State state, SongPackMask songPackMask, BeatmapDifficultyMask allowedBeatmapDifficultyMask, System.String actionText, System.String titleText)
-    // Offset: 0x20439DC
+    // Offset: 0xFB874C
     void Setup(GlobalNamespace::LevelSelectionFlowCoordinator::State* state, GlobalNamespace::SongPackMask songPackMask, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, ::Il2CppString* actionText, ::Il2CppString* titleText);
     // private System.Void HandleLobbyGameStateControllerGameStarted()
-    // Offset: 0x2043A70
+    // Offset: 0xFB87E0
     void HandleLobbyGameStateControllerGameStarted();
     // protected override System.Boolean get_hidePracticeButton()
-    // Offset: 0x2043480
+    // Offset: 0xFB81F0
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Boolean LevelSelectionFlowCoordinator::get_hidePracticeButton()
     bool get_hidePracticeButton();
     // protected override System.Boolean get_hidePacksIfOneOrNone()
-    // Offset: 0x2043488
+    // Offset: 0xFB81F8
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Boolean LevelSelectionFlowCoordinator::get_hidePacksIfOneOrNone()
     bool get_hidePacksIfOneOrNone();
     // protected override System.String get_actionButtonText()
-    // Offset: 0x2043490
+    // Offset: 0xFB8200
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.String LevelSelectionFlowCoordinator::get_actionButtonText()
     ::Il2CppString* get_actionButtonText();
     // protected override System.Boolean get_showBackButtonForMainViewController()
-    // Offset: 0x2043498
+    // Offset: 0xFB8208
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Boolean LevelSelectionFlowCoordinator::get_showBackButtonForMainViewController()
     bool get_showBackButtonForMainViewController();
     // protected override SongPackMask get_songPackMask()
-    // Offset: 0x20434A0
+    // Offset: 0xFB8210
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: SongPackMask LevelSelectionFlowCoordinator::get_songPackMask()
     GlobalNamespace::SongPackMask get_songPackMask();
     // protected override System.Boolean get_enableCustomLevels()
-    // Offset: 0x20434AC
+    // Offset: 0xFB821C
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Boolean LevelSelectionFlowCoordinator::get_enableCustomLevels()
     bool get_enableCustomLevels();
     // protected override BeatmapDifficultyMask get_allowedBeatmapDifficultyMask()
-    // Offset: 0x20434B4
+    // Offset: 0xFB8224
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: BeatmapDifficultyMask LevelSelectionFlowCoordinator::get_allowedBeatmapDifficultyMask()
     GlobalNamespace::BeatmapDifficultyMask get_allowedBeatmapDifficultyMask();
     // protected override BeatmapCharacteristicSO[] get_notAllowedCharacteristics()
-    // Offset: 0x20434BC
+    // Offset: 0xFB822C
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: BeatmapCharacteristicSO[] LevelSelectionFlowCoordinator::get_notAllowedCharacteristics()
     ::Array<GlobalNamespace::BeatmapCharacteristicSO*>* get_notAllowedCharacteristics();
     // protected override System.String get_mainTitle()
-    // Offset: 0x20434C4
+    // Offset: 0xFB8234
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.String LevelSelectionFlowCoordinator::get_mainTitle()
     ::Il2CppString* get_mainTitle();
     // protected override System.Void ActionButtonWasPressed()
-    // Offset: 0x20434CC
+    // Offset: 0xFB823C
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Void LevelSelectionFlowCoordinator::ActionButtonWasPressed()
     void ActionButtonWasPressed();
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0x20435A8
+    // Offset: 0xFB8318
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // protected override System.Void LevelSelectionFlowCoordinatorTopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x2043604
+    // Offset: 0xFB8374
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Void LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorTopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
     void LevelSelectionFlowCoordinatorTopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
     // protected override System.Void TransitionDidStart()
-    // Offset: 0x2043718
+    // Offset: 0xFB8488
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TransitionDidStart()
     void TransitionDidStart();
     // protected override System.Void TransitionDidFinish()
-    // Offset: 0x2043834
+    // Offset: 0xFB85A4
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TransitionDidFinish()
     void TransitionDidFinish();
     // public System.Void .ctor()
-    // Offset: 0x2043A84
+    // Offset: 0xFB87F4
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Void LevelSelectionFlowCoordinator::.ctor()
     // Base method: System.Void FlowCoordinator::.ctor()

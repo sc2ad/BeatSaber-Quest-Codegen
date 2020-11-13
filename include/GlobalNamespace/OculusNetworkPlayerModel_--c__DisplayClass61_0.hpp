@@ -42,10 +42,10 @@ namespace GlobalNamespace {
     // Offset: 0x20
     uint64_t userId;
     // System.Void <ShouldAcceptConnectionFromPlayer>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.Room> result)
-    // Offset: 0x2106E24
+    // Offset: 0x100D5F0
     void $ShouldAcceptConnectionFromPlayer$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>* result);
     // public System.Void .ctor()
-    // Offset: 0x210620C
+    // Offset: 0x100C9A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OculusNetworkPlayerModel::$$c__DisplayClass61_0* New_ctor();

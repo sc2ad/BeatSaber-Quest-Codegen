@@ -33,10 +33,10 @@ namespace Zenject {
     // Offset: 0x28
     System::Type* concreteType;
     // System.Boolean <UnbindId>b__0(Zenject.DiContainer/ProviderInfo x)
-    // Offset: 0x121DC84
+    // Offset: 0x1292D3C
     bool $UnbindId$b__0(Zenject::DiContainer::ProviderInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x121DC7C
+    // Offset: 0x1292D34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DiContainer::$$c__DisplayClass178_0* New_ctor();

@@ -61,15 +61,15 @@ namespace System::Diagnostics::Tracing {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<System::Tuple_2<int, int>*>*>(this);
     }
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x124DF2C
+    // Offset: 0x12C3028
     static ActivityFilter::$GetFilterAsTuple$d__7* New_ctor(int $$1__state);
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x124E318
+    // Offset: 0x12C3414
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x124E31C
+    // Offset: 0x12C3418
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext();
@@ -77,27 +77,27 @@ namespace System::Diagnostics::Tracing {
     // Maps to method: MoveNext
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Tuple`2<System.Int32,System.Int32> System.Collections.Generic.IEnumerator<System.Tuple<System.Int32,System.Int32>>.get_Current()
-    // Offset: 0x124E458
+    // Offset: 0x12C3554
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     System::Tuple_2<int, int>* System_Collections_Generic_IEnumerator_1_get_Current();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x124E460
+    // Offset: 0x12C355C
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x124E4C0
+    // Offset: 0x12C35BC
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // private System.Collections.Generic.IEnumerator`1<System.Tuple`2<System.Int32,System.Int32>> System.Collections.Generic.IEnumerable<System.Tuple<System.Int32,System.Int32>>.GetEnumerator()
-    // Offset: 0x124E4C8
+    // Offset: 0x12C35C4
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<System::Tuple_2<int, int>*>* System_Collections_Generic_IEnumerable_1_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x124E584
+    // Offset: 0x12C3680
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

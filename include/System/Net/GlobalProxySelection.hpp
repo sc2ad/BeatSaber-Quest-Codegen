@@ -19,10 +19,10 @@ namespace System::Net {
   class GlobalProxySelection : public ::Il2CppObject {
     public:
     // static public System.Net.IWebProxy get_Select()
-    // Offset: 0x12326AC
+    // Offset: 0x12A7764
     static System::Net::IWebProxy* get_Select();
     // static public System.Net.IWebProxy GetEmptyWebProxy()
-    // Offset: 0x1232764
+    // Offset: 0x12A781C
     static System::Net::IWebProxy* GetEmptyWebProxy();
   }; // System.Net.GlobalProxySelection
 }

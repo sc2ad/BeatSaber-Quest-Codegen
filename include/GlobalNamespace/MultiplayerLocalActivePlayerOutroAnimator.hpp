@@ -92,25 +92,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDestroy()
-    // Offset: 0x204C2F8
+    // Offset: 0xF70D78
     void OnDestroy();
     // public System.Collections.IEnumerator AnimateCoroutine()
-    // Offset: 0x204C390
+    // Offset: 0xF70E10
     System::Collections::IEnumerator* AnimateCoroutine();
     // public System.Void PlayOutroMusicSample(System.Single maxDuration, System.Single volume)
-    // Offset: 0x204C438
+    // Offset: 0xF70EB8
     void PlayOutroMusicSample(float maxDuration, float volume);
     // private System.Void <AnimateCoroutine>b__14_0(System.Single f)
-    // Offset: 0x204C53C
+    // Offset: 0xF70FBC
     void $AnimateCoroutine$b__14_0(float f);
     // private System.Void <AnimateCoroutine>b__14_1(UnityEngine.Vector3 val)
-    // Offset: 0x204C588
+    // Offset: 0xF71010
     void $AnimateCoroutine$b__14_1(UnityEngine::Vector3 val);
     // private System.Void <AnimateCoroutine>b__14_2(UnityEngine.Vector3 val)
-    // Offset: 0x204C5A4
+    // Offset: 0xF7102C
     void $AnimateCoroutine$b__14_2(UnityEngine::Vector3 val);
     // public System.Void .ctor()
-    // Offset: 0x204C49C
+    // Offset: 0xF70F1C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

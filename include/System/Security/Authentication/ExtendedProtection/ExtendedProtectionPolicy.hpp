@@ -32,18 +32,18 @@ namespace System::Security::Authentication::ExtendedProtection {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
     // public System.Void .ctor(System.Security.Authentication.ExtendedProtection.PolicyEnforcement policyEnforcement)
-    // Offset: 0x119F9F8
+    // Offset: 0x122AD88
     static ExtendedProtectionPolicy* New_ctor(System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x119FA00
+    // Offset: 0x122AD90
     static ExtendedProtectionPolicy* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public override System.String ToString()
-    // Offset: 0x119FA70
+    // Offset: 0x122AE00
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x119FA78
+    // Offset: 0x122AE08
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);

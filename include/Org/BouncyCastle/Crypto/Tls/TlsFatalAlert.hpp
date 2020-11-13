@@ -25,10 +25,10 @@ namespace Org::BouncyCastle::Crypto::Tls {
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // public System.Void .ctor(System.Byte alertDescription)
-    // Offset: 0xF5B40C
+    // Offset: 0x1056F90
     static TlsFatalAlert* New_ctor(uint8_t alertDescription);
     // public System.Void .ctor(System.Byte alertDescription, System.Exception alertCause)
-    // Offset: 0xF5B5AC
+    // Offset: 0x1057130
     static TlsFatalAlert* New_ctor(uint8_t alertDescription, System::Exception* alertCause);
   }; // Org.BouncyCastle.Crypto.Tls.TlsFatalAlert
 }

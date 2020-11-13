@@ -28,7 +28,7 @@ namespace System::Security::Principal {
       return identity;
     }
     // public System.Void .ctor(System.Security.Principal.WindowsIdentity ntIdentity)
-    // Offset: 0x120D998
+    // Offset: 0x1282A50
     static WindowsPrincipal* New_ctor(System::Security::Principal::WindowsIdentity* ntIdentity);
   }; // System.Security.Principal.WindowsPrincipal
 }

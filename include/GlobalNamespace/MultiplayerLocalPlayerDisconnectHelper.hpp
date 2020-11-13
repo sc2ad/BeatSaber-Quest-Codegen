@@ -49,13 +49,13 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kEndGameLabel
     static void _set_kEndGameLabel(::Il2CppString* value);
     // public System.Void Disconnect()
-    // Offset: 0x2049F8C
+    // Offset: 0xF6E79C
     void Disconnect();
     // public System.String ResolveDisconnectButtonString()
-    // Offset: 0x204B560
+    // Offset: 0xF6FD70
     ::Il2CppString* ResolveDisconnectButtonString();
     // public System.Void .ctor()
-    // Offset: 0x204E8A4
+    // Offset: 0xF733CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MultiplayerLocalPlayerDisconnectHelper* New_ctor();

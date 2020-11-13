@@ -35,16 +35,16 @@ namespace OVR::OpenVR {
   class IVRSystem::_PollNextEventWithPose : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0xF66810
+    // Offset: 0x10622E0
     static IVRSystem::_PollNextEventWithPose* New_ctor(::Il2CppObject* object, System::IntPtr method);
     // public System.Boolean Invoke(OVR.OpenVR.ETrackingUniverseOrigin eOrigin, ref OVR.OpenVR.VREvent_t pEvent, System.UInt32 uncbVREvent, ref OVR.OpenVR.TrackedDevicePose_t pTrackedDevicePose)
-    // Offset: 0xF66824
+    // Offset: 0x10622F4
     bool Invoke(OVR::OpenVR::ETrackingUniverseOrigin eOrigin, OVR::OpenVR::VREvent_t& pEvent, uint uncbVREvent, OVR::OpenVR::TrackedDevicePose_t& pTrackedDevicePose);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.ETrackingUniverseOrigin eOrigin, ref OVR.OpenVR.VREvent_t pEvent, System.UInt32 uncbVREvent, ref OVR.OpenVR.TrackedDevicePose_t pTrackedDevicePose, System.AsyncCallback callback, System.Object object)
-    // Offset: 0xF66AF0
+    // Offset: 0x10625C0
     System::IAsyncResult* BeginInvoke(OVR::OpenVR::ETrackingUniverseOrigin eOrigin, OVR::OpenVR::VREvent_t& pEvent, uint uncbVREvent, OVR::OpenVR::TrackedDevicePose_t& pTrackedDevicePose, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref OVR.OpenVR.VREvent_t pEvent, ref OVR.OpenVR.TrackedDevicePose_t pTrackedDevicePose, System.IAsyncResult result)
-    // Offset: 0xF66BE0
+    // Offset: 0x10626B0
     bool EndInvoke(OVR::OpenVR::VREvent_t& pEvent, OVR::OpenVR::TrackedDevicePose_t& pTrackedDevicePose, System::IAsyncResult* result);
   }; // OVR.OpenVR.IVRSystem/_PollNextEventWithPose
 }

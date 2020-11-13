@@ -118,58 +118,58 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kDisabledInteractionDuration
     static void _set_kDisabledInteractionDuration(float value);
     // public System.Void add_didPressDisconnectButtonEvent(System.Action value)
-    // Offset: 0x204A8E0
+    // Offset: 0xF6F0F0
     void add_didPressDisconnectButtonEvent(System::Action* value);
     // public System.Void remove_didPressDisconnectButtonEvent(System.Action value)
-    // Offset: 0x204ADDC
+    // Offset: 0xF6F5EC
     void remove_didPressDisconnectButtonEvent(System::Action* value);
     // public System.Void add_didPressGiveUpButtonEvent(System.Action value)
-    // Offset: 0x204AA28
+    // Offset: 0xF6F238
     void add_didPressGiveUpButtonEvent(System::Action* value);
     // public System.Void remove_didPressGiveUpButtonEvent(System.Action value)
-    // Offset: 0x204AF24
+    // Offset: 0xF6F734
     void remove_didPressGiveUpButtonEvent(System::Action* value);
     // public System.Void add_didPressResumeButtonEvent(System.Action value)
-    // Offset: 0x204A984
+    // Offset: 0xF6F194
     void add_didPressResumeButtonEvent(System::Action* value);
     // public System.Void remove_didPressResumeButtonEvent(System.Action value)
-    // Offset: 0x204AE80
+    // Offset: 0xF6F690
     void remove_didPressResumeButtonEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x204B330
+    // Offset: 0xF6FB40
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x204B4D0
+    // Offset: 0xF6FCE0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x204B634
+    // Offset: 0xF6FE44
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x204B6D8
+    // Offset: 0xF6FEE8
     void Update();
     // public System.Void ShowMenu()
-    // Offset: 0x204B050
+    // Offset: 0xF6F860
     void ShowMenu();
     // public System.Void HideMenu()
-    // Offset: 0x204B0AC
+    // Offset: 0xF6F8BC
     void HideMenu();
     // private System.Void DisconnectButtonPressed()
-    // Offset: 0x204B788
+    // Offset: 0xF6FF98
     void DisconnectButtonPressed();
     // private System.Void HandleDisconnectPromptViewDidViewFinish(System.Boolean disconnect)
-    // Offset: 0x204B7C8
+    // Offset: 0xF6FFD8
     void HandleDisconnectPromptViewDidViewFinish(bool disconnect);
     // private System.Void GiveUpButtonPressed()
-    // Offset: 0x204B898
+    // Offset: 0xF700A8
     void GiveUpButtonPressed();
     // private System.Void ResumeButtonPressed()
-    // Offset: 0x204B748
+    // Offset: 0xF6FF58
     void ResumeButtonPressed();
     // private System.Void <HandleDisconnectPromptViewDidViewFinish>b__32_0()
-    // Offset: 0x204B8F4
+    // Offset: 0xF70104
     void $HandleDisconnectPromptViewDidViewFinish$b__32_0();
     // public System.Void .ctor()
-    // Offset: 0x204B8EC
+    // Offset: 0xF700FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

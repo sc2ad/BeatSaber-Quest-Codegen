@@ -25,18 +25,18 @@ namespace System::Runtime::Remoting::Messaging {
     // Set static field: static public System.String[] InternalKeys
     static void _set_InternalKeys(::Array<::Il2CppString*>* value);
     // public System.Void .ctor(System.Runtime.Remoting.Activation.IConstructionCallMessage message)
-    // Offset: 0x10A4B18
+    // Offset: 0x117B448
     static ConstructionCallDictionary* New_ctor(System::Runtime::Remoting::Activation::IConstructionCallMessage* message);
     // static private System.Void .cctor()
-    // Offset: 0x10A5704
+    // Offset: 0x117C034
     static void _cctor();
     // protected override System.Object GetMethodProperty(System.String key)
-    // Offset: 0x10A50E0
+    // Offset: 0x117BA10
     // Implemented from: System.Runtime.Remoting.Messaging.MessageDictionary
     // Base method: System.Object MessageDictionary::GetMethodProperty(System.String key)
     ::Il2CppObject* GetMethodProperty(::Il2CppString* key);
     // protected override System.Void SetMethodProperty(System.String key, System.Object value)
-    // Offset: 0x10A54D0
+    // Offset: 0x117BE00
     // Implemented from: System.Runtime.Remoting.Messaging.MessageDictionary
     // Base method: System.Void MessageDictionary::SetMethodProperty(System.String key, System.Object value)
     void SetMethodProperty(::Il2CppString* key, ::Il2CppObject* value);

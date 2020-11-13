@@ -33,13 +33,13 @@ namespace HMUI {
     // Offset: 0x18
     System::Collections::Generic::List_1<HMUI::TableCell*>* cells;
     // public System.String get_reuseIdentifier()
-    // Offset: 0x2179AF8
+    // Offset: 0x108997C
     ::Il2CppString* get_reuseIdentifier();
     // public System.Collections.Generic.List`1<HMUI.TableCell> get_cells()
-    // Offset: 0x2179B00
+    // Offset: 0x1089984
     System::Collections::Generic::List_1<HMUI::TableCell*>* get_cells();
     // public System.Void .ctor()
-    // Offset: 0x2179B08
+    // Offset: 0x108998C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TableView::CellsGroup* New_ctor();

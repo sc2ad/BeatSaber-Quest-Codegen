@@ -21,7 +21,7 @@ namespace System::Reflection {
       return m_configuration;
     }
     // public System.Void .ctor(System.String configuration)
-    // Offset: 0x1858F08
+    // Offset: 0x17205B0
     static AssemblyConfigurationAttribute* New_ctor(::Il2CppString* configuration);
   }; // System.Reflection.AssemblyConfigurationAttribute
 }

@@ -38,20 +38,20 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kBrowsingMenusRichPresenceLocalizationKey
     static void _set_kBrowsingMenusRichPresenceLocalizationKey(::Il2CppString* value);
     // private System.Void set_localizedDescription(System.String value)
-    // Offset: 0x1FAEFF4
+    // Offset: 0x1A31B84
     void set_localizedDescription(::Il2CppString* value);
     // public System.String get_apiName()
-    // Offset: 0x1FAEFA4
+    // Offset: 0x1A31B34
     // Implemented from: IRichPresenceData
     // Base method: System.String IRichPresenceData::get_apiName()
     ::Il2CppString* get_apiName();
     // public System.String get_localizedDescription()
-    // Offset: 0x1FAEFEC
+    // Offset: 0x1A31B7C
     // Implemented from: IRichPresenceData
     // Base method: System.String IRichPresenceData::get_localizedDescription()
     ::Il2CppString* get_localizedDescription();
     // public System.Void .ctor()
-    // Offset: 0x1FAEFFC
+    // Offset: 0x1A31B8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static BrowsingMenusRichPresenceData* New_ctor();

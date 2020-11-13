@@ -30,13 +30,13 @@ namespace GlobalNamespace {
     // Offset: 0x20
     GlobalNamespace::HostGameServerLobbyFlowCoordinator* $$4__this;
     // System.Boolean <HandleServerPlayerListControllerKickPlayer>b__0(INetworkPlayer player)
-    // Offset: 0x20ACF3C
+    // Offset: 0xF19AD0
     bool $HandleServerPlayerListControllerKickPlayer$b__0(GlobalNamespace::INetworkPlayer* player);
     // System.Void <HandleServerPlayerListControllerKickPlayer>b__1(System.Int32 btnId)
-    // Offset: 0x20AD000
+    // Offset: 0xF19B94
     void $HandleServerPlayerListControllerKickPlayer$b__1(int btnId);
     // public System.Void .ctor()
-    // Offset: 0x20ACF34
+    // Offset: 0xF18848
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static HostGameServerLobbyFlowCoordinator::$$c__DisplayClass30_0* New_ctor();

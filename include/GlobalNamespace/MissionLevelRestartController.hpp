@@ -42,12 +42,12 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void RestartLevel()
-    // Offset: 0x1FC90D0
+    // Offset: 0x101A9D0
     // Implemented from: ILevelRestartController
     // Base method: System.Void ILevelRestartController::RestartLevel()
     void RestartLevel();
     // public System.Void .ctor()
-    // Offset: 0x1FC917C
+    // Offset: 0x101AA7C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

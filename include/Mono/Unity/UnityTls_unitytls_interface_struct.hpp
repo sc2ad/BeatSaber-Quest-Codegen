@@ -180,7 +180,7 @@ namespace Mono::Unity {
     // Offset: 0x110
     Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t* unitytls_random_generate_bytes;
     // public System.Void .ctor()
-    // Offset: 0x11F8330
+    // Offset: 0x126D3E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static UnityTls::unitytls_interface_struct* New_ctor();

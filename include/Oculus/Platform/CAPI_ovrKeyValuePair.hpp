@@ -35,13 +35,13 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: ovrKeyValuePair
     constexpr ovrKeyValuePair(::Il2CppString* key_ = {}, Oculus::Platform::KeyValuePairType valueType_ = {}, ::Il2CppString* stringValue_ = {}, int intValue_ = {}, double doubleValue_ = {}) noexcept : key{key_}, valueType{valueType_}, stringValue{stringValue_}, intValue{intValue_}, doubleValue{doubleValue_} {}
     // public System.Void .ctor(System.String key, System.String value)
-    // Offset: 0xC6271C
+    // Offset: 0xC96214
     ovrKeyValuePair(::Il2CppString* key, ::Il2CppString* value);
     // public System.Void .ctor(System.String key, System.Int32 value)
-    // Offset: 0xC62760
+    // Offset: 0xC96258
     ovrKeyValuePair(::Il2CppString* key, int value);
     // public System.Void .ctor(System.String key, System.Double value)
-    // Offset: 0xC627A8
+    // Offset: 0xC962A0
     ovrKeyValuePair(::Il2CppString* key, double value);
   }; // Oculus.Platform.CAPI/ovrKeyValuePair
 }

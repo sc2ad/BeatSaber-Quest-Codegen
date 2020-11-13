@@ -55,31 +55,31 @@ namespace UnityEngine::Rendering {
     // Set static field: static private System.Action`2<UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]> beginFrameRendering
     static void _set_beginFrameRendering(System::Action_2<UnityEngine::Rendering::ScriptableRenderContext, ::Array<UnityEngine::Camera*>*>* value);
     // static public UnityEngine.Rendering.RenderPipeline get_currentPipeline()
-    // Offset: 0x17320DC
+    // Offset: 0x16BCEB4
     static UnityEngine::Rendering::RenderPipeline* get_currentPipeline();
     // static private System.Void set_currentPipeline(UnityEngine.Rendering.RenderPipeline value)
-    // Offset: 0x1732144
+    // Offset: 0x16BCF1C
     static void set_currentPipeline(UnityEngine::Rendering::RenderPipeline* value);
     // static public System.Void add_beginFrameRendering(System.Action`2<UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]> value)
-    // Offset: 0x17321B4
+    // Offset: 0x16BCF8C
     static void add_beginFrameRendering(System::Action_2<UnityEngine::Rendering::ScriptableRenderContext, ::Array<UnityEngine::Camera*>*>* value);
     // static public System.Void remove_beginFrameRendering(System.Action`2<UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]> value)
-    // Offset: 0x17322A4
+    // Offset: 0x16BD07C
     static void remove_beginFrameRendering(System::Action_2<UnityEngine::Rendering::ScriptableRenderContext, ::Array<UnityEngine::Camera*>*>* value);
     // static System.Void CleanupRenderPipeline()
-    // Offset: 0x1731DA0
+    // Offset: 0x16BCB78
     static void CleanupRenderPipeline();
     // static private System.Void GetCameras(UnityEngine.Rendering.ScriptableRenderContext context)
-    // Offset: 0x1732440
+    // Offset: 0x16BD218
     static void GetCameras(UnityEngine::Rendering::ScriptableRenderContext context);
     // static private System.Void DoRenderLoop_Internal(UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr)
-    // Offset: 0x17326B0
+    // Offset: 0x16BD488
     static void DoRenderLoop_Internal(UnityEngine::Rendering::RenderPipelineAsset* pipe, System::IntPtr loopPtr);
     // static private System.Void PrepareRenderPipeline(UnityEngine.Rendering.RenderPipelineAsset pipelineAsset)
-    // Offset: 0x1732830
+    // Offset: 0x16BD608
     static void PrepareRenderPipeline(UnityEngine::Rendering::RenderPipelineAsset* pipelineAsset);
     // static private System.Void .cctor()
-    // Offset: 0x1732A90
+    // Offset: 0x16BD868
     static void _cctor();
   }; // UnityEngine.Rendering.RenderPipelineManager
 }
