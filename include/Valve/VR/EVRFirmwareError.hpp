@@ -41,6 +41,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVRFirmwareError Fail
     static void _set_Fail(Valve::VR::EVRFirmwareError value);
   }; // Valve.VR.EVRFirmwareError
+  check_size<sizeof(EVRFirmwareError), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Valve_VR_EVRFirmwareErrorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRFirmwareError, "Valve.VR", "EVRFirmwareError");

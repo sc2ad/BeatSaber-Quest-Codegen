@@ -44,6 +44,7 @@ namespace UnityEngine::Timeline {
       // Creating value type constructor for type: WeightInfo
       constexpr WeightInfo(UnityEngine::Playables::Playable mixer_ = {}, UnityEngine::Playables::Playable parentMixer_ = {}, int port_ = {}) noexcept : mixer{mixer_}, parentMixer{parentMixer_}, port{port_} {}
     }; // UnityEngine.Timeline.AnimationOutputWeightProcessor/WeightInfo
+    check_size<sizeof(AnimationOutputWeightProcessor::WeightInfo), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __UnityEngine_Timeline_AnimationOutputWeightProcessor_WeightInfoSizeCheck;
     // private UnityEngine.Animations.AnimationPlayableOutput m_Output
     // Offset: 0x10
     UnityEngine::Animations::AnimationPlayableOutput m_Output;
@@ -72,6 +73,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void ITimelineEvaluateCallback::Evaluate()
     void Evaluate();
   }; // UnityEngine.Timeline.AnimationOutputWeightProcessor
+  check_size<sizeof(AnimationOutputWeightProcessor), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __UnityEngine_Timeline_AnimationOutputWeightProcessorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationOutputWeightProcessor*, "UnityEngine.Timeline", "AnimationOutputWeightProcessor");

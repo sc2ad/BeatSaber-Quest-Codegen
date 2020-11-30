@@ -70,6 +70,7 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Net.NetworkInformation.OperationalStatus NetworkInterface::get_OperationalStatus()
     System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
   }; // System.Net.NetworkInformation.Win32NetworkInterface2
+  check_size<sizeof(Win32NetworkInterface2), 512 + sizeof(void*) + 8 - (512 + sizeof(void*)) % 8> __System_Net_NetworkInformation_Win32NetworkInterface2SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32NetworkInterface2*, "System.Net.NetworkInformation", "Win32NetworkInterface2");

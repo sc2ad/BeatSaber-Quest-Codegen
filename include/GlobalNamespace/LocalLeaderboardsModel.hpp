@@ -71,6 +71,7 @@ namespace GlobalNamespace {
       // Set static field: static public LocalLeaderboardsModel/LeaderboardType Daily
       static void _set_Daily(GlobalNamespace::LocalLeaderboardsModel::LeaderboardType value);
     }; // LocalLeaderboardsModel/LeaderboardType
+    check_size<sizeof(LocalLeaderboardsModel::LeaderboardType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_LocalLeaderboardsModel_LeaderboardTypeSizeCheck;
     // private System.Int32 _maxNumberOfScoresInLeaderboard
     // Offset: 0x18
     int maxNumberOfScoresInLeaderboard;
@@ -183,6 +184,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LocalLeaderboardsModel* New_ctor();
   }; // LocalLeaderboardsModel
+  check_size<sizeof(LocalLeaderboardsModel), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __GlobalNamespace_LocalLeaderboardsModelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardsModel*, "", "LocalLeaderboardsModel");

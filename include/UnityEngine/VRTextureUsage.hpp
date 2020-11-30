@@ -47,6 +47,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.VRTextureUsage DeviceSpecific
     static void _set_DeviceSpecific(UnityEngine::VRTextureUsage value);
   }; // UnityEngine.VRTextureUsage
+  check_size<sizeof(VRTextureUsage), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_VRTextureUsageSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::VRTextureUsage, "UnityEngine", "VRTextureUsage");

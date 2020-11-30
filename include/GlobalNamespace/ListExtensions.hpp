@@ -37,13 +37,19 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     static int IndexOf(System::Collections::Generic::IReadOnlyList_1<T>* self, T item) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<int>("", "ListExtensions", "IndexOf", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, self, item)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ListExtensions").WithContext("IndexOf");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "ListExtensions", il2cpp_utils::NoArgClass<int>(), "IndexOf", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(self, item))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, self, item);
     }
     // static public System.Void ShuffleInPlace(System.Collections.Generic.IList`1<T> list)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void ShuffleInPlace(System::Collections::Generic::IList_1<T>* list) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("", "ListExtensions", "ShuffleInPlace", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ListExtensions").WithContext("ShuffleInPlace");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "ListExtensions", il2cpp_utils::NoArgClass<void>(), "ShuffleInPlace", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list);
     }
     // static private System.Void .cctor()
     // Offset: 0x1AC8604

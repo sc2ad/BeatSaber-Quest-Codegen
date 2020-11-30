@@ -60,6 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // BTSCharacterSpawnController/<TimelineStoppedDelayed>d__15
+  check_size<sizeof(BTSCharacterSpawnController::$TimelineStoppedDelayed$d__15), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_BTSCharacterSpawnController_$TimelineStoppedDelayed$d__15SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnController::$TimelineStoppedDelayed$d__15*, "", "BTSCharacterSpawnController/<TimelineStoppedDelayed>d__15");

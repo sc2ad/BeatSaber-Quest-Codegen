@@ -41,6 +41,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DCCA4
     static NetSyncConnection* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.NetSyncConnection
+  check_size<sizeof(NetSyncConnection), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __Oculus_Platform_Models_NetSyncConnectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncConnection*, "Oculus.Platform.Models", "NetSyncConnection");

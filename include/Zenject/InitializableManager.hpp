@@ -60,6 +60,7 @@ namespace Zenject {
     // Offset: 0x12A005C
     void Initialize();
   }; // Zenject.InitializableManager
+  check_size<sizeof(InitializableManager), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __Zenject_InitializableManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InitializableManager*, "Zenject", "InitializableManager");

@@ -34,6 +34,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BloomPrePassRenderDataSO* New_ctor();
   }; // BloomPrePassRenderDataSO
+  check_size<sizeof(BloomPrePassRenderDataSO), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_BloomPrePassRenderDataSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRenderDataSO*, "", "BloomPrePassRenderDataSO");

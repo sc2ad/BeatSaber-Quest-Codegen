@@ -26,6 +26,7 @@ namespace OnlineServices::API {
     // Base method: System.Void Object::.ctor()
     static HTTPAdminLeaderboardsHelper::ServerStatusResultDto* New_ctor();
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper/ServerStatusResultDto
+  check_size<sizeof(HTTPAdminLeaderboardsHelper::ServerStatusResultDto), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __OnlineServices_API_HTTPAdminLeaderboardsHelper_ServerStatusResultDtoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper::ServerStatusResultDto*, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/ServerStatusResultDto");

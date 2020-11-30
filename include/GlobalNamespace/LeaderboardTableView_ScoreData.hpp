@@ -53,6 +53,7 @@ namespace GlobalNamespace {
     // Offset: 0xF1E828
     static LeaderboardTableView::ScoreData* New_ctor(int score, ::Il2CppString* playerName, int rank, bool fullCombo);
   }; // LeaderboardTableView/ScoreData
+  check_size<sizeof(LeaderboardTableView::ScoreData), 36 + sizeof(bool) + 8 - (36 + sizeof(bool)) % 8> __GlobalNamespace_LeaderboardTableView_ScoreDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardTableView::ScoreData*, "", "LeaderboardTableView/ScoreData");

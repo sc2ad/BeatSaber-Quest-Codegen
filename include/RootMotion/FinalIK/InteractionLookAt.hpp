@@ -68,6 +68,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static InteractionLookAt* New_ctor();
   }; // RootMotion.FinalIK.InteractionLookAt
+  check_size<sizeof(InteractionLookAt), 56 + sizeof(bool) + 8 - (56 + sizeof(bool)) % 8> __RootMotion_FinalIK_InteractionLookAtSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionLookAt*, "RootMotion.FinalIK", "InteractionLookAt");

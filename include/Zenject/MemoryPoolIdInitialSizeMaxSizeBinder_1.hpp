@@ -32,7 +32,9 @@ namespace Zenject {
     // public Zenject.MemoryPoolInitialSizeMaxSizeBinder`1<TContract> WithId(System.Object identifier)
     // Offset: 0xFFFFFFFF
     Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* WithId(::Il2CppObject* identifier) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>(this, "WithId", identifier));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MemoryPoolIdInitialSizeMaxSizeBinder_1").WithContext("WithId");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>(), "WithId", {}, ::il2cpp_utils::ExtractTypes(identifier)));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*, false>(this, ___internal__method, identifier);
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)
     // Offset: 0xFFFFFFFF
@@ -41,9 +43,11 @@ namespace Zenject {
     // Base method: System.Void MemoryPoolMaxSizeBinder_1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)
     // Base method: System.Void MemoryPoolExpandBinder_1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)
     static MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo, Zenject::MemoryPoolBindInfo* poolBindInfo) {
-      return THROW_UNLESS(il2cpp_utils::New<MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>*>(bindContainer, bindInfo, factoryBindInfo, poolBindInfo));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MemoryPoolIdInitialSizeMaxSizeBinder_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<MemoryPoolIdInitialSizeMaxSizeBinder_1<TContract>*>(bindContainer, bindInfo, factoryBindInfo, poolBindInfo));
     }
   }; // Zenject.MemoryPoolIdInitialSizeMaxSizeBinder`1
+  // Could not write size check! Type: Zenject.MemoryPoolIdInitialSizeMaxSizeBinder`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1, "Zenject", "MemoryPoolIdInitialSizeMaxSizeBinder`1");
 #pragma pack(pop)

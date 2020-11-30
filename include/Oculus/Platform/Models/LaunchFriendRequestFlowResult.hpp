@@ -28,6 +28,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DAA70
     static LaunchFriendRequestFlowResult* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.LaunchFriendRequestFlowResult
+  check_size<sizeof(LaunchFriendRequestFlowResult), 17 + sizeof(bool) + 8 - (17 + sizeof(bool)) % 8> __Oculus_Platform_Models_LaunchFriendRequestFlowResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LaunchFriendRequestFlowResult*, "Oculus.Platform.Models", "LaunchFriendRequestFlowResult");

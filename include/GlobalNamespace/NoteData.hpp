@@ -153,6 +153,7 @@ namespace GlobalNamespace {
     // Base method: System.Void BeatmapObjectData::MirrorLineIndex(System.Int32 lineCount)
     void MirrorLineIndex(int lineCount);
   }; // NoteData
+  check_size<sizeof(NoteData), 56 + sizeof(float) + 8 - (56 + sizeof(float)) % 8> __GlobalNamespace_NoteDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteData*, "", "NoteData");

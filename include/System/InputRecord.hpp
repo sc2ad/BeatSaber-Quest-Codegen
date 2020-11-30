@@ -43,6 +43,7 @@ namespace System {
     // Creating value type constructor for type: InputRecord
     constexpr InputRecord(int16_t EventType_ = {}, bool KeyDown_ = {}, int16_t RepeatCount_ = {}, int16_t VirtualKeyCode_ = {}, int16_t VirtualScanCode_ = {}, ::Il2CppChar Character_ = {}, int ControlKeyState_ = {}, int pad1_ = {}, bool pad2_ = {}) noexcept : EventType{EventType_}, KeyDown{KeyDown_}, RepeatCount{RepeatCount_}, VirtualKeyCode{VirtualKeyCode_}, VirtualScanCode{VirtualScanCode_}, Character{Character_}, ControlKeyState{ControlKeyState_}, pad1{pad1_}, pad2{pad2_} {}
   }; // System.InputRecord
+  check_size<sizeof(InputRecord), 20 + sizeof(bool) + 8 - (20 + sizeof(bool)) % 8> __System_InputRecordSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::InputRecord, "System", "InputRecord");

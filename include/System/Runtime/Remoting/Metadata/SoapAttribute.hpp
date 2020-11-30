@@ -38,6 +38,7 @@ namespace System::Runtime::Remoting::Metadata {
     // Base method: System.Void Object::.ctor()
     static SoapAttribute* New_ctor();
   }; // System.Runtime.Remoting.Metadata.SoapAttribute
+  check_size<sizeof(SoapAttribute), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Runtime_Remoting_Metadata_SoapAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Metadata::SoapAttribute*, "System.Runtime.Remoting.Metadata", "SoapAttribute");

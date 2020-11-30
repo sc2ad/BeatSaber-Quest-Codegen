@@ -68,6 +68,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void IKMapping::Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
     void Initiate(RootMotion::FinalIK::IKSolverFullBody* solver);
   }; // RootMotion.FinalIK.IKMappingBone
+  check_size<sizeof(IKMappingBone), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __RootMotion_FinalIK_IKMappingBoneSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMappingBone*, "RootMotion.FinalIK", "IKMappingBone");

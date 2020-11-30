@@ -39,6 +39,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11E0B38
     static AchievementProgress* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.AchievementProgress
+  check_size<sizeof(AchievementProgress), 48 + sizeof(System::DateTime) + 8 - (48 + sizeof(System::DateTime)) % 8> __Oculus_Platform_Models_AchievementProgressSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementProgress*, "Oculus.Platform.Models", "AchievementProgress");

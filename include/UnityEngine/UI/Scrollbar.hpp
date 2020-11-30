@@ -101,6 +101,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.Scrollbar/Direction TopToBottom
       static void _set_TopToBottom(UnityEngine::UI::Scrollbar::Direction value);
     }; // UnityEngine.UI.Scrollbar/Direction
+    check_size<sizeof(Scrollbar::Direction), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_UI_Scrollbar_DirectionSizeCheck;
     // private UnityEngine.RectTransform m_HandleRect
     // Offset: 0xF0
     UnityEngine::RectTransform* m_HandleRect;
@@ -328,6 +329,7 @@ namespace UnityEngine::UI {
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
   }; // UnityEngine.UI.Scrollbar
+  check_size<sizeof(Scrollbar), 305 + sizeof(bool) + 8 - (305 + sizeof(bool)) % 8> __UnityEngine_UI_ScrollbarSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Scrollbar*, "UnityEngine.UI", "Scrollbar");

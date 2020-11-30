@@ -52,7 +52,10 @@ namespace UnityEngine::Playables {
     template<class T>
     bool IsPlayableOutputOfType() {
       static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayableOutput, std::remove_pointer_t<T>> && is_value_type_v<T>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(*this, "IsPlayableOutputOfType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Playables").WithContext("PlayableOutput").WithContext("IsPlayableOutputOfType");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<bool>(), "IsPlayableOutputOfType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method);
     }
     // static private System.Void .cctor()
     // Offset: 0x1733AF4
@@ -68,6 +71,7 @@ namespace UnityEngine::Playables {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Playables.PlayableOutput other)
     bool Equals(UnityEngine::Playables::PlayableOutput other);
   }; // UnityEngine.Playables.PlayableOutput
+  check_size<sizeof(PlayableOutput), 0 + sizeof(UnityEngine::Playables::PlayableOutputHandle) + 8 - (0 + sizeof(UnityEngine::Playables::PlayableOutputHandle)) % 8> __UnityEngine_Playables_PlayableOutputSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableOutput, "UnityEngine.Playables", "PlayableOutput");
 #pragma pack(pop)

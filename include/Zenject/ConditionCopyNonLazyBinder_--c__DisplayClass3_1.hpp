@@ -41,6 +41,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static ConditionCopyNonLazyBinder::$$c__DisplayClass3_1* New_ctor();
   }; // Zenject.ConditionCopyNonLazyBinder/<>c__DisplayClass3_1
+  check_size<sizeof(ConditionCopyNonLazyBinder::$$c__DisplayClass3_1), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Zenject_ConditionCopyNonLazyBinder_$$c__DisplayClass3_1SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConditionCopyNonLazyBinder::$$c__DisplayClass3_1*, "Zenject", "ConditionCopyNonLazyBinder/<>c__DisplayClass3_1");

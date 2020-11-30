@@ -46,6 +46,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ComboMissionObjectiveChecker* New_ctor();
   }; // ComboMissionObjectiveChecker
+  check_size<sizeof(ComboMissionObjectiveChecker), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __GlobalNamespace_ComboMissionObjectiveCheckerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ComboMissionObjectiveChecker*, "", "ComboMissionObjectiveChecker");

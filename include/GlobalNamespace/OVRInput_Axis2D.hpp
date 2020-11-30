@@ -61,6 +61,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRInput/Axis2D Any
     static void _set_Any(GlobalNamespace::OVRInput::Axis2D value);
   }; // OVRInput/Axis2D
+  check_size<sizeof(OVRInput::Axis2D), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRInput_Axis2DSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::Axis2D, "", "OVRInput/Axis2D");

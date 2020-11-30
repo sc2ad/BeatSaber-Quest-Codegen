@@ -35,6 +35,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.SpritePackingMode Rectangle
     static void _set_Rectangle(UnityEngine::SpritePackingMode value);
   }; // UnityEngine.SpritePackingMode
+  check_size<sizeof(SpritePackingMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_SpritePackingModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SpritePackingMode, "UnityEngine", "SpritePackingMode");

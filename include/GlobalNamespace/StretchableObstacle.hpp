@@ -98,6 +98,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // StretchableObstacle
+  check_size<sizeof(StretchableObstacle), 72 + sizeof(UnityEngine::Bounds) + 8 - (72 + sizeof(UnityEngine::Bounds)) % 8> __GlobalNamespace_StretchableObstacleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StretchableObstacle*, "", "StretchableObstacle");

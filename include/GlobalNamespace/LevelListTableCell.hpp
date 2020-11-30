@@ -139,6 +139,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LevelListTableCell* New_ctor();
   }; // LevelListTableCell
+  check_size<sizeof(LevelListTableCell), 232 + sizeof(void*) + 8 - (232 + sizeof(void*)) % 8> __GlobalNamespace_LevelListTableCellSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelListTableCell*, "", "LevelListTableCell");

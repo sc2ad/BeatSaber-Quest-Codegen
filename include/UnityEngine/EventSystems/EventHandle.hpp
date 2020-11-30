@@ -35,6 +35,7 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public UnityEngine.EventSystems.EventHandle Used
     static void _set_Used(UnityEngine::EventSystems::EventHandle value);
   }; // UnityEngine.EventSystems.EventHandle
+  check_size<sizeof(EventHandle), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_EventSystems_EventHandleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventHandle, "UnityEngine.EventSystems", "EventHandle");

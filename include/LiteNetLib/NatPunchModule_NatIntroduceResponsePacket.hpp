@@ -53,6 +53,7 @@ namespace LiteNetLib {
     // Base method: System.Void Object::.ctor()
     static NatPunchModule::NatIntroduceResponsePacket* New_ctor();
   }; // LiteNetLib.NatPunchModule/NatIntroduceResponsePacket
+  check_size<sizeof(NatPunchModule::NatIntroduceResponsePacket), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __LiteNetLib_NatPunchModule_NatIntroduceResponsePacketSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::NatIntroduceResponsePacket*, "LiteNetLib", "NatPunchModule/NatIntroduceResponsePacket");

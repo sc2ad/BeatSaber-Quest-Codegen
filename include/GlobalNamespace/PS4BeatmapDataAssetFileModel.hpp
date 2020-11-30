@@ -78,6 +78,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PS4BeatmapDataAssetFileModel* New_ctor();
   }; // PS4BeatmapDataAssetFileModel
+  check_size<sizeof(PS4BeatmapDataAssetFileModel), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_PS4BeatmapDataAssetFileModelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4BeatmapDataAssetFileModel*, "", "PS4BeatmapDataAssetFileModel");

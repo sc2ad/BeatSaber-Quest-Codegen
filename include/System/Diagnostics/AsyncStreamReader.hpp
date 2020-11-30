@@ -64,6 +64,7 @@ namespace System::Diagnostics {
     // Offset: 0x1483414
     void CancelOperation();
   }; // System.Diagnostics.AsyncStreamReader
+  check_size<sizeof(AsyncStreamReader), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __System_Diagnostics_AsyncStreamReaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::AsyncStreamReader*, "System.Diagnostics", "AsyncStreamReader");

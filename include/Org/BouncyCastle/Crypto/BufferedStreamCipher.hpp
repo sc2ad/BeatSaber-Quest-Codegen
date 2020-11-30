@@ -78,6 +78,7 @@ namespace Org::BouncyCastle::Crypto {
     // Base method: System.Void BufferedCipherBase::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.BufferedStreamCipher
+  check_size<sizeof(BufferedStreamCipher), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_BufferedStreamCipherSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::BufferedStreamCipher*, "Org.BouncyCastle.Crypto", "BufferedStreamCipher");

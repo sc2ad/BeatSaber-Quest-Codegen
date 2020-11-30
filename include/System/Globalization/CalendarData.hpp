@@ -113,6 +113,7 @@ namespace System::Globalization {
     // Base method: System.Void Object::.ctor()
     static CalendarData* New_ctor();
   }; // System.Globalization.CalendarData
+  check_size<sizeof(CalendarData), 152 + sizeof(bool) + 8 - (152 + sizeof(bool)) % 8> __System_Globalization_CalendarDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CalendarData*, "System.Globalization", "CalendarData");

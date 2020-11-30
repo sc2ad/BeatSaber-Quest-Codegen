@@ -58,6 +58,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static FABRIKRoot* New_ctor();
   }; // RootMotion.FinalIK.FABRIKRoot
+  check_size<sizeof(FABRIKRoot), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __RootMotion_FinalIK_FABRIKRootSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FABRIKRoot*, "RootMotion.FinalIK", "FABRIKRoot");

@@ -52,6 +52,7 @@ namespace NUnit::Framework::Internal::Commands {
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.Internal.Commands.ApplyChangesToContextCommand
+  check_size<sizeof(ApplyChangesToContextCommand), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __NUnit_Framework_Internal_Commands_ApplyChangesToContextCommandSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand*, "NUnit.Framework.Internal.Commands", "ApplyChangesToContextCommand");

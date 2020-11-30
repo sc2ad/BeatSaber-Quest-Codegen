@@ -16,9 +16,12 @@ namespace System {
     // public System.Int32 CompareTo(T other)
     // Offset: 0xFFFFFFFF
     int CompareTo(T other) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "CompareTo", other));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("IComparable_1").WithContext("CompareTo");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "CompareTo", {}, ::il2cpp_utils::ExtractTypes(other)));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, other);
     }
   }; // System.IComparable`1
+  // Could not write size check! Type: System.IComparable`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::IComparable_1, "System", "IComparable`1");
 #pragma pack(pop)

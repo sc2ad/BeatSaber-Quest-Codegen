@@ -38,16 +38,20 @@ namespace Zenject {
     // System.Boolean <WithAttributeWhere>b__0(System.Type t)
     // Offset: 0xFFFFFFFF
     bool $WithAttributeWhere$b__0(System::Type* t) {
-      return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "<WithAttributeWhere>b__0", t)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$$c__DisplayClass9_0_1").WithContext("<WithAttributeWhere>b__0");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "<WithAttributeWhere>b__0", {}, ::il2cpp_utils::ExtractTypes(t))));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, t);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConventionFilterTypesBinder::$$c__DisplayClass9_0_1<T>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<ConventionFilterTypesBinder::$$c__DisplayClass9_0_1<T>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$$c__DisplayClass9_0_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<ConventionFilterTypesBinder::$$c__DisplayClass9_0_1<T>*>());
     }
   }; // Zenject.ConventionFilterTypesBinder/<>c__DisplayClass9_0`1
+  // Could not write size check! Type: Zenject.ConventionFilterTypesBinder/<>c__DisplayClass9_0`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass9_0_1, "Zenject", "ConventionFilterTypesBinder/<>c__DisplayClass9_0`1");
 #pragma pack(pop)

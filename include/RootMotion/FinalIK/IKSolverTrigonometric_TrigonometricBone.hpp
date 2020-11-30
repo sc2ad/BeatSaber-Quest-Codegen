@@ -38,6 +38,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static IKSolverTrigonometric::TrigonometricBone* New_ctor();
   }; // RootMotion.FinalIK.IKSolverTrigonometric/TrigonometricBone
+  check_size<sizeof(IKSolverTrigonometric::TrigonometricBone), 132 + sizeof(UnityEngine::Vector3) + 8 - (132 + sizeof(UnityEngine::Vector3)) % 8> __RootMotion_FinalIK_IKSolverTrigonometric_TrigonometricBoneSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone*, "RootMotion.FinalIK", "IKSolverTrigonometric/TrigonometricBone");

@@ -60,6 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // OVRSceneLoader/<onCheckSceneCoroutine>d__25
+  check_size<sizeof(OVRSceneLoader::$onCheckSceneCoroutine$d__25), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_OVRSceneLoader_$onCheckSceneCoroutine$d__25SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneLoader::$onCheckSceneCoroutine$d__25*, "", "OVRSceneLoader/<onCheckSceneCoroutine>d__25");

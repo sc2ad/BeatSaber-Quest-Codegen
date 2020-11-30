@@ -46,6 +46,7 @@ namespace GlobalNamespace {
       // Set static field: static public BombExecutionRating/Rating NotGood
       static void _set_NotGood(GlobalNamespace::BombExecutionRating::Rating value);
     }; // BombExecutionRating/Rating
+    check_size<sizeof(BombExecutionRating::Rating), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_BombExecutionRating_RatingSizeCheck;
     // private BombExecutionRating/Rating <rating>k__BackingField
     // Offset: 0x18
     GlobalNamespace::BombExecutionRating::Rating rating;
@@ -63,6 +64,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A27CC4
     static BombExecutionRating* New_ctor(float time, GlobalNamespace::BombExecutionRating::Rating rating);
   }; // BombExecutionRating
+  check_size<sizeof(BombExecutionRating), 24 + sizeof(GlobalNamespace::BombExecutionRating::Rating) + 8 - (24 + sizeof(GlobalNamespace::BombExecutionRating::Rating)) % 8> __GlobalNamespace_BombExecutionRatingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombExecutionRating*, "", "BombExecutionRating");

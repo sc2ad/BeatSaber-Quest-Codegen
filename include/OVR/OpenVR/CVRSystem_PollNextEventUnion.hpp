@@ -26,6 +26,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: PollNextEventUnion
     constexpr PollNextEventUnion(OVR::OpenVR::IVRSystem::_PollNextEvent* pPollNextEvent_ = {}, OVR::OpenVR::CVRSystem::_PollNextEventPacked* pPollNextEventPacked_ = {}) noexcept : pPollNextEvent{pPollNextEvent_}, pPollNextEventPacked{pPollNextEventPacked_} {}
   }; // OVR.OpenVR.CVRSystem/PollNextEventUnion
+  check_size<sizeof(CVRSystem::PollNextEventUnion), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __OVR_OpenVR_CVRSystem_PollNextEventUnionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSystem::PollNextEventUnion, "OVR.OpenVR", "CVRSystem/PollNextEventUnion");

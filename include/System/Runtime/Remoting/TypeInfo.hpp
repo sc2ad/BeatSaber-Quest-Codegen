@@ -47,6 +47,7 @@ namespace System::Runtime::Remoting {
     // Base method: System.Boolean IRemotingTypeInfo::CanCastTo(System.Type fromType, System.Object o)
     bool CanCastTo(System::Type* fromType, ::Il2CppObject* o);
   }; // System.Runtime.Remoting.TypeInfo
+  check_size<sizeof(TypeInfo), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Runtime_Remoting_TypeInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::TypeInfo*, "System.Runtime.Remoting", "TypeInfo");

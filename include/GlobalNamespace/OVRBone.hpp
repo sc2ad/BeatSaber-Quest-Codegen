@@ -51,6 +51,7 @@ namespace GlobalNamespace {
     // Offset: 0x1068E10
     static OVRBone* New_ctor(GlobalNamespace::OVRSkeleton::BoneId id, int16_t parentBoneIndex, UnityEngine::Transform* trans);
   }; // OVRBone
+  check_size<sizeof(OVRBone), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_OVRBoneSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBone*, "", "OVRBone");

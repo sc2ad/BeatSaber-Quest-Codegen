@@ -29,6 +29,7 @@ namespace UnityEngine::TestTools::Utils {
     // Base method: System.Void Object::.ctor()
     static StackTraceFilter::$$c__DisplayClass2_0* New_ctor();
   }; // UnityEngine.TestTools.Utils.StackTraceFilter/<>c__DisplayClass2_0
+  check_size<sizeof(StackTraceFilter::$$c__DisplayClass2_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_TestTools_Utils_StackTraceFilter_$$c__DisplayClass2_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0*, "UnityEngine.TestTools.Utils", "StackTraceFilter/<>c__DisplayClass2_0");

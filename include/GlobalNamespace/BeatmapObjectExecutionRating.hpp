@@ -52,6 +52,7 @@ namespace GlobalNamespace {
       // Set static field: static public BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType Obstacle
       static void _set_Obstacle(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType value);
     }; // BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType
+    check_size<sizeof(BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_BeatmapObjectExecutionRating_BeatmapObjectExecutionRatingTypeSizeCheck;
     // private BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType <beatmapObjectRatingType>k__BackingField
     // Offset: 0x10
     GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType beatmapObjectRatingType;
@@ -76,6 +77,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BeatmapObjectExecutionRating* New_ctor();
   }; // BeatmapObjectExecutionRating
+  check_size<sizeof(BeatmapObjectExecutionRating), 20 + sizeof(float) + 8 - (20 + sizeof(float)) % 8> __GlobalNamespace_BeatmapObjectExecutionRatingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRating*, "", "BeatmapObjectExecutionRating");

@@ -64,6 +64,7 @@ namespace Mono::Security::Cryptography {
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
     ::Array<uint8_t>* HashFinal();
   }; // Mono.Security.Cryptography.MD2Managed
+  check_size<sizeof(MD2Managed), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __Mono_Security_Cryptography_MD2ManagedSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::MD2Managed*, "Mono.Security.Cryptography", "MD2Managed");

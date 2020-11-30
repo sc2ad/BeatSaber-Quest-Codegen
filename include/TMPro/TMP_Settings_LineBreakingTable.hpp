@@ -33,6 +33,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static TMP_Settings::LineBreakingTable* New_ctor();
   }; // TMPro.TMP_Settings/LineBreakingTable
+  check_size<sizeof(TMP_Settings::LineBreakingTable), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __TMPro_TMP_Settings_LineBreakingTableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Settings::LineBreakingTable*, "TMPro", "TMP_Settings/LineBreakingTable");

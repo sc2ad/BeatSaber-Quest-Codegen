@@ -27,6 +27,7 @@ namespace UnityEngineInternal::Input {
     // Creating value type constructor for type: NativeInputEventBuffer
     constexpr NativeInputEventBuffer(void* eventBuffer_ = {}, int eventCount_ = {}, int sizeInBytes_ = {}, int capacityInBytes_ = {}) noexcept : eventBuffer{eventBuffer_}, eventCount{eventCount_}, sizeInBytes{sizeInBytes_}, capacityInBytes{capacityInBytes_} {}
   }; // UnityEngineInternal.Input.NativeInputEventBuffer
+  check_size<sizeof(NativeInputEventBuffer), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __UnityEngineInternal_Input_NativeInputEventBufferSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeInputEventBuffer, "UnityEngineInternal.Input", "NativeInputEventBuffer");

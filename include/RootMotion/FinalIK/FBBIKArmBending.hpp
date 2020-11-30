@@ -65,6 +65,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static FBBIKArmBending* New_ctor();
   }; // RootMotion.FinalIK.FBBIKArmBending
+  check_size<sizeof(FBBIKArmBending), 112 + sizeof(bool) + 8 - (112 + sizeof(bool)) % 8> __RootMotion_FinalIK_FBBIKArmBendingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBBIKArmBending*, "RootMotion.FinalIK", "FBBIKArmBending");

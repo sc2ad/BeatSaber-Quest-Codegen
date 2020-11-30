@@ -31,6 +31,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11E0C1C
     static LanguagePackInfo* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.LanguagePackInfo
+  check_size<sizeof(LanguagePackInfo), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Oculus_Platform_Models_LanguagePackInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LanguagePackInfo*, "Oculus.Platform.Models", "LanguagePackInfo");

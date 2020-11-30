@@ -49,6 +49,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MaterialPropertyBlockController* New_ctor();
   }; // MaterialPropertyBlockController
+  check_size<sizeof(MaterialPropertyBlockController), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_MaterialPropertyBlockControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockController*, "", "MaterialPropertyBlockController");

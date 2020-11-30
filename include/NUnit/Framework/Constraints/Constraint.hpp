@@ -105,6 +105,7 @@ namespace NUnit::Framework::Constraints {
     // Base method: NUnit.Framework.Constraints.IConstraint IResolveConstraint::Resolve()
     NUnit::Framework::Constraints::IConstraint* NUnit_Framework_Constraints_IResolveConstraint_Resolve();
   }; // NUnit.Framework.Constraints.Constraint
+  check_size<sizeof(Constraint), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __NUnit_Framework_Constraints_ConstraintSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::Constraint*, "NUnit.Framework.Constraints", "Constraint");

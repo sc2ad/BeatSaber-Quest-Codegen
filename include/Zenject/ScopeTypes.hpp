@@ -41,6 +41,7 @@ namespace Zenject {
     // Set static field: static public Zenject.ScopeTypes Singleton
     static void _set_Singleton(Zenject::ScopeTypes value);
   }; // Zenject.ScopeTypes
+  check_size<sizeof(ScopeTypes), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Zenject_ScopeTypesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScopeTypes, "Zenject", "ScopeTypes");

@@ -83,6 +83,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ResultObjectiveListItem* New_ctor();
   }; // ResultObjectiveListItem
+  check_size<sizeof(ResultObjectiveListItem), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_ResultObjectiveListItemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultObjectiveListItem*, "", "ResultObjectiveListItem");

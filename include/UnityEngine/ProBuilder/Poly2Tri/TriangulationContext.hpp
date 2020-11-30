@@ -105,6 +105,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Base method: System.Void Object::.ctor()
     static TriangulationContext* New_ctor();
   }; // UnityEngine.ProBuilder.Poly2Tri.TriangulationContext
+  check_size<sizeof(TriangulationContext), 60 + sizeof(bool) + 8 - (60 + sizeof(bool)) % 8> __UnityEngine_ProBuilder_Poly2Tri_TriangulationContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationContext");

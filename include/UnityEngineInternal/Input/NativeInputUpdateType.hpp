@@ -53,6 +53,7 @@ namespace UnityEngineInternal::Input {
     // Set static field: static public UnityEngineInternal.Input.NativeInputUpdateType IgnoreFocus
     static void _set_IgnoreFocus(UnityEngineInternal::Input::NativeInputUpdateType value);
   }; // UnityEngineInternal.Input.NativeInputUpdateType
+  check_size<sizeof(NativeInputUpdateType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngineInternal_Input_NativeInputUpdateTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeInputUpdateType, "UnityEngineInternal.Input", "NativeInputUpdateType");

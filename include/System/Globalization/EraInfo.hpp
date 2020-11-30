@@ -42,6 +42,7 @@ namespace System::Globalization {
     // Offset: 0x162C4F4
     static EraInfo* New_ctor(int era, int startYear, int startMonth, int startDay, int yearOffset, int minEraYear, int maxEraYear, ::Il2CppString* eraName, ::Il2CppString* abbrevEraName, ::Il2CppString* englishEraName);
   }; // System.Globalization.EraInfo
+  check_size<sizeof(EraInfo), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __System_Globalization_EraInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::EraInfo*, "System.Globalization", "EraInfo");

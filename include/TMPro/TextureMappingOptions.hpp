@@ -47,6 +47,7 @@ namespace TMPro {
     // Set static field: static public TMPro.TextureMappingOptions MatchAspect
     static void _set_MatchAspect(TMPro::TextureMappingOptions value);
   }; // TMPro.TextureMappingOptions
+  check_size<sizeof(TextureMappingOptions), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __TMPro_TextureMappingOptionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TextureMappingOptions, "TMPro", "TextureMappingOptions");

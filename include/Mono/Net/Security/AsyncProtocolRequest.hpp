@@ -106,6 +106,7 @@ namespace Mono::Net::Security {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Mono.Net.Security.AsyncProtocolRequest
+  check_size<sizeof(AsyncProtocolRequest), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __Mono_Net_Security_AsyncProtocolRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolRequest*, "Mono.Net.Security", "AsyncProtocolRequest");

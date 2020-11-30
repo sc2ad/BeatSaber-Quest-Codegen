@@ -77,7 +77,10 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void Debug(T value) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.ProBuilder", "Log", "Debug", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("Log").WithContext("Debug");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "Log", il2cpp_utils::NoArgClass<void>(), "Debug", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(value))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
     }
     // static public System.Void Debug(System.String message)
     // Offset: 0x163BAEC
@@ -135,7 +138,10 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xFFFFFFFF
     template<class T, class K>
     static void Watch(T key, K value) {
-      THROW_UNLESS((il2cpp_utils::RunGenericMethod("UnityEngine.ProBuilder", "Log", "Watch", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<K>::get()}, key, value)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("Log").WithContext("Watch");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "Log", il2cpp_utils::NoArgClass<void>(), "Watch", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<K>::get()}, ::il2cpp_utils::ExtractTypes(key, value))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<K>::get()})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, key, value);
     }
     // static private System.Void DoPrint(System.String message, UnityEngine.LogType type)
     // Offset: 0x163BB54
@@ -153,7 +159,10 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void NotNull(T obj, ::Il2CppString* message) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.ProBuilder", "Log", "NotNull", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, obj, message));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("Log").WithContext("NotNull");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "Log", il2cpp_utils::NoArgClass<void>(), "NotNull", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(obj, message))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, obj, message);
     }
     // static private System.Void .cctor()
     // Offset: 0x163C4BC

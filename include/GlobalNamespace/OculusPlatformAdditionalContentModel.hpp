@@ -140,6 +140,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OculusPlatformAdditionalContentModel* New_ctor();
   }; // OculusPlatformAdditionalContentModel
+  check_size<sizeof(OculusPlatformAdditionalContentModel), 64 + sizeof(bool) + 8 - (64 + sizeof(bool)) % 8> __GlobalNamespace_OculusPlatformAdditionalContentModelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAdditionalContentModel*, "", "OculusPlatformAdditionalContentModel");

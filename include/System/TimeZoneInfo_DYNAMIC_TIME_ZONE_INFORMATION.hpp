@@ -29,6 +29,7 @@ namespace System {
     // Creating value type constructor for type: DYNAMIC_TIME_ZONE_INFORMATION
     constexpr DYNAMIC_TIME_ZONE_INFORMATION(System::TimeZoneInfo::TIME_ZONE_INFORMATION TZI_ = {}, ::Il2CppString* TimeZoneKeyName_ = {}, uint8_t DynamicDaylightTimeDisabled_ = {}) noexcept : TZI{TZI_}, TimeZoneKeyName{TimeZoneKeyName_}, DynamicDaylightTimeDisabled{DynamicDaylightTimeDisabled_} {}
   }; // System.TimeZoneInfo/DYNAMIC_TIME_ZONE_INFORMATION
+  check_size<sizeof(TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION), 80 + sizeof(uint8_t) + 8 - (80 + sizeof(uint8_t)) % 8> __System_TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATIONSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION, "System", "TimeZoneInfo/DYNAMIC_TIME_ZONE_INFORMATION");

@@ -39,6 +39,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::.ctor()
     static VoipAudioSourceHiLevel::FilterReadDelegate* New_ctor();
   }; // Oculus.Platform.VoipAudioSourceHiLevel/FilterReadDelegate
+  check_size<sizeof(VoipAudioSourceHiLevel::FilterReadDelegate), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Oculus_Platform_VoipAudioSourceHiLevel_FilterReadDelegateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate*, "Oculus.Platform", "VoipAudioSourceHiLevel/FilterReadDelegate");

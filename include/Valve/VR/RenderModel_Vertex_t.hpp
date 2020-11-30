@@ -29,6 +29,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: RenderModel_Vertex_t
     constexpr RenderModel_Vertex_t(Valve::VR::HmdVector3_t vPosition_ = {}, Valve::VR::HmdVector3_t vNormal_ = {}, float rfTextureCoord0_ = {}, float rfTextureCoord1_ = {}) noexcept : vPosition{vPosition_}, vNormal{vNormal_}, rfTextureCoord0{rfTextureCoord0_}, rfTextureCoord1{rfTextureCoord1_} {}
   }; // Valve.VR.RenderModel_Vertex_t
+  check_size<sizeof(RenderModel_Vertex_t), 28 + sizeof(float) + 8 - (28 + sizeof(float)) % 8> __Valve_VR_RenderModel_Vertex_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_Vertex_t, "Valve.VR", "RenderModel_Vertex_t");

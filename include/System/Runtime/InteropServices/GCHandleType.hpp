@@ -47,6 +47,7 @@ namespace System::Runtime::InteropServices {
     // Set static field: static public System.Runtime.InteropServices.GCHandleType Pinned
     static void _set_Pinned(System::Runtime::InteropServices::GCHandleType value);
   }; // System.Runtime.InteropServices.GCHandleType
+  check_size<sizeof(GCHandleType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Runtime_InteropServices_GCHandleTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::GCHandleType, "System.Runtime.InteropServices", "GCHandleType");

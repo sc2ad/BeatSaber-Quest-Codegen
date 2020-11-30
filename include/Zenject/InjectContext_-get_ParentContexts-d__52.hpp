@@ -91,6 +91,7 @@ namespace Zenject {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // Zenject.InjectContext/<get_ParentContexts>d__52
+  check_size<sizeof(InjectContext::$get_ParentContexts$d__52), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __Zenject_InjectContext_$get_ParentContexts$d__52SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectContext::$get_ParentContexts$d__52*, "Zenject", "InjectContext/<get_ParentContexts>d__52");

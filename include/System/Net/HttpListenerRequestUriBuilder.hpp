@@ -140,6 +140,7 @@ namespace System::Net {
       LogWarning(methodName, message, {args...});
     }
   }; // System.Net.HttpListenerRequestUriBuilder
+  check_size<sizeof(HttpListenerRequestUriBuilder), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __System_Net_HttpListenerRequestUriBuilderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerRequestUriBuilder*, "System.Net", "HttpListenerRequestUriBuilder");

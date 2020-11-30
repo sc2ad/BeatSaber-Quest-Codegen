@@ -60,6 +60,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // UnityEngine.TestTools.TestRunner.PlaymodeTestsController/<Start>d__12
+  check_size<sizeof(PlaymodeTestsController::$Start$d__12), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __UnityEngine_TestTools_TestRunner_PlaymodeTestsController_$Start$d__12SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$Start$d__12*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsController/<Start>d__12");

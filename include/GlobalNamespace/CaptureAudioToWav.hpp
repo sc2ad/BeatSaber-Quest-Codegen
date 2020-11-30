@@ -65,6 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static CaptureAudioToWav* New_ctor();
   }; // CaptureAudioToWav
+  check_size<sizeof(CaptureAudioToWav), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_CaptureAudioToWavSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CaptureAudioToWav*, "", "CaptureAudioToWav");

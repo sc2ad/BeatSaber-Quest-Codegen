@@ -45,6 +45,7 @@ namespace System {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.LocalDataStoreSlot
+  check_size<sizeof(LocalDataStoreSlot), 32 + sizeof(int64_t) + 8 - (32 + sizeof(int64_t)) % 8> __System_LocalDataStoreSlotSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreSlot*, "System", "LocalDataStoreSlot");

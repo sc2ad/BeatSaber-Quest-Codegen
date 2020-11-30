@@ -79,6 +79,7 @@ namespace Mono::Net {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // Mono.Net.CFObject
+  check_size<sizeof(CFObject), 16 + sizeof(System::IntPtr) + 8 - (16 + sizeof(System::IntPtr)) % 8> __Mono_Net_CFObjectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFObject*, "Mono.Net", "CFObject");

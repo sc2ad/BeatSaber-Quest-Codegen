@@ -98,6 +98,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SongProgressUIController* New_ctor();
   }; // SongProgressUIController
+  check_size<sizeof(SongProgressUIController), 104 + sizeof(UnityEngine::Vector2) + 8 - (104 + sizeof(UnityEngine::Vector2)) % 8> __GlobalNamespace_SongProgressUIControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongProgressUIController*, "", "SongProgressUIController");

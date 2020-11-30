@@ -34,23 +34,28 @@ namespace System::Collections::Generic {
     // Base method: System.Void EqualityComparer_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static SByteEnumEqualityComparer_1<T>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<SByteEnumEqualityComparer_1<T>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("SByteEnumEqualityComparer_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<SByteEnumEqualityComparer_1<T>*>());
     }
     // public System.Void .ctor(System.Runtime.Serialization.SerializationInfo information, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.EnumEqualityComparer`1
     // Base method: System.Void EnumEqualityComparer_1::.ctor(System.Runtime.Serialization.SerializationInfo information, System.Runtime.Serialization.StreamingContext context)
     static SByteEnumEqualityComparer_1<T>* New_ctor(System::Runtime::Serialization::SerializationInfo* information, System::Runtime::Serialization::StreamingContext context) {
-      return THROW_UNLESS(il2cpp_utils::New<SByteEnumEqualityComparer_1<T>*>(information, context));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("SByteEnumEqualityComparer_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<SByteEnumEqualityComparer_1<T>*>(information, context));
     }
     // public override System.Int32 GetHashCode(T obj)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.EnumEqualityComparer`1
     // Base method: System.Int32 EnumEqualityComparer_1::GetHashCode(T obj)
     int GetHashCode(T obj) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "GetHashCode", obj));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("SByteEnumEqualityComparer_1").WithContext("GetHashCode");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "GetHashCode", {}, ::il2cpp_utils::ExtractTypes(obj)));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, obj);
     }
   }; // System.Collections.Generic.SByteEnumEqualityComparer`1
+  // Could not write size check! Type: System.Collections.Generic.SByteEnumEqualityComparer`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::SByteEnumEqualityComparer_1, "System.Collections.Generic", "SByteEnumEqualityComparer`1");
 #pragma pack(pop)

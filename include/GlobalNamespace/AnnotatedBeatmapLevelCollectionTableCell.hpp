@@ -127,6 +127,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AnnotatedBeatmapLevelCollectionTableCell* New_ctor();
   }; // AnnotatedBeatmapLevelCollectionTableCell
+  check_size<sizeof(AnnotatedBeatmapLevelCollectionTableCell), 184 + sizeof(void*) + 8 - (184 + sizeof(void*)) % 8> __GlobalNamespace_AnnotatedBeatmapLevelCollectionTableCellSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnnotatedBeatmapLevelCollectionTableCell*, "", "AnnotatedBeatmapLevelCollectionTableCell");

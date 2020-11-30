@@ -59,6 +59,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation* New_ctor();
   }; // BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation
+  check_size<sizeof(BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_BtsResultsEnvironmentController_BTSResultCharacterPlaceWithAnimationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*, "", "BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation");

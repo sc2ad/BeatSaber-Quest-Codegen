@@ -56,6 +56,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Base method: System.Collections.IEnumerable UnityWorkItem::PerformWork()
     System::Collections::IEnumerable* PerformWork();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.DefaultTestWorkItem
+  check_size<sizeof(DefaultTestWorkItem), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __UnityEngine_TestRunner_NUnitExtensions_Runner_DefaultTestWorkItemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "DefaultTestWorkItem");

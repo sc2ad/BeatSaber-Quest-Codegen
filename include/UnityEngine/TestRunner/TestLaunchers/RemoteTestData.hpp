@@ -83,6 +83,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Offset: 0x118A8B4
     static RemoteTestData* New_ctor(NUnit::Framework::Interfaces::ITest* test);
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestData
+  check_size<sizeof(RemoteTestData), 128 + sizeof(void*) + 8 - (128 + sizeof(void*)) % 8> __UnityEngine_TestRunner_TestLaunchers_RemoteTestDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestData*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestData");

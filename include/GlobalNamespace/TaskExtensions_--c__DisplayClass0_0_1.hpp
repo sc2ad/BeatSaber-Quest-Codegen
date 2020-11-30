@@ -35,16 +35,20 @@ namespace GlobalNamespace {
     // System.Void <WithCancellation>b__0()
     // Offset: 0xFFFFFFFF
     void $WithCancellation$b__0() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "<WithCancellation>b__0"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass0_0_1").WithContext("<WithCancellation>b__0");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "<WithCancellation>b__0", {}, ::il2cpp_utils::ExtractTypes())));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TaskExtensions::$$c__DisplayClass0_0_1<T>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<TaskExtensions::$$c__DisplayClass0_0_1<T>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass0_0_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<TaskExtensions::$$c__DisplayClass0_0_1<T>*>());
     }
   }; // TaskExtensions/<>c__DisplayClass0_0`1
+  // Could not write size check! Type: TaskExtensions/<>c__DisplayClass0_0`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::TaskExtensions::$$c__DisplayClass0_0_1, "", "TaskExtensions/<>c__DisplayClass0_0`1");
 #pragma pack(pop)

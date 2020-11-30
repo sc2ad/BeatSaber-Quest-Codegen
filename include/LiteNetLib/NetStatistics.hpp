@@ -76,6 +76,7 @@ namespace LiteNetLib {
     // Base method: System.Void Object::.ctor()
     static NetStatistics* New_ctor();
   }; // LiteNetLib.NetStatistics
+  check_size<sizeof(NetStatistics), 48 + sizeof(int64_t) + 8 - (48 + sizeof(int64_t)) % 8> __LiteNetLib_NetStatisticsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetStatistics*, "LiteNetLib", "NetStatistics");

@@ -107,6 +107,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static HealthWarningViewController* New_ctor();
   }; // HealthWarningViewController
+  check_size<sizeof(HealthWarningViewController), 176 + sizeof(void*) + 8 - (176 + sizeof(void*)) % 8> __GlobalNamespace_HealthWarningViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningViewController*, "", "HealthWarningViewController");

@@ -67,6 +67,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static ButtonStaticAnimations* New_ctor();
   }; // HMUI.ButtonStaticAnimations
+  check_size<sizeof(ButtonStaticAnimations), 64 + sizeof(bool) + 8 - (64 + sizeof(bool)) % 8> __HMUI_ButtonStaticAnimationsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonStaticAnimations*, "HMUI", "ButtonStaticAnimations");

@@ -123,6 +123,7 @@ namespace RootMotion {
     // Base method: System.Void Object::.ctor()
     static HumanoidBaker* New_ctor();
   }; // RootMotion.HumanoidBaker
+  check_size<sizeof(HumanoidBaker), 264 + sizeof(UnityEngine::Quaternion) + 8 - (264 + sizeof(UnityEngine::Quaternion)) % 8> __RootMotion_HumanoidBakerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::HumanoidBaker*, "RootMotion", "HumanoidBaker");

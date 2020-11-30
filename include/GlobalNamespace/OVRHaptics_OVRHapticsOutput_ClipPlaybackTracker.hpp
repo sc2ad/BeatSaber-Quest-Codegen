@@ -42,6 +42,7 @@ namespace GlobalNamespace {
     // Offset: 0x11B9F24
     static OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker* New_ctor(GlobalNamespace::OVRHapticsClip* clip);
   }; // OVRHaptics/OVRHapticsOutput/ClipPlaybackTracker
+  check_size<sizeof(OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_OVRHaptics_OVRHapticsOutput_ClipPlaybackTrackerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*, "", "OVRHaptics/OVRHapticsOutput/ClipPlaybackTracker");

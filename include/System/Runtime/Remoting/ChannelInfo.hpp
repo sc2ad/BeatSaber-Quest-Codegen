@@ -38,6 +38,7 @@ namespace System::Runtime::Remoting {
     // Base method: System.Object[] IChannelInfo::get_ChannelData()
     ::Array<::Il2CppObject*>* get_ChannelData();
   }; // System.Runtime.Remoting.ChannelInfo
+  check_size<sizeof(ChannelInfo), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Runtime_Remoting_ChannelInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ChannelInfo*, "System.Runtime.Remoting", "ChannelInfo");

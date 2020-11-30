@@ -25,6 +25,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     // Base method: System.Void Object::.ctor()
     static Ed448::PointPrecomp* New_ctor();
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed448/PointPrecomp
+  check_size<sizeof(Ed448::PointPrecomp), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_EC_Rfc8032_Ed448_PointPrecompSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed448/PointPrecomp");

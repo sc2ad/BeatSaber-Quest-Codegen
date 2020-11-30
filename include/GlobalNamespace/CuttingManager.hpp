@@ -51,6 +51,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static CuttingManager* New_ctor();
   }; // CuttingManager
+  check_size<sizeof(CuttingManager), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_CuttingManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CuttingManager*, "", "CuttingManager");

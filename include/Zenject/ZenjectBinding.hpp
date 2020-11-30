@@ -66,6 +66,7 @@ namespace Zenject {
       // Set static field: static public Zenject.ZenjectBinding/BindTypes BaseType
       static void _set_BaseType(Zenject::ZenjectBinding::BindTypes value);
     }; // Zenject.ZenjectBinding/BindTypes
+    check_size<sizeof(ZenjectBinding::BindTypes), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Zenject_ZenjectBinding_BindTypesSizeCheck;
     // private UnityEngine.Component[] _components
     // Offset: 0x18
     ::Array<UnityEngine::Component*>* components;
@@ -120,6 +121,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static ZenjectBinding* New_ctor();
   }; // Zenject.ZenjectBinding
+  check_size<sizeof(ZenjectBinding), 56 + sizeof(Zenject::ZenjectBinding::BindTypes) + 8 - (56 + sizeof(Zenject::ZenjectBinding::BindTypes)) % 8> __Zenject_ZenjectBindingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectBinding*, "Zenject", "ZenjectBinding");

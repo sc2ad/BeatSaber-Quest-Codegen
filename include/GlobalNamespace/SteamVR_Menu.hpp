@@ -131,6 +131,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SteamVR_Menu* New_ctor();
   }; // SteamVR_Menu
+  check_size<sizeof(SteamVR_Menu), 140 + sizeof(bool) + 8 - (140 + sizeof(bool)) % 8> __GlobalNamespace_SteamVR_MenuSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Menu*, "", "SteamVR_Menu");

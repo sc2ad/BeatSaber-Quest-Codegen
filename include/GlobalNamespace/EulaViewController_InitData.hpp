@@ -24,6 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A0F1A0
     static EulaViewController::InitData* New_ctor(bool showDoNotAgreeButton);
   }; // EulaViewController/InitData
+  check_size<sizeof(EulaViewController::InitData), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __GlobalNamespace_EulaViewController_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EulaViewController::InitData*, "", "EulaViewController/InitData");

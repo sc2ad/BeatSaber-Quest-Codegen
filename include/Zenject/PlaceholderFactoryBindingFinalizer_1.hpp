@@ -35,16 +35,20 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     // Offset: 0xFFFFFFFF
     static PlaceholderFactoryBindingFinalizer_1<TContract>* New_ctor(Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo) {
-      return THROW_UNLESS(il2cpp_utils::New<PlaceholderFactoryBindingFinalizer_1<TContract>*>(bindInfo, factoryBindInfo));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PlaceholderFactoryBindingFinalizer_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<PlaceholderFactoryBindingFinalizer_1<TContract>*>(bindInfo, factoryBindInfo));
     }
     // protected override System.Void OnFinalizeBinding(Zenject.DiContainer container)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.ProviderBindingFinalizer
     // Base method: System.Void ProviderBindingFinalizer::OnFinalizeBinding(Zenject.DiContainer container)
     void OnFinalizeBinding(Zenject::DiContainer* container) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnFinalizeBinding", container));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PlaceholderFactoryBindingFinalizer_1").WithContext("OnFinalizeBinding");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "OnFinalizeBinding", {}, ::il2cpp_utils::ExtractTypes(container)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, container);
     }
   }; // Zenject.PlaceholderFactoryBindingFinalizer`1
+  // Could not write size check! Type: Zenject.PlaceholderFactoryBindingFinalizer`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::PlaceholderFactoryBindingFinalizer_1, "Zenject", "PlaceholderFactoryBindingFinalizer`1");
 #pragma pack(pop)

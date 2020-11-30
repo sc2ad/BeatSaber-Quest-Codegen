@@ -100,6 +100,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static TutorialPause* New_ctor();
   }; // TutorialPause
+  check_size<sizeof(TutorialPause), 56 + sizeof(bool) + 8 - (56 + sizeof(bool)) % 8> __GlobalNamespace_TutorialPauseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialPause*, "", "TutorialPause");

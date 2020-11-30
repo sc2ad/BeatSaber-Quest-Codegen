@@ -57,6 +57,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Base method: System.Void Object::.ctor()
     static TestResultRendererCallback* New_ctor();
   }; // UnityEngine.TestTools.TestRunner.Callbacks.TestResultRendererCallback
+  check_size<sizeof(TestResultRendererCallback), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_TestTools_TestRunner_Callbacks_TestResultRendererCallbackSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRendererCallback*, "UnityEngine.TestTools.TestRunner.Callbacks", "TestResultRendererCallback");

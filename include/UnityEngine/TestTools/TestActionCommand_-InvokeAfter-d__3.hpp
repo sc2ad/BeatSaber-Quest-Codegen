@@ -75,6 +75,7 @@ namespace UnityEngine::TestTools {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // UnityEngine.TestTools.TestActionCommand/<InvokeAfter>d__3
+  check_size<sizeof(TestActionCommand::$InvokeAfter$d__3), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __UnityEngine_TestTools_TestActionCommand_$InvokeAfter$d__3SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestActionCommand::$InvokeAfter$d__3*, "UnityEngine.TestTools", "TestActionCommand/<InvokeAfter>d__3");

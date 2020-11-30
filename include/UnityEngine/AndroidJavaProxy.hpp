@@ -74,6 +74,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // UnityEngine.AndroidJavaProxy
+  check_size<sizeof(AndroidJavaProxy), 24 + sizeof(System::IntPtr) + 8 - (24 + sizeof(System::IntPtr)) % 8> __UnityEngine_AndroidJavaProxySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaProxy*, "UnityEngine", "AndroidJavaProxy");

@@ -41,6 +41,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.ShareMediaStatus Canceled
     static void _set_Canceled(Oculus::Platform::ShareMediaStatus value);
   }; // Oculus.Platform.ShareMediaStatus
+  check_size<sizeof(ShareMediaStatus), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Oculus_Platform_ShareMediaStatusSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ShareMediaStatus, "Oculus.Platform", "ShareMediaStatus");

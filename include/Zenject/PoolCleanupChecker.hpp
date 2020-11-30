@@ -52,6 +52,7 @@ namespace Zenject {
     // Base method: System.Void ILateDisposable::LateDispose()
     void LateDispose();
   }; // Zenject.PoolCleanupChecker
+  check_size<sizeof(PoolCleanupChecker), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Zenject_PoolCleanupCheckerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolCleanupChecker*, "Zenject", "PoolCleanupChecker");

@@ -85,6 +85,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestResult> TestResult::get_Children()
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestResult*>* get_Children();
   }; // NUnit.Framework.Internal.TestSuiteResult
+  check_size<sizeof(TestSuiteResult), 112 + sizeof(void*) + 8 - (112 + sizeof(void*)) % 8> __NUnit_Framework_Internal_TestSuiteResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestSuiteResult*, "NUnit.Framework.Internal", "TestSuiteResult");

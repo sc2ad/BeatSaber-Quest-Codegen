@@ -168,6 +168,7 @@ namespace System::Xml {
     // Base method: System.Void XmlWriter::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // System.Xml.XmlAsyncCheckWriter
+  check_size<sizeof(XmlAsyncCheckWriter), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Xml_XmlAsyncCheckWriterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlAsyncCheckWriter*, "System.Xml", "XmlAsyncCheckWriter");

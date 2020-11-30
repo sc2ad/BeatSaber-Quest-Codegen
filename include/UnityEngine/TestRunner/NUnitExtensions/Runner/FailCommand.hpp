@@ -67,6 +67,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Base method: System.Collections.IEnumerable IEnumerableTestMethodCommand::ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
     System::Collections::IEnumerable* ExecuteEnumerable(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.FailCommand
+  check_size<sizeof(FailCommand), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __UnityEngine_TestRunner_NUnitExtensions_Runner_FailCommandSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::FailCommand*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "FailCommand");

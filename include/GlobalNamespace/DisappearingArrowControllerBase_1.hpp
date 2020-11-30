@@ -84,37 +84,51 @@ namespace GlobalNamespace {
     // protected T get_gameNoteController()
     // Offset: 0xFFFFFFFF
     T get_gameNoteController() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_gameNoteController"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("DisappearingArrowControllerBase_1").WithContext("get_gameNoteController");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "get_gameNoteController", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // protected System.Void Awake()
     // Offset: 0xFFFFFFFF
     void Awake() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Awake"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("DisappearingArrowControllerBase_1").WithContext("Awake");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Awake", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // protected System.Void OnDestroy()
     // Offset: 0xFFFFFFFF
     void OnDestroy() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnDestroy"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("DisappearingArrowControllerBase_1").WithContext("OnDestroy");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "OnDestroy", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // private System.Void CalculateMinMaxDistance()
     // Offset: 0xFFFFFFFF
     void CalculateMinMaxDistance() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "CalculateMinMaxDistance"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("DisappearingArrowControllerBase_1").WithContext("CalculateMinMaxDistance");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "CalculateMinMaxDistance", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // private System.Void HandleNoteMovementNoteDidMoveInJumpPhase()
     // Offset: 0xFFFFFFFF
     void HandleNoteMovementNoteDidMoveInJumpPhase() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "HandleNoteMovementNoteDidMoveInJumpPhase"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("DisappearingArrowControllerBase_1").WithContext("HandleNoteMovementNoteDidMoveInJumpPhase");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "HandleNoteMovementNoteDidMoveInJumpPhase", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // private System.Void HandleGameNoteControllerDidInit(T gameNoteController)
     // Offset: 0xFFFFFFFF
     void HandleGameNoteControllerDidInit(T gameNoteController) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "HandleGameNoteControllerDidInit", gameNoteController));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("DisappearingArrowControllerBase_1").WithContext("HandleGameNoteControllerDidInit");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "HandleGameNoteControllerDidInit", {}, ::il2cpp_utils::ExtractTypes(gameNoteController)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, gameNoteController);
     }
     // private System.Void SetArrowTransparency(System.Single arrowTransparency)
     // Offset: 0xFFFFFFFF
     void SetArrowTransparency(float arrowTransparency) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "SetArrowTransparency", arrowTransparency));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("DisappearingArrowControllerBase_1").WithContext("SetArrowTransparency");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "SetArrowTransparency", {}, ::il2cpp_utils::ExtractTypes(arrowTransparency)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, arrowTransparency);
     }
     // protected System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -125,9 +139,11 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()
     static DisappearingArrowControllerBase_1<T>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<DisappearingArrowControllerBase_1<T>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("DisappearingArrowControllerBase_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<DisappearingArrowControllerBase_1<T>*>());
     }
   }; // DisappearingArrowControllerBase`1
+  // Could not write size check! Type: DisappearingArrowControllerBase`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::DisappearingArrowControllerBase_1, "", "DisappearingArrowControllerBase`1");
 #pragma pack(pop)

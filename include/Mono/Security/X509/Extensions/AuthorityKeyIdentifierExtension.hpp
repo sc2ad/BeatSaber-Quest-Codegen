@@ -44,6 +44,7 @@ namespace Mono::Security::X509::Extensions {
     // Base method: System.String X509Extension::ToString()
     ::Il2CppString* ToString();
   }; // Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtension
+  check_size<sizeof(AuthorityKeyIdentifierExtension), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Mono_Security_X509_Extensions_AuthorityKeyIdentifierExtensionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension*, "Mono.Security.X509.Extensions", "AuthorityKeyIdentifierExtension");

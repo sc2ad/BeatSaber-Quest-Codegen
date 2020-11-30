@@ -104,6 +104,7 @@ namespace System::Runtime::Remoting::Proxies {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.Runtime.Remoting.Proxies.RemotingProxy
+  check_size<sizeof(RemotingProxy), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __System_Runtime_Remoting_Proxies_RemotingProxySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::RemotingProxy*, "System.Runtime.Remoting.Proxies", "RemotingProxy");

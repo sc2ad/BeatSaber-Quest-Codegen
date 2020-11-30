@@ -25,6 +25,7 @@ namespace GlobalNamespace {
     // Offset: 0xFC0C84
     static SaberManager::InitData* New_ctor(bool oneSaberMode, GlobalNamespace::SaberType oneSaberType);
   }; // SaberManager/InitData
+  check_size<sizeof(SaberManager::InitData), 20 + sizeof(GlobalNamespace::SaberType) + 8 - (20 + sizeof(GlobalNamespace::SaberType)) % 8> __GlobalNamespace_SaberManager_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberManager::InitData*, "", "SaberManager/InitData");

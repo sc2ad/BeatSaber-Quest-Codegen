@@ -215,6 +215,7 @@ namespace System::Text::RegularExpressions {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Text.RegularExpressions.Regex
+  check_size<sizeof(Regex), 104 + sizeof(bool) + 8 - (104 + sizeof(bool)) % 8> __System_Text_RegularExpressions_RegexSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::Regex*, "System.Text.RegularExpressions", "Regex");

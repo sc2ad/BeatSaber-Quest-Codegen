@@ -63,6 +63,7 @@ namespace System::Text::RegularExpressions {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // System.Text.RegularExpressions.GroupEnumerator
+  check_size<sizeof(GroupEnumerator), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __System_Text_RegularExpressions_GroupEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::GroupEnumerator*, "System.Text.RegularExpressions", "GroupEnumerator");

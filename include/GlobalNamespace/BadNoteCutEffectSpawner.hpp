@@ -63,6 +63,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BadNoteCutEffectSpawner* New_ctor();
   }; // BadNoteCutEffectSpawner
+  check_size<sizeof(BadNoteCutEffectSpawner), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_BadNoteCutEffectSpawnerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BadNoteCutEffectSpawner*, "", "BadNoteCutEffectSpawner");

@@ -51,6 +51,7 @@ namespace UnityEngine::XR {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.XR.InputFeatureUsage
+  check_size<sizeof(InputFeatureUsage), 8 + sizeof(UnityEngine::XR::InputFeatureType) + 8 - (8 + sizeof(UnityEngine::XR::InputFeatureType)) % 8> __UnityEngine_XR_InputFeatureUsageSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputFeatureUsage, "UnityEngine.XR", "InputFeatureUsage");

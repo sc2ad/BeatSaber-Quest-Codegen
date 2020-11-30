@@ -58,6 +58,7 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     static DecoderFallback* New_ctor();
   }; // System.Text.DecoderFallback
+  check_size<sizeof(DecoderFallback), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __System_Text_DecoderFallbackSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderFallback*, "System.Text", "DecoderFallback");

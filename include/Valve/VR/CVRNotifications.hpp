@@ -48,6 +48,7 @@ namespace Valve::VR {
     // Offset: 0x1369CD0
     Valve::VR::EVRNotificationError RemoveNotification(uint notificationId);
   }; // Valve.VR.CVRNotifications
+  check_size<sizeof(CVRNotifications), 16 + sizeof(Valve::VR::IVRNotifications) + 8 - (16 + sizeof(Valve::VR::IVRNotifications)) % 8> __Valve_VR_CVRNotificationsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRNotifications*, "Valve.VR", "CVRNotifications");

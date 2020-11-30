@@ -73,6 +73,7 @@ namespace UnityEngine::EventSystems {
       // Set static field: static public UnityEngine.EventSystems.PointerEventData/InputButton Middle
       static void _set_Middle(UnityEngine::EventSystems::PointerEventData::InputButton value);
     }; // UnityEngine.EventSystems.PointerEventData/InputButton
+    check_size<sizeof(PointerEventData::InputButton), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_EventSystems_PointerEventData_InputButtonSizeCheck;
     // private UnityEngine.GameObject <pointerEnter>k__BackingField
     // Offset: 0x20
     UnityEngine::GameObject* pointerEnter;
@@ -279,6 +280,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.EventSystems.PointerEventData
+  check_size<sizeof(PointerEventData), 300 + sizeof(UnityEngine::EventSystems::PointerEventData::InputButton) + 8 - (300 + sizeof(UnityEngine::EventSystems::PointerEventData::InputButton)) % 8> __UnityEngine_EventSystems_PointerEventDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerEventData*, "UnityEngine.EventSystems", "PointerEventData");

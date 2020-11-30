@@ -119,6 +119,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static HealthWarningFlowCoordinator* New_ctor();
   }; // HealthWarningFlowCoordinator
+  check_size<sizeof(HealthWarningFlowCoordinator), 232 + sizeof(void*) + 8 - (232 + sizeof(void*)) % 8> __GlobalNamespace_HealthWarningFlowCoordinatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningFlowCoordinator*, "", "HealthWarningFlowCoordinator");

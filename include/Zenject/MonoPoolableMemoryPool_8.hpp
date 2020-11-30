@@ -41,17 +41,23 @@ namespace Zenject {
     // protected System.Void OnCreated(TValue item)
     // Offset: 0xFFFFFFFF
     void OnCreated(TValue item) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnCreated", item));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MonoPoolableMemoryPool_8").WithContext("OnCreated");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "OnCreated", {}, ::il2cpp_utils::ExtractTypes(item)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
     // protected System.Void OnDestroyed(TValue item)
     // Offset: 0xFFFFFFFF
     void OnDestroyed(TValue item) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnDestroyed", item));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MonoPoolableMemoryPool_8").WithContext("OnDestroyed");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "OnDestroyed", {}, ::il2cpp_utils::ExtractTypes(item)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
     // protected System.Void OnDespawned(TValue item)
     // Offset: 0xFFFFFFFF
     void OnDespawned(TValue item) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnDespawned", item));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MonoPoolableMemoryPool_8").WithContext("OnDespawned");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "OnDespawned", {}, ::il2cpp_utils::ExtractTypes(item)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -60,16 +66,20 @@ namespace Zenject {
     // Base method: System.Void MemoryPoolBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static MonoPoolableMemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>* New_ctor() {
-      return THROW_UNLESS((il2cpp_utils::New<MonoPoolableMemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>*>()));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MonoPoolableMemoryPool_8").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<MonoPoolableMemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>*>()));
     }
     // protected override System.Void Reinitialize(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6, TParam7 p7, TValue item)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPool`8
     // Base method: System.Void MemoryPool_8::Reinitialize(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6, TParam7 p7, TValue item)
     void Reinitialize(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6, TParam7 p7, TValue item) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Reinitialize", p1, p2, p3, p4, p5, p6, p7, item));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MonoPoolableMemoryPool_8").WithContext("Reinitialize");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Reinitialize", {}, ::il2cpp_utils::ExtractTypes(p1, p2, p3, p4, p5, p6, p7, item)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, p1, p2, p3, p4, p5, p6, p7, item);
     }
   }; // Zenject.MonoPoolableMemoryPool`8
+  // Could not write size check! Type: Zenject.MonoPoolableMemoryPool`8 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::MonoPoolableMemoryPool_8, "Zenject", "MonoPoolableMemoryPool`8");
 #pragma pack(pop)

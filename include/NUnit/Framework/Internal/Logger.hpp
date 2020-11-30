@@ -80,6 +80,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x1957B10
     static void _cctor();
   }; // NUnit.Framework.Internal.Logger
+  check_size<sizeof(Logger), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __NUnit_Framework_Internal_LoggerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Logger*, "NUnit.Framework.Internal", "Logger");

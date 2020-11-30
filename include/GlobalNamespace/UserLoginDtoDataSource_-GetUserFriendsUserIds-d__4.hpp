@@ -58,6 +58,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // UserLoginDtoDataSource/<GetUserFriendsUserIds>d__4
+  check_size<sizeof(UserLoginDtoDataSource::$GetUserFriendsUserIds$d__4), 40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>) + 8 - (40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>)) % 8> __GlobalNamespace_UserLoginDtoDataSource_$GetUserFriendsUserIds$d__4SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserLoginDtoDataSource::$GetUserFriendsUserIds$d__4, "", "UserLoginDtoDataSource/<GetUserFriendsUserIds>d__4");

@@ -17,7 +17,10 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::Array<T>* CreateOrEnlargeArray(::Array<T>* array, int minimumCapacity) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("", "ArrayHelpers", "CreateOrEnlargeArray", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, array, minimumCapacity)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ArrayHelpers").WithContext("CreateOrEnlargeArray");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "ArrayHelpers", il2cpp_utils::NoArgClass<::Array<T>*>(), "CreateOrEnlargeArray", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(array, minimumCapacity))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, array, minimumCapacity);
     }
   }; // ArrayHelpers
 }

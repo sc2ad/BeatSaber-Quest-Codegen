@@ -12,6 +12,7 @@ namespace System::Threading::Tasks {
   template<typename TResult>
   class SystemThreadingTasks_FutureDebugView_1 : public ::Il2CppObject {
   }; // System.Threading.Tasks.SystemThreadingTasks_FutureDebugView`1
+  // Could not write size check! Type: System.Threading.Tasks.SystemThreadingTasks_FutureDebugView`1 is generic!
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Threading::Tasks::SystemThreadingTasks_FutureDebugView_1, "System.Threading.Tasks", "SystemThreadingTasks_FutureDebugView`1");

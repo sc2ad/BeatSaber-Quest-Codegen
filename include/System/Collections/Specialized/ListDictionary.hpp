@@ -136,6 +136,7 @@ namespace System::Collections::Specialized {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Collections.Specialized.ListDictionary
+  check_size<sizeof(ListDictionary), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Collections_Specialized_ListDictionarySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::ListDictionary*, "System.Collections.Specialized", "ListDictionary");

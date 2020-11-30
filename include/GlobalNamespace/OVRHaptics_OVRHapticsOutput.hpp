@@ -82,6 +82,7 @@ namespace GlobalNamespace {
     // Offset: 0x11B9DA4
     void Clear();
   }; // OVRHaptics/OVRHapticsOutput
+  check_size<sizeof(OVRHaptics::OVRHapticsOutput), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __GlobalNamespace_OVRHaptics_OVRHapticsOutputSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHaptics::OVRHapticsOutput*, "", "OVRHaptics/OVRHapticsOutput");

@@ -43,6 +43,7 @@ namespace System {
     // Set static field: static public System.TypeSpec/DisplayNameFormat NO_MODIFIERS
     static void _set_NO_MODIFIERS(System::TypeSpec::DisplayNameFormat value);
   }; // System.TypeSpec/DisplayNameFormat
+  check_size<sizeof(TypeSpec::DisplayNameFormat), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_TypeSpec_DisplayNameFormatSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TypeSpec::DisplayNameFormat, "System", "TypeSpec/DisplayNameFormat");

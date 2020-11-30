@@ -281,6 +281,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.SystemLanguage Hungarian
     static void _set_Hungarian(UnityEngine::SystemLanguage value);
   }; // UnityEngine.SystemLanguage
+  check_size<sizeof(SystemLanguage), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_SystemLanguageSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SystemLanguage, "UnityEngine", "SystemLanguage");

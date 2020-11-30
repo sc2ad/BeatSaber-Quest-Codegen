@@ -29,6 +29,7 @@ namespace UnityEngine::Scripting::APIUpdating {
     // Offset: 0x16C0440
     static MovedFromAttribute* New_ctor(::Il2CppString* sourceNamespace);
   }; // UnityEngine.Scripting.APIUpdating.MovedFromAttribute
+  check_size<sizeof(MovedFromAttribute), 16 + sizeof(UnityEngine::Scripting::APIUpdating::MovedFromAttributeData) + 8 - (16 + sizeof(UnityEngine::Scripting::APIUpdating::MovedFromAttributeData)) % 8> __UnityEngine_Scripting_APIUpdating_MovedFromAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::APIUpdating::MovedFromAttribute*, "UnityEngine.Scripting.APIUpdating", "MovedFromAttribute");

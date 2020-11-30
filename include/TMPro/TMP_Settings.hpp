@@ -251,6 +251,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static TMP_Settings* New_ctor();
   }; // TMPro.TMP_Settings
+  check_size<sizeof(TMP_Settings), 160 + sizeof(void*) + 8 - (160 + sizeof(void*)) % 8> __TMPro_TMP_SettingsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Settings*, "TMPro", "TMP_Settings");

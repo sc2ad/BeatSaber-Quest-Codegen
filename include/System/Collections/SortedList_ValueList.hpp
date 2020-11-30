@@ -146,6 +146,7 @@ namespace System::Collections {
     // Maps to method: RemoveAt
     void System_Collections_IList_RemoveAt(int index);
   }; // System.Collections.SortedList/ValueList
+  check_size<sizeof(SortedList::ValueList), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Collections_SortedList_ValueListSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList::ValueList*, "System.Collections", "SortedList/ValueList");

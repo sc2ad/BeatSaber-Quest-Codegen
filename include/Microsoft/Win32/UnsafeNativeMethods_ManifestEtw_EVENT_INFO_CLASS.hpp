@@ -43,6 +43,7 @@ namespace Microsoft::Win32 {
     // Set static field: static public Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EVENT_INFO_CLASS SetTraits
     static void _set_SetTraits(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::EVENT_INFO_CLASS value);
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EVENT_INFO_CLASS
+  check_size<sizeof(UnsafeNativeMethods::ManifestEtw::EVENT_INFO_CLASS), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Microsoft_Win32_UnsafeNativeMethods_ManifestEtw_EVENT_INFO_CLASSSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::EVENT_INFO_CLASS, "Microsoft.Win32", "UnsafeNativeMethods/ManifestEtw/EVENT_INFO_CLASS");

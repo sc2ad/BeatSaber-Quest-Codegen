@@ -34,6 +34,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static ConsoleCancelEventArgs* New_ctor();
   }; // System.ConsoleCancelEventArgs
+  check_size<sizeof(ConsoleCancelEventArgs), 20 + sizeof(bool) + 8 - (20 + sizeof(bool)) % 8> __System_ConsoleCancelEventArgsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ConsoleCancelEventArgs*, "System", "ConsoleCancelEventArgs");

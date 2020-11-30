@@ -47,6 +47,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EHiddenAreaMeshType k_eHiddenAreaMesh_Max
     static void _set_k_eHiddenAreaMesh_Max(Valve::VR::EHiddenAreaMeshType value);
   }; // Valve.VR.EHiddenAreaMeshType
+  check_size<sizeof(EHiddenAreaMeshType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Valve_VR_EHiddenAreaMeshTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EHiddenAreaMeshType, "Valve.VR", "EHiddenAreaMeshType");

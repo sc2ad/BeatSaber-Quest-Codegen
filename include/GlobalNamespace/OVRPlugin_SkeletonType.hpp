@@ -43,6 +43,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/SkeletonType HandRight
     static void _set_HandRight(GlobalNamespace::OVRPlugin::SkeletonType value);
   }; // OVRPlugin/SkeletonType
+  check_size<sizeof(OVRPlugin::SkeletonType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRPlugin_SkeletonTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::SkeletonType, "", "OVRPlugin/SkeletonType");

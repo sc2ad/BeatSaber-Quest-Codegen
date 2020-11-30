@@ -33,6 +33,7 @@ namespace UnityEngine::Scripting {
     // Base method: System.Void Object::.ctor()
     static UsedByNativeCodeAttribute* New_ctor();
   }; // UnityEngine.Scripting.UsedByNativeCodeAttribute
+  check_size<sizeof(UsedByNativeCodeAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_Scripting_UsedByNativeCodeAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::UsedByNativeCodeAttribute*, "UnityEngine.Scripting", "UsedByNativeCodeAttribute");

@@ -104,6 +104,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x1121180
     static ::Array<System::Diagnostics::Tracing::TraceLoggingTypeInfo*>* MakeArray(::Array<System::Type*>* types);
   }; // System.Diagnostics.Tracing.TraceLoggingEventTypes
+  check_size<sizeof(TraceLoggingEventTypes), 72 + sizeof(System::Diagnostics::Tracing::ConcurrentSet_2<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Diagnostics::Tracing::EventTags>, System::Diagnostics::Tracing::NameInfo*>) + 8 - (72 + sizeof(System::Diagnostics::Tracing::ConcurrentSet_2<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Diagnostics::Tracing::EventTags>, System::Diagnostics::Tracing::NameInfo*>)) % 8> __System_Diagnostics_Tracing_TraceLoggingEventTypesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::TraceLoggingEventTypes*, "System.Diagnostics.Tracing", "TraceLoggingEventTypes");

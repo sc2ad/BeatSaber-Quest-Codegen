@@ -71,6 +71,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Int32 Cast5Engine::DecryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
     int DecryptBlock(::Array<uint8_t>* src, int srcIndex, ::Array<uint8_t>* dst, int dstIndex);
   }; // Org.BouncyCastle.Crypto.Engines.Cast6Engine
+  check_size<sizeof(Cast6Engine), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Engines_Cast6EngineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::Cast6Engine*, "Org.BouncyCastle.Crypto.Engines", "Cast6Engine");

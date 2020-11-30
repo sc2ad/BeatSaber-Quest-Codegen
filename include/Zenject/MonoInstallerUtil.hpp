@@ -27,14 +27,20 @@ namespace Zenject {
     template<class TInstaller>
     static ::Il2CppString* GetDefaultResourcePath() {
       static_assert(std::is_convertible_v<TInstaller, Zenject::MonoInstallerBase*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Il2CppString*>("Zenject", "MonoInstallerUtil", "GetDefaultResourcePath", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MonoInstallerUtil").WithContext("GetDefaultResourcePath");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "MonoInstallerUtil", il2cpp_utils::NoArgClass<::Il2CppString*>(), "GetDefaultResourcePath", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
     }
     // static public TInstaller CreateInstaller(System.String resourcePath, Zenject.DiContainer container)
     // Offset: 0xFFFFFFFF
     template<class TInstaller>
     static TInstaller CreateInstaller(::Il2CppString* resourcePath, Zenject::DiContainer* container) {
       static_assert(std::is_convertible_v<TInstaller, Zenject::MonoInstallerBase*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TInstaller>("Zenject", "MonoInstallerUtil", "CreateInstaller", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()}, resourcePath, container)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MonoInstallerUtil").WithContext("CreateInstaller");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "MonoInstallerUtil", il2cpp_utils::NoArgClass<TInstaller>(), "CreateInstaller", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()}, ::il2cpp_utils::ExtractTypes(resourcePath, container))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<TInstaller, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, resourcePath, container);
     }
   }; // Zenject.MonoInstallerUtil
 }

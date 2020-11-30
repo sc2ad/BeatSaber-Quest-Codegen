@@ -29,6 +29,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static ScrollView::$$c__DisplayClass42_1* New_ctor();
   }; // HMUI.ScrollView/<>c__DisplayClass42_1
+  check_size<sizeof(ScrollView::$$c__DisplayClass42_1), 16 + sizeof(float) + 8 - (16 + sizeof(float)) % 8> __HMUI_ScrollView_$$c__DisplayClass42_1SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::$$c__DisplayClass42_1*, "HMUI", "ScrollView/<>c__DisplayClass42_1");

@@ -19,7 +19,10 @@ namespace LiteNetLib::Utils {
     // Offset: 0xFFFFFFFF
     template<class T>
     LiteNetLib::Utils::NetSerializer::FastCall_1<T>* Get() {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<LiteNetLib::Utils::NetSerializer::FastCall_1<T>*>(this, "Get", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("CustomType").WithContext("Get");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<LiteNetLib::Utils::NetSerializer::FastCall_1<T>*>(), "Get", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<LiteNetLib::Utils::NetSerializer::FastCall_1<T>*, false>(this, ___internal__method);
     }
     // protected System.Void .ctor()
     // Offset: 0x22B5724

@@ -228,6 +228,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Void IInternalMessage::set_TargetIdentity(System.Runtime.Remoting.Identity value)
     void System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity(System::Runtime::Remoting::Identity* value);
   }; // System.Runtime.Remoting.Messaging.MethodResponse
+  check_size<sizeof(MethodResponse), 128 + sizeof(void*) + 8 - (128 + sizeof(void*)) % 8> __System_Runtime_Remoting_Messaging_MethodResponseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MethodResponse*, "System.Runtime.Remoting.Messaging", "MethodResponse");

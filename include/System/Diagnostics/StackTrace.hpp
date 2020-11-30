@@ -107,6 +107,7 @@ namespace System::Diagnostics {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Diagnostics.StackTrace
+  check_size<sizeof(StackTrace), 32 + sizeof(bool) + 8 - (32 + sizeof(bool)) % 8> __System_Diagnostics_StackTraceSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackTrace*, "System.Diagnostics", "StackTrace");

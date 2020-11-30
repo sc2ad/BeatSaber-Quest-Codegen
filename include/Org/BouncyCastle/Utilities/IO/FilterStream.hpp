@@ -97,6 +97,7 @@ namespace Org::BouncyCastle::Utilities::IO {
     // Base method: System.Void Stream::WriteByte(System.Byte value)
     void WriteByte(uint8_t value);
   }; // Org.BouncyCastle.Utilities.IO.FilterStream
+  check_size<sizeof(FilterStream), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Org_BouncyCastle_Utilities_IO_FilterStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::FilterStream*, "Org.BouncyCastle.Utilities.IO", "FilterStream");

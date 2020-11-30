@@ -60,6 +60,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // RootMotion.FinalIK.RagdollUtility/<DisableRagdollSmooth>d__21
+  check_size<sizeof(RagdollUtility::$DisableRagdollSmooth$d__21), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __RootMotion_FinalIK_RagdollUtility_$DisableRagdollSmooth$d__21SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility::$DisableRagdollSmooth$d__21*, "RootMotion.FinalIK", "RagdollUtility/<DisableRagdollSmooth>d__21");

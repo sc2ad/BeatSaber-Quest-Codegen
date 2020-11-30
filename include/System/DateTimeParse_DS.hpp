@@ -259,6 +259,7 @@ namespace System {
     // Set static field: static public System.DateTimeParse/DS DX_NNY
     static void _set_DX_NNY(System::DateTimeParse::DS value);
   }; // System.DateTimeParse/DS
+  check_size<sizeof(DateTimeParse::DS), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_DateTimeParse_DSSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeParse::DS, "System", "DateTimeParse/DS");

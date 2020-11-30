@@ -60,6 +60,7 @@ namespace System {
     // Base method: System.Boolean ValueType::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
   }; // System.TypedReference
+  check_size<sizeof(TypedReference), 16 + sizeof(System::IntPtr) + 8 - (16 + sizeof(System::IntPtr)) % 8> __System_TypedReferenceSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TypedReference, "System", "TypedReference");

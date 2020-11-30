@@ -42,6 +42,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x104279C
     static int GetStrength(Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
   }; // Org.BouncyCastle.Crypto.Parameters.DHKeyGenerationParameters
+  check_size<sizeof(DHKeyGenerationParameters), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Parameters_DHKeyGenerationParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*, "Org.BouncyCastle.Crypto.Parameters", "DHKeyGenerationParameters");

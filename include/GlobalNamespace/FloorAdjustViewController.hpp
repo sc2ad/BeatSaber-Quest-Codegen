@@ -93,6 +93,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static FloorAdjustViewController* New_ctor();
   }; // FloorAdjustViewController
+  check_size<sizeof(FloorAdjustViewController), 152 + sizeof(float) + 8 - (152 + sizeof(float)) % 8> __GlobalNamespace_FloorAdjustViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloorAdjustViewController*, "", "FloorAdjustViewController");

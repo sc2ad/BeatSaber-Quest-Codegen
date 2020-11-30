@@ -70,6 +70,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static InputFieldViewStaticAnimations* New_ctor();
   }; // HMUI.InputFieldViewStaticAnimations
+  check_size<sizeof(InputFieldViewStaticAnimations), 72 + sizeof(bool) + 8 - (72 + sizeof(bool)) % 8> __HMUI_InputFieldViewStaticAnimationsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldViewStaticAnimations*, "HMUI", "InputFieldViewStaticAnimations");

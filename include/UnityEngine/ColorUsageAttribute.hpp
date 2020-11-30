@@ -35,6 +35,7 @@ namespace UnityEngine {
     // Offset: 0x168237C
     static ColorUsageAttribute* New_ctor(bool showAlpha);
   }; // UnityEngine.ColorUsageAttribute
+  check_size<sizeof(ColorUsageAttribute), 32 + sizeof(float) + 8 - (32 + sizeof(float)) % 8> __UnityEngine_ColorUsageAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ColorUsageAttribute*, "UnityEngine", "ColorUsageAttribute");

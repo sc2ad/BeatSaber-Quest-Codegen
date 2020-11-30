@@ -39,6 +39,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MulticolorAvatarPartPropertyBlockSetter::ColorData* New_ctor();
   }; // MulticolorAvatarPartPropertyBlockSetter/ColorData
+  check_size<sizeof(MulticolorAvatarPartPropertyBlockSetter::ColorData), 36 + sizeof(float) + 8 - (36 + sizeof(float)) % 8> __GlobalNamespace_MulticolorAvatarPartPropertyBlockSetter_ColorDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*, "", "MulticolorAvatarPartPropertyBlockSetter/ColorData");

@@ -49,6 +49,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static ZenjectStateMachineBehaviourAutoInjecter* New_ctor();
   }; // Zenject.ZenjectStateMachineBehaviourAutoInjecter
+  check_size<sizeof(ZenjectStateMachineBehaviourAutoInjecter), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Zenject_ZenjectStateMachineBehaviourAutoInjecterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectStateMachineBehaviourAutoInjecter*, "Zenject", "ZenjectStateMachineBehaviourAutoInjecter");

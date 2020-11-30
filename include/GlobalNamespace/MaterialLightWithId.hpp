@@ -79,6 +79,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // MaterialLightWithId
+  check_size<sizeof(MaterialLightWithId), 96 + sizeof(int) + 8 - (96 + sizeof(int)) % 8> __GlobalNamespace_MaterialLightWithIdSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialLightWithId*, "", "MaterialLightWithId");

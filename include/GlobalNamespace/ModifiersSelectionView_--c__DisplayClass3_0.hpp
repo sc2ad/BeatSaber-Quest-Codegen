@@ -44,6 +44,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ModifiersSelectionView::$$c__DisplayClass3_0* New_ctor();
   }; // ModifiersSelectionView/<>c__DisplayClass3_0
+  check_size<sizeof(ModifiersSelectionView::$$c__DisplayClass3_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_ModifiersSelectionView_$$c__DisplayClass3_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ModifiersSelectionView::$$c__DisplayClass3_0*, "", "ModifiersSelectionView/<>c__DisplayClass3_0");

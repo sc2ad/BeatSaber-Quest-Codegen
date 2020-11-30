@@ -128,6 +128,7 @@ namespace System::Globalization {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Globalization.RegionInfo
+  check_size<sizeof(RegionInfo), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __System_Globalization_RegionInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::RegionInfo*, "System.Globalization", "RegionInfo");

@@ -38,6 +38,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void HashAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // System.Security.Cryptography.KeyedHashAlgorithm
+  check_size<sizeof(KeyedHashAlgorithm), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Security_Cryptography_KeyedHashAlgorithmSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::KeyedHashAlgorithm*, "System.Security.Cryptography", "KeyedHashAlgorithm");

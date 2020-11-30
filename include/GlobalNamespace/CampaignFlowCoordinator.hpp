@@ -155,6 +155,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static CampaignFlowCoordinator* New_ctor();
   }; // CampaignFlowCoordinator
+  check_size<sizeof(CampaignFlowCoordinator), 272 + sizeof(bool) + 8 - (272 + sizeof(bool)) % 8> __GlobalNamespace_CampaignFlowCoordinatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CampaignFlowCoordinator*, "", "CampaignFlowCoordinator");

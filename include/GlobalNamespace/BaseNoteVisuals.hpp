@@ -55,6 +55,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BaseNoteVisuals* New_ctor();
   }; // BaseNoteVisuals
+  check_size<sizeof(BaseNoteVisuals), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_BaseNoteVisualsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseNoteVisuals*, "", "BaseNoteVisuals");

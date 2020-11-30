@@ -24,9 +24,12 @@ namespace System::Collections::Generic {
     // public T get_Current()
     // Offset: 0xFFFFFFFF
     T System_Collections_Generic_IEnumerator_1_get_Current() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_Current"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IEnumerator_1").WithContext("get_Current");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "get_Current", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
   }; // System.Collections.Generic.IEnumerator`1
+  // Could not write size check! Type: System.Collections.Generic.IEnumerator`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::IEnumerator_1, "System.Collections.Generic", "IEnumerator`1");
 #pragma pack(pop)

@@ -78,6 +78,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::DecompressPoint(System.Int32 yTilde, Org.BouncyCastle.Math.BigInteger X1)
     Org::BouncyCastle::Math::EC::ECPoint* DecompressPoint(int yTilde, Org::BouncyCastle::Math::BigInteger* X1);
   }; // Org.BouncyCastle.Math.EC.AbstractF2mCurve
+  check_size<sizeof(AbstractF2mCurve), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_EC_AbstractF2mCurveSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractF2mCurve*, "Org.BouncyCastle.Math.EC", "AbstractF2mCurve");

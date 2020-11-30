@@ -27,6 +27,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: RenderModel_TextureMap_t
     constexpr RenderModel_TextureMap_t(uint16_t unWidth_ = {}, uint16_t unHeight_ = {}, System::IntPtr rubTextureMapData_ = {}) noexcept : unWidth{unWidth_}, unHeight{unHeight_}, rubTextureMapData{rubTextureMapData_} {}
   }; // OVR.OpenVR.RenderModel_TextureMap_t
+  check_size<sizeof(RenderModel_TextureMap_t), 8 + sizeof(System::IntPtr) + 8 - (8 + sizeof(System::IntPtr)) % 8> __OVR_OpenVR_RenderModel_TextureMap_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_TextureMap_t, "OVR.OpenVR", "RenderModel_TextureMap_t");

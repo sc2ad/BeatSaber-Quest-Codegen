@@ -60,6 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MissionLevelGameplayManager/<Start>d__14
+  check_size<sizeof(MissionLevelGameplayManager::$Start$d__14), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_MissionLevelGameplayManager_$Start$d__14SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelGameplayManager::$Start$d__14*, "", "MissionLevelGameplayManager/<Start>d__14");

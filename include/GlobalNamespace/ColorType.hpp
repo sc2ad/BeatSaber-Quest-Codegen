@@ -41,6 +41,7 @@ namespace GlobalNamespace {
     // Set static field: static public ColorType None
     static void _set_None(GlobalNamespace::ColorType value);
   }; // ColorType
+  check_size<sizeof(ColorType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_ColorTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorType, "", "ColorType");

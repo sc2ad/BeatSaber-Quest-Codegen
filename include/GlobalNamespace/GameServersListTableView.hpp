@@ -149,6 +149,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static GameServersListTableView* New_ctor();
   }; // GameServersListTableView
+  check_size<sizeof(GameServersListTableView), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __GlobalNamespace_GameServersListTableViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServersListTableView*, "", "GameServersListTableView");

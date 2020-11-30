@@ -56,6 +56,7 @@ namespace Mono::Security::X509 {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // Mono.Security.X509.X509ExtensionCollection
+  check_size<sizeof(X509ExtensionCollection), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __Mono_Security_X509_X509ExtensionCollectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509ExtensionCollection*, "Mono.Security.X509", "X509ExtensionCollection");

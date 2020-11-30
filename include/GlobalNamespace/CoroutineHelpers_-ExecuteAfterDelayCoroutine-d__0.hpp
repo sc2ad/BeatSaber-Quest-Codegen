@@ -70,6 +70,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // CoroutineHelpers/<ExecuteAfterDelayCoroutine>d__0
+  check_size<sizeof(CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_CoroutineHelpers_$ExecuteAfterDelayCoroutine$d__0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0*, "", "CoroutineHelpers/<ExecuteAfterDelayCoroutine>d__0");

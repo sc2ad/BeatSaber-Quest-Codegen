@@ -35,6 +35,7 @@ namespace Polyglot {
     // Set static field: static public Polyglot.LanguageDirection RightToLeft
     static void _set_RightToLeft(Polyglot::LanguageDirection value);
   }; // Polyglot.LanguageDirection
+  check_size<sizeof(LanguageDirection), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Polyglot_LanguageDirectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LanguageDirection, "Polyglot", "LanguageDirection");

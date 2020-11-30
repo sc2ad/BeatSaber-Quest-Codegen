@@ -31,6 +31,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VROverlayIntersectionResults_t
     constexpr VROverlayIntersectionResults_t(OVR::OpenVR::HmdVector3_t vPoint_ = {}, OVR::OpenVR::HmdVector3_t vNormal_ = {}, OVR::OpenVR::HmdVector2_t vUVs_ = {}, float fDistance_ = {}) noexcept : vPoint{vPoint_}, vNormal{vNormal_}, vUVs{vUVs_}, fDistance{fDistance_} {}
   }; // OVR.OpenVR.VROverlayIntersectionResults_t
+  check_size<sizeof(VROverlayIntersectionResults_t), 32 + sizeof(float) + 8 - (32 + sizeof(float)) % 8> __OVR_OpenVR_VROverlayIntersectionResults_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VROverlayIntersectionResults_t, "OVR.OpenVR", "VROverlayIntersectionResults_t");

@@ -120,13 +120,19 @@ namespace TMPro {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void Resize(::Array<T>*& array, int size) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("TMPro", "TMP_TextInfo", "Resize", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, array, size));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("TMP_TextInfo").WithContext("Resize");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("TMPro", "TMP_TextInfo", il2cpp_utils::NoArgClass<void>(), "Resize", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(array, size))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, array, size);
     }
     // static public System.Void Resize(ref T[] array, System.Int32 size, System.Boolean isBlockAllocated)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void Resize(::Array<T>*& array, int size, bool isBlockAllocated) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("TMPro", "TMP_TextInfo", "Resize", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, array, size, isBlockAllocated));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("TMP_TextInfo").WithContext("Resize");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("TMPro", "TMP_TextInfo", il2cpp_utils::NoArgClass<void>(), "Resize", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(array, size, isBlockAllocated))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, array, size, isBlockAllocated);
     }
     // static private System.Void .cctor()
     // Offset: 0x1133DA0
@@ -137,6 +143,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static TMP_TextInfo* New_ctor();
   }; // TMPro.TMP_TextInfo
+  check_size<sizeof(TMP_TextInfo), 104 + sizeof(void*) + 8 - (104 + sizeof(void*)) % 8> __TMPro_TMP_TextInfoSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextInfo*, "TMPro", "TMP_TextInfo");
 #pragma pack(pop)

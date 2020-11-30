@@ -137,6 +137,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SaberActivityCounter* New_ctor();
   }; // SaberActivityCounter
+  check_size<sizeof(SaberActivityCounter), 160 + sizeof(void*) + 8 - (160 + sizeof(void*)) % 8> __GlobalNamespace_SaberActivityCounterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberActivityCounter*, "", "SaberActivityCounter");

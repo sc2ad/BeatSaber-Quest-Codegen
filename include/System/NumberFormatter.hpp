@@ -369,6 +369,7 @@ namespace System {
     // Offset: 0x1718DB4
     System::NumberFormatter* GetClone();
   }; // System.NumberFormatter
+  check_size<sizeof(NumberFormatter), 76 + sizeof(int) + 8 - (76 + sizeof(int)) % 8> __System_NumberFormatterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::NumberFormatter*, "System", "NumberFormatter");

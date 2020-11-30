@@ -65,6 +65,7 @@ namespace UnityEngine {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // UnityEngine.HumanPoseHandler
+  check_size<sizeof(HumanPoseHandler), 16 + sizeof(System::IntPtr) + 8 - (16 + sizeof(System::IntPtr)) % 8> __UnityEngine_HumanPoseHandlerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanPoseHandler*, "UnityEngine", "HumanPoseHandler");

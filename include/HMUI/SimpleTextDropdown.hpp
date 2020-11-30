@@ -119,6 +119,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static SimpleTextDropdown* New_ctor();
   }; // HMUI.SimpleTextDropdown
+  check_size<sizeof(SimpleTextDropdown), 104 + sizeof(bool) + 8 - (104 + sizeof(bool)) % 8> __HMUI_SimpleTextDropdownSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SimpleTextDropdown*, "HMUI", "SimpleTextDropdown");

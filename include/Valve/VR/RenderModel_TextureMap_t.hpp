@@ -27,6 +27,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: RenderModel_TextureMap_t
     constexpr RenderModel_TextureMap_t(::Il2CppChar unWidth_ = {}, ::Il2CppChar unHeight_ = {}, System::IntPtr rubTextureMapData_ = {}) noexcept : unWidth{unWidth_}, unHeight{unHeight_}, rubTextureMapData{rubTextureMapData_} {}
   }; // Valve.VR.RenderModel_TextureMap_t
+  check_size<sizeof(RenderModel_TextureMap_t), 8 + sizeof(System::IntPtr) + 8 - (8 + sizeof(System::IntPtr)) % 8> __Valve_VR_RenderModel_TextureMap_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_TextureMap_t, "Valve.VR", "RenderModel_TextureMap_t");

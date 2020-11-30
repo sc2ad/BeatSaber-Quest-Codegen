@@ -51,6 +51,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static StandardLevelBuyView* New_ctor();
   }; // StandardLevelBuyView
+  check_size<sizeof(StandardLevelBuyView), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_StandardLevelBuyViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelBuyView*, "", "StandardLevelBuyView");

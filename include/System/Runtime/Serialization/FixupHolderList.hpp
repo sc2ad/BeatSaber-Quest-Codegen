@@ -39,6 +39,7 @@ namespace System::Runtime::Serialization {
     // Base method: System.Void Object::.ctor()
     static FixupHolderList* New_ctor();
   }; // System.Runtime.Serialization.FixupHolderList
+  check_size<sizeof(FixupHolderList), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __System_Runtime_Serialization_FixupHolderListSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FixupHolderList*, "System.Runtime.Serialization", "FixupHolderList");

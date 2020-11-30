@@ -839,6 +839,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVREventType VREvent_VendorSpecific_Reserved_End
     static void _set_VREvent_VendorSpecific_Reserved_End(Valve::VR::EVREventType value);
   }; // Valve.VR.EVREventType
+  check_size<sizeof(EVREventType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Valve_VR_EVREventTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVREventType, "Valve.VR", "EVREventType");

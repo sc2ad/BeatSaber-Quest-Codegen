@@ -38,6 +38,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OculusConnectionManager::ConnectToServerParams* New_ctor();
   }; // OculusConnectionManager/ConnectToServerParams
+  check_size<sizeof(OculusConnectionManager::ConnectToServerParams), 24 + sizeof(uint64_t) + 8 - (24 + sizeof(uint64_t)) % 8> __GlobalNamespace_OculusConnectionManager_ConnectToServerParamsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::ConnectToServerParams*, "", "OculusConnectionManager/ConnectToServerParams");

@@ -114,6 +114,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Base method: System.Void GeneralDigest::ProcessBlock()
     void ProcessBlock();
   }; // Org.BouncyCastle.Crypto.Digests.SM3Digest
+  check_size<sizeof(SM3Digest), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Digests_SM3DigestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::SM3Digest*, "Org.BouncyCastle.Crypto.Digests", "SM3Digest");

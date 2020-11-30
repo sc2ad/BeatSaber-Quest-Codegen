@@ -35,6 +35,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     static WebConnectionStream::$$c__DisplayClass75_0* New_ctor();
   }; // System.Net.WebConnectionStream/<>c__DisplayClass75_0
+  check_size<sizeof(WebConnectionStream::$$c__DisplayClass75_0), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __System_Net_WebConnectionStream_$$c__DisplayClass75_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionStream::$$c__DisplayClass75_0*, "System.Net", "WebConnectionStream/<>c__DisplayClass75_0");

@@ -32,6 +32,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static VRTrackersRecorder::Keyframe* New_ctor();
   }; // VRTrackersRecorder/Keyframe
+  check_size<sizeof(VRTrackersRecorder::Keyframe), 24 + sizeof(float) + 8 - (24 + sizeof(float)) % 8> __GlobalNamespace_VRTrackersRecorder_KeyframeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::Keyframe*, "", "VRTrackersRecorder/Keyframe");

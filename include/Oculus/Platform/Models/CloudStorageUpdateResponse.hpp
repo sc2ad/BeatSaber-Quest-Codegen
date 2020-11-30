@@ -36,6 +36,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11D9E8C
     static CloudStorageUpdateResponse* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.CloudStorageUpdateResponse
+  check_size<sizeof(CloudStorageUpdateResponse), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Oculus_Platform_Models_CloudStorageUpdateResponseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::CloudStorageUpdateResponse*, "Oculus.Platform.Models", "CloudStorageUpdateResponse");

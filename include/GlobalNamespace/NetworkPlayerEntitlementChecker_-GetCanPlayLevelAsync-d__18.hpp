@@ -80,6 +80,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // NetworkPlayerEntitlementChecker/<GetCanPlayLevelAsync>d__18
+  check_size<sizeof(NetworkPlayerEntitlementChecker::$GetCanPlayLevelAsync$d__18), 72 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Array<GlobalNamespace::EntitlementsStatus>*>) + 8 - (72 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Array<GlobalNamespace::EntitlementsStatus>*>)) % 8> __GlobalNamespace_NetworkPlayerEntitlementChecker_$GetCanPlayLevelAsync$d__18SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerEntitlementChecker::$GetCanPlayLevelAsync$d__18, "", "NetworkPlayerEntitlementChecker/<GetCanPlayLevelAsync>d__18");

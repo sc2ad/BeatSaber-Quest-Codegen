@@ -181,6 +181,7 @@ namespace System::Xml {
     // Set static field: static public System.Xml.XmlEventCache/XmlEventType Dispose
     static void _set_Dispose(System::Xml::XmlEventCache::XmlEventType value);
   }; // System.Xml.XmlEventCache/XmlEventType
+  check_size<sizeof(XmlEventCache::XmlEventType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Xml_XmlEventCache_XmlEventTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEventCache::XmlEventType, "System.Xml", "XmlEventCache/XmlEventType");

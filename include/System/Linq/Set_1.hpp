@@ -47,6 +47,7 @@ namespace System::Linq {
       // Creating value type constructor for type: Slot
       constexpr Slot(int hashCode_ = {}, TElement value_ = {}, int next_ = {}) noexcept : hashCode{hashCode_}, value{value_}, next{next_} {}
     }; // System.Linq.Set`1/Slot
+    // Could not write size check! Type: System.Linq.Set`1/Slot is generic!
     // private System.Int32[] buckets
     // Offset: 0x0
     ::Array<int>* buckets;
@@ -65,29 +66,39 @@ namespace System::Linq {
     // public System.Void .ctor(System.Collections.Generic.IEqualityComparer`1<TElement> comparer)
     // Offset: 0xFFFFFFFF
     static Set_1<TElement>* New_ctor(System::Collections::Generic::IEqualityComparer_1<TElement>* comparer) {
-      return THROW_UNLESS(il2cpp_utils::New<Set_1<TElement>*>(comparer));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("Set_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<Set_1<TElement>*>(comparer));
     }
     // public System.Boolean Add(TElement value)
     // Offset: 0xFFFFFFFF
     bool Add(TElement value) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Add", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("Set_1").WithContext("Add");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "Add", {}, ::il2cpp_utils::ExtractTypes(value)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, value);
     }
     // private System.Boolean Find(TElement value, System.Boolean add)
     // Offset: 0xFFFFFFFF
     bool Find(TElement value, bool add) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Find", value, add));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("Set_1").WithContext("Find");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "Find", {}, ::il2cpp_utils::ExtractTypes(value, add)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, value, add);
     }
     // private System.Void Resize()
     // Offset: 0xFFFFFFFF
     void Resize() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Resize"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("Set_1").WithContext("Resize");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Resize", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // System.Int32 InternalGetHashCode(TElement value)
     // Offset: 0xFFFFFFFF
     int InternalGetHashCode(TElement value) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "InternalGetHashCode", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("Set_1").WithContext("InternalGetHashCode");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "InternalGetHashCode", {}, ::il2cpp_utils::ExtractTypes(value)));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, value);
     }
   }; // System.Linq.Set`1
+  // Could not write size check! Type: System.Linq.Set`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::Set_1, "System.Linq", "Set`1");
 #pragma pack(pop)

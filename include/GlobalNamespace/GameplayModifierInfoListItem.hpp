@@ -54,6 +54,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static GameplayModifierInfoListItem* New_ctor();
   }; // GameplayModifierInfoListItem
+  check_size<sizeof(GameplayModifierInfoListItem), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_GameplayModifierInfoListItemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierInfoListItem*, "", "GameplayModifierInfoListItem");

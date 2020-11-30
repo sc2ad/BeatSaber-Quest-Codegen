@@ -73,6 +73,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x15E3BAC
     void WakeUp(float velocityWeight, float angularVelocityWeight);
   }; // RootMotion.FinalIK.RagdollUtility/Rigidbone
+  check_size<sizeof(RagdollUtility::Rigidbone), 104 + sizeof(UnityEngine::Quaternion) + 8 - (104 + sizeof(UnityEngine::Quaternion)) % 8> __RootMotion_FinalIK_RagdollUtility_RigidboneSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility::Rigidbone*, "RootMotion.FinalIK", "RagdollUtility/Rigidbone");

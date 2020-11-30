@@ -59,6 +59,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Base method: System.Void Object::.ctor()
     static FixedPointPreCompInfo* New_ctor();
   }; // Org.BouncyCastle.Math.EC.Multiplier.FixedPointPreCompInfo
+  check_size<sizeof(FixedPointPreCompInfo), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __Org_BouncyCastle_Math_EC_Multiplier_FixedPointPreCompInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "FixedPointPreCompInfo");

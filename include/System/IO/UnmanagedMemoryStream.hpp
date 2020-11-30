@@ -167,6 +167,7 @@ namespace System::IO {
     // Base method: System.Void Stream::WriteByte(System.Byte value)
     void WriteByte(uint8_t value);
   }; // System.IO.UnmanagedMemoryStream
+  check_size<sizeof(UnmanagedMemoryStream), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __System_IO_UnmanagedMemoryStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::UnmanagedMemoryStream*, "System.IO", "UnmanagedMemoryStream");

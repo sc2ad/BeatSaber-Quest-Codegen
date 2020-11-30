@@ -95,6 +95,7 @@ namespace System::Net::Sockets {
     // Set static field: static public System.Net.Sockets.SocketOperation SendGeneric
     static void _set_SendGeneric(System::Net::Sockets::SocketOperation value);
   }; // System.Net.Sockets.SocketOperation
+  check_size<sizeof(SocketOperation), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Net_Sockets_SocketOperationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketOperation, "System.Net.Sockets", "SocketOperation");

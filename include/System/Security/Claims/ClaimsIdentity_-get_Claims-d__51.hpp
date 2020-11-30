@@ -102,6 +102,7 @@ namespace System::Security::Claims {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Security.Claims.ClaimsIdentity/<get_Claims>d__51
+  check_size<sizeof(ClaimsIdentity::$get_Claims$d__51), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __System_Security_Claims_ClaimsIdentity_$get_Claims$d__51SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::ClaimsIdentity::$get_Claims$d__51*, "System.Security.Claims", "ClaimsIdentity/<get_Claims>d__51");

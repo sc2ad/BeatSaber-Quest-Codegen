@@ -89,6 +89,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static TabBarViewController* New_ctor();
   }; // TabBarViewController
+  check_size<sizeof(TabBarViewController), 144 + sizeof(bool) + 8 - (144 + sizeof(bool)) % 8> __GlobalNamespace_TabBarViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TabBarViewController*, "", "TabBarViewController");

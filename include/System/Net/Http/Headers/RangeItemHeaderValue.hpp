@@ -61,6 +61,7 @@ namespace System::Net::Http::Headers {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.RangeItemHeaderValue
+  check_size<sizeof(RangeItemHeaderValue), 32 + sizeof(System::Nullable_1<int64_t>) + 8 - (32 + sizeof(System::Nullable_1<int64_t>)) % 8> __System_Net_Http_Headers_RangeItemHeaderValueSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::RangeItemHeaderValue*, "System.Net.Http.Headers", "RangeItemHeaderValue");

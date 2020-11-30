@@ -59,6 +59,7 @@ namespace Mono::Math::Prime {
     // Set static field: static public Mono.Math.Prime.ConfidenceFactor Provable
     static void _set_Provable(Mono::Math::Prime::ConfidenceFactor value);
   }; // Mono.Math.Prime.ConfidenceFactor
+  check_size<sizeof(ConfidenceFactor), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Mono_Math_Prime_ConfidenceFactorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::ConfidenceFactor, "Mono.Math.Prime", "ConfidenceFactor");

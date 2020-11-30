@@ -44,6 +44,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0xCA0B04
     Context(System::Globalization::CompareOptions opt, uint8_t* alwaysMatchFlags, uint8_t* neverMatchFlags, uint8_t* buffer1, uint8_t* buffer2, uint8_t* prev1);
   }; // Mono.Globalization.Unicode.SimpleCollator/Context
+  check_size<sizeof(SimpleCollator::Context), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __Mono_Globalization_Unicode_SimpleCollator_ContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::Context, "Mono.Globalization.Unicode", "SimpleCollator/Context");

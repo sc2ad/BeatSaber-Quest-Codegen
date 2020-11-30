@@ -69,6 +69,7 @@ namespace GlobalNamespace {
       // Set static field: static public SettingsFlowCoordinator/FinishAction Apply
       static void _set_Apply(GlobalNamespace::SettingsFlowCoordinator::FinishAction value);
     }; // SettingsFlowCoordinator/FinishAction
+    check_size<sizeof(SettingsFlowCoordinator::FinishAction), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_SettingsFlowCoordinator_FinishActionSizeCheck;
     // private MainSettingsModelSO _mainSettingsModel
     // Offset: 0xA8
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
@@ -135,6 +136,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // SettingsFlowCoordinator
+  check_size<sizeof(SettingsFlowCoordinator), 192 + sizeof(void*) + 8 - (192 + sizeof(void*)) % 8> __GlobalNamespace_SettingsFlowCoordinatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsFlowCoordinator*, "", "SettingsFlowCoordinator");

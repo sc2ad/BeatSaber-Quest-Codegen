@@ -46,6 +46,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xC9B9DC
     void SetMetadata(uint8_t* pointer, int size, int reserved);
   }; // System.Diagnostics.Tracing.EventSource/EventData
+  check_size<sizeof(EventSource::EventData), 12 + sizeof(int) + 8 - (12 + sizeof(int)) % 8> __System_Diagnostics_Tracing_EventSource_EventDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSource::EventData, "System.Diagnostics.Tracing", "EventSource/EventData");

@@ -73,6 +73,7 @@ namespace Zenject {
     // Base method: System.Boolean IEquatable_1::Equals(Zenject.BindingId that)
     bool Equals(Zenject::BindingId that);
   }; // Zenject.BindingId
+  check_size<sizeof(BindingId), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __Zenject_BindingIdSizeCheck;
   // static public System.Boolean op_Equality(Zenject.BindingId left, Zenject.BindingId right)
   // Offset: 0x10EBF6C
   bool operator ==(const Zenject::BindingId& left, const Zenject::BindingId& right);

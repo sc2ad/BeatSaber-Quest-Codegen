@@ -72,6 +72,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SaberSound* New_ctor();
   }; // SaberSound
+  check_size<sizeof(SaberSound), 84 + sizeof(float) + 8 - (84 + sizeof(float)) % 8> __GlobalNamespace_SaberSoundSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberSound*, "", "SaberSound");

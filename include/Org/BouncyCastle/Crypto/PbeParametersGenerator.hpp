@@ -51,6 +51,7 @@ namespace Org::BouncyCastle::Crypto {
     // Base method: System.Void Object::.ctor()
     static PbeParametersGenerator* New_ctor();
   }; // Org.BouncyCastle.Crypto.PbeParametersGenerator
+  check_size<sizeof(PbeParametersGenerator), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __Org_BouncyCastle_Crypto_PbeParametersGeneratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::PbeParametersGenerator*, "Org.BouncyCastle.Crypto", "PbeParametersGenerator");

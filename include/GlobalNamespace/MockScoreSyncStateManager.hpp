@@ -124,6 +124,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MockScoreSyncStateManager* New_ctor();
   }; // MockScoreSyncStateManager
+  check_size<sizeof(MockScoreSyncStateManager), 72 + sizeof(float) + 8 - (72 + sizeof(float)) % 8> __GlobalNamespace_MockScoreSyncStateManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockScoreSyncStateManager*, "", "MockScoreSyncStateManager");

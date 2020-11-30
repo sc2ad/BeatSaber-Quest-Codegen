@@ -23,6 +23,7 @@ namespace System::Security::Util {
     // Base method: System.Void Object::.ctor()
     static TokenizerShortBlock* New_ctor();
   }; // System.Security.Util.TokenizerShortBlock
+  check_size<sizeof(TokenizerShortBlock), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Security_Util_TokenizerShortBlockSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::TokenizerShortBlock*, "System.Security.Util", "TokenizerShortBlock");

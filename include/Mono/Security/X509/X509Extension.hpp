@@ -72,6 +72,7 @@ namespace Mono::Security::X509 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Mono.Security.X509.X509Extension
+  check_size<sizeof(X509Extension), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Mono_Security_X509_X509ExtensionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Extension*, "Mono.Security.X509", "X509Extension");

@@ -44,6 +44,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Base method: System.Void Object::.ctor()
     static ConnectElements::$$c__DisplayClass2_0* New_ctor();
   }; // UnityEngine.ProBuilder.MeshOperations.ConnectElements/<>c__DisplayClass2_0
+  check_size<sizeof(ConnectElements::$$c__DisplayClass2_0), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_MeshOperations_ConnectElements_$$c__DisplayClass2_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass2_0*, "UnityEngine.ProBuilder.MeshOperations", "ConnectElements/<>c__DisplayClass2_0");

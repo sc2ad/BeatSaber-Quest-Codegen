@@ -41,6 +41,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.UserPresenceStatus Offline
     static void _set_Offline(Oculus::Platform::UserPresenceStatus value);
   }; // Oculus.Platform.UserPresenceStatus
+  check_size<sizeof(UserPresenceStatus), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Oculus_Platform_UserPresenceStatusSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::UserPresenceStatus, "Oculus.Platform", "UserPresenceStatus");

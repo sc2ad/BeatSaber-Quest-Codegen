@@ -30,23 +30,30 @@ namespace Zenject {
     // public Zenject.FactoryFromBinder`5<TParam1,TParam2,TParam3,TParam4,TContract> ToSelf()
     // Offset: 0xFFFFFFFF
     Zenject::FactoryFromBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>* ToSelf() {
-      return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::FactoryFromBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*>(this, "ToSelf")));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("FactoryToChoiceBinder_5").WithContext("ToSelf");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::FactoryFromBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*>(), "ToSelf", {}, ::il2cpp_utils::ExtractTypes())));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryFromBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*, false>(this, ___internal__method);
     }
     // public Zenject.FactoryFromBinder`5<TParam1,TParam2,TParam3,TParam4,TConcrete> To()
     // Offset: 0xFFFFFFFF
     template<class TConcrete>
     Zenject::FactoryFromBinder_5<TParam1, TParam2, TParam3, TParam4, TConcrete>* To() {
       static_assert(std::is_convertible_v<TConcrete, TContract>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::FactoryFromBinder_5<TParam1, TParam2, TParam3, TParam4, TConcrete>*>(this, "To", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("FactoryToChoiceBinder_5").WithContext("To");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::FactoryFromBinder_5<TParam1, TParam2, TParam3, TParam4, TConcrete>*>(), "To", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryFromBinder_5<TParam1, TParam2, TParam3, TParam4, TConcrete>*, false>(this, ___internal__method);
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.FactoryFromBinder`5
     // Base method: System.Void FactoryFromBinder_5::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     static FactoryToChoiceBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo) {
-      return THROW_UNLESS((il2cpp_utils::New<FactoryToChoiceBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*>(bindContainer, bindInfo, factoryBindInfo)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("FactoryToChoiceBinder_5").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<FactoryToChoiceBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*>(bindContainer, bindInfo, factoryBindInfo)));
     }
   }; // Zenject.FactoryToChoiceBinder`5
+  // Could not write size check! Type: Zenject.FactoryToChoiceBinder`5 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::FactoryToChoiceBinder_5, "Zenject", "FactoryToChoiceBinder`5");
 #pragma pack(pop)

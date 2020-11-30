@@ -132,6 +132,7 @@ namespace System::Diagnostics {
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
   }; // System.Diagnostics.TraceListenerCollection
+  check_size<sizeof(TraceListenerCollection), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Diagnostics_TraceListenerCollectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceListenerCollection*, "System.Diagnostics", "TraceListenerCollection");

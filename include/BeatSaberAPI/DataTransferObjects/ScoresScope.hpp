@@ -41,6 +41,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Set static field: static public BeatSaberAPI.DataTransferObjects.ScoresScope Friends
     static void _set_Friends(BeatSaberAPI::DataTransferObjects::ScoresScope value);
   }; // BeatSaberAPI.DataTransferObjects.ScoresScope
+  check_size<sizeof(ScoresScope), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __BeatSaberAPI_DataTransferObjects_ScoresScopeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::ScoresScope, "BeatSaberAPI.DataTransferObjects", "ScoresScope");

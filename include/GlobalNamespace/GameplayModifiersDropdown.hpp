@@ -100,6 +100,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static GameplayModifiersDropdown* New_ctor();
   }; // GameplayModifiersDropdown
+  check_size<sizeof(GameplayModifiersDropdown), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_GameplayModifiersDropdownSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersDropdown*, "", "GameplayModifiersDropdown");

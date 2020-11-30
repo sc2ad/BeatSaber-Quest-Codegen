@@ -52,6 +52,7 @@ namespace Zenject {
     // Base method: Zenject.DiContainer ISubContainerCreator::CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* context);
   }; // Zenject.SubContainerCreatorByMethodBase
+  check_size<sizeof(SubContainerCreatorByMethodBase), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Zenject_SubContainerCreatorByMethodBaseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByMethodBase*, "Zenject", "SubContainerCreatorByMethodBase");

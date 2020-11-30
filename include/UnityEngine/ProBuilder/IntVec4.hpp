@@ -72,6 +72,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.ProBuilder.IntVec4
+  check_size<sizeof(IntVec4), 0 + sizeof(UnityEngine::Vector4) + 8 - (0 + sizeof(UnityEngine::Vector4)) % 8> __UnityEngine_ProBuilder_IntVec4SizeCheck;
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.IntVec4 a, UnityEngine.ProBuilder.IntVec4 b)
   // Offset: 0x163ADA0
   bool operator ==(const UnityEngine::ProBuilder::IntVec4& a, const UnityEngine::ProBuilder::IntVec4& b);

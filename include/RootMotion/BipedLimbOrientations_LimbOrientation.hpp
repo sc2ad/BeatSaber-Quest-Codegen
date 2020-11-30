@@ -28,6 +28,7 @@ namespace RootMotion {
     // Offset: 0x1741C4C
     static BipedLimbOrientations::LimbOrientation* New_ctor(UnityEngine::Vector3 upperBoneForwardAxis, UnityEngine::Vector3 lowerBoneForwardAxis, UnityEngine::Vector3 lastBoneLeftAxis);
   }; // RootMotion.BipedLimbOrientations/LimbOrientation
+  check_size<sizeof(BipedLimbOrientations::LimbOrientation), 40 + sizeof(UnityEngine::Vector3) + 8 - (40 + sizeof(UnityEngine::Vector3)) % 8> __RootMotion_BipedLimbOrientations_LimbOrientationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedLimbOrientations::LimbOrientation*, "RootMotion", "BipedLimbOrientations/LimbOrientation");

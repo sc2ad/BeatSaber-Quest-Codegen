@@ -152,6 +152,7 @@ namespace System::Reflection {
     // Base method: System.Boolean ICustomAttributeProvider::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);
   }; // System.Reflection.ParameterInfo
+  check_size<sizeof(ParameterInfo), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __System_Reflection_ParameterInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ParameterInfo*, "System.Reflection", "ParameterInfo");

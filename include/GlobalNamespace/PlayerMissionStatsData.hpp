@@ -30,6 +30,7 @@ namespace GlobalNamespace {
     // Offset: 0xF26DE4
     static PlayerMissionStatsData* New_ctor(::Il2CppString* missionId, bool cleared);
   }; // PlayerMissionStatsData
+  check_size<sizeof(PlayerMissionStatsData), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __GlobalNamespace_PlayerMissionStatsDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerMissionStatsData*, "", "PlayerMissionStatsData");

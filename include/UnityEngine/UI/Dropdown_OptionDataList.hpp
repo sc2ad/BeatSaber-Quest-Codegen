@@ -40,6 +40,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static Dropdown::OptionDataList* New_ctor();
   }; // UnityEngine.UI.Dropdown/OptionDataList
+  check_size<sizeof(Dropdown::OptionDataList), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_UI_Dropdown_OptionDataListSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown::OptionDataList*, "UnityEngine.UI", "Dropdown/OptionDataList");

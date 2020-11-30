@@ -58,6 +58,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AudioClipQueue* New_ctor();
   }; // AudioClipQueue
+  check_size<sizeof(AudioClipQueue), 40 + sizeof(float) + 8 - (40 + sizeof(float)) % 8> __GlobalNamespace_AudioClipQueueSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioClipQueue*, "", "AudioClipQueue");

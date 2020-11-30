@@ -111,6 +111,7 @@ namespace System {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // System.IntPtr
+  check_size<sizeof(IntPtr), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __System_IntPtrSizeCheck;
   // static public System.Boolean op_Equality(System.IntPtr value1, System.IntPtr value2)
   // Offset: 0x13B35B0
   bool operator ==(const System::IntPtr& value1, const System::IntPtr& value2);

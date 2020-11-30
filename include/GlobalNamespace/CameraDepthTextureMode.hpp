@@ -33,6 +33,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static CameraDepthTextureMode* New_ctor();
   }; // CameraDepthTextureMode
+  check_size<sizeof(CameraDepthTextureMode), 24 + sizeof(UnityEngine::DepthTextureMode) + 8 - (24 + sizeof(UnityEngine::DepthTextureMode)) % 8> __GlobalNamespace_CameraDepthTextureModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CameraDepthTextureMode*, "", "CameraDepthTextureMode");

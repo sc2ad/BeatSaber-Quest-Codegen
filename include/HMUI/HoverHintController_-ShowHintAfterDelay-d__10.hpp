@@ -73,6 +73,7 @@ namespace HMUI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // HMUI.HoverHintController/<ShowHintAfterDelay>d__10
+  check_size<sizeof(HoverHintController::$ShowHintAfterDelay$d__10), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __HMUI_HoverHintController_$ShowHintAfterDelay$d__10SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHintController::$ShowHintAfterDelay$d__10*, "HMUI", "HoverHintController/<ShowHintAfterDelay>d__10");

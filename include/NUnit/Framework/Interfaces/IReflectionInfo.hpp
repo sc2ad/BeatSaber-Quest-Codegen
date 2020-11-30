@@ -20,13 +20,19 @@ namespace NUnit::Framework::Interfaces {
     // Offset: 0xFFFFFFFF
     template<class T>
     ::Array<T>* GetCustomAttributes(bool inherit) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>(this, "GetCustomAttributes", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, inherit)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Interfaces").WithContext("IReflectionInfo").WithContext("GetCustomAttributes");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<::Array<T>*>(), "GetCustomAttributes", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(inherit))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(this, ___internal__method, inherit);
     }
     // public System.Boolean IsDefined(System.Boolean inherit)
     // Offset: 0xFFFFFFFF
     template<class T>
     bool IsDefined(bool inherit) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(this, "IsDefined", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, inherit)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Interfaces").WithContext("IReflectionInfo").WithContext("IsDefined");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "IsDefined", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(inherit))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, inherit);
     }
   }; // NUnit.Framework.Interfaces.IReflectionInfo
 }

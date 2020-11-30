@@ -21,6 +21,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: AnimatorClipInfo
     constexpr AnimatorClipInfo(int m_ClipInstanceID_ = {}, float m_Weight_ = {}) noexcept : m_ClipInstanceID{m_ClipInstanceID_}, m_Weight{m_Weight_} {}
   }; // UnityEngine.AnimatorClipInfo
+  check_size<sizeof(AnimatorClipInfo), 4 + sizeof(float) + 8 - (4 + sizeof(float)) % 8> __UnityEngine_AnimatorClipInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorClipInfo, "UnityEngine", "AnimatorClipInfo");

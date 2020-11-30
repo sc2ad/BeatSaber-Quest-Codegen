@@ -107,6 +107,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRSpatialAnchorError UnknownDriver
     static void _set_UnknownDriver(OVR::OpenVR::EVRSpatialAnchorError value);
   }; // OVR.OpenVR.EVRSpatialAnchorError
+  check_size<sizeof(EVRSpatialAnchorError), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_EVRSpatialAnchorErrorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRSpatialAnchorError, "OVR.OpenVR", "EVRSpatialAnchorError");

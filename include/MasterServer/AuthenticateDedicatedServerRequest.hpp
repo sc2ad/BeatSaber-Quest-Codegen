@@ -94,6 +94,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static AuthenticateDedicatedServerRequest* New_ctor();
   }; // MasterServer.AuthenticateDedicatedServerRequest
+  check_size<sizeof(AuthenticateDedicatedServerRequest), 48 + sizeof(int64_t) + 8 - (48 + sizeof(int64_t)) % 8> __MasterServer_AuthenticateDedicatedServerRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::AuthenticateDedicatedServerRequest*, "MasterServer", "AuthenticateDedicatedServerRequest");

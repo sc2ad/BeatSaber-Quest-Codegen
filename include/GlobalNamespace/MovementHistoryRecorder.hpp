@@ -43,6 +43,7 @@ namespace GlobalNamespace {
     // Offset: 0xFA5E54
     void ManualUpdate(float deltaTime);
   }; // MovementHistoryRecorder
+  check_size<sizeof(MovementHistoryRecorder), 32 + sizeof(float) + 8 - (32 + sizeof(float)) % 8> __GlobalNamespace_MovementHistoryRecorderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementHistoryRecorder*, "", "MovementHistoryRecorder");

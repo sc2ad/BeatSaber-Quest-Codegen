@@ -119,6 +119,7 @@ namespace HMUI {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // HMUI.ColorGradientSlider
+  check_size<sizeof(ColorGradientSlider), 392 + sizeof(void*) + 8 - (392 + sizeof(void*)) % 8> __HMUI_ColorGradientSliderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ColorGradientSlider*, "HMUI", "ColorGradientSlider");

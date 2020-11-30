@@ -51,6 +51,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x1545078
     bool IsCaseInsensitive();
   }; // System.Text.RegularExpressions.RegexFC
+  check_size<sizeof(RegexFC), 25 + sizeof(bool) + 8 - (25 + sizeof(bool)) % 8> __System_Text_RegularExpressions_RegexFCSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexFC*, "System.Text.RegularExpressions", "RegexFC");

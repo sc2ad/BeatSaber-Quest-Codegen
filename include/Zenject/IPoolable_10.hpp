@@ -16,14 +16,19 @@ namespace Zenject {
     // public System.Void OnDespawned()
     // Offset: 0xFFFFFFFF
     void OnDespawned() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnDespawned"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IPoolable_10").WithContext("OnDespawned");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "OnDespawned", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // public System.Void OnSpawned(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6, TParam7 p7, TParam8 p8, TParam9 p9, TParam10 p10)
     // Offset: 0xFFFFFFFF
     void OnSpawned(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6, TParam7 p7, TParam8 p8, TParam9 p9, TParam10 p10) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnSpawned", p1, p2, p3, p4, p5, p6, p7, p8, p9, p10));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IPoolable_10").WithContext("OnSpawned");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "OnSpawned", {}, ::il2cpp_utils::ExtractTypes(p1, p2, p3, p4, p5, p6, p7, p8, p9, p10)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10);
     }
   }; // Zenject.IPoolable`10
+  // Could not write size check! Type: Zenject.IPoolable`10 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::IPoolable_10, "Zenject", "IPoolable`10");
 #pragma pack(pop)

@@ -41,6 +41,7 @@ namespace System::Runtime::Serialization::Formatters {
     // Set static field: static public System.Runtime.Serialization.Formatters.FormatterTypeStyle XsdString
     static void _set_XsdString(System::Runtime::Serialization::Formatters::FormatterTypeStyle value);
   }; // System.Runtime.Serialization.Formatters.FormatterTypeStyle
+  check_size<sizeof(FormatterTypeStyle), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Runtime_Serialization_Formatters_FormatterTypeStyleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::FormatterTypeStyle, "System.Runtime.Serialization.Formatters", "FormatterTypeStyle");

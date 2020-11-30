@@ -25,6 +25,7 @@ namespace NUnit::Framework::Internal::Commands {
     // Offset: 0x13EDCFC
     static DelegatingTestCommand* New_ctor(NUnit::Framework::Internal::Commands::TestCommand* innerCommand);
   }; // NUnit.Framework.Internal.Commands.DelegatingTestCommand
+  check_size<sizeof(DelegatingTestCommand), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __NUnit_Framework_Internal_Commands_DelegatingTestCommandSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::DelegatingTestCommand*, "NUnit.Framework.Internal.Commands", "DelegatingTestCommand");

@@ -59,6 +59,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static DynamicBoneCollider* New_ctor();
   }; // DynamicBoneCollider
+  check_size<sizeof(DynamicBoneCollider), 48 + sizeof(float) + 8 - (48 + sizeof(float)) % 8> __GlobalNamespace_DynamicBoneColliderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneCollider*, "", "DynamicBoneCollider");

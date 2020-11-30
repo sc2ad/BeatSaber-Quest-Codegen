@@ -44,6 +44,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OculusPlatformAchievementHandler::$$c__DisplayClass2_0* New_ctor();
   }; // OculusPlatformAchievementHandler/<>c__DisplayClass2_0
+  check_size<sizeof(OculusPlatformAchievementHandler::$$c__DisplayClass2_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_OculusPlatformAchievementHandler_$$c__DisplayClass2_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAchievementHandler::$$c__DisplayClass2_0*, "", "OculusPlatformAchievementHandler/<>c__DisplayClass2_0");

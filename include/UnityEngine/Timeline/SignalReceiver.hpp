@@ -102,6 +102,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     static SignalReceiver* New_ctor();
   }; // UnityEngine.Timeline.SignalReceiver
+  check_size<sizeof(SignalReceiver), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_Timeline_SignalReceiverSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalReceiver*, "UnityEngine.Timeline", "SignalReceiver");

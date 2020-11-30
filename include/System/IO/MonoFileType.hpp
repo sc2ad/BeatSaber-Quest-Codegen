@@ -53,6 +53,7 @@ namespace System::IO {
     // Set static field: static public System.IO.MonoFileType Remote
     static void _set_Remote(System::IO::MonoFileType value);
   }; // System.IO.MonoFileType
+  check_size<sizeof(MonoFileType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_IO_MonoFileTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::MonoFileType, "System.IO", "MonoFileType");

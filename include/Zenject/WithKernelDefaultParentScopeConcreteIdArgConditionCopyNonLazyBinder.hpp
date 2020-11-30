@@ -34,7 +34,10 @@ namespace Zenject {
     template<class TKernel>
     Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel() {
       static_assert(std::is_convertible_v<TKernel, Zenject::Kernel*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, "WithKernel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKernel>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder").WithContext("WithKernel");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*>(), "WithKernel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKernel>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKernel>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(this, ___internal__method);
     }
     // public System.Void .ctor(Zenject.SubContainerCreatorBindInfo subContainerBindInfo, Zenject.BindInfo bindInfo)
     // Offset: 0x19D2A18

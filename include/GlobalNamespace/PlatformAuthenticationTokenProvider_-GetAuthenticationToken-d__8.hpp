@@ -52,6 +52,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // PlatformAuthenticationTokenProvider/<GetAuthenticationToken>d__8
+  check_size<sizeof(PlatformAuthenticationTokenProvider::$GetAuthenticationToken$d__8), 40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>) + 8 - (40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>)) % 8> __GlobalNamespace_PlatformAuthenticationTokenProvider_$GetAuthenticationToken$d__8SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformAuthenticationTokenProvider::$GetAuthenticationToken$d__8, "", "PlatformAuthenticationTokenProvider/<GetAuthenticationToken>d__8");

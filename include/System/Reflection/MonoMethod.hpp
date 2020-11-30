@@ -244,6 +244,7 @@ namespace System::Reflection {
     // Base method: System.Boolean MethodBase::get_IsSecurityCritical()
     bool get_IsSecurityCritical();
   }; // System.Reflection.MonoMethod
+  check_size<sizeof(MonoMethod), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Reflection_MonoMethodSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoMethod*, "System.Reflection", "MonoMethod");

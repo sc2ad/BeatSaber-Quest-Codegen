@@ -71,6 +71,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     static BinaryArray* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryArray
+  check_size<sizeof(BinaryArray), 64 + sizeof(System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum) + 8 - (64 + sizeof(System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum)) % 8> __System_Runtime_Serialization_Formatters_Binary_BinaryArraySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryArray*, "System.Runtime.Serialization.Formatters.Binary", "BinaryArray");

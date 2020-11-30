@@ -56,6 +56,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Base method: Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo IPreCompCallback::Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
     Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
   }; // Org.BouncyCastle.Math.EC.Endo.EndoUtilities/MapPointCallback
+  check_size<sizeof(EndoUtilities::MapPointCallback), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_EC_Endo_EndoUtilities_MapPointCallbackSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::EndoUtilities::MapPointCallback*, "Org.BouncyCastle.Math.EC.Endo", "EndoUtilities/MapPointCallback");

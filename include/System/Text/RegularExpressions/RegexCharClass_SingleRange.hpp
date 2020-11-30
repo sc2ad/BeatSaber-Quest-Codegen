@@ -23,6 +23,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x1544B44
     static RegexCharClass::SingleRange* New_ctor(::Il2CppChar first, ::Il2CppChar last);
   }; // System.Text.RegularExpressions.RegexCharClass/SingleRange
+  check_size<sizeof(RegexCharClass::SingleRange), 18 + sizeof(::Il2CppChar) + 8 - (18 + sizeof(::Il2CppChar)) % 8> __System_Text_RegularExpressions_RegexCharClass_SingleRangeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::SingleRange*, "System.Text.RegularExpressions", "RegexCharClass/SingleRange");

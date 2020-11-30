@@ -76,6 +76,7 @@ namespace System::Globalization {
       // Set static field: static public System.Globalization.DateTimeFormatInfoScanner/FoundDatePattern FoundYMDPatternFlag
       static void _set_FoundYMDPatternFlag(System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern value);
     }; // System.Globalization.DateTimeFormatInfoScanner/FoundDatePattern
+    check_size<sizeof(DateTimeFormatInfoScanner::FoundDatePattern), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Globalization_DateTimeFormatInfoScanner_FoundDatePatternSizeCheck;
     // System.Collections.Generic.List`1<System.String> m_dateWords
     // Offset: 0x10
     System::Collections::Generic::List_1<::Il2CppString*>* m_dateWords;
@@ -137,6 +138,7 @@ namespace System::Globalization {
     // Base method: System.Void Object::.ctor()
     static DateTimeFormatInfoScanner* New_ctor();
   }; // System.Globalization.DateTimeFormatInfoScanner
+  check_size<sizeof(DateTimeFormatInfoScanner), 24 + sizeof(System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern) + 8 - (24 + sizeof(System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern)) % 8> __System_Globalization_DateTimeFormatInfoScannerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfoScanner*, "System.Globalization", "DateTimeFormatInfoScanner");

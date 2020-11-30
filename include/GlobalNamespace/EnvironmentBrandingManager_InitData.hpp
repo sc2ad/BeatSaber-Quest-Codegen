@@ -24,6 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A0D3F0
     static EnvironmentBrandingManager::InitData* New_ctor(bool hideBranding);
   }; // EnvironmentBrandingManager/InitData
+  check_size<sizeof(EnvironmentBrandingManager::InitData), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __GlobalNamespace_EnvironmentBrandingManager_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentBrandingManager::InitData*, "", "EnvironmentBrandingManager/InitData");

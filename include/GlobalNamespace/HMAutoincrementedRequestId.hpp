@@ -58,6 +58,7 @@ namespace GlobalNamespace {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // HMAutoincrementedRequestId
+  check_size<sizeof(HMAutoincrementedRequestId), 16 + sizeof(uint64_t) + 8 - (16 + sizeof(uint64_t)) % 8> __GlobalNamespace_HMAutoincrementedRequestIdSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAutoincrementedRequestId*, "", "HMAutoincrementedRequestId");

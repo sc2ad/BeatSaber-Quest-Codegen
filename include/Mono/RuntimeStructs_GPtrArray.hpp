@@ -31,6 +31,7 @@ namespace Mono {
     // Creating value type constructor for type: GPtrArray
     constexpr GPtrArray(System::IntPtr* data_ = {}, int len_ = {}) noexcept : data{data_}, len{len_} {}
   }; // Mono.RuntimeStructs/GPtrArray
+  check_size<sizeof(RuntimeStructs::GPtrArray), 8 + sizeof(int) + 8 - (8 + sizeof(int)) % 8> __Mono_RuntimeStructs_GPtrArraySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::GPtrArray, "Mono", "RuntimeStructs/GPtrArray");

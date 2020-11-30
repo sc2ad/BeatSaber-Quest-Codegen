@@ -77,6 +77,7 @@ namespace System::Net {
     // Base method: System.Net.NetworkCredential ICredentials::GetCredential(System.Uri uri, System.String authType)
     System::Net::NetworkCredential* GetCredential(System::Uri* uri, ::Il2CppString* authType);
   }; // System.Net.NetworkCredential
+  check_size<sizeof(NetworkCredential), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Net_NetworkCredentialSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkCredential*, "System.Net", "NetworkCredential");

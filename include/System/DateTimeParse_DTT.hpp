@@ -151,6 +151,7 @@ namespace System {
     // Set static field: static public System.DateTimeParse/DTT Max
     static void _set_Max(System::DateTimeParse::DTT value);
   }; // System.DateTimeParse/DTT
+  check_size<sizeof(DateTimeParse::DTT), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_DateTimeParse_DTTSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeParse::DTT, "System", "DateTimeParse/DTT");

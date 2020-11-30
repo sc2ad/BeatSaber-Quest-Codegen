@@ -47,6 +47,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.CullingMode FrontBack
     static void _set_FrontBack(UnityEngine::ProBuilder::CullingMode value);
   }; // UnityEngine.ProBuilder.CullingMode
+  check_size<sizeof(CullingMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_ProBuilder_CullingModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::CullingMode, "UnityEngine.ProBuilder", "CullingMode");

@@ -35,6 +35,7 @@ namespace System::Threading {
     // Set static field: static public System.Threading.LockRecursionPolicy SupportsRecursion
     static void _set_SupportsRecursion(System::Threading::LockRecursionPolicy value);
   }; // System.Threading.LockRecursionPolicy
+  check_size<sizeof(LockRecursionPolicy), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Threading_LockRecursionPolicySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::LockRecursionPolicy, "System.Threading", "LockRecursionPolicy");

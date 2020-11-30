@@ -62,6 +62,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview/<GetCoverImageAsync>d__34
+  check_size<sizeof(BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::$GetCoverImageAsync$d__34), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>) + 8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>)) % 8> __GlobalNamespace_BeatmapLevelDataLoaderSO_BeatmapLevelFromPreview_$GetCoverImageAsync$d__34SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::$GetCoverImageAsync$d__34, "", "BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview/<GetCoverImageAsync>d__34");

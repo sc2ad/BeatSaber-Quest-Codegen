@@ -71,6 +71,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.ETextureType Metal
     static void _set_Metal(OVR::OpenVR::ETextureType value);
   }; // OVR.OpenVR.ETextureType
+  check_size<sizeof(ETextureType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_ETextureTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::ETextureType, "OVR.OpenVR", "ETextureType");

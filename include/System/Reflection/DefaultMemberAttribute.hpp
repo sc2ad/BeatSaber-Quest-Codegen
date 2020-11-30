@@ -27,6 +27,7 @@ namespace System::Reflection {
     // Offset: 0x1723760
     ::Il2CppString* get_MemberName();
   }; // System.Reflection.DefaultMemberAttribute
+  check_size<sizeof(DefaultMemberAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Reflection_DefaultMemberAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::DefaultMemberAttribute*, "System.Reflection", "DefaultMemberAttribute");

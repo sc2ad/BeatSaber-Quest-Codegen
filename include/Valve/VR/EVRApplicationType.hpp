@@ -77,6 +77,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVRApplicationType VRApplication_Max
     static void _set_VRApplication_Max(Valve::VR::EVRApplicationType value);
   }; // Valve.VR.EVRApplicationType
+  check_size<sizeof(EVRApplicationType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Valve_VR_EVRApplicationTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRApplicationType, "Valve.VR", "EVRApplicationType");

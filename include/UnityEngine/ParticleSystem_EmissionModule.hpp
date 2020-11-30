@@ -39,6 +39,7 @@ namespace UnityEngine {
     // Offset: 0x19FFAB4
     static void set_enabled_Injected(UnityEngine::ParticleSystem::EmissionModule& _unity_self, bool value);
   }; // UnityEngine.ParticleSystem/EmissionModule
+  check_size<sizeof(ParticleSystem::EmissionModule), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __UnityEngine_ParticleSystem_EmissionModuleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::EmissionModule, "UnityEngine", "ParticleSystem/EmissionModule");

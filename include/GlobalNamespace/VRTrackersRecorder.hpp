@@ -75,6 +75,7 @@ namespace GlobalNamespace {
       // Set static field: static public VRTrackersRecorder/RecordMode Off
       static void _set_Off(GlobalNamespace::VRTrackersRecorder::RecordMode value);
     }; // VRTrackersRecorder/RecordMode
+    check_size<sizeof(VRTrackersRecorder::RecordMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_VRTrackersRecorder_RecordModeSizeCheck;
     // private FloatSO _songTime
     // Offset: 0x18
     GlobalNamespace::FloatSO* songTime;
@@ -141,6 +142,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static VRTrackersRecorder* New_ctor();
   }; // VRTrackersRecorder
+  check_size<sizeof(VRTrackersRecorder), 100 + sizeof(UnityEngine::Quaternion) + 8 - (100 + sizeof(UnityEngine::Quaternion)) % 8> __GlobalNamespace_VRTrackersRecorderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder*, "", "VRTrackersRecorder");

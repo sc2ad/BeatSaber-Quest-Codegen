@@ -116,6 +116,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ColorSchemeColorsToggleGroup* New_ctor();
   }; // ColorSchemeColorsToggleGroup
+  check_size<sizeof(ColorSchemeColorsToggleGroup), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __GlobalNamespace_ColorSchemeColorsToggleGroupSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeColorsToggleGroup*, "", "ColorSchemeColorsToggleGroup");

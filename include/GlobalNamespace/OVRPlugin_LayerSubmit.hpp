@@ -35,6 +35,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LayerSubmit
     constexpr LayerSubmit(int LayerId_ = {}, int TextureStage_ = {}, ::Array<GlobalNamespace::OVRPlugin::Recti>* ViewportRect_ = {}, GlobalNamespace::OVRPlugin::Posef Pose_ = {}, int LayerSubmitFlags_ = {}) noexcept : LayerId{LayerId_}, TextureStage{TextureStage_}, ViewportRect{ViewportRect_}, Pose{Pose_}, LayerSubmitFlags{LayerSubmitFlags_} {}
   }; // OVRPlugin/LayerSubmit
+  check_size<sizeof(OVRPlugin::LayerSubmit), 44 + sizeof(int) + 8 - (44 + sizeof(int)) % 8> __GlobalNamespace_OVRPlugin_LayerSubmitSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::LayerSubmit, "", "OVRPlugin/LayerSubmit");

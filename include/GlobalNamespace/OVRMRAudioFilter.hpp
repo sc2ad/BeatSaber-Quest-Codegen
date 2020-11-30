@@ -44,6 +44,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRMRAudioFilter* New_ctor();
   }; // OVRMRAudioFilter
+  check_size<sizeof(OVRMRAudioFilter), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_OVRMRAudioFilterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMRAudioFilter*, "", "OVRMRAudioFilter");

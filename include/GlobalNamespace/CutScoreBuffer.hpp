@@ -67,6 +67,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A5759C
     void HandleSwingRatingCounterDidFinishEvent(GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
   }; // CutScoreBuffer
+  check_size<sizeof(CutScoreBuffer), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_CutScoreBufferSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutScoreBuffer*, "", "CutScoreBuffer");

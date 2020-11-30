@@ -145,6 +145,7 @@ namespace Mono::Security::Cryptography {
     // Base method: System.Byte[] ICryptoTransform::TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
     ::Array<uint8_t>* TransformFinalBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
   }; // Mono.Security.Cryptography.SymmetricTransform
+  check_size<sizeof(SymmetricTransform), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __Mono_Security_Cryptography_SymmetricTransformSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::SymmetricTransform*, "Mono.Security.Cryptography", "SymmetricTransform");

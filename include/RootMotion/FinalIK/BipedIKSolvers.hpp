@@ -78,6 +78,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static BipedIKSolvers* New_ctor();
   }; // RootMotion.FinalIK.BipedIKSolvers
+  check_size<sizeof(BipedIKSolvers), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __RootMotion_FinalIK_BipedIKSolversSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::BipedIKSolvers*, "RootMotion.FinalIK", "BipedIKSolvers");

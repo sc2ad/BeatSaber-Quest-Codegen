@@ -125,6 +125,7 @@ namespace NUnit::Framework::Interfaces {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // NUnit.Framework.Interfaces.ResultState
+  check_size<sizeof(ResultState), 32 + sizeof(NUnit::Framework::Interfaces::FailureSite) + 8 - (32 + sizeof(NUnit::Framework::Interfaces::FailureSite)) % 8> __NUnit_Framework_Interfaces_ResultStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ResultState*, "NUnit.Framework.Interfaces", "ResultState");

@@ -12,6 +12,7 @@ namespace System::Collections::Concurrent {
   template<typename T>
   class IProducerConsumerCollectionDebugView_1 : public ::Il2CppObject {
   }; // System.Collections.Concurrent.IProducerConsumerCollectionDebugView`1
+  // Could not write size check! Type: System.Collections.Concurrent.IProducerConsumerCollectionDebugView`1 is generic!
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Concurrent::IProducerConsumerCollectionDebugView_1, "System.Collections.Concurrent", "IProducerConsumerCollectionDebugView`1");

@@ -23,6 +23,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: HmdRect2_t
     constexpr HmdRect2_t(Valve::VR::HmdVector2_t vTopLeft_ = {}, Valve::VR::HmdVector2_t vBottomRight_ = {}) noexcept : vTopLeft{vTopLeft_}, vBottomRight{vBottomRight_} {}
   }; // Valve.VR.HmdRect2_t
+  check_size<sizeof(HmdRect2_t), 8 + sizeof(Valve::VR::HmdVector2_t) + 8 - (8 + sizeof(Valve::VR::HmdVector2_t)) % 8> __Valve_VR_HmdRect2_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HmdRect2_t, "Valve.VR", "HmdRect2_t");

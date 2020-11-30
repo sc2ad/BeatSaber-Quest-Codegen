@@ -77,6 +77,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // Oculus.Platform.MatchmakingOptions
+  check_size<sizeof(MatchmakingOptions), 16 + sizeof(System::IntPtr) + 8 - (16 + sizeof(System::IntPtr)) % 8> __Oculus_Platform_MatchmakingOptionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MatchmakingOptions*, "Oculus.Platform", "MatchmakingOptions");

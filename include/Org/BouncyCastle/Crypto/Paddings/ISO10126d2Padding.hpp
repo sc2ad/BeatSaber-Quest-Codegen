@@ -52,6 +52,7 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     // Base method: System.Void Object::.ctor()
     static ISO10126d2Padding* New_ctor();
   }; // Org.BouncyCastle.Crypto.Paddings.ISO10126d2Padding
+  check_size<sizeof(ISO10126d2Padding), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Paddings_ISO10126d2PaddingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding*, "Org.BouncyCastle.Crypto.Paddings", "ISO10126d2Padding");

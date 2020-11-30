@@ -23,6 +23,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: AppOverrideKeys_t
     constexpr AppOverrideKeys_t(System::IntPtr pchKey_ = {}, System::IntPtr pchValue_ = {}) noexcept : pchKey{pchKey_}, pchValue{pchValue_} {}
   }; // Valve.VR.AppOverrideKeys_t
+  check_size<sizeof(AppOverrideKeys_t), 8 + sizeof(System::IntPtr) + 8 - (8 + sizeof(System::IntPtr)) % 8> __Valve_VR_AppOverrideKeys_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::AppOverrideKeys_t, "Valve.VR", "AppOverrideKeys_t");

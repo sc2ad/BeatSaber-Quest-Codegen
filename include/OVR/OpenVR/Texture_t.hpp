@@ -31,6 +31,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: Texture_t
     constexpr Texture_t(System::IntPtr handle_ = {}, OVR::OpenVR::ETextureType eType_ = {}, OVR::OpenVR::EColorSpace eColorSpace_ = {}) noexcept : handle{handle_}, eType{eType_}, eColorSpace{eColorSpace_} {}
   }; // OVR.OpenVR.Texture_t
+  check_size<sizeof(Texture_t), 12 + sizeof(OVR::OpenVR::EColorSpace) + 8 - (12 + sizeof(OVR::OpenVR::EColorSpace)) % 8> __OVR_OpenVR_Texture_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::Texture_t, "OVR.OpenVR", "Texture_t");

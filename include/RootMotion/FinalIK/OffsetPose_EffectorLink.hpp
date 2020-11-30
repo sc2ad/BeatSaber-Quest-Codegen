@@ -50,6 +50,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static OffsetPose::EffectorLink* New_ctor();
   }; // RootMotion.FinalIK.OffsetPose/EffectorLink
+  check_size<sizeof(OffsetPose::EffectorLink), 44 + sizeof(UnityEngine::Vector3) + 8 - (44 + sizeof(UnityEngine::Vector3)) % 8> __RootMotion_FinalIK_OffsetPose_EffectorLinkSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetPose::EffectorLink*, "RootMotion.FinalIK", "OffsetPose/EffectorLink");

@@ -217,7 +217,10 @@ namespace TMPro {
     template<class T>
     static T GetOrAddComponent(UnityEngine::GameObject* go) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("TMPro", "TMP_Dropdown", "GetOrAddComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, go)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("TMP_Dropdown").WithContext("GetOrAddComponent");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("TMPro", "TMP_Dropdown", il2cpp_utils::NoArgClass<T>(), "GetOrAddComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(go))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, go);
     }
     // public System.Void Show()
     // Offset: 0xF55C78
@@ -312,6 +315,7 @@ namespace TMPro {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // TMPro.TMP_Dropdown
+  check_size<sizeof(TMP_Dropdown), 336 + sizeof(bool) + 8 - (336 + sizeof(bool)) % 8> __TMPro_TMP_DropdownSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown*, "TMPro", "TMP_Dropdown");
 #pragma pack(pop)

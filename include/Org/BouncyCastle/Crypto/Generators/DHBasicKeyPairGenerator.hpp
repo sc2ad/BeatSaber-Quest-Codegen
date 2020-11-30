@@ -44,6 +44,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Base method: System.Void Object::.ctor()
     static DHBasicKeyPairGenerator* New_ctor();
   }; // Org.BouncyCastle.Crypto.Generators.DHBasicKeyPairGenerator
+  check_size<sizeof(DHBasicKeyPairGenerator), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Generators_DHBasicKeyPairGeneratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator*, "Org.BouncyCastle.Crypto.Generators", "DHBasicKeyPairGenerator");

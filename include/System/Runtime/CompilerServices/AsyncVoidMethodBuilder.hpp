@@ -59,7 +59,10 @@ namespace System::Runtime::CompilerServices {
     template<class TStateMachine>
     void Start(TStateMachine& stateMachine) {
       static_assert(std::is_base_of_v<System::Runtime::CompilerServices::IAsyncStateMachine, std::remove_pointer_t<TStateMachine>>);
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod(*this, "Start", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()}, stateMachine));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("AsyncVoidMethodBuilder").WithContext("Start");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "Start", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()}, ::il2cpp_utils::ExtractTypes(stateMachine))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, stateMachine);
     }
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     // Offset: 0xC944C4
@@ -70,7 +73,10 @@ namespace System::Runtime::CompilerServices {
     void AwaitUnsafeOnCompleted(TAwaiter& awaiter, TStateMachine& stateMachine) {
       static_assert(std::is_base_of_v<System::Runtime::CompilerServices::ICriticalNotifyCompletion, std::remove_pointer_t<TAwaiter>>);
       static_assert(std::is_base_of_v<System::Runtime::CompilerServices::IAsyncStateMachine, std::remove_pointer_t<TStateMachine>>);
-      THROW_UNLESS((il2cpp_utils::RunGenericMethod(*this, "AwaitUnsafeOnCompleted", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TAwaiter>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()}, awaiter, stateMachine)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("AsyncVoidMethodBuilder").WithContext("AwaitUnsafeOnCompleted");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "AwaitUnsafeOnCompleted", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TAwaiter>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()}, ::il2cpp_utils::ExtractTypes(awaiter, stateMachine))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TAwaiter>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, awaiter, stateMachine);
     }
     // public System.Void SetResult()
     // Offset: 0xC944D0
@@ -85,6 +91,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0xC944E8
     System::Threading::Tasks::Task* get_Task();
   }; // System.Runtime.CompilerServices.AsyncVoidMethodBuilder
+  check_size<sizeof(AsyncVoidMethodBuilder), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Runtime_CompilerServices_AsyncVoidMethodBuilderSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncVoidMethodBuilder, "System.Runtime.CompilerServices", "AsyncVoidMethodBuilder");
 #pragma pack(pop)

@@ -165,7 +165,10 @@ namespace UnityEngine::EventSystems {
     // Offset: 0xFFFFFFFF
     template<class T>
     static T ValidateEventData(UnityEngine::EventSystems::BaseEventData* data) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine.EventSystems", "ExecuteEvents", "ValidateEventData", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, data)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::EventSystems").WithContext("ExecuteEvents").WithContext("ValidateEventData");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.EventSystems", "ExecuteEvents", il2cpp_utils::NoArgClass<T>(), "ValidateEventData", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(data))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, data);
     }
     // static private System.Void Execute(UnityEngine.EventSystems.IPointerEnterHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x114D338
@@ -277,42 +280,60 @@ namespace UnityEngine::EventSystems {
     template<class T>
     static bool Execute(UnityEngine::GameObject* target, UnityEngine::EventSystems::BaseEventData* eventData, UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<T>* functor) {
       static_assert(std::is_base_of_v<UnityEngine::EventSystems::IEventSystemHandler, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("UnityEngine.EventSystems", "ExecuteEvents", "Execute", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, target, eventData, functor)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::EventSystems").WithContext("ExecuteEvents").WithContext("Execute");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.EventSystems", "ExecuteEvents", il2cpp_utils::NoArgClass<bool>(), "Execute", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(target, eventData, functor))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, target, eventData, functor);
     }
     // static public UnityEngine.GameObject ExecuteHierarchy(UnityEngine.GameObject root, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<T> callbackFunction)
     // Offset: 0xFFFFFFFF
     template<class T>
     static UnityEngine::GameObject* ExecuteHierarchy(UnityEngine::GameObject* root, UnityEngine::EventSystems::BaseEventData* eventData, UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<T>* callbackFunction) {
       static_assert(std::is_base_of_v<UnityEngine::EventSystems::IEventSystemHandler, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<UnityEngine::GameObject*>("UnityEngine.EventSystems", "ExecuteEvents", "ExecuteHierarchy", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, root, eventData, callbackFunction)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::EventSystems").WithContext("ExecuteEvents").WithContext("ExecuteHierarchy");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.EventSystems", "ExecuteEvents", il2cpp_utils::NoArgClass<UnityEngine::GameObject*>(), "ExecuteHierarchy", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(root, eventData, callbackFunction))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::GameObject*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, root, eventData, callbackFunction);
     }
     // static private System.Boolean ShouldSendToComponent(UnityEngine.Component component)
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool ShouldSendToComponent(UnityEngine::Component* component) {
       static_assert(std::is_base_of_v<UnityEngine::EventSystems::IEventSystemHandler, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("UnityEngine.EventSystems", "ExecuteEvents", "ShouldSendToComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, component)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::EventSystems").WithContext("ExecuteEvents").WithContext("ShouldSendToComponent");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.EventSystems", "ExecuteEvents", il2cpp_utils::NoArgClass<bool>(), "ShouldSendToComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(component))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, component);
     }
     // static private System.Void GetEventList(UnityEngine.GameObject go, System.Collections.Generic.IList`1<UnityEngine.EventSystems.IEventSystemHandler> results)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void GetEventList(UnityEngine::GameObject* go, System::Collections::Generic::IList_1<UnityEngine::EventSystems::IEventSystemHandler*>* results) {
       static_assert(std::is_base_of_v<UnityEngine::EventSystems::IEventSystemHandler, std::remove_pointer_t<T>>);
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.EventSystems", "ExecuteEvents", "GetEventList", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, go, results));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::EventSystems").WithContext("ExecuteEvents").WithContext("GetEventList");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.EventSystems", "ExecuteEvents", il2cpp_utils::NoArgClass<void>(), "GetEventList", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(go, results))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, go, results);
     }
     // static public System.Boolean CanHandleEvent(UnityEngine.GameObject go)
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool CanHandleEvent(UnityEngine::GameObject* go) {
       static_assert(std::is_base_of_v<UnityEngine::EventSystems::IEventSystemHandler, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("UnityEngine.EventSystems", "ExecuteEvents", "CanHandleEvent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, go)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::EventSystems").WithContext("ExecuteEvents").WithContext("CanHandleEvent");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.EventSystems", "ExecuteEvents", il2cpp_utils::NoArgClass<bool>(), "CanHandleEvent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(go))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, go);
     }
     // static public UnityEngine.GameObject GetEventHandler(UnityEngine.GameObject root)
     // Offset: 0xFFFFFFFF
     template<class T>
     static UnityEngine::GameObject* GetEventHandler(UnityEngine::GameObject* root) {
       static_assert(std::is_base_of_v<UnityEngine::EventSystems::IEventSystemHandler, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<UnityEngine::GameObject*>("UnityEngine.EventSystems", "ExecuteEvents", "GetEventHandler", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, root)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::EventSystems").WithContext("ExecuteEvents").WithContext("GetEventHandler");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.EventSystems", "ExecuteEvents", il2cpp_utils::NoArgClass<UnityEngine::GameObject*>(), "GetEventHandler", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(root))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::GameObject*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, root);
     }
     // static private System.Void .cctor()
     // Offset: 0x114EAEC

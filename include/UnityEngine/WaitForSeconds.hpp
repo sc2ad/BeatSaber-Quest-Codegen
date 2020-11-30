@@ -24,6 +24,7 @@ namespace UnityEngine {
     // Offset: 0x16CDFCC
     static WaitForSeconds* New_ctor(float seconds);
   }; // UnityEngine.WaitForSeconds
+  check_size<sizeof(WaitForSeconds), 16 + sizeof(float) + 8 - (16 + sizeof(float)) % 8> __UnityEngine_WaitForSecondsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitForSeconds*, "UnityEngine", "WaitForSeconds");

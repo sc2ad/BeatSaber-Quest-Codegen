@@ -51,6 +51,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     static IPHostEntry* New_ctor();
   }; // System.Net.IPHostEntry
+  check_size<sizeof(IPHostEntry), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __System_Net_IPHostEntrySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPHostEntry*, "System.Net", "IPHostEntry");

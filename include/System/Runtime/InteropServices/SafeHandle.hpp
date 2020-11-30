@@ -103,6 +103,7 @@ namespace System::Runtime::InteropServices {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Runtime.InteropServices.SafeHandle
+  check_size<sizeof(SafeHandle), 29 + sizeof(bool) + 8 - (29 + sizeof(bool)) % 8> __System_Runtime_InteropServices_SafeHandleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::SafeHandle*, "System.Runtime.InteropServices", "SafeHandle");

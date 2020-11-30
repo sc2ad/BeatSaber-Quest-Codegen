@@ -72,6 +72,7 @@ namespace System::Security {
     // Base method: System.String Exception::ToString()
     ::Il2CppString* ToString();
   }; // System.Security.SecurityException
+  check_size<sizeof(SecurityException), 136 + sizeof(void*) + 8 - (136 + sizeof(void*)) % 8> __System_Security_SecurityExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityException*, "System.Security", "SecurityException");

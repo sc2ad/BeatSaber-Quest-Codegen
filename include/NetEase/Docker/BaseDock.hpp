@@ -105,6 +105,7 @@ namespace NetEase::Docker {
     // Base method: System.Void Object::.ctor()
     static BaseDock* New_ctor();
   }; // NetEase.Docker.BaseDock
+  check_size<sizeof(BaseDock), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __NetEase_Docker_BaseDockSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::BaseDock*, "NetEase.Docker", "BaseDock");

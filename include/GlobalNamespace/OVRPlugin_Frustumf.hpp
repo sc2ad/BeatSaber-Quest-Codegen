@@ -30,6 +30,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Frustumf
     constexpr Frustumf(float zNear_ = {}, float zFar_ = {}, float fovX_ = {}, float fovY_ = {}) noexcept : zNear{zNear_}, zFar{zFar_}, fovX{fovX_}, fovY{fovY_} {}
   }; // OVRPlugin/Frustumf
+  check_size<sizeof(OVRPlugin::Frustumf), 12 + sizeof(float) + 8 - (12 + sizeof(float)) % 8> __GlobalNamespace_OVRPlugin_FrustumfSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Frustumf, "", "OVRPlugin/Frustumf");

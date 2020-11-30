@@ -50,6 +50,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // BlueNoiseDithering
+  check_size<sizeof(BlueNoiseDithering), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_BlueNoiseDitheringSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlueNoiseDithering*, "", "BlueNoiseDithering");

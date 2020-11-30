@@ -44,6 +44,7 @@ namespace GlobalNamespace {
     // Offset: 0x11163A4
     void set_material(UnityEngine::Material* value);
   }; // SteamVR_RenderModel/RenderModel
+  check_size<sizeof(SteamVR_RenderModel::RenderModel), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_SteamVR_RenderModel_RenderModelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_RenderModel::RenderModel*, "", "SteamVR_RenderModel/RenderModel");

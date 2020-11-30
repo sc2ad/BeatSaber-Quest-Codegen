@@ -24,6 +24,7 @@ namespace System::Reflection {
     // Offset: 0x17218E4
     static AssemblyProductAttribute* New_ctor(::Il2CppString* product);
   }; // System.Reflection.AssemblyProductAttribute
+  check_size<sizeof(AssemblyProductAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Reflection_AssemblyProductAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyProductAttribute*, "System.Reflection", "AssemblyProductAttribute");

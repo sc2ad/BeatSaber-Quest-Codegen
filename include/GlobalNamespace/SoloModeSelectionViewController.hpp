@@ -71,6 +71,7 @@ namespace GlobalNamespace {
       // Set static field: static public SoloModeSelectionViewController/MenuType Back
       static void _set_Back(GlobalNamespace::SoloModeSelectionViewController::MenuType value);
     }; // SoloModeSelectionViewController/MenuType
+    check_size<sizeof(SoloModeSelectionViewController::MenuType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_SoloModeSelectionViewController_MenuTypeSizeCheck;
     // private UnityEngine.UI.Button _freePlayModeButton
     // Offset: 0x70
     UnityEngine::UI::Button* freePlayModeButton;
@@ -123,6 +124,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SoloModeSelectionViewController* New_ctor();
   }; // SoloModeSelectionViewController
+  check_size<sizeof(SoloModeSelectionViewController), 144 + sizeof(void*) + 8 - (144 + sizeof(void*)) % 8> __GlobalNamespace_SoloModeSelectionViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloModeSelectionViewController*, "", "SoloModeSelectionViewController");

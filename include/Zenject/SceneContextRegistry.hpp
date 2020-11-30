@@ -71,6 +71,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static SceneContextRegistry* New_ctor();
   }; // Zenject.SceneContextRegistry
+  check_size<sizeof(SceneContextRegistry), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Zenject_SceneContextRegistrySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContextRegistry*, "Zenject", "SceneContextRegistry");

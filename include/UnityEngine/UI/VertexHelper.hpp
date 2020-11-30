@@ -146,6 +146,7 @@ namespace UnityEngine::UI {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // UnityEngine.UI.VertexHelper
+  check_size<sizeof(VertexHelper), 88 + sizeof(bool) + 8 - (88 + sizeof(bool)) % 8> __UnityEngine_UI_VertexHelperSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::VertexHelper*, "UnityEngine.UI", "VertexHelper");

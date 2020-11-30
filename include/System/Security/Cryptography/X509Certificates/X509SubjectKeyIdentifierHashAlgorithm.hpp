@@ -41,6 +41,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static public System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm CapiSha1
     static void _set_CapiSha1(System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm value);
   }; // System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm
+  check_size<sizeof(X509SubjectKeyIdentifierHashAlgorithm), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Security_Cryptography_X509Certificates_X509SubjectKeyIdentifierHashAlgorithmSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm, "System.Security.Cryptography.X509Certificates", "X509SubjectKeyIdentifierHashAlgorithm");

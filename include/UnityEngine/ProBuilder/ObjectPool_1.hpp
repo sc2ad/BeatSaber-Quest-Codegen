@@ -55,34 +55,45 @@ namespace UnityEngine::ProBuilder {
     // public System.Void .ctor(System.Int32 initialSize, System.Int32 desiredSize, System.Func`1<T> constructor, System.Action`1<T> destructor, System.Boolean lazyInitialization)
     // Offset: 0xFFFFFFFF
     static ObjectPool_1<T>* New_ctor(int initialSize, int desiredSize, System::Func_1<T>* constructor, System::Action_1<T>* destructor, bool lazyInitialization) {
-      return THROW_UNLESS(il2cpp_utils::New<ObjectPool_1<T>*>(initialSize, desiredSize, constructor, destructor, lazyInitialization));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("ObjectPool_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<ObjectPool_1<T>*>(initialSize, desiredSize, constructor, destructor, lazyInitialization));
     }
     // public T Dequeue()
     // Offset: 0xFFFFFFFF
     T Dequeue() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "Dequeue"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("ObjectPool_1").WithContext("Dequeue");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "Dequeue", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public System.Void Enqueue(T obj)
     // Offset: 0xFFFFFFFF
     void Enqueue(T obj) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Enqueue", obj));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("ObjectPool_1").WithContext("Enqueue");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Enqueue", {}, ::il2cpp_utils::ExtractTypes(obj)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, obj);
     }
     // public System.Void Empty()
     // Offset: 0xFFFFFFFF
     void Empty() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Empty"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("ObjectPool_1").WithContext("Empty");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Empty", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // private System.Void Dispose(System.Boolean disposing)
     // Offset: 0xFFFFFFFF
     void Dispose(bool disposing) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose", disposing));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("ObjectPool_1").WithContext("Dispose");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Dispose", {}, ::il2cpp_utils::ExtractTypes(disposing)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, disposing);
     }
     // public System.Void Dispose()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("ObjectPool_1").WithContext("Dispose");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Dispose", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // Creating proxy method: System_IDisposable_Dispose
     // Maps to method: Dispose
@@ -90,6 +101,7 @@ namespace UnityEngine::ProBuilder {
       Dispose();
     }
   }; // UnityEngine.ProBuilder.ObjectPool`1
+  // Could not write size check! Type: UnityEngine.ProBuilder.ObjectPool`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::ProBuilder::ObjectPool_1, "UnityEngine.ProBuilder", "ObjectPool`1");
 #pragma pack(pop)

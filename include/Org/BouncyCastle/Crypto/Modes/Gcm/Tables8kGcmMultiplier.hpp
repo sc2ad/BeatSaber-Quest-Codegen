@@ -39,6 +39,7 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     // Base method: System.Void Object::.ctor()
     static Tables8kGcmMultiplier* New_ctor();
   }; // Org.BouncyCastle.Crypto.Modes.Gcm.Tables8kGcmMultiplier
+  check_size<sizeof(Tables8kGcmMultiplier), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Modes_Gcm_Tables8kGcmMultiplierSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier*, "Org.BouncyCastle.Crypto.Modes.Gcm", "Tables8kGcmMultiplier");

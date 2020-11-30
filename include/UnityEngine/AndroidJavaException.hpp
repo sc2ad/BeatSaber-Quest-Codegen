@@ -29,6 +29,7 @@ namespace UnityEngine {
     // Base method: System.String Exception::get_StackTrace()
     ::Il2CppString* get_StackTrace();
   }; // UnityEngine.AndroidJavaException
+  check_size<sizeof(AndroidJavaException), 136 + sizeof(void*) + 8 - (136 + sizeof(void*)) % 8> __UnityEngine_AndroidJavaExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaException*, "UnityEngine", "AndroidJavaException");

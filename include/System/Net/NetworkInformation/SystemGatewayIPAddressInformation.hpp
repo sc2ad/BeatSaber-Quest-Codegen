@@ -41,6 +41,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x119A3B4
     static System::Net::NetworkInformation::GatewayIPAddressInformationCollection* ToGatewayIpAddressInformationCollection(System::Net::NetworkInformation::IPAddressCollection* addresses);
   }; // System.Net.NetworkInformation.SystemGatewayIPAddressInformation
+  check_size<sizeof(SystemGatewayIPAddressInformation), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Net_NetworkInformation_SystemGatewayIPAddressInformationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::SystemGatewayIPAddressInformation*, "System.Net.NetworkInformation", "SystemGatewayIPAddressInformation");

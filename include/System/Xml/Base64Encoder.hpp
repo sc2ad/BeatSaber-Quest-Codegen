@@ -35,6 +35,7 @@ namespace System::Xml {
     // Base method: System.Void Object::.ctor()
     static Base64Encoder* New_ctor();
   }; // System.Xml.Base64Encoder
+  check_size<sizeof(Base64Encoder), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Xml_Base64EncoderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::Base64Encoder*, "System.Xml", "Base64Encoder");

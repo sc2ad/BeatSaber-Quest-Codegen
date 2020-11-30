@@ -97,6 +97,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BombNoteController* New_ctor();
   }; // BombNoteController
+  check_size<sizeof(BombNoteController), 136 + sizeof(bool) + 8 - (136 + sizeof(bool)) % 8> __GlobalNamespace_BombNoteControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombNoteController*, "", "BombNoteController");

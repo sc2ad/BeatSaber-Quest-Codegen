@@ -206,6 +206,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRInput/Controller All
       static void _set_All(GlobalNamespace::OVRInput::Controller value);
     }; // OVRInput/Controller
+    check_size<sizeof(OVRInput::Controller), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRInput_ControllerSizeCheck;
     // Get static field: static private readonly System.Single AXIS_AS_BUTTON_THRESHOLD
     static float _get_AXIS_AS_BUTTON_THRESHOLD();
     // Set static field: static private readonly System.Single AXIS_AS_BUTTON_THRESHOLD

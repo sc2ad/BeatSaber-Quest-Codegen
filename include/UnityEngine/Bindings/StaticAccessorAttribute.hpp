@@ -34,6 +34,7 @@ namespace UnityEngine::Bindings {
     // Offset: 0x1A04780
     static StaticAccessorAttribute* New_ctor(::Il2CppString* name, UnityEngine::Bindings::StaticAccessorType type);
   }; // UnityEngine.Bindings.StaticAccessorAttribute
+  check_size<sizeof(StaticAccessorAttribute), 24 + sizeof(UnityEngine::Bindings::StaticAccessorType) + 8 - (24 + sizeof(UnityEngine::Bindings::StaticAccessorType)) % 8> __UnityEngine_Bindings_StaticAccessorAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::StaticAccessorAttribute*, "UnityEngine.Bindings", "StaticAccessorAttribute");

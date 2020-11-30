@@ -53,6 +53,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MarkableUIButton* New_ctor();
   }; // MarkableUIButton
+  check_size<sizeof(MarkableUIButton), 36 + sizeof(int) + 8 - (36 + sizeof(int)) % 8> __GlobalNamespace_MarkableUIButtonSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MarkableUIButton*, "", "MarkableUIButton");

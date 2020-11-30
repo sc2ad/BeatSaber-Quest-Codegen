@@ -35,6 +35,7 @@ namespace LiteNetLib::Utils {
     // Set static field: static public LiteNetLib.Utils.NtpMode Server
     static void _set_Server(LiteNetLib::Utils::NtpMode value);
   }; // LiteNetLib.Utils.NtpMode
+  check_size<sizeof(NtpMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __LiteNetLib_Utils_NtpModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NtpMode, "LiteNetLib.Utils", "NtpMode");

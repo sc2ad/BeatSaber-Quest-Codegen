@@ -29,6 +29,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x13C5680
     static RaycastHit* New_ctor(float distance, UnityEngine::Vector3 point, UnityEngine::Vector3 normal, int face);
   }; // UnityEngine.ProBuilder.RaycastHit
+  check_size<sizeof(RaycastHit), 44 + sizeof(int) + 8 - (44 + sizeof(int)) % 8> __UnityEngine_ProBuilder_RaycastHitSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::RaycastHit*, "UnityEngine.ProBuilder", "RaycastHit");

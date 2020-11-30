@@ -41,6 +41,7 @@ namespace GlobalNamespace {
     // Offset: 0x198DBE4
     static ShaderVariantsSO::ShaderVariant* New_ctor(UnityEngine::Shader* shader, ::Array<GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*>* variants);
   }; // ShaderVariantsSO/ShaderVariant
+  check_size<sizeof(ShaderVariantsSO::ShaderVariant), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_ShaderVariantsSO_ShaderVariantSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderVariantsSO::ShaderVariant*, "", "ShaderVariantsSO/ShaderVariant");

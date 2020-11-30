@@ -40,6 +40,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DCAEC
     static MatchmakingStats* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.MatchmakingStats
+  check_size<sizeof(MatchmakingStats), 48 + sizeof(uint) + 8 - (48 + sizeof(uint)) % 8> __Oculus_Platform_Models_MatchmakingStatsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingStats*, "Oculus.Platform.Models", "MatchmakingStats");

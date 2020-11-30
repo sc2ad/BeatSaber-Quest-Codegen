@@ -36,6 +36,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DB068
     static LeaderboardEntryList* New_ctor(System::IntPtr a);
   }; // Oculus.Platform.Models.LeaderboardEntryList
+  check_size<sizeof(LeaderboardEntryList), 40 + sizeof(uint64_t) + 8 - (40 + sizeof(uint64_t)) % 8> __Oculus_Platform_Models_LeaderboardEntryListSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LeaderboardEntryList*, "Oculus.Platform.Models", "LeaderboardEntryList");

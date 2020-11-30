@@ -67,7 +67,10 @@ namespace UnityEngine::Playables {
     template<class T>
     bool IsPlayableOfType() {
       static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayable, std::remove_pointer_t<T>> && is_value_type_v<T>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(*this, "IsPlayableOfType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Playables").WithContext("Playable").WithContext("IsPlayableOfType");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<bool>(), "IsPlayableOfType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method);
     }
     // public System.Type GetPlayableType()
     // Offset: 0xCA6F48
@@ -86,6 +89,7 @@ namespace UnityEngine::Playables {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Playables.Playable other)
     bool Equals(UnityEngine::Playables::Playable other);
   }; // UnityEngine.Playables.Playable
+  check_size<sizeof(Playable), 0 + sizeof(UnityEngine::Playables::PlayableHandle) + 8 - (0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8> __UnityEngine_Playables_PlayableSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::Playable, "UnityEngine.Playables", "Playable");
 #pragma pack(pop)

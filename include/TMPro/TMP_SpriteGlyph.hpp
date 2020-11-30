@@ -47,6 +47,7 @@ namespace TMPro {
     // Base method: System.Void Glyph::.ctor(System.UInt32 index, UnityEngine.TextCore.GlyphMetrics metrics, UnityEngine.TextCore.GlyphRect glyphRect, System.Single scale, System.Int32 atlasIndex)
     static TMP_SpriteGlyph* New_ctor(uint index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float scale, int atlasIndex);
   }; // TMPro.TMP_SpriteGlyph
+  check_size<sizeof(TMP_SpriteGlyph), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __TMPro_TMP_SpriteGlyphSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteGlyph*, "TMPro", "TMP_SpriteGlyph");

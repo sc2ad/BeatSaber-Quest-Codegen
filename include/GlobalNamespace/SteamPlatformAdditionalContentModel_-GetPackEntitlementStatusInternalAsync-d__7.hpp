@@ -60,6 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // SteamPlatformAdditionalContentModel/<GetPackEntitlementStatusInternalAsync>d__7
+  check_size<sizeof(SteamPlatformAdditionalContentModel::$GetPackEntitlementStatusInternalAsync$d__7), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>) + 8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>)) % 8> __GlobalNamespace_SteamPlatformAdditionalContentModel_$GetPackEntitlementStatusInternalAsync$d__7SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamPlatformAdditionalContentModel::$GetPackEntitlementStatusInternalAsync$d__7, "", "SteamPlatformAdditionalContentModel/<GetPackEntitlementStatusInternalAsync>d__7");

@@ -41,6 +41,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.VROverlayInputMethod DualAnalog
     static void _set_DualAnalog(OVR::OpenVR::VROverlayInputMethod value);
   }; // OVR.OpenVR.VROverlayInputMethod
+  check_size<sizeof(VROverlayInputMethod), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_VROverlayInputMethodSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VROverlayInputMethod, "OVR.OpenVR", "VROverlayInputMethod");

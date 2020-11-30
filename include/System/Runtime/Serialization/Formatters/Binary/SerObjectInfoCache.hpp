@@ -48,6 +48,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x12FE8AC
     static SerObjectInfoCache* New_ctor(System::Type* type);
   }; // System.Runtime.Serialization.Formatters.Binary.SerObjectInfoCache
+  check_size<sizeof(SerObjectInfoCache), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __System_Runtime_Serialization_Formatters_Binary_SerObjectInfoCacheSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*, "System.Runtime.Serialization.Formatters.Binary", "SerObjectInfoCache");

@@ -129,6 +129,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PartyFreePlayFlowCoordinator* New_ctor();
   }; // PartyFreePlayFlowCoordinator
+  check_size<sizeof(PartyFreePlayFlowCoordinator), 320 + sizeof(void*) + 8 - (320 + sizeof(void*)) % 8> __GlobalNamespace_PartyFreePlayFlowCoordinatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyFreePlayFlowCoordinator*, "", "PartyFreePlayFlowCoordinator");

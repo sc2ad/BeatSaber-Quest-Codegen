@@ -47,6 +47,7 @@ namespace System::Security::Principal {
     // Set static field: static public System.Security.Principal.WindowsAccountType Anonymous
     static void _set_Anonymous(System::Security::Principal::WindowsAccountType value);
   }; // System.Security.Principal.WindowsAccountType
+  check_size<sizeof(WindowsAccountType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Security_Principal_WindowsAccountTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::WindowsAccountType, "System.Security.Principal", "WindowsAccountType");

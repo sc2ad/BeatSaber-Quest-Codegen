@@ -76,6 +76,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static Poser* New_ctor();
   }; // RootMotion.FinalIK.Poser
+  check_size<sizeof(Poser), 76 + sizeof(bool) + 8 - (76 + sizeof(bool)) % 8> __RootMotion_FinalIK_PoserSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Poser*, "RootMotion.FinalIK", "Poser");

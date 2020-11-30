@@ -97,6 +97,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BeatLineManager* New_ctor();
   }; // BeatLineManager
+  check_size<sizeof(BeatLineManager), 80 + sizeof(float) + 8 - (80 + sizeof(float)) % 8> __GlobalNamespace_BeatLineManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLineManager*, "", "BeatLineManager");

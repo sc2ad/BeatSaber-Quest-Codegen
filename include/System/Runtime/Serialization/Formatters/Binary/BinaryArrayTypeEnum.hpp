@@ -59,6 +59,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static public System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum RectangularOffset
     static void _set_RectangularOffset(System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum value);
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum
+  check_size<sizeof(BinaryArrayTypeEnum), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Runtime_Serialization_Formatters_Binary_BinaryArrayTypeEnumSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum, "System.Runtime.Serialization.Formatters.Binary", "BinaryArrayTypeEnum");

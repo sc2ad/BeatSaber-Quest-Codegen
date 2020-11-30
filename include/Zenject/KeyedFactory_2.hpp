@@ -32,14 +32,18 @@ namespace Zenject {
     // public TBase Create(TKey key)
     // Offset: 0xFFFFFFFF
     TBase Create(TKey key) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<TBase>(this, "Create", key));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("KeyedFactory_2").WithContext("Create");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<TBase>(), "Create", {}, ::il2cpp_utils::ExtractTypes(key)));
+      return ::il2cpp_utils::RunMethodThrow<TBase, false>(this, ___internal__method, key);
     }
     // protected override System.Collections.Generic.IEnumerable`1<System.Type> get_ProvidedTypes()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.KeyedFactoryBase`2
     // Base method: System.Collections.Generic.IEnumerable`1<System.Type> KeyedFactoryBase_2::get_ProvidedTypes()
     System::Collections::Generic::IEnumerable_1<System::Type*>* get_ProvidedTypes() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerable_1<System::Type*>*>(this, "get_ProvidedTypes"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("KeyedFactory_2").WithContext("get_ProvidedTypes");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Collections::Generic::IEnumerable_1<System::Type*>*>(), "get_ProvidedTypes", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<System::Type*>*, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -47,9 +51,11 @@ namespace Zenject {
     // Base method: System.Void KeyedFactoryBase_2::.ctor()
     // Base method: System.Void Object::.ctor()
     static KeyedFactory_2<TBase, TKey>* New_ctor() {
-      return THROW_UNLESS((il2cpp_utils::New<KeyedFactory_2<TBase, TKey>*>()));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("KeyedFactory_2").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<KeyedFactory_2<TBase, TKey>*>()));
     }
   }; // Zenject.KeyedFactory`2
+  // Could not write size check! Type: Zenject.KeyedFactory`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::KeyedFactory_2, "Zenject", "KeyedFactory`2");
 #pragma pack(pop)

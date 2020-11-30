@@ -59,6 +59,7 @@ namespace GlobalNamespace {
       // Set static field: static public TrackLaneRingsRotationEffectSpawner/RotationStepType MaxOr0
       static void _set_MaxOr0(GlobalNamespace::TrackLaneRingsRotationEffectSpawner::RotationStepType value);
     }; // TrackLaneRingsRotationEffectSpawner/RotationStepType
+    check_size<sizeof(TrackLaneRingsRotationEffectSpawner::RotationStepType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_TrackLaneRingsRotationEffectSpawner_RotationStepTypeSizeCheck;
     // private TrackLaneRingsRotationEffect _trackLaneRingsRotationEffect
     // Offset: 0x18
     GlobalNamespace::TrackLaneRingsRotationEffect* trackLaneRingsRotationEffect;
@@ -104,6 +105,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static TrackLaneRingsRotationEffectSpawner* New_ctor();
   }; // TrackLaneRingsRotationEffectSpawner
+  check_size<sizeof(TrackLaneRingsRotationEffectSpawner), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_TrackLaneRingsRotationEffectSpawnerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffectSpawner*, "", "TrackLaneRingsRotationEffectSpawner");

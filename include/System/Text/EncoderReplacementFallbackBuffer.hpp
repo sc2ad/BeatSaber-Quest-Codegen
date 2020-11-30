@@ -63,6 +63,7 @@ namespace System::Text {
     // Base method: System.Void EncoderFallbackBuffer::Reset()
     void Reset();
   }; // System.Text.EncoderReplacementFallbackBuffer
+  check_size<sizeof(EncoderReplacementFallbackBuffer), 60 + sizeof(int) + 8 - (60 + sizeof(int)) % 8> __System_Text_EncoderReplacementFallbackBufferSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderReplacementFallbackBuffer*, "System.Text", "EncoderReplacementFallbackBuffer");

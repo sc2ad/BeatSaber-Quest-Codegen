@@ -29,6 +29,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Frustum
     constexpr Frustum(float nearZ_ = {}, float farZ_ = {}, UnityEngine::Vector2 fov_ = {}) noexcept : nearZ{nearZ_}, farZ{farZ_}, fov{fov_} {}
   }; // OVRTracker/Frustum
+  check_size<sizeof(OVRTracker::Frustum), 8 + sizeof(UnityEngine::Vector2) + 8 - (8 + sizeof(UnityEngine::Vector2)) % 8> __GlobalNamespace_OVRTracker_FrustumSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRTracker::Frustum, "", "OVRTracker/Frustum");

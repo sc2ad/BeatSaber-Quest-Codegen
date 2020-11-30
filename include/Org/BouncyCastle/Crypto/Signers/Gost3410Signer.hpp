@@ -66,6 +66,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Base method: System.Void Object::.ctor()
     static Gost3410Signer* New_ctor();
   }; // Org.BouncyCastle.Crypto.Signers.Gost3410Signer
+  check_size<sizeof(Gost3410Signer), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Signers_Gost3410SignerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::Gost3410Signer*, "Org.BouncyCastle.Crypto.Signers", "Gost3410Signer");

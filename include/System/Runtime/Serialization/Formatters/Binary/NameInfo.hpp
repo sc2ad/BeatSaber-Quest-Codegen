@@ -79,6 +79,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     static NameInfo* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.NameInfo
+  check_size<sizeof(NameInfo), 68 + sizeof(bool) + 8 - (68 + sizeof(bool)) % 8> __System_Runtime_Serialization_Formatters_Binary_NameInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::NameInfo*, "System.Runtime.Serialization.Formatters.Binary", "NameInfo");

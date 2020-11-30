@@ -33,16 +33,20 @@ namespace System::Linq {
     // TResult <CombineSelectors>b__0(TSource x)
     // Offset: 0xFFFFFFFF
     TResult $CombineSelectors$b__0(TSource x) {
-      return THROW_UNLESS((il2cpp_utils::RunMethod<TResult>(this, "<CombineSelectors>b__0", x)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("$$c__DisplayClass7_0_3").WithContext("<CombineSelectors>b__0");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<TResult>(), "<CombineSelectors>b__0", {}, ::il2cpp_utils::ExtractTypes(x))));
+      return ::il2cpp_utils::RunMethodThrow<TResult, false>(this, ___internal__method, x);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static Enumerable::$$c__DisplayClass7_0_3<TSource, TMiddle, TResult>* New_ctor() {
-      return THROW_UNLESS((il2cpp_utils::New<Enumerable::$$c__DisplayClass7_0_3<TSource, TMiddle, TResult>*>()));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("$$c__DisplayClass7_0_3").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<Enumerable::$$c__DisplayClass7_0_3<TSource, TMiddle, TResult>*>()));
     }
   }; // System.Linq.Enumerable/<>c__DisplayClass7_0`3
+  // Could not write size check! Type: System.Linq.Enumerable/<>c__DisplayClass7_0`3 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::Enumerable::$$c__DisplayClass7_0_3, "System.Linq", "Enumerable/<>c__DisplayClass7_0`3");
 #pragma pack(pop)

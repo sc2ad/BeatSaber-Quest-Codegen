@@ -88,6 +88,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EnvironmentInfoSO* New_ctor();
   }; // EnvironmentInfoSO
+  check_size<sizeof(EnvironmentInfoSO), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __GlobalNamespace_EnvironmentInfoSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentInfoSO*, "", "EnvironmentInfoSO");

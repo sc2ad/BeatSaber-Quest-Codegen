@@ -78,21 +78,26 @@ namespace System::Linq {
       // public System.Void .ctor(System.Int32 <>1__state)
       // Offset: 0xFFFFFFFF
       static typename OrderedEnumerable_1<TElement>::$GetEnumerator$d__1* New_ctor(int $$1__state) {
-        return THROW_UNLESS(il2cpp_utils::New<typename OrderedEnumerable_1<TElement>::$GetEnumerator$d__1*>($$1__state));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("$GetEnumerator$d__1").WithContext(".ctor");
+        return THROW_UNLESS(::il2cpp_utils::New<typename OrderedEnumerable_1<TElement>::$GetEnumerator$d__1*>($$1__state));
       }
       // private System.Void System.IDisposable.Dispose()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.IDisposable
       // Base method: System.Void IDisposable::Dispose()
       void System_IDisposable_Dispose() {
-        THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.IDisposable.Dispose"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("$GetEnumerator$d__1").WithContext("System.IDisposable.Dispose");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "System.IDisposable.Dispose", {}, ::il2cpp_utils::ExtractTypes()));
+        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
       }
       // private System.Boolean MoveNext()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Boolean IEnumerator::MoveNext()
       bool MoveNext() {
-        return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "MoveNext"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("$GetEnumerator$d__1").WithContext("MoveNext");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "MoveNext", {}, ::il2cpp_utils::ExtractTypes()));
+        return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
       }
       // Creating proxy method: System_Collections_IEnumerator_MoveNext
       // Maps to method: MoveNext
@@ -104,23 +109,30 @@ namespace System::Linq {
       // Implemented from: System.Collections.Generic.IEnumerator`1
       // Base method: T IEnumerator_1::get_Current()
       TElement System_Collections_Generic_IEnumerator_1_get_Current() {
-        return THROW_UNLESS((il2cpp_utils::RunMethod<TElement>(this, "System.Collections.Generic.IEnumerator<TElement>.get_Current")));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("$GetEnumerator$d__1").WithContext("System.Collections.Generic.IEnumerator<TElement>.get_Current");
+        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<TElement>(), "System.Collections.Generic.IEnumerator<TElement>.get_Current", {}, ::il2cpp_utils::ExtractTypes())));
+        return ::il2cpp_utils::RunMethodThrow<TElement, false>(this, ___internal__method);
       }
       // private System.Void System.Collections.IEnumerator.Reset()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Void IEnumerator::Reset()
       void System_Collections_IEnumerator_Reset() {
-        THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.Collections.IEnumerator.Reset"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("$GetEnumerator$d__1").WithContext("System.Collections.IEnumerator.Reset");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "System.Collections.IEnumerator.Reset", {}, ::il2cpp_utils::ExtractTypes()));
+        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
       }
       // private System.Object System.Collections.IEnumerator.get_Current()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Object IEnumerator::get_Current()
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
-        return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "System.Collections.IEnumerator.get_Current"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("$GetEnumerator$d__1").WithContext("System.Collections.IEnumerator.get_Current");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<::Il2CppObject*>(), "System.Collections.IEnumerator.get_Current", {}, ::il2cpp_utils::ExtractTypes()));
+        return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method);
       }
     }; // System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1
+    // Could not write size check! Type: System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1 is generic!
     // System.Collections.Generic.IEnumerable`1<TElement> source
     // Offset: 0x0
     System::Collections::Generic::IEnumerable_1<TElement>* source;
@@ -135,19 +147,25 @@ namespace System::Linq {
     // public System.Collections.Generic.IEnumerator`1<TElement> GetEnumerator()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerator_1<TElement>* GetEnumerator() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerator_1<TElement>*>(this, "GetEnumerator"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("OrderedEnumerable_1").WithContext("GetEnumerator");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Collections::Generic::IEnumerator_1<TElement>*>(), "GetEnumerator", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerator_1<TElement>*, false>(this, ___internal__method);
     }
     // System.Linq.EnumerableSorter`1<TElement> GetEnumerableSorter(System.Linq.EnumerableSorter`1<TElement> next)
     // Offset: 0xFFFFFFFF
     System::Linq::EnumerableSorter_1<TElement>* GetEnumerableSorter(System::Linq::EnumerableSorter_1<TElement>* next) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Linq::EnumerableSorter_1<TElement>*>(this, "GetEnumerableSorter", next));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("OrderedEnumerable_1").WithContext("GetEnumerableSorter");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Linq::EnumerableSorter_1<TElement>*>(), "GetEnumerableSorter", {}, ::il2cpp_utils::ExtractTypes(next)));
+      return ::il2cpp_utils::RunMethodThrow<System::Linq::EnumerableSorter_1<TElement>*, false>(this, ___internal__method, next);
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::IEnumerator*>(this, "System.Collections.IEnumerable.GetEnumerator"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("OrderedEnumerable_1").WithContext("System.Collections.IEnumerable.GetEnumerator");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Collections::IEnumerator*>(), "System.Collections.IEnumerable.GetEnumerator", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(this, ___internal__method);
     }
     // private System.Linq.IOrderedEnumerable`1<TElement> System.Linq.IOrderedEnumerable<TElement>.CreateOrderedEnumerable(System.Func`2<TElement,TKey> keySelector, System.Collections.Generic.IComparer`1<TKey> comparer, System.Boolean descending)
     // Offset: 0xFFFFFFFF
@@ -155,16 +173,21 @@ namespace System::Linq {
     // Base method: System.Linq.IOrderedEnumerable`1<TElement> IOrderedEnumerable_1::CreateOrderedEnumerable(System.Func`2<TElement,TKey> keySelector, System.Collections.Generic.IComparer`1<TKey> comparer, System.Boolean descending)
     template<class TKey>
     System::Linq::IOrderedEnumerable_1<TElement>* System_Linq_IOrderedEnumerable_1_CreateOrderedEnumerable(System::Func_2<TElement, TKey>* keySelector, System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Linq::IOrderedEnumerable_1<TElement>*>(this, "System.Linq.IOrderedEnumerable<TElement>.CreateOrderedEnumerable", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}, keySelector, comparer, descending)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("OrderedEnumerable_1").WithContext("System.Linq.IOrderedEnumerable<TElement>.CreateOrderedEnumerable");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Linq::IOrderedEnumerable_1<TElement>*>(), "System.Linq.IOrderedEnumerable<TElement>.CreateOrderedEnumerable", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}, ::il2cpp_utils::ExtractTypes(keySelector, comparer, descending))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Linq::IOrderedEnumerable_1<TElement>*, false>(this, ___internal__method, keySelector, comparer, descending);
     }
     // protected System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OrderedEnumerable_1<TElement>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<OrderedEnumerable_1<TElement>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("OrderedEnumerable_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<OrderedEnumerable_1<TElement>*>());
     }
   }; // System.Linq.OrderedEnumerable`1
+  // Could not write size check! Type: System.Linq.OrderedEnumerable`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::OrderedEnumerable_1, "System.Linq", "OrderedEnumerable`1");
 #pragma pack(pop)

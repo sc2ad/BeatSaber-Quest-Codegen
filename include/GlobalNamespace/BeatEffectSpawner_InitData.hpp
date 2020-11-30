@@ -24,6 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A780F4
     static BeatEffectSpawner::InitData* New_ctor(bool hideNoteSpawnEffect);
   }; // BeatEffectSpawner/InitData
+  check_size<sizeof(BeatEffectSpawner::InitData), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __GlobalNamespace_BeatEffectSpawner_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatEffectSpawner::InitData*, "", "BeatEffectSpawner/InitData");

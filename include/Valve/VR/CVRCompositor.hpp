@@ -190,6 +190,7 @@ namespace Valve::VR {
     // Offset: 0x13698BC
     Valve::VR::EVRCompositorError SubmitExplicitTimingData();
   }; // Valve.VR.CVRCompositor
+  check_size<sizeof(CVRCompositor), 16 + sizeof(Valve::VR::IVRCompositor) + 8 - (16 + sizeof(Valve::VR::IVRCompositor)) % 8> __Valve_VR_CVRCompositorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRCompositor*, "Valve.VR", "CVRCompositor");

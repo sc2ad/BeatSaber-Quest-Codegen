@@ -101,6 +101,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.Shape Custom
     static void _set_Custom(UnityEngine::ProBuilder::Shape value);
   }; // UnityEngine.ProBuilder.Shape
+  check_size<sizeof(Shape), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_ProBuilder_ShapeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Shape, "UnityEngine.ProBuilder", "Shape");

@@ -40,6 +40,7 @@ namespace UnityEngine::Experimental::Rendering {
     // Base method: System.Void Object::.ctor()
     static ScriptableRuntimeReflectionSystemWrapper* New_ctor();
   }; // UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemWrapper
+  check_size<sizeof(ScriptableRuntimeReflectionSystemWrapper), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_Experimental_Rendering_ScriptableRuntimeReflectionSystemWrapperSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper*, "UnityEngine.Experimental.Rendering", "ScriptableRuntimeReflectionSystemWrapper");

@@ -90,6 +90,7 @@ namespace LiteNetLib {
     // Base method: System.Boolean BaseChannel::ProcessPacket(LiteNetLib.NetPacket packet)
     bool ProcessPacket(LiteNetLib::NetPacket* packet);
   }; // LiteNetLib.ReliableChannel
+  check_size<sizeof(ReliableChannel), 96 + sizeof(uint8_t) + 8 - (96 + sizeof(uint8_t)) % 8> __LiteNetLib_ReliableChannelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ReliableChannel*, "LiteNetLib", "ReliableChannel");

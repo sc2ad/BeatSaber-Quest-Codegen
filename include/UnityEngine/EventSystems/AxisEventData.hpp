@@ -48,6 +48,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void BaseEventData::.ctor(UnityEngine.EventSystems.EventSystem eventSystem)
     static AxisEventData* New_ctor(UnityEngine::EventSystems::EventSystem* eventSystem);
   }; // UnityEngine.EventSystems.AxisEventData
+  check_size<sizeof(AxisEventData), 40 + sizeof(UnityEngine::EventSystems::MoveDirection) + 8 - (40 + sizeof(UnityEngine::EventSystems::MoveDirection)) % 8> __UnityEngine_EventSystems_AxisEventDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::AxisEventData*, "UnityEngine.EventSystems", "AxisEventData");

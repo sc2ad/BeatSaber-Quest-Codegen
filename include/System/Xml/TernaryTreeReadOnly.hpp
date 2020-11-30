@@ -25,6 +25,7 @@ namespace System::Xml {
     // Offset: 0x14E04F4
     uint8_t FindCaseInsensitiveString(::Il2CppString* stringToFind);
   }; // System.Xml.TernaryTreeReadOnly
+  check_size<sizeof(TernaryTreeReadOnly), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Xml_TernaryTreeReadOnlySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::TernaryTreeReadOnly*, "System.Xml", "TernaryTreeReadOnly");

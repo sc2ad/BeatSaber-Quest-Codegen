@@ -48,6 +48,7 @@ namespace LIV::SDK::Unity {
     // Base method: System.Void Object::.ctor()
     static LIV* New_ctor();
   }; // LIV.SDK.Unity.LIV
+  check_size<sizeof(LIV), 44 + sizeof(UnityEngine::LayerMask) + 8 - (44 + sizeof(UnityEngine::LayerMask)) % 8> __LIV_SDK_Unity_LIVSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::LIV*, "LIV.SDK.Unity", "LIV");

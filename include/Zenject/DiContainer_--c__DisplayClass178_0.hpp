@@ -41,6 +41,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static DiContainer::$$c__DisplayClass178_0* New_ctor();
   }; // Zenject.DiContainer/<>c__DisplayClass178_0
+  check_size<sizeof(DiContainer::$$c__DisplayClass178_0), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Zenject_DiContainer_$$c__DisplayClass178_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer::$$c__DisplayClass178_0*, "Zenject", "DiContainer/<>c__DisplayClass178_0");

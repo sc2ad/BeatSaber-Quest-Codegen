@@ -35,6 +35,7 @@ namespace Priority_Queue {
     // Base method: System.Void Object::.ctor()
     static FastPriorityQueueNode* New_ctor();
   }; // Priority_Queue.FastPriorityQueueNode
+  check_size<sizeof(FastPriorityQueueNode), 20 + sizeof(int) + 8 - (20 + sizeof(int)) % 8> __Priority_Queue_FastPriorityQueueNodeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Priority_Queue::FastPriorityQueueNode*, "Priority_Queue", "FastPriorityQueueNode");

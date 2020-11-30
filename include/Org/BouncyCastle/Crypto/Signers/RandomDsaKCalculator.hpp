@@ -61,6 +61,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Base method: System.Void Object::.ctor()
     static RandomDsaKCalculator* New_ctor();
   }; // Org.BouncyCastle.Crypto.Signers.RandomDsaKCalculator
+  check_size<sizeof(RandomDsaKCalculator), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Signers_RandomDsaKCalculatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator*, "Org.BouncyCastle.Crypto.Signers", "RandomDsaKCalculator");

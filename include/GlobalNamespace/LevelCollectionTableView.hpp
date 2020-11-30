@@ -198,6 +198,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LevelCollectionTableView* New_ctor();
   }; // LevelCollectionTableView
+  check_size<sizeof(LevelCollectionTableView), 160 + sizeof(void*) + 8 - (160 + sizeof(void*)) % 8> __GlobalNamespace_LevelCollectionTableViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCollectionTableView*, "", "LevelCollectionTableView");

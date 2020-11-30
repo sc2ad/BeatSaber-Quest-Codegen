@@ -41,6 +41,7 @@ namespace System {
     // Creating value type constructor for type: TIME_ZONE_INFORMATION
     constexpr TIME_ZONE_INFORMATION(int Bias_ = {}, ::Il2CppString* StandardName_ = {}, System::TimeZoneInfo::SYSTEMTIME StandardDate_ = {}, int StandardBias_ = {}, ::Il2CppString* DaylightName_ = {}, System::TimeZoneInfo::SYSTEMTIME DaylightDate_ = {}, int DaylightBias_ = {}) noexcept : Bias{Bias_}, StandardName{StandardName_}, StandardDate{StandardDate_}, StandardBias{StandardBias_}, DaylightName{DaylightName_}, DaylightDate{DaylightDate_}, DaylightBias{DaylightBias_} {}
   }; // System.TimeZoneInfo/TIME_ZONE_INFORMATION
+  check_size<sizeof(TimeZoneInfo::TIME_ZONE_INFORMATION), 64 + sizeof(int) + 8 - (64 + sizeof(int)) % 8> __System_TimeZoneInfo_TIME_ZONE_INFORMATIONSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::TIME_ZONE_INFORMATION, "System", "TimeZoneInfo/TIME_ZONE_INFORMATION");

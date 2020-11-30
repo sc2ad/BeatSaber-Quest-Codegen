@@ -30,6 +30,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VREvent_t
     constexpr VREvent_t(uint eventType_ = {}, uint trackedDeviceIndex_ = {}, float eventAgeSeconds_ = {}, OVR::OpenVR::VREvent_Data_t data_ = {}) noexcept : eventType{eventType_}, trackedDeviceIndex{trackedDeviceIndex_}, eventAgeSeconds{eventAgeSeconds_}, data{data_} {}
   }; // OVR.OpenVR.VREvent_t
+  check_size<sizeof(VREvent_t), 16 + sizeof(OVR::OpenVR::VREvent_Data_t) + 8 - (16 + sizeof(OVR::OpenVR::VREvent_Data_t)) % 8> __OVR_OpenVR_VREvent_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_t, "OVR.OpenVR", "VREvent_t");

@@ -41,16 +41,20 @@ namespace Zenject {
     // Implemented from: Zenject.IFactoryProviderBase`1
     // Base method: System.Void IFactoryProviderBase_1::.ctor(Zenject.DiContainer container, System.Guid factoryId)
     static IFactoryProvider_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* New_ctor(Zenject::DiContainer* container, System::Guid factoryId) {
-      return THROW_UNLESS((il2cpp_utils::New<IFactoryProvider_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>(container, factoryId)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IFactoryProvider_7").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<IFactoryProvider_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>(container, factoryId)));
     }
     // public override System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IFactoryProviderBase`1
     // Base method: System.Void IFactoryProviderBase_1::GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "GetAllInstancesWithInjectSplit", context, args, injectAction, buffer));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IFactoryProvider_7").WithContext("GetAllInstancesWithInjectSplit");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "GetAllInstancesWithInjectSplit", {}, ::il2cpp_utils::ExtractTypes(context, args, injectAction, buffer)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, context, args, injectAction, buffer);
     }
   }; // Zenject.IFactoryProvider`7
+  // Could not write size check! Type: Zenject.IFactoryProvider`7 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::IFactoryProvider_7, "Zenject", "IFactoryProvider`7");
 #pragma pack(pop)

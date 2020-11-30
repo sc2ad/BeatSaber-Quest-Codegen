@@ -41,6 +41,7 @@ namespace System::Net {
     // Set static field: static public System.Net.CloseExState Silent
     static void _set_Silent(System::Net::CloseExState value);
   }; // System.Net.CloseExState
+  check_size<sizeof(CloseExState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Net_CloseExStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CloseExState, "System.Net", "CloseExState");

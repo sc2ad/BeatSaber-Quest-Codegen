@@ -29,6 +29,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AutoSetupData* New_ctor();
   }; // AutoSetupData
+  check_size<sizeof(AutoSetupData), 19 + sizeof(bool) + 8 - (19 + sizeof(bool)) % 8> __GlobalNamespace_AutoSetupDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutoSetupData*, "", "AutoSetupData");

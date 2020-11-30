@@ -55,6 +55,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PromoViewController::ButtonPromoTypePair* New_ctor();
   }; // PromoViewController/ButtonPromoTypePair
+  check_size<sizeof(PromoViewController::ButtonPromoTypePair), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_PromoViewController_ButtonPromoTypePairSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PromoViewController::ButtonPromoTypePair*, "", "PromoViewController/ButtonPromoTypePair");

@@ -50,6 +50,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static DirectionalLightWithId* New_ctor();
   }; // DirectionalLightWithId
+  check_size<sizeof(DirectionalLightWithId), 60 + sizeof(float) + 8 - (60 + sizeof(float)) % 8> __GlobalNamespace_DirectionalLightWithIdSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalLightWithId*, "", "DirectionalLightWithId");

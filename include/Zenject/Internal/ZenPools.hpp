@@ -77,13 +77,19 @@ namespace Zenject::Internal {
     // Offset: 0xFFFFFFFF
     template<class T>
     static System::Collections::Generic::HashSet_1<T>* SpawnHashSet() {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::HashSet_1<T>*>("Zenject.Internal", "ZenPools", "SpawnHashSet", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject::Internal").WithContext("ZenPools").WithContext("SpawnHashSet");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject.Internal", "ZenPools", il2cpp_utils::NoArgClass<System::Collections::Generic::HashSet_1<T>*>(), "SpawnHashSet", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::HashSet_1<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
     }
     // static public System.Collections.Generic.Dictionary`2<TKey,TValue> SpawnDictionary()
     // Offset: 0xFFFFFFFF
     template<class TKey, class TValue>
     static System::Collections::Generic::Dictionary_2<TKey, TValue>* SpawnDictionary() {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::Dictionary_2<TKey, TValue>*>("Zenject.Internal", "ZenPools", "SpawnDictionary", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject::Internal").WithContext("ZenPools").WithContext("SpawnDictionary");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject.Internal", "ZenPools", il2cpp_utils::NoArgClass<System::Collections::Generic::Dictionary_2<TKey, TValue>*>(), "SpawnDictionary", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()})));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::Dictionary_2<TKey, TValue>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
     }
     // static public Zenject.BindStatement SpawnStatement()
     // Offset: 0x12A597C
@@ -101,13 +107,19 @@ namespace Zenject::Internal {
     // Offset: 0xFFFFFFFF
     template<class TKey, class TValue>
     static void DespawnDictionary(System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary) {
-      THROW_UNLESS((il2cpp_utils::RunGenericMethod("Zenject.Internal", "ZenPools", "DespawnDictionary", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()}, dictionary)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject::Internal").WithContext("ZenPools").WithContext("DespawnDictionary");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject.Internal", "ZenPools", il2cpp_utils::NoArgClass<void>(), "DespawnDictionary", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()}, ::il2cpp_utils::ExtractTypes(dictionary))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, dictionary);
     }
     // static public System.Void DespawnHashSet(System.Collections.Generic.HashSet`1<T> set)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void DespawnHashSet(System::Collections::Generic::HashSet_1<T>* set) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("Zenject.Internal", "ZenPools", "DespawnHashSet", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, set));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject::Internal").WithContext("ZenPools").WithContext("DespawnHashSet");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject.Internal", "ZenPools", il2cpp_utils::NoArgClass<void>(), "DespawnHashSet", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(set))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, set);
     }
     // static public Zenject.Internal.LookupId SpawnLookupId(Zenject.IProvider provider, Zenject.BindingId bindingId)
     // Offset: 0x12A5B9C
@@ -119,25 +131,37 @@ namespace Zenject::Internal {
     // Offset: 0xFFFFFFFF
     template<class T>
     static System::Collections::Generic::List_1<T>* SpawnList() {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::List_1<T>*>("Zenject.Internal", "ZenPools", "SpawnList", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject::Internal").WithContext("ZenPools").WithContext("SpawnList");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject.Internal", "ZenPools", il2cpp_utils::NoArgClass<System::Collections::Generic::List_1<T>*>(), "SpawnList", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
     }
     // static public System.Void DespawnList(System.Collections.Generic.List`1<T> list)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void DespawnList(System::Collections::Generic::List_1<T>* list) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("Zenject.Internal", "ZenPools", "DespawnList", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject::Internal").WithContext("ZenPools").WithContext("DespawnList");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject.Internal", "ZenPools", il2cpp_utils::NoArgClass<void>(), "DespawnList", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list);
     }
     // static public System.Void DespawnArray(T[] arr)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void DespawnArray(::Array<T>* arr) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("Zenject.Internal", "ZenPools", "DespawnArray", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, arr));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject::Internal").WithContext("ZenPools").WithContext("DespawnArray");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject.Internal", "ZenPools", il2cpp_utils::NoArgClass<void>(), "DespawnArray", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(arr))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, arr);
     }
     // static public T[] SpawnArray(System.Int32 length)
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::Array<T>* SpawnArray(int length) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("Zenject.Internal", "ZenPools", "SpawnArray", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, length)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject::Internal").WithContext("ZenPools").WithContext("SpawnArray");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject.Internal", "ZenPools", il2cpp_utils::NoArgClass<::Array<T>*>(), "SpawnArray", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(length))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, length);
     }
     // static public Zenject.InjectContext SpawnInjectContext(Zenject.DiContainer container, System.Type memberType)
     // Offset: 0x12A5CE0

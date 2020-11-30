@@ -21,42 +21,54 @@ namespace System::Collections::Generic {
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Boolean EqualityComparer_1::Equals(T x, T y)
     bool Equals(T x, T y) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Equals", x, y));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ObjectEqualityComparer_1").WithContext("Equals");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "Equals", {}, ::il2cpp_utils::ExtractTypes(x, y)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, x, y);
     }
     // public override System.Int32 GetHashCode(T obj)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Int32 EqualityComparer_1::GetHashCode(T obj)
     int GetHashCode(T obj) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "GetHashCode", obj));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ObjectEqualityComparer_1").WithContext("GetHashCode");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "GetHashCode", {}, ::il2cpp_utils::ExtractTypes(obj)));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, obj);
     }
     // override System.Int32 IndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Int32 EqualityComparer_1::IndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
     int IndexOf(::Array<T>* array, T value, int startIndex, int count) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "IndexOf", array, value, startIndex, count));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ObjectEqualityComparer_1").WithContext("IndexOf");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "IndexOf", {}, ::il2cpp_utils::ExtractTypes(array, value, startIndex, count)));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, array, value, startIndex, count);
     }
     // override System.Int32 LastIndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Int32 EqualityComparer_1::LastIndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
     int LastIndexOf(::Array<T>* array, T value, int startIndex, int count) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "LastIndexOf", array, value, startIndex, count));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ObjectEqualityComparer_1").WithContext("LastIndexOf");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "LastIndexOf", {}, ::il2cpp_utils::ExtractTypes(array, value, startIndex, count)));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, array, value, startIndex, count);
     }
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Equals", obj));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ObjectEqualityComparer_1").WithContext("Equals");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "Equals", {}, ::il2cpp_utils::ExtractTypes(obj)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, obj);
     }
     // public override System.Int32 GetHashCode()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "GetHashCode"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ObjectEqualityComparer_1").WithContext("GetHashCode");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "GetHashCode", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -64,9 +76,11 @@ namespace System::Collections::Generic {
     // Base method: System.Void EqualityComparer_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static ObjectEqualityComparer_1<T>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<ObjectEqualityComparer_1<T>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("ObjectEqualityComparer_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<ObjectEqualityComparer_1<T>*>());
     }
   }; // System.Collections.Generic.ObjectEqualityComparer`1
+  // Could not write size check! Type: System.Collections.Generic.ObjectEqualityComparer`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::ObjectEqualityComparer_1, "System.Collections.Generic", "ObjectEqualityComparer`1");
 #pragma pack(pop)

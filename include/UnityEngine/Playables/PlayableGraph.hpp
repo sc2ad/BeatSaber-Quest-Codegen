@@ -54,7 +54,10 @@ namespace UnityEngine::Playables {
     bool Connect(U source, int sourceOutputPort, V destination, int destinationInputPort) {
       static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayable, std::remove_pointer_t<U>> && is_value_type_v<U>);
       static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayable, std::remove_pointer_t<V>> && is_value_type_v<V>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(*this, "Connect", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<V>::get()}, source, sourceOutputPort, destination, destinationInputPort)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Playables").WithContext("PlayableGraph").WithContext("Connect");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<bool>(), "Connect", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<V>::get()}, ::il2cpp_utils::ExtractTypes(source, sourceOutputPort, destination, destinationInputPort))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<V>::get()})));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, source, sourceOutputPort, destination, destinationInputPort);
     }
     // public System.Boolean IsValid()
     // Offset: 0xCA7038
@@ -111,6 +114,7 @@ namespace UnityEngine::Playables {
     // Offset: 0x1732014
     static bool ConnectInternal_Injected(UnityEngine::Playables::PlayableGraph& _unity_self, UnityEngine::Playables::PlayableHandle& source, int sourceOutputPort, UnityEngine::Playables::PlayableHandle& destination, int destinationInputPort);
   }; // UnityEngine.Playables.PlayableGraph
+  check_size<sizeof(PlayableGraph), 8 + sizeof(uint) + 8 - (8 + sizeof(uint)) % 8> __UnityEngine_Playables_PlayableGraphSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableGraph, "UnityEngine.Playables", "PlayableGraph");
 #pragma pack(pop)

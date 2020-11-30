@@ -106,6 +106,7 @@ namespace HMUI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // HMUI.PanelAnimation/<AnimationCoroutine>d__1
+  check_size<sizeof(PanelAnimation::$AnimationCoroutine$d__1), 112 + sizeof(float) + 8 - (112 + sizeof(float)) % 8> __HMUI_PanelAnimation_$AnimationCoroutine$d__1SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::PanelAnimation::$AnimationCoroutine$d__1*, "HMUI", "PanelAnimation/<AnimationCoroutine>d__1");

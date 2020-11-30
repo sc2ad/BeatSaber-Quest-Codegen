@@ -149,6 +149,7 @@ namespace System::Net {
     // Set static field: static public System.Net.WebExceptionStatus RequestProhibitedByProxy
     static void _set_RequestProhibitedByProxy(System::Net::WebExceptionStatus value);
   }; // System.Net.WebExceptionStatus
+  check_size<sizeof(WebExceptionStatus), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Net_WebExceptionStatusSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebExceptionStatus, "System.Net", "WebExceptionStatus");

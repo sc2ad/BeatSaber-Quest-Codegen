@@ -91,6 +91,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PacketEncryptionLayer::EncryptionStatistics* New_ctor();
   }; // PacketEncryptionLayer/EncryptionStatistics
+  check_size<sizeof(PacketEncryptionLayer::EncryptionStatistics), 72 + sizeof(int64_t) + 8 - (72 + sizeof(int64_t)) % 8> __GlobalNamespace_PacketEncryptionLayer_EncryptionStatisticsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*, "", "PacketEncryptionLayer/EncryptionStatistics");

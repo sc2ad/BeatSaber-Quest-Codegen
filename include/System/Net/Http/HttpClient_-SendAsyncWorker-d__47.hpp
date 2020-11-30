@@ -88,6 +88,7 @@ namespace System::Net::Http {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.Net.Http.HttpClient/<SendAsyncWorker>d__47
+  check_size<sizeof(HttpClient::$SendAsyncWorker$d__47), 96 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter) + 8 - (96 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter)) % 8> __System_Net_Http_HttpClient_$SendAsyncWorker$d__47SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpClient::$SendAsyncWorker$d__47, "System.Net.Http", "HttpClient/<SendAsyncWorker>d__47");

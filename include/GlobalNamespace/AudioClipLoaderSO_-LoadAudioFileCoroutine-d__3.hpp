@@ -90,6 +90,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // AudioClipLoaderSO/<LoadAudioFileCoroutine>d__3
+  check_size<sizeof(AudioClipLoaderSO::$LoadAudioFileCoroutine$d__3), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_AudioClipLoaderSO_$LoadAudioFileCoroutine$d__3SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioClipLoaderSO::$LoadAudioFileCoroutine$d__3*, "", "AudioClipLoaderSO/<LoadAudioFileCoroutine>d__3");

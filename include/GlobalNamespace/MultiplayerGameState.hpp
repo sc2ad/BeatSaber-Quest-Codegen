@@ -41,6 +41,7 @@ namespace GlobalNamespace {
     // Set static field: static public MultiplayerGameState Game
     static void _set_Game(GlobalNamespace::MultiplayerGameState value);
   }; // MultiplayerGameState
+  check_size<sizeof(MultiplayerGameState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_MultiplayerGameStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerGameState, "", "MultiplayerGameState");

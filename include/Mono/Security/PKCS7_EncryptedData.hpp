@@ -47,6 +47,7 @@ namespace Mono::Security {
     // Base method: System.Void Object::.ctor()
     static PKCS7::EncryptedData* New_ctor();
   }; // Mono.Security.PKCS7/EncryptedData
+  check_size<sizeof(PKCS7::EncryptedData), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Mono_Security_PKCS7_EncryptedDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::PKCS7::EncryptedData*, "Mono.Security", "PKCS7/EncryptedData");

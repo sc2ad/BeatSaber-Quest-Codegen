@@ -21,6 +21,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: VREvent_Screenshot_t
     constexpr VREvent_Screenshot_t(uint handle_ = {}, uint type_ = {}) noexcept : handle{handle_}, type{type_} {}
   }; // Valve.VR.VREvent_Screenshot_t
+  check_size<sizeof(VREvent_Screenshot_t), 4 + sizeof(uint) + 8 - (4 + sizeof(uint)) % 8> __Valve_VR_VREvent_Screenshot_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_Screenshot_t, "Valve.VR", "VREvent_Screenshot_t");

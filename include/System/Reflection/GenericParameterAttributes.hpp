@@ -71,6 +71,7 @@ namespace System::Reflection {
     // Set static field: static public System.Reflection.GenericParameterAttributes DefaultConstructorConstraint
     static void _set_DefaultConstructorConstraint(System::Reflection::GenericParameterAttributes value);
   }; // System.Reflection.GenericParameterAttributes
+  check_size<sizeof(GenericParameterAttributes), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Reflection_GenericParameterAttributesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::GenericParameterAttributes, "System.Reflection", "GenericParameterAttributes");

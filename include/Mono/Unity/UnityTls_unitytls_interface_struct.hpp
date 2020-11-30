@@ -185,6 +185,7 @@ namespace Mono::Unity {
     // Base method: System.Void Object::.ctor()
     static UnityTls::unitytls_interface_struct* New_ctor();
   }; // Mono.Unity.UnityTls/unitytls_interface_struct
+  check_size<sizeof(UnityTls::unitytls_interface_struct), 272 + sizeof(void*) + 8 - (272 + sizeof(void*)) % 8> __Mono_Unity_UnityTls_unitytls_interface_structSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_interface_struct*, "Mono.Unity", "UnityTls/unitytls_interface_struct");

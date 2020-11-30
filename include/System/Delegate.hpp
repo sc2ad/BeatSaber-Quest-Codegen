@@ -201,6 +201,7 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Delegate
+  check_size<sizeof(Delegate), 96 + sizeof(bool) + 8 - (96 + sizeof(bool)) % 8> __System_DelegateSizeCheck;
   // static public System.Boolean op_Equality(System.Delegate d1, System.Delegate d2)
   // Offset: 0x1676FB8
   bool operator ==(System::Delegate* d1, System::Delegate& d2);

@@ -50,6 +50,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static UnityLightWithId* New_ctor();
   }; // UnityLightWithId
+  check_size<sizeof(UnityLightWithId), 60 + sizeof(float) + 8 - (60 + sizeof(float)) % 8> __GlobalNamespace_UnityLightWithIdSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnityLightWithId*, "", "UnityLightWithId");

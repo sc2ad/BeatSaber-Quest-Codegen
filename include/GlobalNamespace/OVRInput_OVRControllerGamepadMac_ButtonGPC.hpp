@@ -121,6 +121,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRInput/OVRControllerGamepadMac/ButtonGPC Max
     static void _set_Max(GlobalNamespace::OVRInput::OVRControllerGamepadMac::ButtonGPC value);
   }; // OVRInput/OVRControllerGamepadMac/ButtonGPC
+  check_size<sizeof(OVRInput::OVRControllerGamepadMac::ButtonGPC), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRInput_OVRControllerGamepadMac_ButtonGPCSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerGamepadMac::ButtonGPC, "", "OVRInput/OVRControllerGamepadMac/ButtonGPC");

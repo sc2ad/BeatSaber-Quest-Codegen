@@ -113,6 +113,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SteamVR_Overlay* New_ctor();
   }; // SteamVR_Overlay
+  check_size<sizeof(SteamVR_Overlay), 88 + sizeof(uint64_t) + 8 - (88 + sizeof(uint64_t)) % 8> __GlobalNamespace_SteamVR_OverlaySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Overlay*, "", "SteamVR_Overlay");

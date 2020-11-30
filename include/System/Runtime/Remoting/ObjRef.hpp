@@ -142,6 +142,7 @@ namespace System::Runtime::Remoting {
     // Maps to method: GetRealObject
     ::Il2CppObject* System_Runtime_Serialization_IObjectReference_GetRealObject(System::Runtime::Serialization::StreamingContext context);
   }; // System.Runtime.Remoting.ObjRef
+  check_size<sizeof(ObjRef), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __System_Runtime_Remoting_ObjRefSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ObjRef*, "System.Runtime.Remoting", "ObjRef");

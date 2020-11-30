@@ -28,6 +28,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static Dropdown::$$c__DisplayClass62_0* New_ctor();
   }; // UnityEngine.UI.Dropdown/<>c__DisplayClass62_0
+  check_size<sizeof(Dropdown::$$c__DisplayClass62_0), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_UI_Dropdown_$$c__DisplayClass62_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown::$$c__DisplayClass62_0*, "UnityEngine.UI", "Dropdown/<>c__DisplayClass62_0");

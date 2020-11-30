@@ -60,6 +60,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CameraDeviceIntrinsicsParameters
     constexpr CameraDeviceIntrinsicsParameters(float fx_ = {}, float fy_ = {}, float cx_ = {}, float cy_ = {}, double disto0_ = {}, double disto1_ = {}, double disto2_ = {}, double disto3_ = {}, double disto4_ = {}, float v_fov_ = {}, float h_fov_ = {}, float d_fov_ = {}, int w_ = {}, int h_ = {}) noexcept : fx{fx_}, fy{fy_}, cx{cx_}, cy{cy_}, disto0{disto0_}, disto1{disto1_}, disto2{disto2_}, disto3{disto3_}, disto4{disto4_}, v_fov{v_fov_}, h_fov{h_fov_}, d_fov{d_fov_}, w{w_}, h{h_} {}
   }; // OVRPlugin/CameraDeviceIntrinsicsParameters
+  check_size<sizeof(OVRPlugin::CameraDeviceIntrinsicsParameters), 72 + sizeof(int) + 8 - (72 + sizeof(int)) % 8> __GlobalNamespace_OVRPlugin_CameraDeviceIntrinsicsParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::CameraDeviceIntrinsicsParameters, "", "OVRPlugin/CameraDeviceIntrinsicsParameters");

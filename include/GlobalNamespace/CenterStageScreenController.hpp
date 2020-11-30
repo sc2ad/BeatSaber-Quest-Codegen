@@ -124,6 +124,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static CenterStageScreenController* New_ctor();
   }; // CenterStageScreenController
+  check_size<sizeof(CenterStageScreenController), 100 + sizeof(float) + 8 - (100 + sizeof(float)) % 8> __GlobalNamespace_CenterStageScreenControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CenterStageScreenController*, "", "CenterStageScreenController");

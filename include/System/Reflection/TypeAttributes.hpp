@@ -215,6 +215,7 @@ namespace System::Reflection {
     // Set static field: static public System.Reflection.TypeAttributes HasSecurity
     static void _set_HasSecurity(System::Reflection::TypeAttributes value);
   }; // System.Reflection.TypeAttributes
+  check_size<sizeof(TypeAttributes), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Reflection_TypeAttributesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::TypeAttributes, "System.Reflection", "TypeAttributes");

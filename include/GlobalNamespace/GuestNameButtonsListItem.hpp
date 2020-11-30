@@ -63,6 +63,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static GuestNameButtonsListItem* New_ctor();
   }; // GuestNameButtonsListItem
+  check_size<sizeof(GuestNameButtonsListItem), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_GuestNameButtonsListItemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GuestNameButtonsListItem*, "", "GuestNameButtonsListItem");

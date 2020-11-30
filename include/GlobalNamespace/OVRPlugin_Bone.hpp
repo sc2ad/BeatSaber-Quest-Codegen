@@ -29,6 +29,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Bone
     constexpr Bone(GlobalNamespace::OVRPlugin::BoneId Id_ = {}, int16_t ParentBoneIndex_ = {}, GlobalNamespace::OVRPlugin::Posef Pose_ = {}) noexcept : Id{Id_}, ParentBoneIndex{ParentBoneIndex_}, Pose{Pose_} {}
   }; // OVRPlugin/Bone
+  check_size<sizeof(OVRPlugin::Bone), 8 + sizeof(GlobalNamespace::OVRPlugin::Posef) + 8 - (8 + sizeof(GlobalNamespace::OVRPlugin::Posef)) % 8> __GlobalNamespace_OVRPlugin_BoneSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Bone, "", "OVRPlugin/Bone");

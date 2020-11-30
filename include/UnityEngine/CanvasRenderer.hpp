@@ -132,6 +132,7 @@ namespace UnityEngine {
     // Offset: 0x19FD5B0
     void EnableRectClipping_Injected(UnityEngine::Rect& rect);
   }; // UnityEngine.CanvasRenderer
+  check_size<sizeof(CanvasRenderer), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __UnityEngine_CanvasRendererSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CanvasRenderer*, "UnityEngine", "CanvasRenderer");

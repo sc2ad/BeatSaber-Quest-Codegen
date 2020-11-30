@@ -82,6 +82,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.NoekeonEngine
+  check_size<sizeof(NoekeonEngine), 25 + sizeof(bool) + 8 - (25 + sizeof(bool)) % 8> __Org_BouncyCastle_Crypto_Engines_NoekeonEngineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::NoekeonEngine*, "Org.BouncyCastle.Crypto.Engines", "NoekeonEngine");

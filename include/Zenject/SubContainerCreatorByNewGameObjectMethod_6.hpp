@@ -56,32 +56,40 @@ namespace Zenject {
       // System.Void <AddInstallers>b__0(Zenject.DiContainer subContainer)
       // Offset: 0xFFFFFFFF
       void $AddInstallers$b__0(Zenject::DiContainer* subContainer) {
-        THROW_UNLESS(il2cpp_utils::RunMethod(this, "<AddInstallers>b__0", subContainer));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$$c__DisplayClass2_0").WithContext("<AddInstallers>b__0");
+        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "<AddInstallers>b__0", {}, ::il2cpp_utils::ExtractTypes(subContainer))));
+        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, subContainer);
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename SubContainerCreatorByNewGameObjectMethod_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>::$$c__DisplayClass2_0* New_ctor() {
-        return THROW_UNLESS((il2cpp_utils::New<typename SubContainerCreatorByNewGameObjectMethod_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>::$$c__DisplayClass2_0*>()));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$$c__DisplayClass2_0").WithContext(".ctor");
+        return THROW_UNLESS((::il2cpp_utils::New<typename SubContainerCreatorByNewGameObjectMethod_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>::$$c__DisplayClass2_0*>()));
       }
     }; // Zenject.SubContainerCreatorByNewGameObjectMethod`6/<>c__DisplayClass2_0
+    // Could not write size check! Type: Zenject.SubContainerCreatorByNewGameObjectMethod`6/<>c__DisplayClass2_0 is generic!
     // private readonly System.Action`7<Zenject.DiContainer,TParam1,TParam2,TParam3,TParam4,TParam5,TParam6> _installerMethod
     // Offset: 0x0
     System::Action_7<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>* installerMethod;
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.Action`7<Zenject.DiContainer,TParam1,TParam2,TParam3,TParam4,TParam5,TParam6> installerMethod)
     // Offset: 0xFFFFFFFF
     static SubContainerCreatorByNewGameObjectMethod_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>* New_ctor(Zenject::DiContainer* container, Zenject::GameObjectCreationParameters* gameObjectBindInfo, System::Action_7<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>* installerMethod) {
-      return THROW_UNLESS((il2cpp_utils::New<SubContainerCreatorByNewGameObjectMethod_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*>(container, gameObjectBindInfo, installerMethod)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("SubContainerCreatorByNewGameObjectMethod_6").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByNewGameObjectMethod_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*>(container, gameObjectBindInfo, installerMethod)));
     }
     // protected override System.Void AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.SubContainerCreatorDynamicContext
     // Base method: System.Void SubContainerCreatorDynamicContext::AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
     void AddInstallers(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::GameObjectContext* context) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddInstallers", args, context));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("SubContainerCreatorByNewGameObjectMethod_6").WithContext("AddInstallers");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "AddInstallers", {}, ::il2cpp_utils::ExtractTypes(args, context)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, args, context);
     }
   }; // Zenject.SubContainerCreatorByNewGameObjectMethod`6
+  // Could not write size check! Type: Zenject.SubContainerCreatorByNewGameObjectMethod`6 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::SubContainerCreatorByNewGameObjectMethod_6, "Zenject", "SubContainerCreatorByNewGameObjectMethod`6");
 #pragma pack(pop)

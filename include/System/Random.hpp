@@ -70,6 +70,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static Random* New_ctor();
   }; // System.Random
+  check_size<sizeof(Random), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_RandomSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Random*, "System", "Random");

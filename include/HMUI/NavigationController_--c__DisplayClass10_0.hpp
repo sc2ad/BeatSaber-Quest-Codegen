@@ -47,6 +47,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static NavigationController::$$c__DisplayClass10_0* New_ctor();
   }; // HMUI.NavigationController/<>c__DisplayClass10_0
+  check_size<sizeof(NavigationController::$$c__DisplayClass10_0), 40 + sizeof(float) + 8 - (40 + sizeof(float)) % 8> __HMUI_NavigationController_$$c__DisplayClass10_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController::$$c__DisplayClass10_0*, "HMUI", "NavigationController/<>c__DisplayClass10_0");

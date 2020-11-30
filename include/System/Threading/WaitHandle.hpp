@@ -178,6 +178,7 @@ namespace System::Threading {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Threading.WaitHandle
+  check_size<sizeof(WaitHandle), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __System_Threading_WaitHandleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::WaitHandle*, "System.Threading", "WaitHandle");

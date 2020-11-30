@@ -361,6 +361,7 @@ namespace System::Xml {
     // Base method: System.Void XmlWriter::Flush()
     void Flush();
   }; // System.Xml.XmlEncodedRawTextWriter
+  check_size<sizeof(XmlEncodedRawTextWriter), 181 + sizeof(bool) + 8 - (181 + sizeof(bool)) % 8> __System_Xml_XmlEncodedRawTextWriterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEncodedRawTextWriter*, "System.Xml", "XmlEncodedRawTextWriter");

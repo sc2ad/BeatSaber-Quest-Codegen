@@ -27,6 +27,7 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: DoubleLongUnion
     constexpr DoubleLongUnion(double Double_ = {}, int64_t Long_ = {}, uint64_t ULong_ = {}) noexcept : Double{Double_}, Long{Long_}, ULong{ULong_} {}
   }; // NUnit.Framework.Constraints.FloatingPointNumerics/DoubleLongUnion
+  check_size<sizeof(FloatingPointNumerics::DoubleLongUnion), 0 + sizeof(uint64_t) + 8 - (0 + sizeof(uint64_t)) % 8> __NUnit_Framework_Constraints_FloatingPointNumerics_DoubleLongUnionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::FloatingPointNumerics::DoubleLongUnion, "NUnit.Framework.Constraints", "FloatingPointNumerics/DoubleLongUnion");

@@ -52,6 +52,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Int32 Stream::ReadByte()
     int ReadByte();
   }; // Org.BouncyCastle.Asn1.ConstructedOctetStream
+  check_size<sizeof(ConstructedOctetStream), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __Org_BouncyCastle_Asn1_ConstructedOctetStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::ConstructedOctetStream*, "Org.BouncyCastle.Asn1", "ConstructedOctetStream");

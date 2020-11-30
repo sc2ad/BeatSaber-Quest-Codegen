@@ -24,6 +24,7 @@ namespace UnityEngine {
     // Offset: 0x168D7D4
     static HelpURLAttribute* New_ctor(::Il2CppString* url);
   }; // UnityEngine.HelpURLAttribute
+  check_size<sizeof(HelpURLAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_HelpURLAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HelpURLAttribute*, "UnityEngine", "HelpURLAttribute");

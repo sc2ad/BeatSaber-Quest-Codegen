@@ -35,6 +35,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static ObsoleteAttribute* New_ctor();
   }; // System.ObsoleteAttribute
+  check_size<sizeof(ObsoleteAttribute), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __System_ObsoleteAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ObsoleteAttribute*, "System", "ObsoleteAttribute");

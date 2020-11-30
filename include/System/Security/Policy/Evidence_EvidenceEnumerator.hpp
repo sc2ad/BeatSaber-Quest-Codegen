@@ -56,6 +56,7 @@ namespace System::Security::Policy {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // System.Security.Policy.Evidence/EvidenceEnumerator
+  check_size<sizeof(Evidence::EvidenceEnumerator), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Security_Policy_Evidence_EvidenceEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Policy::Evidence::EvidenceEnumerator*, "System.Security.Policy", "Evidence/EvidenceEnumerator");

@@ -26,6 +26,7 @@ namespace GlobalNamespace {
     // Offset: 0x19F5B74
     static BeatmapEventData* New_ctor(float time, GlobalNamespace::BeatmapEventType type, int value);
   }; // BeatmapEventData
+  check_size<sizeof(BeatmapEventData), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __GlobalNamespace_BeatmapEventDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventData*, "", "BeatmapEventData");

@@ -40,16 +40,21 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     // Offset: 0xFFFFFFFF
     static DecoratorToChoiceFromBinder_1<TContract>* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo) {
-      return THROW_UNLESS(il2cpp_utils::New<DecoratorToChoiceFromBinder_1<TContract>*>(bindContainer, bindInfo, factoryBindInfo));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DecoratorToChoiceFromBinder_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<DecoratorToChoiceFromBinder_1<TContract>*>(bindContainer, bindInfo, factoryBindInfo));
     }
     // public Zenject.FactoryFromBinder`2<TContract,TConcrete> With()
     // Offset: 0xFFFFFFFF
     template<class TConcrete>
     Zenject::FactoryFromBinder_2<TContract, TConcrete>* With() {
       static_assert(std::is_convertible_v<TConcrete, TContract>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::FactoryFromBinder_2<TContract, TConcrete>*>(this, "With", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DecoratorToChoiceFromBinder_1").WithContext("With");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::FactoryFromBinder_2<TContract, TConcrete>*>(), "With", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryFromBinder_2<TContract, TConcrete>*, false>(this, ___internal__method);
     }
   }; // Zenject.DecoratorToChoiceFromBinder`1
+  // Could not write size check! Type: Zenject.DecoratorToChoiceFromBinder`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::DecoratorToChoiceFromBinder_1, "Zenject", "DecoratorToChoiceFromBinder`1");
 #pragma pack(pop)

@@ -43,6 +43,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     static AudioMixerProperties* New_ctor();
   }; // UnityEngine.Timeline.AudioMixerProperties
+  check_size<sizeof(AudioMixerProperties), 24 + sizeof(float) + 8 - (24 + sizeof(float)) % 8> __UnityEngine_Timeline_AudioMixerPropertiesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioMixerProperties*, "UnityEngine.Timeline", "AudioMixerProperties");

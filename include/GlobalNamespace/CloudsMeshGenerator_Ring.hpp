@@ -36,6 +36,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Ring
     constexpr Ring(float radius_ = {}, float normalizedRadius_ = {}, int meshCount_ = {}, ::Array<int>* cloudIDs_ = {}, float sizeMultiplier_ = {}) noexcept : radius{radius_}, normalizedRadius{normalizedRadius_}, meshCount{meshCount_}, cloudIDs{cloudIDs_}, sizeMultiplier{sizeMultiplier_} {}
   }; // CloudsMeshGenerator/Ring
+  check_size<sizeof(CloudsMeshGenerator::Ring), 24 + sizeof(float) + 8 - (24 + sizeof(float)) % 8> __GlobalNamespace_CloudsMeshGenerator_RingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CloudsMeshGenerator::Ring, "", "CloudsMeshGenerator/Ring");

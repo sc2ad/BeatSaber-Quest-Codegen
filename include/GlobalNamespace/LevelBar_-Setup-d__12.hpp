@@ -80,6 +80,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LevelBar/<Setup>d__12
+  check_size<sizeof(LevelBar::$Setup$d__12), 80 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>) + 8 - (80 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>)) % 8> __GlobalNamespace_LevelBar_$Setup$d__12SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelBar::$Setup$d__12, "", "LevelBar/<Setup>d__12");

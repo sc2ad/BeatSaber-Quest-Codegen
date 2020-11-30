@@ -67,7 +67,10 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     void FromAssemblyContaining() {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "FromAssemblyContaining", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConventionAssemblySelectionBinder").WithContext("FromAssemblyContaining");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "FromAssemblyContaining", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // public System.Void FromAssembliesContaining(params System.Type[] types)
     // Offset: 0x10F15C4
@@ -105,6 +108,7 @@ namespace Zenject {
     // Offset: 0x10F19A4
     void FromAssembliesWhere(System::Func_2<System::Reflection::Assembly*, bool>* predicate);
   }; // Zenject.ConventionAssemblySelectionBinder
+  check_size<sizeof(ConventionAssemblySelectionBinder), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Zenject_ConventionAssemblySelectionBinderSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionAssemblySelectionBinder*, "Zenject", "ConventionAssemblySelectionBinder");
 #pragma pack(pop)

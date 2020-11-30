@@ -352,6 +352,7 @@ namespace UnityEngine::UI {
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
   }; // UnityEngine.UI.Graphic
+  check_size<sizeof(Graphic), 136 + sizeof(bool) + 8 - (136 + sizeof(bool)) % 8> __UnityEngine_UI_GraphicSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Graphic*, "UnityEngine.UI", "Graphic");

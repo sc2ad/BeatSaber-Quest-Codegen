@@ -37,6 +37,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Object::.ctor()
     static TaskToApm::$$c__DisplayClass3_0* New_ctor();
   }; // System.Threading.Tasks.TaskToApm/<>c__DisplayClass3_0
+  check_size<sizeof(TaskToApm::$$c__DisplayClass3_0), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Threading_Tasks_TaskToApm_$$c__DisplayClass3_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskToApm::$$c__DisplayClass3_0*, "System.Threading.Tasks", "TaskToApm/<>c__DisplayClass3_0");

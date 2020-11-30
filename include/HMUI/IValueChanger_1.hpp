@@ -24,14 +24,19 @@ namespace HMUI {
     // public System.Void add_valueChangedEvent(System.Action`1<T> value)
     // Offset: 0xFFFFFFFF
     void add_valueChangedEvent(System::Action_1<T>* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "add_valueChangedEvent", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("IValueChanger_1").WithContext("add_valueChangedEvent");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "add_valueChangedEvent", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void remove_valueChangedEvent(System.Action`1<T> value)
     // Offset: 0xFFFFFFFF
     void remove_valueChangedEvent(System::Action_1<T>* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "remove_valueChangedEvent", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("IValueChanger_1").WithContext("remove_valueChangedEvent");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "remove_valueChangedEvent", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
   }; // HMUI.IValueChanger`1
+  // Could not write size check! Type: HMUI.IValueChanger`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(HMUI::IValueChanger_1, "HMUI", "IValueChanger`1");
 #pragma pack(pop)

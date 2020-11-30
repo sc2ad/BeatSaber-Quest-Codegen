@@ -41,6 +41,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CameraExtrinsics
     constexpr CameraExtrinsics(GlobalNamespace::OVRPlugin::Bool IsValid_ = {}, double LastChangedTimeSeconds_ = {}, GlobalNamespace::OVRPlugin::CameraStatus CameraStatusData_ = {}, GlobalNamespace::OVRPlugin::Node AttachedToNode_ = {}, GlobalNamespace::OVRPlugin::Posef RelativePose_ = {}) noexcept : IsValid{IsValid_}, LastChangedTimeSeconds{LastChangedTimeSeconds_}, CameraStatusData{CameraStatusData_}, AttachedToNode{AttachedToNode_}, RelativePose{RelativePose_} {}
   }; // OVRPlugin/CameraExtrinsics
+  check_size<sizeof(OVRPlugin::CameraExtrinsics), 24 + sizeof(GlobalNamespace::OVRPlugin::Posef) + 8 - (24 + sizeof(GlobalNamespace::OVRPlugin::Posef)) % 8> __GlobalNamespace_OVRPlugin_CameraExtrinsicsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::CameraExtrinsics, "", "OVRPlugin/CameraExtrinsics");

@@ -58,6 +58,7 @@ namespace System::Reflection {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.Reflection.CustomAttributeNamedArgument
+  check_size<sizeof(CustomAttributeNamedArgument), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Reflection_CustomAttributeNamedArgumentSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeNamedArgument, "System.Reflection", "CustomAttributeNamedArgument");

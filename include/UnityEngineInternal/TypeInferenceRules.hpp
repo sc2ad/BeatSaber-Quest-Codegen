@@ -47,6 +47,7 @@ namespace UnityEngineInternal {
     // Set static field: static public UnityEngineInternal.TypeInferenceRules TypeOfFirstArgument
     static void _set_TypeOfFirstArgument(UnityEngineInternal::TypeInferenceRules value);
   }; // UnityEngineInternal.TypeInferenceRules
+  check_size<sizeof(TypeInferenceRules), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngineInternal_TypeInferenceRulesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::TypeInferenceRules, "UnityEngineInternal", "TypeInferenceRules");

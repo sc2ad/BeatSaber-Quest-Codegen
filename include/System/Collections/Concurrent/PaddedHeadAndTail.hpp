@@ -21,6 +21,7 @@ namespace System::Collections::Concurrent {
     // Creating value type constructor for type: PaddedHeadAndTail
     constexpr PaddedHeadAndTail(int Head_ = {}, int Tail_ = {}) noexcept : Head{Head_}, Tail{Tail_} {}
   }; // System.Collections.Concurrent.PaddedHeadAndTail
+  check_size<sizeof(PaddedHeadAndTail), 256 + sizeof(int) + 8 - (256 + sizeof(int)) % 8> __System_Collections_Concurrent_PaddedHeadAndTailSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Concurrent::PaddedHeadAndTail, "System.Collections.Concurrent", "PaddedHeadAndTail");

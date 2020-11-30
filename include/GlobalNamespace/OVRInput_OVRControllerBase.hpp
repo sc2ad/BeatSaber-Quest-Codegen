@@ -114,6 +114,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRInput::OVRControllerBase* New_ctor();
   }; // OVRInput/OVRControllerBase
+  check_size<sizeof(OVRInput::OVRControllerBase), 256 + sizeof(bool) + 8 - (256 + sizeof(bool)) % 8> __GlobalNamespace_OVRInput_OVRControllerBaseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase*, "", "OVRInput/OVRControllerBase");

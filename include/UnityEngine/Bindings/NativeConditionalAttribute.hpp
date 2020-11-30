@@ -29,6 +29,7 @@ namespace UnityEngine::Bindings {
     // Offset: 0x1A04158
     static NativeConditionalAttribute* New_ctor(::Il2CppString* condition);
   }; // UnityEngine.Bindings.NativeConditionalAttribute
+  check_size<sizeof(NativeConditionalAttribute), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __UnityEngine_Bindings_NativeConditionalAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeConditionalAttribute*, "UnityEngine.Bindings", "NativeConditionalAttribute");

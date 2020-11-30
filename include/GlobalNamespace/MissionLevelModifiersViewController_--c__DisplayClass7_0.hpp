@@ -44,6 +44,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionLevelModifiersViewController::$$c__DisplayClass7_0* New_ctor();
   }; // MissionLevelModifiersViewController/<>c__DisplayClass7_0
+  check_size<sizeof(MissionLevelModifiersViewController::$$c__DisplayClass7_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_MissionLevelModifiersViewController_$$c__DisplayClass7_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelModifiersViewController::$$c__DisplayClass7_0*, "", "MissionLevelModifiersViewController/<>c__DisplayClass7_0");

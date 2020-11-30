@@ -85,6 +85,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AvatarPropertyBlockColorSetter* New_ctor();
   }; // AvatarPropertyBlockColorSetter
+  check_size<sizeof(AvatarPropertyBlockColorSetter), 112 + sizeof(bool) + 8 - (112 + sizeof(bool)) % 8> __GlobalNamespace_AvatarPropertyBlockColorSetterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPropertyBlockColorSetter*, "", "AvatarPropertyBlockColorSetter");

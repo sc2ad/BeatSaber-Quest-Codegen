@@ -36,6 +36,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     static WebConnection::AbortHelper* New_ctor();
   }; // System.Net.WebConnection/AbortHelper
+  check_size<sizeof(WebConnection::AbortHelper), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Net_WebConnection_AbortHelperSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnection::AbortHelper*, "System.Net", "WebConnection/AbortHelper");

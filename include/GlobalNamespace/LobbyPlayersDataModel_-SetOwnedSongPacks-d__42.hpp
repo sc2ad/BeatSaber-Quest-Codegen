@@ -73,6 +73,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LobbyPlayersDataModel/<SetOwnedSongPacks>d__42
+  check_size<sizeof(LobbyPlayersDataModel::$SetOwnedSongPacks$d__42), 88 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>) + 8 - (88 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>)) % 8> __GlobalNamespace_LobbyPlayersDataModel_$SetOwnedSongPacks$d__42SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyPlayersDataModel::$SetOwnedSongPacks$d__42, "", "LobbyPlayersDataModel/<SetOwnedSongPacks>d__42");

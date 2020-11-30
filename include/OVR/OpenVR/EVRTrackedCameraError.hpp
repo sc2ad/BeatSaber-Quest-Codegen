@@ -125,6 +125,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRTrackedCameraError InvalidFrameBufferSize
     static void _set_InvalidFrameBufferSize(OVR::OpenVR::EVRTrackedCameraError value);
   }; // OVR.OpenVR.EVRTrackedCameraError
+  check_size<sizeof(EVRTrackedCameraError), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_EVRTrackedCameraErrorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRTrackedCameraError, "OVR.OpenVR", "EVRTrackedCameraError");

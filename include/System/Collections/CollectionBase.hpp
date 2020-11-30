@@ -151,6 +151,7 @@ namespace System::Collections {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Collections.CollectionBase
+  check_size<sizeof(CollectionBase), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Collections_CollectionBaseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::CollectionBase*, "System.Collections", "CollectionBase");

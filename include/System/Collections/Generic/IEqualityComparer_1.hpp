@@ -16,14 +16,19 @@ namespace System::Collections::Generic {
     // public System.Boolean Equals(T x, T y)
     // Offset: 0xFFFFFFFF
     bool Equals(T x, T y) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Equals", x, y));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IEqualityComparer_1").WithContext("Equals");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "Equals", {}, ::il2cpp_utils::ExtractTypes(x, y)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, x, y);
     }
     // public System.Int32 GetHashCode(T obj)
     // Offset: 0xFFFFFFFF
     int GetHashCode(T obj) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "GetHashCode", obj));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IEqualityComparer_1").WithContext("GetHashCode");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "GetHashCode", {}, ::il2cpp_utils::ExtractTypes(obj)));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, obj);
     }
   }; // System.Collections.Generic.IEqualityComparer`1
+  // Could not write size check! Type: System.Collections.Generic.IEqualityComparer`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::IEqualityComparer_1, "System.Collections.Generic", "IEqualityComparer`1");
 #pragma pack(pop)

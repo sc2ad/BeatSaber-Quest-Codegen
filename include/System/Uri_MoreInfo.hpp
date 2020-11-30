@@ -37,6 +37,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static Uri::MoreInfo* New_ctor();
   }; // System.Uri/MoreInfo
+  check_size<sizeof(Uri::MoreInfo), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __System_Uri_MoreInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Uri::MoreInfo*, "System", "Uri/MoreInfo");

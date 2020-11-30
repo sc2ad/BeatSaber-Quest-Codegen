@@ -52,6 +52,7 @@ namespace Mono {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // Mono.SafeStringMarshal
+  check_size<sizeof(SafeStringMarshal), 8 + sizeof(System::IntPtr) + 8 - (8 + sizeof(System::IntPtr)) % 8> __Mono_SafeStringMarshalSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::SafeStringMarshal, "Mono", "SafeStringMarshal");

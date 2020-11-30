@@ -67,6 +67,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void Object::.ctor()
     static RC4Engine* New_ctor();
   }; // Org.BouncyCastle.Crypto.Engines.RC4Engine
+  check_size<sizeof(RC4Engine), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Engines_RC4EngineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RC4Engine*, "Org.BouncyCastle.Crypto.Engines", "RC4Engine");

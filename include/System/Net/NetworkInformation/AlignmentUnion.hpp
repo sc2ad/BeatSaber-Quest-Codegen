@@ -25,6 +25,7 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: AlignmentUnion
     constexpr AlignmentUnion(uint64_t Alignment_ = {}, int Length_ = {}, int IfIndex_ = {}) noexcept : Alignment{Alignment_}, Length{Length_}, IfIndex{IfIndex_} {}
   }; // System.Net.NetworkInformation.AlignmentUnion
+  check_size<sizeof(AlignmentUnion), 4 + sizeof(int) + 8 - (4 + sizeof(int)) % 8> __System_Net_NetworkInformation_AlignmentUnionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::AlignmentUnion, "System.Net.NetworkInformation", "AlignmentUnion");

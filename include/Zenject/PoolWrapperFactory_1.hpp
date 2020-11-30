@@ -43,14 +43,17 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.IMemoryPool`1<T> pool)
     // Offset: 0xFFFFFFFF
     static PoolWrapperFactory_1<T>* New_ctor(Zenject::IMemoryPool_1<T>* pool) {
-      return THROW_UNLESS(il2cpp_utils::New<PoolWrapperFactory_1<T>*>(pool));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PoolWrapperFactory_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<PoolWrapperFactory_1<T>*>(pool));
     }
     // public T Create()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IFactory`1
     // Base method: TValue IFactory_1::Create()
     T Create() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "Create"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PoolWrapperFactory_1").WithContext("Create");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "Create", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // Creating proxy method: Zenject_IFactory_1_Create
     // Maps to method: Create
@@ -58,6 +61,7 @@ namespace Zenject {
       return Create();
     }
   }; // Zenject.PoolWrapperFactory`1
+  // Could not write size check! Type: Zenject.PoolWrapperFactory`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::PoolWrapperFactory_1, "Zenject", "PoolWrapperFactory`1");
 #pragma pack(pop)

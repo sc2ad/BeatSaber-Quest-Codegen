@@ -107,6 +107,7 @@ namespace System::Net {
     // Maps to method: Remove
     bool System_Collections_Generic_ICollection_1_Remove(::Il2CppString* uriPrefix);
   }; // System.Net.HttpListenerPrefixCollection
+  check_size<sizeof(HttpListenerPrefixCollection), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Net_HttpListenerPrefixCollectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerPrefixCollection*, "System.Net", "HttpListenerPrefixCollection");

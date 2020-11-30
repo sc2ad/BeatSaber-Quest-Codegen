@@ -44,6 +44,7 @@ namespace UnityEngine {
     // Offset: 0x48
     int m_Push;
   }; // UnityEngine.ControllerColliderHit
+  check_size<sizeof(ControllerColliderHit), 72 + sizeof(int) + 8 - (72 + sizeof(int)) % 8> __UnityEngine_ControllerColliderHitSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ControllerColliderHit*, "UnityEngine", "ControllerColliderHit");

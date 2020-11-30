@@ -30,40 +30,52 @@ namespace LiteNetLib::Utils {
     // protected System.Void ElementRead(LiteNetLib.Utils.NetDataReader r, out TProperty prop)
     // Offset: 0xFFFFFFFF
     void ElementRead(LiteNetLib::Utils::NetDataReader* r, TProperty& prop) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "ElementRead", r, prop));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("FastCallSpecificAuto_2").WithContext("ElementRead");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "ElementRead", {}, ::il2cpp_utils::ExtractTypes(r, prop)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, r, prop);
     }
     // protected System.Void ElementWrite(LiteNetLib.Utils.NetDataWriter w, ref TProperty prop)
     // Offset: 0xFFFFFFFF
     void ElementWrite(LiteNetLib::Utils::NetDataWriter* w, TProperty& prop) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "ElementWrite", w, prop));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("FastCallSpecificAuto_2").WithContext("ElementWrite");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "ElementWrite", {}, ::il2cpp_utils::ExtractTypes(w, prop)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, w, prop);
     }
     // public override System.Void Read(TClass inf, LiteNetLib.Utils.NetDataReader r)
     // Offset: 0xFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/FastCall`1
     // Base method: System.Void FastCall_1::Read(TClass inf, LiteNetLib.Utils.NetDataReader r)
     void Read(TClass inf, LiteNetLib::Utils::NetDataReader* r) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Read", inf, r));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("FastCallSpecificAuto_2").WithContext("Read");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Read", {}, ::il2cpp_utils::ExtractTypes(inf, r)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, inf, r);
     }
     // public override System.Void Write(TClass inf, LiteNetLib.Utils.NetDataWriter w)
     // Offset: 0xFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/FastCall`1
     // Base method: System.Void FastCall_1::Write(TClass inf, LiteNetLib.Utils.NetDataWriter w)
     void Write(TClass inf, LiteNetLib::Utils::NetDataWriter* w) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Write", inf, w));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("FastCallSpecificAuto_2").WithContext("Write");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Write", {}, ::il2cpp_utils::ExtractTypes(inf, w)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, inf, w);
     }
     // public override System.Void ReadArray(TClass inf, LiteNetLib.Utils.NetDataReader r)
     // Offset: 0xFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/FastCall`1
     // Base method: System.Void FastCall_1::ReadArray(TClass inf, LiteNetLib.Utils.NetDataReader r)
     void ReadArray(TClass inf, LiteNetLib::Utils::NetDataReader* r) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "ReadArray", inf, r));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("FastCallSpecificAuto_2").WithContext("ReadArray");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "ReadArray", {}, ::il2cpp_utils::ExtractTypes(inf, r)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, inf, r);
     }
     // public override System.Void WriteArray(TClass inf, LiteNetLib.Utils.NetDataWriter w)
     // Offset: 0xFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/FastCall`1
     // Base method: System.Void FastCall_1::WriteArray(TClass inf, LiteNetLib.Utils.NetDataWriter w)
     void WriteArray(TClass inf, LiteNetLib::Utils::NetDataWriter* w) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteArray", inf, w));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("FastCallSpecificAuto_2").WithContext("WriteArray");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "WriteArray", {}, ::il2cpp_utils::ExtractTypes(inf, w)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, inf, w);
     }
     // protected System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -72,9 +84,11 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void FastCall_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static NetSerializer::FastCallSpecificAuto_2<TClass, TProperty>* New_ctor() {
-      return THROW_UNLESS((il2cpp_utils::New<NetSerializer::FastCallSpecificAuto_2<TClass, TProperty>*>()));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("FastCallSpecificAuto_2").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<NetSerializer::FastCallSpecificAuto_2<TClass, TProperty>*>()));
     }
   }; // LiteNetLib.Utils.NetSerializer/FastCallSpecificAuto`2
+  // Could not write size check! Type: LiteNetLib.Utils.NetSerializer/FastCallSpecificAuto`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(LiteNetLib::Utils::NetSerializer::FastCallSpecificAuto_2, "LiteNetLib.Utils", "NetSerializer/FastCallSpecificAuto`2");
 #pragma pack(pop)

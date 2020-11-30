@@ -88,6 +88,7 @@ namespace System::Security::Util {
       // Set static field: static public System.Security.Util.Tokenizer/TokenSource Other
       static void _set_Other(System::Security::Util::Tokenizer::TokenSource value);
     }; // System.Security.Util.Tokenizer/TokenSource
+    check_size<sizeof(Tokenizer::TokenSource), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Security_Util_Tokenizer_TokenSourceSizeCheck;
     // public System.Int32 LineNo
     // Offset: 0x10
     int LineNo;
@@ -155,6 +156,7 @@ namespace System::Security::Util {
     // Offset: 0x12889DC
     ::Il2CppString* GetStringToken();
   }; // System.Security.Util.Tokenizer
+  check_size<sizeof(Tokenizer), 104 + sizeof(void*) + 8 - (104 + sizeof(void*)) % 8> __System_Security_Util_TokenizerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer*, "System.Security.Util", "Tokenizer");

@@ -55,6 +55,7 @@ namespace Zenject {
     // Offset: 0x129EFB0
     void OnGui();
   }; // Zenject.GuiRenderableManager
+  check_size<sizeof(GuiRenderableManager), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Zenject_GuiRenderableManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GuiRenderableManager*, "Zenject", "GuiRenderableManager");

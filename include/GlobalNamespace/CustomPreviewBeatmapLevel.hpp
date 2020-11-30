@@ -224,6 +224,7 @@ namespace GlobalNamespace {
     // Base method: PreviewDifficultyBeatmapSet[] IPreviewBeatmapLevel::get_previewDifficultyBeatmapSets()
     ::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
   }; // CustomPreviewBeatmapLevel
+  check_size<sizeof(CustomPreviewBeatmapLevel), 160 + sizeof(void*) + 8 - (160 + sizeof(void*)) % 8> __GlobalNamespace_CustomPreviewBeatmapLevelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomPreviewBeatmapLevel*, "", "CustomPreviewBeatmapLevel");

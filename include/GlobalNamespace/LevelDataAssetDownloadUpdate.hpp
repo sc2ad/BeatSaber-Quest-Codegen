@@ -54,6 +54,7 @@ namespace GlobalNamespace {
       // Set static field: static public LevelDataAssetDownloadUpdate/AssetDownloadingState Completed
       static void _set_Completed(GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState value);
     }; // LevelDataAssetDownloadUpdate/AssetDownloadingState
+    check_size<sizeof(LevelDataAssetDownloadUpdate::AssetDownloadingState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_LevelDataAssetDownloadUpdate_AssetDownloadingStateSizeCheck;
     // public readonly System.String levelID
     // Offset: 0x0
     ::Il2CppString* levelID;
@@ -72,6 +73,7 @@ namespace GlobalNamespace {
     // Offset: 0xE7FC14
     // ABORTED: conflicts with another method.  LevelDataAssetDownloadUpdate(::Il2CppString* levelID, uint bytesTotal, uint bytesTransferred, GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState);
   }; // LevelDataAssetDownloadUpdate
+  check_size<sizeof(LevelDataAssetDownloadUpdate), 16 + sizeof(GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState) + 8 - (16 + sizeof(GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState)) % 8> __GlobalNamespace_LevelDataAssetDownloadUpdateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelDataAssetDownloadUpdate, "", "LevelDataAssetDownloadUpdate");

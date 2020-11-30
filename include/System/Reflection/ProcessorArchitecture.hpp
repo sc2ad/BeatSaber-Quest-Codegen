@@ -59,6 +59,7 @@ namespace System::Reflection {
     // Set static field: static public System.Reflection.ProcessorArchitecture Arm
     static void _set_Arm(System::Reflection::ProcessorArchitecture value);
   }; // System.Reflection.ProcessorArchitecture
+  check_size<sizeof(ProcessorArchitecture), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Reflection_ProcessorArchitectureSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ProcessorArchitecture, "System.Reflection", "ProcessorArchitecture");

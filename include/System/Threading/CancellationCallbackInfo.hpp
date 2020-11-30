@@ -59,6 +59,7 @@ namespace System::Threading {
     // Offset: 0x16B1E90
     static void ExecutionContextCallback(::Il2CppObject* obj);
   }; // System.Threading.CancellationCallbackInfo
+  check_size<sizeof(CancellationCallbackInfo), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __System_Threading_CancellationCallbackInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationCallbackInfo*, "System.Threading", "CancellationCallbackInfo");

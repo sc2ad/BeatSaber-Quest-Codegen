@@ -41,6 +41,7 @@ namespace UnityEngine::Timeline {
     // Set static field: static public UnityEngine.Timeline.TrackOffset Auto
     static void _set_Auto(UnityEngine::Timeline::TrackOffset value);
   }; // UnityEngine.Timeline.TrackOffset
+  check_size<sizeof(TrackOffset), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Timeline_TrackOffsetSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackOffset, "UnityEngine.Timeline", "TrackOffset");

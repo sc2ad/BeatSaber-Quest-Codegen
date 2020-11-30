@@ -39,6 +39,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static Amplifier* New_ctor();
   }; // RootMotion.FinalIK.Amplifier
+  check_size<sizeof(Amplifier), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __RootMotion_FinalIK_AmplifierSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Amplifier*, "RootMotion.FinalIK", "Amplifier");

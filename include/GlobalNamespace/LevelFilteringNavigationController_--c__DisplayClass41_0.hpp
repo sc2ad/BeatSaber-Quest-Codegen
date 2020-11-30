@@ -39,6 +39,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LevelFilteringNavigationController::$$c__DisplayClass41_0* New_ctor();
   }; // LevelFilteringNavigationController/<>c__DisplayClass41_0
+  check_size<sizeof(LevelFilteringNavigationController::$$c__DisplayClass41_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_LevelFilteringNavigationController_$$c__DisplayClass41_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass41_0*, "", "LevelFilteringNavigationController/<>c__DisplayClass41_0");

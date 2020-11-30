@@ -37,6 +37,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     static EtwSession::$$c__DisplayClass1_0* New_ctor();
   }; // System.Diagnostics.Tracing.EtwSession/<>c__DisplayClass1_0
+  check_size<sizeof(EtwSession::$$c__DisplayClass1_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Diagnostics_Tracing_EtwSession_$$c__DisplayClass1_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EtwSession::$$c__DisplayClass1_0*, "System.Diagnostics.Tracing", "EtwSession/<>c__DisplayClass1_0");

@@ -172,6 +172,7 @@ namespace System::IO {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.IO.TextWriter
+  check_size<sizeof(TextWriter), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_IO_TextWriterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextWriter*, "System.IO", "TextWriter");

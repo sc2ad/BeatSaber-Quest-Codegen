@@ -44,6 +44,7 @@ namespace Assets::OVR::Scripts {
     // Offset: 0x11E8928
     static FixRecord* New_ctor(::Il2CppString* cat, ::Il2CppString* msg, Assets::OVR::Scripts::FixMethodDelegate* fix, UnityEngine::Object* target, bool editRequired, ::Array<::Il2CppString*>* buttons);
   }; // Assets.OVR.Scripts.FixRecord
+  check_size<sizeof(FixRecord), 57 + sizeof(bool) + 8 - (57 + sizeof(bool)) % 8> __Assets_OVR_Scripts_FixRecordSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::FixRecord*, "Assets.OVR.Scripts", "FixRecord");

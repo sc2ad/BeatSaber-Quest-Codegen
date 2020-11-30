@@ -98,6 +98,7 @@ namespace System::Diagnostics {
       // Set static field: static public System.Diagnostics.Process/StreamReadMode asyncMode
       static void _set_asyncMode(System::Diagnostics::Process::StreamReadMode value);
     }; // System.Diagnostics.Process/StreamReadMode
+    check_size<sizeof(Process::StreamReadMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Diagnostics_Process_StreamReadModeSizeCheck;
     // private System.Boolean haveProcessId
     // Offset: 0x28
     bool haveProcessId;
@@ -268,6 +269,7 @@ namespace System::Diagnostics {
     // Base method: System.String Component::ToString()
     ::Il2CppString* ToString();
   }; // System.Diagnostics.Process
+  check_size<sizeof(Process), 216 + sizeof(void*) + 8 - (216 + sizeof(void*)) % 8> __System_Diagnostics_ProcessSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process*, "System.Diagnostics", "Process");

@@ -100,6 +100,7 @@ namespace GlobalNamespace {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // SteamVR_Utils/RigidTransform
+  check_size<sizeof(SteamVR_Utils::RigidTransform), 12 + sizeof(UnityEngine::Quaternion) + 8 - (12 + sizeof(UnityEngine::Quaternion)) % 8> __GlobalNamespace_SteamVR_Utils_RigidTransformSizeCheck;
   // static public System.Boolean op_Equality(SteamVR_Utils/RigidTransform a, SteamVR_Utils/RigidTransform b)
   // Offset: 0x135F26C
   bool operator ==(const GlobalNamespace::SteamVR_Utils::RigidTransform& a, const GlobalNamespace::SteamVR_Utils::RigidTransform& b);

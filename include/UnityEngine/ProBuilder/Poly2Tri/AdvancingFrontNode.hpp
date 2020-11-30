@@ -45,6 +45,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0x19AB7A8
     bool get_HasPrev();
   }; // UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode
+  check_size<sizeof(AdvancingFrontNode), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_Poly2Tri_AdvancingFrontNodeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*, "UnityEngine.ProBuilder.Poly2Tri", "AdvancingFrontNode");

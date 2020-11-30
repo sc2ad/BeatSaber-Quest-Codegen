@@ -90,6 +90,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.UnwrapParameters
+  check_size<sizeof(UnwrapParameters), 28 + sizeof(float) + 8 - (28 + sizeof(float)) % 8> __UnityEngine_ProBuilder_UnwrapParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::UnwrapParameters*, "UnityEngine.ProBuilder", "UnwrapParameters");

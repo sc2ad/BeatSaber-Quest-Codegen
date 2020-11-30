@@ -50,6 +50,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static FileBrowserModel::$$c__DisplayClass0_0* New_ctor();
   }; // FileBrowserModel/<>c__DisplayClass0_0
+  check_size<sizeof(FileBrowserModel::$$c__DisplayClass0_0), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_FileBrowserModel_$$c__DisplayClass0_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0*, "", "FileBrowserModel/<>c__DisplayClass0_0");

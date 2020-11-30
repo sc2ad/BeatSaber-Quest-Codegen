@@ -144,6 +144,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
     // Base method: System.Int32 ECFieldElement::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519FieldElement
+  check_size<sizeof(Curve25519FieldElement), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_EC_Custom_Djb_Curve25519FieldElementSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement*, "Org.BouncyCastle.Math.EC.Custom.Djb", "Curve25519FieldElement");

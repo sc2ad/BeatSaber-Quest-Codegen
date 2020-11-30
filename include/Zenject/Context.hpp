@@ -136,6 +136,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static Context* New_ctor();
   }; // Zenject.Context
+  check_size<sizeof(Context), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __Zenject_ContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Context*, "Zenject", "Context");

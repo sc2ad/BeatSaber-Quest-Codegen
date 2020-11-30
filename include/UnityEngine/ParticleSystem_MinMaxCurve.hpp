@@ -66,6 +66,7 @@ namespace UnityEngine {
     // Offset: 0xCB92A0
     float Evaluate(float time, float lerpFactor);
   }; // UnityEngine.ParticleSystem/MinMaxCurve
+  check_size<sizeof(ParticleSystem::MinMaxCurve), 28 + sizeof(float) + 8 - (28 + sizeof(float)) % 8> __UnityEngine_ParticleSystem_MinMaxCurveSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxCurve, "UnityEngine", "ParticleSystem/MinMaxCurve");

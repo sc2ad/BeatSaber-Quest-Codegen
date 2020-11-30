@@ -36,6 +36,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     static BinaryCrossAppDomainString* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryCrossAppDomainString
+  check_size<sizeof(BinaryCrossAppDomainString), 20 + sizeof(int) + 8 - (20 + sizeof(int)) % 8> __System_Runtime_Serialization_Formatters_Binary_BinaryCrossAppDomainStringSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString*, "System.Runtime.Serialization.Formatters.Binary", "BinaryCrossAppDomainString");

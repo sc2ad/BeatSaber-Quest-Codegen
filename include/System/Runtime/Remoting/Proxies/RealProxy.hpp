@@ -130,6 +130,7 @@ namespace System::Runtime::Remoting::Proxies {
     // Base method: System.Void Object::.ctor()
     static RealProxy* New_ctor();
   }; // System.Runtime.Remoting.Proxies.RealProxy
+  check_size<sizeof(RealProxy), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __System_Runtime_Remoting_Proxies_RealProxySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::RealProxy*, "System.Runtime.Remoting.Proxies", "RealProxy");

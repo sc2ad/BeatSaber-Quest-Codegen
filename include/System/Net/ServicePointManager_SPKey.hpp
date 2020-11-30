@@ -46,6 +46,7 @@ namespace System::Net {
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
   }; // System.Net.ServicePointManager/SPKey
+  check_size<sizeof(ServicePointManager::SPKey), 32 + sizeof(bool) + 8 - (32 + sizeof(bool)) % 8> __System_Net_ServicePointManager_SPKeySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServicePointManager::SPKey*, "System.Net", "ServicePointManager/SPKey");

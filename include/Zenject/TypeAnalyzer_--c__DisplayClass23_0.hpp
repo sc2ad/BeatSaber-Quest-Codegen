@@ -43,6 +43,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static TypeAnalyzer::$$c__DisplayClass23_0* New_ctor();
   }; // Zenject.TypeAnalyzer/<>c__DisplayClass23_0
+  check_size<sizeof(TypeAnalyzer::$$c__DisplayClass23_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Zenject_TypeAnalyzer_$$c__DisplayClass23_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TypeAnalyzer::$$c__DisplayClass23_0*, "Zenject", "TypeAnalyzer/<>c__DisplayClass23_0");

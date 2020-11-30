@@ -95,6 +95,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     static HMAC* New_ctor();
   }; // System.Security.Cryptography.HMAC
+  check_size<sizeof(HMAC), 96 + sizeof(bool) + 8 - (96 + sizeof(bool)) % 8> __System_Security_Cryptography_HMACSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMAC*, "System.Security.Cryptography", "HMAC");

@@ -66,6 +66,7 @@ namespace System::Xml {
     // Base method: System.Void EncoderFallbackBuffer::Reset()
     void Reset();
   }; // System.Xml.CharEntityEncoderFallbackBuffer
+  check_size<sizeof(CharEntityEncoderFallbackBuffer), 64 + sizeof(int) + 8 - (64 + sizeof(int)) % 8> __System_Xml_CharEntityEncoderFallbackBufferSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::CharEntityEncoderFallbackBuffer*, "System.Xml", "CharEntityEncoderFallbackBuffer");

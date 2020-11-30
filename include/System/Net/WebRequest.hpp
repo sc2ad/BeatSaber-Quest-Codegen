@@ -240,6 +240,7 @@ namespace System::Net {
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
   }; // System.Net.WebRequest
+  check_size<sizeof(WebRequest), 28 + sizeof(System::Security::Principal::TokenImpersonationLevel) + 8 - (28 + sizeof(System::Security::Principal::TokenImpersonationLevel)) % 8> __System_Net_WebRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest*, "System.Net", "WebRequest");

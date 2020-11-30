@@ -94,6 +94,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.Void X509CertificateImpl::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // System.Security.Cryptography.X509Certificates.X509CertificateImplMono
+  check_size<sizeof(X509CertificateImplMono), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Security_Cryptography_X509Certificates_X509CertificateImplMonoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509CertificateImplMono*, "System.Security.Cryptography.X509Certificates", "X509CertificateImplMono");

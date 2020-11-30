@@ -54,7 +54,10 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     static UnityEngine::Coroutine* StartUniqueCoroutine(UnityEngine::MonoBehaviour* m, System::Func_2<T, System::Collections::IEnumerator*>* func, T value) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<UnityEngine::Coroutine*>("", "ExtensionMethods", "StartUniqueCoroutine", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, m, func, value)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ExtensionMethods").WithContext("StartUniqueCoroutine");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "ExtensionMethods", il2cpp_utils::NoArgClass<UnityEngine::Coroutine*>(), "StartUniqueCoroutine", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(m, func, value))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Coroutine*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, m, func, value);
     }
     // static public System.Void StopUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`1<System.Collections.IEnumerator> func)
     // Offset: 0x102F098
@@ -63,7 +66,10 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void StopUniqueCoroutine(UnityEngine::MonoBehaviour* m, System::Func_2<T, System::Collections::IEnumerator*>* func) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("", "ExtensionMethods", "StopUniqueCoroutine", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, m, func));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ExtensionMethods").WithContext("StopUniqueCoroutine");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "ExtensionMethods", il2cpp_utils::NoArgClass<void>(), "StopUniqueCoroutine", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(m, func))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, m, func);
     }
     // static public System.Boolean IsDescendantOf(UnityEngine.Transform transform, UnityEngine.Transform parent)
     // Offset: 0x102F0E8

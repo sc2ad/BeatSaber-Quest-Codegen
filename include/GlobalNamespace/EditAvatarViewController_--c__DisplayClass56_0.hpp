@@ -56,6 +56,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EditAvatarViewController::$$c__DisplayClass56_0* New_ctor();
   }; // EditAvatarViewController/<>c__DisplayClass56_0
+  check_size<sizeof(EditAvatarViewController::$$c__DisplayClass56_0), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_EditAvatarViewController_$$c__DisplayClass56_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController::$$c__DisplayClass56_0*, "", "EditAvatarViewController/<>c__DisplayClass56_0");

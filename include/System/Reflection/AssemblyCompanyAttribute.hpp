@@ -24,6 +24,7 @@ namespace System::Reflection {
     // Offset: 0x172057C
     static AssemblyCompanyAttribute* New_ctor(::Il2CppString* company);
   }; // System.Reflection.AssemblyCompanyAttribute
+  check_size<sizeof(AssemblyCompanyAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Reflection_AssemblyCompanyAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyCompanyAttribute*, "System.Reflection", "AssemblyCompanyAttribute");

@@ -45,6 +45,7 @@ namespace GlobalNamespace {
     // Offset: 0x12E0468
     static void _cctor();
   }; // OVRPlugin/PoseStatef
+  check_size<sizeof(OVRPlugin::PoseStatef), 80 + sizeof(double) + 8 - (80 + sizeof(double)) % 8> __GlobalNamespace_OVRPlugin_PoseStatefSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::PoseStatef, "", "OVRPlugin/PoseStatef");

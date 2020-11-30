@@ -24,6 +24,7 @@ namespace UnityEngine {
     // Offset: 0x168D7A0
     static HeaderAttribute* New_ctor(::Il2CppString* header);
   }; // UnityEngine.HeaderAttribute
+  check_size<sizeof(HeaderAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_HeaderAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HeaderAttribute*, "UnityEngine", "HeaderAttribute");

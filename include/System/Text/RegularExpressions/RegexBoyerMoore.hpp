@@ -63,6 +63,7 @@ namespace System::Text::RegularExpressions {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Text.RegularExpressions.RegexBoyerMoore
+  check_size<sizeof(RegexBoyerMoore), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __System_Text_RegularExpressions_RegexBoyerMooreSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexBoyerMoore*, "System.Text.RegularExpressions", "RegexBoyerMoore");

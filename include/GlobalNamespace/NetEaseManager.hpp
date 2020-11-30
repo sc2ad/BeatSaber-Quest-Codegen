@@ -112,6 +112,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NetEaseManager* New_ctor();
   }; // NetEaseManager
+  check_size<sizeof(NetEaseManager), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_NetEaseManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseManager*, "", "NetEaseManager");

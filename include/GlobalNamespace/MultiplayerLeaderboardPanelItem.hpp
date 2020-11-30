@@ -84,6 +84,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerLeaderboardPanelItem* New_ctor();
   }; // MultiplayerLeaderboardPanelItem
+  check_size<sizeof(MultiplayerLeaderboardPanelItem), 144 + sizeof(int) + 8 - (144 + sizeof(int)) % 8> __GlobalNamespace_MultiplayerLeaderboardPanelItemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLeaderboardPanelItem*, "", "MultiplayerLeaderboardPanelItem");

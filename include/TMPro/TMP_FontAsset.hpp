@@ -409,6 +409,7 @@ namespace TMPro {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // TMPro.TMP_FontAsset
+  check_size<sizeof(TMP_FontAsset), 472 + sizeof(void*) + 8 - (472 + sizeof(void*)) % 8> __TMPro_TMP_FontAssetSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontAsset*, "TMPro", "TMP_FontAsset");

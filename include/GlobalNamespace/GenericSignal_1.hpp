@@ -30,24 +30,32 @@ namespace GlobalNamespace {
     // public System.Void Raise(T f)
     // Offset: 0xFFFFFFFF
     void Raise(T f) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Raise", f));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("GenericSignal_1").WithContext("Raise");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Raise", {}, ::il2cpp_utils::ExtractTypes(f)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, f);
     }
     // public System.Void Subscribe(System.Action`1<T> foo)
     // Offset: 0xFFFFFFFF
     void Subscribe(System::Action_1<T>* foo) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Subscribe", foo));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("GenericSignal_1").WithContext("Subscribe");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Subscribe", {}, ::il2cpp_utils::ExtractTypes(foo)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, foo);
     }
     // public System.Void Unsubscribe(System.Action`1<T> foo)
     // Offset: 0xFFFFFFFF
     void Unsubscribe(System::Action_1<T>* foo) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Unsubscribe", foo));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("GenericSignal_1").WithContext("Unsubscribe");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Unsubscribe", {}, ::il2cpp_utils::ExtractTypes(foo)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, foo);
     }
     // public override System.Void Raise()
     // Offset: 0xFFFFFFFF
     // Implemented from: Signal
     // Base method: System.Void Signal::Raise()
     void Raise() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Raise"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("GenericSignal_1").WithContext("Raise");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Raise", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -57,9 +65,11 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()
     static GenericSignal_1<T>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<GenericSignal_1<T>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("GenericSignal_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<GenericSignal_1<T>*>());
     }
   }; // GenericSignal`1
+  // Could not write size check! Type: GenericSignal`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::GenericSignal_1, "", "GenericSignal`1");
 #pragma pack(pop)

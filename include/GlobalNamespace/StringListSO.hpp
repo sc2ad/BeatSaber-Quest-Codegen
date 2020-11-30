@@ -30,6 +30,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static StringListSO* New_ctor();
   }; // StringListSO
+  check_size<sizeof(StringListSO), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_StringListSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StringListSO*, "", "StringListSO");

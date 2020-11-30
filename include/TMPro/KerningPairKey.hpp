@@ -27,6 +27,7 @@ namespace TMPro {
     // Offset: 0xC92A18
     KerningPairKey(uint ascii_left, uint ascii_right);
   }; // TMPro.KerningPairKey
+  check_size<sizeof(KerningPairKey), 8 + sizeof(uint) + 8 - (8 + sizeof(uint)) % 8> __TMPro_KerningPairKeySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningPairKey, "TMPro", "KerningPairKey");

@@ -67,6 +67,7 @@ namespace Zenject {
     // Offset: 0x12952B4
     void set_Arguments(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
   }; // Zenject.FactoryBindInfo
+  check_size<sizeof(FactoryBindInfo), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Zenject_FactoryBindInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryBindInfo*, "Zenject", "FactoryBindInfo");

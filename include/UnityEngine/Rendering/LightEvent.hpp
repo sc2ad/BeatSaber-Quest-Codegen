@@ -59,6 +59,7 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.LightEvent AfterShadowMapPass
     static void _set_AfterShadowMapPass(UnityEngine::Rendering::LightEvent value);
   }; // UnityEngine.Rendering.LightEvent
+  check_size<sizeof(LightEvent), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Rendering_LightEventSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::LightEvent, "UnityEngine.Rendering", "LightEvent");

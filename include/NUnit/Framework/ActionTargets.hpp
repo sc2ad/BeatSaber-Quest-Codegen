@@ -41,6 +41,7 @@ namespace NUnit::Framework {
     // Set static field: static public NUnit.Framework.ActionTargets Suite
     static void _set_Suite(NUnit::Framework::ActionTargets value);
   }; // NUnit.Framework.ActionTargets
+  check_size<sizeof(ActionTargets), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __NUnit_Framework_ActionTargetsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::ActionTargets, "NUnit.Framework", "ActionTargets");

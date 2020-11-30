@@ -76,6 +76,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Object::.ctor()
     static Task::ContingentProperties* New_ctor();
   }; // System.Threading.Tasks.Task/ContingentProperties
+  check_size<sizeof(Task::ContingentProperties), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __System_Threading_Tasks_Task_ContingentPropertiesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::ContingentProperties*, "System.Threading.Tasks", "Task/ContingentProperties");

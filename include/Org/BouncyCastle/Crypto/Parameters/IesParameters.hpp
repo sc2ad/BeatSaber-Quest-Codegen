@@ -36,6 +36,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1048D08
     int get_MacKeySize();
   }; // Org.BouncyCastle.Crypto.Parameters.IesParameters
+  check_size<sizeof(IesParameters), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __Org_BouncyCastle_Crypto_Parameters_IesParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::IesParameters*, "Org.BouncyCastle.Crypto.Parameters", "IesParameters");

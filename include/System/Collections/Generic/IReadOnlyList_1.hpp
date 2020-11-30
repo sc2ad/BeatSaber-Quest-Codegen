@@ -18,9 +18,12 @@ namespace System::Collections::Generic {
     // public T get_Item(System.Int32 index)
     // Offset: 0xFFFFFFFF
     T System_Collections_Generic_IReadOnlyList_1_get_Item(int index) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_Item", index));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IReadOnlyList_1").WithContext("get_Item");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "get_Item", {}, ::il2cpp_utils::ExtractTypes(index)));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, index);
     }
   }; // System.Collections.Generic.IReadOnlyList`1
+  // Could not write size check! Type: System.Collections.Generic.IReadOnlyList`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::IReadOnlyList_1, "System.Collections.Generic", "IReadOnlyList`1");
 #pragma pack(pop)

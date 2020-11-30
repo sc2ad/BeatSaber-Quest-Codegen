@@ -347,6 +347,7 @@ namespace Mono::Net::Security {
     // Base method: System.Void Stream::.cctor()
     static void _cctor();
   }; // Mono.Net.Security.MobileAuthenticatedStream
+  check_size<sizeof(MobileAuthenticatedStream), 152 + sizeof(int) + 8 - (152 + sizeof(int)) % 8> __Mono_Net_Security_MobileAuthenticatedStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileAuthenticatedStream*, "Mono.Net.Security", "MobileAuthenticatedStream");

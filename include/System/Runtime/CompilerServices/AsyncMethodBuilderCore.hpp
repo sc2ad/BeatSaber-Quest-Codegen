@@ -74,6 +74,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x15DE9C4
     static System::Threading::Tasks::Task* TryGetContinuationTask(System::Action* action);
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore
+  check_size<sizeof(AsyncMethodBuilderCore), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __System_Runtime_CompilerServices_AsyncMethodBuilderCoreSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore");

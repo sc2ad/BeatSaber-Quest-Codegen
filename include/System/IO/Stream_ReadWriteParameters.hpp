@@ -31,6 +31,7 @@ namespace System::IO {
     // Creating value type constructor for type: ReadWriteParameters
     constexpr ReadWriteParameters(::Array<uint8_t>* Buffer_ = {}, int Offset_ = {}, int Count_ = {}) noexcept : Buffer{Buffer_}, Offset{Offset_}, Count{Count_} {}
   }; // System.IO.Stream/ReadWriteParameters
+  check_size<sizeof(Stream::ReadWriteParameters), 12 + sizeof(int) + 8 - (12 + sizeof(int)) % 8> __System_IO_Stream_ReadWriteParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::ReadWriteParameters, "System.IO", "Stream/ReadWriteParameters");

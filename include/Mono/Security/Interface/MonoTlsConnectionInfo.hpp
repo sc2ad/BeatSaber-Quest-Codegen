@@ -50,6 +50,7 @@ namespace Mono::Security::Interface {
     // Base method: System.Void Object::.ctor()
     static MonoTlsConnectionInfo* New_ctor();
   }; // Mono.Security.Interface.MonoTlsConnectionInfo
+  check_size<sizeof(MonoTlsConnectionInfo), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Mono_Security_Interface_MonoTlsConnectionInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoTlsConnectionInfo*, "Mono.Security.Interface", "MonoTlsConnectionInfo");

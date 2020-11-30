@@ -72,6 +72,7 @@ namespace TMPro {
     // Offset: 0xC92D20
     TMP_GlyphValueRecord(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
   }; // TMPro.TMP_GlyphValueRecord
+  check_size<sizeof(TMP_GlyphValueRecord), 12 + sizeof(float) + 8 - (12 + sizeof(float)) % 8> __TMPro_TMP_GlyphValueRecordSizeCheck;
   // static public TMPro.TMP_GlyphValueRecord op_Addition(TMPro.TMP_GlyphValueRecord a, TMPro.TMP_GlyphValueRecord b)
   // Offset: 0xF5EAF4
   TMPro::TMP_GlyphValueRecord operator+(const TMPro::TMP_GlyphValueRecord& a, const TMPro::TMP_GlyphValueRecord& b);

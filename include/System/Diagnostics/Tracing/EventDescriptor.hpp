@@ -83,6 +83,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.Diagnostics.Tracing.EventDescriptor
+  check_size<sizeof(EventDescriptor), 8 + sizeof(int64_t) + 8 - (8 + sizeof(int64_t)) % 8> __System_Diagnostics_Tracing_EventDescriptorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventDescriptor, "System.Diagnostics.Tracing", "EventDescriptor");

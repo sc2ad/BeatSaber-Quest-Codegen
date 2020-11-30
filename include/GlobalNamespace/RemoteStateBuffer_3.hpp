@@ -41,16 +41,20 @@ namespace GlobalNamespace {
     // Implemented from: StateBuffer`3
     // Base method: System.Void StateBuffer_3::PushState(TStateTable state, System.Single time)
     void PushState(TStateTable state, float time) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "PushState", state, time));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RemoteStateBuffer_3").WithContext("PushState");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "PushState", {}, ::il2cpp_utils::ExtractTypes(state, time)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, state, time);
     }
     // public System.Void .ctor(System.Int32 size, StateBuffer`3/InterpolationDelegate<TStateTable,TType,TState> interpolator, StateBuffer`3/SmoothingDelegate<TStateTable,TType,TState> smoother)
     // Offset: 0xFFFFFFFF
     // Implemented from: StateBuffer`3
     // Base method: System.Void StateBuffer_3::.ctor(System.Int32 size, StateBuffer`3/InterpolationDelegate<TStateTable,TType,TState> interpolator, StateBuffer`3/SmoothingDelegate<TStateTable,TType,TState> smoother)
     static RemoteStateBuffer_3<TStateTable, TType, TState>* New_ctor(int size, typename GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::InterpolationDelegate* interpolator, typename GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::SmoothingDelegate* smoother) {
-      return THROW_UNLESS((il2cpp_utils::New<RemoteStateBuffer_3<TStateTable, TType, TState>*>(size, interpolator, smoother)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RemoteStateBuffer_3").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<RemoteStateBuffer_3<TStateTable, TType, TState>*>(size, interpolator, smoother)));
     }
   }; // RemoteStateBuffer`3
+  // Could not write size check! Type: RemoteStateBuffer`3 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::RemoteStateBuffer_3, "", "RemoteStateBuffer`3");
 #pragma pack(pop)

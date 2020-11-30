@@ -30,6 +30,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: VRTextureDepthInfo_t
     constexpr VRTextureDepthInfo_t(System::IntPtr handle_ = {}, Valve::VR::HmdMatrix44_t mProjection_ = {}, Valve::VR::HmdVector2_t vRange_ = {}) noexcept : handle{handle_}, mProjection{mProjection_}, vRange{vRange_} {}
   }; // Valve.VR.VRTextureDepthInfo_t
+  check_size<sizeof(VRTextureDepthInfo_t), 72 + sizeof(Valve::VR::HmdVector2_t) + 8 - (72 + sizeof(Valve::VR::HmdVector2_t)) % 8> __Valve_VR_VRTextureDepthInfo_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRTextureDepthInfo_t, "Valve.VR", "VRTextureDepthInfo_t");

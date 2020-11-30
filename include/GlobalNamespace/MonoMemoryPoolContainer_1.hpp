@@ -42,24 +42,32 @@ namespace GlobalNamespace {
     // public System.Collections.Generic.HashSet`1<T> get_activeItems()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::HashSet_1<T>* get_activeItems() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::HashSet_1<T>*>(this, "get_activeItems"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MonoMemoryPoolContainer_1").WithContext("get_activeItems");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Collections::Generic::HashSet_1<T>*>(), "get_activeItems", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::HashSet_1<T>*, false>(this, ___internal__method);
     }
     // public System.Void .ctor(Zenject.MonoMemoryPool`1<T> memoryPool)
     // Offset: 0xFFFFFFFF
     static MonoMemoryPoolContainer_1<T>* New_ctor(Zenject::MonoMemoryPool_1<T>* memoryPool) {
-      return THROW_UNLESS(il2cpp_utils::New<MonoMemoryPoolContainer_1<T>*>(memoryPool));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MonoMemoryPoolContainer_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<MonoMemoryPoolContainer_1<T>*>(memoryPool));
     }
     // public T Spawn()
     // Offset: 0xFFFFFFFF
     T Spawn() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "Spawn"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MonoMemoryPoolContainer_1").WithContext("Spawn");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "Spawn", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public System.Void Despawn(T item)
     // Offset: 0xFFFFFFFF
     void Despawn(T item) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Despawn", item));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("MonoMemoryPoolContainer_1").WithContext("Despawn");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Despawn", {}, ::il2cpp_utils::ExtractTypes(item)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
   }; // MonoMemoryPoolContainer`1
+  // Could not write size check! Type: MonoMemoryPoolContainer`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::MonoMemoryPoolContainer_1, "", "MonoMemoryPoolContainer`1");
 #pragma pack(pop)

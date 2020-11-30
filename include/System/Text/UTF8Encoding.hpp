@@ -184,6 +184,7 @@ namespace System::Text {
     // Base method: System.Int32 Encoding::GetHashCode()
     int GetHashCode();
   }; // System.Text.UTF8Encoding
+  check_size<sizeof(UTF8Encoding), 57 + sizeof(bool) + 8 - (57 + sizeof(bool)) % 8> __System_Text_UTF8EncodingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF8Encoding*, "System.Text", "UTF8Encoding");

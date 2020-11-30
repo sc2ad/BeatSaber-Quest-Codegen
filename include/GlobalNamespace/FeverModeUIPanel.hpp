@@ -67,6 +67,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static FeverModeUIPanel* New_ctor();
   }; // FeverModeUIPanel
+  check_size<sizeof(FeverModeUIPanel), 40 + sizeof(float) + 8 - (40 + sizeof(float)) % 8> __GlobalNamespace_FeverModeUIPanelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FeverModeUIPanel*, "", "FeverModeUIPanel");

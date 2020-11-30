@@ -54,6 +54,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1046130
     static ECNamedDomainParameters* New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier* name, Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECPoint* g, Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* h, ::Array<uint8_t>* seed);
   }; // Org.BouncyCastle.Crypto.Parameters.ECNamedDomainParameters
+  check_size<sizeof(ECNamedDomainParameters), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Parameters_ECNamedDomainParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters*, "Org.BouncyCastle.Crypto.Parameters", "ECNamedDomainParameters");

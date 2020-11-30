@@ -35,6 +35,7 @@ namespace System {
     // Set static field: static public System.IOOperation Write
     static void _set_Write(System::IOOperation value);
   }; // System.IOOperation
+  check_size<sizeof(IOOperation), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_IOOperationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IOOperation, "System", "IOOperation");

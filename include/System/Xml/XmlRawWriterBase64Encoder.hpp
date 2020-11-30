@@ -36,6 +36,7 @@ namespace System::Xml {
     // Base method: System.Void Base64Encoder::WriteChars(System.Char[] chars, System.Int32 index, System.Int32 count)
     void WriteChars(::Array<::Il2CppChar>* chars, int index, int count);
   }; // System.Xml.XmlRawWriterBase64Encoder
+  check_size<sizeof(XmlRawWriterBase64Encoder), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Xml_XmlRawWriterBase64EncoderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlRawWriterBase64Encoder*, "System.Xml", "XmlRawWriterBase64Encoder");

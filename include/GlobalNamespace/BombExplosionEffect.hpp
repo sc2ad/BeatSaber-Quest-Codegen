@@ -58,6 +58,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BombExplosionEffect* New_ctor();
   }; // BombExplosionEffect
+  check_size<sizeof(BombExplosionEffect), 192 + sizeof(UnityEngine::ParticleSystem::EmitParams) + 8 - (192 + sizeof(UnityEngine::ParticleSystem::EmitParams)) % 8> __GlobalNamespace_BombExplosionEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombExplosionEffect*, "", "BombExplosionEffect");

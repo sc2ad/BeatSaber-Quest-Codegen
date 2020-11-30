@@ -54,6 +54,7 @@ namespace System::Globalization {
     // Offset: 0x112C220
     ::Il2CppString* Decode(::Il2CppString* s, int offset);
   }; // System.Globalization.Bootstring
+  check_size<sizeof(Bootstring), 44 + sizeof(int) + 8 - (44 + sizeof(int)) % 8> __System_Globalization_BootstringSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::Bootstring*, "System.Globalization", "Bootstring");

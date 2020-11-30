@@ -83,6 +83,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.PlatformInitializeResult NotEntitled
     static void _set_NotEntitled(Oculus::Platform::PlatformInitializeResult value);
   }; // Oculus.Platform.PlatformInitializeResult
+  check_size<sizeof(PlatformInitializeResult), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Oculus_Platform_PlatformInitializeResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformInitializeResult, "Oculus.Platform", "PlatformInitializeResult");

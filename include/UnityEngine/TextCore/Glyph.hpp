@@ -79,6 +79,7 @@ namespace UnityEngine::TextCore {
     // Base method: System.Void Object::.ctor()
     static Glyph* New_ctor();
   }; // UnityEngine.TextCore.Glyph
+  check_size<sizeof(Glyph), 60 + sizeof(int) + 8 - (60 + sizeof(int)) % 8> __UnityEngine_TextCore_GlyphSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Glyph*, "UnityEngine.TextCore", "Glyph");

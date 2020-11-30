@@ -33,6 +33,7 @@ namespace System::Threading {
     // Offset: 0xCB6988
     bool get_IsExpired();
   }; // System.Threading.ReaderWriterLockSlim/TimeoutTracker
+  check_size<sizeof(ReaderWriterLockSlim::TimeoutTracker), 4 + sizeof(int) + 8 - (4 + sizeof(int)) % 8> __System_Threading_ReaderWriterLockSlim_TimeoutTrackerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterLockSlim::TimeoutTracker, "System.Threading", "ReaderWriterLockSlim/TimeoutTracker");

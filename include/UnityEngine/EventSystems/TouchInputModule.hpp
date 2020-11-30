@@ -98,6 +98,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.String PointerInputModule::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.EventSystems.TouchInputModule
+  check_size<sizeof(TouchInputModule), 112 + sizeof(bool) + 8 - (112 + sizeof(bool)) % 8> __UnityEngine_EventSystems_TouchInputModuleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::TouchInputModule*, "UnityEngine.EventSystems", "TouchInputModule");

@@ -29,6 +29,7 @@ namespace UnityEngine::SceneManagement {
     // Offset: 0xCA6124
     LoadSceneParameters(UnityEngine::SceneManagement::LoadSceneMode mode);
   }; // UnityEngine.SceneManagement.LoadSceneParameters
+  check_size<sizeof(LoadSceneParameters), 4 + sizeof(UnityEngine::SceneManagement::LocalPhysicsMode) + 8 - (4 + sizeof(UnityEngine::SceneManagement::LocalPhysicsMode)) % 8> __UnityEngine_SceneManagement_LoadSceneParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::LoadSceneParameters, "UnityEngine.SceneManagement", "LoadSceneParameters");

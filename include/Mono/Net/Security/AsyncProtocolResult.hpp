@@ -37,6 +37,7 @@ namespace Mono::Net::Security {
     // Offset: 0x1265678
     static AsyncProtocolResult* New_ctor(System::Runtime::ExceptionServices::ExceptionDispatchInfo* error);
   }; // Mono.Net.Security.AsyncProtocolResult
+  check_size<sizeof(AsyncProtocolResult), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Mono_Net_Security_AsyncProtocolResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolResult*, "Mono.Net.Security", "AsyncProtocolResult");

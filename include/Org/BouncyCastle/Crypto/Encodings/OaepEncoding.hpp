@@ -91,6 +91,7 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     // Base method: System.Byte[] IAsymmetricBlockCipher::ProcessBlock(System.Byte[] inBytes, System.Int32 inOff, System.Int32 inLen)
     ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* inBytes, int inOff, int inLen);
   }; // Org.BouncyCastle.Crypto.Encodings.OaepEncoding
+  check_size<sizeof(OaepEncoding), 48 + sizeof(bool) + 8 - (48 + sizeof(bool)) % 8> __Org_BouncyCastle_Crypto_Encodings_OaepEncodingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Encodings::OaepEncoding*, "Org.BouncyCastle.Crypto.Encodings", "OaepEncoding");

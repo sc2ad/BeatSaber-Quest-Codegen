@@ -150,6 +150,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static GameNoteController* New_ctor();
   }; // GameNoteController
+  check_size<sizeof(GameNoteController), 164 + sizeof(bool) + 8 - (164 + sizeof(bool)) % 8> __GlobalNamespace_GameNoteControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameNoteController*, "", "GameNoteController");

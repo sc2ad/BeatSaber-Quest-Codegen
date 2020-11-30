@@ -53,6 +53,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVRNotificationError SystemWithUserValueAlreadyExists
     static void _set_SystemWithUserValueAlreadyExists(Valve::VR::EVRNotificationError value);
   }; // Valve.VR.EVRNotificationError
+  check_size<sizeof(EVRNotificationError), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Valve_VR_EVRNotificationErrorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRNotificationError, "Valve.VR", "EVRNotificationError");

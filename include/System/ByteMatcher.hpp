@@ -47,6 +47,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static ByteMatcher* New_ctor();
   }; // System.ByteMatcher
+  check_size<sizeof(ByteMatcher), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_ByteMatcherSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ByteMatcher*, "System", "ByteMatcher");

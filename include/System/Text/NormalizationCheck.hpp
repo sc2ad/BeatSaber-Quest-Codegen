@@ -41,6 +41,7 @@ namespace System::Text {
     // Set static field: static public System.Text.NormalizationCheck Maybe
     static void _set_Maybe(System::Text::NormalizationCheck value);
   }; // System.Text.NormalizationCheck
+  check_size<sizeof(NormalizationCheck), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Text_NormalizationCheckSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::NormalizationCheck, "System.Text", "NormalizationCheck");

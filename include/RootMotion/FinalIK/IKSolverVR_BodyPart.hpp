@@ -108,6 +108,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static IKSolverVR::BodyPart* New_ctor();
   }; // RootMotion.FinalIK.IKSolverVR/BodyPart
+  check_size<sizeof(IKSolverVR::BodyPart), 68 + sizeof(int) + 8 - (68 + sizeof(int)) % 8> __RootMotion_FinalIK_IKSolverVR_BodyPartSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::BodyPart*, "RootMotion.FinalIK", "IKSolverVR/BodyPart");

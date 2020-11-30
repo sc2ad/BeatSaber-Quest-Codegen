@@ -89,6 +89,7 @@ namespace LiteNetLib {
     // Set static field: static public LiteNetLib.DisconnectReason PeerToPeerConnection
     static void _set_PeerToPeerConnection(LiteNetLib::DisconnectReason value);
   }; // LiteNetLib.DisconnectReason
+  check_size<sizeof(DisconnectReason), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __LiteNetLib_DisconnectReasonSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::DisconnectReason, "LiteNetLib", "DisconnectReason");

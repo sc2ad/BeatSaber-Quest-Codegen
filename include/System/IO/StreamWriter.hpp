@@ -174,6 +174,7 @@ namespace System::IO {
     // Base method: System.Void TextWriter::.cctor()
     static void _cctor();
   }; // System.IO.StreamWriter
+  check_size<sizeof(StreamWriter), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __System_IO_StreamWriterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StreamWriter*, "System.IO", "StreamWriter");

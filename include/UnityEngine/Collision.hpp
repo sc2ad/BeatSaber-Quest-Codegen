@@ -46,6 +46,7 @@ namespace UnityEngine {
     // Offset: 0x48
     ::Array<UnityEngine::ContactPoint>* m_LegacyContacts;
   }; // UnityEngine.Collision
+  check_size<sizeof(Collision), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __UnityEngine_CollisionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Collision*, "UnityEngine", "Collision");

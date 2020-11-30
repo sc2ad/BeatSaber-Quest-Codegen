@@ -38,6 +38,7 @@ namespace UnityEngine {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Resolution
+  check_size<sizeof(Resolution), 8 + sizeof(int) + 8 - (8 + sizeof(int)) % 8> __UnityEngine_ResolutionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Resolution, "UnityEngine", "Resolution");

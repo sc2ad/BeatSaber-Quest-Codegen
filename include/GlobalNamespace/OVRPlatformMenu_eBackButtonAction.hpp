@@ -37,6 +37,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlatformMenu/eBackButtonAction SHORT_PRESS
     static void _set_SHORT_PRESS(GlobalNamespace::OVRPlatformMenu::eBackButtonAction value);
   }; // OVRPlatformMenu/eBackButtonAction
+  check_size<sizeof(OVRPlatformMenu::eBackButtonAction), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRPlatformMenu_eBackButtonActionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlatformMenu::eBackButtonAction, "", "OVRPlatformMenu/eBackButtonAction");

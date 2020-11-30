@@ -53,6 +53,7 @@ namespace GlobalNamespace {
     // Set static field: static public MultiplayerLobbyState Error
     static void _set_Error(GlobalNamespace::MultiplayerLobbyState value);
   }; // MultiplayerLobbyState
+  check_size<sizeof(MultiplayerLobbyState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_MultiplayerLobbyStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyState, "", "MultiplayerLobbyState");

@@ -44,6 +44,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRProgressIndicator* New_ctor();
   }; // OVRProgressIndicator
+  check_size<sizeof(OVRProgressIndicator), 32 + sizeof(float) + 8 - (32 + sizeof(float)) % 8> __GlobalNamespace_OVRProgressIndicatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRProgressIndicator*, "", "OVRProgressIndicator");

@@ -38,6 +38,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MenuEnvironmentManager::MenuEnvironmentObjects* New_ctor();
   }; // MenuEnvironmentManager/MenuEnvironmentObjects
+  check_size<sizeof(MenuEnvironmentManager::MenuEnvironmentObjects), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_MenuEnvironmentManager_MenuEnvironmentObjectsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*, "", "MenuEnvironmentManager/MenuEnvironmentObjects");

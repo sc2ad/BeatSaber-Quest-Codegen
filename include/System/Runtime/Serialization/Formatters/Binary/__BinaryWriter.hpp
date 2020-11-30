@@ -280,6 +280,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x12F1E74
     void WriteValue(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::Il2CppObject* value);
   }; // System.Runtime.Serialization.Formatters.Binary.__BinaryWriter
+  check_size<sizeof(__BinaryWriter), 168 + sizeof(void*) + 8 - (168 + sizeof(void*)) % 8> __System_Runtime_Serialization_Formatters_Binary___BinaryWriterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*, "System.Runtime.Serialization.Formatters.Binary", "__BinaryWriter");

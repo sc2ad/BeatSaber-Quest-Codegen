@@ -71,6 +71,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Runtime.Serialization.ISerializationSurrogate ISurrogateSelector::GetSurrogate(System.Type type, System.Runtime.Serialization.StreamingContext context, out System.Runtime.Serialization.ISurrogateSelector ssout)
     System::Runtime::Serialization::ISerializationSurrogate* GetSurrogate(System::Type* type, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::ISurrogateSelector*& ssout);
   }; // System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
+  check_size<sizeof(RemotingSurrogateSelector), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Runtime_Remoting_Messaging_RemotingSurrogateSelectorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::RemotingSurrogateSelector*, "System.Runtime.Remoting.Messaging", "RemotingSurrogateSelector");

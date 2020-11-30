@@ -74,6 +74,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ScreenCaptureAfterDelay* New_ctor();
   }; // ScreenCaptureAfterDelay
+  check_size<sizeof(ScreenCaptureAfterDelay), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_ScreenCaptureAfterDelaySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureAfterDelay*, "", "ScreenCaptureAfterDelay");

@@ -96,6 +96,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EnterPlayerGuestNameViewController* New_ctor();
   }; // EnterPlayerGuestNameViewController
+  check_size<sizeof(EnterPlayerGuestNameViewController), 152 + sizeof(void*) + 8 - (152 + sizeof(void*)) % 8> __GlobalNamespace_EnterPlayerGuestNameViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnterPlayerGuestNameViewController*, "", "EnterPlayerGuestNameViewController");

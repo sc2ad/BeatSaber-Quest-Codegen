@@ -73,6 +73,7 @@ namespace System::IO {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.IO.DirectoryInfo
+  check_size<sizeof(DirectoryInfo), 104 + sizeof(void*) + 8 - (104 + sizeof(void*)) % 8> __System_IO_DirectoryInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::DirectoryInfo*, "System.IO", "DirectoryInfo");

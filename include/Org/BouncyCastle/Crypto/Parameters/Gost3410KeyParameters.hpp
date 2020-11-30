@@ -43,6 +43,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x10486D8
     static Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* LookupParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
   }; // Org.BouncyCastle.Crypto.Parameters.Gost3410KeyParameters
+  check_size<sizeof(Gost3410KeyParameters), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Parameters_Gost3410KeyParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "Gost3410KeyParameters");

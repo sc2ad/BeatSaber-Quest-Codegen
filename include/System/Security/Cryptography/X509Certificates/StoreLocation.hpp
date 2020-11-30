@@ -35,6 +35,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static public System.Security.Cryptography.X509Certificates.StoreLocation LocalMachine
     static void _set_LocalMachine(System::Security::Cryptography::X509Certificates::StoreLocation value);
   }; // System.Security.Cryptography.X509Certificates.StoreLocation
+  check_size<sizeof(StoreLocation), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Security_Cryptography_X509Certificates_StoreLocationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::StoreLocation, "System.Security.Cryptography.X509Certificates", "StoreLocation");

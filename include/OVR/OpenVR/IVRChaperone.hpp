@@ -60,6 +60,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: IVRChaperone
     constexpr IVRChaperone(OVR::OpenVR::IVRChaperone::_GetCalibrationState* GetCalibrationState_ = {}, OVR::OpenVR::IVRChaperone::_GetPlayAreaSize* GetPlayAreaSize_ = {}, OVR::OpenVR::IVRChaperone::_GetPlayAreaRect* GetPlayAreaRect_ = {}, OVR::OpenVR::IVRChaperone::_ReloadInfo* ReloadInfo_ = {}, OVR::OpenVR::IVRChaperone::_SetSceneColor* SetSceneColor_ = {}, OVR::OpenVR::IVRChaperone::_GetBoundsColor* GetBoundsColor_ = {}, OVR::OpenVR::IVRChaperone::_AreBoundsVisible* AreBoundsVisible_ = {}, OVR::OpenVR::IVRChaperone::_ForceBoundsVisible* ForceBoundsVisible_ = {}) noexcept : GetCalibrationState{GetCalibrationState_}, GetPlayAreaSize{GetPlayAreaSize_}, GetPlayAreaRect{GetPlayAreaRect_}, ReloadInfo{ReloadInfo_}, SetSceneColor{SetSceneColor_}, GetBoundsColor{GetBoundsColor_}, AreBoundsVisible{AreBoundsVisible_}, ForceBoundsVisible{ForceBoundsVisible_} {}
   }; // OVR.OpenVR.IVRChaperone
+  check_size<sizeof(IVRChaperone), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __OVR_OpenVR_IVRChaperoneSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperone, "OVR.OpenVR", "IVRChaperone");

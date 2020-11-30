@@ -35,6 +35,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EGamepadTextInputLineMode k_EGamepadTextInputLineModeMultipleLines
     static void _set_k_EGamepadTextInputLineModeMultipleLines(Valve::VR::EGamepadTextInputLineMode value);
   }; // Valve.VR.EGamepadTextInputLineMode
+  check_size<sizeof(EGamepadTextInputLineMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Valve_VR_EGamepadTextInputLineModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EGamepadTextInputLineMode, "Valve.VR", "EGamepadTextInputLineMode");

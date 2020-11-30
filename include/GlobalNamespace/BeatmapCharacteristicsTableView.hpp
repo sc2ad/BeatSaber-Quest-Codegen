@@ -117,6 +117,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BeatmapCharacteristicsTableView* New_ctor();
   }; // BeatmapCharacteristicsTableView
+  check_size<sizeof(BeatmapCharacteristicsTableView), 76 + sizeof(int) + 8 - (76 + sizeof(int)) % 8> __GlobalNamespace_BeatmapCharacteristicsTableViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicsTableView*, "", "BeatmapCharacteristicsTableView");

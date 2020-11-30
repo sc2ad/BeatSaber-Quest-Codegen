@@ -96,6 +96,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.EdgeLookup
+  check_size<sizeof(EdgeLookup), 8 + sizeof(UnityEngine::ProBuilder::Edge) + 8 - (8 + sizeof(UnityEngine::ProBuilder::Edge)) % 8> __UnityEngine_ProBuilder_EdgeLookupSizeCheck;
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.EdgeLookup a, UnityEngine.ProBuilder.EdgeLookup b)
   // Offset: 0x163291C
   bool operator ==(const UnityEngine::ProBuilder::EdgeLookup& a, const UnityEngine::ProBuilder::EdgeLookup& b);

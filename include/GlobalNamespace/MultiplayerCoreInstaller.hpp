@@ -60,6 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerCoreInstaller* New_ctor();
   }; // MultiplayerCoreInstaller
+  check_size<sizeof(MultiplayerCoreInstaller), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerCoreInstallerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerCoreInstaller*, "", "MultiplayerCoreInstaller");

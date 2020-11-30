@@ -186,6 +186,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.EventSystems.EventSystem
+  check_size<sizeof(EventSystem), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __UnityEngine_EventSystems_EventSystemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventSystem*, "UnityEngine.EventSystems", "EventSystem");

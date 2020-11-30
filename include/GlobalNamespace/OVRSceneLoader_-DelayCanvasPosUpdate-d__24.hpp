@@ -60,6 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // OVRSceneLoader/<DelayCanvasPosUpdate>d__24
+  check_size<sizeof(OVRSceneLoader::$DelayCanvasPosUpdate$d__24), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_OVRSceneLoader_$DelayCanvasPosUpdate$d__24SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneLoader::$DelayCanvasPosUpdate$d__24*, "", "OVRSceneLoader/<DelayCanvasPosUpdate>d__24");

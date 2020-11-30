@@ -36,6 +36,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     static MustUseReturnValueAttribute* New_ctor();
   }; // JetBrains.Annotations.MustUseReturnValueAttribute
+  check_size<sizeof(MustUseReturnValueAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __JetBrains_Annotations_MustUseReturnValueAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::MustUseReturnValueAttribute*, "JetBrains.Annotations", "MustUseReturnValueAttribute");

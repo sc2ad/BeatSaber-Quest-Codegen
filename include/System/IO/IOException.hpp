@@ -65,6 +65,7 @@ namespace System::IO {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static IOException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.IO.IOException
+  check_size<sizeof(IOException), 136 + sizeof(void*) + 8 - (136 + sizeof(void*)) % 8> __System_IO_IOExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::IOException*, "System.IO", "IOException");

@@ -65,6 +65,7 @@ namespace System::Threading {
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);
   }; // System.Threading.QueueUserWorkItemCallback
+  check_size<sizeof(QueueUserWorkItemCallback), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Threading_QueueUserWorkItemCallbackSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::QueueUserWorkItemCallback*, "System.Threading", "QueueUserWorkItemCallback");

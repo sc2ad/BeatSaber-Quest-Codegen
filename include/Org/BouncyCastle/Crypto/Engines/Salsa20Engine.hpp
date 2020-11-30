@@ -124,6 +124,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void IStreamCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.Salsa20Engine
+  check_size<sizeof(Salsa20Engine), 60 + sizeof(uint) + 8 - (60 + sizeof(uint)) % 8> __Org_BouncyCastle_Crypto_Engines_Salsa20EngineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::Salsa20Engine*, "Org.BouncyCastle.Crypto.Engines", "Salsa20Engine");

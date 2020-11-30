@@ -43,6 +43,7 @@ namespace System::Threading {
     // Base method: System.Void Object::.ctor()
     static AtomicBoolean* New_ctor();
   }; // System.Threading.AtomicBoolean
+  check_size<sizeof(AtomicBoolean), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __System_Threading_AtomicBooleanSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::AtomicBoolean*, "System.Threading", "AtomicBoolean");

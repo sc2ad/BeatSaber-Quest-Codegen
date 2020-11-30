@@ -67,6 +67,7 @@ namespace UnityEngine::Networking {
     // Base method: System.Byte[] DownloadHandler::GetData()
     ::Array<uint8_t>* GetData();
   }; // UnityEngine.Networking.DownloadHandlerTexture
+  check_size<sizeof(DownloadHandlerTexture), 33 + sizeof(bool) + 8 - (33 + sizeof(bool)) % 8> __UnityEngine_Networking_DownloadHandlerTextureSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerTexture*, "UnityEngine.Networking", "DownloadHandlerTexture");

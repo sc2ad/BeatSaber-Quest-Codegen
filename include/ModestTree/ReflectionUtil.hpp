@@ -86,61 +86,91 @@ namespace ModestTree {
     // Offset: 0xFFFFFFFF
     template<class TParam1>
     static ::Il2CppString* ToDebugString(System::Action_1<TParam1>* action) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Il2CppString*>("ModestTree", "ReflectionUtil", "ToDebugString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get()}, action)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("ReflectionUtil").WithContext("ToDebugString");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "ReflectionUtil", il2cpp_utils::NoArgClass<::Il2CppString*>(), "ToDebugString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get()}, ::il2cpp_utils::ExtractTypes(action))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, action);
     }
     // static public System.String ToDebugString(System.Action`2<TParam1,TParam2> action)
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2>
     static ::Il2CppString* ToDebugString(System::Action_2<TParam1, TParam2>* action) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Il2CppString*>("ModestTree", "ReflectionUtil", "ToDebugString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get()}, action)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("ReflectionUtil").WithContext("ToDebugString");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "ReflectionUtil", il2cpp_utils::NoArgClass<::Il2CppString*>(), "ToDebugString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get()}, ::il2cpp_utils::ExtractTypes(action))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get()})));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, action);
     }
     // static public System.String ToDebugString(System.Action`3<TParam1,TParam2,TParam3> action)
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3>
     static ::Il2CppString* ToDebugString(System::Action_3<TParam1, TParam2, TParam3>* action) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Il2CppString*>("ModestTree", "ReflectionUtil", "ToDebugString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get()}, action)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("ReflectionUtil").WithContext("ToDebugString");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "ReflectionUtil", il2cpp_utils::NoArgClass<::Il2CppString*>(), "ToDebugString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get()}, ::il2cpp_utils::ExtractTypes(action))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get()})));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, action);
     }
     // static public System.String ToDebugString(System.Action`4<TParam1,TParam2,TParam3,TParam4> action)
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4>
     static ::Il2CppString* ToDebugString(System::Action_4<TParam1, TParam2, TParam3, TParam4>* action) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Il2CppString*>("ModestTree", "ReflectionUtil", "ToDebugString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get()}, action)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("ReflectionUtil").WithContext("ToDebugString");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "ReflectionUtil", il2cpp_utils::NoArgClass<::Il2CppString*>(), "ToDebugString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get()}, ::il2cpp_utils::ExtractTypes(action))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get()})));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, action);
     }
     // static public System.String ToDebugString(System.Action`5<TParam1,TParam2,TParam3,TParam4,TParam5> action)
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5>
     static ::Il2CppString* ToDebugString(System::Action_5<TParam1, TParam2, TParam3, TParam4, TParam5>* action) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Il2CppString*>("ModestTree", "ReflectionUtil", "ToDebugString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get()}, action)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("ReflectionUtil").WithContext("ToDebugString");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "ReflectionUtil", il2cpp_utils::NoArgClass<::Il2CppString*>(), "ToDebugString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get()}, ::il2cpp_utils::ExtractTypes(action))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get()})));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, action);
     }
     // static public System.String ToDebugString(System.Action`6<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6> action)
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6>
     static ::Il2CppString* ToDebugString(System::Action_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>* action) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Il2CppString*>("ModestTree", "ReflectionUtil", "ToDebugString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get()}, action)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("ReflectionUtil").WithContext("ToDebugString");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "ReflectionUtil", il2cpp_utils::NoArgClass<::Il2CppString*>(), "ToDebugString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get()}, ::il2cpp_utils::ExtractTypes(action))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get()})));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, action);
     }
     // static public System.String ToDebugString(System.Func`1<TParam1> func)
     // Offset: 0xFFFFFFFF
     template<class TParam1>
     static ::Il2CppString* ToDebugString(System::Func_1<TParam1>* func) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Il2CppString*>("ModestTree", "ReflectionUtil", "ToDebugString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get()}, func)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("ReflectionUtil").WithContext("ToDebugString");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "ReflectionUtil", il2cpp_utils::NoArgClass<::Il2CppString*>(), "ToDebugString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get()}, ::il2cpp_utils::ExtractTypes(func))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, func);
     }
     // static public System.String ToDebugString(System.Func`2<TParam1,TParam2> func)
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2>
     static ::Il2CppString* ToDebugString(System::Func_2<TParam1, TParam2>* func) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Il2CppString*>("ModestTree", "ReflectionUtil", "ToDebugString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get()}, func)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("ReflectionUtil").WithContext("ToDebugString");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "ReflectionUtil", il2cpp_utils::NoArgClass<::Il2CppString*>(), "ToDebugString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get()}, ::il2cpp_utils::ExtractTypes(func))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get()})));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, func);
     }
     // static public System.String ToDebugString(System.Func`3<TParam1,TParam2,TParam3> func)
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3>
     static ::Il2CppString* ToDebugString(System::Func_3<TParam1, TParam2, TParam3>* func) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Il2CppString*>("ModestTree", "ReflectionUtil", "ToDebugString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get()}, func)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("ReflectionUtil").WithContext("ToDebugString");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "ReflectionUtil", il2cpp_utils::NoArgClass<::Il2CppString*>(), "ToDebugString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get()}, ::il2cpp_utils::ExtractTypes(func))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get()})));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, func);
     }
     // static public System.String ToDebugString(System.Func`4<TParam1,TParam2,TParam3,TParam4> func)
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4>
     static ::Il2CppString* ToDebugString(System::Func_4<TParam1, TParam2, TParam3, TParam4>* func) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Il2CppString*>("ModestTree", "ReflectionUtil", "ToDebugString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get()}, func)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("ReflectionUtil").WithContext("ToDebugString");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "ReflectionUtil", il2cpp_utils::NoArgClass<::Il2CppString*>(), "ToDebugString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get()}, ::il2cpp_utils::ExtractTypes(func))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get()})));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, func);
     }
   }; // ModestTree.ReflectionUtil
 }

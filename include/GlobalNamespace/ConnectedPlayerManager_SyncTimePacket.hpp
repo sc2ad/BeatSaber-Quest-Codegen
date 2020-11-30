@@ -80,6 +80,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ConnectedPlayerManager::SyncTimePacket* New_ctor();
   }; // ConnectedPlayerManager/SyncTimePacket
+  check_size<sizeof(ConnectedPlayerManager::SyncTimePacket), 16 + sizeof(float) + 8 - (16 + sizeof(float)) % 8> __GlobalNamespace_ConnectedPlayerManager_SyncTimePacketSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::SyncTimePacket*, "", "ConnectedPlayerManager/SyncTimePacket");

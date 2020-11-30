@@ -33,6 +33,7 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: OculusInitParams
     constexpr OculusInitParams(int sType_ = {}, ::Il2CppString* email_ = {}, ::Il2CppString* password_ = {}, uint64_t appId_ = {}, ::Il2CppString* uriPrefixOverride_ = {}) noexcept : sType{sType_}, email{email_}, password{password_}, appId{appId_}, uriPrefixOverride{uriPrefixOverride_} {}
   }; // Oculus.Platform.CAPI/OculusInitParams
+  check_size<sizeof(CAPI::OculusInitParams), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Oculus_Platform_CAPI_OculusInitParamsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::OculusInitParams, "Oculus.Platform", "CAPI/OculusInitParams");

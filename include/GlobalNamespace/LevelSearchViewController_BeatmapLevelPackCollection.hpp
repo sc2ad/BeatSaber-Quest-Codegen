@@ -60,6 +60,7 @@ namespace GlobalNamespace {
     // Base method: IBeatmapLevelCollection IAnnotatedBeatmapLevelCollection::get_beatmapLevelCollection()
     GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
   }; // LevelSearchViewController/BeatmapLevelPackCollection
+  check_size<sizeof(LevelSearchViewController::BeatmapLevelPackCollection), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_LevelSearchViewController_BeatmapLevelPackCollectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection*, "", "LevelSearchViewController/BeatmapLevelPackCollection");

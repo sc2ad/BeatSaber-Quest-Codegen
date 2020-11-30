@@ -47,41 +47,53 @@ namespace HMUI {
     // public System.Void .ctor(HMUI.IValueChanger`1<T> valueChanger, System.Action`1<T> action)
     // Offset: 0xFFFFFFFF
     static ValueChangedBinder_1<T>* New_ctor(HMUI::IValueChanger_1<T>* valueChanger, System::Action_1<T>* action) {
-      return THROW_UNLESS(il2cpp_utils::New<ValueChangedBinder_1<T>*>(valueChanger, action));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("ValueChangedBinder_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<ValueChangedBinder_1<T>*>(valueChanger, action));
     }
     // public System.Void .ctor(System.Collections.Generic.List`1<System.Tuple`2<HMUI.IValueChanger`1<T>,System.Action`1<T>>> bindingData)
     // Offset: 0xFFFFFFFF
     static ValueChangedBinder_1<T>* New_ctor(System::Collections::Generic::List_1<System::Tuple_2<HMUI::IValueChanger_1<T>*, System::Action_1<T>*>*>* bindingData) {
-      return THROW_UNLESS(il2cpp_utils::New<ValueChangedBinder_1<T>*>(bindingData));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("ValueChangedBinder_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<ValueChangedBinder_1<T>*>(bindingData));
     }
     // private System.Void Init()
     // Offset: 0xFFFFFFFF
     void Init() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Init"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("ValueChangedBinder_1").WithContext("Init");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Init", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // public System.Void AddBindings(System.Collections.Generic.List`1<System.Tuple`2<HMUI.IValueChanger`1<T>,System.Action`1<T>>> bindingData)
     // Offset: 0xFFFFFFFF
     void AddBindings(System::Collections::Generic::List_1<System::Tuple_2<HMUI::IValueChanger_1<T>*, System::Action_1<T>*>*>* bindingData) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddBindings", bindingData));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("ValueChangedBinder_1").WithContext("AddBindings");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "AddBindings", {}, ::il2cpp_utils::ExtractTypes(bindingData)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, bindingData);
     }
     // public System.Void AddBinding(HMUI.IValueChanger`1<T> valueChanger, System.Action`1<T> action)
     // Offset: 0xFFFFFFFF
     void AddBinding(HMUI::IValueChanger_1<T>* valueChanger, System::Action_1<T>* action) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddBinding", valueChanger, action));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("ValueChangedBinder_1").WithContext("AddBinding");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "AddBinding", {}, ::il2cpp_utils::ExtractTypes(valueChanger, action)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, valueChanger, action);
     }
     // public System.Void ClearBindings()
     // Offset: 0xFFFFFFFF
     void ClearBindings() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "ClearBindings"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("ValueChangedBinder_1").WithContext("ClearBindings");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "ClearBindings", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ValueChangedBinder_1<T>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<ValueChangedBinder_1<T>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("ValueChangedBinder_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<ValueChangedBinder_1<T>*>());
     }
   }; // HMUI.ValueChangedBinder`1
+  // Could not write size check! Type: HMUI.ValueChangedBinder`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(HMUI::ValueChangedBinder_1, "HMUI", "ValueChangedBinder`1");
 #pragma pack(pop)

@@ -30,6 +30,7 @@ namespace System::ComponentModel {
     // Offset: 0x1481A98
     static EnumConverter* New_ctor(System::Type* type);
   }; // System.ComponentModel.EnumConverter
+  check_size<sizeof(EnumConverter), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_ComponentModel_EnumConverterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EnumConverter*, "System.ComponentModel", "EnumConverter");

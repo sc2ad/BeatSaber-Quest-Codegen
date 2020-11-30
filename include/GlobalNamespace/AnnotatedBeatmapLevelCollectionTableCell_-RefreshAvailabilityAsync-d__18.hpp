@@ -80,6 +80,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // AnnotatedBeatmapLevelCollectionTableCell/<RefreshAvailabilityAsync>d__18
+  check_size<sizeof(AnnotatedBeatmapLevelCollectionTableCell::$RefreshAvailabilityAsync$d__18), 88 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>) + 8 - (88 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>)) % 8> __GlobalNamespace_AnnotatedBeatmapLevelCollectionTableCell_$RefreshAvailabilityAsync$d__18SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnnotatedBeatmapLevelCollectionTableCell::$RefreshAvailabilityAsync$d__18, "", "AnnotatedBeatmapLevelCollectionTableCell/<RefreshAvailabilityAsync>d__18");

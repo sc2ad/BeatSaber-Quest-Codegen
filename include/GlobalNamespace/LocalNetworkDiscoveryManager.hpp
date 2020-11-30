@@ -134,6 +134,7 @@ namespace GlobalNamespace {
       // Set static field: static public LocalNetworkDiscoveryManager/PacketType InviteResponse
       static void _set_InviteResponse(GlobalNamespace::LocalNetworkDiscoveryManager::PacketType value);
     }; // LocalNetworkDiscoveryManager/PacketType
+    check_size<sizeof(LocalNetworkDiscoveryManager::PacketType), 0 + sizeof(uint8_t) + 8 - (0 + sizeof(uint8_t)) % 8> __GlobalNamespace_LocalNetworkDiscoveryManager_PacketTypeSizeCheck;
     // private LocalNetworkDiscoveryManager/PeerUpdatedDelegate peerUpdatedEvent
     // Offset: 0x18
     GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate* peerUpdatedEvent;
@@ -292,7 +293,10 @@ namespace GlobalNamespace {
     template<class T>
     LiteNetLib::Utils::NetDataWriter* WritePacket(T packet) {
       static_assert(std::is_base_of_v<LiteNetLib::Utils::INetSerializable, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<LiteNetLib::Utils::NetDataWriter*>(this, "WritePacket", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, packet)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("LocalNetworkDiscoveryManager").WithContext("WritePacket");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<LiteNetLib::Utils::NetDataWriter*>(), "WritePacket", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(packet))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<LiteNetLib::Utils::NetDataWriter*, false>(this, ___internal__method, packet);
     }
     // private System.Void <Init>b__56_0(LocalNetworkDiscoveryManager/BroadcastPacket packet, System.Net.IPEndPoint endPoint)
     // Offset: 0x1A65874
@@ -354,6 +358,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LocalNetworkDiscoveryManager* New_ctor();
   }; // LocalNetworkDiscoveryManager
+  check_size<sizeof(LocalNetworkDiscoveryManager), 104 + sizeof(float) + 8 - (104 + sizeof(float)) % 8> __GlobalNamespace_LocalNetworkDiscoveryManagerSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager*, "", "LocalNetworkDiscoveryManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::PacketType, "", "LocalNetworkDiscoveryManager/PacketType");

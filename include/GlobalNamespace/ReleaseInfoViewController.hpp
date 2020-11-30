@@ -55,6 +55,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ReleaseInfoViewController* New_ctor();
   }; // ReleaseInfoViewController
+  check_size<sizeof(ReleaseInfoViewController), 136 + sizeof(void*) + 8 - (136 + sizeof(void*)) % 8> __GlobalNamespace_ReleaseInfoViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReleaseInfoViewController*, "", "ReleaseInfoViewController");

@@ -130,6 +130,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static VRTextEntryController* New_ctor();
   }; // VRTextEntryController
+  check_size<sizeof(VRTextEntryController), 80 + sizeof(bool) + 8 - (80 + sizeof(bool)) % 8> __GlobalNamespace_VRTextEntryControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTextEntryController*, "", "VRTextEntryController");

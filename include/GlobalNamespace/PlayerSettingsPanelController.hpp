@@ -203,6 +203,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PlayerSettingsPanelController* New_ctor();
   }; // PlayerSettingsPanelController
+  check_size<sizeof(PlayerSettingsPanelController), 161 + sizeof(bool) + 8 - (161 + sizeof(bool)) % 8> __GlobalNamespace_PlayerSettingsPanelControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSettingsPanelController*, "", "PlayerSettingsPanelController");

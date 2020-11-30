@@ -39,6 +39,7 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void Object::.ctor()
     static ExclusiveReference* New_ctor();
   }; // System.Text.RegularExpressions.ExclusiveReference
+  check_size<sizeof(ExclusiveReference), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __System_Text_RegularExpressions_ExclusiveReferenceSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::ExclusiveReference*, "System.Text.RegularExpressions", "ExclusiveReference");

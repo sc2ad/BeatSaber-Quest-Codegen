@@ -24,6 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0xFF1B8C
     static TutorialSongController::InitData* New_ctor(float songBpm);
   }; // TutorialSongController/InitData
+  check_size<sizeof(TutorialSongController::InitData), 16 + sizeof(float) + 8 - (16 + sizeof(float)) % 8> __GlobalNamespace_TutorialSongController_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController::InitData*, "", "TutorialSongController/InitData");

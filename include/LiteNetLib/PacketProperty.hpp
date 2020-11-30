@@ -131,6 +131,7 @@ namespace LiteNetLib {
     // Set static field: static public LiteNetLib.PacketProperty Empty
     static void _set_Empty(LiteNetLib::PacketProperty value);
   }; // LiteNetLib.PacketProperty
+  check_size<sizeof(PacketProperty), 0 + sizeof(uint8_t) + 8 - (0 + sizeof(uint8_t)) % 8> __LiteNetLib_PacketPropertySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::PacketProperty, "LiteNetLib", "PacketProperty");

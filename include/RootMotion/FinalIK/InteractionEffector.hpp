@@ -212,6 +212,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x17EA2EC
     void OnPostFBBIK();
   }; // RootMotion.FinalIK.InteractionEffector
+  check_size<sizeof(InteractionEffector), 200 + sizeof(bool) + 8 - (200 + sizeof(bool)) % 8> __RootMotion_FinalIK_InteractionEffectorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionEffector*, "RootMotion.FinalIK", "InteractionEffector");

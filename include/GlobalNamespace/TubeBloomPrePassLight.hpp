@@ -160,6 +160,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static TubeBloomPrePassLight* New_ctor();
   }; // TubeBloomPrePassLight
+  check_size<sizeof(TubeBloomPrePassLight), 136 + sizeof(void*) + 8 - (136 + sizeof(void*)) % 8> __GlobalNamespace_TubeBloomPrePassLightSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeBloomPrePassLight*, "", "TubeBloomPrePassLight");

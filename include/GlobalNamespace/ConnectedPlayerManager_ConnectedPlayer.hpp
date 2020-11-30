@@ -210,6 +210,7 @@ namespace GlobalNamespace {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // ConnectedPlayerManager/ConnectedPlayer
+  check_size<sizeof(ConnectedPlayerManager::ConnectedPlayer), 216 + sizeof(void*) + 8 - (216 + sizeof(void*)) % 8> __GlobalNamespace_ConnectedPlayerManager_ConnectedPlayerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*, "", "ConnectedPlayerManager/ConnectedPlayer");

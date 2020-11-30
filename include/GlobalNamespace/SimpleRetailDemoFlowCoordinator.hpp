@@ -153,6 +153,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SimpleRetailDemoFlowCoordinator* New_ctor();
   }; // SimpleRetailDemoFlowCoordinator
+  check_size<sizeof(SimpleRetailDemoFlowCoordinator), 304 + sizeof(void*) + 8 - (304 + sizeof(void*)) % 8> __GlobalNamespace_SimpleRetailDemoFlowCoordinatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoFlowCoordinator*, "", "SimpleRetailDemoFlowCoordinator");

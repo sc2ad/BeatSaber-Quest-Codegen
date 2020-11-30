@@ -23,80 +23,104 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
     // public System.Boolean AreEqual(T a, T b)
     // Offset: 0xFFFFFFFF
     bool AreEqual(T a, T b) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "AreEqual", a, b));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree::Math").WithContext("TypeMath_1").WithContext("AreEqual");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "AreEqual", {}, ::il2cpp_utils::ExtractTypes(a, b)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, a, b);
     }
     // public T get_Zero()
     // Offset: 0xFFFFFFFF
     T get_Zero() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_Zero"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree::Math").WithContext("TypeMath_1").WithContext("get_Zero");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "get_Zero", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public T Add(T a, T b)
     // Offset: 0xFFFFFFFF
     T Add(T a, T b) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "Add", a, b));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree::Math").WithContext("TypeMath_1").WithContext("Add");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "Add", {}, ::il2cpp_utils::ExtractTypes(a, b)));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, a, b);
     }
     // public T Subtract(T a, T b)
     // Offset: 0xFFFFFFFF
     T Subtract(T a, T b) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "Subtract", a, b));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree::Math").WithContext("TypeMath_1").WithContext("Subtract");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "Subtract", {}, ::il2cpp_utils::ExtractTypes(a, b)));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, a, b);
     }
     // public System.Int32 Compare(T a, T b)
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.ProBuilder.KdTree.ITypeMath`1
     // Base method: System.Int32 ITypeMath_1::Compare(T a, T b)
     int Compare(T a, T b) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "Compare", a, b));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree::Math").WithContext("TypeMath_1").WithContext("Compare");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "Compare", {}, ::il2cpp_utils::ExtractTypes(a, b)));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, a, b);
     }
     // public System.Boolean AreEqual(T[] a, T[] b)
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.ProBuilder.KdTree.ITypeMath`1
     // Base method: System.Boolean ITypeMath_1::AreEqual(T[] a, T[] b)
     bool AreEqual(::Array<T>* a, ::Array<T>* b) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "AreEqual", a, b));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree::Math").WithContext("TypeMath_1").WithContext("AreEqual");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "AreEqual", {}, ::il2cpp_utils::ExtractTypes(a, b)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, a, b);
     }
     // public T get_MinValue()
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.ProBuilder.KdTree.ITypeMath`1
     // Base method: T ITypeMath_1::get_MinValue()
     T get_MinValue() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_MinValue"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree::Math").WithContext("TypeMath_1").WithContext("get_MinValue");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "get_MinValue", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public T get_NegativeInfinity()
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.ProBuilder.KdTree.ITypeMath`1
     // Base method: T ITypeMath_1::get_NegativeInfinity()
     T get_NegativeInfinity() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_NegativeInfinity"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree::Math").WithContext("TypeMath_1").WithContext("get_NegativeInfinity");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "get_NegativeInfinity", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public T get_PositiveInfinity()
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.ProBuilder.KdTree.ITypeMath`1
     // Base method: T ITypeMath_1::get_PositiveInfinity()
     T get_PositiveInfinity() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_PositiveInfinity"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree::Math").WithContext("TypeMath_1").WithContext("get_PositiveInfinity");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "get_PositiveInfinity", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public T Multiply(T a, T b)
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.ProBuilder.KdTree.ITypeMath`1
     // Base method: T ITypeMath_1::Multiply(T a, T b)
     T Multiply(T a, T b) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "Multiply", a, b));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree::Math").WithContext("TypeMath_1").WithContext("Multiply");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "Multiply", {}, ::il2cpp_utils::ExtractTypes(a, b)));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, a, b);
     }
     // public T DistanceSquaredBetweenPoints(T[] a, T[] b)
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.ProBuilder.KdTree.ITypeMath`1
     // Base method: T ITypeMath_1::DistanceSquaredBetweenPoints(T[] a, T[] b)
     T DistanceSquaredBetweenPoints(::Array<T>* a, ::Array<T>* b) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "DistanceSquaredBetweenPoints", a, b));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree::Math").WithContext("TypeMath_1").WithContext("DistanceSquaredBetweenPoints");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "DistanceSquaredBetweenPoints", {}, ::il2cpp_utils::ExtractTypes(a, b)));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, a, b);
     }
     // protected System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TypeMath_1<T>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<TypeMath_1<T>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree::Math").WithContext("TypeMath_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<TypeMath_1<T>*>());
     }
   }; // UnityEngine.ProBuilder.KdTree.Math.TypeMath`1
+  // Could not write size check! Type: UnityEngine.ProBuilder.KdTree.Math.TypeMath`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::ProBuilder::KdTree::Math::TypeMath_1, "UnityEngine.ProBuilder.KdTree.Math", "TypeMath`1");
 #pragma pack(pop)

@@ -108,6 +108,7 @@ namespace System::IO::Compression {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.IO.Compression.DeflateStreamNative
+  check_size<sizeof(DeflateStreamNative), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __System_IO_Compression_DeflateStreamNativeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStreamNative*, "System.IO.Compression", "DeflateStreamNative");

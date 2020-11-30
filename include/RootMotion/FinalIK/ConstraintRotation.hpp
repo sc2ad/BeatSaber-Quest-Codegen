@@ -44,6 +44,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static ConstraintRotation* New_ctor();
   }; // RootMotion.FinalIK.ConstraintRotation
+  check_size<sizeof(ConstraintRotation), 28 + sizeof(UnityEngine::Quaternion) + 8 - (28 + sizeof(UnityEngine::Quaternion)) % 8> __RootMotion_FinalIK_ConstraintRotationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ConstraintRotation*, "RootMotion.FinalIK", "ConstraintRotation");

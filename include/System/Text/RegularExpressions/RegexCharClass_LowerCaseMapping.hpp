@@ -33,6 +33,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0xCA26E0
     // ABORTED: conflicts with another method.  LowerCaseMapping(::Il2CppChar chMin, ::Il2CppChar chMax, int lcOp, int data);
   }; // System.Text.RegularExpressions.RegexCharClass/LowerCaseMapping
+  check_size<sizeof(RegexCharClass::LowerCaseMapping), 8 + sizeof(int) + 8 - (8 + sizeof(int)) % 8> __System_Text_RegularExpressions_RegexCharClass_LowerCaseMappingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::LowerCaseMapping, "System.Text.RegularExpressions", "RegexCharClass/LowerCaseMapping");

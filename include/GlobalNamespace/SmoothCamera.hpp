@@ -70,6 +70,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SmoothCamera* New_ctor();
   }; // SmoothCamera
+  check_size<sizeof(SmoothCamera), 72 + sizeof(float) + 8 - (72 + sizeof(float)) % 8> __GlobalNamespace_SmoothCameraSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmoothCamera*, "", "SmoothCamera");

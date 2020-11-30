@@ -65,6 +65,7 @@ namespace System::Globalization {
     // Set static field: static public System.Globalization.FORMATFLAGS UseDigitPrefixInTokens
     static void _set_UseDigitPrefixInTokens(System::Globalization::FORMATFLAGS value);
   }; // System.Globalization.FORMATFLAGS
+  check_size<sizeof(FORMATFLAGS), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Globalization_FORMATFLAGSSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::FORMATFLAGS, "System.Globalization", "FORMATFLAGS");

@@ -28,6 +28,7 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     // Offset: 0x176A410
     static ZTauElement* New_ctor(Org::BouncyCastle::Math::BigInteger* u, Org::BouncyCastle::Math::BigInteger* v);
   }; // Org.BouncyCastle.Math.EC.Abc.ZTauElement
+  check_size<sizeof(ZTauElement), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_EC_Abc_ZTauElementSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Abc::ZTauElement*, "Org.BouncyCastle.Math.EC.Abc", "ZTauElement");

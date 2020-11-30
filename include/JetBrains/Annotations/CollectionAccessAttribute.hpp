@@ -32,6 +32,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE440
     void set_CollectionAccessType(JetBrains::Annotations::CollectionAccessType value);
   }; // JetBrains.Annotations.CollectionAccessAttribute
+  check_size<sizeof(CollectionAccessAttribute), 16 + sizeof(JetBrains::Annotations::CollectionAccessType) + 8 - (16 + sizeof(JetBrains::Annotations::CollectionAccessType)) % 8> __JetBrains_Annotations_CollectionAccessAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::CollectionAccessAttribute*, "JetBrains.Annotations", "CollectionAccessAttribute");

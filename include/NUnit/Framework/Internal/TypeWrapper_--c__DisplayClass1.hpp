@@ -41,6 +41,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Void Object::.ctor()
     static TypeWrapper::$$c__DisplayClass1* New_ctor();
   }; // NUnit.Framework.Internal.TypeWrapper/<>c__DisplayClass1
+  check_size<sizeof(TypeWrapper::$$c__DisplayClass1), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __NUnit_Framework_Internal_TypeWrapper_$$c__DisplayClass1SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass1*, "NUnit.Framework.Internal", "TypeWrapper/<>c__DisplayClass1");

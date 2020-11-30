@@ -30,6 +30,7 @@ namespace System::Runtime::Remoting::Channels {
     // Offset: 0x116A048
     static AsyncRequest* New_ctor(System::Runtime::Remoting::Messaging::IMessage* msgRequest, System::Runtime::Remoting::Messaging::IMessageSink* replySink);
   }; // System.Runtime.Remoting.Channels.AsyncRequest
+  check_size<sizeof(AsyncRequest), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Runtime_Remoting_Channels_AsyncRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::AsyncRequest*, "System.Runtime.Remoting.Channels", "AsyncRequest");

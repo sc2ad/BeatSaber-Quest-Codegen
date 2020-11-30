@@ -148,6 +148,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerLevelScenesTransitionSetupDataSO* New_ctor();
   }; // MultiplayerLevelScenesTransitionSetupDataSO
+  check_size<sizeof(MultiplayerLevelScenesTransitionSetupDataSO), 112 + sizeof(void*) + 8 - (112 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerLevelScenesTransitionSetupDataSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, "", "MultiplayerLevelScenesTransitionSetupDataSO");

@@ -70,6 +70,7 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     static Decoder* New_ctor();
   }; // System.Text.Decoder
+  check_size<sizeof(Decoder), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Text_DecoderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Decoder*, "System.Text", "Decoder");

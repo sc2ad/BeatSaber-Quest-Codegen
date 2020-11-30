@@ -215,6 +215,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static IKSolverFullBodyBiped* New_ctor();
   }; // RootMotion.FinalIK.IKSolverFullBodyBiped
+  check_size<sizeof(IKSolverFullBodyBiped), 240 + sizeof(UnityEngine::Vector3) + 8 - (240 + sizeof(UnityEngine::Vector3)) % 8> __RootMotion_FinalIK_IKSolverFullBodyBipedSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverFullBodyBiped*, "RootMotion.FinalIK", "IKSolverFullBodyBiped");

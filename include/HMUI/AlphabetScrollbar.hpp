@@ -158,6 +158,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static AlphabetScrollbar* New_ctor();
   }; // HMUI.AlphabetScrollbar
+  check_size<sizeof(AlphabetScrollbar), 108 + sizeof(bool) + 8 - (108 + sizeof(bool)) % 8> __HMUI_AlphabetScrollbarSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AlphabetScrollbar*, "HMUI", "AlphabetScrollbar");

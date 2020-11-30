@@ -54,199 +54,278 @@ namespace GlobalNamespace {
     // private System.Enum get_e()
     // Offset: 0xFFFFFFFF
     System::Enum* get_e() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Enum*>(*this, "get_e"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("get_e");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<System::Enum*>(), "get_e", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<System::Enum*, false>(*this, ___internal__method);
     }
     // private System.Void set_e(System.Enum value)
     // Offset: 0xFFFFFFFF
     void set_e(System::Enum* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_e", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("set_e");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_e", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // private System.Int32 get_i()
     // Offset: 0xFFFFFFFF
     int get_i() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(*this, "get_i"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("get_i");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<int>(), "get_i", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(*this, ___internal__method);
     }
     // private System.Void set_i(System.Int32 value)
     // Offset: 0xFFFFFFFF
     void set_i(int value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_i", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("set_i");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_i", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // private System.Int64 get_l()
     // Offset: 0xFFFFFFFF
     int64_t get_l() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int64_t>(*this, "get_l"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("get_l");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<int64_t>(), "get_l", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<int64_t, false>(*this, ___internal__method);
     }
     // private System.Void set_l(System.Int64 value)
     // Offset: 0xFFFFFFFF
     void set_l(int64_t value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_l", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("set_l");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_l", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // private System.Single get_f()
     // Offset: 0xFFFFFFFF
     float get_f() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<float>(*this, "get_f"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("get_f");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<float>(), "get_f", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<float, false>(*this, ___internal__method);
     }
     // private System.Void set_f(System.Single value)
     // Offset: 0xFFFFFFFF
     void set_f(float value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_f", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("set_f");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_f", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // private System.Byte get_c()
     // Offset: 0xFFFFFFFF
     uint8_t get_c() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<uint8_t>(*this, "get_c"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("get_c");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<uint8_t>(), "get_c", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<uint8_t, false>(*this, ___internal__method);
     }
     // private System.Void set_c(System.Byte value)
     // Offset: 0xFFFFFFFF
     void set_c(uint8_t value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_c", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("set_c");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_c", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // private System.Boolean get_b()
     // Offset: 0xFFFFFFFF
     bool get_b() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "get_b"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("get_b");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<bool>(), "get_b", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method);
     }
     // private System.Void set_b(System.Boolean value)
     // Offset: 0xFFFFFFFF
     void set_b(bool value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_b", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("set_b");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_b", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // private System.String get_s()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_s() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppString*>(*this, "get_s"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("get_s");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<::Il2CppString*>(), "get_s", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(*this, ___internal__method);
     }
     // private System.Void set_s(System.String value)
     // Offset: 0xFFFFFFFF
     void set_s(::Il2CppString* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_s", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("set_s");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_s", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // private System.Int32[] get_ia()
     // Offset: 0xFFFFFFFF
     ::Array<int>* get_ia() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Array<int>*>(*this, "get_ia"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("get_ia");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<::Array<int>*>(), "get_ia", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<::Array<int>*, false>(*this, ___internal__method);
     }
     // private System.Void set_ia(System.Int32[] value)
     // Offset: 0xFFFFFFFF
     void set_ia(::Array<int>* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_ia", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("set_ia");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_ia", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // private System.Int64[] get_la()
     // Offset: 0xFFFFFFFF
     ::Array<int64_t>* get_la() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Array<int64_t>*>(*this, "get_la"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("get_la");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<::Array<int64_t>*>(), "get_la", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<::Array<int64_t>*, false>(*this, ___internal__method);
     }
     // private System.Void set_la(System.Int64[] value)
     // Offset: 0xFFFFFFFF
     void set_la(::Array<int64_t>* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_la", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("set_la");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_la", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // private System.Single[] get_fa()
     // Offset: 0xFFFFFFFF
     ::Array<float>* get_fa() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Array<float>*>(*this, "get_fa"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("get_fa");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<::Array<float>*>(), "get_fa", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<::Array<float>*, false>(*this, ___internal__method);
     }
     // private System.Void set_fa(System.Single[] value)
     // Offset: 0xFFFFFFFF
     void set_fa(::Array<float>* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_fa", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("set_fa");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_fa", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // private System.Byte[] get_ca()
     // Offset: 0xFFFFFFFF
     ::Array<uint8_t>* get_ca() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Array<uint8_t>*>(*this, "get_ca"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("get_ca");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<::Array<uint8_t>*>(), "get_ca", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<::Array<uint8_t>*, false>(*this, ___internal__method);
     }
     // private System.Void set_ca(System.Byte[] value)
     // Offset: 0xFFFFFFFF
     void set_ca(::Array<uint8_t>* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_ca", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("set_ca");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_ca", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // private System.Boolean[] get_ba()
     // Offset: 0xFFFFFFFF
     ::Array<bool>* get_ba() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Array<bool>*>(*this, "get_ba"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("get_ba");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<::Array<bool>*>(), "get_ba", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<::Array<bool>*, false>(*this, ___internal__method);
     }
     // private System.Void set_ba(System.Boolean[] value)
     // Offset: 0xFFFFFFFF
     void set_ba(::Array<bool>* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_ba", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("set_ba");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_ba", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // private System.String[] get_sa()
     // Offset: 0xFFFFFFFF
     ::Array<::Il2CppString*>* get_sa() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Array<::Il2CppString*>*>(*this, "get_sa"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("get_sa");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<::Array<::Il2CppString*>*>(), "get_sa", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<::Array<::Il2CppString*>*, false>(*this, ___internal__method);
     }
     // private System.Void set_sa(System.String[] value)
     // Offset: 0xFFFFFFFF
     void set_sa(::Array<::Il2CppString*>* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_sa", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("set_sa");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_sa", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // private Vector3Serializable get_v3()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::Vector3Serializable get_v3() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<GlobalNamespace::Vector3Serializable>(*this, "get_v3"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("get_v3");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<GlobalNamespace::Vector3Serializable>(), "get_v3", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::Vector3Serializable, false>(*this, ___internal__method);
     }
     // private System.Void set_v3(Vector3Serializable value)
     // Offset: 0xFFFFFFFF
     void set_v3(GlobalNamespace::Vector3Serializable value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_v3", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("set_v3");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_v3", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // private Vector4Serializable get_v4()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::Vector4Serializable get_v4() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<GlobalNamespace::Vector4Serializable>(*this, "get_v4"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("get_v4");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<GlobalNamespace::Vector4Serializable>(), "get_v4", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::Vector4Serializable, false>(*this, ___internal__method);
     }
     // private System.Void set_v4(Vector4Serializable value)
     // Offset: 0xFFFFFFFF
     void set_v4(GlobalNamespace::Vector4Serializable value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_v4", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("set_v4");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_v4", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // private QuaternionSerializable get_q()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::QuaternionSerializable get_q() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<GlobalNamespace::QuaternionSerializable>(*this, "get_q"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("get_q");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<GlobalNamespace::QuaternionSerializable>(), "get_q", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::QuaternionSerializable, false>(*this, ___internal__method);
     }
     // private System.Void set_q(QuaternionSerializable value)
     // Offset: 0xFFFFFFFF
     void set_q(GlobalNamespace::QuaternionSerializable value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_q", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("set_q");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_q", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // private LiteNetLib.Utils.INetSerializable get_ns()
     // Offset: 0xFFFFFFFF
     LiteNetLib::Utils::INetSerializable* get_ns() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<LiteNetLib::Utils::INetSerializable*>(*this, "get_ns"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("get_ns");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<LiteNetLib::Utils::INetSerializable*>(), "get_ns", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<LiteNetLib::Utils::INetSerializable*, false>(*this, ___internal__method);
     }
     // private System.Void set_ns(LiteNetLib.Utils.INetSerializable value)
     // Offset: 0xFFFFFFFF
     void set_ns(LiteNetLib::Utils::INetSerializable* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_ns", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("set_ns");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_ns", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // private LiteNetLib.Utils.INetImmutableSerializable`1<T> get_ins()
     // Offset: 0xFFFFFFFF
     LiteNetLib::Utils::INetImmutableSerializable_1<T>* get_ins() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<LiteNetLib::Utils::INetImmutableSerializable_1<T>*>(*this, "get_ins"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("get_ins");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<LiteNetLib::Utils::INetImmutableSerializable_1<T>*>(), "get_ins", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<LiteNetLib::Utils::INetImmutableSerializable_1<T>*, false>(*this, ___internal__method);
     }
     // private System.Void set_ins(LiteNetLib.Utils.INetImmutableSerializable`1<T> value)
     // Offset: 0xFFFFFFFF
     void set_ins(LiteNetLib::Utils::INetImmutableSerializable_1<T>* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_ins", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("set_ins");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_ins", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // public System.Void .ctor(T v)
     // Offset: 0xFFFFFFFF
     TypeWrapper_1(T v) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", v));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext(".ctor");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<RemoteProcedureCall::TypeWrapper_1<T>>(), ".ctor", {}, ::il2cpp_utils::ExtractTypes(v)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, v);
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0xFFFFFFFF
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "Serialize", writer));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("Serialize");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "Serialize", {}, ::il2cpp_utils::ExtractTypes(writer)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, writer);
     }
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
     // Offset: 0xFFFFFFFF
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "Deserialize", reader));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("TypeWrapper_1").WithContext("Deserialize");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "Deserialize", {}, ::il2cpp_utils::ExtractTypes(reader)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, reader);
     }
   }; // RemoteProcedureCall/TypeWrapper`1
+  // Could not write size check! Type: RemoteProcedureCall/TypeWrapper`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(GlobalNamespace::RemoteProcedureCall::TypeWrapper_1, "", "RemoteProcedureCall/TypeWrapper`1");
 #pragma pack(pop)

@@ -61,6 +61,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/HandFinger Max
     static void _set_Max(GlobalNamespace::OVRPlugin::HandFinger value);
   }; // OVRPlugin/HandFinger
+  check_size<sizeof(OVRPlugin::HandFinger), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRPlugin_HandFingerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HandFinger, "", "OVRPlugin/HandFinger");

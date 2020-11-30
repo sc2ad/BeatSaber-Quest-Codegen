@@ -55,6 +55,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PresetsSettingsController* New_ctor();
   }; // PresetsSettingsController
+  check_size<sizeof(PresetsSettingsController), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_PresetsSettingsControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PresetsSettingsController*, "", "PresetsSettingsController");

@@ -85,6 +85,7 @@ namespace System::Xml {
     // Offset: 0x14E9C98
     static bool InRange(int value, int start, int end);
   }; // System.Xml.XmlCharType
+  check_size<sizeof(XmlCharType), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __System_Xml_XmlCharTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlCharType, "System.Xml", "XmlCharType");

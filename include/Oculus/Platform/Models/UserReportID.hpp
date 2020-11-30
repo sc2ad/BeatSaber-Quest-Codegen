@@ -28,6 +28,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11E09D8
     static UserReportID* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.UserReportID
+  check_size<sizeof(UserReportID), 24 + sizeof(uint64_t) + 8 - (24 + sizeof(uint64_t)) % 8> __Oculus_Platform_Models_UserReportIDSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::UserReportID*, "Oculus.Platform.Models", "UserReportID");

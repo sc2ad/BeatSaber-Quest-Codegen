@@ -62,6 +62,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x13DCB20
     void WriteActualValueTo(NUnit::Framework::Constraints::MessageWriter* writer);
   }; // NUnit.Framework.Constraints.ConstraintResult
+  check_size<sizeof(ConstraintResult), 32 + sizeof(NUnit::Framework::Constraints::ConstraintStatus) + 8 - (32 + sizeof(NUnit::Framework::Constraints::ConstraintStatus)) % 8> __NUnit_Framework_Constraints_ConstraintResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintResult*, "NUnit.Framework.Constraints", "ConstraintResult");

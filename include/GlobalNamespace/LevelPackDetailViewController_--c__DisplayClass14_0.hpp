@@ -38,6 +38,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LevelPackDetailViewController::$$c__DisplayClass14_0* New_ctor();
   }; // LevelPackDetailViewController/<>c__DisplayClass14_0
+  check_size<sizeof(LevelPackDetailViewController::$$c__DisplayClass14_0), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_LevelPackDetailViewController_$$c__DisplayClass14_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelPackDetailViewController::$$c__DisplayClass14_0*, "", "LevelPackDetailViewController/<>c__DisplayClass14_0");

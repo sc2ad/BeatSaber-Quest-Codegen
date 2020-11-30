@@ -73,6 +73,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EditableModifiersSelectionView* New_ctor();
   }; // EditableModifiersSelectionView
+  check_size<sizeof(EditableModifiersSelectionView), 80 + sizeof(bool) + 8 - (80 + sizeof(bool)) % 8> __GlobalNamespace_EditableModifiersSelectionViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditableModifiersSelectionView*, "", "EditableModifiersSelectionView");

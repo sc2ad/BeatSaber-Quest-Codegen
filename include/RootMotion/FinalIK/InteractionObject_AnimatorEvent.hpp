@@ -66,6 +66,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static InteractionObject::AnimatorEvent* New_ctor();
   }; // RootMotion.FinalIK.InteractionObject/AnimatorEvent
+  check_size<sizeof(InteractionObject::AnimatorEvent), 48 + sizeof(bool) + 8 - (48 + sizeof(bool)) % 8> __RootMotion_FinalIK_InteractionObject_AnimatorEventSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::AnimatorEvent*, "RootMotion.FinalIK", "InteractionObject/AnimatorEvent");

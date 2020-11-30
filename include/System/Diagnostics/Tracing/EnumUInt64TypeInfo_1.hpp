@@ -32,21 +32,27 @@ namespace System::Diagnostics::Tracing {
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Void TraceLoggingTypeInfo::WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::Il2CppString* name, System::Diagnostics::Tracing::EventFieldFormat format) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteMetadata", collector, name, format));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EnumUInt64TypeInfo_1").WithContext("WriteMetadata");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "WriteMetadata", {}, ::il2cpp_utils::ExtractTypes(collector, name, format)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, collector, name, format);
     }
     // public override System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref EnumType value)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
     // Base method: System.Void TraceLoggingTypeInfo_1::WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref EnumType value)
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, EnumType& value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteData", collector, value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EnumUInt64TypeInfo_1").WithContext("WriteData");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "WriteData", {}, ::il2cpp_utils::ExtractTypes(collector, value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, collector, value);
     }
     // public override System.Object GetData(System.Object value)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Object TraceLoggingTypeInfo::GetData(System.Object value)
     ::Il2CppObject* GetData(::Il2CppObject* value) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "GetData", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EnumUInt64TypeInfo_1").WithContext("GetData");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<::Il2CppObject*>(), "GetData", {}, ::il2cpp_utils::ExtractTypes(value)));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method, value);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -54,9 +60,11 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void TraceLoggingTypeInfo_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static EnumUInt64TypeInfo_1<EnumType>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<EnumUInt64TypeInfo_1<EnumType>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("EnumUInt64TypeInfo_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<EnumUInt64TypeInfo_1<EnumType>*>());
     }
   }; // System.Diagnostics.Tracing.EnumUInt64TypeInfo`1
+  // Could not write size check! Type: System.Diagnostics.Tracing.EnumUInt64TypeInfo`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Diagnostics::Tracing::EnumUInt64TypeInfo_1, "System.Diagnostics.Tracing", "EnumUInt64TypeInfo`1");
 #pragma pack(pop)

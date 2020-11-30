@@ -71,6 +71,7 @@ namespace Microsoft::Win32 {
     // Set static field: static public Microsoft.Win32.RegistryValueKind None
     static void _set_None(Microsoft::Win32::RegistryValueKind value);
   }; // Microsoft.Win32.RegistryValueKind
+  check_size<sizeof(RegistryValueKind), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Microsoft_Win32_RegistryValueKindSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::RegistryValueKind, "Microsoft.Win32", "RegistryValueKind");

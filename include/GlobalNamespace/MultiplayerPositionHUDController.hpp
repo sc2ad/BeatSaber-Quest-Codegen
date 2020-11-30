@@ -81,6 +81,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerPositionHUDController* New_ctor();
   }; // MultiplayerPositionHUDController
+  check_size<sizeof(MultiplayerPositionHUDController), 80 + sizeof(int) + 8 - (80 + sizeof(int)) % 8> __GlobalNamespace_MultiplayerPositionHUDControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPositionHUDController*, "", "MultiplayerPositionHUDController");

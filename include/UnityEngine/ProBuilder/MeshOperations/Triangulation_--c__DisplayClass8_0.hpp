@@ -46,6 +46,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Base method: System.Void Object::.ctor()
     static Triangulation::$$c__DisplayClass8_0* New_ctor();
   }; // UnityEngine.ProBuilder.MeshOperations.Triangulation/<>c__DisplayClass8_0
+  check_size<sizeof(Triangulation::$$c__DisplayClass8_0), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_MeshOperations_Triangulation_$$c__DisplayClass8_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass8_0*, "UnityEngine.ProBuilder.MeshOperations", "Triangulation/<>c__DisplayClass8_0");

@@ -64,13 +64,19 @@ namespace UnityEngine::Playables {
     template<class T>
     T GetObject() {
       static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayableBehaviour, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(*this, "GetObject", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Playables").WithContext("PlayableHandle").WithContext("GetObject");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<T>(), "GetObject", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method);
     }
     // System.Boolean IsPlayableOfType()
     // Offset: 0xFFFFFFFF
     template<class T>
     bool IsPlayableOfType() {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(*this, "IsPlayableOfType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Playables").WithContext("PlayableHandle").WithContext("IsPlayableOfType");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<bool>(), "IsPlayableOfType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method);
     }
     // static public UnityEngine.Playables.PlayableHandle get_Null()
     // Offset: 0x1731334
@@ -262,6 +268,7 @@ namespace UnityEngine::Playables {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.Playables.PlayableHandle
+  check_size<sizeof(PlayableHandle), 8 + sizeof(uint) + 8 - (8 + sizeof(uint)) % 8> __UnityEngine_Playables_PlayableHandleSizeCheck;
   // static public System.Boolean op_Equality(UnityEngine.Playables.PlayableHandle x, UnityEngine.Playables.PlayableHandle y)
   // Offset: 0x1731228
   bool operator ==(const UnityEngine::Playables::PlayableHandle& x, const UnityEngine::Playables::PlayableHandle& y);

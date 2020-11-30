@@ -59,6 +59,7 @@ namespace Mono::Security {
     // Base method: System.Void Object::.ctor()
     static PKCS7::ContentInfo* New_ctor();
   }; // Mono.Security.PKCS7/ContentInfo
+  check_size<sizeof(PKCS7::ContentInfo), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Mono_Security_PKCS7_ContentInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::PKCS7::ContentInfo*, "Mono.Security", "PKCS7/ContentInfo");

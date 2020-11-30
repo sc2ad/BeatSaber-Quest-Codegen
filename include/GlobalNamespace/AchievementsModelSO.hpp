@@ -59,6 +59,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AchievementsModelSO* New_ctor();
   }; // AchievementsModelSO
+  check_size<sizeof(AchievementsModelSO), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __GlobalNamespace_AchievementsModelSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementsModelSO*, "", "AchievementsModelSO");

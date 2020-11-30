@@ -88,6 +88,7 @@ namespace Org::BouncyCastle::X509 {
     // Base method: System.Void Object::.ctor()
     static X509CertificateParser* New_ctor();
   }; // Org.BouncyCastle.X509.X509CertificateParser
+  check_size<sizeof(X509CertificateParser), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Org_BouncyCastle_X509_X509CertificateParserSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509CertificateParser*, "Org.BouncyCastle.X509", "X509CertificateParser");

@@ -81,6 +81,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.Submesh
+  check_size<sizeof(Submesh), 28 + sizeof(int) + 8 - (28 + sizeof(int)) % 8> __UnityEngine_ProBuilder_SubmeshSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Submesh*, "UnityEngine.ProBuilder", "Submesh");

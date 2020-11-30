@@ -23,9 +23,11 @@ namespace Zenject {
     // Base method: System.Void PlaceholderFactoryBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static Factory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* New_ctor() {
-      return THROW_UNLESS((il2cpp_utils::New<Factory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*>()));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("Factory_6").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<Factory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*>()));
     }
   }; // Zenject.Factory`6
+  // Could not write size check! Type: Zenject.Factory`6 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::Factory_6, "Zenject", "Factory`6");
 #pragma pack(pop)

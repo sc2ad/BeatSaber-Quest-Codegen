@@ -61,6 +61,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SimpleShadowController* New_ctor();
   }; // SimpleShadowController
+  check_size<sizeof(SimpleShadowController), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_SimpleShadowControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleShadowController*, "", "SimpleShadowController");

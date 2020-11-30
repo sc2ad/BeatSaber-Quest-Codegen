@@ -47,6 +47,7 @@ namespace System::Threading::Tasks {
     // Set static field: static public System.Threading.Tasks.AsyncCausalityStatus Error
     static void _set_Error(System::Threading::Tasks::AsyncCausalityStatus value);
   }; // System.Threading.Tasks.AsyncCausalityStatus
+  check_size<sizeof(AsyncCausalityStatus), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Threading_Tasks_AsyncCausalityStatusSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::AsyncCausalityStatus, "System.Threading.Tasks", "AsyncCausalityStatus");

@@ -31,6 +31,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LocalLeaderboardsModel::ScoreData* New_ctor();
   }; // LocalLeaderboardsModel/ScoreData
+  check_size<sizeof(LocalLeaderboardsModel::ScoreData), 40 + sizeof(int64_t) + 8 - (40 + sizeof(int64_t)) % 8> __GlobalNamespace_LocalLeaderboardsModel_ScoreDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardsModel::ScoreData*, "", "LocalLeaderboardsModel/ScoreData");

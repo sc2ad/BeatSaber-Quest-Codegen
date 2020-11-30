@@ -46,6 +46,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CreateServerFormData
     constexpr CreateServerFormData(bool usePassword_ = {}, ::Il2CppString* password_ = {}, int maxPlayers_ = {}, bool allowInviteOthers_ = {}, bool netDiscoverable_ = {}, GlobalNamespace::BeatmapDifficultyMask difficulties_ = {}, GlobalNamespace::GameplayModifierMask modifiers_ = {}, GlobalNamespace::SongPackMask songPacks_ = {}) noexcept : usePassword{usePassword_}, password{password_}, maxPlayers{maxPlayers_}, allowInviteOthers{allowInviteOthers_}, netDiscoverable{netDiscoverable_}, difficulties{difficulties_}, modifiers{modifiers_}, songPacks{songPacks_} {}
   }; // CreateServerFormData
+  check_size<sizeof(CreateServerFormData), 32 + sizeof(GlobalNamespace::SongPackMask) + 8 - (32 + sizeof(GlobalNamespace::SongPackMask)) % 8> __GlobalNamespace_CreateServerFormDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreateServerFormData, "", "CreateServerFormData");

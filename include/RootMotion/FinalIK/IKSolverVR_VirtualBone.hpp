@@ -78,6 +78,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x17E6B04
     static void SolveCCD(::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>* bones, UnityEngine::Vector3 targetPosition, float weight, int iterations);
   }; // RootMotion.FinalIK.IKSolverVR/VirtualBone
+  check_size<sizeof(IKSolverVR::VirtualBone), 80 + sizeof(UnityEngine::Vector3) + 8 - (80 + sizeof(UnityEngine::Vector3)) % 8> __RootMotion_FinalIK_IKSolverVR_VirtualBoneSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::VirtualBone*, "RootMotion.FinalIK", "IKSolverVR/VirtualBone");

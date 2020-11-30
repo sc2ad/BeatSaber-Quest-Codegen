@@ -89,6 +89,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x138CC48
     static void _cctor();
   }; // UnityEngine.ProBuilder.MeshOperations.MeshImporter
+  check_size<sizeof(MeshImporter), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_MeshOperations_MeshImporterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshImporter*, "UnityEngine.ProBuilder.MeshOperations", "MeshImporter");

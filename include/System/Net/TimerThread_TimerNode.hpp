@@ -56,6 +56,7 @@ namespace System::Net {
       // Set static field: static public System.Net.TimerThread/TimerNode/TimerState Sentinel
       static void _set_Sentinel(System::Net::TimerThread::TimerNode::TimerState value);
     }; // System.Net.TimerThread/TimerNode/TimerState
+    check_size<sizeof(TimerThread::TimerNode::TimerState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Net_TimerThread_TimerNode_TimerStateSizeCheck;
     // private System.Net.TimerThread/TimerNode/TimerState m_TimerState
     // Offset: 0x18
     System::Net::TimerThread::TimerNode::TimerState m_TimerState;
@@ -97,6 +98,7 @@ namespace System::Net {
     // Base method: System.Boolean Timer::Cancel()
     bool Cancel();
   }; // System.Net.TimerThread/TimerNode
+  check_size<sizeof(TimerThread::TimerNode), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __System_Net_TimerThread_TimerNodeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::TimerNode*, "System.Net", "TimerThread/TimerNode");

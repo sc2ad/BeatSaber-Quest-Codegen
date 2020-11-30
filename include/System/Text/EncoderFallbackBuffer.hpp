@@ -78,6 +78,7 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     static EncoderFallbackBuffer* New_ctor();
   }; // System.Text.EncoderFallbackBuffer
+  check_size<sizeof(EncoderFallbackBuffer), 44 + sizeof(int) + 8 - (44 + sizeof(int)) % 8> __System_Text_EncoderFallbackBufferSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderFallbackBuffer*, "System.Text", "EncoderFallbackBuffer");

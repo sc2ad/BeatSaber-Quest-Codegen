@@ -53,6 +53,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVRComponentProperty IsScrolled
     static void _set_IsScrolled(Valve::VR::EVRComponentProperty value);
   }; // Valve.VR.EVRComponentProperty
+  check_size<sizeof(EVRComponentProperty), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Valve_VR_EVRComponentPropertySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRComponentProperty, "Valve.VR", "EVRComponentProperty");

@@ -261,6 +261,7 @@ namespace MasterServer {
     // Base method: System.Void BaseClientMessageHandler::HandshakeLog(System.String message)
     void HandshakeLog(::Il2CppString* message);
   }; // MasterServer.UserMessageHandler
+  check_size<sizeof(UserMessageHandler), 256 + sizeof(void*) + 8 - (256 + sizeof(void*)) % 8> __MasterServer_UserMessageHandlerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler*, "MasterServer", "UserMessageHandler");

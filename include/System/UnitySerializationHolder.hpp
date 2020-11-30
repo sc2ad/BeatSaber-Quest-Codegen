@@ -110,6 +110,7 @@ namespace System {
     // Maps to method: GetRealObject
     ::Il2CppObject* System_Runtime_Serialization_IObjectReference_GetRealObject(System::Runtime::Serialization::StreamingContext context);
   }; // System.UnitySerializationHolder
+  check_size<sizeof(UnitySerializationHolder), 72 + sizeof(int) + 8 - (72 + sizeof(int)) % 8> __System_UnitySerializationHolderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UnitySerializationHolder*, "System", "UnitySerializationHolder");

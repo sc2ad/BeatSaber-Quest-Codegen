@@ -60,6 +60,7 @@ namespace UnityEngine::UI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // UnityEngine.UI.InputField/<CaretBlink>d__159
+  check_size<sizeof(InputField::$CaretBlink$d__159), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __UnityEngine_UI_InputField_$CaretBlink$d__159SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::$CaretBlink$d__159*, "UnityEngine.UI", "InputField/<CaretBlink>d__159");

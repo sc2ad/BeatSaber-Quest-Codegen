@@ -51,6 +51,7 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Creating value type constructor for type: PointLight
     constexpr PointLight(int instanceID_ = {}, bool shadow_ = {}, UnityEngine::Experimental::GlobalIllumination::LightMode mode_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor color_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor_ = {}, float range_ = {}, float sphereRadius_ = {}, UnityEngine::Experimental::GlobalIllumination::FalloffType falloff_ = {}) noexcept : instanceID{instanceID_}, shadow{shadow_}, mode{mode_}, position{position_}, color{color_}, indirectColor{indirectColor_}, range{range_}, sphereRadius{sphereRadius_}, falloff{falloff_} {}
   }; // UnityEngine.Experimental.GlobalIllumination.PointLight
+  check_size<sizeof(PointLight), 60 + sizeof(UnityEngine::Experimental::GlobalIllumination::FalloffType) + 8 - (60 + sizeof(UnityEngine::Experimental::GlobalIllumination::FalloffType)) % 8> __UnityEngine_Experimental_GlobalIllumination_PointLightSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::PointLight, "UnityEngine.Experimental.GlobalIllumination", "PointLight");

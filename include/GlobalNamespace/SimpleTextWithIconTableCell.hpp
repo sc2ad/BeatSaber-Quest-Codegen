@@ -56,6 +56,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SimpleTextWithIconTableCell* New_ctor();
   }; // SimpleTextWithIconTableCell
+  check_size<sizeof(SimpleTextWithIconTableCell), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __GlobalNamespace_SimpleTextWithIconTableCellSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTextWithIconTableCell*, "", "SimpleTextWithIconTableCell");

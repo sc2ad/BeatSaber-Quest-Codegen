@@ -40,6 +40,7 @@ namespace System::Runtime::Serialization {
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
   }; // System.Runtime.Serialization.MemberHolder
+  check_size<sizeof(MemberHolder), 24 + sizeof(System::Runtime::Serialization::StreamingContext) + 8 - (24 + sizeof(System::Runtime::Serialization::StreamingContext)) % 8> __System_Runtime_Serialization_MemberHolderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::MemberHolder*, "System.Runtime.Serialization", "MemberHolder");

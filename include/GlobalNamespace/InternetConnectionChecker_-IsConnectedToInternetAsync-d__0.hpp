@@ -47,6 +47,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // InternetConnectionChecker/<IsConnectedToInternetAsync>d__0
+  check_size<sizeof(InternetConnectionChecker::$IsConnectedToInternetAsync$d__0), 32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>) + 8 - (32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>)) % 8> __GlobalNamespace_InternetConnectionChecker_$IsConnectedToInternetAsync$d__0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InternetConnectionChecker::$IsConnectedToInternetAsync$d__0, "", "InternetConnectionChecker/<IsConnectedToInternetAsync>d__0");

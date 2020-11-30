@@ -48,23 +48,29 @@ namespace LiteNetLib::Utils {
     // public System.Void .ctor(System.Reflection.PropertyInfo property, System.Type propertyType)
     // Offset: 0xFFFFFFFF
     static NetSerializer::EnumByteSerializer_1<T>* New_ctor(System::Reflection::PropertyInfo* property, System::Type* propertyType) {
-      return THROW_UNLESS(il2cpp_utils::New<NetSerializer::EnumByteSerializer_1<T>*>(property, propertyType));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("EnumByteSerializer_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<NetSerializer::EnumByteSerializer_1<T>*>(property, propertyType));
     }
     // public override System.Void Read(T inf, LiteNetLib.Utils.NetDataReader r)
     // Offset: 0xFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/FastCall`1
     // Base method: System.Void FastCall_1::Read(T inf, LiteNetLib.Utils.NetDataReader r)
     void Read(T inf, LiteNetLib::Utils::NetDataReader* r) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Read", inf, r));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("EnumByteSerializer_1").WithContext("Read");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Read", {}, ::il2cpp_utils::ExtractTypes(inf, r)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, inf, r);
     }
     // public override System.Void Write(T inf, LiteNetLib.Utils.NetDataWriter w)
     // Offset: 0xFFFFFFFF
     // Implemented from: LiteNetLib.Utils.NetSerializer/FastCall`1
     // Base method: System.Void FastCall_1::Write(T inf, LiteNetLib.Utils.NetDataWriter w)
     void Write(T inf, LiteNetLib::Utils::NetDataWriter* w) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Write", inf, w));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("EnumByteSerializer_1").WithContext("Write");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Write", {}, ::il2cpp_utils::ExtractTypes(inf, w)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, inf, w);
     }
   }; // LiteNetLib.Utils.NetSerializer/EnumByteSerializer`1
+  // Could not write size check! Type: LiteNetLib.Utils.NetSerializer/EnumByteSerializer`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(LiteNetLib::Utils::NetSerializer::EnumByteSerializer_1, "LiteNetLib.Utils", "NetSerializer/EnumByteSerializer`1");
 #pragma pack(pop)

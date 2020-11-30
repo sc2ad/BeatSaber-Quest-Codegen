@@ -114,6 +114,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ParticleSystemEventEffect* New_ctor();
   }; // ParticleSystemEventEffect
+  check_size<sizeof(ParticleSystemEventEffect), 176 + sizeof(float) + 8 - (176 + sizeof(float)) % 8> __GlobalNamespace_ParticleSystemEventEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParticleSystemEventEffect*, "", "ParticleSystemEventEffect");

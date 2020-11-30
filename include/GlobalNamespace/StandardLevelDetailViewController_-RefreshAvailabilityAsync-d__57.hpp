@@ -57,6 +57,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // StandardLevelDetailViewController/<RefreshAvailabilityAsync>d__57
+  check_size<sizeof(StandardLevelDetailViewController::$RefreshAvailabilityAsync$d__57), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>) + 8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>)) % 8> __GlobalNamespace_StandardLevelDetailViewController_$RefreshAvailabilityAsync$d__57SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController::$RefreshAvailabilityAsync$d__57, "", "StandardLevelDetailViewController/<RefreshAvailabilityAsync>d__57");

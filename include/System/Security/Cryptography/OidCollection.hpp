@@ -73,6 +73,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
   }; // System.Security.Cryptography.OidCollection
+  check_size<sizeof(OidCollection), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Security_Cryptography_OidCollectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::OidCollection*, "System.Security.Cryptography", "OidCollection");

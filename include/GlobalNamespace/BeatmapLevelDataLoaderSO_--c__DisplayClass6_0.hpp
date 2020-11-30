@@ -51,6 +51,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0* New_ctor();
   }; // BeatmapLevelDataLoaderSO/<>c__DisplayClass6_0
+  check_size<sizeof(BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapLevelDataLoaderSO_$$c__DisplayClass6_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0*, "", "BeatmapLevelDataLoaderSO/<>c__DisplayClass6_0");

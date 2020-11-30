@@ -47,6 +47,7 @@ namespace GlobalNamespace {
     // Offset: 0xF44448
     static StandardLevelInfoSaveData::DifficultyBeatmap* New_ctor(::Il2CppString* difficultyName, int difficultyRank, ::Il2CppString* beatmapFilename, float noteJumpMovementSpeed, float noteJumpStartBeatOffset);
   }; // StandardLevelInfoSaveData/DifficultyBeatmap
+  check_size<sizeof(StandardLevelInfoSaveData::DifficultyBeatmap), 44 + sizeof(float) + 8 - (44 + sizeof(float)) % 8> __GlobalNamespace_StandardLevelInfoSaveData_DifficultyBeatmapSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap*, "", "StandardLevelInfoSaveData/DifficultyBeatmap");

@@ -39,6 +39,7 @@ namespace System {
     // Offset: 0xCA6ADC
     ::Il2CppObject* get_Object();
   }; // System.ParameterizedStrings/FormatParam
+  check_size<sizeof(ParameterizedStrings::FormatParam), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __System_ParameterizedStrings_FormatParamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings::FormatParam, "System", "ParameterizedStrings/FormatParam");

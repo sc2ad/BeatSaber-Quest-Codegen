@@ -41,6 +41,7 @@ namespace System::Runtime::ConstrainedExecution {
     // Set static field: static public System.Runtime.ConstrainedExecution.Cer Success
     static void _set_Success(System::Runtime::ConstrainedExecution::Cer value);
   }; // System.Runtime.ConstrainedExecution.Cer
+  check_size<sizeof(Cer), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Runtime_ConstrainedExecution_CerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ConstrainedExecution::Cer, "System.Runtime.ConstrainedExecution", "Cer");

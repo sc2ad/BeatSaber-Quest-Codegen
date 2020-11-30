@@ -23,6 +23,7 @@ namespace UnityEngine {
     // Offset: 0x16C94E4
     static UnityAPICompatibilityVersionAttribute* New_ctor(::Il2CppString* version, ::Array<::Il2CppString*>* configurationAssembliesHashes);
   }; // UnityEngine.UnityAPICompatibilityVersionAttribute
+  check_size<sizeof(UnityAPICompatibilityVersionAttribute), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_UnityAPICompatibilityVersionAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityAPICompatibilityVersionAttribute*, "UnityEngine", "UnityAPICompatibilityVersionAttribute");

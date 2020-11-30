@@ -24,14 +24,19 @@ namespace GlobalNamespace {
     // public System.Void add_gameNoteControllerDidInitEvent(System.Action`1<T> value)
     // Offset: 0xFFFFFFFF
     void add_gameNoteControllerDidInitEvent(System::Action_1<T>* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "add_gameNoteControllerDidInitEvent", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("IGameNoteControllerInitializable_1").WithContext("add_gameNoteControllerDidInitEvent");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "add_gameNoteControllerDidInitEvent", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void remove_gameNoteControllerDidInitEvent(System.Action`1<T> value)
     // Offset: 0xFFFFFFFF
     void remove_gameNoteControllerDidInitEvent(System::Action_1<T>* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "remove_gameNoteControllerDidInitEvent", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("IGameNoteControllerInitializable_1").WithContext("remove_gameNoteControllerDidInitEvent");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "remove_gameNoteControllerDidInitEvent", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
   }; // IGameNoteControllerInitializable`1
+  // Could not write size check! Type: IGameNoteControllerInitializable`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::IGameNoteControllerInitializable_1, "", "IGameNoteControllerInitializable`1");
 #pragma pack(pop)

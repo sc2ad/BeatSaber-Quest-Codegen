@@ -27,6 +27,7 @@ namespace TMPro {
     // Offset: 0xC92610
     // ABORTED: conflicts with another method.  CaretInfo(int index, TMPro::CaretPosition position);
   }; // TMPro.CaretInfo
+  check_size<sizeof(CaretInfo), 4 + sizeof(TMPro::CaretPosition) + 8 - (4 + sizeof(TMPro::CaretPosition)) % 8> __TMPro_CaretInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::CaretInfo, "TMPro", "CaretInfo");

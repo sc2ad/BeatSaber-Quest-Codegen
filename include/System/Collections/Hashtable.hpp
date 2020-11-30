@@ -352,6 +352,7 @@ namespace System::Collections {
     // Maps to method: OnDeserialization
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
   }; // System.Collections.Hashtable
+  check_size<sizeof(Hashtable), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __System_Collections_HashtableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable*, "System.Collections", "Hashtable");

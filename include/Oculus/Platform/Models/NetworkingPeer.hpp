@@ -35,6 +35,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11E18DC
     void set_State(Oculus::Platform::PeerConnectionState value);
   }; // Oculus.Platform.Models.NetworkingPeer
+  check_size<sizeof(NetworkingPeer), 24 + sizeof(Oculus::Platform::PeerConnectionState) + 8 - (24 + sizeof(Oculus::Platform::PeerConnectionState)) % 8> __Oculus_Platform_Models_NetworkingPeerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetworkingPeer*, "Oculus.Platform.Models", "NetworkingPeer");

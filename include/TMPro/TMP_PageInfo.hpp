@@ -30,6 +30,7 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_PageInfo
     constexpr TMP_PageInfo(int firstCharacterIndex_ = {}, int lastCharacterIndex_ = {}, float ascender_ = {}, float baseLine_ = {}, float descender_ = {}) noexcept : firstCharacterIndex{firstCharacterIndex_}, lastCharacterIndex{lastCharacterIndex_}, ascender{ascender_}, baseLine{baseLine_}, descender{descender_} {}
   }; // TMPro.TMP_PageInfo
+  check_size<sizeof(TMP_PageInfo), 16 + sizeof(float) + 8 - (16 + sizeof(float)) % 8> __TMPro_TMP_PageInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_PageInfo, "TMPro", "TMP_PageInfo");

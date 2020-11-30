@@ -30,6 +30,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE8D0
     void set_Directive(::Il2CppString* value);
   }; // JetBrains.Annotations.RazorDirectiveAttribute
+  check_size<sizeof(RazorDirectiveAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __JetBrains_Annotations_RazorDirectiveAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorDirectiveAttribute*, "JetBrains.Annotations", "RazorDirectiveAttribute");

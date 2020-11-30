@@ -18,9 +18,12 @@ namespace System::Linq {
     // public TKey get_Key()
     // Offset: 0xFFFFFFFF
     TKey get_Key() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<TKey>(this, "get_Key"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("IGrouping_2").WithContext("get_Key");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<TKey>(), "get_Key", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<TKey, false>(this, ___internal__method);
     }
   }; // System.Linq.IGrouping`2
+  // Could not write size check! Type: System.Linq.IGrouping`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::IGrouping_2, "System.Linq", "IGrouping`2");
 #pragma pack(pop)

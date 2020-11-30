@@ -47,6 +47,7 @@ namespace System::Xml {
     // Set static field: static public System.Xml.AttributeProperties NAME
     static void _set_NAME(System::Xml::AttributeProperties value);
   }; // System.Xml.AttributeProperties
+  check_size<sizeof(AttributeProperties), 0 + sizeof(uint) + 8 - (0 + sizeof(uint)) % 8> __System_Xml_AttributePropertiesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::AttributeProperties, "System.Xml", "AttributeProperties");

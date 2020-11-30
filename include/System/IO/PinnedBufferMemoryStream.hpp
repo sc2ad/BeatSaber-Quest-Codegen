@@ -35,6 +35,7 @@ namespace System::IO {
     // Base method: System.Void UnmanagedMemoryStream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // System.IO.PinnedBufferMemoryStream
+  check_size<sizeof(PinnedBufferMemoryStream), 112 + sizeof(System::Runtime::InteropServices::GCHandle) + 8 - (112 + sizeof(System::Runtime::InteropServices::GCHandle)) % 8> __System_IO_PinnedBufferMemoryStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::PinnedBufferMemoryStream*, "System.IO", "PinnedBufferMemoryStream");

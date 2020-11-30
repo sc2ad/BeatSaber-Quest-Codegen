@@ -38,6 +38,7 @@ namespace UnityEngine::Networking {
     // Base method: System.Void Object::.ctor()
     static UnityWebRequestAsyncOperation* New_ctor();
   }; // UnityEngine.Networking.UnityWebRequestAsyncOperation
+  check_size<sizeof(UnityWebRequestAsyncOperation), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __UnityEngine_Networking_UnityWebRequestAsyncOperationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestAsyncOperation*, "UnityEngine.Networking", "UnityWebRequestAsyncOperation");

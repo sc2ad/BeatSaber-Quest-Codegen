@@ -38,6 +38,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Base method: System.Void Object::.ctor()
     static DeleteElements::$$c__DisplayClass2_0* New_ctor();
   }; // UnityEngine.ProBuilder.MeshOperations.DeleteElements/<>c__DisplayClass2_0
+  check_size<sizeof(DeleteElements::$$c__DisplayClass2_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_MeshOperations_DeleteElements_$$c__DisplayClass2_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass2_0*, "UnityEngine.ProBuilder.MeshOperations", "DeleteElements/<>c__DisplayClass2_0");

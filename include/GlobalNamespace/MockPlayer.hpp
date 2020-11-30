@@ -534,6 +534,7 @@ namespace GlobalNamespace {
     // Base method: System.Void INetworkPlayer::Join()
     void Join();
   }; // MockPlayer
+  check_size<sizeof(MockPlayer), 256 + sizeof(void*) + 8 - (256 + sizeof(void*)) % 8> __GlobalNamespace_MockPlayerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayer*, "", "MockPlayer");

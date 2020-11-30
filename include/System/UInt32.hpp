@@ -220,6 +220,7 @@ namespace System {
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
     ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
   }; // System.UInt32
+  check_size<sizeof(UInt32), 0 + sizeof(System::UInt32) + 8 - (0 + sizeof(System::UInt32)) % 8> __System_UInt32SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UInt32, "System", "UInt32");

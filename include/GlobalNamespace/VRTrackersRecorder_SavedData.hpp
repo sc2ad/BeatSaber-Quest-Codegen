@@ -33,6 +33,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static VRTrackersRecorder::SavedData* New_ctor();
   }; // VRTrackersRecorder/SavedData
+  check_size<sizeof(VRTrackersRecorder::SavedData), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_VRTrackersRecorder_SavedDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::SavedData*, "", "VRTrackersRecorder/SavedData");

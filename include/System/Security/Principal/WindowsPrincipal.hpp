@@ -31,6 +31,7 @@ namespace System::Security::Principal {
     // Offset: 0x1282A50
     static WindowsPrincipal* New_ctor(System::Security::Principal::WindowsIdentity* ntIdentity);
   }; // System.Security.Principal.WindowsPrincipal
+  check_size<sizeof(WindowsPrincipal), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Security_Principal_WindowsPrincipalSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::WindowsPrincipal*, "System.Security.Principal", "WindowsPrincipal");

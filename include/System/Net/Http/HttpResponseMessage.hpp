@@ -112,6 +112,7 @@ namespace System::Net::Http {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.Http.HttpResponseMessage
+  check_size<sizeof(HttpResponseMessage), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __System_Net_Http_HttpResponseMessageSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpResponseMessage*, "System.Net.Http", "HttpResponseMessage");

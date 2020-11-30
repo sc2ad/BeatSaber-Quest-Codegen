@@ -30,6 +30,7 @@ namespace Microsoft::Win32 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Microsoft.Win32.ExpandString
+  check_size<sizeof(ExpandString), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Microsoft_Win32_ExpandStringSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::ExpandString*, "Microsoft.Win32", "ExpandString");

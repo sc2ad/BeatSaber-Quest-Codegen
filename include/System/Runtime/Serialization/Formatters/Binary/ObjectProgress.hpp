@@ -110,6 +110,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     static ObjectProgress* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectProgress
+  check_size<sizeof(ObjectProgress), 128 + sizeof(void*) + 8 - (128 + sizeof(void*)) % 8> __System_Runtime_Serialization_Formatters_Binary_ObjectProgressSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectProgress*, "System.Runtime.Serialization.Formatters.Binary", "ObjectProgress");

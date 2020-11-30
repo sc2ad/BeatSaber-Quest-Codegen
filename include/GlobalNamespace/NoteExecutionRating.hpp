@@ -52,6 +52,7 @@ namespace GlobalNamespace {
       // Set static field: static public NoteExecutionRating/Rating BadCut
       static void _set_BadCut(GlobalNamespace::NoteExecutionRating::Rating value);
     }; // NoteExecutionRating/Rating
+    check_size<sizeof(NoteExecutionRating::Rating), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_NoteExecutionRating_RatingSizeCheck;
     // private NoteExecutionRating/Rating <rating>k__BackingField
     // Offset: 0x18
     GlobalNamespace::NoteExecutionRating::Rating rating;
@@ -92,6 +93,7 @@ namespace GlobalNamespace {
     // Offset: 0xFE66AC
     static NoteExecutionRating* New_ctor(float time, GlobalNamespace::NoteExecutionRating::Rating rating, int cutScore, float cutTimeDeviation, float cutDirDeviation);
   }; // NoteExecutionRating
+  check_size<sizeof(NoteExecutionRating), 36 + sizeof(float) + 8 - (36 + sizeof(float)) % 8> __GlobalNamespace_NoteExecutionRatingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteExecutionRating*, "", "NoteExecutionRating");

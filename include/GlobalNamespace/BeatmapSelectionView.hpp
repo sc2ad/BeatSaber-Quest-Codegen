@@ -52,6 +52,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BeatmapSelectionView* New_ctor();
   }; // BeatmapSelectionView
+  check_size<sizeof(BeatmapSelectionView), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapSelectionViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSelectionView*, "", "BeatmapSelectionView");

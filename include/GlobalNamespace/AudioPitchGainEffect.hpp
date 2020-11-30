@@ -87,6 +87,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AudioPitchGainEffect* New_ctor();
   }; // AudioPitchGainEffect
+  check_size<sizeof(AudioPitchGainEffect), 68 + sizeof(float) + 8 - (68 + sizeof(float)) % 8> __GlobalNamespace_AudioPitchGainEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioPitchGainEffect*, "", "AudioPitchGainEffect");

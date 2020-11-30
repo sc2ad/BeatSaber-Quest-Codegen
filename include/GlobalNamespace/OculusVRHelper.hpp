@@ -197,6 +197,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OculusVRHelper* New_ctor();
   }; // OculusVRHelper
+  check_size<sizeof(OculusVRHelper), 75 + sizeof(bool) + 8 - (75 + sizeof(bool)) % 8> __GlobalNamespace_OculusVRHelperSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusVRHelper*, "", "OculusVRHelper");

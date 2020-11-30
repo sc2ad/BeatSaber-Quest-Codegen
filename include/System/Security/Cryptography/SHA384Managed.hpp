@@ -91,6 +91,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
     ::Array<uint8_t>* HashFinal();
   }; // System.Security.Cryptography.SHA384Managed
+  check_size<sizeof(SHA384Managed), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __System_Security_Cryptography_SHA384ManagedSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA384Managed*, "System.Security.Cryptography", "SHA384Managed");

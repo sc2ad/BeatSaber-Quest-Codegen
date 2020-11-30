@@ -37,6 +37,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ColorSchemeSO* New_ctor();
   }; // ColorSchemeSO
+  check_size<sizeof(ColorSchemeSO), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_ColorSchemeSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeSO*, "", "ColorSchemeSO");

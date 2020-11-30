@@ -69,6 +69,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Base method: System.Void Object::.ctor()
     static ECNRSigner* New_ctor();
   }; // Org.BouncyCastle.Crypto.Signers.ECNRSigner
+  check_size<sizeof(ECNRSigner), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Signers_ECNRSignerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::ECNRSigner*, "Org.BouncyCastle.Crypto.Signers", "ECNRSigner");

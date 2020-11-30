@@ -31,6 +31,7 @@ namespace GlobalNamespace {
     // Offset: 0x1017B94
     static MissionObjectiveCheckersManager::InitData* New_ctor(::Array<GlobalNamespace::MissionObjective*>* missionObjectives);
   }; // MissionObjectiveCheckersManager/InitData
+  check_size<sizeof(MissionObjectiveCheckersManager::InitData), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_MissionObjectiveCheckersManager_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveCheckersManager::InitData*, "", "MissionObjectiveCheckersManager/InitData");

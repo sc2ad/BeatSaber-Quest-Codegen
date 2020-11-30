@@ -197,6 +197,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MenuTransitionsHelper* New_ctor();
   }; // MenuTransitionsHelper
+  check_size<sizeof(MenuTransitionsHelper), 120 + sizeof(void*) + 8 - (120 + sizeof(void*)) % 8> __GlobalNamespace_MenuTransitionsHelperSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuTransitionsHelper*, "", "MenuTransitionsHelper");

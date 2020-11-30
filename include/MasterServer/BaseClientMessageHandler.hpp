@@ -131,7 +131,10 @@ namespace MasterServer {
     template<class T>
     System::Threading::Tasks::Task_1<T>* SendAuthenticatedRequestAsync(MasterServer::IMasterServerReliableRequest* message, System::Threading::CancellationToken cancellationToken) {
       static_assert(std::is_base_of_v<MasterServer::IMasterServerReliableResponse, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<T>*>(this, "SendAuthenticatedRequestAsync", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, message, cancellationToken)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("BaseClientMessageHandler").WithContext("SendAuthenticatedRequestAsync");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Threading::Tasks::Task_1<T>*>(), "SendAuthenticatedRequestAsync", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(message, cancellationToken))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<T>*, false>(this, ___internal__method, message, cancellationToken);
     }
     // protected System.Threading.Tasks.Task SendAuthenticatedRequestAsync(MasterServer.IMasterServerReliableRequest message, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1B53128
@@ -144,7 +147,10 @@ namespace MasterServer {
     template<class T>
     System::Threading::Tasks::Task_1<T>* OnSendFailedAwaitResponse(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* message, System::Threading::CancellationToken cancellationToken) {
       static_assert(std::is_base_of_v<MasterServer::IMasterServerReliableResponse, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<T>*>(this, "OnSendFailedAwaitResponse", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, protocolVersion, remoteEndPoint, message, cancellationToken)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("BaseClientMessageHandler").WithContext("OnSendFailedAwaitResponse");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Threading::Tasks::Task_1<T>*>(), "OnSendFailedAwaitResponse", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(protocolVersion, remoteEndPoint, message, cancellationToken))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<T>*, false>(this, ___internal__method, protocolVersion, remoteEndPoint, message, cancellationToken);
     }
     // private System.Threading.Tasks.Task ReauthenticateWithMasterServer()
     // Offset: 0x1B533E4
@@ -195,6 +201,7 @@ namespace MasterServer {
     // Base method: System.Boolean MessageHandler::ShouldHandleMessageFromEndPoint(System.Net.IPEndPoint endPoint)
     bool ShouldHandleMessageFromEndPoint(System::Net::IPEndPoint* endPoint);
   }; // MasterServer.BaseClientMessageHandler
+  check_size<sizeof(BaseClientMessageHandler), 152 + sizeof(bool) + 8 - (152 + sizeof(bool)) % 8> __MasterServer_BaseClientMessageHandlerSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler*, "MasterServer", "BaseClientMessageHandler");
 #pragma pack(pop)

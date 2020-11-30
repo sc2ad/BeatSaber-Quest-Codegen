@@ -23,6 +23,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static MonoListItem* New_ctor();
   }; // System.MonoListItem
+  check_size<sizeof(MonoListItem), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_MonoListItemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::MonoListItem*, "System", "MonoListItem");

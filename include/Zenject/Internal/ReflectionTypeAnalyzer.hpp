@@ -80,7 +80,10 @@ namespace Zenject::Internal {
     template<class T>
     static void AddCustomInjectAttribute() {
       static_assert(std::is_convertible_v<T, System::Attribute*>);
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("Zenject.Internal", "ReflectionTypeAnalyzer", "AddCustomInjectAttribute", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject::Internal").WithContext("ReflectionTypeAnalyzer").WithContext("AddCustomInjectAttribute");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject.Internal", "ReflectionTypeAnalyzer", il2cpp_utils::NoArgClass<void>(), "AddCustomInjectAttribute", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
     }
     // static public System.Void AddCustomInjectAttribute(System.Type type)
     // Offset: 0x12A37D8

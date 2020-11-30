@@ -132,7 +132,10 @@ namespace GlobalNamespace {
     template<class T>
     bool Init(GlobalNamespace::IConnectionInitParams_1<T>* initParams) {
       static_assert(std::is_base_of_v<GlobalNamespace::IConnectionManager, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(this, "Init", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, initParams)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("IConnectionManager").WithContext("Init");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "Init", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(initParams))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, initParams);
     }
     // public System.Void Disconnect(DisconnectedReason disconnectedReason)
     // Offset: 0xFFFFFFFF

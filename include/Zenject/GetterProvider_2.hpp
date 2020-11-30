@@ -65,42 +65,54 @@ namespace Zenject {
     // public System.Void .ctor(System.Object identifier, System.Func`2<TObj,TResult> method, Zenject.DiContainer container, Zenject.InjectSources sourceType, System.Boolean matchAll)
     // Offset: 0xFFFFFFFF
     static GetterProvider_2<TObj, TResult>* New_ctor(::Il2CppObject* identifier, System::Func_2<TObj, TResult>* method, Zenject::DiContainer* container, Zenject::InjectSources sourceType, bool matchAll) {
-      return THROW_UNLESS((il2cpp_utils::New<GetterProvider_2<TObj, TResult>*>(identifier, method, container, sourceType, matchAll)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("GetterProvider_2").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<GetterProvider_2<TObj, TResult>*>(identifier, method, container, sourceType, matchAll)));
     }
     // private Zenject.InjectContext GetSubContext(Zenject.InjectContext parent)
     // Offset: 0xFFFFFFFF
     Zenject::InjectContext* GetSubContext(Zenject::InjectContext* parent) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::InjectContext*>(this, "GetSubContext", parent));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("GetterProvider_2").WithContext("GetSubContext");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::InjectContext*>(), "GetSubContext", {}, ::il2cpp_utils::ExtractTypes(parent)));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::InjectContext*, false>(this, ___internal__method, parent);
     }
     // public System.Boolean get_IsCached()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IProvider
     // Base method: System.Boolean IProvider::get_IsCached()
     bool get_IsCached() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "get_IsCached"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("GetterProvider_2").WithContext("get_IsCached");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "get_IsCached", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
     // public System.Boolean get_TypeVariesBasedOnMemberType()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IProvider
     // Base method: System.Boolean IProvider::get_TypeVariesBasedOnMemberType()
     bool get_TypeVariesBasedOnMemberType() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "get_TypeVariesBasedOnMemberType"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("GetterProvider_2").WithContext("get_TypeVariesBasedOnMemberType");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "get_TypeVariesBasedOnMemberType", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IProvider
     // Base method: System.Type IProvider::GetInstanceType(Zenject.InjectContext context)
     System::Type* GetInstanceType(Zenject::InjectContext* context) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Type*>(this, "GetInstanceType", context));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("GetterProvider_2").WithContext("GetInstanceType");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Type*>(), "GetInstanceType", {}, ::il2cpp_utils::ExtractTypes(context)));
+      return ::il2cpp_utils::RunMethodThrow<System::Type*, false>(this, ___internal__method, context);
     }
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IProvider
     // Base method: System.Void IProvider::GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "GetAllInstancesWithInjectSplit", context, args, injectAction, buffer));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("GetterProvider_2").WithContext("GetAllInstancesWithInjectSplit");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "GetAllInstancesWithInjectSplit", {}, ::il2cpp_utils::ExtractTypes(context, args, injectAction, buffer)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, context, args, injectAction, buffer);
     }
   }; // Zenject.GetterProvider`2
+  // Could not write size check! Type: Zenject.GetterProvider`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::GetterProvider_2, "Zenject", "GetterProvider`2");
 #pragma pack(pop)

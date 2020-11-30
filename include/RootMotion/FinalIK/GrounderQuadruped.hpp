@@ -185,6 +185,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static GrounderQuadruped* New_ctor();
   }; // RootMotion.FinalIK.GrounderQuadruped
+  check_size<sizeof(GrounderQuadruped), 312 + sizeof(void*) + 8 - (312 + sizeof(void*)) % 8> __RootMotion_FinalIK_GrounderQuadrupedSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderQuadruped*, "RootMotion.FinalIK", "GrounderQuadruped");

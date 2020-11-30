@@ -26,6 +26,7 @@ namespace System::Net {
     // Base method: System.Void Queue::.ctor(System.Int32 durationMilliseconds)
     static TimerThread::TimerQueue* New_ctor(int durationMilliseconds);
   }; // System.Net.TimerThread/TimerQueue
+  check_size<sizeof(TimerThread::TimerQueue), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Net_TimerThread_TimerQueueSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::TimerQueue*, "System.Net", "TimerThread/TimerQueue");

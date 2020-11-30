@@ -134,14 +134,20 @@ namespace System::Diagnostics::Tracing {
     template<class AttributeType>
     static AttributeType GetCustomAttribute(System::Reflection::PropertyInfo* propInfo) {
       static_assert(std::is_convertible_v<AttributeType, System::Attribute*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<AttributeType>("System.Diagnostics.Tracing", "Statics", "GetCustomAttribute", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AttributeType>::get()}, propInfo)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("Statics").WithContext("GetCustomAttribute");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Diagnostics.Tracing", "Statics", il2cpp_utils::NoArgClass<AttributeType>(), "GetCustomAttribute", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AttributeType>::get()}, ::il2cpp_utils::ExtractTypes(propInfo))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AttributeType>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<AttributeType, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, propInfo);
     }
     // static public AttributeType GetCustomAttribute(System.Type type)
     // Offset: 0xFFFFFFFF
     template<class AttributeType>
     static AttributeType GetCustomAttribute(System::Type* type) {
       static_assert(std::is_convertible_v<AttributeType, System::Attribute*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<AttributeType>("System.Diagnostics.Tracing", "Statics", "GetCustomAttribute", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AttributeType>::get()}, type)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("Statics").WithContext("GetCustomAttribute");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Diagnostics.Tracing", "Statics", il2cpp_utils::NoArgClass<AttributeType>(), "GetCustomAttribute", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AttributeType>::get()}, ::il2cpp_utils::ExtractTypes(type))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AttributeType>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<AttributeType, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, type);
     }
     // static public System.Type[] GetGenericArguments(System.Type type)
     // Offset: 0x111FC34
@@ -162,7 +168,10 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xFFFFFFFF
     template<class DataType>
     static System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<DataType>* CreateDefaultTypeInfo(System::Collections::Generic::List_1<System::Type*>* recursionCheck) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<DataType>*>("System.Diagnostics.Tracing", "Statics", "CreateDefaultTypeInfo", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DataType>::get()}, recursionCheck)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("Statics").WithContext("CreateDefaultTypeInfo");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Diagnostics.Tracing", "Statics", il2cpp_utils::NoArgClass<System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<DataType>*>(), "CreateDefaultTypeInfo", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DataType>::get()}, ::il2cpp_utils::ExtractTypes(recursionCheck))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DataType>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<DataType>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, recursionCheck);
     }
     // static private System.Void .cctor()
     // Offset: 0x11202A8

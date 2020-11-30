@@ -29,6 +29,7 @@ namespace UnityEngine::XR::WSA {
     // Offset: 0x1A085B4
     static void Internal_TriggerEventOnTrackingLost(UnityEngine::XR::WSA::WorldAnchor* worldAnchor, bool located);
   }; // UnityEngine.XR.WSA.WorldAnchor
+  check_size<sizeof(WorldAnchor), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_XR_WSA_WorldAnchorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::WSA::WorldAnchor*, "UnityEngine.XR.WSA", "WorldAnchor");

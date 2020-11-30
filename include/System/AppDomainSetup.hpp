@@ -86,6 +86,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static AppDomainSetup* New_ctor();
   }; // System.AppDomainSetup
+  check_size<sizeof(AppDomainSetup), 168 + sizeof(void*) + 8 - (168 + sizeof(void*)) % 8> __System_AppDomainSetupSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::AppDomainSetup*, "System", "AppDomainSetup");

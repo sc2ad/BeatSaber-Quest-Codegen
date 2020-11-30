@@ -31,6 +31,7 @@ namespace UnityEngine::Timeline {
     // Set static field: static public UnityEngine.Timeline.TimelineAsset/Versions Initial
     static void _set_Initial(UnityEngine::Timeline::TimelineAsset::Versions value);
   }; // UnityEngine.Timeline.TimelineAsset/Versions
+  check_size<sizeof(TimelineAsset::Versions), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Timeline_TimelineAsset_VersionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::Versions, "UnityEngine.Timeline", "TimelineAsset/Versions");

@@ -70,6 +70,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static VRsenalLogger* New_ctor();
   }; // VRsenalLogger
+  check_size<sizeof(VRsenalLogger), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_VRsenalLoggerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRsenalLogger*, "", "VRsenalLogger");

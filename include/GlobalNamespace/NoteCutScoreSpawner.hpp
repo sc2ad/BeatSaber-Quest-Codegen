@@ -58,6 +58,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NoteCutScoreSpawner* New_ctor();
   }; // NoteCutScoreSpawner
+  check_size<sizeof(NoteCutScoreSpawner), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_NoteCutScoreSpawnerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutScoreSpawner*, "", "NoteCutScoreSpawner");

@@ -78,6 +78,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     static AsnEncodedData* New_ctor();
   }; // System.Security.Cryptography.AsnEncodedData
+  check_size<sizeof(AsnEncodedData), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Security_Cryptography_AsnEncodedDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsnEncodedData*, "System.Security.Cryptography", "AsnEncodedData");

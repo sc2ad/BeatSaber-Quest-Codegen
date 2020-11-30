@@ -92,6 +92,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static FullBodyBipedIK* New_ctor();
   }; // RootMotion.FinalIK.FullBodyBipedIK
+  check_size<sizeof(FullBodyBipedIK), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __RootMotion_FinalIK_FullBodyBipedIKSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FullBodyBipedIK*, "RootMotion.FinalIK", "FullBodyBipedIK");

@@ -29,35 +29,44 @@ namespace ModestTree::Util {
     // public System.Void .ctor(T1 first, T2 second, T3 third, T4 fourth)
     // Offset: 0xFFFFFFFF
     static ValuePair_4<T1, T2, T3, T4>* New_ctor(T1 first, T2 second, T3 third, T4 fourth) {
-      return THROW_UNLESS((il2cpp_utils::New<ValuePair_4<T1, T2, T3, T4>*>(first, second, third, fourth)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree::Util").WithContext("ValuePair_4").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<ValuePair_4<T1, T2, T3, T4>*>(first, second, third, fourth)));
     }
     // public System.Boolean Equals(ModestTree.Util.ValuePair`4<T1,T2,T3,T4> that)
     // Offset: 0xFFFFFFFF
     bool Equals(ModestTree::Util::ValuePair_4<T1, T2, T3, T4>* that) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Equals", that));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree::Util").WithContext("ValuePair_4").WithContext("Equals");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "Equals", {}, ::il2cpp_utils::ExtractTypes(that)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, that);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ValuePair_4<T1, T2, T3, T4>* New_ctor() {
-      return THROW_UNLESS((il2cpp_utils::New<ValuePair_4<T1, T2, T3, T4>*>()));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree::Util").WithContext("ValuePair_4").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<ValuePair_4<T1, T2, T3, T4>*>()));
     }
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Equals", obj));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree::Util").WithContext("ValuePair_4").WithContext("Equals");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "Equals", {}, ::il2cpp_utils::ExtractTypes(obj)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, obj);
     }
     // public override System.Int32 GetHashCode()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "GetHashCode"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree::Util").WithContext("ValuePair_4").WithContext("GetHashCode");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "GetHashCode", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
   }; // ModestTree.Util.ValuePair`4
+  // Could not write size check! Type: ModestTree.Util.ValuePair`4 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(ModestTree::Util::ValuePair_4, "ModestTree.Util", "ValuePair`4");
 #pragma pack(pop)

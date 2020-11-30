@@ -97,6 +97,7 @@ namespace System::Net::Sockets {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.Net.Sockets.TcpClient
+  check_size<sizeof(TcpClient), 44 + sizeof(bool) + 8 - (44 + sizeof(bool)) % 8> __System_Net_Sockets_TcpClientSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::TcpClient*, "System.Net.Sockets", "TcpClient");

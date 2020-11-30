@@ -26,6 +26,7 @@ namespace System::Runtime::Versioning {
     // Offset: 0x14468F8
     void set_FrameworkDisplayName(::Il2CppString* value);
   }; // System.Runtime.Versioning.TargetFrameworkAttribute
+  check_size<sizeof(TargetFrameworkAttribute), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Runtime_Versioning_TargetFrameworkAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Versioning::TargetFrameworkAttribute*, "System.Runtime.Versioning", "TargetFrameworkAttribute");

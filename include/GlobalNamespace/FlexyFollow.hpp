@@ -67,6 +67,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static FlexyFollow* New_ctor();
   }; // FlexyFollow
+  check_size<sizeof(FlexyFollow), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __GlobalNamespace_FlexyFollowSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlexyFollow*, "", "FlexyFollow");

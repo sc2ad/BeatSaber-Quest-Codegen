@@ -162,6 +162,7 @@ namespace System::Reflection {
     // Base method: System.Boolean ICustomAttributeProvider::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);
   }; // System.Reflection.Module
+  check_size<sizeof(Module), 60 + sizeof(int) + 8 - (60 + sizeof(int)) % 8> __System_Reflection_ModuleSizeCheck;
   // static public System.Boolean op_Equality(System.Reflection.Module left, System.Reflection.Module right)
   // Offset: 0x15CA600
   bool operator ==(System::Reflection::Module* left, System::Reflection::Module& right);

@@ -47,6 +47,7 @@ namespace NUnit::Framework::Constraints {
     // Set static field: static public NUnit.Framework.Constraints.ToleranceMode Ulps
     static void _set_Ulps(NUnit::Framework::Constraints::ToleranceMode value);
   }; // NUnit.Framework.Constraints.ToleranceMode
+  check_size<sizeof(ToleranceMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __NUnit_Framework_Constraints_ToleranceModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ToleranceMode, "NUnit.Framework.Constraints", "ToleranceMode");

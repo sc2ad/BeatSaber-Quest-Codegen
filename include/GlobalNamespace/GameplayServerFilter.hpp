@@ -139,6 +139,7 @@ namespace GlobalNamespace {
     // Maps to method: CreateFromSerializedData
     GlobalNamespace::GameplayServerFilter LiteNetLib_Utils_INetImmutableSerializable_1_CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
   }; // GameplayServerFilter
+  check_size<sizeof(GameplayServerFilter), 24 + sizeof(GlobalNamespace::SongPackMask) + 8 - (24 + sizeof(GlobalNamespace::SongPackMask)) % 8> __GlobalNamespace_GameplayServerFilterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayServerFilter, "", "GameplayServerFilter");

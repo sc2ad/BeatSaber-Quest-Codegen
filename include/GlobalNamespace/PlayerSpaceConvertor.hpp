@@ -34,6 +34,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PlayerSpaceConvertor* New_ctor();
   }; // PlayerSpaceConvertor
+  check_size<sizeof(PlayerSpaceConvertor), 24 + sizeof(UnityEngine::Quaternion) + 8 - (24 + sizeof(UnityEngine::Quaternion)) % 8> __GlobalNamespace_PlayerSpaceConvertorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSpaceConvertor*, "", "PlayerSpaceConvertor");

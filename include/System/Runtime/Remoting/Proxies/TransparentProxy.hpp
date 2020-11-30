@@ -65,6 +65,7 @@ namespace System::Runtime::Remoting::Proxies {
     // Base method: System.Void Object::.ctor()
     static TransparentProxy* New_ctor();
   }; // System.Runtime.Remoting.Proxies.TransparentProxy
+  check_size<sizeof(TransparentProxy), 32 + sizeof(bool) + 8 - (32 + sizeof(bool)) % 8> __System_Runtime_Remoting_Proxies_TransparentProxySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::TransparentProxy*, "System.Runtime.Remoting.Proxies", "TransparentProxy");

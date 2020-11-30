@@ -37,7 +37,10 @@ namespace UnityEngine::Animations {
     template<class U>
     static void SetAnimatedProperties(U playable, UnityEngine::AnimationClip* clip) {
       static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayable, std::remove_pointer_t<U>> && is_value_type_v<U>);
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.Animations", "AnimationPlayableExtensions", "SetAnimatedProperties", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, playable, clip));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Animations").WithContext("AnimationPlayableExtensions").WithContext("SetAnimatedProperties");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Animations", "AnimationPlayableExtensions", il2cpp_utils::NoArgClass<void>(), "SetAnimatedProperties", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::il2cpp_utils::ExtractTypes(playable, clip))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, playable, clip);
     }
     // static System.Void SetAnimatedPropertiesInternal(ref UnityEngine.Playables.PlayableHandle playable, UnityEngine.AnimationClip animatedProperties)
     // Offset: 0x19C9738

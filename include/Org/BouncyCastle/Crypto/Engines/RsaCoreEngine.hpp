@@ -82,6 +82,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void Object::.ctor()
     static RsaCoreEngine* New_ctor();
   }; // Org.BouncyCastle.Crypto.Engines.RsaCoreEngine
+  check_size<sizeof(RsaCoreEngine), 28 + sizeof(int) + 8 - (28 + sizeof(int)) % 8> __Org_BouncyCastle_Crypto_Engines_RsaCoreEngineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RsaCoreEngine*, "Org.BouncyCastle.Crypto.Engines", "RsaCoreEngine");

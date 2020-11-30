@@ -100,6 +100,7 @@ namespace System::Net::Http::Headers {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.ViaHeaderValue
+  check_size<sizeof(ViaHeaderValue), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Net_Http_Headers_ViaHeaderValueSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::ViaHeaderValue*, "System.Net.Http.Headers", "ViaHeaderValue");

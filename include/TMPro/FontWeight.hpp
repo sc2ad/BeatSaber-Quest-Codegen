@@ -77,6 +77,7 @@ namespace TMPro {
     // Set static field: static public TMPro.FontWeight Black
     static void _set_Black(TMPro::FontWeight value);
   }; // TMPro.FontWeight
+  check_size<sizeof(FontWeight), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __TMPro_FontWeightSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FontWeight, "TMPro", "FontWeight");

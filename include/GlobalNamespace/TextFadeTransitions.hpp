@@ -60,6 +60,7 @@ namespace GlobalNamespace {
       // Set static field: static public TextFadeTransitions/State FadingIn
       static void _set_FadingIn(GlobalNamespace::TextFadeTransitions::State value);
     }; // TextFadeTransitions/State
+    check_size<sizeof(TextFadeTransitions::State), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_TextFadeTransitions_StateSizeCheck;
     // private TMPro.TextMeshProUGUI _textLabel
     // Offset: 0x18
     TMPro::TextMeshProUGUI* textLabel;
@@ -105,6 +106,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static TextFadeTransitions* New_ctor();
   }; // TextFadeTransitions
+  check_size<sizeof(TextFadeTransitions), 56 + sizeof(float) + 8 - (56 + sizeof(float)) % 8> __GlobalNamespace_TextFadeTransitionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextFadeTransitions*, "", "TextFadeTransitions");

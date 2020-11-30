@@ -76,7 +76,10 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     void RegisterProvider(Zenject::DiContainer* container, Zenject::IProvider* provider) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "RegisterProvider", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, container, provider));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ProviderBindingFinalizer").WithContext("RegisterProvider");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "RegisterProvider", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::il2cpp_utils::ExtractTypes(container, provider))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, container, provider);
     }
     // protected System.Void RegisterProvider(Zenject.DiContainer container, System.Type contractType, Zenject.IProvider provider)
     // Offset: 0x134E2FC
@@ -107,6 +110,7 @@ namespace Zenject {
     // Base method: System.Void IBindingFinalizer::FinalizeBinding(Zenject.DiContainer container)
     void FinalizeBinding(Zenject::DiContainer* container);
   }; // Zenject.ProviderBindingFinalizer
+  check_size<sizeof(ProviderBindingFinalizer), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Zenject_ProviderBindingFinalizerSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProviderBindingFinalizer*, "Zenject", "ProviderBindingFinalizer");
 #pragma pack(pop)

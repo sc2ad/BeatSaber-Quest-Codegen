@@ -21,6 +21,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: HmdVector2_t
     constexpr HmdVector2_t(float v0_ = {}, float v1_ = {}) noexcept : v0{v0_}, v1{v1_} {}
   }; // Valve.VR.HmdVector2_t
+  check_size<sizeof(HmdVector2_t), 4 + sizeof(float) + 8 - (4 + sizeof(float)) % 8> __Valve_VR_HmdVector2_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HmdVector2_t, "Valve.VR", "HmdVector2_t");

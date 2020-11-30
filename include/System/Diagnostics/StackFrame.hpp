@@ -97,6 +97,7 @@ namespace System::Diagnostics {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Diagnostics.StackFrame
+  check_size<sizeof(StackFrame), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __System_Diagnostics_StackFrameSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackFrame*, "System.Diagnostics", "StackFrame");

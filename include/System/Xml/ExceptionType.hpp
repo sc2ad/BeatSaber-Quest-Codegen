@@ -35,6 +35,7 @@ namespace System::Xml {
     // Set static field: static public System.Xml.ExceptionType XmlException
     static void _set_XmlException(System::Xml::ExceptionType value);
   }; // System.Xml.ExceptionType
+  check_size<sizeof(ExceptionType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Xml_ExceptionTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::ExceptionType, "System.Xml", "ExceptionType");

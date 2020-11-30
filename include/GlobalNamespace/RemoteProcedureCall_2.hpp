@@ -42,41 +42,55 @@ namespace GlobalNamespace {
     // public T0 get_value0()
     // Offset: 0xFFFFFFFF
     T0 get_value0() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T0>(this, "get_value0"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RemoteProcedureCall_2").WithContext("get_value0");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T0>(), "get_value0", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T0, false>(this, ___internal__method);
     }
     // public System.Void set_value0(T0 value)
     // Offset: 0xFFFFFFFF
     void set_value0(T0 value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_value0", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RemoteProcedureCall_2").WithContext("set_value0");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "set_value0", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // public T1 get_value1()
     // Offset: 0xFFFFFFFF
     T1 get_value1() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T1>(this, "get_value1"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RemoteProcedureCall_2").WithContext("get_value1");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T1>(), "get_value1", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T1, false>(this, ___internal__method);
     }
     // public System.Void set_value1(T1 value)
     // Offset: 0xFFFFFFFF
     void set_value1(T1 value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_value1", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RemoteProcedureCall_2").WithContext("set_value1");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "set_value1", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // public IRemoteProcedureCall Init(System.Single syncTime, T0 value0, T1 value1)
     // Offset: 0xFFFFFFFF
     GlobalNamespace::IRemoteProcedureCall* Init(float syncTime, T0 value0, T1 value1) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<GlobalNamespace::IRemoteProcedureCall*>(this, "Init", syncTime, value0, value1));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RemoteProcedureCall_2").WithContext("Init");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<GlobalNamespace::IRemoteProcedureCall*>(), "Init", {}, ::il2cpp_utils::ExtractTypes(syncTime, value0, value1)));
+      return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::IRemoteProcedureCall*, false>(this, ___internal__method, syncTime, value0, value1);
     }
     // protected override System.Void SerializeData(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0xFFFFFFFF
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::SerializeData(LiteNetLib.Utils.NetDataWriter writer)
     void SerializeData(LiteNetLib::Utils::NetDataWriter* writer) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "SerializeData", writer));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RemoteProcedureCall_2").WithContext("SerializeData");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "SerializeData", {}, ::il2cpp_utils::ExtractTypes(writer)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, writer);
     }
     // protected override System.Void DeserializeData(LiteNetLib.Utils.NetDataReader reader)
     // Offset: 0xFFFFFFFF
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::DeserializeData(LiteNetLib.Utils.NetDataReader reader)
     void DeserializeData(LiteNetLib::Utils::NetDataReader* reader) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "DeserializeData", reader));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RemoteProcedureCall_2").WithContext("DeserializeData");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "DeserializeData", {}, ::il2cpp_utils::ExtractTypes(reader)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, reader);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -84,9 +98,11 @@ namespace GlobalNamespace {
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()
     static RemoteProcedureCall_2<T0, T1>* New_ctor() {
-      return THROW_UNLESS((il2cpp_utils::New<RemoteProcedureCall_2<T0, T1>*>()));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RemoteProcedureCall_2").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<RemoteProcedureCall_2<T0, T1>*>()));
     }
   }; // RemoteProcedureCall`2
+  // Could not write size check! Type: RemoteProcedureCall`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::RemoteProcedureCall_2, "", "RemoteProcedureCall`2");
 #pragma pack(pop)

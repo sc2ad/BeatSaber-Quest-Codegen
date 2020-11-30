@@ -48,6 +48,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRPlugin::Mesh* New_ctor();
   }; // OVRPlugin/Mesh
+  check_size<sizeof(OVRPlugin::Mesh), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __GlobalNamespace_OVRPlugin_MeshSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Mesh*, "", "OVRPlugin/Mesh");

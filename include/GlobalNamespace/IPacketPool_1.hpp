@@ -18,14 +18,19 @@ namespace GlobalNamespace {
     // public T Obtain()
     // Offset: 0xFFFFFFFF
     T Obtain() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "Obtain"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("IPacketPool_1").WithContext("Obtain");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "Obtain", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public System.Void Release(T t)
     // Offset: 0xFFFFFFFF
     void Release(T t) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Release", t));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("IPacketPool_1").WithContext("Release");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Release", {}, ::il2cpp_utils::ExtractTypes(t)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, t);
     }
   }; // IPacketPool`1
+  // Could not write size check! Type: IPacketPool`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::IPacketPool_1, "", "IPacketPool`1");
 #pragma pack(pop)

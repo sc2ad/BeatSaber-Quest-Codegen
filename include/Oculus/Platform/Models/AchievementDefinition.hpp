@@ -36,6 +36,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11E0A74
     static AchievementDefinition* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.AchievementDefinition
+  check_size<sizeof(AchievementDefinition), 40 + sizeof(uint64_t) + 8 - (40 + sizeof(uint64_t)) % 8> __Oculus_Platform_Models_AchievementDefinitionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementDefinition*, "Oculus.Platform.Models", "AchievementDefinition");

@@ -88,6 +88,7 @@ namespace UnityEngine::Animations {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Animations.AnimationLayerMixerPlayable other)
     bool Equals(UnityEngine::Animations::AnimationLayerMixerPlayable other);
   }; // UnityEngine.Animations.AnimationLayerMixerPlayable
+  check_size<sizeof(AnimationLayerMixerPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle) + 8 - (0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8> __UnityEngine_Animations_AnimationLayerMixerPlayableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationLayerMixerPlayable, "UnityEngine.Animations", "AnimationLayerMixerPlayable");

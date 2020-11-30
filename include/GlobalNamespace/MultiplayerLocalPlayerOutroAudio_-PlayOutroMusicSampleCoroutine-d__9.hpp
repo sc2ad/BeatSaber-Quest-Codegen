@@ -66,6 +66,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MultiplayerLocalPlayerOutroAudio/<PlayOutroMusicSampleCoroutine>d__9
+  check_size<sizeof(MultiplayerLocalPlayerOutroAudio::$PlayOutroMusicSampleCoroutine$d__9), 44 + sizeof(float) + 8 - (44 + sizeof(float)) % 8> __GlobalNamespace_MultiplayerLocalPlayerOutroAudio_$PlayOutroMusicSampleCoroutine$d__9SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalPlayerOutroAudio::$PlayOutroMusicSampleCoroutine$d__9*, "", "MultiplayerLocalPlayerOutroAudio/<PlayOutroMusicSampleCoroutine>d__9");

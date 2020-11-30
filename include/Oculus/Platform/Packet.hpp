@@ -61,6 +61,7 @@ namespace Oculus::Platform {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // Oculus.Platform.Packet
+  check_size<sizeof(Packet), 24 + sizeof(System::IntPtr) + 8 - (24 + sizeof(System::IntPtr)) % 8> __Oculus_Platform_PacketSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Packet*, "Oculus.Platform", "Packet");

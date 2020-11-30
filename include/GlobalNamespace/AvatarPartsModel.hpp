@@ -99,6 +99,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A43F44
     GlobalNamespace::SkinColorSO* GetRandomColor();
   }; // AvatarPartsModel
+  check_size<sizeof(AvatarPartsModel), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __GlobalNamespace_AvatarPartsModelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPartsModel*, "", "AvatarPartsModel");

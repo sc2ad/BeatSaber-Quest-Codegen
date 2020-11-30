@@ -83,6 +83,7 @@ namespace System::Collections {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // System.Collections.ArrayList/ArrayListEnumeratorSimple
+  check_size<sizeof(ArrayList::ArrayListEnumeratorSimple), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __System_Collections_ArrayList_ArrayListEnumeratorSimpleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ArrayList::ArrayListEnumeratorSimple*, "System.Collections", "ArrayList/ArrayListEnumeratorSimple");

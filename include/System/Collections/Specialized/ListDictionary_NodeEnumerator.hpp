@@ -90,6 +90,7 @@ namespace System::Collections::Specialized {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // System.Collections.Specialized.ListDictionary/NodeEnumerator
+  check_size<sizeof(ListDictionary::NodeEnumerator), 36 + sizeof(bool) + 8 - (36 + sizeof(bool)) % 8> __System_Collections_Specialized_ListDictionary_NodeEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::ListDictionary::NodeEnumerator*, "System.Collections.Specialized", "ListDictionary/NodeEnumerator");

@@ -64,6 +64,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ResultsTableCell* New_ctor();
   }; // ResultsTableCell
+  check_size<sizeof(ResultsTableCell), 120 + sizeof(void*) + 8 - (120 + sizeof(void*)) % 8> __GlobalNamespace_ResultsTableCellSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsTableCell*, "", "ResultsTableCell");

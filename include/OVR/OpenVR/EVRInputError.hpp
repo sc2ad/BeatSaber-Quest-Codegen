@@ -125,6 +125,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRInputError MissingSkeletonData
     static void _set_MissingSkeletonData(OVR::OpenVR::EVRInputError value);
   }; // OVR.OpenVR.EVRInputError
+  check_size<sizeof(EVRInputError), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_EVRInputErrorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRInputError, "OVR.OpenVR", "EVRInputError");

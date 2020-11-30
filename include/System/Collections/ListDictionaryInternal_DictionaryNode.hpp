@@ -28,6 +28,7 @@ namespace System::Collections {
     // Base method: System.Void Object::.ctor()
     static ListDictionaryInternal::DictionaryNode* New_ctor();
   }; // System.Collections.ListDictionaryInternal/DictionaryNode
+  check_size<sizeof(ListDictionaryInternal::DictionaryNode), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Collections_ListDictionaryInternal_DictionaryNodeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ListDictionaryInternal::DictionaryNode*, "System.Collections", "ListDictionaryInternal/DictionaryNode");

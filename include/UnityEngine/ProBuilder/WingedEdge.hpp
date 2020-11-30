@@ -152,6 +152,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.WingedEdge
+  check_size<sizeof(WingedEdge), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_WingedEdgeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::WingedEdge*, "UnityEngine.ProBuilder", "WingedEdge");

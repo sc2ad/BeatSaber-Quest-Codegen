@@ -70,6 +70,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // SteamVR_PlayArea/<UpdateBounds>d__14
+  check_size<sizeof(SteamVR_PlayArea::$UpdateBounds$d__14), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_SteamVR_PlayArea_$UpdateBounds$d__14SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_PlayArea::$UpdateBounds$d__14*, "", "SteamVR_PlayArea/<UpdateBounds>d__14");

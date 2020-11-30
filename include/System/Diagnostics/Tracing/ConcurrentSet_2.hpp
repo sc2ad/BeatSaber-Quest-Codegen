@@ -39,14 +39,19 @@ namespace System::Diagnostics::Tracing {
     // public ItemType TryGet(KeyType key)
     // Offset: 0xFFFFFFFF
     ItemType TryGet(KeyType key) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<ItemType>(*this, "TryGet", key));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("ConcurrentSet_2").WithContext("TryGet");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<ItemType>(), "TryGet", {}, ::il2cpp_utils::ExtractTypes(key)));
+      return ::il2cpp_utils::RunMethodThrow<ItemType, false>(*this, ___internal__method, key);
     }
     // public ItemType GetOrAdd(ItemType newItem)
     // Offset: 0xFFFFFFFF
     ItemType GetOrAdd(ItemType newItem) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<ItemType>(*this, "GetOrAdd", newItem));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("ConcurrentSet_2").WithContext("GetOrAdd");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<ItemType>(), "GetOrAdd", {}, ::il2cpp_utils::ExtractTypes(newItem)));
+      return ::il2cpp_utils::RunMethodThrow<ItemType, false>(*this, ___internal__method, newItem);
     }
   }; // System.Diagnostics.Tracing.ConcurrentSet`2
+  // Could not write size check! Type: System.Diagnostics.Tracing.ConcurrentSet`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Diagnostics::Tracing::ConcurrentSet_2, "System.Diagnostics.Tracing", "ConcurrentSet`2");
 #pragma pack(pop)

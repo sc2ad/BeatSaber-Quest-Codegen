@@ -95,6 +95,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Crypto.Parameters.ECDomainParameters
+  check_size<sizeof(ECDomainParameters), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Parameters_ECDomainParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*, "Org.BouncyCastle.Crypto.Parameters", "ECDomainParameters");

@@ -43,6 +43,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static EmptyBoxGraphic* New_ctor();
   }; // HMUI.EmptyBoxGraphic
+  check_size<sizeof(EmptyBoxGraphic), 140 + sizeof(float) + 8 - (140 + sizeof(float)) % 8> __HMUI_EmptyBoxGraphicSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::EmptyBoxGraphic*, "HMUI", "EmptyBoxGraphic");

@@ -85,6 +85,7 @@ namespace Org::BouncyCastle::OpenSsl {
     // Set static field: static public Org.BouncyCastle.OpenSsl.PemUtilities/PemBaseAlg RC2_64
     static void _set_RC2_64(Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg value);
   }; // Org.BouncyCastle.OpenSsl.PemUtilities/PemBaseAlg
+  check_size<sizeof(PemUtilities::PemBaseAlg), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Org_BouncyCastle_OpenSsl_PemUtilities_PemBaseAlgSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg, "Org.BouncyCastle.OpenSsl", "PemUtilities/PemBaseAlg");

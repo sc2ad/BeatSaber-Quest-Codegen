@@ -40,6 +40,7 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Offset: 0x1689BE4
     static UnityEngine::Experimental::GlobalIllumination::LinearColor Black();
   }; // UnityEngine.Experimental.GlobalIllumination.LinearColor
+  check_size<sizeof(LinearColor), 12 + sizeof(float) + 8 - (12 + sizeof(float)) % 8> __UnityEngine_Experimental_GlobalIllumination_LinearColorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LinearColor, "UnityEngine.Experimental.GlobalIllumination", "LinearColor");

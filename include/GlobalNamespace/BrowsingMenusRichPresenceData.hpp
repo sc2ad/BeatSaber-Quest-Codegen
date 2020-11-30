@@ -56,6 +56,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BrowsingMenusRichPresenceData* New_ctor();
   }; // BrowsingMenusRichPresenceData
+  check_size<sizeof(BrowsingMenusRichPresenceData), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_BrowsingMenusRichPresenceDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BrowsingMenusRichPresenceData*, "", "BrowsingMenusRichPresenceData");

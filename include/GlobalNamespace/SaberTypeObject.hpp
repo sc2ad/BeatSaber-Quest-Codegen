@@ -33,6 +33,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SaberTypeObject* New_ctor();
   }; // SaberTypeObject
+  check_size<sizeof(SaberTypeObject), 24 + sizeof(GlobalNamespace::SaberType) + 8 - (24 + sizeof(GlobalNamespace::SaberType)) % 8> __GlobalNamespace_SaberTypeObjectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTypeObject*, "", "SaberTypeObject");

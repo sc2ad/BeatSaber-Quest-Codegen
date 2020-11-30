@@ -59,6 +59,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: Compositor_OverlaySettings
     constexpr Compositor_OverlaySettings(uint size_ = {}, bool curved_ = {}, bool antialias_ = {}, float scale_ = {}, float distance_ = {}, float alpha_ = {}, float uOffset_ = {}, float vOffset_ = {}, float uScale_ = {}, float vScale_ = {}, float gridDivs_ = {}, float gridWidth_ = {}, float gridScale_ = {}, Valve::VR::HmdMatrix44_t transform_ = {}) noexcept : size{size_}, curved{curved_}, antialias{antialias_}, scale{scale_}, distance{distance_}, alpha{alpha_}, uOffset{uOffset_}, vOffset{vOffset_}, uScale{uScale_}, vScale{vScale_}, gridDivs{gridDivs_}, gridWidth{gridWidth_}, gridScale{gridScale_}, transform{transform_} {}
   }; // Valve.VR.Compositor_OverlaySettings
+  check_size<sizeof(Compositor_OverlaySettings), 48 + sizeof(Valve::VR::HmdMatrix44_t) + 8 - (48 + sizeof(Valve::VR::HmdMatrix44_t)) % 8> __Valve_VR_Compositor_OverlaySettingsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::Compositor_OverlaySettings, "Valve.VR", "Compositor_OverlaySettings");

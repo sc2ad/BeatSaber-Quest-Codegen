@@ -36,6 +36,7 @@ namespace NUnit::Framework::Internal::Commands {
     // Base method: System.Void Object::.ctor()
     static OneTimeTearDownCommand::$$c__DisplayClass2* New_ctor();
   }; // NUnit.Framework.Internal.Commands.OneTimeTearDownCommand/<>c__DisplayClass2
+  check_size<sizeof(OneTimeTearDownCommand::$$c__DisplayClass2), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __NUnit_Framework_Internal_Commands_OneTimeTearDownCommand_$$c__DisplayClass2SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass2*, "NUnit.Framework.Internal.Commands", "OneTimeTearDownCommand/<>c__DisplayClass2");

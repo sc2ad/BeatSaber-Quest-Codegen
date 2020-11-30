@@ -29,6 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A82E5C
     static BeatmapEditorSceneSetupData* New_ctor(::Il2CppString* levelDirPath, ::Il2CppString* levelAssetPath);
   }; // BeatmapEditorSceneSetupData
+  check_size<sizeof(BeatmapEditorSceneSetupData), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapEditorSceneSetupDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEditorSceneSetupData*, "", "BeatmapEditorSceneSetupData");

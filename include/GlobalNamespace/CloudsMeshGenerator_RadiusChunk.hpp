@@ -29,6 +29,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: RadiusChunk
     constexpr RadiusChunk(float normalizedStart_ = {}, float normalizedEnd_ = {}, float absoluteStart_ = {}, float absoluteEnd_ = {}) noexcept : normalizedStart{normalizedStart_}, normalizedEnd{normalizedEnd_}, absoluteStart{absoluteStart_}, absoluteEnd{absoluteEnd_} {}
   }; // CloudsMeshGenerator/RadiusChunk
+  check_size<sizeof(CloudsMeshGenerator::RadiusChunk), 12 + sizeof(float) + 8 - (12 + sizeof(float)) % 8> __GlobalNamespace_CloudsMeshGenerator_RadiusChunkSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CloudsMeshGenerator::RadiusChunk, "", "CloudsMeshGenerator/RadiusChunk");

@@ -56,6 +56,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static Rotate* New_ctor();
   }; // Rotate
+  check_size<sizeof(Rotate), 48 + sizeof(UnityEngine::Vector3) + 8 - (48 + sizeof(UnityEngine::Vector3)) % 8> __GlobalNamespace_RotateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Rotate*, "", "Rotate");

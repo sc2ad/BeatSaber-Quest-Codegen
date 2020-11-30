@@ -40,6 +40,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: TrackedDevicePose_t
     constexpr TrackedDevicePose_t(Valve::VR::HmdMatrix34_t mDeviceToAbsoluteTracking_ = {}, Valve::VR::HmdVector3_t vVelocity_ = {}, Valve::VR::HmdVector3_t vAngularVelocity_ = {}, Valve::VR::ETrackingResult eTrackingResult_ = {}, bool bPoseIsValid_ = {}, bool bDeviceIsConnected_ = {}) noexcept : mDeviceToAbsoluteTracking{mDeviceToAbsoluteTracking_}, vVelocity{vVelocity_}, vAngularVelocity{vAngularVelocity_}, eTrackingResult{eTrackingResult_}, bPoseIsValid{bPoseIsValid_}, bDeviceIsConnected{bDeviceIsConnected_} {}
   }; // Valve.VR.TrackedDevicePose_t
+  check_size<sizeof(TrackedDevicePose_t), 77 + sizeof(bool) + 8 - (77 + sizeof(bool)) % 8> __Valve_VR_TrackedDevicePose_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::TrackedDevicePose_t, "Valve.VR", "TrackedDevicePose_t");

@@ -47,6 +47,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static AnimatorIkHandlerManager* New_ctor();
   }; // Zenject.AnimatorIkHandlerManager
+  check_size<sizeof(AnimatorIkHandlerManager), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Zenject_AnimatorIkHandlerManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AnimatorIkHandlerManager*, "Zenject", "AnimatorIkHandlerManager");

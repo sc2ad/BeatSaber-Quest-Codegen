@@ -80,6 +80,7 @@ namespace Zenject {
       // Creating value type constructor for type: SpawnedObjectPoolPair
       constexpr SpawnedObjectPoolPair(Zenject::IMemoryPool* Pool_ = {}, ::Il2CppObject* Object_ = {}) noexcept : Pool{Pool_}, Object{Object_} {}
     }; // Zenject.DisposeBlock/SpawnedObjectPoolPair
+    check_size<sizeof(DisposeBlock::SpawnedObjectPoolPair), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __Zenject_DisposeBlock_SpawnedObjectPoolPairSizeCheck;
     // private System.Collections.Generic.List`1<System.IDisposable> _disposables
     // Offset: 0x10
     System::Collections::Generic::List_1<System::IDisposable*>* disposables;
@@ -108,7 +109,10 @@ namespace Zenject {
     template<class T>
     void AddRange(System::Collections::Generic::IList_1<T>* disposables) {
       static_assert(std::is_base_of_v<System::IDisposable, std::remove_pointer_t<T>>);
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "AddRange", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, disposables));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DisposeBlock").WithContext("AddRange");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "AddRange", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(disposables))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, disposables);
     }
     // public System.Void Add(System.IDisposable disposable)
     // Offset: 0x1294BFC
@@ -120,67 +124,100 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     void StoreSpawnedObject(T obj, Zenject::IDespawnableMemoryPool_1<T>* pool) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "StoreSpawnedObject", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, obj, pool));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DisposeBlock").WithContext("StoreSpawnedObject");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "StoreSpawnedObject", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(obj, pool))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, obj, pool);
     }
     // public T Spawn(Zenject.IMemoryPool`1<T> pool)
     // Offset: 0xFFFFFFFF
     template<class T>
     T Spawn(Zenject::IMemoryPool_1<T>* pool) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, pool)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DisposeBlock").WithContext("Spawn");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(pool))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, pool);
     }
     // public TValue Spawn(Zenject.IMemoryPool`2<TParam1,TValue> pool, TParam1 p1)
     // Offset: 0xFFFFFFFF
     template<class TValue, class TParam1>
     TValue Spawn(Zenject::IMemoryPool_2<TParam1, TValue>* pool, TParam1 p1) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TValue>(this, "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get()}, pool, p1)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DisposeBlock").WithContext("Spawn");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<TValue>(), "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get()}, ::il2cpp_utils::ExtractTypes(pool, p1))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get()})));
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, pool, p1);
     }
     // public TValue Spawn(Zenject.IMemoryPool`3<TParam1,TParam2,TValue> pool, TParam1 p1, TParam2 p2)
     // Offset: 0xFFFFFFFF
     template<class TValue, class TParam1, class TParam2>
     TValue Spawn(Zenject::IMemoryPool_3<TParam1, TParam2, TValue>* pool, TParam1 p1, TParam2 p2) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TValue>(this, "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get()}, pool, p1, p2)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DisposeBlock").WithContext("Spawn");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<TValue>(), "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get()}, ::il2cpp_utils::ExtractTypes(pool, p1, p2))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get()})));
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, pool, p1, p2);
     }
     // public TValue Spawn(Zenject.IMemoryPool`4<TParam1,TParam2,TParam3,TValue> pool, TParam1 p1, TParam2 p2, TParam3 p3)
     // Offset: 0xFFFFFFFF
     template<class TValue, class TParam1, class TParam2, class TParam3>
     TValue Spawn(Zenject::IMemoryPool_4<TParam1, TParam2, TParam3, TValue>* pool, TParam1 p1, TParam2 p2, TParam3 p3) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TValue>(this, "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get()}, pool, p1, p2, p3)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DisposeBlock").WithContext("Spawn");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<TValue>(), "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get()}, ::il2cpp_utils::ExtractTypes(pool, p1, p2, p3))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get()})));
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, pool, p1, p2, p3);
     }
     // public TValue Spawn(Zenject.IMemoryPool`5<TParam1,TParam2,TParam3,TParam4,TValue> pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4)
     // Offset: 0xFFFFFFFF
     template<class TValue, class TParam1, class TParam2, class TParam3, class TParam4>
     TValue Spawn(Zenject::IMemoryPool_5<TParam1, TParam2, TParam3, TParam4, TValue>* pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TValue>(this, "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get()}, pool, p1, p2, p3, p4)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DisposeBlock").WithContext("Spawn");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<TValue>(), "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get()}, ::il2cpp_utils::ExtractTypes(pool, p1, p2, p3, p4))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get()})));
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, pool, p1, p2, p3, p4);
     }
     // public TValue Spawn(Zenject.IMemoryPool`6<TParam1,TParam2,TParam3,TParam4,TParam5,TValue> pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5)
     // Offset: 0xFFFFFFFF
     template<class TValue, class TParam1, class TParam2, class TParam3, class TParam4, class TParam5>
     TValue Spawn(Zenject::IMemoryPool_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TValue>(this, "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get()}, pool, p1, p2, p3, p4, p5)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DisposeBlock").WithContext("Spawn");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<TValue>(), "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get()}, ::il2cpp_utils::ExtractTypes(pool, p1, p2, p3, p4, p5))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get()})));
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, pool, p1, p2, p3, p4, p5);
     }
     // public TValue Spawn(Zenject.IMemoryPool`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue> pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6)
     // Offset: 0xFFFFFFFF
     template<class TValue, class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6>
     TValue Spawn(Zenject::IMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>* pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TValue>(this, "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get()}, pool, p1, p2, p3, p4, p5, p6)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DisposeBlock").WithContext("Spawn");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<TValue>(), "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get()}, ::il2cpp_utils::ExtractTypes(pool, p1, p2, p3, p4, p5, p6))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get()})));
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, pool, p1, p2, p3, p4, p5, p6);
     }
     // public TValue Spawn(Zenject.IMemoryPool`8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue> pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6, TParam7 p7)
     // Offset: 0xFFFFFFFF
     template<class TValue, class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TParam7>
     TValue Spawn(Zenject::IMemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>* pool, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6, TParam7 p7) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TValue>(this, "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam7>::get()}, pool, p1, p2, p3, p4, p5, p6, p7)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DisposeBlock").WithContext("Spawn");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<TValue>(), "Spawn", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam7>::get()}, ::il2cpp_utils::ExtractTypes(pool, p1, p2, p3, p4, p5, p6, p7))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam7>::get()})));
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, pool, p1, p2, p3, p4, p5, p6, p7);
     }
     // public System.Collections.Generic.List`1<T> SpawnList(System.Collections.Generic.IEnumerable`1<T> elements)
     // Offset: 0xFFFFFFFF
     template<class T>
     System::Collections::Generic::List_1<T>* SpawnList(System::Collections::Generic::IEnumerable_1<T>* elements) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::List_1<T>*>(this, "SpawnList", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, elements)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DisposeBlock").WithContext("SpawnList");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Collections::Generic::List_1<T>*>(), "SpawnList", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(elements))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<T>*, false>(this, ___internal__method, elements);
     }
     // public System.Collections.Generic.List`1<T> SpawnList()
     // Offset: 0xFFFFFFFF
     template<class T>
     System::Collections::Generic::List_1<T>* SpawnList() {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::List_1<T>*>(this, "SpawnList", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("DisposeBlock").WithContext("SpawnList");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Collections::Generic::List_1<T>*>(), "SpawnList", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<T>*, false>(this, ___internal__method);
     }
     // static public Zenject.DisposeBlock Spawn()
     // Offset: 0x1294D04
@@ -202,6 +239,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static DisposeBlock* New_ctor();
   }; // Zenject.DisposeBlock
+  check_size<sizeof(DisposeBlock), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Zenject_DisposeBlockSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock*, "Zenject", "DisposeBlock");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock::SpawnedObjectPoolPair, "Zenject", "DisposeBlock/SpawnedObjectPoolPair");

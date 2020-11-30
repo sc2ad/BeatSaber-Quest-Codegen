@@ -41,6 +41,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     static SignatureDescription* New_ctor();
   }; // System.Security.Cryptography.SignatureDescription
+  check_size<sizeof(SignatureDescription), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Security_Cryptography_SignatureDescriptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SignatureDescription*, "System.Security.Cryptography", "SignatureDescription");

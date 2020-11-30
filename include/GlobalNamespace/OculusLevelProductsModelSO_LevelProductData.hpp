@@ -37,6 +37,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OculusLevelProductsModelSO::LevelProductData* New_ctor();
   }; // OculusLevelProductsModelSO/LevelProductData
+  check_size<sizeof(OculusLevelProductsModelSO::LevelProductData), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_OculusLevelProductsModelSO_LevelProductDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*, "", "OculusLevelProductsModelSO/LevelProductData");

@@ -59,6 +59,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.HandleConstraint2D
+  check_size<sizeof(HandleConstraint2D), 20 + sizeof(int) + 8 - (20 + sizeof(int)) % 8> __UnityEngine_ProBuilder_HandleConstraint2DSizeCheck;
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.HandleConstraint2D a, UnityEngine.ProBuilder.HandleConstraint2D b)
   // Offset: 0x163619C
   bool operator ==(UnityEngine::ProBuilder::HandleConstraint2D* a, UnityEngine::ProBuilder::HandleConstraint2D& b);

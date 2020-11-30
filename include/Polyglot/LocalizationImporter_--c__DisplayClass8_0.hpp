@@ -36,6 +36,7 @@ namespace Polyglot {
     // Base method: System.Void Object::.ctor()
     static LocalizationImporter::$$c__DisplayClass8_0* New_ctor();
   }; // Polyglot.LocalizationImporter/<>c__DisplayClass8_0
+  check_size<sizeof(LocalizationImporter::$$c__DisplayClass8_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Polyglot_LocalizationImporter_$$c__DisplayClass8_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationImporter::$$c__DisplayClass8_0*, "Polyglot", "LocalizationImporter/<>c__DisplayClass8_0");

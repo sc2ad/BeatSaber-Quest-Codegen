@@ -49,7 +49,10 @@ namespace UnityEngine {
     template<class T>
     T LoadAsset(::Il2CppString* name) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "LoadAsset", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, name)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("AssetBundle").WithContext("LoadAsset");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "LoadAsset", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(name))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, name);
     }
     // public UnityEngine.Object LoadAsset(System.String name, System.Type type)
     // Offset: 0x1A092B0
@@ -61,7 +64,10 @@ namespace UnityEngine {
     // Offset: 0xFFFFFFFF
     template<class T>
     UnityEngine::AssetBundleRequest* LoadAssetAsync(::Il2CppString* name) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<UnityEngine::AssetBundleRequest*>(this, "LoadAssetAsync", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, name)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("AssetBundle").WithContext("LoadAssetAsync");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<UnityEngine::AssetBundleRequest*>(), "LoadAssetAsync", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(name))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::AssetBundleRequest*, false>(this, ___internal__method, name);
     }
     // public UnityEngine.AssetBundleRequest LoadAssetAsync(System.String name, System.Type type)
     // Offset: 0x1A09418

@@ -194,6 +194,7 @@ namespace HMUI {
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
   }; // HMUI.CircleSlider
+  check_size<sizeof(CircleSlider), 280 + sizeof(UnityEngine::DrivenRectTransformTracker) + 8 - (280 + sizeof(UnityEngine::DrivenRectTransformTracker)) % 8> __HMUI_CircleSliderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CircleSlider*, "HMUI", "CircleSlider");

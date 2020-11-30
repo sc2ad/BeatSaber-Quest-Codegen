@@ -60,6 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ShadowFollowController* New_ctor();
   }; // ShadowFollowController
+  check_size<sizeof(ShadowFollowController), 64 + sizeof(UnityEngine::Vector2) + 8 - (64 + sizeof(UnityEngine::Vector2)) % 8> __GlobalNamespace_ShadowFollowControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShadowFollowController*, "", "ShadowFollowController");

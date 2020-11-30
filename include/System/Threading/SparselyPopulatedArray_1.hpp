@@ -34,19 +34,25 @@ namespace System::Threading {
     // System.Void .ctor(System.Int32 initialSize)
     // Offset: 0xFFFFFFFF
     static SparselyPopulatedArray_1<T>* New_ctor(int initialSize) {
-      return THROW_UNLESS(il2cpp_utils::New<SparselyPopulatedArray_1<T>*>(initialSize));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparselyPopulatedArray_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<SparselyPopulatedArray_1<T>*>(initialSize));
     }
     // System.Threading.SparselyPopulatedArrayFragment`1<T> get_Tail()
     // Offset: 0xFFFFFFFF
     System::Threading::SparselyPopulatedArrayFragment_1<T>* get_Tail() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Threading::SparselyPopulatedArrayFragment_1<T>*>(this, "get_Tail"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparselyPopulatedArray_1").WithContext("get_Tail");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Threading::SparselyPopulatedArrayFragment_1<T>*>(), "get_Tail", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::SparselyPopulatedArrayFragment_1<T>*, false>(this, ___internal__method);
     }
     // System.Threading.SparselyPopulatedArrayAddInfo`1<T> Add(T element)
     // Offset: 0xFFFFFFFF
     System::Threading::SparselyPopulatedArrayAddInfo_1<T> Add(T element) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Threading::SparselyPopulatedArrayAddInfo_1<T>>(this, "Add", element));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparselyPopulatedArray_1").WithContext("Add");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Threading::SparselyPopulatedArrayAddInfo_1<T>>(), "Add", {}, ::il2cpp_utils::ExtractTypes(element)));
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::SparselyPopulatedArrayAddInfo_1<T>, false>(this, ___internal__method, element);
     }
   }; // System.Threading.SparselyPopulatedArray`1
+  // Could not write size check! Type: System.Threading.SparselyPopulatedArray`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Threading::SparselyPopulatedArray_1, "System.Threading", "SparselyPopulatedArray`1");
 #pragma pack(pop)

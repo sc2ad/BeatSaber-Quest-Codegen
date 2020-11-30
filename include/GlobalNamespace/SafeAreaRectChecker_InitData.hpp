@@ -24,6 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0xFC4F8C
     static SafeAreaRectChecker::InitData* New_ctor(bool checkingEnabled);
   }; // SafeAreaRectChecker/InitData
+  check_size<sizeof(SafeAreaRectChecker::InitData), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __GlobalNamespace_SafeAreaRectChecker_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SafeAreaRectChecker::InitData*, "", "SafeAreaRectChecker/InitData");

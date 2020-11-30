@@ -90,6 +90,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static FingerRig* New_ctor();
   }; // RootMotion.FinalIK.FingerRig
+  check_size<sizeof(FingerRig), 64 + sizeof(bool) + 8 - (64 + sizeof(bool)) % 8> __RootMotion_FinalIK_FingerRigSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FingerRig*, "RootMotion.FinalIK", "FingerRig");

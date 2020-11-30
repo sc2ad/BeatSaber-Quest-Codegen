@@ -67,6 +67,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x12F7838
     void Fixup(System::Runtime::Serialization::Formatters::Binary::ParseRecord* record, System::Runtime::Serialization::Formatters::Binary::ParseRecord* parent);
   }; // System.Runtime.Serialization.Formatters.Binary.ValueFixup
+  check_size<sizeof(ValueFixup), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __System_Runtime_Serialization_Formatters_Binary_ValueFixupSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ValueFixup*, "System.Runtime.Serialization.Formatters.Binary", "ValueFixup");

@@ -102,6 +102,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Stream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     void Write(::Array<uint8_t>* buffer, int offset, int count);
   }; // System.Security.Cryptography.TailStream
+  check_size<sizeof(TailStream), 56 + sizeof(bool) + 8 - (56 + sizeof(bool)) % 8> __System_Security_Cryptography_TailStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::TailStream*, "System.Security.Cryptography", "TailStream");

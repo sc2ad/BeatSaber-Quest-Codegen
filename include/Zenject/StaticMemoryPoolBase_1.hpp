@@ -29,16 +29,20 @@ namespace Zenject {
     // Implemented from: Zenject.StaticMemoryPoolBaseBase`1
     // Base method: System.Void StaticMemoryPoolBaseBase_1::.ctor(System.Action`1<TValue> onDespawnedMethod)
     static StaticMemoryPoolBase_1<TValue>* New_ctor(System::Action_1<TValue>* onDespawnedMethod) {
-      return THROW_UNLESS(il2cpp_utils::New<StaticMemoryPoolBase_1<TValue>*>(onDespawnedMethod));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("StaticMemoryPoolBase_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<StaticMemoryPoolBase_1<TValue>*>(onDespawnedMethod));
     }
     // protected override TValue Alloc()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.StaticMemoryPoolBaseBase`1
     // Base method: TValue StaticMemoryPoolBaseBase_1::Alloc()
     TValue Alloc() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<TValue>(this, "Alloc"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("StaticMemoryPoolBase_1").WithContext("Alloc");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<TValue>(), "Alloc", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method);
     }
   }; // Zenject.StaticMemoryPoolBase`1
+  // Could not write size check! Type: Zenject.StaticMemoryPoolBase`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::StaticMemoryPoolBase_1, "Zenject", "StaticMemoryPoolBase`1");
 #pragma pack(pop)

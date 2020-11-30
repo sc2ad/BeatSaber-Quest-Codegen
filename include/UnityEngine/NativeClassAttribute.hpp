@@ -32,6 +32,7 @@ namespace UnityEngine {
     // Offset: 0x1A048A8
     static NativeClassAttribute* New_ctor(::Il2CppString* qualifiedCppName, ::Il2CppString* declaration);
   }; // UnityEngine.NativeClassAttribute
+  check_size<sizeof(NativeClassAttribute), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_NativeClassAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::NativeClassAttribute*, "UnityEngine", "NativeClassAttribute");

@@ -39,6 +39,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRChromaticAberration* New_ctor();
   }; // OVRChromaticAberration
+  check_size<sizeof(OVRChromaticAberration), 28 + sizeof(bool) + 8 - (28 + sizeof(bool)) % 8> __GlobalNamespace_OVRChromaticAberrationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRChromaticAberration*, "", "OVRChromaticAberration");

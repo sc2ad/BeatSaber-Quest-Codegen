@@ -45,6 +45,7 @@ namespace Valve::VR {
     // Offset: 0xCB6814
     void Unpack(Valve::VR::RenderModel_t& unpacked);
   }; // Valve.VR.RenderModel_t_Packed
+  check_size<sizeof(RenderModel_t_Packed), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __Valve_VR_RenderModel_t_PackedSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_t_Packed, "Valve.VR", "RenderModel_t_Packed");

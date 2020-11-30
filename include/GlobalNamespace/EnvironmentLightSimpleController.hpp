@@ -46,6 +46,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EnvironmentLightSimpleController* New_ctor();
   }; // EnvironmentLightSimpleController
+  check_size<sizeof(EnvironmentLightSimpleController), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_EnvironmentLightSimpleControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentLightSimpleController*, "", "EnvironmentLightSimpleController");

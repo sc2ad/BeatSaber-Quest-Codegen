@@ -51,6 +51,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SaberModelContainer* New_ctor();
   }; // SaberModelContainer
+  check_size<sizeof(SaberModelContainer), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_SaberModelContainerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberModelContainer*, "", "SaberModelContainer");

@@ -81,6 +81,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PS4AppInit* New_ctor();
   }; // PS4AppInit
+  check_size<sizeof(PS4AppInit), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __GlobalNamespace_PS4AppInitSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4AppInit*, "", "PS4AppInit");

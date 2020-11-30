@@ -78,6 +78,7 @@ namespace GlobalNamespace {
       // Set static field: static public SteamVR_PlayArea/Size _200x150
       static void _set__200x150(GlobalNamespace::SteamVR_PlayArea::Size value);
     }; // SteamVR_PlayArea/Size
+    check_size<sizeof(SteamVR_PlayArea::Size), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_SteamVR_PlayArea_SizeSizeCheck;
     // public System.Single borderThickness
     // Offset: 0x18
     float borderThickness;
@@ -132,6 +133,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SteamVR_PlayArea* New_ctor();
   }; // SteamVR_PlayArea
+  check_size<sizeof(SteamVR_PlayArea), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_SteamVR_PlayAreaSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_PlayArea*, "", "SteamVR_PlayArea");

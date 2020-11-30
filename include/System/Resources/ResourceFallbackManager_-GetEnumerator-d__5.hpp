@@ -73,6 +73,7 @@ namespace System::Resources {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // System.Resources.ResourceFallbackManager/<GetEnumerator>d__5
+  check_size<sizeof(ResourceFallbackManager::$GetEnumerator$d__5), 48 + sizeof(bool) + 8 - (48 + sizeof(bool)) % 8> __System_Resources_ResourceFallbackManager_$GetEnumerator$d__5SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceFallbackManager::$GetEnumerator$d__5*, "System.Resources", "ResourceFallbackManager/<GetEnumerator>d__5");

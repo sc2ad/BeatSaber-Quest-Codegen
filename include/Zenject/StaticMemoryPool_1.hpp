@@ -40,21 +40,27 @@ namespace Zenject {
     // public System.Void .ctor(System.Action`1<TValue> onSpawnMethod, System.Action`1<TValue> onDespawnedMethod)
     // Offset: 0xFFFFFFFF
     static StaticMemoryPool_1<TValue>* New_ctor(System::Action_1<TValue>* onSpawnMethod, System::Action_1<TValue>* onDespawnedMethod) {
-      return THROW_UNLESS(il2cpp_utils::New<StaticMemoryPool_1<TValue>*>(onSpawnMethod, onDespawnedMethod));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("StaticMemoryPool_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<StaticMemoryPool_1<TValue>*>(onSpawnMethod, onDespawnedMethod));
     }
     // public System.Void set_OnSpawnMethod(System.Action`1<TValue> value)
     // Offset: 0xFFFFFFFF
     void set_OnSpawnMethod(System::Action_1<TValue>* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_OnSpawnMethod", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("StaticMemoryPool_1").WithContext("set_OnSpawnMethod");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "set_OnSpawnMethod", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // public TValue Spawn()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IMemoryPool`1
     // Base method: TValue IMemoryPool_1::Spawn()
     TValue Spawn() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<TValue>(this, "Spawn"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("StaticMemoryPool_1").WithContext("Spawn");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<TValue>(), "Spawn", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method);
     }
   }; // Zenject.StaticMemoryPool`1
+  // Could not write size check! Type: Zenject.StaticMemoryPool`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::StaticMemoryPool_1, "Zenject", "StaticMemoryPool`1");
 #pragma pack(pop)

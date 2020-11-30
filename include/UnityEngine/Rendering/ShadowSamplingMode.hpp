@@ -41,6 +41,7 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.ShadowSamplingMode None
     static void _set_None(UnityEngine::Rendering::ShadowSamplingMode value);
   }; // UnityEngine.Rendering.ShadowSamplingMode
+  check_size<sizeof(ShadowSamplingMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Rendering_ShadowSamplingModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ShadowSamplingMode, "UnityEngine.Rendering", "ShadowSamplingMode");

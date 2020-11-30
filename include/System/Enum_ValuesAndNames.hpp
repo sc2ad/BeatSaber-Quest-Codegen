@@ -23,6 +23,7 @@ namespace System {
     // Offset: 0x1124840
     static Enum::ValuesAndNames* New_ctor(::Array<uint64_t>* values, ::Array<::Il2CppString*>* names);
   }; // System.Enum/ValuesAndNames
+  check_size<sizeof(Enum::ValuesAndNames), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Enum_ValuesAndNamesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Enum::ValuesAndNames*, "System", "Enum/ValuesAndNames");

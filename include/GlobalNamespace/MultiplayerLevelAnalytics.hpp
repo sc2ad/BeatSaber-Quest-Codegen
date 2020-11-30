@@ -57,6 +57,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerLevelAnalytics* New_ctor();
   }; // MultiplayerLevelAnalytics
+  check_size<sizeof(MultiplayerLevelAnalytics), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerLevelAnalyticsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelAnalytics*, "", "MultiplayerLevelAnalytics");

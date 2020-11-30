@@ -53,6 +53,7 @@ namespace System::Reflection {
     // Set static field: static public System.Reflection.CallingConventions ExplicitThis
     static void _set_ExplicitThis(System::Reflection::CallingConventions value);
   }; // System.Reflection.CallingConventions
+  check_size<sizeof(CallingConventions), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Reflection_CallingConventionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CallingConventions, "System.Reflection", "CallingConventions");

@@ -24,6 +24,7 @@ namespace UnityEngine {
     // Offset: 0x167DC68
     int get_order();
   }; // UnityEngine.BeforeRenderOrderAttribute
+  check_size<sizeof(BeforeRenderOrderAttribute), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __UnityEngine_BeforeRenderOrderAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BeforeRenderOrderAttribute*, "UnityEngine", "BeforeRenderOrderAttribute");

@@ -47,6 +47,7 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static public System.Diagnostics.Tracing.ControllerCommand Disable
     static void _set_Disable(System::Diagnostics::Tracing::ControllerCommand value);
   }; // System.Diagnostics.Tracing.ControllerCommand
+  check_size<sizeof(ControllerCommand), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Diagnostics_Tracing_ControllerCommandSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ControllerCommand, "System.Diagnostics.Tracing", "ControllerCommand");

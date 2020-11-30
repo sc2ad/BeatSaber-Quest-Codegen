@@ -40,6 +40,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static VariableBpmProcessor* New_ctor();
   }; // VariableBpmProcessor
+  check_size<sizeof(VariableBpmProcessor), 16 + sizeof(float) + 8 - (16 + sizeof(float)) % 8> __GlobalNamespace_VariableBpmProcessorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VariableBpmProcessor*, "", "VariableBpmProcessor");

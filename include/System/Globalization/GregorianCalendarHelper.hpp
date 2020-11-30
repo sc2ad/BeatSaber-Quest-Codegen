@@ -114,6 +114,7 @@ namespace System::Globalization {
     // Offset: 0x162EA0C
     static void _cctor();
   }; // System.Globalization.GregorianCalendarHelper
+  check_size<sizeof(GregorianCalendarHelper), 48 + sizeof(System::DateTime) + 8 - (48 + sizeof(System::DateTime)) % 8> __System_Globalization_GregorianCalendarHelperSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::GregorianCalendarHelper*, "System.Globalization", "GregorianCalendarHelper");

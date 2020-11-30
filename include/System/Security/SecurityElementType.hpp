@@ -41,6 +41,7 @@ namespace System::Security {
     // Set static field: static public System.Security.SecurityElementType Comment
     static void _set_Comment(System::Security::SecurityElementType value);
   }; // System.Security.SecurityElementType
+  check_size<sizeof(SecurityElementType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Security_SecurityElementTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityElementType, "System.Security", "SecurityElementType");

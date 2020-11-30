@@ -99,6 +99,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.ProBuilder.Edge
+  check_size<sizeof(Edge), 4 + sizeof(int) + 8 - (4 + sizeof(int)) % 8> __UnityEngine_ProBuilder_EdgeSizeCheck;
   // static public UnityEngine.ProBuilder.Edge op_Addition(UnityEngine.ProBuilder.Edge a, UnityEngine.ProBuilder.Edge b)
   // Offset: 0x189BC24
   UnityEngine::ProBuilder::Edge operator+(const UnityEngine::ProBuilder::Edge& a, const UnityEngine::ProBuilder::Edge& b);

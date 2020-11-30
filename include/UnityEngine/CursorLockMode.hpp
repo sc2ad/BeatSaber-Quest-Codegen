@@ -41,6 +41,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.CursorLockMode Confined
     static void _set_Confined(UnityEngine::CursorLockMode value);
   }; // UnityEngine.CursorLockMode
+  check_size<sizeof(CursorLockMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_CursorLockModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CursorLockMode, "UnityEngine", "CursorLockMode");

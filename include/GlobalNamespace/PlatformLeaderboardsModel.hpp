@@ -86,6 +86,7 @@ namespace GlobalNamespace {
       // Set static field: static public PlatformLeaderboardsModel/State Initialized
       static void _set_Initialized(GlobalNamespace::PlatformLeaderboardsModel::State value);
     }; // PlatformLeaderboardsModel/State
+    check_size<sizeof(PlatformLeaderboardsModel::State), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_PlatformLeaderboardsModel_StateSizeCheck;
     // private GameplayModifiersModelSO _gameplayModifiersModel
     // Offset: 0x18
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
@@ -152,6 +153,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PlatformLeaderboardsModel* New_ctor();
   }; // PlatformLeaderboardsModel
+  check_size<sizeof(PlatformLeaderboardsModel), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __GlobalNamespace_PlatformLeaderboardsModelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel*, "", "PlatformLeaderboardsModel");

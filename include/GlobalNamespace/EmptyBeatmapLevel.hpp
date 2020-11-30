@@ -190,6 +190,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EmptyBeatmapLevel* New_ctor();
   }; // EmptyBeatmapLevel
+  check_size<sizeof(EmptyBeatmapLevel), 112 + sizeof(void*) + 8 - (112 + sizeof(void*)) % 8> __GlobalNamespace_EmptyBeatmapLevelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EmptyBeatmapLevel*, "", "EmptyBeatmapLevel");

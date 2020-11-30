@@ -112,6 +112,7 @@ namespace Mono::Net {
     // Offset: 0x126234C
     ::Il2CppString* get_Username();
   }; // Mono.Net.CFProxy
+  check_size<sizeof(CFProxy), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Mono_Net_CFProxySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFProxy*, "Mono.Net", "CFProxy");

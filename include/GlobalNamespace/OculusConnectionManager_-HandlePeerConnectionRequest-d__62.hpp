@@ -66,6 +66,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusConnectionManager/<HandlePeerConnectionRequest>d__62
+  check_size<sizeof(OculusConnectionManager::$HandlePeerConnectionRequest$d__62), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>) + 8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>)) % 8> __GlobalNamespace_OculusConnectionManager_$HandlePeerConnectionRequest$d__62SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::$HandlePeerConnectionRequest$d__62, "", "OculusConnectionManager/<HandlePeerConnectionRequest>d__62");

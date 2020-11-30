@@ -65,21 +65,26 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       // public System.Void .ctor(System.Int32 <>1__state)
       // Offset: 0xFFFFFFFF
       static typename FixedArray3_1<T>::$Enumerate$d__10* New_ctor(int $$1__state) {
-        return THROW_UNLESS(il2cpp_utils::New<typename FixedArray3_1<T>::$Enumerate$d__10*>($$1__state));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("$Enumerate$d__10").WithContext(".ctor");
+        return THROW_UNLESS(::il2cpp_utils::New<typename FixedArray3_1<T>::$Enumerate$d__10*>($$1__state));
       }
       // private System.Void System.IDisposable.Dispose()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.IDisposable
       // Base method: System.Void IDisposable::Dispose()
       void System_IDisposable_Dispose() {
-        THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.IDisposable.Dispose"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("$Enumerate$d__10").WithContext("System.IDisposable.Dispose");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "System.IDisposable.Dispose", {}, ::il2cpp_utils::ExtractTypes()));
+        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
       }
       // private System.Boolean MoveNext()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Boolean IEnumerator::MoveNext()
       bool MoveNext() {
-        return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "MoveNext"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("$Enumerate$d__10").WithContext("MoveNext");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "MoveNext", {}, ::il2cpp_utils::ExtractTypes()));
+        return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
       }
       // Creating proxy method: System_Collections_IEnumerator_MoveNext
       // Maps to method: MoveNext
@@ -91,37 +96,48 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       // Implemented from: System.Collections.Generic.IEnumerator`1
       // Base method: T IEnumerator_1::get_Current()
       T System_Collections_Generic_IEnumerator_1_get_Current() {
-        return THROW_UNLESS((il2cpp_utils::RunMethod<T>(this, "System.Collections.Generic.IEnumerator<T>.get_Current")));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("$Enumerate$d__10").WithContext("System.Collections.Generic.IEnumerator<T>.get_Current");
+        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "System.Collections.Generic.IEnumerator<T>.get_Current", {}, ::il2cpp_utils::ExtractTypes())));
+        return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
       }
       // private System.Void System.Collections.IEnumerator.Reset()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Void IEnumerator::Reset()
       void System_Collections_IEnumerator_Reset() {
-        THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.Collections.IEnumerator.Reset"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("$Enumerate$d__10").WithContext("System.Collections.IEnumerator.Reset");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "System.Collections.IEnumerator.Reset", {}, ::il2cpp_utils::ExtractTypes()));
+        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
       }
       // private System.Object System.Collections.IEnumerator.get_Current()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Object IEnumerator::get_Current()
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
-        return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "System.Collections.IEnumerator.get_Current"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("$Enumerate$d__10").WithContext("System.Collections.IEnumerator.get_Current");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<::Il2CppObject*>(), "System.Collections.IEnumerator.get_Current", {}, ::il2cpp_utils::ExtractTypes()));
+        return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method);
       }
       // private System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.Generic.IEnumerable`1
       // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
       System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_1_GetEnumerator() {
-        return THROW_UNLESS((il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerator_1<T>*>(this, "System.Collections.Generic.IEnumerable<T>.GetEnumerator")));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("$Enumerate$d__10").WithContext("System.Collections.Generic.IEnumerable<T>.GetEnumerator");
+        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Collections::Generic::IEnumerator_1<T>*>(), "System.Collections.Generic.IEnumerable<T>.GetEnumerator", {}, ::il2cpp_utils::ExtractTypes())));
+        return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerator_1<T>*, false>(this, ___internal__method);
       }
       // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerable
       // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
       System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
-        return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::IEnumerator*>(this, "System.Collections.IEnumerable.GetEnumerator"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("$Enumerate$d__10").WithContext("System.Collections.IEnumerable.GetEnumerator");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Collections::IEnumerator*>(), "System.Collections.IEnumerable.GetEnumerator", {}, ::il2cpp_utils::ExtractTypes()));
+        return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(this, ___internal__method);
       }
     }; // UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1/<Enumerate>d__10
+    // Could not write size check! Type: UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1/<Enumerate>d__10 is generic!
     // public T _0
     // Offset: 0x0
     T _0;
@@ -140,39 +156,53 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // public T get_Item(System.Int32 index)
     // Offset: 0xFFFFFFFF
     T get_Item(int index) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(*this, "get_Item", index));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("FixedArray3_1").WithContext("get_Item");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<T>(), "get_Item", {}, ::il2cpp_utils::ExtractTypes(index)));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method, index);
     }
     // public System.Void set_Item(System.Int32 index, T value)
     // Offset: 0xFFFFFFFF
     void set_Item(int index, T value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_Item", index, value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("FixedArray3_1").WithContext("set_Item");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_Item", {}, ::il2cpp_utils::ExtractTypes(index, value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, index, value);
     }
     // public System.Boolean Contains(T value)
     // Offset: 0xFFFFFFFF
     bool Contains(T value) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "Contains", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("FixedArray3_1").WithContext("Contains");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<bool>(), "Contains", {}, ::il2cpp_utils::ExtractTypes(value)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, value);
     }
     // public System.Int32 IndexOf(T value)
     // Offset: 0xFFFFFFFF
     int IndexOf(T value) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(*this, "IndexOf", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("FixedArray3_1").WithContext("IndexOf");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<int>(), "IndexOf", {}, ::il2cpp_utils::ExtractTypes(value)));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(*this, ___internal__method, value);
     }
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
     void Clear() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "Clear"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("FixedArray3_1").WithContext("Clear");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "Clear", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method);
     }
     // private System.Collections.Generic.IEnumerable`1<T> Enumerate()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerable_1<T>* Enumerate() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerable_1<T>*>(*this, "Enumerate"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("FixedArray3_1").WithContext("Enumerate");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<System::Collections::Generic::IEnumerable_1<T>*>(), "Enumerate", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<T>*, false>(*this, ___internal__method);
     }
     // public System.Collections.Generic.IEnumerator`1<T> GetEnumerator()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<T>* GetEnumerator() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerator_1<T>*>(*this, "GetEnumerator"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("FixedArray3_1").WithContext("GetEnumerator");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<System::Collections::Generic::IEnumerator_1<T>*>(), "GetEnumerator", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerator_1<T>*, false>(*this, ___internal__method);
     }
     // Creating proxy method: System_Collections_Generic_IEnumerable_1_GetEnumerator
     // Maps to method: GetEnumerator
@@ -184,9 +214,12 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::IEnumerator*>(*this, "System.Collections.IEnumerable.GetEnumerator"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::Poly2Tri").WithContext("FixedArray3_1").WithContext("System.Collections.IEnumerable.GetEnumerator");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<System::Collections::IEnumerator*>(), "System.Collections.IEnumerable.GetEnumerator", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(*this, ___internal__method);
     }
   }; // UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1
+  // Could not write size check! Type: UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1, "UnityEngine.ProBuilder.Poly2Tri", "FixedArray3`1");
 #pragma pack(pop)

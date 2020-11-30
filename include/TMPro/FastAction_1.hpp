@@ -43,26 +43,34 @@ namespace TMPro {
     // public System.Void Add(System.Action`1<A> rhs)
     // Offset: 0xFFFFFFFF
     void Add(System::Action_1<A>* rhs) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Add", rhs));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("FastAction_1").WithContext("Add");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Add", {}, ::il2cpp_utils::ExtractTypes(rhs)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, rhs);
     }
     // public System.Void Remove(System.Action`1<A> rhs)
     // Offset: 0xFFFFFFFF
     void Remove(System::Action_1<A>* rhs) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Remove", rhs));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("FastAction_1").WithContext("Remove");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Remove", {}, ::il2cpp_utils::ExtractTypes(rhs)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, rhs);
     }
     // public System.Void Call(A a)
     // Offset: 0xFFFFFFFF
     void Call(A a) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Call", a));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("FastAction_1").WithContext("Call");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Call", {}, ::il2cpp_utils::ExtractTypes(a)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, a);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static FastAction_1<A>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<FastAction_1<A>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("FastAction_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<FastAction_1<A>*>());
     }
   }; // TMPro.FastAction`1
+  // Could not write size check! Type: TMPro.FastAction`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(TMPro::FastAction_1, "TMPro", "FastAction`1");
 #pragma pack(pop)

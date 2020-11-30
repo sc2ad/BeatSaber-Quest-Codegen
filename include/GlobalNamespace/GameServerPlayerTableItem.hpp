@@ -27,6 +27,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A1DDE0
     static GameServerPlayerTableItem* New_ctor(::Il2CppString* playerName, ::Il2CppString* suggestedLevel, ::Il2CppString* suggestedModifiers, bool isReady);
   }; // GameServerPlayerTableItem
+  check_size<sizeof(GameServerPlayerTableItem), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __GlobalNamespace_GameServerPlayerTableItemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayerTableItem*, "", "GameServerPlayerTableItem");

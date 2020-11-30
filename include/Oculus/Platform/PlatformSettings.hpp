@@ -60,6 +60,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::.ctor()
     static PlatformSettings* New_ctor();
   }; // Oculus.Platform.PlatformSettings
+  check_size<sizeof(PlatformSettings), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __Oculus_Platform_PlatformSettingsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformSettings*, "Oculus.Platform", "PlatformSettings");

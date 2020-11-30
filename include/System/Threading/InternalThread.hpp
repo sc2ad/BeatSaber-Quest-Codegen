@@ -151,6 +151,7 @@ namespace System::Threading {
     // Base method: System.Void Object::.ctor()
     static InternalThread* New_ctor();
   }; // System.Threading.InternalThread
+  check_size<sizeof(InternalThread), 280 + sizeof(System::IntPtr) + 8 - (280 + sizeof(System::IntPtr)) % 8> __System_Threading_InternalThreadSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::InternalThread*, "System.Threading", "InternalThread");

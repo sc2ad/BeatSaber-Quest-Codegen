@@ -30,19 +30,28 @@ namespace System::Net::Http::Headers {
     // Offset: 0xFFFFFFFF
     template<class TSource>
     static bool SequenceEqual(System::Collections::Generic::List_1<TSource>* first, System::Collections::Generic::List_1<TSource>* second) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("System.Net.Http.Headers", "CollectionExtensions", "SequenceEqual", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, first, second)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("CollectionExtensions").WithContext("SequenceEqual");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Net.Http.Headers", "CollectionExtensions", il2cpp_utils::NoArgClass<bool>(), "SequenceEqual", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, ::il2cpp_utils::ExtractTypes(first, second))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, first, second);
     }
     // static public System.String ToString(System.Collections.Generic.List`1<T> list)
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::Il2CppString* ToString(System::Collections::Generic::List_1<T>* list) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Il2CppString*>("System.Net.Http.Headers", "CollectionExtensions", "ToString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("CollectionExtensions").WithContext("ToString");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Net.Http.Headers", "CollectionExtensions", il2cpp_utils::NoArgClass<::Il2CppString*>(), "ToString", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list);
     }
     // static public System.Void ToStringBuilder(System.Collections.Generic.List`1<T> list, System.Text.StringBuilder sb)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void ToStringBuilder(System::Collections::Generic::List_1<T>* list, System::Text::StringBuilder* sb) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("System.Net.Http.Headers", "CollectionExtensions", "ToStringBuilder", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, sb));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("CollectionExtensions").WithContext("ToStringBuilder");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Net.Http.Headers", "CollectionExtensions", il2cpp_utils::NoArgClass<void>(), "ToStringBuilder", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list, sb))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list, sb);
     }
   }; // System.Net.Http.Headers.CollectionExtensions
 }

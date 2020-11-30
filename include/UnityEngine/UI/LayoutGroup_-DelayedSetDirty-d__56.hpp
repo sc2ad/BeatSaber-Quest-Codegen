@@ -67,6 +67,7 @@ namespace UnityEngine::UI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // UnityEngine.UI.LayoutGroup/<DelayedSetDirty>d__56
+  check_size<sizeof(LayoutGroup::$DelayedSetDirty$d__56), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __UnityEngine_UI_LayoutGroup_$DelayedSetDirty$d__56SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56*, "UnityEngine.UI", "LayoutGroup/<DelayedSetDirty>d__56");

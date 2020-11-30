@@ -115,6 +115,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static GameObjectCreationParameters* New_ctor();
   }; // Zenject.GameObjectCreationParameters
+  check_size<sizeof(GameObjectCreationParameters), 64 + sizeof(System::Nullable_1<UnityEngine::Quaternion>) + 8 - (64 + sizeof(System::Nullable_1<UnityEngine::Quaternion>)) % 8> __Zenject_GameObjectCreationParametersSizeCheck;
   // static public System.Boolean op_Equality(Zenject.GameObjectCreationParameters left, Zenject.GameObjectCreationParameters right)
   // Offset: 0x129E38C
   bool operator ==(Zenject::GameObjectCreationParameters* left, Zenject::GameObjectCreationParameters& right);

@@ -48,6 +48,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NoteCutHapticEffect* New_ctor();
   }; // NoteCutHapticEffect
+  check_size<sizeof(NoteCutHapticEffect), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_NoteCutHapticEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutHapticEffect*, "", "NoteCutHapticEffect");

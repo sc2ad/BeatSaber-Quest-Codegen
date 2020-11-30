@@ -93,6 +93,7 @@ namespace System::IO {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.IO.StringWriter
+  check_size<sizeof(StringWriter), 48 + sizeof(bool) + 8 - (48 + sizeof(bool)) % 8> __System_IO_StringWriterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StringWriter*, "System.IO", "StringWriter");

@@ -45,6 +45,7 @@ namespace LiteNetLib {
     // Offset: 0x1DC6078
     static LiteNetLib::NetPacket* Make(int64_t connectId, uint8_t connectNum, bool reusedPeer);
   }; // LiteNetLib.NetConnectAcceptPacket
+  check_size<sizeof(NetConnectAcceptPacket), 25 + sizeof(bool) + 8 - (25 + sizeof(bool)) % 8> __LiteNetLib_NetConnectAcceptPacketSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetConnectAcceptPacket*, "LiteNetLib", "NetConnectAcceptPacket");

@@ -53,6 +53,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECLookupTable::LookupVar(System.Int32 index)
     Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);
   }; // Org.BouncyCastle.Math.EC.F2mCurve/DefaultF2mLookupTable
+  check_size<sizeof(F2mCurve::DefaultF2mLookupTable), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __Org_BouncyCastle_Math_EC_F2mCurve_DefaultF2mLookupTableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::F2mCurve::DefaultF2mLookupTable*, "Org.BouncyCastle.Math.EC", "F2mCurve/DefaultF2mLookupTable");

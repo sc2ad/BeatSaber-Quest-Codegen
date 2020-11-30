@@ -79,6 +79,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static ServerHelloRequest* New_ctor();
   }; // MasterServer.ServerHelloRequest
+  check_size<sizeof(ServerHelloRequest), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __MasterServer_ServerHelloRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ServerHelloRequest*, "MasterServer", "ServerHelloRequest");

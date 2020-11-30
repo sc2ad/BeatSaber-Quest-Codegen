@@ -143,6 +143,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // GameScenesManager/<ScenesTransitionCoroutine>d__36
+  check_size<sizeof(GameScenesManager::$ScenesTransitionCoroutine$d__36), 136 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>::Enumerator) + 8 - (136 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>::Enumerator)) % 8> __GlobalNamespace_GameScenesManager_$ScenesTransitionCoroutine$d__36SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager::$ScenesTransitionCoroutine$d__36*, "", "GameScenesManager/<ScenesTransitionCoroutine>d__36");

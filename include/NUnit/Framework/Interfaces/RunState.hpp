@@ -53,6 +53,7 @@ namespace NUnit::Framework::Interfaces {
     // Set static field: static public NUnit.Framework.Interfaces.RunState Ignored
     static void _set_Ignored(NUnit::Framework::Interfaces::RunState value);
   }; // NUnit.Framework.Interfaces.RunState
+  check_size<sizeof(RunState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __NUnit_Framework_Interfaces_RunStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::RunState, "NUnit.Framework.Interfaces", "RunState");

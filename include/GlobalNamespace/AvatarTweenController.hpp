@@ -266,6 +266,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AvatarTweenController* New_ctor();
   }; // AvatarTweenController
+  check_size<sizeof(AvatarTweenController), 308 + sizeof(UnityEngine::Vector3) + 8 - (308 + sizeof(UnityEngine::Vector3)) % 8> __GlobalNamespace_AvatarTweenControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarTweenController*, "", "AvatarTweenController");

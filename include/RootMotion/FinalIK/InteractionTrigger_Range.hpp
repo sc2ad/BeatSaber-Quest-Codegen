@@ -51,6 +51,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static InteractionTrigger::Range* New_ctor();
   }; // RootMotion.FinalIK.InteractionTrigger/Range
+  check_size<sizeof(InteractionTrigger::Range), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __RootMotion_FinalIK_InteractionTrigger_RangeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::Range*, "RootMotion.FinalIK", "InteractionTrigger/Range");

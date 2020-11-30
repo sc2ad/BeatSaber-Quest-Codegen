@@ -57,6 +57,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void Stream::.cctor()
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.DefiniteLengthInputStream
+  check_size<sizeof(DefiniteLengthInputStream), 64 + sizeof(int) + 8 - (64 + sizeof(int)) % 8> __Org_BouncyCastle_Asn1_DefiniteLengthInputStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*, "Org.BouncyCastle.Asn1", "DefiniteLengthInputStream");

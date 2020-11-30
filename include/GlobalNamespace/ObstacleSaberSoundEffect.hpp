@@ -75,6 +75,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ObstacleSaberSoundEffect* New_ctor();
   }; // ObstacleSaberSoundEffect
+  check_size<sizeof(ObstacleSaberSoundEffect), 52 + sizeof(float) + 8 - (52 + sizeof(float)) % 8> __GlobalNamespace_ObstacleSaberSoundEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleSaberSoundEffect*, "", "ObstacleSaberSoundEffect");

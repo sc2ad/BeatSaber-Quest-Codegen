@@ -49,6 +49,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.TouchScreenKeyboard/Status LostFocus
     static void _set_LostFocus(UnityEngine::TouchScreenKeyboard::Status value);
   }; // UnityEngine.TouchScreenKeyboard/Status
+  check_size<sizeof(TouchScreenKeyboard::Status), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_TouchScreenKeyboard_StatusSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TouchScreenKeyboard::Status, "UnityEngine", "TouchScreenKeyboard/Status");

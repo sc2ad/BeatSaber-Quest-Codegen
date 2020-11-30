@@ -36,6 +36,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x11631D4
     int get_Length();
   }; // System.Runtime.CompilerServices.FixedBufferAttribute
+  check_size<sizeof(FixedBufferAttribute), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __System_Runtime_CompilerServices_FixedBufferAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::FixedBufferAttribute*, "System.Runtime.CompilerServices", "FixedBufferAttribute");

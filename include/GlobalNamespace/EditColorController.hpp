@@ -118,6 +118,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EditColorController* New_ctor();
   }; // EditColorController
+  check_size<sizeof(EditColorController), 184 + sizeof(bool) + 8 - (184 + sizeof(bool)) % 8> __GlobalNamespace_EditColorControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditColorController*, "", "EditColorController");

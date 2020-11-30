@@ -90,6 +90,7 @@ namespace RootMotion {
     // Offset: 0x1741368
     void AddLoopFrame(float time);
   }; // RootMotion.BakerTransform
+  check_size<sizeof(BakerTransform), 108 + sizeof(UnityEngine::Quaternion) + 8 - (108 + sizeof(UnityEngine::Quaternion)) % 8> __RootMotion_BakerTransformSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerTransform*, "RootMotion", "BakerTransform");

@@ -45,6 +45,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.HSVColor
+  check_size<sizeof(HSVColor), 24 + sizeof(float) + 8 - (24 + sizeof(float)) % 8> __UnityEngine_ProBuilder_HSVColorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::HSVColor*, "UnityEngine.ProBuilder", "HSVColor");

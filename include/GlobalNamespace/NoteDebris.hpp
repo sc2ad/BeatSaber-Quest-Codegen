@@ -127,6 +127,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // NoteDebris
+  check_size<sizeof(NoteDebris), 92 + sizeof(float) + 8 - (92 + sizeof(float)) % 8> __GlobalNamespace_NoteDebrisSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebris*, "", "NoteDebris");

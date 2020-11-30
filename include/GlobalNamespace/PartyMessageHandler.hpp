@@ -73,6 +73,7 @@ namespace GlobalNamespace {
       // Set static field: static public PartyMessageHandler/MessageType ConnectToMasterServer
       static void _set_ConnectToMasterServer(GlobalNamespace::PartyMessageHandler::MessageType value);
     }; // PartyMessageHandler/MessageType
+    check_size<sizeof(PartyMessageHandler::MessageType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_PartyMessageHandler_MessageTypeSizeCheck;
     // private readonly NetworkPacketSerializer`2<PartyMessageHandler/MessageType,IConnectedPlayer> _serializer
     // Offset: 0x10
     GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::PartyMessageHandler::MessageType, GlobalNamespace::IConnectedPlayer*>* serializer;
@@ -125,6 +126,7 @@ namespace GlobalNamespace {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // PartyMessageHandler
+  check_size<sizeof(PartyMessageHandler), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_PartyMessageHandlerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler*, "", "PartyMessageHandler");

@@ -80,6 +80,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerLocalActiveCenterRingLightsController* New_ctor();
   }; // MultiplayerLocalActiveCenterRingLightsController
+  check_size<sizeof(MultiplayerLocalActiveCenterRingLightsController), 65 + sizeof(bool) + 8 - (65 + sizeof(bool)) % 8> __GlobalNamespace_MultiplayerLocalActiveCenterRingLightsControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController*, "", "MultiplayerLocalActiveCenterRingLightsController");

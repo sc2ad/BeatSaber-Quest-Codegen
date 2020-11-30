@@ -40,6 +40,7 @@ namespace System::Xml {
     // Base method: System.String IXmlNamespaceResolver::LookupPrefix(System.String namespaceName)
     ::Il2CppString* System_Xml_IXmlNamespaceResolver_LookupPrefix(::Il2CppString* namespaceName);
   }; // System.Xml.XmlWellFormedWriter/NamespaceResolverProxy
+  check_size<sizeof(XmlWellFormedWriter::NamespaceResolverProxy), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Xml_XmlWellFormedWriter_NamespaceResolverProxySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::NamespaceResolverProxy*, "System.Xml", "XmlWellFormedWriter/NamespaceResolverProxy");

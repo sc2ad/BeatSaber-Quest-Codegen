@@ -31,6 +31,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BeatmapObjectSpawnCenter::PlayerCountToDistance* New_ctor();
   }; // BeatmapObjectSpawnCenter/PlayerCountToDistance
+  check_size<sizeof(BeatmapObjectSpawnCenter::PlayerCountToDistance), 20 + sizeof(float) + 8 - (20 + sizeof(float)) % 8> __GlobalNamespace_BeatmapObjectSpawnCenter_PlayerCountToDistanceSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*, "", "BeatmapObjectSpawnCenter/PlayerCountToDistance");

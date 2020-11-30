@@ -20,34 +20,47 @@ namespace System::Collections::Generic {
     // public TValue get_Item(TKey key)
     // Offset: 0xFFFFFFFF
     TValue get_Item(TKey key) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<TValue>(this, "get_Item", key));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IDictionary_2").WithContext("get_Item");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<TValue>(), "get_Item", {}, ::il2cpp_utils::ExtractTypes(key)));
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, key);
     }
     // public System.Void set_Item(TKey key, TValue value)
     // Offset: 0xFFFFFFFF
     void set_Item(TKey key, TValue value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_Item", key, value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IDictionary_2").WithContext("set_Item");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "set_Item", {}, ::il2cpp_utils::ExtractTypes(key, value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, key, value);
     }
     // public System.Boolean ContainsKey(TKey key)
     // Offset: 0xFFFFFFFF
     bool ContainsKey(TKey key) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "ContainsKey", key));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IDictionary_2").WithContext("ContainsKey");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "ContainsKey", {}, ::il2cpp_utils::ExtractTypes(key)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, key);
     }
     // public System.Void Add(TKey key, TValue value)
     // Offset: 0xFFFFFFFF
     void System_Collections_Generic_IDictionary_2_Add(TKey key, TValue value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Add", key, value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IDictionary_2").WithContext("Add");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Add", {}, ::il2cpp_utils::ExtractTypes(key, value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, key, value);
     }
     // public System.Boolean Remove(TKey key)
     // Offset: 0xFFFFFFFF
     bool System_Collections_Generic_IDictionary_2_Remove(TKey key) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Remove", key));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IDictionary_2").WithContext("Remove");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "Remove", {}, ::il2cpp_utils::ExtractTypes(key)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, key);
     }
     // public System.Boolean TryGetValue(TKey key, out TValue value)
     // Offset: 0xFFFFFFFF
     bool TryGetValue(TKey key, TValue& value) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TryGetValue", key, value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IDictionary_2").WithContext("TryGetValue");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "TryGetValue", {}, ::il2cpp_utils::ExtractTypes(key, value)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, key, value);
     }
   }; // System.Collections.Generic.IDictionary`2
+  // Could not write size check! Type: System.Collections.Generic.IDictionary`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::IDictionary_2, "System.Collections.Generic", "IDictionary`2");
 #pragma pack(pop)

@@ -70,6 +70,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void KeyedHashAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // System.Security.Cryptography.MACTripleDES
+  check_size<sizeof(MACTripleDES), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __System_Security_Cryptography_MACTripleDESSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::MACTripleDES*, "System.Security.Cryptography", "MACTripleDES");

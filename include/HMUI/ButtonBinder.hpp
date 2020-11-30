@@ -68,6 +68,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static ButtonBinder* New_ctor();
   }; // HMUI.ButtonBinder
+  check_size<sizeof(ButtonBinder), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __HMUI_ButtonBinderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonBinder*, "HMUI", "ButtonBinder");

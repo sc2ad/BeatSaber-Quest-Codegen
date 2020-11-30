@@ -77,6 +77,7 @@ namespace System::Reflection {
     // Set static field: static public System.Reflection.MemberTypes All
     static void _set_All(System::Reflection::MemberTypes value);
   }; // System.Reflection.MemberTypes
+  check_size<sizeof(MemberTypes), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Reflection_MemberTypesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MemberTypes, "System.Reflection", "MemberTypes");

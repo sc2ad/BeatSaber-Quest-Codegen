@@ -37,13 +37,19 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void InsertSorted(System::Collections::Generic::List_1<T>* list, T item, System::Func_2<T, int>* getSortIndex) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("", "SortExtensions", "InsertSorted", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, item, getSortIndex));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SortExtensions").WithContext("InsertSorted");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "SortExtensions", il2cpp_utils::NoArgClass<void>(), "InsertSorted", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list, item, getSortIndex))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list, item, getSortIndex);
     }
     // static public System.Void Sort(System.Collections.Generic.List`1<T> list, System.Func`2<T,System.Int32> getSortIndex)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void Sort(System::Collections::Generic::List_1<T>* list, System::Func_2<T, int>* getSortIndex) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("", "SortExtensions", "Sort", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, getSortIndex));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SortExtensions").WithContext("Sort");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "SortExtensions", il2cpp_utils::NoArgClass<void>(), "Sort", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list, getSortIndex))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list, getSortIndex);
     }
   }; // SortExtensions
 }

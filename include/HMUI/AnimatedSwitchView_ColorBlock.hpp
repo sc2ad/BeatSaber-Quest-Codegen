@@ -39,6 +39,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static AnimatedSwitchView::ColorBlock* New_ctor();
   }; // HMUI.AnimatedSwitchView/ColorBlock
+  check_size<sizeof(AnimatedSwitchView::ColorBlock), 96 + sizeof(UnityEngine::Color) + 8 - (96 + sizeof(UnityEngine::Color)) % 8> __HMUI_AnimatedSwitchView_ColorBlockSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView::ColorBlock*, "HMUI", "AnimatedSwitchView/ColorBlock");

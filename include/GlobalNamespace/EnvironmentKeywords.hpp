@@ -38,6 +38,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A0D570
     bool HasKeyword(::Il2CppString* keyword);
   }; // EnvironmentKeywords
+  check_size<sizeof(EnvironmentKeywords), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_EnvironmentKeywordsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentKeywords*, "", "EnvironmentKeywords");

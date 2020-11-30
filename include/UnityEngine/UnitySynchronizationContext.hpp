@@ -51,6 +51,7 @@ namespace UnityEngine {
       // Offset: 0xCA6504
       void Invoke();
     }; // UnityEngine.UnitySynchronizationContext/WorkRequest
+    check_size<sizeof(UnitySynchronizationContext::WorkRequest), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_UnitySynchronizationContext_WorkRequestSizeCheck;
     // private readonly System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/WorkRequest> m_AsyncWorkQueue
     // Offset: 0x18
     System::Collections::Generic::List_1<UnityEngine::UnitySynchronizationContext::WorkRequest>* m_AsyncWorkQueue;
@@ -112,6 +113,7 @@ namespace UnityEngine {
     // Base method: System.Threading.SynchronizationContext SynchronizationContext::CreateCopy()
     System::Threading::SynchronizationContext* CreateCopy();
   }; // UnityEngine.UnitySynchronizationContext
+  check_size<sizeof(UnitySynchronizationContext), 44 + sizeof(int) + 8 - (44 + sizeof(int)) % 8> __UnityEngine_UnitySynchronizationContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnitySynchronizationContext*, "UnityEngine", "UnitySynchronizationContext");

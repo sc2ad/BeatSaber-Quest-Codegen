@@ -34,6 +34,7 @@ namespace Zenject {
     // Offset: 0xCB75E8
     // ABORTED: conflicts with another method.  TypeValuePair(System::Type* type, ::Il2CppObject* value);
   }; // Zenject.TypeValuePair
+  check_size<sizeof(TypeValuePair), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __Zenject_TypeValuePairSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TypeValuePair, "Zenject", "TypeValuePair");

@@ -97,6 +97,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BeatEffect* New_ctor();
   }; // BeatEffect
+  check_size<sizeof(BeatEffect), 96 + sizeof(UnityEngine::Color) + 8 - (96 + sizeof(UnityEngine::Color)) % 8> __GlobalNamespace_BeatEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatEffect*, "", "BeatEffect");

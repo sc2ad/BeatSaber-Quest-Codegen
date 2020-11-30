@@ -144,6 +144,7 @@ namespace System::Threading {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Threading.SemaphoreSlim
+  check_size<sizeof(SemaphoreSlim), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __System_Threading_SemaphoreSlimSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SemaphoreSlim*, "System.Threading", "SemaphoreSlim");

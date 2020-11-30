@@ -47,6 +47,7 @@ namespace LiteNetLib {
     // Set static field: static public LiteNetLib.NetLogLevel Info
     static void _set_Info(LiteNetLib::NetLogLevel value);
   }; // LiteNetLib.NetLogLevel
+  check_size<sizeof(NetLogLevel), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __LiteNetLib_NetLogLevelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetLogLevel, "LiteNetLib", "NetLogLevel");

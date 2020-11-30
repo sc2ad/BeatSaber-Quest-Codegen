@@ -38,6 +38,7 @@ namespace System::IO {
     // Base method: System.Boolean SearchResultHandler_1::IsResultIncluded(System.IO.SearchResult result)
     bool IsResultIncluded(System::IO::SearchResult* result);
   }; // System.IO.StringResultHandler
+  check_size<sizeof(StringResultHandler), 17 + sizeof(bool) + 8 - (17 + sizeof(bool)) % 8> __System_IO_StringResultHandlerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StringResultHandler*, "System.IO", "StringResultHandler");

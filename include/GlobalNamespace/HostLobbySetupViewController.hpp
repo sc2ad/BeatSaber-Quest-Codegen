@@ -183,6 +183,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static HostLobbySetupViewController* New_ctor();
   }; // HostLobbySetupViewController
+  check_size<sizeof(HostLobbySetupViewController), 224 + sizeof(void*) + 8 - (224 + sizeof(void*)) % 8> __GlobalNamespace_HostLobbySetupViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HostLobbySetupViewController*, "", "HostLobbySetupViewController");

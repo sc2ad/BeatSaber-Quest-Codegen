@@ -45,30 +45,40 @@ namespace System::Linq {
     // public System.Void .ctor(TSource[] source, System.Func`2<TSource,System.Boolean> predicate, System.Func`2<TSource,TResult> selector)
     // Offset: 0xFFFFFFFF
     static Enumerable::WhereSelectArrayIterator_2<TSource, TResult>* New_ctor(::Array<TSource>* source, System::Func_2<TSource, bool>* predicate, System::Func_2<TSource, TResult>* selector) {
-      return THROW_UNLESS((il2cpp_utils::New<Enumerable::WhereSelectArrayIterator_2<TSource, TResult>*>(source, predicate, selector)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("WhereSelectArrayIterator_2").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<Enumerable::WhereSelectArrayIterator_2<TSource, TResult>*>(source, predicate, selector)));
     }
     // public System.Linq.Enumerable/Iterator`1<TResult> Clone()
     // Offset: 0xFFFFFFFF
     System::Linq::Enumerable::Iterator_1<TResult>* Clone() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Linq::Enumerable::Iterator_1<TResult>*>(this, "Clone"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("WhereSelectArrayIterator_2").WithContext("Clone");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Linq::Enumerable::Iterator_1<TResult>*>(), "Clone", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<System::Linq::Enumerable::Iterator_1<TResult>*, false>(this, ___internal__method);
     }
     // public System.Collections.Generic.IEnumerable`1<TResult2> Select(System.Func`2<TResult,TResult2> selector)
     // Offset: 0xFFFFFFFF
     template<class TResult2>
     System::Collections::Generic::IEnumerable_1<TResult2>* Select(System::Func_2<TResult, TResult2>* selector) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<TResult2>*>(this, "Select", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult2>::get()}, selector)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("WhereSelectArrayIterator_2").WithContext("Select");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Collections::Generic::IEnumerable_1<TResult2>*>(), "Select", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult2>::get()}, ::il2cpp_utils::ExtractTypes(selector))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult2>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<TResult2>*, false>(this, ___internal__method, selector);
     }
     // public System.Collections.Generic.IEnumerable`1<TResult> Where(System.Func`2<TResult,System.Boolean> predicate)
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerable_1<TResult>* Where(System::Func_2<TResult, bool>* predicate) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerable_1<TResult>*>(this, "Where", predicate));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("WhereSelectArrayIterator_2").WithContext("Where");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Collections::Generic::IEnumerable_1<TResult>*>(), "Where", {}, ::il2cpp_utils::ExtractTypes(predicate)));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<TResult>*, false>(this, ___internal__method, predicate);
     }
     // public override System.Boolean MoveNext()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Linq.Enumerable/Iterator`1
     // Base method: System.Boolean Iterator_1::MoveNext()
     bool MoveNext() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "MoveNext"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("WhereSelectArrayIterator_2").WithContext("MoveNext");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "MoveNext", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
     // Creating proxy method: System_Collections_IEnumerator_MoveNext
     // Maps to method: MoveNext
@@ -76,6 +86,7 @@ namespace System::Linq {
       return MoveNext();
     }
   }; // System.Linq.Enumerable/WhereSelectArrayIterator`2
+  // Could not write size check! Type: System.Linq.Enumerable/WhereSelectArrayIterator`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::Enumerable::WhereSelectArrayIterator_2, "System.Linq", "Enumerable/WhereSelectArrayIterator`2");
 #pragma pack(pop)

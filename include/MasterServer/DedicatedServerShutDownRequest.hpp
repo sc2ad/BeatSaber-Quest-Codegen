@@ -93,6 +93,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static DedicatedServerShutDownRequest* New_ctor();
   }; // MasterServer.DedicatedServerShutDownRequest
+  check_size<sizeof(DedicatedServerShutDownRequest), 24 + sizeof(int64_t) + 8 - (24 + sizeof(int64_t)) % 8> __MasterServer_DedicatedServerShutDownRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::DedicatedServerShutDownRequest*, "MasterServer", "DedicatedServerShutDownRequest");

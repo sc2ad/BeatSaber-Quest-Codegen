@@ -45,6 +45,7 @@ namespace OnlineServices {
     // Offset: 0xC91E50
     // ABORTED: conflicts with another method.  GetLeaderboardFilterData(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, OnlineServices::ScoresScope scope, GlobalNamespace::GameplayModifiers* gameplayModifiers);
   }; // OnlineServices.GetLeaderboardFilterData
+  check_size<sizeof(GetLeaderboardFilterData), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __OnlineServices_GetLeaderboardFilterDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::GetLeaderboardFilterData, "OnlineServices", "GetLeaderboardFilterData");

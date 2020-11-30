@@ -41,23 +41,29 @@ namespace UnityEngine::Events {
     // Base method: System.Void UnityEventBase::.ctor()
     // Base method: System.Void Object::.ctor()
     static UnityEvent_4<T0, T1, T2, T3>* New_ctor() {
-      return THROW_UNLESS((il2cpp_utils::New<UnityEvent_4<T0, T1, T2, T3>*>()));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Events").WithContext("UnityEvent_4").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<UnityEvent_4<T0, T1, T2, T3>*>()));
     }
     // protected override System.Reflection.MethodInfo FindMethod_Impl(System.String name, System.Object targetObj)
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: System.Reflection.MethodInfo UnityEventBase::FindMethod_Impl(System.String name, System.Object targetObj)
     System::Reflection::MethodInfo* FindMethod_Impl(::Il2CppString* name, ::Il2CppObject* targetObj) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Reflection::MethodInfo*>(this, "FindMethod_Impl", name, targetObj));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Events").WithContext("UnityEvent_4").WithContext("FindMethod_Impl");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Reflection::MethodInfo*>(), "FindMethod_Impl", {}, ::il2cpp_utils::ExtractTypes(name, targetObj)));
+      return ::il2cpp_utils::RunMethodThrow<System::Reflection::MethodInfo*, false>(this, ___internal__method, name, targetObj);
     }
     // override UnityEngine.Events.BaseInvokableCall GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: UnityEngine.Events.BaseInvokableCall UnityEventBase::GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
     UnityEngine::Events::BaseInvokableCall* GetDelegate(::Il2CppObject* target, System::Reflection::MethodInfo* theFunction) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::Events::BaseInvokableCall*>(this, "GetDelegate", target, theFunction));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Events").WithContext("UnityEvent_4").WithContext("GetDelegate");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<UnityEngine::Events::BaseInvokableCall*>(), "GetDelegate", {}, ::il2cpp_utils::ExtractTypes(target, theFunction)));
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Events::BaseInvokableCall*, false>(this, ___internal__method, target, theFunction);
     }
   }; // UnityEngine.Events.UnityEvent`4
+  // Could not write size check! Type: UnityEngine.Events.UnityEvent`4 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::Events::UnityEvent_4, "UnityEngine.Events", "UnityEvent`4");
 #pragma pack(pop)

@@ -116,6 +116,7 @@ namespace System::Net {
     // Base method: System.IO.Stream WebResponse::GetResponseStream()
     System::IO::Stream* GetResponseStream();
   }; // System.Net.FileWebResponse
+  check_size<sizeof(FileWebResponse), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __System_Net_FileWebResponseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FileWebResponse*, "System.Net", "FileWebResponse");

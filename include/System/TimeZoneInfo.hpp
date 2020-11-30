@@ -406,6 +406,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static TimeZoneInfo* New_ctor();
   }; // System.TimeZoneInfo
+  check_size<sizeof(TimeZoneInfo), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __System_TimeZoneInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo*, "System", "TimeZoneInfo");

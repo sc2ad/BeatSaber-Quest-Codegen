@@ -36,6 +36,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     static NotifyPropertyChangedInvocatorAttribute* New_ctor();
   }; // JetBrains.Annotations.NotifyPropertyChangedInvocatorAttribute
+  check_size<sizeof(NotifyPropertyChangedInvocatorAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __JetBrains_Annotations_NotifyPropertyChangedInvocatorAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute*, "JetBrains.Annotations", "NotifyPropertyChangedInvocatorAttribute");

@@ -446,7 +446,10 @@ namespace GlobalNamespace {
     template<class T>
     bool CreateParty(GlobalNamespace::INetworkPlayerModelPartyConfig_1<T>* createConfig) {
       static_assert(std::is_base_of_v<GlobalNamespace::INetworkPlayerModel, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(this, "CreateParty", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, createConfig)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("UnifiedNetworkPlayerModel").WithContext("CreateParty");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "CreateParty", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(createConfig))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, createConfig);
     }
     // public override System.Void DestroyParty()
     // Offset: 0xFF9B60
@@ -495,6 +498,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static UnifiedNetworkPlayerModel* New_ctor();
   }; // UnifiedNetworkPlayerModel
+  check_size<sizeof(UnifiedNetworkPlayerModel), 264 + sizeof(GlobalNamespace::GameplayServerFilter) + 8 - (264 + sizeof(GlobalNamespace::GameplayServerFilter)) % 8> __GlobalNamespace_UnifiedNetworkPlayerModelSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel*, "", "UnifiedNetworkPlayerModel");
 #pragma pack(pop)

@@ -61,6 +61,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OverridePlayerTransformsFromFullVRControllersRecorder* New_ctor();
   }; // OverridePlayerTransformsFromFullVRControllersRecorder
+  check_size<sizeof(OverridePlayerTransformsFromFullVRControllersRecorder), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_OverridePlayerTransformsFromFullVRControllersRecorderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder*, "", "OverridePlayerTransformsFromFullVRControllersRecorder");

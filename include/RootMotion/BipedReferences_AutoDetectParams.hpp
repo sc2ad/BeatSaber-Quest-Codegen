@@ -30,6 +30,7 @@ namespace RootMotion {
     // Offset: 0x1748C34
     static RootMotion::BipedReferences::AutoDetectParams get_Default();
   }; // RootMotion.BipedReferences/AutoDetectParams
+  check_size<sizeof(BipedReferences::AutoDetectParams), 1 + sizeof(bool) + 8 - (1 + sizeof(bool)) % 8> __RootMotion_BipedReferences_AutoDetectParamsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedReferences::AutoDetectParams, "RootMotion", "BipedReferences/AutoDetectParams");

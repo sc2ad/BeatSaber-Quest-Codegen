@@ -77,6 +77,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // SteamVR_Fade
+  check_size<sizeof(SteamVR_Fade), 72 + sizeof(bool) + 8 - (72 + sizeof(bool)) % 8> __GlobalNamespace_SteamVR_FadeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Fade*, "", "SteamVR_Fade");

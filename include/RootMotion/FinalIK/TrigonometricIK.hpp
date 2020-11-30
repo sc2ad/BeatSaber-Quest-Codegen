@@ -58,6 +58,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static TrigonometricIK* New_ctor();
   }; // RootMotion.FinalIK.TrigonometricIK
+  check_size<sizeof(TrigonometricIK), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __RootMotion_FinalIK_TrigonometricIKSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::TrigonometricIK*, "RootMotion.FinalIK", "TrigonometricIK");

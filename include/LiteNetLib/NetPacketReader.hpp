@@ -46,6 +46,7 @@ namespace LiteNetLib {
     // Offset: 0x1DCD838
     void Recycle();
   }; // LiteNetLib.NetPacketReader
+  check_size<sizeof(NetPacketReader), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __LiteNetLib_NetPacketReaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacketReader*, "LiteNetLib", "NetPacketReader");

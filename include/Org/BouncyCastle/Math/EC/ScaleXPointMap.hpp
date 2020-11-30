@@ -42,6 +42,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECPointMap::Map(Org.BouncyCastle.Math.EC.ECPoint p)
     Org::BouncyCastle::Math::EC::ECPoint* Map(Org::BouncyCastle::Math::EC::ECPoint* p);
   }; // Org.BouncyCastle.Math.EC.ScaleXPointMap
+  check_size<sizeof(ScaleXPointMap), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_EC_ScaleXPointMapSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ScaleXPointMap*, "Org.BouncyCastle.Math.EC", "ScaleXPointMap");

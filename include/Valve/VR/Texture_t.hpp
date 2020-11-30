@@ -31,6 +31,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: Texture_t
     constexpr Texture_t(System::IntPtr handle_ = {}, Valve::VR::ETextureType eType_ = {}, Valve::VR::EColorSpace eColorSpace_ = {}) noexcept : handle{handle_}, eType{eType_}, eColorSpace{eColorSpace_} {}
   }; // Valve.VR.Texture_t
+  check_size<sizeof(Texture_t), 12 + sizeof(Valve::VR::EColorSpace) + 8 - (12 + sizeof(Valve::VR::EColorSpace)) % 8> __Valve_VR_Texture_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::Texture_t, "Valve.VR", "Texture_t");

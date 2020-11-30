@@ -55,6 +55,7 @@ namespace GlobalNamespace {
       // Set static field: static public FormattedFloatListSettingsValueController/ValueType InvertedNormalized
       static void _set_InvertedNormalized(GlobalNamespace::FormattedFloatListSettingsValueController::ValueType value);
     }; // FormattedFloatListSettingsValueController/ValueType
+    check_size<sizeof(FormattedFloatListSettingsValueController::ValueType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_FormattedFloatListSettingsValueController_ValueTypeSizeCheck;
     // private FloatSO _settingsValue
     // Offset: 0x28
     GlobalNamespace::FloatSO* settingsValue;
@@ -100,6 +101,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static FormattedFloatListSettingsValueController* New_ctor();
   }; // FormattedFloatListSettingsValueController
+  check_size<sizeof(FormattedFloatListSettingsValueController), 72 + sizeof(float) + 8 - (72 + sizeof(float)) % 8> __GlobalNamespace_FormattedFloatListSettingsValueControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FormattedFloatListSettingsValueController*, "", "FormattedFloatListSettingsValueController");

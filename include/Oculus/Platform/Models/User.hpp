@@ -51,6 +51,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DFFD0
     static User* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.User
+  check_size<sizeof(User), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __Oculus_Platform_Models_UserSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::User*, "Oculus.Platform.Models", "User");

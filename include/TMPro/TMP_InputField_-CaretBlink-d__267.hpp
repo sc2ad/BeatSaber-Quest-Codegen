@@ -60,6 +60,7 @@ namespace TMPro {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // TMPro.TMP_InputField/<CaretBlink>d__267
+  check_size<sizeof(TMP_InputField::$CaretBlink$d__267), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __TMPro_TMP_InputField_$CaretBlink$d__267SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::$CaretBlink$d__267*, "TMPro", "TMP_InputField/<CaretBlink>d__267");

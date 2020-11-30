@@ -61,6 +61,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     static PathList* New_ctor();
   }; // System.Net.PathList
+  check_size<sizeof(PathList), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Net_PathListSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::PathList*, "System.Net", "PathList");

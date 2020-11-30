@@ -23,9 +23,12 @@ namespace GlobalNamespace {
     // public System.Boolean Equals(ref T other)
     // Offset: 0xFFFFFFFF
     bool Equals(T& other) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Equals", other));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("IEquatableByReference_1").WithContext("Equals");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "Equals", {}, ::il2cpp_utils::ExtractTypes(other)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, other);
     }
   }; // IEquatableByReference`1
+  // Could not write size check! Type: IEquatableByReference`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::IEquatableByReference_1, "", "IEquatableByReference`1");
 #pragma pack(pop)

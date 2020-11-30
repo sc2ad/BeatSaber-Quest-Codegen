@@ -59,6 +59,7 @@ namespace Mono {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // Mono.RuntimeClassHandle
+  check_size<sizeof(RuntimeClassHandle), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __Mono_RuntimeClassHandleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeClassHandle, "Mono", "RuntimeClassHandle");

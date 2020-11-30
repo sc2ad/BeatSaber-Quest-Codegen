@@ -22,6 +22,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VREvent_Chaperone_t
     constexpr VREvent_Chaperone_t(uint64_t m_nPreviousUniverse_ = {}, uint64_t m_nCurrentUniverse_ = {}) noexcept : m_nPreviousUniverse{m_nPreviousUniverse_}, m_nCurrentUniverse{m_nCurrentUniverse_} {}
   }; // OVR.OpenVR.VREvent_Chaperone_t
+  check_size<sizeof(VREvent_Chaperone_t), 8 + sizeof(uint64_t) + 8 - (8 + sizeof(uint64_t)) % 8> __OVR_OpenVR_VREvent_Chaperone_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Chaperone_t, "OVR.OpenVR", "VREvent_Chaperone_t");

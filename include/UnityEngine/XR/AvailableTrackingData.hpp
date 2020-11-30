@@ -65,6 +65,7 @@ namespace UnityEngine::XR {
     // Set static field: static public UnityEngine.XR.AvailableTrackingData AngularAccelerationAvailable
     static void _set_AngularAccelerationAvailable(UnityEngine::XR::AvailableTrackingData value);
   }; // UnityEngine.XR.AvailableTrackingData
+  check_size<sizeof(AvailableTrackingData), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_XR_AvailableTrackingDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::AvailableTrackingData, "UnityEngine.XR", "AvailableTrackingData");

@@ -46,6 +46,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static HandsMovementMissionObjectiveChecker* New_ctor();
   }; // HandsMovementMissionObjectiveChecker
+  check_size<sizeof(HandsMovementMissionObjectiveChecker), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __GlobalNamespace_HandsMovementMissionObjectiveCheckerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HandsMovementMissionObjectiveChecker*, "", "HandsMovementMissionObjectiveChecker");

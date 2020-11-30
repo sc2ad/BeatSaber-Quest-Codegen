@@ -23,6 +23,7 @@ namespace System {
     // Creating value type constructor for type: BRECORD
     constexpr BRECORD(System::IntPtr pvRecord_ = {}, System::IntPtr pRecInfo_ = {}) noexcept : pvRecord{pvRecord_}, pRecInfo{pRecInfo_} {}
   }; // System.BRECORD
+  check_size<sizeof(BRECORD), 8 + sizeof(System::IntPtr) + 8 - (8 + sizeof(System::IntPtr)) % 8> __System_BRECORDSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::BRECORD, "System", "BRECORD");

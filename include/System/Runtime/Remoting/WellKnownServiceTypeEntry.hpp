@@ -49,6 +49,7 @@ namespace System::Runtime::Remoting {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Runtime.Remoting.WellKnownServiceTypeEntry
+  check_size<sizeof(WellKnownServiceTypeEntry), 48 + sizeof(System::Runtime::Remoting::WellKnownObjectMode) + 8 - (48 + sizeof(System::Runtime::Remoting::WellKnownObjectMode)) % 8> __System_Runtime_Remoting_WellKnownServiceTypeEntrySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::WellKnownServiceTypeEntry*, "System.Runtime.Remoting", "WellKnownServiceTypeEntry");

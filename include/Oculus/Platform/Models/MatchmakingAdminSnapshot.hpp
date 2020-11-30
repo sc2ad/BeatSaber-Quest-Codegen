@@ -33,6 +33,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DBDEC
     static MatchmakingAdminSnapshot* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.MatchmakingAdminSnapshot
+  check_size<sizeof(MatchmakingAdminSnapshot), 24 + sizeof(double) + 8 - (24 + sizeof(double)) % 8> __Oculus_Platform_Models_MatchmakingAdminSnapshotSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingAdminSnapshot*, "Oculus.Platform.Models", "MatchmakingAdminSnapshot");

@@ -95,6 +95,7 @@ namespace System::Security::Claims {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Security.Claims.Claim
+  check_size<sizeof(Claim), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __System_Security_Claims_ClaimSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::Claim*, "System.Security.Claims", "Claim");

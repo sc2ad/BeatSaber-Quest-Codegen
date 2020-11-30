@@ -26,9 +26,12 @@ namespace System::Collections::Generic {
     // public System.Collections.Generic.IEnumerator`1<T> GetEnumerator()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_1_GetEnumerator() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerator_1<T>*>(this, "GetEnumerator"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IEnumerable_1").WithContext("GetEnumerator");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Collections::Generic::IEnumerator_1<T>*>(), "GetEnumerator", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerator_1<T>*, false>(this, ___internal__method);
     }
   }; // System.Collections.Generic.IEnumerable`1
+  // Could not write size check! Type: System.Collections.Generic.IEnumerable`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::IEnumerable_1, "System.Collections.Generic", "IEnumerable`1");
 #pragma pack(pop)

@@ -22,6 +22,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Creating value type constructor for type: ItemPriority_2
     constexpr ItemPriority_2(TItem Item_ = {}, TPriority Priority_ = {}) noexcept : Item{Item_}, Priority{Priority_} {}
   }; // UnityEngine.ProBuilder.KdTree.ItemPriority`2
+  // Could not write size check! Type: UnityEngine.ProBuilder.KdTree.ItemPriority`2 is generic!
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::ProBuilder::KdTree::ItemPriority_2, "UnityEngine.ProBuilder.KdTree", "ItemPriority`2");

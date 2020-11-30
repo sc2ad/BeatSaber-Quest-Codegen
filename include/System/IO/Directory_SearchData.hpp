@@ -28,6 +28,7 @@ namespace System::IO {
     // Offset: 0x1435920
     static Directory::SearchData* New_ctor(::Il2CppString* fullPath, ::Il2CppString* userPath, System::IO::SearchOption searchOption);
   }; // System.IO.Directory/SearchData
+  check_size<sizeof(Directory::SearchData), 32 + sizeof(System::IO::SearchOption) + 8 - (32 + sizeof(System::IO::SearchOption)) % 8> __System_IO_Directory_SearchDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Directory::SearchData*, "System.IO", "Directory/SearchData");

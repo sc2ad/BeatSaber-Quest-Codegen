@@ -226,6 +226,7 @@ namespace System::Collections {
     // Maps to method: RemoveAt
     void System_Collections_IList_RemoveAt(int index);
   }; // System.Collections.ArrayList
+  check_size<sizeof(ArrayList), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Collections_ArrayListSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ArrayList*, "System.Collections", "ArrayList");

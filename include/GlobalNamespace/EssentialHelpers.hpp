@@ -35,7 +35,10 @@ namespace GlobalNamespace {
     template<class T>
     static T GetOrAddComponent(UnityEngine::GameObject* go) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("", "EssentialHelpers", "GetOrAddComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, go)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("EssentialHelpers").WithContext("GetOrAddComponent");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "EssentialHelpers", il2cpp_utils::NoArgClass<T>(), "GetOrAddComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(go))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, go);
     }
   }; // EssentialHelpers
 }

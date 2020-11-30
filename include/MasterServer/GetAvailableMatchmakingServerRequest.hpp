@@ -78,6 +78,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static GetAvailableMatchmakingServerRequest* New_ctor();
   }; // MasterServer.GetAvailableMatchmakingServerRequest
+  check_size<sizeof(GetAvailableMatchmakingServerRequest), 32 + sizeof(GlobalNamespace::GameplayServerConfiguration) + 8 - (32 + sizeof(GlobalNamespace::GameplayServerConfiguration)) % 8> __MasterServer_GetAvailableMatchmakingServerRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetAvailableMatchmakingServerRequest*, "MasterServer", "GetAvailableMatchmakingServerRequest");

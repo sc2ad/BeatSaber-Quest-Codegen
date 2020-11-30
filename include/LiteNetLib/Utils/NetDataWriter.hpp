@@ -187,7 +187,10 @@ namespace LiteNetLib::Utils {
     template<class T>
     void Put(T obj) {
       static_assert(std::is_base_of_v<LiteNetLib::Utils::INetSerializable, std::remove_pointer_t<T>>);
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "Put", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, obj));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("NetDataWriter").WithContext("Put");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Put", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(obj))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, obj);
     }
     // public System.Void .ctor()
     // Offset: 0x1DC4CAC
@@ -195,6 +198,7 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void Object::.ctor()
     static NetDataWriter* New_ctor();
   }; // LiteNetLib.Utils.NetDataWriter
+  check_size<sizeof(NetDataWriter), 28 + sizeof(bool) + 8 - (28 + sizeof(bool)) % 8> __LiteNetLib_Utils_NetDataWriterSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetDataWriter*, "LiteNetLib.Utils", "NetDataWriter");
 #pragma pack(pop)

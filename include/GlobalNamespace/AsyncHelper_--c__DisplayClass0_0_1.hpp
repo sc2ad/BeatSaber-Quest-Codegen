@@ -74,16 +74,21 @@ namespace GlobalNamespace {
       // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
       // Base method: System.Void IAsyncStateMachine::MoveNext()
       void MoveNext() {
-        THROW_UNLESS(il2cpp_utils::RunMethod(*this, "MoveNext"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$RunSync$b__0$d").WithContext("MoveNext");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "MoveNext", {}, ::il2cpp_utils::ExtractTypes()));
+        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method);
       }
       // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
       // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
       void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-        THROW_UNLESS(il2cpp_utils::RunMethod(*this, "SetStateMachine", stateMachine));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$RunSync$b__0$d").WithContext("SetStateMachine");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "SetStateMachine", {}, ::il2cpp_utils::ExtractTypes(stateMachine)));
+        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, stateMachine);
       }
     }; // AsyncHelper/<>c__DisplayClass0_0`1/<<RunSync>b__0>d
+    // Could not write size check! Type: AsyncHelper/<>c__DisplayClass0_0`1/<<RunSync>b__0>d is generic!
     // public T result
     // Offset: 0x0
     T result;
@@ -93,16 +98,20 @@ namespace GlobalNamespace {
     // System.Threading.Tasks.Task <RunSync>b__0()
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task* $RunSync$b__0() {
-      return THROW_UNLESS((il2cpp_utils::RunMethod<System::Threading::Tasks::Task*>(this, "<RunSync>b__0")));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass0_0_1").WithContext("<RunSync>b__0");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Threading::Tasks::Task*>(), "<RunSync>b__0", {}, ::il2cpp_utils::ExtractTypes())));
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task*, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static AsyncHelper::$$c__DisplayClass0_0_1<T>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<AsyncHelper::$$c__DisplayClass0_0_1<T>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass0_0_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<AsyncHelper::$$c__DisplayClass0_0_1<T>*>());
     }
   }; // AsyncHelper/<>c__DisplayClass0_0`1
+  // Could not write size check! Type: AsyncHelper/<>c__DisplayClass0_0`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::AsyncHelper::$$c__DisplayClass0_0_1, "", "AsyncHelper/<>c__DisplayClass0_0`1");
 #pragma pack(pop)

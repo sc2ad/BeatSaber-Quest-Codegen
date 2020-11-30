@@ -55,6 +55,7 @@ namespace Mono {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // Mono.SafeGPtrArrayHandle
+  check_size<sizeof(SafeGPtrArrayHandle), 0 + sizeof(Mono::RuntimeGPtrArrayHandle) + 8 - (0 + sizeof(Mono::RuntimeGPtrArrayHandle)) % 8> __Mono_SafeGPtrArrayHandleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::SafeGPtrArrayHandle, "Mono", "SafeGPtrArrayHandle");

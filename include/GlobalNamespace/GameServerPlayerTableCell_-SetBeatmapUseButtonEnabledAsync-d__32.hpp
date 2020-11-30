@@ -68,6 +68,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // GameServerPlayerTableCell/<SetBeatmapUseButtonEnabledAsync>d__32
+  check_size<sizeof(GameServerPlayerTableCell::$SetBeatmapUseButtonEnabledAsync$d__32), 64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>) + 8 - (64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>)) % 8> __GlobalNamespace_GameServerPlayerTableCell_$SetBeatmapUseButtonEnabledAsync$d__32SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayerTableCell::$SetBeatmapUseButtonEnabledAsync$d__32, "", "GameServerPlayerTableCell/<SetBeatmapUseButtonEnabledAsync>d__32");

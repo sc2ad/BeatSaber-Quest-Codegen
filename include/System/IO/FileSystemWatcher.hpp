@@ -193,6 +193,7 @@ namespace System::IO {
     // Base method: System.Void Component::.cctor()
     static void _cctor();
   }; // System.IO.FileSystemWatcher
+  check_size<sizeof(FileSystemWatcher), 192 + sizeof(void*) + 8 - (192 + sizeof(void*)) % 8> __System_IO_FileSystemWatcherSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemWatcher*, "System.IO", "FileSystemWatcher");

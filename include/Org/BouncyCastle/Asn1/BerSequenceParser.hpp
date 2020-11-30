@@ -42,6 +42,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: Org.BouncyCastle.Asn1.Asn1Object IAsn1Convertible::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.BerSequenceParser
+  check_size<sizeof(BerSequenceParser), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Org_BouncyCastle_Asn1_BerSequenceParserSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerSequenceParser*, "Org.BouncyCastle.Asn1", "BerSequenceParser");

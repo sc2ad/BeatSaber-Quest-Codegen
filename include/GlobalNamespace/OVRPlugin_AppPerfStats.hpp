@@ -32,6 +32,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AppPerfStats
     constexpr AppPerfStats(::Array<GlobalNamespace::OVRPlugin::AppPerfFrameStats>* FrameStats_ = {}, int FrameStatsCount_ = {}, GlobalNamespace::OVRPlugin::Bool AnyFrameStatsDropped_ = {}, float AdaptiveGpuPerformanceScale_ = {}) noexcept : FrameStats{FrameStats_}, FrameStatsCount{FrameStatsCount_}, AnyFrameStatsDropped{AnyFrameStatsDropped_}, AdaptiveGpuPerformanceScale{AdaptiveGpuPerformanceScale_} {}
   }; // OVRPlugin/AppPerfStats
+  check_size<sizeof(OVRPlugin::AppPerfStats), 16 + sizeof(float) + 8 - (16 + sizeof(float)) % 8> __GlobalNamespace_OVRPlugin_AppPerfStatsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::AppPerfStats, "", "OVRPlugin/AppPerfStats");

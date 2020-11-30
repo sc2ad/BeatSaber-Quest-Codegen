@@ -38,6 +38,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SetActiveRT* New_ctor();
   }; // SetActiveRT
+  check_size<sizeof(SetActiveRT), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_SetActiveRTSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetActiveRT*, "", "SetActiveRT");

@@ -44,6 +44,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static TMP_TextElement_Legacy* New_ctor();
   }; // TMPro.TMP_TextElement_Legacy
+  check_size<sizeof(TMP_TextElement_Legacy), 48 + sizeof(float) + 8 - (48 + sizeof(float)) % 8> __TMPro_TMP_TextElement_LegacySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextElement_Legacy*, "TMPro", "TMP_TextElement_Legacy");

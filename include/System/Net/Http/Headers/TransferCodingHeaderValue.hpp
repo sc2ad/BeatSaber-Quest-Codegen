@@ -84,6 +84,7 @@ namespace System::Net::Http::Headers {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.TransferCodingHeaderValue
+  check_size<sizeof(TransferCodingHeaderValue), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Net_Http_Headers_TransferCodingHeaderValueSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::TransferCodingHeaderValue*, "System.Net.Http.Headers", "TransferCodingHeaderValue");

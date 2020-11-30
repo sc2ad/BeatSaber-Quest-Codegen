@@ -24,6 +24,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x11638E4
     static TypeDependencyAttribute* New_ctor(::Il2CppString* typeName);
   }; // System.Runtime.CompilerServices.TypeDependencyAttribute
+  check_size<sizeof(TypeDependencyAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Runtime_CompilerServices_TypeDependencyAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::TypeDependencyAttribute*, "System.Runtime.CompilerServices", "TypeDependencyAttribute");

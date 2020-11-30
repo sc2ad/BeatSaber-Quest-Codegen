@@ -50,6 +50,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MenuInstaller* New_ctor();
   }; // MenuInstaller
+  check_size<sizeof(MenuInstaller), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_MenuInstallerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuInstaller*, "", "MenuInstaller");

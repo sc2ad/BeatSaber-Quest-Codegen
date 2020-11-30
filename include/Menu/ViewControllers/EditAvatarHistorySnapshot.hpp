@@ -36,6 +36,7 @@ namespace Menu::ViewControllers {
     // Offset: 0x1A71E3C
     static EditAvatarHistorySnapshot* New_ctor(GlobalNamespace::AvatarData* avatarData, GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart);
   }; // Menu.ViewControllers.EditAvatarHistorySnapshot
+  check_size<sizeof(EditAvatarHistorySnapshot), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Menu_ViewControllers_EditAvatarHistorySnapshotSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Menu::ViewControllers::EditAvatarHistorySnapshot*, "Menu.ViewControllers", "EditAvatarHistorySnapshot");

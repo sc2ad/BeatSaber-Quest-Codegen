@@ -79,6 +79,7 @@ namespace Mono::Net {
     // Base method: System.Boolean IWebProxy::IsBypassed(System.Uri targetUri)
     bool IsBypassed(System::Uri* targetUri);
   }; // Mono.Net.CFNetwork/CFWebProxy
+  check_size<sizeof(CFNetwork::CFWebProxy), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __Mono_Net_CFNetwork_CFWebProxySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::CFWebProxy*, "Mono.Net", "CFNetwork/CFWebProxy");

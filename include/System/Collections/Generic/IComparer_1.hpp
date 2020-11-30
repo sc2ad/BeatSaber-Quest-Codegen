@@ -16,9 +16,12 @@ namespace System::Collections::Generic {
     // public System.Int32 Compare(T x, T y)
     // Offset: 0xFFFFFFFF
     int Compare(T x, T y) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "Compare", x, y));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IComparer_1").WithContext("Compare");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "Compare", {}, ::il2cpp_utils::ExtractTypes(x, y)));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, x, y);
     }
   }; // System.Collections.Generic.IComparer`1
+  // Could not write size check! Type: System.Collections.Generic.IComparer`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::IComparer_1, "System.Collections.Generic", "IComparer`1");
 #pragma pack(pop)

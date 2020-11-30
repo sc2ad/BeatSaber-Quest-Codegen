@@ -33,6 +33,7 @@ namespace Priority_Queue {
     // Base method: System.Void Object::.ctor()
     static StablePriorityQueueNode* New_ctor();
   }; // Priority_Queue.StablePriorityQueueNode
+  check_size<sizeof(StablePriorityQueueNode), 24 + sizeof(int64_t) + 8 - (24 + sizeof(int64_t)) % 8> __Priority_Queue_StablePriorityQueueNodeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Priority_Queue::StablePriorityQueueNode*, "Priority_Queue", "StablePriorityQueueNode");

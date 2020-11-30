@@ -57,6 +57,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRMixedRealityCaptureTest/CameraMode ThirdPerson
       static void _set_ThirdPerson(GlobalNamespace::OVRMixedRealityCaptureTest::CameraMode value);
     }; // OVRMixedRealityCaptureTest/CameraMode
+    check_size<sizeof(OVRMixedRealityCaptureTest::CameraMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRMixedRealityCaptureTest_CameraModeSizeCheck;
     // private System.Boolean inited
     // Offset: 0x18
     bool inited;
@@ -93,6 +94,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRMixedRealityCaptureTest* New_ctor();
   }; // OVRMixedRealityCaptureTest
+  check_size<sizeof(OVRMixedRealityCaptureTest), 40 + sizeof(GlobalNamespace::OVRPlugin::Fovf) + 8 - (40 + sizeof(GlobalNamespace::OVRPlugin::Fovf)) % 8> __GlobalNamespace_OVRMixedRealityCaptureTestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureTest*, "", "OVRMixedRealityCaptureTest");

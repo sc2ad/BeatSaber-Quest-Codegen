@@ -94,6 +94,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ControllersTransformSettingsViewController* New_ctor();
   }; // ControllersTransformSettingsViewController
+  check_size<sizeof(ControllersTransformSettingsViewController), 168 + sizeof(void*) + 8 - (168 + sizeof(void*)) % 8> __GlobalNamespace_ControllersTransformSettingsViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ControllersTransformSettingsViewController*, "", "ControllersTransformSettingsViewController");

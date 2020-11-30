@@ -143,6 +143,7 @@ namespace System::Net {
     // Set static field: static public System.Net.CookieToken Version
     static void _set_Version(System::Net::CookieToken value);
   }; // System.Net.CookieToken
+  check_size<sizeof(CookieToken), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Net_CookieTokenSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieToken, "System.Net", "CookieToken");

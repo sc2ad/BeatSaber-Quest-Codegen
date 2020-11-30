@@ -31,6 +31,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: InputDigitalActionData_t
     constexpr InputDigitalActionData_t(bool bActive_ = {}, uint64_t activeOrigin_ = {}, bool bState_ = {}, bool bChanged_ = {}, float fUpdateTime_ = {}) noexcept : bActive{bActive_}, activeOrigin{activeOrigin_}, bState{bState_}, bChanged{bChanged_}, fUpdateTime{fUpdateTime_} {}
   }; // OVR.OpenVR.InputDigitalActionData_t
+  check_size<sizeof(InputDigitalActionData_t), 20 + sizeof(float) + 8 - (20 + sizeof(float)) % 8> __OVR_OpenVR_InputDigitalActionData_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::InputDigitalActionData_t, "OVR.OpenVR", "InputDigitalActionData_t");

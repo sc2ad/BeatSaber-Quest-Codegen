@@ -60,6 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // ShaderWarmupSceneSetup/<Start>d__2
+  check_size<sizeof(ShaderWarmupSceneSetup::$Start$d__2), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_ShaderWarmupSceneSetup_$Start$d__2SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderWarmupSceneSetup::$Start$d__2*, "", "ShaderWarmupSceneSetup/<Start>d__2");

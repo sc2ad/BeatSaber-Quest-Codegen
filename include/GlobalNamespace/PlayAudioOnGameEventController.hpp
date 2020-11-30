@@ -46,6 +46,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PlayAudioOnGameEventController* New_ctor();
   }; // PlayAudioOnGameEventController
+  check_size<sizeof(PlayAudioOnGameEventController), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_PlayAudioOnGameEventControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayAudioOnGameEventController*, "", "PlayAudioOnGameEventController");

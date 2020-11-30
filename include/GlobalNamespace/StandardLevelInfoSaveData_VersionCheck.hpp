@@ -29,6 +29,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static StandardLevelInfoSaveData::VersionCheck* New_ctor();
   }; // StandardLevelInfoSaveData/VersionCheck
+  check_size<sizeof(StandardLevelInfoSaveData::VersionCheck), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_StandardLevelInfoSaveData_VersionCheckSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData::VersionCheck*, "", "StandardLevelInfoSaveData/VersionCheck");

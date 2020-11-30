@@ -47,6 +47,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MasterServerConnectionManager::ConnectToServerParams* New_ctor();
   }; // MasterServerConnectionManager/ConnectToServerParams
+  check_size<sizeof(MasterServerConnectionManager::ConnectToServerParams), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __GlobalNamespace_MasterServerConnectionManager_ConnectToServerParamsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::ConnectToServerParams*, "", "MasterServerConnectionManager/ConnectToServerParams");

@@ -32,6 +32,7 @@ namespace Zenject {
     // Offset: 0x129FBBC
     void WithId(::Il2CppObject* identifier);
   }; // Zenject.IdBinder
+  check_size<sizeof(IdBinder), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Zenject_IdBinderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IdBinder*, "Zenject", "IdBinder");

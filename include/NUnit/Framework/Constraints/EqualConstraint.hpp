@@ -66,7 +66,10 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFF
     template<class T>
     void AdjustArgumentIfNeeded(T& arg) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "AdjustArgumentIfNeeded", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, arg));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Constraints").WithContext("EqualConstraint").WithContext("AdjustArgumentIfNeeded");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "AdjustArgumentIfNeeded", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(arg))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, arg);
     }
     // public override NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
     // Offset: 0x13DCD68
@@ -79,6 +82,7 @@ namespace NUnit::Framework::Constraints {
     // Base method: System.String Constraint::get_Description()
     ::Il2CppString* get_Description();
   }; // NUnit.Framework.Constraints.EqualConstraint
+  check_size<sizeof(EqualConstraint), 72 + sizeof(bool) + 8 - (72 + sizeof(bool)) % 8> __NUnit_Framework_Constraints_EqualConstraintSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::EqualConstraint*, "NUnit.Framework.Constraints", "EqualConstraint");
 #pragma pack(pop)

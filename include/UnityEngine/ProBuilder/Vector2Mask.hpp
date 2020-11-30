@@ -65,6 +65,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x19506BC
     static void _cctor();
   }; // UnityEngine.ProBuilder.Vector2Mask
+  check_size<sizeof(Vector2Mask), 0 + sizeof(uint8_t) + 8 - (0 + sizeof(uint8_t)) % 8> __UnityEngine_ProBuilder_Vector2MaskSizeCheck;
   // static public UnityEngine.ProBuilder.Vector2Mask op_BitwiseOr(UnityEngine.ProBuilder.Vector2Mask left, UnityEngine.ProBuilder.Vector2Mask right)
   // Offset: 0x1950648
   UnityEngine::ProBuilder::Vector2Mask operator|(const UnityEngine::ProBuilder::Vector2Mask& left, const UnityEngine::ProBuilder::Vector2Mask& right);

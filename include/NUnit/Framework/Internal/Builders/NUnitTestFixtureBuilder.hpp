@@ -68,6 +68,7 @@ namespace NUnit::Framework::Internal::Builders {
     // Base method: System.Void Object::.ctor()
     static NUnitTestFixtureBuilder* New_ctor();
   }; // NUnit.Framework.Internal.Builders.NUnitTestFixtureBuilder
+  check_size<sizeof(NUnitTestFixtureBuilder), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __NUnit_Framework_Internal_Builders_NUnitTestFixtureBuilderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*, "NUnit.Framework.Internal.Builders", "NUnitTestFixtureBuilder");

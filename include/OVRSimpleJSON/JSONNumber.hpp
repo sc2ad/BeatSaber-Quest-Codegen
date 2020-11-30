@@ -104,6 +104,7 @@ namespace OVRSimpleJSON {
     // Base method: System.Int32 JSONNode::GetHashCode()
     int GetHashCode();
   }; // OVRSimpleJSON.JSONNumber
+  check_size<sizeof(JSONNumber), 16 + sizeof(double) + 8 - (16 + sizeof(double)) % 8> __OVRSimpleJSON_JSONNumberSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNumber*, "OVRSimpleJSON", "JSONNumber");

@@ -97,6 +97,7 @@ namespace GlobalNamespace {
     // Base method: TState IStateTable_2::GetState(NodePoseSyncState/NodePose nodePose)
     GlobalNamespace::PoseSerializable GetState(GlobalNamespace::NodePoseSyncState_NodePose nodePose);
   }; // NodePoseSyncState
+  check_size<sizeof(NodePoseSyncState), 56 + sizeof(GlobalNamespace::PoseSerializable) + 8 - (56 + sizeof(GlobalNamespace::PoseSerializable)) % 8> __GlobalNamespace_NodePoseSyncStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodePoseSyncState, "", "NodePoseSyncState");

@@ -37,6 +37,7 @@ namespace VRUIControls {
     // Base method: System.Void Object::.ctor()
     static MouseButtonEventData* New_ctor();
   }; // VRUIControls.MouseButtonEventData
+  check_size<sizeof(MouseButtonEventData), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __VRUIControls_MouseButtonEventDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::MouseButtonEventData*, "VRUIControls", "MouseButtonEventData");

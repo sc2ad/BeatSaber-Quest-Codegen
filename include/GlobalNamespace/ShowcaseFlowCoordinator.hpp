@@ -169,6 +169,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ShowcaseFlowCoordinator* New_ctor();
   }; // ShowcaseFlowCoordinator
+  check_size<sizeof(ShowcaseFlowCoordinator), 344 + sizeof(void*) + 8 - (344 + sizeof(void*)) % 8> __GlobalNamespace_ShowcaseFlowCoordinatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowcaseFlowCoordinator*, "", "ShowcaseFlowCoordinator");

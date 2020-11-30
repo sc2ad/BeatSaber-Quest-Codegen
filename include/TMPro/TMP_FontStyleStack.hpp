@@ -62,6 +62,7 @@ namespace TMPro {
     // Offset: 0xC92C18
     uint8_t Remove(TMPro::FontStyles style);
   }; // TMPro.TMP_FontStyleStack
+  check_size<sizeof(TMP_FontStyleStack), 9 + sizeof(uint8_t) + 8 - (9 + sizeof(uint8_t)) % 8> __TMPro_TMP_FontStyleStackSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontStyleStack, "TMPro", "TMP_FontStyleStack");

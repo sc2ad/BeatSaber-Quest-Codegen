@@ -66,6 +66,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NetEaseAppInit* New_ctor();
   }; // NetEaseAppInit
+  check_size<sizeof(NetEaseAppInit), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __GlobalNamespace_NetEaseAppInitSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseAppInit*, "", "NetEaseAppInit");

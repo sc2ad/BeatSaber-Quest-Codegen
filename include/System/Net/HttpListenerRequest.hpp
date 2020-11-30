@@ -161,6 +161,7 @@ namespace System::Net {
     // Offset: 0x12B1564
     static void _cctor();
   }; // System.Net.HttpListenerRequest
+  check_size<sizeof(HttpListenerRequest), 130 + sizeof(bool) + 8 - (130 + sizeof(bool)) % 8> __System_Net_HttpListenerRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerRequest*, "System.Net", "HttpListenerRequest");

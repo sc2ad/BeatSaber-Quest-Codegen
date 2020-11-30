@@ -71,6 +71,7 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.ObjectDisposedException
+  check_size<sizeof(ObjectDisposedException), 136 + sizeof(void*) + 8 - (136 + sizeof(void*)) % 8> __System_ObjectDisposedExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ObjectDisposedException*, "System", "ObjectDisposedException");

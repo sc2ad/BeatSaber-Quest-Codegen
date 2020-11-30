@@ -104,6 +104,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static DemoMenuLevelPanelView* New_ctor();
   }; // DemoMenuLevelPanelView
+  check_size<sizeof(DemoMenuLevelPanelView), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __GlobalNamespace_DemoMenuLevelPanelViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DemoMenuLevelPanelView*, "", "DemoMenuLevelPanelView");

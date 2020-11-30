@@ -105,6 +105,7 @@ namespace Valve::VR {
     // Offset: 0x13692A0
     bool ImportFromBufferToWorking(::Il2CppString* pBuffer, uint nImportFlags);
   }; // Valve.VR.CVRChaperoneSetup
+  check_size<sizeof(CVRChaperoneSetup), 16 + sizeof(Valve::VR::IVRChaperoneSetup) + 8 - (16 + sizeof(Valve::VR::IVRChaperoneSetup)) % 8> __Valve_VR_CVRChaperoneSetupSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRChaperoneSetup*, "Valve.VR", "CVRChaperoneSetup");

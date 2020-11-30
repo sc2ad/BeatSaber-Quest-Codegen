@@ -162,6 +162,7 @@ namespace System {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Version
+  check_size<sizeof(Version), 28 + sizeof(int) + 8 - (28 + sizeof(int)) % 8> __System_VersionSizeCheck;
   // static public System.Boolean op_Equality(System.Version v1, System.Version v2)
   // Offset: 0x1661390
   bool operator ==(System::Version* v1, System::Version& v2);

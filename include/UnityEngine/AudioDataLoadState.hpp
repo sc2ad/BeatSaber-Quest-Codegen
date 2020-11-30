@@ -47,6 +47,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.AudioDataLoadState Failed
     static void _set_Failed(UnityEngine::AudioDataLoadState value);
   }; // UnityEngine.AudioDataLoadState
+  check_size<sizeof(AudioDataLoadState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_AudioDataLoadStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioDataLoadState, "UnityEngine", "AudioDataLoadState");

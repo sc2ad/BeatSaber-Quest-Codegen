@@ -136,6 +136,7 @@ namespace System::Net {
     // Maps to method: get_IsCompleted
     bool System_IAsyncResult_get_IsCompleted();
   }; // System.Net.FtpAsyncResult
+  check_size<sizeof(FtpAsyncResult), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __System_Net_FtpAsyncResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpAsyncResult*, "System.Net", "FtpAsyncResult");

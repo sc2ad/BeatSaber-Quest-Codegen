@@ -56,6 +56,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LevelParamsPanel* New_ctor();
   }; // LevelParamsPanel
+  check_size<sizeof(LevelParamsPanel), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_LevelParamsPanelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelParamsPanel*, "", "LevelParamsPanel");

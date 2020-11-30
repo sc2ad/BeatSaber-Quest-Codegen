@@ -35,6 +35,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BTSCharacterMaterialSwitcher::MaterialPairs* New_ctor();
   }; // BTSCharacterMaterialSwitcher/MaterialPairs
+  check_size<sizeof(BTSCharacterMaterialSwitcher::MaterialPairs), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_BTSCharacterMaterialSwitcher_MaterialPairsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*, "", "BTSCharacterMaterialSwitcher/MaterialPairs");

@@ -138,7 +138,10 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void CheckGameObjectReference(T& value) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("NUnit.Framework.Constraints", "NUnitEqualityComparer", "CheckGameObjectReference", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Constraints").WithContext("NUnitEqualityComparer").WithContext("CheckGameObjectReference");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("NUnit.Framework.Constraints", "NUnitEqualityComparer", il2cpp_utils::NoArgClass<void>(), "CheckGameObjectReference", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(value))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
     }
     // static private System.Void .cctor()
     // Offset: 0x13E49F8
@@ -149,6 +152,7 @@ namespace NUnit::Framework::Constraints {
     // Base method: System.Void Object::.ctor()
     static NUnitEqualityComparer* New_ctor();
   }; // NUnit.Framework.Constraints.NUnitEqualityComparer
+  check_size<sizeof(NUnitEqualityComparer), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __NUnit_Framework_Constraints_NUnitEqualityComparerSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::NUnitEqualityComparer*, "NUnit.Framework.Constraints", "NUnitEqualityComparer");
 #pragma pack(pop)

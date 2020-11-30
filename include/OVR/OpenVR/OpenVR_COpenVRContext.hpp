@@ -134,6 +134,7 @@ namespace OVR::OpenVR {
     // Base method: System.Void Object::.ctor()
     static OpenVR::COpenVRContext* New_ctor();
   }; // OVR.OpenVR.OpenVR/COpenVRContext
+  check_size<sizeof(OpenVR::COpenVRContext), 112 + sizeof(void*) + 8 - (112 + sizeof(void*)) % 8> __OVR_OpenVR_OpenVR_COpenVRContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::OpenVR::COpenVRContext*, "OVR.OpenVR", "OpenVR/COpenVRContext");

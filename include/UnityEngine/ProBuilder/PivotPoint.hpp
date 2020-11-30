@@ -41,6 +41,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.PivotPoint ActiveElement
     static void _set_ActiveElement(UnityEngine::ProBuilder::PivotPoint value);
   }; // UnityEngine.ProBuilder.PivotPoint
+  check_size<sizeof(PivotPoint), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_ProBuilder_PivotPointSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PivotPoint, "UnityEngine.ProBuilder", "PivotPoint");

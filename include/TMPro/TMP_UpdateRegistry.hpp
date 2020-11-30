@@ -79,6 +79,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static TMP_UpdateRegistry* New_ctor();
   }; // TMPro.TMP_UpdateRegistry
+  check_size<sizeof(TMP_UpdateRegistry), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __TMPro_TMP_UpdateRegistrySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_UpdateRegistry*, "TMPro", "TMP_UpdateRegistry");

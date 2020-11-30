@@ -69,6 +69,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ShowHideAnimationController* New_ctor();
   }; // ShowHideAnimationController
+  check_size<sizeof(ShowHideAnimationController), 44 + sizeof(int) + 8 - (44 + sizeof(int)) % 8> __GlobalNamespace_ShowHideAnimationControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowHideAnimationController*, "", "ShowHideAnimationController");

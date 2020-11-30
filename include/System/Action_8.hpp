@@ -28,24 +28,32 @@ namespace System {
     // public System.Void .ctor(System.Object object, System.IntPtr method)
     // Offset: 0xFFFFFFFF
     static Action_8<T1, T2, T3, T4, T5, T6, T7, T8>* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-      return THROW_UNLESS((il2cpp_utils::New<Action_8<T1, T2, T3, T4, T5, T6, T7, T8>*>(object, method)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Action_8").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<Action_8<T1, T2, T3, T4, T5, T6, T7, T8>*>(object, method)));
     }
     // public System.Void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8)
     // Offset: 0xFFFFFFFF
     void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invoke", arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Action_8").WithContext("Invoke");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Invoke", {}, ::il2cpp_utils::ExtractTypes(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8);
     }
     // public System.IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
     System::IAsyncResult* BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, System::AsyncCallback* callback, ::Il2CppObject* object) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::IAsyncResult*>(this, "BeginInvoke", arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, callback, object));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Action_8").WithContext("BeginInvoke");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::IAsyncResult*>(), "BeginInvoke", {}, ::il2cpp_utils::ExtractTypes(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, callback, object)));
+      return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, callback, object);
     }
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xFFFFFFFF
     void EndInvoke(System::IAsyncResult* result) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "EndInvoke", result));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Action_8").WithContext("EndInvoke");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "EndInvoke", {}, ::il2cpp_utils::ExtractTypes(result)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
     }
   }; // System.Action`8
+  // Could not write size check! Type: System.Action`8 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Action_8, "System", "Action`8");
 #pragma pack(pop)

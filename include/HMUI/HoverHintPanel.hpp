@@ -77,6 +77,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static HoverHintPanel* New_ctor();
   }; // HMUI.HoverHintPanel
+  check_size<sizeof(HoverHintPanel), 56 + sizeof(bool) + 8 - (56 + sizeof(bool)) % 8> __HMUI_HoverHintPanelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHintPanel*, "HMUI", "HoverHintPanel");

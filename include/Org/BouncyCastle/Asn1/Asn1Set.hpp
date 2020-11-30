@@ -95,6 +95,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.Asn1Set
+  check_size<sizeof(Asn1Set), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Org_BouncyCastle_Asn1_Asn1SetSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1Set*, "Org.BouncyCastle.Asn1", "Asn1Set");

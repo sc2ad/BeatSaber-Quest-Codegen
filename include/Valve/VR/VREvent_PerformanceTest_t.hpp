@@ -22,6 +22,7 @@ namespace Valve::VR {
       return m_nFidelityLevel;
     }
   }; // Valve.VR.VREvent_PerformanceTest_t
+  check_size<sizeof(VREvent_PerformanceTest_t), 0 + sizeof(uint) + 8 - (0 + sizeof(uint)) % 8> __Valve_VR_VREvent_PerformanceTest_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_PerformanceTest_t, "Valve.VR", "VREvent_PerformanceTest_t");

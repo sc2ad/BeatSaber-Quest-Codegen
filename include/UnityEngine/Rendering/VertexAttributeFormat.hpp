@@ -95,6 +95,7 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.VertexAttributeFormat SInt32
     static void _set_SInt32(UnityEngine::Rendering::VertexAttributeFormat value);
   }; // UnityEngine.Rendering.VertexAttributeFormat
+  check_size<sizeof(VertexAttributeFormat), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Rendering_VertexAttributeFormatSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::VertexAttributeFormat, "UnityEngine.Rendering", "VertexAttributeFormat");

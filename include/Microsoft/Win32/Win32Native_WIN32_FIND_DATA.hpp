@@ -25,6 +25,7 @@ namespace Microsoft::Win32 {
     // Base method: System.Void Object::.ctor()
     static Win32Native::WIN32_FIND_DATA* New_ctor();
   }; // Microsoft.Win32.Win32Native/WIN32_FIND_DATA
+  check_size<sizeof(Win32Native::WIN32_FIND_DATA), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Microsoft_Win32_Win32Native_WIN32_FIND_DATASizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::Win32Native::WIN32_FIND_DATA*, "Microsoft.Win32", "Win32Native/WIN32_FIND_DATA");

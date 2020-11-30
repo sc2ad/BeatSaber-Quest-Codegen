@@ -40,9 +40,13 @@ namespace Zenject {
     template<class TKernel>
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel() {
       static_assert(std::is_convertible_v<TKernel, Zenject::Kernel*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, "WithKernel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKernel>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder").WithContext("WithKernel");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*>(), "WithKernel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKernel>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKernel>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(this, ___internal__method);
     }
   }; // Zenject.WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder
+  check_size<sizeof(WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Zenject_WithKernelScopeConcreteIdArgConditionCopyNonLazyBinderSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder");
 #pragma pack(pop)

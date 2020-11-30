@@ -27,6 +27,7 @@ namespace DataModels::PlayerAvatar {
     // Offset: 0x1A58D18
     static RandomizeAvatarColorMap* New_ctor(int headTopPrimaryColorIndex, int headTopSecondaryColorIndex, int glassesColorIndex, int facialHairColorIndex, int handsColorIndex, int clothesPrimaryColorIndex, int clothesSecondaryColorIndex, int clothesDetailColorIndex);
   }; // DataModels.PlayerAvatar.RandomizeAvatarColorMap
+  check_size<sizeof(RandomizeAvatarColorMap), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __DataModels_PlayerAvatar_RandomizeAvatarColorMapSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(DataModels::PlayerAvatar::RandomizeAvatarColorMap*, "DataModels.PlayerAvatar", "RandomizeAvatarColorMap");

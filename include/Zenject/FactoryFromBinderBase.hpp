@@ -142,7 +142,10 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     Zenject::ConcreteBinderGeneric_1<T>* CreateIFactoryBinder(System::Guid& factoryId) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ConcreteBinderGeneric_1<T>*>(this, "CreateIFactoryBinder", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, factoryId)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("FactoryFromBinderBase").WithContext("CreateIFactoryBinder");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::ConcreteBinderGeneric_1<T>*>(), "CreateIFactoryBinder", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(factoryId))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::ConcreteBinderGeneric_1<T>*, false>(this, ___internal__method, factoryId);
     }
     // public Zenject.ConditionCopyNonLazyBinder FromComponentOn(UnityEngine.GameObject gameObject)
     // Offset: 0x12956F8
@@ -187,6 +190,7 @@ namespace Zenject {
     // Offset: 0x12964B4
     UnityEngine::GameObject* $FromComponentOnRoot$b__25_0(Zenject::InjectContext* ctx);
   }; // Zenject.FactoryFromBinderBase
+  check_size<sizeof(FactoryFromBinderBase), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __Zenject_FactoryFromBinderBaseSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryFromBinderBase*, "Zenject", "FactoryFromBinderBase");
 #pragma pack(pop)

@@ -151,6 +151,7 @@ namespace System::Net {
     // Base method: System.Void Stream::.cctor()
     static void _cctor();
   }; // System.Net.ResponseStream
+  check_size<sizeof(ResponseStream), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __System_Net_ResponseStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ResponseStream*, "System.Net", "ResponseStream");

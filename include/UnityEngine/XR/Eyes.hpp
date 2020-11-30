@@ -52,6 +52,7 @@ namespace UnityEngine::XR {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.XR.Eyes
+  check_size<sizeof(Eyes), 8 + sizeof(uint) + 8 - (8 + sizeof(uint)) % 8> __UnityEngine_XR_EyesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Eyes, "UnityEngine.XR", "Eyes");

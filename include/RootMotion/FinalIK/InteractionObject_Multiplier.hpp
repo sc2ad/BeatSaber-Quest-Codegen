@@ -31,6 +31,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static InteractionObject::Multiplier* New_ctor();
   }; // RootMotion.FinalIK.InteractionObject/Multiplier
+  check_size<sizeof(InteractionObject::Multiplier), 24 + sizeof(RootMotion::FinalIK::InteractionObject::WeightCurve::Type) + 8 - (24 + sizeof(RootMotion::FinalIK::InteractionObject::WeightCurve::Type)) % 8> __RootMotion_FinalIK_InteractionObject_MultiplierSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::Multiplier*, "RootMotion.FinalIK", "InteractionObject/Multiplier");

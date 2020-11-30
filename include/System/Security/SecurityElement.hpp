@@ -134,6 +134,7 @@ namespace System::Security {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Security.SecurityElement
+  check_size<sizeof(SecurityElement), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Security_SecurityElementSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityElement*, "System.Security", "SecurityElement");

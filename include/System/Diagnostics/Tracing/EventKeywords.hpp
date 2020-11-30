@@ -83,6 +83,7 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static public System.Diagnostics.Tracing.EventKeywords EventLogClassic
     static void _set_EventLogClassic(System::Diagnostics::Tracing::EventKeywords value);
   }; // System.Diagnostics.Tracing.EventKeywords
+  check_size<sizeof(EventKeywords), 0 + sizeof(int64_t) + 8 - (0 + sizeof(int64_t)) % 8> __System_Diagnostics_Tracing_EventKeywordsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventKeywords, "System.Diagnostics.Tracing", "EventKeywords");

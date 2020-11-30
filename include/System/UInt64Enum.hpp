@@ -23,6 +23,7 @@ namespace System {
       return value;
     }
   }; // System.UInt64Enum
+  check_size<sizeof(UInt64Enum), 0 + sizeof(uint64_t) + 8 - (0 + sizeof(uint64_t)) % 8> __System_UInt64EnumSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UInt64Enum, "System", "UInt64Enum");

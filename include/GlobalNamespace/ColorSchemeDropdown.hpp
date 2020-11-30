@@ -121,6 +121,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ColorSchemeDropdown* New_ctor();
   }; // ColorSchemeDropdown
+  check_size<sizeof(ColorSchemeDropdown), 120 + sizeof(bool) + 8 - (120 + sizeof(bool)) % 8> __GlobalNamespace_ColorSchemeDropdownSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeDropdown*, "", "ColorSchemeDropdown");

@@ -39,6 +39,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x1698830
     static bool IsLegalKeySize(::Array<System::Security::Cryptography::KeySizes*>* legalKeys, int size);
   }; // System.Security.Cryptography.KeySizes
+  check_size<sizeof(KeySizes), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __System_Security_Cryptography_KeySizesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::KeySizes*, "System.Security.Cryptography", "KeySizes");

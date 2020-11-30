@@ -159,6 +159,7 @@ namespace HMUI {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // HMUI.GradientImage
+  check_size<sizeof(GradientImage), 280 + sizeof(void*) + 8 - (280 + sizeof(void*)) % 8> __HMUI_GradientImageSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::GradientImage*, "HMUI", "GradientImage");

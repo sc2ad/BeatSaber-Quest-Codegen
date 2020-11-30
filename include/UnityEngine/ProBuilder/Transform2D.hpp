@@ -34,6 +34,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.Transform2D
+  check_size<sizeof(Transform2D), 28 + sizeof(UnityEngine::Vector2) + 8 - (28 + sizeof(UnityEngine::Vector2)) % 8> __UnityEngine_ProBuilder_Transform2DSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Transform2D*, "UnityEngine.ProBuilder", "Transform2D");

@@ -21,6 +21,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: VREvent_ApplicationLaunch_t
     constexpr VREvent_ApplicationLaunch_t(uint pid_ = {}, uint unArgsHandle_ = {}) noexcept : pid{pid_}, unArgsHandle{unArgsHandle_} {}
   }; // Valve.VR.VREvent_ApplicationLaunch_t
+  check_size<sizeof(VREvent_ApplicationLaunch_t), 4 + sizeof(uint) + 8 - (4 + sizeof(uint)) % 8> __Valve_VR_VREvent_ApplicationLaunch_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_ApplicationLaunch_t, "Valve.VR", "VREvent_ApplicationLaunch_t");

@@ -67,6 +67,7 @@ namespace GlobalNamespace {
       // Set static field: static public AudioTimeSyncController/State Stopped
       static void _set_Stopped(GlobalNamespace::AudioTimeSyncController::State value);
     }; // AudioTimeSyncController/State
+    check_size<sizeof(AudioTimeSyncController::State), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_AudioTimeSyncController_StateSizeCheck;
     // private System.Single _audioSyncLerpSpeed
     // Offset: 0x18
     float audioSyncLerpSpeed;
@@ -204,6 +205,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AudioTimeSyncController* New_ctor();
   }; // AudioTimeSyncController
+  check_size<sizeof(AudioTimeSyncController), 116 + sizeof(bool) + 8 - (116 + sizeof(bool)) % 8> __GlobalNamespace_AudioTimeSyncControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioTimeSyncController*, "", "AudioTimeSyncController");

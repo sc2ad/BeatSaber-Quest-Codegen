@@ -142,6 +142,7 @@ namespace System::Collections::Specialized {
     // Base method: System.Void Object::.ctor()
     static StringCollection* New_ctor();
   }; // System.Collections.Specialized.StringCollection
+  check_size<sizeof(StringCollection), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Collections_Specialized_StringCollectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::StringCollection*, "System.Collections.Specialized", "StringCollection");

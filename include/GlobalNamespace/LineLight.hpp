@@ -77,6 +77,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // LineLight
+  check_size<sizeof(LineLight), 48 + sizeof(UnityEngine::Color) + 8 - (48 + sizeof(UnityEngine::Color)) % 8> __GlobalNamespace_LineLightSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LineLight*, "", "LineLight");

@@ -56,6 +56,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // NetEaseLoginController/<LoginAsync>d__4
+  check_size<sizeof(NetEaseLoginController::$LoginAsync$d__4), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::LoginData>) + 8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::LoginData>)) % 8> __GlobalNamespace_NetEaseLoginController_$LoginAsync$d__4SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseLoginController::$LoginAsync$d__4, "", "NetEaseLoginController/<LoginAsync>d__4");

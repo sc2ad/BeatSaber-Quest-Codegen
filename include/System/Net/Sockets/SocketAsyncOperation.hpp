@@ -83,6 +83,7 @@ namespace System::Net::Sockets {
     // Set static field: static public System.Net.Sockets.SocketAsyncOperation SendTo
     static void _set_SendTo(System::Net::Sockets::SocketAsyncOperation value);
   }; // System.Net.Sockets.SocketAsyncOperation
+  check_size<sizeof(SocketAsyncOperation), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Net_Sockets_SocketAsyncOperationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncOperation, "System.Net.Sockets", "SocketAsyncOperation");

@@ -36,6 +36,7 @@ namespace UnityEngine {
     // Offset: 0x16BE9F4
     static RequireComponent* New_ctor(System::Type* requiredComponent, System::Type* requiredComponent2);
   }; // UnityEngine.RequireComponent
+  check_size<sizeof(RequireComponent), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __UnityEngine_RequireComponentSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RequireComponent*, "UnityEngine", "RequireComponent");

@@ -54,6 +54,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PS4PublisherSKUSettingsSO* New_ctor();
   }; // PS4PublisherSKUSettingsSO
+  check_size<sizeof(PS4PublisherSKUSettingsSO), 56 + sizeof(int) + 8 - (56 + sizeof(int)) % 8> __GlobalNamespace_PS4PublisherSKUSettingsSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4PublisherSKUSettingsSO*, "", "PS4PublisherSKUSettingsSO");

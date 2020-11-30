@@ -62,6 +62,7 @@ namespace System {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.CultureAwareComparer
+  check_size<sizeof(CultureAwareComparer), 28 + sizeof(System::Globalization::CompareOptions) + 8 - (28 + sizeof(System::Globalization::CompareOptions)) % 8> __System_CultureAwareComparerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::CultureAwareComparer*, "System", "CultureAwareComparer");

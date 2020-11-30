@@ -33,14 +33,17 @@ namespace System::Threading::Tasks {
     // System.Void .ctor(System.Threading.Tasks.Task`1<T>[] tasks)
     // Offset: 0xFFFFFFFF
     static Task::WhenAllPromise_1<T>* New_ctor(::Array<System::Threading::Tasks::Task_1<T>*>* tasks) {
-      return THROW_UNLESS(il2cpp_utils::New<Task::WhenAllPromise_1<T>*>(tasks));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("WhenAllPromise_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<Task::WhenAllPromise_1<T>*>(tasks));
     }
     // public System.Void Invoke(System.Threading.Tasks.Task ignored)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Threading.Tasks.ITaskCompletionAction
     // Base method: System.Void ITaskCompletionAction::Invoke(System.Threading.Tasks.Task ignored)
     void Invoke(System::Threading::Tasks::Task* ignored) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invoke", ignored));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("WhenAllPromise_1").WithContext("Invoke");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Invoke", {}, ::il2cpp_utils::ExtractTypes(ignored)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, ignored);
     }
     // Creating proxy method: System_Threading_Tasks_ITaskCompletionAction_Invoke
     // Maps to method: Invoke
@@ -52,9 +55,12 @@ namespace System::Threading::Tasks {
     // Implemented from: System.Threading.Tasks.Task
     // Base method: System.Boolean Task::get_ShouldNotifyDebuggerOfWaitCompletion()
     bool get_ShouldNotifyDebuggerOfWaitCompletion() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "get_ShouldNotifyDebuggerOfWaitCompletion"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("WhenAllPromise_1").WithContext("get_ShouldNotifyDebuggerOfWaitCompletion");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "get_ShouldNotifyDebuggerOfWaitCompletion", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
   }; // System.Threading.Tasks.Task/WhenAllPromise`1
+  // Could not write size check! Type: System.Threading.Tasks.Task/WhenAllPromise`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Threading::Tasks::Task::WhenAllPromise_1, "System.Threading.Tasks", "Task/WhenAllPromise`1");
 #pragma pack(pop)

@@ -74,6 +74,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionConnectionsGenerator* New_ctor();
   }; // MissionConnectionsGenerator
+  check_size<sizeof(MissionConnectionsGenerator), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_MissionConnectionsGeneratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionConnectionsGenerator*, "", "MissionConnectionsGenerator");

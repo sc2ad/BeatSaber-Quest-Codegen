@@ -40,16 +40,20 @@ namespace LiteNetLib::Utils {
     // System.Void <SubscribeNetSerializable>b__0(LiteNetLib.Utils.NetDataReader reader, System.Object userData)
     // Offset: 0xFFFFFFFF
     void $SubscribeNetSerializable$b__0(LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "<SubscribeNetSerializable>b__0", reader, userData));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("$$c__DisplayClass31_0_2").WithContext("<SubscribeNetSerializable>b__0");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "<SubscribeNetSerializable>b__0", {}, ::il2cpp_utils::ExtractTypes(reader, userData))));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, reader, userData);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static NetPacketProcessor::$$c__DisplayClass31_0_2<T, TUserData>* New_ctor() {
-      return THROW_UNLESS((il2cpp_utils::New<NetPacketProcessor::$$c__DisplayClass31_0_2<T, TUserData>*>()));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("$$c__DisplayClass31_0_2").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<NetPacketProcessor::$$c__DisplayClass31_0_2<T, TUserData>*>()));
     }
   }; // LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass31_0`2
+  // Could not write size check! Type: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass31_0`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass31_0_2, "LiteNetLib.Utils", "NetPacketProcessor/<>c__DisplayClass31_0`2");
 #pragma pack(pop)

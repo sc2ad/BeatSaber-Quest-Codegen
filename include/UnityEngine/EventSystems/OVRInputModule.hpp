@@ -273,6 +273,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void PointerInputModule::ProcessDrag(UnityEngine.EventSystems.PointerEventData pointerEvent)
     void ProcessDrag(UnityEngine::EventSystems::PointerEventData* pointerEvent);
   }; // UnityEngine.EventSystems.OVRInputModule
+  check_size<sizeof(OVRInputModule), 224 + sizeof(void*) + 8 - (224 + sizeof(void*)) % 8> __UnityEngine_EventSystems_OVRInputModuleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRInputModule*, "UnityEngine.EventSystems", "OVRInputModule");

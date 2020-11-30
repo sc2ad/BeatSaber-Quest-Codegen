@@ -35,6 +35,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.RectSelectMode Complete
     static void _set_Complete(UnityEngine::ProBuilder::RectSelectMode value);
   }; // UnityEngine.ProBuilder.RectSelectMode
+  check_size<sizeof(RectSelectMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_ProBuilder_RectSelectModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::RectSelectMode, "UnityEngine.ProBuilder", "RectSelectMode");

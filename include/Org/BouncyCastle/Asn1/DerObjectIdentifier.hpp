@@ -113,6 +113,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.DerObjectIdentifier
+  check_size<sizeof(DerObjectIdentifier), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Org_BouncyCastle_Asn1_DerObjectIdentifierSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerObjectIdentifier*, "Org.BouncyCastle.Asn1", "DerObjectIdentifier");

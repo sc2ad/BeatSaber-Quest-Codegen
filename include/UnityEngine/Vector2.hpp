@@ -164,6 +164,7 @@ namespace UnityEngine {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Vector2 other)
     bool Equals(UnityEngine::Vector2 other);
   }; // UnityEngine.Vector2
+  check_size<sizeof(Vector2), 4 + sizeof(float) + 8 - (4 + sizeof(float)) % 8> __UnityEngine_Vector2SizeCheck;
   // static public UnityEngine.Vector2 op_Addition(UnityEngine.Vector2 a, UnityEngine.Vector2 b)
   // Offset: 0x16CAE24
   UnityEngine::Vector2 operator+(const UnityEngine::Vector2& a, const UnityEngine::Vector2& b);

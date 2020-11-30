@@ -22,6 +22,7 @@ namespace Valve::VR {
       return bScrollWheelVisible;
     }
   }; // Valve.VR.RenderModel_ControllerMode_State_t
+  check_size<sizeof(RenderModel_ControllerMode_State_t), 0 + sizeof(bool) + 8 - (0 + sizeof(bool)) % 8> __Valve_VR_RenderModel_ControllerMode_State_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_ControllerMode_State_t, "Valve.VR", "RenderModel_ControllerMode_State_t");

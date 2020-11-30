@@ -114,6 +114,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PartyMessageHandler::ConnectToMasterServerMessage* New_ctor();
   }; // PartyMessageHandler/ConnectToMasterServerMessage
+  check_size<sizeof(PartyMessageHandler::ConnectToMasterServerMessage), 80 + sizeof(GlobalNamespace::GameplayServerConfiguration) + 8 - (80 + sizeof(GlobalNamespace::GameplayServerConfiguration)) % 8> __GlobalNamespace_PartyMessageHandler_ConnectToMasterServerMessageSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage*, "", "PartyMessageHandler/ConnectToMasterServerMessage");

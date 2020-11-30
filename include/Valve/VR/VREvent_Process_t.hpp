@@ -24,6 +24,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: VREvent_Process_t
     constexpr VREvent_Process_t(uint pid_ = {}, uint oldPid_ = {}, bool bForced_ = {}) noexcept : pid{pid_}, oldPid{oldPid_}, bForced{bForced_} {}
   }; // Valve.VR.VREvent_Process_t
+  check_size<sizeof(VREvent_Process_t), 8 + sizeof(bool) + 8 - (8 + sizeof(bool)) % 8> __Valve_VR_VREvent_Process_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_Process_t, "Valve.VR", "VREvent_Process_t");

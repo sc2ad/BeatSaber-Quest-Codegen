@@ -93,6 +93,7 @@ namespace System {
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.UIntPtr
+  check_size<sizeof(UIntPtr), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __System_UIntPtrSizeCheck;
   // static public System.Boolean op_Equality(System.UIntPtr value1, System.UIntPtr value2)
   // Offset: 0x165EBB8
   bool operator ==(const System::UIntPtr& value1, const System::UIntPtr& value2);

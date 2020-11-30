@@ -57,6 +57,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint
+  check_size<sizeof(TriangulationPoint), 40 + sizeof(int) + 8 - (40 + sizeof(int)) % 8> __UnityEngine_ProBuilder_Poly2Tri_TriangulationPointSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationPoint");

@@ -35,6 +35,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Base method: System.Void Object::.ctor()
     static UnityLogCheckDelegatingCommand::$$c__DisplayClass2_0* New_ctor();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/<>c__DisplayClass2_0
+  check_size<sizeof(UnityLogCheckDelegatingCommand::$$c__DisplayClass2_0), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_TestRunner_NUnitExtensions_Runner_UnityLogCheckDelegatingCommand_$$c__DisplayClass2_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass2_0*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityLogCheckDelegatingCommand/<>c__DisplayClass2_0");

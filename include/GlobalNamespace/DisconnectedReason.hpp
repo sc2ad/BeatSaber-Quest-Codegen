@@ -77,6 +77,7 @@ namespace GlobalNamespace {
     // Set static field: static public DisconnectedReason NetworkDisconnected
     static void _set_NetworkDisconnected(GlobalNamespace::DisconnectedReason value);
   }; // DisconnectedReason
+  check_size<sizeof(DisconnectedReason), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_DisconnectedReasonSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisconnectedReason, "", "DisconnectedReason");

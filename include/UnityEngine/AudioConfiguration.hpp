@@ -33,6 +33,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: AudioConfiguration
     constexpr AudioConfiguration(UnityEngine::AudioSpeakerMode speakerMode_ = {}, int dspBufferSize_ = {}, int sampleRate_ = {}, int numRealVoices_ = {}, int numVirtualVoices_ = {}) noexcept : speakerMode{speakerMode_}, dspBufferSize{dspBufferSize_}, sampleRate{sampleRate_}, numRealVoices{numRealVoices_}, numVirtualVoices{numVirtualVoices_} {}
   }; // UnityEngine.AudioConfiguration
+  check_size<sizeof(AudioConfiguration), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __UnityEngine_AudioConfigurationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioConfiguration, "UnityEngine", "AudioConfiguration");

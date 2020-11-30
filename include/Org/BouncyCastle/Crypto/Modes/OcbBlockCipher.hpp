@@ -175,6 +175,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Base method: System.Void IAeadCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Modes.OcbBlockCipher
+  check_size<sizeof(OcbBlockCipher), 168 + sizeof(void*) + 8 - (168 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Modes_OcbBlockCipherSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::OcbBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "OcbBlockCipher");

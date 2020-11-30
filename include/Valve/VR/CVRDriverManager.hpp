@@ -42,6 +42,7 @@ namespace Valve::VR {
     // Offset: 0x13699FC
     uint GetDriverName(uint nDriver, System::Text::StringBuilder* pchValue, uint unBufferSize);
   }; // Valve.VR.CVRDriverManager
+  check_size<sizeof(CVRDriverManager), 16 + sizeof(Valve::VR::IVRDriverManager) + 8 - (16 + sizeof(Valve::VR::IVRDriverManager)) % 8> __Valve_VR_CVRDriverManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRDriverManager*, "Valve.VR", "CVRDriverManager");

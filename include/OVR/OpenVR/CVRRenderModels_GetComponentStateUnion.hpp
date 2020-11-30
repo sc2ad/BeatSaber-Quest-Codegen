@@ -26,6 +26,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: GetComponentStateUnion
     constexpr GetComponentStateUnion(OVR::OpenVR::IVRRenderModels::_GetComponentState* pGetComponentState_ = {}, OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked* pGetComponentStatePacked_ = {}) noexcept : pGetComponentState{pGetComponentState_}, pGetComponentStatePacked{pGetComponentStatePacked_} {}
   }; // OVR.OpenVR.CVRRenderModels/GetComponentStateUnion
+  check_size<sizeof(CVRRenderModels::GetComponentStateUnion), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __OVR_OpenVR_CVRRenderModels_GetComponentStateUnionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRRenderModels::GetComponentStateUnion, "OVR.OpenVR", "CVRRenderModels/GetComponentStateUnion");

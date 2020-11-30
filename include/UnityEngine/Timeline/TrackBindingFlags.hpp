@@ -41,6 +41,7 @@ namespace UnityEngine::Timeline {
     // Set static field: static public UnityEngine.Timeline.TrackBindingFlags All
     static void _set_All(UnityEngine::Timeline::TrackBindingFlags value);
   }; // UnityEngine.Timeline.TrackBindingFlags
+  check_size<sizeof(TrackBindingFlags), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Timeline_TrackBindingFlagsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackBindingFlags, "UnityEngine.Timeline", "TrackBindingFlags");

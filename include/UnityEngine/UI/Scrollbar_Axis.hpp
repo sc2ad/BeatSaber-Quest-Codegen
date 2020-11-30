@@ -37,6 +37,7 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.UI.Scrollbar/Axis Vertical
     static void _set_Vertical(UnityEngine::UI::Scrollbar::Axis value);
   }; // UnityEngine.UI.Scrollbar/Axis
+  check_size<sizeof(Scrollbar::Axis), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_UI_Scrollbar_AxisSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Scrollbar::Axis, "UnityEngine.UI", "Scrollbar/Axis");

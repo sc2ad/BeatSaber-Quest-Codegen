@@ -68,16 +68,21 @@ namespace MasterServer {
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::MoveNext()
     void MoveNext() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "MoveNext"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("$SendAuthenticatedRequestAsync$d__18_1").WithContext("MoveNext");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "MoveNext", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method);
     }
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "SetStateMachine", stateMachine));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("$SendAuthenticatedRequestAsync$d__18_1").WithContext("SetStateMachine");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "SetStateMachine", {}, ::il2cpp_utils::ExtractTypes(stateMachine)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, stateMachine);
     }
   }; // MasterServer.BaseClientMessageHandler/<SendAuthenticatedRequestAsync>d__18`1
+  // Could not write size check! Type: MasterServer.BaseClientMessageHandler/<SendAuthenticatedRequestAsync>d__18`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(MasterServer::BaseClientMessageHandler::$SendAuthenticatedRequestAsync$d__18_1, "MasterServer", "BaseClientMessageHandler/<SendAuthenticatedRequestAsync>d__18`1");
 #pragma pack(pop)

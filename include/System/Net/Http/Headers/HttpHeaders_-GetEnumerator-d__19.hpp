@@ -78,6 +78,7 @@ namespace System::Net::Http::Headers {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // System.Net.Http.Headers.HttpHeaders/<GetEnumerator>d__19
+  check_size<sizeof(HttpHeaders::$GetEnumerator$d__19), 48 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Net::Http::Headers::HttpHeaders::HeaderBucket*>::Enumerator) + 8 - (48 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Net::Http::Headers::HttpHeaders::HeaderBucket*>::Enumerator)) % 8> __System_Net_Http_Headers_HttpHeaders_$GetEnumerator$d__19SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpHeaders::$GetEnumerator$d__19*, "System.Net.Http.Headers", "HttpHeaders/<GetEnumerator>d__19");

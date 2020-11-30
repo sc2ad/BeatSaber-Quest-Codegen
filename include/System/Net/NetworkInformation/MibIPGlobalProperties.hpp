@@ -42,6 +42,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x119B218
     static void _cctor();
   }; // System.Net.NetworkInformation.MibIPGlobalProperties
+  check_size<sizeof(MibIPGlobalProperties), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __System_Net_NetworkInformation_MibIPGlobalPropertiesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MibIPGlobalProperties*, "System.Net.NetworkInformation", "MibIPGlobalProperties");

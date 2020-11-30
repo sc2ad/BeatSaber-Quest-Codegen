@@ -58,6 +58,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static LegIK* New_ctor();
   }; // RootMotion.FinalIK.LegIK
+  check_size<sizeof(LegIK), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __RootMotion_FinalIK_LegIKSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::LegIK*, "RootMotion.FinalIK", "LegIK");

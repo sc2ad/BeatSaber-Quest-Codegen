@@ -57,6 +57,7 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Base method: System.Void Object::.ctor()
     static TestRunnerFilter* New_ctor();
   }; // UnityEngine.TestTools.TestRunner.GUI.TestRunnerFilter
+  check_size<sizeof(TestRunnerFilter), 52 + sizeof(bool) + 8 - (52 + sizeof(bool)) % 8> __UnityEngine_TestTools_TestRunner_GUI_TestRunnerFilterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::TestRunnerFilter*, "UnityEngine.TestTools.TestRunner.GUI", "TestRunnerFilter");

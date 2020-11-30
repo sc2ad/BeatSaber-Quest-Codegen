@@ -41,6 +41,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OpenVRControllerDetails
     constexpr OpenVRControllerDetails(OVR::OpenVR::VRControllerState_t state_ = {}, GlobalNamespace::OVRInput::OpenVRController controllerType_ = {}, uint deviceID_ = {}, UnityEngine::Vector3 localPosition_ = {}, UnityEngine::Quaternion localOrientation_ = {}) noexcept : state{state_}, controllerType{controllerType_}, deviceID{deviceID_}, localPosition{localPosition_}, localOrientation{localOrientation_} {}
   }; // OVRInput/OpenVRControllerDetails
+  check_size<sizeof(OVRInput::OpenVRControllerDetails), 88 + sizeof(UnityEngine::Quaternion) + 8 - (88 + sizeof(UnityEngine::Quaternion)) % 8> __GlobalNamespace_OVRInput_OpenVRControllerDetailsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OpenVRControllerDetails, "", "OVRInput/OpenVRControllerDetails");

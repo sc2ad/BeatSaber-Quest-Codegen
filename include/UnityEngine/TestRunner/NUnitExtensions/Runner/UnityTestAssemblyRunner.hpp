@@ -120,6 +120,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Offset: 0x1187B30
     void StopRun();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestAssemblyRunner
+  check_size<sizeof(UnityTestAssemblyRunner), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __UnityEngine_TestRunner_NUnitExtensions_Runner_UnityTestAssemblyRunnerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityTestAssemblyRunner");

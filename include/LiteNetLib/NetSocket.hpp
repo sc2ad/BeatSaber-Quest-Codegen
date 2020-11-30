@@ -122,6 +122,7 @@ namespace LiteNetLib {
     // Offset: 0x1DCCD30
     void Close(bool suspend);
   }; // LiteNetLib.NetSocket
+  check_size<sizeof(NetSocket), 60 + sizeof(bool) + 8 - (60 + sizeof(bool)) % 8> __LiteNetLib_NetSocketSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetSocket*, "LiteNetLib", "NetSocket");

@@ -32,6 +32,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DFE58
     static SystemVoipState* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.SystemVoipState
+  check_size<sizeof(SystemVoipState), 20 + sizeof(Oculus::Platform::SystemVoipStatus) + 8 - (20 + sizeof(Oculus::Platform::SystemVoipStatus)) % 8> __Oculus_Platform_Models_SystemVoipStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::SystemVoipState*, "Oculus.Platform.Models", "SystemVoipState");

@@ -63,6 +63,7 @@ namespace TMPro {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // TMPro.TMP_Dropdown/<DelayedDestroyDropdownList>d__72
+  check_size<sizeof(TMP_Dropdown::$DelayedDestroyDropdownList$d__72), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __TMPro_TMP_Dropdown_$DelayedDestroyDropdownList$d__72SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::$DelayedDestroyDropdownList$d__72*, "TMPro", "TMP_Dropdown/<DelayedDestroyDropdownList>d__72");

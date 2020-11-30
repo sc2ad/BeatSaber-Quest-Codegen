@@ -65,6 +65,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // System.Diagnostics.Tracing.EventPayload/<GetEnumerator>d__17
+  check_size<sizeof(EventPayload::$GetEnumerator$d__17), 48 + sizeof(int) + 8 - (48 + sizeof(int)) % 8> __System_Diagnostics_Tracing_EventPayload_$GetEnumerator$d__17SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventPayload::$GetEnumerator$d__17*, "System.Diagnostics.Tracing", "EventPayload/<GetEnumerator>d__17");

@@ -169,6 +169,7 @@ namespace System::Net {
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
   }; // System.Net.WebProxy
+  check_size<sizeof(WebProxy), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __System_Net_WebProxySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebProxy*, "System.Net", "WebProxy");

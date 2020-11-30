@@ -25,6 +25,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VROverlayIntersectionMaskPrimitive_Data_t
     constexpr VROverlayIntersectionMaskPrimitive_Data_t(OVR::OpenVR::IntersectionMaskRectangle_t m_Rectangle_ = {}, OVR::OpenVR::IntersectionMaskCircle_t m_Circle_ = {}) noexcept : m_Rectangle{m_Rectangle_}, m_Circle{m_Circle_} {}
   }; // OVR.OpenVR.VROverlayIntersectionMaskPrimitive_Data_t
+  check_size<sizeof(VROverlayIntersectionMaskPrimitive_Data_t), 0 + sizeof(OVR::OpenVR::IntersectionMaskCircle_t) + 8 - (0 + sizeof(OVR::OpenVR::IntersectionMaskCircle_t)) % 8> __OVR_OpenVR_VROverlayIntersectionMaskPrimitive_Data_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t, "OVR.OpenVR", "VROverlayIntersectionMaskPrimitive_Data_t");

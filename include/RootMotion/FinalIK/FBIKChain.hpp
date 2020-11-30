@@ -66,6 +66,7 @@ namespace RootMotion::FinalIK {
       // Set static field: static public RootMotion.FinalIK.FBIKChain/Smoothing Cubic
       static void _set_Cubic(RootMotion::FinalIK::FBIKChain::Smoothing value);
     }; // RootMotion.FinalIK.FBIKChain/Smoothing
+    check_size<sizeof(FBIKChain::Smoothing), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __RootMotion_FinalIK_FBIKChain_SmoothingSizeCheck;
     // public System.Single pin
     // Offset: 0x10
     float pin;
@@ -215,6 +216,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static FBIKChain* New_ctor();
   }; // RootMotion.FinalIK.FBIKChain
+  check_size<sizeof(FBIKChain), 128 + sizeof(float) + 8 - (128 + sizeof(float)) % 8> __RootMotion_FinalIK_FBIKChainSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBIKChain*, "RootMotion.FinalIK", "FBIKChain");

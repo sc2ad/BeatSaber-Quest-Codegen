@@ -58,6 +58,7 @@ namespace System::Text {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static EncoderFallbackException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Text.EncoderFallbackException
+  check_size<sizeof(EncoderFallbackException), 152 + sizeof(int) + 8 - (152 + sizeof(int)) % 8> __System_Text_EncoderFallbackExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderFallbackException*, "System.Text", "EncoderFallbackException");

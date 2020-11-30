@@ -60,6 +60,7 @@ namespace HMUI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // HMUI.InputFieldView/<BlinkingCaretCoroutine>d__43
+  check_size<sizeof(InputFieldView::$BlinkingCaretCoroutine$d__43), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __HMUI_InputFieldView_$BlinkingCaretCoroutine$d__43SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43*, "HMUI", "InputFieldView/<BlinkingCaretCoroutine>d__43");

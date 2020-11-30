@@ -133,6 +133,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Int32 IBlockCipher::ProcessBlock(System.Byte[] inBytes, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
     int ProcessBlock(::Array<uint8_t>* inBytes, int inOff, ::Array<uint8_t>* outBytes, int outOff);
   }; // Org.BouncyCastle.Crypto.Engines.ThreefishEngine
+  check_size<sizeof(ThreefishEngine), 56 + sizeof(bool) + 8 - (56 + sizeof(bool)) % 8> __Org_BouncyCastle_Crypto_Engines_ThreefishEngineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::ThreefishEngine*, "Org.BouncyCastle.Crypto.Engines", "ThreefishEngine");

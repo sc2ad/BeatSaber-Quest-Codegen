@@ -48,7 +48,10 @@ namespace ModestTree {
     // Offset: 0xFFFFFFFF
     template<class T>
     static int IndexOf(System::Collections::Generic::IList_1<T>* list, T item) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<int>("ModestTree", "MiscExtensions", "IndexOf", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, item)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("MiscExtensions").WithContext("IndexOf");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "MiscExtensions", il2cpp_utils::NoArgClass<int>(), "IndexOf", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list, item))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list, item);
     }
     // static public System.String Join(System.Collections.Generic.IEnumerable`1<System.String> values, System.String separator)
     // Offset: 0x10E4BF4
@@ -57,37 +60,55 @@ namespace ModestTree {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void AllocFreeAddRange(System::Collections::Generic::IList_1<T>* list, System::Collections::Generic::IList_1<T>* items) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("ModestTree", "MiscExtensions", "AllocFreeAddRange", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, items));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("MiscExtensions").WithContext("AllocFreeAddRange");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "MiscExtensions", il2cpp_utils::NoArgClass<void>(), "AllocFreeAddRange", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list, items))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list, items);
     }
     // static public System.Void RemoveWithConfirm(System.Collections.Generic.IList`1<T> list, T item)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void RemoveWithConfirm(System::Collections::Generic::IList_1<T>* list, T item) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("ModestTree", "MiscExtensions", "RemoveWithConfirm", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, item));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("MiscExtensions").WithContext("RemoveWithConfirm");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "MiscExtensions", il2cpp_utils::NoArgClass<void>(), "RemoveWithConfirm", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list, item))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list, item);
     }
     // static public System.Void RemoveWithConfirm(System.Collections.Generic.LinkedList`1<T> list, T item)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void RemoveWithConfirm(System::Collections::Generic::LinkedList_1<T>* list, T item) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("ModestTree", "MiscExtensions", "RemoveWithConfirm", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, item));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("MiscExtensions").WithContext("RemoveWithConfirm");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "MiscExtensions", il2cpp_utils::NoArgClass<void>(), "RemoveWithConfirm", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list, item))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list, item);
     }
     // static public System.Void RemoveWithConfirm(System.Collections.Generic.IDictionary`2<TKey,TVal> dictionary, TKey key)
     // Offset: 0xFFFFFFFF
     template<class TKey, class TVal>
     static void RemoveWithConfirm(System::Collections::Generic::IDictionary_2<TKey, TVal>* dictionary, TKey key) {
-      THROW_UNLESS((il2cpp_utils::RunGenericMethod("ModestTree", "MiscExtensions", "RemoveWithConfirm", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TVal>::get()}, dictionary, key)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("MiscExtensions").WithContext("RemoveWithConfirm");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "MiscExtensions", il2cpp_utils::NoArgClass<void>(), "RemoveWithConfirm", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TVal>::get()}, ::il2cpp_utils::ExtractTypes(dictionary, key))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TVal>::get()})));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, dictionary, key);
     }
     // static public System.Void RemoveWithConfirm(System.Collections.Generic.HashSet`1<T> set, T item)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void RemoveWithConfirm(System::Collections::Generic::HashSet_1<T>* set, T item) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("ModestTree", "MiscExtensions", "RemoveWithConfirm", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, set, item));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("MiscExtensions").WithContext("RemoveWithConfirm");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "MiscExtensions", il2cpp_utils::NoArgClass<void>(), "RemoveWithConfirm", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(set, item))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, set, item);
     }
     // static public TVal GetValueAndRemove(System.Collections.Generic.IDictionary`2<TKey,TVal> dictionary, TKey key)
     // Offset: 0xFFFFFFFF
     template<class TKey, class TVal>
     static TVal GetValueAndRemove(System::Collections::Generic::IDictionary_2<TKey, TVal>* dictionary, TKey key) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TVal>("ModestTree", "MiscExtensions", "GetValueAndRemove", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TVal>::get()}, dictionary, key)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("MiscExtensions").WithContext("GetValueAndRemove");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "MiscExtensions", il2cpp_utils::NoArgClass<TVal>(), "GetValueAndRemove", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TVal>::get()}, ::il2cpp_utils::ExtractTypes(dictionary, key))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TVal>::get()})));
+      return ::il2cpp_utils::RunMethodThrow<TVal, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, dictionary, key);
     }
   }; // ModestTree.MiscExtensions
 }

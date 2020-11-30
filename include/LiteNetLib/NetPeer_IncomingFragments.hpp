@@ -38,6 +38,7 @@ namespace LiteNetLib {
     // Base method: System.Void Object::.ctor()
     static NetPeer::IncomingFragments* New_ctor();
   }; // LiteNetLib.NetPeer/IncomingFragments
+  check_size<sizeof(NetPeer::IncomingFragments), 32 + sizeof(uint8_t) + 8 - (32 + sizeof(uint8_t)) % 8> __LiteNetLib_NetPeer_IncomingFragmentsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPeer::IncomingFragments*, "LiteNetLib", "NetPeer/IncomingFragments");

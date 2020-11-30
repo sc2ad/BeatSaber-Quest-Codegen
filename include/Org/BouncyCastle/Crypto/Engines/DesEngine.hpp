@@ -128,6 +128,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void Object::.ctor()
     static DesEngine* New_ctor();
   }; // Org.BouncyCastle.Crypto.Engines.DesEngine
+  check_size<sizeof(DesEngine), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Engines_DesEngineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::DesEngine*, "Org.BouncyCastle.Crypto.Engines", "DesEngine");

@@ -49,6 +49,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0* New_ctor();
   }; // Zenject.AddToCurrentGameObjectComponentProvider/<>c__DisplayClass15_0
+  check_size<sizeof(AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Zenject_AddToCurrentGameObjectComponentProvider_$$c__DisplayClass15_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0*, "Zenject", "AddToCurrentGameObjectComponentProvider/<>c__DisplayClass15_0");

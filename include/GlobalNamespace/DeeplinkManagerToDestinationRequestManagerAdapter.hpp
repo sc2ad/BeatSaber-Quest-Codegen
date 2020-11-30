@@ -82,6 +82,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static DeeplinkManagerToDestinationRequestManagerAdapter* New_ctor();
   }; // DeeplinkManagerToDestinationRequestManagerAdapter
+  check_size<sizeof(DeeplinkManagerToDestinationRequestManagerAdapter), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_DeeplinkManagerToDestinationRequestManagerAdapterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*, "", "DeeplinkManagerToDestinationRequestManagerAdapter");

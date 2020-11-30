@@ -29,6 +29,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRResources::$$c__DisplayClass2_0* New_ctor();
   }; // OVRResources/<>c__DisplayClass2_0
+  check_size<sizeof(OVRResources::$$c__DisplayClass2_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_OVRResources_$$c__DisplayClass2_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRResources::$$c__DisplayClass2_0*, "", "OVRResources/<>c__DisplayClass2_0");

@@ -94,6 +94,7 @@ namespace GlobalNamespace {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // PoseSerializable
+  check_size<sizeof(PoseSerializable), 12 + sizeof(GlobalNamespace::QuaternionSerializable) + 8 - (12 + sizeof(GlobalNamespace::QuaternionSerializable)) % 8> __GlobalNamespace_PoseSerializableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PoseSerializable, "", "PoseSerializable");

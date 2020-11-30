@@ -39,6 +39,7 @@ namespace System::Diagnostics {
     // Base method: System.Void Object::.ctor()
     static ProcessThreadTimes* New_ctor();
   }; // System.Diagnostics.ProcessThreadTimes
+  check_size<sizeof(ProcessThreadTimes), 40 + sizeof(int64_t) + 8 - (40 + sizeof(int64_t)) % 8> __System_Diagnostics_ProcessThreadTimesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessThreadTimes*, "System.Diagnostics", "ProcessThreadTimes");

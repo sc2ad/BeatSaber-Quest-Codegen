@@ -37,6 +37,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRAudioSourceTest* New_ctor();
   }; // OVRAudioSourceTest
+  check_size<sizeof(OVRAudioSourceTest), 28 + sizeof(float) + 8 - (28 + sizeof(float)) % 8> __GlobalNamespace_OVRAudioSourceTestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRAudioSourceTest*, "", "OVRAudioSourceTest");

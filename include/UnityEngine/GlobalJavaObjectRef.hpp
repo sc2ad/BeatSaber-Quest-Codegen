@@ -31,6 +31,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // UnityEngine.GlobalJavaObjectRef
+  check_size<sizeof(GlobalJavaObjectRef), 24 + sizeof(System::IntPtr) + 8 - (24 + sizeof(System::IntPtr)) % 8> __UnityEngine_GlobalJavaObjectRefSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GlobalJavaObjectRef*, "UnityEngine", "GlobalJavaObjectRef");

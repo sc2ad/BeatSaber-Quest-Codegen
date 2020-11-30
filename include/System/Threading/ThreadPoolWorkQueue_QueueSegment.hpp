@@ -50,6 +50,7 @@ namespace System::Threading {
     // Base method: System.Void Object::.ctor()
     static ThreadPoolWorkQueue::QueueSegment* New_ctor();
   }; // System.Threading.ThreadPoolWorkQueue/QueueSegment
+  check_size<sizeof(ThreadPoolWorkQueue::QueueSegment), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Threading_ThreadPoolWorkQueue_QueueSegmentSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue::QueueSegment*, "System.Threading", "ThreadPoolWorkQueue/QueueSegment");

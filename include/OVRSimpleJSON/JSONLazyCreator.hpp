@@ -50,7 +50,10 @@ namespace OVRSimpleJSON {
     template<class T>
     T Set(T aVal) {
       static_assert(std::is_convertible_v<T, OVRSimpleJSON::JSONNode*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "Set", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, aVal)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OVRSimpleJSON").WithContext("JSONLazyCreator").WithContext("Set");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "Set", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(aVal))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, aVal);
     }
     // public override OVRSimpleJSON.JSONNodeType get_Tag()
     // Offset: 0x12E7DE4
@@ -168,6 +171,7 @@ namespace OVRSimpleJSON {
     // Base method: System.Void JSONNode::WriteToStringBuilder(System.Text.StringBuilder aSB, System.Int32 aIndent, System.Int32 aIndentInc, OVRSimpleJSON.JSONTextMode aMode)
     void WriteToStringBuilder(System::Text::StringBuilder* aSB, int aIndent, int aIndentInc, OVRSimpleJSON::JSONTextMode aMode);
   }; // OVRSimpleJSON.JSONLazyCreator
+  check_size<sizeof(JSONLazyCreator), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __OVRSimpleJSON_JSONLazyCreatorSizeCheck;
   // static public System.Boolean op_Equality(OVRSimpleJSON.JSONLazyCreator a, System.Object b)
   // Offset: 0x12E8270
   bool operator ==(OVRSimpleJSON::JSONLazyCreator* a, ::Il2CppObject& b);

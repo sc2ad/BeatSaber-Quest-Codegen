@@ -128,6 +128,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SoloFreePlayFlowCoordinator* New_ctor();
   }; // SoloFreePlayFlowCoordinator
+  check_size<sizeof(SoloFreePlayFlowCoordinator), 320 + sizeof(void*) + 8 - (320 + sizeof(void*)) % 8> __GlobalNamespace_SoloFreePlayFlowCoordinatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloFreePlayFlowCoordinator*, "", "SoloFreePlayFlowCoordinator");

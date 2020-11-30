@@ -36,6 +36,7 @@ namespace System::Diagnostics::Tracing {
       // Set static field: static public System.Diagnostics.Tracing.ManifestEnvelope/ManifestFormats SimpleXmlFormat
       static void _set_SimpleXmlFormat(System::Diagnostics::Tracing::ManifestEnvelope::ManifestFormats value);
     }; // System.Diagnostics.Tracing.ManifestEnvelope/ManifestFormats
+    check_size<sizeof(ManifestEnvelope::ManifestFormats), 0 + sizeof(uint8_t) + 8 - (0 + sizeof(uint8_t)) % 8> __System_Diagnostics_Tracing_ManifestEnvelope_ManifestFormatsSizeCheck;
     // public System.Diagnostics.Tracing.ManifestEnvelope/ManifestFormats Format
     // Offset: 0x0
     System::Diagnostics::Tracing::ManifestEnvelope::ManifestFormats Format;
@@ -57,6 +58,7 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: ManifestEnvelope
     constexpr ManifestEnvelope(System::Diagnostics::Tracing::ManifestEnvelope::ManifestFormats Format_ = {}, uint8_t MajorVersion_ = {}, uint8_t MinorVersion_ = {}, uint8_t Magic_ = {}, uint16_t TotalChunks_ = {}, uint16_t ChunkNumber_ = {}) noexcept : Format{Format_}, MajorVersion{MajorVersion_}, MinorVersion{MinorVersion_}, Magic{Magic_}, TotalChunks{TotalChunks_}, ChunkNumber{ChunkNumber_} {}
   }; // System.Diagnostics.Tracing.ManifestEnvelope
+  check_size<sizeof(ManifestEnvelope), 6 + sizeof(uint16_t) + 8 - (6 + sizeof(uint16_t)) % 8> __System_Diagnostics_Tracing_ManifestEnvelopeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ManifestEnvelope, "System.Diagnostics.Tracing", "ManifestEnvelope");

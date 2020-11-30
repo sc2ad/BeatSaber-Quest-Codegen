@@ -26,6 +26,7 @@ namespace Mono::Net {
     // Offset: 0xC99EE0
     CFRange(int loc, int len);
   }; // Mono.Net.CFRange
+  check_size<sizeof(CFRange), 8 + sizeof(System::IntPtr) + 8 - (8 + sizeof(System::IntPtr)) % 8> __Mono_Net_CFRangeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFRange, "Mono.Net", "CFRange");

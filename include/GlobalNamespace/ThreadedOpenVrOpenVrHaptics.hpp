@@ -44,6 +44,7 @@ namespace GlobalNamespace {
       // Offset: 0xCB75A4
       // ABORTED: conflicts with another method.  OpenVrHapticData(float endTime, float strength);
     }; // ThreadedOpenVrOpenVrHaptics/OpenVrHapticData
+    check_size<sizeof(ThreadedOpenVrOpenVrHaptics::OpenVrHapticData), 4 + sizeof(float) + 8 - (4 + sizeof(float)) % 8> __GlobalNamespace_ThreadedOpenVrOpenVrHaptics_OpenVrHapticDataSizeCheck;
     // private System.Single _currentTime
     // Offset: 0x10
     float currentTime;
@@ -82,6 +83,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IOpenVRHaptics::Destroy()
     void Destroy();
   }; // ThreadedOpenVrOpenVrHaptics
+  check_size<sizeof(ThreadedOpenVrOpenVrHaptics), 40 + sizeof(GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData) + 8 - (40 + sizeof(GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData)) % 8> __GlobalNamespace_ThreadedOpenVrOpenVrHapticsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ThreadedOpenVrOpenVrHaptics*, "", "ThreadedOpenVrOpenVrHaptics");

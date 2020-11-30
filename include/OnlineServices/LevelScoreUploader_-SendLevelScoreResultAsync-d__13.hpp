@@ -80,6 +80,7 @@ namespace OnlineServices {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.LevelScoreUploader/<SendLevelScoreResultAsync>d__13
+  check_size<sizeof(LevelScoreUploader::$SendLevelScoreResultAsync$d__13), 128 + sizeof(System::Runtime::CompilerServices::TaskAwaiter) + 8 - (128 + sizeof(System::Runtime::CompilerServices::TaskAwaiter)) % 8> __OnlineServices_LevelScoreUploader_$SendLevelScoreResultAsync$d__13SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreUploader::$SendLevelScoreResultAsync$d__13, "OnlineServices", "LevelScoreUploader/<SendLevelScoreResultAsync>d__13");

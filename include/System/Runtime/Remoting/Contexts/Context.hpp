@@ -226,6 +226,7 @@ namespace System::Runtime::Remoting::Contexts {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Runtime.Remoting.Contexts.Context
+  check_size<sizeof(Context), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __System_Runtime_Remoting_Contexts_ContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::Context*, "System.Runtime.Remoting.Contexts", "Context");

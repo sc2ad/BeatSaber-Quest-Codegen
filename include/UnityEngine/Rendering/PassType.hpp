@@ -107,6 +107,7 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.PassType ScriptableRenderPipelineDefaultUnlit
     static void _set_ScriptableRenderPipelineDefaultUnlit(UnityEngine::Rendering::PassType value);
   }; // UnityEngine.Rendering.PassType
+  check_size<sizeof(PassType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Rendering_PassTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::PassType, "UnityEngine.Rendering", "PassType");

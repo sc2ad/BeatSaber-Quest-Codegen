@@ -35,6 +35,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRScreenshotPropertyFilenames VR
     static void _set_VR(OVR::OpenVR::EVRScreenshotPropertyFilenames value);
   }; // OVR.OpenVR.EVRScreenshotPropertyFilenames
+  check_size<sizeof(EVRScreenshotPropertyFilenames), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_EVRScreenshotPropertyFilenamesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRScreenshotPropertyFilenames, "OVR.OpenVR", "EVRScreenshotPropertyFilenames");

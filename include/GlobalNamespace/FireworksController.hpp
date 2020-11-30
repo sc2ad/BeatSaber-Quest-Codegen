@@ -63,6 +63,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static FireworksController* New_ctor();
   }; // FireworksController
+  check_size<sizeof(FireworksController), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_FireworksControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworksController*, "", "FireworksController");

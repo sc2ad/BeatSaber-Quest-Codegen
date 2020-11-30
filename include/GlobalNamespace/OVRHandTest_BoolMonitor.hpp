@@ -56,6 +56,7 @@ namespace GlobalNamespace {
     // Offset: 0x11B7670
     void AppendToStringBuilder(System::Text::StringBuilder*& sb);
   }; // OVRHandTest/BoolMonitor
+  check_size<sizeof(OVRHandTest::BoolMonitor), 40 + sizeof(float) + 8 - (40 + sizeof(float)) % 8> __GlobalNamespace_OVRHandTest_BoolMonitorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHandTest::BoolMonitor*, "", "OVRHandTest/BoolMonitor");

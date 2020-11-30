@@ -53,6 +53,7 @@ namespace System {
     // Set static field: static public System.Enum/ParseFailureKind UnhandledException
     static void _set_UnhandledException(System::Enum::ParseFailureKind value);
   }; // System.Enum/ParseFailureKind
+  check_size<sizeof(Enum::ParseFailureKind), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Enum_ParseFailureKindSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Enum::ParseFailureKind, "System", "Enum/ParseFailureKind");

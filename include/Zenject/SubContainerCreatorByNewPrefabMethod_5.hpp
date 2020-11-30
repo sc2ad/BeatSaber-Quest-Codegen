@@ -58,32 +58,40 @@ namespace Zenject {
       // System.Void <AddInstallers>b__0(Zenject.DiContainer subContainer)
       // Offset: 0xFFFFFFFF
       void $AddInstallers$b__0(Zenject::DiContainer* subContainer) {
-        THROW_UNLESS(il2cpp_utils::RunMethod(this, "<AddInstallers>b__0", subContainer));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$$c__DisplayClass2_0").WithContext("<AddInstallers>b__0");
+        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "<AddInstallers>b__0", {}, ::il2cpp_utils::ExtractTypes(subContainer))));
+        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, subContainer);
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename SubContainerCreatorByNewPrefabMethod_5<TParam1, TParam2, TParam3, TParam4, TParam5>::$$c__DisplayClass2_0* New_ctor() {
-        return THROW_UNLESS((il2cpp_utils::New<typename SubContainerCreatorByNewPrefabMethod_5<TParam1, TParam2, TParam3, TParam4, TParam5>::$$c__DisplayClass2_0*>()));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$$c__DisplayClass2_0").WithContext(".ctor");
+        return THROW_UNLESS((::il2cpp_utils::New<typename SubContainerCreatorByNewPrefabMethod_5<TParam1, TParam2, TParam3, TParam4, TParam5>::$$c__DisplayClass2_0*>()));
       }
     }; // Zenject.SubContainerCreatorByNewPrefabMethod`5/<>c__DisplayClass2_0
+    // Could not write size check! Type: Zenject.SubContainerCreatorByNewPrefabMethod`5/<>c__DisplayClass2_0 is generic!
     // private readonly System.Action`6<Zenject.DiContainer,TParam1,TParam2,TParam3,TParam4,TParam5> _installerMethod
     // Offset: 0x0
     System::Action_6<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>* installerMethod;
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.IPrefabProvider prefabProvider, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.Action`6<Zenject.DiContainer,TParam1,TParam2,TParam3,TParam4,TParam5> installerMethod)
     // Offset: 0xFFFFFFFF
     static SubContainerCreatorByNewPrefabMethod_5<TParam1, TParam2, TParam3, TParam4, TParam5>* New_ctor(Zenject::DiContainer* container, Zenject::IPrefabProvider* prefabProvider, Zenject::GameObjectCreationParameters* gameObjectBindInfo, System::Action_6<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>* installerMethod) {
-      return THROW_UNLESS((il2cpp_utils::New<SubContainerCreatorByNewPrefabMethod_5<TParam1, TParam2, TParam3, TParam4, TParam5>*>(container, prefabProvider, gameObjectBindInfo, installerMethod)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("SubContainerCreatorByNewPrefabMethod_5").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByNewPrefabMethod_5<TParam1, TParam2, TParam3, TParam4, TParam5>*>(container, prefabProvider, gameObjectBindInfo, installerMethod)));
     }
     // protected override System.Void AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.SubContainerCreatorDynamicContext
     // Base method: System.Void SubContainerCreatorDynamicContext::AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
     void AddInstallers(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::GameObjectContext* context) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddInstallers", args, context));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("SubContainerCreatorByNewPrefabMethod_5").WithContext("AddInstallers");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "AddInstallers", {}, ::il2cpp_utils::ExtractTypes(args, context)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, args, context);
     }
   }; // Zenject.SubContainerCreatorByNewPrefabMethod`5
+  // Could not write size check! Type: Zenject.SubContainerCreatorByNewPrefabMethod`5 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::SubContainerCreatorByNewPrefabMethod_5, "Zenject", "SubContainerCreatorByNewPrefabMethod`5");
 #pragma pack(pop)

@@ -22,6 +22,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VREvent_Notification_t
     constexpr VREvent_Notification_t(uint64_t ulUserValue_ = {}, uint notificationId_ = {}) noexcept : ulUserValue{ulUserValue_}, notificationId{notificationId_} {}
   }; // OVR.OpenVR.VREvent_Notification_t
+  check_size<sizeof(VREvent_Notification_t), 8 + sizeof(uint) + 8 - (8 + sizeof(uint)) % 8> __OVR_OpenVR_VREvent_Notification_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Notification_t, "OVR.OpenVR", "VREvent_Notification_t");

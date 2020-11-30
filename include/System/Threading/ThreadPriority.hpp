@@ -53,6 +53,7 @@ namespace System::Threading {
     // Set static field: static public System.Threading.ThreadPriority Highest
     static void _set_Highest(System::Threading::ThreadPriority value);
   }; // System.Threading.ThreadPriority
+  check_size<sizeof(ThreadPriority), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Threading_ThreadPrioritySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPriority, "System.Threading", "ThreadPriority");

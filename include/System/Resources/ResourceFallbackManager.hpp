@@ -61,6 +61,7 @@ namespace System::Resources {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Resources.ResourceFallbackManager
+  check_size<sizeof(ResourceFallbackManager), 32 + sizeof(bool) + 8 - (32 + sizeof(bool)) % 8> __System_Resources_ResourceFallbackManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceFallbackManager*, "System.Resources", "ResourceFallbackManager");

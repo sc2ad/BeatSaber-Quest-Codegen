@@ -167,6 +167,7 @@ namespace GlobalNamespace {
       // Set static field: static public ConnectedPlayerManager/InternalMessageType KickPlayer
       static void _set_KickPlayer(GlobalNamespace::ConnectedPlayerManager::InternalMessageType value);
     }; // ConnectedPlayerManager/InternalMessageType
+    check_size<sizeof(ConnectedPlayerManager::InternalMessageType), 0 + sizeof(uint8_t) + 8 - (0 + sizeof(uint8_t)) % 8> __GlobalNamespace_ConnectedPlayerManager_InternalMessageTypeSizeCheck;
     // private System.Action connectedEvent
     // Offset: 0x10
     System::Action* connectedEvent;
@@ -398,7 +399,10 @@ namespace GlobalNamespace {
     template<class T>
     static GlobalNamespace::ConnectedPlayerManager* TryCreate(GlobalNamespace::IConnectionInitParams_1<T>* initParams) {
       static_assert(std::is_base_of_v<GlobalNamespace::IConnectionManager, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<GlobalNamespace::ConnectedPlayerManager*>("", "ConnectedPlayerManager", "TryCreate", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, initParams)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ConnectedPlayerManager").WithContext("TryCreate");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "ConnectedPlayerManager", il2cpp_utils::NoArgClass<GlobalNamespace::ConnectedPlayerManager*>(), "TryCreate", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(initParams))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::ConnectedPlayerManager*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, initParams);
     }
     // private System.Void .ctor(IConnectionManager connectionManager)
     // Offset: 0x1B46388
@@ -411,7 +415,10 @@ namespace GlobalNamespace {
     template<class T>
     bool TryReinitialize(GlobalNamespace::IConnectionInitParams_1<T>* initParams) {
       static_assert(std::is_base_of_v<GlobalNamespace::IConnectionManager, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(this, "TryReinitialize", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, initParams)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ConnectedPlayerManager").WithContext("TryReinitialize");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "TryReinitialize", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(initParams))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, initParams);
     }
     // public System.Void PollUpdate()
     // Offset: 0x1B47448
@@ -427,7 +434,10 @@ namespace GlobalNamespace {
     template<class T>
     T GetConnectionManager() {
       static_assert(std::is_base_of_v<GlobalNamespace::IConnectionManager, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "GetConnectionManager", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ConnectedPlayerManager").WithContext("GetConnectionManager");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "GetConnectionManager", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public System.Void Disconnect(DisconnectedReason disconnectedReason)
     // Offset: 0x1B448F4
@@ -473,14 +483,20 @@ namespace GlobalNamespace {
     template<class T>
     void Send(T message) {
       static_assert(std::is_base_of_v<LiteNetLib::Utils::INetSerializable, std::remove_pointer_t<T>>);
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "Send", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, message));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ConnectedPlayerManager").WithContext("Send");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Send", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(message))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, message);
     }
     // public System.Void SendUnreliable(T message)
     // Offset: 0xFFFFFFFF
     template<class T>
     void SendUnreliable(T message) {
       static_assert(std::is_base_of_v<LiteNetLib::Utils::INetSerializable, std::remove_pointer_t<T>>);
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "SendUnreliable", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, message));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ConnectedPlayerManager").WithContext("SendUnreliable");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "SendUnreliable", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(message))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, message);
     }
     // private System.Void SendImmediately(LiteNetLib.Utils.INetSerializable message, System.Boolean onlyFirstDegree)
     // Offset: 0x1B44CE8
@@ -542,6 +558,7 @@ namespace GlobalNamespace {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // ConnectedPlayerManager
+  check_size<sizeof(ConnectedPlayerManager), 296 + sizeof(void*) + 8 - (296 + sizeof(void*)) % 8> __GlobalNamespace_ConnectedPlayerManagerSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager*, "", "ConnectedPlayerManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::InternalMessageType, "", "ConnectedPlayerManager/InternalMessageType");

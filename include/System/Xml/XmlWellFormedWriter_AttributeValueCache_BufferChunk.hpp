@@ -26,6 +26,7 @@ namespace System::Xml {
     // Offset: 0x19D96CC
     static XmlWellFormedWriter::AttributeValueCache::BufferChunk* New_ctor(::Array<::Il2CppChar>* buffer, int index, int count);
   }; // System.Xml.XmlWellFormedWriter/AttributeValueCache/BufferChunk
+  check_size<sizeof(XmlWellFormedWriter::AttributeValueCache::BufferChunk), 28 + sizeof(int) + 8 - (28 + sizeof(int)) % 8> __System_Xml_XmlWellFormedWriter_AttributeValueCache_BufferChunkSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk*, "System.Xml", "XmlWellFormedWriter/AttributeValueCache/BufferChunk");

@@ -29,6 +29,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DD644
     static OrgScopedID* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.OrgScopedID
+  check_size<sizeof(OrgScopedID), 16 + sizeof(uint64_t) + 8 - (16 + sizeof(uint64_t)) % 8> __Oculus_Platform_Models_OrgScopedIDSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::OrgScopedID*, "Oculus.Platform.Models", "OrgScopedID");

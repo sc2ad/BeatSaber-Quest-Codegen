@@ -83,6 +83,7 @@ namespace UnityEngine {
     // Base method: System.Void GUILayoutGroup::SetVertical(System.Single y, System.Single height)
     void SetVertical(float y, float height);
   }; // UnityEngine.GUIScrollGroup
+  check_size<sizeof(GUIScrollGroup), 184 + sizeof(void*) + 8 - (184 + sizeof(void*)) % 8> __UnityEngine_GUIScrollGroupSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIScrollGroup*, "UnityEngine", "GUIScrollGroup");

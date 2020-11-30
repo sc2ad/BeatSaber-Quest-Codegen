@@ -107,6 +107,7 @@ namespace UnityEngine::UI {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.UI.ColorBlock
+  check_size<sizeof(ColorBlock), 84 + sizeof(float) + 8 - (84 + sizeof(float)) % 8> __UnityEngine_UI_ColorBlockSizeCheck;
   // static public System.Boolean op_Equality(UnityEngine.UI.ColorBlock point1, UnityEngine.UI.ColorBlock point2)
   // Offset: 0x1159524
   bool operator ==(const UnityEngine::UI::ColorBlock& point1, const UnityEngine::UI::ColorBlock& point2);

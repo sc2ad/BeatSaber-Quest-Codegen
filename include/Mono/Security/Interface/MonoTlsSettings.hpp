@@ -174,6 +174,7 @@ namespace Mono::Security::Interface {
     // Base method: System.Void Object::.ctor()
     static MonoTlsSettings* New_ctor();
   }; // Mono.Security.Interface.MonoTlsSettings
+  check_size<sizeof(MonoTlsSettings), 104 + sizeof(void*) + 8 - (104 + sizeof(void*)) % 8> __Mono_Security_Interface_MonoTlsSettingsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoTlsSettings*, "Mono.Security.Interface", "MonoTlsSettings");

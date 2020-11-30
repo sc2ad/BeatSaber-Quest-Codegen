@@ -24,6 +24,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VREvent_Process_t
     constexpr VREvent_Process_t(uint pid_ = {}, uint oldPid_ = {}, bool bForced_ = {}) noexcept : pid{pid_}, oldPid{oldPid_}, bForced{bForced_} {}
   }; // OVR.OpenVR.VREvent_Process_t
+  check_size<sizeof(VREvent_Process_t), 8 + sizeof(bool) + 8 - (8 + sizeof(bool)) % 8> __OVR_OpenVR_VREvent_Process_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Process_t, "OVR.OpenVR", "VREvent_Process_t");

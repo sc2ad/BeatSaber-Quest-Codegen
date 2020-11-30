@@ -132,6 +132,7 @@ namespace System {
     // Offset: 0x19E2CEC
     static void _cctor();
   }; // System.__DTString
+  check_size<sizeof(__DTString), 32 + sizeof(bool) + 8 - (32 + sizeof(bool)) % 8> __System___DTStringSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::__DTString, "System", "__DTString");

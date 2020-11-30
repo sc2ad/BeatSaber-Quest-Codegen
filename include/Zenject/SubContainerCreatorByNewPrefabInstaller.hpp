@@ -54,6 +54,7 @@ namespace Zenject {
     // Base method: System.Void SubContainerCreatorDynamicContext::AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
     void AddInstallers(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::GameObjectContext* context);
   }; // Zenject.SubContainerCreatorByNewPrefabInstaller
+  check_size<sizeof(SubContainerCreatorByNewPrefabInstaller), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __Zenject_SubContainerCreatorByNewPrefabInstallerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewPrefabInstaller*, "Zenject", "SubContainerCreatorByNewPrefabInstaller");

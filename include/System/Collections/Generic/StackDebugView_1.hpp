@@ -12,6 +12,7 @@ namespace System::Collections::Generic {
   template<typename T>
   class StackDebugView_1 : public ::Il2CppObject {
   }; // System.Collections.Generic.StackDebugView`1
+  // Could not write size check! Type: System.Collections.Generic.StackDebugView`1 is generic!
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::StackDebugView_1, "System.Collections.Generic", "StackDebugView`1");

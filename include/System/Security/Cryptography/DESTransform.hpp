@@ -99,6 +99,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void SymmetricTransform::ECB(System.Byte[] input, System.Byte[] output)
     void ECB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
   }; // System.Security.Cryptography.DESTransform
+  check_size<sizeof(DESTransform), 104 + sizeof(void*) + 8 - (104 + sizeof(void*)) % 8> __System_Security_Cryptography_DESTransformSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DESTransform*, "System.Security.Cryptography", "DESTransform");

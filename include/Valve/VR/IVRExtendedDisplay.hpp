@@ -35,6 +35,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: IVRExtendedDisplay
     constexpr IVRExtendedDisplay(Valve::VR::IVRExtendedDisplay::_GetWindowBounds* GetWindowBounds_ = {}, Valve::VR::IVRExtendedDisplay::_GetEyeOutputViewport* GetEyeOutputViewport_ = {}, Valve::VR::IVRExtendedDisplay::_GetDXGIOutputInfo* GetDXGIOutputInfo_ = {}) noexcept : GetWindowBounds{GetWindowBounds_}, GetEyeOutputViewport{GetEyeOutputViewport_}, GetDXGIOutputInfo{GetDXGIOutputInfo_} {}
   }; // Valve.VR.IVRExtendedDisplay
+  check_size<sizeof(IVRExtendedDisplay), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Valve_VR_IVRExtendedDisplaySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRExtendedDisplay, "Valve.VR", "IVRExtendedDisplay");

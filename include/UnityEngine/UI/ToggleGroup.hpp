@@ -85,6 +85,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void UIBehaviour::Start()
     void Start();
   }; // UnityEngine.UI.ToggleGroup
+  check_size<sizeof(ToggleGroup), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __UnityEngine_UI_ToggleGroupSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ToggleGroup*, "UnityEngine.UI", "ToggleGroup");

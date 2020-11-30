@@ -66,6 +66,7 @@ namespace Zenject {
       // Offset: 0xC9B124
       // ABORTED: conflicts with another method.  DisposableInfo(System::IDisposable* disposable, int priority);
     }; // Zenject.DisposableManager/DisposableInfo
+    check_size<sizeof(DisposableManager::DisposableInfo), 8 + sizeof(int) + 8 - (8 + sizeof(int)) % 8> __Zenject_DisposableManager_DisposableInfoSizeCheck;
     // private readonly System.Collections.Generic.List`1<Zenject.DisposableManager/DisposableInfo> _disposables
     // Offset: 0x10
     System::Collections::Generic::List_1<Zenject::DisposableManager::DisposableInfo>* disposables;
@@ -112,6 +113,7 @@ namespace Zenject {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // Zenject.DisposableManager
+  check_size<sizeof(DisposableManager), 33 + sizeof(bool) + 8 - (33 + sizeof(bool)) % 8> __Zenject_DisposableManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager*, "Zenject", "DisposableManager");

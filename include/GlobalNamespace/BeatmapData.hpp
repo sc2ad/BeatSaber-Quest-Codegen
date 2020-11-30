@@ -182,6 +182,7 @@ namespace GlobalNamespace {
     // Base method: BeatmapData IReadonlyBeatmapData::GetCopyWithoutBeatmapObjects()
     GlobalNamespace::BeatmapData* GetCopyWithoutBeatmapObjects();
   }; // BeatmapData
+  check_size<sizeof(BeatmapData), 68 + sizeof(float) + 8 - (68 + sizeof(float)) % 8> __GlobalNamespace_BeatmapDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapData*, "", "BeatmapData");

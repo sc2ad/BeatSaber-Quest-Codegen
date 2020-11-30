@@ -64,6 +64,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static VRIKCalibrator::CalibrationData* New_ctor();
   }; // RootMotion.FinalIK.VRIKCalibrator/CalibrationData
+  check_size<sizeof(VRIKCalibrator::CalibrationData), 104 + sizeof(float) + 8 - (104 + sizeof(float)) % 8> __RootMotion_FinalIK_VRIKCalibrator_CalibrationDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator::CalibrationData*, "RootMotion.FinalIK", "VRIKCalibrator/CalibrationData");

@@ -47,6 +47,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EnableRendererWithLightId* New_ctor();
   }; // EnableRendererWithLightId
+  check_size<sizeof(EnableRendererWithLightId), 60 + sizeof(float) + 8 - (60 + sizeof(float)) % 8> __GlobalNamespace_EnableRendererWithLightIdSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableRendererWithLightId*, "", "EnableRendererWithLightId");

@@ -60,6 +60,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x146CB0C
     static CachedCodeEntry* New_ctor(::Il2CppString* key, System::Collections::Hashtable* capnames, ::Array<::Il2CppString*>* capslist, System::Text::RegularExpressions::RegexCode* code, System::Collections::Hashtable* caps, int capsize, System::Text::RegularExpressions::ExclusiveReference* runner, System::Text::RegularExpressions::SharedReference* repl);
   }; // System.Text.RegularExpressions.CachedCodeEntry
+  check_size<sizeof(CachedCodeEntry), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __System_Text_RegularExpressions_CachedCodeEntrySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::CachedCodeEntry*, "System.Text.RegularExpressions", "CachedCodeEntry");

@@ -47,6 +47,7 @@ namespace GlobalNamespace {
     // Offset: 0x135B700
     uint64_t Release();
   }; // SteamVR_TrackedCamera/VideoStream
+  check_size<sizeof(SteamVR_TrackedCamera::VideoStream), 40 + sizeof(uint64_t) + 8 - (40 + sizeof(uint64_t)) % 8> __GlobalNamespace_SteamVR_TrackedCamera_VideoStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedCamera::VideoStream*, "", "SteamVR_TrackedCamera/VideoStream");

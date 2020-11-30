@@ -82,6 +82,7 @@ namespace System::IO {
     // Base method: System.Void ITaskCompletionAction::Invoke(System.Threading.Tasks.Task completingTask)
     void System_Threading_Tasks_ITaskCompletionAction_Invoke(System::Threading::Tasks::Task* completingTask);
   }; // System.IO.Stream/ReadWriteTask
+  check_size<sizeof(Stream::ReadWriteTask), 120 + sizeof(void*) + 8 - (120 + sizeof(void*)) % 8> __System_IO_Stream_ReadWriteTaskSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::ReadWriteTask*, "System.IO", "Stream/ReadWriteTask");

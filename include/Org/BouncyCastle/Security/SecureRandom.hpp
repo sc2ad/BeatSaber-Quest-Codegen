@@ -89,6 +89,7 @@ namespace Org::BouncyCastle::Security {
     // Base method: System.Void Random::NextBytes(System.Byte[] buf)
     void NextBytes(::Array<uint8_t>* buf);
   }; // Org.BouncyCastle.Security.SecureRandom
+  check_size<sizeof(SecureRandom), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Org_BouncyCastle_Security_SecureRandomSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::SecureRandom*, "Org.BouncyCastle.Security", "SecureRandom");

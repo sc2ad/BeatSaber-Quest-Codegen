@@ -42,6 +42,7 @@ namespace GlobalNamespace {
     // Offset: 0xFCA560
     static SelectLevelDestination* New_ctor(GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
   }; // SelectLevelDestination
+  check_size<sizeof(SelectLevelDestination), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_SelectLevelDestinationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelDestination*, "", "SelectLevelDestination");

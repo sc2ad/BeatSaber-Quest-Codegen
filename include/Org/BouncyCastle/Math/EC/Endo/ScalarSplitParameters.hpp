@@ -67,6 +67,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Offset: 0x193DD48
     int get_Bits();
   }; // Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters
+  check_size<sizeof(ScalarSplitParameters), 64 + sizeof(int) + 8 - (64 + sizeof(int)) % 8> __Org_BouncyCastle_Math_EC_Endo_ScalarSplitParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*, "Org.BouncyCastle.Math.EC.Endo", "ScalarSplitParameters");

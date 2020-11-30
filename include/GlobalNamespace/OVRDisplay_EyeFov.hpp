@@ -30,6 +30,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EyeFov
     constexpr EyeFov(float UpFov_ = {}, float DownFov_ = {}, float LeftFov_ = {}, float RightFov_ = {}) noexcept : UpFov{UpFov_}, DownFov{DownFov_}, LeftFov{LeftFov_}, RightFov{RightFov_} {}
   }; // OVRDisplay/EyeFov
+  check_size<sizeof(OVRDisplay::EyeFov), 12 + sizeof(float) + 8 - (12 + sizeof(float)) % 8> __GlobalNamespace_OVRDisplay_EyeFovSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::EyeFov, "", "OVRDisplay/EyeFov");

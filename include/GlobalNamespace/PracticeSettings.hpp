@@ -64,6 +64,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PracticeSettings* New_ctor();
   }; // PracticeSettings
+  check_size<sizeof(PracticeSettings), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __GlobalNamespace_PracticeSettingsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PracticeSettings*, "", "PracticeSettings");

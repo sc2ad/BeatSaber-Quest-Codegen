@@ -62,6 +62,7 @@ namespace Mono::Net::Security {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // Mono.Net.Security.AsyncProtocolRequest/<StartOperation>d__23
+  check_size<sizeof(AsyncProtocolRequest::$StartOperation$d__23), 48 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter) + 8 - (48 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter)) % 8> __Mono_Net_Security_AsyncProtocolRequest_$StartOperation$d__23SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolRequest::$StartOperation$d__23, "Mono.Net.Security", "AsyncProtocolRequest/<StartOperation>d__23");

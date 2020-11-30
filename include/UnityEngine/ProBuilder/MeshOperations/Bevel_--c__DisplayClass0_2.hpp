@@ -35,6 +35,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Base method: System.Void Object::.ctor()
     static Bevel::$$c__DisplayClass0_2* New_ctor();
   }; // UnityEngine.ProBuilder.MeshOperations.Bevel/<>c__DisplayClass0_2
+  check_size<sizeof(Bevel::$$c__DisplayClass0_2), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_MeshOperations_Bevel_$$c__DisplayClass0_2SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2*, "UnityEngine.ProBuilder.MeshOperations", "Bevel/<>c__DisplayClass0_2");

@@ -35,6 +35,7 @@ namespace UnityEngine::U2D {
     // Creating value type constructor for type: SpriteBone
     constexpr SpriteBone(::Il2CppString* m_Name_ = {}, UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Quaternion m_Rotation_ = {}, float m_Length_ = {}, int m_ParentId_ = {}) noexcept : m_Name{m_Name_}, m_Position{m_Position_}, m_Rotation{m_Rotation_}, m_Length{m_Length_}, m_ParentId{m_ParentId_} {}
   }; // UnityEngine.U2D.SpriteBone
+  check_size<sizeof(SpriteBone), 40 + sizeof(int) + 8 - (40 + sizeof(int)) % 8> __UnityEngine_U2D_SpriteBoneSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::U2D::SpriteBone, "UnityEngine.U2D", "SpriteBone");

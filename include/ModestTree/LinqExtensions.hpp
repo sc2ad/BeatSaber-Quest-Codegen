@@ -37,61 +37,91 @@ namespace ModestTree {
     // Offset: 0xFFFFFFFF
     template<class T>
     static System::Collections::Generic::IEnumerable_1<T>* Yield(T item) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<T>*>("ModestTree", "LinqExtensions", "Yield", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, item)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("LinqExtensions").WithContext("Yield");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "LinqExtensions", il2cpp_utils::NoArgClass<System::Collections::Generic::IEnumerable_1<T>*>(), "Yield", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(item))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, item);
     }
     // static public TSource OnlyOrDefault(System.Collections.Generic.IEnumerable`1<TSource> source)
     // Offset: 0xFFFFFFFF
     template<class TSource>
     static TSource OnlyOrDefault(System::Collections::Generic::IEnumerable_1<TSource>* source) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<TSource>("ModestTree", "LinqExtensions", "OnlyOrDefault", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, source)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("LinqExtensions").WithContext("OnlyOrDefault");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "LinqExtensions", il2cpp_utils::NoArgClass<TSource>(), "OnlyOrDefault", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, ::il2cpp_utils::ExtractTypes(source))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<TSource, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, source);
     }
     // static public System.Boolean HasAtLeast(System.Collections.Generic.IEnumerable`1<T> enumerable, System.Int32 amount)
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool HasAtLeast(System::Collections::Generic::IEnumerable_1<T>* enumerable, int amount) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("ModestTree", "LinqExtensions", "HasAtLeast", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, enumerable, amount)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("LinqExtensions").WithContext("HasAtLeast");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "LinqExtensions", il2cpp_utils::NoArgClass<bool>(), "HasAtLeast", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(enumerable, amount))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, enumerable, amount);
     }
     // static public System.Boolean HasMoreThan(System.Collections.Generic.IEnumerable`1<T> enumerable, System.Int32 amount)
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool HasMoreThan(System::Collections::Generic::IEnumerable_1<T>* enumerable, int amount) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("ModestTree", "LinqExtensions", "HasMoreThan", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, enumerable, amount)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("LinqExtensions").WithContext("HasMoreThan");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "LinqExtensions", il2cpp_utils::NoArgClass<bool>(), "HasMoreThan", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(enumerable, amount))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, enumerable, amount);
     }
     // static public System.Boolean HasLessThan(System.Collections.Generic.IEnumerable`1<T> enumerable, System.Int32 amount)
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool HasLessThan(System::Collections::Generic::IEnumerable_1<T>* enumerable, int amount) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("ModestTree", "LinqExtensions", "HasLessThan", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, enumerable, amount)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("LinqExtensions").WithContext("HasLessThan");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "LinqExtensions", il2cpp_utils::NoArgClass<bool>(), "HasLessThan", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(enumerable, amount))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, enumerable, amount);
     }
     // static public System.Boolean HasAtMost(System.Collections.Generic.IEnumerable`1<T> enumerable, System.Int32 amount)
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool HasAtMost(System::Collections::Generic::IEnumerable_1<T>* enumerable, int amount) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("ModestTree", "LinqExtensions", "HasAtMost", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, enumerable, amount)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("LinqExtensions").WithContext("HasAtMost");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "LinqExtensions", il2cpp_utils::NoArgClass<bool>(), "HasAtMost", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(enumerable, amount))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, enumerable, amount);
     }
     // static public System.Boolean IsEmpty(System.Collections.Generic.IEnumerable`1<T> enumerable)
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool IsEmpty(System::Collections::Generic::IEnumerable_1<T>* enumerable) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("ModestTree", "LinqExtensions", "IsEmpty", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, enumerable)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("LinqExtensions").WithContext("IsEmpty");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "LinqExtensions", il2cpp_utils::NoArgClass<bool>(), "IsEmpty", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(enumerable))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, enumerable);
     }
     // static public System.Collections.Generic.IEnumerable`1<T> GetDuplicates(System.Collections.Generic.IEnumerable`1<T> list)
     // Offset: 0xFFFFFFFF
     template<class T>
     static System::Collections::Generic::IEnumerable_1<T>* GetDuplicates(System::Collections::Generic::IEnumerable_1<T>* list) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<T>*>("ModestTree", "LinqExtensions", "GetDuplicates", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("LinqExtensions").WithContext("GetDuplicates");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "LinqExtensions", il2cpp_utils::NoArgClass<System::Collections::Generic::IEnumerable_1<T>*>(), "GetDuplicates", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list);
     }
     // static public System.Collections.Generic.IEnumerable`1<T> Except(System.Collections.Generic.IEnumerable`1<T> list, T item)
     // Offset: 0xFFFFFFFF
     template<class T>
     static System::Collections::Generic::IEnumerable_1<T>* Except(System::Collections::Generic::IEnumerable_1<T>* list, T item) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<T>*>("ModestTree", "LinqExtensions", "Except", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, item)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("LinqExtensions").WithContext("Except");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "LinqExtensions", il2cpp_utils::NoArgClass<System::Collections::Generic::IEnumerable_1<T>*>(), "Except", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list, item))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list, item);
     }
     // static public System.Boolean ContainsItem(System.Collections.Generic.IEnumerable`1<T> list, T value)
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool ContainsItem(System::Collections::Generic::IEnumerable_1<T>* list, T value) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("ModestTree", "LinqExtensions", "ContainsItem", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, value)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("LinqExtensions").WithContext("ContainsItem");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "LinqExtensions", il2cpp_utils::NoArgClass<bool>(), "ContainsItem", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list, value))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list, value);
     }
   }; // ModestTree.LinqExtensions
 }

@@ -65,6 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ParticleSystemLightWithId* New_ctor();
   }; // ParticleSystemLightWithId
+  check_size<sizeof(ParticleSystemLightWithId), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __GlobalNamespace_ParticleSystemLightWithIdSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParticleSystemLightWithId*, "", "ParticleSystemLightWithId");

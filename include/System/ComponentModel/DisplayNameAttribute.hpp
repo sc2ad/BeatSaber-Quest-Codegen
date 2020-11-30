@@ -53,6 +53,7 @@ namespace System::ComponentModel {
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();
   }; // System.ComponentModel.DisplayNameAttribute
+  check_size<sizeof(DisplayNameAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_ComponentModel_DisplayNameAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DisplayNameAttribute*, "System.ComponentModel", "DisplayNameAttribute");

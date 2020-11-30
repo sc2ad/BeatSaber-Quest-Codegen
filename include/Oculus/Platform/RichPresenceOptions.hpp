@@ -82,6 +82,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // Oculus.Platform.RichPresenceOptions
+  check_size<sizeof(RichPresenceOptions), 16 + sizeof(System::IntPtr) + 8 - (16 + sizeof(System::IntPtr)) % 8> __Oculus_Platform_RichPresenceOptionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RichPresenceOptions*, "Oculus.Platform", "RichPresenceOptions");

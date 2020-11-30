@@ -55,6 +55,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LiteNetLibConnectionManager/<BackgroundDisconnectSentry>d__126
+  check_size<sizeof(LiteNetLibConnectionManager::$BackgroundDisconnectSentry$d__126), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter) + 8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter)) % 8> __GlobalNamespace_LiteNetLibConnectionManager_$BackgroundDisconnectSentry$d__126SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::$BackgroundDisconnectSentry$d__126, "", "LiteNetLibConnectionManager/<BackgroundDisconnectSentry>d__126");

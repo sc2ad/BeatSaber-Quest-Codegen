@@ -65,6 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LocalNetworkDiscoveryManager::InviteRequestPacket* New_ctor();
   }; // LocalNetworkDiscoveryManager/InviteRequestPacket
+  check_size<sizeof(LocalNetworkDiscoveryManager::InviteRequestPacket), 44 + sizeof(uint8_t) + 8 - (44 + sizeof(uint8_t)) % 8> __GlobalNamespace_LocalNetworkDiscoveryManager_InviteRequestPacketSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket*, "", "LocalNetworkDiscoveryManager/InviteRequestPacket");

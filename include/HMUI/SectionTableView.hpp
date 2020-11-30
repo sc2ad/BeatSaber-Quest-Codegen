@@ -132,6 +132,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static SectionTableView* New_ctor();
   }; // HMUI.SectionTableView
+  check_size<sizeof(SectionTableView), 264 + sizeof(void*) + 8 - (264 + sizeof(void*)) % 8> __HMUI_SectionTableViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView*, "HMUI", "SectionTableView");

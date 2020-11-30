@@ -46,6 +46,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ShowTextOnGameEventController::EventTextBinding* New_ctor();
   }; // ShowTextOnGameEventController/EventTextBinding
+  check_size<sizeof(ShowTextOnGameEventController::EventTextBinding), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_ShowTextOnGameEventController_EventTextBindingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*, "", "ShowTextOnGameEventController/EventTextBinding");

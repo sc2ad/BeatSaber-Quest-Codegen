@@ -37,9 +37,12 @@ namespace UnityEngine {
     // public T Resolve(UnityEngine.IExposedPropertyTable resolver)
     // Offset: 0xFFFFFFFF
     T Resolve(UnityEngine::IExposedPropertyTable* resolver) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(*this, "Resolve", resolver));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("ExposedReference_1").WithContext("Resolve");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<T>(), "Resolve", {}, ::il2cpp_utils::ExtractTypes(resolver)));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method, resolver);
     }
   }; // UnityEngine.ExposedReference`1
+  // Could not write size check! Type: UnityEngine.ExposedReference`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::ExposedReference_1, "UnityEngine", "ExposedReference`1");
 #pragma pack(pop)

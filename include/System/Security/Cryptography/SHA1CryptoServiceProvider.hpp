@@ -60,6 +60,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void HashAlgorithm::Initialize()
     void Initialize();
   }; // System.Security.Cryptography.SHA1CryptoServiceProvider
+  check_size<sizeof(SHA1CryptoServiceProvider), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Security_Cryptography_SHA1CryptoServiceProviderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA1CryptoServiceProvider*, "System.Security.Cryptography", "SHA1CryptoServiceProvider");

@@ -71,6 +71,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ImmediateRankUIPanel* New_ctor();
   }; // ImmediateRankUIPanel
+  check_size<sizeof(ImmediateRankUIPanel), 60 + sizeof(GlobalNamespace::RankModel::Rank) + 8 - (60 + sizeof(GlobalNamespace::RankModel::Rank)) % 8> __GlobalNamespace_ImmediateRankUIPanelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ImmediateRankUIPanel*, "", "ImmediateRankUIPanel");

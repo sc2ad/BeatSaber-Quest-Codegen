@@ -137,6 +137,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.AesEngine
+  check_size<sizeof(AesEngine), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Engines_AesEngineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::AesEngine*, "Org.BouncyCastle.Crypto.Engines", "AesEngine");

@@ -156,6 +156,7 @@ namespace System::Globalization {
     // Base method: System.Int32 Calendar::get_TwoDigitYearMax()
     int get_TwoDigitYearMax();
   }; // System.Globalization.JapaneseCalendar
+  check_size<sizeof(JapaneseCalendar), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Globalization_JapaneseCalendarSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::JapaneseCalendar*, "System.Globalization", "JapaneseCalendar");

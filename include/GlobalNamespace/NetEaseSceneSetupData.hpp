@@ -34,6 +34,7 @@ namespace GlobalNamespace {
     // Offset: 0xFD9EE8
     static NetEaseSceneSetupData* New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
   }; // NetEaseSceneSetupData
+  check_size<sizeof(NetEaseSceneSetupData), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_NetEaseSceneSetupDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseSceneSetupData*, "", "NetEaseSceneSetupData");

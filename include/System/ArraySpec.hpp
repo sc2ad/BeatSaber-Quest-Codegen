@@ -54,6 +54,7 @@ namespace System {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.ArraySpec
+  check_size<sizeof(ArraySpec), 20 + sizeof(bool) + 8 - (20 + sizeof(bool)) % 8> __System_ArraySpecSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ArraySpec*, "System", "ArraySpec");

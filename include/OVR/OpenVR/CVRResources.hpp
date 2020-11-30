@@ -42,6 +42,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11F753C
     uint GetResourceFullPath(::Il2CppString* pchResourceName, ::Il2CppString* pchResourceTypeDirectory, System::Text::StringBuilder* pchPathBuffer, uint unBufferLen);
   }; // OVR.OpenVR.CVRResources
+  check_size<sizeof(CVRResources), 16 + sizeof(OVR::OpenVR::IVRResources) + 8 - (16 + sizeof(OVR::OpenVR::IVRResources)) % 8> __OVR_OpenVR_CVRResourcesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRResources*, "OVR.OpenVR", "CVRResources");

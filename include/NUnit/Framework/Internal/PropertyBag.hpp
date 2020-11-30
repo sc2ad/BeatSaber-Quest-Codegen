@@ -91,6 +91,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Void Object::.ctor()
     static PropertyBag* New_ctor();
   }; // NUnit.Framework.Internal.PropertyBag
+  check_size<sizeof(PropertyBag), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __NUnit_Framework_Internal_PropertyBagSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::PropertyBag*, "NUnit.Framework.Internal", "PropertyBag");

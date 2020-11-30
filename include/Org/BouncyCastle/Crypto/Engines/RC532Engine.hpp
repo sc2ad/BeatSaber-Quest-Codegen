@@ -101,6 +101,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.RC532Engine
+  check_size<sizeof(RC532Engine), 32 + sizeof(bool) + 8 - (32 + sizeof(bool)) % 8> __Org_BouncyCastle_Crypto_Engines_RC532EngineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RC532Engine*, "Org.BouncyCastle.Crypto.Engines", "RC532Engine");

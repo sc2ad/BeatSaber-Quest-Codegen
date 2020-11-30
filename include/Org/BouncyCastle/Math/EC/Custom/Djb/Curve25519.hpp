@@ -119,6 +119,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
     // Base method: Org.BouncyCastle.Math.EC.ECFieldElement AbstractFpCurve::RandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r)
     Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElementMult(Org::BouncyCastle::Security::SecureRandom* r);
   }; // Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519
+  check_size<sizeof(Curve25519), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_EC_Custom_Djb_Curve25519SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519*, "Org.BouncyCastle.Math.EC.Custom.Djb", "Curve25519");

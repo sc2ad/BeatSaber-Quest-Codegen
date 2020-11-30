@@ -135,6 +135,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
   }; // System.Runtime.Remoting.Messaging.LogicalCallContext
+  check_size<sizeof(LogicalCallContext), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __System_Runtime_Remoting_Messaging_LogicalCallContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::LogicalCallContext*, "System.Runtime.Remoting.Messaging", "LogicalCallContext");

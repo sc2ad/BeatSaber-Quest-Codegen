@@ -41,6 +41,7 @@ namespace GlobalNamespace {
     // Set static field: static public NoteLineLayer Top
     static void _set_Top(GlobalNamespace::NoteLineLayer value);
   }; // NoteLineLayer
+  check_size<sizeof(NoteLineLayer), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_NoteLineLayerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteLineLayer, "", "NoteLineLayer");

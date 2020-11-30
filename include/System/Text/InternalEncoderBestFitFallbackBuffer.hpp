@@ -76,6 +76,7 @@ namespace System::Text {
     // Base method: System.Void EncoderFallbackBuffer::Reset()
     void Reset();
   }; // System.Text.InternalEncoderBestFitFallbackBuffer
+  check_size<sizeof(InternalEncoderBestFitFallbackBuffer), 68 + sizeof(int) + 8 - (68 + sizeof(int)) % 8> __System_Text_InternalEncoderBestFitFallbackBufferSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::InternalEncoderBestFitFallbackBuffer*, "System.Text", "InternalEncoderBestFitFallbackBuffer");

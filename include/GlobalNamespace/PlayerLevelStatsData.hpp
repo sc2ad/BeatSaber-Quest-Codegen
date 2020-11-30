@@ -89,6 +89,7 @@ namespace GlobalNamespace {
     // Offset: 0xF28A64
     void IncreaseNumberOfGameplays();
   }; // PlayerLevelStatsData
+  check_size<sizeof(PlayerLevelStatsData), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_PlayerLevelStatsDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerLevelStatsData*, "", "PlayerLevelStatsData");

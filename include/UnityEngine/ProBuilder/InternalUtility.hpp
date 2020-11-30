@@ -49,21 +49,30 @@ namespace UnityEngine::ProBuilder {
     template<class T>
     static ::Array<T>* GetComponents(System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* gameObjects) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine.ProBuilder", "InternalUtility", "GetComponents", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, gameObjects)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("InternalUtility").WithContext("GetComponents");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "InternalUtility", il2cpp_utils::NoArgClass<::Array<T>*>(), "GetComponents", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(gameObjects))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, gameObjects);
     }
     // static public T[] GetComponents(UnityEngine.GameObject go)
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::Array<T>* GetComponents(UnityEngine::GameObject* go) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine.ProBuilder", "InternalUtility", "GetComponents", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, go)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("InternalUtility").WithContext("GetComponents");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "InternalUtility", il2cpp_utils::NoArgClass<::Array<T>*>(), "GetComponents", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(go))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, go);
     }
     // static public T[] GetComponents(System.Collections.Generic.IEnumerable`1<UnityEngine.Transform> transforms)
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::Array<T>* GetComponents(System::Collections::Generic::IEnumerable_1<UnityEngine::Transform*>* transforms) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine.ProBuilder", "InternalUtility", "GetComponents", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, transforms)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("InternalUtility").WithContext("GetComponents");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "InternalUtility", il2cpp_utils::NoArgClass<::Array<T>*>(), "GetComponents", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(transforms))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, transforms);
     }
     // static public UnityEngine.GameObject EmptyGameObjectWithTransform(UnityEngine.Transform t)
     // Offset: 0x163B0E8
@@ -73,7 +82,10 @@ namespace UnityEngine::ProBuilder {
     template<class T>
     static T NextEnumValue(T current) {
       static_assert(std::is_base_of_v<System::IConvertible, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine.ProBuilder", "InternalUtility", "NextEnumValue", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, current)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("InternalUtility").WithContext("NextEnumValue");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "InternalUtility", il2cpp_utils::NoArgClass<T>(), "NextEnumValue", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(current))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, current);
     }
     // static public System.String ControlKeyString(System.Char character)
     // Offset: 0x163B1E0
@@ -89,14 +101,20 @@ namespace UnityEngine::ProBuilder {
     template<class T>
     static T DemandComponent(UnityEngine::Component* component) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine.ProBuilder", "InternalUtility", "DemandComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, component)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("InternalUtility").WithContext("DemandComponent");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "InternalUtility", il2cpp_utils::NoArgClass<T>(), "DemandComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(component))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, component);
     }
     // static public T DemandComponent(UnityEngine.GameObject gameObject)
     // Offset: 0xFFFFFFFF
     template<class T>
     static T DemandComponent(UnityEngine::GameObject* gameObject) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine.ProBuilder", "InternalUtility", "DemandComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, gameObject)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("InternalUtility").WithContext("DemandComponent");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "InternalUtility", il2cpp_utils::NoArgClass<T>(), "DemandComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(gameObject))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, gameObject);
     }
   }; // UnityEngine.ProBuilder.InternalUtility
 }

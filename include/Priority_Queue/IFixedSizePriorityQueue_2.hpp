@@ -26,19 +26,26 @@ namespace Priority_Queue {
     // public System.Void Resize(System.Int32 maxNodes)
     // Offset: 0xFFFFFFFF
     void Resize(int maxNodes) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Resize", maxNodes));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("IFixedSizePriorityQueue_2").WithContext("Resize");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Resize", {}, ::il2cpp_utils::ExtractTypes(maxNodes)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, maxNodes);
     }
     // public System.Int32 get_MaxSize()
     // Offset: 0xFFFFFFFF
     int get_MaxSize() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "get_MaxSize"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("IFixedSizePriorityQueue_2").WithContext("get_MaxSize");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "get_MaxSize", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // public System.Void ResetNode(TItem node)
     // Offset: 0xFFFFFFFF
     void ResetNode(TItem node) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "ResetNode", node));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("IFixedSizePriorityQueue_2").WithContext("ResetNode");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "ResetNode", {}, ::il2cpp_utils::ExtractTypes(node)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, node);
     }
   }; // Priority_Queue.IFixedSizePriorityQueue`2
+  // Could not write size check! Type: Priority_Queue.IFixedSizePriorityQueue`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Priority_Queue::IFixedSizePriorityQueue_2, "Priority_Queue", "IFixedSizePriorityQueue`2");
 #pragma pack(pop)

@@ -52,16 +52,20 @@ namespace GlobalNamespace {
     // System.Void <SetupValuePicker>b__0(System.Int32 idx)
     // Offset: 0xFFFFFFFF
     void $SetupValuePicker$b__0(int idx) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "<SetupValuePicker>b__0", idx));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass57_0_1").WithContext("<SetupValuePicker>b__0");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "<SetupValuePicker>b__0", {}, ::il2cpp_utils::ExtractTypes(idx))));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, idx);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EditAvatarViewController::$$c__DisplayClass57_0_1<T>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<EditAvatarViewController::$$c__DisplayClass57_0_1<T>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass57_0_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<EditAvatarViewController::$$c__DisplayClass57_0_1<T>*>());
     }
   }; // EditAvatarViewController/<>c__DisplayClass57_0`1
+  // Could not write size check! Type: EditAvatarViewController/<>c__DisplayClass57_0`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::EditAvatarViewController::$$c__DisplayClass57_0_1, "", "EditAvatarViewController/<>c__DisplayClass57_0`1");
 #pragma pack(pop)

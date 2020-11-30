@@ -90,6 +90,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static KeyboardShortcutsManager* New_ctor();
   }; // KeyboardShortcutsManager
+  check_size<sizeof(KeyboardShortcutsManager), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_KeyboardShortcutsManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KeyboardShortcutsManager*, "", "KeyboardShortcutsManager");

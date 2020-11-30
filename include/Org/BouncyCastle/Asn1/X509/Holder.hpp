@@ -60,6 +60,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.X509.Holder
+  check_size<sizeof(Holder), 40 + sizeof(int) + 8 - (40 + sizeof(int)) % 8> __Org_BouncyCastle_Asn1_X509_HolderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::Holder*, "Org.BouncyCastle.Asn1.X509", "Holder");

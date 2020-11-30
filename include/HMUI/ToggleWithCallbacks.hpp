@@ -70,6 +70,7 @@ namespace HMUI {
       // Set static field: static public HMUI.ToggleWithCallbacks/SelectionState Disabled
       static void _set_Disabled(HMUI::ToggleWithCallbacks::SelectionState value);
     }; // HMUI.ToggleWithCallbacks/SelectionState
+    check_size<sizeof(ToggleWithCallbacks::SelectionState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __HMUI_ToggleWithCallbacks_SelectionStateSizeCheck;
     // private System.Action`1<HMUI.ToggleWithCallbacks/SelectionState> stateDidChangeEvent
     // Offset: 0x118
     System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* stateDidChangeEvent;
@@ -100,6 +101,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static ToggleWithCallbacks* New_ctor();
   }; // HMUI.ToggleWithCallbacks
+  check_size<sizeof(ToggleWithCallbacks), 280 + sizeof(void*) + 8 - (280 + sizeof(void*)) % 8> __HMUI_ToggleWithCallbacksSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ToggleWithCallbacks*, "HMUI", "ToggleWithCallbacks");

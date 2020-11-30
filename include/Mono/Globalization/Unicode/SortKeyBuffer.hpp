@@ -120,6 +120,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x15212B4
     System::Globalization::SortKey* GetResult();
   }; // Mono.Globalization.Unicode.SortKeyBuffer
+  check_size<sizeof(SortKeyBuffer), 130 + sizeof(bool) + 8 - (130 + sizeof(bool)) % 8> __Mono_Globalization_Unicode_SortKeyBufferSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SortKeyBuffer*, "Mono.Globalization.Unicode", "SortKeyBuffer");

@@ -30,6 +30,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void Object::.ctor()
     static IgnoreAttribute* New_ctor();
   }; // UnityEngine.Bindings.IgnoreAttribute
+  check_size<sizeof(IgnoreAttribute), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __UnityEngine_Bindings_IgnoreAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::IgnoreAttribute*, "UnityEngine.Bindings", "IgnoreAttribute");

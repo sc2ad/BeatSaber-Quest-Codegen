@@ -232,6 +232,7 @@ namespace Valve::VR {
     // Offset: 0x136D2B4
     void AcknowledgeQuit_UserPrompt();
   }; // Valve.VR.CVRSystem
+  check_size<sizeof(CVRSystem), 16 + sizeof(Valve::VR::IVRSystem) + 8 - (16 + sizeof(Valve::VR::IVRSystem)) % 8> __Valve_VR_CVRSystemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRSystem*, "Valve.VR", "CVRSystem");

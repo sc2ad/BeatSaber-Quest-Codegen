@@ -40,6 +40,7 @@ namespace Zenject {
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();
   }; // Zenject.ExecutionOrderInstaller
+  check_size<sizeof(ExecutionOrderInstaller), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Zenject_ExecutionOrderInstallerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ExecutionOrderInstaller*, "Zenject", "ExecutionOrderInstaller");

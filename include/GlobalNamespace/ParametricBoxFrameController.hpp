@@ -89,6 +89,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // ParametricBoxFrameController
+  check_size<sizeof(ParametricBoxFrameController), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __GlobalNamespace_ParametricBoxFrameControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParametricBoxFrameController*, "", "ParametricBoxFrameController");

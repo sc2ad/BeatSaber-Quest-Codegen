@@ -37,6 +37,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: FrameTiming
     constexpr FrameTiming(uint64_t cpuTimePresentCalled_ = {}, double cpuFrameTime_ = {}, uint64_t cpuTimeFrameComplete_ = {}, double gpuFrameTime_ = {}, float heightScale_ = {}, float widthScale_ = {}, uint syncInterval_ = {}) noexcept : cpuTimePresentCalled{cpuTimePresentCalled_}, cpuFrameTime{cpuFrameTime_}, cpuTimeFrameComplete{cpuTimeFrameComplete_}, gpuFrameTime{gpuFrameTime_}, heightScale{heightScale_}, widthScale{widthScale_}, syncInterval{syncInterval_} {}
   }; // UnityEngine.FrameTiming
+  check_size<sizeof(FrameTiming), 40 + sizeof(uint) + 8 - (40 + sizeof(uint)) % 8> __UnityEngine_FrameTimingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FrameTiming, "UnityEngine", "FrameTiming");

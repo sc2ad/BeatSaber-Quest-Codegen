@@ -56,6 +56,7 @@ namespace UnityEngine::Animations {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Animations.AnimationScriptPlayable other)
     bool Equals(UnityEngine::Animations::AnimationScriptPlayable other);
   }; // UnityEngine.Animations.AnimationScriptPlayable
+  check_size<sizeof(AnimationScriptPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle) + 8 - (0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8> __UnityEngine_Animations_AnimationScriptPlayableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationScriptPlayable, "UnityEngine.Animations", "AnimationScriptPlayable");

@@ -70,6 +70,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LightWithIds::LightIntensityData* New_ctor();
   }; // LightWithIds/LightIntensityData
+  check_size<sizeof(LightWithIds::LightIntensityData), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __GlobalNamespace_LightWithIds_LightIntensityDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIds::LightIntensityData*, "", "LightWithIds/LightIntensityData");

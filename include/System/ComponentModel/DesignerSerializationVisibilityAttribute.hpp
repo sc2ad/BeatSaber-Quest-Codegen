@@ -58,6 +58,7 @@ namespace System::ComponentModel {
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();
   }; // System.ComponentModel.DesignerSerializationVisibilityAttribute
+  check_size<sizeof(DesignerSerializationVisibilityAttribute), 16 + sizeof(System::ComponentModel::DesignerSerializationVisibility) + 8 - (16 + sizeof(System::ComponentModel::DesignerSerializationVisibility)) % 8> __System_ComponentModel_DesignerSerializationVisibilityAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DesignerSerializationVisibilityAttribute*, "System.ComponentModel", "DesignerSerializationVisibilityAttribute");

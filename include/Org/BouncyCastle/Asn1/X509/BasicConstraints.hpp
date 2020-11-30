@@ -52,6 +52,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.X509.BasicConstraints
+  check_size<sizeof(BasicConstraints), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Org_BouncyCastle_Asn1_X509_BasicConstraintsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::BasicConstraints*, "Org.BouncyCastle.Asn1.X509", "BasicConstraints");

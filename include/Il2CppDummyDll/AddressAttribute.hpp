@@ -32,6 +32,7 @@ namespace Il2CppDummyDll {
     // Base method: System.Void Object::.ctor()
     static AddressAttribute* New_ctor();
   }; // Il2CppDummyDll.AddressAttribute
+  // Could not write size check! Last field: Slot Offset: -1 is of type: System.String
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Il2CppDummyDll::AddressAttribute*, "Il2CppDummyDll", "AddressAttribute");

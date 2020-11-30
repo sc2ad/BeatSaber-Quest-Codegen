@@ -65,6 +65,7 @@ namespace GlobalNamespace {
       // Set static field: static public FullVRControllersRecorder/Mode Off
       static void _set_Off(GlobalNamespace::FullVRControllersRecorder::Mode value);
     }; // FullVRControllersRecorder/Mode
+    check_size<sizeof(FullVRControllersRecorder::Mode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_FullVRControllersRecorder_ModeSizeCheck;
     // private System.String _recordingFilePath
     // Offset: 0x18
     ::Il2CppString* recordingFilePath;
@@ -134,6 +135,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static FullVRControllersRecorder* New_ctor();
   }; // FullVRControllersRecorder
+  check_size<sizeof(FullVRControllersRecorder), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __GlobalNamespace_FullVRControllersRecorderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FullVRControllersRecorder*, "", "FullVRControllersRecorder");

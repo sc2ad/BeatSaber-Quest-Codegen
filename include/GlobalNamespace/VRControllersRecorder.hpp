@@ -82,6 +82,7 @@ namespace GlobalNamespace {
       // Set static field: static public VRControllersRecorder/Mode Off
       static void _set_Off(GlobalNamespace::VRControllersRecorder::Mode value);
     }; // VRControllersRecorder/Mode
+    check_size<sizeof(VRControllersRecorder::Mode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_VRControllersRecorder_ModeSizeCheck;
     // private UnityEngine.TextAsset _recordingTextAsset
     // Offset: 0x18
     UnityEngine::TextAsset* recordingTextAsset;
@@ -217,6 +218,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static VRControllersRecorder* New_ctor();
   }; // VRControllersRecorder
+  check_size<sizeof(VRControllersRecorder), 152 + sizeof(int) + 8 - (152 + sizeof(int)) % 8> __GlobalNamespace_VRControllersRecorderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder*, "", "VRControllersRecorder");

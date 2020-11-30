@@ -137,6 +137,7 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.GraphicsDeviceType XboxOneD3D12
     static void _set_XboxOneD3D12(UnityEngine::Rendering::GraphicsDeviceType value);
   }; // UnityEngine.Rendering.GraphicsDeviceType
+  check_size<sizeof(GraphicsDeviceType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Rendering_GraphicsDeviceTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::GraphicsDeviceType, "UnityEngine.Rendering", "GraphicsDeviceType");

@@ -47,6 +47,7 @@ namespace GlobalNamespace {
     // Set static field: static public BeatmapObjectType None
     static void _set_None(GlobalNamespace::BeatmapObjectType value);
   }; // BeatmapObjectType
+  check_size<sizeof(BeatmapObjectType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_BeatmapObjectTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectType, "", "BeatmapObjectType");

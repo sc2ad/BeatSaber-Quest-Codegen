@@ -35,6 +35,7 @@ namespace OnlineServices::API {
     // Set static field: static public OnlineServices.API.Response UnknownError
     static void _set_UnknownError(OnlineServices::API::Response value);
   }; // OnlineServices.API.Response
+  check_size<sizeof(Response), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OnlineServices_API_ResponseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::Response, "OnlineServices.API", "Response");

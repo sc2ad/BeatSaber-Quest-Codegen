@@ -89,6 +89,7 @@ namespace System::Security::Cryptography {
     // Set static field: static public System.Security.Cryptography.OidGroup KeyDerivationFunction
     static void _set_KeyDerivationFunction(System::Security::Cryptography::OidGroup value);
   }; // System.Security.Cryptography.OidGroup
+  check_size<sizeof(OidGroup), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Security_Cryptography_OidGroupSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::OidGroup, "System.Security.Cryptography", "OidGroup");

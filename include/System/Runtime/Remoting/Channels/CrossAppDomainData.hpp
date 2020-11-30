@@ -30,6 +30,7 @@ namespace System::Runtime::Remoting::Channels {
     // Offset: 0x116D8D8
     ::Il2CppString* get_ProcessID();
   }; // System.Runtime.Remoting.Channels.CrossAppDomainData
+  check_size<sizeof(CrossAppDomainData), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Runtime_Remoting_Channels_CrossAppDomainDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainData*, "System.Runtime.Remoting.Channels", "CrossAppDomainData");

@@ -66,6 +66,7 @@ namespace System::Diagnostics {
       // Set static field: static public System.Diagnostics.DebuggableAttribute/DebuggingModes EnableEditAndContinue
       static void _set_EnableEditAndContinue(System::Diagnostics::DebuggableAttribute::DebuggingModes value);
     }; // System.Diagnostics.DebuggableAttribute/DebuggingModes
+    check_size<sizeof(DebuggableAttribute::DebuggingModes), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Diagnostics_DebuggableAttribute_DebuggingModesSizeCheck;
     // private System.Diagnostics.DebuggableAttribute/DebuggingModes m_debuggingModes
     // Offset: 0x10
     System::Diagnostics::DebuggableAttribute::DebuggingModes m_debuggingModes;
@@ -77,6 +78,7 @@ namespace System::Diagnostics {
     // Offset: 0x167769C
     static DebuggableAttribute* New_ctor(System::Diagnostics::DebuggableAttribute::DebuggingModes modes);
   }; // System.Diagnostics.DebuggableAttribute
+  check_size<sizeof(DebuggableAttribute), 16 + sizeof(System::Diagnostics::DebuggableAttribute::DebuggingModes) + 8 - (16 + sizeof(System::Diagnostics::DebuggableAttribute::DebuggingModes)) % 8> __System_Diagnostics_DebuggableAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggableAttribute*, "System.Diagnostics", "DebuggableAttribute");

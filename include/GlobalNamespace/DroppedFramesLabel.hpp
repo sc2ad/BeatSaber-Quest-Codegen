@@ -65,6 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static DroppedFramesLabel* New_ctor();
   }; // DroppedFramesLabel
+  check_size<sizeof(DroppedFramesLabel), 56 + sizeof(int) + 8 - (56 + sizeof(int)) % 8> __GlobalNamespace_DroppedFramesLabelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DroppedFramesLabel*, "", "DroppedFramesLabel");

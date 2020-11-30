@@ -65,6 +65,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     static AsyncOperation* New_ctor();
   }; // UnityEngine.AsyncOperation
+  check_size<sizeof(AsyncOperation), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_AsyncOperationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AsyncOperation*, "UnityEngine", "AsyncOperation");

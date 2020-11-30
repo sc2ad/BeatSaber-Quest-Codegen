@@ -42,6 +42,7 @@ namespace Valve::VR {
     // Offset: 0x136B8C0
     uint GetResourceFullPath(::Il2CppString* pchResourceName, ::Il2CppString* pchResourceTypeDirectory, System::Text::StringBuilder* pchPathBuffer, uint unBufferLen);
   }; // Valve.VR.CVRResources
+  check_size<sizeof(CVRResources), 16 + sizeof(Valve::VR::IVRResources) + 8 - (16 + sizeof(Valve::VR::IVRResources)) % 8> __Valve_VR_CVRResourcesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRResources*, "Valve.VR", "CVRResources");

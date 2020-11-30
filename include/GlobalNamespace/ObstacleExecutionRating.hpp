@@ -46,6 +46,7 @@ namespace GlobalNamespace {
       // Set static field: static public ObstacleExecutionRating/Rating NotGood
       static void _set_NotGood(GlobalNamespace::ObstacleExecutionRating::Rating value);
     }; // ObstacleExecutionRating/Rating
+    check_size<sizeof(ObstacleExecutionRating::Rating), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_ObstacleExecutionRating_RatingSizeCheck;
     // private ObstacleExecutionRating/Rating <rating>k__BackingField
     // Offset: 0x18
     GlobalNamespace::ObstacleExecutionRating::Rating rating;
@@ -63,6 +64,7 @@ namespace GlobalNamespace {
     // Offset: 0x1003730
     static ObstacleExecutionRating* New_ctor(float time, GlobalNamespace::ObstacleExecutionRating::Rating rating);
   }; // ObstacleExecutionRating
+  check_size<sizeof(ObstacleExecutionRating), 24 + sizeof(GlobalNamespace::ObstacleExecutionRating::Rating) + 8 - (24 + sizeof(GlobalNamespace::ObstacleExecutionRating::Rating)) % 8> __GlobalNamespace_ObstacleExecutionRatingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleExecutionRating*, "", "ObstacleExecutionRating");

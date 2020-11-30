@@ -53,6 +53,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static ClipperRegistry* New_ctor();
   }; // UnityEngine.UI.ClipperRegistry
+  check_size<sizeof(ClipperRegistry), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_UI_ClipperRegistrySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ClipperRegistry*, "UnityEngine.UI", "ClipperRegistry");

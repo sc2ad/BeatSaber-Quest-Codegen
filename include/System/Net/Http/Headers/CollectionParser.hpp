@@ -35,7 +35,10 @@ namespace System::Net::Http::Headers {
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool TryParse(::Il2CppString* input, int minimalCount, System::Net::Http::Headers::ElementTryParser_1<T>* parser, System::Collections::Generic::List_1<T>*& result) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("System.Net.Http.Headers", "CollectionParser", "TryParse", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, input, minimalCount, parser, result)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("CollectionParser").WithContext("TryParse");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Net.Http.Headers", "CollectionParser", il2cpp_utils::NoArgClass<bool>(), "TryParse", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(input, minimalCount, parser, result))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, input, minimalCount, parser, result);
     }
     // static public System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.String> result)
     // Offset: 0x11FE850

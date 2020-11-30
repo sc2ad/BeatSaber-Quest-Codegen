@@ -49,6 +49,7 @@ namespace OnlineServices::API {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.TestApiLeaderboardsModel/<SendLevelScoreResultAsync>d__2
+  check_size<sizeof(TestApiLeaderboardsModel::$SendLevelScoreResultAsync$d__2), 32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::Response>) + 8 - (32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::Response>)) % 8> __OnlineServices_API_TestApiLeaderboardsModel_$SendLevelScoreResultAsync$d__2SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::TestApiLeaderboardsModel::$SendLevelScoreResultAsync$d__2, "OnlineServices.API", "TestApiLeaderboardsModel/<SendLevelScoreResultAsync>d__2");

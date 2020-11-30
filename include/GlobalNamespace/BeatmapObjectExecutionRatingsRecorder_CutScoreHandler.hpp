@@ -45,6 +45,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A28150
     void HandleSwingRatingCounterDidFinish(GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
   }; // BeatmapObjectExecutionRatingsRecorder/CutScoreHandler
+  check_size<sizeof(BeatmapObjectExecutionRatingsRecorder::CutScoreHandler), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapObjectExecutionRatingsRecorder_CutScoreHandlerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*, "", "BeatmapObjectExecutionRatingsRecorder/CutScoreHandler");

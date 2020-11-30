@@ -88,6 +88,7 @@ namespace GlobalNamespace {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // ProfanityFilter/<GetLookalikeLetters>d__4
+  check_size<sizeof(ProfanityFilter::$GetLookalikeLetters$d__4), 30 + sizeof(::Il2CppChar) + 8 - (30 + sizeof(::Il2CppChar)) % 8> __GlobalNamespace_ProfanityFilter_$GetLookalikeLetters$d__4SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProfanityFilter::$GetLookalikeLetters$d__4*, "", "ProfanityFilter/<GetLookalikeLetters>d__4");

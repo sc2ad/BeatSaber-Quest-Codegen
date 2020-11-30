@@ -92,6 +92,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.Security.Cryptography.CryptoStream/<WriteAsyncInternal>d__37
+  check_size<sizeof(CryptoStream::$WriteAsyncInternal$d__37), 96 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter) + 8 - (96 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter)) % 8> __System_Security_Cryptography_CryptoStream_$WriteAsyncInternal$d__37SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoStream::$WriteAsyncInternal$d__37, "System.Security.Cryptography", "CryptoStream/<WriteAsyncInternal>d__37");

@@ -42,6 +42,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Offset: 0x193DB20
     Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* get_SplitParams();
   }; // Org.BouncyCastle.Math.EC.Endo.GlvTypeBParameters
+  check_size<sizeof(GlvTypeBParameters), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_EC_Endo_GlvTypeBParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*, "Org.BouncyCastle.Math.EC.Endo", "GlvTypeBParameters");

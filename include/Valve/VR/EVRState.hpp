@@ -77,6 +77,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVRState Ready_Alert_Low
     static void _set_Ready_Alert_Low(Valve::VR::EVRState value);
   }; // Valve.VR.EVRState
+  check_size<sizeof(EVRState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Valve_VR_EVRStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRState, "Valve.VR", "EVRState");

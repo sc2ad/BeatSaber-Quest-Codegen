@@ -63,6 +63,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static CuttableBySaber* New_ctor();
   }; // CuttableBySaber
+  check_size<sizeof(CuttableBySaber), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_CuttableBySaberSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CuttableBySaber*, "", "CuttableBySaber");

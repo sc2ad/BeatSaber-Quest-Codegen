@@ -28,6 +28,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NamedIntListSettingsController::TextValuePair* New_ctor();
   }; // NamedIntListSettingsController/TextValuePair
+  check_size<sizeof(NamedIntListSettingsController::TextValuePair), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __GlobalNamespace_NamedIntListSettingsController_TextValuePairSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedIntListSettingsController::TextValuePair*, "", "NamedIntListSettingsController/TextValuePair");

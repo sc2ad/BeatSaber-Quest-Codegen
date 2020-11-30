@@ -26,6 +26,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A35044
     static CentralLeaderboardViewController::LeaderboardPanel* New_ctor(::Il2CppString* title, ::Il2CppString* hint, bool mixed);
   }; // CentralLeaderboardViewController/LeaderboardPanel
+  check_size<sizeof(CentralLeaderboardViewController::LeaderboardPanel), 32 + sizeof(bool) + 8 - (32 + sizeof(bool)) % 8> __GlobalNamespace_CentralLeaderboardViewController_LeaderboardPanelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*, "", "CentralLeaderboardViewController/LeaderboardPanel");

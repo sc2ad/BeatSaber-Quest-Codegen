@@ -42,6 +42,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A4A0F8
     static BTSCharacterMaterialSwitcher::RendererMaterialsPairs* New_ctor(UnityEngine::Renderer* renderer);
   }; // BTSCharacterMaterialSwitcher/RendererMaterialsPairs
+  check_size<sizeof(BTSCharacterMaterialSwitcher::RendererMaterialsPairs), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_BTSCharacterMaterialSwitcher_RendererMaterialsPairsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*, "", "BTSCharacterMaterialSwitcher/RendererMaterialsPairs");

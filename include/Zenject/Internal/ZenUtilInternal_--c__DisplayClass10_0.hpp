@@ -38,6 +38,7 @@ namespace Zenject::Internal {
     // Base method: System.Void Object::.ctor()
     static ZenUtilInternal::$$c__DisplayClass10_0* New_ctor();
   }; // Zenject.Internal.ZenUtilInternal/<>c__DisplayClass10_0
+  check_size<sizeof(ZenUtilInternal::$$c__DisplayClass10_0), 16 + sizeof(UnityEngine::SceneManagement::Scene) + 8 - (16 + sizeof(UnityEngine::SceneManagement::Scene)) % 8> __Zenject_Internal_ZenUtilInternal_$$c__DisplayClass10_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0*, "Zenject.Internal", "ZenUtilInternal/<>c__DisplayClass10_0");

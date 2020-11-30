@@ -52,6 +52,7 @@ namespace System::Security::Util {
     // Offset: 0x1288234
     static Parser* New_ctor(::Il2CppString* input);
   }; // System.Security.Util.Parser
+  check_size<sizeof(Parser), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Security_Util_ParserSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Parser*, "System.Security.Util", "Parser");

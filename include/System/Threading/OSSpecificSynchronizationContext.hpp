@@ -82,6 +82,7 @@ namespace System::Threading {
     // Base method: System.Void SynchronizationContext::Post(System.Threading.SendOrPostCallback d, System.Object state)
     void Post(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
   }; // System.Threading.OSSpecificSynchronizationContext
+  check_size<sizeof(OSSpecificSynchronizationContext), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Threading_OSSpecificSynchronizationContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::OSSpecificSynchronizationContext*, "System.Threading", "OSSpecificSynchronizationContext");

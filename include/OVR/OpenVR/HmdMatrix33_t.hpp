@@ -42,6 +42,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: HmdMatrix33_t
     constexpr HmdMatrix33_t(float m0_ = {}, float m1_ = {}, float m2_ = {}, float m3_ = {}, float m4_ = {}, float m5_ = {}, float m6_ = {}, float m7_ = {}, float m8_ = {}) noexcept : m0{m0_}, m1{m1_}, m2{m2_}, m3{m3_}, m4{m4_}, m5{m5_}, m6{m6_}, m7{m7_}, m8{m8_} {}
   }; // OVR.OpenVR.HmdMatrix33_t
+  check_size<sizeof(HmdMatrix33_t), 32 + sizeof(float) + 8 - (32 + sizeof(float)) % 8> __OVR_OpenVR_HmdMatrix33_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdMatrix33_t, "OVR.OpenVR", "HmdMatrix33_t");

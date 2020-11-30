@@ -76,6 +76,7 @@ namespace UnityEngine::Audio {
     // Base method: UnityEngine.Playables.PlayableOutputHandle IPlayableOutput::GetHandle()
     UnityEngine::Playables::PlayableOutputHandle GetHandle();
   }; // UnityEngine.Audio.AudioPlayableOutput
+  check_size<sizeof(AudioPlayableOutput), 0 + sizeof(UnityEngine::Playables::PlayableOutputHandle) + 8 - (0 + sizeof(UnityEngine::Playables::PlayableOutputHandle)) % 8> __UnityEngine_Audio_AudioPlayableOutputSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioPlayableOutput, "UnityEngine.Audio", "AudioPlayableOutput");

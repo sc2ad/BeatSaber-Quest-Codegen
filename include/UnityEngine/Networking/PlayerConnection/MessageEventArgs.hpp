@@ -23,6 +23,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Base method: System.Void Object::.ctor()
     static MessageEventArgs* New_ctor();
   }; // UnityEngine.Networking.PlayerConnection.MessageEventArgs
+  check_size<sizeof(MessageEventArgs), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_Networking_PlayerConnection_MessageEventArgsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::MessageEventArgs*, "UnityEngine.Networking.PlayerConnection", "MessageEventArgs");

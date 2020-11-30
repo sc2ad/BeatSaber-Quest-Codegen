@@ -170,6 +170,7 @@ namespace GlobalNamespace {
     // Base method: IBeatmapLevelData IBeatmapLevel::get_beatmapLevelData()
     GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
   }; // FilteredBeatmapLevel
+  check_size<sizeof(FilteredBeatmapLevel), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_FilteredBeatmapLevelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FilteredBeatmapLevel*, "", "FilteredBeatmapLevel");

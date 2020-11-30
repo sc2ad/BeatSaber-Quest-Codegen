@@ -30,6 +30,7 @@ namespace System::ComponentModel {
     // Offset: 0x20
     System::Delegate* handler;
   }; // System.ComponentModel.EventHandlerList/ListEntry
+  check_size<sizeof(EventHandlerList::ListEntry), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_ComponentModel_EventHandlerList_ListEntrySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EventHandlerList::ListEntry*, "System.ComponentModel", "EventHandlerList/ListEntry");

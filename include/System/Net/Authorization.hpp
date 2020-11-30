@@ -33,6 +33,7 @@ namespace System::Net {
     // Offset: 0x130AC68
     bool get_Complete();
   }; // System.Net.Authorization
+  check_size<sizeof(Authorization), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Net_AuthorizationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Authorization*, "System.Net", "Authorization");

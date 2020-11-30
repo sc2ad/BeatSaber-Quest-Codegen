@@ -36,6 +36,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x1642D08
     void DrawMeshNow(int submeshIndex);
   }; // UnityEngine.ProBuilder.MeshHandle
+  check_size<sizeof(MeshHandle), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_MeshHandleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshHandle*, "UnityEngine.ProBuilder", "MeshHandle");

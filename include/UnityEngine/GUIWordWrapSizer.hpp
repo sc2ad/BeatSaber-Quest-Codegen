@@ -47,6 +47,7 @@ namespace UnityEngine {
     // Base method: System.Void GUILayoutEntry::CalcHeight()
     void CalcHeight();
   }; // UnityEngine.GUIWordWrapSizer
+  check_size<sizeof(GUIWordWrapSizer), 84 + sizeof(float) + 8 - (84 + sizeof(float)) % 8> __UnityEngine_GUIWordWrapSizerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIWordWrapSizer*, "UnityEngine", "GUIWordWrapSizer");

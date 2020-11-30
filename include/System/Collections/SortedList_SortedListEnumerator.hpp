@@ -119,6 +119,7 @@ namespace System::Collections {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // System.Collections.SortedList/SortedListEnumerator
+  check_size<sizeof(SortedList::SortedListEnumerator), 60 + sizeof(int) + 8 - (60 + sizeof(int)) % 8> __System_Collections_SortedList_SortedListEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList::SortedListEnumerator*, "System.Collections", "SortedList/SortedListEnumerator");

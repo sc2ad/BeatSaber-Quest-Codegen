@@ -60,6 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AlwaysOwnedContentContainerSO* New_ctor();
   }; // AlwaysOwnedContentContainerSO
+  check_size<sizeof(AlwaysOwnedContentContainerSO), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_AlwaysOwnedContentContainerSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlwaysOwnedContentContainerSO*, "", "AlwaysOwnedContentContainerSO");

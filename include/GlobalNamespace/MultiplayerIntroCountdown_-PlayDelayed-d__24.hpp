@@ -73,6 +73,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MultiplayerIntroCountdown/<PlayDelayed>d__24
+  check_size<sizeof(MultiplayerIntroCountdown::$PlayDelayed$d__24), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerIntroCountdown_$PlayDelayed$d__24SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdown::$PlayDelayed$d__24*, "", "MultiplayerIntroCountdown/<PlayDelayed>d__24");

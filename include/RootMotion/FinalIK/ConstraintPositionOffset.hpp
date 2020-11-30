@@ -52,6 +52,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static ConstraintPositionOffset* New_ctor();
   }; // RootMotion.FinalIK.ConstraintPositionOffset
+  check_size<sizeof(ConstraintPositionOffset), 64 + sizeof(bool) + 8 - (64 + sizeof(bool)) % 8> __RootMotion_FinalIK_ConstraintPositionOffsetSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ConstraintPositionOffset*, "RootMotion.FinalIK", "ConstraintPositionOffset");

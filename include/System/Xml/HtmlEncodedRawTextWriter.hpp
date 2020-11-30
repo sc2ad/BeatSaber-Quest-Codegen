@@ -172,6 +172,7 @@ namespace System::Xml {
     // Base method: System.Void XmlEncodedRawTextWriter::WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void WriteChars(::Array<::Il2CppChar>* buffer, int index, int count);
   }; // System.Xml.HtmlEncodedRawTextWriter
+  check_size<sizeof(HtmlEncodedRawTextWriter), 224 + sizeof(bool) + 8 - (224 + sizeof(bool)) % 8> __System_Xml_HtmlEncodedRawTextWriterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::HtmlEncodedRawTextWriter*, "System.Xml", "HtmlEncodedRawTextWriter");

@@ -142,7 +142,10 @@ namespace UnityEngine::UI {
     // Offset: 0xFFFFFFFF
     template<class T>
     void SetProperty(T& currentValue, T newValue) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "SetProperty", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, currentValue, newValue));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("LayoutGroup").WithContext("SetProperty");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "SetProperty", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(currentValue, newValue))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, currentValue, newValue);
     }
     // protected System.Void SetDirty()
     // Offset: 0x1560F10
@@ -236,6 +239,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void UIBehaviour::OnRectTransformDimensionsChange()
     void OnRectTransformDimensionsChange();
   }; // UnityEngine.UI.LayoutGroup
+  check_size<sizeof(LayoutGroup), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __UnityEngine_UI_LayoutGroupSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutGroup*, "UnityEngine.UI", "LayoutGroup");
 #pragma pack(pop)

@@ -53,6 +53,7 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Net.NetworkInformation.OperationalStatus NetworkInterface::get_OperationalStatus()
     System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
   }; // System.Net.NetworkInformation.LinuxNetworkInterface
+  check_size<sizeof(LinuxNetworkInterface), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __System_Net_NetworkInformation_LinuxNetworkInterfaceSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::LinuxNetworkInterface*, "System.Net.NetworkInformation", "LinuxNetworkInterface");

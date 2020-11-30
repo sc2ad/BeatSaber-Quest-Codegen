@@ -305,6 +305,7 @@ namespace System::Net::Sockets {
     // Set static field: static public System.Net.Sockets.SocketError OperationAborted
     static void _set_OperationAborted(System::Net::Sockets::SocketError value);
   }; // System.Net.Sockets.SocketError
+  check_size<sizeof(SocketError), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Net_Sockets_SocketErrorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketError, "System.Net.Sockets", "SocketError");

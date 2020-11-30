@@ -108,6 +108,7 @@ namespace Org::BouncyCastle::X509 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.X509.X509Crl
+  check_size<sizeof(X509Crl), 44 + sizeof(int) + 8 - (44 + sizeof(int)) % 8> __Org_BouncyCastle_X509_X509CrlSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509Crl*, "Org.BouncyCastle.X509", "X509Crl");

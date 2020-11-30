@@ -50,6 +50,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BadCutsMissionObjectiveChecker* New_ctor();
   }; // BadCutsMissionObjectiveChecker
+  check_size<sizeof(BadCutsMissionObjectiveChecker), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __GlobalNamespace_BadCutsMissionObjectiveCheckerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BadCutsMissionObjectiveChecker*, "", "BadCutsMissionObjectiveChecker");

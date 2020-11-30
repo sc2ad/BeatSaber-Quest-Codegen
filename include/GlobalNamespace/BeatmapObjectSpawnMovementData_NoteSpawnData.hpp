@@ -41,6 +41,7 @@ namespace GlobalNamespace {
     // Offset: 0xE7F18C
     // ABORTED: conflicts with another method.  NoteSpawnData(UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float jumpGravity, float moveDuration, float jumpDuration);
   }; // BeatmapObjectSpawnMovementData/NoteSpawnData
+  check_size<sizeof(BeatmapObjectSpawnMovementData::NoteSpawnData), 44 + sizeof(float) + 8 - (44 + sizeof(float)) % 8> __GlobalNamespace_BeatmapObjectSpawnMovementData_NoteSpawnDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, "", "BeatmapObjectSpawnMovementData/NoteSpawnData");

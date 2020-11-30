@@ -311,6 +311,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     static GUISkin* New_ctor();
   }; // UnityEngine.GUISkin
+  check_size<sizeof(GUISkin), 224 + sizeof(void*) + 8 - (224 + sizeof(void*)) % 8> __UnityEngine_GUISkinSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUISkin*, "UnityEngine", "GUISkin");

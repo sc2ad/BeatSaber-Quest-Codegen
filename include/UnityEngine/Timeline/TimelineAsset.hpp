@@ -107,6 +107,7 @@ namespace UnityEngine::Timeline {
       // Set static field: static public UnityEngine.Timeline.TimelineAsset/DurationMode FixedLength
       static void _set_FixedLength(UnityEngine::Timeline::TimelineAsset::DurationMode value);
     }; // UnityEngine.Timeline.TimelineAsset/DurationMode
+    check_size<sizeof(TimelineAsset::DurationMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Timeline_TimelineAsset_DurationModeSizeCheck;
     // private System.Int32 m_Version
     // Offset: 0x18
     int m_Version;
@@ -240,21 +241,30 @@ namespace UnityEngine::Timeline {
     template<class T>
     T CreateTrack(UnityEngine::Timeline::TrackAsset* parent, ::Il2CppString* trackName) {
       static_assert(std::is_convertible_v<T, UnityEngine::Timeline::TrackAsset*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "CreateTrack", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, parent, trackName)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("TimelineAsset").WithContext("CreateTrack");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "CreateTrack", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(parent, trackName))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, parent, trackName);
     }
     // public T CreateTrack(System.String trackName)
     // Offset: 0xFFFFFFFF
     template<class T>
     T CreateTrack(::Il2CppString* trackName) {
       static_assert(std::is_convertible_v<T, UnityEngine::Timeline::TrackAsset*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "CreateTrack", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, trackName)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("TimelineAsset").WithContext("CreateTrack");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "CreateTrack", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(trackName))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, trackName);
     }
     // public T CreateTrack()
     // Offset: 0xFFFFFFFF
     template<class T>
     T CreateTrack() {
       static_assert(std::is_convertible_v<T, UnityEngine::Timeline::TrackAsset*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "CreateTrack", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("TimelineAsset").WithContext("CreateTrack");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "CreateTrack", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public System.Boolean DeleteClip(UnityEngine.Timeline.TimelineClip clip)
     // Offset: 0x1425A70
@@ -318,6 +328,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     static TimelineAsset* New_ctor();
   }; // UnityEngine.Timeline.TimelineAsset
+  check_size<sizeof(TimelineAsset), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __UnityEngine_Timeline_TimelineAssetSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset*, "UnityEngine.Timeline", "TimelineAsset");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::DurationMode, "UnityEngine.Timeline", "TimelineAsset/DurationMode");

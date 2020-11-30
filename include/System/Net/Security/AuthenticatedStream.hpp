@@ -34,6 +34,7 @@ namespace System::Net::Security {
     // Base method: System.Void Stream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // System.Net.Security.AuthenticatedStream
+  check_size<sizeof(AuthenticatedStream), 48 + sizeof(bool) + 8 - (48 + sizeof(bool)) % 8> __System_Net_Security_AuthenticatedStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::AuthenticatedStream*, "System.Net.Security", "AuthenticatedStream");

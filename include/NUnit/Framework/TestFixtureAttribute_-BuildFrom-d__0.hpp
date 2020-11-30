@@ -101,6 +101,7 @@ namespace NUnit::Framework {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // NUnit.Framework.TestFixtureAttribute/<BuildFrom>d__0
+  check_size<sizeof(TestFixtureAttribute::$BuildFrom$d__0), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __NUnit_Framework_TestFixtureAttribute_$BuildFrom$d__0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__0*, "NUnit.Framework", "TestFixtureAttribute/<BuildFrom>d__0");

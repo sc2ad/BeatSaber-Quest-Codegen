@@ -111,6 +111,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     static AudioPlayableAsset* New_ctor();
   }; // UnityEngine.Timeline.AudioPlayableAsset
+  check_size<sizeof(AudioPlayableAsset), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __UnityEngine_Timeline_AudioPlayableAssetSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioPlayableAsset*, "UnityEngine.Timeline", "AudioPlayableAsset");

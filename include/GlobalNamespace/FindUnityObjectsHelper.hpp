@@ -50,7 +50,10 @@ namespace GlobalNamespace {
     template<class T>
     static System::Collections::Generic::List_1<T>* GetComponentsInGameObjects(System::Collections::Generic::IReadOnlyList_1<UnityEngine::GameObject*>* gameObjects) {
       static_assert(std::is_convertible_v<T, UnityEngine::Behaviour*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::List_1<T>*>("", "FindUnityObjectsHelper", "GetComponentsInGameObjects", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, gameObjects)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("FindUnityObjectsHelper").WithContext("GetComponentsInGameObjects");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "FindUnityObjectsHelper", il2cpp_utils::NoArgClass<System::Collections::Generic::List_1<T>*>(), "GetComponentsInGameObjects", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(gameObjects))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, gameObjects);
     }
   }; // FindUnityObjectsHelper
 }

@@ -37,6 +37,7 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: VertexPickerEntry
     constexpr VertexPickerEntry(UnityEngine::ProBuilder::ProBuilderMesh* mesh_ = {}, int vertex_ = {}, float screenDistance_ = {}, UnityEngine::Vector3 worldPosition_ = {}) noexcept : mesh{mesh_}, vertex{vertex_}, screenDistance{screenDistance_}, worldPosition{worldPosition_} {}
   }; // UnityEngine.ProBuilder.VertexPickerEntry
+  check_size<sizeof(VertexPickerEntry), 16 + sizeof(UnityEngine::Vector3) + 8 - (16 + sizeof(UnityEngine::Vector3)) % 8> __UnityEngine_ProBuilder_VertexPickerEntrySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::VertexPickerEntry, "UnityEngine.ProBuilder", "VertexPickerEntry");

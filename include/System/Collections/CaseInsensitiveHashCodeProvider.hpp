@@ -50,6 +50,7 @@ namespace System::Collections {
     // Base method: System.Int32 IHashCodeProvider::GetHashCode(System.Object obj)
     int GetHashCode(::Il2CppObject* obj);
   }; // System.Collections.CaseInsensitiveHashCodeProvider
+  check_size<sizeof(CaseInsensitiveHashCodeProvider), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Collections_CaseInsensitiveHashCodeProviderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::CaseInsensitiveHashCodeProvider*, "System.Collections", "CaseInsensitiveHashCodeProvider");

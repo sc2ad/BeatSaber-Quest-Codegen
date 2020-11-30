@@ -50,6 +50,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // Oculus.Platform.NetSyncOptions
+  check_size<sizeof(NetSyncOptions), 16 + sizeof(System::IntPtr) + 8 - (16 + sizeof(System::IntPtr)) % 8> __Oculus_Platform_NetSyncOptionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::NetSyncOptions*, "Oculus.Platform", "NetSyncOptions");

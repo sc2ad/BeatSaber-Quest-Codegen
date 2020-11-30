@@ -79,6 +79,7 @@ namespace MasterServer {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // MasterServer.MessageHandler/RequestResponseWaiter
+  check_size<sizeof(MessageHandler::RequestResponseWaiter), 48 + sizeof(System::Threading::CancellationTokenRegistration) + 8 - (48 + sizeof(System::Threading::CancellationTokenRegistration)) % 8> __MasterServer_MessageHandler_RequestResponseWaiterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::RequestResponseWaiter*, "MasterServer", "MessageHandler/RequestResponseWaiter");

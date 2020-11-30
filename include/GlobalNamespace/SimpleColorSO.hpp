@@ -38,6 +38,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SimpleColorSO* New_ctor();
   }; // SimpleColorSO
+  check_size<sizeof(SimpleColorSO), 24 + sizeof(UnityEngine::Color) + 8 - (24 + sizeof(UnityEngine::Color)) % 8> __GlobalNamespace_SimpleColorSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleColorSO*, "", "SimpleColorSO");

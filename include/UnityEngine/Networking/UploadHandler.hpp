@@ -48,6 +48,7 @@ namespace UnityEngine::Networking {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // UnityEngine.Networking.UploadHandler
+  check_size<sizeof(UploadHandler), 16 + sizeof(System::IntPtr) + 8 - (16 + sizeof(System::IntPtr)) % 8> __UnityEngine_Networking_UploadHandlerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UploadHandler*, "UnityEngine.Networking", "UploadHandler");

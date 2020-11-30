@@ -49,6 +49,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OneTimeLightColorEffect* New_ctor();
   }; // OneTimeLightColorEffect
+  check_size<sizeof(OneTimeLightColorEffect), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_OneTimeLightColorEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OneTimeLightColorEffect*, "", "OneTimeLightColorEffect");

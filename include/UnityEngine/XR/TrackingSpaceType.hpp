@@ -35,6 +35,7 @@ namespace UnityEngine::XR {
     // Set static field: static public UnityEngine.XR.TrackingSpaceType RoomScale
     static void _set_RoomScale(UnityEngine::XR::TrackingSpaceType value);
   }; // UnityEngine.XR.TrackingSpaceType
+  check_size<sizeof(TrackingSpaceType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_XR_TrackingSpaceTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::TrackingSpaceType, "UnityEngine.XR", "TrackingSpaceType");

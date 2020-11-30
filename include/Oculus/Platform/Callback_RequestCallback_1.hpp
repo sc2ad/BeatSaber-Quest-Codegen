@@ -34,16 +34,20 @@ namespace Oculus::Platform {
     // public System.Void .ctor(Oculus.Platform.Message`1/Callback<T> callback)
     // Offset: 0xFFFFFFFF
     static Callback::RequestCallback_1<T>* New_ctor(typename Oculus::Platform::Message_1<T>::Callback* callback) {
-      return THROW_UNLESS(il2cpp_utils::New<Callback::RequestCallback_1<T>*>(callback));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("RequestCallback_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<Callback::RequestCallback_1<T>*>(callback));
     }
     // public override System.Void HandleMessage(Oculus.Platform.Message msg)
     // Offset: 0xFFFFFFFF
     // Implemented from: Oculus.Platform.Callback/RequestCallback
     // Base method: System.Void RequestCallback::HandleMessage(Oculus.Platform.Message msg)
     void HandleMessage(Oculus::Platform::Message* msg) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "HandleMessage", msg));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Oculus::Platform").WithContext("RequestCallback_1").WithContext("HandleMessage");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "HandleMessage", {}, ::il2cpp_utils::ExtractTypes(msg)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, msg);
     }
   }; // Oculus.Platform.Callback/RequestCallback`1
+  // Could not write size check! Type: Oculus.Platform.Callback/RequestCallback`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Oculus::Platform::Callback::RequestCallback_1, "Oculus.Platform", "Callback/RequestCallback`1");
 #pragma pack(pop)

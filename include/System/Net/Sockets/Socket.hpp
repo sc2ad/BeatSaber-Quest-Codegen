@@ -690,6 +690,7 @@ namespace System::Net::Sockets {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.Net.Sockets.Socket
+  check_size<sizeof(Socket), 80 + sizeof(bool) + 8 - (80 + sizeof(bool)) % 8> __System_Net_Sockets_SocketSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket*, "System.Net.Sockets", "Socket");

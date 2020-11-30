@@ -23,6 +23,7 @@ namespace UnityEngine::Profiling::Memory::Experimental {
     // Base method: System.Void Object::.ctor()
     static MetaData* New_ctor();
   }; // UnityEngine.Profiling.Memory.Experimental.MetaData
+  check_size<sizeof(MetaData), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_Profiling_Memory_Experimental_MetaDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Profiling::Memory::Experimental::MetaData*, "UnityEngine.Profiling.Memory.Experimental", "MetaData");

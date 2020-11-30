@@ -34,6 +34,7 @@ namespace Zenject {
     // Offset: 0xC9C8DC
     // ABORTED: conflicts with another method.  PoolableInfo(Zenject::IPoolable* poolable, int priority);
   }; // Zenject.PoolableManager/PoolableInfo
+  check_size<sizeof(PoolableManager::PoolableInfo), 8 + sizeof(int) + 8 - (8 + sizeof(int)) % 8> __Zenject_PoolableManager_PoolableInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager::PoolableInfo, "Zenject", "PoolableManager/PoolableInfo");

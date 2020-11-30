@@ -37,14 +37,19 @@ namespace System::Threading {
     // System.Threading.SparselyPopulatedArrayFragment`1<T> get_Source()
     // Offset: 0xFFFFFFFF
     System::Threading::SparselyPopulatedArrayFragment_1<T>* get_Source() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Threading::SparselyPopulatedArrayFragment_1<T>*>(*this, "get_Source"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparselyPopulatedArrayAddInfo_1").WithContext("get_Source");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<System::Threading::SparselyPopulatedArrayFragment_1<T>*>(), "get_Source", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::SparselyPopulatedArrayFragment_1<T>*, false>(*this, ___internal__method);
     }
     // System.Int32 get_Index()
     // Offset: 0xFFFFFFFF
     int get_Index() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(*this, "get_Index"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparselyPopulatedArrayAddInfo_1").WithContext("get_Index");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<int>(), "get_Index", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(*this, ___internal__method);
     }
   }; // System.Threading.SparselyPopulatedArrayAddInfo`1
+  // Could not write size check! Type: System.Threading.SparselyPopulatedArrayAddInfo`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Threading::SparselyPopulatedArrayAddInfo_1, "System.Threading", "SparselyPopulatedArrayAddInfo`1");
 #pragma pack(pop)

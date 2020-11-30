@@ -35,7 +35,10 @@ namespace UnityEngine::Events {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void ThrowOnInvalidArg(::Il2CppObject* arg) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("UnityEngine.Events", "BaseInvokableCall", "ThrowOnInvalidArg", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, arg));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Events").WithContext("BaseInvokableCall").WithContext("ThrowOnInvalidArg");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Events", "BaseInvokableCall", il2cpp_utils::NoArgClass<void>(), "ThrowOnInvalidArg", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(arg))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, arg);
     }
     // static protected System.Boolean AllowInvoke(System.Delegate delegate)
     // Offset: 0x16863EC

@@ -81,6 +81,7 @@ namespace Tweening {
     // Base method: System.Void Object::.ctor()
     static TweeningManager* New_ctor();
   }; // Tweening.TweeningManager
+  check_size<sizeof(TweeningManager), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __Tweening_TweeningManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Tweening::TweeningManager*, "Tweening", "TweeningManager");

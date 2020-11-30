@@ -174,6 +174,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Stream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // System.Security.Cryptography.CryptoStream
+  check_size<sizeof(CryptoStream), 94 + sizeof(bool) + 8 - (94 + sizeof(bool)) % 8> __System_Security_Cryptography_CryptoStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoStream*, "System.Security.Cryptography", "CryptoStream");

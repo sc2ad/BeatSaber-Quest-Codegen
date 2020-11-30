@@ -47,6 +47,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PlayerSaveDataV1_0_1::PlayerLevelStatsData* New_ctor();
   }; // PlayerSaveDataV1_0_1/PlayerLevelStatsData
+  check_size<sizeof(PlayerSaveDataV1_0_1::PlayerLevelStatsData), 48 + sizeof(int) + 8 - (48 + sizeof(int)) % 8> __GlobalNamespace_PlayerSaveDataV1_0_1_PlayerLevelStatsDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerLevelStatsData*, "", "PlayerSaveDataV1_0_1/PlayerLevelStatsData");

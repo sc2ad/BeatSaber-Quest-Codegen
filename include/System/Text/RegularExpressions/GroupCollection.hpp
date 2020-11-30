@@ -89,6 +89,7 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void Object::.ctor()
     static GroupCollection* New_ctor();
   }; // System.Text.RegularExpressions.GroupCollection
+  check_size<sizeof(GroupCollection), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Text_RegularExpressions_GroupCollectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::GroupCollection*, "System.Text.RegularExpressions", "GroupCollection");

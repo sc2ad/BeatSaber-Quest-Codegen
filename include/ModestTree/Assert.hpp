@@ -52,37 +52,55 @@ namespace ModestTree {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void IsEmpty(System::Collections::Generic::IList_1<T>* list) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("ModestTree", "Assert", "IsEmpty", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("Assert").WithContext("IsEmpty");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "Assert", il2cpp_utils::NoArgClass<void>(), "IsEmpty", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list);
     }
     // static public System.Void IsEmpty(System.Collections.Generic.IEnumerable`1<T> sequence)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void IsEmpty(System::Collections::Generic::IEnumerable_1<T>* sequence) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("ModestTree", "Assert", "IsEmpty", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, sequence));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("Assert").WithContext("IsEmpty");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "Assert", il2cpp_utils::NoArgClass<void>(), "IsEmpty", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(sequence))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, sequence);
     }
     // static public System.Void IsType(System.Object obj)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void IsType(::Il2CppObject* obj) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("ModestTree", "Assert", "IsType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, obj));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("Assert").WithContext("IsType");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "Assert", il2cpp_utils::NoArgClass<void>(), "IsType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(obj))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, obj);
     }
     // static public System.Void IsType(System.Object obj, System.String message)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void IsType(::Il2CppObject* obj, ::Il2CppString* message) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("ModestTree", "Assert", "IsType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, obj, message));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("Assert").WithContext("IsType");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "Assert", il2cpp_utils::NoArgClass<void>(), "IsType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(obj, message))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, obj, message);
     }
     // static public System.Void DerivesFrom(System.Type type)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void DerivesFrom(System::Type* type) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("ModestTree", "Assert", "DerivesFrom", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, type));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("Assert").WithContext("DerivesFrom");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "Assert", il2cpp_utils::NoArgClass<void>(), "DerivesFrom", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(type))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, type);
     }
     // static public System.Void DerivesFromOrEqual(System.Type type)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void DerivesFromOrEqual(System::Type* type) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("ModestTree", "Assert", "DerivesFromOrEqual", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, type));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("Assert").WithContext("DerivesFromOrEqual");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "Assert", il2cpp_utils::NoArgClass<void>(), "DerivesFromOrEqual", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(type))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, type);
     }
     // static public System.Void DerivesFrom(System.Type childType, System.Type parentType)
     // Offset: 0x10E2DCC
@@ -133,7 +151,10 @@ namespace ModestTree {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void IsNotEmpty(System::Collections::Generic::IEnumerable_1<T>* val, ::Il2CppString* message) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("ModestTree", "Assert", "IsNotEmpty", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, val, message));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("Assert").WithContext("IsNotEmpty");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "Assert", il2cpp_utils::NoArgClass<void>(), "IsNotEmpty", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(val, message))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, val, message);
     }
     // static public System.Void IsNotEqual(System.Object left, System.Object right, System.String message)
     // Offset: 0x10E36A4
@@ -167,7 +188,10 @@ namespace ModestTree {
     template<class TException>
     static void Throws(System::Action* action) {
       static_assert(std::is_convertible_v<TException, System::Exception*>);
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("ModestTree", "Assert", "Throws", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TException>::get()}, action));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree").WithContext("Assert").WithContext("Throws");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "Assert", il2cpp_utils::NoArgClass<void>(), "Throws", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TException>::get()}, ::il2cpp_utils::ExtractTypes(action))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TException>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, action);
     }
     // static public Zenject.ZenjectException CreateException()
     // Offset: 0x10E4790

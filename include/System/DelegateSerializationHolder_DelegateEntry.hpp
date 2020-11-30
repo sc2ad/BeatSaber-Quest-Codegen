@@ -53,6 +53,7 @@ namespace System {
     // Offset: 0x167720C
     System::Delegate* DeserializeDelegate(System::Runtime::Serialization::SerializationInfo* info, int index);
   }; // System.DelegateSerializationHolder/DelegateEntry
+  check_size<sizeof(DelegateSerializationHolder::DelegateEntry), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __System_DelegateSerializationHolder_DelegateEntrySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DelegateSerializationHolder::DelegateEntry*, "System", "DelegateSerializationHolder/DelegateEntry");

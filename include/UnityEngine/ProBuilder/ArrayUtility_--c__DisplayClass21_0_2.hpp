@@ -39,16 +39,20 @@ namespace UnityEngine::ProBuilder {
     // System.Boolean <DistinctBy>b__0(TSource x)
     // Offset: 0xFFFFFFFF
     bool $DistinctBy$b__0(TSource x) {
-      return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "<DistinctBy>b__0", x)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("$$c__DisplayClass21_0_2").WithContext("<DistinctBy>b__0");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "<DistinctBy>b__0", {}, ::il2cpp_utils::ExtractTypes(x))));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, x);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ArrayUtility::$$c__DisplayClass21_0_2<TSource, TKey>* New_ctor() {
-      return THROW_UNLESS((il2cpp_utils::New<ArrayUtility::$$c__DisplayClass21_0_2<TSource, TKey>*>()));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("$$c__DisplayClass21_0_2").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<ArrayUtility::$$c__DisplayClass21_0_2<TSource, TKey>*>()));
     }
   }; // UnityEngine.ProBuilder.ArrayUtility/<>c__DisplayClass21_0`2
+  // Could not write size check! Type: UnityEngine.ProBuilder.ArrayUtility/<>c__DisplayClass21_0`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::ProBuilder::ArrayUtility::$$c__DisplayClass21_0_2, "UnityEngine.ProBuilder", "ArrayUtility/<>c__DisplayClass21_0`2");
 #pragma pack(pop)

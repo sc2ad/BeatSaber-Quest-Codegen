@@ -54,6 +54,7 @@ namespace System::Text {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Text.InternalEncoderBestFitFallback
+  check_size<sizeof(InternalEncoderBestFitFallback), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Text_InternalEncoderBestFitFallbackSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::InternalEncoderBestFitFallback*, "System.Text", "InternalEncoderBestFitFallback");

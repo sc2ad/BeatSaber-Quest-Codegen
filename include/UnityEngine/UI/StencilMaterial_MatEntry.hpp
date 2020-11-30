@@ -62,6 +62,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static StencilMaterial::MatEntry* New_ctor();
   }; // UnityEngine.UI.StencilMaterial/MatEntry
+  check_size<sizeof(StencilMaterial::MatEntry), 60 + sizeof(UnityEngine::Rendering::ColorWriteMask) + 8 - (60 + sizeof(UnityEngine::Rendering::ColorWriteMask)) % 8> __UnityEngine_UI_StencilMaterial_MatEntrySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::StencilMaterial::MatEntry*, "UnityEngine.UI", "StencilMaterial/MatEntry");

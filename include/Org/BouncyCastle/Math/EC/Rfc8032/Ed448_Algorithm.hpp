@@ -37,6 +37,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     // Set static field: static public Org.BouncyCastle.Math.EC.Rfc8032.Ed448/Algorithm Ed448ph
     static void _set_Ed448ph(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::Algorithm value);
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed448/Algorithm
+  check_size<sizeof(Ed448::Algorithm), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Org_BouncyCastle_Math_EC_Rfc8032_Ed448_AlgorithmSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::Algorithm, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed448/Algorithm");

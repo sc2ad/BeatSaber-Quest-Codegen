@@ -49,6 +49,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EnvironmentBrandingManager* New_ctor();
   }; // EnvironmentBrandingManager
+  check_size<sizeof(EnvironmentBrandingManager), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_EnvironmentBrandingManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentBrandingManager*, "", "EnvironmentBrandingManager");

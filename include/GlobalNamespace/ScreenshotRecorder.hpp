@@ -77,6 +77,7 @@ namespace GlobalNamespace {
       // Set static field: static public ScreenshotRecorder/RecordingType ScreenshotOnPause
       static void _set_ScreenshotOnPause(GlobalNamespace::ScreenshotRecorder::RecordingType value);
     }; // ScreenshotRecorder/RecordingType
+    check_size<sizeof(ScreenshotRecorder::RecordingType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_ScreenshotRecorder_RecordingTypeSizeCheck;
     // private System.String _folder
     // Offset: 0x18
     ::Il2CppString* folder;
@@ -164,6 +165,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ScreenshotRecorder* New_ctor();
   }; // ScreenshotRecorder
+  check_size<sizeof(ScreenshotRecorder), 112 + sizeof(void*) + 8 - (112 + sizeof(void*)) % 8> __GlobalNamespace_ScreenshotRecorderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenshotRecorder*, "", "ScreenshotRecorder");

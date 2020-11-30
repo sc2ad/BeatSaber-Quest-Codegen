@@ -266,6 +266,7 @@ namespace NUnit::Framework::Internal {
     // Maps to method: CompareTo
     int System_IComparable_CompareTo(::Il2CppObject* obj);
   }; // NUnit.Framework.Internal.Test
+  check_size<sizeof(Test), 116 + sizeof(bool) + 8 - (116 + sizeof(bool)) % 8> __NUnit_Framework_Internal_TestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Test*, "NUnit.Framework.Internal", "Test");

@@ -197,6 +197,7 @@ namespace GlobalNamespace {
       // Set static field: static public EditAvatarViewController/AvatarEditPart ClothesModelDetailColor
       static void _set_ClothesModelDetailColor(GlobalNamespace::EditAvatarViewController::AvatarEditPart value);
     }; // EditAvatarViewController/AvatarEditPart
+    check_size<sizeof(EditAvatarViewController::AvatarEditPart), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_EditAvatarViewController_AvatarEditPartSizeCheck;
     // private NamedColorListController _skinColorValuePicker
     // Offset: 0x70
     GlobalNamespace::NamedColorListController* skinColorValuePicker;
@@ -364,7 +365,10 @@ namespace GlobalNamespace {
     template<class T>
     static ::Array<GlobalNamespace::NamedIntListController::TextValuePair*>* CreateTextValuePairsForAvatarPartCollection(GlobalNamespace::AvatarPartCollection_1<T>* partCollection) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*> && std::is_base_of_v<GlobalNamespace::IAvatarPart, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<GlobalNamespace::NamedIntListController::TextValuePair*>*>("", "EditAvatarViewController", "CreateTextValuePairsForAvatarPartCollection", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, partCollection)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("EditAvatarViewController").WithContext("CreateTextValuePairsForAvatarPartCollection");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "EditAvatarViewController", il2cpp_utils::NoArgClass<::Array<GlobalNamespace::NamedIntListController::TextValuePair*>*>(), "CreateTextValuePairsForAvatarPartCollection", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(partCollection))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<::Array<GlobalNamespace::NamedIntListController::TextValuePair*>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, partCollection);
     }
     // private NamedColorListController/ColorValuePair[] CreateColorValuePairsForAvatarPartCollection(SkinColorSO[] colors)
     // Offset: 0x1A5D748
@@ -377,7 +381,10 @@ namespace GlobalNamespace {
     template<class T>
     void SetupValuePicker(GlobalNamespace::AvatarPartCollection_1<T>* partCollection, GlobalNamespace::NamedIntListController* valuePicker, System::Action_1<::Il2CppString*>* setIdAction, GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*> && std::is_base_of_v<GlobalNamespace::IAvatarPart, std::remove_pointer_t<T>>);
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "SetupValuePicker", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, partCollection, valuePicker, setIdAction, avatarEditPart));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("EditAvatarViewController").WithContext("SetupValuePicker");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "SetupValuePicker", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(partCollection, valuePicker, setIdAction, avatarEditPart))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, partCollection, valuePicker, setIdAction, avatarEditPart);
     }
     // private System.Void <DidActivate>b__40_0(UnityEngine.Color color)
     // Offset: 0x1A5E150
@@ -440,6 +447,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EditAvatarViewController* New_ctor();
   }; // EditAvatarViewController
+  check_size<sizeof(EditAvatarViewController), 320 + sizeof(GlobalNamespace::EditAvatarViewController::AvatarEditPart) + 8 - (320 + sizeof(GlobalNamespace::EditAvatarViewController::AvatarEditPart)) % 8> __GlobalNamespace_EditAvatarViewControllerSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController*, "", "EditAvatarViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController::AvatarEditPart, "", "EditAvatarViewController/AvatarEditPart");

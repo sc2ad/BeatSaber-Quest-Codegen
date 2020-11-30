@@ -50,6 +50,7 @@ namespace UnityEngine {
     // Offset: 0xCB92B0
     UnityEngine::Color get_color();
   }; // UnityEngine.ParticleSystem/MinMaxGradient
+  check_size<sizeof(ParticleSystem::MinMaxGradient), 40 + sizeof(UnityEngine::Color) + 8 - (40 + sizeof(UnityEngine::Color)) % 8> __UnityEngine_ParticleSystem_MinMaxGradientSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxGradient, "UnityEngine", "ParticleSystem/MinMaxGradient");

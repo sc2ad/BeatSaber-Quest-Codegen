@@ -58,6 +58,7 @@ namespace System::Security {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Security.SecureString
+  check_size<sizeof(SecureString), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Security_SecureStringSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecureString*, "System.Security", "SecureString");

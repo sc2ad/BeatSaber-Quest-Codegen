@@ -79,6 +79,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/Result Failure_InsufficientSize
     static void _set_Failure_InsufficientSize(GlobalNamespace::OVRPlugin::Result value);
   }; // OVRPlugin/Result
+  check_size<sizeof(OVRPlugin::Result), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRPlugin_ResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Result, "", "OVRPlugin/Result");

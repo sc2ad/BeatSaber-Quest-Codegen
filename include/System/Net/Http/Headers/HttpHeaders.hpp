@@ -109,19 +109,28 @@ namespace System::Net::Http::Headers {
     // Offset: 0xFFFFFFFF
     template<class T>
     T GetValue(::Il2CppString* name) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "GetValue", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, name)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("HttpHeaders").WithContext("GetValue");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "GetValue", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(name))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, name);
     }
     // System.Net.Http.Headers.HttpHeaderValueCollection`1<T> GetValues(System.String name)
     // Offset: 0xFFFFFFFF
     template<class T>
     System::Net::Http::Headers::HttpHeaderValueCollection_1<T>* GetValues(::Il2CppString* name) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Net::Http::Headers::HttpHeaderValueCollection_1<T>*>(this, "GetValues", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, name)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("HttpHeaders").WithContext("GetValues");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Net::Http::Headers::HttpHeaderValueCollection_1<T>*>(), "GetValues", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(name))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Net::Http::Headers::HttpHeaderValueCollection_1<T>*, false>(this, ___internal__method, name);
     }
     // System.Void SetValue(System.String name, T value, System.Func`2<System.Object,System.String> toStringConverter)
     // Offset: 0xFFFFFFFF
     template<class T>
     void SetValue(::Il2CppString* name, T value, System::Func_2<::Il2CppObject*, ::Il2CppString*>* toStringConverter) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "SetValue", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, name, value, toStringConverter));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("HttpHeaders").WithContext("SetValue");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "SetValue", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(name, value, toStringConverter))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, name, value, toStringConverter);
     }
     // protected System.Void .ctor()
     // Offset: 0x12023F4
@@ -139,6 +148,7 @@ namespace System::Net::Http::Headers {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.HttpHeaders
+  check_size<sizeof(HttpHeaders), 30 + sizeof(System::Nullable_1<bool>) + 8 - (30 + sizeof(System::Nullable_1<bool>)) % 8> __System_Net_Http_Headers_HttpHeadersSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpHeaders*, "System.Net.Http.Headers", "HttpHeaders");
 #pragma pack(pop)

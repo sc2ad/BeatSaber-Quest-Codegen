@@ -101,6 +101,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.Timeline.ControlPlayableAsset/<GetControlableScripts>d__38
+  check_size<sizeof(ControlPlayableAsset::$GetControlableScripts$d__38), 64 + sizeof(int) + 8 - (64 + sizeof(int)) % 8> __UnityEngine_Timeline_ControlPlayableAsset_$GetControlableScripts$d__38SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__38*, "UnityEngine.Timeline", "ControlPlayableAsset/<GetControlableScripts>d__38");

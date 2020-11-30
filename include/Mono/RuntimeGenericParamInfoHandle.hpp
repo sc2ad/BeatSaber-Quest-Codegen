@@ -54,6 +54,7 @@ namespace Mono {
     // Offset: 0xCA0D50
     int GetConstraintsCount();
   }; // Mono.RuntimeGenericParamInfoHandle
+  check_size<sizeof(RuntimeGenericParamInfoHandle), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __Mono_RuntimeGenericParamInfoHandleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeGenericParamInfoHandle, "Mono", "RuntimeGenericParamInfoHandle");

@@ -101,6 +101,7 @@ namespace GlobalNamespace {
       // Set static field: static public MainMenuViewController/MenuButton HowToPlay
       static void _set_HowToPlay(GlobalNamespace::MainMenuViewController::MenuButton value);
     }; // MainMenuViewController/MenuButton
+    check_size<sizeof(MainMenuViewController::MenuButton), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_MainMenuViewController_MenuButtonSizeCheck;
     // private UnityEngine.UI.Button _soloButton
     // Offset: 0x70
     UnityEngine::UI::Button* soloButton;
@@ -177,6 +178,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MainMenuViewController* New_ctor();
   }; // MainMenuViewController
+  check_size<sizeof(MainMenuViewController), 176 + sizeof(void*) + 8 - (176 + sizeof(void*)) % 8> __GlobalNamespace_MainMenuViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainMenuViewController*, "", "MainMenuViewController");

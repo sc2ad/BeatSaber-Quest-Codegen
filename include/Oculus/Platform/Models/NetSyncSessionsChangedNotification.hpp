@@ -33,6 +33,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DD16C
     static NetSyncSessionsChangedNotification* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.NetSyncSessionsChangedNotification
+  check_size<sizeof(NetSyncSessionsChangedNotification), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Oculus_Platform_Models_NetSyncSessionsChangedNotificationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncSessionsChangedNotification*, "Oculus.Platform.Models", "NetSyncSessionsChangedNotification");

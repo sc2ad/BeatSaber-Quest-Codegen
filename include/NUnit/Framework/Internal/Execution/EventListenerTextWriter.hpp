@@ -53,6 +53,7 @@ namespace NUnit::Framework::Internal::Execution {
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();
   }; // NUnit.Framework.Internal.Execution.EventListenerTextWriter
+  check_size<sizeof(EventListenerTextWriter), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __NUnit_Framework_Internal_Execution_EventListenerTextWriterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::EventListenerTextWriter*, "NUnit.Framework.Internal.Execution", "EventListenerTextWriter");

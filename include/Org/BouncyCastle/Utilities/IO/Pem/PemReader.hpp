@@ -40,6 +40,7 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     // Offset: 0x18BFA20
     Org::BouncyCastle::Utilities::IO::Pem::PemObject* LoadObject(::Il2CppString* type);
   }; // Org.BouncyCastle.Utilities.IO.Pem.PemReader
+  check_size<sizeof(PemReader), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Org_BouncyCastle_Utilities_IO_Pem_PemReaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemReader*, "Org.BouncyCastle.Utilities.IO.Pem", "PemReader");

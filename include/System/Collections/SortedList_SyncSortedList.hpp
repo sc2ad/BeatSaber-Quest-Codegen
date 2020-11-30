@@ -151,6 +151,7 @@ namespace System::Collections {
     // Base method: System.Void SortedList::RemoveAt(System.Int32 index)
     void RemoveAt(int index);
   }; // System.Collections.SortedList/SyncSortedList
+  check_size<sizeof(SortedList::SyncSortedList), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __System_Collections_SortedList_SyncSortedListSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList::SyncSortedList*, "System.Collections", "SortedList/SyncSortedList");

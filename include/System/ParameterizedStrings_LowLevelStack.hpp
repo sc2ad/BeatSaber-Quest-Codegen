@@ -34,6 +34,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static ParameterizedStrings::LowLevelStack* New_ctor();
   }; // System.ParameterizedStrings/LowLevelStack
+  check_size<sizeof(ParameterizedStrings::LowLevelStack), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __System_ParameterizedStrings_LowLevelStackSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings::LowLevelStack*, "System", "ParameterizedStrings/LowLevelStack");

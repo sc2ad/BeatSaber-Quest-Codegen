@@ -43,21 +43,27 @@ namespace Zenject {
     // public System.Void .ctor(System.Action`5<TParam1,TParam2,TParam3,TParam4,TValue> onSpawnMethod, System.Action`1<TValue> onDespawnedMethod)
     // Offset: 0xFFFFFFFF
     static StaticMemoryPool_5<TParam1, TParam2, TParam3, TParam4, TValue>* New_ctor(System::Action_5<TParam1, TParam2, TParam3, TParam4, TValue>* onSpawnMethod, System::Action_1<TValue>* onDespawnedMethod) {
-      return THROW_UNLESS((il2cpp_utils::New<StaticMemoryPool_5<TParam1, TParam2, TParam3, TParam4, TValue>*>(onSpawnMethod, onDespawnedMethod)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("StaticMemoryPool_5").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<StaticMemoryPool_5<TParam1, TParam2, TParam3, TParam4, TValue>*>(onSpawnMethod, onDespawnedMethod)));
     }
     // public System.Void set_OnSpawnMethod(System.Action`5<TParam1,TParam2,TParam3,TParam4,TValue> value)
     // Offset: 0xFFFFFFFF
     void set_OnSpawnMethod(System::Action_5<TParam1, TParam2, TParam3, TParam4, TValue>* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_OnSpawnMethod", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("StaticMemoryPool_5").WithContext("set_OnSpawnMethod");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "set_OnSpawnMethod", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // public TValue Spawn(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IMemoryPool`5
     // Base method: TValue IMemoryPool_5::Spawn(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4)
     TValue Spawn(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<TValue>(this, "Spawn", p1, p2, p3, p4));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("StaticMemoryPool_5").WithContext("Spawn");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<TValue>(), "Spawn", {}, ::il2cpp_utils::ExtractTypes(p1, p2, p3, p4)));
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, p1, p2, p3, p4);
     }
   }; // Zenject.StaticMemoryPool`5
+  // Could not write size check! Type: Zenject.StaticMemoryPool`5 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::StaticMemoryPool_5, "Zenject", "StaticMemoryPool`5");
 #pragma pack(pop)

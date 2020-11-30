@@ -12,6 +12,7 @@ namespace System::Collections::Generic {
   template<typename T>
   class Mscorlib_CollectionDebugView_1 : public ::Il2CppObject {
   }; // System.Collections.Generic.Mscorlib_CollectionDebugView`1
+  // Could not write size check! Type: System.Collections.Generic.Mscorlib_CollectionDebugView`1 is generic!
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::Mscorlib_CollectionDebugView_1, "System.Collections.Generic", "Mscorlib_CollectionDebugView`1");

@@ -22,6 +22,7 @@ namespace OVR::OpenVR {
       return button;
     }
   }; // OVR.OpenVR.VREvent_Controller_t
+  check_size<sizeof(VREvent_Controller_t), 0 + sizeof(uint) + 8 - (0 + sizeof(uint)) % 8> __OVR_OpenVR_VREvent_Controller_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Controller_t, "OVR.OpenVR", "VREvent_Controller_t");

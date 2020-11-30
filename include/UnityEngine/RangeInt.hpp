@@ -27,6 +27,7 @@ namespace UnityEngine {
     // Offset: 0xCA7648
     // ABORTED: conflicts with another method.  RangeInt(int start, int length);
   }; // UnityEngine.RangeInt
+  check_size<sizeof(RangeInt), 4 + sizeof(int) + 8 - (4 + sizeof(int)) % 8> __UnityEngine_RangeIntSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RangeInt, "UnityEngine", "RangeInt");

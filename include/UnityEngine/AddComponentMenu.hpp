@@ -26,6 +26,7 @@ namespace UnityEngine {
     // Offset: 0x1679E2C
     static AddComponentMenu* New_ctor(::Il2CppString* menuName, int order);
   }; // UnityEngine.AddComponentMenu
+  check_size<sizeof(AddComponentMenu), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __UnityEngine_AddComponentMenuSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddComponentMenu*, "UnityEngine", "AddComponentMenu");

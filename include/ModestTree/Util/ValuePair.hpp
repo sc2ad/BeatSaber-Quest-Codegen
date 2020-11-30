@@ -31,19 +31,28 @@ namespace ModestTree::Util {
     // Offset: 0xFFFFFFFF
     template<class T1, class T2>
     static ModestTree::Util::ValuePair_2<T1, T2>* New(T1 first, T2 second) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<ModestTree::Util::ValuePair_2<T1, T2>*>("ModestTree.Util", "ValuePair", "New", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get()}, first, second)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree::Util").WithContext("ValuePair").WithContext("New");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree.Util", "ValuePair", il2cpp_utils::NoArgClass<ModestTree::Util::ValuePair_2<T1, T2>*>(), "New", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get()}, ::il2cpp_utils::ExtractTypes(first, second))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get()})));
+      return ::il2cpp_utils::RunMethodThrow<ModestTree::Util::ValuePair_2<T1, T2>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, first, second);
     }
     // static public ModestTree.Util.ValuePair`3<T1,T2,T3> New(T1 first, T2 second, T3 third)
     // Offset: 0xFFFFFFFF
     template<class T1, class T2, class T3>
     static ModestTree::Util::ValuePair_3<T1, T2, T3>* New(T1 first, T2 second, T3 third) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<ModestTree::Util::ValuePair_3<T1, T2, T3>*>("ModestTree.Util", "ValuePair", "New", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T3>::get()}, first, second, third)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree::Util").WithContext("ValuePair").WithContext("New");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree.Util", "ValuePair", il2cpp_utils::NoArgClass<ModestTree::Util::ValuePair_3<T1, T2, T3>*>(), "New", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T3>::get()}, ::il2cpp_utils::ExtractTypes(first, second, third))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T3>::get()})));
+      return ::il2cpp_utils::RunMethodThrow<ModestTree::Util::ValuePair_3<T1, T2, T3>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, first, second, third);
     }
     // static public ModestTree.Util.ValuePair`4<T1,T2,T3,T4> New(T1 first, T2 second, T3 third, T4 fourth)
     // Offset: 0xFFFFFFFF
     template<class T1, class T2, class T3, class T4>
     static ModestTree::Util::ValuePair_4<T1, T2, T3, T4>* New(T1 first, T2 second, T3 third, T4 fourth) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<ModestTree::Util::ValuePair_4<T1, T2, T3, T4>*>("ModestTree.Util", "ValuePair", "New", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T4>::get()}, first, second, third, fourth)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("ModestTree::Util").WithContext("ValuePair").WithContext("New");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree.Util", "ValuePair", il2cpp_utils::NoArgClass<ModestTree::Util::ValuePair_4<T1, T2, T3, T4>*>(), "New", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T4>::get()}, ::il2cpp_utils::ExtractTypes(first, second, third, fourth))));
+      static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T3>::get(), il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T4>::get()})));
+      return ::il2cpp_utils::RunMethodThrow<ModestTree::Util::ValuePair_4<T1, T2, T3, T4>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, first, second, third, fourth);
     }
   }; // ModestTree.Util.ValuePair
 }

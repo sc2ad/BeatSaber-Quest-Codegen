@@ -45,6 +45,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     static NameCache* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.NameCache
+  check_size<sizeof(NameCache), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Runtime_Serialization_Formatters_Binary_NameCacheSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::NameCache*, "System.Runtime.Serialization.Formatters.Binary", "NameCache");

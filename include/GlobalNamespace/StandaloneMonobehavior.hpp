@@ -101,7 +101,10 @@ namespace GlobalNamespace {
     template<class T>
     static T Create() {
       static_assert(std::is_convertible_v<T, GlobalNamespace::StandaloneMonobehavior*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("", "StandaloneMonobehavior", "Create", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("StandaloneMonobehavior").WithContext("Create");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "StandaloneMonobehavior", il2cpp_utils::NoArgClass<T>(), "Create", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
     }
     // public System.Threading.Tasks.Task RunAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1E588DC
@@ -122,6 +125,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static StandaloneMonobehavior* New_ctor();
   }; // StandaloneMonobehavior
+  check_size<sizeof(StandaloneMonobehavior), 40 + sizeof(int) + 8 - (40 + sizeof(int)) % 8> __GlobalNamespace_StandaloneMonobehaviorSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandaloneMonobehavior*, "", "StandaloneMonobehavior");
 #pragma pack(pop)

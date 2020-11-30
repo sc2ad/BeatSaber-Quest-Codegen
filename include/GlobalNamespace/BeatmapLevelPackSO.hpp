@@ -89,6 +89,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BeatmapLevelPackSO* New_ctor();
   }; // BeatmapLevelPackSO
+  check_size<sizeof(BeatmapLevelPackSO), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapLevelPackSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelPackSO*, "", "BeatmapLevelPackSO");

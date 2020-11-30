@@ -66,6 +66,7 @@ namespace System::Threading {
     // Offset: 0x1D0D37C
     static void _cctor();
   }; // System.Threading.SpinLock
+  check_size<sizeof(SpinLock), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Threading_SpinLockSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinLock, "System.Threading", "SpinLock");

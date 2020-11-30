@@ -47,6 +47,7 @@ namespace GlobalNamespace {
     // Set static field: static public MultiplayerSessionManager/MessageType ScoreSyncState
     static void _set_ScoreSyncState(GlobalNamespace::MultiplayerSessionManager_MessageType value);
   }; // MultiplayerSessionManager/MessageType
+  check_size<sizeof(MultiplayerSessionManager_MessageType), 0 + sizeof(uint8_t) + 8 - (0 + sizeof(uint8_t)) % 8> __GlobalNamespace_MultiplayerSessionManager_MessageTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager_MessageType, "", "MultiplayerSessionManager/MessageType");

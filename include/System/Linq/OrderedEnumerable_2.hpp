@@ -54,16 +54,20 @@ namespace System::Linq {
     // System.Void .ctor(System.Collections.Generic.IEnumerable`1<TElement> source, System.Func`2<TElement,TKey> keySelector, System.Collections.Generic.IComparer`1<TKey> comparer, System.Boolean descending)
     // Offset: 0xFFFFFFFF
     static OrderedEnumerable_2<TElement, TKey>* New_ctor(System::Collections::Generic::IEnumerable_1<TElement>* source, System::Func_2<TElement, TKey>* keySelector, System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending) {
-      return THROW_UNLESS((il2cpp_utils::New<OrderedEnumerable_2<TElement, TKey>*>(source, keySelector, comparer, descending)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("OrderedEnumerable_2").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<OrderedEnumerable_2<TElement, TKey>*>(source, keySelector, comparer, descending)));
     }
     // override System.Linq.EnumerableSorter`1<TElement> GetEnumerableSorter(System.Linq.EnumerableSorter`1<TElement> next)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Linq.OrderedEnumerable`1
     // Base method: System.Linq.EnumerableSorter`1<TElement> OrderedEnumerable_1::GetEnumerableSorter(System.Linq.EnumerableSorter`1<TElement> next)
     System::Linq::EnumerableSorter_1<TElement>* GetEnumerableSorter(System::Linq::EnumerableSorter_1<TElement>* next) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Linq::EnumerableSorter_1<TElement>*>(this, "GetEnumerableSorter", next));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("OrderedEnumerable_2").WithContext("GetEnumerableSorter");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Linq::EnumerableSorter_1<TElement>*>(), "GetEnumerableSorter", {}, ::il2cpp_utils::ExtractTypes(next)));
+      return ::il2cpp_utils::RunMethodThrow<System::Linq::EnumerableSorter_1<TElement>*, false>(this, ___internal__method, next);
     }
   }; // System.Linq.OrderedEnumerable`2
+  // Could not write size check! Type: System.Linq.OrderedEnumerable`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::OrderedEnumerable_2, "System.Linq", "OrderedEnumerable`2");
 #pragma pack(pop)

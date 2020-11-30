@@ -49,6 +49,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MasterServerConnectionManager::StartServerParams* New_ctor();
   }; // MasterServerConnectionManager/StartServerParams
+  check_size<sizeof(MasterServerConnectionManager::StartServerParams), 88 + sizeof(GlobalNamespace::GameplayServerConfiguration) + 8 - (88 + sizeof(GlobalNamespace::GameplayServerConfiguration)) % 8> __GlobalNamespace_MasterServerConnectionManager_StartServerParamsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::StartServerParams*, "", "MasterServerConnectionManager/StartServerParams");

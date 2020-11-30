@@ -32,6 +32,7 @@ namespace UnityEngine {
     // Offset: 0x1682E74
     static ContextMenu* New_ctor(::Il2CppString* itemName, bool isValidateFunction, int priority);
   }; // UnityEngine.ContextMenu
+  check_size<sizeof(ContextMenu), 28 + sizeof(int) + 8 - (28 + sizeof(int)) % 8> __UnityEngine_ContextMenuSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContextMenu*, "UnityEngine", "ContextMenu");

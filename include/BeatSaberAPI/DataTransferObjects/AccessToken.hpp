@@ -23,6 +23,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Base method: System.Void Object::.ctor()
     static AccessToken* New_ctor();
   }; // BeatSaberAPI.DataTransferObjects.AccessToken
+  check_size<sizeof(AccessToken), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __BeatSaberAPI_DataTransferObjects_AccessTokenSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::AccessToken*, "BeatSaberAPI.DataTransferObjects", "AccessToken");

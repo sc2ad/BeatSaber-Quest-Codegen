@@ -37,6 +37,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SkinColorSetSO* New_ctor();
   }; // SkinColorSetSO
+  check_size<sizeof(SkinColorSetSO), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_SkinColorSetSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SkinColorSetSO*, "", "SkinColorSetSO");

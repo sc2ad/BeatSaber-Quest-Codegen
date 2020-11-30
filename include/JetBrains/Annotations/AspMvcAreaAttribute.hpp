@@ -36,6 +36,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     static AspMvcAreaAttribute* New_ctor();
   }; // JetBrains.Annotations.AspMvcAreaAttribute
+  check_size<sizeof(AspMvcAreaAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __JetBrains_Annotations_AspMvcAreaAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcAreaAttribute*, "JetBrains.Annotations", "AspMvcAreaAttribute");

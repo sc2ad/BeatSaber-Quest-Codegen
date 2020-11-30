@@ -33,12 +33,14 @@ namespace Priority_Queue {
     // public System.Void .ctor(System.Collections.Generic.IComparer`1<System.Single> comparer)
     // Offset: 0xFFFFFFFF
     static SimplePriorityQueue_1<TItem>* New_ctor(System::Collections::Generic::IComparer_1<float>* comparer) {
-      return THROW_UNLESS(il2cpp_utils::New<SimplePriorityQueue_1<TItem>*>(comparer));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("SimplePriorityQueue_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<SimplePriorityQueue_1<TItem>*>(comparer));
     }
     // public System.Void .ctor(System.Comparison`1<System.Single> comparer)
     // Offset: 0xFFFFFFFF
     static SimplePriorityQueue_1<TItem>* New_ctor(System::Comparison_1<float>* comparer) {
-      return THROW_UNLESS(il2cpp_utils::New<SimplePriorityQueue_1<TItem>*>(comparer));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("SimplePriorityQueue_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<SimplePriorityQueue_1<TItem>*>(comparer));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -46,9 +48,11 @@ namespace Priority_Queue {
     // Base method: System.Void SimplePriorityQueue_2::.ctor()
     // Base method: System.Void Object::.ctor()
     static SimplePriorityQueue_1<TItem>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<SimplePriorityQueue_1<TItem>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Priority_Queue").WithContext("SimplePriorityQueue_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<SimplePriorityQueue_1<TItem>*>());
     }
   }; // Priority_Queue.SimplePriorityQueue`1
+  // Could not write size check! Type: Priority_Queue.SimplePriorityQueue`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Priority_Queue::SimplePriorityQueue_1, "Priority_Queue", "SimplePriorityQueue`1");
 #pragma pack(pop)

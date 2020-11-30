@@ -31,6 +31,7 @@ namespace System {
     // Offset: 0x1CA08F0
     static AssemblyLoadEventArgs* New_ctor(System::Reflection::Assembly* loadedAssembly);
   }; // System.AssemblyLoadEventArgs
+  check_size<sizeof(AssemblyLoadEventArgs), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_AssemblyLoadEventArgsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::AssemblyLoadEventArgs*, "System", "AssemblyLoadEventArgs");

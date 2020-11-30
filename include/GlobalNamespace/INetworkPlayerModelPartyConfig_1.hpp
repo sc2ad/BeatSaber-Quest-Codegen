@@ -18,6 +18,7 @@ namespace GlobalNamespace {
   template<typename T>
   class INetworkPlayerModelPartyConfig_1 {
   }; // INetworkPlayerModelPartyConfig`1
+  // Could not write size check! Type: INetworkPlayerModelPartyConfig`1 is generic!
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::INetworkPlayerModelPartyConfig_1, "", "INetworkPlayerModelPartyConfig`1");

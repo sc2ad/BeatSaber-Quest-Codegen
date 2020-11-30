@@ -61,6 +61,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LevelFilteringNavigationController/<UpdateCustomSongs>d__42
+  check_size<sizeof(LevelFilteringNavigationController::$UpdateCustomSongs$d__42), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevelPackCollection*>) + 8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevelPackCollection*>)) % 8> __GlobalNamespace_LevelFilteringNavigationController_$UpdateCustomSongs$d__42SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilteringNavigationController::$UpdateCustomSongs$d__42, "", "LevelFilteringNavigationController/<UpdateCustomSongs>d__42");

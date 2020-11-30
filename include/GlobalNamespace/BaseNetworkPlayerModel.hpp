@@ -141,7 +141,10 @@ namespace GlobalNamespace {
     template<class T>
     void CreateConnectedPlayerManager(GlobalNamespace::IConnectionInitParams_1<T>* initParams) {
       static_assert(std::is_base_of_v<GlobalNamespace::IConnectionManager, std::remove_pointer_t<T>>);
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "CreateConnectedPlayerManager", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, initParams));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BaseNetworkPlayerModel").WithContext("CreateConnectedPlayerManager");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "CreateConnectedPlayerManager", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(initParams))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, initParams);
     }
     // protected System.Void Log(System.String message)
     // Offset: 0x1A4DE80
@@ -273,7 +276,10 @@ namespace GlobalNamespace {
     template<class T>
     bool CreateParty(GlobalNamespace::INetworkPlayerModelPartyConfig_1<T>* createConfig) {
       static_assert(std::is_base_of_v<GlobalNamespace::INetworkPlayerModel, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(this, "CreateParty", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, createConfig)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("BaseNetworkPlayerModel").WithContext("CreateParty");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "CreateParty", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(createConfig))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, createConfig);
     }
     // public System.Void DestroyParty()
     // Offset: 0x1A4DD74
@@ -291,6 +297,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BaseNetworkPlayerModel* New_ctor();
   }; // BaseNetworkPlayerModel
+  check_size<sizeof(BaseNetworkPlayerModel), 112 + sizeof(void*) + 8 - (112 + sizeof(void*)) % 8> __GlobalNamespace_BaseNetworkPlayerModelSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseNetworkPlayerModel*, "", "BaseNetworkPlayerModel");
 #pragma pack(pop)

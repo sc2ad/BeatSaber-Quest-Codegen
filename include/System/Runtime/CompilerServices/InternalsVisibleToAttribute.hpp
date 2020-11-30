@@ -32,6 +32,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x1163230
     void set_AllInternalsVisible(bool value);
   }; // System.Runtime.CompilerServices.InternalsVisibleToAttribute
+  check_size<sizeof(InternalsVisibleToAttribute), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __System_Runtime_CompilerServices_InternalsVisibleToAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::InternalsVisibleToAttribute*, "System.Runtime.CompilerServices", "InternalsVisibleToAttribute");

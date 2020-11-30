@@ -38,6 +38,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EEA38
     void set_PageName(::Il2CppString* value);
   }; // JetBrains.Annotations.RazorPageBaseTypeAttribute
+  check_size<sizeof(RazorPageBaseTypeAttribute), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __JetBrains_Annotations_RazorPageBaseTypeAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorPageBaseTypeAttribute*, "JetBrains.Annotations", "RazorPageBaseTypeAttribute");

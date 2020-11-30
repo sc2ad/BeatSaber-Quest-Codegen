@@ -75,6 +75,7 @@ namespace System::Security::Policy {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Security.Policy.Evidence
+  check_size<sizeof(Evidence), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Security_Policy_EvidenceSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Policy::Evidence*, "System.Security.Policy", "Evidence");

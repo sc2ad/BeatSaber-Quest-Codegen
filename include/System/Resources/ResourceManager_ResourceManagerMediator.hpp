@@ -95,6 +95,7 @@ namespace System::Resources {
     // Offset: 0x15D5B98
     ::Il2CppString* get_BaseName();
   }; // System.Resources.ResourceManager/ResourceManagerMediator
+  check_size<sizeof(ResourceManager::ResourceManagerMediator), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Resources_ResourceManager_ResourceManagerMediatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceManager::ResourceManagerMediator*, "System.Resources", "ResourceManager/ResourceManagerMediator");

@@ -48,6 +48,7 @@ namespace GlobalNamespace {
       // Set static field: static public NullAllowed/Context Prefab
       static void _set_Prefab(GlobalNamespace::NullAllowed::Context value);
     }; // NullAllowed/Context
+    check_size<sizeof(NullAllowed::Context), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_NullAllowed_ContextSizeCheck;
     // public readonly NullAllowed/Context context
     // Offset: 0x10
     GlobalNamespace::NullAllowed::Context context;
@@ -71,6 +72,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NullAllowed* New_ctor();
   }; // NullAllowed
+  check_size<sizeof(NullAllowed), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_NullAllowedSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NullAllowed*, "", "NullAllowed");

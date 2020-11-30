@@ -57,6 +57,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static StandardLevelFinishedController* New_ctor();
   }; // StandardLevelFinishedController
+  check_size<sizeof(StandardLevelFinishedController), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_StandardLevelFinishedControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelFinishedController*, "", "StandardLevelFinishedController");

@@ -151,6 +151,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.Timeline.DiscreteTime
+  check_size<sizeof(DiscreteTime), 0 + sizeof(int64_t) + 8 - (0 + sizeof(int64_t)) % 8> __UnityEngine_Timeline_DiscreteTimeSizeCheck;
   // static public System.Boolean op_Equality(UnityEngine.Timeline.DiscreteTime lhs, UnityEngine.Timeline.DiscreteTime rhs)
   // Offset: 0x141C1E8
   bool operator ==(const UnityEngine::Timeline::DiscreteTime& lhs, const UnityEngine::Timeline::DiscreteTime& rhs);

@@ -159,6 +159,7 @@ namespace System::IO {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.IO.BinaryReader
+  check_size<sizeof(BinaryReader), 70 + sizeof(bool) + 8 - (70 + sizeof(bool)) % 8> __System_IO_BinaryReaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::BinaryReader*, "System.IO", "BinaryReader");

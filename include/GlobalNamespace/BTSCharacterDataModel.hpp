@@ -46,6 +46,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BTSCharacterDataModel* New_ctor();
   }; // BTSCharacterDataModel
+  check_size<sizeof(BTSCharacterDataModel), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_BTSCharacterDataModelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel*, "", "BTSCharacterDataModel");

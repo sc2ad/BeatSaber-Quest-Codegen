@@ -87,6 +87,7 @@ namespace UnityEngine::TestTools::Utils {
     // Offset: 0x1198338
     void $ExMethod$b__11_0();
   }; // UnityEngine.TestTools.Utils.CoroutineRunner
+  check_size<sizeof(CoroutineRunner), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __UnityEngine_TestTools_Utils_CoroutineRunnerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::CoroutineRunner*, "UnityEngine.TestTools.Utils", "CoroutineRunner");

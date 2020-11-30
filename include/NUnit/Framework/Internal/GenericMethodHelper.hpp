@@ -75,6 +75,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x13F3CB0
     bool IsAssignableToGenericType(System::Type* givenType, System::Type* genericType);
   }; // NUnit.Framework.Internal.GenericMethodHelper
+  check_size<sizeof(GenericMethodHelper), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __NUnit_Framework_Internal_GenericMethodHelperSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::GenericMethodHelper*, "NUnit.Framework.Internal", "GenericMethodHelper");

@@ -115,6 +115,7 @@ namespace GlobalNamespace {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // OculusConnectionManager/OculusConnection
+  check_size<sizeof(OculusConnectionManager::OculusConnection), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __GlobalNamespace_OculusConnectionManager_OculusConnectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::OculusConnection*, "", "OculusConnectionManager/OculusConnection");

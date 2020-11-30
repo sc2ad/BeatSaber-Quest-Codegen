@@ -71,6 +71,7 @@ namespace System::Net {
     // Offset: 0x12BD8A8
     static System::Net::KnownHttpVerb* Parse(::Il2CppString* name);
   }; // System.Net.KnownHttpVerb
+  check_size<sizeof(KnownHttpVerb), 27 + sizeof(bool) + 8 - (27 + sizeof(bool)) % 8> __System_Net_KnownHttpVerbSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::KnownHttpVerb*, "System.Net", "KnownHttpVerb");

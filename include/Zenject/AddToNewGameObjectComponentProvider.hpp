@@ -64,6 +64,7 @@ namespace Zenject {
     // Base method: UnityEngine.GameObject AddToGameObjectComponentProviderBase::GetGameObject(Zenject.InjectContext context)
     UnityEngine::GameObject* GetGameObject(Zenject::InjectContext* context);
   }; // Zenject.AddToNewGameObjectComponentProvider
+  check_size<sizeof(AddToNewGameObjectComponentProvider), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __Zenject_AddToNewGameObjectComponentProviderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AddToNewGameObjectComponentProvider*, "Zenject", "AddToNewGameObjectComponentProvider");

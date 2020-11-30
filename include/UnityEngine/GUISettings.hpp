@@ -52,6 +52,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     static GUISettings* New_ctor();
   }; // UnityEngine.GUISettings
+  check_size<sizeof(GUISettings), 40 + sizeof(UnityEngine::Color) + 8 - (40 + sizeof(UnityEngine::Color)) % 8> __UnityEngine_GUISettingsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUISettings*, "UnityEngine", "GUISettings");

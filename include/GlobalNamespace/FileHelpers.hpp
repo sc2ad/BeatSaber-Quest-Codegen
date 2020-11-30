@@ -40,7 +40,10 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     static T LoadFromJSONFile(::Il2CppString* filePath, ::Il2CppString* backupFilePath) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("", "FileHelpers", "LoadFromJSONFile", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, filePath, backupFilePath)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("FileHelpers").WithContext("LoadFromJSONFile");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "FileHelpers", il2cpp_utils::NoArgClass<T>(), "LoadFromJSONFile", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(filePath, backupFilePath))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, filePath, backupFilePath);
     }
     // static public System.String LoadJSONFile(System.String filePath, System.String backupFilePath)
     // Offset: 0x1030438

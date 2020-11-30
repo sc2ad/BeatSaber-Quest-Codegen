@@ -79,6 +79,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BeatmapCharacteristicTableCell* New_ctor();
   }; // BeatmapCharacteristicTableCell
+  check_size<sizeof(BeatmapCharacteristicTableCell), 128 + sizeof(UnityEngine::Color) + 8 - (128 + sizeof(UnityEngine::Color)) % 8> __GlobalNamespace_BeatmapCharacteristicTableCellSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicTableCell*, "", "BeatmapCharacteristicTableCell");

@@ -24,6 +24,7 @@ namespace UnityEngine::Animations {
       return stream;
     }
   }; // UnityEngine.Animations.AnimationHumanStream
+  check_size<sizeof(AnimationHumanStream), 0 + sizeof(System::IntPtr) + 8 - (0 + sizeof(System::IntPtr)) % 8> __UnityEngine_Animations_AnimationHumanStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationHumanStream, "UnityEngine.Animations", "AnimationHumanStream");

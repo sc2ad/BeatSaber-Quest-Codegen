@@ -28,6 +28,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     static Motion* New_ctor();
   }; // UnityEngine.Motion
+  check_size<sizeof(Motion), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __UnityEngine_MotionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Motion*, "UnityEngine", "Motion");

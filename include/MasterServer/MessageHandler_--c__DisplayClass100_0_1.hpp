@@ -98,16 +98,21 @@ namespace MasterServer {
       // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
       // Base method: System.Void IAsyncStateMachine::MoveNext()
       void MoveNext() {
-        THROW_UNLESS(il2cpp_utils::RunMethod(*this, "MoveNext"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("$$WrapOnSendFailedAwaitResponse$b__0$d").WithContext("MoveNext");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "MoveNext", {}, ::il2cpp_utils::ExtractTypes()));
+        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method);
       }
       // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Runtime.CompilerServices.IAsyncStateMachine
       // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
       void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-        THROW_UNLESS(il2cpp_utils::RunMethod(*this, "SetStateMachine", stateMachine));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("$$WrapOnSendFailedAwaitResponse$b__0$d").WithContext("SetStateMachine");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "SetStateMachine", {}, ::il2cpp_utils::ExtractTypes(stateMachine)));
+        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, stateMachine);
       }
     }; // MasterServer.MessageHandler/<>c__DisplayClass100_0`1/<<WrapOnSendFailedAwaitResponse>b__0>d
+    // Could not write size check! Type: MasterServer.MessageHandler/<>c__DisplayClass100_0`1/<<WrapOnSendFailedAwaitResponse>b__0>d is generic!
     // public MasterServer.MessageHandler/RequestResponseWaiter waiter
     // Offset: 0x0
     MasterServer::MessageHandler::RequestResponseWaiter* waiter;
@@ -117,16 +122,20 @@ namespace MasterServer {
     // System.Threading.Tasks.Task <WrapOnSendFailedAwaitResponse>b__0(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest message, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task* $WrapOnSendFailedAwaitResponse$b__0(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* message, System::Threading::CancellationToken cancellationToken) {
-      return THROW_UNLESS((il2cpp_utils::RunMethod<System::Threading::Tasks::Task*>(this, "<WrapOnSendFailedAwaitResponse>b__0", protocolVersion, remoteEndPoint, message, cancellationToken)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("$$c__DisplayClass100_0_1").WithContext("<WrapOnSendFailedAwaitResponse>b__0");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Threading::Tasks::Task*>(), "<WrapOnSendFailedAwaitResponse>b__0", {}, ::il2cpp_utils::ExtractTypes(protocolVersion, remoteEndPoint, message, cancellationToken))));
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task*, false>(this, ___internal__method, protocolVersion, remoteEndPoint, message, cancellationToken);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MessageHandler::$$c__DisplayClass100_0_1<T>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<MessageHandler::$$c__DisplayClass100_0_1<T>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("$$c__DisplayClass100_0_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<MessageHandler::$$c__DisplayClass100_0_1<T>*>());
     }
   }; // MasterServer.MessageHandler/<>c__DisplayClass100_0`1
+  // Could not write size check! Type: MasterServer.MessageHandler/<>c__DisplayClass100_0`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(MasterServer::MessageHandler::$$c__DisplayClass100_0_1, "MasterServer", "MessageHandler/<>c__DisplayClass100_0`1");
 #pragma pack(pop)

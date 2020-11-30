@@ -49,6 +49,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x16FA71C
     void Update(float localRotationWeight, float localPositionWeight);
   }; // RootMotion.FinalIK.GenericPoser/Map
+  check_size<sizeof(GenericPoser::Map), 44 + sizeof(UnityEngine::Quaternion) + 8 - (44 + sizeof(UnityEngine::Quaternion)) % 8> __RootMotion_FinalIK_GenericPoser_MapSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GenericPoser::Map*, "RootMotion.FinalIK", "GenericPoser/Map");

@@ -107,6 +107,7 @@ namespace GlobalNamespace {
     // Set static field: static public GameplayModifierMask All
     static void _set_All(GlobalNamespace::GameplayModifierMask value);
   }; // GameplayModifierMask
+  check_size<sizeof(GameplayModifierMask), 0 + sizeof(uint16_t) + 8 - (0 + sizeof(uint16_t)) % 8> __GlobalNamespace_GameplayModifierMaskSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierMask, "", "GameplayModifierMask");

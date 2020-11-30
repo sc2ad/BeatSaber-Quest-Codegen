@@ -156,6 +156,7 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void Object::.ctor()
     static NtpPacket* New_ctor();
   }; // LiteNetLib.Utils.NtpPacket
+  check_size<sizeof(NtpPacket), 24 + sizeof(System::Nullable_1<System::DateTime>) + 8 - (24 + sizeof(System::Nullable_1<System::DateTime>)) % 8> __LiteNetLib_Utils_NtpPacketSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NtpPacket*, "LiteNetLib.Utils", "NtpPacket");

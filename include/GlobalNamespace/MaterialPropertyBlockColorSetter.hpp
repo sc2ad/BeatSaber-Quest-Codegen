@@ -67,6 +67,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MaterialPropertyBlockColorSetter* New_ctor();
   }; // MaterialPropertyBlockColorSetter
+  check_size<sizeof(MaterialPropertyBlockColorSetter), 44 + sizeof(bool) + 8 - (44 + sizeof(bool)) % 8> __GlobalNamespace_MaterialPropertyBlockColorSetterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockColorSetter*, "", "MaterialPropertyBlockColorSetter");

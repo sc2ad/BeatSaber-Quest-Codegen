@@ -43,37 +43,47 @@ namespace System::Diagnostics::Tracing {
     // public System.Void .ctor(System.Diagnostics.Tracing.TypeAnalysis typeAnalysis)
     // Offset: 0xFFFFFFFF
     static InvokeTypeInfo_1<ContainerType>* New_ctor(System::Diagnostics::Tracing::TypeAnalysis* typeAnalysis) {
-      return THROW_UNLESS(il2cpp_utils::New<InvokeTypeInfo_1<ContainerType>*>(typeAnalysis));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("InvokeTypeInfo_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<InvokeTypeInfo_1<ContainerType>*>(typeAnalysis));
     }
     // public override System.Void WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Void TraceLoggingTypeInfo::WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::Il2CppString* name, System::Diagnostics::Tracing::EventFieldFormat format) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteMetadata", collector, name, format));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("InvokeTypeInfo_1").WithContext("WriteMetadata");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "WriteMetadata", {}, ::il2cpp_utils::ExtractTypes(collector, name, format)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, collector, name, format);
     }
     // public override System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref ContainerType value)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
     // Base method: System.Void TraceLoggingTypeInfo_1::WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref ContainerType value)
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ContainerType& value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteData", collector, value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("InvokeTypeInfo_1").WithContext("WriteData");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "WriteData", {}, ::il2cpp_utils::ExtractTypes(collector, value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, collector, value);
     }
     // public override System.Object GetData(System.Object value)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Object TraceLoggingTypeInfo::GetData(System.Object value)
     ::Il2CppObject* GetData(::Il2CppObject* value) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "GetData", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("InvokeTypeInfo_1").WithContext("GetData");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<::Il2CppObject*>(), "GetData", {}, ::il2cpp_utils::ExtractTypes(value)));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method, value);
     }
     // public override System.Void WriteObjectData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, System.Object valueObj)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
     // Base method: System.Void TraceLoggingTypeInfo_1::WriteObjectData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, System.Object valueObj)
     void WriteObjectData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, ::Il2CppObject* valueObj) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteObjectData", collector, valueObj));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("InvokeTypeInfo_1").WithContext("WriteObjectData");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "WriteObjectData", {}, ::il2cpp_utils::ExtractTypes(collector, valueObj)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, collector, valueObj);
     }
   }; // System.Diagnostics.Tracing.InvokeTypeInfo`1
+  // Could not write size check! Type: System.Diagnostics.Tracing.InvokeTypeInfo`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Diagnostics::Tracing::InvokeTypeInfo_1, "System.Diagnostics.Tracing", "InvokeTypeInfo`1");
 #pragma pack(pop)

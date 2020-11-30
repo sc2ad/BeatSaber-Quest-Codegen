@@ -97,6 +97,7 @@ namespace System::IO {
     // Maps to method: get_IsCompleted
     bool System_IAsyncResult_get_IsCompleted();
   }; // System.IO.FileStreamAsyncResult
+  check_size<sizeof(FileStreamAsyncResult), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __System_IO_FileStreamAsyncResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileStreamAsyncResult*, "System.IO", "FileStreamAsyncResult");

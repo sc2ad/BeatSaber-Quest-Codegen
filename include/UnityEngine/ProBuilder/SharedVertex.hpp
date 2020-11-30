@@ -160,6 +160,7 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: get_IsReadOnly
     bool System_Collections_Generic_ICollection_1_get_IsReadOnly();
   }; // UnityEngine.ProBuilder.SharedVertex
+  check_size<sizeof(SharedVertex), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_SharedVertexSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SharedVertex*, "UnityEngine.ProBuilder", "SharedVertex");

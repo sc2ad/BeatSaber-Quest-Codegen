@@ -99,6 +99,7 @@ namespace UnityEngine::Animations {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Animations.AnimationClipPlayable other)
     bool Equals(UnityEngine::Animations::AnimationClipPlayable other);
   }; // UnityEngine.Animations.AnimationClipPlayable
+  check_size<sizeof(AnimationClipPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle) + 8 - (0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8> __UnityEngine_Animations_AnimationClipPlayableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationClipPlayable, "UnityEngine.Animations", "AnimationClipPlayable");

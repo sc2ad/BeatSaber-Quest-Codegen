@@ -77,6 +77,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRState Ready_Alert_Low
     static void _set_Ready_Alert_Low(OVR::OpenVR::EVRState value);
   }; // OVR.OpenVR.EVRState
+  check_size<sizeof(EVRState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_EVRStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRState, "OVR.OpenVR", "EVRState");

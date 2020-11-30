@@ -53,6 +53,7 @@ namespace NUnit::Framework::Internal::Filters {
     // Base method: NUnit.Framework.Interfaces.TNode TestFilter::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
   }; // NUnit.Framework.Internal.Filters.ValueMatchFilter
+  check_size<sizeof(ValueMatchFilter), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __NUnit_Framework_Internal_Filters_ValueMatchFilterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Filters::ValueMatchFilter*, "NUnit.Framework.Internal.Filters", "ValueMatchFilter");

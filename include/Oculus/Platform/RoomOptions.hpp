@@ -67,6 +67,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // Oculus.Platform.RoomOptions
+  check_size<sizeof(RoomOptions), 16 + sizeof(System::IntPtr) + 8 - (16 + sizeof(System::IntPtr)) % 8> __Oculus_Platform_RoomOptionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RoomOptions*, "Oculus.Platform", "RoomOptions");

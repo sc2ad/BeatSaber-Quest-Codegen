@@ -31,6 +31,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SaberModelController::InitData* New_ctor();
   }; // SaberModelController/InitData
+  check_size<sizeof(SaberModelController::InitData), 16 + sizeof(UnityEngine::Color) + 8 - (16 + sizeof(UnityEngine::Color)) % 8> __GlobalNamespace_SaberModelController_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberModelController::InitData*, "", "SaberModelController/InitData");

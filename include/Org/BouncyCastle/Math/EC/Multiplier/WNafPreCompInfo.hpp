@@ -90,6 +90,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Base method: System.Void Object::.ctor()
     static WNafPreCompInfo* New_ctor();
   }; // Org.BouncyCastle.Math.EC.Multiplier.WNafPreCompInfo
+  check_size<sizeof(WNafPreCompInfo), 48 + sizeof(int) + 8 - (48 + sizeof(int)) % 8> __Org_BouncyCastle_Math_EC_Multiplier_WNafPreCompInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "WNafPreCompInfo");

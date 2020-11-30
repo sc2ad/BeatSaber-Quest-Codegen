@@ -38,6 +38,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static MemoryPoolSettings* New_ctor();
   }; // Zenject.MemoryPoolSettings
+  check_size<sizeof(MemoryPoolSettings), 24 + sizeof(Zenject::PoolExpandMethods) + 8 - (24 + sizeof(Zenject::PoolExpandMethods)) % 8> __Zenject_MemoryPoolSettingsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MemoryPoolSettings*, "Zenject", "MemoryPoolSettings");

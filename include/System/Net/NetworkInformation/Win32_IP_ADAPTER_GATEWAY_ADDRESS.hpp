@@ -30,6 +30,7 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: Win32_IP_ADAPTER_GATEWAY_ADDRESS
     constexpr Win32_IP_ADAPTER_GATEWAY_ADDRESS(System::Net::NetworkInformation::Win32LengthFlagsUnion LengthFlags_ = {}, System::IntPtr Next_ = {}, System::Net::NetworkInformation::Win32_SOCKET_ADDRESS Address_ = {}) noexcept : LengthFlags{LengthFlags_}, Next{Next_}, Address{Address_} {}
   }; // System.Net.NetworkInformation.Win32_IP_ADAPTER_GATEWAY_ADDRESS
+  check_size<sizeof(Win32_IP_ADAPTER_GATEWAY_ADDRESS), 16 + sizeof(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS) + 8 - (16 + sizeof(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS)) % 8> __System_Net_NetworkInformation_Win32_IP_ADAPTER_GATEWAY_ADDRESSSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_IP_ADAPTER_GATEWAY_ADDRESS, "System.Net.NetworkInformation", "Win32_IP_ADAPTER_GATEWAY_ADDRESS");

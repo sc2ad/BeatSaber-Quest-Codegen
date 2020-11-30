@@ -210,6 +210,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);
   }; // System.Runtime.Remoting.Messaging.AsyncResult
+  check_size<sizeof(AsyncResult), 120 + sizeof(void*) + 8 - (120 + sizeof(void*)) % 8> __System_Runtime_Remoting_Messaging_AsyncResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::AsyncResult*, "System.Runtime.Remoting.Messaging", "AsyncResult");

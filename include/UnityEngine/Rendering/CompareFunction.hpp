@@ -77,6 +77,7 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.CompareFunction Always
     static void _set_Always(UnityEngine::Rendering::CompareFunction value);
   }; // UnityEngine.Rendering.CompareFunction
+  check_size<sizeof(CompareFunction), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Rendering_CompareFunctionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::CompareFunction, "UnityEngine.Rendering", "CompareFunction");

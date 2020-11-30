@@ -47,6 +47,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     static MethodBody* New_ctor();
   }; // System.Reflection.MethodBody
+  check_size<sizeof(MethodBody), 48 + sizeof(int) + 8 - (48 + sizeof(int)) % 8> __System_Reflection_MethodBodySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MethodBody*, "System.Reflection", "MethodBody");

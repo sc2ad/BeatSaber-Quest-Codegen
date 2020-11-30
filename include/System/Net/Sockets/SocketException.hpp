@@ -79,6 +79,7 @@ namespace System::Net::Sockets {
     // Base method: System.String Exception::get_Message()
     ::Il2CppString* get_Message();
   }; // System.Net.Sockets.SocketException
+  check_size<sizeof(SocketException), 144 + sizeof(void*) + 8 - (144 + sizeof(void*)) % 8> __System_Net_Sockets_SocketExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketException*, "System.Net.Sockets", "SocketException");

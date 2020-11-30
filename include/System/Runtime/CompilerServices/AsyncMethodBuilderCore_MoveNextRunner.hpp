@@ -47,6 +47,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x1162554
     static void InvokeMoveNext(::Il2CppObject* stateMachine);
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner
+  check_size<sizeof(AsyncMethodBuilderCore::MoveNextRunner), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunnerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/MoveNextRunner");

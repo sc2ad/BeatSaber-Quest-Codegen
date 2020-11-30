@@ -32,16 +32,20 @@ namespace Zenject {
     // public Zenject.MemoryPoolExpandBinder`1<TContract> WithMaxSize(System.Int32 size)
     // Offset: 0xFFFFFFFF
     Zenject::MemoryPoolExpandBinder_1<TContract>* WithMaxSize(int size) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::MemoryPoolExpandBinder_1<TContract>*>(this, "WithMaxSize", size));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MemoryPoolMaxSizeBinder_1").WithContext("WithMaxSize");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::MemoryPoolExpandBinder_1<TContract>*>(), "WithMaxSize", {}, ::il2cpp_utils::ExtractTypes(size)));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::MemoryPoolExpandBinder_1<TContract>*, false>(this, ___internal__method, size);
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPoolExpandBinder`1
     // Base method: System.Void MemoryPoolExpandBinder_1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)
     static MemoryPoolMaxSizeBinder_1<TContract>* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo, Zenject::MemoryPoolBindInfo* poolBindInfo) {
-      return THROW_UNLESS(il2cpp_utils::New<MemoryPoolMaxSizeBinder_1<TContract>*>(bindContainer, bindInfo, factoryBindInfo, poolBindInfo));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MemoryPoolMaxSizeBinder_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<MemoryPoolMaxSizeBinder_1<TContract>*>(bindContainer, bindInfo, factoryBindInfo, poolBindInfo));
     }
   }; // Zenject.MemoryPoolMaxSizeBinder`1
+  // Could not write size check! Type: Zenject.MemoryPoolMaxSizeBinder`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::MemoryPoolMaxSizeBinder_1, "Zenject", "MemoryPoolMaxSizeBinder`1");
 #pragma pack(pop)

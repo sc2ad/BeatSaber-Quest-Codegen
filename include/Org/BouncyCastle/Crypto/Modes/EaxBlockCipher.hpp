@@ -126,6 +126,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Base method: System.Int32 IAeadCipher::GetOutputSize(System.Int32 len)
     int GetOutputSize(int len);
   }; // Org.BouncyCastle.Crypto.Modes.EaxBlockCipher
+  check_size<sizeof(EaxBlockCipher), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Modes_EaxBlockCipherSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::EaxBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "EaxBlockCipher");

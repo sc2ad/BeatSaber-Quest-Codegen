@@ -35,6 +35,7 @@ namespace UnityEngine::Playables {
     // Set static field: static public UnityEngine.Playables.PlayableTraversalMode Passthrough
     static void _set_Passthrough(UnityEngine::Playables::PlayableTraversalMode value);
   }; // UnityEngine.Playables.PlayableTraversalMode
+  check_size<sizeof(PlayableTraversalMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Playables_PlayableTraversalModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableTraversalMode, "UnityEngine.Playables", "PlayableTraversalMode");

@@ -76,6 +76,7 @@ namespace System::IO {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.IO.Stream/<CopyToAsyncInternal>d__27
+  check_size<sizeof(Stream::$CopyToAsyncInternal$d__27), 96 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter) + 8 - (96 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter)) % 8> __System_IO_Stream_$CopyToAsyncInternal$d__27SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::$CopyToAsyncInternal$d__27, "System.IO", "Stream/<CopyToAsyncInternal>d__27");

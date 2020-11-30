@@ -228,6 +228,7 @@ namespace UnityEngine::Networking {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // UnityEngine.Networking.UnityWebRequest
+  check_size<sizeof(UnityWebRequest), 58 + sizeof(bool) + 8 - (58 + sizeof(bool)) % 8> __UnityEngine_Networking_UnityWebRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequest*, "UnityEngine.Networking", "UnityWebRequest");

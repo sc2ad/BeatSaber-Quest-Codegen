@@ -36,6 +36,7 @@ namespace NUnit::Framework::Constraints {
     // Base method: System.Void Object::.ctor()
     static MsgUtils::$$c__DisplayClass20* New_ctor();
   }; // NUnit.Framework.Constraints.MsgUtils/<>c__DisplayClass20
+  check_size<sizeof(MsgUtils::$$c__DisplayClass20), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __NUnit_Framework_Constraints_MsgUtils_$$c__DisplayClass20SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass20*, "NUnit.Framework.Constraints", "MsgUtils/<>c__DisplayClass20");

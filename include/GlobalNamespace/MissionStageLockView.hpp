@@ -61,6 +61,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionStageLockView* New_ctor();
   }; // MissionStageLockView
+  check_size<sizeof(MissionStageLockView), 48 + sizeof(float) + 8 - (48 + sizeof(float)) % 8> __GlobalNamespace_MissionStageLockViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStageLockView*, "", "MissionStageLockView");

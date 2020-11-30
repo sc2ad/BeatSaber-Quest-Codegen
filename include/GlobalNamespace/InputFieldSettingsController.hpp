@@ -55,6 +55,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static InputFieldSettingsController* New_ctor();
   }; // InputFieldSettingsController
+  check_size<sizeof(InputFieldSettingsController), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_InputFieldSettingsControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InputFieldSettingsController*, "", "InputFieldSettingsController");

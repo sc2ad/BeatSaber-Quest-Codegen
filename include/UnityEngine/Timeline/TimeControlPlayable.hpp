@@ -66,6 +66,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     static TimeControlPlayable* New_ctor();
   }; // UnityEngine.Timeline.TimeControlPlayable
+  check_size<sizeof(TimeControlPlayable), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __UnityEngine_Timeline_TimeControlPlayableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeControlPlayable*, "UnityEngine.Timeline", "TimeControlPlayable");

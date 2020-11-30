@@ -37,6 +37,7 @@ namespace GlobalNamespace {
     // Set static field: static public FlyingScoreSpawner/SpawnPosition AboveGround
     static void _set_AboveGround(GlobalNamespace::FlyingScoreSpawner::SpawnPosition value);
   }; // FlyingScoreSpawner/SpawnPosition
+  check_size<sizeof(FlyingScoreSpawner::SpawnPosition), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_FlyingScoreSpawner_SpawnPositionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingScoreSpawner::SpawnPosition, "", "FlyingScoreSpawner/SpawnPosition");

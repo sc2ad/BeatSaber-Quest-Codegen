@@ -33,6 +33,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LatencyData
     constexpr LatencyData(float render_ = {}, float timeWarp_ = {}, float postPresent_ = {}, float renderError_ = {}, float timeWarpError_ = {}) noexcept : render{render_}, timeWarp{timeWarp_}, postPresent{postPresent_}, renderError{renderError_}, timeWarpError{timeWarpError_} {}
   }; // OVRDisplay/LatencyData
+  check_size<sizeof(OVRDisplay::LatencyData), 16 + sizeof(float) + 8 - (16 + sizeof(float)) % 8> __GlobalNamespace_OVRDisplay_LatencyDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::LatencyData, "", "OVRDisplay/LatencyData");

@@ -34,16 +34,20 @@ namespace GlobalNamespace {
     // System.Int32 <Sort>b__0(T a, T b)
     // Offset: 0xFFFFFFFF
     int $Sort$b__0(T a, T b) {
-      return THROW_UNLESS((il2cpp_utils::RunMethod<int>(this, "<Sort>b__0", a, b)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass1_0_1").WithContext("<Sort>b__0");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "<Sort>b__0", {}, ::il2cpp_utils::ExtractTypes(a, b))));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, a, b);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static SortExtensions::$$c__DisplayClass1_0_1<T>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<SortExtensions::$$c__DisplayClass1_0_1<T>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass1_0_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<SortExtensions::$$c__DisplayClass1_0_1<T>*>());
     }
   }; // SortExtensions/<>c__DisplayClass1_0`1
+  // Could not write size check! Type: SortExtensions/<>c__DisplayClass1_0`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::SortExtensions::$$c__DisplayClass1_0_1, "", "SortExtensions/<>c__DisplayClass1_0`1");
 #pragma pack(pop)

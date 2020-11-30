@@ -35,6 +35,7 @@ namespace UnityEngine::SceneManagement {
     // Set static field: static public UnityEngine.SceneManagement.UnloadSceneOptions UnloadAllEmbeddedSceneObjects
     static void _set_UnloadAllEmbeddedSceneObjects(UnityEngine::SceneManagement::UnloadSceneOptions value);
   }; // UnityEngine.SceneManagement.UnloadSceneOptions
+  check_size<sizeof(UnloadSceneOptions), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_SceneManagement_UnloadSceneOptionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::UnloadSceneOptions, "UnityEngine.SceneManagement", "UnloadSceneOptions");

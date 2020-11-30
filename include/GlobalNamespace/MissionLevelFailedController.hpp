@@ -94,6 +94,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionLevelFailedController* New_ctor();
   }; // MissionLevelFailedController
+  check_size<sizeof(MissionLevelFailedController), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __GlobalNamespace_MissionLevelFailedControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelFailedController*, "", "MissionLevelFailedController");

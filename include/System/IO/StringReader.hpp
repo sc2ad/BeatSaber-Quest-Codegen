@@ -63,6 +63,7 @@ namespace System::IO {
     // Base method: System.String TextReader::ReadLine()
     ::Il2CppString* ReadLine();
   }; // System.IO.StringReader
+  check_size<sizeof(StringReader), 36 + sizeof(int) + 8 - (36 + sizeof(int)) % 8> __System_IO_StringReaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StringReader*, "System.IO", "StringReader");

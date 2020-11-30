@@ -112,6 +112,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SceneStartSyncController* New_ctor();
   }; // SceneStartSyncController
+  check_size<sizeof(SceneStartSyncController), 80 + sizeof(float) + 8 - (80 + sizeof(float)) % 8> __GlobalNamespace_SceneStartSyncControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneStartSyncController*, "", "SceneStartSyncController");

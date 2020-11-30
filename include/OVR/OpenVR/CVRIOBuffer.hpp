@@ -53,6 +53,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11F5484
     uint64_t PropertyContainer(uint64_t ulBuffer);
   }; // OVR.OpenVR.CVRIOBuffer
+  check_size<sizeof(CVRIOBuffer), 16 + sizeof(OVR::OpenVR::IVRIOBuffer) + 8 - (16 + sizeof(OVR::OpenVR::IVRIOBuffer)) % 8> __OVR_OpenVR_CVRIOBufferSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRIOBuffer*, "OVR.OpenVR", "CVRIOBuffer");

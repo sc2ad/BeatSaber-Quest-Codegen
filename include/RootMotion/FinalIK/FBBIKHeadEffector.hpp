@@ -220,6 +220,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static FBBIKHeadEffector* New_ctor();
   }; // RootMotion.FinalIK.FBBIKHeadEffector
+  check_size<sizeof(FBBIKHeadEffector), 364 + sizeof(int) + 8 - (364 + sizeof(int)) % 8> __RootMotion_FinalIK_FBBIKHeadEffectorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBBIKHeadEffector*, "RootMotion.FinalIK", "FBBIKHeadEffector");

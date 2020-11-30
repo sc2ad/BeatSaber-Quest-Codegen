@@ -65,6 +65,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A249B8
     float GetJumpOffsetYAtJumpStartSongTime(float lastDeltaTime);
   }; // BeatmapObjectAvoidanceYOffsetEvaluator
+  check_size<sizeof(BeatmapObjectAvoidanceYOffsetEvaluator), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapObjectAvoidanceYOffsetEvaluatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator*, "", "BeatmapObjectAvoidanceYOffsetEvaluator");

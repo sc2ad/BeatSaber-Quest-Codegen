@@ -33,16 +33,20 @@ namespace GlobalNamespace {
     // System.Boolean <Load>b__0(System.String s)
     // Offset: 0xFFFFFFFF
     bool $Load$b__0(::Il2CppString* s) {
-      return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(this, "<Load>b__0", s)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass3_0_1").WithContext("<Load>b__0");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "<Load>b__0", {}, ::il2cpp_utils::ExtractTypes(s))));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, s);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static OVRResources::$$c__DisplayClass3_0_1<T>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<OVRResources::$$c__DisplayClass3_0_1<T>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass3_0_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<OVRResources::$$c__DisplayClass3_0_1<T>*>());
     }
   }; // OVRResources/<>c__DisplayClass3_0`1
+  // Could not write size check! Type: OVRResources/<>c__DisplayClass3_0`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::OVRResources::$$c__DisplayClass3_0_1, "", "OVRResources/<>c__DisplayClass3_0`1");
 #pragma pack(pop)

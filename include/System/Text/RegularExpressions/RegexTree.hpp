@@ -50,6 +50,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x154AA58
     static RegexTree* New_ctor(System::Text::RegularExpressions::RegexNode* root, System::Collections::Hashtable* caps, ::Array<int>* capnumlist, int captop, System::Collections::Hashtable* capnames, ::Array<::Il2CppString*>* capslist, System::Text::RegularExpressions::RegexOptions opts);
   }; // System.Text.RegularExpressions.RegexTree
+  check_size<sizeof(RegexTree), 60 + sizeof(int) + 8 - (60 + sizeof(int)) % 8> __System_Text_RegularExpressions_RegexTreeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexTree*, "System.Text.RegularExpressions", "RegexTree");

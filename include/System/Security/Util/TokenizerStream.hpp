@@ -80,6 +80,7 @@ namespace System::Security::Util {
     // Base method: System.Void Object::.ctor()
     static TokenizerStream* New_ctor();
   }; // System.Security.Util.TokenizerStream
+  check_size<sizeof(TokenizerStream), 72 + sizeof(int) + 8 - (72 + sizeof(int)) % 8> __System_Security_Util_TokenizerStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::TokenizerStream*, "System.Security.Util", "TokenizerStream");

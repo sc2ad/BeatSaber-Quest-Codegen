@@ -60,6 +60,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Base method: System.Void ITestListener::TestOutput(NUnit.Framework.Interfaces.TestOutput output)
     void TestOutput(NUnit::Framework::Interfaces::TestOutput* output);
   }; // UnityEngine.TestTools.TestRunner.TestListenerWrapper
+  check_size<sizeof(TestListenerWrapper), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_TestTools_TestRunner_TestListenerWrapperSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::TestListenerWrapper*, "UnityEngine.TestTools.TestRunner", "TestListenerWrapper");

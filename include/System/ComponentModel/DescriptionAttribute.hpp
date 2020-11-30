@@ -53,6 +53,7 @@ namespace System::ComponentModel {
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();
   }; // System.ComponentModel.DescriptionAttribute
+  check_size<sizeof(DescriptionAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_ComponentModel_DescriptionAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DescriptionAttribute*, "System.ComponentModel", "DescriptionAttribute");

@@ -68,6 +68,7 @@ namespace System::Threading {
     // Offset: 0x1D0A2FC
     bool Unregister(System::Threading::WaitHandle* waitObject);
   }; // System.Threading.RegisteredWaitHandle
+  check_size<sizeof(RegisteredWaitHandle), 77 + sizeof(bool) + 8 - (77 + sizeof(bool)) % 8> __System_Threading_RegisteredWaitHandleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::RegisteredWaitHandle*, "System.Threading", "RegisteredWaitHandle");

@@ -109,6 +109,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Object::.ctor()
     static TaskScheduler* New_ctor();
   }; // System.Threading.Tasks.TaskScheduler
+  check_size<sizeof(TaskScheduler), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __System_Threading_Tasks_TaskSchedulerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskScheduler*, "System.Threading.Tasks", "TaskScheduler");

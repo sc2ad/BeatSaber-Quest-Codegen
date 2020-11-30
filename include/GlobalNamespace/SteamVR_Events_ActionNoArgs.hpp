@@ -37,6 +37,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Action::Enable(System.Boolean enabled)
     void Enable(bool enabled);
   }; // SteamVR_Events/ActionNoArgs
+  check_size<sizeof(SteamVR_Events::ActionNoArgs), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_SteamVR_Events_ActionNoArgsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events::ActionNoArgs*, "", "SteamVR_Events/ActionNoArgs");

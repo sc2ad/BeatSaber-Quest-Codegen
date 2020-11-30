@@ -35,6 +35,7 @@ namespace Microsoft::Win32 {
     // Set static field: static public Microsoft.Win32.RegistryValueOptions DoNotExpandEnvironmentNames
     static void _set_DoNotExpandEnvironmentNames(Microsoft::Win32::RegistryValueOptions value);
   }; // Microsoft.Win32.RegistryValueOptions
+  check_size<sizeof(RegistryValueOptions), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Microsoft_Win32_RegistryValueOptionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::RegistryValueOptions, "Microsoft.Win32", "RegistryValueOptions");

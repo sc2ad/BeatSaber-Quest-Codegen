@@ -30,6 +30,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void Object::.ctor()
     static NativeThrowsAttribute* New_ctor();
   }; // UnityEngine.Bindings.NativeThrowsAttribute
+  check_size<sizeof(NativeThrowsAttribute), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __UnityEngine_Bindings_NativeThrowsAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeThrowsAttribute*, "UnityEngine.Bindings", "NativeThrowsAttribute");

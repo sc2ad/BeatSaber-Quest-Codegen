@@ -253,6 +253,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void ICancelHandler::OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
     void OnCancel(UnityEngine::EventSystems::BaseEventData* eventData);
   }; // UnityEngine.EventSystems.EventTrigger
+  check_size<sizeof(EventTrigger), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_EventSystems_EventTriggerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventTrigger*, "UnityEngine.EventSystems", "EventTrigger");

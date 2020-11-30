@@ -34,6 +34,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static TrackLaneRingsRotationEffect::RingRotationEffect* New_ctor();
   }; // TrackLaneRingsRotationEffect/RingRotationEffect
+  check_size<sizeof(TrackLaneRingsRotationEffect::RingRotationEffect), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __GlobalNamespace_TrackLaneRingsRotationEffect_RingRotationEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*, "", "TrackLaneRingsRotationEffect/RingRotationEffect");

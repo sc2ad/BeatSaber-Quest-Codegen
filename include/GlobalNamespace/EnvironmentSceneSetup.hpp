@@ -40,6 +40,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EnvironmentSceneSetup* New_ctor();
   }; // EnvironmentSceneSetup
+  check_size<sizeof(EnvironmentSceneSetup), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_EnvironmentSceneSetupSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSceneSetup*, "", "EnvironmentSceneSetup");

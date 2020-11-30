@@ -97,6 +97,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PlayerHeightSettingsController* New_ctor();
   }; // PlayerHeightSettingsController
+  check_size<sizeof(PlayerHeightSettingsController), 72 + sizeof(float) + 8 - (72 + sizeof(float)) % 8> __GlobalNamespace_PlayerHeightSettingsControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerHeightSettingsController*, "", "PlayerHeightSettingsController");

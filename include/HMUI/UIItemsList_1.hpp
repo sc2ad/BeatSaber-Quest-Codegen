@@ -60,24 +60,32 @@ namespace HMUI {
       // public System.Void .ctor(System.Object object, System.IntPtr method)
       // Offset: 0xFFFFFFFF
       static typename UIItemsList_1<T>::DataCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
-        return THROW_UNLESS(il2cpp_utils::New<typename UIItemsList_1<T>::DataCallback*>(object, method));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("DataCallback").WithContext(".ctor");
+        return THROW_UNLESS(::il2cpp_utils::New<typename UIItemsList_1<T>::DataCallback*>(object, method));
       }
       // public System.Void Invoke(System.Int32 idx, T item)
       // Offset: 0xFFFFFFFF
       void Invoke(int idx, T item) {
-        THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invoke", idx, item));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("DataCallback").WithContext("Invoke");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Invoke", {}, ::il2cpp_utils::ExtractTypes(idx, item)));
+        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, idx, item);
       }
       // public System.IAsyncResult BeginInvoke(System.Int32 idx, T item, System.AsyncCallback callback, System.Object object)
       // Offset: 0xFFFFFFFF
       System::IAsyncResult* BeginInvoke(int idx, T item, System::AsyncCallback* callback, ::Il2CppObject* object) {
-        return THROW_UNLESS(il2cpp_utils::RunMethod<System::IAsyncResult*>(this, "BeginInvoke", idx, item, callback, object));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("DataCallback").WithContext("BeginInvoke");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::IAsyncResult*>(), "BeginInvoke", {}, ::il2cpp_utils::ExtractTypes(idx, item, callback, object)));
+        return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, idx, item, callback, object);
       }
       // public System.Void EndInvoke(System.IAsyncResult result)
       // Offset: 0xFFFFFFFF
       void EndInvoke(System::IAsyncResult* result) {
-        THROW_UNLESS(il2cpp_utils::RunMethod(this, "EndInvoke", result));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("DataCallback").WithContext("EndInvoke");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "EndInvoke", {}, ::il2cpp_utils::ExtractTypes(result)));
+        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
       }
     }; // HMUI.UIItemsList`1/DataCallback
+    // Could not write size check! Type: HMUI.UIItemsList`1/DataCallback is generic!
     // private T _prefab
     // Offset: 0x0
     T prefab;
@@ -98,12 +106,16 @@ namespace HMUI {
     // public System.Collections.Generic.IEnumerable`1<T> get_items()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerable_1<T>* get_items() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerable_1<T>*>(this, "get_items"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("UIItemsList_1").WithContext("get_items");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Collections::Generic::IEnumerable_1<T>*>(), "get_items", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<T>*, false>(this, ___internal__method);
     }
     // public System.Void SetData(System.Int32 numberOfElements, HMUI.UIItemsList`1/DataCallback<T> dataCallback)
     // Offset: 0xFFFFFFFF
     void SetData(int numberOfElements, typename HMUI::UIItemsList_1<T>::DataCallback* dataCallback) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "SetData", numberOfElements, dataCallback));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("UIItemsList_1").WithContext("SetData");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "SetData", {}, ::il2cpp_utils::ExtractTypes(numberOfElements, dataCallback)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, numberOfElements, dataCallback);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -114,9 +126,11 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()
     static UIItemsList_1<T>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<UIItemsList_1<T>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("UIItemsList_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<UIItemsList_1<T>*>());
     }
   }; // HMUI.UIItemsList`1
+  // Could not write size check! Type: HMUI.UIItemsList`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(HMUI::UIItemsList_1, "HMUI", "UIItemsList`1");
 #pragma pack(pop)

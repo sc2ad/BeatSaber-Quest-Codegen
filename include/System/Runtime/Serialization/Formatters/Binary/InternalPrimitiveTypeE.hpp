@@ -137,6 +137,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static public System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE String
     static void _set_String(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value);
   }; // System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE
+  check_size<sizeof(InternalPrimitiveTypeE), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Runtime_Serialization_Formatters_Binary_InternalPrimitiveTypeESizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE, "System.Runtime.Serialization.Formatters.Binary", "InternalPrimitiveTypeE");

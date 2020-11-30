@@ -26,7 +26,9 @@ namespace Zenject {
     // static public System.Void Install(Zenject.DiContainer container, TParam1 p1)
     // Offset: 0xFFFFFFFF
     static void Install(Zenject::DiContainer* container, TParam1 p1) {
-      THROW_UNLESS((il2cpp_utils::RunMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Installer_2<TParam1, TDerived>*>::get(), "Install", container, p1)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("Installer_2").WithContext("Install");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Installer_2<TParam1, TDerived>*>::get(), il2cpp_utils::NoArgClass<void>(), "Install", {}, ::il2cpp_utils::ExtractTypes(container, p1))));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, container, p1);
     }
     // protected System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -34,9 +36,11 @@ namespace Zenject {
     // Base method: System.Void InstallerBase::.ctor()
     // Base method: System.Void Object::.ctor()
     static Installer_2<TParam1, TDerived>* New_ctor() {
-      return THROW_UNLESS((il2cpp_utils::New<Installer_2<TParam1, TDerived>*>()));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("Installer_2").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<Installer_2<TParam1, TDerived>*>()));
     }
   }; // Zenject.Installer`2
+  // Could not write size check! Type: Zenject.Installer`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::Installer_2, "Zenject", "Installer`2");
 #pragma pack(pop)

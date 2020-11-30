@@ -37,6 +37,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static MonoAsyncCall* New_ctor();
   }; // System.MonoAsyncCall
+  check_size<sizeof(MonoAsyncCall), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __System_MonoAsyncCallSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::MonoAsyncCall*, "System", "MonoAsyncCall");

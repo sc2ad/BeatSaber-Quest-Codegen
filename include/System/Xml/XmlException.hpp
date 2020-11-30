@@ -110,6 +110,7 @@ namespace System::Xml {
     // Base method: System.String Exception::get_Message()
     ::Il2CppString* get_Message();
   }; // System.Xml.XmlException
+  check_size<sizeof(XmlException), 168 + sizeof(void*) + 8 - (168 + sizeof(void*)) % 8> __System_Xml_XmlExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlException*, "System.Xml", "XmlException");

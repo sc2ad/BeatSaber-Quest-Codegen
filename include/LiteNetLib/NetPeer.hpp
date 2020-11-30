@@ -368,6 +368,7 @@ namespace LiteNetLib {
     // Offset: 0x1DCF618
     void RecycleAndDeliver(LiteNetLib::NetPacket* packet);
   }; // LiteNetLib.NetPeer
+  check_size<sizeof(NetPeer), 320 + sizeof(void*) + 8 - (320 + sizeof(void*)) % 8> __LiteNetLib_NetPeerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPeer*, "LiteNetLib", "NetPeer");

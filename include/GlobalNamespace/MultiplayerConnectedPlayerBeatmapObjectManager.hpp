@@ -133,6 +133,7 @@ namespace GlobalNamespace {
     // Base method: System.Void BeatmapObjectManager::PauseAllBeatmapObjects(System.Boolean pause)
     void PauseAllBeatmapObjects(bool pause);
   }; // MultiplayerConnectedPlayerBeatmapObjectManager
+  check_size<sizeof(MultiplayerConnectedPlayerBeatmapObjectManager), 120 + sizeof(void*) + 8 - (120 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerConnectedPlayerBeatmapObjectManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*, "", "MultiplayerConnectedPlayerBeatmapObjectManager");

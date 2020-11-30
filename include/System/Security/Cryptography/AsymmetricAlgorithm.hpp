@@ -62,6 +62,7 @@ namespace System::Security::Cryptography {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Security.Cryptography.AsymmetricAlgorithm
+  check_size<sizeof(AsymmetricAlgorithm), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Security_Cryptography_AsymmetricAlgorithmSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsymmetricAlgorithm*, "System.Security.Cryptography", "AsymmetricAlgorithm");

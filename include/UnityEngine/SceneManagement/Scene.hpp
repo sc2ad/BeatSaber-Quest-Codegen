@@ -87,6 +87,7 @@ namespace UnityEngine::SceneManagement {
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
   }; // UnityEngine.SceneManagement.Scene
+  check_size<sizeof(Scene), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_SceneManagement_SceneSizeCheck;
   // static public System.Boolean op_Equality(UnityEngine.SceneManagement.Scene lhs, UnityEngine.SceneManagement.Scene rhs)
   // Offset: 0x16BF450
   bool operator ==(const UnityEngine::SceneManagement::Scene& lhs, const UnityEngine::SceneManagement::Scene& rhs);

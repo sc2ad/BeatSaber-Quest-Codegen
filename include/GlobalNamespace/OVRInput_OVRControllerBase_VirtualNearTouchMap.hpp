@@ -39,6 +39,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRInput::OVRControllerBase::VirtualNearTouchMap* New_ctor();
   }; // OVRInput/OVRControllerBase/VirtualNearTouchMap
+  check_size<sizeof(OVRInput::OVRControllerBase::VirtualNearTouchMap), 32 + sizeof(GlobalNamespace::OVRInput::RawNearTouch) + 8 - (32 + sizeof(GlobalNamespace::OVRInput::RawNearTouch)) % 8> __GlobalNamespace_OVRInput_OVRControllerBase_VirtualNearTouchMapSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap*, "", "OVRInput/OVRControllerBase/VirtualNearTouchMap");

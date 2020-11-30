@@ -37,6 +37,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerConnectedPlayerDisappearingArrowController* New_ctor();
   }; // MultiplayerConnectedPlayerDisappearingArrowController
+  check_size<sizeof(MultiplayerConnectedPlayerDisappearingArrowController), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerConnectedPlayerDisappearingArrowControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController*, "", "MultiplayerConnectedPlayerDisappearingArrowController");

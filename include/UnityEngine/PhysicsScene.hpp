@@ -131,6 +131,7 @@ namespace UnityEngine {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.PhysicsScene other)
     bool Equals(UnityEngine::PhysicsScene other);
   }; // UnityEngine.PhysicsScene
+  check_size<sizeof(PhysicsScene), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_PhysicsSceneSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PhysicsScene, "UnityEngine", "PhysicsScene");

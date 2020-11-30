@@ -70,6 +70,7 @@ namespace TMPro {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // TMPro.TMP_InputField/<MouseDragOutsideRect>d__285
+  check_size<sizeof(TMP_InputField::$MouseDragOutsideRect$d__285), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __TMPro_TMP_InputField_$MouseDragOutsideRect$d__285SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::$MouseDragOutsideRect$d__285*, "TMPro", "TMP_InputField/<MouseDragOutsideRect>d__285");

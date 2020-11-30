@@ -201,6 +201,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void BaseInputModule::Process()
     void Process();
   }; // UnityEngine.EventSystems.StandaloneInputModule
+  check_size<sizeof(StandaloneInputModule), 176 + sizeof(bool) + 8 - (176 + sizeof(bool)) % 8> __UnityEngine_EventSystems_StandaloneInputModuleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::StandaloneInputModule*, "UnityEngine.EventSystems", "StandaloneInputModule");

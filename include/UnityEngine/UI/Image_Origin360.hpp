@@ -49,6 +49,7 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.UI.Image/Origin360 Left
     static void _set_Left(UnityEngine::UI::Image::Origin360 value);
   }; // UnityEngine.UI.Image/Origin360
+  check_size<sizeof(Image::Origin360), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_UI_Image_Origin360SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Image::Origin360, "UnityEngine.UI", "Image/Origin360");

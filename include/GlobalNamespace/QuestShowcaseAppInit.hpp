@@ -81,6 +81,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static QuestShowcaseAppInit* New_ctor();
   }; // QuestShowcaseAppInit
+  check_size<sizeof(QuestShowcaseAppInit), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __GlobalNamespace_QuestShowcaseAppInitSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuestShowcaseAppInit*, "", "QuestShowcaseAppInit");

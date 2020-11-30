@@ -228,6 +228,7 @@ namespace System {
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
     ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
   }; // System.Boolean
+  check_size<sizeof(Boolean), 0 + sizeof(System::Boolean) + 8 - (0 + sizeof(System::Boolean)) % 8> __System_BooleanSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Boolean, "System", "Boolean");

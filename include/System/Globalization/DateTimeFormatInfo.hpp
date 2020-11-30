@@ -708,6 +708,7 @@ namespace System::Globalization {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
   }; // System.Globalization.DateTimeFormatInfo
+  check_size<sizeof(DateTimeFormatInfo), 368 + sizeof(void*) + 8 - (368 + sizeof(void*)) % 8> __System_Globalization_DateTimeFormatInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfo*, "System.Globalization", "DateTimeFormatInfo");

@@ -45,6 +45,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     static MemberReference* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.MemberReference
+  check_size<sizeof(MemberReference), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __System_Runtime_Serialization_Formatters_Binary_MemberReferenceSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::MemberReference*, "System.Runtime.Serialization.Formatters.Binary", "MemberReference");

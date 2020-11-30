@@ -20,6 +20,7 @@ namespace System::Globalization {
     // Offset: 0x14
     System::Guid m_SortId;
   }; // System.Globalization.SortVersion
+  check_size<sizeof(SortVersion), 20 + sizeof(System::Guid) + 8 - (20 + sizeof(System::Guid)) % 8> __System_Globalization_SortVersionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::SortVersion*, "System.Globalization", "SortVersion");

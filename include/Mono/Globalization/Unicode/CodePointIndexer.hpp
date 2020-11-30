@@ -37,6 +37,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x1518F28
     int ToIndex(int cp);
   }; // Mono.Globalization.Unicode.CodePointIndexer
+  check_size<sizeof(CodePointIndexer), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __Mono_Globalization_Unicode_CodePointIndexerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::CodePointIndexer*, "Mono.Globalization.Unicode", "CodePointIndexer");

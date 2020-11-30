@@ -25,6 +25,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BlocksBlade::Element* New_ctor();
   }; // BlocksBlade/Element
+  check_size<sizeof(BlocksBlade::Element), 20 + sizeof(float) + 8 - (20 + sizeof(float)) % 8> __GlobalNamespace_BlocksBlade_ElementSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlocksBlade::Element*, "", "BlocksBlade/Element");

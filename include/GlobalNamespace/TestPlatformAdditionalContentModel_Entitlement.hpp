@@ -27,6 +27,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static TestPlatformAdditionalContentModel::Entitlement* New_ctor();
   }; // TestPlatformAdditionalContentModel/Entitlement
+  check_size<sizeof(TestPlatformAdditionalContentModel::Entitlement), 24 + sizeof(GlobalNamespace::AdditionalContentModel::EntitlementStatus) + 8 - (24 + sizeof(GlobalNamespace::AdditionalContentModel::EntitlementStatus)) % 8> __GlobalNamespace_TestPlatformAdditionalContentModel_EntitlementSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*, "", "TestPlatformAdditionalContentModel/Entitlement");

@@ -53,7 +53,10 @@ namespace GlobalNamespace {
     template<class T>
     static T Load(::Il2CppString* path) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("", "OVRResources", "Load", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, path)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("OVRResources").WithContext("Load");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRResources", il2cpp_utils::NoArgClass<T>(), "Load", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(path))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, path);
     }
     // static public System.Void SetResourceBundle(UnityEngine.AssetBundle bundle)
     // Offset: 0x12E3878

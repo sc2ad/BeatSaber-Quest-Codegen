@@ -296,6 +296,7 @@ namespace System::Globalization {
     // Base method: System.Object IFormatProvider::GetFormat(System.Type formatType)
     ::Il2CppObject* GetFormat(System::Type* formatType);
   }; // System.Globalization.NumberFormatInfo
+  check_size<sizeof(NumberFormatInfo), 212 + sizeof(bool) + 8 - (212 + sizeof(bool)) % 8> __System_Globalization_NumberFormatInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::NumberFormatInfo*, "System.Globalization", "NumberFormatInfo");

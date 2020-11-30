@@ -24,6 +24,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: CastHelper_1
     constexpr CastHelper_1(T t_ = {}, System::IntPtr onePointerFurtherThanT_ = {}) noexcept : t{t_}, onePointerFurtherThanT{onePointerFurtherThanT_} {}
   }; // UnityEngine.CastHelper`1
+  // Could not write size check! Type: UnityEngine.CastHelper`1 is generic!
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::CastHelper_1, "UnityEngine", "CastHelper`1");

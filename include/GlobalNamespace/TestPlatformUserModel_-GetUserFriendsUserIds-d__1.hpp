@@ -55,6 +55,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // TestPlatformUserModel/<GetUserFriendsUserIds>d__1
+  check_size<sizeof(TestPlatformUserModel::$GetUserFriendsUserIds$d__1), 32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>) + 8 - (32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>)) % 8> __GlobalNamespace_TestPlatformUserModel_$GetUserFriendsUserIds$d__1SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformUserModel::$GetUserFriendsUserIds$d__1, "", "TestPlatformUserModel/<GetUserFriendsUserIds>d__1");

@@ -38,6 +38,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static ScrollToTopOnEnable* New_ctor();
   }; // HMUI.ScrollToTopOnEnable
+  check_size<sizeof(ScrollToTopOnEnable), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __HMUI_ScrollToTopOnEnableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollToTopOnEnable*, "HMUI", "ScrollToTopOnEnable");

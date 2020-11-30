@@ -27,6 +27,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static KawaseBlurRendererSO::BloomKernel* New_ctor();
   }; // KawaseBlurRendererSO/BloomKernel
+  check_size<sizeof(KawaseBlurRendererSO::BloomKernel), 20 + sizeof(int) + 8 - (20 + sizeof(int)) % 8> __GlobalNamespace_KawaseBlurRendererSO_BloomKernelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KawaseBlurRendererSO::BloomKernel*, "", "KawaseBlurRendererSO/BloomKernel");

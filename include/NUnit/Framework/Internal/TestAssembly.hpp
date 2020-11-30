@@ -48,6 +48,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.String Test::get_TestType()
     ::Il2CppString* get_TestType();
   }; // NUnit.Framework.Internal.TestAssembly
+  check_size<sizeof(TestAssembly), 144 + sizeof(void*) + 8 - (144 + sizeof(void*)) % 8> __NUnit_Framework_Internal_TestAssemblySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestAssembly*, "NUnit.Framework.Internal", "TestAssembly");

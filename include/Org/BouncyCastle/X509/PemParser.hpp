@@ -45,6 +45,7 @@ namespace Org::BouncyCastle::X509 {
     // Offset: 0x18C0EB4
     Org::BouncyCastle::Asn1::Asn1Sequence* ReadPemObject(System::IO::Stream* inStream);
   }; // Org.BouncyCastle.X509.PemParser
+  check_size<sizeof(PemParser), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Org_BouncyCastle_X509_PemParserSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::PemParser*, "Org.BouncyCastle.X509", "PemParser");

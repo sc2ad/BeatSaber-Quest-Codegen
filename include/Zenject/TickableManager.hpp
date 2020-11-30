@@ -149,6 +149,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static TickableManager* New_ctor();
   }; // Zenject.TickableManager
+  check_size<sizeof(TickableManager), 88 + sizeof(bool) + 8 - (88 + sizeof(bool)) % 8> __Zenject_TickableManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TickableManager*, "Zenject", "TickableManager");

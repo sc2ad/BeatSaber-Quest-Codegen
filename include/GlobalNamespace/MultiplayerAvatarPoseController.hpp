@@ -54,6 +54,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerAvatarPoseController* New_ctor();
   }; // MultiplayerAvatarPoseController
+  check_size<sizeof(MultiplayerAvatarPoseController), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerAvatarPoseControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerAvatarPoseController*, "", "MultiplayerAvatarPoseController");

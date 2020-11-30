@@ -119,6 +119,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRMixedRealityCaptureSettings* New_ctor();
   }; // OVRMixedRealityCaptureSettings
+  check_size<sizeof(OVRMixedRealityCaptureSettings), 148 + sizeof(float) + 8 - (148 + sizeof(float)) % 8> __GlobalNamespace_OVRMixedRealityCaptureSettingsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureSettings*, "", "OVRMixedRealityCaptureSettings");

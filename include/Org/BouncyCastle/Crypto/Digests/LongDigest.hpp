@@ -165,6 +165,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Base method: System.Void IMemoable::Reset(Org.BouncyCastle.Utilities.IMemoable t)
     void Reset(Org::BouncyCastle::Utilities::IMemoable* t);
   }; // Org.BouncyCastle.Crypto.Digests.LongDigest
+  check_size<sizeof(LongDigest), 128 + sizeof(int) + 8 - (128 + sizeof(int)) % 8> __Org_BouncyCastle_Crypto_Digests_LongDigestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::LongDigest*, "Org.BouncyCastle.Crypto.Digests", "LongDigest");

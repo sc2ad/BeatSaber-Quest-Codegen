@@ -42,6 +42,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Base method: System.Void Object::.ctor()
     static MergeElements::$$c__DisplayClass0_0* New_ctor();
   }; // UnityEngine.ProBuilder.MeshOperations.MergeElements/<>c__DisplayClass0_0
+  check_size<sizeof(MergeElements::$$c__DisplayClass0_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_MeshOperations_MergeElements_$$c__DisplayClass0_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MergeElements::$$c__DisplayClass0_0*, "UnityEngine.ProBuilder.MeshOperations", "MergeElements/<>c__DisplayClass0_0");

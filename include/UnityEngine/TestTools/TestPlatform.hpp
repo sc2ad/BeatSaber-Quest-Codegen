@@ -41,6 +41,7 @@ namespace UnityEngine::TestTools {
     // Set static field: static public UnityEngine.TestTools.TestPlatform PlayMode
     static void _set_PlayMode(UnityEngine::TestTools::TestPlatform value);
   }; // UnityEngine.TestTools.TestPlatform
+  check_size<sizeof(TestPlatform), 0 + sizeof(uint8_t) + 8 - (0 + sizeof(uint8_t)) % 8> __UnityEngine_TestTools_TestPlatformSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestPlatform, "UnityEngine.TestTools", "TestPlatform");

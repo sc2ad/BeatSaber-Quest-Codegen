@@ -155,6 +155,7 @@ namespace System::Xml {
     // Base method: System.Void Object::.ctor()
     static XmlRawWriter* New_ctor();
   }; // System.Xml.XmlRawWriter
+  check_size<sizeof(XmlRawWriter), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Xml_XmlRawWriterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlRawWriter*, "System.Xml", "XmlRawWriter");

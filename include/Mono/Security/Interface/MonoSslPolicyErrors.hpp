@@ -47,6 +47,7 @@ namespace Mono::Security::Interface {
     // Set static field: static public Mono.Security.Interface.MonoSslPolicyErrors RemoteCertificateChainErrors
     static void _set_RemoteCertificateChainErrors(Mono::Security::Interface::MonoSslPolicyErrors value);
   }; // Mono.Security.Interface.MonoSslPolicyErrors
+  check_size<sizeof(MonoSslPolicyErrors), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Mono_Security_Interface_MonoSslPolicyErrorsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoSslPolicyErrors, "Mono.Security.Interface", "MonoSslPolicyErrors");

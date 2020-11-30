@@ -52,7 +52,10 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TConcrete>
     Zenject::FromBinderNonGeneric* To() {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::FromBinderNonGeneric*>(this, "To", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConcreteBinderNonGeneric").WithContext("To");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::FromBinderNonGeneric*>(), "To", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::FromBinderNonGeneric*, false>(this, ___internal__method);
     }
     // public Zenject.FromBinderNonGeneric To(params System.Type[] concreteTypes)
     // Offset: 0x10EEF2C

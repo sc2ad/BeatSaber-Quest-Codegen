@@ -30,6 +30,7 @@ namespace GlobalNamespace {
     // Offset: 0xF49EF4
     static TabBarViewController::TabBarItem* New_ctor(::Il2CppString* title, System::Action* action);
   }; // TabBarViewController/TabBarItem
+  check_size<sizeof(TabBarViewController::TabBarItem), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_TabBarViewController_TabBarItemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TabBarViewController::TabBarItem*, "", "TabBarViewController/TabBarItem");

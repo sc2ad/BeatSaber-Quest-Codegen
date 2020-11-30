@@ -22,6 +22,7 @@ namespace OVR::OpenVR {
       return progress;
     }
   }; // OVR.OpenVR.VREvent_ScreenshotProgress_t
+  check_size<sizeof(VREvent_ScreenshotProgress_t), 0 + sizeof(float) + 8 - (0 + sizeof(float)) % 8> __OVR_OpenVR_VREvent_ScreenshotProgress_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_ScreenshotProgress_t, "OVR.OpenVR", "VREvent_ScreenshotProgress_t");

@@ -185,7 +185,10 @@ namespace UnityEngine::Timeline {
     // Offset: 0xFFFFFFFF
     template<class T>
     System::Collections::Generic::IList_1<T>* GetComponent(UnityEngine::GameObject* gameObject) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IList_1<T>*>(this, "GetComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, gameObject)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("ControlPlayableAsset").WithContext("GetComponent");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Collections::Generic::IList_1<T>*>(), "GetComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(gameObject))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IList_1<T>*, false>(this, ___internal__method, gameObject);
     }
     // static System.Collections.Generic.IEnumerable`1<UnityEngine.MonoBehaviour> GetControlableScripts(UnityEngine.GameObject root)
     // Offset: 0x1418B90
@@ -245,6 +248,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.Timeline.ControlPlayableAsset
+  check_size<sizeof(ControlPlayableAsset), 82 + sizeof(bool) + 8 - (82 + sizeof(bool)) % 8> __UnityEngine_Timeline_ControlPlayableAssetSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ControlPlayableAsset*, "UnityEngine.Timeline", "ControlPlayableAsset");
 #pragma pack(pop)

@@ -74,6 +74,7 @@ namespace System::Net {
     // Base method: System.Void RequestStream::Close()
     void Close();
   }; // System.Net.ChunkedInputStream
+  check_size<sizeof(ChunkedInputStream), 104 + sizeof(bool) + 8 - (104 + sizeof(bool)) % 8> __System_Net_ChunkedInputStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ChunkedInputStream*, "System.Net", "ChunkedInputStream");

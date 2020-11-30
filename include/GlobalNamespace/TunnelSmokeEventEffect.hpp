@@ -81,6 +81,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static TunnelSmokeEventEffect* New_ctor();
   }; // TunnelSmokeEventEffect
+  check_size<sizeof(TunnelSmokeEventEffect), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __GlobalNamespace_TunnelSmokeEventEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TunnelSmokeEventEffect*, "", "TunnelSmokeEventEffect");

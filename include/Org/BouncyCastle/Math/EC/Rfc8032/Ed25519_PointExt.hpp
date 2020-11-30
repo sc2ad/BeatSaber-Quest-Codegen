@@ -31,6 +31,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     // Base method: System.Void Object::.ctor()
     static Ed25519::PointExt* New_ctor();
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/PointExt
+  check_size<sizeof(Ed25519::PointExt), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_EC_Rfc8032_Ed25519_PointExtSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointExt");

@@ -30,6 +30,7 @@ namespace UnityEngine {
     // Offset: 0x1683E6C
     static void SendEvents(UnityEngine::CullingGroup* cullingGroup, System::IntPtr eventsPtr, int count);
   }; // UnityEngine.CullingGroup
+  check_size<sizeof(CullingGroup), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_CullingGroupSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CullingGroup*, "UnityEngine", "CullingGroup");

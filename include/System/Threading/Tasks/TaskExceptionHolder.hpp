@@ -118,6 +118,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.Threading.Tasks.TaskExceptionHolder
+  check_size<sizeof(TaskExceptionHolder), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __System_Threading_Tasks_TaskExceptionHolderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskExceptionHolder*, "System.Threading.Tasks", "TaskExceptionHolder");

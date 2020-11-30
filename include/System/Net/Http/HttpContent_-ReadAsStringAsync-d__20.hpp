@@ -50,6 +50,7 @@ namespace System::Net::Http {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.Net.Http.HttpContent/<ReadAsStringAsync>d__20
+  check_size<sizeof(HttpContent::$ReadAsStringAsync$d__20), 40 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter) + 8 - (40 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter)) % 8> __System_Net_Http_HttpContent_$ReadAsStringAsync$d__20SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpContent::$ReadAsStringAsync$d__20, "System.Net.Http", "HttpContent/<ReadAsStringAsync>d__20");

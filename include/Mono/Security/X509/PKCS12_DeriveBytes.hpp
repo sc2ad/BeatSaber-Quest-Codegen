@@ -73,6 +73,7 @@ namespace Mono::Security::X509 {
     // Base method: System.Void Object::.ctor()
     static PKCS12::DeriveBytes* New_ctor();
   }; // Mono.Security.X509.PKCS12/DeriveBytes
+  check_size<sizeof(PKCS12::DeriveBytes), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Mono_Security_X509_PKCS12_DeriveBytesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::PKCS12::DeriveBytes*, "Mono.Security.X509", "PKCS12/DeriveBytes");

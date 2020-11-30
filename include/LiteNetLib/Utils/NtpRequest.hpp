@@ -91,6 +91,7 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void INetSocketListener::OnMessageReceived(System.Byte[] data, System.Int32 length, System.Net.Sockets.SocketError errorCode, System.Net.IPEndPoint remoteEndPoint)
     void LiteNetLib_INetSocketListener_OnMessageReceived(::Array<uint8_t>* data, int length, System::Net::Sockets::SocketError errorCode, System::Net::IPEndPoint* remoteEndPoint);
   }; // LiteNetLib.Utils.NtpRequest
+  check_size<sizeof(NtpRequest), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __LiteNetLib_Utils_NtpRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NtpRequest*, "LiteNetLib.Utils", "NtpRequest");

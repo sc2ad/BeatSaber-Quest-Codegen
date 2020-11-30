@@ -66,6 +66,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void RandomNumberGenerator::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // System.Security.Cryptography.RNGCryptoServiceProvider
+  check_size<sizeof(RNGCryptoServiceProvider), 16 + sizeof(System::IntPtr) + 8 - (16 + sizeof(System::IntPtr)) % 8> __System_Security_Cryptography_RNGCryptoServiceProviderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RNGCryptoServiceProvider*, "System.Security.Cryptography", "RNGCryptoServiceProvider");

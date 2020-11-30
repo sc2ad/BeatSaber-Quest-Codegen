@@ -41,6 +41,7 @@ namespace UnityEngine {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Ray2D
+  check_size<sizeof(Ray2D), 8 + sizeof(UnityEngine::Vector2) + 8 - (8 + sizeof(UnityEngine::Vector2)) % 8> __UnityEngine_Ray2DSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Ray2D, "UnityEngine", "Ray2D");

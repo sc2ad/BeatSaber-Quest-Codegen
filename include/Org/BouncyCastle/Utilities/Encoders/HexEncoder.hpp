@@ -48,6 +48,7 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     // Base method: System.Void Object::.ctor()
     static HexEncoder* New_ctor();
   }; // Org.BouncyCastle.Utilities.Encoders.HexEncoder
+  check_size<sizeof(HexEncoder), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Org_BouncyCastle_Utilities_Encoders_HexEncoderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::HexEncoder*, "Org.BouncyCastle.Utilities.Encoders", "HexEncoder");

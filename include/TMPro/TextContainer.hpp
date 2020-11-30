@@ -199,6 +199,7 @@ namespace TMPro {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // TMPro.TextContainer
+  check_size<sizeof(TextContainer), 104 + sizeof(void*) + 8 - (104 + sizeof(void*)) % 8> __TMPro_TextContainerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TextContainer*, "TMPro", "TextContainer");

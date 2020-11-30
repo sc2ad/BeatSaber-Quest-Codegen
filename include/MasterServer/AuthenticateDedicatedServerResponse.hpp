@@ -71,6 +71,7 @@ namespace MasterServer {
       // Set static field: static public MasterServer.AuthenticateDedicatedServerResponse/Result UnknownError
       static void _set_UnknownError(MasterServer::AuthenticateDedicatedServerResponse::Result value);
     }; // MasterServer.AuthenticateDedicatedServerResponse/Result
+    check_size<sizeof(AuthenticateDedicatedServerResponse::Result), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __MasterServer_AuthenticateDedicatedServerResponse_ResultSizeCheck;
     // public MasterServer.AuthenticateDedicatedServerResponse/Result result
     // Offset: 0x18
     MasterServer::AuthenticateDedicatedServerResponse::Result result;
@@ -135,6 +136,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static AuthenticateDedicatedServerResponse* New_ctor();
   }; // MasterServer.AuthenticateDedicatedServerResponse
+  check_size<sizeof(AuthenticateDedicatedServerResponse), 24 + sizeof(MasterServer::AuthenticateDedicatedServerResponse::Result) + 8 - (24 + sizeof(MasterServer::AuthenticateDedicatedServerResponse::Result)) % 8> __MasterServer_AuthenticateDedicatedServerResponseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::AuthenticateDedicatedServerResponse*, "MasterServer", "AuthenticateDedicatedServerResponse");

@@ -25,7 +25,10 @@ namespace System::Net::Http::Headers {
     // Offset: 0xFFFFFFFF
     template<class T>
     static int Calculate(System::Collections::Generic::ICollection_1<T>* list) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<int>("System.Net.Http.Headers", "HashCodeCalculator", "Calculate", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Net::Http::Headers").WithContext("HashCodeCalculator").WithContext("Calculate");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Net.Http.Headers", "HashCodeCalculator", il2cpp_utils::NoArgClass<int>(), "Calculate", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list);
     }
   }; // System.Net.Http.Headers.HashCodeCalculator
 }

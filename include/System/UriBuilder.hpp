@@ -105,6 +105,7 @@ namespace System {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.UriBuilder
+  check_size<sizeof(UriBuilder), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __System_UriBuilderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UriBuilder*, "System", "UriBuilder");

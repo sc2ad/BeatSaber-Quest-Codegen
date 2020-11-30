@@ -103,6 +103,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerConnectedPlayerSongTimeSyncController* New_ctor();
   }; // MultiplayerConnectedPlayerSongTimeSyncController
+  check_size<sizeof(MultiplayerConnectedPlayerSongTimeSyncController), 76 + sizeof(bool) + 8 - (76 + sizeof(bool)) % 8> __GlobalNamespace_MultiplayerConnectedPlayerSongTimeSyncControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*, "", "MultiplayerConnectedPlayerSongTimeSyncController");

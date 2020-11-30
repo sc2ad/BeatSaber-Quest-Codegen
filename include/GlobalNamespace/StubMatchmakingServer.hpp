@@ -208,6 +208,7 @@ namespace GlobalNamespace {
     // Base method: System.Void INetworkPlayer::SendInviteResponse(System.Boolean accept)
     void SendInviteResponse(bool accept);
   }; // StubMatchmakingServer
+  check_size<sizeof(StubMatchmakingServer), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_StubMatchmakingServerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StubMatchmakingServer*, "", "StubMatchmakingServer");

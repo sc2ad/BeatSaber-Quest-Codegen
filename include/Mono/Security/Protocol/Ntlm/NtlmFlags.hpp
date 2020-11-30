@@ -83,6 +83,7 @@ namespace Mono::Security::Protocol::Ntlm {
     // Set static field: static public Mono.Security.Protocol.Ntlm.NtlmFlags Negotiate56
     static void _set_Negotiate56(Mono::Security::Protocol::Ntlm::NtlmFlags value);
   }; // Mono.Security.Protocol.Ntlm.NtlmFlags
+  check_size<sizeof(NtlmFlags), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Mono_Security_Protocol_Ntlm_NtlmFlagsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::NtlmFlags, "Mono.Security.Protocol.Ntlm", "NtlmFlags");

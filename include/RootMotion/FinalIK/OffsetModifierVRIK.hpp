@@ -66,6 +66,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static OffsetModifierVRIK* New_ctor();
   }; // RootMotion.FinalIK.OffsetModifierVRIK
+  check_size<sizeof(OffsetModifierVRIK), 40 + sizeof(float) + 8 - (40 + sizeof(float)) % 8> __RootMotion_FinalIK_OffsetModifierVRIKSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifierVRIK*, "RootMotion.FinalIK", "OffsetModifierVRIK");

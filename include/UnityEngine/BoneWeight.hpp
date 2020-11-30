@@ -111,6 +111,7 @@ namespace UnityEngine {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.BoneWeight other)
     bool Equals(UnityEngine::BoneWeight other);
   }; // UnityEngine.BoneWeight
+  check_size<sizeof(BoneWeight), 28 + sizeof(int) + 8 - (28 + sizeof(int)) % 8> __UnityEngine_BoneWeightSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoneWeight, "UnityEngine", "BoneWeight");

@@ -26,6 +26,7 @@ namespace System::Diagnostics {
     // Offset: 0x1677830
     static DebuggerDisplayAttribute* New_ctor(::Il2CppString* value);
   }; // System.Diagnostics.DebuggerDisplayAttribute
+  check_size<sizeof(DebuggerDisplayAttribute), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Diagnostics_DebuggerDisplayAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerDisplayAttribute*, "System.Diagnostics", "DebuggerDisplayAttribute");

@@ -29,16 +29,20 @@ namespace System::Threading::Tasks {
     // public System.Void .ctor(System.Threading.Tasks.Task`1<TAntecedentResult> antecedent, System.Delegate function, System.Object state, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.InternalTaskOptions internalOptions, ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0xFFFFFFFF
     static ContinuationResultTaskFromResultTask_2<TAntecedentResult, TResult>* New_ctor(System::Threading::Tasks::Task_1<TAntecedentResult>* antecedent, System::Delegate* function, ::Il2CppObject* state, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions, System::Threading::StackCrawlMark& stackMark) {
-      return THROW_UNLESS((il2cpp_utils::New<ContinuationResultTaskFromResultTask_2<TAntecedentResult, TResult>*>(antecedent, function, state, creationOptions, internalOptions, stackMark)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("ContinuationResultTaskFromResultTask_2").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<ContinuationResultTaskFromResultTask_2<TAntecedentResult, TResult>*>(antecedent, function, state, creationOptions, internalOptions, stackMark)));
     }
     // override System.Void InnerInvoke()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Threading.Tasks.Task`1
     // Base method: System.Void Task_1::InnerInvoke()
     void InnerInvoke() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "InnerInvoke"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("ContinuationResultTaskFromResultTask_2").WithContext("InnerInvoke");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "InnerInvoke", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
   }; // System.Threading.Tasks.ContinuationResultTaskFromResultTask`2
+  // Could not write size check! Type: System.Threading.Tasks.ContinuationResultTaskFromResultTask`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Threading::Tasks::ContinuationResultTaskFromResultTask_2, "System.Threading.Tasks", "ContinuationResultTaskFromResultTask`2");
 #pragma pack(pop)

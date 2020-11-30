@@ -73,6 +73,7 @@ namespace System::Collections {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // System.Collections.Queue/QueueEnumerator
+  check_size<sizeof(Queue::QueueEnumerator), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Collections_Queue_QueueEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Queue::QueueEnumerator*, "System.Collections", "Queue/QueueEnumerator");

@@ -38,6 +38,7 @@ namespace GlobalNamespace {
     // Base method: System.Char[] IPasswordFinder::GetPassword()
     ::Array<::Il2CppChar>* GetPassword();
   }; // X509CertificateUtility/PasswordFinder
+  check_size<sizeof(X509CertificateUtility::PasswordFinder), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_X509CertificateUtility_PasswordFinderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::X509CertificateUtility::PasswordFinder*, "", "X509CertificateUtility/PasswordFinder");

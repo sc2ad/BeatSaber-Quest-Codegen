@@ -30,7 +30,9 @@ namespace Zenject {
     // public Zenject.FactoryArgumentsToChoiceBinder`1<TContract> WithId(System.Object identifier)
     // Offset: 0xFFFFFFFF
     Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* WithId(::Il2CppObject* identifier) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>(this, "WithId", identifier));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("FactoryToChoiceIdBinder_1").WithContext("WithId");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*>(), "WithId", {}, ::il2cpp_utils::ExtractTypes(identifier)));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*, false>(this, ___internal__method, identifier);
     }
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     // Offset: 0xFFFFFFFF
@@ -39,9 +41,11 @@ namespace Zenject {
     // Base method: System.Void FactoryToChoiceBinder_1::.ctor(Zenject.DiContainer container, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     // Base method: System.Void FactoryFromBinder_1::.ctor(Zenject.DiContainer container, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     static FactoryToChoiceIdBinder_1<TContract>* New_ctor(Zenject::DiContainer* container, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo) {
-      return THROW_UNLESS(il2cpp_utils::New<FactoryToChoiceIdBinder_1<TContract>*>(container, bindInfo, factoryBindInfo));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("FactoryToChoiceIdBinder_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<FactoryToChoiceIdBinder_1<TContract>*>(container, bindInfo, factoryBindInfo));
     }
   }; // Zenject.FactoryToChoiceIdBinder`1
+  // Could not write size check! Type: Zenject.FactoryToChoiceIdBinder`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::FactoryToChoiceIdBinder_1, "Zenject", "FactoryToChoiceIdBinder`1");
 #pragma pack(pop)

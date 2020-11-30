@@ -36,6 +36,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     static RuntimeInitializeOnLoadMethodAttribute* New_ctor();
   }; // UnityEngine.RuntimeInitializeOnLoadMethodAttribute
+  check_size<sizeof(RuntimeInitializeOnLoadMethodAttribute), 16 + sizeof(UnityEngine::RuntimeInitializeLoadType) + 8 - (16 + sizeof(UnityEngine::RuntimeInitializeLoadType)) % 8> __UnityEngine_RuntimeInitializeOnLoadMethodAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RuntimeInitializeOnLoadMethodAttribute*, "UnityEngine", "RuntimeInitializeOnLoadMethodAttribute");

@@ -24,6 +24,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1164A80
     static FieldOffsetAttribute* New_ctor(int offset);
   }; // System.Runtime.InteropServices.FieldOffsetAttribute
+  check_size<sizeof(FieldOffsetAttribute), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __System_Runtime_InteropServices_FieldOffsetAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::FieldOffsetAttribute*, "System.Runtime.InteropServices", "FieldOffsetAttribute");

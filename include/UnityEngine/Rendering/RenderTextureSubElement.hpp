@@ -47,6 +47,7 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.RenderTextureSubElement Default
     static void _set_Default(UnityEngine::Rendering::RenderTextureSubElement value);
   }; // UnityEngine.Rendering.RenderTextureSubElement
+  check_size<sizeof(RenderTextureSubElement), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Rendering_RenderTextureSubElementSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderTextureSubElement, "UnityEngine.Rendering", "RenderTextureSubElement");

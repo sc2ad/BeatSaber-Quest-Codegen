@@ -86,6 +86,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.String Test::get_MethodName()
     ::Il2CppString* get_MethodName();
   }; // NUnit.Framework.Internal.TestMethod
+  check_size<sizeof(TestMethod), 120 + sizeof(void*) + 8 - (120 + sizeof(void*)) % 8> __NUnit_Framework_Internal_TestMethodSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestMethod*, "NUnit.Framework.Internal", "TestMethod");

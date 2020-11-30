@@ -29,6 +29,7 @@ namespace Org::BouncyCastle::Utilities::Date {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Utilities.Date.DateTimeObject
+  check_size<sizeof(DateTimeObject), 16 + sizeof(System::DateTime) + 8 - (16 + sizeof(System::DateTime)) % 8> __Org_BouncyCastle_Utilities_Date_DateTimeObjectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Date::DateTimeObject*, "Org.BouncyCastle.Utilities.Date", "DateTimeObject");

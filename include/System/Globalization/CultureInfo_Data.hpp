@@ -36,6 +36,7 @@ namespace System::Globalization {
     // Creating value type constructor for type: Data
     constexpr Data(int ansi_ = {}, int ebcdic_ = {}, int mac_ = {}, int oem_ = {}, bool right_to_left_ = {}, uint8_t list_sep_ = {}) noexcept : ansi{ansi_}, ebcdic{ebcdic_}, mac{mac_}, oem{oem_}, right_to_left{right_to_left_}, list_sep{list_sep_} {}
   }; // System.Globalization.CultureInfo/Data
+  check_size<sizeof(CultureInfo::Data), 17 + sizeof(uint8_t) + 8 - (17 + sizeof(uint8_t)) % 8> __System_Globalization_CultureInfo_DataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureInfo::Data, "System.Globalization", "CultureInfo/Data");

@@ -35,14 +35,18 @@ namespace System {
     // System.Void .ctor(System.Array array)
     // Offset: 0xFFFFFFFF
     InternalEnumerator_1(System::Array* array) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", array));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("InternalEnumerator_1").WithContext(".ctor");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<Array::InternalEnumerator_1<T>>(), ".ctor", {}, ::il2cpp_utils::ExtractTypes(array)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, array);
     }
     // public System.Void Dispose()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.IDisposable
     // Base method: System.Void IDisposable::Dispose()
     void Dispose() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "Dispose"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("InternalEnumerator_1").WithContext("Dispose");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "Dispose", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method);
     }
     // Creating proxy method: System_IDisposable_Dispose
     // Maps to method: Dispose
@@ -54,7 +58,9 @@ namespace System {
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Boolean IEnumerator::MoveNext()
     bool MoveNext() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "MoveNext"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("InternalEnumerator_1").WithContext("MoveNext");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<bool>(), "MoveNext", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method);
     }
     // Creating proxy method: System_Collections_IEnumerator_MoveNext
     // Maps to method: MoveNext
@@ -66,7 +72,9 @@ namespace System {
     // Implemented from: System.Collections.Generic.IEnumerator`1
     // Base method: T IEnumerator_1::get_Current()
     T get_Current() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(*this, "get_Current"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("InternalEnumerator_1").WithContext("get_Current");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<T>(), "get_Current", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method);
     }
     // Creating proxy method: System_Collections_Generic_IEnumerator_1_get_Current
     // Maps to method: get_Current
@@ -78,16 +86,21 @@ namespace System {
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "System.Collections.IEnumerator.Reset"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("InternalEnumerator_1").WithContext("System.Collections.IEnumerator.Reset");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "System.Collections.IEnumerator.Reset", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method);
     }
     // private System.Object System.Collections.IEnumerator.get_Current()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEnumerator
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(*this, "System.Collections.IEnumerator.get_Current"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("InternalEnumerator_1").WithContext("System.Collections.IEnumerator.get_Current");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<::Il2CppObject*>(), "System.Collections.IEnumerator.get_Current", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(*this, ___internal__method);
     }
   }; // System.Array/InternalEnumerator`1
+  // Could not write size check! Type: System.Array/InternalEnumerator`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Array::InternalEnumerator_1, "System", "Array/InternalEnumerator`1");
 #pragma pack(pop)

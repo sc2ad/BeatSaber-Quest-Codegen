@@ -84,6 +84,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.XteaEngine
+  check_size<sizeof(XteaEngine), 41 + sizeof(bool) + 8 - (41 + sizeof(bool)) % 8> __Org_BouncyCastle_Crypto_Engines_XteaEngineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::XteaEngine*, "Org.BouncyCastle.Crypto.Engines", "XteaEngine");

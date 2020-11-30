@@ -68,6 +68,7 @@ namespace System::Xml {
     // Base method: System.Int32 EncoderFallback::get_MaxCharCount()
     int get_MaxCharCount();
   }; // System.Xml.CharEntityEncoderFallback
+  check_size<sizeof(CharEntityEncoderFallback), 48 + sizeof(int) + 8 - (48 + sizeof(int)) % 8> __System_Xml_CharEntityEncoderFallbackSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::CharEntityEncoderFallback*, "System.Xml", "CharEntityEncoderFallback");

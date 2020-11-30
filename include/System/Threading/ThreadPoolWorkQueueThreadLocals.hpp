@@ -45,6 +45,7 @@ namespace System::Threading {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.Threading.ThreadPoolWorkQueueThreadLocals
+  check_size<sizeof(ThreadPoolWorkQueueThreadLocals), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Threading_ThreadPoolWorkQueueThreadLocalsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueueThreadLocals*, "System.Threading", "ThreadPoolWorkQueueThreadLocals");

@@ -155,6 +155,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     static WriteObjectInfo* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo
+  check_size<sizeof(WriteObjectInfo), 128 + sizeof(void*) + 8 - (128 + sizeof(void*)) % 8> __System_Runtime_Serialization_Formatters_Binary_WriteObjectInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, "System.Runtime.Serialization.Formatters.Binary", "WriteObjectInfo");

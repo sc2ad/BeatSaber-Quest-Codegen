@@ -52,6 +52,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Runtime.Remoting.Messaging.IMessageCtrl IMessageSink::AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);
   }; // System.Runtime.Remoting.Messaging.ClientContextTerminatorSink
+  check_size<sizeof(ClientContextTerminatorSink), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Runtime_Remoting_Messaging_ClientContextTerminatorSinkSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ClientContextTerminatorSink*, "System.Runtime.Remoting.Messaging", "ClientContextTerminatorSink");

@@ -39,6 +39,7 @@ namespace NUnit::Framework::Internal::Commands {
     // Offset: 0x13EEFD0
     void AfterTest(NUnit::Framework::Interfaces::ITest* test);
   }; // NUnit.Framework.Internal.Commands.TestActionItem
+  check_size<sizeof(TestActionItem), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __NUnit_Framework_Internal_Commands_TestActionItemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::TestActionItem*, "NUnit.Framework.Internal.Commands", "TestActionItem");

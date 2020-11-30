@@ -151,6 +151,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static TMP_SpriteAsset* New_ctor();
   }; // TMPro.TMP_SpriteAsset
+  check_size<sizeof(TMP_SpriteAsset), 120 + sizeof(bool) + 8 - (120 + sizeof(bool)) % 8> __TMPro_TMP_SpriteAssetSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAsset*, "TMPro", "TMP_SpriteAsset");

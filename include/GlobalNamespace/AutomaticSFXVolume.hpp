@@ -90,6 +90,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AutomaticSFXVolume* New_ctor();
   }; // AutomaticSFXVolume
+  check_size<sizeof(AutomaticSFXVolume), 72 + sizeof(float) + 8 - (72 + sizeof(float)) % 8> __GlobalNamespace_AutomaticSFXVolumeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutomaticSFXVolume*, "", "AutomaticSFXVolume");

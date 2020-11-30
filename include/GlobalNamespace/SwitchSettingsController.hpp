@@ -59,6 +59,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SwitchSettingsController* New_ctor();
   }; // SwitchSettingsController
+  check_size<sizeof(SwitchSettingsController), 32 + sizeof(bool) + 8 - (32 + sizeof(bool)) % 8> __GlobalNamespace_SwitchSettingsControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SwitchSettingsController*, "", "SwitchSettingsController");

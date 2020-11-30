@@ -95,6 +95,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static public System.Security.Cryptography.X509Certificates.OidGroup DisableSearchDS
     static void _set_DisableSearchDS(System::Security::Cryptography::X509Certificates::OidGroup value);
   }; // System.Security.Cryptography.X509Certificates.OidGroup
+  check_size<sizeof(OidGroup), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Security_Cryptography_X509Certificates_OidGroupSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::OidGroup, "System.Security.Cryptography.X509Certificates", "OidGroup");

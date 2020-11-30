@@ -38,14 +38,19 @@ namespace System::Linq {
     // System.Void .ctor(System.Collections.Generic.IEnumerable`1<TElement> source)
     // Offset: 0xFFFFFFFF
     Buffer_1(System::Collections::Generic::IEnumerable_1<TElement>* source) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", source));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("Buffer_1").WithContext(".ctor");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<Buffer_1<TElement>>(), ".ctor", {}, ::il2cpp_utils::ExtractTypes(source)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, source);
     }
     // TElement[] ToArray()
     // Offset: 0xFFFFFFFF
     ::Array<TElement>* ToArray() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Array<TElement>*>(*this, "ToArray"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("Buffer_1").WithContext("ToArray");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<::Array<TElement>*>(), "ToArray", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<::Array<TElement>*, false>(*this, ___internal__method);
     }
   }; // System.Linq.Buffer`1
+  // Could not write size check! Type: System.Linq.Buffer`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Linq::Buffer_1, "System.Linq", "Buffer`1");
 #pragma pack(pop)

@@ -49,6 +49,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Base method: System.String Exception::get_StackTrace()
     ::Il2CppString* get_StackTrace();
   }; // UnityEngine.TestTools.TestRunner.UnexpectedLogMessageException
+  check_size<sizeof(UnexpectedLogMessageException), 136 + sizeof(void*) + 8 - (136 + sizeof(void*)) % 8> __UnityEngine_TestTools_TestRunner_UnexpectedLogMessageExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException*, "UnityEngine.TestTools.TestRunner", "UnexpectedLogMessageException");

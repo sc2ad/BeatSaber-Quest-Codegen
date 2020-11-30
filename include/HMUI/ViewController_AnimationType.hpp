@@ -43,6 +43,7 @@ namespace HMUI {
     // Set static field: static public HMUI.ViewController/AnimationType Out
     static void _set_Out(HMUI::ViewController::AnimationType value);
   }; // HMUI.ViewController/AnimationType
+  check_size<sizeof(ViewController::AnimationType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __HMUI_ViewController_AnimationTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewController::AnimationType, "HMUI", "ViewController/AnimationType");

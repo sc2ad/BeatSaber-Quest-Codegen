@@ -38,6 +38,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x13DC748
     bool get_IsResolvable();
   }; // NUnit.Framework.Constraints.ConstraintBuilder
+  check_size<sizeof(ConstraintBuilder), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __NUnit_Framework_Constraints_ConstraintBuilderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintBuilder*, "NUnit.Framework.Constraints", "ConstraintBuilder");

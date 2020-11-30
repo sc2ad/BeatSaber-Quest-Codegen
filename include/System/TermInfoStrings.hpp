@@ -2393,6 +2393,7 @@ namespace System {
     // Set static field: static public System.TermInfoStrings Last
     static void _set_Last(System::TermInfoStrings value);
   }; // System.TermInfoStrings
+  check_size<sizeof(TermInfoStrings), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_TermInfoStringsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TermInfoStrings, "System", "TermInfoStrings");

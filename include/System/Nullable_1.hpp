@@ -30,60 +30,81 @@ namespace System {
     // public System.Void .ctor(T value)
     // Offset: 0xFFFFFFFF
     Nullable_1(T value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Nullable_1").WithContext(".ctor");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<Nullable_1<T>>(), ".ctor", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // public System.Boolean get_HasValue()
     // Offset: 0xFFFFFFFF
     bool get_HasValue() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "get_HasValue"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Nullable_1").WithContext("get_HasValue");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<bool>(), "get_HasValue", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method);
     }
     // public T get_Value()
     // Offset: 0xFFFFFFFF
     T get_Value() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(*this, "get_Value"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Nullable_1").WithContext("get_Value");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<T>(), "get_Value", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method);
     }
     // private System.Boolean Equals(System.Nullable`1<T> other)
     // Offset: 0xFFFFFFFF
     bool Equals(System::Nullable_1<T> other) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "Equals", other));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Nullable_1").WithContext("Equals");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<bool>(), "Equals", {}, ::il2cpp_utils::ExtractTypes(other)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, other);
     }
     // public T GetValueOrDefault()
     // Offset: 0xFFFFFFFF
     T GetValueOrDefault() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(*this, "GetValueOrDefault"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Nullable_1").WithContext("GetValueOrDefault");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<T>(), "GetValueOrDefault", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method);
     }
     // static private System.Object Box(System.Nullable`1<T> o)
     // Offset: 0xFFFFFFFF
     static ::Il2CppObject* Box(System::Nullable_1<T> o) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Nullable_1<T>>::get(), "Box", o));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Nullable_1").WithContext("Box");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Nullable_1<T>>::get(), il2cpp_utils::NoArgClass<::Il2CppObject*>(), "Box", {}, ::il2cpp_utils::ExtractTypes(o))));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, o);
     }
     // static private System.Nullable`1<T> Unbox(System.Object o)
     // Offset: 0xFFFFFFFF
     static System::Nullable_1<T> Unbox(::Il2CppObject* o) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Nullable_1<T>>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Nullable_1<T>>::get(), "Unbox", o));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Nullable_1").WithContext("Unbox");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Nullable_1<T>>::get(), il2cpp_utils::NoArgClass<System::Nullable_1<T>>(), "Unbox", {}, ::il2cpp_utils::ExtractTypes(o))));
+      return ::il2cpp_utils::RunMethodThrow<System::Nullable_1<T>, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, o);
     }
     // public override System.Boolean Equals(System.Object other)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::Il2CppObject* other) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "Equals", other));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Nullable_1").WithContext("Equals");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<bool>(), "Equals", {}, ::il2cpp_utils::ExtractTypes(other)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, other);
     }
     // public override System.Int32 GetHashCode()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(*this, "GetHashCode"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Nullable_1").WithContext("GetHashCode");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<int>(), "GetHashCode", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(*this, ___internal__method);
     }
     // public override System.String ToString()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppString*>(*this, "ToString"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("Nullable_1").WithContext("ToString");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<::Il2CppString*>(), "ToString", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(*this, ___internal__method);
     }
   }; // System.Nullable`1
+  // Could not write size check! Type: System.Nullable`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Nullable_1, "System", "Nullable`1");
 #pragma pack(pop)

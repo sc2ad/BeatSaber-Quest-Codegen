@@ -63,6 +63,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static CoreGameHUDController* New_ctor();
   }; // CoreGameHUDController
+  check_size<sizeof(CoreGameHUDController), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __GlobalNamespace_CoreGameHUDControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CoreGameHUDController*, "", "CoreGameHUDController");

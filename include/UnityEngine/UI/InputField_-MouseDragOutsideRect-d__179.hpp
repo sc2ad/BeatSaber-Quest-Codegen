@@ -70,6 +70,7 @@ namespace UnityEngine::UI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // UnityEngine.UI.InputField/<MouseDragOutsideRect>d__179
+  check_size<sizeof(InputField::$MouseDragOutsideRect$d__179), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __UnityEngine_UI_InputField_$MouseDragOutsideRect$d__179SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::$MouseDragOutsideRect$d__179*, "UnityEngine.UI", "InputField/<MouseDragOutsideRect>d__179");

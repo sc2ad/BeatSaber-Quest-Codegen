@@ -115,6 +115,7 @@ namespace OnlineServices::API {
     // Base method: System.Void Object::.ctor()
     static HTTPLeaderboardsOathHelper* New_ctor();
   }; // OnlineServices.API.HTTPLeaderboardsOathHelper
+  check_size<sizeof(HTTPLeaderboardsOathHelper), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __OnlineServices_API_HTTPLeaderboardsOathHelperSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper*, "OnlineServices.API", "HTTPLeaderboardsOathHelper");

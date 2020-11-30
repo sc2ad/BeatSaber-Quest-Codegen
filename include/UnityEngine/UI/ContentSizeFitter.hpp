@@ -63,6 +63,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.ContentSizeFitter/FitMode PreferredSize
       static void _set_PreferredSize(UnityEngine::UI::ContentSizeFitter::FitMode value);
     }; // UnityEngine.UI.ContentSizeFitter/FitMode
+    check_size<sizeof(ContentSizeFitter::FitMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_UI_ContentSizeFitter_FitModeSizeCheck;
     // protected UnityEngine.UI.ContentSizeFitter/FitMode m_HorizontalFit
     // Offset: 0x18
     UnityEngine::UI::ContentSizeFitter::FitMode m_HorizontalFit;
@@ -138,6 +139,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void ILayoutController::SetLayoutVertical()
     void SetLayoutVertical();
   }; // UnityEngine.UI.ContentSizeFitter
+  check_size<sizeof(ContentSizeFitter), 40 + sizeof(UnityEngine::DrivenRectTransformTracker) + 8 - (40 + sizeof(UnityEngine::DrivenRectTransformTracker)) % 8> __UnityEngine_UI_ContentSizeFitterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ContentSizeFitter*, "UnityEngine.UI", "ContentSizeFitter");

@@ -32,6 +32,7 @@ namespace System::IO {
     // Offset: 0x13A55D4
     Microsoft::Win32::Win32Native::WIN32_FIND_DATA* get_FindData();
   }; // System.IO.SearchResult
+  check_size<sizeof(SearchResult), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_IO_SearchResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchResult*, "System.IO", "SearchResult");

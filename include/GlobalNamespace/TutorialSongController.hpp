@@ -184,6 +184,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static TutorialSongController* New_ctor();
   }; // TutorialSongController
+  check_size<sizeof(TutorialSongController), 200 + sizeof(void*) + 8 - (200 + sizeof(void*)) % 8> __GlobalNamespace_TutorialSongControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController*, "", "TutorialSongController");

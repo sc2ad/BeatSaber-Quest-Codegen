@@ -215,6 +215,7 @@ namespace System::Xml {
     // Base method: System.Void XmlWriter::Flush()
     void Flush();
   }; // System.Xml.QueryOutputWriter
+  check_size<sizeof(QueryOutputWriter), 96 + sizeof(int) + 8 - (96 + sizeof(int)) % 8> __System_Xml_QueryOutputWriterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::QueryOutputWriter*, "System.Xml", "QueryOutputWriter");

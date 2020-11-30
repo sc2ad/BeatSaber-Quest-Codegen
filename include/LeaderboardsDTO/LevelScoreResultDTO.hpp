@@ -66,6 +66,7 @@ namespace LeaderboardsDTO {
     // Base method: System.Void Object::.ctor()
     static LevelScoreResultDTO* New_ctor();
   }; // LeaderboardsDTO.LevelScoreResultDTO
+  check_size<sizeof(LevelScoreResultDTO), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __LeaderboardsDTO_LevelScoreResultDTOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LevelScoreResultDTO*, "LeaderboardsDTO", "LevelScoreResultDTO");

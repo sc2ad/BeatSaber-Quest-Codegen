@@ -43,16 +43,21 @@ namespace System::Diagnostics::Tracing {
     // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref System.Nullable`1<T> value)
     // Offset: 0xFFFFFFFF
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, System::Nullable_1<T>& value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteData", collector, value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("NullableTypeInfo_1").WithContext("WriteData");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "WriteData", {}, ::il2cpp_utils::ExtractTypes(collector, value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, collector, value);
     }
     // public override System.Void WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Void TraceLoggingTypeInfo::WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::Il2CppString* name, System::Diagnostics::Tracing::EventFieldFormat format) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteMetadata", collector, name, format));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("NullableTypeInfo_1").WithContext("WriteMetadata");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "WriteMetadata", {}, ::il2cpp_utils::ExtractTypes(collector, name, format)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, collector, name, format);
     }
   }; // System.Diagnostics.Tracing.NullableTypeInfo`1
+  // Could not write size check! Type: System.Diagnostics.Tracing.NullableTypeInfo`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Diagnostics::Tracing::NullableTypeInfo_1, "System.Diagnostics.Tracing", "NullableTypeInfo`1");
 #pragma pack(pop)

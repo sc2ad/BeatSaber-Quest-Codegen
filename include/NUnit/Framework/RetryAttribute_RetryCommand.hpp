@@ -33,6 +33,7 @@ namespace NUnit::Framework {
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.RetryAttribute/RetryCommand
+  check_size<sizeof(RetryAttribute::RetryCommand), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __NUnit_Framework_RetryAttribute_RetryCommandSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::RetryAttribute::RetryCommand*, "NUnit.Framework", "RetryAttribute/RetryCommand");

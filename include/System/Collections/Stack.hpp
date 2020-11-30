@@ -101,6 +101,7 @@ namespace System::Collections {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Collections.Stack
+  check_size<sizeof(Stack), 28 + sizeof(int) + 8 - (28 + sizeof(int)) % 8> __System_Collections_StackSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Stack*, "System.Collections", "Stack");

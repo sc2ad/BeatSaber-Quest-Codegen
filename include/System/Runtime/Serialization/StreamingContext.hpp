@@ -43,6 +43,7 @@ namespace System::Runtime::Serialization {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.Runtime.Serialization.StreamingContext
+  check_size<sizeof(StreamingContext), 8 + sizeof(System::Runtime::Serialization::StreamingContextStates) + 8 - (8 + sizeof(System::Runtime::Serialization::StreamingContextStates)) % 8> __System_Runtime_Serialization_StreamingContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::StreamingContext, "System.Runtime.Serialization", "StreamingContext");

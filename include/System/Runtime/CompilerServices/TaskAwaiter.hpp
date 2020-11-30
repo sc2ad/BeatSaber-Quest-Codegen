@@ -71,6 +71,7 @@ namespace System::Runtime::CompilerServices {
     // Base method: System.Void ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action continuation)
     void UnsafeOnCompleted(System::Action* continuation);
   }; // System.Runtime.CompilerServices.TaskAwaiter
+  check_size<sizeof(TaskAwaiter), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __System_Runtime_CompilerServices_TaskAwaiterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::TaskAwaiter, "System.Runtime.CompilerServices", "TaskAwaiter");

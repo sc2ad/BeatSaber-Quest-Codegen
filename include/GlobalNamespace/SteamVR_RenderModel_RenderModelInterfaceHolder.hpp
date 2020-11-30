@@ -52,6 +52,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SteamVR_RenderModel::RenderModelInterfaceHolder* New_ctor();
   }; // SteamVR_RenderModel/RenderModelInterfaceHolder
+  check_size<sizeof(SteamVR_RenderModel::RenderModelInterfaceHolder), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_SteamVR_RenderModel_RenderModelInterfaceHolderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder*, "", "SteamVR_RenderModel/RenderModelInterfaceHolder");

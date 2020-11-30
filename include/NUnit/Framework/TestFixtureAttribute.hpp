@@ -103,6 +103,7 @@ namespace NUnit::Framework {
     // Base method: System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestSuite> IFixtureBuilder::BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>* BuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
   }; // NUnit.Framework.TestFixtureAttribute
+  check_size<sizeof(TestFixtureAttribute), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __NUnit_Framework_TestFixtureAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TestFixtureAttribute*, "NUnit.Framework", "TestFixtureAttribute");

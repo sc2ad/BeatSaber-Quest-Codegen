@@ -196,6 +196,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SinglePlayerLevelSelectionFlowCoordinator* New_ctor();
   }; // SinglePlayerLevelSelectionFlowCoordinator
+  check_size<sizeof(SinglePlayerLevelSelectionFlowCoordinator), 264 + sizeof(void*) + 8 - (264 + sizeof(void*)) % 8> __GlobalNamespace_SinglePlayerLevelSelectionFlowCoordinatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*, "", "SinglePlayerLevelSelectionFlowCoordinator");

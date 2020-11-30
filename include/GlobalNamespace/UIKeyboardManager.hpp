@@ -107,6 +107,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static UIKeyboardManager* New_ctor();
   }; // UIKeyboardManager
+  check_size<sizeof(UIKeyboardManager), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __GlobalNamespace_UIKeyboardManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UIKeyboardManager*, "", "UIKeyboardManager");

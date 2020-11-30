@@ -40,6 +40,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static StandardGameplayInstaller* New_ctor();
   }; // StandardGameplayInstaller
+  check_size<sizeof(StandardGameplayInstaller), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_StandardGameplayInstallerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardGameplayInstaller*, "", "StandardGameplayInstaller");

@@ -56,6 +56,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.Poly2Tri.AdvancingFront
+  check_size<sizeof(AdvancingFront), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_Poly2Tri_AdvancingFrontSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::AdvancingFront*, "UnityEngine.ProBuilder.Poly2Tri", "AdvancingFront");

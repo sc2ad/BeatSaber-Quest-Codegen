@@ -35,6 +35,7 @@ namespace Mono::Security::Interface {
     // Set static field: static public Mono.Security.Interface.AlertLevel Fatal
     static void _set_Fatal(Mono::Security::Interface::AlertLevel value);
   }; // Mono.Security.Interface.AlertLevel
+  check_size<sizeof(AlertLevel), 0 + sizeof(uint8_t) + 8 - (0 + sizeof(uint8_t)) % 8> __Mono_Security_Interface_AlertLevelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::AlertLevel, "Mono.Security.Interface", "AlertLevel");

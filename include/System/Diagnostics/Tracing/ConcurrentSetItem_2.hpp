@@ -17,21 +17,27 @@ namespace System::Diagnostics::Tracing {
     // public System.Int32 Compare(ItemType other)
     // Offset: 0xFFFFFFFF
     int Compare(ItemType other) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "Compare", other));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("ConcurrentSetItem_2").WithContext("Compare");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "Compare", {}, ::il2cpp_utils::ExtractTypes(other)));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, other);
     }
     // public System.Int32 Compare(KeyType key)
     // Offset: 0xFFFFFFFF
     int Compare(KeyType key) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "Compare", key));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("ConcurrentSetItem_2").WithContext("Compare");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "Compare", {}, ::il2cpp_utils::ExtractTypes(key)));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, key);
     }
     // protected System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ConcurrentSetItem_2<KeyType, ItemType>* New_ctor() {
-      return THROW_UNLESS((il2cpp_utils::New<ConcurrentSetItem_2<KeyType, ItemType>*>()));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("ConcurrentSetItem_2").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<ConcurrentSetItem_2<KeyType, ItemType>*>()));
     }
   }; // System.Diagnostics.Tracing.ConcurrentSetItem`2
+  // Could not write size check! Type: System.Diagnostics.Tracing.ConcurrentSetItem`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Diagnostics::Tracing::ConcurrentSetItem_2, "System.Diagnostics.Tracing", "ConcurrentSetItem`2");
 #pragma pack(pop)

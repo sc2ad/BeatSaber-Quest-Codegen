@@ -103,6 +103,7 @@ namespace System::Threading {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Threading.Timer
+  check_size<sizeof(Timer), 64 + sizeof(bool) + 8 - (64 + sizeof(bool)) % 8> __System_Threading_TimerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Timer*, "System.Threading", "Timer");

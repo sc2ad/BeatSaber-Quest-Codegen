@@ -108,6 +108,7 @@ namespace System::Net {
     // Maps to method: GetObjectData
     // Skipping redundant proxy method: System_Runtime_Serialization_ISerializable_GetObjectData
   }; // System.Net.WebException
+  check_size<sizeof(WebException), 152 + sizeof(System::Net::WebExceptionInternalStatus) + 8 - (152 + sizeof(System::Net::WebExceptionInternalStatus)) % 8> __System_Net_WebExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebException*, "System.Net", "WebException");

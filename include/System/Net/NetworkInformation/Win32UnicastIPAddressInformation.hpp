@@ -45,6 +45,7 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Net.IPAddress IPAddressInformation::get_Address()
     System::Net::IPAddress* get_Address();
   }; // System.Net.NetworkInformation.Win32UnicastIPAddressInformation
+  check_size<sizeof(Win32UnicastIPAddressInformation), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __System_Net_NetworkInformation_Win32UnicastIPAddressInformationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32UnicastIPAddressInformation*, "System.Net.NetworkInformation", "Win32UnicastIPAddressInformation");

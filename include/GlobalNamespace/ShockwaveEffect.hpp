@@ -57,6 +57,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ShockwaveEffect* New_ctor();
   }; // ShockwaveEffect
+  check_size<sizeof(ShockwaveEffect), 184 + sizeof(float) + 8 - (184 + sizeof(float)) % 8> __GlobalNamespace_ShockwaveEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShockwaveEffect*, "", "ShockwaveEffect");

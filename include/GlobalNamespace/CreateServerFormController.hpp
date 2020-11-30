@@ -60,6 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static CreateServerFormController* New_ctor();
   }; // CreateServerFormController
+  check_size<sizeof(CreateServerFormController), 32 + sizeof(bool) + 8 - (32 + sizeof(bool)) % 8> __GlobalNamespace_CreateServerFormControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreateServerFormController*, "", "CreateServerFormController");

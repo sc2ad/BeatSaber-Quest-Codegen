@@ -51,6 +51,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12D8818
     static uint Rol30(uint input);
   }; // System.Diagnostics.Tracing.EventSource/Sha1ForNonSecretPurposes
+  check_size<sizeof(EventSource::Sha1ForNonSecretPurposes), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __System_Diagnostics_Tracing_EventSource_Sha1ForNonSecretPurposesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSource::Sha1ForNonSecretPurposes, "System.Diagnostics.Tracing", "EventSource/Sha1ForNonSecretPurposes");

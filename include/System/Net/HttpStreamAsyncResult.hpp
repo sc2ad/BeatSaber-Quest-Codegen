@@ -107,6 +107,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     static HttpStreamAsyncResult* New_ctor();
   }; // System.Net.HttpStreamAsyncResult
+  check_size<sizeof(HttpStreamAsyncResult), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __System_Net_HttpStreamAsyncResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpStreamAsyncResult*, "System.Net", "HttpStreamAsyncResult");

@@ -63,6 +63,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Offset: 0x1193500
     void Draw();
   }; // UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer
+  check_size<sizeof(TestResultRenderer), 28 + sizeof(UnityEngine::Vector2) + 8 - (28 + sizeof(UnityEngine::Vector2)) % 8> __UnityEngine_TestTools_TestRunner_Callbacks_TestResultRendererSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer*, "UnityEngine.TestTools.TestRunner.Callbacks", "TestResultRenderer");

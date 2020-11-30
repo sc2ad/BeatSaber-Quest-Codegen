@@ -65,6 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static StandardLevelDetailViewController::$$c__DisplayClass44_0* New_ctor();
   }; // StandardLevelDetailViewController/<>c__DisplayClass44_0
+  check_size<sizeof(StandardLevelDetailViewController::$$c__DisplayClass44_0), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_StandardLevelDetailViewController_$$c__DisplayClass44_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass44_0*, "", "StandardLevelDetailViewController/<>c__DisplayClass44_0");

@@ -34,6 +34,7 @@ namespace Zenject {
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();
   }; // Zenject.AnimatorInstaller
+  check_size<sizeof(AnimatorInstaller), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Zenject_AnimatorInstallerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AnimatorInstaller*, "Zenject", "AnimatorInstaller");

@@ -96,6 +96,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static BroadcastServerRemoveRequest* New_ctor();
   }; // MasterServer.BroadcastServerRemoveRequest
+  check_size<sizeof(BroadcastServerRemoveRequest), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __MasterServer_BroadcastServerRemoveRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BroadcastServerRemoveRequest*, "MasterServer", "BroadcastServerRemoveRequest");

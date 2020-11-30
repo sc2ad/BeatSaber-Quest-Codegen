@@ -64,6 +64,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissedNoteEffectSpawner* New_ctor();
   }; // MissedNoteEffectSpawner
+  check_size<sizeof(MissedNoteEffectSpawner), 56 + sizeof(float) + 8 - (56 + sizeof(float)) % 8> __GlobalNamespace_MissedNoteEffectSpawnerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissedNoteEffectSpawner*, "", "MissedNoteEffectSpawner");

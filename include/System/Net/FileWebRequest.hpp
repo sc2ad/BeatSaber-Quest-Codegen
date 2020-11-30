@@ -270,6 +270,7 @@ namespace System::Net {
     // Base method: System.Void WebRequest::.cctor()
     static void _cctor();
   }; // System.Net.FileWebRequest
+  check_size<sizeof(FileWebRequest), 168 + sizeof(int) + 8 - (168 + sizeof(int)) % 8> __System_Net_FileWebRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FileWebRequest*, "System.Net", "FileWebRequest");

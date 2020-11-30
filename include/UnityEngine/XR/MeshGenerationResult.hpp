@@ -82,6 +82,7 @@ namespace UnityEngine::XR {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.XR.MeshGenerationResult
+  check_size<sizeof(MeshGenerationResult), 36 + sizeof(UnityEngine::XR::MeshVertexAttributes) + 8 - (36 + sizeof(UnityEngine::XR::MeshVertexAttributes)) % 8> __UnityEngine_XR_MeshGenerationResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshGenerationResult, "UnityEngine.XR", "MeshGenerationResult");

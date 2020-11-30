@@ -39,6 +39,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x11774D4
     ::Array<::Il2CppObject*>* GetInOutArgs(::Array<::Il2CppObject*>* args);
   }; // System.Runtime.Remoting.Messaging.ArgInfo
+  check_size<sizeof(ArgInfo), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Runtime_Remoting_Messaging_ArgInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ArgInfo*, "System.Runtime.Remoting.Messaging", "ArgInfo");

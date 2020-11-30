@@ -57,6 +57,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static TransientProvider::$$c__DisplayClass11_0* New_ctor();
   }; // Zenject.TransientProvider/<>c__DisplayClass11_0
+  check_size<sizeof(TransientProvider::$$c__DisplayClass11_0), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __Zenject_TransientProvider_$$c__DisplayClass11_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TransientProvider::$$c__DisplayClass11_0*, "Zenject", "TransientProvider/<>c__DisplayClass11_0");

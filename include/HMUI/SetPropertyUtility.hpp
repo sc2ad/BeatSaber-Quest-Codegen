@@ -33,13 +33,19 @@ namespace HMUI {
     template<class T>
     static bool SetStruct(T& currentValue, T newValue) {
       static_assert(is_value_type_v<T>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("HMUI", "SetPropertyUtility", "SetStruct", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, currentValue, newValue)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("SetPropertyUtility").WithContext("SetStruct");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HMUI", "SetPropertyUtility", il2cpp_utils::NoArgClass<bool>(), "SetStruct", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(currentValue, newValue))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, currentValue, newValue);
     }
     // static public System.Boolean SetClass(ref T currentValue, T newValue)
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool SetClass(T& currentValue, T newValue) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>("HMUI", "SetPropertyUtility", "SetClass", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, currentValue, newValue)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("HMUI").WithContext("SetPropertyUtility").WithContext("SetClass");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HMUI", "SetPropertyUtility", il2cpp_utils::NoArgClass<bool>(), "SetClass", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(currentValue, newValue))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, currentValue, newValue);
     }
   }; // HMUI.SetPropertyUtility
 }

@@ -89,6 +89,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ScaleAnimator* New_ctor();
   }; // ScaleAnimator
+  check_size<sizeof(ScaleAnimator), 64 + sizeof(bool) + 8 - (64 + sizeof(bool)) % 8> __GlobalNamespace_ScaleAnimatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScaleAnimator*, "", "ScaleAnimator");

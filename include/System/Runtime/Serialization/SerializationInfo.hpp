@@ -203,6 +203,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x1445C24
     ::Il2CppString* GetString(::Il2CppString* name);
   }; // System.Runtime.Serialization.SerializationInfo
+  check_size<sizeof(SerializationInfo), 90 + sizeof(bool) + 8 - (90 + sizeof(bool)) % 8> __System_Runtime_Serialization_SerializationInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationInfo*, "System.Runtime.Serialization", "SerializationInfo");

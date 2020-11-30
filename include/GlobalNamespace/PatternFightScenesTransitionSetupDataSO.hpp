@@ -60,6 +60,7 @@ namespace GlobalNamespace {
       // Set static field: static public PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType ReturnToMenu
       static void _set_ReturnToMenu(GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType value);
     }; // PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType
+    check_size<sizeof(PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_PatternFightScenesTransitionSetupDataSO_PatternFightEndStateTypeSizeCheck;
     // private EnvironmentInfoSO _environmentInfo
     // Offset: 0x28
     GlobalNamespace::EnvironmentInfoSO* environmentInfo;
@@ -94,6 +95,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PatternFightScenesTransitionSetupDataSO* New_ctor();
   }; // PatternFightScenesTransitionSetupDataSO
+  check_size<sizeof(PatternFightScenesTransitionSetupDataSO), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __GlobalNamespace_PatternFightScenesTransitionSetupDataSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, "", "PatternFightScenesTransitionSetupDataSO");

@@ -73,6 +73,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BaseMasterServerReliableRequest* New_ctor();
   }; // BaseMasterServerReliableRequest
+  check_size<sizeof(BaseMasterServerReliableRequest), 16 + sizeof(uint) + 8 - (16 + sizeof(uint)) % 8> __GlobalNamespace_BaseMasterServerReliableRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseMasterServerReliableRequest*, "", "BaseMasterServerReliableRequest");

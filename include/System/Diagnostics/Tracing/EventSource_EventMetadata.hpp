@@ -69,6 +69,7 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: EventMetadata
     constexpr EventMetadata(System::Diagnostics::Tracing::EventDescriptor Descriptor_ = {}, System::Diagnostics::Tracing::EventTags Tags_ = {}, bool EnabledForAnyListener_ = {}, bool EnabledForETW_ = {}, bool HasRelatedActivityID_ = {}, uint8_t TriggersActivityTracking_ = {}, ::Il2CppString* Name_ = {}, ::Il2CppString* Message_ = {}, ::Array<System::Reflection::ParameterInfo*>* Parameters_ = {}, System::Diagnostics::Tracing::TraceLoggingEventTypes* TraceLoggingEventTypes_ = {}, System::Diagnostics::Tracing::EventActivityOptions ActivityOptions_ = {}) noexcept : Descriptor{Descriptor_}, Tags{Tags_}, EnabledForAnyListener{EnabledForAnyListener_}, EnabledForETW{EnabledForETW_}, HasRelatedActivityID{HasRelatedActivityID_}, TriggersActivityTracking{TriggersActivityTracking_}, Name{Name_}, Message{Message_}, Parameters{Parameters_}, TraceLoggingEventTypes{TraceLoggingEventTypes_}, ActivityOptions{ActivityOptions_} {}
   }; // System.Diagnostics.Tracing.EventSource/EventMetadata
+  check_size<sizeof(EventSource::EventMetadata), 56 + sizeof(System::Diagnostics::Tracing::EventActivityOptions) + 8 - (56 + sizeof(System::Diagnostics::Tracing::EventActivityOptions)) % 8> __System_Diagnostics_Tracing_EventSource_EventMetadataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSource::EventMetadata, "System.Diagnostics.Tracing", "EventSource/EventMetadata");

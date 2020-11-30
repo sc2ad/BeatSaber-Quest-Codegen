@@ -59,28 +59,37 @@ namespace System::Runtime::CompilerServices {
       // public System.Boolean get_IsCompleted()
       // Offset: 0xFFFFFFFF
       bool get_IsCompleted() {
-        return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "get_IsCompleted"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("ConfiguredTaskAwaiter").WithContext("get_IsCompleted");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<bool>(), "get_IsCompleted", {}, ::il2cpp_utils::ExtractTypes()));
+        return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method);
       }
       // public TResult GetResult()
       // Offset: 0xFFFFFFFF
       TResult GetResult() {
-        return THROW_UNLESS(il2cpp_utils::RunMethod<TResult>(*this, "GetResult"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("ConfiguredTaskAwaiter").WithContext("GetResult");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<TResult>(), "GetResult", {}, ::il2cpp_utils::ExtractTypes()));
+        return ::il2cpp_utils::RunMethodThrow<TResult, false>(*this, ___internal__method);
       }
       // public System.Void OnCompleted(System.Action continuation)
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Runtime.CompilerServices.INotifyCompletion
       // Base method: System.Void INotifyCompletion::OnCompleted(System.Action continuation)
       void OnCompleted(System::Action* continuation) {
-        THROW_UNLESS(il2cpp_utils::RunMethod(*this, "OnCompleted", continuation));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("ConfiguredTaskAwaiter").WithContext("OnCompleted");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "OnCompleted", {}, ::il2cpp_utils::ExtractTypes(continuation)));
+        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, continuation);
       }
       // public System.Void UnsafeOnCompleted(System.Action continuation)
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Runtime.CompilerServices.ICriticalNotifyCompletion
       // Base method: System.Void ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action continuation)
       void UnsafeOnCompleted(System::Action* continuation) {
-        THROW_UNLESS(il2cpp_utils::RunMethod(*this, "UnsafeOnCompleted", continuation));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("ConfiguredTaskAwaiter").WithContext("UnsafeOnCompleted");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "UnsafeOnCompleted", {}, ::il2cpp_utils::ExtractTypes(continuation)));
+        ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, continuation);
       }
     }; // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter
+    // Could not write size check! Type: System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter is generic!
     // private readonly System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<TResult> m_configuredTaskAwaiter
     // Offset: 0x0
     typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter m_configuredTaskAwaiter;
@@ -93,14 +102,19 @@ namespace System::Runtime::CompilerServices {
     // System.Void .ctor(System.Threading.Tasks.Task`1<TResult> task, System.Boolean continueOnCapturedContext)
     // Offset: 0xFFFFFFFF
     ConfiguredTaskAwaitable_1(System::Threading::Tasks::Task_1<TResult>* task, bool continueOnCapturedContext) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", task, continueOnCapturedContext));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("ConfiguredTaskAwaitable_1").WithContext(".ctor");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<ConfiguredTaskAwaitable_1<TResult>>(), ".ctor", {}, ::il2cpp_utils::ExtractTypes(task, continueOnCapturedContext)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, task, continueOnCapturedContext);
     }
     // public System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<TResult> GetAwaiter()
     // Offset: 0xFFFFFFFF
     typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter GetAwaiter() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter>(*this, "GetAwaiter"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Runtime::CompilerServices").WithContext("ConfiguredTaskAwaitable_1").WithContext("GetAwaiter");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter>(), "GetAwaiter", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter, false>(*this, ___internal__method);
     }
   }; // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1
+  // Could not write size check! Type: System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1, "System.Runtime.CompilerServices", "ConfiguredTaskAwaitable`1");
 #pragma pack(pop)

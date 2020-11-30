@@ -46,6 +46,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::.ctor()
     static Matchmaking::CustomQuery* New_ctor();
   }; // Oculus.Platform.Matchmaking/CustomQuery
+  check_size<sizeof(Matchmaking::CustomQuery), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Oculus_Platform_Matchmaking_CustomQuerySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Matchmaking::CustomQuery*, "Oculus.Platform", "Matchmaking/CustomQuery");

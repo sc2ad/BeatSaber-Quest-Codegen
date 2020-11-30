@@ -44,6 +44,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BTSStarTextEventEffect::StarTextSprite* New_ctor();
   }; // BTSStarTextEventEffect/StarTextSprite
+  check_size<sizeof(BTSStarTextEventEffect::StarTextSprite), 32 + sizeof(float) + 8 - (32 + sizeof(float)) % 8> __GlobalNamespace_BTSStarTextEventEffect_StarTextSpriteSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*, "", "BTSStarTextEventEffect/StarTextSprite");

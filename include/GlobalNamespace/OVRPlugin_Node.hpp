@@ -103,6 +103,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/Node Count
     static void _set_Count(GlobalNamespace::OVRPlugin::Node value);
   }; // OVRPlugin/Node
+  check_size<sizeof(OVRPlugin::Node), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRPlugin_NodeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Node, "", "OVRPlugin/Node");

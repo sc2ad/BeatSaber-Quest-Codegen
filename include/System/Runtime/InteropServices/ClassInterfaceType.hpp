@@ -41,6 +41,7 @@ namespace System::Runtime::InteropServices {
     // Set static field: static public System.Runtime.InteropServices.ClassInterfaceType AutoDual
     static void _set_AutoDual(System::Runtime::InteropServices::ClassInterfaceType value);
   }; // System.Runtime.InteropServices.ClassInterfaceType
+  check_size<sizeof(ClassInterfaceType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Runtime_InteropServices_ClassInterfaceTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ClassInterfaceType, "System.Runtime.InteropServices", "ClassInterfaceType");

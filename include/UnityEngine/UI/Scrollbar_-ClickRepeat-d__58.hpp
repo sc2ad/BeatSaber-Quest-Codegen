@@ -75,6 +75,7 @@ namespace UnityEngine::UI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // UnityEngine.UI.Scrollbar/<ClickRepeat>d__58
+  check_size<sizeof(Scrollbar::$ClickRepeat$d__58), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __UnityEngine_UI_Scrollbar_$ClickRepeat$d__58SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Scrollbar::$ClickRepeat$d__58*, "UnityEngine.UI", "Scrollbar/<ClickRepeat>d__58");

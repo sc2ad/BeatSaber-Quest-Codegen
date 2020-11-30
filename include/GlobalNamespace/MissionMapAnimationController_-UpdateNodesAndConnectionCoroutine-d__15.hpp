@@ -76,6 +76,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MissionMapAnimationController/<UpdateNodesAndConnectionCoroutine>d__15
+  check_size<sizeof(MissionMapAnimationController::$UpdateNodesAndConnectionCoroutine$d__15), 56 + sizeof(int) + 8 - (56 + sizeof(int)) % 8> __GlobalNamespace_MissionMapAnimationController_$UpdateNodesAndConnectionCoroutine$d__15SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionMapAnimationController::$UpdateNodesAndConnectionCoroutine$d__15*, "", "MissionMapAnimationController/<UpdateNodesAndConnectionCoroutine>d__15");

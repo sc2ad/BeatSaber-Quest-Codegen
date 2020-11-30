@@ -253,6 +253,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MainSettingsModelSO* New_ctor();
   }; // MainSettingsModelSO
+  check_size<sizeof(MainSettingsModelSO), 331 + sizeof(bool) + 8 - (331 + sizeof(bool)) % 8> __GlobalNamespace_MainSettingsModelSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsModelSO*, "", "MainSettingsModelSO");

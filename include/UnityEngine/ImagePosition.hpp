@@ -47,6 +47,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.ImagePosition TextOnly
     static void _set_TextOnly(UnityEngine::ImagePosition value);
   }; // UnityEngine.ImagePosition
+  check_size<sizeof(ImagePosition), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_ImagePositionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ImagePosition, "UnityEngine", "ImagePosition");

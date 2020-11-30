@@ -54,6 +54,7 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     // Offset: 0xC94F5C
     void Read(System::IntPtr ptr);
   }; // System.Net.NetworkInformation.MacOsStructs.sockaddr_dl
+  check_size<sizeof(sockaddr_dl), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __System_Net_NetworkInformation_MacOsStructs_sockaddr_dlSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, "System.Net.NetworkInformation.MacOsStructs", "sockaddr_dl");

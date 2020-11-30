@@ -38,14 +38,17 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.IProvider provider, Zenject.InjectContext injectContext)
     // Offset: 0xFFFFFFFF
     static FactoryProviderWrapper_1<TContract>* New_ctor(Zenject::IProvider* provider, Zenject::InjectContext* injectContext) {
-      return THROW_UNLESS(il2cpp_utils::New<FactoryProviderWrapper_1<TContract>*>(provider, injectContext));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("FactoryProviderWrapper_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<FactoryProviderWrapper_1<TContract>*>(provider, injectContext));
     }
     // public TContract Create()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IFactory`1
     // Base method: TValue IFactory_1::Create()
     TContract Create() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<TContract>(this, "Create"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("FactoryProviderWrapper_1").WithContext("Create");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<TContract>(), "Create", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<TContract, false>(this, ___internal__method);
     }
     // Creating proxy method: Zenject_IFactory_1_Create
     // Maps to method: Create
@@ -53,6 +56,7 @@ namespace Zenject {
       return Create();
     }
   }; // Zenject.FactoryProviderWrapper`1
+  // Could not write size check! Type: Zenject.FactoryProviderWrapper`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::FactoryProviderWrapper_1, "Zenject", "FactoryProviderWrapper`1");
 #pragma pack(pop)

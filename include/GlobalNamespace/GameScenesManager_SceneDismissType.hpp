@@ -37,6 +37,7 @@ namespace GlobalNamespace {
     // Set static field: static public GameScenesManager/SceneDismissType Deactivate
     static void _set_Deactivate(GlobalNamespace::GameScenesManager::SceneDismissType value);
   }; // GameScenesManager/SceneDismissType
+  check_size<sizeof(GameScenesManager::SceneDismissType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_GameScenesManager_SceneDismissTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager::SceneDismissType, "", "GameScenesManager/SceneDismissType");

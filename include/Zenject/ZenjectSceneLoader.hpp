@@ -113,6 +113,7 @@ namespace Zenject {
     // Offset: 0x19D37B8
     UnityEngine::AsyncOperation* LoadSceneAsync(int sceneIndex, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings, Zenject::LoadSceneRelationship containerMode, System::Action_1<Zenject::DiContainer*>* extraBindingsLate);
   }; // Zenject.ZenjectSceneLoader
+  check_size<sizeof(ZenjectSceneLoader), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Zenject_ZenjectSceneLoaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectSceneLoader*, "Zenject", "ZenjectSceneLoader");

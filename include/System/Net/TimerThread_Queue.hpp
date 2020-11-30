@@ -24,6 +24,7 @@ namespace System::Net {
     // Offset: 0x1216A20
     static TimerThread::Queue* New_ctor(int durationMilliseconds);
   }; // System.Net.TimerThread/Queue
+  check_size<sizeof(TimerThread::Queue), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __System_Net_TimerThread_QueueSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::Queue*, "System.Net", "TimerThread/Queue");

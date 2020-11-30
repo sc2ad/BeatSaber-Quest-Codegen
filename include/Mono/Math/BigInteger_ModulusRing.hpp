@@ -38,6 +38,7 @@ namespace Mono::Math {
     // Offset: 0x17ADEA4
     Mono::Math::BigInteger* Pow(uint b, Mono::Math::BigInteger* exp);
   }; // Mono.Math.BigInteger/ModulusRing
+  check_size<sizeof(BigInteger::ModulusRing), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Mono_Math_BigInteger_ModulusRingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger::ModulusRing*, "Mono.Math", "BigInteger/ModulusRing");

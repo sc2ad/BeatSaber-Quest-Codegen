@@ -32,19 +32,26 @@ namespace GlobalNamespace {
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader, System.Int32 length, TData data)
     // Offset: 0xFFFFFFFF
     void GlobalNamespace_INetworkPacketSubSerializer_1_Deserialize(LiteNetLib::Utils::NetDataReader* reader, int length, TData data) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Deserialize", reader, length, data));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("INetworkPacketSubSerializer_1").WithContext("Deserialize");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Deserialize", {}, ::il2cpp_utils::ExtractTypes(reader, length, data)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, reader, length, data);
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.Utils.INetSerializable packet)
     // Offset: 0xFFFFFFFF
     void GlobalNamespace_INetworkPacketSubSerializer_1_Serialize(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::Utils::INetSerializable* packet) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Serialize", writer, packet));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("INetworkPacketSubSerializer_1").WithContext("Serialize");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Serialize", {}, ::il2cpp_utils::ExtractTypes(writer, packet)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, writer, packet);
     }
     // public System.Boolean HandlesType(System.Type type)
     // Offset: 0xFFFFFFFF
     bool HandlesType(System::Type* type) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "HandlesType", type));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("INetworkPacketSubSerializer_1").WithContext("HandlesType");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "HandlesType", {}, ::il2cpp_utils::ExtractTypes(type)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, type);
     }
   }; // INetworkPacketSubSerializer`1
+  // Could not write size check! Type: INetworkPacketSubSerializer`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::INetworkPacketSubSerializer_1, "", "INetworkPacketSubSerializer`1");
 #pragma pack(pop)

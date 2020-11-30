@@ -92,6 +92,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     static BaseRaycaster* New_ctor();
   }; // UnityEngine.EventSystems.BaseRaycaster
+  check_size<sizeof(BaseRaycaster), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_EventSystems_BaseRaycasterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseRaycaster*, "UnityEngine.EventSystems", "BaseRaycaster");

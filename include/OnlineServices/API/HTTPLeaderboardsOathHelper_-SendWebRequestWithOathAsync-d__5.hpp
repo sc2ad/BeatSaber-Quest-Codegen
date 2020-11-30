@@ -75,6 +75,7 @@ namespace OnlineServices::API {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.HTTPLeaderboardsOathHelper/<SendWebRequestWithOathAsync>d__5
+  check_size<sizeof(HTTPLeaderboardsOathHelper::$SendWebRequestWithOathAsync$d__5), 96 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>) + 8 - (96 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>)) % 8> __OnlineServices_API_HTTPLeaderboardsOathHelper_$SendWebRequestWithOathAsync$d__5SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper::$SendWebRequestWithOathAsync$d__5, "OnlineServices.API", "HTTPLeaderboardsOathHelper/<SendWebRequestWithOathAsync>d__5");

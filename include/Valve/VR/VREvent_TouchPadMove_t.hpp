@@ -33,6 +33,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: VREvent_TouchPadMove_t
     constexpr VREvent_TouchPadMove_t(bool bFingerDown_ = {}, float flSecondsFingerDown_ = {}, float fValueXFirst_ = {}, float fValueYFirst_ = {}, float fValueXRaw_ = {}, float fValueYRaw_ = {}) noexcept : bFingerDown{bFingerDown_}, flSecondsFingerDown{flSecondsFingerDown_}, fValueXFirst{fValueXFirst_}, fValueYFirst{fValueYFirst_}, fValueXRaw{fValueXRaw_}, fValueYRaw{fValueYRaw_} {}
   }; // Valve.VR.VREvent_TouchPadMove_t
+  check_size<sizeof(VREvent_TouchPadMove_t), 20 + sizeof(float) + 8 - (20 + sizeof(float)) % 8> __Valve_VR_VREvent_TouchPadMove_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_TouchPadMove_t, "Valve.VR", "VREvent_TouchPadMove_t");

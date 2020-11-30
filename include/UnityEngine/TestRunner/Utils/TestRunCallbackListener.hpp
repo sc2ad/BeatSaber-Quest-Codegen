@@ -77,6 +77,7 @@ namespace UnityEngine::TestRunner::Utils {
     // Base method: System.Void Object::.ctor()
     static TestRunCallbackListener* New_ctor();
   }; // UnityEngine.TestRunner.Utils.TestRunCallbackListener
+  check_size<sizeof(TestRunCallbackListener), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_TestRunner_Utils_TestRunCallbackListenerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::Utils::TestRunCallbackListener*, "UnityEngine.TestRunner.Utils", "TestRunCallbackListener");

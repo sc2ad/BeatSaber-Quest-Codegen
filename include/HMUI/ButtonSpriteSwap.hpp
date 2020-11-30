@@ -75,6 +75,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static ButtonSpriteSwap* New_ctor();
   }; // HMUI.ButtonSpriteSwap
+  check_size<sizeof(ButtonSpriteSwap), 72 + sizeof(bool) + 8 - (72 + sizeof(bool)) % 8> __HMUI_ButtonSpriteSwapSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonSpriteSwap*, "HMUI", "ButtonSpriteSwap");

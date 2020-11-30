@@ -40,6 +40,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x15EECB4
     void SetTo(UnityEngine::Transform* t);
   }; // RootMotion.FinalIK.VRIKCalibrator/CalibrationData/Target
+  check_size<sizeof(VRIKCalibrator::CalibrationData::Target), 32 + sizeof(UnityEngine::Quaternion) + 8 - (32 + sizeof(UnityEngine::Quaternion)) % 8> __RootMotion_FinalIK_VRIKCalibrator_CalibrationData_TargetSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*, "RootMotion.FinalIK", "VRIKCalibrator/CalibrationData/Target");

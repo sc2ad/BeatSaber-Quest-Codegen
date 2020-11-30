@@ -117,6 +117,7 @@ namespace System {
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.TimeZoneInfo/AdjustmentRule
+  check_size<sizeof(TimeZoneInfo::AdjustmentRule), 88 + sizeof(System::TimeSpan) + 8 - (88 + sizeof(System::TimeSpan)) % 8> __System_TimeZoneInfo_AdjustmentRuleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::AdjustmentRule*, "System", "TimeZoneInfo/AdjustmentRule");

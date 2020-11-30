@@ -38,16 +38,20 @@ namespace MasterServer {
     // System.Void <CustomResponseHandler>b__0(T packet, MasterServer.MessageHandler/MessageOrigin origin)
     // Offset: 0xFFFFFFFF
     void $CustomResponseHandler$b__0(T packet, MasterServer::MessageHandler::MessageOrigin origin) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "<CustomResponseHandler>b__0", packet, origin));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("$$c__DisplayClass74_0_1").WithContext("<CustomResponseHandler>b__0");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "<CustomResponseHandler>b__0", {}, ::il2cpp_utils::ExtractTypes(packet, origin))));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, packet, origin);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static MessageHandler::$$c__DisplayClass74_0_1<T>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<MessageHandler::$$c__DisplayClass74_0_1<T>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("MasterServer").WithContext("$$c__DisplayClass74_0_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<MessageHandler::$$c__DisplayClass74_0_1<T>*>());
     }
   }; // MasterServer.MessageHandler/<>c__DisplayClass74_0`1
+  // Could not write size check! Type: MasterServer.MessageHandler/<>c__DisplayClass74_0`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(MasterServer::MessageHandler::$$c__DisplayClass74_0_1, "MasterServer", "MessageHandler/<>c__DisplayClass74_0`1");
 #pragma pack(pop)

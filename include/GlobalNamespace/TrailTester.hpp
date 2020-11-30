@@ -115,6 +115,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static TrailTester* New_ctor();
   }; // TrailTester
+  check_size<sizeof(TrailTester), 164 + sizeof(GlobalNamespace::BladeMovementDataElement) + 8 - (164 + sizeof(GlobalNamespace::BladeMovementDataElement)) % 8> __GlobalNamespace_TrailTesterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrailTester*, "", "TrailTester");

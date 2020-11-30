@@ -174,6 +174,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.String X509Certificate::ToString(System.Boolean verbose)
     ::Il2CppString* ToString(bool verbose);
   }; // System.Security.Cryptography.X509Certificates.X509Certificate2
+  check_size<sizeof(X509Certificate2), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __System_Security_Cryptography_X509Certificates_X509Certificate2SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Certificate2*, "System.Security.Cryptography.X509Certificates", "X509Certificate2");

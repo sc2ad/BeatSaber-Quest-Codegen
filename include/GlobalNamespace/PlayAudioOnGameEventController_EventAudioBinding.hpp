@@ -60,6 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PlayAudioOnGameEventController::EventAudioBinding* New_ctor();
   }; // PlayAudioOnGameEventController/EventAudioBinding
+  check_size<sizeof(PlayAudioOnGameEventController::EventAudioBinding), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_PlayAudioOnGameEventController_EventAudioBindingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*, "", "PlayAudioOnGameEventController/EventAudioBinding");

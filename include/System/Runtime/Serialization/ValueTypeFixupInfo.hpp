@@ -40,6 +40,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x14467EC
     ::Array<int>* get_ParentIndex();
   }; // System.Runtime.Serialization.ValueTypeFixupInfo
+  check_size<sizeof(ValueTypeFixupInfo), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Runtime_Serialization_ValueTypeFixupInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ValueTypeFixupInfo*, "System.Runtime.Serialization", "ValueTypeFixupInfo");

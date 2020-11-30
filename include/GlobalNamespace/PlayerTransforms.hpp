@@ -83,6 +83,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PlayerTransforms* New_ctor();
   }; // PlayerTransforms
+  check_size<sizeof(PlayerTransforms), 88 + sizeof(UnityEngine::Quaternion) + 8 - (88 + sizeof(UnityEngine::Quaternion)) % 8> __GlobalNamespace_PlayerTransformsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerTransforms*, "", "PlayerTransforms");

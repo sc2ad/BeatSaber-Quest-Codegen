@@ -67,6 +67,7 @@ namespace System::Runtime::CompilerServices {
       // Base method: System.Void ICriticalNotifyCompletion::UnsafeOnCompleted(System.Action continuation)
       void UnsafeOnCompleted(System::Action* continuation);
     }; // System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter
+    check_size<sizeof(ConfiguredTaskAwaitable::ConfiguredTaskAwaiter), 8 + sizeof(bool) + 8 - (8 + sizeof(bool)) % 8> __System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiterSizeCheck;
     // private readonly System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter m_configuredTaskAwaiter
     // Offset: 0x0
     System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter m_configuredTaskAwaiter;
@@ -83,6 +84,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0xC94538
     System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter GetAwaiter();
   }; // System.Runtime.CompilerServices.ConfiguredTaskAwaitable
+  check_size<sizeof(ConfiguredTaskAwaitable), 0 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter) + 8 - (0 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter)) % 8> __System_Runtime_CompilerServices_ConfiguredTaskAwaitableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::ConfiguredTaskAwaitable, "System.Runtime.CompilerServices", "ConfiguredTaskAwaitable");

@@ -23,6 +23,7 @@ namespace GlobalNamespace {
     // Offset: 0xFA9478
     static MultiplayerConnectedPlayerBeatmapObjectManager::InitData* New_ctor(bool disappearingArrows, bool ghostNotes);
   }; // MultiplayerConnectedPlayerBeatmapObjectManager/InitData
+  check_size<sizeof(MultiplayerConnectedPlayerBeatmapObjectManager::InitData), 17 + sizeof(bool) + 8 - (17 + sizeof(bool)) % 8> __GlobalNamespace_MultiplayerConnectedPlayerBeatmapObjectManager_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData*, "", "MultiplayerConnectedPlayerBeatmapObjectManager/InitData");

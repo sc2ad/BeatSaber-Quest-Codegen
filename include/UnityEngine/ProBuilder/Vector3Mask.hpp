@@ -112,6 +112,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.ProBuilder.Vector3Mask
+  check_size<sizeof(Vector3Mask), 0 + sizeof(uint8_t) + 8 - (0 + sizeof(uint8_t)) % 8> __UnityEngine_ProBuilder_Vector3MaskSizeCheck;
   // static public UnityEngine.ProBuilder.Vector3Mask op_BitwiseOr(UnityEngine.ProBuilder.Vector3Mask left, UnityEngine.ProBuilder.Vector3Mask right)
   // Offset: 0x19509E4
   UnityEngine::ProBuilder::Vector3Mask operator|(const UnityEngine::ProBuilder::Vector3Mask& left, const UnityEngine::ProBuilder::Vector3Mask& right);

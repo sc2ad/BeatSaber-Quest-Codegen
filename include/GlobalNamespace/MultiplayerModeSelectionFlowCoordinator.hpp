@@ -255,6 +255,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerModeSelectionFlowCoordinator* New_ctor();
   }; // MultiplayerModeSelectionFlowCoordinator
+  check_size<sizeof(MultiplayerModeSelectionFlowCoordinator), 328 + sizeof(void*) + 8 - (328 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerModeSelectionFlowCoordinatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*, "", "MultiplayerModeSelectionFlowCoordinator");

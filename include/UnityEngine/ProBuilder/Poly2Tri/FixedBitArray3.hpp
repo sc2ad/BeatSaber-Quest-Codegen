@@ -68,6 +68,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.ProBuilder.Poly2Tri.FixedBitArray3
+  check_size<sizeof(FixedBitArray3), 2 + sizeof(bool) + 8 - (2 + sizeof(bool)) % 8> __UnityEngine_ProBuilder_Poly2Tri_FixedBitArray3SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3, "UnityEngine.ProBuilder.Poly2Tri", "FixedBitArray3");

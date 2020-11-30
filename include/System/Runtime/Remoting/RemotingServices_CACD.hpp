@@ -25,6 +25,7 @@ namespace System::Runtime::Remoting {
     // Base method: System.Void Object::.ctor()
     static RemotingServices::CACD* New_ctor();
   }; // System.Runtime.Remoting.RemotingServices/CACD
+  check_size<sizeof(RemotingServices::CACD), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Runtime_Remoting_RemotingServices_CACDSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::RemotingServices::CACD*, "System.Runtime.Remoting", "RemotingServices/CACD");

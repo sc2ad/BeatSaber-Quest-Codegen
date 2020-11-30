@@ -27,6 +27,7 @@ namespace Il2CppDummyDll {
     // Base method: System.Void Object::.ctor()
     static TokenAttribute* New_ctor();
   }; // Il2CppDummyDll.TokenAttribute
+  // Could not write size check! Last field: Token Offset: -1 is of type: System.String
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Il2CppDummyDll::TokenAttribute*, "Il2CppDummyDll", "TokenAttribute");

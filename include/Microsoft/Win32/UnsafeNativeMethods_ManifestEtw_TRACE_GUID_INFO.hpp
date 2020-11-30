@@ -24,6 +24,7 @@ namespace Microsoft::Win32 {
     // Creating value type constructor for type: TRACE_GUID_INFO
     constexpr TRACE_GUID_INFO(int InstanceCount_ = {}, int Reserved_ = {}) noexcept : InstanceCount{InstanceCount_}, Reserved{Reserved_} {}
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/TRACE_GUID_INFO
+  check_size<sizeof(UnsafeNativeMethods::ManifestEtw::TRACE_GUID_INFO), 4 + sizeof(int) + 8 - (4 + sizeof(int)) % 8> __Microsoft_Win32_UnsafeNativeMethods_ManifestEtw_TRACE_GUID_INFOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::TRACE_GUID_INFO, "Microsoft.Win32", "UnsafeNativeMethods/ManifestEtw/TRACE_GUID_INFO");

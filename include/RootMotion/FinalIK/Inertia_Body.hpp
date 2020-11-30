@@ -74,6 +74,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static Inertia::Body* New_ctor();
   }; // RootMotion.FinalIK.Inertia/Body
+  check_size<sizeof(Inertia::Body), 96 + sizeof(bool) + 8 - (96 + sizeof(bool)) % 8> __RootMotion_FinalIK_Inertia_BodySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Inertia::Body*, "RootMotion.FinalIK", "Inertia/Body");

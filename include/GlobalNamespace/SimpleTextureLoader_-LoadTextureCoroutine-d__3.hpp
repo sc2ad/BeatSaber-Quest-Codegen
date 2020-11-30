@@ -90,6 +90,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // SimpleTextureLoader/<LoadTextureCoroutine>d__3
+  check_size<sizeof(SimpleTextureLoader::$LoadTextureCoroutine$d__3), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_SimpleTextureLoader_$LoadTextureCoroutine$d__3SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTextureLoader::$LoadTextureCoroutine$d__3*, "", "SimpleTextureLoader/<LoadTextureCoroutine>d__3");

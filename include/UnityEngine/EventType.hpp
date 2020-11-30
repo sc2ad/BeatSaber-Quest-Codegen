@@ -215,6 +215,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.EventType used
     static void _set_used(UnityEngine::EventType value);
   }; // UnityEngine.EventType
+  check_size<sizeof(EventType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_EventTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventType, "UnityEngine", "EventType");

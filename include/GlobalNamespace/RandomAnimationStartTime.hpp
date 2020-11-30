@@ -41,6 +41,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static RandomAnimationStartTime* New_ctor();
   }; // RandomAnimationStartTime
+  check_size<sizeof(RandomAnimationStartTime), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_RandomAnimationStartTimeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RandomAnimationStartTime*, "", "RandomAnimationStartTime");

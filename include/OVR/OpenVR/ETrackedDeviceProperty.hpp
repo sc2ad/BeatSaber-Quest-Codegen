@@ -971,6 +971,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.ETrackedDeviceProperty Prop_TrackedDeviceProperty_Max
     static void _set_Prop_TrackedDeviceProperty_Max(OVR::OpenVR::ETrackedDeviceProperty value);
   }; // OVR.OpenVR.ETrackedDeviceProperty
+  check_size<sizeof(ETrackedDeviceProperty), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_ETrackedDevicePropertySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::ETrackedDeviceProperty, "OVR.OpenVR", "ETrackedDeviceProperty");

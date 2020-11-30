@@ -27,6 +27,7 @@ namespace Mono::Unity {
     // Creating value type constructor for type: unitytls_tlsctx_callbacks
     constexpr unitytls_tlsctx_callbacks(Mono::Unity::UnityTls::unitytls_tlsctx_read_callback* read_ = {}, Mono::Unity::UnityTls::unitytls_tlsctx_write_callback* write_ = {}, void* data_ = {}) noexcept : read{read_}, write{write_}, data{data_} {}
   }; // Mono.Unity.UnityTls/unitytls_tlsctx_callbacks
+  check_size<sizeof(UnityTls::unitytls_tlsctx_callbacks), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Mono_Unity_UnityTls_unitytls_tlsctx_callbacksSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_tlsctx_callbacks, "Mono.Unity", "UnityTls/unitytls_tlsctx_callbacks");

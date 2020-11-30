@@ -47,6 +47,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.TextureWrapMode MirrorOnce
     static void _set_MirrorOnce(UnityEngine::TextureWrapMode value);
   }; // UnityEngine.TextureWrapMode
+  check_size<sizeof(TextureWrapMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_TextureWrapModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextureWrapMode, "UnityEngine", "TextureWrapMode");

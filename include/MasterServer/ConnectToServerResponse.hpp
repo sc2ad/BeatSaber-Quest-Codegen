@@ -116,6 +116,7 @@ namespace MasterServer {
       // Set static field: static public MasterServer.ConnectToServerResponse/Result UnknownError
       static void _set_UnknownError(MasterServer::ConnectToServerResponse::Result value);
     }; // MasterServer.ConnectToServerResponse/Result
+    check_size<sizeof(ConnectToServerResponse::Result), 0 + sizeof(uint8_t) + 8 - (0 + sizeof(uint8_t)) % 8> __MasterServer_ConnectToServerResponse_ResultSizeCheck;
     // public MasterServer.ConnectToServerResponse/Result result
     // Offset: 0x18
     MasterServer::ConnectToServerResponse::Result result;
@@ -206,6 +207,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static ConnectToServerResponse* New_ctor();
   }; // MasterServer.ConnectToServerResponse
+  check_size<sizeof(ConnectToServerResponse), 120 + sizeof(void*) + 8 - (120 + sizeof(void*)) % 8> __MasterServer_ConnectToServerResponseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ConnectToServerResponse*, "MasterServer", "ConnectToServerResponse");

@@ -51,6 +51,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     static MeansImplicitUseAttribute* New_ctor();
   }; // JetBrains.Annotations.MeansImplicitUseAttribute
+  check_size<sizeof(MeansImplicitUseAttribute), 20 + sizeof(JetBrains::Annotations::ImplicitUseTargetFlags) + 8 - (20 + sizeof(JetBrains::Annotations::ImplicitUseTargetFlags)) % 8> __JetBrains_Annotations_MeansImplicitUseAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::MeansImplicitUseAttribute*, "JetBrains.Annotations", "MeansImplicitUseAttribute");

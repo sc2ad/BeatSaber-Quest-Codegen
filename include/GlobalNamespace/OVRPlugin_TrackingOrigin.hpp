@@ -49,6 +49,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/TrackingOrigin Count
     static void _set_Count(GlobalNamespace::OVRPlugin::TrackingOrigin value);
   }; // OVRPlugin/TrackingOrigin
+  check_size<sizeof(OVRPlugin::TrackingOrigin), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRPlugin_TrackingOriginSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::TrackingOrigin, "", "OVRPlugin/TrackingOrigin");

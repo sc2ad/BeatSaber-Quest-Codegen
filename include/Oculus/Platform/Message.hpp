@@ -1018,6 +1018,7 @@ namespace Oculus::Platform {
       // Set static field: static public Oculus.Platform.Message/MessageType Platform_InitializeWindowsAsynchronous
       static void _set_Platform_InitializeWindowsAsynchronous(Oculus::Platform::Message::MessageType value);
     }; // Oculus.Platform.Message/MessageType
+    check_size<sizeof(Message::MessageType), 0 + sizeof(uint) + 8 - (0 + sizeof(uint)) % 8> __Oculus_Platform_Message_MessageTypeSizeCheck;
     // private Oculus.Platform.Message/MessageType type
     // Offset: 0x10
     Oculus::Platform::Message::MessageType type;
@@ -1265,6 +1266,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // Oculus.Platform.Message
+  check_size<sizeof(Message), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Oculus_Platform_MessageSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Message*, "Oculus.Platform", "Message");

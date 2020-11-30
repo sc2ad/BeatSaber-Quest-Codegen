@@ -42,6 +42,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SyncTimeProvider* New_ctor();
   }; // SyncTimeProvider
+  check_size<sizeof(SyncTimeProvider), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_SyncTimeProviderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SyncTimeProvider*, "", "SyncTimeProvider");

@@ -56,6 +56,7 @@ namespace System::Runtime::Remoting::Contexts {
     // Base method: System.Runtime.Remoting.Messaging.IMessageCtrl IMessageSink::AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);
   }; // System.Runtime.Remoting.Contexts.CrossContextChannel/ContextRestoreSink
+  check_size<sizeof(CrossContextChannel::ContextRestoreSink), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Runtime_Remoting_Contexts_CrossContextChannel_ContextRestoreSinkSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::CrossContextChannel::ContextRestoreSink*, "System.Runtime.Remoting.Contexts", "CrossContextChannel/ContextRestoreSink");

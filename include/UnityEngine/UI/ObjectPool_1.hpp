@@ -43,39 +43,53 @@ namespace UnityEngine::UI {
     // public System.Int32 get_countAll()
     // Offset: 0xFFFFFFFF
     int get_countAll() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "get_countAll"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("ObjectPool_1").WithContext("get_countAll");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "get_countAll", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // private System.Void set_countAll(System.Int32 value)
     // Offset: 0xFFFFFFFF
     void set_countAll(int value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_countAll", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("ObjectPool_1").WithContext("set_countAll");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "set_countAll", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // public System.Int32 get_countActive()
     // Offset: 0xFFFFFFFF
     int get_countActive() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "get_countActive"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("ObjectPool_1").WithContext("get_countActive");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "get_countActive", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // public System.Int32 get_countInactive()
     // Offset: 0xFFFFFFFF
     int get_countInactive() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "get_countInactive"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("ObjectPool_1").WithContext("get_countInactive");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "get_countInactive", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // public System.Void .ctor(UnityEngine.Events.UnityAction`1<T> actionOnGet, UnityEngine.Events.UnityAction`1<T> actionOnRelease)
     // Offset: 0xFFFFFFFF
     static ObjectPool_1<T>* New_ctor(UnityEngine::Events::UnityAction_1<T>* actionOnGet, UnityEngine::Events::UnityAction_1<T>* actionOnRelease) {
-      return THROW_UNLESS(il2cpp_utils::New<ObjectPool_1<T>*>(actionOnGet, actionOnRelease));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("ObjectPool_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<ObjectPool_1<T>*>(actionOnGet, actionOnRelease));
     }
     // public T Get()
     // Offset: 0xFFFFFFFF
     T Get() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "Get"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("ObjectPool_1").WithContext("Get");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "Get", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public System.Void Release(T element)
     // Offset: 0xFFFFFFFF
     void Release(T element) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Release", element));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("ObjectPool_1").WithContext("Release");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Release", {}, ::il2cpp_utils::ExtractTypes(element)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, element);
     }
   }; // UnityEngine.UI.ObjectPool`1
+  // Could not write size check! Type: UnityEngine.UI.ObjectPool`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::UI::ObjectPool_1, "UnityEngine.UI", "ObjectPool`1");
 #pragma pack(pop)

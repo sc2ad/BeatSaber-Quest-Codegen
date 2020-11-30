@@ -22,6 +22,7 @@ namespace OVR::OpenVR {
       return m_nFidelityLevel;
     }
   }; // OVR.OpenVR.VREvent_PerformanceTest_t
+  check_size<sizeof(VREvent_PerformanceTest_t), 0 + sizeof(uint) + 8 - (0 + sizeof(uint)) % 8> __OVR_OpenVR_VREvent_PerformanceTest_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_PerformanceTest_t, "OVR.OpenVR", "VREvent_PerformanceTest_t");

@@ -24,6 +24,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1048D10
     int get_CipherKeySize();
   }; // Org.BouncyCastle.Crypto.Parameters.IesWithCipherParameters
+  check_size<sizeof(IesWithCipherParameters), 36 + sizeof(int) + 8 - (36 + sizeof(int)) % 8> __Org_BouncyCastle_Crypto_Parameters_IesWithCipherParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters*, "Org.BouncyCastle.Crypto.Parameters", "IesWithCipherParameters");

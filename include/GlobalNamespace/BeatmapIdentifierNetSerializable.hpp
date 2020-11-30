@@ -100,6 +100,7 @@ namespace GlobalNamespace {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // BeatmapIdentifierNetSerializable
+  check_size<sizeof(BeatmapIdentifierNetSerializable), 32 + sizeof(GlobalNamespace::BeatmapDifficulty) + 8 - (32 + sizeof(GlobalNamespace::BeatmapDifficulty)) % 8> __GlobalNamespace_BeatmapIdentifierNetSerializableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapIdentifierNetSerializable*, "", "BeatmapIdentifierNetSerializable");

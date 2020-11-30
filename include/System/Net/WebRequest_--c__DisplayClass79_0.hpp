@@ -46,6 +46,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     static WebRequest::$$c__DisplayClass79_0* New_ctor();
   }; // System.Net.WebRequest/<>c__DisplayClass79_0
+  check_size<sizeof(WebRequest::$$c__DisplayClass79_0), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Net_WebRequest_$$c__DisplayClass79_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest::$$c__DisplayClass79_0*, "System.Net", "WebRequest/<>c__DisplayClass79_0");

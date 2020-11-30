@@ -53,6 +53,7 @@ namespace UnityEngine::TextCore::LowLevel {
     // Set static field: static public UnityEngine.TextCore.LowLevel.GlyphPackingMode ContactPointRule
     static void _set_ContactPointRule(UnityEngine::TextCore::LowLevel::GlyphPackingMode value);
   }; // UnityEngine.TextCore.LowLevel.GlyphPackingMode
+  check_size<sizeof(GlyphPackingMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_TextCore_LowLevel_GlyphPackingModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphPackingMode, "UnityEngine.TextCore.LowLevel", "GlyphPackingMode");

@@ -232,6 +232,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11F90D0
     void AcknowledgeQuit_UserPrompt();
   }; // OVR.OpenVR.CVRSystem
+  check_size<sizeof(CVRSystem), 16 + sizeof(OVR::OpenVR::IVRSystem) + 8 - (16 + sizeof(OVR::OpenVR::IVRSystem)) % 8> __OVR_OpenVR_CVRSystemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSystem*, "OVR.OpenVR", "CVRSystem");

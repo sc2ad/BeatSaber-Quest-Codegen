@@ -51,6 +51,7 @@ namespace Zenject {
     // Offset: 0x10F30CC
     Zenject::ConventionFilterTypesBinder* AllInterfaces();
   }; // Zenject.ConventionSelectTypesBinder
+  check_size<sizeof(ConventionSelectTypesBinder), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Zenject_ConventionSelectTypesBinderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionSelectTypesBinder*, "Zenject", "ConventionSelectTypesBinder");

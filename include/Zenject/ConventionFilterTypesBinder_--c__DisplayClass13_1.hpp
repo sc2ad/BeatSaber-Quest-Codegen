@@ -36,6 +36,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static ConventionFilterTypesBinder::$$c__DisplayClass13_1* New_ctor();
   }; // Zenject.ConventionFilterTypesBinder/<>c__DisplayClass13_1
+  check_size<sizeof(ConventionFilterTypesBinder::$$c__DisplayClass13_1), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Zenject_ConventionFilterTypesBinder_$$c__DisplayClass13_1SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_1*, "Zenject", "ConventionFilterTypesBinder/<>c__DisplayClass13_1");

@@ -87,6 +87,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.Timeline.TrackAsset/<get_outputs>d__65
+  check_size<sizeof(TrackAsset::$get_outputs$d__65), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __UnityEngine_Timeline_TrackAsset_$get_outputs$d__65SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAsset::$get_outputs$d__65*, "UnityEngine.Timeline", "TrackAsset/<get_outputs>d__65");

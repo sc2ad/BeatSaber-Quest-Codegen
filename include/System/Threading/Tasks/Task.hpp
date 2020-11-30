@@ -676,7 +676,10 @@ namespace System::Threading::Tasks {
     // Offset: 0xFFFFFFFF
     template<class TResult>
     static System::Threading::Tasks::Task_1<TResult>* FromResult(TResult result) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<TResult>*>("System.Threading.Tasks", "Task", "FromResult", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, result)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("Task").WithContext("FromResult");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Threading.Tasks", "Task", il2cpp_utils::NoArgClass<System::Threading::Tasks::Task_1<TResult>*>(), "FromResult", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, ::il2cpp_utils::ExtractTypes(result))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TResult>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, result);
     }
     // static public System.Threading.Tasks.Task FromException(System.Exception exception)
     // Offset: 0x1D15568
@@ -685,7 +688,10 @@ namespace System::Threading::Tasks {
     // Offset: 0xFFFFFFFF
     template<class TResult>
     static System::Threading::Tasks::Task_1<TResult>* FromException(System::Exception* exception) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<TResult>*>("System.Threading.Tasks", "Task", "FromException", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, exception)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("Task").WithContext("FromException");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Threading.Tasks", "Task", il2cpp_utils::NoArgClass<System::Threading::Tasks::Task_1<TResult>*>(), "FromException", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, ::il2cpp_utils::ExtractTypes(exception))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TResult>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, exception);
     }
     // static System.Threading.Tasks.Task FromCancellation(System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1D155D8
@@ -694,13 +700,19 @@ namespace System::Threading::Tasks {
     // Offset: 0xFFFFFFFF
     template<class TResult>
     static System::Threading::Tasks::Task_1<TResult>* FromCancellation(System::Threading::CancellationToken cancellationToken) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<TResult>*>("System.Threading.Tasks", "Task", "FromCancellation", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, cancellationToken)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("Task").WithContext("FromCancellation");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Threading.Tasks", "Task", il2cpp_utils::NoArgClass<System::Threading::Tasks::Task_1<TResult>*>(), "FromCancellation", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, ::il2cpp_utils::ExtractTypes(cancellationToken))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TResult>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, cancellationToken);
     }
     // static System.Threading.Tasks.Task`1<TResult> FromCancellation(System.OperationCanceledException exception)
     // Offset: 0xFFFFFFFF
     template<class TResult>
     static System::Threading::Tasks::Task_1<TResult>* FromCancellation(System::OperationCanceledException* exception) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<TResult>*>("System.Threading.Tasks", "Task", "FromCancellation", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, exception)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("Task").WithContext("FromCancellation");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Threading.Tasks", "Task", il2cpp_utils::NoArgClass<System::Threading::Tasks::Task_1<TResult>*>(), "FromCancellation", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, ::il2cpp_utils::ExtractTypes(exception))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TResult>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, exception);
     }
     // static public System.Threading.Tasks.Task Run(System.Action action)
     // Offset: 0x1D15698
@@ -709,7 +721,10 @@ namespace System::Threading::Tasks {
     // Offset: 0xFFFFFFFF
     template<class TResult>
     static System::Threading::Tasks::Task_1<TResult>* Run(System::Func_1<TResult>* function) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<TResult>*>("System.Threading.Tasks", "Task", "Run", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, function)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("Task").WithContext("Run");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Threading.Tasks", "Task", il2cpp_utils::NoArgClass<System::Threading::Tasks::Task_1<TResult>*>(), "Run", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, ::il2cpp_utils::ExtractTypes(function))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TResult>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, function);
     }
     // static public System.Threading.Tasks.Task Run(System.Func`1<System.Threading.Tasks.Task> function)
     // Offset: 0x1D157A0
@@ -721,13 +736,19 @@ namespace System::Threading::Tasks {
     // Offset: 0xFFFFFFFF
     template<class TResult>
     static System::Threading::Tasks::Task_1<TResult>* Run(System::Func_1<System::Threading::Tasks::Task_1<TResult>*>* function) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<TResult>*>("System.Threading.Tasks", "Task", "Run", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, function)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("Task").WithContext("Run");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Threading.Tasks", "Task", il2cpp_utils::NoArgClass<System::Threading::Tasks::Task_1<TResult>*>(), "Run", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, ::il2cpp_utils::ExtractTypes(function))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TResult>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, function);
     }
     // static public System.Threading.Tasks.Task`1<TResult> Run(System.Func`1<System.Threading.Tasks.Task`1<TResult>> function, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
     template<class TResult>
     static System::Threading::Tasks::Task_1<TResult>* Run(System::Func_1<System::Threading::Tasks::Task_1<TResult>*>* function, System::Threading::CancellationToken cancellationToken) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<TResult>*>("System.Threading.Tasks", "Task", "Run", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, function, cancellationToken)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("Task").WithContext("Run");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Threading.Tasks", "Task", il2cpp_utils::NoArgClass<System::Threading::Tasks::Task_1<TResult>*>(), "Run", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, ::il2cpp_utils::ExtractTypes(function, cancellationToken))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TResult>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, function, cancellationToken);
     }
     // static public System.Threading.Tasks.Task Delay(System.TimeSpan delay)
     // Offset: 0x1D15A08
@@ -761,13 +782,19 @@ namespace System::Threading::Tasks {
     // Offset: 0xFFFFFFFF
     template<class TResult>
     static System::Threading::Tasks::Task_1<::Array<TResult>*>* WhenAll(System::Collections::Generic::IEnumerable_1<System::Threading::Tasks::Task_1<TResult>*>* tasks) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<::Array<TResult>*>*>("System.Threading.Tasks", "Task", "WhenAll", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, tasks)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("Task").WithContext("WhenAll");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Threading.Tasks", "Task", il2cpp_utils::NoArgClass<System::Threading::Tasks::Task_1<::Array<TResult>*>*>(), "WhenAll", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, ::il2cpp_utils::ExtractTypes(tasks))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<::Array<TResult>*>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, tasks);
     }
     // static public System.Threading.Tasks.Task`1<TResult[]> WhenAll(params System.Threading.Tasks.Task`1<TResult>[] tasks)
     // Offset: 0xFFFFFFFF
     template<class TResult>
     static System::Threading::Tasks::Task_1<::Array<TResult>*>* WhenAll(::Array<System::Threading::Tasks::Task_1<TResult>*>* tasks) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<::Array<TResult>*>*>("System.Threading.Tasks", "Task", "WhenAll", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, tasks)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("Task").WithContext("WhenAll");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Threading.Tasks", "Task", il2cpp_utils::NoArgClass<System::Threading::Tasks::Task_1<::Array<TResult>*>*>(), "WhenAll", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, ::il2cpp_utils::ExtractTypes(tasks))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<::Array<TResult>*>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, tasks);
     }
     // Creating initializer_list -> params proxy for: System.Threading.Tasks.Task`1<TResult[]> WhenAll(params System.Threading.Tasks.Task`1<TResult>[] tasks)
     template<class TResult>
@@ -783,7 +810,10 @@ namespace System::Threading::Tasks {
     // Offset: 0xFFFFFFFF
     template<class TResult>
     static System::Threading::Tasks::Task_1<::Array<TResult>*>* InternalWhenAll(::Array<System::Threading::Tasks::Task_1<TResult>*>* tasks) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<::Array<TResult>*>*>("System.Threading.Tasks", "Task", "InternalWhenAll", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, tasks)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("Task").WithContext("InternalWhenAll");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Threading.Tasks", "Task", il2cpp_utils::NoArgClass<System::Threading::Tasks::Task_1<::Array<TResult>*>*>(), "InternalWhenAll", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, ::il2cpp_utils::ExtractTypes(tasks))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<::Array<TResult>*>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, tasks);
     }
     // static public System.Threading.Tasks.Task`1<System.Threading.Tasks.Task> WhenAny(params System.Threading.Tasks.Task[] tasks)
     // Offset: 0x1D0C498
@@ -799,7 +829,10 @@ namespace System::Threading::Tasks {
     // Offset: 0xFFFFFFFF
     template<class TResult>
     static System::Threading::Tasks::Task_1<TResult>* CreateUnwrapPromise(System::Threading::Tasks::Task* outerTask, bool lookForOce) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Threading::Tasks::Task_1<TResult>*>("System.Threading.Tasks", "Task", "CreateUnwrapPromise", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, outerTask, lookForOce)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("Task").WithContext("CreateUnwrapPromise");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Threading.Tasks", "Task", il2cpp_utils::NoArgClass<System::Threading::Tasks::Task_1<TResult>*>(), "CreateUnwrapPromise", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, ::il2cpp_utils::ExtractTypes(outerTask, lookForOce))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TResult>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, outerTask, lookForOce);
     }
     // static private System.Void .cctor()
     // Offset: 0x1D16B00
@@ -854,6 +887,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);
   }; // System.Threading.Tasks.Task
+  check_size<sizeof(Task), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __System_Threading_Tasks_TaskSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task*, "System.Threading.Tasks", "Task");
 #pragma pack(pop)

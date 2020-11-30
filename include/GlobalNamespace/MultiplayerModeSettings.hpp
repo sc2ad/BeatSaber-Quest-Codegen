@@ -30,6 +30,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerModeSettings* New_ctor();
   }; // MultiplayerModeSettings
+  check_size<sizeof(MultiplayerModeSettings), 24 + sizeof(GlobalNamespace::SongPackMask) + 8 - (24 + sizeof(GlobalNamespace::SongPackMask)) % 8> __GlobalNamespace_MultiplayerModeSettingsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSettings*, "", "MultiplayerModeSettings");

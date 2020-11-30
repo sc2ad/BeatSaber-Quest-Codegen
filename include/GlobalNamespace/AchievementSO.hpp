@@ -30,6 +30,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AchievementSO* New_ctor();
   }; // AchievementSO
+  check_size<sizeof(AchievementSO), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_AchievementSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementSO*, "", "AchievementSO");

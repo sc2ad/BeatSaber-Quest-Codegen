@@ -130,6 +130,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionNodeVisualController* New_ctor();
   }; // MissionNodeVisualController
+  check_size<sizeof(MissionNodeVisualController), 59 + sizeof(bool) + 8 - (59 + sizeof(bool)) % 8> __GlobalNamespace_MissionNodeVisualControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeVisualController*, "", "MissionNodeVisualController");

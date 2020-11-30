@@ -38,6 +38,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.ArrayUtility/SearchRange
+  check_size<sizeof(ArrayUtility::SearchRange), 4 + sizeof(int) + 8 - (4 + sizeof(int)) % 8> __UnityEngine_ProBuilder_ArrayUtility_SearchRangeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ArrayUtility::SearchRange, "UnityEngine.ProBuilder", "ArrayUtility/SearchRange");

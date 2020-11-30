@@ -43,6 +43,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/Media/MrcActivationMode EnumSize
     static void _set_EnumSize(GlobalNamespace::OVRPlugin::Media::MrcActivationMode value);
   }; // OVRPlugin/Media/MrcActivationMode
+  check_size<sizeof(OVRPlugin::Media::MrcActivationMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRPlugin_Media_MrcActivationModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Media::MrcActivationMode, "", "OVRPlugin/Media/MrcActivationMode");

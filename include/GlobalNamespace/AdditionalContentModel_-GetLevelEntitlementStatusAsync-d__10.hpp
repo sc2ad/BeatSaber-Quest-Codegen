@@ -60,6 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // AdditionalContentModel/<GetLevelEntitlementStatusAsync>d__10
+  check_size<sizeof(AdditionalContentModel::$GetLevelEntitlementStatusAsync$d__10), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>) + 8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>)) % 8> __GlobalNamespace_AdditionalContentModel_$GetLevelEntitlementStatusAsync$d__10SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel::$GetLevelEntitlementStatusAsync$d__10, "", "AdditionalContentModel/<GetLevelEntitlementStatusAsync>d__10");

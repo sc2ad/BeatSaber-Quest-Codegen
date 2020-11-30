@@ -70,6 +70,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MissionLevelFailedController/<LevelFailedCoroutine>d__13
+  check_size<sizeof(MissionLevelFailedController::$LevelFailedCoroutine$d__13), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_MissionLevelFailedController_$LevelFailedCoroutine$d__13SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelFailedController::$LevelFailedCoroutine$d__13*, "", "MissionLevelFailedController/<LevelFailedCoroutine>d__13");

@@ -66,6 +66,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static GenericPoser* New_ctor();
   }; // RootMotion.FinalIK.GenericPoser
+  check_size<sizeof(GenericPoser), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __RootMotion_FinalIK_GenericPoserSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GenericPoser*, "RootMotion.FinalIK", "GenericPoser");

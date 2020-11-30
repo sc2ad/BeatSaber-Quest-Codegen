@@ -65,6 +65,7 @@ namespace Mono::Net {
     // Set static field: static public Mono.Net.CFProxyType SOCKS
     static void _set_SOCKS(Mono::Net::CFProxyType value);
   }; // Mono.Net.CFProxyType
+  check_size<sizeof(CFProxyType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Mono_Net_CFProxyTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFProxyType, "Mono.Net", "CFProxyType");

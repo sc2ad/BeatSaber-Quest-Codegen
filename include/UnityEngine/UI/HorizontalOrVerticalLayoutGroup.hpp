@@ -104,6 +104,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static HorizontalOrVerticalLayoutGroup* New_ctor();
   }; // UnityEngine.UI.HorizontalOrVerticalLayoutGroup
+  check_size<sizeof(HorizontalOrVerticalLayoutGroup), 97 + sizeof(bool) + 8 - (97 + sizeof(bool)) % 8> __UnityEngine_UI_HorizontalOrVerticalLayoutGroupSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*, "UnityEngine.UI", "HorizontalOrVerticalLayoutGroup");

@@ -37,6 +37,7 @@ namespace UnityEngine::Timeline {
     // Set static field: static public UnityEngine.Timeline.AnimationPlayableAsset/Versions RotationAsEuler
     static void _set_RotationAsEuler(UnityEngine::Timeline::AnimationPlayableAsset::Versions value);
   }; // UnityEngine.Timeline.AnimationPlayableAsset/Versions
+  check_size<sizeof(AnimationPlayableAsset::Versions), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Timeline_AnimationPlayableAsset_VersionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPlayableAsset::Versions, "UnityEngine.Timeline", "AnimationPlayableAsset/Versions");

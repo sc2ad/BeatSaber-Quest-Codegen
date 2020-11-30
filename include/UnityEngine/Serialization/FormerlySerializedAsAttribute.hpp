@@ -24,6 +24,7 @@ namespace UnityEngine::Serialization {
     // Offset: 0x16C05C8
     static FormerlySerializedAsAttribute* New_ctor(::Il2CppString* oldName);
   }; // UnityEngine.Serialization.FormerlySerializedAsAttribute
+  check_size<sizeof(FormerlySerializedAsAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_Serialization_FormerlySerializedAsAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Serialization::FormerlySerializedAsAttribute*, "UnityEngine.Serialization", "FormerlySerializedAsAttribute");

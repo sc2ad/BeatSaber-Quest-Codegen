@@ -82,6 +82,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Modes.CfbBlockCipher
+  check_size<sizeof(CfbBlockCipher), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Modes_CfbBlockCipherSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::CfbBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "CfbBlockCipher");

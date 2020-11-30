@@ -109,6 +109,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static StandardScoreSyncStateNetSerializable* New_ctor();
   }; // StandardScoreSyncStateNetSerializable
+  check_size<sizeof(StandardScoreSyncStateNetSerializable), 20 + sizeof(GlobalNamespace::StandardScoreSyncState) + 8 - (20 + sizeof(GlobalNamespace::StandardScoreSyncState)) % 8> __GlobalNamespace_StandardScoreSyncStateNetSerializableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardScoreSyncStateNetSerializable*, "", "StandardScoreSyncStateNetSerializable");

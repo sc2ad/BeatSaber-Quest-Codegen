@@ -85,6 +85,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRSceneSampleController* New_ctor();
   }; // OVRSceneSampleController
+  check_size<sizeof(OVRSceneSampleController), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __GlobalNamespace_OVRSceneSampleControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneSampleController*, "", "OVRSceneSampleController");

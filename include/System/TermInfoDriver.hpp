@@ -285,6 +285,7 @@ namespace System {
     // Base method: System.ConsoleKeyInfo IConsoleDriver::ReadKey(System.Boolean intercept)
     System::ConsoleKeyInfo ReadKey(bool intercept);
   }; // System.TermInfoDriver
+  check_size<sizeof(TermInfoDriver), 280 + sizeof(int) + 8 - (280 + sizeof(int)) % 8> __System_TermInfoDriverSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TermInfoDriver*, "System", "TermInfoDriver");

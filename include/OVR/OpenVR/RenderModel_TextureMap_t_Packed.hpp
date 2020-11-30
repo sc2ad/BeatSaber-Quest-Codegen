@@ -40,6 +40,7 @@ namespace OVR::OpenVR {
     // Offset: 0xC9386C
     void Unpack(OVR::OpenVR::RenderModel_TextureMap_t& unpacked);
   }; // OVR.OpenVR.RenderModel_TextureMap_t_Packed
+  check_size<sizeof(RenderModel_TextureMap_t_Packed), 4 + sizeof(System::IntPtr) + 8 - (4 + sizeof(System::IntPtr)) % 8> __OVR_OpenVR_RenderModel_TextureMap_t_PackedSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_TextureMap_t_Packed, "OVR.OpenVR", "RenderModel_TextureMap_t_Packed");

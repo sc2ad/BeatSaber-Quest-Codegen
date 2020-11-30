@@ -60,6 +60,7 @@ namespace GlobalNamespace {
     // Offset: 0x1E5314C
     void SaveFromNetSerializable(GlobalNamespace::PlayersAtGameStartNetSerializable* playersAtGameStartNetSerializable);
   }; // PlayersAtGameStartModel
+  check_size<sizeof(PlayersAtGameStartModel), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_PlayersAtGameStartModelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayersAtGameStartModel*, "", "PlayersAtGameStartModel");

@@ -45,6 +45,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MirrorRendererGraphicsSettingsPresets* New_ctor();
   }; // MirrorRendererGraphicsSettingsPresets
+  check_size<sizeof(MirrorRendererGraphicsSettingsPresets), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_MirrorRendererGraphicsSettingsPresetsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererGraphicsSettingsPresets*, "", "MirrorRendererGraphicsSettingsPresets");

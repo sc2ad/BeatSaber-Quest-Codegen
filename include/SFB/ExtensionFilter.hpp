@@ -30,6 +30,7 @@ namespace SFB {
     // Offset: 0xC92428
     // ABORTED: conflicts with another method.  ExtensionFilter(::Il2CppString* filterName, ::Array<::Il2CppString*>* filterExtensions);
   }; // SFB.ExtensionFilter
+  check_size<sizeof(ExtensionFilter), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __SFB_ExtensionFilterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(SFB::ExtensionFilter, "SFB", "ExtensionFilter");

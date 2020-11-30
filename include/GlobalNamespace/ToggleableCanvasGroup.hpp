@@ -58,6 +58,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ToggleableCanvasGroup* New_ctor();
   }; // ToggleableCanvasGroup
+  check_size<sizeof(ToggleableCanvasGroup), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __GlobalNamespace_ToggleableCanvasGroupSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ToggleableCanvasGroup*, "", "ToggleableCanvasGroup");

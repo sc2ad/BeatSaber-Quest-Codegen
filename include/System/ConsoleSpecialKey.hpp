@@ -35,6 +35,7 @@ namespace System {
     // Set static field: static public System.ConsoleSpecialKey ControlBreak
     static void _set_ControlBreak(System::ConsoleSpecialKey value);
   }; // System.ConsoleSpecialKey
+  check_size<sizeof(ConsoleSpecialKey), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_ConsoleSpecialKeySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ConsoleSpecialKey, "System", "ConsoleSpecialKey");

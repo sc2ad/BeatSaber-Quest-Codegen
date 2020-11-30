@@ -65,7 +65,10 @@ namespace UnityEngine::Playables {
     // Offset: 0xFFFFFFFF
     template<class T>
     bool IsPlayableOutputOfType() {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(*this, "IsPlayableOutputOfType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Playables").WithContext("PlayableOutputHandle").WithContext("IsPlayableOutputOfType");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<bool>(), "IsPlayableOutputOfType", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method);
     }
     // static System.Boolean CompareVersion(UnityEngine.Playables.PlayableOutputHandle lhs, UnityEngine.Playables.PlayableOutputHandle rhs)
     // Offset: 0x1733C08
@@ -149,6 +152,7 @@ namespace UnityEngine::Playables {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Playables.PlayableOutputHandle other)
     bool Equals(UnityEngine::Playables::PlayableOutputHandle other);
   }; // UnityEngine.Playables.PlayableOutputHandle
+  check_size<sizeof(PlayableOutputHandle), 8 + sizeof(uint) + 8 - (8 + sizeof(uint)) % 8> __UnityEngine_Playables_PlayableOutputHandleSizeCheck;
   // static public System.Boolean op_Equality(UnityEngine.Playables.PlayableOutputHandle lhs, UnityEngine.Playables.PlayableOutputHandle rhs)
   // Offset: 0x1733A5C
   bool operator ==(const UnityEngine::Playables::PlayableOutputHandle& lhs, const UnityEngine::Playables::PlayableOutputHandle& rhs);

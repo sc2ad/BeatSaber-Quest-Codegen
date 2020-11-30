@@ -71,6 +71,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static TextOnlyTableCell* New_ctor();
   }; // TextOnlyTableCell
+  check_size<sizeof(TextOnlyTableCell), 112 + sizeof(void*) + 8 - (112 + sizeof(void*)) % 8> __GlobalNamespace_TextOnlyTableCellSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextOnlyTableCell*, "", "TextOnlyTableCell");

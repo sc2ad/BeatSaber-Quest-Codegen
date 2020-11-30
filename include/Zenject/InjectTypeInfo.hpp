@@ -80,6 +80,7 @@ namespace Zenject {
     // Offset: 0x19EEED4
     static System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo*>* $get_AllInjectables$b__1(Zenject::InjectTypeInfo::InjectMethodInfo* x);
   }; // Zenject.InjectTypeInfo
+  check_size<sizeof(InjectTypeInfo), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __Zenject_InjectTypeInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectTypeInfo*, "Zenject", "InjectTypeInfo");

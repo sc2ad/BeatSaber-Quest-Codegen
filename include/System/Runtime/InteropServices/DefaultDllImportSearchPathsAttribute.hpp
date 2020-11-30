@@ -26,6 +26,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x11644F4
     static DefaultDllImportSearchPathsAttribute* New_ctor(System::Runtime::InteropServices::DllImportSearchPath paths);
   }; // System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute
+  check_size<sizeof(DefaultDllImportSearchPathsAttribute), 16 + sizeof(System::Runtime::InteropServices::DllImportSearchPath) + 8 - (16 + sizeof(System::Runtime::InteropServices::DllImportSearchPath)) % 8> __System_Runtime_InteropServices_DefaultDllImportSearchPathsAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute*, "System.Runtime.InteropServices", "DefaultDllImportSearchPathsAttribute");

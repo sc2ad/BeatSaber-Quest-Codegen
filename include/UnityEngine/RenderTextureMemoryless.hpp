@@ -47,6 +47,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.RenderTextureMemoryless MSAA
     static void _set_MSAA(UnityEngine::RenderTextureMemoryless value);
   }; // UnityEngine.RenderTextureMemoryless
+  check_size<sizeof(RenderTextureMemoryless), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_RenderTextureMemorylessSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderTextureMemoryless, "UnityEngine", "RenderTextureMemoryless");

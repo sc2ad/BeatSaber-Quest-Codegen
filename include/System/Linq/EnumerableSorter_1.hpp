@@ -17,31 +17,41 @@ namespace System::Linq {
     // System.Void ComputeKeys(TElement[] elements, System.Int32 count)
     // Offset: 0xFFFFFFFF
     void ComputeKeys(::Array<TElement>* elements, int count) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "ComputeKeys", elements, count));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("EnumerableSorter_1").WithContext("ComputeKeys");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "ComputeKeys", {}, ::il2cpp_utils::ExtractTypes(elements, count)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, elements, count);
     }
     // System.Int32 CompareKeys(System.Int32 index1, System.Int32 index2)
     // Offset: 0xFFFFFFFF
     int CompareKeys(int index1, int index2) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "CompareKeys", index1, index2));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("EnumerableSorter_1").WithContext("CompareKeys");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "CompareKeys", {}, ::il2cpp_utils::ExtractTypes(index1, index2)));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, index1, index2);
     }
     // System.Int32[] Sort(TElement[] elements, System.Int32 count)
     // Offset: 0xFFFFFFFF
     ::Array<int>* Sort(::Array<TElement>* elements, int count) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Array<int>*>(this, "Sort", elements, count));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("EnumerableSorter_1").WithContext("Sort");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<::Array<int>*>(), "Sort", {}, ::il2cpp_utils::ExtractTypes(elements, count)));
+      return ::il2cpp_utils::RunMethodThrow<::Array<int>*, false>(this, ___internal__method, elements, count);
     }
     // private System.Void QuickSort(System.Int32[] map, System.Int32 left, System.Int32 right)
     // Offset: 0xFFFFFFFF
     void QuickSort(::Array<int>* map, int left, int right) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "QuickSort", map, left, right));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("EnumerableSorter_1").WithContext("QuickSort");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "QuickSort", {}, ::il2cpp_utils::ExtractTypes(map, left, right)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, map, left, right);
     }
     // protected System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static EnumerableSorter_1<TElement>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<EnumerableSorter_1<TElement>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("EnumerableSorter_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<EnumerableSorter_1<TElement>*>());
     }
   }; // System.Linq.EnumerableSorter`1
+  // Could not write size check! Type: System.Linq.EnumerableSorter`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::EnumerableSorter_1, "System.Linq", "EnumerableSorter`1");
 #pragma pack(pop)

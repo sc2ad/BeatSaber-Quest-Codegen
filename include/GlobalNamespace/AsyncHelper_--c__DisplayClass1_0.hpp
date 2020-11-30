@@ -47,6 +47,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AsyncHelper::$$c__DisplayClass1_0* New_ctor();
   }; // AsyncHelper/<>c__DisplayClass1_0
+  check_size<sizeof(AsyncHelper::$$c__DisplayClass1_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_AsyncHelper_$$c__DisplayClass1_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0*, "", "AsyncHelper/<>c__DisplayClass1_0");

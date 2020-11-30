@@ -97,6 +97,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static CreditsController* New_ctor();
   }; // CreditsController
+  check_size<sizeof(CreditsController), 88 + sizeof(bool) + 8 - (88 + sizeof(bool)) % 8> __GlobalNamespace_CreditsControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsController*, "", "CreditsController");

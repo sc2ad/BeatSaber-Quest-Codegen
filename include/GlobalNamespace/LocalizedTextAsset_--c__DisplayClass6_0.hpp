@@ -31,6 +31,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LocalizedTextAsset::$$c__DisplayClass6_0* New_ctor();
   }; // LocalizedTextAsset/<>c__DisplayClass6_0
+  check_size<sizeof(LocalizedTextAsset::$$c__DisplayClass6_0), 16 + sizeof(Polyglot::Language) + 8 - (16 + sizeof(Polyglot::Language)) % 8> __GlobalNamespace_LocalizedTextAsset_$$c__DisplayClass6_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0*, "", "LocalizedTextAsset/<>c__DisplayClass6_0");

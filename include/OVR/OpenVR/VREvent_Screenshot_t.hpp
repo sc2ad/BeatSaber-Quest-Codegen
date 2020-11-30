@@ -21,6 +21,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VREvent_Screenshot_t
     constexpr VREvent_Screenshot_t(uint handle_ = {}, uint type_ = {}) noexcept : handle{handle_}, type{type_} {}
   }; // OVR.OpenVR.VREvent_Screenshot_t
+  check_size<sizeof(VREvent_Screenshot_t), 4 + sizeof(uint) + 8 - (4 + sizeof(uint)) % 8> __OVR_OpenVR_VREvent_Screenshot_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Screenshot_t, "OVR.OpenVR", "VREvent_Screenshot_t");

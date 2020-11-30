@@ -132,6 +132,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Base method: System.Void Object::.ctor()
     static PlayerConnection* New_ctor();
   }; // UnityEngine.Networking.PlayerConnection.PlayerConnection
+  check_size<sizeof(PlayerConnection), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __UnityEngine_Networking_PlayerConnection_PlayerConnectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerConnection*, "UnityEngine.Networking.PlayerConnection", "PlayerConnection");

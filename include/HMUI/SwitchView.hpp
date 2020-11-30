@@ -49,6 +49,7 @@ namespace HMUI {
       // Set static field: static public HMUI.SwitchView/AnimationType SelectedState
       static void _set_SelectedState(HMUI::SwitchView::AnimationType value);
     }; // HMUI.SwitchView/AnimationType
+    check_size<sizeof(SwitchView::AnimationType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __HMUI_SwitchView_AnimationTypeSizeCheck;
     // private HMUI.SwitchView/AnimationType _animationType
     // Offset: 0x18
     HMUI::SwitchView::AnimationType animationType;
@@ -109,6 +110,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static SwitchView* New_ctor();
   }; // HMUI.SwitchView
+  check_size<sizeof(SwitchView), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __HMUI_SwitchViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SwitchView*, "HMUI", "SwitchView");

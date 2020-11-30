@@ -48,6 +48,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultipliedAndAddedColorSO* New_ctor();
   }; // MultipliedAndAddedColorSO
+  check_size<sizeof(MultipliedAndAddedColorSO), 48 + sizeof(UnityEngine::Color) + 8 - (48 + sizeof(UnityEngine::Color)) % 8> __GlobalNamespace_MultipliedAndAddedColorSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultipliedAndAddedColorSO*, "", "MultipliedAndAddedColorSO");

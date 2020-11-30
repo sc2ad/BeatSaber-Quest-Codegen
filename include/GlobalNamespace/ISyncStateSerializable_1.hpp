@@ -16,24 +16,33 @@ namespace GlobalNamespace {
     // public System.Single get_time()
     // Offset: 0xFFFFFFFF
     float GlobalNamespace_ISyncStateSerializable_1_get_time() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<float>(this, "get_time"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ISyncStateSerializable_1").WithContext("get_time");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<float>(), "get_time", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<float, false>(this, ___internal__method);
     }
     // public System.Void set_time(System.Single value)
     // Offset: 0xFFFFFFFF
     void GlobalNamespace_ISyncStateSerializable_1_set_time(float value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_time", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ISyncStateSerializable_1").WithContext("set_time");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "set_time", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // public T get_state()
     // Offset: 0xFFFFFFFF
     T GlobalNamespace_ISyncStateSerializable_1_get_state() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_state"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ISyncStateSerializable_1").WithContext("get_state");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "get_state", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public System.Void set_state(T value)
     // Offset: 0xFFFFFFFF
     void GlobalNamespace_ISyncStateSerializable_1_set_state(T value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_state", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ISyncStateSerializable_1").WithContext("set_state");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "set_state", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
   }; // ISyncStateSerializable`1
+  // Could not write size check! Type: ISyncStateSerializable`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::ISyncStateSerializable_1, "", "ISyncStateSerializable`1");
 #pragma pack(pop)

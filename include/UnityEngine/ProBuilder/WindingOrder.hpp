@@ -41,6 +41,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.WindingOrder CounterClockwise
     static void _set_CounterClockwise(UnityEngine::ProBuilder::WindingOrder value);
   }; // UnityEngine.ProBuilder.WindingOrder
+  check_size<sizeof(WindingOrder), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_ProBuilder_WindingOrderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::WindingOrder, "UnityEngine.ProBuilder", "WindingOrder");

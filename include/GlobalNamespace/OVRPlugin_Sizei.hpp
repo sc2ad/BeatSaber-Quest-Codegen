@@ -31,6 +31,7 @@ namespace GlobalNamespace {
     // Offset: 0x12E0960
     static void _cctor();
   }; // OVRPlugin/Sizei
+  check_size<sizeof(OVRPlugin::Sizei), 4 + sizeof(int) + 8 - (4 + sizeof(int)) % 8> __GlobalNamespace_OVRPlugin_SizeiSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Sizei, "", "OVRPlugin/Sizei");

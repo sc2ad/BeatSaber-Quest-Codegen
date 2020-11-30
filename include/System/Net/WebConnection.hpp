@@ -102,6 +102,7 @@ namespace System::Net {
       // Set static field: static public System.Net.WebConnection/NtlmAuthState Response
       static void _set_Response(System::Net::WebConnection::NtlmAuthState value);
     }; // System.Net.WebConnection/NtlmAuthState
+    check_size<sizeof(WebConnection::NtlmAuthState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Net_WebConnection_NtlmAuthStateSizeCheck;
     // private System.Net.ServicePoint sPoint
     // Offset: 0x10
     System::Net::ServicePoint* sPoint;
@@ -283,6 +284,7 @@ namespace System::Net {
     // Offset: 0x121F0F4
     void $SendRequest$b__41_0(::Il2CppObject* o);
   }; // System.Net.WebConnection
+  check_size<sizeof(WebConnection), 168 + sizeof(void*) + 8 - (168 + sizeof(void*)) % 8> __System_Net_WebConnectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnection*, "System.Net", "WebConnection");

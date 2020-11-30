@@ -154,6 +154,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AchievementsEvaluationHandler* New_ctor();
   }; // AchievementsEvaluationHandler
+  check_size<sizeof(AchievementsEvaluationHandler), 240 + sizeof(void*) + 8 - (240 + sizeof(void*)) % 8> __GlobalNamespace_AchievementsEvaluationHandlerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementsEvaluationHandler*, "", "AchievementsEvaluationHandler");

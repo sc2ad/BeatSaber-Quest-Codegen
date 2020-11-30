@@ -54,6 +54,7 @@ namespace System::Runtime::Remoting::Metadata {
     // Base method: System.Void SoapAttribute::SetReflectionObject(System.Object reflectionObject)
     void SetReflectionObject(::Il2CppObject* reflectionObject);
   }; // System.Runtime.Remoting.Metadata.SoapMethodAttribute
+  check_size<sizeof(SoapMethodAttribute), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __System_Runtime_Remoting_Metadata_SoapMethodAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Metadata::SoapMethodAttribute*, "System.Runtime.Remoting.Metadata", "SoapMethodAttribute");

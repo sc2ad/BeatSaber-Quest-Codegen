@@ -121,6 +121,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BeatmapObjectsAvoidance* New_ctor();
   }; // BeatmapObjectsAvoidance
+  check_size<sizeof(BeatmapObjectsAvoidance), 120 + sizeof(void*) + 8 - (120 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapObjectsAvoidanceSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectsAvoidance*, "", "BeatmapObjectsAvoidance");

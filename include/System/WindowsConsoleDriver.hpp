@@ -64,6 +64,7 @@ namespace System {
     // Base method: System.ConsoleKeyInfo IConsoleDriver::ReadKey(System.Boolean intercept)
     System::ConsoleKeyInfo ReadKey(bool intercept);
   }; // System.WindowsConsoleDriver
+  check_size<sizeof(WindowsConsoleDriver), 32 + sizeof(int16_t) + 8 - (32 + sizeof(int16_t)) % 8> __System_WindowsConsoleDriverSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::WindowsConsoleDriver*, "System", "WindowsConsoleDriver");

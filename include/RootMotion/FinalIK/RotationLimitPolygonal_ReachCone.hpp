@@ -49,6 +49,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x15E8870
     void Calculate();
   }; // RootMotion.FinalIK.RotationLimitPolygonal/ReachCone
+  check_size<sizeof(RotationLimitPolygonal::ReachCone), 40 + sizeof(UnityEngine::Vector3) + 8 - (40 + sizeof(UnityEngine::Vector3)) % 8> __RootMotion_FinalIK_RotationLimitPolygonal_ReachConeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*, "RootMotion.FinalIK", "RotationLimitPolygonal/ReachCone");

@@ -44,6 +44,7 @@ namespace System::Threading::Tasks {
     // Offset: 0x1D16E64
     void Complete();
   }; // System.Threading.Tasks.Task/DelayPromise
+  check_size<sizeof(Task::DelayPromise), 120 + sizeof(void*) + 8 - (120 + sizeof(void*)) % 8> __System_Threading_Tasks_Task_DelayPromiseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::DelayPromise*, "System.Threading.Tasks", "Task/DelayPromise");

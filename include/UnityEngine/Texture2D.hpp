@@ -122,7 +122,10 @@ namespace UnityEngine {
     template<class T>
     Unity::Collections::NativeArray_1<T> GetRawTextureData() {
       static_assert(is_value_type_v<T>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Unity::Collections::NativeArray_1<T>>(this, "GetRawTextureData", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Texture2D").WithContext("GetRawTextureData");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Unity::Collections::NativeArray_1<T>>(), "GetRawTextureData", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<Unity::Collections::NativeArray_1<T>, false>(this, ___internal__method);
     }
     // public System.Void Apply(System.Boolean updateMipmaps, System.Boolean makeNoLongerReadable)
     // Offset: 0x16C4B74

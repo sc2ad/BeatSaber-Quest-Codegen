@@ -94,6 +94,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void SymmetricTransform::ECB(System.Byte[] input, System.Byte[] output)
     void ECB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
   }; // System.Security.Cryptography.AesTransform
+  check_size<sizeof(AesTransform), 100 + sizeof(int) + 8 - (100 + sizeof(int)) % 8> __System_Security_Cryptography_AesTransformSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AesTransform*, "System.Security.Cryptography", "AesTransform");

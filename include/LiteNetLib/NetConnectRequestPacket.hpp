@@ -63,6 +63,7 @@ namespace LiteNetLib {
     // Offset: 0x1DC654C
     static LiteNetLib::NetPacket* Make(LiteNetLib::Utils::NetDataWriter* connectData, System::Net::SocketAddress* addressBytes, int64_t connectId);
   }; // LiteNetLib.NetConnectRequestPacket
+  check_size<sizeof(NetConnectRequestPacket), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __LiteNetLib_NetConnectRequestPacketSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetConnectRequestPacket*, "LiteNetLib", "NetConnectRequestPacket");

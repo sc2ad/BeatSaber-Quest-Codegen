@@ -80,6 +80,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x1754B70
     void Solve(RootMotion::FinalIK::IKSolverFullBody* solver);
   }; // RootMotion.FinalIK.FBIKChain/ChildConstraint
+  check_size<sizeof(FBIKChain::ChildConstraint), 60 + sizeof(int) + 8 - (60 + sizeof(int)) % 8> __RootMotion_FinalIK_FBIKChain_ChildConstraintSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBIKChain::ChildConstraint*, "RootMotion.FinalIK", "FBIKChain/ChildConstraint");

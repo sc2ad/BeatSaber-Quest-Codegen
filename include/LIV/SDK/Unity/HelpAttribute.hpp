@@ -24,6 +24,7 @@ namespace LIV::SDK::Unity {
     // Offset: 0x1A0D0D4
     static HelpAttribute* New_ctor(::Il2CppString* text);
   }; // LIV.SDK.Unity.HelpAttribute
+  check_size<sizeof(HelpAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __LIV_SDK_Unity_HelpAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::HelpAttribute*, "LIV.SDK.Unity", "HelpAttribute");

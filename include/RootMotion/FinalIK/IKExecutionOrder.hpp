@@ -64,6 +64,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static IKExecutionOrder* New_ctor();
   }; // RootMotion.FinalIK.IKExecutionOrder
+  check_size<sizeof(IKExecutionOrder), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __RootMotion_FinalIK_IKExecutionOrderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKExecutionOrder*, "RootMotion.FinalIK", "IKExecutionOrder");

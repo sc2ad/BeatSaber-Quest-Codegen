@@ -107,6 +107,7 @@ namespace UnityEngine::Experimental::Rendering {
     // Set static field: static public UnityEngine.Experimental.Rendering.FormatUsage StencilSampling
     static void _set_StencilSampling(UnityEngine::Experimental::Rendering::FormatUsage value);
   }; // UnityEngine.Experimental.Rendering.FormatUsage
+  check_size<sizeof(FormatUsage), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Experimental_Rendering_FormatUsageSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::FormatUsage, "UnityEngine.Experimental.Rendering", "FormatUsage");

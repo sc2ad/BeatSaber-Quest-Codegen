@@ -103,6 +103,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static GetPublicServersRequest* New_ctor();
   }; // MasterServer.GetPublicServersRequest
+  check_size<sizeof(GetPublicServersRequest), 48 + sizeof(GlobalNamespace::GameplayServerFilter) + 8 - (48 + sizeof(GlobalNamespace::GameplayServerFilter)) % 8> __MasterServer_GetPublicServersRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetPublicServersRequest*, "MasterServer", "GetPublicServersRequest");

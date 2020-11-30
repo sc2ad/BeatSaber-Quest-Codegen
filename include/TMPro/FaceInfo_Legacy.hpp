@@ -80,6 +80,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static FaceInfo_Legacy* New_ctor();
   }; // TMPro.FaceInfo_Legacy
+  check_size<sizeof(FaceInfo_Legacy), 100 + sizeof(float) + 8 - (100 + sizeof(float)) % 8> __TMPro_FaceInfo_LegacySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FaceInfo_Legacy*, "TMPro", "FaceInfo_Legacy");

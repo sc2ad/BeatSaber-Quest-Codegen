@@ -38,6 +38,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SpawnRotationChevronManager::DirectionData* New_ctor();
   }; // SpawnRotationChevronManager/DirectionData
+  check_size<sizeof(SpawnRotationChevronManager::DirectionData), 32 + sizeof(float) + 8 - (32 + sizeof(float)) % 8> __GlobalNamespace_SpawnRotationChevronManager_DirectionDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationChevronManager::DirectionData*, "", "SpawnRotationChevronManager/DirectionData");

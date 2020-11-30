@@ -109,6 +109,7 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static public Org.BouncyCastle.Security.CipherUtilities/CipherMode SIC
     static void _set_SIC(Org::BouncyCastle::Security::CipherUtilities::CipherMode value);
   }; // Org.BouncyCastle.Security.CipherUtilities/CipherMode
+  check_size<sizeof(CipherUtilities::CipherMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Org_BouncyCastle_Security_CipherUtilities_CipherModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::CipherUtilities::CipherMode, "Org.BouncyCastle.Security", "CipherUtilities/CipherMode");

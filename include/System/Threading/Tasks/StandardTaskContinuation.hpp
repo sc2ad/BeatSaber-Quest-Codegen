@@ -42,6 +42,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void TaskContinuation::Run(System.Threading.Tasks.Task completedTask, System.Boolean bCanInlineContinuationTask)
     void Run(System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
   }; // System.Threading.Tasks.StandardTaskContinuation
+  check_size<sizeof(StandardTaskContinuation), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Threading_Tasks_StandardTaskContinuationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::StandardTaskContinuation*, "System.Threading.Tasks", "StandardTaskContinuation");

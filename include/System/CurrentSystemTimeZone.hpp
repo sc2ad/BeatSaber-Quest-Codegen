@@ -46,6 +46,7 @@ namespace System {
     // Base method: System.TimeSpan TimeZone::GetUtcOffset(System.DateTime dateTime)
     System::TimeSpan GetUtcOffset(System::DateTime dateTime);
   }; // System.CurrentSystemTimeZone
+  check_size<sizeof(CurrentSystemTimeZone), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_CurrentSystemTimeZoneSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::CurrentSystemTimeZone*, "System", "CurrentSystemTimeZone");

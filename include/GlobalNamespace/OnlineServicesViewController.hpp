@@ -63,6 +63,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OnlineServicesViewController* New_ctor();
   }; // OnlineServicesViewController
+  check_size<sizeof(OnlineServicesViewController), 128 + sizeof(void*) + 8 - (128 + sizeof(void*)) % 8> __GlobalNamespace_OnlineServicesViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnlineServicesViewController*, "", "OnlineServicesViewController");

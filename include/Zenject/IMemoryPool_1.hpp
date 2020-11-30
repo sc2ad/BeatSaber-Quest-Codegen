@@ -18,9 +18,12 @@ namespace Zenject {
     // public TValue Spawn()
     // Offset: 0xFFFFFFFF
     TValue Spawn() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<TValue>(this, "Spawn"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IMemoryPool_1").WithContext("Spawn");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<TValue>(), "Spawn", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method);
     }
   }; // Zenject.IMemoryPool`1
+  // Could not write size check! Type: Zenject.IMemoryPool`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::IMemoryPool_1, "Zenject", "IMemoryPool`1");
 #pragma pack(pop)

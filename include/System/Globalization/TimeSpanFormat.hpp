@@ -82,6 +82,7 @@ namespace System::Globalization {
       // Offset: 0xC9FC64
       void Init(::Il2CppString* format, bool useInvariantFieldLengths);
     }; // System.Globalization.TimeSpanFormat/FormatLiterals
+    check_size<sizeof(TimeSpanFormat::FormatLiterals), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Globalization_TimeSpanFormat_FormatLiteralsSizeCheck;
     // Get static field: static readonly System.Globalization.TimeSpanFormat/FormatLiterals PositiveInvariantFormatLiterals
     static System::Globalization::TimeSpanFormat::FormatLiterals _get_PositiveInvariantFormatLiterals();
     // Set static field: static readonly System.Globalization.TimeSpanFormat/FormatLiterals PositiveInvariantFormatLiterals

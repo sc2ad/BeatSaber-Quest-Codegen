@@ -71,6 +71,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MenuShockwave* New_ctor();
   }; // MenuShockwave
+  check_size<sizeof(MenuShockwave), 48 + sizeof(UnityEngine::ParticleSystem::EmitParams) + 8 - (48 + sizeof(UnityEngine::ParticleSystem::EmitParams)) % 8> __GlobalNamespace_MenuShockwaveSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuShockwave*, "", "MenuShockwave");

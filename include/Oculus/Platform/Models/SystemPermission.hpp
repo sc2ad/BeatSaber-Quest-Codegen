@@ -30,6 +30,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DFCDC
     static SystemPermission* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.SystemPermission
+  check_size<sizeof(SystemPermission), 20 + sizeof(Oculus::Platform::PermissionGrantStatus) + 8 - (20 + sizeof(Oculus::Platform::PermissionGrantStatus)) % 8> __Oculus_Platform_Models_SystemPermissionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::SystemPermission*, "Oculus.Platform.Models", "SystemPermission");

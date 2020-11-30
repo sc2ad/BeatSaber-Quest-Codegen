@@ -67,7 +67,10 @@ namespace UnityEngine::ProBuilder {
     template<class T>
     static T GetMeshChannel(UnityEngine::GameObject* gameObject, System::Func_2<UnityEngine::Mesh*, T>* attributeGetter) {
       static_assert(std::is_base_of_v<System::Collections::IList, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine.ProBuilder", "MeshUtility", "GetMeshChannel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, gameObject, attributeGetter)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("MeshUtility").WithContext("GetMeshChannel");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "MeshUtility", il2cpp_utils::NoArgClass<T>(), "GetMeshChannel", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(gameObject, attributeGetter))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, gameObject, attributeGetter);
     }
     // static public System.String Print(UnityEngine.Mesh mesh)
     // Offset: 0x139A5FC

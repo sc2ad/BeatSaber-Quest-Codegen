@@ -32,6 +32,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BoolWithDefaultValueSO* New_ctor();
   }; // BoolWithDefaultValueSO
+  check_size<sizeof(BoolWithDefaultValueSO), 33 + sizeof(bool) + 8 - (33 + sizeof(bool)) % 8> __GlobalNamespace_BoolWithDefaultValueSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoolWithDefaultValueSO*, "", "BoolWithDefaultValueSO");

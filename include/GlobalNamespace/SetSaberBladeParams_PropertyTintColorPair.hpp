@@ -27,6 +27,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SetSaberBladeParams::PropertyTintColorPair* New_ctor();
   }; // SetSaberBladeParams/PropertyTintColorPair
+  check_size<sizeof(SetSaberBladeParams::PropertyTintColorPair), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_SetSaberBladeParams_PropertyTintColorPairSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*, "", "SetSaberBladeParams/PropertyTintColorPair");

@@ -40,6 +40,7 @@ namespace System::Runtime::CompilerServices {
     // Base method: System.Void Object::.ctor()
     static AsyncMethodBuilderCore::$$c__DisplayClass4_0* New_ctor();
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore/<>c__DisplayClass4_0
+  check_size<sizeof(AsyncMethodBuilderCore::$$c__DisplayClass4_0), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Runtime_CompilerServices_AsyncMethodBuilderCore_$$c__DisplayClass4_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c__DisplayClass4_0*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/<>c__DisplayClass4_0");

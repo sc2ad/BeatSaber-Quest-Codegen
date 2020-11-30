@@ -99,6 +99,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerEnvironmentResizeController* New_ctor();
   }; // MultiplayerEnvironmentResizeController
+  check_size<sizeof(MultiplayerEnvironmentResizeController), 66 + sizeof(bool) + 8 - (66 + sizeof(bool)) % 8> __GlobalNamespace_MultiplayerEnvironmentResizeControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerEnvironmentResizeController*, "", "MultiplayerEnvironmentResizeController");

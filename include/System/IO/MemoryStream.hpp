@@ -207,6 +207,7 @@ namespace System::IO {
     // Base method: System.Void Stream::WriteByte(System.Byte value)
     void WriteByte(uint8_t value);
   }; // System.IO.MemoryStream
+  check_size<sizeof(MemoryStream), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __System_IO_MemoryStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::MemoryStream*, "System.IO", "MemoryStream");

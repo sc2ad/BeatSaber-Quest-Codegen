@@ -135,6 +135,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // PyramidBloomMainEffectSO
+  check_size<sizeof(PyramidBloomMainEffectSO), 112 + sizeof(void*) + 8 - (112 + sizeof(void*)) % 8> __GlobalNamespace_PyramidBloomMainEffectSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PyramidBloomMainEffectSO*, "", "PyramidBloomMainEffectSO");

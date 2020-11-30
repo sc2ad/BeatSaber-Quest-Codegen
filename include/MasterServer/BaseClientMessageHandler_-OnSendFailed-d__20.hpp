@@ -75,6 +75,7 @@ namespace MasterServer {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.BaseClientMessageHandler/<OnSendFailed>d__20
+  check_size<sizeof(BaseClientMessageHandler::$OnSendFailed$d__20), 72 + sizeof(System::Runtime::CompilerServices::TaskAwaiter) + 8 - (72 + sizeof(System::Runtime::CompilerServices::TaskAwaiter)) % 8> __MasterServer_BaseClientMessageHandler_$OnSendFailed$d__20SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$OnSendFailed$d__20, "MasterServer", "BaseClientMessageHandler/<OnSendFailed>d__20");

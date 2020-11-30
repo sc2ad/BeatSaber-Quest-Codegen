@@ -22,6 +22,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VREvent_EditingCameraSurface_t
     constexpr VREvent_EditingCameraSurface_t(uint64_t overlayHandle_ = {}, uint nVisualMode_ = {}) noexcept : overlayHandle{overlayHandle_}, nVisualMode{nVisualMode_} {}
   }; // OVR.OpenVR.VREvent_EditingCameraSurface_t
+  check_size<sizeof(VREvent_EditingCameraSurface_t), 8 + sizeof(uint) + 8 - (8 + sizeof(uint)) % 8> __OVR_OpenVR_VREvent_EditingCameraSurface_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_EditingCameraSurface_t, "OVR.OpenVR", "VREvent_EditingCameraSurface_t");

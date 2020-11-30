@@ -34,6 +34,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: IntersectionResults
     constexpr IntersectionResults(UnityEngine::Vector3 point_ = {}, UnityEngine::Vector3 normal_ = {}, UnityEngine::Vector2 UVs_ = {}, float distance_ = {}) noexcept : point{point_}, normal{normal_}, UVs{UVs_}, distance{distance_} {}
   }; // SteamVR_Overlay/IntersectionResults
+  check_size<sizeof(SteamVR_Overlay::IntersectionResults), 32 + sizeof(float) + 8 - (32 + sizeof(float)) % 8> __GlobalNamespace_SteamVR_Overlay_IntersectionResultsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Overlay::IntersectionResults, "", "SteamVR_Overlay/IntersectionResults");

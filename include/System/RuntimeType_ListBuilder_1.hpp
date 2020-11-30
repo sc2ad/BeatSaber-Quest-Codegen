@@ -39,34 +39,47 @@ namespace System {
     // public System.Void .ctor(System.Int32 capacity)
     // Offset: 0xFFFFFFFF
     ListBuilder_1(int capacity) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", capacity));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ListBuilder_1").WithContext(".ctor");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<RuntimeType::ListBuilder_1<T>>(), ".ctor", {}, ::il2cpp_utils::ExtractTypes(capacity)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, capacity);
     }
     // public T get_Item(System.Int32 index)
     // Offset: 0xFFFFFFFF
     T get_Item(int index) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(*this, "get_Item", index));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ListBuilder_1").WithContext("get_Item");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<T>(), "get_Item", {}, ::il2cpp_utils::ExtractTypes(index)));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method, index);
     }
     // public T[] ToArray()
     // Offset: 0xFFFFFFFF
     ::Array<T>* ToArray() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Array<T>*>(*this, "ToArray"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ListBuilder_1").WithContext("ToArray");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<::Array<T>*>(), "ToArray", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(*this, ___internal__method);
     }
     // public System.Void CopyTo(System.Object[] array, System.Int32 index)
     // Offset: 0xFFFFFFFF
     void CopyTo(::Array<::Il2CppObject*>* array, int index) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "CopyTo", array, index));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ListBuilder_1").WithContext("CopyTo");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "CopyTo", {}, ::il2cpp_utils::ExtractTypes(array, index)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, array, index);
     }
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF
     int get_Count() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(*this, "get_Count"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ListBuilder_1").WithContext("get_Count");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<int>(), "get_Count", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(*this, ___internal__method);
     }
     // public System.Void Add(T item)
     // Offset: 0xFFFFFFFF
     void Add(T item) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "Add", item));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ListBuilder_1").WithContext("Add");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "Add", {}, ::il2cpp_utils::ExtractTypes(item)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, item);
     }
   }; // System.RuntimeType/ListBuilder`1
+  // Could not write size check! Type: System.RuntimeType/ListBuilder`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::RuntimeType::ListBuilder_1, "System", "RuntimeType/ListBuilder`1");
 #pragma pack(pop)

@@ -69,6 +69,7 @@ namespace System {
     // Maps to method: GetRealObject
     ::Il2CppObject* System_Runtime_Serialization_IObjectReference_GetRealObject(System::Runtime::Serialization::StreamingContext context);
   }; // System.DelegateSerializationHolder
+  check_size<sizeof(DelegateSerializationHolder), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_DelegateSerializationHolderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DelegateSerializationHolder*, "System", "DelegateSerializationHolder");

@@ -57,16 +57,20 @@ namespace GlobalNamespace {
       // System.Threading.Tasks.Task`1<TValue> <get_Item>b__1()
       // Offset: 0xFFFFFFFF
       System::Threading::Tasks::Task_1<TValue>* $get_Item$b__1() {
-        return THROW_UNLESS((il2cpp_utils::RunMethod<System::Threading::Tasks::Task_1<TValue>*>(this, "<get_Item>b__1")));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass4_0").WithContext("<get_Item>b__1");
+        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Threading::Tasks::Task_1<TValue>*>(), "<get_Item>b__1", {}, ::il2cpp_utils::ExtractTypes())));
+        return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TValue>*, false>(this, ___internal__method);
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Object
       // Base method: System.Void Object::.ctor()
       static typename AsyncCache_2<TKey, TValue>::$$c__DisplayClass4_0* New_ctor() {
-        return THROW_UNLESS((il2cpp_utils::New<typename AsyncCache_2<TKey, TValue>::$$c__DisplayClass4_0*>()));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("$$c__DisplayClass4_0").WithContext(".ctor");
+        return THROW_UNLESS((::il2cpp_utils::New<typename AsyncCache_2<TKey, TValue>::$$c__DisplayClass4_0*>()));
       }
     }; // AsyncCache`2/<>c__DisplayClass4_0
+    // Could not write size check! Type: AsyncCache`2/<>c__DisplayClass4_0 is generic!
     // private readonly System.Func`2<TKey,System.Threading.Tasks.Task`1<TValue>> _valueFactory
     // Offset: 0x0
     System::Func_2<TKey, System::Threading::Tasks::Task_1<TValue>*>* valueFactory;
@@ -76,24 +80,32 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.Func`2<TKey,System.Threading.Tasks.Task`1<TValue>> valueFactory)
     // Offset: 0xFFFFFFFF
     static AsyncCache_2<TKey, TValue>* New_ctor(System::Func_2<TKey, System::Threading::Tasks::Task_1<TValue>*>* valueFactory) {
-      return THROW_UNLESS((il2cpp_utils::New<AsyncCache_2<TKey, TValue>*>(valueFactory)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AsyncCache_2").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<AsyncCache_2<TKey, TValue>*>(valueFactory)));
     }
     // public System.Threading.Tasks.Task`1<TValue> get_Item(TKey key)
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task_1<TValue>* get_Item(TKey key) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Threading::Tasks::Task_1<TValue>*>(this, "get_Item", key));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AsyncCache_2").WithContext("get_Item");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Threading::Tasks::Task_1<TValue>*>(), "get_Item", {}, ::il2cpp_utils::ExtractTypes(key)));
+      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TValue>*, false>(this, ___internal__method, key);
     }
     // public System.Void RemoveKey(TKey key)
     // Offset: 0xFFFFFFFF
     void RemoveKey(TKey key) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "RemoveKey", key));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AsyncCache_2").WithContext("RemoveKey");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "RemoveKey", {}, ::il2cpp_utils::ExtractTypes(key)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, key);
     }
     // private System.Lazy`1<System.Threading.Tasks.Task`1<TValue>> <get_Item>b__4_0(TKey toAdd)
     // Offset: 0xFFFFFFFF
     System::Lazy_1<System::Threading::Tasks::Task_1<TValue>*>* $get_Item$b__4_0(TKey toAdd) {
-      return THROW_UNLESS((il2cpp_utils::RunMethod<System::Lazy_1<System::Threading::Tasks::Task_1<TValue>*>*>(this, "<get_Item>b__4_0", toAdd)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("AsyncCache_2").WithContext("<get_Item>b__4_0");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Lazy_1<System::Threading::Tasks::Task_1<TValue>*>*>(), "<get_Item>b__4_0", {}, ::il2cpp_utils::ExtractTypes(toAdd))));
+      return ::il2cpp_utils::RunMethodThrow<System::Lazy_1<System::Threading::Tasks::Task_1<TValue>*>*, false>(this, ___internal__method, toAdd);
     }
   }; // AsyncCache`2
+  // Could not write size check! Type: AsyncCache`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::AsyncCache_2, "", "AsyncCache`2");
 #pragma pack(pop)

@@ -57,6 +57,7 @@ namespace NUnit::Framework::Internal::Builders {
     // Offset: 0x13ED3A4
     void AddSetUpFixture(NUnit::Framework::Internal::TestSuite* newSetupFixture, NUnit::Framework::Internal::TestSuite* containingSuite, ::Il2CppString* ns);
   }; // NUnit.Framework.Internal.Builders.NamespaceTreeBuilder
+  check_size<sizeof(NamespaceTreeBuilder), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __NUnit_Framework_Internal_Builders_NamespaceTreeBuilderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*, "NUnit.Framework.Internal.Builders", "NamespaceTreeBuilder");

@@ -38,16 +38,21 @@ namespace System::Diagnostics::Tracing {
     // public System.Void WriteData(System.Diagnostics.Tracing.TraceLoggingDataCollector collector, ref System.Collections.Generic.KeyValuePair`2<K,V> value)
     // Offset: 0xFFFFFFFF
     void WriteData(System::Diagnostics::Tracing::TraceLoggingDataCollector* collector, System::Collections::Generic::KeyValuePair_2<K, V>& value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteData", collector, value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("KeyValuePairTypeInfo_2").WithContext("WriteData");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "WriteData", {}, ::il2cpp_utils::ExtractTypes(collector, value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, collector, value);
     }
     // public override System.Void WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Diagnostics.Tracing.TraceLoggingTypeInfo
     // Base method: System.Void TraceLoggingTypeInfo::WriteMetadata(System.Diagnostics.Tracing.TraceLoggingMetadataCollector collector, System.String name, System.Diagnostics.Tracing.EventFieldFormat format)
     void WriteMetadata(System::Diagnostics::Tracing::TraceLoggingMetadataCollector* collector, ::Il2CppString* name, System::Diagnostics::Tracing::EventFieldFormat format) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "WriteMetadata", collector, name, format));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Diagnostics::Tracing").WithContext("KeyValuePairTypeInfo_2").WithContext("WriteMetadata");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "WriteMetadata", {}, ::il2cpp_utils::ExtractTypes(collector, name, format)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, collector, name, format);
     }
   }; // System.Diagnostics.Tracing.KeyValuePairTypeInfo`2
+  // Could not write size check! Type: System.Diagnostics.Tracing.KeyValuePairTypeInfo`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Diagnostics::Tracing::KeyValuePairTypeInfo_2, "System.Diagnostics.Tracing", "KeyValuePairTypeInfo`2");
 #pragma pack(pop)

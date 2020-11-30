@@ -105,6 +105,7 @@ namespace UnityEngine {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Bounds
+  check_size<sizeof(Bounds), 12 + sizeof(UnityEngine::Vector3) + 8 - (12 + sizeof(UnityEngine::Vector3)) % 8> __UnityEngine_BoundsSizeCheck;
   // static public System.Boolean op_Equality(UnityEngine.Bounds lhs, UnityEngine.Bounds rhs)
   // Offset: 0x167E6AC
   bool operator ==(const UnityEngine::Bounds& lhs, const UnityEngine::Bounds& rhs);

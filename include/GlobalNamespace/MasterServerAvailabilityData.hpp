@@ -53,6 +53,7 @@ namespace GlobalNamespace {
       // Set static field: static public MasterServerAvailabilityData/AvailabilityStatus Offline
       static void _set_Offline(GlobalNamespace::MasterServerAvailabilityData::AvailabilityStatus value);
     }; // MasterServerAvailabilityData/AvailabilityStatus
+    check_size<sizeof(MasterServerAvailabilityData::AvailabilityStatus), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_MasterServerAvailabilityData_AvailabilityStatusSizeCheck;
     // public System.String minimumAppVersion
     // Offset: 0x10
     ::Il2CppString* minimumAppVersion;
@@ -74,6 +75,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MasterServerAvailabilityData* New_ctor();
   }; // MasterServerAvailabilityData
+  check_size<sizeof(MasterServerAvailabilityData), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_MasterServerAvailabilityDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityData*, "", "MasterServerAvailabilityData");

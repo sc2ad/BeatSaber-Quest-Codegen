@@ -27,6 +27,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static PenetrationAvoidance::Avoider::EffectorLink* New_ctor();
   }; // RootMotion.FinalIK.PenetrationAvoidance/Avoider/EffectorLink
+  check_size<sizeof(PenetrationAvoidance::Avoider::EffectorLink), 20 + sizeof(float) + 8 - (20 + sizeof(float)) % 8> __RootMotion_FinalIK_PenetrationAvoidance_Avoider_EffectorLinkSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*, "RootMotion.FinalIK", "PenetrationAvoidance/Avoider/EffectorLink");

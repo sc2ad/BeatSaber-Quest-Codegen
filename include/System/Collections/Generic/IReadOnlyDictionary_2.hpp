@@ -20,9 +20,12 @@ namespace System::Collections::Generic {
     // public System.Boolean TryGetValue(TKey key, out TValue value)
     // Offset: 0xFFFFFFFF
     bool TryGetValue(TKey key, TValue& value) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TryGetValue", key, value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("IReadOnlyDictionary_2").WithContext("TryGetValue");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "TryGetValue", {}, ::il2cpp_utils::ExtractTypes(key, value)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, key, value);
     }
   }; // System.Collections.Generic.IReadOnlyDictionary`2
+  // Could not write size check! Type: System.Collections.Generic.IReadOnlyDictionary`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::IReadOnlyDictionary_2, "System.Collections.Generic", "IReadOnlyDictionary`2");
 #pragma pack(pop)

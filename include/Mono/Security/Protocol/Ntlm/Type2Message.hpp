@@ -50,6 +50,7 @@ namespace Mono::Security::Protocol::Ntlm {
     // Base method: System.Byte[] MessageBase::GetBytes()
     ::Array<uint8_t>* GetBytes();
   }; // Mono.Security.Protocol.Ntlm.Type2Message
+  check_size<sizeof(Type2Message), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Mono_Security_Protocol_Ntlm_Type2MessageSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::Type2Message*, "Mono.Security.Protocol.Ntlm", "Type2Message");

@@ -50,6 +50,7 @@ namespace OnlineServices::API {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.HTTPLeaderboardsOathHelper/<LogOut>d__6
+  check_size<sizeof(HTTPLeaderboardsOathHelper::$LogOut$d__6), 40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>) + 8 - (40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>)) % 8> __OnlineServices_API_HTTPLeaderboardsOathHelper_$LogOut$d__6SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper::$LogOut$d__6, "OnlineServices.API", "HTTPLeaderboardsOathHelper/<LogOut>d__6");

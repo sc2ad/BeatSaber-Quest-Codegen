@@ -65,6 +65,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x1544D08
     static bool OpcodeBacktracks(int Op);
   }; // System.Text.RegularExpressions.RegexCode
+  check_size<sizeof(RegexCode), 76 + sizeof(bool) + 8 - (76 + sizeof(bool)) % 8> __System_Text_RegularExpressions_RegexCodeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCode*, "System.Text.RegularExpressions", "RegexCode");

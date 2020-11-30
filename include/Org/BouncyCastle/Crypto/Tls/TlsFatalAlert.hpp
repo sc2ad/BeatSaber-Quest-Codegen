@@ -31,6 +31,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
     // Offset: 0x1057130
     static TlsFatalAlert* New_ctor(uint8_t alertDescription, System::Exception* alertCause);
   }; // Org.BouncyCastle.Crypto.Tls.TlsFatalAlert
+  check_size<sizeof(TlsFatalAlert), 144 + sizeof(uint8_t) + 8 - (144 + sizeof(uint8_t)) % 8> __Org_BouncyCastle_Crypto_Tls_TlsFatalAlertSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsFatalAlert*, "Org.BouncyCastle.Crypto.Tls", "TlsFatalAlert");

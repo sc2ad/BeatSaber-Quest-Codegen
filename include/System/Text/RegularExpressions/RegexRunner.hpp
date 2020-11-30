@@ -157,6 +157,7 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void Object::.ctor()
     static RegexRunner* New_ctor();
   }; // System.Text.RegularExpressions.RegexRunner
+  check_size<sizeof(RegexRunner), 124 + sizeof(int) + 8 - (124 + sizeof(int)) % 8> __System_Text_RegularExpressions_RegexRunnerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexRunner*, "System.Text.RegularExpressions", "RegexRunner");

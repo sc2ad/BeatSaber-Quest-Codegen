@@ -24,6 +24,7 @@ namespace UnityEngine::Rendering {
     // Creating value type constructor for type: BatchVisibility
     constexpr BatchVisibility(int offset_ = {}, int instancesCount_ = {}, int visibleCount_ = {}) noexcept : offset{offset_}, instancesCount{instancesCount_}, visibleCount{visibleCount_} {}
   }; // UnityEngine.Rendering.BatchVisibility
+  check_size<sizeof(BatchVisibility), 8 + sizeof(int) + 8 - (8 + sizeof(int)) % 8> __UnityEngine_Rendering_BatchVisibilitySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchVisibility, "UnityEngine.Rendering", "BatchVisibility");

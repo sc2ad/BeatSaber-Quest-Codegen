@@ -29,22 +29,30 @@ namespace UnityEngine::ProBuilder {
     // public T1 get_item1()
     // Offset: 0xFFFFFFFF
     T1 get_item1() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T1>(*this, "get_item1"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("SimpleTuple_2").WithContext("get_item1");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<T1>(), "get_item1", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T1, false>(*this, ___internal__method);
     }
     // public System.Void set_item1(T1 value)
     // Offset: 0xFFFFFFFF
     void set_item1(T1 value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_item1", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("SimpleTuple_2").WithContext("set_item1");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_item1", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // public T2 get_item2()
     // Offset: 0xFFFFFFFF
     T2 get_item2() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T2>(*this, "get_item2"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("SimpleTuple_2").WithContext("get_item2");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<T2>(), "get_item2", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T2, false>(*this, ___internal__method);
     }
     // public System.Void set_item2(T2 value)
     // Offset: 0xFFFFFFFF
     void set_item2(T2 value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_item2", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("SimpleTuple_2").WithContext("set_item2");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_item2", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // public System.Void .ctor(T1 item1, T2 item2)
     // Offset: 0xFFFFFFFF
@@ -54,9 +62,12 @@ namespace UnityEngine::ProBuilder {
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppString*>(*this, "ToString"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("SimpleTuple_2").WithContext("ToString");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<::Il2CppString*>(), "ToString", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(*this, ___internal__method);
     }
   }; // UnityEngine.ProBuilder.SimpleTuple`2
+  // Could not write size check! Type: UnityEngine.ProBuilder.SimpleTuple`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::ProBuilder::SimpleTuple_2, "UnityEngine.ProBuilder", "SimpleTuple`2");
 #pragma pack(pop)

@@ -24,6 +24,7 @@ namespace System::Reflection {
     // Offset: 0x172067C
     static AssemblyDescriptionAttribute* New_ctor(::Il2CppString* description);
   }; // System.Reflection.AssemblyDescriptionAttribute
+  check_size<sizeof(AssemblyDescriptionAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Reflection_AssemblyDescriptionAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyDescriptionAttribute*, "System.Reflection", "AssemblyDescriptionAttribute");

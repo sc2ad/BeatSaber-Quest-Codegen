@@ -448,6 +448,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static TextMeshPro* New_ctor();
   }; // TMPro.TextMeshPro
+  check_size<sizeof(TextMeshPro), 3000 + sizeof(bool) + 8 - (3000 + sizeof(bool)) % 8> __TMPro_TextMeshProSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TextMeshPro*, "TMPro", "TextMeshPro");

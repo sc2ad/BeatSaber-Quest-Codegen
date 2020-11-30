@@ -104,6 +104,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.Void Object::.ctor()
     static X509ChainPolicy* New_ctor();
   }; // System.Security.Cryptography.X509Certificates.X509ChainPolicy
+  check_size<sizeof(X509ChainPolicy), 72 + sizeof(System::DateTime) + 8 - (72 + sizeof(System::DateTime)) % 8> __System_Security_Cryptography_X509Certificates_X509ChainPolicySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainPolicy*, "System.Security.Cryptography.X509Certificates", "X509ChainPolicy");

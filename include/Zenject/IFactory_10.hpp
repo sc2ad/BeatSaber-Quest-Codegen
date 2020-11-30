@@ -18,9 +18,12 @@ namespace Zenject {
     // public TValue Create(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5, TParam6 param6, TParam7 param7, TParam8 param8, TParam9 param9)
     // Offset: 0xFFFFFFFF
     TValue Create(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5, TParam6 param6, TParam7 param7, TParam8 param8, TParam9 param9) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<TValue>(this, "Create", param1, param2, param3, param4, param5, param6, param7, param8, param9));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("IFactory_10").WithContext("Create");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<TValue>(), "Create", {}, ::il2cpp_utils::ExtractTypes(param1, param2, param3, param4, param5, param6, param7, param8, param9)));
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, param1, param2, param3, param4, param5, param6, param7, param8, param9);
     }
   }; // Zenject.IFactory`10
+  // Could not write size check! Type: Zenject.IFactory`10 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::IFactory_10, "Zenject", "IFactory`10");
 #pragma pack(pop)

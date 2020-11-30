@@ -50,6 +50,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static MarshalByRefObject* New_ctor();
   }; // System.MarshalByRefObject
+  check_size<sizeof(MarshalByRefObject), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_MarshalByRefObjectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::MarshalByRefObject*, "System", "MarshalByRefObject");

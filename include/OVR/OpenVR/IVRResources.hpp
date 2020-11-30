@@ -30,6 +30,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: IVRResources
     constexpr IVRResources(OVR::OpenVR::IVRResources::_LoadSharedResource* LoadSharedResource_ = {}, OVR::OpenVR::IVRResources::_GetResourceFullPath* GetResourceFullPath_ = {}) noexcept : LoadSharedResource{LoadSharedResource_}, GetResourceFullPath{GetResourceFullPath_} {}
   }; // OVR.OpenVR.IVRResources
+  check_size<sizeof(IVRResources), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __OVR_OpenVR_IVRResourcesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRResources, "OVR.OpenVR", "IVRResources");

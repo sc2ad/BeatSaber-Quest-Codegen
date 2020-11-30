@@ -32,6 +32,7 @@ namespace Mono::Net {
     // Creating value type constructor for type: CFStreamClientContext
     constexpr CFStreamClientContext(System::IntPtr Version_ = {}, System::IntPtr Info_ = {}, System::IntPtr Retain_ = {}, System::IntPtr Release_ = {}, System::IntPtr CopyDescription_ = {}) noexcept : Version{Version_}, Info{Info_}, Retain{Retain_}, Release{Release_}, CopyDescription{CopyDescription_} {}
   }; // Mono.Net.CFStreamClientContext
+  check_size<sizeof(CFStreamClientContext), 32 + sizeof(System::IntPtr) + 8 - (32 + sizeof(System::IntPtr)) % 8> __Mono_Net_CFStreamClientContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFStreamClientContext, "Mono.Net", "CFStreamClientContext");

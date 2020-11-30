@@ -36,6 +36,7 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     // Creating value type constructor for type: sockaddr_in6
     constexpr sockaddr_in6(uint8_t sin6_len_ = {}, uint8_t sin6_family_ = {}, uint16_t sin6_port_ = {}, uint sin6_flowinfo_ = {}, System::Net::NetworkInformation::MacOsStructs::in6_addr sin6_addr_ = {}, uint sin6_scope_id_ = {}) noexcept : sin6_len{sin6_len_}, sin6_family{sin6_family_}, sin6_port{sin6_port_}, sin6_flowinfo{sin6_flowinfo_}, sin6_addr{sin6_addr_}, sin6_scope_id{sin6_scope_id_} {}
   }; // System.Net.NetworkInformation.MacOsStructs.sockaddr_in6
+  check_size<sizeof(sockaddr_in6), 16 + sizeof(uint) + 8 - (16 + sizeof(uint)) % 8> __System_Net_NetworkInformation_MacOsStructs_sockaddr_in6SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsStructs::sockaddr_in6, "System.Net.NetworkInformation.MacOsStructs", "sockaddr_in6");

@@ -117,6 +117,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // SaberTrailRenderer
+  check_size<sizeof(SaberTrailRenderer), 92 + sizeof(float) + 8 - (92 + sizeof(float)) % 8> __GlobalNamespace_SaberTrailRendererSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTrailRenderer*, "", "SaberTrailRenderer");

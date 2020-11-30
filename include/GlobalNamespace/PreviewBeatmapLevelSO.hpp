@@ -211,6 +211,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PreviewBeatmapLevelSO* New_ctor();
   }; // PreviewBeatmapLevelSO
+  check_size<sizeof(PreviewBeatmapLevelSO), 144 + sizeof(void*) + 8 - (144 + sizeof(void*)) % 8> __GlobalNamespace_PreviewBeatmapLevelSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PreviewBeatmapLevelSO*, "", "PreviewBeatmapLevelSO");

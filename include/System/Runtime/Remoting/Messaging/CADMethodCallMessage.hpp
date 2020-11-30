@@ -53,6 +53,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x117A12C
     int get_PropertiesCount();
   }; // System.Runtime.Remoting.Messaging.CADMethodCallMessage
+  check_size<sizeof(CADMethodCallMessage), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __System_Runtime_Remoting_Messaging_CADMethodCallMessageSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMethodCallMessage*, "System.Runtime.Remoting.Messaging", "CADMethodCallMessage");

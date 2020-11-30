@@ -127,6 +127,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PlayerDataFileManagerSO* New_ctor();
   }; // PlayerDataFileManagerSO
+  check_size<sizeof(PlayerDataFileManagerSO), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __GlobalNamespace_PlayerDataFileManagerSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerDataFileManagerSO*, "", "PlayerDataFileManagerSO");

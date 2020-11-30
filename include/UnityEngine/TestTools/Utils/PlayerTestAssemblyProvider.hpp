@@ -46,6 +46,7 @@ namespace UnityEngine::TestTools::Utils {
     // Offset: 0x1A03814
     void LoadAssemblies();
   }; // UnityEngine.TestTools.Utils.PlayerTestAssemblyProvider
+  check_size<sizeof(PlayerTestAssemblyProvider), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_TestTools_Utils_PlayerTestAssemblyProviderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider*, "UnityEngine.TestTools.Utils", "PlayerTestAssemblyProvider");

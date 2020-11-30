@@ -78,6 +78,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // TestBeatmapDataAssetFileModel/<GetAssetBundleFileForPreviewLevelAsync>d__4
+  check_size<sizeof(TestBeatmapDataAssetFileModel::$GetAssetBundleFileForPreviewLevelAsync$d__4), 80 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult>) + 8 - (80 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult>)) % 8> __GlobalNamespace_TestBeatmapDataAssetFileModel_$GetAssetBundleFileForPreviewLevelAsync$d__4SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestBeatmapDataAssetFileModel::$GetAssetBundleFileForPreviewLevelAsync$d__4, "", "TestBeatmapDataAssetFileModel/<GetAssetBundleFileForPreviewLevelAsync>d__4");

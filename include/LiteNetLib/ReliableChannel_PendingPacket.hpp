@@ -53,6 +53,7 @@ namespace LiteNetLib {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // LiteNetLib.ReliableChannel/PendingPacket
+  check_size<sizeof(ReliableChannel::PendingPacket), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __LiteNetLib_ReliableChannel_PendingPacketSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ReliableChannel::PendingPacket, "LiteNetLib", "ReliableChannel/PendingPacket");

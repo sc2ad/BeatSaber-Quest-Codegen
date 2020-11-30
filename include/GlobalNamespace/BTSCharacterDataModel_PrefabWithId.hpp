@@ -38,6 +38,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BTSCharacterDataModel::PrefabWithId* New_ctor();
   }; // BTSCharacterDataModel/PrefabWithId
+  check_size<sizeof(BTSCharacterDataModel::PrefabWithId), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_BTSCharacterDataModel_PrefabWithIdSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel::PrefabWithId*, "", "BTSCharacterDataModel/PrefabWithId");

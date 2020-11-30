@@ -47,6 +47,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.DepthTextureMode MotionVectors
     static void _set_MotionVectors(UnityEngine::DepthTextureMode value);
   }; // UnityEngine.DepthTextureMode
+  check_size<sizeof(DepthTextureMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_DepthTextureModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DepthTextureMode, "UnityEngine", "DepthTextureMode");

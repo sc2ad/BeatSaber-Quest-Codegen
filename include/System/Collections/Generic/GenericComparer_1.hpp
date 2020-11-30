@@ -29,21 +29,27 @@ namespace System::Collections::Generic {
     // Implemented from: System.Collections.Generic.Comparer`1
     // Base method: System.Int32 Comparer_1::Compare(T x, T y)
     int Compare(T x, T y) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "Compare", x, y));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("GenericComparer_1").WithContext("Compare");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "Compare", {}, ::il2cpp_utils::ExtractTypes(x, y)));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, x, y);
     }
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Equals", obj));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("GenericComparer_1").WithContext("Equals");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "Equals", {}, ::il2cpp_utils::ExtractTypes(obj)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, obj);
     }
     // public override System.Int32 GetHashCode()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "GetHashCode"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("GenericComparer_1").WithContext("GetHashCode");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "GetHashCode", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -51,9 +57,11 @@ namespace System::Collections::Generic {
     // Base method: System.Void Comparer_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static GenericComparer_1<T>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<GenericComparer_1<T>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("GenericComparer_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<GenericComparer_1<T>*>());
     }
   }; // System.Collections.Generic.GenericComparer`1
+  // Could not write size check! Type: System.Collections.Generic.GenericComparer`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::GenericComparer_1, "System.Collections.Generic", "GenericComparer`1");
 #pragma pack(pop)

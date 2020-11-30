@@ -68,6 +68,7 @@ namespace System::Diagnostics {
     // Base method: System.Void Object::.ctor()
     static Stopwatch* New_ctor();
   }; // System.Diagnostics.Stopwatch
+  check_size<sizeof(Stopwatch), 32 + sizeof(bool) + 8 - (32 + sizeof(bool)) % 8> __System_Diagnostics_StopwatchSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Stopwatch*, "System.Diagnostics", "Stopwatch");

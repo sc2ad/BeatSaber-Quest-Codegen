@@ -38,39 +38,54 @@ namespace UnityEngine::ProBuilder::KdTree {
     // public T[] get_MinPoint()
     // Offset: 0xFFFFFFFF
     ::Array<T>* get_MinPoint() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Array<T>*>(*this, "get_MinPoint"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("HyperRect_1").WithContext("get_MinPoint");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<::Array<T>*>(), "get_MinPoint", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(*this, ___internal__method);
     }
     // public System.Void set_MinPoint(T[] value)
     // Offset: 0xFFFFFFFF
     void set_MinPoint(::Array<T>* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_MinPoint", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("HyperRect_1").WithContext("set_MinPoint");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_MinPoint", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // public T[] get_MaxPoint()
     // Offset: 0xFFFFFFFF
     ::Array<T>* get_MaxPoint() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Array<T>*>(*this, "get_MaxPoint"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("HyperRect_1").WithContext("get_MaxPoint");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<::Array<T>*>(), "get_MaxPoint", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(*this, ___internal__method);
     }
     // public System.Void set_MaxPoint(T[] value)
     // Offset: 0xFFFFFFFF
     void set_MaxPoint(::Array<T>* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "set_MaxPoint", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("HyperRect_1").WithContext("set_MaxPoint");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "set_MaxPoint", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // static public UnityEngine.ProBuilder.KdTree.HyperRect`1<T> Infinite(System.Int32 dimensions, UnityEngine.ProBuilder.KdTree.ITypeMath`1<T> math)
     // Offset: 0xFFFFFFFF
     static UnityEngine::ProBuilder::KdTree::HyperRect_1<T> Infinite(int dimensions, UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>* math) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::KdTree::HyperRect_1<T>>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HyperRect_1<T>>::get(), "Infinite", dimensions, math));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("HyperRect_1").WithContext("Infinite");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HyperRect_1<T>>::get(), il2cpp_utils::NoArgClass<UnityEngine::ProBuilder::KdTree::HyperRect_1<T>>(), "Infinite", {}, ::il2cpp_utils::ExtractTypes(dimensions, math))));
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ProBuilder::KdTree::HyperRect_1<T>, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, dimensions, math);
     }
     // public T[] GetClosestPoint(T[] toPoint, UnityEngine.ProBuilder.KdTree.ITypeMath`1<T> math)
     // Offset: 0xFFFFFFFF
     ::Array<T>* GetClosestPoint(::Array<T>* toPoint, UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>* math) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Array<T>*>(*this, "GetClosestPoint", toPoint, math));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("HyperRect_1").WithContext("GetClosestPoint");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<::Array<T>*>(), "GetClosestPoint", {}, ::il2cpp_utils::ExtractTypes(toPoint, math)));
+      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(*this, ___internal__method, toPoint, math);
     }
     // public UnityEngine.ProBuilder.KdTree.HyperRect`1<T> Clone()
     // Offset: 0xFFFFFFFF
     UnityEngine::ProBuilder::KdTree::HyperRect_1<T> Clone() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<UnityEngine::ProBuilder::KdTree::HyperRect_1<T>>(*this, "Clone"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder::KdTree").WithContext("HyperRect_1").WithContext("Clone");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<UnityEngine::ProBuilder::KdTree::HyperRect_1<T>>(), "Clone", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::ProBuilder::KdTree::HyperRect_1<T>, false>(*this, ___internal__method);
     }
   }; // UnityEngine.ProBuilder.KdTree.HyperRect`1
+  // Could not write size check! Type: UnityEngine.ProBuilder.KdTree.HyperRect`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::ProBuilder::KdTree::HyperRect_1, "UnityEngine.ProBuilder.KdTree", "HyperRect`1");
 #pragma pack(pop)

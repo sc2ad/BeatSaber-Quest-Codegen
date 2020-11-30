@@ -193,6 +193,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LevelSelectionFlowCoordinator* New_ctor();
   }; // LevelSelectionFlowCoordinator
+  check_size<sizeof(LevelSelectionFlowCoordinator), 200 + sizeof(void*) + 8 - (200 + sizeof(void*)) % 8> __GlobalNamespace_LevelSelectionFlowCoordinatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSelectionFlowCoordinator*, "", "LevelSelectionFlowCoordinator");

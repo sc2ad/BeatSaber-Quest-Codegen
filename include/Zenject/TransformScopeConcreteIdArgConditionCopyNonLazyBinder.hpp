@@ -57,6 +57,7 @@ namespace Zenject {
     // Offset: 0x1359AE4
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransformGroup(::Il2CppString* transformGroupname);
   }; // Zenject.TransformScopeConcreteIdArgConditionCopyNonLazyBinder
+  check_size<sizeof(TransformScopeConcreteIdArgConditionCopyNonLazyBinder), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Zenject_TransformScopeConcreteIdArgConditionCopyNonLazyBinderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "TransformScopeConcreteIdArgConditionCopyNonLazyBinder");

@@ -56,6 +56,7 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Creating value type constructor for type: DiscLight
     constexpr DiscLight(int instanceID_ = {}, bool shadow_ = {}, UnityEngine::Experimental::GlobalIllumination::LightMode mode_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion orientation_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor color_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor_ = {}, float range_ = {}, float radius_ = {}, UnityEngine::Experimental::GlobalIllumination::FalloffType falloff_ = {}) noexcept : instanceID{instanceID_}, shadow{shadow_}, mode{mode_}, position{position_}, orientation{orientation_}, color{color_}, indirectColor{indirectColor_}, range{range_}, radius{radius_}, falloff{falloff_} {}
   }; // UnityEngine.Experimental.GlobalIllumination.DiscLight
+  check_size<sizeof(DiscLight), 76 + sizeof(UnityEngine::Experimental::GlobalIllumination::FalloffType) + 8 - (76 + sizeof(UnityEngine::Experimental::GlobalIllumination::FalloffType)) % 8> __UnityEngine_Experimental_GlobalIllumination_DiscLightSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::DiscLight, "UnityEngine.Experimental.GlobalIllumination", "DiscLight");

@@ -52,6 +52,7 @@ namespace NUnit::Framework::Internal::Builders {
     // Base method: System.Void Object::.ctor()
     static NUnitTestCaseBuilder* New_ctor();
   }; // NUnit.Framework.Internal.Builders.NUnitTestCaseBuilder
+  check_size<sizeof(NUnitTestCaseBuilder), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __NUnit_Framework_Internal_Builders_NUnitTestCaseBuilderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*, "NUnit.Framework.Internal.Builders", "NUnitTestCaseBuilder");

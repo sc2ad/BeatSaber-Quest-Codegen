@@ -91,6 +91,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Base method: System.Void Triangulatable::Prepare(UnityEngine.ProBuilder.Poly2Tri.TriangulationContext tcx)
     void Prepare(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
   }; // UnityEngine.ProBuilder.Poly2Tri.Polygon
+  check_size<sizeof(Polygon), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_Poly2Tri_PolygonSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::Polygon*, "UnityEngine.ProBuilder.Poly2Tri", "Polygon");

@@ -35,16 +35,20 @@ namespace GlobalNamespace {
     // public System.Void .ctor(SteamVR_Events/Event`1<T> _event, UnityEngine.Events.UnityAction`1<T> action)
     // Offset: 0xFFFFFFFF
     static SteamVR_Events::Action_1<T>* New_ctor(GlobalNamespace::SteamVR_Events::Event_1<T>* _event, UnityEngine::Events::UnityAction_1<T>* action) {
-      return THROW_UNLESS(il2cpp_utils::New<SteamVR_Events::Action_1<T>*>(_event, action));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("Action_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<SteamVR_Events::Action_1<T>*>(_event, action));
     }
     // public override System.Void Enable(System.Boolean enabled)
     // Offset: 0xFFFFFFFF
     // Implemented from: SteamVR_Events/Action
     // Base method: System.Void Action::Enable(System.Boolean enabled)
     void Enable(bool enabled) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Enable", enabled));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("Action_1").WithContext("Enable");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Enable", {}, ::il2cpp_utils::ExtractTypes(enabled)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, enabled);
     }
   }; // SteamVR_Events/Action`1
+  // Could not write size check! Type: SteamVR_Events/Action`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::SteamVR_Events::Action_1, "", "SteamVR_Events/Action`1");
 #pragma pack(pop)

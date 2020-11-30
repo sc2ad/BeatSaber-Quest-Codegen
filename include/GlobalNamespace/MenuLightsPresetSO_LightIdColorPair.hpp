@@ -43,6 +43,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MenuLightsPresetSO::LightIdColorPair* New_ctor();
   }; // MenuLightsPresetSO/LightIdColorPair
+  check_size<sizeof(MenuLightsPresetSO::LightIdColorPair), 32 + sizeof(float) + 8 - (32 + sizeof(float)) % 8> __GlobalNamespace_MenuLightsPresetSO_LightIdColorPairSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*, "", "MenuLightsPresetSO/LightIdColorPair");

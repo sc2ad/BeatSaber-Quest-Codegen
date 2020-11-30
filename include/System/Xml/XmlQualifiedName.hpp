@@ -83,6 +83,7 @@ namespace System::Xml {
     // Base method: System.Boolean Object::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
   }; // System.Xml.XmlQualifiedName
+  check_size<sizeof(XmlQualifiedName), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __System_Xml_XmlQualifiedNameSizeCheck;
   // static public System.Boolean op_Equality(System.Xml.XmlQualifiedName a, System.Xml.XmlQualifiedName b)
   // Offset: 0x14EF8DC
   bool operator ==(System::Xml::XmlQualifiedName* a, System::Xml::XmlQualifiedName& b);

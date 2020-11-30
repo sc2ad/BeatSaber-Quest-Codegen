@@ -16,14 +16,19 @@ namespace GlobalNamespace {
     // public T get_value()
     // Offset: 0xFFFFFFFF
     T get_value() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_value"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("IValue_1").WithContext("get_value");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "get_value", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public System.Void set_value(T value)
     // Offset: 0xFFFFFFFF
     void set_value(T value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_value", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("IValue_1").WithContext("set_value");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "set_value", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
   }; // IValue`1
+  // Could not write size check! Type: IValue`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::IValue_1, "", "IValue`1");
 #pragma pack(pop)

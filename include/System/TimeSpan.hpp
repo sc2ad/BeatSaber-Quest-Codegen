@@ -197,6 +197,7 @@ namespace System {
     // Base method: System.String IFormattable::ToString(System.String format, System.IFormatProvider formatProvider)
     ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* formatProvider);
   }; // System.TimeSpan
+  check_size<sizeof(TimeSpan), 0 + sizeof(int64_t) + 8 - (0 + sizeof(int64_t)) % 8> __System_TimeSpanSizeCheck;
   // static public System.TimeSpan op_Subtraction(System.TimeSpan t1, System.TimeSpan t2)
   // Offset: 0x164B78C
   System::TimeSpan operator-(const System::TimeSpan& t1, const System::TimeSpan& t2);

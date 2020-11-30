@@ -44,21 +44,27 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.InjectContext context)
     // Offset: 0xFFFFFFFF
     static LazyInject_1<T>* New_ctor(Zenject::DiContainer* container, Zenject::InjectContext* context) {
-      return THROW_UNLESS(il2cpp_utils::New<LazyInject_1<T>*>(container, context));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("LazyInject_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<LazyInject_1<T>*>(container, context));
     }
     // public T get_Value()
     // Offset: 0xFFFFFFFF
     T get_Value() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_Value"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("LazyInject_1").WithContext("get_Value");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "get_Value", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // private System.Void Zenject.IValidatable.Validate()
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IValidatable
     // Base method: System.Void IValidatable::Validate()
     void Zenject_IValidatable_Validate() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Zenject.IValidatable.Validate"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("LazyInject_1").WithContext("Zenject.IValidatable.Validate");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Zenject.IValidatable.Validate", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
   }; // Zenject.LazyInject`1
+  // Could not write size check! Type: Zenject.LazyInject`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::LazyInject_1, "Zenject", "LazyInject`1");
 #pragma pack(pop)

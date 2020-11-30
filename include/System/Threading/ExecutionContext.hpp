@@ -100,6 +100,7 @@ namespace System::Threading {
       // Set static field: static public System.Threading.ExecutionContext/Flags IsPreAllocatedDefault
       static void _set_IsPreAllocatedDefault(System::Threading::ExecutionContext::Flags value);
     }; // System.Threading.ExecutionContext/Flags
+    check_size<sizeof(ExecutionContext::Flags), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Threading_ExecutionContext_FlagsSizeCheck;
     // private System.Threading.SynchronizationContext _syncContext
     // Offset: 0x10
     System::Threading::SynchronizationContext* syncContext;
@@ -254,6 +255,7 @@ namespace System::Threading {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Threading.ExecutionContext
+  check_size<sizeof(ExecutionContext), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __System_Threading_ExecutionContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContext*, "System.Threading", "ExecutionContext");

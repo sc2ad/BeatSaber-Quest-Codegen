@@ -35,6 +35,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11E19EC
     bool get_IsTimeout();
   }; // Oculus.Platform.Models.PingResult
+  check_size<sizeof(PingResult), 24 + sizeof(System::Nullable_1<uint64_t>) + 8 - (24 + sizeof(System::Nullable_1<uint64_t>)) % 8> __Oculus_Platform_Models_PingResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PingResult*, "Oculus.Platform.Models", "PingResult");

@@ -35,12 +35,16 @@ namespace LiteNetLib::Utils {
     // protected System.Void ElementWrite(LiteNetLib.Utils.NetDataWriter w, ref System.Net.IPEndPoint prop)
     // Offset: 0xFFFFFFFF
     void ElementWrite(LiteNetLib::Utils::NetDataWriter* w, System::Net::IPEndPoint*& prop) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "ElementWrite", w, prop));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("IPEndPointSerializer_1").WithContext("ElementWrite");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "ElementWrite", {}, ::il2cpp_utils::ExtractTypes(w, prop)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, w, prop);
     }
     // protected System.Void ElementRead(LiteNetLib.Utils.NetDataReader r, out System.Net.IPEndPoint prop)
     // Offset: 0xFFFFFFFF
     void ElementRead(LiteNetLib::Utils::NetDataReader* r, System::Net::IPEndPoint*& prop) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "ElementRead", r, prop));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("IPEndPointSerializer_1").WithContext("ElementRead");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "ElementRead", {}, ::il2cpp_utils::ExtractTypes(r, prop)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, r, prop);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -50,9 +54,11 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void FastCall_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static NetSerializer::IPEndPointSerializer_1<T>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<NetSerializer::IPEndPointSerializer_1<T>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("IPEndPointSerializer_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<NetSerializer::IPEndPointSerializer_1<T>*>());
     }
   }; // LiteNetLib.Utils.NetSerializer/IPEndPointSerializer`1
+  // Could not write size check! Type: LiteNetLib.Utils.NetSerializer/IPEndPointSerializer`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(LiteNetLib::Utils::NetSerializer::IPEndPointSerializer_1, "LiteNetLib.Utils", "NetSerializer/IPEndPointSerializer`1");
 #pragma pack(pop)

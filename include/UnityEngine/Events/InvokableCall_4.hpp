@@ -41,23 +41,29 @@ namespace UnityEngine::Events {
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Void BaseInvokableCall::.ctor(System.Object target, System.Reflection.MethodInfo theFunction)
     static InvokableCall_4<T1, T2, T3, T4>* New_ctor(::Il2CppObject* target, System::Reflection::MethodInfo* theFunction) {
-      return THROW_UNLESS((il2cpp_utils::New<InvokableCall_4<T1, T2, T3, T4>*>(target, theFunction)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Events").WithContext("InvokableCall_4").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<InvokableCall_4<T1, T2, T3, T4>*>(target, theFunction)));
     }
     // public override System.Void Invoke(System.Object[] args)
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Void BaseInvokableCall::Invoke(System.Object[] args)
     void Invoke(::Array<::Il2CppObject*>* args) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invoke", args));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Events").WithContext("InvokableCall_4").WithContext("Invoke");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Invoke", {}, ::il2cpp_utils::ExtractTypes(args)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, args);
     }
     // public override System.Boolean Find(System.Object targetObj, System.Reflection.MethodInfo method)
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Boolean BaseInvokableCall::Find(System.Object targetObj, System.Reflection.MethodInfo method)
     bool Find(::Il2CppObject* targetObj, System::Reflection::MethodInfo* method) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Find", targetObj, method));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Events").WithContext("InvokableCall_4").WithContext("Find");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "Find", {}, ::il2cpp_utils::ExtractTypes(targetObj, method)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, targetObj, method);
     }
   }; // UnityEngine.Events.InvokableCall`4
+  // Could not write size check! Type: UnityEngine.Events.InvokableCall`4 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::Events::InvokableCall_4, "UnityEngine.Events", "InvokableCall`4");
 #pragma pack(pop)

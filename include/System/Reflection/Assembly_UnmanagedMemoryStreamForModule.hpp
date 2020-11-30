@@ -34,6 +34,7 @@ namespace System::Reflection {
     // Base method: System.Void UnmanagedMemoryStream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // System.Reflection.Assembly/UnmanagedMemoryStreamForModule
+  check_size<sizeof(Assembly::UnmanagedMemoryStreamForModule), 104 + sizeof(void*) + 8 - (104 + sizeof(void*)) % 8> __System_Reflection_Assembly_UnmanagedMemoryStreamForModuleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Assembly::UnmanagedMemoryStreamForModule*, "System.Reflection", "Assembly/UnmanagedMemoryStreamForModule");

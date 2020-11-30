@@ -16,9 +16,12 @@ namespace System {
     // public System.Boolean Equals(T other)
     // Offset: 0xFFFFFFFF
     bool Equals(T other) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "Equals", other));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("IEquatable_1").WithContext("Equals");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "Equals", {}, ::il2cpp_utils::ExtractTypes(other)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, other);
     }
   }; // System.IEquatable`1
+  // Could not write size check! Type: System.IEquatable`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::IEquatable_1, "System", "IEquatable`1");
 #pragma pack(pop)

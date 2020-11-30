@@ -27,6 +27,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x151A874
     static TailoringInfo* New_ctor(int lcid, int tailoringIndex, int tailoringCount, bool frenchSort);
   }; // Mono.Globalization.Unicode.TailoringInfo
+  check_size<sizeof(TailoringInfo), 28 + sizeof(bool) + 8 - (28 + sizeof(bool)) % 8> __Mono_Globalization_Unicode_TailoringInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::TailoringInfo*, "Mono.Globalization.Unicode", "TailoringInfo");

@@ -127,6 +127,7 @@ namespace System::Net::Http {
     // Base method: System.Void Object::.ctor()
     static HttpContent* New_ctor();
   }; // System.Net.Http.HttpContent
+  check_size<sizeof(HttpContent), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Net_Http_HttpContentSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpContent*, "System.Net.Http", "HttpContent");

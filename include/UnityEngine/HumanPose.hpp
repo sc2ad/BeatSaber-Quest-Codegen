@@ -32,6 +32,7 @@ namespace UnityEngine {
     // Offset: 0xCB759C
     void Init();
   }; // UnityEngine.HumanPose
+  check_size<sizeof(HumanPose), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __UnityEngine_HumanPoseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanPose, "UnityEngine", "HumanPose");

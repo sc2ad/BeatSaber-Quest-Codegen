@@ -36,6 +36,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerSessionManager::$$c__DisplayClass92_0* New_ctor();
   }; // MultiplayerSessionManager/<>c__DisplayClass92_0
+  check_size<sizeof(MultiplayerSessionManager::$$c__DisplayClass92_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerSessionManager_$$c__DisplayClass92_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager::$$c__DisplayClass92_0*, "", "MultiplayerSessionManager/<>c__DisplayClass92_0");

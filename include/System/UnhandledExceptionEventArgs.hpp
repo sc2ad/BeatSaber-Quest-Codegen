@@ -29,6 +29,7 @@ namespace System {
     // Offset: 0x165EE70
     bool get_IsTerminating();
   }; // System.UnhandledExceptionEventArgs
+  check_size<sizeof(UnhandledExceptionEventArgs), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __System_UnhandledExceptionEventArgsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UnhandledExceptionEventArgs*, "System", "UnhandledExceptionEventArgs");

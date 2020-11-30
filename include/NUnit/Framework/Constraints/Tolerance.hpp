@@ -41,6 +41,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x13DD1EC
     bool get_IsUnsetOrDefault();
   }; // NUnit.Framework.Constraints.Tolerance
+  check_size<sizeof(Tolerance), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __NUnit_Framework_Constraints_ToleranceSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::Tolerance*, "NUnit.Framework.Constraints", "Tolerance");

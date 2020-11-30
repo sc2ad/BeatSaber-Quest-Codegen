@@ -329,6 +329,7 @@ namespace Valve::VR {
     // Offset: 0x136AC04
     void CloseMessageOverlay();
   }; // Valve.VR.CVROverlay
+  check_size<sizeof(CVROverlay), 16 + sizeof(Valve::VR::IVROverlay) + 8 - (16 + sizeof(Valve::VR::IVROverlay)) % 8> __Valve_VR_CVROverlaySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVROverlay*, "Valve.VR", "CVROverlay");

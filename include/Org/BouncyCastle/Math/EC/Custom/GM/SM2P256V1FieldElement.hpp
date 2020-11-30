@@ -133,6 +133,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::GM {
     // Base method: System.Int32 ECFieldElement::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Math.EC.Custom.GM.SM2P256V1FieldElement
+  check_size<sizeof(SM2P256V1FieldElement), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_EC_Custom_GM_SM2P256V1FieldElementSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement*, "Org.BouncyCastle.Math.EC.Custom.GM", "SM2P256V1FieldElement");

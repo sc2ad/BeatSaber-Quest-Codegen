@@ -29,6 +29,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // TMPro.SpriteAssetUtilities.TexturePacker/SpriteSize
+  check_size<sizeof(TexturePacker::SpriteSize), 4 + sizeof(float) + 8 - (4 + sizeof(float)) % 8> __TMPro_SpriteAssetUtilities_TexturePacker_SpriteSizeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker::SpriteSize, "TMPro.SpriteAssetUtilities", "TexturePacker/SpriteSize");

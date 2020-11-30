@@ -41,6 +41,7 @@ namespace UnityEngine::TestRunner::Utils {
     // Base method: System.Void Object::.ctor()
     static TestRunCallbackListener::$$c__DisplayClass5_0* New_ctor();
   }; // UnityEngine.TestRunner.Utils.TestRunCallbackListener/<>c__DisplayClass5_0
+  check_size<sizeof(TestRunCallbackListener::$$c__DisplayClass5_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_TestRunner_Utils_TestRunCallbackListener_$$c__DisplayClass5_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c__DisplayClass5_0*, "UnityEngine.TestRunner.Utils", "TestRunCallbackListener/<>c__DisplayClass5_0");

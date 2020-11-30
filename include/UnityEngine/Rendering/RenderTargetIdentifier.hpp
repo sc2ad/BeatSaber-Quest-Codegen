@@ -85,6 +85,7 @@ namespace UnityEngine::Rendering {
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
   }; // UnityEngine.Rendering.RenderTargetIdentifier
+  check_size<sizeof(RenderTargetIdentifier), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __UnityEngine_Rendering_RenderTargetIdentifierSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderTargetIdentifier, "UnityEngine.Rendering", "RenderTargetIdentifier");

@@ -46,6 +46,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static FBBIKHeadEffector::BendBone* New_ctor();
   }; // RootMotion.FinalIK.FBBIKHeadEffector/BendBone
+  check_size<sizeof(FBBIKHeadEffector::BendBone), 28 + sizeof(UnityEngine::Quaternion) + 8 - (28 + sizeof(UnityEngine::Quaternion)) % 8> __RootMotion_FinalIK_FBBIKHeadEffector_BendBoneSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBBIKHeadEffector::BendBone*, "RootMotion.FinalIK", "FBBIKHeadEffector/BendBone");

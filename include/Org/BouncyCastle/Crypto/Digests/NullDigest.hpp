@@ -72,6 +72,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Base method: System.Void Object::.ctor()
     static NullDigest* New_ctor();
   }; // Org.BouncyCastle.Crypto.Digests.NullDigest
+  check_size<sizeof(NullDigest), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Digests_NullDigestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::NullDigest*, "Org.BouncyCastle.Crypto.Digests", "NullDigest");

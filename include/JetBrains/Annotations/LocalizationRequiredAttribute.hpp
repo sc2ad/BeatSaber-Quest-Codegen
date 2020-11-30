@@ -36,6 +36,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     static LocalizationRequiredAttribute* New_ctor();
   }; // JetBrains.Annotations.LocalizationRequiredAttribute
+  check_size<sizeof(LocalizationRequiredAttribute), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __JetBrains_Annotations_LocalizationRequiredAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::LocalizationRequiredAttribute*, "JetBrains.Annotations", "LocalizationRequiredAttribute");

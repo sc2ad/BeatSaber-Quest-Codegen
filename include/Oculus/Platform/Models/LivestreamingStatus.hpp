@@ -37,6 +37,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DBA44
     static LivestreamingStatus* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.LivestreamingStatus
+  check_size<sizeof(LivestreamingStatus), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __Oculus_Platform_Models_LivestreamingStatusSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LivestreamingStatus*, "Oculus.Platform.Models", "LivestreamingStatus");

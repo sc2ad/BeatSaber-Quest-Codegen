@@ -36,6 +36,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PlayersAtGameStartModel::$$c__DisplayClass9_0* New_ctor();
   }; // PlayersAtGameStartModel/<>c__DisplayClass9_0
+  check_size<sizeof(PlayersAtGameStartModel::$$c__DisplayClass9_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_PlayersAtGameStartModel_$$c__DisplayClass9_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayersAtGameStartModel::$$c__DisplayClass9_0*, "", "PlayersAtGameStartModel/<>c__DisplayClass9_0");

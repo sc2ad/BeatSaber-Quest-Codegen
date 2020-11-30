@@ -75,6 +75,7 @@ namespace Mono::Xml {
     // Base method: System.Void Object::.ctor()
     static SmallXmlParser::AttrListImpl* New_ctor();
   }; // Mono.Xml.SmallXmlParser/AttrListImpl
+  check_size<sizeof(SmallXmlParser::AttrListImpl), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Mono_Xml_SmallXmlParser_AttrListImplSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser::AttrListImpl*, "Mono.Xml", "SmallXmlParser/AttrListImpl");

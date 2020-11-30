@@ -80,6 +80,7 @@ namespace GlobalNamespace {
       // Set static field: static public MultiplayerModeSelectionViewController/MenuButton GameBrowser
       static void _set_GameBrowser(GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton value);
     }; // MultiplayerModeSelectionViewController/MenuButton
+    check_size<sizeof(MultiplayerModeSelectionViewController::MenuButton), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_MultiplayerModeSelectionViewController_MenuButtonSizeCheck;
     // private UnityEngine.UI.Button _quickPlayButton
     // Offset: 0x70
     UnityEngine::UI::Button* quickPlayButton;
@@ -144,6 +145,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerModeSelectionViewController* New_ctor();
   }; // MultiplayerModeSelectionViewController
+  check_size<sizeof(MultiplayerModeSelectionViewController), 168 + sizeof(void*) + 8 - (168 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerModeSelectionViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSelectionViewController*, "", "MultiplayerModeSelectionViewController");

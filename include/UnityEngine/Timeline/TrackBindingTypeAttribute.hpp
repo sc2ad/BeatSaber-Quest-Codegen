@@ -35,6 +35,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x1972920
     static TrackBindingTypeAttribute* New_ctor(System::Type* type, UnityEngine::Timeline::TrackBindingFlags flags);
   }; // UnityEngine.Timeline.TrackBindingTypeAttribute
+  check_size<sizeof(TrackBindingTypeAttribute), 24 + sizeof(UnityEngine::Timeline::TrackBindingFlags) + 8 - (24 + sizeof(UnityEngine::Timeline::TrackBindingFlags)) % 8> __UnityEngine_Timeline_TrackBindingTypeAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackBindingTypeAttribute*, "UnityEngine.Timeline", "TrackBindingTypeAttribute");

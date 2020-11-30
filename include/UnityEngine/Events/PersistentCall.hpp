@@ -78,6 +78,7 @@ namespace UnityEngine::Events {
     // Base method: System.Void Object::.ctor()
     static PersistentCall* New_ctor();
   }; // UnityEngine.Events.PersistentCall
+  check_size<sizeof(PersistentCall), 48 + sizeof(UnityEngine::Events::UnityEventCallState) + 8 - (48 + sizeof(UnityEngine::Events::UnityEventCallState)) % 8> __UnityEngine_Events_PersistentCallSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::PersistentCall*, "UnityEngine.Events", "PersistentCall");

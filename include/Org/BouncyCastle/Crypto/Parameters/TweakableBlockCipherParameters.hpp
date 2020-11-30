@@ -37,6 +37,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x104A0E4
     ::Array<uint8_t>* get_Tweak();
   }; // Org.BouncyCastle.Crypto.Parameters.TweakableBlockCipherParameters
+  check_size<sizeof(TweakableBlockCipherParameters), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Parameters_TweakableBlockCipherParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters*, "Org.BouncyCastle.Crypto.Parameters", "TweakableBlockCipherParameters");

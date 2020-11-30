@@ -66,6 +66,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x12F849C
     void SetValue(::Il2CppString* value, int index);
   }; // System.Runtime.Serialization.Formatters.Binary.PrimitiveArray
+  check_size<sizeof(PrimitiveArray), 104 + sizeof(void*) + 8 - (104 + sizeof(void*)) % 8> __System_Runtime_Serialization_Formatters_Binary_PrimitiveArraySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*, "System.Runtime.Serialization.Formatters.Binary", "PrimitiveArray");

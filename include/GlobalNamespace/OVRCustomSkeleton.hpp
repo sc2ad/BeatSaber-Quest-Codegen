@@ -48,6 +48,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRCustomSkeleton* New_ctor();
   }; // OVRCustomSkeleton
+  check_size<sizeof(OVRCustomSkeleton), 144 + sizeof(void*) + 8 - (144 + sizeof(void*)) % 8> __GlobalNamespace_OVRCustomSkeletonSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCustomSkeleton*, "", "OVRCustomSkeleton");

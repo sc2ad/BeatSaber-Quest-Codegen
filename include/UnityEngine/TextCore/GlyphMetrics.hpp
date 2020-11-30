@@ -72,6 +72,7 @@ namespace UnityEngine::TextCore {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.TextCore.GlyphMetrics other)
     bool Equals(UnityEngine::TextCore::GlyphMetrics other);
   }; // UnityEngine.TextCore.GlyphMetrics
+  check_size<sizeof(GlyphMetrics), 16 + sizeof(float) + 8 - (16 + sizeof(float)) % 8> __UnityEngine_TextCore_GlyphMetricsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::GlyphMetrics, "UnityEngine.TextCore", "GlyphMetrics");

@@ -47,6 +47,7 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.ReflectionProbeUsage Simple
     static void _set_Simple(UnityEngine::Rendering::ReflectionProbeUsage value);
   }; // UnityEngine.Rendering.ReflectionProbeUsage
+  check_size<sizeof(ReflectionProbeUsage), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Rendering_ReflectionProbeUsageSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ReflectionProbeUsage, "UnityEngine.Rendering", "ReflectionProbeUsage");

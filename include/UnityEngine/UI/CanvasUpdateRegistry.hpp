@@ -126,6 +126,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static CanvasUpdateRegistry* New_ctor();
   }; // UnityEngine.UI.CanvasUpdateRegistry
+  check_size<sizeof(CanvasUpdateRegistry), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __UnityEngine_UI_CanvasUpdateRegistrySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasUpdateRegistry*, "UnityEngine.UI", "CanvasUpdateRegistry");

@@ -107,6 +107,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     static MonoEvent* New_ctor();
   }; // System.Reflection.MonoEvent
+  check_size<sizeof(MonoEvent), 32 + sizeof(System::IntPtr) + 8 - (32 + sizeof(System::IntPtr)) % 8> __System_Reflection_MonoEventSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoEvent*, "System.Reflection", "MonoEvent");

@@ -68,6 +68,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRDebugHeadController* New_ctor();
   }; // OVRDebugHeadController
+  check_size<sizeof(OVRDebugHeadController), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_OVRDebugHeadControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDebugHeadController*, "", "OVRDebugHeadController");

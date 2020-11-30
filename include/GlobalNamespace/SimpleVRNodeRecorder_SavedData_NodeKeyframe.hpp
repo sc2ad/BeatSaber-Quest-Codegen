@@ -56,6 +56,7 @@ namespace GlobalNamespace {
     // Offset: 0xFD0F28
     static SimpleVRNodeRecorder::SavedData::NodeKeyframe* New_ctor(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot, float time);
   }; // SimpleVRNodeRecorder/SavedData/NodeKeyframe
+  check_size<sizeof(SimpleVRNodeRecorder::SavedData::NodeKeyframe), 44 + sizeof(float) + 8 - (44 + sizeof(float)) % 8> __GlobalNamespace_SimpleVRNodeRecorder_SavedData_NodeKeyframeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*, "", "SimpleVRNodeRecorder/SavedData/NodeKeyframe");

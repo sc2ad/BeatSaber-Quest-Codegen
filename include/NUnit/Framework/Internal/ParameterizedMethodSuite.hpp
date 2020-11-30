@@ -38,6 +38,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.String Test::get_TestType()
     ::Il2CppString* get_TestType();
   }; // NUnit.Framework.Internal.ParameterizedMethodSuite
+  check_size<sizeof(ParameterizedMethodSuite), 137 + sizeof(bool) + 8 - (137 + sizeof(bool)) % 8> __NUnit_Framework_Internal_ParameterizedMethodSuiteSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ParameterizedMethodSuite*, "NUnit.Framework.Internal", "ParameterizedMethodSuite");

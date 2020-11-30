@@ -172,6 +172,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static GameEnergyCounter* New_ctor();
   }; // GameEnergyCounter
+  check_size<sizeof(GameEnergyCounter), 108 + sizeof(float) + 8 - (108 + sizeof(float)) % 8> __GlobalNamespace_GameEnergyCounterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameEnergyCounter*, "", "GameEnergyCounter");

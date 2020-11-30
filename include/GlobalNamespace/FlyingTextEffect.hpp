@@ -62,6 +62,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static FlyingTextEffect* New_ctor();
   }; // FlyingTextEffect
+  check_size<sizeof(FlyingTextEffect), 144 + sizeof(UnityEngine::Color) + 8 - (144 + sizeof(UnityEngine::Color)) % 8> __GlobalNamespace_FlyingTextEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingTextEffect*, "", "FlyingTextEffect");

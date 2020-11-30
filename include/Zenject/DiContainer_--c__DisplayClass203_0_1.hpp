@@ -34,16 +34,20 @@ namespace Zenject {
     // Zenject.IProvider <BindInstance>b__0(Zenject.DiContainer container, System.Type type)
     // Offset: 0xFFFFFFFF
     Zenject::IProvider* $BindInstance$b__0(Zenject::DiContainer* container, System::Type* type) {
-      return THROW_UNLESS((il2cpp_utils::RunMethod<Zenject::IProvider*>(this, "<BindInstance>b__0", container, type)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$$c__DisplayClass203_0_1").WithContext("<BindInstance>b__0");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::IProvider*>(), "<BindInstance>b__0", {}, ::il2cpp_utils::ExtractTypes(container, type))));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::IProvider*, false>(this, ___internal__method, container, type);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static DiContainer::$$c__DisplayClass203_0_1<TContract>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<DiContainer::$$c__DisplayClass203_0_1<TContract>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("$$c__DisplayClass203_0_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<DiContainer::$$c__DisplayClass203_0_1<TContract>*>());
     }
   }; // Zenject.DiContainer/<>c__DisplayClass203_0`1
+  // Could not write size check! Type: Zenject.DiContainer/<>c__DisplayClass203_0`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::DiContainer::$$c__DisplayClass203_0_1, "Zenject", "DiContainer/<>c__DisplayClass203_0`1");
 #pragma pack(pop)

@@ -35,6 +35,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVROverlayIntersectionMaskPrimitiveType OverlayIntersectionPrimitiveType_Circle
     static void _set_OverlayIntersectionPrimitiveType_Circle(OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType value);
   }; // OVR.OpenVR.EVROverlayIntersectionMaskPrimitiveType
+  check_size<sizeof(EVROverlayIntersectionMaskPrimitiveType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_EVROverlayIntersectionMaskPrimitiveTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType, "OVR.OpenVR", "EVROverlayIntersectionMaskPrimitiveType");

@@ -78,6 +78,7 @@ namespace OVRSimpleJSON {
     // Base method: System.Int32 JSONNode::GetHashCode()
     int GetHashCode();
   }; // OVRSimpleJSON.JSONString
+  check_size<sizeof(JSONString), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __OVRSimpleJSON_JSONStringSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONString*, "OVRSimpleJSON", "JSONString");

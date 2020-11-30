@@ -539,6 +539,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVRInitError Steam_SteamInstallationNotFound
     static void _set_Steam_SteamInstallationNotFound(Valve::VR::EVRInitError value);
   }; // Valve.VR.EVRInitError
+  check_size<sizeof(EVRInitError), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Valve_VR_EVRInitErrorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRInitError, "Valve.VR", "EVRInitError");

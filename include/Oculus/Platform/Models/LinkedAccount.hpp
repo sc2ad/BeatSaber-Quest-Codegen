@@ -33,6 +33,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11E11A0
     static LinkedAccount* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.LinkedAccount
+  check_size<sizeof(LinkedAccount), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Oculus_Platform_Models_LinkedAccountSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LinkedAccount*, "Oculus.Platform.Models", "LinkedAccount");

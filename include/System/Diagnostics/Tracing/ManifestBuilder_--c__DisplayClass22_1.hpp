@@ -28,6 +28,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     static ManifestBuilder::$$c__DisplayClass22_1* New_ctor();
   }; // System.Diagnostics.Tracing.ManifestBuilder/<>c__DisplayClass22_1
+  check_size<sizeof(ManifestBuilder::$$c__DisplayClass22_1), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Diagnostics_Tracing_ManifestBuilder_$$c__DisplayClass22_1SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ManifestBuilder::$$c__DisplayClass22_1*, "System.Diagnostics.Tracing", "ManifestBuilder/<>c__DisplayClass22_1");

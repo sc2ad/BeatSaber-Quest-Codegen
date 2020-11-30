@@ -40,6 +40,7 @@ namespace System::Runtime::ExceptionServices {
     // Offset: 0x1162188
     void Throw();
   }; // System.Runtime.ExceptionServices.ExceptionDispatchInfo
+  check_size<sizeof(ExceptionDispatchInfo), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Runtime_ExceptionServices_ExceptionDispatchInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ExceptionServices::ExceptionDispatchInfo*, "System.Runtime.ExceptionServices", "ExceptionDispatchInfo");

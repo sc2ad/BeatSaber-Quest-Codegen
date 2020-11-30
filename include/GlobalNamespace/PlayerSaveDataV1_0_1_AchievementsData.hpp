@@ -25,6 +25,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PlayerSaveDataV1_0_1::AchievementsData* New_ctor();
   }; // PlayerSaveDataV1_0_1/AchievementsData
+  check_size<sizeof(PlayerSaveDataV1_0_1::AchievementsData), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_PlayerSaveDataV1_0_1_AchievementsDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData*, "", "PlayerSaveDataV1_0_1/AchievementsData");

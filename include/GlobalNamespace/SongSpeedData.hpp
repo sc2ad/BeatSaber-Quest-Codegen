@@ -22,6 +22,7 @@ namespace GlobalNamespace {
     // Offset: 0xF3B7D8
     static SongSpeedData* New_ctor(float speedMul);
   }; // SongSpeedData
+  check_size<sizeof(SongSpeedData), 16 + sizeof(float) + 8 - (16 + sizeof(float)) % 8> __GlobalNamespace_SongSpeedDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongSpeedData*, "", "SongSpeedData");

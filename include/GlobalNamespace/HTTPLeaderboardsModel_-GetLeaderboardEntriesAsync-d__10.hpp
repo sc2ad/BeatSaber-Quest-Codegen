@@ -80,6 +80,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // HTTPLeaderboardsModel/<GetLeaderboardEntriesAsync>d__10
+  check_size<sizeof(HTTPLeaderboardsModel::$GetLeaderboardEntriesAsync$d__10), 104 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>) + 8 - (104 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>)) % 8> __GlobalNamespace_HTTPLeaderboardsModel_$GetLeaderboardEntriesAsync$d__10SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HTTPLeaderboardsModel::$GetLeaderboardEntriesAsync$d__10, "", "HTTPLeaderboardsModel/<GetLeaderboardEntriesAsync>d__10");

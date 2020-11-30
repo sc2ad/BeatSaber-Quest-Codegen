@@ -223,7 +223,10 @@ namespace UnityEngine::UI {
     template<class T>
     static T GetOrAddComponent(UnityEngine::GameObject* go) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine.UI", "Dropdown", "GetOrAddComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, go)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::UI").WithContext("Dropdown").WithContext("GetOrAddComponent");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.UI", "Dropdown", il2cpp_utils::NoArgClass<T>(), "GetOrAddComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(go))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, go);
     }
     // public System.Void Show()
     // Offset: 0x115F4EC
@@ -318,6 +321,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.UI.Dropdown
+  check_size<sizeof(Dropdown), 344 + sizeof(bool) + 8 - (344 + sizeof(bool)) % 8> __UnityEngine_UI_DropdownSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown*, "UnityEngine.UI", "Dropdown");
 #pragma pack(pop)

@@ -54,6 +54,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EnvironmentsListSO* New_ctor();
   }; // EnvironmentsListSO
+  check_size<sizeof(EnvironmentsListSO), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_EnvironmentsListSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentsListSO*, "", "EnvironmentsListSO");

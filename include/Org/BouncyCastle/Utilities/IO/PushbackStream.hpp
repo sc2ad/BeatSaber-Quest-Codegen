@@ -41,6 +41,7 @@ namespace Org::BouncyCastle::Utilities::IO {
     // Base method: System.Int32 FilterStream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(::Array<uint8_t>* buffer, int offset, int count);
   }; // Org.BouncyCastle.Utilities.IO.PushbackStream
+  check_size<sizeof(PushbackStream), 48 + sizeof(int) + 8 - (48 + sizeof(int)) % 8> __Org_BouncyCastle_Utilities_IO_PushbackStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::PushbackStream*, "Org.BouncyCastle.Utilities.IO", "PushbackStream");

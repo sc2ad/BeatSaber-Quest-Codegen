@@ -47,6 +47,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SelectModifiersViewController* New_ctor();
   }; // SelectModifiersViewController
+  check_size<sizeof(SelectModifiersViewController), 112 + sizeof(void*) + 8 - (112 + sizeof(void*)) % 8> __GlobalNamespace_SelectModifiersViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectModifiersViewController*, "", "SelectModifiersViewController");

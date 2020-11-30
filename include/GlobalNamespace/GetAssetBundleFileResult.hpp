@@ -27,6 +27,7 @@ namespace GlobalNamespace {
     // Offset: 0xC921C0
     // ABORTED: conflicts with another method.  GetAssetBundleFileResult(bool isError, ::Il2CppString* assetBundlePath);
   }; // GetAssetBundleFileResult
+  check_size<sizeof(GetAssetBundleFileResult), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __GlobalNamespace_GetAssetBundleFileResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GetAssetBundleFileResult, "", "GetAssetBundleFileResult");

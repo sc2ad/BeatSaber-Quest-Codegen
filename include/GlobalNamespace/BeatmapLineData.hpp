@@ -55,6 +55,7 @@ namespace GlobalNamespace {
     // Base method: System.Collections.Generic.IReadOnlyList`1<BeatmapObjectData> IReadonlyBeatmapLineData::get_beatmapObjectsData()
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();
   }; // BeatmapLineData
+  check_size<sizeof(BeatmapLineData), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapLineDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLineData*, "", "BeatmapLineData");

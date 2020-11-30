@@ -135,6 +135,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SaberTrail* New_ctor();
   }; // SaberTrail
+  check_size<sizeof(SaberTrail), 112 + sizeof(bool) + 8 - (112 + sizeof(bool)) % 8> __GlobalNamespace_SaberTrailSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTrail*, "", "SaberTrail");

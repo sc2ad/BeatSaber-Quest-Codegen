@@ -61,6 +61,7 @@ namespace System {
       // Set static field: static public System.UriParser/UriQuirksVersion V3
       static void _set_V3(System::UriParser::UriQuirksVersion value);
     }; // System.UriParser/UriQuirksVersion
+    check_size<sizeof(UriParser::UriQuirksVersion), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_UriParser_UriQuirksVersionSizeCheck;
     // private System.UriSyntaxFlags m_Flags
     // Offset: 0x10
     System::UriSyntaxFlags m_Flags;
@@ -230,6 +231,7 @@ namespace System {
     // Offset: 0x19D7ED0
     bool InternalIsWellFormedOriginalString(System::Uri* thisUri);
   }; // System.UriParser
+  check_size<sizeof(UriParser), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_UriParserSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UriParser*, "System", "UriParser");

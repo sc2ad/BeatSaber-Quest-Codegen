@@ -71,6 +71,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusBeatmapDataAssetFileModel/<TryDeleteAssetBundleFileForPreviewLevelAsync>d__13
+  check_size<sizeof(OculusBeatmapDataAssetFileModel::$TryDeleteAssetBundleFileForPreviewLevelAsync$d__13), 72 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>) + 8 - (72 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>)) % 8> __GlobalNamespace_OculusBeatmapDataAssetFileModel_$TryDeleteAssetBundleFileForPreviewLevelAsync$d__13SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusBeatmapDataAssetFileModel::$TryDeleteAssetBundleFileForPreviewLevelAsync$d__13, "", "OculusBeatmapDataAssetFileModel/<TryDeleteAssetBundleFileForPreviewLevelAsync>d__13");

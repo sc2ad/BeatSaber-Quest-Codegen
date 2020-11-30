@@ -79,6 +79,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static RandomizedPitch* New_ctor();
   }; // RandomizedPitch
+  check_size<sizeof(RandomizedPitch), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_RandomizedPitchSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RandomizedPitch*, "", "RandomizedPitch");

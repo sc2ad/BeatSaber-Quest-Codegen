@@ -66,6 +66,7 @@ namespace System::Collections {
     // Maps to method: get_Count
     int System_Collections_ICollection_get_Count();
   }; // System.Collections.Hashtable/ValueCollection
+  check_size<sizeof(Hashtable::ValueCollection), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Collections_Hashtable_ValueCollectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::ValueCollection*, "System.Collections", "Hashtable/ValueCollection");

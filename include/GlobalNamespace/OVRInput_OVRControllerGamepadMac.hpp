@@ -107,6 +107,7 @@ namespace GlobalNamespace {
     // Base method: System.Void OVRControllerBase::SetControllerVibration(System.Single frequency, System.Single amplitude)
     void SetControllerVibration(float frequency, float amplitude);
   }; // OVRInput/OVRControllerGamepadMac
+  check_size<sizeof(OVRInput::OVRControllerGamepadMac), 257 + sizeof(bool) + 8 - (257 + sizeof(bool)) % 8> __GlobalNamespace_OVRInput_OVRControllerGamepadMacSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerGamepadMac*, "", "OVRInput/OVRControllerGamepadMac");

@@ -67,6 +67,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static GameScenesManager::$$c__DisplayClass31_0* New_ctor();
   }; // GameScenesManager/<>c__DisplayClass31_0
+  check_size<sizeof(GameScenesManager::$$c__DisplayClass31_0), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __GlobalNamespace_GameScenesManager_$$c__DisplayClass31_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager::$$c__DisplayClass31_0*, "", "GameScenesManager/<>c__DisplayClass31_0");

@@ -26,6 +26,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1165030
     static InterfaceTypeAttribute* New_ctor(System::Runtime::InteropServices::ComInterfaceType interfaceType);
   }; // System.Runtime.InteropServices.InterfaceTypeAttribute
+  check_size<sizeof(InterfaceTypeAttribute), 16 + sizeof(System::Runtime::InteropServices::ComInterfaceType) + 8 - (16 + sizeof(System::Runtime::InteropServices::ComInterfaceType)) % 8> __System_Runtime_InteropServices_InterfaceTypeAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::InterfaceTypeAttribute*, "System.Runtime.InteropServices", "InterfaceTypeAttribute");

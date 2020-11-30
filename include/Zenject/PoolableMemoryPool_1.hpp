@@ -28,14 +28,18 @@ namespace Zenject {
     // Implemented from: Zenject.MemoryPoolBase`1
     // Base method: System.Void MemoryPoolBase_1::OnDespawned(TValue item)
     void OnDespawned(TValue item) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnDespawned", item));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PoolableMemoryPool_1").WithContext("OnDespawned");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "OnDespawned", {}, ::il2cpp_utils::ExtractTypes(item)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
     // protected override System.Void Reinitialize(TValue item)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPool`1
     // Base method: System.Void MemoryPool_1::Reinitialize(TValue item)
     void Reinitialize(TValue item) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Reinitialize", item));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PoolableMemoryPool_1").WithContext("Reinitialize");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Reinitialize", {}, ::il2cpp_utils::ExtractTypes(item)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -44,9 +48,11 @@ namespace Zenject {
     // Base method: System.Void MemoryPoolBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static PoolableMemoryPool_1<TValue>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<PoolableMemoryPool_1<TValue>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PoolableMemoryPool_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<PoolableMemoryPool_1<TValue>*>());
     }
   }; // Zenject.PoolableMemoryPool`1
+  // Could not write size check! Type: Zenject.PoolableMemoryPool`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::PoolableMemoryPool_1, "Zenject", "PoolableMemoryPool`1");
 #pragma pack(pop)

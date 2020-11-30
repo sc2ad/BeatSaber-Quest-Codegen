@@ -57,6 +57,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Base method: System.Void Object::.ctor()
     static LevelScoreResult* New_ctor();
   }; // BeatSaberAPI.DataTransferObjects.LevelScoreResult
+  check_size<sizeof(LevelScoreResult), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __BeatSaberAPI_DataTransferObjects_LevelScoreResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LevelScoreResult*, "BeatSaberAPI.DataTransferObjects", "LevelScoreResult");

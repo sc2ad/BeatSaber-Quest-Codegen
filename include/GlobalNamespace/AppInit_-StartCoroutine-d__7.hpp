@@ -65,6 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // AppInit/<StartCoroutine>d__7
+  check_size<sizeof(AppInit::$StartCoroutine$d__7), 40 + sizeof(GlobalNamespace::AppInit::AppStartType) + 8 - (40 + sizeof(GlobalNamespace::AppInit::AppStartType)) % 8> __GlobalNamespace_AppInit_$StartCoroutine$d__7SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInit::$StartCoroutine$d__7*, "", "AppInit/<StartCoroutine>d__7");

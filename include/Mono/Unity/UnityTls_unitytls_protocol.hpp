@@ -49,6 +49,7 @@ namespace Mono::Unity {
     // Set static field: static public Mono.Unity.UnityTls/unitytls_protocol UNITYTLS_PROTOCOL_INVALID
     static void _set_UNITYTLS_PROTOCOL_INVALID(Mono::Unity::UnityTls::unitytls_protocol value);
   }; // Mono.Unity.UnityTls/unitytls_protocol
+  check_size<sizeof(UnityTls::unitytls_protocol), 0 + sizeof(uint) + 8 - (0 + sizeof(uint)) % 8> __Mono_Unity_UnityTls_unitytls_protocolSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_protocol, "Mono.Unity", "UnityTls/unitytls_protocol");

@@ -38,6 +38,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerResultsTableView::$$c__DisplayClass31_1* New_ctor();
   }; // MultiplayerResultsTableView/<>c__DisplayClass31_1
+  check_size<sizeof(MultiplayerResultsTableView::$$c__DisplayClass31_1), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerResultsTableView_$$c__DisplayClass31_1SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsTableView::$$c__DisplayClass31_1*, "", "MultiplayerResultsTableView/<>c__DisplayClass31_1");

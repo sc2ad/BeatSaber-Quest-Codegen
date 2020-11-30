@@ -56,6 +56,7 @@ namespace Zenject {
       // Set static field: static public Zenject.ZenAutoInjecter/ContainerSources SearchHierarchy
       static void _set_SearchHierarchy(Zenject::ZenAutoInjecter::ContainerSources value);
     }; // Zenject.ZenAutoInjecter/ContainerSources
+    check_size<sizeof(ZenAutoInjecter::ContainerSources), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Zenject_ZenAutoInjecter_ContainerSourcesSizeCheck;
     // private Zenject.ZenAutoInjecter/ContainerSources _containerSource
     // Offset: 0x18
     Zenject::ZenAutoInjecter::ContainerSources containerSource;
@@ -92,6 +93,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static ZenAutoInjecter* New_ctor();
   }; // Zenject.ZenAutoInjecter
+  check_size<sizeof(ZenAutoInjecter), 28 + sizeof(bool) + 8 - (28 + sizeof(bool)) % 8> __Zenject_ZenAutoInjecterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenAutoInjecter*, "Zenject", "ZenAutoInjecter");

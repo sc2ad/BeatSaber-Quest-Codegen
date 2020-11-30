@@ -43,6 +43,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static Touchable* New_ctor();
   }; // HMUI.Touchable
+  check_size<sizeof(Touchable), 140 + sizeof(float) + 8 - (140 + sizeof(float)) % 8> __HMUI_TouchableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Touchable*, "HMUI", "Touchable");

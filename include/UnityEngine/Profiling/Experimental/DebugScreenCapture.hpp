@@ -44,6 +44,7 @@ namespace UnityEngine::Profiling::Experimental {
     // Offset: 0xCA7548
     void set_height(int value);
   }; // UnityEngine.Profiling.Experimental.DebugScreenCapture
+  check_size<sizeof(DebugScreenCapture), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __UnityEngine_Profiling_Experimental_DebugScreenCaptureSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Profiling::Experimental::DebugScreenCapture, "UnityEngine.Profiling.Experimental", "DebugScreenCapture");

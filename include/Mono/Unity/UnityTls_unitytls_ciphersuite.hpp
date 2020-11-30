@@ -31,6 +31,7 @@ namespace Mono::Unity {
     // Set static field: static public Mono.Unity.UnityTls/unitytls_ciphersuite UNITYTLS_CIPHERSUITE_INVALID
     static void _set_UNITYTLS_CIPHERSUITE_INVALID(Mono::Unity::UnityTls::unitytls_ciphersuite value);
   }; // Mono.Unity.UnityTls/unitytls_ciphersuite
+  check_size<sizeof(UnityTls::unitytls_ciphersuite), 0 + sizeof(uint) + 8 - (0 + sizeof(uint)) % 8> __Mono_Unity_UnityTls_unitytls_ciphersuiteSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_ciphersuite, "Mono.Unity", "UnityTls/unitytls_ciphersuite");

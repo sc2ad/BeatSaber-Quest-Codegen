@@ -86,6 +86,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     static Display* New_ctor();
   }; // UnityEngine.Display
+  check_size<sizeof(Display), 16 + sizeof(System::IntPtr) + 8 - (16 + sizeof(System::IntPtr)) % 8> __UnityEngine_DisplaySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Display*, "UnityEngine", "Display");

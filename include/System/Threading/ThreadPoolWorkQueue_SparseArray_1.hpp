@@ -26,24 +26,32 @@ namespace System::Threading {
     // System.Void .ctor(System.Int32 initialSize)
     // Offset: 0xFFFFFFFF
     static ThreadPoolWorkQueue::SparseArray_1<T>* New_ctor(int initialSize) {
-      return THROW_UNLESS(il2cpp_utils::New<ThreadPoolWorkQueue::SparseArray_1<T>*>(initialSize));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparseArray_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<ThreadPoolWorkQueue::SparseArray_1<T>*>(initialSize));
     }
     // T[] get_Current()
     // Offset: 0xFFFFFFFF
     ::Array<T>* get_Current() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Array<T>*>(this, "get_Current"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparseArray_1").WithContext("get_Current");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<::Array<T>*>(), "get_Current", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(this, ___internal__method);
     }
     // System.Int32 Add(T e)
     // Offset: 0xFFFFFFFF
     int Add(T e) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(this, "Add", e));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparseArray_1").WithContext("Add");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<int>(), "Add", {}, ::il2cpp_utils::ExtractTypes(e)));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, e);
     }
     // System.Void Remove(T e)
     // Offset: 0xFFFFFFFF
     void Remove(T e) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Remove", e));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading").WithContext("SparseArray_1").WithContext("Remove");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Remove", {}, ::il2cpp_utils::ExtractTypes(e)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, e);
     }
   }; // System.Threading.ThreadPoolWorkQueue/SparseArray`1
+  // Could not write size check! Type: System.Threading.ThreadPoolWorkQueue/SparseArray`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Threading::ThreadPoolWorkQueue::SparseArray_1, "System.Threading", "ThreadPoolWorkQueue/SparseArray`1");
 #pragma pack(pop)

@@ -51,6 +51,7 @@ namespace System::Threading::Tasks {
     // Maps to method: Invoke
     void System_Threading_Tasks_ITaskCompletionAction_Invoke(System::Threading::Tasks::Task* completingTask);
   }; // System.Threading.Tasks.TaskFactory/CompleteOnInvokePromise
+  check_size<sizeof(TaskFactory::CompleteOnInvokePromise), 96 + sizeof(int) + 8 - (96 + sizeof(int)) % 8> __System_Threading_Tasks_TaskFactory_CompleteOnInvokePromiseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskFactory::CompleteOnInvokePromise*, "System.Threading.Tasks", "TaskFactory/CompleteOnInvokePromise");

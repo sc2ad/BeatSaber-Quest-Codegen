@@ -77,6 +77,7 @@ namespace System::Threading {
     // Base method: System.Void Object::.ctor()
     static Timer::Scheduler* New_ctor();
   }; // System.Threading.Timer/Scheduler
+  check_size<sizeof(Timer::Scheduler), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Threading_Timer_SchedulerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Timer::Scheduler*, "System.Threading", "Timer/Scheduler");

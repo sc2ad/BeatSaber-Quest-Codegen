@@ -30,6 +30,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Level
     constexpr Level(UnityEngine::RenderTexture* down_ = {}, UnityEngine::RenderTexture* up_ = {}) noexcept : down{down_}, up{up_} {}
   }; // PyramidBloomRendererSO/Level
+  check_size<sizeof(PyramidBloomRendererSO::Level), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __GlobalNamespace_PyramidBloomRendererSO_LevelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PyramidBloomRendererSO::Level, "", "PyramidBloomRendererSO/Level");

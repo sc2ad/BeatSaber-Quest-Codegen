@@ -57,6 +57,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // TestPlatformAdditionalContentModel/<IsPackBetterBuyThanLevelAsync>d__7
+  check_size<sizeof(TestPlatformAdditionalContentModel::$IsPackBetterBuyThanLevelAsync$d__7), 48 + sizeof(System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter) + 8 - (48 + sizeof(System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter)) % 8> __GlobalNamespace_TestPlatformAdditionalContentModel_$IsPackBetterBuyThanLevelAsync$d__7SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformAdditionalContentModel::$IsPackBetterBuyThanLevelAsync$d__7, "", "TestPlatformAdditionalContentModel/<IsPackBetterBuyThanLevelAsync>d__7");

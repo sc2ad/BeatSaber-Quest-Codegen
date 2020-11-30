@@ -53,6 +53,7 @@ namespace GlobalNamespace {
     // Base method: System.String IRichPresenceData::get_localizedDescription()
     ::Il2CppString* get_localizedDescription();
   }; // PlayingDifficultyBeatmapRichPresenceData
+  check_size<sizeof(PlayingDifficultyBeatmapRichPresenceData), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_PlayingDifficultyBeatmapRichPresenceDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData*, "", "PlayingDifficultyBeatmapRichPresenceData");

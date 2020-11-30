@@ -72,6 +72,7 @@ namespace Zenject {
     // Base method: System.Void ProviderBindingFinalizer::OnFinalizeBinding(Zenject.DiContainer container)
     void OnFinalizeBinding(Zenject::DiContainer* container);
   }; // Zenject.SubContainerBindingFinalizer
+  check_size<sizeof(SubContainerBindingFinalizer), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Zenject_SubContainerBindingFinalizerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerBindingFinalizer*, "Zenject", "SubContainerBindingFinalizer");

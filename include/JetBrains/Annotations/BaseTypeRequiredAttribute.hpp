@@ -37,6 +37,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE3F4
     void set_BaseType(System::Type* value);
   }; // JetBrains.Annotations.BaseTypeRequiredAttribute
+  check_size<sizeof(BaseTypeRequiredAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __JetBrains_Annotations_BaseTypeRequiredAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::BaseTypeRequiredAttribute*, "JetBrains.Annotations", "BaseTypeRequiredAttribute");

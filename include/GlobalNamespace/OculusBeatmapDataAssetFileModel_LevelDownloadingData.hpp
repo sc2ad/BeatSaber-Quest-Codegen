@@ -36,6 +36,7 @@ namespace GlobalNamespace {
     // Offset: 0x1005A7C
     static OculusBeatmapDataAssetFileModel::LevelDownloadingData* New_ctor(::Il2CppString* levelId, ::Il2CppString* assetBundlePath);
   }; // OculusBeatmapDataAssetFileModel/LevelDownloadingData
+  check_size<sizeof(OculusBeatmapDataAssetFileModel::LevelDownloadingData), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_OculusBeatmapDataAssetFileModel_LevelDownloadingDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusBeatmapDataAssetFileModel::LevelDownloadingData*, "", "OculusBeatmapDataAssetFileModel/LevelDownloadingData");

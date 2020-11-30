@@ -144,7 +144,10 @@ namespace NUnit::Framework::Internal {
     // Base method: T[] IReflectionInfo::GetCustomAttributes(System.Boolean inherit)
     template<class T>
     ::Array<T>* GetCustomAttributes(bool inherit) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>(this, "GetCustomAttributes", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, inherit)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal").WithContext("TypeWrapper").WithContext("GetCustomAttributes");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<::Array<T>*>(), "GetCustomAttributes", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(inherit))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(this, ___internal__method, inherit);
     }
     // public System.Boolean IsDefined(System.Boolean inherit)
     // Offset: 0xFFFFFFFF
@@ -152,7 +155,10 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Boolean IReflectionInfo::IsDefined(System.Boolean inherit)
     template<class T>
     bool IsDefined(bool inherit) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(this, "IsDefined", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, inherit)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework::Internal").WithContext("TypeWrapper").WithContext("IsDefined");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "IsDefined", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(inherit))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, inherit);
     }
     // public System.Boolean HasMethodWithAttribute(System.Type attributeType)
     // Offset: 0x196477C
@@ -185,6 +191,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // NUnit.Framework.Internal.TypeWrapper
+  check_size<sizeof(TypeWrapper), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __NUnit_Framework_Internal_TypeWrapperSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TypeWrapper*, "NUnit.Framework.Internal", "TypeWrapper");
 #pragma pack(pop)

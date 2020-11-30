@@ -45,6 +45,7 @@ namespace GlobalNamespace {
     // Base method: System.Boolean IMultiplayerObservable::get_isFailed()
     bool get_isFailed();
   }; // MultiplayerConnectedPlayerObservable
+  check_size<sizeof(MultiplayerConnectedPlayerObservable), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerConnectedPlayerObservableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerObservable*, "", "MultiplayerConnectedPlayerObservable");

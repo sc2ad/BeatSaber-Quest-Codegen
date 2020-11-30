@@ -31,6 +31,7 @@ namespace UnityEngine::Timeline {
     // Creating value type constructor for type: IntervalTreeNode
     constexpr IntervalTreeNode(int64_t center_ = {}, int first_ = {}, int last_ = {}, int left_ = {}, int right_ = {}) noexcept : center{center_}, first{first_}, last{last_}, left{left_}, right{right_} {}
   }; // UnityEngine.Timeline.IntervalTreeNode
+  check_size<sizeof(IntervalTreeNode), 20 + sizeof(int) + 8 - (20 + sizeof(int)) % 8> __UnityEngine_Timeline_IntervalTreeNodeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IntervalTreeNode, "UnityEngine.Timeline", "IntervalTreeNode");

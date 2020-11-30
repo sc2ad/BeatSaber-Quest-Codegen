@@ -57,28 +57,37 @@ namespace GlobalNamespace {
     template<class T>
     void UpdateState(T serializable) {
       static_assert(std::is_base_of_v<GlobalNamespace::ISyncStateSerializable_1<TStateTable>, std::remove_pointer_t<T>>);
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "UpdateState", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, serializable));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RemoteMultiplayerSyncState_3").WithContext("UpdateState");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "UpdateState", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(serializable))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, serializable);
     }
     // public System.Void .ctor(IConnectedPlayer player, System.Int32 size, StateBuffer`3/InterpolationDelegate<TStateTable,TType,TState> interpolator, StateBuffer`3/SmoothingDelegate<TStateTable,TType,TState> smoother)
     // Offset: 0xFFFFFFFF
     static RemoteMultiplayerSyncState_3<TStateTable, TType, TState>* New_ctor(GlobalNamespace::IConnectedPlayer* player, int size, typename GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::InterpolationDelegate* interpolator, typename GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::SmoothingDelegate* smoother) {
-      return THROW_UNLESS((il2cpp_utils::New<RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>(player, size, interpolator, smoother)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RemoteMultiplayerSyncState_3").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>(player, size, interpolator, smoother)));
     }
     // protected override StateBuffer`3<TStateTable,TType,TState> get_stateBuffer()
     // Offset: 0xFFFFFFFF
     // Implemented from: MultiplayerSyncState`3
     // Base method: StateBuffer`3<TStateTable,TType,TState> MultiplayerSyncState_3::get_stateBuffer()
     GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* get_stateBuffer() {
-      return THROW_UNLESS((il2cpp_utils::RunMethod<GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>*>(this, "get_stateBuffer")));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RemoteMultiplayerSyncState_3").WithContext("get_stateBuffer");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>*>(), "get_stateBuffer", {}, ::il2cpp_utils::ExtractTypes())));
+      return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>*, false>(this, ___internal__method);
     }
     // public override IConnectedPlayer get_player()
     // Offset: 0xFFFFFFFF
     // Implemented from: MultiplayerSyncState`3
     // Base method: IConnectedPlayer MultiplayerSyncState_3::get_player()
     GlobalNamespace::IConnectedPlayer* get_player() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<GlobalNamespace::IConnectedPlayer*>(this, "get_player"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RemoteMultiplayerSyncState_3").WithContext("get_player");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<GlobalNamespace::IConnectedPlayer*>(), "get_player", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::IConnectedPlayer*, false>(this, ___internal__method);
     }
   }; // RemoteMultiplayerSyncState`3
+  // Could not write size check! Type: RemoteMultiplayerSyncState`3 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::RemoteMultiplayerSyncState_3, "", "RemoteMultiplayerSyncState`3");
 #pragma pack(pop)

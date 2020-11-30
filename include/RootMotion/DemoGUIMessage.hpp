@@ -36,6 +36,7 @@ namespace RootMotion {
     // Base method: System.Void Object::.ctor()
     static DemoGUIMessage* New_ctor();
   }; // RootMotion.DemoGUIMessage
+  check_size<sizeof(DemoGUIMessage), 32 + sizeof(UnityEngine::Color) + 8 - (32 + sizeof(UnityEngine::Color)) % 8> __RootMotion_DemoGUIMessageSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::DemoGUIMessage*, "RootMotion", "DemoGUIMessage");

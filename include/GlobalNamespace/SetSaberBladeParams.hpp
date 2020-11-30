@@ -56,6 +56,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SetSaberBladeParams* New_ctor();
   }; // SetSaberBladeParams
+  check_size<sizeof(SetSaberBladeParams), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_SetSaberBladeParamsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetSaberBladeParams*, "", "SetSaberBladeParams");

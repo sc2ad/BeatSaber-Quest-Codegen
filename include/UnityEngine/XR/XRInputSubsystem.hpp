@@ -47,6 +47,7 @@ namespace UnityEngine::XR {
     // Base method: System.Void Object::.ctor()
     static XRInputSubsystem* New_ctor();
   }; // UnityEngine.XR.XRInputSubsystem
+  check_size<sizeof(XRInputSubsystem), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __UnityEngine_XR_XRInputSubsystemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRInputSubsystem*, "UnityEngine.XR", "XRInputSubsystem");

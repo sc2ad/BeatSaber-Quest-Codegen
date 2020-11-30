@@ -96,6 +96,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LeaderboardTableView* New_ctor();
   }; // LeaderboardTableView
+  check_size<sizeof(LeaderboardTableView), 56 + sizeof(int) + 8 - (56 + sizeof(int)) % 8> __GlobalNamespace_LeaderboardTableViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardTableView*, "", "LeaderboardTableView");

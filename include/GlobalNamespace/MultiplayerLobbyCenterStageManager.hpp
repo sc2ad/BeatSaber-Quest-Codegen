@@ -66,6 +66,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerLobbyCenterStageManager* New_ctor();
   }; // MultiplayerLobbyCenterStageManager
+  check_size<sizeof(MultiplayerLobbyCenterStageManager), 52 + sizeof(float) + 8 - (52 + sizeof(float)) % 8> __GlobalNamespace_MultiplayerLobbyCenterStageManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyCenterStageManager*, "", "MultiplayerLobbyCenterStageManager");

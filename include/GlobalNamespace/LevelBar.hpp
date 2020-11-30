@@ -92,6 +92,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LevelBar* New_ctor();
   }; // LevelBar
+  check_size<sizeof(LevelBar), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __GlobalNamespace_LevelBarSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelBar*, "", "LevelBar");

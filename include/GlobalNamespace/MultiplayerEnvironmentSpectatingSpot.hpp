@@ -112,6 +112,7 @@ namespace GlobalNamespace {
     // Base method: UnityEngine.Transform IMultiplayerSpectatingSpot::get_transform()
     UnityEngine::Transform* GlobalNamespace_IMultiplayerSpectatingSpot_get_transform();
   }; // MultiplayerEnvironmentSpectatingSpot
+  check_size<sizeof(MultiplayerEnvironmentSpectatingSpot), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerEnvironmentSpectatingSpotSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*, "", "MultiplayerEnvironmentSpectatingSpot");

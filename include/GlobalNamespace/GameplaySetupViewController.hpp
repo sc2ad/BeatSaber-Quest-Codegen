@@ -159,6 +159,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static GameplaySetupViewController* New_ctor();
   }; // GameplaySetupViewController
+  check_size<sizeof(GameplaySetupViewController), 184 + sizeof(bool) + 8 - (184 + sizeof(bool)) % 8> __GlobalNamespace_GameplaySetupViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplaySetupViewController*, "", "GameplaySetupViewController");

@@ -201,6 +201,7 @@ namespace System::Net::Http::Headers {
     // Base method: System.Void Object::.ctor()
     static CacheControlHeaderValue* New_ctor();
   }; // System.Net.Http.Headers.CacheControlHeaderValue
+  check_size<sizeof(CacheControlHeaderValue), 104 + sizeof(System::Nullable_1<System::TimeSpan>) + 8 - (104 + sizeof(System::Nullable_1<System::TimeSpan>)) % 8> __System_Net_Http_Headers_CacheControlHeaderValueSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::CacheControlHeaderValue*, "System.Net.Http.Headers", "CacheControlHeaderValue");

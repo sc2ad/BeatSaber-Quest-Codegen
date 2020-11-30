@@ -70,6 +70,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // HostGameServerLobbyFlowCoordinator/<>c/<<UpdateMissingEntitlementsAsync>b__40_2>d
+  check_size<sizeof(HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__40_2$d), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EntitlementsStatus>) + 8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EntitlementsStatus>)) % 8> __GlobalNamespace_HostGameServerLobbyFlowCoordinator_$$c_$$UpdateMissingEntitlementsAsync$b__40_2$dSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__40_2$d, "", "HostGameServerLobbyFlowCoordinator/<>c/<<UpdateMissingEntitlementsAsync>b__40_2>d");

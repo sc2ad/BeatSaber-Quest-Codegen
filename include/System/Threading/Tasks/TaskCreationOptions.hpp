@@ -65,6 +65,7 @@ namespace System::Threading::Tasks {
     // Set static field: static public System.Threading.Tasks.TaskCreationOptions RunContinuationsAsynchronously
     static void _set_RunContinuationsAsynchronously(System::Threading::Tasks::TaskCreationOptions value);
   }; // System.Threading.Tasks.TaskCreationOptions
+  check_size<sizeof(TaskCreationOptions), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Threading_Tasks_TaskCreationOptionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskCreationOptions, "System.Threading.Tasks", "TaskCreationOptions");

@@ -12,6 +12,7 @@ namespace System {
   template<typename T>
   class System_LazyDebugView_1 : public ::Il2CppObject {
   }; // System.System_LazyDebugView`1
+  // Could not write size check! Type: System.System_LazyDebugView`1 is generic!
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::System_LazyDebugView_1, "System", "System_LazyDebugView`1");

@@ -101,7 +101,10 @@ namespace System::Reflection {
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::Array<T>* UnboxValues(::Array<::Il2CppObject*>* values) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("System.Reflection", "CustomAttributeData", "UnboxValues", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, values)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Reflection").WithContext("CustomAttributeData").WithContext("UnboxValues");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Reflection", "CustomAttributeData", il2cpp_utils::NoArgClass<::Array<T>*>(), "UnboxValues", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(values))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, values);
     }
     // protected System.Void .ctor()
     // Offset: 0x1721B74
@@ -124,6 +127,7 @@ namespace System::Reflection {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Reflection.CustomAttributeData
+  check_size<sizeof(CustomAttributeData), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Reflection_CustomAttributeDataSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeData*, "System.Reflection", "CustomAttributeData");
 #pragma pack(pop)

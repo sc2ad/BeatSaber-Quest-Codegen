@@ -195,6 +195,7 @@ namespace VRUIControls {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // VRUIControls.VRInputModule
+  check_size<sizeof(VRInputModule), 128 + sizeof(void*) + 8 - (128 + sizeof(void*)) % 8> __VRUIControls_VRInputModuleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRInputModule*, "VRUIControls", "VRInputModule");

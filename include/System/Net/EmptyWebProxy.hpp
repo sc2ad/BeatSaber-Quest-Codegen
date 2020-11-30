@@ -57,6 +57,7 @@ namespace System::Net {
     // Base method: System.Net.ICredentials IWebProxy::get_Credentials()
     System::Net::ICredentials* get_Credentials();
   }; // System.Net.EmptyWebProxy
+  check_size<sizeof(EmptyWebProxy), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Net_EmptyWebProxySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::EmptyWebProxy*, "System.Net", "EmptyWebProxy");

@@ -33,6 +33,7 @@ namespace GlobalNamespace {
     // Offset: 0xF70444
     static MultiplayerLocalPlayerOutroAudio::InitData* New_ctor(UnityEngine::AudioClip* audioClip, float previewStartTime, float previewDuration);
   }; // MultiplayerLocalPlayerOutroAudio/InitData
+  check_size<sizeof(MultiplayerLocalPlayerOutroAudio::InitData), 28 + sizeof(float) + 8 - (28 + sizeof(float)) % 8> __GlobalNamespace_MultiplayerLocalPlayerOutroAudio_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalPlayerOutroAudio::InitData*, "", "MultiplayerLocalPlayerOutroAudio/InitData");

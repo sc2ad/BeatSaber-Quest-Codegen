@@ -70,6 +70,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // StandaloneMonobehavior/<AfterOneFrame>d__16
+  check_size<sizeof(StandaloneMonobehavior::$AfterOneFrame$d__16), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_StandaloneMonobehavior_$AfterOneFrame$d__16SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandaloneMonobehavior::$AfterOneFrame$d__16*, "", "StandaloneMonobehavior/<AfterOneFrame>d__16");

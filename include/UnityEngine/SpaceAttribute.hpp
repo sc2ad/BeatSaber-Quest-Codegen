@@ -31,6 +31,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     static SpaceAttribute* New_ctor();
   }; // UnityEngine.SpaceAttribute
+  check_size<sizeof(SpaceAttribute), 16 + sizeof(float) + 8 - (16 + sizeof(float)) % 8> __UnityEngine_SpaceAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SpaceAttribute*, "UnityEngine", "SpaceAttribute");

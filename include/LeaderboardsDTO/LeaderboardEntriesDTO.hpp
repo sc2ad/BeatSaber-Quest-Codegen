@@ -33,6 +33,7 @@ namespace LeaderboardsDTO {
       return entries;
     }
   }; // LeaderboardsDTO.LeaderboardEntriesDTO
+  check_size<sizeof(LeaderboardEntriesDTO), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __LeaderboardsDTO_LeaderboardEntriesDTOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardEntriesDTO, "LeaderboardsDTO", "LeaderboardEntriesDTO");

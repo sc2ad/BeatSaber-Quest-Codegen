@@ -38,6 +38,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE4E8
     void set_ForceFullStates(bool value);
   }; // JetBrains.Annotations.ContractAnnotationAttribute
+  check_size<sizeof(ContractAnnotationAttribute), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __JetBrains_Annotations_ContractAnnotationAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::ContractAnnotationAttribute*, "JetBrains.Annotations", "ContractAnnotationAttribute");

@@ -62,6 +62,7 @@ namespace OnlineServices {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // OnlineServices.LevelScoreResultsData
+  check_size<sizeof(LevelScoreResultsData), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __OnlineServices_LevelScoreResultsDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreResultsData, "OnlineServices", "LevelScoreResultsData");

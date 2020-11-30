@@ -36,6 +36,7 @@ namespace GlobalNamespace {
     // Offset: 0xF72684
     static MultiplayerLocalInactivePlayerSongSyncController::InitData* New_ctor(UnityEngine::AudioClip* audioClip, float startSongTime, float songTimeOffset, float timeScale);
   }; // MultiplayerLocalInactivePlayerSongSyncController/InitData
+  check_size<sizeof(MultiplayerLocalInactivePlayerSongSyncController::InitData), 32 + sizeof(float) + 8 - (32 + sizeof(float)) % 8> __GlobalNamespace_MultiplayerLocalInactivePlayerSongSyncController_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData*, "", "MultiplayerLocalInactivePlayerSongSyncController/InitData");

@@ -77,6 +77,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void HashAlgorithm::Initialize()
     void Initialize();
   }; // System.Security.Cryptography.MD5CryptoServiceProvider
+  check_size<sizeof(MD5CryptoServiceProvider), 72 + sizeof(int) + 8 - (72 + sizeof(int)) % 8> __System_Security_Cryptography_MD5CryptoServiceProviderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::MD5CryptoServiceProvider*, "System.Security.Cryptography", "MD5CryptoServiceProvider");

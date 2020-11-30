@@ -245,6 +245,7 @@ namespace GlobalNamespace {
     // Base method: System.Void INetworkPlayer::SendInviteResponse(System.Boolean accept)
     void SendInviteResponse(bool accept);
   }; // UnifiedNetworkPlayerModel/UnifiedNetworkPlayer
+  check_size<sizeof(UnifiedNetworkPlayerModel::UnifiedNetworkPlayer), 50 + sizeof(bool) + 8 - (50 + sizeof(bool)) % 8> __GlobalNamespace_UnifiedNetworkPlayerModel_UnifiedNetworkPlayerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer*, "", "UnifiedNetworkPlayerModel/UnifiedNetworkPlayer");

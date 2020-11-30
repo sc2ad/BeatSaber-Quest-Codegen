@@ -61,6 +61,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/CameraStatus CameraStatus_EnumSize
     static void _set_CameraStatus_EnumSize(GlobalNamespace::OVRPlugin::CameraStatus value);
   }; // OVRPlugin/CameraStatus
+  check_size<sizeof(OVRPlugin::CameraStatus), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRPlugin_CameraStatusSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::CameraStatus, "", "OVRPlugin/CameraStatus");

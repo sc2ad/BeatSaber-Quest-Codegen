@@ -69,6 +69,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     static ActivationMixerPlayable* New_ctor();
   }; // UnityEngine.Timeline.ActivationMixerPlayable
+  check_size<sizeof(ActivationMixerPlayable), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_Timeline_ActivationMixerPlayableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationMixerPlayable*, "UnityEngine.Timeline", "ActivationMixerPlayable");

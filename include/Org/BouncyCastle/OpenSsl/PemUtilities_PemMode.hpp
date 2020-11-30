@@ -49,6 +49,7 @@ namespace Org::BouncyCastle::OpenSsl {
     // Set static field: static public Org.BouncyCastle.OpenSsl.PemUtilities/PemMode OFB
     static void _set_OFB(Org::BouncyCastle::OpenSsl::PemUtilities::PemMode value);
   }; // Org.BouncyCastle.OpenSsl.PemUtilities/PemMode
+  check_size<sizeof(PemUtilities::PemMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Org_BouncyCastle_OpenSsl_PemUtilities_PemModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::PemUtilities::PemMode, "Org.BouncyCastle.OpenSsl", "PemUtilities/PemMode");

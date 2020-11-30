@@ -105,6 +105,7 @@ namespace Mono::Security::X509 {
     // Offset: 0x19C5060
     bool VerifySignature(System::Security::Cryptography::AsymmetricAlgorithm* aa);
   }; // Mono.Security.X509.X509Crl
+  check_size<sizeof(X509Crl), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __Mono_Security_X509_X509CrlSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Crl*, "Mono.Security.X509", "X509Crl");

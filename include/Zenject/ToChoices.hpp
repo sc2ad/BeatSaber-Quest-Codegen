@@ -35,6 +35,7 @@ namespace Zenject {
     // Set static field: static public Zenject.ToChoices Concrete
     static void _set_Concrete(Zenject::ToChoices value);
   }; // Zenject.ToChoices
+  check_size<sizeof(ToChoices), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Zenject_ToChoicesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ToChoices, "Zenject", "ToChoices");

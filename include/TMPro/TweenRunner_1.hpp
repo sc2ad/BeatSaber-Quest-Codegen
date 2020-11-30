@@ -64,21 +64,26 @@ namespace TMPro {
       // public System.Void .ctor(System.Int32 <>1__state)
       // Offset: 0xFFFFFFFF
       static typename TweenRunner_1<T>::$Start$d__2* New_ctor(int $$1__state) {
-        return THROW_UNLESS(il2cpp_utils::New<typename TweenRunner_1<T>::$Start$d__2*>($$1__state));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("$Start$d__2").WithContext(".ctor");
+        return THROW_UNLESS(::il2cpp_utils::New<typename TweenRunner_1<T>::$Start$d__2*>($$1__state));
       }
       // private System.Void System.IDisposable.Dispose()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.IDisposable
       // Base method: System.Void IDisposable::Dispose()
       void System_IDisposable_Dispose() {
-        THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.IDisposable.Dispose"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("$Start$d__2").WithContext("System.IDisposable.Dispose");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "System.IDisposable.Dispose", {}, ::il2cpp_utils::ExtractTypes()));
+        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
       }
       // private System.Boolean MoveNext()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Boolean IEnumerator::MoveNext()
       bool MoveNext() {
-        return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "MoveNext"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("$Start$d__2").WithContext("MoveNext");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "MoveNext", {}, ::il2cpp_utils::ExtractTypes()));
+        return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
       }
       // Creating proxy method: System_Collections_IEnumerator_MoveNext
       // Maps to method: MoveNext
@@ -90,23 +95,30 @@ namespace TMPro {
       // Implemented from: System.Collections.Generic.IEnumerator`1
       // Base method: T IEnumerator_1::get_Current()
       ::Il2CppObject* System_Collections_Generic_IEnumerator_1_get_Current() {
-        return THROW_UNLESS((il2cpp_utils::RunMethod<::Il2CppObject*>(this, "System.Collections.Generic.IEnumerator<System.Object>.get_Current")));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("$Start$d__2").WithContext("System.Collections.Generic.IEnumerator<System.Object>.get_Current");
+        static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<::Il2CppObject*>(), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, ::il2cpp_utils::ExtractTypes())));
+        return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method);
       }
       // private System.Void System.Collections.IEnumerator.Reset()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Void IEnumerator::Reset()
       void System_Collections_IEnumerator_Reset() {
-        THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.Collections.IEnumerator.Reset"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("$Start$d__2").WithContext("System.Collections.IEnumerator.Reset");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "System.Collections.IEnumerator.Reset", {}, ::il2cpp_utils::ExtractTypes()));
+        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
       }
       // private System.Object System.Collections.IEnumerator.get_Current()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Object IEnumerator::get_Current()
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
-        return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "System.Collections.IEnumerator.get_Current"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("$Start$d__2").WithContext("System.Collections.IEnumerator.get_Current");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<::Il2CppObject*>(), "System.Collections.IEnumerator.get_Current", {}, ::il2cpp_utils::ExtractTypes()));
+        return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method);
       }
     }; // TMPro.TweenRunner`1/<Start>d__2
+    // Could not write size check! Type: TMPro.TweenRunner`1/<Start>d__2 is generic!
     // protected UnityEngine.MonoBehaviour m_CoroutineContainer
     // Offset: 0x0
     UnityEngine::MonoBehaviour* m_CoroutineContainer;
@@ -116,31 +128,41 @@ namespace TMPro {
     // static private System.Collections.IEnumerator Start(T tweenInfo)
     // Offset: 0xFFFFFFFF
     static System::Collections::IEnumerator* Start(T tweenInfo) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::IEnumerator*>(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TweenRunner_1<T>*>::get(), "Start", tweenInfo));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("TweenRunner_1").WithContext("Start");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TweenRunner_1<T>*>::get(), il2cpp_utils::NoArgClass<System::Collections::IEnumerator*>(), "Start", {}, ::il2cpp_utils::ExtractTypes(tweenInfo))));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, tweenInfo);
     }
     // public System.Void Init(UnityEngine.MonoBehaviour coroutineContainer)
     // Offset: 0xFFFFFFFF
     void Init(UnityEngine::MonoBehaviour* coroutineContainer) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Init", coroutineContainer));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("TweenRunner_1").WithContext("Init");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Init", {}, ::il2cpp_utils::ExtractTypes(coroutineContainer)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, coroutineContainer);
     }
     // public System.Void StartTween(T info)
     // Offset: 0xFFFFFFFF
     void StartTween(T info) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "StartTween", info));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("TweenRunner_1").WithContext("StartTween");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "StartTween", {}, ::il2cpp_utils::ExtractTypes(info)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, info);
     }
     // public System.Void StopTween()
     // Offset: 0xFFFFFFFF
     void StopTween() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "StopTween"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("TweenRunner_1").WithContext("StopTween");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "StopTween", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static TweenRunner_1<T>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<TweenRunner_1<T>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("TweenRunner_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<TweenRunner_1<T>*>());
     }
   }; // TMPro.TweenRunner`1
+  // Could not write size check! Type: TMPro.TweenRunner`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(TMPro::TweenRunner_1, "TMPro", "TweenRunner`1");
 #pragma pack(pop)

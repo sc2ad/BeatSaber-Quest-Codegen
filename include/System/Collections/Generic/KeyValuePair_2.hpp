@@ -32,21 +32,28 @@ namespace System::Collections::Generic {
     // public TKey get_Key()
     // Offset: 0xFFFFFFFF
     TKey get_Key() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<TKey>(*this, "get_Key"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("KeyValuePair_2").WithContext("get_Key");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<TKey>(), "get_Key", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<TKey, false>(*this, ___internal__method);
     }
     // public TValue get_Value()
     // Offset: 0xFFFFFFFF
     TValue get_Value() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<TValue>(*this, "get_Value"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("KeyValuePair_2").WithContext("get_Value");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<TValue>(), "get_Value", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<TValue, false>(*this, ___internal__method);
     }
     // public override System.String ToString()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppString*>(*this, "ToString"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("KeyValuePair_2").WithContext("ToString");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<::Il2CppString*>(), "ToString", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(*this, ___internal__method);
     }
   }; // System.Collections.Generic.KeyValuePair`2
+  // Could not write size check! Type: System.Collections.Generic.KeyValuePair`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Collections::Generic::KeyValuePair_2, "System.Collections.Generic", "KeyValuePair`2");
 #pragma pack(pop)

@@ -60,6 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // ScreenCaptureAfterDelay/<Start>d__6
+  check_size<sizeof(ScreenCaptureAfterDelay::$Start$d__6), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_ScreenCaptureAfterDelay_$Start$d__6SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureAfterDelay::$Start$d__6*, "", "ScreenCaptureAfterDelay/<Start>d__6");

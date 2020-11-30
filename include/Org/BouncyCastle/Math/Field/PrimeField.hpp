@@ -55,6 +55,7 @@ namespace Org::BouncyCastle::Math::Field {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Math.Field.PrimeField
+  check_size<sizeof(PrimeField), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_Field_PrimeFieldSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::PrimeField*, "Org.BouncyCastle.Math.Field", "PrimeField");

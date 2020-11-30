@@ -130,6 +130,7 @@ namespace System::IO {
       WriteLine(format, {arg...});
     }
   }; // System.IO.TextWriter/SyncTextWriter
+  check_size<sizeof(TextWriter::SyncTextWriter), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_IO_TextWriter_SyncTextWriterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextWriter::SyncTextWriter*, "System.IO", "TextWriter/SyncTextWriter");

@@ -75,6 +75,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static ConnectToServerRequest* New_ctor();
   }; // MasterServer.ConnectToServerRequest
+  check_size<sizeof(ConnectToServerRequest), 80 + sizeof(bool) + 8 - (80 + sizeof(bool)) % 8> __MasterServer_ConnectToServerRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ConnectToServerRequest*, "MasterServer", "ConnectToServerRequest");

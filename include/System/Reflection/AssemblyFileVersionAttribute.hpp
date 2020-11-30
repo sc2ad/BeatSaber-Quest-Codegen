@@ -24,6 +24,7 @@ namespace System::Reflection {
     // Offset: 0x17206B0
     static AssemblyFileVersionAttribute* New_ctor(::Il2CppString* version);
   }; // System.Reflection.AssemblyFileVersionAttribute
+  check_size<sizeof(AssemblyFileVersionAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Reflection_AssemblyFileVersionAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyFileVersionAttribute*, "System.Reflection", "AssemblyFileVersionAttribute");

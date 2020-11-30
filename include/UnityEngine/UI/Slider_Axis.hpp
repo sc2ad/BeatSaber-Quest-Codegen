@@ -37,6 +37,7 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.UI.Slider/Axis Vertical
     static void _set_Vertical(UnityEngine::UI::Slider::Axis value);
   }; // UnityEngine.UI.Slider/Axis
+  check_size<sizeof(Slider::Axis), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_UI_Slider_AxisSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Slider::Axis, "UnityEngine.UI", "Slider/Axis");

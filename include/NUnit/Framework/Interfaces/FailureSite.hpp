@@ -53,6 +53,7 @@ namespace NUnit::Framework::Interfaces {
     // Set static field: static public NUnit.Framework.Interfaces.FailureSite Child
     static void _set_Child(NUnit::Framework::Interfaces::FailureSite value);
   }; // NUnit.Framework.Interfaces.FailureSite
+  check_size<sizeof(FailureSite), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __NUnit_Framework_Interfaces_FailureSiteSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::FailureSite, "NUnit.Framework.Interfaces", "FailureSite");

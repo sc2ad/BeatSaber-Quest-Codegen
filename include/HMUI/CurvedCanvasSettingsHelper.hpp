@@ -66,6 +66,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static CurvedCanvasSettingsHelper* New_ctor();
   }; // HMUI.CurvedCanvasSettingsHelper
+  check_size<sizeof(CurvedCanvasSettingsHelper), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __HMUI_CurvedCanvasSettingsHelperSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CurvedCanvasSettingsHelper*, "HMUI", "CurvedCanvasSettingsHelper");

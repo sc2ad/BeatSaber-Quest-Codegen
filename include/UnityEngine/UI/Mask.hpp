@@ -109,6 +109,7 @@ namespace UnityEngine::UI {
     // Base method: UnityEngine.Material IMaterialModifier::GetModifiedMaterial(UnityEngine.Material baseMaterial)
     UnityEngine::Material* GetModifiedMaterial(UnityEngine::Material* baseMaterial);
   }; // UnityEngine.UI.Mask
+  check_size<sizeof(Mask), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __UnityEngine_UI_MaskSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Mask*, "UnityEngine.UI", "Mask");

@@ -68,6 +68,7 @@ namespace MasterServer {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.UserMessageHandler/<>c__DisplayClass34_0/<<StartBroadcastingServer>b__1>d
+  check_size<sizeof(UserMessageHandler::$$c__DisplayClass34_0::$$StartBroadcastingServer$b__1$d), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::BroadcastServerStatusResponse*>) + 8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::BroadcastServerStatusResponse*>)) % 8> __MasterServer_UserMessageHandler_$$c__DisplayClass34_0_$$StartBroadcastingServer$b__1$dSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::$$c__DisplayClass34_0::$$StartBroadcastingServer$b__1$d, "MasterServer", "UserMessageHandler/<>c__DisplayClass34_0/<<StartBroadcastingServer>b__1>d");

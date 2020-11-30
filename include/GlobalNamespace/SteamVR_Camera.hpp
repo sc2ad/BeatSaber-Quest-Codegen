@@ -134,6 +134,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SteamVR_Camera* New_ctor();
   }; // SteamVR_Camera
+  check_size<sizeof(SteamVR_Camera), 48 + sizeof(bool) + 8 - (48 + sizeof(bool)) % 8> __GlobalNamespace_SteamVR_CameraSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Camera*, "", "SteamVR_Camera");

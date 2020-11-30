@@ -36,6 +36,7 @@ namespace System::Xml {
     // Offset: 0xCB7720
     bool IsDuplicate(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceUri);
   }; // System.Xml.XmlWellFormedWriter/AttrName
+  check_size<sizeof(XmlWellFormedWriter::AttrName), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __System_Xml_XmlWellFormedWriter_AttrNameSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttrName, "System.Xml", "XmlWellFormedWriter/AttrName");

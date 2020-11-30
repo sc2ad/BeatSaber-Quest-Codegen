@@ -76,6 +76,7 @@ namespace UnityEngine {
     // Offset: 0xCB9F3C
     UnityEngine::TouchType get_type();
   }; // UnityEngine.Touch
+  check_size<sizeof(Touch), 64 + sizeof(float) + 8 - (64 + sizeof(float)) % 8> __UnityEngine_TouchSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Touch, "UnityEngine", "Touch");

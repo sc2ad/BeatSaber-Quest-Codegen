@@ -131,6 +131,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     static TimelinePlayable* New_ctor();
   }; // UnityEngine.Timeline.TimelinePlayable
+  check_size<sizeof(TimelinePlayable), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __UnityEngine_Timeline_TimelinePlayableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelinePlayable*, "UnityEngine.Timeline", "TimelinePlayable");

@@ -26,6 +26,7 @@ namespace Unity::Jobs {
     // Offset: 0x1679DBC
     static void ScheduleBatchedJobs();
   }; // Unity.Jobs.JobHandle
+  check_size<sizeof(JobHandle), 8 + sizeof(int) + 8 - (8 + sizeof(int)) % 8> __Unity_Jobs_JobHandleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Unity::Jobs::JobHandle, "Unity.Jobs", "JobHandle");

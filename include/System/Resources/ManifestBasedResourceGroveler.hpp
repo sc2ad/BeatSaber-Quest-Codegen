@@ -104,6 +104,7 @@ namespace System::Resources {
     // Base method: System.Resources.ResourceSet IResourceGroveler::GrovelForResourceSet(System.Globalization.CultureInfo culture, System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceSet> localResourceSets, System.Boolean tryParents, System.Boolean createIfNotExists, ref System.Threading.StackCrawlMark stackMark)
     System::Resources::ResourceSet* GrovelForResourceSet(System::Globalization::CultureInfo* culture, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceSet*>* localResourceSets, bool tryParents, bool createIfNotExists, System::Threading::StackCrawlMark& stackMark);
   }; // System.Resources.ManifestBasedResourceGroveler
+  check_size<sizeof(ManifestBasedResourceGroveler), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Resources_ManifestBasedResourceGrovelerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ManifestBasedResourceGroveler*, "System.Resources", "ManifestBasedResourceGroveler");

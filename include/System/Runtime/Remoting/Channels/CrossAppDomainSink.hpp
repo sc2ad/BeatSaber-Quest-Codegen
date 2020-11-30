@@ -90,6 +90,7 @@ namespace System::Runtime::Remoting::Channels {
     // Base method: System.Runtime.Remoting.Messaging.IMessageCtrl IMessageSink::AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage reqMsg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* reqMsg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);
   }; // System.Runtime.Remoting.Channels.CrossAppDomainSink
+  check_size<sizeof(CrossAppDomainSink), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __System_Runtime_Remoting_Channels_CrossAppDomainSinkSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainSink*, "System.Runtime.Remoting.Channels", "CrossAppDomainSink");

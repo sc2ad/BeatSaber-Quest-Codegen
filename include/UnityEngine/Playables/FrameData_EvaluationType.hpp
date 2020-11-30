@@ -37,6 +37,7 @@ namespace UnityEngine::Playables {
     // Set static field: static public UnityEngine.Playables.FrameData/EvaluationType Playback
     static void _set_Playback(UnityEngine::Playables::FrameData::EvaluationType value);
   }; // UnityEngine.Playables.FrameData/EvaluationType
+  check_size<sizeof(FrameData::EvaluationType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Playables_FrameData_EvaluationTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::FrameData::EvaluationType, "UnityEngine.Playables", "FrameData/EvaluationType");

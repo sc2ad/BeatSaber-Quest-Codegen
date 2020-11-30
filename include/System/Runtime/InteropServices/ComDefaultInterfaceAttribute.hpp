@@ -31,6 +31,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1164488
     static ComDefaultInterfaceAttribute* New_ctor(System::Type* defaultInterface);
   }; // System.Runtime.InteropServices.ComDefaultInterfaceAttribute
+  check_size<sizeof(ComDefaultInterfaceAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Runtime_InteropServices_ComDefaultInterfaceAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComDefaultInterfaceAttribute*, "System.Runtime.InteropServices", "ComDefaultInterfaceAttribute");

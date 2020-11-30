@@ -71,6 +71,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.Toggle/ToggleTransition Fade
       static void _set_Fade(UnityEngine::UI::Toggle::ToggleTransition value);
     }; // UnityEngine.UI.Toggle/ToggleTransition
+    check_size<sizeof(Toggle::ToggleTransition), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_UI_Toggle_ToggleTransitionSizeCheck;
     // public UnityEngine.UI.Toggle/ToggleTransition toggleTransition
     // Offset: 0xF0
     UnityEngine::UI::Toggle::ToggleTransition toggleTransition;
@@ -192,6 +193,7 @@ namespace UnityEngine::UI {
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
   }; // UnityEngine.UI.Toggle
+  check_size<sizeof(Toggle), 272 + sizeof(bool) + 8 - (272 + sizeof(bool)) % 8> __UnityEngine_UI_ToggleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Toggle*, "UnityEngine.UI", "Toggle");

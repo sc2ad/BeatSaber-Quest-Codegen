@@ -102,6 +102,7 @@ namespace GlobalNamespace {
         // Set static field: static public BeatmapLevelSO/GetBeatmapLevelDataResult/Result Fail
         static void _set_Fail(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult::Result value);
       }; // BeatmapLevelSO/GetBeatmapLevelDataResult/Result
+      check_size<sizeof(BeatmapLevelSO::GetBeatmapLevelDataResult::Result), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_BeatmapLevelSO_GetBeatmapLevelDataResult_ResultSizeCheck;
       // public readonly BeatmapLevelSO/GetBeatmapLevelDataResult/Result result
       // Offset: 0x0
       GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult::Result result;
@@ -114,6 +115,7 @@ namespace GlobalNamespace {
       // Offset: 0xE7FA14
       // ABORTED: conflicts with another method.  GetBeatmapLevelDataResult(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult::Result result, GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
     }; // BeatmapLevelSO/GetBeatmapLevelDataResult
+    check_size<sizeof(BeatmapLevelSO::GetBeatmapLevelDataResult), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapLevelSO_GetBeatmapLevelDataResultSizeCheck;
     // private System.String _levelID
     // Offset: 0x18
     ::Il2CppString* levelID;
@@ -311,6 +313,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BeatmapLevelSO* New_ctor();
   }; // BeatmapLevelSO
+  check_size<sizeof(BeatmapLevelSO), 168 + sizeof(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult) + 8 - (168 + sizeof(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult)) % 8> __GlobalNamespace_BeatmapLevelSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO*, "", "BeatmapLevelSO");

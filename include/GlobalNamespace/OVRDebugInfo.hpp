@@ -167,6 +167,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRDebugInfo* New_ctor();
   }; // OVRDebugInfo
+  check_size<sizeof(OVRDebugInfo), 204 + sizeof(bool) + 8 - (204 + sizeof(bool)) % 8> __GlobalNamespace_OVRDebugInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDebugInfo*, "", "OVRDebugInfo");

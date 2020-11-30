@@ -147,6 +147,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BeatmapObjectCallbackController* New_ctor();
   }; // BeatmapObjectCallbackController
+  check_size<sizeof(BeatmapObjectCallbackController), 104 + sizeof(void*) + 8 - (104 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapObjectCallbackControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectCallbackController*, "", "BeatmapObjectCallbackController");

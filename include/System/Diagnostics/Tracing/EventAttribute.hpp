@@ -107,6 +107,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12C68BC
     void set_ActivityOptions(System::Diagnostics::Tracing::EventActivityOptions value);
   }; // System.Diagnostics.Tracing.EventAttribute
+  check_size<sizeof(EventAttribute), 60 + sizeof(bool) + 8 - (60 + sizeof(bool)) % 8> __System_Diagnostics_Tracing_EventAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventAttribute*, "System.Diagnostics.Tracing", "EventAttribute");

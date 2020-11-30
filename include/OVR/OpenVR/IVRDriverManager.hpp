@@ -35,6 +35,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: IVRDriverManager
     constexpr IVRDriverManager(OVR::OpenVR::IVRDriverManager::_GetDriverCount* GetDriverCount_ = {}, OVR::OpenVR::IVRDriverManager::_GetDriverName* GetDriverName_ = {}, OVR::OpenVR::IVRDriverManager::_GetDriverHandle* GetDriverHandle_ = {}) noexcept : GetDriverCount{GetDriverCount_}, GetDriverName{GetDriverName_}, GetDriverHandle{GetDriverHandle_} {}
   }; // OVR.OpenVR.IVRDriverManager
+  check_size<sizeof(IVRDriverManager), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __OVR_OpenVR_IVRDriverManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRDriverManager, "OVR.OpenVR", "IVRDriverManager");

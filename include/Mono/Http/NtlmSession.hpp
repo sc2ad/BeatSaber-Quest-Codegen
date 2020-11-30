@@ -43,6 +43,7 @@ namespace Mono::Http {
     // Base method: System.Void Object::.ctor()
     static NtlmSession* New_ctor();
   }; // Mono.Http.NtlmSession
+  check_size<sizeof(NtlmSession), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Mono_Http_NtlmSessionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Http::NtlmSession*, "Mono.Http", "NtlmSession");

@@ -833,6 +833,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.ETrackedDeviceProperty Prop_TrackedDeviceProperty_Max
     static void _set_Prop_TrackedDeviceProperty_Max(Valve::VR::ETrackedDeviceProperty value);
   }; // Valve.VR.ETrackedDeviceProperty
+  check_size<sizeof(ETrackedDeviceProperty), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Valve_VR_ETrackedDevicePropertySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::ETrackedDeviceProperty, "Valve.VR", "ETrackedDeviceProperty");

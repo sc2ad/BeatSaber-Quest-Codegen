@@ -343,6 +343,7 @@ namespace GlobalNamespace {
     // Offset: 0xF0D0AC
     void SetMultiplayerModeSettings(GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
   }; // PlayerData
+  check_size<sizeof(PlayerData), 160 + sizeof(void*) + 8 - (160 + sizeof(void*)) % 8> __GlobalNamespace_PlayerDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerData*, "", "PlayerData");

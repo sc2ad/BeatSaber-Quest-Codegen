@@ -29,6 +29,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LanguageSettingsPresetsSO::Preset* New_ctor();
   }; // LanguageSettingsPresetsSO/Preset
+  check_size<sizeof(LanguageSettingsPresetsSO::Preset), 24 + sizeof(Polyglot::Language) + 8 - (24 + sizeof(Polyglot::Language)) % 8> __GlobalNamespace_LanguageSettingsPresetsSO_PresetSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LanguageSettingsPresetsSO::Preset*, "", "LanguageSettingsPresetsSO/Preset");

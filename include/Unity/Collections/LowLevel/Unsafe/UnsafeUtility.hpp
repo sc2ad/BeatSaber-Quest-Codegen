@@ -32,20 +32,29 @@ namespace Unity::Collections::LowLevel::Unsafe {
     // Offset: 0xFFFFFFFF
     template<class T>
     static T ReadArrayElement(void* source, int index) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", "ReadArrayElement", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, source, index)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Unity::Collections::LowLevel::Unsafe").WithContext("UnsafeUtility").WithContext("ReadArrayElement");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", il2cpp_utils::NoArgClass<T>(), "ReadArrayElement", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(source, index))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, source, index);
     }
     // static public System.Void WriteArrayElement(System.Void* destination, System.Int32 index, T value)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void WriteArrayElement(void* destination, int index, T value) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", "WriteArrayElement", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, destination, index, value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Unity::Collections::LowLevel::Unsafe").WithContext("UnsafeUtility").WithContext("WriteArrayElement");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", il2cpp_utils::NoArgClass<void>(), "WriteArrayElement", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(destination, index, value))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, destination, index, value);
     }
     // static public System.Int32 SizeOf()
     // Offset: 0xFFFFFFFF
     template<class T>
     static int SizeOf() {
       static_assert(is_value_type_v<T>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<int>("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", "SizeOf", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Unity::Collections::LowLevel::Unsafe").WithContext("UnsafeUtility").WithContext("SizeOf");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", il2cpp_utils::NoArgClass<int>(), "SizeOf", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
     }
   }; // Unity.Collections.LowLevel.Unsafe.UnsafeUtility
 }

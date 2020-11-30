@@ -46,6 +46,7 @@ namespace UnityEngine {
     // Offset: 0x1A006CC
     static void set_rotation_Injected(UnityEngine::ParticleSystem::ShapeModule& _unity_self, UnityEngine::Vector3& value);
   }; // UnityEngine.ParticleSystem/ShapeModule
+  check_size<sizeof(ParticleSystem::ShapeModule), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __UnityEngine_ParticleSystem_ShapeModuleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::ShapeModule, "UnityEngine", "ParticleSystem/ShapeModule");

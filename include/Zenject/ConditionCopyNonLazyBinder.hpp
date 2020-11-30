@@ -62,13 +62,19 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     Zenject::CopyNonLazyBinder* WhenInjectedInto() {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::CopyNonLazyBinder*>(this, "WhenInjectedInto", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConditionCopyNonLazyBinder").WithContext("WhenInjectedInto");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::CopyNonLazyBinder*>(), "WhenInjectedInto", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::CopyNonLazyBinder*, false>(this, ___internal__method);
     }
     // public Zenject.CopyNonLazyBinder WhenNotInjectedInto()
     // Offset: 0xFFFFFFFF
     template<class T>
     Zenject::CopyNonLazyBinder* WhenNotInjectedInto() {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::CopyNonLazyBinder*>(this, "WhenNotInjectedInto", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConditionCopyNonLazyBinder").WithContext("WhenNotInjectedInto");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::CopyNonLazyBinder*>(), "WhenNotInjectedInto", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::CopyNonLazyBinder*, false>(this, ___internal__method);
     }
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
     // Offset: 0x10EF4C8

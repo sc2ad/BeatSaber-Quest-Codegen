@@ -73,6 +73,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static VerticalScrollIndicator* New_ctor();
   }; // HMUI.VerticalScrollIndicator
+  check_size<sizeof(VerticalScrollIndicator), 56 + sizeof(float) + 8 - (56 + sizeof(float)) % 8> __HMUI_VerticalScrollIndicatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::VerticalScrollIndicator*, "HMUI", "VerticalScrollIndicator");

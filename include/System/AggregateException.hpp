@@ -119,6 +119,7 @@ namespace System {
     // Base method: System.String Exception::ToString()
     ::Il2CppString* ToString();
   }; // System.AggregateException
+  check_size<sizeof(AggregateException), 136 + sizeof(void*) + 8 - (136 + sizeof(void*)) % 8> __System_AggregateExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::AggregateException*, "System", "AggregateException");

@@ -91,6 +91,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static HSVPanelController* New_ctor();
   }; // HSVPanelController
+  check_size<sizeof(HSVPanelController), 48 + sizeof(UnityEngine::Vector3) + 8 - (48 + sizeof(UnityEngine::Vector3)) % 8> __GlobalNamespace_HSVPanelControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HSVPanelController*, "", "HSVPanelController");

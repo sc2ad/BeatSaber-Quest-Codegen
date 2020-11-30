@@ -105,6 +105,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AudioManagerSO* New_ctor();
   }; // AudioManagerSO
+  check_size<sizeof(AudioManagerSO), 48 + sizeof(bool) + 8 - (48 + sizeof(bool)) % 8> __GlobalNamespace_AudioManagerSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioManagerSO*, "", "AudioManagerSO");

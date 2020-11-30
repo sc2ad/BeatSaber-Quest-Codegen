@@ -58,6 +58,7 @@ namespace System::Threading {
     // Base method: System.Void Object::.ctor()
     static ThreadPoolWorkQueue::WorkStealingQueue* New_ctor();
   }; // System.Threading.ThreadPoolWorkQueue/WorkStealingQueue
+  check_size<sizeof(ThreadPoolWorkQueue::WorkStealingQueue), 36 + sizeof(System::Threading::SpinLock) + 8 - (36 + sizeof(System::Threading::SpinLock)) % 8> __System_Threading_ThreadPoolWorkQueue_WorkStealingQueueSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*, "System.Threading", "ThreadPoolWorkQueue/WorkStealingQueue");

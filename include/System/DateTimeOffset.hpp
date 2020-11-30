@@ -167,6 +167,7 @@ namespace System {
     // Base method: System.String IFormattable::ToString(System.String format, System.IFormatProvider formatProvider)
     ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* formatProvider);
   }; // System.DateTimeOffset
+  check_size<sizeof(DateTimeOffset), 8 + sizeof(int16_t) + 8 - (8 + sizeof(int16_t)) % 8> __System_DateTimeOffsetSizeCheck;
   // static public System.TimeSpan op_Subtraction(System.DateTimeOffset left, System.DateTimeOffset right)
   // Offset: 0x1664270
   System::TimeSpan operator-(const System::DateTimeOffset& left, const System::DateTimeOffset& right);

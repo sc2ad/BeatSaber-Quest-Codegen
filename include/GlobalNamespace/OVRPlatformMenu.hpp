@@ -61,6 +61,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRPlatformMenu/eHandler RetreatOneLevel
       static void _set_RetreatOneLevel(GlobalNamespace::OVRPlatformMenu::eHandler value);
     }; // OVRPlatformMenu/eHandler
+    check_size<sizeof(OVRPlatformMenu::eHandler), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRPlatformMenu_eHandlerSizeCheck;
     // private OVRInput/RawButton inputCode
     // Offset: 0x18
     GlobalNamespace::OVRInput::RawButton inputCode;
@@ -106,6 +107,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // OVRPlatformMenu
+  check_size<sizeof(OVRPlatformMenu), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_OVRPlatformMenuSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlatformMenu*, "", "OVRPlatformMenu");

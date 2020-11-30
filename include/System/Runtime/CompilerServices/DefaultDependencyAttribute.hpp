@@ -26,6 +26,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x1163150
     static DefaultDependencyAttribute* New_ctor(System::Runtime::CompilerServices::LoadHint loadHintArgument);
   }; // System.Runtime.CompilerServices.DefaultDependencyAttribute
+  check_size<sizeof(DefaultDependencyAttribute), 16 + sizeof(System::Runtime::CompilerServices::LoadHint) + 8 - (16 + sizeof(System::Runtime::CompilerServices::LoadHint)) % 8> __System_Runtime_CompilerServices_DefaultDependencyAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::DefaultDependencyAttribute*, "System.Runtime.CompilerServices", "DefaultDependencyAttribute");

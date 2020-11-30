@@ -59,6 +59,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x1465B24
     void UncompressFlags();
   }; // System.Security.Cryptography.X509Certificates.X509ChainElement
+  check_size<sizeof(X509ChainElement), 40 + sizeof(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags) + 8 - (40 + sizeof(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags)) % 8> __System_Security_Cryptography_X509Certificates_X509ChainElementSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainElement*, "System.Security.Cryptography.X509Certificates", "X509ChainElement");

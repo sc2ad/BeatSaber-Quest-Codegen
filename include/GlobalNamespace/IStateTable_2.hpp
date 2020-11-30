@@ -25,14 +25,19 @@ namespace GlobalNamespace {
     // public TState GetState(TType type)
     // Offset: 0xFFFFFFFF
     TState GetState(TType type) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<TState>(this, "GetState", type));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("IStateTable_2").WithContext("GetState");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<TState>(), "GetState", {}, ::il2cpp_utils::ExtractTypes(type)));
+      return ::il2cpp_utils::RunMethodThrow<TState, false>(this, ___internal__method, type);
     }
     // public System.Void SetState(TType type, TState state)
     // Offset: 0xFFFFFFFF
     void SetState(TType type, TState state) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "SetState", type, state));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("IStateTable_2").WithContext("SetState");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "SetState", {}, ::il2cpp_utils::ExtractTypes(type, state)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, type, state);
     }
   }; // IStateTable`2
+  // Could not write size check! Type: IStateTable`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::IStateTable_2, "", "IStateTable`2");
 #pragma pack(pop)

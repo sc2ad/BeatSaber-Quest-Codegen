@@ -37,24 +37,32 @@ namespace System::Collections::Generic {
     // System.Void .ctor(System.Collections.Generic.LinkedList`1<T> list, T value)
     // Offset: 0xFFFFFFFF
     static LinkedListNode_1<T>* New_ctor(System::Collections::Generic::LinkedList_1<T>* list, T value) {
-      return THROW_UNLESS(il2cpp_utils::New<LinkedListNode_1<T>*>(list, value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedListNode_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<LinkedListNode_1<T>*>(list, value));
     }
     // public System.Collections.Generic.LinkedListNode`1<T> get_Next()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::LinkedListNode_1<T>* get_Next() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::LinkedListNode_1<T>*>(this, "get_Next"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedListNode_1").WithContext("get_Next");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Collections::Generic::LinkedListNode_1<T>*>(), "get_Next", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::LinkedListNode_1<T>*, false>(this, ___internal__method);
     }
     // public T get_Value()
     // Offset: 0xFFFFFFFF
     T get_Value() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_Value"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedListNode_1").WithContext("get_Value");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "get_Value", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // System.Void Invalidate()
     // Offset: 0xFFFFFFFF
     void Invalidate() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invalidate"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Collections::Generic").WithContext("LinkedListNode_1").WithContext("Invalidate");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Invalidate", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
   }; // System.Collections.Generic.LinkedListNode`1
+  // Could not write size check! Type: System.Collections.Generic.LinkedListNode`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::LinkedListNode_1, "System.Collections.Generic", "LinkedListNode`1");
 #pragma pack(pop)

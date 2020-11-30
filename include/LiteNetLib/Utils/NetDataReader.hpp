@@ -179,7 +179,10 @@ namespace LiteNetLib::Utils {
     template<class T>
     T Get() {
       static_assert(std::is_base_of_v<LiteNetLib::Utils::INetSerializable, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "Get", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("NetDataReader").WithContext("Get");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "Get", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public System.Byte[] GetRemainingBytes()
     // Offset: 0x1DD41C4
@@ -292,6 +295,7 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void Object::.ctor()
     static NetDataReader* New_ctor();
   }; // LiteNetLib.Utils.NetDataReader
+  check_size<sizeof(NetDataReader), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __LiteNetLib_Utils_NetDataReaderSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetDataReader*, "LiteNetLib.Utils", "NetDataReader");
 #pragma pack(pop)

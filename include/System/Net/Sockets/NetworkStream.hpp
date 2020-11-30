@@ -166,6 +166,7 @@ namespace System::Net::Sockets {
     // Base method: System.Void Stream::SetLength(System.Int64 value)
     void SetLength(int64_t value);
   }; // System.Net.Sockets.NetworkStream
+  check_size<sizeof(NetworkStream), 64 + sizeof(int) + 8 - (64 + sizeof(int)) % 8> __System_Net_Sockets_NetworkStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::NetworkStream*, "System.Net.Sockets", "NetworkStream");

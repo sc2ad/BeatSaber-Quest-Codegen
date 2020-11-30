@@ -139,6 +139,7 @@ namespace System::Globalization {
     // Set static field: static public System.Globalization.HebrewNumber/HS END
     static void _set_END(System::Globalization::HebrewNumber::HS value);
   }; // System.Globalization.HebrewNumber/HS
+  check_size<sizeof(HebrewNumber::HS), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Globalization_HebrewNumber_HSSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumber::HS, "System.Globalization", "HebrewNumber/HS");

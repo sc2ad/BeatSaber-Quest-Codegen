@@ -92,6 +92,7 @@ namespace GlobalNamespace {
       // Set static field: static public MissionLevelGameplayManager/GameState Failed
       static void _set_Failed(GlobalNamespace::MissionLevelGameplayManager::GameState value);
     }; // MissionLevelGameplayManager/GameState
+    check_size<sizeof(MissionLevelGameplayManager::GameState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_MissionLevelGameplayManager_GameStateSizeCheck;
     // private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
     // Offset: 0x18
     GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
@@ -179,6 +180,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionLevelGameplayManager* New_ctor();
   }; // MissionLevelGameplayManager
+  check_size<sizeof(MissionLevelGameplayManager), 80 + sizeof(GlobalNamespace::MissionLevelGameplayManager::GameState) + 8 - (80 + sizeof(GlobalNamespace::MissionLevelGameplayManager::GameState)) % 8> __GlobalNamespace_MissionLevelGameplayManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelGameplayManager*, "", "MissionLevelGameplayManager");

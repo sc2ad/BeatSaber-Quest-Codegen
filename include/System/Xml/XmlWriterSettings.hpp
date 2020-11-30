@@ -224,6 +224,7 @@ namespace System::Xml {
     // Base method: System.Void Object::.ctor()
     static XmlWriterSettings* New_ctor();
   }; // System.Xml.XmlWriterSettings
+  check_size<sizeof(XmlWriterSettings), 133 + sizeof(bool) + 8 - (133 + sizeof(bool)) % 8> __System_Xml_XmlWriterSettingsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWriterSettings*, "System.Xml", "XmlWriterSettings");

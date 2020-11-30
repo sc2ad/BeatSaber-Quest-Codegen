@@ -44,6 +44,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SimpleTemporalFiltering* New_ctor();
   }; // SimpleTemporalFiltering
+  check_size<sizeof(SimpleTemporalFiltering), 40 + sizeof(int) + 8 - (40 + sizeof(int)) % 8> __GlobalNamespace_SimpleTemporalFilteringSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTemporalFiltering*, "", "SimpleTemporalFiltering");

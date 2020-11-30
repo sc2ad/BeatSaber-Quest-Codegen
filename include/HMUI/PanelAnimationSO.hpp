@@ -66,6 +66,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static PanelAnimationSO* New_ctor();
   }; // HMUI.PanelAnimationSO
+  check_size<sizeof(PanelAnimationSO), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __HMUI_PanelAnimationSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::PanelAnimationSO*, "HMUI", "PanelAnimationSO");

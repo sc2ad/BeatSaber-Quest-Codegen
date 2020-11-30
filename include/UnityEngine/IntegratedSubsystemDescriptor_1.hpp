@@ -29,9 +29,11 @@ namespace UnityEngine {
     // Base method: System.Void IntegratedSubsystemDescriptor::.ctor()
     // Base method: System.Void Object::.ctor()
     static IntegratedSubsystemDescriptor_1<TSubsystem>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<IntegratedSubsystemDescriptor_1<TSubsystem>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("IntegratedSubsystemDescriptor_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<IntegratedSubsystemDescriptor_1<TSubsystem>*>());
     }
   }; // UnityEngine.IntegratedSubsystemDescriptor`1
+  // Could not write size check! Type: UnityEngine.IntegratedSubsystemDescriptor`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::IntegratedSubsystemDescriptor_1, "UnityEngine", "IntegratedSubsystemDescriptor`1");
 #pragma pack(pop)

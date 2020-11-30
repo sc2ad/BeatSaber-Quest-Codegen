@@ -53,6 +53,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Base method: System.Int32 BufferedBlockCipher::DoFinal(System.Byte[] output, System.Int32 outOff)
     int DoFinal(::Array<uint8_t>* output, int outOff);
   }; // Org.BouncyCastle.Crypto.Modes.CtsBlockCipher
+  check_size<sizeof(CtsBlockCipher), 40 + sizeof(int) + 8 - (40 + sizeof(int)) % 8> __Org_BouncyCastle_Crypto_Modes_CtsBlockCipherSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::CtsBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "CtsBlockCipher");

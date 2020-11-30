@@ -62,14 +62,17 @@ namespace System {
       // System.Void .ctor(System.ArraySegment`1<T> arraySegment)
       // Offset: 0xFFFFFFFF
       static typename ArraySegment_1<T>::ArraySegmentEnumerator* New_ctor(System::ArraySegment_1<T> arraySegment) {
-        return THROW_UNLESS(il2cpp_utils::New<typename ArraySegment_1<T>::ArraySegmentEnumerator*>(arraySegment));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegmentEnumerator").WithContext(".ctor");
+        return THROW_UNLESS(::il2cpp_utils::New<typename ArraySegment_1<T>::ArraySegmentEnumerator*>(arraySegment));
       }
       // public System.Boolean MoveNext()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Boolean IEnumerator::MoveNext()
       bool MoveNext() {
-        return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "MoveNext"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegmentEnumerator").WithContext("MoveNext");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "MoveNext", {}, ::il2cpp_utils::ExtractTypes()));
+        return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
       }
       // Creating proxy method: System_Collections_IEnumerator_MoveNext
       // Maps to method: MoveNext
@@ -81,7 +84,9 @@ namespace System {
       // Implemented from: System.Collections.Generic.IEnumerator`1
       // Base method: T IEnumerator_1::get_Current()
       T get_Current() {
-        return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_Current"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegmentEnumerator").WithContext("get_Current");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "get_Current", {}, ::il2cpp_utils::ExtractTypes()));
+        return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
       }
       // Creating proxy method: System_Collections_Generic_IEnumerator_1_get_Current
       // Maps to method: get_Current
@@ -93,21 +98,27 @@ namespace System {
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Object IEnumerator::get_Current()
       ::Il2CppObject* System_Collections_IEnumerator_get_Current() {
-        return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppObject*>(this, "System.Collections.IEnumerator.get_Current"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegmentEnumerator").WithContext("System.Collections.IEnumerator.get_Current");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<::Il2CppObject*>(), "System.Collections.IEnumerator.get_Current", {}, ::il2cpp_utils::ExtractTypes()));
+        return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method);
       }
       // private System.Void System.Collections.IEnumerator.Reset()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.Collections.IEnumerator
       // Base method: System.Void IEnumerator::Reset()
       void System_Collections_IEnumerator_Reset() {
-        THROW_UNLESS(il2cpp_utils::RunMethod(this, "System.Collections.IEnumerator.Reset"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegmentEnumerator").WithContext("System.Collections.IEnumerator.Reset");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "System.Collections.IEnumerator.Reset", {}, ::il2cpp_utils::ExtractTypes()));
+        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
       }
       // public System.Void Dispose()
       // Offset: 0xFFFFFFFF
       // Implemented from: System.IDisposable
       // Base method: System.Void IDisposable::Dispose()
       void Dispose() {
-        THROW_UNLESS(il2cpp_utils::RunMethod(this, "Dispose"));
+        static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegmentEnumerator").WithContext("Dispose");
+        static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Dispose", {}, ::il2cpp_utils::ExtractTypes()));
+        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
       }
       // Creating proxy method: System_IDisposable_Dispose
       // Maps to method: Dispose
@@ -115,6 +126,7 @@ namespace System {
         Dispose();
       }
     }; // System.ArraySegment`1/ArraySegmentEnumerator
+    // Could not write size check! Type: System.ArraySegment`1/ArraySegmentEnumerator is generic!
     // private T[] _array
     // Offset: 0x0
     ::Array<T>* array;
@@ -137,7 +149,9 @@ namespace System {
     // public System.Void .ctor(T[] array)
     // Offset: 0xFFFFFFFF
     ArraySegment_1(::Array<T>* array) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, ".ctor", array));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegment_1").WithContext(".ctor");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<ArraySegment_1<T>>(), ".ctor", {}, ::il2cpp_utils::ExtractTypes(array)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, array);
     }
     // public System.Void .ctor(T[] array, System.Int32 offset, System.Int32 count)
     // Offset: 0xFFFFFFFF
@@ -145,17 +159,23 @@ namespace System {
     // public T[] get_Array()
     // Offset: 0xFFFFFFFF
     ::Array<T>* get_Array() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Array<T>*>(*this, "get_Array"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegment_1").WithContext("get_Array");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<::Array<T>*>(), "get_Array", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(*this, ___internal__method);
     }
     // public System.Int32 get_Offset()
     // Offset: 0xFFFFFFFF
     int get_Offset() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(*this, "get_Offset"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegment_1").WithContext("get_Offset");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<int>(), "get_Offset", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(*this, ___internal__method);
     }
     // public System.Boolean Equals(System.ArraySegment`1<T> obj)
     // Offset: 0xFFFFFFFF
     bool Equals(System::ArraySegment_1<T> obj) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "Equals", obj));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegment_1").WithContext("Equals");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<bool>(), "Equals", {}, ::il2cpp_utils::ExtractTypes(obj)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, obj);
     }
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF
@@ -163,7 +183,9 @@ namespace System {
     // Base method: System.Int32 ICollection_1::get_Count()
     // Base method: System.Int32 IReadOnlyCollection_1::get_Count()
     int get_Count() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(*this, "get_Count"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegment_1").WithContext("get_Count");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<int>(), "get_Count", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(*this, ___internal__method);
     }
     // Creating proxy method: System_Collections_Generic_ICollection_1_get_Count
     // Maps to method: get_Count
@@ -175,114 +197,147 @@ namespace System {
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<int>(*this, "GetHashCode"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegment_1").WithContext("GetHashCode");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<int>(), "GetHashCode", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(*this, ___internal__method);
     }
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "Equals", obj));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegment_1").WithContext("Equals");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<bool>(), "Equals", {}, ::il2cpp_utils::ExtractTypes(obj)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, obj);
     }
     // private T System.Collections.Generic.IList<T>.get_Item(System.Int32 index)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: T IList_1::get_Item(System.Int32 index)
     T System_Collections_Generic_IList_1_get_Item(int index) {
-      return THROW_UNLESS((il2cpp_utils::RunMethod<T>(*this, "System.Collections.Generic.IList<T>.get_Item", index)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegment_1").WithContext("System.Collections.Generic.IList<T>.get_Item");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<T>(), "System.Collections.Generic.IList<T>.get_Item", {}, ::il2cpp_utils::ExtractTypes(index))));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method, index);
     }
     // private System.Void System.Collections.Generic.IList<T>.set_Item(System.Int32 index, T value)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: System.Void IList_1::set_Item(System.Int32 index, T value)
     void System_Collections_Generic_IList_1_set_Item(int index, T value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "System.Collections.Generic.IList<T>.set_Item", index, value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegment_1").WithContext("System.Collections.Generic.IList<T>.set_Item");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "System.Collections.Generic.IList<T>.set_Item", {}, ::il2cpp_utils::ExtractTypes(index, value))));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, index, value);
     }
     // private System.Int32 System.Collections.Generic.IList<T>.IndexOf(T item)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: System.Int32 IList_1::IndexOf(T item)
     int System_Collections_Generic_IList_1_IndexOf(T item) {
-      return THROW_UNLESS((il2cpp_utils::RunMethod<int>(*this, "System.Collections.Generic.IList<T>.IndexOf", item)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegment_1").WithContext("System.Collections.Generic.IList<T>.IndexOf");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<int>(), "System.Collections.Generic.IList<T>.IndexOf", {}, ::il2cpp_utils::ExtractTypes(item))));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(*this, ___internal__method, item);
     }
     // private System.Void System.Collections.Generic.IList<T>.Insert(System.Int32 index, T item)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: System.Void IList_1::Insert(System.Int32 index, T item)
     void System_Collections_Generic_IList_1_Insert(int index, T item) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "System.Collections.Generic.IList<T>.Insert", index, item));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegment_1").WithContext("System.Collections.Generic.IList<T>.Insert");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "System.Collections.Generic.IList<T>.Insert", {}, ::il2cpp_utils::ExtractTypes(index, item))));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, index, item);
     }
     // private System.Void System.Collections.Generic.IList<T>.RemoveAt(System.Int32 index)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IList`1
     // Base method: System.Void IList_1::RemoveAt(System.Int32 index)
     void System_Collections_Generic_IList_1_RemoveAt(int index) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "System.Collections.Generic.IList<T>.RemoveAt", index));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegment_1").WithContext("System.Collections.Generic.IList<T>.RemoveAt");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "System.Collections.Generic.IList<T>.RemoveAt", {}, ::il2cpp_utils::ExtractTypes(index))));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, index);
     }
     // private T System.Collections.Generic.IReadOnlyList<T>.get_Item(System.Int32 index)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IReadOnlyList`1
     // Base method: T IReadOnlyList_1::get_Item(System.Int32 index)
     T System_Collections_Generic_IReadOnlyList_1_get_Item(int index) {
-      return THROW_UNLESS((il2cpp_utils::RunMethod<T>(*this, "System.Collections.Generic.IReadOnlyList<T>.get_Item", index)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegment_1").WithContext("System.Collections.Generic.IReadOnlyList<T>.get_Item");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<T>(), "System.Collections.Generic.IReadOnlyList<T>.get_Item", {}, ::il2cpp_utils::ExtractTypes(index))));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(*this, ___internal__method, index);
     }
     // private System.Boolean System.Collections.Generic.ICollection<T>.get_IsReadOnly()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::get_IsReadOnly()
     bool System_Collections_Generic_ICollection_1_get_IsReadOnly() {
-      return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(*this, "System.Collections.Generic.ICollection<T>.get_IsReadOnly")));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegment_1").WithContext("System.Collections.Generic.ICollection<T>.get_IsReadOnly");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<bool>(), "System.Collections.Generic.ICollection<T>.get_IsReadOnly", {}, ::il2cpp_utils::ExtractTypes())));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method);
     }
     // private System.Void System.Collections.Generic.ICollection<T>.Add(T item)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection_1::Add(T item)
     void System_Collections_Generic_ICollection_1_Add(T item) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "System.Collections.Generic.ICollection<T>.Add", item));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegment_1").WithContext("System.Collections.Generic.ICollection<T>.Add");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "System.Collections.Generic.ICollection<T>.Add", {}, ::il2cpp_utils::ExtractTypes(item))));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, item);
     }
     // private System.Void System.Collections.Generic.ICollection<T>.Clear()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection_1::Clear()
     void System_Collections_Generic_ICollection_1_Clear() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "System.Collections.Generic.ICollection<T>.Clear"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegment_1").WithContext("System.Collections.Generic.ICollection<T>.Clear");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "System.Collections.Generic.ICollection<T>.Clear", {}, ::il2cpp_utils::ExtractTypes())));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method);
     }
     // private System.Boolean System.Collections.Generic.ICollection<T>.Contains(T item)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::Contains(T item)
     bool System_Collections_Generic_ICollection_1_Contains(T item) {
-      return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(*this, "System.Collections.Generic.ICollection<T>.Contains", item)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegment_1").WithContext("System.Collections.Generic.ICollection<T>.Contains");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<bool>(), "System.Collections.Generic.ICollection<T>.Contains", {}, ::il2cpp_utils::ExtractTypes(item))));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, item);
     }
     // private System.Void System.Collections.Generic.ICollection<T>.CopyTo(T[] array, System.Int32 arrayIndex)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Void ICollection_1::CopyTo(T[] array, System.Int32 arrayIndex)
     void System_Collections_Generic_ICollection_1_CopyTo(::Array<T>* array, int arrayIndex) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(*this, "System.Collections.Generic.ICollection<T>.CopyTo", array, arrayIndex));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegment_1").WithContext("System.Collections.Generic.ICollection<T>.CopyTo");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<void>(), "System.Collections.Generic.ICollection<T>.CopyTo", {}, ::il2cpp_utils::ExtractTypes(array, arrayIndex))));
+      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, array, arrayIndex);
     }
     // private System.Boolean System.Collections.Generic.ICollection<T>.Remove(T item)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.ICollection`1
     // Base method: System.Boolean ICollection_1::Remove(T item)
     bool System_Collections_Generic_ICollection_1_Remove(T item) {
-      return THROW_UNLESS((il2cpp_utils::RunMethod<bool>(*this, "System.Collections.Generic.ICollection<T>.Remove", item)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegment_1").WithContext("System.Collections.Generic.ICollection<T>.Remove");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<bool>(), "System.Collections.Generic.ICollection<T>.Remove", {}, ::il2cpp_utils::ExtractTypes(item))));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method, item);
     }
     // private System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.IEnumerable`1
     // Base method: System.Collections.Generic.IEnumerator`1<T> IEnumerable_1::GetEnumerator()
     System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_1_GetEnumerator() {
-      return THROW_UNLESS((il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerator_1<T>*>(*this, "System.Collections.Generic.IEnumerable<T>.GetEnumerator")));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegment_1").WithContext("System.Collections.Generic.IEnumerable<T>.GetEnumerator");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<System::Collections::Generic::IEnumerator_1<T>*>(), "System.Collections.Generic.IEnumerable<T>.GetEnumerator", {}, ::il2cpp_utils::ExtractTypes())));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerator_1<T>*, false>(*this, ___internal__method);
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.IEnumerable
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::IEnumerator*>(*this, "System.Collections.IEnumerable.GetEnumerator"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ArraySegment_1").WithContext("System.Collections.IEnumerable.GetEnumerator");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<System::Collections::IEnumerator*>(), "System.Collections.IEnumerable.GetEnumerator", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(*this, ___internal__method);
     }
   }; // System.ArraySegment`1
+  // Could not write size check! Type: System.ArraySegment`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::ArraySegment_1, "System", "ArraySegment`1");
 #pragma pack(pop)

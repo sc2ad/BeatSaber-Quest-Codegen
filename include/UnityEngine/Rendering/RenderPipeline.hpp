@@ -49,6 +49,7 @@ namespace UnityEngine::Rendering {
     // Offset: 0x16BC798
     void Dispose(bool disposing);
   }; // UnityEngine.Rendering.RenderPipeline
+  check_size<sizeof(RenderPipeline), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __UnityEngine_Rendering_RenderPipelineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderPipeline*, "UnityEngine.Rendering", "RenderPipeline");

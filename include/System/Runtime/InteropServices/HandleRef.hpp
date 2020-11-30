@@ -32,6 +32,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0xC949FC
     System::IntPtr get_Handle();
   }; // System.Runtime.InteropServices.HandleRef
+  check_size<sizeof(HandleRef), 8 + sizeof(System::IntPtr) + 8 - (8 + sizeof(System::IntPtr)) % 8> __System_Runtime_InteropServices_HandleRefSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::HandleRef, "System.Runtime.InteropServices", "HandleRef");

@@ -89,6 +89,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BeatmapDifficultySegmentedControlController* New_ctor();
   }; // BeatmapDifficultySegmentedControlController
+  check_size<sizeof(BeatmapDifficultySegmentedControlController), 48 + sizeof(GlobalNamespace::BeatmapDifficulty) + 8 - (48 + sizeof(GlobalNamespace::BeatmapDifficulty)) % 8> __GlobalNamespace_BeatmapDifficultySegmentedControlControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDifficultySegmentedControlController*, "", "BeatmapDifficultySegmentedControlController");

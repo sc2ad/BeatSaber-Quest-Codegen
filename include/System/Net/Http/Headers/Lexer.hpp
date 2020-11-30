@@ -110,6 +110,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0x1204CE0
     static void _cctor();
   }; // System.Net.Http.Headers.Lexer
+  check_size<sizeof(Lexer), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __System_Net_Http_Headers_LexerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Lexer*, "System.Net.Http.Headers", "Lexer");

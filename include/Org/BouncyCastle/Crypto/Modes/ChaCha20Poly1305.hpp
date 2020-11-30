@@ -102,6 +102,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
       // Set static field: static public Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305/State DecFinal
       static void _set_DecFinal(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State value);
     }; // Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305/State
+    check_size<sizeof(ChaCha20Poly1305::State), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Org_BouncyCastle_Crypto_Modes_ChaCha20Poly1305_StateSizeCheck;
     // private readonly Org.BouncyCastle.Crypto.Engines.ChaCha7539Engine mChacha20
     // Offset: 0x10
     Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* mChacha20;
@@ -215,6 +216,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Base method: System.Void IAeadCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305
+  check_size<sizeof(ChaCha20Poly1305), 92 + sizeof(int) + 8 - (92 + sizeof(int)) % 8> __Org_BouncyCastle_Crypto_Modes_ChaCha20Poly1305SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*, "Org.BouncyCastle.Crypto.Modes", "ChaCha20Poly1305");

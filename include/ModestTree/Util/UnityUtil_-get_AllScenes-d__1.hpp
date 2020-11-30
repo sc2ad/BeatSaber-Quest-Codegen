@@ -87,6 +87,7 @@ namespace ModestTree::Util {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // ModestTree.Util.UnityUtil/<get_AllScenes>d__1
+  check_size<sizeof(UnityUtil::$get_AllScenes$d__1), 28 + sizeof(int) + 8 - (28 + sizeof(int)) % 8> __ModestTree_Util_UnityUtil_$get_AllScenes$d__1SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::UnityUtil::$get_AllScenes$d__1*, "ModestTree.Util", "UnityUtil/<get_AllScenes>d__1");

@@ -41,6 +41,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EIOBufferMode Create
     static void _set_Create(OVR::OpenVR::EIOBufferMode value);
   }; // OVR.OpenVR.EIOBufferMode
+  check_size<sizeof(EIOBufferMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_EIOBufferModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EIOBufferMode, "OVR.OpenVR", "EIOBufferMode");

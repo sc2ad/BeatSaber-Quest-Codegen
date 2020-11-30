@@ -49,6 +49,7 @@ namespace System {
     // Set static field: static public System.RuntimeType/MemberListType HandleToInfo
     static void _set_HandleToInfo(System::RuntimeType::MemberListType value);
   }; // System.RuntimeType/MemberListType
+  check_size<sizeof(RuntimeType::MemberListType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_RuntimeType_MemberListTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::RuntimeType::MemberListType, "System", "RuntimeType/MemberListType");

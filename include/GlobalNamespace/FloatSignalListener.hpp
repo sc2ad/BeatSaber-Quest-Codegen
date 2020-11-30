@@ -49,6 +49,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static FloatSignalListener* New_ctor();
   }; // FloatSignalListener
+  check_size<sizeof(FloatSignalListener), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_FloatSignalListenerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloatSignalListener*, "", "FloatSignalListener");

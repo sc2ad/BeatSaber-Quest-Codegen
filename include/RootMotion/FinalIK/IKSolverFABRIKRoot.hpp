@@ -94,6 +94,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static IKSolverFABRIKRoot* New_ctor();
   }; // RootMotion.FinalIK.IKSolverFABRIKRoot
+  check_size<sizeof(IKSolverFABRIKRoot), 120 + sizeof(UnityEngine::Vector3) + 8 - (120 + sizeof(UnityEngine::Vector3)) % 8> __RootMotion_FinalIK_IKSolverFABRIKRootSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverFABRIKRoot*, "RootMotion.FinalIK", "IKSolverFABRIKRoot");

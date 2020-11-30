@@ -293,6 +293,7 @@ namespace System::Text {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Text.StringBuilder
+  check_size<sizeof(StringBuilder), 40 + sizeof(int) + 8 - (40 + sizeof(int)) % 8> __System_Text_StringBuilderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::StringBuilder*, "System.Text", "StringBuilder");

@@ -47,6 +47,7 @@ namespace TMPro {
     // Set static field: static public TMPro.ColorMode FourCornersGradient
     static void _set_FourCornersGradient(TMPro::ColorMode value);
   }; // TMPro.ColorMode
+  check_size<sizeof(ColorMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __TMPro_ColorModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::ColorMode, "TMPro", "ColorMode");

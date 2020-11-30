@@ -101,6 +101,7 @@ namespace System::Threading {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.Threading.CancellationToken
+  check_size<sizeof(CancellationToken), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __System_Threading_CancellationTokenSizeCheck;
   // static public System.Boolean op_Equality(System.Threading.CancellationToken left, System.Threading.CancellationToken right)
   // Offset: 0x16B2A78
   bool operator ==(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right);

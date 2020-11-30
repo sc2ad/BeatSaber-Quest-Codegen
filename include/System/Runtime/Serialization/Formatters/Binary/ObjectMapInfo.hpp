@@ -37,6 +37,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x12F45E4
     bool isCompatible(int numMembers, ::Array<::Il2CppString*>* memberNames, ::Array<System::Type*>* memberTypes);
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectMapInfo
+  check_size<sizeof(ObjectMapInfo), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Runtime_Serialization_Formatters_Binary_ObjectMapInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo*, "System.Runtime.Serialization.Formatters.Binary", "ObjectMapInfo");

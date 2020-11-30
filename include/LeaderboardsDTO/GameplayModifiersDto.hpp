@@ -113,6 +113,7 @@ namespace LeaderboardsDTO {
     // Set static field: static public LeaderboardsDTO.GameplayModifiersDto GhostNotes
     static void _set_GhostNotes(LeaderboardsDTO::GameplayModifiersDto value);
   }; // LeaderboardsDTO.GameplayModifiersDto
+  check_size<sizeof(GameplayModifiersDto), 0 + sizeof(uint) + 8 - (0 + sizeof(uint)) % 8> __LeaderboardsDTO_GameplayModifiersDtoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::GameplayModifiersDto, "LeaderboardsDTO", "GameplayModifiersDto");

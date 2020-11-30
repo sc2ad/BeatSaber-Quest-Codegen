@@ -43,6 +43,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: VREvent_Keyboard_t
     constexpr VREvent_Keyboard_t(uint8_t cNewInput0_ = {}, uint8_t cNewInput1_ = {}, uint8_t cNewInput2_ = {}, uint8_t cNewInput3_ = {}, uint8_t cNewInput4_ = {}, uint8_t cNewInput5_ = {}, uint8_t cNewInput6_ = {}, uint8_t cNewInput7_ = {}, uint64_t uUserValue_ = {}) noexcept : cNewInput0{cNewInput0_}, cNewInput1{cNewInput1_}, cNewInput2{cNewInput2_}, cNewInput3{cNewInput3_}, cNewInput4{cNewInput4_}, cNewInput5{cNewInput5_}, cNewInput6{cNewInput6_}, cNewInput7{cNewInput7_}, uUserValue{uUserValue_} {}
   }; // Valve.VR.VREvent_Keyboard_t
+  check_size<sizeof(VREvent_Keyboard_t), 8 + sizeof(uint64_t) + 8 - (8 + sizeof(uint64_t)) % 8> __Valve_VR_VREvent_Keyboard_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_Keyboard_t, "Valve.VR", "VREvent_Keyboard_t");

@@ -26,19 +26,24 @@ namespace GlobalNamespace {
     // public System.Void .ctor(T obj, System.Single minimumPickInterval)
     // Offset: 0xFFFFFFFF
     static RandomObjectPicker_1<T>* New_ctor(T obj, float minimumPickInterval) {
-      return THROW_UNLESS(il2cpp_utils::New<RandomObjectPicker_1<T>*>(obj, minimumPickInterval));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RandomObjectPicker_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<RandomObjectPicker_1<T>*>(obj, minimumPickInterval));
     }
     // public System.Void .ctor(T[] objects, System.Single minimumPickInterval)
     // Offset: 0xFFFFFFFF
     static RandomObjectPicker_1<T>* New_ctor(::Array<T>* objects, float minimumPickInterval) {
-      return THROW_UNLESS(il2cpp_utils::New<RandomObjectPicker_1<T>*>(objects, minimumPickInterval));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RandomObjectPicker_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<RandomObjectPicker_1<T>*>(objects, minimumPickInterval));
     }
     // public T PickRandomObject()
     // Offset: 0xFFFFFFFF
     T PickRandomObject() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "PickRandomObject"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("RandomObjectPicker_1").WithContext("PickRandomObject");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "PickRandomObject", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
   }; // RandomObjectPicker`1
+  // Could not write size check! Type: RandomObjectPicker`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::RandomObjectPicker_1, "", "RandomObjectPicker`1");
 #pragma pack(pop)

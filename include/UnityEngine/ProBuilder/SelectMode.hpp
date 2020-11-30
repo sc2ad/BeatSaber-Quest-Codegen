@@ -83,6 +83,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.SelectMode Any
     static void _set_Any(UnityEngine::ProBuilder::SelectMode value);
   }; // UnityEngine.ProBuilder.SelectMode
+  check_size<sizeof(SelectMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_ProBuilder_SelectModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectMode, "UnityEngine.ProBuilder", "SelectMode");

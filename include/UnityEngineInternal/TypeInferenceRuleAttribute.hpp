@@ -39,6 +39,7 @@ namespace UnityEngineInternal {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngineInternal.TypeInferenceRuleAttribute
+  check_size<sizeof(TypeInferenceRuleAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngineInternal_TypeInferenceRuleAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::TypeInferenceRuleAttribute*, "UnityEngineInternal", "TypeInferenceRuleAttribute");

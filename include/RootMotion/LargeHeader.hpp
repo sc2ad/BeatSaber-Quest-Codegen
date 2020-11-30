@@ -26,6 +26,7 @@ namespace RootMotion {
     // Offset: 0x15F2DA8
     static LargeHeader* New_ctor(::Il2CppString* name, ::Il2CppString* color);
   }; // RootMotion.LargeHeader
+  check_size<sizeof(LargeHeader), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __RootMotion_LargeHeaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::LargeHeader*, "RootMotion", "LargeHeader");

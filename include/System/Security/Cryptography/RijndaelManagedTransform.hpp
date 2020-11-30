@@ -177,6 +177,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Byte[] ICryptoTransform::TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
     ::Array<uint8_t>* TransformFinalBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
   }; // System.Security.Cryptography.RijndaelManagedTransform
+  check_size<sizeof(RijndaelManagedTransform), 120 + sizeof(void*) + 8 - (120 + sizeof(void*)) % 8> __System_Security_Cryptography_RijndaelManagedTransformSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RijndaelManagedTransform*, "System.Security.Cryptography", "RijndaelManagedTransform");

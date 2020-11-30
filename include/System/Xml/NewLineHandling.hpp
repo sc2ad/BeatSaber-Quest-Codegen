@@ -41,6 +41,7 @@ namespace System::Xml {
     // Set static field: static public System.Xml.NewLineHandling None
     static void _set_None(System::Xml::NewLineHandling value);
   }; // System.Xml.NewLineHandling
+  check_size<sizeof(NewLineHandling), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Xml_NewLineHandlingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::NewLineHandling, "System.Xml", "NewLineHandling");

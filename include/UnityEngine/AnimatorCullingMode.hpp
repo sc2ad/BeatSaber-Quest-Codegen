@@ -41,6 +41,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.AnimatorCullingMode CullCompletely
     static void _set_CullCompletely(UnityEngine::AnimatorCullingMode value);
   }; // UnityEngine.AnimatorCullingMode
+  check_size<sizeof(AnimatorCullingMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_AnimatorCullingModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorCullingMode, "UnityEngine", "AnimatorCullingMode");

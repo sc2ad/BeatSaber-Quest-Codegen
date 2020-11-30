@@ -66,6 +66,7 @@ namespace Valve::VR {
     // Offset: 0x136BA98
     Valve::VR::EVRScreenshotError SubmitScreenshot(uint screenshotHandle, Valve::VR::EVRScreenshotType type, ::Il2CppString* pchSourcePreviewFilename, ::Il2CppString* pchSourceVRFilename);
   }; // Valve.VR.CVRScreenshots
+  check_size<sizeof(CVRScreenshots), 16 + sizeof(Valve::VR::IVRScreenshots) + 8 - (16 + sizeof(Valve::VR::IVRScreenshots)) % 8> __Valve_VR_CVRScreenshotsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRScreenshots*, "Valve.VR", "CVRScreenshots");

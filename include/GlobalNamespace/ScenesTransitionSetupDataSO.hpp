@@ -60,7 +60,10 @@ namespace GlobalNamespace {
     template<class T>
     T Get() {
       static_assert(std::is_convertible_v<T, GlobalNamespace::SceneSetupData*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "Get", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ScenesTransitionSetupDataSO").WithContext("Get");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "Get", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // protected System.Void .ctor()
     // Offset: 0x1030A24
@@ -71,6 +74,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ScenesTransitionSetupDataSO* New_ctor();
   }; // ScenesTransitionSetupDataSO
+  check_size<sizeof(ScenesTransitionSetupDataSO), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_ScenesTransitionSetupDataSOSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScenesTransitionSetupDataSO*, "", "ScenesTransitionSetupDataSO");
 #pragma pack(pop)

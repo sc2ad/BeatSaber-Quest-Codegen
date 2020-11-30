@@ -40,6 +40,7 @@ namespace NUnit::Framework::Internal::Execution {
     // Offset: 0x13F16B0
     void Signal();
   }; // NUnit.Framework.Internal.Execution.CountdownEvent
+  check_size<sizeof(CountdownEvent), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __NUnit_Framework_Internal_Execution_CountdownEventSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::CountdownEvent*, "NUnit.Framework.Internal.Execution", "CountdownEvent");

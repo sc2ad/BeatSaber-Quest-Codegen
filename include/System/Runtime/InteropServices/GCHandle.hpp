@@ -104,6 +104,7 @@ namespace System::Runtime::InteropServices {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.Runtime.InteropServices.GCHandle
+  check_size<sizeof(GCHandle), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Runtime_InteropServices_GCHandleSizeCheck;
   // static public System.Boolean op_Equality(System.Runtime.InteropServices.GCHandle a, System.Runtime.InteropServices.GCHandle b)
   // Offset: 0x1164F04
   bool operator ==(const System::Runtime::InteropServices::GCHandle& a, const System::Runtime::InteropServices::GCHandle& b);

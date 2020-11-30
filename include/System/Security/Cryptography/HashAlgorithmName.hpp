@@ -61,6 +61,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.Security.Cryptography.HashAlgorithmName
+  check_size<sizeof(HashAlgorithmName), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __System_Security_Cryptography_HashAlgorithmNameSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HashAlgorithmName, "System.Security.Cryptography", "HashAlgorithmName");

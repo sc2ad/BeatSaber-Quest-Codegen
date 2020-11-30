@@ -46,6 +46,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Base method: Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo IPreCompCallback::Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
     Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
   }; // Org.BouncyCastle.Math.EC.Multiplier.WNafUtilities/ConfigureBasepointCallback
+  check_size<sizeof(WNafUtilities::ConfigureBasepointCallback), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __Org_BouncyCastle_Math_EC_Multiplier_WNafUtilities_ConfigureBasepointCallbackSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::ConfigureBasepointCallback*, "Org.BouncyCastle.Math.EC.Multiplier", "WNafUtilities/ConfigureBasepointCallback");

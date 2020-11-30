@@ -37,14 +37,18 @@ namespace Zenject {
     // public Zenject.DiContainer get_Container()
     // Offset: 0xFFFFFFFF
     Zenject::DiContainer* get_Container() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::DiContainer*>(this, "get_Container"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PrefabResourceFactory_3").WithContext("get_Container");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::DiContainer*>(), "get_Container", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::DiContainer*, false>(this, ___internal__method);
     }
     // public T Create(System.String prefabResourceName, P1 param, P2 param2)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.IFactory`4
     // Base method: TValue IFactory_4::Create(System.String prefabResourceName, P1 param, P2 param2)
     T Create(::Il2CppString* prefabResourceName, P1 param, P2 param2) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "Create", prefabResourceName, param, param2));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PrefabResourceFactory_3").WithContext("Create");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "Create", {}, ::il2cpp_utils::ExtractTypes(prefabResourceName, param, param2)));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, prefabResourceName, param, param2);
     }
     // Creating proxy method: Zenject_IFactory_4_Create
     // Maps to method: Create
@@ -56,9 +60,11 @@ namespace Zenject {
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static PrefabResourceFactory_3<P1, P2, T>* New_ctor() {
-      return THROW_UNLESS((il2cpp_utils::New<PrefabResourceFactory_3<P1, P2, T>*>()));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("PrefabResourceFactory_3").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<PrefabResourceFactory_3<P1, P2, T>*>()));
     }
   }; // Zenject.PrefabResourceFactory`3
+  // Could not write size check! Type: Zenject.PrefabResourceFactory`3 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::PrefabResourceFactory_3, "Zenject", "PrefabResourceFactory`3");
 #pragma pack(pop)

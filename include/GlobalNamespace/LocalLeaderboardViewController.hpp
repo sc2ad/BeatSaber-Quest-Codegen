@@ -150,6 +150,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // LocalLeaderboardViewController
+  check_size<sizeof(LocalLeaderboardViewController), 201 + sizeof(bool) + 8 - (201 + sizeof(bool)) % 8> __GlobalNamespace_LocalLeaderboardViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardViewController*, "", "LocalLeaderboardViewController");

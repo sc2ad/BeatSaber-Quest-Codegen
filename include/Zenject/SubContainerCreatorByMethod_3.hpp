@@ -49,16 +49,20 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SubContainerCreatorBindInfo containerBindInfo, System.Action`4<Zenject.DiContainer,TParam1,TParam2,TParam3> installMethod)
     // Offset: 0xFFFFFFFF
     static SubContainerCreatorByMethod_3<TParam1, TParam2, TParam3>* New_ctor(Zenject::DiContainer* container, Zenject::SubContainerCreatorBindInfo* containerBindInfo, System::Action_4<Zenject::DiContainer*, TParam1, TParam2, TParam3>* installMethod) {
-      return THROW_UNLESS((il2cpp_utils::New<SubContainerCreatorByMethod_3<TParam1, TParam2, TParam3>*>(container, containerBindInfo, installMethod)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("SubContainerCreatorByMethod_3").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByMethod_3<TParam1, TParam2, TParam3>*>(container, containerBindInfo, installMethod)));
     }
     // public override Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.SubContainerCreatorByMethodBase
     // Base method: Zenject.DiContainer SubContainerCreatorByMethodBase::CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* context) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<Zenject::DiContainer*>(this, "CreateSubContainer", args, context));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("SubContainerCreatorByMethod_3").WithContext("CreateSubContainer");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::DiContainer*>(), "CreateSubContainer", {}, ::il2cpp_utils::ExtractTypes(args, context)));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::DiContainer*, false>(this, ___internal__method, args, context);
     }
   }; // Zenject.SubContainerCreatorByMethod`3
+  // Could not write size check! Type: Zenject.SubContainerCreatorByMethod`3 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::SubContainerCreatorByMethod_3, "Zenject", "SubContainerCreatorByMethod`3");
 #pragma pack(pop)

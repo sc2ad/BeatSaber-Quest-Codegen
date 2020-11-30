@@ -70,6 +70,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SpawnLaserAnimation* New_ctor();
   }; // SpawnLaserAnimation
+  check_size<sizeof(SpawnLaserAnimation), 72 + sizeof(bool) + 8 - (72 + sizeof(bool)) % 8> __GlobalNamespace_SpawnLaserAnimationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnLaserAnimation*, "", "SpawnLaserAnimation");

@@ -92,6 +92,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void BaseMeshEffect::ModifyMesh(UnityEngine.UI.VertexHelper vh)
     void ModifyMesh(UnityEngine::UI::VertexHelper* vh);
   }; // UnityEngine.UI.Shadow
+  check_size<sizeof(Shadow), 56 + sizeof(bool) + 8 - (56 + sizeof(bool)) % 8> __UnityEngine_UI_ShadowSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Shadow*, "UnityEngine.UI", "Shadow");

@@ -104,6 +104,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static VRIK::References* New_ctor();
   }; // RootMotion.FinalIK.VRIK/References
+  check_size<sizeof(VRIK::References), 184 + sizeof(void*) + 8 - (184 + sizeof(void*)) % 8> __RootMotion_FinalIK_VRIK_ReferencesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIK::References*, "RootMotion.FinalIK", "VRIK/References");

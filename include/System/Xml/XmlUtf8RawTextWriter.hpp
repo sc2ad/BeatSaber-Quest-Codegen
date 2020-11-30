@@ -325,6 +325,7 @@ namespace System::Xml {
     // Base method: System.Void XmlWriter::Flush()
     void Flush();
   }; // System.Xml.XmlUtf8RawTextWriter
+  check_size<sizeof(XmlUtf8RawTextWriter), 133 + sizeof(bool) + 8 - (133 + sizeof(bool)) % 8> __System_Xml_XmlUtf8RawTextWriterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlUtf8RawTextWriter*, "System.Xml", "XmlUtf8RawTextWriter");

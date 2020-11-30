@@ -31,6 +31,7 @@ namespace UnityEngine {
     // Offset: 0x160F588
     static int GetGUITargetAttrValue(System::Type* klass, ::Il2CppString* methodName);
   }; // UnityEngine.GUITargetAttribute
+  check_size<sizeof(GUITargetAttribute), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __UnityEngine_GUITargetAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUITargetAttribute*, "UnityEngine", "GUITargetAttribute");

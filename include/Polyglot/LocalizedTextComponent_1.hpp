@@ -53,74 +53,102 @@ namespace Polyglot {
     // public System.Boolean get_MaintainTextAlignment()
     // Offset: 0xFFFFFFFF
     bool get_MaintainTextAlignment() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "get_MaintainTextAlignment"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Polyglot").WithContext("LocalizedTextComponent_1").WithContext("get_MaintainTextAlignment");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "get_MaintainTextAlignment", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
     // public System.Void set_MaintainTextAlignment(System.Boolean value)
     // Offset: 0xFFFFFFFF
     void set_MaintainTextAlignment(bool value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_MaintainTextAlignment", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Polyglot").WithContext("LocalizedTextComponent_1").WithContext("set_MaintainTextAlignment");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "set_MaintainTextAlignment", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // public System.String get_Key()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_Key() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<::Il2CppString*>(this, "get_Key"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Polyglot").WithContext("LocalizedTextComponent_1").WithContext("get_Key");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<::Il2CppString*>(), "get_Key", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
     }
     // public System.Void set_Key(System.String value)
     // Offset: 0xFFFFFFFF
     void set_Key(::Il2CppString* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_Key", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Polyglot").WithContext("LocalizedTextComponent_1").WithContext("set_Key");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "set_Key", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // public System.Collections.Generic.List`1<System.Object> get_Parameters()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::List_1<::Il2CppObject*>* get_Parameters() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::List_1<::Il2CppObject*>*>(this, "get_Parameters"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Polyglot").WithContext("LocalizedTextComponent_1").WithContext("get_Parameters");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Collections::Generic::List_1<::Il2CppObject*>*>(), "get_Parameters", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<::Il2CppObject*>*, false>(this, ___internal__method);
     }
     // public System.Void OnEnable()
     // Offset: 0xFFFFFFFF
     void OnEnable() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnEnable"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Polyglot").WithContext("LocalizedTextComponent_1").WithContext("OnEnable");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "OnEnable", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // protected System.Void SetText(T component, System.String value)
     // Offset: 0xFFFFFFFF
     void SetText(T component, ::Il2CppString* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "SetText", component, value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Polyglot").WithContext("LocalizedTextComponent_1").WithContext("SetText");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "SetText", {}, ::il2cpp_utils::ExtractTypes(component, value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, component, value);
     }
     // protected System.Void UpdateAlignment(T component, Polyglot.LanguageDirection direction)
     // Offset: 0xFFFFFFFF
     void UpdateAlignment(T component, Polyglot::LanguageDirection direction) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "UpdateAlignment", component, direction));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Polyglot").WithContext("LocalizedTextComponent_1").WithContext("UpdateAlignment");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "UpdateAlignment", {}, ::il2cpp_utils::ExtractTypes(component, direction)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, component, direction);
     }
     // public System.Void ClearParameters()
     // Offset: 0xFFFFFFFF
     void ClearParameters() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "ClearParameters"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Polyglot").WithContext("LocalizedTextComponent_1").WithContext("ClearParameters");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "ClearParameters", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // public System.Void AddParameter(System.Object parameter)
     // Offset: 0xFFFFFFFF
     void AddParameter(::Il2CppObject* parameter) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddParameter", parameter));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Polyglot").WithContext("LocalizedTextComponent_1").WithContext("AddParameter");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "AddParameter", {}, ::il2cpp_utils::ExtractTypes(parameter)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, parameter);
     }
     // public System.Void AddParameter(System.Int32 parameter)
     // Offset: 0xFFFFFFFF
     void AddParameter(int parameter) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddParameter", parameter));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Polyglot").WithContext("LocalizedTextComponent_1").WithContext("AddParameter");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "AddParameter", {}, ::il2cpp_utils::ExtractTypes(parameter)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, parameter);
     }
     // public System.Void AddParameter(System.Single parameter)
     // Offset: 0xFFFFFFFF
     void AddParameter(float parameter) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddParameter", parameter));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Polyglot").WithContext("LocalizedTextComponent_1").WithContext("AddParameter");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "AddParameter", {}, ::il2cpp_utils::ExtractTypes(parameter)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, parameter);
     }
     // public System.Void AddParameter(System.String parameter)
     // Offset: 0xFFFFFFFF
     void AddParameter(::Il2CppString* parameter) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "AddParameter", parameter));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Polyglot").WithContext("LocalizedTextComponent_1").WithContext("AddParameter");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "AddParameter", {}, ::il2cpp_utils::ExtractTypes(parameter)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, parameter);
     }
     // public System.Void OnLocalize()
     // Offset: 0xFFFFFFFF
     // Implemented from: Polyglot.ILocalize
     // Base method: System.Void ILocalize::OnLocalize()
     void OnLocalize() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnLocalize"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Polyglot").WithContext("LocalizedTextComponent_1").WithContext("OnLocalize");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "OnLocalize", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
     // protected System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -131,9 +159,11 @@ namespace Polyglot {
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()
     static LocalizedTextComponent_1<T>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<LocalizedTextComponent_1<T>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Polyglot").WithContext("LocalizedTextComponent_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<LocalizedTextComponent_1<T>*>());
     }
   }; // Polyglot.LocalizedTextComponent`1
+  // Could not write size check! Type: Polyglot.LocalizedTextComponent`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Polyglot::LocalizedTextComponent_1, "Polyglot", "LocalizedTextComponent`1");
 #pragma pack(pop)

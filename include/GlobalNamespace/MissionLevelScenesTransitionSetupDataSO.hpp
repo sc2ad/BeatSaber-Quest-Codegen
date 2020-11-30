@@ -87,6 +87,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionLevelScenesTransitionSetupDataSO* New_ctor();
   }; // MissionLevelScenesTransitionSetupDataSO
+  check_size<sizeof(MissionLevelScenesTransitionSetupDataSO), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __GlobalNamespace_MissionLevelScenesTransitionSetupDataSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, "", "MissionLevelScenesTransitionSetupDataSO");

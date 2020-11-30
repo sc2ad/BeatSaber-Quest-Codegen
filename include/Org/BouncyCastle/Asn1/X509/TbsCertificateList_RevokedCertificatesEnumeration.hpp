@@ -50,6 +50,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // Org.BouncyCastle.Asn1.X509.TbsCertificateList/RevokedCertificatesEnumeration
+  check_size<sizeof(TbsCertificateList::RevokedCertificatesEnumeration), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Org_BouncyCastle_Asn1_X509_TbsCertificateList_RevokedCertificatesEnumerationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration*, "Org.BouncyCastle.Asn1.X509", "TbsCertificateList/RevokedCertificatesEnumeration");

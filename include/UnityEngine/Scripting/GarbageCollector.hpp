@@ -52,6 +52,7 @@ namespace UnityEngine::Scripting {
       // Set static field: static public UnityEngine.Scripting.GarbageCollector/Mode Enabled
       static void _set_Enabled(UnityEngine::Scripting::GarbageCollector::Mode value);
     }; // UnityEngine.Scripting.GarbageCollector/Mode
+    check_size<sizeof(GarbageCollector::Mode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Scripting_GarbageCollector_ModeSizeCheck;
     // Get static field: static private System.Action`1<UnityEngine.Scripting.GarbageCollector/Mode> GCModeChanged
     static System::Action_1<UnityEngine::Scripting::GarbageCollector::Mode>* _get_GCModeChanged();
     // Set static field: static private System.Action`1<UnityEngine.Scripting.GarbageCollector/Mode> GCModeChanged

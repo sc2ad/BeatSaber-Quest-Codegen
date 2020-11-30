@@ -23,6 +23,7 @@ namespace Mono::Xml {
     // Offset: 0x15C346C
     static SmallXmlParserException* New_ctor(::Il2CppString* msg, int line, int column);
   }; // Mono.Xml.SmallXmlParserException
+  check_size<sizeof(SmallXmlParserException), 140 + sizeof(int) + 8 - (140 + sizeof(int)) % 8> __Mono_Xml_SmallXmlParserExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParserException*, "Mono.Xml", "SmallXmlParserException");

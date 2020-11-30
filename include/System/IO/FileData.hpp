@@ -36,6 +36,7 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     static FileData* New_ctor();
   }; // System.IO.FileData
+  check_size<sizeof(FileData), 40 + sizeof(System::DateTime) + 8 - (40 + sizeof(System::DateTime)) % 8> __System_IO_FileDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileData*, "System.IO", "FileData");

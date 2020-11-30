@@ -34,6 +34,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LeaderboardScoreUploader::ScoresToUploadData* New_ctor();
   }; // LeaderboardScoreUploader/ScoresToUploadData
+  check_size<sizeof(LeaderboardScoreUploader::ScoresToUploadData), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_LeaderboardScoreUploader_ScoresToUploadDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader::ScoresToUploadData*, "", "LeaderboardScoreUploader/ScoresToUploadData");

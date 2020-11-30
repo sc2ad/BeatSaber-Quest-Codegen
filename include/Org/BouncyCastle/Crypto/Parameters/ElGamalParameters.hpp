@@ -59,6 +59,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Crypto.Parameters.ElGamalParameters
+  check_size<sizeof(ElGamalParameters), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __Org_BouncyCastle_Crypto_Parameters_ElGamalParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ElGamalParameters*, "Org.BouncyCastle.Crypto.Parameters", "ElGamalParameters");

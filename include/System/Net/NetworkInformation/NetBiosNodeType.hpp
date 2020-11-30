@@ -53,6 +53,7 @@ namespace System::Net::NetworkInformation {
     // Set static field: static public System.Net.NetworkInformation.NetBiosNodeType Hybrid
     static void _set_Hybrid(System::Net::NetworkInformation::NetBiosNodeType value);
   }; // System.Net.NetworkInformation.NetBiosNodeType
+  check_size<sizeof(NetBiosNodeType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Net_NetworkInformation_NetBiosNodeTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetBiosNodeType, "System.Net.NetworkInformation", "NetBiosNodeType");

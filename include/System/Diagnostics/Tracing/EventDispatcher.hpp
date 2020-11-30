@@ -34,6 +34,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12C6E4C
     static EventDispatcher* New_ctor(System::Diagnostics::Tracing::EventDispatcher* next, ::Array<bool>* eventEnabled, System::Diagnostics::Tracing::EventListener* listener);
   }; // System.Diagnostics.Tracing.EventDispatcher
+  check_size<sizeof(EventDispatcher), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Diagnostics_Tracing_EventDispatcherSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventDispatcher*, "System.Diagnostics.Tracing", "EventDispatcher");

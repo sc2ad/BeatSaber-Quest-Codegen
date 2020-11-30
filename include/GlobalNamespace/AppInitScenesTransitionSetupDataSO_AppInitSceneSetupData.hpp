@@ -34,6 +34,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A3FB6C
     static AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData* New_ctor(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType);
   }; // AppInitScenesTransitionSetupDataSO/AppInitSceneSetupData
+  check_size<sizeof(AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData), 16 + sizeof(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType) + 8 - (16 + sizeof(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType)) % 8> __GlobalNamespace_AppInitScenesTransitionSetupDataSO_AppInitSceneSetupDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*, "", "AppInitScenesTransitionSetupDataSO/AppInitSceneSetupData");

@@ -44,6 +44,7 @@ namespace Oculus::Platform {
     // Offset: 0xC962A0
     ovrKeyValuePair(::Il2CppString* key, double value);
   }; // Oculus.Platform.CAPI/ovrKeyValuePair
+  check_size<sizeof(CAPI::ovrKeyValuePair), 32 + sizeof(double) + 8 - (32 + sizeof(double)) % 8> __Oculus_Platform_CAPI_ovrKeyValuePairSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrKeyValuePair, "Oculus.Platform", "CAPI/ovrKeyValuePair");

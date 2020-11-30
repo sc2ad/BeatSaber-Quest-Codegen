@@ -168,6 +168,7 @@ namespace UnityEngine {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Rect
+  check_size<sizeof(Rect), 12 + sizeof(float) + 8 - (12 + sizeof(float)) % 8> __UnityEngine_RectSizeCheck;
   // static public System.Boolean op_Inequality(UnityEngine.Rect lhs, UnityEngine.Rect rhs)
   // Offset: 0x1738A00
   bool operator !=(const UnityEngine::Rect& lhs, const UnityEngine::Rect& rhs);

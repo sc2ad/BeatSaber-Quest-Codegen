@@ -154,6 +154,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerScoreRingManager* New_ctor();
   }; // MultiplayerScoreRingManager
+  check_size<sizeof(MultiplayerScoreRingManager), 121 + sizeof(bool) + 8 - (121 + sizeof(bool)) % 8> __GlobalNamespace_MultiplayerScoreRingManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreRingManager*, "", "MultiplayerScoreRingManager");

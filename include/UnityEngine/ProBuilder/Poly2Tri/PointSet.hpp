@@ -86,6 +86,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Base method: System.Void Triangulatable::Prepare(UnityEngine.ProBuilder.Poly2Tri.TriangulationContext tcx)
     void Prepare(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
   }; // UnityEngine.ProBuilder.Poly2Tri.PointSet
+  check_size<sizeof(PointSet), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_Poly2Tri_PointSetSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::PointSet*, "UnityEngine.ProBuilder.Poly2Tri", "PointSet");

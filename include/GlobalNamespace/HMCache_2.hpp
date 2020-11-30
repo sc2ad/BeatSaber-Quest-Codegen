@@ -37,29 +37,39 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.Int32 maxNumberElements)
     // Offset: 0xFFFFFFFF
     static HMCache_2<K, V>* New_ctor(int maxNumberElements) {
-      return THROW_UNLESS((il2cpp_utils::New<HMCache_2<K, V>*>(maxNumberElements)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("HMCache_2").WithContext(".ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<HMCache_2<K, V>*>(maxNumberElements)));
     }
     // public System.Boolean IsInCache(K key)
     // Offset: 0xFFFFFFFF
     bool IsInCache(K key) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "IsInCache", key));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("HMCache_2").WithContext("IsInCache");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "IsInCache", {}, ::il2cpp_utils::ExtractTypes(key)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, key);
     }
     // public V GetFromCache(K key)
     // Offset: 0xFFFFFFFF
     V GetFromCache(K key) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<V>(this, "GetFromCache", key));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("HMCache_2").WithContext("GetFromCache");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<V>(), "GetFromCache", {}, ::il2cpp_utils::ExtractTypes(key)));
+      return ::il2cpp_utils::RunMethodThrow<V, false>(this, ___internal__method, key);
     }
     // public System.Void PutToCache(K key, V value)
     // Offset: 0xFFFFFFFF
     void PutToCache(K key, V value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "PutToCache", key, value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("HMCache_2").WithContext("PutToCache");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "PutToCache", {}, ::il2cpp_utils::ExtractTypes(key, value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, key, value);
     }
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
     void Clear() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Clear"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("HMCache_2").WithContext("Clear");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Clear", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
   }; // HMCache`2
+  // Could not write size check! Type: HMCache`2 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::HMCache_2, "", "HMCache`2");
 #pragma pack(pop)

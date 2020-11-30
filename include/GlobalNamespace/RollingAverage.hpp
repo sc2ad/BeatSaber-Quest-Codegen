@@ -50,6 +50,7 @@ namespace GlobalNamespace {
     // Offset: 0x1E54C74
     void Reset();
   }; // RollingAverage
+  check_size<sizeof(RollingAverage), 44 + sizeof(int) + 8 - (44 + sizeof(int)) % 8> __GlobalNamespace_RollingAverageSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RollingAverage*, "", "RollingAverage");

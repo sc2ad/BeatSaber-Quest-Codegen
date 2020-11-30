@@ -34,6 +34,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static Snap* New_ctor();
   }; // Snap
+  check_size<sizeof(Snap), 36 + sizeof(UnityEngine::Vector3) + 8 - (36 + sizeof(UnityEngine::Vector3)) % 8> __GlobalNamespace_SnapSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Snap*, "", "Snap");

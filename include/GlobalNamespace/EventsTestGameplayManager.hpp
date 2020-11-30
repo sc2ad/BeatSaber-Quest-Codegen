@@ -63,6 +63,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EventsTestGameplayManager* New_ctor();
   }; // EventsTestGameplayManager
+  check_size<sizeof(EventsTestGameplayManager), 56 + sizeof(bool) + 8 - (56 + sizeof(bool)) % 8> __GlobalNamespace_EventsTestGameplayManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EventsTestGameplayManager*, "", "EventsTestGameplayManager");

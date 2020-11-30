@@ -119,6 +119,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Base method: System.Int32 IAeadCipher::GetOutputSize(System.Int32 len)
     int GetOutputSize(int len);
   }; // Org.BouncyCastle.Crypto.Modes.CcmBlockCipher
+  check_size<sizeof(CcmBlockCipher), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Modes_CcmBlockCipherSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::CcmBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "CcmBlockCipher");

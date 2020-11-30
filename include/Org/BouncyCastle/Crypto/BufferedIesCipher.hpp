@@ -83,6 +83,7 @@ namespace Org::BouncyCastle::Crypto {
     // Base method: System.Void BufferedCipherBase::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.BufferedIesCipher
+  check_size<sizeof(BufferedIesCipher), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_BufferedIesCipherSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::BufferedIesCipher*, "Org.BouncyCastle.Crypto", "BufferedIesCipher");

@@ -12,6 +12,7 @@ namespace System::Collections::Generic {
   template<typename K, typename V>
   class IDictionaryDebugView_2 : public ::Il2CppObject {
   }; // System.Collections.Generic.IDictionaryDebugView`2
+  // Could not write size check! Type: System.Collections.Generic.IDictionaryDebugView`2 is generic!
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::IDictionaryDebugView_2, "System.Collections.Generic", "IDictionaryDebugView`2");

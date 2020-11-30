@@ -27,6 +27,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0xCA0BEC
     PreviousInfo(bool dummy);
   }; // Mono.Globalization.Unicode.SimpleCollator/PreviousInfo
+  check_size<sizeof(SimpleCollator::PreviousInfo), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __Mono_Globalization_Unicode_SimpleCollator_PreviousInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::PreviousInfo, "Mono.Globalization.Unicode", "SimpleCollator/PreviousInfo");

@@ -34,6 +34,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.MeshOperations.UVEditing/UVTransform
+  check_size<sizeof(UVEditing::UVTransform), 12 + sizeof(UnityEngine::Vector2) + 8 - (12 + sizeof(UnityEngine::Vector2)) % 8> __UnityEngine_ProBuilder_MeshOperations_UVEditing_UVTransformSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::UVEditing::UVTransform, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/UVTransform");

@@ -190,6 +190,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static TMP_SubMesh* New_ctor();
   }; // TMPro.TMP_SubMesh
+  check_size<sizeof(TMP_SubMesh), 112 + sizeof(bool) + 8 - (112 + sizeof(bool)) % 8> __TMPro_TMP_SubMeshSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SubMesh*, "TMPro", "TMP_SubMesh");

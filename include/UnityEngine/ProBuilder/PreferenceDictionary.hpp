@@ -108,7 +108,10 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xFFFFFFFF
     template<class T>
     bool HasKey(::Il2CppString* key) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<bool>(this, "HasKey", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, key)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("PreferenceDictionary").WithContext("HasKey");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "HasKey", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(key))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, key);
     }
     // public System.Void DeleteKey(System.String key)
     // Offset: 0x139F1E8
@@ -117,13 +120,19 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xFFFFFFFF
     template<class T>
     T Get(::Il2CppString* key, T fallback) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "Get", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, key, fallback)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("PreferenceDictionary").WithContext("Get");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "Get", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(key, fallback))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, key, fallback);
     }
     // public System.Void Set(System.String key, T value)
     // Offset: 0xFFFFFFFF
     template<class T>
     void Set(::Il2CppString* key, T value) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "Set", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, key, value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("PreferenceDictionary").WithContext("Set");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Set", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(key, value))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, key, value);
     }
     // public System.Boolean GetBool(System.String key, System.Boolean fallback)
     // Offset: 0x139F3AC
@@ -211,6 +220,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.ctor()
     static PreferenceDictionary* New_ctor();
   }; // UnityEngine.ProBuilder.PreferenceDictionary
+  check_size<sizeof(PreferenceDictionary), 160 + sizeof(void*) + 8 - (160 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_PreferenceDictionarySizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PreferenceDictionary*, "UnityEngine.ProBuilder", "PreferenceDictionary");
 #pragma pack(pop)

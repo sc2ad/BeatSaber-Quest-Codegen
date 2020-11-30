@@ -39,6 +39,7 @@ namespace UnityEngine {
     // Offset: 0x1A0737C
     static bool Compare(UnityEngine::SendMouseEvents::HitInfo lhs, UnityEngine::SendMouseEvents::HitInfo rhs);
   }; // UnityEngine.SendMouseEvents/HitInfo
+  check_size<sizeof(SendMouseEvents::HitInfo), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __UnityEngine_SendMouseEvents_HitInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SendMouseEvents::HitInfo, "UnityEngine", "SendMouseEvents/HitInfo");

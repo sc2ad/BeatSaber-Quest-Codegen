@@ -244,6 +244,7 @@ namespace HMUI {
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
   }; // HMUI.TextSlider
+  check_size<sizeof(TextSlider), 304 + sizeof(UnityEngine::DrivenRectTransformTracker) + 8 - (304 + sizeof(UnityEngine::DrivenRectTransformTracker)) % 8> __HMUI_TextSliderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextSlider*, "HMUI", "TextSlider");

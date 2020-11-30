@@ -35,6 +35,7 @@ namespace UnityEngine::Bindings {
     // Set static field: static public UnityEngine.Bindings.TargetType Field
     static void _set_Field(UnityEngine::Bindings::TargetType value);
   }; // UnityEngine.Bindings.TargetType
+  check_size<sizeof(TargetType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Bindings_TargetTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::TargetType, "UnityEngine.Bindings", "TargetType");

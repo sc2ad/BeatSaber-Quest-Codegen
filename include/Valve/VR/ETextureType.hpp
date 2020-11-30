@@ -53,6 +53,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.ETextureType DirectX12
     static void _set_DirectX12(Valve::VR::ETextureType value);
   }; // Valve.VR.ETextureType
+  check_size<sizeof(ETextureType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Valve_VR_ETextureTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::ETextureType, "Valve.VR", "ETextureType");

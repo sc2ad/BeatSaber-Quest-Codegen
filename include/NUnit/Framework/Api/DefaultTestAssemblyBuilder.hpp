@@ -88,6 +88,7 @@ namespace NUnit::Framework::Api {
     // Base method: System.Void Object::.ctor()
     static DefaultTestAssemblyBuilder* New_ctor();
   }; // NUnit.Framework.Api.DefaultTestAssemblyBuilder
+  check_size<sizeof(DefaultTestAssemblyBuilder), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __NUnit_Framework_Api_DefaultTestAssemblyBuilderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Api::DefaultTestAssemblyBuilder*, "NUnit.Framework.Api", "DefaultTestAssemblyBuilder");

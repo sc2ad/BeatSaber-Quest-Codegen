@@ -59,6 +59,7 @@ namespace System::IO {
     // Set static field: static public System.IO.FileMode Append
     static void _set_Append(System::IO::FileMode value);
   }; // System.IO.FileMode
+  check_size<sizeof(FileMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_IO_FileModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileMode, "System.IO", "FileMode");

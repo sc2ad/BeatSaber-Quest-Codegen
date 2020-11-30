@@ -54,7 +54,10 @@ namespace System {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void IfNullAndNullsAreIllegalThenThrow(::Il2CppObject* value, System::ExceptionArgument argName) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("System", "ThrowHelper", "IfNullAndNullsAreIllegalThenThrow", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, value, argName));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("ThrowHelper").WithContext("IfNullAndNullsAreIllegalThenThrow");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "ThrowHelper", il2cpp_utils::NoArgClass<void>(), "IfNullAndNullsAreIllegalThenThrow", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(value, argName))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value, argName);
     }
     // static System.String GetArgumentName(System.ExceptionArgument argument)
     // Offset: 0x1D20BC8

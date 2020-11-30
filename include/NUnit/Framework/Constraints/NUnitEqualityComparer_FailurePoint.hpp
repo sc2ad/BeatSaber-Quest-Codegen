@@ -34,6 +34,7 @@ namespace NUnit::Framework::Constraints {
     // Base method: System.Void Object::.ctor()
     static NUnitEqualityComparer::FailurePoint* New_ctor();
   }; // NUnit.Framework.Constraints.NUnitEqualityComparer/FailurePoint
+  check_size<sizeof(NUnitEqualityComparer::FailurePoint), 41 + sizeof(bool) + 8 - (41 + sizeof(bool)) % 8> __NUnit_Framework_Constraints_NUnitEqualityComparer_FailurePointSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*, "NUnit.Framework.Constraints", "NUnitEqualityComparer/FailurePoint");

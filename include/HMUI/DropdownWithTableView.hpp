@@ -114,6 +114,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static DropdownWithTableView* New_ctor();
   }; // HMUI.DropdownWithTableView
+  check_size<sizeof(DropdownWithTableView), 64 + sizeof(int) + 8 - (64 + sizeof(int)) % 8> __HMUI_DropdownWithTableViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::DropdownWithTableView*, "HMUI", "DropdownWithTableView");

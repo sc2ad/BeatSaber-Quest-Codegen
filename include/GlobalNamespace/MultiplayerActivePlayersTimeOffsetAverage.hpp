@@ -49,6 +49,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerActivePlayersTimeOffsetAverage* New_ctor();
   }; // MultiplayerActivePlayersTimeOffsetAverage
+  check_size<sizeof(MultiplayerActivePlayersTimeOffsetAverage), 28 + sizeof(float) + 8 - (28 + sizeof(float)) % 8> __GlobalNamespace_MultiplayerActivePlayersTimeOffsetAverageSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage*, "", "MultiplayerActivePlayersTimeOffsetAverage");

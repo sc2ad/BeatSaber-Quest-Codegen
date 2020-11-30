@@ -71,7 +71,10 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     Zenject::ConventionFilterTypesBinder* DerivingFromOrEqual() {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ConventionFilterTypesBinder*>(this, "DerivingFromOrEqual", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConventionFilterTypesBinder").WithContext("DerivingFromOrEqual");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::ConventionFilterTypesBinder*>(), "DerivingFromOrEqual", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::ConventionFilterTypesBinder*, false>(this, ___internal__method);
     }
     // public Zenject.ConventionFilterTypesBinder DerivingFromOrEqual(System.Type parentType)
     // Offset: 0x10F1F64
@@ -80,7 +83,10 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     Zenject::ConventionFilterTypesBinder* DerivingFrom() {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ConventionFilterTypesBinder*>(this, "DerivingFrom", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConventionFilterTypesBinder").WithContext("DerivingFrom");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::ConventionFilterTypesBinder*>(), "DerivingFrom", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::ConventionFilterTypesBinder*, false>(this, ___internal__method);
     }
     // public Zenject.ConventionFilterTypesBinder DerivingFrom(System.Type parentType)
     // Offset: 0x10F2038
@@ -90,7 +96,10 @@ namespace Zenject {
     template<class T>
     Zenject::ConventionFilterTypesBinder* WithAttribute() {
       static_assert(std::is_convertible_v<T, System::Attribute*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ConventionFilterTypesBinder*>(this, "WithAttribute", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConventionFilterTypesBinder").WithContext("WithAttribute");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::ConventionFilterTypesBinder*>(), "WithAttribute", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::ConventionFilterTypesBinder*, false>(this, ___internal__method);
     }
     // public Zenject.ConventionFilterTypesBinder WithAttribute(System.Type attribute)
     // Offset: 0x10F210C
@@ -100,7 +109,10 @@ namespace Zenject {
     template<class T>
     Zenject::ConventionFilterTypesBinder* WithoutAttribute() {
       static_assert(std::is_convertible_v<T, System::Attribute*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ConventionFilterTypesBinder*>(this, "WithoutAttribute", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConventionFilterTypesBinder").WithContext("WithoutAttribute");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::ConventionFilterTypesBinder*>(), "WithoutAttribute", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::ConventionFilterTypesBinder*, false>(this, ___internal__method);
     }
     // public Zenject.ConventionFilterTypesBinder WithoutAttribute(System.Type attribute)
     // Offset: 0x10F2224
@@ -110,7 +122,10 @@ namespace Zenject {
     template<class T>
     Zenject::ConventionFilterTypesBinder* WithAttributeWhere(System::Func_2<T, bool>* predicate) {
       static_assert(std::is_convertible_v<T, System::Attribute*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ConventionFilterTypesBinder*>(this, "WithAttributeWhere", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, predicate)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("ConventionFilterTypesBinder").WithContext("WithAttributeWhere");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::ConventionFilterTypesBinder*>(), "WithAttributeWhere", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(predicate))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::ConventionFilterTypesBinder*, false>(this, ___internal__method, predicate);
     }
     // public Zenject.ConventionFilterTypesBinder Where(System.Func`2<System.Type,System.Boolean> predicate)
     // Offset: 0x10F233C

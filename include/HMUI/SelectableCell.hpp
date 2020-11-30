@@ -77,6 +77,7 @@ namespace HMUI {
       // Set static field: static public HMUI.SelectableCell/TransitionType Animated
       static void _set_Animated(HMUI::SelectableCell::TransitionType value);
     }; // HMUI.SelectableCell/TransitionType
+    check_size<sizeof(SelectableCell::TransitionType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __HMUI_SelectableCell_TransitionTypeSizeCheck;
     // private Signal _wasPressedSignal
     // Offset: 0x20
     GlobalNamespace::Signal* wasPressedSignal;
@@ -184,6 +185,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static SelectableCell* New_ctor();
   }; // HMUI.SelectableCell
+  check_size<sizeof(SelectableCell), 57 + sizeof(bool) + 8 - (57 + sizeof(bool)) % 8> __HMUI_SelectableCellSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SelectableCell*, "HMUI", "SelectableCell");

@@ -81,6 +81,7 @@ namespace Mono::Security {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Mono.Security.ASN1
+  check_size<sizeof(ASN1), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Mono_Security_ASN1SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::ASN1*, "Mono.Security", "ASN1");

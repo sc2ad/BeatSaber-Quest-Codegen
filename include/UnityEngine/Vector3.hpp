@@ -234,6 +234,7 @@ namespace UnityEngine {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Vector3
+  check_size<sizeof(Vector3), 8 + sizeof(float) + 8 - (8 + sizeof(float)) % 8> __UnityEngine_Vector3SizeCheck;
   // static public UnityEngine.Vector3 op_Addition(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
   // Offset: 0x16C7D34
   UnityEngine::Vector3 operator+(const UnityEngine::Vector3& a, const UnityEngine::Vector3& b);

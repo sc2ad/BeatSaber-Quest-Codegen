@@ -42,6 +42,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EDFF8
     void set_ControlType(System::Type* value);
   }; // JetBrains.Annotations.AspChildControlTypeAttribute
+  check_size<sizeof(AspChildControlTypeAttribute), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __JetBrains_Annotations_AspChildControlTypeAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspChildControlTypeAttribute*, "JetBrains.Annotations", "AspChildControlTypeAttribute");

@@ -89,6 +89,7 @@ namespace GlobalNamespace {
     // Set static field: static public ConnectionFailedReason NetworkNotConnected
     static void _set_NetworkNotConnected(GlobalNamespace::ConnectionFailedReason value);
   }; // ConnectionFailedReason
+  check_size<sizeof(ConnectionFailedReason), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_ConnectionFailedReasonSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectionFailedReason, "", "ConnectionFailedReason");

@@ -54,6 +54,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static JumpReceiver* New_ctor();
   }; // JumpReceiver
+  check_size<sizeof(JumpReceiver), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __GlobalNamespace_JumpReceiverSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JumpReceiver*, "", "JumpReceiver");

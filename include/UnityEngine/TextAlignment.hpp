@@ -41,6 +41,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.TextAlignment Right
     static void _set_Right(UnityEngine::TextAlignment value);
   }; // UnityEngine.TextAlignment
+  check_size<sizeof(TextAlignment), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_TextAlignmentSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextAlignment, "UnityEngine", "TextAlignment");

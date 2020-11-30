@@ -37,6 +37,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Base method: System.Void Object::.ctor()
     static X9ECParametersHolder* New_ctor();
   }; // Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
+  check_size<sizeof(X9ECParametersHolder), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Org_BouncyCastle_Asn1_X9_X9ECParametersHolderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Org.BouncyCastle.Asn1.X9", "X9ECParametersHolder");

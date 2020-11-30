@@ -66,6 +66,7 @@ namespace System::Text {
     // Base method: System.Int32 DecoderFallbackBuffer::InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
     int InternalFallback(::Array<uint8_t>* bytes, uint8_t* pBytes);
   }; // System.Text.InternalDecoderBestFitFallbackBuffer
+  check_size<sizeof(InternalDecoderBestFitFallbackBuffer), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __System_Text_InternalDecoderBestFitFallbackBufferSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::InternalDecoderBestFitFallbackBuffer*, "System.Text", "InternalDecoderBestFitFallbackBuffer");

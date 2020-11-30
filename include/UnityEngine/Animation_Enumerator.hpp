@@ -53,6 +53,7 @@ namespace UnityEngine {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.Animation/Enumerator
+  check_size<sizeof(Animation::Enumerator), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __UnityEngine_Animation_EnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animation::Enumerator*, "UnityEngine", "Animation/Enumerator");

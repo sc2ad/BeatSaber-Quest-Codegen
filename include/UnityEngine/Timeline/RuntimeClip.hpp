@@ -85,6 +85,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void RuntimeElement::Reset()
     void Reset();
   }; // UnityEngine.Timeline.RuntimeClip
+  check_size<sizeof(RuntimeClip), 48 + sizeof(UnityEngine::Playables::Playable) + 8 - (48 + sizeof(UnityEngine::Playables::Playable)) % 8> __UnityEngine_Timeline_RuntimeClipSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::RuntimeClip*, "UnityEngine.Timeline", "RuntimeClip");

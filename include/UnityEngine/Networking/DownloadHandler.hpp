@@ -63,7 +63,10 @@ namespace UnityEngine::Networking {
     template<class T>
     static T GetCheckedDownloader(UnityEngine::Networking::UnityWebRequest* www) {
       static_assert(std::is_convertible_v<T, UnityEngine::Networking::DownloadHandler*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine.Networking", "DownloadHandler", "GetCheckedDownloader", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, www)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Networking").WithContext("DownloadHandler").WithContext("GetCheckedDownloader");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Networking", "DownloadHandler", il2cpp_utils::NoArgClass<T>(), "GetCheckedDownloader", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(www))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, www);
     }
     // static System.Byte[] InternalGetByteArray(UnityEngine.Networking.DownloadHandler dh)
     // Offset: 0x19DDEA0
@@ -87,6 +90,7 @@ namespace UnityEngine::Networking {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // UnityEngine.Networking.DownloadHandler
+  check_size<sizeof(DownloadHandler), 16 + sizeof(System::IntPtr) + 8 - (16 + sizeof(System::IntPtr)) % 8> __UnityEngine_Networking_DownloadHandlerSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandler*, "UnityEngine.Networking", "DownloadHandler");
 #pragma pack(pop)

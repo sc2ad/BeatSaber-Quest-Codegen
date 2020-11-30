@@ -29,6 +29,7 @@ namespace TMPro {
     // Offset: 0xC940B0
     // ABORTED: conflicts with another method.  LineSegment(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2);
   }; // TMPro.TMP_TextUtilities/LineSegment
+  check_size<sizeof(TMP_TextUtilities::LineSegment), 12 + sizeof(UnityEngine::Vector3) + 8 - (12 + sizeof(UnityEngine::Vector3)) % 8> __TMPro_TMP_TextUtilities_LineSegmentSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextUtilities::LineSegment, "TMPro", "TMP_TextUtilities/LineSegment");

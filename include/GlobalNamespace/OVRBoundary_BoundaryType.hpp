@@ -37,6 +37,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRBoundary/BoundaryType PlayArea
     static void _set_PlayArea(GlobalNamespace::OVRBoundary::BoundaryType value);
   }; // OVRBoundary/BoundaryType
+  check_size<sizeof(OVRBoundary::BoundaryType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRBoundary_BoundaryTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoundary::BoundaryType, "", "OVRBoundary/BoundaryType");

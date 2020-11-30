@@ -36,7 +36,10 @@ namespace LiteNetLib::Utils {
     // Base method: LiteNetLib.Utils.NetSerializer/FastCall`1<T> CustomType::Get()
     template<class T>
     LiteNetLib::Utils::NetSerializer::FastCall_1<T>* Get() {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<LiteNetLib::Utils::NetSerializer::FastCall_1<T>*>(this, "Get", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("CustomTypeStruct_1").WithContext("Get");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<LiteNetLib::Utils::NetSerializer::FastCall_1<T>*>(), "Get", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<LiteNetLib::Utils::NetSerializer::FastCall_1<T>*, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -44,9 +47,11 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void CustomType::.ctor()
     // Base method: System.Void Object::.ctor()
     static NetSerializer::CustomTypeStruct_1<TProperty>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<NetSerializer::CustomTypeStruct_1<TProperty>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("LiteNetLib::Utils").WithContext("CustomTypeStruct_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<NetSerializer::CustomTypeStruct_1<TProperty>*>());
     }
   }; // LiteNetLib.Utils.NetSerializer/CustomTypeStruct`1
+  // Could not write size check! Type: LiteNetLib.Utils.NetSerializer/CustomTypeStruct`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(LiteNetLib::Utils::NetSerializer::CustomTypeStruct_1, "LiteNetLib.Utils", "NetSerializer/CustomTypeStruct`1");
 #pragma pack(pop)

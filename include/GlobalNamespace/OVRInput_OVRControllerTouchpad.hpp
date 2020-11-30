@@ -61,6 +61,7 @@ namespace GlobalNamespace {
     // Base method: System.Void OVRControllerBase::ConfigureAxis2DMap()
     void ConfigureAxis2DMap();
   }; // OVRInput/OVRControllerTouchpad
+  check_size<sizeof(OVRInput::OVRControllerTouchpad), 272 + sizeof(float) + 8 - (272 + sizeof(float)) % 8> __GlobalNamespace_OVRInput_OVRControllerTouchpadSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerTouchpad*, "", "OVRInput/OVRControllerTouchpad");

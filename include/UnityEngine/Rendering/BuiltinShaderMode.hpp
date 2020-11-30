@@ -41,6 +41,7 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.BuiltinShaderMode UseCustom
     static void _set_UseCustom(UnityEngine::Rendering::BuiltinShaderMode value);
   }; // UnityEngine.Rendering.BuiltinShaderMode
+  check_size<sizeof(BuiltinShaderMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Rendering_BuiltinShaderModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BuiltinShaderMode, "UnityEngine.Rendering", "BuiltinShaderMode");

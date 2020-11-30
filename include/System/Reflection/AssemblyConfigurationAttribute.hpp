@@ -24,6 +24,7 @@ namespace System::Reflection {
     // Offset: 0x17205B0
     static AssemblyConfigurationAttribute* New_ctor(::Il2CppString* configuration);
   }; // System.Reflection.AssemblyConfigurationAttribute
+  check_size<sizeof(AssemblyConfigurationAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Reflection_AssemblyConfigurationAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyConfigurationAttribute*, "System.Reflection", "AssemblyConfigurationAttribute");

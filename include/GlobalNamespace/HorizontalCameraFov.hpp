@@ -31,6 +31,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static HorizontalCameraFov* New_ctor();
   }; // HorizontalCameraFov
+  check_size<sizeof(HorizontalCameraFov), 24 + sizeof(float) + 8 - (24 + sizeof(float)) % 8> __GlobalNamespace_HorizontalCameraFovSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HorizontalCameraFov*, "", "HorizontalCameraFov");

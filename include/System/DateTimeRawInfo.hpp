@@ -57,6 +57,7 @@ namespace System {
     // Offset: 0xCA43E8
     int GetNumber(int index);
   }; // System.DateTimeRawInfo
+  check_size<sizeof(DateTimeRawInfo), 41 + sizeof(bool) + 8 - (41 + sizeof(bool)) % 8> __System_DateTimeRawInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeRawInfo, "System", "DateTimeRawInfo");

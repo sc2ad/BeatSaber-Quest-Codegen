@@ -32,6 +32,7 @@ namespace TMPro {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // TMPro.Mesh_Extents
+  check_size<sizeof(Mesh_Extents), 8 + sizeof(UnityEngine::Vector2) + 8 - (8 + sizeof(UnityEngine::Vector2)) % 8> __TMPro_Mesh_ExtentsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::Mesh_Extents, "TMPro", "Mesh_Extents");

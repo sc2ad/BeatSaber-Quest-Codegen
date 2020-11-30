@@ -66,6 +66,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static IKSolver::Point* New_ctor();
   }; // RootMotion.FinalIK.IKSolver/Point
+  check_size<sizeof(IKSolver::Point), 68 + sizeof(UnityEngine::Quaternion) + 8 - (68 + sizeof(UnityEngine::Quaternion)) % 8> __RootMotion_FinalIK_IKSolver_PointSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver::Point*, "RootMotion.FinalIK", "IKSolver/Point");

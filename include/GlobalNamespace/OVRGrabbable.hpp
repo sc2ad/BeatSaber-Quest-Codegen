@@ -108,6 +108,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRGrabbable* New_ctor();
   }; // OVRGrabbable
+  check_size<sizeof(OVRGrabbable), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __GlobalNamespace_OVRGrabbableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGrabbable*, "", "OVRGrabbable");

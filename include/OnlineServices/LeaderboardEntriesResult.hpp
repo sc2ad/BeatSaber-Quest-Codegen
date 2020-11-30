@@ -51,6 +51,7 @@ namespace OnlineServices {
     // Offset: 0xEFDEE0
     static OnlineServices::LeaderboardEntriesResult* FromGetLeaderboardEntriesResult(OnlineServices::GetLeaderboardEntriesResult getLeaderboardEntriesResult);
   }; // OnlineServices.LeaderboardEntriesResult
+  check_size<sizeof(LeaderboardEntriesResult), 40 + sizeof(int) + 8 - (40 + sizeof(int)) % 8> __OnlineServices_LeaderboardEntriesResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LeaderboardEntriesResult*, "OnlineServices", "LeaderboardEntriesResult");

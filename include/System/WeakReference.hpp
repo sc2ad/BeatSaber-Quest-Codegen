@@ -77,6 +77,7 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.WeakReference
+  check_size<sizeof(WeakReference), 20 + sizeof(System::Runtime::InteropServices::GCHandle) + 8 - (20 + sizeof(System::Runtime::InteropServices::GCHandle)) % 8> __System_WeakReferenceSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::WeakReference*, "System", "WeakReference");

@@ -152,7 +152,10 @@ namespace System {
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::Il2CppString* Join(::Il2CppString* separator, System::Collections::Generic::IEnumerable_1<T>* values) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Il2CppString*>("System", "String", "Join", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, separator, values)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("String").WithContext("Join");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "String", il2cpp_utils::NoArgClass<::Il2CppString*>(), "Join", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(separator, values))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, separator, values);
     }
     // static public System.String Join(System.String separator, System.Collections.Generic.IEnumerable`1<System.String> values)
     // Offset: 0x128A0A8
@@ -807,6 +810,7 @@ namespace System {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.String
+  check_size<sizeof(String), 20 + sizeof(::Il2CppChar) + 8 - (20 + sizeof(::Il2CppChar)) % 8> __System_StringSizeCheck;
   // static public System.Boolean op_Equality(System.String a, System.String b)
   // Offset: 0x1280F1C
   bool operator ==(::Il2CppString* a, ::Il2CppString& b);

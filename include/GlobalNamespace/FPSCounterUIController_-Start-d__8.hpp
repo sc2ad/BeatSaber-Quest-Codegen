@@ -60,6 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // FPSCounterUIController/<Start>d__8
+  check_size<sizeof(FPSCounterUIController::$Start$d__8), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_FPSCounterUIController_$Start$d__8SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FPSCounterUIController::$Start$d__8*, "", "FPSCounterUIController/<Start>d__8");

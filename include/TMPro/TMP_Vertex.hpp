@@ -37,6 +37,7 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_Vertex
     constexpr TMP_Vertex(UnityEngine::Vector3 position_ = {}, UnityEngine::Vector2 uv_ = {}, UnityEngine::Vector2 uv2_ = {}, UnityEngine::Vector2 uv4_ = {}, UnityEngine::Color32 color_ = {}) noexcept : position{position_}, uv{uv_}, uv2{uv2_}, uv4{uv4_}, color{color_} {}
   }; // TMPro.TMP_Vertex
+  check_size<sizeof(TMP_Vertex), 36 + sizeof(UnityEngine::Color32) + 8 - (36 + sizeof(UnityEngine::Color32)) % 8> __TMPro_TMP_VertexSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Vertex, "TMPro", "TMP_Vertex");

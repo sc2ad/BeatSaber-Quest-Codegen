@@ -58,6 +58,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void RuntimeElement::EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
     void EvaluateAt(double localTime, UnityEngine::Playables::FrameData frameData);
   }; // UnityEngine.Timeline.InfiniteRuntimeClip
+  check_size<sizeof(InfiniteRuntimeClip), 24 + sizeof(UnityEngine::Playables::Playable) + 8 - (24 + sizeof(UnityEngine::Playables::Playable)) % 8> __UnityEngine_Timeline_InfiniteRuntimeClipSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::InfiniteRuntimeClip*, "UnityEngine.Timeline", "InfiniteRuntimeClip");

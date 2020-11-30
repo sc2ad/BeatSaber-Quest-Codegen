@@ -43,6 +43,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Base method: System.Void Object::.ctor()
     static WTauNafPreCompInfo* New_ctor();
   }; // Org.BouncyCastle.Math.EC.Multiplier.WTauNafPreCompInfo
+  check_size<sizeof(WTauNafPreCompInfo), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_EC_Multiplier_WTauNafPreCompInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "WTauNafPreCompInfo");

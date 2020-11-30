@@ -88,6 +88,7 @@ namespace GlobalNamespace {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // Vector3Serializable
+  check_size<sizeof(Vector3Serializable), 0 + sizeof(UnityEngine::Vector3) + 8 - (0 + sizeof(UnityEngine::Vector3)) % 8> __GlobalNamespace_Vector3SerializableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector3Serializable, "", "Vector3Serializable");

@@ -104,6 +104,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Base method: System.Void Object::.ctor()
     static RemoteTestResultSender* New_ctor();
   }; // UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
+  check_size<sizeof(RemoteTestResultSender), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __UnityEngine_TestTools_TestRunner_Callbacks_RemoteTestResultSenderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender*, "UnityEngine.TestTools.TestRunner.Callbacks", "RemoteTestResultSender");

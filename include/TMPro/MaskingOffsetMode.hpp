@@ -35,6 +35,7 @@ namespace TMPro {
     // Set static field: static public TMPro.MaskingOffsetMode Pixel
     static void _set_Pixel(TMPro::MaskingOffsetMode value);
   }; // TMPro.MaskingOffsetMode
+  check_size<sizeof(MaskingOffsetMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __TMPro_MaskingOffsetModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::MaskingOffsetMode, "TMPro", "MaskingOffsetMode");

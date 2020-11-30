@@ -48,6 +48,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: VRVulkanTextureData_t
     constexpr VRVulkanTextureData_t(uint64_t m_nImage_ = {}, System::IntPtr m_pDevice_ = {}, System::IntPtr m_pPhysicalDevice_ = {}, System::IntPtr m_pInstance_ = {}, System::IntPtr m_pQueue_ = {}, uint m_nQueueFamilyIndex_ = {}, uint m_nWidth_ = {}, uint m_nHeight_ = {}, uint m_nFormat_ = {}, uint m_nSampleCount_ = {}) noexcept : m_nImage{m_nImage_}, m_pDevice{m_pDevice_}, m_pPhysicalDevice{m_pPhysicalDevice_}, m_pInstance{m_pInstance_}, m_pQueue{m_pQueue_}, m_nQueueFamilyIndex{m_nQueueFamilyIndex_}, m_nWidth{m_nWidth_}, m_nHeight{m_nHeight_}, m_nFormat{m_nFormat_}, m_nSampleCount{m_nSampleCount_} {}
   }; // Valve.VR.VRVulkanTextureData_t
+  check_size<sizeof(VRVulkanTextureData_t), 56 + sizeof(uint) + 8 - (56 + sizeof(uint)) % 8> __Valve_VR_VRVulkanTextureData_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRVulkanTextureData_t, "Valve.VR", "VRVulkanTextureData_t");

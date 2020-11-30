@@ -99,6 +99,7 @@ namespace System::Security::Claims {
     // Base method: System.Void Object::.ctor()
     static ClaimsPrincipal* New_ctor();
   }; // System.Security.Claims.ClaimsPrincipal
+  check_size<sizeof(ClaimsPrincipal), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Security_Claims_ClaimsPrincipalSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::ClaimsPrincipal*, "System.Security.Claims", "ClaimsPrincipal");

@@ -32,7 +32,10 @@ namespace UnityEngine {
     template<class T>
     static ::Array<T>* ConvertObjects(::Array<UnityEngine::Object*>* rawObjects) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine", "Resources", "ConvertObjects", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, rawObjects)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Resources").WithContext("ConvertObjects");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "Resources", il2cpp_utils::NoArgClass<::Array<T>*>(), "ConvertObjects", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(rawObjects))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, rawObjects);
     }
     // static public UnityEngine.Object[] FindObjectsOfTypeAll(System.Type type)
     // Offset: 0x16BEBDC
@@ -42,7 +45,10 @@ namespace UnityEngine {
     template<class T>
     static ::Array<T>* FindObjectsOfTypeAll() {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<T>*>("UnityEngine", "Resources", "FindObjectsOfTypeAll", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Resources").WithContext("FindObjectsOfTypeAll");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "Resources", il2cpp_utils::NoArgClass<::Array<T>*>(), "FindObjectsOfTypeAll", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<::Array<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
     }
     // static public UnityEngine.Object Load(System.String path)
     // Offset: 0x16BEC1C
@@ -52,7 +58,10 @@ namespace UnityEngine {
     template<class T>
     static T Load(::Il2CppString* path) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine", "Resources", "Load", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, path)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Resources").WithContext("Load");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "Resources", il2cpp_utils::NoArgClass<T>(), "Load", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(path))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, path);
     }
     // static public UnityEngine.Object Load(System.String path, System.Type systemTypeInstance)
     // Offset: 0x16BECC8
@@ -71,7 +80,10 @@ namespace UnityEngine {
     template<class T>
     static T GetBuiltinResource(::Il2CppString* path) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine", "Resources", "GetBuiltinResource", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, path)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("Resources").WithContext("GetBuiltinResource");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "Resources", il2cpp_utils::NoArgClass<T>(), "GetBuiltinResource", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(path))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, path);
     }
     // static public UnityEngine.AsyncOperation UnloadUnusedAssets()
     // Offset: 0x16BEE64

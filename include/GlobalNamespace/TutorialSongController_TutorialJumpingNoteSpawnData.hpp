@@ -35,6 +35,7 @@ namespace GlobalNamespace {
     // Offset: 0xFF3E48
     static TutorialSongController::TutorialJumpingNoteSpawnData* New_ctor(GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
   }; // TutorialSongController/TutorialJumpingNoteSpawnData
+  check_size<sizeof(TutorialSongController::TutorialJumpingNoteSpawnData), 36 + sizeof(GlobalNamespace::NoteLineLayer) + 8 - (36 + sizeof(GlobalNamespace::NoteLineLayer)) % 8> __GlobalNamespace_TutorialSongController_TutorialJumpingNoteSpawnDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController::TutorialJumpingNoteSpawnData*, "", "TutorialSongController/TutorialJumpingNoteSpawnData");

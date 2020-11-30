@@ -59,6 +59,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.FFTWindow BlackmanHarris
     static void _set_BlackmanHarris(UnityEngine::FFTWindow value);
   }; // UnityEngine.FFTWindow
+  check_size<sizeof(FFTWindow), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_FFTWindowSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FFTWindow, "UnityEngine", "FFTWindow");

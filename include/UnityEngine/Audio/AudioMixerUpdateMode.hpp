@@ -35,6 +35,7 @@ namespace UnityEngine::Audio {
     // Set static field: static public UnityEngine.Audio.AudioMixerUpdateMode UnscaledTime
     static void _set_UnscaledTime(UnityEngine::Audio::AudioMixerUpdateMode value);
   }; // UnityEngine.Audio.AudioMixerUpdateMode
+  check_size<sizeof(AudioMixerUpdateMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Audio_AudioMixerUpdateModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioMixerUpdateMode, "UnityEngine.Audio", "AudioMixerUpdateMode");

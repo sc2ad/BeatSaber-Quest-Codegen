@@ -111,6 +111,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // Base method: Org.BouncyCastle.Math.EC.ECFieldElement AbstractFpCurve::RandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r)
     Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElementMult(Org::BouncyCastle::Security::SecureRandom* r);
   }; // Org.BouncyCastle.Math.EC.Custom.Sec.SecP521R1Curve
+  check_size<sizeof(SecP521R1Curve), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_EC_Custom_Sec_SecP521R1CurveSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecP521R1Curve*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecP521R1Curve");

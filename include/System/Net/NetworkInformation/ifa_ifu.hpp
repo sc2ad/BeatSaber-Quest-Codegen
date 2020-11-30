@@ -23,6 +23,7 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: ifa_ifu
     constexpr ifa_ifu(System::IntPtr ifu_broadaddr_ = {}, System::IntPtr ifu_dstaddr_ = {}) noexcept : ifu_broadaddr{ifu_broadaddr_}, ifu_dstaddr{ifu_dstaddr_} {}
   }; // System.Net.NetworkInformation.ifa_ifu
+  check_size<sizeof(ifa_ifu), 0 + sizeof(System::IntPtr) + 8 - (0 + sizeof(System::IntPtr)) % 8> __System_Net_NetworkInformation_ifa_ifuSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::ifa_ifu, "System.Net.NetworkInformation", "ifa_ifu");

@@ -35,6 +35,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionNodeNameGenerator* New_ctor();
   }; // MissionNodeNameGenerator
+  check_size<sizeof(MissionNodeNameGenerator), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_MissionNodeNameGeneratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeNameGenerator*, "", "MissionNodeNameGenerator");

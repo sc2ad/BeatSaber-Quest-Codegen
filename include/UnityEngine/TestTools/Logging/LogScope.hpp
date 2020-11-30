@@ -165,6 +165,7 @@ namespace UnityEngine::TestTools::Logging {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // UnityEngine.TestTools.Logging.LogScope
+  check_size<sizeof(LogScope), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __UnityEngine_TestTools_Logging_LogScopeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogScope*, "UnityEngine.TestTools.Logging", "LogScope");

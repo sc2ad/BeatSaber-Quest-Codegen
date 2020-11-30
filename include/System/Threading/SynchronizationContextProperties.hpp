@@ -35,6 +35,7 @@ namespace System::Threading {
     // Set static field: static public System.Threading.SynchronizationContextProperties RequireWaitNotification
     static void _set_RequireWaitNotification(System::Threading::SynchronizationContextProperties value);
   }; // System.Threading.SynchronizationContextProperties
+  check_size<sizeof(SynchronizationContextProperties), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Threading_SynchronizationContextPropertiesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SynchronizationContextProperties, "System.Threading", "SynchronizationContextProperties");

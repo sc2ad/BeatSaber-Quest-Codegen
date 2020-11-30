@@ -41,6 +41,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     static IntegratedSubsystem* New_ctor();
   }; // UnityEngine.IntegratedSubsystem
+  check_size<sizeof(IntegratedSubsystem), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_IntegratedSubsystemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IntegratedSubsystem*, "UnityEngine", "IntegratedSubsystem");

@@ -48,6 +48,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static CurvedTextMeshPro* New_ctor();
   }; // HMUI.CurvedTextMeshPro
+  check_size<sizeof(CurvedTextMeshPro), 3040 + sizeof(void*) + 8 - (3040 + sizeof(void*)) % 8> __HMUI_CurvedTextMeshProSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CurvedTextMeshPro*, "HMUI", "CurvedTextMeshPro");

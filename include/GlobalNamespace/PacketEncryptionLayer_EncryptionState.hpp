@@ -123,6 +123,7 @@ namespace GlobalNamespace {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // PacketEncryptionLayer/EncryptionState
+  check_size<sizeof(PacketEncryptionLayer::EncryptionState), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __GlobalNamespace_PacketEncryptionLayer_EncryptionStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PacketEncryptionLayer::EncryptionState*, "", "PacketEncryptionLayer/EncryptionState");

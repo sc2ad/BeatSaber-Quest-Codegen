@@ -25,6 +25,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VRBoneTransform_t
     constexpr VRBoneTransform_t(OVR::OpenVR::HmdVector4_t position_ = {}, OVR::OpenVR::HmdQuaternionf_t orientation_ = {}) noexcept : position{position_}, orientation{orientation_} {}
   }; // OVR.OpenVR.VRBoneTransform_t
+  check_size<sizeof(VRBoneTransform_t), 16 + sizeof(OVR::OpenVR::HmdQuaternionf_t) + 8 - (16 + sizeof(OVR::OpenVR::HmdQuaternionf_t)) % 8> __OVR_OpenVR_VRBoneTransform_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRBoneTransform_t, "OVR.OpenVR", "VRBoneTransform_t");

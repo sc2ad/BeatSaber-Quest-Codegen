@@ -44,6 +44,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static TableView::CellsGroup* New_ctor();
   }; // HMUI.TableView/CellsGroup
+  check_size<sizeof(TableView::CellsGroup), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __HMUI_TableView_CellsGroupSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView::CellsGroup*, "HMUI", "TableView/CellsGroup");

@@ -31,6 +31,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A18EB0
     static GameEnergyCounter::InitData* New_ctor(GlobalNamespace::GameplayModifiers::EnergyType energyType, bool noFail, bool instaFail, bool failOnSaberClash);
   }; // GameEnergyCounter/InitData
+  check_size<sizeof(GameEnergyCounter::InitData), 22 + sizeof(bool) + 8 - (22 + sizeof(bool)) % 8> __GlobalNamespace_GameEnergyCounter_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameEnergyCounter::InitData*, "", "GameEnergyCounter/InitData");

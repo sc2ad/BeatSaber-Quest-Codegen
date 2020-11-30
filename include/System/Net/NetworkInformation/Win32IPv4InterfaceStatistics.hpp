@@ -26,6 +26,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x119E2B4
     static Win32IPv4InterfaceStatistics* New_ctor(System::Net::NetworkInformation::Win32_MIB_IFROW info);
   }; // System.Net.NetworkInformation.Win32IPv4InterfaceStatistics
+  check_size<sizeof(Win32IPv4InterfaceStatistics), 16 + sizeof(System::Net::NetworkInformation::Win32_MIB_IFROW) + 8 - (16 + sizeof(System::Net::NetworkInformation::Win32_MIB_IFROW)) % 8> __System_Net_NetworkInformation_Win32IPv4InterfaceStatisticsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32IPv4InterfaceStatistics*, "System.Net.NetworkInformation", "Win32IPv4InterfaceStatistics");

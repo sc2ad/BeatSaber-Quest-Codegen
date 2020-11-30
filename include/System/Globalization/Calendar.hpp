@@ -359,6 +359,7 @@ namespace System::Globalization {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
   }; // System.Globalization.Calendar
+  check_size<sizeof(Calendar), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __System_Globalization_CalendarSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::Calendar*, "System.Globalization", "Calendar");

@@ -72,6 +72,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void Object::.ctor()
     static ElGamalEngine* New_ctor();
   }; // Org.BouncyCastle.Crypto.Engines.ElGamalEngine
+  check_size<sizeof(ElGamalEngine), 36 + sizeof(int) + 8 - (36 + sizeof(int)) % 8> __Org_BouncyCastle_Crypto_Engines_ElGamalEngineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::ElGamalEngine*, "Org.BouncyCastle.Crypto.Engines", "ElGamalEngine");

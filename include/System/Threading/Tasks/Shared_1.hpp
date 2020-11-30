@@ -20,9 +20,11 @@ namespace System::Threading::Tasks {
     // System.Void .ctor(T value)
     // Offset: 0xFFFFFFFF
     static Shared_1<T>* New_ctor(T value) {
-      return THROW_UNLESS(il2cpp_utils::New<Shared_1<T>*>(value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Threading::Tasks").WithContext("Shared_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<Shared_1<T>*>(value));
     }
   }; // System.Threading.Tasks.Shared`1
+  // Could not write size check! Type: System.Threading.Tasks.Shared`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Threading::Tasks::Shared_1, "System.Threading.Tasks", "Shared`1");
 #pragma pack(pop)

@@ -41,6 +41,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Set static field: static public UnityEngine.ProBuilder.Poly2Tri.TriangulationMode Polygon
     static void _set_Polygon(UnityEngine::ProBuilder::Poly2Tri::TriangulationMode value);
   }; // UnityEngine.ProBuilder.Poly2Tri.TriangulationMode
+  check_size<sizeof(TriangulationMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_ProBuilder_Poly2Tri_TriangulationModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationMode, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationMode");

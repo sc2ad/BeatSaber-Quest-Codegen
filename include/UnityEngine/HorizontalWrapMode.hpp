@@ -35,6 +35,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.HorizontalWrapMode Overflow
     static void _set_Overflow(UnityEngine::HorizontalWrapMode value);
   }; // UnityEngine.HorizontalWrapMode
+  check_size<sizeof(HorizontalWrapMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_HorizontalWrapModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HorizontalWrapMode, "UnityEngine", "HorizontalWrapMode");

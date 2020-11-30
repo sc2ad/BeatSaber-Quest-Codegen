@@ -78,6 +78,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Object::.ctor()
     static TaskFactory* New_ctor();
   }; // System.Threading.Tasks.TaskFactory
+  check_size<sizeof(TaskFactory), 36 + sizeof(System::Threading::Tasks::TaskContinuationOptions) + 8 - (36 + sizeof(System::Threading::Tasks::TaskContinuationOptions)) % 8> __System_Threading_Tasks_TaskFactorySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskFactory*, "System.Threading.Tasks", "TaskFactory");

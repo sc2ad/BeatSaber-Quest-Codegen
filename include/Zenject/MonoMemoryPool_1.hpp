@@ -39,37 +39,47 @@ namespace Zenject {
     // Base method: System.Void MemoryPoolBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
     static MonoMemoryPool_1<TValue>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<MonoMemoryPool_1<TValue>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MonoMemoryPool_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<MonoMemoryPool_1<TValue>*>());
     }
     // protected override System.Void OnCreated(TValue item)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
     // Base method: System.Void MemoryPoolBase_1::OnCreated(TValue item)
     void OnCreated(TValue item) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnCreated", item));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MonoMemoryPool_1").WithContext("OnCreated");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "OnCreated", {}, ::il2cpp_utils::ExtractTypes(item)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
     // protected override System.Void OnDestroyed(TValue item)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
     // Base method: System.Void MemoryPoolBase_1::OnDestroyed(TValue item)
     void OnDestroyed(TValue item) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnDestroyed", item));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MonoMemoryPool_1").WithContext("OnDestroyed");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "OnDestroyed", {}, ::il2cpp_utils::ExtractTypes(item)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
     // protected override System.Void OnSpawned(TValue item)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
     // Base method: System.Void MemoryPoolBase_1::OnSpawned(TValue item)
     void OnSpawned(TValue item) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnSpawned", item));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MonoMemoryPool_1").WithContext("OnSpawned");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "OnSpawned", {}, ::il2cpp_utils::ExtractTypes(item)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
     // protected override System.Void OnDespawned(TValue item)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.MemoryPoolBase`1
     // Base method: System.Void MemoryPoolBase_1::OnDespawned(TValue item)
     void OnDespawned(TValue item) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "OnDespawned", item));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("MonoMemoryPool_1").WithContext("OnDespawned");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "OnDespawned", {}, ::il2cpp_utils::ExtractTypes(item)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, item);
     }
   }; // Zenject.MonoMemoryPool`1
+  // Could not write size check! Type: Zenject.MonoMemoryPool`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::MonoMemoryPool_1, "Zenject", "MonoMemoryPool`1");
 #pragma pack(pop)

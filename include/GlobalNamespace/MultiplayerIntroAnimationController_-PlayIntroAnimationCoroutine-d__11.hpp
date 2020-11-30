@@ -102,6 +102,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MultiplayerIntroAnimationController/<PlayIntroAnimationCoroutine>d__11
+  check_size<sizeof(MultiplayerIntroAnimationController::$PlayIntroAnimationCoroutine$d__11), 84 + sizeof(float) + 8 - (84 + sizeof(float)) % 8> __GlobalNamespace_MultiplayerIntroAnimationController_$PlayIntroAnimationCoroutine$d__11SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroAnimationController::$PlayIntroAnimationCoroutine$d__11*, "", "MultiplayerIntroAnimationController/<PlayIntroAnimationCoroutine>d__11");

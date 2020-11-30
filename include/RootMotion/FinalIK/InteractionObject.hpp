@@ -135,6 +135,7 @@ namespace RootMotion::FinalIK {
         // Set static field: static public RootMotion.FinalIK.InteractionObject/WeightCurve/Type BendGoalWeight
         static void _set_BendGoalWeight(RootMotion::FinalIK::InteractionObject::WeightCurve::Type value);
       }; // RootMotion.FinalIK.InteractionObject/WeightCurve/Type
+      check_size<sizeof(InteractionObject::WeightCurve::Type), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __RootMotion_FinalIK_InteractionObject_WeightCurve_TypeSizeCheck;
       // public RootMotion.FinalIK.InteractionObject/WeightCurve/Type type
       // Offset: 0x10
       RootMotion::FinalIK::InteractionObject::WeightCurve::Type type;
@@ -150,6 +151,7 @@ namespace RootMotion::FinalIK {
       // Base method: System.Void Object::.ctor()
       static InteractionObject::WeightCurve* New_ctor();
     }; // RootMotion.FinalIK.InteractionObject/WeightCurve
+    check_size<sizeof(InteractionObject::WeightCurve), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __RootMotion_FinalIK_InteractionObject_WeightCurveSizeCheck;
     // public UnityEngine.Transform otherLookAtTarget
     // Offset: 0x18
     UnityEngine::Transform* otherLookAtTarget;
@@ -270,6 +272,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static InteractionObject* New_ctor();
   }; // RootMotion.FinalIK.InteractionObject
+  check_size<sizeof(InteractionObject), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __RootMotion_FinalIK_InteractionObjectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject*, "RootMotion.FinalIK", "InteractionObject");

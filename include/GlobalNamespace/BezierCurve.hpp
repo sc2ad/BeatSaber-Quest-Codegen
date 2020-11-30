@@ -33,6 +33,7 @@ namespace GlobalNamespace {
     // Offset: 0xE7F1F4
     // ABORTED: conflicts with another method.  BezierCurve(UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 p2, UnityEngine::Vector3 p3);
   }; // BezierCurve
+  check_size<sizeof(BezierCurve), 36 + sizeof(UnityEngine::Vector3) + 8 - (36 + sizeof(UnityEngine::Vector3)) % 8> __GlobalNamespace_BezierCurveSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierCurve, "", "BezierCurve");

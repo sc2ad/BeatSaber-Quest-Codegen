@@ -286,6 +286,7 @@ namespace GlobalNamespace {
     // Base method: System.Void INetworkPlayer::SendInviteResponse(System.Boolean accept)
     void SendInviteResponse(bool accept);
   }; // OculusNetworkPlayerModel/OculusNetworkPlayer
+  check_size<sizeof(OculusNetworkPlayerModel::OculusNetworkPlayer), 77 + sizeof(bool) + 8 - (77 + sizeof(bool)) % 8> __GlobalNamespace_OculusNetworkPlayerModel_OculusNetworkPlayerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*, "", "OculusNetworkPlayerModel/OculusNetworkPlayer");

@@ -1619,6 +1619,7 @@ namespace Mono::Security::Interface {
     // Set static field: static public Mono.Security.Interface.CipherSuiteCode TLS_FALLBACK_SCSV
     static void _set_TLS_FALLBACK_SCSV(Mono::Security::Interface::CipherSuiteCode value);
   }; // Mono.Security.Interface.CipherSuiteCode
+  check_size<sizeof(CipherSuiteCode), 0 + sizeof(uint16_t) + 8 - (0 + sizeof(uint16_t)) % 8> __Mono_Security_Interface_CipherSuiteCodeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::CipherSuiteCode, "Mono.Security.Interface", "CipherSuiteCode");

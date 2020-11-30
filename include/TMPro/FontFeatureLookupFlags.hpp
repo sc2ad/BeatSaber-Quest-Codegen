@@ -35,6 +35,7 @@ namespace TMPro {
     // Set static field: static public TMPro.FontFeatureLookupFlags IgnoreSpacingAdjustments
     static void _set_IgnoreSpacingAdjustments(TMPro::FontFeatureLookupFlags value);
   }; // TMPro.FontFeatureLookupFlags
+  check_size<sizeof(FontFeatureLookupFlags), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __TMPro_FontFeatureLookupFlagsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FontFeatureLookupFlags, "TMPro", "FontFeatureLookupFlags");

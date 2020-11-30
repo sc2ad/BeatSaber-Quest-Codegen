@@ -329,6 +329,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11F6864
     void CloseMessageOverlay();
   }; // OVR.OpenVR.CVROverlay
+  check_size<sizeof(CVROverlay), 16 + sizeof(OVR::OpenVR::IVROverlay) + 8 - (16 + sizeof(OVR::OpenVR::IVROverlay)) % 8> __OVR_OpenVR_CVROverlaySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVROverlay*, "OVR.OpenVR", "CVROverlay");

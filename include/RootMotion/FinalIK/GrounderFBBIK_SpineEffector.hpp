@@ -33,6 +33,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static GrounderFBBIK::SpineEffector* New_ctor();
   }; // RootMotion.FinalIK.GrounderFBBIK/SpineEffector
+  check_size<sizeof(GrounderFBBIK::SpineEffector), 24 + sizeof(float) + 8 - (24 + sizeof(float)) % 8> __RootMotion_FinalIK_GrounderFBBIK_SpineEffectorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderFBBIK::SpineEffector*, "RootMotion.FinalIK", "GrounderFBBIK/SpineEffector");

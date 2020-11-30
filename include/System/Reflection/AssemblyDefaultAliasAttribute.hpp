@@ -24,6 +24,7 @@ namespace System::Reflection {
     // Offset: 0x1720618
     static AssemblyDefaultAliasAttribute* New_ctor(::Il2CppString* defaultAlias);
   }; // System.Reflection.AssemblyDefaultAliasAttribute
+  check_size<sizeof(AssemblyDefaultAliasAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Reflection_AssemblyDefaultAliasAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyDefaultAliasAttribute*, "System.Reflection", "AssemblyDefaultAliasAttribute");

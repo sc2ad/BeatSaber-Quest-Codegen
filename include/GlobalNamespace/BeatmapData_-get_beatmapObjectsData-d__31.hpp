@@ -101,6 +101,7 @@ namespace GlobalNamespace {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // BeatmapData/<get_beatmapObjectsData>d__31
+  check_size<sizeof(BeatmapData::$get_beatmapObjectsData$d__31), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapData_$get_beatmapObjectsData$d__31SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31*, "", "BeatmapData/<get_beatmapObjectsData>d__31");

@@ -76,6 +76,7 @@ namespace GlobalNamespace {
     // Base method: System.Byte OVRControllerBase::GetBatteryPercentRemaining()
     uint8_t GetBatteryPercentRemaining();
   }; // OVRInput/OVRControllerLTrackedRemote
+  check_size<sizeof(OVRInput::OVRControllerLTrackedRemote), 268 + sizeof(float) + 8 - (268 + sizeof(float)) % 8> __GlobalNamespace_OVRInput_OVRControllerLTrackedRemoteSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerLTrackedRemote*, "", "OVRInput/OVRControllerLTrackedRemote");

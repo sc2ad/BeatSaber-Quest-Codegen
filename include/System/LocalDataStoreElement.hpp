@@ -30,6 +30,7 @@ namespace System {
     // Offset: 0x13B4340
     int64_t get_Cookie();
   }; // System.LocalDataStoreElement
+  check_size<sizeof(LocalDataStoreElement), 24 + sizeof(int64_t) + 8 - (24 + sizeof(int64_t)) % 8> __System_LocalDataStoreElementSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreElement*, "System", "LocalDataStoreElement");

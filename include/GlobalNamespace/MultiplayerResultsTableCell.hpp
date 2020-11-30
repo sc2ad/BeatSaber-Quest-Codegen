@@ -104,6 +104,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerResultsTableCell* New_ctor();
   }; // MultiplayerResultsTableCell
+  check_size<sizeof(MultiplayerResultsTableCell), 212 + sizeof(UnityEngine::Color) + 8 - (212 + sizeof(UnityEngine::Color)) % 8> __GlobalNamespace_MultiplayerResultsTableCellSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsTableCell*, "", "MultiplayerResultsTableCell");

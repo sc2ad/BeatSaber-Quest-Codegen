@@ -53,6 +53,7 @@ namespace System::Reflection {
     // Set static field: static public System.Reflection.AssemblyNameFlags Retargetable
     static void _set_Retargetable(System::Reflection::AssemblyNameFlags value);
   }; // System.Reflection.AssemblyNameFlags
+  check_size<sizeof(AssemblyNameFlags), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Reflection_AssemblyNameFlagsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyNameFlags, "System.Reflection", "AssemblyNameFlags");

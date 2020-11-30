@@ -90,6 +90,7 @@ namespace GlobalNamespace {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // MultiplayerMockSettings/<get_mockServers>d__21
+  check_size<sizeof(MultiplayerMockSettings::$get_mockServers$d__21), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerMockSettings_$get_mockServers$d__21SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerMockSettings::$get_mockServers$d__21*, "", "MultiplayerMockSettings/<get_mockServers>d__21");

@@ -105,6 +105,7 @@ namespace GlobalNamespace {
       // Creating value type constructor for type: Config
       constexpr Config(float x_ = {}, float y_ = {}, float z_ = {}, float rx_ = {}, float ry_ = {}, float rz_ = {}, float fov_ = {}, float near_ = {}, float far_ = {}, float sceneResolutionScale_ = {}, float frameSkip_ = {}, float nearOffset_ = {}, float farOffset_ = {}, float hmdOffset_ = {}, float r_ = {}, float g_ = {}, float b_ = {}, float a_ = {}, bool disableStandardAssets_ = {}) noexcept : x{x_}, y{y_}, z{z_}, rx{rx_}, ry{ry_}, rz{rz_}, fov{fov_}, near{near_}, far{far_}, sceneResolutionScale{sceneResolutionScale_}, frameSkip{frameSkip_}, nearOffset{nearOffset_}, farOffset{farOffset_}, hmdOffset{hmdOffset_}, r{r_}, g{g_}, b{b_}, a{a_}, disableStandardAssets{disableStandardAssets_} {}
     }; // SteamVR_ExternalCamera/Config
+    check_size<sizeof(SteamVR_ExternalCamera::Config), 72 + sizeof(bool) + 8 - (72 + sizeof(bool)) % 8> __GlobalNamespace_SteamVR_ExternalCamera_ConfigSizeCheck;
     // public SteamVR_ExternalCamera/Config config
     // Offset: 0x18
     GlobalNamespace::SteamVR_ExternalCamera::Config config;
@@ -180,6 +181,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SteamVR_ExternalCamera* New_ctor();
   }; // SteamVR_ExternalCamera
+  check_size<sizeof(SteamVR_ExternalCamera), 184 + sizeof(float) + 8 - (184 + sizeof(float)) % 8> __GlobalNamespace_SteamVR_ExternalCameraSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_ExternalCamera*, "", "SteamVR_ExternalCamera");

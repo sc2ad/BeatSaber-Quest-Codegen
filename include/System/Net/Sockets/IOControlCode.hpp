@@ -227,6 +227,7 @@ namespace System::Net::Sockets {
     // Set static field: static public System.Net.Sockets.IOControlCode DeleteMulticastGroupFromInterface
     static void _set_DeleteMulticastGroupFromInterface(System::Net::Sockets::IOControlCode value);
   }; // System.Net.Sockets.IOControlCode
+  check_size<sizeof(IOControlCode), 0 + sizeof(int64_t) + 8 - (0 + sizeof(int64_t)) % 8> __System_Net_Sockets_IOControlCodeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::IOControlCode, "System.Net.Sockets", "IOControlCode");

@@ -47,6 +47,7 @@ namespace System::Xml {
     // Set static field: static public System.Xml.XmlOutputMethod AutoDetect
     static void _set_AutoDetect(System::Xml::XmlOutputMethod value);
   }; // System.Xml.XmlOutputMethod
+  check_size<sizeof(XmlOutputMethod), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Xml_XmlOutputMethodSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlOutputMethod, "System.Xml", "XmlOutputMethod");

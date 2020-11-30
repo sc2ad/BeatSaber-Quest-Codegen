@@ -52,7 +52,10 @@ namespace Zenject {
     template<class T>
     static T CreateComponent(UnityEngine::GameObject* gameObject) {
       static_assert(std::is_convertible_v<T, Zenject::RunnableContext*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("Zenject", "RunnableContext", "CreateComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, gameObject)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("RunnableContext").WithContext("CreateComponent");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "RunnableContext", il2cpp_utils::NoArgClass<T>(), "CreateComponent", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(gameObject))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, gameObject);
     }
     // protected System.Void .ctor()
     // Offset: 0x134F388
@@ -70,6 +73,7 @@ namespace Zenject {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // Zenject.RunnableContext
+  check_size<sizeof(RunnableContext), 65 + sizeof(bool) + 8 - (65 + sizeof(bool)) % 8> __Zenject_RunnableContextSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::RunnableContext*, "Zenject", "RunnableContext");
 #pragma pack(pop)

@@ -40,6 +40,7 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
   }; // Org.BouncyCastle.Utilities.IO.Pem.PemHeader
+  check_size<sizeof(PemHeader), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Org_BouncyCastle_Utilities_IO_Pem_PemHeaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemHeader*, "Org.BouncyCastle.Utilities.IO.Pem", "PemHeader");

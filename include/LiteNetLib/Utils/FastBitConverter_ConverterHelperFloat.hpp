@@ -24,6 +24,7 @@ namespace LiteNetLib::Utils {
     // Creating value type constructor for type: ConverterHelperFloat
     constexpr ConverterHelperFloat(int Aint_ = {}, float Afloat_ = {}) noexcept : Aint{Aint_}, Afloat{Afloat_} {}
   }; // LiteNetLib.Utils.FastBitConverter/ConverterHelperFloat
+  check_size<sizeof(FastBitConverter::ConverterHelperFloat), 0 + sizeof(float) + 8 - (0 + sizeof(float)) % 8> __LiteNetLib_Utils_FastBitConverter_ConverterHelperFloatSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::FastBitConverter::ConverterHelperFloat, "LiteNetLib.Utils", "FastBitConverter/ConverterHelperFloat");

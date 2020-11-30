@@ -24,6 +24,7 @@ namespace System::Reflection {
     // Offset: 0x1720788
     static AssemblyKeyFileAttribute* New_ctor(::Il2CppString* keyFile);
   }; // System.Reflection.AssemblyKeyFileAttribute
+  check_size<sizeof(AssemblyKeyFileAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Reflection_AssemblyKeyFileAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyKeyFileAttribute*, "System.Reflection", "AssemblyKeyFileAttribute");

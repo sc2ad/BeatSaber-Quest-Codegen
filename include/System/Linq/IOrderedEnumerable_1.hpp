@@ -33,9 +33,13 @@ namespace System::Linq {
     // Offset: 0xFFFFFFFF
     template<class TKey>
     System::Linq::IOrderedEnumerable_1<TElement>* System_Linq_IOrderedEnumerable_1_CreateOrderedEnumerable(System::Func_2<TElement, TKey>* keySelector, System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Linq::IOrderedEnumerable_1<TElement>*>(this, "CreateOrderedEnumerable", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}, keySelector, comparer, descending)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("IOrderedEnumerable_1").WithContext("CreateOrderedEnumerable");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Linq::IOrderedEnumerable_1<TElement>*>(), "CreateOrderedEnumerable", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}, ::il2cpp_utils::ExtractTypes(keySelector, comparer, descending))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Linq::IOrderedEnumerable_1<TElement>*, false>(this, ___internal__method, keySelector, comparer, descending);
     }
   }; // System.Linq.IOrderedEnumerable`1
+  // Could not write size check! Type: System.Linq.IOrderedEnumerable`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::IOrderedEnumerable_1, "System.Linq", "IOrderedEnumerable`1");
 #pragma pack(pop)

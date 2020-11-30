@@ -60,6 +60,7 @@ namespace Mono::Net::Security {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // Mono.Net.Security.MobileAuthenticatedStream/<InnerRead>d__66
+  check_size<sizeof(MobileAuthenticatedStream::$InnerRead$d__66), 56 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter) + 8 - (56 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter)) % 8> __Mono_Net_Security_MobileAuthenticatedStream_$InnerRead$d__66SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileAuthenticatedStream::$InnerRead$d__66, "Mono.Net.Security", "MobileAuthenticatedStream/<InnerRead>d__66");

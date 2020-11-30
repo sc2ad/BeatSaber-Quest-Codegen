@@ -97,6 +97,7 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
   }; // StandardScoreSyncState
+  check_size<sizeof(StandardScoreSyncState), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __GlobalNamespace_StandardScoreSyncStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardScoreSyncState, "", "StandardScoreSyncState");

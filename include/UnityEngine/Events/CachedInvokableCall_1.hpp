@@ -36,23 +36,29 @@ namespace UnityEngine::Events {
     // public System.Void .ctor(UnityEngine.Object target, System.Reflection.MethodInfo theFunction, T argument)
     // Offset: 0xFFFFFFFF
     static CachedInvokableCall_1<T>* New_ctor(UnityEngine::Object* target, System::Reflection::MethodInfo* theFunction, T argument) {
-      return THROW_UNLESS(il2cpp_utils::New<CachedInvokableCall_1<T>*>(target, theFunction, argument));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Events").WithContext("CachedInvokableCall_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<CachedInvokableCall_1<T>*>(target, theFunction, argument));
     }
     // public override System.Void Invoke(System.Object[] args)
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.InvokableCall`1
     // Base method: System.Void InvokableCall_1::Invoke(System.Object[] args)
     void Invoke(::Array<::Il2CppObject*>* args) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invoke", args));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Events").WithContext("CachedInvokableCall_1").WithContext("Invoke");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Invoke", {}, ::il2cpp_utils::ExtractTypes(args)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, args);
     }
     // public override System.Void Invoke(T arg0)
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.InvokableCall`1
     // Base method: System.Void InvokableCall_1::Invoke(T arg0)
     void Invoke(T arg0) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Invoke", arg0));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Events").WithContext("CachedInvokableCall_1").WithContext("Invoke");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Invoke", {}, ::il2cpp_utils::ExtractTypes(arg0)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, arg0);
     }
   }; // UnityEngine.Events.CachedInvokableCall`1
+  // Could not write size check! Type: UnityEngine.Events.CachedInvokableCall`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::Events::CachedInvokableCall_1, "UnityEngine.Events", "CachedInvokableCall`1");
 #pragma pack(pop)

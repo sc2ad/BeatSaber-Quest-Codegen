@@ -55,6 +55,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.Pkcs.Pkcs12PbeParams
+  check_size<sizeof(Pkcs12PbeParams), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Org_BouncyCastle_Asn1_Pkcs_Pkcs12PbeParamsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams*, "Org.BouncyCastle.Asn1.Pkcs", "Pkcs12PbeParams");

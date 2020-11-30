@@ -92,6 +92,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LightWithIdMonoBehaviour* New_ctor();
   }; // LightWithIdMonoBehaviour
+  check_size<sizeof(LightWithIdMonoBehaviour), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __GlobalNamespace_LightWithIdMonoBehaviourSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIdMonoBehaviour*, "", "LightWithIdMonoBehaviour");

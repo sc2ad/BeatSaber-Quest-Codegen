@@ -60,6 +60,7 @@ namespace UnityEngine::TestTools::Logging {
     // Base method: System.Void Object::.ctor()
     static LogEvent* New_ctor();
   }; // UnityEngine.TestTools.Logging.LogEvent
+  check_size<sizeof(LogEvent), 36 + sizeof(bool) + 8 - (36 + sizeof(bool)) % 8> __UnityEngine_TestTools_Logging_LogEventSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogEvent*, "UnityEngine.TestTools.Logging", "LogEvent");

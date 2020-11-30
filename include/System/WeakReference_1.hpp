@@ -40,29 +40,36 @@ namespace System {
     // public System.Void .ctor(T target)
     // Offset: 0xFFFFFFFF
     static WeakReference_1<T>* New_ctor(T target) {
-      return THROW_UNLESS(il2cpp_utils::New<WeakReference_1<T>*>(target));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("WeakReference_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<WeakReference_1<T>*>(target));
     }
     // public System.Void .ctor(T target, System.Boolean trackResurrection)
     // Offset: 0xFFFFFFFF
     static WeakReference_1<T>* New_ctor(T target, bool trackResurrection) {
-      return THROW_UNLESS(il2cpp_utils::New<WeakReference_1<T>*>(target, trackResurrection));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("WeakReference_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<WeakReference_1<T>*>(target, trackResurrection));
     }
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xFFFFFFFF
     static WeakReference_1<T>* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      return THROW_UNLESS(il2cpp_utils::New<WeakReference_1<T>*>(info, context));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("WeakReference_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<WeakReference_1<T>*>(info, context));
     }
     // public System.Boolean TryGetTarget(out T target)
     // Offset: 0xFFFFFFFF
     bool TryGetTarget(T& target) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "TryGetTarget", target));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("WeakReference_1").WithContext("TryGetTarget");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "TryGetTarget", {}, ::il2cpp_utils::ExtractTypes(target)));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, target);
     }
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Runtime.Serialization.ISerializable
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "GetObjectData", info, context));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("WeakReference_1").WithContext("GetObjectData");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "GetObjectData", {}, ::il2cpp_utils::ExtractTypes(info, context)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, info, context);
     }
     // Creating proxy method: System_Runtime_Serialization_ISerializable_GetObjectData
     // Maps to method: GetObjectData
@@ -74,9 +81,12 @@ namespace System {
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize() {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "Finalize"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System").WithContext("WeakReference_1").WithContext("Finalize");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "Finalize", {}, ::il2cpp_utils::ExtractTypes()));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
     }
   }; // System.WeakReference`1
+  // Could not write size check! Type: System.WeakReference`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::WeakReference_1, "System", "WeakReference`1");
 #pragma pack(pop)

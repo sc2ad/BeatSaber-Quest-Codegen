@@ -28,6 +28,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static DiffieHellmanUtility::ElipticalCurveKeyPair::$$c__DisplayClass5_0* New_ctor();
   }; // DiffieHellmanUtility/ElipticalCurveKeyPair/<>c__DisplayClass5_0
+  check_size<sizeof(DiffieHellmanUtility::ElipticalCurveKeyPair::$$c__DisplayClass5_0), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_DiffieHellmanUtility_ElipticalCurveKeyPair_$$c__DisplayClass5_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::$$c__DisplayClass5_0*, "", "DiffieHellmanUtility/ElipticalCurveKeyPair/<>c__DisplayClass5_0");

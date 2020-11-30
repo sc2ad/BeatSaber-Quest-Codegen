@@ -85,6 +85,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     static GUIContent* New_ctor();
   }; // UnityEngine.GUIContent
+  check_size<sizeof(GUIContent), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __UnityEngine_GUIContentSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIContent*, "UnityEngine", "GUIContent");

@@ -40,6 +40,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     static GUILayoutUtility::LayoutCache* New_ctor();
   }; // UnityEngine.GUILayoutUtility/LayoutCache
+  check_size<sizeof(GUILayoutUtility::LayoutCache), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __UnityEngine_GUILayoutUtility_LayoutCacheSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutUtility::LayoutCache*, "UnityEngine", "GUILayoutUtility/LayoutCache");

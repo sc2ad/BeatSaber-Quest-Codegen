@@ -34,6 +34,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LocalizedTextAsset::TextInfo* New_ctor();
   }; // LocalizedTextAsset/TextInfo
+  check_size<sizeof(LocalizedTextAsset::TextInfo), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_LocalizedTextAsset_TextInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset::TextInfo*, "", "LocalizedTextAsset/TextInfo");

@@ -259,6 +259,7 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static public Org.BouncyCastle.Security.CipherUtilities/CipherAlgorithm XTEA
     static void _set_XTEA(Org::BouncyCastle::Security::CipherUtilities::CipherAlgorithm value);
   }; // Org.BouncyCastle.Security.CipherUtilities/CipherAlgorithm
+  check_size<sizeof(CipherUtilities::CipherAlgorithm), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Org_BouncyCastle_Security_CipherUtilities_CipherAlgorithmSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::CipherUtilities::CipherAlgorithm, "Org.BouncyCastle.Security", "CipherUtilities/CipherAlgorithm");

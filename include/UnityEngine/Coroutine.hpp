@@ -37,6 +37,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // UnityEngine.Coroutine
+  check_size<sizeof(Coroutine), 16 + sizeof(System::IntPtr) + 8 - (16 + sizeof(System::IntPtr)) % 8> __UnityEngine_CoroutineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Coroutine*, "UnityEngine", "Coroutine");

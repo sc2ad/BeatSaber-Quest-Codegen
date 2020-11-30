@@ -141,6 +141,7 @@ namespace TMPro {
       // Set static field: static public TMPro.TMP_Text/TextInputSources String
       static void _set_String(TMPro::TMP_Text::TextInputSources value);
     }; // TMPro.TMP_Text/TextInputSources
+    check_size<sizeof(TMP_Text::TextInputSources), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __TMPro_TMP_Text_TextInputSourcesSizeCheck;
     // protected System.String m_text
     // Offset: 0xC0
     ::Il2CppString* m_text;
@@ -1379,7 +1380,10 @@ namespace TMPro {
     // Offset: 0xFFFFFFFF
     template<class T>
     void ResizeInternalArray(::Array<T>*& array) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod(this, "ResizeInternalArray", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, array));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("TMP_Text").WithContext("ResizeInternalArray");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "ResizeInternalArray", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(array))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, array);
     }
     // protected System.Void AddFloatToCharArray(System.Double number, ref System.Int32 index, System.Int32 precision)
     // Offset: 0xF92F64
@@ -1613,6 +1617,7 @@ namespace TMPro {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // TMPro.TMP_Text
+  check_size<sizeof(TMP_Text), 2856 + sizeof(void*) + 8 - (2856 + sizeof(void*)) % 8> __TMPro_TMP_TextSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Text*, "TMPro", "TMP_Text");
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Text::TextInputSources, "TMPro", "TMP_Text/TextInputSources");

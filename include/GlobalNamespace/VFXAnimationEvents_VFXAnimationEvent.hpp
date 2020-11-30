@@ -38,6 +38,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static VFXAnimationEvents::VFXAnimationEvent* New_ctor();
   }; // VFXAnimationEvents/VFXAnimationEvent
+  check_size<sizeof(VFXAnimationEvents::VFXAnimationEvent), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_VFXAnimationEvents_VFXAnimationEventSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*, "", "VFXAnimationEvents/VFXAnimationEvent");

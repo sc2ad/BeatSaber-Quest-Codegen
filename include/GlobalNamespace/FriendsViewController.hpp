@@ -97,6 +97,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static FriendsViewController* New_ctor();
   }; // FriendsViewController
+  check_size<sizeof(FriendsViewController), 176 + sizeof(bool) + 8 - (176 + sizeof(bool)) % 8> __GlobalNamespace_FriendsViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FriendsViewController*, "", "FriendsViewController");

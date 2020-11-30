@@ -31,6 +31,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MaterialPropertyValuesSetter::PropertyNameVectorValuePair* New_ctor();
   }; // MaterialPropertyValuesSetter/PropertyNameVectorValuePair
+  check_size<sizeof(MaterialPropertyValuesSetter::PropertyNameVectorValuePair), 28 + sizeof(UnityEngine::Vector4) + 8 - (28 + sizeof(UnityEngine::Vector4)) % 8> __GlobalNamespace_MaterialPropertyValuesSetter_PropertyNameVectorValuePairSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*, "", "MaterialPropertyValuesSetter/PropertyNameVectorValuePair");

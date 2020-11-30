@@ -61,6 +61,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static InteractableTextMeshPro* New_ctor();
   }; // HMUI.InteractableTextMeshPro
+  check_size<sizeof(InteractableTextMeshPro), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __HMUI_InteractableTextMeshProSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InteractableTextMeshPro*, "HMUI", "InteractableTextMeshPro");

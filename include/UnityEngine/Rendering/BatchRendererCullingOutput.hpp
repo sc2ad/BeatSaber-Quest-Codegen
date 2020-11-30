@@ -50,6 +50,7 @@ namespace UnityEngine::Rendering {
     // Creating value type constructor for type: BatchRendererCullingOutput
     constexpr BatchRendererCullingOutput(Unity::Jobs::JobHandle cullingJobsFence_ = {}, UnityEngine::Plane* cullingPlanes_ = {}, UnityEngine::Rendering::BatchVisibility* batchVisibility_ = {}, int* visibleIndices_ = {}, int cullingPlanesCount_ = {}, int batchVisibilityCount_ = {}, int visibleIndicesCount_ = {}) noexcept : cullingJobsFence{cullingJobsFence_}, cullingPlanes{cullingPlanes_}, batchVisibility{batchVisibility_}, visibleIndices{visibleIndices_}, cullingPlanesCount{cullingPlanesCount_}, batchVisibilityCount{batchVisibilityCount_}, visibleIndicesCount{visibleIndicesCount_} {}
   }; // UnityEngine.Rendering.BatchRendererCullingOutput
+  check_size<sizeof(BatchRendererCullingOutput), 48 + sizeof(int) + 8 - (48 + sizeof(int)) % 8> __UnityEngine_Rendering_BatchRendererCullingOutputSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererCullingOutput, "UnityEngine.Rendering", "BatchRendererCullingOutput");

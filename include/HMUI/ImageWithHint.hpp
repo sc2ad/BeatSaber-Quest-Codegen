@@ -57,6 +57,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static ImageWithHint* New_ctor();
   }; // HMUI.ImageWithHint
+  check_size<sizeof(ImageWithHint), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __HMUI_ImageWithHintSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ImageWithHint*, "HMUI", "ImageWithHint");

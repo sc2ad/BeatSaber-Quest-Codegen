@@ -29,12 +29,15 @@ namespace OnlineServices::API {
     // public System.Boolean get_isError()
     // Offset: 0xFFFFFFFF
     bool get_isError() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(*this, "get_isError"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("OnlineServices::API").WithContext("ApiResponse_1").WithContext("get_isError");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(*this, il2cpp_utils::NoArgClass<bool>(), "get_isError", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(*this, ___internal__method);
     }
     // public System.Void .ctor(OnlineServices.API.Response response, T responseDto)
     // Offset: 0xFFFFFFFF
     // ABORTED: conflicts with another method.  ApiResponse_1(OnlineServices::API::Response response, T responseDto)
   }; // OnlineServices.API.ApiResponse`1
+  // Could not write size check! Type: OnlineServices.API.ApiResponse`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(OnlineServices::API::ApiResponse_1, "OnlineServices.API", "ApiResponse`1");
 #pragma pack(pop)

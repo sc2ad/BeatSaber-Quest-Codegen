@@ -43,6 +43,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: $$c__DisplayClass2_0
     constexpr $$c__DisplayClass2_0(int bpmChangesDataIdx_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapDataLoader::BpmChangeData>* bpmChangesData_ = {}, GlobalNamespace::BeatmapDataLoader* $$4__this_ = {}, float shuffle_ = {}, float shufflePeriod_ = {}) noexcept : bpmChangesDataIdx{bpmChangesDataIdx_}, bpmChangesData{bpmChangesData_}, $$4__this{$$4__this_}, shuffle{shuffle_}, shufflePeriod{shufflePeriod_} {}
   }; // BeatmapDataLoader/<>c__DisplayClass2_0
+  check_size<sizeof(BeatmapDataLoader::$$c__DisplayClass2_0), 28 + sizeof(float) + 8 - (28 + sizeof(float)) % 8> __GlobalNamespace_BeatmapDataLoader_$$c__DisplayClass2_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataLoader::$$c__DisplayClass2_0, "", "BeatmapDataLoader/<>c__DisplayClass2_0");

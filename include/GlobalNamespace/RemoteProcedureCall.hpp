@@ -77,6 +77,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static RemoteProcedureCall* New_ctor();
   }; // RemoteProcedureCall
+  check_size<sizeof(RemoteProcedureCall), 16 + sizeof(float) + 8 - (16 + sizeof(float)) % 8> __GlobalNamespace_RemoteProcedureCallSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RemoteProcedureCall*, "", "RemoteProcedureCall");

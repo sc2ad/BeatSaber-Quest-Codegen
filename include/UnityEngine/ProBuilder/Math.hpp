@@ -209,14 +209,20 @@ namespace UnityEngine::ProBuilder {
     template<class T>
     static T Max(::Array<T>* array) {
       static_assert(std::is_base_of_v<System::IComparable_1<T>, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine.ProBuilder", "Math", "Max", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, array)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("Math").WithContext("Max");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "Math", il2cpp_utils::NoArgClass<T>(), "Max", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(array))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, array);
     }
     // static T Min(T[] array)
     // Offset: 0xFFFFFFFF
     template<class T>
     static T Min(::Array<T>* array) {
       static_assert(std::is_base_of_v<System::IComparable_1<T>, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine.ProBuilder", "Math", "Min", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, array)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("Math").WithContext("Min");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "Math", il2cpp_utils::NoArgClass<T>(), "Min", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(array))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, array);
     }
     // static System.Single LargestValue(UnityEngine.Vector3 v)
     // Offset: 0x163F7E4
@@ -267,7 +273,10 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xFFFFFFFF
     template<class T>
     static UnityEngine::Vector3 Average(System::Collections::Generic::IList_1<T>* list, System::Func_2<T, UnityEngine::Vector3>* selector, System::Collections::Generic::IList_1<int>* indexes) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<UnityEngine::Vector3>("UnityEngine.ProBuilder", "Math", "Average", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, selector, indexes)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::ProBuilder").WithContext("Math").WithContext("Average");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "Math", il2cpp_utils::NoArgClass<UnityEngine::Vector3>(), "Average", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list, selector, indexes))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Vector3, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list, selector, indexes);
     }
     // static public UnityEngine.Vector4 Average(System.Collections.Generic.IList`1<UnityEngine.Vector4> v, System.Collections.Generic.IList`1<System.Int32> indexes)
     // Offset: 0x16419E0

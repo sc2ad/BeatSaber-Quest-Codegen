@@ -25,6 +25,7 @@ namespace NetEase::Docker {
     // Offset: 0xCB9B8C
     void set_LogoutCode(int value);
   }; // NetEase.Docker.LogoutData
+  check_size<sizeof(LogoutData), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __NetEase_Docker_LogoutDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::LogoutData, "NetEase.Docker", "LogoutData");

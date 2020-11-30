@@ -48,7 +48,10 @@ namespace TMPro {
     template<class T>
     static int FindInstanceID(System::Collections::Generic::List_1<T>* list, T target) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<int>("TMPro", "TMPro_ExtensionMethods", "FindInstanceID", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, list, target)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("TMPro").WithContext("TMPro_ExtensionMethods").WithContext("FindInstanceID");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("TMPro", "TMPro_ExtensionMethods", il2cpp_utils::NoArgClass<int>(), "FindInstanceID", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(list, target))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, list, target);
     }
     // static public System.Boolean Compare(UnityEngine.Color32 a, UnityEngine.Color32 b)
     // Offset: 0x113A058

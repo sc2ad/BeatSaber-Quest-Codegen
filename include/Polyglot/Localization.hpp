@@ -179,6 +179,7 @@ namespace Polyglot {
     // Base method: System.Void Object::.ctor()
     static Localization* New_ctor();
   }; // Polyglot.Localization
+  check_size<sizeof(Localization), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __Polyglot_LocalizationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::Localization*, "Polyglot", "Localization");

@@ -151,6 +151,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: GetEnumerator
     System::Collections::IDictionaryEnumerator* System_Collections_IDictionary_GetEnumerator();
   }; // System.Runtime.Remoting.Messaging.MessageDictionary
+  check_size<sizeof(MessageDictionary), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __System_Runtime_Remoting_Messaging_MessageDictionarySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MessageDictionary*, "System.Runtime.Remoting.Messaging", "MessageDictionary");

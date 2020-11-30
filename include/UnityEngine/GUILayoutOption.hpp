@@ -118,6 +118,7 @@ namespace UnityEngine {
       // Set static field: static public UnityEngine.GUILayoutOption/Type spacing
       static void _set_spacing(UnityEngine::GUILayoutOption::Type value);
     }; // UnityEngine.GUILayoutOption/Type
+    check_size<sizeof(GUILayoutOption::Type), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_GUILayoutOption_TypeSizeCheck;
     // UnityEngine.GUILayoutOption/Type type
     // Offset: 0x10
     UnityEngine::GUILayoutOption::Type type;
@@ -128,6 +129,7 @@ namespace UnityEngine {
     // Offset: 0x16067C0
     static GUILayoutOption* New_ctor(UnityEngine::GUILayoutOption::Type type, ::Il2CppObject* value);
   }; // UnityEngine.GUILayoutOption
+  check_size<sizeof(GUILayoutOption), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_GUILayoutOptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutOption*, "UnityEngine", "GUILayoutOption");

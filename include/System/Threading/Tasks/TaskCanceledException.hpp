@@ -58,6 +58,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static TaskCanceledException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Threading.Tasks.TaskCanceledException
+  check_size<sizeof(TaskCanceledException), 144 + sizeof(void*) + 8 - (144 + sizeof(void*)) % 8> __System_Threading_Tasks_TaskCanceledExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskCanceledException*, "System.Threading.Tasks", "TaskCanceledException");

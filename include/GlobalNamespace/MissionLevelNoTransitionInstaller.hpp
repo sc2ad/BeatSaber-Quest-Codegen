@@ -84,6 +84,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionLevelNoTransitionInstaller* New_ctor();
   }; // MissionLevelNoTransitionInstaller
+  check_size<sizeof(MissionLevelNoTransitionInstaller), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __GlobalNamespace_MissionLevelNoTransitionInstallerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelNoTransitionInstaller*, "", "MissionLevelNoTransitionInstaller");

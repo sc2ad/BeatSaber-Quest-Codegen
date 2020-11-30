@@ -85,6 +85,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BeatmapCharacteristicSO* New_ctor();
   }; // BeatmapCharacteristicSO
+  check_size<sizeof(BeatmapCharacteristicSO), 72 + sizeof(int) + 8 - (72 + sizeof(int)) % 8> __GlobalNamespace_BeatmapCharacteristicSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicSO*, "", "BeatmapCharacteristicSO");

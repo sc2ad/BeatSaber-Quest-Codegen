@@ -27,6 +27,7 @@ namespace UnityEngine {
     // Offset: 0x167E12C
     static BootConfigData* New_ctor(System::IntPtr nativeHandle);
   }; // UnityEngine.BootConfigData
+  check_size<sizeof(BootConfigData), 16 + sizeof(System::IntPtr) + 8 - (16 + sizeof(System::IntPtr)) % 8> __UnityEngine_BootConfigDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BootConfigData*, "UnityEngine", "BootConfigData");

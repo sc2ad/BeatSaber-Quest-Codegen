@@ -38,6 +38,7 @@ namespace Zenject {
     // Offset: 0x12934B4
     static DiContainer::ProviderInfo* New_ctor(Zenject::IProvider* provider, Zenject::BindingCondition* condition, bool nonLazy, Zenject::DiContainer* container);
   }; // Zenject.DiContainer/ProviderInfo
+  check_size<sizeof(DiContainer::ProviderInfo), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Zenject_DiContainer_ProviderInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer::ProviderInfo*, "Zenject", "DiContainer/ProviderInfo");

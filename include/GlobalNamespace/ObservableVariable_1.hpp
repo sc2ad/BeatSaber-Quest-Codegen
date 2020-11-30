@@ -44,37 +44,47 @@ namespace GlobalNamespace {
     // Implemented from: IObservableChange
     // Base method: System.Void IObservableChange::add_didChangeEvent(System.Action value)
     void add_didChangeEvent(System::Action* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "add_didChangeEvent", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ObservableVariable_1").WithContext("add_didChangeEvent");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "add_didChangeEvent", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void remove_didChangeEvent(System.Action value)
     // Offset: 0xFFFFFFFF
     // Implemented from: IObservableChange
     // Base method: System.Void IObservableChange::remove_didChangeEvent(System.Action value)
     void remove_didChangeEvent(System::Action* value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "remove_didChangeEvent", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ObservableVariable_1").WithContext("remove_didChangeEvent");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "remove_didChangeEvent", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void set_value(T value)
     // Offset: 0xFFFFFFFF
     // Implemented from: IValue`1
     // Base method: System.Void IValue_1::set_value(T value)
     void set_value(T value) {
-      THROW_UNLESS(il2cpp_utils::RunMethod(this, "set_value", value));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ObservableVariable_1").WithContext("set_value");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<void>(), "set_value", {}, ::il2cpp_utils::ExtractTypes(value)));
+      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
     }
     // public T get_value()
     // Offset: 0xFFFFFFFF
     // Implemented from: IValue`1
     // Base method: T IValue_1::get_value()
     T get_value() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<T>(this, "get_value"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ObservableVariable_1").WithContext("get_value");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "get_value", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     static ObservableVariable_1<T>* New_ctor() {
-      return THROW_UNLESS(il2cpp_utils::New<ObservableVariable_1<T>*>());
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("ObservableVariable_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<ObservableVariable_1<T>*>());
     }
   }; // ObservableVariable`1
+  // Could not write size check! Type: ObservableVariable`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::ObservableVariable_1, "", "ObservableVariable`1");
 #pragma pack(pop)

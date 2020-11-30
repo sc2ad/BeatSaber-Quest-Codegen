@@ -40,7 +40,10 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     Zenject::ConditionCopyNonLazyBinder* OnInstantiated(System::Action_2<Zenject::InjectContext*, T>* callback) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<Zenject::ConditionCopyNonLazyBinder*>(this, "OnInstantiated", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, callback)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("Zenject").WithContext("InstantiateCallbackConditionCopyNonLazyBinder").WithContext("OnInstantiated");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<Zenject::ConditionCopyNonLazyBinder*>(), "OnInstantiated", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(callback))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<Zenject::ConditionCopyNonLazyBinder*, false>(this, ___internal__method, callback);
     }
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
     // Offset: 0x12A247C

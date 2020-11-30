@@ -87,6 +87,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.ProBuilder.SceneSelection
+  check_size<sizeof(SceneSelection), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_SceneSelectionSizeCheck;
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.SceneSelection left, UnityEngine.ProBuilder.SceneSelection right)
   // Offset: 0x13C6070
   bool operator ==(UnityEngine::ProBuilder::SceneSelection* left, UnityEngine::ProBuilder::SceneSelection& right);

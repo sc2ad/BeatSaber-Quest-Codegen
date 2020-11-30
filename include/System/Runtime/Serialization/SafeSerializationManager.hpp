@@ -102,6 +102,7 @@ namespace System::Runtime::Serialization {
     // Base method: System.Object IObjectReference::GetRealObject(System.Runtime.Serialization.StreamingContext context)
     ::Il2CppObject* System_Runtime_Serialization_IObjectReference_GetRealObject(System::Runtime::Serialization::StreamingContext context);
   }; // System.Runtime.Serialization.SafeSerializationManager
+  check_size<sizeof(SafeSerializationManager), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __System_Runtime_Serialization_SafeSerializationManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SafeSerializationManager*, "System.Runtime.Serialization", "SafeSerializationManager");

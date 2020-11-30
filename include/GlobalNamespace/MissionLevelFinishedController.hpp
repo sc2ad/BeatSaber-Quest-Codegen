@@ -62,6 +62,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionLevelFinishedController* New_ctor();
   }; // MissionLevelFinishedController
+  check_size<sizeof(MissionLevelFinishedController), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_MissionLevelFinishedControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelFinishedController*, "", "MissionLevelFinishedController");

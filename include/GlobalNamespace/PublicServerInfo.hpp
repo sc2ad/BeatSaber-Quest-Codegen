@@ -70,6 +70,7 @@ namespace GlobalNamespace {
     // Maps to method: CreateFromSerializedData
     GlobalNamespace::PublicServerInfo LiteNetLib_Utils_INetImmutableSerializable_1_CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
   }; // PublicServerInfo
+  check_size<sizeof(PublicServerInfo), 32 + sizeof(GlobalNamespace::GameplayServerConfiguration) + 8 - (32 + sizeof(GlobalNamespace::GameplayServerConfiguration)) % 8> __GlobalNamespace_PublicServerInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PublicServerInfo, "", "PublicServerInfo");

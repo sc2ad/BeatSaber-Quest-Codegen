@@ -49,6 +49,7 @@ namespace GlobalNamespace {
     // Offset: 0x101F2C8
     static MissionObjectiveResult* New_ctor(GlobalNamespace::MissionObjective* missionObjective, bool cleared, int value);
   }; // MissionObjectiveResult
+  check_size<sizeof(MissionObjectiveResult), 28 + sizeof(int) + 8 - (28 + sizeof(int)) % 8> __GlobalNamespace_MissionObjectiveResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveResult*, "", "MissionObjectiveResult");

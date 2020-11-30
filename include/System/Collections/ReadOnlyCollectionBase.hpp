@@ -68,6 +68,7 @@ namespace System::Collections {
     // Base method: System.Void Object::.ctor()
     static ReadOnlyCollectionBase* New_ctor();
   }; // System.Collections.ReadOnlyCollectionBase
+  check_size<sizeof(ReadOnlyCollectionBase), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Collections_ReadOnlyCollectionBaseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ReadOnlyCollectionBase*, "System.Collections", "ReadOnlyCollectionBase");

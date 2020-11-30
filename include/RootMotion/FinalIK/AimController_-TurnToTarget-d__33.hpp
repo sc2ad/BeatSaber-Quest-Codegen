@@ -60,6 +60,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // RootMotion.FinalIK.AimController/<TurnToTarget>d__33
+  check_size<sizeof(AimController::$TurnToTarget$d__33), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __RootMotion_FinalIK_AimController_$TurnToTarget$d__33SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimController::$TurnToTarget$d__33*, "RootMotion.FinalIK", "AimController/<TurnToTarget>d__33");

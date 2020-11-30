@@ -124,6 +124,7 @@ namespace UnityEngine::Timeline {
       // Offset: 0xCB59FC
       void Clear();
     }; // UnityEngine.Timeline.TrackAsset/TransientBuildData
+    check_size<sizeof(TrackAsset::TransientBuildData), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_Timeline_TrackAsset_TransientBuildDataSizeCheck;
     // private System.Int32 m_Version
     // Offset: 0x18
     int m_Version;
@@ -325,7 +326,10 @@ namespace UnityEngine::Timeline {
     template<class T>
     UnityEngine::Timeline::TimelineClip* CreateClip() {
       static_assert(std::is_convertible_v<T, UnityEngine::ScriptableObject*> && std::is_base_of_v<UnityEngine::Playables::IPlayableAsset, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<UnityEngine::Timeline::TimelineClip*>(this, "CreateClip", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("TrackAsset").WithContext("CreateClip");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<UnityEngine::Timeline::TimelineClip*>(), "CreateClip", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes())));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<UnityEngine::Timeline::TimelineClip*, false>(this, ___internal__method);
     }
     // public System.Boolean DeleteClip(UnityEngine.Timeline.TimelineClip clip)
     // Offset: 0x196D9D0
@@ -338,7 +342,10 @@ namespace UnityEngine::Timeline {
     template<class T>
     T CreateMarker(double time) {
       static_assert(std::is_convertible_v<T, UnityEngine::ScriptableObject*> && std::is_base_of_v<UnityEngine::Timeline::IMarker, std::remove_pointer_t<T>>);
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>(this, "CreateMarker", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, time)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine::Timeline").WithContext("TrackAsset").WithContext("CreateMarker");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<T>(), "CreateMarker", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(time))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, time);
     }
     // public System.Boolean DeleteMarker(UnityEngine.Timeline.IMarker marker)
     // Offset: 0x196DAF8
@@ -569,6 +576,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.Timeline.TrackAsset
+  check_size<sizeof(TrackAsset), 136 + sizeof(UnityEngine::Timeline::MarkerList) + 8 - (136 + sizeof(UnityEngine::Timeline::MarkerList)) % 8> __UnityEngine_Timeline_TrackAssetSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAsset*, "UnityEngine.Timeline", "TrackAsset");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAsset::TransientBuildData, "UnityEngine.Timeline", "TrackAsset/TransientBuildData");

@@ -45,6 +45,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Creating value type constructor for type: SpriteData
     constexpr SpriteData(::Il2CppString* filename_ = {}, TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame frame_ = {}, bool rotated_ = {}, bool trimmed_ = {}, TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame spriteSourceSize_ = {}, TMPro::SpriteAssetUtilities::TexturePacker::SpriteSize sourceSize_ = {}, UnityEngine::Vector2 pivot_ = {}) noexcept : filename{filename_}, frame{frame_}, rotated{rotated_}, trimmed{trimmed_}, spriteSourceSize{spriteSourceSize_}, sourceSize{sourceSize_}, pivot{pivot_} {}
   }; // TMPro.SpriteAssetUtilities.TexturePacker/SpriteData
+  check_size<sizeof(TexturePacker::SpriteData), 52 + sizeof(UnityEngine::Vector2) + 8 - (52 + sizeof(UnityEngine::Vector2)) % 8> __TMPro_SpriteAssetUtilities_TexturePacker_SpriteDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker::SpriteData, "TMPro.SpriteAssetUtilities", "TexturePacker/SpriteData");

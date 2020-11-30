@@ -44,6 +44,7 @@ namespace System::ComponentModel {
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();
   }; // System.ComponentModel.DefaultEventAttribute
+  check_size<sizeof(DefaultEventAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_ComponentModel_DefaultEventAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DefaultEventAttribute*, "System.ComponentModel", "DefaultEventAttribute");

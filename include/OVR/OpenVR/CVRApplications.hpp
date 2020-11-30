@@ -140,6 +140,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11EFA48
     uint GetCurrentSceneProcessId();
   }; // OVR.OpenVR.CVRApplications
+  check_size<sizeof(CVRApplications), 16 + sizeof(OVR::OpenVR::IVRApplications) + 8 - (16 + sizeof(OVR::OpenVR::IVRApplications)) % 8> __OVR_OpenVR_CVRApplicationsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRApplications*, "OVR.OpenVR", "CVRApplications");

@@ -22,6 +22,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x104900C
     int get_Rounds();
   }; // Org.BouncyCastle.Crypto.Parameters.RC5Parameters
+  check_size<sizeof(RC5Parameters), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __Org_BouncyCastle_Crypto_Parameters_RC5ParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::RC5Parameters*, "Org.BouncyCastle.Crypto.Parameters", "RC5Parameters");

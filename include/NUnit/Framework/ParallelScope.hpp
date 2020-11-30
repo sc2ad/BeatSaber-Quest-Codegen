@@ -47,6 +47,7 @@ namespace NUnit::Framework {
     // Set static field: static public NUnit.Framework.ParallelScope Fixtures
     static void _set_Fixtures(NUnit::Framework::ParallelScope value);
   }; // NUnit.Framework.ParallelScope
+  check_size<sizeof(ParallelScope), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __NUnit_Framework_ParallelScopeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::ParallelScope, "NUnit.Framework", "ParallelScope");

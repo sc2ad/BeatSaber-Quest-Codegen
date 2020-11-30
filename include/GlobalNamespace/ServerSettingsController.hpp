@@ -66,6 +66,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ServerSettingsController* New_ctor();
   }; // ServerSettingsController
+  check_size<sizeof(ServerSettingsController), 56 + sizeof(int) + 8 - (56 + sizeof(int)) % 8> __GlobalNamespace_ServerSettingsControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerSettingsController*, "", "ServerSettingsController");

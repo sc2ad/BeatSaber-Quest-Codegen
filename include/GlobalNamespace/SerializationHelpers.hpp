@@ -17,37 +17,55 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     static T DeserializeData(::Array<uint8_t>* data) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("", "SerializationHelpers", "DeserializeData", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, data)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SerializationHelpers").WithContext("DeserializeData");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "SerializationHelpers", il2cpp_utils::NoArgClass<T>(), "DeserializeData", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(data))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, data);
     }
     // static public System.Byte[] SerializeObject(T serializableObject)
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::Array<uint8_t>* SerializeObject(T serializableObject) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<::Array<uint8_t>*>("", "SerializationHelpers", "SerializeObject", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, serializableObject)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SerializationHelpers").WithContext("SerializeObject");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "SerializationHelpers", il2cpp_utils::NoArgClass<::Array<uint8_t>*>(), "SerializeObject", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(serializableObject))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<::Array<uint8_t>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, serializableObject);
     }
     // static public T DeserializeDataFromPlayerPrefs(System.String key)
     // Offset: 0xFFFFFFFF
     template<class T>
     static T DeserializeDataFromPlayerPrefs(::Il2CppString* key) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("", "SerializationHelpers", "DeserializeDataFromPlayerPrefs", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, key)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SerializationHelpers").WithContext("DeserializeDataFromPlayerPrefs");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "SerializationHelpers", il2cpp_utils::NoArgClass<T>(), "DeserializeDataFromPlayerPrefs", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(key))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, key);
     }
     // static public System.Void SerializeObjectIntoPlayerPrefs(System.String key, T serializableObject)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void SerializeObjectIntoPlayerPrefs(::Il2CppString* key, T serializableObject) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("", "SerializationHelpers", "SerializeObjectIntoPlayerPrefs", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, key, serializableObject));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SerializationHelpers").WithContext("SerializeObjectIntoPlayerPrefs");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "SerializationHelpers", il2cpp_utils::NoArgClass<void>(), "SerializeObjectIntoPlayerPrefs", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(key, serializableObject))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, key, serializableObject);
     }
     // static public T DeserializeDataFromFile(System.String filePath)
     // Offset: 0xFFFFFFFF
     template<class T>
     static T DeserializeDataFromFile(::Il2CppString* filePath) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("", "SerializationHelpers", "DeserializeDataFromFile", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, filePath)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SerializationHelpers").WithContext("DeserializeDataFromFile");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "SerializationHelpers", il2cpp_utils::NoArgClass<T>(), "DeserializeDataFromFile", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(filePath))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, filePath);
     }
     // static public System.Void SerializeObjectToFile(System.String filePath, T serializableObject)
     // Offset: 0xFFFFFFFF
     template<class T>
     static void SerializeObjectToFile(::Il2CppString* filePath, T serializableObject) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("", "SerializationHelpers", "SerializeObjectToFile", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, filePath, serializableObject));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("GlobalNamespace").WithContext("SerializationHelpers").WithContext("SerializeObjectToFile");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "SerializationHelpers", il2cpp_utils::NoArgClass<void>(), "SerializeObjectToFile", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(filePath, serializableObject))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, filePath, serializableObject);
     }
     // public System.Void .ctor()
     // Offset: 0x103D45C

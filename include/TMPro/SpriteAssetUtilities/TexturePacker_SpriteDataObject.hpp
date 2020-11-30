@@ -36,6 +36,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Base method: System.Void Object::.ctor()
     static TexturePacker::SpriteDataObject* New_ctor();
   }; // TMPro.SpriteAssetUtilities.TexturePacker/SpriteDataObject
+  check_size<sizeof(TexturePacker::SpriteDataObject), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __TMPro_SpriteAssetUtilities_TexturePacker_SpriteDataObjectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject*, "TMPro.SpriteAssetUtilities", "TexturePacker/SpriteDataObject");

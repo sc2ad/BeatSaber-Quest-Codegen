@@ -297,6 +297,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Base method: System.Void ITestExecutionContext::IncrementAssertCount()
     void IncrementAssertCount();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext
+  check_size<sizeof(UnityTestExecutionContext), 220 + sizeof(int) + 8 - (220 + sizeof(int)) % 8> __UnityEngine_TestRunner_NUnitExtensions_Runner_UnityTestExecutionContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityTestExecutionContext");

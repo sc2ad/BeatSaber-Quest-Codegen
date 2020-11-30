@@ -66,6 +66,7 @@ namespace GlobalNamespace {
     // Base method: System.Void ITime::MoveTime(System.Single offset)
     void MoveTime(float offset);
   }; // BeatmapSaveData/NoteData
+  check_size<sizeof(BeatmapSaveData::NoteData), 32 + sizeof(GlobalNamespace::NoteCutDirection) + 8 - (32 + sizeof(GlobalNamespace::NoteCutDirection)) % 8> __GlobalNamespace_BeatmapSaveData_NoteDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::NoteData*, "", "BeatmapSaveData/NoteData");

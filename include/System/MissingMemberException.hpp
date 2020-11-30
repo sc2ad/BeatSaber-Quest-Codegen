@@ -70,6 +70,7 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.MissingMemberException
+  check_size<sizeof(MissingMemberException), 152 + sizeof(void*) + 8 - (152 + sizeof(void*)) % 8> __System_MissingMemberExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::MissingMemberException*, "System", "MissingMemberException");

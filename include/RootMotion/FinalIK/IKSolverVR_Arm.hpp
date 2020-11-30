@@ -55,6 +55,7 @@ namespace RootMotion::FinalIK {
       // Set static field: static public RootMotion.FinalIK.IKSolverVR/Arm/ShoulderRotationMode FromTo
       static void _set_FromTo(RootMotion::FinalIK::IKSolverVR::Arm::ShoulderRotationMode value);
     }; // RootMotion.FinalIK.IKSolverVR/Arm/ShoulderRotationMode
+    check_size<sizeof(IKSolverVR::Arm::ShoulderRotationMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __RootMotion_FinalIK_IKSolverVR_Arm_ShoulderRotationModeSizeCheck;
     // public UnityEngine.Transform target
     // Offset: 0x48
     UnityEngine::Transform* target;
@@ -219,6 +220,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static IKSolverVR::Arm* New_ctor();
   }; // RootMotion.FinalIK.IKSolverVR/Arm
+  check_size<sizeof(IKSolverVR::Arm), 316 + sizeof(UnityEngine::Vector3) + 8 - (316 + sizeof(UnityEngine::Vector3)) % 8> __RootMotion_FinalIK_IKSolverVR_ArmSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Arm*, "RootMotion.FinalIK", "IKSolverVR/Arm");

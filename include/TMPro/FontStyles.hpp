@@ -89,6 +89,7 @@ namespace TMPro {
     // Set static field: static public TMPro.FontStyles Highlight
     static void _set_Highlight(TMPro::FontStyles value);
   }; // TMPro.FontStyles
+  check_size<sizeof(FontStyles), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __TMPro_FontStylesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FontStyles, "TMPro", "FontStyles");

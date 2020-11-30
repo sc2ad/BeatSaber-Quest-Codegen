@@ -83,6 +83,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SaberClashEffect* New_ctor();
   }; // SaberClashEffect
+  check_size<sizeof(SaberClashEffect), 88 + sizeof(bool) + 8 - (88 + sizeof(bool)) % 8> __GlobalNamespace_SaberClashEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberClashEffect*, "", "SaberClashEffect");

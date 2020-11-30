@@ -31,6 +31,7 @@ namespace System::Diagnostics {
     // Offset: 0x16778F0
     static DebuggerTypeProxyAttribute* New_ctor(System::Type* type);
   }; // System.Diagnostics.DebuggerTypeProxyAttribute
+  check_size<sizeof(DebuggerTypeProxyAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Diagnostics_DebuggerTypeProxyAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerTypeProxyAttribute*, "System.Diagnostics", "DebuggerTypeProxyAttribute");

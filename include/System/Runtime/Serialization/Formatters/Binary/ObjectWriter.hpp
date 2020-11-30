@@ -226,6 +226,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x12FAE24
     void PutNameInfo(System::Runtime::Serialization::Formatters::Binary::NameInfo* nameInfo);
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectWriter
+  check_size<sizeof(ObjectWriter), 184 + sizeof(void*) + 8 - (184 + sizeof(void*)) % 8> __System_Runtime_Serialization_Formatters_Binary_ObjectWriterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*, "System.Runtime.Serialization.Formatters.Binary", "ObjectWriter");

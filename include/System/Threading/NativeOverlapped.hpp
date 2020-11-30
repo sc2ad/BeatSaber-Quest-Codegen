@@ -32,6 +32,7 @@ namespace System::Threading {
     // Creating value type constructor for type: NativeOverlapped
     constexpr NativeOverlapped(System::IntPtr InternalLow_ = {}, System::IntPtr InternalHigh_ = {}, int OffsetLow_ = {}, int OffsetHigh_ = {}, System::IntPtr EventHandle_ = {}) noexcept : InternalLow{InternalLow_}, InternalHigh{InternalHigh_}, OffsetLow{OffsetLow_}, OffsetHigh{OffsetHigh_}, EventHandle{EventHandle_} {}
   }; // System.Threading.NativeOverlapped
+  check_size<sizeof(NativeOverlapped), 24 + sizeof(System::IntPtr) + 8 - (24 + sizeof(System::IntPtr)) % 8> __System_Threading_NativeOverlappedSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::NativeOverlapped, "System.Threading", "NativeOverlapped");

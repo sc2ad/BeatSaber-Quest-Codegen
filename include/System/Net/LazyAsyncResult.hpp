@@ -132,6 +132,7 @@ namespace System::Net {
     // Maps to method: get_IsCompleted
     bool System_IAsyncResult_get_IsCompleted();
   }; // System.Net.LazyAsyncResult
+  check_size<sizeof(LazyAsyncResult), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __System_Net_LazyAsyncResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::LazyAsyncResult*, "System.Net", "LazyAsyncResult");

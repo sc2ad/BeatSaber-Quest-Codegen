@@ -26,6 +26,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A548F4
     static CoreGameHUDController::InitData* New_ctor(bool hide, bool showEnergyPanel, bool advancedHUD);
   }; // CoreGameHUDController/InitData
+  check_size<sizeof(CoreGameHUDController::InitData), 18 + sizeof(bool) + 8 - (18 + sizeof(bool)) % 8> __GlobalNamespace_CoreGameHUDController_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CoreGameHUDController::InitData*, "", "CoreGameHUDController/InitData");

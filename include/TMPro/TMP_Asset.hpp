@@ -39,6 +39,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static TMP_Asset* New_ctor();
   }; // TMPro.TMP_Asset
+  check_size<sizeof(TMP_Asset), 40 + sizeof(int) + 8 - (40 + sizeof(int)) % 8> __TMPro_TMP_AssetSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Asset*, "TMPro", "TMP_Asset");

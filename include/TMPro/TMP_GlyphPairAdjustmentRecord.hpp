@@ -56,6 +56,7 @@ namespace TMPro {
     // Offset: 0xF5C9D0
     static TMP_GlyphPairAdjustmentRecord* New_ctor(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord);
   }; // TMPro.TMP_GlyphPairAdjustmentRecord
+  check_size<sizeof(TMP_GlyphPairAdjustmentRecord), 56 + sizeof(TMPro::FontFeatureLookupFlags) + 8 - (56 + sizeof(TMPro::FontFeatureLookupFlags)) % 8> __TMPro_TMP_GlyphPairAdjustmentRecordSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphPairAdjustmentRecord*, "TMPro", "TMP_GlyphPairAdjustmentRecord");

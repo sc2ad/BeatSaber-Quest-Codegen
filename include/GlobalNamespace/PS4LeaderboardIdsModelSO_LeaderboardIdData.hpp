@@ -29,6 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0xF02C6C
     static PS4LeaderboardIdsModelSO::LeaderboardIdData* New_ctor(uint ps4LeaderboardId, ::Il2CppString* leaderboardId);
   }; // PS4LeaderboardIdsModelSO/LeaderboardIdData
+  check_size<sizeof(PS4LeaderboardIdsModelSO::LeaderboardIdData), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_PS4LeaderboardIdsModelSO_LeaderboardIdDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*, "", "PS4LeaderboardIdsModelSO/LeaderboardIdData");

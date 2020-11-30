@@ -44,6 +44,7 @@ namespace System::Security::Cryptography {
     // Creating value type constructor for type: DSAParameters
     constexpr DSAParameters(::Array<uint8_t>* P_ = {}, ::Array<uint8_t>* Q_ = {}, ::Array<uint8_t>* G_ = {}, ::Array<uint8_t>* Y_ = {}, ::Array<uint8_t>* J_ = {}, ::Array<uint8_t>* X_ = {}, ::Array<uint8_t>* Seed_ = {}, int Counter_ = {}) noexcept : P{P_}, Q{Q_}, G{G_}, Y{Y_}, J{J_}, X{X_}, Seed{Seed_}, Counter{Counter_} {}
   }; // System.Security.Cryptography.DSAParameters
+  check_size<sizeof(DSAParameters), 56 + sizeof(int) + 8 - (56 + sizeof(int)) % 8> __System_Security_Cryptography_DSAParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSAParameters, "System.Security.Cryptography", "DSAParameters");

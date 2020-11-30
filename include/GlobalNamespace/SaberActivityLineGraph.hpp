@@ -90,6 +90,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SaberActivityLineGraph* New_ctor();
   }; // SaberActivityLineGraph
+  check_size<sizeof(SaberActivityLineGraph), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __GlobalNamespace_SaberActivityLineGraphSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberActivityLineGraph*, "", "SaberActivityLineGraph");

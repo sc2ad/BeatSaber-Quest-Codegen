@@ -28,6 +28,7 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_FontWeightPair
     constexpr TMP_FontWeightPair(TMPro::TMP_FontAsset* regularTypeface_ = {}, TMPro::TMP_FontAsset* italicTypeface_ = {}) noexcept : regularTypeface{regularTypeface_}, italicTypeface{italicTypeface_} {}
   }; // TMPro.TMP_FontWeightPair
+  check_size<sizeof(TMP_FontWeightPair), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __TMPro_TMP_FontWeightPairSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontWeightPair, "TMPro", "TMP_FontWeightPair");

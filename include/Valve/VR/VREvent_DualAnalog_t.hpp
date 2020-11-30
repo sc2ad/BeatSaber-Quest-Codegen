@@ -33,6 +33,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: VREvent_DualAnalog_t
     constexpr VREvent_DualAnalog_t(float x_ = {}, float y_ = {}, float transformedX_ = {}, float transformedY_ = {}, Valve::VR::EDualAnalogWhich which_ = {}) noexcept : x{x_}, y{y_}, transformedX{transformedX_}, transformedY{transformedY_}, which{which_} {}
   }; // Valve.VR.VREvent_DualAnalog_t
+  check_size<sizeof(VREvent_DualAnalog_t), 16 + sizeof(Valve::VR::EDualAnalogWhich) + 8 - (16 + sizeof(Valve::VR::EDualAnalogWhich)) % 8> __Valve_VR_VREvent_DualAnalog_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_DualAnalog_t, "Valve.VR", "VREvent_DualAnalog_t");

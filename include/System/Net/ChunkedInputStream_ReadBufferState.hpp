@@ -39,6 +39,7 @@ namespace System::Net {
     // Offset: 0x130C140
     static ChunkedInputStream::ReadBufferState* New_ctor(::Array<uint8_t>* buffer, int offset, int count, System::Net::HttpStreamAsyncResult* ares);
   }; // System.Net.ChunkedInputStream/ReadBufferState
+  check_size<sizeof(ChunkedInputStream::ReadBufferState), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Net_ChunkedInputStream_ReadBufferStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ChunkedInputStream::ReadBufferState*, "System.Net", "ChunkedInputStream/ReadBufferState");

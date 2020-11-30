@@ -46,6 +46,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OnRenderImageTest* New_ctor();
   }; // OnRenderImageTest
+  check_size<sizeof(OnRenderImageTest), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_OnRenderImageTestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnRenderImageTest*, "", "OnRenderImageTest");

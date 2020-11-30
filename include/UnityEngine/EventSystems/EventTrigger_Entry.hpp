@@ -27,6 +27,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     static EventTrigger::Entry* New_ctor();
   }; // UnityEngine.EventSystems.EventTrigger/Entry
+  check_size<sizeof(EventTrigger::Entry), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_EventSystems_EventTrigger_EntrySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventTrigger::Entry*, "UnityEngine.EventSystems", "EventTrigger/Entry");

@@ -97,6 +97,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Runtime.Remoting.Messaging.LogicalCallContext IMethodMessage::get_LogicalCallContext()
     System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
   }; // System.Runtime.Remoting.Messaging.ErrorMessage
+  check_size<sizeof(ErrorMessage), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Runtime_Remoting_Messaging_ErrorMessageSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ErrorMessage*, "System.Runtime.Remoting.Messaging", "ErrorMessage");

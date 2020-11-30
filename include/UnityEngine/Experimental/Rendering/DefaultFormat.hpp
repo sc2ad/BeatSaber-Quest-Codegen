@@ -35,6 +35,7 @@ namespace UnityEngine::Experimental::Rendering {
     // Set static field: static public UnityEngine.Experimental.Rendering.DefaultFormat HDR
     static void _set_HDR(UnityEngine::Experimental::Rendering::DefaultFormat value);
   }; // UnityEngine.Experimental.Rendering.DefaultFormat
+  check_size<sizeof(DefaultFormat), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Experimental_Rendering_DefaultFormatSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::DefaultFormat, "UnityEngine.Experimental.Rendering", "DefaultFormat");

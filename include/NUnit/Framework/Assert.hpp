@@ -38,7 +38,10 @@ namespace NUnit::Framework {
     // Offset: 0xFFFFFFFF
     template<class TActual>
     static void That(TActual actual, NUnit::Framework::Constraints::IResolveConstraint* expression, ::Il2CppString* message, ::Array<::Il2CppObject*>* args) {
-      THROW_UNLESS(il2cpp_utils::RunGenericMethod("NUnit.Framework", "Assert", "That", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TActual>::get()}, actual, expression, message, args));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("NUnit::Framework").WithContext("Assert").WithContext("That");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("NUnit.Framework", "Assert", il2cpp_utils::NoArgClass<void>(), "That", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TActual>::get()}, ::il2cpp_utils::ExtractTypes(actual, expression, message, args))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TActual>::get()}));
+      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, actual, expression, message, args);
     }
     // Creating initializer_list -> params proxy for: System.Void That(TActual actual, NUnit.Framework.Constraints.IResolveConstraint expression, System.String message, params System.Object[] args)
     template<class TActual>

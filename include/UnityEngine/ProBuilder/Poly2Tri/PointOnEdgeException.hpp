@@ -33,6 +33,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0x19AE7EC
     static PointOnEdgeException* New_ctor(::Il2CppString* message, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* c);
   }; // UnityEngine.ProBuilder.Poly2Tri.PointOnEdgeException
+  check_size<sizeof(PointOnEdgeException), 152 + sizeof(void*) + 8 - (152 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_Poly2Tri_PointOnEdgeExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException*, "UnityEngine.ProBuilder.Poly2Tri", "PointOnEdgeException");

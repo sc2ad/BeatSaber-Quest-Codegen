@@ -56,6 +56,7 @@ namespace GlobalNamespace {
     // Offset: 0xF3A1D4
     ::Il2CppString* GetSongPackMaskText(GlobalNamespace::SongPackMask songPackMask);
   }; // SongPackMasksModel
+  check_size<sizeof(SongPackMasksModel), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_SongPackMasksModelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMasksModel*, "", "SongPackMasksModel");

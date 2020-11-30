@@ -50,6 +50,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.String AsnEncodedData::Format(System.Boolean multiLine)
     ::Il2CppString* Format(bool multiLine);
   }; // System.Security.Cryptography.X509Certificates.X500DistinguishedName
+  check_size<sizeof(X500DistinguishedName), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Security_Cryptography_X509Certificates_X500DistinguishedNameSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X500DistinguishedName*, "System.Security.Cryptography.X509Certificates", "X500DistinguishedName");

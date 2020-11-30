@@ -35,6 +35,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static DisconnectPromptView::$$c__DisplayClass12_0* New_ctor();
   }; // DisconnectPromptView/<>c__DisplayClass12_0
+  check_size<sizeof(DisconnectPromptView::$$c__DisplayClass12_0), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_DisconnectPromptView_$$c__DisplayClass12_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisconnectPromptView::$$c__DisplayClass12_0*, "", "DisconnectPromptView/<>c__DisplayClass12_0");

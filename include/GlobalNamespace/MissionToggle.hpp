@@ -199,6 +199,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionToggle* New_ctor();
   }; // MissionToggle
+  check_size<sizeof(MissionToggle), 155 + sizeof(bool) + 8 - (155 + sizeof(bool)) % 8> __GlobalNamespace_MissionToggleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionToggle*, "", "MissionToggle");

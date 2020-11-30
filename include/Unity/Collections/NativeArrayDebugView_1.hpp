@@ -19,6 +19,7 @@ namespace Unity::Collections {
   template<typename T>
   class NativeArrayDebugView_1 : public ::Il2CppObject {
   }; // Unity.Collections.NativeArrayDebugView`1
+  // Could not write size check! Type: Unity.Collections.NativeArrayDebugView`1 is generic!
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Unity::Collections::NativeArrayDebugView_1, "Unity.Collections", "NativeArrayDebugView`1");

@@ -49,6 +49,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static FlyingCar* New_ctor();
   }; // FlyingCar
+  check_size<sizeof(FlyingCar), 40 + sizeof(UnityEngine::Vector3) + 8 - (40 + sizeof(UnityEngine::Vector3)) % 8> __GlobalNamespace_FlyingCarSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingCar*, "", "FlyingCar");

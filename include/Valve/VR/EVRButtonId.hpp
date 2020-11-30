@@ -131,6 +131,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVRButtonId k_EButton_Max
     static void _set_k_EButton_Max(Valve::VR::EVRButtonId value);
   }; // Valve.VR.EVRButtonId
+  check_size<sizeof(EVRButtonId), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Valve_VR_EVRButtonIdSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRButtonId, "Valve.VR", "EVRButtonId");

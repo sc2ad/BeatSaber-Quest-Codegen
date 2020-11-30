@@ -37,6 +37,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11D8E40
     static AssetFileDownloadUpdate* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.AssetFileDownloadUpdate
+  check_size<sizeof(AssetFileDownloadUpdate), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __Oculus_Platform_Models_AssetFileDownloadUpdateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetFileDownloadUpdate*, "Oculus.Platform.Models", "AssetFileDownloadUpdate");

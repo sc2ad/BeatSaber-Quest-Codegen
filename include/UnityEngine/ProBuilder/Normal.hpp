@@ -68,6 +68,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.ProBuilder.Normal other)
     bool Equals(UnityEngine::ProBuilder::Normal other);
   }; // UnityEngine.ProBuilder.Normal
+  check_size<sizeof(Normal), 28 + sizeof(UnityEngine::Vector3) + 8 - (28 + sizeof(UnityEngine::Vector3)) % 8> __UnityEngine_ProBuilder_NormalSizeCheck;
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.Normal a, UnityEngine.ProBuilder.Normal b)
   // Offset: 0x139CF94
   bool operator ==(const UnityEngine::ProBuilder::Normal& a, const UnityEngine::ProBuilder::Normal& b);

@@ -108,6 +108,7 @@ namespace HMUI {
       // Set static field: static public HMUI.TableView/TableType Horizontal
       static void _set_Horizontal(HMUI::TableView::TableType value);
     }; // HMUI.TableView/TableType
+    check_size<sizeof(TableView::TableType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __HMUI_TableView_TableTypeSizeCheck;
     // private System.Boolean _hideScrollButtonsIfNotNeeded
     // Offset: 0x18
     bool hideScrollButtonsIfNotNeeded;
@@ -358,6 +359,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static TableView* New_ctor();
   }; // HMUI.TableView
+  check_size<sizeof(TableView), 224 + sizeof(void*) + 8 - (224 + sizeof(void*)) % 8> __HMUI_TableViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView*, "HMUI", "TableView");

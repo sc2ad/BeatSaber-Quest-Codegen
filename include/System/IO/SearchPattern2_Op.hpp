@@ -28,6 +28,7 @@ namespace System::IO {
     // Offset: 0x1490648
     static SearchPattern2::Op* New_ctor(System::IO::SearchPattern2::OpCode code);
   }; // System.IO.SearchPattern2/Op
+  check_size<sizeof(SearchPattern2::Op), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_IO_SearchPattern2_OpSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchPattern2::Op*, "System.IO", "SearchPattern2/Op");

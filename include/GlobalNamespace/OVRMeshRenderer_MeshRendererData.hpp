@@ -44,6 +44,7 @@ namespace GlobalNamespace {
     // Offset: 0xC98E00
     void set_ShouldUseSystemGestureMaterial(bool value);
   }; // OVRMeshRenderer/MeshRendererData
+  check_size<sizeof(OVRMeshRenderer::MeshRendererData), 2 + sizeof(bool) + 8 - (2 + sizeof(bool)) % 8> __GlobalNamespace_OVRMeshRenderer_MeshRendererDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::MeshRendererData, "", "OVRMeshRenderer/MeshRendererData");

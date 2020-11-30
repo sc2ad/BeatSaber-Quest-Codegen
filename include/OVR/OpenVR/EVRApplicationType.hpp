@@ -77,6 +77,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRApplicationType VRApplication_Max
     static void _set_VRApplication_Max(OVR::OpenVR::EVRApplicationType value);
   }; // OVR.OpenVR.EVRApplicationType
+  check_size<sizeof(EVRApplicationType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_EVRApplicationTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRApplicationType, "OVR.OpenVR", "EVRApplicationType");

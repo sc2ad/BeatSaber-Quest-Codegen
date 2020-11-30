@@ -210,6 +210,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerResultsTableView* New_ctor();
   }; // MultiplayerResultsTableView
+  check_size<sizeof(MultiplayerResultsTableView), 192 + sizeof(UnityEngine::Quaternion) + 8 - (192 + sizeof(UnityEngine::Quaternion)) % 8> __GlobalNamespace_MultiplayerResultsTableViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsTableView*, "", "MultiplayerResultsTableView");

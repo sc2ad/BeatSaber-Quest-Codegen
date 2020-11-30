@@ -61,6 +61,7 @@ namespace System::Globalization {
     // Base method: System.Void Object::.ctor()
     static SortKey* New_ctor();
   }; // System.Globalization.SortKey
+  check_size<sizeof(SortKey), 36 + sizeof(int) + 8 - (36 + sizeof(int)) % 8> __System_Globalization_SortKeySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::SortKey*, "System.Globalization", "SortKey");

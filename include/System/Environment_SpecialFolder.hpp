@@ -307,6 +307,7 @@ namespace System {
     // Set static field: static public System.Environment/SpecialFolder CDBurning
     static void _set_CDBurning(System::Environment::SpecialFolder value);
   }; // System.Environment/SpecialFolder
+  check_size<sizeof(Environment::SpecialFolder), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Environment_SpecialFolderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Environment::SpecialFolder, "System", "Environment/SpecialFolder");

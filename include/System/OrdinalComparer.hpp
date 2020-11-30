@@ -49,6 +49,7 @@ namespace System {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.OrdinalComparer
+  check_size<sizeof(OrdinalComparer), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __System_OrdinalComparerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::OrdinalComparer*, "System", "OrdinalComparer");

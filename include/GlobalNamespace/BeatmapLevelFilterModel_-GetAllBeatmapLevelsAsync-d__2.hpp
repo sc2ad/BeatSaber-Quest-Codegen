@@ -102,6 +102,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BeatmapLevelFilterModel/<GetAllBeatmapLevelsAsync>d__2
+  check_size<sizeof(BeatmapLevelFilterModel::$GetAllBeatmapLevelsAsync$d__2), 128 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>) + 8 - (128 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>)) % 8> __GlobalNamespace_BeatmapLevelFilterModel_$GetAllBeatmapLevelsAsync$d__2SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelFilterModel::$GetAllBeatmapLevelsAsync$d__2, "", "BeatmapLevelFilterModel/<GetAllBeatmapLevelsAsync>d__2");

@@ -42,6 +42,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A10738
     static FileBrowserItem* New_ctor(::Il2CppString* displayName, ::Il2CppString* fullPath, bool isDirectory);
   }; // FileBrowserItem
+  check_size<sizeof(FileBrowserItem), 32 + sizeof(bool) + 8 - (32 + sizeof(bool)) % 8> __GlobalNamespace_FileBrowserItemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserItem*, "", "FileBrowserItem");

@@ -65,6 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LeaderboardsModelLegacyWrapper/<SendLevelScoreResutlAsync>d__5
+  check_size<sizeof(LeaderboardsModelLegacyWrapper::$SendLevelScoreResutlAsync$d__5), 112 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::SendLeaderboardEntryResult>) + 8 - (112 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::SendLeaderboardEntryResult>)) % 8> __GlobalNamespace_LeaderboardsModelLegacyWrapper_$SendLevelScoreResutlAsync$d__5SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardsModelLegacyWrapper::$SendLevelScoreResutlAsync$d__5, "", "LeaderboardsModelLegacyWrapper/<SendLevelScoreResutlAsync>d__5");

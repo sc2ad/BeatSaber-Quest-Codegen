@@ -76,6 +76,7 @@ namespace GlobalNamespace {
     // Base method: System.Void MockPlayer::Disconnect()
     void Disconnect();
   }; // MockServer
+  check_size<sizeof(MockServer), 272 + sizeof(void*) + 8 - (272 + sizeof(void*)) % 8> __GlobalNamespace_MockServerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockServer*, "", "MockServer");

@@ -26,6 +26,7 @@ namespace System {
     // Offset: 0x1672270
     static DefaultBinder::BinderState* New_ctor(::Array<int>* argsMap, int originalSize, bool isParamArray);
   }; // System.DefaultBinder/BinderState
+  check_size<sizeof(DefaultBinder::BinderState), 28 + sizeof(bool) + 8 - (28 + sizeof(bool)) % 8> __System_DefaultBinder_BinderStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DefaultBinder::BinderState*, "System", "DefaultBinder/BinderState");

@@ -23,6 +23,7 @@ namespace GlobalNamespace {
     // Offset: 0x1973E1C
     static VRControllersRecorderData::Keyframe* New_ctor(::Array<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>* positionAndRotations, float time);
   }; // VRControllersRecorderData/Keyframe
+  check_size<sizeof(VRControllersRecorderData::Keyframe), 24 + sizeof(float) + 8 - (24 + sizeof(float)) % 8> __GlobalNamespace_VRControllersRecorderData_KeyframeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData::Keyframe*, "", "VRControllersRecorderData/Keyframe");

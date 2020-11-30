@@ -31,6 +31,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DA344
     static HttpTransferUpdate* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.HttpTransferUpdate
+  check_size<sizeof(HttpTransferUpdate), 32 + sizeof(bool) + 8 - (32 + sizeof(bool)) % 8> __Oculus_Platform_Models_HttpTransferUpdateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::HttpTransferUpdate*, "Oculus.Platform.Models", "HttpTransferUpdate");

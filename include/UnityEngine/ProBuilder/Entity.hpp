@@ -39,6 +39,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.ctor()
     static Entity* New_ctor();
   }; // UnityEngine.ProBuilder.Entity
+  check_size<sizeof(Entity), 24 + sizeof(UnityEngine::ProBuilder::EntityType) + 8 - (24 + sizeof(UnityEngine::ProBuilder::EntityType)) % 8> __UnityEngine_ProBuilder_EntitySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Entity*, "UnityEngine.ProBuilder", "Entity");

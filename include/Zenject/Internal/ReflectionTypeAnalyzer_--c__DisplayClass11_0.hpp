@@ -41,6 +41,7 @@ namespace Zenject::Internal {
     // Base method: System.Void Object::.ctor()
     static ReflectionTypeAnalyzer::$$c__DisplayClass11_0* New_ctor();
   }; // Zenject.Internal.ReflectionTypeAnalyzer/<>c__DisplayClass11_0
+  check_size<sizeof(ReflectionTypeAnalyzer::$$c__DisplayClass11_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Zenject_Internal_ReflectionTypeAnalyzer_$$c__DisplayClass11_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass11_0*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass11_0");

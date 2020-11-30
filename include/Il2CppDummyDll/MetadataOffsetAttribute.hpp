@@ -27,6 +27,7 @@ namespace Il2CppDummyDll {
     // Base method: System.Void Object::.ctor()
     static MetadataOffsetAttribute* New_ctor();
   }; // Il2CppDummyDll.MetadataOffsetAttribute
+  // Could not write size check! Last field: Offset Offset: -1 is of type: System.String
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Il2CppDummyDll::MetadataOffsetAttribute*, "Il2CppDummyDll", "MetadataOffsetAttribute");

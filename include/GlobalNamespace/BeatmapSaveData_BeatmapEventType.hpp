@@ -151,6 +151,7 @@ namespace GlobalNamespace {
     // Set static field: static public BeatmapSaveData/BeatmapEventType Special3
     static void _set_Special3(GlobalNamespace::BeatmapSaveData::BeatmapEventType value);
   }; // BeatmapSaveData/BeatmapEventType
+  check_size<sizeof(BeatmapSaveData::BeatmapEventType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_BeatmapSaveData_BeatmapEventTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::BeatmapEventType, "", "BeatmapSaveData/BeatmapEventType");

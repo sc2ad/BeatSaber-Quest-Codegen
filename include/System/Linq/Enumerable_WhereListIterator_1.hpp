@@ -45,21 +45,26 @@ namespace System::Linq {
     // public System.Void .ctor(System.Collections.Generic.List`1<TSource> source, System.Func`2<TSource,System.Boolean> predicate)
     // Offset: 0xFFFFFFFF
     static Enumerable::WhereListIterator_1<TSource>* New_ctor(System::Collections::Generic::List_1<TSource>* source, System::Func_2<TSource, bool>* predicate) {
-      return THROW_UNLESS(il2cpp_utils::New<Enumerable::WhereListIterator_1<TSource>*>(source, predicate));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("WhereListIterator_1").WithContext(".ctor");
+      return THROW_UNLESS(::il2cpp_utils::New<Enumerable::WhereListIterator_1<TSource>*>(source, predicate));
     }
     // public override System.Linq.Enumerable/Iterator`1<TSource> Clone()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Linq.Enumerable/Iterator`1
     // Base method: System.Linq.Enumerable/Iterator`1<TSource> Iterator_1::Clone()
     System::Linq::Enumerable::Iterator_1<TSource>* Clone() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Linq::Enumerable::Iterator_1<TSource>*>(this, "Clone"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("WhereListIterator_1").WithContext("Clone");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Linq::Enumerable::Iterator_1<TSource>*>(), "Clone", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<System::Linq::Enumerable::Iterator_1<TSource>*, false>(this, ___internal__method);
     }
     // public override System.Boolean MoveNext()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Linq.Enumerable/Iterator`1
     // Base method: System.Boolean Iterator_1::MoveNext()
     bool MoveNext() {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<bool>(this, "MoveNext"));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("WhereListIterator_1").WithContext("MoveNext");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<bool>(), "MoveNext", {}, ::il2cpp_utils::ExtractTypes()));
+      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
     }
     // Creating proxy method: System_Collections_IEnumerator_MoveNext
     // Maps to method: MoveNext
@@ -72,16 +77,22 @@ namespace System::Linq {
     // Base method: System.Collections.Generic.IEnumerable`1<TResult> Iterator_1::Select(System.Func`2<TSource,TResult> selector)
     template<class TResult>
     System::Collections::Generic::IEnumerable_1<TResult>* Select(System::Func_2<TSource, TResult>* selector) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<System::Collections::Generic::IEnumerable_1<TResult>*>(this, "Select", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, selector)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("WhereListIterator_1").WithContext("Select");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Collections::Generic::IEnumerable_1<TResult>*>(), "Select", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, ::il2cpp_utils::ExtractTypes(selector))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<TResult>*, false>(this, ___internal__method, selector);
     }
     // public override System.Collections.Generic.IEnumerable`1<TSource> Where(System.Func`2<TSource,System.Boolean> predicate)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Linq.Enumerable/Iterator`1
     // Base method: System.Collections.Generic.IEnumerable`1<TSource> Iterator_1::Where(System.Func`2<TSource,System.Boolean> predicate)
     System::Collections::Generic::IEnumerable_1<TSource>* Where(System::Func_2<TSource, bool>* predicate) {
-      return THROW_UNLESS(il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerable_1<TSource>*>(this, "Where", predicate));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("System::Linq").WithContext("WhereListIterator_1").WithContext("Where");
+      static auto* ___internal__method = THROW_UNLESS(::il2cpp_utils::FindMethod(this, il2cpp_utils::NoArgClass<System::Collections::Generic::IEnumerable_1<TSource>*>(), "Where", {}, ::il2cpp_utils::ExtractTypes(predicate)));
+      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<TSource>*, false>(this, ___internal__method, predicate);
     }
   }; // System.Linq.Enumerable/WhereListIterator`1
+  // Could not write size check! Type: System.Linq.Enumerable/WhereListIterator`1 is generic!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::Enumerable::WhereListIterator_1, "System.Linq", "Enumerable/WhereListIterator`1");
 #pragma pack(pop)

@@ -65,6 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusPlatformAdditionalContentModel/<LaunchCheckoutFlow>d__10
+  check_size<sizeof(OculusPlatformAdditionalContentModel::$LaunchCheckoutFlow$d__10), 40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<Oculus::Platform::Message_1<Oculus::Platform::Models::Purchase*>*>) + 8 - (40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<Oculus::Platform::Message_1<Oculus::Platform::Models::Purchase*>*>)) % 8> __GlobalNamespace_OculusPlatformAdditionalContentModel_$LaunchCheckoutFlow$d__10SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAdditionalContentModel::$LaunchCheckoutFlow$d__10, "", "OculusPlatformAdditionalContentModel/<LaunchCheckoutFlow>d__10");

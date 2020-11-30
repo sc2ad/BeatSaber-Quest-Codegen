@@ -89,6 +89,7 @@ namespace GlobalNamespace {
       // Set static field: static public MultiplayerLevelLoader/MultiplayerBeatmapLoaderState WaitingForCountdown
       static void _set_WaitingForCountdown(GlobalNamespace::MultiplayerLevelLoader::MultiplayerBeatmapLoaderState value);
     }; // MultiplayerLevelLoader/MultiplayerBeatmapLoaderState
+    check_size<sizeof(MultiplayerLevelLoader::MultiplayerBeatmapLoaderState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_MultiplayerLevelLoader_MultiplayerBeatmapLoaderStateSizeCheck;
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Offset: 0x10
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
@@ -170,6 +171,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerLevelLoader* New_ctor();
   }; // MultiplayerLevelLoader
+  check_size<sizeof(MultiplayerLevelLoader), 116 + sizeof(bool) + 8 - (116 + sizeof(bool)) % 8> __GlobalNamespace_MultiplayerLevelLoaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelLoader*, "", "MultiplayerLevelLoader");

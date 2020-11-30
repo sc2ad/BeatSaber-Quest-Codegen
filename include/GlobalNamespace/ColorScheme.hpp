@@ -99,6 +99,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A0AF7C
     static ColorScheme* New_ctor(GlobalNamespace::ColorSchemeSO* colorScheme);
   }; // ColorScheme
+  check_size<sizeof(ColorScheme), 136 + sizeof(UnityEngine::Color) + 8 - (136 + sizeof(UnityEngine::Color)) % 8> __GlobalNamespace_ColorSchemeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorScheme*, "", "ColorScheme");

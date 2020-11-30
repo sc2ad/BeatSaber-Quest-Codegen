@@ -46,6 +46,7 @@ namespace System::Resources {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static MissingSatelliteAssemblyException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Resources.MissingSatelliteAssemblyException
+  check_size<sizeof(MissingSatelliteAssemblyException), 136 + sizeof(void*) + 8 - (136 + sizeof(void*)) % 8> __System_Resources_MissingSatelliteAssemblyExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::MissingSatelliteAssemblyException*, "System.Resources", "MissingSatelliteAssemblyException");

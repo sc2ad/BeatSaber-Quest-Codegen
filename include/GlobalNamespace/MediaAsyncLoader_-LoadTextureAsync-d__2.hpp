@@ -75,6 +75,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MediaAsyncLoader/<LoadTextureAsync>d__2
+  check_size<sizeof(MediaAsyncLoader::$LoadTextureAsync$d__2), 64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter) + 8 - (64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter)) % 8> __GlobalNamespace_MediaAsyncLoader_$LoadTextureAsync$d__2SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MediaAsyncLoader::$LoadTextureAsync$d__2, "", "MediaAsyncLoader/<LoadTextureAsync>d__2");

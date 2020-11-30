@@ -47,6 +47,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0* New_ctor();
   }; // OculusConnectionManager/OculusConnection/<>c__DisplayClass15_0
+  check_size<sizeof(OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_OculusConnectionManager_OculusConnection_$$c__DisplayClass15_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0*, "", "OculusConnectionManager/OculusConnection/<>c__DisplayClass15_0");

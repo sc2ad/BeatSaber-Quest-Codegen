@@ -41,6 +41,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0* New_ctor();
   }; // Zenject.SubContainerCreatorByNewPrefabWithParams/<>c__DisplayClass7_0
+  check_size<sizeof(SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0), 16 + sizeof(Zenject::TypeValuePair) + 8 - (16 + sizeof(Zenject::TypeValuePair)) % 8> __Zenject_SubContainerCreatorByNewPrefabWithParams_$$c__DisplayClass7_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0*, "Zenject", "SubContainerCreatorByNewPrefabWithParams/<>c__DisplayClass7_0");

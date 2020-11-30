@@ -41,6 +41,7 @@ namespace System::Reflection {
     // Set static field: static public System.Reflection.ResourceLocation ContainedInManifestFile
     static void _set_ContainedInManifestFile(System::Reflection::ResourceLocation value);
   }; // System.Reflection.ResourceLocation
+  check_size<sizeof(ResourceLocation), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Reflection_ResourceLocationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ResourceLocation, "System.Reflection", "ResourceLocation");

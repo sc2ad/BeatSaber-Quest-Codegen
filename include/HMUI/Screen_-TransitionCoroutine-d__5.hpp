@@ -83,6 +83,7 @@ namespace HMUI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // HMUI.Screen/<TransitionCoroutine>d__5
+  check_size<sizeof(Screen::$TransitionCoroutine$d__5), 68 + sizeof(float) + 8 - (68 + sizeof(float)) % 8> __HMUI_Screen_$TransitionCoroutine$d__5SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Screen::$TransitionCoroutine$d__5*, "HMUI", "Screen/<TransitionCoroutine>d__5");

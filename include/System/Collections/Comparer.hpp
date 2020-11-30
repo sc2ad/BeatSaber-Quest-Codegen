@@ -85,6 +85,7 @@ namespace System::Collections {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Collections.Comparer
+  check_size<sizeof(Comparer), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Collections_ComparerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Comparer*, "System.Collections", "Comparer");

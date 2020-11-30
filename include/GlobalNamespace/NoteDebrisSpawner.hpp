@@ -78,6 +78,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NoteDebrisSpawner* New_ctor();
   }; // NoteDebrisSpawner
+  check_size<sizeof(NoteDebrisSpawner), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_NoteDebrisSpawnerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebrisSpawner*, "", "NoteDebrisSpawner");

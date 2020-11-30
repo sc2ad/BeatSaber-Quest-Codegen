@@ -81,6 +81,7 @@ namespace GlobalNamespace {
       // Set static field: static public EditAvatarFlowCoordinator/EditAvatarType Edit
       static void _set_Edit(GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType value);
     }; // EditAvatarFlowCoordinator/EditAvatarType
+    check_size<sizeof(EditAvatarFlowCoordinator::EditAvatarType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_EditAvatarFlowCoordinator_EditAvatarTypeSizeCheck;
     // private AvatarVisualController _avatarVisualController
     // Offset: 0xA8
     GlobalNamespace::AvatarVisualController* avatarVisualController;
@@ -153,6 +154,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EditAvatarFlowCoordinator* New_ctor();
   }; // EditAvatarFlowCoordinator
+  check_size<sizeof(EditAvatarFlowCoordinator), 232 + sizeof(void*) + 8 - (232 + sizeof(void*)) % 8> __GlobalNamespace_EditAvatarFlowCoordinatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarFlowCoordinator*, "", "EditAvatarFlowCoordinator");

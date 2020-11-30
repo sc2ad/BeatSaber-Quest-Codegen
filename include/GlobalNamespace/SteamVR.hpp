@@ -265,6 +265,7 @@ namespace GlobalNamespace {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // SteamVR
+  check_size<sizeof(SteamVR), 80 + sizeof(Valve::VR::ETextureType) + 8 - (80 + sizeof(Valve::VR::ETextureType)) % 8> __GlobalNamespace_SteamVRSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR*, "", "SteamVR");

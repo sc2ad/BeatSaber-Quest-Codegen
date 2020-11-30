@@ -36,7 +36,10 @@ namespace UnityEngine {
     // Offset: 0xFFFFFFFF
     template<class T>
     static T FromJson(::Il2CppString* json) {
-      return THROW_UNLESS((il2cpp_utils::RunGenericMethod<T>("UnityEngine", "JsonUtility", "FromJson", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, json)));
+      static auto ___internal__logger = ::Logger::get().WithContext("codegen").WithContext("UnityEngine").WithContext("JsonUtility").WithContext("FromJson");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "JsonUtility", il2cpp_utils::NoArgClass<T>(), "FromJson", {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::il2cpp_utils::ExtractTypes(json))));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, {il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, json);
     }
     // static public System.Object FromJson(System.String json, System.Type type)
     // Offset: 0x1A0CAE8

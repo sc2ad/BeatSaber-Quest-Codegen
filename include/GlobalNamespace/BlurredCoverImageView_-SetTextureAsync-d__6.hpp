@@ -69,6 +69,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BlurredCoverImageView/<SetTextureAsync>d__6
+  check_size<sizeof(BlurredCoverImageView::$SetTextureAsync$d__6), 64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>) + 8 - (64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>)) % 8> __GlobalNamespace_BlurredCoverImageView_$SetTextureAsync$d__6SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlurredCoverImageView::$SetTextureAsync$d__6, "", "BlurredCoverImageView/<SetTextureAsync>d__6");
