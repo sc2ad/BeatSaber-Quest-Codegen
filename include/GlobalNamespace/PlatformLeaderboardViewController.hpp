@@ -183,7 +183,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // PlatformLeaderboardViewController
-  check_size<sizeof(PlatformLeaderboardViewController), 224 + sizeof(void*) + 8 - (224 + sizeof(void*)) % 8> __GlobalNamespace_PlatformLeaderboardViewControllerSizeCheck;
+  check_size<sizeof(PlatformLeaderboardViewController), 224 + sizeof(void*) + ((224 + sizeof(void*)) % 8 != 0 ? (8 - (224 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_PlatformLeaderboardViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardViewController*, "", "PlatformLeaderboardViewController");

@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BloomPrePassGraphicsSettingsPresetsSO* New_ctor();
   }; // BloomPrePassGraphicsSettingsPresetsSO
-  check_size<sizeof(BloomPrePassGraphicsSettingsPresetsSO), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_BloomPrePassGraphicsSettingsPresetsSOSizeCheck;
+  check_size<sizeof(BloomPrePassGraphicsSettingsPresetsSO), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_BloomPrePassGraphicsSettingsPresetsSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*, "", "BloomPrePassGraphicsSettingsPresetsSO");

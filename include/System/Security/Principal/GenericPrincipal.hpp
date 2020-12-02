@@ -30,7 +30,7 @@ namespace System::Security::Principal {
     // Offset: 0x1281E50
     static GenericPrincipal* New_ctor(System::Security::Principal::IIdentity* identity, ::Array<::Il2CppString*>* roles);
   }; // System.Security.Principal.GenericPrincipal
-  check_size<sizeof(GenericPrincipal), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __System_Security_Principal_GenericPrincipalSizeCheck;
+  check_size<sizeof(GenericPrincipal), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __System_Security_Principal_GenericPrincipalSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::GenericPrincipal*, "System.Security.Principal", "GenericPrincipal");

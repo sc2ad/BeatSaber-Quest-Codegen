@@ -29,7 +29,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EChaperoneImportFlags EChaperoneImport_BoundsOnly
     static void _set_EChaperoneImport_BoundsOnly(OVR::OpenVR::EChaperoneImportFlags value);
   }; // OVR.OpenVR.EChaperoneImportFlags
-  check_size<sizeof(EChaperoneImportFlags), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_EChaperoneImportFlagsSizeCheck;
+  check_size<sizeof(EChaperoneImportFlags), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OVR_OpenVR_EChaperoneImportFlagsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EChaperoneImportFlags, "OVR.OpenVR", "EChaperoneImportFlags");

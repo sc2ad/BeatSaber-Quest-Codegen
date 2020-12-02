@@ -36,7 +36,7 @@ namespace System::ComponentModel {
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();
   }; // System.ComponentModel.EditorBrowsableAttribute
-  check_size<sizeof(EditorBrowsableAttribute), 16 + sizeof(System::ComponentModel::EditorBrowsableState) + 8 - (16 + sizeof(System::ComponentModel::EditorBrowsableState)) % 8> __System_ComponentModel_EditorBrowsableAttributeSizeCheck;
+  check_size<sizeof(EditorBrowsableAttribute), 16 + sizeof(System::ComponentModel::EditorBrowsableState) + ((16 + sizeof(System::ComponentModel::EditorBrowsableState)) % 8 != 0 ? (8 - (16 + sizeof(System::ComponentModel::EditorBrowsableState)) % 8) : 0)> __System_ComponentModel_EditorBrowsableAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EditorBrowsableAttribute*, "System.ComponentModel", "EditorBrowsableAttribute");

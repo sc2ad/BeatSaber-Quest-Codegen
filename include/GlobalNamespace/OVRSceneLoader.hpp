@@ -70,7 +70,7 @@ namespace GlobalNamespace {
       // Offset: 0xC9BF40
       // ABORTED: conflicts with another method.  SceneInfo(System::Collections::Generic::List_1<::Il2CppString*>* sceneList, int64_t currentSceneEpochVersion);
     }; // OVRSceneLoader/SceneInfo
-    check_size<sizeof(OVRSceneLoader::SceneInfo), 8 + sizeof(int64_t) + 8 - (8 + sizeof(int64_t)) % 8> __GlobalNamespace_OVRSceneLoader_SceneInfoSizeCheck;
+    check_size<sizeof(OVRSceneLoader::SceneInfo), 8 + sizeof(int64_t) + ((8 + sizeof(int64_t)) % 8 != 0 ? (8 - (8 + sizeof(int64_t)) % 8) : 0)> __GlobalNamespace_OVRSceneLoader_SceneInfoSizeCheck;
     // public System.Single sceneCheckIntervalSeconds
     // Offset: 0x18
     float sceneCheckIntervalSeconds;
@@ -170,7 +170,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRSceneLoader* New_ctor();
   }; // OVRSceneLoader
-  check_size<sizeof(OVRSceneLoader), 96 + sizeof(GlobalNamespace::OVRSceneLoader::SceneInfo) + 8 - (96 + sizeof(GlobalNamespace::OVRSceneLoader::SceneInfo)) % 8> __GlobalNamespace_OVRSceneLoaderSizeCheck;
+  check_size<sizeof(OVRSceneLoader), 96 + sizeof(GlobalNamespace::OVRSceneLoader::SceneInfo) + ((96 + sizeof(GlobalNamespace::OVRSceneLoader::SceneInfo)) % 8 != 0 ? (8 - (96 + sizeof(GlobalNamespace::OVRSceneLoader::SceneInfo)) % 8) : 0)> __GlobalNamespace_OVRSceneLoaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneLoader*, "", "OVRSceneLoader");

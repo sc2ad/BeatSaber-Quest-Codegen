@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A158E0
     static FlyingScoreSpawner::InitData* New_ctor(GlobalNamespace::FlyingScoreSpawner::SpawnPosition spawnPosition);
   }; // FlyingScoreSpawner/InitData
-  check_size<sizeof(FlyingScoreSpawner::InitData), 16 + sizeof(GlobalNamespace::FlyingScoreSpawner::SpawnPosition) + 8 - (16 + sizeof(GlobalNamespace::FlyingScoreSpawner::SpawnPosition)) % 8> __GlobalNamespace_FlyingScoreSpawner_InitDataSizeCheck;
+  check_size<sizeof(FlyingScoreSpawner::InitData), 16 + sizeof(GlobalNamespace::FlyingScoreSpawner::SpawnPosition) + ((16 + sizeof(GlobalNamespace::FlyingScoreSpawner::SpawnPosition)) % 8 != 0 ? (8 - (16 + sizeof(GlobalNamespace::FlyingScoreSpawner::SpawnPosition)) % 8) : 0)> __GlobalNamespace_FlyingScoreSpawner_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingScoreSpawner::InitData*, "", "FlyingScoreSpawner/InitData");

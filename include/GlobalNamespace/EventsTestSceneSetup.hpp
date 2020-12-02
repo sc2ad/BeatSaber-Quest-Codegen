@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EventsTestSceneSetup* New_ctor();
   }; // EventsTestSceneSetup
-  check_size<sizeof(EventsTestSceneSetup), 48 + sizeof(GlobalNamespace::BeatmapDifficulty) + 8 - (48 + sizeof(GlobalNamespace::BeatmapDifficulty)) % 8> __GlobalNamespace_EventsTestSceneSetupSizeCheck;
+  check_size<sizeof(EventsTestSceneSetup), 48 + sizeof(GlobalNamespace::BeatmapDifficulty) + ((48 + sizeof(GlobalNamespace::BeatmapDifficulty)) % 8 != 0 ? (8 - (48 + sizeof(GlobalNamespace::BeatmapDifficulty)) % 8) : 0)> __GlobalNamespace_EventsTestSceneSetupSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EventsTestSceneSetup*, "", "EventsTestSceneSetup");

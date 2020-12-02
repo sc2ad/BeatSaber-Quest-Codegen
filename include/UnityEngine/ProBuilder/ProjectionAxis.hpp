@@ -59,7 +59,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.ProjectionAxis ZNegative
     static void _set_ZNegative(UnityEngine::ProBuilder::ProjectionAxis value);
   }; // UnityEngine.ProBuilder.ProjectionAxis
-  check_size<sizeof(ProjectionAxis), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_ProBuilder_ProjectionAxisSizeCheck;
+  check_size<sizeof(ProjectionAxis), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_ProBuilder_ProjectionAxisSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProjectionAxis, "UnityEngine.ProBuilder", "ProjectionAxis");

@@ -96,7 +96,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static HoverHintController* New_ctor();
   }; // HMUI.HoverHintController
-  check_size<sizeof(HoverHintController), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __HMUI_HoverHintControllerSizeCheck;
+  check_size<sizeof(HoverHintController), 40 + sizeof(bool) + ((40 + sizeof(bool)) % 8 != 0 ? (8 - (40 + sizeof(bool)) % 8) : 0)> __HMUI_HoverHintControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHintController*, "HMUI", "HoverHintController");

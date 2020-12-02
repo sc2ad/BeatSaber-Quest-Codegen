@@ -41,7 +41,7 @@ namespace System::ComponentModel {
     // Set static field: static public System.ComponentModel.DesignerSerializationVisibility Content
     static void _set_Content(System::ComponentModel::DesignerSerializationVisibility value);
   }; // System.ComponentModel.DesignerSerializationVisibility
-  check_size<sizeof(DesignerSerializationVisibility), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_ComponentModel_DesignerSerializationVisibilitySizeCheck;
+  check_size<sizeof(DesignerSerializationVisibility), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_ComponentModel_DesignerSerializationVisibilitySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DesignerSerializationVisibility, "System.ComponentModel", "DesignerSerializationVisibility");

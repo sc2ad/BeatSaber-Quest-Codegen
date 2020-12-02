@@ -78,7 +78,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRSkeleton/SkeletonType HandRight
       static void _set_HandRight(GlobalNamespace::OVRSkeleton::SkeletonType value);
     }; // OVRSkeleton/SkeletonType
-    check_size<sizeof(OVRSkeleton::SkeletonType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRSkeleton_SkeletonTypeSizeCheck;
+    check_size<sizeof(OVRSkeleton::SkeletonType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OVRSkeleton_SkeletonTypeSizeCheck;
     // private OVRSkeleton/SkeletonType _skeletonType
     // Offset: 0x18
     GlobalNamespace::OVRSkeleton::SkeletonType skeletonType;
@@ -223,7 +223,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRSkeleton* New_ctor();
   }; // OVRSkeleton
-  check_size<sizeof(OVRSkeleton), 136 + sizeof(void*) + 8 - (136 + sizeof(void*)) % 8> __GlobalNamespace_OVRSkeletonSizeCheck;
+  check_size<sizeof(OVRSkeleton), 136 + sizeof(void*) + ((136 + sizeof(void*)) % 8 != 0 ? (8 - (136 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_OVRSkeletonSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeleton*, "", "OVRSkeleton");

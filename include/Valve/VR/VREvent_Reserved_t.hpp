@@ -22,7 +22,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: VREvent_Reserved_t
     constexpr VREvent_Reserved_t(uint64_t reserved0_ = {}, uint64_t reserved1_ = {}) noexcept : reserved0{reserved0_}, reserved1{reserved1_} {}
   }; // Valve.VR.VREvent_Reserved_t
-  check_size<sizeof(VREvent_Reserved_t), 8 + sizeof(uint64_t) + 8 - (8 + sizeof(uint64_t)) % 8> __Valve_VR_VREvent_Reserved_tSizeCheck;
+  check_size<sizeof(VREvent_Reserved_t), 8 + sizeof(uint64_t) + ((8 + sizeof(uint64_t)) % 8 != 0 ? (8 - (8 + sizeof(uint64_t)) % 8) : 0)> __Valve_VR_VREvent_Reserved_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_Reserved_t, "Valve.VR", "VREvent_Reserved_t");

@@ -79,7 +79,7 @@ namespace Mono::Net::Security {
     // Offset: 0x126B998
     System::IO::Stream* CreateStream(::Array<uint8_t>* buffer);
   }; // Mono.Net.Security.MonoTlsStream
-  check_size<sizeof(MonoTlsStream), 60 + sizeof(bool) + 8 - (60 + sizeof(bool)) % 8> __Mono_Net_Security_MonoTlsStreamSizeCheck;
+  check_size<sizeof(MonoTlsStream), 60 + sizeof(bool) + ((60 + sizeof(bool)) % 8 != 0 ? (8 - (60 + sizeof(bool)) % 8) : 0)> __Mono_Net_Security_MonoTlsStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MonoTlsStream*, "Mono.Net.Security", "MonoTlsStream");

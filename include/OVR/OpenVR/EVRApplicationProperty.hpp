@@ -125,7 +125,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRApplicationProperty LastLaunchTime_Uint64
     static void _set_LastLaunchTime_Uint64(OVR::OpenVR::EVRApplicationProperty value);
   }; // OVR.OpenVR.EVRApplicationProperty
-  check_size<sizeof(EVRApplicationProperty), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_EVRApplicationPropertySizeCheck;
+  check_size<sizeof(EVRApplicationProperty), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OVR_OpenVR_EVRApplicationPropertySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRApplicationProperty, "OVR.OpenVR", "EVRApplicationProperty");

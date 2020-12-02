@@ -101,7 +101,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.ETrackedPropertyError TrackedProp_CannotWriteToWildcards
     static void _set_TrackedProp_CannotWriteToWildcards(OVR::OpenVR::ETrackedPropertyError value);
   }; // OVR.OpenVR.ETrackedPropertyError
-  check_size<sizeof(ETrackedPropertyError), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_ETrackedPropertyErrorSizeCheck;
+  check_size<sizeof(ETrackedPropertyError), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OVR_OpenVR_ETrackedPropertyErrorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::ETrackedPropertyError, "OVR.OpenVR", "ETrackedPropertyError");

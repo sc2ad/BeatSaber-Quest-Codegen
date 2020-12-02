@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     // Base method: HMAsyncRequest PlatformLeaderboardsHandler::UploadScore(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* UploadScore(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler);
   }; // OculusPlatformLeaderboardsHandler
-  check_size<sizeof(OculusPlatformLeaderboardsHandler), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_OculusPlatformLeaderboardsHandlerSizeCheck;
+  check_size<sizeof(OculusPlatformLeaderboardsHandler), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_OculusPlatformLeaderboardsHandlerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformLeaderboardsHandler*, "", "OculusPlatformLeaderboardsHandler");

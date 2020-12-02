@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SteamVR_Frustum* New_ctor();
   }; // SteamVR_Frustum
-  check_size<sizeof(SteamVR_Frustum), 48 + sizeof(float) + 8 - (48 + sizeof(float)) % 8> __GlobalNamespace_SteamVR_FrustumSizeCheck;
+  check_size<sizeof(SteamVR_Frustum), 48 + sizeof(float) + ((48 + sizeof(float)) % 8 != 0 ? (8 - (48 + sizeof(float)) % 8) : 0)> __GlobalNamespace_SteamVR_FrustumSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Frustum*, "", "SteamVR_Frustum");

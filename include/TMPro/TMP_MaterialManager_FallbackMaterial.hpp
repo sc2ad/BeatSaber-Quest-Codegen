@@ -41,7 +41,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static TMP_MaterialManager::FallbackMaterial* New_ctor();
   }; // TMPro.TMP_MaterialManager/FallbackMaterial
-  check_size<sizeof(TMP_MaterialManager::FallbackMaterial), 48 + sizeof(int) + 8 - (48 + sizeof(int)) % 8> __TMPro_TMP_MaterialManager_FallbackMaterialSizeCheck;
+  check_size<sizeof(TMP_MaterialManager::FallbackMaterial), 48 + sizeof(int) + ((48 + sizeof(int)) % 8 != 0 ? (8 - (48 + sizeof(int)) % 8) : 0)> __TMPro_TMP_MaterialManager_FallbackMaterialSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MaterialManager::FallbackMaterial*, "TMPro", "TMP_MaterialManager/FallbackMaterial");

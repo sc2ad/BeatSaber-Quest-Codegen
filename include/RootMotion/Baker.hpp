@@ -70,7 +70,7 @@ namespace RootMotion {
       // Set static field: static public RootMotion.Baker/Mode Realtime
       static void _set_Realtime(RootMotion::Baker::Mode value);
     }; // RootMotion.Baker/Mode
-    check_size<sizeof(Baker::Mode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __RootMotion_Baker_ModeSizeCheck;
+    check_size<sizeof(Baker::Mode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __RootMotion_Baker_ModeSizeCheck;
     // public System.Int32 frameRate
     // Offset: 0x18
     int frameRate;
@@ -179,7 +179,7 @@ namespace RootMotion {
     // Base method: System.Void Object::.ctor()
     static Baker* New_ctor();
   }; // RootMotion.Baker
-  check_size<sizeof(Baker), 112 + sizeof(float) + 8 - (112 + sizeof(float)) % 8> __RootMotion_BakerSizeCheck;
+  check_size<sizeof(Baker), 112 + sizeof(float) + ((112 + sizeof(float)) % 8 != 0 ? (8 - (112 + sizeof(float)) % 8) : 0)> __RootMotion_BakerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Baker*, "RootMotion", "Baker");

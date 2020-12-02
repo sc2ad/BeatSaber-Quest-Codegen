@@ -67,7 +67,7 @@ namespace LiteNetLib {
     // Base method: System.Void Object::.ctor()
     static EventBasedNatPunchListener* New_ctor();
   }; // LiteNetLib.EventBasedNatPunchListener
-  check_size<sizeof(EventBasedNatPunchListener), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __LiteNetLib_EventBasedNatPunchListenerSizeCheck;
+  check_size<sizeof(EventBasedNatPunchListener), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __LiteNetLib_EventBasedNatPunchListenerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNatPunchListener*, "LiteNetLib", "EventBasedNatPunchListener");

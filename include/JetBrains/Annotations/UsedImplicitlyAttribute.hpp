@@ -33,7 +33,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     static UsedImplicitlyAttribute* New_ctor();
   }; // JetBrains.Annotations.UsedImplicitlyAttribute
-  check_size<sizeof(UsedImplicitlyAttribute), 20 + sizeof(JetBrains::Annotations::ImplicitUseTargetFlags) + 8 - (20 + sizeof(JetBrains::Annotations::ImplicitUseTargetFlags)) % 8> __JetBrains_Annotations_UsedImplicitlyAttributeSizeCheck;
+  check_size<sizeof(UsedImplicitlyAttribute), 20 + sizeof(JetBrains::Annotations::ImplicitUseTargetFlags) + ((20 + sizeof(JetBrains::Annotations::ImplicitUseTargetFlags)) % 8 != 0 ? (8 - (20 + sizeof(JetBrains::Annotations::ImplicitUseTargetFlags)) % 8) : 0)> __JetBrains_Annotations_UsedImplicitlyAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::UsedImplicitlyAttribute*, "JetBrains.Annotations", "UsedImplicitlyAttribute");

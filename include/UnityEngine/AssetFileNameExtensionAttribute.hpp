@@ -39,7 +39,7 @@ namespace UnityEngine {
       return New_ctor(preferredExtension, {otherExtensions...});
     }
   }; // UnityEngine.AssetFileNameExtensionAttribute
-  check_size<sizeof(AssetFileNameExtensionAttribute), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_AssetFileNameExtensionAttributeSizeCheck;
+  check_size<sizeof(AssetFileNameExtensionAttribute), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __UnityEngine_AssetFileNameExtensionAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetFileNameExtensionAttribute*, "UnityEngine", "AssetFileNameExtensionAttribute");

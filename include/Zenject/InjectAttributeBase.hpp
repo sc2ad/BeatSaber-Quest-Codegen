@@ -50,7 +50,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static InjectAttributeBase* New_ctor();
   }; // Zenject.InjectAttributeBase
-  check_size<sizeof(InjectAttributeBase), 32 + sizeof(Zenject::InjectSources) + 8 - (32 + sizeof(Zenject::InjectSources)) % 8> __Zenject_InjectAttributeBaseSizeCheck;
+  check_size<sizeof(InjectAttributeBase), 32 + sizeof(Zenject::InjectSources) + ((32 + sizeof(Zenject::InjectSources)) % 8 != 0 ? (8 - (32 + sizeof(Zenject::InjectSources)) % 8) : 0)> __Zenject_InjectAttributeBaseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectAttributeBase*, "Zenject", "InjectAttributeBase");

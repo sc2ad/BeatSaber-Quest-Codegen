@@ -59,7 +59,7 @@ namespace TMPro {
     // Set static field: static public TMPro._VerticalAlignmentOptions Capline
     static void _set_Capline(TMPro::_VerticalAlignmentOptions value);
   }; // TMPro._VerticalAlignmentOptions
-  check_size<sizeof(_VerticalAlignmentOptions), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __TMPro__VerticalAlignmentOptionsSizeCheck;
+  check_size<sizeof(_VerticalAlignmentOptions), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __TMPro__VerticalAlignmentOptionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::_VerticalAlignmentOptions, "TMPro", "_VerticalAlignmentOptions");

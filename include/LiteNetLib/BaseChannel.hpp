@@ -51,7 +51,7 @@ namespace LiteNetLib {
     // Offset: 0xFFFFFFFF
     bool ProcessPacket(LiteNetLib::NetPacket* packet);
   }; // LiteNetLib.BaseChannel
-  check_size<sizeof(BaseChannel), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __LiteNetLib_BaseChannelSizeCheck;
+  check_size<sizeof(BaseChannel), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __LiteNetLib_BaseChannelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::BaseChannel*, "LiteNetLib", "BaseChannel");

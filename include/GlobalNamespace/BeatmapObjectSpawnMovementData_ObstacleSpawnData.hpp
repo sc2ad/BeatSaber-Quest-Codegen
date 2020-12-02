@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Offset: 0xE7F1BC
     // ABORTED: conflicts with another method.  ObstacleSpawnData(UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float obstacleHeight, float moveDuration, float jumpDuration, float noteLinesDistance);
   }; // BeatmapObjectSpawnMovementData/ObstacleSpawnData
-  check_size<sizeof(BeatmapObjectSpawnMovementData::ObstacleSpawnData), 48 + sizeof(float) + 8 - (48 + sizeof(float)) % 8> __GlobalNamespace_BeatmapObjectSpawnMovementData_ObstacleSpawnDataSizeCheck;
+  check_size<sizeof(BeatmapObjectSpawnMovementData::ObstacleSpawnData), 48 + sizeof(float) + ((48 + sizeof(float)) % 8 != 0 ? (8 - (48 + sizeof(float)) % 8) : 0)> __GlobalNamespace_BeatmapObjectSpawnMovementData_ObstacleSpawnDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, "", "BeatmapObjectSpawnMovementData/ObstacleSpawnData");

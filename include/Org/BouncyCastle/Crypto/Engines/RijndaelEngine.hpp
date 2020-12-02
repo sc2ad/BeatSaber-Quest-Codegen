@@ -192,7 +192,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.RijndaelEngine
-  check_size<sizeof(RijndaelEngine), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Engines_RijndaelEngineSizeCheck;
+  check_size<sizeof(RijndaelEngine), 96 + sizeof(void*) + ((96 + sizeof(void*)) % 8 != 0 ? (8 - (96 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_Engines_RijndaelEngineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RijndaelEngine*, "Org.BouncyCastle.Crypto.Engines", "RijndaelEngine");

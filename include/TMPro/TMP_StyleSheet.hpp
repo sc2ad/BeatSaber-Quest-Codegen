@@ -73,7 +73,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static TMP_StyleSheet* New_ctor();
   }; // TMPro.TMP_StyleSheet
-  check_size<sizeof(TMP_StyleSheet), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __TMPro_TMP_StyleSheetSizeCheck;
+  check_size<sizeof(TMP_StyleSheet), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __TMPro_TMP_StyleSheetSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_StyleSheet*, "TMPro", "TMP_StyleSheet");

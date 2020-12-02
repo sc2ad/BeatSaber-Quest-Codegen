@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PlayerDataModel* New_ctor();
   }; // PlayerDataModel
-  check_size<sizeof(PlayerDataModel), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_PlayerDataModelSizeCheck;
+  check_size<sizeof(PlayerDataModel), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_PlayerDataModelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerDataModel*, "", "PlayerDataModel");

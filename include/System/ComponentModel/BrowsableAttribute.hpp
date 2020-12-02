@@ -52,7 +52,7 @@ namespace System::ComponentModel {
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();
   }; // System.ComponentModel.BrowsableAttribute
-  check_size<sizeof(BrowsableAttribute), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __System_ComponentModel_BrowsableAttributeSizeCheck;
+  check_size<sizeof(BrowsableAttribute), 16 + sizeof(bool) + ((16 + sizeof(bool)) % 8 != 0 ? (8 - (16 + sizeof(bool)) % 8) : 0)> __System_ComponentModel_BrowsableAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::BrowsableAttribute*, "System.ComponentModel", "BrowsableAttribute");

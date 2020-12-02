@@ -90,7 +90,7 @@ namespace GlobalNamespace {
       // Set static field: static public StandardLevelGameplayManager/GameState Failed
       static void _set_Failed(GlobalNamespace::StandardLevelGameplayManager::GameState value);
     }; // StandardLevelGameplayManager/GameState
-    check_size<sizeof(StandardLevelGameplayManager::GameState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_StandardLevelGameplayManager_GameStateSizeCheck;
+    check_size<sizeof(StandardLevelGameplayManager::GameState), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_StandardLevelGameplayManager_GameStateSizeCheck;
     // private GameScenesManager _gameScenesManager
     // Offset: 0x18
     GlobalNamespace::GameScenesManager* gameScenesManager;
@@ -175,7 +175,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static StandardLevelGameplayManager* New_ctor();
   }; // StandardLevelGameplayManager
-  check_size<sizeof(StandardLevelGameplayManager), 72 + sizeof(GlobalNamespace::StandardLevelGameplayManager::GameState) + 8 - (72 + sizeof(GlobalNamespace::StandardLevelGameplayManager::GameState)) % 8> __GlobalNamespace_StandardLevelGameplayManagerSizeCheck;
+  check_size<sizeof(StandardLevelGameplayManager), 72 + sizeof(GlobalNamespace::StandardLevelGameplayManager::GameState) + ((72 + sizeof(GlobalNamespace::StandardLevelGameplayManager::GameState)) % 8 != 0 ? (8 - (72 + sizeof(GlobalNamespace::StandardLevelGameplayManager::GameState)) % 8) : 0)> __GlobalNamespace_StandardLevelGameplayManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelGameplayManager*, "", "StandardLevelGameplayManager");

@@ -46,7 +46,7 @@ namespace NUnit::Framework::Constraints {
     // Base method: NUnit.Framework.Constraints.ConstraintResult Constraint::ApplyTo(System.Object actual)
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);
   }; // NUnit.Framework.Constraints.StringConstraint
-  check_size<sizeof(StringConstraint), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __NUnit_Framework_Constraints_StringConstraintSizeCheck;
+  check_size<sizeof(StringConstraint), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __NUnit_Framework_Constraints_StringConstraintSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::StringConstraint*, "NUnit.Framework.Constraints", "StringConstraint");

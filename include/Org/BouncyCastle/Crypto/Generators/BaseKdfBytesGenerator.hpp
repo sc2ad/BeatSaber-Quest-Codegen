@@ -52,7 +52,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Base method: System.Int32 IDerivationFunction::GenerateBytes(System.Byte[] output, System.Int32 outOff, System.Int32 length)
     int GenerateBytes(::Array<uint8_t>* output, int outOff, int length);
   }; // Org.BouncyCastle.Crypto.Generators.BaseKdfBytesGenerator
-  check_size<sizeof(BaseKdfBytesGenerator), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Generators_BaseKdfBytesGeneratorSizeCheck;
+  check_size<sizeof(BaseKdfBytesGenerator), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_Generators_BaseKdfBytesGeneratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator*, "Org.BouncyCastle.Crypto.Generators", "BaseKdfBytesGenerator");

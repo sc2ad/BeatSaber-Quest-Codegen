@@ -197,7 +197,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LevelFilterParams* New_ctor();
   }; // LevelFilterParams
-  check_size<sizeof(LevelFilterParams), 100 + sizeof(float) + 8 - (100 + sizeof(float)) % 8> __GlobalNamespace_LevelFilterParamsSizeCheck;
+  check_size<sizeof(LevelFilterParams), 100 + sizeof(float) + ((100 + sizeof(float)) % 8 != 0 ? (8 - (100 + sizeof(float)) % 8) : 0)> __GlobalNamespace_LevelFilterParamsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilterParams*, "", "LevelFilterParams");

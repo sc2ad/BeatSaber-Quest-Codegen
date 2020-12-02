@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionNodeGizmos* New_ctor();
   }; // MissionNodeGizmos
-  check_size<sizeof(MissionNodeGizmos), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_MissionNodeGizmosSizeCheck;
+  check_size<sizeof(MissionNodeGizmos), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MissionNodeGizmosSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeGizmos*, "", "MissionNodeGizmos");

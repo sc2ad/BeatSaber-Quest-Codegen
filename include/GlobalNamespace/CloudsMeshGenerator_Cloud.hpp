@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Cloud
     constexpr Cloud(UnityEngine::Mesh* precisionOpaqueMesh_ = {}, UnityEngine::Mesh* lowPolyMesh_ = {}, float sizeModifier_ = {}, float bottomThreshold_ = {}, int weight_ = {}, int precisionVertexCount_ = {}, int lowPolyVertexCount_ = {}, int generatedCount_ = {}) noexcept : precisionOpaqueMesh{precisionOpaqueMesh_}, lowPolyMesh{lowPolyMesh_}, sizeModifier{sizeModifier_}, bottomThreshold{bottomThreshold_}, weight{weight_}, precisionVertexCount{precisionVertexCount_}, lowPolyVertexCount{lowPolyVertexCount_}, generatedCount{generatedCount_} {}
   }; // CloudsMeshGenerator/Cloud
-  check_size<sizeof(CloudsMeshGenerator::Cloud), 36 + sizeof(int) + 8 - (36 + sizeof(int)) % 8> __GlobalNamespace_CloudsMeshGenerator_CloudSizeCheck;
+  check_size<sizeof(CloudsMeshGenerator::Cloud), 36 + sizeof(int) + ((36 + sizeof(int)) % 8 != 0 ? (8 - (36 + sizeof(int)) % 8) : 0)> __GlobalNamespace_CloudsMeshGenerator_CloudSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CloudsMeshGenerator::Cloud, "", "CloudsMeshGenerator/Cloud");

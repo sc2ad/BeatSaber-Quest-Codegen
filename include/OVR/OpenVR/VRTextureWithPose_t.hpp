@@ -24,7 +24,7 @@ namespace OVR::OpenVR {
       return mDeviceToAbsoluteTracking;
     }
   }; // OVR.OpenVR.VRTextureWithPose_t
-  check_size<sizeof(VRTextureWithPose_t), 0 + sizeof(OVR::OpenVR::HmdMatrix34_t) + 8 - (0 + sizeof(OVR::OpenVR::HmdMatrix34_t)) % 8> __OVR_OpenVR_VRTextureWithPose_tSizeCheck;
+  check_size<sizeof(VRTextureWithPose_t), 0 + sizeof(OVR::OpenVR::HmdMatrix34_t) + ((0 + sizeof(OVR::OpenVR::HmdMatrix34_t)) % 8 != 0 ? (8 - (0 + sizeof(OVR::OpenVR::HmdMatrix34_t)) % 8) : 0)> __OVR_OpenVR_VRTextureWithPose_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRTextureWithPose_t, "OVR.OpenVR", "VRTextureWithPose_t");

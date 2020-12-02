@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRNetwork::OVRNetworkTcpClient* New_ctor();
   }; // OVRNetwork/OVRNetworkTcpClient
-  check_size<sizeof(OVRNetwork::OVRNetworkTcpClient), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_OVRNetwork_OVRNetworkTcpClientSizeCheck;
+  check_size<sizeof(OVRNetwork::OVRNetworkTcpClient), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_OVRNetwork_OVRNetworkTcpClientSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNetwork::OVRNetworkTcpClient*, "", "OVRNetwork/OVRNetworkTcpClient");

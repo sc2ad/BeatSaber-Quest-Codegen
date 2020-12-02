@@ -85,7 +85,7 @@ namespace System::Net::Http {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.Http.HttpMethod
-  check_size<sizeof(HttpMethod), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Net_Http_HttpMethodSizeCheck;
+  check_size<sizeof(HttpMethod), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Net_Http_HttpMethodSizeCheck;
   // static public System.Boolean op_Equality(System.Net.Http.HttpMethod left, System.Net.Http.HttpMethod right)
   // Offset: 0x1210200
   bool operator ==(System::Net::Http::HttpMethod* left, System::Net::Http::HttpMethod& right);

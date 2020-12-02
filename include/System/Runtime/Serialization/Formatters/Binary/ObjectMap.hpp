@@ -85,7 +85,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x12F44BC
     static System::Runtime::Serialization::Formatters::Binary::ObjectMap* Create(::Il2CppString* name, ::Array<::Il2CppString*>* memberNames, ::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA, ::Array<::Il2CppObject*>* typeInformationA, ::Array<int>* memberAssemIds, System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int objectId, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo, System::Runtime::Serialization::Formatters::Binary::SizedArray* assemIdToAssemblyTable);
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectMap
-  check_size<sizeof(ObjectMap), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __System_Runtime_Serialization_Formatters_Binary_ObjectMapSizeCheck;
+  check_size<sizeof(ObjectMap), 96 + sizeof(void*) + ((96 + sizeof(void*)) % 8 != 0 ? (8 - (96 + sizeof(void*)) % 8) : 0)> __System_Runtime_Serialization_Formatters_Binary_ObjectMapSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectMap*, "System.Runtime.Serialization.Formatters.Binary", "ObjectMap");

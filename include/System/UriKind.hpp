@@ -41,7 +41,7 @@ namespace System {
     // Set static field: static public System.UriKind Relative
     static void _set_Relative(System::UriKind value);
   }; // System.UriKind
-  check_size<sizeof(UriKind), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_UriKindSizeCheck;
+  check_size<sizeof(UriKind), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_UriKindSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UriKind, "System", "UriKind");

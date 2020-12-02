@@ -53,7 +53,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.TouchPhase Canceled
     static void _set_Canceled(UnityEngine::TouchPhase value);
   }; // UnityEngine.TouchPhase
-  check_size<sizeof(TouchPhase), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_TouchPhaseSizeCheck;
+  check_size<sizeof(TouchPhase), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_TouchPhaseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TouchPhase, "UnityEngine", "TouchPhase");

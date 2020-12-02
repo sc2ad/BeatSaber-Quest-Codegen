@@ -25,7 +25,7 @@ namespace RootMotion {
     // Offset: 0x15F4828
     static TQ* New_ctor(UnityEngine::Vector3 translation, UnityEngine::Quaternion rotation);
   }; // RootMotion.TQ
-  check_size<sizeof(TQ), 28 + sizeof(UnityEngine::Quaternion) + 8 - (28 + sizeof(UnityEngine::Quaternion)) % 8> __RootMotion_TQSizeCheck;
+  check_size<sizeof(TQ), 28 + sizeof(UnityEngine::Quaternion) + ((28 + sizeof(UnityEngine::Quaternion)) % 8 != 0 ? (8 - (28 + sizeof(UnityEngine::Quaternion)) % 8) : 0)> __RootMotion_TQSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::TQ*, "RootMotion", "TQ");

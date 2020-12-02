@@ -26,7 +26,7 @@ namespace System::Net {
     // Base method: System.Void GenericIdentity::.ctor(System.String username, System.String password)
     static HttpListenerBasicIdentity* New_ctor(::Il2CppString* username, ::Il2CppString* password);
   }; // System.Net.HttpListenerBasicIdentity
-  check_size<sizeof(HttpListenerBasicIdentity), 136 + sizeof(void*) + 8 - (136 + sizeof(void*)) % 8> __System_Net_HttpListenerBasicIdentitySizeCheck;
+  check_size<sizeof(HttpListenerBasicIdentity), 136 + sizeof(void*) + ((136 + sizeof(void*)) % 8 != 0 ? (8 - (136 + sizeof(void*)) % 8) : 0)> __System_Net_HttpListenerBasicIdentitySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerBasicIdentity*, "System.Net", "HttpListenerBasicIdentity");

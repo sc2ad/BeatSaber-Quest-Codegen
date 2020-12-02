@@ -71,7 +71,7 @@ namespace Polyglot {
     // Base method: System.Void Object::.ctor()
     static LocalizationDocument* New_ctor();
   }; // Polyglot.LocalizationDocument
-  check_size<sizeof(LocalizationDocument), 48 + sizeof(bool) + 8 - (48 + sizeof(bool)) % 8> __Polyglot_LocalizationDocumentSizeCheck;
+  check_size<sizeof(LocalizationDocument), 48 + sizeof(bool) + ((48 + sizeof(bool)) % 8 != 0 ? (8 - (48 + sizeof(bool)) % 8) : 0)> __Polyglot_LocalizationDocumentSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationDocument*, "Polyglot", "LocalizationDocument");

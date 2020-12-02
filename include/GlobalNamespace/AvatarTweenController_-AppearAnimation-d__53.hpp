@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // AvatarTweenController/<AppearAnimation>d__53
-  check_size<sizeof(AvatarTweenController::$AppearAnimation$d__53), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_AvatarTweenController_$AppearAnimation$d__53SizeCheck;
+  check_size<sizeof(AvatarTweenController::$AppearAnimation$d__53), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_AvatarTweenController_$AppearAnimation$d__53SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarTweenController::$AppearAnimation$d__53*, "", "AvatarTweenController/<AppearAnimation>d__53");

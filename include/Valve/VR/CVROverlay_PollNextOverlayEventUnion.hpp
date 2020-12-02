@@ -26,7 +26,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: PollNextOverlayEventUnion
     constexpr PollNextOverlayEventUnion(Valve::VR::IVROverlay::_PollNextOverlayEvent* pPollNextOverlayEvent_ = {}, Valve::VR::CVROverlay::_PollNextOverlayEventPacked* pPollNextOverlayEventPacked_ = {}) noexcept : pPollNextOverlayEvent{pPollNextOverlayEvent_}, pPollNextOverlayEventPacked{pPollNextOverlayEventPacked_} {}
   }; // Valve.VR.CVROverlay/PollNextOverlayEventUnion
-  check_size<sizeof(CVROverlay::PollNextOverlayEventUnion), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __Valve_VR_CVROverlay_PollNextOverlayEventUnionSizeCheck;
+  check_size<sizeof(CVROverlay::PollNextOverlayEventUnion), 0 + sizeof(void*) + ((0 + sizeof(void*)) % 8 != 0 ? (8 - (0 + sizeof(void*)) % 8) : 0)> __Valve_VR_CVROverlay_PollNextOverlayEventUnionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVROverlay::PollNextOverlayEventUnion, "Valve.VR", "CVROverlay/PollNextOverlayEventUnion");

@@ -120,7 +120,7 @@ namespace Mono::Math {
     // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
   }; // Mono.Math.BigInteger
-  check_size<sizeof(BigInteger), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Mono_Math_BigIntegerSizeCheck;
+  check_size<sizeof(BigInteger), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Mono_Math_BigIntegerSizeCheck;
   // static public Mono.Math.BigInteger op_Subtraction(Mono.Math.BigInteger bi1, Mono.Math.BigInteger bi2)
   // Offset: 0x17AA8D0
   Mono::Math::BigInteger* operator-(Mono::Math::BigInteger* bi1, Mono::Math::BigInteger& bi2);

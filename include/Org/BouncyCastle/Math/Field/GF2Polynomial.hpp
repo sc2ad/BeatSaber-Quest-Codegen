@@ -48,7 +48,7 @@ namespace Org::BouncyCastle::Math::Field {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Math.Field.GF2Polynomial
-  check_size<sizeof(GF2Polynomial), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_Field_GF2PolynomialSizeCheck;
+  check_size<sizeof(GF2Polynomial), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Math_Field_GF2PolynomialSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::GF2Polynomial*, "Org.BouncyCastle.Math.Field", "GF2Polynomial");

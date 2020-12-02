@@ -551,7 +551,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRInitError Steam_SteamInstallationNotFound
     static void _set_Steam_SteamInstallationNotFound(OVR::OpenVR::EVRInitError value);
   }; // OVR.OpenVR.EVRInitError
-  check_size<sizeof(EVRInitError), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_EVRInitErrorSizeCheck;
+  check_size<sizeof(EVRInitError), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OVR_OpenVR_EVRInitErrorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRInitError, "OVR.OpenVR", "EVRInitError");

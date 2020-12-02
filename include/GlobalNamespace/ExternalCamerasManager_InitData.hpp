@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x1989378
     static ExternalCamerasManager::InitData* New_ctor(bool enableOculusMRC);
   }; // ExternalCamerasManager/InitData
-  check_size<sizeof(ExternalCamerasManager::InitData), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __GlobalNamespace_ExternalCamerasManager_InitDataSizeCheck;
+  check_size<sizeof(ExternalCamerasManager::InitData), 16 + sizeof(bool) + ((16 + sizeof(bool)) % 8 != 0 ? (8 - (16 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_ExternalCamerasManager_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExternalCamerasManager::InitData*, "", "ExternalCamerasManager/InitData");

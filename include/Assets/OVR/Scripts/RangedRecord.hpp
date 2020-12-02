@@ -26,7 +26,7 @@ namespace Assets::OVR::Scripts {
     // Offset: 0x11E89F4
     static RangedRecord* New_ctor(::Il2CppString* cat, ::Il2CppString* msg, float val, float minVal, float maxVal);
   }; // Assets.OVR.Scripts.RangedRecord
-  check_size<sizeof(RangedRecord), 40 + sizeof(float) + 8 - (40 + sizeof(float)) % 8> __Assets_OVR_Scripts_RangedRecordSizeCheck;
+  check_size<sizeof(RangedRecord), 40 + sizeof(float) + ((40 + sizeof(float)) % 8 != 0 ? (8 - (40 + sizeof(float)) % 8) : 0)> __Assets_OVR_Scripts_RangedRecordSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::RangedRecord*, "Assets.OVR.Scripts", "RangedRecord");

@@ -24,7 +24,7 @@ namespace System::Reflection {
     // Offset: 0x172194C
     static AssemblyTrademarkAttribute* New_ctor(::Il2CppString* trademark);
   }; // System.Reflection.AssemblyTrademarkAttribute
-  check_size<sizeof(AssemblyTrademarkAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Reflection_AssemblyTrademarkAttributeSizeCheck;
+  check_size<sizeof(AssemblyTrademarkAttribute), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Reflection_AssemblyTrademarkAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyTrademarkAttribute*, "System.Reflection", "AssemblyTrademarkAttribute");

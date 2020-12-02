@@ -227,7 +227,7 @@ namespace System::Reflection {
     // Maps to method: OnDeserialization
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
   }; // System.Reflection.AssemblyName
-  check_size<sizeof(AssemblyName), 108 + sizeof(System::Reflection::AssemblyContentType) + 8 - (108 + sizeof(System::Reflection::AssemblyContentType)) % 8> __System_Reflection_AssemblyNameSizeCheck;
+  check_size<sizeof(AssemblyName), 108 + sizeof(System::Reflection::AssemblyContentType) + ((108 + sizeof(System::Reflection::AssemblyContentType)) % 8 != 0 ? (8 - (108 + sizeof(System::Reflection::AssemblyContentType)) % 8) : 0)> __System_Reflection_AssemblyNameSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyName*, "System.Reflection", "AssemblyName");

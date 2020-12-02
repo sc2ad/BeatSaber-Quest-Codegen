@@ -54,7 +54,7 @@ namespace System::Runtime::Remoting {
     // Base method: System.Runtime.Remoting.ObjRef Identity::CreateObjRef(System.Type requestedType)
     System::Runtime::Remoting::ObjRef* CreateObjRef(System::Type* requestedType);
   }; // System.Runtime.Remoting.ClientIdentity
-  check_size<sizeof(ClientIdentity), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __System_Runtime_Remoting_ClientIdentitySizeCheck;
+  check_size<sizeof(ClientIdentity), 72 + sizeof(void*) + ((72 + sizeof(void*)) % 8 != 0 ? (8 - (72 + sizeof(void*)) % 8) : 0)> __System_Runtime_Remoting_ClientIdentitySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ClientIdentity*, "System.Runtime.Remoting", "ClientIdentity");

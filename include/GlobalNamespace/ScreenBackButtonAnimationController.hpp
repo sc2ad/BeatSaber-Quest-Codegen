@@ -83,7 +83,7 @@ namespace GlobalNamespace {
       // Set static field: static public ScreenBackButtonAnimationController/AnimationType MoveOut2
       static void _set_MoveOut2(GlobalNamespace::ScreenBackButtonAnimationController::AnimationType value);
     }; // ScreenBackButtonAnimationController/AnimationType
-    check_size<sizeof(ScreenBackButtonAnimationController::AnimationType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_ScreenBackButtonAnimationController_AnimationTypeSizeCheck;
+    check_size<sizeof(ScreenBackButtonAnimationController::AnimationType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_ScreenBackButtonAnimationController_AnimationTypeSizeCheck;
     // private UnityEngine.Animator _animator
     // Offset: 0x18
     UnityEngine::Animator* animator;
@@ -108,7 +108,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ScreenBackButtonAnimationController* New_ctor();
   }; // ScreenBackButtonAnimationController
-  check_size<sizeof(ScreenBackButtonAnimationController), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_ScreenBackButtonAnimationControllerSizeCheck;
+  check_size<sizeof(ScreenBackButtonAnimationController), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_ScreenBackButtonAnimationControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenBackButtonAnimationController*, "", "ScreenBackButtonAnimationController");

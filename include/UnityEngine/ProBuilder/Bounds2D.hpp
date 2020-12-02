@@ -115,7 +115,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.Bounds2D
-  check_size<sizeof(Bounds2D), 32 + sizeof(UnityEngine::Vector2) + 8 - (32 + sizeof(UnityEngine::Vector2)) % 8> __UnityEngine_ProBuilder_Bounds2DSizeCheck;
+  check_size<sizeof(Bounds2D), 32 + sizeof(UnityEngine::Vector2) + ((32 + sizeof(UnityEngine::Vector2)) % 8 != 0 ? (8 - (32 + sizeof(UnityEngine::Vector2)) % 8) : 0)> __UnityEngine_ProBuilder_Bounds2DSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Bounds2D*, "UnityEngine.ProBuilder", "Bounds2D");

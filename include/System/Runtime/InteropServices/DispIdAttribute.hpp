@@ -24,7 +24,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1164520
     static DispIdAttribute* New_ctor(int dispId);
   }; // System.Runtime.InteropServices.DispIdAttribute
-  check_size<sizeof(DispIdAttribute), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __System_Runtime_InteropServices_DispIdAttributeSizeCheck;
+  check_size<sizeof(DispIdAttribute), 16 + sizeof(int) + ((16 + sizeof(int)) % 8 != 0 ? (8 - (16 + sizeof(int)) % 8) : 0)> __System_Runtime_InteropServices_DispIdAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DispIdAttribute*, "System.Runtime.InteropServices", "DispIdAttribute");

@@ -98,7 +98,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static PrepareForConnectionRequest* New_ctor();
   }; // MasterServer.PrepareForConnectionRequest
-  check_size<sizeof(PrepareForConnectionRequest), 65 + sizeof(bool) + 8 - (65 + sizeof(bool)) % 8> __MasterServer_PrepareForConnectionRequestSizeCheck;
+  check_size<sizeof(PrepareForConnectionRequest), 65 + sizeof(bool) + ((65 + sizeof(bool)) % 8 != 0 ? (8 - (65 + sizeof(bool)) % 8) : 0)> __MasterServer_PrepareForConnectionRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::PrepareForConnectionRequest*, "MasterServer", "PrepareForConnectionRequest");

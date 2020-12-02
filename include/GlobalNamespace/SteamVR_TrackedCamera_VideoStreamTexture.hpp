@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     // Offset: 0x135B83C
     void Update();
   }; // SteamVR_TrackedCamera/VideoStreamTexture
-  check_size<sizeof(SteamVR_TrackedCamera::VideoStreamTexture), 64 + sizeof(Valve::VR::CameraVideoStreamFrameHeader_t) + 8 - (64 + sizeof(Valve::VR::CameraVideoStreamFrameHeader_t)) % 8> __GlobalNamespace_SteamVR_TrackedCamera_VideoStreamTextureSizeCheck;
+  check_size<sizeof(SteamVR_TrackedCamera::VideoStreamTexture), 64 + sizeof(Valve::VR::CameraVideoStreamFrameHeader_t) + ((64 + sizeof(Valve::VR::CameraVideoStreamFrameHeader_t)) % 8 != 0 ? (8 - (64 + sizeof(Valve::VR::CameraVideoStreamFrameHeader_t)) % 8) : 0)> __GlobalNamespace_SteamVR_TrackedCamera_VideoStreamTextureSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*, "", "SteamVR_TrackedCamera/VideoStreamTexture");

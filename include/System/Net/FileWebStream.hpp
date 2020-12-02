@@ -96,7 +96,7 @@ namespace System::Net {
     // Base method: System.Void FileStream::EndWrite(System.IAsyncResult ar)
     void EndWrite(System::IAsyncResult* ar);
   }; // System.Net.FileWebStream
-  check_size<sizeof(FileWebStream), 112 + sizeof(void*) + 8 - (112 + sizeof(void*)) % 8> __System_Net_FileWebStreamSizeCheck;
+  check_size<sizeof(FileWebStream), 112 + sizeof(void*) + ((112 + sizeof(void*)) % 8 != 0 ? (8 - (112 + sizeof(void*)) % 8) : 0)> __System_Net_FileWebStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FileWebStream*, "System.Net", "FileWebStream");

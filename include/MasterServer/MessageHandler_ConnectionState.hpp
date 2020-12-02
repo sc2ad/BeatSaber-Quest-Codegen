@@ -133,7 +133,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static MessageHandler::ConnectionState* New_ctor();
   }; // MasterServer.MessageHandler/ConnectionState
-  check_size<sizeof(MessageHandler::ConnectionState), 76 + sizeof(uint) + 8 - (76 + sizeof(uint)) % 8> __MasterServer_MessageHandler_ConnectionStateSizeCheck;
+  check_size<sizeof(MessageHandler::ConnectionState), 76 + sizeof(uint) + ((76 + sizeof(uint)) % 8 != 0 ? (8 - (76 + sizeof(uint)) % 8) : 0)> __MasterServer_MessageHandler_ConnectionStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::ConnectionState*, "MasterServer", "MessageHandler/ConnectionState");

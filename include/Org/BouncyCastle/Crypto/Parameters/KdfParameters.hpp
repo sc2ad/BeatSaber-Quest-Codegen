@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1048D78
     ::Array<uint8_t>* GetIV();
   }; // Org.BouncyCastle.Crypto.Parameters.KdfParameters
-  check_size<sizeof(KdfParameters), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Parameters_KdfParametersSizeCheck;
+  check_size<sizeof(KdfParameters), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_Parameters_KdfParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::KdfParameters*, "Org.BouncyCastle.Crypto.Parameters", "KdfParameters");

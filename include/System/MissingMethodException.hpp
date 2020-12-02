@@ -66,7 +66,7 @@ namespace System {
     // Base method: System.String MissingMemberException::get_Message()
     ::Il2CppString* get_Message();
   }; // System.MissingMethodException
-  check_size<sizeof(MissingMethodException), 160 + sizeof(void*) + 8 - (160 + sizeof(void*)) % 8> __System_MissingMethodExceptionSizeCheck;
+  check_size<sizeof(MissingMethodException), 160 + sizeof(void*) + ((160 + sizeof(void*)) % 8 != 0 ? (8 - (160 + sizeof(void*)) % 8) : 0)> __System_MissingMethodExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::MissingMethodException*, "System", "MissingMethodException");

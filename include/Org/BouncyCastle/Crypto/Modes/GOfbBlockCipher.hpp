@@ -88,7 +88,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Modes.GOfbBlockCipher
-  check_size<sizeof(GOfbBlockCipher), 64 + sizeof(int) + 8 - (64 + sizeof(int)) % 8> __Org_BouncyCastle_Crypto_Modes_GOfbBlockCipherSizeCheck;
+  check_size<sizeof(GOfbBlockCipher), 64 + sizeof(int) + ((64 + sizeof(int)) % 8 != 0 ? (8 - (64 + sizeof(int)) % 8) : 0)> __Org_BouncyCastle_Crypto_Modes_GOfbBlockCipherSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "GOfbBlockCipher");

@@ -51,7 +51,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1047670
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Parameters.Ed25519PrivateKeyParameters
-  check_size<sizeof(Ed25519PrivateKeyParameters), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Parameters_Ed25519PrivateKeyParametersSizeCheck;
+  check_size<sizeof(Ed25519PrivateKeyParameters), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_Parameters_Ed25519PrivateKeyParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "Ed25519PrivateKeyParameters");

@@ -82,7 +82,7 @@ namespace NUnit::Framework::Constraints {
     // Base method: System.String Constraint::get_Description()
     ::Il2CppString* get_Description();
   }; // NUnit.Framework.Constraints.EqualConstraint
-  check_size<sizeof(EqualConstraint), 72 + sizeof(bool) + 8 - (72 + sizeof(bool)) % 8> __NUnit_Framework_Constraints_EqualConstraintSizeCheck;
+  check_size<sizeof(EqualConstraint), 72 + sizeof(bool) + ((72 + sizeof(bool)) % 8 != 0 ? (8 - (72 + sizeof(bool)) % 8) : 0)> __NUnit_Framework_Constraints_EqualConstraintSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::EqualConstraint*, "NUnit.Framework.Constraints", "EqualConstraint");
 #pragma pack(pop)

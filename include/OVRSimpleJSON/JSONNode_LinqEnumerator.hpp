@@ -90,7 +90,7 @@ namespace OVRSimpleJSON {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // OVRSimpleJSON.JSONNode/LinqEnumerator
-  check_size<sizeof(JSONNode::LinqEnumerator), 24 + sizeof(OVRSimpleJSON::JSONNode::Enumerator) + 8 - (24 + sizeof(OVRSimpleJSON::JSONNode::Enumerator)) % 8> __OVRSimpleJSON_JSONNode_LinqEnumeratorSizeCheck;
+  check_size<sizeof(JSONNode::LinqEnumerator), 24 + sizeof(OVRSimpleJSON::JSONNode::Enumerator) + ((24 + sizeof(OVRSimpleJSON::JSONNode::Enumerator)) % 8 != 0 ? (8 - (24 + sizeof(OVRSimpleJSON::JSONNode::Enumerator)) % 8) : 0)> __OVRSimpleJSON_JSONNode_LinqEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::LinqEnumerator*, "OVRSimpleJSON", "JSONNode/LinqEnumerator");

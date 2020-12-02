@@ -37,7 +37,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.RectTransform/Axis Vertical
     static void _set_Vertical(UnityEngine::RectTransform::Axis value);
   }; // UnityEngine.RectTransform/Axis
-  check_size<sizeof(RectTransform::Axis), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_RectTransform_AxisSizeCheck;
+  check_size<sizeof(RectTransform::Axis), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_RectTransform_AxisSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectTransform::Axis, "UnityEngine", "RectTransform/Axis");

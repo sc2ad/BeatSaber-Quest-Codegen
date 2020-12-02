@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ProhibitedRadius
     constexpr ProhibitedRadius(UnityEngine::Transform* transform_ = {}, float distance_ = {}, float radius_ = {}) noexcept : transform{transform_}, distance{distance_}, radius{radius_} {}
   }; // CloudsMeshGenerator/ProhibitedRadius
-  check_size<sizeof(CloudsMeshGenerator::ProhibitedRadius), 12 + sizeof(float) + 8 - (12 + sizeof(float)) % 8> __GlobalNamespace_CloudsMeshGenerator_ProhibitedRadiusSizeCheck;
+  check_size<sizeof(CloudsMeshGenerator::ProhibitedRadius), 12 + sizeof(float) + ((12 + sizeof(float)) % 8 != 0 ? (8 - (12 + sizeof(float)) % 8) : 0)> __GlobalNamespace_CloudsMeshGenerator_ProhibitedRadiusSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius, "", "CloudsMeshGenerator/ProhibitedRadius");

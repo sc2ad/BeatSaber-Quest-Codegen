@@ -63,7 +63,7 @@ namespace Mono::Net::Security {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // Mono.Net.Security.AsyncProtocolRequest/<InnerRead>d__25
-  check_size<sizeof(AsyncProtocolRequest::$InnerRead$d__25), 64 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter) + 8 - (64 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter)) % 8> __Mono_Net_Security_AsyncProtocolRequest_$InnerRead$d__25SizeCheck;
+  check_size<sizeof(AsyncProtocolRequest::$InnerRead$d__25), 64 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter) + ((64 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter)) % 8 != 0 ? (8 - (64 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter)) % 8) : 0)> __Mono_Net_Security_AsyncProtocolRequest_$InnerRead$d__25SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolRequest::$InnerRead$d__25, "Mono.Net.Security", "AsyncProtocolRequest/<InnerRead>d__25");

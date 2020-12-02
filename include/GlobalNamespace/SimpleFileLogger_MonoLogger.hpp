@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SimpleFileLogger::MonoLogger* New_ctor();
   }; // SimpleFileLogger/MonoLogger
-  check_size<sizeof(SimpleFileLogger::MonoLogger), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_SimpleFileLogger_MonoLoggerSizeCheck;
+  check_size<sizeof(SimpleFileLogger::MonoLogger), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_SimpleFileLogger_MonoLoggerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleFileLogger::MonoLogger*, "", "SimpleFileLogger/MonoLogger");

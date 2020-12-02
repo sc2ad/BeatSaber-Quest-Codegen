@@ -124,7 +124,7 @@ namespace System::Runtime::Serialization {
     // Base method: System.Reflection.FieldAttributes FieldInfo::get_Attributes()
     System::Reflection::FieldAttributes get_Attributes();
   }; // System.Runtime.Serialization.SerializationFieldInfo
-  check_size<sizeof(SerializationFieldInfo), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Runtime_Serialization_SerializationFieldInfoSizeCheck;
+  check_size<sizeof(SerializationFieldInfo), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Runtime_Serialization_SerializationFieldInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationFieldInfo*, "System.Runtime.Serialization", "SerializationFieldInfo");

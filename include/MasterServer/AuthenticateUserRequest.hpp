@@ -83,7 +83,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static AuthenticateUserRequest* New_ctor();
   }; // MasterServer.AuthenticateUserRequest
-  check_size<sizeof(AuthenticateUserRequest), 24 + sizeof(GlobalNamespace::AuthenticationToken) + 8 - (24 + sizeof(GlobalNamespace::AuthenticationToken)) % 8> __MasterServer_AuthenticateUserRequestSizeCheck;
+  check_size<sizeof(AuthenticateUserRequest), 24 + sizeof(GlobalNamespace::AuthenticationToken) + ((24 + sizeof(GlobalNamespace::AuthenticationToken)) % 8 != 0 ? (8 - (24 + sizeof(GlobalNamespace::AuthenticationToken)) % 8) : 0)> __MasterServer_AuthenticateUserRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::AuthenticateUserRequest*, "MasterServer", "AuthenticateUserRequest");

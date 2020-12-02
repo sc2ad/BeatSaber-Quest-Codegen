@@ -77,7 +77,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static GraphicRegistry* New_ctor();
   }; // UnityEngine.UI.GraphicRegistry
-  check_size<sizeof(GraphicRegistry), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_UI_GraphicRegistrySizeCheck;
+  check_size<sizeof(GraphicRegistry), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __UnityEngine_UI_GraphicRegistrySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRegistry*, "UnityEngine.UI", "GraphicRegistry");

@@ -66,7 +66,7 @@ namespace GlobalNamespace {
       // Set static field: static public BloomPrePassNonLightPass/ExecutionTimeType AfterBlur
       static void _set_AfterBlur(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType value);
     }; // BloomPrePassNonLightPass/ExecutionTimeType
-    check_size<sizeof(BloomPrePassNonLightPass::ExecutionTimeType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_BloomPrePassNonLightPass_ExecutionTimeTypeSizeCheck;
+    check_size<sizeof(BloomPrePassNonLightPass::ExecutionTimeType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_BloomPrePassNonLightPass_ExecutionTimeTypeSizeCheck;
     // private BloomPrePassNonLightPass/ExecutionTimeType _executionTimeType
     // Offset: 0x18
     GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType executionTimeType;
@@ -125,7 +125,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // BloomPrePassNonLightPass
-  check_size<sizeof(BloomPrePassNonLightPass), 28 + sizeof(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType) + 8 - (28 + sizeof(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType)) % 8> __GlobalNamespace_BloomPrePassNonLightPassSizeCheck;
+  check_size<sizeof(BloomPrePassNonLightPass), 28 + sizeof(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType) + ((28 + sizeof(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType)) % 8 != 0 ? (8 - (28 + sizeof(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType)) % 8) : 0)> __GlobalNamespace_BloomPrePassNonLightPassSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassNonLightPass*, "", "BloomPrePassNonLightPass");

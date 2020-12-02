@@ -49,7 +49,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0xCA689C
     Foot(RootMotion::FinalIK::IKSolver* solver, UnityEngine::Transform* transform);
   }; // RootMotion.FinalIK.GrounderQuadruped/Foot
-  check_size<sizeof(GrounderQuadruped::Foot), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __RootMotion_FinalIK_GrounderQuadruped_FootSizeCheck;
+  check_size<sizeof(GrounderQuadruped::Foot), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __RootMotion_FinalIK_GrounderQuadruped_FootSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderQuadruped::Foot, "RootMotion.FinalIK", "GrounderQuadruped/Foot");

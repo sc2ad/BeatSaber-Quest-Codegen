@@ -129,7 +129,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Base method: System.Void GeneralDigest::Reset(Org.BouncyCastle.Utilities.IMemoable other)
     void Reset(Org::BouncyCastle::Utilities::IMemoable* other);
   }; // Org.BouncyCastle.Crypto.Digests.Sha256Digest
-  check_size<sizeof(Sha256Digest), 80 + sizeof(int) + 8 - (80 + sizeof(int)) % 8> __Org_BouncyCastle_Crypto_Digests_Sha256DigestSizeCheck;
+  check_size<sizeof(Sha256Digest), 80 + sizeof(int) + ((80 + sizeof(int)) % 8 != 0 ? (8 - (80 + sizeof(int)) % 8) : 0)> __Org_BouncyCastle_Crypto_Digests_Sha256DigestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Sha256Digest*, "Org.BouncyCastle.Crypto.Digests", "Sha256Digest");

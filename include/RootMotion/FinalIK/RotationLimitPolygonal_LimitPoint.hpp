@@ -27,7 +27,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static RotationLimitPolygonal::LimitPoint* New_ctor();
   }; // RootMotion.FinalIK.RotationLimitPolygonal/LimitPoint
-  check_size<sizeof(RotationLimitPolygonal::LimitPoint), 28 + sizeof(float) + 8 - (28 + sizeof(float)) % 8> __RootMotion_FinalIK_RotationLimitPolygonal_LimitPointSizeCheck;
+  check_size<sizeof(RotationLimitPolygonal::LimitPoint), 28 + sizeof(float) + ((28 + sizeof(float)) % 8 != 0 ? (8 - (28 + sizeof(float)) % 8) : 0)> __RootMotion_FinalIK_RotationLimitPolygonal_LimitPointSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*, "RootMotion.FinalIK", "RotationLimitPolygonal/LimitPoint");

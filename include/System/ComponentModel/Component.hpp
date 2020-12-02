@@ -88,7 +88,7 @@ namespace System::ComponentModel {
     // Base method: System.Void Object::.ctor()
     static Component* New_ctor();
   }; // System.ComponentModel.Component
-  check_size<sizeof(Component), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_ComponentModel_ComponentSizeCheck;
+  check_size<sizeof(Component), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_ComponentModel_ComponentSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Component*, "System.ComponentModel", "Component");

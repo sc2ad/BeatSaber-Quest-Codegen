@@ -25,7 +25,7 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: sockaddr_in
     constexpr sockaddr_in(uint16_t sin_family_ = {}, uint16_t sin_port_ = {}, uint sin_addr_ = {}) noexcept : sin_family{sin_family_}, sin_port{sin_port_}, sin_addr{sin_addr_} {}
   }; // System.Net.NetworkInformation.sockaddr_in
-  check_size<sizeof(sockaddr_in), 4 + sizeof(uint) + 8 - (4 + sizeof(uint)) % 8> __System_Net_NetworkInformation_sockaddr_inSizeCheck;
+  check_size<sizeof(sockaddr_in), 4 + sizeof(uint) + ((4 + sizeof(uint)) % 8 != 0 ? (8 - (4 + sizeof(uint)) % 8) : 0)> __System_Net_NetworkInformation_sockaddr_inSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::sockaddr_in, "System.Net.NetworkInformation", "sockaddr_in");

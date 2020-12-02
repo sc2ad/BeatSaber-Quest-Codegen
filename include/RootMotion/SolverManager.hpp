@@ -96,7 +96,7 @@ namespace RootMotion {
     // Base method: System.Void Object::.ctor()
     static SolverManager* New_ctor();
   }; // RootMotion.SolverManager
-  check_size<sizeof(SolverManager), 50 + sizeof(bool) + 8 - (50 + sizeof(bool)) % 8> __RootMotion_SolverManagerSizeCheck;
+  check_size<sizeof(SolverManager), 50 + sizeof(bool) + ((50 + sizeof(bool)) % 8 != 0 ? (8 - (50 + sizeof(bool)) % 8) : 0)> __RootMotion_SolverManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::SolverManager*, "RootMotion", "SolverManager");

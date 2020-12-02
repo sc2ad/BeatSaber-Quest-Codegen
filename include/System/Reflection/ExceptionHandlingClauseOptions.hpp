@@ -47,7 +47,7 @@ namespace System::Reflection {
     // Set static field: static public System.Reflection.ExceptionHandlingClauseOptions Fault
     static void _set_Fault(System::Reflection::ExceptionHandlingClauseOptions value);
   }; // System.Reflection.ExceptionHandlingClauseOptions
-  check_size<sizeof(ExceptionHandlingClauseOptions), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Reflection_ExceptionHandlingClauseOptionsSizeCheck;
+  check_size<sizeof(ExceptionHandlingClauseOptions), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Reflection_ExceptionHandlingClauseOptionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ExceptionHandlingClauseOptions, "System.Reflection", "ExceptionHandlingClauseOptions");

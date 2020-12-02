@@ -58,7 +58,7 @@ namespace System::Collections {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Collections.ListDictionaryInternal/NodeKeyValueCollection
-  check_size<sizeof(ListDictionaryInternal::NodeKeyValueCollection), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __System_Collections_ListDictionaryInternal_NodeKeyValueCollectionSizeCheck;
+  check_size<sizeof(ListDictionaryInternal::NodeKeyValueCollection), 24 + sizeof(bool) + ((24 + sizeof(bool)) % 8 != 0 ? (8 - (24 + sizeof(bool)) % 8) : 0)> __System_Collections_ListDictionaryInternal_NodeKeyValueCollectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ListDictionaryInternal::NodeKeyValueCollection*, "System.Collections", "ListDictionaryInternal/NodeKeyValueCollection");

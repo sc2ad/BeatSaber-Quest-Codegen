@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Set static field: static public BeatmapDifficulty ExpertPlus
     static void _set_ExpertPlus(GlobalNamespace::BeatmapDifficulty value);
   }; // BeatmapDifficulty
-  check_size<sizeof(BeatmapDifficulty), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_BeatmapDifficultySizeCheck;
+  check_size<sizeof(BeatmapDifficulty), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_BeatmapDifficultySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDifficulty, "", "BeatmapDifficulty");

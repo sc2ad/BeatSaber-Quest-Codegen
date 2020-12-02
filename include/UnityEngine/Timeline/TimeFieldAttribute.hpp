@@ -48,7 +48,7 @@ namespace UnityEngine::Timeline {
       // Set static field: static public UnityEngine.Timeline.TimeFieldAttribute/UseEditMode ApplyEditMode
       static void _set_ApplyEditMode(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode value);
     }; // UnityEngine.Timeline.TimeFieldAttribute/UseEditMode
-    check_size<sizeof(TimeFieldAttribute::UseEditMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Timeline_TimeFieldAttribute_UseEditModeSizeCheck;
+    check_size<sizeof(TimeFieldAttribute::UseEditMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_Timeline_TimeFieldAttribute_UseEditModeSizeCheck;
     // private readonly UnityEngine.Timeline.TimeFieldAttribute/UseEditMode <useEditMode>k__BackingField
     // Offset: 0x10
     UnityEngine::Timeline::TimeFieldAttribute::UseEditMode useEditMode;
@@ -63,7 +63,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x1421880
     static TimeFieldAttribute* New_ctor(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode useEditMode);
   }; // UnityEngine.Timeline.TimeFieldAttribute
-  check_size<sizeof(TimeFieldAttribute), 16 + sizeof(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode) + 8 - (16 + sizeof(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode)) % 8> __UnityEngine_Timeline_TimeFieldAttributeSizeCheck;
+  check_size<sizeof(TimeFieldAttribute), 16 + sizeof(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode) + ((16 + sizeof(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode)) % 8 != 0 ? (8 - (16 + sizeof(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode)) % 8) : 0)> __UnityEngine_Timeline_TimeFieldAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeFieldAttribute*, "UnityEngine.Timeline", "TimeFieldAttribute");

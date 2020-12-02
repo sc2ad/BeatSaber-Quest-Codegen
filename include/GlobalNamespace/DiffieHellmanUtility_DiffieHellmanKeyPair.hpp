@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Base method: System.Byte[] IDiffieHellmanKeyPair::GetPreMasterSecret(System.Byte[] clientPublicKey)
     ::Array<uint8_t>* GetPreMasterSecret(::Array<uint8_t>* clientPublicKey);
   }; // DiffieHellmanUtility/DiffieHellmanKeyPair
-  check_size<sizeof(DiffieHellmanUtility::DiffieHellmanKeyPair), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_DiffieHellmanUtility_DiffieHellmanKeyPairSizeCheck;
+  check_size<sizeof(DiffieHellmanUtility::DiffieHellmanKeyPair), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_DiffieHellmanUtility_DiffieHellmanKeyPairSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair*, "", "DiffieHellmanUtility/DiffieHellmanKeyPair");

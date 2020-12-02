@@ -103,7 +103,7 @@ namespace UnityEngine {
     // Offset: 0xCB9354
     void set_angularVelocity3D(UnityEngine::Vector3 value);
   }; // UnityEngine.ParticleSystem/Particle
-  check_size<sizeof(ParticleSystem::Particle), 128 + sizeof(uint) + 8 - (128 + sizeof(uint)) % 8> __UnityEngine_ParticleSystem_ParticleSizeCheck;
+  check_size<sizeof(ParticleSystem::Particle), 128 + sizeof(uint) + ((128 + sizeof(uint)) % 8 != 0 ? (8 - (128 + sizeof(uint)) % 8) : 0)> __UnityEngine_ParticleSystem_ParticleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::Particle, "UnityEngine", "ParticleSystem/Particle");

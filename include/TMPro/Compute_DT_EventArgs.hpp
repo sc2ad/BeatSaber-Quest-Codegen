@@ -36,7 +36,7 @@ namespace TMPro {
     // Offset: 0xF4D6B0
     static Compute_DT_EventArgs* New_ctor(TMPro::Compute_DistanceTransform_EventTypes type, ::Array<UnityEngine::Color>* colors);
   }; // TMPro.Compute_DT_EventArgs
-  check_size<sizeof(Compute_DT_EventArgs), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __TMPro_Compute_DT_EventArgsSizeCheck;
+  check_size<sizeof(Compute_DT_EventArgs), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __TMPro_Compute_DT_EventArgsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::Compute_DT_EventArgs*, "TMPro", "Compute_DT_EventArgs");

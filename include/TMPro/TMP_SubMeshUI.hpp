@@ -280,7 +280,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static TMP_SubMeshUI* New_ctor();
   }; // TMPro.TMP_SubMeshUI
-  check_size<sizeof(TMP_SubMeshUI), 276 + sizeof(int) + 8 - (276 + sizeof(int)) % 8> __TMPro_TMP_SubMeshUISizeCheck;
+  check_size<sizeof(TMP_SubMeshUI), 276 + sizeof(int) + ((276 + sizeof(int)) % 8 != 0 ? (8 - (276 + sizeof(int)) % 8) : 0)> __TMPro_TMP_SubMeshUISizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SubMeshUI*, "TMPro", "TMP_SubMeshUI");

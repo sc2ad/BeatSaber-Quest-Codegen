@@ -73,7 +73,7 @@ namespace System::Net {
     // Set static field: static public System.Net.WebHeaderCollection/RfcChar Delim
     static void _set_Delim(System::Net::WebHeaderCollection::RfcChar value);
   }; // System.Net.WebHeaderCollection/RfcChar
-  check_size<sizeof(WebHeaderCollection::RfcChar), 0 + sizeof(uint8_t) + 8 - (0 + sizeof(uint8_t)) % 8> __System_Net_WebHeaderCollection_RfcCharSizeCheck;
+  check_size<sizeof(WebHeaderCollection::RfcChar), 0 + sizeof(uint8_t) + ((0 + sizeof(uint8_t)) % 8 != 0 ? (8 - (0 + sizeof(uint8_t)) % 8) : 0)> __System_Net_WebHeaderCollection_RfcCharSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebHeaderCollection::RfcChar, "System.Net", "WebHeaderCollection/RfcChar");

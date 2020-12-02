@@ -33,7 +33,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: DistortionCoordinates_t
     constexpr DistortionCoordinates_t(float rfRed0_ = {}, float rfRed1_ = {}, float rfGreen0_ = {}, float rfGreen1_ = {}, float rfBlue0_ = {}, float rfBlue1_ = {}) noexcept : rfRed0{rfRed0_}, rfRed1{rfRed1_}, rfGreen0{rfGreen0_}, rfGreen1{rfGreen1_}, rfBlue0{rfBlue0_}, rfBlue1{rfBlue1_} {}
   }; // OVR.OpenVR.DistortionCoordinates_t
-  check_size<sizeof(DistortionCoordinates_t), 20 + sizeof(float) + 8 - (20 + sizeof(float)) % 8> __OVR_OpenVR_DistortionCoordinates_tSizeCheck;
+  check_size<sizeof(DistortionCoordinates_t), 20 + sizeof(float) + ((20 + sizeof(float)) % 8 != 0 ? (8 - (20 + sizeof(float)) % 8) : 0)> __OVR_OpenVR_DistortionCoordinates_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::DistortionCoordinates_t, "OVR.OpenVR", "DistortionCoordinates_t");

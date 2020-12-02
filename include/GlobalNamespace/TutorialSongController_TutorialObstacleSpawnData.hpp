@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Offset: 0xFF35AC
     static TutorialSongController::TutorialObstacleSpawnData* New_ctor(GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex, int width, GlobalNamespace::ObstacleType obstacleType);
   }; // TutorialSongController/TutorialObstacleSpawnData
-  check_size<sizeof(TutorialSongController::TutorialObstacleSpawnData), 40 + sizeof(GlobalNamespace::ObstacleType) + 8 - (40 + sizeof(GlobalNamespace::ObstacleType)) % 8> __GlobalNamespace_TutorialSongController_TutorialObstacleSpawnDataSizeCheck;
+  check_size<sizeof(TutorialSongController::TutorialObstacleSpawnData), 40 + sizeof(GlobalNamespace::ObstacleType) + ((40 + sizeof(GlobalNamespace::ObstacleType)) % 8 != 0 ? (8 - (40 + sizeof(GlobalNamespace::ObstacleType)) % 8) : 0)> __GlobalNamespace_TutorialSongController_TutorialObstacleSpawnDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController::TutorialObstacleSpawnData*, "", "TutorialSongController/TutorialObstacleSpawnData");

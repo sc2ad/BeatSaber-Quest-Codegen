@@ -33,7 +33,7 @@ namespace System::Net {
     // Offset: 0xC9B364
     System::Net::CookieVariant get_Variant();
   }; // System.Net.HeaderVariantInfo
-  check_size<sizeof(HeaderVariantInfo), 8 + sizeof(System::Net::CookieVariant) + 8 - (8 + sizeof(System::Net::CookieVariant)) % 8> __System_Net_HeaderVariantInfoSizeCheck;
+  check_size<sizeof(HeaderVariantInfo), 8 + sizeof(System::Net::CookieVariant) + ((8 + sizeof(System::Net::CookieVariant)) % 8 != 0 ? (8 - (8 + sizeof(System::Net::CookieVariant)) % 8) : 0)> __System_Net_HeaderVariantInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderVariantInfo, "System.Net", "HeaderVariantInfo");

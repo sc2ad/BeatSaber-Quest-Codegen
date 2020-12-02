@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PatternFightSceneSetup* New_ctor();
   }; // PatternFightSceneSetup
-  check_size<sizeof(PatternFightSceneSetup), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __GlobalNamespace_PatternFightSceneSetupSizeCheck;
+  check_size<sizeof(PatternFightSceneSetup), 72 + sizeof(void*) + ((72 + sizeof(void*)) % 8 != 0 ? (8 - (72 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_PatternFightSceneSetupSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightSceneSetup*, "", "PatternFightSceneSetup");

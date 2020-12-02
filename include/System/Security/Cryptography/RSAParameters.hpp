@@ -44,7 +44,7 @@ namespace System::Security::Cryptography {
     // Creating value type constructor for type: RSAParameters
     constexpr RSAParameters(::Array<uint8_t>* Exponent_ = {}, ::Array<uint8_t>* Modulus_ = {}, ::Array<uint8_t>* P_ = {}, ::Array<uint8_t>* Q_ = {}, ::Array<uint8_t>* DP_ = {}, ::Array<uint8_t>* DQ_ = {}, ::Array<uint8_t>* InverseQ_ = {}, ::Array<uint8_t>* D_ = {}) noexcept : Exponent{Exponent_}, Modulus{Modulus_}, P{P_}, Q{Q_}, DP{DP_}, DQ{DQ_}, InverseQ{InverseQ_}, D{D_} {}
   }; // System.Security.Cryptography.RSAParameters
-  check_size<sizeof(RSAParameters), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __System_Security_Cryptography_RSAParametersSizeCheck;
+  check_size<sizeof(RSAParameters), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __System_Security_Cryptography_RSAParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAParameters, "System.Security.Cryptography", "RSAParameters");

@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     // Offset: 0xC9923C
     ControllerState2(GlobalNamespace::OVRPlugin::ControllerState cs);
   }; // OVRPlugin/ControllerState2
-  check_size<sizeof(OVRPlugin::ControllerState2), 56 + sizeof(GlobalNamespace::OVRPlugin::Vector2f) + 8 - (56 + sizeof(GlobalNamespace::OVRPlugin::Vector2f)) % 8> __GlobalNamespace_OVRPlugin_ControllerState2SizeCheck;
+  check_size<sizeof(OVRPlugin::ControllerState2), 56 + sizeof(GlobalNamespace::OVRPlugin::Vector2f) + ((56 + sizeof(GlobalNamespace::OVRPlugin::Vector2f)) % 8 != 0 ? (8 - (56 + sizeof(GlobalNamespace::OVRPlugin::Vector2f)) % 8) : 0)> __GlobalNamespace_OVRPlugin_ControllerState2SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::ControllerState2, "", "OVRPlugin/ControllerState2");

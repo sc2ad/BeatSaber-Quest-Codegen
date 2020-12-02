@@ -124,7 +124,7 @@ namespace Zenject {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // Zenject.BindInfo
-  check_size<sizeof(BindInfo), 120 + sizeof(void*) + 8 - (120 + sizeof(void*)) % 8> __Zenject_BindInfoSizeCheck;
+  check_size<sizeof(BindInfo), 120 + sizeof(void*) + ((120 + sizeof(void*)) % 8 != 0 ? (8 - (120 + sizeof(void*)) % 8) : 0)> __Zenject_BindInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::BindInfo*, "Zenject", "BindInfo");

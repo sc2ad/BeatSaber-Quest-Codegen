@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EnableDepthTextureMode* New_ctor();
   }; // EnableDepthTextureMode
-  check_size<sizeof(EnableDepthTextureMode), 24 + sizeof(UnityEngine::DepthTextureMode) + 8 - (24 + sizeof(UnityEngine::DepthTextureMode)) % 8> __GlobalNamespace_EnableDepthTextureModeSizeCheck;
+  check_size<sizeof(EnableDepthTextureMode), 24 + sizeof(UnityEngine::DepthTextureMode) + ((24 + sizeof(UnityEngine::DepthTextureMode)) % 8 != 0 ? (8 - (24 + sizeof(UnityEngine::DepthTextureMode)) % 8) : 0)> __GlobalNamespace_EnableDepthTextureModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableDepthTextureMode*, "", "EnableDepthTextureMode");

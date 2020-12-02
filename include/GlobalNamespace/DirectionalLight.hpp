@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // DirectionalLight
-  check_size<sizeof(DirectionalLight), 40 + sizeof(float) + 8 - (40 + sizeof(float)) % 8> __GlobalNamespace_DirectionalLightSizeCheck;
+  check_size<sizeof(DirectionalLight), 40 + sizeof(float) + ((40 + sizeof(float)) % 8 != 0 ? (8 - (40 + sizeof(float)) % 8) : 0)> __GlobalNamespace_DirectionalLightSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalLight*, "", "DirectionalLight");

@@ -31,7 +31,7 @@ namespace System::Runtime::Remoting::Channels {
     // Creating value type constructor for type: ProcessMessageRes
     constexpr ProcessMessageRes(::Array<uint8_t>* arrResponse_ = {}, System::Runtime::Remoting::Messaging::CADMethodReturnMessage* cadMrm_ = {}) noexcept : arrResponse{arrResponse_}, cadMrm{cadMrm_} {}
   }; // System.Runtime.Remoting.Channels.CrossAppDomainSink/ProcessMessageRes
-  check_size<sizeof(CrossAppDomainSink::ProcessMessageRes), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __System_Runtime_Remoting_Channels_CrossAppDomainSink_ProcessMessageResSizeCheck;
+  check_size<sizeof(CrossAppDomainSink::ProcessMessageRes), 8 + sizeof(void*) + ((8 + sizeof(void*)) % 8 != 0 ? (8 - (8 + sizeof(void*)) % 8) : 0)> __System_Runtime_Remoting_Channels_CrossAppDomainSink_ProcessMessageResSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageRes, "System.Runtime.Remoting.Channels", "CrossAppDomainSink/ProcessMessageRes");

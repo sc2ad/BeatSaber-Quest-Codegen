@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     // Offset: 0x106C0E4
     GlobalNamespace::OVRPose ComputeCameraTrackingSpacePose(GlobalNamespace::OVRPlugin::CameraExtrinsics extrinsics, GlobalNamespace::OVRPlugin::Posef calibrationRawPose);
   }; // OVRComposition
-  check_size<sizeof(OVRComposition), 36 + sizeof(GlobalNamespace::OVRPose) + 8 - (36 + sizeof(GlobalNamespace::OVRPose)) % 8> __GlobalNamespace_OVRCompositionSizeCheck;
+  check_size<sizeof(OVRComposition), 36 + sizeof(GlobalNamespace::OVRPose) + ((36 + sizeof(GlobalNamespace::OVRPose)) % 8 != 0 ? (8 - (36 + sizeof(GlobalNamespace::OVRPose)) % 8) : 0)> __GlobalNamespace_OVRCompositionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRComposition*, "", "OVRComposition");

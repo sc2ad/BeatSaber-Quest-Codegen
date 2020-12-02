@@ -141,7 +141,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Base method: System.Void UnityWorkItem::Cancel(System.Boolean force)
     void Cancel(bool force);
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem
-  check_size<sizeof(CompositeWorkItem), 144 + sizeof(void*) + 8 - (144 + sizeof(void*)) % 8> __UnityEngine_TestRunner_NUnitExtensions_Runner_CompositeWorkItemSizeCheck;
+  check_size<sizeof(CompositeWorkItem), 144 + sizeof(void*) + ((144 + sizeof(void*)) % 8 != 0 ? (8 - (144 + sizeof(void*)) % 8) : 0)> __UnityEngine_TestRunner_NUnitExtensions_Runner_CompositeWorkItemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CompositeWorkItem");

@@ -42,7 +42,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x12FDDE8
     bool IsEmpty();
   }; // System.Runtime.Serialization.Formatters.Binary.SerStack
-  check_size<sizeof(SerStack), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __System_Runtime_Serialization_Formatters_Binary_SerStackSizeCheck;
+  check_size<sizeof(SerStack), 32 + sizeof(int) + ((32 + sizeof(int)) % 8 != 0 ? (8 - (32 + sizeof(int)) % 8) : 0)> __System_Runtime_Serialization_Formatters_Binary_SerStackSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::SerStack*, "System.Runtime.Serialization.Formatters.Binary", "SerStack");

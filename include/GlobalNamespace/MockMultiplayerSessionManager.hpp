@@ -400,7 +400,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MockMultiplayerSessionManager* New_ctor();
   }; // MockMultiplayerSessionManager
-  check_size<sizeof(MockMultiplayerSessionManager), 104 + sizeof(void*) + 8 - (104 + sizeof(void*)) % 8> __GlobalNamespace_MockMultiplayerSessionManagerSizeCheck;
+  check_size<sizeof(MockMultiplayerSessionManager), 104 + sizeof(void*) + ((104 + sizeof(void*)) % 8 != 0 ? (8 - (104 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MockMultiplayerSessionManagerSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMultiplayerSessionManager*, "", "MockMultiplayerSessionManager");
 #pragma pack(pop)

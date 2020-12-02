@@ -101,7 +101,7 @@ namespace HMUI {
       // Set static field: static public HMUI.TableViewScroller/ScrollDirection Right
       static void _set_Right(HMUI::TableViewScroller::ScrollDirection value);
     }; // HMUI.TableViewScroller/ScrollDirection
-    check_size<sizeof(TableViewScroller::ScrollDirection), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __HMUI_TableViewScroller_ScrollDirectionSizeCheck;
+    check_size<sizeof(TableViewScroller::ScrollDirection), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __HMUI_TableViewScroller_ScrollDirectionSizeCheck;
     // private System.Action`2<HMUI.TableViewScroller,System.Single> positionDidChangeEvent
     // Offset: 0x18
     System::Action_2<HMUI::TableViewScroller*, float>* positionDidChangeEvent;
@@ -243,7 +243,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static TableViewScroller* New_ctor();
   }; // HMUI.TableViewScroller
-  check_size<sizeof(TableViewScroller), 120 + sizeof(HMUI::TableViewScroller::ScrollDirection) + 8 - (120 + sizeof(HMUI::TableViewScroller::ScrollDirection)) % 8> __HMUI_TableViewScrollerSizeCheck;
+  check_size<sizeof(TableViewScroller), 120 + sizeof(HMUI::TableViewScroller::ScrollDirection) + ((120 + sizeof(HMUI::TableViewScroller::ScrollDirection)) % 8 != 0 ? (8 - (120 + sizeof(HMUI::TableViewScroller::ScrollDirection)) % 8) : 0)> __HMUI_TableViewScrollerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableViewScroller*, "HMUI", "TableViewScroller");

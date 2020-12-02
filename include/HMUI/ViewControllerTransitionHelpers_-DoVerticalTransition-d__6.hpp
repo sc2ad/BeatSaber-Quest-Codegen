@@ -76,7 +76,7 @@ namespace HMUI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // HMUI.ViewControllerTransitionHelpers/<DoVerticalTransition>d__6
-  check_size<sizeof(ViewControllerTransitionHelpers::$DoVerticalTransition$d__6), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __HMUI_ViewControllerTransitionHelpers_$DoVerticalTransition$d__6SizeCheck;
+  check_size<sizeof(ViewControllerTransitionHelpers::$DoVerticalTransition$d__6), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __HMUI_ViewControllerTransitionHelpers_$DoVerticalTransition$d__6SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewControllerTransitionHelpers::$DoVerticalTransition$d__6*, "HMUI", "ViewControllerTransitionHelpers/<DoVerticalTransition>d__6");

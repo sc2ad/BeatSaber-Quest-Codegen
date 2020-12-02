@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Set static field: static public AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType MultiSceneEditor
     static void _set_MultiSceneEditor(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType value);
   }; // AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType
-  check_size<sizeof(AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_AppInitScenesTransitionSetupDataSO_AppInitOverrideStartTypeSizeCheck;
+  check_size<sizeof(AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_AppInitScenesTransitionSetupDataSO_AppInitOverrideStartTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType, "", "AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType");

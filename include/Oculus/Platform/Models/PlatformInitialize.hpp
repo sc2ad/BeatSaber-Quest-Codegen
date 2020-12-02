@@ -31,7 +31,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DE470
     static PlatformInitialize* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.PlatformInitialize
-  check_size<sizeof(PlatformInitialize), 16 + sizeof(Oculus::Platform::PlatformInitializeResult) + 8 - (16 + sizeof(Oculus::Platform::PlatformInitializeResult)) % 8> __Oculus_Platform_Models_PlatformInitializeSizeCheck;
+  check_size<sizeof(PlatformInitialize), 16 + sizeof(Oculus::Platform::PlatformInitializeResult) + ((16 + sizeof(Oculus::Platform::PlatformInitializeResult)) % 8 != 0 ? (8 - (16 + sizeof(Oculus::Platform::PlatformInitializeResult)) % 8) : 0)> __Oculus_Platform_Models_PlatformInitializeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PlatformInitialize*, "Oculus.Platform.Models", "PlatformInitialize");

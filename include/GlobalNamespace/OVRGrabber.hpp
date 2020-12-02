@@ -171,7 +171,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRGrabber* New_ctor();
   }; // OVRGrabber
-  check_size<sizeof(OVRGrabber), 192 + sizeof(bool) + 8 - (192 + sizeof(bool)) % 8> __GlobalNamespace_OVRGrabberSizeCheck;
+  check_size<sizeof(OVRGrabber), 192 + sizeof(bool) + ((192 + sizeof(bool)) % 8 != 0 ? (8 - (192 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_OVRGrabberSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGrabber*, "", "OVRGrabber");

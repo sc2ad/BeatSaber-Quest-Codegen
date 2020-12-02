@@ -26,7 +26,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: VROverlayIntersectionMaskPrimitive_t
     constexpr VROverlayIntersectionMaskPrimitive_t(Valve::VR::EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType_ = {}, Valve::VR::VROverlayIntersectionMaskPrimitive_Data_t m_Primitive_ = {}) noexcept : m_nPrimitiveType{m_nPrimitiveType_}, m_Primitive{m_Primitive_} {}
   }; // Valve.VR.VROverlayIntersectionMaskPrimitive_t
-  check_size<sizeof(VROverlayIntersectionMaskPrimitive_t), 4 + sizeof(Valve::VR::VROverlayIntersectionMaskPrimitive_Data_t) + 8 - (4 + sizeof(Valve::VR::VROverlayIntersectionMaskPrimitive_Data_t)) % 8> __Valve_VR_VROverlayIntersectionMaskPrimitive_tSizeCheck;
+  check_size<sizeof(VROverlayIntersectionMaskPrimitive_t), 4 + sizeof(Valve::VR::VROverlayIntersectionMaskPrimitive_Data_t) + ((4 + sizeof(Valve::VR::VROverlayIntersectionMaskPrimitive_Data_t)) % 8 != 0 ? (8 - (4 + sizeof(Valve::VR::VROverlayIntersectionMaskPrimitive_Data_t)) % 8) : 0)> __Valve_VR_VROverlayIntersectionMaskPrimitive_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VROverlayIntersectionMaskPrimitive_t, "Valve.VR", "VROverlayIntersectionMaskPrimitive_t");

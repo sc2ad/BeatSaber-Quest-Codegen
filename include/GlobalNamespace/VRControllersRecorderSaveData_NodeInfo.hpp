@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static VRControllersRecorderSaveData::NodeInfo* New_ctor();
   }; // VRControllersRecorderSaveData/NodeInfo
-  check_size<sizeof(VRControllersRecorderSaveData::NodeInfo), 20 + sizeof(int) + 8 - (20 + sizeof(int)) % 8> __GlobalNamespace_VRControllersRecorderSaveData_NodeInfoSizeCheck;
+  check_size<sizeof(VRControllersRecorderSaveData::NodeInfo), 20 + sizeof(int) + ((20 + sizeof(int)) % 8 != 0 ? (8 - (20 + sizeof(int)) % 8) : 0)> __GlobalNamespace_VRControllersRecorderSaveData_NodeInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*, "", "VRControllersRecorderSaveData/NodeInfo");

@@ -64,7 +64,7 @@ namespace System::Security::Cryptography {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Security.Cryptography.RSASignaturePadding
-  check_size<sizeof(RSASignaturePadding), 16 + sizeof(System::Security::Cryptography::RSASignaturePaddingMode) + 8 - (16 + sizeof(System::Security::Cryptography::RSASignaturePaddingMode)) % 8> __System_Security_Cryptography_RSASignaturePaddingSizeCheck;
+  check_size<sizeof(RSASignaturePadding), 16 + sizeof(System::Security::Cryptography::RSASignaturePaddingMode) + ((16 + sizeof(System::Security::Cryptography::RSASignaturePaddingMode)) % 8 != 0 ? (8 - (16 + sizeof(System::Security::Cryptography::RSASignaturePaddingMode)) % 8) : 0)> __System_Security_Cryptography_RSASignaturePaddingSizeCheck;
   // static public System.Boolean op_Equality(System.Security.Cryptography.RSASignaturePadding left, System.Security.Cryptography.RSASignaturePadding right)
   // Offset: 0x169E00C
   bool operator ==(System::Security::Cryptography::RSASignaturePadding* left, System::Security::Cryptography::RSASignaturePadding& right);

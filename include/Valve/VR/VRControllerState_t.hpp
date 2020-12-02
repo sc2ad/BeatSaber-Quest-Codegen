@@ -42,7 +42,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: VRControllerState_t
     constexpr VRControllerState_t(uint unPacketNum_ = {}, uint64_t ulButtonPressed_ = {}, uint64_t ulButtonTouched_ = {}, Valve::VR::VRControllerAxis_t rAxis0_ = {}, Valve::VR::VRControllerAxis_t rAxis1_ = {}, Valve::VR::VRControllerAxis_t rAxis2_ = {}, Valve::VR::VRControllerAxis_t rAxis3_ = {}, Valve::VR::VRControllerAxis_t rAxis4_ = {}) noexcept : unPacketNum{unPacketNum_}, ulButtonPressed{ulButtonPressed_}, ulButtonTouched{ulButtonTouched_}, rAxis0{rAxis0_}, rAxis1{rAxis1_}, rAxis2{rAxis2_}, rAxis3{rAxis3_}, rAxis4{rAxis4_} {}
   }; // Valve.VR.VRControllerState_t
-  check_size<sizeof(VRControllerState_t), 56 + sizeof(Valve::VR::VRControllerAxis_t) + 8 - (56 + sizeof(Valve::VR::VRControllerAxis_t)) % 8> __Valve_VR_VRControllerState_tSizeCheck;
+  check_size<sizeof(VRControllerState_t), 56 + sizeof(Valve::VR::VRControllerAxis_t) + ((56 + sizeof(Valve::VR::VRControllerAxis_t)) % 8 != 0 ? (8 - (56 + sizeof(Valve::VR::VRControllerAxis_t)) % 8) : 0)> __Valve_VR_VRControllerState_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRControllerState_t, "Valve.VR", "VRControllerState_t");

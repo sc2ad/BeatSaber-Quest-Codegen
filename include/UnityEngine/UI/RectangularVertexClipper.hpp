@@ -39,7 +39,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static RectangularVertexClipper* New_ctor();
   }; // UnityEngine.UI.RectangularVertexClipper
-  check_size<sizeof(RectangularVertexClipper), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_UI_RectangularVertexClipperSizeCheck;
+  check_size<sizeof(RectangularVertexClipper), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __UnityEngine_UI_RectangularVertexClipperSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::RectangularVertexClipper*, "UnityEngine.UI", "RectangularVertexClipper");

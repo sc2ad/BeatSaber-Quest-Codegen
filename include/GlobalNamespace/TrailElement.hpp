@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static TrailElement* New_ctor();
   }; // TrailElement
-  check_size<sizeof(TrailElement), 44 + sizeof(float) + 8 - (44 + sizeof(float)) % 8> __GlobalNamespace_TrailElementSizeCheck;
+  check_size<sizeof(TrailElement), 44 + sizeof(float) + ((44 + sizeof(float)) % 8 != 0 ? (8 - (44 + sizeof(float)) % 8) : 0)> __GlobalNamespace_TrailElementSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrailElement*, "", "TrailElement");

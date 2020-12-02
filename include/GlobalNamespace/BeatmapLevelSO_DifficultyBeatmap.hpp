@@ -97,7 +97,7 @@ namespace GlobalNamespace {
     // Base method: IDifficultyBeatmapSet IDifficultyBeatmap::get_parentDifficultyBeatmapSet()
     GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
   }; // BeatmapLevelSO/DifficultyBeatmap
-  check_size<sizeof(BeatmapLevelSO::DifficultyBeatmap), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapLevelSO_DifficultyBeatmapSizeCheck;
+  check_size<sizeof(BeatmapLevelSO::DifficultyBeatmap), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_BeatmapLevelSO_DifficultyBeatmapSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*, "", "BeatmapLevelSO/DifficultyBeatmap");

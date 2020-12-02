@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MultiplayerController/<PerformSongStartSync>d__31
-  check_size<sizeof(MultiplayerController::$PerformSongStartSync$d__31), 40 + sizeof(GlobalNamespace::MultiplayerPlayerStartState) + 8 - (40 + sizeof(GlobalNamespace::MultiplayerPlayerStartState)) % 8> __GlobalNamespace_MultiplayerController_$PerformSongStartSync$d__31SizeCheck;
+  check_size<sizeof(MultiplayerController::$PerformSongStartSync$d__31), 40 + sizeof(GlobalNamespace::MultiplayerPlayerStartState) + ((40 + sizeof(GlobalNamespace::MultiplayerPlayerStartState)) % 8 != 0 ? (8 - (40 + sizeof(GlobalNamespace::MultiplayerPlayerStartState)) % 8) : 0)> __GlobalNamespace_MultiplayerController_$PerformSongStartSync$d__31SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerController::$PerformSongStartSync$d__31*, "", "MultiplayerController/<PerformSongStartSync>d__31");

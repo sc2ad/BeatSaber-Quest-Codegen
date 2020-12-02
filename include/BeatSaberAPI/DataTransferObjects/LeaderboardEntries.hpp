@@ -31,7 +31,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Base method: System.Void Object::.ctor()
     static LeaderboardEntries* New_ctor();
   }; // BeatSaberAPI.DataTransferObjects.LeaderboardEntries
-  check_size<sizeof(LeaderboardEntries), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __BeatSaberAPI_DataTransferObjects_LeaderboardEntriesSizeCheck;
+  check_size<sizeof(LeaderboardEntries), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __BeatSaberAPI_DataTransferObjects_LeaderboardEntriesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LeaderboardEntries*, "BeatSaberAPI.DataTransferObjects", "LeaderboardEntries");

@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Offset: 0xF13A4C
     static HealthWarningFlowCoordinator::InitData* New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
   }; // HealthWarningFlowCoordinator/InitData
-  check_size<sizeof(HealthWarningFlowCoordinator::InitData), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_HealthWarningFlowCoordinator_InitDataSizeCheck;
+  check_size<sizeof(HealthWarningFlowCoordinator::InitData), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_HealthWarningFlowCoordinator_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningFlowCoordinator::InitData*, "", "HealthWarningFlowCoordinator/InitData");

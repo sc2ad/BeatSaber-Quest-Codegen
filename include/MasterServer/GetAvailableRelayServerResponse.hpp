@@ -71,7 +71,7 @@ namespace MasterServer {
       // Set static field: static public MasterServer.GetAvailableRelayServerResponse/Result UnknownError
       static void _set_UnknownError(MasterServer::GetAvailableRelayServerResponse::Result value);
     }; // MasterServer.GetAvailableRelayServerResponse/Result
-    check_size<sizeof(GetAvailableRelayServerResponse::Result), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __MasterServer_GetAvailableRelayServerResponse_ResultSizeCheck;
+    check_size<sizeof(GetAvailableRelayServerResponse::Result), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __MasterServer_GetAvailableRelayServerResponse_ResultSizeCheck;
     // public MasterServer.GetAvailableRelayServerResponse/Result result
     // Offset: 0x18
     MasterServer::GetAvailableRelayServerResponse::Result result;
@@ -160,7 +160,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static GetAvailableRelayServerResponse* New_ctor();
   }; // MasterServer.GetAvailableRelayServerResponse
-  check_size<sizeof(GetAvailableRelayServerResponse), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __MasterServer_GetAvailableRelayServerResponseSizeCheck;
+  check_size<sizeof(GetAvailableRelayServerResponse), 72 + sizeof(void*) + ((72 + sizeof(void*)) % 8 != 0 ? (8 - (72 + sizeof(void*)) % 8) : 0)> __MasterServer_GetAvailableRelayServerResponseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetAvailableRelayServerResponse*, "MasterServer", "GetAvailableRelayServerResponse");

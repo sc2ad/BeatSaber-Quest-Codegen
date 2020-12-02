@@ -53,7 +53,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.MeshTopology Points
     static void _set_Points(UnityEngine::MeshTopology value);
   }; // UnityEngine.MeshTopology
-  check_size<sizeof(MeshTopology), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_MeshTopologySizeCheck;
+  check_size<sizeof(MeshTopology), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_MeshTopologySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MeshTopology, "UnityEngine", "MeshTopology");

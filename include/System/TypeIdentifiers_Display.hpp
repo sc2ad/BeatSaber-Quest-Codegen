@@ -44,7 +44,7 @@ namespace System {
     // Base method: System.String TypeIdentifier::get_InternalName()
     ::Il2CppString* get_InternalName();
   }; // System.TypeIdentifiers/Display
-  check_size<sizeof(TypeIdentifiers::Display), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_TypeIdentifiers_DisplaySizeCheck;
+  check_size<sizeof(TypeIdentifiers::Display), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_TypeIdentifiers_DisplaySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TypeIdentifiers::Display*, "System", "TypeIdentifiers/Display");

@@ -251,7 +251,7 @@ namespace System::Runtime::InteropServices {
     // Set static field: static public System.Runtime.InteropServices.UnmanagedType LPUTF8Str
     static void _set_LPUTF8Str(System::Runtime::InteropServices::UnmanagedType value);
   }; // System.Runtime.InteropServices.UnmanagedType
-  check_size<sizeof(UnmanagedType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Runtime_InteropServices_UnmanagedTypeSizeCheck;
+  check_size<sizeof(UnmanagedType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Runtime_InteropServices_UnmanagedTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::UnmanagedType, "System.Runtime.InteropServices", "UnmanagedType");

@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerConnectedPlayerGameNoteController* New_ctor();
   }; // MultiplayerConnectedPlayerGameNoteController
-  check_size<sizeof(MultiplayerConnectedPlayerGameNoteController), 144 + sizeof(GlobalNamespace::GameNoteController_GameNoteType) + 8 - (144 + sizeof(GlobalNamespace::GameNoteController_GameNoteType)) % 8> __GlobalNamespace_MultiplayerConnectedPlayerGameNoteControllerSizeCheck;
+  check_size<sizeof(MultiplayerConnectedPlayerGameNoteController), 144 + sizeof(GlobalNamespace::GameNoteController_GameNoteType) + ((144 + sizeof(GlobalNamespace::GameNoteController_GameNoteType)) % 8 != 0 ? (8 - (144 + sizeof(GlobalNamespace::GameNoteController_GameNoteType)) % 8) : 0)> __GlobalNamespace_MultiplayerConnectedPlayerGameNoteControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*, "", "MultiplayerConnectedPlayerGameNoteController");

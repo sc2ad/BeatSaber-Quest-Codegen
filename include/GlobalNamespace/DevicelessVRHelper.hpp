@@ -179,7 +179,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static DevicelessVRHelper* New_ctor();
   }; // DevicelessVRHelper
-  check_size<sizeof(DevicelessVRHelper), 72 + sizeof(bool) + 8 - (72 + sizeof(bool)) % 8> __GlobalNamespace_DevicelessVRHelperSizeCheck;
+  check_size<sizeof(DevicelessVRHelper), 72 + sizeof(bool) + ((72 + sizeof(bool)) % 8 != 0 ? (8 - (72 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_DevicelessVRHelperSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DevicelessVRHelper*, "", "DevicelessVRHelper");

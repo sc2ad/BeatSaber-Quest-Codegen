@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerGameplayAnimator* New_ctor();
   }; // MultiplayerGameplayAnimator
-  check_size<sizeof(MultiplayerGameplayAnimator), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerGameplayAnimatorSizeCheck;
+  check_size<sizeof(MultiplayerGameplayAnimator), 96 + sizeof(void*) + ((96 + sizeof(void*)) % 8 != 0 ? (8 - (96 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MultiplayerGameplayAnimatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerGameplayAnimator*, "", "MultiplayerGameplayAnimator");

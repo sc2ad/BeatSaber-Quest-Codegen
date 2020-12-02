@@ -35,7 +35,7 @@ namespace TMPro {
     // Set static field: static public TMPro.TextRenderFlags Render
     static void _set_Render(TMPro::TextRenderFlags value);
   }; // TMPro.TextRenderFlags
-  check_size<sizeof(TextRenderFlags), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __TMPro_TextRenderFlagsSizeCheck;
+  check_size<sizeof(TextRenderFlags), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __TMPro_TextRenderFlagsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TextRenderFlags, "TMPro", "TextRenderFlags");

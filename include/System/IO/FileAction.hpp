@@ -53,7 +53,7 @@ namespace System::IO {
     // Set static field: static public System.IO.FileAction RenamedNewName
     static void _set_RenamedNewName(System::IO::FileAction value);
   }; // System.IO.FileAction
-  check_size<sizeof(FileAction), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_IO_FileActionSizeCheck;
+  check_size<sizeof(FileAction), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_IO_FileActionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileAction, "System.IO", "FileAction");

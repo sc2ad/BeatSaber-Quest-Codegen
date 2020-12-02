@@ -37,7 +37,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static TextPageScrollView* New_ctor();
   }; // HMUI.TextPageScrollView
-  check_size<sizeof(TextPageScrollView), 144 + sizeof(void*) + 8 - (144 + sizeof(void*)) % 8> __HMUI_TextPageScrollViewSizeCheck;
+  check_size<sizeof(TextPageScrollView), 144 + sizeof(void*) + ((144 + sizeof(void*)) % 8 != 0 ? (8 - (144 + sizeof(void*)) % 8) : 0)> __HMUI_TextPageScrollViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextPageScrollView*, "HMUI", "TextPageScrollView");

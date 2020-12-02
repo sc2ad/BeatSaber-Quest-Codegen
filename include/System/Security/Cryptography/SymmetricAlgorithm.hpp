@@ -143,7 +143,7 @@ namespace System::Security::Cryptography {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Security.Cryptography.SymmetricAlgorithm
-  check_size<sizeof(SymmetricAlgorithm), 64 + sizeof(System::Security::Cryptography::PaddingMode) + 8 - (64 + sizeof(System::Security::Cryptography::PaddingMode)) % 8> __System_Security_Cryptography_SymmetricAlgorithmSizeCheck;
+  check_size<sizeof(SymmetricAlgorithm), 64 + sizeof(System::Security::Cryptography::PaddingMode) + ((64 + sizeof(System::Security::Cryptography::PaddingMode)) % 8 != 0 ? (8 - (64 + sizeof(System::Security::Cryptography::PaddingMode)) % 8) : 0)> __System_Security_Cryptography_SymmetricAlgorithmSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SymmetricAlgorithm*, "System.Security.Cryptography", "SymmetricAlgorithm");

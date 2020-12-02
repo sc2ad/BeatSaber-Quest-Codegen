@@ -58,7 +58,7 @@ namespace Mono::Net {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Mono.Net.CFString
-  check_size<sizeof(CFString), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Mono_Net_CFStringSizeCheck;
+  check_size<sizeof(CFString), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Mono_Net_CFStringSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFString*, "Mono.Net", "CFString");

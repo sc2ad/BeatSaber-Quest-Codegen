@@ -41,7 +41,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.VROverlayInputMethod DualAnalog
     static void _set_DualAnalog(Valve::VR::VROverlayInputMethod value);
   }; // Valve.VR.VROverlayInputMethod
-  check_size<sizeof(VROverlayInputMethod), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Valve_VR_VROverlayInputMethodSizeCheck;
+  check_size<sizeof(VROverlayInputMethod), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Valve_VR_VROverlayInputMethodSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VROverlayInputMethod, "Valve.VR", "VROverlayInputMethod");

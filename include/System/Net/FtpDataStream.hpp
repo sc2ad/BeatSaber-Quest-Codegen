@@ -159,7 +159,7 @@ namespace System::Net {
     // Base method: System.Void Stream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // System.Net.FtpDataStream
-  check_size<sizeof(FtpDataStream), 60 + sizeof(int) + 8 - (60 + sizeof(int)) % 8> __System_Net_FtpDataStreamSizeCheck;
+  check_size<sizeof(FtpDataStream), 60 + sizeof(int) + ((60 + sizeof(int)) % 8 != 0 ? (8 - (60 + sizeof(int)) % 8) : 0)> __System_Net_FtpDataStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpDataStream*, "System.Net", "FtpDataStream");

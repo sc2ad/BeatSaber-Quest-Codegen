@@ -76,7 +76,7 @@ namespace UnityEngine::Timeline {
       // Offset: 0xC9F8B8
       bool get_triggerOnce();
     }; // UnityEngine.Timeline.TimeNotificationBehaviour/NotificationEntry
-    check_size<sizeof(TimeNotificationBehaviour::NotificationEntry), 18 + sizeof(UnityEngine::Timeline::NotificationFlags) + 8 - (18 + sizeof(UnityEngine::Timeline::NotificationFlags)) % 8> __UnityEngine_Timeline_TimeNotificationBehaviour_NotificationEntrySizeCheck;
+    check_size<sizeof(TimeNotificationBehaviour::NotificationEntry), 18 + sizeof(UnityEngine::Timeline::NotificationFlags) + ((18 + sizeof(UnityEngine::Timeline::NotificationFlags)) % 8 != 0 ? (8 - (18 + sizeof(UnityEngine::Timeline::NotificationFlags)) % 8) : 0)> __UnityEngine_Timeline_TimeNotificationBehaviour_NotificationEntrySizeCheck;
     // private readonly System.Collections.Generic.List`1<UnityEngine.Timeline.TimeNotificationBehaviour/NotificationEntry> m_Notifications
     // Offset: 0x10
     System::Collections::Generic::List_1<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>* m_Notifications;
@@ -138,7 +138,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     static TimeNotificationBehaviour* New_ctor();
   }; // UnityEngine.Timeline.TimeNotificationBehaviour
-  check_size<sizeof(TimeNotificationBehaviour), 40 + sizeof(UnityEngine::Playables::Playable) + 8 - (40 + sizeof(UnityEngine::Playables::Playable)) % 8> __UnityEngine_Timeline_TimeNotificationBehaviourSizeCheck;
+  check_size<sizeof(TimeNotificationBehaviour), 40 + sizeof(UnityEngine::Playables::Playable) + ((40 + sizeof(UnityEngine::Playables::Playable)) % 8 != 0 ? (8 - (40 + sizeof(UnityEngine::Playables::Playable)) % 8) : 0)> __UnityEngine_Timeline_TimeNotificationBehaviourSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeNotificationBehaviour*, "UnityEngine.Timeline", "TimeNotificationBehaviour");

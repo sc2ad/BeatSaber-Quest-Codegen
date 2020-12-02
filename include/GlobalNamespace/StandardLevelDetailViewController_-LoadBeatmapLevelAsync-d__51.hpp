@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // StandardLevelDetailViewController/<LoadBeatmapLevelAsync>d__51
-  check_size<sizeof(StandardLevelDetailViewController::$LoadBeatmapLevelAsync$d__51), 64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>) + 8 - (64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>)) % 8> __GlobalNamespace_StandardLevelDetailViewController_$LoadBeatmapLevelAsync$d__51SizeCheck;
+  check_size<sizeof(StandardLevelDetailViewController::$LoadBeatmapLevelAsync$d__51), 64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>) + ((64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>)) % 8 != 0 ? (8 - (64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>)) % 8) : 0)> __GlobalNamespace_StandardLevelDetailViewController_$LoadBeatmapLevelAsync$d__51SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController::$LoadBeatmapLevelAsync$d__51, "", "StandardLevelDetailViewController/<LoadBeatmapLevelAsync>d__51");

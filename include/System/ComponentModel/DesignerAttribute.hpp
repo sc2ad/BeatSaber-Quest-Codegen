@@ -43,7 +43,7 @@ namespace System::ComponentModel {
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();
   }; // System.ComponentModel.DesignerAttribute
-  check_size<sizeof(DesignerAttribute), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_ComponentModel_DesignerAttributeSizeCheck;
+  check_size<sizeof(DesignerAttribute), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_ComponentModel_DesignerAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DesignerAttribute*, "System.ComponentModel", "DesignerAttribute");

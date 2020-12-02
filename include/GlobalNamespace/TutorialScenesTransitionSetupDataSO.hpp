@@ -64,7 +64,7 @@ namespace GlobalNamespace {
       // Set static field: static public TutorialScenesTransitionSetupDataSO/TutorialEndStateType Restart
       static void _set_Restart(GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType value);
     }; // TutorialScenesTransitionSetupDataSO/TutorialEndStateType
-    check_size<sizeof(TutorialScenesTransitionSetupDataSO::TutorialEndStateType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_TutorialScenesTransitionSetupDataSO_TutorialEndStateTypeSizeCheck;
+    check_size<sizeof(TutorialScenesTransitionSetupDataSO::TutorialEndStateType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_TutorialScenesTransitionSetupDataSO_TutorialEndStateTypeSizeCheck;
     // private EnvironmentInfoSO _environmentInfo
     // Offset: 0x28
     GlobalNamespace::EnvironmentInfoSO* environmentInfo;
@@ -99,7 +99,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static TutorialScenesTransitionSetupDataSO* New_ctor();
   }; // TutorialScenesTransitionSetupDataSO
-  check_size<sizeof(TutorialScenesTransitionSetupDataSO), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __GlobalNamespace_TutorialScenesTransitionSetupDataSOSizeCheck;
+  check_size<sizeof(TutorialScenesTransitionSetupDataSO), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_TutorialScenesTransitionSetupDataSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialScenesTransitionSetupDataSO*, "", "TutorialScenesTransitionSetupDataSO");

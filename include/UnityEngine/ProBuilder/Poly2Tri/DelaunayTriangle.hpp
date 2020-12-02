@@ -124,7 +124,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle
-  check_size<sizeof(DelaunayTriangle), 70 + sizeof(bool) + 8 - (70 + sizeof(bool)) % 8> __UnityEngine_ProBuilder_Poly2Tri_DelaunayTriangleSizeCheck;
+  check_size<sizeof(DelaunayTriangle), 70 + sizeof(bool) + ((70 + sizeof(bool)) % 8 != 0 ? (8 - (70 + sizeof(bool)) % 8) : 0)> __UnityEngine_ProBuilder_Poly2Tri_DelaunayTriangleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, "UnityEngine.ProBuilder.Poly2Tri", "DelaunayTriangle");

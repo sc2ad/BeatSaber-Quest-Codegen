@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Offset: 0xE7F330
     // ABORTED: conflicts with another method.  ComputeControlPointsResults(::Array<float>* p1, ::Array<float>* p2);
   }; // BezierSpline/ComputeControlPointsResults
-  check_size<sizeof(BezierSpline::ComputeControlPointsResults), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __GlobalNamespace_BezierSpline_ComputeControlPointsResultsSizeCheck;
+  check_size<sizeof(BezierSpline::ComputeControlPointsResults), 8 + sizeof(void*) + ((8 + sizeof(void*)) % 8 != 0 ? (8 - (8 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_BezierSpline_ComputeControlPointsResultsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSpline::ComputeControlPointsResults, "", "BezierSpline/ComputeControlPointsResults");

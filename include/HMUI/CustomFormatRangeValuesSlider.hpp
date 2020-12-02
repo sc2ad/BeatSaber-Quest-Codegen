@@ -35,7 +35,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static CustomFormatRangeValuesSlider* New_ctor();
   }; // HMUI.CustomFormatRangeValuesSlider
-  check_size<sizeof(CustomFormatRangeValuesSlider), 352 + sizeof(void*) + 8 - (352 + sizeof(void*)) % 8> __HMUI_CustomFormatRangeValuesSliderSizeCheck;
+  check_size<sizeof(CustomFormatRangeValuesSlider), 352 + sizeof(void*) + ((352 + sizeof(void*)) % 8 != 0 ? (8 - (352 + sizeof(void*)) % 8) : 0)> __HMUI_CustomFormatRangeValuesSliderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CustomFormatRangeValuesSlider*, "HMUI", "CustomFormatRangeValuesSlider");

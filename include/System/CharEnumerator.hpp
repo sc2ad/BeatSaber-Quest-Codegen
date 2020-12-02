@@ -86,7 +86,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static CharEnumerator* New_ctor();
   }; // System.CharEnumerator
-  check_size<sizeof(CharEnumerator), 28 + sizeof(::Il2CppChar) + 8 - (28 + sizeof(::Il2CppChar)) % 8> __System_CharEnumeratorSizeCheck;
+  check_size<sizeof(CharEnumerator), 28 + sizeof(::Il2CppChar) + ((28 + sizeof(::Il2CppChar)) % 8 != 0 ? (8 - (28 + sizeof(::Il2CppChar)) % 8) : 0)> __System_CharEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::CharEnumerator*, "System", "CharEnumerator");

@@ -124,7 +124,7 @@ namespace NUnit::Framework::Constraints {
     // Base method: System.Void ConstraintResult::WriteMessageTo(NUnit.Framework.Constraints.MessageWriter writer)
     void WriteMessageTo(NUnit::Framework::Constraints::MessageWriter* writer);
   }; // NUnit.Framework.Constraints.EqualConstraintResult
-  check_size<sizeof(EqualConstraintResult), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __NUnit_Framework_Constraints_EqualConstraintResultSizeCheck;
+  check_size<sizeof(EqualConstraintResult), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __NUnit_Framework_Constraints_EqualConstraintResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::EqualConstraintResult*, "NUnit.Framework.Constraints", "EqualConstraintResult");

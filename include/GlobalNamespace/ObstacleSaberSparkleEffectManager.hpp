@@ -136,7 +136,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ObstacleSaberSparkleEffectManager* New_ctor();
   }; // ObstacleSaberSparkleEffectManager
-  check_size<sizeof(ObstacleSaberSparkleEffectManager), 128 + sizeof(void*) + 8 - (128 + sizeof(void*)) % 8> __GlobalNamespace_ObstacleSaberSparkleEffectManagerSizeCheck;
+  check_size<sizeof(ObstacleSaberSparkleEffectManager), 128 + sizeof(void*) + ((128 + sizeof(void*)) % 8 != 0 ? (8 - (128 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_ObstacleSaberSparkleEffectManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleSaberSparkleEffectManager*, "", "ObstacleSaberSparkleEffectManager");

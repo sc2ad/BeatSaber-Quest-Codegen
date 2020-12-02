@@ -93,7 +93,7 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void Object::.ctor()
     static RegexFCD* New_ctor();
   }; // System.Text.RegularExpressions.RegexFCD
-  check_size<sizeof(RegexFCD), 46 + sizeof(bool) + 8 - (46 + sizeof(bool)) % 8> __System_Text_RegularExpressions_RegexFCDSizeCheck;
+  check_size<sizeof(RegexFCD), 46 + sizeof(bool) + ((46 + sizeof(bool)) % 8 != 0 ? (8 - (46 + sizeof(bool)) % 8) : 0)> __System_Text_RegularExpressions_RegexFCDSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexFCD*, "System.Text.RegularExpressions", "RegexFCD");

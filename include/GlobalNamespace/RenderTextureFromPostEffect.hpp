@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static RenderTextureFromPostEffect* New_ctor();
   }; // RenderTextureFromPostEffect
-  check_size<sizeof(RenderTextureFromPostEffect), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_RenderTextureFromPostEffectSizeCheck;
+  check_size<sizeof(RenderTextureFromPostEffect), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_RenderTextureFromPostEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RenderTextureFromPostEffect*, "", "RenderTextureFromPostEffect");

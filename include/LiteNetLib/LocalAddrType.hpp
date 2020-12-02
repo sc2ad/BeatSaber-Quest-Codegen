@@ -41,7 +41,7 @@ namespace LiteNetLib {
     // Set static field: static public LiteNetLib.LocalAddrType All
     static void _set_All(LiteNetLib::LocalAddrType value);
   }; // LiteNetLib.LocalAddrType
-  check_size<sizeof(LocalAddrType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __LiteNetLib_LocalAddrTypeSizeCheck;
+  check_size<sizeof(LocalAddrType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __LiteNetLib_LocalAddrTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::LocalAddrType, "LiteNetLib", "LocalAddrType");

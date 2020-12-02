@@ -63,7 +63,7 @@ namespace TMPro {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // TMPro.TMP_ColorGradient
-  check_size<sizeof(TMP_ColorGradient), 76 + sizeof(UnityEngine::Color) + 8 - (76 + sizeof(UnityEngine::Color)) % 8> __TMPro_TMP_ColorGradientSizeCheck;
+  check_size<sizeof(TMP_ColorGradient), 76 + sizeof(UnityEngine::Color) + ((76 + sizeof(UnityEngine::Color)) % 8 != 0 ? (8 - (76 + sizeof(UnityEngine::Color)) % 8) : 0)> __TMPro_TMP_ColorGradientSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_ColorGradient*, "TMPro", "TMP_ColorGradient");

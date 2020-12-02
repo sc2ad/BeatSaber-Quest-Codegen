@@ -86,7 +86,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::ImportPoint(Org.BouncyCastle.Math.EC.ECPoint p)
     Org::BouncyCastle::Math::EC::ECPoint* ImportPoint(Org::BouncyCastle::Math::EC::ECPoint* p);
   }; // Org.BouncyCastle.Math.EC.FpCurve
-  check_size<sizeof(FpCurve), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_EC_FpCurveSizeCheck;
+  check_size<sizeof(FpCurve), 96 + sizeof(void*) + ((96 + sizeof(void*)) % 8 != 0 ? (8 - (96 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Math_EC_FpCurveSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::FpCurve*, "Org.BouncyCastle.Math.EC", "FpCurve");

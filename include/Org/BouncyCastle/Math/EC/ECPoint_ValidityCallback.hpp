@@ -44,7 +44,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Base method: Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo IPreCompCallback::Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
     Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
   }; // Org.BouncyCastle.Math.EC.ECPoint/ValidityCallback
-  check_size<sizeof(ECPoint::ValidityCallback), 25 + sizeof(bool) + 8 - (25 + sizeof(bool)) % 8> __Org_BouncyCastle_Math_EC_ECPoint_ValidityCallbackSizeCheck;
+  check_size<sizeof(ECPoint::ValidityCallback), 25 + sizeof(bool) + ((25 + sizeof(bool)) % 8 != 0 ? (8 - (25 + sizeof(bool)) % 8) : 0)> __Org_BouncyCastle_Math_EC_ECPoint_ValidityCallbackSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback*, "Org.BouncyCastle.Math.EC", "ECPoint/ValidityCallback");

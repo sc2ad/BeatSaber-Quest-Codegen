@@ -47,7 +47,7 @@ namespace System::Runtime::Remoting::Activation {
     // Base method: System.Runtime.Remoting.Activation.IConstructionReturnMessage IActivator::Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage ctorCall)
     System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
   }; // System.Runtime.Remoting.Activation.ContextLevelActivator
-  check_size<sizeof(ContextLevelActivator), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Runtime_Remoting_Activation_ContextLevelActivatorSizeCheck;
+  check_size<sizeof(ContextLevelActivator), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Runtime_Remoting_Activation_ContextLevelActivatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::ContextLevelActivator*, "System.Runtime.Remoting.Activation", "ContextLevelActivator");

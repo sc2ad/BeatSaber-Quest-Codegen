@@ -33,7 +33,7 @@ namespace System::Reflection::Emit {
     // Offset: 0x34
     int endOffset;
   }; // System.Reflection.Emit.LocalBuilder
-  check_size<sizeof(LocalBuilder), 52 + sizeof(int) + 8 - (52 + sizeof(int)) % 8> __System_Reflection_Emit_LocalBuilderSizeCheck;
+  check_size<sizeof(LocalBuilder), 52 + sizeof(int) + ((52 + sizeof(int)) % 8 != 0 ? (8 - (52 + sizeof(int)) % 8) : 0)> __System_Reflection_Emit_LocalBuilderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::LocalBuilder*, "System.Reflection.Emit", "LocalBuilder");

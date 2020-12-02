@@ -40,7 +40,7 @@ namespace Zenject::Internal {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Zenject.Internal.LookupId
-  check_size<sizeof(LookupId), 24 + sizeof(Zenject::BindingId) + 8 - (24 + sizeof(Zenject::BindingId)) % 8> __Zenject_Internal_LookupIdSizeCheck;
+  check_size<sizeof(LookupId), 24 + sizeof(Zenject::BindingId) + ((24 + sizeof(Zenject::BindingId)) % 8 != 0 ? (8 - (24 + sizeof(Zenject::BindingId)) % 8) : 0)> __Zenject_Internal_LookupIdSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::LookupId*, "Zenject.Internal", "LookupId");

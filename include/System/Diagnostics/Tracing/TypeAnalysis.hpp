@@ -61,7 +61,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x1122458
     static TypeAnalysis* New_ctor(System::Type* dataType, System::Diagnostics::Tracing::EventDataAttribute* eventAttrib, System::Collections::Generic::List_1<System::Type*>* recursionCheck);
   }; // System.Diagnostics.Tracing.TypeAnalysis
-  check_size<sizeof(TypeAnalysis), 48 + sizeof(System::Diagnostics::Tracing::EventTags) + 8 - (48 + sizeof(System::Diagnostics::Tracing::EventTags)) % 8> __System_Diagnostics_Tracing_TypeAnalysisSizeCheck;
+  check_size<sizeof(TypeAnalysis), 48 + sizeof(System::Diagnostics::Tracing::EventTags) + ((48 + sizeof(System::Diagnostics::Tracing::EventTags)) % 8 != 0 ? (8 - (48 + sizeof(System::Diagnostics::Tracing::EventTags)) % 8) : 0)> __System_Diagnostics_Tracing_TypeAnalysisSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::TypeAnalysis*, "System.Diagnostics.Tracing", "TypeAnalysis");

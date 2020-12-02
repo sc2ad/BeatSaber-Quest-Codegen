@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerVerticalPlayerMovementManager* New_ctor();
   }; // MultiplayerVerticalPlayerMovementManager
-  check_size<sizeof(MultiplayerVerticalPlayerMovementManager), 80 + sizeof(float) + 8 - (80 + sizeof(float)) % 8> __GlobalNamespace_MultiplayerVerticalPlayerMovementManagerSizeCheck;
+  check_size<sizeof(MultiplayerVerticalPlayerMovementManager), 80 + sizeof(float) + ((80 + sizeof(float)) % 8 != 0 ? (8 - (80 + sizeof(float)) % 8) : 0)> __GlobalNamespace_MultiplayerVerticalPlayerMovementManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerVerticalPlayerMovementManager*, "", "MultiplayerVerticalPlayerMovementManager");

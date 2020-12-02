@@ -53,7 +53,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EDeviceActivityLevel k_EDeviceActivityLevel_Standby
     static void _set_k_EDeviceActivityLevel_Standby(Valve::VR::EDeviceActivityLevel value);
   }; // Valve.VR.EDeviceActivityLevel
-  check_size<sizeof(EDeviceActivityLevel), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Valve_VR_EDeviceActivityLevelSizeCheck;
+  check_size<sizeof(EDeviceActivityLevel), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Valve_VR_EDeviceActivityLevelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EDeviceActivityLevel, "Valve.VR", "EDeviceActivityLevel");

@@ -48,7 +48,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11F5930
     OVR::OpenVR::EVRNotificationError RemoveNotification(uint notificationId);
   }; // OVR.OpenVR.CVRNotifications
-  check_size<sizeof(CVRNotifications), 16 + sizeof(OVR::OpenVR::IVRNotifications) + 8 - (16 + sizeof(OVR::OpenVR::IVRNotifications)) % 8> __OVR_OpenVR_CVRNotificationsSizeCheck;
+  check_size<sizeof(CVRNotifications), 16 + sizeof(OVR::OpenVR::IVRNotifications) + ((16 + sizeof(OVR::OpenVR::IVRNotifications)) % 8 != 0 ? (8 - (16 + sizeof(OVR::OpenVR::IVRNotifications)) % 8) : 0)> __OVR_OpenVR_CVRNotificationsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRNotifications*, "OVR.OpenVR", "CVRNotifications");

@@ -56,7 +56,7 @@ namespace GlobalNamespace {
       // Set static field: static public MenuEnvironmentManager/MenuEnvironmentType Lobby
       static void _set_Lobby(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType value);
     }; // MenuEnvironmentManager/MenuEnvironmentType
-    check_size<sizeof(MenuEnvironmentManager::MenuEnvironmentType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_MenuEnvironmentManager_MenuEnvironmentTypeSizeCheck;
+    check_size<sizeof(MenuEnvironmentManager::MenuEnvironmentType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_MenuEnvironmentManager_MenuEnvironmentTypeSizeCheck;
     // private MenuEnvironmentManager/MenuEnvironmentObjects[] _data
     // Offset: 0x18
     ::Array<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*>* data;
@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MenuEnvironmentManager* New_ctor();
   }; // MenuEnvironmentManager
-  check_size<sizeof(MenuEnvironmentManager), 32 + sizeof(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType) + 8 - (32 + sizeof(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType)) % 8> __GlobalNamespace_MenuEnvironmentManagerSizeCheck;
+  check_size<sizeof(MenuEnvironmentManager), 32 + sizeof(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType) + ((32 + sizeof(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType)) % 8 != 0 ? (8 - (32 + sizeof(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType)) % 8) : 0)> __GlobalNamespace_MenuEnvironmentManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager*, "", "MenuEnvironmentManager");

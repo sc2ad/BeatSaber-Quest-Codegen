@@ -26,7 +26,7 @@ namespace Mono::Unity {
     // Creating value type constructor for type: unitytls_tlsctx_protocolrange
     constexpr unitytls_tlsctx_protocolrange(Mono::Unity::UnityTls::unitytls_protocol min_ = {}, Mono::Unity::UnityTls::unitytls_protocol max_ = {}) noexcept : min{min_}, max{max_} {}
   }; // Mono.Unity.UnityTls/unitytls_tlsctx_protocolrange
-  check_size<sizeof(UnityTls::unitytls_tlsctx_protocolrange), 4 + sizeof(Mono::Unity::UnityTls::unitytls_protocol) + 8 - (4 + sizeof(Mono::Unity::UnityTls::unitytls_protocol)) % 8> __Mono_Unity_UnityTls_unitytls_tlsctx_protocolrangeSizeCheck;
+  check_size<sizeof(UnityTls::unitytls_tlsctx_protocolrange), 4 + sizeof(Mono::Unity::UnityTls::unitytls_protocol) + ((4 + sizeof(Mono::Unity::UnityTls::unitytls_protocol)) % 8 != 0 ? (8 - (4 + sizeof(Mono::Unity::UnityTls::unitytls_protocol)) % 8) : 0)> __Mono_Unity_UnityTls_unitytls_tlsctx_protocolrangeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_tlsctx_protocolrange, "Mono.Unity", "UnityTls/unitytls_tlsctx_protocolrange");

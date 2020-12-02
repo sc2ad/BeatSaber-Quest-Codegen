@@ -21,7 +21,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x1519138
     static Level2Map* New_ctor(uint8_t source, uint8_t replace);
   }; // Mono.Globalization.Unicode.Level2Map
-  check_size<sizeof(Level2Map), 17 + sizeof(uint8_t) + 8 - (17 + sizeof(uint8_t)) % 8> __Mono_Globalization_Unicode_Level2MapSizeCheck;
+  check_size<sizeof(Level2Map), 17 + sizeof(uint8_t) + ((17 + sizeof(uint8_t)) % 8 != 0 ? (8 - (17 + sizeof(uint8_t)) % 8) : 0)> __Mono_Globalization_Unicode_Level2MapSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::Level2Map*, "Mono.Globalization.Unicode", "Level2Map");

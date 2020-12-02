@@ -36,7 +36,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     static AspMvcControllerAttribute* New_ctor();
   }; // JetBrains.Annotations.AspMvcControllerAttribute
-  check_size<sizeof(AspMvcControllerAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __JetBrains_Annotations_AspMvcControllerAttributeSizeCheck;
+  check_size<sizeof(AspMvcControllerAttribute), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __JetBrains_Annotations_AspMvcControllerAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcControllerAttribute*, "JetBrains.Annotations", "AspMvcControllerAttribute");

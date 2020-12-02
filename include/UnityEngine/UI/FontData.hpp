@@ -159,7 +159,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static FontData* New_ctor();
   }; // UnityEngine.UI.FontData
-  check_size<sizeof(FontData), 60 + sizeof(float) + 8 - (60 + sizeof(float)) % 8> __UnityEngine_UI_FontDataSizeCheck;
+  check_size<sizeof(FontData), 60 + sizeof(float) + ((60 + sizeof(float)) % 8 != 0 ? (8 - (60 + sizeof(float)) % 8) : 0)> __UnityEngine_UI_FontDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::FontData*, "UnityEngine.UI", "FontData");

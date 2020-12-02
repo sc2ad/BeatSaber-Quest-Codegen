@@ -71,7 +71,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12D17D4
     static EventWrittenEventArgs* New_ctor(System::Diagnostics::Tracing::EventSource* eventSource);
   }; // System.Diagnostics.Tracing.EventWrittenEventArgs
-  check_size<sizeof(EventWrittenEventArgs), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __System_Diagnostics_Tracing_EventWrittenEventArgsSizeCheck;
+  check_size<sizeof(EventWrittenEventArgs), 72 + sizeof(void*) + ((72 + sizeof(void*)) % 8 != 0 ? (8 - (72 + sizeof(void*)) % 8) : 0)> __System_Diagnostics_Tracing_EventWrittenEventArgsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventWrittenEventArgs*, "System.Diagnostics.Tracing", "EventWrittenEventArgs");

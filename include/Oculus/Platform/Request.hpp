@@ -38,7 +38,7 @@ namespace Oculus::Platform {
     // Offset: 0x11CED0C
     static void RunCallbacks(uint limit);
   }; // Oculus.Platform.Request
-  check_size<sizeof(Request), 24 + sizeof(uint64_t) + 8 - (24 + sizeof(uint64_t)) % 8> __Oculus_Platform_RequestSizeCheck;
+  check_size<sizeof(Request), 24 + sizeof(uint64_t) + ((24 + sizeof(uint64_t)) % 8 != 0 ? (8 - (24 + sizeof(uint64_t)) % 8) : 0)> __Oculus_Platform_RequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Request*, "Oculus.Platform", "Request");

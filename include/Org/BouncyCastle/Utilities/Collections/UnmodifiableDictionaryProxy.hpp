@@ -83,7 +83,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Base method: System.Object UnmodifiableDictionary::GetValue(System.Object k)
     ::Il2CppObject* GetValue(::Il2CppObject* k);
   }; // Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionaryProxy
-  check_size<sizeof(UnmodifiableDictionaryProxy), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Org_BouncyCastle_Utilities_Collections_UnmodifiableDictionaryProxySizeCheck;
+  check_size<sizeof(UnmodifiableDictionaryProxy), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Utilities_Collections_UnmodifiableDictionaryProxySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*, "Org.BouncyCastle.Utilities.Collections", "UnmodifiableDictionaryProxy");

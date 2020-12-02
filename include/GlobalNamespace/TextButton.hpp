@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static TextButton* New_ctor();
   }; // TextButton
-  check_size<sizeof(TextButton), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_TextButtonSizeCheck;
+  check_size<sizeof(TextButton), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_TextButtonSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextButton*, "", "TextButton");

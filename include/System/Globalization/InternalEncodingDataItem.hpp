@@ -25,7 +25,7 @@ namespace System::Globalization {
     // Creating value type constructor for type: InternalEncodingDataItem
     constexpr InternalEncodingDataItem(::Il2CppString* webName_ = {}, uint16_t codePage_ = {}) noexcept : webName{webName_}, codePage{codePage_} {}
   }; // System.Globalization.InternalEncodingDataItem
-  check_size<sizeof(InternalEncodingDataItem), 8 + sizeof(uint16_t) + 8 - (8 + sizeof(uint16_t)) % 8> __System_Globalization_InternalEncodingDataItemSizeCheck;
+  check_size<sizeof(InternalEncodingDataItem), 8 + sizeof(uint16_t) + ((8 + sizeof(uint16_t)) % 8 != 0 ? (8 - (8 + sizeof(uint16_t)) % 8) : 0)> __System_Globalization_InternalEncodingDataItemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::InternalEncodingDataItem, "System.Globalization", "InternalEncodingDataItem");

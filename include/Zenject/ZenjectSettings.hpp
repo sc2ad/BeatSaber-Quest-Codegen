@@ -68,7 +68,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static ZenjectSettings* New_ctor();
   }; // Zenject.ZenjectSettings
-  check_size<sizeof(ZenjectSettings), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Zenject_ZenjectSettingsSizeCheck;
+  check_size<sizeof(ZenjectSettings), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __Zenject_ZenjectSettingsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectSettings*, "Zenject", "ZenjectSettings");

@@ -90,7 +90,7 @@ namespace System::Collections {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // System.Collections.ListDictionaryInternal/NodeEnumerator
-  check_size<sizeof(ListDictionaryInternal::NodeEnumerator), 36 + sizeof(bool) + 8 - (36 + sizeof(bool)) % 8> __System_Collections_ListDictionaryInternal_NodeEnumeratorSizeCheck;
+  check_size<sizeof(ListDictionaryInternal::NodeEnumerator), 36 + sizeof(bool) + ((36 + sizeof(bool)) % 8 != 0 ? (8 - (36 + sizeof(bool)) % 8) : 0)> __System_Collections_ListDictionaryInternal_NodeEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ListDictionaryInternal::NodeEnumerator*, "System.Collections", "ListDictionaryInternal/NodeEnumerator");

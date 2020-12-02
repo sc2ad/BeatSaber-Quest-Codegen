@@ -49,7 +49,7 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public UnityEngine.EventSystems.PointerEventData/FramePressState NotChanged
     static void _set_NotChanged(UnityEngine::EventSystems::PointerEventData::FramePressState value);
   }; // UnityEngine.EventSystems.PointerEventData/FramePressState
-  check_size<sizeof(PointerEventData::FramePressState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_EventSystems_PointerEventData_FramePressStateSizeCheck;
+  check_size<sizeof(PointerEventData::FramePressState), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_EventSystems_PointerEventData_FramePressStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerEventData::FramePressState, "UnityEngine.EventSystems", "PointerEventData/FramePressState");

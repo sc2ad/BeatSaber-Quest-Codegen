@@ -110,7 +110,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);
   }; // System.Threading.Tasks.AwaitTaskContinuation
-  check_size<sizeof(AwaitTaskContinuation), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Threading_Tasks_AwaitTaskContinuationSizeCheck;
+  check_size<sizeof(AwaitTaskContinuation), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Threading_Tasks_AwaitTaskContinuationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::AwaitTaskContinuation*, "System.Threading.Tasks", "AwaitTaskContinuation");

@@ -136,7 +136,7 @@ namespace System::IO {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.IO.BinaryWriter
-  check_size<sizeof(BinaryWriter), 64 + sizeof(int) + 8 - (64 + sizeof(int)) % 8> __System_IO_BinaryWriterSizeCheck;
+  check_size<sizeof(BinaryWriter), 64 + sizeof(int) + ((64 + sizeof(int)) % 8 != 0 ? (8 - (64 + sizeof(int)) % 8) : 0)> __System_IO_BinaryWriterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::BinaryWriter*, "System.IO", "BinaryWriter");

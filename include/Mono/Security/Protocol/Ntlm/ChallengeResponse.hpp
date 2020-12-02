@@ -86,7 +86,7 @@ namespace Mono::Security::Protocol::Ntlm {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // Mono.Security.Protocol.Ntlm.ChallengeResponse
-  check_size<sizeof(ChallengeResponse), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Mono_Security_Protocol_Ntlm_ChallengeResponseSizeCheck;
+  check_size<sizeof(ChallengeResponse), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __Mono_Security_Protocol_Ntlm_ChallengeResponseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::ChallengeResponse*, "Mono.Security.Protocol.Ntlm", "ChallengeResponse");

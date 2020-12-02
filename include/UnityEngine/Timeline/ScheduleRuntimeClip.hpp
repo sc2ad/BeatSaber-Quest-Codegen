@@ -86,7 +86,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void RuntimeElement::EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
     void EvaluateAt(double localTime, UnityEngine::Playables::FrameData frameData);
   }; // UnityEngine.Timeline.ScheduleRuntimeClip
-  check_size<sizeof(ScheduleRuntimeClip), 80 + sizeof(bool) + 8 - (80 + sizeof(bool)) % 8> __UnityEngine_Timeline_ScheduleRuntimeClipSizeCheck;
+  check_size<sizeof(ScheduleRuntimeClip), 80 + sizeof(bool) + ((80 + sizeof(bool)) % 8 != 0 ? (8 - (80 + sizeof(bool)) % 8) : 0)> __UnityEngine_Timeline_ScheduleRuntimeClipSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ScheduleRuntimeClip*, "UnityEngine.Timeline", "ScheduleRuntimeClip");

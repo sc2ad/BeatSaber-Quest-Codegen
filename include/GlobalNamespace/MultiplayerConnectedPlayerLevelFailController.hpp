@@ -87,7 +87,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerConnectedPlayerLevelFailController* New_ctor();
   }; // MultiplayerConnectedPlayerLevelFailController
-  check_size<sizeof(MultiplayerConnectedPlayerLevelFailController), 72 + sizeof(bool) + 8 - (72 + sizeof(bool)) % 8> __GlobalNamespace_MultiplayerConnectedPlayerLevelFailControllerSizeCheck;
+  check_size<sizeof(MultiplayerConnectedPlayerLevelFailController), 72 + sizeof(bool) + ((72 + sizeof(bool)) % 8 != 0 ? (8 - (72 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_MultiplayerConnectedPlayerLevelFailControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerLevelFailController*, "", "MultiplayerConnectedPlayerLevelFailController");

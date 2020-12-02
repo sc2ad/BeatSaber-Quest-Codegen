@@ -44,7 +44,7 @@ namespace System::Runtime::Remoting {
     // Base method: System.Void Object::.ctor()
     static ProviderData* New_ctor();
   }; // System.Runtime.Remoting.ProviderData
-  check_size<sizeof(ProviderData), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __System_Runtime_Remoting_ProviderDataSizeCheck;
+  check_size<sizeof(ProviderData), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __System_Runtime_Remoting_ProviderDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ProviderData*, "System.Runtime.Remoting", "ProviderData");

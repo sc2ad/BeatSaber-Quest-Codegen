@@ -56,7 +56,7 @@ namespace OnlineServices::API {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.TestApiLeaderboardsModel/<GetLeaderboardEntriesAsync>d__1
-  check_size<sizeof(TestApiLeaderboardsModel::$GetLeaderboardEntriesAsync$d__1), 32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>) + 8 - (32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>)) % 8> __OnlineServices_API_TestApiLeaderboardsModel_$GetLeaderboardEntriesAsync$d__1SizeCheck;
+  check_size<sizeof(TestApiLeaderboardsModel::$GetLeaderboardEntriesAsync$d__1), 32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>) + ((32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>)) % 8 != 0 ? (8 - (32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>)) % 8) : 0)> __OnlineServices_API_TestApiLeaderboardsModel_$GetLeaderboardEntriesAsync$d__1SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::TestApiLeaderboardsModel::$GetLeaderboardEntriesAsync$d__1, "OnlineServices.API", "TestApiLeaderboardsModel/<GetLeaderboardEntriesAsync>d__1");

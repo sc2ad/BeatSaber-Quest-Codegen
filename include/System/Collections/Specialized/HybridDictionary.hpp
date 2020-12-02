@@ -132,7 +132,7 @@ namespace System::Collections::Specialized {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Collections.Specialized.HybridDictionary
-  check_size<sizeof(HybridDictionary), 32 + sizeof(bool) + 8 - (32 + sizeof(bool)) % 8> __System_Collections_Specialized_HybridDictionarySizeCheck;
+  check_size<sizeof(HybridDictionary), 32 + sizeof(bool) + ((32 + sizeof(bool)) % 8 != 0 ? (8 - (32 + sizeof(bool)) % 8) : 0)> __System_Collections_Specialized_HybridDictionarySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::HybridDictionary*, "System.Collections.Specialized", "HybridDictionary");

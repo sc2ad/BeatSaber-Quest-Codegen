@@ -36,7 +36,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     static ServiceNameStore* New_ctor();
   }; // System.Net.ServiceNameStore
-  check_size<sizeof(ServiceNameStore), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Net_ServiceNameStoreSizeCheck;
+  check_size<sizeof(ServiceNameStore), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Net_ServiceNameStoreSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServiceNameStore*, "System.Net", "ServiceNameStore");

@@ -23,7 +23,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: HiddenAreaMesh_t
     constexpr HiddenAreaMesh_t(System::IntPtr pVertexData_ = {}, uint unTriangleCount_ = {}) noexcept : pVertexData{pVertexData_}, unTriangleCount{unTriangleCount_} {}
   }; // OVR.OpenVR.HiddenAreaMesh_t
-  check_size<sizeof(HiddenAreaMesh_t), 8 + sizeof(uint) + 8 - (8 + sizeof(uint)) % 8> __OVR_OpenVR_HiddenAreaMesh_tSizeCheck;
+  check_size<sizeof(HiddenAreaMesh_t), 8 + sizeof(uint) + ((8 + sizeof(uint)) % 8 != 0 ? (8 - (8 + sizeof(uint)) % 8) : 0)> __OVR_OpenVR_HiddenAreaMesh_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HiddenAreaMesh_t, "OVR.OpenVR", "HiddenAreaMesh_t");

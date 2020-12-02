@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SongController* New_ctor();
   }; // SongController
-  check_size<sizeof(SongController), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_SongControllerSizeCheck;
+  check_size<sizeof(SongController), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_SongControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongController*, "", "SongController");

@@ -49,7 +49,7 @@ namespace System::Text {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static DecoderFallbackException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Text.DecoderFallbackException
-  check_size<sizeof(DecoderFallbackException), 152 + sizeof(int) + 8 - (152 + sizeof(int)) % 8> __System_Text_DecoderFallbackExceptionSizeCheck;
+  check_size<sizeof(DecoderFallbackException), 152 + sizeof(int) + ((152 + sizeof(int)) % 8 != 0 ? (8 - (152 + sizeof(int)) % 8) : 0)> __System_Text_DecoderFallbackExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderFallbackException*, "System.Text", "DecoderFallbackException");

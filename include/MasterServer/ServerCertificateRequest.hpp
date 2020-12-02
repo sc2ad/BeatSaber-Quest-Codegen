@@ -90,7 +90,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static ServerCertificateRequest* New_ctor();
   }; // MasterServer.ServerCertificateRequest
-  check_size<sizeof(ServerCertificateRequest), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __MasterServer_ServerCertificateRequestSizeCheck;
+  check_size<sizeof(ServerCertificateRequest), 32 + sizeof(int) + ((32 + sizeof(int)) % 8 != 0 ? (8 - (32 + sizeof(int)) % 8) : 0)> __MasterServer_ServerCertificateRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ServerCertificateRequest*, "MasterServer", "ServerCertificateRequest");

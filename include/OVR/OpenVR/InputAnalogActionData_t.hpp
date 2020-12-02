@@ -43,7 +43,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: InputAnalogActionData_t
     constexpr InputAnalogActionData_t(bool bActive_ = {}, uint64_t activeOrigin_ = {}, float x_ = {}, float y_ = {}, float z_ = {}, float deltaX_ = {}, float deltaY_ = {}, float deltaZ_ = {}, float fUpdateTime_ = {}) noexcept : bActive{bActive_}, activeOrigin{activeOrigin_}, x{x_}, y{y_}, z{z_}, deltaX{deltaX_}, deltaY{deltaY_}, deltaZ{deltaZ_}, fUpdateTime{fUpdateTime_} {}
   }; // OVR.OpenVR.InputAnalogActionData_t
-  check_size<sizeof(InputAnalogActionData_t), 40 + sizeof(float) + 8 - (40 + sizeof(float)) % 8> __OVR_OpenVR_InputAnalogActionData_tSizeCheck;
+  check_size<sizeof(InputAnalogActionData_t), 40 + sizeof(float) + ((40 + sizeof(float)) % 8 != 0 ? (8 - (40 + sizeof(float)) % 8) : 0)> __OVR_OpenVR_InputAnalogActionData_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::InputAnalogActionData_t, "OVR.OpenVR", "InputAnalogActionData_t");

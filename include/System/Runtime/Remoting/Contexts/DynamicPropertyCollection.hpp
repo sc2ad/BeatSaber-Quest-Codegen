@@ -58,7 +58,7 @@ namespace System::Runtime::Remoting::Contexts {
     // Base method: System.Void Object::.ctor()
     static DynamicPropertyCollection* New_ctor();
   }; // System.Runtime.Remoting.Contexts.DynamicPropertyCollection
-  check_size<sizeof(DynamicPropertyCollection), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Runtime_Remoting_Contexts_DynamicPropertyCollectionSizeCheck;
+  check_size<sizeof(DynamicPropertyCollection), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Runtime_Remoting_Contexts_DynamicPropertyCollectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::DynamicPropertyCollection*, "System.Runtime.Remoting.Contexts", "DynamicPropertyCollection");

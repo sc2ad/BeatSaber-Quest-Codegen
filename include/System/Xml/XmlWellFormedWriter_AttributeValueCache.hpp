@@ -97,7 +97,7 @@ namespace System::Xml {
     // Base method: System.Void Object::.ctor()
     static XmlWellFormedWriter::AttributeValueCache* New_ctor();
   }; // System.Xml.XmlWellFormedWriter/AttributeValueCache
-  check_size<sizeof(XmlWellFormedWriter::AttributeValueCache), 44 + sizeof(int) + 8 - (44 + sizeof(int)) % 8> __System_Xml_XmlWellFormedWriter_AttributeValueCacheSizeCheck;
+  check_size<sizeof(XmlWellFormedWriter::AttributeValueCache), 44 + sizeof(int) + ((44 + sizeof(int)) % 8 != 0 ? (8 - (44 + sizeof(int)) % 8) : 0)> __System_Xml_XmlWellFormedWriter_AttributeValueCacheSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache*, "System.Xml", "XmlWellFormedWriter/AttributeValueCache");

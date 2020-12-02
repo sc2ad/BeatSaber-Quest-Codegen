@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusBeatmapDataAssetFileModel/<GetDownloadAssetBundleFileAsync>d__16
-  check_size<sizeof(OculusBeatmapDataAssetFileModel::$GetDownloadAssetBundleFileAsync$d__16), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult>) + 8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult>)) % 8> __GlobalNamespace_OculusBeatmapDataAssetFileModel_$GetDownloadAssetBundleFileAsync$d__16SizeCheck;
+  check_size<sizeof(OculusBeatmapDataAssetFileModel::$GetDownloadAssetBundleFileAsync$d__16), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult>) + ((56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult>)) % 8 != 0 ? (8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult>)) % 8) : 0)> __GlobalNamespace_OculusBeatmapDataAssetFileModel_$GetDownloadAssetBundleFileAsync$d__16SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusBeatmapDataAssetFileModel::$GetDownloadAssetBundleFileAsync$d__16, "", "OculusBeatmapDataAssetFileModel/<GetDownloadAssetBundleFileAsync>d__16");

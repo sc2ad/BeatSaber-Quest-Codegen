@@ -50,7 +50,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static TMP_FontFeatureTable* New_ctor();
   }; // TMPro.TMP_FontFeatureTable
-  check_size<sizeof(TMP_FontFeatureTable), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __TMPro_TMP_FontFeatureTableSizeCheck;
+  check_size<sizeof(TMP_FontFeatureTable), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __TMPro_TMP_FontFeatureTableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontFeatureTable*, "TMPro", "TMP_FontFeatureTable");

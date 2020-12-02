@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Set static field: static public AppInit/AppStartType MultiSceneEditor
     static void _set_MultiSceneEditor(GlobalNamespace::AppInit::AppStartType value);
   }; // AppInit/AppStartType
-  check_size<sizeof(AppInit::AppStartType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_AppInit_AppStartTypeSizeCheck;
+  check_size<sizeof(AppInit::AppStartType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_AppInit_AppStartTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInit::AppStartType, "", "AppInit/AppStartType");

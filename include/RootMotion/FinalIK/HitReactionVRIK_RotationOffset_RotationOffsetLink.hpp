@@ -48,7 +48,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static HitReactionVRIK::RotationOffset::RotationOffsetLink* New_ctor();
   }; // RootMotion.FinalIK.HitReactionVRIK/RotationOffset/RotationOffsetLink
-  check_size<sizeof(HitReactionVRIK::RotationOffset::RotationOffsetLink), 40 + sizeof(UnityEngine::Quaternion) + 8 - (40 + sizeof(UnityEngine::Quaternion)) % 8> __RootMotion_FinalIK_HitReactionVRIK_RotationOffset_RotationOffsetLinkSizeCheck;
+  check_size<sizeof(HitReactionVRIK::RotationOffset::RotationOffsetLink), 40 + sizeof(UnityEngine::Quaternion) + ((40 + sizeof(UnityEngine::Quaternion)) % 8 != 0 ? (8 - (40 + sizeof(UnityEngine::Quaternion)) % 8) : 0)> __RootMotion_FinalIK_HitReactionVRIK_RotationOffset_RotationOffsetLinkSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink*, "RootMotion.FinalIK", "HitReactionVRIK/RotationOffset/RotationOffsetLink");

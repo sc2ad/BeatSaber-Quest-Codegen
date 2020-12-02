@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static TweenPosition* New_ctor();
   }; // TweenPosition
-  check_size<sizeof(TweenPosition), 48 + sizeof(UnityEngine::Vector3) + 8 - (48 + sizeof(UnityEngine::Vector3)) % 8> __GlobalNamespace_TweenPositionSizeCheck;
+  check_size<sizeof(TweenPosition), 48 + sizeof(UnityEngine::Vector3) + ((48 + sizeof(UnityEngine::Vector3)) % 8 != 0 ? (8 - (48 + sizeof(UnityEngine::Vector3)) % 8) : 0)> __GlobalNamespace_TweenPositionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TweenPosition*, "", "TweenPosition");

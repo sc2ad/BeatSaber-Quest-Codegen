@@ -58,7 +58,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     static BinaryMethodCall* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryMethodCall
-  check_size<sizeof(BinaryMethodCall), 60 + sizeof(System::Runtime::Serialization::Formatters::Binary::MessageEnum) + 8 - (60 + sizeof(System::Runtime::Serialization::Formatters::Binary::MessageEnum)) % 8> __System_Runtime_Serialization_Formatters_Binary_BinaryMethodCallSizeCheck;
+  check_size<sizeof(BinaryMethodCall), 60 + sizeof(System::Runtime::Serialization::Formatters::Binary::MessageEnum) + ((60 + sizeof(System::Runtime::Serialization::Formatters::Binary::MessageEnum)) % 8 != 0 ? (8 - (60 + sizeof(System::Runtime::Serialization::Formatters::Binary::MessageEnum)) % 8) : 0)> __System_Runtime_Serialization_Formatters_Binary_BinaryMethodCallSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall*, "System.Runtime.Serialization.Formatters.Binary", "BinaryMethodCall");

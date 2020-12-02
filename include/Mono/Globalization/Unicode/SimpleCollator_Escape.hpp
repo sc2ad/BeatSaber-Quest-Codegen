@@ -33,7 +33,7 @@ namespace Mono::Globalization::Unicode {
     // Creating value type constructor for type: Escape
     constexpr Escape(::Il2CppString* Source_ = {}, int Index_ = {}, int Start_ = {}, int End_ = {}, int Optional_ = {}) noexcept : Source{Source_}, Index{Index_}, Start{Start_}, End{End_}, Optional{Optional_} {}
   }; // Mono.Globalization.Unicode.SimpleCollator/Escape
-  check_size<sizeof(SimpleCollator::Escape), 20 + sizeof(int) + 8 - (20 + sizeof(int)) % 8> __Mono_Globalization_Unicode_SimpleCollator_EscapeSizeCheck;
+  check_size<sizeof(SimpleCollator::Escape), 20 + sizeof(int) + ((20 + sizeof(int)) % 8 != 0 ? (8 - (20 + sizeof(int)) % 8) : 0)> __Mono_Globalization_Unicode_SimpleCollator_EscapeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::Escape, "Mono.Globalization.Unicode", "SimpleCollator/Escape");

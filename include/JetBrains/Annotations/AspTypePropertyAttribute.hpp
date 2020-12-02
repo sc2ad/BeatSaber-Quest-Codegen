@@ -30,7 +30,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE344
     static AspTypePropertyAttribute* New_ctor(bool createConstructorReferences);
   }; // JetBrains.Annotations.AspTypePropertyAttribute
-  check_size<sizeof(AspTypePropertyAttribute), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __JetBrains_Annotations_AspTypePropertyAttributeSizeCheck;
+  check_size<sizeof(AspTypePropertyAttribute), 16 + sizeof(bool) + ((16 + sizeof(bool)) % 8 != 0 ? (8 - (16 + sizeof(bool)) % 8) : 0)> __JetBrains_Annotations_AspTypePropertyAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspTypePropertyAttribute*, "JetBrains.Annotations", "AspTypePropertyAttribute");

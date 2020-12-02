@@ -111,7 +111,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static TMP_Dropdown::DropdownItem* New_ctor();
   }; // TMPro.TMP_Dropdown/DropdownItem
-  check_size<sizeof(TMP_Dropdown::DropdownItem), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __TMPro_TMP_Dropdown_DropdownItemSizeCheck;
+  check_size<sizeof(TMP_Dropdown::DropdownItem), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __TMPro_TMP_Dropdown_DropdownItemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::DropdownItem*, "TMPro", "TMP_Dropdown/DropdownItem");

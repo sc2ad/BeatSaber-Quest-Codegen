@@ -264,7 +264,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.Security.Cryptography.X509Certificates.X509Certificate2Impl X509Certificate2Impl::get_FallbackImpl()
     System::Security::Cryptography::X509Certificates::X509Certificate2Impl* get_FallbackImpl();
   }; // System.Security.Cryptography.X509Certificates.X509Certificate2ImplMono
-  check_size<sizeof(X509Certificate2ImplMono), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __System_Security_Cryptography_X509Certificates_X509Certificate2ImplMonoSizeCheck;
+  check_size<sizeof(X509Certificate2ImplMono), 80 + sizeof(void*) + ((80 + sizeof(void*)) % 8 != 0 ? (8 - (80 + sizeof(void*)) % 8) : 0)> __System_Security_Cryptography_X509Certificates_X509Certificate2ImplMonoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono*, "System.Security.Cryptography.X509Certificates", "X509Certificate2ImplMono");

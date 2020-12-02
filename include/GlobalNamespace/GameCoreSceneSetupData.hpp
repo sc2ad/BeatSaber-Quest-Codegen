@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A185B8
     static GameCoreSceneSetupData* New_ctor(GlobalNamespace::ColorScheme* colorScheme);
   }; // GameCoreSceneSetupData
-  check_size<sizeof(GameCoreSceneSetupData), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_GameCoreSceneSetupDataSizeCheck;
+  check_size<sizeof(GameCoreSceneSetupData), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_GameCoreSceneSetupDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameCoreSceneSetupData*, "", "GameCoreSceneSetupData");

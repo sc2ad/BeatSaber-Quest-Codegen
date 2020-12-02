@@ -51,7 +51,7 @@ namespace RootMotion {
     // Offset: 0x17409B8
     void SetLoopFrame(float time);
   }; // RootMotion.BakerMuscle
-  check_size<sizeof(BakerMuscle), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __RootMotion_BakerMuscleSizeCheck;
+  check_size<sizeof(BakerMuscle), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __RootMotion_BakerMuscleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerMuscle*, "RootMotion", "BakerMuscle");

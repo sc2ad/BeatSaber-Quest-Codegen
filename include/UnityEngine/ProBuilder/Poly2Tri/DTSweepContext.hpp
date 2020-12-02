@@ -123,7 +123,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Base method: UnityEngine.ProBuilder.Poly2Tri.TriangulationConstraint TriangulationContext::NewConstraint(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint a, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint b)
     UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint* NewConstraint(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b);
   }; // UnityEngine.ProBuilder.Poly2Tri.DTSweepContext
-  check_size<sizeof(DTSweepContext), 112 + sizeof(void*) + 8 - (112 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_Poly2Tri_DTSweepContextSizeCheck;
+  check_size<sizeof(DTSweepContext), 112 + sizeof(void*) + ((112 + sizeof(void*)) % 8 != 0 ? (8 - (112 + sizeof(void*)) % 8) : 0)> __UnityEngine_ProBuilder_Poly2Tri_DTSweepContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepContext");

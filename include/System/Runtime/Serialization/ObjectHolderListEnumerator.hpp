@@ -42,7 +42,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x130618C
     System::Runtime::Serialization::ObjectHolder* get_Current();
   }; // System.Runtime.Serialization.ObjectHolderListEnumerator
-  check_size<sizeof(ObjectHolderListEnumerator), 36 + sizeof(int) + 8 - (36 + sizeof(int)) % 8> __System_Runtime_Serialization_ObjectHolderListEnumeratorSizeCheck;
+  check_size<sizeof(ObjectHolderListEnumerator), 36 + sizeof(int) + ((36 + sizeof(int)) % 8 != 0 ? (8 - (36 + sizeof(int)) % 8) : 0)> __System_Runtime_Serialization_ObjectHolderListEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectHolderListEnumerator*, "System.Runtime.Serialization", "ObjectHolderListEnumerator");

@@ -26,7 +26,7 @@ namespace System::ComponentModel::Design::Serialization {
     // Offset: 0x1481010
     static RootDesignerSerializerAttribute* New_ctor(::Il2CppString* serializerTypeName, ::Il2CppString* baseSerializerTypeName, bool reloadable);
   }; // System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute
-  check_size<sizeof(RootDesignerSerializerAttribute), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_ComponentModel_Design_Serialization_RootDesignerSerializerAttributeSizeCheck;
+  check_size<sizeof(RootDesignerSerializerAttribute), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_ComponentModel_Design_Serialization_RootDesignerSerializerAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute*, "System.ComponentModel.Design.Serialization", "RootDesignerSerializerAttribute");

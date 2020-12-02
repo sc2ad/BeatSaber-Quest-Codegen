@@ -66,7 +66,7 @@ namespace UnityEngine::AI {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // UnityEngine.AI.NavMeshPath
-  check_size<sizeof(NavMeshPath), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_AI_NavMeshPathSizeCheck;
+  check_size<sizeof(NavMeshPath), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __UnityEngine_AI_NavMeshPathSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMeshPath*, "UnityEngine.AI", "NavMeshPath");

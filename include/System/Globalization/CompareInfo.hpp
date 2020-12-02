@@ -290,7 +290,7 @@ namespace System::Globalization {
     // Base method: System.Void Object::.ctor()
     static CompareInfo* New_ctor();
   }; // System.Globalization.CompareInfo
-  check_size<sizeof(CompareInfo), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __System_Globalization_CompareInfoSizeCheck;
+  check_size<sizeof(CompareInfo), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __System_Globalization_CompareInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CompareInfo*, "System.Globalization", "CompareInfo");

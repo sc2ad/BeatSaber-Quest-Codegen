@@ -102,7 +102,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SaberBurnMarkSparkles* New_ctor();
   }; // SaberBurnMarkSparkles
-  check_size<sizeof(SaberBurnMarkSparkles), 120 + sizeof(UnityEngine::ParticleSystem::EmitParams) + 8 - (120 + sizeof(UnityEngine::ParticleSystem::EmitParams)) % 8> __GlobalNamespace_SaberBurnMarkSparklesSizeCheck;
+  check_size<sizeof(SaberBurnMarkSparkles), 120 + sizeof(UnityEngine::ParticleSystem::EmitParams) + ((120 + sizeof(UnityEngine::ParticleSystem::EmitParams)) % 8 != 0 ? (8 - (120 + sizeof(UnityEngine::ParticleSystem::EmitParams)) % 8) : 0)> __GlobalNamespace_SaberBurnMarkSparklesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberBurnMarkSparkles*, "", "SaberBurnMarkSparkles");

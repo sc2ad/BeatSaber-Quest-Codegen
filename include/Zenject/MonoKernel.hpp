@@ -72,7 +72,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static MonoKernel* New_ctor();
   }; // Zenject.MonoKernel
-  check_size<sizeof(MonoKernel), 49 + sizeof(bool) + 8 - (49 + sizeof(bool)) % 8> __Zenject_MonoKernelSizeCheck;
+  check_size<sizeof(MonoKernel), 49 + sizeof(bool) + ((49 + sizeof(bool)) % 8 != 0 ? (8 - (49 + sizeof(bool)) % 8) : 0)> __Zenject_MonoKernelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MonoKernel*, "Zenject", "MonoKernel");

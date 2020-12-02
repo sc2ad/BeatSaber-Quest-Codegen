@@ -37,7 +37,7 @@ namespace Mono::Security::Interface {
     // Offset: 0x17B87E4
     bool get_UserDenied();
   }; // Mono.Security.Interface.ValidationResult
-  check_size<sizeof(ValidationResult), 24 + sizeof(System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors>) + 8 - (24 + sizeof(System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors>)) % 8> __Mono_Security_Interface_ValidationResultSizeCheck;
+  check_size<sizeof(ValidationResult), 24 + sizeof(System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors>) + ((24 + sizeof(System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors>)) % 8 != 0 ? (8 - (24 + sizeof(System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors>)) % 8) : 0)> __Mono_Security_Interface_ValidationResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::ValidationResult*, "Mono.Security.Interface", "ValidationResult");

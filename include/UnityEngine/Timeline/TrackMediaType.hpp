@@ -26,7 +26,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x1972A54
     static TrackMediaType* New_ctor(UnityEngine::Timeline::TimelineAsset::MediaType mt);
   }; // UnityEngine.Timeline.TrackMediaType
-  check_size<sizeof(TrackMediaType), 16 + sizeof(UnityEngine::Timeline::TimelineAsset::MediaType) + 8 - (16 + sizeof(UnityEngine::Timeline::TimelineAsset::MediaType)) % 8> __UnityEngine_Timeline_TrackMediaTypeSizeCheck;
+  check_size<sizeof(TrackMediaType), 16 + sizeof(UnityEngine::Timeline::TimelineAsset::MediaType) + ((16 + sizeof(UnityEngine::Timeline::TimelineAsset::MediaType)) % 8 != 0 ? (8 - (16 + sizeof(UnityEngine::Timeline::TimelineAsset::MediaType)) % 8) : 0)> __UnityEngine_Timeline_TrackMediaTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackMediaType*, "UnityEngine.Timeline", "TrackMediaType");

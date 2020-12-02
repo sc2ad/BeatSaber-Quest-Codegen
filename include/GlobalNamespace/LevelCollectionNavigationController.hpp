@@ -244,7 +244,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LevelCollectionNavigationController* New_ctor();
   }; // LevelCollectionNavigationController
-  check_size<sizeof(LevelCollectionNavigationController), 288 + sizeof(void*) + 8 - (288 + sizeof(void*)) % 8> __GlobalNamespace_LevelCollectionNavigationControllerSizeCheck;
+  check_size<sizeof(LevelCollectionNavigationController), 288 + sizeof(void*) + ((288 + sizeof(void*)) % 8 != 0 ? (8 - (288 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_LevelCollectionNavigationControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCollectionNavigationController*, "", "LevelCollectionNavigationController");

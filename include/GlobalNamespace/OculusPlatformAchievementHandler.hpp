@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Base method: HMAsyncRequest PlatformAchievementsHandler::GetUnlockedAchievements(PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* completionHandler);
   }; // OculusPlatformAchievementHandler
-  check_size<sizeof(OculusPlatformAchievementHandler), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_OculusPlatformAchievementHandlerSizeCheck;
+  check_size<sizeof(OculusPlatformAchievementHandler), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_OculusPlatformAchievementHandlerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAchievementHandler*, "", "OculusPlatformAchievementHandler");

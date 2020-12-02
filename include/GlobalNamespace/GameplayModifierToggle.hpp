@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static GameplayModifierToggle* New_ctor();
   }; // GameplayModifierToggle
-  check_size<sizeof(GameplayModifierToggle), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_GameplayModifierToggleSizeCheck;
+  check_size<sizeof(GameplayModifierToggle), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_GameplayModifierToggleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierToggle*, "", "GameplayModifierToggle");

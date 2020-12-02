@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ProfanityFilter::TrieNode* New_ctor();
   }; // ProfanityFilter/TrieNode
-  check_size<sizeof(ProfanityFilter::TrieNode), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __GlobalNamespace_ProfanityFilter_TrieNodeSizeCheck;
+  check_size<sizeof(ProfanityFilter::TrieNode), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __GlobalNamespace_ProfanityFilter_TrieNodeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProfanityFilter::TrieNode*, "", "ProfanityFilter/TrieNode");

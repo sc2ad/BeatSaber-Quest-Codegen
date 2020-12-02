@@ -43,7 +43,7 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void Object::.ctor()
     static Capture* New_ctor();
   }; // System.Text.RegularExpressions.Capture
-  check_size<sizeof(Capture), 28 + sizeof(int) + 8 - (28 + sizeof(int)) % 8> __System_Text_RegularExpressions_CaptureSizeCheck;
+  check_size<sizeof(Capture), 28 + sizeof(int) + ((28 + sizeof(int)) % 8 != 0 ? (8 - (28 + sizeof(int)) % 8) : 0)> __System_Text_RegularExpressions_CaptureSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::Capture*, "System.Text.RegularExpressions", "Capture");

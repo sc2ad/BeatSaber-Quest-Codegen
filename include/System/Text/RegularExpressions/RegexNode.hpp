@@ -106,7 +106,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x1549BF4
     int Type();
   }; // System.Text.RegularExpressions.RegexNode
-  check_size<sizeof(RegexNode), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __System_Text_RegularExpressions_RegexNodeSizeCheck;
+  check_size<sizeof(RegexNode), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __System_Text_RegularExpressions_RegexNodeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexNode*, "System.Text.RegularExpressions", "RegexNode");

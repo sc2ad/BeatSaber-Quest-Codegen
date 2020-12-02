@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // NetEaseManager/<InitAsync>d__11
-  check_size<sizeof(NetEaseManager::$InitAsync$d__11), 40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::InitializeData>) + 8 - (40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::InitializeData>)) % 8> __GlobalNamespace_NetEaseManager_$InitAsync$d__11SizeCheck;
+  check_size<sizeof(NetEaseManager::$InitAsync$d__11), 40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::InitializeData>) + ((40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::InitializeData>)) % 8 != 0 ? (8 - (40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::InitializeData>)) % 8) : 0)> __GlobalNamespace_NetEaseManager_$InitAsync$d__11SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseManager::$InitAsync$d__11, "", "NetEaseManager/<InitAsync>d__11");

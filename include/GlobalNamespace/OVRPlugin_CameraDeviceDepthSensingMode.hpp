@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/CameraDeviceDepthSensingMode Fill
     static void _set_Fill(GlobalNamespace::OVRPlugin::CameraDeviceDepthSensingMode value);
   }; // OVRPlugin/CameraDeviceDepthSensingMode
-  check_size<sizeof(OVRPlugin::CameraDeviceDepthSensingMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRPlugin_CameraDeviceDepthSensingModeSizeCheck;
+  check_size<sizeof(OVRPlugin::CameraDeviceDepthSensingMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OVRPlugin_CameraDeviceDepthSensingModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::CameraDeviceDepthSensingMode, "", "OVRPlugin/CameraDeviceDepthSensingMode");

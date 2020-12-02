@@ -24,7 +24,7 @@ namespace System::Diagnostics {
     // Offset: 0x1677668
     static ConditionalAttribute* New_ctor(::Il2CppString* conditionString);
   }; // System.Diagnostics.ConditionalAttribute
-  check_size<sizeof(ConditionalAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Diagnostics_ConditionalAttributeSizeCheck;
+  check_size<sizeof(ConditionalAttribute), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Diagnostics_ConditionalAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ConditionalAttribute*, "System.Diagnostics", "ConditionalAttribute");

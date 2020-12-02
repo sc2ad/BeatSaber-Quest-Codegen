@@ -110,7 +110,7 @@ namespace GlobalNamespace {
       // Set static field: static public OculusConnectionManager/NetworkMode Server
       static void _set_Server(GlobalNamespace::OculusConnectionManager::NetworkMode value);
     }; // OculusConnectionManager/NetworkMode
-    check_size<sizeof(OculusConnectionManager::NetworkMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OculusConnectionManager_NetworkModeSizeCheck;
+    check_size<sizeof(OculusConnectionManager::NetworkMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OculusConnectionManager_NetworkModeSizeCheck;
     // private readonly System.Collections.Generic.List`1<OculusConnectionManager/OculusConnection> _connections
     // Offset: 0x10
     System::Collections::Generic::List_1<GlobalNamespace::OculusConnectionManager::OculusConnection*>* connections;
@@ -369,7 +369,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OculusConnectionManager* New_ctor();
   }; // OculusConnectionManager
-  check_size<sizeof(OculusConnectionManager), 120 + sizeof(void*) + 8 - (120 + sizeof(void*)) % 8> __GlobalNamespace_OculusConnectionManagerSizeCheck;
+  check_size<sizeof(OculusConnectionManager), 120 + sizeof(void*) + ((120 + sizeof(void*)) % 8 != 0 ? (8 - (120 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_OculusConnectionManagerSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager*, "", "OculusConnectionManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::NetworkMode, "", "OculusConnectionManager/NetworkMode");

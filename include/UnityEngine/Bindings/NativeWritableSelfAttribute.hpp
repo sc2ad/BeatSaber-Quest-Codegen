@@ -30,7 +30,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void Object::.ctor()
     static NativeWritableSelfAttribute* New_ctor();
   }; // UnityEngine.Bindings.NativeWritableSelfAttribute
-  check_size<sizeof(NativeWritableSelfAttribute), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __UnityEngine_Bindings_NativeWritableSelfAttributeSizeCheck;
+  check_size<sizeof(NativeWritableSelfAttribute), 16 + sizeof(bool) + ((16 + sizeof(bool)) % 8 != 0 ? (8 - (16 + sizeof(bool)) % 8) : 0)> __UnityEngine_Bindings_NativeWritableSelfAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeWritableSelfAttribute*, "UnityEngine.Bindings", "NativeWritableSelfAttribute");

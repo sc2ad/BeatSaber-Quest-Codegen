@@ -41,7 +41,7 @@ namespace TMPro {
     // Set static field: static public TMPro.MaskingTypes MaskSoft
     static void _set_MaskSoft(TMPro::MaskingTypes value);
   }; // TMPro.MaskingTypes
-  check_size<sizeof(MaskingTypes), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __TMPro_MaskingTypesSizeCheck;
+  check_size<sizeof(MaskingTypes), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __TMPro_MaskingTypesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::MaskingTypes, "TMPro", "MaskingTypes");

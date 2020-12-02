@@ -359,7 +359,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // UnityEngine.AndroidJavaObject
-  check_size<sizeof(AndroidJavaObject), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_AndroidJavaObjectSizeCheck;
+  check_size<sizeof(AndroidJavaObject), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __UnityEngine_AndroidJavaObjectSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaObject*, "UnityEngine", "AndroidJavaObject");
 #pragma pack(pop)

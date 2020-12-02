@@ -50,7 +50,7 @@ namespace NUnit::Framework {
     // Base method: System.Void Object::.ctor()
     static TestParameters* New_ctor();
   }; // NUnit.Framework.TestParameters
-  check_size<sizeof(TestParameters), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __NUnit_Framework_TestParametersSizeCheck;
+  check_size<sizeof(TestParameters), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __NUnit_Framework_TestParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TestParameters*, "NUnit.Framework", "TestParameters");

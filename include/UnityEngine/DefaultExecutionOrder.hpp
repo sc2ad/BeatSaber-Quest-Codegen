@@ -27,7 +27,7 @@ namespace UnityEngine {
     // Offset: 0x167D804
     int get_order();
   }; // UnityEngine.DefaultExecutionOrder
-  check_size<sizeof(DefaultExecutionOrder), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __UnityEngine_DefaultExecutionOrderSizeCheck;
+  check_size<sizeof(DefaultExecutionOrder), 16 + sizeof(int) + ((16 + sizeof(int)) % 8 != 0 ? (8 - (16 + sizeof(int)) % 8) : 0)> __UnityEngine_DefaultExecutionOrderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DefaultExecutionOrder*, "UnityEngine", "DefaultExecutionOrder");

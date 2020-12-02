@@ -21,7 +21,7 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: Win32LengthFlagsUnion
     constexpr Win32LengthFlagsUnion(uint Length_ = {}, uint Flags_ = {}) noexcept : Length{Length_}, Flags{Flags_} {}
   }; // System.Net.NetworkInformation.Win32LengthFlagsUnion
-  check_size<sizeof(Win32LengthFlagsUnion), 4 + sizeof(uint) + 8 - (4 + sizeof(uint)) % 8> __System_Net_NetworkInformation_Win32LengthFlagsUnionSizeCheck;
+  check_size<sizeof(Win32LengthFlagsUnion), 4 + sizeof(uint) + ((4 + sizeof(uint)) % 8 != 0 ? (8 - (4 + sizeof(uint)) % 8) : 0)> __System_Net_NetworkInformation_Win32LengthFlagsUnionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32LengthFlagsUnion, "System.Net.NetworkInformation", "Win32LengthFlagsUnion");

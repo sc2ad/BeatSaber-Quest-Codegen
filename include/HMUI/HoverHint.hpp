@@ -89,7 +89,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static HoverHint* New_ctor();
   }; // HMUI.HoverHint
-  check_size<sizeof(HoverHint), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __HMUI_HoverHintSizeCheck;
+  check_size<sizeof(HoverHint), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __HMUI_HoverHintSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHint*, "HMUI", "HoverHint");

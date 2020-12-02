@@ -887,7 +887,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);
   }; // System.Threading.Tasks.Task
-  check_size<sizeof(Task), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __System_Threading_Tasks_TaskSizeCheck;
+  check_size<sizeof(Task), 72 + sizeof(void*) + ((72 + sizeof(void*)) % 8 != 0 ? (8 - (72 + sizeof(void*)) % 8) : 0)> __System_Threading_Tasks_TaskSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task*, "System.Threading.Tasks", "Task");
 #pragma pack(pop)

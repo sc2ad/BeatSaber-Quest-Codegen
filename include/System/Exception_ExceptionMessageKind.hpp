@@ -43,7 +43,7 @@ namespace System {
     // Set static field: static public System.Exception/ExceptionMessageKind OutOfMemory
     static void _set_OutOfMemory(System::Exception::ExceptionMessageKind value);
   }; // System.Exception/ExceptionMessageKind
-  check_size<sizeof(Exception::ExceptionMessageKind), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Exception_ExceptionMessageKindSizeCheck;
+  check_size<sizeof(Exception::ExceptionMessageKind), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Exception_ExceptionMessageKindSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Exception::ExceptionMessageKind, "System", "Exception/ExceptionMessageKind");

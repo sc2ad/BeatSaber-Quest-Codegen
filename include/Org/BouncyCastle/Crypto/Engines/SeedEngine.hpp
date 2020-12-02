@@ -122,7 +122,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void Object::.ctor()
     static SeedEngine* New_ctor();
   }; // Org.BouncyCastle.Crypto.Engines.SeedEngine
-  check_size<sizeof(SeedEngine), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __Org_BouncyCastle_Crypto_Engines_SeedEngineSizeCheck;
+  check_size<sizeof(SeedEngine), 24 + sizeof(bool) + ((24 + sizeof(bool)) % 8 != 0 ? (8 - (24 + sizeof(bool)) % 8) : 0)> __Org_BouncyCastle_Crypto_Engines_SeedEngineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::SeedEngine*, "Org.BouncyCastle.Crypto.Engines", "SeedEngine");

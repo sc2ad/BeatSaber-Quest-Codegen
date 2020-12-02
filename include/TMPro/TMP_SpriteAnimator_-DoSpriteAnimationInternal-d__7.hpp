@@ -107,7 +107,7 @@ namespace TMPro {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // TMPro.TMP_SpriteAnimator/<DoSpriteAnimationInternal>d__7
-  check_size<sizeof(TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7), 500 + sizeof(float) + 8 - (500 + sizeof(float)) % 8> __TMPro_TMP_SpriteAnimator_$DoSpriteAnimationInternal$d__7SizeCheck;
+  check_size<sizeof(TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7), 500 + sizeof(float) + ((500 + sizeof(float)) % 8 != 0 ? (8 - (500 + sizeof(float)) % 8) : 0)> __TMPro_TMP_SpriteAnimator_$DoSpriteAnimationInternal$d__7SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7*, "TMPro", "TMP_SpriteAnimator/<DoSpriteAnimationInternal>d__7");

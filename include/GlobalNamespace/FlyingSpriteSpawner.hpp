@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static FlyingSpriteSpawner* New_ctor();
   }; // FlyingSpriteSpawner
-  check_size<sizeof(FlyingSpriteSpawner), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __GlobalNamespace_FlyingSpriteSpawnerSizeCheck;
+  check_size<sizeof(FlyingSpriteSpawner), 80 + sizeof(void*) + ((80 + sizeof(void*)) % 8 != 0 ? (8 - (80 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_FlyingSpriteSpawnerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingSpriteSpawner*, "", "FlyingSpriteSpawner");

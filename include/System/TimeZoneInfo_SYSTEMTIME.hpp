@@ -42,7 +42,7 @@ namespace System {
     // Creating value type constructor for type: SYSTEMTIME
     constexpr SYSTEMTIME(uint16_t wYear_ = {}, uint16_t wMonth_ = {}, uint16_t wDayOfWeek_ = {}, uint16_t wDay_ = {}, uint16_t wHour_ = {}, uint16_t wMinute_ = {}, uint16_t wSecond_ = {}, uint16_t wMilliseconds_ = {}) noexcept : wYear{wYear_}, wMonth{wMonth_}, wDayOfWeek{wDayOfWeek_}, wDay{wDay_}, wHour{wHour_}, wMinute{wMinute_}, wSecond{wSecond_}, wMilliseconds{wMilliseconds_} {}
   }; // System.TimeZoneInfo/SYSTEMTIME
-  check_size<sizeof(TimeZoneInfo::SYSTEMTIME), 14 + sizeof(uint16_t) + 8 - (14 + sizeof(uint16_t)) % 8> __System_TimeZoneInfo_SYSTEMTIMESizeCheck;
+  check_size<sizeof(TimeZoneInfo::SYSTEMTIME), 14 + sizeof(uint16_t) + ((14 + sizeof(uint16_t)) % 8 != 0 ? (8 - (14 + sizeof(uint16_t)) % 8) : 0)> __System_TimeZoneInfo_SYSTEMTIMESizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::SYSTEMTIME, "System", "TimeZoneInfo/SYSTEMTIME");

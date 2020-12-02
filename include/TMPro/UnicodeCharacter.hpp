@@ -71,7 +71,7 @@ namespace TMPro {
     // Set static field: static public TMPro.UnicodeCharacter WORD_JOINER
     static void _set_WORD_JOINER(TMPro::UnicodeCharacter value);
   }; // TMPro.UnicodeCharacter
-  check_size<sizeof(UnicodeCharacter), 0 + sizeof(uint) + 8 - (0 + sizeof(uint)) % 8> __TMPro_UnicodeCharacterSizeCheck;
+  check_size<sizeof(UnicodeCharacter), 0 + sizeof(uint) + ((0 + sizeof(uint)) % 8 != 0 ? (8 - (0 + sizeof(uint)) % 8) : 0)> __TMPro_UnicodeCharacterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::UnicodeCharacter, "TMPro", "UnicodeCharacter");

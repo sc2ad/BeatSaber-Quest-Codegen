@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LevelListTableCell/<SetDataFromLevelAsync>d__17
-  check_size<sizeof(LevelListTableCell::$SetDataFromLevelAsync$d__17), 72 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>) + 8 - (72 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>)) % 8> __GlobalNamespace_LevelListTableCell_$SetDataFromLevelAsync$d__17SizeCheck;
+  check_size<sizeof(LevelListTableCell::$SetDataFromLevelAsync$d__17), 72 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>) + ((72 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>)) % 8 != 0 ? (8 - (72 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>)) % 8) : 0)> __GlobalNamespace_LevelListTableCell_$SetDataFromLevelAsync$d__17SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelListTableCell::$SetDataFromLevelAsync$d__17, "", "LevelListTableCell/<SetDataFromLevelAsync>d__17");

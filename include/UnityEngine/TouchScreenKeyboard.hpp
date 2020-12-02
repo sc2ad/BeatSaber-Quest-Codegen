@@ -102,7 +102,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // UnityEngine.TouchScreenKeyboard
-  check_size<sizeof(TouchScreenKeyboard), 16 + sizeof(System::IntPtr) + 8 - (16 + sizeof(System::IntPtr)) % 8> __UnityEngine_TouchScreenKeyboardSizeCheck;
+  check_size<sizeof(TouchScreenKeyboard), 16 + sizeof(System::IntPtr) + ((16 + sizeof(System::IntPtr)) % 8 != 0 ? (8 - (16 + sizeof(System::IntPtr)) % 8) : 0)> __UnityEngine_TouchScreenKeyboardSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TouchScreenKeyboard*, "UnityEngine", "TouchScreenKeyboard");

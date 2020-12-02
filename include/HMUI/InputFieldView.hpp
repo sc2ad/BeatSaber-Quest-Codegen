@@ -104,7 +104,7 @@ namespace HMUI {
       // Set static field: static public HMUI.InputFieldView/SelectionState Selected
       static void _set_Selected(HMUI::InputFieldView::SelectionState value);
     }; // HMUI.InputFieldView/SelectionState
-    check_size<sizeof(InputFieldView::SelectionState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __HMUI_InputFieldView_SelectionStateSizeCheck;
+    check_size<sizeof(InputFieldView::SelectionState), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __HMUI_InputFieldView_SelectionStateSizeCheck;
     // private TMPro.TextMeshProUGUI _textView
     // Offset: 0xF0
     TMPro::TextMeshProUGUI* textView;
@@ -249,7 +249,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static InputFieldView* New_ctor();
   }; // HMUI.InputFieldView
-  check_size<sizeof(InputFieldView), 360 + sizeof(void*) + 8 - (360 + sizeof(void*)) % 8> __HMUI_InputFieldViewSizeCheck;
+  check_size<sizeof(InputFieldView), 360 + sizeof(void*) + ((360 + sizeof(void*)) % 8 != 0 ? (8 - (360 + sizeof(void*)) % 8) : 0)> __HMUI_InputFieldViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView*, "HMUI", "InputFieldView");

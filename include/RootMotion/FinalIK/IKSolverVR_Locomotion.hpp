@@ -165,7 +165,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static IKSolverVR::Locomotion* New_ctor();
   }; // RootMotion.FinalIK.IKSolverVR/Locomotion
-  check_size<sizeof(IKSolverVR::Locomotion), 180 + sizeof(int) + 8 - (180 + sizeof(int)) % 8> __RootMotion_FinalIK_IKSolverVR_LocomotionSizeCheck;
+  check_size<sizeof(IKSolverVR::Locomotion), 180 + sizeof(int) + ((180 + sizeof(int)) % 8 != 0 ? (8 - (180 + sizeof(int)) % 8) : 0)> __RootMotion_FinalIK_IKSolverVR_LocomotionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Locomotion*, "RootMotion.FinalIK", "IKSolverVR/Locomotion");

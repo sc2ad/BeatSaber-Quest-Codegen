@@ -138,7 +138,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ColorsOverrideSettingsPanelController* New_ctor();
   }; // ColorsOverrideSettingsPanelController
-  check_size<sizeof(ColorsOverrideSettingsPanelController), 104 + sizeof(void*) + 8 - (104 + sizeof(void*)) % 8> __GlobalNamespace_ColorsOverrideSettingsPanelControllerSizeCheck;
+  check_size<sizeof(ColorsOverrideSettingsPanelController), 104 + sizeof(void*) + ((104 + sizeof(void*)) % 8 != 0 ? (8 - (104 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_ColorsOverrideSettingsPanelControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorsOverrideSettingsPanelController*, "", "ColorsOverrideSettingsPanelController");

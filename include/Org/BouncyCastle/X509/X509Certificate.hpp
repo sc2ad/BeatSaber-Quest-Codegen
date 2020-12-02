@@ -122,7 +122,7 @@ namespace Org::BouncyCastle::X509 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.X509.X509Certificate
-  check_size<sizeof(X509Certificate), 76 + sizeof(int) + 8 - (76 + sizeof(int)) % 8> __Org_BouncyCastle_X509_X509CertificateSizeCheck;
+  check_size<sizeof(X509Certificate), 76 + sizeof(int) + ((76 + sizeof(int)) % 8 != 0 ? (8 - (76 + sizeof(int)) % 8) : 0)> __Org_BouncyCastle_X509_X509CertificateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509Certificate*, "Org.BouncyCastle.X509", "X509Certificate");

@@ -48,7 +48,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Task::InnerInvoke()
     void InnerInvoke();
   }; // System.Threading.Tasks.ContinuationTaskFromTask
-  check_size<sizeof(ContinuationTaskFromTask), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __System_Threading_Tasks_ContinuationTaskFromTaskSizeCheck;
+  check_size<sizeof(ContinuationTaskFromTask), 80 + sizeof(void*) + ((80 + sizeof(void*)) % 8 != 0 ? (8 - (80 + sizeof(void*)) % 8) : 0)> __System_Threading_Tasks_ContinuationTaskFromTaskSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::ContinuationTaskFromTask*, "System.Threading.Tasks", "ContinuationTaskFromTask");

@@ -80,7 +80,7 @@ namespace GlobalNamespace {
       // Offset: 0xE7F900
       // ABORTED: conflicts with another method.  AssetBundleLevelInfo(::Il2CppString* assetBundlePath, ::Il2CppString* levelDataAssetName, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
     }; // BeatmapLevelDataLoaderSO/AssetBundleLevelInfo
-    check_size<sizeof(BeatmapLevelDataLoaderSO::AssetBundleLevelInfo), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapLevelDataLoaderSO_AssetBundleLevelInfoSizeCheck;
+    check_size<sizeof(BeatmapLevelDataLoaderSO::AssetBundleLevelInfo), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_BeatmapLevelDataLoaderSO_AssetBundleLevelInfoSizeCheck;
     // private BeatmapCharacteristicCollectionSO _allBeatmapCharacteristicCollection
     // Offset: 0x18
     GlobalNamespace::BeatmapCharacteristicCollectionSO* allBeatmapCharacteristicCollection;
@@ -110,7 +110,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BeatmapLevelDataLoaderSO* New_ctor();
   }; // BeatmapLevelDataLoaderSO
-  check_size<sizeof(BeatmapLevelDataLoaderSO), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapLevelDataLoaderSOSizeCheck;
+  check_size<sizeof(BeatmapLevelDataLoaderSO), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_BeatmapLevelDataLoaderSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO*, "", "BeatmapLevelDataLoaderSO");

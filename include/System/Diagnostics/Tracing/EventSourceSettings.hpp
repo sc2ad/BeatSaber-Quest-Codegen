@@ -47,7 +47,7 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static public System.Diagnostics.Tracing.EventSourceSettings EtwSelfDescribingEventFormat
     static void _set_EtwSelfDescribingEventFormat(System::Diagnostics::Tracing::EventSourceSettings value);
   }; // System.Diagnostics.Tracing.EventSourceSettings
-  check_size<sizeof(EventSourceSettings), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Diagnostics_Tracing_EventSourceSettingsSizeCheck;
+  check_size<sizeof(EventSourceSettings), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Diagnostics_Tracing_EventSourceSettingsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSourceSettings, "System.Diagnostics.Tracing", "EventSourceSettings");

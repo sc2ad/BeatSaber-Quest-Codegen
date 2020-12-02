@@ -93,7 +93,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static StepValuePicker* New_ctor();
   }; // StepValuePicker
-  check_size<sizeof(StepValuePicker), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_StepValuePickerSizeCheck;
+  check_size<sizeof(StepValuePicker), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_StepValuePickerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StepValuePicker*, "", "StepValuePicker");

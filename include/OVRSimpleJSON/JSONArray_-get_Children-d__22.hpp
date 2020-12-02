@@ -98,7 +98,7 @@ namespace OVRSimpleJSON {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // OVRSimpleJSON.JSONArray/<get_Children>d__22
-  check_size<sizeof(JSONArray::$get_Children$d__22), 48 + sizeof(System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator) + 8 - (48 + sizeof(System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator)) % 8> __OVRSimpleJSON_JSONArray_$get_Children$d__22SizeCheck;
+  check_size<sizeof(JSONArray::$get_Children$d__22), 48 + sizeof(System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator) + ((48 + sizeof(System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator)) % 8 != 0 ? (8 - (48 + sizeof(System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator)) % 8) : 0)> __OVRSimpleJSON_JSONArray_$get_Children$d__22SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONArray::$get_Children$d__22*, "OVRSimpleJSON", "JSONArray/<get_Children>d__22");

@@ -71,7 +71,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static ConnectToMatchmakingRequest* New_ctor();
   }; // MasterServer.ConnectToMatchmakingRequest
-  check_size<sizeof(ConnectToMatchmakingRequest), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __MasterServer_ConnectToMatchmakingRequestSizeCheck;
+  check_size<sizeof(ConnectToMatchmakingRequest), 80 + sizeof(void*) + ((80 + sizeof(void*)) % 8 != 0 ? (8 - (80 + sizeof(void*)) % 8) : 0)> __MasterServer_ConnectToMatchmakingRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ConnectToMatchmakingRequest*, "MasterServer", "ConnectToMatchmakingRequest");

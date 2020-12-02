@@ -107,7 +107,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NoteLineConnectionController* New_ctor();
   }; // NoteLineConnectionController
-  check_size<sizeof(NoteLineConnectionController), 124 + sizeof(bool) + 8 - (124 + sizeof(bool)) % 8> __GlobalNamespace_NoteLineConnectionControllerSizeCheck;
+  check_size<sizeof(NoteLineConnectionController), 124 + sizeof(bool) + ((124 + sizeof(bool)) % 8 != 0 ? (8 - (124 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_NoteLineConnectionControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteLineConnectionController*, "", "NoteLineConnectionController");

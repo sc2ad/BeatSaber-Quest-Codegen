@@ -97,7 +97,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PartyMessageHandler::ServerStatusUpdateMessage* New_ctor();
   }; // PartyMessageHandler/ServerStatusUpdateMessage
-  check_size<sizeof(PartyMessageHandler::ServerStatusUpdateMessage), 48 + sizeof(GlobalNamespace::GameplayServerConfiguration) + 8 - (48 + sizeof(GlobalNamespace::GameplayServerConfiguration)) % 8> __GlobalNamespace_PartyMessageHandler_ServerStatusUpdateMessageSizeCheck;
+  check_size<sizeof(PartyMessageHandler::ServerStatusUpdateMessage), 48 + sizeof(GlobalNamespace::GameplayServerConfiguration) + ((48 + sizeof(GlobalNamespace::GameplayServerConfiguration)) % 8 != 0 ? (8 - (48 + sizeof(GlobalNamespace::GameplayServerConfiguration)) % 8) : 0)> __GlobalNamespace_PartyMessageHandler_ServerStatusUpdateMessageSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage*, "", "PartyMessageHandler/ServerStatusUpdateMessage");

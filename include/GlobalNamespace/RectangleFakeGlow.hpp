@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // RectangleFakeGlow
-  check_size<sizeof(RectangleFakeGlow), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_RectangleFakeGlowSizeCheck;
+  check_size<sizeof(RectangleFakeGlow), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_RectangleFakeGlowSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RectangleFakeGlow*, "", "RectangleFakeGlow");

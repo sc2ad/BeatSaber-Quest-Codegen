@@ -27,7 +27,7 @@ namespace System::Runtime::ConstrainedExecution {
     // Offset: 0x1163F3C
     static ReliabilityContractAttribute* New_ctor(System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee, System::Runtime::ConstrainedExecution::Cer cer);
   }; // System.Runtime.ConstrainedExecution.ReliabilityContractAttribute
-  check_size<sizeof(ReliabilityContractAttribute), 20 + sizeof(System::Runtime::ConstrainedExecution::Cer) + 8 - (20 + sizeof(System::Runtime::ConstrainedExecution::Cer)) % 8> __System_Runtime_ConstrainedExecution_ReliabilityContractAttributeSizeCheck;
+  check_size<sizeof(ReliabilityContractAttribute), 20 + sizeof(System::Runtime::ConstrainedExecution::Cer) + ((20 + sizeof(System::Runtime::ConstrainedExecution::Cer)) % 8 != 0 ? (8 - (20 + sizeof(System::Runtime::ConstrainedExecution::Cer)) % 8) : 0)> __System_Runtime_ConstrainedExecution_ReliabilityContractAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ConstrainedExecution::ReliabilityContractAttribute*, "System.Runtime.ConstrainedExecution", "ReliabilityContractAttribute");

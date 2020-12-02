@@ -88,7 +88,7 @@ namespace Mono::Xml {
     // Base method: System.Void IContentHandler::OnEndParsing(Mono.Xml.SmallXmlParser parser)
     void OnEndParsing(Mono::Xml::SmallXmlParser* parser);
   }; // Mono.Xml.SecurityParser
-  check_size<sizeof(SecurityParser), 120 + sizeof(void*) + 8 - (120 + sizeof(void*)) % 8> __Mono_Xml_SecurityParserSizeCheck;
+  check_size<sizeof(SecurityParser), 120 + sizeof(void*) + ((120 + sizeof(void*)) % 8 != 0 ? (8 - (120 + sizeof(void*)) % 8) : 0)> __Mono_Xml_SecurityParserSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SecurityParser*, "Mono.Xml", "SecurityParser");

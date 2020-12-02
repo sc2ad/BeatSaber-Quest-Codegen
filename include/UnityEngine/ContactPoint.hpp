@@ -33,7 +33,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: ContactPoint
     constexpr ContactPoint(UnityEngine::Vector3 m_Point_ = {}, UnityEngine::Vector3 m_Normal_ = {}, int m_ThisColliderInstanceID_ = {}, int m_OtherColliderInstanceID_ = {}, float m_Separation_ = {}) noexcept : m_Point{m_Point_}, m_Normal{m_Normal_}, m_ThisColliderInstanceID{m_ThisColliderInstanceID_}, m_OtherColliderInstanceID{m_OtherColliderInstanceID_}, m_Separation{m_Separation_} {}
   }; // UnityEngine.ContactPoint
-  check_size<sizeof(ContactPoint), 32 + sizeof(float) + 8 - (32 + sizeof(float)) % 8> __UnityEngine_ContactPointSizeCheck;
+  check_size<sizeof(ContactPoint), 32 + sizeof(float) + ((32 + sizeof(float)) % 8 != 0 ? (8 - (32 + sizeof(float)) % 8) : 0)> __UnityEngine_ContactPointSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContactPoint, "UnityEngine", "ContactPoint");

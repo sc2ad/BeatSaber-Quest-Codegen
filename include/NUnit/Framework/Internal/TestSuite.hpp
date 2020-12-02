@@ -118,7 +118,7 @@ namespace NUnit::Framework::Internal {
     // Base method: NUnit.Framework.Interfaces.TNode Test::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
   }; // NUnit.Framework.Internal.TestSuite
-  check_size<sizeof(TestSuite), 136 + sizeof(bool) + 8 - (136 + sizeof(bool)) % 8> __NUnit_Framework_Internal_TestSuiteSizeCheck;
+  check_size<sizeof(TestSuite), 136 + sizeof(bool) + ((136 + sizeof(bool)) % 8 != 0 ? (8 - (136 + sizeof(bool)) % 8) : 0)> __NUnit_Framework_Internal_TestSuiteSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestSuite*, "NUnit.Framework.Internal", "TestSuite");

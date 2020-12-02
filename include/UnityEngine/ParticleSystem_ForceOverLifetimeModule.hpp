@@ -33,7 +33,7 @@ namespace UnityEngine {
     // Offset: 0x19FFBAC
     static void set_enabled_Injected(UnityEngine::ParticleSystem::ForceOverLifetimeModule& _unity_self, bool value);
   }; // UnityEngine.ParticleSystem/ForceOverLifetimeModule
-  check_size<sizeof(ParticleSystem::ForceOverLifetimeModule), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __UnityEngine_ParticleSystem_ForceOverLifetimeModuleSizeCheck;
+  check_size<sizeof(ParticleSystem::ForceOverLifetimeModule), 0 + sizeof(void*) + ((0 + sizeof(void*)) % 8 != 0 ? (8 - (0 + sizeof(void*)) % 8) : 0)> __UnityEngine_ParticleSystem_ForceOverLifetimeModuleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::ForceOverLifetimeModule, "UnityEngine", "ParticleSystem/ForceOverLifetimeModule");

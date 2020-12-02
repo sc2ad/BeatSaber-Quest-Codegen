@@ -76,7 +76,7 @@ namespace MasterServer {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.MessageHandler/<SendMessageWithRetry>d__95
-  check_size<sizeof(MessageHandler::$SendMessageWithRetry$d__95), 80 + sizeof(System::Runtime::CompilerServices::TaskAwaiter) + 8 - (80 + sizeof(System::Runtime::CompilerServices::TaskAwaiter)) % 8> __MasterServer_MessageHandler_$SendMessageWithRetry$d__95SizeCheck;
+  check_size<sizeof(MessageHandler::$SendMessageWithRetry$d__95), 80 + sizeof(System::Runtime::CompilerServices::TaskAwaiter) + ((80 + sizeof(System::Runtime::CompilerServices::TaskAwaiter)) % 8 != 0 ? (8 - (80 + sizeof(System::Runtime::CompilerServices::TaskAwaiter)) % 8) : 0)> __MasterServer_MessageHandler_$SendMessageWithRetry$d__95SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::$SendMessageWithRetry$d__95, "MasterServer", "MessageHandler/<SendMessageWithRetry>d__95");

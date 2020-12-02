@@ -36,7 +36,7 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Net.IPAddress IPAddressInformation::get_Address()
     System::Net::IPAddress* get_Address();
   }; // System.Net.NetworkInformation.LinuxUnicastIPAddressInformation
-  check_size<sizeof(LinuxUnicastIPAddressInformation), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Net_NetworkInformation_LinuxUnicastIPAddressInformationSizeCheck;
+  check_size<sizeof(LinuxUnicastIPAddressInformation), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Net_NetworkInformation_LinuxUnicastIPAddressInformationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::LinuxUnicastIPAddressInformation*, "System.Net.NetworkInformation", "LinuxUnicastIPAddressInformation");

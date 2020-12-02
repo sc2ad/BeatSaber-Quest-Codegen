@@ -130,7 +130,7 @@ namespace UnityEngine {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Color other)
     bool Equals(UnityEngine::Color other);
   }; // UnityEngine.Color
-  check_size<sizeof(Color), 12 + sizeof(float) + 8 - (12 + sizeof(float)) % 8> __UnityEngine_ColorSizeCheck;
+  check_size<sizeof(Color), 12 + sizeof(float) + ((12 + sizeof(float)) % 8 != 0 ? (8 - (12 + sizeof(float)) % 8) : 0)> __UnityEngine_ColorSizeCheck;
   // static public UnityEngine.Color op_Addition(UnityEngine.Color a, UnityEngine.Color b)
   // Offset: 0x16814C4
   UnityEngine::Color operator+(const UnityEngine::Color& a, const UnityEngine::Color& b);

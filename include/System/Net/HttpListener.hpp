@@ -210,7 +210,7 @@ namespace System::Net {
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
   }; // System.Net.HttpListener
-  check_size<sizeof(HttpListener), 128 + sizeof(void*) + 8 - (128 + sizeof(void*)) % 8> __System_Net_HttpListenerSizeCheck;
+  check_size<sizeof(HttpListener), 128 + sizeof(void*) + ((128 + sizeof(void*)) % 8 != 0 ? (8 - (128 + sizeof(void*)) % 8) : 0)> __System_Net_HttpListenerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListener*, "System.Net", "HttpListener");

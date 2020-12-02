@@ -99,7 +99,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0x117506C
     void NotifyServerDynamicSinks(bool start, System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
   }; // System.Runtime.Remoting.Identity
-  check_size<sizeof(Identity), 64 + sizeof(bool) + 8 - (64 + sizeof(bool)) % 8> __System_Runtime_Remoting_IdentitySizeCheck;
+  check_size<sizeof(Identity), 64 + sizeof(bool) + ((64 + sizeof(bool)) % 8 != 0 ? (8 - (64 + sizeof(bool)) % 8) : 0)> __System_Runtime_Remoting_IdentitySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Identity*, "System.Runtime.Remoting", "Identity");

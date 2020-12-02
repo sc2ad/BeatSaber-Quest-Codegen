@@ -34,7 +34,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static Interactable* New_ctor();
   }; // HMUI.Interactable
-  check_size<sizeof(Interactable), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __HMUI_InteractableSizeCheck;
+  check_size<sizeof(Interactable), 24 + sizeof(bool) + ((24 + sizeof(bool)) % 8 != 0 ? (8 - (24 + sizeof(bool)) % 8) : 0)> __HMUI_InteractableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Interactable*, "HMUI", "Interactable");

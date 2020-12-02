@@ -41,7 +41,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.RenderMode WorldSpace
     static void _set_WorldSpace(UnityEngine::RenderMode value);
   }; // UnityEngine.RenderMode
-  check_size<sizeof(RenderMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_RenderModeSizeCheck;
+  check_size<sizeof(RenderMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_RenderModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderMode, "UnityEngine", "RenderMode");

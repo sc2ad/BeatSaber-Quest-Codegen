@@ -331,7 +331,7 @@ namespace UnityEngine {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.GUIStyle
-  check_size<sizeof(GUIStyle), 120 + sizeof(void*) + 8 - (120 + sizeof(void*)) % 8> __UnityEngine_GUIStyleSizeCheck;
+  check_size<sizeof(GUIStyle), 120 + sizeof(void*) + ((120 + sizeof(void*)) % 8 != 0 ? (8 - (120 + sizeof(void*)) % 8) : 0)> __UnityEngine_GUIStyleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIStyle*, "UnityEngine", "GUIStyle");

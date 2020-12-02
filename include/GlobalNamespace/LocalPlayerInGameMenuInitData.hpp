@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A6BC40
     static LocalPlayerInGameMenuInitData* New_ctor(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool hasSong);
   }; // LocalPlayerInGameMenuInitData
-  check_size<sizeof(LocalPlayerInGameMenuInitData), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __GlobalNamespace_LocalPlayerInGameMenuInitDataSizeCheck;
+  check_size<sizeof(LocalPlayerInGameMenuInitData), 40 + sizeof(bool) + ((40 + sizeof(bool)) % 8 != 0 ? (8 - (40 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_LocalPlayerInGameMenuInitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalPlayerInGameMenuInitData*, "", "LocalPlayerInGameMenuInitData");

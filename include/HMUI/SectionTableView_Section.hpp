@@ -26,7 +26,7 @@ namespace HMUI {
     // Creating value type constructor for type: Section
     constexpr Section(bool unfolded_ = {}, int startBaseRow_ = {}, int numberOfBaseRows_ = {}) noexcept : unfolded{unfolded_}, startBaseRow{startBaseRow_}, numberOfBaseRows{numberOfBaseRows_} {}
   }; // HMUI.SectionTableView/Section
-  check_size<sizeof(SectionTableView::Section), 8 + sizeof(int) + 8 - (8 + sizeof(int)) % 8> __HMUI_SectionTableView_SectionSizeCheck;
+  check_size<sizeof(SectionTableView::Section), 8 + sizeof(int) + ((8 + sizeof(int)) % 8 != 0 ? (8 - (8 + sizeof(int)) % 8) : 0)> __HMUI_SectionTableView_SectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView::Section, "HMUI", "SectionTableView/Section");

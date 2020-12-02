@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LocalLeaderboardsModel::LeaderboardData* New_ctor();
   }; // LocalLeaderboardsModel/LeaderboardData
-  check_size<sizeof(LocalLeaderboardsModel::LeaderboardData), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_LocalLeaderboardsModel_LeaderboardDataSizeCheck;
+  check_size<sizeof(LocalLeaderboardsModel::LeaderboardData), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_LocalLeaderboardsModel_LeaderboardDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*, "", "LocalLeaderboardsModel/LeaderboardData");

@@ -98,7 +98,7 @@ namespace UnityEngine {
     // Offset: 0xCB8A28
     bool Equals(UnityEngine::TextGenerationSettings other);
   }; // UnityEngine.TextGenerationSettings
-  check_size<sizeof(TextGenerationSettings), 88 + sizeof(bool) + 8 - (88 + sizeof(bool)) % 8> __UnityEngine_TextGenerationSettingsSizeCheck;
+  check_size<sizeof(TextGenerationSettings), 88 + sizeof(bool) + ((88 + sizeof(bool)) % 8 != 0 ? (8 - (88 + sizeof(bool)) % 8) : 0)> __UnityEngine_TextGenerationSettingsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerationSettings, "UnityEngine", "TextGenerationSettings");

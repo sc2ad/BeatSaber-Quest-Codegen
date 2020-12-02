@@ -24,7 +24,7 @@ namespace UnityEngine {
     // Offset: 0x172C86C
     static MinAttribute* New_ctor(float min);
   }; // UnityEngine.MinAttribute
-  check_size<sizeof(MinAttribute), 16 + sizeof(float) + 8 - (16 + sizeof(float)) % 8> __UnityEngine_MinAttributeSizeCheck;
+  check_size<sizeof(MinAttribute), 16 + sizeof(float) + ((16 + sizeof(float)) % 8 != 0 ? (8 - (16 + sizeof(float)) % 8) : 0)> __UnityEngine_MinAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MinAttribute*, "UnityEngine", "MinAttribute");

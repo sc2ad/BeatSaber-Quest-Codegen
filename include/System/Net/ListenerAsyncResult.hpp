@@ -131,7 +131,7 @@ namespace System::Net {
     // Maps to method: get_IsCompleted
     bool System_IAsyncResult_get_IsCompleted();
   }; // System.Net.ListenerAsyncResult
-  check_size<sizeof(ListenerAsyncResult), 81 + sizeof(bool) + 8 - (81 + sizeof(bool)) % 8> __System_Net_ListenerAsyncResultSizeCheck;
+  check_size<sizeof(ListenerAsyncResult), 81 + sizeof(bool) + ((81 + sizeof(bool)) % 8 != 0 ? (8 - (81 + sizeof(bool)) % 8) : 0)> __System_Net_ListenerAsyncResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ListenerAsyncResult*, "System.Net", "ListenerAsyncResult");

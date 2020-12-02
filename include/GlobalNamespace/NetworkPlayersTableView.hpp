@@ -138,7 +138,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NetworkPlayersTableView* New_ctor();
   }; // NetworkPlayersTableView
-  check_size<sizeof(NetworkPlayersTableView), 88 + sizeof(bool) + 8 - (88 + sizeof(bool)) % 8> __GlobalNamespace_NetworkPlayersTableViewSizeCheck;
+  check_size<sizeof(NetworkPlayersTableView), 88 + sizeof(bool) + ((88 + sizeof(bool)) % 8 != 0 ? (8 - (88 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_NetworkPlayersTableViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayersTableView*, "", "NetworkPlayersTableView");

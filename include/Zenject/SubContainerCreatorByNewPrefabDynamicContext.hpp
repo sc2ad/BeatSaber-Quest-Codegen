@@ -46,7 +46,7 @@ namespace Zenject {
     // Base method: UnityEngine.GameObject SubContainerCreatorDynamicContext::CreateGameObject(out System.Boolean shouldMakeActive)
     UnityEngine::GameObject* CreateGameObject(bool& shouldMakeActive);
   }; // Zenject.SubContainerCreatorByNewPrefabDynamicContext
-  check_size<sizeof(SubContainerCreatorByNewPrefabDynamicContext), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Zenject_SubContainerCreatorByNewPrefabDynamicContextSizeCheck;
+  check_size<sizeof(SubContainerCreatorByNewPrefabDynamicContext), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __Zenject_SubContainerCreatorByNewPrefabDynamicContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewPrefabDynamicContext*, "Zenject", "SubContainerCreatorByNewPrefabDynamicContext");

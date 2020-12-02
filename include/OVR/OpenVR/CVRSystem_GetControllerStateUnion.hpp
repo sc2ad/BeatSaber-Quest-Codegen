@@ -26,7 +26,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: GetControllerStateUnion
     constexpr GetControllerStateUnion(OVR::OpenVR::IVRSystem::_GetControllerState* pGetControllerState_ = {}, OVR::OpenVR::CVRSystem::_GetControllerStatePacked* pGetControllerStatePacked_ = {}) noexcept : pGetControllerState{pGetControllerState_}, pGetControllerStatePacked{pGetControllerStatePacked_} {}
   }; // OVR.OpenVR.CVRSystem/GetControllerStateUnion
-  check_size<sizeof(CVRSystem::GetControllerStateUnion), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __OVR_OpenVR_CVRSystem_GetControllerStateUnionSizeCheck;
+  check_size<sizeof(CVRSystem::GetControllerStateUnion), 0 + sizeof(void*) + ((0 + sizeof(void*)) % 8 != 0 ? (8 - (0 + sizeof(void*)) % 8) : 0)> __OVR_OpenVR_CVRSystem_GetControllerStateUnionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSystem::GetControllerStateUnion, "OVR.OpenVR", "CVRSystem/GetControllerStateUnion");

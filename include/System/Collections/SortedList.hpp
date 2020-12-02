@@ -231,7 +231,7 @@ namespace System::Collections {
     // Maps to method: set_Item
     void System_Collections_IDictionary_set_Item(::Il2CppObject* key, ::Il2CppObject* value);
   }; // System.Collections.SortedList
-  check_size<sizeof(SortedList), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __System_Collections_SortedListSizeCheck;
+  check_size<sizeof(SortedList), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __System_Collections_SortedListSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList*, "System.Collections", "SortedList");

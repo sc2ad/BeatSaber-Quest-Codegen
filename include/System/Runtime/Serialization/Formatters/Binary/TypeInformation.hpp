@@ -33,7 +33,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x12FF6B4
     static TypeInformation* New_ctor(::Il2CppString* fullTypeName, ::Il2CppString* assemblyString, bool hasTypeForwardedFrom);
   }; // System.Runtime.Serialization.Formatters.Binary.TypeInformation
-  check_size<sizeof(TypeInformation), 32 + sizeof(bool) + 8 - (32 + sizeof(bool)) % 8> __System_Runtime_Serialization_Formatters_Binary_TypeInformationSizeCheck;
+  check_size<sizeof(TypeInformation), 32 + sizeof(bool) + ((32 + sizeof(bool)) % 8 != 0 ? (8 - (32 + sizeof(bool)) % 8) : 0)> __System_Runtime_Serialization_Formatters_Binary_TypeInformationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::TypeInformation*, "System.Runtime.Serialization.Formatters.Binary", "TypeInformation");

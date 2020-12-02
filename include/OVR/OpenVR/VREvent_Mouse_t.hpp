@@ -24,7 +24,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VREvent_Mouse_t
     constexpr VREvent_Mouse_t(float x_ = {}, float y_ = {}, uint button_ = {}) noexcept : x{x_}, y{y_}, button{button_} {}
   }; // OVR.OpenVR.VREvent_Mouse_t
-  check_size<sizeof(VREvent_Mouse_t), 8 + sizeof(uint) + 8 - (8 + sizeof(uint)) % 8> __OVR_OpenVR_VREvent_Mouse_tSizeCheck;
+  check_size<sizeof(VREvent_Mouse_t), 8 + sizeof(uint) + ((8 + sizeof(uint)) % 8 != 0 ? (8 - (8 + sizeof(uint)) % 8) : 0)> __OVR_OpenVR_VREvent_Mouse_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Mouse_t, "OVR.OpenVR", "VREvent_Mouse_t");

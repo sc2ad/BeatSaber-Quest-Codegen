@@ -106,7 +106,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRSystemPerfMetrics::PerfMetrics* New_ctor();
   }; // OVRSystemPerfMetrics/PerfMetrics
-  check_size<sizeof(OVRSystemPerfMetrics::PerfMetrics), 120 + sizeof(int) + 8 - (120 + sizeof(int)) % 8> __GlobalNamespace_OVRSystemPerfMetrics_PerfMetricsSizeCheck;
+  check_size<sizeof(OVRSystemPerfMetrics::PerfMetrics), 120 + sizeof(int) + ((120 + sizeof(int)) % 8 != 0 ? (8 - (120 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OVRSystemPerfMetrics_PerfMetricsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics*, "", "OVRSystemPerfMetrics/PerfMetrics");

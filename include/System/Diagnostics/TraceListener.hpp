@@ -81,7 +81,7 @@ namespace System::Diagnostics {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Diagnostics.TraceListener
-  check_size<sizeof(TraceListener), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Diagnostics_TraceListenerSizeCheck;
+  check_size<sizeof(TraceListener), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __System_Diagnostics_TraceListenerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceListener*, "System.Diagnostics", "TraceListener");

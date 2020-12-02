@@ -104,7 +104,7 @@ namespace LiteNetLib {
       // Set static field: static public LiteNetLib.NetEvent/EType MessageDelivered
       static void _set_MessageDelivered(LiteNetLib::NetEvent::EType value);
     }; // LiteNetLib.NetEvent/EType
-    check_size<sizeof(NetEvent::EType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __LiteNetLib_NetEvent_ETypeSizeCheck;
+    check_size<sizeof(NetEvent::EType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __LiteNetLib_NetEvent_ETypeSizeCheck;
     // public LiteNetLib.NetEvent/EType Type
     // Offset: 0x10
     LiteNetLib::NetEvent::EType Type;
@@ -139,7 +139,7 @@ namespace LiteNetLib {
     // Offset: 0x1DC6C08
     static NetEvent* New_ctor(LiteNetLib::NetManager* manager);
   }; // LiteNetLib.NetEvent
-  check_size<sizeof(NetEvent), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __LiteNetLib_NetEventSizeCheck;
+  check_size<sizeof(NetEvent), 80 + sizeof(void*) + ((80 + sizeof(void*)) % 8 != 0 ? (8 - (80 + sizeof(void*)) % 8) : 0)> __LiteNetLib_NetEventSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetEvent*, "LiteNetLib", "NetEvent");

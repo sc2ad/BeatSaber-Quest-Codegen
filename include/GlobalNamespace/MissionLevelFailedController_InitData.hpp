@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x1017BC8
     static MissionLevelFailedController::InitData* New_ctor(bool autoRestart);
   }; // MissionLevelFailedController/InitData
-  check_size<sizeof(MissionLevelFailedController::InitData), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __GlobalNamespace_MissionLevelFailedController_InitDataSizeCheck;
+  check_size<sizeof(MissionLevelFailedController::InitData), 16 + sizeof(bool) + ((16 + sizeof(bool)) % 8 != 0 ? (8 - (16 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_MissionLevelFailedController_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelFailedController::InitData*, "", "MissionLevelFailedController/InitData");

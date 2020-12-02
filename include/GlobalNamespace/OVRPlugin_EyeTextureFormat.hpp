@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/EyeTextureFormat EnumSize
     static void _set_EnumSize(GlobalNamespace::OVRPlugin::EyeTextureFormat value);
   }; // OVRPlugin/EyeTextureFormat
-  check_size<sizeof(OVRPlugin::EyeTextureFormat), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRPlugin_EyeTextureFormatSizeCheck;
+  check_size<sizeof(OVRPlugin::EyeTextureFormat), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OVRPlugin_EyeTextureFormatSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::EyeTextureFormat, "", "OVRPlugin/EyeTextureFormat");

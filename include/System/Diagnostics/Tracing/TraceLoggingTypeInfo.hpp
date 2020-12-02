@@ -87,7 +87,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x11205C4
     ::Il2CppObject* GetData(::Il2CppObject* value);
   }; // System.Diagnostics.Tracing.TraceLoggingTypeInfo
-  check_size<sizeof(TraceLoggingTypeInfo), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __System_Diagnostics_Tracing_TraceLoggingTypeInfoSizeCheck;
+  check_size<sizeof(TraceLoggingTypeInfo), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __System_Diagnostics_Tracing_TraceLoggingTypeInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::TraceLoggingTypeInfo*, "System.Diagnostics.Tracing", "TraceLoggingTypeInfo");

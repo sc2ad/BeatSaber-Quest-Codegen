@@ -101,7 +101,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // PyramidBloomRendererSO
-  check_size<sizeof(PyramidBloomRendererSO), 48 + sizeof(bool) + 8 - (48 + sizeof(bool)) % 8> __GlobalNamespace_PyramidBloomRendererSOSizeCheck;
+  check_size<sizeof(PyramidBloomRendererSO), 48 + sizeof(bool) + ((48 + sizeof(bool)) % 8 != 0 ? (8 - (48 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_PyramidBloomRendererSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PyramidBloomRendererSO*, "", "PyramidBloomRendererSO");

@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static GameServerBrowserViewController* New_ctor();
   }; // GameServerBrowserViewController
-  check_size<sizeof(GameServerBrowserViewController), 160 + sizeof(void*) + 8 - (160 + sizeof(void*)) % 8> __GlobalNamespace_GameServerBrowserViewControllerSizeCheck;
+  check_size<sizeof(GameServerBrowserViewController), 160 + sizeof(void*) + ((160 + sizeof(void*)) % 8 != 0 ? (8 - (160 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_GameServerBrowserViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerBrowserViewController*, "", "GameServerBrowserViewController");

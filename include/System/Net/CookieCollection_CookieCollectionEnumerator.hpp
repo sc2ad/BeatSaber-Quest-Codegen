@@ -50,7 +50,7 @@ namespace System::Net {
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
   }; // System.Net.CookieCollection/CookieCollectionEnumerator
-  check_size<sizeof(CookieCollection::CookieCollectionEnumerator), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __System_Net_CookieCollection_CookieCollectionEnumeratorSizeCheck;
+  check_size<sizeof(CookieCollection::CookieCollectionEnumerator), 32 + sizeof(int) + ((32 + sizeof(int)) % 8 != 0 ? (8 - (32 + sizeof(int)) % 8) : 0)> __System_Net_CookieCollection_CookieCollectionEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieCollection::CookieCollectionEnumerator*, "System.Net", "CookieCollection/CookieCollectionEnumerator");

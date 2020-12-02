@@ -102,7 +102,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Void IApplyToTest::ApplyToTest(NUnit.Framework.Internal.Test test)
     void ApplyToTest(NUnit::Framework::Internal::Test* test);
   }; // NUnit.Framework.Internal.TestParameters
-  check_size<sizeof(TestParameters), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __NUnit_Framework_Internal_TestParametersSizeCheck;
+  check_size<sizeof(TestParameters), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __NUnit_Framework_Internal_TestParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestParameters*, "NUnit.Framework.Internal", "TestParameters");

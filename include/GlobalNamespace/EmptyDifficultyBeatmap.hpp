@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EmptyDifficultyBeatmap* New_ctor();
   }; // EmptyDifficultyBeatmap
-  check_size<sizeof(EmptyDifficultyBeatmap), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_EmptyDifficultyBeatmapSizeCheck;
+  check_size<sizeof(EmptyDifficultyBeatmap), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_EmptyDifficultyBeatmapSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EmptyDifficultyBeatmap*, "", "EmptyDifficultyBeatmap");

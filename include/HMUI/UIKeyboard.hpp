@@ -102,7 +102,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static UIKeyboard* New_ctor();
   }; // HMUI.UIKeyboard
-  check_size<sizeof(UIKeyboard), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __HMUI_UIKeyboardSizeCheck;
+  check_size<sizeof(UIKeyboard), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __HMUI_UIKeyboardSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::UIKeyboard*, "HMUI", "UIKeyboard");

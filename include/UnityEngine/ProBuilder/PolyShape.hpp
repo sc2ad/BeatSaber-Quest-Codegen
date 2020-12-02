@@ -77,7 +77,7 @@ namespace UnityEngine::ProBuilder {
       // Set static field: static public UnityEngine.ProBuilder.PolyShape/PolyEditMode Edit
       static void _set_Edit(UnityEngine::ProBuilder::PolyShape::PolyEditMode value);
     }; // UnityEngine.ProBuilder.PolyShape/PolyEditMode
-    check_size<sizeof(PolyShape::PolyEditMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_ProBuilder_PolyShape_PolyEditModeSizeCheck;
+    check_size<sizeof(PolyShape::PolyEditMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_ProBuilder_PolyShape_PolyEditModeSizeCheck;
     // private UnityEngine.ProBuilder.ProBuilderMesh m_Mesh
     // Offset: 0x18
     UnityEngine::ProBuilder::ProBuilderMesh* m_Mesh;
@@ -141,7 +141,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.ctor()
     static PolyShape* New_ctor();
   }; // UnityEngine.ProBuilder.PolyShape
-  check_size<sizeof(PolyShape), 49 + sizeof(bool) + 8 - (49 + sizeof(bool)) % 8> __UnityEngine_ProBuilder_PolyShapeSizeCheck;
+  check_size<sizeof(PolyShape), 49 + sizeof(bool) + ((49 + sizeof(bool)) % 8 != 0 ? (8 - (49 + sizeof(bool)) % 8) : 0)> __UnityEngine_ProBuilder_PolyShapeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PolyShape*, "UnityEngine.ProBuilder", "PolyShape");

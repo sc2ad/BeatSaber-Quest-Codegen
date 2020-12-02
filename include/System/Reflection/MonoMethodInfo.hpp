@@ -83,7 +83,7 @@ namespace System::Reflection {
     // Offset: 0x15CADE0
     static ::Array<System::Reflection::ParameterInfo*>* GetParametersInfo(System::IntPtr handle, System::Reflection::MemberInfo* member);
   }; // System.Reflection.MonoMethodInfo
-  check_size<sizeof(MonoMethodInfo), 24 + sizeof(System::Reflection::CallingConventions) + 8 - (24 + sizeof(System::Reflection::CallingConventions)) % 8> __System_Reflection_MonoMethodInfoSizeCheck;
+  check_size<sizeof(MonoMethodInfo), 24 + sizeof(System::Reflection::CallingConventions) + ((24 + sizeof(System::Reflection::CallingConventions)) % 8 != 0 ? (8 - (24 + sizeof(System::Reflection::CallingConventions)) % 8) : 0)> __System_Reflection_MonoMethodInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoMethodInfo, "System.Reflection", "MonoMethodInfo");

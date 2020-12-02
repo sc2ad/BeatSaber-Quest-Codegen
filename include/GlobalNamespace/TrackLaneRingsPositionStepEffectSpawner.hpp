@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static TrackLaneRingsPositionStepEffectSpawner* New_ctor();
   }; // TrackLaneRingsPositionStepEffectSpawner
-  check_size<sizeof(TrackLaneRingsPositionStepEffectSpawner), 56 + sizeof(bool) + 8 - (56 + sizeof(bool)) % 8> __GlobalNamespace_TrackLaneRingsPositionStepEffectSpawnerSizeCheck;
+  check_size<sizeof(TrackLaneRingsPositionStepEffectSpawner), 56 + sizeof(bool) + ((56 + sizeof(bool)) % 8 != 0 ? (8 - (56 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_TrackLaneRingsPositionStepEffectSpawnerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner*, "", "TrackLaneRingsPositionStepEffectSpawner");

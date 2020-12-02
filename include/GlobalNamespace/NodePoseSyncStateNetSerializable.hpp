@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NodePoseSyncStateNetSerializable* New_ctor();
   }; // NodePoseSyncStateNetSerializable
-  check_size<sizeof(NodePoseSyncStateNetSerializable), 20 + sizeof(GlobalNamespace::NodePoseSyncState) + 8 - (20 + sizeof(GlobalNamespace::NodePoseSyncState)) % 8> __GlobalNamespace_NodePoseSyncStateNetSerializableSizeCheck;
+  check_size<sizeof(NodePoseSyncStateNetSerializable), 20 + sizeof(GlobalNamespace::NodePoseSyncState) + ((20 + sizeof(GlobalNamespace::NodePoseSyncState)) % 8 != 0 ? (8 - (20 + sizeof(GlobalNamespace::NodePoseSyncState)) % 8) : 0)> __GlobalNamespace_NodePoseSyncStateNetSerializableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodePoseSyncStateNetSerializable*, "", "NodePoseSyncStateNetSerializable");

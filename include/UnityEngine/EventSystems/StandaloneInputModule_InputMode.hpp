@@ -37,7 +37,7 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public UnityEngine.EventSystems.StandaloneInputModule/InputMode Buttons
     static void _set_Buttons(UnityEngine::EventSystems::StandaloneInputModule::InputMode value);
   }; // UnityEngine.EventSystems.StandaloneInputModule/InputMode
-  check_size<sizeof(StandaloneInputModule::InputMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_EventSystems_StandaloneInputModule_InputModeSizeCheck;
+  check_size<sizeof(StandaloneInputModule::InputMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_EventSystems_StandaloneInputModule_InputModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::StandaloneInputModule::InputMode, "UnityEngine.EventSystems", "StandaloneInputModule/InputMode");

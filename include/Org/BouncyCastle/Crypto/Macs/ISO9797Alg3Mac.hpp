@@ -100,7 +100,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Base method: System.Void IMac::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Macs.ISO9797Alg3Mac
-  check_size<sizeof(ISO9797Alg3Mac), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Macs_ISO9797Alg3MacSizeCheck;
+  check_size<sizeof(ISO9797Alg3Mac), 72 + sizeof(void*) + ((72 + sizeof(void*)) % 8 != 0 ? (8 - (72 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_Macs_ISO9797Alg3MacSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac*, "Org.BouncyCastle.Crypto.Macs", "ISO9797Alg3Mac");

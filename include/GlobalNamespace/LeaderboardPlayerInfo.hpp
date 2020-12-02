@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     // Offset: 0xF1D1EC
     static LeaderboardPlayerInfo* New_ctor(bool succeeded, ::Il2CppString* playerId, ::Il2CppString* playerName, ::Il2CppString* playerKey, ::Il2CppString* authType, ::Il2CppString* playerFriends);
   }; // LeaderboardPlayerInfo
-  check_size<sizeof(LeaderboardPlayerInfo), 64 + sizeof(bool) + 8 - (64 + sizeof(bool)) % 8> __GlobalNamespace_LeaderboardPlayerInfoSizeCheck;
+  check_size<sizeof(LeaderboardPlayerInfo), 64 + sizeof(bool) + ((64 + sizeof(bool)) % 8 != 0 ? (8 - (64 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_LeaderboardPlayerInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardPlayerInfo*, "", "LeaderboardPlayerInfo");

@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ColorSchemeTableCell* New_ctor();
   }; // ColorSchemeTableCell
-  check_size<sizeof(ColorSchemeTableCell), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __GlobalNamespace_ColorSchemeTableCellSizeCheck;
+  check_size<sizeof(ColorSchemeTableCell), 96 + sizeof(void*) + ((96 + sizeof(void*)) % 8 != 0 ? (8 - (96 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_ColorSchemeTableCellSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeTableCell*, "", "ColorSchemeTableCell");

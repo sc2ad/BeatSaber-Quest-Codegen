@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OffsetByBeatmapObjectSpawnCenter* New_ctor();
   }; // OffsetByBeatmapObjectSpawnCenter
-  check_size<sizeof(OffsetByBeatmapObjectSpawnCenter), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_OffsetByBeatmapObjectSpawnCenterSizeCheck;
+  check_size<sizeof(OffsetByBeatmapObjectSpawnCenter), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_OffsetByBeatmapObjectSpawnCenterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OffsetByBeatmapObjectSpawnCenter*, "", "OffsetByBeatmapObjectSpawnCenter");

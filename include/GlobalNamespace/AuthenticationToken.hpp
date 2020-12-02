@@ -81,7 +81,7 @@ namespace GlobalNamespace {
       // Set static field: static public AuthenticationToken/Platform Oculus
       static void _set_Oculus(GlobalNamespace::AuthenticationToken::Platform value);
     }; // AuthenticationToken/Platform
-    check_size<sizeof(AuthenticationToken::Platform), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_AuthenticationToken_PlatformSizeCheck;
+    check_size<sizeof(AuthenticationToken::Platform), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_AuthenticationToken_PlatformSizeCheck;
     // public readonly AuthenticationToken/Platform platform
     // Offset: 0x0
     GlobalNamespace::AuthenticationToken::Platform platform;
@@ -120,7 +120,7 @@ namespace GlobalNamespace {
     // Maps to method: CreateFromSerializedData
     GlobalNamespace::AuthenticationToken LiteNetLib_Utils_INetImmutableSerializable_1_CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
   }; // AuthenticationToken
-  check_size<sizeof(AuthenticationToken), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_AuthenticationTokenSizeCheck;
+  check_size<sizeof(AuthenticationToken), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_AuthenticationTokenSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AuthenticationToken, "", "AuthenticationToken");

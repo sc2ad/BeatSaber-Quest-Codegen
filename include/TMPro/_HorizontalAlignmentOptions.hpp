@@ -59,7 +59,7 @@ namespace TMPro {
     // Set static field: static public TMPro._HorizontalAlignmentOptions Geometry
     static void _set_Geometry(TMPro::_HorizontalAlignmentOptions value);
   }; // TMPro._HorizontalAlignmentOptions
-  check_size<sizeof(_HorizontalAlignmentOptions), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __TMPro__HorizontalAlignmentOptionsSizeCheck;
+  check_size<sizeof(_HorizontalAlignmentOptions), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __TMPro__HorizontalAlignmentOptionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::_HorizontalAlignmentOptions, "TMPro", "_HorizontalAlignmentOptions");

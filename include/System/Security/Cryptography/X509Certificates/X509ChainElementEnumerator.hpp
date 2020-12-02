@@ -64,7 +64,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator
-  check_size<sizeof(X509ChainElementEnumerator), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Security_Cryptography_X509Certificates_X509ChainElementEnumeratorSizeCheck;
+  check_size<sizeof(X509ChainElementEnumerator), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Security_Cryptography_X509Certificates_X509ChainElementEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator*, "System.Security.Cryptography.X509Certificates", "X509ChainElementEnumerator");

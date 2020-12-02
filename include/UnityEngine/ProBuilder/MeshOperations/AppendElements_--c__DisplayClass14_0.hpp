@@ -38,7 +38,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Base method: System.Void Object::.ctor()
     static AppendElements::$$c__DisplayClass14_0* New_ctor();
   }; // UnityEngine.ProBuilder.MeshOperations.AppendElements/<>c__DisplayClass14_0
-  check_size<sizeof(AppendElements::$$c__DisplayClass14_0), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __UnityEngine_ProBuilder_MeshOperations_AppendElements_$$c__DisplayClass14_0SizeCheck;
+  check_size<sizeof(AppendElements::$$c__DisplayClass14_0), 16 + sizeof(int) + ((16 + sizeof(int)) % 8 != 0 ? (8 - (16 + sizeof(int)) % 8) : 0)> __UnityEngine_ProBuilder_MeshOperations_AppendElements_$$c__DisplayClass14_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c__DisplayClass14_0*, "UnityEngine.ProBuilder.MeshOperations", "AppendElements/<>c__DisplayClass14_0");

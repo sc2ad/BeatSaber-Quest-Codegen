@@ -104,7 +104,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AnnotatedBeatmapLevelCollectionsViewController* New_ctor();
   }; // AnnotatedBeatmapLevelCollectionsViewController
-  check_size<sizeof(AnnotatedBeatmapLevelCollectionsViewController), 152 + sizeof(void*) + 8 - (152 + sizeof(void*)) % 8> __GlobalNamespace_AnnotatedBeatmapLevelCollectionsViewControllerSizeCheck;
+  check_size<sizeof(AnnotatedBeatmapLevelCollectionsViewController), 152 + sizeof(void*) + ((152 + sizeof(void*)) % 8 != 0 ? (8 - (152 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_AnnotatedBeatmapLevelCollectionsViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*, "", "AnnotatedBeatmapLevelCollectionsViewController");

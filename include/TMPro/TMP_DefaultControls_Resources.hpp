@@ -46,7 +46,7 @@ namespace TMPro {
     // Creating value type constructor for type: Resources
     constexpr Resources(UnityEngine::Sprite* standard_ = {}, UnityEngine::Sprite* background_ = {}, UnityEngine::Sprite* inputField_ = {}, UnityEngine::Sprite* knob_ = {}, UnityEngine::Sprite* checkmark_ = {}, UnityEngine::Sprite* dropdown_ = {}, UnityEngine::Sprite* mask_ = {}) noexcept : standard{standard_}, background{background_}, inputField{inputField_}, knob{knob_}, checkmark{checkmark_}, dropdown{dropdown_}, mask{mask_} {}
   }; // TMPro.TMP_DefaultControls/Resources
-  check_size<sizeof(TMP_DefaultControls::Resources), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __TMPro_TMP_DefaultControls_ResourcesSizeCheck;
+  check_size<sizeof(TMP_DefaultControls::Resources), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __TMPro_TMP_DefaultControls_ResourcesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_DefaultControls::Resources, "TMPro", "TMP_DefaultControls/Resources");

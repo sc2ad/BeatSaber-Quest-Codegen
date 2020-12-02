@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BoxCuttableBySaber* New_ctor();
   }; // BoxCuttableBySaber
-  check_size<sizeof(BoxCuttableBySaber), 44 + sizeof(float) + 8 - (44 + sizeof(float)) % 8> __GlobalNamespace_BoxCuttableBySaberSizeCheck;
+  check_size<sizeof(BoxCuttableBySaber), 44 + sizeof(float) + ((44 + sizeof(float)) % 8 != 0 ? (8 - (44 + sizeof(float)) % 8) : 0)> __GlobalNamespace_BoxCuttableBySaberSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoxCuttableBySaber*, "", "BoxCuttableBySaber");

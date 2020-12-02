@@ -105,7 +105,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A2D430
     static GlobalNamespace::BeatmapSaveData* DeserializeFromJSONString(::Il2CppString* stringData);
   }; // BeatmapSaveData
-  check_size<sizeof(BeatmapSaveData), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapSaveDataSizeCheck;
+  check_size<sizeof(BeatmapSaveData), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_BeatmapSaveDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData*, "", "BeatmapSaveData");

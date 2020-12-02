@@ -66,7 +66,7 @@ namespace UnityEngine::TestTools {
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // UnityEngine.TestTools.EnumerableTestMethodCommand
-  check_size<sizeof(EnumerableTestMethodCommand), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_TestTools_EnumerableTestMethodCommandSizeCheck;
+  check_size<sizeof(EnumerableTestMethodCommand), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __UnityEngine_TestTools_EnumerableTestMethodCommandSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableTestMethodCommand*, "UnityEngine.TestTools", "EnumerableTestMethodCommand");

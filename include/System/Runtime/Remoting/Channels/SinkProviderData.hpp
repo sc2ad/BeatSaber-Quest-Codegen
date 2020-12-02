@@ -43,7 +43,7 @@ namespace System::Runtime::Remoting::Channels {
     // Offset: 0x116E3CC
     System::Collections::IDictionary* get_Properties();
   }; // System.Runtime.Remoting.Channels.SinkProviderData
-  check_size<sizeof(SinkProviderData), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Runtime_Remoting_Channels_SinkProviderDataSizeCheck;
+  check_size<sizeof(SinkProviderData), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_Runtime_Remoting_Channels_SinkProviderDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::SinkProviderData*, "System.Runtime.Remoting.Channels", "SinkProviderData");

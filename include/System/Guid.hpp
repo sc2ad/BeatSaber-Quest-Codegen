@@ -228,7 +228,7 @@ namespace System {
     // Base method: System.String IFormattable::ToString(System.String format, System.IFormatProvider provider)
     ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* provider);
   }; // System.Guid
-  check_size<sizeof(Guid), 15 + sizeof(uint8_t) + 8 - (15 + sizeof(uint8_t)) % 8> __System_GuidSizeCheck;
+  check_size<sizeof(Guid), 15 + sizeof(uint8_t) + ((15 + sizeof(uint8_t)) % 8 != 0 ? (8 - (15 + sizeof(uint8_t)) % 8) : 0)> __System_GuidSizeCheck;
   // static public System.Boolean op_Equality(System.Guid a, System.Guid b)
   // Offset: 0x142F6E8
   bool operator ==(const System::Guid& a, const System::Guid& b);

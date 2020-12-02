@@ -37,7 +37,7 @@ namespace UnityEngine::Timeline {
     // Set static field: static public UnityEngine.Timeline.TimelineClip/Versions ClipInFromGlobalToLocal
     static void _set_ClipInFromGlobalToLocal(UnityEngine::Timeline::TimelineClip::Versions value);
   }; // UnityEngine.Timeline.TimelineClip/Versions
-  check_size<sizeof(TimelineClip::Versions), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Timeline_TimelineClip_VersionsSizeCheck;
+  check_size<sizeof(TimelineClip::Versions), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_Timeline_TimelineClip_VersionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip::Versions, "UnityEngine.Timeline", "TimelineClip/Versions");

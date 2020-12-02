@@ -26,7 +26,7 @@ namespace OnlineServices::API {
     // Base method: System.Void Object::.ctor()
     static HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto* New_ctor();
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper/LeaderboardsInfoDto
-  check_size<sizeof(HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __OnlineServices_API_HTTPAdminLeaderboardsHelper_LeaderboardsInfoDtoSizeCheck;
+  check_size<sizeof(HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto), 16 + sizeof(bool) + ((16 + sizeof(bool)) % 8 != 0 ? (8 - (16 + sizeof(bool)) % 8) : 0)> __OnlineServices_API_HTTPAdminLeaderboardsHelper_LeaderboardsInfoDtoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/LeaderboardsInfoDto");

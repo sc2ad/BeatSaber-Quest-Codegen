@@ -60,7 +60,7 @@ namespace GlobalNamespace {
       // Set static field: static public MissionObjective/ReferenceValueComparisonType Min
       static void _set_Min(GlobalNamespace::MissionObjective::ReferenceValueComparisonType value);
     }; // MissionObjective/ReferenceValueComparisonType
-    check_size<sizeof(MissionObjective::ReferenceValueComparisonType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_MissionObjective_ReferenceValueComparisonTypeSizeCheck;
+    check_size<sizeof(MissionObjective::ReferenceValueComparisonType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_MissionObjective_ReferenceValueComparisonTypeSizeCheck;
     // private MissionObjectiveTypeSO _type
     // Offset: 0x10
     GlobalNamespace::MissionObjectiveTypeSO* type;
@@ -95,7 +95,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionObjective* New_ctor();
   }; // MissionObjective
-  check_size<sizeof(MissionObjective), 28 + sizeof(int) + 8 - (28 + sizeof(int)) % 8> __GlobalNamespace_MissionObjectiveSizeCheck;
+  check_size<sizeof(MissionObjective), 28 + sizeof(int) + ((28 + sizeof(int)) % 8 != 0 ? (8 - (28 + sizeof(int)) % 8) : 0)> __GlobalNamespace_MissionObjectiveSizeCheck;
   // static public System.Boolean op_Equality(MissionObjective obj1, MissionObjective obj2)
   // Offset: 0x101E1E0
   bool operator ==(GlobalNamespace::MissionObjective* obj1, GlobalNamespace::MissionObjective& obj2);

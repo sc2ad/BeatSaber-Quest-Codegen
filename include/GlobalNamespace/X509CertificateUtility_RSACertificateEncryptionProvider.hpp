@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Base method: System.Byte[] ICertificateEncryptionProvider::SignData(System.Byte[] data, System.Int32 offset, System.Int32 length)
     ::Array<uint8_t>* SignData(::Array<uint8_t>* data, int offset, int length);
   }; // X509CertificateUtility/RSACertificateEncryptionProvider
-  check_size<sizeof(X509CertificateUtility::RSACertificateEncryptionProvider), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_X509CertificateUtility_RSACertificateEncryptionProviderSizeCheck;
+  check_size<sizeof(X509CertificateUtility::RSACertificateEncryptionProvider), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_X509CertificateUtility_RSACertificateEncryptionProviderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::X509CertificateUtility::RSACertificateEncryptionProvider*, "", "X509CertificateUtility/RSACertificateEncryptionProvider");

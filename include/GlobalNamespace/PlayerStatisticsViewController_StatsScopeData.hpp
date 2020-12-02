@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Offset: 0xC92398
     // ABORTED: conflicts with another method.  StatsScopeData(::Il2CppString* text, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc);
   }; // PlayerStatisticsViewController/StatsScopeData
-  check_size<sizeof(PlayerStatisticsViewController::StatsScopeData), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __GlobalNamespace_PlayerStatisticsViewController_StatsScopeDataSizeCheck;
+  check_size<sizeof(PlayerStatisticsViewController::StatsScopeData), 8 + sizeof(void*) + ((8 + sizeof(void*)) % 8 != 0 ? (8 - (8 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_PlayerStatisticsViewController_StatsScopeDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStatisticsViewController::StatsScopeData, "", "PlayerStatisticsViewController/StatsScopeData");

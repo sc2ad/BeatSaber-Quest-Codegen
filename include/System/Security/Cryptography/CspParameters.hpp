@@ -54,7 +54,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     static CspParameters* New_ctor();
   }; // System.Security.Cryptography.CspParameters
-  check_size<sizeof(CspParameters), 44 + sizeof(int) + 8 - (44 + sizeof(int)) % 8> __System_Security_Cryptography_CspParametersSizeCheck;
+  check_size<sizeof(CspParameters), 44 + sizeof(int) + ((44 + sizeof(int)) % 8 != 0 ? (8 - (44 + sizeof(int)) % 8) : 0)> __System_Security_Cryptography_CspParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CspParameters*, "System.Security.Cryptography", "CspParameters");

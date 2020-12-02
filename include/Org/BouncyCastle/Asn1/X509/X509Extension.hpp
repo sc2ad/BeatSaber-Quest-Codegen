@@ -49,7 +49,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
   }; // Org.BouncyCastle.Asn1.X509.X509Extension
-  check_size<sizeof(X509Extension), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Org_BouncyCastle_Asn1_X509_X509ExtensionSizeCheck;
+  check_size<sizeof(X509Extension), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Asn1_X509_X509ExtensionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::X509Extension*, "Org.BouncyCastle.Asn1.X509", "X509Extension");

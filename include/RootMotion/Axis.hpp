@@ -41,7 +41,7 @@ namespace RootMotion {
     // Set static field: static public RootMotion.Axis Z
     static void _set_Z(RootMotion::Axis value);
   }; // RootMotion.Axis
-  check_size<sizeof(Axis), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __RootMotion_AxisSizeCheck;
+  check_size<sizeof(Axis), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __RootMotion_AxisSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Axis, "RootMotion", "Axis");

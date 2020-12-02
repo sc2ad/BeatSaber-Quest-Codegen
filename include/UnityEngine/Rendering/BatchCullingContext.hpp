@@ -39,7 +39,7 @@ namespace UnityEngine::Rendering {
     // Offset: 0xCA5CC8
     // ABORTED: conflicts with another method.  BatchCullingContext(Unity::Collections::NativeArray_1<UnityEngine::Plane> inCullingPlanes, Unity::Collections::NativeArray_1<UnityEngine::Rendering::BatchVisibility> inOutBatchVisibility, Unity::Collections::NativeArray_1<int> outVisibleIndices, UnityEngine::Rendering::LODParameters inLodParameters);
   }; // UnityEngine.Rendering.BatchCullingContext
-  check_size<sizeof(BatchCullingContext), 48 + sizeof(UnityEngine::Rendering::LODParameters) + 8 - (48 + sizeof(UnityEngine::Rendering::LODParameters)) % 8> __UnityEngine_Rendering_BatchCullingContextSizeCheck;
+  check_size<sizeof(BatchCullingContext), 48 + sizeof(UnityEngine::Rendering::LODParameters) + ((48 + sizeof(UnityEngine::Rendering::LODParameters)) % 8 != 0 ? (8 - (48 + sizeof(UnityEngine::Rendering::LODParameters)) % 8) : 0)> __UnityEngine_Rendering_BatchCullingContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchCullingContext, "UnityEngine.Rendering", "BatchCullingContext");

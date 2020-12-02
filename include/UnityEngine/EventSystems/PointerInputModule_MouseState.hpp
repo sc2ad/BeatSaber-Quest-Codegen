@@ -48,7 +48,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     static PointerInputModule::MouseState* New_ctor();
   }; // UnityEngine.EventSystems.PointerInputModule/MouseState
-  check_size<sizeof(PointerInputModule::MouseState), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_EventSystems_PointerInputModule_MouseStateSizeCheck;
+  check_size<sizeof(PointerInputModule::MouseState), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __UnityEngine_EventSystems_PointerInputModule_MouseStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule::MouseState*, "UnityEngine.EventSystems", "PointerInputModule/MouseState");

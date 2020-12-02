@@ -85,7 +85,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x12C68E4
     static EventCommandEventArgs* New_ctor(System::Diagnostics::Tracing::EventCommand command, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* arguments, System::Diagnostics::Tracing::EventSource* eventSource, System::Diagnostics::Tracing::EventListener* listener, int perEventSourceSessionId, int etwSessionId, bool enable, System::Diagnostics::Tracing::EventLevel level, System::Diagnostics::Tracing::EventKeywords matchAnyKeyword);
   }; // System.Diagnostics.Tracing.EventCommandEventArgs
-  check_size<sizeof(EventCommandEventArgs), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __System_Diagnostics_Tracing_EventCommandEventArgsSizeCheck;
+  check_size<sizeof(EventCommandEventArgs), 80 + sizeof(void*) + ((80 + sizeof(void*)) % 8 != 0 ? (8 - (80 + sizeof(void*)) % 8) : 0)> __System_Diagnostics_Tracing_EventCommandEventArgsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventCommandEventArgs*, "System.Diagnostics.Tracing", "EventCommandEventArgs");

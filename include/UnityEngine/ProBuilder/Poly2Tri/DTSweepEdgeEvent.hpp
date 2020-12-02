@@ -30,7 +30,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Base method: System.Void Object::.ctor()
     static DTSweepEdgeEvent* New_ctor();
   }; // UnityEngine.ProBuilder.Poly2Tri.DTSweepEdgeEvent
-  check_size<sizeof(DTSweepEdgeEvent), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __UnityEngine_ProBuilder_Poly2Tri_DTSweepEdgeEventSizeCheck;
+  check_size<sizeof(DTSweepEdgeEvent), 24 + sizeof(bool) + ((24 + sizeof(bool)) % 8 != 0 ? (8 - (24 + sizeof(bool)) % 8) : 0)> __UnityEngine_ProBuilder_Poly2Tri_DTSweepEdgeEventSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepEdgeEvent");

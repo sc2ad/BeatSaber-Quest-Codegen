@@ -39,7 +39,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x12F9E88
     System::Type* ResolveType(System::Reflection::Assembly* assembly, ::Il2CppString* simpleTypeName, bool ignoreCase);
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectReader/TopLevelAssemblyTypeResolver
-  check_size<sizeof(ObjectReader::TopLevelAssemblyTypeResolver), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Runtime_Serialization_Formatters_Binary_ObjectReader_TopLevelAssemblyTypeResolverSizeCheck;
+  check_size<sizeof(ObjectReader::TopLevelAssemblyTypeResolver), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Runtime_Serialization_Formatters_Binary_ObjectReader_TopLevelAssemblyTypeResolverSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectReader::TopLevelAssemblyTypeResolver*, "System.Runtime.Serialization.Formatters.Binary", "ObjectReader/TopLevelAssemblyTypeResolver");

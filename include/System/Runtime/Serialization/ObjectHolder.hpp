@@ -203,7 +203,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x1305154
     int64_t get_ContainerID();
   }; // System.Runtime.Serialization.ObjectHolder
-  check_size<sizeof(ObjectHolder), 104 + sizeof(bool) + 8 - (104 + sizeof(bool)) % 8> __System_Runtime_Serialization_ObjectHolderSizeCheck;
+  check_size<sizeof(ObjectHolder), 104 + sizeof(bool) + ((104 + sizeof(bool)) % 8 != 0 ? (8 - (104 + sizeof(bool)) % 8) : 0)> __System_Runtime_Serialization_ObjectHolderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectHolder*, "System.Runtime.Serialization", "ObjectHolder");

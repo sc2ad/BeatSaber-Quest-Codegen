@@ -37,7 +37,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x1162E54
     int get_CompilationRelaxations();
   }; // System.Runtime.CompilerServices.CompilationRelaxationsAttribute
-  check_size<sizeof(CompilationRelaxationsAttribute), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __System_Runtime_CompilerServices_CompilationRelaxationsAttributeSizeCheck;
+  check_size<sizeof(CompilationRelaxationsAttribute), 16 + sizeof(int) + ((16 + sizeof(int)) % 8 != 0 ? (8 - (16 + sizeof(int)) % 8) : 0)> __System_Runtime_CompilerServices_CompilationRelaxationsAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::CompilationRelaxationsAttribute*, "System.Runtime.CompilerServices", "CompilationRelaxationsAttribute");

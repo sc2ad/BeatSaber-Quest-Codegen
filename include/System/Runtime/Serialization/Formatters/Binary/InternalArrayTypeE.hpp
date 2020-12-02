@@ -53,7 +53,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static public System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE Base64
     static void _set_Base64(System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE value);
   }; // System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE
-  check_size<sizeof(InternalArrayTypeE), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Runtime_Serialization_Formatters_Binary_InternalArrayTypeESizeCheck;
+  check_size<sizeof(InternalArrayTypeE), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Runtime_Serialization_Formatters_Binary_InternalArrayTypeESizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE, "System.Runtime.Serialization.Formatters.Binary", "InternalArrayTypeE");

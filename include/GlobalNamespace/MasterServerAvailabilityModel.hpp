@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MasterServerAvailabilityModel* New_ctor();
   }; // MasterServerAvailabilityModel
-  check_size<sizeof(MasterServerAvailabilityModel), 40 + sizeof(System::DateTime) + 8 - (40 + sizeof(System::DateTime)) % 8> __GlobalNamespace_MasterServerAvailabilityModelSizeCheck;
+  check_size<sizeof(MasterServerAvailabilityModel), 40 + sizeof(System::DateTime) + ((40 + sizeof(System::DateTime)) % 8 != 0 ? (8 - (40 + sizeof(System::DateTime)) % 8) : 0)> __GlobalNamespace_MasterServerAvailabilityModelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityModel*, "", "MasterServerAvailabilityModel");

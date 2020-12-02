@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PreviousColorPanelController* New_ctor();
   }; // PreviousColorPanelController
-  check_size<sizeof(PreviousColorPanelController), 72 + sizeof(UnityEngine::Color) + 8 - (72 + sizeof(UnityEngine::Color)) % 8> __GlobalNamespace_PreviousColorPanelControllerSizeCheck;
+  check_size<sizeof(PreviousColorPanelController), 72 + sizeof(UnityEngine::Color) + ((72 + sizeof(UnityEngine::Color)) % 8 != 0 ? (8 - (72 + sizeof(UnityEngine::Color)) % 8) : 0)> __GlobalNamespace_PreviousColorPanelControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PreviousColorPanelController*, "", "PreviousColorPanelController");

@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusBeatmapDataAssetFileModel/<ReloadAssetDetailsForAllLevelsAsync>d__15
-  check_size<sizeof(OculusBeatmapDataAssetFileModel::$ReloadAssetDetailsForAllLevelsAsync$d__15), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>) + 8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>)) % 8> __GlobalNamespace_OculusBeatmapDataAssetFileModel_$ReloadAssetDetailsForAllLevelsAsync$d__15SizeCheck;
+  check_size<sizeof(OculusBeatmapDataAssetFileModel::$ReloadAssetDetailsForAllLevelsAsync$d__15), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>) + ((48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>)) % 8 != 0 ? (8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>)) % 8) : 0)> __GlobalNamespace_OculusBeatmapDataAssetFileModel_$ReloadAssetDetailsForAllLevelsAsync$d__15SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusBeatmapDataAssetFileModel::$ReloadAssetDetailsForAllLevelsAsync$d__15, "", "OculusBeatmapDataAssetFileModel/<ReloadAssetDetailsForAllLevelsAsync>d__15");

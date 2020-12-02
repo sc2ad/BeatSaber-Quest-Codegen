@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     // Offset: 0x1B515E8
     LiteNetLib::NetPeer* Accept();
   }; // LiteNetLibConnectionManager/NetPeerConnectionRequest
-  check_size<sizeof(LiteNetLibConnectionManager::NetPeerConnectionRequest), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_LiteNetLibConnectionManager_NetPeerConnectionRequestSizeCheck;
+  check_size<sizeof(LiteNetLibConnectionManager::NetPeerConnectionRequest), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_LiteNetLibConnectionManager_NetPeerConnectionRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest*, "", "LiteNetLibConnectionManager/NetPeerConnectionRequest");

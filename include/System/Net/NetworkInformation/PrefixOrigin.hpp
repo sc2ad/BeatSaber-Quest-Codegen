@@ -53,7 +53,7 @@ namespace System::Net::NetworkInformation {
     // Set static field: static public System.Net.NetworkInformation.PrefixOrigin RouterAdvertisement
     static void _set_RouterAdvertisement(System::Net::NetworkInformation::PrefixOrigin value);
   }; // System.Net.NetworkInformation.PrefixOrigin
-  check_size<sizeof(PrefixOrigin), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Net_NetworkInformation_PrefixOriginSizeCheck;
+  check_size<sizeof(PrefixOrigin), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Net_NetworkInformation_PrefixOriginSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::PrefixOrigin, "System.Net.NetworkInformation", "PrefixOrigin");

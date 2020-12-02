@@ -83,7 +83,7 @@ namespace System {
     // Set static field: static public System.TypeNameFormatFlags FormatSerialization
     static void _set_FormatSerialization(System::TypeNameFormatFlags value);
   }; // System.TypeNameFormatFlags
-  check_size<sizeof(TypeNameFormatFlags), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_TypeNameFormatFlagsSizeCheck;
+  check_size<sizeof(TypeNameFormatFlags), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_TypeNameFormatFlagsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TypeNameFormatFlags, "System", "TypeNameFormatFlags");

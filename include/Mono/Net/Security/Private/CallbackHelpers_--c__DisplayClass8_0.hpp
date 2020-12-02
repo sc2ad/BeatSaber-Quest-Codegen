@@ -43,7 +43,7 @@ namespace Mono::Net::Security::Private {
     // Base method: System.Void Object::.ctor()
     static CallbackHelpers::$$c__DisplayClass8_0* New_ctor();
   }; // Mono.Net.Security.Private.CallbackHelpers/<>c__DisplayClass8_0
-  check_size<sizeof(CallbackHelpers::$$c__DisplayClass8_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Mono_Net_Security_Private_CallbackHelpers_$$c__DisplayClass8_0SizeCheck;
+  check_size<sizeof(CallbackHelpers::$$c__DisplayClass8_0), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __Mono_Net_Security_Private_CallbackHelpers_$$c__DisplayClass8_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0*, "Mono.Net.Security.Private", "CallbackHelpers/<>c__DisplayClass8_0");

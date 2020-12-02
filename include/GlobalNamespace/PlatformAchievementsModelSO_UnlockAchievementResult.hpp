@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Set static field: static public PlatformAchievementsModelSO/UnlockAchievementResult Failed
     static void _set_Failed(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult value);
   }; // PlatformAchievementsModelSO/UnlockAchievementResult
-  check_size<sizeof(PlatformAchievementsModelSO::UnlockAchievementResult), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_PlatformAchievementsModelSO_UnlockAchievementResultSizeCheck;
+  check_size<sizeof(PlatformAchievementsModelSO::UnlockAchievementResult), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_PlatformAchievementsModelSO_UnlockAchievementResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult, "", "PlatformAchievementsModelSO/UnlockAchievementResult");

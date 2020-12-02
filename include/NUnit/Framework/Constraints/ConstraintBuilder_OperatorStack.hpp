@@ -40,7 +40,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x13DC800
     NUnit::Framework::Constraints::ConstraintOperator* Pop();
   }; // NUnit.Framework.Constraints.ConstraintBuilder/OperatorStack
-  check_size<sizeof(ConstraintBuilder::OperatorStack), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __NUnit_Framework_Constraints_ConstraintBuilder_OperatorStackSizeCheck;
+  check_size<sizeof(ConstraintBuilder::OperatorStack), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __NUnit_Framework_Constraints_ConstraintBuilder_OperatorStackSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack*, "NUnit.Framework.Constraints", "ConstraintBuilder/OperatorStack");

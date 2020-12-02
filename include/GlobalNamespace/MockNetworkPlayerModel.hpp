@@ -333,7 +333,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MockNetworkPlayerModel* New_ctor();
   }; // MockNetworkPlayerModel
-  check_size<sizeof(MockNetworkPlayerModel), 176 + sizeof(void*) + 8 - (176 + sizeof(void*)) % 8> __GlobalNamespace_MockNetworkPlayerModelSizeCheck;
+  check_size<sizeof(MockNetworkPlayerModel), 176 + sizeof(void*) + ((176 + sizeof(void*)) % 8 != 0 ? (8 - (176 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MockNetworkPlayerModelSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockNetworkPlayerModel*, "", "MockNetworkPlayerModel");
 #pragma pack(pop)

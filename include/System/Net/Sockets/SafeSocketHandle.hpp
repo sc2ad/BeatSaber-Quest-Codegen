@@ -83,7 +83,7 @@ namespace System::Net::Sockets {
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();
   }; // System.Net.Sockets.SafeSocketHandle
-  check_size<sizeof(SafeSocketHandle), 48 + sizeof(bool) + 8 - (48 + sizeof(bool)) % 8> __System_Net_Sockets_SafeSocketHandleSizeCheck;
+  check_size<sizeof(SafeSocketHandle), 48 + sizeof(bool) + ((48 + sizeof(bool)) % 8 != 0 ? (8 - (48 + sizeof(bool)) % 8) : 0)> __System_Net_Sockets_SafeSocketHandleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SafeSocketHandle*, "System.Net.Sockets", "SafeSocketHandle");

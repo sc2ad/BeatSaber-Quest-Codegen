@@ -185,7 +185,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NoteCutSoundEffect* New_ctor();
   }; // NoteCutSoundEffect
-  check_size<sizeof(NoteCutSoundEffect), 155 + sizeof(bool) + 8 - (155 + sizeof(bool)) % 8> __GlobalNamespace_NoteCutSoundEffectSizeCheck;
+  check_size<sizeof(NoteCutSoundEffect), 155 + sizeof(bool) + ((155 + sizeof(bool)) % 8 != 0 ? (8 - (155 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_NoteCutSoundEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutSoundEffect*, "", "NoteCutSoundEffect");

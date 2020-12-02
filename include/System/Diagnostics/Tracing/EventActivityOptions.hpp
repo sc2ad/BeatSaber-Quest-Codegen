@@ -47,7 +47,7 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static public System.Diagnostics.Tracing.EventActivityOptions Detachable
     static void _set_Detachable(System::Diagnostics::Tracing::EventActivityOptions value);
   }; // System.Diagnostics.Tracing.EventActivityOptions
-  check_size<sizeof(EventActivityOptions), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Diagnostics_Tracing_EventActivityOptionsSizeCheck;
+  check_size<sizeof(EventActivityOptions), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Diagnostics_Tracing_EventActivityOptionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventActivityOptions, "System.Diagnostics.Tracing", "EventActivityOptions");

@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LocalNetworkPlayerModel/<Start>d__44
-  check_size<sizeof(LocalNetworkPlayerModel::$Start$d__44), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*>) + 8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*>)) % 8> __GlobalNamespace_LocalNetworkPlayerModel_$Start$d__44SizeCheck;
+  check_size<sizeof(LocalNetworkPlayerModel::$Start$d__44), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*>) + ((48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*>)) % 8 != 0 ? (8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*>)) % 8) : 0)> __GlobalNamespace_LocalNetworkPlayerModel_$Start$d__44SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkPlayerModel::$Start$d__44, "", "LocalNetworkPlayerModel/<Start>d__44");

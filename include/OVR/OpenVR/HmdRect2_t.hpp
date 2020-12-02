@@ -23,7 +23,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: HmdRect2_t
     constexpr HmdRect2_t(OVR::OpenVR::HmdVector2_t vTopLeft_ = {}, OVR::OpenVR::HmdVector2_t vBottomRight_ = {}) noexcept : vTopLeft{vTopLeft_}, vBottomRight{vBottomRight_} {}
   }; // OVR.OpenVR.HmdRect2_t
-  check_size<sizeof(HmdRect2_t), 8 + sizeof(OVR::OpenVR::HmdVector2_t) + 8 - (8 + sizeof(OVR::OpenVR::HmdVector2_t)) % 8> __OVR_OpenVR_HmdRect2_tSizeCheck;
+  check_size<sizeof(HmdRect2_t), 8 + sizeof(OVR::OpenVR::HmdVector2_t) + ((8 + sizeof(OVR::OpenVR::HmdVector2_t)) % 8 != 0 ? (8 - (8 + sizeof(OVR::OpenVR::HmdVector2_t)) % 8) : 0)> __OVR_OpenVR_HmdRect2_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdRect2_t, "OVR.OpenVR", "HmdRect2_t");

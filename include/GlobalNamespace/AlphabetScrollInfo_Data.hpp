@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Offset: 0x102A440
     static AlphabetScrollInfo::Data* New_ctor(::Il2CppChar character, int cellIdx);
   }; // AlphabetScrollInfo/Data
-  check_size<sizeof(AlphabetScrollInfo::Data), 20 + sizeof(int) + 8 - (20 + sizeof(int)) % 8> __GlobalNamespace_AlphabetScrollInfo_DataSizeCheck;
+  check_size<sizeof(AlphabetScrollInfo::Data), 20 + sizeof(int) + ((20 + sizeof(int)) % 8 != 0 ? (8 - (20 + sizeof(int)) % 8) : 0)> __GlobalNamespace_AlphabetScrollInfo_DataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlphabetScrollInfo::Data*, "", "AlphabetScrollInfo/Data");

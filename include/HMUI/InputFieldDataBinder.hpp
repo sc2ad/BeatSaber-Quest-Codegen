@@ -99,7 +99,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static InputFieldDataBinder* New_ctor();
   }; // HMUI.InputFieldDataBinder
-  check_size<sizeof(InputFieldDataBinder), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __HMUI_InputFieldDataBinderSizeCheck;
+  check_size<sizeof(InputFieldDataBinder), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __HMUI_InputFieldDataBinderSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldDataBinder*, "HMUI", "InputFieldDataBinder");
 #pragma pack(pop)

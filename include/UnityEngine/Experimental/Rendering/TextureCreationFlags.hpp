@@ -41,7 +41,7 @@ namespace UnityEngine::Experimental::Rendering {
     // Set static field: static public UnityEngine.Experimental.Rendering.TextureCreationFlags Crunch
     static void _set_Crunch(UnityEngine::Experimental::Rendering::TextureCreationFlags value);
   }; // UnityEngine.Experimental.Rendering.TextureCreationFlags
-  check_size<sizeof(TextureCreationFlags), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Experimental_Rendering_TextureCreationFlagsSizeCheck;
+  check_size<sizeof(TextureCreationFlags), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_Experimental_Rendering_TextureCreationFlagsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::TextureCreationFlags, "UnityEngine.Experimental.Rendering", "TextureCreationFlags");

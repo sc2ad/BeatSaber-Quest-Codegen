@@ -35,7 +35,7 @@ namespace LeaderboardsDTO {
     // Base method: System.Void Object::.ctor()
     static LoginRequestDTO* New_ctor();
   }; // LeaderboardsDTO.LoginRequestDTO
-  check_size<sizeof(LoginRequestDTO), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __LeaderboardsDTO_LoginRequestDTOSizeCheck;
+  check_size<sizeof(LoginRequestDTO), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __LeaderboardsDTO_LoginRequestDTOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LoginRequestDTO*, "LeaderboardsDTO", "LoginRequestDTO");

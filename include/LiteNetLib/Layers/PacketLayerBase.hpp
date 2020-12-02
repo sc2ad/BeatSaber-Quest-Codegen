@@ -35,7 +35,7 @@ namespace LiteNetLib::Layers {
     // Offset: 0xFFFFFFFF
     void ProcessOutBoundPacket(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length);
   }; // LiteNetLib.Layers.PacketLayerBase
-  check_size<sizeof(PacketLayerBase), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __LiteNetLib_Layers_PacketLayerBaseSizeCheck;
+  check_size<sizeof(PacketLayerBase), 16 + sizeof(int) + ((16 + sizeof(int)) % 8 != 0 ? (8 - (16 + sizeof(int)) % 8) : 0)> __LiteNetLib_Layers_PacketLayerBaseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Layers::PacketLayerBase*, "LiteNetLib.Layers", "PacketLayerBase");

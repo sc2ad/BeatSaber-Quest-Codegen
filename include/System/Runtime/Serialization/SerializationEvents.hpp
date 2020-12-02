@@ -73,7 +73,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x1443A9C
     System::Runtime::Serialization::SerializationEventHandler* AddOnDeserialized(::Il2CppObject* obj, System::Runtime::Serialization::SerializationEventHandler* handler);
   }; // System.Runtime.Serialization.SerializationEvents
-  check_size<sizeof(SerializationEvents), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Runtime_Serialization_SerializationEventsSizeCheck;
+  check_size<sizeof(SerializationEvents), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __System_Runtime_Serialization_SerializationEventsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEvents*, "System.Runtime.Serialization", "SerializationEvents");

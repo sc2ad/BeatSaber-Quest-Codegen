@@ -75,7 +75,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x145D330
     static void _cctor();
   }; // System.Security.Cryptography.X509Certificates.PublicKey
-  check_size<sizeof(PublicKey), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Security_Cryptography_X509Certificates_PublicKeySizeCheck;
+  check_size<sizeof(PublicKey), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __System_Security_Cryptography_X509Certificates_PublicKeySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::PublicKey*, "System.Security.Cryptography.X509Certificates", "PublicKey");

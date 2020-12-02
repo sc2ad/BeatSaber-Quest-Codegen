@@ -64,7 +64,7 @@ namespace Valve::VR {
     // Offset: 0x1368180
     void ForceBoundsVisible(bool bForce);
   }; // Valve.VR.CVRChaperone
-  check_size<sizeof(CVRChaperone), 16 + sizeof(Valve::VR::IVRChaperone) + 8 - (16 + sizeof(Valve::VR::IVRChaperone)) % 8> __Valve_VR_CVRChaperoneSizeCheck;
+  check_size<sizeof(CVRChaperone), 16 + sizeof(Valve::VR::IVRChaperone) + ((16 + sizeof(Valve::VR::IVRChaperone)) % 8 != 0 ? (8 - (16 + sizeof(Valve::VR::IVRChaperone)) % 8) : 0)> __Valve_VR_CVRChaperoneSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRChaperone*, "Valve.VR", "CVRChaperone");

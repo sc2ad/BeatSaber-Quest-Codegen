@@ -106,7 +106,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LocalNetworkPlayersViewController* New_ctor();
   }; // LocalNetworkPlayersViewController
-  check_size<sizeof(LocalNetworkPlayersViewController), 185 + sizeof(bool) + 8 - (185 + sizeof(bool)) % 8> __GlobalNamespace_LocalNetworkPlayersViewControllerSizeCheck;
+  check_size<sizeof(LocalNetworkPlayersViewController), 185 + sizeof(bool) + ((185 + sizeof(bool)) % 8 != 0 ? (8 - (185 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_LocalNetworkPlayersViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkPlayersViewController*, "", "LocalNetworkPlayersViewController");

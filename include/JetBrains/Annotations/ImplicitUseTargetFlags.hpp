@@ -47,7 +47,7 @@ namespace JetBrains::Annotations {
     // Set static field: static public JetBrains.Annotations.ImplicitUseTargetFlags WithMembers
     static void _set_WithMembers(JetBrains::Annotations::ImplicitUseTargetFlags value);
   }; // JetBrains.Annotations.ImplicitUseTargetFlags
-  check_size<sizeof(ImplicitUseTargetFlags), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __JetBrains_Annotations_ImplicitUseTargetFlagsSizeCheck;
+  check_size<sizeof(ImplicitUseTargetFlags), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __JetBrains_Annotations_ImplicitUseTargetFlagsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::ImplicitUseTargetFlags, "JetBrains.Annotations", "ImplicitUseTargetFlags");

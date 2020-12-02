@@ -54,7 +54,7 @@ namespace OnlineServices {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.PlatformOnlineServicesAvailabilityModel/<GetPlatformServicesAvailabilityInfo>d__4
-  check_size<sizeof(PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4), 32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::PlatformServicesAvailabilityInfo*>) + 8 - (32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::PlatformServicesAvailabilityInfo*>)) % 8> __OnlineServices_PlatformOnlineServicesAvailabilityModel_$GetPlatformServicesAvailabilityInfo$d__4SizeCheck;
+  check_size<sizeof(PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4), 32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::PlatformServicesAvailabilityInfo*>) + ((32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::PlatformServicesAvailabilityInfo*>)) % 8 != 0 ? (8 - (32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::PlatformServicesAvailabilityInfo*>)) % 8) : 0)> __OnlineServices_PlatformOnlineServicesAvailabilityModel_$GetPlatformServicesAvailabilityInfo$d__4SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4, "OnlineServices", "PlatformOnlineServicesAvailabilityModel/<GetPlatformServicesAvailabilityInfo>d__4");

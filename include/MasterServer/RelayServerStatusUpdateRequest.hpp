@@ -98,7 +98,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static RelayServerStatusUpdateRequest* New_ctor();
   }; // MasterServer.RelayServerStatusUpdateRequest
-  check_size<sizeof(RelayServerStatusUpdateRequest), 48 + sizeof(int) + 8 - (48 + sizeof(int)) % 8> __MasterServer_RelayServerStatusUpdateRequestSizeCheck;
+  check_size<sizeof(RelayServerStatusUpdateRequest), 48 + sizeof(int) + ((48 + sizeof(int)) % 8 != 0 ? (8 - (48 + sizeof(int)) % 8) : 0)> __MasterServer_RelayServerStatusUpdateRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::RelayServerStatusUpdateRequest*, "MasterServer", "RelayServerStatusUpdateRequest");

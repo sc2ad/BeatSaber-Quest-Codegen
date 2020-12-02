@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static CPUMonitor* New_ctor();
   }; // CPUMonitor
-  check_size<sizeof(CPUMonitor), 48 + sizeof(int64_t) + 8 - (48 + sizeof(int64_t)) % 8> __GlobalNamespace_CPUMonitorSizeCheck;
+  check_size<sizeof(CPUMonitor), 48 + sizeof(int64_t) + ((48 + sizeof(int64_t)) % 8 != 0 ? (8 - (48 + sizeof(int64_t)) % 8) : 0)> __GlobalNamespace_CPUMonitorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CPUMonitor*, "", "CPUMonitor");

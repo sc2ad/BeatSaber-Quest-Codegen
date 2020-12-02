@@ -57,7 +57,7 @@ namespace Mono::Net {
     // Base method: System.Void Object::.ctor()
     static CFNetwork::GetProxyData* New_ctor();
   }; // Mono.Net.CFNetwork/GetProxyData
-  check_size<sizeof(CFNetwork::GetProxyData), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __Mono_Net_CFNetwork_GetProxyDataSizeCheck;
+  check_size<sizeof(CFNetwork::GetProxyData), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __Mono_Net_CFNetwork_GetProxyDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::GetProxyData*, "Mono.Net", "CFNetwork/GetProxyData");

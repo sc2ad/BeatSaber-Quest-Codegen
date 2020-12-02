@@ -183,7 +183,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Math.EC.ECCurve
-  check_size<sizeof(ECCurve), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_EC_ECCurveSizeCheck;
+  check_size<sizeof(ECCurve), 72 + sizeof(void*) + ((72 + sizeof(void*)) % 8 != 0 ? (8 - (72 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Math_EC_ECCurveSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECCurve*, "Org.BouncyCastle.Math.EC", "ECCurve");

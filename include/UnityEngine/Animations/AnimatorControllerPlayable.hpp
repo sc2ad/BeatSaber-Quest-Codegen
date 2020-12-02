@@ -59,7 +59,7 @@ namespace UnityEngine::Animations {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Animations.AnimatorControllerPlayable other)
     bool Equals(UnityEngine::Animations::AnimatorControllerPlayable other);
   }; // UnityEngine.Animations.AnimatorControllerPlayable
-  check_size<sizeof(AnimatorControllerPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle) + 8 - (0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8> __UnityEngine_Animations_AnimatorControllerPlayableSizeCheck;
+  check_size<sizeof(AnimatorControllerPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle) + ((0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8 != 0 ? (8 - (0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8) : 0)> __UnityEngine_Animations_AnimatorControllerPlayableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimatorControllerPlayable, "UnityEngine.Animations", "AnimatorControllerPlayable");

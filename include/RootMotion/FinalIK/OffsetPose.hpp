@@ -47,7 +47,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static OffsetPose* New_ctor();
   }; // RootMotion.FinalIK.OffsetPose
-  check_size<sizeof(OffsetPose), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __RootMotion_FinalIK_OffsetPoseSizeCheck;
+  check_size<sizeof(OffsetPose), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __RootMotion_FinalIK_OffsetPoseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetPose*, "RootMotion.FinalIK", "OffsetPose");

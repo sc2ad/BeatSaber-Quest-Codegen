@@ -181,7 +181,7 @@ namespace UnityEngine {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Matrix4x4
-  check_size<sizeof(Matrix4x4), 60 + sizeof(float) + 8 - (60 + sizeof(float)) % 8> __UnityEngine_Matrix4x4SizeCheck;
+  check_size<sizeof(Matrix4x4), 60 + sizeof(float) + ((60 + sizeof(float)) % 8 != 0 ? (8 - (60 + sizeof(float)) % 8) : 0)> __UnityEngine_Matrix4x4SizeCheck;
   // static public UnityEngine.Matrix4x4 op_Multiply(UnityEngine.Matrix4x4 lhs, UnityEngine.Matrix4x4 rhs)
   // Offset: 0x1729048
   UnityEngine::Matrix4x4 operator*(const UnityEngine::Matrix4x4& lhs, const UnityEngine::Matrix4x4& rhs);

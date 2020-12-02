@@ -33,7 +33,7 @@ namespace System {
     // Offset: 0x15D2384
     static ResolveEventArgs* New_ctor(::Il2CppString* name, System::Reflection::Assembly* requestingAssembly);
   }; // System.ResolveEventArgs
-  check_size<sizeof(ResolveEventArgs), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_ResolveEventArgsSizeCheck;
+  check_size<sizeof(ResolveEventArgs), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_ResolveEventArgsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ResolveEventArgs*, "System", "ResolveEventArgs");

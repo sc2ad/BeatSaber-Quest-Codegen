@@ -27,7 +27,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: UILineInfo
     constexpr UILineInfo(int startCharIdx_ = {}, int height_ = {}, float topY_ = {}, float leading_ = {}) noexcept : startCharIdx{startCharIdx_}, height{height_}, topY{topY_}, leading{leading_} {}
   }; // UnityEngine.UILineInfo
-  check_size<sizeof(UILineInfo), 12 + sizeof(float) + 8 - (12 + sizeof(float)) % 8> __UnityEngine_UILineInfoSizeCheck;
+  check_size<sizeof(UILineInfo), 12 + sizeof(float) + ((12 + sizeof(float)) % 8 != 0 ? (8 - (12 + sizeof(float)) % 8) : 0)> __UnityEngine_UILineInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UILineInfo, "UnityEngine", "UILineInfo");

@@ -297,7 +297,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BaseNetworkPlayerModel* New_ctor();
   }; // BaseNetworkPlayerModel
-  check_size<sizeof(BaseNetworkPlayerModel), 112 + sizeof(void*) + 8 - (112 + sizeof(void*)) % 8> __GlobalNamespace_BaseNetworkPlayerModelSizeCheck;
+  check_size<sizeof(BaseNetworkPlayerModel), 112 + sizeof(void*) + ((112 + sizeof(void*)) % 8 != 0 ? (8 - (112 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_BaseNetworkPlayerModelSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseNetworkPlayerModel*, "", "BaseNetworkPlayerModel");
 #pragma pack(pop)

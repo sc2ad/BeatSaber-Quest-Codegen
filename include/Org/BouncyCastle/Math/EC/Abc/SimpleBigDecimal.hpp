@@ -73,7 +73,7 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal
-  check_size<sizeof(SimpleBigDecimal), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __Org_BouncyCastle_Math_EC_Abc_SimpleBigDecimalSizeCheck;
+  check_size<sizeof(SimpleBigDecimal), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __Org_BouncyCastle_Math_EC_Abc_SimpleBigDecimalSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*, "Org.BouncyCastle.Math.EC.Abc", "SimpleBigDecimal");

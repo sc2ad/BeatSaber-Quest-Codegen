@@ -91,7 +91,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/<PerformWork>d__12
-  check_size<sizeof(CompositeWorkItem::$PerformWork$d__12), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __UnityEngine_TestRunner_NUnitExtensions_Runner_CompositeWorkItem_$PerformWork$d__12SizeCheck;
+  check_size<sizeof(CompositeWorkItem::$PerformWork$d__12), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __UnityEngine_TestRunner_NUnitExtensions_Runner_CompositeWorkItem_$PerformWork$d__12SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::$PerformWork$d__12*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CompositeWorkItem/<PerformWork>d__12");

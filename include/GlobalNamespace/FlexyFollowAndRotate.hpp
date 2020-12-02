@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static FlexyFollowAndRotate* New_ctor();
   }; // FlexyFollowAndRotate
-  check_size<sizeof(FlexyFollowAndRotate), 32 + sizeof(float) + 8 - (32 + sizeof(float)) % 8> __GlobalNamespace_FlexyFollowAndRotateSizeCheck;
+  check_size<sizeof(FlexyFollowAndRotate), 32 + sizeof(float) + ((32 + sizeof(float)) % 8 != 0 ? (8 - (32 + sizeof(float)) % 8) : 0)> __GlobalNamespace_FlexyFollowAndRotateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlexyFollowAndRotate*, "", "FlexyFollowAndRotate");

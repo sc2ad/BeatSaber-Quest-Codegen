@@ -87,7 +87,7 @@ namespace NUnit::Framework::Internal {
       return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, inherit);
     }
   }; // NUnit.Framework.Internal.ParameterWrapper
-  check_size<sizeof(ParameterWrapper), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __NUnit_Framework_Internal_ParameterWrapperSizeCheck;
+  check_size<sizeof(ParameterWrapper), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __NUnit_Framework_Internal_ParameterWrapperSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ParameterWrapper*, "NUnit.Framework.Internal", "ParameterWrapper");
 #pragma pack(pop)

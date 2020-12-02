@@ -57,7 +57,7 @@ namespace System::Xml {
     // Base method: System.Int32 IEqualityComparer_1::GetHashCode(System.String key)
     int GetHashCode(::Il2CppString* key);
   }; // System.Xml.SecureStringHasher
-  check_size<sizeof(SecureStringHasher), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __System_Xml_SecureStringHasherSizeCheck;
+  check_size<sizeof(SecureStringHasher), 16 + sizeof(int) + ((16 + sizeof(int)) % 8 != 0 ? (8 - (16 + sizeof(int)) % 8) : 0)> __System_Xml_SecureStringHasherSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::SecureStringHasher*, "System.Xml", "SecureStringHasher");

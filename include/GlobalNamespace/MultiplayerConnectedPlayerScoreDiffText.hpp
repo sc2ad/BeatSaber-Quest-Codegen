@@ -84,7 +84,7 @@ namespace GlobalNamespace {
       // Set static field: static public MultiplayerConnectedPlayerScoreDiffText/State AnimatingHide
       static void _set_AnimatingHide(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::State value);
     }; // MultiplayerConnectedPlayerScoreDiffText/State
-    check_size<sizeof(MultiplayerConnectedPlayerScoreDiffText::State), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_MultiplayerConnectedPlayerScoreDiffText_StateSizeCheck;
+    check_size<sizeof(MultiplayerConnectedPlayerScoreDiffText::State), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_MultiplayerConnectedPlayerScoreDiffText_StateSizeCheck;
     // private UnityEngine.Color _activeTextColor
     // Offset: 0x18
     UnityEngine::Color activeTextColor;
@@ -157,7 +157,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerConnectedPlayerScoreDiffText* New_ctor();
   }; // MultiplayerConnectedPlayerScoreDiffText
-  check_size<sizeof(MultiplayerConnectedPlayerScoreDiffText), 136 + sizeof(void*) + 8 - (136 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerConnectedPlayerScoreDiffTextSizeCheck;
+  check_size<sizeof(MultiplayerConnectedPlayerScoreDiffText), 136 + sizeof(void*) + ((136 + sizeof(void*)) % 8 != 0 ? (8 - (136 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MultiplayerConnectedPlayerScoreDiffTextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*, "", "MultiplayerConnectedPlayerScoreDiffText");

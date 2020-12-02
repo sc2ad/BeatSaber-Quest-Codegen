@@ -84,7 +84,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A2EB44
     static GlobalNamespace::BezierSplineEvaluator::CubicSolveResult SolveCubic(float a, float b, float c, float d);
   }; // BezierSplineEvaluator
-  check_size<sizeof(BezierSplineEvaluator), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __GlobalNamespace_BezierSplineEvaluatorSizeCheck;
+  check_size<sizeof(BezierSplineEvaluator), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __GlobalNamespace_BezierSplineEvaluatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSplineEvaluator*, "", "BezierSplineEvaluator");

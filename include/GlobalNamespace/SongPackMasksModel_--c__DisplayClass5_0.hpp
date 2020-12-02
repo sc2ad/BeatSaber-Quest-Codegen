@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SongPackMasksModel::$$c__DisplayClass5_0* New_ctor();
   }; // SongPackMasksModel/<>c__DisplayClass5_0
-  check_size<sizeof(SongPackMasksModel::$$c__DisplayClass5_0), 16 + sizeof(GlobalNamespace::SongPackMask) + 8 - (16 + sizeof(GlobalNamespace::SongPackMask)) % 8> __GlobalNamespace_SongPackMasksModel_$$c__DisplayClass5_0SizeCheck;
+  check_size<sizeof(SongPackMasksModel::$$c__DisplayClass5_0), 16 + sizeof(GlobalNamespace::SongPackMask) + ((16 + sizeof(GlobalNamespace::SongPackMask)) % 8 != 0 ? (8 - (16 + sizeof(GlobalNamespace::SongPackMask)) % 8) : 0)> __GlobalNamespace_SongPackMasksModel_$$c__DisplayClass5_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMasksModel::$$c__DisplayClass5_0*, "", "SongPackMasksModel/<>c__DisplayClass5_0");

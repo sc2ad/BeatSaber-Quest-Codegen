@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerLeaderboardPanelController* New_ctor();
   }; // MultiplayerLeaderboardPanelController
-  check_size<sizeof(MultiplayerLeaderboardPanelController), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerLeaderboardPanelControllerSizeCheck;
+  check_size<sizeof(MultiplayerLeaderboardPanelController), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MultiplayerLeaderboardPanelControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLeaderboardPanelController*, "", "MultiplayerLeaderboardPanelController");

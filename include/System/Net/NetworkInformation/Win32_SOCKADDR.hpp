@@ -26,7 +26,7 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: Win32_SOCKADDR
     constexpr Win32_SOCKADDR(uint16_t AddressFamily_ = {}, ::Array<uint8_t>* AddressData_ = {}) noexcept : AddressFamily{AddressFamily_}, AddressData{AddressData_} {}
   }; // System.Net.NetworkInformation.Win32_SOCKADDR
-  check_size<sizeof(Win32_SOCKADDR), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __System_Net_NetworkInformation_Win32_SOCKADDRSizeCheck;
+  check_size<sizeof(Win32_SOCKADDR), 8 + sizeof(void*) + ((8 + sizeof(void*)) % 8 != 0 ? (8 - (8 + sizeof(void*)) % 8) : 0)> __System_Net_NetworkInformation_Win32_SOCKADDRSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_SOCKADDR, "System.Net.NetworkInformation", "Win32_SOCKADDR");

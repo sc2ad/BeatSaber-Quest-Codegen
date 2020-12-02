@@ -188,7 +188,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // SteamVR_LoadLevel
-  check_size<sizeof(SteamVR_LoadLevel), 240 + sizeof(bool) + 8 - (240 + sizeof(bool)) % 8> __GlobalNamespace_SteamVR_LoadLevelSizeCheck;
+  check_size<sizeof(SteamVR_LoadLevel), 240 + sizeof(bool) + ((240 + sizeof(bool)) % 8 != 0 ? (8 - (240 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_SteamVR_LoadLevelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_LoadLevel*, "", "SteamVR_LoadLevel");

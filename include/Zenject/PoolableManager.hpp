@@ -62,7 +62,7 @@ namespace Zenject {
     // Offset: 0x13494F4
     void TriggerOnDespawned();
   }; // Zenject.PoolableManager
-  check_size<sizeof(PoolableManager), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __Zenject_PoolableManagerSizeCheck;
+  check_size<sizeof(PoolableManager), 24 + sizeof(bool) + ((24 + sizeof(bool)) % 8 != 0 ? (8 - (24 + sizeof(bool)) % 8) : 0)> __Zenject_PoolableManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager*, "Zenject", "PoolableManager");

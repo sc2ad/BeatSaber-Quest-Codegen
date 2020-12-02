@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // SteamVR_RenderModel/<FreeRenderModel>d__24
-  check_size<sizeof(SteamVR_RenderModel::$FreeRenderModel$d__24), 32 + sizeof(System::IntPtr) + 8 - (32 + sizeof(System::IntPtr)) % 8> __GlobalNamespace_SteamVR_RenderModel_$FreeRenderModel$d__24SizeCheck;
+  check_size<sizeof(SteamVR_RenderModel::$FreeRenderModel$d__24), 32 + sizeof(System::IntPtr) + ((32 + sizeof(System::IntPtr)) % 8 != 0 ? (8 - (32 + sizeof(System::IntPtr)) % 8) : 0)> __GlobalNamespace_SteamVR_RenderModel_$FreeRenderModel$d__24SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_RenderModel::$FreeRenderModel$d__24*, "", "SteamVR_RenderModel/<FreeRenderModel>d__24");

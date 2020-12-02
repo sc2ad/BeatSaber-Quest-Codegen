@@ -395,7 +395,7 @@ namespace System {
       // Set static field: static public System.Uri/Flags CompressedSlashes
       static void _set_CompressedSlashes(System::Uri::Flags value);
     }; // System.Uri/Flags
-    check_size<sizeof(Uri::Flags), 0 + sizeof(uint64_t) + 8 - (0 + sizeof(uint64_t)) % 8> __System_Uri_FlagsSizeCheck;
+    check_size<sizeof(Uri::Flags), 0 + sizeof(uint64_t) + ((0 + sizeof(uint64_t)) % 8 != 0 ? (8 - (0 + sizeof(uint64_t)) % 8) : 0)> __System_Uri_FlagsSizeCheck;
     // private System.String m_String
     // Offset: 0x10
     ::Il2CppString* m_String;
@@ -875,7 +875,7 @@ namespace System {
     // Base method: System.Boolean Object::Equals(System.Object comparand)
     bool Equals(::Il2CppObject* comparand);
   }; // System.Uri
-  check_size<sizeof(Uri), 64 + sizeof(bool) + 8 - (64 + sizeof(bool)) % 8> __System_UriSizeCheck;
+  check_size<sizeof(Uri), 64 + sizeof(bool) + ((64 + sizeof(bool)) % 8 != 0 ? (8 - (64 + sizeof(bool)) % 8) : 0)> __System_UriSizeCheck;
   // static public System.Boolean op_Equality(System.Uri uri1, System.Uri uri2)
   // Offset: 0x1557850
   bool operator ==(System::Uri* uri1, System::Uri& uri2);

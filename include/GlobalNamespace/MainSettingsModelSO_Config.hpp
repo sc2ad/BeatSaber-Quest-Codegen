@@ -168,7 +168,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MainSettingsModelSO::Config* New_ctor();
   }; // MainSettingsModelSO/Config
-  check_size<sizeof(MainSettingsModelSO::Config), 204 + sizeof(int) + 8 - (204 + sizeof(int)) % 8> __GlobalNamespace_MainSettingsModelSO_ConfigSizeCheck;
+  check_size<sizeof(MainSettingsModelSO::Config), 204 + sizeof(int) + ((204 + sizeof(int)) % 8 != 0 ? (8 - (204 + sizeof(int)) % 8) : 0)> __GlobalNamespace_MainSettingsModelSO_ConfigSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsModelSO::Config*, "", "MainSettingsModelSO/Config");

@@ -111,7 +111,7 @@ namespace GlobalNamespace {
       // Set static field: static public OpenVRHelper/VRControllerManufacturerName Undefined
       static void _set_Undefined(GlobalNamespace::OpenVRHelper::VRControllerManufacturerName value);
     }; // OpenVRHelper/VRControllerManufacturerName
-    check_size<sizeof(OpenVRHelper::VRControllerManufacturerName), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OpenVRHelper_VRControllerManufacturerNameSizeCheck;
+    check_size<sizeof(OpenVRHelper::VRControllerManufacturerName), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OpenVRHelper_VRControllerManufacturerNameSizeCheck;
     // private readonly IOpenVRHaptics _openVrHaptics
     // Offset: 0x18
     GlobalNamespace::IOpenVRHaptics* openVrHaptics;
@@ -313,7 +313,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OpenVRHelper* New_ctor();
   }; // OpenVRHelper
-  check_size<sizeof(OpenVRHelper), 124 + sizeof(bool) + 8 - (124 + sizeof(bool)) % 8> __GlobalNamespace_OpenVRHelperSizeCheck;
+  check_size<sizeof(OpenVRHelper), 124 + sizeof(bool) + ((124 + sizeof(bool)) % 8 != 0 ? (8 - (124 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_OpenVRHelperSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OpenVRHelper*, "", "OpenVRHelper");

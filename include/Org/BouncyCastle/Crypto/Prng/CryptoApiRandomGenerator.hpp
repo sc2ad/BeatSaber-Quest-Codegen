@@ -45,7 +45,7 @@ namespace Org::BouncyCastle::Crypto::Prng {
     // Base method: System.Void IRandomGenerator::NextBytes(System.Byte[] bytes)
     void NextBytes(::Array<uint8_t>* bytes);
   }; // Org.BouncyCastle.Crypto.Prng.CryptoApiRandomGenerator
-  check_size<sizeof(CryptoApiRandomGenerator), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Prng_CryptoApiRandomGeneratorSizeCheck;
+  check_size<sizeof(CryptoApiRandomGenerator), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_Prng_CryptoApiRandomGeneratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator*, "Org.BouncyCastle.Crypto.Prng", "CryptoApiRandomGenerator");

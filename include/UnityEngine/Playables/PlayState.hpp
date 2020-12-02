@@ -41,7 +41,7 @@ namespace UnityEngine::Playables {
     // Set static field: static public UnityEngine.Playables.PlayState Delayed
     static void _set_Delayed(UnityEngine::Playables::PlayState value);
   }; // UnityEngine.Playables.PlayState
-  check_size<sizeof(PlayState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Playables_PlayStateSizeCheck;
+  check_size<sizeof(PlayState), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_Playables_PlayStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayState, "UnityEngine.Playables", "PlayState");

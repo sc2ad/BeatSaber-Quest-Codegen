@@ -51,7 +51,7 @@ namespace VRUIControls {
       // Offset: 0xCB5CA0
       // ABORTED: conflicts with another method.  CachedRaycast(bool wasHit, UnityEngine::Ray ray, UnityEngine::RaycastHit hitInfo, float maxDistance, int layerMask);
     }; // VRUIControls.PhysicsRaycasterWithCache/CachedRaycast
-    check_size<sizeof(PhysicsRaycasterWithCache::CachedRaycast), 76 + sizeof(int) + 8 - (76 + sizeof(int)) % 8> __VRUIControls_PhysicsRaycasterWithCache_CachedRaycastSizeCheck;
+    check_size<sizeof(PhysicsRaycasterWithCache::CachedRaycast), 76 + sizeof(int) + ((76 + sizeof(int)) % 8 != 0 ? (8 - (76 + sizeof(int)) % 8) : 0)> __VRUIControls_PhysicsRaycasterWithCache_CachedRaycastSizeCheck;
     // private readonly System.Collections.Generic.List`1<VRUIControls.PhysicsRaycasterWithCache/CachedRaycast> _cachedRaycasts
     // Offset: 0x10
     System::Collections::Generic::List_1<VRUIControls::PhysicsRaycasterWithCache::CachedRaycast>* cachedRaycasts;
@@ -67,7 +67,7 @@ namespace VRUIControls {
     // Base method: System.Void Object::.ctor()
     static PhysicsRaycasterWithCache* New_ctor();
   }; // VRUIControls.PhysicsRaycasterWithCache
-  check_size<sizeof(PhysicsRaycasterWithCache), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __VRUIControls_PhysicsRaycasterWithCacheSizeCheck;
+  check_size<sizeof(PhysicsRaycasterWithCache), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __VRUIControls_PhysicsRaycasterWithCacheSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::PhysicsRaycasterWithCache*, "VRUIControls", "PhysicsRaycasterWithCache");

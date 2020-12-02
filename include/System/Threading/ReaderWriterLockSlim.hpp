@@ -297,7 +297,7 @@ namespace System::Threading {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Threading.ReaderWriterLockSlim
-  check_size<sizeof(ReaderWriterLockSlim), 104 + sizeof(bool) + 8 - (104 + sizeof(bool)) % 8> __System_Threading_ReaderWriterLockSlimSizeCheck;
+  check_size<sizeof(ReaderWriterLockSlim), 104 + sizeof(bool) + ((104 + sizeof(bool)) % 8 != 0 ? (8 - (104 + sizeof(bool)) % 8) : 0)> __System_Threading_ReaderWriterLockSlimSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterLockSlim*, "System.Threading", "ReaderWriterLockSlim");

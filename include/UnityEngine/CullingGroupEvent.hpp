@@ -25,7 +25,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: CullingGroupEvent
     constexpr CullingGroupEvent(int m_Index_ = {}, uint8_t m_PrevState_ = {}, uint8_t m_ThisState_ = {}) noexcept : m_Index{m_Index_}, m_PrevState{m_PrevState_}, m_ThisState{m_ThisState_} {}
   }; // UnityEngine.CullingGroupEvent
-  check_size<sizeof(CullingGroupEvent), 5 + sizeof(uint8_t) + 8 - (5 + sizeof(uint8_t)) % 8> __UnityEngine_CullingGroupEventSizeCheck;
+  check_size<sizeof(CullingGroupEvent), 5 + sizeof(uint8_t) + ((5 + sizeof(uint8_t)) % 8 != 0 ? (8 - (5 + sizeof(uint8_t)) % 8) : 0)> __UnityEngine_CullingGroupEventSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CullingGroupEvent, "UnityEngine", "CullingGroupEvent");

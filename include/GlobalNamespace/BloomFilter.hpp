@@ -148,7 +148,7 @@ namespace GlobalNamespace {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // BloomFilter
-  check_size<sizeof(BloomFilter), 8 + sizeof(uint64_t) + 8 - (8 + sizeof(uint64_t)) % 8> __GlobalNamespace_BloomFilterSizeCheck;
+  check_size<sizeof(BloomFilter), 8 + sizeof(uint64_t) + ((8 + sizeof(uint64_t)) % 8 != 0 ? (8 - (8 + sizeof(uint64_t)) % 8) : 0)> __GlobalNamespace_BloomFilterSizeCheck;
   // static public BloomFilter op_BitwiseOr(BloomFilter a, BloomFilter b)
   // Offset: 0x19A3080
   GlobalNamespace::BloomFilter operator|(const GlobalNamespace::BloomFilter& a, const GlobalNamespace::BloomFilter& b);

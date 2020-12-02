@@ -57,7 +57,7 @@ namespace UnityEngine::TestTools {
     // Base method: System.Collections.IEnumerable IEnumerableTestMethodCommand::ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
     System::Collections::IEnumerable* ExecuteEnumerable(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // UnityEngine.TestTools.EnumerableRepeatedTestCommand
-  check_size<sizeof(EnumerableRepeatedTestCommand), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __UnityEngine_TestTools_EnumerableRepeatedTestCommandSizeCheck;
+  check_size<sizeof(EnumerableRepeatedTestCommand), 32 + sizeof(int) + ((32 + sizeof(int)) % 8 != 0 ? (8 - (32 + sizeof(int)) % 8) : 0)> __UnityEngine_TestTools_EnumerableRepeatedTestCommandSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableRepeatedTestCommand*, "UnityEngine.TestTools", "EnumerableRepeatedTestCommand");

@@ -36,7 +36,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DEE58
     static RoomInviteNotification* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.RoomInviteNotification
-  check_size<sizeof(RoomInviteNotification), 40 + sizeof(System::DateTime) + 8 - (40 + sizeof(System::DateTime)) % 8> __Oculus_Platform_Models_RoomInviteNotificationSizeCheck;
+  check_size<sizeof(RoomInviteNotification), 40 + sizeof(System::DateTime) + ((40 + sizeof(System::DateTime)) % 8 != 0 ? (8 - (40 + sizeof(System::DateTime)) % 8) : 0)> __Oculus_Platform_Models_RoomInviteNotificationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::RoomInviteNotification*, "Oculus.Platform.Models", "RoomInviteNotification");

@@ -75,7 +75,7 @@ namespace System::Net::Mail {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.Mail.MailAddress
-  check_size<sizeof(MailAddress), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __System_Net_Mail_MailAddressSizeCheck;
+  check_size<sizeof(MailAddress), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __System_Net_Mail_MailAddressSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Mail::MailAddress*, "System.Net.Mail", "MailAddress");

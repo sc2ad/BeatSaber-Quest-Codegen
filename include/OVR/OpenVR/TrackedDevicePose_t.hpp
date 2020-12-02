@@ -40,7 +40,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: TrackedDevicePose_t
     constexpr TrackedDevicePose_t(OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking_ = {}, OVR::OpenVR::HmdVector3_t vVelocity_ = {}, OVR::OpenVR::HmdVector3_t vAngularVelocity_ = {}, OVR::OpenVR::ETrackingResult eTrackingResult_ = {}, bool bPoseIsValid_ = {}, bool bDeviceIsConnected_ = {}) noexcept : mDeviceToAbsoluteTracking{mDeviceToAbsoluteTracking_}, vVelocity{vVelocity_}, vAngularVelocity{vAngularVelocity_}, eTrackingResult{eTrackingResult_}, bPoseIsValid{bPoseIsValid_}, bDeviceIsConnected{bDeviceIsConnected_} {}
   }; // OVR.OpenVR.TrackedDevicePose_t
-  check_size<sizeof(TrackedDevicePose_t), 77 + sizeof(bool) + 8 - (77 + sizeof(bool)) % 8> __OVR_OpenVR_TrackedDevicePose_tSizeCheck;
+  check_size<sizeof(TrackedDevicePose_t), 77 + sizeof(bool) + ((77 + sizeof(bool)) % 8 != 0 ? (8 - (77 + sizeof(bool)) % 8) : 0)> __OVR_OpenVR_TrackedDevicePose_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::TrackedDevicePose_t, "OVR.OpenVR", "TrackedDevicePose_t");

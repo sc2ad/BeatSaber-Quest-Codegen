@@ -191,7 +191,7 @@ namespace System {
     // Set static field: static public System.ExceptionArgument text
     static void _set_text(System::ExceptionArgument value);
   }; // System.ExceptionArgument
-  check_size<sizeof(ExceptionArgument), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_ExceptionArgumentSizeCheck;
+  check_size<sizeof(ExceptionArgument), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_ExceptionArgumentSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ExceptionArgument, "System", "ExceptionArgument");

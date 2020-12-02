@@ -27,7 +27,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x1163A38
     ::Il2CppString* get_AssemblyFullName();
   }; // System.Runtime.CompilerServices.TypeForwardedFromAttribute
-  check_size<sizeof(TypeForwardedFromAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Runtime_CompilerServices_TypeForwardedFromAttributeSizeCheck;
+  check_size<sizeof(TypeForwardedFromAttribute), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Runtime_CompilerServices_TypeForwardedFromAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::TypeForwardedFromAttribute*, "System.Runtime.CompilerServices", "TypeForwardedFromAttribute");

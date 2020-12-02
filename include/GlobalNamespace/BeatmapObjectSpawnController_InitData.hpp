@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A2B310
     static BeatmapObjectSpawnController::InitData* New_ctor(float beatsPerMinute, int noteLinesCount, float noteJumpMovementSpeed, float noteJumpStartBeatOffset, float jumpOffsetY);
   }; // BeatmapObjectSpawnController/InitData
-  check_size<sizeof(BeatmapObjectSpawnController::InitData), 32 + sizeof(float) + 8 - (32 + sizeof(float)) % 8> __GlobalNamespace_BeatmapObjectSpawnController_InitDataSizeCheck;
+  check_size<sizeof(BeatmapObjectSpawnController::InitData), 32 + sizeof(float) + ((32 + sizeof(float)) % 8 != 0 ? (8 - (32 + sizeof(float)) % 8) : 0)> __GlobalNamespace_BeatmapObjectSpawnController_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnController::InitData*, "", "BeatmapObjectSpawnController/InitData");

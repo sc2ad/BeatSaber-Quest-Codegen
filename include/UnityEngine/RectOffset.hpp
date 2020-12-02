@@ -93,7 +93,7 @@ namespace UnityEngine {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.RectOffset
-  check_size<sizeof(RectOffset), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_RectOffsetSizeCheck;
+  check_size<sizeof(RectOffset), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __UnityEngine_RectOffsetSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectOffset*, "UnityEngine", "RectOffset");

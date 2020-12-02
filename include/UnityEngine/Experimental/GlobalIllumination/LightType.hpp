@@ -65,7 +65,7 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Set static field: static public UnityEngine.Experimental.GlobalIllumination.LightType SpotBoxShape
     static void _set_SpotBoxShape(UnityEngine::Experimental::GlobalIllumination::LightType value);
   }; // UnityEngine.Experimental.GlobalIllumination.LightType
-  check_size<sizeof(LightType), 0 + sizeof(uint8_t) + 8 - (0 + sizeof(uint8_t)) % 8> __UnityEngine_Experimental_GlobalIllumination_LightTypeSizeCheck;
+  check_size<sizeof(LightType), 0 + sizeof(uint8_t) + ((0 + sizeof(uint8_t)) % 8 != 0 ? (8 - (0 + sizeof(uint8_t)) % 8) : 0)> __UnityEngine_Experimental_GlobalIllumination_LightTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LightType, "UnityEngine.Experimental.GlobalIllumination", "LightType");

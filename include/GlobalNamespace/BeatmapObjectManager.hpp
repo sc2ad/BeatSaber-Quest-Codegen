@@ -212,7 +212,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BeatmapObjectManager* New_ctor();
   }; // BeatmapObjectManager
-  check_size<sizeof(BeatmapObjectManager), 72 + sizeof(bool) + 8 - (72 + sizeof(bool)) % 8> __GlobalNamespace_BeatmapObjectManagerSizeCheck;
+  check_size<sizeof(BeatmapObjectManager), 72 + sizeof(bool) + ((72 + sizeof(bool)) % 8 != 0 ? (8 - (72 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_BeatmapObjectManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectManager*, "", "BeatmapObjectManager");

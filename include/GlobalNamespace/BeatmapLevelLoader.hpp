@@ -56,7 +56,7 @@ namespace GlobalNamespace {
       // Offset: 0xE7F994
       // ABORTED: conflicts with another method.  LoadBeatmapLevelResult(bool isError, GlobalNamespace::IBeatmapLevel* beatmapLevel);
     }; // BeatmapLevelLoader/LoadBeatmapLevelResult
-    check_size<sizeof(BeatmapLevelLoader::LoadBeatmapLevelResult), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapLevelLoader_LoadBeatmapLevelResultSizeCheck;
+    check_size<sizeof(BeatmapLevelLoader::LoadBeatmapLevelResult), 8 + sizeof(void*) + ((8 + sizeof(void*)) % 8 != 0 ? (8 - (8 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_BeatmapLevelLoader_LoadBeatmapLevelResultSizeCheck;
     // private BeatmapLevelDataLoaderSO _beatmapLevelDataLoader
     // Offset: 0x10
     GlobalNamespace::BeatmapLevelDataLoaderSO* beatmapLevelDataLoader;
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A88384
     System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult>* LoadBeatmapLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* previewLevel, System::Threading::CancellationToken cancellationToken);
   }; // BeatmapLevelLoader
-  check_size<sizeof(BeatmapLevelLoader), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapLevelLoaderSizeCheck;
+  check_size<sizeof(BeatmapLevelLoader), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_BeatmapLevelLoaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelLoader*, "", "BeatmapLevelLoader");

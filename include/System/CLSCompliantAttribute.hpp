@@ -24,7 +24,7 @@ namespace System {
     // Offset: 0x1CAEA98
     static CLSCompliantAttribute* New_ctor(bool isCompliant);
   }; // System.CLSCompliantAttribute
-  check_size<sizeof(CLSCompliantAttribute), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __System_CLSCompliantAttributeSizeCheck;
+  check_size<sizeof(CLSCompliantAttribute), 16 + sizeof(bool) + ((16 + sizeof(bool)) % 8 != 0 ? (8 - (16 + sizeof(bool)) % 8) : 0)> __System_CLSCompliantAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::CLSCompliantAttribute*, "System", "CLSCompliantAttribute");

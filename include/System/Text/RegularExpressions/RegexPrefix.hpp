@@ -37,7 +37,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x154F1B0
     static void _cctor();
   }; // System.Text.RegularExpressions.RegexPrefix
-  check_size<sizeof(RegexPrefix), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __System_Text_RegularExpressions_RegexPrefixSizeCheck;
+  check_size<sizeof(RegexPrefix), 24 + sizeof(bool) + ((24 + sizeof(bool)) % 8 != 0 ? (8 - (24 + sizeof(bool)) % 8) : 0)> __System_Text_RegularExpressions_RegexPrefixSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexPrefix*, "System.Text.RegularExpressions", "RegexPrefix");

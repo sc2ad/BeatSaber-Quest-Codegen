@@ -113,7 +113,7 @@ namespace System {
     // Set static field: static public System.ParseFlags UtcSortPattern
     static void _set_UtcSortPattern(System::ParseFlags value);
   }; // System.ParseFlags
-  check_size<sizeof(ParseFlags), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_ParseFlagsSizeCheck;
+  check_size<sizeof(ParseFlags), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_ParseFlagsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParseFlags, "System", "ParseFlags");

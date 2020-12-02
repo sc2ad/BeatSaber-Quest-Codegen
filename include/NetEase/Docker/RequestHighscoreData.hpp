@@ -33,7 +33,7 @@ namespace NetEase::Docker {
     // Offset: 0xCB9CE0
     void set_HighscoreType(::Il2CppString* value);
   }; // NetEase.Docker.RequestHighscoreData
-  check_size<sizeof(RequestHighscoreData), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __NetEase_Docker_RequestHighscoreDataSizeCheck;
+  check_size<sizeof(RequestHighscoreData), 8 + sizeof(void*) + ((8 + sizeof(void*)) % 8 != 0 ? (8 - (8 + sizeof(void*)) % 8) : 0)> __NetEase_Docker_RequestHighscoreDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::RequestHighscoreData, "NetEase.Docker", "RequestHighscoreData");

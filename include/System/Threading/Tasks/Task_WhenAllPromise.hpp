@@ -46,7 +46,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Boolean Task::get_ShouldNotifyDebuggerOfWaitCompletion()
     bool get_ShouldNotifyDebuggerOfWaitCompletion();
   }; // System.Threading.Tasks.Task/WhenAllPromise
-  check_size<sizeof(Task::WhenAllPromise), 96 + sizeof(int) + 8 - (96 + sizeof(int)) % 8> __System_Threading_Tasks_Task_WhenAllPromiseSizeCheck;
+  check_size<sizeof(Task::WhenAllPromise), 96 + sizeof(int) + ((96 + sizeof(int)) % 8 != 0 ? (8 - (96 + sizeof(int)) % 8) : 0)> __System_Threading_Tasks_Task_WhenAllPromiseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::WhenAllPromise*, "System.Threading.Tasks", "Task/WhenAllPromise");

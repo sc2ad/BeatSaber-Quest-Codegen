@@ -41,7 +41,7 @@ namespace UnityEngine::Timeline {
     // Set static field: static public UnityEngine.Timeline.NotificationFlags TriggerOnce
     static void _set_TriggerOnce(UnityEngine::Timeline::NotificationFlags value);
   }; // UnityEngine.Timeline.NotificationFlags
-  check_size<sizeof(NotificationFlags), 0 + sizeof(int16_t) + 8 - (0 + sizeof(int16_t)) % 8> __UnityEngine_Timeline_NotificationFlagsSizeCheck;
+  check_size<sizeof(NotificationFlags), 0 + sizeof(int16_t) + ((0 + sizeof(int16_t)) % 8 != 0 ? (8 - (0 + sizeof(int16_t)) % 8) : 0)> __UnityEngine_Timeline_NotificationFlagsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::NotificationFlags, "UnityEngine.Timeline", "NotificationFlags");

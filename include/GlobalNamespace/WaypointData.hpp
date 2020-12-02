@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     // Base method: System.Void BeatmapObjectData::MirrorLineIndex(System.Int32 lineCount)
     void MirrorLineIndex(int lineCount);
   }; // WaypointData
-  check_size<sizeof(WaypointData), 28 + sizeof(GlobalNamespace::NoteLineLayer) + 8 - (28 + sizeof(GlobalNamespace::NoteLineLayer)) % 8> __GlobalNamespace_WaypointDataSizeCheck;
+  check_size<sizeof(WaypointData), 28 + sizeof(GlobalNamespace::NoteLineLayer) + ((28 + sizeof(GlobalNamespace::NoteLineLayer)) % 8 != 0 ? (8 - (28 + sizeof(GlobalNamespace::NoteLineLayer)) % 8) : 0)> __GlobalNamespace_WaypointDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WaypointData*, "", "WaypointData");

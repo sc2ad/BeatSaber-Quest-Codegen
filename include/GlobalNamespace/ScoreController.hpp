@@ -278,7 +278,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ScoreController* New_ctor();
   }; // ScoreController
-  check_size<sizeof(ScoreController), 216 + sizeof(float) + 8 - (216 + sizeof(float)) % 8> __GlobalNamespace_ScoreControllerSizeCheck;
+  check_size<sizeof(ScoreController), 216 + sizeof(float) + ((216 + sizeof(float)) % 8 != 0 ? (8 - (216 + sizeof(float)) % 8) : 0)> __GlobalNamespace_ScoreControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreController*, "", "ScoreController");

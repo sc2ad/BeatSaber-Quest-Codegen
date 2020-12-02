@@ -125,7 +125,7 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public UnityEngine.EventSystems.EventTriggerType Cancel
     static void _set_Cancel(UnityEngine::EventSystems::EventTriggerType value);
   }; // UnityEngine.EventSystems.EventTriggerType
-  check_size<sizeof(EventTriggerType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_EventSystems_EventTriggerTypeSizeCheck;
+  check_size<sizeof(EventTriggerType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_EventSystems_EventTriggerTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventTriggerType, "UnityEngine.EventSystems", "EventTriggerType");

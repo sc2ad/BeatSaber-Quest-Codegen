@@ -41,7 +41,7 @@ namespace System::Xml {
     // Base method: System.Void Object::.ctor()
     static BitStack* New_ctor();
   }; // System.Xml.BitStack
-  check_size<sizeof(BitStack), 28 + sizeof(uint) + 8 - (28 + sizeof(uint)) % 8> __System_Xml_BitStackSizeCheck;
+  check_size<sizeof(BitStack), 28 + sizeof(uint) + ((28 + sizeof(uint)) % 8 != 0 ? (8 - (28 + sizeof(uint)) % 8) : 0)> __System_Xml_BitStackSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::BitStack*, "System.Xml", "BitStack");

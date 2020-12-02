@@ -77,7 +77,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.AspectRatioFitter/AspectMode EnvelopeParent
       static void _set_EnvelopeParent(UnityEngine::UI::AspectRatioFitter::AspectMode value);
     }; // UnityEngine.UI.AspectRatioFitter/AspectMode
-    check_size<sizeof(AspectRatioFitter::AspectMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_UI_AspectRatioFitter_AspectModeSizeCheck;
+    check_size<sizeof(AspectRatioFitter::AspectMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_UI_AspectRatioFitter_AspectModeSizeCheck;
     // private UnityEngine.UI.AspectRatioFitter/AspectMode m_AspectMode
     // Offset: 0x18
     UnityEngine::UI::AspectRatioFitter::AspectMode m_AspectMode;
@@ -165,7 +165,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void ILayoutController::SetLayoutVertical()
     void SetLayoutVertical();
   }; // UnityEngine.UI.AspectRatioFitter
-  check_size<sizeof(AspectRatioFitter), 41 + sizeof(UnityEngine::DrivenRectTransformTracker) + 8 - (41 + sizeof(UnityEngine::DrivenRectTransformTracker)) % 8> __UnityEngine_UI_AspectRatioFitterSizeCheck;
+  check_size<sizeof(AspectRatioFitter), 41 + sizeof(UnityEngine::DrivenRectTransformTracker) + ((41 + sizeof(UnityEngine::DrivenRectTransformTracker)) % 8 != 0 ? (8 - (41 + sizeof(UnityEngine::DrivenRectTransformTracker)) % 8) : 0)> __UnityEngine_UI_AspectRatioFitterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::AspectRatioFitter*, "UnityEngine.UI", "AspectRatioFitter");

@@ -294,7 +294,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x130402C
     static void _cctor();
   }; // System.Runtime.Serialization.Formatters.Binary.__BinaryParser
-  check_size<sizeof(__BinaryParser), 192 + sizeof(void*) + 8 - (192 + sizeof(void*)) % 8> __System_Runtime_Serialization_Formatters_Binary___BinaryParserSizeCheck;
+  check_size<sizeof(__BinaryParser), 192 + sizeof(void*) + ((192 + sizeof(void*)) % 8 != 0 ? (8 - (192 + sizeof(void*)) % 8) : 0)> __System_Runtime_Serialization_Formatters_Binary___BinaryParserSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::__BinaryParser*, "System.Runtime.Serialization.Formatters.Binary", "__BinaryParser");

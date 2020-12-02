@@ -152,7 +152,7 @@ namespace UnityEngine::Playables {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Playables.PlayableOutputHandle other)
     bool Equals(UnityEngine::Playables::PlayableOutputHandle other);
   }; // UnityEngine.Playables.PlayableOutputHandle
-  check_size<sizeof(PlayableOutputHandle), 8 + sizeof(uint) + 8 - (8 + sizeof(uint)) % 8> __UnityEngine_Playables_PlayableOutputHandleSizeCheck;
+  check_size<sizeof(PlayableOutputHandle), 8 + sizeof(uint) + ((8 + sizeof(uint)) % 8 != 0 ? (8 - (8 + sizeof(uint)) % 8) : 0)> __UnityEngine_Playables_PlayableOutputHandleSizeCheck;
   // static public System.Boolean op_Equality(UnityEngine.Playables.PlayableOutputHandle lhs, UnityEngine.Playables.PlayableOutputHandle rhs)
   // Offset: 0x1733A5C
   bool operator ==(const UnityEngine::Playables::PlayableOutputHandle& lhs, const UnityEngine::Playables::PlayableOutputHandle& rhs);

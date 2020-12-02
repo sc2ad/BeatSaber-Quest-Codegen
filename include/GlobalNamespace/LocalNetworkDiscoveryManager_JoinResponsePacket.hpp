@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LocalNetworkDiscoveryManager::JoinResponsePacket* New_ctor();
   }; // LocalNetworkDiscoveryManager/JoinResponsePacket
-  check_size<sizeof(LocalNetworkDiscoveryManager::JoinResponsePacket), 36 + sizeof(bool) + 8 - (36 + sizeof(bool)) % 8> __GlobalNamespace_LocalNetworkDiscoveryManager_JoinResponsePacketSizeCheck;
+  check_size<sizeof(LocalNetworkDiscoveryManager::JoinResponsePacket), 36 + sizeof(bool) + ((36 + sizeof(bool)) % 8 != 0 ? (8 - (36 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_LocalNetworkDiscoveryManager_JoinResponsePacketSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::JoinResponsePacket*, "", "LocalNetworkDiscoveryManager/JoinResponsePacket");

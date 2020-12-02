@@ -219,7 +219,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     static MonoProperty* New_ctor();
   }; // System.Reflection.MonoProperty
-  check_size<sizeof(MonoProperty), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __System_Reflection_MonoPropertySizeCheck;
+  check_size<sizeof(MonoProperty), 88 + sizeof(void*) + ((88 + sizeof(void*)) % 8 != 0 ? (8 - (88 + sizeof(void*)) % 8) : 0)> __System_Reflection_MonoPropertySizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoProperty*, "System.Reflection", "MonoProperty");
 #pragma pack(pop)

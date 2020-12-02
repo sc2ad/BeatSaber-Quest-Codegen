@@ -49,7 +49,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     static Oid* New_ctor();
   }; // System.Security.Cryptography.Oid
-  check_size<sizeof(Oid), 32 + sizeof(System::Security::Cryptography::OidGroup) + 8 - (32 + sizeof(System::Security::Cryptography::OidGroup)) % 8> __System_Security_Cryptography_OidSizeCheck;
+  check_size<sizeof(Oid), 32 + sizeof(System::Security::Cryptography::OidGroup) + ((32 + sizeof(System::Security::Cryptography::OidGroup)) % 8 != 0 ? (8 - (32 + sizeof(System::Security::Cryptography::OidGroup)) % 8) : 0)> __System_Security_Cryptography_OidSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::Oid*, "System.Security.Cryptography", "Oid");

@@ -35,7 +35,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.SortMethod CounterClockwise
     static void _set_CounterClockwise(UnityEngine::ProBuilder::SortMethod value);
   }; // UnityEngine.ProBuilder.SortMethod
-  check_size<sizeof(SortMethod), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_ProBuilder_SortMethodSizeCheck;
+  check_size<sizeof(SortMethod), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_ProBuilder_SortMethodSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SortMethod, "UnityEngine.ProBuilder", "SortMethod");

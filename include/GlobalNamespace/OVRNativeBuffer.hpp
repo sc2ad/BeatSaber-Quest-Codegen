@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // OVRNativeBuffer
-  check_size<sizeof(OVRNativeBuffer), 24 + sizeof(System::IntPtr) + 8 - (24 + sizeof(System::IntPtr)) % 8> __GlobalNamespace_OVRNativeBufferSizeCheck;
+  check_size<sizeof(OVRNativeBuffer), 24 + sizeof(System::IntPtr) + ((24 + sizeof(System::IntPtr)) % 8 != 0 ? (8 - (24 + sizeof(System::IntPtr)) % 8) : 0)> __GlobalNamespace_OVRNativeBufferSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNativeBuffer*, "", "OVRNativeBuffer");

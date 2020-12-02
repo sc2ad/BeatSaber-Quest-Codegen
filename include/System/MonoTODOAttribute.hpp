@@ -30,7 +30,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static MonoTODOAttribute* New_ctor();
   }; // System.MonoTODOAttribute
-  check_size<sizeof(MonoTODOAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_MonoTODOAttributeSizeCheck;
+  check_size<sizeof(MonoTODOAttribute), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_MonoTODOAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::MonoTODOAttribute*, "System", "MonoTODOAttribute");

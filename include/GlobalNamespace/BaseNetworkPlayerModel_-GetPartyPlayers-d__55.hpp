@@ -87,7 +87,7 @@ namespace GlobalNamespace {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // BaseNetworkPlayerModel/<GetPartyPlayers>d__55
-  check_size<sizeof(BaseNetworkPlayerModel::$GetPartyPlayers$d__55), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __GlobalNamespace_BaseNetworkPlayerModel_$GetPartyPlayers$d__55SizeCheck;
+  check_size<sizeof(BaseNetworkPlayerModel::$GetPartyPlayers$d__55), 32 + sizeof(int) + ((32 + sizeof(int)) % 8 != 0 ? (8 - (32 + sizeof(int)) % 8) : 0)> __GlobalNamespace_BaseNetworkPlayerModel_$GetPartyPlayers$d__55SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseNetworkPlayerModel::$GetPartyPlayers$d__55*, "", "BaseNetworkPlayerModel/<GetPartyPlayers>d__55");

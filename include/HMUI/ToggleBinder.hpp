@@ -72,7 +72,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static ToggleBinder* New_ctor();
   }; // HMUI.ToggleBinder
-  check_size<sizeof(ToggleBinder), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __HMUI_ToggleBinderSizeCheck;
+  check_size<sizeof(ToggleBinder), 24 + sizeof(bool) + ((24 + sizeof(bool)) % 8 != 0 ? (8 - (24 + sizeof(bool)) % 8) : 0)> __HMUI_ToggleBinderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ToggleBinder*, "HMUI", "ToggleBinder");

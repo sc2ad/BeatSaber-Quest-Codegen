@@ -56,7 +56,7 @@ namespace UnityEngine::Playables {
     // Base method: UnityEngine.Playables.PlayableOutputHandle IPlayableOutput::GetHandle()
     UnityEngine::Playables::PlayableOutputHandle GetHandle();
   }; // UnityEngine.Playables.ScriptPlayableOutput
-  check_size<sizeof(ScriptPlayableOutput), 0 + sizeof(UnityEngine::Playables::PlayableOutputHandle) + 8 - (0 + sizeof(UnityEngine::Playables::PlayableOutputHandle)) % 8> __UnityEngine_Playables_ScriptPlayableOutputSizeCheck;
+  check_size<sizeof(ScriptPlayableOutput), 0 + sizeof(UnityEngine::Playables::PlayableOutputHandle) + ((0 + sizeof(UnityEngine::Playables::PlayableOutputHandle)) % 8 != 0 ? (8 - (0 + sizeof(UnityEngine::Playables::PlayableOutputHandle)) % 8) : 0)> __UnityEngine_Playables_ScriptPlayableOutputSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::ScriptPlayableOutput, "UnityEngine.Playables", "ScriptPlayableOutput");

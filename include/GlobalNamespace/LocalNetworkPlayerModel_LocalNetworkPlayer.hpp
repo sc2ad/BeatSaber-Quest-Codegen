@@ -357,7 +357,7 @@ namespace GlobalNamespace {
     // Base method: System.Void INetworkPlayer::SendInviteResponse(System.Boolean accept)
     void SendInviteResponse(bool accept);
   }; // LocalNetworkPlayerModel/LocalNetworkPlayer
-  check_size<sizeof(LocalNetworkPlayerModel::LocalNetworkPlayer), 126 + sizeof(bool) + 8 - (126 + sizeof(bool)) % 8> __GlobalNamespace_LocalNetworkPlayerModel_LocalNetworkPlayerSizeCheck;
+  check_size<sizeof(LocalNetworkPlayerModel::LocalNetworkPlayer), 126 + sizeof(bool) + ((126 + sizeof(bool)) % 8 != 0 ? (8 - (126 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_LocalNetworkPlayerModel_LocalNetworkPlayerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer*, "", "LocalNetworkPlayerModel/LocalNetworkPlayer");

@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // LeaderboardScoreUploader/<UploadScoresCoroutine>d__14
-  check_size<sizeof(LeaderboardScoreUploader::$UploadScoresCoroutine$d__14), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_LeaderboardScoreUploader_$UploadScoresCoroutine$d__14SizeCheck;
+  check_size<sizeof(LeaderboardScoreUploader::$UploadScoresCoroutine$d__14), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_LeaderboardScoreUploader_$UploadScoresCoroutine$d__14SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader::$UploadScoresCoroutine$d__14*, "", "LeaderboardScoreUploader/<UploadScoresCoroutine>d__14");

@@ -45,7 +45,7 @@ namespace OVRSimpleJSON {
     // Offset: 0xC9C384
     OVRSimpleJSON::JSONNode::ValueEnumerator GetEnumerator();
   }; // OVRSimpleJSON.JSONNode/ValueEnumerator
-  check_size<sizeof(JSONNode::ValueEnumerator), 0 + sizeof(OVRSimpleJSON::JSONNode::Enumerator) + 8 - (0 + sizeof(OVRSimpleJSON::JSONNode::Enumerator)) % 8> __OVRSimpleJSON_JSONNode_ValueEnumeratorSizeCheck;
+  check_size<sizeof(JSONNode::ValueEnumerator), 0 + sizeof(OVRSimpleJSON::JSONNode::Enumerator) + ((0 + sizeof(OVRSimpleJSON::JSONNode::Enumerator)) % 8 != 0 ? (8 - (0 + sizeof(OVRSimpleJSON::JSONNode::Enumerator)) % 8) : 0)> __OVRSimpleJSON_JSONNode_ValueEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::ValueEnumerator, "OVRSimpleJSON", "JSONNode/ValueEnumerator");

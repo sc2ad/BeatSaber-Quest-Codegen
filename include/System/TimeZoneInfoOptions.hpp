@@ -35,7 +35,7 @@ namespace System {
     // Set static field: static public System.TimeZoneInfoOptions NoThrowOnInvalidTime
     static void _set_NoThrowOnInvalidTime(System::TimeZoneInfoOptions value);
   }; // System.TimeZoneInfoOptions
-  check_size<sizeof(TimeZoneInfoOptions), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_TimeZoneInfoOptionsSizeCheck;
+  check_size<sizeof(TimeZoneInfoOptions), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_TimeZoneInfoOptionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfoOptions, "System", "TimeZoneInfoOptions");

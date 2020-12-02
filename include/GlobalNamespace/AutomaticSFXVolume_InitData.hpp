@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A43348
     static AutomaticSFXVolume::InitData* New_ctor(float volumeOffset, bool adaptiveSfx);
   }; // AutomaticSFXVolume/InitData
-  check_size<sizeof(AutomaticSFXVolume::InitData), 20 + sizeof(bool) + 8 - (20 + sizeof(bool)) % 8> __GlobalNamespace_AutomaticSFXVolume_InitDataSizeCheck;
+  check_size<sizeof(AutomaticSFXVolume::InitData), 20 + sizeof(bool) + ((20 + sizeof(bool)) % 8 != 0 ? (8 - (20 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_AutomaticSFXVolume_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutomaticSFXVolume::InitData*, "", "AutomaticSFXVolume/InitData");

@@ -55,7 +55,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static InteractionTrigger::CameraPosition* New_ctor();
   }; // RootMotion.FinalIK.InteractionTrigger/CameraPosition
-  check_size<sizeof(InteractionTrigger::CameraPosition), 44 + sizeof(bool) + 8 - (44 + sizeof(bool)) % 8> __RootMotion_FinalIK_InteractionTrigger_CameraPositionSizeCheck;
+  check_size<sizeof(InteractionTrigger::CameraPosition), 44 + sizeof(bool) + ((44 + sizeof(bool)) % 8 != 0 ? (8 - (44 + sizeof(bool)) % 8) : 0)> __RootMotion_FinalIK_InteractionTrigger_CameraPositionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::CameraPosition*, "RootMotion.FinalIK", "InteractionTrigger/CameraPosition");

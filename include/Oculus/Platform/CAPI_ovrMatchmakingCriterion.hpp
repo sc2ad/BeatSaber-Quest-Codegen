@@ -37,7 +37,7 @@ namespace Oculus::Platform {
     // Offset: 0xC963AC
     ovrMatchmakingCriterion(::Il2CppString* key, Oculus::Platform::MatchmakingCriterionImportance importance);
   }; // Oculus.Platform.CAPI/ovrMatchmakingCriterion
-  check_size<sizeof(CAPI::ovrMatchmakingCriterion), 24 + sizeof(uint) + 8 - (24 + sizeof(uint)) % 8> __Oculus_Platform_CAPI_ovrMatchmakingCriterionSizeCheck;
+  check_size<sizeof(CAPI::ovrMatchmakingCriterion), 24 + sizeof(uint) + ((24 + sizeof(uint)) % 8 != 0 ? (8 - (24 + sizeof(uint)) % 8) : 0)> __Oculus_Platform_CAPI_ovrMatchmakingCriterionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrMatchmakingCriterion, "Oculus.Platform", "CAPI/ovrMatchmakingCriterion");

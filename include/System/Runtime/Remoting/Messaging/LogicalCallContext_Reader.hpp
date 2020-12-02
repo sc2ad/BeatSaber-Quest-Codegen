@@ -40,7 +40,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0xC9C7D4
     ::Il2CppObject* GetData(::Il2CppString* name);
   }; // System.Runtime.Remoting.Messaging.LogicalCallContext/Reader
-  check_size<sizeof(LogicalCallContext::Reader), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __System_Runtime_Remoting_Messaging_LogicalCallContext_ReaderSizeCheck;
+  check_size<sizeof(LogicalCallContext::Reader), 0 + sizeof(void*) + ((0 + sizeof(void*)) % 8 != 0 ? (8 - (0 + sizeof(void*)) % 8) : 0)> __System_Runtime_Remoting_Messaging_LogicalCallContext_ReaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::LogicalCallContext::Reader, "System.Runtime.Remoting.Messaging", "LogicalCallContext/Reader");

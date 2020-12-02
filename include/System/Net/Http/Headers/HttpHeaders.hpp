@@ -148,7 +148,7 @@ namespace System::Net::Http::Headers {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.HttpHeaders
-  check_size<sizeof(HttpHeaders), 30 + sizeof(System::Nullable_1<bool>) + 8 - (30 + sizeof(System::Nullable_1<bool>)) % 8> __System_Net_Http_Headers_HttpHeadersSizeCheck;
+  check_size<sizeof(HttpHeaders), 30 + sizeof(System::Nullable_1<bool>) + ((30 + sizeof(System::Nullable_1<bool>)) % 8 != 0 ? (8 - (30 + sizeof(System::Nullable_1<bool>)) % 8) : 0)> __System_Net_Http_Headers_HttpHeadersSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpHeaders*, "System.Net.Http.Headers", "HttpHeaders");
 #pragma pack(pop)

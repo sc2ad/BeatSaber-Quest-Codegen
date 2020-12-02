@@ -41,7 +41,7 @@ namespace UnityEngine::Scripting {
     // Base method: System.Void Object::.ctor()
     static RequiredByNativeCodeAttribute* New_ctor();
   }; // UnityEngine.Scripting.RequiredByNativeCodeAttribute
-  check_size<sizeof(RequiredByNativeCodeAttribute), 25 + sizeof(bool) + 8 - (25 + sizeof(bool)) % 8> __UnityEngine_Scripting_RequiredByNativeCodeAttributeSizeCheck;
+  check_size<sizeof(RequiredByNativeCodeAttribute), 25 + sizeof(bool) + ((25 + sizeof(bool)) % 8 != 0 ? (8 - (25 + sizeof(bool)) % 8) : 0)> __UnityEngine_Scripting_RequiredByNativeCodeAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::RequiredByNativeCodeAttribute*, "UnityEngine.Scripting", "RequiredByNativeCodeAttribute");

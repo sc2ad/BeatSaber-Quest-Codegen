@@ -36,7 +36,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     static ScrollViewState* New_ctor();
   }; // UnityEngine.ScrollViewState
-  check_size<sizeof(ScrollViewState), 72 + sizeof(bool) + 8 - (72 + sizeof(bool)) % 8> __UnityEngine_ScrollViewStateSizeCheck;
+  check_size<sizeof(ScrollViewState), 72 + sizeof(bool) + ((72 + sizeof(bool)) % 8 != 0 ? (8 - (72 + sizeof(bool)) % 8) : 0)> __UnityEngine_ScrollViewStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScrollViewState*, "UnityEngine", "ScrollViewState");

@@ -144,7 +144,7 @@ namespace GlobalNamespace {
       // Set static field: static public SteamVR_TrackedObject/EIndex Device15
       static void _set_Device15(GlobalNamespace::SteamVR_TrackedObject::EIndex value);
     }; // SteamVR_TrackedObject/EIndex
-    check_size<sizeof(SteamVR_TrackedObject::EIndex), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_SteamVR_TrackedObject_EIndexSizeCheck;
+    check_size<sizeof(SteamVR_TrackedObject::EIndex), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_SteamVR_TrackedObject_EIndexSizeCheck;
     // public SteamVR_TrackedObject/EIndex index
     // Offset: 0x18
     GlobalNamespace::SteamVR_TrackedObject::EIndex index;
@@ -187,7 +187,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SteamVR_TrackedObject* New_ctor();
   }; // SteamVR_TrackedObject
-  check_size<sizeof(SteamVR_TrackedObject), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_SteamVR_TrackedObjectSizeCheck;
+  check_size<sizeof(SteamVR_TrackedObject), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_SteamVR_TrackedObjectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedObject*, "", "SteamVR_TrackedObject");

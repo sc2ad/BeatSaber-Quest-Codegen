@@ -40,7 +40,7 @@ namespace HMUI {
       // Set static field: static public HMUI.TimeSlider/TimeType Miliseconds
       static void _set_Miliseconds(HMUI::TimeSlider::TimeType value);
     }; // HMUI.TimeSlider/TimeType
-    check_size<sizeof(TimeSlider::TimeType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __HMUI_TimeSlider_TimeTypeSizeCheck;
+    check_size<sizeof(TimeSlider::TimeType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __HMUI_TimeSlider_TimeTypeSizeCheck;
     // private HMUI.TimeSlider/TimeType _timeType
     // Offset: 0x160
     HMUI::TimeSlider::TimeType timeType;
@@ -63,7 +63,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static TimeSlider* New_ctor();
   }; // HMUI.TimeSlider
-  check_size<sizeof(TimeSlider), 352 + sizeof(HMUI::TimeSlider::TimeType) + 8 - (352 + sizeof(HMUI::TimeSlider::TimeType)) % 8> __HMUI_TimeSliderSizeCheck;
+  check_size<sizeof(TimeSlider), 352 + sizeof(HMUI::TimeSlider::TimeType) + ((352 + sizeof(HMUI::TimeSlider::TimeType)) % 8 != 0 ? (8 - (352 + sizeof(HMUI::TimeSlider::TimeType)) % 8) : 0)> __HMUI_TimeSliderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TimeSlider*, "HMUI", "TimeSlider");

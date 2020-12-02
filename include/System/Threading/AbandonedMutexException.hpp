@@ -55,7 +55,7 @@ namespace System::Threading {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static AbandonedMutexException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Threading.AbandonedMutexException
-  check_size<sizeof(AbandonedMutexException), 144 + sizeof(void*) + 8 - (144 + sizeof(void*)) % 8> __System_Threading_AbandonedMutexExceptionSizeCheck;
+  check_size<sizeof(AbandonedMutexException), 144 + sizeof(void*) + ((144 + sizeof(void*)) % 8 != 0 ? (8 - (144 + sizeof(void*)) % 8) : 0)> __System_Threading_AbandonedMutexExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::AbandonedMutexException*, "System.Threading", "AbandonedMutexException");

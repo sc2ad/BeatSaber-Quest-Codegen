@@ -287,7 +287,7 @@ namespace GlobalNamespace {
       // Set static field: static public MenuRpcManager/RpcType SetOwnedSongPacks
       static void _set_SetOwnedSongPacks(GlobalNamespace::MenuRpcManager::RpcType value);
     }; // MenuRpcManager/RpcType
-    check_size<sizeof(MenuRpcManager::RpcType), 0 + sizeof(uint8_t) + 8 - (0 + sizeof(uint8_t)) % 8> __GlobalNamespace_MenuRpcManager_RpcTypeSizeCheck;
+    check_size<sizeof(MenuRpcManager::RpcType), 0 + sizeof(uint8_t) + ((0 + sizeof(uint8_t)) % 8 != 0 ? (8 - (0 + sizeof(uint8_t)) % 8) : 0)> __GlobalNamespace_MenuRpcManager_RpcTypeSizeCheck;
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Offset: 0x10
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
@@ -896,7 +896,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IMenuRpcManager::SetOwnedSongPacks(SongPackMask songPackMask)
     void SetOwnedSongPacks(GlobalNamespace::SongPackMask songPackMask);
   }; // MenuRpcManager
-  check_size<sizeof(MenuRpcManager), 248 + sizeof(void*) + 8 - (248 + sizeof(void*)) % 8> __GlobalNamespace_MenuRpcManagerSizeCheck;
+  check_size<sizeof(MenuRpcManager), 248 + sizeof(void*) + ((248 + sizeof(void*)) % 8 != 0 ? (8 - (248 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MenuRpcManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager*, "", "MenuRpcManager");

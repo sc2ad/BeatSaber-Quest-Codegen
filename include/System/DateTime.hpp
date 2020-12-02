@@ -652,7 +652,7 @@ namespace System {
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
     ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
   }; // System.DateTime
-  check_size<sizeof(DateTime), 0 + sizeof(uint64_t) + 8 - (0 + sizeof(uint64_t)) % 8> __System_DateTimeSizeCheck;
+  check_size<sizeof(DateTime), 0 + sizeof(uint64_t) + ((0 + sizeof(uint64_t)) % 8 != 0 ? (8 - (0 + sizeof(uint64_t)) % 8) : 0)> __System_DateTimeSizeCheck;
   // static public System.DateTime op_Addition(System.DateTime d, System.TimeSpan t)
   // Offset: 0x154034C
   System::DateTime operator+(const System::DateTime& d, const System::TimeSpan& t);

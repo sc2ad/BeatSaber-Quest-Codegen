@@ -48,7 +48,7 @@ namespace Zenject {
     // Base method: System.Void SubContainerCreatorDynamicContext::AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
     void AddInstallers(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::GameObjectContext* context);
   }; // Zenject.SubContainerCreatorByNewGameObjectMethod
-  check_size<sizeof(SubContainerCreatorByNewGameObjectMethod), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Zenject_SubContainerCreatorByNewGameObjectMethodSizeCheck;
+  check_size<sizeof(SubContainerCreatorByNewGameObjectMethod), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __Zenject_SubContainerCreatorByNewGameObjectMethodSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewGameObjectMethod*, "Zenject", "SubContainerCreatorByNewGameObjectMethod");

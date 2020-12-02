@@ -41,7 +41,7 @@ namespace System {
     // Set static field: static public System.ConsoleModifiers Control
     static void _set_Control(System::ConsoleModifiers value);
   }; // System.ConsoleModifiers
-  check_size<sizeof(ConsoleModifiers), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_ConsoleModifiersSizeCheck;
+  check_size<sizeof(ConsoleModifiers), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_ConsoleModifiersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ConsoleModifiers, "System", "ConsoleModifiers");

@@ -34,7 +34,7 @@ namespace Org::BouncyCastle::Crypto {
     // Offset: 0x158D9C8
     Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Private();
   }; // Org.BouncyCastle.Crypto.AsymmetricCipherKeyPair
-  check_size<sizeof(AsymmetricCipherKeyPair), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_AsymmetricCipherKeyPairSizeCheck;
+  check_size<sizeof(AsymmetricCipherKeyPair), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_AsymmetricCipherKeyPairSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*, "Org.BouncyCastle.Crypto", "AsymmetricCipherKeyPair");

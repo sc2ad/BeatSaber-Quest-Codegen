@@ -24,7 +24,7 @@ namespace System::Reflection {
     // Offset: 0x172064C
     static AssemblyDelaySignAttribute* New_ctor(bool delaySign);
   }; // System.Reflection.AssemblyDelaySignAttribute
-  check_size<sizeof(AssemblyDelaySignAttribute), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __System_Reflection_AssemblyDelaySignAttributeSizeCheck;
+  check_size<sizeof(AssemblyDelaySignAttribute), 16 + sizeof(bool) + ((16 + sizeof(bool)) % 8 != 0 ? (8 - (16 + sizeof(bool)) % 8) : 0)> __System_Reflection_AssemblyDelaySignAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyDelaySignAttribute*, "System.Reflection", "AssemblyDelaySignAttribute");

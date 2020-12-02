@@ -134,7 +134,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PlayerAllOverallStatsData::PlayerOverallStatsData* New_ctor();
   }; // PlayerAllOverallStatsData/PlayerOverallStatsData
-  check_size<sizeof(PlayerAllOverallStatsData::PlayerOverallStatsData), 64 + sizeof(int64_t) + 8 - (64 + sizeof(int64_t)) % 8> __GlobalNamespace_PlayerAllOverallStatsData_PlayerOverallStatsDataSizeCheck;
+  check_size<sizeof(PlayerAllOverallStatsData::PlayerOverallStatsData), 64 + sizeof(int64_t) + ((64 + sizeof(int64_t)) % 8 != 0 ? (8 - (64 + sizeof(int64_t)) % 8) : 0)> __GlobalNamespace_PlayerAllOverallStatsData_PlayerOverallStatsDataSizeCheck;
   // static public PlayerAllOverallStatsData/PlayerOverallStatsData op_Addition(PlayerAllOverallStatsData/PlayerOverallStatsData a, PlayerAllOverallStatsData/PlayerOverallStatsData b)
   // Offset: 0xF0B2B8
   GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* operator+(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* a, GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData& b);

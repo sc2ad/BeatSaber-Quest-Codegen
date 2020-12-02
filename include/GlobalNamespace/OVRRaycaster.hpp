@@ -69,7 +69,7 @@ namespace GlobalNamespace {
       // Creating value type constructor for type: RaycastHit
       constexpr RaycastHit(UnityEngine::UI::Graphic* graphic_ = {}, UnityEngine::Vector3 worldPos_ = {}, bool fromMouse_ = {}) noexcept : graphic{graphic_}, worldPos{worldPos_}, fromMouse{fromMouse_} {}
     }; // OVRRaycaster/RaycastHit
-    check_size<sizeof(OVRRaycaster::RaycastHit), 20 + sizeof(bool) + 8 - (20 + sizeof(bool)) % 8> __GlobalNamespace_OVRRaycaster_RaycastHitSizeCheck;
+    check_size<sizeof(OVRRaycaster::RaycastHit), 20 + sizeof(bool) + ((20 + sizeof(bool)) % 8 != 0 ? (8 - (20 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_OVRRaycaster_RaycastHitSizeCheck;
     // public UnityEngine.GameObject pointer
     // Offset: 0x40
     UnityEngine::GameObject* pointer;
@@ -157,7 +157,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // OVRRaycaster
-  check_size<sizeof(OVRRaycaster), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __GlobalNamespace_OVRRaycasterSizeCheck;
+  check_size<sizeof(OVRRaycaster), 88 + sizeof(void*) + ((88 + sizeof(void*)) % 8 != 0 ? (8 - (88 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_OVRRaycasterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRRaycaster*, "", "OVRRaycaster");

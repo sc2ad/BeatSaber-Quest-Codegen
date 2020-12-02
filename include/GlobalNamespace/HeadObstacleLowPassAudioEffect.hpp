@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static HeadObstacleLowPassAudioEffect* New_ctor();
   }; // HeadObstacleLowPassAudioEffect
-  check_size<sizeof(HeadObstacleLowPassAudioEffect), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __GlobalNamespace_HeadObstacleLowPassAudioEffectSizeCheck;
+  check_size<sizeof(HeadObstacleLowPassAudioEffect), 40 + sizeof(bool) + ((40 + sizeof(bool)) % 8 != 0 ? (8 - (40 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_HeadObstacleLowPassAudioEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HeadObstacleLowPassAudioEffect*, "", "HeadObstacleLowPassAudioEffect");

@@ -58,7 +58,7 @@ namespace UnityEngine {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.PropertyName
-  check_size<sizeof(PropertyName), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_PropertyNameSizeCheck;
+  check_size<sizeof(PropertyName), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_PropertyNameSizeCheck;
   // static public System.Boolean op_Equality(UnityEngine.PropertyName lhs, UnityEngine.PropertyName rhs)
   // Offset: 0x17361A0
   bool operator ==(const UnityEngine::PropertyName& lhs, const UnityEngine::PropertyName& rhs);

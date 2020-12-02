@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SortingLayer* New_ctor();
   }; // SortingLayer
-  check_size<sizeof(SortingLayer), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_SortingLayerSizeCheck;
+  check_size<sizeof(SortingLayer), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_SortingLayerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SortingLayer*, "", "SortingLayer");

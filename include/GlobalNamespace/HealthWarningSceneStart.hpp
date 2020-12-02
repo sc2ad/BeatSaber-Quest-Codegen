@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static HealthWarningSceneStart* New_ctor();
   }; // HealthWarningSceneStart
-  check_size<sizeof(HealthWarningSceneStart), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_HealthWarningSceneStartSizeCheck;
+  check_size<sizeof(HealthWarningSceneStart), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_HealthWarningSceneStartSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningSceneStart*, "", "HealthWarningSceneStart");

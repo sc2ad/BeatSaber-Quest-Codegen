@@ -234,7 +234,7 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void Object::.ctor()
     static RegexCharClass* New_ctor();
   }; // System.Text.RegularExpressions.RegexCharClass
-  check_size<sizeof(RegexCharClass), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Text_RegularExpressions_RegexCharClassSizeCheck;
+  check_size<sizeof(RegexCharClass), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __System_Text_RegularExpressions_RegexCharClassSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass*, "System.Text.RegularExpressions", "RegexCharClass");

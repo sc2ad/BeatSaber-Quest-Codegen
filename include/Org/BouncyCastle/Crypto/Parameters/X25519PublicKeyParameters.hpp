@@ -29,7 +29,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x104A2FC
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Parameters.X25519PublicKeyParameters
-  check_size<sizeof(X25519PublicKeyParameters), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Parameters_X25519PublicKeyParametersSizeCheck;
+  check_size<sizeof(X25519PublicKeyParameters), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_Parameters_X25519PublicKeyParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::X25519PublicKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "X25519PublicKeyParameters");

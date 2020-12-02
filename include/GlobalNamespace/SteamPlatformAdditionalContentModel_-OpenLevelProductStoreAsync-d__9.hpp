@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // SteamPlatformAdditionalContentModel/<OpenLevelProductStoreAsync>d__9
-  check_size<sizeof(SteamPlatformAdditionalContentModel::$OpenLevelProductStoreAsync$d__9), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>) + 8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>)) % 8> __GlobalNamespace_SteamPlatformAdditionalContentModel_$OpenLevelProductStoreAsync$d__9SizeCheck;
+  check_size<sizeof(SteamPlatformAdditionalContentModel::$OpenLevelProductStoreAsync$d__9), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>) + ((48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>)) % 8 != 0 ? (8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>)) % 8) : 0)> __GlobalNamespace_SteamPlatformAdditionalContentModel_$OpenLevelProductStoreAsync$d__9SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamPlatformAdditionalContentModel::$OpenLevelProductStoreAsync$d__9, "", "SteamPlatformAdditionalContentModel/<OpenLevelProductStoreAsync>d__9");

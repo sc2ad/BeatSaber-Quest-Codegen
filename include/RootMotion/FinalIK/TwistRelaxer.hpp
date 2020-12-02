@@ -82,7 +82,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static TwistRelaxer* New_ctor();
   }; // RootMotion.FinalIK.TwistRelaxer
-  check_size<sizeof(TwistRelaxer), 96 + sizeof(UnityEngine::Vector3) + 8 - (96 + sizeof(UnityEngine::Vector3)) % 8> __RootMotion_FinalIK_TwistRelaxerSizeCheck;
+  check_size<sizeof(TwistRelaxer), 96 + sizeof(UnityEngine::Vector3) + ((96 + sizeof(UnityEngine::Vector3)) % 8 != 0 ? (8 - (96 + sizeof(UnityEngine::Vector3)) % 8) : 0)> __RootMotion_FinalIK_TwistRelaxerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::TwistRelaxer*, "RootMotion.FinalIK", "TwistRelaxer");

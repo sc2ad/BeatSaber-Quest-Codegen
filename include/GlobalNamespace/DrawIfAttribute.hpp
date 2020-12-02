@@ -48,7 +48,7 @@ namespace GlobalNamespace {
       // Set static field: static public DrawIfAttribute/DisablingType DontDraw
       static void _set_DontDraw(GlobalNamespace::DrawIfAttribute::DisablingType value);
     }; // DrawIfAttribute/DisablingType
-    check_size<sizeof(DrawIfAttribute::DisablingType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_DrawIfAttribute_DisablingTypeSizeCheck;
+    check_size<sizeof(DrawIfAttribute::DisablingType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_DrawIfAttribute_DisablingTypeSizeCheck;
     // public readonly System.String propertyName
     // Offset: 0x10
     ::Il2CppString* propertyName;
@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     // Offset: 0x102D2A4
     static DrawIfAttribute* New_ctor(::Il2CppString* propertyName, ::Il2CppObject* value, ::Il2CppObject* orValue, GlobalNamespace::DrawIfAttribute::DisablingType disablingType);
   }; // DrawIfAttribute
-  check_size<sizeof(DrawIfAttribute), 40 + sizeof(GlobalNamespace::DrawIfAttribute::DisablingType) + 8 - (40 + sizeof(GlobalNamespace::DrawIfAttribute::DisablingType)) % 8> __GlobalNamespace_DrawIfAttributeSizeCheck;
+  check_size<sizeof(DrawIfAttribute), 40 + sizeof(GlobalNamespace::DrawIfAttribute::DisablingType) + ((40 + sizeof(GlobalNamespace::DrawIfAttribute::DisablingType)) % 8 != 0 ? (8 - (40 + sizeof(GlobalNamespace::DrawIfAttribute::DisablingType)) % 8) : 0)> __GlobalNamespace_DrawIfAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DrawIfAttribute*, "", "DrawIfAttribute");

@@ -47,7 +47,7 @@ namespace System::Text {
     // Set static field: static public System.Text.NormalizationForm FormKD
     static void _set_FormKD(System::Text::NormalizationForm value);
   }; // System.Text.NormalizationForm
-  check_size<sizeof(NormalizationForm), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Text_NormalizationFormSizeCheck;
+  check_size<sizeof(NormalizationForm), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Text_NormalizationFormSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::NormalizationForm, "System.Text", "NormalizationForm");

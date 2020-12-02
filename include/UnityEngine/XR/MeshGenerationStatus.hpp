@@ -53,7 +53,7 @@ namespace UnityEngine::XR {
     // Set static field: static public UnityEngine.XR.MeshGenerationStatus UnknownError
     static void _set_UnknownError(UnityEngine::XR::MeshGenerationStatus value);
   }; // UnityEngine.XR.MeshGenerationStatus
-  check_size<sizeof(MeshGenerationStatus), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_XR_MeshGenerationStatusSizeCheck;
+  check_size<sizeof(MeshGenerationStatus), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_XR_MeshGenerationStatusSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshGenerationStatus, "UnityEngine.XR", "MeshGenerationStatus");

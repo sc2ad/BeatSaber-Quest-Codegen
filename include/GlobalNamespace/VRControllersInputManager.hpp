@@ -122,7 +122,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static VRControllersInputManager* New_ctor();
   }; // VRControllersInputManager
-  check_size<sizeof(VRControllersInputManager), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_VRControllersInputManagerSizeCheck;
+  check_size<sizeof(VRControllersInputManager), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_VRControllersInputManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersInputManager*, "", "VRControllersInputManager");

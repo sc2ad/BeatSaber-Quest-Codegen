@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MaterialTextureParamsCouple
     constexpr MaterialTextureParamsCouple(::Il2CppString* globalPropertyName_ = {}, ::Array<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>* materialPropertyNameCouples_ = {}) noexcept : globalPropertyName{globalPropertyName_}, materialPropertyNameCouples{materialPropertyNameCouples_} {}
   }; // Noise3DTexturesGenerator/MaterialTextureParamsCouple
-  check_size<sizeof(Noise3DTexturesGenerator::MaterialTextureParamsCouple), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __GlobalNamespace_Noise3DTexturesGenerator_MaterialTextureParamsCoupleSizeCheck;
+  check_size<sizeof(Noise3DTexturesGenerator::MaterialTextureParamsCouple), 8 + sizeof(void*) + ((8 + sizeof(void*)) % 8 != 0 ? (8 - (8 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_Noise3DTexturesGenerator_MaterialTextureParamsCoupleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple, "", "Noise3DTexturesGenerator/MaterialTextureParamsCouple");

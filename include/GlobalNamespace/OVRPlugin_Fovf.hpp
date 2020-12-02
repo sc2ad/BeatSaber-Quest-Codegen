@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Fovf
     constexpr Fovf(float UpTan_ = {}, float DownTan_ = {}, float LeftTan_ = {}, float RightTan_ = {}) noexcept : UpTan{UpTan_}, DownTan{DownTan_}, LeftTan{LeftTan_}, RightTan{RightTan_} {}
   }; // OVRPlugin/Fovf
-  check_size<sizeof(OVRPlugin::Fovf), 12 + sizeof(float) + 8 - (12 + sizeof(float)) % 8> __GlobalNamespace_OVRPlugin_FovfSizeCheck;
+  check_size<sizeof(OVRPlugin::Fovf), 12 + sizeof(float) + ((12 + sizeof(float)) % 8 != 0 ? (8 - (12 + sizeof(float)) % 8) : 0)> __GlobalNamespace_OVRPlugin_FovfSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Fovf, "", "OVRPlugin/Fovf");

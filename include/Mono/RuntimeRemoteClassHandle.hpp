@@ -35,7 +35,7 @@ namespace Mono {
     // Offset: 0xCA0D7C
     Mono::RuntimeClassHandle get_ProxyClass();
   }; // Mono.RuntimeRemoteClassHandle
-  check_size<sizeof(RuntimeRemoteClassHandle), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __Mono_RuntimeRemoteClassHandleSizeCheck;
+  check_size<sizeof(RuntimeRemoteClassHandle), 0 + sizeof(void*) + ((0 + sizeof(void*)) % 8 != 0 ? (8 - (0 + sizeof(void*)) % 8) : 0)> __Mono_RuntimeRemoteClassHandleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeRemoteClassHandle, "Mono", "RuntimeRemoteClassHandle");

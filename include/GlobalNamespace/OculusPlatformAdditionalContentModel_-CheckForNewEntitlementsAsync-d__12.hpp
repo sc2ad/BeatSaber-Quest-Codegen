@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusPlatformAdditionalContentModel/<CheckForNewEntitlementsAsync>d__12
-  check_size<sizeof(OculusPlatformAdditionalContentModel::$CheckForNewEntitlementsAsync$d__12), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>) + 8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>)) % 8> __GlobalNamespace_OculusPlatformAdditionalContentModel_$CheckForNewEntitlementsAsync$d__12SizeCheck;
+  check_size<sizeof(OculusPlatformAdditionalContentModel::$CheckForNewEntitlementsAsync$d__12), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>) + ((48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>)) % 8 != 0 ? (8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>)) % 8) : 0)> __GlobalNamespace_OculusPlatformAdditionalContentModel_$CheckForNewEntitlementsAsync$d__12SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAdditionalContentModel::$CheckForNewEntitlementsAsync$d__12, "", "OculusPlatformAdditionalContentModel/<CheckForNewEntitlementsAsync>d__12");

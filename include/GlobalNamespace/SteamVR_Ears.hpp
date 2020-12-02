@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SteamVR_Ears* New_ctor();
   }; // SteamVR_Ears
-  check_size<sizeof(SteamVR_Ears), 36 + sizeof(UnityEngine::Quaternion) + 8 - (36 + sizeof(UnityEngine::Quaternion)) % 8> __GlobalNamespace_SteamVR_EarsSizeCheck;
+  check_size<sizeof(SteamVR_Ears), 36 + sizeof(UnityEngine::Quaternion) + ((36 + sizeof(UnityEngine::Quaternion)) % 8 != 0 ? (8 - (36 + sizeof(UnityEngine::Quaternion)) % 8) : 0)> __GlobalNamespace_SteamVR_EarsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Ears*, "", "SteamVR_Ears");

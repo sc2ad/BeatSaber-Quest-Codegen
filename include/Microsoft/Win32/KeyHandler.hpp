@@ -145,7 +145,7 @@ namespace Microsoft::Win32 {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // Microsoft.Win32.KeyHandler
-  check_size<sizeof(KeyHandler), 56 + sizeof(bool) + 8 - (56 + sizeof(bool)) % 8> __Microsoft_Win32_KeyHandlerSizeCheck;
+  check_size<sizeof(KeyHandler), 56 + sizeof(bool) + ((56 + sizeof(bool)) % 8 != 0 ? (8 - (56 + sizeof(bool)) % 8) : 0)> __Microsoft_Win32_KeyHandlerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::KeyHandler*, "Microsoft.Win32", "KeyHandler");

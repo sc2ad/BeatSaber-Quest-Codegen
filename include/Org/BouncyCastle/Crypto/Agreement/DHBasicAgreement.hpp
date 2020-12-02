@@ -63,7 +63,7 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     // Base method: System.Void Object::.ctor()
     static DHBasicAgreement* New_ctor();
   }; // Org.BouncyCastle.Crypto.Agreement.DHBasicAgreement
-  check_size<sizeof(DHBasicAgreement), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Agreement_DHBasicAgreementSizeCheck;
+  check_size<sizeof(DHBasicAgreement), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_Agreement_DHBasicAgreementSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*, "Org.BouncyCastle.Crypto.Agreement", "DHBasicAgreement");

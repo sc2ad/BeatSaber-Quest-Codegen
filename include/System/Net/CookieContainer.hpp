@@ -104,7 +104,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     static CookieContainer* New_ctor();
   }; // System.Net.CookieContainer
-  check_size<sizeof(CookieContainer), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Net_CookieContainerSizeCheck;
+  check_size<sizeof(CookieContainer), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __System_Net_CookieContainerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieContainer*, "System.Net", "CookieContainer");

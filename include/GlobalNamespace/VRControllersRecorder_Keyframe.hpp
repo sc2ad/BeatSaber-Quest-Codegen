@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static VRControllersRecorder::Keyframe* New_ctor();
   }; // VRControllersRecorder/Keyframe
-  check_size<sizeof(VRControllersRecorder::Keyframe), 100 + sizeof(float) + 8 - (100 + sizeof(float)) % 8> __GlobalNamespace_VRControllersRecorder_KeyframeSizeCheck;
+  check_size<sizeof(VRControllersRecorder::Keyframe), 100 + sizeof(float) + ((100 + sizeof(float)) % 8 != 0 ? (8 - (100 + sizeof(float)) % 8) : 0)> __GlobalNamespace_VRControllersRecorder_KeyframeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder::Keyframe*, "", "VRControllersRecorder/Keyframe");

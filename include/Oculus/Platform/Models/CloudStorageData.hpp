@@ -34,7 +34,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11D97D0
     static CloudStorageData* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.CloudStorageData
-  check_size<sizeof(CloudStorageData), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Oculus_Platform_Models_CloudStorageDataSizeCheck;
+  check_size<sizeof(CloudStorageData), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __Oculus_Platform_Models_CloudStorageDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::CloudStorageData*, "Oculus.Platform.Models", "CloudStorageData");

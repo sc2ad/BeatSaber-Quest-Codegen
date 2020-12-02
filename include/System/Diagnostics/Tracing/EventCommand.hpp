@@ -47,7 +47,7 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static public System.Diagnostics.Tracing.EventCommand Disable
     static void _set_Disable(System::Diagnostics::Tracing::EventCommand value);
   }; // System.Diagnostics.Tracing.EventCommand
-  check_size<sizeof(EventCommand), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Diagnostics_Tracing_EventCommandSizeCheck;
+  check_size<sizeof(EventCommand), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Diagnostics_Tracing_EventCommandSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventCommand, "System.Diagnostics.Tracing", "EventCommand");

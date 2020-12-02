@@ -53,7 +53,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Base method: System.Void Object::.ctor()
     static EndoPreCompInfo* New_ctor();
   }; // Org.BouncyCastle.Math.EC.Endo.EndoPreCompInfo
-  check_size<sizeof(EndoPreCompInfo), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_EC_Endo_EndoPreCompInfoSizeCheck;
+  check_size<sizeof(EndoPreCompInfo), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Math_EC_Endo_EndoPreCompInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo*, "Org.BouncyCastle.Math.EC.Endo", "EndoPreCompInfo");

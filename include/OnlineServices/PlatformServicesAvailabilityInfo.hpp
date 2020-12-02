@@ -46,7 +46,7 @@ namespace OnlineServices {
       // Set static field: static public OnlineServices.PlatformServicesAvailabilityInfo/OnlineServicesAvailability Unavailable
       static void _set_Unavailable(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability value);
     }; // OnlineServices.PlatformServicesAvailabilityInfo/OnlineServicesAvailability
-    check_size<sizeof(PlatformServicesAvailabilityInfo::OnlineServicesAvailability), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OnlineServices_PlatformServicesAvailabilityInfo_OnlineServicesAvailabilitySizeCheck;
+    check_size<sizeof(PlatformServicesAvailabilityInfo::OnlineServicesAvailability), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OnlineServices_PlatformServicesAvailabilityInfo_OnlineServicesAvailabilitySizeCheck;
     // public readonly OnlineServices.PlatformServicesAvailabilityInfo/OnlineServicesAvailability availability
     // Offset: 0x10
     OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability availability;
@@ -63,7 +63,7 @@ namespace OnlineServices {
     // Offset: 0xEFF5F4
     static OnlineServices::PlatformServicesAvailabilityInfo* get_onlineServicesUnavailableError();
   }; // OnlineServices.PlatformServicesAvailabilityInfo
-  check_size<sizeof(PlatformServicesAvailabilityInfo), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __OnlineServices_PlatformServicesAvailabilityInfoSizeCheck;
+  check_size<sizeof(PlatformServicesAvailabilityInfo), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __OnlineServices_PlatformServicesAvailabilityInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformServicesAvailabilityInfo*, "OnlineServices", "PlatformServicesAvailabilityInfo");

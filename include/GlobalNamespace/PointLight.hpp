@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // PointLight
-  check_size<sizeof(PointLight), 40 + sizeof(float) + 8 - (40 + sizeof(float)) % 8> __GlobalNamespace_PointLightSizeCheck;
+  check_size<sizeof(PointLight), 40 + sizeof(float) + ((40 + sizeof(float)) % 8 != 0 ? (8 - (40 + sizeof(float)) % 8) : 0)> __GlobalNamespace_PointLightSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PointLight*, "", "PointLight");

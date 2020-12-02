@@ -85,7 +85,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.Security.Cryptography.X509Certificates.X509Chain
-  check_size<sizeof(X509Chain), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Security_Cryptography_X509Certificates_X509ChainSizeCheck;
+  check_size<sizeof(X509Chain), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Security_Cryptography_X509Certificates_X509ChainSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Chain*, "System.Security.Cryptography.X509Certificates", "X509Chain");

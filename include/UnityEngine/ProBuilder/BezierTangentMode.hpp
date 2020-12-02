@@ -41,7 +41,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.BezierTangentMode Mirrored
     static void _set_Mirrored(UnityEngine::ProBuilder::BezierTangentMode value);
   }; // UnityEngine.ProBuilder.BezierTangentMode
-  check_size<sizeof(BezierTangentMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_ProBuilder_BezierTangentModeSizeCheck;
+  check_size<sizeof(BezierTangentMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_ProBuilder_BezierTangentModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::BezierTangentMode, "UnityEngine.ProBuilder", "BezierTangentMode");

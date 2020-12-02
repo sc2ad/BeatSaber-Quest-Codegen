@@ -79,7 +79,7 @@ namespace RootMotion::FinalIK {
     // Set static field: static public RootMotion.FinalIK.IKSolverVR/PositionOffset RightHeel
     static void _set_RightHeel(RootMotion::FinalIK::IKSolverVR::PositionOffset value);
   }; // RootMotion.FinalIK.IKSolverVR/PositionOffset
-  check_size<sizeof(IKSolverVR::PositionOffset), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __RootMotion_FinalIK_IKSolverVR_PositionOffsetSizeCheck;
+  check_size<sizeof(IKSolverVR::PositionOffset), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __RootMotion_FinalIK_IKSolverVR_PositionOffsetSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::PositionOffset, "RootMotion.FinalIK", "IKSolverVR/PositionOffset");

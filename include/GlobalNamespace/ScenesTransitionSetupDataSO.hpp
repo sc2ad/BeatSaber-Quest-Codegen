@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ScenesTransitionSetupDataSO* New_ctor();
   }; // ScenesTransitionSetupDataSO
-  check_size<sizeof(ScenesTransitionSetupDataSO), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_ScenesTransitionSetupDataSOSizeCheck;
+  check_size<sizeof(ScenesTransitionSetupDataSO), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_ScenesTransitionSetupDataSOSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScenesTransitionSetupDataSO*, "", "ScenesTransitionSetupDataSO");
 #pragma pack(pop)

@@ -29,7 +29,7 @@ namespace System::IO {
     // Offset: 0x148FB98
     static RenamedEventArgs* New_ctor(System::IO::WatcherChangeTypes changeType, ::Il2CppString* directory, ::Il2CppString* name, ::Il2CppString* oldName);
   }; // System.IO.RenamedEventArgs
-  check_size<sizeof(RenamedEventArgs), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __System_IO_RenamedEventArgsSizeCheck;
+  check_size<sizeof(RenamedEventArgs), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __System_IO_RenamedEventArgsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::RenamedEventArgs*, "System.IO", "RenamedEventArgs");

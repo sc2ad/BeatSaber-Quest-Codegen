@@ -65,7 +65,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.VoipBitrate B128000
     static void _set_B128000(Oculus::Platform::VoipBitrate value);
   }; // Oculus.Platform.VoipBitrate
-  check_size<sizeof(VoipBitrate), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Oculus_Platform_VoipBitrateSizeCheck;
+  check_size<sizeof(VoipBitrate), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Oculus_Platform_VoipBitrateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipBitrate, "Oculus.Platform", "VoipBitrate");

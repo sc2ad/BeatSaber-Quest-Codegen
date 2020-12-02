@@ -48,7 +48,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Void Object::.ctor()
     static CallContextSecurityData* New_ctor();
   }; // System.Runtime.Remoting.Messaging.CallContextSecurityData
-  check_size<sizeof(CallContextSecurityData), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Runtime_Remoting_Messaging_CallContextSecurityDataSizeCheck;
+  check_size<sizeof(CallContextSecurityData), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Runtime_Remoting_Messaging_CallContextSecurityDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CallContextSecurityData*, "System.Runtime.Remoting.Messaging", "CallContextSecurityData");

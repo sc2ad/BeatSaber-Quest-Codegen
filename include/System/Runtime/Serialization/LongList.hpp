@@ -53,7 +53,7 @@ namespace System::Runtime::Serialization {
     // Base method: System.Void Object::.ctor()
     static LongList* New_ctor();
   }; // System.Runtime.Serialization.LongList
-  check_size<sizeof(LongList), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __System_Runtime_Serialization_LongListSizeCheck;
+  check_size<sizeof(LongList), 32 + sizeof(int) + ((32 + sizeof(int)) % 8 != 0 ? (8 - (32 + sizeof(int)) % 8) : 0)> __System_Runtime_Serialization_LongListSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::LongList*, "System.Runtime.Serialization", "LongList");

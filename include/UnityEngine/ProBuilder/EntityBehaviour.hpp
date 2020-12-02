@@ -54,7 +54,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.ctor()
     static EntityBehaviour* New_ctor();
   }; // UnityEngine.ProBuilder.EntityBehaviour
-  check_size<sizeof(EntityBehaviour), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __UnityEngine_ProBuilder_EntityBehaviourSizeCheck;
+  check_size<sizeof(EntityBehaviour), 24 + sizeof(bool) + ((24 + sizeof(bool)) % 8 != 0 ? (8 - (24 + sizeof(bool)) % 8) : 0)> __UnityEngine_ProBuilder_EntityBehaviourSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EntityBehaviour*, "UnityEngine.ProBuilder", "EntityBehaviour");

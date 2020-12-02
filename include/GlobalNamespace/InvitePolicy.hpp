@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Set static field: static public InvitePolicy AnyoneCanInvite
     static void _set_AnyoneCanInvite(GlobalNamespace::InvitePolicy value);
   }; // InvitePolicy
-  check_size<sizeof(InvitePolicy), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_InvitePolicySizeCheck;
+  check_size<sizeof(InvitePolicy), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_InvitePolicySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InvitePolicy, "", "InvitePolicy");

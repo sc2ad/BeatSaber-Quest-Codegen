@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // CentralLeaderboardViewController/<RefreshDelayed>d__36
-  check_size<sizeof(CentralLeaderboardViewController::$RefreshDelayed$d__36), 48 + sizeof(bool) + 8 - (48 + sizeof(bool)) % 8> __GlobalNamespace_CentralLeaderboardViewController_$RefreshDelayed$d__36SizeCheck;
+  check_size<sizeof(CentralLeaderboardViewController::$RefreshDelayed$d__36), 48 + sizeof(bool) + ((48 + sizeof(bool)) % 8 != 0 ? (8 - (48 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_CentralLeaderboardViewController_$RefreshDelayed$d__36SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::$RefreshDelayed$d__36*, "", "CentralLeaderboardViewController/<RefreshDelayed>d__36");

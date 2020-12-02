@@ -216,7 +216,7 @@ namespace System::Net {
     // Base method: System.Void NameObjectCollectionBase::.cctor()
     static void _cctor();
   }; // System.Net.WebHeaderCollection
-  check_size<sizeof(WebHeaderCollection), 112 + sizeof(System::Net::WebHeaderCollectionType) + 8 - (112 + sizeof(System::Net::WebHeaderCollectionType)) % 8> __System_Net_WebHeaderCollectionSizeCheck;
+  check_size<sizeof(WebHeaderCollection), 112 + sizeof(System::Net::WebHeaderCollectionType) + ((112 + sizeof(System::Net::WebHeaderCollectionType)) % 8 != 0 ? (8 - (112 + sizeof(System::Net::WebHeaderCollectionType)) % 8) : 0)> __System_Net_WebHeaderCollectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebHeaderCollection*, "System.Net", "WebHeaderCollection");

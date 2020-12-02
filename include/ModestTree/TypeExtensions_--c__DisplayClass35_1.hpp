@@ -38,7 +38,7 @@ namespace ModestTree {
     // Base method: System.Void Object::.ctor()
     static TypeExtensions::$$c__DisplayClass35_1* New_ctor();
   }; // ModestTree.TypeExtensions/<>c__DisplayClass35_1
-  check_size<sizeof(TypeExtensions::$$c__DisplayClass35_1), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __ModestTree_TypeExtensions_$$c__DisplayClass35_1SizeCheck;
+  check_size<sizeof(TypeExtensions::$$c__DisplayClass35_1), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __ModestTree_TypeExtensions_$$c__DisplayClass35_1SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeExtensions::$$c__DisplayClass35_1*, "ModestTree", "TypeExtensions/<>c__DisplayClass35_1");

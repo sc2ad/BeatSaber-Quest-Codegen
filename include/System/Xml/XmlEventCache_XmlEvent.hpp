@@ -68,7 +68,7 @@ namespace System::Xml {
     // Offset: 0xCA0A34
     ::Il2CppObject* get_Object();
   }; // System.Xml.XmlEventCache/XmlEvent
-  check_size<sizeof(XmlEventCache::XmlEvent), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Xml_XmlEventCache_XmlEventSizeCheck;
+  check_size<sizeof(XmlEventCache::XmlEvent), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_Xml_XmlEventCache_XmlEventSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEventCache::XmlEvent, "System.Xml", "XmlEventCache/XmlEvent");

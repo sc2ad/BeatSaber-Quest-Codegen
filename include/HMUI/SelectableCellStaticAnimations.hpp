@@ -67,7 +67,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static SelectableCellStaticAnimations* New_ctor();
   }; // HMUI.SelectableCellStaticAnimations
-  check_size<sizeof(SelectableCellStaticAnimations), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __HMUI_SelectableCellStaticAnimationsSizeCheck;
+  check_size<sizeof(SelectableCellStaticAnimations), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __HMUI_SelectableCellStaticAnimationsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SelectableCellStaticAnimations*, "HMUI", "SelectableCellStaticAnimations");

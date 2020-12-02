@@ -49,7 +49,7 @@ namespace UnityEngine::XR {
     // Set static field: static public UnityEngine.XR.InputTracking/TrackingStateEventType TrackingLost
     static void _set_TrackingLost(UnityEngine::XR::InputTracking::TrackingStateEventType value);
   }; // UnityEngine.XR.InputTracking/TrackingStateEventType
-  check_size<sizeof(InputTracking::TrackingStateEventType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_XR_InputTracking_TrackingStateEventTypeSizeCheck;
+  check_size<sizeof(InputTracking::TrackingStateEventType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_XR_InputTracking_TrackingStateEventTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputTracking::TrackingStateEventType, "UnityEngine.XR", "InputTracking/TrackingStateEventType");

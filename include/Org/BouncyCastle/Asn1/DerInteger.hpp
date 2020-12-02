@@ -93,7 +93,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.DerInteger
-  check_size<sizeof(DerInteger), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __Org_BouncyCastle_Asn1_DerIntegerSizeCheck;
+  check_size<sizeof(DerInteger), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __Org_BouncyCastle_Asn1_DerIntegerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerInteger*, "Org.BouncyCastle.Asn1", "DerInteger");

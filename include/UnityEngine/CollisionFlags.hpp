@@ -65,7 +65,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.CollisionFlags CollidedBelow
     static void _set_CollidedBelow(UnityEngine::CollisionFlags value);
   }; // UnityEngine.CollisionFlags
-  check_size<sizeof(CollisionFlags), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_CollisionFlagsSizeCheck;
+  check_size<sizeof(CollisionFlags), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_CollisionFlagsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CollisionFlags, "UnityEngine", "CollisionFlags");

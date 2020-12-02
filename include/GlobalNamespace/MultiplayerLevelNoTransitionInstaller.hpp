@@ -84,7 +84,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerLevelNoTransitionInstaller* New_ctor();
   }; // MultiplayerLevelNoTransitionInstaller
-  check_size<sizeof(MultiplayerLevelNoTransitionInstaller), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerLevelNoTransitionInstallerSizeCheck;
+  check_size<sizeof(MultiplayerLevelNoTransitionInstaller), 88 + sizeof(void*) + ((88 + sizeof(void*)) % 8 != 0 ? (8 - (88 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MultiplayerLevelNoTransitionInstallerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelNoTransitionInstaller*, "", "MultiplayerLevelNoTransitionInstaller");

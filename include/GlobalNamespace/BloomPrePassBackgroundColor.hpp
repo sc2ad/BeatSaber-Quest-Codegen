@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // BloomPrePassBackgroundColor
-  check_size<sizeof(BloomPrePassBackgroundColor), 56 + sizeof(UnityEngine::Color) + 8 - (56 + sizeof(UnityEngine::Color)) % 8> __GlobalNamespace_BloomPrePassBackgroundColorSizeCheck;
+  check_size<sizeof(BloomPrePassBackgroundColor), 56 + sizeof(UnityEngine::Color) + ((56 + sizeof(UnityEngine::Color)) % 8 != 0 ? (8 - (56 + sizeof(UnityEngine::Color)) % 8) : 0)> __GlobalNamespace_BloomPrePassBackgroundColorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColor*, "", "BloomPrePassBackgroundColor");

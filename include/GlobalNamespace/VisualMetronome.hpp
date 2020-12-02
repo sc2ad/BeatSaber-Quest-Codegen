@@ -118,7 +118,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static VisualMetronome* New_ctor();
   }; // VisualMetronome
-  check_size<sizeof(VisualMetronome), 116 + sizeof(bool) + 8 - (116 + sizeof(bool)) % 8> __GlobalNamespace_VisualMetronomeSizeCheck;
+  check_size<sizeof(VisualMetronome), 116 + sizeof(bool) + ((116 + sizeof(bool)) % 8 != 0 ? (8 - (116 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_VisualMetronomeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VisualMetronome*, "", "VisualMetronome");

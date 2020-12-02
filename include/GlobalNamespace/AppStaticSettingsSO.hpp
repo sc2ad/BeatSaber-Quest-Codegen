@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AppStaticSettingsSO* New_ctor();
   }; // AppStaticSettingsSO
-  check_size<sizeof(AppStaticSettingsSO), 26 + sizeof(bool) + 8 - (26 + sizeof(bool)) % 8> __GlobalNamespace_AppStaticSettingsSOSizeCheck;
+  check_size<sizeof(AppStaticSettingsSO), 26 + sizeof(bool) + ((26 + sizeof(bool)) % 8 != 0 ? (8 - (26 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_AppStaticSettingsSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppStaticSettingsSO*, "", "AppStaticSettingsSO");

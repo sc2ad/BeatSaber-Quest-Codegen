@@ -53,7 +53,7 @@ namespace System::Net {
     // Set static field: static public System.Net.CookieVariant Default
     static void _set_Default(System::Net::CookieVariant value);
   }; // System.Net.CookieVariant
-  check_size<sizeof(CookieVariant), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Net_CookieVariantSizeCheck;
+  check_size<sizeof(CookieVariant), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Net_CookieVariantSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieVariant, "System.Net", "CookieVariant");

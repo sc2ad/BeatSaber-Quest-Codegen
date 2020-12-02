@@ -162,7 +162,7 @@ namespace GlobalNamespace {
     // Base method: System.Threading.Tasks.Task`1<UnityEngine.Sprite> IPreviewBeatmapLevel::GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* GetCoverImageAsync(System::Threading::CancellationToken cancellationToken);
   }; // BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview
-  check_size<sizeof(BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapLevelDataLoaderSO_BeatmapLevelFromPreviewSizeCheck;
+  check_size<sizeof(BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_BeatmapLevelDataLoaderSO_BeatmapLevelFromPreviewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview*, "", "BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview");

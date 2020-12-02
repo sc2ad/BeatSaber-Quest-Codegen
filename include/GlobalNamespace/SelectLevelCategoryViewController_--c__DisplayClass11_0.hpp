@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SelectLevelCategoryViewController::$$c__DisplayClass11_0* New_ctor();
   }; // SelectLevelCategoryViewController/<>c__DisplayClass11_0
-  check_size<sizeof(SelectLevelCategoryViewController::$$c__DisplayClass11_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_SelectLevelCategoryViewController_$$c__DisplayClass11_0SizeCheck;
+  check_size<sizeof(SelectLevelCategoryViewController::$$c__DisplayClass11_0), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_SelectLevelCategoryViewController_$$c__DisplayClass11_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass11_0*, "", "SelectLevelCategoryViewController/<>c__DisplayClass11_0");

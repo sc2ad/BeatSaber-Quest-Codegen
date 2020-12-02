@@ -64,7 +64,7 @@ namespace HMUI {
       // Set static field: static public HMUI.NoTransitionsButton/SelectionState Disabled
       static void _set_Disabled(HMUI::NoTransitionsButton::SelectionState value);
     }; // HMUI.NoTransitionsButton/SelectionState
-    check_size<sizeof(NoTransitionsButton::SelectionState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __HMUI_NoTransitionsButton_SelectionStateSizeCheck;
+    check_size<sizeof(NoTransitionsButton::SelectionState), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __HMUI_NoTransitionsButton_SelectionStateSizeCheck;
     // private System.Action`1<HMUI.NoTransitionsButton/SelectionState> selectionStateDidChangeEvent
     // Offset: 0xF8
     System::Action_1<HMUI::NoTransitionsButton::SelectionState>* selectionStateDidChangeEvent;
@@ -98,7 +98,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static NoTransitionsButton* New_ctor();
   }; // HMUI.NoTransitionsButton
-  check_size<sizeof(NoTransitionsButton), 256 + sizeof(HMUI::NoTransitionsButton::SelectionState) + 8 - (256 + sizeof(HMUI::NoTransitionsButton::SelectionState)) % 8> __HMUI_NoTransitionsButtonSizeCheck;
+  check_size<sizeof(NoTransitionsButton), 256 + sizeof(HMUI::NoTransitionsButton::SelectionState) + ((256 + sizeof(HMUI::NoTransitionsButton::SelectionState)) % 8 != 0 ? (8 - (256 + sizeof(HMUI::NoTransitionsButton::SelectionState)) % 8) : 0)> __HMUI_NoTransitionsButtonSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NoTransitionsButton*, "HMUI", "NoTransitionsButton");

@@ -41,7 +41,7 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: sockaddr_ll
     constexpr sockaddr_ll(uint16_t sll_family_ = {}, uint16_t sll_protocol_ = {}, int sll_ifindex_ = {}, uint16_t sll_hatype_ = {}, uint8_t sll_pkttype_ = {}, uint8_t sll_halen_ = {}, ::Array<uint8_t>* sll_addr_ = {}) noexcept : sll_family{sll_family_}, sll_protocol{sll_protocol_}, sll_ifindex{sll_ifindex_}, sll_hatype{sll_hatype_}, sll_pkttype{sll_pkttype_}, sll_halen{sll_halen_}, sll_addr{sll_addr_} {}
   }; // System.Net.NetworkInformation.sockaddr_ll
-  check_size<sizeof(sockaddr_ll), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Net_NetworkInformation_sockaddr_llSizeCheck;
+  check_size<sizeof(sockaddr_ll), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Net_NetworkInformation_sockaddr_llSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::sockaddr_ll, "System.Net.NetworkInformation", "sockaddr_ll");

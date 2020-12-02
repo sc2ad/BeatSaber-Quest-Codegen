@@ -75,7 +75,7 @@ namespace MasterServer {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // MasterServer.MessageHandler/MultipartMessageWaiter
-  check_size<sizeof(MessageHandler::MultipartMessageWaiter), 49 + sizeof(bool) + 8 - (49 + sizeof(bool)) % 8> __MasterServer_MessageHandler_MultipartMessageWaiterSizeCheck;
+  check_size<sizeof(MessageHandler::MultipartMessageWaiter), 49 + sizeof(bool) + ((49 + sizeof(bool)) % 8 != 0 ? (8 - (49 + sizeof(bool)) % 8) : 0)> __MasterServer_MessageHandler_MultipartMessageWaiterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::MultipartMessageWaiter*, "MasterServer", "MessageHandler/MultipartMessageWaiter");

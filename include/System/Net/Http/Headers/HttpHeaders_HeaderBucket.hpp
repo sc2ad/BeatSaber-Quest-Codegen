@@ -52,7 +52,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0x12035B4
     ::Il2CppString* ParsedToString();
   }; // System.Net.Http.Headers.HttpHeaders/HeaderBucket
-  check_size<sizeof(HttpHeaders::HeaderBucket), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Net_Http_Headers_HttpHeaders_HeaderBucketSizeCheck;
+  check_size<sizeof(HttpHeaders::HeaderBucket), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_Net_Http_Headers_HttpHeaders_HeaderBucketSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpHeaders::HeaderBucket*, "System.Net.Http.Headers", "HttpHeaders/HeaderBucket");

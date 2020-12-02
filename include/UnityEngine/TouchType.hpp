@@ -41,7 +41,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.TouchType Stylus
     static void _set_Stylus(UnityEngine::TouchType value);
   }; // UnityEngine.TouchType
-  check_size<sizeof(TouchType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_TouchTypeSizeCheck;
+  check_size<sizeof(TouchType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_TouchTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TouchType, "UnityEngine", "TouchType");

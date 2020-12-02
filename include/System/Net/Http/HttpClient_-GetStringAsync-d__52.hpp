@@ -68,7 +68,7 @@ namespace System::Net::Http {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.Net.Http.HttpClient/<GetStringAsync>d__52
-  check_size<sizeof(HttpClient::$GetStringAsync$d__52), 72 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::Il2CppString*>::ConfiguredTaskAwaiter) + 8 - (72 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::Il2CppString*>::ConfiguredTaskAwaiter)) % 8> __System_Net_Http_HttpClient_$GetStringAsync$d__52SizeCheck;
+  check_size<sizeof(HttpClient::$GetStringAsync$d__52), 72 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::Il2CppString*>::ConfiguredTaskAwaiter) + ((72 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::Il2CppString*>::ConfiguredTaskAwaiter)) % 8 != 0 ? (8 - (72 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::Il2CppString*>::ConfiguredTaskAwaiter)) % 8) : 0)> __System_Net_Http_HttpClient_$GetStringAsync$d__52SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpClient::$GetStringAsync$d__52, "System.Net.Http", "HttpClient/<GetStringAsync>d__52");

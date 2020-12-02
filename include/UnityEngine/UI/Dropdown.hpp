@@ -321,7 +321,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.UI.Dropdown
-  check_size<sizeof(Dropdown), 344 + sizeof(bool) + 8 - (344 + sizeof(bool)) % 8> __UnityEngine_UI_DropdownSizeCheck;
+  check_size<sizeof(Dropdown), 344 + sizeof(bool) + ((344 + sizeof(bool)) % 8 != 0 ? (8 - (344 + sizeof(bool)) % 8) : 0)> __UnityEngine_UI_DropdownSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown*, "UnityEngine.UI", "Dropdown");
 #pragma pack(pop)

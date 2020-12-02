@@ -33,7 +33,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     static SubsystemDescriptor* New_ctor();
   }; // UnityEngine.SubsystemDescriptor
-  check_size<sizeof(SubsystemDescriptor), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_SubsystemDescriptorSizeCheck;
+  check_size<sizeof(SubsystemDescriptor), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __UnityEngine_SubsystemDescriptorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SubsystemDescriptor*, "UnityEngine", "SubsystemDescriptor");

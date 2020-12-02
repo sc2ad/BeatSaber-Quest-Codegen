@@ -118,7 +118,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Base method: System.Int32 IDigest::GetByteLength()
     int GetByteLength();
   }; // Org.BouncyCastle.Crypto.Digests.Blake2bDigest
-  check_size<sizeof(Blake2bDigest), 96 + sizeof(uint64_t) + 8 - (96 + sizeof(uint64_t)) % 8> __Org_BouncyCastle_Crypto_Digests_Blake2bDigestSizeCheck;
+  check_size<sizeof(Blake2bDigest), 96 + sizeof(uint64_t) + ((96 + sizeof(uint64_t)) % 8 != 0 ? (8 - (96 + sizeof(uint64_t)) % 8) : 0)> __Org_BouncyCastle_Crypto_Digests_Blake2bDigestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Blake2bDigest*, "Org.BouncyCastle.Crypto.Digests", "Blake2bDigest");

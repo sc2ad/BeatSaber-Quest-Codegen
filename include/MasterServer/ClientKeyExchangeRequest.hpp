@@ -77,7 +77,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static ClientKeyExchangeRequest* New_ctor();
   }; // MasterServer.ClientKeyExchangeRequest
-  check_size<sizeof(ClientKeyExchangeRequest), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __MasterServer_ClientKeyExchangeRequestSizeCheck;
+  check_size<sizeof(ClientKeyExchangeRequest), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __MasterServer_ClientKeyExchangeRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ClientKeyExchangeRequest*, "MasterServer", "ClientKeyExchangeRequest");

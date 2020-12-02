@@ -78,7 +78,7 @@ namespace System::Security::Principal {
     // Base method: System.Void ClaimsIdentity::OnDeserializedMethod(System.Runtime.Serialization.StreamingContext context)
     void OnDeserializedMethod(System::Runtime::Serialization::StreamingContext context);
   }; // System.Security.Principal.GenericIdentity
-  check_size<sizeof(GenericIdentity), 128 + sizeof(void*) + 8 - (128 + sizeof(void*)) % 8> __System_Security_Principal_GenericIdentitySizeCheck;
+  check_size<sizeof(GenericIdentity), 128 + sizeof(void*) + ((128 + sizeof(void*)) % 8 != 0 ? (8 - (128 + sizeof(void*)) % 8) : 0)> __System_Security_Principal_GenericIdentitySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::GenericIdentity*, "System.Security.Principal", "GenericIdentity");

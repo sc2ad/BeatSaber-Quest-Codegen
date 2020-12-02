@@ -39,7 +39,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11E1D8C
     static Team* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.Team
-  check_size<sizeof(Team), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Oculus_Platform_Models_TeamSizeCheck;
+  check_size<sizeof(Team), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __Oculus_Platform_Models_TeamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Team*, "Oculus.Platform.Models", "Team");

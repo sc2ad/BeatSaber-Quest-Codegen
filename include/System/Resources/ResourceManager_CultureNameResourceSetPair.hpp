@@ -32,7 +32,7 @@ namespace System::Resources {
     // Base method: System.Void Object::.ctor()
     static ResourceManager::CultureNameResourceSetPair* New_ctor();
   }; // System.Resources.ResourceManager/CultureNameResourceSetPair
-  check_size<sizeof(ResourceManager::CultureNameResourceSetPair), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Resources_ResourceManager_CultureNameResourceSetPairSizeCheck;
+  check_size<sizeof(ResourceManager::CultureNameResourceSetPair), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Resources_ResourceManager_CultureNameResourceSetPairSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceManager::CultureNameResourceSetPair*, "System.Resources", "ResourceManager/CultureNameResourceSetPair");

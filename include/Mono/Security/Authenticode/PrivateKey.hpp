@@ -49,7 +49,7 @@ namespace Mono::Security::Authenticode {
     // Offset: 0x17B13AC
     static Mono::Security::Authenticode::PrivateKey* CreateFromFile(::Il2CppString* filename, ::Il2CppString* password);
   }; // Mono.Security.Authenticode.PrivateKey
-  check_size<sizeof(PrivateKey), 36 + sizeof(int) + 8 - (36 + sizeof(int)) % 8> __Mono_Security_Authenticode_PrivateKeySizeCheck;
+  check_size<sizeof(PrivateKey), 36 + sizeof(int) + ((36 + sizeof(int)) % 8 != 0 ? (8 - (36 + sizeof(int)) % 8) : 0)> __Mono_Security_Authenticode_PrivateKeySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Authenticode::PrivateKey*, "Mono.Security.Authenticode", "PrivateKey");

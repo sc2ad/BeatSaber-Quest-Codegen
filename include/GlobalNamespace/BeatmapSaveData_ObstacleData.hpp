@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Base method: System.Void ITime::MoveTime(System.Single offset)
     void MoveTime(float offset);
   }; // BeatmapSaveData/ObstacleData
-  check_size<sizeof(BeatmapSaveData::ObstacleData), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __GlobalNamespace_BeatmapSaveData_ObstacleDataSizeCheck;
+  check_size<sizeof(BeatmapSaveData::ObstacleData), 32 + sizeof(int) + ((32 + sizeof(int)) % 8 != 0 ? (8 - (32 + sizeof(int)) % 8) : 0)> __GlobalNamespace_BeatmapSaveData_ObstacleDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::ObstacleData*, "", "BeatmapSaveData/ObstacleData");

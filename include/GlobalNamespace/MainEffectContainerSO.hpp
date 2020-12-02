@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MainEffectContainerSO* New_ctor();
   }; // MainEffectContainerSO
-  check_size<sizeof(MainEffectContainerSO), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_MainEffectContainerSOSizeCheck;
+  check_size<sizeof(MainEffectContainerSO), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MainEffectContainerSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectContainerSO*, "", "MainEffectContainerSO");

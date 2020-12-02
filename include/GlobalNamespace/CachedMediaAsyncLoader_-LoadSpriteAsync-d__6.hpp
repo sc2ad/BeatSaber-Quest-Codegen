@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // CachedMediaAsyncLoader/<LoadSpriteAsync>d__6
-  check_size<sizeof(CachedMediaAsyncLoader::$LoadSpriteAsync$d__6), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>) + 8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>)) % 8> __GlobalNamespace_CachedMediaAsyncLoader_$LoadSpriteAsync$d__6SizeCheck;
+  check_size<sizeof(CachedMediaAsyncLoader::$LoadSpriteAsync$d__6), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>) + ((56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>)) % 8 != 0 ? (8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>)) % 8) : 0)> __GlobalNamespace_CachedMediaAsyncLoader_$LoadSpriteAsync$d__6SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CachedMediaAsyncLoader::$LoadSpriteAsync$d__6, "", "CachedMediaAsyncLoader/<LoadSpriteAsync>d__6");

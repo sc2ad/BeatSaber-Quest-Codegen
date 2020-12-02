@@ -164,7 +164,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void UIBehaviour::OnBeforeTransformParentChanged()
     void OnBeforeTransformParentChanged();
   }; // UnityEngine.UI.LayoutElement
-  check_size<sizeof(LayoutElement), 52 + sizeof(int) + 8 - (52 + sizeof(int)) % 8> __UnityEngine_UI_LayoutElementSizeCheck;
+  check_size<sizeof(LayoutElement), 52 + sizeof(int) + ((52 + sizeof(int)) % 8 != 0 ? (8 - (52 + sizeof(int)) % 8) : 0)> __UnityEngine_UI_LayoutElementSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutElement*, "UnityEngine.UI", "LayoutElement");

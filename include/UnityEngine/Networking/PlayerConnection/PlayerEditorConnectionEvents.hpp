@@ -74,7 +74,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Base method: System.Void Object::.ctor()
     static PlayerEditorConnectionEvents* New_ctor();
   }; // UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents
-  check_size<sizeof(PlayerEditorConnectionEvents), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __UnityEngine_Networking_PlayerConnection_PlayerEditorConnectionEventsSizeCheck;
+  check_size<sizeof(PlayerEditorConnectionEvents), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __UnityEngine_Networking_PlayerConnection_PlayerEditorConnectionEventsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*, "UnityEngine.Networking.PlayerConnection", "PlayerEditorConnectionEvents");

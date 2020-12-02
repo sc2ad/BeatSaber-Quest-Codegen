@@ -120,7 +120,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Base method: System.Byte[] ISigner::GenerateSignature()
     ::Array<uint8_t>* GenerateSignature();
   }; // Org.BouncyCastle.Crypto.Signers.SM2Signer
-  check_size<sizeof(SM2Signer), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Signers_SM2SignerSizeCheck;
+  check_size<sizeof(SM2Signer), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_Signers_SM2SignerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::SM2Signer*, "Org.BouncyCastle.Crypto.Signers", "SM2Signer");

@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerEffectPoolsInstaller* New_ctor();
   }; // MultiplayerEffectPoolsInstaller
-  check_size<sizeof(MultiplayerEffectPoolsInstaller), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerEffectPoolsInstallerSizeCheck;
+  check_size<sizeof(MultiplayerEffectPoolsInstaller), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MultiplayerEffectPoolsInstallerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerEffectPoolsInstaller*, "", "MultiplayerEffectPoolsInstaller");

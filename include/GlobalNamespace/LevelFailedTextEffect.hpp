@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LevelFailedTextEffect* New_ctor();
   }; // LevelFailedTextEffect
-  check_size<sizeof(LevelFailedTextEffect), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_LevelFailedTextEffectSizeCheck;
+  check_size<sizeof(LevelFailedTextEffect), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_LevelFailedTextEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFailedTextEffect*, "", "LevelFailedTextEffect");

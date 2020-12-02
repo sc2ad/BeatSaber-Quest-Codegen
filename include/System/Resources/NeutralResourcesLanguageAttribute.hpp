@@ -31,7 +31,7 @@ namespace System::Resources {
     // Offset: 0x15D5D64
     System::Resources::UltimateResourceFallbackLocation get_Location();
   }; // System.Resources.NeutralResourcesLanguageAttribute
-  check_size<sizeof(NeutralResourcesLanguageAttribute), 24 + sizeof(System::Resources::UltimateResourceFallbackLocation) + 8 - (24 + sizeof(System::Resources::UltimateResourceFallbackLocation)) % 8> __System_Resources_NeutralResourcesLanguageAttributeSizeCheck;
+  check_size<sizeof(NeutralResourcesLanguageAttribute), 24 + sizeof(System::Resources::UltimateResourceFallbackLocation) + ((24 + sizeof(System::Resources::UltimateResourceFallbackLocation)) % 8 != 0 ? (8 - (24 + sizeof(System::Resources::UltimateResourceFallbackLocation)) % 8) : 0)> __System_Resources_NeutralResourcesLanguageAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::NeutralResourcesLanguageAttribute*, "System.Resources", "NeutralResourcesLanguageAttribute");

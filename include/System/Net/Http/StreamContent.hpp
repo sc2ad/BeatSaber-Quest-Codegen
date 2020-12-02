@@ -72,7 +72,7 @@ namespace System::Net::Http {
     // Base method: System.Boolean HttpContent::TryComputeLength(out System.Int64 length)
     bool TryComputeLength(int64_t& length);
   }; // System.Net.Http.StreamContent
-  check_size<sizeof(StreamContent), 72 + sizeof(bool) + 8 - (72 + sizeof(bool)) % 8> __System_Net_Http_StreamContentSizeCheck;
+  check_size<sizeof(StreamContent), 72 + sizeof(bool) + ((72 + sizeof(bool)) % 8 != 0 ? (8 - (72 + sizeof(bool)) % 8) : 0)> __System_Net_Http_StreamContentSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::StreamContent*, "System.Net.Http", "StreamContent");

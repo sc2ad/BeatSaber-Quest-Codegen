@@ -29,7 +29,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: HmdQuad_t
     constexpr HmdQuad_t(OVR::OpenVR::HmdVector3_t vCorners0_ = {}, OVR::OpenVR::HmdVector3_t vCorners1_ = {}, OVR::OpenVR::HmdVector3_t vCorners2_ = {}, OVR::OpenVR::HmdVector3_t vCorners3_ = {}) noexcept : vCorners0{vCorners0_}, vCorners1{vCorners1_}, vCorners2{vCorners2_}, vCorners3{vCorners3_} {}
   }; // OVR.OpenVR.HmdQuad_t
-  check_size<sizeof(HmdQuad_t), 36 + sizeof(OVR::OpenVR::HmdVector3_t) + 8 - (36 + sizeof(OVR::OpenVR::HmdVector3_t)) % 8> __OVR_OpenVR_HmdQuad_tSizeCheck;
+  check_size<sizeof(HmdQuad_t), 36 + sizeof(OVR::OpenVR::HmdVector3_t) + ((36 + sizeof(OVR::OpenVR::HmdVector3_t)) % 8 != 0 ? (8 - (36 + sizeof(OVR::OpenVR::HmdVector3_t)) % 8) : 0)> __OVR_OpenVR_HmdQuad_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdQuad_t, "OVR.OpenVR", "HmdQuad_t");

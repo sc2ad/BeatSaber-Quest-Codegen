@@ -36,7 +36,7 @@ namespace UnityEngine::AI {
     // Offset: 0xCBCAA4
     UnityEngine::Vector3 get_position();
   }; // UnityEngine.AI.NavMeshHit
-  check_size<sizeof(NavMeshHit), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __UnityEngine_AI_NavMeshHitSizeCheck;
+  check_size<sizeof(NavMeshHit), 32 + sizeof(int) + ((32 + sizeof(int)) % 8 != 0 ? (8 - (32 + sizeof(int)) % 8) : 0)> __UnityEngine_AI_NavMeshHitSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMeshHit, "UnityEngine.AI", "NavMeshHit");

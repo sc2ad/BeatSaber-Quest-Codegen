@@ -25,7 +25,7 @@ namespace UnityEngine {
     // Offset: 0x16C115C
     static int GetLayerValueFromID(int id);
   }; // UnityEngine.SortingLayer
-  check_size<sizeof(SortingLayer), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_SortingLayerSizeCheck;
+  check_size<sizeof(SortingLayer), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_SortingLayerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SortingLayer, "UnityEngine", "SortingLayer");

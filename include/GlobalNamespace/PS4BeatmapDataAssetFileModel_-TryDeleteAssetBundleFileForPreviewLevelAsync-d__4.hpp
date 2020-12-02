@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // PS4BeatmapDataAssetFileModel/<TryDeleteAssetBundleFileForPreviewLevelAsync>d__4
-  check_size<sizeof(PS4BeatmapDataAssetFileModel::$TryDeleteAssetBundleFileForPreviewLevelAsync$d__4), 32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>) + 8 - (32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>)) % 8> __GlobalNamespace_PS4BeatmapDataAssetFileModel_$TryDeleteAssetBundleFileForPreviewLevelAsync$d__4SizeCheck;
+  check_size<sizeof(PS4BeatmapDataAssetFileModel::$TryDeleteAssetBundleFileForPreviewLevelAsync$d__4), 32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>) + ((32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>)) % 8 != 0 ? (8 - (32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>)) % 8) : 0)> __GlobalNamespace_PS4BeatmapDataAssetFileModel_$TryDeleteAssetBundleFileForPreviewLevelAsync$d__4SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4BeatmapDataAssetFileModel::$TryDeleteAssetBundleFileForPreviewLevelAsync$d__4, "", "PS4BeatmapDataAssetFileModel/<TryDeleteAssetBundleFileForPreviewLevelAsync>d__4");

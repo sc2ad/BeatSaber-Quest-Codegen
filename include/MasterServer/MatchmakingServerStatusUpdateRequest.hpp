@@ -103,7 +103,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static MatchmakingServerStatusUpdateRequest* New_ctor();
   }; // MasterServer.MatchmakingServerStatusUpdateRequest
-  check_size<sizeof(MatchmakingServerStatusUpdateRequest), 52 + sizeof(GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType) + 8 - (52 + sizeof(GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType)) % 8> __MasterServer_MatchmakingServerStatusUpdateRequestSizeCheck;
+  check_size<sizeof(MatchmakingServerStatusUpdateRequest), 52 + sizeof(GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType) + ((52 + sizeof(GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType)) % 8 != 0 ? (8 - (52 + sizeof(GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType)) % 8) : 0)> __MasterServer_MatchmakingServerStatusUpdateRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MatchmakingServerStatusUpdateRequest*, "MasterServer", "MatchmakingServerStatusUpdateRequest");

@@ -23,7 +23,7 @@ namespace System {
       return value;
     }
   }; // System.UInt32Enum
-  check_size<sizeof(UInt32Enum), 0 + sizeof(uint) + 8 - (0 + sizeof(uint)) % 8> __System_UInt32EnumSizeCheck;
+  check_size<sizeof(UInt32Enum), 0 + sizeof(uint) + ((0 + sizeof(uint)) % 8 != 0 ? (8 - (0 + sizeof(uint)) % 8) : 0)> __System_UInt32EnumSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UInt32Enum, "System", "UInt32Enum");

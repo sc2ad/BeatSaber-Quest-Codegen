@@ -93,7 +93,7 @@ namespace UnityEngine {
     // Offset: 0x1A002B4
     static void set_maxParticles_Injected(UnityEngine::ParticleSystem::MainModule& _unity_self, int value);
   }; // UnityEngine.ParticleSystem/MainModule
-  check_size<sizeof(ParticleSystem::MainModule), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __UnityEngine_ParticleSystem_MainModuleSizeCheck;
+  check_size<sizeof(ParticleSystem::MainModule), 0 + sizeof(void*) + ((0 + sizeof(void*)) % 8 != 0 ? (8 - (0 + sizeof(void*)) % 8) : 0)> __UnityEngine_ParticleSystem_MainModuleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MainModule, "UnityEngine", "ParticleSystem/MainModule");

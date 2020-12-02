@@ -65,7 +65,7 @@ namespace RootMotion::FinalIK {
       // Set static field: static public RootMotion.FinalIK.Grounding/Quality Best
       static void _set_Best(RootMotion::FinalIK::Grounding::Quality value);
     }; // RootMotion.FinalIK.Grounding/Quality
-    check_size<sizeof(Grounding::Quality), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __RootMotion_FinalIK_Grounding_QualitySizeCheck;
+    check_size<sizeof(Grounding::Quality), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __RootMotion_FinalIK_Grounding_QualitySizeCheck;
     // public UnityEngine.LayerMask layers
     // Offset: 0x10
     UnityEngine::LayerMask layers;
@@ -213,7 +213,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static Grounding* New_ctor();
   }; // RootMotion.FinalIK.Grounding
-  check_size<sizeof(Grounding), 164 + sizeof(bool) + 8 - (164 + sizeof(bool)) % 8> __RootMotion_FinalIK_GroundingSizeCheck;
+  check_size<sizeof(Grounding), 164 + sizeof(bool) + ((164 + sizeof(bool)) % 8 != 0 ? (8 - (164 + sizeof(bool)) % 8) : 0)> __RootMotion_FinalIK_GroundingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding*, "RootMotion.FinalIK", "Grounding");

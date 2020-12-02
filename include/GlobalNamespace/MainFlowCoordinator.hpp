@@ -226,7 +226,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MainFlowCoordinator* New_ctor();
   }; // MainFlowCoordinator
-  check_size<sizeof(MainFlowCoordinator), 320 + sizeof(void*) + 8 - (320 + sizeof(void*)) % 8> __GlobalNamespace_MainFlowCoordinatorSizeCheck;
+  check_size<sizeof(MainFlowCoordinator), 320 + sizeof(void*) + ((320 + sizeof(void*)) % 8 != 0 ? (8 - (320 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MainFlowCoordinatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainFlowCoordinator*, "", "MainFlowCoordinator");

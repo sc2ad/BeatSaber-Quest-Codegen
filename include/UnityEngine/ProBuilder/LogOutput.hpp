@@ -41,7 +41,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.LogOutput File
     static void _set_File(UnityEngine::ProBuilder::LogOutput value);
   }; // UnityEngine.ProBuilder.LogOutput
-  check_size<sizeof(LogOutput), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_ProBuilder_LogOutputSizeCheck;
+  check_size<sizeof(LogOutput), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_ProBuilder_LogOutputSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::LogOutput, "UnityEngine.ProBuilder", "LogOutput");

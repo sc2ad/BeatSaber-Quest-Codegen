@@ -63,7 +63,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static ShoulderRotator* New_ctor();
   }; // RootMotion.FinalIK.ShoulderRotator
-  check_size<sizeof(ShoulderRotator), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __RootMotion_FinalIK_ShoulderRotatorSizeCheck;
+  check_size<sizeof(ShoulderRotator), 40 + sizeof(bool) + ((40 + sizeof(bool)) % 8 != 0 ? (8 - (40 + sizeof(bool)) % 8) : 0)> __RootMotion_FinalIK_ShoulderRotatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ShoulderRotator*, "RootMotion.FinalIK", "ShoulderRotator");

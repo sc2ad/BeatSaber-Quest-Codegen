@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BladeMovementDataElement
     constexpr BladeMovementDataElement(float time_ = {}, float segmentAngle_ = {}, UnityEngine::Vector3 topPos_ = {}, UnityEngine::Vector3 bottomPos_ = {}, UnityEngine::Vector3 segmentNormal_ = {}) noexcept : time{time_}, segmentAngle{segmentAngle_}, topPos{topPos_}, bottomPos{bottomPos_}, segmentNormal{segmentNormal_} {}
   }; // BladeMovementDataElement
-  check_size<sizeof(BladeMovementDataElement), 32 + sizeof(UnityEngine::Vector3) + 8 - (32 + sizeof(UnityEngine::Vector3)) % 8> __GlobalNamespace_BladeMovementDataElementSizeCheck;
+  check_size<sizeof(BladeMovementDataElement), 32 + sizeof(UnityEngine::Vector3) + ((32 + sizeof(UnityEngine::Vector3)) % 8 != 0 ? (8 - (32 + sizeof(UnityEngine::Vector3)) % 8) : 0)> __GlobalNamespace_BladeMovementDataElementSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BladeMovementDataElement, "", "BladeMovementDataElement");

@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Offset: 0xFE4634
     static NoteCutSoundEffectManager::InitData* New_ctor(bool useTestAudioClips, bool ignoreBadCuts);
   }; // NoteCutSoundEffectManager/InitData
-  check_size<sizeof(NoteCutSoundEffectManager::InitData), 17 + sizeof(bool) + 8 - (17 + sizeof(bool)) % 8> __GlobalNamespace_NoteCutSoundEffectManager_InitDataSizeCheck;
+  check_size<sizeof(NoteCutSoundEffectManager::InitData), 17 + sizeof(bool) + ((17 + sizeof(bool)) % 8 != 0 ? (8 - (17 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_NoteCutSoundEffectManager_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutSoundEffectManager::InitData*, "", "NoteCutSoundEffectManager/InitData");

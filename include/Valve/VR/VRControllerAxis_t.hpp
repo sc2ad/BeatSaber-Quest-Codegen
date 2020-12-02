@@ -21,7 +21,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: VRControllerAxis_t
     constexpr VRControllerAxis_t(float x_ = {}, float y_ = {}) noexcept : x{x_}, y{y_} {}
   }; // Valve.VR.VRControllerAxis_t
-  check_size<sizeof(VRControllerAxis_t), 4 + sizeof(float) + 8 - (4 + sizeof(float)) % 8> __Valve_VR_VRControllerAxis_tSizeCheck;
+  check_size<sizeof(VRControllerAxis_t), 4 + sizeof(float) + ((4 + sizeof(float)) % 8 != 0 ? (8 - (4 + sizeof(float)) % 8) : 0)> __Valve_VR_VRControllerAxis_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRControllerAxis_t, "Valve.VR", "VRControllerAxis_t");

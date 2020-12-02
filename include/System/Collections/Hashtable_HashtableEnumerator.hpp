@@ -113,7 +113,7 @@ namespace System::Collections {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // System.Collections.Hashtable/HashtableEnumerator
-  check_size<sizeof(Hashtable::HashtableEnumerator), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __System_Collections_Hashtable_HashtableEnumeratorSizeCheck;
+  check_size<sizeof(Hashtable::HashtableEnumerator), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __System_Collections_Hashtable_HashtableEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::HashtableEnumerator*, "System.Collections", "Hashtable/HashtableEnumerator");

@@ -53,7 +53,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.RoomType Solo
     static void _set_Solo(Oculus::Platform::RoomType value);
   }; // Oculus.Platform.RoomType
-  check_size<sizeof(RoomType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Oculus_Platform_RoomTypeSizeCheck;
+  check_size<sizeof(RoomType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Oculus_Platform_RoomTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RoomType, "Oculus.Platform", "RoomType");

@@ -116,7 +116,7 @@ namespace System::Net::NetworkInformation {
     // Maps to method: Clear
     void System_Collections_Generic_ICollection_1_Clear();
   }; // System.Net.NetworkInformation.IPAddressCollection
-  check_size<sizeof(IPAddressCollection), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Net_NetworkInformation_IPAddressCollectionSizeCheck;
+  check_size<sizeof(IPAddressCollection), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Net_NetworkInformation_IPAddressCollectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPAddressCollection*, "System.Net.NetworkInformation", "IPAddressCollection");

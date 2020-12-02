@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Set static field: static public GameplayServerFiniteStateMachine/GameStateType RunningLevel
     static void _set_RunningLevel(GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType value);
   }; // GameplayServerFiniteStateMachine/GameStateType
-  check_size<sizeof(GameplayServerFiniteStateMachine::GameStateType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_GameplayServerFiniteStateMachine_GameStateTypeSizeCheck;
+  check_size<sizeof(GameplayServerFiniteStateMachine::GameStateType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_GameplayServerFiniteStateMachine_GameStateTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType, "", "GameplayServerFiniteStateMachine/GameStateType");

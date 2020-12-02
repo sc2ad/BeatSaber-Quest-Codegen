@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/PerfMetrics EnumSize
     static void _set_EnumSize(GlobalNamespace::OVRPlugin::PerfMetrics value);
   }; // OVRPlugin/PerfMetrics
-  check_size<sizeof(OVRPlugin::PerfMetrics), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRPlugin_PerfMetricsSizeCheck;
+  check_size<sizeof(OVRPlugin::PerfMetrics), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OVRPlugin_PerfMetricsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::PerfMetrics, "", "OVRPlugin/PerfMetrics");

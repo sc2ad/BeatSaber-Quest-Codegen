@@ -171,7 +171,7 @@ namespace OVRSimpleJSON {
     // Base method: System.Void JSONNode::WriteToStringBuilder(System.Text.StringBuilder aSB, System.Int32 aIndent, System.Int32 aIndentInc, OVRSimpleJSON.JSONTextMode aMode)
     void WriteToStringBuilder(System::Text::StringBuilder* aSB, int aIndent, int aIndentInc, OVRSimpleJSON::JSONTextMode aMode);
   }; // OVRSimpleJSON.JSONLazyCreator
-  check_size<sizeof(JSONLazyCreator), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __OVRSimpleJSON_JSONLazyCreatorSizeCheck;
+  check_size<sizeof(JSONLazyCreator), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __OVRSimpleJSON_JSONLazyCreatorSizeCheck;
   // static public System.Boolean op_Equality(OVRSimpleJSON.JSONLazyCreator a, System.Object b)
   // Offset: 0x12E8270
   bool operator ==(OVRSimpleJSON::JSONLazyCreator* a, ::Il2CppObject& b);

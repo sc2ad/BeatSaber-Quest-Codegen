@@ -39,7 +39,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Base method: System.Void Object::.ctor()
     static DTSweepBasin* New_ctor();
   }; // UnityEngine.ProBuilder.Poly2Tri.DTSweepBasin
-  check_size<sizeof(DTSweepBasin), 48 + sizeof(bool) + 8 - (48 + sizeof(bool)) % 8> __UnityEngine_ProBuilder_Poly2Tri_DTSweepBasinSizeCheck;
+  check_size<sizeof(DTSweepBasin), 48 + sizeof(bool) + ((48 + sizeof(bool)) % 8 != 0 ? (8 - (48 + sizeof(bool)) % 8) : 0)> __UnityEngine_ProBuilder_Poly2Tri_DTSweepBasinSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepBasin");

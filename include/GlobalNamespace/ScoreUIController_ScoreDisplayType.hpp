@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Set static field: static public ScoreUIController/ScoreDisplayType ModifiedScore
     static void _set_ModifiedScore(GlobalNamespace::ScoreUIController::ScoreDisplayType value);
   }; // ScoreUIController/ScoreDisplayType
-  check_size<sizeof(ScoreUIController::ScoreDisplayType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_ScoreUIController_ScoreDisplayTypeSizeCheck;
+  check_size<sizeof(ScoreUIController::ScoreDisplayType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_ScoreUIController_ScoreDisplayTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreUIController::ScoreDisplayType, "", "ScoreUIController/ScoreDisplayType");

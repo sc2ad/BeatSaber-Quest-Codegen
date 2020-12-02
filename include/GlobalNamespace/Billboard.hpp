@@ -61,7 +61,7 @@ namespace GlobalNamespace {
       // Set static field: static public Billboard/RotationMode ZAxis
       static void _set_ZAxis(GlobalNamespace::Billboard::RotationMode value);
     }; // Billboard/RotationMode
-    check_size<sizeof(Billboard::RotationMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_Billboard_RotationModeSizeCheck;
+    check_size<sizeof(Billboard::RotationMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_Billboard_RotationModeSizeCheck;
     // private Billboard/RotationMode _rotationMode
     // Offset: 0x18
     GlobalNamespace::Billboard::RotationMode rotationMode;
@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static Billboard* New_ctor();
   }; // Billboard
-  check_size<sizeof(Billboard), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_BillboardSizeCheck;
+  check_size<sizeof(Billboard), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_BillboardSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Billboard*, "", "Billboard");

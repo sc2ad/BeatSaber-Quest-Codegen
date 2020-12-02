@@ -99,7 +99,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static AnimationTriggers* New_ctor();
   }; // UnityEngine.UI.AnimationTriggers
-  check_size<sizeof(AnimationTriggers), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __UnityEngine_UI_AnimationTriggersSizeCheck;
+  check_size<sizeof(AnimationTriggers), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __UnityEngine_UI_AnimationTriggersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::AnimationTriggers*, "UnityEngine.UI", "AnimationTriggers");

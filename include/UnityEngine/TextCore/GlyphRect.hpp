@@ -76,7 +76,7 @@ namespace UnityEngine::TextCore {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.TextCore.GlyphRect other)
     bool Equals(UnityEngine::TextCore::GlyphRect other);
   }; // UnityEngine.TextCore.GlyphRect
-  check_size<sizeof(GlyphRect), 12 + sizeof(int) + 8 - (12 + sizeof(int)) % 8> __UnityEngine_TextCore_GlyphRectSizeCheck;
+  check_size<sizeof(GlyphRect), 12 + sizeof(int) + ((12 + sizeof(int)) % 8 != 0 ? (8 - (12 + sizeof(int)) % 8) : 0)> __UnityEngine_TextCore_GlyphRectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::GlyphRect, "UnityEngine.TextCore", "GlyphRect");

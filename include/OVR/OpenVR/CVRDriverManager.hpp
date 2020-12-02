@@ -45,7 +45,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11F5154
     uint64_t GetDriverHandle(::Il2CppString* pchDriverName);
   }; // OVR.OpenVR.CVRDriverManager
-  check_size<sizeof(CVRDriverManager), 16 + sizeof(OVR::OpenVR::IVRDriverManager) + 8 - (16 + sizeof(OVR::OpenVR::IVRDriverManager)) % 8> __OVR_OpenVR_CVRDriverManagerSizeCheck;
+  check_size<sizeof(CVRDriverManager), 16 + sizeof(OVR::OpenVR::IVRDriverManager) + ((16 + sizeof(OVR::OpenVR::IVRDriverManager)) % 8 != 0 ? (8 - (16 + sizeof(OVR::OpenVR::IVRDriverManager)) % 8) : 0)> __OVR_OpenVR_CVRDriverManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRDriverManager*, "OVR.OpenVR", "CVRDriverManager");

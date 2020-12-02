@@ -35,7 +35,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static UIKeyboard::$$c__DisplayClass12_0* New_ctor();
   }; // HMUI.UIKeyboard/<>c__DisplayClass12_0
-  check_size<sizeof(UIKeyboard::$$c__DisplayClass12_0), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __HMUI_UIKeyboard_$$c__DisplayClass12_0SizeCheck;
+  check_size<sizeof(UIKeyboard::$$c__DisplayClass12_0), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __HMUI_UIKeyboard_$$c__DisplayClass12_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::UIKeyboard::$$c__DisplayClass12_0*, "HMUI", "UIKeyboard/<>c__DisplayClass12_0");

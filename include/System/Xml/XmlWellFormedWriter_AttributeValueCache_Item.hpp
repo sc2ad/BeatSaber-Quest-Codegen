@@ -30,7 +30,7 @@ namespace System::Xml {
     // Base method: System.Void Object::.ctor()
     static XmlWellFormedWriter::AttributeValueCache::Item* New_ctor();
   }; // System.Xml.XmlWellFormedWriter/AttributeValueCache/Item
-  check_size<sizeof(XmlWellFormedWriter::AttributeValueCache::Item), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Xml_XmlWellFormedWriter_AttributeValueCache_ItemSizeCheck;
+  check_size<sizeof(XmlWellFormedWriter::AttributeValueCache::Item), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Xml_XmlWellFormedWriter_AttributeValueCache_ItemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*, "System.Xml", "XmlWellFormedWriter/AttributeValueCache/Item");

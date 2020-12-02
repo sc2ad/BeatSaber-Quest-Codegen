@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static DisableSpatializerOnOldWindows* New_ctor();
   }; // DisableSpatializerOnOldWindows
-  check_size<sizeof(DisableSpatializerOnOldWindows), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_DisableSpatializerOnOldWindowsSizeCheck;
+  check_size<sizeof(DisableSpatializerOnOldWindows), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_DisableSpatializerOnOldWindowsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableSpatializerOnOldWindows*, "", "DisableSpatializerOnOldWindows");

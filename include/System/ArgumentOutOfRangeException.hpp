@@ -78,7 +78,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static ArgumentOutOfRangeException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.ArgumentOutOfRangeException
-  check_size<sizeof(ArgumentOutOfRangeException), 144 + sizeof(void*) + 8 - (144 + sizeof(void*)) % 8> __System_ArgumentOutOfRangeExceptionSizeCheck;
+  check_size<sizeof(ArgumentOutOfRangeException), 144 + sizeof(void*) + ((144 + sizeof(void*)) % 8 != 0 ? (8 - (144 + sizeof(void*)) % 8) : 0)> __System_ArgumentOutOfRangeExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ArgumentOutOfRangeException*, "System", "ArgumentOutOfRangeException");

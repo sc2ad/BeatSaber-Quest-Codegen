@@ -359,7 +359,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IMultiplayerSessionManager::PerformAtSyncTime(System.Single syncTime, System.Action action)
     void PerformAtSyncTime(float syncTime, System::Action* action);
   }; // MockMultiplayerSessionManager/MockedPlayerMultiplayerSessionManager
-  check_size<sizeof(MockMultiplayerSessionManager::MockedPlayerMultiplayerSessionManager), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __GlobalNamespace_MockMultiplayerSessionManager_MockedPlayerMultiplayerSessionManagerSizeCheck;
+  check_size<sizeof(MockMultiplayerSessionManager::MockedPlayerMultiplayerSessionManager), 96 + sizeof(void*) + ((96 + sizeof(void*)) % 8 != 0 ? (8 - (96 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MockMultiplayerSessionManager_MockedPlayerMultiplayerSessionManagerSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMultiplayerSessionManager::MockedPlayerMultiplayerSessionManager*, "", "MockMultiplayerSessionManager/MockedPlayerMultiplayerSessionManager");
 #pragma pack(pop)

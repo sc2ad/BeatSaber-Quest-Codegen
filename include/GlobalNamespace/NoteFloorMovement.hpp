@@ -113,7 +113,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NoteFloorMovement* New_ctor();
   }; // NoteFloorMovement
-  check_size<sizeof(NoteFloorMovement), 120 + sizeof(UnityEngine::Vector3) + 8 - (120 + sizeof(UnityEngine::Vector3)) % 8> __GlobalNamespace_NoteFloorMovementSizeCheck;
+  check_size<sizeof(NoteFloorMovement), 120 + sizeof(UnityEngine::Vector3) + ((120 + sizeof(UnityEngine::Vector3)) % 8 != 0 ? (8 - (120 + sizeof(UnityEngine::Vector3)) % 8) : 0)> __GlobalNamespace_NoteFloorMovementSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteFloorMovement*, "", "NoteFloorMovement");

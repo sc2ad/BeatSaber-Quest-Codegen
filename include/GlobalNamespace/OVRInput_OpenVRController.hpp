@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRInput/OpenVRController WindowsMRController
     static void _set_WindowsMRController(GlobalNamespace::OVRInput::OpenVRController value);
   }; // OVRInput/OpenVRController
-  check_size<sizeof(OVRInput::OpenVRController), 0 + sizeof(uint64_t) + 8 - (0 + sizeof(uint64_t)) % 8> __GlobalNamespace_OVRInput_OpenVRControllerSizeCheck;
+  check_size<sizeof(OVRInput::OpenVRController), 0 + sizeof(uint64_t) + ((0 + sizeof(uint64_t)) % 8 != 0 ? (8 - (0 + sizeof(uint64_t)) % 8) : 0)> __GlobalNamespace_OVRInput_OpenVRControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OpenVRController, "", "OVRInput/OpenVRController");

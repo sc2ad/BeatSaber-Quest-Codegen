@@ -82,7 +82,7 @@ namespace System::Threading {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.Threading.SemaphoreSlim/<WaitUntilCountOrTimeoutAsync>d__31
-  check_size<sizeof(SemaphoreSlim::$WaitUntilCountOrTimeoutAsync$d__31), 96 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<bool>::ConfiguredTaskAwaiter) + 8 - (96 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<bool>::ConfiguredTaskAwaiter)) % 8> __System_Threading_SemaphoreSlim_$WaitUntilCountOrTimeoutAsync$d__31SizeCheck;
+  check_size<sizeof(SemaphoreSlim::$WaitUntilCountOrTimeoutAsync$d__31), 96 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<bool>::ConfiguredTaskAwaiter) + ((96 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<bool>::ConfiguredTaskAwaiter)) % 8 != 0 ? (8 - (96 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<bool>::ConfiguredTaskAwaiter)) % 8) : 0)> __System_Threading_SemaphoreSlim_$WaitUntilCountOrTimeoutAsync$d__31SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SemaphoreSlim::$WaitUntilCountOrTimeoutAsync$d__31, "System.Threading", "SemaphoreSlim/<WaitUntilCountOrTimeoutAsync>d__31");

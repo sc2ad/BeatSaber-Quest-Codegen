@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PacketEncryptionLayer::PendingEncryptionStateList* New_ctor();
   }; // PacketEncryptionLayer/PendingEncryptionStateList
-  check_size<sizeof(PacketEncryptionLayer::PendingEncryptionStateList), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_PacketEncryptionLayer_PendingEncryptionStateListSizeCheck;
+  check_size<sizeof(PacketEncryptionLayer::PendingEncryptionStateList), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_PacketEncryptionLayer_PendingEncryptionStateListSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList*, "", "PacketEncryptionLayer/PendingEncryptionStateList");

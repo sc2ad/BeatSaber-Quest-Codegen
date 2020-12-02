@@ -24,7 +24,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: UICharInfo
     constexpr UICharInfo(UnityEngine::Vector2 cursorPos_ = {}, float charWidth_ = {}) noexcept : cursorPos{cursorPos_}, charWidth{charWidth_} {}
   }; // UnityEngine.UICharInfo
-  check_size<sizeof(UICharInfo), 8 + sizeof(float) + 8 - (8 + sizeof(float)) % 8> __UnityEngine_UICharInfoSizeCheck;
+  check_size<sizeof(UICharInfo), 8 + sizeof(float) + ((8 + sizeof(float)) % 8 != 0 ? (8 - (8 + sizeof(float)) % 8) : 0)> __UnityEngine_UICharInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UICharInfo, "UnityEngine", "UICharInfo");

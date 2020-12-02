@@ -24,7 +24,7 @@ namespace UnityEngine::TestTools {
     // Offset: 0x1193308
     bool get_MustExpect();
   }; // UnityEngine.TestTools.TestMustExpectAllLogsAttribute
-  check_size<sizeof(TestMustExpectAllLogsAttribute), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __UnityEngine_TestTools_TestMustExpectAllLogsAttributeSizeCheck;
+  check_size<sizeof(TestMustExpectAllLogsAttribute), 16 + sizeof(bool) + ((16 + sizeof(bool)) % 8 != 0 ? (8 - (16 + sizeof(bool)) % 8) : 0)> __UnityEngine_TestTools_TestMustExpectAllLogsAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestMustExpectAllLogsAttribute*, "UnityEngine.TestTools", "TestMustExpectAllLogsAttribute");

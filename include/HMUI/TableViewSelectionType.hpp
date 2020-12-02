@@ -41,7 +41,7 @@ namespace HMUI {
     // Set static field: static public HMUI.TableViewSelectionType Multiple
     static void _set_Multiple(HMUI::TableViewSelectionType value);
   }; // HMUI.TableViewSelectionType
-  check_size<sizeof(TableViewSelectionType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __HMUI_TableViewSelectionTypeSizeCheck;
+  check_size<sizeof(TableViewSelectionType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __HMUI_TableViewSelectionTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableViewSelectionType, "HMUI", "TableViewSelectionType");

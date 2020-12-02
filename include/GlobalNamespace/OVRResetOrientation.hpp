@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRResetOrientation* New_ctor();
   }; // OVRResetOrientation
-  check_size<sizeof(OVRResetOrientation), 24 + sizeof(GlobalNamespace::OVRInput::RawButton) + 8 - (24 + sizeof(GlobalNamespace::OVRInput::RawButton)) % 8> __GlobalNamespace_OVRResetOrientationSizeCheck;
+  check_size<sizeof(OVRResetOrientation), 24 + sizeof(GlobalNamespace::OVRInput::RawButton) + ((24 + sizeof(GlobalNamespace::OVRInput::RawButton)) % 8 != 0 ? (8 - (24 + sizeof(GlobalNamespace::OVRInput::RawButton)) % 8) : 0)> __GlobalNamespace_OVRResetOrientationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRResetOrientation*, "", "OVRResetOrientation");

@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BeatmapLevelFilterModel/<FilerBeatmapLevelPackCollectionAsync>d__0
-  check_size<sizeof(BeatmapLevelFilterModel::$FilerBeatmapLevelPackCollectionAsync$d__0), 80 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*>) + 8 - (80 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*>)) % 8> __GlobalNamespace_BeatmapLevelFilterModel_$FilerBeatmapLevelPackCollectionAsync$d__0SizeCheck;
+  check_size<sizeof(BeatmapLevelFilterModel::$FilerBeatmapLevelPackCollectionAsync$d__0), 80 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*>) + ((80 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*>)) % 8 != 0 ? (8 - (80 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*>)) % 8) : 0)> __GlobalNamespace_BeatmapLevelFilterModel_$FilerBeatmapLevelPackCollectionAsync$d__0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelFilterModel::$FilerBeatmapLevelPackCollectionAsync$d__0, "", "BeatmapLevelFilterModel/<FilerBeatmapLevelPackCollectionAsync>d__0");

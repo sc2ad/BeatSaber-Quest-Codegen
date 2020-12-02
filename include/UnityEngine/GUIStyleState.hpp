@@ -57,7 +57,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // UnityEngine.GUIStyleState
-  check_size<sizeof(GUIStyleState), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_GUIStyleStateSizeCheck;
+  check_size<sizeof(GUIStyleState), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __UnityEngine_GUIStyleStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIStyleState*, "UnityEngine", "GUIStyleState");

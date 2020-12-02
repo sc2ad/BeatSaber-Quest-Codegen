@@ -42,7 +42,7 @@ namespace HMUI {
     // Offset: 0x10B6854
     static IconSegmentedControl::DataItem* New_ctor(UnityEngine::Sprite* icon, ::Il2CppString* hintText);
   }; // HMUI.IconSegmentedControl/DataItem
-  check_size<sizeof(IconSegmentedControl::DataItem), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __HMUI_IconSegmentedControl_DataItemSizeCheck;
+  check_size<sizeof(IconSegmentedControl::DataItem), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __HMUI_IconSegmentedControl_DataItemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::IconSegmentedControl::DataItem*, "HMUI", "IconSegmentedControl/DataItem");

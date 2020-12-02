@@ -41,7 +41,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static ViewControllerTransitionHelpers::$$c__DisplayClass6_0* New_ctor();
   }; // HMUI.ViewControllerTransitionHelpers/<>c__DisplayClass6_0
-  check_size<sizeof(ViewControllerTransitionHelpers::$$c__DisplayClass6_0), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __HMUI_ViewControllerTransitionHelpers_$$c__DisplayClass6_0SizeCheck;
+  check_size<sizeof(ViewControllerTransitionHelpers::$$c__DisplayClass6_0), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __HMUI_ViewControllerTransitionHelpers_$$c__DisplayClass6_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass6_0*, "HMUI", "ViewControllerTransitionHelpers/<>c__DisplayClass6_0");

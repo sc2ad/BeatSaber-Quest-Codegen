@@ -29,7 +29,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x1163144
     System::Decimal get_Value();
   }; // System.Runtime.CompilerServices.DecimalConstantAttribute
-  check_size<sizeof(DecimalConstantAttribute), 16 + sizeof(System::Decimal) + 8 - (16 + sizeof(System::Decimal)) % 8> __System_Runtime_CompilerServices_DecimalConstantAttributeSizeCheck;
+  check_size<sizeof(DecimalConstantAttribute), 16 + sizeof(System::Decimal) + ((16 + sizeof(System::Decimal)) % 8 != 0 ? (8 - (16 + sizeof(System::Decimal)) % 8) : 0)> __System_Runtime_CompilerServices_DecimalConstantAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::DecimalConstantAttribute*, "System.Runtime.CompilerServices", "DecimalConstantAttribute");

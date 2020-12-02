@@ -46,7 +46,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0x12006E4
     System::Net::Http::Headers::MediaTypeHeaderValue* get_ContentType();
   }; // System.Net.Http.Headers.HttpContentHeaders
-  check_size<sizeof(HttpContentHeaders), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Net_Http_Headers_HttpContentHeadersSizeCheck;
+  check_size<sizeof(HttpContentHeaders), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_Net_Http_Headers_HttpContentHeadersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpContentHeaders*, "System.Net.Http.Headers", "HttpContentHeaders");

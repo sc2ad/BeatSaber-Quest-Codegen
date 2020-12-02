@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Offset: 0xF07BCC
     static PauseMenuManager::InitData* New_ctor(::Il2CppString* backButtonText, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool showRestartButton, bool showLevelBar);
   }; // PauseMenuManager/InitData
-  check_size<sizeof(PauseMenuManager::InitData), 49 + sizeof(bool) + 8 - (49 + sizeof(bool)) % 8> __GlobalNamespace_PauseMenuManager_InitDataSizeCheck;
+  check_size<sizeof(PauseMenuManager::InitData), 49 + sizeof(bool) + ((49 + sizeof(bool)) % 8 != 0 ? (8 - (49 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_PauseMenuManager_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseMenuManager::InitData*, "", "PauseMenuManager/InitData");

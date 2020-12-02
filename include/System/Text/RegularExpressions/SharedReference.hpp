@@ -31,7 +31,7 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void Object::.ctor()
     static SharedReference* New_ctor();
   }; // System.Text.RegularExpressions.SharedReference
-  check_size<sizeof(SharedReference), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Text_RegularExpressions_SharedReferenceSizeCheck;
+  check_size<sizeof(SharedReference), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Text_RegularExpressions_SharedReferenceSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::SharedReference*, "System.Text.RegularExpressions", "SharedReference");

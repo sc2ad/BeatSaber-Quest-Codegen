@@ -47,7 +47,7 @@ namespace System::Net::Sockets {
     // Set static field: static public System.Net.Sockets.IPProtectionLevel Restricted
     static void _set_Restricted(System::Net::Sockets::IPProtectionLevel value);
   }; // System.Net.Sockets.IPProtectionLevel
-  check_size<sizeof(IPProtectionLevel), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Net_Sockets_IPProtectionLevelSizeCheck;
+  check_size<sizeof(IPProtectionLevel), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Net_Sockets_IPProtectionLevelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::IPProtectionLevel, "System.Net.Sockets", "IPProtectionLevel");

@@ -62,7 +62,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static ReflectionMethodsCache* New_ctor();
   }; // UnityEngine.UI.ReflectionMethodsCache
-  check_size<sizeof(ReflectionMethodsCache), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __UnityEngine_UI_ReflectionMethodsCacheSizeCheck;
+  check_size<sizeof(ReflectionMethodsCache), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __UnityEngine_UI_ReflectionMethodsCacheSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ReflectionMethodsCache*, "UnityEngine.UI", "ReflectionMethodsCache");

@@ -66,7 +66,7 @@ namespace System::IO {
     // Base method: System.Void StreamWriter::Write(System.String val)
     void Write(::Il2CppString* val);
   }; // System.IO.CStreamWriter
-  check_size<sizeof(CStreamWriter), 104 + sizeof(void*) + 8 - (104 + sizeof(void*)) % 8> __System_IO_CStreamWriterSizeCheck;
+  check_size<sizeof(CStreamWriter), 104 + sizeof(void*) + ((104 + sizeof(void*)) % 8 != 0 ? (8 - (104 + sizeof(void*)) % 8) : 0)> __System_IO_CStreamWriterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::CStreamWriter*, "System.IO", "CStreamWriter");

@@ -59,7 +59,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static BodyTilt* New_ctor();
   }; // RootMotion.FinalIK.BodyTilt
-  check_size<sizeof(BodyTilt), 76 + sizeof(UnityEngine::Vector3) + 8 - (76 + sizeof(UnityEngine::Vector3)) % 8> __RootMotion_FinalIK_BodyTiltSizeCheck;
+  check_size<sizeof(BodyTilt), 76 + sizeof(UnityEngine::Vector3) + ((76 + sizeof(UnityEngine::Vector3)) % 8 != 0 ? (8 - (76 + sizeof(UnityEngine::Vector3)) % 8) : 0)> __RootMotion_FinalIK_BodyTiltSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::BodyTilt*, "RootMotion.FinalIK", "BodyTilt");

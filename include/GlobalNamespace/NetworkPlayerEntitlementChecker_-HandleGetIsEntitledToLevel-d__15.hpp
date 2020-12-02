@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // NetworkPlayerEntitlementChecker/<HandleGetIsEntitledToLevel>d__15
-  check_size<sizeof(NetworkPlayerEntitlementChecker::$HandleGetIsEntitledToLevel$d__15), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EntitlementsStatus>) + 8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EntitlementsStatus>)) % 8> __GlobalNamespace_NetworkPlayerEntitlementChecker_$HandleGetIsEntitledToLevel$d__15SizeCheck;
+  check_size<sizeof(NetworkPlayerEntitlementChecker::$HandleGetIsEntitledToLevel$d__15), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EntitlementsStatus>) + ((56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EntitlementsStatus>)) % 8 != 0 ? (8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EntitlementsStatus>)) % 8) : 0)> __GlobalNamespace_NetworkPlayerEntitlementChecker_$HandleGetIsEntitledToLevel$d__15SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerEntitlementChecker::$HandleGetIsEntitledToLevel$d__15, "", "NetworkPlayerEntitlementChecker/<HandleGetIsEntitledToLevel>d__15");

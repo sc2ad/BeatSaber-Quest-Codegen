@@ -55,7 +55,7 @@ namespace GlobalNamespace {
       // Set static field: static public HowToPlayViewController/HowToPlayOptions Credits
       static void _set_Credits(GlobalNamespace::HowToPlayViewController::HowToPlayOptions value);
     }; // HowToPlayViewController/HowToPlayOptions
-    check_size<sizeof(HowToPlayViewController::HowToPlayOptions), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_HowToPlayViewController_HowToPlayOptionsSizeCheck;
+    check_size<sizeof(HowToPlayViewController::HowToPlayOptions), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_HowToPlayViewController_HowToPlayOptionsSizeCheck;
     // private UnityEngine.UI.Button _tutorialButton
     // Offset: 0x70
     UnityEngine::UI::Button* tutorialButton;
@@ -96,7 +96,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static HowToPlayViewController* New_ctor();
   }; // HowToPlayViewController
-  check_size<sizeof(HowToPlayViewController), 128 + sizeof(void*) + 8 - (128 + sizeof(void*)) % 8> __GlobalNamespace_HowToPlayViewControllerSizeCheck;
+  check_size<sizeof(HowToPlayViewController), 128 + sizeof(void*) + ((128 + sizeof(void*)) % 8 != 0 ? (8 - (128 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_HowToPlayViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HowToPlayViewController*, "", "HowToPlayViewController");

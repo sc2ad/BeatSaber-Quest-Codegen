@@ -158,7 +158,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x12F76E8
     void RaiseOnDeserializingEvent(::Il2CppObject* obj);
   }; // System.Runtime.Serialization.ObjectManager
-  check_size<sizeof(ObjectManager), 72 + sizeof(System::Runtime::Serialization::StreamingContext) + 8 - (72 + sizeof(System::Runtime::Serialization::StreamingContext)) % 8> __System_Runtime_Serialization_ObjectManagerSizeCheck;
+  check_size<sizeof(ObjectManager), 72 + sizeof(System::Runtime::Serialization::StreamingContext) + ((72 + sizeof(System::Runtime::Serialization::StreamingContext)) % 8 != 0 ? (8 - (72 + sizeof(System::Runtime::Serialization::StreamingContext)) % 8) : 0)> __System_Runtime_Serialization_ObjectManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectManager*, "System.Runtime.Serialization", "ObjectManager");

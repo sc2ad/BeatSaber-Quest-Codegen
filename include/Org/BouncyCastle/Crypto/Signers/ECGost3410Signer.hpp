@@ -77,7 +77,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Base method: System.Void Object::.ctor()
     static ECGost3410Signer* New_ctor();
   }; // Org.BouncyCastle.Crypto.Signers.ECGost3410Signer
-  check_size<sizeof(ECGost3410Signer), 32 + sizeof(bool) + 8 - (32 + sizeof(bool)) % 8> __Org_BouncyCastle_Crypto_Signers_ECGost3410SignerSizeCheck;
+  check_size<sizeof(ECGost3410Signer), 32 + sizeof(bool) + ((32 + sizeof(bool)) % 8 != 0 ? (8 - (32 + sizeof(bool)) % 8) : 0)> __Org_BouncyCastle_Crypto_Signers_ECGost3410SignerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::ECGost3410Signer*, "Org.BouncyCastle.Crypto.Signers", "ECGost3410Signer");

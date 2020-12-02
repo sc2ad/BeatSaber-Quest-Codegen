@@ -181,7 +181,7 @@ namespace System::Collections::Specialized {
     // Base method: System.Void ICollection::CopyTo(System.Array array, System.Int32 index)
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
   }; // System.Collections.Specialized.NameObjectCollectionBase
-  check_size<sizeof(NameObjectCollectionBase), 64 + sizeof(int) + 8 - (64 + sizeof(int)) % 8> __System_Collections_Specialized_NameObjectCollectionBaseSizeCheck;
+  check_size<sizeof(NameObjectCollectionBase), 64 + sizeof(int) + ((64 + sizeof(int)) % 8 != 0 ? (8 - (64 + sizeof(int)) % 8) : 0)> __System_Collections_Specialized_NameObjectCollectionBaseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameObjectCollectionBase*, "System.Collections.Specialized", "NameObjectCollectionBase");

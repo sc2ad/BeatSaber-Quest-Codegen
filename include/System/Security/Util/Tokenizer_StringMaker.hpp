@@ -56,7 +56,7 @@ namespace System::Security::Util {
     // Base method: System.Void Object::.ctor()
     static Tokenizer::StringMaker* New_ctor();
   }; // System.Security.Util.Tokenizer/StringMaker
-  check_size<sizeof(Tokenizer::StringMaker), 48 + sizeof(int) + 8 - (48 + sizeof(int)) % 8> __System_Security_Util_Tokenizer_StringMakerSizeCheck;
+  check_size<sizeof(Tokenizer::StringMaker), 48 + sizeof(int) + ((48 + sizeof(int)) % 8 != 0 ? (8 - (48 + sizeof(int)) % 8) : 0)> __System_Security_Util_Tokenizer_StringMakerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::StringMaker*, "System.Security.Util", "Tokenizer/StringMaker");

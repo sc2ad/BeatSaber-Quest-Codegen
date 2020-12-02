@@ -113,7 +113,7 @@ namespace System::Resources {
     // Base method: System.Object ResourceSet::GetObject(System.String key, System.Boolean ignoreCase)
     ::Il2CppObject* GetObject(::Il2CppString* key, bool ignoreCase);
   }; // System.Resources.RuntimeResourceSet
-  check_size<sizeof(RuntimeResourceSet), 64 + sizeof(bool) + 8 - (64 + sizeof(bool)) % 8> __System_Resources_RuntimeResourceSetSizeCheck;
+  check_size<sizeof(RuntimeResourceSet), 64 + sizeof(bool) + ((64 + sizeof(bool)) % 8 != 0 ? (8 - (64 + sizeof(bool)) % 8) : 0)> __System_Resources_RuntimeResourceSetSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::RuntimeResourceSet*, "System.Resources", "RuntimeResourceSet");

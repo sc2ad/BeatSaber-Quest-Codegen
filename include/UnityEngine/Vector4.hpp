@@ -126,7 +126,7 @@ namespace UnityEngine {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Vector4
-  check_size<sizeof(Vector4), 12 + sizeof(float) + 8 - (12 + sizeof(float)) % 8> __UnityEngine_Vector4SizeCheck;
+  check_size<sizeof(Vector4), 12 + sizeof(float) + ((12 + sizeof(float)) % 8 != 0 ? (8 - (12 + sizeof(float)) % 8) : 0)> __UnityEngine_Vector4SizeCheck;
   // static public UnityEngine.Vector4 op_Addition(UnityEngine.Vector4 a, UnityEngine.Vector4 b)
   // Offset: 0x16CD998
   UnityEngine::Vector4 operator+(const UnityEngine::Vector4& a, const UnityEngine::Vector4& b);

@@ -42,7 +42,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.XYZColor
-  check_size<sizeof(XYZColor), 24 + sizeof(float) + 8 - (24 + sizeof(float)) % 8> __UnityEngine_ProBuilder_XYZColorSizeCheck;
+  check_size<sizeof(XYZColor), 24 + sizeof(float) + ((24 + sizeof(float)) % 8 != 0 ? (8 - (24 + sizeof(float)) % 8) : 0)> __UnityEngine_ProBuilder_XYZColorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::XYZColor*, "UnityEngine.ProBuilder", "XYZColor");

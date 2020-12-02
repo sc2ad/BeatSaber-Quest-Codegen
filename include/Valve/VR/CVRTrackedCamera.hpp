@@ -82,7 +82,7 @@ namespace Valve::VR {
     // Offset: 0x135C030
     Valve::VR::EVRTrackedCameraError ReleaseVideoStreamTextureGL(uint64_t hTrackedCamera, uint glTextureId);
   }; // Valve.VR.CVRTrackedCamera
-  check_size<sizeof(CVRTrackedCamera), 16 + sizeof(Valve::VR::IVRTrackedCamera) + 8 - (16 + sizeof(Valve::VR::IVRTrackedCamera)) % 8> __Valve_VR_CVRTrackedCameraSizeCheck;
+  check_size<sizeof(CVRTrackedCamera), 16 + sizeof(Valve::VR::IVRTrackedCamera) + ((16 + sizeof(Valve::VR::IVRTrackedCamera)) % 8 != 0 ? (8 - (16 + sizeof(Valve::VR::IVRTrackedCamera)) % 8) : 0)> __Valve_VR_CVRTrackedCameraSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRTrackedCamera*, "Valve.VR", "CVRTrackedCamera");

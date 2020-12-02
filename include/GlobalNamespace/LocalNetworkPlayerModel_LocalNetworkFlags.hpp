@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     // Set static field: static public LocalNetworkPlayerModel/LocalNetworkFlags OtherPlayersCanInvite
     static void _set_OtherPlayersCanInvite(GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkFlags value);
   }; // LocalNetworkPlayerModel/LocalNetworkFlags
-  check_size<sizeof(LocalNetworkPlayerModel::LocalNetworkFlags), 0 + sizeof(uint8_t) + 8 - (0 + sizeof(uint8_t)) % 8> __GlobalNamespace_LocalNetworkPlayerModel_LocalNetworkFlagsSizeCheck;
+  check_size<sizeof(LocalNetworkPlayerModel::LocalNetworkFlags), 0 + sizeof(uint8_t) + ((0 + sizeof(uint8_t)) % 8 != 0 ? (8 - (0 + sizeof(uint8_t)) % 8) : 0)> __GlobalNamespace_LocalNetworkPlayerModel_LocalNetworkFlagsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkFlags, "", "LocalNetworkPlayerModel/LocalNetworkFlags");

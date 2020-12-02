@@ -150,7 +150,7 @@ namespace System::Globalization {
     // Base method: System.Int32 Calendar::ToFourDigitYear(System.Int32 year)
     int ToFourDigitYear(int year);
   }; // System.Globalization.GregorianCalendar
-  check_size<sizeof(GregorianCalendar), 28 + sizeof(System::Globalization::GregorianCalendarTypes) + 8 - (28 + sizeof(System::Globalization::GregorianCalendarTypes)) % 8> __System_Globalization_GregorianCalendarSizeCheck;
+  check_size<sizeof(GregorianCalendar), 28 + sizeof(System::Globalization::GregorianCalendarTypes) + ((28 + sizeof(System::Globalization::GregorianCalendarTypes)) % 8 != 0 ? (8 - (28 + sizeof(System::Globalization::GregorianCalendarTypes)) % 8) : 0)> __System_Globalization_GregorianCalendarSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::GregorianCalendar*, "System.Globalization", "GregorianCalendar");

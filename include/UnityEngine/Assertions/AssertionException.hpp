@@ -29,7 +29,7 @@ namespace UnityEngine::Assertions {
     // Base method: System.String Exception::get_Message()
     ::Il2CppString* get_Message();
   }; // UnityEngine.Assertions.AssertionException
-  check_size<sizeof(AssertionException), 136 + sizeof(void*) + 8 - (136 + sizeof(void*)) % 8> __UnityEngine_Assertions_AssertionExceptionSizeCheck;
+  check_size<sizeof(AssertionException), 136 + sizeof(void*) + ((136 + sizeof(void*)) % 8 != 0 ? (8 - (136 + sizeof(void*)) % 8) : 0)> __UnityEngine_Assertions_AssertionExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Assertions::AssertionException*, "UnityEngine.Assertions", "AssertionException");

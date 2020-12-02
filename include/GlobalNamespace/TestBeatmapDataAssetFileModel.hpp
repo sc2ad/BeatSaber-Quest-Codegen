@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static TestBeatmapDataAssetFileModel* New_ctor();
   }; // TestBeatmapDataAssetFileModel
-  check_size<sizeof(TestBeatmapDataAssetFileModel), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_TestBeatmapDataAssetFileModelSizeCheck;
+  check_size<sizeof(TestBeatmapDataAssetFileModel), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_TestBeatmapDataAssetFileModelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestBeatmapDataAssetFileModel*, "", "TestBeatmapDataAssetFileModel");

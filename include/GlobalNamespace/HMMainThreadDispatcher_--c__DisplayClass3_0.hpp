@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static HMMainThreadDispatcher::$$c__DisplayClass3_0* New_ctor();
   }; // HMMainThreadDispatcher/<>c__DisplayClass3_0
-  check_size<sizeof(HMMainThreadDispatcher::$$c__DisplayClass3_0), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_HMMainThreadDispatcher_$$c__DisplayClass3_0SizeCheck;
+  check_size<sizeof(HMMainThreadDispatcher::$$c__DisplayClass3_0), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_HMMainThreadDispatcher_$$c__DisplayClass3_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass3_0*, "", "HMMainThreadDispatcher/<>c__DisplayClass3_0");

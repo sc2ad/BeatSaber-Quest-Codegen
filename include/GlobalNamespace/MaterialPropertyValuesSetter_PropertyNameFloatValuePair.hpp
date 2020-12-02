@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MaterialPropertyValuesSetter::PropertyNameFloatValuePair* New_ctor();
   }; // MaterialPropertyValuesSetter/PropertyNameFloatValuePair
-  check_size<sizeof(MaterialPropertyValuesSetter::PropertyNameFloatValuePair), 28 + sizeof(float) + 8 - (28 + sizeof(float)) % 8> __GlobalNamespace_MaterialPropertyValuesSetter_PropertyNameFloatValuePairSizeCheck;
+  check_size<sizeof(MaterialPropertyValuesSetter::PropertyNameFloatValuePair), 28 + sizeof(float) + ((28 + sizeof(float)) % 8 != 0 ? (8 - (28 + sizeof(float)) % 8) : 0)> __GlobalNamespace_MaterialPropertyValuesSetter_PropertyNameFloatValuePairSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*, "", "MaterialPropertyValuesSetter/PropertyNameFloatValuePair");

@@ -63,7 +63,7 @@ namespace System::Net::Http::Headers {
     // Base method: System.Void Object::.ctor()
     static HttpRequestHeaders* New_ctor();
   }; // System.Net.Http.Headers.HttpRequestHeaders
-  check_size<sizeof(HttpRequestHeaders), 32 + sizeof(System::Nullable_1<bool>) + 8 - (32 + sizeof(System::Nullable_1<bool>)) % 8> __System_Net_Http_Headers_HttpRequestHeadersSizeCheck;
+  check_size<sizeof(HttpRequestHeaders), 32 + sizeof(System::Nullable_1<bool>) + ((32 + sizeof(System::Nullable_1<bool>)) % 8 != 0 ? (8 - (32 + sizeof(System::Nullable_1<bool>)) % 8) : 0)> __System_Net_Http_Headers_HttpRequestHeadersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpRequestHeaders*, "System.Net.Http.Headers", "HttpRequestHeaders");

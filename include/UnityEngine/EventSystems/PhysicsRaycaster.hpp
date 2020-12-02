@@ -105,7 +105,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void BaseRaycaster::Raycast(UnityEngine.EventSystems.PointerEventData eventData, System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> resultAppendList)
     void Raycast(UnityEngine::EventSystems::PointerEventData* eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* resultAppendList);
   }; // UnityEngine.EventSystems.PhysicsRaycaster
-  check_size<sizeof(PhysicsRaycaster), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __UnityEngine_EventSystems_PhysicsRaycasterSizeCheck;
+  check_size<sizeof(PhysicsRaycaster), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __UnityEngine_EventSystems_PhysicsRaycasterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PhysicsRaycaster*, "UnityEngine.EventSystems", "PhysicsRaycaster");

@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LocalizationProvider* New_ctor();
   }; // LocalizationProvider
-  check_size<sizeof(LocalizationProvider), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_LocalizationProviderSizeCheck;
+  check_size<sizeof(LocalizationProvider), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_LocalizationProviderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizationProvider*, "", "LocalizationProvider");

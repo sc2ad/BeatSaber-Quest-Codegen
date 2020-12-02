@@ -23,7 +23,7 @@ namespace UnityEngine {
     // Offset: 0x1738104
     static RangeAttribute* New_ctor(float min, float max);
   }; // UnityEngine.RangeAttribute
-  check_size<sizeof(RangeAttribute), 20 + sizeof(float) + 8 - (20 + sizeof(float)) % 8> __UnityEngine_RangeAttributeSizeCheck;
+  check_size<sizeof(RangeAttribute), 20 + sizeof(float) + ((20 + sizeof(float)) % 8 != 0 ? (8 - (20 + sizeof(float)) % 8) : 0)> __UnityEngine_RangeAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RangeAttribute*, "UnityEngine", "RangeAttribute");

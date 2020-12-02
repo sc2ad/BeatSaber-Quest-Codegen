@@ -179,7 +179,7 @@ namespace System::IO {
     // Set static field: static public System.IO.MonoIOError ERROR_ENCRYPTION_FAILED
     static void _set_ERROR_ENCRYPTION_FAILED(System::IO::MonoIOError value);
   }; // System.IO.MonoIOError
-  check_size<sizeof(MonoIOError), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_IO_MonoIOErrorSizeCheck;
+  check_size<sizeof(MonoIOError), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_IO_MonoIOErrorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::MonoIOError, "System.IO", "MonoIOError");

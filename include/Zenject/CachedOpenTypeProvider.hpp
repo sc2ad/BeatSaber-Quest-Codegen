@@ -80,7 +80,7 @@ namespace Zenject {
     // Base method: System.Void IProvider::GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.CachedOpenTypeProvider
-  check_size<sizeof(CachedOpenTypeProvider), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Zenject_CachedOpenTypeProviderSizeCheck;
+  check_size<sizeof(CachedOpenTypeProvider), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Zenject_CachedOpenTypeProviderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::CachedOpenTypeProvider*, "Zenject", "CachedOpenTypeProvider");

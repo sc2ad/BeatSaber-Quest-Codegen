@@ -29,7 +29,7 @@ namespace System::Runtime::CompilerServices {
     // Set static field: static public System.Runtime.CompilerServices.CompilationRelaxations NoStringInterning
     static void _set_NoStringInterning(System::Runtime::CompilerServices::CompilationRelaxations value);
   }; // System.Runtime.CompilerServices.CompilationRelaxations
-  check_size<sizeof(CompilationRelaxations), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Runtime_CompilerServices_CompilationRelaxationsSizeCheck;
+  check_size<sizeof(CompilationRelaxations), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Runtime_CompilerServices_CompilationRelaxationsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::CompilationRelaxations, "System.Runtime.CompilerServices", "CompilationRelaxations");

@@ -91,7 +91,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
     ::Il2CppString* ToString(bool multiLine);
   }; // System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension
-  check_size<sizeof(X509BasicConstraintsExtension), 40 + sizeof(System::Security::Cryptography::AsnDecodeStatus) + 8 - (40 + sizeof(System::Security::Cryptography::AsnDecodeStatus)) % 8> __System_Security_Cryptography_X509Certificates_X509BasicConstraintsExtensionSizeCheck;
+  check_size<sizeof(X509BasicConstraintsExtension), 40 + sizeof(System::Security::Cryptography::AsnDecodeStatus) + ((40 + sizeof(System::Security::Cryptography::AsnDecodeStatus)) % 8 != 0 ? (8 - (40 + sizeof(System::Security::Cryptography::AsnDecodeStatus)) % 8) : 0)> __System_Security_Cryptography_X509Certificates_X509BasicConstraintsExtensionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension*, "System.Security.Cryptography.X509Certificates", "X509BasicConstraintsExtension");

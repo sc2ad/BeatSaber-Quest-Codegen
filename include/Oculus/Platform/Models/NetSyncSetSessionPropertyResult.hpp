@@ -34,7 +34,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DD370
     static NetSyncSetSessionPropertyResult* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.NetSyncSetSessionPropertyResult
-  check_size<sizeof(NetSyncSetSessionPropertyResult), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Oculus_Platform_Models_NetSyncSetSessionPropertyResultSizeCheck;
+  check_size<sizeof(NetSyncSetSessionPropertyResult), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __Oculus_Platform_Models_NetSyncSetSessionPropertyResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncSetSessionPropertyResult*, "Oculus.Platform.Models", "NetSyncSetSessionPropertyResult");

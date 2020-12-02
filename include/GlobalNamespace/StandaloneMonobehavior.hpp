@@ -125,7 +125,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static StandaloneMonobehavior* New_ctor();
   }; // StandaloneMonobehavior
-  check_size<sizeof(StandaloneMonobehavior), 40 + sizeof(int) + 8 - (40 + sizeof(int)) % 8> __GlobalNamespace_StandaloneMonobehaviorSizeCheck;
+  check_size<sizeof(StandaloneMonobehavior), 40 + sizeof(int) + ((40 + sizeof(int)) % 8 != 0 ? (8 - (40 + sizeof(int)) % 8) : 0)> __GlobalNamespace_StandaloneMonobehaviorSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandaloneMonobehavior*, "", "StandaloneMonobehavior");
 #pragma pack(pop)

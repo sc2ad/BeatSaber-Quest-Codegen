@@ -65,7 +65,7 @@ namespace NUnit::Framework::Internal {
     // Set static field: static public NUnit.Framework.Internal.InternalTraceLevel Verbose
     static void _set_Verbose(NUnit::Framework::Internal::InternalTraceLevel value);
   }; // NUnit.Framework.Internal.InternalTraceLevel
-  check_size<sizeof(InternalTraceLevel), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __NUnit_Framework_Internal_InternalTraceLevelSizeCheck;
+  check_size<sizeof(InternalTraceLevel), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __NUnit_Framework_Internal_InternalTraceLevelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InternalTraceLevel, "NUnit.Framework.Internal", "InternalTraceLevel");

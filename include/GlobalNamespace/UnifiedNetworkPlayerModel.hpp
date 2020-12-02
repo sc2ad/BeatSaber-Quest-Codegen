@@ -498,7 +498,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static UnifiedNetworkPlayerModel* New_ctor();
   }; // UnifiedNetworkPlayerModel
-  check_size<sizeof(UnifiedNetworkPlayerModel), 264 + sizeof(GlobalNamespace::GameplayServerFilter) + 8 - (264 + sizeof(GlobalNamespace::GameplayServerFilter)) % 8> __GlobalNamespace_UnifiedNetworkPlayerModelSizeCheck;
+  check_size<sizeof(UnifiedNetworkPlayerModel), 264 + sizeof(GlobalNamespace::GameplayServerFilter) + ((264 + sizeof(GlobalNamespace::GameplayServerFilter)) % 8 != 0 ? (8 - (264 + sizeof(GlobalNamespace::GameplayServerFilter)) % 8) : 0)> __GlobalNamespace_UnifiedNetworkPlayerModelSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel*, "", "UnifiedNetworkPlayerModel");
 #pragma pack(pop)

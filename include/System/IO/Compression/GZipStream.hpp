@@ -163,7 +163,7 @@ namespace System::IO::Compression {
     // Base method: System.Threading.Tasks.Task Stream::CopyToAsync(System.IO.Stream destination, System.Int32 bufferSize, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task* CopyToAsync(System::IO::Stream* destination, int bufferSize, System::Threading::CancellationToken cancellationToken);
   }; // System.IO.Compression.GZipStream
-  check_size<sizeof(GZipStream), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_IO_Compression_GZipStreamSizeCheck;
+  check_size<sizeof(GZipStream), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __System_IO_Compression_GZipStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::GZipStream*, "System.IO.Compression", "GZipStream");

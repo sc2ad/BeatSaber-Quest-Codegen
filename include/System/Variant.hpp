@@ -83,7 +83,7 @@ namespace System {
     // Offset: 0xCA41F0
     void Clear();
   }; // System.Variant
-  check_size<sizeof(Variant), 8 + sizeof(System::BRECORD) + 8 - (8 + sizeof(System::BRECORD)) % 8> __System_VariantSizeCheck;
+  check_size<sizeof(Variant), 8 + sizeof(System::BRECORD) + ((8 + sizeof(System::BRECORD)) % 8 != 0 ? (8 - (8 + sizeof(System::BRECORD)) % 8) : 0)> __System_VariantSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Variant, "System", "Variant");

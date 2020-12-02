@@ -40,7 +40,7 @@ namespace RootMotion {
     // Offset: 0x1741CC4
     static RootMotion::BipedLimbOrientations* get_MaxBiped();
   }; // RootMotion.BipedLimbOrientations
-  check_size<sizeof(BipedLimbOrientations), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __RootMotion_BipedLimbOrientationsSizeCheck;
+  check_size<sizeof(BipedLimbOrientations), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __RootMotion_BipedLimbOrientationsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedLimbOrientations*, "RootMotion", "BipedLimbOrientations");

@@ -82,7 +82,7 @@ namespace System::Diagnostics {
     // Base method: System.Void TraceListener::WriteLine(System.String message)
     void WriteLine(::Il2CppString* message);
   }; // System.Diagnostics.DefaultTraceListener
-  check_size<sizeof(DefaultTraceListener), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __System_Diagnostics_DefaultTraceListenerSizeCheck;
+  check_size<sizeof(DefaultTraceListener), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __System_Diagnostics_DefaultTraceListenerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DefaultTraceListener*, "System.Diagnostics", "DefaultTraceListener");

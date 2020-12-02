@@ -29,7 +29,7 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static public System.Diagnostics.Tracing.EventTask None
     static void _set_None(System::Diagnostics::Tracing::EventTask value);
   }; // System.Diagnostics.Tracing.EventTask
-  check_size<sizeof(EventTask), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Diagnostics_Tracing_EventTaskSizeCheck;
+  check_size<sizeof(EventTask), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Diagnostics_Tracing_EventTaskSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventTask, "System.Diagnostics.Tracing", "EventTask");

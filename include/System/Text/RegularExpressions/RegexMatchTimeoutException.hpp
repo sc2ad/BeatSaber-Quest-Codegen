@@ -65,7 +65,7 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void Exception::Init()
     void Init();
   }; // System.Text.RegularExpressions.RegexMatchTimeoutException
-  check_size<sizeof(RegexMatchTimeoutException), 152 + sizeof(System::TimeSpan) + 8 - (152 + sizeof(System::TimeSpan)) % 8> __System_Text_RegularExpressions_RegexMatchTimeoutExceptionSizeCheck;
+  check_size<sizeof(RegexMatchTimeoutException), 152 + sizeof(System::TimeSpan) + ((152 + sizeof(System::TimeSpan)) % 8 != 0 ? (8 - (152 + sizeof(System::TimeSpan)) % 8) : 0)> __System_Text_RegularExpressions_RegexMatchTimeoutExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexMatchTimeoutException*, "System.Text.RegularExpressions", "RegexMatchTimeoutException");

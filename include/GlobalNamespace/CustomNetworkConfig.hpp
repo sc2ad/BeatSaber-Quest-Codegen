@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     // Base method: System.String INetworkConfig::get_masterServerStatusUrl()
     ::Il2CppString* get_masterServerStatusUrl();
   }; // CustomNetworkConfig
-  check_size<sizeof(CustomNetworkConfig), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_CustomNetworkConfigSizeCheck;
+  check_size<sizeof(CustomNetworkConfig), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_CustomNetworkConfigSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomNetworkConfig*, "", "CustomNetworkConfig");

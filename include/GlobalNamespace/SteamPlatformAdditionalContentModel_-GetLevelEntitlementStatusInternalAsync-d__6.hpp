@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // SteamPlatformAdditionalContentModel/<GetLevelEntitlementStatusInternalAsync>d__6
-  check_size<sizeof(SteamPlatformAdditionalContentModel::$GetLevelEntitlementStatusInternalAsync$d__6), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>) + 8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>)) % 8> __GlobalNamespace_SteamPlatformAdditionalContentModel_$GetLevelEntitlementStatusInternalAsync$d__6SizeCheck;
+  check_size<sizeof(SteamPlatformAdditionalContentModel::$GetLevelEntitlementStatusInternalAsync$d__6), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>) + ((56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>)) % 8 != 0 ? (8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>)) % 8) : 0)> __GlobalNamespace_SteamPlatformAdditionalContentModel_$GetLevelEntitlementStatusInternalAsync$d__6SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamPlatformAdditionalContentModel::$GetLevelEntitlementStatusInternalAsync$d__6, "", "SteamPlatformAdditionalContentModel/<GetLevelEntitlementStatusInternalAsync>d__6");

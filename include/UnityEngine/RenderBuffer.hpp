@@ -23,7 +23,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: RenderBuffer
     constexpr RenderBuffer(int m_RenderTextureInstanceID_ = {}, System::IntPtr m_BufferPtr_ = {}) noexcept : m_RenderTextureInstanceID{m_RenderTextureInstanceID_}, m_BufferPtr{m_BufferPtr_} {}
   }; // UnityEngine.RenderBuffer
-  check_size<sizeof(RenderBuffer), 8 + sizeof(System::IntPtr) + 8 - (8 + sizeof(System::IntPtr)) % 8> __UnityEngine_RenderBufferSizeCheck;
+  check_size<sizeof(RenderBuffer), 8 + sizeof(System::IntPtr) + ((8 + sizeof(System::IntPtr)) % 8 != 0 ? (8 - (8 + sizeof(System::IntPtr)) % 8) : 0)> __UnityEngine_RenderBufferSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderBuffer, "UnityEngine", "RenderBuffer");

@@ -90,7 +90,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.GraphicRaycaster/BlockingObjects All
       static void _set_All(UnityEngine::UI::GraphicRaycaster::BlockingObjects value);
     }; // UnityEngine.UI.GraphicRaycaster/BlockingObjects
-    check_size<sizeof(GraphicRaycaster::BlockingObjects), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_UI_GraphicRaycaster_BlockingObjectsSizeCheck;
+    check_size<sizeof(GraphicRaycaster::BlockingObjects), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_UI_GraphicRaycaster_BlockingObjectsSizeCheck;
     // private System.Boolean m_IgnoreReversedGraphics
     // Offset: 0x20
     bool m_IgnoreReversedGraphics;
@@ -171,7 +171,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.UI.GraphicRaycaster
-  check_size<sizeof(GraphicRaycaster), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __UnityEngine_UI_GraphicRaycasterSizeCheck;
+  check_size<sizeof(GraphicRaycaster), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __UnityEngine_UI_GraphicRaycasterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRaycaster*, "UnityEngine.UI", "GraphicRaycaster");

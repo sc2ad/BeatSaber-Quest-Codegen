@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // NetEaseArcadeFlowCoordinator/<LogoutAsync>d__22
-  check_size<sizeof(NetEaseArcadeFlowCoordinator::$LogoutAsync$d__22), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::LogoutData>) + 8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::LogoutData>)) % 8> __GlobalNamespace_NetEaseArcadeFlowCoordinator_$LogoutAsync$d__22SizeCheck;
+  check_size<sizeof(NetEaseArcadeFlowCoordinator::$LogoutAsync$d__22), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::LogoutData>) + ((48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::LogoutData>)) % 8 != 0 ? (8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::LogoutData>)) % 8) : 0)> __GlobalNamespace_NetEaseArcadeFlowCoordinator_$LogoutAsync$d__22SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseArcadeFlowCoordinator::$LogoutAsync$d__22, "", "NetEaseArcadeFlowCoordinator/<LogoutAsync>d__22");

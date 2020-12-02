@@ -33,7 +33,7 @@ namespace System::Xml {
     // Offset: 0x14DF314
     uint8_t Pop();
   }; // System.Xml.ByteStack
-  check_size<sizeof(ByteStack), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __System_Xml_ByteStackSizeCheck;
+  check_size<sizeof(ByteStack), 32 + sizeof(int) + ((32 + sizeof(int)) % 8 != 0 ? (8 - (32 + sizeof(int)) % 8) : 0)> __System_Xml_ByteStackSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::ByteStack*, "System.Xml", "ByteStack");

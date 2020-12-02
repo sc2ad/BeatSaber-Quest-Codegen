@@ -53,7 +53,7 @@ namespace System::Collections {
     // Maps to method: Compare
     int System_Collections_IComparer_Compare(::Il2CppObject* a, ::Il2CppObject* b);
   }; // System.Collections.CaseInsensitiveComparer
-  check_size<sizeof(CaseInsensitiveComparer), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Collections_CaseInsensitiveComparerSizeCheck;
+  check_size<sizeof(CaseInsensitiveComparer), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Collections_CaseInsensitiveComparerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::CaseInsensitiveComparer*, "System.Collections", "CaseInsensitiveComparer");

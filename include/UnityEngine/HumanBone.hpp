@@ -27,7 +27,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: HumanBone
     constexpr HumanBone(::Il2CppString* m_BoneName_ = {}, ::Il2CppString* m_HumanName_ = {}, UnityEngine::HumanLimit limit_ = {}) noexcept : m_BoneName{m_BoneName_}, m_HumanName{m_HumanName_}, limit{limit_} {}
   }; // UnityEngine.HumanBone
-  check_size<sizeof(HumanBone), 16 + sizeof(UnityEngine::HumanLimit) + 8 - (16 + sizeof(UnityEngine::HumanLimit)) % 8> __UnityEngine_HumanBoneSizeCheck;
+  check_size<sizeof(HumanBone), 16 + sizeof(UnityEngine::HumanLimit) + ((16 + sizeof(UnityEngine::HumanLimit)) % 8 != 0 ? (8 - (16 + sizeof(UnityEngine::HumanLimit)) % 8) : 0)> __UnityEngine_HumanBoneSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanBone, "UnityEngine", "HumanBone");

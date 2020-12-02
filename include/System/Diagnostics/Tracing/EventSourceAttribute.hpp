@@ -44,7 +44,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     static EventSourceAttribute* New_ctor();
   }; // System.Diagnostics.Tracing.EventSourceAttribute
-  check_size<sizeof(EventSourceAttribute), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Diagnostics_Tracing_EventSourceAttributeSizeCheck;
+  check_size<sizeof(EventSourceAttribute), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_Diagnostics_Tracing_EventSourceAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSourceAttribute*, "System.Diagnostics.Tracing", "EventSourceAttribute");

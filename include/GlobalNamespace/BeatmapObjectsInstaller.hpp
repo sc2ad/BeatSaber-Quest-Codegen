@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BeatmapObjectsInstaller* New_ctor();
   }; // BeatmapObjectsInstaller
-  check_size<sizeof(BeatmapObjectsInstaller), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapObjectsInstallerSizeCheck;
+  check_size<sizeof(BeatmapObjectsInstaller), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_BeatmapObjectsInstallerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectsInstaller*, "", "BeatmapObjectsInstaller");

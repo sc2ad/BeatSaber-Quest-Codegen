@@ -83,7 +83,7 @@ namespace UnityEngine::Animations {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Animations.AnimationMotionXToDeltaPlayable other)
     bool Equals(UnityEngine::Animations::AnimationMotionXToDeltaPlayable other);
   }; // UnityEngine.Animations.AnimationMotionXToDeltaPlayable
-  check_size<sizeof(AnimationMotionXToDeltaPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle) + 8 - (0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8> __UnityEngine_Animations_AnimationMotionXToDeltaPlayableSizeCheck;
+  check_size<sizeof(AnimationMotionXToDeltaPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle) + ((0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8 != 0 ? (8 - (0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8) : 0)> __UnityEngine_Animations_AnimationMotionXToDeltaPlayableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationMotionXToDeltaPlayable, "UnityEngine.Animations", "AnimationMotionXToDeltaPlayable");

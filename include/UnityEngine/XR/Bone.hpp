@@ -52,7 +52,7 @@ namespace UnityEngine::XR {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.XR.Bone
-  check_size<sizeof(Bone), 8 + sizeof(uint) + 8 - (8 + sizeof(uint)) % 8> __UnityEngine_XR_BoneSizeCheck;
+  check_size<sizeof(Bone), 8 + sizeof(uint) + ((8 + sizeof(uint)) % 8 != 0 ? (8 - (8 + sizeof(uint)) % 8) : 0)> __UnityEngine_XR_BoneSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Bone, "UnityEngine.XR", "Bone");

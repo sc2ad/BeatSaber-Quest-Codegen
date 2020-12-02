@@ -385,7 +385,7 @@ namespace System::Globalization {
     // Base method: System.Void Object::.ctor()
     static CultureInfo* New_ctor();
   }; // System.Globalization.CultureInfo
-  check_size<sizeof(CultureInfo), 200 + sizeof(bool) + 8 - (200 + sizeof(bool)) % 8> __System_Globalization_CultureInfoSizeCheck;
+  check_size<sizeof(CultureInfo), 200 + sizeof(bool) + ((200 + sizeof(bool)) % 8 != 0 ? (8 - (200 + sizeof(bool)) % 8) : 0)> __System_Globalization_CultureInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureInfo*, "System.Globalization", "CultureInfo");

@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Set static field: static public ObstacleType Top
     static void _set_Top(GlobalNamespace::ObstacleType value);
   }; // ObstacleType
-  check_size<sizeof(ObstacleType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_ObstacleTypeSizeCheck;
+  check_size<sizeof(ObstacleType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_ObstacleTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleType, "", "ObstacleType");

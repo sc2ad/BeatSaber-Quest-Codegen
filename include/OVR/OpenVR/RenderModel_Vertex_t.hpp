@@ -29,7 +29,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: RenderModel_Vertex_t
     constexpr RenderModel_Vertex_t(OVR::OpenVR::HmdVector3_t vPosition_ = {}, OVR::OpenVR::HmdVector3_t vNormal_ = {}, float rfTextureCoord0_ = {}, float rfTextureCoord1_ = {}) noexcept : vPosition{vPosition_}, vNormal{vNormal_}, rfTextureCoord0{rfTextureCoord0_}, rfTextureCoord1{rfTextureCoord1_} {}
   }; // OVR.OpenVR.RenderModel_Vertex_t
-  check_size<sizeof(RenderModel_Vertex_t), 28 + sizeof(float) + 8 - (28 + sizeof(float)) % 8> __OVR_OpenVR_RenderModel_Vertex_tSizeCheck;
+  check_size<sizeof(RenderModel_Vertex_t), 28 + sizeof(float) + ((28 + sizeof(float)) % 8 != 0 ? (8 - (28 + sizeof(float)) % 8) : 0)> __OVR_OpenVR_RenderModel_Vertex_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_Vertex_t, "OVR.OpenVR", "RenderModel_Vertex_t");

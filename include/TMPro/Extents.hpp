@@ -32,7 +32,7 @@ namespace TMPro {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // TMPro.Extents
-  check_size<sizeof(Extents), 8 + sizeof(UnityEngine::Vector2) + 8 - (8 + sizeof(UnityEngine::Vector2)) % 8> __TMPro_ExtentsSizeCheck;
+  check_size<sizeof(Extents), 8 + sizeof(UnityEngine::Vector2) + ((8 + sizeof(UnityEngine::Vector2)) % 8 != 0 ? (8 - (8 + sizeof(UnityEngine::Vector2)) % 8) : 0)> __TMPro_ExtentsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::Extents, "TMPro", "Extents");

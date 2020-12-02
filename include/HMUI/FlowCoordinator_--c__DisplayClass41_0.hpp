@@ -47,7 +47,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static FlowCoordinator::$$c__DisplayClass41_0* New_ctor();
   }; // HMUI.FlowCoordinator/<>c__DisplayClass41_0
-  check_size<sizeof(FlowCoordinator::$$c__DisplayClass41_0), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __HMUI_FlowCoordinator_$$c__DisplayClass41_0SizeCheck;
+  check_size<sizeof(FlowCoordinator::$$c__DisplayClass41_0), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __HMUI_FlowCoordinator_$$c__DisplayClass41_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::FlowCoordinator::$$c__DisplayClass41_0*, "HMUI", "FlowCoordinator/<>c__DisplayClass41_0");

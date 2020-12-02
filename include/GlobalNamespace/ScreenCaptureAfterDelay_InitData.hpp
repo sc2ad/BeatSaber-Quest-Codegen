@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Offset: 0x198DA5C
     static ScreenCaptureAfterDelay::InitData* New_ctor(GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType, float screenCaptureTime, int pixelsWidth, int pixelsHeight);
   }; // ScreenCaptureAfterDelay/InitData
-  check_size<sizeof(ScreenCaptureAfterDelay::InitData), 28 + sizeof(int) + 8 - (28 + sizeof(int)) % 8> __GlobalNamespace_ScreenCaptureAfterDelay_InitDataSizeCheck;
+  check_size<sizeof(ScreenCaptureAfterDelay::InitData), 28 + sizeof(int) + ((28 + sizeof(int)) % 8 != 0 ? (8 - (28 + sizeof(int)) % 8) : 0)> __GlobalNamespace_ScreenCaptureAfterDelay_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureAfterDelay::InitData*, "", "ScreenCaptureAfterDelay/InitData");

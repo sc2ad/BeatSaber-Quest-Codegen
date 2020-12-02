@@ -190,7 +190,7 @@ namespace System::Threading {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Threading.ManualResetEventSlim
-  check_size<sizeof(ManualResetEventSlim), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __System_Threading_ManualResetEventSlimSizeCheck;
+  check_size<sizeof(ManualResetEventSlim), 32 + sizeof(int) + ((32 + sizeof(int)) % 8 != 0 ? (8 - (32 + sizeof(int)) % 8) : 0)> __System_Threading_ManualResetEventSlimSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ManualResetEventSlim*, "System.Threading", "ManualResetEventSlim");

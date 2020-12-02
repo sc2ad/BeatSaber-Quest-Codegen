@@ -56,7 +56,7 @@ namespace System::Net {
     // Base method: System.String IAuthenticationModule::get_AuthenticationType()
     ::Il2CppString* get_AuthenticationType();
   }; // System.Net.NtlmClient
-  check_size<sizeof(NtlmClient), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Net_NtlmClientSizeCheck;
+  check_size<sizeof(NtlmClient), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Net_NtlmClientSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NtlmClient*, "System.Net", "NtlmClient");

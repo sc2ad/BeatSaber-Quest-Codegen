@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PackLevelListHeaderTableCell* New_ctor();
   }; // PackLevelListHeaderTableCell
-  check_size<sizeof(PackLevelListHeaderTableCell), 128 + sizeof(void*) + 8 - (128 + sizeof(void*)) % 8> __GlobalNamespace_PackLevelListHeaderTableCellSizeCheck;
+  check_size<sizeof(PackLevelListHeaderTableCell), 128 + sizeof(void*) + ((128 + sizeof(void*)) % 8 != 0 ? (8 - (128 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_PackLevelListHeaderTableCellSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PackLevelListHeaderTableCell*, "", "PackLevelListHeaderTableCell");

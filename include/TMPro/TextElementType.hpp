@@ -35,7 +35,7 @@ namespace TMPro {
     // Set static field: static public TMPro.TextElementType Sprite
     static void _set_Sprite(TMPro::TextElementType value);
   }; // TMPro.TextElementType
-  check_size<sizeof(TextElementType), 0 + sizeof(uint8_t) + 8 - (0 + sizeof(uint8_t)) % 8> __TMPro_TextElementTypeSizeCheck;
+  check_size<sizeof(TextElementType), 0 + sizeof(uint8_t) + ((0 + sizeof(uint8_t)) % 8 != 0 ? (8 - (0 + sizeof(uint8_t)) % 8) : 0)> __TMPro_TextElementTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TextElementType, "TMPro", "TextElementType");

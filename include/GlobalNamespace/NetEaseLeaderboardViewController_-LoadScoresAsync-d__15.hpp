@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // NetEaseLeaderboardViewController/<LoadScoresAsync>d__15
-  check_size<sizeof(NetEaseLeaderboardViewController::$LoadScoresAsync$d__15), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::ReceivedHighscoreData>) + 8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::ReceivedHighscoreData>)) % 8> __GlobalNamespace_NetEaseLeaderboardViewController_$LoadScoresAsync$d__15SizeCheck;
+  check_size<sizeof(NetEaseLeaderboardViewController::$LoadScoresAsync$d__15), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::ReceivedHighscoreData>) + ((48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::ReceivedHighscoreData>)) % 8 != 0 ? (8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::ReceivedHighscoreData>)) % 8) : 0)> __GlobalNamespace_NetEaseLeaderboardViewController_$LoadScoresAsync$d__15SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseLeaderboardViewController::$LoadScoresAsync$d__15, "", "NetEaseLeaderboardViewController/<LoadScoresAsync>d__15");

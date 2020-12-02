@@ -32,7 +32,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0xCA684C
     AxisDirection(UnityEngine::Vector3 direction, UnityEngine::Vector3 axis);
   }; // RootMotion.FinalIK.IKSolverLimb/AxisDirection
-  check_size<sizeof(IKSolverLimb::AxisDirection), 24 + sizeof(float) + 8 - (24 + sizeof(float)) % 8> __RootMotion_FinalIK_IKSolverLimb_AxisDirectionSizeCheck;
+  check_size<sizeof(IKSolverLimb::AxisDirection), 24 + sizeof(float) + ((24 + sizeof(float)) % 8 != 0 ? (8 - (24 + sizeof(float)) % 8) : 0)> __RootMotion_FinalIK_IKSolverLimb_AxisDirectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLimb::AxisDirection, "RootMotion.FinalIK", "IKSolverLimb/AxisDirection");

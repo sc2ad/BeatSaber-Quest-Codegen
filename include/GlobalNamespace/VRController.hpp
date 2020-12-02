@@ -96,7 +96,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static VRController* New_ctor();
   }; // VRController
-  check_size<sizeof(VRController), 56 + sizeof(UnityEngine::Vector3) + 8 - (56 + sizeof(UnityEngine::Vector3)) % 8> __GlobalNamespace_VRControllerSizeCheck;
+  check_size<sizeof(VRController), 56 + sizeof(UnityEngine::Vector3) + ((56 + sizeof(UnityEngine::Vector3)) % 8 != 0 ? (8 - (56 + sizeof(UnityEngine::Vector3)) % 8) : 0)> __GlobalNamespace_VRControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRController*, "", "VRController");

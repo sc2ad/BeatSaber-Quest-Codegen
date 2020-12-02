@@ -32,7 +32,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Base method: System.Void Object::.ctor()
     static UserAuthenticationResult* New_ctor();
   }; // BeatSaberAPI.DataTransferObjects.UserAuthenticationResult
-  check_size<sizeof(UserAuthenticationResult), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __BeatSaberAPI_DataTransferObjects_UserAuthenticationResultSizeCheck;
+  check_size<sizeof(UserAuthenticationResult), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __BeatSaberAPI_DataTransferObjects_UserAuthenticationResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::UserAuthenticationResult*, "BeatSaberAPI.DataTransferObjects", "UserAuthenticationResult");

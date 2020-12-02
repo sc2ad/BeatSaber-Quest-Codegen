@@ -38,7 +38,7 @@ namespace System::Net::Configuration {
     // Base method: System.Void Object::.ctor()
     static SettingsSectionInternal* New_ctor();
   }; // System.Net.Configuration.SettingsSectionInternal
-  check_size<sizeof(SettingsSectionInternal), 20 + sizeof(System::Net::Sockets::IPProtectionLevel) + 8 - (20 + sizeof(System::Net::Sockets::IPProtectionLevel)) % 8> __System_Net_Configuration_SettingsSectionInternalSizeCheck;
+  check_size<sizeof(SettingsSectionInternal), 20 + sizeof(System::Net::Sockets::IPProtectionLevel) + ((20 + sizeof(System::Net::Sockets::IPProtectionLevel)) % 8 != 0 ? (8 - (20 + sizeof(System::Net::Sockets::IPProtectionLevel)) % 8) : 0)> __System_Net_Configuration_SettingsSectionInternalSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::SettingsSectionInternal*, "System.Net.Configuration", "SettingsSectionInternal");

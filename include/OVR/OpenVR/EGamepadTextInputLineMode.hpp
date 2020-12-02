@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EGamepadTextInputLineMode k_EGamepadTextInputLineModeMultipleLines
     static void _set_k_EGamepadTextInputLineModeMultipleLines(OVR::OpenVR::EGamepadTextInputLineMode value);
   }; // OVR.OpenVR.EGamepadTextInputLineMode
-  check_size<sizeof(EGamepadTextInputLineMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_EGamepadTextInputLineModeSizeCheck;
+  check_size<sizeof(EGamepadTextInputLineMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OVR_OpenVR_EGamepadTextInputLineModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EGamepadTextInputLineMode, "OVR.OpenVR", "EGamepadTextInputLineMode");

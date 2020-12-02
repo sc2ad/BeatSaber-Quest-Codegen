@@ -261,7 +261,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.UI.Text
-  check_size<sizeof(Text), 232 + sizeof(void*) + 8 - (232 + sizeof(void*)) % 8> __UnityEngine_UI_TextSizeCheck;
+  check_size<sizeof(Text), 232 + sizeof(void*) + ((232 + sizeof(void*)) % 8 != 0 ? (8 - (232 + sizeof(void*)) % 8) : 0)> __UnityEngine_UI_TextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Text*, "UnityEngine.UI", "Text");

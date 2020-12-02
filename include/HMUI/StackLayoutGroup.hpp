@@ -69,7 +69,7 @@ namespace HMUI {
     // Base method: System.Void LayoutGroup::SetLayoutVertical()
     void SetLayoutVertical();
   }; // HMUI.StackLayoutGroup
-  check_size<sizeof(StackLayoutGroup), 89 + sizeof(bool) + 8 - (89 + sizeof(bool)) % 8> __HMUI_StackLayoutGroupSizeCheck;
+  check_size<sizeof(StackLayoutGroup), 89 + sizeof(bool) + ((89 + sizeof(bool)) % 8 != 0 ? (8 - (89 + sizeof(bool)) % 8) : 0)> __HMUI_StackLayoutGroupSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::StackLayoutGroup*, "HMUI", "StackLayoutGroup");

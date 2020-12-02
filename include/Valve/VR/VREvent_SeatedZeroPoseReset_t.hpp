@@ -22,7 +22,7 @@ namespace Valve::VR {
       return bResetBySystemMenu;
     }
   }; // Valve.VR.VREvent_SeatedZeroPoseReset_t
-  check_size<sizeof(VREvent_SeatedZeroPoseReset_t), 0 + sizeof(bool) + 8 - (0 + sizeof(bool)) % 8> __Valve_VR_VREvent_SeatedZeroPoseReset_tSizeCheck;
+  check_size<sizeof(VREvent_SeatedZeroPoseReset_t), 0 + sizeof(bool) + ((0 + sizeof(bool)) % 8 != 0 ? (8 - (0 + sizeof(bool)) % 8) : 0)> __Valve_VR_VREvent_SeatedZeroPoseReset_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_SeatedZeroPoseReset_t, "Valve.VR", "VREvent_SeatedZeroPoseReset_t");

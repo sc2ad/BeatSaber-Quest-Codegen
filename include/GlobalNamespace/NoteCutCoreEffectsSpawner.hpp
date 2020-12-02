@@ -96,7 +96,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NoteCutCoreEffectsSpawner* New_ctor();
   }; // NoteCutCoreEffectsSpawner
-  check_size<sizeof(NoteCutCoreEffectsSpawner), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __GlobalNamespace_NoteCutCoreEffectsSpawnerSizeCheck;
+  check_size<sizeof(NoteCutCoreEffectsSpawner), 88 + sizeof(void*) + ((88 + sizeof(void*)) % 8 != 0 ? (8 - (88 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_NoteCutCoreEffectsSpawnerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutCoreEffectsSpawner*, "", "NoteCutCoreEffectsSpawner");

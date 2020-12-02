@@ -419,7 +419,7 @@ namespace Org::BouncyCastle::Math {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Math.BigInteger
-  check_size<sizeof(BigInteger), 36 + sizeof(int) + 8 - (36 + sizeof(int)) % 8> __Org_BouncyCastle_Math_BigIntegerSizeCheck;
+  check_size<sizeof(BigInteger), 36 + sizeof(int) + ((36 + sizeof(int)) % 8 != 0 ? (8 - (36 + sizeof(int)) % 8) : 0)> __Org_BouncyCastle_Math_BigIntegerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::BigInteger*, "Org.BouncyCastle.Math", "BigInteger");

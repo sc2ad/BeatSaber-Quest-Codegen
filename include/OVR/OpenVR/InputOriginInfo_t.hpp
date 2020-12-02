@@ -412,7 +412,7 @@ namespace OVR::OpenVR {
     // Offset: 0xC93850
     ::Il2CppString* get_rchRenderModelComponentName();
   }; // OVR.OpenVR.InputOriginInfo_t
-  check_size<sizeof(InputOriginInfo_t), 139 + sizeof(uint8_t) + 8 - (139 + sizeof(uint8_t)) % 8> __OVR_OpenVR_InputOriginInfo_tSizeCheck;
+  check_size<sizeof(InputOriginInfo_t), 139 + sizeof(uint8_t) + ((139 + sizeof(uint8_t)) % 8 != 0 ? (8 - (139 + sizeof(uint8_t)) % 8) : 0)> __OVR_OpenVR_InputOriginInfo_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::InputOriginInfo_t, "OVR.OpenVR", "InputOriginInfo_t");

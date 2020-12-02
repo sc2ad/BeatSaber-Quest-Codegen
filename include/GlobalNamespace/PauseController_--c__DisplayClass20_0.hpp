@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PauseController::$$c__DisplayClass20_0* New_ctor();
   }; // PauseController/<>c__DisplayClass20_0
-  check_size<sizeof(PauseController::$$c__DisplayClass20_0), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __GlobalNamespace_PauseController_$$c__DisplayClass20_0SizeCheck;
+  check_size<sizeof(PauseController::$$c__DisplayClass20_0), 16 + sizeof(bool) + ((16 + sizeof(bool)) % 8 != 0 ? (8 - (16 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_PauseController_$$c__DisplayClass20_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseController::$$c__DisplayClass20_0*, "", "PauseController/<>c__DisplayClass20_0");

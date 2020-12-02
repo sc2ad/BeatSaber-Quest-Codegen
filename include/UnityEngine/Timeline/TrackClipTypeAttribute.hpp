@@ -33,7 +33,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x19729A8
     static TrackClipTypeAttribute* New_ctor(System::Type* clipClass, bool allowAutoCreate);
   }; // UnityEngine.Timeline.TrackClipTypeAttribute
-  check_size<sizeof(TrackClipTypeAttribute), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __UnityEngine_Timeline_TrackClipTypeAttributeSizeCheck;
+  check_size<sizeof(TrackClipTypeAttribute), 24 + sizeof(bool) + ((24 + sizeof(bool)) % 8 != 0 ? (8 - (24 + sizeof(bool)) % 8) : 0)> __UnityEngine_Timeline_TrackClipTypeAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackClipTypeAttribute*, "UnityEngine.Timeline", "TrackClipTypeAttribute");

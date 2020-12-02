@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // SteamPlatformAdditionalContentModel/<DataIsValidAsync>d__8
-  check_size<sizeof(SteamPlatformAdditionalContentModel::$DataIsValidAsync$d__8), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>) + 8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>)) % 8> __GlobalNamespace_SteamPlatformAdditionalContentModel_$DataIsValidAsync$d__8SizeCheck;
+  check_size<sizeof(SteamPlatformAdditionalContentModel::$DataIsValidAsync$d__8), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>) + ((56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>)) % 8 != 0 ? (8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>)) % 8) : 0)> __GlobalNamespace_SteamPlatformAdditionalContentModel_$DataIsValidAsync$d__8SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamPlatformAdditionalContentModel::$DataIsValidAsync$d__8, "", "SteamPlatformAdditionalContentModel/<DataIsValidAsync>d__8");

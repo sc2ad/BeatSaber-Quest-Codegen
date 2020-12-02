@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerOtherPlayersScoreDiffTextManager* New_ctor();
   }; // MultiplayerOtherPlayersScoreDiffTextManager
-  check_size<sizeof(MultiplayerOtherPlayersScoreDiffTextManager), 72 + sizeof(float) + 8 - (72 + sizeof(float)) % 8> __GlobalNamespace_MultiplayerOtherPlayersScoreDiffTextManagerSizeCheck;
+  check_size<sizeof(MultiplayerOtherPlayersScoreDiffTextManager), 72 + sizeof(float) + ((72 + sizeof(float)) % 8 != 0 ? (8 - (72 + sizeof(float)) % 8) : 0)> __GlobalNamespace_MultiplayerOtherPlayersScoreDiffTextManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager*, "", "MultiplayerOtherPlayersScoreDiffTextManager");

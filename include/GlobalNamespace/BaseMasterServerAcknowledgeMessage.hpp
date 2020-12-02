@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BaseMasterServerAcknowledgeMessage* New_ctor();
   }; // BaseMasterServerAcknowledgeMessage
-  check_size<sizeof(BaseMasterServerAcknowledgeMessage), 20 + sizeof(bool) + 8 - (20 + sizeof(bool)) % 8> __GlobalNamespace_BaseMasterServerAcknowledgeMessageSizeCheck;
+  check_size<sizeof(BaseMasterServerAcknowledgeMessage), 20 + sizeof(bool) + ((20 + sizeof(bool)) % 8 != 0 ? (8 - (20 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_BaseMasterServerAcknowledgeMessageSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseMasterServerAcknowledgeMessage*, "", "BaseMasterServerAcknowledgeMessage");

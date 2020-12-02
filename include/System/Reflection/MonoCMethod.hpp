@@ -187,7 +187,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     static MonoCMethod* New_ctor();
   }; // System.Reflection.MonoCMethod
-  check_size<sizeof(MonoCMethod), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Reflection_MonoCMethodSizeCheck;
+  check_size<sizeof(MonoCMethod), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_Reflection_MonoCMethodSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoCMethod*, "System.Reflection", "MonoCMethod");

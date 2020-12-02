@@ -79,7 +79,7 @@ namespace System::Net {
     // Base method: System.Void IWebConnectionState::SetIdle()
     void SetIdle();
   }; // System.Net.WebConnectionGroup/ConnectionState
-  check_size<sizeof(WebConnectionGroup::ConnectionState), 40 + sizeof(System::DateTime) + 8 - (40 + sizeof(System::DateTime)) % 8> __System_Net_WebConnectionGroup_ConnectionStateSizeCheck;
+  check_size<sizeof(WebConnectionGroup::ConnectionState), 40 + sizeof(System::DateTime) + ((40 + sizeof(System::DateTime)) % 8 != 0 ? (8 - (40 + sizeof(System::DateTime)) % 8) : 0)> __System_Net_WebConnectionGroup_ConnectionStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionGroup::ConnectionState*, "System.Net", "WebConnectionGroup/ConnectionState");

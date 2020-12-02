@@ -35,7 +35,7 @@ namespace TMPro {
     // Offset: 0xCA67F4
     // ABORTED: conflicts with another method.  VertexGradient(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3);
   }; // TMPro.VertexGradient
-  check_size<sizeof(VertexGradient), 48 + sizeof(UnityEngine::Color) + 8 - (48 + sizeof(UnityEngine::Color)) % 8> __TMPro_VertexGradientSizeCheck;
+  check_size<sizeof(VertexGradient), 48 + sizeof(UnityEngine::Color) + ((48 + sizeof(UnityEngine::Color)) % 8 != 0 ? (8 - (48 + sizeof(UnityEngine::Color)) % 8) : 0)> __TMPro_VertexGradientSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::VertexGradient, "TMPro", "VertexGradient");

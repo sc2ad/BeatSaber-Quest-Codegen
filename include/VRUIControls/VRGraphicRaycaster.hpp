@@ -77,7 +77,7 @@ namespace VRUIControls {
       // Offset: 0xCB5D38
       // ABORTED: conflicts with another method.  VRGraphicRaycastResult(UnityEngine::UI::Graphic* graphic, float distance, UnityEngine::Vector3 position, UnityEngine::Vector2 insideRootCanvasPosition);
     }; // VRUIControls.VRGraphicRaycaster/VRGraphicRaycastResult
-    check_size<sizeof(VRGraphicRaycaster::VRGraphicRaycastResult), 24 + sizeof(UnityEngine::Vector2) + 8 - (24 + sizeof(UnityEngine::Vector2)) % 8> __VRUIControls_VRGraphicRaycaster_VRGraphicRaycastResultSizeCheck;
+    check_size<sizeof(VRGraphicRaycaster::VRGraphicRaycastResult), 24 + sizeof(UnityEngine::Vector2) + ((24 + sizeof(UnityEngine::Vector2)) % 8 != 0 ? (8 - (24 + sizeof(UnityEngine::Vector2)) % 8) : 0)> __VRUIControls_VRGraphicRaycaster_VRGraphicRaycastResultSizeCheck;
     // private UnityEngine.LayerMask _blockingMask
     // Offset: 0x20
     UnityEngine::LayerMask blockingMask;
@@ -138,7 +138,7 @@ namespace VRUIControls {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // VRUIControls.VRGraphicRaycaster
-  check_size<sizeof(VRGraphicRaycaster), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __VRUIControls_VRGraphicRaycasterSizeCheck;
+  check_size<sizeof(VRGraphicRaycaster), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __VRUIControls_VRGraphicRaycasterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRGraphicRaycaster*, "VRUIControls", "VRGraphicRaycaster");

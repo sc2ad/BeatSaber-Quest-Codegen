@@ -60,7 +60,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static HitReaction::HitPointEffector* New_ctor();
   }; // RootMotion.FinalIK.HitReaction/HitPointEffector
-  check_size<sizeof(HitReaction::HitPointEffector), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __RootMotion_FinalIK_HitReaction_HitPointEffectorSizeCheck;
+  check_size<sizeof(HitReaction::HitPointEffector), 96 + sizeof(void*) + ((96 + sizeof(void*)) % 8 != 0 ? (8 - (96 + sizeof(void*)) % 8) : 0)> __RootMotion_FinalIK_HitReaction_HitPointEffectorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction::HitPointEffector*, "RootMotion.FinalIK", "HitReaction/HitPointEffector");

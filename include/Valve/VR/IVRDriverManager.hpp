@@ -30,7 +30,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: IVRDriverManager
     constexpr IVRDriverManager(Valve::VR::IVRDriverManager::_GetDriverCount* GetDriverCount_ = {}, Valve::VR::IVRDriverManager::_GetDriverName* GetDriverName_ = {}) noexcept : GetDriverCount{GetDriverCount_}, GetDriverName{GetDriverName_} {}
   }; // Valve.VR.IVRDriverManager
-  check_size<sizeof(IVRDriverManager), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __Valve_VR_IVRDriverManagerSizeCheck;
+  check_size<sizeof(IVRDriverManager), 8 + sizeof(void*) + ((8 + sizeof(void*)) % 8 != 0 ? (8 - (8 + sizeof(void*)) % 8) : 0)> __Valve_VR_IVRDriverManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRDriverManager, "Valve.VR", "IVRDriverManager");

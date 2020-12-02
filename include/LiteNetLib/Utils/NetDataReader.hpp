@@ -295,7 +295,7 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void Object::.ctor()
     static NetDataReader* New_ctor();
   }; // LiteNetLib.Utils.NetDataReader
-  check_size<sizeof(NetDataReader), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __LiteNetLib_Utils_NetDataReaderSizeCheck;
+  check_size<sizeof(NetDataReader), 32 + sizeof(int) + ((32 + sizeof(int)) % 8 != 0 ? (8 - (32 + sizeof(int)) % 8) : 0)> __LiteNetLib_Utils_NetDataReaderSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetDataReader*, "LiteNetLib.Utils", "NetDataReader");
 #pragma pack(pop)

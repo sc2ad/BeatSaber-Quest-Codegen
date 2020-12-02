@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionHelpViewController::MissionHelpGameObjectPair* New_ctor();
   }; // MissionHelpViewController/MissionHelpGameObjectPair
-  check_size<sizeof(MissionHelpViewController::MissionHelpGameObjectPair), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_MissionHelpViewController_MissionHelpGameObjectPairSizeCheck;
+  check_size<sizeof(MissionHelpViewController::MissionHelpGameObjectPair), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MissionHelpViewController_MissionHelpGameObjectPairSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*, "", "MissionHelpViewController/MissionHelpGameObjectPair");

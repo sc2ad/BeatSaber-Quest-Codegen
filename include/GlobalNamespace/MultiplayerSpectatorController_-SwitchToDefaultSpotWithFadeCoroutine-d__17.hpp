@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MultiplayerSpectatorController/<SwitchToDefaultSpotWithFadeCoroutine>d__17
-  check_size<sizeof(MultiplayerSpectatorController::$SwitchToDefaultSpotWithFadeCoroutine$d__17), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerSpectatorController_$SwitchToDefaultSpotWithFadeCoroutine$d__17SizeCheck;
+  check_size<sizeof(MultiplayerSpectatorController::$SwitchToDefaultSpotWithFadeCoroutine$d__17), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MultiplayerSpectatorController_$SwitchToDefaultSpotWithFadeCoroutine$d__17SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatorController::$SwitchToDefaultSpotWithFadeCoroutine$d__17*, "", "MultiplayerSpectatorController/<SwitchToDefaultSpotWithFadeCoroutine>d__17");

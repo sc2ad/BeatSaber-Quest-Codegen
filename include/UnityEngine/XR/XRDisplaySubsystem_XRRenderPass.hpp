@@ -42,7 +42,7 @@ namespace UnityEngine::XR {
     // Creating value type constructor for type: XRRenderPass
     constexpr XRRenderPass(System::IntPtr displaySubsystemInstance_ = {}, int renderPassIndex_ = {}, UnityEngine::Rendering::RenderTargetIdentifier renderTarget_ = {}, UnityEngine::RenderTextureDescriptor renderTargetDesc_ = {}, bool shouldFillOutDepth_ = {}, int cullingPassIndex_ = {}) noexcept : displaySubsystemInstance{displaySubsystemInstance_}, renderPassIndex{renderPassIndex_}, renderTarget{renderTarget_}, renderTargetDesc{renderTargetDesc_}, shouldFillOutDepth{shouldFillOutDepth_}, cullingPassIndex{cullingPassIndex_} {}
   }; // UnityEngine.XR.XRDisplaySubsystem/XRRenderPass
-  check_size<sizeof(XRDisplaySubsystem::XRRenderPass), 112 + sizeof(int) + 8 - (112 + sizeof(int)) % 8> __UnityEngine_XR_XRDisplaySubsystem_XRRenderPassSizeCheck;
+  check_size<sizeof(XRDisplaySubsystem::XRRenderPass), 112 + sizeof(int) + ((112 + sizeof(int)) % 8 != 0 ? (8 - (112 + sizeof(int)) % 8) : 0)> __UnityEngine_XR_XRDisplaySubsystem_XRRenderPassSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDisplaySubsystem::XRRenderPass, "UnityEngine.XR", "XRDisplaySubsystem/XRRenderPass");

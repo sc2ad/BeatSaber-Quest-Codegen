@@ -40,7 +40,7 @@ namespace System::Globalization {
     // Offset: 0x112F5F0
     static void _cctor();
   }; // System.Globalization.CodePageDataItem
-  check_size<sizeof(CodePageDataItem), 32 + sizeof(uint) + 8 - (32 + sizeof(uint)) % 8> __System_Globalization_CodePageDataItemSizeCheck;
+  check_size<sizeof(CodePageDataItem), 32 + sizeof(uint) + ((32 + sizeof(uint)) % 8 != 0 ? (8 - (32 + sizeof(uint)) % 8) : 0)> __System_Globalization_CodePageDataItemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CodePageDataItem*, "System.Globalization", "CodePageDataItem");

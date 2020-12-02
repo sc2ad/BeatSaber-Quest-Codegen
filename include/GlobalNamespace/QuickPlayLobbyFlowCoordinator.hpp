@@ -296,7 +296,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static QuickPlayLobbyFlowCoordinator* New_ctor();
   }; // QuickPlayLobbyFlowCoordinator
-  check_size<sizeof(QuickPlayLobbyFlowCoordinator), 360 + sizeof(bool) + 8 - (360 + sizeof(bool)) % 8> __GlobalNamespace_QuickPlayLobbyFlowCoordinatorSizeCheck;
+  check_size<sizeof(QuickPlayLobbyFlowCoordinator), 360 + sizeof(bool) + ((360 + sizeof(bool)) % 8 != 0 ? (8 - (360 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_QuickPlayLobbyFlowCoordinatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlayLobbyFlowCoordinator*, "", "QuickPlayLobbyFlowCoordinator");

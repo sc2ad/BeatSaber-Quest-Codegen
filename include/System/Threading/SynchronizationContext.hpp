@@ -85,7 +85,7 @@ namespace System::Threading {
     // Base method: System.Void Object::.ctor()
     static SynchronizationContext* New_ctor();
   }; // System.Threading.SynchronizationContext
-  check_size<sizeof(SynchronizationContext), 16 + sizeof(System::Threading::SynchronizationContextProperties) + 8 - (16 + sizeof(System::Threading::SynchronizationContextProperties)) % 8> __System_Threading_SynchronizationContextSizeCheck;
+  check_size<sizeof(SynchronizationContext), 16 + sizeof(System::Threading::SynchronizationContextProperties) + ((16 + sizeof(System::Threading::SynchronizationContextProperties)) % 8 != 0 ? (8 - (16 + sizeof(System::Threading::SynchronizationContextProperties)) % 8) : 0)> __System_Threading_SynchronizationContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SynchronizationContext*, "System.Threading", "SynchronizationContext");

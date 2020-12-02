@@ -49,7 +49,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void Object::.ctor()
     static NativeTypeAttribute* New_ctor();
   }; // UnityEngine.Bindings.NativeTypeAttribute
-  check_size<sizeof(NativeTypeAttribute), 32 + sizeof(UnityEngine::Bindings::CodegenOptions) + 8 - (32 + sizeof(UnityEngine::Bindings::CodegenOptions)) % 8> __UnityEngine_Bindings_NativeTypeAttributeSizeCheck;
+  check_size<sizeof(NativeTypeAttribute), 32 + sizeof(UnityEngine::Bindings::CodegenOptions) + ((32 + sizeof(UnityEngine::Bindings::CodegenOptions)) % 8 != 0 ? (8 - (32 + sizeof(UnityEngine::Bindings::CodegenOptions)) % 8) : 0)> __UnityEngine_Bindings_NativeTypeAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeTypeAttribute*, "UnityEngine.Bindings", "NativeTypeAttribute");

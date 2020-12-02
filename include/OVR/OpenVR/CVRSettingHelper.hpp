@@ -24,7 +24,7 @@ namespace OVR::OpenVR {
       return m_pSettings;
     }
   }; // OVR.OpenVR.CVRSettingHelper
-  check_size<sizeof(CVRSettingHelper), 0 + sizeof(System::IntPtr) + 8 - (0 + sizeof(System::IntPtr)) % 8> __OVR_OpenVR_CVRSettingHelperSizeCheck;
+  check_size<sizeof(CVRSettingHelper), 0 + sizeof(System::IntPtr) + ((0 + sizeof(System::IntPtr)) % 8 != 0 ? (8 - (0 + sizeof(System::IntPtr)) % 8) : 0)> __OVR_OpenVR_CVRSettingHelperSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSettingHelper, "OVR.OpenVR", "CVRSettingHelper");

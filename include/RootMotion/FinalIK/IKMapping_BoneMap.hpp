@@ -178,7 +178,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static IKMapping::BoneMap* New_ctor();
   }; // RootMotion.FinalIK.IKMapping/BoneMap
-  check_size<sizeof(IKMapping::BoneMap), 204 + sizeof(int) + 8 - (204 + sizeof(int)) % 8> __RootMotion_FinalIK_IKMapping_BoneMapSizeCheck;
+  check_size<sizeof(IKMapping::BoneMap), 204 + sizeof(int) + ((204 + sizeof(int)) % 8 != 0 ? (8 - (204 + sizeof(int)) % 8) : 0)> __RootMotion_FinalIK_IKMapping_BoneMapSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMapping::BoneMap*, "RootMotion.FinalIK", "IKMapping/BoneMap");

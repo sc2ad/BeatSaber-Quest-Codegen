@@ -93,7 +93,7 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     // Base method: System.Byte[] IAsymmetricBlockCipher::ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* input, int inOff, int length);
   }; // Org.BouncyCastle.Crypto.Encodings.ISO9796d1Encoding
-  check_size<sizeof(ISO9796d1Encoding), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Encodings_ISO9796d1EncodingSizeCheck;
+  check_size<sizeof(ISO9796d1Encoding), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_Encodings_ISO9796d1EncodingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding*, "Org.BouncyCastle.Crypto.Encodings", "ISO9796d1Encoding");

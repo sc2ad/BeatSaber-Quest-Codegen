@@ -42,7 +42,7 @@ namespace UnityEngine::Scripting::APIUpdating {
     // Offset: 0xCA63BC
     void Set(bool autoUpdateAPI, ::Il2CppString* sourceNamespace, ::Il2CppString* sourceAssembly, ::Il2CppString* sourceClassName);
   }; // UnityEngine.Scripting.APIUpdating.MovedFromAttributeData
-  check_size<sizeof(MovedFromAttributeData), 27 + sizeof(bool) + 8 - (27 + sizeof(bool)) % 8> __UnityEngine_Scripting_APIUpdating_MovedFromAttributeDataSizeCheck;
+  check_size<sizeof(MovedFromAttributeData), 27 + sizeof(bool) + ((27 + sizeof(bool)) % 8 != 0 ? (8 - (27 + sizeof(bool)) % 8) : 0)> __UnityEngine_Scripting_APIUpdating_MovedFromAttributeDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, "UnityEngine.Scripting.APIUpdating", "MovedFromAttributeData");

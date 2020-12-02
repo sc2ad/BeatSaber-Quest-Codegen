@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // HTTPLeaderboardsModel/<SendLevelScoreResultAsync>d__11
-  check_size<sizeof(HTTPLeaderboardsModel::$SendLevelScoreResultAsync$d__11), 104 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::Response>) + 8 - (104 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::Response>)) % 8> __GlobalNamespace_HTTPLeaderboardsModel_$SendLevelScoreResultAsync$d__11SizeCheck;
+  check_size<sizeof(HTTPLeaderboardsModel::$SendLevelScoreResultAsync$d__11), 104 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::Response>) + ((104 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::Response>)) % 8 != 0 ? (8 - (104 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::Response>)) % 8) : 0)> __GlobalNamespace_HTTPLeaderboardsModel_$SendLevelScoreResultAsync$d__11SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HTTPLeaderboardsModel::$SendLevelScoreResultAsync$d__11, "", "HTTPLeaderboardsModel/<SendLevelScoreResultAsync>d__11");

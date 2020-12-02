@@ -35,7 +35,7 @@ namespace System::Net {
     // Offset: 0xC9C6FC
     bool IsEqualTo(::Il2CppString* value);
   }; // System.Net.CookieTokenizer/RecognizedAttribute
-  check_size<sizeof(CookieTokenizer::RecognizedAttribute), 8 + sizeof(System::Net::CookieToken) + 8 - (8 + sizeof(System::Net::CookieToken)) % 8> __System_Net_CookieTokenizer_RecognizedAttributeSizeCheck;
+  check_size<sizeof(CookieTokenizer::RecognizedAttribute), 8 + sizeof(System::Net::CookieToken) + ((8 + sizeof(System::Net::CookieToken)) % 8 != 0 ? (8 - (8 + sizeof(System::Net::CookieToken)) % 8) : 0)> __System_Net_CookieTokenizer_RecognizedAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieTokenizer::RecognizedAttribute, "System.Net", "CookieTokenizer/RecognizedAttribute");

@@ -28,7 +28,7 @@ namespace RootMotion {
     // Base method: System.Void Object::.ctor()
     static Comments* New_ctor();
   }; // RootMotion.Comments
-  check_size<sizeof(Comments), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __RootMotion_CommentsSizeCheck;
+  check_size<sizeof(Comments), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __RootMotion_CommentsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Comments*, "RootMotion", "Comments");

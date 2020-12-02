@@ -68,7 +68,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static TMP_TextElement* New_ctor();
   }; // TMPro.TMP_TextElement
-  check_size<sizeof(TMP_TextElement), 36 + sizeof(float) + 8 - (36 + sizeof(float)) % 8> __TMPro_TMP_TextElementSizeCheck;
+  check_size<sizeof(TMP_TextElement), 36 + sizeof(float) + ((36 + sizeof(float)) % 8 != 0 ? (8 - (36 + sizeof(float)) % 8) : 0)> __TMPro_TMP_TextElementSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextElement*, "TMPro", "TMP_TextElement");

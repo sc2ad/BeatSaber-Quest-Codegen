@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BeatmapLevelsModel/<GetBeatmapLevelAsync>d__37
-  check_size<sizeof(BeatmapLevelsModel::$GetBeatmapLevelAsync$d__37), 64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult>) + 8 - (64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult>)) % 8> __GlobalNamespace_BeatmapLevelsModel_$GetBeatmapLevelAsync$d__37SizeCheck;
+  check_size<sizeof(BeatmapLevelsModel::$GetBeatmapLevelAsync$d__37), 64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult>) + ((64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult>)) % 8 != 0 ? (8 - (64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult>)) % 8) : 0)> __GlobalNamespace_BeatmapLevelsModel_$GetBeatmapLevelAsync$d__37SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::$GetBeatmapLevelAsync$d__37, "", "BeatmapLevelsModel/<GetBeatmapLevelAsync>d__37");

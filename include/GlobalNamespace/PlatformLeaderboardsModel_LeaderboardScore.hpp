@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Offset: 0xF0ADFC
     static PlatformLeaderboardsModel::LeaderboardScore* New_ctor(int score, int rank, ::Il2CppString* playerName, ::Il2CppString* playerId, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* gameplayModifiers);
   }; // PlatformLeaderboardsModel/LeaderboardScore
-  check_size<sizeof(PlatformLeaderboardsModel::LeaderboardScore), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_PlatformLeaderboardsModel_LeaderboardScoreSizeCheck;
+  check_size<sizeof(PlatformLeaderboardsModel::LeaderboardScore), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_PlatformLeaderboardsModel_LeaderboardScoreSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*, "", "PlatformLeaderboardsModel/LeaderboardScore");

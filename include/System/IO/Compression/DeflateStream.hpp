@@ -149,7 +149,7 @@ namespace System::IO::Compression {
     // Base method: System.Void Stream::set_Position(System.Int64 value)
     void set_Position(int64_t value);
   }; // System.IO.Compression.DeflateStream
-  check_size<sizeof(DeflateStream), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __System_IO_Compression_DeflateStreamSizeCheck;
+  check_size<sizeof(DeflateStream), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __System_IO_Compression_DeflateStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStream*, "System.IO.Compression", "DeflateStream");

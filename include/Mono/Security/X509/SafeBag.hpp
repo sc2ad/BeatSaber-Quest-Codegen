@@ -34,7 +34,7 @@ namespace Mono::Security::X509 {
     // Offset: 0x19C0A88
     Mono::Security::ASN1* get_ASN1();
   }; // Mono.Security.X509.SafeBag
-  check_size<sizeof(SafeBag), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Mono_Security_X509_SafeBagSizeCheck;
+  check_size<sizeof(SafeBag), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Mono_Security_X509_SafeBagSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::SafeBag*, "Mono.Security.X509", "SafeBag");

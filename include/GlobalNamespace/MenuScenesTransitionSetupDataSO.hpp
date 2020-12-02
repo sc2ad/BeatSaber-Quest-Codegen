@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MenuScenesTransitionSetupDataSO* New_ctor();
   }; // MenuScenesTransitionSetupDataSO
-  check_size<sizeof(MenuScenesTransitionSetupDataSO), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __GlobalNamespace_MenuScenesTransitionSetupDataSOSizeCheck;
+  check_size<sizeof(MenuScenesTransitionSetupDataSO), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MenuScenesTransitionSetupDataSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuScenesTransitionSetupDataSO*, "", "MenuScenesTransitionSetupDataSO");

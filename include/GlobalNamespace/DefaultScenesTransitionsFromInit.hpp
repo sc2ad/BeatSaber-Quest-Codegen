@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static DefaultScenesTransitionsFromInit* New_ctor();
   }; // DefaultScenesTransitionsFromInit
-  check_size<sizeof(DefaultScenesTransitionsFromInit), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_DefaultScenesTransitionsFromInitSizeCheck;
+  check_size<sizeof(DefaultScenesTransitionsFromInit), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_DefaultScenesTransitionsFromInitSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DefaultScenesTransitionsFromInit*, "", "DefaultScenesTransitionsFromInit");

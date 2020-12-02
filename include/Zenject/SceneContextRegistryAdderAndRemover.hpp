@@ -55,7 +55,7 @@ namespace Zenject {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // Zenject.SceneContextRegistryAdderAndRemover
-  check_size<sizeof(SceneContextRegistryAdderAndRemover), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Zenject_SceneContextRegistryAdderAndRemoverSizeCheck;
+  check_size<sizeof(SceneContextRegistryAdderAndRemover), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Zenject_SceneContextRegistryAdderAndRemoverSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContextRegistryAdderAndRemover*, "Zenject", "SceneContextRegistryAdderAndRemover");

@@ -69,7 +69,7 @@ namespace TMPro {
     // Offset: 0xC929B0
     FontAssetCreationSettings(::Il2CppString* sourceFontFileGUID, int pointSize, int pointSizeSamplingMode, int padding, int packingMode, int atlasWidth, int atlasHeight, int characterSelectionMode, ::Il2CppString* characterSet, int renderMode);
   }; // TMPro.FontAssetCreationSettings
-  check_size<sizeof(FontAssetCreationSettings), 84 + sizeof(bool) + 8 - (84 + sizeof(bool)) % 8> __TMPro_FontAssetCreationSettingsSizeCheck;
+  check_size<sizeof(FontAssetCreationSettings), 84 + sizeof(bool) + ((84 + sizeof(bool)) % 8 != 0 ? (8 - (84 + sizeof(bool)) % 8) : 0)> __TMPro_FontAssetCreationSettingsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FontAssetCreationSettings, "TMPro", "FontAssetCreationSettings");

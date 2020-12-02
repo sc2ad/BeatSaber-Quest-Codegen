@@ -81,7 +81,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.String DerStringBase::GetString()
     ::Il2CppString* GetString();
   }; // Org.BouncyCastle.Asn1.DerBitString
-  check_size<sizeof(DerBitString), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __Org_BouncyCastle_Asn1_DerBitStringSizeCheck;
+  check_size<sizeof(DerBitString), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __Org_BouncyCastle_Asn1_DerBitStringSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerBitString*, "Org.BouncyCastle.Asn1", "DerBitString");

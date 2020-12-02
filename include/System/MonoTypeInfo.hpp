@@ -30,7 +30,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static MonoTypeInfo* New_ctor();
   }; // System.MonoTypeInfo
-  check_size<sizeof(MonoTypeInfo), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_MonoTypeInfoSizeCheck;
+  check_size<sizeof(MonoTypeInfo), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_MonoTypeInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::MonoTypeInfo*, "System", "MonoTypeInfo");

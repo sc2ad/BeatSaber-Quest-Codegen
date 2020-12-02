@@ -37,7 +37,7 @@ namespace HMUI {
     // Set static field: static public HMUI.ViewController/AnimationDirection Vertical
     static void _set_Vertical(HMUI::ViewController::AnimationDirection value);
   }; // HMUI.ViewController/AnimationDirection
-  check_size<sizeof(ViewController::AnimationDirection), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __HMUI_ViewController_AnimationDirectionSizeCheck;
+  check_size<sizeof(ViewController::AnimationDirection), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __HMUI_ViewController_AnimationDirectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewController::AnimationDirection, "HMUI", "ViewController/AnimationDirection");

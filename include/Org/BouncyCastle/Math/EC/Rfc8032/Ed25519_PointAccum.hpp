@@ -34,7 +34,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     // Base method: System.Void Object::.ctor()
     static Ed25519::PointAccum* New_ctor();
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/PointAccum
-  check_size<sizeof(Ed25519::PointAccum), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_EC_Rfc8032_Ed25519_PointAccumSizeCheck;
+  check_size<sizeof(Ed25519::PointAccum), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed25519_PointAccumSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointAccum");

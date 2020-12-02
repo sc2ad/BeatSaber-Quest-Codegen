@@ -83,7 +83,7 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.ShaderPropertyFlags MainColor
     static void _set_MainColor(UnityEngine::Rendering::ShaderPropertyFlags value);
   }; // UnityEngine.Rendering.ShaderPropertyFlags
-  check_size<sizeof(ShaderPropertyFlags), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Rendering_ShaderPropertyFlagsSizeCheck;
+  check_size<sizeof(ShaderPropertyFlags), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_Rendering_ShaderPropertyFlagsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ShaderPropertyFlags, "UnityEngine.Rendering", "ShaderPropertyFlags");

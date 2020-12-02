@@ -35,7 +35,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.VerticalWrapMode Overflow
     static void _set_Overflow(UnityEngine::VerticalWrapMode value);
   }; // UnityEngine.VerticalWrapMode
-  check_size<sizeof(VerticalWrapMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_VerticalWrapModeSizeCheck;
+  check_size<sizeof(VerticalWrapMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_VerticalWrapModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::VerticalWrapMode, "UnityEngine", "VerticalWrapMode");

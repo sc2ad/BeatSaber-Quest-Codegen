@@ -94,7 +94,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void Object::.ctor()
     static SkipjackEngine* New_ctor();
   }; // Org.BouncyCastle.Crypto.Engines.SkipjackEngine
-  check_size<sizeof(SkipjackEngine), 48 + sizeof(bool) + 8 - (48 + sizeof(bool)) % 8> __Org_BouncyCastle_Crypto_Engines_SkipjackEngineSizeCheck;
+  check_size<sizeof(SkipjackEngine), 48 + sizeof(bool) + ((48 + sizeof(bool)) % 8 != 0 ? (8 - (48 + sizeof(bool)) % 8) : 0)> __Org_BouncyCastle_Crypto_Engines_SkipjackEngineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::SkipjackEngine*, "Org.BouncyCastle.Crypto.Engines", "SkipjackEngine");

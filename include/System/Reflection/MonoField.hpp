@@ -162,7 +162,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     static MonoField* New_ctor();
   }; // System.Reflection.MonoField
-  check_size<sizeof(MonoField), 48 + sizeof(System::Reflection::FieldAttributes) + 8 - (48 + sizeof(System::Reflection::FieldAttributes)) % 8> __System_Reflection_MonoFieldSizeCheck;
+  check_size<sizeof(MonoField), 48 + sizeof(System::Reflection::FieldAttributes) + ((48 + sizeof(System::Reflection::FieldAttributes)) % 8 != 0 ? (8 - (48 + sizeof(System::Reflection::FieldAttributes)) % 8) : 0)> __System_Reflection_MonoFieldSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoField*, "System.Reflection", "MonoField");

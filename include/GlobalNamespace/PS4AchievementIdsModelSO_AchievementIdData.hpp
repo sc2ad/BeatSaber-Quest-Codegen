@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PS4AchievementIdsModelSO::AchievementIdData* New_ctor();
   }; // PS4AchievementIdsModelSO/AchievementIdData
-  check_size<sizeof(PS4AchievementIdsModelSO::AchievementIdData), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_PS4AchievementIdsModelSO_AchievementIdDataSizeCheck;
+  check_size<sizeof(PS4AchievementIdsModelSO::AchievementIdData), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_PS4AchievementIdsModelSO_AchievementIdDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*, "", "PS4AchievementIdsModelSO/AchievementIdData");

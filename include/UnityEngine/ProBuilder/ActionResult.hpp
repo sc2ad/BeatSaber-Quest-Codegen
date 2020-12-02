@@ -58,7 +58,7 @@ namespace UnityEngine::ProBuilder {
       // Set static field: static public UnityEngine.ProBuilder.ActionResult/Status NoChange
       static void _set_NoChange(UnityEngine::ProBuilder::ActionResult::Status value);
     }; // UnityEngine.ProBuilder.ActionResult/Status
-    check_size<sizeof(ActionResult::Status), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_ProBuilder_ActionResult_StatusSizeCheck;
+    check_size<sizeof(ActionResult::Status), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_ProBuilder_ActionResult_StatusSizeCheck;
     // private UnityEngine.ProBuilder.ActionResult/Status <status>k__BackingField
     // Offset: 0x10
     UnityEngine::ProBuilder::ActionResult::Status status;
@@ -96,7 +96,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x18840C0
     static UnityEngine::ProBuilder::ActionResult* get_UserCanceled();
   }; // UnityEngine.ProBuilder.ActionResult
-  check_size<sizeof(ActionResult), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_ActionResultSizeCheck;
+  check_size<sizeof(ActionResult), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __UnityEngine_ProBuilder_ActionResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ActionResult*, "UnityEngine.ProBuilder", "ActionResult");

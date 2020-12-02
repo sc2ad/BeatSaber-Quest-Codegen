@@ -51,7 +51,7 @@ namespace System {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.ConsoleKeyInfo
-  check_size<sizeof(ConsoleKeyInfo), 8 + sizeof(System::ConsoleModifiers) + 8 - (8 + sizeof(System::ConsoleModifiers)) % 8> __System_ConsoleKeyInfoSizeCheck;
+  check_size<sizeof(ConsoleKeyInfo), 8 + sizeof(System::ConsoleModifiers) + ((8 + sizeof(System::ConsoleModifiers)) % 8 != 0 ? (8 - (8 + sizeof(System::ConsoleModifiers)) % 8) : 0)> __System_ConsoleKeyInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ConsoleKeyInfo, "System", "ConsoleKeyInfo");

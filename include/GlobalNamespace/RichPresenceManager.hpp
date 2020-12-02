@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static RichPresenceManager* New_ctor();
   }; // RichPresenceManager
-  check_size<sizeof(RichPresenceManager), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __GlobalNamespace_RichPresenceManagerSizeCheck;
+  check_size<sizeof(RichPresenceManager), 96 + sizeof(void*) + ((96 + sizeof(void*)) % 8 != 0 ? (8 - (96 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_RichPresenceManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RichPresenceManager*, "", "RichPresenceManager");

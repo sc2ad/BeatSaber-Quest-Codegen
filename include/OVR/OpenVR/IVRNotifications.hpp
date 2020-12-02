@@ -30,7 +30,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: IVRNotifications
     constexpr IVRNotifications(OVR::OpenVR::IVRNotifications::_CreateNotification* CreateNotification_ = {}, OVR::OpenVR::IVRNotifications::_RemoveNotification* RemoveNotification_ = {}) noexcept : CreateNotification{CreateNotification_}, RemoveNotification{RemoveNotification_} {}
   }; // OVR.OpenVR.IVRNotifications
-  check_size<sizeof(IVRNotifications), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __OVR_OpenVR_IVRNotificationsSizeCheck;
+  check_size<sizeof(IVRNotifications), 8 + sizeof(void*) + ((8 + sizeof(void*)) % 8 != 0 ? (8 - (8 + sizeof(void*)) % 8) : 0)> __OVR_OpenVR_IVRNotificationsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRNotifications, "OVR.OpenVR", "IVRNotifications");

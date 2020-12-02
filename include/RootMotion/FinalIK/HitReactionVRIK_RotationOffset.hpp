@@ -62,7 +62,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static HitReactionVRIK::RotationOffset* New_ctor();
   }; // RootMotion.FinalIK.HitReactionVRIK/RotationOffset
-  check_size<sizeof(HitReactionVRIK::RotationOffset), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __RootMotion_FinalIK_HitReactionVRIK_RotationOffsetSizeCheck;
+  check_size<sizeof(HitReactionVRIK::RotationOffset), 96 + sizeof(void*) + ((96 + sizeof(void*)) % 8 != 0 ? (8 - (96 + sizeof(void*)) % 8) : 0)> __RootMotion_FinalIK_HitReactionVRIK_RotationOffsetSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK::RotationOffset*, "RootMotion.FinalIK", "HitReactionVRIK/RotationOffset");

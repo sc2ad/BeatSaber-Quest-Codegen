@@ -57,7 +57,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11F7B94
     OVR::OpenVR::EVRSpatialAnchorError GetSpatialAnchorDescriptor(uint unHandle, System::Text::StringBuilder* pchDescriptorOut, uint& punDescriptorBufferLenInOut);
   }; // OVR.OpenVR.CVRSpatialAnchors
-  check_size<sizeof(CVRSpatialAnchors), 16 + sizeof(OVR::OpenVR::IVRSpatialAnchors) + 8 - (16 + sizeof(OVR::OpenVR::IVRSpatialAnchors)) % 8> __OVR_OpenVR_CVRSpatialAnchorsSizeCheck;
+  check_size<sizeof(CVRSpatialAnchors), 16 + sizeof(OVR::OpenVR::IVRSpatialAnchors) + ((16 + sizeof(OVR::OpenVR::IVRSpatialAnchors)) % 8 != 0 ? (8 - (16 + sizeof(OVR::OpenVR::IVRSpatialAnchors)) % 8) : 0)> __OVR_OpenVR_CVRSpatialAnchorsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSpatialAnchors*, "OVR.OpenVR", "CVRSpatialAnchors");

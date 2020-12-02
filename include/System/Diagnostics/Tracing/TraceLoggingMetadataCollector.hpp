@@ -87,7 +87,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     static TraceLoggingMetadataCollector* New_ctor();
   }; // System.Diagnostics.Tracing.TraceLoggingMetadataCollector
-  check_size<sizeof(TraceLoggingMetadataCollector), 36 + sizeof(System::Diagnostics::Tracing::EventFieldTags) + 8 - (36 + sizeof(System::Diagnostics::Tracing::EventFieldTags)) % 8> __System_Diagnostics_Tracing_TraceLoggingMetadataCollectorSizeCheck;
+  check_size<sizeof(TraceLoggingMetadataCollector), 36 + sizeof(System::Diagnostics::Tracing::EventFieldTags) + ((36 + sizeof(System::Diagnostics::Tracing::EventFieldTags)) % 8 != 0 ? (8 - (36 + sizeof(System::Diagnostics::Tracing::EventFieldTags)) % 8) : 0)> __System_Diagnostics_Tracing_TraceLoggingMetadataCollectorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::TraceLoggingMetadataCollector*, "System.Diagnostics.Tracing", "TraceLoggingMetadataCollector");

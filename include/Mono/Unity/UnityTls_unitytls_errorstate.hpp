@@ -29,7 +29,7 @@ namespace Mono::Unity {
     // Creating value type constructor for type: unitytls_errorstate
     constexpr unitytls_errorstate(uint magic_ = {}, Mono::Unity::UnityTls::unitytls_error_code code_ = {}, uint64_t reserved_ = {}) noexcept : magic{magic_}, code{code_}, reserved{reserved_} {}
   }; // Mono.Unity.UnityTls/unitytls_errorstate
-  check_size<sizeof(UnityTls::unitytls_errorstate), 8 + sizeof(uint64_t) + 8 - (8 + sizeof(uint64_t)) % 8> __Mono_Unity_UnityTls_unitytls_errorstateSizeCheck;
+  check_size<sizeof(UnityTls::unitytls_errorstate), 8 + sizeof(uint64_t) + ((8 + sizeof(uint64_t)) % 8 != 0 ? (8 - (8 + sizeof(uint64_t)) % 8) : 0)> __Mono_Unity_UnityTls_unitytls_errorstateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_errorstate, "Mono.Unity", "UnityTls/unitytls_errorstate");

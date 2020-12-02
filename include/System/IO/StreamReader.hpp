@@ -205,7 +205,7 @@ namespace System::IO {
     // Base method: System.Void TextReader::.cctor()
     static void _cctor();
   }; // System.IO.StreamReader
-  check_size<sizeof(StreamReader), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __System_IO_StreamReaderSizeCheck;
+  check_size<sizeof(StreamReader), 96 + sizeof(void*) + ((96 + sizeof(void*)) % 8 != 0 ? (8 - (96 + sizeof(void*)) % 8) : 0)> __System_IO_StreamReaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StreamReader*, "System.IO", "StreamReader");

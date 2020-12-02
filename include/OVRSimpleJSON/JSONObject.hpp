@@ -133,7 +133,7 @@ namespace OVRSimpleJSON {
     // Base method: System.Void Object::.ctor()
     static JSONObject* New_ctor();
   }; // OVRSimpleJSON.JSONObject
-  check_size<sizeof(JSONObject), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __OVRSimpleJSON_JSONObjectSizeCheck;
+  check_size<sizeof(JSONObject), 24 + sizeof(bool) + ((24 + sizeof(bool)) % 8 != 0 ? (8 - (24 + sizeof(bool)) % 8) : 0)> __OVRSimpleJSON_JSONObjectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONObject*, "OVRSimpleJSON", "JSONObject");

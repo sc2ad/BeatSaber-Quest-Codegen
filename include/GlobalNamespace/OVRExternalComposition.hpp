@@ -125,7 +125,7 @@ namespace GlobalNamespace {
     // Base method: System.Void OVRComposition::Cleanup()
     void Cleanup();
   }; // OVRExternalComposition
-  check_size<sizeof(OVRExternalComposition), 160 + sizeof(int) + 8 - (160 + sizeof(int)) % 8> __GlobalNamespace_OVRExternalCompositionSizeCheck;
+  check_size<sizeof(OVRExternalComposition), 160 + sizeof(int) + ((160 + sizeof(int)) % 8 != 0 ? (8 - (160 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OVRExternalCompositionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRExternalComposition*, "", "OVRExternalComposition");

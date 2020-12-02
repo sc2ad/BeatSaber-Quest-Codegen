@@ -140,7 +140,7 @@ namespace Valve::VR {
     // Offset: 0x1366D38
     uint GetCurrentSceneProcessId();
   }; // Valve.VR.CVRApplications
-  check_size<sizeof(CVRApplications), 16 + sizeof(Valve::VR::IVRApplications) + 8 - (16 + sizeof(Valve::VR::IVRApplications)) % 8> __Valve_VR_CVRApplicationsSizeCheck;
+  check_size<sizeof(CVRApplications), 16 + sizeof(Valve::VR::IVRApplications) + ((16 + sizeof(Valve::VR::IVRApplications)) % 8 != 0 ? (8 - (16 + sizeof(Valve::VR::IVRApplications)) % 8) : 0)> __Valve_VR_CVRApplicationsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRApplications*, "Valve.VR", "CVRApplications");

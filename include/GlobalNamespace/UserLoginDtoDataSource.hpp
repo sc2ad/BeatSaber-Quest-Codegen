@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static UserLoginDtoDataSource* New_ctor();
   }; // UserLoginDtoDataSource
-  check_size<sizeof(UserLoginDtoDataSource), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_UserLoginDtoDataSourceSizeCheck;
+  check_size<sizeof(UserLoginDtoDataSource), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_UserLoginDtoDataSourceSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserLoginDtoDataSource*, "", "UserLoginDtoDataSource");

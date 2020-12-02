@@ -46,7 +46,7 @@ namespace UnityEngine::TestTools {
     // Offset: 0x118FE0C
     System::Collections::IEnumerator* Execute();
   }; // UnityEngine.TestTools.TestEnumerator
-  check_size<sizeof(TestEnumerator), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_TestTools_TestEnumeratorSizeCheck;
+  check_size<sizeof(TestEnumerator), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __UnityEngine_TestTools_TestEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestEnumerator*, "UnityEngine.TestTools", "TestEnumerator");

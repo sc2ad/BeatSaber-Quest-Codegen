@@ -58,7 +58,7 @@ namespace System::Text {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Text.DecoderReplacementFallback
-  check_size<sizeof(DecoderReplacementFallback), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Text_DecoderReplacementFallbackSizeCheck;
+  check_size<sizeof(DecoderReplacementFallback), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Text_DecoderReplacementFallbackSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderReplacementFallback*, "System.Text", "DecoderReplacementFallback");

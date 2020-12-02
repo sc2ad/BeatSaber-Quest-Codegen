@@ -53,7 +53,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECLookupTable::LookupVar(System.Int32 index)
     Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);
   }; // Org.BouncyCastle.Math.EC.Custom.Sec.SecT571K1Curve/SecT571K1LookupTable
-  check_size<sizeof(SecT571K1Curve::SecT571K1LookupTable), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __Org_BouncyCastle_Math_EC_Custom_Sec_SecT571K1Curve_SecT571K1LookupTableSizeCheck;
+  check_size<sizeof(SecT571K1Curve::SecT571K1LookupTable), 32 + sizeof(int) + ((32 + sizeof(int)) % 8 != 0 ? (8 - (32 + sizeof(int)) % 8) : 0)> __Org_BouncyCastle_Math_EC_Custom_Sec_SecT571K1Curve_SecT571K1LookupTableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecT571K1Curve::SecT571K1LookupTable*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecT571K1Curve/SecT571K1LookupTable");

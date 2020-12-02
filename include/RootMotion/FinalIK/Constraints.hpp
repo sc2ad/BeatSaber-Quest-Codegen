@@ -59,7 +59,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static Constraints* New_ctor();
   }; // RootMotion.FinalIK.Constraints
-  check_size<sizeof(Constraints), 84 + sizeof(float) + 8 - (84 + sizeof(float)) % 8> __RootMotion_FinalIK_ConstraintsSizeCheck;
+  check_size<sizeof(Constraints), 84 + sizeof(float) + ((84 + sizeof(float)) % 8 != 0 ? (8 - (84 + sizeof(float)) % 8) : 0)> __RootMotion_FinalIK_ConstraintsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Constraints*, "RootMotion.FinalIK", "Constraints");

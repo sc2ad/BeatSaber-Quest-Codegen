@@ -27,7 +27,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: HmdQuaternion_t
     constexpr HmdQuaternion_t(double w_ = {}, double x_ = {}, double y_ = {}, double z_ = {}) noexcept : w{w_}, x{x_}, y{y_}, z{z_} {}
   }; // Valve.VR.HmdQuaternion_t
-  check_size<sizeof(HmdQuaternion_t), 24 + sizeof(double) + 8 - (24 + sizeof(double)) % 8> __Valve_VR_HmdQuaternion_tSizeCheck;
+  check_size<sizeof(HmdQuaternion_t), 24 + sizeof(double) + ((24 + sizeof(double)) % 8 != 0 ? (8 - (24 + sizeof(double)) % 8) : 0)> __Valve_VR_HmdQuaternion_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HmdQuaternion_t, "Valve.VR", "HmdQuaternion_t");

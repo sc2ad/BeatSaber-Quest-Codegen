@@ -65,7 +65,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Base method: System.Void Object::.ctor()
     static PlayModeRunnerCallback* New_ctor();
   }; // UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
-  check_size<sizeof(PlayModeRunnerCallback), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_TestTools_TestRunner_Callbacks_PlayModeRunnerCallbackSizeCheck;
+  check_size<sizeof(PlayModeRunnerCallback), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __UnityEngine_TestTools_TestRunner_Callbacks_PlayModeRunnerCallbackSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback*, "UnityEngine.TestTools.TestRunner.Callbacks", "PlayModeRunnerCallback");

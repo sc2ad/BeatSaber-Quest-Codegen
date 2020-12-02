@@ -95,7 +95,7 @@ namespace Mono::Security::Interface {
     // Set static field: static public Mono.Security.Interface.TlsProtocols ServerMask
     static void _set_ServerMask(Mono::Security::Interface::TlsProtocols value);
   }; // Mono.Security.Interface.TlsProtocols
-  check_size<sizeof(TlsProtocols), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Mono_Security_Interface_TlsProtocolsSizeCheck;
+  check_size<sizeof(TlsProtocols), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Mono_Security_Interface_TlsProtocolsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::TlsProtocols, "Mono.Security.Interface", "TlsProtocols");

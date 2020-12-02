@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static FadeInOnSceneTransitionFinished* New_ctor();
   }; // FadeInOnSceneTransitionFinished
-  check_size<sizeof(FadeInOnSceneTransitionFinished), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_FadeInOnSceneTransitionFinishedSizeCheck;
+  check_size<sizeof(FadeInOnSceneTransitionFinished), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_FadeInOnSceneTransitionFinishedSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeInOnSceneTransitionFinished*, "", "FadeInOnSceneTransitionFinished");

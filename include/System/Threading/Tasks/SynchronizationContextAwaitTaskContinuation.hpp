@@ -71,7 +71,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void AwaitTaskContinuation::Run(System.Threading.Tasks.Task task, System.Boolean canInlineContinuationTask)
     void Run(System::Threading::Tasks::Task* task, bool canInlineContinuationTask);
   }; // System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation
-  check_size<sizeof(SynchronizationContextAwaitTaskContinuation), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Threading_Tasks_SynchronizationContextAwaitTaskContinuationSizeCheck;
+  check_size<sizeof(SynchronizationContextAwaitTaskContinuation), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_Threading_Tasks_SynchronizationContextAwaitTaskContinuationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation*, "System.Threading.Tasks", "SynchronizationContextAwaitTaskContinuation");

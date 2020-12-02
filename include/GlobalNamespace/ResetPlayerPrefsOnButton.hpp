@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ResetPlayerPrefsOnButton* New_ctor();
   }; // ResetPlayerPrefsOnButton
-  check_size<sizeof(ResetPlayerPrefsOnButton), 24 + sizeof(UnityEngine::KeyCode) + 8 - (24 + sizeof(UnityEngine::KeyCode)) % 8> __GlobalNamespace_ResetPlayerPrefsOnButtonSizeCheck;
+  check_size<sizeof(ResetPlayerPrefsOnButton), 24 + sizeof(UnityEngine::KeyCode) + ((24 + sizeof(UnityEngine::KeyCode)) % 8 != 0 ? (8 - (24 + sizeof(UnityEngine::KeyCode)) % 8) : 0)> __GlobalNamespace_ResetPlayerPrefsOnButtonSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResetPlayerPrefsOnButton*, "", "ResetPlayerPrefsOnButton");

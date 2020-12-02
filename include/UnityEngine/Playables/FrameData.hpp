@@ -78,7 +78,7 @@ namespace UnityEngine::Playables {
       // Set static field: static public UnityEngine.Playables.FrameData/Flags EffectivePlayStatePlaying
       static void _set_EffectivePlayStatePlaying(UnityEngine::Playables::FrameData::Flags value);
     }; // UnityEngine.Playables.FrameData/Flags
-    check_size<sizeof(FrameData::Flags), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Playables_FrameData_FlagsSizeCheck;
+    check_size<sizeof(FrameData::Flags), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_Playables_FrameData_FlagsSizeCheck;
     // System.UInt64 m_FrameID
     // Offset: 0x0
     uint64_t m_FrameID;
@@ -136,7 +136,7 @@ namespace UnityEngine::Playables {
     // Offset: 0xCA6F1C
     UnityEngine::Playables::PlayState get_effectivePlayState();
   }; // UnityEngine.Playables.FrameData
-  check_size<sizeof(FrameData), 48 + sizeof(UnityEngine::Playables::PlayableOutput) + 8 - (48 + sizeof(UnityEngine::Playables::PlayableOutput)) % 8> __UnityEngine_Playables_FrameDataSizeCheck;
+  check_size<sizeof(FrameData), 48 + sizeof(UnityEngine::Playables::PlayableOutput) + ((48 + sizeof(UnityEngine::Playables::PlayableOutput)) % 8 != 0 ? (8 - (48 + sizeof(UnityEngine::Playables::PlayableOutput)) % 8) : 0)> __UnityEngine_Playables_FrameDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::FrameData, "UnityEngine.Playables", "FrameData");

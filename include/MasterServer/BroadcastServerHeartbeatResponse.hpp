@@ -69,7 +69,7 @@ namespace MasterServer {
       // Set static field: static public MasterServer.BroadcastServerHeartbeatResponse/Result UnknownError
       static void _set_UnknownError(MasterServer::BroadcastServerHeartbeatResponse::Result value);
     }; // MasterServer.BroadcastServerHeartbeatResponse/Result
-    check_size<sizeof(BroadcastServerHeartbeatResponse::Result), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __MasterServer_BroadcastServerHeartbeatResponse_ResultSizeCheck;
+    check_size<sizeof(BroadcastServerHeartbeatResponse::Result), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __MasterServer_BroadcastServerHeartbeatResponse_ResultSizeCheck;
     // public MasterServer.BroadcastServerHeartbeatResponse/Result result
     // Offset: 0x10
     MasterServer::BroadcastServerHeartbeatResponse::Result result;
@@ -118,7 +118,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static BroadcastServerHeartbeatResponse* New_ctor();
   }; // MasterServer.BroadcastServerHeartbeatResponse
-  check_size<sizeof(BroadcastServerHeartbeatResponse), 16 + sizeof(MasterServer::BroadcastServerHeartbeatResponse::Result) + 8 - (16 + sizeof(MasterServer::BroadcastServerHeartbeatResponse::Result)) % 8> __MasterServer_BroadcastServerHeartbeatResponseSizeCheck;
+  check_size<sizeof(BroadcastServerHeartbeatResponse), 16 + sizeof(MasterServer::BroadcastServerHeartbeatResponse::Result) + ((16 + sizeof(MasterServer::BroadcastServerHeartbeatResponse::Result)) % 8 != 0 ? (8 - (16 + sizeof(MasterServer::BroadcastServerHeartbeatResponse::Result)) % 8) : 0)> __MasterServer_BroadcastServerHeartbeatResponseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BroadcastServerHeartbeatResponse*, "MasterServer", "BroadcastServerHeartbeatResponse");

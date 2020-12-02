@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Offset: 0x1876754
     static BloomPrePassLight::LightsDataItem* New_ctor(GlobalNamespace::BloomPrePassLightTypeSO* lightType, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>* lights);
   }; // BloomPrePassLight/LightsDataItem
-  check_size<sizeof(BloomPrePassLight::LightsDataItem), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_BloomPrePassLight_LightsDataItemSizeCheck;
+  check_size<sizeof(BloomPrePassLight::LightsDataItem), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_BloomPrePassLight_LightsDataItemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassLight::LightsDataItem*, "", "BloomPrePassLight/LightsDataItem");

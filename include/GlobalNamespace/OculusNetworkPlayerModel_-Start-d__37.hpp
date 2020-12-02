@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusNetworkPlayerModel/<Start>d__37
-  check_size<sizeof(OculusNetworkPlayerModel::$Start$d__37), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*>) + 8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*>)) % 8> __GlobalNamespace_OculusNetworkPlayerModel_$Start$d__37SizeCheck;
+  check_size<sizeof(OculusNetworkPlayerModel::$Start$d__37), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*>) + ((48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*>)) % 8 != 0 ? (8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*>)) % 8) : 0)> __GlobalNamespace_OculusNetworkPlayerModel_$Start$d__37SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusNetworkPlayerModel::$Start$d__37, "", "OculusNetworkPlayerModel/<Start>d__37");

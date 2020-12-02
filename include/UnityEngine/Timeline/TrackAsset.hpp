@@ -124,7 +124,7 @@ namespace UnityEngine::Timeline {
       // Offset: 0xCB59FC
       void Clear();
     }; // UnityEngine.Timeline.TrackAsset/TransientBuildData
-    check_size<sizeof(TrackAsset::TransientBuildData), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_Timeline_TrackAsset_TransientBuildDataSizeCheck;
+    check_size<sizeof(TrackAsset::TransientBuildData), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __UnityEngine_Timeline_TrackAsset_TransientBuildDataSizeCheck;
     // private System.Int32 m_Version
     // Offset: 0x18
     int m_Version;
@@ -576,7 +576,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.Timeline.TrackAsset
-  check_size<sizeof(TrackAsset), 136 + sizeof(UnityEngine::Timeline::MarkerList) + 8 - (136 + sizeof(UnityEngine::Timeline::MarkerList)) % 8> __UnityEngine_Timeline_TrackAssetSizeCheck;
+  check_size<sizeof(TrackAsset), 136 + sizeof(UnityEngine::Timeline::MarkerList) + ((136 + sizeof(UnityEngine::Timeline::MarkerList)) % 8 != 0 ? (8 - (136 + sizeof(UnityEngine::Timeline::MarkerList)) % 8) : 0)> __UnityEngine_Timeline_TrackAssetSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAsset*, "UnityEngine.Timeline", "TrackAsset");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAsset::TransientBuildData, "UnityEngine.Timeline", "TrackAsset/TransientBuildData");

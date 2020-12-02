@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BloomPrePassEffectSO* New_ctor();
   }; // BloomPrePassEffectSO
-  check_size<sizeof(BloomPrePassEffectSO), 40 + sizeof(float) + 8 - (40 + sizeof(float)) % 8> __GlobalNamespace_BloomPrePassEffectSOSizeCheck;
+  check_size<sizeof(BloomPrePassEffectSO), 40 + sizeof(float) + ((40 + sizeof(float)) % 8 != 0 ? (8 - (40 + sizeof(float)) % 8) : 0)> __GlobalNamespace_BloomPrePassEffectSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassEffectSO*, "", "BloomPrePassEffectSO");

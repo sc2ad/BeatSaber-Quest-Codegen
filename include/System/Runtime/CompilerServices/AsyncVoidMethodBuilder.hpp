@@ -91,7 +91,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0xC944E8
     System::Threading::Tasks::Task* get_Task();
   }; // System.Runtime.CompilerServices.AsyncVoidMethodBuilder
-  check_size<sizeof(AsyncVoidMethodBuilder), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Runtime_CompilerServices_AsyncVoidMethodBuilderSizeCheck;
+  check_size<sizeof(AsyncVoidMethodBuilder), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Runtime_CompilerServices_AsyncVoidMethodBuilderSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncVoidMethodBuilder, "System.Runtime.CompilerServices", "AsyncVoidMethodBuilder");
 #pragma pack(pop)

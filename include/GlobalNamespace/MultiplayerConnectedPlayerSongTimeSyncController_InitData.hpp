@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     // Offset: 0xFAB858
     static MultiplayerConnectedPlayerSongTimeSyncController::InitData* New_ctor(float startSongTime, float songTimeOffset, float timeScale);
   }; // MultiplayerConnectedPlayerSongTimeSyncController/InitData
-  check_size<sizeof(MultiplayerConnectedPlayerSongTimeSyncController::InitData), 24 + sizeof(float) + 8 - (24 + sizeof(float)) % 8> __GlobalNamespace_MultiplayerConnectedPlayerSongTimeSyncController_InitDataSizeCheck;
+  check_size<sizeof(MultiplayerConnectedPlayerSongTimeSyncController::InitData), 24 + sizeof(float) + ((24 + sizeof(float)) % 8 != 0 ? (8 - (24 + sizeof(float)) % 8) : 0)> __GlobalNamespace_MultiplayerConnectedPlayerSongTimeSyncController_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData*, "", "MultiplayerConnectedPlayerSongTimeSyncController/InitData");

@@ -324,7 +324,7 @@ namespace System::Net {
     // Base method: System.Void Stream::.cctor()
     static void _cctor();
   }; // System.Net.WebConnectionStream
-  check_size<sizeof(WebConnectionStream), 209 + sizeof(bool) + 8 - (209 + sizeof(bool)) % 8> __System_Net_WebConnectionStreamSizeCheck;
+  check_size<sizeof(WebConnectionStream), 209 + sizeof(bool) + ((209 + sizeof(bool)) % 8 != 0 ? (8 - (209 + sizeof(bool)) % 8) : 0)> __System_Net_WebConnectionStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionStream*, "System.Net", "WebConnectionStream");

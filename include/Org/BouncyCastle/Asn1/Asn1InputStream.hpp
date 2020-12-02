@@ -86,7 +86,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void FilterStream::.ctor(System.IO.Stream inputStream)
     static Asn1InputStream* New_ctor(System::IO::Stream* inputStream);
   }; // Org.BouncyCastle.Asn1.Asn1InputStream
-  check_size<sizeof(Asn1InputStream), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __Org_BouncyCastle_Asn1_Asn1InputStreamSizeCheck;
+  check_size<sizeof(Asn1InputStream), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Asn1_Asn1InputStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1InputStream*, "Org.BouncyCastle.Asn1", "Asn1InputStream");

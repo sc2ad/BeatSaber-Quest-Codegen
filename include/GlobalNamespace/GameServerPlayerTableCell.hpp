@@ -190,7 +190,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static GameServerPlayerTableCell* New_ctor();
   }; // GameServerPlayerTableCell
-  check_size<sizeof(GameServerPlayerTableCell), 248 + sizeof(void*) + 8 - (248 + sizeof(void*)) % 8> __GlobalNamespace_GameServerPlayerTableCellSizeCheck;
+  check_size<sizeof(GameServerPlayerTableCell), 248 + sizeof(void*) + ((248 + sizeof(void*)) % 8 != 0 ? (8 - (248 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_GameServerPlayerTableCellSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayerTableCell*, "", "GameServerPlayerTableCell");

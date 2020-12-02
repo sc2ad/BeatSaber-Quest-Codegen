@@ -116,7 +116,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A7A48C
     void SpawnNoteOrLongNote(GlobalNamespace::NoteData* noteData, float cutDirectionAngleOffset);
   }; // BeatmapCallbackItemDataList
-  check_size<sizeof(BeatmapCallbackItemDataList), 128 + sizeof(float) + 8 - (128 + sizeof(float)) % 8> __GlobalNamespace_BeatmapCallbackItemDataListSizeCheck;
+  check_size<sizeof(BeatmapCallbackItemDataList), 128 + sizeof(float) + ((128 + sizeof(float)) % 8 != 0 ? (8 - (128 + sizeof(float)) % 8) : 0)> __GlobalNamespace_BeatmapCallbackItemDataListSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCallbackItemDataList*, "", "BeatmapCallbackItemDataList");

@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MaterialPropertyValuesSetter::PropertyNameColorValuePair* New_ctor();
   }; // MaterialPropertyValuesSetter/PropertyNameColorValuePair
-  check_size<sizeof(MaterialPropertyValuesSetter::PropertyNameColorValuePair), 28 + sizeof(UnityEngine::Color) + 8 - (28 + sizeof(UnityEngine::Color)) % 8> __GlobalNamespace_MaterialPropertyValuesSetter_PropertyNameColorValuePairSizeCheck;
+  check_size<sizeof(MaterialPropertyValuesSetter::PropertyNameColorValuePair), 28 + sizeof(UnityEngine::Color) + ((28 + sizeof(UnityEngine::Color)) % 8 != 0 ? (8 - (28 + sizeof(UnityEngine::Color)) % 8) : 0)> __GlobalNamespace_MaterialPropertyValuesSetter_PropertyNameColorValuePairSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameColorValuePair*, "", "MaterialPropertyValuesSetter/PropertyNameColorValuePair");

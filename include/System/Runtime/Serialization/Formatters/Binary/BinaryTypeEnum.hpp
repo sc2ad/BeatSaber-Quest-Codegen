@@ -71,7 +71,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static public System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum PrimitiveArray
     static void _set_PrimitiveArray(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum value);
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum
-  check_size<sizeof(BinaryTypeEnum), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Runtime_Serialization_Formatters_Binary_BinaryTypeEnumSizeCheck;
+  check_size<sizeof(BinaryTypeEnum), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Runtime_Serialization_Formatters_Binary_BinaryTypeEnumSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, "System.Runtime.Serialization.Formatters.Binary", "BinaryTypeEnum");

@@ -70,7 +70,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static TMP_ScrollbarEventHandler* New_ctor();
   }; // TMPro.TMP_ScrollbarEventHandler
-  check_size<sizeof(TMP_ScrollbarEventHandler), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __TMPro_TMP_ScrollbarEventHandlerSizeCheck;
+  check_size<sizeof(TMP_ScrollbarEventHandler), 24 + sizeof(bool) + ((24 + sizeof(bool)) % 8 != 0 ? (8 - (24 + sizeof(bool)) % 8) : 0)> __TMPro_TMP_ScrollbarEventHandlerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_ScrollbarEventHandler*, "TMPro", "TMP_ScrollbarEventHandler");

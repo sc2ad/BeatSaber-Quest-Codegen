@@ -78,7 +78,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Base method: System.Int32 AsymmetricKeyParameter::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Crypto.Parameters.ECKeyParameters
-  check_size<sizeof(ECKeyParameters), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Parameters_ECKeyParametersSizeCheck;
+  check_size<sizeof(ECKeyParameters), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_Parameters_ECKeyParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "ECKeyParameters");

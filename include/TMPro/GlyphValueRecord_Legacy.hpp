@@ -37,7 +37,7 @@ namespace TMPro {
     // Offset: 0xC92A10
     GlyphValueRecord_Legacy(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
   }; // TMPro.GlyphValueRecord_Legacy
-  check_size<sizeof(GlyphValueRecord_Legacy), 12 + sizeof(float) + 8 - (12 + sizeof(float)) % 8> __TMPro_GlyphValueRecord_LegacySizeCheck;
+  check_size<sizeof(GlyphValueRecord_Legacy), 12 + sizeof(float) + ((12 + sizeof(float)) % 8 != 0 ? (8 - (12 + sizeof(float)) % 8) : 0)> __TMPro_GlyphValueRecord_LegacySizeCheck;
   // static public TMPro.GlyphValueRecord_Legacy op_Addition(TMPro.GlyphValueRecord_Legacy a, TMPro.GlyphValueRecord_Legacy b)
   // Offset: 0xF4E084
   TMPro::GlyphValueRecord_Legacy operator+(const TMPro::GlyphValueRecord_Legacy& a, const TMPro::GlyphValueRecord_Legacy& b);

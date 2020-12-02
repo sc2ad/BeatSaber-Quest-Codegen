@@ -37,7 +37,7 @@ namespace UnityEngine {
     // Base method: System.Boolean CustomYieldInstruction::get_keepWaiting()
     bool get_keepWaiting();
   }; // UnityEngine.WaitUntil
-  check_size<sizeof(WaitUntil), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_WaitUntilSizeCheck;
+  check_size<sizeof(WaitUntil), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __UnityEngine_WaitUntilSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitUntil*, "UnityEngine", "WaitUntil");

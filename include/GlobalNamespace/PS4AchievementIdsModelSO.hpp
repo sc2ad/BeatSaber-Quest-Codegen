@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PS4AchievementIdsModelSO* New_ctor();
   }; // PS4AchievementIdsModelSO
-  check_size<sizeof(PS4AchievementIdsModelSO), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_PS4AchievementIdsModelSOSizeCheck;
+  check_size<sizeof(PS4AchievementIdsModelSO), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_PS4AchievementIdsModelSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4AchievementIdsModelSO*, "", "PS4AchievementIdsModelSO");

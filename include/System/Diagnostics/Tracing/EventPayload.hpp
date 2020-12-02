@@ -145,7 +145,7 @@ namespace System::Diagnostics::Tracing {
     // Maps to method: Remove
     bool System_Collections_Generic_ICollection_1_Remove(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppObject*> entry);
   }; // System.Diagnostics.Tracing.EventPayload
-  check_size<sizeof(EventPayload), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Diagnostics_Tracing_EventPayloadSizeCheck;
+  check_size<sizeof(EventPayload), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Diagnostics_Tracing_EventPayloadSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventPayload*, "System.Diagnostics.Tracing", "EventPayload");

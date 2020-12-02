@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Offset: 0x10335B4
     void SetDiContainer(Zenject::DiContainer* container);
   }; // GameScenesManager/ScenesStackData
-  check_size<sizeof(GameScenesManager::ScenesStackData), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_GameScenesManager_ScenesStackDataSizeCheck;
+  check_size<sizeof(GameScenesManager::ScenesStackData), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_GameScenesManager_ScenesStackDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager::ScenesStackData*, "", "GameScenesManager/ScenesStackData");

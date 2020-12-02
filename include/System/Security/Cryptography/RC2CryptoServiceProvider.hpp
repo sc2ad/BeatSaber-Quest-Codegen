@@ -69,7 +69,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void RC2::.cctor()
     static void _cctor();
   }; // System.Security.Cryptography.RC2CryptoServiceProvider
-  check_size<sizeof(RC2CryptoServiceProvider), 72 + sizeof(bool) + 8 - (72 + sizeof(bool)) % 8> __System_Security_Cryptography_RC2CryptoServiceProviderSizeCheck;
+  check_size<sizeof(RC2CryptoServiceProvider), 72 + sizeof(bool) + ((72 + sizeof(bool)) % 8 != 0 ? (8 - (72 + sizeof(bool)) % 8) : 0)> __System_Security_Cryptography_RC2CryptoServiceProviderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RC2CryptoServiceProvider*, "System.Security.Cryptography", "RC2CryptoServiceProvider");

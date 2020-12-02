@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static TimelinePauseMarker* New_ctor();
   }; // TimelinePauseMarker
-  check_size<sizeof(TimelinePauseMarker), 40 + sizeof(UnityEngine::PropertyName) + 8 - (40 + sizeof(UnityEngine::PropertyName)) % 8> __GlobalNamespace_TimelinePauseMarkerSizeCheck;
+  check_size<sizeof(TimelinePauseMarker), 40 + sizeof(UnityEngine::PropertyName) + ((40 + sizeof(UnityEngine::PropertyName)) % 8 != 0 ? (8 - (40 + sizeof(UnityEngine::PropertyName)) % 8) : 0)> __GlobalNamespace_TimelinePauseMarkerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimelinePauseMarker*, "", "TimelinePauseMarker");

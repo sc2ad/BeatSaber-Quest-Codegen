@@ -57,7 +57,7 @@ namespace NUnit::Framework::Internal::Commands {
     // Offset: 0x13EF56C
     ::Il2CppObject* RunNonAsyncMethod(System::Reflection::MethodInfo* method, NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.Internal.Commands.SetUpTearDownItem
-  check_size<sizeof(SetUpTearDownItem), 32 + sizeof(bool) + 8 - (32 + sizeof(bool)) % 8> __NUnit_Framework_Internal_Commands_SetUpTearDownItemSizeCheck;
+  check_size<sizeof(SetUpTearDownItem), 32 + sizeof(bool) + ((32 + sizeof(bool)) % 8 != 0 ? (8 - (32 + sizeof(bool)) % 8) : 0)> __NUnit_Framework_Internal_Commands_SetUpTearDownItemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::SetUpTearDownItem*, "NUnit.Framework.Internal.Commands", "SetUpTearDownItem");

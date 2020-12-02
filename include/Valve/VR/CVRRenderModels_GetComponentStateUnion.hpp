@@ -26,7 +26,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: GetComponentStateUnion
     constexpr GetComponentStateUnion(Valve::VR::IVRRenderModels::_GetComponentState* pGetComponentState_ = {}, Valve::VR::CVRRenderModels::_GetComponentStatePacked* pGetComponentStatePacked_ = {}) noexcept : pGetComponentState{pGetComponentState_}, pGetComponentStatePacked{pGetComponentStatePacked_} {}
   }; // Valve.VR.CVRRenderModels/GetComponentStateUnion
-  check_size<sizeof(CVRRenderModels::GetComponentStateUnion), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __Valve_VR_CVRRenderModels_GetComponentStateUnionSizeCheck;
+  check_size<sizeof(CVRRenderModels::GetComponentStateUnion), 0 + sizeof(void*) + ((0 + sizeof(void*)) % 8 != 0 ? (8 - (0 + sizeof(void*)) % 8) : 0)> __Valve_VR_CVRRenderModels_GetComponentStateUnionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRRenderModels::GetComponentStateUnion, "Valve.VR", "CVRRenderModels/GetComponentStateUnion");

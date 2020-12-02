@@ -39,7 +39,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x146596C
     static ::Il2CppString* GetInformation(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
   }; // System.Security.Cryptography.X509Certificates.X509ChainStatus
-  check_size<sizeof(X509ChainStatus), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __System_Security_Cryptography_X509Certificates_X509ChainStatusSizeCheck;
+  check_size<sizeof(X509ChainStatus), 8 + sizeof(void*) + ((8 + sizeof(void*)) % 8 != 0 ? (8 - (8 + sizeof(void*)) % 8) : 0)> __System_Security_Cryptography_X509Certificates_X509ChainStatusSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainStatus, "System.Security.Cryptography.X509Certificates", "X509ChainStatus");

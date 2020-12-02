@@ -100,7 +100,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.Security.Cryptography.CryptoStream/<ReadAsyncInternal>d__34
-  check_size<sizeof(CryptoStream::$ReadAsyncInternal$d__34), 120 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter) + 8 - (120 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter)) % 8> __System_Security_Cryptography_CryptoStream_$ReadAsyncInternal$d__34SizeCheck;
+  check_size<sizeof(CryptoStream::$ReadAsyncInternal$d__34), 120 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter) + ((120 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter)) % 8 != 0 ? (8 - (120 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter)) % 8) : 0)> __System_Security_Cryptography_CryptoStream_$ReadAsyncInternal$d__34SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoStream::$ReadAsyncInternal$d__34, "System.Security.Cryptography", "CryptoStream/<ReadAsyncInternal>d__34");

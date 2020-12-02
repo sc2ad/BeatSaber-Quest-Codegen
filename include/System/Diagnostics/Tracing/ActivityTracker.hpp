@@ -78,7 +78,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::.ctor()
     static ActivityTracker* New_ctor();
   }; // System.Diagnostics.Tracing.ActivityTracker
-  check_size<sizeof(ActivityTracker), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __System_Diagnostics_Tracing_ActivityTrackerSizeCheck;
+  check_size<sizeof(ActivityTracker), 24 + sizeof(bool) + ((24 + sizeof(bool)) % 8 != 0 ? (8 - (24 + sizeof(bool)) % 8) : 0)> __System_Diagnostics_Tracing_ActivityTrackerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ActivityTracker*, "System.Diagnostics.Tracing", "ActivityTracker");

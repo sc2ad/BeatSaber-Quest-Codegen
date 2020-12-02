@@ -211,7 +211,7 @@ namespace System {
     // Base method: System.Type Object::GetType()
     System::Type* GetType();
   }; // System.Exception
-  check_size<sizeof(Exception), 128 + sizeof(void*) + 8 - (128 + sizeof(void*)) % 8> __System_ExceptionSizeCheck;
+  check_size<sizeof(Exception), 128 + sizeof(void*) + ((128 + sizeof(void*)) % 8 != 0 ? (8 - (128 + sizeof(void*)) % 8) : 0)> __System_ExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Exception*, "System", "Exception");

@@ -22,7 +22,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VREvent_Overlay_t
     constexpr VREvent_Overlay_t(uint64_t overlayHandle_ = {}, uint64_t devicePath_ = {}) noexcept : overlayHandle{overlayHandle_}, devicePath{devicePath_} {}
   }; // OVR.OpenVR.VREvent_Overlay_t
-  check_size<sizeof(VREvent_Overlay_t), 8 + sizeof(uint64_t) + 8 - (8 + sizeof(uint64_t)) % 8> __OVR_OpenVR_VREvent_Overlay_tSizeCheck;
+  check_size<sizeof(VREvent_Overlay_t), 8 + sizeof(uint64_t) + ((8 + sizeof(uint64_t)) % 8 != 0 ? (8 - (8 + sizeof(uint64_t)) % 8) : 0)> __OVR_OpenVR_VREvent_Overlay_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Overlay_t, "OVR.OpenVR", "VREvent_Overlay_t");

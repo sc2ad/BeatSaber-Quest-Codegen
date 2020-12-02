@@ -129,7 +129,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void SymmetricAlgorithm::GenerateKey()
     void GenerateKey();
   }; // System.Security.Cryptography.AesManaged
-  check_size<sizeof(AesManaged), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __System_Security_Cryptography_AesManagedSizeCheck;
+  check_size<sizeof(AesManaged), 72 + sizeof(void*) + ((72 + sizeof(void*)) % 8 != 0 ? (8 - (72 + sizeof(void*)) % 8) : 0)> __System_Security_Cryptography_AesManagedSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AesManaged*, "System.Security.Cryptography", "AesManaged");

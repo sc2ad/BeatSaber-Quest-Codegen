@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ScoreUIController* New_ctor();
   }; // ScoreUIController
-  check_size<sizeof(ScoreUIController), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_ScoreUIControllerSizeCheck;
+  check_size<sizeof(ScoreUIController), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_ScoreUIControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreUIController*, "", "ScoreUIController");

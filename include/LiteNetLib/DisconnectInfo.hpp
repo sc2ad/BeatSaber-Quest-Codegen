@@ -36,7 +36,7 @@ namespace LiteNetLib {
     // Creating value type constructor for type: DisconnectInfo
     constexpr DisconnectInfo(LiteNetLib::DisconnectReason Reason_ = {}, System::Net::Sockets::SocketError SocketErrorCode_ = {}, LiteNetLib::NetPacketReader* AdditionalData_ = {}) noexcept : Reason{Reason_}, SocketErrorCode{SocketErrorCode_}, AdditionalData{AdditionalData_} {}
   }; // LiteNetLib.DisconnectInfo
-  check_size<sizeof(DisconnectInfo), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __LiteNetLib_DisconnectInfoSizeCheck;
+  check_size<sizeof(DisconnectInfo), 8 + sizeof(void*) + ((8 + sizeof(void*)) % 8 != 0 ? (8 - (8 + sizeof(void*)) % 8) : 0)> __LiteNetLib_DisconnectInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::DisconnectInfo, "LiteNetLib", "DisconnectInfo");

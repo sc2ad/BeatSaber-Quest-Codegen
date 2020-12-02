@@ -53,7 +53,7 @@ namespace System::Threading::Tasks {
     // Set static field: static public System.Threading.Tasks.CausalityRelation Error
     static void _set_Error(System::Threading::Tasks::CausalityRelation value);
   }; // System.Threading.Tasks.CausalityRelation
-  check_size<sizeof(CausalityRelation), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Threading_Tasks_CausalityRelationSizeCheck;
+  check_size<sizeof(CausalityRelation), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Threading_Tasks_CausalityRelationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::CausalityRelation, "System.Threading.Tasks", "CausalityRelation");

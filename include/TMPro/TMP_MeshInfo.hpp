@@ -126,7 +126,7 @@ namespace TMPro {
     // Offset: 0xF88F08
     static void _cctor();
   }; // TMPro.TMP_MeshInfo
-  check_size<sizeof(TMP_MeshInfo), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __TMPro_TMP_MeshInfoSizeCheck;
+  check_size<sizeof(TMP_MeshInfo), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __TMPro_TMP_MeshInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MeshInfo, "TMPro", "TMP_MeshInfo");

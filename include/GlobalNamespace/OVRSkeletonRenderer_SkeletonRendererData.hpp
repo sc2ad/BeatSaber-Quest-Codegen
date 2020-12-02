@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Offset: 0xCB5ABC
     void set_ShouldUseSystemGestureMaterial(bool value);
   }; // OVRSkeletonRenderer/SkeletonRendererData
-  check_size<sizeof(OVRSkeletonRenderer::SkeletonRendererData), 6 + sizeof(bool) + 8 - (6 + sizeof(bool)) % 8> __GlobalNamespace_OVRSkeletonRenderer_SkeletonRendererDataSizeCheck;
+  check_size<sizeof(OVRSkeletonRenderer::SkeletonRendererData), 6 + sizeof(bool) + ((6 + sizeof(bool)) % 8 != 0 ? (8 - (6 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_OVRSkeletonRenderer_SkeletonRendererDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::SkeletonRendererData, "", "OVRSkeletonRenderer/SkeletonRendererData");

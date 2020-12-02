@@ -70,7 +70,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Crypto.Parameters.Gost3410Parameters
-  check_size<sizeof(Gost3410Parameters), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Parameters_Gost3410ParametersSizeCheck;
+  check_size<sizeof(Gost3410Parameters), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_Parameters_Gost3410ParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters*, "Org.BouncyCastle.Crypto.Parameters", "Gost3410Parameters");

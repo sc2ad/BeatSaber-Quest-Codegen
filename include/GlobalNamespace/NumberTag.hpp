@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NumberTag* New_ctor();
   }; // NumberTag
-  check_size<sizeof(NumberTag), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __GlobalNamespace_NumberTagSizeCheck;
+  check_size<sizeof(NumberTag), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __GlobalNamespace_NumberTagSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NumberTag*, "", "NumberTag");

@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Offset: 0x1974030
     static GlobalNamespace::VRControllersRecorderData::PositionAndRotation Lerp(GlobalNamespace::VRControllersRecorderData::PositionAndRotation a, GlobalNamespace::VRControllersRecorderData::PositionAndRotation b, float t);
   }; // VRControllersRecorderData/PositionAndRotation
-  check_size<sizeof(VRControllersRecorderData::PositionAndRotation), 12 + sizeof(UnityEngine::Quaternion) + 8 - (12 + sizeof(UnityEngine::Quaternion)) % 8> __GlobalNamespace_VRControllersRecorderData_PositionAndRotationSizeCheck;
+  check_size<sizeof(VRControllersRecorderData::PositionAndRotation), 12 + sizeof(UnityEngine::Quaternion) + ((12 + sizeof(UnityEngine::Quaternion)) % 8 != 0 ? (8 - (12 + sizeof(UnityEngine::Quaternion)) % 8) : 0)> __GlobalNamespace_VRControllersRecorderData_PositionAndRotationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData::PositionAndRotation, "", "VRControllersRecorderData/PositionAndRotation");

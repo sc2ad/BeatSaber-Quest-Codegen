@@ -57,7 +57,7 @@ namespace System::Text {
     // Base method: System.Boolean DecoderNLS::get_HasState()
     bool get_HasState();
   }; // System.Text.UTF7Encoding/Decoder
-  check_size<sizeof(UTF7Encoding::Decoder), 56 + sizeof(bool) + 8 - (56 + sizeof(bool)) % 8> __System_Text_UTF7Encoding_DecoderSizeCheck;
+  check_size<sizeof(UTF7Encoding::Decoder), 56 + sizeof(bool) + ((56 + sizeof(bool)) % 8 != 0 ? (8 - (56 + sizeof(bool)) % 8) : 0)> __System_Text_UTF7Encoding_DecoderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF7Encoding::Decoder*, "System.Text", "UTF7Encoding/Decoder");

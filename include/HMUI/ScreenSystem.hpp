@@ -112,7 +112,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static ScreenSystem* New_ctor();
   }; // HMUI.ScreenSystem
-  check_size<sizeof(ScreenSystem), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __HMUI_ScreenSystemSizeCheck;
+  check_size<sizeof(ScreenSystem), 96 + sizeof(void*) + ((96 + sizeof(void*)) % 8 != 0 ? (8 - (96 + sizeof(void*)) % 8) : 0)> __HMUI_ScreenSystemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenSystem*, "HMUI", "ScreenSystem");

@@ -49,7 +49,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
   }; // System.Runtime.Serialization.Formatters.Binary.IntSizedArray
-  check_size<sizeof(IntSizedArray), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Runtime_Serialization_Formatters_Binary_IntSizedArraySizeCheck;
+  check_size<sizeof(IntSizedArray), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Runtime_Serialization_Formatters_Binary_IntSizedArraySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::IntSizedArray*, "System.Runtime.Serialization.Formatters.Binary", "IntSizedArray");

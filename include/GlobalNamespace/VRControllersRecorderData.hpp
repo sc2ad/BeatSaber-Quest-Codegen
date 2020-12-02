@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     // Offset: 0x197420C
     int get_numberOfKeyframes();
   }; // VRControllersRecorderData
-  check_size<sizeof(VRControllersRecorderData), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_VRControllersRecorderDataSizeCheck;
+  check_size<sizeof(VRControllersRecorderData), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_VRControllersRecorderDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData*, "", "VRControllersRecorderData");

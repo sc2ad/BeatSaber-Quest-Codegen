@@ -41,7 +41,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.MixedLightingMode Subtractive
     static void _set_Subtractive(UnityEngine::MixedLightingMode value);
   }; // UnityEngine.MixedLightingMode
-  check_size<sizeof(MixedLightingMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_MixedLightingModeSizeCheck;
+  check_size<sizeof(MixedLightingMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_MixedLightingModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MixedLightingMode, "UnityEngine", "MixedLightingMode");

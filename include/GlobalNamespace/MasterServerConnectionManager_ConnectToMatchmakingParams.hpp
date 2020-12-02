@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MasterServerConnectionManager::ConnectToMatchmakingParams* New_ctor();
   }; // MasterServerConnectionManager/ConnectToMatchmakingParams
-  check_size<sizeof(MasterServerConnectionManager::ConnectToMatchmakingParams), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __GlobalNamespace_MasterServerConnectionManager_ConnectToMatchmakingParamsSizeCheck;
+  check_size<sizeof(MasterServerConnectionManager::ConnectToMatchmakingParams), 72 + sizeof(void*) + ((72 + sizeof(void*)) % 8 != 0 ? (8 - (72 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MasterServerConnectionManager_ConnectToMatchmakingParamsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::ConnectToMatchmakingParams*, "", "MasterServerConnectionManager/ConnectToMatchmakingParams");

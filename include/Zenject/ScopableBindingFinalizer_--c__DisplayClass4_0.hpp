@@ -42,7 +42,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static ScopableBindingFinalizer::$$c__DisplayClass4_0* New_ctor();
   }; // Zenject.ScopableBindingFinalizer/<>c__DisplayClass4_0
-  check_size<sizeof(ScopableBindingFinalizer::$$c__DisplayClass4_0), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Zenject_ScopableBindingFinalizer_$$c__DisplayClass4_0SizeCheck;
+  check_size<sizeof(ScopableBindingFinalizer::$$c__DisplayClass4_0), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Zenject_ScopableBindingFinalizer_$$c__DisplayClass4_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScopableBindingFinalizer::$$c__DisplayClass4_0*, "Zenject", "ScopableBindingFinalizer/<>c__DisplayClass4_0");

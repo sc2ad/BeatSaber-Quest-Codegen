@@ -30,7 +30,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: VREvent_t
     constexpr VREvent_t(uint eventType_ = {}, uint trackedDeviceIndex_ = {}, float eventAgeSeconds_ = {}, Valve::VR::VREvent_Data_t data_ = {}) noexcept : eventType{eventType_}, trackedDeviceIndex{trackedDeviceIndex_}, eventAgeSeconds{eventAgeSeconds_}, data{data_} {}
   }; // Valve.VR.VREvent_t
-  check_size<sizeof(VREvent_t), 16 + sizeof(Valve::VR::VREvent_Data_t) + 8 - (16 + sizeof(Valve::VR::VREvent_Data_t)) % 8> __Valve_VR_VREvent_tSizeCheck;
+  check_size<sizeof(VREvent_t), 16 + sizeof(Valve::VR::VREvent_Data_t) + ((16 + sizeof(Valve::VR::VREvent_Data_t)) % 8 != 0 ? (8 - (16 + sizeof(Valve::VR::VREvent_Data_t)) % 8) : 0)> __Valve_VR_VREvent_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_t, "Valve.VR", "VREvent_t");

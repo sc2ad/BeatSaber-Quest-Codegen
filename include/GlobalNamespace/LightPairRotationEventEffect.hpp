@@ -112,7 +112,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LightPairRotationEventEffect* New_ctor();
   }; // LightPairRotationEventEffect
-  check_size<sizeof(LightPairRotationEventEffect), 112 + sizeof(float) + 8 - (112 + sizeof(float)) % 8> __GlobalNamespace_LightPairRotationEventEffectSizeCheck;
+  check_size<sizeof(LightPairRotationEventEffect), 112 + sizeof(float) + ((112 + sizeof(float)) % 8 != 0 ? (8 - (112 + sizeof(float)) % 8) : 0)> __GlobalNamespace_LightPairRotationEventEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightPairRotationEventEffect*, "", "LightPairRotationEventEffect");

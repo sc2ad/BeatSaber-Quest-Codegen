@@ -49,7 +49,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Object::.ctor()
     static Task::$$c__DisplayClass178_0* New_ctor();
   }; // System.Threading.Tasks.Task/<>c__DisplayClass178_0
-  check_size<sizeof(Task::$$c__DisplayClass178_0), 44 + sizeof(System::Threading::Tasks::InternalTaskOptions) + 8 - (44 + sizeof(System::Threading::Tasks::InternalTaskOptions)) % 8> __System_Threading_Tasks_Task_$$c__DisplayClass178_0SizeCheck;
+  check_size<sizeof(Task::$$c__DisplayClass178_0), 44 + sizeof(System::Threading::Tasks::InternalTaskOptions) + ((44 + sizeof(System::Threading::Tasks::InternalTaskOptions)) % 8 != 0 ? (8 - (44 + sizeof(System::Threading::Tasks::InternalTaskOptions)) % 8) : 0)> __System_Threading_Tasks_Task_$$c__DisplayClass178_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::$$c__DisplayClass178_0*, "System.Threading.Tasks", "Task/<>c__DisplayClass178_0");

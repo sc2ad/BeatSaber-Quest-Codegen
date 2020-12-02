@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static JumpMarker* New_ctor();
   }; // JumpMarker
-  check_size<sizeof(JumpMarker), 48 + sizeof(UnityEngine::PropertyName) + 8 - (48 + sizeof(UnityEngine::PropertyName)) % 8> __GlobalNamespace_JumpMarkerSizeCheck;
+  check_size<sizeof(JumpMarker), 48 + sizeof(UnityEngine::PropertyName) + ((48 + sizeof(UnityEngine::PropertyName)) % 8 != 0 ? (8 - (48 + sizeof(UnityEngine::PropertyName)) % 8) : 0)> __GlobalNamespace_JumpMarkerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JumpMarker*, "", "JumpMarker");

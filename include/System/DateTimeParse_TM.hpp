@@ -43,7 +43,7 @@ namespace System {
     // Set static field: static public System.DateTimeParse/TM PM
     static void _set_PM(System::DateTimeParse::TM value);
   }; // System.DateTimeParse/TM
-  check_size<sizeof(DateTimeParse::TM), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_DateTimeParse_TMSizeCheck;
+  check_size<sizeof(DateTimeParse::TM), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_DateTimeParse_TMSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeParse::TM, "System", "DateTimeParse/TM");

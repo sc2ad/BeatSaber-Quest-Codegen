@@ -62,7 +62,7 @@ namespace System::Reflection {
     // Offset: 0x15CBB74
     static System::Reflection::MonoEventInfo GetEventInfo(System::Reflection::MonoEvent* ev);
   }; // System.Reflection.MonoEventInfo
-  check_size<sizeof(MonoEventInfo), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __System_Reflection_MonoEventInfoSizeCheck;
+  check_size<sizeof(MonoEventInfo), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __System_Reflection_MonoEventInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoEventInfo, "System.Reflection", "MonoEventInfo");

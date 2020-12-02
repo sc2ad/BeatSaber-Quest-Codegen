@@ -33,7 +33,7 @@ namespace System::IO {
     // Creating value type constructor for type: MonoIOStat
     constexpr MonoIOStat(System::IO::FileAttributes fileAttributes_ = {}, int64_t Length_ = {}, int64_t CreationTime_ = {}, int64_t LastAccessTime_ = {}, int64_t LastWriteTime_ = {}) noexcept : fileAttributes{fileAttributes_}, Length{Length_}, CreationTime{CreationTime_}, LastAccessTime{LastAccessTime_}, LastWriteTime{LastWriteTime_} {}
   }; // System.IO.MonoIOStat
-  check_size<sizeof(MonoIOStat), 32 + sizeof(int64_t) + 8 - (32 + sizeof(int64_t)) % 8> __System_IO_MonoIOStatSizeCheck;
+  check_size<sizeof(MonoIOStat), 32 + sizeof(int64_t) + ((32 + sizeof(int64_t)) % 8 != 0 ? (8 - (32 + sizeof(int64_t)) % 8) : 0)> __System_IO_MonoIOStatSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::MonoIOStat, "System.IO", "MonoIOStat");

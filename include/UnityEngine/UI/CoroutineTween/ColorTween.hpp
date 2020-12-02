@@ -66,7 +66,7 @@ namespace UnityEngine::UI::CoroutineTween {
       // Set static field: static public UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenMode Alpha
       static void _set_Alpha(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenMode value);
     }; // UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenMode
-    check_size<sizeof(ColorTween::ColorTweenMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_UI_CoroutineTween_ColorTween_ColorTweenModeSizeCheck;
+    check_size<sizeof(ColorTween::ColorTweenMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_UI_CoroutineTween_ColorTween_ColorTweenModeSizeCheck;
     // private UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenCallback m_Target
     // Offset: 0x0
     UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenCallback* m_Target;
@@ -145,7 +145,7 @@ namespace UnityEngine::UI::CoroutineTween {
     // Base method: System.Boolean ITweenValue::ValidTarget()
     bool ValidTarget();
   }; // UnityEngine.UI.CoroutineTween.ColorTween
-  check_size<sizeof(ColorTween), 48 + sizeof(bool) + 8 - (48 + sizeof(bool)) % 8> __UnityEngine_UI_CoroutineTween_ColorTweenSizeCheck;
+  check_size<sizeof(ColorTween), 48 + sizeof(bool) + ((48 + sizeof(bool)) % 8 != 0 ? (8 - (48 + sizeof(bool)) % 8) : 0)> __UnityEngine_UI_CoroutineTween_ColorTweenSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ColorTween, "UnityEngine.UI.CoroutineTween", "ColorTween");

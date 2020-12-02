@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // CachedMediaAsyncLoader/<LoadAudioClipAsync>d__5
-  check_size<sizeof(CachedMediaAsyncLoader::$LoadAudioClipAsync$d__5), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::AudioClip*>) + 8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::AudioClip*>)) % 8> __GlobalNamespace_CachedMediaAsyncLoader_$LoadAudioClipAsync$d__5SizeCheck;
+  check_size<sizeof(CachedMediaAsyncLoader::$LoadAudioClipAsync$d__5), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::AudioClip*>) + ((56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::AudioClip*>)) % 8 != 0 ? (8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::AudioClip*>)) % 8) : 0)> __GlobalNamespace_CachedMediaAsyncLoader_$LoadAudioClipAsync$d__5SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CachedMediaAsyncLoader::$LoadAudioClipAsync$d__5, "", "CachedMediaAsyncLoader/<LoadAudioClipAsync>d__5");

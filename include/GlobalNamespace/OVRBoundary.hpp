@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRBoundary* New_ctor();
   }; // OVRBoundary
-  check_size<sizeof(OVRBoundary), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_OVRBoundarySizeCheck;
+  check_size<sizeof(OVRBoundary), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_OVRBoundarySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoundary*, "", "OVRBoundary");

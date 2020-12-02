@@ -37,7 +37,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     static HttpWebRequest::$$c__DisplayClass238_0* New_ctor();
   }; // System.Net.HttpWebRequest/<>c__DisplayClass238_0
-  check_size<sizeof(HttpWebRequest::$$c__DisplayClass238_0), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Net_HttpWebRequest_$$c__DisplayClass238_0SizeCheck;
+  check_size<sizeof(HttpWebRequest::$$c__DisplayClass238_0), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Net_HttpWebRequest_$$c__DisplayClass238_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest::$$c__DisplayClass238_0*, "System.Net", "HttpWebRequest/<>c__DisplayClass238_0");

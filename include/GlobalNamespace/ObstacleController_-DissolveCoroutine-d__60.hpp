@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // ObstacleController/<DissolveCoroutine>d__60
-  check_size<sizeof(ObstacleController::$DissolveCoroutine$d__60), 40 + sizeof(float) + 8 - (40 + sizeof(float)) % 8> __GlobalNamespace_ObstacleController_$DissolveCoroutine$d__60SizeCheck;
+  check_size<sizeof(ObstacleController::$DissolveCoroutine$d__60), 40 + sizeof(float) + ((40 + sizeof(float)) % 8 != 0 ? (8 - (40 + sizeof(float)) % 8) : 0)> __GlobalNamespace_ObstacleController_$DissolveCoroutine$d__60SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleController::$DissolveCoroutine$d__60*, "", "ObstacleController/<DissolveCoroutine>d__60");

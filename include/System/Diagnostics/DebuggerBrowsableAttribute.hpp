@@ -26,7 +26,7 @@ namespace System::Diagnostics {
     // Offset: 0x1677790
     static DebuggerBrowsableAttribute* New_ctor(System::Diagnostics::DebuggerBrowsableState state);
   }; // System.Diagnostics.DebuggerBrowsableAttribute
-  check_size<sizeof(DebuggerBrowsableAttribute), 16 + sizeof(System::Diagnostics::DebuggerBrowsableState) + 8 - (16 + sizeof(System::Diagnostics::DebuggerBrowsableState)) % 8> __System_Diagnostics_DebuggerBrowsableAttributeSizeCheck;
+  check_size<sizeof(DebuggerBrowsableAttribute), 16 + sizeof(System::Diagnostics::DebuggerBrowsableState) + ((16 + sizeof(System::Diagnostics::DebuggerBrowsableState)) % 8 != 0 ? (8 - (16 + sizeof(System::Diagnostics::DebuggerBrowsableState)) % 8) : 0)> __System_Diagnostics_DebuggerBrowsableAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerBrowsableAttribute*, "System.Diagnostics", "DebuggerBrowsableAttribute");

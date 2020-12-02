@@ -78,7 +78,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static EventSystemListener* New_ctor();
   }; // HMUI.EventSystemListener
-  check_size<sizeof(EventSystemListener), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __HMUI_EventSystemListenerSizeCheck;
+  check_size<sizeof(EventSystemListener), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __HMUI_EventSystemListenerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::EventSystemListener*, "HMUI", "EventSystemListener");

@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/OverlayFlag Hidden
     static void _set_Hidden(GlobalNamespace::OVRPlugin::OverlayFlag value);
   }; // OVRPlugin/OverlayFlag
-  check_size<sizeof(OVRPlugin::OverlayFlag), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRPlugin_OverlayFlagSizeCheck;
+  check_size<sizeof(OVRPlugin::OverlayFlag), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OVRPlugin_OverlayFlagSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OverlayFlag, "", "OVRPlugin/OverlayFlag");

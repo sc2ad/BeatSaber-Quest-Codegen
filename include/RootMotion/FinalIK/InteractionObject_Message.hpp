@@ -48,7 +48,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static InteractionObject::Message* New_ctor();
   }; // RootMotion.FinalIK.InteractionObject/Message
-  check_size<sizeof(InteractionObject::Message), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __RootMotion_FinalIK_InteractionObject_MessageSizeCheck;
+  check_size<sizeof(InteractionObject::Message), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __RootMotion_FinalIK_InteractionObject_MessageSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::Message*, "RootMotion.FinalIK", "InteractionObject/Message");

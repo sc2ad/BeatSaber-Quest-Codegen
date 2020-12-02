@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Maps to method: CompareTo
     int System_IComparable_CompareTo(::Il2CppObject* obj);
   }; // MultiplayerResultsTableView/Data
-  check_size<sizeof(MultiplayerResultsTableView::Data), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerResultsTableView_DataSizeCheck;
+  check_size<sizeof(MultiplayerResultsTableView::Data), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MultiplayerResultsTableView_DataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsTableView::Data*, "", "MultiplayerResultsTableView/Data");

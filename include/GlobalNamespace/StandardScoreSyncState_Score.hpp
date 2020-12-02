@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     // Set static field: static public StandardScoreSyncState/Score Count
     static void _set_Count(GlobalNamespace::StandardScoreSyncState_Score value);
   }; // StandardScoreSyncState/Score
-  check_size<sizeof(StandardScoreSyncState_Score), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_StandardScoreSyncState_ScoreSizeCheck;
+  check_size<sizeof(StandardScoreSyncState_Score), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_StandardScoreSyncState_ScoreSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardScoreSyncState_Score, "", "StandardScoreSyncState/Score");

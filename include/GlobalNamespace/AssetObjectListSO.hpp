@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AssetObjectListSO* New_ctor();
   }; // AssetObjectListSO
-  check_size<sizeof(AssetObjectListSO), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_AssetObjectListSOSizeCheck;
+  check_size<sizeof(AssetObjectListSO), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_AssetObjectListSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AssetObjectListSO*, "", "AssetObjectListSO");

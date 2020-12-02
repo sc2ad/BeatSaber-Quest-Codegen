@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MultiplayerModeSelectionFlowCoordinator/<TryShowModeSelection>d__42
-  check_size<sizeof(MultiplayerModeSelectionFlowCoordinator::$TryShowModeSelection$d__42), 64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::MasterServerAvailabilityData*>) + 8 - (64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::MasterServerAvailabilityData*>)) % 8> __GlobalNamespace_MultiplayerModeSelectionFlowCoordinator_$TryShowModeSelection$d__42SizeCheck;
+  check_size<sizeof(MultiplayerModeSelectionFlowCoordinator::$TryShowModeSelection$d__42), 64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::MasterServerAvailabilityData*>) + ((64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::MasterServerAvailabilityData*>)) % 8 != 0 ? (8 - (64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::MasterServerAvailabilityData*>)) % 8) : 0)> __GlobalNamespace_MultiplayerModeSelectionFlowCoordinator_$TryShowModeSelection$d__42SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::$TryShowModeSelection$d__42, "", "MultiplayerModeSelectionFlowCoordinator/<TryShowModeSelection>d__42");

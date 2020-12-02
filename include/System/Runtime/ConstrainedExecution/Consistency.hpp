@@ -47,7 +47,7 @@ namespace System::Runtime::ConstrainedExecution {
     // Set static field: static public System.Runtime.ConstrainedExecution.Consistency WillNotCorruptState
     static void _set_WillNotCorruptState(System::Runtime::ConstrainedExecution::Consistency value);
   }; // System.Runtime.ConstrainedExecution.Consistency
-  check_size<sizeof(Consistency), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Runtime_ConstrainedExecution_ConsistencySizeCheck;
+  check_size<sizeof(Consistency), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Runtime_ConstrainedExecution_ConsistencySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ConstrainedExecution::Consistency, "System.Runtime.ConstrainedExecution", "Consistency");

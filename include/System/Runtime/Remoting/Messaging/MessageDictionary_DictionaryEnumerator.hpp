@@ -87,7 +87,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Maps to method: get_Value
     ::Il2CppObject* System_Collections_IDictionaryEnumerator_get_Value();
   }; // System.Runtime.Remoting.Messaging.MessageDictionary/DictionaryEnumerator
-  check_size<sizeof(MessageDictionary::DictionaryEnumerator), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __System_Runtime_Remoting_Messaging_MessageDictionary_DictionaryEnumeratorSizeCheck;
+  check_size<sizeof(MessageDictionary::DictionaryEnumerator), 32 + sizeof(int) + ((32 + sizeof(int)) % 8 != 0 ? (8 - (32 + sizeof(int)) % 8) : 0)> __System_Runtime_Remoting_Messaging_MessageDictionary_DictionaryEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MessageDictionary::DictionaryEnumerator*, "System.Runtime.Remoting.Messaging", "MessageDictionary/DictionaryEnumerator");

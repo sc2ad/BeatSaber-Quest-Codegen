@@ -59,7 +59,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRScreenshotError ScreenshotAlreadyInProgress
     static void _set_ScreenshotAlreadyInProgress(OVR::OpenVR::EVRScreenshotError value);
   }; // OVR.OpenVR.EVRScreenshotError
-  check_size<sizeof(EVRScreenshotError), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_EVRScreenshotErrorSizeCheck;
+  check_size<sizeof(EVRScreenshotError), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OVR_OpenVR_EVRScreenshotErrorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRScreenshotError, "OVR.OpenVR", "EVRScreenshotError");

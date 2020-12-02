@@ -35,7 +35,7 @@ namespace Tweening {
     // Set static field: static public Tweening.InterpolationType AnimationCurve
     static void _set_AnimationCurve(Tweening::InterpolationType value);
   }; // Tweening.InterpolationType
-  check_size<sizeof(InterpolationType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Tweening_InterpolationTypeSizeCheck;
+  check_size<sizeof(InterpolationType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Tweening_InterpolationTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Tweening::InterpolationType, "Tweening", "InterpolationType");

@@ -26,7 +26,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     static LazyAsyncResult::ThreadContext* New_ctor();
   }; // System.Net.LazyAsyncResult/ThreadContext
-  check_size<sizeof(LazyAsyncResult::ThreadContext), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __System_Net_LazyAsyncResult_ThreadContextSizeCheck;
+  check_size<sizeof(LazyAsyncResult::ThreadContext), 16 + sizeof(int) + ((16 + sizeof(int)) % 8 != 0 ? (8 - (16 + sizeof(int)) % 8) : 0)> __System_Net_LazyAsyncResult_ThreadContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::LazyAsyncResult::ThreadContext*, "System.Net", "LazyAsyncResult/ThreadContext");

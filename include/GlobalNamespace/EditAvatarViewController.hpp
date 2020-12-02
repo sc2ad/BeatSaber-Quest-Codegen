@@ -197,7 +197,7 @@ namespace GlobalNamespace {
       // Set static field: static public EditAvatarViewController/AvatarEditPart ClothesModelDetailColor
       static void _set_ClothesModelDetailColor(GlobalNamespace::EditAvatarViewController::AvatarEditPart value);
     }; // EditAvatarViewController/AvatarEditPart
-    check_size<sizeof(EditAvatarViewController::AvatarEditPart), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_EditAvatarViewController_AvatarEditPartSizeCheck;
+    check_size<sizeof(EditAvatarViewController::AvatarEditPart), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_EditAvatarViewController_AvatarEditPartSizeCheck;
     // private NamedColorListController _skinColorValuePicker
     // Offset: 0x70
     GlobalNamespace::NamedColorListController* skinColorValuePicker;
@@ -447,7 +447,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EditAvatarViewController* New_ctor();
   }; // EditAvatarViewController
-  check_size<sizeof(EditAvatarViewController), 320 + sizeof(GlobalNamespace::EditAvatarViewController::AvatarEditPart) + 8 - (320 + sizeof(GlobalNamespace::EditAvatarViewController::AvatarEditPart)) % 8> __GlobalNamespace_EditAvatarViewControllerSizeCheck;
+  check_size<sizeof(EditAvatarViewController), 320 + sizeof(GlobalNamespace::EditAvatarViewController::AvatarEditPart) + ((320 + sizeof(GlobalNamespace::EditAvatarViewController::AvatarEditPart)) % 8 != 0 ? (8 - (320 + sizeof(GlobalNamespace::EditAvatarViewController::AvatarEditPart)) % 8) : 0)> __GlobalNamespace_EditAvatarViewControllerSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController*, "", "EditAvatarViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController::AvatarEditPart, "", "EditAvatarViewController/AvatarEditPart");

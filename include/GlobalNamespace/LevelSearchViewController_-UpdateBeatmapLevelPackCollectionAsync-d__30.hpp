@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LevelSearchViewController/<UpdateBeatmapLevelPackCollectionAsync>d__30
-  check_size<sizeof(LevelSearchViewController::$UpdateBeatmapLevelPackCollectionAsync$d__30), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevelCollection*>) + 8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevelCollection*>)) % 8> __GlobalNamespace_LevelSearchViewController_$UpdateBeatmapLevelPackCollectionAsync$d__30SizeCheck;
+  check_size<sizeof(LevelSearchViewController::$UpdateBeatmapLevelPackCollectionAsync$d__30), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevelCollection*>) + ((48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevelCollection*>)) % 8 != 0 ? (8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevelCollection*>)) % 8) : 0)> __GlobalNamespace_LevelSearchViewController_$UpdateBeatmapLevelPackCollectionAsync$d__30SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSearchViewController::$UpdateBeatmapLevelPackCollectionAsync$d__30, "", "LevelSearchViewController/<UpdateBeatmapLevelPackCollectionAsync>d__30");

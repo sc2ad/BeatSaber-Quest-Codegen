@@ -53,7 +53,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x111F84C
     // ABORTED: conflicts with another method.  explicit operator uint();
   }; // System.Diagnostics.Tracing.SessionMask
-  check_size<sizeof(SessionMask), 0 + sizeof(uint) + 8 - (0 + sizeof(uint)) % 8> __System_Diagnostics_Tracing_SessionMaskSizeCheck;
+  check_size<sizeof(SessionMask), 0 + sizeof(uint) + ((0 + sizeof(uint)) % 8 != 0 ? (8 - (0 + sizeof(uint)) % 8) : 0)> __System_Diagnostics_Tracing_SessionMaskSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::SessionMask, "System.Diagnostics.Tracing", "SessionMask");

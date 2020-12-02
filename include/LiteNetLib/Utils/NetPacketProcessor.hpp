@@ -327,7 +327,7 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void Object::.ctor()
     static NetPacketProcessor* New_ctor();
   }; // LiteNetLib.Utils.NetPacketProcessor
-  check_size<sizeof(NetPacketProcessor), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __LiteNetLib_Utils_NetPacketProcessorSizeCheck;
+  check_size<sizeof(NetPacketProcessor), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __LiteNetLib_Utils_NetPacketProcessorSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetPacketProcessor*, "LiteNetLib.Utils", "NetPacketProcessor");
 #pragma pack(pop)

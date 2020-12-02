@@ -133,7 +133,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Base method: System.Void IMemoable::Reset(Org.BouncyCastle.Utilities.IMemoable other)
     void Reset(Org::BouncyCastle::Utilities::IMemoable* other);
   }; // Org.BouncyCastle.Crypto.Digests.KeccakDigest
-  check_size<sizeof(KeccakDigest), 44 + sizeof(bool) + 8 - (44 + sizeof(bool)) % 8> __Org_BouncyCastle_Crypto_Digests_KeccakDigestSizeCheck;
+  check_size<sizeof(KeccakDigest), 44 + sizeof(bool) + ((44 + sizeof(bool)) % 8 != 0 ? (8 - (44 + sizeof(bool)) % 8) : 0)> __Org_BouncyCastle_Crypto_Digests_KeccakDigestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::KeccakDigest*, "Org.BouncyCastle.Crypto.Digests", "KeccakDigest");

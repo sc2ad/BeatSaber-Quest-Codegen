@@ -54,7 +54,7 @@ namespace UnityEngine {
     // Offset: 0x19CB74C
     static void OnInvalidateOverrideController(UnityEngine::AnimatorOverrideController* controller);
   }; // UnityEngine.AnimatorOverrideController
-  check_size<sizeof(AnimatorOverrideController), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_AnimatorOverrideControllerSizeCheck;
+  check_size<sizeof(AnimatorOverrideController), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __UnityEngine_AnimatorOverrideControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorOverrideController*, "UnityEngine", "AnimatorOverrideController");

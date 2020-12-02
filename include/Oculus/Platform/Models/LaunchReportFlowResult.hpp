@@ -28,7 +28,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DAC50
     static LaunchReportFlowResult* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.LaunchReportFlowResult
-  check_size<sizeof(LaunchReportFlowResult), 24 + sizeof(uint64_t) + 8 - (24 + sizeof(uint64_t)) % 8> __Oculus_Platform_Models_LaunchReportFlowResultSizeCheck;
+  check_size<sizeof(LaunchReportFlowResult), 24 + sizeof(uint64_t) + ((24 + sizeof(uint64_t)) % 8 != 0 ? (8 - (24 + sizeof(uint64_t)) % 8) : 0)> __Oculus_Platform_Models_LaunchReportFlowResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LaunchReportFlowResult*, "Oculus.Platform.Models", "LaunchReportFlowResult");

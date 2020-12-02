@@ -63,7 +63,7 @@ namespace System::Runtime::Remoting {
     // Base method: System.Runtime.Remoting.Messaging.IMessageCtrl ServerIdentity::AsyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);
   }; // System.Runtime.Remoting.ClientActivatedIdentity
-  check_size<sizeof(ClientActivatedIdentity), 112 + sizeof(void*) + 8 - (112 + sizeof(void*)) % 8> __System_Runtime_Remoting_ClientActivatedIdentitySizeCheck;
+  check_size<sizeof(ClientActivatedIdentity), 112 + sizeof(void*) + ((112 + sizeof(void*)) % 8 != 0 ? (8 - (112 + sizeof(void*)) % 8) : 0)> __System_Runtime_Remoting_ClientActivatedIdentitySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ClientActivatedIdentity*, "System.Runtime.Remoting", "ClientActivatedIdentity");

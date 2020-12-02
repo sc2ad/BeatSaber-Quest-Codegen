@@ -35,7 +35,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EDualAnalogWhich k_EDualAnalog_Right
     static void _set_k_EDualAnalog_Right(Valve::VR::EDualAnalogWhich value);
   }; // Valve.VR.EDualAnalogWhich
-  check_size<sizeof(EDualAnalogWhich), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Valve_VR_EDualAnalogWhichSizeCheck;
+  check_size<sizeof(EDualAnalogWhich), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Valve_VR_EDualAnalogWhichSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EDualAnalogWhich, "Valve.VR", "EDualAnalogWhich");

@@ -78,7 +78,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Graphic::OnDidApplyAnimationProperties()
     void OnDidApplyAnimationProperties();
   }; // UnityEngine.UI.RawImage
-  check_size<sizeof(RawImage), 200 + sizeof(UnityEngine::Rect) + 8 - (200 + sizeof(UnityEngine::Rect)) % 8> __UnityEngine_UI_RawImageSizeCheck;
+  check_size<sizeof(RawImage), 200 + sizeof(UnityEngine::Rect) + ((200 + sizeof(UnityEngine::Rect)) % 8 != 0 ? (8 - (200 + sizeof(UnityEngine::Rect)) % 8) : 0)> __UnityEngine_UI_RawImageSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::RawImage*, "UnityEngine.UI", "RawImage");

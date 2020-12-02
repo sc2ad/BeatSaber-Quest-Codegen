@@ -65,7 +65,7 @@ namespace UnityEngine {
     // Offset: 0x1A007AC
     static void CheckConsistency_Injected(UnityEngine::ContactFilter2D& _unity_self);
   }; // UnityEngine.ContactFilter2D
-  check_size<sizeof(ContactFilter2D), 24 + sizeof(float) + 8 - (24 + sizeof(float)) % 8> __UnityEngine_ContactFilter2DSizeCheck;
+  check_size<sizeof(ContactFilter2D), 24 + sizeof(float) + ((24 + sizeof(float)) % 8 != 0 ? (8 - (24 + sizeof(float)) % 8) : 0)> __UnityEngine_ContactFilter2DSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContactFilter2D, "UnityEngine", "ContactFilter2D");

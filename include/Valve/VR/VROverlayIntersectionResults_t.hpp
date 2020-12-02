@@ -31,7 +31,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: VROverlayIntersectionResults_t
     constexpr VROverlayIntersectionResults_t(Valve::VR::HmdVector3_t vPoint_ = {}, Valve::VR::HmdVector3_t vNormal_ = {}, Valve::VR::HmdVector2_t vUVs_ = {}, float fDistance_ = {}) noexcept : vPoint{vPoint_}, vNormal{vNormal_}, vUVs{vUVs_}, fDistance{fDistance_} {}
   }; // Valve.VR.VROverlayIntersectionResults_t
-  check_size<sizeof(VROverlayIntersectionResults_t), 32 + sizeof(float) + 8 - (32 + sizeof(float)) % 8> __Valve_VR_VROverlayIntersectionResults_tSizeCheck;
+  check_size<sizeof(VROverlayIntersectionResults_t), 32 + sizeof(float) + ((32 + sizeof(float)) % 8 != 0 ? (8 - (32 + sizeof(float)) % 8) : 0)> __Valve_VR_VROverlayIntersectionResults_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VROverlayIntersectionResults_t, "Valve.VR", "VROverlayIntersectionResults_t");

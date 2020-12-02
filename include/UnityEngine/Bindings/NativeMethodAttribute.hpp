@@ -59,7 +59,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void Object::.ctor()
     static NativeMethodAttribute* New_ctor();
   }; // UnityEngine.Bindings.NativeMethodAttribute
-  check_size<sizeof(NativeMethodAttribute), 27 + sizeof(bool) + 8 - (27 + sizeof(bool)) % 8> __UnityEngine_Bindings_NativeMethodAttributeSizeCheck;
+  check_size<sizeof(NativeMethodAttribute), 27 + sizeof(bool) + ((27 + sizeof(bool)) % 8 != 0 ? (8 - (27 + sizeof(bool)) % 8) : 0)> __UnityEngine_Bindings_NativeMethodAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeMethodAttribute*, "UnityEngine.Bindings", "NativeMethodAttribute");

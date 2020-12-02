@@ -237,7 +237,7 @@ namespace System::Net {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.Cookie
-  check_size<sizeof(Cookie), 153 + sizeof(bool) + 8 - (153 + sizeof(bool)) % 8> __System_Net_CookieSizeCheck;
+  check_size<sizeof(Cookie), 153 + sizeof(bool) + ((153 + sizeof(bool)) % 8 != 0 ? (8 - (153 + sizeof(bool)) % 8) : 0)> __System_Net_CookieSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Cookie*, "System.Net", "Cookie");

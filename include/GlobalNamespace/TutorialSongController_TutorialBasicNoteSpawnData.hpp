@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Offset: 0xFF34D8
     static TutorialSongController::TutorialBasicNoteSpawnData* New_ctor(GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, GlobalNamespace::NoteCutDirection cutDirection, GlobalNamespace::ColorType colorType);
   }; // TutorialSongController/TutorialBasicNoteSpawnData
-  check_size<sizeof(TutorialSongController::TutorialBasicNoteSpawnData), 44 + sizeof(GlobalNamespace::ColorType) + 8 - (44 + sizeof(GlobalNamespace::ColorType)) % 8> __GlobalNamespace_TutorialSongController_TutorialBasicNoteSpawnDataSizeCheck;
+  check_size<sizeof(TutorialSongController::TutorialBasicNoteSpawnData), 44 + sizeof(GlobalNamespace::ColorType) + ((44 + sizeof(GlobalNamespace::ColorType)) % 8 != 0 ? (8 - (44 + sizeof(GlobalNamespace::ColorType)) % 8) : 0)> __GlobalNamespace_TutorialSongController_TutorialBasicNoteSpawnDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController::TutorialBasicNoteSpawnData*, "", "TutorialSongController/TutorialBasicNoteSpawnData");

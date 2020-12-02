@@ -41,7 +41,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x1162328
     void Invoke();
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore/ContinuationWrapper
-  check_size<sizeof(AsyncMethodBuilderCore::ContinuationWrapper), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Runtime_CompilerServices_AsyncMethodBuilderCore_ContinuationWrapperSizeCheck;
+  check_size<sizeof(AsyncMethodBuilderCore::ContinuationWrapper), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_Runtime_CompilerServices_AsyncMethodBuilderCore_ContinuationWrapperSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::ContinuationWrapper*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/ContinuationWrapper");

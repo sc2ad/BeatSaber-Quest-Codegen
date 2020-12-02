@@ -203,7 +203,7 @@ namespace System::Globalization {
     // Base method: System.Void Object::.ctor()
     static TextInfo* New_ctor();
   }; // System.Globalization.TextInfo
-  check_size<sizeof(TextInfo), 80 + sizeof(int) + 8 - (80 + sizeof(int)) % 8> __System_Globalization_TextInfoSizeCheck;
+  check_size<sizeof(TextInfo), 80 + sizeof(int) + ((80 + sizeof(int)) % 8 != 0 ? (8 - (80 + sizeof(int)) % 8) : 0)> __System_Globalization_TextInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TextInfo*, "System.Globalization", "TextInfo");

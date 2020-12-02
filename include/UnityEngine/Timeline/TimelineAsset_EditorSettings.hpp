@@ -52,7 +52,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     static TimelineAsset::EditorSettings* New_ctor();
   }; // UnityEngine.Timeline.TimelineAsset/EditorSettings
-  check_size<sizeof(TimelineAsset::EditorSettings), 20 + sizeof(bool) + 8 - (20 + sizeof(bool)) % 8> __UnityEngine_Timeline_TimelineAsset_EditorSettingsSizeCheck;
+  check_size<sizeof(TimelineAsset::EditorSettings), 20 + sizeof(bool) + ((20 + sizeof(bool)) % 8 != 0 ? (8 - (20 + sizeof(bool)) % 8) : 0)> __UnityEngine_Timeline_TimelineAsset_EditorSettingsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::EditorSettings*, "UnityEngine.Timeline", "TimelineAsset/EditorSettings");

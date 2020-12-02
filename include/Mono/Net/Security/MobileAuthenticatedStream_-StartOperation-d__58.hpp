@@ -72,7 +72,7 @@ namespace Mono::Net::Security {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // Mono.Net.Security.MobileAuthenticatedStream/<StartOperation>d__58
-  check_size<sizeof(MobileAuthenticatedStream::$StartOperation$d__58), 64 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<Mono::Net::Security::AsyncProtocolResult*>::ConfiguredTaskAwaiter) + 8 - (64 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<Mono::Net::Security::AsyncProtocolResult*>::ConfiguredTaskAwaiter)) % 8> __Mono_Net_Security_MobileAuthenticatedStream_$StartOperation$d__58SizeCheck;
+  check_size<sizeof(MobileAuthenticatedStream::$StartOperation$d__58), 64 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<Mono::Net::Security::AsyncProtocolResult*>::ConfiguredTaskAwaiter) + ((64 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<Mono::Net::Security::AsyncProtocolResult*>::ConfiguredTaskAwaiter)) % 8 != 0 ? (8 - (64 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<Mono::Net::Security::AsyncProtocolResult*>::ConfiguredTaskAwaiter)) % 8) : 0)> __Mono_Net_Security_MobileAuthenticatedStream_$StartOperation$d__58SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileAuthenticatedStream::$StartOperation$d__58, "Mono.Net.Security", "MobileAuthenticatedStream/<StartOperation>d__58");

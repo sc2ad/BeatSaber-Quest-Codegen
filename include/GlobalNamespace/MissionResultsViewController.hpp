@@ -177,7 +177,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionResultsViewController* New_ctor();
   }; // MissionResultsViewController
-  check_size<sizeof(MissionResultsViewController), 288 + sizeof(void*) + 8 - (288 + sizeof(void*)) % 8> __GlobalNamespace_MissionResultsViewControllerSizeCheck;
+  check_size<sizeof(MissionResultsViewController), 288 + sizeof(void*) + ((288 + sizeof(void*)) % 8 != 0 ? (8 - (288 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MissionResultsViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionResultsViewController*, "", "MissionResultsViewController");

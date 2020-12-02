@@ -102,7 +102,7 @@ namespace System {
     // Maps to method: get_IsCompleted
     bool System_IAsyncResult_get_IsCompleted();
   }; // System.IOAsyncResult
-  check_size<sizeof(IOAsyncResult), 41 + sizeof(bool) + 8 - (41 + sizeof(bool)) % 8> __System_IOAsyncResultSizeCheck;
+  check_size<sizeof(IOAsyncResult), 41 + sizeof(bool) + ((41 + sizeof(bool)) % 8 != 0 ? (8 - (41 + sizeof(bool)) % 8) : 0)> __System_IOAsyncResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IOAsyncResult*, "System", "IOAsyncResult");

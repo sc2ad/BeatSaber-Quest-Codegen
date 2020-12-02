@@ -123,7 +123,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SaberMovementData* New_ctor();
   }; // SaberMovementData
-  check_size<sizeof(SaberMovementData), 40 + sizeof(float) + 8 - (40 + sizeof(float)) % 8> __GlobalNamespace_SaberMovementDataSizeCheck;
+  check_size<sizeof(SaberMovementData), 40 + sizeof(float) + ((40 + sizeof(float)) % 8 != 0 ? (8 - (40 + sizeof(float)) % 8) : 0)> __GlobalNamespace_SaberMovementDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberMovementData*, "", "SaberMovementData");

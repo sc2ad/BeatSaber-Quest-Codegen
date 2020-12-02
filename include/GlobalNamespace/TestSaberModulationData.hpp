@@ -64,7 +64,7 @@ namespace GlobalNamespace {
       // Set static field: static public TestSaberModulationData/ModulationType Random
       static void _set_Random(GlobalNamespace::TestSaberModulationData::ModulationType value);
     }; // TestSaberModulationData/ModulationType
-    check_size<sizeof(TestSaberModulationData::ModulationType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_TestSaberModulationData_ModulationTypeSizeCheck;
+    check_size<sizeof(TestSaberModulationData::ModulationType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_TestSaberModulationData_ModulationTypeSizeCheck;
     // private System.Single _baseValue
     // Offset: 0x10
     float baseValue;
@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static TestSaberModulationData* New_ctor();
   }; // TestSaberModulationData
-  check_size<sizeof(TestSaberModulationData), 32 + sizeof(float) + 8 - (32 + sizeof(float)) % 8> __GlobalNamespace_TestSaberModulationDataSizeCheck;
+  check_size<sizeof(TestSaberModulationData), 32 + sizeof(float) + ((32 + sizeof(float)) % 8 != 0 ? (8 - (32 + sizeof(float)) % 8) : 0)> __GlobalNamespace_TestSaberModulationDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestSaberModulationData*, "", "TestSaberModulationData");

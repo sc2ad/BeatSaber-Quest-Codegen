@@ -147,7 +147,7 @@ namespace Tweening {
     // Base method: System.Void Object::.ctor()
     static Tween* New_ctor();
   }; // Tweening.Tween
-  check_size<sizeof(Tween), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __Tweening_TweenSizeCheck;
+  check_size<sizeof(Tween), 72 + sizeof(void*) + ((72 + sizeof(void*)) % 8 != 0 ? (8 - (72 + sizeof(void*)) % 8) : 0)> __Tweening_TweenSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Tweening::Tween*, "Tweening", "Tween");

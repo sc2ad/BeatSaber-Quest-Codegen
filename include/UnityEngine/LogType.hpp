@@ -53,7 +53,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.LogType Exception
     static void _set_Exception(UnityEngine::LogType value);
   }; // UnityEngine.LogType
-  check_size<sizeof(LogType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_LogTypeSizeCheck;
+  check_size<sizeof(LogType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_LogTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LogType, "UnityEngine", "LogType");

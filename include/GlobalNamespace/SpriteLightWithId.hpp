@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SpriteLightWithId* New_ctor();
   }; // SpriteLightWithId
-  check_size<sizeof(SpriteLightWithId), 77 + sizeof(bool) + 8 - (77 + sizeof(bool)) % 8> __GlobalNamespace_SpriteLightWithIdSizeCheck;
+  check_size<sizeof(SpriteLightWithId), 77 + sizeof(bool) + ((77 + sizeof(bool)) % 8 != 0 ? (8 - (77 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_SpriteLightWithIdSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpriteLightWithId*, "", "SpriteLightWithId");

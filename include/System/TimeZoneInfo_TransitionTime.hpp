@@ -125,7 +125,7 @@ namespace System {
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.TimeZoneInfo/TransitionTime
-  check_size<sizeof(TimeZoneInfo::TransitionTime), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __System_TimeZoneInfo_TransitionTimeSizeCheck;
+  check_size<sizeof(TimeZoneInfo::TransitionTime), 16 + sizeof(bool) + ((16 + sizeof(bool)) % 8 != 0 ? (8 - (16 + sizeof(bool)) % 8) : 0)> __System_TimeZoneInfo_TransitionTimeSizeCheck;
   // static public System.Boolean op_Inequality(System.TimeZoneInfo/TransitionTime t1, System.TimeZoneInfo/TransitionTime t2)
   // Offset: 0x1654714
   bool operator !=(const System::TimeZoneInfo::TransitionTime& t1, const System::TimeZoneInfo::TransitionTime& t2);

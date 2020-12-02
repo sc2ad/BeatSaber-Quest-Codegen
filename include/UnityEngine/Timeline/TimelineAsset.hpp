@@ -107,7 +107,7 @@ namespace UnityEngine::Timeline {
       // Set static field: static public UnityEngine.Timeline.TimelineAsset/DurationMode FixedLength
       static void _set_FixedLength(UnityEngine::Timeline::TimelineAsset::DurationMode value);
     }; // UnityEngine.Timeline.TimelineAsset/DurationMode
-    check_size<sizeof(TimelineAsset::DurationMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Timeline_TimelineAsset_DurationModeSizeCheck;
+    check_size<sizeof(TimelineAsset::DurationMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_Timeline_TimelineAsset_DurationModeSizeCheck;
     // private System.Int32 m_Version
     // Offset: 0x18
     int m_Version;
@@ -328,7 +328,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     static TimelineAsset* New_ctor();
   }; // UnityEngine.Timeline.TimelineAsset
-  check_size<sizeof(TimelineAsset), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __UnityEngine_Timeline_TimelineAssetSizeCheck;
+  check_size<sizeof(TimelineAsset), 88 + sizeof(void*) + ((88 + sizeof(void*)) % 8 != 0 ? (8 - (88 + sizeof(void*)) % 8) : 0)> __UnityEngine_Timeline_TimelineAssetSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset*, "UnityEngine.Timeline", "TimelineAsset");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::DurationMode, "UnityEngine.Timeline", "TimelineAsset/DurationMode");

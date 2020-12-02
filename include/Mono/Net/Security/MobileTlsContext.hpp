@@ -149,7 +149,7 @@ namespace Mono::Net::Security {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // Mono.Net.Security.MobileTlsContext
-  check_size<sizeof(MobileTlsContext), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __Mono_Net_Security_MobileTlsContextSizeCheck;
+  check_size<sizeof(MobileTlsContext), 80 + sizeof(void*) + ((80 + sizeof(void*)) % 8 != 0 ? (8 - (80 + sizeof(void*)) % 8) : 0)> __Mono_Net_Security_MobileTlsContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileTlsContext*, "Mono.Net.Security", "MobileTlsContext");

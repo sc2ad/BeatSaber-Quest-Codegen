@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRMonoscopic* New_ctor();
   }; // OVRMonoscopic
-  check_size<sizeof(OVRMonoscopic), 28 + sizeof(bool) + 8 - (28 + sizeof(bool)) % 8> __GlobalNamespace_OVRMonoscopicSizeCheck;
+  check_size<sizeof(OVRMonoscopic), 28 + sizeof(bool) + ((28 + sizeof(bool)) % 8 != 0 ? (8 - (28 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_OVRMonoscopicSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMonoscopic*, "", "OVRMonoscopic");

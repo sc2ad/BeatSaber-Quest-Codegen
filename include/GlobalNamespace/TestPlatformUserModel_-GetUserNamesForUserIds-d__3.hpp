@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // TestPlatformUserModel/<GetUserNamesForUserIds>d__3
-  check_size<sizeof(TestPlatformUserModel::$GetUserNamesForUserIds$d__3), 40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>) + 8 - (40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>)) % 8> __GlobalNamespace_TestPlatformUserModel_$GetUserNamesForUserIds$d__3SizeCheck;
+  check_size<sizeof(TestPlatformUserModel::$GetUserNamesForUserIds$d__3), 40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>) + ((40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>)) % 8 != 0 ? (8 - (40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>)) % 8) : 0)> __GlobalNamespace_TestPlatformUserModel_$GetUserNamesForUserIds$d__3SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformUserModel::$GetUserNamesForUserIds$d__3, "", "TestPlatformUserModel/<GetUserNamesForUserIds>d__3");

@@ -115,7 +115,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static SegmentedControl* New_ctor();
   }; // HMUI.SegmentedControl
-  check_size<sizeof(SegmentedControl), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __HMUI_SegmentedControlSizeCheck;
+  check_size<sizeof(SegmentedControl), 80 + sizeof(void*) + ((80 + sizeof(void*)) % 8 != 0 ? (8 - (80 + sizeof(void*)) % 8) : 0)> __HMUI_SegmentedControlSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SegmentedControl*, "HMUI", "SegmentedControl");

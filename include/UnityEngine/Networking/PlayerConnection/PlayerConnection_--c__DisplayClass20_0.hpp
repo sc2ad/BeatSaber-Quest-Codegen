@@ -36,7 +36,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Base method: System.Void Object::.ctor()
     static PlayerConnection::$$c__DisplayClass20_0* New_ctor();
   }; // UnityEngine.Networking.PlayerConnection.PlayerConnection/<>c__DisplayClass20_0
-  check_size<sizeof(PlayerConnection::$$c__DisplayClass20_0), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __UnityEngine_Networking_PlayerConnection_PlayerConnection_$$c__DisplayClass20_0SizeCheck;
+  check_size<sizeof(PlayerConnection::$$c__DisplayClass20_0), 16 + sizeof(bool) + ((16 + sizeof(bool)) % 8 != 0 ? (8 - (16 + sizeof(bool)) % 8) : 0)> __UnityEngine_Networking_PlayerConnection_PlayerConnection_$$c__DisplayClass20_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0*, "UnityEngine.Networking.PlayerConnection", "PlayerConnection/<>c__DisplayClass20_0");

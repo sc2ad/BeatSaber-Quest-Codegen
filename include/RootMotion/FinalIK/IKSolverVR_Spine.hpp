@@ -276,7 +276,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static IKSolverVR::Spine* New_ctor();
   }; // RootMotion.FinalIK.IKSolverVR/Spine
-  check_size<sizeof(IKSolverVR::Spine), 540 + sizeof(UnityEngine::Vector3) + 8 - (540 + sizeof(UnityEngine::Vector3)) % 8> __RootMotion_FinalIK_IKSolverVR_SpineSizeCheck;
+  check_size<sizeof(IKSolverVR::Spine), 540 + sizeof(UnityEngine::Vector3) + ((540 + sizeof(UnityEngine::Vector3)) % 8 != 0 ? (8 - (540 + sizeof(UnityEngine::Vector3)) % 8) : 0)> __RootMotion_FinalIK_IKSolverVR_SpineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Spine*, "RootMotion.FinalIK", "IKSolverVR/Spine");

@@ -73,7 +73,7 @@ namespace System::Collections {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // System.Collections.Stack/StackEnumerator
-  check_size<sizeof(Stack::StackEnumerator), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Collections_Stack_StackEnumeratorSizeCheck;
+  check_size<sizeof(Stack::StackEnumerator), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_Collections_Stack_StackEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Stack::StackEnumerator*, "System.Collections", "Stack/StackEnumerator");

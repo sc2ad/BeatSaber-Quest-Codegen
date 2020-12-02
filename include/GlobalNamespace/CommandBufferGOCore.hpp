@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static CommandBufferGOCore* New_ctor();
   }; // CommandBufferGOCore
-  check_size<sizeof(CommandBufferGOCore), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_CommandBufferGOCoreSizeCheck;
+  check_size<sizeof(CommandBufferGOCore), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_CommandBufferGOCoreSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferGOCore*, "", "CommandBufferGOCore");

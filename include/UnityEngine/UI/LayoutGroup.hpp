@@ -239,7 +239,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void UIBehaviour::OnRectTransformDimensionsChange()
     void OnRectTransformDimensionsChange();
   }; // UnityEngine.UI.LayoutGroup
-  check_size<sizeof(LayoutGroup), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __UnityEngine_UI_LayoutGroupSizeCheck;
+  check_size<sizeof(LayoutGroup), 80 + sizeof(void*) + ((80 + sizeof(void*)) % 8 != 0 ? (8 - (80 + sizeof(void*)) % 8) : 0)> __UnityEngine_UI_LayoutGroupSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutGroup*, "UnityEngine.UI", "LayoutGroup");
 #pragma pack(pop)

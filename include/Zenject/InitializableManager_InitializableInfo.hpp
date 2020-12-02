@@ -30,7 +30,7 @@ namespace Zenject {
     // Offset: 0x129FF58
     static InitializableManager::InitializableInfo* New_ctor(Zenject::IInitializable* initializable, int priority);
   }; // Zenject.InitializableManager/InitializableInfo
-  check_size<sizeof(InitializableManager::InitializableInfo), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __Zenject_InitializableManager_InitializableInfoSizeCheck;
+  check_size<sizeof(InitializableManager::InitializableInfo), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __Zenject_InitializableManager_InitializableInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InitializableManager::InitializableInfo*, "Zenject", "InitializableManager/InitializableInfo");

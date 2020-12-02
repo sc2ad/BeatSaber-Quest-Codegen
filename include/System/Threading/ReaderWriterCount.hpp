@@ -32,7 +32,7 @@ namespace System::Threading {
     // Base method: System.Void Object::.ctor()
     static ReaderWriterCount* New_ctor();
   }; // System.Threading.ReaderWriterCount
-  check_size<sizeof(ReaderWriterCount), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Threading_ReaderWriterCountSizeCheck;
+  check_size<sizeof(ReaderWriterCount), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __System_Threading_ReaderWriterCountSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterCount*, "System.Threading", "ReaderWriterCount");

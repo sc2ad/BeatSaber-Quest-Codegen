@@ -34,7 +34,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11D8970
     static AssetFileDeleteResult* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.AssetFileDeleteResult
-  check_size<sizeof(AssetFileDeleteResult), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __Oculus_Platform_Models_AssetFileDeleteResultSizeCheck;
+  check_size<sizeof(AssetFileDeleteResult), 40 + sizeof(bool) + ((40 + sizeof(bool)) % 8 != 0 ? (8 - (40 + sizeof(bool)) % 8) : 0)> __Oculus_Platform_Models_AssetFileDeleteResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetFileDeleteResult*, "Oculus.Platform.Models", "AssetFileDeleteResult");

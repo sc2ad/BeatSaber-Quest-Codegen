@@ -129,7 +129,7 @@ namespace GlobalNamespace {
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
   }; // SongPackMask
-  check_size<sizeof(SongPackMask), 0 + sizeof(GlobalNamespace::BloomFilter) + 8 - (0 + sizeof(GlobalNamespace::BloomFilter)) % 8> __GlobalNamespace_SongPackMaskSizeCheck;
+  check_size<sizeof(SongPackMask), 0 + sizeof(GlobalNamespace::BloomFilter) + ((0 + sizeof(GlobalNamespace::BloomFilter)) % 8 != 0 ? (8 - (0 + sizeof(GlobalNamespace::BloomFilter)) % 8) : 0)> __GlobalNamespace_SongPackMaskSizeCheck;
   // static public SongPackMask op_BitwiseOr(SongPackMask a, SongPackMask b)
   // Offset: 0x19A7964
   GlobalNamespace::SongPackMask operator|(const GlobalNamespace::SongPackMask& a, const GlobalNamespace::SongPackMask& b);

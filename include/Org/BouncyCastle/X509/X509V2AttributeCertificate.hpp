@@ -72,7 +72,7 @@ namespace Org::BouncyCastle::X509 {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.X509.X509V2AttributeCertificate
-  check_size<sizeof(X509V2AttributeCertificate), 32 + sizeof(System::DateTime) + 8 - (32 + sizeof(System::DateTime)) % 8> __Org_BouncyCastle_X509_X509V2AttributeCertificateSizeCheck;
+  check_size<sizeof(X509V2AttributeCertificate), 32 + sizeof(System::DateTime) + ((32 + sizeof(System::DateTime)) % 8 != 0 ? (8 - (32 + sizeof(System::DateTime)) % 8) : 0)> __Org_BouncyCastle_X509_X509V2AttributeCertificateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509V2AttributeCertificate*, "Org.BouncyCastle.X509", "X509V2AttributeCertificate");

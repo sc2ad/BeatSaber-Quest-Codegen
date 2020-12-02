@@ -43,7 +43,7 @@ namespace Mono::Math {
     // Set static field: static public Mono.Math.BigInteger/Sign Positive
     static void _set_Positive(Mono::Math::BigInteger::Sign value);
   }; // Mono.Math.BigInteger/Sign
-  check_size<sizeof(BigInteger::Sign), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Mono_Math_BigInteger_SignSizeCheck;
+  check_size<sizeof(BigInteger::Sign), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Mono_Math_BigInteger_SignSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger::Sign, "Mono.Math", "BigInteger/Sign");

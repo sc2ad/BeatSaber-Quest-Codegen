@@ -99,7 +99,7 @@ namespace System::Net {
     // Offset: 0x121FF1C
     bool TryRecycle(System::TimeSpan maxIdleTime, System::DateTime& idleSince);
   }; // System.Net.WebConnectionGroup
-  check_size<sizeof(WebConnectionGroup), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __System_Net_WebConnectionGroupSizeCheck;
+  check_size<sizeof(WebConnectionGroup), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __System_Net_WebConnectionGroupSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionGroup*, "System.Net", "WebConnectionGroup");

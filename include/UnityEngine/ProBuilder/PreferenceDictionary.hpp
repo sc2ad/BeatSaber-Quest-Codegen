@@ -220,7 +220,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.ctor()
     static PreferenceDictionary* New_ctor();
   }; // UnityEngine.ProBuilder.PreferenceDictionary
-  check_size<sizeof(PreferenceDictionary), 160 + sizeof(void*) + 8 - (160 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_PreferenceDictionarySizeCheck;
+  check_size<sizeof(PreferenceDictionary), 160 + sizeof(void*) + ((160 + sizeof(void*)) % 8 != 0 ? (8 - (160 + sizeof(void*)) % 8) : 0)> __UnityEngine_ProBuilder_PreferenceDictionarySizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PreferenceDictionary*, "UnityEngine.ProBuilder", "PreferenceDictionary");
 #pragma pack(pop)

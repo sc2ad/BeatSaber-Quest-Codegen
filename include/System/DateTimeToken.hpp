@@ -29,7 +29,7 @@ namespace System {
     // Creating value type constructor for type: DateTimeToken
     constexpr DateTimeToken(System::DateTimeParse::DTT dtt_ = {}, System::TokenType suffix_ = {}, int num_ = {}) noexcept : dtt{dtt_}, suffix{suffix_}, num{num_} {}
   }; // System.DateTimeToken
-  check_size<sizeof(DateTimeToken), 8 + sizeof(int) + 8 - (8 + sizeof(int)) % 8> __System_DateTimeTokenSizeCheck;
+  check_size<sizeof(DateTimeToken), 8 + sizeof(int) + ((8 + sizeof(int)) % 8 != 0 ? (8 - (8 + sizeof(int)) % 8) : 0)> __System_DateTimeTokenSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeToken, "System", "DateTimeToken");

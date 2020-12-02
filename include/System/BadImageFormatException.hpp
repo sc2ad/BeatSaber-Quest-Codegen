@@ -85,7 +85,7 @@ namespace System {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.BadImageFormatException
-  check_size<sizeof(BadImageFormatException), 144 + sizeof(void*) + 8 - (144 + sizeof(void*)) % 8> __System_BadImageFormatExceptionSizeCheck;
+  check_size<sizeof(BadImageFormatException), 144 + sizeof(void*) + ((144 + sizeof(void*)) % 8 != 0 ? (8 - (144 + sizeof(void*)) % 8) : 0)> __System_BadImageFormatExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::BadImageFormatException*, "System", "BadImageFormatException");

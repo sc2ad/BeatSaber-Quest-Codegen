@@ -92,7 +92,7 @@ namespace System::Text {
     // Base method: System.Int32 Decoder::GetChars(System.Byte* bytes, System.Int32 byteCount, System.Char* chars, System.Int32 charCount, System.Boolean flush)
     int GetChars(uint8_t* bytes, int byteCount, ::Il2CppChar* chars, int charCount, bool flush);
   }; // System.Text.Encoding/DefaultDecoder
-  check_size<sizeof(Encoding::DefaultDecoder), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __System_Text_Encoding_DefaultDecoderSizeCheck;
+  check_size<sizeof(Encoding::DefaultDecoder), 40 + sizeof(bool) + ((40 + sizeof(bool)) % 8 != 0 ? (8 - (40 + sizeof(bool)) % 8) : 0)> __System_Text_Encoding_DefaultDecoderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoding::DefaultDecoder*, "System.Text", "Encoding/DefaultDecoder");

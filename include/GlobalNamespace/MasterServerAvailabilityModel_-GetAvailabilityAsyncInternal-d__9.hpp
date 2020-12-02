@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServerAvailabilityModel/<GetAvailabilityAsyncInternal>d__9
-  check_size<sizeof(MasterServerAvailabilityModel::$GetAvailabilityAsyncInternal$d__9), 40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>) + 8 - (40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>)) % 8> __GlobalNamespace_MasterServerAvailabilityModel_$GetAvailabilityAsyncInternal$d__9SizeCheck;
+  check_size<sizeof(MasterServerAvailabilityModel::$GetAvailabilityAsyncInternal$d__9), 40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>) + ((40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>)) % 8 != 0 ? (8 - (40 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>)) % 8) : 0)> __GlobalNamespace_MasterServerAvailabilityModel_$GetAvailabilityAsyncInternal$d__9SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityModel::$GetAvailabilityAsyncInternal$d__9, "", "MasterServerAvailabilityModel/<GetAvailabilityAsyncInternal>d__9");

@@ -124,7 +124,7 @@ namespace UnityEngine::Playables {
     // Base method: UnityEngine.Object IExposedPropertyTable::GetReferenceValue(UnityEngine.PropertyName id, out System.Boolean idValid)
     UnityEngine::Object* GetReferenceValue(UnityEngine::PropertyName id, bool& idValid);
   }; // UnityEngine.Playables.PlayableDirector
-  check_size<sizeof(PlayableDirector), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __UnityEngine_Playables_PlayableDirectorSizeCheck;
+  check_size<sizeof(PlayableDirector), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __UnityEngine_Playables_PlayableDirectorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableDirector*, "UnityEngine.Playables", "PlayableDirector");

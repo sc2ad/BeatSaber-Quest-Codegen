@@ -117,7 +117,7 @@ namespace System::Net {
     // Base method: System.Void SimpleAsyncResult::.ctor(System.AsyncCallback cb, System.Object state)
     static WebAsyncResult* New_ctor(System::AsyncCallback* cb, ::Il2CppObject* state);
   }; // System.Net.WebAsyncResult
-  check_size<sizeof(WebAsyncResult), 128 + sizeof(void*) + 8 - (128 + sizeof(void*)) % 8> __System_Net_WebAsyncResultSizeCheck;
+  check_size<sizeof(WebAsyncResult), 128 + sizeof(void*) + ((128 + sizeof(void*)) % 8 != 0 ? (8 - (128 + sizeof(void*)) % 8) : 0)> __System_Net_WebAsyncResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebAsyncResult*, "System.Net", "WebAsyncResult");

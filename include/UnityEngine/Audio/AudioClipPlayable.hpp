@@ -102,7 +102,7 @@ namespace UnityEngine::Audio {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Audio.AudioClipPlayable other)
     bool Equals(UnityEngine::Audio::AudioClipPlayable other);
   }; // UnityEngine.Audio.AudioClipPlayable
-  check_size<sizeof(AudioClipPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle) + 8 - (0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8> __UnityEngine_Audio_AudioClipPlayableSizeCheck;
+  check_size<sizeof(AudioClipPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle) + ((0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8 != 0 ? (8 - (0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8) : 0)> __UnityEngine_Audio_AudioClipPlayableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioClipPlayable, "UnityEngine.Audio", "AudioClipPlayable");

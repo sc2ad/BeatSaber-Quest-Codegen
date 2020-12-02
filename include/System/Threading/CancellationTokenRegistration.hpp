@@ -74,7 +74,7 @@ namespace System::Threading {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.Threading.CancellationTokenRegistration
-  check_size<sizeof(CancellationTokenRegistration), 8 + sizeof(System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*>) + 8 - (8 + sizeof(System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*>)) % 8> __System_Threading_CancellationTokenRegistrationSizeCheck;
+  check_size<sizeof(CancellationTokenRegistration), 8 + sizeof(System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*>) + ((8 + sizeof(System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*>)) % 8 != 0 ? (8 - (8 + sizeof(System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*>)) % 8) : 0)> __System_Threading_CancellationTokenRegistrationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationTokenRegistration, "System.Threading", "CancellationTokenRegistration");

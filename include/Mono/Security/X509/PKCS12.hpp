@@ -187,7 +187,7 @@ namespace Mono::Security::X509 {
     // Maps to method: Clone
     ::Il2CppObject* System_ICloneable_Clone();
   }; // Mono.Security.X509.PKCS12
-  check_size<sizeof(PKCS12), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __Mono_Security_X509_PKCS12SizeCheck;
+  check_size<sizeof(PKCS12), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __Mono_Security_X509_PKCS12SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::PKCS12*, "Mono.Security.X509", "PKCS12");

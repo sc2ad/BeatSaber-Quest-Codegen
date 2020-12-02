@@ -49,7 +49,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     static MemberPrimitiveUnTyped* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveUnTyped
-  check_size<sizeof(MemberPrimitiveUnTyped), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Runtime_Serialization_Formatters_Binary_MemberPrimitiveUnTypedSizeCheck;
+  check_size<sizeof(MemberPrimitiveUnTyped), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Runtime_Serialization_Formatters_Binary_MemberPrimitiveUnTypedSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped*, "System.Runtime.Serialization.Formatters.Binary", "MemberPrimitiveUnTyped");

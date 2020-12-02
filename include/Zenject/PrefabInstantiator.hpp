@@ -108,7 +108,7 @@ namespace Zenject {
     // Base method: UnityEngine.GameObject IPrefabInstantiator::Instantiate(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction)
     UnityEngine::GameObject* Instantiate(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction);
   }; // Zenject.PrefabInstantiator
-  check_size<sizeof(PrefabInstantiator), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __Zenject_PrefabInstantiatorSizeCheck;
+  check_size<sizeof(PrefabInstantiator), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __Zenject_PrefabInstantiatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabInstantiator*, "Zenject", "PrefabInstantiator");

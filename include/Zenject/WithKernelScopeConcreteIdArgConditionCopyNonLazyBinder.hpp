@@ -46,7 +46,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodThrow<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(this, ___internal__method);
     }
   }; // Zenject.WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder
-  check_size<sizeof(WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Zenject_WithKernelScopeConcreteIdArgConditionCopyNonLazyBinderSizeCheck;
+  check_size<sizeof(WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __Zenject_WithKernelScopeConcreteIdArgConditionCopyNonLazyBinderSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder");
 #pragma pack(pop)

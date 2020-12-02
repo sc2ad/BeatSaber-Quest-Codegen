@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MenuSceneSetup* New_ctor();
   }; // MenuSceneSetup
-  check_size<sizeof(MenuSceneSetup), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_MenuSceneSetupSizeCheck;
+  check_size<sizeof(MenuSceneSetup), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MenuSceneSetupSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuSceneSetup*, "", "MenuSceneSetup");

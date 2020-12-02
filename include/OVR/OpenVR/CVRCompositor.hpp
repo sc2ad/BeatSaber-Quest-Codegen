@@ -190,7 +190,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11F4FF0
     OVR::OpenVR::EVRCompositorError SubmitExplicitTimingData();
   }; // OVR.OpenVR.CVRCompositor
-  check_size<sizeof(CVRCompositor), 16 + sizeof(OVR::OpenVR::IVRCompositor) + 8 - (16 + sizeof(OVR::OpenVR::IVRCompositor)) % 8> __OVR_OpenVR_CVRCompositorSizeCheck;
+  check_size<sizeof(CVRCompositor), 16 + sizeof(OVR::OpenVR::IVRCompositor) + ((16 + sizeof(OVR::OpenVR::IVRCompositor)) % 8 != 0 ? (8 - (16 + sizeof(OVR::OpenVR::IVRCompositor)) % 8) : 0)> __OVR_OpenVR_CVRCompositorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRCompositor*, "OVR.OpenVR", "CVRCompositor");

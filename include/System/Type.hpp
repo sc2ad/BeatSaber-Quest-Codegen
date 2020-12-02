@@ -546,7 +546,7 @@ namespace System {
     // Base method: System.Type Object::GetType()
     System::Type* GetType();
   }; // System.Type
-  check_size<sizeof(Type), 16 + sizeof(System::RuntimeTypeHandle) + 8 - (16 + sizeof(System::RuntimeTypeHandle)) % 8> __System_TypeSizeCheck;
+  check_size<sizeof(Type), 16 + sizeof(System::RuntimeTypeHandle) + ((16 + sizeof(System::RuntimeTypeHandle)) % 8 != 0 ? (8 - (16 + sizeof(System::RuntimeTypeHandle)) % 8) : 0)> __System_TypeSizeCheck;
   // static public System.Boolean op_Equality(System.Type left, System.Type right)
   // Offset: 0x1655F54
   bool operator ==(System::Type* left, System::Type& right);

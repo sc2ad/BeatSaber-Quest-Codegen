@@ -61,7 +61,7 @@ namespace GlobalNamespace {
       // Set static field: static public OptionsViewController/OptionsButton Settings
       static void _set_Settings(GlobalNamespace::OptionsViewController::OptionsButton value);
     }; // OptionsViewController/OptionsButton
-    check_size<sizeof(OptionsViewController::OptionsButton), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OptionsViewController_OptionsButtonSizeCheck;
+    check_size<sizeof(OptionsViewController::OptionsButton), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OptionsViewController_OptionsButtonSizeCheck;
     // private UnityEngine.UI.Button _editAvatarButton
     // Offset: 0x70
     UnityEngine::UI::Button* editAvatarButton;
@@ -105,7 +105,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OptionsViewController* New_ctor();
   }; // OptionsViewController
-  check_size<sizeof(OptionsViewController), 136 + sizeof(void*) + 8 - (136 + sizeof(void*)) % 8> __GlobalNamespace_OptionsViewControllerSizeCheck;
+  check_size<sizeof(OptionsViewController), 136 + sizeof(void*) + ((136 + sizeof(void*)) % 8 != 0 ? (8 - (136 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_OptionsViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OptionsViewController*, "", "OptionsViewController");

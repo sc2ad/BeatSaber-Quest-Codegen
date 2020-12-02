@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Skeleton
     constexpr Skeleton(GlobalNamespace::OVRPlugin::SkeletonType Type_ = {}, uint NumBones_ = {}, uint NumBoneCapsules_ = {}, ::Array<GlobalNamespace::OVRPlugin::Bone>* Bones_ = {}, ::Array<GlobalNamespace::OVRPlugin::BoneCapsule>* BoneCapsules_ = {}) noexcept : Type{Type_}, NumBones{NumBones_}, NumBoneCapsules{NumBoneCapsules_}, Bones{Bones_}, BoneCapsules{BoneCapsules_} {}
   }; // OVRPlugin/Skeleton
-  check_size<sizeof(OVRPlugin::Skeleton), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_OVRPlugin_SkeletonSizeCheck;
+  check_size<sizeof(OVRPlugin::Skeleton), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_OVRPlugin_SkeletonSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Skeleton, "", "OVRPlugin/Skeleton");

@@ -54,7 +54,7 @@ namespace GlobalNamespace {
       // Set static field: static public BloomPrePass/Mode SetDataOnly
       static void _set_SetDataOnly(GlobalNamespace::BloomPrePass::Mode value);
     }; // BloomPrePass/Mode
-    check_size<sizeof(BloomPrePass::Mode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_BloomPrePass_ModeSizeCheck;
+    check_size<sizeof(BloomPrePass::Mode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_BloomPrePass_ModeSizeCheck;
     // private BloomPrePassRendererSO _bloomPrepassRenderer
     // Offset: 0x18
     GlobalNamespace::BloomPrePassRendererSO* bloomPrepassRenderer;
@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BloomPrePass* New_ctor();
   }; // BloomPrePass
-  check_size<sizeof(BloomPrePass), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_BloomPrePassSizeCheck;
+  check_size<sizeof(BloomPrePass), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_BloomPrePassSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePass*, "", "BloomPrePass");

@@ -61,7 +61,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     static BinaryObjectWithMap* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMap
-  check_size<sizeof(BinaryObjectWithMap), 48 + sizeof(int) + 8 - (48 + sizeof(int)) % 8> __System_Runtime_Serialization_Formatters_Binary_BinaryObjectWithMapSizeCheck;
+  check_size<sizeof(BinaryObjectWithMap), 48 + sizeof(int) + ((48 + sizeof(int)) % 8 != 0 ? (8 - (48 + sizeof(int)) % 8) : 0)> __System_Runtime_Serialization_Formatters_Binary_BinaryObjectWithMapSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*, "System.Runtime.Serialization.Formatters.Binary", "BinaryObjectWithMap");

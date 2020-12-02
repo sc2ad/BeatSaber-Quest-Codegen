@@ -83,7 +83,7 @@ namespace NUnit::Framework::Internal::Filters {
     // Base method: NUnit.Framework.Interfaces.TNode TestFilter::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
   }; // NUnit.Framework.Internal.Filters.CompositeFilter
-  check_size<sizeof(CompositeFilter), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __NUnit_Framework_Internal_Filters_CompositeFilterSizeCheck;
+  check_size<sizeof(CompositeFilter), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __NUnit_Framework_Internal_Filters_CompositeFilterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Filters::CompositeFilter*, "NUnit.Framework.Internal.Filters", "CompositeFilter");

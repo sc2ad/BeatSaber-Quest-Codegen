@@ -152,7 +152,7 @@ namespace System::Net::Sockets {
     // Base method: System.Void IOAsyncResult::CompleteDisposed()
     void CompleteDisposed();
   }; // System.Net.Sockets.SocketAsyncResult
-  check_size<sizeof(SocketAsyncResult), 160 + sizeof(int) + 8 - (160 + sizeof(int)) % 8> __System_Net_Sockets_SocketAsyncResultSizeCheck;
+  check_size<sizeof(SocketAsyncResult), 160 + sizeof(int) + ((160 + sizeof(int)) % 8 != 0 ? (8 - (160 + sizeof(int)) % 8) : 0)> __System_Net_Sockets_SocketAsyncResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncResult*, "System.Net.Sockets", "SocketAsyncResult");

@@ -65,7 +65,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static public System.Security.Cryptography.X509Certificates.X509KeyStorageFlags EphemeralKeySet
     static void _set_EphemeralKeySet(System::Security::Cryptography::X509Certificates::X509KeyStorageFlags value);
   }; // System.Security.Cryptography.X509Certificates.X509KeyStorageFlags
-  check_size<sizeof(X509KeyStorageFlags), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Security_Cryptography_X509Certificates_X509KeyStorageFlagsSizeCheck;
+  check_size<sizeof(X509KeyStorageFlags), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Security_Cryptography_X509Certificates_X509KeyStorageFlagsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509KeyStorageFlags, "System.Security.Cryptography.X509Certificates", "X509KeyStorageFlags");

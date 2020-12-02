@@ -43,7 +43,7 @@ namespace System::Net {
     // Offset: 0x11A2D54
     static ServerCertValidationCallback::CallbackContext* New_ctor(::Il2CppObject* request, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Security::Cryptography::X509Certificates::X509Chain* chain, System::Net::Security::SslPolicyErrors sslPolicyErrors);
   }; // System.Net.ServerCertValidationCallback/CallbackContext
-  check_size<sizeof(ServerCertValidationCallback::CallbackContext), 44 + sizeof(bool) + 8 - (44 + sizeof(bool)) % 8> __System_Net_ServerCertValidationCallback_CallbackContextSizeCheck;
+  check_size<sizeof(ServerCertValidationCallback::CallbackContext), 44 + sizeof(bool) + ((44 + sizeof(bool)) % 8 != 0 ? (8 - (44 + sizeof(bool)) % 8) : 0)> __System_Net_ServerCertValidationCallback_CallbackContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServerCertValidationCallback::CallbackContext*, "System.Net", "ServerCertValidationCallback/CallbackContext");

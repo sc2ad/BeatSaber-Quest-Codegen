@@ -36,7 +36,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.ctor()
     static ProBuilderMesh::$$c__DisplayClass152_0* New_ctor();
   }; // UnityEngine.ProBuilder.ProBuilderMesh/<>c__DisplayClass152_0
-  check_size<sizeof(ProBuilderMesh::$$c__DisplayClass152_0), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __UnityEngine_ProBuilder_ProBuilderMesh_$$c__DisplayClass152_0SizeCheck;
+  check_size<sizeof(ProBuilderMesh::$$c__DisplayClass152_0), 16 + sizeof(int) + ((16 + sizeof(int)) % 8 != 0 ? (8 - (16 + sizeof(int)) % 8) : 0)> __UnityEngine_ProBuilder_ProBuilderMesh_$$c__DisplayClass152_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass152_0*, "UnityEngine.ProBuilder", "ProBuilderMesh/<>c__DisplayClass152_0");

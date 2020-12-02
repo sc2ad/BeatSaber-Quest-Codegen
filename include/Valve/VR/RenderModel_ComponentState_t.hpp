@@ -26,7 +26,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: RenderModel_ComponentState_t
     constexpr RenderModel_ComponentState_t(Valve::VR::HmdMatrix34_t mTrackingToComponentRenderModel_ = {}, Valve::VR::HmdMatrix34_t mTrackingToComponentLocal_ = {}, uint uProperties_ = {}) noexcept : mTrackingToComponentRenderModel{mTrackingToComponentRenderModel_}, mTrackingToComponentLocal{mTrackingToComponentLocal_}, uProperties{uProperties_} {}
   }; // Valve.VR.RenderModel_ComponentState_t
-  check_size<sizeof(RenderModel_ComponentState_t), 96 + sizeof(uint) + 8 - (96 + sizeof(uint)) % 8> __Valve_VR_RenderModel_ComponentState_tSizeCheck;
+  check_size<sizeof(RenderModel_ComponentState_t), 96 + sizeof(uint) + ((96 + sizeof(uint)) % 8 != 0 ? (8 - (96 + sizeof(uint)) % 8) : 0)> __Valve_VR_RenderModel_ComponentState_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_ComponentState_t, "Valve.VR", "RenderModel_ComponentState_t");

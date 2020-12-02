@@ -239,7 +239,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NoteController* New_ctor();
   }; // NoteController
-  check_size<sizeof(NoteController), 112 + sizeof(bool) + 8 - (112 + sizeof(bool)) % 8> __GlobalNamespace_NoteControllerSizeCheck;
+  check_size<sizeof(NoteController), 112 + sizeof(bool) + ((112 + sizeof(bool)) % 8 != 0 ? (8 - (112 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_NoteControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteController*, "", "NoteController");

@@ -24,7 +24,7 @@ namespace UnityEngine {
     // Offset: 0x16C6054
     static TooltipAttribute* New_ctor(::Il2CppString* tooltip);
   }; // UnityEngine.TooltipAttribute
-  check_size<sizeof(TooltipAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_TooltipAttributeSizeCheck;
+  check_size<sizeof(TooltipAttribute), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __UnityEngine_TooltipAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TooltipAttribute*, "UnityEngine", "TooltipAttribute");

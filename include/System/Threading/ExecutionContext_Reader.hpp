@@ -69,7 +69,7 @@ namespace System::Threading {
     // Offset: 0xCA5C0C
     bool HasSameLocalValues(System::Threading::ExecutionContext* other);
   }; // System.Threading.ExecutionContext/Reader
-  check_size<sizeof(ExecutionContext::Reader), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __System_Threading_ExecutionContext_ReaderSizeCheck;
+  check_size<sizeof(ExecutionContext::Reader), 0 + sizeof(void*) + ((0 + sizeof(void*)) % 8 != 0 ? (8 - (0 + sizeof(void*)) % 8) : 0)> __System_Threading_ExecutionContext_ReaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContext::Reader, "System.Threading", "ExecutionContext/Reader");

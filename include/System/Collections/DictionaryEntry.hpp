@@ -33,7 +33,7 @@ namespace System::Collections {
     // Offset: 0xE8BC14
     ::Il2CppObject* get_Value();
   }; // System.Collections.DictionaryEntry
-  check_size<sizeof(DictionaryEntry), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __System_Collections_DictionaryEntrySizeCheck;
+  check_size<sizeof(DictionaryEntry), 8 + sizeof(void*) + ((8 + sizeof(void*)) % 8 != 0 ? (8 - (8 + sizeof(void*)) % 8) : 0)> __System_Collections_DictionaryEntrySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::DictionaryEntry, "System.Collections", "DictionaryEntry");

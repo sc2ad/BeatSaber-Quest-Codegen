@@ -82,7 +82,7 @@ namespace GlobalNamespace {
       // Base method: System.Int32 ValueType::GetHashCode()
       int GetHashCode();
     }; // MirrorRendererSO/CameraTransformData
-    check_size<sizeof(MirrorRendererSO::CameraTransformData), 32 + sizeof(bool) + 8 - (32 + sizeof(bool)) % 8> __GlobalNamespace_MirrorRendererSO_CameraTransformDataSizeCheck;
+    check_size<sizeof(MirrorRendererSO::CameraTransformData), 32 + sizeof(bool) + ((32 + sizeof(bool)) % 8 != 0 ? (8 - (32 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_MirrorRendererSO_CameraTransformDataSizeCheck;
     // private UnityEngine.LayerMask _reflectLayers
     // Offset: 0x18
     UnityEngine::LayerMask reflectLayers;
@@ -190,7 +190,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MirrorRendererSO* New_ctor();
   }; // MirrorRendererSO
-  check_size<sizeof(MirrorRendererSO), 144 + sizeof(UnityEngine::Rect) + 8 - (144 + sizeof(UnityEngine::Rect)) % 8> __GlobalNamespace_MirrorRendererSOSizeCheck;
+  check_size<sizeof(MirrorRendererSO), 144 + sizeof(UnityEngine::Rect) + ((144 + sizeof(UnityEngine::Rect)) % 8 != 0 ? (8 - (144 + sizeof(UnityEngine::Rect)) % 8) : 0)> __GlobalNamespace_MirrorRendererSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererSO*, "", "MirrorRendererSO");

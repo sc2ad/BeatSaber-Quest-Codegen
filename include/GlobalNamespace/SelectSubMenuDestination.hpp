@@ -72,7 +72,7 @@ namespace GlobalNamespace {
       // Set static field: static public SelectSubMenuDestination/Destination Tutorial
       static void _set_Tutorial(GlobalNamespace::SelectSubMenuDestination::Destination value);
     }; // SelectSubMenuDestination/Destination
-    check_size<sizeof(SelectSubMenuDestination::Destination), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_SelectSubMenuDestination_DestinationSizeCheck;
+    check_size<sizeof(SelectSubMenuDestination::Destination), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_SelectSubMenuDestination_DestinationSizeCheck;
     // public readonly SelectSubMenuDestination/Destination menuDestination
     // Offset: 0x10
     GlobalNamespace::SelectSubMenuDestination::Destination menuDestination;
@@ -84,7 +84,7 @@ namespace GlobalNamespace {
     // Offset: 0xFCA6F8
     static SelectSubMenuDestination* New_ctor(GlobalNamespace::SelectSubMenuDestination::Destination menuDestination);
   }; // SelectSubMenuDestination
-  check_size<sizeof(SelectSubMenuDestination), 16 + sizeof(GlobalNamespace::SelectSubMenuDestination::Destination) + 8 - (16 + sizeof(GlobalNamespace::SelectSubMenuDestination::Destination)) % 8> __GlobalNamespace_SelectSubMenuDestinationSizeCheck;
+  check_size<sizeof(SelectSubMenuDestination), 16 + sizeof(GlobalNamespace::SelectSubMenuDestination::Destination) + ((16 + sizeof(GlobalNamespace::SelectSubMenuDestination::Destination)) % 8 != 0 ? (8 - (16 + sizeof(GlobalNamespace::SelectSubMenuDestination::Destination)) % 8) : 0)> __GlobalNamespace_SelectSubMenuDestinationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectSubMenuDestination*, "", "SelectSubMenuDestination");

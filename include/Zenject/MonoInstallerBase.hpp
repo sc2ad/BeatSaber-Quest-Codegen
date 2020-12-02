@@ -63,7 +63,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static MonoInstallerBase* New_ctor();
   }; // Zenject.MonoInstallerBase
-  check_size<sizeof(MonoInstallerBase), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Zenject_MonoInstallerBaseSizeCheck;
+  check_size<sizeof(MonoInstallerBase), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Zenject_MonoInstallerBaseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MonoInstallerBase*, "Zenject", "MonoInstallerBase");

@@ -97,7 +97,7 @@ namespace OnlineServices {
     // Offset: 0xEFE894
     void OnDestroy();
   }; // OnlineServices.LevelScoreUploader
-  check_size<sizeof(LevelScoreUploader), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __OnlineServices_LevelScoreUploaderSizeCheck;
+  check_size<sizeof(LevelScoreUploader), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __OnlineServices_LevelScoreUploaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreUploader*, "OnlineServices", "LevelScoreUploader");

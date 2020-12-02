@@ -91,7 +91,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static ScrollViewItemsVisibilityController* New_ctor();
   }; // HMUI.ScrollViewItemsVisibilityController
-  check_size<sizeof(ScrollViewItemsVisibilityController), 92 + sizeof(float) + 8 - (92 + sizeof(float)) % 8> __HMUI_ScrollViewItemsVisibilityControllerSizeCheck;
+  check_size<sizeof(ScrollViewItemsVisibilityController), 92 + sizeof(float) + ((92 + sizeof(float)) % 8 != 0 ? (8 - (92 + sizeof(float)) % 8) : 0)> __HMUI_ScrollViewItemsVisibilityControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollViewItemsVisibilityController*, "HMUI", "ScrollViewItemsVisibilityController");

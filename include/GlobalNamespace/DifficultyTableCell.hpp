@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static DifficultyTableCell* New_ctor();
   }; // DifficultyTableCell
-  check_size<sizeof(DifficultyTableCell), 104 + sizeof(void*) + 8 - (104 + sizeof(void*)) % 8> __GlobalNamespace_DifficultyTableCellSizeCheck;
+  check_size<sizeof(DifficultyTableCell), 104 + sizeof(void*) + ((104 + sizeof(void*)) % 8 != 0 ? (8 - (104 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_DifficultyTableCellSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DifficultyTableCell*, "", "DifficultyTableCell");

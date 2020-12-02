@@ -41,7 +41,7 @@ namespace UnityEngine::XR {
     // Set static field: static public UnityEngine.XR.ConnectionChangeType ConfigChange
     static void _set_ConfigChange(UnityEngine::XR::ConnectionChangeType value);
   }; // UnityEngine.XR.ConnectionChangeType
-  check_size<sizeof(ConnectionChangeType), 0 + sizeof(uint) + 8 - (0 + sizeof(uint)) % 8> __UnityEngine_XR_ConnectionChangeTypeSizeCheck;
+  check_size<sizeof(ConnectionChangeType), 0 + sizeof(uint) + ((0 + sizeof(uint)) % 8 != 0 ? (8 - (0 + sizeof(uint)) % 8) : 0)> __UnityEngine_XR_ConnectionChangeTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::ConnectionChangeType, "UnityEngine.XR", "ConnectionChangeType");

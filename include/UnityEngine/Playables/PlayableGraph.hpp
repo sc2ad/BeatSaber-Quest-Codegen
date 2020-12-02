@@ -114,7 +114,7 @@ namespace UnityEngine::Playables {
     // Offset: 0x1732014
     static bool ConnectInternal_Injected(UnityEngine::Playables::PlayableGraph& _unity_self, UnityEngine::Playables::PlayableHandle& source, int sourceOutputPort, UnityEngine::Playables::PlayableHandle& destination, int destinationInputPort);
   }; // UnityEngine.Playables.PlayableGraph
-  check_size<sizeof(PlayableGraph), 8 + sizeof(uint) + 8 - (8 + sizeof(uint)) % 8> __UnityEngine_Playables_PlayableGraphSizeCheck;
+  check_size<sizeof(PlayableGraph), 8 + sizeof(uint) + ((8 + sizeof(uint)) % 8 != 0 ? (8 - (8 + sizeof(uint)) % 8) : 0)> __UnityEngine_Playables_PlayableGraphSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableGraph, "UnityEngine.Playables", "PlayableGraph");
 #pragma pack(pop)

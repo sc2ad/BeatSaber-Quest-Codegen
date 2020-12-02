@@ -27,7 +27,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x13F8580
     ::Il2CppString* NextToken();
   }; // Org.BouncyCastle.Asn1.OidTokenizer
-  check_size<sizeof(OidTokenizer), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __Org_BouncyCastle_Asn1_OidTokenizerSizeCheck;
+  check_size<sizeof(OidTokenizer), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __Org_BouncyCastle_Asn1_OidTokenizerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::OidTokenizer*, "Org.BouncyCastle.Asn1", "OidTokenizer");

@@ -151,7 +151,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // NUnit.Framework.Internal.MethodWrapper
-  check_size<sizeof(MethodWrapper), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __NUnit_Framework_Internal_MethodWrapperSizeCheck;
+  check_size<sizeof(MethodWrapper), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __NUnit_Framework_Internal_MethodWrapperSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::MethodWrapper*, "NUnit.Framework.Internal", "MethodWrapper");
 #pragma pack(pop)

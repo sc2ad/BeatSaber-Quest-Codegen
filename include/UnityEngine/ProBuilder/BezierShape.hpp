@@ -82,7 +82,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.ctor()
     static BezierShape* New_ctor();
   }; // UnityEngine.ProBuilder.BezierShape
-  check_size<sizeof(BezierShape), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_BezierShapeSizeCheck;
+  check_size<sizeof(BezierShape), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __UnityEngine_ProBuilder_BezierShapeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::BezierShape*, "UnityEngine.ProBuilder", "BezierShape");

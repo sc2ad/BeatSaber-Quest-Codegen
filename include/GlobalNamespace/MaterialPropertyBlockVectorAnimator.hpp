@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MaterialPropertyBlockVectorAnimator* New_ctor();
   }; // MaterialPropertyBlockVectorAnimator
-  check_size<sizeof(MaterialPropertyBlockVectorAnimator), 48 + sizeof(UnityEngine::Vector4) + 8 - (48 + sizeof(UnityEngine::Vector4)) % 8> __GlobalNamespace_MaterialPropertyBlockVectorAnimatorSizeCheck;
+  check_size<sizeof(MaterialPropertyBlockVectorAnimator), 48 + sizeof(UnityEngine::Vector4) + ((48 + sizeof(UnityEngine::Vector4)) % 8 != 0 ? (8 - (48 + sizeof(UnityEngine::Vector4)) % 8) : 0)> __GlobalNamespace_MaterialPropertyBlockVectorAnimatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockVectorAnimator*, "", "MaterialPropertyBlockVectorAnimator");

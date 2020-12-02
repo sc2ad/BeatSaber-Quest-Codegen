@@ -37,7 +37,7 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.UI.InputField/EditState Finish
     static void _set_Finish(UnityEngine::UI::InputField::EditState value);
   }; // UnityEngine.UI.InputField/EditState
-  check_size<sizeof(InputField::EditState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_UI_InputField_EditStateSizeCheck;
+  check_size<sizeof(InputField::EditState), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_UI_InputField_EditStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::EditState, "UnityEngine.UI", "InputField/EditState");

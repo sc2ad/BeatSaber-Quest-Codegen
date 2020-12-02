@@ -105,7 +105,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static GrounderBipedIK* New_ctor();
   }; // RootMotion.FinalIK.GrounderBipedIK
-  check_size<sizeof(GrounderBipedIK), 132 + sizeof(float) + 8 - (132 + sizeof(float)) % 8> __RootMotion_FinalIK_GrounderBipedIKSizeCheck;
+  check_size<sizeof(GrounderBipedIK), 132 + sizeof(float) + ((132 + sizeof(float)) % 8 != 0 ? (8 - (132 + sizeof(float)) % 8) : 0)> __RootMotion_FinalIK_GrounderBipedIKSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderBipedIK*, "RootMotion.FinalIK", "GrounderBipedIK");

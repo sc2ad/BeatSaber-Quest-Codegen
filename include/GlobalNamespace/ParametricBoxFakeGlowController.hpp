@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // ParametricBoxFakeGlowController
-  check_size<sizeof(ParametricBoxFakeGlowController), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __GlobalNamespace_ParametricBoxFakeGlowControllerSizeCheck;
+  check_size<sizeof(ParametricBoxFakeGlowController), 72 + sizeof(void*) + ((72 + sizeof(void*)) % 8 != 0 ? (8 - (72 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_ParametricBoxFakeGlowControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParametricBoxFakeGlowController*, "", "ParametricBoxFakeGlowController");

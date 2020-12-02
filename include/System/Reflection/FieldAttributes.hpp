@@ -137,7 +137,7 @@ namespace System::Reflection {
     // Set static field: static public System.Reflection.FieldAttributes HasFieldRVA
     static void _set_HasFieldRVA(System::Reflection::FieldAttributes value);
   }; // System.Reflection.FieldAttributes
-  check_size<sizeof(FieldAttributes), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Reflection_FieldAttributesSizeCheck;
+  check_size<sizeof(FieldAttributes), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Reflection_FieldAttributesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::FieldAttributes, "System.Reflection", "FieldAttributes");

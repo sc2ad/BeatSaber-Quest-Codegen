@@ -37,7 +37,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     static CustomAttributeData::LazyCAttrData* New_ctor();
   }; // System.Reflection.CustomAttributeData/LazyCAttrData
-  check_size<sizeof(CustomAttributeData::LazyCAttrData), 32 + sizeof(uint) + 8 - (32 + sizeof(uint)) % 8> __System_Reflection_CustomAttributeData_LazyCAttrDataSizeCheck;
+  check_size<sizeof(CustomAttributeData::LazyCAttrData), 32 + sizeof(uint) + ((32 + sizeof(uint)) % 8 != 0 ? (8 - (32 + sizeof(uint)) % 8) : 0)> __System_Reflection_CustomAttributeData_LazyCAttrDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeData::LazyCAttrData*, "System.Reflection", "CustomAttributeData/LazyCAttrData");

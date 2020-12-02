@@ -23,7 +23,7 @@ namespace System::Collections::Specialized {
     // Offset: 0x147E3F8
     static NameObjectCollectionBase::NameObjectEntry* New_ctor(::Il2CppString* name, ::Il2CppObject* value);
   }; // System.Collections.Specialized.NameObjectCollectionBase/NameObjectEntry
-  check_size<sizeof(NameObjectCollectionBase::NameObjectEntry), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Collections_Specialized_NameObjectCollectionBase_NameObjectEntrySizeCheck;
+  check_size<sizeof(NameObjectCollectionBase::NameObjectEntry), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Collections_Specialized_NameObjectCollectionBase_NameObjectEntrySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry*, "System.Collections.Specialized", "NameObjectCollectionBase/NameObjectEntry");

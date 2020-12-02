@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusPlatformAdditionalContentModel/<OpenLevelPackProductStoreAsync>d__9
-  check_size<sizeof(OculusPlatformAdditionalContentModel::$OpenLevelPackProductStoreAsync$d__9), 64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter) + 8 - (64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter)) % 8> __GlobalNamespace_OculusPlatformAdditionalContentModel_$OpenLevelPackProductStoreAsync$d__9SizeCheck;
+  check_size<sizeof(OculusPlatformAdditionalContentModel::$OpenLevelPackProductStoreAsync$d__9), 64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter) + ((64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter)) % 8 != 0 ? (8 - (64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter)) % 8) : 0)> __GlobalNamespace_OculusPlatformAdditionalContentModel_$OpenLevelPackProductStoreAsync$d__9SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAdditionalContentModel::$OpenLevelPackProductStoreAsync$d__9, "", "OculusPlatformAdditionalContentModel/<OpenLevelPackProductStoreAsync>d__9");

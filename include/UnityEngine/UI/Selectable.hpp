@@ -116,7 +116,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.Selectable/Transition Animation
       static void _set_Animation(UnityEngine::UI::Selectable::Transition value);
     }; // UnityEngine.UI.Selectable/Transition
-    check_size<sizeof(Selectable::Transition), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_UI_Selectable_TransitionSizeCheck;
+    check_size<sizeof(Selectable::Transition), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_UI_Selectable_TransitionSizeCheck;
     // private UnityEngine.UI.Navigation m_Navigation
     // Offset: 0x18
     UnityEngine::UI::Navigation m_Navigation;
@@ -413,7 +413,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.UI.Selectable
-  check_size<sizeof(Selectable), 232 + sizeof(void*) + 8 - (232 + sizeof(void*)) % 8> __UnityEngine_UI_SelectableSizeCheck;
+  check_size<sizeof(Selectable), 232 + sizeof(void*) + ((232 + sizeof(void*)) % 8 != 0 ? (8 - (232 + sizeof(void*)) % 8) : 0)> __UnityEngine_UI_SelectableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Selectable*, "UnityEngine.UI", "Selectable");

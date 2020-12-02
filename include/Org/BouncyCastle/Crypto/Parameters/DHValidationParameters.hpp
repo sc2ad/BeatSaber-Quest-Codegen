@@ -34,7 +34,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // Org.BouncyCastle.Crypto.Parameters.DHValidationParameters
-  check_size<sizeof(DHValidationParameters), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __Org_BouncyCastle_Crypto_Parameters_DHValidationParametersSizeCheck;
+  check_size<sizeof(DHValidationParameters), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __Org_BouncyCastle_Crypto_Parameters_DHValidationParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*, "Org.BouncyCastle.Crypto.Parameters", "DHValidationParameters");

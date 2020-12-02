@@ -55,7 +55,7 @@ namespace Valve::VR {
     // Offset: 0xCB686C
     void Unpack(Valve::VR::VRControllerState_t& unpacked);
   }; // Valve.VR.VRControllerState_t_Packed
-  check_size<sizeof(VRControllerState_t_Packed), 52 + sizeof(Valve::VR::VRControllerAxis_t) + 8 - (52 + sizeof(Valve::VR::VRControllerAxis_t)) % 8> __Valve_VR_VRControllerState_t_PackedSizeCheck;
+  check_size<sizeof(VRControllerState_t_Packed), 52 + sizeof(Valve::VR::VRControllerAxis_t) + ((52 + sizeof(Valve::VR::VRControllerAxis_t)) % 8 != 0 ? (8 - (52 + sizeof(Valve::VR::VRControllerAxis_t)) % 8) : 0)> __Valve_VR_VRControllerState_t_PackedSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRControllerState_t_Packed, "Valve.VR", "VRControllerState_t_Packed");

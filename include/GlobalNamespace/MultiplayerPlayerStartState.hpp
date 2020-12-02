@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Set static field: static public MultiplayerPlayerStartState Late
     static void _set_Late(GlobalNamespace::MultiplayerPlayerStartState value);
   }; // MultiplayerPlayerStartState
-  check_size<sizeof(MultiplayerPlayerStartState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_MultiplayerPlayerStartStateSizeCheck;
+  check_size<sizeof(MultiplayerPlayerStartState), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_MultiplayerPlayerStartStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPlayerStartState, "", "MultiplayerPlayerStartState");

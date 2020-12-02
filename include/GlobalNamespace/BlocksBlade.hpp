@@ -148,7 +148,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // BlocksBlade
-  check_size<sizeof(BlocksBlade), 136 + sizeof(int) + 8 - (136 + sizeof(int)) % 8> __GlobalNamespace_BlocksBladeSizeCheck;
+  check_size<sizeof(BlocksBlade), 136 + sizeof(int) + ((136 + sizeof(int)) % 8 != 0 ? (8 - (136 + sizeof(int)) % 8) : 0)> __GlobalNamespace_BlocksBladeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlocksBlade*, "", "BlocksBlade");

@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MissionResultsViewController/<StartFireworksAfterDelay>d__28
-  check_size<sizeof(MissionResultsViewController::$StartFireworksAfterDelay$d__28), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_MissionResultsViewController_$StartFireworksAfterDelay$d__28SizeCheck;
+  check_size<sizeof(MissionResultsViewController::$StartFireworksAfterDelay$d__28), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MissionResultsViewController_$StartFireworksAfterDelay$d__28SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionResultsViewController::$StartFireworksAfterDelay$d__28*, "", "MissionResultsViewController/<StartFireworksAfterDelay>d__28");

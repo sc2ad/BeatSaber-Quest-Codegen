@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRMuraCorrectionMode NoCorrection
     static void _set_NoCorrection(OVR::OpenVR::EVRMuraCorrectionMode value);
   }; // OVR.OpenVR.EVRMuraCorrectionMode
-  check_size<sizeof(EVRMuraCorrectionMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_EVRMuraCorrectionModeSizeCheck;
+  check_size<sizeof(EVRMuraCorrectionMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OVR_OpenVR_EVRMuraCorrectionModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRMuraCorrectionMode, "OVR.OpenVR", "EVRMuraCorrectionMode");

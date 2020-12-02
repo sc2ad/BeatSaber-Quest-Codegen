@@ -103,7 +103,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerOutroAnimationController* New_ctor();
   }; // MultiplayerOutroAnimationController
-  check_size<sizeof(MultiplayerOutroAnimationController), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerOutroAnimationControllerSizeCheck;
+  check_size<sizeof(MultiplayerOutroAnimationController), 72 + sizeof(void*) + ((72 + sizeof(void*)) % 8 != 0 ? (8 - (72 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MultiplayerOutroAnimationControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerOutroAnimationController*, "", "MultiplayerOutroAnimationController");

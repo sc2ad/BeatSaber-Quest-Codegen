@@ -61,7 +61,7 @@ namespace System::Net {
     // Offset: 0x1316EA4
     static void _cctor();
   }; // System.Net.DigestHeaderParser
-  check_size<sizeof(DigestHeaderParser), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Net_DigestHeaderParserSizeCheck;
+  check_size<sizeof(DigestHeaderParser), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_Net_DigestHeaderParserSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::DigestHeaderParser*, "System.Net", "DigestHeaderParser");

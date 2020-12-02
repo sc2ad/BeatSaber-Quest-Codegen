@@ -41,7 +41,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Object::.ctor()
     static StackGuard* New_ctor();
   }; // System.Threading.Tasks.StackGuard
-  check_size<sizeof(StackGuard), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __System_Threading_Tasks_StackGuardSizeCheck;
+  check_size<sizeof(StackGuard), 16 + sizeof(int) + ((16 + sizeof(int)) % 8 != 0 ? (8 - (16 + sizeof(int)) % 8) : 0)> __System_Threading_Tasks_StackGuardSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::StackGuard*, "System.Threading.Tasks", "StackGuard");

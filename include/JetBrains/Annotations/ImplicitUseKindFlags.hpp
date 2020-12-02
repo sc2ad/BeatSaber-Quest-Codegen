@@ -53,7 +53,7 @@ namespace JetBrains::Annotations {
     // Set static field: static public JetBrains.Annotations.ImplicitUseKindFlags InstantiatedNoFixedConstructorSignature
     static void _set_InstantiatedNoFixedConstructorSignature(JetBrains::Annotations::ImplicitUseKindFlags value);
   }; // JetBrains.Annotations.ImplicitUseKindFlags
-  check_size<sizeof(ImplicitUseKindFlags), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __JetBrains_Annotations_ImplicitUseKindFlagsSizeCheck;
+  check_size<sizeof(ImplicitUseKindFlags), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __JetBrains_Annotations_ImplicitUseKindFlagsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::ImplicitUseKindFlags, "JetBrains.Annotations", "ImplicitUseKindFlags");

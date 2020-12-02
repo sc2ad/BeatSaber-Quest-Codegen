@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BoundaryTestResult
     constexpr BoundaryTestResult(bool IsTriggering_ = {}, float ClosestDistance_ = {}, UnityEngine::Vector3 ClosestPoint_ = {}, UnityEngine::Vector3 ClosestPointNormal_ = {}) noexcept : IsTriggering{IsTriggering_}, ClosestDistance{ClosestDistance_}, ClosestPoint{ClosestPoint_}, ClosestPointNormal{ClosestPointNormal_} {}
   }; // OVRBoundary/BoundaryTestResult
-  check_size<sizeof(OVRBoundary::BoundaryTestResult), 20 + sizeof(UnityEngine::Vector3) + 8 - (20 + sizeof(UnityEngine::Vector3)) % 8> __GlobalNamespace_OVRBoundary_BoundaryTestResultSizeCheck;
+  check_size<sizeof(OVRBoundary::BoundaryTestResult), 20 + sizeof(UnityEngine::Vector3) + ((20 + sizeof(UnityEngine::Vector3)) % 8 != 0 ? (8 - (20 + sizeof(UnityEngine::Vector3)) % 8) : 0)> __GlobalNamespace_OVRBoundary_BoundaryTestResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoundary::BoundaryTestResult, "", "OVRBoundary/BoundaryTestResult");

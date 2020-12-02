@@ -26,7 +26,7 @@ namespace RootMotion {
     // Offset: 0x15F1EF4
     static InspectorComment* New_ctor(::Il2CppString* name, ::Il2CppString* color);
   }; // RootMotion.InspectorComment
-  check_size<sizeof(InspectorComment), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __RootMotion_InspectorCommentSizeCheck;
+  check_size<sizeof(InspectorComment), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __RootMotion_InspectorCommentSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::InspectorComment*, "RootMotion", "InspectorComment");

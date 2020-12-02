@@ -106,7 +106,7 @@ namespace UnityEngine {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.AnimationCurve
-  check_size<sizeof(AnimationCurve), 16 + sizeof(System::IntPtr) + 8 - (16 + sizeof(System::IntPtr)) % 8> __UnityEngine_AnimationCurveSizeCheck;
+  check_size<sizeof(AnimationCurve), 16 + sizeof(System::IntPtr) + ((16 + sizeof(System::IntPtr)) % 8 != 0 ? (8 - (16 + sizeof(System::IntPtr)) % 8) : 0)> __UnityEngine_AnimationCurveSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationCurve*, "UnityEngine", "AnimationCurve");

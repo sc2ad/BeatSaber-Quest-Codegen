@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LobbyPlayerDataModel* New_ctor();
   }; // LobbyPlayerDataModel
-  check_size<sizeof(LobbyPlayerDataModel), 46 + sizeof(bool) + 8 - (46 + sizeof(bool)) % 8> __GlobalNamespace_LobbyPlayerDataModelSizeCheck;
+  check_size<sizeof(LobbyPlayerDataModel), 46 + sizeof(bool) + ((46 + sizeof(bool)) % 8 != 0 ? (8 - (46 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_LobbyPlayerDataModelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyPlayerDataModel*, "", "LobbyPlayerDataModel");

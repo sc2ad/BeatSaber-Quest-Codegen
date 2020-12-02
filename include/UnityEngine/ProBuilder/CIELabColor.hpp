@@ -47,7 +47,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.CIELabColor
-  check_size<sizeof(CIELabColor), 24 + sizeof(float) + 8 - (24 + sizeof(float)) % 8> __UnityEngine_ProBuilder_CIELabColorSizeCheck;
+  check_size<sizeof(CIELabColor), 24 + sizeof(float) + ((24 + sizeof(float)) % 8 != 0 ? (8 - (24 + sizeof(float)) % 8) : 0)> __UnityEngine_ProBuilder_CIELabColorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::CIELabColor*, "UnityEngine.ProBuilder", "CIELabColor");

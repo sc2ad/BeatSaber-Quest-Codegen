@@ -51,7 +51,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static FastAction* New_ctor();
   }; // TMPro.FastAction
-  check_size<sizeof(FastAction), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __TMPro_FastActionSizeCheck;
+  check_size<sizeof(FastAction), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __TMPro_FastActionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FastAction*, "TMPro", "FastAction");

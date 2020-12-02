@@ -135,7 +135,7 @@ namespace System::Net {
     // Base method: System.Void Stream::EndWrite(System.IAsyncResult async_result)
     void EndWrite(System::IAsyncResult* async_result);
   }; // System.Net.RequestStream
-  check_size<sizeof(RequestStream), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __System_Net_RequestStreamSizeCheck;
+  check_size<sizeof(RequestStream), 72 + sizeof(void*) + ((72 + sizeof(void*)) % 8 != 0 ? (8 - (72 + sizeof(void*)) % 8) : 0)> __System_Net_RequestStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::RequestStream*, "System.Net", "RequestStream");

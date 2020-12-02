@@ -1716,7 +1716,7 @@ namespace Zenject {
     // Base method: System.Object IInstantiator::InstantiateScriptableObjectResource(System.Type scriptableObjectType, System.String resourcePath, System.Collections.Generic.IEnumerable`1<System.Object> extraArgs)
     ::Il2CppObject* InstantiateScriptableObjectResource(System::Type* scriptableObjectType, ::Il2CppString* resourcePath, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* extraArgs);
   }; // Zenject.DiContainer
-  check_size<sizeof(DiContainer), 156 + sizeof(bool) + 8 - (156 + sizeof(bool)) % 8> __Zenject_DiContainerSizeCheck;
+  check_size<sizeof(DiContainer), 156 + sizeof(bool) + ((156 + sizeof(bool)) % 8 != 0 ? (8 - (156 + sizeof(bool)) % 8) : 0)> __Zenject_DiContainerSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer*, "Zenject", "DiContainer");
 #pragma pack(pop)

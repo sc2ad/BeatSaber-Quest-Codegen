@@ -105,7 +105,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11F45A0
     bool ImportFromBufferToWorking(::Il2CppString* pBuffer, uint nImportFlags);
   }; // OVR.OpenVR.CVRChaperoneSetup
-  check_size<sizeof(CVRChaperoneSetup), 16 + sizeof(OVR::OpenVR::IVRChaperoneSetup) + 8 - (16 + sizeof(OVR::OpenVR::IVRChaperoneSetup)) % 8> __OVR_OpenVR_CVRChaperoneSetupSizeCheck;
+  check_size<sizeof(CVRChaperoneSetup), 16 + sizeof(OVR::OpenVR::IVRChaperoneSetup) + ((16 + sizeof(OVR::OpenVR::IVRChaperoneSetup)) % 8 != 0 ? (8 - (16 + sizeof(OVR::OpenVR::IVRChaperoneSetup)) % 8) : 0)> __OVR_OpenVR_CVRChaperoneSetupSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRChaperoneSetup*, "OVR.OpenVR", "CVRChaperoneSetup");

@@ -123,7 +123,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRInput::OVRControllerBase::VirtualButtonMap* New_ctor();
   }; // OVRInput/OVRControllerBase/VirtualButtonMap
-  check_size<sizeof(OVRInput::OVRControllerBase::VirtualButtonMap), 144 + sizeof(GlobalNamespace::OVRInput::RawButton) + 8 - (144 + sizeof(GlobalNamespace::OVRInput::RawButton)) % 8> __GlobalNamespace_OVRInput_OVRControllerBase_VirtualButtonMapSizeCheck;
+  check_size<sizeof(OVRInput::OVRControllerBase::VirtualButtonMap), 144 + sizeof(GlobalNamespace::OVRInput::RawButton) + ((144 + sizeof(GlobalNamespace::OVRInput::RawButton)) % 8 != 0 ? (8 - (144 + sizeof(GlobalNamespace::OVRInput::RawButton)) % 8) : 0)> __GlobalNamespace_OVRInput_OVRControllerBase_VirtualButtonMapSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap*, "", "OVRInput/OVRControllerBase/VirtualButtonMap");

@@ -211,7 +211,7 @@ namespace System::Net {
     // Offset: 0x11A46C4
     void $GetConnectionGroup$b__66_0(::Il2CppObject* s, System::EventArgs* e);
   }; // System.Net.ServicePoint
-  check_size<sizeof(ServicePoint), 152 + sizeof(void*) + 8 - (152 + sizeof(void*)) % 8> __System_Net_ServicePointSizeCheck;
+  check_size<sizeof(ServicePoint), 152 + sizeof(void*) + ((152 + sizeof(void*)) % 8 != 0 ? (8 - (152 + sizeof(void*)) % 8) : 0)> __System_Net_ServicePointSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServicePoint*, "System.Net", "ServicePoint");

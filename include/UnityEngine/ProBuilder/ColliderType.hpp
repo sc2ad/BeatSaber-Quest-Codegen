@@ -41,7 +41,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.ColliderType MeshCollider
     static void _set_MeshCollider(UnityEngine::ProBuilder::ColliderType value);
   }; // UnityEngine.ProBuilder.ColliderType
-  check_size<sizeof(ColliderType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_ProBuilder_ColliderTypeSizeCheck;
+  check_size<sizeof(ColliderType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_ProBuilder_ColliderTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ColliderType, "UnityEngine.ProBuilder", "ColliderType");

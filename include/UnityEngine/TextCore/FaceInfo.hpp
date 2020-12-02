@@ -177,7 +177,7 @@ namespace UnityEngine::TextCore {
     // Offset: 0xCB801C
     void set_tabWidth(float value);
   }; // UnityEngine.TextCore.FaceInfo
-  check_size<sizeof(FaceInfo), 80 + sizeof(float) + 8 - (80 + sizeof(float)) % 8> __UnityEngine_TextCore_FaceInfoSizeCheck;
+  check_size<sizeof(FaceInfo), 80 + sizeof(float) + ((80 + sizeof(float)) % 8 != 0 ? (8 - (80 + sizeof(float)) % 8) : 0)> __UnityEngine_TextCore_FaceInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::FaceInfo, "UnityEngine.TextCore", "FaceInfo");

@@ -113,7 +113,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerPositionDisplay* New_ctor();
   }; // MultiplayerPositionDisplay
-  check_size<sizeof(MultiplayerPositionDisplay), 152 + sizeof(float) + 8 - (152 + sizeof(float)) % 8> __GlobalNamespace_MultiplayerPositionDisplaySizeCheck;
+  check_size<sizeof(MultiplayerPositionDisplay), 152 + sizeof(float) + ((152 + sizeof(float)) % 8 != 0 ? (8 - (152 + sizeof(float)) % 8) : 0)> __GlobalNamespace_MultiplayerPositionDisplaySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPositionDisplay*, "", "MultiplayerPositionDisplay");

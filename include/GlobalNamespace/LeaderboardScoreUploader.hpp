@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LeaderboardScoreUploader* New_ctor();
   }; // LeaderboardScoreUploader
-  check_size<sizeof(LeaderboardScoreUploader), 64 + sizeof(bool) + 8 - (64 + sizeof(bool)) % 8> __GlobalNamespace_LeaderboardScoreUploaderSizeCheck;
+  check_size<sizeof(LeaderboardScoreUploader), 64 + sizeof(bool) + ((64 + sizeof(bool)) % 8 != 0 ? (8 - (64 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_LeaderboardScoreUploaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader*, "", "LeaderboardScoreUploader");

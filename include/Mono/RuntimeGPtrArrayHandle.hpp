@@ -50,7 +50,7 @@ namespace Mono {
     // Offset: 0x15270B0
     static void DestroyAndFree(Mono::RuntimeGPtrArrayHandle& h);
   }; // Mono.RuntimeGPtrArrayHandle
-  check_size<sizeof(RuntimeGPtrArrayHandle), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __Mono_RuntimeGPtrArrayHandleSizeCheck;
+  check_size<sizeof(RuntimeGPtrArrayHandle), 0 + sizeof(void*) + ((0 + sizeof(void*)) % 8 != 0 ? (8 - (0 + sizeof(void*)) % 8) : 0)> __Mono_RuntimeGPtrArrayHandleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeGPtrArrayHandle, "Mono", "RuntimeGPtrArrayHandle");

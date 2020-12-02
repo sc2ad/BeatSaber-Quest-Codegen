@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BloomFogEnvironmentParams* New_ctor();
   }; // BloomFogEnvironmentParams
-  check_size<sizeof(BloomFogEnvironmentParams), 36 + sizeof(float) + 8 - (36 + sizeof(float)) % 8> __GlobalNamespace_BloomFogEnvironmentParamsSizeCheck;
+  check_size<sizeof(BloomFogEnvironmentParams), 36 + sizeof(float) + ((36 + sizeof(float)) % 8 != 0 ? (8 - (36 + sizeof(float)) % 8) : 0)> __GlobalNamespace_BloomFogEnvironmentParamsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogEnvironmentParams*, "", "BloomFogEnvironmentParams");

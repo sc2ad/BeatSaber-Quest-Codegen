@@ -40,7 +40,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static BaseClientMessageHandler::$$c__DisplayClass30_0* New_ctor();
   }; // MasterServer.BaseClientMessageHandler/<>c__DisplayClass30_0
-  check_size<sizeof(BaseClientMessageHandler::$$c__DisplayClass30_0), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __MasterServer_BaseClientMessageHandler_$$c__DisplayClass30_0SizeCheck;
+  check_size<sizeof(BaseClientMessageHandler::$$c__DisplayClass30_0), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __MasterServer_BaseClientMessageHandler_$$c__DisplayClass30_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$$c__DisplayClass30_0*, "MasterServer", "BaseClientMessageHandler/<>c__DisplayClass30_0");

@@ -148,7 +148,7 @@ namespace VRUIControls {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // VRUIControls.VRPointer
-  check_size<sizeof(VRPointer), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __VRUIControls_VRPointerSizeCheck;
+  check_size<sizeof(VRPointer), 96 + sizeof(void*) + ((96 + sizeof(void*)) % 8 != 0 ? (8 - (96 + sizeof(void*)) % 8) : 0)> __VRUIControls_VRPointerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRPointer*, "VRUIControls", "VRPointer");

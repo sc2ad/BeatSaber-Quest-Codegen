@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
   }; // KeyboardShortcutsManager/KeyboardShortcut
-  check_size<sizeof(KeyboardShortcutsManager::KeyboardShortcut), 24 + sizeof(UnityEngine::KeyCode) + 8 - (24 + sizeof(UnityEngine::KeyCode)) % 8> __GlobalNamespace_KeyboardShortcutsManager_KeyboardShortcutSizeCheck;
+  check_size<sizeof(KeyboardShortcutsManager::KeyboardShortcut), 24 + sizeof(UnityEngine::KeyCode) + ((24 + sizeof(UnityEngine::KeyCode)) % 8 != 0 ? (8 - (24 + sizeof(UnityEngine::KeyCode)) % 8) : 0)> __GlobalNamespace_KeyboardShortcutsManager_KeyboardShortcutSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, "", "KeyboardShortcutsManager/KeyboardShortcut");

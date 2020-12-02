@@ -113,7 +113,7 @@ namespace System::Threading::Tasks {
     // Set static field: static public System.Threading.Tasks.TaskContinuationOptions ExecuteSynchronously
     static void _set_ExecuteSynchronously(System::Threading::Tasks::TaskContinuationOptions value);
   }; // System.Threading.Tasks.TaskContinuationOptions
-  check_size<sizeof(TaskContinuationOptions), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Threading_Tasks_TaskContinuationOptionsSizeCheck;
+  check_size<sizeof(TaskContinuationOptions), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Threading_Tasks_TaskContinuationOptionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskContinuationOptions, "System.Threading.Tasks", "TaskContinuationOptions");

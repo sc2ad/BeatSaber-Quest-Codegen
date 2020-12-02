@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     // Set static field: static public UpdateConnectionStateReason OnDestroy
     static void _set_OnDestroy(GlobalNamespace::UpdateConnectionStateReason value);
   }; // UpdateConnectionStateReason
-  check_size<sizeof(UpdateConnectionStateReason), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_UpdateConnectionStateReasonSizeCheck;
+  check_size<sizeof(UpdateConnectionStateReason), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_UpdateConnectionStateReasonSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UpdateConnectionStateReason, "", "UpdateConnectionStateReason");

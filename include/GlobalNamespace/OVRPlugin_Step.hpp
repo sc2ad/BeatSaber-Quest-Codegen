@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/Step Physics
     static void _set_Physics(GlobalNamespace::OVRPlugin::Step value);
   }; // OVRPlugin/Step
-  check_size<sizeof(OVRPlugin::Step), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRPlugin_StepSizeCheck;
+  check_size<sizeof(OVRPlugin::Step), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OVRPlugin_StepSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Step, "", "OVRPlugin/Step");

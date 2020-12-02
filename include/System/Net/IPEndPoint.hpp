@@ -104,7 +104,7 @@ namespace System::Net {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Net.IPEndPoint
-  check_size<sizeof(IPEndPoint), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __System_Net_IPEndPointSizeCheck;
+  check_size<sizeof(IPEndPoint), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __System_Net_IPEndPointSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPEndPoint*, "System.Net", "IPEndPoint");

@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MainEffectGraphicsSettingsPresetsSO::Preset* New_ctor();
   }; // MainEffectGraphicsSettingsPresetsSO/Preset
-  check_size<sizeof(MainEffectGraphicsSettingsPresetsSO::Preset), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_MainEffectGraphicsSettingsPresetsSO_PresetSizeCheck;
+  check_size<sizeof(MainEffectGraphicsSettingsPresetsSO::Preset), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MainEffectGraphicsSettingsPresetsSO_PresetSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*, "", "MainEffectGraphicsSettingsPresetsSO/Preset");

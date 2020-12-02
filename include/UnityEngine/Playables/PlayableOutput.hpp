@@ -71,7 +71,7 @@ namespace UnityEngine::Playables {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Playables.PlayableOutput other)
     bool Equals(UnityEngine::Playables::PlayableOutput other);
   }; // UnityEngine.Playables.PlayableOutput
-  check_size<sizeof(PlayableOutput), 0 + sizeof(UnityEngine::Playables::PlayableOutputHandle) + 8 - (0 + sizeof(UnityEngine::Playables::PlayableOutputHandle)) % 8> __UnityEngine_Playables_PlayableOutputSizeCheck;
+  check_size<sizeof(PlayableOutput), 0 + sizeof(UnityEngine::Playables::PlayableOutputHandle) + ((0 + sizeof(UnityEngine::Playables::PlayableOutputHandle)) % 8 != 0 ? (8 - (0 + sizeof(UnityEngine::Playables::PlayableOutputHandle)) % 8) : 0)> __UnityEngine_Playables_PlayableOutputSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableOutput, "UnityEngine.Playables", "PlayableOutput");
 #pragma pack(pop)

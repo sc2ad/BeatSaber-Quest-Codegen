@@ -88,7 +88,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static ConventionBindInfo* New_ctor();
   }; // Zenject.ConventionBindInfo
-  check_size<sizeof(ConventionBindInfo), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Zenject_ConventionBindInfoSizeCheck;
+  check_size<sizeof(ConventionBindInfo), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Zenject_ConventionBindInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionBindInfo*, "Zenject", "ConventionBindInfo");

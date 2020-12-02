@@ -199,7 +199,7 @@ namespace UnityEngine::Networking {
     // Set static field: static public UnityEngine.Networking.UnityWebRequest/UnityWebRequestError NoInternetConnection
     static void _set_NoInternetConnection(UnityEngine::Networking::UnityWebRequest::UnityWebRequestError value);
   }; // UnityEngine.Networking.UnityWebRequest/UnityWebRequestError
-  check_size<sizeof(UnityWebRequest::UnityWebRequestError), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Networking_UnityWebRequest_UnityWebRequestErrorSizeCheck;
+  check_size<sizeof(UnityWebRequest::UnityWebRequestError), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_Networking_UnityWebRequest_UnityWebRequestErrorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequest::UnityWebRequestError, "UnityEngine.Networking", "UnityWebRequest/UnityWebRequestError");

@@ -39,7 +39,7 @@ namespace UnityEngine::LowLevel {
     // Creating value type constructor for type: PlayerLoopSystemInternal
     constexpr PlayerLoopSystemInternal(System::Type* type_ = {}, UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction* updateDelegate_ = {}, System::IntPtr updateFunction_ = {}, System::IntPtr loopConditionFunction_ = {}, int numSubSystems_ = {}) noexcept : type{type_}, updateDelegate{updateDelegate_}, updateFunction{updateFunction_}, loopConditionFunction{loopConditionFunction_}, numSubSystems{numSubSystems_} {}
   }; // UnityEngine.LowLevel.PlayerLoopSystemInternal
-  check_size<sizeof(PlayerLoopSystemInternal), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __UnityEngine_LowLevel_PlayerLoopSystemInternalSizeCheck;
+  check_size<sizeof(PlayerLoopSystemInternal), 32 + sizeof(int) + ((32 + sizeof(int)) % 8 != 0 ? (8 - (32 + sizeof(int)) % 8) : 0)> __UnityEngine_LowLevel_PlayerLoopSystemInternalSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LowLevel::PlayerLoopSystemInternal, "UnityEngine.LowLevel", "PlayerLoopSystemInternal");

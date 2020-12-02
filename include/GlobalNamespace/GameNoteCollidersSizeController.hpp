@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static GameNoteCollidersSizeController* New_ctor();
   }; // GameNoteCollidersSizeController
-  check_size<sizeof(GameNoteCollidersSizeController), 64 + sizeof(UnityEngine::Vector3) + 8 - (64 + sizeof(UnityEngine::Vector3)) % 8> __GlobalNamespace_GameNoteCollidersSizeControllerSizeCheck;
+  check_size<sizeof(GameNoteCollidersSizeController), 64 + sizeof(UnityEngine::Vector3) + ((64 + sizeof(UnityEngine::Vector3)) % 8 != 0 ? (8 - (64 + sizeof(UnityEngine::Vector3)) % 8) : 0)> __GlobalNamespace_GameNoteCollidersSizeControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameNoteCollidersSizeController*, "", "GameNoteCollidersSizeController");

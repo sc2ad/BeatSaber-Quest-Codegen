@@ -213,7 +213,7 @@ namespace System::Resources {
     // Base method: System.Void Object::.ctor()
     static ResourceManager* New_ctor();
   }; // System.Resources.ResourceManager
-  check_size<sizeof(ResourceManager), 128 + sizeof(void*) + 8 - (128 + sizeof(void*)) % 8> __System_Resources_ResourceManagerSizeCheck;
+  check_size<sizeof(ResourceManager), 128 + sizeof(void*) + ((128 + sizeof(void*)) % 8 != 0 ? (8 - (128 + sizeof(void*)) % 8) : 0)> __System_Resources_ResourceManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceManager*, "System.Resources", "ResourceManager");

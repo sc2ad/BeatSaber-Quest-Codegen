@@ -53,7 +53,7 @@ namespace System {
     // Set static field: static public System.DTSubStringType Other
     static void _set_Other(System::DTSubStringType value);
   }; // System.DTSubStringType
-  check_size<sizeof(DTSubStringType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_DTSubStringTypeSizeCheck;
+  check_size<sizeof(DTSubStringType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_DTSubStringTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DTSubStringType, "System", "DTSubStringType");

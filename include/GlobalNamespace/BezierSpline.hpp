@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BezierSpline* New_ctor();
   }; // BezierSpline
-  check_size<sizeof(BezierSpline), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_BezierSplineSizeCheck;
+  check_size<sizeof(BezierSpline), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_BezierSplineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSpline*, "", "BezierSpline");

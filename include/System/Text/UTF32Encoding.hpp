@@ -174,7 +174,7 @@ namespace System::Text {
     // Base method: System.Int32 Encoding::GetHashCode()
     int GetHashCode();
   }; // System.Text.UTF32Encoding
-  check_size<sizeof(UTF32Encoding), 58 + sizeof(bool) + 8 - (58 + sizeof(bool)) % 8> __System_Text_UTF32EncodingSizeCheck;
+  check_size<sizeof(UTF32Encoding), 58 + sizeof(bool) + ((58 + sizeof(bool)) % 8 != 0 ? (8 - (58 + sizeof(bool)) % 8) : 0)> __System_Text_UTF32EncodingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF32Encoding*, "System.Text", "UTF32Encoding");

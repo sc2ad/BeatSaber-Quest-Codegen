@@ -77,7 +77,7 @@ namespace UnityEngine::Animations {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Animations.AnimationRemoveScalePlayable other)
     bool Equals(UnityEngine::Animations::AnimationRemoveScalePlayable other);
   }; // UnityEngine.Animations.AnimationRemoveScalePlayable
-  check_size<sizeof(AnimationRemoveScalePlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle) + 8 - (0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8> __UnityEngine_Animations_AnimationRemoveScalePlayableSizeCheck;
+  check_size<sizeof(AnimationRemoveScalePlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle) + ((0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8 != 0 ? (8 - (0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8) : 0)> __UnityEngine_Animations_AnimationRemoveScalePlayableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationRemoveScalePlayable, "UnityEngine.Animations", "AnimationRemoveScalePlayable");

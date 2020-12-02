@@ -94,7 +94,7 @@ namespace UnityEngine::Timeline {
       // Set static field: static public UnityEngine.Timeline.AnimationPlayableAsset/LoopMode Off
       static void _set_Off(UnityEngine::Timeline::AnimationPlayableAsset::LoopMode value);
     }; // UnityEngine.Timeline.AnimationPlayableAsset/LoopMode
-    check_size<sizeof(AnimationPlayableAsset::LoopMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Timeline_AnimationPlayableAsset_LoopModeSizeCheck;
+    check_size<sizeof(AnimationPlayableAsset::LoopMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_Timeline_AnimationPlayableAsset_LoopModeSizeCheck;
     // private UnityEngine.AnimationClip m_Clip
     // Offset: 0x18
     UnityEngine::AnimationClip* m_Clip;
@@ -276,7 +276,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.Timeline.AnimationPlayableAsset
-  check_size<sizeof(AnimationPlayableAsset), 80 + sizeof(UnityEngine::Quaternion) + 8 - (80 + sizeof(UnityEngine::Quaternion)) % 8> __UnityEngine_Timeline_AnimationPlayableAssetSizeCheck;
+  check_size<sizeof(AnimationPlayableAsset), 80 + sizeof(UnityEngine::Quaternion) + ((80 + sizeof(UnityEngine::Quaternion)) % 8 != 0 ? (8 - (80 + sizeof(UnityEngine::Quaternion)) % 8) : 0)> __UnityEngine_Timeline_AnimationPlayableAssetSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPlayableAsset*, "UnityEngine.Timeline", "AnimationPlayableAsset");

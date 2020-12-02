@@ -41,7 +41,7 @@ namespace System::IO {
     // Set static field: static public System.IO.FileAccess ReadWrite
     static void _set_ReadWrite(System::IO::FileAccess value);
   }; // System.IO.FileAccess
-  check_size<sizeof(FileAccess), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_IO_FileAccessSizeCheck;
+  check_size<sizeof(FileAccess), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_IO_FileAccessSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileAccess, "System.IO", "FileAccess");

@@ -77,7 +77,7 @@ namespace System::Net::Http::Headers {
     // Base method: System.String NameValueHeaderValue::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.Http.Headers.NameValueWithParametersHeaderValue
-  check_size<sizeof(NameValueWithParametersHeaderValue), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Net_Http_Headers_NameValueWithParametersHeaderValueSizeCheck;
+  check_size<sizeof(NameValueWithParametersHeaderValue), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_Net_Http_Headers_NameValueWithParametersHeaderValueSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::NameValueWithParametersHeaderValue*, "System.Net.Http.Headers", "NameValueWithParametersHeaderValue");

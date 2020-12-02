@@ -35,7 +35,7 @@ namespace Mono {
     // Creating value type constructor for type: GenericParamInfo
     constexpr GenericParamInfo(Mono::RuntimeStructs::MonoClass* pklass_ = {}, System::IntPtr name_ = {}, uint16_t flags_ = {}, uint token_ = {}, Mono::RuntimeStructs::MonoClass** constraints_ = {}) noexcept : pklass{pklass_}, name{name_}, flags{flags_}, token{token_}, constraints{constraints_} {}
   }; // Mono.RuntimeStructs/GenericParamInfo
-  check_size<sizeof(RuntimeStructs::GenericParamInfo), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Mono_RuntimeStructs_GenericParamInfoSizeCheck;
+  check_size<sizeof(RuntimeStructs::GenericParamInfo), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Mono_RuntimeStructs_GenericParamInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::GenericParamInfo, "Mono", "RuntimeStructs/GenericParamInfo");

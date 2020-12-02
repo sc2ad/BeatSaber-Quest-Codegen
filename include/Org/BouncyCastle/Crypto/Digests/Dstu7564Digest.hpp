@@ -151,7 +151,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Base method: System.Void IMemoable::Reset(Org.BouncyCastle.Utilities.IMemoable other)
     void Reset(Org::BouncyCastle::Utilities::IMemoable* other);
   }; // Org.BouncyCastle.Crypto.Digests.Dstu7564Digest
-  check_size<sizeof(Dstu7564Digest), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Digests_Dstu7564DigestSizeCheck;
+  check_size<sizeof(Dstu7564Digest), 72 + sizeof(void*) + ((72 + sizeof(void*)) % 8 != 0 ? (8 - (72 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_Digests_Dstu7564DigestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Dstu7564Digest*, "Org.BouncyCastle.Crypto.Digests", "Dstu7564Digest");

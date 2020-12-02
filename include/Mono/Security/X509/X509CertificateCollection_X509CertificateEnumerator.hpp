@@ -58,7 +58,7 @@ namespace Mono::Security::X509 {
     // Base method: System.Void IEnumerator::Reset()
     void System_Collections_IEnumerator_Reset();
   }; // Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator
-  check_size<sizeof(X509CertificateCollection::X509CertificateEnumerator), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Mono_Security_X509_X509CertificateCollection_X509CertificateEnumeratorSizeCheck;
+  check_size<sizeof(X509CertificateCollection::X509CertificateEnumerator), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __Mono_Security_X509_X509CertificateCollection_X509CertificateEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509CertificateCollection::X509CertificateEnumerator*, "Mono.Security.X509", "X509CertificateCollection/X509CertificateEnumerator");

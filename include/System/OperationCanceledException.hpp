@@ -63,7 +63,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     static OperationCanceledException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.OperationCanceledException
-  check_size<sizeof(OperationCanceledException), 136 + sizeof(System::Threading::CancellationToken) + 8 - (136 + sizeof(System::Threading::CancellationToken)) % 8> __System_OperationCanceledExceptionSizeCheck;
+  check_size<sizeof(OperationCanceledException), 136 + sizeof(System::Threading::CancellationToken) + ((136 + sizeof(System::Threading::CancellationToken)) % 8 != 0 ? (8 - (136 + sizeof(System::Threading::CancellationToken)) % 8) : 0)> __System_OperationCanceledExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::OperationCanceledException*, "System", "OperationCanceledException");

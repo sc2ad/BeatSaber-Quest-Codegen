@@ -35,7 +35,7 @@ namespace System::Runtime::Serialization::Formatters {
     // Set static field: static public System.Runtime.Serialization.Formatters.FormatterAssemblyStyle Full
     static void _set_Full(System::Runtime::Serialization::Formatters::FormatterAssemblyStyle value);
   }; // System.Runtime.Serialization.Formatters.FormatterAssemblyStyle
-  check_size<sizeof(FormatterAssemblyStyle), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Runtime_Serialization_Formatters_FormatterAssemblyStyleSizeCheck;
+  check_size<sizeof(FormatterAssemblyStyle), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Runtime_Serialization_Formatters_FormatterAssemblyStyleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::FormatterAssemblyStyle, "System.Runtime.Serialization.Formatters", "FormatterAssemblyStyle");

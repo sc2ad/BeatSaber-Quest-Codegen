@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HapticsBuffer
     constexpr HapticsBuffer(System::IntPtr Samples_ = {}, int SamplesCount_ = {}) noexcept : Samples{Samples_}, SamplesCount{SamplesCount_} {}
   }; // OVRPlugin/HapticsBuffer
-  check_size<sizeof(OVRPlugin::HapticsBuffer), 8 + sizeof(int) + 8 - (8 + sizeof(int)) % 8> __GlobalNamespace_OVRPlugin_HapticsBufferSizeCheck;
+  check_size<sizeof(OVRPlugin::HapticsBuffer), 8 + sizeof(int) + ((8 + sizeof(int)) % 8 != 0 ? (8 - (8 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OVRPlugin_HapticsBufferSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HapticsBuffer, "", "OVRPlugin/HapticsBuffer");

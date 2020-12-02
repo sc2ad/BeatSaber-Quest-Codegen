@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     // Base method: System.Void BeatmapObjectData::MirrorLineIndex(System.Int32 lineCount)
     void MirrorLineIndex(int lineCount);
   }; // ObstacleData
-  check_size<sizeof(ObstacleData), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __GlobalNamespace_ObstacleDataSizeCheck;
+  check_size<sizeof(ObstacleData), 32 + sizeof(int) + ((32 + sizeof(int)) % 8 != 0 ? (8 - (32 + sizeof(int)) % 8) : 0)> __GlobalNamespace_ObstacleDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleData*, "", "ObstacleData");

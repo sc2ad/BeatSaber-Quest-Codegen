@@ -83,7 +83,7 @@ namespace System::Threading {
     // Set static field: static public System.Threading.ThreadState Aborted
     static void _set_Aborted(System::Threading::ThreadState value);
   }; // System.Threading.ThreadState
-  check_size<sizeof(ThreadState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Threading_ThreadStateSizeCheck;
+  check_size<sizeof(ThreadState), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Threading_ThreadStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadState, "System.Threading", "ThreadState");

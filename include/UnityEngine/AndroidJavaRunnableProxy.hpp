@@ -34,7 +34,7 @@ namespace UnityEngine {
     // Offset: 0x19A1558
     void run();
   }; // UnityEngine.AndroidJavaRunnableProxy
-  check_size<sizeof(AndroidJavaRunnableProxy), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __UnityEngine_AndroidJavaRunnableProxySizeCheck;
+  check_size<sizeof(AndroidJavaRunnableProxy), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __UnityEngine_AndroidJavaRunnableProxySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaRunnableProxy*, "UnityEngine", "AndroidJavaRunnableProxy");

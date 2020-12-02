@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static StaticEnvironmentLights* New_ctor();
   }; // StaticEnvironmentLights
-  check_size<sizeof(StaticEnvironmentLights), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_StaticEnvironmentLightsSizeCheck;
+  check_size<sizeof(StaticEnvironmentLights), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_StaticEnvironmentLightsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StaticEnvironmentLights*, "", "StaticEnvironmentLights");

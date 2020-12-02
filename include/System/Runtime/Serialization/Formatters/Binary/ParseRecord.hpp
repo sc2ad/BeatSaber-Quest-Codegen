@@ -180,7 +180,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     static ParseRecord* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.ParseRecord
-  check_size<sizeof(ParseRecord), 280 + sizeof(int) + 8 - (280 + sizeof(int)) % 8> __System_Runtime_Serialization_Formatters_Binary_ParseRecordSizeCheck;
+  check_size<sizeof(ParseRecord), 280 + sizeof(int) + ((280 + sizeof(int)) % 8 != 0 ? (8 - (280 + sizeof(int)) % 8) : 0)> __System_Runtime_Serialization_Formatters_Binary_ParseRecordSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ParseRecord*, "System.Runtime.Serialization.Formatters.Binary", "ParseRecord");

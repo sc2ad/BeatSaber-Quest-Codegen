@@ -65,7 +65,7 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static public System.Diagnostics.Tracing.EventFieldFormat HResult
     static void _set_HResult(System::Diagnostics::Tracing::EventFieldFormat value);
   }; // System.Diagnostics.Tracing.EventFieldFormat
-  check_size<sizeof(EventFieldFormat), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Diagnostics_Tracing_EventFieldFormatSizeCheck;
+  check_size<sizeof(EventFieldFormat), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Diagnostics_Tracing_EventFieldFormatSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventFieldFormat, "System.Diagnostics.Tracing", "EventFieldFormat");

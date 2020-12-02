@@ -45,7 +45,7 @@ namespace Valve::VR {
     // Offset: 0x1369B80
     void GetDXGIOutputInfo(int& pnAdapterIndex, int& pnAdapterOutputIndex);
   }; // Valve.VR.CVRExtendedDisplay
-  check_size<sizeof(CVRExtendedDisplay), 16 + sizeof(Valve::VR::IVRExtendedDisplay) + 8 - (16 + sizeof(Valve::VR::IVRExtendedDisplay)) % 8> __Valve_VR_CVRExtendedDisplaySizeCheck;
+  check_size<sizeof(CVRExtendedDisplay), 16 + sizeof(Valve::VR::IVRExtendedDisplay) + ((16 + sizeof(Valve::VR::IVRExtendedDisplay)) % 8 != 0 ? (8 - (16 + sizeof(Valve::VR::IVRExtendedDisplay)) % 8) : 0)> __Valve_VR_CVRExtendedDisplaySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRExtendedDisplay*, "Valve.VR", "CVRExtendedDisplay");

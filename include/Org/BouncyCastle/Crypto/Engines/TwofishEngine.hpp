@@ -148,7 +148,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Int32 IBlockCipher::GetBlockSize()
     int GetBlockSize();
   }; // Org.BouncyCastle.Crypto.Engines.TwofishEngine
-  check_size<sizeof(TwofishEngine), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Engines_TwofishEngineSizeCheck;
+  check_size<sizeof(TwofishEngine), 80 + sizeof(void*) + ((80 + sizeof(void*)) % 8 != 0 ? (8 - (80 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_Engines_TwofishEngineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::TwofishEngine*, "Org.BouncyCastle.Crypto.Engines", "TwofishEngine");

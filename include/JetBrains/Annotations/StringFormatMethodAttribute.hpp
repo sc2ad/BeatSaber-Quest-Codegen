@@ -30,7 +30,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EEAAC
     void set_FormatParameterName(::Il2CppString* value);
   }; // JetBrains.Annotations.StringFormatMethodAttribute
-  check_size<sizeof(StringFormatMethodAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __JetBrains_Annotations_StringFormatMethodAttributeSizeCheck;
+  check_size<sizeof(StringFormatMethodAttribute), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __JetBrains_Annotations_StringFormatMethodAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::StringFormatMethodAttribute*, "JetBrains.Annotations", "StringFormatMethodAttribute");

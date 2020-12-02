@@ -35,7 +35,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DC424
     static MatchmakingEnqueueResultAndRoom* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.MatchmakingEnqueueResultAndRoom
-  check_size<sizeof(MatchmakingEnqueueResultAndRoom), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Oculus_Platform_Models_MatchmakingEnqueueResultAndRoomSizeCheck;
+  check_size<sizeof(MatchmakingEnqueueResultAndRoom), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Oculus_Platform_Models_MatchmakingEnqueueResultAndRoomSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom*, "Oculus.Platform.Models", "MatchmakingEnqueueResultAndRoom");

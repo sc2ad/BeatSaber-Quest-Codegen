@@ -78,7 +78,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
   }; // Org.BouncyCastle.Asn1.DerGeneralizedTime
-  check_size<sizeof(DerGeneralizedTime), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Org_BouncyCastle_Asn1_DerGeneralizedTimeSizeCheck;
+  check_size<sizeof(DerGeneralizedTime), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Asn1_DerGeneralizedTimeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerGeneralizedTime*, "Org.BouncyCastle.Asn1", "DerGeneralizedTime");

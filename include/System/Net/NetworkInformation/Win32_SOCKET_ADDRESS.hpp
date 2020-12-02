@@ -33,7 +33,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0xC95B98
     System::Net::IPAddress* GetIPAddress();
   }; // System.Net.NetworkInformation.Win32_SOCKET_ADDRESS
-  check_size<sizeof(Win32_SOCKET_ADDRESS), 8 + sizeof(int) + 8 - (8 + sizeof(int)) % 8> __System_Net_NetworkInformation_Win32_SOCKET_ADDRESSSizeCheck;
+  check_size<sizeof(Win32_SOCKET_ADDRESS), 8 + sizeof(int) + ((8 + sizeof(int)) % 8 != 0 ? (8 - (8 + sizeof(int)) % 8) : 0)> __System_Net_NetworkInformation_Win32_SOCKET_ADDRESSSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS, "System.Net.NetworkInformation", "Win32_SOCKET_ADDRESS");

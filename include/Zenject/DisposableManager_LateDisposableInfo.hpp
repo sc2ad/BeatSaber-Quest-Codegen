@@ -30,7 +30,7 @@ namespace Zenject {
     // Offset: 0x1293BA0
     static DisposableManager::LateDisposableInfo* New_ctor(Zenject::ILateDisposable* lateDisposable, int priority);
   }; // Zenject.DisposableManager/LateDisposableInfo
-  check_size<sizeof(DisposableManager::LateDisposableInfo), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __Zenject_DisposableManager_LateDisposableInfoSizeCheck;
+  check_size<sizeof(DisposableManager::LateDisposableInfo), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __Zenject_DisposableManager_LateDisposableInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::LateDisposableInfo*, "Zenject", "DisposableManager/LateDisposableInfo");

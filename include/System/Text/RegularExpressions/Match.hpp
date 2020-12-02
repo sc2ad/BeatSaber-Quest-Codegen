@@ -102,7 +102,7 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void Object::.ctor()
     static Match* New_ctor();
   }; // System.Text.RegularExpressions.Match
-  check_size<sizeof(Match), 104 + sizeof(bool) + 8 - (104 + sizeof(bool)) % 8> __System_Text_RegularExpressions_MatchSizeCheck;
+  check_size<sizeof(Match), 104 + sizeof(bool) + ((104 + sizeof(bool)) % 8 != 0 ? (8 - (104 + sizeof(bool)) % 8) : 0)> __System_Text_RegularExpressions_MatchSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::Match*, "System.Text.RegularExpressions", "Match");

@@ -24,7 +24,7 @@ namespace System::Runtime::CompilerServices {
     // Creating value type constructor for type: Ephemeron
     constexpr Ephemeron(::Il2CppObject* key_ = {}, ::Il2CppObject* value_ = {}) noexcept : key{key_}, value{value_} {}
   }; // System.Runtime.CompilerServices.Ephemeron
-  check_size<sizeof(Ephemeron), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __System_Runtime_CompilerServices_EphemeronSizeCheck;
+  check_size<sizeof(Ephemeron), 8 + sizeof(void*) + ((8 + sizeof(void*)) % 8 != 0 ? (8 - (8 + sizeof(void*)) % 8) : 0)> __System_Runtime_CompilerServices_EphemeronSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::Ephemeron, "System.Runtime.CompilerServices", "Ephemeron");

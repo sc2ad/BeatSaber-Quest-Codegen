@@ -39,7 +39,7 @@ namespace Mono::Security::Interface {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Mono.Security.Interface.Alert
-  check_size<sizeof(Alert), 17 + sizeof(Mono::Security::Interface::AlertDescription) + 8 - (17 + sizeof(Mono::Security::Interface::AlertDescription)) % 8> __Mono_Security_Interface_AlertSizeCheck;
+  check_size<sizeof(Alert), 17 + sizeof(Mono::Security::Interface::AlertDescription) + ((17 + sizeof(Mono::Security::Interface::AlertDescription)) % 8 != 0 ? (8 - (17 + sizeof(Mono::Security::Interface::AlertDescription)) % 8) : 0)> __Mono_Security_Interface_AlertSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::Alert*, "Mono.Security.Interface", "Alert");

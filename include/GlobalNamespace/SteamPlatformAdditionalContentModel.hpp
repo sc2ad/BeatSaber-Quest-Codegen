@@ -130,7 +130,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SteamPlatformAdditionalContentModel* New_ctor();
   }; // SteamPlatformAdditionalContentModel
-  check_size<sizeof(SteamPlatformAdditionalContentModel), 72 + sizeof(bool) + 8 - (72 + sizeof(bool)) % 8> __GlobalNamespace_SteamPlatformAdditionalContentModelSizeCheck;
+  check_size<sizeof(SteamPlatformAdditionalContentModel), 72 + sizeof(bool) + ((72 + sizeof(bool)) % 8 != 0 ? (8 - (72 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_SteamPlatformAdditionalContentModelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamPlatformAdditionalContentModel*, "", "SteamPlatformAdditionalContentModel");

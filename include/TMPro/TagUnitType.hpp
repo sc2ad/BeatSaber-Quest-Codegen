@@ -41,7 +41,7 @@ namespace TMPro {
     // Set static field: static public TMPro.TagUnitType Percentage
     static void _set_Percentage(TMPro::TagUnitType value);
   }; // TMPro.TagUnitType
-  check_size<sizeof(TagUnitType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __TMPro_TagUnitTypeSizeCheck;
+  check_size<sizeof(TagUnitType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __TMPro_TagUnitTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TagUnitType, "TMPro", "TagUnitType");

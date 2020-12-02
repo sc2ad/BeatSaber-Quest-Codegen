@@ -126,7 +126,7 @@ namespace OVRSimpleJSON {
     // Base method: System.Void Object::.ctor()
     static JSONArray* New_ctor();
   }; // OVRSimpleJSON.JSONArray
-  check_size<sizeof(JSONArray), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __OVRSimpleJSON_JSONArraySizeCheck;
+  check_size<sizeof(JSONArray), 24 + sizeof(bool) + ((24 + sizeof(bool)) % 8 != 0 ? (8 - (24 + sizeof(bool)) % 8) : 0)> __OVRSimpleJSON_JSONArraySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONArray*, "OVRSimpleJSON", "JSONArray");

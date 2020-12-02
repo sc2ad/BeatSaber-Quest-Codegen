@@ -72,7 +72,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static HandPoser* New_ctor();
   }; // RootMotion.FinalIK.HandPoser
-  check_size<sizeof(HandPoser), 112 + sizeof(void*) + 8 - (112 + sizeof(void*)) % 8> __RootMotion_FinalIK_HandPoserSizeCheck;
+  check_size<sizeof(HandPoser), 112 + sizeof(void*) + ((112 + sizeof(void*)) % 8 != 0 ? (8 - (112 + sizeof(void*)) % 8) : 0)> __RootMotion_FinalIK_HandPoserSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HandPoser*, "RootMotion.FinalIK", "HandPoser");

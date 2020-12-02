@@ -56,7 +56,7 @@ namespace System::Collections::Specialized {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // System.Collections.Specialized.NameObjectCollectionBase/NameObjectKeysEnumerator
-  check_size<sizeof(NameObjectCollectionBase::NameObjectKeysEnumerator), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __System_Collections_Specialized_NameObjectCollectionBase_NameObjectKeysEnumeratorSizeCheck;
+  check_size<sizeof(NameObjectCollectionBase::NameObjectKeysEnumerator), 32 + sizeof(int) + ((32 + sizeof(int)) % 8 != 0 ? (8 - (32 + sizeof(int)) % 8) : 0)> __System_Collections_Specialized_NameObjectCollectionBase_NameObjectKeysEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator*, "System.Collections.Specialized", "NameObjectCollectionBase/NameObjectKeysEnumerator");

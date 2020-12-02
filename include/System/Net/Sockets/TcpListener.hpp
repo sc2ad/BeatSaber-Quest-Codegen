@@ -70,7 +70,7 @@ namespace System::Net::Sockets {
     // Offset: 0x1215C78
     System::Net::Sockets::TcpClient* EndAcceptTcpClient(System::IAsyncResult* asyncResult);
   }; // System.Net.Sockets.TcpListener
-  check_size<sizeof(TcpListener), 33 + sizeof(bool) + 8 - (33 + sizeof(bool)) % 8> __System_Net_Sockets_TcpListenerSizeCheck;
+  check_size<sizeof(TcpListener), 33 + sizeof(bool) + ((33 + sizeof(bool)) % 8 != 0 ? (8 - (33 + sizeof(bool)) % 8) : 0)> __System_Net_Sockets_TcpListenerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::TcpListener*, "System.Net.Sockets", "TcpListener");

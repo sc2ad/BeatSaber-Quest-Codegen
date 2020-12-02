@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static StandardLevelNoTransitionInstaller* New_ctor();
   }; // StandardLevelNoTransitionInstaller
-  check_size<sizeof(StandardLevelNoTransitionInstaller), 104 + sizeof(void*) + 8 - (104 + sizeof(void*)) % 8> __GlobalNamespace_StandardLevelNoTransitionInstallerSizeCheck;
+  check_size<sizeof(StandardLevelNoTransitionInstaller), 104 + sizeof(void*) + ((104 + sizeof(void*)) % 8 != 0 ? (8 - (104 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_StandardLevelNoTransitionInstallerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelNoTransitionInstaller*, "", "StandardLevelNoTransitionInstaller");

@@ -26,7 +26,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: D3D12TextureData_t
     constexpr D3D12TextureData_t(System::IntPtr m_pResource_ = {}, System::IntPtr m_pCommandQueue_ = {}, uint m_nNodeMask_ = {}) noexcept : m_pResource{m_pResource_}, m_pCommandQueue{m_pCommandQueue_}, m_nNodeMask{m_nNodeMask_} {}
   }; // Valve.VR.D3D12TextureData_t
-  check_size<sizeof(D3D12TextureData_t), 16 + sizeof(uint) + 8 - (16 + sizeof(uint)) % 8> __Valve_VR_D3D12TextureData_tSizeCheck;
+  check_size<sizeof(D3D12TextureData_t), 16 + sizeof(uint) + ((16 + sizeof(uint)) % 8 != 0 ? (8 - (16 + sizeof(uint)) % 8) : 0)> __Valve_VR_D3D12TextureData_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::D3D12TextureData_t, "Valve.VR", "D3D12TextureData_t");

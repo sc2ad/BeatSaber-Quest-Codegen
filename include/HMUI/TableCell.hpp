@@ -73,7 +73,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static TableCell* New_ctor();
   }; // HMUI.TableCell
-  check_size<sizeof(TableCell), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __HMUI_TableCellSizeCheck;
+  check_size<sizeof(TableCell), 72 + sizeof(void*) + ((72 + sizeof(void*)) % 8 != 0 ? (8 - (72 + sizeof(void*)) % 8) : 0)> __HMUI_TableCellSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableCell*, "HMUI", "TableCell");

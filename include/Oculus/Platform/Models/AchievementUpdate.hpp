@@ -28,7 +28,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11D8104
     static AchievementUpdate* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.AchievementUpdate
-  check_size<sizeof(AchievementUpdate), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Oculus_Platform_Models_AchievementUpdateSizeCheck;
+  check_size<sizeof(AchievementUpdate), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Oculus_Platform_Models_AchievementUpdateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementUpdate*, "Oculus.Platform.Models", "AchievementUpdate");

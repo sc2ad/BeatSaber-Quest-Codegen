@@ -40,7 +40,7 @@ namespace UnityEngine::TestTools::Utils {
     // Base method: System.Reflection.Assembly IAssemblyWrapper::get_Assembly()
     System::Reflection::Assembly* get_Assembly();
   }; // UnityEngine.TestTools.Utils.AssemblyWrapper
-  check_size<sizeof(AssemblyWrapper), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_TestTools_Utils_AssemblyWrapperSizeCheck;
+  check_size<sizeof(AssemblyWrapper), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __UnityEngine_TestTools_Utils_AssemblyWrapperSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::AssemblyWrapper*, "UnityEngine.TestTools.Utils", "AssemblyWrapper");

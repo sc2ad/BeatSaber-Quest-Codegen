@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EventBinder* New_ctor();
   }; // EventBinder
-  check_size<sizeof(EventBinder), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_EventBinderSizeCheck;
+  check_size<sizeof(EventBinder), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_EventBinderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EventBinder*, "", "EventBinder");

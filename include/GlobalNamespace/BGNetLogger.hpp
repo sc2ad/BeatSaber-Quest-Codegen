@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     // Base method: System.Void ILogger::LogWarning(System.String message)
     void LogWarning(::Il2CppString* message);
   }; // BGNetLogger
-  check_size<sizeof(BGNetLogger), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_BGNetLoggerSizeCheck;
+  check_size<sizeof(BGNetLogger), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_BGNetLoggerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BGNetLogger*, "", "BGNetLogger");

@@ -49,7 +49,7 @@ namespace UnityEngine::Timeline {
     // Set static field: static public UnityEngine.Timeline.TrackAsset/Versions AnimatedTrackProperties
     static void _set_AnimatedTrackProperties(UnityEngine::Timeline::TrackAsset::Versions value);
   }; // UnityEngine.Timeline.TrackAsset/Versions
-  check_size<sizeof(TrackAsset::Versions), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Timeline_TrackAsset_VersionsSizeCheck;
+  check_size<sizeof(TrackAsset::Versions), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_Timeline_TrackAsset_VersionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAsset::Versions, "UnityEngine.Timeline", "TrackAsset/Versions");

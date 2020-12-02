@@ -27,7 +27,7 @@ namespace Microsoft::Win32 {
     // Creating value type constructor for type: EVENT_FILTER_DESCRIPTOR
     constexpr EVENT_FILTER_DESCRIPTOR(int64_t Ptr_ = {}, int Size_ = {}, int Type_ = {}) noexcept : Ptr{Ptr_}, Size{Size_}, Type{Type_} {}
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/EVENT_FILTER_DESCRIPTOR
-  check_size<sizeof(UnsafeNativeMethods::ManifestEtw::EVENT_FILTER_DESCRIPTOR), 12 + sizeof(int) + 8 - (12 + sizeof(int)) % 8> __Microsoft_Win32_UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTORSizeCheck;
+  check_size<sizeof(UnsafeNativeMethods::ManifestEtw::EVENT_FILTER_DESCRIPTOR), 12 + sizeof(int) + ((12 + sizeof(int)) % 8 != 0 ? (8 - (12 + sizeof(int)) % 8) : 0)> __Microsoft_Win32_UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTORSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::EVENT_FILTER_DESCRIPTOR, "Microsoft.Win32", "UnsafeNativeMethods/ManifestEtw/EVENT_FILTER_DESCRIPTOR");

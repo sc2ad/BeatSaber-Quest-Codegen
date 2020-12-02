@@ -40,7 +40,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.String PointerEventData::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.EventSystems.OVRPointerEventData
-  check_size<sizeof(OVRPointerEventData), 328 + sizeof(UnityEngine::Vector2) + 8 - (328 + sizeof(UnityEngine::Vector2)) % 8> __UnityEngine_EventSystems_OVRPointerEventDataSizeCheck;
+  check_size<sizeof(OVRPointerEventData), 328 + sizeof(UnityEngine::Vector2) + ((328 + sizeof(UnityEngine::Vector2)) % 8 != 0 ? (8 - (328 + sizeof(UnityEngine::Vector2)) % 8) : 0)> __UnityEngine_EventSystems_OVRPointerEventDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRPointerEventData*, "UnityEngine.EventSystems", "OVRPointerEventData");

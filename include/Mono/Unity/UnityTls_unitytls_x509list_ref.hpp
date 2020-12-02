@@ -25,7 +25,7 @@ namespace Mono::Unity {
       return handle;
     }
   }; // Mono.Unity.UnityTls/unitytls_x509list_ref
-  check_size<sizeof(UnityTls::unitytls_x509list_ref), 0 + sizeof(uint64_t) + 8 - (0 + sizeof(uint64_t)) % 8> __Mono_Unity_UnityTls_unitytls_x509list_refSizeCheck;
+  check_size<sizeof(UnityTls::unitytls_x509list_ref), 0 + sizeof(uint64_t) + ((0 + sizeof(uint64_t)) % 8 != 0 ? (8 - (0 + sizeof(uint64_t)) % 8) : 0)> __Mono_Unity_UnityTls_unitytls_x509list_refSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_x509list_ref, "Mono.Unity", "UnityTls/unitytls_x509list_ref");

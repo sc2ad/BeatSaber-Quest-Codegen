@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PS4LevelProductsModelSO::LevelProductData* New_ctor();
   }; // PS4LevelProductsModelSO/LevelProductData
-  check_size<sizeof(PS4LevelProductsModelSO::LevelProductData), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_PS4LevelProductsModelSO_LevelProductDataSizeCheck;
+  check_size<sizeof(PS4LevelProductsModelSO::LevelProductData), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_PS4LevelProductsModelSO_LevelProductDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*, "", "PS4LevelProductsModelSO/LevelProductData");

@@ -98,7 +98,7 @@ namespace LiteNetLib {
     // Offset: 0x1DCD75C
     static void _cctor();
   }; // LiteNetLib.NetPacket
-  check_size<sizeof(NetPacket), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __LiteNetLib_NetPacketSizeCheck;
+  check_size<sizeof(NetPacket), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __LiteNetLib_NetPacketSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacket*, "LiteNetLib", "NetPacket");

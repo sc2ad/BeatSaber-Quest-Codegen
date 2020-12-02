@@ -268,7 +268,7 @@ namespace UnityEngine::Playables {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.Playables.PlayableHandle
-  check_size<sizeof(PlayableHandle), 8 + sizeof(uint) + 8 - (8 + sizeof(uint)) % 8> __UnityEngine_Playables_PlayableHandleSizeCheck;
+  check_size<sizeof(PlayableHandle), 8 + sizeof(uint) + ((8 + sizeof(uint)) % 8 != 0 ? (8 - (8 + sizeof(uint)) % 8) : 0)> __UnityEngine_Playables_PlayableHandleSizeCheck;
   // static public System.Boolean op_Equality(UnityEngine.Playables.PlayableHandle x, UnityEngine.Playables.PlayableHandle y)
   // Offset: 0x1731228
   bool operator ==(const UnityEngine::Playables::PlayableHandle& x, const UnityEngine::Playables::PlayableHandle& y);

@@ -53,7 +53,7 @@ namespace System::Runtime::InteropServices {
     // Set static field: static public System.Runtime.InteropServices.CallingConvention FastCall
     static void _set_FastCall(System::Runtime::InteropServices::CallingConvention value);
   }; // System.Runtime.InteropServices.CallingConvention
-  check_size<sizeof(CallingConvention), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Runtime_InteropServices_CallingConventionSizeCheck;
+  check_size<sizeof(CallingConvention), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Runtime_InteropServices_CallingConventionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::CallingConvention, "System.Runtime.InteropServices", "CallingConvention");

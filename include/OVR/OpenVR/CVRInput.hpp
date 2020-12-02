@@ -115,7 +115,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11F57D8
     OVR::OpenVR::EVRInputError ShowBindingsForActionSet(::Array<OVR::OpenVR::VRActiveActionSet_t>* pSets, uint unSizeOfVRSelectedActionSet_t, uint64_t originToHighlight);
   }; // OVR.OpenVR.CVRInput
-  check_size<sizeof(CVRInput), 16 + sizeof(OVR::OpenVR::IVRInput) + 8 - (16 + sizeof(OVR::OpenVR::IVRInput)) % 8> __OVR_OpenVR_CVRInputSizeCheck;
+  check_size<sizeof(CVRInput), 16 + sizeof(OVR::OpenVR::IVRInput) + ((16 + sizeof(OVR::OpenVR::IVRInput)) % 8 != 0 ? (8 - (16 + sizeof(OVR::OpenVR::IVRInput)) % 8) : 0)> __OVR_OpenVR_CVRInputSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRInput*, "OVR.OpenVR", "CVRInput");

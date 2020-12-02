@@ -45,7 +45,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: jvalue
     constexpr jvalue(bool z_ = {}, int8_t b_ = {}, ::Il2CppChar c_ = {}, int16_t s_ = {}, int i_ = {}, int64_t j_ = {}, float f_ = {}, double d_ = {}, System::IntPtr l_ = {}) noexcept : z{z_}, b{b_}, c{c_}, s{s_}, i{i_}, j{j_}, f{f_}, d{d_}, l{l_} {}
   }; // UnityEngine.jvalue
-  check_size<sizeof(jvalue), 0 + sizeof(System::IntPtr) + 8 - (0 + sizeof(System::IntPtr)) % 8> __UnityEngine_jvalueSizeCheck;
+  check_size<sizeof(jvalue), 0 + sizeof(System::IntPtr) + ((0 + sizeof(System::IntPtr)) % 8 != 0 ? (8 - (0 + sizeof(System::IntPtr)) % 8) : 0)> __UnityEngine_jvalueSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::jvalue, "UnityEngine", "jvalue");

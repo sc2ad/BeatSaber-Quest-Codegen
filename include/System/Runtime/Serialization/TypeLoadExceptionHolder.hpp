@@ -25,7 +25,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x1446648
     ::Il2CppString* get_TypeName();
   }; // System.Runtime.Serialization.TypeLoadExceptionHolder
-  check_size<sizeof(TypeLoadExceptionHolder), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Runtime_Serialization_TypeLoadExceptionHolderSizeCheck;
+  check_size<sizeof(TypeLoadExceptionHolder), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Runtime_Serialization_TypeLoadExceptionHolderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::TypeLoadExceptionHolder*, "System.Runtime.Serialization", "TypeLoadExceptionHolder");

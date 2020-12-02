@@ -68,7 +68,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     static Marker* New_ctor();
   }; // UnityEngine.Timeline.Marker
-  check_size<sizeof(Marker), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __UnityEngine_Timeline_MarkerSizeCheck;
+  check_size<sizeof(Marker), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __UnityEngine_Timeline_MarkerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::Marker*, "UnityEngine.Timeline", "Marker");

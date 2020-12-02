@@ -40,7 +40,7 @@ namespace System::Net {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Net.TimerThread/Timer
-  check_size<sizeof(TimerThread::Timer), 20 + sizeof(int) + 8 - (20 + sizeof(int)) % 8> __System_Net_TimerThread_TimerSizeCheck;
+  check_size<sizeof(TimerThread::Timer), 20 + sizeof(int) + ((20 + sizeof(int)) % 8 != 0 ? (8 - (20 + sizeof(int)) % 8) : 0)> __System_Net_TimerThread_TimerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::Timer*, "System.Net", "TimerThread/Timer");

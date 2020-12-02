@@ -22,7 +22,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: VREvent_Notification_t
     constexpr VREvent_Notification_t(uint64_t ulUserValue_ = {}, uint notificationId_ = {}) noexcept : ulUserValue{ulUserValue_}, notificationId{notificationId_} {}
   }; // Valve.VR.VREvent_Notification_t
-  check_size<sizeof(VREvent_Notification_t), 8 + sizeof(uint) + 8 - (8 + sizeof(uint)) % 8> __Valve_VR_VREvent_Notification_tSizeCheck;
+  check_size<sizeof(VREvent_Notification_t), 8 + sizeof(uint) + ((8 + sizeof(uint)) % 8 != 0 ? (8 - (8 + sizeof(uint)) % 8) : 0)> __Valve_VR_VREvent_Notification_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_Notification_t, "Valve.VR", "VREvent_Notification_t");

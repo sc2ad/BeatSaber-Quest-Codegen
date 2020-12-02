@@ -120,7 +120,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void ISerializationCallbackReceiver::OnAfterDeserialize()
     void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
   }; // UnityEngine.Timeline.MarkerList
-  check_size<sizeof(MarkerList), 17 + sizeof(bool) + 8 - (17 + sizeof(bool)) % 8> __UnityEngine_Timeline_MarkerListSizeCheck;
+  check_size<sizeof(MarkerList), 17 + sizeof(bool) + ((17 + sizeof(bool)) % 8 != 0 ? (8 - (17 + sizeof(bool)) % 8) : 0)> __UnityEngine_Timeline_MarkerListSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MarkerList, "UnityEngine.Timeline", "MarkerList");

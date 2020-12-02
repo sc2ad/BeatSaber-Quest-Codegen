@@ -114,7 +114,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // BloomPrePassLight
-  check_size<sizeof(BloomPrePassLight), 42 + sizeof(bool) + 8 - (42 + sizeof(bool)) % 8> __GlobalNamespace_BloomPrePassLightSizeCheck;
+  check_size<sizeof(BloomPrePassLight), 42 + sizeof(bool) + ((42 + sizeof(bool)) % 8 != 0 ? (8 - (42 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_BloomPrePassLightSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassLight*, "", "BloomPrePassLight");

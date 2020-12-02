@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BloomPrePassBackgroundColorsGradientWithIds* New_ctor();
   }; // BloomPrePassBackgroundColorsGradientWithIds
-  check_size<sizeof(BloomPrePassBackgroundColorsGradientWithIds), 56 + sizeof(float) + 8 - (56 + sizeof(float)) % 8> __GlobalNamespace_BloomPrePassBackgroundColorsGradientWithIdsSizeCheck;
+  check_size<sizeof(BloomPrePassBackgroundColorsGradientWithIds), 56 + sizeof(float) + ((56 + sizeof(float)) % 8 != 0 ? (8 - (56 + sizeof(float)) % 8) : 0)> __GlobalNamespace_BloomPrePassBackgroundColorsGradientWithIdsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColorsGradientWithIds*, "", "BloomPrePassBackgroundColorsGradientWithIds");

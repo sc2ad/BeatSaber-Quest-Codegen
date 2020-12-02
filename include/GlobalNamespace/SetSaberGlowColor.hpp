@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SetSaberGlowColor* New_ctor();
   }; // SetSaberGlowColor
-  check_size<sizeof(SetSaberGlowColor), 64 + sizeof(GlobalNamespace::SaberType) + 8 - (64 + sizeof(GlobalNamespace::SaberType)) % 8> __GlobalNamespace_SetSaberGlowColorSizeCheck;
+  check_size<sizeof(SetSaberGlowColor), 64 + sizeof(GlobalNamespace::SaberType) + ((64 + sizeof(GlobalNamespace::SaberType)) % 8 != 0 ? (8 - (64 + sizeof(GlobalNamespace::SaberType)) % 8) : 0)> __GlobalNamespace_SetSaberGlowColorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetSaberGlowColor*, "", "SetSaberGlowColor");

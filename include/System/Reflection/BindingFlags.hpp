@@ -143,7 +143,7 @@ namespace System::Reflection {
     // Set static field: static public System.Reflection.BindingFlags IgnoreReturn
     static void _set_IgnoreReturn(System::Reflection::BindingFlags value);
   }; // System.Reflection.BindingFlags
-  check_size<sizeof(BindingFlags), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Reflection_BindingFlagsSizeCheck;
+  check_size<sizeof(BindingFlags), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Reflection_BindingFlagsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::BindingFlags, "System.Reflection", "BindingFlags");

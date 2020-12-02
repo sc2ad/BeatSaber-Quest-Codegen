@@ -128,7 +128,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SimpleLevelStarter* New_ctor();
   }; // SimpleLevelStarter
-  check_size<sizeof(SimpleLevelStarter), 104 + sizeof(void*) + 8 - (104 + sizeof(void*)) % 8> __GlobalNamespace_SimpleLevelStarterSizeCheck;
+  check_size<sizeof(SimpleLevelStarter), 104 + sizeof(void*) + ((104 + sizeof(void*)) % 8 != 0 ? (8 - (104 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_SimpleLevelStarterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleLevelStarter*, "", "SimpleLevelStarter");

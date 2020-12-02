@@ -135,7 +135,7 @@ namespace System::Security::Principal {
     // Base method: System.Void ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Security.Principal.WindowsIdentity
-  check_size<sizeof(WindowsIdentity), 152 + sizeof(void*) + 8 - (152 + sizeof(void*)) % 8> __System_Security_Principal_WindowsIdentitySizeCheck;
+  check_size<sizeof(WindowsIdentity), 152 + sizeof(void*) + ((152 + sizeof(void*)) % 8 != 0 ? (8 - (152 + sizeof(void*)) % 8) : 0)> __System_Security_Principal_WindowsIdentitySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::WindowsIdentity*, "System.Security.Principal", "WindowsIdentity");

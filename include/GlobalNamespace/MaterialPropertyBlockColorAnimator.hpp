@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MaterialPropertyBlockColorAnimator* New_ctor();
   }; // MaterialPropertyBlockColorAnimator
-  check_size<sizeof(MaterialPropertyBlockColorAnimator), 48 + sizeof(UnityEngine::Color) + 8 - (48 + sizeof(UnityEngine::Color)) % 8> __GlobalNamespace_MaterialPropertyBlockColorAnimatorSizeCheck;
+  check_size<sizeof(MaterialPropertyBlockColorAnimator), 48 + sizeof(UnityEngine::Color) + ((48 + sizeof(UnityEngine::Color)) % 8 != 0 ? (8 - (48 + sizeof(UnityEngine::Color)) % 8) : 0)> __GlobalNamespace_MaterialPropertyBlockColorAnimatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockColorAnimator*, "", "MaterialPropertyBlockColorAnimator");

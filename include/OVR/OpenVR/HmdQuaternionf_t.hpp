@@ -27,7 +27,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: HmdQuaternionf_t
     constexpr HmdQuaternionf_t(float w_ = {}, float x_ = {}, float y_ = {}, float z_ = {}) noexcept : w{w_}, x{x_}, y{y_}, z{z_} {}
   }; // OVR.OpenVR.HmdQuaternionf_t
-  check_size<sizeof(HmdQuaternionf_t), 12 + sizeof(float) + 8 - (12 + sizeof(float)) % 8> __OVR_OpenVR_HmdQuaternionf_tSizeCheck;
+  check_size<sizeof(HmdQuaternionf_t), 12 + sizeof(float) + ((12 + sizeof(float)) % 8 != 0 ? (8 - (12 + sizeof(float)) % 8) : 0)> __OVR_OpenVR_HmdQuaternionf_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdQuaternionf_t, "OVR.OpenVR", "HmdQuaternionf_t");

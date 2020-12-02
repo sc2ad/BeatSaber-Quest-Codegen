@@ -85,7 +85,7 @@ namespace System::Reflection {
     // Maps to method: GetRealObject
     ::Il2CppObject* System_Runtime_Serialization_IObjectReference_GetRealObject(System::Runtime::Serialization::StreamingContext context);
   }; // System.Reflection.MemberInfoSerializationHolder
-  check_size<sizeof(MemberInfoSerializationHolder), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __System_Reflection_MemberInfoSerializationHolderSizeCheck;
+  check_size<sizeof(MemberInfoSerializationHolder), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __System_Reflection_MemberInfoSerializationHolderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MemberInfoSerializationHolder*, "System.Reflection", "MemberInfoSerializationHolder");

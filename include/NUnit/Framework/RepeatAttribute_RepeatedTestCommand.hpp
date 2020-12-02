@@ -33,7 +33,7 @@ namespace NUnit::Framework {
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.RepeatAttribute/RepeatedTestCommand
-  check_size<sizeof(RepeatAttribute::RepeatedTestCommand), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __NUnit_Framework_RepeatAttribute_RepeatedTestCommandSizeCheck;
+  check_size<sizeof(RepeatAttribute::RepeatedTestCommand), 32 + sizeof(int) + ((32 + sizeof(int)) % 8 != 0 ? (8 - (32 + sizeof(int)) % 8) : 0)> __NUnit_Framework_RepeatAttribute_RepeatedTestCommandSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::RepeatAttribute::RepeatedTestCommand*, "NUnit.Framework", "RepeatAttribute/RepeatedTestCommand");

@@ -75,7 +75,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     static PrefabControlPlayable* New_ctor();
   }; // UnityEngine.Timeline.PrefabControlPlayable
-  check_size<sizeof(PrefabControlPlayable), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_Timeline_PrefabControlPlayableSizeCheck;
+  check_size<sizeof(PrefabControlPlayable), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __UnityEngine_Timeline_PrefabControlPlayableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::PrefabControlPlayable*, "UnityEngine.Timeline", "PrefabControlPlayable");

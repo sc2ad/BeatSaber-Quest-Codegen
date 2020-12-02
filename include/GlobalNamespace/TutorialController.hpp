@@ -106,7 +106,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static TutorialController* New_ctor();
   }; // TutorialController
-  check_size<sizeof(TutorialController), 81 + sizeof(bool) + 8 - (81 + sizeof(bool)) % 8> __GlobalNamespace_TutorialControllerSizeCheck;
+  check_size<sizeof(TutorialController), 81 + sizeof(bool) + ((81 + sizeof(bool)) % 8 != 0 ? (8 - (81 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_TutorialControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialController*, "", "TutorialController");

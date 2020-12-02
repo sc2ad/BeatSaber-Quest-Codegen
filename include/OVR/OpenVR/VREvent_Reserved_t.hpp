@@ -28,7 +28,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VREvent_Reserved_t
     constexpr VREvent_Reserved_t(uint64_t reserved0_ = {}, uint64_t reserved1_ = {}, uint64_t reserved2_ = {}, uint64_t reserved3_ = {}) noexcept : reserved0{reserved0_}, reserved1{reserved1_}, reserved2{reserved2_}, reserved3{reserved3_} {}
   }; // OVR.OpenVR.VREvent_Reserved_t
-  check_size<sizeof(VREvent_Reserved_t), 24 + sizeof(uint64_t) + 8 - (24 + sizeof(uint64_t)) % 8> __OVR_OpenVR_VREvent_Reserved_tSizeCheck;
+  check_size<sizeof(VREvent_Reserved_t), 24 + sizeof(uint64_t) + ((24 + sizeof(uint64_t)) % 8 != 0 ? (8 - (24 + sizeof(uint64_t)) % 8) : 0)> __OVR_OpenVR_VREvent_Reserved_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Reserved_t, "OVR.OpenVR", "VREvent_Reserved_t");

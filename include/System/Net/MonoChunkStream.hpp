@@ -78,7 +78,7 @@ namespace System::Net {
       // Set static field: static public System.Net.MonoChunkStream/State Trailer
       static void _set_Trailer(System::Net::MonoChunkStream::State value);
     }; // System.Net.MonoChunkStream/State
-    check_size<sizeof(MonoChunkStream::State), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Net_MonoChunkStream_StateSizeCheck;
+    check_size<sizeof(MonoChunkStream::State), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Net_MonoChunkStream_StateSizeCheck;
     // System.Net.WebHeaderCollection headers
     // Offset: 0x10
     System::Net::WebHeaderCollection* headers;
@@ -161,7 +161,7 @@ namespace System::Net {
     // Offset: 0x12C0114
     static void ThrowProtocolViolation(::Il2CppString* message);
   }; // System.Net.MonoChunkStream
-  check_size<sizeof(MonoChunkStream), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __System_Net_MonoChunkStreamSizeCheck;
+  check_size<sizeof(MonoChunkStream), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __System_Net_MonoChunkStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::MonoChunkStream*, "System.Net", "MonoChunkStream");

@@ -37,7 +37,7 @@ namespace System::Net {
     // Offset: 0x130E5E8
     static ::Il2CppString* CheckQuoted(::Il2CppString* value);
   }; // System.Net.CookieParser
-  check_size<sizeof(CookieParser), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Net_CookieParserSizeCheck;
+  check_size<sizeof(CookieParser), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Net_CookieParserSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieParser*, "System.Net", "CookieParser");

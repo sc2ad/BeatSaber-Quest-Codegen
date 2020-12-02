@@ -173,7 +173,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static IKEffector* New_ctor();
   }; // RootMotion.FinalIK.IKEffector
-  check_size<sizeof(IKEffector), 232 + sizeof(void*) + 8 - (232 + sizeof(void*)) % 8> __RootMotion_FinalIK_IKEffectorSizeCheck;
+  check_size<sizeof(IKEffector), 232 + sizeof(void*) + ((232 + sizeof(void*)) % 8 != 0 ? (8 - (232 + sizeof(void*)) % 8) : 0)> __RootMotion_FinalIK_IKEffectorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKEffector*, "RootMotion.FinalIK", "IKEffector");

@@ -47,7 +47,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.TextGenerationError NoFont
     static void _set_NoFont(UnityEngine::TextGenerationError value);
   }; // UnityEngine.TextGenerationError
-  check_size<sizeof(TextGenerationError), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_TextGenerationErrorSizeCheck;
+  check_size<sizeof(TextGenerationError), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_TextGenerationErrorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerationError, "UnityEngine", "TextGenerationError");

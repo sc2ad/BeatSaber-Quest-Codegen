@@ -24,7 +24,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x141E104
     static MenuCategoryAttribute* New_ctor(::Il2CppString* category);
   }; // UnityEngine.Timeline.MenuCategoryAttribute
-  check_size<sizeof(MenuCategoryAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_Timeline_MenuCategoryAttributeSizeCheck;
+  check_size<sizeof(MenuCategoryAttribute), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __UnityEngine_Timeline_MenuCategoryAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MenuCategoryAttribute*, "UnityEngine.Timeline", "MenuCategoryAttribute");

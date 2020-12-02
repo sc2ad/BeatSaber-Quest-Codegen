@@ -42,7 +42,7 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void Object::.ctor()
     static Group* New_ctor();
   }; // System.Text.RegularExpressions.Group
-  check_size<sizeof(Group), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __System_Text_RegularExpressions_GroupSizeCheck;
+  check_size<sizeof(Group), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __System_Text_RegularExpressions_GroupSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::Group*, "System.Text.RegularExpressions", "Group");

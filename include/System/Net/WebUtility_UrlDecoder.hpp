@@ -54,7 +54,7 @@ namespace System::Net {
     // Offset: 0x122A6F4
     ::Il2CppString* GetString();
   }; // System.Net.WebUtility/UrlDecoder
-  check_size<sizeof(WebUtility::UrlDecoder), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __System_Net_WebUtility_UrlDecoderSizeCheck;
+  check_size<sizeof(WebUtility::UrlDecoder), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __System_Net_WebUtility_UrlDecoderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebUtility::UrlDecoder*, "System.Net", "WebUtility/UrlDecoder");

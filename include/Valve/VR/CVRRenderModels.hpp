@@ -105,7 +105,7 @@ namespace Valve::VR {
     // Offset: 0x136B5C8
     ::Il2CppString* GetRenderModelErrorNameFromEnum(Valve::VR::EVRRenderModelError error);
   }; // Valve.VR.CVRRenderModels
-  check_size<sizeof(CVRRenderModels), 16 + sizeof(Valve::VR::IVRRenderModels) + 8 - (16 + sizeof(Valve::VR::IVRRenderModels)) % 8> __Valve_VR_CVRRenderModelsSizeCheck;
+  check_size<sizeof(CVRRenderModels), 16 + sizeof(Valve::VR::IVRRenderModels) + ((16 + sizeof(Valve::VR::IVRRenderModels)) % 8 != 0 ? (8 - (16 + sizeof(Valve::VR::IVRRenderModels)) % 8) : 0)> __Valve_VR_CVRRenderModelsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRRenderModels*, "Valve.VR", "CVRRenderModels");

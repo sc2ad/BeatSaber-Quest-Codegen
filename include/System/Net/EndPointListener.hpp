@@ -134,7 +134,7 @@ namespace System::Net {
     // Offset: 0x1319F28
     void RemovePrefix(System::Net::ListenerPrefix* prefix, System::Net::HttpListener* listener);
   }; // System.Net.EndPointListener
-  check_size<sizeof(EndPointListener), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __System_Net_EndPointListenerSizeCheck;
+  check_size<sizeof(EndPointListener), 80 + sizeof(void*) + ((80 + sizeof(void*)) % 8 != 0 ? (8 - (80 + sizeof(void*)) % 8) : 0)> __System_Net_EndPointListenerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::EndPointListener*, "System.Net", "EndPointListener");

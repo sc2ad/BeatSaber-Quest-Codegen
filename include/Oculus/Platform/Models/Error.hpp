@@ -24,7 +24,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11D3FA0
     static Error* New_ctor(int code, ::Il2CppString* message, int httpCode);
   }; // Oculus.Platform.Models.Error
-  check_size<sizeof(Error), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Oculus_Platform_Models_ErrorSizeCheck;
+  check_size<sizeof(Error), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Oculus_Platform_Models_ErrorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Error*, "Oculus.Platform.Models", "Error");

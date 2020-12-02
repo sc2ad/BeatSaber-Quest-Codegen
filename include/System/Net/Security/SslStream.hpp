@@ -164,7 +164,7 @@ namespace System::Net::Security {
     // Base method: System.Void Stream::EndWrite(System.IAsyncResult asyncResult)
     void EndWrite(System::IAsyncResult* asyncResult);
   }; // System.Net.Security.SslStream
-  check_size<sizeof(SslStream), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __System_Net_Security_SslStreamSizeCheck;
+  check_size<sizeof(SslStream), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __System_Net_Security_SslStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::SslStream*, "System.Net.Security", "SslStream");

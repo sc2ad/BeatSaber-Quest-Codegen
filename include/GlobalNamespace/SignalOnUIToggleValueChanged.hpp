@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SignalOnUIToggleValueChanged* New_ctor();
   }; // SignalOnUIToggleValueChanged
-  check_size<sizeof(SignalOnUIToggleValueChanged), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_SignalOnUIToggleValueChangedSizeCheck;
+  check_size<sizeof(SignalOnUIToggleValueChanged), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_SignalOnUIToggleValueChangedSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SignalOnUIToggleValueChanged*, "", "SignalOnUIToggleValueChanged");

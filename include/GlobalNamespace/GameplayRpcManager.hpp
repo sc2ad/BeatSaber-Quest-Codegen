@@ -165,7 +165,7 @@ namespace GlobalNamespace {
       // Set static field: static public GameplayRpcManager/RpcType EndLevelEarly
       static void _set_EndLevelEarly(GlobalNamespace::GameplayRpcManager::RpcType value);
     }; // GameplayRpcManager/RpcType
-    check_size<sizeof(GameplayRpcManager::RpcType), 0 + sizeof(uint8_t) + 8 - (0 + sizeof(uint8_t)) % 8> __GlobalNamespace_GameplayRpcManager_RpcTypeSizeCheck;
+    check_size<sizeof(GameplayRpcManager::RpcType), 0 + sizeof(uint8_t) + ((0 + sizeof(uint8_t)) % 8 != 0 ? (8 - (0 + sizeof(uint8_t)) % 8) : 0)> __GlobalNamespace_GameplayRpcManager_RpcTypeSizeCheck;
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Offset: 0x10
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
@@ -459,7 +459,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IGameplayRpcManager::EndLevelEarly()
     void EndLevelEarly();
   }; // GameplayRpcManager
-  check_size<sizeof(GameplayRpcManager), 120 + sizeof(void*) + 8 - (120 + sizeof(void*)) % 8> __GlobalNamespace_GameplayRpcManagerSizeCheck;
+  check_size<sizeof(GameplayRpcManager), 120 + sizeof(void*) + ((120 + sizeof(void*)) % 8 != 0 ? (8 - (120 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_GameplayRpcManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager*, "", "GameplayRpcManager");

@@ -147,7 +147,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.SemVer
-  check_size<sizeof(SemVer), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_SemVerSizeCheck;
+  check_size<sizeof(SemVer), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __UnityEngine_ProBuilder_SemVerSizeCheck;
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.SemVer left, UnityEngine.ProBuilder.SemVer right)
   // Offset: 0x13CCDC8
   bool operator ==(UnityEngine::ProBuilder::SemVer* left, UnityEngine::ProBuilder::SemVer& right);

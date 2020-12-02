@@ -28,7 +28,7 @@ namespace System::Collections::Specialized {
     // Base method: System.Void Object::.ctor()
     static ListDictionary::DictionaryNode* New_ctor();
   }; // System.Collections.Specialized.ListDictionary/DictionaryNode
-  check_size<sizeof(ListDictionary::DictionaryNode), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Collections_Specialized_ListDictionary_DictionaryNodeSizeCheck;
+  check_size<sizeof(ListDictionary::DictionaryNode), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_Collections_Specialized_ListDictionary_DictionaryNodeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::ListDictionary::DictionaryNode*, "System.Collections.Specialized", "ListDictionary/DictionaryNode");

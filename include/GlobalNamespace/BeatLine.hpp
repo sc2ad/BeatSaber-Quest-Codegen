@@ -53,7 +53,7 @@ namespace GlobalNamespace {
       // Creating value type constructor for type: HighlightData
       constexpr HighlightData(float startTime_ = {}, float arriveDuration_ = {}, float halfJumpDuration_ = {}) noexcept : startTime{startTime_}, arriveDuration{arriveDuration_}, halfJumpDuration{halfJumpDuration_} {}
     }; // BeatLine/HighlightData
-    check_size<sizeof(BeatLine::HighlightData), 8 + sizeof(float) + 8 - (8 + sizeof(float)) % 8> __GlobalNamespace_BeatLine_HighlightDataSizeCheck;
+    check_size<sizeof(BeatLine::HighlightData), 8 + sizeof(float) + ((8 + sizeof(float)) % 8 != 0 ? (8 - (8 + sizeof(float)) % 8) : 0)> __GlobalNamespace_BeatLine_HighlightDataSizeCheck;
     // private TubeBloomPrePassLight _tubeBloomPrePassLight
     // Offset: 0x30
     GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight;
@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BeatLine* New_ctor();
   }; // BeatLine
-  check_size<sizeof(BeatLine), 104 + sizeof(float) + 8 - (104 + sizeof(float)) % 8> __GlobalNamespace_BeatLineSizeCheck;
+  check_size<sizeof(BeatLine), 104 + sizeof(float) + ((104 + sizeof(float)) % 8 != 0 ? (8 - (104 + sizeof(float)) % 8) : 0)> __GlobalNamespace_BeatLineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLine*, "", "BeatLine");

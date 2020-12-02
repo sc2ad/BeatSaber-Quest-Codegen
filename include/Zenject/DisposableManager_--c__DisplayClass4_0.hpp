@@ -44,7 +44,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static DisposableManager::$$c__DisplayClass4_0* New_ctor();
   }; // Zenject.DisposableManager/<>c__DisplayClass4_0
-  check_size<sizeof(DisposableManager::$$c__DisplayClass4_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Zenject_DisposableManager_$$c__DisplayClass4_0SizeCheck;
+  check_size<sizeof(DisposableManager::$$c__DisplayClass4_0), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __Zenject_DisposableManager_$$c__DisplayClass4_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::$$c__DisplayClass4_0*, "Zenject", "DisposableManager/<>c__DisplayClass4_0");

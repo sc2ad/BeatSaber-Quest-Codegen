@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRControllerEventOutputType ControllerEventOutput_VREvents
     static void _set_ControllerEventOutput_VREvents(OVR::OpenVR::EVRControllerEventOutputType value);
   }; // OVR.OpenVR.EVRControllerEventOutputType
-  check_size<sizeof(EVRControllerEventOutputType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_EVRControllerEventOutputTypeSizeCheck;
+  check_size<sizeof(EVRControllerEventOutputType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OVR_OpenVR_EVRControllerEventOutputTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRControllerEventOutputType, "OVR.OpenVR", "EVRControllerEventOutputType");

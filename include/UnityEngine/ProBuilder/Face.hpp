@@ -195,7 +195,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.Face
-  check_size<sizeof(Face), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_FaceSizeCheck;
+  check_size<sizeof(Face), 96 + sizeof(void*) + ((96 + sizeof(void*)) % 8 != 0 ? (8 - (96 + sizeof(void*)) % 8) : 0)> __UnityEngine_ProBuilder_FaceSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Face*, "UnityEngine.ProBuilder", "Face");

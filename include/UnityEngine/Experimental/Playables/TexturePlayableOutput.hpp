@@ -35,7 +35,7 @@ namespace UnityEngine::Experimental::Playables {
     // Base method: UnityEngine.Playables.PlayableOutputHandle IPlayableOutput::GetHandle()
     UnityEngine::Playables::PlayableOutputHandle GetHandle();
   }; // UnityEngine.Experimental.Playables.TexturePlayableOutput
-  check_size<sizeof(TexturePlayableOutput), 0 + sizeof(UnityEngine::Playables::PlayableOutputHandle) + 8 - (0 + sizeof(UnityEngine::Playables::PlayableOutputHandle)) % 8> __UnityEngine_Experimental_Playables_TexturePlayableOutputSizeCheck;
+  check_size<sizeof(TexturePlayableOutput), 0 + sizeof(UnityEngine::Playables::PlayableOutputHandle) + ((0 + sizeof(UnityEngine::Playables::PlayableOutputHandle)) % 8 != 0 ? (8 - (0 + sizeof(UnityEngine::Playables::PlayableOutputHandle)) % 8) : 0)> __UnityEngine_Experimental_Playables_TexturePlayableOutputSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::TexturePlayableOutput, "UnityEngine.Experimental.Playables", "TexturePlayableOutput");

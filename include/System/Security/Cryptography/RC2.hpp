@@ -61,7 +61,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void SymmetricAlgorithm::set_KeySize(System.Int32 value)
     void set_KeySize(int value);
   }; // System.Security.Cryptography.RC2
-  check_size<sizeof(RC2), 68 + sizeof(int) + 8 - (68 + sizeof(int)) % 8> __System_Security_Cryptography_RC2SizeCheck;
+  check_size<sizeof(RC2), 68 + sizeof(int) + ((68 + sizeof(int)) % 8 != 0 ? (8 - (68 + sizeof(int)) % 8) : 0)> __System_Security_Cryptography_RC2SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RC2*, "System.Security.Cryptography", "RC2");

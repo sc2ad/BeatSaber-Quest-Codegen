@@ -33,7 +33,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     static AbstractEventData* New_ctor();
   }; // UnityEngine.EventSystems.AbstractEventData
-  check_size<sizeof(AbstractEventData), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __UnityEngine_EventSystems_AbstractEventDataSizeCheck;
+  check_size<sizeof(AbstractEventData), 16 + sizeof(bool) + ((16 + sizeof(bool)) % 8 != 0 ? (8 - (16 + sizeof(bool)) % 8) : 0)> __UnityEngine_EventSystems_AbstractEventDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::AbstractEventData*, "UnityEngine.EventSystems", "AbstractEventData");

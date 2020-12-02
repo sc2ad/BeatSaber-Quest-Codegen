@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SettingsSubMenuInfo* New_ctor();
   }; // SettingsSubMenuInfo
-  check_size<sizeof(SettingsSubMenuInfo), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_SettingsSubMenuInfoSizeCheck;
+  check_size<sizeof(SettingsSubMenuInfo), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_SettingsSubMenuInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsSubMenuInfo*, "", "SettingsSubMenuInfo");

@@ -230,7 +230,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ObstacleController* New_ctor();
   }; // ObstacleController
-  check_size<sizeof(ObstacleController), 240 + sizeof(UnityEngine::Quaternion) + 8 - (240 + sizeof(UnityEngine::Quaternion)) % 8> __GlobalNamespace_ObstacleControllerSizeCheck;
+  check_size<sizeof(ObstacleController), 240 + sizeof(UnityEngine::Quaternion) + ((240 + sizeof(UnityEngine::Quaternion)) % 8 != 0 ? (8 - (240 + sizeof(UnityEngine::Quaternion)) % 8) : 0)> __GlobalNamespace_ObstacleControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleController*, "", "ObstacleController");

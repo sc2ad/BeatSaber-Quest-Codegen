@@ -24,7 +24,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x11644C4
     static ComVisibleAttribute* New_ctor(bool visibility);
   }; // System.Runtime.InteropServices.ComVisibleAttribute
-  check_size<sizeof(ComVisibleAttribute), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __System_Runtime_InteropServices_ComVisibleAttributeSizeCheck;
+  check_size<sizeof(ComVisibleAttribute), 16 + sizeof(bool) + ((16 + sizeof(bool)) % 8 != 0 ? (8 - (16 + sizeof(bool)) % 8) : 0)> __System_Runtime_InteropServices_ComVisibleAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComVisibleAttribute*, "System.Runtime.InteropServices", "ComVisibleAttribute");

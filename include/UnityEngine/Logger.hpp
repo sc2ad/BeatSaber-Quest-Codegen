@@ -109,7 +109,7 @@ namespace UnityEngine {
     // Base method: System.Void ILogHandler::LogException(System.Exception exception, UnityEngine.Object context)
     void LogException(System::Exception* exception, UnityEngine::Object* context);
   }; // UnityEngine.Logger
-  check_size<sizeof(Logger), 28 + sizeof(UnityEngine::LogType) + 8 - (28 + sizeof(UnityEngine::LogType)) % 8> __UnityEngine_LoggerSizeCheck;
+  check_size<sizeof(Logger), 28 + sizeof(UnityEngine::LogType) + ((28 + sizeof(UnityEngine::LogType)) % 8 != 0 ? (8 - (28 + sizeof(UnityEngine::LogType)) % 8) : 0)> __UnityEngine_LoggerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Logger*, "UnityEngine", "Logger");

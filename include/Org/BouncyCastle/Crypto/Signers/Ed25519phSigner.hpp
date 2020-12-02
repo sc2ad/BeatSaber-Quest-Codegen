@@ -72,7 +72,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Base method: System.Void ISigner::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Signers.Ed25519phSigner
-  check_size<sizeof(Ed25519phSigner), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Signers_Ed25519phSignerSizeCheck;
+  check_size<sizeof(Ed25519phSigner), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_Signers_Ed25519phSignerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::Ed25519phSigner*, "Org.BouncyCastle.Crypto.Signers", "Ed25519phSigner");

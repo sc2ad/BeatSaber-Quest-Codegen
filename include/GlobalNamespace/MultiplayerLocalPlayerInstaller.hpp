@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerLocalPlayerInstaller* New_ctor();
   }; // MultiplayerLocalPlayerInstaller
-  check_size<sizeof(MultiplayerLocalPlayerInstaller), 48 + sizeof(GlobalNamespace::MultiplayerPlayerStartState) + 8 - (48 + sizeof(GlobalNamespace::MultiplayerPlayerStartState)) % 8> __GlobalNamespace_MultiplayerLocalPlayerInstallerSizeCheck;
+  check_size<sizeof(MultiplayerLocalPlayerInstaller), 48 + sizeof(GlobalNamespace::MultiplayerPlayerStartState) + ((48 + sizeof(GlobalNamespace::MultiplayerPlayerStartState)) % 8 != 0 ? (8 - (48 + sizeof(GlobalNamespace::MultiplayerPlayerStartState)) % 8) : 0)> __GlobalNamespace_MultiplayerLocalPlayerInstallerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalPlayerInstaller*, "", "MultiplayerLocalPlayerInstaller");

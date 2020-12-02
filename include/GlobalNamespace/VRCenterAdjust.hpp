@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static VRCenterAdjust* New_ctor();
   }; // VRCenterAdjust
-  check_size<sizeof(VRCenterAdjust), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_VRCenterAdjustSizeCheck;
+  check_size<sizeof(VRCenterAdjust), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_VRCenterAdjustSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRCenterAdjust*, "", "VRCenterAdjust");

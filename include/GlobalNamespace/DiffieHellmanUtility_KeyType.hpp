@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Set static field: static public DiffieHellmanUtility/KeyType ElipticalCurve
     static void _set_ElipticalCurve(GlobalNamespace::DiffieHellmanUtility::KeyType value);
   }; // DiffieHellmanUtility/KeyType
-  check_size<sizeof(DiffieHellmanUtility::KeyType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_DiffieHellmanUtility_KeyTypeSizeCheck;
+  check_size<sizeof(DiffieHellmanUtility::KeyType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_DiffieHellmanUtility_KeyTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility::KeyType, "", "DiffieHellmanUtility/KeyType");

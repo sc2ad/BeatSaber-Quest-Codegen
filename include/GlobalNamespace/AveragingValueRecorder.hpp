@@ -50,7 +50,7 @@ namespace GlobalNamespace {
       // Offset: 0xE7F4BC
       // ABORTED: conflicts with another method.  AverageValueData(float value, float time);
     }; // AveragingValueRecorder/AverageValueData
-    check_size<sizeof(AveragingValueRecorder::AverageValueData), 4 + sizeof(float) + 8 - (4 + sizeof(float)) % 8> __GlobalNamespace_AveragingValueRecorder_AverageValueDataSizeCheck;
+    check_size<sizeof(AveragingValueRecorder::AverageValueData), 4 + sizeof(float) + ((4 + sizeof(float)) % 8 != 0 ? (8 - (4 + sizeof(float)) % 8) : 0)> __GlobalNamespace_AveragingValueRecorder_AverageValueDataSizeCheck;
     // private System.Single _averageWindowDuration
     // Offset: 0x10
     float averageWindowDuration;
@@ -97,7 +97,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A49C68
     System::Collections::Generic::Queue_1<float>* GetHistoryValues();
   }; // AveragingValueRecorder
-  check_size<sizeof(AveragingValueRecorder), 64 + sizeof(float) + 8 - (64 + sizeof(float)) % 8> __GlobalNamespace_AveragingValueRecorderSizeCheck;
+  check_size<sizeof(AveragingValueRecorder), 64 + sizeof(float) + ((64 + sizeof(float)) % 8 != 0 ? (8 - (64 + sizeof(float)) % 8) : 0)> __GlobalNamespace_AveragingValueRecorderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AveragingValueRecorder*, "", "AveragingValueRecorder");

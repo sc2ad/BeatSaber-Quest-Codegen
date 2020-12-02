@@ -98,7 +98,7 @@ namespace Zenject {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // Zenject.FactoryFromBinderBase/<get_AllParentTypes>d__17
-  check_size<sizeof(FactoryFromBinderBase::$get_AllParentTypes$d__17), 48 + sizeof(System::Collections::Generic::List_1<System::Type*>::Enumerator) + 8 - (48 + sizeof(System::Collections::Generic::List_1<System::Type*>::Enumerator)) % 8> __Zenject_FactoryFromBinderBase_$get_AllParentTypes$d__17SizeCheck;
+  check_size<sizeof(FactoryFromBinderBase::$get_AllParentTypes$d__17), 48 + sizeof(System::Collections::Generic::List_1<System::Type*>::Enumerator) + ((48 + sizeof(System::Collections::Generic::List_1<System::Type*>::Enumerator)) % 8 != 0 ? (8 - (48 + sizeof(System::Collections::Generic::List_1<System::Type*>::Enumerator)) % 8) : 0)> __Zenject_FactoryFromBinderBase_$get_AllParentTypes$d__17SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryFromBinderBase::$get_AllParentTypes$d__17*, "Zenject", "FactoryFromBinderBase/<get_AllParentTypes>d__17");

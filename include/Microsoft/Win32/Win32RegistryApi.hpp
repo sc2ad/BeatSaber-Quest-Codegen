@@ -128,7 +128,7 @@ namespace Microsoft::Win32 {
     // Base method: System.Void Object::.ctor()
     static Win32RegistryApi* New_ctor();
   }; // Microsoft.Win32.Win32RegistryApi
-  check_size<sizeof(Win32RegistryApi), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __Microsoft_Win32_Win32RegistryApiSizeCheck;
+  check_size<sizeof(Win32RegistryApi), 16 + sizeof(int) + ((16 + sizeof(int)) % 8 != 0 ? (8 - (16 + sizeof(int)) % 8) : 0)> __Microsoft_Win32_Win32RegistryApiSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::Win32RegistryApi*, "Microsoft.Win32", "Win32RegistryApi");

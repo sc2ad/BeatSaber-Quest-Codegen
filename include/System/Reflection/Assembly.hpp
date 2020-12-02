@@ -290,7 +290,7 @@ namespace System::Reflection {
     // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
   }; // System.Reflection.Assembly
-  check_size<sizeof(Assembly), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __System_Reflection_AssemblySizeCheck;
+  check_size<sizeof(Assembly), 88 + sizeof(void*) + ((88 + sizeof(void*)) % 8 != 0 ? (8 - (88 + sizeof(void*)) % 8) : 0)> __System_Reflection_AssemblySizeCheck;
   // static public System.Boolean op_Equality(System.Reflection.Assembly left, System.Reflection.Assembly right)
   // Offset: 0x17204EC
   bool operator ==(System::Reflection::Assembly* left, System::Reflection::Assembly& right);

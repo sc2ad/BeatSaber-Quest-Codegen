@@ -49,7 +49,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static NoTransitionContext* New_ctor();
   }; // Zenject.NoTransitionContext
-  check_size<sizeof(NoTransitionContext), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Zenject_NoTransitionContextSizeCheck;
+  check_size<sizeof(NoTransitionContext), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Zenject_NoTransitionContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::NoTransitionContext*, "Zenject", "NoTransitionContext");

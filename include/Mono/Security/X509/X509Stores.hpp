@@ -31,7 +31,7 @@ namespace Mono::Security::X509 {
     // Offset: 0x19C697C
     Mono::Security::X509::X509Store* Open(::Il2CppString* storeName, bool create);
   }; // Mono.Security.X509.X509Stores
-  check_size<sizeof(X509Stores), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __Mono_Security_X509_X509StoresSizeCheck;
+  check_size<sizeof(X509Stores), 24 + sizeof(bool) + ((24 + sizeof(bool)) % 8 != 0 ? (8 - (24 + sizeof(bool)) % 8) : 0)> __Mono_Security_X509_X509StoresSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Stores*, "Mono.Security.X509", "X509Stores");

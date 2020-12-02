@@ -197,7 +197,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Object LongLivedMarshalByRefObject::InitializeLifetimeService()
     ::Il2CppObject* InitializeLifetimeService();
   }; // NUnit.Framework.Internal.TestExecutionContext
-  check_size<sizeof(TestExecutionContext), 128 + sizeof(bool) + 8 - (128 + sizeof(bool)) % 8> __NUnit_Framework_Internal_TestExecutionContextSizeCheck;
+  check_size<sizeof(TestExecutionContext), 128 + sizeof(bool) + ((128 + sizeof(bool)) % 8 != 0 ? (8 - (128 + sizeof(bool)) % 8) : 0)> __NUnit_Framework_Internal_TestExecutionContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestExecutionContext*, "NUnit.Framework.Internal", "TestExecutionContext");

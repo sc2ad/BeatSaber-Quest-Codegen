@@ -56,7 +56,7 @@ namespace System::Security {
     // Offset: 0x1283D48
     System::Security::SecurityElement* InternalGetElement(int& position, bool bCreate);
   }; // System.Security.SecurityDocument
-  check_size<sizeof(SecurityDocument), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Security_SecurityDocumentSizeCheck;
+  check_size<sizeof(SecurityDocument), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Security_SecurityDocumentSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityDocument*, "System.Security", "SecurityDocument");

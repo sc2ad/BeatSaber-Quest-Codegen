@@ -44,7 +44,7 @@ namespace System::Security::Util {
     // Base method: System.Int32 ITokenReader::Read()
     int Read();
   }; // System.Security.Util.Tokenizer/StreamTokenReader
-  check_size<sizeof(Tokenizer::StreamTokenReader), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __System_Security_Util_Tokenizer_StreamTokenReaderSizeCheck;
+  check_size<sizeof(Tokenizer::StreamTokenReader), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __System_Security_Util_Tokenizer_StreamTokenReaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::StreamTokenReader*, "System.Security.Util", "Tokenizer/StreamTokenReader");

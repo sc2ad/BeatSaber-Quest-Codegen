@@ -101,7 +101,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerScoreProvider* New_ctor();
   }; // MultiplayerScoreProvider
-  check_size<sizeof(MultiplayerScoreProvider), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerScoreProviderSizeCheck;
+  check_size<sizeof(MultiplayerScoreProvider), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MultiplayerScoreProviderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreProvider*, "", "MultiplayerScoreProvider");

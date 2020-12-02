@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: IVRExtendedDisplay
     constexpr IVRExtendedDisplay(OVR::OpenVR::IVRExtendedDisplay::_GetWindowBounds* GetWindowBounds_ = {}, OVR::OpenVR::IVRExtendedDisplay::_GetEyeOutputViewport* GetEyeOutputViewport_ = {}, OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo* GetDXGIOutputInfo_ = {}) noexcept : GetWindowBounds{GetWindowBounds_}, GetEyeOutputViewport{GetEyeOutputViewport_}, GetDXGIOutputInfo{GetDXGIOutputInfo_} {}
   }; // OVR.OpenVR.IVRExtendedDisplay
-  check_size<sizeof(IVRExtendedDisplay), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __OVR_OpenVR_IVRExtendedDisplaySizeCheck;
+  check_size<sizeof(IVRExtendedDisplay), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __OVR_OpenVR_IVRExtendedDisplaySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRExtendedDisplay, "OVR.OpenVR", "IVRExtendedDisplay");

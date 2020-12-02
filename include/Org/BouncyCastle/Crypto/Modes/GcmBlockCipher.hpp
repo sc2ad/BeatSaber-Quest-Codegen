@@ -180,7 +180,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Base method: System.Void IAeadCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Modes.GcmBlockCipher
-  check_size<sizeof(GcmBlockCipher), 176 + sizeof(uint64_t) + 8 - (176 + sizeof(uint64_t)) % 8> __Org_BouncyCastle_Crypto_Modes_GcmBlockCipherSizeCheck;
+  check_size<sizeof(GcmBlockCipher), 176 + sizeof(uint64_t) + ((176 + sizeof(uint64_t)) % 8 != 0 ? (8 - (176 + sizeof(uint64_t)) % 8) : 0)> __Org_BouncyCastle_Crypto_Modes_GcmBlockCipherSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "GcmBlockCipher");

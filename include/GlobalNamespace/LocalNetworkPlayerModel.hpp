@@ -335,7 +335,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LocalNetworkPlayerModel* New_ctor();
   }; // LocalNetworkPlayerModel
-  check_size<sizeof(LocalNetworkPlayerModel), 208 + sizeof(void*) + 8 - (208 + sizeof(void*)) % 8> __GlobalNamespace_LocalNetworkPlayerModelSizeCheck;
+  check_size<sizeof(LocalNetworkPlayerModel), 208 + sizeof(void*) + ((208 + sizeof(void*)) % 8 != 0 ? (8 - (208 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_LocalNetworkPlayerModelSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkPlayerModel*, "", "LocalNetworkPlayerModel");
 #pragma pack(pop)

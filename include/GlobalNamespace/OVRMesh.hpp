@@ -61,7 +61,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRMesh/MeshType HandRight
       static void _set_HandRight(GlobalNamespace::OVRMesh::MeshType value);
     }; // OVRMesh/MeshType
-    check_size<sizeof(OVRMesh::MeshType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRMesh_MeshTypeSizeCheck;
+    check_size<sizeof(OVRMesh::MeshType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OVRMesh_MeshTypeSizeCheck;
     // private OVRMesh/IOVRMeshDataProvider _dataProvider
     // Offset: 0x18
     GlobalNamespace::OVRMesh::IOVRMeshDataProvider* dataProvider;
@@ -101,7 +101,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRMesh* New_ctor();
   }; // OVRMesh
-  check_size<sizeof(OVRMesh), 48 + sizeof(bool) + 8 - (48 + sizeof(bool)) % 8> __GlobalNamespace_OVRMeshSizeCheck;
+  check_size<sizeof(OVRMesh), 48 + sizeof(bool) + ((48 + sizeof(bool)) % 8 != 0 ? (8 - (48 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_OVRMeshSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMesh*, "", "OVRMesh");

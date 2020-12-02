@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static CampaignProgressModel* New_ctor();
   }; // CampaignProgressModel
-  check_size<sizeof(CampaignProgressModel), 52 + sizeof(int) + 8 - (52 + sizeof(int)) % 8> __GlobalNamespace_CampaignProgressModelSizeCheck;
+  check_size<sizeof(CampaignProgressModel), 52 + sizeof(int) + ((52 + sizeof(int)) % 8 != 0 ? (8 - (52 + sizeof(int)) % 8) : 0)> __GlobalNamespace_CampaignProgressModelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CampaignProgressModel*, "", "CampaignProgressModel");

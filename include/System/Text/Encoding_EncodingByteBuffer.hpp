@@ -83,7 +83,7 @@ namespace System::Text {
     // Offset: 0x15A2E7C
     int get_Count();
   }; // System.Text.Encoding/EncodingByteBuffer
-  check_size<sizeof(Encoding::EncodingByteBuffer), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __System_Text_Encoding_EncodingByteBufferSizeCheck;
+  check_size<sizeof(Encoding::EncodingByteBuffer), 88 + sizeof(void*) + ((88 + sizeof(void*)) % 8 != 0 ? (8 - (88 + sizeof(void*)) % 8) : 0)> __System_Text_Encoding_EncodingByteBufferSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoding::EncodingByteBuffer*, "System.Text", "Encoding/EncodingByteBuffer");

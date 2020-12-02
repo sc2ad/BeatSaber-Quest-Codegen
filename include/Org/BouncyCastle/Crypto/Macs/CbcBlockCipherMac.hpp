@@ -86,7 +86,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Base method: System.Void IMac::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Macs.CbcBlockCipherMac
-  check_size<sizeof(CbcBlockCipherMac), 48 + sizeof(int) + 8 - (48 + sizeof(int)) % 8> __Org_BouncyCastle_Crypto_Macs_CbcBlockCipherMacSizeCheck;
+  check_size<sizeof(CbcBlockCipherMac), 48 + sizeof(int) + ((48 + sizeof(int)) % 8 != 0 ? (8 - (48 + sizeof(int)) % 8) : 0)> __Org_BouncyCastle_Crypto_Macs_CbcBlockCipherMacSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac*, "Org.BouncyCastle.Crypto.Macs", "CbcBlockCipherMac");

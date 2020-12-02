@@ -30,7 +30,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE328
     void set_Attribute(::Il2CppString* value);
   }; // JetBrains.Annotations.AspRequiredAttributeAttribute
-  check_size<sizeof(AspRequiredAttributeAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __JetBrains_Annotations_AspRequiredAttributeAttributeSizeCheck;
+  check_size<sizeof(AspRequiredAttributeAttribute), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __JetBrains_Annotations_AspRequiredAttributeAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspRequiredAttributeAttribute*, "JetBrains.Annotations", "AspRequiredAttributeAttribute");

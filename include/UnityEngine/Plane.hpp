@@ -68,7 +68,7 @@ namespace UnityEngine {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Plane
-  check_size<sizeof(Plane), 12 + sizeof(float) + 8 - (12 + sizeof(float)) % 8> __UnityEngine_PlaneSizeCheck;
+  check_size<sizeof(Plane), 12 + sizeof(float) + ((12 + sizeof(float)) % 8 != 0 ? (8 - (12 + sizeof(float)) % 8) : 0)> __UnityEngine_PlaneSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Plane, "UnityEngine", "Plane");

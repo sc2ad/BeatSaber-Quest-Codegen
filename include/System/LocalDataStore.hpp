@@ -47,7 +47,7 @@ namespace System {
     // Offset: 0x13B3FC8
     System::LocalDataStoreElement* PopulateElement(System::LocalDataStoreSlot* slot);
   }; // System.LocalDataStore
-  check_size<sizeof(LocalDataStore), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_LocalDataStoreSizeCheck;
+  check_size<sizeof(LocalDataStore), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_LocalDataStoreSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStore*, "System", "LocalDataStore");

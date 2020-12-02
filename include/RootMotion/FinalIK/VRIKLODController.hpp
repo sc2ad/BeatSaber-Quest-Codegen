@@ -58,7 +58,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static VRIKLODController* New_ctor();
   }; // RootMotion.FinalIK.VRIKLODController
-  check_size<sizeof(VRIKLODController), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __RootMotion_FinalIK_VRIKLODControllerSizeCheck;
+  check_size<sizeof(VRIKLODController), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __RootMotion_FinalIK_VRIKLODControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKLODController*, "RootMotion.FinalIK", "VRIKLODController");

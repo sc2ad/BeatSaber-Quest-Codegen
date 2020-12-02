@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // TrailerGameplayManager/<Start>d__4
-  check_size<sizeof(TrailerGameplayManager::$Start$d__4), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_TrailerGameplayManager_$Start$d__4SizeCheck;
+  check_size<sizeof(TrailerGameplayManager::$Start$d__4), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_TrailerGameplayManager_$Start$d__4SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrailerGameplayManager::$Start$d__4*, "", "TrailerGameplayManager/<Start>d__4");

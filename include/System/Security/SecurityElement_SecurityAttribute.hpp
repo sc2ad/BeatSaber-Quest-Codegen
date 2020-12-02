@@ -29,7 +29,7 @@ namespace System::Security {
     // Offset: 0x1286294
     ::Il2CppString* get_Value();
   }; // System.Security.SecurityElement/SecurityAttribute
-  check_size<sizeof(SecurityElement::SecurityAttribute), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Security_SecurityElement_SecurityAttributeSizeCheck;
+  check_size<sizeof(SecurityElement::SecurityAttribute), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Security_SecurityElement_SecurityAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityElement::SecurityAttribute*, "System.Security", "SecurityElement/SecurityAttribute");

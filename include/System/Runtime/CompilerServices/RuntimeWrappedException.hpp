@@ -52,7 +52,7 @@ namespace System::Runtime::CompilerServices {
     // Base method: System.Void Object::.ctor()
     static RuntimeWrappedException* New_ctor();
   }; // System.Runtime.CompilerServices.RuntimeWrappedException
-  check_size<sizeof(RuntimeWrappedException), 136 + sizeof(void*) + 8 - (136 + sizeof(void*)) % 8> __System_Runtime_CompilerServices_RuntimeWrappedExceptionSizeCheck;
+  check_size<sizeof(RuntimeWrappedException), 136 + sizeof(void*) + ((136 + sizeof(void*)) % 8 != 0 ? (8 - (136 + sizeof(void*)) % 8) : 0)> __System_Runtime_CompilerServices_RuntimeWrappedExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::RuntimeWrappedException*, "System.Runtime.CompilerServices", "RuntimeWrappedException");

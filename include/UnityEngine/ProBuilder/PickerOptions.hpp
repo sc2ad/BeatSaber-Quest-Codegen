@@ -59,7 +59,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.ProBuilder.PickerOptions
-  check_size<sizeof(PickerOptions), 4 + sizeof(UnityEngine::ProBuilder::RectSelectMode) + 8 - (4 + sizeof(UnityEngine::ProBuilder::RectSelectMode)) % 8> __UnityEngine_ProBuilder_PickerOptionsSizeCheck;
+  check_size<sizeof(PickerOptions), 4 + sizeof(UnityEngine::ProBuilder::RectSelectMode) + ((4 + sizeof(UnityEngine::ProBuilder::RectSelectMode)) % 8 != 0 ? (8 - (4 + sizeof(UnityEngine::ProBuilder::RectSelectMode)) % 8) : 0)> __UnityEngine_ProBuilder_PickerOptionsSizeCheck;
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.PickerOptions a, UnityEngine.ProBuilder.PickerOptions b)
   // Offset: 0x139E650
   bool operator ==(const UnityEngine::ProBuilder::PickerOptions& a, const UnityEngine::ProBuilder::PickerOptions& b);

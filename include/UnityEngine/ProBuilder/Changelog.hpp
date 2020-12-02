@@ -70,7 +70,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x188A3D8
     UnityEngine::ProBuilder::ChangelogEntry* CreateEntry(::Il2CppString* version, ::Il2CppString* contents);
   }; // UnityEngine.ProBuilder.Changelog
-  check_size<sizeof(Changelog), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_ChangelogSizeCheck;
+  check_size<sizeof(Changelog), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __UnityEngine_ProBuilder_ChangelogSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Changelog*, "UnityEngine.ProBuilder", "Changelog");

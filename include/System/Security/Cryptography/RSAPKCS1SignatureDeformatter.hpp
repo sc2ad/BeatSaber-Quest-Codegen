@@ -53,7 +53,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Boolean AsymmetricSignatureDeformatter::VerifySignature(System.Byte[] rgbHash, System.Byte[] rgbSignature)
     bool VerifySignature(::Array<uint8_t>* rgbHash, ::Array<uint8_t>* rgbSignature);
   }; // System.Security.Cryptography.RSAPKCS1SignatureDeformatter
-  check_size<sizeof(RSAPKCS1SignatureDeformatter), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Security_Cryptography_RSAPKCS1SignatureDeformatterSizeCheck;
+  check_size<sizeof(RSAPKCS1SignatureDeformatter), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Security_Cryptography_RSAPKCS1SignatureDeformatterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAPKCS1SignatureDeformatter*, "System.Security.Cryptography", "RSAPKCS1SignatureDeformatter");

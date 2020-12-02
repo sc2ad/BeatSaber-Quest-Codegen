@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AvatarHeadOffset* New_ctor();
   }; // AvatarHeadOffset
-  check_size<sizeof(AvatarHeadOffset), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_AvatarHeadOffsetSizeCheck;
+  check_size<sizeof(AvatarHeadOffset), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_AvatarHeadOffsetSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarHeadOffset*, "", "AvatarHeadOffset");

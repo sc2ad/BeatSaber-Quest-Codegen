@@ -77,7 +77,7 @@ namespace NUnit::Framework {
     // Base method: System.Void IApplyToTest::ApplyToTest(NUnit.Framework.Internal.Test test)
     void ApplyToTest(NUnit::Framework::Internal::Test* test);
   }; // NUnit.Framework.CombiningStrategyAttribute
-  check_size<sizeof(CombiningStrategyAttribute), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __NUnit_Framework_CombiningStrategyAttributeSizeCheck;
+  check_size<sizeof(CombiningStrategyAttribute), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __NUnit_Framework_CombiningStrategyAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::CombiningStrategyAttribute*, "NUnit.Framework", "CombiningStrategyAttribute");

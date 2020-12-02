@@ -70,7 +70,7 @@ namespace OnlineServices::API {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.HTTPLeaderboardsOathHelper/<GetAccessTokenAsync>d__9
-  check_size<sizeof(HTTPLeaderboardsOathHelper::$GetAccessTokenAsync$d__9), 64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>) + 8 - (64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>)) % 8> __OnlineServices_API_HTTPLeaderboardsOathHelper_$GetAccessTokenAsync$d__9SizeCheck;
+  check_size<sizeof(HTTPLeaderboardsOathHelper::$GetAccessTokenAsync$d__9), 64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>) + ((64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>)) % 8 != 0 ? (8 - (64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>)) % 8) : 0)> __OnlineServices_API_HTTPLeaderboardsOathHelper_$GetAccessTokenAsync$d__9SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper::$GetAccessTokenAsync$d__9, "OnlineServices.API", "HTTPLeaderboardsOathHelper/<GetAccessTokenAsync>d__9");

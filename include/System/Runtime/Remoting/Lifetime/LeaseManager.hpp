@@ -60,7 +60,7 @@ namespace System::Runtime::Remoting::Lifetime {
     // Base method: System.Void Object::.ctor()
     static LeaseManager* New_ctor();
   }; // System.Runtime.Remoting.Lifetime.LeaseManager
-  check_size<sizeof(LeaseManager), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Runtime_Remoting_Lifetime_LeaseManagerSizeCheck;
+  check_size<sizeof(LeaseManager), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Runtime_Remoting_Lifetime_LeaseManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::LeaseManager*, "System.Runtime.Remoting.Lifetime", "LeaseManager");

@@ -187,7 +187,7 @@ namespace UnityEngine {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Quaternion
-  check_size<sizeof(Quaternion), 12 + sizeof(float) + 8 - (12 + sizeof(float)) % 8> __UnityEngine_QuaternionSizeCheck;
+  check_size<sizeof(Quaternion), 12 + sizeof(float) + ((12 + sizeof(float)) % 8 != 0 ? (8 - (12 + sizeof(float)) % 8) : 0)> __UnityEngine_QuaternionSizeCheck;
   // static public UnityEngine.Quaternion op_Multiply(UnityEngine.Quaternion lhs, UnityEngine.Quaternion rhs)
   // Offset: 0x1736F9C
   UnityEngine::Quaternion operator*(const UnityEngine::Quaternion& lhs, const UnityEngine::Quaternion& rhs);

@@ -57,7 +57,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Base method: System.Void Object::.ctor()
     static ValidityPreCompInfo* New_ctor();
   }; // Org.BouncyCastle.Math.EC.Multiplier.ValidityPreCompInfo
-  check_size<sizeof(ValidityPreCompInfo), 18 + sizeof(bool) + 8 - (18 + sizeof(bool)) % 8> __Org_BouncyCastle_Math_EC_Multiplier_ValidityPreCompInfoSizeCheck;
+  check_size<sizeof(ValidityPreCompInfo), 18 + sizeof(bool) + ((18 + sizeof(bool)) % 8 != 0 ? (8 - (18 + sizeof(bool)) % 8) : 0)> __Org_BouncyCastle_Math_EC_Multiplier_ValidityPreCompInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "ValidityPreCompInfo");

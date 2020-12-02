@@ -79,7 +79,7 @@ namespace GlobalNamespace {
       // Set static field: static public PatternFightSongController/GameplayPhase ReplayThisPlayerPattern
       static void _set_ReplayThisPlayerPattern(GlobalNamespace::PatternFightSongController::GameplayPhase value);
     }; // PatternFightSongController/GameplayPhase
-    check_size<sizeof(PatternFightSongController::GameplayPhase), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_PatternFightSongController_GameplayPhaseSizeCheck;
+    check_size<sizeof(PatternFightSongController::GameplayPhase), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_PatternFightSongController_GameplayPhaseSizeCheck;
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Offset: 0x20
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
@@ -163,7 +163,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PatternFightSongController* New_ctor();
   }; // PatternFightSongController
-  check_size<sizeof(PatternFightSongController), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __GlobalNamespace_PatternFightSongControllerSizeCheck;
+  check_size<sizeof(PatternFightSongController), 80 + sizeof(void*) + ((80 + sizeof(void*)) % 8 != 0 ? (8 - (80 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_PatternFightSongControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightSongController*, "", "PatternFightSongController");

@@ -51,7 +51,7 @@ namespace Mono::Security::Protocol::Ntlm {
     // Offset: 0x17BB8A0
     static void _cctor();
   }; // Mono.Security.Protocol.Ntlm.MessageBase
-  check_size<sizeof(MessageBase), 20 + sizeof(Mono::Security::Protocol::Ntlm::NtlmFlags) + 8 - (20 + sizeof(Mono::Security::Protocol::Ntlm::NtlmFlags)) % 8> __Mono_Security_Protocol_Ntlm_MessageBaseSizeCheck;
+  check_size<sizeof(MessageBase), 20 + sizeof(Mono::Security::Protocol::Ntlm::NtlmFlags) + ((20 + sizeof(Mono::Security::Protocol::Ntlm::NtlmFlags)) % 8 != 0 ? (8 - (20 + sizeof(Mono::Security::Protocol::Ntlm::NtlmFlags)) % 8) : 0)> __Mono_Security_Protocol_Ntlm_MessageBaseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::MessageBase*, "Mono.Security.Protocol.Ntlm", "MessageBase");

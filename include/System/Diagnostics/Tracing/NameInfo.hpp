@@ -52,7 +52,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x111F368
     static void _cctor();
   }; // System.Diagnostics.Tracing.NameInfo
-  check_size<sizeof(NameInfo), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Diagnostics_Tracing_NameInfoSizeCheck;
+  check_size<sizeof(NameInfo), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_Diagnostics_Tracing_NameInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::NameInfo*, "System.Diagnostics.Tracing", "NameInfo");

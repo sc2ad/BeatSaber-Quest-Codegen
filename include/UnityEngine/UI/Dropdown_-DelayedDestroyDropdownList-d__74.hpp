@@ -63,7 +63,7 @@ namespace UnityEngine::UI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // UnityEngine.UI.Dropdown/<DelayedDestroyDropdownList>d__74
-  check_size<sizeof(Dropdown::$DelayedDestroyDropdownList$d__74), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __UnityEngine_UI_Dropdown_$DelayedDestroyDropdownList$d__74SizeCheck;
+  check_size<sizeof(Dropdown::$DelayedDestroyDropdownList$d__74), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __UnityEngine_UI_Dropdown_$DelayedDestroyDropdownList$d__74SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown::$DelayedDestroyDropdownList$d__74*, "UnityEngine.UI", "Dropdown/<DelayedDestroyDropdownList>d__74");

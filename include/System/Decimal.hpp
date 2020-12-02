@@ -398,7 +398,7 @@ namespace System {
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
     ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
   }; // System.Decimal
-  check_size<sizeof(Decimal), 12 + sizeof(int) + 8 - (12 + sizeof(int)) % 8> __System_DecimalSizeCheck;
+  check_size<sizeof(Decimal), 12 + sizeof(int) + ((12 + sizeof(int)) % 8 != 0 ? (8 - (12 + sizeof(int)) % 8) : 0)> __System_DecimalSizeCheck;
   // static public System.Decimal op_Subtraction(System.Decimal d1, System.Decimal d2)
   // Offset: 0x166F4EC
   System::Decimal operator-(const System::Decimal& d1, const System::Decimal& d2);

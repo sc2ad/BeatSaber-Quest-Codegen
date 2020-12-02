@@ -24,7 +24,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: HmdVector3_t
     constexpr HmdVector3_t(float v0_ = {}, float v1_ = {}, float v2_ = {}) noexcept : v0{v0_}, v1{v1_}, v2{v2_} {}
   }; // OVR.OpenVR.HmdVector3_t
-  check_size<sizeof(HmdVector3_t), 8 + sizeof(float) + 8 - (8 + sizeof(float)) % 8> __OVR_OpenVR_HmdVector3_tSizeCheck;
+  check_size<sizeof(HmdVector3_t), 8 + sizeof(float) + ((8 + sizeof(float)) % 8 != 0 ? (8 - (8 + sizeof(float)) % 8) : 0)> __OVR_OpenVR_HmdVector3_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdVector3_t, "OVR.OpenVR", "HmdVector3_t");

@@ -67,7 +67,7 @@ namespace UnityEngine::Audio {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Audio.AudioMixerPlayable other)
     bool Equals(UnityEngine::Audio::AudioMixerPlayable other);
   }; // UnityEngine.Audio.AudioMixerPlayable
-  check_size<sizeof(AudioMixerPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle) + 8 - (0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8> __UnityEngine_Audio_AudioMixerPlayableSizeCheck;
+  check_size<sizeof(AudioMixerPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle) + ((0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8 != 0 ? (8 - (0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8) : 0)> __UnityEngine_Audio_AudioMixerPlayableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioMixerPlayable, "UnityEngine.Audio", "AudioMixerPlayable");

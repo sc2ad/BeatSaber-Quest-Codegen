@@ -81,7 +81,7 @@ namespace System::Globalization {
     // Base method: System.String ArgumentException::get_Message()
     ::Il2CppString* get_Message();
   }; // System.Globalization.CultureNotFoundException
-  check_size<sizeof(CultureNotFoundException), 152 + sizeof(System::Nullable_1<int>) + 8 - (152 + sizeof(System::Nullable_1<int>)) % 8> __System_Globalization_CultureNotFoundExceptionSizeCheck;
+  check_size<sizeof(CultureNotFoundException), 152 + sizeof(System::Nullable_1<int>) + ((152 + sizeof(System::Nullable_1<int>)) % 8 != 0 ? (8 - (152 + sizeof(System::Nullable_1<int>)) % 8) : 0)> __System_Globalization_CultureNotFoundExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureNotFoundException*, "System.Globalization", "CultureNotFoundException");

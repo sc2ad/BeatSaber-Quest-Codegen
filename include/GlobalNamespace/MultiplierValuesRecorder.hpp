@@ -45,7 +45,7 @@ namespace GlobalNamespace {
       // Offset: 0xC92F24
       // ABORTED: conflicts with another method.  MultiplierValue(int multiplier, float time);
     }; // MultiplierValuesRecorder/MultiplierValue
-    check_size<sizeof(MultiplierValuesRecorder::MultiplierValue), 4 + sizeof(float) + 8 - (4 + sizeof(float)) % 8> __GlobalNamespace_MultiplierValuesRecorder_MultiplierValueSizeCheck;
+    check_size<sizeof(MultiplierValuesRecorder::MultiplierValue), 4 + sizeof(float) + ((4 + sizeof(float)) % 8 != 0 ? (8 - (4 + sizeof(float)) % 8) : 0)> __GlobalNamespace_MultiplierValuesRecorder_MultiplierValueSizeCheck;
     // private ScoreController _scoreController
     // Offset: 0x18
     GlobalNamespace::ScoreController* scoreController;
@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplierValuesRecorder* New_ctor();
   }; // MultiplierValuesRecorder
-  check_size<sizeof(MultiplierValuesRecorder), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_MultiplierValuesRecorderSizeCheck;
+  check_size<sizeof(MultiplierValuesRecorder), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MultiplierValuesRecorderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplierValuesRecorder*, "", "MultiplierValuesRecorder");

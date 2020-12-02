@@ -40,7 +40,7 @@ namespace Valve::VR {
     // Offset: 0xCB67D8
     void Unpack(Valve::VR::RenderModel_TextureMap_t& unpacked);
   }; // Valve.VR.RenderModel_TextureMap_t_Packed
-  check_size<sizeof(RenderModel_TextureMap_t_Packed), 8 + sizeof(System::IntPtr) + 8 - (8 + sizeof(System::IntPtr)) % 8> __Valve_VR_RenderModel_TextureMap_t_PackedSizeCheck;
+  check_size<sizeof(RenderModel_TextureMap_t_Packed), 8 + sizeof(System::IntPtr) + ((8 + sizeof(System::IntPtr)) % 8 != 0 ? (8 - (8 + sizeof(System::IntPtr)) % 8) : 0)> __Valve_VR_RenderModel_TextureMap_t_PackedSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_TextureMap_t_Packed, "Valve.VR", "RenderModel_TextureMap_t_Packed");

@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PatternFightNoTransitionInstaller* New_ctor();
   }; // PatternFightNoTransitionInstaller
-  check_size<sizeof(PatternFightNoTransitionInstaller), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_PatternFightNoTransitionInstallerSizeCheck;
+  check_size<sizeof(PatternFightNoTransitionInstaller), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_PatternFightNoTransitionInstallerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightNoTransitionInstaller*, "", "PatternFightNoTransitionInstaller");

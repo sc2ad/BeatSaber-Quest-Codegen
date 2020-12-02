@@ -58,7 +58,7 @@ namespace HMUI {
       // Set static field: static public HMUI.ImageView/GradientDirection Vertical
       static void _set_Vertical(HMUI::ImageView::GradientDirection value);
     }; // HMUI.ImageView/GradientDirection
-    check_size<sizeof(ImageView::GradientDirection), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __HMUI_ImageView_GradientDirectionSizeCheck;
+    check_size<sizeof(ImageView::GradientDirection), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __HMUI_ImageView_GradientDirectionSizeCheck;
     // private System.Single _skew
     // Offset: 0xF8
     float skew;
@@ -211,7 +211,7 @@ namespace HMUI {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // HMUI.ImageView
-  check_size<sizeof(ImageView), 296 + sizeof(void*) + 8 - (296 + sizeof(void*)) % 8> __HMUI_ImageViewSizeCheck;
+  check_size<sizeof(ImageView), 296 + sizeof(void*) + ((296 + sizeof(void*)) % 8 != 0 ? (8 - (296 + sizeof(void*)) % 8) : 0)> __HMUI_ImageViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ImageView*, "HMUI", "ImageView");

@@ -108,7 +108,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11F7244
     ::Il2CppString* GetRenderModelErrorNameFromEnum(OVR::OpenVR::EVRRenderModelError error);
   }; // OVR.OpenVR.CVRRenderModels
-  check_size<sizeof(CVRRenderModels), 16 + sizeof(OVR::OpenVR::IVRRenderModels) + 8 - (16 + sizeof(OVR::OpenVR::IVRRenderModels)) % 8> __OVR_OpenVR_CVRRenderModelsSizeCheck;
+  check_size<sizeof(CVRRenderModels), 16 + sizeof(OVR::OpenVR::IVRRenderModels) + ((16 + sizeof(OVR::OpenVR::IVRRenderModels)) % 8 != 0 ? (8 - (16 + sizeof(OVR::OpenVR::IVRRenderModels)) % 8) : 0)> __OVR_OpenVR_CVRRenderModelsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRRenderModels*, "OVR.OpenVR", "CVRRenderModels");

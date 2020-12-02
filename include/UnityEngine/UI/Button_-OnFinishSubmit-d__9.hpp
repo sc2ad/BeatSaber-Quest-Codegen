@@ -66,7 +66,7 @@ namespace UnityEngine::UI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // UnityEngine.UI.Button/<OnFinishSubmit>d__9
-  check_size<sizeof(Button::$OnFinishSubmit$d__9), 44 + sizeof(float) + 8 - (44 + sizeof(float)) % 8> __UnityEngine_UI_Button_$OnFinishSubmit$d__9SizeCheck;
+  check_size<sizeof(Button::$OnFinishSubmit$d__9), 44 + sizeof(float) + ((44 + sizeof(float)) % 8 != 0 ? (8 - (44 + sizeof(float)) % 8) : 0)> __UnityEngine_UI_Button_$OnFinishSubmit$d__9SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Button::$OnFinishSubmit$d__9*, "UnityEngine.UI", "Button/<OnFinishSubmit>d__9");

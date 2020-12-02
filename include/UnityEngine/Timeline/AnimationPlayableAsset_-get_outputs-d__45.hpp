@@ -87,7 +87,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.Timeline.AnimationPlayableAsset/<get_outputs>d__45
-  check_size<sizeof(AnimationPlayableAsset::$get_outputs$d__45), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __UnityEngine_Timeline_AnimationPlayableAsset_$get_outputs$d__45SizeCheck;
+  check_size<sizeof(AnimationPlayableAsset::$get_outputs$d__45), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __UnityEngine_Timeline_AnimationPlayableAsset_$get_outputs$d__45SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPlayableAsset::$get_outputs$d__45*, "UnityEngine.Timeline", "AnimationPlayableAsset/<get_outputs>d__45");

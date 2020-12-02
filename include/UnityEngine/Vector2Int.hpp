@@ -87,7 +87,7 @@ namespace UnityEngine {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Vector2Int
-  check_size<sizeof(Vector2Int), 4 + sizeof(int) + 8 - (4 + sizeof(int)) % 8> __UnityEngine_Vector2IntSizeCheck;
+  check_size<sizeof(Vector2Int), 4 + sizeof(int) + ((4 + sizeof(int)) % 8 != 0 ? (8 - (4 + sizeof(int)) % 8) : 0)> __UnityEngine_Vector2IntSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector2Int, "UnityEngine", "Vector2Int");

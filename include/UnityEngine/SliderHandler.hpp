@@ -144,7 +144,7 @@ namespace UnityEngine {
     // Offset: 0xCA3290
     float MinValue();
   }; // UnityEngine.SliderHandler
-  check_size<sizeof(SliderHandler), 60 + sizeof(int) + 8 - (60 + sizeof(int)) % 8> __UnityEngine_SliderHandlerSizeCheck;
+  check_size<sizeof(SliderHandler), 60 + sizeof(int) + ((60 + sizeof(int)) % 8 != 0 ? (8 - (60 + sizeof(int)) % 8) : 0)> __UnityEngine_SliderHandlerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SliderHandler, "UnityEngine", "SliderHandler");

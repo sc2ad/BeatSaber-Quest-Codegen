@@ -323,7 +323,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x154F0B8
     static void _cctor();
   }; // System.Text.RegularExpressions.RegexParser
-  check_size<sizeof(RegexParser), 144 + sizeof(bool) + 8 - (144 + sizeof(bool)) % 8> __System_Text_RegularExpressions_RegexParserSizeCheck;
+  check_size<sizeof(RegexParser), 144 + sizeof(bool) + ((144 + sizeof(bool)) % 8 != 0 ? (8 - (144 + sizeof(bool)) % 8) : 0)> __System_Text_RegularExpressions_RegexParserSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexParser*, "System.Text.RegularExpressions", "RegexParser");

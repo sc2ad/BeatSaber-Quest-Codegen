@@ -65,7 +65,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.VRMessageOverlayResponse ApplicationQuit
     static void _set_ApplicationQuit(Valve::VR::VRMessageOverlayResponse value);
   }; // Valve.VR.VRMessageOverlayResponse
-  check_size<sizeof(VRMessageOverlayResponse), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Valve_VR_VRMessageOverlayResponseSizeCheck;
+  check_size<sizeof(VRMessageOverlayResponse), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Valve_VR_VRMessageOverlayResponseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRMessageOverlayResponse, "Valve.VR", "VRMessageOverlayResponse");

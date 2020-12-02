@@ -111,7 +111,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionObjectiveCheckersManager* New_ctor();
   }; // MissionObjectiveCheckersManager
-  check_size<sizeof(MissionObjectiveCheckersManager), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __GlobalNamespace_MissionObjectiveCheckersManagerSizeCheck;
+  check_size<sizeof(MissionObjectiveCheckersManager), 72 + sizeof(void*) + ((72 + sizeof(void*)) % 8 != 0 ? (8 - (72 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MissionObjectiveCheckersManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveCheckersManager*, "", "MissionObjectiveCheckersManager");

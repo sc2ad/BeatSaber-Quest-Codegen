@@ -215,7 +215,7 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     static Stream* New_ctor();
   }; // System.IO.Stream
-  check_size<sizeof(Stream), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_IO_StreamSizeCheck;
+  check_size<sizeof(Stream), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_IO_StreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream*, "System.IO", "Stream");

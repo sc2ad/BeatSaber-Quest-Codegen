@@ -50,7 +50,7 @@ namespace System::Runtime::Serialization {
     // Base method: System.Void Object::.ctor()
     static ObjectHolderList* New_ctor();
   }; // System.Runtime.Serialization.ObjectHolderList
-  check_size<sizeof(ObjectHolderList), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __System_Runtime_Serialization_ObjectHolderListSizeCheck;
+  check_size<sizeof(ObjectHolderList), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __System_Runtime_Serialization_ObjectHolderListSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectHolderList*, "System.Runtime.Serialization", "ObjectHolderList");

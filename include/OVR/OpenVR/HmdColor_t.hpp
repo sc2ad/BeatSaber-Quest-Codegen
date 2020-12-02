@@ -27,7 +27,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: HmdColor_t
     constexpr HmdColor_t(float r_ = {}, float g_ = {}, float b_ = {}, float a_ = {}) noexcept : r{r_}, g{g_}, b{b_}, a{a_} {}
   }; // OVR.OpenVR.HmdColor_t
-  check_size<sizeof(HmdColor_t), 12 + sizeof(float) + 8 - (12 + sizeof(float)) % 8> __OVR_OpenVR_HmdColor_tSizeCheck;
+  check_size<sizeof(HmdColor_t), 12 + sizeof(float) + ((12 + sizeof(float)) % 8 != 0 ? (8 - (12 + sizeof(float)) % 8) : 0)> __OVR_OpenVR_HmdColor_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdColor_t, "OVR.OpenVR", "HmdColor_t");

@@ -152,7 +152,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static CloudsMeshGenerator* New_ctor();
   }; // CloudsMeshGenerator
-  check_size<sizeof(CloudsMeshGenerator), 224 + sizeof(void*) + 8 - (224 + sizeof(void*)) % 8> __GlobalNamespace_CloudsMeshGeneratorSizeCheck;
+  check_size<sizeof(CloudsMeshGenerator), 224 + sizeof(void*) + ((224 + sizeof(void*)) % 8 != 0 ? (8 - (224 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_CloudsMeshGeneratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CloudsMeshGenerator*, "", "CloudsMeshGenerator");

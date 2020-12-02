@@ -311,7 +311,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MainSystemInit* New_ctor();
   }; // MainSystemInit
-  check_size<sizeof(MainSystemInit), 424 + sizeof(void*) + 8 - (424 + sizeof(void*)) % 8> __GlobalNamespace_MainSystemInitSizeCheck;
+  check_size<sizeof(MainSystemInit), 424 + sizeof(void*) + ((424 + sizeof(void*)) % 8 != 0 ? (8 - (424 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MainSystemInitSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSystemInit*, "", "MainSystemInit");

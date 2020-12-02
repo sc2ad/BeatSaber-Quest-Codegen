@@ -58,7 +58,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0xC9BB44
     void set_Keywords(System::Diagnostics::Tracing::EventKeywords value);
   }; // System.Diagnostics.Tracing.EventSourceOptions
-  check_size<sizeof(EventSourceOptions), 18 + sizeof(uint8_t) + 8 - (18 + sizeof(uint8_t)) % 8> __System_Diagnostics_Tracing_EventSourceOptionsSizeCheck;
+  check_size<sizeof(EventSourceOptions), 18 + sizeof(uint8_t) + ((18 + sizeof(uint8_t)) % 8 != 0 ? (8 - (18 + sizeof(uint8_t)) % 8) : 0)> __System_Diagnostics_Tracing_EventSourceOptionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSourceOptions, "System.Diagnostics.Tracing", "EventSourceOptions");

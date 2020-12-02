@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // CutoutAnimateEffect/<AnimateToCutoutCoroutine>d__7
-  check_size<sizeof(CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7), 52 + sizeof(float) + 8 - (52 + sizeof(float)) % 8> __GlobalNamespace_CutoutAnimateEffect_$AnimateToCutoutCoroutine$d__7SizeCheck;
+  check_size<sizeof(CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7), 52 + sizeof(float) + ((52 + sizeof(float)) % 8 != 0 ? (8 - (52 + sizeof(float)) % 8) : 0)> __GlobalNamespace_CutoutAnimateEffect_$AnimateToCutoutCoroutine$d__7SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7*, "", "CutoutAnimateEffect/<AnimateToCutoutCoroutine>d__7");

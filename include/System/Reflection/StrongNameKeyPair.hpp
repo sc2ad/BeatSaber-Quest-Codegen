@@ -58,7 +58,7 @@ namespace System::Reflection {
     // Base method: System.Void IDeserializationCallback::OnDeserialization(System.Object sender)
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
   }; // System.Reflection.StrongNameKeyPair
-  check_size<sizeof(StrongNameKeyPair), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Reflection_StrongNameKeyPairSizeCheck;
+  check_size<sizeof(StrongNameKeyPair), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __System_Reflection_StrongNameKeyPairSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::StrongNameKeyPair*, "System.Reflection", "StrongNameKeyPair");

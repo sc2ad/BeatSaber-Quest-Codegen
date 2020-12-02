@@ -59,7 +59,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.ECollisionBoundsStyle COLLISION_BOUNDS_STYLE_COUNT
     static void _set_COLLISION_BOUNDS_STYLE_COUNT(OVR::OpenVR::ECollisionBoundsStyle value);
   }; // OVR.OpenVR.ECollisionBoundsStyle
-  check_size<sizeof(ECollisionBoundsStyle), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_ECollisionBoundsStyleSizeCheck;
+  check_size<sizeof(ECollisionBoundsStyle), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OVR_OpenVR_ECollisionBoundsStyleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::ECollisionBoundsStyle, "OVR.OpenVR", "ECollisionBoundsStyle");

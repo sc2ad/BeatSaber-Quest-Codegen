@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Set static field: static public KawaseBlurRendererSO/WeightsType AlphaAndDepthWeights
     static void _set_AlphaAndDepthWeights(GlobalNamespace::KawaseBlurRendererSO::WeightsType value);
   }; // KawaseBlurRendererSO/WeightsType
-  check_size<sizeof(KawaseBlurRendererSO::WeightsType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_KawaseBlurRendererSO_WeightsTypeSizeCheck;
+  check_size<sizeof(KawaseBlurRendererSO::WeightsType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_KawaseBlurRendererSO_WeightsTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KawaseBlurRendererSO::WeightsType, "", "KawaseBlurRendererSO/WeightsType");

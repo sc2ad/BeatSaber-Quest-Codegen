@@ -38,7 +38,7 @@ namespace HMUI {
     // Offset: 0x107EFE0
     static ScreenModeData* New_ctor(UnityEngine::Vector3 position, UnityEngine::Vector3 rotation, float scale, float radius, bool offsetHeightByHeadPos, float yOffsetRelativeToHead, float minYPos);
   }; // HMUI.ScreenModeData
-  check_size<sizeof(ScreenModeData), 56 + sizeof(float) + 8 - (56 + sizeof(float)) % 8> __HMUI_ScreenModeDataSizeCheck;
+  check_size<sizeof(ScreenModeData), 56 + sizeof(float) + ((56 + sizeof(float)) % 8 != 0 ? (8 - (56 + sizeof(float)) % 8) : 0)> __HMUI_ScreenModeDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenModeData*, "HMUI", "ScreenModeData");

@@ -27,7 +27,7 @@ namespace TMPro {
     // Creating value type constructor for type: UnicodeChar
     constexpr UnicodeChar(int unicode_ = {}, int stringIndex_ = {}, int length_ = {}) noexcept : unicode{unicode_}, stringIndex{stringIndex_}, length{length_} {}
   }; // TMPro.TMP_Text/UnicodeChar
-  check_size<sizeof(TMP_Text::UnicodeChar), 8 + sizeof(int) + 8 - (8 + sizeof(int)) % 8> __TMPro_TMP_Text_UnicodeCharSizeCheck;
+  check_size<sizeof(TMP_Text::UnicodeChar), 8 + sizeof(int) + ((8 + sizeof(int)) % 8 != 0 ? (8 - (8 + sizeof(int)) % 8) : 0)> __TMPro_TMP_Text_UnicodeCharSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Text::UnicodeChar, "TMPro", "TMP_Text/UnicodeChar");

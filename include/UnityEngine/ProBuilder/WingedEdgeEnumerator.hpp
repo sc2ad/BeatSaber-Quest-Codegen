@@ -71,7 +71,7 @@ namespace UnityEngine::ProBuilder {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // UnityEngine.ProBuilder.WingedEdgeEnumerator
-  check_size<sizeof(WingedEdgeEnumerator), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_WingedEdgeEnumeratorSizeCheck;
+  check_size<sizeof(WingedEdgeEnumerator), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __UnityEngine_ProBuilder_WingedEdgeEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::WingedEdgeEnumerator*, "UnityEngine.ProBuilder", "WingedEdgeEnumerator");

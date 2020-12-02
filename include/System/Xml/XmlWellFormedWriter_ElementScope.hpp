@@ -54,7 +54,7 @@ namespace System::Xml {
     // Offset: 0xCB7870
     void WriteFullEndElement(System::Xml::XmlRawWriter* rawWriter);
   }; // System.Xml.XmlWellFormedWriter/ElementScope
-  check_size<sizeof(XmlWellFormedWriter::ElementScope), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Xml_XmlWellFormedWriter_ElementScopeSizeCheck;
+  check_size<sizeof(XmlWellFormedWriter::ElementScope), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __System_Xml_XmlWellFormedWriter_ElementScopeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::ElementScope, "System.Xml", "XmlWellFormedWriter/ElementScope");

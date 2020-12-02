@@ -91,7 +91,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x1179D6C
     System::Runtime::Remoting::Messaging::LogicalCallContext* GetLogicalCallContext(System::Collections::ArrayList* args);
   }; // System.Runtime.Remoting.Messaging.CADMessageBase
-  check_size<sizeof(CADMessageBase), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __System_Runtime_Remoting_Messaging_CADMessageBaseSizeCheck;
+  check_size<sizeof(CADMessageBase), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __System_Runtime_Remoting_Messaging_CADMessageBaseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMessageBase*, "System.Runtime.Remoting.Messaging", "CADMessageBase");

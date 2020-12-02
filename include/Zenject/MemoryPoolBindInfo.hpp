@@ -46,7 +46,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static MemoryPoolBindInfo* New_ctor();
   }; // Zenject.MemoryPoolBindInfo
-  check_size<sizeof(MemoryPoolBindInfo), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __Zenject_MemoryPoolBindInfoSizeCheck;
+  check_size<sizeof(MemoryPoolBindInfo), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __Zenject_MemoryPoolBindInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MemoryPoolBindInfo*, "Zenject", "MemoryPoolBindInfo");

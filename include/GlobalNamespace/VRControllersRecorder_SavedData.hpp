@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static VRControllersRecorder::SavedData* New_ctor();
   }; // VRControllersRecorder/SavedData
-  check_size<sizeof(VRControllersRecorder::SavedData), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_VRControllersRecorder_SavedDataSizeCheck;
+  check_size<sizeof(VRControllersRecorder::SavedData), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_VRControllersRecorder_SavedDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder::SavedData*, "", "VRControllersRecorder/SavedData");

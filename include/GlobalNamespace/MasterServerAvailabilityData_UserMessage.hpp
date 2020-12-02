@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MasterServerAvailabilityData::UserMessage* New_ctor();
   }; // MasterServerAvailabilityData/UserMessage
-  check_size<sizeof(MasterServerAvailabilityData::UserMessage), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_MasterServerAvailabilityData_UserMessageSizeCheck;
+  check_size<sizeof(MasterServerAvailabilityData::UserMessage), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MasterServerAvailabilityData_UserMessageSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityData::UserMessage*, "", "MasterServerAvailabilityData/UserMessage");

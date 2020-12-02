@@ -27,7 +27,7 @@ namespace UnityEngine::Bindings {
     // Offset: 0x1A041A0
     static NativeHeaderAttribute* New_ctor(::Il2CppString* header);
   }; // UnityEngine.Bindings.NativeHeaderAttribute
-  check_size<sizeof(NativeHeaderAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_Bindings_NativeHeaderAttributeSizeCheck;
+  check_size<sizeof(NativeHeaderAttribute), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __UnityEngine_Bindings_NativeHeaderAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeHeaderAttribute*, "UnityEngine.Bindings", "NativeHeaderAttribute");

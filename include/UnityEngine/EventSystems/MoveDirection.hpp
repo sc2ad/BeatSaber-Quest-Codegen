@@ -53,7 +53,7 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public UnityEngine.EventSystems.MoveDirection None
     static void _set_None(UnityEngine::EventSystems::MoveDirection value);
   }; // UnityEngine.EventSystems.MoveDirection
-  check_size<sizeof(MoveDirection), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_EventSystems_MoveDirectionSizeCheck;
+  check_size<sizeof(MoveDirection), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_EventSystems_MoveDirectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::MoveDirection, "UnityEngine.EventSystems", "MoveDirection");

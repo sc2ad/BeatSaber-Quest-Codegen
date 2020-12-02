@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ServerCodeView* New_ctor();
   }; // ServerCodeView
-  check_size<sizeof(ServerCodeView), 56 + sizeof(bool) + 8 - (56 + sizeof(bool)) % 8> __GlobalNamespace_ServerCodeViewSizeCheck;
+  check_size<sizeof(ServerCodeView), 56 + sizeof(bool) + ((56 + sizeof(bool)) % 8 != 0 ? (8 - (56 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_ServerCodeViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerCodeView*, "", "ServerCodeView");

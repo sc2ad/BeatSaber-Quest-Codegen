@@ -47,7 +47,7 @@ namespace System::Net {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // System.Net.IPv6AddressFormatter
-  check_size<sizeof(IPv6AddressFormatter), 8 + sizeof(int64_t) + 8 - (8 + sizeof(int64_t)) % 8> __System_Net_IPv6AddressFormatterSizeCheck;
+  check_size<sizeof(IPv6AddressFormatter), 8 + sizeof(int64_t) + ((8 + sizeof(int64_t)) % 8 != 0 ? (8 - (8 + sizeof(int64_t)) % 8) : 0)> __System_Net_IPv6AddressFormatterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPv6AddressFormatter, "System.Net", "IPv6AddressFormatter");

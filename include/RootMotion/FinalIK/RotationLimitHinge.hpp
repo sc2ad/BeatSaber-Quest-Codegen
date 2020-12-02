@@ -62,7 +62,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static RotationLimitHinge* New_ctor();
   }; // RootMotion.FinalIK.RotationLimitHinge
-  check_size<sizeof(RotationLimitHinge), 88 + sizeof(float) + 8 - (88 + sizeof(float)) % 8> __RootMotion_FinalIK_RotationLimitHingeSizeCheck;
+  check_size<sizeof(RotationLimitHinge), 88 + sizeof(float) + ((88 + sizeof(float)) % 8 != 0 ? (8 - (88 + sizeof(float)) % 8) : 0)> __RootMotion_FinalIK_RotationLimitHingeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitHinge*, "RootMotion.FinalIK", "RotationLimitHinge");

@@ -72,7 +72,7 @@ namespace RootMotion::FinalIK {
       // Set static field: static public RootMotion.FinalIK.IKSolverLimb/BendModifier Goal
       static void _set_Goal(RootMotion::FinalIK::IKSolverLimb::BendModifier value);
     }; // RootMotion.FinalIK.IKSolverLimb/BendModifier
-    check_size<sizeof(IKSolverLimb::BendModifier), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __RootMotion_FinalIK_IKSolverLimb_BendModifierSizeCheck;
+    check_size<sizeof(IKSolverLimb::BendModifier), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __RootMotion_FinalIK_IKSolverLimb_BendModifierSizeCheck;
     // public UnityEngine.AvatarIKGoal goal
     // Offset: 0xA8
     UnityEngine::AvatarIKGoal goal;
@@ -162,7 +162,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static IKSolverLimb* New_ctor();
   }; // RootMotion.FinalIK.IKSolverLimb
-  check_size<sizeof(IKSolverLimb), 312 + sizeof(void*) + 8 - (312 + sizeof(void*)) % 8> __RootMotion_FinalIK_IKSolverLimbSizeCheck;
+  check_size<sizeof(IKSolverLimb), 312 + sizeof(void*) + ((312 + sizeof(void*)) % 8 != 0 ? (8 - (312 + sizeof(void*)) % 8) : 0)> __RootMotion_FinalIK_IKSolverLimbSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLimb*, "RootMotion.FinalIK", "IKSolverLimb");

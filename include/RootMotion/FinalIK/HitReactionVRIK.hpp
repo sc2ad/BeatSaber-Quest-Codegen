@@ -60,7 +60,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static HitReactionVRIK* New_ctor();
   }; // RootMotion.FinalIK.HitReactionVRIK
-  check_size<sizeof(HitReactionVRIK), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __RootMotion_FinalIK_HitReactionVRIKSizeCheck;
+  check_size<sizeof(HitReactionVRIK), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __RootMotion_FinalIK_HitReactionVRIKSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK*, "RootMotion.FinalIK", "HitReactionVRIK");

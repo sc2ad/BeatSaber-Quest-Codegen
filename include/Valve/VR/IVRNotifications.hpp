@@ -30,7 +30,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: IVRNotifications
     constexpr IVRNotifications(Valve::VR::IVRNotifications::_CreateNotification* CreateNotification_ = {}, Valve::VR::IVRNotifications::_RemoveNotification* RemoveNotification_ = {}) noexcept : CreateNotification{CreateNotification_}, RemoveNotification{RemoveNotification_} {}
   }; // Valve.VR.IVRNotifications
-  check_size<sizeof(IVRNotifications), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __Valve_VR_IVRNotificationsSizeCheck;
+  check_size<sizeof(IVRNotifications), 8 + sizeof(void*) + ((8 + sizeof(void*)) % 8 != 0 ? (8 - (8 + sizeof(void*)) % 8) : 0)> __Valve_VR_IVRNotificationsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRNotifications, "Valve.VR", "IVRNotifications");

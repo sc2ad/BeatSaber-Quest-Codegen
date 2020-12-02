@@ -47,7 +47,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.StateInfoIndex InterruptedState
     static void _set_InterruptedState(UnityEngine::StateInfoIndex value);
   }; // UnityEngine.StateInfoIndex
-  check_size<sizeof(StateInfoIndex), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_StateInfoIndexSizeCheck;
+  check_size<sizeof(StateInfoIndex), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_StateInfoIndexSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::StateInfoIndex, "UnityEngine", "StateInfoIndex");

@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     // Offset: 0xF444B8
     static StandardLevelInfoSaveData::DifficultyBeatmapSet* New_ctor(::Il2CppString* beatmapCharacteristicName, ::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap*>* difficultyBeatmaps);
   }; // StandardLevelInfoSaveData/DifficultyBeatmapSet
-  check_size<sizeof(StandardLevelInfoSaveData::DifficultyBeatmapSet), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_StandardLevelInfoSaveData_DifficultyBeatmapSetSizeCheck;
+  check_size<sizeof(StandardLevelInfoSaveData::DifficultyBeatmapSet), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_StandardLevelInfoSaveData_DifficultyBeatmapSetSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmapSet*, "", "StandardLevelInfoSaveData/DifficultyBeatmapSet");

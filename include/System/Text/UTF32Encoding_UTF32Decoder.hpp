@@ -35,7 +35,7 @@ namespace System::Text {
     // Base method: System.Boolean DecoderNLS::get_HasState()
     bool get_HasState();
   }; // System.Text.UTF32Encoding/UTF32Decoder
-  check_size<sizeof(UTF32Encoding::UTF32Decoder), 52 + sizeof(int) + 8 - (52 + sizeof(int)) % 8> __System_Text_UTF32Encoding_UTF32DecoderSizeCheck;
+  check_size<sizeof(UTF32Encoding::UTF32Decoder), 52 + sizeof(int) + ((52 + sizeof(int)) % 8 != 0 ? (8 - (52 + sizeof(int)) % 8) : 0)> __System_Text_UTF32Encoding_UTF32DecoderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF32Encoding::UTF32Decoder*, "System.Text", "UTF32Encoding/UTF32Decoder");

@@ -32,7 +32,7 @@ namespace Zenject {
     // Offset: 0x19EEF3C
     static InjectTypeInfo::InjectMemberInfo* New_ctor(Zenject::ZenMemberSetterMethod* setter, Zenject::InjectableInfo* info);
   }; // Zenject.InjectTypeInfo/InjectMemberInfo
-  check_size<sizeof(InjectTypeInfo::InjectMemberInfo), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Zenject_InjectTypeInfo_InjectMemberInfoSizeCheck;
+  check_size<sizeof(InjectTypeInfo::InjectMemberInfo), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Zenject_InjectTypeInfo_InjectMemberInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectTypeInfo::InjectMemberInfo*, "Zenject", "InjectTypeInfo/InjectMemberInfo");

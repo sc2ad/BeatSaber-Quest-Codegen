@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Offset: 0xF050AC
     static PatternFightSceneSetupData* New_ctor(GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
   }; // PatternFightSceneSetupData
-  check_size<sizeof(PatternFightSceneSetupData), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_PatternFightSceneSetupDataSizeCheck;
+  check_size<sizeof(PatternFightSceneSetupData), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_PatternFightSceneSetupDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightSceneSetupData*, "", "PatternFightSceneSetupData");

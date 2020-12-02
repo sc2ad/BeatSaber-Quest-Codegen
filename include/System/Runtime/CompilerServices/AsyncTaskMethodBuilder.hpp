@@ -106,7 +106,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x1162A20
     static void _cctor();
   }; // System.Runtime.CompilerServices.AsyncTaskMethodBuilder
-  check_size<sizeof(AsyncTaskMethodBuilder), 0 + sizeof(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Threading::Tasks::VoidTaskResult>) + 8 - (0 + sizeof(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Threading::Tasks::VoidTaskResult>)) % 8> __System_Runtime_CompilerServices_AsyncTaskMethodBuilderSizeCheck;
+  check_size<sizeof(AsyncTaskMethodBuilder), 0 + sizeof(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Threading::Tasks::VoidTaskResult>) + ((0 + sizeof(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Threading::Tasks::VoidTaskResult>)) % 8 != 0 ? (8 - (0 + sizeof(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Threading::Tasks::VoidTaskResult>)) % 8) : 0)> __System_Runtime_CompilerServices_AsyncTaskMethodBuilderSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncTaskMethodBuilder, "System.Runtime.CompilerServices", "AsyncTaskMethodBuilder");
 #pragma pack(pop)

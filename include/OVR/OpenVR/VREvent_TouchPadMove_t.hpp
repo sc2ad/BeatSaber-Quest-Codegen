@@ -33,7 +33,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VREvent_TouchPadMove_t
     constexpr VREvent_TouchPadMove_t(bool bFingerDown_ = {}, float flSecondsFingerDown_ = {}, float fValueXFirst_ = {}, float fValueYFirst_ = {}, float fValueXRaw_ = {}, float fValueYRaw_ = {}) noexcept : bFingerDown{bFingerDown_}, flSecondsFingerDown{flSecondsFingerDown_}, fValueXFirst{fValueXFirst_}, fValueYFirst{fValueYFirst_}, fValueXRaw{fValueXRaw_}, fValueYRaw{fValueYRaw_} {}
   }; // OVR.OpenVR.VREvent_TouchPadMove_t
-  check_size<sizeof(VREvent_TouchPadMove_t), 20 + sizeof(float) + 8 - (20 + sizeof(float)) % 8> __OVR_OpenVR_VREvent_TouchPadMove_tSizeCheck;
+  check_size<sizeof(VREvent_TouchPadMove_t), 20 + sizeof(float) + ((20 + sizeof(float)) % 8 != 0 ? (8 - (20 + sizeof(float)) % 8) : 0)> __OVR_OpenVR_VREvent_TouchPadMove_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_TouchPadMove_t, "OVR.OpenVR", "VREvent_TouchPadMove_t");

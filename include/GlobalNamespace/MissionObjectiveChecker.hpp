@@ -76,7 +76,7 @@ namespace GlobalNamespace {
       // Set static field: static public MissionObjectiveChecker/Status Failed
       static void _set_Failed(GlobalNamespace::MissionObjectiveChecker::Status value);
     }; // MissionObjectiveChecker/Status
-    check_size<sizeof(MissionObjectiveChecker::Status), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_MissionObjectiveChecker_StatusSizeCheck;
+    check_size<sizeof(MissionObjectiveChecker::Status), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_MissionObjectiveChecker_StatusSizeCheck;
     // private MissionObjectiveTypeSO _missionObjectiveType
     // Offset: 0x18
     GlobalNamespace::MissionObjectiveTypeSO* missionObjectiveType;
@@ -152,7 +152,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionObjectiveChecker* New_ctor();
   }; // MissionObjectiveChecker
-  check_size<sizeof(MissionObjectiveChecker), 64 + sizeof(bool) + 8 - (64 + sizeof(bool)) % 8> __GlobalNamespace_MissionObjectiveCheckerSizeCheck;
+  check_size<sizeof(MissionObjectiveChecker), 64 + sizeof(bool) + ((64 + sizeof(bool)) % 8 != 0 ? (8 - (64 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_MissionObjectiveCheckerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveChecker*, "", "MissionObjectiveChecker");

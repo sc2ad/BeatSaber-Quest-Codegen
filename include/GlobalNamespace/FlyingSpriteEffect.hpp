@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static FlyingSpriteEffect* New_ctor();
   }; // FlyingSpriteEffect
-  check_size<sizeof(FlyingSpriteEffect), 144 + sizeof(UnityEngine::Color) + 8 - (144 + sizeof(UnityEngine::Color)) % 8> __GlobalNamespace_FlyingSpriteEffectSizeCheck;
+  check_size<sizeof(FlyingSpriteEffect), 144 + sizeof(UnityEngine::Color) + ((144 + sizeof(UnityEngine::Color)) % 8 != 0 ? (8 - (144 + sizeof(UnityEngine::Color)) % 8) : 0)> __GlobalNamespace_FlyingSpriteEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingSpriteEffect*, "", "FlyingSpriteEffect");

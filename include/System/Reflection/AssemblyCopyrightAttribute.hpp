@@ -24,7 +24,7 @@ namespace System::Reflection {
     // Offset: 0x17205E4
     static AssemblyCopyrightAttribute* New_ctor(::Il2CppString* copyright);
   }; // System.Reflection.AssemblyCopyrightAttribute
-  check_size<sizeof(AssemblyCopyrightAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Reflection_AssemblyCopyrightAttributeSizeCheck;
+  check_size<sizeof(AssemblyCopyrightAttribute), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Reflection_AssemblyCopyrightAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyCopyrightAttribute*, "System.Reflection", "AssemblyCopyrightAttribute");

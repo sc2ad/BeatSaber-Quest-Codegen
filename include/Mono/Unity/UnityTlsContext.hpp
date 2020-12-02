@@ -179,7 +179,7 @@ namespace Mono::Unity {
     // Base method: System.Void MobileTlsContext::FinishHandshake()
     void FinishHandshake();
   }; // Mono.Unity.UnityTlsContext
-  check_size<sizeof(UnityTlsContext), 200 + sizeof(void*) + 8 - (200 + sizeof(void*)) % 8> __Mono_Unity_UnityTlsContextSizeCheck;
+  check_size<sizeof(UnityTlsContext), 200 + sizeof(void*) + ((200 + sizeof(void*)) % 8 != 0 ? (8 - (200 + sizeof(void*)) % 8) : 0)> __Mono_Unity_UnityTlsContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTlsContext*, "Mono.Unity", "UnityTlsContext");

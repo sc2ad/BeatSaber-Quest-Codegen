@@ -55,7 +55,7 @@ namespace GlobalNamespace {
       // Set static field: static public NetworkPlayersTableView/CellInfo/CellType Options
       static void _set_Options(GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType value);
     }; // NetworkPlayersTableView/CellInfo/CellType
-    check_size<sizeof(NetworkPlayersTableView::CellInfo::CellType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_NetworkPlayersTableView_CellInfo_CellTypeSizeCheck;
+    check_size<sizeof(NetworkPlayersTableView::CellInfo::CellType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_NetworkPlayersTableView_CellInfo_CellTypeSizeCheck;
     // public NetworkPlayersTableView/CellInfo/CellType type
     // Offset: 0x10
     GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType type;
@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NetworkPlayersTableView::CellInfo* New_ctor();
   }; // NetworkPlayersTableView/CellInfo
-  check_size<sizeof(NetworkPlayersTableView::CellInfo), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __GlobalNamespace_NetworkPlayersTableView_CellInfoSizeCheck;
+  check_size<sizeof(NetworkPlayersTableView::CellInfo), 40 + sizeof(bool) + ((40 + sizeof(bool)) % 8 != 0 ? (8 - (40 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_NetworkPlayersTableView_CellInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayersTableView::CellInfo*, "", "NetworkPlayersTableView/CellInfo");

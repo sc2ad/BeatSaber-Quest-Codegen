@@ -227,7 +227,7 @@ namespace System {
     // Set static field: static public System.TermInfoNumbers Last
     static void _set_Last(System::TermInfoNumbers value);
   }; // System.TermInfoNumbers
-  check_size<sizeof(TermInfoNumbers), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_TermInfoNumbersSizeCheck;
+  check_size<sizeof(TermInfoNumbers), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_TermInfoNumbersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TermInfoNumbers, "System", "TermInfoNumbers");

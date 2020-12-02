@@ -43,7 +43,7 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Creating value type constructor for type: DirectionalLight
     constexpr DirectionalLight(int instanceID_ = {}, bool shadow_ = {}, UnityEngine::Experimental::GlobalIllumination::LightMode mode_ = {}, UnityEngine::Vector3 direction_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor color_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor_ = {}, float penumbraWidthRadian_ = {}) noexcept : instanceID{instanceID_}, shadow{shadow_}, mode{mode_}, direction{direction_}, color{color_}, indirectColor{indirectColor_}, penumbraWidthRadian{penumbraWidthRadian_} {}
   }; // UnityEngine.Experimental.GlobalIllumination.DirectionalLight
-  check_size<sizeof(DirectionalLight), 52 + sizeof(float) + 8 - (52 + sizeof(float)) % 8> __UnityEngine_Experimental_GlobalIllumination_DirectionalLightSizeCheck;
+  check_size<sizeof(DirectionalLight), 52 + sizeof(float) + ((52 + sizeof(float)) % 8 != 0 ? (8 - (52 + sizeof(float)) % 8) : 0)> __UnityEngine_Experimental_GlobalIllumination_DirectionalLightSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::DirectionalLight, "UnityEngine.Experimental.GlobalIllumination", "DirectionalLight");

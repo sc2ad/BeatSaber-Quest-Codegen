@@ -55,7 +55,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: IVRScreenshots
     constexpr IVRScreenshots(OVR::OpenVR::IVRScreenshots::_RequestScreenshot* RequestScreenshot_ = {}, OVR::OpenVR::IVRScreenshots::_HookScreenshot* HookScreenshot_ = {}, OVR::OpenVR::IVRScreenshots::_GetScreenshotPropertyType* GetScreenshotPropertyType_ = {}, OVR::OpenVR::IVRScreenshots::_GetScreenshotPropertyFilename* GetScreenshotPropertyFilename_ = {}, OVR::OpenVR::IVRScreenshots::_UpdateScreenshotProgress* UpdateScreenshotProgress_ = {}, OVR::OpenVR::IVRScreenshots::_TakeStereoScreenshot* TakeStereoScreenshot_ = {}, OVR::OpenVR::IVRScreenshots::_SubmitScreenshot* SubmitScreenshot_ = {}) noexcept : RequestScreenshot{RequestScreenshot_}, HookScreenshot{HookScreenshot_}, GetScreenshotPropertyType{GetScreenshotPropertyType_}, GetScreenshotPropertyFilename{GetScreenshotPropertyFilename_}, UpdateScreenshotProgress{UpdateScreenshotProgress_}, TakeStereoScreenshot{TakeStereoScreenshot_}, SubmitScreenshot{SubmitScreenshot_} {}
   }; // OVR.OpenVR.IVRScreenshots
-  check_size<sizeof(IVRScreenshots), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __OVR_OpenVR_IVRScreenshotsSizeCheck;
+  check_size<sizeof(IVRScreenshots), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __OVR_OpenVR_IVRScreenshotsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRScreenshots, "OVR.OpenVR", "IVRScreenshots");

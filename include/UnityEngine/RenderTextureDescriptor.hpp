@@ -171,7 +171,7 @@ namespace UnityEngine {
     // Offset: 0x173CB54
     static void _cctor();
   }; // UnityEngine.RenderTextureDescriptor
-  check_size<sizeof(RenderTextureDescriptor), 48 + sizeof(UnityEngine::RenderTextureMemoryless) + 8 - (48 + sizeof(UnityEngine::RenderTextureMemoryless)) % 8> __UnityEngine_RenderTextureDescriptorSizeCheck;
+  check_size<sizeof(RenderTextureDescriptor), 48 + sizeof(UnityEngine::RenderTextureMemoryless) + ((48 + sizeof(UnityEngine::RenderTextureMemoryless)) % 8 != 0 ? (8 - (48 + sizeof(UnityEngine::RenderTextureMemoryless)) % 8) : 0)> __UnityEngine_RenderTextureDescriptorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderTextureDescriptor, "UnityEngine", "RenderTextureDescriptor");

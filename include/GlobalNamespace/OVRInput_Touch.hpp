@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRInput/Touch Any
     static void _set_Any(GlobalNamespace::OVRInput::Touch value);
   }; // OVRInput/Touch
-  check_size<sizeof(OVRInput::Touch), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRInput_TouchSizeCheck;
+  check_size<sizeof(OVRInput::Touch), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OVRInput_TouchSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::Touch, "", "OVRInput/Touch");

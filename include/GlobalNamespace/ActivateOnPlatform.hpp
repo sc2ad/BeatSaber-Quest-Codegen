@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ActivateOnPlatform* New_ctor();
   }; // ActivateOnPlatform
-  check_size<sizeof(ActivateOnPlatform), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_ActivateOnPlatformSizeCheck;
+  check_size<sizeof(ActivateOnPlatform), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_ActivateOnPlatformSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ActivateOnPlatform*, "", "ActivateOnPlatform");

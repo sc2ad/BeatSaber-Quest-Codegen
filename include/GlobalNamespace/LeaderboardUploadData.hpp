@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Offset: 0xF1E88C
     static LeaderboardUploadData* New_ctor(::Il2CppString* playerName, ::Il2CppString* playerId, ::Il2CppString* score, ::Il2CppString* leaderboardId, ::Il2CppString* songName, ::Il2CppString* songSubName, ::Il2CppString* authorName, ::Il2CppString* bpm, ::Il2CppString* difficulty, ::Il2CppString* infoHash, System::Collections::Generic::List_1<::Il2CppString*>* modifiers);
   }; // LeaderboardUploadData
-  check_size<sizeof(LeaderboardUploadData), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __GlobalNamespace_LeaderboardUploadDataSizeCheck;
+  check_size<sizeof(LeaderboardUploadData), 96 + sizeof(void*) + ((96 + sizeof(void*)) % 8 != 0 ? (8 - (96 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_LeaderboardUploadDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardUploadData*, "", "LeaderboardUploadData");

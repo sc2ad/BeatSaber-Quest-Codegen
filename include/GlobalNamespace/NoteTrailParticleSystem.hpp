@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NoteTrailParticleSystem* New_ctor();
   }; // NoteTrailParticleSystem
-  check_size<sizeof(NoteTrailParticleSystem), 32 + sizeof(UnityEngine::ParticleSystem::EmitParams) + 8 - (32 + sizeof(UnityEngine::ParticleSystem::EmitParams)) % 8> __GlobalNamespace_NoteTrailParticleSystemSizeCheck;
+  check_size<sizeof(NoteTrailParticleSystem), 32 + sizeof(UnityEngine::ParticleSystem::EmitParams) + ((32 + sizeof(UnityEngine::ParticleSystem::EmitParams)) % 8 != 0 ? (8 - (32 + sizeof(UnityEngine::ParticleSystem::EmitParams)) % 8) : 0)> __GlobalNamespace_NoteTrailParticleSystemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteTrailParticleSystem*, "", "NoteTrailParticleSystem");

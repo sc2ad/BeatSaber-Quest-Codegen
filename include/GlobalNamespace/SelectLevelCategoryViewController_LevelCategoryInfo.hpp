@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SelectLevelCategoryViewController::LevelCategoryInfo* New_ctor();
   }; // SelectLevelCategoryViewController/LevelCategoryInfo
-  check_size<sizeof(SelectLevelCategoryViewController::LevelCategoryInfo), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_SelectLevelCategoryViewController_LevelCategoryInfoSizeCheck;
+  check_size<sizeof(SelectLevelCategoryViewController::LevelCategoryInfo), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_SelectLevelCategoryViewController_LevelCategoryInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*, "", "SelectLevelCategoryViewController/LevelCategoryInfo");

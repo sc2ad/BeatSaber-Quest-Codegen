@@ -71,7 +71,7 @@ namespace GlobalNamespace {
       // Set static field: static public SimpleRetailDemoViewController/MenuButton Exit
       static void _set_Exit(GlobalNamespace::SimpleRetailDemoViewController::MenuButton value);
     }; // SimpleRetailDemoViewController/MenuButton
-    check_size<sizeof(SimpleRetailDemoViewController::MenuButton), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_SimpleRetailDemoViewController_MenuButtonSizeCheck;
+    check_size<sizeof(SimpleRetailDemoViewController::MenuButton), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_SimpleRetailDemoViewController_MenuButtonSizeCheck;
     // private UnityEngine.UI.Button _tutorialButton
     // Offset: 0x70
     UnityEngine::UI::Button* tutorialButton;
@@ -124,7 +124,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SimpleRetailDemoViewController* New_ctor();
   }; // SimpleRetailDemoViewController
-  check_size<sizeof(SimpleRetailDemoViewController), 144 + sizeof(void*) + 8 - (144 + sizeof(void*)) % 8> __GlobalNamespace_SimpleRetailDemoViewControllerSizeCheck;
+  check_size<sizeof(SimpleRetailDemoViewController), 144 + sizeof(void*) + ((144 + sizeof(void*)) % 8 != 0 ? (8 - (144 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_SimpleRetailDemoViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoViewController*, "", "SimpleRetailDemoViewController");

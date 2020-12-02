@@ -35,7 +35,7 @@ namespace UnityEngine::SceneManagement {
     // Set static field: static public UnityEngine.SceneManagement.LoadSceneMode Additive
     static void _set_Additive(UnityEngine::SceneManagement::LoadSceneMode value);
   }; // UnityEngine.SceneManagement.LoadSceneMode
-  check_size<sizeof(LoadSceneMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_SceneManagement_LoadSceneModeSizeCheck;
+  check_size<sizeof(LoadSceneMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_SceneManagement_LoadSceneModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::LoadSceneMode, "UnityEngine.SceneManagement", "LoadSceneMode");

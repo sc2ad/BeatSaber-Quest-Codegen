@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static JoinQuickPlayViewController* New_ctor();
   }; // JoinQuickPlayViewController
-  check_size<sizeof(JoinQuickPlayViewController), 152 + sizeof(void*) + 8 - (152 + sizeof(void*)) % 8> __GlobalNamespace_JoinQuickPlayViewControllerSizeCheck;
+  check_size<sizeof(JoinQuickPlayViewController), 152 + sizeof(void*) + ((152 + sizeof(void*)) % 8 != 0 ? (8 - (152 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_JoinQuickPlayViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JoinQuickPlayViewController*, "", "JoinQuickPlayViewController");

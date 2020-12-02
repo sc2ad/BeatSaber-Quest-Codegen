@@ -29,7 +29,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x19729E8
     static TrackColorAttribute* New_ctor(float r, float g, float b);
   }; // UnityEngine.Timeline.TrackColorAttribute
-  check_size<sizeof(TrackColorAttribute), 16 + sizeof(UnityEngine::Color) + 8 - (16 + sizeof(UnityEngine::Color)) % 8> __UnityEngine_Timeline_TrackColorAttributeSizeCheck;
+  check_size<sizeof(TrackColorAttribute), 16 + sizeof(UnityEngine::Color) + ((16 + sizeof(UnityEngine::Color)) % 8 != 0 ? (8 - (16 + sizeof(UnityEngine::Color)) % 8) : 0)> __UnityEngine_Timeline_TrackColorAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackColorAttribute*, "UnityEngine.Timeline", "TrackColorAttribute");

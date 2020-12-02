@@ -173,7 +173,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.DrivenTransformProperties Pivot
     static void _set_Pivot(UnityEngine::DrivenTransformProperties value);
   }; // UnityEngine.DrivenTransformProperties
-  check_size<sizeof(DrivenTransformProperties), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_DrivenTransformPropertiesSizeCheck;
+  check_size<sizeof(DrivenTransformProperties), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_DrivenTransformPropertiesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DrivenTransformProperties, "UnityEngine", "DrivenTransformProperties");

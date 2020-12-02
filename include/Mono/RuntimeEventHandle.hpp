@@ -43,7 +43,7 @@ namespace Mono {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // Mono.RuntimeEventHandle
-  check_size<sizeof(RuntimeEventHandle), 0 + sizeof(System::IntPtr) + 8 - (0 + sizeof(System::IntPtr)) % 8> __Mono_RuntimeEventHandleSizeCheck;
+  check_size<sizeof(RuntimeEventHandle), 0 + sizeof(System::IntPtr) + ((0 + sizeof(System::IntPtr)) % 8 != 0 ? (8 - (0 + sizeof(System::IntPtr)) % 8) : 0)> __Mono_RuntimeEventHandleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeEventHandle, "Mono", "RuntimeEventHandle");

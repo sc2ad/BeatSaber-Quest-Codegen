@@ -71,7 +71,7 @@ namespace System::Reflection {
     // Set static field: static public System.Reflection.PropertyAttributes Reserved4
     static void _set_Reserved4(System::Reflection::PropertyAttributes value);
   }; // System.Reflection.PropertyAttributes
-  check_size<sizeof(PropertyAttributes), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Reflection_PropertyAttributesSizeCheck;
+  check_size<sizeof(PropertyAttributes), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Reflection_PropertyAttributesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::PropertyAttributes, "System.Reflection", "PropertyAttributes");

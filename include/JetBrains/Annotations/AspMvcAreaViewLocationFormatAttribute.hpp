@@ -30,7 +30,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE17C
     void set_Format(::Il2CppString* value);
   }; // JetBrains.Annotations.AspMvcAreaViewLocationFormatAttribute
-  check_size<sizeof(AspMvcAreaViewLocationFormatAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __JetBrains_Annotations_AspMvcAreaViewLocationFormatAttributeSizeCheck;
+  check_size<sizeof(AspMvcAreaViewLocationFormatAttribute), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __JetBrains_Annotations_AspMvcAreaViewLocationFormatAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcAreaViewLocationFormatAttribute*, "JetBrains.Annotations", "AspMvcAreaViewLocationFormatAttribute");

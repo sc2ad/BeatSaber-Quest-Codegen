@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static VisibilityChecker* New_ctor();
   }; // VisibilityChecker
-  check_size<sizeof(VisibilityChecker), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_VisibilityCheckerSizeCheck;
+  check_size<sizeof(VisibilityChecker), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_VisibilityCheckerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VisibilityChecker*, "", "VisibilityChecker");

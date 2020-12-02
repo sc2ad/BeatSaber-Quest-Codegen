@@ -43,7 +43,7 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Net.NetworkInformation.OperationalStatus NetworkInterface::get_OperationalStatus()
     System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
   }; // System.Net.NetworkInformation.MacOsNetworkInterface
-  check_size<sizeof(MacOsNetworkInterface), 52 + sizeof(uint) + 8 - (52 + sizeof(uint)) % 8> __System_Net_NetworkInformation_MacOsNetworkInterfaceSizeCheck;
+  check_size<sizeof(MacOsNetworkInterface), 52 + sizeof(uint) + ((52 + sizeof(uint)) % 8 != 0 ? (8 - (52 + sizeof(uint)) % 8) : 0)> __System_Net_NetworkInformation_MacOsNetworkInterfaceSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsNetworkInterface*, "System.Net.NetworkInformation", "MacOsNetworkInterface");

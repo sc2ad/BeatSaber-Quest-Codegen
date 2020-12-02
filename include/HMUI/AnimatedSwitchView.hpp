@@ -96,7 +96,7 @@ namespace HMUI {
       // Set static field: static public HMUI.AnimatedSwitchView/AnimationState DisablingOff
       static void _set_DisablingOff(HMUI::AnimatedSwitchView::AnimationState value);
     }; // HMUI.AnimatedSwitchView/AnimationState
-    check_size<sizeof(AnimatedSwitchView::AnimationState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __HMUI_AnimatedSwitchView_AnimationStateSizeCheck;
+    check_size<sizeof(AnimatedSwitchView::AnimationState), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __HMUI_AnimatedSwitchView_AnimationStateSizeCheck;
     // private UnityEngine.RectTransform _knobRectTransform
     // Offset: 0x18
     UnityEngine::RectTransform* knobRectTransform;
@@ -205,7 +205,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static AnimatedSwitchView* New_ctor();
   }; // HMUI.AnimatedSwitchView
-  check_size<sizeof(AnimatedSwitchView), 152 + sizeof(void*) + 8 - (152 + sizeof(void*)) % 8> __HMUI_AnimatedSwitchViewSizeCheck;
+  check_size<sizeof(AnimatedSwitchView), 152 + sizeof(void*) + ((152 + sizeof(void*)) % 8 != 0 ? (8 - (152 + sizeof(void*)) % 8) : 0)> __HMUI_AnimatedSwitchViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView*, "HMUI", "AnimatedSwitchView");

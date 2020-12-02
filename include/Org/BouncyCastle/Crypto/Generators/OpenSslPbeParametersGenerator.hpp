@@ -62,7 +62,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Base method: Org.BouncyCastle.Crypto.ICipherParameters PbeParametersGenerator::GenerateDerivedMacParameters(System.Int32 keySize)
     Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int keySize);
   }; // Org.BouncyCastle.Crypto.Generators.OpenSslPbeParametersGenerator
-  check_size<sizeof(OpenSslPbeParametersGenerator), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Generators_OpenSslPbeParametersGeneratorSizeCheck;
+  check_size<sizeof(OpenSslPbeParametersGenerator), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_Generators_OpenSslPbeParametersGeneratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator*, "Org.BouncyCastle.Crypto.Generators", "OpenSslPbeParametersGenerator");

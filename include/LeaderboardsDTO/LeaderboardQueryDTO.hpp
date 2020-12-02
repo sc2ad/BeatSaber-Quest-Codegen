@@ -40,7 +40,7 @@ namespace LeaderboardsDTO {
       // Set static field: static public LeaderboardsDTO.LeaderboardQueryDTO/ScoresScope Friends
       static void _set_Friends(LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope value);
     }; // LeaderboardsDTO.LeaderboardQueryDTO/ScoresScope
-    check_size<sizeof(LeaderboardQueryDTO::ScoresScope), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __LeaderboardsDTO_LeaderboardQueryDTO_ScoresScopeSizeCheck;
+    check_size<sizeof(LeaderboardQueryDTO::ScoresScope), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __LeaderboardsDTO_LeaderboardQueryDTO_ScoresScopeSizeCheck;
     // public System.String leaderboardId
     // Offset: 0x10
     ::Il2CppString* leaderboardId;
@@ -65,7 +65,7 @@ namespace LeaderboardsDTO {
     // Base method: System.Void Object::.ctor()
     static LeaderboardQueryDTO* New_ctor();
   }; // LeaderboardsDTO.LeaderboardQueryDTO
-  check_size<sizeof(LeaderboardQueryDTO), 48 + sizeof(bool) + 8 - (48 + sizeof(bool)) % 8> __LeaderboardsDTO_LeaderboardQueryDTOSizeCheck;
+  check_size<sizeof(LeaderboardQueryDTO), 48 + sizeof(bool) + ((48 + sizeof(bool)) % 8 != 0 ? (8 - (48 + sizeof(bool)) % 8) : 0)> __LeaderboardsDTO_LeaderboardQueryDTOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardQueryDTO*, "LeaderboardsDTO", "LeaderboardQueryDTO");

@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRInput::OVRControllerBase::VirtualAxis1DMap* New_ctor();
   }; // OVRInput/OVRControllerBase/VirtualAxis1DMap
-  check_size<sizeof(OVRInput::OVRControllerBase::VirtualAxis1DMap), 32 + sizeof(GlobalNamespace::OVRInput::RawAxis1D) + 8 - (32 + sizeof(GlobalNamespace::OVRInput::RawAxis1D)) % 8> __GlobalNamespace_OVRInput_OVRControllerBase_VirtualAxis1DMapSizeCheck;
+  check_size<sizeof(OVRInput::OVRControllerBase::VirtualAxis1DMap), 32 + sizeof(GlobalNamespace::OVRInput::RawAxis1D) + ((32 + sizeof(GlobalNamespace::OVRInput::RawAxis1D)) % 8 != 0 ? (8 - (32 + sizeof(GlobalNamespace::OVRInput::RawAxis1D)) % 8) : 0)> __GlobalNamespace_OVRInput_OVRControllerBase_VirtualAxis1DMapSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap*, "", "OVRInput/OVRControllerBase/VirtualAxis1DMap");

@@ -91,7 +91,7 @@ namespace Org::BouncyCastle::Utilities::IO {
     // Base method: System.Void Object::.ctor()
     static BaseInputStream* New_ctor();
   }; // Org.BouncyCastle.Utilities.IO.BaseInputStream
-  check_size<sizeof(BaseInputStream), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __Org_BouncyCastle_Utilities_IO_BaseInputStreamSizeCheck;
+  check_size<sizeof(BaseInputStream), 40 + sizeof(bool) + ((40 + sizeof(bool)) % 8 != 0 ? (8 - (40 + sizeof(bool)) % 8) : 0)> __Org_BouncyCastle_Utilities_IO_BaseInputStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::BaseInputStream*, "Org.BouncyCastle.Utilities.IO", "BaseInputStream");

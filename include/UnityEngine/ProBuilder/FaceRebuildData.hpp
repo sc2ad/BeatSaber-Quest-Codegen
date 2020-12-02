@@ -69,7 +69,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.ctor()
     static FaceRebuildData* New_ctor();
   }; // UnityEngine.ProBuilder.FaceRebuildData
-  check_size<sizeof(FaceRebuildData), 48 + sizeof(int) + 8 - (48 + sizeof(int)) % 8> __UnityEngine_ProBuilder_FaceRebuildDataSizeCheck;
+  check_size<sizeof(FaceRebuildData), 48 + sizeof(int) + ((48 + sizeof(int)) % 8 != 0 ? (8 - (48 + sizeof(int)) % 8) : 0)> __UnityEngine_ProBuilder_FaceRebuildDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::FaceRebuildData*, "UnityEngine.ProBuilder", "FaceRebuildData");

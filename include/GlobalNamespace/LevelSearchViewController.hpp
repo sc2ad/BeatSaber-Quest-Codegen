@@ -196,7 +196,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LevelSearchViewController* New_ctor();
   }; // LevelSearchViewController
-  check_size<sizeof(LevelSearchViewController), 240 + sizeof(void*) + 8 - (240 + sizeof(void*)) % 8> __GlobalNamespace_LevelSearchViewControllerSizeCheck;
+  check_size<sizeof(LevelSearchViewController), 240 + sizeof(void*) + ((240 + sizeof(void*)) % 8 != 0 ? (8 - (240 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_LevelSearchViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSearchViewController*, "", "LevelSearchViewController");

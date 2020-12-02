@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusPlatformUserModel/<GetUserInfo>d__2
-  check_size<sizeof(OculusPlatformUserModel::$GetUserInfo$d__2), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*>) + 8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*>)) % 8> __GlobalNamespace_OculusPlatformUserModel_$GetUserInfo$d__2SizeCheck;
+  check_size<sizeof(OculusPlatformUserModel::$GetUserInfo$d__2), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*>) + ((56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*>)) % 8 != 0 ? (8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::UserInfo*>)) % 8) : 0)> __GlobalNamespace_OculusPlatformUserModel_$GetUserInfo$d__2SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformUserModel::$GetUserInfo$d__2, "", "OculusPlatformUserModel/<GetUserInfo>d__2");

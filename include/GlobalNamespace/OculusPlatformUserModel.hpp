@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OculusPlatformUserModel* New_ctor();
   }; // OculusPlatformUserModel
-  check_size<sizeof(OculusPlatformUserModel), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_OculusPlatformUserModelSizeCheck;
+  check_size<sizeof(OculusPlatformUserModel), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_OculusPlatformUserModelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformUserModel*, "", "OculusPlatformUserModel");

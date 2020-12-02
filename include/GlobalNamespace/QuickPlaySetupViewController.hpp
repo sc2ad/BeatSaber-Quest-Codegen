@@ -128,7 +128,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static QuickPlaySetupViewController* New_ctor();
   }; // QuickPlaySetupViewController
-  check_size<sizeof(QuickPlaySetupViewController), 172 + sizeof(bool) + 8 - (172 + sizeof(bool)) % 8> __GlobalNamespace_QuickPlaySetupViewControllerSizeCheck;
+  check_size<sizeof(QuickPlaySetupViewController), 172 + sizeof(bool) + ((172 + sizeof(bool)) % 8 != 0 ? (8 - (172 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_QuickPlaySetupViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlaySetupViewController*, "", "QuickPlaySetupViewController");

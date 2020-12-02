@@ -37,7 +37,7 @@ namespace System::Net {
     // Offset: 0x12A7878
     static HeaderInfo* New_ctor(::Il2CppString* name, bool requestRestricted, bool responseRestricted, bool multi, System::Net::HeaderParser* p);
   }; // System.Net.HeaderInfo
-  check_size<sizeof(HeaderInfo), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __System_Net_HeaderInfoSizeCheck;
+  check_size<sizeof(HeaderInfo), 40 + sizeof(bool) + ((40 + sizeof(bool)) % 8 != 0 ? (8 - (40 + sizeof(bool)) % 8) : 0)> __System_Net_HeaderInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderInfo*, "System.Net", "HeaderInfo");

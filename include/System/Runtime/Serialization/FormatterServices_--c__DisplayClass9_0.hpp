@@ -46,7 +46,7 @@ namespace System::Runtime::Serialization {
     // Base method: System.Void Object::.ctor()
     static FormatterServices::$$c__DisplayClass9_0* New_ctor();
   }; // System.Runtime.Serialization.FormatterServices/<>c__DisplayClass9_0
-  check_size<sizeof(FormatterServices::$$c__DisplayClass9_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Runtime_Serialization_FormatterServices_$$c__DisplayClass9_0SizeCheck;
+  check_size<sizeof(FormatterServices::$$c__DisplayClass9_0), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Runtime_Serialization_FormatterServices_$$c__DisplayClass9_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0*, "System.Runtime.Serialization", "FormatterServices/<>c__DisplayClass9_0");

@@ -196,7 +196,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Math.EC.ECPoint
-  check_size<sizeof(ECPoint), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_EC_ECPointSizeCheck;
+  check_size<sizeof(ECPoint), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Math_EC_ECPointSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECPoint*, "Org.BouncyCastle.Math.EC", "ECPoint");

@@ -35,7 +35,7 @@ namespace OVRSimpleJSON {
     // Set static field: static public OVRSimpleJSON.JSONTextMode Indent
     static void _set_Indent(OVRSimpleJSON::JSONTextMode value);
   }; // OVRSimpleJSON.JSONTextMode
-  check_size<sizeof(JSONTextMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVRSimpleJSON_JSONTextModeSizeCheck;
+  check_size<sizeof(JSONTextMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OVRSimpleJSON_JSONTextModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONTextMode, "OVRSimpleJSON", "JSONTextMode");

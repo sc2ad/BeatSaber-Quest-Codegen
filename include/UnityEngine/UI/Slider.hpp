@@ -92,7 +92,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.Slider/Direction TopToBottom
       static void _set_TopToBottom(UnityEngine::UI::Slider::Direction value);
     }; // UnityEngine.UI.Slider/Direction
-    check_size<sizeof(Slider::Direction), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_UI_Slider_DirectionSizeCheck;
+    check_size<sizeof(Slider::Direction), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_UI_Slider_DirectionSizeCheck;
     // private UnityEngine.RectTransform m_FillRect
     // Offset: 0xF0
     UnityEngine::RectTransform* m_FillRect;
@@ -335,7 +335,7 @@ namespace UnityEngine::UI {
     // Base method: UnityEngine.Transform ICanvasElement::get_transform()
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
   }; // UnityEngine.UI.Slider
-  check_size<sizeof(Slider), 337 + sizeof(bool) + 8 - (337 + sizeof(bool)) % 8> __UnityEngine_UI_SliderSizeCheck;
+  check_size<sizeof(Slider), 337 + sizeof(bool) + ((337 + sizeof(bool)) % 8 != 0 ? (8 - (337 + sizeof(bool)) % 8) : 0)> __UnityEngine_UI_SliderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Slider*, "UnityEngine.UI", "Slider");

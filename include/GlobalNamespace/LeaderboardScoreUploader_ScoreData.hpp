@@ -122,7 +122,7 @@ namespace GlobalNamespace {
     // Offset: 0xF1E1E4
     static LeaderboardScoreUploader::ScoreData* New_ctor(::Il2CppString* playerId, GlobalNamespace::IDifficultyBeatmap* beatmap, int rawScore, int modifiedScore, bool fullCombo, int goodCutsCount, int badCutsCount, int missedCount, int maxCombo, GlobalNamespace::GameplayModifiers* gameplayModifiers);
   }; // LeaderboardScoreUploader/ScoreData
-  check_size<sizeof(LeaderboardScoreUploader::ScoreData), 72 + sizeof(int) + 8 - (72 + sizeof(int)) % 8> __GlobalNamespace_LeaderboardScoreUploader_ScoreDataSizeCheck;
+  check_size<sizeof(LeaderboardScoreUploader::ScoreData), 72 + sizeof(int) + ((72 + sizeof(int)) % 8 != 0 ? (8 - (72 + sizeof(int)) % 8) : 0)> __GlobalNamespace_LeaderboardScoreUploader_ScoreDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader::ScoreData*, "", "LeaderboardScoreUploader/ScoreData");

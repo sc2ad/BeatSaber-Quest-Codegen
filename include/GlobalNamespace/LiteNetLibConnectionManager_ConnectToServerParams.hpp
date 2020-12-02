@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LiteNetLibConnectionManager::ConnectToServerParams* New_ctor();
   }; // LiteNetLibConnectionManager/ConnectToServerParams
-  check_size<sizeof(LiteNetLibConnectionManager::ConnectToServerParams), 80 + sizeof(bool) + 8 - (80 + sizeof(bool)) % 8> __GlobalNamespace_LiteNetLibConnectionManager_ConnectToServerParamsSizeCheck;
+  check_size<sizeof(LiteNetLibConnectionManager::ConnectToServerParams), 80 + sizeof(bool) + ((80 + sizeof(bool)) % 8 != 0 ? (8 - (80 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_LiteNetLibConnectionManager_ConnectToServerParamsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::ConnectToServerParams*, "", "LiteNetLibConnectionManager/ConnectToServerParams");

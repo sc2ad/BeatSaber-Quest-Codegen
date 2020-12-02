@@ -69,7 +69,7 @@ namespace UnityEngine::UI {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.UI.SpriteState other)
     bool Equals(UnityEngine::UI::SpriteState other);
   }; // UnityEngine.UI.SpriteState
-  check_size<sizeof(SpriteState), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_UI_SpriteStateSizeCheck;
+  check_size<sizeof(SpriteState), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __UnityEngine_UI_SpriteStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::SpriteState, "UnityEngine.UI", "SpriteState");

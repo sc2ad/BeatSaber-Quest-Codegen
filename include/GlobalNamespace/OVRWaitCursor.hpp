@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRWaitCursor* New_ctor();
   }; // OVRWaitCursor
-  check_size<sizeof(OVRWaitCursor), 24 + sizeof(UnityEngine::Vector3) + 8 - (24 + sizeof(UnityEngine::Vector3)) % 8> __GlobalNamespace_OVRWaitCursorSizeCheck;
+  check_size<sizeof(OVRWaitCursor), 24 + sizeof(UnityEngine::Vector3) + ((24 + sizeof(UnityEngine::Vector3)) % 8 != 0 ? (8 - (24 + sizeof(UnityEngine::Vector3)) % 8) : 0)> __GlobalNamespace_OVRWaitCursorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRWaitCursor*, "", "OVRWaitCursor");

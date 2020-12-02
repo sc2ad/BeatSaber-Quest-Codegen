@@ -65,7 +65,7 @@ namespace System {
     // Set static field: static public System.PlatformID MacOSX
     static void _set_MacOSX(System::PlatformID value);
   }; // System.PlatformID
-  check_size<sizeof(PlatformID), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_PlatformIDSizeCheck;
+  check_size<sizeof(PlatformID), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_PlatformIDSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::PlatformID, "System", "PlatformID");

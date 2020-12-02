@@ -59,7 +59,7 @@ namespace GlobalNamespace {
       // Set static field: static public VRRenderingParamsSetup/SceneType Game
       static void _set_Game(GlobalNamespace::VRRenderingParamsSetup::SceneType value);
     }; // VRRenderingParamsSetup/SceneType
-    check_size<sizeof(VRRenderingParamsSetup::SceneType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_VRRenderingParamsSetup_SceneTypeSizeCheck;
+    check_size<sizeof(VRRenderingParamsSetup::SceneType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_VRRenderingParamsSetup_SceneTypeSizeCheck;
     // private FloatSO _vrResolutionScale
     // Offset: 0x18
     GlobalNamespace::FloatSO* vrResolutionScale;
@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static VRRenderingParamsSetup* New_ctor();
   }; // VRRenderingParamsSetup
-  check_size<sizeof(VRRenderingParamsSetup), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_VRRenderingParamsSetupSizeCheck;
+  check_size<sizeof(VRRenderingParamsSetup), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_VRRenderingParamsSetupSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRRenderingParamsSetup*, "", "VRRenderingParamsSetup");

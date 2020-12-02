@@ -41,7 +41,7 @@ namespace OnlineServices::API {
     // Base method: System.Void Object::.ctor()
     static HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1* New_ctor();
   }; // OnlineServices.API.HTTPLeaderboardsOathHelper/<>c__DisplayClass10_1
-  check_size<sizeof(HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __OnlineServices_API_HTTPLeaderboardsOathHelper_$$c__DisplayClass10_1SizeCheck;
+  check_size<sizeof(HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __OnlineServices_API_HTTPLeaderboardsOathHelper_$$c__DisplayClass10_1SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1*, "OnlineServices.API", "HTTPLeaderboardsOathHelper/<>c__DisplayClass10_1");

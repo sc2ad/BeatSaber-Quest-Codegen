@@ -62,7 +62,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     static RuntimeElement* New_ctor();
   }; // UnityEngine.Timeline.RuntimeElement
-  check_size<sizeof(RuntimeElement), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __UnityEngine_Timeline_RuntimeElementSizeCheck;
+  check_size<sizeof(RuntimeElement), 16 + sizeof(int) + ((16 + sizeof(int)) % 8 != 0 ? (8 - (16 + sizeof(int)) % 8) : 0)> __UnityEngine_Timeline_RuntimeElementSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::RuntimeElement*, "UnityEngine.Timeline", "RuntimeElement");

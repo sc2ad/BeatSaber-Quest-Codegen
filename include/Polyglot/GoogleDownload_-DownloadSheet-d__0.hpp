@@ -96,7 +96,7 @@ namespace Polyglot {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // Polyglot.GoogleDownload/<DownloadSheet>d__0
-  check_size<sizeof(GoogleDownload::$DownloadSheet$d__0), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __Polyglot_GoogleDownload_$DownloadSheet$d__0SizeCheck;
+  check_size<sizeof(GoogleDownload::$DownloadSheet$d__0), 80 + sizeof(void*) + ((80 + sizeof(void*)) % 8 != 0 ? (8 - (80 + sizeof(void*)) % 8) : 0)> __Polyglot_GoogleDownload_$DownloadSheet$d__0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::GoogleDownload::$DownloadSheet$d__0*, "Polyglot", "GoogleDownload/<DownloadSheet>d__0");

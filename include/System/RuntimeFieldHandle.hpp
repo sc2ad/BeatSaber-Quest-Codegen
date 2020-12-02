@@ -92,7 +92,7 @@ namespace System {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.RuntimeFieldHandle
-  check_size<sizeof(RuntimeFieldHandle), 0 + sizeof(System::IntPtr) + 8 - (0 + sizeof(System::IntPtr)) % 8> __System_RuntimeFieldHandleSizeCheck;
+  check_size<sizeof(RuntimeFieldHandle), 0 + sizeof(System::IntPtr) + ((0 + sizeof(System::IntPtr)) % 8 != 0 ? (8 - (0 + sizeof(System::IntPtr)) % 8) : 0)> __System_RuntimeFieldHandleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::RuntimeFieldHandle, "System", "RuntimeFieldHandle");

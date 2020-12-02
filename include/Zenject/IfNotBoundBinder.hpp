@@ -38,7 +38,7 @@ namespace Zenject {
     // Offset: 0x129FC58
     void IfNotBound();
   }; // Zenject.IfNotBoundBinder
-  check_size<sizeof(IfNotBoundBinder), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Zenject_IfNotBoundBinderSizeCheck;
+  check_size<sizeof(IfNotBoundBinder), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __Zenject_IfNotBoundBinderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IfNotBoundBinder*, "Zenject", "IfNotBoundBinder");

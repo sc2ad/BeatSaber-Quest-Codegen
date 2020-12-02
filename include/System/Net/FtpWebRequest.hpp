@@ -141,7 +141,7 @@ namespace System::Net {
       // Set static field: static public System.Net.FtpWebRequest/RequestState Error
       static void _set_Error(System::Net::FtpWebRequest::RequestState value);
     }; // System.Net.FtpWebRequest/RequestState
-    check_size<sizeof(FtpWebRequest::RequestState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Net_FtpWebRequest_RequestStateSizeCheck;
+    check_size<sizeof(FtpWebRequest::RequestState), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Net_FtpWebRequest_RequestStateSizeCheck;
     // private System.Uri requestUri
     // Offset: 0x20
     System::Uri* requestUri;
@@ -493,7 +493,7 @@ namespace System::Net {
     // Base method: System.Void WebRequest::.cctor()
     static void _cctor();
   }; // System.Net.FtpWebRequest
-  check_size<sizeof(FtpWebRequest), 216 + sizeof(void*) + 8 - (216 + sizeof(void*)) % 8> __System_Net_FtpWebRequestSizeCheck;
+  check_size<sizeof(FtpWebRequest), 216 + sizeof(void*) + ((216 + sizeof(void*)) % 8 != 0 ? (8 - (216 + sizeof(void*)) % 8) : 0)> __System_Net_FtpWebRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpWebRequest*, "System.Net", "FtpWebRequest");

@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ControllerState
     constexpr ControllerState(uint ConnectedControllers_ = {}, uint Buttons_ = {}, uint Touches_ = {}, uint NearTouches_ = {}, float LIndexTrigger_ = {}, float RIndexTrigger_ = {}, float LHandTrigger_ = {}, float RHandTrigger_ = {}, GlobalNamespace::OVRPlugin::Vector2f LThumbstick_ = {}, GlobalNamespace::OVRPlugin::Vector2f RThumbstick_ = {}) noexcept : ConnectedControllers{ConnectedControllers_}, Buttons{Buttons_}, Touches{Touches_}, NearTouches{NearTouches_}, LIndexTrigger{LIndexTrigger_}, RIndexTrigger{RIndexTrigger_}, LHandTrigger{LHandTrigger_}, RHandTrigger{RHandTrigger_}, LThumbstick{LThumbstick_}, RThumbstick{RThumbstick_} {}
   }; // OVRPlugin/ControllerState
-  check_size<sizeof(OVRPlugin::ControllerState), 40 + sizeof(GlobalNamespace::OVRPlugin::Vector2f) + 8 - (40 + sizeof(GlobalNamespace::OVRPlugin::Vector2f)) % 8> __GlobalNamespace_OVRPlugin_ControllerStateSizeCheck;
+  check_size<sizeof(OVRPlugin::ControllerState), 40 + sizeof(GlobalNamespace::OVRPlugin::Vector2f) + ((40 + sizeof(GlobalNamespace::OVRPlugin::Vector2f)) % 8 != 0 ? (8 - (40 + sizeof(GlobalNamespace::OVRPlugin::Vector2f)) % 8) : 0)> __GlobalNamespace_OVRPlugin_ControllerStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::ControllerState, "", "OVRPlugin/ControllerState");

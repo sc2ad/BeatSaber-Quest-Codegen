@@ -64,7 +64,7 @@ namespace RootMotion::Demos {
       // Set static field: static public RootMotion.Demos.Navigator/State OnPath
       static void _set_OnPath(RootMotion::Demos::Navigator::State value);
     }; // RootMotion.Demos.Navigator/State
-    check_size<sizeof(Navigator::State), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __RootMotion_Demos_Navigator_StateSizeCheck;
+    check_size<sizeof(Navigator::State), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __RootMotion_Demos_Navigator_StateSizeCheck;
     // public System.Boolean activeTargetSeeking
     // Offset: 0x10
     bool activeTargetSeeking;
@@ -146,7 +146,7 @@ namespace RootMotion::Demos {
     // Base method: System.Void Object::.ctor()
     static Navigator* New_ctor();
   }; // RootMotion.Demos.Navigator
-  check_size<sizeof(Navigator), 104 + sizeof(float) + 8 - (104 + sizeof(float)) % 8> __RootMotion_Demos_NavigatorSizeCheck;
+  check_size<sizeof(Navigator), 104 + sizeof(float) + ((104 + sizeof(float)) % 8 != 0 ? (8 - (104 + sizeof(float)) % 8) : 0)> __RootMotion_Demos_NavigatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Demos::Navigator*, "RootMotion.Demos", "Navigator");

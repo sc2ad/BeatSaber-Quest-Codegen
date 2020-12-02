@@ -43,7 +43,7 @@ namespace GlobalNamespace {
       // Offset: 0xE90060
       // ABORTED: conflicts with another method.  SynchronizedAction(float time, System::Action* action);
     }; // SynchronizedActionQueue/SynchronizedAction
-    check_size<sizeof(SynchronizedActionQueue::SynchronizedAction), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __GlobalNamespace_SynchronizedActionQueue_SynchronizedActionSizeCheck;
+    check_size<sizeof(SynchronizedActionQueue::SynchronizedAction), 8 + sizeof(void*) + ((8 + sizeof(void*)) % 8 != 0 ? (8 - (8 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_SynchronizedActionQueue_SynchronizedActionSizeCheck;
     // private readonly System.Collections.Generic.List`1<SynchronizedActionQueue/SynchronizedAction> _synchronizedActionQueue
     // Offset: 0x10
     System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>* synchronizedActionQueue;
@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SynchronizedActionQueue* New_ctor();
   }; // SynchronizedActionQueue
-  check_size<sizeof(SynchronizedActionQueue), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_SynchronizedActionQueueSizeCheck;
+  check_size<sizeof(SynchronizedActionQueue), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_SynchronizedActionQueueSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SynchronizedActionQueue*, "", "SynchronizedActionQueue");

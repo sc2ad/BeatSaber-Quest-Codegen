@@ -152,7 +152,7 @@ namespace NUnit::Framework::Constraints {
     // Base method: System.Void Object::.ctor()
     static NUnitEqualityComparer* New_ctor();
   }; // NUnit.Framework.Constraints.NUnitEqualityComparer
-  check_size<sizeof(NUnitEqualityComparer), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __NUnit_Framework_Constraints_NUnitEqualityComparerSizeCheck;
+  check_size<sizeof(NUnitEqualityComparer), 40 + sizeof(bool) + ((40 + sizeof(bool)) % 8 != 0 ? (8 - (40 + sizeof(bool)) % 8) : 0)> __NUnit_Framework_Constraints_NUnitEqualityComparerSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::NUnitEqualityComparer*, "NUnit.Framework.Constraints", "NUnitEqualityComparer");
 #pragma pack(pop)

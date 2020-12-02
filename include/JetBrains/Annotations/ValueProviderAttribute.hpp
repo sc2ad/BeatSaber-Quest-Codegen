@@ -30,7 +30,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EEBE0
     void set_Name(::Il2CppString* value);
   }; // JetBrains.Annotations.ValueProviderAttribute
-  check_size<sizeof(ValueProviderAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __JetBrains_Annotations_ValueProviderAttributeSizeCheck;
+  check_size<sizeof(ValueProviderAttribute), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __JetBrains_Annotations_ValueProviderAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::ValueProviderAttribute*, "JetBrains.Annotations", "ValueProviderAttribute");

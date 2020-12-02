@@ -22,7 +22,7 @@ namespace System {
     // Creating value type constructor for type: Coord
     constexpr Coord(int16_t X_ = {}, int16_t Y_ = {}) noexcept : X{X_}, Y{Y_} {}
   }; // System.Coord
-  check_size<sizeof(Coord), 2 + sizeof(int16_t) + 8 - (2 + sizeof(int16_t)) % 8> __System_CoordSizeCheck;
+  check_size<sizeof(Coord), 2 + sizeof(int16_t) + ((2 + sizeof(int16_t)) % 8 != 0 ? (8 - (2 + sizeof(int16_t)) % 8) : 0)> __System_CoordSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Coord, "System", "Coord");

@@ -111,7 +111,7 @@ namespace GlobalNamespace {
     // Base method: System.Boolean IConnectedPlayer::HasState(System.String state)
     bool HasState(::Il2CppString* state);
   }; // DisconnectedPlayer
-  check_size<sizeof(DisconnectedPlayer), 40 + sizeof(GlobalNamespace::MultiplayerAvatarData) + 8 - (40 + sizeof(GlobalNamespace::MultiplayerAvatarData)) % 8> __GlobalNamespace_DisconnectedPlayerSizeCheck;
+  check_size<sizeof(DisconnectedPlayer), 40 + sizeof(GlobalNamespace::MultiplayerAvatarData) + ((40 + sizeof(GlobalNamespace::MultiplayerAvatarData)) % 8 != 0 ? (8 - (40 + sizeof(GlobalNamespace::MultiplayerAvatarData)) % 8) : 0)> __GlobalNamespace_DisconnectedPlayerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisconnectedPlayer*, "", "DisconnectedPlayer");

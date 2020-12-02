@@ -245,7 +245,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     static Object* New_ctor();
   }; // UnityEngine.Object
-  check_size<sizeof(Object), 16 + sizeof(System::IntPtr) + 8 - (16 + sizeof(System::IntPtr)) % 8> __UnityEngine_ObjectSizeCheck;
+  check_size<sizeof(Object), 16 + sizeof(System::IntPtr) + ((16 + sizeof(System::IntPtr)) % 8 != 0 ? (8 - (16 + sizeof(System::IntPtr)) % 8) : 0)> __UnityEngine_ObjectSizeCheck;
   // static public System.Boolean op_Equality(UnityEngine.Object x, UnityEngine.Object y)
   // Offset: 0x172D508
   bool operator ==(UnityEngine::Object* x, UnityEngine::Object& y);

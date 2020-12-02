@@ -287,7 +287,7 @@ namespace System {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.AppDomain
-  check_size<sizeof(AppDomain), 152 + sizeof(void*) + 8 - (152 + sizeof(void*)) % 8> __System_AppDomainSizeCheck;
+  check_size<sizeof(AppDomain), 152 + sizeof(void*) + ((152 + sizeof(void*)) % 8 != 0 ? (8 - (152 + sizeof(void*)) % 8) : 0)> __System_AppDomainSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::AppDomain*, "System", "AppDomain");

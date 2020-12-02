@@ -33,7 +33,7 @@ namespace System::Threading {
     // Offset: 0x1D08210
     void Invoke();
   }; // System.Threading.OSSpecificSynchronizationContext/InvocationContext
-  check_size<sizeof(OSSpecificSynchronizationContext::InvocationContext), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Threading_OSSpecificSynchronizationContext_InvocationContextSizeCheck;
+  check_size<sizeof(OSSpecificSynchronizationContext::InvocationContext), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Threading_OSSpecificSynchronizationContext_InvocationContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::OSSpecificSynchronizationContext::InvocationContext*, "System.Threading", "OSSpecificSynchronizationContext/InvocationContext");

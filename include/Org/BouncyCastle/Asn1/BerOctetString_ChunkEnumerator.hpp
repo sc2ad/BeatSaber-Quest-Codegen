@@ -66,7 +66,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // Org.BouncyCastle.Asn1.BerOctetString/ChunkEnumerator
-  check_size<sizeof(BerOctetString::ChunkEnumerator), 40 + sizeof(int) + 8 - (40 + sizeof(int)) % 8> __Org_BouncyCastle_Asn1_BerOctetString_ChunkEnumeratorSizeCheck;
+  check_size<sizeof(BerOctetString::ChunkEnumerator), 40 + sizeof(int) + ((40 + sizeof(int)) % 8 != 0 ? (8 - (40 + sizeof(int)) % 8) : 0)> __Org_BouncyCastle_Asn1_BerOctetString_ChunkEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator*, "Org.BouncyCastle.Asn1", "BerOctetString/ChunkEnumerator");

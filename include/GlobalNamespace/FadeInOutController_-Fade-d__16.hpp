@@ -93,7 +93,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // FadeInOutController/<Fade>d__16
-  check_size<sizeof(FadeInOutController::$Fade$d__16), 80 + sizeof(float) + 8 - (80 + sizeof(float)) % 8> __GlobalNamespace_FadeInOutController_$Fade$d__16SizeCheck;
+  check_size<sizeof(FadeInOutController::$Fade$d__16), 80 + sizeof(float) + ((80 + sizeof(float)) % 8 != 0 ? (8 - (80 + sizeof(float)) % 8) : 0)> __GlobalNamespace_FadeInOutController_$Fade$d__16SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeInOutController::$Fade$d__16*, "", "FadeInOutController/<Fade>d__16");

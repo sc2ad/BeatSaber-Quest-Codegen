@@ -53,7 +53,7 @@ namespace System::Runtime::Remoting::Lifetime {
     // Set static field: static public System.Runtime.Remoting.Lifetime.LeaseState Expired
     static void _set_Expired(System::Runtime::Remoting::Lifetime::LeaseState value);
   }; // System.Runtime.Remoting.Lifetime.LeaseState
-  check_size<sizeof(LeaseState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Runtime_Remoting_Lifetime_LeaseStateSizeCheck;
+  check_size<sizeof(LeaseState), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Runtime_Remoting_Lifetime_LeaseStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::LeaseState, "System.Runtime.Remoting.Lifetime", "LeaseState");

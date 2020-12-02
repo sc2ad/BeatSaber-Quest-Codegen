@@ -248,7 +248,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.Timeline.ControlPlayableAsset
-  check_size<sizeof(ControlPlayableAsset), 82 + sizeof(bool) + 8 - (82 + sizeof(bool)) % 8> __UnityEngine_Timeline_ControlPlayableAssetSizeCheck;
+  check_size<sizeof(ControlPlayableAsset), 82 + sizeof(bool) + ((82 + sizeof(bool)) % 8 != 0 ? (8 - (82 + sizeof(bool)) % 8) : 0)> __UnityEngine_Timeline_ControlPlayableAssetSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ControlPlayableAsset*, "UnityEngine.Timeline", "ControlPlayableAsset");
 #pragma pack(pop)

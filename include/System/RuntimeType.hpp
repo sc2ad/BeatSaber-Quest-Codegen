@@ -782,7 +782,7 @@ namespace System {
     // Base method: System.Void Type::.cctor()
     static void _cctor();
   }; // System.RuntimeType
-  check_size<sizeof(RuntimeType), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_RuntimeTypeSizeCheck;
+  check_size<sizeof(RuntimeType), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __System_RuntimeTypeSizeCheck;
   // static public System.Boolean op_Equality(System.RuntimeType left, System.RuntimeType right)
   // Offset: 0x1441940
   bool operator ==(System::RuntimeType* left, System::RuntimeType& right);

@@ -244,7 +244,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.ProBuilder.Vertex
-  check_size<sizeof(Vertex), 120 + sizeof(UnityEngine::ProBuilder::MeshArrays) + 8 - (120 + sizeof(UnityEngine::ProBuilder::MeshArrays)) % 8> __UnityEngine_ProBuilder_VertexSizeCheck;
+  check_size<sizeof(Vertex), 120 + sizeof(UnityEngine::ProBuilder::MeshArrays) + ((120 + sizeof(UnityEngine::ProBuilder::MeshArrays)) % 8 != 0 ? (8 - (120 + sizeof(UnityEngine::ProBuilder::MeshArrays)) % 8) : 0)> __UnityEngine_ProBuilder_VertexSizeCheck;
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.Vertex a, UnityEngine.ProBuilder.Vertex b)
   // Offset: 0x19519A4
   bool operator ==(UnityEngine::ProBuilder::Vertex* a, UnityEngine::ProBuilder::Vertex& b);

@@ -42,7 +42,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VRControllerState_t
     constexpr VRControllerState_t(uint unPacketNum_ = {}, uint64_t ulButtonPressed_ = {}, uint64_t ulButtonTouched_ = {}, OVR::OpenVR::VRControllerAxis_t rAxis0_ = {}, OVR::OpenVR::VRControllerAxis_t rAxis1_ = {}, OVR::OpenVR::VRControllerAxis_t rAxis2_ = {}, OVR::OpenVR::VRControllerAxis_t rAxis3_ = {}, OVR::OpenVR::VRControllerAxis_t rAxis4_ = {}) noexcept : unPacketNum{unPacketNum_}, ulButtonPressed{ulButtonPressed_}, ulButtonTouched{ulButtonTouched_}, rAxis0{rAxis0_}, rAxis1{rAxis1_}, rAxis2{rAxis2_}, rAxis3{rAxis3_}, rAxis4{rAxis4_} {}
   }; // OVR.OpenVR.VRControllerState_t
-  check_size<sizeof(VRControllerState_t), 56 + sizeof(OVR::OpenVR::VRControllerAxis_t) + 8 - (56 + sizeof(OVR::OpenVR::VRControllerAxis_t)) % 8> __OVR_OpenVR_VRControllerState_tSizeCheck;
+  check_size<sizeof(VRControllerState_t), 56 + sizeof(OVR::OpenVR::VRControllerAxis_t) + ((56 + sizeof(OVR::OpenVR::VRControllerAxis_t)) % 8 != 0 ? (8 - (56 + sizeof(OVR::OpenVR::VRControllerAxis_t)) % 8) : 0)> __OVR_OpenVR_VRControllerState_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRControllerState_t, "OVR.OpenVR", "VRControllerState_t");

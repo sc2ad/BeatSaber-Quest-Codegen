@@ -23,7 +23,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: AppOverrideKeys_t
     constexpr AppOverrideKeys_t(System::IntPtr pchKey_ = {}, System::IntPtr pchValue_ = {}) noexcept : pchKey{pchKey_}, pchValue{pchValue_} {}
   }; // OVR.OpenVR.AppOverrideKeys_t
-  check_size<sizeof(AppOverrideKeys_t), 8 + sizeof(System::IntPtr) + 8 - (8 + sizeof(System::IntPtr)) % 8> __OVR_OpenVR_AppOverrideKeys_tSizeCheck;
+  check_size<sizeof(AppOverrideKeys_t), 8 + sizeof(System::IntPtr) + ((8 + sizeof(System::IntPtr)) % 8 != 0 ? (8 - (8 + sizeof(System::IntPtr)) % 8) : 0)> __OVR_OpenVR_AppOverrideKeys_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::AppOverrideKeys_t, "OVR.OpenVR", "AppOverrideKeys_t");

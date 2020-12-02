@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static GameServersFilter* New_ctor();
   }; // GameServersFilter
-  check_size<sizeof(GameServersFilter), 42 + sizeof(bool) + 8 - (42 + sizeof(bool)) % 8> __GlobalNamespace_GameServersFilterSizeCheck;
+  check_size<sizeof(GameServersFilter), 42 + sizeof(bool) + ((42 + sizeof(bool)) % 8 != 0 ? (8 - (42 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_GameServersFilterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServersFilter*, "", "GameServersFilter");

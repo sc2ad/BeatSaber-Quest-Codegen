@@ -54,7 +54,7 @@ namespace System {
     // Offset: 0xCB7BDC
     System::Exception* GetVersionParseException();
   }; // System.Version/VersionResult
-  check_size<sizeof(Version::VersionResult), 32 + sizeof(bool) + 8 - (32 + sizeof(bool)) % 8> __System_Version_VersionResultSizeCheck;
+  check_size<sizeof(Version::VersionResult), 32 + sizeof(bool) + ((32 + sizeof(bool)) % 8 != 0 ? (8 - (32 + sizeof(bool)) % 8) : 0)> __System_Version_VersionResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Version::VersionResult, "System", "Version/VersionResult");

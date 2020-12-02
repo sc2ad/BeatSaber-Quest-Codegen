@@ -73,7 +73,7 @@ namespace System::Collections::Specialized {
     // Maps to method: GetHashCode
     int System_Collections_IEqualityComparer_GetHashCode(::Il2CppObject* obj);
   }; // System.Collections.Specialized.CompatibleComparer
-  check_size<sizeof(CompatibleComparer), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Collections_Specialized_CompatibleComparerSizeCheck;
+  check_size<sizeof(CompatibleComparer), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Collections_Specialized_CompatibleComparerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::CompatibleComparer*, "System.Collections.Specialized", "CompatibleComparer");

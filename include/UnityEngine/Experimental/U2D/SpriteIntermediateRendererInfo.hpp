@@ -69,7 +69,7 @@ namespace UnityEngine::Experimental::U2D {
     // Creating value type constructor for type: SpriteIntermediateRendererInfo
     constexpr SpriteIntermediateRendererInfo(int SpriteID_ = {}, int TextureID_ = {}, int MaterialID_ = {}, UnityEngine::Color Color_ = {}, UnityEngine::Matrix4x4 Transform_ = {}, UnityEngine::Bounds Bounds_ = {}, int Layer_ = {}, int SortingLayer_ = {}, int SortingOrder_ = {}, uint64_t SceneCullingMask_ = {}, System::IntPtr IndexData_ = {}, System::IntPtr VertexData_ = {}, int IndexCount_ = {}, int VertexCount_ = {}, int ShaderChannelMask_ = {}) noexcept : SpriteID{SpriteID_}, TextureID{TextureID_}, MaterialID{MaterialID_}, Color{Color_}, Transform{Transform_}, Bounds{Bounds_}, Layer{Layer_}, SortingLayer{SortingLayer_}, SortingOrder{SortingOrder_}, SceneCullingMask{SceneCullingMask_}, IndexData{IndexData_}, VertexData{VertexData_}, IndexCount{IndexCount_}, VertexCount{VertexCount_}, ShaderChannelMask{ShaderChannelMask_} {}
   }; // UnityEngine.Experimental.U2D.SpriteIntermediateRendererInfo
-  check_size<sizeof(SpriteIntermediateRendererInfo), 160 + sizeof(int) + 8 - (160 + sizeof(int)) % 8> __UnityEngine_Experimental_U2D_SpriteIntermediateRendererInfoSizeCheck;
+  check_size<sizeof(SpriteIntermediateRendererInfo), 160 + sizeof(int) + ((160 + sizeof(int)) % 8 != 0 ? (8 - (160 + sizeof(int)) % 8) : 0)> __UnityEngine_Experimental_U2D_SpriteIntermediateRendererInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, "UnityEngine.Experimental.U2D", "SpriteIntermediateRendererInfo");

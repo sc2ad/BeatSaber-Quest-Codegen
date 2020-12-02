@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Offset: 0x1068E8C
     static OVRBoneCapsule* New_ctor(int16_t boneIndex, UnityEngine::Rigidbody* capsuleRigidBody, UnityEngine::CapsuleCollider* capsuleCollider);
   }; // OVRBoneCapsule
-  check_size<sizeof(OVRBoneCapsule), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_OVRBoneCapsuleSizeCheck;
+  check_size<sizeof(OVRBoneCapsule), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_OVRBoneCapsuleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoneCapsule*, "", "OVRBoneCapsule");

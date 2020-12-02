@@ -46,7 +46,7 @@ namespace UnityEngine::Experimental::Playables {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.Experimental.Playables.TextureMixerPlayable other)
     bool Equals(UnityEngine::Experimental::Playables::TextureMixerPlayable other);
   }; // UnityEngine.Experimental.Playables.TextureMixerPlayable
-  check_size<sizeof(TextureMixerPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle) + 8 - (0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8> __UnityEngine_Experimental_Playables_TextureMixerPlayableSizeCheck;
+  check_size<sizeof(TextureMixerPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle) + ((0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8 != 0 ? (8 - (0 + sizeof(UnityEngine::Playables::PlayableHandle)) % 8) : 0)> __UnityEngine_Experimental_Playables_TextureMixerPlayableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::TextureMixerPlayable, "UnityEngine.Experimental.Playables", "TextureMixerPlayable");

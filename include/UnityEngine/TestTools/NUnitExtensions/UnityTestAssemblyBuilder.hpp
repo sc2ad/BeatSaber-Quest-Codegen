@@ -68,7 +68,7 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // Base method: System.Void Object::.ctor()
     static UnityTestAssemblyBuilder* New_ctor();
   }; // UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder
-  check_size<sizeof(UnityTestAssemblyBuilder), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_TestTools_NUnitExtensions_UnityTestAssemblyBuilderSizeCheck;
+  check_size<sizeof(UnityTestAssemblyBuilder), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __UnityEngine_TestTools_NUnitExtensions_UnityTestAssemblyBuilderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*, "UnityEngine.TestTools.NUnitExtensions", "UnityTestAssemblyBuilder");

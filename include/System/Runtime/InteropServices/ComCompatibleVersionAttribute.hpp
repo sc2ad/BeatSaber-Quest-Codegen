@@ -29,7 +29,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x116443C
     static ComCompatibleVersionAttribute* New_ctor(int major, int minor, int build, int revision);
   }; // System.Runtime.InteropServices.ComCompatibleVersionAttribute
-  check_size<sizeof(ComCompatibleVersionAttribute), 28 + sizeof(int) + 8 - (28 + sizeof(int)) % 8> __System_Runtime_InteropServices_ComCompatibleVersionAttributeSizeCheck;
+  check_size<sizeof(ComCompatibleVersionAttribute), 28 + sizeof(int) + ((28 + sizeof(int)) % 8 != 0 ? (8 - (28 + sizeof(int)) % 8) : 0)> __System_Runtime_InteropServices_ComCompatibleVersionAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComCompatibleVersionAttribute*, "System.Runtime.InteropServices", "ComCompatibleVersionAttribute");

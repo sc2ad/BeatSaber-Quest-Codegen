@@ -41,7 +41,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.ETrackingUniverseOrigin TrackingUniverseRawAndUncalibrated
     static void _set_TrackingUniverseRawAndUncalibrated(OVR::OpenVR::ETrackingUniverseOrigin value);
   }; // OVR.OpenVR.ETrackingUniverseOrigin
-  check_size<sizeof(ETrackingUniverseOrigin), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_ETrackingUniverseOriginSizeCheck;
+  check_size<sizeof(ETrackingUniverseOrigin), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OVR_OpenVR_ETrackingUniverseOriginSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::ETrackingUniverseOrigin, "OVR.OpenVR", "ETrackingUniverseOrigin");

@@ -47,7 +47,7 @@ namespace LiteNetLib::Utils {
     // Set static field: static public LiteNetLib.Utils.NtpLeapIndicator AlarmCondition
     static void _set_AlarmCondition(LiteNetLib::Utils::NtpLeapIndicator value);
   }; // LiteNetLib.Utils.NtpLeapIndicator
-  check_size<sizeof(NtpLeapIndicator), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __LiteNetLib_Utils_NtpLeapIndicatorSizeCheck;
+  check_size<sizeof(NtpLeapIndicator), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __LiteNetLib_Utils_NtpLeapIndicatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NtpLeapIndicator, "LiteNetLib.Utils", "NtpLeapIndicator");

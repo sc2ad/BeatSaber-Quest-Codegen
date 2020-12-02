@@ -83,7 +83,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVRInputError InvalidDevice
     static void _set_InvalidDevice(Valve::VR::EVRInputError value);
   }; // Valve.VR.EVRInputError
-  check_size<sizeof(EVRInputError), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Valve_VR_EVRInputErrorSizeCheck;
+  check_size<sizeof(EVRInputError), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Valve_VR_EVRInputErrorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRInputError, "Valve.VR", "EVRInputError");

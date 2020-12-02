@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ServerPasswordEntryViewController* New_ctor();
   }; // ServerPasswordEntryViewController
-  check_size<sizeof(ServerPasswordEntryViewController), 136 + sizeof(void*) + 8 - (136 + sizeof(void*)) % 8> __GlobalNamespace_ServerPasswordEntryViewControllerSizeCheck;
+  check_size<sizeof(ServerPasswordEntryViewController), 136 + sizeof(void*) + ((136 + sizeof(void*)) % 8 != 0 ? (8 - (136 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_ServerPasswordEntryViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerPasswordEntryViewController*, "", "ServerPasswordEntryViewController");

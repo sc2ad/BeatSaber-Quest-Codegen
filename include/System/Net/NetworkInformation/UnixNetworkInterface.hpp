@@ -68,7 +68,7 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Net.NetworkInformation.NetworkInterfaceType NetworkInterface::get_NetworkInterfaceType()
     System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
   }; // System.Net.NetworkInformation.UnixNetworkInterface
-  check_size<sizeof(UnixNetworkInterface), 48 + sizeof(System::Net::NetworkInformation::NetworkInterfaceType) + 8 - (48 + sizeof(System::Net::NetworkInformation::NetworkInterfaceType)) % 8> __System_Net_NetworkInformation_UnixNetworkInterfaceSizeCheck;
+  check_size<sizeof(UnixNetworkInterface), 48 + sizeof(System::Net::NetworkInformation::NetworkInterfaceType) + ((48 + sizeof(System::Net::NetworkInformation::NetworkInterfaceType)) % 8 != 0 ? (8 - (48 + sizeof(System::Net::NetworkInformation::NetworkInterfaceType)) % 8) : 0)> __System_Net_NetworkInformation_UnixNetworkInterfaceSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnixNetworkInterface*, "System.Net.NetworkInformation", "UnixNetworkInterface");

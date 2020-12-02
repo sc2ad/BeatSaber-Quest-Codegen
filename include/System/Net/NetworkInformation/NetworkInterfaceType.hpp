@@ -191,7 +191,7 @@ namespace System::Net::NetworkInformation {
     // Set static field: static public System.Net.NetworkInformation.NetworkInterfaceType Wwanpp2
     static void _set_Wwanpp2(System::Net::NetworkInformation::NetworkInterfaceType value);
   }; // System.Net.NetworkInformation.NetworkInterfaceType
-  check_size<sizeof(NetworkInterfaceType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Net_NetworkInformation_NetworkInterfaceTypeSizeCheck;
+  check_size<sizeof(NetworkInterfaceType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Net_NetworkInformation_NetworkInterfaceTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterfaceType, "System.Net.NetworkInformation", "NetworkInterfaceType");

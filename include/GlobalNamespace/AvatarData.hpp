@@ -169,7 +169,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AvatarData* New_ctor();
   }; // AvatarData
-  check_size<sizeof(AvatarData), 200 + sizeof(void*) + 8 - (200 + sizeof(void*)) % 8> __GlobalNamespace_AvatarDataSizeCheck;
+  check_size<sizeof(AvatarData), 200 + sizeof(void*) + ((200 + sizeof(void*)) % 8 != 0 ? (8 - (200 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_AvatarDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarData*, "", "AvatarData");

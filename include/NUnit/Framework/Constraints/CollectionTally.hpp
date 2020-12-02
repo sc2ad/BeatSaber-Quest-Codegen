@@ -51,7 +51,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x13DBE58
     bool TryRemove(System::Collections::IEnumerable* c);
   }; // NUnit.Framework.Constraints.CollectionTally
-  check_size<sizeof(CollectionTally), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __NUnit_Framework_Constraints_CollectionTallySizeCheck;
+  check_size<sizeof(CollectionTally), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __NUnit_Framework_Constraints_CollectionTallySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::CollectionTally*, "NUnit.Framework.Constraints", "CollectionTally");

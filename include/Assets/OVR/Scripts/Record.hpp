@@ -21,7 +21,7 @@ namespace Assets::OVR::Scripts {
     // Offset: 0x11E89A4
     static Record* New_ctor(::Il2CppString* cat, ::Il2CppString* msg);
   }; // Assets.OVR.Scripts.Record
-  check_size<sizeof(Record), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Assets_OVR_Scripts_RecordSizeCheck;
+  check_size<sizeof(Record), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Assets_OVR_Scripts_RecordSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::Record*, "Assets.OVR.Scripts", "Record");

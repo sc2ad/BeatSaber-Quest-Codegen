@@ -80,7 +80,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     static WebConnectionData* New_ctor();
   }; // System.Net.WebConnectionData
-  check_size<sizeof(WebConnectionData), 80 + sizeof(System::Net::ReadState) + 8 - (80 + sizeof(System::Net::ReadState)) % 8> __System_Net_WebConnectionDataSizeCheck;
+  check_size<sizeof(WebConnectionData), 80 + sizeof(System::Net::ReadState) + ((80 + sizeof(System::Net::ReadState)) % 8 != 0 ? (8 - (80 + sizeof(System::Net::ReadState)) % 8) : 0)> __System_Net_WebConnectionDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionData*, "System.Net", "WebConnectionData");

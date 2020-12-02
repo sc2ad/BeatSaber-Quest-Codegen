@@ -40,7 +40,7 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     // Offset: 0x18BF700
     ::Array<uint8_t>* get_Content();
   }; // Org.BouncyCastle.Utilities.IO.Pem.PemObject
-  check_size<sizeof(PemObject), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Org_BouncyCastle_Utilities_IO_Pem_PemObjectSizeCheck;
+  check_size<sizeof(PemObject), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Utilities_IO_Pem_PemObjectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemObject*, "Org.BouncyCastle.Utilities.IO.Pem", "PemObject");

@@ -23,7 +23,7 @@ namespace System {
       return value;
     }
   }; // System.SByteEnum
-  check_size<sizeof(SByteEnum), 0 + sizeof(int8_t) + 8 - (0 + sizeof(int8_t)) % 8> __System_SByteEnumSizeCheck;
+  check_size<sizeof(SByteEnum), 0 + sizeof(int8_t) + ((0 + sizeof(int8_t)) % 8 != 0 ? (8 - (0 + sizeof(int8_t)) % 8) : 0)> __System_SByteEnumSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::SByteEnum, "System", "SByteEnum");

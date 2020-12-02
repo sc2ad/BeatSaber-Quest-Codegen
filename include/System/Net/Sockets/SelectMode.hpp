@@ -41,7 +41,7 @@ namespace System::Net::Sockets {
     // Set static field: static public System.Net.Sockets.SelectMode SelectError
     static void _set_SelectError(System::Net::Sockets::SelectMode value);
   }; // System.Net.Sockets.SelectMode
-  check_size<sizeof(SelectMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Net_Sockets_SelectModeSizeCheck;
+  check_size<sizeof(SelectMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Net_Sockets_SelectModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SelectMode, "System.Net.Sockets", "SelectMode");

@@ -59,7 +59,7 @@ namespace System::Net::NetworkInformation {
     // Set static field: static public System.Net.NetworkInformation.SuffixOrigin Random
     static void _set_Random(System::Net::NetworkInformation::SuffixOrigin value);
   }; // System.Net.NetworkInformation.SuffixOrigin
-  check_size<sizeof(SuffixOrigin), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Net_NetworkInformation_SuffixOriginSizeCheck;
+  check_size<sizeof(SuffixOrigin), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Net_NetworkInformation_SuffixOriginSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::SuffixOrigin, "System.Net.NetworkInformation", "SuffixOrigin");

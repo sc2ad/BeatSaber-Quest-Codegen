@@ -80,7 +80,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Diagnostics.Tracing.ActivityTracker/ActivityInfo
-  check_size<sizeof(ActivityTracker::ActivityInfo), 88 + sizeof(System::Guid) + 8 - (88 + sizeof(System::Guid)) % 8> __System_Diagnostics_Tracing_ActivityTracker_ActivityInfoSizeCheck;
+  check_size<sizeof(ActivityTracker::ActivityInfo), 88 + sizeof(System::Guid) + ((88 + sizeof(System::Guid)) % 8 != 0 ? (8 - (88 + sizeof(System::Guid)) % 8) : 0)> __System_Diagnostics_Tracing_ActivityTracker_ActivityInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ActivityTracker::ActivityInfo*, "System.Diagnostics.Tracing", "ActivityTracker/ActivityInfo");

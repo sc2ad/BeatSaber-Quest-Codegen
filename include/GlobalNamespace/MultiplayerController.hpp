@@ -138,7 +138,7 @@ namespace GlobalNamespace {
       // Set static field: static public MultiplayerController/State Finished
       static void _set_Finished(GlobalNamespace::MultiplayerController::State value);
     }; // MultiplayerController/State
-    check_size<sizeof(MultiplayerController::State), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_MultiplayerController_StateSizeCheck;
+    check_size<sizeof(MultiplayerController::State), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_MultiplayerController_StateSizeCheck;
     // private UnityEngine.GameObject _loadingEnvironment
     // Offset: 0x18
     UnityEngine::GameObject* loadingEnvironment;
@@ -292,7 +292,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerController* New_ctor();
   }; // MultiplayerController
-  check_size<sizeof(MultiplayerController), 168 + sizeof(void*) + 8 - (168 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerControllerSizeCheck;
+  check_size<sizeof(MultiplayerController), 168 + sizeof(void*) + ((168 + sizeof(void*)) % 8 != 0 ? (8 - (168 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MultiplayerControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerController*, "", "MultiplayerController");

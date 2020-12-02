@@ -199,7 +199,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NoteJump* New_ctor();
   }; // NoteJump
-  check_size<sizeof(NoteJump), 268 + sizeof(UnityEngine::Quaternion) + 8 - (268 + sizeof(UnityEngine::Quaternion)) % 8> __GlobalNamespace_NoteJumpSizeCheck;
+  check_size<sizeof(NoteJump), 268 + sizeof(UnityEngine::Quaternion) + ((268 + sizeof(UnityEngine::Quaternion)) % 8 != 0 ? (8 - (268 + sizeof(UnityEngine::Quaternion)) % 8) : 0)> __GlobalNamespace_NoteJumpSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteJump*, "", "NoteJump");

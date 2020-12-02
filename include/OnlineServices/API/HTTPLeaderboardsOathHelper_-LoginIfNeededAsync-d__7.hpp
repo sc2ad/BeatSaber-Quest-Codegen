@@ -62,7 +62,7 @@ namespace OnlineServices::API {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.HTTPLeaderboardsOathHelper/<LoginIfNeededAsync>d__7
-  check_size<sizeof(HTTPLeaderboardsOathHelper::$LoginIfNeededAsync$d__7), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<BeatSaberAPI::DataTransferObjects::AccessToken*>) + 8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<BeatSaberAPI::DataTransferObjects::AccessToken*>)) % 8> __OnlineServices_API_HTTPLeaderboardsOathHelper_$LoginIfNeededAsync$d__7SizeCheck;
+  check_size<sizeof(HTTPLeaderboardsOathHelper::$LoginIfNeededAsync$d__7), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<BeatSaberAPI::DataTransferObjects::AccessToken*>) + ((48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<BeatSaberAPI::DataTransferObjects::AccessToken*>)) % 8 != 0 ? (8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<BeatSaberAPI::DataTransferObjects::AccessToken*>)) % 8) : 0)> __OnlineServices_API_HTTPLeaderboardsOathHelper_$LoginIfNeededAsync$d__7SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper::$LoginIfNeededAsync$d__7, "OnlineServices.API", "HTTPLeaderboardsOathHelper/<LoginIfNeededAsync>d__7");

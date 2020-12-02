@@ -28,7 +28,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VREvent_InputBindingLoad_t
     constexpr VREvent_InputBindingLoad_t(uint64_t ulAppContainer_ = {}, uint64_t pathMessage_ = {}, uint64_t pathUrl_ = {}, uint64_t pathControllerType_ = {}) noexcept : ulAppContainer{ulAppContainer_}, pathMessage{pathMessage_}, pathUrl{pathUrl_}, pathControllerType{pathControllerType_} {}
   }; // OVR.OpenVR.VREvent_InputBindingLoad_t
-  check_size<sizeof(VREvent_InputBindingLoad_t), 24 + sizeof(uint64_t) + 8 - (24 + sizeof(uint64_t)) % 8> __OVR_OpenVR_VREvent_InputBindingLoad_tSizeCheck;
+  check_size<sizeof(VREvent_InputBindingLoad_t), 24 + sizeof(uint64_t) + ((24 + sizeof(uint64_t)) % 8 != 0 ? (8 - (24 + sizeof(uint64_t)) % 8) : 0)> __OVR_OpenVR_VREvent_InputBindingLoad_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_InputBindingLoad_t, "OVR.OpenVR", "VREvent_InputBindingLoad_t");

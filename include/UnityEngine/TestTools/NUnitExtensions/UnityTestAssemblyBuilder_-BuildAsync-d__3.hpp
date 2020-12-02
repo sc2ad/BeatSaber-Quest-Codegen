@@ -103,7 +103,7 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder/<BuildAsync>d__3
-  check_size<sizeof(UnityTestAssemblyBuilder::$BuildAsync$d__3), 72 + sizeof(int) + 8 - (72 + sizeof(int)) % 8> __UnityEngine_TestTools_NUnitExtensions_UnityTestAssemblyBuilder_$BuildAsync$d__3SizeCheck;
+  check_size<sizeof(UnityTestAssemblyBuilder::$BuildAsync$d__3), 72 + sizeof(int) + ((72 + sizeof(int)) % 8 != 0 ? (8 - (72 + sizeof(int)) % 8) : 0)> __UnityEngine_TestTools_NUnitExtensions_UnityTestAssemblyBuilder_$BuildAsync$d__3SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::$BuildAsync$d__3*, "UnityEngine.TestTools.NUnitExtensions", "UnityTestAssemblyBuilder/<BuildAsync>d__3");

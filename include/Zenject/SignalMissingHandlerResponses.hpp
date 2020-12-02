@@ -41,7 +41,7 @@ namespace Zenject {
     // Set static field: static public Zenject.SignalMissingHandlerResponses Warn
     static void _set_Warn(Zenject::SignalMissingHandlerResponses value);
   }; // Zenject.SignalMissingHandlerResponses
-  check_size<sizeof(SignalMissingHandlerResponses), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Zenject_SignalMissingHandlerResponsesSizeCheck;
+  check_size<sizeof(SignalMissingHandlerResponses), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Zenject_SignalMissingHandlerResponsesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SignalMissingHandlerResponses, "Zenject", "SignalMissingHandlerResponses");

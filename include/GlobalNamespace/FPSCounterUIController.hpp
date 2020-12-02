@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static FPSCounterUIController* New_ctor();
   }; // FPSCounterUIController
-  check_size<sizeof(FPSCounterUIController), 72 + sizeof(float) + 8 - (72 + sizeof(float)) % 8> __GlobalNamespace_FPSCounterUIControllerSizeCheck;
+  check_size<sizeof(FPSCounterUIController), 72 + sizeof(float) + ((72 + sizeof(float)) % 8 != 0 ? (8 - (72 + sizeof(float)) % 8) : 0)> __GlobalNamespace_FPSCounterUIControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FPSCounterUIController*, "", "FPSCounterUIController");

@@ -192,7 +192,7 @@ namespace System::Resources {
     // Base method: System.Collections.IDictionaryEnumerator IResourceReader::GetEnumerator()
     System::Collections::IDictionaryEnumerator* GetEnumerator();
   }; // System.Resources.ResourceReader
-  check_size<sizeof(ResourceReader), 120 + sizeof(int) + 8 - (120 + sizeof(int)) % 8> __System_Resources_ResourceReaderSizeCheck;
+  check_size<sizeof(ResourceReader), 120 + sizeof(int) + ((120 + sizeof(int)) % 8 != 0 ? (8 - (120 + sizeof(int)) % 8) : 0)> __System_Resources_ResourceReaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceReader*, "System.Resources", "ResourceReader");

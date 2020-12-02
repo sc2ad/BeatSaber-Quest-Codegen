@@ -64,7 +64,7 @@ namespace System::IO {
     // Base method: System.String StreamReader::ReadToEnd()
     ::Il2CppString* ReadToEnd();
   }; // System.IO.CStreamReader
-  check_size<sizeof(CStreamReader), 104 + sizeof(void*) + 8 - (104 + sizeof(void*)) % 8> __System_IO_CStreamReaderSizeCheck;
+  check_size<sizeof(CStreamReader), 104 + sizeof(void*) + ((104 + sizeof(void*)) % 8 != 0 ? (8 - (104 + sizeof(void*)) % 8) : 0)> __System_IO_CStreamReaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::CStreamReader*, "System.IO", "CStreamReader");

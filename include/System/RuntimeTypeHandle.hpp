@@ -175,7 +175,7 @@ namespace System {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // System.RuntimeTypeHandle
-  check_size<sizeof(RuntimeTypeHandle), 0 + sizeof(System::IntPtr) + 8 - (0 + sizeof(System::IntPtr)) % 8> __System_RuntimeTypeHandleSizeCheck;
+  check_size<sizeof(RuntimeTypeHandle), 0 + sizeof(System::IntPtr) + ((0 + sizeof(System::IntPtr)) % 8 != 0 ? (8 - (0 + sizeof(System::IntPtr)) % 8) : 0)> __System_RuntimeTypeHandleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::RuntimeTypeHandle, "System", "RuntimeTypeHandle");

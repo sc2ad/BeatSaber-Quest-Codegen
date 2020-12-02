@@ -35,7 +35,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE98C
     void set_FieldName(::Il2CppString* value);
   }; // JetBrains.Annotations.RazorInjectionAttribute
-  check_size<sizeof(RazorInjectionAttribute), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __JetBrains_Annotations_RazorInjectionAttributeSizeCheck;
+  check_size<sizeof(RazorInjectionAttribute), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __JetBrains_Annotations_RazorInjectionAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorInjectionAttribute*, "JetBrains.Annotations", "RazorInjectionAttribute");

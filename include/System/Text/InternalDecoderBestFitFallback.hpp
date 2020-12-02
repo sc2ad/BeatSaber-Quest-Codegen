@@ -57,7 +57,7 @@ namespace System::Text {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Text.InternalDecoderBestFitFallback
-  check_size<sizeof(InternalDecoderBestFitFallback), 40 + sizeof(::Il2CppChar) + 8 - (40 + sizeof(::Il2CppChar)) % 8> __System_Text_InternalDecoderBestFitFallbackSizeCheck;
+  check_size<sizeof(InternalDecoderBestFitFallback), 40 + sizeof(::Il2CppChar) + ((40 + sizeof(::Il2CppChar)) % 8 != 0 ? (8 - (40 + sizeof(::Il2CppChar)) % 8) : 0)> __System_Text_InternalDecoderBestFitFallbackSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::InternalDecoderBestFitFallback*, "System.Text", "InternalDecoderBestFitFallback");

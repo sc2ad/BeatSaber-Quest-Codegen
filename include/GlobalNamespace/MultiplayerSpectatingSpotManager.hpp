@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerSpectatingSpotManager* New_ctor();
   }; // MultiplayerSpectatingSpotManager
-  check_size<sizeof(MultiplayerSpectatingSpotManager), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerSpectatingSpotManagerSizeCheck;
+  check_size<sizeof(MultiplayerSpectatingSpotManager), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MultiplayerSpectatingSpotManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatingSpotManager*, "", "MultiplayerSpectatingSpotManager");

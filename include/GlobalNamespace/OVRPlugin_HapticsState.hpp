@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HapticsState
     constexpr HapticsState(int SamplesAvailable_ = {}, int SamplesQueued_ = {}) noexcept : SamplesAvailable{SamplesAvailable_}, SamplesQueued{SamplesQueued_} {}
   }; // OVRPlugin/HapticsState
-  check_size<sizeof(OVRPlugin::HapticsState), 4 + sizeof(int) + 8 - (4 + sizeof(int)) % 8> __GlobalNamespace_OVRPlugin_HapticsStateSizeCheck;
+  check_size<sizeof(OVRPlugin::HapticsState), 4 + sizeof(int) + ((4 + sizeof(int)) % 8 != 0 ? (8 - (4 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OVRPlugin_HapticsStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HapticsState, "", "OVRPlugin/HapticsState");

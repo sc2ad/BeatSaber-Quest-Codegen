@@ -31,7 +31,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Base method: System.Void Object::.ctor()
     static PlayerEditorConnectionEvents::$$c__DisplayClass6_0* New_ctor();
   }; // UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/<>c__DisplayClass6_0
-  check_size<sizeof(PlayerEditorConnectionEvents::$$c__DisplayClass6_0), 16 + sizeof(System::Guid) + 8 - (16 + sizeof(System::Guid)) % 8> __UnityEngine_Networking_PlayerConnection_PlayerEditorConnectionEvents_$$c__DisplayClass6_0SizeCheck;
+  check_size<sizeof(PlayerEditorConnectionEvents::$$c__DisplayClass6_0), 16 + sizeof(System::Guid) + ((16 + sizeof(System::Guid)) % 8 != 0 ? (8 - (16 + sizeof(System::Guid)) % 8) : 0)> __UnityEngine_Networking_PlayerConnection_PlayerEditorConnectionEvents_$$c__DisplayClass6_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::$$c__DisplayClass6_0*, "UnityEngine.Networking.PlayerConnection", "PlayerEditorConnectionEvents/<>c__DisplayClass6_0");

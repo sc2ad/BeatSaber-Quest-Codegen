@@ -169,7 +169,7 @@ namespace System::Security::Claims {
     // Base method: System.String IIdentity::get_Name()
     ::Il2CppString* get_Name();
   }; // System.Security.Claims.ClaimsIdentity
-  check_size<sizeof(ClaimsIdentity), 112 + sizeof(void*) + 8 - (112 + sizeof(void*)) % 8> __System_Security_Claims_ClaimsIdentitySizeCheck;
+  check_size<sizeof(ClaimsIdentity), 112 + sizeof(void*) + ((112 + sizeof(void*)) % 8 != 0 ? (8 - (112 + sizeof(void*)) % 8) : 0)> __System_Security_Claims_ClaimsIdentitySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::ClaimsIdentity*, "System.Security.Claims", "ClaimsIdentity");

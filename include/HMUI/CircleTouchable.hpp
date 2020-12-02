@@ -65,7 +65,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static CircleTouchable* New_ctor();
   }; // HMUI.CircleTouchable
-  check_size<sizeof(CircleTouchable), 152 + sizeof(void*) + 8 - (152 + sizeof(void*)) % 8> __HMUI_CircleTouchableSizeCheck;
+  check_size<sizeof(CircleTouchable), 152 + sizeof(void*) + ((152 + sizeof(void*)) % 8 != 0 ? (8 - (152 + sizeof(void*)) % 8) : 0)> __HMUI_CircleTouchableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CircleTouchable*, "HMUI", "CircleTouchable");

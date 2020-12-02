@@ -62,7 +62,7 @@ namespace UnityEngine::Events {
     // Base method: System.Void Object::.ctor()
     static InvokableCallList* New_ctor();
   }; // UnityEngine.Events.InvokableCallList
-  check_size<sizeof(InvokableCallList), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __UnityEngine_Events_InvokableCallListSizeCheck;
+  check_size<sizeof(InvokableCallList), 40 + sizeof(bool) + ((40 + sizeof(bool)) % 8 != 0 ? (8 - (40 + sizeof(bool)) % 8) : 0)> __UnityEngine_Events_InvokableCallListSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::InvokableCallList*, "UnityEngine.Events", "InvokableCallList");

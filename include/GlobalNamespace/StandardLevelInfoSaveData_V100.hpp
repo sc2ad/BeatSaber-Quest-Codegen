@@ -139,7 +139,7 @@ namespace GlobalNamespace {
     // Offset: 0xF44798
     static GlobalNamespace::StandardLevelInfoSaveData* DeserializeFromJSONString(::Il2CppString* stringData);
   }; // StandardLevelInfoSaveData_V100
-  check_size<sizeof(StandardLevelInfoSaveData_V100), 104 + sizeof(void*) + 8 - (104 + sizeof(void*)) % 8> __GlobalNamespace_StandardLevelInfoSaveData_V100SizeCheck;
+  check_size<sizeof(StandardLevelInfoSaveData_V100), 104 + sizeof(void*) + ((104 + sizeof(void*)) % 8 != 0 ? (8 - (104 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_StandardLevelInfoSaveData_V100SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData_V100*, "", "StandardLevelInfoSaveData_V100");

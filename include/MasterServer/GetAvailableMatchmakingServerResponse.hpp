@@ -71,7 +71,7 @@ namespace MasterServer {
       // Set static field: static public MasterServer.GetAvailableMatchmakingServerResponse/Result UnknownError
       static void _set_UnknownError(MasterServer::GetAvailableMatchmakingServerResponse::Result value);
     }; // MasterServer.GetAvailableMatchmakingServerResponse/Result
-    check_size<sizeof(GetAvailableMatchmakingServerResponse::Result), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __MasterServer_GetAvailableMatchmakingServerResponse_ResultSizeCheck;
+    check_size<sizeof(GetAvailableMatchmakingServerResponse::Result), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __MasterServer_GetAvailableMatchmakingServerResponse_ResultSizeCheck;
     // public MasterServer.GetAvailableMatchmakingServerResponse/Result result
     // Offset: 0x18
     MasterServer::GetAvailableMatchmakingServerResponse::Result result;
@@ -163,7 +163,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static GetAvailableMatchmakingServerResponse* New_ctor();
   }; // MasterServer.GetAvailableMatchmakingServerResponse
-  check_size<sizeof(GetAvailableMatchmakingServerResponse), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __MasterServer_GetAvailableMatchmakingServerResponseSizeCheck;
+  check_size<sizeof(GetAvailableMatchmakingServerResponse), 72 + sizeof(void*) + ((72 + sizeof(void*)) % 8 != 0 ? (8 - (72 + sizeof(void*)) % 8) : 0)> __MasterServer_GetAvailableMatchmakingServerResponseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetAvailableMatchmakingServerResponse*, "MasterServer", "GetAvailableMatchmakingServerResponse");

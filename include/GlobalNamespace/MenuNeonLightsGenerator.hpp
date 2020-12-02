@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MenuNeonLightsGenerator* New_ctor();
   }; // MenuNeonLightsGenerator
-  check_size<sizeof(MenuNeonLightsGenerator), 96 + sizeof(UnityEngine::Vector3) + 8 - (96 + sizeof(UnityEngine::Vector3)) % 8> __GlobalNamespace_MenuNeonLightsGeneratorSizeCheck;
+  check_size<sizeof(MenuNeonLightsGenerator), 96 + sizeof(UnityEngine::Vector3) + ((96 + sizeof(UnityEngine::Vector3)) % 8 != 0 ? (8 - (96 + sizeof(UnityEngine::Vector3)) % 8) : 0)> __GlobalNamespace_MenuNeonLightsGeneratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuNeonLightsGenerator*, "", "MenuNeonLightsGenerator");

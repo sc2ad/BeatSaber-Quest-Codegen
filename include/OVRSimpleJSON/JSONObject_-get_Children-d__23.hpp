@@ -98,7 +98,7 @@ namespace OVRSimpleJSON {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // OVRSimpleJSON.JSONObject/<get_Children>d__23
-  check_size<sizeof(JSONObject::$get_Children$d__23), 48 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator) + 8 - (48 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator)) % 8> __OVRSimpleJSON_JSONObject_$get_Children$d__23SizeCheck;
+  check_size<sizeof(JSONObject::$get_Children$d__23), 48 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator) + ((48 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator)) % 8 != 0 ? (8 - (48 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator)) % 8) : 0)> __OVRSimpleJSON_JSONObject_$get_Children$d__23SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONObject::$get_Children$d__23*, "OVRSimpleJSON", "JSONObject/<get_Children>d__23");

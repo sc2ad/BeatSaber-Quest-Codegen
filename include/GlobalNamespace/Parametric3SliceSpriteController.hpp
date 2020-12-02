@@ -148,7 +148,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // Parametric3SliceSpriteController
-  check_size<sizeof(Parametric3SliceSpriteController), 88 + sizeof(bool) + 8 - (88 + sizeof(bool)) % 8> __GlobalNamespace_Parametric3SliceSpriteControllerSizeCheck;
+  check_size<sizeof(Parametric3SliceSpriteController), 88 + sizeof(bool) + ((88 + sizeof(bool)) % 8 != 0 ? (8 - (88 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_Parametric3SliceSpriteControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Parametric3SliceSpriteController*, "", "Parametric3SliceSpriteController");

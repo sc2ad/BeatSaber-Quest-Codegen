@@ -52,7 +52,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void SymmetricTransform::ECB(System.Byte[] input, System.Byte[] output)
     void ECB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
   }; // System.Security.Cryptography.TripleDESTransform
-  check_size<sizeof(TripleDESTransform), 128 + sizeof(void*) + 8 - (128 + sizeof(void*)) % 8> __System_Security_Cryptography_TripleDESTransformSizeCheck;
+  check_size<sizeof(TripleDESTransform), 128 + sizeof(void*) + ((128 + sizeof(void*)) % 8 != 0 ? (8 - (128 + sizeof(void*)) % 8) : 0)> __System_Security_Cryptography_TripleDESTransformSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::TripleDESTransform*, "System.Security.Cryptography", "TripleDESTransform");

@@ -31,7 +31,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x11792B0
     static CADObjRef* New_ctor(System::Runtime::Remoting::ObjRef* o, int sourceDomain);
   }; // System.Runtime.Remoting.Messaging.CADObjRef
-  check_size<sizeof(CADObjRef), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Runtime_Remoting_Messaging_CADObjRefSizeCheck;
+  check_size<sizeof(CADObjRef), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_Runtime_Remoting_Messaging_CADObjRefSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADObjRef*, "System.Runtime.Remoting.Messaging", "CADObjRef");

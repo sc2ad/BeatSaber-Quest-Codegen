@@ -42,7 +42,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static StackedController::$$c__DisplayClass5_0* New_ctor();
   }; // HMUI.StackedController/<>c__DisplayClass5_0
-  check_size<sizeof(StackedController::$$c__DisplayClass5_0), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __HMUI_StackedController_$$c__DisplayClass5_0SizeCheck;
+  check_size<sizeof(StackedController::$$c__DisplayClass5_0), 16 + sizeof(int) + ((16 + sizeof(int)) % 8 != 0 ? (8 - (16 + sizeof(int)) % 8) : 0)> __HMUI_StackedController_$$c__DisplayClass5_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::StackedController::$$c__DisplayClass5_0*, "HMUI", "StackedController/<>c__DisplayClass5_0");

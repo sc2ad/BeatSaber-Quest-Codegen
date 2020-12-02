@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRInput::HapticInfo* New_ctor();
   }; // OVRInput/HapticInfo
-  check_size<sizeof(OVRInput::HapticInfo), 32 + sizeof(UnityEngine::XR::XRNode) + 8 - (32 + sizeof(UnityEngine::XR::XRNode)) % 8> __GlobalNamespace_OVRInput_HapticInfoSizeCheck;
+  check_size<sizeof(OVRInput::HapticInfo), 32 + sizeof(UnityEngine::XR::XRNode) + ((32 + sizeof(UnityEngine::XR::XRNode)) % 8 != 0 ? (8 - (32 + sizeof(UnityEngine::XR::XRNode)) % 8) : 0)> __GlobalNamespace_OVRInput_HapticInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::HapticInfo*, "", "OVRInput/HapticInfo");

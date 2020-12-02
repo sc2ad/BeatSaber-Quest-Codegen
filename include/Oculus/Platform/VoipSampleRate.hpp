@@ -47,7 +47,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.VoipSampleRate HZ48000
     static void _set_HZ48000(Oculus::Platform::VoipSampleRate value);
   }; // Oculus.Platform.VoipSampleRate
-  check_size<sizeof(VoipSampleRate), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Oculus_Platform_VoipSampleRateSizeCheck;
+  check_size<sizeof(VoipSampleRate), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Oculus_Platform_VoipSampleRateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipSampleRate, "Oculus.Platform", "VoipSampleRate");

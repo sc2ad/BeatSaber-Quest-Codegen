@@ -70,7 +70,7 @@ namespace OnlineServices::API {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper/<SendAndWaitAsync>d__11
-  check_size<sizeof(HTTPAdminLeaderboardsHelper::$SendAndWaitAsync$d__11), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter) + 8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter)) % 8> __OnlineServices_API_HTTPAdminLeaderboardsHelper_$SendAndWaitAsync$d__11SizeCheck;
+  check_size<sizeof(HTTPAdminLeaderboardsHelper::$SendAndWaitAsync$d__11), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter) + ((56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter)) % 8 != 0 ? (8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter)) % 8) : 0)> __OnlineServices_API_HTTPAdminLeaderboardsHelper_$SendAndWaitAsync$d__11SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper::$SendAndWaitAsync$d__11, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/<SendAndWaitAsync>d__11");

@@ -59,7 +59,7 @@ namespace System::Xml::Xsl::Runtime {
     // Offset: 0xCB7A04
     void ConcatNoDelimiter(::Il2CppString* s);
   }; // System.Xml.Xsl.Runtime.StringConcat
-  check_size<sizeof(StringConcat), 48 + sizeof(int) + 8 - (48 + sizeof(int)) % 8> __System_Xml_Xsl_Runtime_StringConcatSizeCheck;
+  check_size<sizeof(StringConcat), 48 + sizeof(int) + ((48 + sizeof(int)) % 8 != 0 ? (8 - (48 + sizeof(int)) % 8) : 0)> __System_Xml_Xsl_Runtime_StringConcatSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::Xsl::Runtime::StringConcat, "System.Xml.Xsl.Runtime", "StringConcat");

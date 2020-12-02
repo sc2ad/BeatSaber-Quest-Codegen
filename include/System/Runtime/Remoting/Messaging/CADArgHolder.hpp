@@ -22,7 +22,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x1177D10
     static CADArgHolder* New_ctor(int i);
   }; // System.Runtime.Remoting.Messaging.CADArgHolder
-  check_size<sizeof(CADArgHolder), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __System_Runtime_Remoting_Messaging_CADArgHolderSizeCheck;
+  check_size<sizeof(CADArgHolder), 16 + sizeof(int) + ((16 + sizeof(int)) % 8 != 0 ? (8 - (16 + sizeof(int)) % 8) : 0)> __System_Runtime_Remoting_Messaging_CADArgHolderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADArgHolder*, "System.Runtime.Remoting.Messaging", "CADArgHolder");

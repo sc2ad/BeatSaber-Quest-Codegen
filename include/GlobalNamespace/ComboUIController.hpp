@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ComboUIController* New_ctor();
   }; // ComboUIController
-  check_size<sizeof(ComboUIController), 52 + sizeof(bool) + 8 - (52 + sizeof(bool)) % 8> __GlobalNamespace_ComboUIControllerSizeCheck;
+  check_size<sizeof(ComboUIController), 52 + sizeof(bool) + ((52 + sizeof(bool)) % 8 != 0 ? (8 - (52 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_ComboUIControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ComboUIController*, "", "ComboUIController");

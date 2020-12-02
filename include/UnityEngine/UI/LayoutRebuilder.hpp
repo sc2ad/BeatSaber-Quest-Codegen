@@ -142,7 +142,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     static LayoutRebuilder* New_ctor();
   }; // UnityEngine.UI.LayoutRebuilder
-  check_size<sizeof(LayoutRebuilder), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __UnityEngine_UI_LayoutRebuilderSizeCheck;
+  check_size<sizeof(LayoutRebuilder), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __UnityEngine_UI_LayoutRebuilderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutRebuilder*, "UnityEngine.UI", "LayoutRebuilder");

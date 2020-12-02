@@ -65,7 +65,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static KerningTable* New_ctor();
   }; // TMPro.KerningTable
-  check_size<sizeof(KerningTable), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __TMPro_KerningTableSizeCheck;
+  check_size<sizeof(KerningTable), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __TMPro_KerningTableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningTable*, "TMPro", "KerningTable");

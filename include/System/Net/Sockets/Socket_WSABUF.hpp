@@ -26,7 +26,7 @@ namespace System::Net::Sockets {
     // Creating value type constructor for type: WSABUF
     constexpr WSABUF(int len_ = {}, System::IntPtr buf_ = {}) noexcept : len{len_}, buf{buf_} {}
   }; // System.Net.Sockets.Socket/WSABUF
-  check_size<sizeof(Socket::WSABUF), 8 + sizeof(System::IntPtr) + 8 - (8 + sizeof(System::IntPtr)) % 8> __System_Net_Sockets_Socket_WSABUFSizeCheck;
+  check_size<sizeof(Socket::WSABUF), 8 + sizeof(System::IntPtr) + ((8 + sizeof(System::IntPtr)) % 8 != 0 ? (8 - (8 + sizeof(System::IntPtr)) % 8) : 0)> __System_Net_Sockets_Socket_WSABUFSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket::WSABUF, "System.Net.Sockets", "Socket/WSABUF");

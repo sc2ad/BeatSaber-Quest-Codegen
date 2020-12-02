@@ -35,7 +35,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.MediaContentType Photo
     static void _set_Photo(Oculus::Platform::MediaContentType value);
   }; // Oculus.Platform.MediaContentType
-  check_size<sizeof(MediaContentType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Oculus_Platform_MediaContentTypeSizeCheck;
+  check_size<sizeof(MediaContentType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Oculus_Platform_MediaContentTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MediaContentType, "Oculus.Platform", "MediaContentType");

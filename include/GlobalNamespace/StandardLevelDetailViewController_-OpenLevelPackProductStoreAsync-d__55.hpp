@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // StandardLevelDetailViewController/<OpenLevelPackProductStoreAsync>d__55
-  check_size<sizeof(StandardLevelDetailViewController::$OpenLevelPackProductStoreAsync$d__55), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>) + 8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>)) % 8> __GlobalNamespace_StandardLevelDetailViewController_$OpenLevelPackProductStoreAsync$d__55SizeCheck;
+  check_size<sizeof(StandardLevelDetailViewController::$OpenLevelPackProductStoreAsync$d__55), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>) + ((48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>)) % 8 != 0 ? (8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>)) % 8) : 0)> __GlobalNamespace_StandardLevelDetailViewController_$OpenLevelPackProductStoreAsync$d__55SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController::$OpenLevelPackProductStoreAsync$d__55, "", "StandardLevelDetailViewController/<OpenLevelPackProductStoreAsync>d__55");

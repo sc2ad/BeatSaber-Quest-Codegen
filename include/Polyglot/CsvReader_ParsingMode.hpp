@@ -43,7 +43,7 @@ namespace Polyglot {
     // Set static field: static public Polyglot.CsvReader/ParsingMode InQuote
     static void _set_InQuote(Polyglot::CsvReader::ParsingMode value);
   }; // Polyglot.CsvReader/ParsingMode
-  check_size<sizeof(CsvReader::ParsingMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Polyglot_CsvReader_ParsingModeSizeCheck;
+  check_size<sizeof(CsvReader::ParsingMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Polyglot_CsvReader_ParsingModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::CsvReader::ParsingMode, "Polyglot", "CsvReader/ParsingMode");

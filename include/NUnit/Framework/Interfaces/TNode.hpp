@@ -130,7 +130,7 @@ namespace NUnit::Framework::Interfaces {
     // Offset: 0x13E7E98
     static void _cctor();
   }; // NUnit.Framework.Interfaces.TNode
-  check_size<sizeof(TNode), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __NUnit_Framework_Interfaces_TNodeSizeCheck;
+  check_size<sizeof(TNode), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __NUnit_Framework_Interfaces_TNodeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TNode*, "NUnit.Framework.Interfaces", "TNode");

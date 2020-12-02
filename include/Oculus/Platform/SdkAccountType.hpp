@@ -41,7 +41,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.SdkAccountType FacebookGameroom
     static void _set_FacebookGameroom(Oculus::Platform::SdkAccountType value);
   }; // Oculus.Platform.SdkAccountType
-  check_size<sizeof(SdkAccountType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Oculus_Platform_SdkAccountTypeSizeCheck;
+  check_size<sizeof(SdkAccountType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Oculus_Platform_SdkAccountTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::SdkAccountType, "Oculus.Platform", "SdkAccountType");

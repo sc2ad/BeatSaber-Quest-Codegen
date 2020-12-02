@@ -24,7 +24,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x133D374
     static FixupHolder* New_ctor(int64_t id, ::Il2CppObject* fixupInfo, int fixupType);
   }; // System.Runtime.Serialization.FixupHolder
-  check_size<sizeof(FixupHolder), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __System_Runtime_Serialization_FixupHolderSizeCheck;
+  check_size<sizeof(FixupHolder), 32 + sizeof(int) + ((32 + sizeof(int)) % 8 != 0 ? (8 - (32 + sizeof(int)) % 8) : 0)> __System_Runtime_Serialization_FixupHolderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FixupHolder*, "System.Runtime.Serialization", "FixupHolder");

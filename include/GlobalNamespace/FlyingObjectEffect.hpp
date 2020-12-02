@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static FlyingObjectEffect* New_ctor();
   }; // FlyingObjectEffect
-  check_size<sizeof(FlyingObjectEffect), 124 + sizeof(bool) + 8 - (124 + sizeof(bool)) % 8> __GlobalNamespace_FlyingObjectEffectSizeCheck;
+  check_size<sizeof(FlyingObjectEffect), 124 + sizeof(bool) + ((124 + sizeof(bool)) % 8 != 0 ? (8 - (124 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_FlyingObjectEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingObjectEffect*, "", "FlyingObjectEffect");

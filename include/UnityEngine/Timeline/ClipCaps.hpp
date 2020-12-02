@@ -71,7 +71,7 @@ namespace UnityEngine::Timeline {
     // Set static field: static public UnityEngine.Timeline.ClipCaps All
     static void _set_All(UnityEngine::Timeline::ClipCaps value);
   }; // UnityEngine.Timeline.ClipCaps
-  check_size<sizeof(ClipCaps), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Timeline_ClipCapsSizeCheck;
+  check_size<sizeof(ClipCaps), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_Timeline_ClipCapsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ClipCaps, "UnityEngine.Timeline", "ClipCaps");

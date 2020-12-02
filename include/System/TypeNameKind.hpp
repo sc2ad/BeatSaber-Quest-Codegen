@@ -47,7 +47,7 @@ namespace System {
     // Set static field: static public System.TypeNameKind FullName
     static void _set_FullName(System::TypeNameKind value);
   }; // System.TypeNameKind
-  check_size<sizeof(TypeNameKind), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_TypeNameKindSizeCheck;
+  check_size<sizeof(TypeNameKind), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_TypeNameKindSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TypeNameKind, "System", "TypeNameKind");

@@ -41,7 +41,7 @@ namespace NUnit::Framework::Internal::Execution {
     // Set static field: static public NUnit.Framework.Internal.Execution.WorkItemState Complete
     static void _set_Complete(NUnit::Framework::Internal::Execution::WorkItemState value);
   }; // NUnit.Framework.Internal.Execution.WorkItemState
-  check_size<sizeof(WorkItemState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __NUnit_Framework_Internal_Execution_WorkItemStateSizeCheck;
+  check_size<sizeof(WorkItemState), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __NUnit_Framework_Internal_Execution_WorkItemStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::WorkItemState, "NUnit.Framework.Internal.Execution", "WorkItemState");

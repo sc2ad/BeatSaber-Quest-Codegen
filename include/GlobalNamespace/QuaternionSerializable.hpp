@@ -115,7 +115,7 @@ namespace GlobalNamespace {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // QuaternionSerializable
-  check_size<sizeof(QuaternionSerializable), 0 + sizeof(UnityEngine::Quaternion) + 8 - (0 + sizeof(UnityEngine::Quaternion)) % 8> __GlobalNamespace_QuaternionSerializableSizeCheck;
+  check_size<sizeof(QuaternionSerializable), 0 + sizeof(UnityEngine::Quaternion) + ((0 + sizeof(UnityEngine::Quaternion)) % 8 != 0 ? (8 - (0 + sizeof(UnityEngine::Quaternion)) % 8) : 0)> __GlobalNamespace_QuaternionSerializableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuaternionSerializable, "", "QuaternionSerializable");

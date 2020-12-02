@@ -179,7 +179,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x111ECD4
     int TranslateIndexToManifestConvention(int idx, ::Il2CppString* evtName);
   }; // System.Diagnostics.Tracing.ManifestBuilder
-  check_size<sizeof(ManifestBuilder), 128 + sizeof(void*) + 8 - (128 + sizeof(void*)) % 8> __System_Diagnostics_Tracing_ManifestBuilderSizeCheck;
+  check_size<sizeof(ManifestBuilder), 128 + sizeof(void*) + ((128 + sizeof(void*)) % 8 != 0 ? (8 - (128 + sizeof(void*)) % 8) : 0)> __System_Diagnostics_Tracing_ManifestBuilderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ManifestBuilder*, "System.Diagnostics.Tracing", "ManifestBuilder");

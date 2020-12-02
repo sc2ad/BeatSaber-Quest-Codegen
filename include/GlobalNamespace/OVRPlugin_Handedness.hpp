@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/Handedness RightHanded
     static void _set_RightHanded(GlobalNamespace::OVRPlugin::Handedness value);
   }; // OVRPlugin/Handedness
-  check_size<sizeof(OVRPlugin::Handedness), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRPlugin_HandednessSizeCheck;
+  check_size<sizeof(OVRPlugin::Handedness), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OVRPlugin_HandednessSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Handedness, "", "OVRPlugin/Handedness");

@@ -27,7 +27,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     static AudioClipProperties* New_ctor();
   }; // UnityEngine.Timeline.AudioClipProperties
-  check_size<sizeof(AudioClipProperties), 16 + sizeof(float) + 8 - (16 + sizeof(float)) % 8> __UnityEngine_Timeline_AudioClipPropertiesSizeCheck;
+  check_size<sizeof(AudioClipProperties), 16 + sizeof(float) + ((16 + sizeof(float)) % 8 != 0 ? (8 - (16 + sizeof(float)) % 8) : 0)> __UnityEngine_Timeline_AudioClipPropertiesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioClipProperties*, "UnityEngine.Timeline", "AudioClipProperties");

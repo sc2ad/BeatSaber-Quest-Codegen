@@ -38,7 +38,7 @@ namespace TMPro {
     // Offset: 0xC929E4
     GlyphPairKey(TMPro::TMP_GlyphPairAdjustmentRecord* record);
   }; // TMPro.GlyphPairKey
-  check_size<sizeof(GlyphPairKey), 8 + sizeof(int64_t) + 8 - (8 + sizeof(int64_t)) % 8> __TMPro_GlyphPairKeySizeCheck;
+  check_size<sizeof(GlyphPairKey), 8 + sizeof(int64_t) + ((8 + sizeof(int64_t)) % 8 != 0 ? (8 - (8 + sizeof(int64_t)) % 8) : 0)> __TMPro_GlyphPairKeySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::GlyphPairKey, "TMPro", "GlyphPairKey");

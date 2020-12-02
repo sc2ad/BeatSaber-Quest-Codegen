@@ -79,7 +79,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Security.Cryptography.X509Certificates.X509Store
-  check_size<sizeof(X509Store), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __System_Security_Cryptography_X509Certificates_X509StoreSizeCheck;
+  check_size<sizeof(X509Store), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __System_Security_Cryptography_X509Certificates_X509StoreSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Store*, "System.Security.Cryptography.X509Certificates", "X509Store");

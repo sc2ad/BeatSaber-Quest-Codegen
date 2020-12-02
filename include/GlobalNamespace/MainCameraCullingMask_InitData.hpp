@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Offset: 0x1989F1C
     static MainCameraCullingMask::InitData* New_ctor(bool showDebris);
   }; // MainCameraCullingMask/InitData
-  check_size<sizeof(MainCameraCullingMask::InitData), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __GlobalNamespace_MainCameraCullingMask_InitDataSizeCheck;
+  check_size<sizeof(MainCameraCullingMask::InitData), 16 + sizeof(bool) + ((16 + sizeof(bool)) % 8 != 0 ? (8 - (16 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_MainCameraCullingMask_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainCameraCullingMask::InitData*, "", "MainCameraCullingMask/InitData");

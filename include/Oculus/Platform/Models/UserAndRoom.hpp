@@ -38,7 +38,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11E1E7C
     static UserAndRoom* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.UserAndRoom
-  check_size<sizeof(UserAndRoom), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Oculus_Platform_Models_UserAndRoomSizeCheck;
+  check_size<sizeof(UserAndRoom), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __Oculus_Platform_Models_UserAndRoomSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::UserAndRoom*, "Oculus.Platform.Models", "UserAndRoom");

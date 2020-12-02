@@ -42,7 +42,7 @@ namespace Polyglot {
     // Base method: System.Void Object::.ctor()
     static SaveLanguagePreference* New_ctor();
   }; // Polyglot.SaveLanguagePreference
-  check_size<sizeof(SaveLanguagePreference), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Polyglot_SaveLanguagePreferenceSizeCheck;
+  check_size<sizeof(SaveLanguagePreference), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Polyglot_SaveLanguagePreferenceSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::SaveLanguagePreference*, "Polyglot", "SaveLanguagePreference");

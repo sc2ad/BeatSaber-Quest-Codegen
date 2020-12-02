@@ -349,7 +349,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.PlatformInternal/MessageTypeInternal User_TestUserCreateDeviceManifest
     static void _set_User_TestUserCreateDeviceManifest(Oculus::Platform::PlatformInternal::MessageTypeInternal value);
   }; // Oculus.Platform.PlatformInternal/MessageTypeInternal
-  check_size<sizeof(PlatformInternal::MessageTypeInternal), 0 + sizeof(uint) + 8 - (0 + sizeof(uint)) % 8> __Oculus_Platform_PlatformInternal_MessageTypeInternalSizeCheck;
+  check_size<sizeof(PlatformInternal::MessageTypeInternal), 0 + sizeof(uint) + ((0 + sizeof(uint)) % 8 != 0 ? (8 - (0 + sizeof(uint)) % 8) : 0)> __Oculus_Platform_PlatformInternal_MessageTypeInternalSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformInternal::MessageTypeInternal, "Oculus.Platform", "PlatformInternal/MessageTypeInternal");

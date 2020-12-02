@@ -66,7 +66,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void Object::.ctor()
     static DesEdeEngine* New_ctor();
   }; // Org.BouncyCastle.Crypto.Engines.DesEdeEngine
-  check_size<sizeof(DesEdeEngine), 48 + sizeof(bool) + 8 - (48 + sizeof(bool)) % 8> __Org_BouncyCastle_Crypto_Engines_DesEdeEngineSizeCheck;
+  check_size<sizeof(DesEdeEngine), 48 + sizeof(bool) + ((48 + sizeof(bool)) % 8 != 0 ? (8 - (48 + sizeof(bool)) % 8) : 0)> __Org_BouncyCastle_Crypto_Engines_DesEdeEngineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::DesEdeEngine*, "Org.BouncyCastle.Crypto.Engines", "DesEdeEngine");

@@ -31,7 +31,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11E0D84
     static Destination* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.Destination
-  check_size<sizeof(Destination), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Oculus_Platform_Models_DestinationSizeCheck;
+  check_size<sizeof(Destination), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __Oculus_Platform_Models_DestinationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Destination*, "Oculus.Platform.Models", "Destination");

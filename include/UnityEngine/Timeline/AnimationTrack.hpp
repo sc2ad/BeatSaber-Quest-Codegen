@@ -435,7 +435,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // UnityEngine.Timeline.AnimationTrack
-  check_size<sizeof(AnimationTrack), 296 + sizeof(bool) + 8 - (296 + sizeof(bool)) % 8> __UnityEngine_Timeline_AnimationTrackSizeCheck;
+  check_size<sizeof(AnimationTrack), 296 + sizeof(bool) + ((296 + sizeof(bool)) % 8 != 0 ? (8 - (296 + sizeof(bool)) % 8) : 0)> __UnityEngine_Timeline_AnimationTrackSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationTrack*, "UnityEngine.Timeline", "AnimationTrack");

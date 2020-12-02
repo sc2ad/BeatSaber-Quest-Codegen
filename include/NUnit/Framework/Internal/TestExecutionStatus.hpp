@@ -41,7 +41,7 @@ namespace NUnit::Framework::Internal {
     // Set static field: static public NUnit.Framework.Internal.TestExecutionStatus AbortRequested
     static void _set_AbortRequested(NUnit::Framework::Internal::TestExecutionStatus value);
   }; // NUnit.Framework.Internal.TestExecutionStatus
-  check_size<sizeof(TestExecutionStatus), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __NUnit_Framework_Internal_TestExecutionStatusSizeCheck;
+  check_size<sizeof(TestExecutionStatus), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __NUnit_Framework_Internal_TestExecutionStatusSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestExecutionStatus, "NUnit.Framework.Internal", "TestExecutionStatus");

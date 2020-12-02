@@ -223,7 +223,7 @@ namespace System {
     // Base method: System.Object IConvertible::ToType(System.Type type, System.IFormatProvider provider)
     ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
   }; // System.UInt64
-  check_size<sizeof(UInt64), 0 + sizeof(System::UInt64) + 8 - (0 + sizeof(System::UInt64)) % 8> __System_UInt64SizeCheck;
+  check_size<sizeof(UInt64), 0 + sizeof(System::UInt64) + ((0 + sizeof(System::UInt64)) % 8 != 0 ? (8 - (0 + sizeof(System::UInt64)) % 8) : 0)> __System_UInt64SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UInt64, "System", "UInt64");

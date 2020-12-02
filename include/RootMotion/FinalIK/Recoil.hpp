@@ -60,7 +60,7 @@ namespace RootMotion::FinalIK {
       // Set static field: static public RootMotion.FinalIK.Recoil/Handedness Left
       static void _set_Left(RootMotion::FinalIK::Recoil::Handedness value);
     }; // RootMotion.FinalIK.Recoil/Handedness
-    check_size<sizeof(Recoil::Handedness), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __RootMotion_FinalIK_Recoil_HandednessSizeCheck;
+    check_size<sizeof(Recoil::Handedness), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __RootMotion_FinalIK_Recoil_HandednessSizeCheck;
     // public RootMotion.FinalIK.AimIK aimIK
     // Offset: 0x30
     RootMotion::FinalIK::AimIK* aimIK;
@@ -178,7 +178,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static Recoil* New_ctor();
   }; // RootMotion.FinalIK.Recoil
-  check_size<sizeof(Recoil), 228 + sizeof(UnityEngine::Vector3) + 8 - (228 + sizeof(UnityEngine::Vector3)) % 8> __RootMotion_FinalIK_RecoilSizeCheck;
+  check_size<sizeof(Recoil), 228 + sizeof(UnityEngine::Vector3) + ((228 + sizeof(UnityEngine::Vector3)) % 8 != 0 ? (8 - (228 + sizeof(UnityEngine::Vector3)) % 8) : 0)> __RootMotion_FinalIK_RecoilSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil*, "RootMotion.FinalIK", "Recoil");

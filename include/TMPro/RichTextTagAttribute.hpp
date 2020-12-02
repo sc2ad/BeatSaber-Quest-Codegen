@@ -38,7 +38,7 @@ namespace TMPro {
     // Creating value type constructor for type: RichTextTagAttribute
     constexpr RichTextTagAttribute(int nameHashCode_ = {}, int valueHashCode_ = {}, TMPro::TagValueType valueType_ = {}, int valueStartIndex_ = {}, int valueLength_ = {}, TMPro::TagUnitType unitType_ = {}) noexcept : nameHashCode{nameHashCode_}, valueHashCode{valueHashCode_}, valueType{valueType_}, valueStartIndex{valueStartIndex_}, valueLength{valueLength_}, unitType{unitType_} {}
   }; // TMPro.RichTextTagAttribute
-  check_size<sizeof(RichTextTagAttribute), 20 + sizeof(TMPro::TagUnitType) + 8 - (20 + sizeof(TMPro::TagUnitType)) % 8> __TMPro_RichTextTagAttributeSizeCheck;
+  check_size<sizeof(RichTextTagAttribute), 20 + sizeof(TMPro::TagUnitType) + ((20 + sizeof(TMPro::TagUnitType)) % 8 != 0 ? (8 - (20 + sizeof(TMPro::TagUnitType)) % 8) : 0)> __TMPro_RichTextTagAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::RichTextTagAttribute, "TMPro", "RichTextTagAttribute");

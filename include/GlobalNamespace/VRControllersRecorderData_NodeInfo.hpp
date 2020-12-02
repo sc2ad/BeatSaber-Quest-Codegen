@@ -25,7 +25,7 @@ namespace GlobalNamespace {
     // Offset: 0x197425C
     static VRControllersRecorderData::NodeInfo* New_ctor(UnityEngine::XR::XRNode nodeType, int nodeIdx);
   }; // VRControllersRecorderData/NodeInfo
-  check_size<sizeof(VRControllersRecorderData::NodeInfo), 20 + sizeof(int) + 8 - (20 + sizeof(int)) % 8> __GlobalNamespace_VRControllersRecorderData_NodeInfoSizeCheck;
+  check_size<sizeof(VRControllersRecorderData::NodeInfo), 20 + sizeof(int) + ((20 + sizeof(int)) % 8 != 0 ? (8 - (20 + sizeof(int)) % 8) : 0)> __GlobalNamespace_VRControllersRecorderData_NodeInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData::NodeInfo*, "", "VRControllersRecorderData/NodeInfo");

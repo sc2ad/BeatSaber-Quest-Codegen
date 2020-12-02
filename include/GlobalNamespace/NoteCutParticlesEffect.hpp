@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NoteCutParticlesEffect* New_ctor();
   }; // NoteCutParticlesEffect
-  check_size<sizeof(NoteCutParticlesEffect), 504 + sizeof(UnityEngine::ParticleSystem::MinMaxCurve) + 8 - (504 + sizeof(UnityEngine::ParticleSystem::MinMaxCurve)) % 8> __GlobalNamespace_NoteCutParticlesEffectSizeCheck;
+  check_size<sizeof(NoteCutParticlesEffect), 504 + sizeof(UnityEngine::ParticleSystem::MinMaxCurve) + ((504 + sizeof(UnityEngine::ParticleSystem::MinMaxCurve)) % 8 != 0 ? (8 - (504 + sizeof(UnityEngine::ParticleSystem::MinMaxCurve)) % 8) : 0)> __GlobalNamespace_NoteCutParticlesEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutParticlesEffect*, "", "NoteCutParticlesEffect");

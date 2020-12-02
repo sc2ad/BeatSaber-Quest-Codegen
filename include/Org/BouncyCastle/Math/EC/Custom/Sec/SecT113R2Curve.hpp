@@ -100,7 +100,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // Base method: Org.BouncyCastle.Math.EC.ECLookupTable ECCurve::CreateCacheSafeLookupTable(Org.BouncyCastle.Math.EC.ECPoint[] points, System.Int32 off, System.Int32 len)
     Org::BouncyCastle::Math::EC::ECLookupTable* CreateCacheSafeLookupTable(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* points, int off, int len);
   }; // Org.BouncyCastle.Math.EC.Custom.Sec.SecT113R2Curve
-  check_size<sizeof(SecT113R2Curve), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_EC_Custom_Sec_SecT113R2CurveSizeCheck;
+  check_size<sizeof(SecT113R2Curve), 88 + sizeof(void*) + ((88 + sizeof(void*)) % 8 != 0 ? (8 - (88 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Math_EC_Custom_Sec_SecT113R2CurveSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecT113R2Curve*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecT113R2Curve");

@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     // Maps to method: Deserialize
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
   }; // PlayersAtGameStartNetSerializable
-  check_size<sizeof(PlayersAtGameStartNetSerializable), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_PlayersAtGameStartNetSerializableSizeCheck;
+  check_size<sizeof(PlayersAtGameStartNetSerializable), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_PlayersAtGameStartNetSerializableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayersAtGameStartNetSerializable*, "", "PlayersAtGameStartNetSerializable");

@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MainAudioEffects* New_ctor();
   }; // MainAudioEffects
-  check_size<sizeof(MainAudioEffects), 36 + sizeof(float) + 8 - (36 + sizeof(float)) % 8> __GlobalNamespace_MainAudioEffectsSizeCheck;
+  check_size<sizeof(MainAudioEffects), 36 + sizeof(float) + ((36 + sizeof(float)) % 8 != 0 ? (8 - (36 + sizeof(float)) % 8) : 0)> __GlobalNamespace_MainAudioEffectsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainAudioEffects*, "", "MainAudioEffects");

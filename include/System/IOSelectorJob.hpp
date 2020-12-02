@@ -59,7 +59,7 @@ namespace System {
     // Base method: System.Void IThreadPoolWorkItem::MarkAborted(System.Threading.ThreadAbortException tae)
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);
   }; // System.IOSelectorJob
-  check_size<sizeof(IOSelectorJob), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_IOSelectorJobSizeCheck;
+  check_size<sizeof(IOSelectorJob), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_IOSelectorJobSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IOSelectorJob*, "System", "IOSelectorJob");

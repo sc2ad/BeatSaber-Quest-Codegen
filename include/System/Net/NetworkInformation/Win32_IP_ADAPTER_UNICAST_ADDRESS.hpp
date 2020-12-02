@@ -58,7 +58,7 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: Win32_IP_ADAPTER_UNICAST_ADDRESS
     constexpr Win32_IP_ADAPTER_UNICAST_ADDRESS(System::Net::NetworkInformation::Win32LengthFlagsUnion LengthFlags_ = {}, System::IntPtr Next_ = {}, System::Net::NetworkInformation::Win32_SOCKET_ADDRESS Address_ = {}, System::Net::NetworkInformation::PrefixOrigin PrefixOrigin_ = {}, System::Net::NetworkInformation::SuffixOrigin SuffixOrigin_ = {}, System::Net::NetworkInformation::DuplicateAddressDetectionState DadState_ = {}, uint ValidLifetime_ = {}, uint PreferredLifetime_ = {}, uint LeaseLifetime_ = {}, uint8_t OnLinkPrefixLength_ = {}) noexcept : LengthFlags{LengthFlags_}, Next{Next_}, Address{Address_}, PrefixOrigin{PrefixOrigin_}, SuffixOrigin{SuffixOrigin_}, DadState{DadState_}, ValidLifetime{ValidLifetime_}, PreferredLifetime{PreferredLifetime_}, LeaseLifetime{LeaseLifetime_}, OnLinkPrefixLength{OnLinkPrefixLength_} {}
   }; // System.Net.NetworkInformation.Win32_IP_ADAPTER_UNICAST_ADDRESS
-  check_size<sizeof(Win32_IP_ADAPTER_UNICAST_ADDRESS), 56 + sizeof(uint8_t) + 8 - (56 + sizeof(uint8_t)) % 8> __System_Net_NetworkInformation_Win32_IP_ADAPTER_UNICAST_ADDRESSSizeCheck;
+  check_size<sizeof(Win32_IP_ADAPTER_UNICAST_ADDRESS), 56 + sizeof(uint8_t) + ((56 + sizeof(uint8_t)) % 8 != 0 ? (8 - (56 + sizeof(uint8_t)) % 8) : 0)> __System_Net_NetworkInformation_Win32_IP_ADAPTER_UNICAST_ADDRESSSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_IP_ADAPTER_UNICAST_ADDRESS, "System.Net.NetworkInformation", "Win32_IP_ADAPTER_UNICAST_ADDRESS");

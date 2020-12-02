@@ -21,7 +21,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VREvent_ApplicationLaunch_t
     constexpr VREvent_ApplicationLaunch_t(uint pid_ = {}, uint unArgsHandle_ = {}) noexcept : pid{pid_}, unArgsHandle{unArgsHandle_} {}
   }; // OVR.OpenVR.VREvent_ApplicationLaunch_t
-  check_size<sizeof(VREvent_ApplicationLaunch_t), 4 + sizeof(uint) + 8 - (4 + sizeof(uint)) % 8> __OVR_OpenVR_VREvent_ApplicationLaunch_tSizeCheck;
+  check_size<sizeof(VREvent_ApplicationLaunch_t), 4 + sizeof(uint) + ((4 + sizeof(uint)) % 8 != 0 ? (8 - (4 + sizeof(uint)) % 8) : 0)> __OVR_OpenVR_VREvent_ApplicationLaunch_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_ApplicationLaunch_t, "OVR.OpenVR", "VREvent_ApplicationLaunch_t");

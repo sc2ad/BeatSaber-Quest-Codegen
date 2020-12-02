@@ -147,7 +147,7 @@ namespace Microsoft::Win32 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Microsoft.Win32.RegistryKey
-  check_size<sizeof(RegistryKey), 57 + sizeof(bool) + 8 - (57 + sizeof(bool)) % 8> __Microsoft_Win32_RegistryKeySizeCheck;
+  check_size<sizeof(RegistryKey), 57 + sizeof(bool) + ((57 + sizeof(bool)) % 8 != 0 ? (8 - (57 + sizeof(bool)) % 8) : 0)> __Microsoft_Win32_RegistryKeySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::RegistryKey*, "Microsoft.Win32", "RegistryKey");

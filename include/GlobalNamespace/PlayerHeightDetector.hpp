@@ -98,7 +98,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PlayerHeightDetector* New_ctor();
   }; // PlayerHeightDetector
-  check_size<sizeof(PlayerHeightDetector), 76 + sizeof(float) + 8 - (76 + sizeof(float)) % 8> __GlobalNamespace_PlayerHeightDetectorSizeCheck;
+  check_size<sizeof(PlayerHeightDetector), 76 + sizeof(float) + ((76 + sizeof(float)) % 8 != 0 ? (8 - (76 + sizeof(float)) % 8) : 0)> __GlobalNamespace_PlayerHeightDetectorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerHeightDetector*, "", "PlayerHeightDetector");

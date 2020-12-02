@@ -41,7 +41,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.LivestreamingMicrophoneStatus MicrophoneOff
     static void _set_MicrophoneOff(Oculus::Platform::LivestreamingMicrophoneStatus value);
   }; // Oculus.Platform.LivestreamingMicrophoneStatus
-  check_size<sizeof(LivestreamingMicrophoneStatus), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Oculus_Platform_LivestreamingMicrophoneStatusSizeCheck;
+  check_size<sizeof(LivestreamingMicrophoneStatus), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Oculus_Platform_LivestreamingMicrophoneStatusSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::LivestreamingMicrophoneStatus, "Oculus.Platform", "LivestreamingMicrophoneStatus");

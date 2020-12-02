@@ -59,7 +59,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.Axis Backward
     static void _set_Backward(UnityEngine::ProBuilder::Axis value);
   }; // UnityEngine.ProBuilder.Axis
-  check_size<sizeof(Axis), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_ProBuilder_AxisSizeCheck;
+  check_size<sizeof(Axis), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_ProBuilder_AxisSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Axis, "UnityEngine.ProBuilder", "Axis");

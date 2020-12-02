@@ -59,7 +59,7 @@ namespace UnityEngine {
       // Set static field: static public UnityEngine.ReflectionProbe/ReflectionProbeEvent ReflectionProbeRemoved
       static void _set_ReflectionProbeRemoved(UnityEngine::ReflectionProbe::ReflectionProbeEvent value);
     }; // UnityEngine.ReflectionProbe/ReflectionProbeEvent
-    check_size<sizeof(ReflectionProbe::ReflectionProbeEvent), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_ReflectionProbe_ReflectionProbeEventSizeCheck;
+    check_size<sizeof(ReflectionProbe::ReflectionProbeEvent), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_ReflectionProbe_ReflectionProbeEventSizeCheck;
     // Get static field: static private System.Action`2<UnityEngine.ReflectionProbe,UnityEngine.ReflectionProbe/ReflectionProbeEvent> reflectionProbeChanged
     static System::Action_2<UnityEngine::ReflectionProbe*, UnityEngine::ReflectionProbe::ReflectionProbeEvent>* _get_reflectionProbeChanged();
     // Set static field: static private System.Action`2<UnityEngine.ReflectionProbe,UnityEngine.ReflectionProbe/ReflectionProbeEvent> reflectionProbeChanged

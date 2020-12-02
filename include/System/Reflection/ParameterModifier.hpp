@@ -26,7 +26,7 @@ namespace System::Reflection {
       return byRef;
     }
   }; // System.Reflection.ParameterModifier
-  check_size<sizeof(ParameterModifier), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __System_Reflection_ParameterModifierSizeCheck;
+  check_size<sizeof(ParameterModifier), 0 + sizeof(void*) + ((0 + sizeof(void*)) % 8 != 0 ? (8 - (0 + sizeof(void*)) % 8) : 0)> __System_Reflection_ParameterModifierSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ParameterModifier, "System.Reflection", "ParameterModifier");

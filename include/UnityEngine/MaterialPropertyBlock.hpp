@@ -118,7 +118,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // UnityEngine.MaterialPropertyBlock
-  check_size<sizeof(MaterialPropertyBlock), 16 + sizeof(System::IntPtr) + 8 - (16 + sizeof(System::IntPtr)) % 8> __UnityEngine_MaterialPropertyBlockSizeCheck;
+  check_size<sizeof(MaterialPropertyBlock), 16 + sizeof(System::IntPtr) + ((16 + sizeof(System::IntPtr)) % 8 != 0 ? (8 - (16 + sizeof(System::IntPtr)) % 8) : 0)> __UnityEngine_MaterialPropertyBlockSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MaterialPropertyBlock*, "UnityEngine", "MaterialPropertyBlock");

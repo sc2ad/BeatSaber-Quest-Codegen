@@ -24,7 +24,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x141AF90
     static CustomStyleAttribute* New_ctor(::Il2CppString* ussStyle);
   }; // UnityEngine.Timeline.CustomStyleAttribute
-  check_size<sizeof(CustomStyleAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_Timeline_CustomStyleAttributeSizeCheck;
+  check_size<sizeof(CustomStyleAttribute), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __UnityEngine_Timeline_CustomStyleAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::CustomStyleAttribute*, "UnityEngine.Timeline", "CustomStyleAttribute");

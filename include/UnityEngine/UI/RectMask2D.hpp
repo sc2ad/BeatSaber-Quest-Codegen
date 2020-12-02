@@ -150,7 +150,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void UIBehaviour::OnCanvasHierarchyChanged()
     void OnCanvasHierarchyChanged();
   }; // UnityEngine.UI.RectMask2D
-  check_size<sizeof(RectMask2D), 104 + sizeof(void*) + 8 - (104 + sizeof(void*)) % 8> __UnityEngine_UI_RectMask2DSizeCheck;
+  check_size<sizeof(RectMask2D), 104 + sizeof(void*) + ((104 + sizeof(void*)) % 8 != 0 ? (8 - (104 + sizeof(void*)) % 8) : 0)> __UnityEngine_UI_RectMask2DSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::RectMask2D*, "UnityEngine.UI", "RectMask2D");

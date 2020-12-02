@@ -88,7 +88,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Base method: System.Void IBlockCipher::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
   }; // Org.BouncyCastle.Crypto.Modes.OpenPgpCfbBlockCipher
-  check_size<sizeof(OpenPgpCfbBlockCipher), 56 + sizeof(bool) + 8 - (56 + sizeof(bool)) % 8> __Org_BouncyCastle_Crypto_Modes_OpenPgpCfbBlockCipherSizeCheck;
+  check_size<sizeof(OpenPgpCfbBlockCipher), 56 + sizeof(bool) + ((56 + sizeof(bool)) % 8 != 0 ? (8 - (56 + sizeof(bool)) % 8) : 0)> __Org_BouncyCastle_Crypto_Modes_OpenPgpCfbBlockCipherSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::OpenPgpCfbBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "OpenPgpCfbBlockCipher");

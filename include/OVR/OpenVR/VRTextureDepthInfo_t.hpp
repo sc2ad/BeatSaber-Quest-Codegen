@@ -30,7 +30,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VRTextureDepthInfo_t
     constexpr VRTextureDepthInfo_t(System::IntPtr handle_ = {}, OVR::OpenVR::HmdMatrix44_t mProjection_ = {}, OVR::OpenVR::HmdVector2_t vRange_ = {}) noexcept : handle{handle_}, mProjection{mProjection_}, vRange{vRange_} {}
   }; // OVR.OpenVR.VRTextureDepthInfo_t
-  check_size<sizeof(VRTextureDepthInfo_t), 72 + sizeof(OVR::OpenVR::HmdVector2_t) + 8 - (72 + sizeof(OVR::OpenVR::HmdVector2_t)) % 8> __OVR_OpenVR_VRTextureDepthInfo_tSizeCheck;
+  check_size<sizeof(VRTextureDepthInfo_t), 72 + sizeof(OVR::OpenVR::HmdVector2_t) + ((72 + sizeof(OVR::OpenVR::HmdVector2_t)) % 8 != 0 ? (8 - (72 + sizeof(OVR::OpenVR::HmdVector2_t)) % 8) : 0)> __OVR_OpenVR_VRTextureDepthInfo_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRTextureDepthInfo_t, "OVR.OpenVR", "VRTextureDepthInfo_t");

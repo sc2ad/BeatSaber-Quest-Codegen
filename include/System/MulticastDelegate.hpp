@@ -76,7 +76,7 @@ namespace System {
     // Base method: System.Delegate Delegate::RemoveImpl(System.Delegate value)
     System::Delegate* RemoveImpl(System::Delegate* value);
   }; // System.MulticastDelegate
-  check_size<sizeof(MulticastDelegate), 104 + sizeof(void*) + 8 - (104 + sizeof(void*)) % 8> __System_MulticastDelegateSizeCheck;
+  check_size<sizeof(MulticastDelegate), 104 + sizeof(void*) + ((104 + sizeof(void*)) % 8 != 0 ? (8 - (104 + sizeof(void*)) % 8) : 0)> __System_MulticastDelegateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::MulticastDelegate*, "System", "MulticastDelegate");

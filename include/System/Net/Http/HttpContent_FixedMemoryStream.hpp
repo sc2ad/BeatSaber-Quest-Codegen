@@ -35,7 +35,7 @@ namespace System::Net::Http {
     // Base method: System.Void MemoryStream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     void Write(::Array<uint8_t>* buffer, int offset, int count);
   }; // System.Net.Http.HttpContent/FixedMemoryStream
-  check_size<sizeof(HttpContent::FixedMemoryStream), 80 + sizeof(int64_t) + 8 - (80 + sizeof(int64_t)) % 8> __System_Net_Http_HttpContent_FixedMemoryStreamSizeCheck;
+  check_size<sizeof(HttpContent::FixedMemoryStream), 80 + sizeof(int64_t) + ((80 + sizeof(int64_t)) % 8 != 0 ? (8 - (80 + sizeof(int64_t)) % 8) : 0)> __System_Net_Http_HttpContent_FixedMemoryStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpContent::FixedMemoryStream*, "System.Net.Http", "HttpContent/FixedMemoryStream");

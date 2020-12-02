@@ -134,7 +134,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerIntroCountdown* New_ctor();
   }; // MultiplayerIntroCountdown
-  check_size<sizeof(MultiplayerIntroCountdown), 148 + sizeof(float) + 8 - (148 + sizeof(float)) % 8> __GlobalNamespace_MultiplayerIntroCountdownSizeCheck;
+  check_size<sizeof(MultiplayerIntroCountdown), 148 + sizeof(float) + ((148 + sizeof(float)) % 8 != 0 ? (8 - (148 + sizeof(float)) % 8) : 0)> __GlobalNamespace_MultiplayerIntroCountdownSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdown*, "", "MultiplayerIntroCountdown");

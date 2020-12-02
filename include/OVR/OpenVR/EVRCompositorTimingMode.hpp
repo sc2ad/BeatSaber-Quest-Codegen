@@ -41,7 +41,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVRCompositorTimingMode Explicit_ApplicationPerformsPostPresentHandoff
     static void _set_Explicit_ApplicationPerformsPostPresentHandoff(OVR::OpenVR::EVRCompositorTimingMode value);
   }; // OVR.OpenVR.EVRCompositorTimingMode
-  check_size<sizeof(EVRCompositorTimingMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_EVRCompositorTimingModeSizeCheck;
+  check_size<sizeof(EVRCompositorTimingMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OVR_OpenVR_EVRCompositorTimingModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRCompositorTimingMode, "OVR.OpenVR", "EVRCompositorTimingMode");

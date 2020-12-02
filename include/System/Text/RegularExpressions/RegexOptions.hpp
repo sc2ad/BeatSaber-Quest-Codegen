@@ -83,7 +83,7 @@ namespace System::Text::RegularExpressions {
     // Set static field: static public System.Text.RegularExpressions.RegexOptions CultureInvariant
     static void _set_CultureInvariant(System::Text::RegularExpressions::RegexOptions value);
   }; // System.Text.RegularExpressions.RegexOptions
-  check_size<sizeof(RegexOptions), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Text_RegularExpressions_RegexOptionsSizeCheck;
+  check_size<sizeof(RegexOptions), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Text_RegularExpressions_RegexOptionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexOptions, "System.Text.RegularExpressions", "RegexOptions");

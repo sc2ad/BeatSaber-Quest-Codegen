@@ -61,7 +61,7 @@ namespace System::Collections::Specialized {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Collections.Specialized.ListDictionary/NodeKeyValueCollection
-  check_size<sizeof(ListDictionary::NodeKeyValueCollection), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __System_Collections_Specialized_ListDictionary_NodeKeyValueCollectionSizeCheck;
+  check_size<sizeof(ListDictionary::NodeKeyValueCollection), 24 + sizeof(bool) + ((24 + sizeof(bool)) % 8 != 0 ? (8 - (24 + sizeof(bool)) % 8) : 0)> __System_Collections_Specialized_ListDictionary_NodeKeyValueCollectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::ListDictionary::NodeKeyValueCollection*, "System.Collections.Specialized", "ListDictionary/NodeKeyValueCollection");

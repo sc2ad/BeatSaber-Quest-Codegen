@@ -113,7 +113,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static public System.Runtime.Serialization.Formatters.Binary.MessageEnum GenericMethod
     static void _set_GenericMethod(System::Runtime::Serialization::Formatters::Binary::MessageEnum value);
   }; // System.Runtime.Serialization.Formatters.Binary.MessageEnum
-  check_size<sizeof(MessageEnum), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Runtime_Serialization_Formatters_Binary_MessageEnumSizeCheck;
+  check_size<sizeof(MessageEnum), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Runtime_Serialization_Formatters_Binary_MessageEnumSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::MessageEnum, "System.Runtime.Serialization.Formatters.Binary", "MessageEnum");

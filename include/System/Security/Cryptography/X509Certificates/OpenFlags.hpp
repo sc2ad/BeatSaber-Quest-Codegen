@@ -53,7 +53,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static public System.Security.Cryptography.X509Certificates.OpenFlags IncludeArchived
     static void _set_IncludeArchived(System::Security::Cryptography::X509Certificates::OpenFlags value);
   }; // System.Security.Cryptography.X509Certificates.OpenFlags
-  check_size<sizeof(OpenFlags), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Security_Cryptography_X509Certificates_OpenFlagsSizeCheck;
+  check_size<sizeof(OpenFlags), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Security_Cryptography_X509Certificates_OpenFlagsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::OpenFlags, "System.Security.Cryptography.X509Certificates", "OpenFlags");

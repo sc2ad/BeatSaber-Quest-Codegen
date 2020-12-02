@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LevelCollectionViewController/<SongPlayerCrossfadeToLevelAsync>d__23
-  check_size<sizeof(LevelCollectionViewController::$SongPlayerCrossfadeToLevelAsync$d__23), 64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::AudioClip*>) + 8 - (64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::AudioClip*>)) % 8> __GlobalNamespace_LevelCollectionViewController_$SongPlayerCrossfadeToLevelAsync$d__23SizeCheck;
+  check_size<sizeof(LevelCollectionViewController::$SongPlayerCrossfadeToLevelAsync$d__23), 64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::AudioClip*>) + ((64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::AudioClip*>)) % 8 != 0 ? (8 - (64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::AudioClip*>)) % 8) : 0)> __GlobalNamespace_LevelCollectionViewController_$SongPlayerCrossfadeToLevelAsync$d__23SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCollectionViewController::$SongPlayerCrossfadeToLevelAsync$d__23, "", "LevelCollectionViewController/<SongPlayerCrossfadeToLevelAsync>d__23");

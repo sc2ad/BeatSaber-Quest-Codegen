@@ -47,7 +47,7 @@ namespace System::Xml {
     // Offset: 0xCB79A0
     void WriteDecl(System::Xml::XmlWriter* writer, System::Xml::XmlRawWriter* rawWriter);
   }; // System.Xml.XmlWellFormedWriter/Namespace
-  check_size<sizeof(XmlWellFormedWriter::Namespace), 20 + sizeof(int) + 8 - (20 + sizeof(int)) % 8> __System_Xml_XmlWellFormedWriter_NamespaceSizeCheck;
+  check_size<sizeof(XmlWellFormedWriter::Namespace), 20 + sizeof(int) + ((20 + sizeof(int)) % 8 != 0 ? (8 - (20 + sizeof(int)) % 8) : 0)> __System_Xml_XmlWellFormedWriter_NamespaceSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::Namespace, "System.Xml", "XmlWellFormedWriter/Namespace");

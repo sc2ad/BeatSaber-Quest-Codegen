@@ -98,7 +98,7 @@ namespace System::Security::Cryptography {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Security.Cryptography.HashAlgorithm
-  check_size<sizeof(HashAlgorithm), 36 + sizeof(bool) + 8 - (36 + sizeof(bool)) % 8> __System_Security_Cryptography_HashAlgorithmSizeCheck;
+  check_size<sizeof(HashAlgorithm), 36 + sizeof(bool) + ((36 + sizeof(bool)) % 8 != 0 ? (8 - (36 + sizeof(bool)) % 8) : 0)> __System_Security_Cryptography_HashAlgorithmSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HashAlgorithm*, "System.Security.Cryptography", "HashAlgorithm");

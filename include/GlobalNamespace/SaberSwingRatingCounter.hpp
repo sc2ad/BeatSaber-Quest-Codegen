@@ -165,7 +165,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SaberSwingRatingCounter* New_ctor();
   }; // SaberSwingRatingCounter
-  check_size<sizeof(SaberSwingRatingCounter), 192 + sizeof(UnityEngine::Vector3) + 8 - (192 + sizeof(UnityEngine::Vector3)) % 8> __GlobalNamespace_SaberSwingRatingCounterSizeCheck;
+  check_size<sizeof(SaberSwingRatingCounter), 192 + sizeof(UnityEngine::Vector3) + ((192 + sizeof(UnityEngine::Vector3)) % 8 != 0 ? (8 - (192 + sizeof(UnityEngine::Vector3)) % 8) : 0)> __GlobalNamespace_SaberSwingRatingCounterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberSwingRatingCounter*, "", "SaberSwingRatingCounter");

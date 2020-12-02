@@ -67,7 +67,7 @@ namespace GlobalNamespace {
       // Set static field: static public SteamVR_Skybox/CellSize x8
       static void _set_x8(GlobalNamespace::SteamVR_Skybox::CellSize value);
     }; // SteamVR_Skybox/CellSize
-    check_size<sizeof(SteamVR_Skybox::CellSize), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_SteamVR_Skybox_CellSizeSizeCheck;
+    check_size<sizeof(SteamVR_Skybox::CellSize), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_SteamVR_Skybox_CellSizeSizeCheck;
     // public UnityEngine.Texture front
     // Offset: 0x18
     UnityEngine::Texture* front;
@@ -122,7 +122,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SteamVR_Skybox* New_ctor();
   }; // SteamVR_Skybox
-  check_size<sizeof(SteamVR_Skybox), 76 + sizeof(float) + 8 - (76 + sizeof(float)) % 8> __GlobalNamespace_SteamVR_SkyboxSizeCheck;
+  check_size<sizeof(SteamVR_Skybox), 76 + sizeof(float) + ((76 + sizeof(float)) % 8 != 0 ? (8 - (76 + sizeof(float)) % 8) : 0)> __GlobalNamespace_SteamVR_SkyboxSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Skybox*, "", "SteamVR_Skybox");

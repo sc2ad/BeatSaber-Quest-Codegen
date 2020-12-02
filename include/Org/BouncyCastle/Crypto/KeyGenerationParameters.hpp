@@ -34,7 +34,7 @@ namespace Org::BouncyCastle::Crypto {
     // Offset: 0x149B0CC
     int get_Strength();
   }; // Org.BouncyCastle.Crypto.KeyGenerationParameters
-  check_size<sizeof(KeyGenerationParameters), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __Org_BouncyCastle_Crypto_KeyGenerationParametersSizeCheck;
+  check_size<sizeof(KeyGenerationParameters), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __Org_BouncyCastle_Crypto_KeyGenerationParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::KeyGenerationParameters*, "Org.BouncyCastle.Crypto", "KeyGenerationParameters");

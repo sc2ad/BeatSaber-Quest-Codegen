@@ -40,7 +40,7 @@ namespace Zenject {
     // Base method: UnityEngine.Object IPrefabProvider::GetPrefab()
     UnityEngine::Object* GetPrefab();
   }; // Zenject.PrefabProviderResource
-  check_size<sizeof(PrefabProviderResource), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Zenject_PrefabProviderResourceSizeCheck;
+  check_size<sizeof(PrefabProviderResource), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __Zenject_PrefabProviderResourceSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabProviderResource*, "Zenject", "PrefabProviderResource");

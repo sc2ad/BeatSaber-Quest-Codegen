@@ -34,7 +34,7 @@ namespace Zenject {
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();
   }; // Zenject.DefaultGameObjectParentInstaller
-  check_size<sizeof(DefaultGameObjectParentInstaller), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Zenject_DefaultGameObjectParentInstallerSizeCheck;
+  check_size<sizeof(DefaultGameObjectParentInstaller), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Zenject_DefaultGameObjectParentInstallerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DefaultGameObjectParentInstaller*, "Zenject", "DefaultGameObjectParentInstaller");

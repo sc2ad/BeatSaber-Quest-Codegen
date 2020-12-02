@@ -215,7 +215,7 @@ namespace System {
     // Set static field: static public System.TokenType SeparatorTokenMask
     static void _set_SeparatorTokenMask(System::TokenType value);
   }; // System.TokenType
-  check_size<sizeof(TokenType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_TokenTypeSizeCheck;
+  check_size<sizeof(TokenType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_TokenTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TokenType, "System", "TokenType");

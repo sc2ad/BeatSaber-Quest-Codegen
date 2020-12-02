@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NetworkPlayerEntitlementChecker::CachedTcs* New_ctor();
   }; // NetworkPlayerEntitlementChecker/CachedTcs
-  check_size<sizeof(NetworkPlayerEntitlementChecker::CachedTcs), 32 + sizeof(float) + 8 - (32 + sizeof(float)) % 8> __GlobalNamespace_NetworkPlayerEntitlementChecker_CachedTcsSizeCheck;
+  check_size<sizeof(NetworkPlayerEntitlementChecker::CachedTcs), 32 + sizeof(float) + ((32 + sizeof(float)) % 8 != 0 ? (8 - (32 + sizeof(float)) % 8) : 0)> __GlobalNamespace_NetworkPlayerEntitlementChecker_CachedTcsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs*, "", "NetworkPlayerEntitlementChecker/CachedTcs");

@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Offset: 0x19F6990
     void ProcessAllNotesInTimeRow(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* notes);
   }; // NotesInTimeRowProcessor
-  check_size<sizeof(NotesInTimeRowProcessor), 40 + sizeof(float) + 8 - (40 + sizeof(float)) % 8> __GlobalNamespace_NotesInTimeRowProcessorSizeCheck;
+  check_size<sizeof(NotesInTimeRowProcessor), 40 + sizeof(float) + ((40 + sizeof(float)) % 8 != 0 ? (8 - (40 + sizeof(float)) % 8) : 0)> __GlobalNamespace_NotesInTimeRowProcessorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NotesInTimeRowProcessor*, "", "NotesInTimeRowProcessor");

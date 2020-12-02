@@ -127,7 +127,7 @@ namespace System::Diagnostics::Tracing {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Diagnostics.Tracing.ActivityFilter
-  check_size<sizeof(ActivityFilter), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __System_Diagnostics_Tracing_ActivityFilterSizeCheck;
+  check_size<sizeof(ActivityFilter), 72 + sizeof(void*) + ((72 + sizeof(void*)) % 8 != 0 ? (8 - (72 + sizeof(void*)) % 8) : 0)> __System_Diagnostics_Tracing_ActivityFilterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ActivityFilter*, "System.Diagnostics.Tracing", "ActivityFilter");

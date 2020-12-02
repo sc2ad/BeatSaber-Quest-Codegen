@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LocalNetworkDiscoveryManager::BroadcastPacket* New_ctor();
   }; // LocalNetworkDiscoveryManager/BroadcastPacket
-  check_size<sizeof(LocalNetworkDiscoveryManager::BroadcastPacket), 56 + sizeof(GlobalNamespace::GameplayServerConfiguration) + 8 - (56 + sizeof(GlobalNamespace::GameplayServerConfiguration)) % 8> __GlobalNamespace_LocalNetworkDiscoveryManager_BroadcastPacketSizeCheck;
+  check_size<sizeof(LocalNetworkDiscoveryManager::BroadcastPacket), 56 + sizeof(GlobalNamespace::GameplayServerConfiguration) + ((56 + sizeof(GlobalNamespace::GameplayServerConfiguration)) % 8 != 0 ? (8 - (56 + sizeof(GlobalNamespace::GameplayServerConfiguration)) % 8) : 0)> __GlobalNamespace_LocalNetworkDiscoveryManager_BroadcastPacketSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::BroadcastPacket*, "", "LocalNetworkDiscoveryManager/BroadcastPacket");

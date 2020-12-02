@@ -72,7 +72,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
   }; // Org.BouncyCastle.Asn1.DerEnumerated
-  check_size<sizeof(DerEnumerated), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __Org_BouncyCastle_Asn1_DerEnumeratedSizeCheck;
+  check_size<sizeof(DerEnumerated), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __Org_BouncyCastle_Asn1_DerEnumeratedSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerEnumerated*, "Org.BouncyCastle.Asn1", "DerEnumerated");

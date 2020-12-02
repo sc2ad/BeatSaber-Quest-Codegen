@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Threading.Tasks.Task`1<AuthenticationToken> IAuthenticationTokenProvider::GetAuthenticationToken()
     System::Threading::Tasks::Task_1<GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
   }; // PlatformAuthenticationTokenProvider
-  check_size<sizeof(PlatformAuthenticationTokenProvider), 48 + sizeof(GlobalNamespace::AuthenticationToken::Platform) + 8 - (48 + sizeof(GlobalNamespace::AuthenticationToken::Platform)) % 8> __GlobalNamespace_PlatformAuthenticationTokenProviderSizeCheck;
+  check_size<sizeof(PlatformAuthenticationTokenProvider), 48 + sizeof(GlobalNamespace::AuthenticationToken::Platform) + ((48 + sizeof(GlobalNamespace::AuthenticationToken::Platform)) % 8 != 0 ? (8 - (48 + sizeof(GlobalNamespace::AuthenticationToken::Platform)) % 8) : 0)> __GlobalNamespace_PlatformAuthenticationTokenProviderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformAuthenticationTokenProvider*, "", "PlatformAuthenticationTokenProvider");

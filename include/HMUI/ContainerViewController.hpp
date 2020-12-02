@@ -132,7 +132,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static ContainerViewController* New_ctor();
   }; // HMUI.ContainerViewController
-  check_size<sizeof(ContainerViewController), 120 + sizeof(void*) + 8 - (120 + sizeof(void*)) % 8> __HMUI_ContainerViewControllerSizeCheck;
+  check_size<sizeof(ContainerViewController), 120 + sizeof(void*) + ((120 + sizeof(void*)) % 8 != 0 ? (8 - (120 + sizeof(void*)) % 8) : 0)> __HMUI_ContainerViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ContainerViewController*, "HMUI", "ContainerViewController");

@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SteamLevelProductsModelSO::LevelProductData* New_ctor();
   }; // SteamLevelProductsModelSO/LevelProductData
-  check_size<sizeof(SteamLevelProductsModelSO::LevelProductData), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_SteamLevelProductsModelSO_LevelProductDataSizeCheck;
+  check_size<sizeof(SteamLevelProductsModelSO::LevelProductData), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_SteamLevelProductsModelSO_LevelProductDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*, "", "SteamLevelProductsModelSO/LevelProductData");

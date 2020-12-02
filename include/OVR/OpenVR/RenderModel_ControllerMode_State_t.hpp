@@ -22,7 +22,7 @@ namespace OVR::OpenVR {
       return bScrollWheelVisible;
     }
   }; // OVR.OpenVR.RenderModel_ControllerMode_State_t
-  check_size<sizeof(RenderModel_ControllerMode_State_t), 0 + sizeof(bool) + 8 - (0 + sizeof(bool)) % 8> __OVR_OpenVR_RenderModel_ControllerMode_State_tSizeCheck;
+  check_size<sizeof(RenderModel_ControllerMode_State_t), 0 + sizeof(bool) + ((0 + sizeof(bool)) % 8 != 0 ? (8 - (0 + sizeof(bool)) % 8) : 0)> __OVR_OpenVR_RenderModel_ControllerMode_State_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_ControllerMode_State_t, "OVR.OpenVR", "RenderModel_ControllerMode_State_t");

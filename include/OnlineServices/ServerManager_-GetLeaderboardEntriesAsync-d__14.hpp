@@ -74,7 +74,7 @@ namespace OnlineServices {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.ServerManager/<GetLeaderboardEntriesAsync>d__14
-  check_size<sizeof(ServerManager::$GetLeaderboardEntriesAsync$d__14), 88 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::GetLeaderboardEntriesResult>) + 8 - (88 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::GetLeaderboardEntriesResult>)) % 8> __OnlineServices_ServerManager_$GetLeaderboardEntriesAsync$d__14SizeCheck;
+  check_size<sizeof(ServerManager::$GetLeaderboardEntriesAsync$d__14), 88 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::GetLeaderboardEntriesResult>) + ((88 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::GetLeaderboardEntriesResult>)) % 8 != 0 ? (8 - (88 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::GetLeaderboardEntriesResult>)) % 8) : 0)> __OnlineServices_ServerManager_$GetLeaderboardEntriesAsync$d__14SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::ServerManager::$GetLeaderboardEntriesAsync$d__14, "OnlineServices", "ServerManager/<GetLeaderboardEntriesAsync>d__14");

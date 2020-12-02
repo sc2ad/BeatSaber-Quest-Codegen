@@ -40,7 +40,7 @@ namespace System::Runtime::Remoting {
     // Base method: System.Runtime.Remoting.Messaging.IMessageSink IEnvoyInfo::get_EnvoySinks()
     System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySinks();
   }; // System.Runtime.Remoting.EnvoyInfo
-  check_size<sizeof(EnvoyInfo), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Runtime_Remoting_EnvoyInfoSizeCheck;
+  check_size<sizeof(EnvoyInfo), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Runtime_Remoting_EnvoyInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::EnvoyInfo*, "System.Runtime.Remoting", "EnvoyInfo");

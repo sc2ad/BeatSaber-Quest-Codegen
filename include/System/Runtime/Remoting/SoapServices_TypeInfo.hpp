@@ -32,7 +32,7 @@ namespace System::Runtime::Remoting {
     // Base method: System.Void Object::.ctor()
     static SoapServices::TypeInfo* New_ctor();
   }; // System.Runtime.Remoting.SoapServices/TypeInfo
-  check_size<sizeof(SoapServices::TypeInfo), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Runtime_Remoting_SoapServices_TypeInfoSizeCheck;
+  check_size<sizeof(SoapServices::TypeInfo), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Runtime_Remoting_SoapServices_TypeInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::SoapServices::TypeInfo*, "System.Runtime.Remoting", "SoapServices/TypeInfo");

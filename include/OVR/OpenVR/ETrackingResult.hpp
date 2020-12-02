@@ -53,7 +53,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.ETrackingResult Running_OutOfRange
     static void _set_Running_OutOfRange(OVR::OpenVR::ETrackingResult value);
   }; // OVR.OpenVR.ETrackingResult
-  check_size<sizeof(ETrackingResult), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_ETrackingResultSizeCheck;
+  check_size<sizeof(ETrackingResult), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OVR_OpenVR_ETrackingResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::ETrackingResult, "OVR.OpenVR", "ETrackingResult");

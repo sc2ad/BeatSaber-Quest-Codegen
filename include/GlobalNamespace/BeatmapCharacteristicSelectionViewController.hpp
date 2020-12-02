@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BeatmapCharacteristicSelectionViewController* New_ctor();
   }; // BeatmapCharacteristicSelectionViewController
-  check_size<sizeof(BeatmapCharacteristicSelectionViewController), 136 + sizeof(void*) + 8 - (136 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapCharacteristicSelectionViewControllerSizeCheck;
+  check_size<sizeof(BeatmapCharacteristicSelectionViewController), 136 + sizeof(void*) + ((136 + sizeof(void*)) % 8 != 0 ? (8 - (136 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_BeatmapCharacteristicSelectionViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicSelectionViewController*, "", "BeatmapCharacteristicSelectionViewController");

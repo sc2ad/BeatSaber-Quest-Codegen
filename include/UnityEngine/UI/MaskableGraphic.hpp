@@ -172,7 +172,7 @@ namespace UnityEngine::UI {
     // Base method: UnityEngine.GameObject IClippable::get_gameObject()
     UnityEngine::GameObject* UnityEngine_UI_IClippable_get_gameObject();
   }; // UnityEngine.UI.MaskableGraphic
-  check_size<sizeof(MaskableGraphic), 184 + sizeof(void*) + 8 - (184 + sizeof(void*)) % 8> __UnityEngine_UI_MaskableGraphicSizeCheck;
+  check_size<sizeof(MaskableGraphic), 184 + sizeof(void*) + ((184 + sizeof(void*)) % 8 != 0 ? (8 - (184 + sizeof(void*)) % 8) : 0)> __UnityEngine_UI_MaskableGraphicSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MaskableGraphic*, "UnityEngine.UI", "MaskableGraphic");

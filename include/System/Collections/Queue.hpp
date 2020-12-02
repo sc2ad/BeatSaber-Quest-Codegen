@@ -125,7 +125,7 @@ namespace System::Collections {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Collections.Queue
-  check_size<sizeof(Queue), 40 + sizeof(int) + 8 - (40 + sizeof(int)) % 8> __System_Collections_QueueSizeCheck;
+  check_size<sizeof(Queue), 40 + sizeof(int) + ((40 + sizeof(int)) % 8 != 0 ? (8 - (40 + sizeof(int)) % 8) : 0)> __System_Collections_QueueSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Queue*, "System.Collections", "Queue");

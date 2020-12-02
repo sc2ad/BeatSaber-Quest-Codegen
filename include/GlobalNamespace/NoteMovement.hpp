@@ -70,7 +70,7 @@ namespace GlobalNamespace {
       // Set static field: static public NoteMovement/MovementPhase Jumping
       static void _set_Jumping(GlobalNamespace::NoteMovement::MovementPhase value);
     }; // NoteMovement/MovementPhase
-    check_size<sizeof(NoteMovement::MovementPhase), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_NoteMovement_MovementPhaseSizeCheck;
+    check_size<sizeof(NoteMovement::MovementPhase), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_NoteMovement_MovementPhaseSizeCheck;
     // private NoteFloorMovement _floorMovement
     // Offset: 0x18
     GlobalNamespace::NoteFloorMovement* floorMovement;
@@ -230,7 +230,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NoteMovement* New_ctor();
   }; // NoteMovement
-  check_size<sizeof(NoteMovement), 120 + sizeof(UnityEngine::Vector3) + 8 - (120 + sizeof(UnityEngine::Vector3)) % 8> __GlobalNamespace_NoteMovementSizeCheck;
+  check_size<sizeof(NoteMovement), 120 + sizeof(UnityEngine::Vector3) + ((120 + sizeof(UnityEngine::Vector3)) % 8 != 0 ? (8 - (120 + sizeof(UnityEngine::Vector3)) % 8) : 0)> __GlobalNamespace_NoteMovementSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteMovement*, "", "NoteMovement");

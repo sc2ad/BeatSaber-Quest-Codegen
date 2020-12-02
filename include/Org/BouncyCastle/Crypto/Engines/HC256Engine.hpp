@@ -84,7 +84,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void Object::.ctor()
     static HC256Engine* New_ctor();
   }; // Org.BouncyCastle.Crypto.Engines.HC256Engine
-  check_size<sizeof(HC256Engine), 72 + sizeof(int) + 8 - (72 + sizeof(int)) % 8> __Org_BouncyCastle_Crypto_Engines_HC256EngineSizeCheck;
+  check_size<sizeof(HC256Engine), 72 + sizeof(int) + ((72 + sizeof(int)) % 8 != 0 ? (8 - (72 + sizeof(int)) % 8) : 0)> __Org_BouncyCastle_Crypto_Engines_HC256EngineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::HC256Engine*, "Org.BouncyCastle.Crypto.Engines", "HC256Engine");

@@ -82,7 +82,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.ProBuilder.Triangle
-  check_size<sizeof(Triangle), 8 + sizeof(int) + 8 - (8 + sizeof(int)) % 8> __UnityEngine_ProBuilder_TriangleSizeCheck;
+  check_size<sizeof(Triangle), 8 + sizeof(int) + ((8 + sizeof(int)) % 8 != 0 ? (8 - (8 + sizeof(int)) % 8) : 0)> __UnityEngine_ProBuilder_TriangleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Triangle, "UnityEngine.ProBuilder", "Triangle");

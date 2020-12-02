@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HapticsDesc
     constexpr HapticsDesc(int SampleRateHz_ = {}, int SampleSizeInBytes_ = {}, int MinimumSafeSamplesQueued_ = {}, int MinimumBufferSamplesCount_ = {}, int OptimalBufferSamplesCount_ = {}, int MaximumBufferSamplesCount_ = {}) noexcept : SampleRateHz{SampleRateHz_}, SampleSizeInBytes{SampleSizeInBytes_}, MinimumSafeSamplesQueued{MinimumSafeSamplesQueued_}, MinimumBufferSamplesCount{MinimumBufferSamplesCount_}, OptimalBufferSamplesCount{OptimalBufferSamplesCount_}, MaximumBufferSamplesCount{MaximumBufferSamplesCount_} {}
   }; // OVRPlugin/HapticsDesc
-  check_size<sizeof(OVRPlugin::HapticsDesc), 20 + sizeof(int) + 8 - (20 + sizeof(int)) % 8> __GlobalNamespace_OVRPlugin_HapticsDescSizeCheck;
+  check_size<sizeof(OVRPlugin::HapticsDesc), 20 + sizeof(int) + ((20 + sizeof(int)) % 8 != 0 ? (8 - (20 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OVRPlugin_HapticsDescSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HapticsDesc, "", "OVRPlugin/HapticsDesc");

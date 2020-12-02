@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A246A0
     float GetTiltAngle();
   }; // BeatmapObjectAvoidanceTiltEvaluator
-  check_size<sizeof(BeatmapObjectAvoidanceTiltEvaluator), 48 + sizeof(float) + 8 - (48 + sizeof(float)) % 8> __GlobalNamespace_BeatmapObjectAvoidanceTiltEvaluatorSizeCheck;
+  check_size<sizeof(BeatmapObjectAvoidanceTiltEvaluator), 48 + sizeof(float) + ((48 + sizeof(float)) % 8 != 0 ? (8 - (48 + sizeof(float)) % 8) : 0)> __GlobalNamespace_BeatmapObjectAvoidanceTiltEvaluatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator*, "", "BeatmapObjectAvoidanceTiltEvaluator");

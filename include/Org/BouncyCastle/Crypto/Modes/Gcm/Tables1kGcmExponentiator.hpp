@@ -50,7 +50,7 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     // Base method: System.Void Object::.ctor()
     static Tables1kGcmExponentiator* New_ctor();
   }; // Org.BouncyCastle.Crypto.Modes.Gcm.Tables1kGcmExponentiator
-  check_size<sizeof(Tables1kGcmExponentiator), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Modes_Gcm_Tables1kGcmExponentiatorSizeCheck;
+  check_size<sizeof(Tables1kGcmExponentiator), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_Modes_Gcm_Tables1kGcmExponentiatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator*, "Org.BouncyCastle.Crypto.Modes.Gcm", "Tables1kGcmExponentiator");

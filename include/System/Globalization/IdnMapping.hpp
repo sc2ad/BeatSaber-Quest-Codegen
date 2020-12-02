@@ -76,7 +76,7 @@ namespace System::Globalization {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Globalization.IdnMapping
-  check_size<sizeof(IdnMapping), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Globalization_IdnMappingSizeCheck;
+  check_size<sizeof(IdnMapping), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Globalization_IdnMappingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::IdnMapping*, "System.Globalization", "IdnMapping");

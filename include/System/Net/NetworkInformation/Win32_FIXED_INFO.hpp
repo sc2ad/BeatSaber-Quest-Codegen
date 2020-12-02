@@ -49,7 +49,7 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: Win32_FIXED_INFO
     constexpr Win32_FIXED_INFO(::Il2CppString* HostName_ = {}, ::Il2CppString* DomainName_ = {}, System::IntPtr CurrentDnsServer_ = {}, System::Net::NetworkInformation::Win32_IP_ADDR_STRING DnsServerList_ = {}, System::Net::NetworkInformation::NetBiosNodeType NodeType_ = {}, ::Il2CppString* ScopeId_ = {}, uint EnableRouting_ = {}, uint EnableProxy_ = {}, uint EnableDns_ = {}) noexcept : HostName{HostName_}, DomainName{DomainName_}, CurrentDnsServer{CurrentDnsServer_}, DnsServerList{DnsServerList_}, NodeType{NodeType_}, ScopeId{ScopeId_}, EnableRouting{EnableRouting_}, EnableProxy{EnableProxy_}, EnableDns{EnableDns_} {}
   }; // System.Net.NetworkInformation.Win32_FIXED_INFO
-  check_size<sizeof(Win32_FIXED_INFO), 80 + sizeof(uint) + 8 - (80 + sizeof(uint)) % 8> __System_Net_NetworkInformation_Win32_FIXED_INFOSizeCheck;
+  check_size<sizeof(Win32_FIXED_INFO), 80 + sizeof(uint) + ((80 + sizeof(uint)) % 8 != 0 ? (8 - (80 + sizeof(uint)) % 8) : 0)> __System_Net_NetworkInformation_Win32_FIXED_INFOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_FIXED_INFO, "System.Net.NetworkInformation", "Win32_FIXED_INFO");

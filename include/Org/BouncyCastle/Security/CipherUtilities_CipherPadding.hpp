@@ -217,7 +217,7 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static public Org.BouncyCastle.Security.CipherUtilities/CipherPadding ZEROBYTEPADDING
     static void _set_ZEROBYTEPADDING(Org::BouncyCastle::Security::CipherUtilities::CipherPadding value);
   }; // Org.BouncyCastle.Security.CipherUtilities/CipherPadding
-  check_size<sizeof(CipherUtilities::CipherPadding), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Org_BouncyCastle_Security_CipherUtilities_CipherPaddingSizeCheck;
+  check_size<sizeof(CipherUtilities::CipherPadding), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Org_BouncyCastle_Security_CipherUtilities_CipherPaddingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::CipherUtilities::CipherPadding, "Org.BouncyCastle.Security", "CipherUtilities/CipherPadding");

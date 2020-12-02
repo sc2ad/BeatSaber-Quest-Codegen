@@ -37,7 +37,7 @@ namespace UnityEngine::Internal {
     // Base method: System.Int32 Attribute::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.Internal.DefaultValueAttribute
-  check_size<sizeof(DefaultValueAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_Internal_DefaultValueAttributeSizeCheck;
+  check_size<sizeof(DefaultValueAttribute), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __UnityEngine_Internal_DefaultValueAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Internal::DefaultValueAttribute*, "UnityEngine.Internal", "DefaultValueAttribute");

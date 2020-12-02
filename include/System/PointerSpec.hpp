@@ -55,7 +55,7 @@ namespace System {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.PointerSpec
-  check_size<sizeof(PointerSpec), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __System_PointerSpecSizeCheck;
+  check_size<sizeof(PointerSpec), 16 + sizeof(int) + ((16 + sizeof(int)) % 8 != 0 ? (8 - (16 + sizeof(int)) % 8) : 0)> __System_PointerSpecSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::PointerSpec*, "System", "PointerSpec");

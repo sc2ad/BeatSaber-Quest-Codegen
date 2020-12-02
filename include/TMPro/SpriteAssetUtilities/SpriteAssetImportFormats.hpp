@@ -35,7 +35,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Set static field: static public TMPro.SpriteAssetUtilities.SpriteAssetImportFormats TexturePacker
     static void _set_TexturePacker(TMPro::SpriteAssetUtilities::SpriteAssetImportFormats value);
   }; // TMPro.SpriteAssetUtilities.SpriteAssetImportFormats
-  check_size<sizeof(SpriteAssetImportFormats), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __TMPro_SpriteAssetUtilities_SpriteAssetImportFormatsSizeCheck;
+  check_size<sizeof(SpriteAssetImportFormats), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __TMPro_SpriteAssetUtilities_SpriteAssetImportFormatsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::SpriteAssetImportFormats, "TMPro.SpriteAssetUtilities", "SpriteAssetImportFormats");

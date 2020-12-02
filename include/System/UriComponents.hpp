@@ -125,7 +125,7 @@ namespace System {
     // Set static field: static public System.UriComponents PathAndQuery
     static void _set_PathAndQuery(System::UriComponents value);
   }; // System.UriComponents
-  check_size<sizeof(UriComponents), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_UriComponentsSizeCheck;
+  check_size<sizeof(UriComponents), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_UriComponentsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UriComponents, "System", "UriComponents");

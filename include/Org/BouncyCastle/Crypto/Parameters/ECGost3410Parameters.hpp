@@ -35,7 +35,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1046070
     static ECGost3410Parameters* New_ctor(Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters* dp, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet, Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet);
   }; // Org.BouncyCastle.Crypto.Parameters.ECGost3410Parameters
-  check_size<sizeof(ECGost3410Parameters), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Parameters_ECGost3410ParametersSizeCheck;
+  check_size<sizeof(ECGost3410Parameters), 88 + sizeof(void*) + ((88 + sizeof(void*)) % 8 != 0 ? (8 - (88 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_Parameters_ECGost3410ParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters*, "Org.BouncyCastle.Crypto.Parameters", "ECGost3410Parameters");

@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MultiplayerPlayersManager/<SwitchLocalPlayerToInactiveCoroutine>d__52
-  check_size<sizeof(MultiplayerPlayersManager::$SwitchLocalPlayerToInactiveCoroutine$d__52), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerPlayersManager_$SwitchLocalPlayerToInactiveCoroutine$d__52SizeCheck;
+  check_size<sizeof(MultiplayerPlayersManager::$SwitchLocalPlayerToInactiveCoroutine$d__52), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MultiplayerPlayersManager_$SwitchLocalPlayerToInactiveCoroutine$d__52SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPlayersManager::$SwitchLocalPlayerToInactiveCoroutine$d__52*, "", "MultiplayerPlayersManager/<SwitchLocalPlayerToInactiveCoroutine>d__52");

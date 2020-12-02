@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OculusMRCManager* New_ctor();
   }; // OculusMRCManager
-  check_size<sizeof(OculusMRCManager), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_OculusMRCManagerSizeCheck;
+  check_size<sizeof(OculusMRCManager), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_OculusMRCManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusMRCManager*, "", "OculusMRCManager");

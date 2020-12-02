@@ -32,7 +32,7 @@ namespace JetBrains::Annotations {
     // Offset: 0x19EE3A8
     void set_ConditionType(JetBrains::Annotations::AssertionConditionType value);
   }; // JetBrains.Annotations.AssertionConditionAttribute
-  check_size<sizeof(AssertionConditionAttribute), 16 + sizeof(JetBrains::Annotations::AssertionConditionType) + 8 - (16 + sizeof(JetBrains::Annotations::AssertionConditionType)) % 8> __JetBrains_Annotations_AssertionConditionAttributeSizeCheck;
+  check_size<sizeof(AssertionConditionAttribute), 16 + sizeof(JetBrains::Annotations::AssertionConditionType) + ((16 + sizeof(JetBrains::Annotations::AssertionConditionType)) % 8 != 0 ? (8 - (16 + sizeof(JetBrains::Annotations::AssertionConditionType)) % 8) : 0)> __JetBrains_Annotations_AssertionConditionAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AssertionConditionAttribute*, "JetBrains.Annotations", "AssertionConditionAttribute");

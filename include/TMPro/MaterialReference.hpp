@@ -78,7 +78,7 @@ namespace TMPro {
     // Offset: 0xF4EF3C
     static int AddMaterialReference(UnityEngine::Material* material, TMPro::TMP_SpriteAsset* spriteAsset, ::Array<TMPro::MaterialReference>* materialReferences, System::Collections::Generic::Dictionary_2<int, int>* materialReferenceIndexLookup);
   }; // TMPro.MaterialReference
-  check_size<sizeof(MaterialReference), 52 + sizeof(int) + 8 - (52 + sizeof(int)) % 8> __TMPro_MaterialReferenceSizeCheck;
+  check_size<sizeof(MaterialReference), 52 + sizeof(int) + ((52 + sizeof(int)) % 8 != 0 ? (8 - (52 + sizeof(int)) % 8) : 0)> __TMPro_MaterialReferenceSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::MaterialReference, "TMPro", "MaterialReference");

@@ -23,7 +23,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Base method: System.Void Object::.ctor()
     static UserInfo* New_ctor();
   }; // BeatSaberAPI.DataTransferObjects.UserInfo
-  check_size<sizeof(UserInfo), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __BeatSaberAPI_DataTransferObjects_UserInfoSizeCheck;
+  check_size<sizeof(UserInfo), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __BeatSaberAPI_DataTransferObjects_UserInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::UserInfo*, "BeatSaberAPI.DataTransferObjects", "UserInfo");

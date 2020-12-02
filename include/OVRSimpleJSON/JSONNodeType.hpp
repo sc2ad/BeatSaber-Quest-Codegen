@@ -71,7 +71,7 @@ namespace OVRSimpleJSON {
     // Set static field: static public OVRSimpleJSON.JSONNodeType Custom
     static void _set_Custom(OVRSimpleJSON::JSONNodeType value);
   }; // OVRSimpleJSON.JSONNodeType
-  check_size<sizeof(JSONNodeType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVRSimpleJSON_JSONNodeTypeSizeCheck;
+  check_size<sizeof(JSONNodeType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OVRSimpleJSON_JSONNodeTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNodeType, "OVRSimpleJSON", "JSONNodeType");

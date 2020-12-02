@@ -46,7 +46,7 @@ namespace System::Resources {
     // Offset: 0x15D61A4
     static bool CanCache(System::Resources::ResourceTypeCode value);
   }; // System.Resources.ResourceLocator
-  check_size<sizeof(ResourceLocator), 8 + sizeof(int) + 8 - (8 + sizeof(int)) % 8> __System_Resources_ResourceLocatorSizeCheck;
+  check_size<sizeof(ResourceLocator), 8 + sizeof(int) + ((8 + sizeof(int)) % 8 != 0 ? (8 - (8 + sizeof(int)) % 8) : 0)> __System_Resources_ResourceLocatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceLocator, "System.Resources", "ResourceLocator");

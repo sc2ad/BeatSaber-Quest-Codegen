@@ -27,7 +27,7 @@ namespace System::Resources {
     // Offset: 0x15DE0B0
     ::Il2CppString* get_Version();
   }; // System.Resources.SatelliteContractVersionAttribute
-  check_size<sizeof(SatelliteContractVersionAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Resources_SatelliteContractVersionAttributeSizeCheck;
+  check_size<sizeof(SatelliteContractVersionAttribute), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Resources_SatelliteContractVersionAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::SatelliteContractVersionAttribute*, "System.Resources", "SatelliteContractVersionAttribute");

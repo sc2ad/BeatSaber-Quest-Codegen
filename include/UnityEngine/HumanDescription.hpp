@@ -71,7 +71,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: HumanDescription
     constexpr HumanDescription(::Array<UnityEngine::HumanBone>* human_ = {}, ::Array<UnityEngine::SkeletonBone>* skeleton_ = {}, float m_ArmTwist_ = {}, float m_ForeArmTwist_ = {}, float m_UpperLegTwist_ = {}, float m_LegTwist_ = {}, float m_ArmStretch_ = {}, float m_LegStretch_ = {}, float m_FeetSpacing_ = {}, float m_GlobalScale_ = {}, ::Il2CppString* m_RootMotionBoneName_ = {}, bool m_HasTranslationDoF_ = {}, bool m_HasExtraRoot_ = {}, bool m_SkeletonHasParents_ = {}) noexcept : human{human_}, skeleton{skeleton_}, m_ArmTwist{m_ArmTwist_}, m_ForeArmTwist{m_ForeArmTwist_}, m_UpperLegTwist{m_UpperLegTwist_}, m_LegTwist{m_LegTwist_}, m_ArmStretch{m_ArmStretch_}, m_LegStretch{m_LegStretch_}, m_FeetSpacing{m_FeetSpacing_}, m_GlobalScale{m_GlobalScale_}, m_RootMotionBoneName{m_RootMotionBoneName_}, m_HasTranslationDoF{m_HasTranslationDoF_}, m_HasExtraRoot{m_HasExtraRoot_}, m_SkeletonHasParents{m_SkeletonHasParents_} {}
   }; // UnityEngine.HumanDescription
-  check_size<sizeof(HumanDescription), 58 + sizeof(bool) + 8 - (58 + sizeof(bool)) % 8> __UnityEngine_HumanDescriptionSizeCheck;
+  check_size<sizeof(HumanDescription), 58 + sizeof(bool) + ((58 + sizeof(bool)) % 8 != 0 ? (8 - (58 + sizeof(bool)) % 8) : 0)> __UnityEngine_HumanDescriptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanDescription, "UnityEngine", "HumanDescription");

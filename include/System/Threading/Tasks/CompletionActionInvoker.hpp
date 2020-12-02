@@ -57,7 +57,7 @@ namespace System::Threading::Tasks {
     // Maps to method: MarkAborted
     void System_Threading_IThreadPoolWorkItem_MarkAborted(System::Threading::ThreadAbortException* tae);
   }; // System.Threading.Tasks.CompletionActionInvoker
-  check_size<sizeof(CompletionActionInvoker), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Threading_Tasks_CompletionActionInvokerSizeCheck;
+  check_size<sizeof(CompletionActionInvoker), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Threading_Tasks_CompletionActionInvokerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::CompletionActionInvoker*, "System.Threading.Tasks", "CompletionActionInvoker");

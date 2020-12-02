@@ -132,7 +132,7 @@ namespace Mono::Security::Cryptography {
     // Base method: System.Void AsymmetricAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
   }; // Mono.Security.Cryptography.DSAManaged
-  check_size<sizeof(DSAManaged), 112 + sizeof(void*) + 8 - (112 + sizeof(void*)) % 8> __Mono_Security_Cryptography_DSAManagedSizeCheck;
+  check_size<sizeof(DSAManaged), 112 + sizeof(void*) + ((112 + sizeof(void*)) % 8 != 0 ? (8 - (112 + sizeof(void*)) % 8) : 0)> __Mono_Security_Cryptography_DSAManagedSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::DSAManaged*, "Mono.Security.Cryptography", "DSAManaged");

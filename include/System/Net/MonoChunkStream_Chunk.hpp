@@ -26,7 +26,7 @@ namespace System::Net {
     // Offset: 0x12BF5B8
     int Read(::Array<uint8_t>* buffer, int offset, int size);
   }; // System.Net.MonoChunkStream/Chunk
-  check_size<sizeof(MonoChunkStream::Chunk), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __System_Net_MonoChunkStream_ChunkSizeCheck;
+  check_size<sizeof(MonoChunkStream::Chunk), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __System_Net_MonoChunkStream_ChunkSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::MonoChunkStream::Chunk*, "System.Net", "MonoChunkStream/Chunk");

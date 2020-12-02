@@ -197,7 +197,7 @@ namespace System::Collections {
     // Base method: System.Array ArrayList::ToArray(System.Type type)
     System::Array* ToArray(System::Type* type);
   }; // System.Collections.ArrayList/ReadOnlyArrayList
-  check_size<sizeof(ArrayList::ReadOnlyArrayList), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Collections_ArrayList_ReadOnlyArrayListSizeCheck;
+  check_size<sizeof(ArrayList::ReadOnlyArrayList), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __System_Collections_ArrayList_ReadOnlyArrayListSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ArrayList::ReadOnlyArrayList*, "System.Collections", "ArrayList/ReadOnlyArrayList");

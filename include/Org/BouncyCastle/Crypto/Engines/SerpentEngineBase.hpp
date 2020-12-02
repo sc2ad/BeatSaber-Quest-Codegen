@@ -154,7 +154,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Base method: System.Void IBlockCipher::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
-  check_size<sizeof(SerpentEngineBase), 44 + sizeof(int) + 8 - (44 + sizeof(int)) % 8> __Org_BouncyCastle_Crypto_Engines_SerpentEngineBaseSizeCheck;
+  check_size<sizeof(SerpentEngineBase), 44 + sizeof(int) + ((44 + sizeof(int)) % 8 != 0 ? (8 - (44 + sizeof(int)) % 8) : 0)> __Org_BouncyCastle_Crypto_Engines_SerpentEngineBaseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::SerpentEngineBase*, "Org.BouncyCastle.Crypto.Engines", "SerpentEngineBase");

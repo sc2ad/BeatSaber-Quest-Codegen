@@ -97,7 +97,7 @@ namespace OVRSimpleJSON {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // OVRSimpleJSON.JSONNode/<get_DeepChildren>d__42
-  check_size<sizeof(JSONNode::$get_DeepChildren$d__42), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __OVRSimpleJSON_JSONNode_$get_DeepChildren$d__42SizeCheck;
+  check_size<sizeof(JSONNode::$get_DeepChildren$d__42), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __OVRSimpleJSON_JSONNode_$get_DeepChildren$d__42SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::$get_DeepChildren$d__42*, "OVRSimpleJSON", "JSONNode/<get_DeepChildren>d__42");

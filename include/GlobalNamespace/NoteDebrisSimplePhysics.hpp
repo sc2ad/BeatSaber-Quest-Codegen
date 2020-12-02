@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NoteDebrisSimplePhysics* New_ctor();
   }; // NoteDebrisSimplePhysics
-  check_size<sizeof(NoteDebrisSimplePhysics), 68 + sizeof(bool) + 8 - (68 + sizeof(bool)) % 8> __GlobalNamespace_NoteDebrisSimplePhysicsSizeCheck;
+  check_size<sizeof(NoteDebrisSimplePhysics), 68 + sizeof(bool) + ((68 + sizeof(bool)) % 8 != 0 ? (8 - (68 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_NoteDebrisSimplePhysicsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebrisSimplePhysics*, "", "NoteDebrisSimplePhysics");

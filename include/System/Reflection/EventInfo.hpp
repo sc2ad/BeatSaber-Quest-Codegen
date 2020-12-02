@@ -91,7 +91,7 @@ namespace System::Reflection {
     // Base method: System.Int32 MemberInfo::GetHashCode()
     int GetHashCode();
   }; // System.Reflection.EventInfo
-  check_size<sizeof(EventInfo), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Reflection_EventInfoSizeCheck;
+  check_size<sizeof(EventInfo), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Reflection_EventInfoSizeCheck;
   // static public System.Boolean op_Equality(System.Reflection.EventInfo left, System.Reflection.EventInfo right)
   // Offset: 0x15C68C4
   bool operator ==(System::Reflection::EventInfo* left, System::Reflection::EventInfo& right);

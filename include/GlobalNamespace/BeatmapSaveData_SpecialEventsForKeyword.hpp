@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A2D688
     static BeatmapSaveData::SpecialEventsForKeyword* New_ctor(::Il2CppString* keyword, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>* specialEvents);
   }; // BeatmapSaveData/SpecialEventsForKeyword
-  check_size<sizeof(BeatmapSaveData::SpecialEventsForKeyword), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapSaveData_SpecialEventsForKeywordSizeCheck;
+  check_size<sizeof(BeatmapSaveData::SpecialEventsForKeyword), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_BeatmapSaveData_SpecialEventsForKeywordSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*, "", "BeatmapSaveData/SpecialEventsForKeyword");

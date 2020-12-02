@@ -24,7 +24,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x28
     ::Il2CppObject* Value;
   }; // System.Runtime.Remoting.Messaging.Header
-  check_size<sizeof(Header), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Runtime_Remoting_Messaging_HeaderSizeCheck;
+  check_size<sizeof(Header), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __System_Runtime_Remoting_Messaging_HeaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::Header*, "System.Runtime.Remoting.Messaging", "Header");

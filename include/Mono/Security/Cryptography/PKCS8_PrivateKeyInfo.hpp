@@ -79,7 +79,7 @@ namespace Mono::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     static PKCS8::PrivateKeyInfo* New_ctor();
   }; // Mono.Security.Cryptography.PKCS8/PrivateKeyInfo
-  check_size<sizeof(PKCS8::PrivateKeyInfo), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Mono_Security_Cryptography_PKCS8_PrivateKeyInfoSizeCheck;
+  check_size<sizeof(PKCS8::PrivateKeyInfo), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __Mono_Security_Cryptography_PKCS8_PrivateKeyInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::PKCS8::PrivateKeyInfo*, "Mono.Security.Cryptography", "PKCS8/PrivateKeyInfo");

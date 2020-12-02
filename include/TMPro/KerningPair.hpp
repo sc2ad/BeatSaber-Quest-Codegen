@@ -74,7 +74,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static KerningPair* New_ctor();
   }; // TMPro.KerningPair
-  check_size<sizeof(KerningPair), 60 + sizeof(bool) + 8 - (60 + sizeof(bool)) % 8> __TMPro_KerningPairSizeCheck;
+  check_size<sizeof(KerningPair), 60 + sizeof(bool) + ((60 + sizeof(bool)) % 8 != 0 ? (8 - (60 + sizeof(bool)) % 8) : 0)> __TMPro_KerningPairSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningPair*, "TMPro", "KerningPair");

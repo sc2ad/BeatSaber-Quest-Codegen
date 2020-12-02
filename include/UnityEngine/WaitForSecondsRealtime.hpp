@@ -34,7 +34,7 @@ namespace UnityEngine {
     // Base method: System.Boolean CustomYieldInstruction::get_keepWaiting()
     bool get_keepWaiting();
   }; // UnityEngine.WaitForSecondsRealtime
-  check_size<sizeof(WaitForSecondsRealtime), 20 + sizeof(float) + 8 - (20 + sizeof(float)) % 8> __UnityEngine_WaitForSecondsRealtimeSizeCheck;
+  check_size<sizeof(WaitForSecondsRealtime), 20 + sizeof(float) + ((20 + sizeof(float)) % 8 != 0 ? (8 - (20 + sizeof(float)) % 8) : 0)> __UnityEngine_WaitForSecondsRealtimeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitForSecondsRealtime*, "UnityEngine", "WaitForSecondsRealtime");

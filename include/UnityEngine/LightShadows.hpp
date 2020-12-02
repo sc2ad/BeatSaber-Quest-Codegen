@@ -41,7 +41,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.LightShadows Soft
     static void _set_Soft(UnityEngine::LightShadows value);
   }; // UnityEngine.LightShadows
-  check_size<sizeof(LightShadows), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_LightShadowsSizeCheck;
+  check_size<sizeof(LightShadows), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_LightShadowsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LightShadows, "UnityEngine", "LightShadows");

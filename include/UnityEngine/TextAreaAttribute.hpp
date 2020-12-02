@@ -23,7 +23,7 @@ namespace UnityEngine {
     // Offset: 0x16C33D4
     static TextAreaAttribute* New_ctor(int minLines, int maxLines);
   }; // UnityEngine.TextAreaAttribute
-  check_size<sizeof(TextAreaAttribute), 20 + sizeof(int) + 8 - (20 + sizeof(int)) % 8> __UnityEngine_TextAreaAttributeSizeCheck;
+  check_size<sizeof(TextAreaAttribute), 20 + sizeof(int) + ((20 + sizeof(int)) % 8 != 0 ? (8 - (20 + sizeof(int)) % 8) : 0)> __UnityEngine_TextAreaAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextAreaAttribute*, "UnityEngine", "TextAreaAttribute");

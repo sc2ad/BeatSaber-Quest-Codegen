@@ -35,7 +35,7 @@ namespace OnlineServices {
     // Set static field: static public OnlineServices.SendLeaderboardEntryResult Failed
     static void _set_Failed(OnlineServices::SendLeaderboardEntryResult value);
   }; // OnlineServices.SendLeaderboardEntryResult
-  check_size<sizeof(SendLeaderboardEntryResult), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OnlineServices_SendLeaderboardEntryResultSizeCheck;
+  check_size<sizeof(SendLeaderboardEntryResult), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OnlineServices_SendLeaderboardEntryResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::SendLeaderboardEntryResult, "OnlineServices", "SendLeaderboardEntryResult");

@@ -42,7 +42,7 @@ namespace System::Reflection {
     // Offset: 0x15C79EC
     System::Reflection::ResourceLocation get_ResourceLocation();
   }; // System.Reflection.ManifestResourceInfo
-  check_size<sizeof(ManifestResourceInfo), 32 + sizeof(System::Reflection::ResourceLocation) + 8 - (32 + sizeof(System::Reflection::ResourceLocation)) % 8> __System_Reflection_ManifestResourceInfoSizeCheck;
+  check_size<sizeof(ManifestResourceInfo), 32 + sizeof(System::Reflection::ResourceLocation) + ((32 + sizeof(System::Reflection::ResourceLocation)) % 8 != 0 ? (8 - (32 + sizeof(System::Reflection::ResourceLocation)) % 8) : 0)> __System_Reflection_ManifestResourceInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ManifestResourceInfo*, "System.Reflection", "ManifestResourceInfo");

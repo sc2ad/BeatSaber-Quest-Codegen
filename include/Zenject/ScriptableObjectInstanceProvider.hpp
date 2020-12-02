@@ -97,7 +97,7 @@ namespace Zenject {
     // Base method: System.Void IProvider::GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Action*& injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.ScriptableObjectInstanceProvider
-  check_size<sizeof(ScriptableObjectInstanceProvider), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __Zenject_ScriptableObjectInstanceProviderSizeCheck;
+  check_size<sizeof(ScriptableObjectInstanceProvider), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __Zenject_ScriptableObjectInstanceProviderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectInstanceProvider*, "Zenject", "ScriptableObjectInstanceProvider");

@@ -50,7 +50,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Int32 Stream::ReadByte()
     int ReadByte();
   }; // Org.BouncyCastle.Asn1.IndefiniteLengthInputStream
-  check_size<sizeof(IndefiniteLengthInputStream), 64 + sizeof(bool) + 8 - (64 + sizeof(bool)) % 8> __Org_BouncyCastle_Asn1_IndefiniteLengthInputStreamSizeCheck;
+  check_size<sizeof(IndefiniteLengthInputStream), 64 + sizeof(bool) + ((64 + sizeof(bool)) % 8 != 0 ? (8 - (64 + sizeof(bool)) % 8) : 0)> __Org_BouncyCastle_Asn1_IndefiniteLengthInputStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::IndefiniteLengthInputStream*, "Org.BouncyCastle.Asn1", "IndefiniteLengthInputStream");

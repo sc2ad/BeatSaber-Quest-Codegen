@@ -77,7 +77,7 @@ namespace Valve::VR {
     // Offset: 0x136BD7C
     void RemoveKeyInSection(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, Valve::VR::EVRSettingsError& peError);
   }; // Valve.VR.CVRSettings
-  check_size<sizeof(CVRSettings), 16 + sizeof(Valve::VR::IVRSettings) + 8 - (16 + sizeof(Valve::VR::IVRSettings)) % 8> __Valve_VR_CVRSettingsSizeCheck;
+  check_size<sizeof(CVRSettings), 16 + sizeof(Valve::VR::IVRSettings) + ((16 + sizeof(Valve::VR::IVRSettings)) % 8 != 0 ? (8 - (16 + sizeof(Valve::VR::IVRSettings)) % 8) : 0)> __Valve_VR_CVRSettingsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRSettings*, "Valve.VR", "CVRSettings");

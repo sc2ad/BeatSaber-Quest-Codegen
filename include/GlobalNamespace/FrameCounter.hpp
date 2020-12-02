@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static FrameCounter* New_ctor();
   }; // FrameCounter
-  check_size<sizeof(FrameCounter), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __GlobalNamespace_FrameCounterSizeCheck;
+  check_size<sizeof(FrameCounter), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __GlobalNamespace_FrameCounterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FrameCounter*, "", "FrameCounter");

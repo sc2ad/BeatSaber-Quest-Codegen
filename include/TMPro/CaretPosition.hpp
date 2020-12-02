@@ -41,7 +41,7 @@ namespace TMPro {
     // Set static field: static public TMPro.CaretPosition Right
     static void _set_Right(TMPro::CaretPosition value);
   }; // TMPro.CaretPosition
-  check_size<sizeof(CaretPosition), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __TMPro_CaretPositionSizeCheck;
+  check_size<sizeof(CaretPosition), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __TMPro_CaretPositionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::CaretPosition, "TMPro", "CaretPosition");

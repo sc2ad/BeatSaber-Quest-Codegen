@@ -61,7 +61,7 @@ namespace GlobalNamespace {
       // Set static field: static public OVRControllerHelper/ControllerType Rift
       static void _set_Rift(GlobalNamespace::OVRControllerHelper::ControllerType value);
     }; // OVRControllerHelper/ControllerType
-    check_size<sizeof(OVRControllerHelper::ControllerType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRControllerHelper_ControllerTypeSizeCheck;
+    check_size<sizeof(OVRControllerHelper::ControllerType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OVRControllerHelper_ControllerTypeSizeCheck;
     // public UnityEngine.GameObject m_modelGearVrController
     // Offset: 0x18
     UnityEngine::GameObject* m_modelGearVrController;
@@ -110,7 +110,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRControllerHelper* New_ctor();
   }; // OVRControllerHelper
-  check_size<sizeof(OVRControllerHelper), 81 + sizeof(bool) + 8 - (81 + sizeof(bool)) % 8> __GlobalNamespace_OVRControllerHelperSizeCheck;
+  check_size<sizeof(OVRControllerHelper), 81 + sizeof(bool) + ((81 + sizeof(bool)) % 8 != 0 ? (8 - (81 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_OVRControllerHelperSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerHelper*, "", "OVRControllerHelper");

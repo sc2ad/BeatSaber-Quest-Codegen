@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EDualAnalogWhich k_EDualAnalog_Right
     static void _set_k_EDualAnalog_Right(OVR::OpenVR::EDualAnalogWhich value);
   }; // OVR.OpenVR.EDualAnalogWhich
-  check_size<sizeof(EDualAnalogWhich), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_EDualAnalogWhichSizeCheck;
+  check_size<sizeof(EDualAnalogWhich), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OVR_OpenVR_EDualAnalogWhichSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EDualAnalogWhich, "OVR.OpenVR", "EDualAnalogWhich");

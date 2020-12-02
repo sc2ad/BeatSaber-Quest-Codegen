@@ -35,7 +35,7 @@ namespace System::Net::Http {
     // Set static field: static public System.Net.Http.HttpCompletionOption ResponseHeadersRead
     static void _set_ResponseHeadersRead(System::Net::Http::HttpCompletionOption value);
   }; // System.Net.Http.HttpCompletionOption
-  check_size<sizeof(HttpCompletionOption), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Net_Http_HttpCompletionOptionSizeCheck;
+  check_size<sizeof(HttpCompletionOption), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Net_Http_HttpCompletionOptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpCompletionOption, "System.Net.Http", "HttpCompletionOption");

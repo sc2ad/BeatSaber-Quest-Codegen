@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EnumFlagAttribute* New_ctor();
   }; // EnumFlagAttribute
-  check_size<sizeof(EnumFlagAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_EnumFlagAttributeSizeCheck;
+  check_size<sizeof(EnumFlagAttribute), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_EnumFlagAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnumFlagAttribute*, "", "EnumFlagAttribute");

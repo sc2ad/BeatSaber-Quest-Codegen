@@ -154,7 +154,7 @@ namespace GlobalNamespace {
       // Set static field: static public StandardLevelDetailViewController/ContentType Inactive
       static void _set_Inactive(GlobalNamespace::StandardLevelDetailViewController::ContentType value);
     }; // StandardLevelDetailViewController/ContentType
-    check_size<sizeof(StandardLevelDetailViewController::ContentType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_StandardLevelDetailViewController_ContentTypeSizeCheck;
+    check_size<sizeof(StandardLevelDetailViewController::ContentType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_StandardLevelDetailViewController_ContentTypeSizeCheck;
     // private StandardLevelDetailView _standardLevelDetailView
     // Offset: 0x70
     GlobalNamespace::StandardLevelDetailView* standardLevelDetailView;
@@ -364,7 +364,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static StandardLevelDetailViewController* New_ctor();
   }; // StandardLevelDetailViewController
-  check_size<sizeof(StandardLevelDetailViewController), 296 + sizeof(void*) + 8 - (296 + sizeof(void*)) % 8> __GlobalNamespace_StandardLevelDetailViewControllerSizeCheck;
+  check_size<sizeof(StandardLevelDetailViewController), 296 + sizeof(void*) + ((296 + sizeof(void*)) % 8 != 0 ? (8 - (296 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_StandardLevelDetailViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController*, "", "StandardLevelDetailViewController");

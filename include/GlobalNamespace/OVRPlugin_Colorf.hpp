@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Colorf
     constexpr Colorf(float r_ = {}, float g_ = {}, float b_ = {}, float a_ = {}) noexcept : r{r_}, g{g_}, b{b_}, a{a_} {}
   }; // OVRPlugin/Colorf
-  check_size<sizeof(OVRPlugin::Colorf), 12 + sizeof(float) + 8 - (12 + sizeof(float)) % 8> __GlobalNamespace_OVRPlugin_ColorfSizeCheck;
+  check_size<sizeof(OVRPlugin::Colorf), 12 + sizeof(float) + ((12 + sizeof(float)) % 8 != 0 ? (8 - (12 + sizeof(float)) % 8) : 0)> __GlobalNamespace_OVRPlugin_ColorfSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Colorf, "", "OVRPlugin/Colorf");

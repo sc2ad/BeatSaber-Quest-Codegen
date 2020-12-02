@@ -59,7 +59,7 @@ namespace Zenject::Internal {
     // Offset: 0x12A4328
     static ReflectionTypeInfo* New_ctor(System::Type* type, System::Type* baseType, Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo* injectConstructor, System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo*>* injectMethods, System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo*>* injectFields, System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo*>* injectProperties);
   }; // Zenject.Internal.ReflectionTypeInfo
-  check_size<sizeof(ReflectionTypeInfo), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __Zenject_Internal_ReflectionTypeInfoSizeCheck;
+  check_size<sizeof(ReflectionTypeInfo), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __Zenject_Internal_ReflectionTypeInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeInfo*, "Zenject.Internal", "ReflectionTypeInfo");

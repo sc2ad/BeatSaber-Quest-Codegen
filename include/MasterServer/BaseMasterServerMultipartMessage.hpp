@@ -122,7 +122,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static BaseMasterServerMultipartMessage* New_ctor();
   }; // MasterServer.BaseMasterServerMultipartMessage
-  check_size<sizeof(BaseMasterServerMultipartMessage), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __MasterServer_BaseMasterServerMultipartMessageSizeCheck;
+  check_size<sizeof(BaseMasterServerMultipartMessage), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __MasterServer_BaseMasterServerMultipartMessageSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseMasterServerMultipartMessage*, "MasterServer", "BaseMasterServerMultipartMessage");

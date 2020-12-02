@@ -43,7 +43,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::.ctor()
     static CallbackRunner* New_ctor();
   }; // Oculus.Platform.CallbackRunner
-  check_size<sizeof(CallbackRunner), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __Oculus_Platform_CallbackRunnerSizeCheck;
+  check_size<sizeof(CallbackRunner), 24 + sizeof(bool) + ((24 + sizeof(bool)) % 8 != 0 ? (8 - (24 + sizeof(bool)) % 8) : 0)> __Oculus_Platform_CallbackRunnerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CallbackRunner*, "Oculus.Platform", "CallbackRunner");

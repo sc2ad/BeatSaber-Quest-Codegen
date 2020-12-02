@@ -56,7 +56,7 @@ namespace RootMotion::FinalIK {
       // Set static field: static public RootMotion.FinalIK.Finger/DOF Three
       static void _set_Three(RootMotion::FinalIK::Finger::DOF value);
     }; // RootMotion.FinalIK.Finger/DOF
-    check_size<sizeof(Finger::DOF), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __RootMotion_FinalIK_Finger_DOFSizeCheck;
+    check_size<sizeof(Finger::DOF), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __RootMotion_FinalIK_Finger_DOFSizeCheck;
     // public System.Single weight
     // Offset: 0x10
     float weight;
@@ -147,7 +147,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static Finger* New_ctor();
   }; // RootMotion.FinalIK.Finger
-  check_size<sizeof(Finger), 156 + sizeof(UnityEngine::Vector3) + 8 - (156 + sizeof(UnityEngine::Vector3)) % 8> __RootMotion_FinalIK_FingerSizeCheck;
+  check_size<sizeof(Finger), 156 + sizeof(UnityEngine::Vector3) + ((156 + sizeof(UnityEngine::Vector3)) % 8 != 0 ? (8 - (156 + sizeof(UnityEngine::Vector3)) % 8) : 0)> __RootMotion_FinalIK_FingerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Finger*, "RootMotion.FinalIK", "Finger");

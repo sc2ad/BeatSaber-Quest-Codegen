@@ -56,7 +56,7 @@ namespace System::IO {
     // Offset: 0x1490690
     static void _cctor();
   }; // System.IO.SearchPattern2
-  check_size<sizeof(SearchPattern2), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_IO_SearchPattern2SizeCheck;
+  check_size<sizeof(SearchPattern2), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_IO_SearchPattern2SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchPattern2*, "System.IO", "SearchPattern2");

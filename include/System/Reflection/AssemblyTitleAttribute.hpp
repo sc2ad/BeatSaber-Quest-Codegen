@@ -24,7 +24,7 @@ namespace System::Reflection {
     // Offset: 0x1721918
     static AssemblyTitleAttribute* New_ctor(::Il2CppString* title);
   }; // System.Reflection.AssemblyTitleAttribute
-  check_size<sizeof(AssemblyTitleAttribute), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Reflection_AssemblyTitleAttributeSizeCheck;
+  check_size<sizeof(AssemblyTitleAttribute), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Reflection_AssemblyTitleAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyTitleAttribute*, "System.Reflection", "AssemblyTitleAttribute");

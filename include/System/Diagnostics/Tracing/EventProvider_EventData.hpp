@@ -27,7 +27,7 @@ namespace System::Diagnostics::Tracing {
     // Creating value type constructor for type: EventData
     constexpr EventData(uint64_t Ptr_ = {}, uint Size_ = {}, uint Reserved_ = {}) noexcept : Ptr{Ptr_}, Size{Size_}, Reserved{Reserved_} {}
   }; // System.Diagnostics.Tracing.EventProvider/EventData
-  check_size<sizeof(EventProvider::EventData), 12 + sizeof(uint) + 8 - (12 + sizeof(uint)) % 8> __System_Diagnostics_Tracing_EventProvider_EventDataSizeCheck;
+  check_size<sizeof(EventProvider::EventData), 12 + sizeof(uint) + ((12 + sizeof(uint)) % 8 != 0 ? (8 - (12 + sizeof(uint)) % 8) : 0)> __System_Diagnostics_Tracing_EventProvider_EventDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventProvider::EventData, "System.Diagnostics.Tracing", "EventProvider/EventData");

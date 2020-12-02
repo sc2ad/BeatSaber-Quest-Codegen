@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static GoodCutsMissionObjectiveChecker* New_ctor();
   }; // GoodCutsMissionObjectiveChecker
-  check_size<sizeof(GoodCutsMissionObjectiveChecker), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __GlobalNamespace_GoodCutsMissionObjectiveCheckerSizeCheck;
+  check_size<sizeof(GoodCutsMissionObjectiveChecker), 72 + sizeof(void*) + ((72 + sizeof(void*)) % 8 != 0 ? (8 - (72 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_GoodCutsMissionObjectiveCheckerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GoodCutsMissionObjectiveChecker*, "", "GoodCutsMissionObjectiveChecker");

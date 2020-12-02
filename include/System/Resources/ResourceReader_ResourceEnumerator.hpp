@@ -93,7 +93,7 @@ namespace System::Resources {
     // Maps to method: Reset
     void System_Collections_IEnumerator_Reset();
   }; // System.Resources.ResourceReader/ResourceEnumerator
-  check_size<sizeof(ResourceReader::ResourceEnumerator), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __System_Resources_ResourceReader_ResourceEnumeratorSizeCheck;
+  check_size<sizeof(ResourceReader::ResourceEnumerator), 32 + sizeof(int) + ((32 + sizeof(int)) % 8 != 0 ? (8 - (32 + sizeof(int)) % 8) : 0)> __System_Resources_ResourceReader_ResourceEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceReader::ResourceEnumerator*, "System.Resources", "ResourceReader/ResourceEnumerator");

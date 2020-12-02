@@ -27,7 +27,7 @@ namespace System::Net::NetworkInformation {
       return u6_addr8;
     }
   }; // System.Net.NetworkInformation.in6_addr
-  check_size<sizeof(in6_addr), 0 + sizeof(void*) + 8 - (0 + sizeof(void*)) % 8> __System_Net_NetworkInformation_in6_addrSizeCheck;
+  check_size<sizeof(in6_addr), 0 + sizeof(void*) + ((0 + sizeof(void*)) % 8 != 0 ? (8 - (0 + sizeof(void*)) % 8) : 0)> __System_Net_NetworkInformation_in6_addrSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::in6_addr, "System.Net.NetworkInformation", "in6_addr");

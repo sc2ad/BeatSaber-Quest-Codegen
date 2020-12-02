@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ReorderableAttribute* New_ctor();
   }; // ReorderableAttribute
-  check_size<sizeof(ReorderableAttribute), 25 + sizeof(bool) + 8 - (25 + sizeof(bool)) % 8> __GlobalNamespace_ReorderableAttributeSizeCheck;
+  check_size<sizeof(ReorderableAttribute), 25 + sizeof(bool) + ((25 + sizeof(bool)) % 8 != 0 ? (8 - (25 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_ReorderableAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReorderableAttribute*, "", "ReorderableAttribute");

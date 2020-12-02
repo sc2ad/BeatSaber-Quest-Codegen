@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MouseLook* New_ctor();
   }; // MouseLook
-  check_size<sizeof(MouseLook), 80 + sizeof(bool) + 8 - (80 + sizeof(bool)) % 8> __GlobalNamespace_MouseLookSizeCheck;
+  check_size<sizeof(MouseLook), 80 + sizeof(bool) + ((80 + sizeof(bool)) % 8 != 0 ? (8 - (80 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_MouseLookSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MouseLook*, "", "MouseLook");

@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // ColorSerializable
-  check_size<sizeof(ColorSerializable), 0 + sizeof(UnityEngine::Color) + 8 - (0 + sizeof(UnityEngine::Color)) % 8> __GlobalNamespace_ColorSerializableSizeCheck;
+  check_size<sizeof(ColorSerializable), 0 + sizeof(UnityEngine::Color) + ((0 + sizeof(UnityEngine::Color)) % 8 != 0 ? (8 - (0 + sizeof(UnityEngine::Color)) % 8) : 0)> __GlobalNamespace_ColorSerializableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSerializable, "", "ColorSerializable");

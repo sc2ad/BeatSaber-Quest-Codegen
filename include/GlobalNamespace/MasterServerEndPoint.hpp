@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // MasterServerEndPoint
-  check_size<sizeof(MasterServerEndPoint), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_MasterServerEndPointSizeCheck;
+  check_size<sizeof(MasterServerEndPoint), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MasterServerEndPointSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerEndPoint*, "", "MasterServerEndPoint");

@@ -52,7 +52,7 @@ namespace UnityEngine::XR {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.XR.InputDevice
-  check_size<sizeof(InputDevice), 8 + sizeof(bool) + 8 - (8 + sizeof(bool)) % 8> __UnityEngine_XR_InputDeviceSizeCheck;
+  check_size<sizeof(InputDevice), 8 + sizeof(bool) + ((8 + sizeof(bool)) % 8 != 0 ? (8 - (8 + sizeof(bool)) % 8) : 0)> __UnityEngine_XR_InputDeviceSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputDevice, "UnityEngine.XR", "InputDevice");

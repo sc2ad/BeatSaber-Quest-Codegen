@@ -37,7 +37,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // Oculus.Platform.ApplicationOptions
-  check_size<sizeof(ApplicationOptions), 16 + sizeof(System::IntPtr) + 8 - (16 + sizeof(System::IntPtr)) % 8> __Oculus_Platform_ApplicationOptionsSizeCheck;
+  check_size<sizeof(ApplicationOptions), 16 + sizeof(System::IntPtr) + ((16 + sizeof(System::IntPtr)) % 8 != 0 ? (8 - (16 + sizeof(System::IntPtr)) % 8) : 0)> __Oculus_Platform_ApplicationOptionsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ApplicationOptions*, "Oculus.Platform", "ApplicationOptions");

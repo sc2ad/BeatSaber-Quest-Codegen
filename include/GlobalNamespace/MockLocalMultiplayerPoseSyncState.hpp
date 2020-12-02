@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Offset: 0x1022574
     static MockLocalMultiplayerPoseSyncState* New_ctor(GlobalNamespace::IConnectedPlayer* player, float reliableUpdateFrequency, float unreliableUpdateFrequency, int size, typename GlobalNamespace::StateBuffer_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>::InterpolationDelegate* interpolator, typename GlobalNamespace::StateBuffer_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>::SmoothingDelegate* smoother);
   }; // MockLocalMultiplayerPoseSyncState
-  check_size<sizeof(MockLocalMultiplayerPoseSyncState), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_MockLocalMultiplayerPoseSyncStateSizeCheck;
+  check_size<sizeof(MockLocalMultiplayerPoseSyncState), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MockLocalMultiplayerPoseSyncStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockLocalMultiplayerPoseSyncState*, "", "MockLocalMultiplayerPoseSyncState");

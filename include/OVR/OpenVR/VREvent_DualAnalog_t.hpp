@@ -33,7 +33,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: VREvent_DualAnalog_t
     constexpr VREvent_DualAnalog_t(float x_ = {}, float y_ = {}, float transformedX_ = {}, float transformedY_ = {}, OVR::OpenVR::EDualAnalogWhich which_ = {}) noexcept : x{x_}, y{y_}, transformedX{transformedX_}, transformedY{transformedY_}, which{which_} {}
   }; // OVR.OpenVR.VREvent_DualAnalog_t
-  check_size<sizeof(VREvent_DualAnalog_t), 16 + sizeof(OVR::OpenVR::EDualAnalogWhich) + 8 - (16 + sizeof(OVR::OpenVR::EDualAnalogWhich)) % 8> __OVR_OpenVR_VREvent_DualAnalog_tSizeCheck;
+  check_size<sizeof(VREvent_DualAnalog_t), 16 + sizeof(OVR::OpenVR::EDualAnalogWhich) + ((16 + sizeof(OVR::OpenVR::EDualAnalogWhich)) % 8 != 0 ? (8 - (16 + sizeof(OVR::OpenVR::EDualAnalogWhich)) % 8) : 0)> __OVR_OpenVR_VREvent_DualAnalog_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_DualAnalog_t, "OVR.OpenVR", "VREvent_DualAnalog_t");

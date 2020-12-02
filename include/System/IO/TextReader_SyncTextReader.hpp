@@ -57,7 +57,7 @@ namespace System::IO {
     // Base method: System.String TextReader::ReadToEnd()
     ::Il2CppString* ReadToEnd();
   }; // System.IO.TextReader/SyncTextReader
-  check_size<sizeof(TextReader::SyncTextReader), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_IO_TextReader_SyncTextReaderSizeCheck;
+  check_size<sizeof(TextReader::SyncTextReader), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_IO_TextReader_SyncTextReaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader::SyncTextReader*, "System.IO", "TextReader/SyncTextReader");

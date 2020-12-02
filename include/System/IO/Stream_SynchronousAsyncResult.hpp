@@ -112,7 +112,7 @@ namespace System::IO {
     // Maps to method: get_CompletedSynchronously
     bool System_IAsyncResult_get_CompletedSynchronously();
   }; // System.IO.Stream/SynchronousAsyncResult
-  check_size<sizeof(Stream::SynchronousAsyncResult), 52 + sizeof(int) + 8 - (52 + sizeof(int)) % 8> __System_IO_Stream_SynchronousAsyncResultSizeCheck;
+  check_size<sizeof(Stream::SynchronousAsyncResult), 52 + sizeof(int) + ((52 + sizeof(int)) % 8 != 0 ? (8 - (52 + sizeof(int)) % 8) : 0)> __System_IO_Stream_SynchronousAsyncResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::SynchronousAsyncResult*, "System.IO", "Stream/SynchronousAsyncResult");

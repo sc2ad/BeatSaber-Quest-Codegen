@@ -192,7 +192,7 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void RegexRunner::Go()
     void Go();
   }; // System.Text.RegularExpressions.RegexInterpreter
-  check_size<sizeof(RegexInterpreter), 192 + sizeof(void*) + 8 - (192 + sizeof(void*)) % 8> __System_Text_RegularExpressions_RegexInterpreterSizeCheck;
+  check_size<sizeof(RegexInterpreter), 192 + sizeof(void*) + ((192 + sizeof(void*)) % 8 != 0 ? (8 - (192 + sizeof(void*)) % 8) : 0)> __System_Text_RegularExpressions_RegexInterpreterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexInterpreter*, "System.Text.RegularExpressions", "RegexInterpreter");

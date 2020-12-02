@@ -125,7 +125,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     static ModalView* New_ctor();
   }; // HMUI.ModalView
-  check_size<sizeof(ModalView), 96 + sizeof(int) + 8 - (96 + sizeof(int)) % 8> __HMUI_ModalViewSizeCheck;
+  check_size<sizeof(ModalView), 96 + sizeof(int) + ((96 + sizeof(int)) % 8 != 0 ? (8 - (96 + sizeof(int)) % 8) : 0)> __HMUI_ModalViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ModalView*, "HMUI", "ModalView");

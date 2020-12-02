@@ -29,7 +29,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11E18E4
     static Pid* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.Pid
-  check_size<sizeof(Pid), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Oculus_Platform_Models_PidSizeCheck;
+  check_size<sizeof(Pid), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __Oculus_Platform_Models_PidSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Pid*, "Oculus.Platform.Models", "Pid");

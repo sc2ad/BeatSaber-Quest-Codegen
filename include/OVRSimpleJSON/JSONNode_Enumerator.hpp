@@ -60,7 +60,7 @@ namespace OVRSimpleJSON {
       // Set static field: static public OVRSimpleJSON.JSONNode/Enumerator/Type Object
       static void _set_Object(OVRSimpleJSON::JSONNode::Enumerator::Type value);
     }; // OVRSimpleJSON.JSONNode/Enumerator/Type
-    check_size<sizeof(JSONNode::Enumerator::Type), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVRSimpleJSON_JSONNode_Enumerator_TypeSizeCheck;
+    check_size<sizeof(JSONNode::Enumerator::Type), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OVRSimpleJSON_JSONNode_Enumerator_TypeSizeCheck;
     // private OVRSimpleJSON.JSONNode/Enumerator/Type type
     // Offset: 0x0
     OVRSimpleJSON::JSONNode::Enumerator::Type type;
@@ -88,7 +88,7 @@ namespace OVRSimpleJSON {
     // Offset: 0xC9C06C
     bool MoveNext();
   }; // OVRSimpleJSON.JSONNode/Enumerator
-  check_size<sizeof(JSONNode::Enumerator), 48 + sizeof(System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator) + 8 - (48 + sizeof(System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator)) % 8> __OVRSimpleJSON_JSONNode_EnumeratorSizeCheck;
+  check_size<sizeof(JSONNode::Enumerator), 48 + sizeof(System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator) + ((48 + sizeof(System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator)) % 8 != 0 ? (8 - (48 + sizeof(System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator)) % 8) : 0)> __OVRSimpleJSON_JSONNode_EnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::Enumerator, "OVRSimpleJSON", "JSONNode/Enumerator");

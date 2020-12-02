@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRModeParms* New_ctor();
   }; // OVRModeParms
-  check_size<sizeof(OVRModeParms), 24 + sizeof(GlobalNamespace::OVRInput::RawButton) + 8 - (24 + sizeof(GlobalNamespace::OVRInput::RawButton)) % 8> __GlobalNamespace_OVRModeParmsSizeCheck;
+  check_size<sizeof(OVRModeParms), 24 + sizeof(GlobalNamespace::OVRInput::RawButton) + ((24 + sizeof(GlobalNamespace::OVRInput::RawButton)) % 8 != 0 ? (8 - (24 + sizeof(GlobalNamespace::OVRInput::RawButton)) % 8) : 0)> __GlobalNamespace_OVRModeParmsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRModeParms*, "", "OVRModeParms");

@@ -44,7 +44,7 @@ namespace Polyglot {
     // Base method: System.Void Object::.ctor()
     static LocalizationAsset* New_ctor();
   }; // Polyglot.LocalizationAsset
-  check_size<sizeof(LocalizationAsset), 24 + sizeof(Polyglot::GoogleDriveDownloadFormat) + 8 - (24 + sizeof(Polyglot::GoogleDriveDownloadFormat)) % 8> __Polyglot_LocalizationAssetSizeCheck;
+  check_size<sizeof(LocalizationAsset), 24 + sizeof(Polyglot::GoogleDriveDownloadFormat) + ((24 + sizeof(Polyglot::GoogleDriveDownloadFormat)) % 8 != 0 ? (8 - (24 + sizeof(Polyglot::GoogleDriveDownloadFormat)) % 8) : 0)> __Polyglot_LocalizationAssetSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationAsset*, "Polyglot", "LocalizationAsset");

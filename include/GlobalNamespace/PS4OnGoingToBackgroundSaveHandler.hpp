@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PS4OnGoingToBackgroundSaveHandler* New_ctor();
   }; // PS4OnGoingToBackgroundSaveHandler
-  check_size<sizeof(PS4OnGoingToBackgroundSaveHandler), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_PS4OnGoingToBackgroundSaveHandlerSizeCheck;
+  check_size<sizeof(PS4OnGoingToBackgroundSaveHandler), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_PS4OnGoingToBackgroundSaveHandlerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4OnGoingToBackgroundSaveHandler*, "", "PS4OnGoingToBackgroundSaveHandler");

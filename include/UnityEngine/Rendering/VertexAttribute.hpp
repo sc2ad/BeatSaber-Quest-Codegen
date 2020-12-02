@@ -107,7 +107,7 @@ namespace UnityEngine::Rendering {
     // Set static field: static public UnityEngine.Rendering.VertexAttribute BlendIndices
     static void _set_BlendIndices(UnityEngine::Rendering::VertexAttribute value);
   }; // UnityEngine.Rendering.VertexAttribute
-  check_size<sizeof(VertexAttribute), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Rendering_VertexAttributeSizeCheck;
+  check_size<sizeof(VertexAttribute), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_Rendering_VertexAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::VertexAttribute, "UnityEngine.Rendering", "VertexAttribute");

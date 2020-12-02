@@ -43,7 +43,7 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Text.RegularExpressions.GroupCollection Match::get_Groups()
     System::Text::RegularExpressions::GroupCollection* get_Groups();
   }; // System.Text.RegularExpressions.MatchSparse
-  check_size<sizeof(MatchSparse), 112 + sizeof(void*) + 8 - (112 + sizeof(void*)) % 8> __System_Text_RegularExpressions_MatchSparseSizeCheck;
+  check_size<sizeof(MatchSparse), 112 + sizeof(void*) + ((112 + sizeof(void*)) % 8 != 0 ? (8 - (112 + sizeof(void*)) % 8) : 0)> __System_Text_RegularExpressions_MatchSparseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::MatchSparse*, "System.Text.RegularExpressions", "MatchSparse");

@@ -123,7 +123,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     static BinaryFormatter* New_ctor();
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-  check_size<sizeof(BinaryFormatter), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __System_Runtime_Serialization_Formatters_Binary_BinaryFormatterSizeCheck;
+  check_size<sizeof(BinaryFormatter), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __System_Runtime_Serialization_Formatters_Binary_BinaryFormatterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*, "System.Runtime.Serialization.Formatters.Binary", "BinaryFormatter");

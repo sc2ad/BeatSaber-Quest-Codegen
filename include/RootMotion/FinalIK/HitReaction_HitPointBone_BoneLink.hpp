@@ -51,7 +51,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static HitReaction::HitPointBone::BoneLink* New_ctor();
   }; // RootMotion.FinalIK.HitReaction/HitPointBone/BoneLink
-  check_size<sizeof(HitReaction::HitPointBone::BoneLink), 44 + sizeof(UnityEngine::Quaternion) + 8 - (44 + sizeof(UnityEngine::Quaternion)) % 8> __RootMotion_FinalIK_HitReaction_HitPointBone_BoneLinkSizeCheck;
+  check_size<sizeof(HitReaction::HitPointBone::BoneLink), 44 + sizeof(UnityEngine::Quaternion) + ((44 + sizeof(UnityEngine::Quaternion)) % 8 != 0 ? (8 - (44 + sizeof(UnityEngine::Quaternion)) % 8) : 0)> __RootMotion_FinalIK_HitReaction_HitPointBone_BoneLinkSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*, "RootMotion.FinalIK", "HitReaction/HitPointBone/BoneLink");

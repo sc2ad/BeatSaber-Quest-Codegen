@@ -106,7 +106,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static GrounderFBBIK* New_ctor();
   }; // RootMotion.FinalIK.GrounderFBBIK
-  check_size<sizeof(GrounderFBBIK), 108 + sizeof(bool) + 8 - (108 + sizeof(bool)) % 8> __RootMotion_FinalIK_GrounderFBBIKSizeCheck;
+  check_size<sizeof(GrounderFBBIK), 108 + sizeof(bool) + ((108 + sizeof(bool)) % 8 != 0 ? (8 - (108 + sizeof(bool)) % 8) : 0)> __RootMotion_FinalIK_GrounderFBBIKSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderFBBIK*, "RootMotion.FinalIK", "GrounderFBBIK");

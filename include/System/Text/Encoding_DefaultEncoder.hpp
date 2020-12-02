@@ -85,7 +85,7 @@ namespace System::Text {
     // Base method: System.Int32 Encoder::GetBytes(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Boolean flush)
     int GetBytes(::Il2CppChar* chars, int charCount, uint8_t* bytes, int byteCount, bool flush);
   }; // System.Text.Encoding/DefaultEncoder
-  check_size<sizeof(Encoding::DefaultEncoder), 42 + sizeof(::Il2CppChar) + 8 - (42 + sizeof(::Il2CppChar)) % 8> __System_Text_Encoding_DefaultEncoderSizeCheck;
+  check_size<sizeof(Encoding::DefaultEncoder), 42 + sizeof(::Il2CppChar) + ((42 + sizeof(::Il2CppChar)) % 8 != 0 ? (8 - (42 + sizeof(::Il2CppChar)) % 8) : 0)> __System_Text_Encoding_DefaultEncoderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoding::DefaultEncoder*, "System.Text", "Encoding/DefaultEncoder");

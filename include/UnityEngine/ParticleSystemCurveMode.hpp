@@ -47,7 +47,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.ParticleSystemCurveMode TwoConstants
     static void _set_TwoConstants(UnityEngine::ParticleSystemCurveMode value);
   }; // UnityEngine.ParticleSystemCurveMode
-  check_size<sizeof(ParticleSystemCurveMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_ParticleSystemCurveModeSizeCheck;
+  check_size<sizeof(ParticleSystemCurveMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_ParticleSystemCurveModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystemCurveMode, "UnityEngine", "ParticleSystemCurveMode");

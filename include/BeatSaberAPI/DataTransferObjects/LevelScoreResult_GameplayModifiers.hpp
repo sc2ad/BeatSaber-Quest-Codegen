@@ -115,7 +115,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Set static field: static public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers GhostNotes
     static void _set_GhostNotes(BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers value);
   }; // BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers
-  check_size<sizeof(LevelScoreResult::GameplayModifiers), 0 + sizeof(uint) + 8 - (0 + sizeof(uint)) % 8> __BeatSaberAPI_DataTransferObjects_LevelScoreResult_GameplayModifiersSizeCheck;
+  check_size<sizeof(LevelScoreResult::GameplayModifiers), 0 + sizeof(uint) + ((0 + sizeof(uint)) % 8 != 0 ? (8 - (0 + sizeof(uint)) % 8) : 0)> __BeatSaberAPI_DataTransferObjects_LevelScoreResult_GameplayModifiersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers, "BeatSaberAPI.DataTransferObjects", "LevelScoreResult/GameplayModifiers");

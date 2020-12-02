@@ -63,7 +63,7 @@ namespace GlobalNamespace {
       // Set static field: static public ScreenCaptureCache/ScreenshotType Other
       static void _set_Other(GlobalNamespace::ScreenCaptureCache::ScreenshotType value);
     }; // ScreenCaptureCache/ScreenshotType
-    check_size<sizeof(ScreenCaptureCache::ScreenshotType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_ScreenCaptureCache_ScreenshotTypeSizeCheck;
+    check_size<sizeof(ScreenCaptureCache::ScreenshotType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_ScreenCaptureCache_ScreenshotTypeSizeCheck;
     // private System.Collections.Generic.Dictionary`2<ScreenCaptureCache/ScreenshotType,UnityEngine.Texture2D> _cache
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenCaptureCache::ScreenshotType, UnityEngine::Texture2D*>* cache;
@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ScreenCaptureCache* New_ctor();
   }; // ScreenCaptureCache
-  check_size<sizeof(ScreenCaptureCache), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_ScreenCaptureCacheSizeCheck;
+  check_size<sizeof(ScreenCaptureCache), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_ScreenCaptureCacheSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureCache*, "", "ScreenCaptureCache");

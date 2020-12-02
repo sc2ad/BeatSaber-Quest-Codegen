@@ -341,7 +341,7 @@ namespace TMPro {
     // Set static field: static public TMPro.RichTextTag DEFAULT
     static void _set_DEFAULT(TMPro::RichTextTag value);
   }; // TMPro.RichTextTag
-  check_size<sizeof(RichTextTag), 0 + sizeof(uint) + 8 - (0 + sizeof(uint)) % 8> __TMPro_RichTextTagSizeCheck;
+  check_size<sizeof(RichTextTag), 0 + sizeof(uint) + ((0 + sizeof(uint)) % 8 != 0 ? (8 - (0 + sizeof(uint)) % 8) : 0)> __TMPro_RichTextTagSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::RichTextTag, "TMPro", "RichTextTag");

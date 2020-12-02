@@ -47,7 +47,7 @@ namespace UnityEngine::Bindings {
     // Set static field: static public UnityEngine.Bindings.StaticAccessorType ArrowWithDefaultReturnIfNull
     static void _set_ArrowWithDefaultReturnIfNull(UnityEngine::Bindings::StaticAccessorType value);
   }; // UnityEngine.Bindings.StaticAccessorType
-  check_size<sizeof(StaticAccessorType), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Bindings_StaticAccessorTypeSizeCheck;
+  check_size<sizeof(StaticAccessorType), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_Bindings_StaticAccessorTypeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::StaticAccessorType, "UnityEngine.Bindings", "StaticAccessorType");

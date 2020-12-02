@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MipMapBiasSpriteSetter* New_ctor();
   }; // MipMapBiasSpriteSetter
-  check_size<sizeof(MipMapBiasSpriteSetter), 32 + sizeof(float) + 8 - (32 + sizeof(float)) % 8> __GlobalNamespace_MipMapBiasSpriteSetterSizeCheck;
+  check_size<sizeof(MipMapBiasSpriteSetter), 32 + sizeof(float) + ((32 + sizeof(float)) % 8 != 0 ? (8 - (32 + sizeof(float)) % 8) : 0)> __GlobalNamespace_MipMapBiasSpriteSetterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MipMapBiasSpriteSetter*, "", "MipMapBiasSpriteSetter");

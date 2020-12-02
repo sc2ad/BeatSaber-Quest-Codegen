@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     // Offset: 0x1035E18
     void $RunJob$b__9_0();
   }; // HMTask
-  check_size<sizeof(HMTask), 42 + sizeof(bool) + 8 - (42 + sizeof(bool)) % 8> __GlobalNamespace_HMTaskSizeCheck;
+  check_size<sizeof(HMTask), 42 + sizeof(bool) + ((42 + sizeof(bool)) % 8 != 0 ? (8 - (42 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_HMTaskSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMTask*, "", "HMTask");

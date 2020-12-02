@@ -33,7 +33,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: HumanLimit
     constexpr HumanLimit(UnityEngine::Vector3 m_Min_ = {}, UnityEngine::Vector3 m_Max_ = {}, UnityEngine::Vector3 m_Center_ = {}, float m_AxisLength_ = {}, int m_UseDefaultValues_ = {}) noexcept : m_Min{m_Min_}, m_Max{m_Max_}, m_Center{m_Center_}, m_AxisLength{m_AxisLength_}, m_UseDefaultValues{m_UseDefaultValues_} {}
   }; // UnityEngine.HumanLimit
-  check_size<sizeof(HumanLimit), 40 + sizeof(int) + 8 - (40 + sizeof(int)) % 8> __UnityEngine_HumanLimitSizeCheck;
+  check_size<sizeof(HumanLimit), 40 + sizeof(int) + ((40 + sizeof(int)) % 8 != 0 ? (8 - (40 + sizeof(int)) % 8) : 0)> __UnityEngine_HumanLimitSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanLimit, "UnityEngine", "HumanLimit");

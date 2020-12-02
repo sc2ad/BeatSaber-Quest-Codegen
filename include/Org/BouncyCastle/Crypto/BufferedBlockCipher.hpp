@@ -94,7 +94,7 @@ namespace Org::BouncyCastle::Crypto {
     // Base method: System.Void BufferedCipherBase::Reset()
     void Reset();
   }; // Org.BouncyCastle.Crypto.BufferedBlockCipher
-  check_size<sizeof(BufferedBlockCipher), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_BufferedBlockCipherSizeCheck;
+  check_size<sizeof(BufferedBlockCipher), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_BufferedBlockCipherSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::BufferedBlockCipher*, "Org.BouncyCastle.Crypto", "BufferedBlockCipher");

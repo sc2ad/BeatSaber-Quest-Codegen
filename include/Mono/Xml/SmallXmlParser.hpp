@@ -150,7 +150,7 @@ namespace Mono::Xml {
     // Base method: System.Void Object::.ctor()
     static SmallXmlParser* New_ctor();
   }; // Mono.Xml.SmallXmlParser
-  check_size<sizeof(SmallXmlParser), 96 + sizeof(bool) + 8 - (96 + sizeof(bool)) % 8> __Mono_Xml_SmallXmlParserSizeCheck;
+  check_size<sizeof(SmallXmlParser), 96 + sizeof(bool) + ((96 + sizeof(bool)) % 8 != 0 ? (8 - (96 + sizeof(bool)) % 8) : 0)> __Mono_Xml_SmallXmlParserSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser*, "Mono.Xml", "SmallXmlParser");

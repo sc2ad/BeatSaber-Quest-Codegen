@@ -149,7 +149,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Offset: 0x1188378
     bool $ShouldExecuteStartEvent$b__32_0(::Il2CppString* x);
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
-  check_size<sizeof(UnityWorkItem), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __UnityEngine_TestRunner_NUnitExtensions_Runner_UnityWorkItemSizeCheck;
+  check_size<sizeof(UnityWorkItem), 80 + sizeof(void*) + ((80 + sizeof(void*)) % 8 != 0 ? (8 - (80 + sizeof(void*)) % 8) : 0)> __UnityEngine_TestRunner_NUnitExtensions_Runner_UnityWorkItemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityWorkItem");

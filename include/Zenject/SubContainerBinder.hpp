@@ -177,7 +177,7 @@ namespace Zenject {
     // Offset: 0x135452C
     Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewContextPrefabResource(::Il2CppString* resourcePath);
   }; // Zenject.SubContainerBinder
-  check_size<sizeof(SubContainerBinder), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __Zenject_SubContainerBinderSizeCheck;
+  check_size<sizeof(SubContainerBinder), 40 + sizeof(bool) + ((40 + sizeof(bool)) % 8 != 0 ? (8 - (40 + sizeof(bool)) % 8) : 0)> __Zenject_SubContainerBinderSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerBinder*, "Zenject", "SubContainerBinder");
 #pragma pack(pop)

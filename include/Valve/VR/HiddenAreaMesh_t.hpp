@@ -23,7 +23,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: HiddenAreaMesh_t
     constexpr HiddenAreaMesh_t(System::IntPtr pVertexData_ = {}, uint unTriangleCount_ = {}) noexcept : pVertexData{pVertexData_}, unTriangleCount{unTriangleCount_} {}
   }; // Valve.VR.HiddenAreaMesh_t
-  check_size<sizeof(HiddenAreaMesh_t), 8 + sizeof(uint) + 8 - (8 + sizeof(uint)) % 8> __Valve_VR_HiddenAreaMesh_tSizeCheck;
+  check_size<sizeof(HiddenAreaMesh_t), 8 + sizeof(uint) + ((8 + sizeof(uint)) % 8 != 0 ? (8 - (8 + sizeof(uint)) % 8) : 0)> __Valve_VR_HiddenAreaMesh_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HiddenAreaMesh_t, "Valve.VR", "HiddenAreaMesh_t");

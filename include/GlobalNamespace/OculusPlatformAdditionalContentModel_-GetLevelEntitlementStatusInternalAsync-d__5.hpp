@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusPlatformAdditionalContentModel/<GetLevelEntitlementStatusInternalAsync>d__5
-  check_size<sizeof(OculusPlatformAdditionalContentModel::$GetLevelEntitlementStatusInternalAsync$d__5), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>) + 8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>)) % 8> __GlobalNamespace_OculusPlatformAdditionalContentModel_$GetLevelEntitlementStatusInternalAsync$d__5SizeCheck;
+  check_size<sizeof(OculusPlatformAdditionalContentModel::$GetLevelEntitlementStatusInternalAsync$d__5), 56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>) + ((56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>)) % 8 != 0 ? (8 - (56 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<bool>)) % 8) : 0)> __GlobalNamespace_OculusPlatformAdditionalContentModel_$GetLevelEntitlementStatusInternalAsync$d__5SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAdditionalContentModel::$GetLevelEntitlementStatusInternalAsync$d__5, "", "OculusPlatformAdditionalContentModel/<GetLevelEntitlementStatusInternalAsync>d__5");

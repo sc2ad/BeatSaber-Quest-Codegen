@@ -82,7 +82,7 @@ namespace System::Xml {
     // Base method: System.Void HtmlUtf8RawTextWriter::Init(System.Xml.XmlWriterSettings settings)
     void Init(System::Xml::XmlWriterSettings* settings);
   }; // System.Xml.HtmlUtf8RawTextWriterIndent
-  check_size<sizeof(HtmlUtf8RawTextWriterIndent), 200 + sizeof(bool) + 8 - (200 + sizeof(bool)) % 8> __System_Xml_HtmlUtf8RawTextWriterIndentSizeCheck;
+  check_size<sizeof(HtmlUtf8RawTextWriterIndent), 200 + sizeof(bool) + ((200 + sizeof(bool)) % 8 != 0 ? (8 - (200 + sizeof(bool)) % 8) : 0)> __System_Xml_HtmlUtf8RawTextWriterIndentSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::HtmlUtf8RawTextWriterIndent*, "System.Xml", "HtmlUtf8RawTextWriterIndent");

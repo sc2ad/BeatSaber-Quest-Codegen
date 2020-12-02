@@ -78,7 +78,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.X509.IssuingDistributionPoint
-  check_size<sizeof(IssuingDistributionPoint), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __Org_BouncyCastle_Asn1_X509_IssuingDistributionPointSizeCheck;
+  check_size<sizeof(IssuingDistributionPoint), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Asn1_X509_IssuingDistributionPointSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint*, "Org.BouncyCastle.Asn1.X509", "IssuingDistributionPoint");

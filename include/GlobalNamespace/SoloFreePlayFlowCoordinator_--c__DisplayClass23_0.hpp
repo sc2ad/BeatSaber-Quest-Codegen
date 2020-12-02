@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SoloFreePlayFlowCoordinator::$$c__DisplayClass23_0* New_ctor();
   }; // SoloFreePlayFlowCoordinator/<>c__DisplayClass23_0
-  check_size<sizeof(SoloFreePlayFlowCoordinator::$$c__DisplayClass23_0), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_SoloFreePlayFlowCoordinator_$$c__DisplayClass23_0SizeCheck;
+  check_size<sizeof(SoloFreePlayFlowCoordinator::$$c__DisplayClass23_0), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_SoloFreePlayFlowCoordinator_$$c__DisplayClass23_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloFreePlayFlowCoordinator::$$c__DisplayClass23_0*, "", "SoloFreePlayFlowCoordinator/<>c__DisplayClass23_0");

@@ -37,7 +37,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] args)
     ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::Array<::Il2CppObject*>* args);
   }; // NUnit.Framework.Internal.TestNameGenerator/ArgumentFragment
-  check_size<sizeof(TestNameGenerator::ArgumentFragment), 20 + sizeof(int) + 8 - (20 + sizeof(int)) % 8> __NUnit_Framework_Internal_TestNameGenerator_ArgumentFragmentSizeCheck;
+  check_size<sizeof(TestNameGenerator::ArgumentFragment), 20 + sizeof(int) + ((20 + sizeof(int)) % 8 != 0 ? (8 - (20 + sizeof(int)) % 8) : 0)> __NUnit_Framework_Internal_TestNameGenerator_ArgumentFragmentSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator::ArgumentFragment*, "NUnit.Framework.Internal", "TestNameGenerator/ArgumentFragment");

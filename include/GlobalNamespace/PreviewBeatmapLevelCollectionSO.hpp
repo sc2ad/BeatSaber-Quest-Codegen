@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PreviewBeatmapLevelCollectionSO* New_ctor();
   }; // PreviewBeatmapLevelCollectionSO
-  check_size<sizeof(PreviewBeatmapLevelCollectionSO), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_PreviewBeatmapLevelCollectionSOSizeCheck;
+  check_size<sizeof(PreviewBeatmapLevelCollectionSO), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_PreviewBeatmapLevelCollectionSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PreviewBeatmapLevelCollectionSO*, "", "PreviewBeatmapLevelCollectionSO");

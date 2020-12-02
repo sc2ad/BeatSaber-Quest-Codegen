@@ -108,7 +108,7 @@ namespace UnityEngine::Events {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Events.UnityEventBase
-  check_size<sizeof(UnityEventBase), 32 + sizeof(bool) + 8 - (32 + sizeof(bool)) % 8> __UnityEngine_Events_UnityEventBaseSizeCheck;
+  check_size<sizeof(UnityEventBase), 32 + sizeof(bool) + ((32 + sizeof(bool)) % 8 != 0 ? (8 - (32 + sizeof(bool)) % 8) : 0)> __UnityEngine_Events_UnityEventBaseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::UnityEventBase*, "UnityEngine.Events", "UnityEventBase");

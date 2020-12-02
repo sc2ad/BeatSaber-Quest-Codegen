@@ -83,7 +83,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.ChaperoneCalibrationState Error_CollisionBoundsInvalid
     static void _set_Error_CollisionBoundsInvalid(OVR::OpenVR::ChaperoneCalibrationState value);
   }; // OVR.OpenVR.ChaperoneCalibrationState
-  check_size<sizeof(ChaperoneCalibrationState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_ChaperoneCalibrationStateSizeCheck;
+  check_size<sizeof(ChaperoneCalibrationState), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OVR_OpenVR_ChaperoneCalibrationStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::ChaperoneCalibrationState, "OVR.OpenVR", "ChaperoneCalibrationState");

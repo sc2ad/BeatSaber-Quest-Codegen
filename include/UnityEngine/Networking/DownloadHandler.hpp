@@ -90,7 +90,7 @@ namespace UnityEngine::Networking {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // UnityEngine.Networking.DownloadHandler
-  check_size<sizeof(DownloadHandler), 16 + sizeof(System::IntPtr) + 8 - (16 + sizeof(System::IntPtr)) % 8> __UnityEngine_Networking_DownloadHandlerSizeCheck;
+  check_size<sizeof(DownloadHandler), 16 + sizeof(System::IntPtr) + ((16 + sizeof(System::IntPtr)) % 8 != 0 ? (8 - (16 + sizeof(System::IntPtr)) % 8) : 0)> __UnityEngine_Networking_DownloadHandlerSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandler*, "UnityEngine.Networking", "DownloadHandler");
 #pragma pack(pop)

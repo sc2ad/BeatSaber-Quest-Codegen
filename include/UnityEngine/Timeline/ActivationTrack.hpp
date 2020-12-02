@@ -79,7 +79,7 @@ namespace UnityEngine::Timeline {
       // Set static field: static public UnityEngine.Timeline.ActivationTrack/PostPlaybackState LeaveAsIs
       static void _set_LeaveAsIs(UnityEngine::Timeline::ActivationTrack::PostPlaybackState value);
     }; // UnityEngine.Timeline.ActivationTrack/PostPlaybackState
-    check_size<sizeof(ActivationTrack::PostPlaybackState), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_Timeline_ActivationTrack_PostPlaybackStateSizeCheck;
+    check_size<sizeof(ActivationTrack::PostPlaybackState), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_Timeline_ActivationTrack_PostPlaybackStateSizeCheck;
     // private UnityEngine.Timeline.ActivationTrack/PostPlaybackState m_PostPlaybackState
     // Offset: 0xA0
     UnityEngine::Timeline::ActivationTrack::PostPlaybackState m_PostPlaybackState;
@@ -125,7 +125,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     static ActivationTrack* New_ctor();
   }; // UnityEngine.Timeline.ActivationTrack
-  check_size<sizeof(ActivationTrack), 168 + sizeof(void*) + 8 - (168 + sizeof(void*)) % 8> __UnityEngine_Timeline_ActivationTrackSizeCheck;
+  check_size<sizeof(ActivationTrack), 168 + sizeof(void*) + ((168 + sizeof(void*)) % 8 != 0 ? (8 - (168 + sizeof(void*)) % 8) : 0)> __UnityEngine_Timeline_ActivationTrackSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationTrack*, "UnityEngine.Timeline", "ActivationTrack");

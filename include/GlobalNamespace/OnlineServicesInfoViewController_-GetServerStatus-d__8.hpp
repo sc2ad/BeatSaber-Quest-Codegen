@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServicesInfoViewController/<GetServerStatus>d__8
-  check_size<sizeof(OnlineServicesInfoViewController::$GetServerStatus$d__8), 64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::LeaderboardEntriesResult*>) + 8 - (64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::LeaderboardEntriesResult*>)) % 8> __GlobalNamespace_OnlineServicesInfoViewController_$GetServerStatus$d__8SizeCheck;
+  check_size<sizeof(OnlineServicesInfoViewController::$GetServerStatus$d__8), 64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::LeaderboardEntriesResult*>) + ((64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::LeaderboardEntriesResult*>)) % 8 != 0 ? (8 - (64 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::LeaderboardEntriesResult*>)) % 8) : 0)> __GlobalNamespace_OnlineServicesInfoViewController_$GetServerStatus$d__8SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnlineServicesInfoViewController::$GetServerStatus$d__8, "", "OnlineServicesInfoViewController/<GetServerStatus>d__8");

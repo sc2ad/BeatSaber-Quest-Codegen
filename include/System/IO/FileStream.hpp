@@ -306,7 +306,7 @@ namespace System::IO {
     // Base method: System.Void Stream::.cctor()
     static void _cctor();
   }; // System.IO.FileStream
-  check_size<sizeof(FileStream), 104 + sizeof(int64_t) + 8 - (104 + sizeof(int64_t)) % 8> __System_IO_FileStreamSizeCheck;
+  check_size<sizeof(FileStream), 104 + sizeof(int64_t) + ((104 + sizeof(int64_t)) % 8 != 0 ? (8 - (104 + sizeof(int64_t)) % 8) : 0)> __System_IO_FileStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileStream*, "System.IO", "FileStream");

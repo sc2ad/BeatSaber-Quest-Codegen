@@ -41,7 +41,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EVRMouseButton Middle
     static void _set_Middle(Valve::VR::EVRMouseButton value);
   }; // Valve.VR.EVRMouseButton
-  check_size<sizeof(EVRMouseButton), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Valve_VR_EVRMouseButtonSizeCheck;
+  check_size<sizeof(EVRMouseButton), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Valve_VR_EVRMouseButtonSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRMouseButton, "Valve.VR", "EVRMouseButton");

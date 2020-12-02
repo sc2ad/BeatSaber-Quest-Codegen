@@ -136,7 +136,7 @@ namespace System::Globalization {
     // Base method: System.Int32 Calendar::ToFourDigitYear(System.Int32 year)
     int ToFourDigitYear(int year);
   }; // System.Globalization.TaiwanCalendar
-  check_size<sizeof(TaiwanCalendar), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Globalization_TaiwanCalendarSizeCheck;
+  check_size<sizeof(TaiwanCalendar), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_Globalization_TaiwanCalendarSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TaiwanCalendar*, "System.Globalization", "TaiwanCalendar");

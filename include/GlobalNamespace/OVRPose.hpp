@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // OVRPose
-  check_size<sizeof(OVRPose), 12 + sizeof(UnityEngine::Quaternion) + 8 - (12 + sizeof(UnityEngine::Quaternion)) % 8> __GlobalNamespace_OVRPoseSizeCheck;
+  check_size<sizeof(OVRPose), 12 + sizeof(UnityEngine::Quaternion) + ((12 + sizeof(UnityEngine::Quaternion)) % 8 != 0 ? (8 - (12 + sizeof(UnityEngine::Quaternion)) % 8) : 0)> __GlobalNamespace_OVRPoseSizeCheck;
   // static public System.Boolean op_Equality(OVRPose x, OVRPose y)
   // Offset: 0x12E1364
   bool operator ==(const GlobalNamespace::OVRPose& x, const GlobalNamespace::OVRPose& y);

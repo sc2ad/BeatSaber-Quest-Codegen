@@ -82,7 +82,7 @@ namespace OnlineServices::API {
     // Offset: 0x1014C74
     System::Threading::Tasks::Task* SendAndWaitAsync(UnityEngine::Networking::UnityWebRequest* webRequest, System::Threading::CancellationToken cancellationToken);
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper
-  check_size<sizeof(HTTPAdminLeaderboardsHelper), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __OnlineServices_API_HTTPAdminLeaderboardsHelperSizeCheck;
+  check_size<sizeof(HTTPAdminLeaderboardsHelper), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __OnlineServices_API_HTTPAdminLeaderboardsHelperSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper*, "OnlineServices.API", "HTTPAdminLeaderboardsHelper");

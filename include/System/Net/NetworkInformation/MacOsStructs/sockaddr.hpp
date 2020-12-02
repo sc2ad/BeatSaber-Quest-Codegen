@@ -22,7 +22,7 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     // Creating value type constructor for type: sockaddr
     constexpr sockaddr(uint8_t sa_len_ = {}, uint8_t sa_family_ = {}) noexcept : sa_len{sa_len_}, sa_family{sa_family_} {}
   }; // System.Net.NetworkInformation.MacOsStructs.sockaddr
-  check_size<sizeof(sockaddr), 1 + sizeof(uint8_t) + 8 - (1 + sizeof(uint8_t)) % 8> __System_Net_NetworkInformation_MacOsStructs_sockaddrSizeCheck;
+  check_size<sizeof(sockaddr), 1 + sizeof(uint8_t) + ((1 + sizeof(uint8_t)) % 8 != 0 ? (8 - (1 + sizeof(uint8_t)) % 8) : 0)> __System_Net_NetworkInformation_MacOsStructs_sockaddrSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsStructs::sockaddr, "System.Net.NetworkInformation.MacOsStructs", "sockaddr");

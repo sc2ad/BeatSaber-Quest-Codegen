@@ -59,7 +59,7 @@ namespace System::Runtime::Remoting {
     // Base method: System.Void Object::.ctor()
     static ChannelData* New_ctor();
   }; // System.Runtime.Remoting.ChannelData
-  check_size<sizeof(ChannelData), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __System_Runtime_Remoting_ChannelDataSizeCheck;
+  check_size<sizeof(ChannelData), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __System_Runtime_Remoting_ChannelDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ChannelData*, "System.Runtime.Remoting", "ChannelData");

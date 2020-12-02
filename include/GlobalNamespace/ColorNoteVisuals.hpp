@@ -117,7 +117,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // ColorNoteVisuals
-  check_size<sizeof(ColorNoteVisuals), 88 + sizeof(UnityEngine::Color) + 8 - (88 + sizeof(UnityEngine::Color)) % 8> __GlobalNamespace_ColorNoteVisualsSizeCheck;
+  check_size<sizeof(ColorNoteVisuals), 88 + sizeof(UnityEngine::Color) + ((88 + sizeof(UnityEngine::Color)) % 8 != 0 ? (8 - (88 + sizeof(UnityEngine::Color)) % 8) : 0)> __GlobalNamespace_ColorNoteVisualsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorNoteVisuals*, "", "ColorNoteVisuals");

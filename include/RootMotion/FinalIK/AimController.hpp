@@ -143,7 +143,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static AimController* New_ctor();
   }; // RootMotion.FinalIK.AimController
-  check_size<sizeof(AimController), 180 + sizeof(float) + 8 - (180 + sizeof(float)) % 8> __RootMotion_FinalIK_AimControllerSizeCheck;
+  check_size<sizeof(AimController), 180 + sizeof(float) + ((180 + sizeof(float)) % 8 != 0 ? (8 - (180 + sizeof(float)) % 8) : 0)> __RootMotion_FinalIK_AimControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimController*, "RootMotion.FinalIK", "AimController");

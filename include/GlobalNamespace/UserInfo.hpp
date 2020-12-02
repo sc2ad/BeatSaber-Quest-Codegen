@@ -58,7 +58,7 @@ namespace GlobalNamespace {
       // Set static field: static public UserInfo/Platform PS4
       static void _set_PS4(GlobalNamespace::UserInfo::Platform value);
     }; // UserInfo/Platform
-    check_size<sizeof(UserInfo::Platform), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_UserInfo_PlatformSizeCheck;
+    check_size<sizeof(UserInfo::Platform), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_UserInfo_PlatformSizeCheck;
     // public readonly UserInfo/Platform platform
     // Offset: 0x10
     GlobalNamespace::UserInfo::Platform platform;
@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     // Offset: 0xFEC6AC
     static UserInfo* New_ctor(GlobalNamespace::UserInfo::Platform platform, ::Il2CppString* platformUserId, ::Il2CppString* userName);
   }; // UserInfo
-  check_size<sizeof(UserInfo), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_UserInfoSizeCheck;
+  check_size<sizeof(UserInfo), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_UserInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserInfo*, "", "UserInfo");

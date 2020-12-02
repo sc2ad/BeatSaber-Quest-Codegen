@@ -30,7 +30,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: IVRResources
     constexpr IVRResources(Valve::VR::IVRResources::_LoadSharedResource* LoadSharedResource_ = {}, Valve::VR::IVRResources::_GetResourceFullPath* GetResourceFullPath_ = {}) noexcept : LoadSharedResource{LoadSharedResource_}, GetResourceFullPath{GetResourceFullPath_} {}
   }; // Valve.VR.IVRResources
-  check_size<sizeof(IVRResources), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __Valve_VR_IVRResourcesSizeCheck;
+  check_size<sizeof(IVRResources), 8 + sizeof(void*) + ((8 + sizeof(void*)) % 8 != 0 ? (8 - (8 + sizeof(void*)) % 8) : 0)> __Valve_VR_IVRResourcesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRResources, "Valve.VR", "IVRResources");

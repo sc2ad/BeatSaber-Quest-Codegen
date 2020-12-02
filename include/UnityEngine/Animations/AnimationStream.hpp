@@ -38,7 +38,7 @@ namespace UnityEngine::Animations {
     // Creating value type constructor for type: AnimationStream
     constexpr AnimationStream(uint m_AnimatorBindingsVersion_ = {}, System::IntPtr constant_ = {}, System::IntPtr input_ = {}, System::IntPtr output_ = {}, System::IntPtr workspace_ = {}, System::IntPtr inputStreamAccessor_ = {}, System::IntPtr animationHandleBinder_ = {}) noexcept : m_AnimatorBindingsVersion{m_AnimatorBindingsVersion_}, constant{constant_}, input{input_}, output{output_}, workspace{workspace_}, inputStreamAccessor{inputStreamAccessor_}, animationHandleBinder{animationHandleBinder_} {}
   }; // UnityEngine.Animations.AnimationStream
-  check_size<sizeof(AnimationStream), 48 + sizeof(System::IntPtr) + 8 - (48 + sizeof(System::IntPtr)) % 8> __UnityEngine_Animations_AnimationStreamSizeCheck;
+  check_size<sizeof(AnimationStream), 48 + sizeof(System::IntPtr) + ((48 + sizeof(System::IntPtr)) % 8 != 0 ? (8 - (48 + sizeof(System::IntPtr)) % 8) : 0)> __UnityEngine_Animations_AnimationStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationStream, "UnityEngine.Animations", "AnimationStream");

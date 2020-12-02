@@ -60,7 +60,7 @@ namespace UnityEngine::Events {
     // Base method: System.Boolean BaseInvokableCall::Find(System.Object targetObj, System.Reflection.MethodInfo method)
     bool Find(::Il2CppObject* targetObj, System::Reflection::MethodInfo* method);
   }; // UnityEngine.Events.InvokableCall
-  check_size<sizeof(InvokableCall), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_Events_InvokableCallSizeCheck;
+  check_size<sizeof(InvokableCall), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __UnityEngine_Events_InvokableCallSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::InvokableCall*, "UnityEngine.Events", "InvokableCall");

@@ -60,7 +60,7 @@ namespace LiteNetLib {
     // Base method: System.Boolean BaseChannel::ProcessPacket(LiteNetLib.NetPacket packet)
     bool ProcessPacket(LiteNetLib::NetPacket* packet);
   }; // LiteNetLib.SequencedChannel
-  check_size<sizeof(SequencedChannel), 72 + sizeof(int64_t) + 8 - (72 + sizeof(int64_t)) % 8> __LiteNetLib_SequencedChannelSizeCheck;
+  check_size<sizeof(SequencedChannel), 72 + sizeof(int64_t) + ((72 + sizeof(int64_t)) % 8 != 0 ? (8 - (72 + sizeof(int64_t)) % 8) : 0)> __LiteNetLib_SequencedChannelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::SequencedChannel*, "LiteNetLib", "SequencedChannel");

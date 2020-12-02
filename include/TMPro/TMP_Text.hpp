@@ -141,7 +141,7 @@ namespace TMPro {
       // Set static field: static public TMPro.TMP_Text/TextInputSources String
       static void _set_String(TMPro::TMP_Text::TextInputSources value);
     }; // TMPro.TMP_Text/TextInputSources
-    check_size<sizeof(TMP_Text::TextInputSources), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __TMPro_TMP_Text_TextInputSourcesSizeCheck;
+    check_size<sizeof(TMP_Text::TextInputSources), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __TMPro_TMP_Text_TextInputSourcesSizeCheck;
     // protected System.String m_text
     // Offset: 0xC0
     ::Il2CppString* m_text;
@@ -1617,7 +1617,7 @@ namespace TMPro {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // TMPro.TMP_Text
-  check_size<sizeof(TMP_Text), 2856 + sizeof(void*) + 8 - (2856 + sizeof(void*)) % 8> __TMPro_TMP_TextSizeCheck;
+  check_size<sizeof(TMP_Text), 2856 + sizeof(void*) + ((2856 + sizeof(void*)) % 8 != 0 ? (8 - (2856 + sizeof(void*)) % 8) : 0)> __TMPro_TMP_TextSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Text*, "TMPro", "TMP_Text");
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Text::TextInputSources, "TMPro", "TMP_Text/TextInputSources");

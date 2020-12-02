@@ -81,7 +81,7 @@ namespace HMUI {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // HMUI.ViewController/<PresentViewControllerCoroutine>d__58
-  check_size<sizeof(ViewController::$PresentViewControllerCoroutine$d__58), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __HMUI_ViewController_$PresentViewControllerCoroutine$d__58SizeCheck;
+  check_size<sizeof(ViewController::$PresentViewControllerCoroutine$d__58), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __HMUI_ViewController_$PresentViewControllerCoroutine$d__58SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewController::$PresentViewControllerCoroutine$d__58*, "HMUI", "ViewController/<PresentViewControllerCoroutine>d__58");

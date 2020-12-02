@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HandState
     constexpr HandState(GlobalNamespace::OVRPlugin::HandStatus Status_ = {}, GlobalNamespace::OVRPlugin::Posef RootPose_ = {}, ::Array<GlobalNamespace::OVRPlugin::Quatf>* BoneRotations_ = {}, GlobalNamespace::OVRPlugin::HandFingerPinch Pinches_ = {}, ::Array<float>* PinchStrength_ = {}, GlobalNamespace::OVRPlugin::Posef PointerPose_ = {}, float HandScale_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence HandConfidence_ = {}, ::Array<GlobalNamespace::OVRPlugin::TrackingConfidence>* FingerConfidences_ = {}, double RequestedTimeStamp_ = {}, double SampleTimeStamp_ = {}) noexcept : Status{Status_}, RootPose{RootPose_}, BoneRotations{BoneRotations_}, Pinches{Pinches_}, PinchStrength{PinchStrength_}, PointerPose{PointerPose_}, HandScale{HandScale_}, HandConfidence{HandConfidence_}, FingerConfidences{FingerConfidences_}, RequestedTimeStamp{RequestedTimeStamp_}, SampleTimeStamp{SampleTimeStamp_} {}
   }; // OVRPlugin/HandState
-  check_size<sizeof(OVRPlugin::HandState), 112 + sizeof(double) + 8 - (112 + sizeof(double)) % 8> __GlobalNamespace_OVRPlugin_HandStateSizeCheck;
+  check_size<sizeof(OVRPlugin::HandState), 112 + sizeof(double) + ((112 + sizeof(double)) % 8 != 0 ? (8 - (112 + sizeof(double)) % 8) : 0)> __GlobalNamespace_OVRPlugin_HandStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HandState, "", "OVRPlugin/HandState");

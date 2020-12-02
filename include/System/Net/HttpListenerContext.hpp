@@ -86,7 +86,7 @@ namespace System::Net {
     // Offset: 0x12B0250
     System::Security::Principal::IPrincipal* ParseBasicAuthentication(::Il2CppString* authData);
   }; // System.Net.HttpListenerContext
-  check_size<sizeof(HttpListenerContext), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __System_Net_HttpListenerContextSizeCheck;
+  check_size<sizeof(HttpListenerContext), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __System_Net_HttpListenerContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerContext*, "System.Net", "HttpListenerContext");

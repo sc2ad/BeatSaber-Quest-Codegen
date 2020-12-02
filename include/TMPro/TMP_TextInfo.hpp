@@ -143,7 +143,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static TMP_TextInfo* New_ctor();
   }; // TMPro.TMP_TextInfo
-  check_size<sizeof(TMP_TextInfo), 104 + sizeof(void*) + 8 - (104 + sizeof(void*)) % 8> __TMPro_TMP_TextInfoSizeCheck;
+  check_size<sizeof(TMP_TextInfo), 104 + sizeof(void*) + ((104 + sizeof(void*)) % 8 != 0 ? (8 - (104 + sizeof(void*)) % 8) : 0)> __TMPro_TMP_TextInfoSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextInfo*, "TMPro", "TMP_TextInfo");
 #pragma pack(pop)

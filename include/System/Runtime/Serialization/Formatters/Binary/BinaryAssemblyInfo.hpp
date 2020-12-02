@@ -34,7 +34,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x1340A0C
     System::Reflection::Assembly* GetAssembly();
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo
-  check_size<sizeof(BinaryAssemblyInfo), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Runtime_Serialization_Formatters_Binary_BinaryAssemblyInfoSizeCheck;
+  check_size<sizeof(BinaryAssemblyInfo), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Runtime_Serialization_Formatters_Binary_BinaryAssemblyInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*, "System.Runtime.Serialization.Formatters.Binary", "BinaryAssemblyInfo");

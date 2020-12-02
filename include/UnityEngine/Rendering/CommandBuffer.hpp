@@ -221,7 +221,7 @@ namespace UnityEngine::Rendering {
     // Base method: System.Void Object::.ctor()
     static CommandBuffer* New_ctor();
   }; // UnityEngine.Rendering.CommandBuffer
-  check_size<sizeof(CommandBuffer), 16 + sizeof(System::IntPtr) + 8 - (16 + sizeof(System::IntPtr)) % 8> __UnityEngine_Rendering_CommandBufferSizeCheck;
+  check_size<sizeof(CommandBuffer), 16 + sizeof(System::IntPtr) + ((16 + sizeof(System::IntPtr)) % 8 != 0 ? (8 - (16 + sizeof(System::IntPtr)) % 8) : 0)> __UnityEngine_Rendering_CommandBufferSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::CommandBuffer*, "UnityEngine.Rendering", "CommandBuffer");

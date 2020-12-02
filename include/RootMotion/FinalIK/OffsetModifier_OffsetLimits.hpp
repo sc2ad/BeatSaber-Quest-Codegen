@@ -75,7 +75,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static OffsetModifier::OffsetLimits* New_ctor();
   }; // RootMotion.FinalIK.OffsetModifier/OffsetLimits
-  check_size<sizeof(OffsetModifier::OffsetLimits), 48 + sizeof(float) + 8 - (48 + sizeof(float)) % 8> __RootMotion_FinalIK_OffsetModifier_OffsetLimitsSizeCheck;
+  check_size<sizeof(OffsetModifier::OffsetLimits), 48 + sizeof(float) + ((48 + sizeof(float)) % 8 != 0 ? (8 - (48 + sizeof(float)) % 8) : 0)> __RootMotion_FinalIK_OffsetModifier_OffsetLimitsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifier::OffsetLimits*, "RootMotion.FinalIK", "OffsetModifier/OffsetLimits");

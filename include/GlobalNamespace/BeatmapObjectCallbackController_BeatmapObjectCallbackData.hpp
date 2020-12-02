@@ -26,7 +26,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A26E10
     static BeatmapObjectCallbackController::BeatmapObjectCallbackData* New_ctor(GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallback* callback, float aheadTime, int numberOfLines);
   }; // BeatmapObjectCallbackController/BeatmapObjectCallbackData
-  check_size<sizeof(BeatmapObjectCallbackController::BeatmapObjectCallbackData), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapObjectCallbackController_BeatmapObjectCallbackDataSizeCheck;
+  check_size<sizeof(BeatmapObjectCallbackController::BeatmapObjectCallbackData), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_BeatmapObjectCallbackController_BeatmapObjectCallbackDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectCallbackController::BeatmapObjectCallbackData*, "", "BeatmapObjectCallbackController/BeatmapObjectCallbackData");

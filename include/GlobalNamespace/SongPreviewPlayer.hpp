@@ -97,7 +97,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SongPreviewPlayer* New_ctor();
   }; // SongPreviewPlayer
-  check_size<sizeof(SongPreviewPlayer), 88 + sizeof(float) + 8 - (88 + sizeof(float)) % 8> __GlobalNamespace_SongPreviewPlayerSizeCheck;
+  check_size<sizeof(SongPreviewPlayer), 88 + sizeof(float) + ((88 + sizeof(float)) % 8 != 0 ? (8 - (88 + sizeof(float)) % 8) : 0)> __GlobalNamespace_SongPreviewPlayerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer*, "", "SongPreviewPlayer");

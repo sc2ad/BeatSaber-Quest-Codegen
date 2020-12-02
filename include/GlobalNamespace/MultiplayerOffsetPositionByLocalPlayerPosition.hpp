@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerOffsetPositionByLocalPlayerPosition* New_ctor();
   }; // MultiplayerOffsetPositionByLocalPlayerPosition
-  check_size<sizeof(MultiplayerOffsetPositionByLocalPlayerPosition), 72 + sizeof(UnityEngine::Quaternion) + 8 - (72 + sizeof(UnityEngine::Quaternion)) % 8> __GlobalNamespace_MultiplayerOffsetPositionByLocalPlayerPositionSizeCheck;
+  check_size<sizeof(MultiplayerOffsetPositionByLocalPlayerPosition), 72 + sizeof(UnityEngine::Quaternion) + ((72 + sizeof(UnityEngine::Quaternion)) % 8 != 0 ? (8 - (72 + sizeof(UnityEngine::Quaternion)) % 8) : 0)> __GlobalNamespace_MultiplayerOffsetPositionByLocalPlayerPositionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*, "", "MultiplayerOffsetPositionByLocalPlayerPosition");

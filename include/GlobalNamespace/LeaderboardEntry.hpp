@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LeaderboardEntry* New_ctor();
   }; // LeaderboardEntry
-  check_size<sizeof(LeaderboardEntry), 48 + sizeof(UnityEngine::Color) + 8 - (48 + sizeof(UnityEngine::Color)) % 8> __GlobalNamespace_LeaderboardEntrySizeCheck;
+  check_size<sizeof(LeaderboardEntry), 48 + sizeof(UnityEngine::Color) + ((48 + sizeof(UnityEngine::Color)) % 8 != 0 ? (8 - (48 + sizeof(UnityEngine::Color)) % 8) : 0)> __GlobalNamespace_LeaderboardEntrySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardEntry*, "", "LeaderboardEntry");

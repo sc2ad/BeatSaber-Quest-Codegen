@@ -87,7 +87,7 @@ namespace System::ComponentModel {
     // Base method: System.Void Exception::.cctor()
     static void _cctor();
   }; // System.ComponentModel.Win32Exception
-  check_size<sizeof(Win32Exception), 136 + sizeof(int) + 8 - (136 + sizeof(int)) % 8> __System_ComponentModel_Win32ExceptionSizeCheck;
+  check_size<sizeof(Win32Exception), 136 + sizeof(int) + ((136 + sizeof(int)) % 8 != 0 ? (8 - (136 + sizeof(int)) % 8) : 0)> __System_ComponentModel_Win32ExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Win32Exception*, "System.ComponentModel", "Win32Exception");

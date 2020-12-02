@@ -70,7 +70,7 @@ namespace Mono::Net::Security {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // Mono.Net.Security.AsyncProtocolRequest/<ProcessOperation>d__24
-  check_size<sizeof(AsyncProtocolRequest::$ProcessOperation$d__24), 72 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter) + 8 - (72 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter)) % 8> __Mono_Net_Security_AsyncProtocolRequest_$ProcessOperation$d__24SizeCheck;
+  check_size<sizeof(AsyncProtocolRequest::$ProcessOperation$d__24), 72 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter) + ((72 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter)) % 8 != 0 ? (8 - (72 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter)) % 8) : 0)> __Mono_Net_Security_AsyncProtocolRequest_$ProcessOperation$d__24SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolRequest::$ProcessOperation$d__24, "Mono.Net.Security", "AsyncProtocolRequest/<ProcessOperation>d__24");

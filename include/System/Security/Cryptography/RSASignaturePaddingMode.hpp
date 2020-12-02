@@ -35,7 +35,7 @@ namespace System::Security::Cryptography {
     // Set static field: static public System.Security.Cryptography.RSASignaturePaddingMode Pss
     static void _set_Pss(System::Security::Cryptography::RSASignaturePaddingMode value);
   }; // System.Security.Cryptography.RSASignaturePaddingMode
-  check_size<sizeof(RSASignaturePaddingMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Security_Cryptography_RSASignaturePaddingModeSizeCheck;
+  check_size<sizeof(RSASignaturePaddingMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Security_Cryptography_RSASignaturePaddingModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSASignaturePaddingMode, "System.Security.Cryptography", "RSASignaturePaddingMode");

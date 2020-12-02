@@ -33,7 +33,7 @@ namespace UnityEngine::Networking {
     // Offset: 0x19DD990
     void Dispose();
   }; // UnityEngine.Networking.CertificateHandler
-  check_size<sizeof(CertificateHandler), 16 + sizeof(System::IntPtr) + 8 - (16 + sizeof(System::IntPtr)) % 8> __UnityEngine_Networking_CertificateHandlerSizeCheck;
+  check_size<sizeof(CertificateHandler), 16 + sizeof(System::IntPtr) + ((16 + sizeof(System::IntPtr)) % 8 != 0 ? (8 - (16 + sizeof(System::IntPtr)) % 8) : 0)> __UnityEngine_Networking_CertificateHandlerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::CertificateHandler*, "UnityEngine.Networking", "CertificateHandler");

@@ -35,7 +35,7 @@ namespace OnlineServices {
     // Set static field: static public OnlineServices.ScoresScope Friends
     static void _set_Friends(OnlineServices::ScoresScope value);
   }; // OnlineServices.ScoresScope
-  check_size<sizeof(ScoresScope), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OnlineServices_ScoresScopeSizeCheck;
+  check_size<sizeof(ScoresScope), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OnlineServices_ScoresScopeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::ScoresScope, "OnlineServices", "ScoresScope");

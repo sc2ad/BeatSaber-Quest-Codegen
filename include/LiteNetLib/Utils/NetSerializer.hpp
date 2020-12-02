@@ -227,7 +227,7 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void Object::.ctor()
     static NetSerializer* New_ctor();
   }; // LiteNetLib.Utils.NetSerializer
-  check_size<sizeof(NetSerializer), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __LiteNetLib_Utils_NetSerializerSizeCheck;
+  check_size<sizeof(NetSerializer), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __LiteNetLib_Utils_NetSerializerSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetSerializer*, "LiteNetLib.Utils", "NetSerializer");
 #pragma pack(pop)

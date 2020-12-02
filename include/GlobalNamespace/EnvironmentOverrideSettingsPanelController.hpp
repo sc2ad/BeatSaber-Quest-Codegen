@@ -111,7 +111,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EnvironmentOverrideSettingsPanelController* New_ctor();
   }; // EnvironmentOverrideSettingsPanelController
-  check_size<sizeof(EnvironmentOverrideSettingsPanelController), 80 + sizeof(bool) + 8 - (80 + sizeof(bool)) % 8> __GlobalNamespace_EnvironmentOverrideSettingsPanelControllerSizeCheck;
+  check_size<sizeof(EnvironmentOverrideSettingsPanelController), 80 + sizeof(bool) + ((80 + sizeof(bool)) % 8 != 0 ? (8 - (80 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_EnvironmentOverrideSettingsPanelControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentOverrideSettingsPanelController*, "", "EnvironmentOverrideSettingsPanelController");

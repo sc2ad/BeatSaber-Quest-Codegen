@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static UnifiedNetworkPlayerModel::$$c__DisplayClass94_0* New_ctor();
   }; // UnifiedNetworkPlayerModel/<>c__DisplayClass94_0
-  check_size<sizeof(UnifiedNetworkPlayerModel::$$c__DisplayClass94_0), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_UnifiedNetworkPlayerModel_$$c__DisplayClass94_0SizeCheck;
+  check_size<sizeof(UnifiedNetworkPlayerModel::$$c__DisplayClass94_0), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_UnifiedNetworkPlayerModel_$$c__DisplayClass94_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel::$$c__DisplayClass94_0*, "", "UnifiedNetworkPlayerModel/<>c__DisplayClass94_0");

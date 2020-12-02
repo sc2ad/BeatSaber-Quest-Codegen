@@ -66,7 +66,7 @@ namespace UnityEngine {
     // Offset: 0xCB89D0
     void set_distance(float value);
   }; // UnityEngine.RaycastHit
-  check_size<sizeof(RaycastHit), 40 + sizeof(int) + 8 - (40 + sizeof(int)) % 8> __UnityEngine_RaycastHitSizeCheck;
+  check_size<sizeof(RaycastHit), 40 + sizeof(int) + ((40 + sizeof(int)) % 8 != 0 ? (8 - (40 + sizeof(int)) % 8) : 0)> __UnityEngine_RaycastHitSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RaycastHit, "UnityEngine", "RaycastHit");

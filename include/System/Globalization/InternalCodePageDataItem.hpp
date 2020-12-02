@@ -31,7 +31,7 @@ namespace System::Globalization {
     // Creating value type constructor for type: InternalCodePageDataItem
     constexpr InternalCodePageDataItem(uint16_t codePage_ = {}, uint16_t uiFamilyCodePage_ = {}, uint flags_ = {}, ::Il2CppString* Names_ = {}) noexcept : codePage{codePage_}, uiFamilyCodePage{uiFamilyCodePage_}, flags{flags_}, Names{Names_} {}
   }; // System.Globalization.InternalCodePageDataItem
-  check_size<sizeof(InternalCodePageDataItem), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __System_Globalization_InternalCodePageDataItemSizeCheck;
+  check_size<sizeof(InternalCodePageDataItem), 8 + sizeof(void*) + ((8 + sizeof(void*)) % 8 != 0 ? (8 - (8 + sizeof(void*)) % 8) : 0)> __System_Globalization_InternalCodePageDataItemSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::InternalCodePageDataItem, "System.Globalization", "InternalCodePageDataItem");

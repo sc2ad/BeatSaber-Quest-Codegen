@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AutoSetupController* New_ctor();
   }; // AutoSetupController
-  check_size<sizeof(AutoSetupController), 88 + sizeof(void*) + 8 - (88 + sizeof(void*)) % 8> __GlobalNamespace_AutoSetupControllerSizeCheck;
+  check_size<sizeof(AutoSetupController), 88 + sizeof(void*) + ((88 + sizeof(void*)) % 8 != 0 ? (8 - (88 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_AutoSetupControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutoSetupController*, "", "AutoSetupController");

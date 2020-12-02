@@ -59,7 +59,7 @@ namespace Unity::Collections {
     // Set static field: static public Unity.Collections.Allocator AudioKernel
     static void _set_AudioKernel(Unity::Collections::Allocator value);
   }; // Unity.Collections.Allocator
-  check_size<sizeof(Allocator), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Unity_Collections_AllocatorSizeCheck;
+  check_size<sizeof(Allocator), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Unity_Collections_AllocatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::Allocator, "Unity.Collections", "Allocator");

@@ -66,7 +66,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11F7730
     OVR::OpenVR::EVRScreenshotError SubmitScreenshot(uint screenshotHandle, OVR::OpenVR::EVRScreenshotType type, ::Il2CppString* pchSourcePreviewFilename, ::Il2CppString* pchSourceVRFilename);
   }; // OVR.OpenVR.CVRScreenshots
-  check_size<sizeof(CVRScreenshots), 16 + sizeof(OVR::OpenVR::IVRScreenshots) + 8 - (16 + sizeof(OVR::OpenVR::IVRScreenshots)) % 8> __OVR_OpenVR_CVRScreenshotsSizeCheck;
+  check_size<sizeof(CVRScreenshots), 16 + sizeof(OVR::OpenVR::IVRScreenshots) + ((16 + sizeof(OVR::OpenVR::IVRScreenshots)) % 8 != 0 ? (8 - (16 + sizeof(OVR::OpenVR::IVRScreenshots)) % 8) : 0)> __OVR_OpenVR_CVRScreenshotsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRScreenshots*, "OVR.OpenVR", "CVRScreenshots");

@@ -225,7 +225,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static GameServerLobbyFlowCoordinator* New_ctor();
   }; // GameServerLobbyFlowCoordinator
-  check_size<sizeof(GameServerLobbyFlowCoordinator), 336 + sizeof(bool) + 8 - (336 + sizeof(bool)) % 8> __GlobalNamespace_GameServerLobbyFlowCoordinatorSizeCheck;
+  check_size<sizeof(GameServerLobbyFlowCoordinator), 336 + sizeof(bool) + ((336 + sizeof(bool)) % 8 != 0 ? (8 - (336 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_GameServerLobbyFlowCoordinatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerLobbyFlowCoordinator*, "", "GameServerLobbyFlowCoordinator");

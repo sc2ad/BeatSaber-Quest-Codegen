@@ -141,7 +141,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static IKSolverTrigonometric* New_ctor();
   }; // RootMotion.FinalIK.IKSolverTrigonometric
-  check_size<sizeof(IKSolverTrigonometric), 164 + sizeof(bool) + 8 - (164 + sizeof(bool)) % 8> __RootMotion_FinalIK_IKSolverTrigonometricSizeCheck;
+  check_size<sizeof(IKSolverTrigonometric), 164 + sizeof(bool) + ((164 + sizeof(bool)) % 8 != 0 ? (8 - (164 + sizeof(bool)) % 8) : 0)> __RootMotion_FinalIK_IKSolverTrigonometricSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverTrigonometric*, "RootMotion.FinalIK", "IKSolverTrigonometric");

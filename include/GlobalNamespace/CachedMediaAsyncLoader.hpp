@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static CachedMediaAsyncLoader* New_ctor();
   }; // CachedMediaAsyncLoader
-  check_size<sizeof(CachedMediaAsyncLoader), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_CachedMediaAsyncLoaderSizeCheck;
+  check_size<sizeof(CachedMediaAsyncLoader), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_CachedMediaAsyncLoaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CachedMediaAsyncLoader*, "", "CachedMediaAsyncLoader");

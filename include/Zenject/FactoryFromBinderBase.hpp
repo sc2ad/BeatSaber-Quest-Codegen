@@ -190,7 +190,7 @@ namespace Zenject {
     // Offset: 0x12964B4
     UnityEngine::GameObject* $FromComponentOnRoot$b__25_0(Zenject::InjectContext* ctx);
   }; // Zenject.FactoryFromBinderBase
-  check_size<sizeof(FactoryFromBinderBase), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __Zenject_FactoryFromBinderBaseSizeCheck;
+  check_size<sizeof(FactoryFromBinderBase), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __Zenject_FactoryFromBinderBaseSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryFromBinderBase*, "Zenject", "FactoryFromBinderBase");
 #pragma pack(pop)

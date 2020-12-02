@@ -30,7 +30,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x14215A4
     static SupportsChildTracksAttribute* New_ctor(System::Type* childType, int levels);
   }; // UnityEngine.Timeline.SupportsChildTracksAttribute
-  check_size<sizeof(SupportsChildTracksAttribute), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __UnityEngine_Timeline_SupportsChildTracksAttributeSizeCheck;
+  check_size<sizeof(SupportsChildTracksAttribute), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __UnityEngine_Timeline_SupportsChildTracksAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SupportsChildTracksAttribute*, "UnityEngine.Timeline", "SupportsChildTracksAttribute");

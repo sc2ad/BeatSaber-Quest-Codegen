@@ -112,7 +112,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NetEaseLeaderboardViewController* New_ctor();
   }; // NetEaseLeaderboardViewController
-  check_size<sizeof(NetEaseLeaderboardViewController), 153 + sizeof(bool) + 8 - (153 + sizeof(bool)) % 8> __GlobalNamespace_NetEaseLeaderboardViewControllerSizeCheck;
+  check_size<sizeof(NetEaseLeaderboardViewController), 153 + sizeof(bool) + ((153 + sizeof(bool)) % 8 != 0 ? (8 - (153 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_NetEaseLeaderboardViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseLeaderboardViewController*, "", "NetEaseLeaderboardViewController");

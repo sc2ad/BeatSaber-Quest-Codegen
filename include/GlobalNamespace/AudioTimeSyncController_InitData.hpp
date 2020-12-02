@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A429D8
     static AudioTimeSyncController::InitData* New_ctor(UnityEngine::AudioClip* audioClip, float startSongTime, float songTimeOffset, float timeScale);
   }; // AudioTimeSyncController/InitData
-  check_size<sizeof(AudioTimeSyncController::InitData), 32 + sizeof(float) + 8 - (32 + sizeof(float)) % 8> __GlobalNamespace_AudioTimeSyncController_InitDataSizeCheck;
+  check_size<sizeof(AudioTimeSyncController::InitData), 32 + sizeof(float) + ((32 + sizeof(float)) % 8 != 0 ? (8 - (32 + sizeof(float)) % 8) : 0)> __GlobalNamespace_AudioTimeSyncController_InitDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioTimeSyncController::InitData*, "", "AudioTimeSyncController/InitData");

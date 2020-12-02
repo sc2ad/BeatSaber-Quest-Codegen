@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SaberClashChecker* New_ctor();
   }; // SaberClashChecker
-  check_size<sizeof(SaberClashChecker), 48 + sizeof(int) + 8 - (48 + sizeof(int)) % 8> __GlobalNamespace_SaberClashCheckerSizeCheck;
+  check_size<sizeof(SaberClashChecker), 48 + sizeof(int) + ((48 + sizeof(int)) % 8 != 0 ? (8 - (48 + sizeof(int)) % 8) : 0)> __GlobalNamespace_SaberClashCheckerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberClashChecker*, "", "SaberClashChecker");

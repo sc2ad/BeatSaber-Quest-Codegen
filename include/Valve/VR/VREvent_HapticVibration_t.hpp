@@ -31,7 +31,7 @@ namespace Valve::VR {
     // Creating value type constructor for type: VREvent_HapticVibration_t
     constexpr VREvent_HapticVibration_t(uint64_t containerHandle_ = {}, uint64_t componentHandle_ = {}, float fDurationSeconds_ = {}, float fFrequency_ = {}, float fAmplitude_ = {}) noexcept : containerHandle{containerHandle_}, componentHandle{componentHandle_}, fDurationSeconds{fDurationSeconds_}, fFrequency{fFrequency_}, fAmplitude{fAmplitude_} {}
   }; // Valve.VR.VREvent_HapticVibration_t
-  check_size<sizeof(VREvent_HapticVibration_t), 24 + sizeof(float) + 8 - (24 + sizeof(float)) % 8> __Valve_VR_VREvent_HapticVibration_tSizeCheck;
+  check_size<sizeof(VREvent_HapticVibration_t), 24 + sizeof(float) + ((24 + sizeof(float)) % 8 != 0 ? (8 - (24 + sizeof(float)) % 8) : 0)> __Valve_VR_VREvent_HapticVibration_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_HapticVibration_t, "Valve.VR", "VREvent_HapticVibration_t");

@@ -49,7 +49,7 @@ namespace GlobalNamespace {
       // Set static field: static public MultiplayerConditionalActiveByLayout/Condition HideIf
       static void _set_HideIf(GlobalNamespace::MultiplayerConditionalActiveByLayout::Condition value);
     }; // MultiplayerConditionalActiveByLayout/Condition
-    check_size<sizeof(MultiplayerConditionalActiveByLayout::Condition), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_MultiplayerConditionalActiveByLayout_ConditionSizeCheck;
+    check_size<sizeof(MultiplayerConditionalActiveByLayout::Condition), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_MultiplayerConditionalActiveByLayout_ConditionSizeCheck;
     // private MultiplayerConditionalActiveByLayout/Condition _condition
     // Offset: 0x18
     GlobalNamespace::MultiplayerConditionalActiveByLayout::Condition condition;
@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerConditionalActiveByLayout* New_ctor();
   }; // MultiplayerConditionalActiveByLayout
-  check_size<sizeof(MultiplayerConditionalActiveByLayout), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerConditionalActiveByLayoutSizeCheck;
+  check_size<sizeof(MultiplayerConditionalActiveByLayout), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MultiplayerConditionalActiveByLayoutSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConditionalActiveByLayout*, "", "MultiplayerConditionalActiveByLayout");

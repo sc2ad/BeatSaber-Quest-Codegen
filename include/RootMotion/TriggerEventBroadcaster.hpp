@@ -46,7 +46,7 @@ namespace RootMotion {
     // Base method: System.Void Object::.ctor()
     static TriggerEventBroadcaster* New_ctor();
   }; // RootMotion.TriggerEventBroadcaster
-  check_size<sizeof(TriggerEventBroadcaster), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __RootMotion_TriggerEventBroadcasterSizeCheck;
+  check_size<sizeof(TriggerEventBroadcaster), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __RootMotion_TriggerEventBroadcasterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::TriggerEventBroadcaster*, "RootMotion", "TriggerEventBroadcaster");

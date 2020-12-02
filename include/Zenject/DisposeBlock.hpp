@@ -80,7 +80,7 @@ namespace Zenject {
       // Creating value type constructor for type: SpawnedObjectPoolPair
       constexpr SpawnedObjectPoolPair(Zenject::IMemoryPool* Pool_ = {}, ::Il2CppObject* Object_ = {}) noexcept : Pool{Pool_}, Object{Object_} {}
     }; // Zenject.DisposeBlock/SpawnedObjectPoolPair
-    check_size<sizeof(DisposeBlock::SpawnedObjectPoolPair), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __Zenject_DisposeBlock_SpawnedObjectPoolPairSizeCheck;
+    check_size<sizeof(DisposeBlock::SpawnedObjectPoolPair), 8 + sizeof(void*) + ((8 + sizeof(void*)) % 8 != 0 ? (8 - (8 + sizeof(void*)) % 8) : 0)> __Zenject_DisposeBlock_SpawnedObjectPoolPairSizeCheck;
     // private System.Collections.Generic.List`1<System.IDisposable> _disposables
     // Offset: 0x10
     System::Collections::Generic::List_1<System::IDisposable*>* disposables;
@@ -239,7 +239,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static DisposeBlock* New_ctor();
   }; // Zenject.DisposeBlock
-  check_size<sizeof(DisposeBlock), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Zenject_DisposeBlockSizeCheck;
+  check_size<sizeof(DisposeBlock), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Zenject_DisposeBlockSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock*, "Zenject", "DisposeBlock");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock::SpawnedObjectPoolPair, "Zenject", "DisposeBlock/SpawnedObjectPoolPair");

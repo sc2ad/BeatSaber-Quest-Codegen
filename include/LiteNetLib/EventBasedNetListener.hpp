@@ -208,7 +208,7 @@ namespace LiteNetLib {
     // Base method: System.Void Object::.ctor()
     static EventBasedNetListener* New_ctor();
   }; // LiteNetLib.EventBasedNetListener
-  check_size<sizeof(EventBasedNetListener), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __LiteNetLib_EventBasedNetListenerSizeCheck;
+  check_size<sizeof(EventBasedNetListener), 72 + sizeof(void*) + ((72 + sizeof(void*)) % 8 != 0 ? (8 - (72 + sizeof(void*)) % 8) : 0)> __LiteNetLib_EventBasedNetListenerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNetListener*, "LiteNetLib", "EventBasedNetListener");

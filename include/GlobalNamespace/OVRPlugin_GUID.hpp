@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static OVRPlugin::GUID* New_ctor();
   }; // OVRPlugin/GUID
-  check_size<sizeof(OVRPlugin::GUID), 31 + sizeof(uint8_t) + 8 - (31 + sizeof(uint8_t)) % 8> __GlobalNamespace_OVRPlugin_GUIDSizeCheck;
+  check_size<sizeof(OVRPlugin::GUID), 31 + sizeof(uint8_t) + ((31 + sizeof(uint8_t)) % 8 != 0 ? (8 - (31 + sizeof(uint8_t)) % 8) : 0)> __GlobalNamespace_OVRPlugin_GUIDSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::GUID*, "", "OVRPlugin/GUID");

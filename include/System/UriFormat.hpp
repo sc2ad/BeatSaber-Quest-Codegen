@@ -41,7 +41,7 @@ namespace System {
     // Set static field: static public System.UriFormat SafeUnescaped
     static void _set_SafeUnescaped(System::UriFormat value);
   }; // System.UriFormat
-  check_size<sizeof(UriFormat), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_UriFormatSizeCheck;
+  check_size<sizeof(UriFormat), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_UriFormatSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UriFormat, "System", "UriFormat");

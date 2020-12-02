@@ -88,7 +88,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     static DirectorControlPlayable* New_ctor();
   }; // UnityEngine.Timeline.DirectorControlPlayable
-  check_size<sizeof(DirectorControlPlayable), 32 + sizeof(double) + 8 - (32 + sizeof(double)) % 8> __UnityEngine_Timeline_DirectorControlPlayableSizeCheck;
+  check_size<sizeof(DirectorControlPlayable), 32 + sizeof(double) + ((32 + sizeof(double)) % 8 != 0 ? (8 - (32 + sizeof(double)) % 8) : 0)> __UnityEngine_Timeline_DirectorControlPlayableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::DirectorControlPlayable*, "UnityEngine.Timeline", "DirectorControlPlayable");

@@ -41,7 +41,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public UnityEngine.ProBuilder.ExtrudeMethod FaceNormal
     static void _set_FaceNormal(UnityEngine::ProBuilder::ExtrudeMethod value);
   }; // UnityEngine.ProBuilder.ExtrudeMethod
-  check_size<sizeof(ExtrudeMethod), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_ProBuilder_ExtrudeMethodSizeCheck;
+  check_size<sizeof(ExtrudeMethod), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_ProBuilder_ExtrudeMethodSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ExtrudeMethod, "UnityEngine.ProBuilder", "ExtrudeMethod");

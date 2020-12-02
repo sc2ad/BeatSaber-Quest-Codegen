@@ -82,7 +82,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11F9738
     OVR::OpenVR::EVRTrackedCameraError ReleaseVideoStreamTextureGL(uint64_t hTrackedCamera, uint glTextureId);
   }; // OVR.OpenVR.CVRTrackedCamera
-  check_size<sizeof(CVRTrackedCamera), 16 + sizeof(OVR::OpenVR::IVRTrackedCamera) + 8 - (16 + sizeof(OVR::OpenVR::IVRTrackedCamera)) % 8> __OVR_OpenVR_CVRTrackedCameraSizeCheck;
+  check_size<sizeof(CVRTrackedCamera), 16 + sizeof(OVR::OpenVR::IVRTrackedCamera) + ((16 + sizeof(OVR::OpenVR::IVRTrackedCamera)) % 8 != 0 ? (8 - (16 + sizeof(OVR::OpenVR::IVRTrackedCamera)) % 8) : 0)> __OVR_OpenVR_CVRTrackedCameraSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRTrackedCamera*, "OVR.OpenVR", "CVRTrackedCamera");

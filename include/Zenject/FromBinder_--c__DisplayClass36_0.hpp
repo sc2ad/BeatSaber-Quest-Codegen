@@ -52,7 +52,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static FromBinder::$$c__DisplayClass36_0* New_ctor();
   }; // Zenject.FromBinder/<>c__DisplayClass36_0
-  check_size<sizeof(FromBinder::$$c__DisplayClass36_0), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Zenject_FromBinder_$$c__DisplayClass36_0SizeCheck;
+  check_size<sizeof(FromBinder::$$c__DisplayClass36_0), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Zenject_FromBinder_$$c__DisplayClass36_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FromBinder::$$c__DisplayClass36_0*, "Zenject", "FromBinder/<>c__DisplayClass36_0");

@@ -76,7 +76,7 @@ namespace UnityEngine::Rendering {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.Rendering.ScriptableRenderContext
-  check_size<sizeof(ScriptableRenderContext), 0 + sizeof(System::IntPtr) + 8 - (0 + sizeof(System::IntPtr)) % 8> __UnityEngine_Rendering_ScriptableRenderContextSizeCheck;
+  check_size<sizeof(ScriptableRenderContext), 0 + sizeof(System::IntPtr) + ((0 + sizeof(System::IntPtr)) % 8 != 0 ? (8 - (0 + sizeof(System::IntPtr)) % 8) : 0)> __UnityEngine_Rendering_ScriptableRenderContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ScriptableRenderContext, "UnityEngine.Rendering", "ScriptableRenderContext");

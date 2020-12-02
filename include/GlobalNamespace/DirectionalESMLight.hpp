@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static DirectionalESMLight* New_ctor();
   }; // DirectionalESMLight
-  check_size<sizeof(DirectionalESMLight), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_DirectionalESMLightSizeCheck;
+  check_size<sizeof(DirectionalESMLight), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_DirectionalESMLightSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalESMLight*, "", "DirectionalESMLight");

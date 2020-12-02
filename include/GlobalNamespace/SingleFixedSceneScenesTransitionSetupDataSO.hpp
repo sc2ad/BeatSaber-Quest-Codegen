@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SingleFixedSceneScenesTransitionSetupDataSO* New_ctor();
   }; // SingleFixedSceneScenesTransitionSetupDataSO
-  check_size<sizeof(SingleFixedSceneScenesTransitionSetupDataSO), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_SingleFixedSceneScenesTransitionSetupDataSOSizeCheck;
+  check_size<sizeof(SingleFixedSceneScenesTransitionSetupDataSO), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_SingleFixedSceneScenesTransitionSetupDataSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO*, "", "SingleFixedSceneScenesTransitionSetupDataSO");

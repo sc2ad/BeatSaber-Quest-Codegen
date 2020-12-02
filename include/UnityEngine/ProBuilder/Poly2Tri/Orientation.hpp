@@ -41,7 +41,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Set static field: static public UnityEngine.ProBuilder.Poly2Tri.Orientation Collinear
     static void _set_Collinear(UnityEngine::ProBuilder::Poly2Tri::Orientation value);
   }; // UnityEngine.ProBuilder.Poly2Tri.Orientation
-  check_size<sizeof(Orientation), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_ProBuilder_Poly2Tri_OrientationSizeCheck;
+  check_size<sizeof(Orientation), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_ProBuilder_Poly2Tri_OrientationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::Orientation, "UnityEngine.ProBuilder.Poly2Tri", "Orientation");

@@ -64,7 +64,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Base method: System.Void TriangulationDebugContext::Clear()
     void Clear();
   }; // UnityEngine.ProBuilder.Poly2Tri.DTSweepDebugContext
-  check_size<sizeof(DTSweepDebugContext), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_Poly2Tri_DTSweepDebugContextSizeCheck;
+  check_size<sizeof(DTSweepDebugContext), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __UnityEngine_ProBuilder_Poly2Tri_DTSweepDebugContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepDebugContext");

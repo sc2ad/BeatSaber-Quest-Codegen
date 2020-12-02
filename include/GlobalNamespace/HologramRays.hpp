@@ -163,7 +163,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // HologramRays
-  check_size<sizeof(HologramRays), 156 + sizeof(bool) + 8 - (156 + sizeof(bool)) % 8> __GlobalNamespace_HologramRaysSizeCheck;
+  check_size<sizeof(HologramRays), 156 + sizeof(bool) + ((156 + sizeof(bool)) % 8 != 0 ? (8 - (156 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_HologramRaysSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HologramRays*, "", "HologramRays");

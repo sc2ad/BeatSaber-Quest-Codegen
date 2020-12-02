@@ -84,7 +84,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static EulaViewController* New_ctor();
   }; // EulaViewController
-  check_size<sizeof(EulaViewController), 152 + sizeof(void*) + 8 - (152 + sizeof(void*)) % 8> __GlobalNamespace_EulaViewControllerSizeCheck;
+  check_size<sizeof(EulaViewController), 152 + sizeof(void*) + ((152 + sizeof(void*)) % 8 != 0 ? (8 - (152 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_EulaViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EulaViewController*, "", "EulaViewController");

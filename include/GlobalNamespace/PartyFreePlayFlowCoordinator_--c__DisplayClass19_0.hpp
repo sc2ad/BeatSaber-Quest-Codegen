@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0* New_ctor();
   }; // PartyFreePlayFlowCoordinator/<>c__DisplayClass19_0
-  check_size<sizeof(PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0), 48 + sizeof(bool) + 8 - (48 + sizeof(bool)) % 8> __GlobalNamespace_PartyFreePlayFlowCoordinator_$$c__DisplayClass19_0SizeCheck;
+  check_size<sizeof(PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0), 48 + sizeof(bool) + ((48 + sizeof(bool)) % 8 != 0 ? (8 - (48 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_PartyFreePlayFlowCoordinator_$$c__DisplayClass19_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0*, "", "PartyFreePlayFlowCoordinator/<>c__DisplayClass19_0");

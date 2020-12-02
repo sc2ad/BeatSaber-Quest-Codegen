@@ -114,7 +114,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     static TypeSpec* New_ctor();
   }; // System.TypeSpec
-  check_size<sizeof(TypeSpec), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __System_TypeSpecSizeCheck;
+  check_size<sizeof(TypeSpec), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __System_TypeSpecSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TypeSpec*, "System", "TypeSpec");

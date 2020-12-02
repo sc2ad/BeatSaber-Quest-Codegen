@@ -122,7 +122,7 @@ namespace Mono::Net::Security {
     // Base method: Mono.Security.Interface.ValidationResult ICertificateValidator2::ValidateCertificate(System.String host, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509Certificate leaf, System.Security.Cryptography.X509Certificates.X509Chain chain)
     Mono::Security::Interface::ValidationResult* ValidateCertificate(::Il2CppString* host, bool serverMode, System::Security::Cryptography::X509Certificates::X509Certificate* leaf, System::Security::Cryptography::X509Certificates::X509Chain* chain);
   }; // Mono.Net.Security.ChainValidationHelper
-  check_size<sizeof(ChainValidationHelper), 72 + sizeof(void*) + 8 - (72 + sizeof(void*)) % 8> __Mono_Net_Security_ChainValidationHelperSizeCheck;
+  check_size<sizeof(ChainValidationHelper), 72 + sizeof(void*) + ((72 + sizeof(void*)) % 8 != 0 ? (8 - (72 + sizeof(void*)) % 8) : 0)> __Mono_Net_Security_ChainValidationHelperSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::ChainValidationHelper*, "Mono.Net.Security", "ChainValidationHelper");

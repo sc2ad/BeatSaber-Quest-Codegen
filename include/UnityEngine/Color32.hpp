@@ -52,7 +52,7 @@ namespace UnityEngine {
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
   }; // UnityEngine.Color32
-  check_size<sizeof(Color32), 3 + sizeof(uint8_t) + 8 - (3 + sizeof(uint8_t)) % 8> __UnityEngine_Color32SizeCheck;
+  check_size<sizeof(Color32), 3 + sizeof(uint8_t) + ((3 + sizeof(uint8_t)) % 8 != 0 ? (8 - (3 + sizeof(uint8_t)) % 8) : 0)> __UnityEngine_Color32SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Color32, "UnityEngine", "Color32");

@@ -59,7 +59,7 @@ namespace System::Configuration::Assemblies {
     // Set static field: static public System.Configuration.Assemblies.AssemblyHashAlgorithm SHA512
     static void _set_SHA512(System::Configuration::Assemblies::AssemblyHashAlgorithm value);
   }; // System.Configuration.Assemblies.AssemblyHashAlgorithm
-  check_size<sizeof(AssemblyHashAlgorithm), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Configuration_Assemblies_AssemblyHashAlgorithmSizeCheck;
+  check_size<sizeof(AssemblyHashAlgorithm), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Configuration_Assemblies_AssemblyHashAlgorithmSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Configuration::Assemblies::AssemblyHashAlgorithm, "System.Configuration.Assemblies", "AssemblyHashAlgorithm");

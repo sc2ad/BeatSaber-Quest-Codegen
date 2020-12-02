@@ -27,7 +27,7 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: FloatIntUnion
     constexpr FloatIntUnion(float Float_ = {}, int Int_ = {}, uint UInt_ = {}) noexcept : Float{Float_}, Int{Int_}, UInt{UInt_} {}
   }; // NUnit.Framework.Constraints.FloatingPointNumerics/FloatIntUnion
-  check_size<sizeof(FloatingPointNumerics::FloatIntUnion), 0 + sizeof(uint) + 8 - (0 + sizeof(uint)) % 8> __NUnit_Framework_Constraints_FloatingPointNumerics_FloatIntUnionSizeCheck;
+  check_size<sizeof(FloatingPointNumerics::FloatIntUnion), 0 + sizeof(uint) + ((0 + sizeof(uint)) % 8 != 0 ? (8 - (0 + sizeof(uint)) % 8) : 0)> __NUnit_Framework_Constraints_FloatingPointNumerics_FloatIntUnionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::FloatingPointNumerics::FloatIntUnion, "NUnit.Framework.Constraints", "FloatingPointNumerics/FloatIntUnion");

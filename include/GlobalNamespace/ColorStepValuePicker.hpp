@@ -98,7 +98,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ColorStepValuePicker* New_ctor();
   }; // ColorStepValuePicker
-  check_size<sizeof(ColorStepValuePicker), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_ColorStepValuePickerSizeCheck;
+  check_size<sizeof(ColorStepValuePicker), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_ColorStepValuePickerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorStepValuePicker*, "", "ColorStepValuePicker");

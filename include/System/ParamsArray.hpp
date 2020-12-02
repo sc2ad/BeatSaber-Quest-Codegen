@@ -68,7 +68,7 @@ namespace System {
     // Offset: 0x171CFA4
     static void _cctor();
   }; // System.ParamsArray
-  check_size<sizeof(ParamsArray), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_ParamsArraySizeCheck;
+  check_size<sizeof(ParamsArray), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_ParamsArraySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParamsArray, "System", "ParamsArray");

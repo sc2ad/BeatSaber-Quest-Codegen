@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusPlatformAdditionalContentModel/<IsPackBetterBuyThanLevelAsync>d__11
-  check_size<sizeof(OculusPlatformAdditionalContentModel::$IsPackBetterBuyThanLevelAsync$d__11), 32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult>) + 8 - (32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult>)) % 8> __GlobalNamespace_OculusPlatformAdditionalContentModel_$IsPackBetterBuyThanLevelAsync$d__11SizeCheck;
+  check_size<sizeof(OculusPlatformAdditionalContentModel::$IsPackBetterBuyThanLevelAsync$d__11), 32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult>) + ((32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult>)) % 8 != 0 ? (8 - (32 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult>)) % 8) : 0)> __GlobalNamespace_OculusPlatformAdditionalContentModel_$IsPackBetterBuyThanLevelAsync$d__11SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAdditionalContentModel::$IsPackBetterBuyThanLevelAsync$d__11, "", "OculusPlatformAdditionalContentModel/<IsPackBetterBuyThanLevelAsync>d__11");

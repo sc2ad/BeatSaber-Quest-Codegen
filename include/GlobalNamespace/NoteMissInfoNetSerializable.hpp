@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NoteMissInfoNetSerializable* New_ctor();
   }; // NoteMissInfoNetSerializable
-  check_size<sizeof(NoteMissInfoNetSerializable), 28 + sizeof(GlobalNamespace::NoteLineLayer) + 8 - (28 + sizeof(GlobalNamespace::NoteLineLayer)) % 8> __GlobalNamespace_NoteMissInfoNetSerializableSizeCheck;
+  check_size<sizeof(NoteMissInfoNetSerializable), 28 + sizeof(GlobalNamespace::NoteLineLayer) + ((28 + sizeof(GlobalNamespace::NoteLineLayer)) % 8 != 0 ? (8 - (28 + sizeof(GlobalNamespace::NoteLineLayer)) % 8) : 0)> __GlobalNamespace_NoteMissInfoNetSerializableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteMissInfoNetSerializable*, "", "NoteMissInfoNetSerializable");

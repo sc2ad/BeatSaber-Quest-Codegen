@@ -32,7 +32,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Base method: System.Void Object::.ctor()
     static RemoteTestResultDataWithTestData* New_ctor();
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData
-  check_size<sizeof(RemoteTestResultDataWithTestData), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_TestRunner_TestLaunchers_RemoteTestResultDataWithTestDataSizeCheck;
+  check_size<sizeof(RemoteTestResultDataWithTestData), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __UnityEngine_TestRunner_TestLaunchers_RemoteTestResultDataWithTestDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestResultDataWithTestData");

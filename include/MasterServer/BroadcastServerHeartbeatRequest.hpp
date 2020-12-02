@@ -99,7 +99,7 @@ namespace MasterServer {
     // Base method: System.Void Object::.ctor()
     static BroadcastServerHeartbeatRequest* New_ctor();
   }; // MasterServer.BroadcastServerHeartbeatRequest
-  check_size<sizeof(BroadcastServerHeartbeatRequest), 40 + sizeof(int) + 8 - (40 + sizeof(int)) % 8> __MasterServer_BroadcastServerHeartbeatRequestSizeCheck;
+  check_size<sizeof(BroadcastServerHeartbeatRequest), 40 + sizeof(int) + ((40 + sizeof(int)) % 8 != 0 ? (8 - (40 + sizeof(int)) % 8) : 0)> __MasterServer_BroadcastServerHeartbeatRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BroadcastServerHeartbeatRequest*, "MasterServer", "BroadcastServerHeartbeatRequest");

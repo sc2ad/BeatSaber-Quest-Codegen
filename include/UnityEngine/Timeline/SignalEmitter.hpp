@@ -85,7 +85,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     static SignalEmitter* New_ctor();
   }; // UnityEngine.Timeline.SignalEmitter
-  check_size<sizeof(SignalEmitter), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __UnityEngine_Timeline_SignalEmitterSizeCheck;
+  check_size<sizeof(SignalEmitter), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __UnityEngine_Timeline_SignalEmitterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalEmitter*, "UnityEngine.Timeline", "SignalEmitter");

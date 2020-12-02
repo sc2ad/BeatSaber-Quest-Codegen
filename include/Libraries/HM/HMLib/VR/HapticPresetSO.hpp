@@ -38,7 +38,7 @@ namespace Libraries::HM::HMLib::VR {
     // Base method: System.Void Object::.ctor()
     static HapticPresetSO* New_ctor();
   }; // Libraries.HM.HMLib.VR.HapticPresetSO
-  check_size<sizeof(HapticPresetSO), 36 + sizeof(bool) + 8 - (36 + sizeof(bool)) % 8> __Libraries_HM_HMLib_VR_HapticPresetSOSizeCheck;
+  check_size<sizeof(HapticPresetSO), 36 + sizeof(bool) + ((36 + sizeof(bool)) % 8 != 0 ? (8 - (36 + sizeof(bool)) % 8) : 0)> __Libraries_HM_HMLib_VR_HapticPresetSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Libraries::HM::HMLib::VR::HapticPresetSO*, "Libraries.HM.HMLib.VR", "HapticPresetSO");

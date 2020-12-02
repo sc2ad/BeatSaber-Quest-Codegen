@@ -55,7 +55,7 @@ namespace OVR::OpenVR {
     // Offset: 0xC93900
     void Unpack(OVR::OpenVR::VRControllerState_t& unpacked);
   }; // OVR.OpenVR.VRControllerState_t_Packed
-  check_size<sizeof(VRControllerState_t_Packed), 52 + sizeof(OVR::OpenVR::VRControllerAxis_t) + 8 - (52 + sizeof(OVR::OpenVR::VRControllerAxis_t)) % 8> __OVR_OpenVR_VRControllerState_t_PackedSizeCheck;
+  check_size<sizeof(VRControllerState_t_Packed), 52 + sizeof(OVR::OpenVR::VRControllerAxis_t) + ((52 + sizeof(OVR::OpenVR::VRControllerAxis_t)) % 8 != 0 ? (8 - (52 + sizeof(OVR::OpenVR::VRControllerAxis_t)) % 8) : 0)> __OVR_OpenVR_VRControllerState_t_PackedSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRControllerState_t_Packed, "OVR.OpenVR", "VRControllerState_t_Packed");

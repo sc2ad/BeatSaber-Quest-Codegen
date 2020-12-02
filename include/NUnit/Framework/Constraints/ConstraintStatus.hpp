@@ -47,7 +47,7 @@ namespace NUnit::Framework::Constraints {
     // Set static field: static public NUnit.Framework.Constraints.ConstraintStatus Error
     static void _set_Error(NUnit::Framework::Constraints::ConstraintStatus value);
   }; // NUnit.Framework.Constraints.ConstraintStatus
-  check_size<sizeof(ConstraintStatus), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __NUnit_Framework_Constraints_ConstraintStatusSizeCheck;
+  check_size<sizeof(ConstraintStatus), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __NUnit_Framework_Constraints_ConstraintStatusSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintStatus, "NUnit.Framework.Constraints", "ConstraintStatus");

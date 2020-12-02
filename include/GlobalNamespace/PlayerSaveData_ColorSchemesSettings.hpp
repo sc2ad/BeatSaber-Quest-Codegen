@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Offset: 0xF252CC
     static PlayerSaveData::ColorSchemesSettings* New_ctor(bool overrideDefaultColors, ::Il2CppString* selectedColorSchemeId, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>* colorSchemes);
   }; // PlayerSaveData/ColorSchemesSettings
-  check_size<sizeof(PlayerSaveData::ColorSchemesSettings), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_PlayerSaveData_ColorSchemesSettingsSizeCheck;
+  check_size<sizeof(PlayerSaveData::ColorSchemesSettings), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_PlayerSaveData_ColorSchemesSettingsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::ColorSchemesSettings*, "", "PlayerSaveData/ColorSchemesSettings");

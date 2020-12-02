@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MovementBeatmapEventEffect::MovementData* New_ctor();
   }; // MovementBeatmapEventEffect/MovementData
-  check_size<sizeof(MovementBeatmapEventEffect::MovementData), 16 + sizeof(UnityEngine::Vector3) + 8 - (16 + sizeof(UnityEngine::Vector3)) % 8> __GlobalNamespace_MovementBeatmapEventEffect_MovementDataSizeCheck;
+  check_size<sizeof(MovementBeatmapEventEffect::MovementData), 16 + sizeof(UnityEngine::Vector3) + ((16 + sizeof(UnityEngine::Vector3)) % 8 != 0 ? (8 - (16 + sizeof(UnityEngine::Vector3)) % 8) : 0)> __GlobalNamespace_MovementBeatmapEventEffect_MovementDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementBeatmapEventEffect::MovementData*, "", "MovementBeatmapEventEffect/MovementData");

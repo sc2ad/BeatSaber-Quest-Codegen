@@ -68,7 +68,7 @@ namespace System {
     // Offset: 0xC9FDF8
     System::Exception* GetGuidParseException();
   }; // System.Guid/GuidResult
-  check_size<sizeof(Guid::GuidResult), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __System_Guid_GuidResultSizeCheck;
+  check_size<sizeof(Guid::GuidResult), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __System_Guid_GuidResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Guid::GuidResult, "System", "Guid/GuidResult");

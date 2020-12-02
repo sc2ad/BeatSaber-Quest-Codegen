@@ -134,7 +134,7 @@ namespace GlobalNamespace {
       // Set static field: static public LocalNetworkDiscoveryManager/PacketType InviteResponse
       static void _set_InviteResponse(GlobalNamespace::LocalNetworkDiscoveryManager::PacketType value);
     }; // LocalNetworkDiscoveryManager/PacketType
-    check_size<sizeof(LocalNetworkDiscoveryManager::PacketType), 0 + sizeof(uint8_t) + 8 - (0 + sizeof(uint8_t)) % 8> __GlobalNamespace_LocalNetworkDiscoveryManager_PacketTypeSizeCheck;
+    check_size<sizeof(LocalNetworkDiscoveryManager::PacketType), 0 + sizeof(uint8_t) + ((0 + sizeof(uint8_t)) % 8 != 0 ? (8 - (0 + sizeof(uint8_t)) % 8) : 0)> __GlobalNamespace_LocalNetworkDiscoveryManager_PacketTypeSizeCheck;
     // private LocalNetworkDiscoveryManager/PeerUpdatedDelegate peerUpdatedEvent
     // Offset: 0x18
     GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate* peerUpdatedEvent;
@@ -358,7 +358,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static LocalNetworkDiscoveryManager* New_ctor();
   }; // LocalNetworkDiscoveryManager
-  check_size<sizeof(LocalNetworkDiscoveryManager), 104 + sizeof(float) + 8 - (104 + sizeof(float)) % 8> __GlobalNamespace_LocalNetworkDiscoveryManagerSizeCheck;
+  check_size<sizeof(LocalNetworkDiscoveryManager), 104 + sizeof(float) + ((104 + sizeof(float)) % 8 != 0 ? (8 - (104 + sizeof(float)) % 8) : 0)> __GlobalNamespace_LocalNetworkDiscoveryManagerSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager*, "", "LocalNetworkDiscoveryManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::PacketType, "", "LocalNetworkDiscoveryManager/PacketType");

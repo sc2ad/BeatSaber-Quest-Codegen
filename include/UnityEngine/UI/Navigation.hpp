@@ -70,7 +70,7 @@ namespace UnityEngine::UI {
       // Set static field: static public UnityEngine.UI.Navigation/Mode Explicit
       static void _set_Explicit(UnityEngine::UI::Navigation::Mode value);
     }; // UnityEngine.UI.Navigation/Mode
-    check_size<sizeof(Navigation::Mode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_UI_Navigation_ModeSizeCheck;
+    check_size<sizeof(Navigation::Mode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_UI_Navigation_ModeSizeCheck;
     // private UnityEngine.UI.Navigation/Mode m_Mode
     // Offset: 0x0
     UnityEngine::UI::Navigation::Mode m_Mode;
@@ -131,7 +131,7 @@ namespace UnityEngine::UI {
     // Base method: System.Boolean IEquatable_1::Equals(UnityEngine.UI.Navigation other)
     bool Equals(UnityEngine::UI::Navigation other);
   }; // UnityEngine.UI.Navigation
-  check_size<sizeof(Navigation), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __UnityEngine_UI_NavigationSizeCheck;
+  check_size<sizeof(Navigation), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __UnityEngine_UI_NavigationSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Navigation, "UnityEngine.UI", "Navigation");

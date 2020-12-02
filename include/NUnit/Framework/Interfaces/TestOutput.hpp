@@ -44,7 +44,7 @@ namespace NUnit::Framework::Interfaces {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // NUnit.Framework.Interfaces.TestOutput
-  check_size<sizeof(TestOutput), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __NUnit_Framework_Interfaces_TestOutputSizeCheck;
+  check_size<sizeof(TestOutput), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __NUnit_Framework_Interfaces_TestOutputSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TestOutput*, "NUnit.Framework.Interfaces", "TestOutput");

@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Offset: 0xF10B88
     static GameplaySetupViewController::Panel* New_ctor(::Il2CppString* title, GlobalNamespace::IRefreshable* refreshable, UnityEngine::GameObject* gameObject);
   }; // GameplaySetupViewController/Panel
-  check_size<sizeof(GameplaySetupViewController::Panel), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_GameplaySetupViewController_PanelSizeCheck;
+  check_size<sizeof(GameplaySetupViewController::Panel), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_GameplaySetupViewController_PanelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplaySetupViewController::Panel*, "", "GameplaySetupViewController/Panel");

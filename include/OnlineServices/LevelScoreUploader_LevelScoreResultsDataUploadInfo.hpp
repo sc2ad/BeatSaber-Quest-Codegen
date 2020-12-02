@@ -27,7 +27,7 @@ namespace OnlineServices {
     // Base method: System.Void Object::.ctor()
     static LevelScoreUploader::LevelScoreResultsDataUploadInfo* New_ctor();
   }; // OnlineServices.LevelScoreUploader/LevelScoreResultsDataUploadInfo
-  check_size<sizeof(LevelScoreUploader::LevelScoreResultsDataUploadInfo), 64 + sizeof(int) + 8 - (64 + sizeof(int)) % 8> __OnlineServices_LevelScoreUploader_LevelScoreResultsDataUploadInfoSizeCheck;
+  check_size<sizeof(LevelScoreUploader::LevelScoreResultsDataUploadInfo), 64 + sizeof(int) + ((64 + sizeof(int)) % 8 != 0 ? (8 - (64 + sizeof(int)) % 8) : 0)> __OnlineServices_LevelScoreUploader_LevelScoreResultsDataUploadInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*, "OnlineServices", "LevelScoreUploader/LevelScoreResultsDataUploadInfo");

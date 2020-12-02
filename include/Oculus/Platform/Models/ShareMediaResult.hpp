@@ -31,7 +31,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DFA68
     static ShareMediaResult* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.ShareMediaResult
-  check_size<sizeof(ShareMediaResult), 16 + sizeof(Oculus::Platform::ShareMediaStatus) + 8 - (16 + sizeof(Oculus::Platform::ShareMediaStatus)) % 8> __Oculus_Platform_Models_ShareMediaResultSizeCheck;
+  check_size<sizeof(ShareMediaResult), 16 + sizeof(Oculus::Platform::ShareMediaStatus) + ((16 + sizeof(Oculus::Platform::ShareMediaStatus)) % 8 != 0 ? (8 - (16 + sizeof(Oculus::Platform::ShareMediaStatus)) % 8) : 0)> __Oculus_Platform_Models_ShareMediaResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::ShareMediaResult*, "Oculus.Platform.Models", "ShareMediaResult");

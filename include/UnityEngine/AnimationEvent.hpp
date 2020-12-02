@@ -65,7 +65,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     static AnimationEvent* New_ctor();
   }; // UnityEngine.AnimationEvent
-  check_size<sizeof(AnimationEvent), 108 + sizeof(UnityEngine::AnimatorClipInfo) + 8 - (108 + sizeof(UnityEngine::AnimatorClipInfo)) % 8> __UnityEngine_AnimationEventSizeCheck;
+  check_size<sizeof(AnimationEvent), 108 + sizeof(UnityEngine::AnimatorClipInfo) + ((108 + sizeof(UnityEngine::AnimatorClipInfo)) % 8 != 0 ? (8 - (108 + sizeof(UnityEngine::AnimatorClipInfo)) % 8) : 0)> __UnityEngine_AnimationEventSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationEvent*, "UnityEngine", "AnimationEvent");

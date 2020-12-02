@@ -35,7 +35,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EVREye Eye_Right
     static void _set_Eye_Right(OVR::OpenVR::EVREye value);
   }; // OVR.OpenVR.EVREye
-  check_size<sizeof(EVREye), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_EVREyeSizeCheck;
+  check_size<sizeof(EVREye), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OVR_OpenVR_EVREyeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVREye, "OVR.OpenVR", "EVREye");

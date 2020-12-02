@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // TutorialController/<OutroCoroutine>d__13
-  check_size<sizeof(TutorialController::$OutroCoroutine$d__13), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_TutorialController_$OutroCoroutine$d__13SizeCheck;
+  check_size<sizeof(TutorialController::$OutroCoroutine$d__13), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_TutorialController_$OutroCoroutine$d__13SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialController::$OutroCoroutine$d__13*, "", "TutorialController/<OutroCoroutine>d__13");

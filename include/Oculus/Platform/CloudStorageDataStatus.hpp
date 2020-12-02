@@ -65,7 +65,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.CloudStorageDataStatus InConflict
     static void _set_InConflict(Oculus::Platform::CloudStorageDataStatus value);
   }; // Oculus.Platform.CloudStorageDataStatus
-  check_size<sizeof(CloudStorageDataStatus), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Oculus_Platform_CloudStorageDataStatusSizeCheck;
+  check_size<sizeof(CloudStorageDataStatus), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Oculus_Platform_CloudStorageDataStatusSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CloudStorageDataStatus, "Oculus.Platform", "CloudStorageDataStatus");

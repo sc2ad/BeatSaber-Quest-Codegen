@@ -73,7 +73,7 @@ namespace System::Net {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Net.ListenerPrefix
-  check_size<sizeof(ListenerPrefix), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __System_Net_ListenerPrefixSizeCheck;
+  check_size<sizeof(ListenerPrefix), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __System_Net_ListenerPrefixSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ListenerPrefix*, "System.Net", "ListenerPrefix");

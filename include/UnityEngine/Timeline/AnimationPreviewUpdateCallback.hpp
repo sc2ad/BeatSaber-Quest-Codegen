@@ -55,7 +55,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void ITimelineEvaluateCallback::Evaluate()
     void Evaluate();
   }; // UnityEngine.Timeline.AnimationPreviewUpdateCallback
-  check_size<sizeof(AnimationPreviewUpdateCallback), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __UnityEngine_Timeline_AnimationPreviewUpdateCallbackSizeCheck;
+  check_size<sizeof(AnimationPreviewUpdateCallback), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __UnityEngine_Timeline_AnimationPreviewUpdateCallbackSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPreviewUpdateCallback*, "UnityEngine.Timeline", "AnimationPreviewUpdateCallback");

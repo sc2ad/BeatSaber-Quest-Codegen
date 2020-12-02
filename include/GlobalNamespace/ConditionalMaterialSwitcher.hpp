@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ConditionalMaterialSwitcher* New_ctor();
   }; // ConditionalMaterialSwitcher
-  check_size<sizeof(ConditionalMaterialSwitcher), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_ConditionalMaterialSwitcherSizeCheck;
+  check_size<sizeof(ConditionalMaterialSwitcher), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_ConditionalMaterialSwitcherSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConditionalMaterialSwitcher*, "", "ConditionalMaterialSwitcher");

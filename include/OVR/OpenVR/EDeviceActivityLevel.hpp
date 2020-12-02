@@ -53,7 +53,7 @@ namespace OVR::OpenVR {
     // Set static field: static public OVR.OpenVR.EDeviceActivityLevel k_EDeviceActivityLevel_Standby
     static void _set_k_EDeviceActivityLevel_Standby(OVR::OpenVR::EDeviceActivityLevel value);
   }; // OVR.OpenVR.EDeviceActivityLevel
-  check_size<sizeof(EDeviceActivityLevel), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __OVR_OpenVR_EDeviceActivityLevelSizeCheck;
+  check_size<sizeof(EDeviceActivityLevel), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __OVR_OpenVR_EDeviceActivityLevelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EDeviceActivityLevel, "OVR.OpenVR", "EDeviceActivityLevel");

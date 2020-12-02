@@ -30,7 +30,7 @@ namespace System::Threading::Tasks {
     // Offset: 0x1D1803C
     static UnobservedTaskExceptionEventArgs* New_ctor(System::AggregateException* exception);
   }; // System.Threading.Tasks.UnobservedTaskExceptionEventArgs
-  check_size<sizeof(UnobservedTaskExceptionEventArgs), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __System_Threading_Tasks_UnobservedTaskExceptionEventArgsSizeCheck;
+  check_size<sizeof(UnobservedTaskExceptionEventArgs), 24 + sizeof(bool) + ((24 + sizeof(bool)) % 8 != 0 ? (8 - (24 + sizeof(bool)) % 8) : 0)> __System_Threading_Tasks_UnobservedTaskExceptionEventArgsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::UnobservedTaskExceptionEventArgs*, "System.Threading.Tasks", "UnobservedTaskExceptionEventArgs");

@@ -77,7 +77,7 @@ namespace LiteNetLib {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // LiteNetLib.NetManager/NetPeerEnumerator
-  check_size<sizeof(NetManager::NetPeerEnumerator), 8 + sizeof(void*) + 8 - (8 + sizeof(void*)) % 8> __LiteNetLib_NetManager_NetPeerEnumeratorSizeCheck;
+  check_size<sizeof(NetManager::NetPeerEnumerator), 8 + sizeof(void*) + ((8 + sizeof(void*)) % 8 != 0 ? (8 - (8 + sizeof(void*)) % 8) : 0)> __LiteNetLib_NetManager_NetPeerEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetManager::NetPeerEnumerator, "LiteNetLib", "NetManager/NetPeerEnumerator");

@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PlatformNetworkPlayerModel::CreatePartyConfig* New_ctor();
   }; // PlatformNetworkPlayerModel/CreatePartyConfig
-  check_size<sizeof(PlatformNetworkPlayerModel::CreatePartyConfig), 56 + sizeof(bool) + 8 - (56 + sizeof(bool)) % 8> __GlobalNamespace_PlatformNetworkPlayerModel_CreatePartyConfigSizeCheck;
+  check_size<sizeof(PlatformNetworkPlayerModel::CreatePartyConfig), 56 + sizeof(bool) + ((56 + sizeof(bool)) % 8 != 0 ? (8 - (56 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_PlatformNetworkPlayerModel_CreatePartyConfigSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformNetworkPlayerModel::CreatePartyConfig*, "", "PlatformNetworkPlayerModel/CreatePartyConfig");

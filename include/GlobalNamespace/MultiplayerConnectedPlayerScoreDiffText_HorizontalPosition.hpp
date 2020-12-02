@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Set static field: static public MultiplayerConnectedPlayerScoreDiffText/HorizontalPosition Right
     static void _set_Right(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::HorizontalPosition value);
   }; // MultiplayerConnectedPlayerScoreDiffText/HorizontalPosition
-  check_size<sizeof(MultiplayerConnectedPlayerScoreDiffText::HorizontalPosition), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_MultiplayerConnectedPlayerScoreDiffText_HorizontalPositionSizeCheck;
+  check_size<sizeof(MultiplayerConnectedPlayerScoreDiffText::HorizontalPosition), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_MultiplayerConnectedPlayerScoreDiffText_HorizontalPositionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::HorizontalPosition, "", "MultiplayerConnectedPlayerScoreDiffText/HorizontalPosition");

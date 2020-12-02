@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // Offset: 0xFB7D50
     static MultiplayerLevelSceneSetupData* New_ctor(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool hasSong);
   }; // MultiplayerLevelSceneSetupData
-  check_size<sizeof(MultiplayerLevelSceneSetupData), 40 + sizeof(bool) + 8 - (40 + sizeof(bool)) % 8> __GlobalNamespace_MultiplayerLevelSceneSetupDataSizeCheck;
+  check_size<sizeof(MultiplayerLevelSceneSetupData), 40 + sizeof(bool) + ((40 + sizeof(bool)) % 8 != 0 ? (8 - (40 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_MultiplayerLevelSceneSetupDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelSceneSetupData*, "", "MultiplayerLevelSceneSetupData");

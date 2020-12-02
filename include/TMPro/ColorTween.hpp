@@ -66,7 +66,7 @@ namespace TMPro {
       // Set static field: static public TMPro.ColorTween/ColorTweenMode Alpha
       static void _set_Alpha(TMPro::ColorTween::ColorTweenMode value);
     }; // TMPro.ColorTween/ColorTweenMode
-    check_size<sizeof(ColorTween::ColorTweenMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __TMPro_ColorTween_ColorTweenModeSizeCheck;
+    check_size<sizeof(ColorTween::ColorTweenMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __TMPro_ColorTween_ColorTweenModeSizeCheck;
     // private TMPro.ColorTween/ColorTweenCallback m_Target
     // Offset: 0x0
     TMPro::ColorTween::ColorTweenCallback* m_Target;
@@ -145,7 +145,7 @@ namespace TMPro {
     // Base method: System.Boolean ITweenValue::ValidTarget()
     bool ValidTarget();
   }; // TMPro.ColorTween
-  check_size<sizeof(ColorTween), 48 + sizeof(bool) + 8 - (48 + sizeof(bool)) % 8> __TMPro_ColorTweenSizeCheck;
+  check_size<sizeof(ColorTween), 48 + sizeof(bool) + ((48 + sizeof(bool)) % 8 != 0 ? (8 - (48 + sizeof(bool)) % 8) : 0)> __TMPro_ColorTweenSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::ColorTween, "TMPro", "ColorTween");

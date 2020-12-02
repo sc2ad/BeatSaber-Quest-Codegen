@@ -126,7 +126,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Base method: System.Void Object::.ctor()
     static PlaymodeTestsController* New_ctor();
   }; // UnityEngine.TestTools.TestRunner.PlaymodeTestsController
-  check_size<sizeof(PlaymodeTestsController), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __UnityEngine_TestTools_TestRunner_PlaymodeTestsControllerSizeCheck;
+  check_size<sizeof(PlaymodeTestsController), 80 + sizeof(void*) + ((80 + sizeof(void*)) % 8 != 0 ? (8 - (80 + sizeof(void*)) % 8) : 0)> __UnityEngine_TestTools_TestRunner_PlaymodeTestsControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsController*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsController");

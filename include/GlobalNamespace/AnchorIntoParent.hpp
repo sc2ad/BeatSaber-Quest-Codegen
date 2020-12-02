@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AnchorIntoParent* New_ctor();
   }; // AnchorIntoParent
-  check_size<sizeof(AnchorIntoParent), 32 + sizeof(UnityEngine::Vector3) + 8 - (32 + sizeof(UnityEngine::Vector3)) % 8> __GlobalNamespace_AnchorIntoParentSizeCheck;
+  check_size<sizeof(AnchorIntoParent), 32 + sizeof(UnityEngine::Vector3) + ((32 + sizeof(UnityEngine::Vector3)) % 8 != 0 ? (8 - (32 + sizeof(UnityEngine::Vector3)) % 8) : 0)> __GlobalNamespace_AnchorIntoParentSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnchorIntoParent*, "", "AnchorIntoParent");

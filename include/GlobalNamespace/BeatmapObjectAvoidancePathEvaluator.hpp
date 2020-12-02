@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A2432C
     UnityEngine::Vector3 GetCurrentPathPosition();
   }; // BeatmapObjectAvoidancePathEvaluator
-  check_size<sizeof(BeatmapObjectAvoidancePathEvaluator), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_BeatmapObjectAvoidancePathEvaluatorSizeCheck;
+  check_size<sizeof(BeatmapObjectAvoidancePathEvaluator), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_BeatmapObjectAvoidancePathEvaluatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*, "", "BeatmapObjectAvoidancePathEvaluator");

@@ -44,7 +44,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.Void AsnEncodedData::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);
   }; // System.Security.Cryptography.X509Certificates.X509Extension
-  check_size<sizeof(X509Extension), 32 + sizeof(bool) + 8 - (32 + sizeof(bool)) % 8> __System_Security_Cryptography_X509Certificates_X509ExtensionSizeCheck;
+  check_size<sizeof(X509Extension), 32 + sizeof(bool) + ((32 + sizeof(bool)) % 8 != 0 ? (8 - (32 + sizeof(bool)) % 8) : 0)> __System_Security_Cryptography_X509Certificates_X509ExtensionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Extension*, "System.Security.Cryptography.X509Certificates", "X509Extension");

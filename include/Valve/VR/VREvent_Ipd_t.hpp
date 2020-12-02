@@ -22,7 +22,7 @@ namespace Valve::VR {
       return ipdMeters;
     }
   }; // Valve.VR.VREvent_Ipd_t
-  check_size<sizeof(VREvent_Ipd_t), 0 + sizeof(float) + 8 - (0 + sizeof(float)) % 8> __Valve_VR_VREvent_Ipd_tSizeCheck;
+  check_size<sizeof(VREvent_Ipd_t), 0 + sizeof(float) + ((0 + sizeof(float)) % 8 != 0 ? (8 - (0 + sizeof(float)) % 8) : 0)> __Valve_VR_VREvent_Ipd_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_Ipd_t, "Valve.VR", "VREvent_Ipd_t");

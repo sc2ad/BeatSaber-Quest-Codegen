@@ -213,7 +213,7 @@ namespace Mono::Security::X509 {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // Mono.Security.X509.X509Certificate
-  check_size<sizeof(X509Certificate), 184 + sizeof(void*) + 8 - (184 + sizeof(void*)) % 8> __Mono_Security_X509_X509CertificateSizeCheck;
+  check_size<sizeof(X509Certificate), 184 + sizeof(void*) + ((184 + sizeof(void*)) % 8 != 0 ? (8 - (184 + sizeof(void*)) % 8) : 0)> __Mono_Security_X509_X509CertificateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Certificate*, "Mono.Security.X509", "X509Certificate");

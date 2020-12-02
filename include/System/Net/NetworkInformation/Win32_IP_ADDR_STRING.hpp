@@ -32,7 +32,7 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: Win32_IP_ADDR_STRING
     constexpr Win32_IP_ADDR_STRING(System::IntPtr Next_ = {}, ::Il2CppString* IpAddress_ = {}, ::Il2CppString* IpMask_ = {}, uint Context_ = {}) noexcept : Next{Next_}, IpAddress{IpAddress_}, IpMask{IpMask_}, Context{Context_} {}
   }; // System.Net.NetworkInformation.Win32_IP_ADDR_STRING
-  check_size<sizeof(Win32_IP_ADDR_STRING), 24 + sizeof(uint) + 8 - (24 + sizeof(uint)) % 8> __System_Net_NetworkInformation_Win32_IP_ADDR_STRINGSizeCheck;
+  check_size<sizeof(Win32_IP_ADDR_STRING), 24 + sizeof(uint) + ((24 + sizeof(uint)) % 8 != 0 ? (8 - (24 + sizeof(uint)) % 8) : 0)> __System_Net_NetworkInformation_Win32_IP_ADDR_STRINGSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_IP_ADDR_STRING, "System.Net.NetworkInformation", "Win32_IP_ADDR_STRING");

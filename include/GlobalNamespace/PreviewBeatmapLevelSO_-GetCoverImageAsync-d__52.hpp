@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // PreviewBeatmapLevelSO/<GetCoverImageAsync>d__52
-  check_size<sizeof(PreviewBeatmapLevelSO::$GetCoverImageAsync$d__52), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>) + 8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>)) % 8> __GlobalNamespace_PreviewBeatmapLevelSO_$GetCoverImageAsync$d__52SizeCheck;
+  check_size<sizeof(PreviewBeatmapLevelSO::$GetCoverImageAsync$d__52), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>) + ((48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>)) % 8 != 0 ? (8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite*>)) % 8) : 0)> __GlobalNamespace_PreviewBeatmapLevelSO_$GetCoverImageAsync$d__52SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PreviewBeatmapLevelSO::$GetCoverImageAsync$d__52, "", "PreviewBeatmapLevelSO/<GetCoverImageAsync>d__52");

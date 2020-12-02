@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     // Offset: 0xE7F888
     // ABORTED: conflicts with another method.  BpmChangeData(float bpmChangeStartTime, float bpmChangeStartBpmTime, float bpm);
   }; // BeatmapDataLoader/BpmChangeData
-  check_size<sizeof(BeatmapDataLoader::BpmChangeData), 8 + sizeof(float) + 8 - (8 + sizeof(float)) % 8> __GlobalNamespace_BeatmapDataLoader_BpmChangeDataSizeCheck;
+  check_size<sizeof(BeatmapDataLoader::BpmChangeData), 8 + sizeof(float) + ((8 + sizeof(float)) % 8 != 0 ? (8 - (8 + sizeof(float)) % 8) : 0)> __GlobalNamespace_BeatmapDataLoader_BpmChangeDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataLoader::BpmChangeData, "", "BeatmapDataLoader/BpmChangeData");

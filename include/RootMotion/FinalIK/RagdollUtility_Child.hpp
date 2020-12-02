@@ -43,7 +43,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x15E3F10
     void StoreLocalState();
   }; // RootMotion.FinalIK.RagdollUtility/Child
-  check_size<sizeof(RagdollUtility::Child), 36 + sizeof(UnityEngine::Quaternion) + 8 - (36 + sizeof(UnityEngine::Quaternion)) % 8> __RootMotion_FinalIK_RagdollUtility_ChildSizeCheck;
+  check_size<sizeof(RagdollUtility::Child), 36 + sizeof(UnityEngine::Quaternion) + ((36 + sizeof(UnityEngine::Quaternion)) % 8 != 0 ? (8 - (36 + sizeof(UnityEngine::Quaternion)) % 8) : 0)> __RootMotion_FinalIK_RagdollUtility_ChildSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility::Child*, "RootMotion.FinalIK", "RagdollUtility/Child");

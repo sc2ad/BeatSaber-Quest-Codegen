@@ -53,7 +53,7 @@ namespace LiteNetLib {
     // Set static field: static public LiteNetLib.ConnectionState Any
     static void _set_Any(LiteNetLib::ConnectionState value);
   }; // LiteNetLib.ConnectionState
-  check_size<sizeof(ConnectionState), 0 + sizeof(uint8_t) + 8 - (0 + sizeof(uint8_t)) % 8> __LiteNetLib_ConnectionStateSizeCheck;
+  check_size<sizeof(ConnectionState), 0 + sizeof(uint8_t) + ((0 + sizeof(uint8_t)) % 8 != 0 ? (8 - (0 + sizeof(uint8_t)) % 8) : 0)> __LiteNetLib_ConnectionStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ConnectionState, "LiteNetLib", "ConnectionState");

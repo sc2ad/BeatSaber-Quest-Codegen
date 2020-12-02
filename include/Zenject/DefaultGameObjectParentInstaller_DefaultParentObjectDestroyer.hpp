@@ -45,7 +45,7 @@ namespace Zenject {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // Zenject.DefaultGameObjectParentInstaller/DefaultParentObjectDestroyer
-  check_size<sizeof(DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Zenject_DefaultGameObjectParentInstaller_DefaultParentObjectDestroyerSizeCheck;
+  check_size<sizeof(DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __Zenject_DefaultGameObjectParentInstaller_DefaultParentObjectDestroyerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer*, "Zenject", "DefaultGameObjectParentInstaller/DefaultParentObjectDestroyer");

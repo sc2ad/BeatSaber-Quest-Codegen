@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionStagesManager* New_ctor();
   }; // MissionStagesManager
-  check_size<sizeof(MissionStagesManager), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_MissionStagesManagerSizeCheck;
+  check_size<sizeof(MissionStagesManager), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MissionStagesManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStagesManager*, "", "MissionStagesManager");

@@ -127,7 +127,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BTSCharacterSpawnAnimationController* New_ctor();
   }; // BTSCharacterSpawnAnimationController
-  check_size<sizeof(BTSCharacterSpawnAnimationController), 112 + sizeof(float) + 8 - (112 + sizeof(float)) % 8> __GlobalNamespace_BTSCharacterSpawnAnimationControllerSizeCheck;
+  check_size<sizeof(BTSCharacterSpawnAnimationController), 112 + sizeof(float) + ((112 + sizeof(float)) % 8 != 0 ? (8 - (112 + sizeof(float)) % 8) : 0)> __GlobalNamespace_BTSCharacterSpawnAnimationControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnAnimationController*, "", "BTSCharacterSpawnAnimationController");

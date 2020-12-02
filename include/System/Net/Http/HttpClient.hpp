@@ -122,7 +122,7 @@ namespace System::Net::Http {
     // Base method: System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> HttpMessageInvoker::SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsync(System::Net::Http::HttpRequestMessage* request, System::Threading::CancellationToken cancellationToken);
   }; // System.Net.Http.HttpClient
-  check_size<sizeof(HttpClient), 72 + sizeof(System::TimeSpan) + 8 - (72 + sizeof(System::TimeSpan)) % 8> __System_Net_Http_HttpClientSizeCheck;
+  check_size<sizeof(HttpClient), 72 + sizeof(System::TimeSpan) + ((72 + sizeof(System::TimeSpan)) % 8 != 0 ? (8 - (72 + sizeof(System::TimeSpan)) % 8) : 0)> __System_Net_Http_HttpClientSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpClient*, "System.Net.Http", "HttpClient");

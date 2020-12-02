@@ -81,7 +81,7 @@ namespace UnityEngine {
     // Offset: 0x168DAD8
     void set_color_Injected(UnityEngine::Color& value);
   }; // UnityEngine.Light
-  check_size<sizeof(Light), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __UnityEngine_LightSizeCheck;
+  check_size<sizeof(Light), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __UnityEngine_LightSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Light*, "UnityEngine", "Light");

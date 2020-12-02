@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LayerTexture
     constexpr LayerTexture(UnityEngine::Texture* appTexture_ = {}, System::IntPtr appTexturePtr_ = {}, ::Array<UnityEngine::Texture*>* swapChain_ = {}, ::Array<System::IntPtr>* swapChainPtr_ = {}) noexcept : appTexture{appTexture_}, appTexturePtr{appTexturePtr_}, swapChain{swapChain_}, swapChainPtr{swapChainPtr_} {}
   }; // OVROverlay/LayerTexture
-  check_size<sizeof(OVROverlay::LayerTexture), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_OVROverlay_LayerTextureSizeCheck;
+  check_size<sizeof(OVROverlay::LayerTexture), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_OVROverlay_LayerTextureSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay::LayerTexture, "", "OVROverlay/LayerTexture");

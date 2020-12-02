@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Offset: 0x1232548
     static GlobalNamespace::OVRNetwork::FrameHeader FromBytes(::Array<uint8_t>* arr);
   }; // OVRNetwork/FrameHeader
-  check_size<sizeof(OVRNetwork::FrameHeader), 8 + sizeof(int) + 8 - (8 + sizeof(int)) % 8> __GlobalNamespace_OVRNetwork_FrameHeaderSizeCheck;
+  check_size<sizeof(OVRNetwork::FrameHeader), 8 + sizeof(int) + ((8 + sizeof(int)) % 8 != 0 ? (8 - (8 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OVRNetwork_FrameHeaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNetwork::FrameHeader, "", "OVRNetwork/FrameHeader");

@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     // Set static field: static public NoteCutDirection None
     static void _set_None(GlobalNamespace::NoteCutDirection value);
   }; // NoteCutDirection
-  check_size<sizeof(NoteCutDirection), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_NoteCutDirectionSizeCheck;
+  check_size<sizeof(NoteCutDirection), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_NoteCutDirectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutDirection, "", "NoteCutDirection");

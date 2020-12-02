@@ -43,7 +43,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Void TestParameters::.ctor(System.Object[] args)
     static TestCaseParameters* New_ctor(::Array<::Il2CppObject*>* args);
   }; // NUnit.Framework.Internal.TestCaseParameters
-  check_size<sizeof(TestCaseParameters), 64 + sizeof(bool) + 8 - (64 + sizeof(bool)) % 8> __NUnit_Framework_Internal_TestCaseParametersSizeCheck;
+  check_size<sizeof(TestCaseParameters), 64 + sizeof(bool) + ((64 + sizeof(bool)) % 8 != 0 ? (8 - (64 + sizeof(bool)) % 8) : 0)> __NUnit_Framework_Internal_TestCaseParametersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestCaseParameters*, "NUnit.Framework.Internal", "TestCaseParameters");

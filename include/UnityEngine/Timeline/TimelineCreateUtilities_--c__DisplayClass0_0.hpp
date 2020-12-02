@@ -36,7 +36,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     static TimelineCreateUtilities::$$c__DisplayClass0_0* New_ctor();
   }; // UnityEngine.Timeline.TimelineCreateUtilities/<>c__DisplayClass0_0
-  check_size<sizeof(TimelineCreateUtilities::$$c__DisplayClass0_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_Timeline_TimelineCreateUtilities_$$c__DisplayClass0_0SizeCheck;
+  check_size<sizeof(TimelineCreateUtilities::$$c__DisplayClass0_0), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __UnityEngine_Timeline_TimelineCreateUtilities_$$c__DisplayClass0_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_0*, "UnityEngine.Timeline", "TimelineCreateUtilities/<>c__DisplayClass0_0");

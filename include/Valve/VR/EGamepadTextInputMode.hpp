@@ -41,7 +41,7 @@ namespace Valve::VR {
     // Set static field: static public Valve.VR.EGamepadTextInputMode k_EGamepadTextInputModeSubmit
     static void _set_k_EGamepadTextInputModeSubmit(Valve::VR::EGamepadTextInputMode value);
   }; // Valve.VR.EGamepadTextInputMode
-  check_size<sizeof(EGamepadTextInputMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Valve_VR_EGamepadTextInputModeSizeCheck;
+  check_size<sizeof(EGamepadTextInputMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Valve_VR_EGamepadTextInputModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EGamepadTextInputMode, "Valve.VR", "EGamepadTextInputMode");

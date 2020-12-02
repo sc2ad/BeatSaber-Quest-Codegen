@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRManager/EyeTextureFormat R11G11B10_FP
     static void _set_R11G11B10_FP(GlobalNamespace::OVRManager::EyeTextureFormat value);
   }; // OVRManager/EyeTextureFormat
-  check_size<sizeof(OVRManager::EyeTextureFormat), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRManager_EyeTextureFormatSizeCheck;
+  check_size<sizeof(OVRManager::EyeTextureFormat), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OVRManager_EyeTextureFormatSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager::EyeTextureFormat, "", "OVRManager/EyeTextureFormat");

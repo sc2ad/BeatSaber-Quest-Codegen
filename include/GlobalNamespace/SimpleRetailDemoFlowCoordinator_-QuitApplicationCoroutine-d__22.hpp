@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // SimpleRetailDemoFlowCoordinator/<QuitApplicationCoroutine>d__22
-  check_size<sizeof(SimpleRetailDemoFlowCoordinator::$QuitApplicationCoroutine$d__22), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_SimpleRetailDemoFlowCoordinator_$QuitApplicationCoroutine$d__22SizeCheck;
+  check_size<sizeof(SimpleRetailDemoFlowCoordinator::$QuitApplicationCoroutine$d__22), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_SimpleRetailDemoFlowCoordinator_$QuitApplicationCoroutine$d__22SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoFlowCoordinator::$QuitApplicationCoroutine$d__22*, "", "SimpleRetailDemoFlowCoordinator/<QuitApplicationCoroutine>d__22");

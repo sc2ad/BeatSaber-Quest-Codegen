@@ -63,7 +63,7 @@ namespace System::Net::Http {
     // Maps to method: Dispose
     void System_IDisposable_Dispose();
   }; // System.Net.Http.HttpMessageInvoker
-  check_size<sizeof(HttpMessageInvoker), 24 + sizeof(bool) + 8 - (24 + sizeof(bool)) % 8> __System_Net_Http_HttpMessageInvokerSizeCheck;
+  check_size<sizeof(HttpMessageInvoker), 24 + sizeof(bool) + ((24 + sizeof(bool)) % 8 != 0 ? (8 - (24 + sizeof(bool)) % 8) : 0)> __System_Net_Http_HttpMessageInvokerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpMessageInvoker*, "System.Net.Http", "HttpMessageInvoker");

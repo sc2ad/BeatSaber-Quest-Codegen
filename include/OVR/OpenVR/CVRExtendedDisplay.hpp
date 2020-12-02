@@ -45,7 +45,7 @@ namespace OVR::OpenVR {
     // Offset: 0x11F52D8
     void GetDXGIOutputInfo(int& pnAdapterIndex, int& pnAdapterOutputIndex);
   }; // OVR.OpenVR.CVRExtendedDisplay
-  check_size<sizeof(CVRExtendedDisplay), 16 + sizeof(OVR::OpenVR::IVRExtendedDisplay) + 8 - (16 + sizeof(OVR::OpenVR::IVRExtendedDisplay)) % 8> __OVR_OpenVR_CVRExtendedDisplaySizeCheck;
+  check_size<sizeof(CVRExtendedDisplay), 16 + sizeof(OVR::OpenVR::IVRExtendedDisplay) + ((16 + sizeof(OVR::OpenVR::IVRExtendedDisplay)) % 8 != 0 ? (8 - (16 + sizeof(OVR::OpenVR::IVRExtendedDisplay)) % 8) : 0)> __OVR_OpenVR_CVRExtendedDisplaySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRExtendedDisplay*, "OVR.OpenVR", "CVRExtendedDisplay");

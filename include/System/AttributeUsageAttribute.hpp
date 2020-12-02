@@ -47,7 +47,7 @@ namespace System {
     // Offset: 0x1CAAB20
     static void _cctor();
   }; // System.AttributeUsageAttribute
-  check_size<sizeof(AttributeUsageAttribute), 21 + sizeof(bool) + 8 - (21 + sizeof(bool)) % 8> __System_AttributeUsageAttributeSizeCheck;
+  check_size<sizeof(AttributeUsageAttribute), 21 + sizeof(bool) + ((21 + sizeof(bool)) % 8 != 0 ? (8 - (21 + sizeof(bool)) % 8) : 0)> __System_AttributeUsageAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::AttributeUsageAttribute*, "System", "AttributeUsageAttribute");

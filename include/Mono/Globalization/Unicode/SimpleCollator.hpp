@@ -234,7 +234,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x1521038
     static void _cctor();
   }; // Mono.Globalization.Unicode.SimpleCollator
-  check_size<sizeof(SimpleCollator), 92 + sizeof(bool) + 8 - (92 + sizeof(bool)) % 8> __Mono_Globalization_Unicode_SimpleCollatorSizeCheck;
+  check_size<sizeof(SimpleCollator), 92 + sizeof(bool) + ((92 + sizeof(bool)) % 8 != 0 ? (8 - (92 + sizeof(bool)) % 8) : 0)> __Mono_Globalization_Unicode_SimpleCollatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator*, "Mono.Globalization.Unicode", "SimpleCollator");

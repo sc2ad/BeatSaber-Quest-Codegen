@@ -503,7 +503,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.Diagnostics.Tracing.EventSource
-  check_size<sizeof(EventSource), 200 + sizeof(void*) + 8 - (200 + sizeof(void*)) % 8> __System_Diagnostics_Tracing_EventSourceSizeCheck;
+  check_size<sizeof(EventSource), 200 + sizeof(void*) + ((200 + sizeof(void*)) % 8 != 0 ? (8 - (200 + sizeof(void*)) % 8) : 0)> __System_Diagnostics_Tracing_EventSourceSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSource*, "System.Diagnostics.Tracing", "EventSource");

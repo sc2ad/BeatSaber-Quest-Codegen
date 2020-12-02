@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // CommandBufferGrabPass
-  check_size<sizeof(CommandBufferGrabPass), 48 + sizeof(UnityEngine::Rendering::CameraEvent) + 8 - (48 + sizeof(UnityEngine::Rendering::CameraEvent)) % 8> __GlobalNamespace_CommandBufferGrabPassSizeCheck;
+  check_size<sizeof(CommandBufferGrabPass), 48 + sizeof(UnityEngine::Rendering::CameraEvent) + ((48 + sizeof(UnityEngine::Rendering::CameraEvent)) % 8 != 0 ? (8 - (48 + sizeof(UnityEngine::Rendering::CameraEvent)) % 8) : 0)> __GlobalNamespace_CommandBufferGrabPassSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferGrabPass*, "", "CommandBufferGrabPass");

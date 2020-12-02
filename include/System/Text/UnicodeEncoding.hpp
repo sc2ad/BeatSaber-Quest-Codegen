@@ -182,7 +182,7 @@ namespace System::Text {
     // Base method: System.Int32 Encoding::GetHashCode()
     int GetHashCode();
   }; // System.Text.UnicodeEncoding
-  check_size<sizeof(UnicodeEncoding), 58 + sizeof(bool) + 8 - (58 + sizeof(bool)) % 8> __System_Text_UnicodeEncodingSizeCheck;
+  check_size<sizeof(UnicodeEncoding), 58 + sizeof(bool) + ((58 + sizeof(bool)) % 8 != 0 ? (8 - (58 + sizeof(bool)) % 8) : 0)> __System_Text_UnicodeEncodingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UnicodeEncoding*, "System.Text", "UnicodeEncoding");

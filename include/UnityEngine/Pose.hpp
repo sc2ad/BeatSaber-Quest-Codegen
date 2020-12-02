@@ -65,7 +65,7 @@ namespace UnityEngine {
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
   }; // UnityEngine.Pose
-  check_size<sizeof(Pose), 12 + sizeof(UnityEngine::Quaternion) + 8 - (12 + sizeof(UnityEngine::Quaternion)) % 8> __UnityEngine_PoseSizeCheck;
+  check_size<sizeof(Pose), 12 + sizeof(UnityEngine::Quaternion) + ((12 + sizeof(UnityEngine::Quaternion)) % 8 != 0 ? (8 - (12 + sizeof(UnityEngine::Quaternion)) % 8) : 0)> __UnityEngine_PoseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Pose, "UnityEngine", "Pose");

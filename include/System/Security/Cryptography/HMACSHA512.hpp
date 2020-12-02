@@ -31,7 +31,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     static HMACSHA512* New_ctor();
   }; // System.Security.Cryptography.HMACSHA512
-  check_size<sizeof(HMACSHA512), 97 + sizeof(bool) + 8 - (97 + sizeof(bool)) % 8> __System_Security_Cryptography_HMACSHA512SizeCheck;
+  check_size<sizeof(HMACSHA512), 97 + sizeof(bool) + ((97 + sizeof(bool)) % 8 != 0 ? (8 - (97 + sizeof(bool)) % 8) : 0)> __System_Security_Cryptography_HMACSHA512SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMACSHA512*, "System.Security.Cryptography", "HMACSHA512");

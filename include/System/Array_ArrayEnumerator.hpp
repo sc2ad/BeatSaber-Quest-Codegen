@@ -70,7 +70,7 @@ namespace System {
     // Maps to method: get_Current
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // System.Array/ArrayEnumerator
-  check_size<sizeof(Array::ArrayEnumerator), 28 + sizeof(int) + 8 - (28 + sizeof(int)) % 8> __System_Array_ArrayEnumeratorSizeCheck;
+  check_size<sizeof(Array::ArrayEnumerator), 28 + sizeof(int) + ((28 + sizeof(int)) % 8 != 0 ? (8 - (28 + sizeof(int)) % 8) : 0)> __System_Array_ArrayEnumeratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Array::ArrayEnumerator*, "System", "Array/ArrayEnumerator");

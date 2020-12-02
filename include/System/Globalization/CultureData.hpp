@@ -220,7 +220,7 @@ namespace System::Globalization {
     // Offset: 0x11321F4
     static void fill_number_data(System::Globalization::NumberFormatInfo* nfi, int numberIndex);
   }; // System.Globalization.CultureData
-  check_size<sizeof(CultureData), 128 + sizeof(void*) + 8 - (128 + sizeof(void*)) % 8> __System_Globalization_CultureDataSizeCheck;
+  check_size<sizeof(CultureData), 128 + sizeof(void*) + ((128 + sizeof(void*)) % 8 != 0 ? (8 - (128 + sizeof(void*)) % 8) : 0)> __System_Globalization_CultureDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureData*, "System.Globalization", "CultureData");

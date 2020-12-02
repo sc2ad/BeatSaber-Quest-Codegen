@@ -47,7 +47,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0x193B0A8
     Org::BouncyCastle::Math::EC::ECCurve* Create();
   }; // Org.BouncyCastle.Math.EC.ECCurve/Config
-  check_size<sizeof(ECCurve::Config), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_EC_ECCurve_ConfigSizeCheck;
+  check_size<sizeof(ECCurve::Config), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Math_EC_ECCurve_ConfigSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECCurve::Config*, "Org.BouncyCastle.Math.EC", "ECCurve/Config");

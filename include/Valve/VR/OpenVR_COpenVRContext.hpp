@@ -118,7 +118,7 @@ namespace Valve::VR {
     // Base method: System.Void Object::.ctor()
     static OpenVR::COpenVRContext* New_ctor();
   }; // Valve.VR.OpenVR/COpenVRContext
-  check_size<sizeof(OpenVR::COpenVRContext), 96 + sizeof(void*) + 8 - (96 + sizeof(void*)) % 8> __Valve_VR_OpenVR_COpenVRContextSizeCheck;
+  check_size<sizeof(OpenVR::COpenVRContext), 96 + sizeof(void*) + ((96 + sizeof(void*)) % 8 != 0 ? (8 - (96 + sizeof(void*)) % 8) : 0)> __Valve_VR_OpenVR_COpenVRContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::OpenVR::COpenVRContext*, "Valve.VR", "OpenVR/COpenVRContext");

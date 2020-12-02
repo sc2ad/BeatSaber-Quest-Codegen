@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ListColorController* New_ctor();
   }; // ListColorController
-  check_size<sizeof(ListColorController), 36 + sizeof(int) + 8 - (36 + sizeof(int)) % 8> __GlobalNamespace_ListColorControllerSizeCheck;
+  check_size<sizeof(ListColorController), 36 + sizeof(int) + ((36 + sizeof(int)) % 8 != 0 ? (8 - (36 + sizeof(int)) % 8) : 0)> __GlobalNamespace_ListColorControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ListColorController*, "", "ListColorController");

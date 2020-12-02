@@ -41,7 +41,7 @@ namespace Zenject {
     // Set static field: static public Zenject.LoadSceneRelationship Sibling
     static void _set_Sibling(Zenject::LoadSceneRelationship value);
   }; // Zenject.LoadSceneRelationship
-  check_size<sizeof(LoadSceneRelationship), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Zenject_LoadSceneRelationshipSizeCheck;
+  check_size<sizeof(LoadSceneRelationship), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Zenject_LoadSceneRelationshipSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::LoadSceneRelationship, "Zenject", "LoadSceneRelationship");

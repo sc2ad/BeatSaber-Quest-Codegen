@@ -317,7 +317,7 @@ namespace System::Threading {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Threading.Thread
-  check_size<sizeof(Thread), 72 + sizeof(bool) + 8 - (72 + sizeof(bool)) % 8> __System_Threading_ThreadSizeCheck;
+  check_size<sizeof(Thread), 72 + sizeof(bool) + ((72 + sizeof(bool)) % 8 != 0 ? (8 - (72 + sizeof(bool)) % 8) : 0)> __System_Threading_ThreadSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Thread*, "System.Threading", "Thread");

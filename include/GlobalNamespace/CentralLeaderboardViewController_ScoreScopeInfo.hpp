@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Offset: 0x1A350A4
     static CentralLeaderboardViewController::ScoreScopeInfo* New_ctor(OnlineServices::ScoresScope scoreScope, UnityEngine::Sprite* icon, ::Il2CppString* localizedTitle);
   }; // CentralLeaderboardViewController/ScoreScopeInfo
-  check_size<sizeof(CentralLeaderboardViewController::ScoreScopeInfo), 40 + sizeof(int) + 8 - (40 + sizeof(int)) % 8> __GlobalNamespace_CentralLeaderboardViewController_ScoreScopeInfoSizeCheck;
+  check_size<sizeof(CentralLeaderboardViewController::ScoreScopeInfo), 40 + sizeof(int) + ((40 + sizeof(int)) % 8 != 0 ? (8 - (40 + sizeof(int)) % 8) : 0)> __GlobalNamespace_CentralLeaderboardViewController_ScoreScopeInfoSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*, "", "CentralLeaderboardViewController/ScoreScopeInfo");

@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static BTSCharacterSpawnEventEffect::AnimationClipWithId* New_ctor();
   }; // BTSCharacterSpawnEventEffect/AnimationClipWithId
-  check_size<sizeof(BTSCharacterSpawnEventEffect::AnimationClipWithId), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_BTSCharacterSpawnEventEffect_AnimationClipWithIdSizeCheck;
+  check_size<sizeof(BTSCharacterSpawnEventEffect::AnimationClipWithId), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_BTSCharacterSpawnEventEffect_AnimationClipWithIdSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnEventEffect::AnimationClipWithId*, "", "BTSCharacterSpawnEventEffect/AnimationClipWithId");

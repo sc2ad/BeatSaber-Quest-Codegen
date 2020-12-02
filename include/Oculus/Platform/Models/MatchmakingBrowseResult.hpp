@@ -35,7 +35,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DBFF0
     static MatchmakingBrowseResult* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.MatchmakingBrowseResult
-  check_size<sizeof(MatchmakingBrowseResult), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Oculus_Platform_Models_MatchmakingBrowseResultSizeCheck;
+  check_size<sizeof(MatchmakingBrowseResult), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Oculus_Platform_Models_MatchmakingBrowseResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingBrowseResult*, "Oculus.Platform.Models", "MatchmakingBrowseResult");

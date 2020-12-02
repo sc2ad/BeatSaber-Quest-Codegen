@@ -47,7 +47,7 @@ namespace System::Reflection {
     // Set static field: static public System.Reflection.EventAttributes RTSpecialName
     static void _set_RTSpecialName(System::Reflection::EventAttributes value);
   }; // System.Reflection.EventAttributes
-  check_size<sizeof(EventAttributes), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Reflection_EventAttributesSizeCheck;
+  check_size<sizeof(EventAttributes), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Reflection_EventAttributesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::EventAttributes, "System.Reflection", "EventAttributes");

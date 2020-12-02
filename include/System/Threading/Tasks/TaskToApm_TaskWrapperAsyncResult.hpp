@@ -64,7 +64,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Threading.WaitHandle IAsyncResult::get_AsyncWaitHandle()
     System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
   }; // System.Threading.Tasks.TaskToApm/TaskWrapperAsyncResult
-  check_size<sizeof(TaskToApm::TaskWrapperAsyncResult), 32 + sizeof(bool) + 8 - (32 + sizeof(bool)) % 8> __System_Threading_Tasks_TaskToApm_TaskWrapperAsyncResultSizeCheck;
+  check_size<sizeof(TaskToApm::TaskWrapperAsyncResult), 32 + sizeof(bool) + ((32 + sizeof(bool)) % 8 != 0 ? (8 - (32 + sizeof(bool)) % 8) : 0)> __System_Threading_Tasks_TaskToApm_TaskWrapperAsyncResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult*, "System.Threading.Tasks", "TaskToApm/TaskWrapperAsyncResult");

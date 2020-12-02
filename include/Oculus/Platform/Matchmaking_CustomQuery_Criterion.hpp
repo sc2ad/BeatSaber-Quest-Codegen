@@ -40,7 +40,7 @@ namespace Oculus::Platform {
     // Offset: 0xC963F0
     Criterion(::Il2CppString* key_, Oculus::Platform::MatchmakingCriterionImportance importance_);
   }; // Oculus.Platform.Matchmaking/CustomQuery/Criterion
-  check_size<sizeof(Matchmaking::CustomQuery::Criterion), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __Oculus_Platform_Matchmaking_CustomQuery_CriterionSizeCheck;
+  check_size<sizeof(Matchmaking::CustomQuery::Criterion), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __Oculus_Platform_Matchmaking_CustomQuery_CriterionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Matchmaking::CustomQuery::Criterion, "Oculus.Platform", "Matchmaking/CustomQuery/Criterion");

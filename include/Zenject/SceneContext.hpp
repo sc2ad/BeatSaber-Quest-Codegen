@@ -227,7 +227,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     static SceneContext* New_ctor();
   }; // Zenject.SceneContext
-  check_size<sizeof(SceneContext), 177 + sizeof(bool) + 8 - (177 + sizeof(bool)) % 8> __Zenject_SceneContextSizeCheck;
+  check_size<sizeof(SceneContext), 177 + sizeof(bool) + ((177 + sizeof(bool)) % 8 != 0 ? (8 - (177 + sizeof(bool)) % 8) : 0)> __Zenject_SceneContextSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContext*, "Zenject", "SceneContext");

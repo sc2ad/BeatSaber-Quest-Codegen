@@ -41,7 +41,7 @@ namespace System::Diagnostics::Tracing {
     // Offset: 0x111F3C4
     static PropertyAnalysis* New_ctor(::Il2CppString* name, System::Reflection::MethodInfo* getterInfo, System::Diagnostics::Tracing::TraceLoggingTypeInfo* typeInfo, System::Diagnostics::Tracing::EventFieldAttribute* fieldAttribute);
   }; // System.Diagnostics.Tracing.PropertyAnalysis
-  check_size<sizeof(PropertyAnalysis), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Diagnostics_Tracing_PropertyAnalysisSizeCheck;
+  check_size<sizeof(PropertyAnalysis), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __System_Diagnostics_Tracing_PropertyAnalysisSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::PropertyAnalysis*, "System.Diagnostics.Tracing", "PropertyAnalysis");

@@ -28,7 +28,7 @@ namespace System {
     // Creating value type constructor for type: SmallRect
     constexpr SmallRect(int16_t Left_ = {}, int16_t Top_ = {}, int16_t Right_ = {}, int16_t Bottom_ = {}) noexcept : Left{Left_}, Top{Top_}, Right{Right_}, Bottom{Bottom_} {}
   }; // System.SmallRect
-  check_size<sizeof(SmallRect), 6 + sizeof(int16_t) + 8 - (6 + sizeof(int16_t)) % 8> __System_SmallRectSizeCheck;
+  check_size<sizeof(SmallRect), 6 + sizeof(int16_t) + ((6 + sizeof(int16_t)) % 8 != 0 ? (8 - (6 + sizeof(int16_t)) % 8) : 0)> __System_SmallRectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::SmallRect, "System", "SmallRect");

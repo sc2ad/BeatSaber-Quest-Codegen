@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Offset: 0x1E54450
     static ::Il2CppChar GetLeetEquivalent(::Il2CppChar c);
   }; // ProfanityFilter
-  check_size<sizeof(ProfanityFilter), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __GlobalNamespace_ProfanityFilterSizeCheck;
+  check_size<sizeof(ProfanityFilter), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_ProfanityFilterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProfanityFilter*, "", "ProfanityFilter");

@@ -48,7 +48,7 @@ namespace System::Runtime::Serialization {
     // Base method: System.Void Object::.ctor()
     static ObjectIDGenerator* New_ctor();
   }; // System.Runtime.Serialization.ObjectIDGenerator
-  check_size<sizeof(ObjectIDGenerator), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Runtime_Serialization_ObjectIDGeneratorSizeCheck;
+  check_size<sizeof(ObjectIDGenerator), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_Runtime_Serialization_ObjectIDGeneratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectIDGenerator*, "System.Runtime.Serialization", "ObjectIDGenerator");

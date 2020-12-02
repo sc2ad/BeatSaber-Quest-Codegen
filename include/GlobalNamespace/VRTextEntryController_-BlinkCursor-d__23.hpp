@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // VRTextEntryController/<BlinkCursor>d__23
-  check_size<sizeof(VRTextEntryController::$BlinkCursor$d__23), 40 + sizeof(UnityEngine::Color) + 8 - (40 + sizeof(UnityEngine::Color)) % 8> __GlobalNamespace_VRTextEntryController_$BlinkCursor$d__23SizeCheck;
+  check_size<sizeof(VRTextEntryController::$BlinkCursor$d__23), 40 + sizeof(UnityEngine::Color) + ((40 + sizeof(UnityEngine::Color)) % 8 != 0 ? (8 - (40 + sizeof(UnityEngine::Color)) % 8) : 0)> __GlobalNamespace_VRTextEntryController_$BlinkCursor$d__23SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTextEntryController::$BlinkCursor$d__23*, "", "VRTextEntryController/<BlinkCursor>d__23");

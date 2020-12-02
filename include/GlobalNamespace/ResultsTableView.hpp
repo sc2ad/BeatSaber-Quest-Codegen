@@ -93,7 +93,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ResultsTableView* New_ctor();
   }; // ResultsTableView
-  check_size<sizeof(ResultsTableView), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_ResultsTableViewSizeCheck;
+  check_size<sizeof(ResultsTableView), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_ResultsTableViewSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsTableView*, "", "ResultsTableView");

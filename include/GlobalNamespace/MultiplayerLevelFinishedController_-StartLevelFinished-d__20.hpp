@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     // Base method: System.Object IEnumerator::get_Current()
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // MultiplayerLevelFinishedController/<StartLevelFinished>d__20
-  check_size<sizeof(MultiplayerLevelFinishedController::$StartLevelFinished$d__20), 52 + sizeof(float) + 8 - (52 + sizeof(float)) % 8> __GlobalNamespace_MultiplayerLevelFinishedController_$StartLevelFinished$d__20SizeCheck;
+  check_size<sizeof(MultiplayerLevelFinishedController::$StartLevelFinished$d__20), 52 + sizeof(float) + ((52 + sizeof(float)) % 8 != 0 ? (8 - (52 + sizeof(float)) % 8) : 0)> __GlobalNamespace_MultiplayerLevelFinishedController_$StartLevelFinished$d__20SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelFinishedController::$StartLevelFinished$d__20*, "", "MultiplayerLevelFinishedController/<StartLevelFinished>d__20");

@@ -64,7 +64,7 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Net.NetworkInformation.UnicastIPAddressInformationCollection IPInterfaceProperties::get_UnicastAddresses()
     System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses();
   }; // System.Net.NetworkInformation.UnixIPInterfaceProperties
-  check_size<sizeof(UnixIPInterfaceProperties), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Net_NetworkInformation_UnixIPInterfacePropertiesSizeCheck;
+  check_size<sizeof(UnixIPInterfaceProperties), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Net_NetworkInformation_UnixIPInterfacePropertiesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnixIPInterfaceProperties*, "System.Net.NetworkInformation", "UnixIPInterfaceProperties");

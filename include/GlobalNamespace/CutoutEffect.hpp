@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // CutoutEffect
-  check_size<sizeof(CutoutEffect), 64 + sizeof(float) + 8 - (64 + sizeof(float)) % 8> __GlobalNamespace_CutoutEffectSizeCheck;
+  check_size<sizeof(CutoutEffect), 64 + sizeof(float) + ((64 + sizeof(float)) % 8 != 0 ? (8 - (64 + sizeof(float)) % 8) : 0)> __GlobalNamespace_CutoutEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutoutEffect*, "", "CutoutEffect");

@@ -42,7 +42,7 @@ namespace System::Net {
     // Offset: 0x122814C
     static WebRequestPrefixElement* New_ctor(::Il2CppString* P, System::Net::IWebRequestCreate* C);
   }; // System.Net.WebRequestPrefixElement
-  check_size<sizeof(WebRequestPrefixElement), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __System_Net_WebRequestPrefixElementSizeCheck;
+  check_size<sizeof(WebRequestPrefixElement), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __System_Net_WebRequestPrefixElementSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequestPrefixElement*, "System.Net", "WebRequestPrefixElement");

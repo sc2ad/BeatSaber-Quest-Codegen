@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionClearedEnvironmentEffect* New_ctor();
   }; // MissionClearedEnvironmentEffect
-  check_size<sizeof(MissionClearedEnvironmentEffect), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __GlobalNamespace_MissionClearedEnvironmentEffectSizeCheck;
+  check_size<sizeof(MissionClearedEnvironmentEffect), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MissionClearedEnvironmentEffectSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionClearedEnvironmentEffect*, "", "MissionClearedEnvironmentEffect");

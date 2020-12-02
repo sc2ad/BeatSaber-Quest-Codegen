@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionLevelModifiersViewController* New_ctor();
   }; // MissionLevelModifiersViewController
-  check_size<sizeof(MissionLevelModifiersViewController), 144 + sizeof(void*) + 8 - (144 + sizeof(void*)) % 8> __GlobalNamespace_MissionLevelModifiersViewControllerSizeCheck;
+  check_size<sizeof(MissionLevelModifiersViewController), 144 + sizeof(void*) + ((144 + sizeof(void*)) % 8 != 0 ? (8 - (144 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MissionLevelModifiersViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelModifiersViewController*, "", "MissionLevelModifiersViewController");

@@ -41,7 +41,7 @@ namespace Zenject {
     // Set static field: static public Zenject.PoolExpandMethods Disabled
     static void _set_Disabled(Zenject::PoolExpandMethods value);
   }; // Zenject.PoolExpandMethods
-  check_size<sizeof(PoolExpandMethods), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Zenject_PoolExpandMethodsSizeCheck;
+  check_size<sizeof(PoolExpandMethods), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Zenject_PoolExpandMethodsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolExpandMethods, "Zenject", "PoolExpandMethods");

@@ -30,7 +30,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: DriverDirectMode_FrameTiming
     constexpr DriverDirectMode_FrameTiming(uint m_nSize_ = {}, uint m_nNumFramePresents_ = {}, uint m_nNumMisPresented_ = {}, uint m_nNumDroppedFrames_ = {}, uint m_nReprojectionFlags_ = {}) noexcept : m_nSize{m_nSize_}, m_nNumFramePresents{m_nNumFramePresents_}, m_nNumMisPresented{m_nNumMisPresented_}, m_nNumDroppedFrames{m_nNumDroppedFrames_}, m_nReprojectionFlags{m_nReprojectionFlags_} {}
   }; // OVR.OpenVR.DriverDirectMode_FrameTiming
-  check_size<sizeof(DriverDirectMode_FrameTiming), 16 + sizeof(uint) + 8 - (16 + sizeof(uint)) % 8> __OVR_OpenVR_DriverDirectMode_FrameTimingSizeCheck;
+  check_size<sizeof(DriverDirectMode_FrameTiming), 16 + sizeof(uint) + ((16 + sizeof(uint)) % 8 != 0 ? (8 - (16 + sizeof(uint)) % 8) : 0)> __OVR_OpenVR_DriverDirectMode_FrameTimingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::DriverDirectMode_FrameTiming, "OVR.OpenVR", "DriverDirectMode_FrameTiming");

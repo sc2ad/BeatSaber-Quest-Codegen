@@ -83,7 +83,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void ISubmitHandler::OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
     void OnSubmit(UnityEngine::EventSystems::BaseEventData* eventData);
   }; // UnityEngine.UI.Button
-  check_size<sizeof(Button), 240 + sizeof(void*) + 8 - (240 + sizeof(void*)) % 8> __UnityEngine_UI_ButtonSizeCheck;
+  check_size<sizeof(Button), 240 + sizeof(void*) + ((240 + sizeof(void*)) % 8 != 0 ? (8 - (240 + sizeof(void*)) % 8) : 0)> __UnityEngine_UI_ButtonSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Button*, "UnityEngine.UI", "Button");

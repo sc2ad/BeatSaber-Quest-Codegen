@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static RelativeScoreAndImmediateRankCounter* New_ctor();
   }; // RelativeScoreAndImmediateRankCounter
-  check_size<sizeof(RelativeScoreAndImmediateRankCounter), 64 + sizeof(float) + 8 - (64 + sizeof(float)) % 8> __GlobalNamespace_RelativeScoreAndImmediateRankCounterSizeCheck;
+  check_size<sizeof(RelativeScoreAndImmediateRankCounter), 64 + sizeof(float) + ((64 + sizeof(float)) % 8 != 0 ? (8 - (64 + sizeof(float)) % 8) : 0)> __GlobalNamespace_RelativeScoreAndImmediateRankCounterSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RelativeScoreAndImmediateRankCounter*, "", "RelativeScoreAndImmediateRankCounter");

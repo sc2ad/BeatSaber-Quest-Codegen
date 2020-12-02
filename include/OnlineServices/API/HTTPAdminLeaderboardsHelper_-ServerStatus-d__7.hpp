@@ -55,7 +55,7 @@ namespace OnlineServices::API {
     // Base method: System.Void IAsyncStateMachine::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper/<ServerStatus>d__7
-  check_size<sizeof(HTTPAdminLeaderboardsHelper::$ServerStatus$d__7), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>) + 8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>)) % 8> __OnlineServices_API_HTTPAdminLeaderboardsHelper_$ServerStatus$d__7SizeCheck;
+  check_size<sizeof(HTTPAdminLeaderboardsHelper::$ServerStatus$d__7), 48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>) + ((48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>)) % 8 != 0 ? (8 - (48 + sizeof(System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>)) % 8) : 0)> __OnlineServices_API_HTTPAdminLeaderboardsHelper_$ServerStatus$d__7SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper::$ServerStatus$d__7, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/<ServerStatus>d__7");

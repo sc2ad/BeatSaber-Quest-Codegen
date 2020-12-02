@@ -35,7 +35,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x13F5C44
     void SetParentEofDetect(bool on);
   }; // Org.BouncyCastle.Asn1.LimitedInputStream
-  check_size<sizeof(LimitedInputStream), 56 + sizeof(int) + 8 - (56 + sizeof(int)) % 8> __Org_BouncyCastle_Asn1_LimitedInputStreamSizeCheck;
+  check_size<sizeof(LimitedInputStream), 56 + sizeof(int) + ((56 + sizeof(int)) % 8 != 0 ? (8 - (56 + sizeof(int)) % 8) : 0)> __Org_BouncyCastle_Asn1_LimitedInputStreamSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::LimitedInputStream*, "Org.BouncyCastle.Asn1", "LimitedInputStream");

@@ -83,7 +83,7 @@ namespace Org::BouncyCastle::X509 {
     // Base method: System.Void Object::.ctor()
     static X509CrlParser* New_ctor();
   }; // Org.BouncyCastle.X509.X509CrlParser
-  check_size<sizeof(X509CrlParser), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Org_BouncyCastle_X509_X509CrlParserSizeCheck;
+  check_size<sizeof(X509CrlParser), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_X509_X509CrlParserSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509CrlParser*, "Org.BouncyCastle.X509", "X509CrlParser");

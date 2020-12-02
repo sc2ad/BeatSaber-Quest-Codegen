@@ -34,7 +34,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11D8288
     static ApplicationVersion* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.ApplicationVersion
-  check_size<sizeof(ApplicationVersion), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Oculus_Platform_Models_ApplicationVersionSizeCheck;
+  check_size<sizeof(ApplicationVersion), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __Oculus_Platform_Models_ApplicationVersionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::ApplicationVersion*, "Oculus.Platform.Models", "ApplicationVersion");

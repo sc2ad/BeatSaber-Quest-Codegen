@@ -48,7 +48,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
     ::Il2CppString* ToString(bool multiLine);
   }; // System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension
-  check_size<sizeof(X509EnhancedKeyUsageExtension), 48 + sizeof(System::Security::Cryptography::AsnDecodeStatus) + 8 - (48 + sizeof(System::Security::Cryptography::AsnDecodeStatus)) % 8> __System_Security_Cryptography_X509Certificates_X509EnhancedKeyUsageExtensionSizeCheck;
+  check_size<sizeof(X509EnhancedKeyUsageExtension), 48 + sizeof(System::Security::Cryptography::AsnDecodeStatus) + ((48 + sizeof(System::Security::Cryptography::AsnDecodeStatus)) % 8 != 0 ? (8 - (48 + sizeof(System::Security::Cryptography::AsnDecodeStatus)) % 8) : 0)> __System_Security_Cryptography_X509Certificates_X509EnhancedKeyUsageExtensionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension*, "System.Security.Cryptography.X509Certificates", "X509EnhancedKeyUsageExtension");

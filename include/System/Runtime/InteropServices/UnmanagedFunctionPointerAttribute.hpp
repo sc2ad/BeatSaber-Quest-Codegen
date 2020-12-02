@@ -36,7 +36,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1166388
     static UnmanagedFunctionPointerAttribute* New_ctor(System::Runtime::InteropServices::CallingConvention callingConvention);
   }; // System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute
-  check_size<sizeof(UnmanagedFunctionPointerAttribute), 26 + sizeof(bool) + 8 - (26 + sizeof(bool)) % 8> __System_Runtime_InteropServices_UnmanagedFunctionPointerAttributeSizeCheck;
+  check_size<sizeof(UnmanagedFunctionPointerAttribute), 26 + sizeof(bool) + ((26 + sizeof(bool)) % 8 != 0 ? (8 - (26 + sizeof(bool)) % 8) : 0)> __System_Runtime_InteropServices_UnmanagedFunctionPointerAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*, "System.Runtime.InteropServices", "UnmanagedFunctionPointerAttribute");

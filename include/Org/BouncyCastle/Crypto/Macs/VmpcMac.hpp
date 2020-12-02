@@ -96,7 +96,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Base method: System.Void Object::.ctor()
     static VmpcMac* New_ctor();
   }; // Org.BouncyCastle.Crypto.Macs.VmpcMac
-  check_size<sizeof(VmpcMac), 67 + sizeof(uint8_t) + 8 - (67 + sizeof(uint8_t)) % 8> __Org_BouncyCastle_Crypto_Macs_VmpcMacSizeCheck;
+  check_size<sizeof(VmpcMac), 67 + sizeof(uint8_t) + ((67 + sizeof(uint8_t)) % 8 != 0 ? (8 - (67 + sizeof(uint8_t)) % 8) : 0)> __Org_BouncyCastle_Crypto_Macs_VmpcMacSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::VmpcMac*, "Org.BouncyCastle.Crypto.Macs", "VmpcMac");

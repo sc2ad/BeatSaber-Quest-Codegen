@@ -67,7 +67,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1164854
     ::Il2CppString* get_Value();
   }; // System.Runtime.InteropServices.DllImportAttribute
-  check_size<sizeof(DllImportAttribute), 45 + sizeof(bool) + 8 - (45 + sizeof(bool)) % 8> __System_Runtime_InteropServices_DllImportAttributeSizeCheck;
+  check_size<sizeof(DllImportAttribute), 45 + sizeof(bool) + ((45 + sizeof(bool)) % 8 != 0 ? (8 - (45 + sizeof(bool)) % 8) : 0)> __System_Runtime_InteropServices_DllImportAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DllImportAttribute*, "System.Runtime.InteropServices", "DllImportAttribute");

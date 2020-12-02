@@ -71,7 +71,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.EventModifiers FunctionKey
     static void _set_FunctionKey(UnityEngine::EventModifiers value);
   }; // UnityEngine.EventModifiers
-  check_size<sizeof(EventModifiers), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __UnityEngine_EventModifiersSizeCheck;
+  check_size<sizeof(EventModifiers), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __UnityEngine_EventModifiersSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventModifiers, "UnityEngine", "EventModifiers");

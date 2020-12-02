@@ -24,7 +24,7 @@ namespace LiteNetLib::Utils {
     // Creating value type constructor for type: ConverterHelperDouble
     constexpr ConverterHelperDouble(uint64_t Along_ = {}, double Adouble_ = {}) noexcept : Along{Along_}, Adouble{Adouble_} {}
   }; // LiteNetLib.Utils.FastBitConverter/ConverterHelperDouble
-  check_size<sizeof(FastBitConverter::ConverterHelperDouble), 0 + sizeof(double) + 8 - (0 + sizeof(double)) % 8> __LiteNetLib_Utils_FastBitConverter_ConverterHelperDoubleSizeCheck;
+  check_size<sizeof(FastBitConverter::ConverterHelperDouble), 0 + sizeof(double) + ((0 + sizeof(double)) % 8 != 0 ? (8 - (0 + sizeof(double)) % 8) : 0)> __LiteNetLib_Utils_FastBitConverter_ConverterHelperDoubleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::FastBitConverter::ConverterHelperDouble, "LiteNetLib.Utils", "FastBitConverter/ConverterHelperDouble");

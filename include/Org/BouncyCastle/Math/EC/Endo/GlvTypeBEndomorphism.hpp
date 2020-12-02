@@ -61,7 +61,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Base method: System.Boolean ECEndomorphism::get_HasEfficientPointMap()
     bool get_HasEfficientPointMap();
   }; // Org.BouncyCastle.Math.EC.Endo.GlvTypeBEndomorphism
-  check_size<sizeof(GlvTypeBEndomorphism), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __Org_BouncyCastle_Math_EC_Endo_GlvTypeBEndomorphismSizeCheck;
+  check_size<sizeof(GlvTypeBEndomorphism), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Math_EC_Endo_GlvTypeBEndomorphismSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism*, "Org.BouncyCastle.Math.EC.Endo", "GlvTypeBEndomorphism");

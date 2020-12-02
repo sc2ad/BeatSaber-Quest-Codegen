@@ -119,7 +119,7 @@ namespace System {
     // Set static field: static public System.ConsoleColor White
     static void _set_White(System::ConsoleColor value);
   }; // System.ConsoleColor
-  check_size<sizeof(ConsoleColor), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_ConsoleColorSizeCheck;
+  check_size<sizeof(ConsoleColor), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_ConsoleColorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ConsoleColor, "System", "ConsoleColor");

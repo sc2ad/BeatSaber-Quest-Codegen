@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ConnectedPlayerManager::KickPlayerPacket* New_ctor();
   }; // ConnectedPlayerManager/KickPlayerPacket
-  check_size<sizeof(ConnectedPlayerManager::KickPlayerPacket), 16 + sizeof(GlobalNamespace::DisconnectedReason) + 8 - (16 + sizeof(GlobalNamespace::DisconnectedReason)) % 8> __GlobalNamespace_ConnectedPlayerManager_KickPlayerPacketSizeCheck;
+  check_size<sizeof(ConnectedPlayerManager::KickPlayerPacket), 16 + sizeof(GlobalNamespace::DisconnectedReason) + ((16 + sizeof(GlobalNamespace::DisconnectedReason)) % 8 != 0 ? (8 - (16 + sizeof(GlobalNamespace::DisconnectedReason)) % 8) : 0)> __GlobalNamespace_ConnectedPlayerManager_KickPlayerPacketSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket*, "", "ConnectedPlayerManager/KickPlayerPacket");

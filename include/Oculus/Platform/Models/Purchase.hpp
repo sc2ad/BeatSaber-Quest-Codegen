@@ -36,7 +36,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x11DE8D8
     static Purchase* New_ctor(System::IntPtr o);
   }; // Oculus.Platform.Models.Purchase
-  check_size<sizeof(Purchase), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Oculus_Platform_Models_PurchaseSizeCheck;
+  check_size<sizeof(Purchase), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __Oculus_Platform_Models_PurchaseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Purchase*, "Oculus.Platform.Models", "Purchase");

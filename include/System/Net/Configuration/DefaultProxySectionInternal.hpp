@@ -50,7 +50,7 @@ namespace System::Net::Configuration {
     // Base method: System.Void Object::.ctor()
     static DefaultProxySectionInternal* New_ctor();
   }; // System.Net.Configuration.DefaultProxySectionInternal
-  check_size<sizeof(DefaultProxySectionInternal), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Net_Configuration_DefaultProxySectionInternalSizeCheck;
+  check_size<sizeof(DefaultProxySectionInternal), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Net_Configuration_DefaultProxySectionInternalSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::DefaultProxySectionInternal*, "System.Net.Configuration", "DefaultProxySectionInternal");

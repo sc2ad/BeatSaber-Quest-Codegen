@@ -76,7 +76,7 @@ namespace UnityEngine::TestTools {
     // Base method: System.Void Object::.ctor()
     static BeforeAfterTestCommandState* New_ctor();
   }; // UnityEngine.TestTools.BeforeAfterTestCommandState
-  check_size<sizeof(BeforeAfterTestCommandState), 80 + sizeof(bool) + 8 - (80 + sizeof(bool)) % 8> __UnityEngine_TestTools_BeforeAfterTestCommandStateSizeCheck;
+  check_size<sizeof(BeforeAfterTestCommandState), 80 + sizeof(bool) + ((80 + sizeof(bool)) % 8 != 0 ? (8 - (80 + sizeof(bool)) % 8) : 0)> __UnityEngine_TestTools_BeforeAfterTestCommandStateSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::BeforeAfterTestCommandState*, "UnityEngine.TestTools", "BeforeAfterTestCommandState");

@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     // Offset: 0xE7F184
     // ABORTED: conflicts with another method.  BufferData(float songTime, float yOffset);
   }; // BeatmapObjectAvoidanceYOffsetEvaluator/BufferData
-  check_size<sizeof(BeatmapObjectAvoidanceYOffsetEvaluator::BufferData), 4 + sizeof(float) + 8 - (4 + sizeof(float)) % 8> __GlobalNamespace_BeatmapObjectAvoidanceYOffsetEvaluator_BufferDataSizeCheck;
+  check_size<sizeof(BeatmapObjectAvoidanceYOffsetEvaluator::BufferData), 4 + sizeof(float) + ((4 + sizeof(float)) % 8 != 0 ? (8 - (4 + sizeof(float)) % 8) : 0)> __GlobalNamespace_BeatmapObjectAvoidanceYOffsetEvaluator_BufferDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData, "", "BeatmapObjectAvoidanceYOffsetEvaluator/BufferData");

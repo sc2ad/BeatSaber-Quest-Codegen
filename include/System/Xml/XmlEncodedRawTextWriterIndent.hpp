@@ -161,7 +161,7 @@ namespace System::Xml {
     // Base method: System.Void XmlRawWriter::WriteBase64(System.Byte[] buffer, System.Int32 index, System.Int32 count)
     void WriteBase64(::Array<uint8_t>* buffer, int index, int count);
   }; // System.Xml.XmlEncodedRawTextWriterIndent
-  check_size<sizeof(XmlEncodedRawTextWriterIndent), 216 + sizeof(System::Xml::ConformanceLevel) + 8 - (216 + sizeof(System::Xml::ConformanceLevel)) % 8> __System_Xml_XmlEncodedRawTextWriterIndentSizeCheck;
+  check_size<sizeof(XmlEncodedRawTextWriterIndent), 216 + sizeof(System::Xml::ConformanceLevel) + ((216 + sizeof(System::Xml::ConformanceLevel)) % 8 != 0 ? (8 - (216 + sizeof(System::Xml::ConformanceLevel)) % 8) : 0)> __System_Xml_XmlEncodedRawTextWriterIndentSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEncodedRawTextWriterIndent*, "System.Xml", "XmlEncodedRawTextWriterIndent");

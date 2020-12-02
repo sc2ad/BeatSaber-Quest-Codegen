@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NoPostProcessMainEffectSO* New_ctor();
   }; // NoPostProcessMainEffectSO
-  check_size<sizeof(NoPostProcessMainEffectSO), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __GlobalNamespace_NoPostProcessMainEffectSOSizeCheck;
+  check_size<sizeof(NoPostProcessMainEffectSO), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_NoPostProcessMainEffectSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoPostProcessMainEffectSO*, "", "NoPostProcessMainEffectSO");

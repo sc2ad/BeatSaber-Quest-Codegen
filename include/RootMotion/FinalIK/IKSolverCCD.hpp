@@ -50,7 +50,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static IKSolverCCD* New_ctor();
   }; // RootMotion.FinalIK.IKSolverCCD
-  check_size<sizeof(IKSolverCCD), 136 + sizeof(void*) + 8 - (136 + sizeof(void*)) % 8> __RootMotion_FinalIK_IKSolverCCDSizeCheck;
+  check_size<sizeof(IKSolverCCD), 136 + sizeof(void*) + ((136 + sizeof(void*)) % 8 != 0 ? (8 - (136 + sizeof(void*)) % 8) : 0)> __RootMotion_FinalIK_IKSolverCCDSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverCCD*, "RootMotion.FinalIK", "IKSolverCCD");

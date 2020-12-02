@@ -118,7 +118,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     static MaterialReferenceManager* New_ctor();
   }; // TMPro.MaterialReferenceManager
-  check_size<sizeof(MaterialReferenceManager), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __TMPro_MaterialReferenceManagerSizeCheck;
+  check_size<sizeof(MaterialReferenceManager), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __TMPro_MaterialReferenceManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::MaterialReferenceManager*, "TMPro", "MaterialReferenceManager");

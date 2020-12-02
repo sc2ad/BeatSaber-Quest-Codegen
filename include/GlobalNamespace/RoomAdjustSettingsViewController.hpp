@@ -127,7 +127,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static RoomAdjustSettingsViewController* New_ctor();
   }; // RoomAdjustSettingsViewController
-  check_size<sizeof(RoomAdjustSettingsViewController), 160 + sizeof(void*) + 8 - (160 + sizeof(void*)) % 8> __GlobalNamespace_RoomAdjustSettingsViewControllerSizeCheck;
+  check_size<sizeof(RoomAdjustSettingsViewController), 160 + sizeof(void*) + ((160 + sizeof(void*)) % 8 != 0 ? (8 - (160 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_RoomAdjustSettingsViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RoomAdjustSettingsViewController*, "", "RoomAdjustSettingsViewController");

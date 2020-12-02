@@ -27,7 +27,7 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: ovrNetSyncVec3
     constexpr ovrNetSyncVec3(float x_ = {}, float y_ = {}, float z_ = {}) noexcept : x{x_}, y{y_}, z{z_} {}
   }; // Oculus.Platform.CAPI/ovrNetSyncVec3
-  check_size<sizeof(CAPI::ovrNetSyncVec3), 8 + sizeof(float) + 8 - (8 + sizeof(float)) % 8> __Oculus_Platform_CAPI_ovrNetSyncVec3SizeCheck;
+  check_size<sizeof(CAPI::ovrNetSyncVec3), 8 + sizeof(float) + ((8 + sizeof(float)) % 8 != 0 ? (8 - (8 + sizeof(float)) % 8) : 0)> __Oculus_Platform_CAPI_ovrNetSyncVec3SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrNetSyncVec3, "Oculus.Platform", "CAPI/ovrNetSyncVec3");

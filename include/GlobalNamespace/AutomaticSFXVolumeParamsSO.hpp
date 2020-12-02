@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AutomaticSFXVolumeParamsSO* New_ctor();
   }; // AutomaticSFXVolumeParamsSO
-  check_size<sizeof(AutomaticSFXVolumeParamsSO), 52 + sizeof(float) + 8 - (52 + sizeof(float)) % 8> __GlobalNamespace_AutomaticSFXVolumeParamsSOSizeCheck;
+  check_size<sizeof(AutomaticSFXVolumeParamsSO), 52 + sizeof(float) + ((52 + sizeof(float)) % 8 != 0 ? (8 - (52 + sizeof(float)) % 8) : 0)> __GlobalNamespace_AutomaticSFXVolumeParamsSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutomaticSFXVolumeParamsSO*, "", "AutomaticSFXVolumeParamsSO");

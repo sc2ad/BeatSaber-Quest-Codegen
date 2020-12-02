@@ -98,7 +98,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionSelectionMapViewController* New_ctor();
   }; // MissionSelectionMapViewController
-  check_size<sizeof(MissionSelectionMapViewController), 152 + sizeof(void*) + 8 - (152 + sizeof(void*)) % 8> __GlobalNamespace_MissionSelectionMapViewControllerSizeCheck;
+  check_size<sizeof(MissionSelectionMapViewController), 152 + sizeof(void*) + ((152 + sizeof(void*)) % 8 != 0 ? (8 - (152 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MissionSelectionMapViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionSelectionMapViewController*, "", "MissionSelectionMapViewController");

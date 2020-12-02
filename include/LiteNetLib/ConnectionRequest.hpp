@@ -106,7 +106,7 @@ namespace LiteNetLib {
     // Offset: 0x1DC0394
     void Reject(LiteNetLib::Utils::NetDataWriter* rejectData);
   }; // LiteNetLib.ConnectionRequest
-  check_size<sizeof(ConnectionRequest), 64 + sizeof(void*) + 8 - (64 + sizeof(void*)) % 8> __LiteNetLib_ConnectionRequestSizeCheck;
+  check_size<sizeof(ConnectionRequest), 64 + sizeof(void*) + ((64 + sizeof(void*)) % 8 != 0 ? (8 - (64 + sizeof(void*)) % 8) : 0)> __LiteNetLib_ConnectionRequestSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ConnectionRequest*, "LiteNetLib", "ConnectionRequest");

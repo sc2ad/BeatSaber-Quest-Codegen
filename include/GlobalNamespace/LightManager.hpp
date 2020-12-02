@@ -101,7 +101,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // LightManager
-  check_size<sizeof(LightManager), 56 + sizeof(int) + 8 - (56 + sizeof(int)) % 8> __GlobalNamespace_LightManagerSizeCheck;
+  check_size<sizeof(LightManager), 56 + sizeof(int) + ((56 + sizeof(int)) % 8 != 0 ? (8 - (56 + sizeof(int)) % 8) : 0)> __GlobalNamespace_LightManagerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightManager*, "", "LightManager");

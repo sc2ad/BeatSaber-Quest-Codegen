@@ -28,7 +28,7 @@ namespace System::Threading {
     // Offset: 0xE8BE00
     void SpinOnce();
   }; // System.Threading.SpinWait
-  check_size<sizeof(SpinWait), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_Threading_SpinWaitSizeCheck;
+  check_size<sizeof(SpinWait), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_Threading_SpinWaitSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinWait, "System.Threading", "SpinWait");

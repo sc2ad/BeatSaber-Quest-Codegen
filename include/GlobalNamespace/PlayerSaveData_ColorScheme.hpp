@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Offset: 0xF251FC
     static PlayerSaveData::ColorScheme* New_ctor(::Il2CppString* colorSchemeId, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color obstaclesColor);
   }; // PlayerSaveData/ColorScheme
-  check_size<sizeof(PlayerSaveData::ColorScheme), 88 + sizeof(UnityEngine::Color) + 8 - (88 + sizeof(UnityEngine::Color)) % 8> __GlobalNamespace_PlayerSaveData_ColorSchemeSizeCheck;
+  check_size<sizeof(PlayerSaveData::ColorScheme), 88 + sizeof(UnityEngine::Color) + ((88 + sizeof(UnityEngine::Color)) % 8 != 0 ? (8 - (88 + sizeof(UnityEngine::Color)) % 8) : 0)> __GlobalNamespace_PlayerSaveData_ColorSchemeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::ColorScheme*, "", "PlayerSaveData/ColorScheme");

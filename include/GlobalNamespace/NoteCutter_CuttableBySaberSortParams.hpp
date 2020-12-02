@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NoteCutter::CuttableBySaberSortParams* New_ctor();
   }; // NoteCutter/CuttableBySaberSortParams
-  check_size<sizeof(NoteCutter::CuttableBySaberSortParams), 28 + sizeof(UnityEngine::Vector3) + 8 - (28 + sizeof(UnityEngine::Vector3)) % 8> __GlobalNamespace_NoteCutter_CuttableBySaberSortParamsSizeCheck;
+  check_size<sizeof(NoteCutter::CuttableBySaberSortParams), 28 + sizeof(UnityEngine::Vector3) + ((28 + sizeof(UnityEngine::Vector3)) % 8 != 0 ? (8 - (28 + sizeof(UnityEngine::Vector3)) % 8) : 0)> __GlobalNamespace_NoteCutter_CuttableBySaberSortParamsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutter::CuttableBySaberSortParams*, "", "NoteCutter/CuttableBySaberSortParams");

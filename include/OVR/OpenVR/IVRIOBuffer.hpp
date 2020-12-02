@@ -45,7 +45,7 @@ namespace OVR::OpenVR {
     // Creating value type constructor for type: IVRIOBuffer
     constexpr IVRIOBuffer(OVR::OpenVR::IVRIOBuffer::_Open* Open_ = {}, OVR::OpenVR::IVRIOBuffer::_Close* Close_ = {}, OVR::OpenVR::IVRIOBuffer::_Read* Read_ = {}, OVR::OpenVR::IVRIOBuffer::_Write* Write_ = {}, OVR::OpenVR::IVRIOBuffer::_PropertyContainer* PropertyContainer_ = {}) noexcept : Open{Open_}, Close{Close_}, Read{Read_}, Write{Write_}, PropertyContainer{PropertyContainer_} {}
   }; // OVR.OpenVR.IVRIOBuffer
-  check_size<sizeof(IVRIOBuffer), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __OVR_OpenVR_IVRIOBufferSizeCheck;
+  check_size<sizeof(IVRIOBuffer), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __OVR_OpenVR_IVRIOBufferSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRIOBuffer, "OVR.OpenVR", "IVRIOBuffer");

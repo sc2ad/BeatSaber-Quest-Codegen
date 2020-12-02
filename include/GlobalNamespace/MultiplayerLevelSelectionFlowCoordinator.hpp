@@ -159,7 +159,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerLevelSelectionFlowCoordinator* New_ctor();
   }; // MultiplayerLevelSelectionFlowCoordinator
-  check_size<sizeof(MultiplayerLevelSelectionFlowCoordinator), 280 + sizeof(void*) + 8 - (280 + sizeof(void*)) % 8> __GlobalNamespace_MultiplayerLevelSelectionFlowCoordinatorSizeCheck;
+  check_size<sizeof(MultiplayerLevelSelectionFlowCoordinator), 280 + sizeof(void*) + ((280 + sizeof(void*)) % 8 != 0 ? (8 - (280 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MultiplayerLevelSelectionFlowCoordinatorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator*, "", "MultiplayerLevelSelectionFlowCoordinator");

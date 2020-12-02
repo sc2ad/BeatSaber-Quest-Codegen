@@ -30,7 +30,7 @@ namespace Microsoft::Win32 {
     // Creating value type constructor for type: TRACE_PROVIDER_INSTANCE_INFO
     constexpr TRACE_PROVIDER_INSTANCE_INFO(int NextOffset_ = {}, int EnableCount_ = {}, int Pid_ = {}, int Flags_ = {}) noexcept : NextOffset{NextOffset_}, EnableCount{EnableCount_}, Pid{Pid_}, Flags{Flags_} {}
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/TRACE_PROVIDER_INSTANCE_INFO
-  check_size<sizeof(UnsafeNativeMethods::ManifestEtw::TRACE_PROVIDER_INSTANCE_INFO), 12 + sizeof(int) + 8 - (12 + sizeof(int)) % 8> __Microsoft_Win32_UnsafeNativeMethods_ManifestEtw_TRACE_PROVIDER_INSTANCE_INFOSizeCheck;
+  check_size<sizeof(UnsafeNativeMethods::ManifestEtw::TRACE_PROVIDER_INSTANCE_INFO), 12 + sizeof(int) + ((12 + sizeof(int)) % 8 != 0 ? (8 - (12 + sizeof(int)) % 8) : 0)> __Microsoft_Win32_UnsafeNativeMethods_ManifestEtw_TRACE_PROVIDER_INSTANCE_INFOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::TRACE_PROVIDER_INSTANCE_INFO, "Microsoft.Win32", "UnsafeNativeMethods/ManifestEtw/TRACE_PROVIDER_INSTANCE_INFO");

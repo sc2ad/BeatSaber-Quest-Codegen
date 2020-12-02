@@ -30,7 +30,7 @@ namespace Mono {
         return FixedElementField;
       }
     }; // Mono.MonoAssemblyName/<public_key_token>e__FixedBuffer
-    check_size<sizeof(MonoAssemblyName::$public_key_token$e__FixedBuffer), 0 + sizeof(uint8_t) + 8 - (0 + sizeof(uint8_t)) % 8> __Mono_MonoAssemblyName_$public_key_token$e__FixedBufferSizeCheck;
+    check_size<sizeof(MonoAssemblyName::$public_key_token$e__FixedBuffer), 0 + sizeof(uint8_t) + ((0 + sizeof(uint8_t)) % 8 != 0 ? (8 - (0 + sizeof(uint8_t)) % 8) : 0)> __Mono_MonoAssemblyName_$public_key_token$e__FixedBufferSizeCheck;
     // System.IntPtr name
     // Offset: 0x0
     System::IntPtr name;
@@ -73,7 +73,7 @@ namespace Mono {
     // Creating value type constructor for type: MonoAssemblyName
     constexpr MonoAssemblyName(System::IntPtr name_ = {}, System::IntPtr culture_ = {}, System::IntPtr hash_value_ = {}, System::IntPtr public_key_ = {}, Mono::MonoAssemblyName::$public_key_token$e__FixedBuffer public_key_token_ = {}, uint hash_alg_ = {}, uint hash_len_ = {}, uint flags_ = {}, uint16_t major_ = {}, uint16_t minor_ = {}, uint16_t build_ = {}, uint16_t revision_ = {}, uint16_t arch_ = {}) noexcept : name{name_}, culture{culture_}, hash_value{hash_value_}, public_key{public_key_}, public_key_token{public_key_token_}, hash_alg{hash_alg_}, hash_len{hash_len_}, flags{flags_}, major{major_}, minor{minor_}, build{build_}, revision{revision_}, arch{arch_} {}
   }; // Mono.MonoAssemblyName
-  check_size<sizeof(MonoAssemblyName), 72 + sizeof(uint16_t) + 8 - (72 + sizeof(uint16_t)) % 8> __Mono_MonoAssemblyNameSizeCheck;
+  check_size<sizeof(MonoAssemblyName), 72 + sizeof(uint16_t) + ((72 + sizeof(uint16_t)) % 8 != 0 ? (8 - (72 + sizeof(uint16_t)) % 8) : 0)> __Mono_MonoAssemblyNameSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::MonoAssemblyName, "Mono", "MonoAssemblyName");

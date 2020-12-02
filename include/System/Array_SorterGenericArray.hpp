@@ -64,7 +64,7 @@ namespace System {
     // Offset: 0xE8B50C
     void InsertionSort(int lo, int hi);
   }; // System.Array/SorterGenericArray
-  check_size<sizeof(Array::SorterGenericArray), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Array_SorterGenericArraySizeCheck;
+  check_size<sizeof(Array::SorterGenericArray), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Array_SorterGenericArraySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Array::SorterGenericArray, "System", "Array/SorterGenericArray");

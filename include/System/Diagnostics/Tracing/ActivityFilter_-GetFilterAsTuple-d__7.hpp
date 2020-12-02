@@ -102,7 +102,7 @@ namespace System::Diagnostics::Tracing {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Diagnostics.Tracing.ActivityFilter/<GetFilterAsTuple>d__7
-  check_size<sizeof(ActivityFilter::$GetFilterAsTuple$d__7), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __System_Diagnostics_Tracing_ActivityFilter_$GetFilterAsTuple$d__7SizeCheck;
+  check_size<sizeof(ActivityFilter::$GetFilterAsTuple$d__7), 80 + sizeof(void*) + ((80 + sizeof(void*)) % 8 != 0 ? (8 - (80 + sizeof(void*)) % 8) : 0)> __System_Diagnostics_Tracing_ActivityFilter_$GetFilterAsTuple$d__7SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::ActivityFilter::$GetFilterAsTuple$d__7*, "System.Diagnostics.Tracing", "ActivityFilter/<GetFilterAsTuple>d__7");

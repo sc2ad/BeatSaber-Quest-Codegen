@@ -22,7 +22,7 @@ namespace Valve::VR {
       return unVRMessageOverlayResponse;
     }
   }; // Valve.VR.VREvent_MessageOverlay_t
-  check_size<sizeof(VREvent_MessageOverlay_t), 0 + sizeof(uint) + 8 - (0 + sizeof(uint)) % 8> __Valve_VR_VREvent_MessageOverlay_tSizeCheck;
+  check_size<sizeof(VREvent_MessageOverlay_t), 0 + sizeof(uint) + ((0 + sizeof(uint)) % 8 != 0 ? (8 - (0 + sizeof(uint)) % 8) : 0)> __Valve_VR_VREvent_MessageOverlay_tSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_MessageOverlay_t, "Valve.VR", "VREvent_MessageOverlay_t");

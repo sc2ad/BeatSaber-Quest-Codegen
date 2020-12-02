@@ -66,7 +66,7 @@ namespace System {
     // Offset: 0x1596E60
     ::Array<uint8_t>* GetStringBytes(::Array<uint8_t>* buffer, int offset);
   }; // System.TermInfoReader
-  check_size<sizeof(TermInfoReader), 32 + sizeof(int) + 8 - (32 + sizeof(int)) % 8> __System_TermInfoReaderSizeCheck;
+  check_size<sizeof(TermInfoReader), 32 + sizeof(int) + ((32 + sizeof(int)) % 8 != 0 ? (8 - (32 + sizeof(int)) % 8) : 0)> __System_TermInfoReaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TermInfoReader*, "System", "TermInfoReader");

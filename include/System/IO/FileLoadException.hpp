@@ -80,7 +80,7 @@ namespace System::IO {
     // Maps to method: GetObjectData
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.IO.FileLoadException
-  check_size<sizeof(FileLoadException), 152 + sizeof(void*) + 8 - (152 + sizeof(void*)) % 8> __System_IO_FileLoadExceptionSizeCheck;
+  check_size<sizeof(FileLoadException), 152 + sizeof(void*) + ((152 + sizeof(void*)) % 8 != 0 ? (8 - (152 + sizeof(void*)) % 8) : 0)> __System_IO_FileLoadExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileLoadException*, "System.IO", "FileLoadException");

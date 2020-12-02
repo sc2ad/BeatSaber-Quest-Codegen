@@ -28,7 +28,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Rectf
     constexpr Rectf(GlobalNamespace::OVRPlugin::Vector2f Pos_ = {}, GlobalNamespace::OVRPlugin::Sizef Size_ = {}) noexcept : Pos{Pos_}, Size{Size_} {}
   }; // OVRPlugin/Rectf
-  check_size<sizeof(OVRPlugin::Rectf), 8 + sizeof(GlobalNamespace::OVRPlugin::Sizef) + 8 - (8 + sizeof(GlobalNamespace::OVRPlugin::Sizef)) % 8> __GlobalNamespace_OVRPlugin_RectfSizeCheck;
+  check_size<sizeof(OVRPlugin::Rectf), 8 + sizeof(GlobalNamespace::OVRPlugin::Sizef) + ((8 + sizeof(GlobalNamespace::OVRPlugin::Sizef)) % 8 != 0 ? (8 - (8 + sizeof(GlobalNamespace::OVRPlugin::Sizef)) % 8) : 0)> __GlobalNamespace_OVRPlugin_RectfSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Rectf, "", "OVRPlugin/Rectf");

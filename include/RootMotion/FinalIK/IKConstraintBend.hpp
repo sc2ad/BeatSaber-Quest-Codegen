@@ -122,7 +122,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static IKConstraintBend* New_ctor();
   }; // RootMotion.FinalIK.IKConstraintBend
-  check_size<sizeof(IKConstraintBend), 133 + sizeof(bool) + 8 - (133 + sizeof(bool)) % 8> __RootMotion_FinalIK_IKConstraintBendSizeCheck;
+  check_size<sizeof(IKConstraintBend), 133 + sizeof(bool) + ((133 + sizeof(bool)) % 8 != 0 ? (8 - (133 + sizeof(bool)) % 8) : 0)> __RootMotion_FinalIK_IKConstraintBendSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKConstraintBend*, "RootMotion.FinalIK", "IKConstraintBend");

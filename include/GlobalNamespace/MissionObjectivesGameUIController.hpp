@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MissionObjectivesGameUIController* New_ctor();
   }; // MissionObjectivesGameUIController
-  check_size<sizeof(MissionObjectivesGameUIController), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __GlobalNamespace_MissionObjectivesGameUIControllerSizeCheck;
+  check_size<sizeof(MissionObjectivesGameUIController), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_MissionObjectivesGameUIControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectivesGameUIController*, "", "MissionObjectivesGameUIController");

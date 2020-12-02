@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static ConditionalMove* New_ctor();
   }; // ConditionalMove
-  check_size<sizeof(ConditionalMove), 48 + sizeof(bool) + 8 - (48 + sizeof(bool)) % 8> __GlobalNamespace_ConditionalMoveSizeCheck;
+  check_size<sizeof(ConditionalMove), 48 + sizeof(bool) + ((48 + sizeof(bool)) % 8 != 0 ? (8 - (48 + sizeof(bool)) % 8) : 0)> __GlobalNamespace_ConditionalMoveSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConditionalMove*, "", "ConditionalMove");

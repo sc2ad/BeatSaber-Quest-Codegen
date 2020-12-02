@@ -125,7 +125,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static MultiplayerLevelFinishedController* New_ctor();
   }; // MultiplayerLevelFinishedController
-  check_size<sizeof(MultiplayerLevelFinishedController), 76 + sizeof(float) + 8 - (76 + sizeof(float)) % 8> __GlobalNamespace_MultiplayerLevelFinishedControllerSizeCheck;
+  check_size<sizeof(MultiplayerLevelFinishedController), 76 + sizeof(float) + ((76 + sizeof(float)) % 8 != 0 ? (8 - (76 + sizeof(float)) % 8) : 0)> __GlobalNamespace_MultiplayerLevelFinishedControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelFinishedController*, "", "MultiplayerLevelFinishedController");

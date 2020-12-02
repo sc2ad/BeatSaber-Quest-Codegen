@@ -131,7 +131,7 @@ namespace System {
     // Set static field: static public System.TypeCode String
     static void _set_String(System::TypeCode value);
   }; // System.TypeCode
-  check_size<sizeof(TypeCode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_TypeCodeSizeCheck;
+  check_size<sizeof(TypeCode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_TypeCodeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TypeCode, "System", "TypeCode");

@@ -25,7 +25,7 @@ namespace System::Globalization {
     // Offset: 0x162FCC0
     static HebrewNumber::HebrewValue* New_ctor(System::Globalization::HebrewNumber::HebrewToken token, int value);
   }; // System.Globalization.HebrewNumber/HebrewValue
-  check_size<sizeof(HebrewNumber::HebrewValue), 20 + sizeof(int) + 8 - (20 + sizeof(int)) % 8> __System_Globalization_HebrewNumber_HebrewValueSizeCheck;
+  check_size<sizeof(HebrewNumber::HebrewValue), 20 + sizeof(int) + ((20 + sizeof(int)) % 8 != 0 ? (8 - (20 + sizeof(int)) % 8) : 0)> __System_Globalization_HebrewNumber_HebrewValueSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumber::HebrewValue*, "System.Globalization", "HebrewNumber/HebrewValue");

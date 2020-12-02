@@ -49,7 +49,7 @@ namespace System::Runtime::Remoting {
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
   }; // System.Runtime.Remoting.ActivatedClientTypeEntry
-  check_size<sizeof(ActivatedClientTypeEntry), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Runtime_Remoting_ActivatedClientTypeEntrySizeCheck;
+  check_size<sizeof(ActivatedClientTypeEntry), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __System_Runtime_Remoting_ActivatedClientTypeEntrySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ActivatedClientTypeEntry*, "System.Runtime.Remoting", "ActivatedClientTypeEntry");

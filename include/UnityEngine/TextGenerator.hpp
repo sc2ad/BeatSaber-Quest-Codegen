@@ -188,7 +188,7 @@ namespace UnityEngine {
     // Base method: System.Void IDisposable::Dispose()
     void System_IDisposable_Dispose();
   }; // UnityEngine.TextGenerator
-  check_size<sizeof(TextGenerator), 162 + sizeof(bool) + 8 - (162 + sizeof(bool)) % 8> __UnityEngine_TextGeneratorSizeCheck;
+  check_size<sizeof(TextGenerator), 162 + sizeof(bool) + ((162 + sizeof(bool)) % 8 != 0 ? (8 - (162 + sizeof(bool)) % 8) : 0)> __UnityEngine_TextGeneratorSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerator*, "UnityEngine", "TextGenerator");

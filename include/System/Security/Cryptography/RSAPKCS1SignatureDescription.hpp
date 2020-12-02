@@ -24,7 +24,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x169F77C
     static RSAPKCS1SignatureDescription* New_ctor(::Il2CppString* hashAlgorithm, ::Il2CppString* digestAlgorithm);
   }; // System.Security.Cryptography.RSAPKCS1SignatureDescription
-  check_size<sizeof(RSAPKCS1SignatureDescription), 48 + sizeof(void*) + 8 - (48 + sizeof(void*)) % 8> __System_Security_Cryptography_RSAPKCS1SignatureDescriptionSizeCheck;
+  check_size<sizeof(RSAPKCS1SignatureDescription), 48 + sizeof(void*) + ((48 + sizeof(void*)) % 8 != 0 ? (8 - (48 + sizeof(void*)) % 8) : 0)> __System_Security_Cryptography_RSAPKCS1SignatureDescriptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAPKCS1SignatureDescription*, "System.Security.Cryptography", "RSAPKCS1SignatureDescription");

@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Set static field: static public NodePoseSyncState/NodePose Count
     static void _set_Count(GlobalNamespace::NodePoseSyncState_NodePose value);
   }; // NodePoseSyncState/NodePose
-  check_size<sizeof(NodePoseSyncState_NodePose), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_NodePoseSyncState_NodePoseSizeCheck;
+  check_size<sizeof(NodePoseSyncState_NodePose), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_NodePoseSyncState_NodePoseSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodePoseSyncState_NodePose, "", "NodePoseSyncState/NodePose");

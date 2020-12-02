@@ -27,7 +27,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static Recoil::RecoilOffset::EffectorLink* New_ctor();
   }; // RootMotion.FinalIK.Recoil/RecoilOffset/EffectorLink
-  check_size<sizeof(Recoil::RecoilOffset::EffectorLink), 20 + sizeof(float) + 8 - (20 + sizeof(float)) % 8> __RootMotion_FinalIK_Recoil_RecoilOffset_EffectorLinkSizeCheck;
+  check_size<sizeof(Recoil::RecoilOffset::EffectorLink), 20 + sizeof(float) + ((20 + sizeof(float)) % 8 != 0 ? (8 - (20 + sizeof(float)) % 8) : 0)> __RootMotion_FinalIK_Recoil_RecoilOffset_EffectorLinkSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*, "RootMotion.FinalIK", "Recoil/RecoilOffset/EffectorLink");

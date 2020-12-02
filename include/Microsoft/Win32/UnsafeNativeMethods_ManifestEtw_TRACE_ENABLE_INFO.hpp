@@ -42,7 +42,7 @@ namespace Microsoft::Win32 {
     // Creating value type constructor for type: TRACE_ENABLE_INFO
     constexpr TRACE_ENABLE_INFO(int IsEnabled_ = {}, uint8_t Level_ = {}, uint8_t Reserved1_ = {}, uint16_t LoggerId_ = {}, int EnableProperty_ = {}, int Reserved2_ = {}, int64_t MatchAnyKeyword_ = {}, int64_t MatchAllKeyword_ = {}) noexcept : IsEnabled{IsEnabled_}, Level{Level_}, Reserved1{Reserved1_}, LoggerId{LoggerId_}, EnableProperty{EnableProperty_}, Reserved2{Reserved2_}, MatchAnyKeyword{MatchAnyKeyword_}, MatchAllKeyword{MatchAllKeyword_} {}
   }; // Microsoft.Win32.UnsafeNativeMethods/ManifestEtw/TRACE_ENABLE_INFO
-  check_size<sizeof(UnsafeNativeMethods::ManifestEtw::TRACE_ENABLE_INFO), 24 + sizeof(int64_t) + 8 - (24 + sizeof(int64_t)) % 8> __Microsoft_Win32_UnsafeNativeMethods_ManifestEtw_TRACE_ENABLE_INFOSizeCheck;
+  check_size<sizeof(UnsafeNativeMethods::ManifestEtw::TRACE_ENABLE_INFO), 24 + sizeof(int64_t) + ((24 + sizeof(int64_t)) % 8 != 0 ? (8 - (24 + sizeof(int64_t)) % 8) : 0)> __Microsoft_Win32_UnsafeNativeMethods_ManifestEtw_TRACE_ENABLE_INFOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::UnsafeNativeMethods::ManifestEtw::TRACE_ENABLE_INFO, "Microsoft.Win32", "UnsafeNativeMethods/ManifestEtw/TRACE_ENABLE_INFO");

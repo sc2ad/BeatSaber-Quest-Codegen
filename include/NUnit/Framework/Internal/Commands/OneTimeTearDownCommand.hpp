@@ -56,7 +56,7 @@ namespace NUnit::Framework::Internal::Commands {
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.Internal.Commands.OneTimeTearDownCommand
-  check_size<sizeof(OneTimeTearDownCommand), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __NUnit_Framework_Internal_Commands_OneTimeTearDownCommandSizeCheck;
+  check_size<sizeof(OneTimeTearDownCommand), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __NUnit_Framework_Internal_Commands_OneTimeTearDownCommandSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::OneTimeTearDownCommand*, "NUnit.Framework.Internal.Commands", "OneTimeTearDownCommand");

@@ -50,7 +50,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::.ctor()
     static VoipPCMSourceNative* New_ctor();
   }; // Oculus.Platform.VoipPCMSourceNative
-  check_size<sizeof(VoipPCMSourceNative), 16 + sizeof(uint64_t) + 8 - (16 + sizeof(uint64_t)) % 8> __Oculus_Platform_VoipPCMSourceNativeSizeCheck;
+  check_size<sizeof(VoipPCMSourceNative), 16 + sizeof(uint64_t) + ((16 + sizeof(uint64_t)) % 8 != 0 ? (8 - (16 + sizeof(uint64_t)) % 8) : 0)> __Oculus_Platform_VoipPCMSourceNativeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipPCMSourceNative*, "Oculus.Platform", "VoipPCMSourceNative");

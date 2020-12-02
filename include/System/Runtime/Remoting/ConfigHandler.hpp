@@ -157,7 +157,7 @@ namespace System::Runtime::Remoting {
     // Base method: System.Void IContentHandler::OnEndParsing(Mono.Xml.SmallXmlParser parser)
     void OnEndParsing(Mono::Xml::SmallXmlParser* parser);
   }; // System.Runtime.Remoting.ConfigHandler
-  check_size<sizeof(ConfigHandler), 72 + sizeof(bool) + 8 - (72 + sizeof(bool)) % 8> __System_Runtime_Remoting_ConfigHandlerSizeCheck;
+  check_size<sizeof(ConfigHandler), 72 + sizeof(bool) + ((72 + sizeof(bool)) % 8 != 0 ? (8 - (72 + sizeof(bool)) % 8) : 0)> __System_Runtime_Remoting_ConfigHandlerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ConfigHandler*, "System.Runtime.Remoting", "ConfigHandler");

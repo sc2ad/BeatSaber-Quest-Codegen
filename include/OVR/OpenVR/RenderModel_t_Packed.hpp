@@ -45,7 +45,7 @@ namespace OVR::OpenVR {
     // Offset: 0xC938A8
     void Unpack(OVR::OpenVR::RenderModel_t& unpacked);
   }; // OVR.OpenVR.RenderModel_t_Packed
-  check_size<sizeof(RenderModel_t_Packed), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __OVR_OpenVR_RenderModel_t_PackedSizeCheck;
+  check_size<sizeof(RenderModel_t_Packed), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __OVR_OpenVR_RenderModel_t_PackedSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_t_Packed, "OVR.OpenVR", "RenderModel_t_Packed");

@@ -41,7 +41,7 @@ namespace Oculus::Platform {
     // Set static field: static public Oculus.Platform.NetSyncVoipStreamMode Mono
     static void _set_Mono(Oculus::Platform::NetSyncVoipStreamMode value);
   }; // Oculus.Platform.NetSyncVoipStreamMode
-  check_size<sizeof(NetSyncVoipStreamMode), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __Oculus_Platform_NetSyncVoipStreamModeSizeCheck;
+  check_size<sizeof(NetSyncVoipStreamMode), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __Oculus_Platform_NetSyncVoipStreamModeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::NetSyncVoipStreamMode, "Oculus.Platform", "NetSyncVoipStreamMode");

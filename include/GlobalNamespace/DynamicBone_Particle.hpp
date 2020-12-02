@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static DynamicBone::Particle* New_ctor();
   }; // DynamicBone/Particle
-  check_size<sizeof(DynamicBone::Particle), 100 + sizeof(UnityEngine::Quaternion) + 8 - (100 + sizeof(UnityEngine::Quaternion)) % 8> __GlobalNamespace_DynamicBone_ParticleSizeCheck;
+  check_size<sizeof(DynamicBone::Particle), 100 + sizeof(UnityEngine::Quaternion) + ((100 + sizeof(UnityEngine::Quaternion)) % 8 != 0 ? (8 - (100 + sizeof(UnityEngine::Quaternion)) % 8) : 0)> __GlobalNamespace_DynamicBone_ParticleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBone::Particle*, "", "DynamicBone/Particle");

@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Vector2i
     constexpr Vector2i(int x_ = {}, int y_ = {}) noexcept : x{x_}, y{y_} {}
   }; // OVRPlugin/Vector2i
-  check_size<sizeof(OVRPlugin::Vector2i), 4 + sizeof(int) + 8 - (4 + sizeof(int)) % 8> __GlobalNamespace_OVRPlugin_Vector2iSizeCheck;
+  check_size<sizeof(OVRPlugin::Vector2i), 4 + sizeof(int) + ((4 + sizeof(int)) % 8 != 0 ? (8 - (4 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OVRPlugin_Vector2iSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Vector2i, "", "OVRPlugin/Vector2i");

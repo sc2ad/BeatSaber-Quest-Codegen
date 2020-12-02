@@ -106,7 +106,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NoteCutInfoNetSerializable* New_ctor();
   }; // NoteCutInfoNetSerializable
-  check_size<sizeof(NoteCutInfoNetSerializable), 108 + sizeof(GlobalNamespace::Vector3Serializable) + 8 - (108 + sizeof(GlobalNamespace::Vector3Serializable)) % 8> __GlobalNamespace_NoteCutInfoNetSerializableSizeCheck;
+  check_size<sizeof(NoteCutInfoNetSerializable), 108 + sizeof(GlobalNamespace::Vector3Serializable) + ((108 + sizeof(GlobalNamespace::Vector3Serializable)) % 8 != 0 ? (8 - (108 + sizeof(GlobalNamespace::Vector3Serializable)) % 8) : 0)> __GlobalNamespace_NoteCutInfoNetSerializableSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutInfoNetSerializable*, "", "NoteCutInfoNetSerializable");

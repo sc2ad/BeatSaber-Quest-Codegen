@@ -70,7 +70,7 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     static Encoder* New_ctor();
   }; // System.Text.Encoder
-  check_size<sizeof(Encoder), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __System_Text_EncoderSizeCheck;
+  check_size<sizeof(Encoder), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __System_Text_EncoderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoder*, "System.Text", "Encoder");

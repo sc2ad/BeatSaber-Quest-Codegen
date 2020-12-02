@@ -71,7 +71,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x18852DC
     static UnityEngine::Vector3 GetLookDirection(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>* points, int index, int previous, int next);
   }; // UnityEngine.ProBuilder.BezierPoint
-  check_size<sizeof(BezierPoint), 36 + sizeof(UnityEngine::Quaternion) + 8 - (36 + sizeof(UnityEngine::Quaternion)) % 8> __UnityEngine_ProBuilder_BezierPointSizeCheck;
+  check_size<sizeof(BezierPoint), 36 + sizeof(UnityEngine::Quaternion) + ((36 + sizeof(UnityEngine::Quaternion)) % 8 != 0 ? (8 - (36 + sizeof(UnityEngine::Quaternion)) % 8) : 0)> __UnityEngine_ProBuilder_BezierPointSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::BezierPoint, "UnityEngine.ProBuilder", "BezierPoint");

@@ -127,7 +127,7 @@ namespace System::Reflection {
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
   }; // System.Reflection.CustomAttributeData
-  check_size<sizeof(CustomAttributeData), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __System_Reflection_CustomAttributeDataSizeCheck;
+  check_size<sizeof(CustomAttributeData), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __System_Reflection_CustomAttributeDataSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeData*, "System.Reflection", "CustomAttributeData");
 #pragma pack(pop)

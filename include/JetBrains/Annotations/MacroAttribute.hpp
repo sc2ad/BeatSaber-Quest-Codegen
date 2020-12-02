@@ -47,7 +47,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     static MacroAttribute* New_ctor();
   }; // JetBrains.Annotations.MacroAttribute
-  check_size<sizeof(MacroAttribute), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __JetBrains_Annotations_MacroAttributeSizeCheck;
+  check_size<sizeof(MacroAttribute), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __JetBrains_Annotations_MacroAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::MacroAttribute*, "JetBrains.Annotations", "MacroAttribute");

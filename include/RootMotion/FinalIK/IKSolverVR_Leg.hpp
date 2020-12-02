@@ -191,7 +191,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     static IKSolverVR::Leg* New_ctor();
   }; // RootMotion.FinalIK.IKSolverVR/Leg
-  check_size<sizeof(IKSolverVR::Leg), 324 + sizeof(UnityEngine::Vector3) + 8 - (324 + sizeof(UnityEngine::Vector3)) % 8> __RootMotion_FinalIK_IKSolverVR_LegSizeCheck;
+  check_size<sizeof(IKSolverVR::Leg), 324 + sizeof(UnityEngine::Vector3) + ((324 + sizeof(UnityEngine::Vector3)) % 8 != 0 ? (8 - (324 + sizeof(UnityEngine::Vector3)) % 8) : 0)> __RootMotion_FinalIK_IKSolverVR_LegSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Leg*, "RootMotion.FinalIK", "IKSolverVR/Leg");

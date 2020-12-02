@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Set static field: static public PlatformLeaderboardsModel/GetScoresResult Failed
     static void _set_Failed(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult value);
   }; // PlatformLeaderboardsModel/GetScoresResult
-  check_size<sizeof(PlatformLeaderboardsModel::GetScoresResult), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_PlatformLeaderboardsModel_GetScoresResultSizeCheck;
+  check_size<sizeof(PlatformLeaderboardsModel::GetScoresResult), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_PlatformLeaderboardsModel_GetScoresResultSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult, "", "PlatformLeaderboardsModel/GetScoresResult");

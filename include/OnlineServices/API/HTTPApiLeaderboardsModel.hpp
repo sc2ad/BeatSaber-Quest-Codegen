@@ -95,7 +95,7 @@ namespace OnlineServices::API {
     // Base method: System.Void Object::.ctor()
     static HTTPApiLeaderboardsModel* New_ctor();
   }; // OnlineServices.API.HTTPApiLeaderboardsModel
-  check_size<sizeof(HTTPApiLeaderboardsModel), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __OnlineServices_API_HTTPApiLeaderboardsModelSizeCheck;
+  check_size<sizeof(HTTPApiLeaderboardsModel), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __OnlineServices_API_HTTPApiLeaderboardsModelSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPApiLeaderboardsModel*, "OnlineServices.API", "HTTPApiLeaderboardsModel");

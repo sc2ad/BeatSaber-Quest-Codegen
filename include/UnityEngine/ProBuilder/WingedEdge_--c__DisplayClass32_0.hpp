@@ -37,7 +37,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.ctor()
     static WingedEdge::$$c__DisplayClass32_0* New_ctor();
   }; // UnityEngine.ProBuilder.WingedEdge/<>c__DisplayClass32_0
-  check_size<sizeof(WingedEdge::$$c__DisplayClass32_0), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_WingedEdge_$$c__DisplayClass32_0SizeCheck;
+  check_size<sizeof(WingedEdge::$$c__DisplayClass32_0), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __UnityEngine_ProBuilder_WingedEdge_$$c__DisplayClass32_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::WingedEdge::$$c__DisplayClass32_0*, "UnityEngine.ProBuilder", "WingedEdge/<>c__DisplayClass32_0");

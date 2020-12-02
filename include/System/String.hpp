@@ -810,7 +810,7 @@ namespace System {
     // Base method: System.Collections.IEnumerator IEnumerable::GetEnumerator()
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.String
-  check_size<sizeof(String), 20 + sizeof(::Il2CppChar) + 8 - (20 + sizeof(::Il2CppChar)) % 8> __System_StringSizeCheck;
+  check_size<sizeof(String), 20 + sizeof(::Il2CppChar) + ((20 + sizeof(::Il2CppChar)) % 8 != 0 ? (8 - (20 + sizeof(::Il2CppChar)) % 8) : 0)> __System_StringSizeCheck;
   // static public System.Boolean op_Equality(System.String a, System.String b)
   // Offset: 0x1280F1C
   bool operator ==(::Il2CppString* a, ::Il2CppString& b);

@@ -24,7 +24,7 @@ namespace TMPro {
     // Creating value type constructor for type: TagAttribute
     constexpr TagAttribute(int startIndex_ = {}, int length_ = {}, int hashCode_ = {}) noexcept : startIndex{startIndex_}, length{length_}, hashCode{hashCode_} {}
   }; // TMPro.TagAttribute
-  check_size<sizeof(TagAttribute), 8 + sizeof(int) + 8 - (8 + sizeof(int)) % 8> __TMPro_TagAttributeSizeCheck;
+  check_size<sizeof(TagAttribute), 8 + sizeof(int) + ((8 + sizeof(int)) % 8 != 0 ? (8 - (8 + sizeof(int)) % 8) : 0)> __TMPro_TagAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TagAttribute, "TMPro", "TagAttribute");

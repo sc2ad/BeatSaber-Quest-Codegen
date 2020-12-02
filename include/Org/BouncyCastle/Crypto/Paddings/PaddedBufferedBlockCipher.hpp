@@ -68,7 +68,7 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     // Base method: System.Int32 BufferedBlockCipher::DoFinal(System.Byte[] output, System.Int32 outOff)
     int DoFinal(::Array<uint8_t>* output, int outOff);
   }; // Org.BouncyCastle.Crypto.Paddings.PaddedBufferedBlockCipher
-  check_size<sizeof(PaddedBufferedBlockCipher), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Paddings_PaddedBufferedBlockCipherSizeCheck;
+  check_size<sizeof(PaddedBufferedBlockCipher), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_Paddings_PaddedBufferedBlockCipherSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher*, "Org.BouncyCastle.Crypto.Paddings", "PaddedBufferedBlockCipher");

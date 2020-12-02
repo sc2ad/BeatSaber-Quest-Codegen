@@ -184,7 +184,7 @@ namespace System::Text {
     // Base method: System.Int32 Encoding::GetMaxCharCount(System.Int32 byteCount)
     int GetMaxCharCount(int byteCount);
   }; // System.Text.UTF7Encoding
-  check_size<sizeof(UTF7Encoding), 80 + sizeof(bool) + 8 - (80 + sizeof(bool)) % 8> __System_Text_UTF7EncodingSizeCheck;
+  check_size<sizeof(UTF7Encoding), 80 + sizeof(bool) + ((80 + sizeof(bool)) % 8 != 0 ? (8 - (80 + sizeof(bool)) % 8) : 0)> __System_Text_UTF7EncodingSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF7Encoding*, "System.Text", "UTF7Encoding");

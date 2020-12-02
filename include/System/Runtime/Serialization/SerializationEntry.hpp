@@ -44,7 +44,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0xC9FE8C
     SerializationEntry(::Il2CppString* entryName, ::Il2CppObject* entryValue, System::Type* entryType);
   }; // System.Runtime.Serialization.SerializationEntry
-  check_size<sizeof(SerializationEntry), 16 + sizeof(void*) + 8 - (16 + sizeof(void*)) % 8> __System_Runtime_Serialization_SerializationEntrySizeCheck;
+  check_size<sizeof(SerializationEntry), 16 + sizeof(void*) + ((16 + sizeof(void*)) % 8 != 0 ? (8 - (16 + sizeof(void*)) % 8) : 0)> __System_Runtime_Serialization_SerializationEntrySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEntry, "System.Runtime.Serialization", "SerializationEntry");

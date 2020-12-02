@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static SleepRigidbody2DWhenInvisible* New_ctor();
   }; // SleepRigidbody2DWhenInvisible
-  check_size<sizeof(SleepRigidbody2DWhenInvisible), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __GlobalNamespace_SleepRigidbody2DWhenInvisibleSizeCheck;
+  check_size<sizeof(SleepRigidbody2DWhenInvisible), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_SleepRigidbody2DWhenInvisibleSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SleepRigidbody2DWhenInvisible*, "", "SleepRigidbody2DWhenInvisible");

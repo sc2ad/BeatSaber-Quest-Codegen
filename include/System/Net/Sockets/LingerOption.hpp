@@ -27,7 +27,7 @@ namespace System::Net::Sockets {
     // Offset: 0x11A72C0
     void set_LingerTime(int value);
   }; // System.Net.Sockets.LingerOption
-  check_size<sizeof(LingerOption), 20 + sizeof(int) + 8 - (20 + sizeof(int)) % 8> __System_Net_Sockets_LingerOptionSizeCheck;
+  check_size<sizeof(LingerOption), 20 + sizeof(int) + ((20 + sizeof(int)) % 8 != 0 ? (8 - (20 + sizeof(int)) % 8) : 0)> __System_Net_Sockets_LingerOptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::LingerOption*, "System.Net.Sockets", "LingerOption");

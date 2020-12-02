@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.cctor()
     static void _cctor();
   }; // RandomValueToShader
-  check_size<sizeof(RandomValueToShader), 24 + sizeof(int) + 8 - (24 + sizeof(int)) % 8> __GlobalNamespace_RandomValueToShaderSizeCheck;
+  check_size<sizeof(RandomValueToShader), 24 + sizeof(int) + ((24 + sizeof(int)) % 8 != 0 ? (8 - (24 + sizeof(int)) % 8) : 0)> __GlobalNamespace_RandomValueToShaderSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RandomValueToShader*, "", "RandomValueToShader");

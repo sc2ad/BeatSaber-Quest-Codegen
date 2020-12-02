@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     // Maps to method: CreateFromSerializedData
     GlobalNamespace::GameplayServerConfiguration LiteNetLib_Utils_INetImmutableSerializable_1_CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
   }; // GameplayServerConfiguration
-  check_size<sizeof(GameplayServerConfiguration), 8 + sizeof(GlobalNamespace::SongPackMask) + 8 - (8 + sizeof(GlobalNamespace::SongPackMask)) % 8> __GlobalNamespace_GameplayServerConfigurationSizeCheck;
+  check_size<sizeof(GameplayServerConfiguration), 8 + sizeof(GlobalNamespace::SongPackMask) + ((8 + sizeof(GlobalNamespace::SongPackMask)) % 8 != 0 ? (8 - (8 + sizeof(GlobalNamespace::SongPackMask)) % 8) : 0)> __GlobalNamespace_GameplayServerConfigurationSizeCheck;
   // static public System.Boolean op_Equality(GameplayServerConfiguration l, GameplayServerConfiguration r)
   // Offset: 0x1B4DBDC
   bool operator ==(const GlobalNamespace::GameplayServerConfiguration& l, const GlobalNamespace::GameplayServerConfiguration& r);

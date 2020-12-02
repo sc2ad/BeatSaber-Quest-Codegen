@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static NetworkConfigSO* New_ctor();
   }; // NetworkConfigSO
-  check_size<sizeof(NetworkConfigSO), 56 + sizeof(void*) + 8 - (56 + sizeof(void*)) % 8> __GlobalNamespace_NetworkConfigSOSizeCheck;
+  check_size<sizeof(NetworkConfigSO), 56 + sizeof(void*) + ((56 + sizeof(void*)) % 8 != 0 ? (8 - (56 + sizeof(void*)) % 8) : 0)> __GlobalNamespace_NetworkConfigSOSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkConfigSO*, "", "NetworkConfigSO");

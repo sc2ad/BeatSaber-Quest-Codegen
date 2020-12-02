@@ -150,7 +150,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static PracticeViewController* New_ctor();
   }; // PracticeViewController
-  check_size<sizeof(PracticeViewController), 200 + sizeof(GlobalNamespace::BeatmapDifficulty) + 8 - (200 + sizeof(GlobalNamespace::BeatmapDifficulty)) % 8> __GlobalNamespace_PracticeViewControllerSizeCheck;
+  check_size<sizeof(PracticeViewController), 200 + sizeof(GlobalNamespace::BeatmapDifficulty) + ((200 + sizeof(GlobalNamespace::BeatmapDifficulty)) % 8 != 0 ? (8 - (200 + sizeof(GlobalNamespace::BeatmapDifficulty)) % 8) : 0)> __GlobalNamespace_PracticeViewControllerSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PracticeViewController*, "", "PracticeViewController");

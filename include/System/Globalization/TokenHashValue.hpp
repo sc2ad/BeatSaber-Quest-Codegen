@@ -26,7 +26,7 @@ namespace System::Globalization {
     // Offset: 0x142CA44
     static TokenHashValue* New_ctor(::Il2CppString* tokenString, System::TokenType tokenType, int tokenValue);
   }; // System.Globalization.TokenHashValue
-  check_size<sizeof(TokenHashValue), 28 + sizeof(int) + 8 - (28 + sizeof(int)) % 8> __System_Globalization_TokenHashValueSizeCheck;
+  check_size<sizeof(TokenHashValue), 28 + sizeof(int) + ((28 + sizeof(int)) % 8 != 0 ? (8 - (28 + sizeof(int)) % 8) : 0)> __System_Globalization_TokenHashValueSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TokenHashValue*, "System.Globalization", "TokenHashValue");

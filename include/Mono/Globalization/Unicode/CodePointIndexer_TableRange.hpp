@@ -36,7 +36,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0xCA0AEC
     TableRange(int start, int end, int indexStart);
   }; // Mono.Globalization.Unicode.CodePointIndexer/TableRange
-  check_size<sizeof(CodePointIndexer::TableRange), 16 + sizeof(int) + 8 - (16 + sizeof(int)) % 8> __Mono_Globalization_Unicode_CodePointIndexer_TableRangeSizeCheck;
+  check_size<sizeof(CodePointIndexer::TableRange), 16 + sizeof(int) + ((16 + sizeof(int)) % 8 != 0 ? (8 - (16 + sizeof(int)) % 8) : 0)> __Mono_Globalization_Unicode_CodePointIndexer_TableRangeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::CodePointIndexer::TableRange, "Mono.Globalization.Unicode", "CodePointIndexer/TableRange");

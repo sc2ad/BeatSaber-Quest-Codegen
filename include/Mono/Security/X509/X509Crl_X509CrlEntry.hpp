@@ -49,7 +49,7 @@ namespace Mono::Security::X509 {
     // Offset: 0x19C51E4
     Mono::Security::X509::X509ExtensionCollection* get_Extensions();
   }; // Mono.Security.X509.X509Crl/X509CrlEntry
-  check_size<sizeof(X509Crl::X509CrlEntry), 32 + sizeof(void*) + 8 - (32 + sizeof(void*)) % 8> __Mono_Security_X509_X509Crl_X509CrlEntrySizeCheck;
+  check_size<sizeof(X509Crl::X509CrlEntry), 32 + sizeof(void*) + ((32 + sizeof(void*)) % 8 != 0 ? (8 - (32 + sizeof(void*)) % 8) : 0)> __Mono_Security_X509_X509Crl_X509CrlEntrySizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Crl::X509CrlEntry*, "Mono.Security.X509", "X509Crl/X509CrlEntry");

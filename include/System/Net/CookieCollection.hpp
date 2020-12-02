@@ -111,7 +111,7 @@ namespace System::Net {
     // Maps to method: GetEnumerator
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Net.CookieCollection
-  check_size<sizeof(CookieCollection), 41 + sizeof(bool) + 8 - (41 + sizeof(bool)) % 8> __System_Net_CookieCollectionSizeCheck;
+  check_size<sizeof(CookieCollection), 41 + sizeof(bool) + ((41 + sizeof(bool)) % 8 != 0 ? (8 - (41 + sizeof(bool)) % 8) : 0)> __System_Net_CookieCollectionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieCollection*, "System.Net", "CookieCollection");

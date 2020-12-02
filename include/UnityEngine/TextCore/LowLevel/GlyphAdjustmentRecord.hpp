@@ -29,7 +29,7 @@ namespace UnityEngine::TextCore::LowLevel {
     // Offset: 0xCB815C
     UnityEngine::TextCore::LowLevel::GlyphValueRecord get_glyphValueRecord();
   }; // UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
-  check_size<sizeof(GlyphAdjustmentRecord), 4 + sizeof(UnityEngine::TextCore::LowLevel::GlyphValueRecord) + 8 - (4 + sizeof(UnityEngine::TextCore::LowLevel::GlyphValueRecord)) % 8> __UnityEngine_TextCore_LowLevel_GlyphAdjustmentRecordSizeCheck;
+  check_size<sizeof(GlyphAdjustmentRecord), 4 + sizeof(UnityEngine::TextCore::LowLevel::GlyphValueRecord) + ((4 + sizeof(UnityEngine::TextCore::LowLevel::GlyphValueRecord)) % 8 != 0 ? (8 - (4 + sizeof(UnityEngine::TextCore::LowLevel::GlyphValueRecord)) % 8) : 0)> __UnityEngine_TextCore_LowLevel_GlyphAdjustmentRecordSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "GlyphAdjustmentRecord");

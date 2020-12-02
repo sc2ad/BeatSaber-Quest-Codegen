@@ -76,7 +76,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Offset: 0x17D3D6C
     ::Array<uint8_t>* ProcessBlock(::Array<uint8_t>* input, int inOff, int inLen);
   }; // Org.BouncyCastle.Crypto.Engines.IesEngine
-  check_size<sizeof(IesEngine), 80 + sizeof(void*) + 8 - (80 + sizeof(void*)) % 8> __Org_BouncyCastle_Crypto_Engines_IesEngineSizeCheck;
+  check_size<sizeof(IesEngine), 80 + sizeof(void*) + ((80 + sizeof(void*)) % 8 != 0 ? (8 - (80 + sizeof(void*)) % 8) : 0)> __Org_BouncyCastle_Crypto_Engines_IesEngineSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::IesEngine*, "Org.BouncyCastle.Crypto.Engines", "IesEngine");

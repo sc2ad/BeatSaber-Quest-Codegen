@@ -34,7 +34,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Offset: 0x1252860
     static ConnectFaceRebuildData* New_ctor(UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData, System::Collections::Generic::List_1<int>* newVertexIndexes);
   }; // UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData
-  check_size<sizeof(ConnectFaceRebuildData), 24 + sizeof(void*) + 8 - (24 + sizeof(void*)) % 8> __UnityEngine_ProBuilder_MeshOperations_ConnectFaceRebuildDataSizeCheck;
+  check_size<sizeof(ConnectFaceRebuildData), 24 + sizeof(void*) + ((24 + sizeof(void*)) % 8 != 0 ? (8 - (24 + sizeof(void*)) % 8) : 0)> __UnityEngine_ProBuilder_MeshOperations_ConnectFaceRebuildDataSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, "UnityEngine.ProBuilder.MeshOperations", "ConnectFaceRebuildData");

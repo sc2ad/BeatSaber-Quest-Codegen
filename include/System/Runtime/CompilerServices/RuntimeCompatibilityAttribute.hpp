@@ -30,7 +30,7 @@ namespace System::Runtime::CompilerServices {
     // Base method: System.Void Object::.ctor()
     static RuntimeCompatibilityAttribute* New_ctor();
   }; // System.Runtime.CompilerServices.RuntimeCompatibilityAttribute
-  check_size<sizeof(RuntimeCompatibilityAttribute), 16 + sizeof(bool) + 8 - (16 + sizeof(bool)) % 8> __System_Runtime_CompilerServices_RuntimeCompatibilityAttributeSizeCheck;
+  check_size<sizeof(RuntimeCompatibilityAttribute), 16 + sizeof(bool) + ((16 + sizeof(bool)) % 8 != 0 ? (8 - (16 + sizeof(bool)) % 8) : 0)> __System_Runtime_CompilerServices_RuntimeCompatibilityAttributeSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::RuntimeCompatibilityAttribute*, "System.Runtime.CompilerServices", "RuntimeCompatibilityAttribute");

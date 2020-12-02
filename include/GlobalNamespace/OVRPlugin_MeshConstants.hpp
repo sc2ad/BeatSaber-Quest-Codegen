@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Set static field: static public OVRPlugin/MeshConstants MaxIndices
     static void _set_MaxIndices(GlobalNamespace::OVRPlugin::MeshConstants value);
   }; // OVRPlugin/MeshConstants
-  check_size<sizeof(OVRPlugin::MeshConstants), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __GlobalNamespace_OVRPlugin_MeshConstantsSizeCheck;
+  check_size<sizeof(OVRPlugin::MeshConstants), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __GlobalNamespace_OVRPlugin_MeshConstantsSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::MeshConstants, "", "OVRPlugin/MeshConstants");

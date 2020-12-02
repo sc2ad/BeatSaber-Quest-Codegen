@@ -36,7 +36,7 @@ namespace Mono::Security::Interface {
     // Offset: 0x17B8708
     static TlsException* New_ctor(Mono::Security::Interface::AlertDescription description, ::Il2CppString* message);
   }; // Mono.Security.Interface.TlsException
-  check_size<sizeof(TlsException), 136 + sizeof(void*) + 8 - (136 + sizeof(void*)) % 8> __Mono_Security_Interface_TlsExceptionSizeCheck;
+  check_size<sizeof(TlsException), 136 + sizeof(void*) + ((136 + sizeof(void*)) % 8 != 0 ? (8 - (136 + sizeof(void*)) % 8) : 0)> __Mono_Security_Interface_TlsExceptionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::TlsException*, "Mono.Security.Interface", "TlsException");

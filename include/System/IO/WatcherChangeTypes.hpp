@@ -53,7 +53,7 @@ namespace System::IO {
     // Set static field: static public System.IO.WatcherChangeTypes Renamed
     static void _set_Renamed(System::IO::WatcherChangeTypes value);
   }; // System.IO.WatcherChangeTypes
-  check_size<sizeof(WatcherChangeTypes), 0 + sizeof(int) + 8 - (0 + sizeof(int)) % 8> __System_IO_WatcherChangeTypesSizeCheck;
+  check_size<sizeof(WatcherChangeTypes), 0 + sizeof(int) + ((0 + sizeof(int)) % 8 != 0 ? (8 - (0 + sizeof(int)) % 8) : 0)> __System_IO_WatcherChangeTypesSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::WatcherChangeTypes, "System.IO", "WatcherChangeTypes");

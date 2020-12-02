@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     static AvatarTweenController::$$c__DisplayClass52_0* New_ctor();
   }; // AvatarTweenController/<>c__DisplayClass52_0
-  check_size<sizeof(AvatarTweenController::$$c__DisplayClass52_0), 24 + sizeof(UnityEngine::Vector3) + 8 - (24 + sizeof(UnityEngine::Vector3)) % 8> __GlobalNamespace_AvatarTweenController_$$c__DisplayClass52_0SizeCheck;
+  check_size<sizeof(AvatarTweenController::$$c__DisplayClass52_0), 24 + sizeof(UnityEngine::Vector3) + ((24 + sizeof(UnityEngine::Vector3)) % 8 != 0 ? (8 - (24 + sizeof(UnityEngine::Vector3)) % 8) : 0)> __GlobalNamespace_AvatarTweenController_$$c__DisplayClass52_0SizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0*, "", "AvatarTweenController/<>c__DisplayClass52_0");

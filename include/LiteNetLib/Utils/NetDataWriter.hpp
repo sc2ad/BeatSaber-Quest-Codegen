@@ -198,7 +198,7 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void Object::.ctor()
     static NetDataWriter* New_ctor();
   }; // LiteNetLib.Utils.NetDataWriter
-  check_size<sizeof(NetDataWriter), 28 + sizeof(bool) + 8 - (28 + sizeof(bool)) % 8> __LiteNetLib_Utils_NetDataWriterSizeCheck;
+  check_size<sizeof(NetDataWriter), 28 + sizeof(bool) + ((28 + sizeof(bool)) % 8 != 0 ? (8 - (28 + sizeof(bool)) % 8) : 0)> __LiteNetLib_Utils_NetDataWriterSizeCheck;
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetDataWriter*, "LiteNetLib.Utils", "NetDataWriter");
 #pragma pack(pop)

@@ -27,7 +27,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x1518FB8
     static Contraction* New_ctor(int index, ::Array<::Il2CppChar>* source, ::Il2CppString* replacement, ::Array<uint8_t>* sortkey);
   }; // Mono.Globalization.Unicode.Contraction
-  check_size<sizeof(Contraction), 40 + sizeof(void*) + 8 - (40 + sizeof(void*)) % 8> __Mono_Globalization_Unicode_ContractionSizeCheck;
+  check_size<sizeof(Contraction), 40 + sizeof(void*) + ((40 + sizeof(void*)) % 8 != 0 ? (8 - (40 + sizeof(void*)) % 8) : 0)> __Mono_Globalization_Unicode_ContractionSizeCheck;
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::Contraction*, "Mono.Globalization.Unicode", "Contraction");
