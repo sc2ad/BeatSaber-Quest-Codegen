@@ -15,8 +15,6 @@
 #include "UnityEngine/GameObject.hpp"
 // Including type: UnityEngine.Material
 #include "UnityEngine/Material.hpp"
-// Including type: UnityEngine.Rect
-#include "UnityEngine/Rect.hpp"
 // Including type: System.IO.FileSystemEventArgs
 #include "System/IO/FileSystemEventArgs.hpp"
 // Including type: SteamVR_Camera

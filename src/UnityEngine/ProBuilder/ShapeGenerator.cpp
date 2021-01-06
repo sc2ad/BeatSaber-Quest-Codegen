@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.ShapeGenerator
 #include "UnityEngine/ProBuilder/ShapeGenerator.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.ProBuilder.ProBuilderMesh
 #include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
 // Including type: UnityEngine.ProBuilder.ShapeType

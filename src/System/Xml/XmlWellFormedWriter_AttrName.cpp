@@ -4,7 +4,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Xml.XmlWellFormedWriter/AttrName
-#include "System/Xml/XmlWellFormedWriter_AttrName.hpp"
+#include "System/Xml/XmlWellFormedWriter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

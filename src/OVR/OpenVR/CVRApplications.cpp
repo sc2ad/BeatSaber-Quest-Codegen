@@ -9,8 +9,6 @@
 #include "OVR/OpenVR/EVRApplicationError.hpp"
 // Including type: System.Text.StringBuilder
 #include "System/Text/StringBuilder.hpp"
-// Including type: OVR.OpenVR.AppOverrideKeys_t
-#include "OVR/OpenVR/AppOverrideKeys_t.hpp"
 // Including type: OVR.OpenVR.EVRApplicationProperty
 #include "OVR/OpenVR/EVRApplicationProperty.hpp"
 // Including type: OVR.OpenVR.EVRApplicationTransitionState

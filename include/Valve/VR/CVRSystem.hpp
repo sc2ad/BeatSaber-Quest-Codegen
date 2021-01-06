@@ -9,6 +9,8 @@
 #include "Valve/VR/IVRSystem.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+// Including type: Valve.VR.TrackedDevicePose_t
+#include "Valve/VR/TrackedDevicePose_t.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -21,14 +23,11 @@ namespace Valve::VR {
   struct EVREye;
   // Forward declaring type: DistortionCoordinates_t
   struct DistortionCoordinates_t;
-  // Forward declaring type: HmdMatrix34_t
-  struct HmdMatrix34_t;
+  // Skipping declaration: HmdMatrix34_t because it is already included!
   // Forward declaring type: ETextureType
   struct ETextureType;
   // Forward declaring type: ETrackingUniverseOrigin
   struct ETrackingUniverseOrigin;
-  // Forward declaring type: TrackedDevicePose_t
-  struct TrackedDevicePose_t;
   // Forward declaring type: ETrackedDeviceClass
   struct ETrackedDeviceClass;
   // Forward declaring type: EDeviceActivityLevel

@@ -7,8 +7,6 @@
 #include "UnityEngine/ProBuilder/VertexPositioning.hpp"
 // Including type: System.Collections.Generic.List`1
 #include "System/Collections/Generic/List_1.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.ProBuilder.ProBuilderMesh
 #include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1

@@ -5,14 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRPlugin/Mesh
 #include "GlobalNamespace/OVRPlugin_Mesh.hpp"
-// Including type: OVRPlugin/Vector3f
-#include "GlobalNamespace/OVRPlugin.hpp"
-// Including type: OVRPlugin/Vector2f
-#include "GlobalNamespace/OVRPlugin_Vector2f.hpp"
-// Including type: OVRPlugin/Vector4s
-#include "GlobalNamespace/OVRPlugin_Vector4s.hpp"
-// Including type: OVRPlugin/Vector4f
-#include "GlobalNamespace/OVRPlugin_Vector4f.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

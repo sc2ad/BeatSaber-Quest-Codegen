@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRHeadsetEmulator
 #include "GlobalNamespace/OVRHeadsetEmulator.hpp"
-// Including type: UnityEngine.KeyCode
-#include "UnityEngine/KeyCode.hpp"
 // Including type: OVRManager
 #include "GlobalNamespace/OVRManager.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

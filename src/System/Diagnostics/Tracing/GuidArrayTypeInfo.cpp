@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Diagnostics.Tracing.GuidArrayTypeInfo
 #include "System/Diagnostics/Tracing/GuidArrayTypeInfo.hpp"
-// Including type: System.Guid
-#include "System/Guid.hpp"
 // Including type: System.Diagnostics.Tracing.TraceLoggingDataCollector
 #include "System/Diagnostics/Tracing/TraceLoggingDataCollector.hpp"
 // Including type: System.Diagnostics.Tracing.TraceLoggingMetadataCollector

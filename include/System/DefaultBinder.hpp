@@ -22,8 +22,6 @@ namespace System {
 namespace System::Reflection {
   // Forward declaring type: MethodBase
   class MethodBase;
-  // Forward declaring type: ParameterModifier
-  struct ParameterModifier;
   // Forward declaring type: PropertyInfo
   class PropertyInfo;
   // Forward declaring type: ParameterInfo

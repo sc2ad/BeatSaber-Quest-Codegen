@@ -25,8 +25,6 @@
 #include "RootMotion/FinalIK/IKSolverVR_VirtualBone.hpp"
 // Including type: UnityEngine.Transform
 #include "UnityEngine/Transform.hpp"
-// Including type: UnityEngine.Keyframe
-#include "UnityEngine/Keyframe.hpp"
 // Including type: RootMotion.FinalIK.VRIK/References
 #include "RootMotion/FinalIK/VRIK_References.hpp"
 // Including type: RootMotion.FinalIK.IKSolver/Point

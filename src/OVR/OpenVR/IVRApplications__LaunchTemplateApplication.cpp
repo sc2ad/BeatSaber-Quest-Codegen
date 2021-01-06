@@ -7,8 +7,6 @@
 #include "OVR/OpenVR/IVRApplications__LaunchTemplateApplication.hpp"
 // Including type: OVR.OpenVR.EVRApplicationError
 #include "OVR/OpenVR/EVRApplicationError.hpp"
-// Including type: OVR.OpenVR.AppOverrideKeys_t
-#include "OVR/OpenVR/AppOverrideKeys_t.hpp"
 // Including type: System.IAsyncResult
 #include "System/IAsyncResult.hpp"
 // Including type: System.AsyncCallback

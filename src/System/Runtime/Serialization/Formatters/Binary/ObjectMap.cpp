@@ -7,8 +7,6 @@
 #include "System/Runtime/Serialization/Formatters/Binary/ObjectMap.hpp"
 // Including type: System.Type
 #include "System/Type.hpp"
-// Including type: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum
-#include "System/Runtime/Serialization/Formatters/Binary/BinaryTypeEnum.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo
 #include "System/Runtime/Serialization/Formatters/Binary/ReadObjectInfo.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.ObjectReader

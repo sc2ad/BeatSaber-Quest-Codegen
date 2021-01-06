@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
+// Including type: Valve.VR.EVRButtonId
+#include "Valve/VR/EVRButtonId.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -16,11 +18,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
   template<typename T>
   class List_1;
-}
-// Forward declaring namespace: Valve::VR
-namespace Valve::VR {
-  // Forward declaring type: EVRButtonId
-  struct EVRButtonId;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {

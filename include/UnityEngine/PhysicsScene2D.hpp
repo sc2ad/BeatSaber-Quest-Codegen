@@ -14,21 +14,21 @@
 #include "UnityEngine/RaycastHit2D.hpp"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: Ray
-  struct Ray;
-  // Skipping declaration: Vector2 because it is already included!
-  // Forward declaring type: ContactFilter2D
-  struct ContactFilter2D;
-  // Forward declaring type: Vector3
-  struct Vector3;
-}
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
   template<typename T>
   class List_1;
+}
+// Forward declaring namespace: UnityEngine
+namespace UnityEngine {
+  // Skipping declaration: Vector2 because it is already included!
+  // Forward declaring type: ContactFilter2D
+  struct ContactFilter2D;
+  // Forward declaring type: Ray
+  struct Ray;
+  // Forward declaring type: Vector3
+  struct Vector3;
 }
 // Completed forward declares
 // Type namespace: UnityEngine

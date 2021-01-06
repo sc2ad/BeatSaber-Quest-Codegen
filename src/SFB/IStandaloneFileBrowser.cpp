@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SFB.IStandaloneFileBrowser
 #include "SFB/IStandaloneFileBrowser.hpp"
-// Including type: SFB.ExtensionFilter
-#include "SFB/ExtensionFilter.hpp"
 // Including type: System.Action`1
 #include "System/Action_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

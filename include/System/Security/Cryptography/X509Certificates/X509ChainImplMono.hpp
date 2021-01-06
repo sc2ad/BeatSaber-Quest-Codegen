@@ -21,8 +21,6 @@ namespace System::Security::Cryptography::X509Certificates {
   class X509ChainElementCollection;
   // Forward declaring type: X509ChainPolicy
   class X509ChainPolicy;
-  // Forward declaring type: X509ChainStatus
-  struct X509ChainStatus;
   // Forward declaring type: X500DistinguishedName
   class X500DistinguishedName;
   // Forward declaring type: X509ChainElement
@@ -31,8 +29,7 @@ namespace System::Security::Cryptography::X509Certificates {
   class X509Certificate2Collection;
   // Forward declaring type: X509Store
   class X509Store;
-  // Forward declaring type: X509ChainStatusFlags
-  struct X509ChainStatusFlags;
+  // Skipping declaration: X509ChainStatusFlags because it is already included!
   // Forward declaring type: X509Certificate2
   class X509Certificate2;
 }

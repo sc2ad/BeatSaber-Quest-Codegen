@@ -15,8 +15,8 @@
 #include "UnityEngine/GameObject.hpp"
 // Including type: PlayerDataModel
 #include "GlobalNamespace/PlayerDataModel.hpp"
-// Including type: IBeatmapLevelPack
-#include "GlobalNamespace/IBeatmapLevelPack.hpp"
+// Including type: SelectLevelCategoryViewController
+#include "GlobalNamespace/SelectLevelCategoryViewController.hpp"
 // Including type: AnnotatedBeatmapLevelCollectionsViewController
 #include "GlobalNamespace/AnnotatedBeatmapLevelCollectionsViewController.hpp"
 // Including type: LevelSearchViewController
@@ -33,12 +33,12 @@
 #include "System/Action_1.hpp"
 // Including type: System.Threading.CancellationTokenSource
 #include "System/Threading/CancellationTokenSource.hpp"
+// Including type: IBeatmapLevelPack
+#include "GlobalNamespace/IBeatmapLevelPack.hpp"
 // Including type: System.Collections.Generic.IReadOnlyList`1
 #include "System/Collections/Generic/IReadOnlyList_1.hpp"
 // Including type: HMUI.ViewController
 #include "HMUI/ViewController.hpp"
-// Including type: SelectLevelCategoryViewController/LevelCategory
-#include "GlobalNamespace/SelectLevelCategoryViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

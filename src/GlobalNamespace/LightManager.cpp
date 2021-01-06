@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LightManager
 #include "GlobalNamespace/LightManager.hpp"
-// Including type: UnityEngine.Vector4
-#include "UnityEngine/Vector4.hpp"
 // Including type: UnityEngine.Camera
 #include "UnityEngine/Camera.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

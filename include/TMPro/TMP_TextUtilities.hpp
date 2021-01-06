@@ -5,6 +5,8 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: UnityEngine.Vector3
+#include "UnityEngine/Vector3.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -14,10 +16,13 @@ namespace TMPro {
   // Forward declaring type: CaretPosition
   struct CaretPosition;
 }
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: String
+  class String;
+}
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: Vector3
-  struct Vector3;
   // Forward declaring type: Camera
   class Camera;
   // Forward declaring type: RectTransform
@@ -26,11 +31,6 @@ namespace UnityEngine {
   class Transform;
   // Forward declaring type: Vector2
   struct Vector2;
-}
-// Forward declaring namespace: System
-namespace System {
-  // Forward declaring type: String
-  class String;
 }
 // Completed forward declares
 // Type namespace: TMPro

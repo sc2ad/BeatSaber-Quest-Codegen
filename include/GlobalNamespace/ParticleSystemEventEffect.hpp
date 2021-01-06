@@ -21,10 +21,14 @@
 namespace GlobalNamespace {
   // Forward declaring type: ColorSO
   class ColorSO;
-  // Forward declaring type: BeatmapEventData
-  class BeatmapEventData;
   // Forward declaring type: BeatmapObjectCallbackController
   class BeatmapObjectCallbackController;
+  // Forward declaring type: BeatmapEventData
+  class BeatmapEventData;
+}
+// Forward declaring namespace: UnityEngine
+namespace UnityEngine {
+  // Skipping declaration: ParticleSystem because it is already included!
 }
 // Completed forward declares
 // Type namespace: 

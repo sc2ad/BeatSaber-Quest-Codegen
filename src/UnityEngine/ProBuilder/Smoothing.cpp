@@ -15,8 +15,6 @@
 #include "System/Collections/Generic/IEnumerable_1.hpp"
 // Including type: UnityEngine.ProBuilder.Face
 #include "UnityEngine/ProBuilder/Face.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.ProBuilder.WingedEdge
 #include "UnityEngine/ProBuilder/WingedEdge.hpp"
 // Including type: UnityEngine.ProBuilder.EdgeLookup

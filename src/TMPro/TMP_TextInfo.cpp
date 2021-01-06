@@ -7,20 +7,6 @@
 #include "TMPro/TMP_TextInfo.hpp"
 // Including type: TMPro.TMP_Text
 #include "TMPro/TMP_Text.hpp"
-// Including type: TMPro.TMP_CharacterInfo
-#include "TMPro/TMP_CharacterInfo.hpp"
-// Including type: TMPro.TMP_WordInfo
-#include "TMPro/TMP_WordInfo.hpp"
-// Including type: TMPro.TMP_LinkInfo
-#include "TMPro/TMP_LinkInfo.hpp"
-// Including type: TMPro.TMP_LineInfo
-#include "TMPro/TMP_LineInfo.hpp"
-// Including type: TMPro.TMP_PageInfo
-#include "TMPro/TMP_PageInfo.hpp"
-// Including type: TMPro.TMP_MeshInfo
-#include "TMPro/TMP_MeshInfo.hpp"
-// Including type: TMPro.MaterialReference
-#include "TMPro/MaterialReference.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

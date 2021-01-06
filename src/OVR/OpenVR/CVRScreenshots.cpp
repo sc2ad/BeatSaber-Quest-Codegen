@@ -7,8 +7,6 @@
 #include "OVR/OpenVR/CVRScreenshots.hpp"
 // Including type: OVR.OpenVR.EVRScreenshotError
 #include "OVR/OpenVR/EVRScreenshotError.hpp"
-// Including type: OVR.OpenVR.EVRScreenshotType
-#include "OVR/OpenVR/EVRScreenshotType.hpp"
 // Including type: OVR.OpenVR.EVRScreenshotPropertyFilenames
 #include "OVR/OpenVR/EVRScreenshotPropertyFilenames.hpp"
 // Including type: System.Text.StringBuilder

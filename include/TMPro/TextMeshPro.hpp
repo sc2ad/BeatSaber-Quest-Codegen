@@ -20,7 +20,6 @@ namespace UnityEngine {
   class Renderer;
   // Forward declaring type: MeshFilter
   class MeshFilter;
-  // Skipping declaration: Vector3 because it is already included!
   // Skipping declaration: Vector4 because it is already included!
   // Forward declaring type: Material
   class Material;

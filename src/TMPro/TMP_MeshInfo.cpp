@@ -7,12 +7,10 @@
 #include "TMPro/TMP_MeshInfo.hpp"
 // Including type: UnityEngine.Mesh
 #include "UnityEngine/Mesh.hpp"
-// Including type: System.Collections.Generic.IList`1
-#include "System/Collections/Generic/IList_1.hpp"
 // Including type: TMPro.VertexSortingOrder
 #include "TMPro/VertexSortingOrder.hpp"
-// Including type: UnityEngine.Vector2
-#include "UnityEngine/Vector2.hpp"
+// Including type: System.Collections.Generic.IList`1
+#include "System/Collections/Generic/IList_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

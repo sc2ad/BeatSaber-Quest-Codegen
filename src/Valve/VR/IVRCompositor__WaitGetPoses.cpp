@@ -7,8 +7,6 @@
 #include "Valve/VR/IVRCompositor__WaitGetPoses.hpp"
 // Including type: Valve.VR.EVRCompositorError
 #include "Valve/VR/EVRCompositorError.hpp"
-// Including type: Valve.VR.TrackedDevicePose_t
-#include "Valve/VR/TrackedDevicePose_t.hpp"
 // Including type: System.IAsyncResult
 #include "System/IAsyncResult.hpp"
 // Including type: System.AsyncCallback

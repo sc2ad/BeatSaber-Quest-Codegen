@@ -18,11 +18,6 @@ namespace UnityEngine {
   // Forward declaring type: Transform
   class Transform;
 }
-// Forward declaring namespace: Valve::VR
-namespace Valve::VR {
-  // Forward declaring type: TrackedDevicePose_t
-  struct TrackedDevicePose_t;
-}
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {

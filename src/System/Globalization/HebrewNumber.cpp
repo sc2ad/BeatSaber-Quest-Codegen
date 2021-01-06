@@ -9,8 +9,6 @@
 #include "System/Globalization/HebrewNumber_HebrewToken.hpp"
 // Including type: System.Globalization.HebrewNumber/HebrewValue
 #include "System/Globalization/HebrewNumber_HebrewValue.hpp"
-// Including type: System.Globalization.HebrewNumber/HS
-#include "System/Globalization/HebrewNumber_HS.hpp"
 // Including type: System.Globalization.HebrewNumberParsingState
 #include "System/Globalization/HebrewNumberParsingState.hpp"
 // Including type: System.Globalization.HebrewNumberParsingContext

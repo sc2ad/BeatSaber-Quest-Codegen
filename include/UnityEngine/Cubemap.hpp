@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Texture
 #include "UnityEngine/Texture.hpp"
+// Including type: UnityEngine.Color
+#include "UnityEngine/Color.hpp"
 // Including type: UnityEngine.Experimental.Rendering.DefaultFormat
 #include "UnityEngine/Experimental/Rendering/DefaultFormat.hpp"
 // Including type: UnityEngine.Experimental.Rendering.TextureCreationFlags
@@ -21,8 +23,6 @@
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: Color
-  struct Color;
   // Forward declaring type: CubemapFace
   struct CubemapFace;
 }

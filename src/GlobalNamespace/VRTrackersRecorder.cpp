@@ -15,8 +15,6 @@
 #include "GlobalNamespace/FloatSO.hpp"
 // Including type: System.Collections.Generic.List`1
 #include "System/Collections/Generic/List_1.hpp"
-// Including type: Valve.VR.TrackedDevicePose_t
-#include "Valve/VR/TrackedDevicePose_t.hpp"
 // Including type: SteamVR_Events/Action
 #include "GlobalNamespace/SteamVR_Events_Action.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

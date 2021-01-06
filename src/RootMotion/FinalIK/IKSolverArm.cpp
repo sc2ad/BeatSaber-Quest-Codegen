@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.IKSolverArm
 #include "RootMotion/FinalIK/IKSolverArm.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Transform
 #include "UnityEngine/Transform.hpp"
 // Including type: RootMotion.FinalIK.IKSolver/Point

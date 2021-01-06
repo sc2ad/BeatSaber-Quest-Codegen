@@ -5,14 +5,10 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRDisplay
 #include "GlobalNamespace/OVRDisplay.hpp"
-// Including type: OVRDisplay/EyeFov
-#include "GlobalNamespace/OVRDisplay_EyeFov.hpp"
-// Including type: OVRDisplay/EyeRenderDesc
-#include "GlobalNamespace/OVRDisplay_EyeRenderDesc.hpp"
-// Including type: OVRDisplay/LatencyData
-#include "GlobalNamespace/OVRDisplay_LatencyData.hpp"
 // Including type: System.Action
 #include "System/Action.hpp"
+// Including type: OVRDisplay/LatencyData
+#include "GlobalNamespace/OVRDisplay_LatencyData.hpp"
 // Including type: UnityEngine.XR.XRNode
 #include "UnityEngine/XR/XRNode.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

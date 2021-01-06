@@ -9,8 +9,6 @@
 #include "NUnit/Framework/Interfaces/ITest.hpp"
 // Including type: System.Reflection.Assembly
 #include "System/Reflection/Assembly.hpp"
-// Including type: UnityEngine.TestTools.TestPlatform
-#include "UnityEngine/TestTools/TestPlatform.hpp"
 // Including type: System.Collections.Generic.IDictionary`2
 #include "System/Collections/Generic/IDictionary_2.hpp"
 // Including type: NUnit.Framework.Internal.TestSuite

@@ -10,6 +10,8 @@
 #include "System/DateTime.hpp"
 // Including type: Mono.Security.Interface.TlsProtocols
 #include "Mono/Security/Interface/TlsProtocols.hpp"
+// Including type: Mono.Security.Interface.CipherSuiteCode
+#include "Mono/Security/Interface/CipherSuiteCode.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -20,8 +22,6 @@ namespace Mono::Security::Interface {
   class MonoRemoteCertificateValidationCallback;
   // Forward declaring type: MonoLocalCertificateSelectionCallback
   class MonoLocalCertificateSelectionCallback;
-  // Forward declaring type: CipherSuiteCode
-  struct CipherSuiteCode;
   // Forward declaring type: ICertificateValidator
   class ICertificateValidator;
 }

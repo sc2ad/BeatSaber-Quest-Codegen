@@ -23,8 +23,6 @@
 #include "GlobalNamespace/SteamVR_Events_Event_2.hpp"
 // Including type: SteamVR_Events/Event`3
 #include "GlobalNamespace/SteamVR_Events_Event_3.hpp"
-// Including type: Valve.VR.TrackedDevicePose_t
-#include "Valve/VR/TrackedDevicePose_t.hpp"
 // Including type: SteamVR_RenderModel
 #include "GlobalNamespace/SteamVR_RenderModel.hpp"
 // Including type: System.Collections.Generic.Dictionary`2

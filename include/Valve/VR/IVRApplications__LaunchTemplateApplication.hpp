@@ -9,6 +9,8 @@
 #include "Valve/VR/IVRApplications.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
+// Including type: Valve.VR.AppOverrideKeys_t
+#include "Valve/VR/AppOverrideKeys_t.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -17,8 +19,6 @@
 namespace Valve::VR {
   // Forward declaring type: EVRApplicationError
   struct EVRApplicationError;
-  // Forward declaring type: AppOverrideKeys_t
-  struct AppOverrideKeys_t;
 }
 // Forward declaring namespace: System
 namespace System {

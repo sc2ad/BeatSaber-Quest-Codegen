@@ -5,8 +5,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Collections.Hashtable
 #include "System/Collections/Hashtable.hpp"
-// Including type: System.Collections.Hashtable/bucket
-#include "System/Collections/Hashtable_bucket.hpp"
+// Including type: System.Collections.ICollection
+#include "System/Collections/ICollection.hpp"
 // Including type: System.Collections.Hashtable/KeyCollection
 #include "System/Collections/Hashtable_KeyCollection.hpp"
 // Including type: System.Collections.Hashtable/ValueCollection
@@ -17,8 +17,6 @@
 #include "System/Collections/Hashtable_HashtableEnumerator.hpp"
 // Including type: System.Collections.Hashtable/HashtableDebugView
 #include "System/Collections/Hashtable_HashtableDebugView.hpp"
-// Including type: System.Collections.ICollection
-#include "System/Collections/ICollection.hpp"
 // Including type: System.Collections.IEqualityComparer
 #include "System/Collections/IEqualityComparer.hpp"
 // Including type: System.String

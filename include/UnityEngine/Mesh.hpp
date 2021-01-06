@@ -7,16 +7,20 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Object
 #include "UnityEngine/Object.hpp"
+// Including type: UnityEngine.BoneWeight
+#include "UnityEngine/BoneWeight.hpp"
+// Including type: UnityEngine.Matrix4x4
+#include "UnityEngine/Matrix4x4.hpp"
 // Including type: UnityEngine.Rendering.VertexAttribute
 #include "UnityEngine/Rendering/VertexAttribute.hpp"
 // Including type: UnityEngine.Rendering.VertexAttributeFormat
 #include "UnityEngine/Rendering/VertexAttributeFormat.hpp"
-// Including type: UnityEngine.Vector4
-#include "UnityEngine/Vector4.hpp"
-// Including type: UnityEngine.Color32
-#include "UnityEngine/Color32.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
+// Including type: UnityEngine.Color
+#include "UnityEngine/Color.hpp"
+// Including type: UnityEngine.Color32
+#include "UnityEngine/Color32.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -30,14 +34,8 @@ namespace UnityEngine::Rendering {
 namespace UnityEngine {
   // Forward declaring type: MeshTopology
   struct MeshTopology;
-  // Forward declaring type: BoneWeight
-  struct BoneWeight;
-  // Forward declaring type: Matrix4x4
-  struct Matrix4x4;
   // Forward declaring type: Bounds
   struct Bounds;
-  // Forward declaring type: Color
-  struct Color;
 }
 // Forward declaring namespace: System
 namespace System {

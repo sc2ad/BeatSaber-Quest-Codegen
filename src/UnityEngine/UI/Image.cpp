@@ -5,8 +5,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.Image
 #include "UnityEngine/UI/Image.hpp"
-// Including type: UnityEngine.Vector2
-#include "UnityEngine/Vector2.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
 // Including type: UnityEngine.Material
 #include "UnityEngine/Material.hpp"
 // Including type: UnityEngine.UI.Image/OriginHorizontal
@@ -21,10 +21,6 @@
 #include "UnityEngine/UI/Image_Origin360.hpp"
 // Including type: UnityEngine.Sprite
 #include "UnityEngine/Sprite.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
-// Including type: System.Collections.Generic.List`1
-#include "System/Collections/Generic/List_1.hpp"
 // Including type: UnityEngine.Rect
 #include "UnityEngine/Rect.hpp"
 // Including type: UnityEngine.Vector4

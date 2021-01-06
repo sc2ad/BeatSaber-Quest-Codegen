@@ -7,8 +7,6 @@
 #include "Valve/VR/IVRScreenshots__HookScreenshot.hpp"
 // Including type: Valve.VR.EVRScreenshotError
 #include "Valve/VR/EVRScreenshotError.hpp"
-// Including type: Valve.VR.EVRScreenshotType
-#include "Valve/VR/EVRScreenshotType.hpp"
 // Including type: System.IAsyncResult
 #include "System/IAsyncResult.hpp"
 // Including type: System.AsyncCallback

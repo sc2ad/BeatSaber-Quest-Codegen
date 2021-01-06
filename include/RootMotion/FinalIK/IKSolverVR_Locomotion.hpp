@@ -13,6 +13,8 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.LayerMask
 #include "UnityEngine/LayerMask.hpp"
+// Including type: UnityEngine.Quaternion
+#include "UnityEngine/Quaternion.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -21,8 +23,6 @@
 namespace UnityEngine {
   // Forward declaring type: AnimationCurve
   class AnimationCurve;
-  // Forward declaring type: Quaternion
-  struct Quaternion;
 }
 // Forward declaring namespace: UnityEngine::Events
 namespace UnityEngine::Events {

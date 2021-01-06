@@ -7,16 +7,14 @@
 #include "HMUI/SectionTableView.hpp"
 // Including type: HMUI.SectionTableView/IDataSource
 #include "HMUI/SectionTableView_IDataSource.hpp"
-// Including type: HMUI.SectionTableView/Section
-#include "HMUI/SectionTableView_Section.hpp"
+// Including type: HMUI.TableCell
+#include "HMUI/TableCell.hpp"
 // Including type: System.Action`3
 #include "System/Action_3.hpp"
 // Including type: HMUI.TableViewScroller/ScrollPositionType
 #include "HMUI/TableViewScroller_ScrollPositionType.hpp"
 // Including type: System.Action`2
 #include "System/Action_2.hpp"
-// Including type: HMUI.TableCell
-#include "HMUI/TableCell.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

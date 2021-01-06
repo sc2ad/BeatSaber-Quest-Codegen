@@ -7,8 +7,6 @@
 #include "RootMotion/FinalIK/InteractionTrigger_Range_Interaction.hpp"
 // Including type: RootMotion.FinalIK.InteractionObject
 #include "RootMotion/FinalIK/InteractionObject.hpp"
-// Including type: RootMotion.FinalIK.FullBodyBipedEffector
-#include "RootMotion/FinalIK/FullBodyBipedEffector.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

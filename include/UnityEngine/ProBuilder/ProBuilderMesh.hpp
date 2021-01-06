@@ -7,8 +7,14 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
+// Including type: UnityEngine.Vector2
+#include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.Vector4
 #include "UnityEngine/Vector4.hpp"
+// Including type: UnityEngine.Color
+#include "UnityEngine/Color.hpp"
+// Including type: UnityEngine.ProBuilder.Edge
+#include "UnityEngine/ProBuilder/Edge.hpp"
 // Including type: UnityEngine.HideFlags
 #include "UnityEngine/HideFlags.hpp"
 // Including type: System.Int32
@@ -17,12 +23,6 @@
 #include "System/UInt32.hpp"
 // Including type: System.Collections.Generic.KeyValuePair`2
 #include "System/Collections/Generic/KeyValuePair_2.hpp"
-// Including type: UnityEngine.Color
-#include "UnityEngine/Color.hpp"
-// Including type: UnityEngine.Vector2
-#include "UnityEngine/Vector2.hpp"
-// Including type: UnityEngine.ProBuilder.Edge
-#include "UnityEngine/ProBuilder/Edge.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -51,24 +51,18 @@ namespace UnityEngine::ProBuilder {
   class Face;
   // Forward declaring type: SharedVertex
   class SharedVertex;
-  // Forward declaring type: Vertex
-  class Vertex;
-  // Forward declaring type: MeshSyncState
-  struct MeshSyncState;
   // Forward declaring type: UnwrapParameters
   class UnwrapParameters;
   // Forward declaring type: MeshArrays
   struct MeshArrays;
+  // Forward declaring type: Vertex
+  class Vertex;
+  // Forward declaring type: MeshSyncState
+  struct MeshSyncState;
   // Forward declaring type: RefreshMask
   struct RefreshMask;
   // Forward declaring type: AutoUnwrapSettings
   struct AutoUnwrapSettings;
-}
-// Forward declaring namespace: System::Collections::ObjectModel
-namespace System::Collections::ObjectModel {
-  // Forward declaring type: ReadOnlyCollection`1<T>
-  template<typename T>
-  class ReadOnlyCollection_1;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
@@ -88,6 +82,12 @@ namespace System {
   // Forward declaring type: Action`1<T>
   template<typename T>
   class Action_1;
+}
+// Forward declaring namespace: System::Collections::ObjectModel
+namespace System::Collections::ObjectModel {
+  // Forward declaring type: ReadOnlyCollection`1<T>
+  template<typename T>
+  class ReadOnlyCollection_1;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder

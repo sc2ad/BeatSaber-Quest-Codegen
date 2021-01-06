@@ -26,7 +26,6 @@ namespace UnityEngine::UI {
 namespace UnityEngine {
   // Forward declaring type: Material
   class Material;
-  // Skipping declaration: Vector3 because it is already included!
   // Forward declaring type: Rect
   struct Rect;
   // Forward declaring type: GameObject

@@ -9,14 +9,14 @@
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: CameraRenderCallbacksManager/ICameraRenderCallbacks
 #include "GlobalNamespace/CameraRenderCallbacksManager_ICameraRenderCallbacks.hpp"
+// Including type: UnityEngine.Vector4
+#include "UnityEngine/Vector4.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: Vector4
-  struct Vector4;
   // Forward declaring type: Camera
   class Camera;
 }

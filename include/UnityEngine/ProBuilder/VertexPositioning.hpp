@@ -5,6 +5,8 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: UnityEngine.Vector3
+#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.ProBuilder.Edge
 #include "UnityEngine/ProBuilder/Edge.hpp"
 // Completed includes
@@ -17,11 +19,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
   template<typename T>
   class IEnumerable_1;
-}
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: Vector3
-  struct Vector3;
 }
 // Forward declaring namespace: UnityEngine::ProBuilder
 namespace UnityEngine::ProBuilder {

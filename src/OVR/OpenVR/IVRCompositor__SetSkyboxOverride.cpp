@@ -7,8 +7,6 @@
 #include "OVR/OpenVR/IVRCompositor__SetSkyboxOverride.hpp"
 // Including type: OVR.OpenVR.EVRCompositorError
 #include "OVR/OpenVR/EVRCompositorError.hpp"
-// Including type: OVR.OpenVR.Texture_t
-#include "OVR/OpenVR/Texture_t.hpp"
 // Including type: System.IAsyncResult
 #include "System/IAsyncResult.hpp"
 // Including type: System.AsyncCallback

@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: StretchableCube
 #include "GlobalNamespace/StretchableCube.hpp"
-// Including type: UnityEngine.Vector2
-#include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.Mesh
 #include "UnityEngine/Mesh.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

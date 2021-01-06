@@ -7,12 +7,10 @@
 #include "GlobalNamespace/OVROverlay.hpp"
 // Including type: UnityEngine.Texture
 #include "UnityEngine/Texture.hpp"
-// Including type: UnityEngine.Renderer
-#include "UnityEngine/Renderer.hpp"
 // Including type: OVROverlay/ExternalSurfaceObjectCreated
 #include "GlobalNamespace/OVROverlay_ExternalSurfaceObjectCreated.hpp"
-// Including type: OVROverlay/LayerTexture
-#include "GlobalNamespace/OVROverlay_LayerTexture.hpp"
+// Including type: UnityEngine.Renderer
+#include "UnityEngine/Renderer.hpp"
 // Including type: UnityEngine.Material
 #include "UnityEngine/Material.hpp"
 // Including type: UnityEngine.XR.XRNode

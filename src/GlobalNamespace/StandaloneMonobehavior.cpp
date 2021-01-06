@@ -9,8 +9,6 @@
 #include "GlobalNamespace/StandaloneMonobehavior_-AfterOneFrame-d__16.hpp"
 // Including type: StandaloneMonobehavior/<RunAsyncCoroutine>d__19
 #include "GlobalNamespace/StandaloneMonobehavior_-RunAsyncCoroutine-d__19.hpp"
-// Including type: UnityEngine.FrameTiming
-#include "UnityEngine/FrameTiming.hpp"
 // Including type: System.Action
 #include "System/Action.hpp"
 // Including type: System.Collections.IEnumerator

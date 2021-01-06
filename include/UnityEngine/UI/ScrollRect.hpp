@@ -44,7 +44,6 @@ namespace UnityEngine::UI {
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Skipping declaration: Vector3 because it is already included!
   // Forward declaring type: RectTransform
   class RectTransform;
   // Forward declaring type: Matrix4x4

@@ -5,6 +5,8 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: SFB.ExtensionFilter
+#include "SFB/ExtensionFilter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -13,8 +15,6 @@
 namespace SFB {
   // Forward declaring type: IStandaloneFileBrowser
   class IStandaloneFileBrowser;
-  // Forward declaring type: ExtensionFilter
-  struct ExtensionFilter;
 }
 // Forward declaring namespace: System
 namespace System {

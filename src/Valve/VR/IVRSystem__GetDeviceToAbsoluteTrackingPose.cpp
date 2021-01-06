@@ -7,8 +7,6 @@
 #include "Valve/VR/IVRSystem__GetDeviceToAbsoluteTrackingPose.hpp"
 // Including type: Valve.VR.ETrackingUniverseOrigin
 #include "Valve/VR/ETrackingUniverseOrigin.hpp"
-// Including type: Valve.VR.TrackedDevicePose_t
-#include "Valve/VR/TrackedDevicePose_t.hpp"
 // Including type: System.IAsyncResult
 #include "System/IAsyncResult.hpp"
 // Including type: System.AsyncCallback

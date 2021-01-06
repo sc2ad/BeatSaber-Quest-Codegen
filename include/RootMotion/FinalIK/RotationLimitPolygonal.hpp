@@ -16,7 +16,6 @@ namespace RootMotion::FinalIK {
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Skipping declaration: Vector3 because it is already included!
   // Skipping declaration: Quaternion because it is already included!
 }
 // Completed forward declares

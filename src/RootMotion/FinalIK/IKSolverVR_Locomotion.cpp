@@ -9,8 +9,6 @@
 #include "UnityEngine/AnimationCurve.hpp"
 // Including type: UnityEngine.Events.UnityEvent
 #include "UnityEngine/Events/UnityEvent.hpp"
-// Including type: UnityEngine.Quaternion
-#include "UnityEngine/Quaternion.hpp"
 // Including type: RootMotion.FinalIK.IKSolverVR/Footstep
 #include "RootMotion/FinalIK/IKSolverVR_Footstep.hpp"
 // Including type: RootMotion.FinalIK.IKSolverVR/VirtualBone

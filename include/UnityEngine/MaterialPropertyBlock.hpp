@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+// Including type: UnityEngine.Vector4
+#include "UnityEngine/Vector4.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -15,8 +17,6 @@
 namespace UnityEngine {
   // Forward declaring type: Color
   struct Color;
-  // Forward declaring type: Vector4
-  struct Vector4;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {

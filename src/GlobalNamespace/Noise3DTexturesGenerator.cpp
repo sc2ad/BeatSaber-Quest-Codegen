@@ -5,14 +5,10 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Noise3DTexturesGenerator
 #include "GlobalNamespace/Noise3DTexturesGenerator.hpp"
-// Including type: Noise3DTexturesGenerator/MaterialTextureParamsCouple
-#include "GlobalNamespace/Noise3DTexturesGenerator_MaterialTextureParamsCouple.hpp"
-// Including type: Noise3DTexturesGenerator/MaterialPropertyNameCouple
-#include "GlobalNamespace/Noise3DTexturesGenerator_MaterialPropertyNameCouple.hpp"
 // Including type: UnityEngine.Texture3D
 #include "UnityEngine/Texture3D.hpp"
-// Including type: UnityEngine.Color32
-#include "UnityEngine/Color32.hpp"
+// Including type: UnityEngine.Material
+#include "UnityEngine/Material.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

@@ -4,7 +4,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Xml.XmlEventCache/XmlEvent
-#include "System/Xml/XmlEventCache_XmlEvent.hpp"
+#include "System/Xml/XmlEventCache.hpp"
+// Including type: System.Xml.XmlEventCache/XmlEventType
+// Already included the same include: System/Xml/XmlEventCache.hpp
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

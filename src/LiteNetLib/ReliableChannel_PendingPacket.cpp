@@ -4,7 +4,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LiteNetLib.ReliableChannel/PendingPacket
-#include "LiteNetLib/ReliableChannel_PendingPacket.hpp"
+#include "LiteNetLib/ReliableChannel.hpp"
 // Including type: LiteNetLib.NetPacket
 #include "LiteNetLib/NetPacket.hpp"
 // Including type: LiteNetLib.NetPeer

@@ -7,8 +7,6 @@
 #include "UnityEngine/UI/ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback.hpp"
 // Including type: UnityEngine.Ray
 #include "UnityEngine/Ray.hpp"
-// Including type: UnityEngine.RaycastHit2D
-#include "UnityEngine/RaycastHit2D.hpp"
 // Including type: System.IAsyncResult
 #include "System/IAsyncResult.hpp"
 // Including type: System.AsyncCallback

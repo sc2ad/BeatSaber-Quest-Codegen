@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.RectangularVertexClipper
 #include "UnityEngine/UI/RectangularVertexClipper.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Rect
 #include "UnityEngine/Rect.hpp"
 // Including type: UnityEngine.RectTransform

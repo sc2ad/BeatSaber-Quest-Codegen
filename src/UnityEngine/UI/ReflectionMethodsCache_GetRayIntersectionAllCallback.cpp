@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.ReflectionMethodsCache/GetRayIntersectionAllCallback
 #include "UnityEngine/UI/ReflectionMethodsCache_GetRayIntersectionAllCallback.hpp"
-// Including type: UnityEngine.RaycastHit2D
-#include "UnityEngine/RaycastHit2D.hpp"
 // Including type: UnityEngine.Ray
 #include "UnityEngine/Ray.hpp"
 // Including type: System.IAsyncResult

@@ -7,8 +7,6 @@
 #include "Valve/VR/CVRChaperoneSetup.hpp"
 // Including type: Valve.VR.EChaperoneConfigFile
 #include "Valve/VR/EChaperoneConfigFile.hpp"
-// Including type: Valve.VR.HmdQuad_t
-#include "Valve/VR/HmdQuad_t.hpp"
 // Including type: Valve.VR.HmdMatrix34_t
 #include "Valve/VR/HmdMatrix34_t.hpp"
 // Including type: System.Text.StringBuilder

@@ -7,6 +7,10 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
+// Including type: UnityEngine.Vector3
+#include "UnityEngine/Vector3.hpp"
+// Including type: UnityEngine.ProBuilder.Edge
+#include "UnityEngine/ProBuilder/Edge.hpp"
 // Including type: UnityEngine.Vector4
 #include "UnityEngine/Vector4.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
@@ -24,15 +28,8 @@ namespace System::Collections::Generic {
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: Vector3
-  struct Vector3;
   // Forward declaring type: Rect
   struct Rect;
-}
-// Forward declaring namespace: UnityEngine::ProBuilder
-namespace UnityEngine::ProBuilder {
-  // Forward declaring type: Edge
-  struct Edge;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder

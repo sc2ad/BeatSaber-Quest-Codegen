@@ -29,11 +29,6 @@ namespace System::Collections::Generic {
   template<typename T>
   class List_1;
 }
-// Forward declaring namespace: Valve::VR
-namespace Valve::VR {
-  // Forward declaring type: TrackedDevicePose_t
-  struct TrackedDevicePose_t;
-}
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {

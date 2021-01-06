@@ -7,8 +7,6 @@
 #include "System/Net/NetworkInformation/NetworkInterfaceFactory_Win32NetworkInterfaceAPI.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-// Including type: System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES
-#include "System/Net/NetworkInformation/Win32_IP_ADAPTER_ADDRESSES.hpp"
 // Including type: System.Net.NetworkInformation.NetworkInterface
 #include "System/Net/NetworkInformation/NetworkInterface.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

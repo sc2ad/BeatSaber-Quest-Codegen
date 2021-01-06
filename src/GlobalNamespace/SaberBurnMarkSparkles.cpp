@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SaberBurnMarkSparkles
 #include "GlobalNamespace/SaberBurnMarkSparkles.hpp"
-// Including type: UnityEngine.ParticleSystem/EmissionModule
-#include "UnityEngine/ParticleSystem_EmissionModule.hpp"
 // Including type: UnityEngine.BoxCollider
 #include "UnityEngine/BoxCollider.hpp"
 // Including type: ColorManager

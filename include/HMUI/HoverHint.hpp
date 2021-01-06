@@ -22,7 +22,6 @@ namespace HMUI {
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Skipping declaration: Vector3 because it is already included!
   // Forward declaring type: Vector2
   struct Vector2;
 }

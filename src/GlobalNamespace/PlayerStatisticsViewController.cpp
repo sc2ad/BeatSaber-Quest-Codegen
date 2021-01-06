@@ -5,16 +5,16 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: PlayerStatisticsViewController
 #include "GlobalNamespace/PlayerStatisticsViewController.hpp"
-// Including type: PlayerStatisticsViewController/StatsScopeData
-#include "GlobalNamespace/PlayerStatisticsViewController_StatsScopeData.hpp"
+// Including type: HMUI.SegmentedControl
+#include "HMUI/SegmentedControl.hpp"
 // Including type: HMUI.TextSegmentedControl
 #include "HMUI/TextSegmentedControl.hpp"
 // Including type: TMPro.TextMeshProUGUI
 #include "TMPro/TextMeshProUGUI.hpp"
 // Including type: PlayerDataModel
 #include "GlobalNamespace/PlayerDataModel.hpp"
-// Including type: HMUI.SegmentedControl
-#include "HMUI/SegmentedControl.hpp"
+// Including type: System.Func`1
+#include "System/Func_1.hpp"
 // Including type: PlayerAllOverallStatsData/PlayerOverallStatsData
 #include "GlobalNamespace/PlayerAllOverallStatsData_PlayerOverallStatsData.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

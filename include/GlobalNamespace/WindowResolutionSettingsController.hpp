@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: ListSettingsController
 #include "GlobalNamespace/ListSettingsController.hpp"
+// Including type: UnityEngine.Vector2Int
+#include "UnityEngine/Vector2Int.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -15,11 +17,6 @@
 namespace GlobalNamespace {
   // Forward declaring type: Vector2IntSO
   class Vector2IntSO;
-}
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: Vector2Int
-  struct Vector2Int;
 }
 // Completed forward declares
 // Type namespace: 

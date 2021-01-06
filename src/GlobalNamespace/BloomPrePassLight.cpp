@@ -15,10 +15,6 @@
 #include "System/Collections/Generic/HashSet_1.hpp"
 // Including type: System.Collections.Generic.List`1
 #include "System/Collections/Generic/List_1.hpp"
-// Including type: UnityEngine.Color
-#include "UnityEngine/Color.hpp"
-// Including type: UnityEngine.Vector4
-#include "UnityEngine/Vector4.hpp"
 // Including type: UnityEngine.Matrix4x4
 #include "UnityEngine/Matrix4x4.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

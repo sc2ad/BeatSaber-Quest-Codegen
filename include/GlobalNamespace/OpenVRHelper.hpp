@@ -9,6 +9,8 @@
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: IVRPlatformHelper
 #include "GlobalNamespace/IVRPlatformHelper.hpp"
+// Including type: Valve.VR.TrackedDevicePose_t
+#include "Valve/VR/TrackedDevicePose_t.hpp"
 // Including type: UnityEngine.XR.XRNodeState
 #include "UnityEngine/XR/XRNodeState.hpp"
 // Including type: System.Int32
@@ -34,11 +36,6 @@ namespace System {
   // Forward declaring type: Action`1<T>
   template<typename T>
   class Action_1;
-}
-// Forward declaring namespace: Valve::VR
-namespace Valve::VR {
-  // Forward declaring type: TrackedDevicePose_t
-  struct TrackedDevicePose_t;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {

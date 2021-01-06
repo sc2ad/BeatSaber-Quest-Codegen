@@ -11,8 +11,6 @@
 #include "System/Security/Cryptography/X509Certificates/X509ChainElementCollection.hpp"
 // Including type: System.Security.Cryptography.X509Certificates.X509ChainPolicy
 #include "System/Security/Cryptography/X509Certificates/X509ChainPolicy.hpp"
-// Including type: System.Security.Cryptography.X509Certificates.X509ChainStatus
-#include "System/Security/Cryptography/X509Certificates/X509ChainStatus.hpp"
 // Including type: System.Security.Cryptography.X509Certificates.X509Certificate2
 #include "System/Security/Cryptography/X509Certificates/X509Certificate2.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

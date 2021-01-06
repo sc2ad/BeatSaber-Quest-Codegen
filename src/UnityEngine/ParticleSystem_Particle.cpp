@@ -3,7 +3,7 @@
 // =========================================================================
 // Begin includes
 // Including type: UnityEngine.ParticleSystem/Particle
-#include "UnityEngine/ParticleSystem_Particle.hpp"
+#include "UnityEngine/ParticleSystem.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

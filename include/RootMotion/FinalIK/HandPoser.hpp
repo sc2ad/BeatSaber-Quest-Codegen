@@ -15,8 +15,6 @@
 namespace UnityEngine {
   // Forward declaring type: Transform
   class Transform;
-  // Skipping declaration: Vector3 because it is already included!
-  // Skipping declaration: Quaternion because it is already included!
 }
 // Completed forward declares
 // Type namespace: RootMotion.FinalIK

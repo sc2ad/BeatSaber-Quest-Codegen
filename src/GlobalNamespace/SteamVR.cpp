@@ -11,16 +11,10 @@
 #include "Valve/VR/CVRCompositor.hpp"
 // Including type: Valve.VR.CVROverlay
 #include "Valve/VR/CVROverlay.hpp"
-// Including type: Valve.VR.VRTextureBounds_t
-#include "Valve/VR/VRTextureBounds_t.hpp"
-// Including type: SteamVR_Utils/RigidTransform
-#include "GlobalNamespace/SteamVR_Utils_RigidTransform.hpp"
 // Including type: Valve.VR.EVRInitError
 #include "Valve/VR/EVRInitError.hpp"
 // Including type: Valve.VR.ETrackedDeviceProperty
 #include "Valve/VR/ETrackedDeviceProperty.hpp"
-// Including type: Valve.VR.TrackedDevicePose_t
-#include "Valve/VR/TrackedDevicePose_t.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

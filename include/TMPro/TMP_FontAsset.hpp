@@ -17,6 +17,8 @@
 #include "UnityEngine/TextCore/LowLevel/GlyphRenderMode.hpp"
 // Including type: TMPro.FontAssetCreationSettings
 #include "TMPro/FontAssetCreationSettings.hpp"
+// Including type: TMPro.TMP_FontWeightPair
+#include "TMPro/TMP_FontWeightPair.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -33,8 +35,6 @@ namespace TMPro {
   class KerningTable;
   // Forward declaring type: TMP_FontFeatureTable
   class TMP_FontFeatureTable;
-  // Forward declaring type: TMP_FontWeightPair
-  struct TMP_FontWeightPair;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {

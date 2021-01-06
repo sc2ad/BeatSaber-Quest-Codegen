@@ -4,6 +4,8 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: UnityEngine.ProBuilder.KdTree.ItemPriority`2
+#include "UnityEngine/ProBuilder/KdTree/ItemPriority_2.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -13,9 +15,6 @@ namespace UnityEngine::ProBuilder::KdTree {
   // Forward declaring type: ITypeMath`1<T>
   template<typename T>
   class ITypeMath_1;
-  // Forward declaring type: ItemPriority`2<TItem, TPriority>
-  template<typename TItem, typename TPriority>
-  struct ItemPriority_2;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder.KdTree

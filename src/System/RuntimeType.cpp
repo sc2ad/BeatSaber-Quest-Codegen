@@ -59,8 +59,6 @@
 #include "System/Reflection/RuntimeFieldInfo.hpp"
 // Including type: System.Reflection.RuntimeEventInfo
 #include "System/Reflection/RuntimeEventInfo.hpp"
-// Including type: System.Reflection.ParameterModifier
-#include "System/Reflection/ParameterModifier.hpp"
 // Including type: System.Reflection.MemberTypes
 #include "System/Reflection/MemberTypes.hpp"
 // Including type: System.Reflection.Module

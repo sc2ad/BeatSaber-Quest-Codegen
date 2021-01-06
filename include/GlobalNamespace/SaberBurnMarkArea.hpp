@@ -23,7 +23,6 @@ namespace UnityEngine {
   class Shader;
   // Forward declaring type: Renderer
   class Renderer;
-  // Skipping declaration: Vector3 because it is already included!
   // Forward declaring type: Camera
   class Camera;
   // Forward declaring type: RenderTexture

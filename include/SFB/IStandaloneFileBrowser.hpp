@@ -4,13 +4,10 @@
 #pragma once
 #pragma pack(push, 1)
 // Begin includes
+// Including type: SFB.ExtensionFilter
+#include "SFB/ExtensionFilter.hpp"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: SFB
-namespace SFB {
-  // Forward declaring type: ExtensionFilter
-  struct ExtensionFilter;
-}
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>

@@ -5,10 +5,9 @@
 #pragma pack(push, 1)
 // WARNING Layout: Sequential may not be correctly taken into account!
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ParticleSystem
 #include "UnityEngine/ParticleSystem.hpp"
-// Including type: System.ValueType
-#include "System/ValueType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

@@ -4,7 +4,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Net.CookieTokenizer/RecognizedAttribute
-#include "System/Net/CookieTokenizer_RecognizedAttribute.hpp"
+#include "System/Net/CookieTokenizer.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

@@ -8,6 +8,10 @@
 #include <initializer_list>
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
+// Including type: UnityEngine.Vector4
+#include "UnityEngine/Vector4.hpp"
+// Including type: UnityEngine.Color
+#include "UnityEngine/Color.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -19,10 +23,6 @@ namespace GlobalNamespace {
 namespace UnityEngine {
   // Forward declaring type: Renderer
   class Renderer;
-  // Forward declaring type: Vector4
-  struct Vector4;
-  // Forward declaring type: Color
-  struct Color;
   // Forward declaring type: MaterialPropertyBlock
   class MaterialPropertyBlock;
 }

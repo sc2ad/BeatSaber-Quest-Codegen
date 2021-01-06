@@ -10,6 +10,8 @@
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+// Including type: OVRPlugin/Vector3f
+// Already included the same include: GlobalNamespace/OVRPlugin.hpp
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

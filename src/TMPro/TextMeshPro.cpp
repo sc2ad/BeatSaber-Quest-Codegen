@@ -11,8 +11,6 @@
 #include "UnityEngine/MeshFilter.hpp"
 // Including type: TMPro.TMP_SubMesh
 #include "TMPro/TMP_SubMesh.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Vector4
 #include "UnityEngine/Vector4.hpp"
 // Including type: TMPro.TextContainer
@@ -33,8 +31,6 @@
 #include "TMPro/TMP_TextInfo.hpp"
 // Including type: TMPro.TMP_VertexDataUpdateFlags
 #include "TMPro/TMP_VertexDataUpdateFlags.hpp"
-// Including type: TMPro.TMP_Text/UnicodeChar
-#include "TMPro/TMP_Text_UnicodeChar.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

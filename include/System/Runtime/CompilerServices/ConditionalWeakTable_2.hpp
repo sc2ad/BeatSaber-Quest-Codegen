@@ -4,6 +4,8 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: System.Runtime.CompilerServices.Ephemeron
+#include "System/Runtime/CompilerServices/Ephemeron.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Including type: System.Single
@@ -17,8 +19,6 @@
 // Forward declaring namespace: System::Runtime::CompilerServices
 namespace System::Runtime::CompilerServices {
   // Skipping declaration: CreateValueCallback because it is already included!
-  // Forward declaring type: Ephemeron
-  struct Ephemeron;
 }
 // Forward declaring namespace: System
 namespace System {

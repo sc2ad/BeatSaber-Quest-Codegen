@@ -10,18 +10,16 @@
 #include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.Runtime.InteropServices._Exception
 #include "System/Runtime/InteropServices/_Exception.hpp"
+// Including type: System.IntPtr
+#include "System/IntPtr.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
-// Including type: System.Runtime.Serialization.StreamingContext
-#include "System/Runtime/Serialization/StreamingContext.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: IntPtr
-  struct IntPtr;
   // Forward declaring type: Type
   class Type;
 }

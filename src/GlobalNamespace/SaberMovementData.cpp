@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: SaberMovementData
 #include "GlobalNamespace/SaberMovementData.hpp"
-// Including type: BladeMovementDataElement
-#include "GlobalNamespace/BladeMovementDataElement.hpp"
 // Including type: System.Collections.Generic.List`1
 #include "System/Collections/Generic/List_1.hpp"
 // Including type: ISaberMovementDataProcessor

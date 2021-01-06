@@ -66,8 +66,6 @@ namespace System::Reflection {
   class RuntimeFieldInfo;
   // Forward declaring type: RuntimeEventInfo
   class RuntimeEventInfo;
-  // Forward declaring type: ParameterModifier
-  struct ParameterModifier;
   // Forward declaring type: MemberTypes
   struct MemberTypes;
   // Forward declaring type: Module

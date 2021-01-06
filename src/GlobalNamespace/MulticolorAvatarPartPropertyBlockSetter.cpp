@@ -11,10 +11,6 @@
 #include "GlobalNamespace/MulticolorAvatarPartPropertyBlockSetter_--c.hpp"
 // Including type: UnityEngine.Renderer
 #include "UnityEngine/Renderer.hpp"
-// Including type: UnityEngine.Vector4
-#include "UnityEngine/Vector4.hpp"
-// Including type: UnityEngine.Color
-#include "UnityEngine/Color.hpp"
 // Including type: UnityEngine.MaterialPropertyBlock
 #include "UnityEngine/MaterialPropertyBlock.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

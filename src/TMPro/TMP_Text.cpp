@@ -5,22 +5,20 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.TMP_Text
 #include "TMPro/TMP_Text.hpp"
-// Including type: TMPro.RichTextTagAttribute
-#include "TMPro/RichTextTagAttribute.hpp"
-// Including type: TMPro.TMP_Text/UnicodeChar
-#include "TMPro/TMP_Text_UnicodeChar.hpp"
+// Including type: TMPro.TMP_Character
+#include "TMPro/TMP_Character.hpp"
+// Including type: TMPro.TMP_TextElement
+#include "TMPro/TMP_TextElement.hpp"
 // Including type: TMPro.TMP_FontAsset
 #include "TMPro/TMP_FontAsset.hpp"
 // Including type: UnityEngine.Material
 #include "UnityEngine/Material.hpp"
-// Including type: TMPro.TMP_ColorGradient
-#include "TMPro/TMP_ColorGradient.hpp"
 // Including type: System.Collections.Generic.Dictionary`2
 #include "System/Collections/Generic/Dictionary_2.hpp"
+// Including type: TMPro.TMP_ColorGradient
+#include "TMPro/TMP_ColorGradient.hpp"
 // Including type: TMPro.TMP_SpriteAsset
 #include "TMPro/TMP_SpriteAsset.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
 // Including type: TMPro.TMP_TextInfo
 #include "TMPro/TMP_TextInfo.hpp"
 // Including type: UnityEngine.Transform
@@ -33,12 +31,6 @@
 #include "TMPro/TMP_SpriteAnimator.hpp"
 // Including type: UnityEngine.UI.LayoutElement
 #include "UnityEngine/UI/LayoutElement.hpp"
-// Including type: TMPro.TMP_CharacterInfo
-#include "TMPro/TMP_CharacterInfo.hpp"
-// Including type: TMPro.TMP_TextElement
-#include "TMPro/TMP_TextElement.hpp"
-// Including type: TMPro.TMP_Character
-#include "TMPro/TMP_Character.hpp"
 // Including type: UnityEngine.Bounds
 #include "UnityEngine/Bounds.hpp"
 // Including type: TMPro.TMP_VertexDataUpdateFlags

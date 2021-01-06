@@ -10,6 +10,8 @@
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+// Including type: OVRPlugin/AppPerfFrameStats
+#include "GlobalNamespace/OVRPlugin_AppPerfFrameStats.hpp"
 // Including type: OVRPlugin/Bool
 #include "GlobalNamespace/OVRPlugin_Bool.hpp"
 // Completed includes

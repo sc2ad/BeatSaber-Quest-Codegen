@@ -19,12 +19,16 @@
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: UnityEngine
+namespace UnityEngine {
+  // Skipping declaration: ParticleSystem because it is already included!
+}
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: BeatmapEventData
-  class BeatmapEventData;
   // Forward declaring type: BeatmapObjectCallbackController
   class BeatmapObjectCallbackController;
+  // Forward declaring type: BeatmapEventData
+  class BeatmapEventData;
 }
 // Completed forward declares
 // Type namespace: 

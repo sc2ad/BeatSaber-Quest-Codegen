@@ -5,6 +5,8 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: UnityEngine.Vector3
+#include "UnityEngine/Vector3.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -22,8 +24,6 @@ namespace UnityEngine {
   class Transform;
   // Forward declaring type: Color
   struct Color;
-  // Forward declaring type: Vector3
-  struct Vector3;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
@@ -33,8 +33,7 @@ namespace System::Collections::Generic {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: IConvertible
-  class IConvertible;
+  // Skipping declaration: IConvertible because it is already included!
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder

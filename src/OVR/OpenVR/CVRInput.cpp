@@ -7,8 +7,6 @@
 #include "OVR/OpenVR/CVRInput.hpp"
 // Including type: OVR.OpenVR.EVRInputError
 #include "OVR/OpenVR/EVRInputError.hpp"
-// Including type: OVR.OpenVR.VRActiveActionSet_t
-#include "OVR/OpenVR/VRActiveActionSet_t.hpp"
 // Including type: OVR.OpenVR.InputDigitalActionData_t
 #include "OVR/OpenVR/InputDigitalActionData_t.hpp"
 // Including type: OVR.OpenVR.InputAnalogActionData_t
@@ -23,8 +21,6 @@
 #include "OVR/OpenVR/EVRSkeletalTransformSpace.hpp"
 // Including type: OVR.OpenVR.EVRSkeletalMotionRange
 #include "OVR/OpenVR/EVRSkeletalMotionRange.hpp"
-// Including type: OVR.OpenVR.VRBoneTransform_t
-#include "OVR/OpenVR/VRBoneTransform_t.hpp"
 // Including type: System.Text.StringBuilder
 #include "System/Text/StringBuilder.hpp"
 // Including type: OVR.OpenVR.InputOriginInfo_t

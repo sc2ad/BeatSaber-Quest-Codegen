@@ -5,8 +5,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.CAPI
 #include "Oculus/Platform/CAPI.hpp"
-// Including type: Oculus.Platform.CAPI/ovrKeyValuePair
-#include "Oculus/Platform/CAPI_ovrKeyValuePair.hpp"
+// Including type: System.Collections.Generic.Dictionary`2
+#include "System/Collections/Generic/Dictionary_2.hpp"
 // Including type: Oculus.Platform.CAPI/ovrNetSyncVec3
 #include "Oculus/Platform/CAPI_ovrNetSyncVec3.hpp"
 // Including type: Oculus.Platform.CAPI/ovrMatchmakingCriterion
@@ -21,18 +21,16 @@
 #include "System/String.hpp"
 // Including type: System.Text.UTF8Encoding
 #include "System/Text/UTF8Encoding.hpp"
+// Including type: Oculus.Platform.SendPolicy
+#include "Oculus/Platform/SendPolicy.hpp"
 // Including type: System.Array
 #include "System/Array.hpp"
-// Including type: System.Collections.Generic.Dictionary`2
-#include "System/Collections/Generic/Dictionary_2.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
 // Including type: Oculus.Platform.VoipMuteState
 #include "Oculus/Platform/VoipMuteState.hpp"
 // Including type: System.UIntPtr
 #include "System/UIntPtr.hpp"
-// Including type: Oculus.Platform.SendPolicy
-#include "Oculus/Platform/SendPolicy.hpp"
 // Including type: Oculus.Platform.SystemVoipStatus
 #include "Oculus/Platform/SystemVoipStatus.hpp"
 // Including type: Oculus.Platform.VoipDtxState

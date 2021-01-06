@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
+// Including type: System.Threading.CancellationTokenRegistration
+#include "System/Threading/CancellationTokenRegistration.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
@@ -22,8 +24,6 @@ namespace System::Threading {
   class SparselyPopulatedArray_1;
   // Forward declaring type: CancellationCallbackInfo
   class CancellationCallbackInfo;
-  // Forward declaring type: CancellationTokenRegistration
-  struct CancellationTokenRegistration;
   // Forward declaring type: Timer
   class Timer;
   // Forward declaring type: TimerCallback

@@ -5,14 +5,9 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: UnityEngine.Resolution
+#include "UnityEngine/Resolution.hpp"
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: Resolution
-  struct Resolution;
-}
-// Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x0

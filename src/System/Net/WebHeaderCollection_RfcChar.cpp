@@ -3,7 +3,7 @@
 // =========================================================================
 // Begin includes
 // Including type: System.Net.WebHeaderCollection/RfcChar
-#include "System/Net/WebHeaderCollection_RfcChar.hpp"
+#include "System/Net/WebHeaderCollection.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

@@ -18,6 +18,10 @@
 #include "GlobalNamespace/OVRPlugin_Sizei.hpp"
 // Including type: OVRPlugin/EyeTextureFormat
 #include "GlobalNamespace/OVRPlugin_EyeTextureFormat.hpp"
+// Including type: OVRPlugin/Fovf
+#include "GlobalNamespace/OVRPlugin_Fovf.hpp"
+// Including type: OVRPlugin/Rectf
+#include "GlobalNamespace/OVRPlugin_Rectf.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

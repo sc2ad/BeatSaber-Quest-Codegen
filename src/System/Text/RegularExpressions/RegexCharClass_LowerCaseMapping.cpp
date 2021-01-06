@@ -3,7 +3,7 @@
 // =========================================================================
 // Begin includes
 // Including type: System.Text.RegularExpressions.RegexCharClass/LowerCaseMapping
-#include "System/Text/RegularExpressions/RegexCharClass_LowerCaseMapping.hpp"
+#include "System/Text/RegularExpressions/RegexCharClass.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

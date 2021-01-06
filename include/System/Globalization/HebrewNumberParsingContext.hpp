@@ -9,7 +9,7 @@
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.Globalization.HebrewNumber/HS
-#include "System/Globalization/HebrewNumber_HS.hpp"
+#include "System/Globalization/HebrewNumber.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

@@ -9,6 +9,8 @@
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: Valve.VR.ETrackingUniverseOrigin
 #include "Valve/VR/ETrackingUniverseOrigin.hpp"
+// Including type: Valve.VR.TrackedDevicePose_t
+#include "Valve/VR/TrackedDevicePose_t.hpp"
 // Including type: Valve.VR.EVREye
 #include "Valve/VR/EVREye.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
@@ -22,15 +24,6 @@ namespace GlobalNamespace {
   // Forward declaring type: SteamVR_Camera
   class SteamVR_Camera;
 }
-// Forward declaring namespace: Valve::VR
-namespace Valve::VR {
-  // Forward declaring type: TrackedDevicePose_t
-  struct TrackedDevicePose_t;
-  // Forward declaring type: VREvent_t
-  struct VREvent_t;
-  // Forward declaring type: EVRScreenshotPropertyFilenames
-  struct EVRScreenshotPropertyFilenames;
-}
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
   // Forward declaring type: WaitForEndOfFrame
@@ -40,6 +33,13 @@ namespace UnityEngine {
 namespace System::Collections {
   // Forward declaring type: IEnumerator
   class IEnumerator;
+}
+// Forward declaring namespace: Valve::VR
+namespace Valve::VR {
+  // Forward declaring type: VREvent_t
+  struct VREvent_t;
+  // Forward declaring type: EVRScreenshotPropertyFilenames
+  struct EVRScreenshotPropertyFilenames;
 }
 // Completed forward declares
 // Type namespace: 

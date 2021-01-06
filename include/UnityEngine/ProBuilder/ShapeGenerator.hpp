@@ -5,15 +5,10 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: UnityEngine.Vector3
+#include "UnityEngine/Vector3.hpp"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: Vector3
-  struct Vector3;
-  // Forward declaring type: Quaternion
-  struct Quaternion;
-}
 // Forward declaring namespace: UnityEngine::ProBuilder
 namespace UnityEngine::ProBuilder {
   // Forward declaring type: ProBuilderMesh
@@ -24,6 +19,11 @@ namespace UnityEngine::ProBuilder {
   struct PivotLocation;
   // Forward declaring type: Axis
   struct Axis;
+}
+// Forward declaring namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: Quaternion
+  struct Quaternion;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder

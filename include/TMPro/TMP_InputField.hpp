@@ -28,28 +28,26 @@
 #include "UnityEngine/EventSystems/IScrollHandler.hpp"
 // Including type: UnityEngine.TouchScreenKeyboardType
 #include "UnityEngine/TouchScreenKeyboardType.hpp"
-// Including type: UnityEngine.Vector2
-#include "UnityEngine/Vector2.hpp"
+// Including type: UnityEngine.UIVertex
+#include "UnityEngine/UIVertex.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
+  // Forward declaring type: WaitForSecondsRealtime
+  class WaitForSecondsRealtime;
   // Forward declaring type: Coroutine
   class Coroutine;
-  // Forward declaring type: Mesh
-  class Mesh;
-  // Forward declaring type: UIVertex
-  struct UIVertex;
   // Forward declaring type: CanvasRenderer
   class CanvasRenderer;
+  // Forward declaring type: Mesh
+  class Mesh;
   // Forward declaring type: TouchScreenKeyboard
   class TouchScreenKeyboard;
   // Forward declaring type: RectTransform
   class RectTransform;
-  // Forward declaring type: WaitForSecondsRealtime
-  class WaitForSecondsRealtime;
   // Forward declaring type: GameObject
   class GameObject;
   // Forward declaring type: Event

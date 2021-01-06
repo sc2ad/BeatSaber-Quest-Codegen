@@ -7,7 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
-// Including type: BeatSaberAPI.DataTransferObjects.LevelScoreResult
+// Including type: BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers
 #include "BeatSaberAPI/DataTransferObjects/LevelScoreResult.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"

@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: HostGameServerLobbyFlowCoordinator/<UpdateMissingEntitlementsAsync>d__40
 #include "GlobalNamespace/HostGameServerLobbyFlowCoordinator_-UpdateMissingEntitlementsAsync-d__40.hpp"
-// Including type: System.Collections.Generic.KeyValuePair`2
-#include "System/Collections/Generic/KeyValuePair_2.hpp"
 // Including type: IConnectedPlayer
 #include "GlobalNamespace/IConnectedPlayer.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

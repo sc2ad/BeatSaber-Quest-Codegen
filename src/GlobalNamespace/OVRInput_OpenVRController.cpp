@@ -3,7 +3,7 @@
 // =========================================================================
 // Begin includes
 // Including type: OVRInput/OpenVRController
-#include "GlobalNamespace/OVRInput_OpenVRController.hpp"
+#include "GlobalNamespace/OVRInput.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

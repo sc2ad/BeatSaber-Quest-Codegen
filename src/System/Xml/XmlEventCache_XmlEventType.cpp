@@ -3,7 +3,7 @@
 // =========================================================================
 // Begin includes
 // Including type: System.Xml.XmlEventCache/XmlEventType
-#include "System/Xml/XmlEventCache_XmlEventType.hpp"
+#include "System/Xml/XmlEventCache.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

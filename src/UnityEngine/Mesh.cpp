@@ -13,14 +13,8 @@
 #include "System/Array.hpp"
 // Including type: System.Collections.Generic.List`1
 #include "System/Collections/Generic/List_1.hpp"
-// Including type: UnityEngine.BoneWeight
-#include "UnityEngine/BoneWeight.hpp"
-// Including type: UnityEngine.Matrix4x4
-#include "UnityEngine/Matrix4x4.hpp"
 // Including type: UnityEngine.Bounds
 #include "UnityEngine/Bounds.hpp"
-// Including type: UnityEngine.Color
-#include "UnityEngine/Color.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

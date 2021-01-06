@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.AnimationCurve
 #include "UnityEngine/AnimationCurve.hpp"
-// Including type: UnityEngine.Keyframe
-#include "UnityEngine/Keyframe.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

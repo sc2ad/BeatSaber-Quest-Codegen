@@ -5,14 +5,14 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.InputField
 #include "UnityEngine/UI/InputField.hpp"
+// Including type: UnityEngine.Mesh
+#include "UnityEngine/Mesh.hpp"
 // Including type: UnityEngine.CanvasRenderer
 #include "UnityEngine/CanvasRenderer.hpp"
-// Including type: UnityEngine.TextGenerator
-#include "UnityEngine/TextGenerator.hpp"
 // Including type: UnityEngine.RectTransform
 #include "UnityEngine/RectTransform.hpp"
-// Including type: UnityEngine.UIVertex
-#include "UnityEngine/UIVertex.hpp"
+// Including type: UnityEngine.TextGenerator
+#include "UnityEngine/TextGenerator.hpp"
 // Including type: UnityEngine.UI.InputField/OnValidateInput
 #include "UnityEngine/UI/InputField_OnValidateInput.hpp"
 // Including type: UnityEngine.UI.InputField/SubmitEvent
@@ -31,8 +31,6 @@
 #include "UnityEngine/UI/Text.hpp"
 // Including type: UnityEngine.UI.Graphic
 #include "UnityEngine/UI/Graphic.hpp"
-// Including type: UnityEngine.Mesh
-#include "UnityEngine/Mesh.hpp"
 // Including type: UnityEngine.Coroutine
 #include "UnityEngine/Coroutine.hpp"
 // Including type: UnityEngine.WaitForSecondsRealtime

@@ -9,8 +9,8 @@
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Plane
 #include "UnityEngine/Plane.hpp"
-// Including type: UnityEngine.ParticleSystem
-#include "UnityEngine/ParticleSystem.hpp"
+// Including type: UnityEngine.ParticleSystem/EmissionModule
+#include "UnityEngine/ParticleSystem_EmissionModule.hpp"
 // Including type: UnityEngine.ParticleSystem/EmitParams
 #include "UnityEngine/ParticleSystem_EmitParams.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
@@ -19,9 +19,9 @@
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
+  // Skipping declaration: ParticleSystem because it is already included!
   // Forward declaring type: BoxCollider
   class BoxCollider;
-  // Skipping declaration: Vector3 because it is already included!
 }
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {

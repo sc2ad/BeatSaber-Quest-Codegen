@@ -9,6 +9,8 @@
 #include "OVR/OpenVR/IVRChaperoneSetup.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+// Including type: OVR.OpenVR.HmdQuad_t
+#include "OVR/OpenVR/HmdQuad_t.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -17,8 +19,6 @@
 namespace OVR::OpenVR {
   // Forward declaring type: EChaperoneConfigFile
   struct EChaperoneConfigFile;
-  // Forward declaring type: HmdQuad_t
-  struct HmdQuad_t;
   // Forward declaring type: HmdMatrix34_t
   struct HmdMatrix34_t;
 }

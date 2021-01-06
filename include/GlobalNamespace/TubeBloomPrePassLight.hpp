@@ -7,8 +7,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BloomPrePassLight
 #include "GlobalNamespace/BloomPrePassLight.hpp"
-// Including type: UnityEngine.Color
-#include "UnityEngine/Color.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -26,9 +24,6 @@ namespace GlobalNamespace {
 namespace UnityEngine {
   // Forward declaring type: Transform
   class Transform;
-  // Forward declaring type: Vector4
-  struct Vector4;
-  // Skipping declaration: Vector3 because it is already included!
   // Forward declaring type: Matrix4x4
   struct Matrix4x4;
 }

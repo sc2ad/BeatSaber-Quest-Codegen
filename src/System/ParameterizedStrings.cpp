@@ -5,12 +5,10 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ParameterizedStrings
 #include "System/ParameterizedStrings.hpp"
-// Including type: System.ParameterizedStrings/FormatParam
-#include "System/ParameterizedStrings_FormatParam.hpp"
-// Including type: System.ParameterizedStrings/LowLevelStack
-#include "System/ParameterizedStrings_LowLevelStack.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+// Including type: System.ParameterizedStrings/LowLevelStack
+#include "System/ParameterizedStrings_LowLevelStack.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

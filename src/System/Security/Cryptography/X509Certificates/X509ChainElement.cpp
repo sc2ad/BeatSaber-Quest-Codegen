@@ -7,8 +7,6 @@
 #include "System/Security/Cryptography/X509Certificates/X509ChainElement.hpp"
 // Including type: System.Security.Cryptography.X509Certificates.X509Certificate2
 #include "System/Security/Cryptography/X509Certificates/X509Certificate2.hpp"
-// Including type: System.Security.Cryptography.X509Certificates.X509ChainStatus
-#include "System/Security/Cryptography/X509Certificates/X509ChainStatus.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

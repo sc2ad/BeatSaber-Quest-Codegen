@@ -5,8 +5,8 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Security.Cryptography.X509Certificates.X509ChainStatusFlags
-#include "System/Security/Cryptography/X509Certificates/X509ChainStatusFlags.hpp"
+// Including type: System.Security.Cryptography.X509Certificates.X509ChainStatus
+#include "System/Security/Cryptography/X509Certificates/X509ChainStatus.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -15,8 +15,6 @@
 namespace System::Security::Cryptography::X509Certificates {
   // Forward declaring type: X509Certificate2
   class X509Certificate2;
-  // Forward declaring type: X509ChainStatus
-  struct X509ChainStatus;
 }
 // Completed forward declares
 // Type namespace: System.Security.Cryptography.X509Certificates

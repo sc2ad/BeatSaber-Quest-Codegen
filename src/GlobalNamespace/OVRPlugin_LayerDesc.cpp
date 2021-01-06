@@ -5,10 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVRPlugin/LayerDesc
 #include "GlobalNamespace/OVRPlugin_LayerDesc.hpp"
-// Including type: OVRPlugin/Fovf
-#include "GlobalNamespace/OVRPlugin_Fovf.hpp"
-// Including type: OVRPlugin/Rectf
-#include "GlobalNamespace/OVRPlugin_Rectf.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

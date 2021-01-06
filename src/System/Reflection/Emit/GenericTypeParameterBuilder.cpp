@@ -17,8 +17,6 @@
 #include "System/Reflection/Binder.hpp"
 // Including type: System.Reflection.CallingConventions
 #include "System/Reflection/CallingConventions.hpp"
-// Including type: System.Reflection.ParameterModifier
-#include "System/Reflection/ParameterModifier.hpp"
 // Including type: System.Reflection.EventInfo
 #include "System/Reflection/EventInfo.hpp"
 // Including type: System.Reflection.FieldInfo

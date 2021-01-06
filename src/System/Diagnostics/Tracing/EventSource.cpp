@@ -3,8 +3,6 @@
 // =========================================================================
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.Diagnostics.Tracing.EventDescriptor
-#include "System/Diagnostics/Tracing/EventDescriptor.hpp"
 // Including type: System.Diagnostics.Tracing.EventSource
 #include "System/Diagnostics/Tracing/EventSource.hpp"
 // Including type: System.Diagnostics.Tracing.EventSource/EventData
@@ -13,8 +11,6 @@
 #include "System/Diagnostics/Tracing/EventSource_Sha1ForNonSecretPurposes.hpp"
 // Including type: System.Diagnostics.Tracing.EventSource/OverideEventProvider
 #include "System/Diagnostics/Tracing/EventSource_OverideEventProvider.hpp"
-// Including type: System.Diagnostics.Tracing.EventSource/EventMetadata
-#include "System/Diagnostics/Tracing/EventSource_EventMetadata.hpp"
 // Including type: System.EventHandler`1
 #include "System/EventHandler_1.hpp"
 // Including type: System.Diagnostics.Tracing.EventCommandEventArgs

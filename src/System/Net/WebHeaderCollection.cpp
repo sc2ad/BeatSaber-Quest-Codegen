@@ -5,12 +5,10 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Net.WebHeaderCollection
 #include "System/Net/WebHeaderCollection.hpp"
-// Including type: System.Net.WebHeaderCollection/RfcChar
-#include "System/Net/WebHeaderCollection_RfcChar.hpp"
-// Including type: System.Net.HeaderInfoTable
-#include "System/Net/HeaderInfoTable.hpp"
 // Including type: System.Net.HttpRequestHeader
 #include "System/Net/HttpRequestHeader.hpp"
+// Including type: System.Net.HeaderInfoTable
+#include "System/Net/HeaderInfoTable.hpp"
 // Including type: System.Runtime.Serialization.SerializationInfo
 #include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Including type: System.Collections.IEnumerator

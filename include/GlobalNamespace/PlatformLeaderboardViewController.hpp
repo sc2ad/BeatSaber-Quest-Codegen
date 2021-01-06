@@ -9,8 +9,6 @@
 #include "GlobalNamespace/LeaderboardViewController.hpp"
 // Including type: LeaderboardTableView
 #include "GlobalNamespace/LeaderboardTableView.hpp"
-// Including type: PlatformLeaderboardsModel
-#include "GlobalNamespace/PlatformLeaderboardsModel.hpp"
 // Including type: PlatformLeaderboardsModel/ScoresScope
 #include "GlobalNamespace/PlatformLeaderboardsModel_ScoresScope.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

@@ -23,14 +23,10 @@
 #include "OVR/OpenVR/EVREye.hpp"
 // Including type: OVR.OpenVR.DistortionCoordinates_t
 #include "OVR/OpenVR/DistortionCoordinates_t.hpp"
-// Including type: OVR.OpenVR.HmdMatrix34_t
-#include "OVR/OpenVR/HmdMatrix34_t.hpp"
 // Including type: OVR.OpenVR.ETextureType
 #include "OVR/OpenVR/ETextureType.hpp"
 // Including type: OVR.OpenVR.ETrackingUniverseOrigin
 #include "OVR/OpenVR/ETrackingUniverseOrigin.hpp"
-// Including type: OVR.OpenVR.TrackedDevicePose_t
-#include "OVR/OpenVR/TrackedDevicePose_t.hpp"
 // Including type: OVR.OpenVR.ETrackedDeviceClass
 #include "OVR/OpenVR/ETrackedDeviceClass.hpp"
 // Including type: OVR.OpenVR.EDeviceActivityLevel

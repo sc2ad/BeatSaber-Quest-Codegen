@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
+// Including type: Valve.VR.TrackedDevicePose_t
+#include "Valve/VR/TrackedDevicePose_t.hpp"
 // Including type: Valve.VR.EVREventType
 #include "Valve/VR/EVREventType.hpp"
 // Including type: Valve.VR.VREvent_t
@@ -17,11 +19,6 @@
 namespace GlobalNamespace {
   // Forward declaring type: SteamVR_RenderModel
   class SteamVR_RenderModel;
-}
-// Forward declaring namespace: Valve::VR
-namespace Valve::VR {
-  // Forward declaring type: TrackedDevicePose_t
-  struct TrackedDevicePose_t;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {

@@ -22,7 +22,6 @@ namespace RootMotion::FinalIK {
 namespace UnityEngine {
   // Forward declaring type: Transform
   class Transform;
-  // Skipping declaration: Quaternion because it is already included!
 }
 // Completed forward declares
 // Type namespace: RootMotion.FinalIK

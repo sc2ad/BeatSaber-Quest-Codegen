@@ -7,6 +7,10 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
+// Including type: UnityEngine.Color
+#include "UnityEngine/Color.hpp"
+// Including type: UnityEngine.Vector4
+#include "UnityEngine/Vector4.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -30,11 +34,6 @@ namespace System::Collections::Generic {
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Skipping declaration: Vector3 because it is already included!
-  // Forward declaring type: Color
-  struct Color;
-  // Forward declaring type: Vector4
-  struct Vector4;
   // Forward declaring type: Matrix4x4
   struct Matrix4x4;
 }

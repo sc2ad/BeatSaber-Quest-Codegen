@@ -7,8 +7,6 @@
 #include "Valve/VR/IVRApplications__LaunchTemplateApplication.hpp"
 // Including type: Valve.VR.EVRApplicationError
 #include "Valve/VR/EVRApplicationError.hpp"
-// Including type: Valve.VR.AppOverrideKeys_t
-#include "Valve/VR/AppOverrideKeys_t.hpp"
 // Including type: System.IAsyncResult
 #include "System/IAsyncResult.hpp"
 // Including type: System.AsyncCallback

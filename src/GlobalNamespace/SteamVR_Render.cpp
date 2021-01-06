@@ -11,8 +11,6 @@
 #include "GlobalNamespace/SteamVR_ExternalCamera.hpp"
 // Including type: SteamVR_Camera
 #include "GlobalNamespace/SteamVR_Camera.hpp"
-// Including type: Valve.VR.TrackedDevicePose_t
-#include "Valve/VR/TrackedDevicePose_t.hpp"
 // Including type: UnityEngine.WaitForEndOfFrame
 #include "UnityEngine/WaitForEndOfFrame.hpp"
 // Including type: System.Collections.IEnumerator

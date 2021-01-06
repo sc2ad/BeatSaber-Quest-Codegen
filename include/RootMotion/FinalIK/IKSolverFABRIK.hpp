@@ -13,7 +13,6 @@
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Skipping declaration: Vector3 because it is already included!
   // Forward declaring type: Quaternion
   struct Quaternion;
 }

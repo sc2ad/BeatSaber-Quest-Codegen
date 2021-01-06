@@ -11,8 +11,6 @@
 #include "OVR/OpenVR/EVRSkeletalTransformSpace.hpp"
 // Including type: OVR.OpenVR.EVRSkeletalMotionRange
 #include "OVR/OpenVR/EVRSkeletalMotionRange.hpp"
-// Including type: OVR.OpenVR.VRBoneTransform_t
-#include "OVR/OpenVR/VRBoneTransform_t.hpp"
 // Including type: System.IAsyncResult
 #include "System/IAsyncResult.hpp"
 // Including type: System.AsyncCallback

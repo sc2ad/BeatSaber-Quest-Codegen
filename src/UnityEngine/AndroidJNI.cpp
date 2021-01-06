@@ -5,10 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.AndroidJNI
 #include "UnityEngine/AndroidJNI.hpp"
-// Including type: System.IntPtr
-#include "System/IntPtr.hpp"
-// Including type: UnityEngine.jvalue
-#include "UnityEngine/jvalue.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

@@ -7,12 +7,12 @@
 #include "UnityEngine/ProBuilder/Projection.hpp"
 // Including type: UnityEngine.ProBuilder.Projection/<>c
 #include "UnityEngine/ProBuilder/Projection_--c.hpp"
-// Including type: UnityEngine.ProBuilder.ProBuilderMesh
-#include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
 // Including type: System.Collections.Generic.IList`1
 #include "System/Collections/Generic/IList_1.hpp"
 // Including type: System.Collections.Generic.List`1
 #include "System/Collections/Generic/List_1.hpp"
+// Including type: UnityEngine.ProBuilder.ProBuilderMesh
+#include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
 // Including type: UnityEngine.ProBuilder.AutoUnwrapSettings
 #include "UnityEngine/ProBuilder/AutoUnwrapSettings.hpp"
 // Including type: UnityEngine.ProBuilder.Face

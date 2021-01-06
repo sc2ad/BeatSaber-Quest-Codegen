@@ -7,8 +7,6 @@
 #include "GlobalNamespace/WindowResolutionSettingsController.hpp"
 // Including type: Vector2IntSO
 #include "GlobalNamespace/Vector2IntSO.hpp"
-// Including type: UnityEngine.Vector2Int
-#include "UnityEngine/Vector2Int.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

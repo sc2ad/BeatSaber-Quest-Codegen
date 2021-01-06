@@ -7,15 +7,12 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.PhysicsRaycaster
 #include "UnityEngine/EventSystems/PhysicsRaycaster.hpp"
+// Including type: UnityEngine.RaycastHit2D
+#include "UnityEngine/RaycastHit2D.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: RaycastHit2D
-  struct RaycastHit2D;
-}
 // Forward declaring namespace: UnityEngine::EventSystems
 namespace UnityEngine::EventSystems {
   // Forward declaring type: PointerEventData

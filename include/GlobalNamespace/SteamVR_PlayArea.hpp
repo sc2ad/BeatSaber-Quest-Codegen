@@ -13,10 +13,6 @@
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Skipping declaration: Vector3 because it is already included!
-}
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Skipping declaration: Size because it is already included!

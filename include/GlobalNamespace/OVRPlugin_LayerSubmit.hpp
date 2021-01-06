@@ -10,6 +10,8 @@
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+// Including type: OVRPlugin/Recti
+#include "GlobalNamespace/OVRPlugin_Recti.hpp"
 // Including type: OVRPlugin/Posef
 // Already included the same include: GlobalNamespace/OVRPlugin.hpp
 // Completed includes

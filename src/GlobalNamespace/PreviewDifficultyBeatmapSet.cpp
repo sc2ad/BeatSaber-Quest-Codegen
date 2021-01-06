@@ -7,8 +7,6 @@
 #include "GlobalNamespace/PreviewDifficultyBeatmapSet.hpp"
 // Including type: BeatmapCharacteristicSO
 #include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
-// Including type: BeatmapDifficulty
-#include "GlobalNamespace/BeatmapDifficulty.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

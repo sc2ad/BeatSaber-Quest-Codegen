@@ -23,7 +23,6 @@ namespace TMPro {
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Skipping declaration: Vector3 because it is already included!
   // Forward declaring type: CanvasRenderer
   class CanvasRenderer;
   // Forward declaring type: Canvas

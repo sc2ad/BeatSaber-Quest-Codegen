@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BeatmapObjectAvoidanceYOffsetEvaluator
 #include "GlobalNamespace/BeatmapObjectAvoidanceYOffsetEvaluator.hpp"
-// Including type: BeatmapObjectAvoidanceYOffsetEvaluator/BufferData
-#include "GlobalNamespace/BeatmapObjectAvoidanceYOffsetEvaluator_BufferData.hpp"
 // Including type: IAudioTimeSource
 #include "GlobalNamespace/IAudioTimeSource.hpp"
 // Including type: BeatmapObjectSpawnController

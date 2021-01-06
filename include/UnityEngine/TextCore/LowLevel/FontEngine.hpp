@@ -5,8 +5,10 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: UnityEngine.TextCore.GlyphRect
-#include "UnityEngine/TextCore/GlyphRect.hpp"
+// Including type: UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct
+#include "UnityEngine/TextCore/LowLevel/GlyphMarshallingStruct.hpp"
+// Including type: UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
+#include "UnityEngine/TextCore/LowLevel/GlyphPairAdjustmentRecord.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -18,12 +20,17 @@ namespace UnityEngine::TextCore {
   // Forward declaring type: FaceInfo
   struct FaceInfo;
 }
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
+  class Dictionary_2;
+  // Forward declaring type: List`1<T>
+  template<typename T>
+  class List_1;
+}
 // Forward declaring namespace: UnityEngine::TextCore::LowLevel
 namespace UnityEngine::TextCore::LowLevel {
-  // Forward declaring type: GlyphMarshallingStruct
-  struct GlyphMarshallingStruct;
-  // Forward declaring type: GlyphPairAdjustmentRecord
-  struct GlyphPairAdjustmentRecord;
   // Forward declaring type: FontEngineError
   struct FontEngineError;
   // Forward declaring type: GlyphLoadFlags
@@ -35,19 +42,10 @@ namespace UnityEngine::TextCore::LowLevel {
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: Texture2D
-  class Texture2D;
   // Forward declaring type: Font
   class Font;
-}
-// Forward declaring namespace: System::Collections::Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
-  class Dictionary_2;
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
+  // Forward declaring type: Texture2D
+  class Texture2D;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.TextCore.LowLevel

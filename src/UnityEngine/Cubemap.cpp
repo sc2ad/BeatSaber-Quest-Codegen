@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Cubemap
 #include "UnityEngine/Cubemap.hpp"
-// Including type: UnityEngine.Color
-#include "UnityEngine/Color.hpp"
 // Including type: UnityEngine.CubemapFace
 #include "UnityEngine/CubemapFace.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

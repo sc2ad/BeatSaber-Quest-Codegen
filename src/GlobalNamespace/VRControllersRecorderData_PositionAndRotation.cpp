@@ -3,7 +3,7 @@
 // =========================================================================
 // Begin includes
 // Including type: VRControllersRecorderData/PositionAndRotation
-#include "GlobalNamespace/VRControllersRecorderData_PositionAndRotation.hpp"
+#include "GlobalNamespace/VRControllersRecorderData.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

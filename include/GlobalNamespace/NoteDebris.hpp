@@ -30,7 +30,6 @@ namespace UnityEngine {
   class AnimationCurve;
   // Forward declaring type: Mesh
   class Mesh;
-  // Skipping declaration: Vector3 because it is already included!
   // Skipping declaration: Quaternion because it is already included!
 }
 // Forward declaring namespace: System

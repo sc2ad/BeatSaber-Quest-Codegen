@@ -5,6 +5,8 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum
+#include "System/Runtime/Serialization/Formatters/Binary/BinaryTypeEnum.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -16,8 +18,6 @@ namespace System {
 }
 // Forward declaring namespace: System::Runtime::Serialization::Formatters::Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
-  // Forward declaring type: BinaryTypeEnum
-  struct BinaryTypeEnum;
   // Forward declaring type: ReadObjectInfo
   class ReadObjectInfo;
   // Forward declaring type: ObjectReader

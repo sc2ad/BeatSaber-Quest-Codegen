@@ -17,14 +17,18 @@
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: List`1<T>
+  template<typename T>
+  class List_1;
+}
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Skipping declaration: Vector2 because it is already included!
   // Forward declaring type: Material
   class Material;
   // Forward declaring type: Sprite
   class Sprite;
-  // Skipping declaration: Vector3 because it is already included!
   // Forward declaring type: Rect
   struct Rect;
   // Skipping declaration: Vector4 because it is already included!
@@ -40,12 +44,6 @@ namespace UnityEngine::UI {
   // Skipping declaration: FillMethod because it is already included!
   // Forward declaring type: VertexHelper
   class VertexHelper;
-}
-// Forward declaring namespace: System::Collections::Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: List`1<T>
-  template<typename T>
-  class List_1;
 }
 // Forward declaring namespace: UnityEngine::U2D
 namespace UnityEngine::U2D {

@@ -5,23 +5,14 @@
 #pragma pack(push, 1)
 // WARNING Layout: Sequential may not be correctly taken into account!
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+// Including type: UnityEngine.HumanBone
+#include "UnityEngine/HumanBone.hpp"
+// Including type: UnityEngine.SkeletonBone
+#include "UnityEngine/SkeletonBone.hpp"
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: HumanBone
-  struct HumanBone;
-  // Forward declaring type: SkeletonBone
-  struct SkeletonBone;
-}
-// Completed forward declares
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x3B

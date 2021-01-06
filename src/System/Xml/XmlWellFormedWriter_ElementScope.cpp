@@ -4,7 +4,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Xml.XmlWellFormedWriter/ElementScope
-#include "System/Xml/XmlWellFormedWriter_ElementScope.hpp"
+#include "System/Xml/XmlWellFormedWriter.hpp"
 // Including type: System.Xml.XmlRawWriter
 #include "System/Xml/XmlRawWriter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

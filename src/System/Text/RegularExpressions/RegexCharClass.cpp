@@ -5,8 +5,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Text.RegularExpressions.RegexCharClass
 #include "System/Text/RegularExpressions/RegexCharClass.hpp"
-// Including type: System.Text.RegularExpressions.RegexCharClass/LowerCaseMapping
-#include "System/Text/RegularExpressions/RegexCharClass_LowerCaseMapping.hpp"
+// Including type: System.Globalization.CultureInfo
+#include "System/Globalization/CultureInfo.hpp"
 // Including type: System.Text.RegularExpressions.RegexCharClass/SingleRangeComparer
 #include "System/Text/RegularExpressions/RegexCharClass_SingleRangeComparer.hpp"
 // Including type: System.Text.RegularExpressions.RegexCharClass/SingleRange
@@ -17,8 +17,6 @@
 #include "System/Text/StringBuilder.hpp"
 // Including type: System.Collections.Generic.Dictionary`2
 #include "System/Collections/Generic/Dictionary_2.hpp"
-// Including type: System.Globalization.CultureInfo
-#include "System/Globalization/CultureInfo.hpp"
 // Including type: System.Globalization.UnicodeCategory
 #include "System/Globalization/UnicodeCategory.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

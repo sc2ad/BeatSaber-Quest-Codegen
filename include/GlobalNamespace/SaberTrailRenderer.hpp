@@ -7,6 +7,10 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
+// Including type: UnityEngine.Vector2
+#include "UnityEngine/Vector2.hpp"
+// Including type: UnityEngine.Color
+#include "UnityEngine/Color.hpp"
 // Including type: UnityEngine.Bounds
 #include "UnityEngine/Bounds.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
@@ -21,11 +25,6 @@ namespace UnityEngine {
   class MeshFilter;
   // Forward declaring type: Mesh
   class Mesh;
-  // Skipping declaration: Vector3 because it is already included!
-  // Forward declaring type: Vector2
-  struct Vector2;
-  // Forward declaring type: Color
-  struct Color;
 }
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {

@@ -11,8 +11,6 @@
 #include "UnityEngine/Vector4.hpp"
 // Including type: UnityEngine.Texture2D
 #include "UnityEngine/Texture2D.hpp"
-// Including type: UnityEngine.Vector2
-#include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.SpriteMeshType
 #include "UnityEngine/SpriteMeshType.hpp"
 // Including type: UnityEngine.Bounds

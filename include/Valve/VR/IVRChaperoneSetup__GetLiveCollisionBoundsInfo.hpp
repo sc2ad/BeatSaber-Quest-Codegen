@@ -9,15 +9,12 @@
 #include "Valve/VR/IVRChaperoneSetup.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
+// Including type: Valve.VR.HmdQuad_t
+#include "Valve/VR/HmdQuad_t.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: Valve::VR
-namespace Valve::VR {
-  // Forward declaring type: HmdQuad_t
-  struct HmdQuad_t;
-}
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: IAsyncResult

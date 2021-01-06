@@ -6,15 +6,12 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Diagnostics.Tracing.TraceLoggingTypeInfo`1
 #include "System/Diagnostics/Tracing/TraceLoggingTypeInfo_1.hpp"
+// Including type: System.IntPtr
+#include "System/IntPtr.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: System
-namespace System {
-  // Forward declaring type: IntPtr
-  struct IntPtr;
-}
 // Forward declaring namespace: System::Diagnostics::Tracing
 namespace System::Diagnostics::Tracing {
   // Forward declaring type: TraceLoggingDataCollector

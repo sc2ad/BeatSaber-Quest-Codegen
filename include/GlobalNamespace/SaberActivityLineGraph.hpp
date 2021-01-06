@@ -20,7 +20,6 @@ namespace GlobalNamespace {
 namespace UnityEngine {
   // Forward declaring type: LineRenderer
   class LineRenderer;
-  // Skipping declaration: Vector3 because it is already included!
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {

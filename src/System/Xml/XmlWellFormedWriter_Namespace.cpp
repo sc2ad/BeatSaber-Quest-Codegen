@@ -4,7 +4,9 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Xml.XmlWellFormedWriter/Namespace
-#include "System/Xml/XmlWellFormedWriter_Namespace.hpp"
+#include "System/Xml/XmlWellFormedWriter.hpp"
+// Including type: System.Xml.XmlWellFormedWriter/NamespaceKind
+// Already included the same include: System/Xml/XmlWellFormedWriter.hpp
 // Including type: System.Xml.XmlWriter
 #include "System/Xml/XmlWriter.hpp"
 // Including type: System.Xml.XmlRawWriter

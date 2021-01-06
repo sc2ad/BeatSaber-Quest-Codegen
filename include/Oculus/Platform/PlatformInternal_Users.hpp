@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.PlatformInternal
 #include "Oculus/Platform/PlatformInternal.hpp"
+// Including type: Oculus.Platform.ServiceProvider
+#include "Oculus/Platform/ServiceProvider.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform
@@ -14,8 +16,6 @@ namespace Oculus::Platform {
   // Forward declaring type: Request`1<T>
   template<typename T>
   class Request_1;
-  // Forward declaring type: ServiceProvider
-  struct ServiceProvider;
 }
 // Forward declaring namespace: Oculus::Platform::Models
 namespace Oculus::Platform::Models {

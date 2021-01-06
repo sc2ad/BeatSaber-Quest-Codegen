@@ -4,7 +4,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.Matchmaking/CustomQuery/Criterion
-#include "Oculus/Platform/Matchmaking_CustomQuery_Criterion.hpp"
+#include "Oculus/Platform/Matchmaking_CustomQuery.hpp"
 // Including type: System.Collections.Generic.Dictionary`2
 #include "System/Collections/Generic/Dictionary_2.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

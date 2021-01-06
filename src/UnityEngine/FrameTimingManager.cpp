@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.FrameTimingManager
 #include "UnityEngine/FrameTimingManager.hpp"
-// Including type: UnityEngine.FrameTiming
-#include "UnityEngine/FrameTiming.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

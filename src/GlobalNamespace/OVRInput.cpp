@@ -31,10 +31,6 @@
 #include "System/Version.hpp"
 // Including type: OVRInput/Handedness
 #include "GlobalNamespace/OVRInput_Handedness.hpp"
-// Including type: OVRInput/OpenVRController
-#include "GlobalNamespace/OVRInput_OpenVRController.hpp"
-// Including type: OVRInput/OpenVRControllerDetails
-#include "GlobalNamespace/OVRInput_OpenVRControllerDetails.hpp"
 // Including type: OVRInput/HapticInfo
 #include "GlobalNamespace/OVRInput_HapticInfo.hpp"
 // Including type: OVRInput/OVRControllerBase
@@ -67,10 +63,6 @@
 #include "GlobalNamespace/OVRInput_OVRControllerRTrackedRemote.hpp"
 // Including type: System.Collections.Generic.List`1
 #include "System/Collections/Generic/List_1.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
-// Including type: UnityEngine.Quaternion
-#include "UnityEngine/Quaternion.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.XR.XRNode

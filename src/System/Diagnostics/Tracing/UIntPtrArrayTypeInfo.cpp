@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Diagnostics.Tracing.UIntPtrArrayTypeInfo
 #include "System/Diagnostics/Tracing/UIntPtrArrayTypeInfo.hpp"
-// Including type: System.UIntPtr
-#include "System/UIntPtr.hpp"
 // Including type: System.Diagnostics.Tracing.TraceLoggingDataCollector
 #include "System/Diagnostics/Tracing/TraceLoggingDataCollector.hpp"
 // Including type: System.Diagnostics.Tracing.TraceLoggingMetadataCollector

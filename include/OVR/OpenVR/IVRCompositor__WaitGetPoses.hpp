@@ -9,6 +9,8 @@
 #include "OVR/OpenVR/IVRCompositor.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
+// Including type: OVR.OpenVR.TrackedDevicePose_t
+#include "OVR/OpenVR/TrackedDevicePose_t.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -17,8 +19,6 @@
 namespace OVR::OpenVR {
   // Forward declaring type: EVRCompositorError
   struct EVRCompositorError;
-  // Forward declaring type: TrackedDevicePose_t
-  struct TrackedDevicePose_t;
 }
 // Forward declaring namespace: System
 namespace System {

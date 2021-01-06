@@ -11,8 +11,8 @@
 #include "UnityEngine/ParticleSystem_EmissionModule.hpp"
 // Including type: UnityEngine.ParticleSystem/ShapeModule
 #include "UnityEngine/ParticleSystem_ShapeModule.hpp"
-// Including type: UnityEngine.ParticleSystem/Particle
-#include "UnityEngine/ParticleSystem_Particle.hpp"
+// Including type: UnityEngine.ParticleSystemStopBehavior
+#include "UnityEngine/ParticleSystemStopBehavior.hpp"
 // Including type: UnityEngine.ParticleSystem/MinMaxCurve
 #include "UnityEngine/ParticleSystem_MinMaxCurve.hpp"
 // Including type: UnityEngine.ParticleSystem/MinMaxGradient
@@ -21,10 +21,6 @@
 #include "UnityEngine/ParticleSystem_EmitParams.hpp"
 // Including type: UnityEngine.ParticleSystem/ForceOverLifetimeModule
 #include "UnityEngine/ParticleSystem_ForceOverLifetimeModule.hpp"
-// Including type: UnityEngine.Color32
-#include "UnityEngine/Color32.hpp"
-// Including type: UnityEngine.ParticleSystemStopBehavior
-#include "UnityEngine/ParticleSystemStopBehavior.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

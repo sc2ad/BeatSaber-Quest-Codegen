@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
+// Including type: UnityEngine.Vector3
+#include "UnityEngine/Vector3.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder::MeshOperations
@@ -30,11 +32,6 @@ namespace System::Collections::Generic {
 namespace UnityEngine::ProBuilder {
   // Forward declaring type: Vertex
   class Vertex;
-}
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: Vector3
-  struct Vector3;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder.MeshOperations

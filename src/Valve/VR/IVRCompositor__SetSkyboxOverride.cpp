@@ -7,8 +7,6 @@
 #include "Valve/VR/IVRCompositor__SetSkyboxOverride.hpp"
 // Including type: Valve.VR.EVRCompositorError
 #include "Valve/VR/EVRCompositorError.hpp"
-// Including type: Valve.VR.Texture_t
-#include "Valve/VR/Texture_t.hpp"
 // Including type: System.IAsyncResult
 #include "System/IAsyncResult.hpp"
 // Including type: System.AsyncCallback

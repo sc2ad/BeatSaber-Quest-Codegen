@@ -9,6 +9,10 @@
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
+// Including type: UnityEngine.Vector4
+#include "UnityEngine/Vector4.hpp"
+// Including type: UnityEngine.Matrix4x4
+#include "UnityEngine/Matrix4x4.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -22,10 +26,6 @@ namespace UnityEngine {
   class Mesh;
   // Forward declaring type: Material
   class Material;
-  // Forward declaring type: Vector4
-  struct Vector4;
-  // Forward declaring type: Matrix4x4
-  struct Matrix4x4;
   // Forward declaring type: MaterialPropertyBlock
   class MaterialPropertyBlock;
   // Forward declaring type: Vector2

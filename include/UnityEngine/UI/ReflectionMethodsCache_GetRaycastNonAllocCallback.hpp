@@ -9,6 +9,8 @@
 #include "UnityEngine/UI/ReflectionMethodsCache.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
+// Including type: UnityEngine.RaycastHit
+#include "UnityEngine/RaycastHit.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -17,8 +19,6 @@
 namespace UnityEngine {
   // Forward declaring type: Ray
   struct Ray;
-  // Forward declaring type: RaycastHit
-  struct RaycastHit;
 }
 // Forward declaring namespace: System
 namespace System {

@@ -7,8 +7,6 @@
 #include "RootMotion/BakerUtilities.hpp"
 // Including type: UnityEngine.AnimationCurve
 #include "UnityEngine/AnimationCurve.hpp"
-// Including type: UnityEngine.Keyframe
-#include "UnityEngine/Keyframe.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

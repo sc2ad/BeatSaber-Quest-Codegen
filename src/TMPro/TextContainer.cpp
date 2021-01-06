@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.TextContainer
 #include "TMPro/TextContainer.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.RectTransform
 #include "UnityEngine/RectTransform.hpp"
 // Including type: TMPro.TextMeshPro

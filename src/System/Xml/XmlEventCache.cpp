@@ -5,14 +5,10 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Xml.XmlEventCache
 #include "System/Xml/XmlEventCache.hpp"
-// Including type: System.Xml.XmlEventCache/XmlEventType
-#include "System/Xml/XmlEventCache_XmlEventType.hpp"
-// Including type: System.Xml.XmlEventCache/XmlEvent
-#include "System/Xml/XmlEventCache_XmlEvent.hpp"
-// Including type: System.Collections.Generic.List`1
-#include "System/Collections/Generic/List_1.hpp"
 // Including type: System.Xml.XmlWriter
 #include "System/Xml/XmlWriter.hpp"
+// Including type: System.Collections.Generic.List`1
+#include "System/Collections/Generic/List_1.hpp"
 // Including type: System.Xml.XmlStandalone
 #include "System/Xml/XmlStandalone.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

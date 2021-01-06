@@ -7,8 +7,6 @@
 #include "OVR/OpenVR/CVRChaperoneSetup.hpp"
 // Including type: OVR.OpenVR.EChaperoneConfigFile
 #include "OVR/OpenVR/EChaperoneConfigFile.hpp"
-// Including type: OVR.OpenVR.HmdQuad_t
-#include "OVR/OpenVR/HmdQuad_t.hpp"
 // Including type: OVR.OpenVR.HmdMatrix34_t
 #include "OVR/OpenVR/HmdMatrix34_t.hpp"
 // Including type: System.Text.StringBuilder

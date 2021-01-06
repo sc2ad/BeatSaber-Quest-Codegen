@@ -5,6 +5,8 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: System.Net.HeaderVariantInfo
+#include "System/Net/HeaderVariantInfo.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -16,8 +18,6 @@ namespace System::Collections {
 }
 // Forward declaring namespace: System::Net
 namespace System::Net {
-  // Forward declaring type: HeaderVariantInfo
-  struct HeaderVariantInfo;
   // Forward declaring type: PathList
   class PathList;
   // Forward declaring type: Cookie

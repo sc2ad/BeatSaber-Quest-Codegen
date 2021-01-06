@@ -17,8 +17,6 @@
 #include "UnityEngine/Events/UnityAction.hpp"
 // Including type: UnityEngine.Mesh
 #include "UnityEngine/Mesh.hpp"
-// Including type: UnityEngine.Vector2
-#include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.UI.CoroutineTween.TweenRunner`1
 #include "UnityEngine/UI/CoroutineTween/TweenRunner_1.hpp"
 // Including type: UnityEngine.Texture2D

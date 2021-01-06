@@ -9,8 +9,6 @@
 #include "Valve/VR/EVRApplicationError.hpp"
 // Including type: System.Text.StringBuilder
 #include "System/Text/StringBuilder.hpp"
-// Including type: Valve.VR.AppOverrideKeys_t
-#include "Valve/VR/AppOverrideKeys_t.hpp"
 // Including type: Valve.VR.EVRApplicationProperty
 #include "Valve/VR/EVRApplicationProperty.hpp"
 // Including type: Valve.VR.EVRApplicationTransitionState

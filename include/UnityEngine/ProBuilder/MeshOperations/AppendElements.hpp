@@ -7,6 +7,10 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
+// Including type: UnityEngine.Color
+#include "UnityEngine/Color.hpp"
+// Including type: UnityEngine.Vector2
+#include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.ProBuilder.Edge
 #include "UnityEngine/ProBuilder/Edge.hpp"
 // Completed includes
@@ -20,21 +24,14 @@ namespace UnityEngine::ProBuilder {
   class Face;
   // Forward declaring type: ProBuilderMesh
   class ProBuilderMesh;
-  // Forward declaring type: FaceRebuildData
-  class FaceRebuildData;
   // Forward declaring type: ActionResult
   class ActionResult;
   // Forward declaring type: PolyShape
   class PolyShape;
+  // Forward declaring type: FaceRebuildData
+  class FaceRebuildData;
   // Forward declaring type: Vertex
   class Vertex;
-}
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: Color
-  struct Color;
-  // Forward declaring type: Vector2
-  struct Vector2;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {

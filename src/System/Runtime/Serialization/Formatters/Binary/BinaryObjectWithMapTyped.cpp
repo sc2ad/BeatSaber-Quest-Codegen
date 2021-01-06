@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMapTyped
 #include "System/Runtime/Serialization/Formatters/Binary/BinaryObjectWithMapTyped.hpp"
-// Including type: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum
-#include "System/Runtime/Serialization/Formatters/Binary/BinaryTypeEnum.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.__BinaryWriter
 #include "System/Runtime/Serialization/Formatters/Binary/__BinaryWriter.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.__BinaryParser

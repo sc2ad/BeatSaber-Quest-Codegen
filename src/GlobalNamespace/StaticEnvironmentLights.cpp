@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: StaticEnvironmentLights
 #include "GlobalNamespace/StaticEnvironmentLights.hpp"
-// Including type: UnityEngine.Color
-#include "UnityEngine/Color.hpp"
 // Including type: UnityEngine.Material
 #include "UnityEngine/Material.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

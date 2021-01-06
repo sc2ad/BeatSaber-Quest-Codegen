@@ -11,8 +11,6 @@
 #include "Mono/Security/Interface/MonoLocalCertificateSelectionCallback.hpp"
 // Including type: System.Security.Cryptography.X509Certificates.X509CertificateCollection
 #include "System/Security/Cryptography/X509Certificates/X509CertificateCollection.hpp"
-// Including type: Mono.Security.Interface.CipherSuiteCode
-#include "Mono/Security/Interface/CipherSuiteCode.hpp"
 // Including type: Mono.Security.Interface.ICertificateValidator
 #include "Mono/Security/Interface/ICertificateValidator.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

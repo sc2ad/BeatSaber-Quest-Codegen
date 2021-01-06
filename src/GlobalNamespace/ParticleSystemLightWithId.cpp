@@ -7,8 +7,6 @@
 #include "GlobalNamespace/ParticleSystemLightWithId.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-// Including type: UnityEngine.ParticleSystem/Particle
-#include "UnityEngine/ParticleSystem_Particle.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

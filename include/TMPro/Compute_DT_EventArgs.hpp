@@ -7,16 +7,11 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.Compute_DistanceTransform_EventTypes
 #include "TMPro/Compute_DistanceTransform_EventTypes.hpp"
+// Including type: UnityEngine.Color
+#include "UnityEngine/Color.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: Color
-  struct Color;
-}
-// Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x20

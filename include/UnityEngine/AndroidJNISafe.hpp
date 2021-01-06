@@ -5,19 +5,9 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: UnityEngine.jvalue
+#include "UnityEngine/jvalue.hpp"
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: System
-namespace System {
-  // Forward declaring type: IntPtr
-  struct IntPtr;
-}
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: jvalue
-  struct jvalue;
-}
-// Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x0

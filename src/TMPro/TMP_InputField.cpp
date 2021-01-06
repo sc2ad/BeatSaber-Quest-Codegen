@@ -5,14 +5,14 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: TMPro.TMP_InputField
 #include "TMPro/TMP_InputField.hpp"
+// Including type: UnityEngine.WaitForSecondsRealtime
+#include "UnityEngine/WaitForSecondsRealtime.hpp"
 // Including type: UnityEngine.Coroutine
 #include "UnityEngine/Coroutine.hpp"
-// Including type: UnityEngine.Mesh
-#include "UnityEngine/Mesh.hpp"
-// Including type: UnityEngine.UIVertex
-#include "UnityEngine/UIVertex.hpp"
 // Including type: UnityEngine.CanvasRenderer
 #include "UnityEngine/CanvasRenderer.hpp"
+// Including type: UnityEngine.Mesh
+#include "UnityEngine/Mesh.hpp"
 // Including type: TMPro.TMP_InputField/OnValidateInput
 #include "TMPro/TMP_InputField_OnValidateInput.hpp"
 // Including type: TMPro.TMP_InputField/SubmitEvent
@@ -43,8 +43,6 @@
 #include "UnityEngine/UI/Scrollbar.hpp"
 // Including type: TMPro.TMP_ScrollbarEventHandler
 #include "TMPro/TMP_ScrollbarEventHandler.hpp"
-// Including type: UnityEngine.WaitForSecondsRealtime
-#include "UnityEngine/WaitForSecondsRealtime.hpp"
 // Including type: TMPro.TMP_FontAsset
 #include "TMPro/TMP_FontAsset.hpp"
 // Including type: UnityEngine.GameObject

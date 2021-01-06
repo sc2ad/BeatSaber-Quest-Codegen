@@ -4,7 +4,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: PlayerStatisticsViewController/StatsScopeData
-#include "GlobalNamespace/PlayerStatisticsViewController_StatsScopeData.hpp"
+#include "GlobalNamespace/PlayerStatisticsViewController.hpp"
 // Including type: System.Func`1
 #include "System/Func_1.hpp"
 // Including type: PlayerAllOverallStatsData/PlayerOverallStatsData

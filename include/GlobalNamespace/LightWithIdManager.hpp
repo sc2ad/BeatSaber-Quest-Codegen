@@ -9,6 +9,8 @@
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
+// Including type: System.Nullable`1
+#include "System/Nullable_1.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
@@ -22,9 +24,6 @@ namespace System {
   // Forward declaring type: Action`2<T1, T2>
   template<typename T1, typename T2>
   class Action_2;
-  // Forward declaring type: Nullable`1<T>
-  template<typename T>
-  struct Nullable_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {

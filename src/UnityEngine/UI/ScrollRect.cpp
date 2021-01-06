@@ -7,8 +7,6 @@
 #include "UnityEngine/UI/ScrollRect.hpp"
 // Including type: UnityEngine.UI.Scrollbar
 #include "UnityEngine/UI/Scrollbar.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.UI.ScrollRect/ScrollRectEvent
 #include "UnityEngine/UI/ScrollRect_ScrollRectEvent.hpp"
 // Including type: UnityEngine.RectTransform

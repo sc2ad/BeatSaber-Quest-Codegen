@@ -10,12 +10,6 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Skipping declaration: Vector3 because it is already included!
-}
-// Completed forward declares
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x18

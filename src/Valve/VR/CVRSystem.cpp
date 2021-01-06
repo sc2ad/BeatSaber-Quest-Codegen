@@ -29,8 +29,6 @@
 #include "Valve/VR/ETextureType.hpp"
 // Including type: Valve.VR.ETrackingUniverseOrigin
 #include "Valve/VR/ETrackingUniverseOrigin.hpp"
-// Including type: Valve.VR.TrackedDevicePose_t
-#include "Valve/VR/TrackedDevicePose_t.hpp"
 // Including type: Valve.VR.ETrackedDeviceClass
 #include "Valve/VR/ETrackedDeviceClass.hpp"
 // Including type: Valve.VR.EDeviceActivityLevel

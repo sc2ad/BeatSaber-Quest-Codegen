@@ -13,8 +13,6 @@
 #include "System/Collections/Generic/List_1.hpp"
 // Including type: ILightWithId
 #include "GlobalNamespace/ILightWithId.hpp"
-// Including type: System.Nullable`1
-#include "System/Nullable_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

@@ -12,6 +12,8 @@
 #include "System/ValueType.hpp"
 // Including type: OVRPlugin/BoundaryType
 #include "GlobalNamespace/OVRPlugin_BoundaryType.hpp"
+// Including type: OVRPlugin/Vector3f
+// Already included the same include: GlobalNamespace/OVRPlugin.hpp
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

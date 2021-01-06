@@ -11,8 +11,6 @@
 #include "System/Threading/SparselyPopulatedArray_1.hpp"
 // Including type: System.Threading.CancellationCallbackInfo
 #include "System/Threading/CancellationCallbackInfo.hpp"
-// Including type: System.Threading.CancellationTokenRegistration
-#include "System/Threading/CancellationTokenRegistration.hpp"
 // Including type: System.Threading.Timer
 #include "System/Threading/Timer.hpp"
 // Including type: System.Action`1

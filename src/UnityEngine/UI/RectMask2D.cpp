@@ -19,8 +19,6 @@
 #include "System/Collections/Generic/List_1.hpp"
 // Including type: UnityEngine.Canvas
 #include "UnityEngine/Canvas.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.Camera

@@ -7,29 +7,26 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: IBladeMovementData
 #include "GlobalNamespace/IBladeMovementData.hpp"
-// Including type: System.Single
-#include "System/Single.hpp"
+// Including type: BladeMovementDataElement
+#include "GlobalNamespace/BladeMovementDataElement.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: GlobalNamespace
-namespace GlobalNamespace {
-  // Forward declaring type: BladeMovementDataElement
-  struct BladeMovementDataElement;
-  // Forward declaring type: ISaberMovementDataProcessor
-  class ISaberMovementDataProcessor;
-}
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
   template<typename T>
   class List_1;
 }
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Forward declaring type: ISaberMovementDataProcessor
+  class ISaberMovementDataProcessor;
+}
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: Vector3
-  struct Vector3;
+  // Skipping declaration: Vector3 because it is already included!
 }
 // Completed forward declares
 // Type namespace: 

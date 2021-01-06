@@ -9,6 +9,8 @@
 #include "OVR/OpenVR/IVRInput.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
+// Including type: OVR.OpenVR.VRBoneTransform_t
+#include "OVR/OpenVR/VRBoneTransform_t.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -19,8 +21,6 @@ namespace OVR::OpenVR {
   struct EVRInputError;
   // Forward declaring type: EVRSkeletalTransformSpace
   struct EVRSkeletalTransformSpace;
-  // Forward declaring type: VRBoneTransform_t
-  struct VRBoneTransform_t;
 }
 // Forward declaring namespace: System
 namespace System {

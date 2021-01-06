@@ -15,6 +15,7 @@
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
+  // Skipping declaration: ParticleSystem because it is already included!
   // Forward declaring type: Color
   struct Color;
 }

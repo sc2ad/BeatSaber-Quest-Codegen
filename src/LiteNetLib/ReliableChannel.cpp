@@ -5,12 +5,10 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: LiteNetLib.ReliableChannel
 #include "LiteNetLib/ReliableChannel.hpp"
-// Including type: LiteNetLib.ReliableChannel/PendingPacket
-#include "LiteNetLib/ReliableChannel_PendingPacket.hpp"
-// Including type: LiteNetLib.NetPacket
-#include "LiteNetLib/NetPacket.hpp"
 // Including type: LiteNetLib.NetPeer
 #include "LiteNetLib/NetPeer.hpp"
+// Including type: LiteNetLib.NetPacket
+#include "LiteNetLib/NetPacket.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

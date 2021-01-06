@@ -9,6 +9,8 @@
 #include "OVR/OpenVR/IVRApplications.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+// Including type: OVR.OpenVR.AppOverrideKeys_t
+#include "OVR/OpenVR/AppOverrideKeys_t.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -17,8 +19,6 @@
 namespace OVR::OpenVR {
   // Forward declaring type: EVRApplicationError
   struct EVRApplicationError;
-  // Forward declaring type: AppOverrideKeys_t
-  struct AppOverrideKeys_t;
   // Forward declaring type: EVRApplicationProperty
   struct EVRApplicationProperty;
   // Forward declaring type: EVRApplicationTransitionState

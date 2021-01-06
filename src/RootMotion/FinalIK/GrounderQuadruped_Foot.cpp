@@ -3,7 +3,7 @@
 // =========================================================================
 // Begin includes
 // Including type: RootMotion.FinalIK.GrounderQuadruped/Foot
-#include "RootMotion/FinalIK/GrounderQuadruped_Foot.hpp"
+#include "RootMotion/FinalIK/GrounderQuadruped.hpp"
 // Including type: RootMotion.FinalIK.IKSolver
 #include "RootMotion/FinalIK/IKSolver.hpp"
 // Including type: UnityEngine.Transform

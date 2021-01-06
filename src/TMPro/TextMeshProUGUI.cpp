@@ -7,8 +7,6 @@
 #include "TMPro/TextMeshProUGUI.hpp"
 // Including type: TMPro.TMP_SubMeshUI
 #include "TMPro/TMP_SubMeshUI.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.CanvasRenderer
 #include "UnityEngine/CanvasRenderer.hpp"
 // Including type: UnityEngine.Canvas
@@ -31,8 +29,6 @@
 #include "TMPro/TMP_TextInfo.hpp"
 // Including type: TMPro.TMP_VertexDataUpdateFlags
 #include "TMPro/TMP_VertexDataUpdateFlags.hpp"
-// Including type: TMPro.TMP_Text/UnicodeChar
-#include "TMPro/TMP_Text_UnicodeChar.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

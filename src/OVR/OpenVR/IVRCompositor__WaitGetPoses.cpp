@@ -7,8 +7,6 @@
 #include "OVR/OpenVR/IVRCompositor__WaitGetPoses.hpp"
 // Including type: OVR.OpenVR.EVRCompositorError
 #include "OVR/OpenVR/EVRCompositorError.hpp"
-// Including type: OVR.OpenVR.TrackedDevicePose_t
-#include "OVR/OpenVR/TrackedDevicePose_t.hpp"
 // Including type: System.IAsyncResult
 #include "System/IAsyncResult.hpp"
 // Including type: System.AsyncCallback

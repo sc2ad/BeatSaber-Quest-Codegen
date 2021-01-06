@@ -26,6 +26,8 @@
 #include "UnityEngine/UI/ILayoutElement.hpp"
 // Including type: UnityEngine.TouchScreenKeyboardType
 #include "UnityEngine/TouchScreenKeyboardType.hpp"
+// Including type: UnityEngine.UIVertex
+#include "UnityEngine/UIVertex.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
@@ -34,26 +36,23 @@
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: CanvasRenderer
-  class CanvasRenderer;
-  // Forward declaring type: TextGenerator
-  class TextGenerator;
-  // Forward declaring type: RectTransform
-  class RectTransform;
-  // Forward declaring type: UIVertex
-  struct UIVertex;
-  // Forward declaring type: TouchScreenKeyboard
-  class TouchScreenKeyboard;
   // Forward declaring type: Mesh
   class Mesh;
+  // Forward declaring type: CanvasRenderer
+  class CanvasRenderer;
+  // Forward declaring type: RectTransform
+  class RectTransform;
+  // Forward declaring type: TextGenerator
+  class TextGenerator;
+  // Forward declaring type: TouchScreenKeyboard
+  class TouchScreenKeyboard;
   // Forward declaring type: Coroutine
   class Coroutine;
   // Forward declaring type: WaitForSecondsRealtime
   class WaitForSecondsRealtime;
   // Forward declaring type: Event
   class Event;
-  // Forward declaring type: Vector2
-  struct Vector2;
+  // Skipping declaration: Vector2 because it is already included!
   // Forward declaring type: Transform
   class Transform;
 }

@@ -7,14 +7,12 @@
 #include "GlobalNamespace/PyramidBloomRendererSO.hpp"
 // Including type: PyramidBloomRendererSO/Pass
 #include "GlobalNamespace/PyramidBloomRendererSO_Pass.hpp"
-// Including type: PyramidBloomRendererSO/Level
-#include "GlobalNamespace/PyramidBloomRendererSO_Level.hpp"
+// Including type: UnityEngine.RenderTexture
+#include "UnityEngine/RenderTexture.hpp"
 // Including type: UnityEngine.Shader
 #include "UnityEngine/Shader.hpp"
 // Including type: UnityEngine.Material
 #include "UnityEngine/Material.hpp"
-// Including type: UnityEngine.RenderTexture
-#include "UnityEngine/RenderTexture.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

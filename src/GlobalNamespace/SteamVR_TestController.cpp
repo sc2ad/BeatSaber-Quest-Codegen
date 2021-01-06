@@ -7,8 +7,6 @@
 #include "GlobalNamespace/SteamVR_TestController.hpp"
 // Including type: System.Collections.Generic.List`1
 #include "System/Collections/Generic/List_1.hpp"
-// Including type: Valve.VR.EVRButtonId
-#include "Valve/VR/EVRButtonId.hpp"
 // Including type: UnityEngine.Transform
 #include "UnityEngine/Transform.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

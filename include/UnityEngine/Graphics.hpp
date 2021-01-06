@@ -5,6 +5,8 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: UnityEngine.Matrix4x4
+#include "UnityEngine/Matrix4x4.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -17,14 +19,12 @@ namespace UnityEngine {
   class Texture;
   // Forward declaring type: Mesh
   class Mesh;
-  // Forward declaring type: Matrix4x4
-  struct Matrix4x4;
+  // Forward declaring type: MaterialPropertyBlock
+  class MaterialPropertyBlock;
   // Forward declaring type: Internal_DrawTextureArguments
   struct Internal_DrawTextureArguments;
   // Forward declaring type: Material
   class Material;
-  // Forward declaring type: MaterialPropertyBlock
-  class MaterialPropertyBlock;
   // Forward declaring type: Camera
   class Camera;
   // Forward declaring type: LightProbeProxyVolume

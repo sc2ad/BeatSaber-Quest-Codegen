@@ -11,28 +11,18 @@
 #include "System/Xml/XmlWellFormedWriter_Token.hpp"
 // Including type: System.Xml.XmlWellFormedWriter/NamespaceResolverProxy
 #include "System/Xml/XmlWellFormedWriter_NamespaceResolverProxy.hpp"
-// Including type: System.Xml.XmlWellFormedWriter/ElementScope
-#include "System/Xml/XmlWellFormedWriter_ElementScope.hpp"
-// Including type: System.Xml.XmlWellFormedWriter/NamespaceKind
-#include "System/Xml/XmlWellFormedWriter_NamespaceKind.hpp"
-// Including type: System.Xml.XmlWellFormedWriter/Namespace
-#include "System/Xml/XmlWellFormedWriter_Namespace.hpp"
-// Including type: System.Xml.XmlWellFormedWriter/AttrName
-#include "System/Xml/XmlWellFormedWriter_AttrName.hpp"
-// Including type: System.Xml.WriteState
-#include "System/Xml/WriteState.hpp"
+// Including type: System.Xml.XmlStandalone
+#include "System/Xml/XmlStandalone.hpp"
+// Including type: System.Collections.Generic.Dictionary`2
+#include "System/Collections/Generic/Dictionary_2.hpp"
+// Including type: System.Xml.XmlWriterSettings
+#include "System/Xml/XmlWriterSettings.hpp"
 // Including type: System.Xml.XmlWellFormedWriter/AttributeValueCache
 #include "System/Xml/XmlWellFormedWriter_AttributeValueCache.hpp"
 // Including type: System.Xml.XmlRawWriter
 #include "System/Xml/XmlRawWriter.hpp"
 // Including type: System.Xml.IXmlNamespaceResolver
 #include "System/Xml/IXmlNamespaceResolver.hpp"
-// Including type: System.Collections.Generic.Dictionary`2
-#include "System/Collections/Generic/Dictionary_2.hpp"
-// Including type: System.Xml.XmlWriterSettings
-#include "System/Xml/XmlWriterSettings.hpp"
-// Including type: System.Xml.XmlStandalone
-#include "System/Xml/XmlStandalone.hpp"
 // Including type: System.Xml.XmlException
 #include "System/Xml/XmlException.hpp"
 // Including type: System.Exception

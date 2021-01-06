@@ -11,16 +11,11 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+// Including type: UnityEngine.Keyframe
+#include "UnityEngine/Keyframe.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: Keyframe
-  struct Keyframe;
-}
-// Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18

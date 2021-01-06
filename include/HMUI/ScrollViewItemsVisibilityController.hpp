@@ -20,7 +20,6 @@ namespace HMUI {
 namespace UnityEngine {
   // Forward declaring type: RectTransform
   class RectTransform;
-  // Skipping declaration: Vector3 because it is already included!
 }
 // Forward declaring namespace: System
 namespace System {

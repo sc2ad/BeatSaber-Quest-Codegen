@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: NUnit.Framework.Api.DefaultTestAssemblyBuilder
 #include "NUnit/Framework/Api/DefaultTestAssemblyBuilder.hpp"
+// Including type: UnityEngine.TestTools.TestPlatform
+#include "UnityEngine/TestTools/TestPlatform.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -23,11 +25,6 @@ namespace NUnit::Framework::Interfaces {
 namespace System::Reflection {
   // Forward declaring type: Assembly
   class Assembly;
-}
-// Forward declaring namespace: UnityEngine::TestTools
-namespace UnityEngine::TestTools {
-  // Forward declaring type: TestPlatform
-  struct TestPlatform;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {

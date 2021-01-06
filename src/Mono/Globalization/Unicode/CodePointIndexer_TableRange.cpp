@@ -3,7 +3,7 @@
 // =========================================================================
 // Begin includes
 // Including type: Mono.Globalization.Unicode.CodePointIndexer/TableRange
-#include "Mono/Globalization/Unicode/CodePointIndexer_TableRange.hpp"
+#include "Mono/Globalization/Unicode/CodePointIndexer.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

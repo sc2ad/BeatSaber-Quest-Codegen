@@ -7,12 +7,6 @@
 #include "GlobalNamespace/BloomPrePassRendererSO_LightsRenderingData.hpp"
 // Including type: UnityEngine.Mesh
 #include "UnityEngine/Mesh.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
-// Including type: UnityEngine.Color
-#include "UnityEngine/Color.hpp"
-// Including type: UnityEngine.Vector4
-#include "UnityEngine/Vector4.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

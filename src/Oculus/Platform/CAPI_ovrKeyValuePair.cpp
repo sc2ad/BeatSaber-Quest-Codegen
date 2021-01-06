@@ -4,7 +4,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Oculus.Platform.CAPI/ovrKeyValuePair
-#include "Oculus/Platform/CAPI_ovrKeyValuePair.hpp"
+#include "Oculus/Platform/CAPI.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

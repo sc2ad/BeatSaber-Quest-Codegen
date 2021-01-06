@@ -13,7 +13,6 @@
 namespace UnityEngine {
   // Forward declaring type: Color
   struct Color;
-  // Skipping declaration: Vector3 because it is already included!
 }
 // Completed forward declares
 // Type namespace: UnityEngine

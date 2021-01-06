@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.InteractionTrigger/Range
 #include "RootMotion/FinalIK/InteractionTrigger_Range.hpp"
+// Including type: RootMotion.FinalIK.FullBodyBipedEffector
+#include "RootMotion/FinalIK/FullBodyBipedEffector.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -15,8 +17,6 @@
 namespace RootMotion::FinalIK {
   // Forward declaring type: InteractionObject
   class InteractionObject;
-  // Forward declaring type: FullBodyBipedEffector
-  struct FullBodyBipedEffector;
 }
 // Completed forward declares
 // Type namespace: RootMotion.FinalIK

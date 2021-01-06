@@ -8,6 +8,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
+// Including type: UnityEngine.ContactPoint
+#include "UnityEngine/ContactPoint.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -16,8 +18,6 @@ namespace UnityEngine {
   class Rigidbody;
   // Forward declaring type: Collider
   class Collider;
-  // Forward declaring type: ContactPoint
-  struct ContactPoint;
 }
 // Completed forward declares
 // Type namespace: UnityEngine

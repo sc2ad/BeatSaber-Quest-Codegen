@@ -5,7 +5,7 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: BeatSaberAPI.DataTransferObjects.LevelScoreResult
+// Including type: BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers
 #include "BeatSaberAPI/DataTransferObjects/LevelScoreResult.hpp"
 // Completed includes
 // Begin forward declares

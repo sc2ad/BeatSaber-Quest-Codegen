@@ -24,8 +24,6 @@ namespace System::Reflection {
   class Binder;
   // Forward declaring type: CallingConventions
   struct CallingConventions;
-  // Forward declaring type: ParameterModifier
-  struct ParameterModifier;
   // Forward declaring type: EventInfo
   class EventInfo;
   // Forward declaring type: FieldInfo

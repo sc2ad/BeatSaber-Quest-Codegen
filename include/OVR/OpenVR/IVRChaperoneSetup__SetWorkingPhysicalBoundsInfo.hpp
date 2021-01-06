@@ -9,15 +9,12 @@
 #include "OVR/OpenVR/IVRChaperoneSetup.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
+// Including type: OVR.OpenVR.HmdQuad_t
+#include "OVR/OpenVR/HmdQuad_t.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: OVR::OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: HmdQuad_t
-  struct HmdQuad_t;
-}
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: IAsyncResult

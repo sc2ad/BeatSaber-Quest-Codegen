@@ -5,14 +5,14 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.GrounderQuadruped
 #include "RootMotion/FinalIK/GrounderQuadruped.hpp"
-// Including type: RootMotion.FinalIK.GrounderQuadruped/Foot
-#include "RootMotion/FinalIK/GrounderQuadruped_Foot.hpp"
+// Including type: UnityEngine.Rigidbody
+#include "UnityEngine/Rigidbody.hpp"
 // Including type: UnityEngine.Transform
 #include "UnityEngine/Transform.hpp"
 // Including type: RootMotion.FinalIK.IK
 #include "RootMotion/FinalIK/IK.hpp"
-// Including type: UnityEngine.Rigidbody
-#include "UnityEngine/Rigidbody.hpp"
+// Including type: RootMotion.FinalIK.IKSolver
+#include "RootMotion/FinalIK/IKSolver.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

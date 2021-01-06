@@ -14,6 +14,8 @@
 #include "System/RuntimeTypeHandle.hpp"
 // Including type: System.Reflection.BindingFlags
 #include "System/Reflection/BindingFlags.hpp"
+// Including type: System.Reflection.ParameterModifier
+#include "System/Reflection/ParameterModifier.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -30,8 +32,6 @@ namespace System::Reflection {
   class AssemblyName;
   // Forward declaring type: Assembly
   class Assembly;
-  // Forward declaring type: ParameterModifier
-  struct ParameterModifier;
   // Forward declaring type: ConstructorInfo
   class ConstructorInfo;
   // Forward declaring type: CallingConventions

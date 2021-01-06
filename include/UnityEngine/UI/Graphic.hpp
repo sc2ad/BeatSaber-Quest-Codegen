@@ -11,6 +11,8 @@
 #include "UnityEngine/UI/ICanvasElement.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
+// Including type: UnityEngine.Vector2
+#include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.UI.CoroutineTween.ColorTween
 #include "UnityEngine/UI/CoroutineTween/ColorTween.hpp"
 // Including type: UnityEngine.UIVertex
@@ -31,7 +33,6 @@ namespace UnityEngine {
   class Canvas;
   // Forward declaring type: Mesh
   class Mesh;
-  // Skipping declaration: Vector2 because it is already included!
   // Forward declaring type: Texture2D
   class Texture2D;
   // Forward declaring type: Texture

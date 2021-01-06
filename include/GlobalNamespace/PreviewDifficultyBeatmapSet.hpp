@@ -5,6 +5,8 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: BeatmapDifficulty
+#include "GlobalNamespace/BeatmapDifficulty.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -13,8 +15,6 @@
 namespace GlobalNamespace {
   // Forward declaring type: BeatmapCharacteristicSO
   class BeatmapCharacteristicSO;
-  // Forward declaring type: BeatmapDifficulty
-  struct BeatmapDifficulty;
 }
 // Completed forward declares
 // Type namespace: 

@@ -9,12 +9,10 @@
 #include "Valve/VR/ETrackingUniverseOrigin.hpp"
 // Including type: Valve.VR.EVRCompositorError
 #include "Valve/VR/EVRCompositorError.hpp"
-// Including type: Valve.VR.TrackedDevicePose_t
-#include "Valve/VR/TrackedDevicePose_t.hpp"
 // Including type: Valve.VR.EVREye
 #include "Valve/VR/EVREye.hpp"
-// Including type: Valve.VR.Texture_t
-#include "Valve/VR/Texture_t.hpp"
+// Including type: System.Text.StringBuilder
+#include "System/Text/StringBuilder.hpp"
 // Including type: Valve.VR.VRTextureBounds_t
 #include "Valve/VR/VRTextureBounds_t.hpp"
 // Including type: Valve.VR.EVRSubmitFlags
@@ -25,8 +23,6 @@
 #include "Valve/VR/Compositor_CumulativeStats.hpp"
 // Including type: Valve.VR.HmdColor_t
 #include "Valve/VR/HmdColor_t.hpp"
-// Including type: System.Text.StringBuilder
-#include "System/Text/StringBuilder.hpp"
 // Including type: Valve.VR.EVRCompositorTimingMode
 #include "Valve/VR/EVRCompositorTimingMode.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

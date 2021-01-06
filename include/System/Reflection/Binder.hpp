@@ -5,6 +5,8 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: System.Reflection.ParameterModifier
+#include "System/Reflection/ParameterModifier.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -15,8 +17,6 @@ namespace System::Reflection {
   class MethodBase;
   // Forward declaring type: BindingFlags
   struct BindingFlags;
-  // Forward declaring type: ParameterModifier
-  struct ParameterModifier;
   // Forward declaring type: FieldInfo
   class FieldInfo;
   // Forward declaring type: PropertyInfo

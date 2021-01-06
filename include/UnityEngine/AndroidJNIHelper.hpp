@@ -5,8 +5,8 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: System.IntPtr
-#include "System/IntPtr.hpp"
+// Including type: UnityEngine.jvalue
+#include "UnityEngine/jvalue.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -17,8 +17,6 @@ namespace UnityEngine {
   class AndroidJavaRunnable;
   // Forward declaring type: AndroidJavaProxy
   class AndroidJavaProxy;
-  // Forward declaring type: jvalue
-  struct jvalue;
 }
 // Forward declaring namespace: System
 namespace System {

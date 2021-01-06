@@ -5,24 +5,23 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: UnityEngine.RaycastHit
+#include "UnityEngine/RaycastHit.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: Vector3
-  struct Vector3;
+  // Skipping declaration: Vector3 because it is already included!
   // Forward declaring type: PhysicsScene
   struct PhysicsScene;
   // Forward declaring type: Collider
   class Collider;
   // Forward declaring type: QueryTriggerInteraction
   struct QueryTriggerInteraction;
-  // Forward declaring type: RaycastHit
-  struct RaycastHit;
-  // Forward declaring type: Ray
-  struct Ray;
   // Forward declaring type: Quaternion
   struct Quaternion;
+  // Forward declaring type: Ray
+  struct Ray;
 }
 // Completed forward declares
 // Type namespace: UnityEngine

@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.UI.ReflectionMethodsCache/RaycastAllCallback
 #include "UnityEngine/UI/ReflectionMethodsCache_RaycastAllCallback.hpp"
-// Including type: UnityEngine.RaycastHit
-#include "UnityEngine/RaycastHit.hpp"
 // Including type: UnityEngine.Ray
 #include "UnityEngine/Ray.hpp"
 // Including type: System.IAsyncResult

@@ -5,19 +5,18 @@
 #pragma pack(push, 1)
 // WARNING Layout: Sequential may not be correctly taken into account!
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ParticleSystem
 #include "UnityEngine/ParticleSystem.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-// Including type: UnityEngine.ParticleSystem/Particle
-#include "UnityEngine/ParticleSystem_Particle.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Skipping declaration: Vector3 because it is already included!
-  // Skipping declaration: Color32 because it is already included!
+  // Forward declaring type: Vector3
+  struct Vector3;
+  // Forward declaring type: Color32
+  struct Color32;
 }
 // Completed forward declares
 // Type namespace: UnityEngine

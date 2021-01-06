@@ -5,10 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Globalization.EncodingTable
 #include "System/Globalization/EncodingTable.hpp"
-// Including type: System.Globalization.InternalEncodingDataItem
-#include "System/Globalization/InternalEncodingDataItem.hpp"
-// Including type: System.Globalization.InternalCodePageDataItem
-#include "System/Globalization/InternalCodePageDataItem.hpp"
 // Including type: System.Collections.Hashtable
 #include "System/Collections/Hashtable.hpp"
 // Including type: System.Globalization.CodePageDataItem

@@ -17,14 +17,8 @@
 #include "UnityEngine/ProBuilder/Face.hpp"
 // Including type: UnityEngine.ProBuilder.SharedVertex
 #include "UnityEngine/ProBuilder/SharedVertex.hpp"
-// Including type: UnityEngine.ProBuilder.Vertex
-#include "UnityEngine/ProBuilder/Vertex.hpp"
-// Including type: System.Collections.ObjectModel.ReadOnlyCollection`1
-#include "System/Collections/ObjectModel/ReadOnlyCollection_1.hpp"
 // Including type: System.Collections.Generic.List`1
 #include "System/Collections/Generic/List_1.hpp"
-// Including type: UnityEngine.ProBuilder.MeshSyncState
-#include "UnityEngine/ProBuilder/MeshSyncState.hpp"
 // Including type: UnityEngine.ProBuilder.UnwrapParameters
 #include "UnityEngine/ProBuilder/UnwrapParameters.hpp"
 // Including type: UnityEngine.Mesh
@@ -43,6 +37,12 @@
 #include "System/Collections/Generic/IList_1.hpp"
 // Including type: System.Collections.Generic.IEnumerable`1
 #include "System/Collections/Generic/IEnumerable_1.hpp"
+// Including type: UnityEngine.ProBuilder.Vertex
+#include "UnityEngine/ProBuilder/Vertex.hpp"
+// Including type: System.Collections.ObjectModel.ReadOnlyCollection`1
+#include "System/Collections/ObjectModel/ReadOnlyCollection_1.hpp"
+// Including type: UnityEngine.ProBuilder.MeshSyncState
+#include "UnityEngine/ProBuilder/MeshSyncState.hpp"
 // Including type: UnityEngine.Material
 #include "UnityEngine/Material.hpp"
 // Including type: UnityEngine.MeshTopology

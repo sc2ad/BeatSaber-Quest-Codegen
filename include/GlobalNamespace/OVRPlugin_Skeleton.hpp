@@ -12,6 +12,10 @@
 #include "System/ValueType.hpp"
 // Including type: OVRPlugin/SkeletonType
 #include "GlobalNamespace/OVRPlugin_SkeletonType.hpp"
+// Including type: OVRPlugin/Bone
+#include "GlobalNamespace/OVRPlugin_Bone.hpp"
+// Including type: OVRPlugin/BoneCapsule
+#include "GlobalNamespace/OVRPlugin_BoneCapsule.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {

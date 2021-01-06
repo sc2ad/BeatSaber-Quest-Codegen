@@ -7,12 +7,10 @@
 #include "GlobalNamespace/ParticleSystemEventEffect.hpp"
 // Including type: ColorSO
 #include "GlobalNamespace/ColorSO.hpp"
-// Including type: BeatmapEventData
-#include "GlobalNamespace/BeatmapEventData.hpp"
 // Including type: BeatmapObjectCallbackController
 #include "GlobalNamespace/BeatmapObjectCallbackController.hpp"
-// Including type: UnityEngine.ParticleSystem/Particle
-#include "UnityEngine/ParticleSystem_Particle.hpp"
+// Including type: BeatmapEventData
+#include "GlobalNamespace/BeatmapEventData.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

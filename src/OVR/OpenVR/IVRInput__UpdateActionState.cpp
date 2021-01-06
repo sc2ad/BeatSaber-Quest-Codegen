@@ -7,8 +7,6 @@
 #include "OVR/OpenVR/IVRInput__UpdateActionState.hpp"
 // Including type: OVR.OpenVR.EVRInputError
 #include "OVR/OpenVR/EVRInputError.hpp"
-// Including type: OVR.OpenVR.VRActiveActionSet_t
-#include "OVR/OpenVR/VRActiveActionSet_t.hpp"
 // Including type: System.IAsyncResult
 #include "System/IAsyncResult.hpp"
 // Including type: System.AsyncCallback

@@ -7,8 +7,6 @@
 #include "TMPro/TMP_TextUtilities.hpp"
 // Including type: TMPro.TMP_TextUtilities/LineSegment
 #include "TMPro/TMP_TextUtilities_LineSegment.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
 // Including type: System.String
 #include "System/String.hpp"
 // Including type: TMPro.TMP_Text

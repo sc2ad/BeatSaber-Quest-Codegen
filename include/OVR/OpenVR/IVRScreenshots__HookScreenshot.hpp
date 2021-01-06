@@ -9,6 +9,8 @@
 #include "OVR/OpenVR/IVRScreenshots.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
+// Including type: OVR.OpenVR.EVRScreenshotType
+#include "OVR/OpenVR/EVRScreenshotType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -17,8 +19,6 @@
 namespace OVR::OpenVR {
   // Forward declaring type: EVRScreenshotError
   struct EVRScreenshotError;
-  // Forward declaring type: EVRScreenshotType
-  struct EVRScreenshotType;
 }
 // Forward declaring namespace: System
 namespace System {

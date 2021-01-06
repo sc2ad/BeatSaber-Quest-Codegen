@@ -7,14 +7,14 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum
 #include "System/Runtime/Serialization/Formatters/Binary/BinaryHeaderEnum.hpp"
+// Including type: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum
+#include "System/Runtime/Serialization/Formatters/Binary/BinaryTypeEnum.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization::Formatters::Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
-  // Forward declaring type: BinaryTypeEnum
-  struct BinaryTypeEnum;
   // Forward declaring type: __BinaryWriter
   class __BinaryWriter;
   // Forward declaring type: __BinaryParser

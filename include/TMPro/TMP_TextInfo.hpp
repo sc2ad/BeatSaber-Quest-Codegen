@@ -5,8 +5,20 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: UnityEngine.Vector2
-#include "UnityEngine/Vector2.hpp"
+// Including type: TMPro.TMP_CharacterInfo
+#include "TMPro/TMP_CharacterInfo.hpp"
+// Including type: TMPro.TMP_WordInfo
+#include "TMPro/TMP_WordInfo.hpp"
+// Including type: TMPro.TMP_LinkInfo
+#include "TMPro/TMP_LinkInfo.hpp"
+// Including type: TMPro.TMP_LineInfo
+#include "TMPro/TMP_LineInfo.hpp"
+// Including type: TMPro.TMP_PageInfo
+#include "TMPro/TMP_PageInfo.hpp"
+// Including type: TMPro.TMP_MeshInfo
+#include "TMPro/TMP_MeshInfo.hpp"
+// Including type: TMPro.MaterialReference
+#include "TMPro/MaterialReference.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -15,20 +27,6 @@
 namespace TMPro {
   // Forward declaring type: TMP_Text
   class TMP_Text;
-  // Forward declaring type: TMP_CharacterInfo
-  struct TMP_CharacterInfo;
-  // Forward declaring type: TMP_WordInfo
-  struct TMP_WordInfo;
-  // Forward declaring type: TMP_LinkInfo
-  struct TMP_LinkInfo;
-  // Forward declaring type: TMP_LineInfo
-  struct TMP_LineInfo;
-  // Forward declaring type: TMP_PageInfo
-  struct TMP_PageInfo;
-  // Forward declaring type: TMP_MeshInfo
-  struct TMP_MeshInfo;
-  // Forward declaring type: MaterialReference
-  struct MaterialReference;
 }
 // Completed forward declares
 // Type namespace: TMPro

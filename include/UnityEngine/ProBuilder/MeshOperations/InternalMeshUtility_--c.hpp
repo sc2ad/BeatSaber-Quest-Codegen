@@ -7,6 +7,12 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility
 #include "UnityEngine/ProBuilder/MeshOperations/InternalMeshUtility.hpp"
+// Including type: UnityEngine.Vector3
+#include "UnityEngine/Vector3.hpp"
+// Including type: UnityEngine.Color
+#include "UnityEngine/Color.hpp"
+// Including type: UnityEngine.Vector2
+#include "UnityEngine/Vector2.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -21,12 +27,6 @@ namespace System {
 namespace UnityEngine {
   // Forward declaring type: Mesh
   class Mesh;
-  // Forward declaring type: Vector3
-  struct Vector3;
-  // Forward declaring type: Color
-  struct Color;
-  // Forward declaring type: Vector2
-  struct Vector2;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder.MeshOperations

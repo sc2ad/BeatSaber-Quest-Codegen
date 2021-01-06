@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.GC
 #include "System/GC.hpp"
-// Including type: System.Runtime.CompilerServices.Ephemeron
-#include "System/Runtime/CompilerServices/Ephemeron.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

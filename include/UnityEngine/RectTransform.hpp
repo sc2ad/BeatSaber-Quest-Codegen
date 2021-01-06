@@ -15,7 +15,6 @@ namespace UnityEngine {
   struct Rect;
   // Forward declaring type: Vector2
   struct Vector2;
-  // Skipping declaration: Vector3 because it is already included!
 }
 // Completed forward declares
 // Type namespace: UnityEngine

@@ -9,6 +9,10 @@
 #include "OVR/OpenVR/IVRCompositor.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+// Including type: OVR.OpenVR.TrackedDevicePose_t
+#include "OVR/OpenVR/TrackedDevicePose_t.hpp"
+// Including type: OVR.OpenVR.Texture_t
+#include "OVR/OpenVR/Texture_t.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -19,12 +23,8 @@ namespace OVR::OpenVR {
   struct ETrackingUniverseOrigin;
   // Forward declaring type: EVRCompositorError
   struct EVRCompositorError;
-  // Forward declaring type: TrackedDevicePose_t
-  struct TrackedDevicePose_t;
   // Forward declaring type: EVREye
   struct EVREye;
-  // Forward declaring type: Texture_t
-  struct Texture_t;
   // Forward declaring type: VRTextureBounds_t
   struct VRTextureBounds_t;
   // Forward declaring type: EVRSubmitFlags

@@ -7,8 +7,6 @@
 #include "UnityEngine/MaterialPropertyBlock.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-// Including type: UnityEngine.Vector4
-#include "UnityEngine/Vector4.hpp"
 // Including type: System.Collections.Generic.List`1
 #include "System/Collections/Generic/List_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

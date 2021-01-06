@@ -5,12 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Diagnostics.Tracing.TraceLoggingDataCollector
 #include "System/Diagnostics/Tracing/TraceLoggingDataCollector.hpp"
-// Including type: System.IntPtr
-#include "System/IntPtr.hpp"
-// Including type: System.UIntPtr
-#include "System/UIntPtr.hpp"
-// Including type: System.Guid
-#include "System/Guid.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

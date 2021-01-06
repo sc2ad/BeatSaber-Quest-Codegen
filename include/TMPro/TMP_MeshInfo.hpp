@@ -8,12 +8,14 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-// Including type: UnityEngine.Color32
-#include "UnityEngine/Color32.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Vector4
 #include "UnityEngine/Vector4.hpp"
+// Including type: UnityEngine.Vector2
+#include "UnityEngine/Vector2.hpp"
+// Including type: UnityEngine.Color32
+#include "UnityEngine/Color32.hpp"
 // Including type: UnityEngine.Bounds
 #include "UnityEngine/Bounds.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
@@ -24,19 +26,17 @@
 namespace UnityEngine {
   // Forward declaring type: Mesh
   class Mesh;
-  // Forward declaring type: Vector2
-  struct Vector2;
+}
+// Forward declaring namespace: TMPro
+namespace TMPro {
+  // Forward declaring type: VertexSortingOrder
+  struct VertexSortingOrder;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IList`1<T>
   template<typename T>
   class IList_1;
-}
-// Forward declaring namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: VertexSortingOrder
-  struct VertexSortingOrder;
 }
 // Completed forward declares
 // Type namespace: TMPro

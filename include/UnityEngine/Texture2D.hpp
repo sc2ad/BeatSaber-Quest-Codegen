@@ -7,6 +7,10 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Texture
 #include "UnityEngine/Texture.hpp"
+// Including type: UnityEngine.Color
+#include "UnityEngine/Color.hpp"
+// Including type: UnityEngine.Color32
+#include "UnityEngine/Color32.hpp"
 // Including type: UnityEngine.TextureFormat
 #include "UnityEngine/TextureFormat.hpp"
 // Including type: Unity.Collections.NativeArray`1
@@ -28,12 +32,8 @@ namespace System {
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: Color
-  struct Color;
   // Forward declaring type: Rect
   struct Rect;
-  // Forward declaring type: Color32
-  struct Color32;
 }
 // Completed forward declares
 // Type namespace: UnityEngine

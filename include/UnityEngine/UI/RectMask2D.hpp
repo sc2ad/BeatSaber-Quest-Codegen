@@ -32,7 +32,6 @@ namespace UnityEngine {
   class RectTransform;
   // Forward declaring type: Canvas
   class Canvas;
-  // Skipping declaration: Vector3 because it is already included!
   // Skipping declaration: Vector2 because it is already included!
   // Forward declaring type: Camera
   class Camera;

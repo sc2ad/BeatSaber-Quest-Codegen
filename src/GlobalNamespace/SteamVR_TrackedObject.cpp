@@ -7,8 +7,6 @@
 #include "GlobalNamespace/SteamVR_TrackedObject.hpp"
 // Including type: UnityEngine.Transform
 #include "UnityEngine/Transform.hpp"
-// Including type: Valve.VR.TrackedDevicePose_t
-#include "Valve/VR/TrackedDevicePose_t.hpp"
 // Including type: SteamVR_Events/Action
 #include "GlobalNamespace/SteamVR_Events_Action.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

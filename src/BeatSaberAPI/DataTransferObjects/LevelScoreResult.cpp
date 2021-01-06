@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BeatSaberAPI.DataTransferObjects.LevelScoreResult
 #include "BeatSaberAPI/DataTransferObjects/LevelScoreResult.hpp"
-// Including type: BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers
-#include "BeatSaberAPI/DataTransferObjects/LevelScoreResult_GameplayModifiers.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

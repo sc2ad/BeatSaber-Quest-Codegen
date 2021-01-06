@@ -23,8 +23,6 @@
 #include "GlobalNamespace/Saber.hpp"
 // Including type: UnityEngine.Transform
 #include "UnityEngine/Transform.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
 // Including type: UnityEngine.Bounds

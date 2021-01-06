@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Object
 #include "UnityEngine/Object.hpp"
+// Including type: UnityEngine.Vector2
+#include "UnityEngine/Vector2.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -19,8 +21,6 @@ namespace UnityEngine {
   struct Vector4;
   // Forward declaring type: Texture2D
   class Texture2D;
-  // Forward declaring type: Vector2
-  struct Vector2;
   // Forward declaring type: SpriteMeshType
   struct SpriteMeshType;
   // Forward declaring type: Bounds

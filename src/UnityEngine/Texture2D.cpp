@@ -11,12 +11,8 @@
 #include "UnityEngine/Experimental/Rendering/TextureCreationFlags.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
-// Including type: UnityEngine.Color
-#include "UnityEngine/Color.hpp"
 // Including type: UnityEngine.Rect
 #include "UnityEngine/Rect.hpp"
-// Including type: UnityEngine.Color32
-#include "UnityEngine/Color32.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

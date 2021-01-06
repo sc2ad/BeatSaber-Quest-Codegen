@@ -5,20 +5,16 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Physics
 #include "UnityEngine/Physics.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.PhysicsScene
 #include "UnityEngine/PhysicsScene.hpp"
 // Including type: UnityEngine.Collider
 #include "UnityEngine/Collider.hpp"
 // Including type: UnityEngine.QueryTriggerInteraction
 #include "UnityEngine/QueryTriggerInteraction.hpp"
-// Including type: UnityEngine.RaycastHit
-#include "UnityEngine/RaycastHit.hpp"
-// Including type: UnityEngine.Ray
-#include "UnityEngine/Ray.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
+// Including type: UnityEngine.Ray
+#include "UnityEngine/Ray.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

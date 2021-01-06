@@ -25,7 +25,8 @@
 namespace UnityEngine {
   // Skipping declaration: ParticleSystem because it is already included!
   // Skipping declaration: Vector3 because it is already included!
-  // Skipping declaration: Color32 because it is already included!
+  // Forward declaring type: Color32
+  struct Color32;
 }
 // Completed forward declares
 // Type namespace: 

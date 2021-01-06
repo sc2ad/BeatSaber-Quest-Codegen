@@ -14,16 +14,12 @@
 #include "System/Runtime/CompilerServices/AsyncVoidMethodBuilder.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
+// Including type: System.Collections.Generic.KeyValuePair`2
+#include "System/Collections/Generic/KeyValuePair_2.hpp"
 // Including type: EntitlementsStatus
 #include "GlobalNamespace/EntitlementsStatus.hpp"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: System::Collections::Generic
-namespace System::Collections::Generic {
-  // Forward declaring type: KeyValuePair`2<TKey, TValue>
-  template<typename TKey, typename TValue>
-  struct KeyValuePair_2;
-}
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: IConnectedPlayer

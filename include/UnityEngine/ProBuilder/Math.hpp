@@ -9,10 +9,10 @@
 #include "System/Single.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-// Including type: UnityEngine.ProBuilder.Edge
-#include "UnityEngine/ProBuilder/Edge.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
+// Including type: UnityEngine.ProBuilder.Edge
+#include "UnityEngine/ProBuilder/Edge.hpp"
 // Including type: UnityEngine.Vector4
 #include "UnityEngine/Vector4.hpp"
 // Including type: UnityEngine.Color
@@ -21,22 +21,6 @@
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: System
-namespace System {
-  // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
-  class Func_2;
-  // Skipping declaration: IComparable`1 because it is already included!
-}
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: Ray
-  struct Ray;
-  // Forward declaring type: Rect
-  struct Rect;
-  // Forward declaring type: Bounds
-  struct Bounds;
-}
 // Forward declaring namespace: UnityEngine::ProBuilder
 namespace UnityEngine::ProBuilder {
   // Forward declaring type: Bounds2D
@@ -50,6 +34,15 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: Normal
   struct Normal;
 }
+// Forward declaring namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: Ray
+  struct Ray;
+  // Forward declaring type: Rect
+  struct Rect;
+  // Forward declaring type: Bounds
+  struct Bounds;
+}
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IList`1<T>
@@ -58,6 +51,13 @@ namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
   template<typename T>
   class IEnumerable_1;
+}
+// Forward declaring namespace: System
+namespace System {
+  // Skipping declaration: IComparable`1 because it is already included!
+  // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
+  class Func_2;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder

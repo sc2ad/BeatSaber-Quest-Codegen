@@ -9,6 +9,10 @@
 #include "OVR/OpenVR/IVRInput.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+// Including type: OVR.OpenVR.VRActiveActionSet_t
+#include "OVR/OpenVR/VRActiveActionSet_t.hpp"
+// Including type: OVR.OpenVR.VRBoneTransform_t
+#include "OVR/OpenVR/VRBoneTransform_t.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -17,8 +21,6 @@
 namespace OVR::OpenVR {
   // Forward declaring type: EVRInputError
   struct EVRInputError;
-  // Forward declaring type: VRActiveActionSet_t
-  struct VRActiveActionSet_t;
   // Forward declaring type: InputDigitalActionData_t
   struct InputDigitalActionData_t;
   // Forward declaring type: InputAnalogActionData_t
@@ -33,8 +35,6 @@ namespace OVR::OpenVR {
   struct EVRSkeletalTransformSpace;
   // Forward declaring type: EVRSkeletalMotionRange
   struct EVRSkeletalMotionRange;
-  // Forward declaring type: VRBoneTransform_t
-  struct VRBoneTransform_t;
   // Forward declaring type: InputOriginInfo_t
   struct InputOriginInfo_t;
 }

@@ -5,16 +5,11 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: LeaderboardsDTO.GameplayModifiersDto
+#include "LeaderboardsDTO/GameplayModifiersDto.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: LeaderboardsDTO
-namespace LeaderboardsDTO {
-  // Forward declaring type: GameplayModifiersDto
-  struct GameplayModifiersDto;
-}
-// Completed forward declares
 // Type namespace: LeaderboardsDTO
 namespace LeaderboardsDTO {
   // Size: 0x68

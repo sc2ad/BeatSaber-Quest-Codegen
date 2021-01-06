@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.RotationLimit
 #include "RootMotion/FinalIK/RotationLimit.hpp"
+// Including type: UnityEngine.Keyframe
+#include "UnityEngine/Keyframe.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -15,8 +17,6 @@
 namespace UnityEngine {
   // Forward declaring type: AnimationCurve
   class AnimationCurve;
-  // Forward declaring type: Keyframe
-  struct Keyframe;
   // Skipping declaration: Quaternion because it is already included!
 }
 // Completed forward declares

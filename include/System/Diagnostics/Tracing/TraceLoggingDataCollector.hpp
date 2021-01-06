@@ -5,20 +5,15 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: System.IntPtr
+#include "System/IntPtr.hpp"
+// Including type: System.UIntPtr
+#include "System/UIntPtr.hpp"
+// Including type: System.Guid
+#include "System/Guid.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: System
-namespace System {
-  // Forward declaring type: IntPtr
-  struct IntPtr;
-  // Forward declaring type: UIntPtr
-  struct UIntPtr;
-  // Forward declaring type: Guid
-  struct Guid;
-}
-// Completed forward declares
 // Type namespace: System.Diagnostics.Tracing
 namespace System::Diagnostics::Tracing {
   // Size: 0x0

@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: OVR.OpenVR.IVRChaperoneSetup/_GetWorkingCollisionBoundsInfo
 #include "OVR/OpenVR/IVRChaperoneSetup__GetWorkingCollisionBoundsInfo.hpp"
-// Including type: OVR.OpenVR.HmdQuad_t
-#include "OVR/OpenVR/HmdQuad_t.hpp"
 // Including type: System.IAsyncResult
 #include "System/IAsyncResult.hpp"
 // Including type: System.AsyncCallback

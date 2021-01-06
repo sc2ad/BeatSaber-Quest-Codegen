@@ -7,8 +7,6 @@
 #include "OVR/OpenVR/IVRScreenshots__HookScreenshot.hpp"
 // Including type: OVR.OpenVR.EVRScreenshotError
 #include "OVR/OpenVR/EVRScreenshotError.hpp"
-// Including type: OVR.OpenVR.EVRScreenshotType
-#include "OVR/OpenVR/EVRScreenshotType.hpp"
 // Including type: System.IAsyncResult
 #include "System/IAsyncResult.hpp"
 // Including type: System.AsyncCallback

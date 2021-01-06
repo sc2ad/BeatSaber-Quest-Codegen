@@ -9,8 +9,6 @@
 #include "System/Reflection/MethodBase.hpp"
 // Including type: System.Reflection.BindingFlags
 #include "System/Reflection/BindingFlags.hpp"
-// Including type: System.Reflection.ParameterModifier
-#include "System/Reflection/ParameterModifier.hpp"
 // Including type: System.Globalization.CultureInfo
 #include "System/Globalization/CultureInfo.hpp"
 // Including type: System.Reflection.FieldInfo

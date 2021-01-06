@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: Valve.VR.IVRChaperoneSetup/_GetLiveCollisionBoundsInfo
 #include "Valve/VR/IVRChaperoneSetup__GetLiveCollisionBoundsInfo.hpp"
-// Including type: Valve.VR.HmdQuad_t
-#include "Valve/VR/HmdQuad_t.hpp"
 // Including type: System.IAsyncResult
 #include "System/IAsyncResult.hpp"
 // Including type: System.AsyncCallback

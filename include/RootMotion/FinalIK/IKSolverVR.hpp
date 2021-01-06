@@ -7,8 +7,12 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: RootMotion.FinalIK.IKSolver
 #include "RootMotion/FinalIK/IKSolver.hpp"
+// Including type: UnityEngine.Quaternion
+#include "UnityEngine/Quaternion.hpp"
 // Including type: RootMotion.FinalIK.VRIK
 #include "RootMotion/FinalIK/VRIK.hpp"
+// Including type: UnityEngine.Keyframe
+#include "UnityEngine/Keyframe.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -20,9 +24,6 @@ namespace RootMotion::FinalIK {
 namespace UnityEngine {
   // Forward declaring type: Transform
   class Transform;
-  // Forward declaring type: Keyframe
-  struct Keyframe;
-  // Skipping declaration: Quaternion because it is already included!
 }
 // Completed forward declares
 // Type namespace: RootMotion.FinalIK

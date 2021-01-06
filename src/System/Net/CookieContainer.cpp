@@ -7,8 +7,6 @@
 #include "System/Net/CookieContainer.hpp"
 // Including type: System.Collections.Hashtable
 #include "System/Collections/Hashtable.hpp"
-// Including type: System.Net.HeaderVariantInfo
-#include "System/Net/HeaderVariantInfo.hpp"
 // Including type: System.Net.PathList
 #include "System/Net/PathList.hpp"
 // Including type: System.Net.Cookie

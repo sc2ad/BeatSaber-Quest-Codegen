@@ -3,7 +3,7 @@
 // =========================================================================
 // Begin includes
 // Including type: System.DateTimeParse/DS
-#include "System/DateTimeParse_DS.hpp"
+#include "System/DateTimeParse.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

@@ -9,8 +9,6 @@
 #include "UnityEngine/AndroidJavaProxy.hpp"
 // Including type: UnityEngine.AndroidJavaRunnable
 #include "UnityEngine/AndroidJavaRunnable.hpp"
-// Including type: UnityEngine.jvalue
-#include "UnityEngine/jvalue.hpp"
 // Including type: UnityEngine.AndroidJavaObject
 #include "UnityEngine/AndroidJavaObject.hpp"
 // Including type: System.Array

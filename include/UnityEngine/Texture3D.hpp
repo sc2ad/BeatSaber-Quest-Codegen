@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Texture
 #include "UnityEngine/Texture.hpp"
+// Including type: UnityEngine.Color32
+#include "UnityEngine/Color32.hpp"
 // Including type: UnityEngine.Experimental.Rendering.DefaultFormat
 #include "UnityEngine/Experimental/Rendering/DefaultFormat.hpp"
 // Including type: UnityEngine.Experimental.Rendering.TextureCreationFlags
@@ -18,13 +20,6 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: Color32
-  struct Color32;
-}
-// Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18

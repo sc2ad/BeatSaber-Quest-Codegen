@@ -22,7 +22,6 @@ namespace UnityEngine {
   class GameObject;
   // Forward declaring type: RectTransform
   class RectTransform;
-  // Skipping declaration: Vector3 because it is already included!
 }
 // Completed forward declares
 // Type namespace: 

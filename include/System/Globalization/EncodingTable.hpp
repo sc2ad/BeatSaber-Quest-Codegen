@@ -5,21 +5,21 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: System.Globalization.InternalEncodingDataItem
+#include "System/Globalization/InternalEncodingDataItem.hpp"
+// Including type: System.Globalization.InternalCodePageDataItem
+#include "System/Globalization/InternalCodePageDataItem.hpp"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: System::Globalization
-namespace System::Globalization {
-  // Forward declaring type: InternalEncodingDataItem
-  struct InternalEncodingDataItem;
-  // Forward declaring type: InternalCodePageDataItem
-  struct InternalCodePageDataItem;
-  // Forward declaring type: CodePageDataItem
-  class CodePageDataItem;
-}
 // Forward declaring namespace: System::Collections
 namespace System::Collections {
   // Forward declaring type: Hashtable
   class Hashtable;
+}
+// Forward declaring namespace: System::Globalization
+namespace System::Globalization {
+  // Forward declaring type: CodePageDataItem
+  class CodePageDataItem;
 }
 // Completed forward declares
 // Type namespace: System.Globalization

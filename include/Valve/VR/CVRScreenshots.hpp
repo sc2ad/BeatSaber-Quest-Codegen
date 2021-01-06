@@ -9,6 +9,8 @@
 #include "Valve/VR/IVRScreenshots.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+// Including type: Valve.VR.EVRScreenshotType
+#include "Valve/VR/EVRScreenshotType.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -17,8 +19,6 @@
 namespace Valve::VR {
   // Forward declaring type: EVRScreenshotError
   struct EVRScreenshotError;
-  // Forward declaring type: EVRScreenshotType
-  struct EVRScreenshotType;
   // Forward declaring type: EVRScreenshotPropertyFilenames
   struct EVRScreenshotPropertyFilenames;
 }

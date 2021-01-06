@@ -9,6 +9,8 @@
 #include "OVR/OpenVR/IVRInput.hpp"
 // Including type: System.MulticastDelegate
 #include "System/MulticastDelegate.hpp"
+// Including type: OVR.OpenVR.VRActiveActionSet_t
+#include "OVR/OpenVR/VRActiveActionSet_t.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -17,8 +19,6 @@
 namespace OVR::OpenVR {
   // Forward declaring type: EVRInputError
   struct EVRInputError;
-  // Forward declaring type: VRActiveActionSet_t
-  struct VRActiveActionSet_t;
 }
 // Forward declaring namespace: System
 namespace System {

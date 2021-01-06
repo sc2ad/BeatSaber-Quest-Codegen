@@ -13,8 +13,6 @@
 #include "System/Runtime/Serialization/SafeSerializationManager.hpp"
 // Including type: System.Diagnostics.StackTrace
 #include "System/Diagnostics/StackTrace.hpp"
-// Including type: System.IntPtr
-#include "System/IntPtr.hpp"
 // Including type: System.Runtime.Serialization.SerializationInfo
 #include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Including type: System.Runtime.ExceptionServices.ExceptionDispatchInfo

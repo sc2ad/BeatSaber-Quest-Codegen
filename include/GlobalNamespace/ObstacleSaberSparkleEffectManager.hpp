@@ -43,7 +43,6 @@ namespace System {
 namespace UnityEngine {
   // Forward declaring type: Transform
   class Transform;
-  // Skipping declaration: Vector3 because it is already included!
   // Skipping declaration: Quaternion because it is already included!
   // Forward declaring type: Bounds
   struct Bounds;

@@ -7,8 +7,6 @@
 #include "OVR/OpenVR/IVRSystem__GetDeviceToAbsoluteTrackingPose.hpp"
 // Including type: OVR.OpenVR.ETrackingUniverseOrigin
 #include "OVR/OpenVR/ETrackingUniverseOrigin.hpp"
-// Including type: OVR.OpenVR.TrackedDevicePose_t
-#include "OVR/OpenVR/TrackedDevicePose_t.hpp"
 // Including type: System.IAsyncResult
 #include "System/IAsyncResult.hpp"
 // Including type: System.AsyncCallback

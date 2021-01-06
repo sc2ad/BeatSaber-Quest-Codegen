@@ -11,8 +11,6 @@
 #include "System/Action.hpp"
 // Including type: System.Action`1
 #include "System/Action_1.hpp"
-// Including type: Valve.VR.TrackedDevicePose_t
-#include "Valve/VR/TrackedDevicePose_t.hpp"
 // Including type: System.Collections.Generic.List`1
 #include "System/Collections/Generic/List_1.hpp"
 // Including type: UnityEngine.EventSystems.EventSystem

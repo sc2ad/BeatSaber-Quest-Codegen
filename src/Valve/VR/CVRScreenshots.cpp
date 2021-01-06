@@ -7,8 +7,6 @@
 #include "Valve/VR/CVRScreenshots.hpp"
 // Including type: Valve.VR.EVRScreenshotError
 #include "Valve/VR/EVRScreenshotError.hpp"
-// Including type: Valve.VR.EVRScreenshotType
-#include "Valve/VR/EVRScreenshotType.hpp"
 // Including type: Valve.VR.EVRScreenshotPropertyFilenames
 #include "Valve/VR/EVRScreenshotPropertyFilenames.hpp"
 // Including type: System.Text.StringBuilder

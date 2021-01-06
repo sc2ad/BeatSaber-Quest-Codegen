@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.EventSystems.Physics2DRaycaster
 #include "UnityEngine/EventSystems/Physics2DRaycaster.hpp"
-// Including type: UnityEngine.RaycastHit2D
-#include "UnityEngine/RaycastHit2D.hpp"
 // Including type: UnityEngine.EventSystems.PointerEventData
 #include "UnityEngine/EventSystems/PointerEventData.hpp"
 // Including type: System.Collections.Generic.List`1

@@ -9,8 +9,6 @@
 #include "System/Security/Cryptography/X509Certificates/X509ChainElementCollection.hpp"
 // Including type: System.Security.Cryptography.X509Certificates.X509ChainPolicy
 #include "System/Security/Cryptography/X509Certificates/X509ChainPolicy.hpp"
-// Including type: System.Security.Cryptography.X509Certificates.X509ChainStatus
-#include "System/Security/Cryptography/X509Certificates/X509ChainStatus.hpp"
 // Including type: System.Security.Cryptography.X509Certificates.X500DistinguishedName
 #include "System/Security/Cryptography/X509Certificates/X500DistinguishedName.hpp"
 // Including type: System.Security.Cryptography.AsymmetricAlgorithm
@@ -21,8 +19,6 @@
 #include "System/Security/Cryptography/X509Certificates/X509Certificate2Collection.hpp"
 // Including type: System.Security.Cryptography.X509Certificates.X509Store
 #include "System/Security/Cryptography/X509Certificates/X509Store.hpp"
-// Including type: System.Security.Cryptography.X509Certificates.X509ChainStatusFlags
-#include "System/Security/Cryptography/X509Certificates/X509ChainStatusFlags.hpp"
 // Including type: System.Security.Cryptography.X509Certificates.X509Certificate2
 #include "System/Security/Cryptography/X509Certificates/X509Certificate2.hpp"
 // Including type: Mono.Security.X509.X509Crl/X509CrlEntry

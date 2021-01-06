@@ -7,8 +7,6 @@
 #include "RootMotion/FinalIK/IKSolverLimb.hpp"
 // Including type: UnityEngine.Transform
 #include "UnityEngine/Transform.hpp"
-// Including type: RootMotion.FinalIK.IKSolverLimb/AxisDirection
-#include "RootMotion/FinalIK/IKSolverLimb_AxisDirection.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

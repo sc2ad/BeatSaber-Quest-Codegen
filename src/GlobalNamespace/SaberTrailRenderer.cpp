@@ -11,12 +11,6 @@
 #include "UnityEngine/MeshFilter.hpp"
 // Including type: UnityEngine.Mesh
 #include "UnityEngine/Mesh.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
-// Including type: UnityEngine.Vector2
-#include "UnityEngine/Vector2.hpp"
-// Including type: UnityEngine.Color
-#include "UnityEngine/Color.hpp"
 // Including type: TrailElementCollection
 #include "GlobalNamespace/TrailElementCollection.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

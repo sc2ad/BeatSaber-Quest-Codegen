@@ -7,6 +7,12 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: BloomPrePassRendererSO
 #include "GlobalNamespace/BloomPrePassRendererSO.hpp"
+// Including type: UnityEngine.Vector3
+#include "UnityEngine/Vector3.hpp"
+// Including type: UnityEngine.Color
+#include "UnityEngine/Color.hpp"
+// Including type: UnityEngine.Vector4
+#include "UnityEngine/Vector4.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -15,12 +21,6 @@
 namespace UnityEngine {
   // Forward declaring type: Mesh
   class Mesh;
-  // Forward declaring type: Vector3
-  struct Vector3;
-  // Forward declaring type: Color
-  struct Color;
-  // Forward declaring type: Vector4
-  struct Vector4;
 }
 // Completed forward declares
 // Type namespace: 

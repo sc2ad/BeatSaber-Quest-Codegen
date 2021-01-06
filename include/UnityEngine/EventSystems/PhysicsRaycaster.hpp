@@ -9,6 +9,8 @@
 #include "UnityEngine/EventSystems/BaseRaycaster.hpp"
 // Including type: UnityEngine.LayerMask
 #include "UnityEngine/LayerMask.hpp"
+// Including type: UnityEngine.RaycastHit
+#include "UnityEngine/RaycastHit.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
@@ -24,8 +26,6 @@ namespace UnityEngine::EventSystems {
 namespace UnityEngine {
   // Forward declaring type: Camera
   class Camera;
-  // Forward declaring type: RaycastHit
-  struct RaycastHit;
   // Forward declaring type: Ray
   struct Ray;
 }

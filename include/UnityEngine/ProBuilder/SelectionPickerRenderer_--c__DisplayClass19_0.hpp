@@ -7,15 +7,12 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.ProBuilder.SelectionPickerRenderer
 #include "UnityEngine/ProBuilder/SelectionPickerRenderer.hpp"
+// Including type: UnityEngine.Vector3
+#include "UnityEngine/Vector3.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: Vector3
-  struct Vector3;
-}
 // Forward declaring namespace: UnityEngine::ProBuilder
 namespace UnityEngine::ProBuilder {
   // Forward declaring type: SharedVertex

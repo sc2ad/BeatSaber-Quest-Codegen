@@ -9,8 +9,6 @@
 #include "UnityEngine/EventSystems/PhysicsRaycaster_RaycastHitComparer.hpp"
 // Including type: UnityEngine.Camera
 #include "UnityEngine/Camera.hpp"
-// Including type: UnityEngine.RaycastHit
-#include "UnityEngine/RaycastHit.hpp"
 // Including type: UnityEngine.EventSystems.PointerEventData
 #include "UnityEngine/EventSystems/PointerEventData.hpp"
 // Including type: UnityEngine.Ray

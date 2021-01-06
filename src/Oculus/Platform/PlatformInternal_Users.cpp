@@ -9,8 +9,6 @@
 #include "Oculus/Platform/Request_1.hpp"
 // Including type: Oculus.Platform.Models.LinkedAccountList
 #include "Oculus/Platform/Models/LinkedAccountList.hpp"
-// Including type: Oculus.Platform.ServiceProvider
-#include "Oculus/Platform/ServiceProvider.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

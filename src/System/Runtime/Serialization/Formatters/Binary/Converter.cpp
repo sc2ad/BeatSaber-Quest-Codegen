@@ -7,10 +7,6 @@
 #include "System/Runtime/Serialization/Formatters/Binary/Converter.hpp"
 // Including type: System.Type
 #include "System/Type.hpp"
-// Including type: System.TypeCode
-#include "System/TypeCode.hpp"
-// Including type: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE
-#include "System/Runtime/Serialization/Formatters/Binary/InternalPrimitiveTypeE.hpp"
 // Including type: System.Reflection.Assembly
 #include "System/Reflection/Assembly.hpp"
 // Including type: System.Array

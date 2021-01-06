@@ -7,11 +7,17 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: UnityEngine.ParticleSystem
-#include "UnityEngine/ParticleSystem.hpp"
+// Including type: UnityEngine.ParticleSystem/EmissionModule
+#include "UnityEngine/ParticleSystem_EmissionModule.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: UnityEngine
+namespace UnityEngine {
+  // Skipping declaration: ParticleSystem because it is already included!
+}
+// Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28

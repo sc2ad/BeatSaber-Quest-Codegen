@@ -5,8 +5,6 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: VRControllersRecorderData
 #include "GlobalNamespace/VRControllersRecorderData.hpp"
-// Including type: VRControllersRecorderData/PositionAndRotation
-#include "GlobalNamespace/VRControllersRecorderData_PositionAndRotation.hpp"
 // Including type: VRControllersRecorderData/Keyframe
 #include "GlobalNamespace/VRControllersRecorderData_Keyframe.hpp"
 // Including type: VRControllersRecorderData/NodeInfo

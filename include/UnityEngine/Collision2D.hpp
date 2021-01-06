@@ -8,14 +8,9 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
+// Including type: UnityEngine.ContactPoint2D
+#include "UnityEngine/ContactPoint2D.hpp"
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: ContactPoint2D
-  struct ContactPoint2D;
-}
-// Completed forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x40

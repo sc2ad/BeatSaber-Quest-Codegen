@@ -21,8 +21,6 @@
 #include "System/Func_4.hpp"
 // Including type: System.TypeCode
 #include "System/TypeCode.hpp"
-// Including type: System.Reflection.ParameterModifier
-#include "System/Reflection/ParameterModifier.hpp"
 // Including type: System.Globalization.CultureInfo
 #include "System/Globalization/CultureInfo.hpp"
 // Including type: System.Reflection.ConstructorInfo

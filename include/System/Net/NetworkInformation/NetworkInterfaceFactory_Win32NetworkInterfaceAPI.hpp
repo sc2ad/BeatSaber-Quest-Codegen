@@ -7,19 +7,18 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Net.NetworkInformation.NetworkInterfaceFactory
 #include "System/Net/NetworkInformation/NetworkInterfaceFactory.hpp"
+// Including type: System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES
+#include "System/Net/NetworkInformation/Win32_IP_ADAPTER_ADDRESSES.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: IntPtr
-  struct IntPtr;
+  // Skipping declaration: IntPtr because it is already included!
 }
 // Forward declaring namespace: System::Net::NetworkInformation
 namespace System::Net::NetworkInformation {
-  // Forward declaring type: Win32_IP_ADAPTER_ADDRESSES
-  struct Win32_IP_ADAPTER_ADDRESSES;
   // Forward declaring type: NetworkInterface
   class NetworkInterface;
 }

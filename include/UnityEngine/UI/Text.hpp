@@ -24,7 +24,6 @@ namespace UnityEngine::UI {
 namespace UnityEngine {
   // Forward declaring type: TextGenerator
   class TextGenerator;
-  // Skipping declaration: UIVertex because it is already included!
   // Forward declaring type: Material
   class Material;
   // Forward declaring type: Font

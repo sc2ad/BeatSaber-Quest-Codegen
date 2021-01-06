@@ -27,8 +27,6 @@
 #include "TMPro/KerningTable.hpp"
 // Including type: TMPro.TMP_FontFeatureTable
 #include "TMPro/TMP_FontFeatureTable.hpp"
-// Including type: TMPro.TMP_FontWeightPair
-#include "TMPro/TMP_FontWeightPair.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

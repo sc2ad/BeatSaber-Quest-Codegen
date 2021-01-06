@@ -21,8 +21,6 @@
 #include "GlobalNamespace/ColorManager.hpp"
 // Including type: System.Action`1
 #include "System/Action_1.hpp"
-// Including type: UnityEngine.Vector3
-#include "UnityEngine/Vector3.hpp"
 // Including type: ColorType
 #include "GlobalNamespace/ColorType.hpp"
 // Including type: UnityEngine.Quaternion

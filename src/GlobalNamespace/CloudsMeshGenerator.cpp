@@ -5,22 +5,16 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: CloudsMeshGenerator
 #include "GlobalNamespace/CloudsMeshGenerator.hpp"
-// Including type: CloudsMeshGenerator/Cloud
-#include "GlobalNamespace/CloudsMeshGenerator_Cloud.hpp"
-// Including type: CloudsMeshGenerator/Ring
-#include "GlobalNamespace/CloudsMeshGenerator_Ring.hpp"
-// Including type: CloudsMeshGenerator/ProhibitedRadius
-#include "GlobalNamespace/CloudsMeshGenerator_ProhibitedRadius.hpp"
-// Including type: CloudsMeshGenerator/RadiusChunk
-#include "GlobalNamespace/CloudsMeshGenerator_RadiusChunk.hpp"
-// Including type: UnityEngine.MeshFilter
-#include "UnityEngine/MeshFilter.hpp"
-// Including type: UnityEngine.Gradient
-#include "UnityEngine/Gradient.hpp"
-// Including type: UnityEngine.AnimationCurve
-#include "UnityEngine/AnimationCurve.hpp"
 // Including type: UnityEngine.Mesh
 #include "UnityEngine/Mesh.hpp"
+// Including type: UnityEngine.Transform
+#include "UnityEngine/Transform.hpp"
+// Including type: UnityEngine.Gradient
+#include "UnityEngine/Gradient.hpp"
+// Including type: UnityEngine.MeshFilter
+#include "UnityEngine/MeshFilter.hpp"
+// Including type: UnityEngine.AnimationCurve
+#include "UnityEngine/AnimationCurve.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

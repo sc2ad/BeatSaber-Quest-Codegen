@@ -9,8 +9,6 @@
 #include "UnityEngine/UI/FontData.hpp"
 // Including type: UnityEngine.TextGenerator
 #include "UnityEngine/TextGenerator.hpp"
-// Including type: UnityEngine.UIVertex
-#include "UnityEngine/UIVertex.hpp"
 // Including type: UnityEngine.Material
 #include "UnityEngine/Material.hpp"
 // Including type: UnityEngine.Font

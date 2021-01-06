@@ -3,7 +3,7 @@
 // =========================================================================
 // Begin includes
 // Including type: System.Xml.XmlWellFormedWriter/NamespaceKind
-#include "System/Xml/XmlWellFormedWriter_NamespaceKind.hpp"
+#include "System/Xml/XmlWellFormedWriter.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

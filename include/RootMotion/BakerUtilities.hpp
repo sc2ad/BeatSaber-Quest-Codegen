@@ -5,14 +5,14 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: UnityEngine.Keyframe
+#include "UnityEngine/Keyframe.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
   // Forward declaring type: AnimationCurve
   class AnimationCurve;
-  // Forward declaring type: Keyframe
-  struct Keyframe;
   // Forward declaring type: Quaternion
   struct Quaternion;
 }

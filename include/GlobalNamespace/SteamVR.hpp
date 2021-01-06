@@ -9,10 +9,14 @@
 #include "System/IDisposable.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
-// Including type: SteamVR_Utils
-#include "GlobalNamespace/SteamVR_Utils.hpp"
+// Including type: Valve.VR.VRTextureBounds_t
+#include "Valve/VR/VRTextureBounds_t.hpp"
+// Including type: SteamVR_Utils/RigidTransform
+#include "GlobalNamespace/SteamVR_Utils_RigidTransform.hpp"
 // Including type: Valve.VR.ETextureType
 #include "Valve/VR/ETextureType.hpp"
+// Including type: Valve.VR.TrackedDevicePose_t
+#include "Valve/VR/TrackedDevicePose_t.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -25,14 +29,10 @@ namespace Valve::VR {
   class CVRCompositor;
   // Forward declaring type: CVROverlay
   class CVROverlay;
-  // Forward declaring type: VRTextureBounds_t
-  struct VRTextureBounds_t;
   // Forward declaring type: EVRInitError
   struct EVRInitError;
   // Forward declaring type: ETrackedDeviceProperty
   struct ETrackedDeviceProperty;
-  // Forward declaring type: TrackedDevicePose_t
-  struct TrackedDevicePose_t;
 }
 // Completed forward declares
 // Type namespace: 

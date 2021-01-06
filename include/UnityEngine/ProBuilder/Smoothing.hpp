@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.Int32
 #include "System/Int32.hpp"
+// Including type: UnityEngine.Vector3
+#include "UnityEngine/Vector3.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -28,11 +30,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
   template<typename T>
   class IEnumerable_1;
-}
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: Vector3
-  struct Vector3;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder

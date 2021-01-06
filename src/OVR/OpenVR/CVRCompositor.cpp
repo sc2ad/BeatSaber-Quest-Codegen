@@ -9,12 +9,10 @@
 #include "OVR/OpenVR/ETrackingUniverseOrigin.hpp"
 // Including type: OVR.OpenVR.EVRCompositorError
 #include "OVR/OpenVR/EVRCompositorError.hpp"
-// Including type: OVR.OpenVR.TrackedDevicePose_t
-#include "OVR/OpenVR/TrackedDevicePose_t.hpp"
 // Including type: OVR.OpenVR.EVREye
 #include "OVR/OpenVR/EVREye.hpp"
-// Including type: OVR.OpenVR.Texture_t
-#include "OVR/OpenVR/Texture_t.hpp"
+// Including type: System.Text.StringBuilder
+#include "System/Text/StringBuilder.hpp"
 // Including type: OVR.OpenVR.VRTextureBounds_t
 #include "OVR/OpenVR/VRTextureBounds_t.hpp"
 // Including type: OVR.OpenVR.EVRSubmitFlags
@@ -25,8 +23,6 @@
 #include "OVR/OpenVR/Compositor_CumulativeStats.hpp"
 // Including type: OVR.OpenVR.HmdColor_t
 #include "OVR/OpenVR/HmdColor_t.hpp"
-// Including type: System.Text.StringBuilder
-#include "System/Text/StringBuilder.hpp"
 // Including type: OVR.OpenVR.EVRCompositorTimingMode
 #include "OVR/OpenVR/EVRCompositorTimingMode.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"

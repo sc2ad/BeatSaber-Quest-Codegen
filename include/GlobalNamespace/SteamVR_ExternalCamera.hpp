@@ -7,6 +7,8 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
+// Including type: UnityEngine.Rect
+#include "UnityEngine/Rect.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
@@ -28,8 +30,6 @@ namespace UnityEngine {
   class GameObject;
   // Forward declaring type: Material
   class Material;
-  // Forward declaring type: Rect
-  struct Rect;
 }
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {

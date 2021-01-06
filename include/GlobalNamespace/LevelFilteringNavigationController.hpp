@@ -9,7 +9,7 @@
 #include "HMUI/NavigationController.hpp"
 // Including type: SongPackMask
 #include "GlobalNamespace/SongPackMask.hpp"
-// Including type: SelectLevelCategoryViewController
+// Including type: SelectLevelCategoryViewController/LevelCategory
 #include "GlobalNamespace/SelectLevelCategoryViewController.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
@@ -19,8 +19,7 @@
 namespace GlobalNamespace {
   // Forward declaring type: PlayerDataModel
   class PlayerDataModel;
-  // Forward declaring type: IBeatmapLevelPack
-  class IBeatmapLevelPack;
+  // Skipping declaration: SelectLevelCategoryViewController because it is already included!
   // Forward declaring type: AnnotatedBeatmapLevelCollectionsViewController
   class AnnotatedBeatmapLevelCollectionsViewController;
   // Forward declaring type: LevelSearchViewController
@@ -31,6 +30,8 @@ namespace GlobalNamespace {
   class IAnnotatedBeatmapLevelCollection;
   // Forward declaring type: BeatmapCharacteristicSO
   class BeatmapCharacteristicSO;
+  // Forward declaring type: IBeatmapLevelPack
+  class IBeatmapLevelPack;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {

@@ -5,21 +5,18 @@
 #pragma pack(push, 1)
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: System.TypeCode
+#include "System/TypeCode.hpp"
+// Including type: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE
+#include "System/Runtime/Serialization/Formatters/Binary/InternalPrimitiveTypeE.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Type
   class Type;
-  // Forward declaring type: TypeCode
-  struct TypeCode;
   // Forward declaring type: Array
   class Array;
-}
-// Forward declaring namespace: System::Runtime::Serialization::Formatters::Binary
-namespace System::Runtime::Serialization::Formatters::Binary {
-  // Forward declaring type: InternalPrimitiveTypeE
-  struct InternalPrimitiveTypeE;
 }
 // Forward declaring namespace: System::Reflection
 namespace System::Reflection {

@@ -4,7 +4,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: UnityEngine.SendMouseEvents/HitInfo
-#include "UnityEngine/SendMouseEvents_HitInfo.hpp"
+#include "UnityEngine/SendMouseEvents.hpp"
 // Including type: UnityEngine.GameObject
 #include "UnityEngine/GameObject.hpp"
 // Including type: UnityEngine.Camera

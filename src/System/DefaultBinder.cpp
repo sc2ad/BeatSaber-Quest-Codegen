@@ -13,8 +13,6 @@
 #include "System/Reflection/MethodBase.hpp"
 // Including type: System.Type
 #include "System/Type.hpp"
-// Including type: System.Reflection.ParameterModifier
-#include "System/Reflection/ParameterModifier.hpp"
 // Including type: System.Reflection.PropertyInfo
 #include "System/Reflection/PropertyInfo.hpp"
 // Including type: System.Reflection.ParameterInfo

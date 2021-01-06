@@ -5,34 +5,28 @@
 #pragma pack(push, 1)
 // WARNING Layout: Sequential may not be correctly taken into account!
 // Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
+// Including type: UnityEngine.RaycastHit
+#include "UnityEngine/RaycastHit.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
-  // Forward declaring type: Vector3
-  struct Vector3;
+  // Skipping declaration: Vector3 because it is already included!
   // Forward declaring type: QueryTriggerInteraction
   struct QueryTriggerInteraction;
   // Forward declaring type: Ray
   struct Ray;
-  // Forward declaring type: RaycastHit
-  struct RaycastHit;
   // Forward declaring type: Collider
   class Collider;
   // Forward declaring type: Quaternion
   struct Quaternion;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-template<class T>
-struct Array;
-struct Il2CppString;
-struct Il2CppObject;
-// Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x4

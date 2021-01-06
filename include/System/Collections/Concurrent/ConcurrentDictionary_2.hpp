@@ -12,10 +12,10 @@
 #include "System/Collections/Generic/IReadOnlyDictionary_2.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
-// Including type: System.Collections.IDictionaryEnumerator
-#include "System/Collections/IDictionaryEnumerator.hpp"
 // Including type: System.Collections.DictionaryEntry
 #include "System/Collections/DictionaryEntry.hpp"
+// Including type: System.Collections.IDictionaryEnumerator
+#include "System/Collections/IDictionaryEnumerator.hpp"
 // Including type: System.Collections.Generic.IEnumerator`1
 #include "System/Collections/Generic/IEnumerator_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
