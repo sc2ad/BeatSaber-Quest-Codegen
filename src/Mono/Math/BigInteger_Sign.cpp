@@ -3,7 +3,7 @@
 // =========================================================================
 // Begin includes
 // Including type: Mono.Math.BigInteger/Sign
-#include "Mono/Math/BigInteger_Sign.hpp"
+#include "Mono/Math/BigInteger.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes

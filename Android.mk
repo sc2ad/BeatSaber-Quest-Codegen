@@ -22,7 +22,7 @@ rwildcard=$(wildcard $1$2) $(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2))
 # Writing prebuilt shared library: beatsaber-hook
 include $(CLEAR_VARS)
 LOCAL_MODULE := beatsaber-hook
-LOCAL_SRC_FILES := ./extern/libbeatsaber-hook_0_6_0.so
+LOCAL_SRC_FILES := ./extern/libbeatsaber-hook_1_0_0.so
 LOCAL_CPP_FEATURES := exceptions
 LOCAL_EXPORT_C_INCLUDES := ./extern/beatsaber-hook/shared/
 include $(PREBUILT_SHARED_LIBRARY)
@@ -33,7 +33,7 @@ LOCAL_MODULE := il2cpp_codegen
 LOCAL_SRC_FILES += $(call rwildcard,./src,*.cpp)
 LOCAL_C_INCLUDES := ./include ./extern
 LOCAL_CFLAGS += -DMOD_ID='"il2cpp_codegen"' -DVERSION='"0.2.4"' -DNEED_UNSAFE_CSHARP -DNO_CODEGEN_USE -isystem'./extern'
-LOCAL_CFLAGS += -Wall -Wextra -Werror -Wno-unused-function -isystem'extern/libil2cpp/il2cpp/libil2cpp' -Os -O3
+LOCAL_CFLAGS += -Wall -Wextra -Werror -Wno-unused-private-field -Wno-unused-function -isystem'extern/libil2cpp/il2cpp/libil2cpp' -Os -O3
 LOCAL_SHARED_LIBRARIES += beatsaber-hook
 LOCAL_CPP_FEATURES := exceptions
 LOCAL_LDLIBS := -llog
