@@ -72,8 +72,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: bottomPushEnabled and: bottomPushDistance
-    private: char __padding3[0x2] = {};
-    public:
+    char __padding3[0x2] = {};
     // [DrawIfAttribute] Offset: 0xDC04EC
     // private System.Single _bottomPushDistance
     // Size: 0x4
@@ -103,8 +102,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: drawRingGizmos and: prohibitedRadii
-    private: char __padding7[0x3] = {};
-    public:
+    char __padding7[0x3] = {};
     // private CloudsMeshGenerator/ProhibitedRadius[] _prohibitedRadii
     // Size: 0x8
     // Offset: 0x40
@@ -142,8 +140,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: perMeshRadiusOffset and: possibleColors
-    private: char __padding12[0x4] = {};
-    public:
+    char __padding12[0x4] = {};
     // private UnityEngine.Gradient _possibleColors
     // Size: 0x8
     // Offset: 0x60
@@ -196,8 +193,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
     // Padding between fields: sizeCloseFar and: heightCloseFar
-    private: char __padding20[0x4] = {};
-    public:
+    char __padding20[0x4] = {};
     // private UnityEngine.AnimationCurve _heightCloseFar
     // Size: 0x8
     // Offset: 0x90
@@ -224,8 +220,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: curveMesh and: clouds
-    private: char __padding24[0x2] = {};
-    public:
+    char __padding24[0x2] = {};
     // private CloudsMeshGenerator/Cloud[] _clouds
     // Size: 0x8
     // Offset: 0xA0

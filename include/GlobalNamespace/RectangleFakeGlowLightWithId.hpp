@@ -30,8 +30,7 @@ namespace GlobalNamespace {
   class RectangleFakeGlowLightWithId : public GlobalNamespace::LightWithIdMonoBehaviour {
     public:
     // Writing base type padding for base size: 0x29 to desired offset: 0x2C
-    private: char ___base_padding[0x3] = {};
-    public:
+    char ___base_padding[0x3] = {};
     // private System.Single _minAlpha
     // Size: 0x4
     // Offset: 0x2C
@@ -45,8 +44,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: alphaMul and: rectangleFakeGlow
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private RectangleFakeGlow _rectangleFakeGlow
     // Size: 0x8
     // Offset: 0x38

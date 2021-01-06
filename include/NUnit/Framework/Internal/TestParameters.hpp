@@ -41,8 +41,7 @@ namespace NUnit::Framework::Internal {
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::RunState) == 0x4);
     // Padding between fields: RunState and: Arguments
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDB353C
     // private System.Object[] <Arguments>k__BackingField
     // Size: 0x8

@@ -48,8 +48,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: $$1__state and: $$2__current
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.Object <>2__current
     // Size: 0x8
     // Offset: 0x18
@@ -63,8 +62,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: maxDesiredIntroAnimationDuration and: $$4__this
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // public MultiplayerIntroAnimationController <>4__this
     // Size: 0x8
     // Offset: 0x28
@@ -84,8 +82,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: $animationDurationMultiplier$5__2 and: $allActivePlayer$5__3
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // private System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> <allActivePlayer>5__3
     // Size: 0x8
     // Offset: 0x40

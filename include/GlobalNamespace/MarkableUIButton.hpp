@@ -37,8 +37,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: marked and: markedTriggerId
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // private System.Int32 _markedTriggerId
     // Size: 0x4
     // Offset: 0x24

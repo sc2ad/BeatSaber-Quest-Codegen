@@ -388,8 +388,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
     // Padding between fields: m_AsteriskChar and: m_KeyboardType
-    private: char __padding5[0x2] = {};
-    public:
+    char __padding5[0x2] = {};
     // [FormerlySerializedAsAttribute] Offset: 0xD7E50C
     // private UnityEngine.TouchScreenKeyboardType m_KeyboardType
     // Size: 0x4
@@ -411,8 +410,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_HideMobileInput and: m_CharacterValidation
-    private: char __padding8[0x3] = {};
-    public:
+    char __padding8[0x3] = {};
     // [FormerlySerializedAsAttribute] Offset: 0xD7E5B4
     // private UnityEngine.UI.InputField/CharacterValidation m_CharacterValidation
     // Size: 0x4
@@ -465,8 +463,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_CustomCaretColor and: m_SelectionColor
-    private: char __padding15[0x3] = {};
-    public:
+    char __padding15[0x3] = {};
     // private UnityEngine.Color m_SelectionColor
     // Size: 0x10
     // Offset: 0x154
@@ -474,8 +471,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Padding between fields: m_SelectionColor and: m_Text
-    private: char __padding16[0x4] = {};
-    public:
+    char __padding16[0x4] = {};
     // [FormerlySerializedAsAttribute] Offset: 0xD7E808
     // protected System.String m_Text
     // Size: 0x8
@@ -504,8 +500,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_ReadOnly and: m_CaretPosition
-    private: char __padding20[0x3] = {};
-    public:
+    char __padding20[0x3] = {};
     // protected System.Int32 m_CaretPosition
     // Size: 0x4
     // Offset: 0x17C
@@ -519,8 +514,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_CaretSelectPosition and: caretRectTrans
-    private: char __padding22[0x4] = {};
-    public:
+    char __padding22[0x4] = {};
     // private UnityEngine.RectTransform caretRectTrans
     // Size: 0x8
     // Offset: 0x188
@@ -552,8 +546,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_PreventFontCallback and: m_Mesh
-    private: char __padding27[0x7] = {};
-    public:
+    char __padding27[0x7] = {};
     // protected UnityEngine.Mesh m_Mesh
     // Size: 0x8
     // Offset: 0x1B0
@@ -591,8 +584,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_CaretVisible and: m_BlinkCoroutine
-    private: char __padding33[0x3] = {};
-    public:
+    char __padding33[0x3] = {};
     // private UnityEngine.Coroutine m_BlinkCoroutine
     // Size: 0x8
     // Offset: 0x1C0
@@ -618,8 +610,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_DrawEnd and: m_DragCoroutine
-    private: char __padding37[0x4] = {};
-    public:
+    char __padding37[0x4] = {};
     // private UnityEngine.Coroutine m_DragCoroutine
     // Size: 0x8
     // Offset: 0x1D8
@@ -645,8 +636,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_HasDoneFocusTransition and: m_WaitForSecondsRealtime
-    private: char __padding41[0x6] = {};
-    public:
+    char __padding41[0x6] = {};
     // private UnityEngine.WaitForSecondsRealtime m_WaitForSecondsRealtime
     // Size: 0x8
     // Offset: 0x1F0
@@ -660,8 +650,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_TouchKeyboardAllowsInPlaceEditing and: m_ProcessingEvent
-    private: char __padding43[0x7] = {};
-    public:
+    char __padding43[0x7] = {};
     // private UnityEngine.Event m_ProcessingEvent
     // Size: 0x8
     // Offset: 0x200

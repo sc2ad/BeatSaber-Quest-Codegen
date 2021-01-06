@@ -62,8 +62,7 @@ namespace UnityEngine::Events {
     // Field size check
     static_assert(sizeof(UnityEngine::Events::PersistentListenerMode) == 0x4);
     // Padding between fields: m_Mode and: m_Arguments
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // [FormerlySerializedAsAttribute] Offset: 0xD515B0
     // private UnityEngine.Events.ArgumentCache m_Arguments
     // Size: 0x8

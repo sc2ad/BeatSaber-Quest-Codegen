@@ -26,8 +26,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType) == 0x4);
     // Padding between fields: type and: data
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // System.Object data
     // Size: 0x8
     // Offset: 0x18

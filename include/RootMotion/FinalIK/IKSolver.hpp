@@ -60,8 +60,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: initiated and: OnPreInitiate
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // public RootMotion.FinalIK.IKSolver/UpdateDelegate OnPreInitiate
     // Size: 0x8
     // Offset: 0x28
@@ -93,8 +92,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: firstInitiation and: root
-    private: char __padding7[0x7] = {};
-    public:
+    char __padding7[0x7] = {};
     // [HideInInspector] Offset: 0xDB6D80
     // protected UnityEngine.Transform root
     // Size: 0x8

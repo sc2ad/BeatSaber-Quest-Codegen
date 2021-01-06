@@ -87,8 +87,7 @@ namespace RootMotion::Demos {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: activeTargetSeeking and: cornerRadius
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // [TooltipAttribute] Offset: 0xDB5508
     // public System.Single cornerRadius
     // Size: 0x4
@@ -132,8 +131,7 @@ namespace RootMotion::Demos {
     // Field size check
     static_assert(sizeof(RootMotion::Demos::Navigator::State) == 0x4);
     // Padding between fields: state and: transform
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // private UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x38
@@ -147,8 +145,7 @@ namespace RootMotion::Demos {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: cornerIndex and: corners
-    private: char __padding8[0x4] = {};
-    public:
+    char __padding8[0x4] = {};
     // private UnityEngine.Vector3[] corners
     // Size: 0x8
     // Offset: 0x48
@@ -174,8 +171,7 @@ namespace RootMotion::Demos {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: initiated and: nextPathTime
-    private: char __padding12[0x3] = {};
-    public:
+    char __padding12[0x3] = {};
     // private System.Single nextPathTime
     // Size: 0x4
     // Offset: 0x68

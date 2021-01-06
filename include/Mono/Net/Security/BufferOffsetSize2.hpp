@@ -18,8 +18,7 @@ namespace Mono::Net::Security {
   class BufferOffsetSize2 : public Mono::Net::Security::BufferOffsetSize {
     public:
     // Writing base type padding for base size: 0x25 to desired offset: 0x28
-    private: char ___base_padding[0x3] = {};
-    public:
+    char ___base_padding[0x3] = {};
     // public readonly System.Int32 InitialSize
     // Size: 0x4
     // Offset: 0x28

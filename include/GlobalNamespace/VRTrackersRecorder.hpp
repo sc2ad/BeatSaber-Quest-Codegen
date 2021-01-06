@@ -109,8 +109,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::VRTrackersRecorder::RecordMode) == 0x4);
     // Padding between fields: mode and: originTransform
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private UnityEngine.Transform _originTransform
     // Size: 0x8
     // Offset: 0x30
@@ -136,8 +135,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: keyframeIndex and: newPosesAction
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // private SteamVR_Events/Action _newPosesAction
     // Size: 0x8
     // Offset: 0x50

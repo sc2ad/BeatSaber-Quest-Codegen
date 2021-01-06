@@ -40,8 +40,7 @@ namespace System::Net::Http::Headers {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: IsWeak and: Tag
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD9C068
     // private System.String <Tag>k__BackingField
     // Size: 0x8

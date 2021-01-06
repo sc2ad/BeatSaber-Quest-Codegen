@@ -36,8 +36,7 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(uint) == 0x4);
     // Padding between fields: SkillLevel and: SkillMean
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // public readonly System.Double SkillMean
     // Size: 0x8
     // Offset: 0x20

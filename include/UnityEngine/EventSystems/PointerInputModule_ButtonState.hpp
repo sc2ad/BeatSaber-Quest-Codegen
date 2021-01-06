@@ -26,8 +26,7 @@ namespace UnityEngine::EventSystems {
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::PointerEventData::InputButton) == 0x4);
     // Padding between fields: m_Button and: m_EventData
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData m_EventData
     // Size: 0x8
     // Offset: 0x18

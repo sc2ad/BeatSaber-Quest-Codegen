@@ -30,8 +30,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: continuous and: strength
-    private: char __padding1[0x2] = {};
-    public:
+    char __padding1[0x2] = {};
     // public System.Single strength
     // Size: 0x4
     // Offset: 0x14

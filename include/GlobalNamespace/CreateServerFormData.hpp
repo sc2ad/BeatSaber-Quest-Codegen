@@ -29,8 +29,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: usePassword and: password
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // public System.String password
     // Size: 0x8
     // Offset: 0x8
@@ -62,8 +61,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficultyMask) == 0x1);
     // Padding between fields: difficulties and: modifiers
-    private: char __padding5[0x1] = {};
-    public:
+    char __padding5[0x1] = {};
     // public GameplayModifierMask modifiers
     // Size: 0x2
     // Offset: 0x18
@@ -71,8 +69,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifierMask) == 0x2);
     // Padding between fields: modifiers and: songPacks
-    private: char __padding6[0x6] = {};
-    public:
+    char __padding6[0x6] = {};
     // public SongPackMask songPacks
     // Size: 0x10
     // Offset: 0x20

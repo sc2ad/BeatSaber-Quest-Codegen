@@ -82,8 +82,7 @@ namespace Mono::Math {
     // Field size check
     static_assert(sizeof(uint) == 0x4);
     // Padding between fields: length and: data
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.UInt32[] data
     // Size: 0x8
     // Offset: 0x18

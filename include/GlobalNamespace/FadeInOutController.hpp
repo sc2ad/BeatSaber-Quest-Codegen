@@ -80,8 +80,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: defaultFadeInDuration and: coroutine
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // private UnityEngine.Coroutine _coroutine
     // Size: 0x8
     // Offset: 0x40

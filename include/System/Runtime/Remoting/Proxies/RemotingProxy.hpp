@@ -62,8 +62,7 @@ namespace System::Runtime::Remoting::Proxies {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasEnvoySink and: ctorCall
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // private System.Runtime.Remoting.Messaging.ConstructionCall _ctorCall
     // Size: 0x8
     // Offset: 0x60

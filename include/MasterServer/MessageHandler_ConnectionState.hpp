@@ -48,8 +48,7 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasIdentity and: encryptionState
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // private PacketEncryptionLayer/IEncryptionState _encryptionState
     // Size: 0x8
     // Offset: 0x28
@@ -75,8 +74,7 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: receivedRequestCount and: receivedRequest
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // private readonly System.Boolean[] _receivedRequest
     // Size: 0x8
     // Offset: 0x40

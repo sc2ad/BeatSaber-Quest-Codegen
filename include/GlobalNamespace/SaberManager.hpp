@@ -60,8 +60,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: started and: didUpdateSaberPositionsEvent
-    private: char __padding3[0x7] = {};
-    public:
+    char __padding3[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDCAD8C
     // private System.Action`2<Saber,Saber> didUpdateSaberPositionsEvent
     // Size: 0x8

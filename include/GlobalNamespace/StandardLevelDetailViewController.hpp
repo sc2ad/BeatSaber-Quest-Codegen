@@ -312,8 +312,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: showPlayerStats and: loadingLevelCancellationTokenSource
-    private: char __padding21[0x6] = {};
-    public:
+    char __padding21[0x6] = {};
     // private System.Threading.CancellationTokenSource _loadingLevelCancellationTokenSource
     // Size: 0x8
     // Offset: 0x118
@@ -327,8 +326,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficultyMask) == 0x1);
     // Padding between fields: allowedBeatmapDifficultyMask and: notAllowedCharacteristics
-    private: char __padding23[0x7] = {};
-    public:
+    char __padding23[0x7] = {};
     // private System.Collections.Generic.HashSet`1<BeatmapCharacteristicSO> _notAllowedCharacteristics
     // Size: 0x8
     // Offset: 0x128

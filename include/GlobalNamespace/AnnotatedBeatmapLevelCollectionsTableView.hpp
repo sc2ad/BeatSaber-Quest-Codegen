@@ -76,8 +76,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: cellWidth and: promoPackIDStrings
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // [SpaceAttribute] Offset: 0xDD17CC
     // private System.String[] _promoPackIDStrings
     // Size: 0x8
@@ -118,8 +117,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isInitialized and: selectedColumn
-    private: char __padding9[0x3] = {};
-    public:
+    char __padding9[0x3] = {};
     // private System.Int32 _selectedColumn
     // Size: 0x4
     // Offset: 0x64

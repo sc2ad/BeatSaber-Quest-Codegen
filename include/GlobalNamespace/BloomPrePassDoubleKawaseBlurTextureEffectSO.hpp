@@ -74,8 +74,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: gammaCorrection and: kawaseBlurRenderer
-    private: char __padding6[0x3] = {};
-    public:
+    char __padding6[0x3] = {};
     // [SpaceAttribute] Offset: 0xDB176C
     // private KawaseBlurRendererSO _kawaseBlurRenderer
     // Size: 0x8

@@ -157,8 +157,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasScoresData and: scoreScopes
-    private: char __padding14[0x6] = {};
-    public:
+    char __padding14[0x6] = {};
     // private PlatformLeaderboardsModel/ScoresScope[] _scoreScopes
     // Size: 0x8
     // Offset: 0xE0

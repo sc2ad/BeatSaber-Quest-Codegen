@@ -98,8 +98,7 @@ namespace System::IO {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: closable and: asyncWriteTask
-    private: char __padding9[0x5] = {};
-    public:
+    char __padding9[0x5] = {};
     // private System.Threading.Tasks.Task _asyncWriteTask
     // Size: 0x8
     // Offset: 0x60

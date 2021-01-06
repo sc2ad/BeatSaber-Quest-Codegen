@@ -25,8 +25,7 @@ namespace HMUI {
   class Touchable : public UnityEngine::UI::Graphic {
     public:
     // Writing base type padding for base size: 0x89 to desired offset: 0x8C
-    private: char ___base_padding[0x3] = {};
-    public:
+    char ___base_padding[0x3] = {};
     // private System.Single _skew
     // Size: 0x4
     // Offset: 0x8C

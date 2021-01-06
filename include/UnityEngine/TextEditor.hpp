@@ -423,8 +423,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: controlID and: style
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // public UnityEngine.GUIStyle style
     // Size: 0x8
     // Offset: 0x20
@@ -463,8 +462,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
     // Padding between fields: scrollOffset and: m_Content
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // private UnityEngine.GUIContent m_Content
     // Size: 0x8
     // Offset: 0x38
@@ -496,8 +494,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_RevealCursor and: graphicalCursorPos
-    private: char __padding12[0x3] = {};
-    public:
+    char __padding12[0x3] = {};
     // public UnityEngine.Vector2 graphicalCursorPos
     // Size: 0x8
     // Offset: 0x5C
@@ -517,8 +514,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_MouseDragSelectsWholeWords and: m_DblClickInitPos
-    private: char __padding15[0x3] = {};
-    public:
+    char __padding15[0x3] = {};
     // private System.Int32 m_DblClickInitPos
     // Size: 0x4
     // Offset: 0x70
@@ -538,8 +534,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_bJustSelected and: m_iAltCursorPos
-    private: char __padding18[0x2] = {};
-    public:
+    char __padding18[0x2] = {};
     // private System.Int32 m_iAltCursorPos
     // Size: 0x4
     // Offset: 0x78
@@ -547,8 +542,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_iAltCursorPos and: oldText
-    private: char __padding19[0x4] = {};
-    public:
+    char __padding19[0x4] = {};
     // private System.String oldText
     // Size: 0x8
     // Offset: 0x80

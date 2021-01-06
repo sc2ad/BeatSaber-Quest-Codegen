@@ -25,8 +25,7 @@ namespace GlobalNamespace {
   class EnergyMissionObjectiveChecker : public GlobalNamespace::MissionObjectiveChecker {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // [InjectAttribute] Offset: 0xDC8700
     // private GameEnergyCounter _energyCounter
     // Size: 0x8

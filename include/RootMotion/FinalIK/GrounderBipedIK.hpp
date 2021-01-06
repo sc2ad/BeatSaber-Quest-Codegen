@@ -35,8 +35,7 @@ namespace RootMotion::FinalIK {
   class GrounderBipedIK : public RootMotion::FinalIK::Grounder {
     public:
     // Writing base type padding for base size: 0x39 to desired offset: 0x40
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // [TooltipAttribute] Offset: 0xDB5978
     // public RootMotion.FinalIK.BipedIK ik
     // Size: 0x8

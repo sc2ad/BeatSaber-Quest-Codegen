@@ -30,8 +30,7 @@ namespace GlobalNamespace {
   class PointLightWithIds : public GlobalNamespace::LightWithIds {
     public:
     // Writing base type padding for base size: 0x31 to desired offset: 0x38
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // private PointLight _pointLight
     // Size: 0x8
     // Offset: 0x38

@@ -129,8 +129,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: inTransition and: scenesStack
-    private: char __padding6[0x7] = {};
-    public:
+    char __padding6[0x7] = {};
     // private System.Collections.Generic.List`1<GameScenesManager/ScenesStackData> _scenesStack
     // Size: 0x8
     // Offset: 0x50

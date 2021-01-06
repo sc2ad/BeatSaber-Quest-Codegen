@@ -97,8 +97,7 @@ namespace MasterServer {
   class UserMessageHandler : public MasterServer::BaseClientMessageHandler {
     public:
     // Writing base type padding for base size: 0x99 to desired offset: 0xA0
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // Nested type: MasterServer::UserMessageHandler::ConnectToClientDelegate
     class ConnectToClientDelegate;
     // Nested type: MasterServer::UserMessageHandler::ConnectToServerDelegate
@@ -166,8 +165,7 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isServerWaitingForBroadcastResult and: serverUserId
-    private: char __padding7[0x6] = {};
-    public:
+    char __padding7[0x6] = {};
     // private System.String _serverUserId
     // Size: 0x8
     // Offset: 0xD8
@@ -193,8 +191,7 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: serverCurrentPlayerCount and: serverRandom
-    private: char __padding11[0x4] = {};
-    public:
+    char __padding11[0x4] = {};
     // private System.Byte[] _serverRandom
     // Size: 0x8
     // Offset: 0xF8

@@ -41,8 +41,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(System::IOOperation) == 0x4);
     // Padding between fields: operation and: callback
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.IOAsyncCallback callback
     // Size: 0x8
     // Offset: 0x18

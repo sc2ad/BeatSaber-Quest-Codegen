@@ -27,8 +27,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
   class OpenSslPbeParametersGenerator : public Org::BouncyCastle::Crypto::PbeParametersGenerator {
     public:
     // Writing base type padding for base size: 0x24 to desired offset: 0x28
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // private readonly Org.BouncyCastle.Crypto.IDigest digest
     // Size: 0x8
     // Offset: 0x28

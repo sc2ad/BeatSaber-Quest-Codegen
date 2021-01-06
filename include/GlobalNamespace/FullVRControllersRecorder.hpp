@@ -115,8 +115,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: playbackFloorOffset and: controllers
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // [SpaceAttribute] Offset: 0xDD2828
     // private VRController[] _controllers
     // Size: 0x8
@@ -145,8 +144,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: keyframeIndex and: data
-    private: char __padding9[0x4] = {};
-    public:
+    char __padding9[0x4] = {};
     // private VRControllersRecorderData _data
     // Size: 0x8
     // Offset: 0x58

@@ -38,8 +38,7 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(uint) == 0x4);
     // Padding between fields: DataSize and: ExtraData
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // public readonly System.String ExtraData
     // Size: 0x8
     // Offset: 0x28
@@ -65,8 +64,7 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(Oculus::Platform::CloudStorageDataStatus) == 0x4);
     // Padding between fields: Status and: VersionHandle
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // public readonly System.String VersionHandle
     // Size: 0x8
     // Offset: 0x48

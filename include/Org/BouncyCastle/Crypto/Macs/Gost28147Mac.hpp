@@ -31,8 +31,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: bufOff and: buf
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.Byte[] buf
     // Size: 0x8
     // Offset: 0x18
@@ -52,8 +51,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: firstStep and: workingKey
-    private: char __padding3[0x7] = {};
-    public:
+    char __padding3[0x7] = {};
     // private System.Int32[] workingKey
     // Size: 0x8
     // Offset: 0x30

@@ -38,8 +38,7 @@ namespace System::Collections::Specialized {
   class NameValueCollection : public System::Collections::Specialized::NameObjectCollectionBase {
     public:
     // Writing base type padding for base size: 0x44 to desired offset: 0x48
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // private System.String[] _all
     // Size: 0x8
     // Offset: 0x48

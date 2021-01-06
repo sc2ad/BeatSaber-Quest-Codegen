@@ -50,8 +50,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::X509Certificates::StoreLocation) == 0x4);
     // Padding between fields: location and: list
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private System.Security.Cryptography.X509Certificates.X509Certificate2Collection list
     // Size: 0x8
     // Offset: 0x20
@@ -65,8 +64,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::X509Certificates::OpenFlags) == 0x4);
     // Padding between fields: flags and: store
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // private Mono.Security.X509.X509Store store
     // Size: 0x8
     // Offset: 0x30

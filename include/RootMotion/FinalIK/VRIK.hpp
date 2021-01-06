@@ -28,8 +28,7 @@ namespace RootMotion::FinalIK {
   class VRIK : public RootMotion::FinalIK::IK {
     public:
     // Writing base type padding for base size: 0x33 to desired offset: 0x38
-    private: char ___base_padding[0x5] = {};
-    public:
+    char ___base_padding[0x5] = {};
     // Nested type: RootMotion::FinalIK::VRIK::References
     class References;
     // [ContextMenuItemAttribute] Offset: 0xDB6478

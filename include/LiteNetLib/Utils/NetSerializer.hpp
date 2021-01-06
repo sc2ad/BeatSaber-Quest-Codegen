@@ -141,8 +141,7 @@ namespace LiteNetLib::Utils {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: maxStringLength and: registeredTypes
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private readonly System.Collections.Generic.Dictionary`2<System.Type,LiteNetLib.Utils.NetSerializer/CustomType> _registeredTypes
     // Size: 0x8
     // Offset: 0x20

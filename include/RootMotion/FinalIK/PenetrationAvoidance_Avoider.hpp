@@ -58,8 +58,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: raycastRadius and: effectors
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // [TooltipAttribute] Offset: 0xDBB508
     // public RootMotion.FinalIK.PenetrationAvoidance/Avoider/EffectorLink[] effectors
     // Size: 0x8

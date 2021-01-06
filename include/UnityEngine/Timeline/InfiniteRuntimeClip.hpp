@@ -27,8 +27,7 @@ namespace UnityEngine::Timeline {
   class InfiniteRuntimeClip : public UnityEngine::Timeline::RuntimeElement {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // private UnityEngine.Playables.Playable m_Playable
     // Size: 0xC
     // Offset: 0x18

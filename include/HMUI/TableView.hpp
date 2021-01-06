@@ -132,8 +132,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hideScrollButtonsIfNotNeeded and: pageUpButton
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // [NullAllowed] Offset: 0xDA8218
     // private UnityEngine.UI.Button _pageUpButton
     // Size: 0x8
@@ -156,8 +155,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hideScrollIndicatorIfNotNeeded and: verticalScrollIndicator
-    private: char __padding3[0x7] = {};
-    public:
+    char __padding3[0x7] = {};
     // [NullAllowed] Offset: 0xDA82C0
     // private HMUI.VerticalScrollIndicator _verticalScrollIndicator
     // Size: 0x8
@@ -172,8 +170,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: alignToCenter and: tableType
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // private HMUI.TableView/TableType _tableType
     // Size: 0x4
     // Offset: 0x44
@@ -187,8 +184,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: scrollToTopOnEnable and: selectionType
-    private: char __padding7[0x3] = {};
-    public:
+    char __padding7[0x3] = {};
     // private HMUI.TableViewSelectionType _selectionType
     // Size: 0x4
     // Offset: 0x4C
@@ -202,8 +198,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: canSelectSelectedCell and: preallocatedCells
-    private: char __padding9[0x7] = {};
-    public:
+    char __padding9[0x7] = {};
     // [NullAllowed] Offset: 0xDA8348
     // private HMUI.TableView/CellsGroup[] _preallocatedCells
     // Size: 0x8
@@ -332,8 +327,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: refreshCellsOnEnable and: scroller
-    private: char __padding29[0x6] = {};
-    public:
+    char __padding29[0x6] = {};
     // protected HMUI.TableViewScroller scroller
     // Size: 0x8
     // Offset: 0xE0

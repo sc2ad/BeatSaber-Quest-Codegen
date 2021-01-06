@@ -115,8 +115,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
     // Padding between fields: beatmapDifficulty and: difficultyBeatmap
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDD31E8
     // private IDifficultyBeatmap <difficultyBeatmap>k__BackingField
     // Size: 0x8

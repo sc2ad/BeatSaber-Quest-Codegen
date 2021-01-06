@@ -211,8 +211,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: levelStartInitiated and: startedBeatmapId
-    private: char __padding18[0x7] = {};
-    public:
+    char __padding18[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC429C
     // private BeatmapIdentifierNetSerializable <startedBeatmapId>k__BackingField
     // Size: 0x8
@@ -228,8 +227,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: countdownStarted and: countdownEndTime
-    private: char __padding20[0x3] = {};
-    public:
+    char __padding20[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC42BC
     // private System.Single <countdownEndTime>k__BackingField
     // Size: 0x4
@@ -259,8 +257,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isDisconnected and: disconnectedReason
-    private: char __padding24[0x3] = {};
-    public:
+    char __padding24[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC42FC
     // private DisconnectedReason <disconnectedReason>k__BackingField
     // Size: 0x4

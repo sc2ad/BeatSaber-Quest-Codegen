@@ -40,8 +40,7 @@ namespace Mono::Security::X509 {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: extnCritical and: extnValue
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // protected Mono.Security.ASN1 extnValue
     // Size: 0x8
     // Offset: 0x20

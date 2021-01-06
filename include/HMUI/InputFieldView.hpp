@@ -158,8 +158,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useGlobalKeyboard and: keyboardPositionOffset
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // private UnityEngine.Vector3 _keyboardPositionOffset
     // Size: 0xC
     // Offset: 0x11C
@@ -174,8 +173,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useUppercase and: textLengthLimit
-    private: char __padding7[0x3] = {};
-    public:
+    char __padding7[0x3] = {};
     // private System.Int32 _textLengthLimit
     // Size: 0x4
     // Offset: 0x12C
@@ -189,8 +187,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: caretOffset and: selectionStateDidChangeEvent
-    private: char __padding9[0x4] = {};
-    public:
+    char __padding9[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDA7828
     // private System.Action`1<HMUI.InputFieldView/SelectionState> selectionStateDidChangeEvent
     // Size: 0x8
@@ -205,8 +202,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(HMUI::InputFieldView::SelectionState) == 0x4);
     // Padding between fields: selectionState and: text
-    private: char __padding11[0x4] = {};
-    public:
+    char __padding11[0x4] = {};
     // private System.String _text
     // Size: 0x8
     // Offset: 0x148
@@ -220,8 +216,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasKeyboardAssigned and: buttonBinder
-    private: char __padding13[0x7] = {};
-    public:
+    char __padding13[0x7] = {};
     // private HMUI.ButtonBinder _buttonBinder
     // Size: 0x8
     // Offset: 0x158

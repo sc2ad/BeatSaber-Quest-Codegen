@@ -138,8 +138,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fixingAudioSyncError and: audioStartTimeOffsetSinceStart
-    private: char __padding8[0x2] = {};
-    public:
+    char __padding8[0x2] = {};
     // private System.Single _audioStartTimeOffsetSinceStart
     // Size: 0x4
     // Offset: 0x44
@@ -177,8 +176,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: audioStarted and: timeScale
-    private: char __padding14[0x3] = {};
-    public:
+    char __padding14[0x3] = {};
     // private System.Single _timeScale
     // Size: 0x4
     // Offset: 0x5C
@@ -192,8 +190,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: songTime and: dspTimeOffset
-    private: char __padding16[0x4] = {};
-    public:
+    char __padding16[0x4] = {};
     // private System.Double _dspTimeOffset
     // Size: 0x8
     // Offset: 0x68

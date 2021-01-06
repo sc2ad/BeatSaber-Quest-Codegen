@@ -26,8 +26,7 @@ namespace System::Reflection::Emit {
   class LocalBuilder : public System::Reflection::LocalVariableInfo {
     public:
     // Writing base type padding for base size: 0x1C to desired offset: 0x20
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // private System.String name
     // Size: 0x8
     // Offset: 0x20

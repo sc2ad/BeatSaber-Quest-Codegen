@@ -48,8 +48,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Padding between fields: color and: materialPropertyBlockController
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // [SpaceAttribute] Offset: 0xDC73A4
     // private MaterialPropertyBlockController _materialPropertyBlockController
     // Size: 0x8

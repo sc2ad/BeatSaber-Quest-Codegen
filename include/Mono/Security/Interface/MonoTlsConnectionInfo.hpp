@@ -27,8 +27,7 @@ namespace Mono::Security::Interface {
     // Field size check
     static_assert(sizeof(Mono::Security::Interface::CipherSuiteCode) == 0x2);
     // Padding between fields: CipherSuiteCode and: ProtocolVersion
-    private: char __padding0[0x2] = {};
-    public:
+    char __padding0[0x2] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD43EF0
     // private Mono.Security.Interface.TlsProtocols <ProtocolVersion>k__BackingField
     // Size: 0x4

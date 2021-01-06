@@ -56,8 +56,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: targetPosition and: connectedPlayerContainerTransform
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // [SpaceAttribute] Offset: 0xDC891C
     // private UnityEngine.Transform _connectedPlayerContainerTransform
     // Size: 0x8

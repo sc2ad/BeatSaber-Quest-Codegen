@@ -50,8 +50,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_version and: m_list
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.Collections.ArrayList m_list
     // Size: 0x8
     // Offset: 0x18

@@ -27,8 +27,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: Optional and: Id
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD82D58
     // private System.Object <Id>k__BackingField
     // Size: 0x8

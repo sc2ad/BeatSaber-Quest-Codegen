@@ -89,8 +89,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: currentConnections and: idleSince
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // private System.DateTime idleSince
     // Size: 0x8
     // Offset: 0x28
@@ -122,8 +121,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: usesProxy and: groups
-    private: char __padding8[0x7] = {};
-    public:
+    char __padding8[0x7] = {};
     // private System.Collections.Generic.Dictionary`2<System.String,System.Net.WebConnectionGroup> groups
     // Size: 0x8
     // Offset: 0x50
@@ -143,8 +141,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useConnect and: hostE
-    private: char __padding11[0x6] = {};
-    public:
+    char __padding11[0x6] = {};
     // private System.Object hostE
     // Size: 0x8
     // Offset: 0x60
@@ -158,8 +155,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useNagle and: endPointCallback
-    private: char __padding13[0x7] = {};
-    public:
+    char __padding13[0x7] = {};
     // private System.Net.BindIPEndPoint endPointCallback
     // Size: 0x8
     // Offset: 0x70
@@ -173,8 +169,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: tcp_keepalive and: tcp_keepalive_time
-    private: char __padding15[0x3] = {};
-    public:
+    char __padding15[0x3] = {};
     // private System.Int32 tcp_keepalive_time
     // Size: 0x4
     // Offset: 0x7C
@@ -188,8 +183,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: tcp_keepalive_interval and: idleTimer
-    private: char __padding17[0x4] = {};
-    public:
+    char __padding17[0x4] = {};
     // private System.Threading.Timer idleTimer
     // Size: 0x8
     // Offset: 0x88

@@ -175,8 +175,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isInited and: offsetY
-    private: char __padding24[0x2] = {};
-    public:
+    char __padding24[0x2] = {};
     // private System.Single offsetY
     // Size: 0x4
     // Offset: 0xC4

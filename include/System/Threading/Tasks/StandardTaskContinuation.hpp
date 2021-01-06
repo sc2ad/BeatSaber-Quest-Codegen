@@ -41,8 +41,7 @@ namespace System::Threading::Tasks {
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskContinuationOptions) == 0x4);
     // Padding between fields: m_options and: m_taskScheduler
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private readonly System.Threading.Tasks.TaskScheduler m_taskScheduler
     // Size: 0x8
     // Offset: 0x20

@@ -83,8 +83,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: optional and: sourceType
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // private Zenject.InjectSources _sourceType
     // Size: 0x4
     // Offset: 0x44

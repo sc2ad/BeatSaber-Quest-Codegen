@@ -79,8 +79,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: obstacleDurationInBeats and: noteCuttingTutorialPartDidStartSignal
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // [SpaceAttribute] Offset: 0xDCB618
     // [FormerlySerializedAsAttribute] Offset: 0xDCB618
     // [SignalSenderAttribute] Offset: 0xDCB618
@@ -218,8 +217,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: songBpm and: beatmapData
-    private: char __padding21[0x4] = {};
-    public:
+    char __padding21[0x4] = {};
     // private BeatmapData _beatmapData
     // Size: 0x8
     // Offset: 0xC0

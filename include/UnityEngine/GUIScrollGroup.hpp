@@ -85,8 +85,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: needsVerticalScrollbar and: horizontalScrollbar
-    private: char __padding9[0x4] = {};
-    public:
+    char __padding9[0x4] = {};
     // public UnityEngine.GUIStyle horizontalScrollbar
     // Size: 0x8
     // Offset: 0xB0

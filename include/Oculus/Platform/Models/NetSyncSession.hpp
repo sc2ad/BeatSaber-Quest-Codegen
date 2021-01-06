@@ -30,8 +30,7 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: Muted and: SessionId
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // public readonly System.UInt64 SessionId
     // Size: 0x8
     // Offset: 0x20

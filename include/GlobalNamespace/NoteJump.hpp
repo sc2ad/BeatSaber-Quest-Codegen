@@ -68,8 +68,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: endDistanceOffset and: playerTransforms
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // [InjectAttribute] Offset: 0xDC5CA0
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
@@ -217,8 +216,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: halfJumpMarkReported and: localPosition
-    private: char __padding26[0x1] = {};
-    public:
+    char __padding26[0x1] = {};
     // private UnityEngine.Vector3 _localPosition
     // Size: 0xC
     // Offset: 0xE0
@@ -226,8 +224,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: localPosition and: randomRotations
-    private: char __padding27[0x4] = {};
-    public:
+    char __padding27[0x4] = {};
     // private readonly UnityEngine.Vector3[] _randomRotations
     // Size: 0x8
     // Offset: 0xF0

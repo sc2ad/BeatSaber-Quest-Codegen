@@ -48,8 +48,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
     // Padding between fields: beatmapEventType and: beatmapEventTypeBindings
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private System.Collections.Generic.Dictionary`2<UnityEngine.KeyCode,BeatmapEventType> _beatmapEventTypeBindings
     // Size: 0x8
     // Offset: 0x28

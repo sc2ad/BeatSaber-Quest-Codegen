@@ -88,8 +88,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: flipDirection and: transform
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // private UnityEngine.Transform _transform
     // Size: 0x8
     // Offset: 0x20

@@ -43,8 +43,7 @@ namespace System::Text {
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
     // Padding between fields: charUnknownLow and: index
-    private: char __padding2[0x2] = {};
-    public:
+    char __padding2[0x2] = {};
     // private System.Int32 index
     // Size: 0x4
     // Offset: 0x98

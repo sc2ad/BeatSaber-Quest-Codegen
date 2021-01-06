@@ -64,8 +64,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: minDuration and: afterMinDurationCallback
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // public System.Action afterMinDurationCallback
     // Size: 0x8
     // Offset: 0x30

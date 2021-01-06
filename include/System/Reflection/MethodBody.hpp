@@ -51,8 +51,7 @@ namespace System::Reflection {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: init_locals and: sig_token
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // private System.Int32 sig_token
     // Size: 0x4
     // Offset: 0x2C

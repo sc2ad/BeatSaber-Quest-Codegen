@@ -80,8 +80,7 @@ namespace LeaderboardsDTO {
     // Field size check
     static_assert(sizeof(LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope) == 0x4);
     // Padding between fields: scope and: friendsUserIds
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // public System.String[] friendsUserIds
     // Size: 0x8
     // Offset: 0x28

@@ -52,8 +52,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_ShowResults and: m_ScrollPosition
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // private UnityEngine.Vector2 m_ScrollPosition
     // Size: 0x8
     // Offset: 0x1C

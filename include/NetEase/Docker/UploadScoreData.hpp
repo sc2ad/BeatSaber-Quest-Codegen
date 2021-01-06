@@ -60,8 +60,7 @@ namespace NetEase::Docker {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: PlayedUntilEnd and: AccuracyPercentage
-    private: char __padding4[0x3] = {};
-    public:
+    char __padding4[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDB2870
     // [DebuggerBrowsableAttribute] Offset: 0xDB2870
     // private System.Single <AccuracyPercentage>k__BackingField

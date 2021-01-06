@@ -61,8 +61,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useAsync and: encoding
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // private System.Text.Encoding encoding
     // Size: 0x8
     // Offset: 0x18
@@ -76,8 +75,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: omitXmlDecl and: newLineHandling
-    private: char __padding2[0x3] = {};
-    public:
+    char __padding2[0x3] = {};
     // private System.Xml.NewLineHandling newLineHandling
     // Size: 0x4
     // Offset: 0x24
@@ -97,8 +95,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(System::Xml::TriState) == 0x4);
     // Padding between fields: indent and: indentChars
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // private System.String indentChars
     // Size: 0x8
     // Offset: 0x38
@@ -118,8 +115,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: closeOutput and: namespaceHandling
-    private: char __padding8[0x2] = {};
-    public:
+    char __padding8[0x2] = {};
     // private System.Xml.NamespaceHandling namespaceHandling
     // Size: 0x4
     // Offset: 0x44
@@ -145,8 +141,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: writeEndDocumentOnClose and: outputMethod
-    private: char __padding12[0x2] = {};
-    public:
+    char __padding12[0x2] = {};
     // private System.Xml.XmlOutputMethod outputMethod
     // Size: 0x4
     // Offset: 0x50
@@ -154,8 +149,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(System::Xml::XmlOutputMethod) == 0x4);
     // Padding between fields: outputMethod and: cdataSections
-    private: char __padding13[0x4] = {};
-    public:
+    char __padding13[0x4] = {};
     // private System.Collections.Generic.List`1<System.Xml.XmlQualifiedName> cdataSections
     // Size: 0x8
     // Offset: 0x58
@@ -175,8 +169,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: mergeCDataSections and: mediaType
-    private: char __padding16[0x6] = {};
-    public:
+    char __padding16[0x6] = {};
     // private System.String mediaType
     // Size: 0x8
     // Offset: 0x68

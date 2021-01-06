@@ -90,8 +90,7 @@ namespace System::Reflection {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: is_resource and: token
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // System.Int32 token
     // Size: 0x4
     // Offset: 0x3C

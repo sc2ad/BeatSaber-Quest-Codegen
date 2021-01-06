@@ -170,8 +170,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: failOnSaberClash and: enabledObstacleType
-    private: char __padding3[0x1] = {};
-    public:
+    char __padding3[0x1] = {};
     // public PlayerSaveDataV1_0_1/GameplayModifiers/EnabledObstacleType enabledObstacleType
     // Size: 0x4
     // Offset: 0x18

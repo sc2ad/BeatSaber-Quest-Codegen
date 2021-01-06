@@ -19,8 +19,7 @@ namespace GlobalNamespace {
   class MaterialPropertyBlockFloatAnimator : public GlobalNamespace::MaterialPropertyBlockAnimator {
     public:
     // Writing base type padding for base size: 0x2D to desired offset: 0x30
-    private: char ___base_padding[0x3] = {};
-    public:
+    char ___base_padding[0x3] = {};
     // [SpaceAttribute] Offset: 0xDA5750
     // private System.Single _value
     // Size: 0x4

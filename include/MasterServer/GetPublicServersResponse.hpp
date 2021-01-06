@@ -94,8 +94,7 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(MasterServer::GetPublicServersResponse::Result) == 0x1);
     // Padding between fields: result and: publicServers
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // public readonly System.Collections.Generic.List`1<PublicServerInfo> publicServers
     // Size: 0x8
     // Offset: 0x20

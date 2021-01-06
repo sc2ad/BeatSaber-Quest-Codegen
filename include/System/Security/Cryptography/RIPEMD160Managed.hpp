@@ -19,8 +19,7 @@ namespace System::Security::Cryptography {
   class RIPEMD160Managed : public System::Security::Cryptography::RIPEMD160 {
     public:
     // Writing base type padding for base size: 0x25 to desired offset: 0x28
-    private: char ___base_padding[0x3] = {};
-    public:
+    char ___base_padding[0x3] = {};
     // private System.Byte[] _buffer
     // Size: 0x8
     // Offset: 0x28

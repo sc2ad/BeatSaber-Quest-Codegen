@@ -45,8 +45,7 @@ namespace System::Globalization {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_isReadOnly and: twoDigitYearMax
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // System.Int32 twoDigitYearMax
     // Size: 0x4
     // Offset: 0x18

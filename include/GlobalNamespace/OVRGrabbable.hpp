@@ -53,8 +53,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_snapOrientation and: m_snapOffset
-    private: char __padding2[0x5] = {};
-    public:
+    char __padding2[0x5] = {};
     // protected UnityEngine.Transform m_snapOffset
     // Size: 0x8
     // Offset: 0x20
@@ -74,8 +73,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_grabbedKinematic and: m_grabbedCollider
-    private: char __padding5[0x7] = {};
-    public:
+    char __padding5[0x7] = {};
     // protected UnityEngine.Collider m_grabbedCollider
     // Size: 0x8
     // Offset: 0x38

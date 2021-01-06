@@ -71,8 +71,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: caseInsensitive and: culture
-    private: char __padding7[0x6] = {};
-    public:
+    char __padding7[0x6] = {};
     // System.Globalization.CultureInfo _culture
     // Size: 0x8
     // Offset: 0x40

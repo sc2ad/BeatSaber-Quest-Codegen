@@ -96,8 +96,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_coord and: m_endomorphism
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // protected Org.BouncyCastle.Math.EC.Endo.ECEndomorphism m_endomorphism
     // Size: 0x8
     // Offset: 0x40

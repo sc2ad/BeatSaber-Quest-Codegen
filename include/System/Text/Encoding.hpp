@@ -67,8 +67,7 @@ namespace System::Text {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_codePage and: dataItem
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // System.Globalization.CodePageDataItem dataItem
     // Size: 0x8
     // Offset: 0x18
@@ -89,8 +88,7 @@ namespace System::Text {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_isReadOnly and: encoderFallback
-    private: char __padding3[0x6] = {};
-    public:
+    char __padding3[0x6] = {};
     // [OptionalFieldAttribute] Offset: 0xD3E014
     // System.Text.EncoderFallback encoderFallback
     // Size: 0x8

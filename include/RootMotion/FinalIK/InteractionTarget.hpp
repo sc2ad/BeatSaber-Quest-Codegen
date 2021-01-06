@@ -43,8 +43,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
     // Padding between fields: effectorType and: multipliers
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [TooltipAttribute] Offset: 0xDB77CC
     // public RootMotion.FinalIK.InteractionTarget/Multiplier[] multipliers
     // Size: 0x8
@@ -60,8 +59,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: interactionSpeedMlp and: pivot
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // [TooltipAttribute] Offset: 0xDB783C
     // public UnityEngine.Transform pivot
     // Size: 0x8
@@ -98,8 +96,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: rotateOnce and: defaultLocalRotation
-    private: char __padding7[0x3] = {};
-    public:
+    char __padding7[0x3] = {};
     // private UnityEngine.Quaternion defaultLocalRotation
     // Size: 0x10
     // Offset: 0x50

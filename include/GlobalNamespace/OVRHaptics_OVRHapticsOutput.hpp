@@ -47,8 +47,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_paddingEnabled and: m_prevSamplesQueued
-    private: char __padding1[0x2] = {};
-    public:
+    char __padding1[0x2] = {};
     // private System.Int32 m_prevSamplesQueued
     // Size: 0x4
     // Offset: 0x14
@@ -92,8 +91,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(uint) == 0x4);
     // Padding between fields: m_controller and: m_nativeBuffer
-    private: char __padding8[0x4] = {};
-    public:
+    char __padding8[0x4] = {};
     // private OVRNativeBuffer m_nativeBuffer
     // Size: 0x8
     // Offset: 0x38

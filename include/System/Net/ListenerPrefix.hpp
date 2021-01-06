@@ -41,8 +41,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(uint16_t) == 0x2);
     // Padding between fields: port and: path
-    private: char __padding2[0x6] = {};
-    public:
+    char __padding2[0x6] = {};
     // private System.String path
     // Size: 0x8
     // Offset: 0x28
@@ -56,8 +55,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: secure and: Listener
-    private: char __padding4[0x7] = {};
-    public:
+    char __padding4[0x7] = {};
     // public System.Net.HttpListener Listener
     // Size: 0x8
     // Offset: 0x38

@@ -67,8 +67,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: animationStartAheadTime and: btsCharacterDataModel
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private BTSCharacterDataModel _btsCharacterDataModel
     // Size: 0x8
     // Offset: 0x20
@@ -135,8 +134,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isInitialized and: eventsCallbackData
-    private: char __padding10[0x7] = {};
-    public:
+    char __padding10[0x7] = {};
     // private BeatmapObjectCallbackController/BeatmapEventCallbackData _eventsCallbackData
     // Size: 0x8
     // Offset: 0x70

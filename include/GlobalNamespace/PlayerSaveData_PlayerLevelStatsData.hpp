@@ -34,8 +34,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
     // Padding between fields: difficulty and: beatmapCharacteristicName
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // public System.String beatmapCharacteristicName
     // Size: 0x8
     // Offset: 0x20
@@ -61,8 +60,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fullCombo and: maxRank
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // public RankModel/Rank maxRank
     // Size: 0x4
     // Offset: 0x34
@@ -76,8 +74,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: validScore and: playCount
-    private: char __padding7[0x3] = {};
-    public:
+    char __padding7[0x3] = {};
     // public System.Int32 playCount
     // Size: 0x4
     // Offset: 0x3C

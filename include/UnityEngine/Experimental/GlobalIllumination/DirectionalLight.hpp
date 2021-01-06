@@ -41,8 +41,7 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Field size check
     static_assert(sizeof(UnityEngine::Experimental::GlobalIllumination::LightMode) == 0x1);
     // Padding between fields: mode and: direction
-    private: char __padding2[0x2] = {};
-    public:
+    char __padding2[0x2] = {};
     // public UnityEngine.Vector3 direction
     // Size: 0xC
     // Offset: 0x8

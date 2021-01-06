@@ -35,8 +35,7 @@ namespace System::Globalization {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: use_std3 and: puny
-    private: char __padding1[0x6] = {};
-    public:
+    char __padding1[0x6] = {};
     // private System.Globalization.Punycode puny
     // Size: 0x8
     // Offset: 0x18

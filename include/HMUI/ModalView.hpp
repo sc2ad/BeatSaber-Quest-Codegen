@@ -70,8 +70,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: animateParentCanvas and: container
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // [InjectAttribute] Offset: 0xDA78F0
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
@@ -99,8 +98,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: viewIsValid and: mainCanvas
-    private: char __padding6[0x6] = {};
-    public:
+    char __padding6[0x6] = {};
     // private UnityEngine.Canvas _mainCanvas
     // Size: 0x8
     // Offset: 0x48

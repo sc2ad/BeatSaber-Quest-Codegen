@@ -29,8 +29,7 @@ namespace GlobalNamespace {
   class GoodCutsMissionObjectiveChecker : public GlobalNamespace::SimpleValueMissionObjectiveChecker {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // [InjectAttribute] Offset: 0xDC8720
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8

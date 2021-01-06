@@ -59,8 +59,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: completed and: cb
-    private: char __padding2[0x6] = {};
-    public:
+    char __padding2[0x6] = {};
     // private System.AsyncCallback cb
     // Size: 0x8
     // Offset: 0x20

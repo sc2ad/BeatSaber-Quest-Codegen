@@ -109,8 +109,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: cachedExtent and: tweeningManager
-    private: char __padding8[0x4] = {};
-    public:
+    char __padding8[0x4] = {};
     // [InjectAttribute] Offset: 0xDC88BC
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8

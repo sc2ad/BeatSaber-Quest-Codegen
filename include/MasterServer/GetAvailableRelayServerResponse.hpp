@@ -93,8 +93,7 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(MasterServer::GetAvailableRelayServerResponse::Result) == 0x4);
     // Padding between fields: result and: dedicatedServerId
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDAA4D4
     // private System.String <dedicatedServerId>k__BackingField
     // Size: 0x8
@@ -122,8 +121,7 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: port and: random
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // public readonly ByteArrayNetSerializable random
     // Size: 0x8
     // Offset: 0x40

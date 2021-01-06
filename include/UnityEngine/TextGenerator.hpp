@@ -77,8 +77,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(UnityEngine::TextGenerationSettings) == 0x59);
     // Padding between fields: m_LastSettings and: m_HasGenerated
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // private System.Boolean m_HasGenerated
     // Size: 0x1
     // Offset: 0x80
@@ -86,8 +85,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_HasGenerated and: m_LastValid
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // private UnityEngine.TextGenerationError m_LastValid
     // Size: 0x4
     // Offset: 0x84

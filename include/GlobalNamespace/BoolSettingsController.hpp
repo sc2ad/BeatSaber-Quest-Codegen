@@ -25,8 +25,7 @@ namespace GlobalNamespace {
   class BoolSettingsController : public GlobalNamespace::SwitchSettingsController {
     public:
     // Writing base type padding for base size: 0x21 to desired offset: 0x28
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // private BoolSO _settingsValue
     // Size: 0x8
     // Offset: 0x28

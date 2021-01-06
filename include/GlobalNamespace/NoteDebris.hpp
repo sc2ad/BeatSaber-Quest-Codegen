@@ -81,8 +81,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: maxCutPointCenterDistance and: centroidComputationMesh
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // [SpaceAttribute] Offset: 0xDC5B08
     // private UnityEngine.Mesh _centroidComputationMesh
     // Size: 0x8

@@ -41,8 +41,7 @@ namespace System::Threading {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fIsReentrant and: myLock
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // private System.Int32 myLock
     // Size: 0x4
     // Offset: 0x14
@@ -80,8 +79,7 @@ namespace System::Threading {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fNoWaiters and: upgradeLockOwnerId
-    private: char __padding6[0x3] = {};
-    public:
+    char __padding6[0x3] = {};
     // private System.Int32 upgradeLockOwnerId
     // Size: 0x4
     // Offset: 0x2C
@@ -95,8 +93,7 @@ namespace System::Threading {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: writeLockOwnerId and: writeEvent
-    private: char __padding8[0x4] = {};
-    public:
+    char __padding8[0x4] = {};
     // private System.Threading.EventWaitHandle writeEvent
     // Size: 0x8
     // Offset: 0x38
@@ -134,8 +131,7 @@ namespace System::Threading {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fUpgradeThreadHoldingRead and: owners
-    private: char __padding14[0x3] = {};
-    public:
+    char __padding14[0x3] = {};
     // private System.UInt32 owners
     // Size: 0x4
     // Offset: 0x64

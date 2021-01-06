@@ -33,8 +33,7 @@ namespace System::Diagnostics::Tracing {
   class EventSource::OverideEventProvider : public System::Diagnostics::Tracing::EventProvider {
     public:
     // Writing base type padding for base size: 0x5D to desired offset: 0x60
-    private: char ___base_padding[0x3] = {};
-    public:
+    char ___base_padding[0x3] = {};
     // private System.Diagnostics.Tracing.EventSource m_eventSource
     // Size: 0x8
     // Offset: 0x60

@@ -63,8 +63,7 @@ namespace System::Net::Sockets {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_OwnsSocket and: m_CloseTimeout
-    private: char __padding3[0x1] = {};
-    public:
+    char __padding3[0x1] = {};
     // private System.Int32 m_CloseTimeout
     // Size: 0x4
     // Offset: 0x34
@@ -78,8 +77,7 @@ namespace System::Net::Sockets {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_CleanedUp and: m_CurrentReadTimeout
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // private System.Int32 m_CurrentReadTimeout
     // Size: 0x4
     // Offset: 0x3C

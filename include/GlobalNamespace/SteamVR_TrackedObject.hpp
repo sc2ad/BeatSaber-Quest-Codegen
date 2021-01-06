@@ -166,8 +166,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::SteamVR_TrackedObject::EIndex) == 0x4);
     // Padding between fields: index and: origin
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [TooltipAttribute] Offset: 0xD8A728
     // public UnityEngine.Transform origin
     // Size: 0x8
@@ -183,8 +182,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isValid and: newPosesAction
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // private SteamVR_Events/Action newPosesAction
     // Size: 0x8
     // Offset: 0x30

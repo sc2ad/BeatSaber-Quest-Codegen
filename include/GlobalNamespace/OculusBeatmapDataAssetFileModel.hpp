@@ -117,8 +117,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: lastAssetFileDownloadUpdateTime and: semaphoreSlim
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private System.Threading.SemaphoreSlim _semaphoreSlim
     // Size: 0x8
     // Offset: 0x38

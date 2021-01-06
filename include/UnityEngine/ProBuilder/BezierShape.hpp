@@ -50,8 +50,7 @@ namespace UnityEngine::ProBuilder {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: closeLoop and: radius
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // public System.Single radius
     // Size: 0x4
     // Offset: 0x24
@@ -83,8 +82,7 @@ namespace UnityEngine::ProBuilder {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_IsEditing and: m_Mesh
-    private: char __padding6[0x6] = {};
-    public:
+    char __padding6[0x6] = {};
     // private UnityEngine.ProBuilder.ProBuilderMesh m_Mesh
     // Size: 0x8
     // Offset: 0x38

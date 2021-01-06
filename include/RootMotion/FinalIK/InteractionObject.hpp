@@ -160,8 +160,7 @@ namespace RootMotion::FinalIK {
       // Field size check
       static_assert(sizeof(RootMotion::FinalIK::InteractionObject::WeightCurve::Type) == 0x4);
       // Padding between fields: type and: curve
-      private: char __padding0[0x4] = {};
-      public:
+      char __padding0[0x4] = {};
       // [TooltipAttribute] Offset: 0xDBA58C
       // public UnityEngine.AnimationCurve curve
       // Size: 0x8
@@ -233,8 +232,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: length and: lastUsedInteractionSystem
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDB74A8
     // private RootMotion.FinalIK.InteractionSystem <lastUsedInteractionSystem>k__BackingField
     // Size: 0x8

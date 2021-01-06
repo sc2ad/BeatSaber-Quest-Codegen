@@ -26,8 +26,7 @@ namespace System::IO {
     // Field size check
     static_assert(sizeof(System::IO::WatcherChangeTypes) == 0x4);
     // Padding between fields: changeType and: directory
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.String directory
     // Size: 0x8
     // Offset: 0x18

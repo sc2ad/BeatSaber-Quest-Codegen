@@ -28,8 +28,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(System::Diagnostics::Tracing::EventFieldTags) == 0x4);
     // Padding between fields: Tags and: Name
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD3F128
     // private System.String <Name>k__BackingField
     // Size: 0x8

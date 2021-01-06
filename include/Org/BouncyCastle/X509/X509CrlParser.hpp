@@ -48,8 +48,7 @@ namespace Org::BouncyCastle::X509 {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: lazyAsn1 and: sCrlData
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // private Org.BouncyCastle.Asn1.Asn1Set sCrlData
     // Size: 0x8
     // Offset: 0x18
@@ -63,8 +62,7 @@ namespace Org::BouncyCastle::X509 {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: sCrlDataObjectCount and: currentCrlStream
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private System.IO.Stream currentCrlStream
     // Size: 0x8
     // Offset: 0x28

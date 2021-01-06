@@ -117,8 +117,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: smoothCorners and: pass
-    private: char __padding13[0x3] = {};
-    public:
+    char __padding13[0x3] = {};
     // public System.Int32 pass
     // Size: 0x4
     // Offset: 0xA4

@@ -31,8 +31,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: positionOffset and: avatarPoseController
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [InjectAttribute] Offset: 0xDC1D60
     // private readonly AvatarPoseController _avatarPoseController
     // Size: 0x8

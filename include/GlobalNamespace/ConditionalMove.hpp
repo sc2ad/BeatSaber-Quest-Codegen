@@ -31,8 +31,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: offset and: value
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private BoolSO _value
     // Size: 0x8
     // Offset: 0x28

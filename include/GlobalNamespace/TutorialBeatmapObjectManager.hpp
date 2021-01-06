@@ -43,8 +43,7 @@ namespace GlobalNamespace {
   class TutorialBeatmapObjectManager : public GlobalNamespace::BeatmapObjectManager {
     public:
     // Writing base type padding for base size: 0x49 to desired offset: 0x50
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // private readonly MonoMemoryPoolContainer`1<TutorialNoteController> _tutorialNotePoolContainer
     // Size: 0x8
     // Offset: 0x50

@@ -68,8 +68,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: blendPct and: startXform
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // [HideInInspector] Offset: 0xD8A4CC
     // public UnityEngine.Transform startXform
     // Size: 0x8

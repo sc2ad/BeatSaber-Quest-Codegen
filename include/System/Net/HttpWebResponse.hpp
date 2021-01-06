@@ -86,8 +86,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(System::Net::HttpStatusCode) == 0x4);
     // Padding between fields: statusCode and: statusDescription
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // private System.String statusDescription
     // Size: 0x8
     // Offset: 0x48
@@ -119,8 +118,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: disposed and: stream
-    private: char __padding10[0x7] = {};
-    public:
+    char __padding10[0x7] = {};
     // private System.IO.Stream stream
     // Size: 0x8
     // Offset: 0x70

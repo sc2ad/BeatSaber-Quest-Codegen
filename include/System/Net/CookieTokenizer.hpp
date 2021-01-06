@@ -31,8 +31,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_eofCookie and: m_index
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // private System.Int32 m_index
     // Size: 0x4
     // Offset: 0x14
@@ -46,8 +45,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_length and: m_name
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private System.String m_name
     // Size: 0x8
     // Offset: 0x20
@@ -61,8 +59,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_quoted and: m_start
-    private: char __padding4[0x3] = {};
-    public:
+    char __padding4[0x3] = {};
     // private System.Int32 m_start
     // Size: 0x4
     // Offset: 0x2C

@@ -55,8 +55,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: XY and: bones
-    private: char __padding4[0x6] = {};
-    public:
+    char __padding4[0x6] = {};
     // public RootMotion.FinalIK.IKSolver/Bone[] bones
     // Size: 0x8
     // Offset: 0x70

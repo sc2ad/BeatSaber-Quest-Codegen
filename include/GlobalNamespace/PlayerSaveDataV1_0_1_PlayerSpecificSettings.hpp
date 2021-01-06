@@ -36,8 +36,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: swapColors and: playerHeight
-    private: char __padding2[0x1] = {};
-    public:
+    char __padding2[0x1] = {};
     // public System.Single playerHeight
     // Size: 0x4
     // Offset: 0x14

@@ -26,8 +26,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: emitSwipe and: moveAmount
-    private: char __padding0[0x2] = {};
-    public:
+    char __padding0[0x2] = {};
     // private OVRPlugin/Vector2f moveAmount
     // Size: 0x8
     // Offset: 0x104

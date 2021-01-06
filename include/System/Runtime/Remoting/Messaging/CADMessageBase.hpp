@@ -62,8 +62,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: propertyCount and: callContext
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // protected System.Runtime.Remoting.Messaging.CADArgHolder _callContext
     // Size: 0x8
     // Offset: 0x28

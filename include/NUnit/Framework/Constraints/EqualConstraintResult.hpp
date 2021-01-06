@@ -49,8 +49,7 @@ namespace NUnit::Framework::Constraints {
   class EqualConstraintResult : public NUnit::Framework::Constraints::ConstraintResult {
     public:
     // Writing base type padding for base size: 0x24 to desired offset: 0x28
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // private System.Object expectedValue
     // Size: 0x8
     // Offset: 0x28
@@ -76,8 +75,7 @@ namespace NUnit::Framework::Constraints {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: clipStrings and: failurePoints
-    private: char __padding3[0x6] = {};
-    public:
+    char __padding3[0x6] = {};
     // private System.Collections.Generic.IList`1<NUnit.Framework.Constraints.NUnitEqualityComparer/FailurePoint> failurePoints
     // Size: 0x8
     // Offset: 0x40

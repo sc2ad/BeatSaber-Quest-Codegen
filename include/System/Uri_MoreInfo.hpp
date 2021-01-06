@@ -48,8 +48,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: Hash and: RemoteUrl
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // public System.String RemoteUrl
     // Size: 0x8
     // Offset: 0x38

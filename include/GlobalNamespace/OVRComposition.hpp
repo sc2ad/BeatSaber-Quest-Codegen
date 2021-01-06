@@ -46,8 +46,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: cameraInTrackingSpace and: cameraRig
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // public OVRCameraRig cameraRig
     // Size: 0x8
     // Offset: 0x18
@@ -61,8 +60,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: usingLastAttachedNodePose and: lastAttachedNodePose
-    private: char __padding2[0x3] = {};
-    public:
+    char __padding2[0x3] = {};
     // protected OVRPose lastAttachedNodePose
     // Size: 0x1C
     // Offset: 0x24

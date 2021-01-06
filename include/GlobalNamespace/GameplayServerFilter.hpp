@@ -69,8 +69,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: filterNames and: nameFilter
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // public readonly System.String nameFilter
     // Size: 0x8
     // Offset: 0x8
@@ -96,8 +95,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: filterModifiers and: modifierFilter
-    private: char __padding7[0x1] = {};
-    public:
+    char __padding7[0x1] = {};
     // public readonly GameplayModifierMask modifierFilter
     // Size: 0x2
     // Offset: 0x14
@@ -111,8 +109,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: filterSongPacks and: songPackFilter
-    private: char __padding9[0x1] = {};
-    public:
+    char __padding9[0x1] = {};
     // public readonly SongPackMask songPackFilter
     // Size: 0x10
     // Offset: 0x18

@@ -62,8 +62,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: objectInfoId and: objectType
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // System.Type objectType
     // Size: 0x8
     // Offset: 0x18
@@ -131,8 +130,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: lastPosition and: serializationSurrogate
-    private: char __padding11[0x4] = {};
-    public:
+    char __padding11[0x4] = {};
     // System.Runtime.Serialization.ISerializationSurrogate serializationSurrogate
     // Size: 0x8
     // Offset: 0x50
@@ -146,8 +144,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::StreamingContext) == 0xC);
     // Padding between fields: context and: memberTypesList
-    private: char __padding13[0x4] = {};
-    public:
+    char __padding13[0x4] = {};
     // System.Collections.Generic.List`1<System.Type> memberTypesList
     // Size: 0x8
     // Offset: 0x68

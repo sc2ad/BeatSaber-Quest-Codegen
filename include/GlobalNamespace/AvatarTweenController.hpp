@@ -203,8 +203,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(Tweening::EaseType) == 0x4);
     // Padding between fields: disappearPositionEase and: tweeningManager
-    private: char __padding23[0x4] = {};
-    public:
+    char __padding23[0x4] = {};
     // [InjectAttribute] Offset: 0xDC2244
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8

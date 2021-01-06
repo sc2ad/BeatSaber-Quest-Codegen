@@ -92,8 +92,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: synch and: locker
-    private: char __padding7[0x6] = {};
-    public:
+    char __padding7[0x6] = {};
     // private System.Object locker
     // Size: 0x8
     // Offset: 0x48

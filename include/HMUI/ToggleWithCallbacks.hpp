@@ -30,8 +30,7 @@ namespace HMUI {
   class ToggleWithCallbacks : public UnityEngine::UI::Toggle {
     public:
     // Writing base type padding for base size: 0x111 to desired offset: 0x118
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // Nested type: HMUI::ToggleWithCallbacks::SelectionState
     struct SelectionState;
     // Size: 0x4

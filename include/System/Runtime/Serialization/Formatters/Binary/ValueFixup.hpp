@@ -43,8 +43,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum) == 0x4);
     // Padding between fields: valueFixupEnum and: arrayObj
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // System.Array arrayObj
     // Size: 0x8
     // Offset: 0x18

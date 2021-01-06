@@ -27,8 +27,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isError and: assetBundlePath
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // public readonly System.String assetBundlePath
     // Size: 0x8
     // Offset: 0x8

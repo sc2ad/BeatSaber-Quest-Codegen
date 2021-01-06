@@ -47,8 +47,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: refreshIsNeeded and: onJoinRequestEvent
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDD0FF4
     // private System.Action`1<INetworkPlayer> onJoinRequestEvent
     // Size: 0x8

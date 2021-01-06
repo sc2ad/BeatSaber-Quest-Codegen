@@ -174,8 +174,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: connectedPeersCount and: connectedPeerListCache
-    private: char __padding10[0x4] = {};
-    public:
+    char __padding10[0x4] = {};
     // private readonly System.Collections.Generic.List`1<LiteNetLib.NetPeer> _connectedPeerListCache
     // Size: 0x8
     // Offset: 0x68
@@ -201,8 +200,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: lastPeerId and: peerIds
-    private: char __padding14[0x4] = {};
-    public:
+    char __padding14[0x4] = {};
     // private readonly System.Collections.Generic.Queue`1<System.Int32> _peerIds
     // Size: 0x8
     // Offset: 0x88
@@ -216,8 +214,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
     // Padding between fields: channelsCount and: NetPacketPool
-    private: char __padding16[0x7] = {};
-    public:
+    char __padding16[0x7] = {};
     // readonly LiteNetLib.NetPacketPool NetPacketPool
     // Size: 0x8
     // Offset: 0x98
@@ -237,8 +234,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: NatPunchEnabled and: UpdateTime
-    private: char __padding19[0x2] = {};
-    public:
+    char __padding19[0x2] = {};
     // public System.Int32 UpdateTime
     // Size: 0x4
     // Offset: 0xA4
@@ -270,8 +266,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: SimulateLatency and: SimulationPacketLossChance
-    private: char __padding24[0x2] = {};
-    public:
+    char __padding24[0x2] = {};
     // public System.Int32 SimulationPacketLossChance
     // Size: 0x4
     // Offset: 0xB4
@@ -309,8 +304,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: BroadcastReceiveEnabled and: ReconnectDelay
-    private: char __padding30[0x1] = {};
-    public:
+    char __padding30[0x1] = {};
     // public System.Int32 ReconnectDelay
     // Size: 0x4
     // Offset: 0xC4
@@ -330,8 +324,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: ReuseAddress and: Statistics
-    private: char __padding33[0x3] = {};
-    public:
+    char __padding33[0x3] = {};
     // public readonly LiteNetLib.NetStatistics Statistics
     // Size: 0x8
     // Offset: 0xD0
@@ -345,8 +338,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: EnableStatistics and: NatPunchModule
-    private: char __padding35[0x7] = {};
-    public:
+    char __padding35[0x7] = {};
     // public readonly LiteNetLib.NatPunchModule NatPunchModule
     // Size: 0x8
     // Offset: 0xE0
@@ -366,8 +358,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: IPv6Enabled and: ThreadPriority
-    private: char __padding38[0x2] = {};
-    public:
+    char __padding38[0x2] = {};
     // public System.Threading.ThreadPriority ThreadPriority
     // Size: 0x4
     // Offset: 0xEC

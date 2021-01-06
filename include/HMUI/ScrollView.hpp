@@ -232,8 +232,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: pageStepNormalizedSize and: platformHelper
-    private: char __padding11[0x4] = {};
-    public:
+    char __padding11[0x4] = {};
     // [InjectAttribute] Offset: 0xDA7C50
     // private readonly IVRPlatformHelper _platformHelper
     // Size: 0x8
@@ -254,8 +253,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: destinationPosY and: scrollFocusPosYs
-    private: char __padding14[0x4] = {};
-    public:
+    char __padding14[0x4] = {};
     // private System.Single[] _scrollFocusPosYs
     // Size: 0x8
     // Offset: 0x78

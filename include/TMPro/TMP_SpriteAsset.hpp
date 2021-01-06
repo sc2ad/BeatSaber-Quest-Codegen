@@ -45,8 +45,7 @@ namespace TMPro {
   class TMP_SpriteAsset : public TMPro::TMP_Asset {
     public:
     // Writing base type padding for base size: 0x2C to desired offset: 0x30
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // Nested type: TMPro::TMP_SpriteAsset::$$c
     class $$c;
     // System.Collections.Generic.Dictionary`2<System.UInt32,System.Int32> m_UnicodeLookup

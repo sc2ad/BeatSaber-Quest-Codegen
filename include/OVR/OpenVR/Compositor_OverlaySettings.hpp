@@ -36,8 +36,7 @@ namespace OVR::OpenVR {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: antialias and: scale
-    private: char __padding2[0x2] = {};
-    public:
+    char __padding2[0x2] = {};
     // public System.Single scale
     // Size: 0x4
     // Offset: 0x8

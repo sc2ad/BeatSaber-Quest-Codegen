@@ -67,8 +67,7 @@ namespace System::IO::Compression {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: disposed and: native
-    private: char __padding3[0x2] = {};
-    public:
+    char __padding3[0x2] = {};
     // private System.IO.Compression.DeflateStreamNative native
     // Size: 0x8
     // Offset: 0x38

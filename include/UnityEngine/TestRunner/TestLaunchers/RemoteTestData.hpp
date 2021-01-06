@@ -72,8 +72,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isSuite and: childrenIds
-    private: char __padding6[0x6] = {};
-    public:
+    char __padding6[0x6] = {};
     // public System.String[] childrenIds
     // Size: 0x8
     // Offset: 0x38
@@ -87,8 +86,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: testCaseTimeout and: Categories
-    private: char __padding8[0x4] = {};
-    public:
+    char __padding8[0x4] = {};
     // public System.String[] Categories
     // Size: 0x8
     // Offset: 0x48
@@ -102,8 +100,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: IsTestAssembly and: RunState
-    private: char __padding10[0x3] = {};
-    public:
+    char __padding10[0x3] = {};
     // public NUnit.Framework.Interfaces.RunState RunState
     // Size: 0x4
     // Offset: 0x54

@@ -50,8 +50,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
     // Padding between fields: event and: beatmapObjectCallbackController
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // [InjectAttribute] Offset: 0xDC6D7C
     // private readonly BeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8

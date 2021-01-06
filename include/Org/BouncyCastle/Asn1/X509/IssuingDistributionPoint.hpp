@@ -57,8 +57,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: onlyContainsCACerts and: onlySomeReasons
-    private: char __padding2[0x6] = {};
-    public:
+    char __padding2[0x6] = {};
     // private readonly Org.BouncyCastle.Asn1.X509.ReasonFlags _onlySomeReasons
     // Size: 0x8
     // Offset: 0x20
@@ -78,8 +77,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: onlyContainsAttributeCerts and: seq
-    private: char __padding5[0x6] = {};
-    public:
+    char __padding5[0x6] = {};
     // private readonly Org.BouncyCastle.Asn1.Asn1Sequence seq
     // Size: 0x8
     // Offset: 0x30

@@ -29,8 +29,7 @@ namespace Mono::Security::Authenticode {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: encrypted and: rsa
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // private System.Security.Cryptography.RSA rsa
     // Size: 0x8
     // Offset: 0x18
@@ -44,8 +43,7 @@ namespace Mono::Security::Authenticode {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: weak and: keyType
-    private: char __padding2[0x3] = {};
-    public:
+    char __padding2[0x3] = {};
     // private System.Int32 keyType
     // Size: 0x4
     // Offset: 0x24

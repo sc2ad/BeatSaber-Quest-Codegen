@@ -30,8 +30,7 @@ namespace Mono::Security {
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
     // Padding between fields: m_nTag and: m_aValue
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // private System.Byte[] m_aValue
     // Size: 0x8
     // Offset: 0x18

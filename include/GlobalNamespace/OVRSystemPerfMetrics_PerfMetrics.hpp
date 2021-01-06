@@ -42,8 +42,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: appCpuTime_IsValid and: appCpuTime
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // public System.Single appCpuTime
     // Size: 0x4
     // Offset: 0x20
@@ -57,8 +56,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: appGpuTime_IsValid and: appGpuTime
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // public System.Single appGpuTime
     // Size: 0x4
     // Offset: 0x28
@@ -72,8 +70,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: compositorCpuTime_IsValid and: compositorCpuTime
-    private: char __padding7[0x3] = {};
-    public:
+    char __padding7[0x3] = {};
     // public System.Single compositorCpuTime
     // Size: 0x4
     // Offset: 0x30
@@ -87,8 +84,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: compositorGpuTime_IsValid and: compositorGpuTime
-    private: char __padding9[0x3] = {};
-    public:
+    char __padding9[0x3] = {};
     // public System.Single compositorGpuTime
     // Size: 0x4
     // Offset: 0x38
@@ -102,8 +98,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: compositorDroppedFrameCount_IsValid and: compositorDroppedFrameCount
-    private: char __padding11[0x3] = {};
-    public:
+    char __padding11[0x3] = {};
     // public System.Int32 compositorDroppedFrameCount
     // Size: 0x4
     // Offset: 0x40
@@ -117,8 +112,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: systemGpuUtilPercentage_IsValid and: systemGpuUtilPercentage
-    private: char __padding13[0x3] = {};
-    public:
+    char __padding13[0x3] = {};
     // public System.Single systemGpuUtilPercentage
     // Size: 0x4
     // Offset: 0x48
@@ -132,8 +126,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: systemCpuUtilAveragePercentage_IsValid and: systemCpuUtilAveragePercentage
-    private: char __padding15[0x3] = {};
-    public:
+    char __padding15[0x3] = {};
     // public System.Single systemCpuUtilAveragePercentage
     // Size: 0x4
     // Offset: 0x50
@@ -147,8 +140,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: systemCpuUtilWorstPercentage_IsValid and: systemCpuUtilWorstPercentage
-    private: char __padding17[0x3] = {};
-    public:
+    char __padding17[0x3] = {};
     // public System.Single systemCpuUtilWorstPercentage
     // Size: 0x4
     // Offset: 0x58
@@ -162,8 +154,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: deviceCpuClockFrequencyInMHz_IsValid and: deviceCpuClockFrequencyInMHz
-    private: char __padding19[0x3] = {};
-    public:
+    char __padding19[0x3] = {};
     // public System.Single deviceCpuClockFrequencyInMHz
     // Size: 0x4
     // Offset: 0x60
@@ -177,8 +168,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: deviceGpuClockFrequencyInMHz_IsValid and: deviceGpuClockFrequencyInMHz
-    private: char __padding21[0x3] = {};
-    public:
+    char __padding21[0x3] = {};
     // public System.Single deviceGpuClockFrequencyInMHz
     // Size: 0x4
     // Offset: 0x68
@@ -192,8 +182,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: deviceCpuClockLevel_IsValid and: deviceCpuClockLevel
-    private: char __padding23[0x3] = {};
-    public:
+    char __padding23[0x3] = {};
     // public System.Int32 deviceCpuClockLevel
     // Size: 0x4
     // Offset: 0x70
@@ -207,8 +196,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: deviceGpuClockLevel_IsValid and: deviceGpuClockLevel
-    private: char __padding25[0x3] = {};
-    public:
+    char __padding25[0x3] = {};
     // public System.Int32 deviceGpuClockLevel
     // Size: 0x4
     // Offset: 0x78

@@ -49,8 +49,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: encrypting and: blockSize
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // private readonly System.Int32 blockSize
     // Size: 0x4
     // Offset: 0x2C

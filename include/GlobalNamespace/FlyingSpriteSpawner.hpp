@@ -85,8 +85,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: shake and: flyingSpriteEffectPool
-    private: char __padding7[0x7] = {};
-    public:
+    char __padding7[0x7] = {};
     // [InjectAttribute] Offset: 0xDC6310
     // private FlyingSpriteEffect/Pool _flyingSpriteEffectPool
     // Size: 0x8

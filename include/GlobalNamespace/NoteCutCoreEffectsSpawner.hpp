@@ -53,8 +53,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: shockWaveYPos and: noteCutParticlesEffect
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [SpaceAttribute] Offset: 0xDC63F0
     // private NoteCutParticlesEffect _noteCutParticlesEffect
     // Size: 0x8

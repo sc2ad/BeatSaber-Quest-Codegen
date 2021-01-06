@@ -31,8 +31,7 @@ namespace Org::BouncyCastle::Asn1 {
   class ConstructedOctetStream : public Org::BouncyCastle::Utilities::IO::BaseInputStream {
     public:
     // Writing base type padding for base size: 0x29 to desired offset: 0x30
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // private readonly Org.BouncyCastle.Asn1.Asn1StreamParser _parser
     // Size: 0x8
     // Offset: 0x30
@@ -46,8 +45,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: first and: currentStream
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // private System.IO.Stream _currentStream
     // Size: 0x8
     // Offset: 0x40

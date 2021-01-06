@@ -51,8 +51,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRPlugin::HandFingerPinch) == 0x4);
     // Padding between fields: Pinches and: PinchStrength
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // public System.Single[] PinchStrength
     // Size: 0x8
     // Offset: 0x30
@@ -78,8 +77,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRPlugin::TrackingConfidence) == 0x4);
     // Padding between fields: HandConfidence and: FingerConfidences
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // public OVRPlugin/TrackingConfidence[] FingerConfidences
     // Size: 0x8
     // Offset: 0x60

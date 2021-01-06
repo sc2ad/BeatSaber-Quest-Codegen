@@ -63,8 +63,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: playOnAwake and: originalPitch
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // private System.Single _originalPitch
     // Size: 0x4
     // Offset: 0x2C

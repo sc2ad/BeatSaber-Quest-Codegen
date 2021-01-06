@@ -70,8 +70,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: capsize and: factory
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // System.Text.RegularExpressions.RegexRunnerFactory _factory
     // Size: 0x8
     // Offset: 0x40

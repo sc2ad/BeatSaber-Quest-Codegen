@@ -223,8 +223,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: enableBroadcasting and: lastBroadcastTime
-    private: char __padding11[0x2] = {};
-    public:
+    char __padding11[0x2] = {};
     // private System.Single _lastBroadcastTime
     // Size: 0x4
     // Offset: 0x68

@@ -63,8 +63,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasPassword and: configuration
-    private: char __padding4[0x7] = {};
-    public:
+    char __padding4[0x7] = {};
     // public readonly GameplayServerConfiguration configuration
     // Size: 0x18
     // Offset: 0x20

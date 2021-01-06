@@ -42,8 +42,7 @@ namespace UnityEngine::TestTools::Logging {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_UseRegex and: m_Message
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // private System.String m_Message
     // Size: 0x8
     // Offset: 0x18

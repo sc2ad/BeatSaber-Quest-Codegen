@@ -43,8 +43,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: InvertPitch and: GamePad_PitchDegreesPerSec
-    private: char __padding2[0x1] = {};
-    public:
+    char __padding2[0x1] = {};
     // public System.Single GamePad_PitchDegreesPerSec
     // Size: 0x4
     // Offset: 0x1C
@@ -64,8 +63,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: AllowMovement and: ForwardSpeed
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // public System.Single ForwardSpeed
     // Size: 0x4
     // Offset: 0x28

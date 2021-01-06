@@ -110,8 +110,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: countdownShown and: countdownEndTime
-    private: char __padding9[0x3] = {};
-    public:
+    char __padding9[0x3] = {};
     // private System.Single _countdownEndTime
     // Size: 0x4
     // Offset: 0x64

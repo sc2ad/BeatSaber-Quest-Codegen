@@ -378,8 +378,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: nsTop and: nsHashtable
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private System.Collections.Generic.Dictionary`2<System.String,System.Int32> nsHashtable
     // Size: 0x8
     // Offset: 0x38
@@ -393,8 +392,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useNsHashtable and: elemScopeStack
-    private: char __padding6[0x7] = {};
-    public:
+    char __padding6[0x7] = {};
     // private System.Xml.XmlWellFormedWriter/ElementScope[] elemScopeStack
     // Size: 0x8
     // Offset: 0x48
@@ -408,8 +406,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: elemTop and: attrStack
-    private: char __padding8[0x4] = {};
-    public:
+    char __padding8[0x4] = {};
     // private System.Xml.XmlWellFormedWriter/AttrName[] attrStack
     // Size: 0x8
     // Offset: 0x58
@@ -423,8 +420,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: attrCount and: attrHashTable
-    private: char __padding10[0x4] = {};
-    public:
+    char __padding10[0x4] = {};
     // private System.Collections.Generic.Dictionary`2<System.String,System.Int32> attrHashTable
     // Size: 0x8
     // Offset: 0x68
@@ -438,8 +434,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(System::Xml::XmlWellFormedWriter::SpecialAttribute) == 0x4);
     // Padding between fields: specAttr and: attrValueCache
-    private: char __padding12[0x4] = {};
-    public:
+    char __padding12[0x4] = {};
     // private System.Xml.XmlWellFormedWriter/AttributeValueCache attrValueCache
     // Size: 0x8
     // Offset: 0x78
@@ -483,8 +478,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: writeEndDocumentOnClose and: conformanceLevel
-    private: char __padding19[0x1] = {};
-    public:
+    char __padding19[0x1] = {};
     // private System.Xml.ConformanceLevel conformanceLevel
     // Size: 0x4
     // Offset: 0x98
@@ -504,8 +498,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: xmlDeclFollows and: xmlCharType
-    private: char __padding22[0x2] = {};
-    public:
+    char __padding22[0x2] = {};
     // private System.Xml.XmlCharType xmlCharType
     // Size: 0x8
     // Offset: 0xA0

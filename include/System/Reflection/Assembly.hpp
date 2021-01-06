@@ -136,8 +136,7 @@ namespace System::Reflection {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fromByteArray and: assemblyName
-    private: char __padding8[0x7] = {};
-    public:
+    char __padding8[0x7] = {};
     // private System.String assemblyName
     // Size: 0x8
     // Offset: 0x58

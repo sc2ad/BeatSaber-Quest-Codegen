@@ -30,8 +30,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   class DHKeyParameters : public Org::BouncyCastle::Crypto::AsymmetricKeyParameter {
     public:
     // Writing base type padding for base size: 0x11 to desired offset: 0x18
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // private readonly Org.BouncyCastle.Crypto.Parameters.DHParameters parameters
     // Size: 0x8
     // Offset: 0x18

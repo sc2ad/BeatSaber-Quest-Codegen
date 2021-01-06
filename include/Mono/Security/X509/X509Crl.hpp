@@ -56,8 +56,7 @@ namespace Mono::Security::X509 {
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
     // Padding between fields: version and: thisUpdate
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // private System.DateTime thisUpdate
     // Size: 0x8
     // Offset: 0x20

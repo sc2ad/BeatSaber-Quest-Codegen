@@ -29,8 +29,7 @@ namespace System::Security::Cryptography {
   class AesManaged : public System::Security::Cryptography::Aes {
     public:
     // Writing base type padding for base size: 0x44 to desired offset: 0x48
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // private System.Security.Cryptography.RijndaelManaged m_rijndael
     // Size: 0x8
     // Offset: 0x48

@@ -104,8 +104,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: numberOfParticles and: nameText
-    private: char __padding9[0x4] = {};
-    public:
+    char __padding9[0x4] = {};
     // [SpaceAttribute] Offset: 0xDC79E8
     // private TMPro.TextMeshProUGUI _nameText
     // Size: 0x8

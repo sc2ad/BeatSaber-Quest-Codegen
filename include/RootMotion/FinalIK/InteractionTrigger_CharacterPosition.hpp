@@ -36,8 +36,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: use and: offset
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // [TooltipAttribute] Offset: 0xDBA714
     // public UnityEngine.Vector2 offset
     // Size: 0x8

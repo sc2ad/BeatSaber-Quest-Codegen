@@ -61,8 +61,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::DiscoveryPolicy) == 0x1);
     // Padding between fields: discoveryPolicy and: invitePolicy
-    private: char __padding2[0x3] = {};
-    public:
+    char __padding2[0x3] = {};
     // public InvitePolicy invitePolicy
     // Size: 0x4
     // Offset: 0x24
@@ -76,8 +75,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: maxPlayerCount and: configuration
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // public GameplayServerConfiguration configuration
     // Size: 0x18
     // Offset: 0x30

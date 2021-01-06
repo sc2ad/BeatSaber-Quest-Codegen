@@ -158,8 +158,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: failOnSaberClash and: nextFrameEnergyChange
-    private: char __padding16[0x1] = {};
-    public:
+    char __padding16[0x1] = {};
     // private System.Single _nextFrameEnergyChange
     // Size: 0x4
     // Offset: 0x6C

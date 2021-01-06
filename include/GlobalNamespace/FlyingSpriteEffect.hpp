@@ -38,8 +38,7 @@ namespace GlobalNamespace {
   class FlyingSpriteEffect : public GlobalNamespace::FlyingObjectEffect {
     public:
     // Writing base type padding for base size: 0x7D to desired offset: 0x80
-    private: char ___base_padding[0x3] = {};
-    public:
+    char ___base_padding[0x3] = {};
     // Nested type: GlobalNamespace::FlyingSpriteEffect::Pool
     class Pool;
     // private UnityEngine.SpriteRenderer _spriteRenderer

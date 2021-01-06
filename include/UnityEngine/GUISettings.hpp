@@ -31,8 +31,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_TripleClickSelectsLine and: m_CursorColor
-    private: char __padding1[0x2] = {};
-    public:
+    char __padding1[0x2] = {};
     // private UnityEngine.Color m_CursorColor
     // Size: 0x10
     // Offset: 0x14

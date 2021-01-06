@@ -56,8 +56,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: initiated and: rootPosition
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // protected UnityEngine.Vector3 rootPosition
     // Size: 0xC
     // Offset: 0x24

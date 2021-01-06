@@ -65,8 +65,7 @@ namespace System::Net::Http {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: allowAutoRedirect and: automaticDecompression
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // private System.Net.DecompressionMethods automaticDecompression
     // Size: 0x4
     // Offset: 0x14
@@ -92,8 +91,7 @@ namespace System::Net::Http {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: maxAutomaticRedirections and: maxRequestContentBufferSize
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private System.Int64 maxRequestContentBufferSize
     // Size: 0x8
     // Offset: 0x30
@@ -107,8 +105,7 @@ namespace System::Net::Http {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: preAuthenticate and: proxy
-    private: char __padding6[0x7] = {};
-    public:
+    char __padding6[0x7] = {};
     // private System.Net.IWebProxy proxy
     // Size: 0x8
     // Offset: 0x40
@@ -140,8 +137,7 @@ namespace System::Net::Http {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: sentRequest and: connectionGroupName
-    private: char __padding11[0x4] = {};
-    public:
+    char __padding11[0x4] = {};
     // private System.String connectionGroupName
     // Size: 0x8
     // Offset: 0x50

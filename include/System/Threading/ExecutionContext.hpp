@@ -144,8 +144,7 @@ namespace System::Threading {
     // Field size check
     static_assert(sizeof(System::Threading::ExecutionContext::Flags) == 0x4);
     // Padding between fields: flags and: localValues
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private System.Collections.Generic.Dictionary`2<System.Threading.IAsyncLocal,System.Object> _localValues
     // Size: 0x8
     // Offset: 0x38

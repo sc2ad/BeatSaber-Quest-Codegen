@@ -69,8 +69,7 @@ namespace System::Diagnostics {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: cancelOperation and: eofEvent
-    private: char __padding5[0x7] = {};
-    public:
+    char __padding5[0x7] = {};
     // private System.Threading.ManualResetEvent eofEvent
     // Size: 0x8
     // Offset: 0x40

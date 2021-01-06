@@ -55,8 +55,7 @@ namespace Zenject {
   class SceneContext : public Zenject::RunnableContext {
     public:
     // Writing base type padding for base size: 0x42 to desired offset: 0x48
-    private: char ___base_padding[0x6] = {};
-    public:
+    char ___base_padding[0x6] = {};
     // Nested type: Zenject::SceneContext::$$c__DisplayClass48_0
     class $$c__DisplayClass48_0;
     // Nested type: Zenject::SceneContext::$$c
@@ -125,8 +124,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: parentNewObjectsUnderSceneContext and: contractNames
-    private: char __padding8[0x7] = {};
-    public:
+    char __padding8[0x7] = {};
     // [TooltipAttribute] Offset: 0xD94784
     // private System.Collections.Generic.List`1<System.String> _contractNames
     // Size: 0x8

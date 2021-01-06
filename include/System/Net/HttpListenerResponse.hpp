@@ -56,8 +56,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: disposed and: content_encoding
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // private System.Text.Encoding content_encoding
     // Size: 0x8
     // Offset: 0x18
@@ -77,8 +76,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: cl_set and: content_type
-    private: char __padding3[0x7] = {};
-    public:
+    char __padding3[0x7] = {};
     // private System.String content_type
     // Size: 0x8
     // Offset: 0x30
@@ -104,8 +102,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: keep_alive and: output_stream
-    private: char __padding7[0x7] = {};
-    public:
+    char __padding7[0x7] = {};
     // private System.Net.ResponseStream output_stream
     // Size: 0x8
     // Offset: 0x50
@@ -131,8 +128,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: status_code and: status_description
-    private: char __padding11[0x4] = {};
-    public:
+    char __padding11[0x4] = {};
     // private System.String status_description
     // Size: 0x8
     // Offset: 0x70
@@ -146,8 +142,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: chunked and: context
-    private: char __padding13[0x7] = {};
-    public:
+    char __padding13[0x7] = {};
     // private System.Net.HttpListenerContext context
     // Size: 0x8
     // Offset: 0x80
@@ -161,8 +156,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: HeadersSent and: headers_lock
-    private: char __padding15[0x7] = {};
-    public:
+    char __padding15[0x7] = {};
     // System.Object headers_lock
     // Size: 0x8
     // Offset: 0x90

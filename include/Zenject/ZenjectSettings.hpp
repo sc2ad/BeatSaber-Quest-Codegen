@@ -41,8 +41,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: displayWarningWhenResolvingDuringInstall and: validationRootResolveMethod
-    private: char __padding1[0x2] = {};
-    public:
+    char __padding1[0x2] = {};
     // private Zenject.RootResolveMethods _validationRootResolveMethod
     // Size: 0x4
     // Offset: 0x14
@@ -56,8 +55,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(Zenject::ValidationErrorResponses) == 0x4);
     // Padding between fields: validationErrorResponse and: signalSettings
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // private Zenject.ZenjectSettings/SignalSettings _signalSettings
     // Size: 0x8
     // Offset: 0x20

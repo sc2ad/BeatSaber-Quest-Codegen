@@ -179,8 +179,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_Vertical and: m_MovementType
-    private: char __padding2[0x2] = {};
-    public:
+    char __padding2[0x2] = {};
     // private UnityEngine.UI.ScrollRect/MovementType m_MovementType
     // Size: 0x4
     // Offset: 0x24
@@ -200,8 +199,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_Inertia and: m_DecelerationRate
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // private System.Single m_DecelerationRate
     // Size: 0x4
     // Offset: 0x30
@@ -311,8 +309,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_Scrolling and: m_PrevPosition
-    private: char __padding23[0x2] = {};
-    public:
+    char __padding23[0x2] = {};
     // private UnityEngine.Vector2 m_PrevPosition
     // Size: 0x8
     // Offset: 0xBC
@@ -350,8 +347,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_VSliderExpand and: m_HSliderHeight
-    private: char __padding29[0x1] = {};
-    public:
+    char __padding29[0x1] = {};
     // private System.Single m_HSliderHeight
     // Size: 0x4
     // Offset: 0xF8

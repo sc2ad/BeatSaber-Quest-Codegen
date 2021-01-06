@@ -93,8 +93,7 @@ namespace System::IO {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isOpen and: lastReadTask
-    private: char __padding7[0x3] = {};
-    public:
+    char __padding7[0x3] = {};
     // private System.Threading.Tasks.Task`1<System.Int32> _lastReadTask
     // Size: 0x8
     // Offset: 0x60

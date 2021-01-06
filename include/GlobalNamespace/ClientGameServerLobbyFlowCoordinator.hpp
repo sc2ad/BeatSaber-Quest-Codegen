@@ -53,8 +53,7 @@ namespace GlobalNamespace {
   class ClientGameServerLobbyFlowCoordinator : public GlobalNamespace::GameServerLobbyFlowCoordinator {
     public:
     // Writing base type padding for base size: 0x151 to desired offset: 0x158
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // Nested type: GlobalNamespace::ClientGameServerLobbyFlowCoordinator::$$c__DisplayClass14_0
     class $$c__DisplayClass14_0;
     // [InjectAttribute] Offset: 0xDCD9D4

@@ -35,8 +35,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: $$1__state and: $$2__current
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.Object <>2__current
     // Size: 0x8
     // Offset: 0x18
@@ -62,8 +61,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(HMUI::ViewController::AnimationType) == 0x4);
     // Padding between fields: animationType and: $oldRootViewController$5__2
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private HMUI.ViewController <oldRootViewController>5__2
     // Size: 0x8
     // Offset: 0x38

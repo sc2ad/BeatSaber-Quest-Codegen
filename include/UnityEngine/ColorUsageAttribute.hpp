@@ -31,8 +31,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hdr and: minBrightness
-    private: char __padding1[0x2] = {};
-    public:
+    char __padding1[0x2] = {};
     // [ObsoleteAttribute] Offset: 0xD50C3C
     // public readonly System.Single minBrightness
     // Size: 0x4

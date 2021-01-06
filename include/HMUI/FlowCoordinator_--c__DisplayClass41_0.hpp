@@ -38,8 +38,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(HMUI::ViewController::AnimationType) == 0x4);
     // Padding between fields: animationType and: $$4__this
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public HMUI.FlowCoordinator <>4__this
     // Size: 0x8
     // Offset: 0x18

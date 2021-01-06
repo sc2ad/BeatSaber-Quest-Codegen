@@ -38,8 +38,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: moveOffset and: toDismissViewController
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // public HMUI.ViewController toDismissViewController
     // Size: 0x8
     // Offset: 0x20

@@ -26,8 +26,7 @@ namespace System::ComponentModel::Design::Serialization {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: reloadable and: serializerTypeName
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // private System.String serializerTypeName
     // Size: 0x8
     // Offset: 0x18

@@ -25,8 +25,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: buttonNum and: $$4__this
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public SimpleDialogPromptViewController <>4__this
     // Size: 0x8
     // Offset: 0x18

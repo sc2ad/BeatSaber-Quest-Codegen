@@ -98,8 +98,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: endinvoke_called and: async_callback
-    private: char __padding7[0x5] = {};
-    public:
+    char __padding7[0x5] = {};
     // private System.Object async_callback
     // Size: 0x8
     // Offset: 0x40

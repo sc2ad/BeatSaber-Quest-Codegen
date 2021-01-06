@@ -31,8 +31,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: running and: composition
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // public OVRExternalComposition composition
     // Size: 0x8
     // Offset: 0x20

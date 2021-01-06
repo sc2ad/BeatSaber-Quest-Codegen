@@ -31,8 +31,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
     // Padding between fields: n and: P
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // protected System.Byte[] P
     // Size: 0x8
     // Offset: 0x18
@@ -46,8 +45,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
     // Padding between fields: s and: workingIV
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // protected System.Byte[] workingIV
     // Size: 0x8
     // Offset: 0x28

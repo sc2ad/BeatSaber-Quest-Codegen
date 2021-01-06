@@ -48,8 +48,7 @@ namespace System::Net::Sockets {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_Active and: m_DataStream
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // private System.Net.Sockets.NetworkStream m_DataStream
     // Size: 0x8
     // Offset: 0x20

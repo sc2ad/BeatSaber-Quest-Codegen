@@ -91,8 +91,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: effectChildNodes and: maintainRelativePositionWeight
-    private: char __padding8[0x2] = {};
-    public:
+    char __padding8[0x2] = {};
     // [RangeAttribute] Offset: 0xDB6C7C
     // public System.Single maintainRelativePositionWeight
     // Size: 0x4
@@ -155,8 +154,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: usePlaneNodes and: animatedPlaneRotation
-    private: char __padding18[0x3] = {};
-    public:
+    char __padding18[0x3] = {};
     // private UnityEngine.Quaternion animatedPlaneRotation
     // Size: 0x10
     // Offset: 0x9C
@@ -176,8 +174,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: firstUpdate and: chainIndex
-    private: char __padding21[0x3] = {};
-    public:
+    char __padding21[0x3] = {};
     // private System.Int32 chainIndex
     // Size: 0x4
     // Offset: 0xBC
@@ -227,8 +224,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: plane3NodeIndex and: childChainIndexes
-    private: char __padding29[0x4] = {};
-    public:
+    char __padding29[0x4] = {};
     // private System.Int32[] childChainIndexes
     // Size: 0x8
     // Offset: 0xE0

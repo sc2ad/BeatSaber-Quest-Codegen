@@ -39,8 +39,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: failedLoadInterface and: instance
-    private: char __padding1[0x6] = {};
-    public:
+    char __padding1[0x6] = {};
     // private Valve.VR.CVRRenderModels _instance
     // Size: 0x8
     // Offset: 0x18

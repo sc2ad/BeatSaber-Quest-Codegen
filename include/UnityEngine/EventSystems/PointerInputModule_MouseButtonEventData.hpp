@@ -32,8 +32,7 @@ namespace UnityEngine::EventSystems {
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::PointerEventData::FramePressState) == 0x4);
     // Padding between fields: buttonState and: buttonData
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public UnityEngine.EventSystems.PointerEventData buttonData
     // Size: 0x8
     // Offset: 0x18

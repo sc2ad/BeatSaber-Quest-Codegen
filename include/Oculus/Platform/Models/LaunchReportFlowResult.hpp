@@ -24,8 +24,7 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: DidCancel and: UserReportId
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // public readonly System.UInt64 UserReportId
     // Size: 0x8
     // Offset: 0x18

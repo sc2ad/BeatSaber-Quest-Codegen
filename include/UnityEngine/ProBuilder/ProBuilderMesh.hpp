@@ -155,8 +155,7 @@ namespace UnityEngine::ProBuilder {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_MeshFormatVersion and: m_Faces
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [FormerlySerializedAsAttribute] Offset: 0xDE4CB4
     // private UnityEngine.ProBuilder.Face[] m_Faces
     // Size: 0x8
@@ -179,8 +178,7 @@ namespace UnityEngine::ProBuilder {
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::ProBuilderMesh::CacheValidState) == 0x1);
     // Padding between fields: m_CacheValid and: m_SharedVertexLookup
-    private: char __padding3[0x7] = {};
-    public:
+    char __padding3[0x7] = {};
     // private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_SharedVertexLookup
     // Size: 0x8
     // Offset: 0x38
@@ -256,8 +254,7 @@ namespace UnityEngine::ProBuilder {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: userCollisions and: m_UnwrapParameters
-    private: char __padding14[0x7] = {};
-    public:
+    char __padding14[0x7] = {};
     // [FormerlySerializedAsAttribute] Offset: 0xDE4F94
     // private UnityEngine.ProBuilder.UnwrapParameters m_UnwrapParameters
     // Size: 0x8
@@ -273,8 +270,7 @@ namespace UnityEngine::ProBuilder {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_PreserveMeshAssetOnDestroy and: assetGuid
-    private: char __padding16[0x7] = {};
-    public:
+    char __padding16[0x7] = {};
     // System.String assetGuid
     // Size: 0x8
     // Offset: 0xA0
@@ -306,8 +302,7 @@ namespace UnityEngine::ProBuilder {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_IsSelectable and: m_SelectedFaces
-    private: char __padding21[0x7] = {};
-    public:
+    char __padding21[0x7] = {};
     // private System.Int32[] m_SelectedFaces
     // Size: 0x8
     // Offset: 0xC8
@@ -333,8 +328,7 @@ namespace UnityEngine::ProBuilder {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_SelectedCacheDirty and: m_SelectedSharedVerticesCount
-    private: char __padding25[0x3] = {};
-    public:
+    char __padding25[0x3] = {};
     // private System.Int32 m_SelectedSharedVerticesCount
     // Size: 0x4
     // Offset: 0xE4
@@ -348,8 +342,7 @@ namespace UnityEngine::ProBuilder {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_SelectedCoincidentVertexCount and: m_SelectedSharedVertices
-    private: char __padding27[0x4] = {};
-    public:
+    char __padding27[0x4] = {};
     // private System.Collections.Generic.HashSet`1<System.Int32> m_SelectedSharedVertices
     // Size: 0x8
     // Offset: 0xF0

@@ -54,8 +54,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isEnabled and: otherPlayers
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // [FormerlySerializedAsAttribute] Offset: 0xDC9A98
     // private System.Collections.Generic.List`1<MockPlayer> _otherPlayers
     // Size: 0x8
@@ -94,8 +93,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: scoreStartDelay and: masterServerAvailabilityData
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // private MasterServerAvailabilityData _masterServerAvailabilityData
     // Size: 0x8
     // Offset: 0x48

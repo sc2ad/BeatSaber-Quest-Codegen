@@ -23,8 +23,7 @@ namespace OVR::OpenVR {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: bActive and: activeOrigin
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // public System.UInt64 activeOrigin
     // Size: 0x8
     // Offset: 0x8

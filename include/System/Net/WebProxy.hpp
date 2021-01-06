@@ -77,8 +77,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_EnableAutoproxy and: ProxyAddress
-    private: char __padding2[0x5] = {};
-    public:
+    char __padding2[0x5] = {};
     // private System.Uri _ProxyAddress
     // Size: 0x8
     // Offset: 0x18

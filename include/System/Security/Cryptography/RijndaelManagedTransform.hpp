@@ -67,8 +67,7 @@ namespace System::Security::Cryptography {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_outputBlockSize and: m_encryptKeyExpansion
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // private System.Int32[] m_encryptKeyExpansion
     // Size: 0x8
     // Offset: 0x30
@@ -100,8 +99,7 @@ namespace System::Security::Cryptography {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_Nk and: m_encryptindex
-    private: char __padding11[0x4] = {};
-    public:
+    char __padding11[0x4] = {};
     // private System.Int32[] m_encryptindex
     // Size: 0x8
     // Offset: 0x50

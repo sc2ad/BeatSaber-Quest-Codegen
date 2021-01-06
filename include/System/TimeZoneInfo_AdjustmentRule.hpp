@@ -62,8 +62,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(System::TimeZoneInfo::TransitionTime) == 0x11);
     // Padding between fields: m_daylightTransitionStart and: m_daylightTransitionEnd
-    private: char __padding3[0x7] = {};
-    public:
+    char __padding3[0x7] = {};
     // private System.TimeZoneInfo/TransitionTime m_daylightTransitionEnd
     // Size: 0x11
     // Offset: 0x40
@@ -71,8 +70,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(System::TimeZoneInfo::TransitionTime) == 0x11);
     // Padding between fields: m_daylightTransitionEnd and: m_baseUtcOffsetDelta
-    private: char __padding4[0x7] = {};
-    public:
+    char __padding4[0x7] = {};
     // private System.TimeSpan m_baseUtcOffsetDelta
     // Size: 0x8
     // Offset: 0x58

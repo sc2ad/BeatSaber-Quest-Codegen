@@ -20,8 +20,7 @@ namespace RootMotion::FinalIK {
   class IKSolverTrigonometric::TrigonometricBone : public RootMotion::FinalIK::IKSolver::Bone {
     public:
     // Writing base type padding for base size: 0x71 to desired offset: 0x74
-    private: char ___base_padding[0x3] = {};
-    public:
+    char ___base_padding[0x3] = {};
     // private UnityEngine.Quaternion targetToLocalSpace
     // Size: 0x10
     // Offset: 0x74

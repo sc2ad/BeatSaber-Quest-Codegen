@@ -33,8 +33,7 @@ namespace NUnit::Framework::Internal {
   class TextMessageWriter : public NUnit::Framework::Constraints::MessageWriter {
     public:
     // Writing base type padding for base size: 0x31 to desired offset: 0x34
-    private: char ___base_padding[0x3] = {};
-    public:
+    char ___base_padding[0x3] = {};
     // private System.Int32 maxLineLength
     // Size: 0x4
     // Offset: 0x34

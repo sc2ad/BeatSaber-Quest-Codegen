@@ -25,8 +25,7 @@ namespace NUnit::Framework::Internal {
   class TestAssembly : public NUnit::Framework::Internal::TestSuite {
     public:
     // Writing base type padding for base size: 0x89 to desired offset: 0x90
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDB373C
     // private System.Reflection.Assembly <Assembly>k__BackingField
     // Size: 0x8

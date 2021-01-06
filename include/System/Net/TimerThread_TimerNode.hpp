@@ -78,8 +78,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(System::Net::TimerThread::TimerNode::TimerState) == 0x4);
     // Padding between fields: m_TimerState and: m_Callback
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.Net.TimerThread/Callback m_Callback
     // Size: 0x8
     // Offset: 0x20

@@ -160,8 +160,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: connectionEstablished and: onConnectedEvent
-    private: char __padding5[0x7] = {};
-    public:
+    char __padding5[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC465C
     // private System.Action onConnectedEvent
     // Size: 0x8
@@ -219,8 +218,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isDisconnecting and: buffer
-    private: char __padding13[0x7] = {};
-    public:
+    char __padding13[0x7] = {};
     // private System.Byte[] _buffer
     // Size: 0x8
     // Offset: 0x78

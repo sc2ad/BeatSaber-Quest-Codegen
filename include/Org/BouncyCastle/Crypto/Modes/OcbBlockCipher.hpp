@@ -50,8 +50,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: forEncryption and: macSize
-    private: char __padding2[0x3] = {};
-    public:
+    char __padding2[0x3] = {};
     // private System.Int32 macSize
     // Size: 0x4
     // Offset: 0x24

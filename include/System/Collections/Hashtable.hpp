@@ -114,8 +114,7 @@ namespace System::Collections {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isWriterInProgress and: keys
-    private: char __padding6[0x3] = {};
-    public:
+    char __padding6[0x3] = {};
     // private System.Collections.ICollection keys
     // Size: 0x8
     // Offset: 0x30

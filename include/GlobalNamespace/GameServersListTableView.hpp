@@ -96,8 +96,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isInitialized and: gamesList
-    private: char __padding5[0x7] = {};
-    public:
+    char __padding5[0x7] = {};
     // private INetworkPlayer[] _gamesList
     // Size: 0x8
     // Offset: 0x48

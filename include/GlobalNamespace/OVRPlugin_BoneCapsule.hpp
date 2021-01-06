@@ -25,8 +25,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int16_t) == 0x2);
     // Padding between fields: BoneIndex and: Points
-    private: char __padding0[0x6] = {};
-    public:
+    char __padding0[0x6] = {};
     // public OVRPlugin/Vector3f[] Points
     // Size: 0x8
     // Offset: 0x8

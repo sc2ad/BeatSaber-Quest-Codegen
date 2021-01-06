@@ -29,8 +29,7 @@ namespace RootMotion::FinalIK {
   class LookAtIK : public RootMotion::FinalIK::IK {
     public:
     // Writing base type padding for base size: 0x33 to desired offset: 0x38
-    private: char ___base_padding[0x5] = {};
-    public:
+    char ___base_padding[0x5] = {};
     // public RootMotion.FinalIK.IKSolverLookAt solver
     // Size: 0x8
     // Offset: 0x38

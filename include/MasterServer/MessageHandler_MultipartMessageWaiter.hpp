@@ -56,8 +56,7 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: length and: ranges
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private readonly System.Collections.Generic.List`1<System.Int32> _ranges
     // Size: 0x8
     // Offset: 0x28

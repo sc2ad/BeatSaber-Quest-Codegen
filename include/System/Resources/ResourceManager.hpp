@@ -148,8 +148,7 @@ namespace System::Resources {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: UseSatelliteAssem and: fallbackLoc
-    private: char __padding11[0x1] = {};
-    public:
+    char __padding11[0x1] = {};
     // [OptionalFieldAttribute] Offset: 0xD3E174
     // private System.Resources.UltimateResourceFallbackLocation _fallbackLoc
     // Size: 0x4
@@ -172,8 +171,7 @@ namespace System::Resources {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: lookedForSatelliteContractVersion and: callingAssembly
-    private: char __padding14[0x7] = {};
-    public:
+    char __padding14[0x7] = {};
     // [OptionalFieldAttribute] Offset: 0xD3E1A4
     // private System.Reflection.Assembly _callingAssembly
     // Size: 0x8

@@ -78,8 +78,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: createNew and: concreteIdentifier
-    private: char __padding3[0x7] = {};
-    public:
+    char __padding3[0x7] = {};
     // private readonly System.Object _concreteIdentifier
     // Size: 0x8
     // Offset: 0x30

@@ -54,8 +54,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: showClearButton and: modifiersListCanvasGroup
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // private UnityEngine.CanvasGroup _modifiersListCanvasGroup
     // Size: 0x8
     // Offset: 0x48

@@ -92,8 +92,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::FormatterTypeStyle) == 0x4);
     // Padding between fields: formatterTypeStyle and: objectMapTable
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // System.Collections.Hashtable objectMapTable
     // Size: 0x8
     // Offset: 0x20
@@ -179,8 +178,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: chunkSize and: memberPrimitiveUnTyped
-    private: char __padding15[0x4] = {};
-    public:
+    char __padding15[0x4] = {};
     // System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveUnTyped memberPrimitiveUnTyped
     // Size: 0x8
     // Offset: 0x88

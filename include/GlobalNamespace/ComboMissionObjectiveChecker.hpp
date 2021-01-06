@@ -25,8 +25,7 @@ namespace GlobalNamespace {
   class ComboMissionObjectiveChecker : public GlobalNamespace::SimpleValueMissionObjectiveChecker {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // [InjectAttribute] Offset: 0xDC86F0
     // private ScoreController _scoreController
     // Size: 0x8

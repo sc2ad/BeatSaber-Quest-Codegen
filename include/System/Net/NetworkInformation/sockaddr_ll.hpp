@@ -57,8 +57,7 @@ namespace System::Net::NetworkInformation {
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
     // Padding between fields: sll_halen and: sll_addr
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // public System.Byte[] sll_addr
     // Size: 0x8
     // Offset: 0x10

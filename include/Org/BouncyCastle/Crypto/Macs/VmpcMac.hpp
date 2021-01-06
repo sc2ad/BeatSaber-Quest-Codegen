@@ -37,8 +37,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
     // Padding between fields: n and: P
-    private: char __padding1[0x6] = {};
-    public:
+    char __padding1[0x6] = {};
     // private System.Byte[] P
     // Size: 0x8
     // Offset: 0x18
@@ -52,8 +51,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
     // Padding between fields: s and: T
-    private: char __padding3[0x7] = {};
-    public:
+    char __padding3[0x7] = {};
     // private System.Byte[] T
     // Size: 0x8
     // Offset: 0x28

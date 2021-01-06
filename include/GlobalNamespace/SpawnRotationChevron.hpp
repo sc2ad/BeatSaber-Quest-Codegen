@@ -27,8 +27,7 @@ namespace GlobalNamespace {
   class SpawnRotationChevron : public GlobalNamespace::LightWithIdMonoBehaviour {
     public:
     // Writing base type padding for base size: 0x29 to desired offset: 0x30
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // Nested type: GlobalNamespace::SpawnRotationChevron::Pool
     class Pool;
     // private TubeBloomPrePassLight[] _lights

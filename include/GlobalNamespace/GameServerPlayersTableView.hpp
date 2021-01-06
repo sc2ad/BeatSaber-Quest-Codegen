@@ -128,8 +128,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isHost and: selectedPlayer
-    private: char __padding8[0x6] = {};
-    public:
+    char __padding8[0x6] = {};
     // private IConnectedPlayer _selectedPlayer
     // Size: 0x8
     // Offset: 0x58

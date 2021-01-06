@@ -75,8 +75,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: allowBlank and: textDidChangeEvent
-    private: char __padding4[0x3] = {};
-    public:
+    char __padding4[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDCD3C4
     // private System.Action`1<System.String> textDidChangeEvent
     // Size: 0x8

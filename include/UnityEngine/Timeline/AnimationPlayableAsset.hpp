@@ -138,8 +138,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_UseTrackMatchFields and: m_MatchTargetFields
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // private UnityEngine.Timeline.MatchTargetFields m_MatchTargetFields
     // Size: 0x4
     // Offset: 0x3C
@@ -159,8 +158,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_ApplyFootIK and: m_Loop
-    private: char __padding6[0x2] = {};
-    public:
+    char __padding6[0x2] = {};
     // private UnityEngine.Timeline.AnimationPlayableAsset/LoopMode m_Loop
     // Size: 0x4
     // Offset: 0x44

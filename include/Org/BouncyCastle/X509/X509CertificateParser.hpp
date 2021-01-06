@@ -59,8 +59,7 @@ namespace Org::BouncyCastle::X509 {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: sDataObjectCount and: currentStream
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private System.IO.Stream currentStream
     // Size: 0x8
     // Offset: 0x20

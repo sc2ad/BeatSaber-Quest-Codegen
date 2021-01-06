@@ -149,8 +149,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: duelTablePosXOffset and: multiplayerOffsetByLocalPlayerPosition
-    private: char __padding10[0x4] = {};
-    public:
+    char __padding10[0x4] = {};
     // private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
     // Size: 0x8
     // Offset: 0x58

@@ -34,8 +34,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: prevNSTop and: prefix
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // System.String prefix
     // Size: 0x8
     // Offset: 0x8
@@ -61,8 +60,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(System::Xml::XmlSpace) == 0x4);
     // Padding between fields: xmlSpace and: xmlLang
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // System.String xmlLang
     // Size: 0x8
     // Offset: 0x28

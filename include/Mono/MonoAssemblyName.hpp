@@ -78,8 +78,7 @@ namespace Mono {
     // Field size check
     static_assert(sizeof(Mono::MonoAssemblyName::$public_key_token$e__FixedBuffer) == 0x1);
     // Padding between fields: public_key_token and: hash_alg
-    private: char __padding4[0x13] = {};
-    public:
+    char __padding4[0x13] = {};
     // System.UInt32 hash_alg
     // Size: 0x4
     // Offset: 0x34

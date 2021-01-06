@@ -45,8 +45,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: undistorted and: frameBounds
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD8A7D0
     // private Valve.VR.VRTextureBounds_t <frameBounds>k__BackingField
     // Size: 0x10
@@ -55,8 +54,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(Valve::VR::VRTextureBounds_t) == 0x10);
     // Padding between fields: frameBounds and: texture
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private UnityEngine.Texture2D _texture
     // Size: 0x8
     // Offset: 0x28

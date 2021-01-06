@@ -67,8 +67,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationMode) == 0x4);
     // Padding between fields: TriangulationMode and: Triangulatable
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDB1D60
     // private UnityEngine.ProBuilder.Poly2Tri.Triangulatable <Triangulatable>k__BackingField
     // Size: 0x8

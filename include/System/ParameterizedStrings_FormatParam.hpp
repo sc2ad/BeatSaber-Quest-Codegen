@@ -27,8 +27,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: int32 and: string
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private readonly System.String _string
     // Size: 0x8
     // Offset: 0x8

@@ -47,8 +47,7 @@ namespace System::Net::NetworkInformation {
     // Field size check
     static_assert(sizeof(System::Net::NetworkInformation::Win32_IP_ADDR_STRING) == 0x1C);
     // Padding between fields: DnsServerList and: NodeType
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // public System.Net.NetworkInformation.NetBiosNodeType NodeType
     // Size: 0x4
     // Offset: 0x38
@@ -56,8 +55,7 @@ namespace System::Net::NetworkInformation {
     // Field size check
     static_assert(sizeof(System::Net::NetworkInformation::NetBiosNodeType) == 0x4);
     // Padding between fields: NodeType and: ScopeId
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // public System.String ScopeId
     // Size: 0x8
     // Offset: 0x40

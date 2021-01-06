@@ -90,8 +90,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_ActiveBit and: m_EvaluateCallbacks
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // private System.Collections.Generic.List`1<UnityEngine.Timeline.ITimelineEvaluateCallback> m_EvaluateCallbacks
     // Size: 0x8
     // Offset: 0x30

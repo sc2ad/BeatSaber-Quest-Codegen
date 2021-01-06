@@ -55,8 +55,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_NumCommonHeaders and: m_InnerCollection
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private System.Collections.Specialized.NameValueCollection m_InnerCollection
     // Size: 0x8
     // Offset: 0x68

@@ -52,8 +52,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: completed and: Buffer
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // System.Byte[] Buffer
     // Size: 0x8
     // Offset: 0x28
@@ -91,8 +90,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: SynchRead and: Error
-    private: char __padding8[0x4] = {};
-    public:
+    char __padding8[0x4] = {};
     // System.Exception Error
     // Size: 0x8
     // Offset: 0x50

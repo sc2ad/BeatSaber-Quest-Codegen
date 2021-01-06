@@ -148,8 +148,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_WholeNumbers and: m_Value
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // protected System.Single m_Value
     // Size: 0x4
     // Offset: 0x110
@@ -157,8 +156,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: m_Value and: m_OnValueChanged
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // [SpaceAttribute] Offset: 0xD7F444
     // private UnityEngine.UI.Slider/SliderEvent m_OnValueChanged
     // Size: 0x8

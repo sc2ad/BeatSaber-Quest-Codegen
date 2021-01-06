@@ -241,8 +241,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::MasterServerConnectionManager::ConnectionAttempt) == 0x4);
     // Padding between fields: connectionAttempt and: messageHandler
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // private MasterServer.UserMessageHandler _messageHandler
     // Size: 0x8
     // Offset: 0x50
@@ -256,8 +255,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::DiscoveryPolicy) == 0x1);
     // Padding between fields: discoveryPolicy and: invitePolicy
-    private: char __padding9[0x3] = {};
-    public:
+    char __padding9[0x3] = {};
     // private InvitePolicy _invitePolicy
     // Size: 0x4
     // Offset: 0x5C
@@ -289,8 +287,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::MasterServerConnectionManager::ConnectionState) == 0x4);
     // Padding between fields: connectionState and: connectionCancellationTokenSource
-    private: char __padding14[0x4] = {};
-    public:
+    char __padding14[0x4] = {};
     // private System.Threading.CancellationTokenSource _connectionCancellationTokenSource
     // Size: 0x8
     // Offset: 0x88

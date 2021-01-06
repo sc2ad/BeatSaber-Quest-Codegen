@@ -142,8 +142,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: gotit and: trailerState
-    private: char __padding7[0x2] = {};
-    public:
+    char __padding7[0x2] = {};
     // private System.Int32 trailerState
     // Size: 0x4
     // Offset: 0x34

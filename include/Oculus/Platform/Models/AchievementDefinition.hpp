@@ -26,8 +26,7 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(Oculus::Platform::AchievementType) == 0x4);
     // Padding between fields: Type and: Name
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public readonly System.String Name
     // Size: 0x8
     // Offset: 0x18
@@ -41,8 +40,7 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(uint) == 0x4);
     // Padding between fields: BitfieldLength and: Target
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // public readonly System.UInt64 Target
     // Size: 0x8
     // Offset: 0x28

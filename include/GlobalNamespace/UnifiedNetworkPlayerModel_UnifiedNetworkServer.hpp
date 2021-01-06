@@ -57,8 +57,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasPassword and: currentPlayerCount
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // private System.Int32 _currentPlayerCount
     // Size: 0x4
     // Offset: 0x2C
@@ -78,8 +77,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficultyMask) == 0x1);
     // Padding between fields: difficulties and: modifiers
-    private: char __padding6[0x1] = {};
-    public:
+    char __padding6[0x1] = {};
     // private GameplayModifierMask _modifiers
     // Size: 0x2
     // Offset: 0x36

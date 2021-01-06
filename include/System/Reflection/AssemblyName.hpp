@@ -149,8 +149,7 @@ namespace System::Reflection {
     // Field size check
     static_assert(sizeof(System::Configuration::Assemblies::AssemblyVersionCompatibility) == 0x4);
     // Padding between fields: versioncompat and: version
-    private: char __padding12[0x4] = {};
-    public:
+    char __padding12[0x4] = {};
     // private System.Version version
     // Size: 0x8
     // Offset: 0x60

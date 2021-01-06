@@ -34,8 +34,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_Size and: m_Buffer
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // System.Byte[] m_Buffer
     // Size: 0x8
     // Offset: 0x18
@@ -49,8 +48,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_changed and: m_hash
-    private: char __padding2[0x3] = {};
-    public:
+    char __padding2[0x3] = {};
     // private System.Int32 m_hash
     // Size: 0x4
     // Offset: 0x24

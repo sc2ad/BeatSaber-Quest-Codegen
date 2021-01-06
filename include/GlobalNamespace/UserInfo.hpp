@@ -74,8 +74,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::UserInfo::Platform) == 0x4);
     // Padding between fields: platform and: platformUserId
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public readonly System.String platformUserId
     // Size: 0x8
     // Offset: 0x18

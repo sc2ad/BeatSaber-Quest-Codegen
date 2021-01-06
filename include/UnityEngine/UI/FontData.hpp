@@ -60,8 +60,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_BestFit and: m_MinSize
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // private System.Int32 m_MinSize
     // Size: 0x4
     // Offset: 0x24
@@ -95,8 +94,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_RichText and: m_HorizontalOverflow
-    private: char __padding8[0x2] = {};
-    public:
+    char __padding8[0x2] = {};
     // private UnityEngine.HorizontalWrapMode m_HorizontalOverflow
     // Size: 0x4
     // Offset: 0x34

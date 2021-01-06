@@ -37,8 +37,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: generate and: radius
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // private System.Single _radius
     // Size: 0x4
     // Offset: 0x1C
@@ -70,8 +69,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: intensityMultiplier and: lengthCurve
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // private UnityEngine.AnimationCurve _lengthCurve
     // Size: 0x8
     // Offset: 0x38
@@ -85,8 +83,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: lengthMultiplier and: widthCurve
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // private UnityEngine.AnimationCurve _widthCurve
     // Size: 0x8
     // Offset: 0x48
@@ -100,8 +97,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: widthMultiplier and: neonLightPrefab
-    private: char __padding9[0x4] = {};
-    public:
+    char __padding9[0x4] = {};
     // private TubeBloomPrePassLight _neonLightPrefab
     // Size: 0x8
     // Offset: 0x58

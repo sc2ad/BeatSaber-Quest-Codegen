@@ -35,8 +35,7 @@ namespace RootMotion::FinalIK {
   class GrounderIK : public RootMotion::FinalIK::Grounder {
     public:
     // Writing base type padding for base size: 0x39 to desired offset: 0x40
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // public RootMotion.FinalIK.IK[] legs
     // Size: 0x8
     // Offset: 0x40
@@ -80,8 +79,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: maxRootRotationAngle and: feet
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // private UnityEngine.Transform[] feet
     // Size: 0x8
     // Offset: 0x68
@@ -119,8 +117,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: solved and: lastWeight
-    private: char __padding11[0x3] = {};
-    public:
+    char __padding11[0x3] = {};
     // private System.Single lastWeight
     // Size: 0x4
     // Offset: 0x98
@@ -128,8 +125,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: lastWeight and: characterRootRigidbody
-    private: char __padding12[0x4] = {};
-    public:
+    char __padding12[0x4] = {};
     // private UnityEngine.Rigidbody characterRootRigidbody
     // Size: 0x8
     // Offset: 0xA0

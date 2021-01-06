@@ -1035,8 +1035,7 @@ namespace Oculus::Platform {
     // Field size check
     static_assert(sizeof(Oculus::Platform::Message::MessageType) == 0x4);
     // Padding between fields: type and: requestID
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.UInt64 requestID
     // Size: 0x8
     // Offset: 0x18

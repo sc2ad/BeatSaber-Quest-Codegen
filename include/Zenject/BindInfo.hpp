@@ -64,8 +64,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: MarkAsUniqueSingleton and: ConcreteIdentifier
-    private: char __padding1[0x6] = {};
-    public:
+    char __padding1[0x6] = {};
     // public System.Object ConcreteIdentifier
     // Size: 0x8
     // Offset: 0x18
@@ -91,8 +90,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: RequireExplicitScope and: Identifier
-    private: char __padding5[0x5] = {};
-    public:
+    char __padding5[0x5] = {};
     // public System.Object Identifier
     // Size: 0x8
     // Offset: 0x28
@@ -124,8 +122,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: NonLazy and: Condition
-    private: char __padding10[0x7] = {};
-    public:
+    char __padding10[0x7] = {};
     // public Zenject.BindingCondition Condition
     // Size: 0x8
     // Offset: 0x48
@@ -139,8 +136,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(Zenject::ToChoices) == 0x4);
     // Padding between fields: ToChoice and: ContextInfo
-    private: char __padding12[0x4] = {};
-    public:
+    char __padding12[0x4] = {};
     // public System.String ContextInfo
     // Size: 0x8
     // Offset: 0x58
@@ -160,8 +156,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(Zenject::ScopeTypes) == 0x4);
     // Padding between fields: Scope and: Arguments
-    private: char __padding15[0x4] = {};
-    public:
+    char __padding15[0x4] = {};
     // public readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> Arguments
     // Size: 0x8
     // Offset: 0x70

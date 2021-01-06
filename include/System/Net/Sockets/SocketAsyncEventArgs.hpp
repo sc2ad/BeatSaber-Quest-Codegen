@@ -56,8 +56,7 @@ namespace System::Net::Sockets {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: disposed and: in_progress
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // System.Int32 in_progress
     // Size: 0x4
     // Offset: 0x14
@@ -131,8 +130,7 @@ namespace System::Net::Sockets {
     // Field size check
     static_assert(sizeof(System::Net::Sockets::SocketError) == 0x4);
     // Padding between fields: SocketError and: UserToken
-    private: char __padding11[0x4] = {};
-    public:
+    char __padding11[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD46164
     // private System.Object <UserToken>k__BackingField
     // Size: 0x8

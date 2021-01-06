@@ -58,8 +58,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(System::Diagnostics::Tracing::EventActivityOptions) == 0x4);
     // Padding between fields: m_eventOptions and: m_lastChildID
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // System.Int64 m_lastChildID
     // Size: 0x8
     // Offset: 0x40
@@ -73,8 +72,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_stopped and: m_creator
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // readonly System.Diagnostics.Tracing.ActivityTracker/ActivityInfo m_creator
     // Size: 0x8
     // Offset: 0x50

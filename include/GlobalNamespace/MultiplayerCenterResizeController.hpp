@@ -39,8 +39,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: platformWidth and: layoutProvider
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [InjectAttribute] Offset: 0xDC9C04
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
@@ -63,8 +62,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isEdgeDistanceFromCenterCalculated and: edgeDistanceFromCenter
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC9C34
     // private System.Single <edgeDistanceFromCenter>k__BackingField
     // Size: 0x4

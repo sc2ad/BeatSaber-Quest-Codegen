@@ -313,8 +313,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: sentryShutdown and: lastPollUpdateTime
-    private: char __padding14[0x6] = {};
-    public:
+    char __padding14[0x6] = {};
     // private System.Int64 _lastPollUpdateTime
     // Size: 0x8
     // Offset: 0x78

@@ -34,8 +34,7 @@ namespace RootMotion::FinalIK {
   class GrounderFBBIK : public RootMotion::FinalIK::Grounder {
     public:
     // Writing base type padding for base size: 0x39 to desired offset: 0x40
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // Nested type: RootMotion::FinalIK::GrounderFBBIK::SpineEffector
     class SpineEffector;
     // [TooltipAttribute] Offset: 0xDB5A20

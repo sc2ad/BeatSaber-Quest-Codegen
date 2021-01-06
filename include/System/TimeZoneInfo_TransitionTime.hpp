@@ -63,8 +63,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
     // Padding between fields: m_day and: m_dayOfWeek
-    private: char __padding3[0x1] = {};
-    public:
+    char __padding3[0x1] = {};
     // private System.DayOfWeek m_dayOfWeek
     // Size: 0x4
     // Offset: 0xC

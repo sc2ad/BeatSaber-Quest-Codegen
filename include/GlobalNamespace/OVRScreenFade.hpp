@@ -61,8 +61,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fadeOnStart and: renderQueue
-    private: char __padding2[0x3] = {};
-    public:
+    char __padding2[0x3] = {};
     // public System.Int32 renderQueue
     // Size: 0x4
     // Offset: 0x30
@@ -100,8 +99,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isFading and: currentAlpha
-    private: char __padding8[0x3] = {};
-    public:
+    char __padding8[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD86E44
     // private System.Single <currentAlpha>k__BackingField
     // Size: 0x4

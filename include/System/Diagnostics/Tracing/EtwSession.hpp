@@ -45,8 +45,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_etwSessionId and: m_activityFilter
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public System.Diagnostics.Tracing.ActivityFilter m_activityFilter
     // Size: 0x8
     // Offset: 0x18

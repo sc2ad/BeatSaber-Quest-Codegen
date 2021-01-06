@@ -140,8 +140,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: reversedStacking and: alignment
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // private HMUI.NavigationController/Alignment _alignment
     // Size: 0x4
     // Offset: 0x88

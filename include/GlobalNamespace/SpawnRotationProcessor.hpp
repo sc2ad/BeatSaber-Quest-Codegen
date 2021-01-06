@@ -29,8 +29,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: rotation and: rotations
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private readonly System.Single[] _rotations
     // Size: 0x8
     // Offset: 0x18

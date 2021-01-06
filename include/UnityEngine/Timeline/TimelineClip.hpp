@@ -153,8 +153,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_Version and: m_Start
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.Double m_Start
     // Size: 0x8
     // Offset: 0x18
@@ -259,8 +258,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_Recordable and: m_PostExtrapolationMode
-    private: char __padding17[0x3] = {};
-    public:
+    char __padding17[0x3] = {};
     // private UnityEngine.Timeline.TimelineClip/ClipExtrapolation m_PostExtrapolationMode
     // Size: 0x4
     // Offset: 0x94
@@ -274,8 +272,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::TimelineClip::ClipExtrapolation) == 0x4);
     // Padding between fields: m_PreExtrapolationMode and: m_PostExtrapolationTime
-    private: char __padding19[0x4] = {};
-    public:
+    char __padding19[0x4] = {};
     // private System.Double m_PostExtrapolationTime
     // Size: 0x8
     // Offset: 0xA0

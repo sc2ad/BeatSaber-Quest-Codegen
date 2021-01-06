@@ -53,8 +53,7 @@ namespace Microsoft::Win32 {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: IsVolatile and: values
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // private System.Collections.Hashtable values
     // Size: 0x8
     // Offset: 0x28

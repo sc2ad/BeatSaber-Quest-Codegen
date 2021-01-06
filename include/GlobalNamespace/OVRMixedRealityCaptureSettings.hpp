@@ -42,8 +42,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: enableMixedReality and: extraHiddenLayers
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // public UnityEngine.LayerMask extraHiddenLayers
     // Size: 0x4
     // Offset: 0x1C
@@ -87,8 +86,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: flipCameraFrameVertically and: handPoseStateLatency
-    private: char __padding7[0x2] = {};
-    public:
+    char __padding7[0x2] = {};
     // public System.Single handPoseStateLatency
     // Size: 0x4
     // Offset: 0x4C
@@ -138,8 +136,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useDynamicLighting and: depthQuality
-    private: char __padding15[0x3] = {};
-    public:
+    char __padding15[0x3] = {};
     // public OVRManager/DepthQuality depthQuality
     // Size: 0x4
     // Offset: 0x78
@@ -183,8 +180,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: virtualGreenScreenApplyDepthCulling and: virtualGreenScreenDepthTolerance
-    private: char __padding22[0x3] = {};
-    public:
+    char __padding22[0x3] = {};
     // public System.Single virtualGreenScreenDepthTolerance
     // Size: 0x4
     // Offset: 0x94

@@ -31,8 +31,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: critical and: value
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // Org.BouncyCastle.Asn1.Asn1OctetString value
     // Size: 0x8
     // Offset: 0x18

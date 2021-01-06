@@ -20,8 +20,7 @@ namespace Mono::Security::Cryptography {
   class ARC4Managed : public Mono::Security::Cryptography::RC4/*, public System::Security::Cryptography::ICryptoTransform*/ {
     public:
     // Writing base type padding for base size: 0x44 to desired offset: 0x48
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // private System.Byte[] key
     // Size: 0x8
     // Offset: 0x48

@@ -29,8 +29,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: changed and: fragment
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // private System.String _fragment
     // Size: 0x8
     // Offset: 0x18
@@ -62,8 +61,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: port and: query
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // private System.String _query
     // Size: 0x8
     // Offset: 0x40

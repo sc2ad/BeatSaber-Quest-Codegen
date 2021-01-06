@@ -88,8 +88,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficultyMask) == 0x1);
     // Padding between fields: allowedBeatmapDifficultyMask and: state
-    private: char __padding7[0x7] = {};
-    public:
+    char __padding7[0x7] = {};
     // private LevelSelectionFlowCoordinator/State _state
     // Size: 0x8
     // Offset: 0x118

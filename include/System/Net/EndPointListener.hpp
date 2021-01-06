@@ -111,8 +111,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: secure and: unregistered
-    private: char __padding7[0x7] = {};
-    public:
+    char __padding7[0x7] = {};
     // private System.Collections.Generic.Dictionary`2<System.Net.HttpConnection,System.Net.HttpConnection> unregistered
     // Size: 0x8
     // Offset: 0x50

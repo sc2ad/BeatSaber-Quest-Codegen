@@ -55,8 +55,7 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: $$1__state and: $$2__current
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private NUnit.Framework.Interfaces.ITest <>2__current
     // Size: 0x8
     // Offset: 0x18

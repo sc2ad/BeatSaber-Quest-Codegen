@@ -77,8 +77,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fullMessage and: recoveredMessage
-    private: char __padding7[0x3] = {};
-    public:
+    char __padding7[0x3] = {};
     // private System.Byte[] recoveredMessage
     // Size: 0x8
     // Offset: 0x40

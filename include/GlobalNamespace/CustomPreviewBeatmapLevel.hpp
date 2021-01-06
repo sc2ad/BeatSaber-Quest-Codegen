@@ -157,8 +157,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: songDuration and: defaultCoverImage
-    private: char __padding16[0x4] = {};
-    public:
+    char __padding16[0x4] = {};
     // [FormerlySerializedAsAttribute] Offset: 0xDC3274
     // private UnityEngine.Sprite _defaultCoverImage
     // Size: 0x8

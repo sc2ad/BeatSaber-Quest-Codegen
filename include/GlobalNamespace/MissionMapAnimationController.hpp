@@ -97,8 +97,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: stageAnimationDuration and: shockwaveEffect
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // [InjectAttribute] Offset: 0xDCE58C
     // private MenuShockwave _shockwaveEffect
     // Size: 0x8

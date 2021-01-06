@@ -37,8 +37,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: twistLimit and: spline
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [HideInInspector] Offset: 0xDB7C4C
     // public UnityEngine.AnimationCurve spline
     // Size: 0x8

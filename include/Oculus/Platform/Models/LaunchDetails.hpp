@@ -51,8 +51,7 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(Oculus::Platform::LaunchType) == 0x4);
     // Padding between fields: LaunchType and: RoomID
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // public readonly System.UInt64 RoomID
     // Size: 0x8
     // Offset: 0x30

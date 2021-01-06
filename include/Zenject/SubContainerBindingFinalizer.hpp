@@ -64,8 +64,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: resolveAll and: creatorFactory
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // private readonly System.Func`2<Zenject.DiContainer,Zenject.ISubContainerCreator> _creatorFactory
     // Size: 0x8
     // Offset: 0x28

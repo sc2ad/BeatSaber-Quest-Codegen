@@ -46,8 +46,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: unfoldSectionsByDefault and: didSelectRowInSectionEvent
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDA81D8
     // private System.Action`3<HMUI.SectionTableView,System.Int32,System.Int32> didSelectRowInSectionEvent
     // Size: 0x8

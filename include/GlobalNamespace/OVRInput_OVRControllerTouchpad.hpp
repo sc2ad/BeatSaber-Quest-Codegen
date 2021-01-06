@@ -20,8 +20,7 @@ namespace GlobalNamespace {
   class OVRInput::OVRControllerTouchpad : public GlobalNamespace::OVRInput::OVRControllerBase {
     public:
     // Writing base type padding for base size: 0x101 to desired offset: 0x104
-    private: char ___base_padding[0x3] = {};
-    public:
+    char ___base_padding[0x3] = {};
     // private OVRPlugin/Vector2f moveAmount
     // Size: 0x8
     // Offset: 0x104

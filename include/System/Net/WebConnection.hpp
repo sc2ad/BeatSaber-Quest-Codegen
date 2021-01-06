@@ -160,8 +160,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: keepAlive and: buffer
-    private: char __padding6[0x3] = {};
-    public:
+    char __padding6[0x3] = {};
     // private System.Byte[] buffer
     // Size: 0x8
     // Offset: 0x40
@@ -193,8 +192,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: chunkedRead and: chunkStream
-    private: char __padding11[0x7] = {};
-    public:
+    char __padding11[0x7] = {};
     // private System.Net.MonoChunkStream chunkStream
     // Size: 0x8
     // Offset: 0x68
@@ -214,8 +212,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: reused and: position
-    private: char __padding14[0x3] = {};
-    public:
+    char __padding14[0x3] = {};
     // private System.Int32 position
     // Size: 0x4
     // Offset: 0x7C
@@ -247,8 +244,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: unsafe_sharing and: connect_ntlm_auth_state
-    private: char __padding19[0x2] = {};
-    public:
+    char __padding19[0x2] = {};
     // private System.Net.WebConnection/NtlmAuthState connect_ntlm_auth_state
     // Size: 0x4
     // Offset: 0x94

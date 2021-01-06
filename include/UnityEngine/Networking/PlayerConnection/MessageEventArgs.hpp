@@ -22,8 +22,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: playerId and: data
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public System.Byte[] data
     // Size: 0x8
     // Offset: 0x18

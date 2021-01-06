@@ -117,8 +117,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Field size check
     static_assert(sizeof(uint) == 0x4);
     // Padding between fields: k3 and: currentBlock
-    private: char __padding14[0x4] = {};
-    public:
+    char __padding14[0x4] = {};
     // private System.Byte[] currentBlock
     // Size: 0x8
     // Offset: 0x58

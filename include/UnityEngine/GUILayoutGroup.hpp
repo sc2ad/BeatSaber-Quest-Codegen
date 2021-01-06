@@ -52,8 +52,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: resetCoords and: spacing
-    private: char __padding2[0x2] = {};
-    public:
+    char __padding2[0x2] = {};
     // public System.Single spacing
     // Size: 0x4
     // Offset: 0x54
@@ -73,8 +72,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isWindow and: windowID
-    private: char __padding5[0x2] = {};
-    public:
+    char __padding5[0x2] = {};
     // public System.Int32 windowID
     // Size: 0x4
     // Offset: 0x5C
@@ -112,8 +110,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_UserSpecifiedHeight and: m_ChildMinWidth
-    private: char __padding11[0x2] = {};
-    public:
+    char __padding11[0x2] = {};
     // protected System.Single m_ChildMinWidth
     // Size: 0x4
     // Offset: 0x70

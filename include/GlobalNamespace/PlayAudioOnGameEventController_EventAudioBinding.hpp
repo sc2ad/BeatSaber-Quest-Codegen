@@ -48,8 +48,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: delay and: audioClips
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private UnityEngine.AudioClip[] _audioClips
     // Size: 0x8
     // Offset: 0x20

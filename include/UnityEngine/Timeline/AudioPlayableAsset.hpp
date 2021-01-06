@@ -63,8 +63,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_Loop and: m_bufferingTime
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // [HideInInspector] Offset: 0xD8DF50
     // private System.Single m_bufferingTime
     // Size: 0x4

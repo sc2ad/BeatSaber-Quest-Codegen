@@ -53,8 +53,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: numberOfClicksRequired and: settingsFlowCoordinator
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // [InjectAttribute] Offset: 0xDCF090
     // private readonly SettingsFlowCoordinator _settingsFlowCoordinator
     // Size: 0x8

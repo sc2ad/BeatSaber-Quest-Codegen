@@ -68,8 +68,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(UnityEngine::TextAnchor) == 0x4);
     // Padding between fields: m_ChildAlignment and: m_Rect
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private UnityEngine.RectTransform m_Rect
     // Size: 0x8
     // Offset: 0x28
@@ -100,8 +99,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
     // Padding between fields: m_TotalFlexibleSize and: m_RectChildren
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // private System.Collections.Generic.List`1<UnityEngine.RectTransform> m_RectChildren
     // Size: 0x8
     // Offset: 0x50

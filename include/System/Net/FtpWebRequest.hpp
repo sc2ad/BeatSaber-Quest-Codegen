@@ -271,8 +271,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: keepAlive and: method
-    private: char __padding18[0x4] = {};
-    public:
+    char __padding18[0x4] = {};
     // private System.String method
     // Size: 0x8
     // Offset: 0x98
@@ -298,8 +297,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(System::Net::FtpWebRequest::RequestState) == 0x4);
     // Padding between fields: requestState and: asyncResult
-    private: char __padding22[0x4] = {};
-    public:
+    char __padding22[0x4] = {};
     // private System.Net.FtpAsyncResult asyncResult
     // Size: 0x8
     // Offset: 0xB8

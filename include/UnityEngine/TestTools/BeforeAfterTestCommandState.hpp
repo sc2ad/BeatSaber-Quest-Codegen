@@ -59,8 +59,7 @@ namespace UnityEngine::TestTools {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: TestHasRun and: CurrentTestResultStatus
-    private: char __padding4[0x3] = {};
-    public:
+    char __padding4[0x3] = {};
     // public NUnit.Framework.Interfaces.TestStatus CurrentTestResultStatus
     // Size: 0x4
     // Offset: 0x2C
@@ -80,8 +79,7 @@ namespace UnityEngine::TestTools {
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::FailureSite) == 0x4);
     // Padding between fields: CurrentTestResultSite and: CurrentTestMessage
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // public System.String CurrentTestMessage
     // Size: 0x8
     // Offset: 0x40

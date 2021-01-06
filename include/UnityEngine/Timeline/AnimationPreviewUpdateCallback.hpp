@@ -41,8 +41,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(UnityEngine::Animations::AnimationPlayableOutput) == 0xC);
     // Padding between fields: m_Output and: m_Graph
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private UnityEngine.Playables.PlayableGraph m_Graph
     // Size: 0xC
     // Offset: 0x20
@@ -50,8 +49,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableGraph) == 0xC);
     // Padding between fields: m_Graph and: m_PreviewComponents
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private System.Collections.Generic.List`1<UnityEngine.Experimental.Animations.IAnimationWindowPreview> m_PreviewComponents
     // Size: 0x8
     // Offset: 0x30

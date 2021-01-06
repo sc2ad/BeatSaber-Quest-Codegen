@@ -88,8 +88,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::FormattedFloatListSettingsController::ValueType) == 0x4);
     // Padding between fields: valueType and: valueDidChangeEvent
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDCEEF0
     // private System.Action`2<FormattedFloatListSettingsController,System.Single> valueDidChangeEvent
     // Size: 0x8

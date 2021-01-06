@@ -22,8 +22,7 @@ namespace System::Globalization {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: era and: ticks
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // System.Int64 ticks
     // Size: 0x8
     // Offset: 0x18
@@ -49,8 +48,7 @@ namespace System::Globalization {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: maxEraYear and: eraName
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // [OptionalFieldAttribute] Offset: 0xD3E85C
     // System.String eraName
     // Size: 0x8

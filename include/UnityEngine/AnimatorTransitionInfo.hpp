@@ -46,8 +46,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_HasFixedDuration and: m_Duration
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // [NativeNameAttribute] Offset: 0xD63014
     // private System.Single m_Duration
     // Size: 0x4
@@ -70,8 +69,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_AnyState and: m_TransitionType
-    private: char __padding6[0x3] = {};
-    public:
+    char __padding6[0x3] = {};
     // [NativeNameAttribute] Offset: 0xD630BC
     // private System.Int32 m_TransitionType
     // Size: 0x4

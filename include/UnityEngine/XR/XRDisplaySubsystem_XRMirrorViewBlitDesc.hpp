@@ -40,8 +40,7 @@ namespace UnityEngine::XR {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: nativeBlitInvalidStates and: blitParamsCount
-    private: char __padding2[0x2] = {};
-    public:
+    char __padding2[0x2] = {};
     // public System.Int32 blitParamsCount
     // Size: 0x4
     // Offset: 0xC

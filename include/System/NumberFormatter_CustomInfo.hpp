@@ -36,8 +36,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: UseGroup and: DecimalDigits
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // public System.Int32 DecimalDigits
     // Size: 0x4
     // Offset: 0x14
@@ -81,8 +80,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: UseExponent and: ExponentDigits
-    private: char __padding7[0x3] = {};
-    public:
+    char __padding7[0x3] = {};
     // public System.Int32 ExponentDigits
     // Size: 0x4
     // Offset: 0x30
@@ -102,8 +100,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: ExponentNegativeSignOnly and: DividePlaces
-    private: char __padding10[0x3] = {};
-    public:
+    char __padding10[0x3] = {};
     // public System.Int32 DividePlaces
     // Size: 0x4
     // Offset: 0x3C

@@ -40,8 +40,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: blurSize and: esmShadowTexture
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private UnityEngine.RenderTexture _esmShadowTexture
     // Size: 0x8
     // Offset: 0x20

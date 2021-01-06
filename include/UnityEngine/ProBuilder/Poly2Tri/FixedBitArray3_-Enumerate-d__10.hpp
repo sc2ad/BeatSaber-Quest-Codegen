@@ -41,8 +41,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: $$2__current and: $$l__initialThreadId
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // private System.Int32 <>l__initialThreadId
     // Size: 0x4
     // Offset: 0x18
@@ -62,8 +61,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3) == 0x3);
     // Padding between fields: $$3__$$4__this and: $i$5__2
-    private: char __padding4[0x2] = {};
-    public:
+    char __padding4[0x2] = {};
     // private System.Int32 <i>5__2
     // Size: 0x4
     // Offset: 0x24

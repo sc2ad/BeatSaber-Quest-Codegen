@@ -47,8 +47,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(System::Guid) == 0x10);
     // Padding between fields: RelatedActivityId and: Payload
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD3F1E8
     // private System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object> <Payload>k__BackingField
     // Size: 0x8

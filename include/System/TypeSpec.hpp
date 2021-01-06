@@ -89,8 +89,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: is_byref and: display_fullname
-    private: char __padding5[0x7] = {};
-    public:
+    char __padding5[0x7] = {};
     // private System.String display_fullname
     // Size: 0x8
     // Offset: 0x40

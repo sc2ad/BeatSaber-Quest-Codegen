@@ -67,8 +67,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: cellWidth and: didSelectCharacteristic
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDD1884
     // private System.Action`1<BeatmapCharacteristicSO> didSelectCharacteristic
     // Size: 0x8
@@ -89,8 +88,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isInitialized and: selectedColumn
-    private: char __padding6[0x3] = {};
-    public:
+    char __padding6[0x3] = {};
     // private System.Int32 _selectedColumn
     // Size: 0x4
     // Offset: 0x4C

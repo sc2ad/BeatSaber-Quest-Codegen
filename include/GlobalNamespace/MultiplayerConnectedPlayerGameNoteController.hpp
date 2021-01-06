@@ -41,8 +41,7 @@ namespace GlobalNamespace {
   class MultiplayerConnectedPlayerGameNoteController : public GlobalNamespace::MultiplayerConnectedPlayerNoteController/*, public GlobalNamespace::IGameNoteControllerInitializable_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>, public GlobalNamespace::IGameNoteTypeProvider*/ {
     public:
     // Writing base type padding for base size: 0x81 to desired offset: 0x88
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // Nested type: GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Pool
     class Pool;
     // [CompilerGeneratedAttribute] Offset: 0xDC8FD8

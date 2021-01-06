@@ -27,8 +27,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: MustUnderstand and: Name
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // public System.String Name
     // Size: 0x8
     // Offset: 0x20

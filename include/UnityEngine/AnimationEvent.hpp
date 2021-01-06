@@ -39,8 +39,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: m_Time and: m_FunctionName
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // System.String m_FunctionName
     // Size: 0x8
     // Offset: 0x18

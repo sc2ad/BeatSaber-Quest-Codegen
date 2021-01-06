@@ -33,8 +33,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: constructed and: tagNumber
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // private System.Int32 _tagNumber
     // Size: 0x4
     // Offset: 0x14

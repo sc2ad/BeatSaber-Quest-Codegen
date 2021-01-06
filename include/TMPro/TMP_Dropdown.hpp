@@ -125,8 +125,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_Value and: m_Options
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // [SpaceAttribute] Offset: 0xD8B530
     // private TMPro.TMP_Dropdown/OptionDataList m_Options
     // Size: 0x8

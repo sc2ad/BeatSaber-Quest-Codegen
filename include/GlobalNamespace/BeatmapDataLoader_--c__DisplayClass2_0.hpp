@@ -35,8 +35,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: bpmChangesDataIdx and: bpmChangesData
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public System.Collections.Generic.List`1<BeatmapDataLoader/BpmChangeData> bpmChangesData
     // Size: 0x8
     // Offset: 0x8

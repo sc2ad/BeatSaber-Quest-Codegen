@@ -36,8 +36,7 @@ namespace NetEase::Docker {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: Score and: TimeStamp
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // [DebuggerBrowsableAttribute] Offset: 0xDB2690
     // [CompilerGeneratedAttribute] Offset: 0xDB2690
     // private System.Int64 <TimeStamp>k__BackingField

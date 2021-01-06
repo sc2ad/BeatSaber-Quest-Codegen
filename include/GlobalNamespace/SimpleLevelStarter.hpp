@@ -88,8 +88,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useTestNoteCutSoundEffects and: recordingTextAsset
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // [NullAllowed] Offset: 0xDD3338
     // private UnityEngine.TextAsset _recordingTextAsset
     // Size: 0x8

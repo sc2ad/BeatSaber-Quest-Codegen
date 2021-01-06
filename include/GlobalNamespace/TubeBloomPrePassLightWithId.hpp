@@ -30,8 +30,7 @@ namespace GlobalNamespace {
   class TubeBloomPrePassLightWithId : public GlobalNamespace::LightWithIdMonoBehaviour {
     public:
     // Writing base type padding for base size: 0x29 to desired offset: 0x30
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // private TubeBloomPrePassLight _tubeBloomPrePassLight
     // Size: 0x8
     // Offset: 0x30

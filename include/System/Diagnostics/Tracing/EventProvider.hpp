@@ -170,8 +170,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(System::Runtime::InteropServices::GCHandle) == 0x4);
     // Padding between fields: m_thisGCHandle and: m_regHandle
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private System.Int64 m_regHandle
     // Size: 0x8
     // Offset: 0x20
@@ -185,8 +184,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
     // Padding between fields: m_level and: m_anyKeywordMask
-    private: char __padding3[0x7] = {};
-    public:
+    char __padding3[0x7] = {};
     // private System.Int64 m_anyKeywordMask
     // Size: 0x8
     // Offset: 0x30
@@ -212,8 +210,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_enabled and: m_providerId
-    private: char __padding7[0x3] = {};
-    public:
+    char __padding7[0x3] = {};
     // private System.Guid m_providerId
     // Size: 0x10
     // Offset: 0x4C

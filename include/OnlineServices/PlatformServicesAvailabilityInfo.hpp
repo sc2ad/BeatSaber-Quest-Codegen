@@ -62,8 +62,7 @@ namespace OnlineServices {
     // Field size check
     static_assert(sizeof(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability) == 0x4);
     // Padding between fields: availability and: localizedMessage
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public readonly System.String localizedMessage
     // Size: 0x8
     // Offset: 0x18

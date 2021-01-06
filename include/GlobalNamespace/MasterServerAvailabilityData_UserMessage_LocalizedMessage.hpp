@@ -26,8 +26,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(Polyglot::Language) == 0x4);
     // Padding between fields: language and: message
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public System.String message
     // Size: 0x8
     // Offset: 0x18

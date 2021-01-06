@@ -65,8 +65,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: audioSamplesBeatAlignOffset and: longCutEffectsAudioClips
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private UnityEngine.AudioClip[] _longCutEffectsAudioClips
     // Size: 0x8
     // Offset: 0x28
@@ -129,8 +128,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: handleWrongSaberTypeAsGood and: randomLongCutSoundPicker
-    private: char __padding10[0x7] = {};
-    public:
+    char __padding10[0x7] = {};
     // private RandomObjectPicker`1<UnityEngine.AudioClip> _randomLongCutSoundPicker
     // Size: 0x8
     // Offset: 0x70
@@ -180,8 +178,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useTestAudioClips and: noteCutSoundEffectPoolContainer
-    private: char __padding18[0x3] = {};
-    public:
+    char __padding18[0x3] = {};
     // private MonoMemoryPoolContainer`1<NoteCutSoundEffect> _noteCutSoundEffectPoolContainer
     // Size: 0x8
     // Offset: 0xA0

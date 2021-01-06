@@ -113,8 +113,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_IgnoreReversedGraphics and: m_BlockingObjects
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // [FormerlySerializedAsAttribute] Offset: 0xD7E2A0
     // private UnityEngine.UI.GraphicRaycaster/BlockingObjects m_BlockingObjects
     // Size: 0x4
@@ -129,8 +128,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(UnityEngine::LayerMask) == 0x4);
     // Padding between fields: m_BlockingMask and: m_Canvas
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private UnityEngine.Canvas m_Canvas
     // Size: 0x8
     // Offset: 0x30

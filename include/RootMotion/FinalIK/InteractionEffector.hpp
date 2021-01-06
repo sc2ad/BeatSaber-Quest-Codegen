@@ -62,8 +62,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isPaused and: interactionObject
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDB7328
     // private RootMotion.FinalIK.InteractionObject <interactionObject>k__BackingField
     // Size: 0x8
@@ -216,8 +215,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: pickUpOnPostFBBIK and: pickUpPosition
-    private: char __padding26[0x2] = {};
-    public:
+    char __padding26[0x2] = {};
     // private UnityEngine.Vector3 pickUpPosition
     // Size: 0xC
     // Offset: 0x6C
@@ -243,8 +241,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Padding between fields: pauseRotationRelative and: interactionTarget
-    private: char __padding30[0x4] = {};
-    public:
+    char __padding30[0x4] = {};
     // private RootMotion.FinalIK.InteractionTarget interactionTarget
     // Size: 0x8
     // Offset: 0xA8

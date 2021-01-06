@@ -95,8 +95,7 @@ namespace Mono::Xml {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isWhitespace and: attributes
-    private: char __padding7[0x7] = {};
-    public:
+    char __padding7[0x7] = {};
     // private Mono.Xml.SmallXmlParser/AttrListImpl attributes
     // Size: 0x8
     // Offset: 0x50

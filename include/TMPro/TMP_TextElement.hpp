@@ -31,8 +31,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(TMPro::TextElementType) == 0x1);
     // Padding between fields: m_ElementType and: m_Unicode
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // private System.UInt32 m_Unicode
     // Size: 0x4
     // Offset: 0x14

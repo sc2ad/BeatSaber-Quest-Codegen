@@ -160,8 +160,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: blockingEnabled and: blockingLayers
-    private: char __padding16[0x3] = {};
-    public:
+    char __padding16[0x3] = {};
     // [HideInInspector] Offset: 0xDB9AB4
     // public UnityEngine.LayerMask blockingLayers
     // Size: 0x4
@@ -205,8 +204,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: centerOfMass and: footsteps
-    private: char __padding22[0x4] = {};
-    public:
+    char __padding22[0x4] = {};
     // private RootMotion.FinalIK.IKSolverVR/Footstep[] footsteps
     // Size: 0x8
     // Offset: 0x90

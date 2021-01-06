@@ -32,8 +32,7 @@ namespace UnityEngine::Timeline {
   class ScheduleRuntimeClip : public UnityEngine::Timeline::RuntimeClipBase {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // private UnityEngine.Timeline.TimelineClip m_Clip
     // Size: 0x8
     // Offset: 0x18
@@ -47,8 +46,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::Playable) == 0xC);
     // Padding between fields: m_Playable and: m_ParentMixer
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private UnityEngine.Playables.Playable m_ParentMixer
     // Size: 0xC
     // Offset: 0x30
@@ -56,8 +54,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::Playable) == 0xC);
     // Padding between fields: m_ParentMixer and: m_StartDelay
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private System.Double m_StartDelay
     // Size: 0x8
     // Offset: 0x40

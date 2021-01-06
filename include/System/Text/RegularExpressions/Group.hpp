@@ -30,8 +30,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: capcount and: name
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // [OptionalFieldAttribute] Offset: 0xD45F94
     // System.String _name
     // Size: 0x8

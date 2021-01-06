@@ -89,8 +89,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_GetFontFeaturesAtRuntime and: m_missingGlyphCharacter
-    private: char __padding6[0x1] = {};
-    public:
+    char __padding6[0x1] = {};
     // private System.Int32 m_missingGlyphCharacter
     // Size: 0x4
     // Offset: 0x20
@@ -104,8 +103,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_warningsDisabled and: m_defaultFontAsset
-    private: char __padding8[0x3] = {};
-    public:
+    char __padding8[0x3] = {};
     // private TMPro.TMP_FontAsset m_defaultFontAsset
     // Size: 0x8
     // Offset: 0x28
@@ -155,8 +153,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_autoSizeTextContainer and: m_fallbackFontAssets
-    private: char __padding16[0x3] = {};
-    public:
+    char __padding16[0x3] = {};
     // private System.Collections.Generic.List`1<TMPro.TMP_FontAsset> m_fallbackFontAssets
     // Size: 0x8
     // Offset: 0x58
@@ -170,8 +167,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_matchMaterialPreset and: m_defaultSpriteAsset
-    private: char __padding18[0x7] = {};
-    public:
+    char __padding18[0x7] = {};
     // private TMPro.TMP_SpriteAsset m_defaultSpriteAsset
     // Size: 0x8
     // Offset: 0x68
@@ -197,8 +193,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_enableEmojiSupport and: m_defaultStyleSheet
-    private: char __padding22[0x7] = {};
-    public:
+    char __padding22[0x7] = {};
     // private TMPro.TMP_StyleSheet m_defaultStyleSheet
     // Size: 0x8
     // Offset: 0x88

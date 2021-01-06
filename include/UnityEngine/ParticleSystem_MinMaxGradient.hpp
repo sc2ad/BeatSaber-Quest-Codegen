@@ -39,8 +39,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystemGradientMode) == 0x4);
     // Padding between fields: m_Mode and: m_GradientMin
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private UnityEngine.Gradient m_GradientMin
     // Size: 0x8
     // Offset: 0x8

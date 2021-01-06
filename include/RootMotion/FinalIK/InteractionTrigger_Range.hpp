@@ -46,8 +46,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: show and: characterPosition
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // [TooltipAttribute] Offset: 0xDBAA50
     // public RootMotion.FinalIK.InteractionTrigger/CharacterPosition characterPosition
     // Size: 0x8

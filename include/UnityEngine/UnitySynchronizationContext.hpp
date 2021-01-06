@@ -33,8 +33,7 @@ namespace UnityEngine {
   class UnitySynchronizationContext : public System::Threading::SynchronizationContext {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // Nested type: UnityEngine::UnitySynchronizationContext::WorkRequest
     struct WorkRequest;
     // Size: 0x18

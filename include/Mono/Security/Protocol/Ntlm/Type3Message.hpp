@@ -33,8 +33,7 @@ namespace Mono::Security::Protocol::Ntlm {
     // Field size check
     static_assert(sizeof(Mono::Security::Protocol::Ntlm::NtlmAuthLevel) == 0x4);
     // Padding between fields: level and: challenge
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.Byte[] _challenge
     // Size: 0x8
     // Offset: 0x20

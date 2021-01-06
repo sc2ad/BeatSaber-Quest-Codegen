@@ -39,8 +39,7 @@ namespace UnityEngine::Rendering {
     // Field size check
     static_assert(sizeof(Unity::Jobs::JobHandle) == 0xC);
     // Padding between fields: cullingJobsFence and: cullingPlanes
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public UnityEngine.Plane* cullingPlanes
     // Size: 0x8
     // Offset: 0x10

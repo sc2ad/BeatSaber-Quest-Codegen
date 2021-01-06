@@ -108,8 +108,7 @@ namespace System::Runtime::Serialization {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_markForFixupWhenAvailable and: m_valueFixup
-    private: char __padding10[0x3] = {};
-    public:
+    char __padding10[0x3] = {};
     // private System.Runtime.Serialization.ValueTypeFixupInfo m_valueFixup
     // Size: 0x8
     // Offset: 0x58

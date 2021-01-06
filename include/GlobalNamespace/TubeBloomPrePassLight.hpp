@@ -42,8 +42,7 @@ namespace GlobalNamespace {
   class TubeBloomPrePassLight : public GlobalNamespace::BloomPrePassLight {
     public:
     // Writing base type padding for base size: 0x2B to desired offset: 0x30
-    private: char ___base_padding[0x5] = {};
-    public:
+    char ___base_padding[0x5] = {};
     // private BoolSO _mainEffectPostProcessEnabled
     // Size: 0x8
     // Offset: 0x30
@@ -94,8 +93,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: forceUseBakedGlow and: lightWidthMultiplier
-    private: char __padding7[0x3] = {};
-    public:
+    char __padding7[0x3] = {};
     // [MinAttribute] Offset: 0xDA4A44
     // private System.Single _lightWidthMultiplier
     // Size: 0x4
@@ -117,8 +115,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: limitAlpha and: minAlpha
-    private: char __padding10[0x2] = {};
-    public:
+    char __padding10[0x2] = {};
     // [DrawIfAttribute] Offset: 0xDA4AC8
     // private System.Single _minAlpha
     // Size: 0x4

@@ -46,8 +46,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasTypeForwardedFrom and: memberInfos
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // System.Reflection.MemberInfo[] memberInfos
     // Size: 0x8
     // Offset: 0x28

@@ -49,8 +49,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_ShouldRecalculateStencil and: m_MaskMaterial
-    private: char __padding0[0x6] = {};
-    public:
+    char __padding0[0x6] = {};
     // protected UnityEngine.Material m_MaskMaterial
     // Size: 0x8
     // Offset: 0x90
@@ -84,8 +83,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_IncludeForMasking and: m_OnCullStateChanged
-    private: char __padding5[0x5] = {};
-    public:
+    char __padding5[0x5] = {};
     // private UnityEngine.UI.MaskableGraphic/CullStateChangedEvent m_OnCullStateChanged
     // Size: 0x8
     // Offset: 0xA8
@@ -101,8 +99,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_ShouldRecalculate and: m_StencilValue
-    private: char __padding7[0x3] = {};
-    public:
+    char __padding7[0x3] = {};
     // protected System.Int32 m_StencilValue
     // Size: 0x4
     // Offset: 0xB4

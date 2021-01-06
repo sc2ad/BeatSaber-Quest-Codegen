@@ -389,8 +389,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasLegs and: headHeight
-    private: char __padding51[0x1] = {};
-    public:
+    char __padding51[0x1] = {};
     // private System.Single headHeight
     // Size: 0x4
     // Offset: 0x214

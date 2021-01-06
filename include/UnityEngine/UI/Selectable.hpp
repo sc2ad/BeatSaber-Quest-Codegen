@@ -157,8 +157,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(UnityEngine::UI::ColorBlock) == 0x58);
     // Padding between fields: m_Colors and: m_SpriteState
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // [FormerlySerializedAsAttribute] Offset: 0xD7F228
     // private UnityEngine.UI.SpriteState m_SpriteState
     // Size: 0x20
@@ -181,8 +180,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_Interactable and: m_TargetGraphic
-    private: char __padding5[0x7] = {};
-    public:
+    char __padding5[0x7] = {};
     // [FormerlySerializedAsAttribute] Offset: 0xD7F30C
     // [FormerlySerializedAsAttribute] Offset: 0xD7F30C
     // private UnityEngine.UI.Graphic m_TargetGraphic
@@ -198,8 +196,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_GroupsAllowInteraction and: m_CurrentIndex
-    private: char __padding7[0x3] = {};
-    public:
+    char __padding7[0x3] = {};
     // protected System.Int32 m_CurrentIndex
     // Size: 0x4
     // Offset: 0xDC
@@ -228,8 +225,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasSelection and: m_CanvasGroupCache
-    private: char __padding11[0x5] = {};
-    public:
+    char __padding11[0x5] = {};
     // private readonly System.Collections.Generic.List`1<UnityEngine.CanvasGroup> m_CanvasGroupCache
     // Size: 0x8
     // Offset: 0xE8

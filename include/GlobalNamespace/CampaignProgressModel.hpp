@@ -56,8 +56,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: numberOfClearedMissionsDirty and: numberOfClearedMissions
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // private System.Int32 _numberOfClearedMissions
     // Size: 0x4
     // Offset: 0x34

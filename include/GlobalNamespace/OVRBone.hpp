@@ -39,8 +39,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int16_t) == 0x2);
     // Padding between fields: ParentBoneIndex and: Transform
-    private: char __padding1[0x2] = {};
-    public:
+    char __padding1[0x2] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD86F24
     // private UnityEngine.Transform <Transform>k__BackingField
     // Size: 0x8

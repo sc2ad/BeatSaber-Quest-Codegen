@@ -29,8 +29,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: KeyDown and: RepeatCount
-    private: char __padding1[0x1] = {};
-    public:
+    char __padding1[0x1] = {};
     // public System.Int16 RepeatCount
     // Size: 0x2
     // Offset: 0x4

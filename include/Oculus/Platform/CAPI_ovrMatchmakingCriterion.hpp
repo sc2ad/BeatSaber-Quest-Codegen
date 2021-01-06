@@ -37,8 +37,7 @@ namespace Oculus::Platform {
     // Field size check
     static_assert(sizeof(Oculus::Platform::MatchmakingCriterionImportance) == 0x4);
     // Padding between fields: importance and: parameterArray
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // public System.IntPtr parameterArray
     // Size: 0x8
     // Offset: 0x10

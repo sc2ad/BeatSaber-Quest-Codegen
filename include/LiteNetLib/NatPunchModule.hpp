@@ -110,8 +110,7 @@ namespace LiteNetLib {
       // Field size check
       static_assert(sizeof(LiteNetLib::NatAddressType) == 0x4);
       // Padding between fields: Type and: Token
-      private: char __padding1[0x4] = {};
-      public:
+      char __padding1[0x4] = {};
       // public System.String Token
       // Size: 0x8
       // Offset: 0x10

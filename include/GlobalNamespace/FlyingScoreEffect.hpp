@@ -43,8 +43,7 @@ namespace GlobalNamespace {
   class FlyingScoreEffect : public GlobalNamespace::FlyingObjectEffect {
     public:
     // Writing base type padding for base size: 0x7D to desired offset: 0x80
-    private: char ___base_padding[0x3] = {};
-    public:
+    char ___base_padding[0x3] = {};
     // Nested type: GlobalNamespace::FlyingScoreEffect::Pool
     class Pool;
     // private UnityEngine.AnimationCurve _fadeAnimationCurve
@@ -78,8 +77,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: colorAMultiplier and: noteCutInfo
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private NoteCutInfo _noteCutInfo
     // Size: 0x8
     // Offset: 0xB0

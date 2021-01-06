@@ -47,8 +47,7 @@ namespace System::Net::NetworkInformation {
     // Field size check
     static_assert(sizeof(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS) == 0xC);
     // Padding between fields: Address and: PrefixOrigin
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // public System.Net.NetworkInformation.PrefixOrigin PrefixOrigin
     // Size: 0x4
     // Offset: 0x20

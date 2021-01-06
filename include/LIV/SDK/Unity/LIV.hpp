@@ -51,8 +51,7 @@ namespace LIV::SDK::Unity {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: DisableStandardAssets and: SpectatorLayerMask
-    private: char __padding2[0x3] = {};
-    public:
+    char __padding2[0x3] = {};
     // [SpaceAttribute] Offset: 0xDAD3CC
     // public UnityEngine.LayerMask SpectatorLayerMask
     // Size: 0x4

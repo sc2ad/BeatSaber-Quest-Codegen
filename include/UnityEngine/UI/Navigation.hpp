@@ -92,8 +92,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Navigation::Mode) == 0x4);
     // Padding between fields: m_Mode and: m_SelectOnUp
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private UnityEngine.UI.Selectable m_SelectOnUp
     // Size: 0x8
     // Offset: 0x8

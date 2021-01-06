@@ -21,8 +21,7 @@ namespace GlobalNamespace {
   class MaterialPropertyBlockColorAnimator : public GlobalNamespace::MaterialPropertyBlockAnimator {
     public:
     // Writing base type padding for base size: 0x2D to desired offset: 0x30
-    private: char ___base_padding[0x3] = {};
-    public:
+    char ___base_padding[0x3] = {};
     // [SpaceAttribute] Offset: 0xDA56E8
     // private UnityEngine.Color _color
     // Size: 0x10

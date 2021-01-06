@@ -47,8 +47,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_hasChanged and: m_pivot
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // private UnityEngine.Vector2 m_pivot
     // Size: 0x8
     // Offset: 0x1C
@@ -86,8 +85,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_isAutoFitting and: m_corners
-    private: char __padding6[0x5] = {};
-    public:
+    char __padding6[0x5] = {};
     // private UnityEngine.Vector3[] m_corners
     // Size: 0x8
     // Offset: 0x40

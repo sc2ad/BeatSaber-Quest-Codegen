@@ -34,8 +34,7 @@ namespace System::Runtime::Remoting {
   class ClientIdentity : public System::Runtime::Remoting::Identity {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // private System.WeakReference _proxyReference
     // Size: 0x8
     // Offset: 0x48

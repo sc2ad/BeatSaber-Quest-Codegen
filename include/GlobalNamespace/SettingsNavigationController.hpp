@@ -35,8 +35,7 @@ namespace GlobalNamespace {
   class SettingsNavigationController : public HMUI::NavigationController {
     public:
     // Writing base type padding for base size: 0x94 to desired offset: 0x98
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // Nested type: GlobalNamespace::SettingsNavigationController::FinishAction
     struct FinishAction;
     // Size: 0x4

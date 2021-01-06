@@ -27,8 +27,7 @@ namespace System::Net::NetworkInformation {
   class LinuxNetworkInterface : public System::Net::NetworkInformation::UnixNetworkInterface {
     public:
     // Writing base type padding for base size: 0x34 to desired offset: 0x38
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // private System.String iface_path
     // Size: 0x8
     // Offset: 0x38

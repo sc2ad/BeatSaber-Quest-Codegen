@@ -27,8 +27,7 @@ namespace System::Net::Sockets {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: len and: buf
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public System.IntPtr buf
     // Size: 0x8
     // Offset: 0x8

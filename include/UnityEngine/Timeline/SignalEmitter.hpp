@@ -50,8 +50,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_EmitOnce and: m_Asset
-    private: char __padding1[0x6] = {};
-    public:
+    char __padding1[0x6] = {};
     // private UnityEngine.Timeline.SignalAsset m_Asset
     // Size: 0x8
     // Offset: 0x30

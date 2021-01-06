@@ -40,8 +40,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(System::Net::Sockets::AddressFamily) == 0x4);
     // Padding between fields: m_Family and: m_Numbers
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private System.UInt16[] m_Numbers
     // Size: 0x8
     // Offset: 0x28

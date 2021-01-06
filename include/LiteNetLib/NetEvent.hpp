@@ -126,8 +126,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(LiteNetLib::NetEvent::EType) == 0x4);
     // Padding between fields: Type and: Peer
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public LiteNetLib.NetPeer Peer
     // Size: 0x8
     // Offset: 0x18
@@ -165,8 +164,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(LiteNetLib::DisconnectReason) == 0x4);
     // Padding between fields: DisconnectReason and: ConnectionRequest
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // public LiteNetLib.ConnectionRequest ConnectionRequest
     // Size: 0x8
     // Offset: 0x40
@@ -180,8 +178,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(LiteNetLib::DeliveryMethod) == 0x1);
     // Padding between fields: DeliveryMethod and: DataReader
-    private: char __padding8[0x7] = {};
-    public:
+    char __padding8[0x7] = {};
     // public readonly LiteNetLib.NetPacketReader DataReader
     // Size: 0x8
     // Offset: 0x50

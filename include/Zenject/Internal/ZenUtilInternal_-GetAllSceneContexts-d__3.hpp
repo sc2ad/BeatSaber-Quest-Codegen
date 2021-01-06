@@ -42,8 +42,7 @@ namespace Zenject::Internal {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: $$1__state and: $$2__current
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private Zenject.SceneContext <>2__current
     // Size: 0x8
     // Offset: 0x18
@@ -57,8 +56,7 @@ namespace Zenject::Internal {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: $$l__initialThreadId and: $$7__wrap1
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private System.Collections.Generic.IEnumerator`1<UnityEngine.SceneManagement.Scene> <>7__wrap1
     // Size: 0x8
     // Offset: 0x28

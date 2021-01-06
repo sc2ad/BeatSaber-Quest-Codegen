@@ -91,8 +91,7 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: currentPlayerCount and: cancellationToken
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // public System.Threading.CancellationToken cancellationToken
     // Size: 0x8
     // Offset: 0x40
@@ -124,8 +123,7 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(GlobalNamespace::DiscoveryPolicy) == 0x1);
     // Padding between fields: discoveryPolicy and: invitePolicy
-    private: char __padding10[0x3] = {};
-    public:
+    char __padding10[0x3] = {};
     // public InvitePolicy invitePolicy
     // Size: 0x4
     // Offset: 0x60
@@ -133,8 +131,7 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(GlobalNamespace::InvitePolicy) == 0x4);
     // Padding between fields: invitePolicy and: configuration
-    private: char __padding11[0x4] = {};
-    public:
+    char __padding11[0x4] = {};
     // public GameplayServerConfiguration configuration
     // Size: 0x18
     // Offset: 0x68

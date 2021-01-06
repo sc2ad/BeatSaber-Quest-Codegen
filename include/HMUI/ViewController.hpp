@@ -143,8 +143,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isInTransition and: graphicRaycaster
-    private: char __padding11[0x5] = {};
-    public:
+    char __padding11[0x5] = {};
     // private UnityEngine.EventSystems.BaseRaycaster _graphicRaycaster
     // Size: 0x8
     // Offset: 0x68

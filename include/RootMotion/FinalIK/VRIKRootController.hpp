@@ -38,8 +38,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: pelvisTargetRight and: pelvisTarget
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private UnityEngine.Transform pelvisTarget
     // Size: 0x8
     // Offset: 0x28

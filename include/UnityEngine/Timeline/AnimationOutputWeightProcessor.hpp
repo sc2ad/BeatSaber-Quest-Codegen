@@ -45,8 +45,7 @@ namespace UnityEngine::Timeline {
       // Field size check
       static_assert(sizeof(UnityEngine::Playables::Playable) == 0xC);
       // Padding between fields: mixer and: parentMixer
-      private: char __padding0[0x4] = {};
-      public:
+      char __padding0[0x4] = {};
       // public UnityEngine.Playables.Playable parentMixer
       // Size: 0xC
       // Offset: 0x10
@@ -54,8 +53,7 @@ namespace UnityEngine::Timeline {
       // Field size check
       static_assert(sizeof(UnityEngine::Playables::Playable) == 0xC);
       // Padding between fields: parentMixer and: port
-      private: char __padding1[0x4] = {};
-      public:
+      char __padding1[0x4] = {};
       // public System.Int32 port
       // Size: 0x4
       // Offset: 0x20
@@ -78,8 +76,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(UnityEngine::Animations::AnimationPlayableOutput) == 0xC);
     // Padding between fields: m_Output and: m_MotionXPlayable
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private UnityEngine.Animations.AnimationMotionXToDeltaPlayable m_MotionXPlayable
     // Size: 0xC
     // Offset: 0x20
@@ -87,8 +84,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(UnityEngine::Animations::AnimationMotionXToDeltaPlayable) == 0xC);
     // Padding between fields: m_MotionXPlayable and: m_Mixers
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private readonly System.Collections.Generic.List`1<UnityEngine.Timeline.AnimationOutputWeightProcessor/WeightInfo> m_Mixers
     // Size: 0x8
     // Offset: 0x30

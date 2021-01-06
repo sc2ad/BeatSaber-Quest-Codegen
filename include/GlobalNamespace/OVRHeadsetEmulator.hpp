@@ -92,8 +92,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: resetHmdPoseByMiddleMouseButton and: activateKeys
-    private: char __padding2[0x2] = {};
-    public:
+    char __padding2[0x2] = {};
     // public UnityEngine.KeyCode[] activateKeys
     // Size: 0x8
     // Offset: 0x20
@@ -119,8 +118,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: lastFrameEmulationActivated and: recordedHeadPoseRelativeOffsetTranslation
-    private: char __padding6[0x3] = {};
-    public:
+    char __padding6[0x3] = {};
     // private UnityEngine.Vector3 recordedHeadPoseRelativeOffsetTranslation
     // Size: 0xC
     // Offset: 0x3C

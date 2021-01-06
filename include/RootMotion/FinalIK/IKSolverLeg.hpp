@@ -42,8 +42,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Padding between fields: IKRotation and: pelvis
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // public RootMotion.FinalIK.IKSolver/Point pelvis
     // Size: 0x8
     // Offset: 0x70
@@ -87,8 +86,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: heelOffset and: positions
-    private: char __padding8[0x4] = {};
-    public:
+    char __padding8[0x4] = {};
     // private UnityEngine.Vector3[] positions
     // Size: 0x8
     // Offset: 0xB0

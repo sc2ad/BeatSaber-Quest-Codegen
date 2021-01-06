@@ -32,8 +32,7 @@ namespace System::Net::Sockets {
   class SocketException : public System::ComponentModel::Win32Exception {
     public:
     // Writing base type padding for base size: 0x8C to desired offset: 0x90
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // private System.Net.EndPoint m_EndPoint
     // Size: 0x8
     // Offset: 0x90

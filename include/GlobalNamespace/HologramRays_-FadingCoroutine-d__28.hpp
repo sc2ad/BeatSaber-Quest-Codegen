@@ -29,8 +29,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: $$1__state and: $$2__current
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.Object <>2__current
     // Size: 0x8
     // Offset: 0x18
@@ -44,8 +43,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: turningOn and: $$4__this
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // public HologramRays <>4__this
     // Size: 0x8
     // Offset: 0x28

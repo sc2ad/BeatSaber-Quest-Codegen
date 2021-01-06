@@ -43,8 +43,7 @@ namespace MasterServer {
   class BroadcastServerStatusRequest : public GlobalNamespace::BaseMasterServerReliableRequest/*, public MasterServer::IUserClientToServerMessage*/ {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDAA5D4
     // private System.String <userId>k__BackingField
     // Size: 0x8
@@ -96,8 +95,7 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(GlobalNamespace::DiscoveryPolicy) == 0x1);
     // Padding between fields: discoveryPolicy and: invitePolicy
-    private: char __padding7[0x3] = {};
-    public:
+    char __padding7[0x3] = {};
     // public InvitePolicy invitePolicy
     // Size: 0x4
     // Offset: 0x4C

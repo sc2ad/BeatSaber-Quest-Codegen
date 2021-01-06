@@ -89,8 +89,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_ShouldRecalculateClipRects and: m_Clippers
-    private: char __padding4[0x7] = {};
-    public:
+    char __padding4[0x7] = {};
     // private System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D> m_Clippers
     // Size: 0x8
     // Offset: 0x40
@@ -110,8 +109,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_ForceClip and: m_Canvas
-    private: char __padding7[0x7] = {};
-    public:
+    char __padding7[0x7] = {};
     // private UnityEngine.Canvas m_Canvas
     // Size: 0x8
     // Offset: 0x60

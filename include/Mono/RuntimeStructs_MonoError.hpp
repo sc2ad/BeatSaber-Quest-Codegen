@@ -33,8 +33,7 @@ namespace Mono {
     // Field size check
     static_assert(sizeof(uint16_t) == 0x2);
     // Padding between fields: hidden_0 and: hidden_1
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private System.IntPtr hidden_1
     // Size: 0x8
     // Offset: 0x8

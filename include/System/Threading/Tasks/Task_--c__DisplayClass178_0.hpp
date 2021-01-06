@@ -43,8 +43,7 @@ namespace System::Threading::Tasks {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: replicasAreQuitting and: taskReplicaDelegate
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // public System.Action`1<System.Object> taskReplicaDelegate
     // Size: 0x8
     // Offset: 0x20

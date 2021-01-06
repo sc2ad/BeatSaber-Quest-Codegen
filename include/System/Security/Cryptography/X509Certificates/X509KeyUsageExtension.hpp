@@ -33,8 +33,7 @@ namespace System::Security::Cryptography::X509Certificates {
   class X509KeyUsageExtension : public System::Security::Cryptography::X509Certificates::X509Extension {
     public:
     // Writing base type padding for base size: 0x21 to desired offset: 0x24
-    private: char ___base_padding[0x3] = {};
-    public:
+    char ___base_padding[0x3] = {};
     // private System.Security.Cryptography.X509Certificates.X509KeyUsageFlags _keyUsages
     // Size: 0x4
     // Offset: 0x24

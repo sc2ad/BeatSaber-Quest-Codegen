@@ -40,8 +40,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: overrideDefaultColors and: colorSchemesList
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // private System.Collections.Generic.List`1<ColorScheme> _colorSchemesList
     // Size: 0x8
     // Offset: 0x18

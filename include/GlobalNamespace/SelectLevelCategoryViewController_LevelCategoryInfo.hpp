@@ -31,8 +31,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory) == 0x4);
     // Padding between fields: levelCategory and: localizedKey
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public System.String localizedKey
     // Size: 0x8
     // Offset: 0x18

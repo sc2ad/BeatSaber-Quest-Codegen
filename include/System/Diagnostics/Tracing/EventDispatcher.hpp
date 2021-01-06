@@ -41,8 +41,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_activityFilteringEnabled and: m_Next
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // System.Diagnostics.Tracing.EventDispatcher m_Next
     // Size: 0x8
     // Offset: 0x28

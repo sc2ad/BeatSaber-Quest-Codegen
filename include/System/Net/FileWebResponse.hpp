@@ -54,8 +54,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_closed and: m_contentLength
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // private System.Int64 m_contentLength
     // Size: 0x8
     // Offset: 0x20
@@ -69,8 +68,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(System::IO::FileAccess) == 0x4);
     // Padding between fields: m_fileAccess and: m_headers
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private System.Net.WebHeaderCollection m_headers
     // Size: 0x8
     // Offset: 0x30

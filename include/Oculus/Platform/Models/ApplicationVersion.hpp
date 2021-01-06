@@ -24,8 +24,7 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: CurrentCode and: CurrentName
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public readonly System.String CurrentName
     // Size: 0x8
     // Offset: 0x18
@@ -39,8 +38,7 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: LatestCode and: LatestName
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // public readonly System.String LatestName
     // Size: 0x8
     // Offset: 0x28

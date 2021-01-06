@@ -87,8 +87,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isContextOk and: sourceProxy
-    private: char __padding5[0x7] = {};
-    public:
+    char __padding5[0x7] = {};
     // private System.Runtime.Remoting.Proxies.RemotingProxy _sourceProxy
     // Size: 0x8
     // Offset: 0x98

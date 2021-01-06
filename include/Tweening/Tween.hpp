@@ -53,8 +53,7 @@ namespace Tweening {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: loop and: delay
-    private: char __padding2[0x3] = {};
-    public:
+    char __padding2[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDD3440
     // private System.Single <delay>k__BackingField
     // Size: 0x4
@@ -95,8 +94,7 @@ namespace Tweening {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isKilled and: interpolationType
-    private: char __padding8[0x2] = {};
-    public:
+    char __padding8[0x2] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDD3470
     // private Tweening.InterpolationType <interpolationType>k__BackingField
     // Size: 0x4
@@ -112,8 +110,7 @@ namespace Tweening {
     // Field size check
     static_assert(sizeof(Tweening::EaseType) == 0x4);
     // Padding between fields: easeType and: animationCurve
-    private: char __padding10[0x4] = {};
-    public:
+    char __padding10[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDD3490
     // private UnityEngine.AnimationCurve <animationCurve>k__BackingField
     // Size: 0x8

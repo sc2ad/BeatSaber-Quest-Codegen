@@ -99,8 +99,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: baseColorBoostThreshold and: fadeMaterial
-    private: char __padding9[0x4] = {};
-    public:
+    char __padding9[0x4] = {};
     // private UnityEngine.Material _fadeMaterial
     // Size: 0x8
     // Offset: 0x50

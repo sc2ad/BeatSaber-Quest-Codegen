@@ -87,8 +87,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasLegs and: readPositions
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // private UnityEngine.Vector3[] readPositions
     // Size: 0x8
     // Offset: 0x68
@@ -171,8 +170,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: plantFeet and: rootBone
-    private: char __padding18[0x7] = {};
-    public:
+    char __padding18[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDB7034
     // private RootMotion.FinalIK.IKSolverVR/VirtualBone <rootBone>k__BackingField
     // Size: 0x8

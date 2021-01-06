@@ -49,8 +49,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: runtextstart and: runtext
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // protected internal System.String runtext
     // Size: 0x8
     // Offset: 0x20
@@ -64,8 +63,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: runtextpos and: runtrack
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // protected internal System.Int32[] runtrack
     // Size: 0x8
     // Offset: 0x30
@@ -79,8 +77,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: runtrackpos and: runstack
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // protected internal System.Int32[] runstack
     // Size: 0x8
     // Offset: 0x40
@@ -94,8 +91,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: runstackpos and: runcrawl
-    private: char __padding8[0x4] = {};
-    public:
+    char __padding8[0x4] = {};
     // protected internal System.Int32[] runcrawl
     // Size: 0x8
     // Offset: 0x50
@@ -139,8 +135,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: ignoreTimeout and: timeoutOccursAt
-    private: char __padding15[0x3] = {};
-    public:
+    char __padding15[0x3] = {};
     // private System.Int32 timeoutOccursAt
     // Size: 0x4
     // Offset: 0x78

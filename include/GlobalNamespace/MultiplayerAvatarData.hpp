@@ -68,8 +68,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Color32) == 0x4);
     // Padding between fields: glassesColor and: facialHairId
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // public readonly System.String facialHairId
     // Size: 0x8
     // Offset: 0x20
@@ -83,8 +82,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Color32) == 0x4);
     // Padding between fields: facialHairColor and: handsId
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // public readonly System.String handsId
     // Size: 0x8
     // Offset: 0x30
@@ -98,8 +96,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Color32) == 0x4);
     // Padding between fields: handsColor and: clothesId
-    private: char __padding8[0x4] = {};
-    public:
+    char __padding8[0x4] = {};
     // public readonly System.String clothesId
     // Size: 0x8
     // Offset: 0x40
@@ -125,8 +122,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Color32) == 0x4);
     // Padding between fields: clothesDetailColor and: skinColorId
-    private: char __padding12[0x4] = {};
-    public:
+    char __padding12[0x4] = {};
     // public readonly System.String skinColorId
     // Size: 0x8
     // Offset: 0x58

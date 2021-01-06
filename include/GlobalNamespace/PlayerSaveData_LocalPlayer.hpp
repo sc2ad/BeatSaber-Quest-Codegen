@@ -70,8 +70,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: avatarCreated and: lastSelectedBeatmapDifficulty
-    private: char __padding6[0x3] = {};
-    public:
+    char __padding6[0x3] = {};
     // public BeatmapDifficulty lastSelectedBeatmapDifficulty
     // Size: 0x4
     // Offset: 0x28
@@ -79,8 +78,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
     // Padding between fields: lastSelectedBeatmapDifficulty and: lastSelectedBeatmapCharacteristicName
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // public System.String lastSelectedBeatmapCharacteristicName
     // Size: 0x8
     // Offset: 0x30

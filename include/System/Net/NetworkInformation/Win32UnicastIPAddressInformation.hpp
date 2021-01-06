@@ -38,8 +38,7 @@ namespace System::Net::NetworkInformation {
     // Field size check
     static_assert(sizeof(System::Net::NetworkInformation::Win32_IP_ADAPTER_UNICAST_ADDRESS) == 0x39);
     // Padding between fields: info and: ipv4Mask
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // private System.Net.IPAddress ipv4Mask
     // Size: 0x8
     // Offset: 0x50

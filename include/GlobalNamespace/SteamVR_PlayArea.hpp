@@ -118,8 +118,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: drawInGame and: size
-    private: char __padding3[0x2] = {};
-    public:
+    char __padding3[0x2] = {};
     // public SteamVR_PlayArea/Size size
     // Size: 0x4
     // Offset: 0x24

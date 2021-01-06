@@ -79,8 +79,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: smoothTurnTowardsTarget and: maxRadiansDelta
-    private: char __padding6[0x3] = {};
-    public:
+    char __padding6[0x3] = {};
     // [TooltipAttribute] Offset: 0xDB84C4
     // public System.Single maxRadiansDelta
     // Size: 0x4
@@ -126,8 +125,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: maxRootAngle and: lastTarget
-    private: char __padding12[0x4] = {};
-    public:
+    char __padding12[0x4] = {};
     // private UnityEngine.Transform lastTarget
     // Size: 0x8
     // Offset: 0x68

@@ -60,8 +60,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: linkTextLength and: linkID
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // System.Char[] linkID
     // Size: 0x8
     // Offset: 0x20

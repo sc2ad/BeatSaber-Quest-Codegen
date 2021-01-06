@@ -47,8 +47,7 @@ namespace NUnit::Framework::Internal {
   class TestSuite : public NUnit::Framework::Internal::Test {
     public:
     // Writing base type padding for base size: 0x75 to desired offset: 0x78
-    private: char ___base_padding[0x3] = {};
-    public:
+    char ___base_padding[0x3] = {};
     // private System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITest> tests
     // Size: 0x8
     // Offset: 0x78

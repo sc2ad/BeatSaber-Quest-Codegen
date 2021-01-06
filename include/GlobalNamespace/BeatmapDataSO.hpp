@@ -64,8 +64,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasRequiredDataForLoad and: beatmapDataLoader
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // private BeatmapDataLoader _beatmapDataLoader
     // Size: 0x8
     // Offset: 0x38

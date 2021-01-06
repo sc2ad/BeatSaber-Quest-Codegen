@@ -134,8 +134,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: adjustSabersPositionBasedOnHeadPosition and: headRotationOffset
-    private: char __padding5[0x1] = {};
-    public:
+    char __padding5[0x1] = {};
     // private UnityEngine.Vector3 _headRotationOffset
     // Size: 0xC
     // Offset: 0x30

@@ -37,8 +37,7 @@ namespace System::Reflection {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: is_pinned and: position
-    private: char __padding1[0x1] = {};
-    public:
+    char __padding1[0x1] = {};
     // System.UInt16 position
     // Size: 0x2
     // Offset: 0x1A

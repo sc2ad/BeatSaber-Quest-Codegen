@@ -56,8 +56,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isPaused and: lookAtTarget
-    private: char __padding3[0x7] = {};
-    public:
+    char __padding3[0x7] = {};
     // private UnityEngine.Transform lookAtTarget
     // Size: 0x8
     // Offset: 0x28

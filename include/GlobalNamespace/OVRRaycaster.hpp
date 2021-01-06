@@ -105,8 +105,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: sortOrder and: m_Canvas
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private UnityEngine.Canvas m_Canvas
     // Size: 0x8
     // Offset: 0x50

@@ -26,8 +26,7 @@ namespace System::IO {
     // Field size check
     static_assert(sizeof(System::IO::SearchPattern2::OpCode) == 0x4);
     // Padding between fields: Code and: Argument
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public System.String Argument
     // Size: 0x8
     // Offset: 0x18

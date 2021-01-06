@@ -42,8 +42,7 @@ namespace UnityEngine {
       // Field size check
       static_assert(sizeof(int) == 0x4);
       // Padding between fields: order and: callback
-      private: char __padding0[0x4] = {};
-      public:
+      char __padding0[0x4] = {};
       // UnityEngine.Events.UnityAction callback
       // Size: 0x8
       // Offset: 0x8

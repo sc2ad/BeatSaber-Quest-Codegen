@@ -55,8 +55,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: zeroWeightApplied and: isRoot
-    private: char __padding3[0x7] = {};
-    public:
+    char __padding3[0x7] = {};
     // private System.Boolean[] isRoot
     // Size: 0x8
     // Offset: 0x70

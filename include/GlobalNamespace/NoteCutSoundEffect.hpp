@@ -104,8 +104,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isPlaying and: volumeMultiplier
-    private: char __padding8[0x3] = {};
-    public:
+    char __padding8[0x3] = {};
     // private System.Single _volumeMultiplier
     // Size: 0x4
     // Offset: 0x54
@@ -119,8 +118,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: noteWasCut and: aheadTime
-    private: char __padding10[0x3] = {};
-    public:
+    char __padding10[0x3] = {};
     // private System.Single _aheadTime
     // Size: 0x4
     // Offset: 0x5C
@@ -176,8 +174,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: goodCut and: badCutRandomSoundPicker
-    private: char __padding19[0x7] = {};
-    public:
+    char __padding19[0x7] = {};
     // private RandomObjectPicker`1<UnityEngine.AudioClip> _badCutRandomSoundPicker
     // Size: 0x8
     // Offset: 0x90

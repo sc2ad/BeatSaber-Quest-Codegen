@@ -37,8 +37,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: noConditionValue and: objectiveValueFormater
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // private ObjectiveValueFormatterSO _objectiveValueFormater
     // Size: 0x8
     // Offset: 0x28

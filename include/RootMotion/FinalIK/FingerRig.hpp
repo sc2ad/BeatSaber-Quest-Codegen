@@ -30,8 +30,7 @@ namespace RootMotion::FinalIK {
   class FingerRig : public RootMotion::SolverManager {
     public:
     // Writing base type padding for base size: 0x33 to desired offset: 0x34
-    private: char ___base_padding[0x1] = {};
-    public:
+    char ___base_padding[0x1] = {};
     // [TooltipAttribute] Offset: 0xDB5878
     // [RangeAttribute] Offset: 0xDB5878
     // public System.Single weight

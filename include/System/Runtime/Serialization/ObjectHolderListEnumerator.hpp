@@ -31,8 +31,7 @@ namespace System::Runtime::Serialization {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_isFixupEnumerator and: m_list
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // private System.Runtime.Serialization.ObjectHolderList m_list
     // Size: 0x8
     // Offset: 0x18

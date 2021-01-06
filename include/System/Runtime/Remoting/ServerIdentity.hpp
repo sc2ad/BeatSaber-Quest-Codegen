@@ -53,8 +53,7 @@ namespace System::Runtime::Remoting {
   class ServerIdentity : public System::Runtime::Remoting::Identity {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // protected System.Type _objectType
     // Size: 0x8
     // Offset: 0x48

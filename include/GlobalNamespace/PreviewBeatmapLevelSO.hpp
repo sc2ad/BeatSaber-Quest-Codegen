@@ -129,8 +129,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: songDuration and: coverImage
-    private: char __padding12[0x4] = {};
-    public:
+    char __padding12[0x4] = {};
     // private UnityEngine.Sprite _coverImage
     // Size: 0x8
     // Offset: 0x68
@@ -162,8 +161,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: ignore360MovementBeatmaps and: no360MovementPreviewDifficultyBeatmapSets
-    private: char __padding17[0x7] = {};
-    public:
+    char __padding17[0x7] = {};
     // private PreviewDifficultyBeatmapSet[] _no360MovementPreviewDifficultyBeatmapSets
     // Size: 0x8
     // Offset: 0x90

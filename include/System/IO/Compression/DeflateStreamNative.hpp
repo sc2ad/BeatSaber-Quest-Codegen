@@ -68,8 +68,7 @@ namespace System::IO::Compression {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: disposed and: io_buffer
-    private: char __padding4[0x3] = {};
-    public:
+    char __padding4[0x3] = {};
     // private System.Byte[] io_buffer
     // Size: 0x8
     // Offset: 0x30

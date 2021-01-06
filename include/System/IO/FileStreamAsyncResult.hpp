@@ -44,8 +44,7 @@ namespace System::IO {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: completed and: wh
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // private System.Threading.ManualResetEvent wh
     // Size: 0x8
     // Offset: 0x20
@@ -65,8 +64,7 @@ namespace System::IO {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: completedSynch and: Count
-    private: char __padding4[0x3] = {};
-    public:
+    char __padding4[0x3] = {};
     // public System.Int32 Count
     // Size: 0x4
     // Offset: 0x34

@@ -66,8 +66,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
     // Padding between fields: Version and: Message
-    private: char __padding4[0x3] = {};
-    public:
+    char __padding4[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD3F278
     // private System.String <Message>k__BackingField
     // Size: 0x8

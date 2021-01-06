@@ -69,8 +69,7 @@ namespace System::Text {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: byteCountResult and: enc
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // private System.Text.Encoding enc
     // Size: 0x8
     // Offset: 0x48

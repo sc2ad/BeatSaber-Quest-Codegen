@@ -60,8 +60,7 @@ namespace NUnit::Framework::Interfaces {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: ValueIsCDATA and: Attributes
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDB379C
     // private NUnit.Framework.Interfaces.AttributeDictionary <Attributes>k__BackingField
     // Size: 0x8

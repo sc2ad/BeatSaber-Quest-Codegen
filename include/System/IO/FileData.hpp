@@ -38,8 +38,7 @@ namespace System::IO {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: NotExists and: CreationTime
-    private: char __padding2[0x3] = {};
-    public:
+    char __padding2[0x3] = {};
     // public System.DateTime CreationTime
     // Size: 0x8
     // Offset: 0x20

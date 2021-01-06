@@ -25,8 +25,7 @@ namespace System::IO {
     // Field size check
     static_assert(sizeof(System::IO::FileAttributes) == 0x4);
     // Padding between fields: fileAttributes and: Length
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public System.Int64 Length
     // Size: 0x8
     // Offset: 0x8

@@ -77,8 +77,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: endDistanceOffset and: visualWrappers
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private UnityEngine.GameObject[] _visualWrappers
     // Size: 0x8
     // Offset: 0x30
@@ -196,8 +195,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: passedAvoidedMarkReported and: passedAvoidedMarkTime
-    private: char __padding20[0x2] = {};
-    public:
+    char __padding20[0x2] = {};
     // private System.Single _passedAvoidedMarkTime
     // Size: 0x4
     // Offset: 0xB0
@@ -223,8 +221,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: dissolving and: obstacleData
-    private: char __padding24[0x7] = {};
-    public:
+    char __padding24[0x7] = {};
     // private ObstacleData _obstacleData
     // Size: 0x8
     // Offset: 0xD8

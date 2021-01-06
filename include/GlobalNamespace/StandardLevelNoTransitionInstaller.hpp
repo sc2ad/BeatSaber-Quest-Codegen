@@ -64,8 +64,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
     // Padding between fields: beatmapDifficulty and: colorScheme
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private ColorSchemeSO _colorScheme
     // Size: 0x8
     // Offset: 0x30
@@ -109,8 +108,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useTestNoteCutSoundEffects and: scenesTransitionSetupData
-    private: char __padding9[0x7] = {};
-    public:
+    char __padding9[0x7] = {};
     // [SpaceAttribute] Offset: 0xDD2F08
     // private StandardLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
     // Size: 0x8

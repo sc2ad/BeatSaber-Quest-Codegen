@@ -78,8 +78,7 @@ namespace NUnit::Framework::Constraints {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: compareAsCollection and: externalComparers
-    private: char __padding1[0x6] = {};
-    public:
+    char __padding1[0x6] = {};
     // private System.Collections.Generic.List`1<NUnit.Framework.Constraints.EqualityAdapter> externalComparers
     // Size: 0x8
     // Offset: 0x18

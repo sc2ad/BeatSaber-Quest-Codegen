@@ -55,8 +55,7 @@ namespace System::Security::Cryptography {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_bytesPerBlock and: des
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // private System.Security.Cryptography.TripleDES des
     // Size: 0x8
     // Offset: 0x50

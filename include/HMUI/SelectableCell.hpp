@@ -54,8 +54,7 @@ namespace HMUI {
   class SelectableCell : public HMUI::Interactable/*, public UnityEngine::EventSystems::IPointerClickHandler, public UnityEngine::EventSystems::ISubmitHandler, public UnityEngine::EventSystems::IPointerEnterHandler, public UnityEngine::EventSystems::IPointerExitHandler*/ {
     public:
     // Writing base type padding for base size: 0x19 to desired offset: 0x20
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // Nested type: HMUI::SelectableCell::TransitionType
     struct TransitionType;
     // Size: 0x4

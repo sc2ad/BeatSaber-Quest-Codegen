@@ -98,8 +98,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::StreamingContext) == 0xC);
     // Padding between fields: m_context and: m_objectManager
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // System.Runtime.Serialization.ObjectManager m_objectManager
     // Size: 0x8
     // Offset: 0x30
@@ -131,8 +130,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: bSimpleAssembly and: handlerObject
-    private: char __padding7[0x7] = {};
-    public:
+    char __padding7[0x7] = {};
     // System.Object handlerObject
     // Size: 0x8
     // Offset: 0x58
@@ -200,8 +198,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: bOldFormatDetected and: valTypeObjectIdTable
-    private: char __padding18[0x6] = {};
-    public:
+    char __padding18[0x6] = {};
     // private System.Runtime.Serialization.Formatters.Binary.IntSizedArray valTypeObjectIdTable
     // Size: 0x8
     // Offset: 0xA8

@@ -51,8 +51,7 @@ namespace Mono::Security::Cryptography {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_disposed and: d
-    private: char __padding2[0x5] = {};
-    public:
+    char __padding2[0x5] = {};
     // private Mono.Math.BigInteger d
     // Size: 0x8
     // Offset: 0x28

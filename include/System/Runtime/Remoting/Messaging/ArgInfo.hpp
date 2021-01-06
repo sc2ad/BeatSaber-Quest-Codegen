@@ -37,8 +37,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: inoutArgCount and: method
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private System.Reflection.MethodBase _method
     // Size: 0x8
     // Offset: 0x20

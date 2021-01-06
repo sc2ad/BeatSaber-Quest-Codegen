@@ -49,8 +49,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isValid and: lastSentSequenceNum
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // private System.Int32 _lastSentSequenceNum
     // Size: 0x4
     // Offset: 0x18
@@ -64,8 +63,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasReceivedSequenceNum and: lastReceivedSequenceNum
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // private System.UInt32 _lastReceivedSequenceNum
     // Size: 0x4
     // Offset: 0x20
@@ -73,8 +71,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(uint) == 0x4);
     // Padding between fields: lastReceivedSequenceNum and: receivedSequenceNumBuffer
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private readonly System.Boolean[] _receivedSequenceNumBuffer
     // Size: 0x8
     // Offset: 0x28

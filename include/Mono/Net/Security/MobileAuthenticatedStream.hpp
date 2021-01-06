@@ -95,8 +95,7 @@ namespace Mono::Net::Security {
   class MobileAuthenticatedStream : public System::Net::Security::AuthenticatedStream/*, public Mono::Security::Interface::IMonoSslStream*/ {
     public:
     // Writing base type padding for base size: 0x31 to desired offset: 0x38
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // Nested type: Mono::Net::Security::MobileAuthenticatedStream::OperationType
     struct OperationType;
     // Nested type: Mono::Net::Security::MobileAuthenticatedStream::$ProcessAuthentication$d__47
@@ -170,8 +169,7 @@ namespace Mono::Net::Security {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: shutdown and: SslStream
-    private: char __padding9[0x3] = {};
-    public:
+    char __padding9[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD45F1C
     // private readonly System.Net.Security.SslStream <SslStream>k__BackingField
     // Size: 0x8

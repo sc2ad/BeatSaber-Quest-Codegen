@@ -73,8 +73,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: loadAsync and: loadingScreen
-    private: char __padding4[0x6] = {};
-    public:
+    char __padding4[0x6] = {};
     // public UnityEngine.Texture loadingScreen
     // Size: 0x8
     // Offset: 0x38
@@ -112,8 +111,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: loadingScreenDistance and: loadingScreenTransform
-    private: char __padding10[0x4] = {};
-    public:
+    char __padding10[0x4] = {};
     // public UnityEngine.Transform loadingScreenTransform
     // Size: 0x8
     // Offset: 0x60
@@ -175,8 +173,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: showGrid and: fadeOutTime
-    private: char __padding20[0x3] = {};
-    public:
+    char __padding20[0x3] = {};
     // public System.Single fadeOutTime
     // Size: 0x4
     // Offset: 0xB4

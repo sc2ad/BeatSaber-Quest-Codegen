@@ -72,8 +72,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: negate and: subtractor
-    private: char __padding3[0x6] = {};
-    public:
+    char __padding3[0x6] = {};
     // private System.Text.RegularExpressions.RegexCharClass _subtractor
     // Size: 0x8
     // Offset: 0x28

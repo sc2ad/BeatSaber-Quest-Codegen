@@ -75,8 +75,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_UserEvent and: m_Event
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // private System.Object m_Event
     // Size: 0x8
     // Offset: 0x38

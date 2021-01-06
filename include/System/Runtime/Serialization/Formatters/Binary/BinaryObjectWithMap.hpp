@@ -51,8 +51,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: numMembers and: memberNames
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // System.String[] memberNames
     // Size: 0x8
     // Offset: 0x28

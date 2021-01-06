@@ -45,8 +45,7 @@ namespace RootMotion {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: bakeHandIK and: IKKeyReductionError
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // [TooltipAttribute] Offset: 0xDB53DC
     // [RangeAttribute] Offset: 0xDB53DC
     // public System.Single IKKeyReductionError

@@ -39,8 +39,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: $$1__state and: $$2__current
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.Object <>2__current
     // Size: 0x8
     // Offset: 0x18
@@ -54,8 +53,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: startDelay and: $$4__this
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // public FadeInOutController <>4__this
     // Size: 0x8
     // Offset: 0x28
@@ -87,8 +85,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: duration and: fadeFinishedCallback
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // public System.Action fadeFinishedCallback
     // Size: 0x8
     // Offset: 0x48

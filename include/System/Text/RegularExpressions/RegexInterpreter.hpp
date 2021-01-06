@@ -40,8 +40,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: runoperator and: runcodes
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // System.Int32[] runcodes
     // Size: 0x8
     // Offset: 0x88
@@ -55,8 +54,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: runcodepos and: runstrings
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // System.String[] runstrings
     // Size: 0x8
     // Offset: 0x98
@@ -100,8 +98,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: runci and: runculture
-    private: char __padding9[0x2] = {};
-    public:
+    char __padding9[0x2] = {};
     // System.Globalization.CultureInfo runculture
     // Size: 0x8
     // Offset: 0xC0

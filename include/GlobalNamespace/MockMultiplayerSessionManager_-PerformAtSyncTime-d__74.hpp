@@ -38,8 +38,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: $$1__state and: $$t__builder
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
     // Size: 0x20
     // Offset: 0x8
@@ -53,8 +52,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: syncTime and: $$4__this
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // public MockMultiplayerSessionManager <>4__this
     // Size: 0x8
     // Offset: 0x30

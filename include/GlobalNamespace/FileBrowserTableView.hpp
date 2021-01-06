@@ -61,8 +61,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: cellHeight and: didSelectRow
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDCD5A4
     // private System.Action`2<FileBrowserTableView,FileBrowserItem> didSelectRow
     // Size: 0x8

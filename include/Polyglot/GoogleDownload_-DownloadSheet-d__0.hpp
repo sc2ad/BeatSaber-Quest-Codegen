@@ -45,8 +45,7 @@ namespace Polyglot {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: $$1__state and: $$2__current
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.Object <>2__current
     // Size: 0x8
     // Offset: 0x18
@@ -84,8 +83,7 @@ namespace Polyglot {
     // Field size check
     static_assert(sizeof(Polyglot::GoogleDriveDownloadFormat) == 0x4);
     // Padding between fields: format and: $url$5__2
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // private System.String <url>5__2
     // Size: 0x8
     // Offset: 0x48

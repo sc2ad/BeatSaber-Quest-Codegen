@@ -62,8 +62,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::TestStatus) == 0x4);
     // Padding between fields: testStatus and: duration
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // public System.Double duration
     // Size: 0x8
     // Offset: 0x38
@@ -131,8 +130,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasChildren and: output
-    private: char __padding15[0x3] = {};
-    public:
+    char __padding15[0x3] = {};
     // public System.String output
     // Size: 0x8
     // Offset: 0x78

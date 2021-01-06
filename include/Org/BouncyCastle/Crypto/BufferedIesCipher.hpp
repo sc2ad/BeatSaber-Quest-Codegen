@@ -47,8 +47,7 @@ namespace Org::BouncyCastle::Crypto {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: forEncryption and: buffer
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // private System.IO.MemoryStream buffer
     // Size: 0x8
     // Offset: 0x20

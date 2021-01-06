@@ -39,8 +39,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: NonLazy and: Provider
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // public readonly Zenject.IProvider Provider
     // Size: 0x8
     // Offset: 0x20

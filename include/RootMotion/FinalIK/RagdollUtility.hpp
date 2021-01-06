@@ -65,8 +65,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: applyIkOnRagdoll and: applyVelocity
-    private: char __padding2[0x3] = {};
-    public:
+    char __padding2[0x3] = {};
     // [TooltipAttribute] Offset: 0xDB7A7C
     // public System.Single applyVelocity
     // Size: 0x4
@@ -106,8 +105,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: enableRagdollFlag and: animatorUpdateMode
-    private: char __padding8[0x3] = {};
-    public:
+    char __padding8[0x3] = {};
     // private UnityEngine.AnimatorUpdateMode animatorUpdateMode
     // Size: 0x4
     // Offset: 0x4C
@@ -145,8 +143,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fixedFrame and: disabledIKComponents
-    private: char __padding14[0x7] = {};
-    public:
+    char __padding14[0x7] = {};
     // private System.Boolean[] disabledIKComponents
     // Size: 0x8
     // Offset: 0x70

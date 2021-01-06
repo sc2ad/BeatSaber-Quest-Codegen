@@ -148,8 +148,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType) == 0x4);
     // Padding between fields: editAvatarType and: didFinishEvent
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDCD7AC
     // private System.Action`2<EditAvatarFlowCoordinator,EditAvatarFlowCoordinator/EditAvatarType> didFinishEvent
     // Size: 0x8

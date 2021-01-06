@@ -98,8 +98,7 @@ namespace System::Globalization {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: bUseOverrides and: calendarId
-    private: char __padding11[0x3] = {};
-    public:
+    char __padding11[0x3] = {};
     // private System.Int32 calendarId
     // Size: 0x4
     // Offset: 0x64
@@ -143,8 +142,7 @@ namespace System::Globalization {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isRightToLeft and: sListSeparator
-    private: char __padding18[0x3] = {};
-    public:
+    char __padding18[0x3] = {};
     // private System.String sListSeparator
     // Size: 0x8
     // Offset: 0x80

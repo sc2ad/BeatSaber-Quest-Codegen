@@ -94,8 +94,7 @@ namespace System::IO {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isExposed and: append_startpos
-    private: char __padding3[0x7] = {};
-    public:
+    char __padding3[0x7] = {};
     // private System.Int64 append_startpos
     // Size: 0x8
     // Offset: 0x48
@@ -139,8 +138,7 @@ namespace System::IO {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: buf_dirty and: buf_size
-    private: char __padding10[0x3] = {};
-    public:
+    char __padding10[0x3] = {};
     // private System.Int32 buf_size
     // Size: 0x4
     // Offset: 0x5C

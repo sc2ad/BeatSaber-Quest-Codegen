@@ -63,8 +63,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::X509Certificates::StoreLocation) == 0x4);
     // Padding between fields: location and: elements
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.Security.Cryptography.X509Certificates.X509ChainElementCollection elements
     // Size: 0x8
     // Offset: 0x18
@@ -90,8 +89,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: max_path_length and: working_issuer_name
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private System.Security.Cryptography.X509Certificates.X500DistinguishedName working_issuer_name
     // Size: 0x8
     // Offset: 0x38

@@ -59,8 +59,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: vertexCount and: vertices
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // public UnityEngine.Vector3[] vertices
     // Size: 0x8
     // Offset: 0x10

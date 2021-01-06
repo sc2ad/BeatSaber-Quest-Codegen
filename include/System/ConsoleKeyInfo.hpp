@@ -29,8 +29,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
     // Padding between fields: keyChar and: key
-    private: char __padding0[0x2] = {};
-    public:
+    char __padding0[0x2] = {};
     // private System.ConsoleKey _key
     // Size: 0x4
     // Offset: 0x4

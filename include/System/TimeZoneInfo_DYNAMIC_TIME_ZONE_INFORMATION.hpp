@@ -27,8 +27,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(System::TimeZoneInfo::TIME_ZONE_INFORMATION) == 0x44);
     // Padding between fields: TZI and: TimeZoneKeyName
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // System.String TimeZoneKeyName
     // Size: 0x8
     // Offset: 0x48

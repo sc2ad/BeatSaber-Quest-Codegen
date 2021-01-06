@@ -33,8 +33,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(UnityEngine::KeyCode) == 0x4);
     // Padding between fields: keyCode and: text
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x20

@@ -54,8 +54,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: capsuleScale and: Renderer
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private UnityEngine.MeshRenderer Renderer
     // Size: 0x8
     // Offset: 0x30

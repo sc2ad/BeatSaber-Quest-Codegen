@@ -99,8 +99,7 @@ namespace VRUIControls {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useMouseForPressInput and: onProcessMousePressEvent
-    private: char __padding3[0x7] = {};
-    public:
+    char __padding3[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDB2260
     // private System.Action`1<UnityEngine.GameObject> onProcessMousePressEvent
     // Size: 0x8

@@ -95,8 +95,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: lightOnStart and: lightsID
-    private: char __padding9[0x3] = {};
-    public:
+    char __padding9[0x3] = {};
     // private System.Int32 _lightsID
     // Size: 0x4
     // Offset: 0x60
@@ -116,8 +115,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
     // Padding between fields: colorBoostEvent and: lightManager
-    private: char __padding12[0x4] = {};
-    public:
+    char __padding12[0x4] = {};
     // [InjectAttribute] Offset: 0xDC6FAC
     // private readonly LightWithIdManager _lightManager
     // Size: 0x8
@@ -139,8 +137,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: lightIsOn and: offColor
-    private: char __padding15[0x3] = {};
-    public:
+    char __padding15[0x3] = {};
     // private UnityEngine.Color _offColor
     // Size: 0x10
     // Offset: 0x84
@@ -178,8 +175,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: colorBoost and: prevLightSwitchBeatmapEventDataValue
-    private: char __padding21[0x2] = {};
-    public:
+    char __padding21[0x2] = {};
     // private System.Int32 _prevLightSwitchBeatmapEventDataValue
     // Size: 0x4
     // Offset: 0xBC

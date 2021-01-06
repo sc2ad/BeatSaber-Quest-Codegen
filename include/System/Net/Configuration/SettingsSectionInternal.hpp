@@ -24,8 +24,7 @@ namespace System::Net::Configuration {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: HttpListenerUnescapeRequestUrl and: IPProtectionLevel
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // readonly System.Net.Sockets.IPProtectionLevel IPProtectionLevel
     // Size: 0x4
     // Offset: 0x14

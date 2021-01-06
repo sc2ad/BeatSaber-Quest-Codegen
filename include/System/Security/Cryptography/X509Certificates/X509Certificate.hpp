@@ -52,8 +52,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hideDates and: issuer_name
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // private System.String issuer_name
     // Size: 0x8
     // Offset: 0x20

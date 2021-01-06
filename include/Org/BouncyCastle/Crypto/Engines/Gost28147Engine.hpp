@@ -42,8 +42,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: forEncryption and: S
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // private System.Byte[] S
     // Size: 0x8
     // Offset: 0x20

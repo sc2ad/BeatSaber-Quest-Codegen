@@ -75,8 +75,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: characterSetSelectionMode and: characterSequence
-    private: char __padding8[0x4] = {};
-    public:
+    char __padding8[0x4] = {};
     // public System.String characterSequence
     // Size: 0x8
     // Offset: 0x30

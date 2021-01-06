@@ -97,8 +97,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::VRRenderingParamsSetup::SceneType) == 0x4);
     // Padding between fields: sceneType and: vrPlatformHelper
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // [InjectAttribute] Offset: 0xDB17E4
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8

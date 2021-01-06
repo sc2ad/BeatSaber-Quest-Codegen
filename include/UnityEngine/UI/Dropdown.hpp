@@ -125,8 +125,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_Value and: m_Options
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // [SpaceAttribute] Offset: 0xD7DF6C
     // private UnityEngine.UI.Dropdown/OptionDataList m_Options
     // Size: 0x8
@@ -148,8 +147,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: m_AlphaFadeSpeed and: m_Dropdown
-    private: char __padding8[0x4] = {};
-    public:
+    char __padding8[0x4] = {};
     // private UnityEngine.GameObject m_Dropdown
     // Size: 0x8
     // Offset: 0x138

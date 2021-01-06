@@ -76,8 +76,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayerStartState) == 0x4);
     // Padding between fields: localPlayerStartState and: sceneSetupData
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // [InjectAttribute] Offset: 0xDC8B84
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8

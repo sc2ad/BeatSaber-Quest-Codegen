@@ -77,8 +77,7 @@ namespace UnityEngine::Timeline {
       // Field size check
       static_assert(sizeof(bool) == 0x1);
       // Padding between fields: notificationFired and: flags
-      private: char __padding2[0x1] = {};
-      public:
+      char __padding2[0x1] = {};
       // public UnityEngine.Timeline.NotificationFlags flags
       // Size: 0x2
       // Offset: 0x12
@@ -122,8 +121,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_NeedSortNotifications and: m_TimeSource
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // private UnityEngine.Playables.Playable m_TimeSource
     // Size: 0xC
     // Offset: 0x28

@@ -52,8 +52,7 @@ namespace System::Diagnostics {
     // Field size check
     static_assert(sizeof(uint) == 0x4);
     // Padding between fields: methodIndex and: methodBase
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // private System.Reflection.MethodBase methodBase
     // Size: 0x8
     // Offset: 0x28

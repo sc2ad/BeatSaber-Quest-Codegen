@@ -36,8 +36,7 @@ namespace OnlineServices {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isError and: leaderboardEntries
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // public readonly OnlineServices.LeaderboardEntryData[] leaderboardEntries
     // Size: 0x8
     // Offset: 0x8

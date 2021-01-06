@@ -58,8 +58,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: waitingForButtonRelease and: vrControllersInputManager
-    private: char __padding3[0x7] = {};
-    public:
+    char __padding3[0x7] = {};
     // [InjectAttribute] Offset: 0xDC7EB0
     // private VRControllersInputManager _vrControllersInputManager
     // Size: 0x8

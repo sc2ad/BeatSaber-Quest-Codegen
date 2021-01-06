@@ -53,8 +53,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: excludeSelf and: predicate
-    private: char __padding1[0x6] = {};
-    public:
+    char __padding1[0x6] = {};
     // public System.Func`2<UnityEngine.Component,System.Boolean> predicate
     // Size: 0x8
     // Offset: 0x18

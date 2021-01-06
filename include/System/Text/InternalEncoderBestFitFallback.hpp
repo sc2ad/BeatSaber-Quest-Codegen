@@ -27,8 +27,7 @@ namespace System::Text {
   class InternalEncoderBestFitFallback : public System::Text::EncoderFallback {
     public:
     // Writing base type padding for base size: 0x11 to desired offset: 0x18
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // System.Text.Encoding encoding
     // Size: 0x8
     // Offset: 0x18

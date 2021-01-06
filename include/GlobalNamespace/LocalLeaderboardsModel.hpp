@@ -91,8 +91,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: maxNumberOfScoresInLeaderboard and: newScoreWasAddedToLeaderboardEvent
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC2DF4
     // private System.Action`2<System.String,LocalLeaderboardsModel/LeaderboardType> newScoreWasAddedToLeaderboardEvent
     // Size: 0x8

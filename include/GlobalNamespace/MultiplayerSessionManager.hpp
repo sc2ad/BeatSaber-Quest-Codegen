@@ -81,8 +81,7 @@ namespace GlobalNamespace {
   class MultiplayerSessionManager : public GlobalNamespace::StandaloneMonobehavior/*, public GlobalNamespace::IMultiplayerSessionManager*/ {
     public:
     // Writing base type padding for base size: 0x2C to desired offset: 0x30
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // Nested type: GlobalNamespace::MultiplayerSessionManager::SessionType
     struct SessionType;
     // Nested type: GlobalNamespace::MultiplayerSessionManager::ConnectionState
@@ -279,8 +278,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: exclusiveConnectedPlayerManager and: connectedPlayerManager
-    private: char __padding14[0x7] = {};
-    public:
+    char __padding14[0x7] = {};
     // private ConnectedPlayerManager _connectedPlayerManager
     // Size: 0x8
     // Offset: 0xA0

@@ -112,8 +112,7 @@ namespace NUnit::Framework::Internal {
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::RunState) == 0x4);
     // Padding between fields: RunState and: Properties
-    private: char __padding8[0x4] = {};
-    public:
+    char __padding8[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDB339C
     // private NUnit.Framework.Interfaces.IPropertyBag <Properties>k__BackingField
     // Size: 0x8

@@ -44,8 +44,7 @@ namespace GlobalNamespace {
   class BasicBeatmapObjectManager : public GlobalNamespace::BeatmapObjectManager {
     public:
     // Writing base type padding for base size: 0x49 to desired offset: 0x4C
-    private: char ___base_padding[0x3] = {};
-    public:
+    char ___base_padding[0x3] = {};
     // Nested type: GlobalNamespace::BasicBeatmapObjectManager::InitData
     class InitData;
     // private System.Nullable`1<System.Single> _firstBasicNoteTime

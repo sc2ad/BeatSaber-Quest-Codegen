@@ -33,8 +33,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::VRPlatformSDK) == 0x4);
     // Padding between fields: vrPlatformSdk and: vrPlatformHelper
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [InjectAttribute] Offset: 0xD98CC8
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8

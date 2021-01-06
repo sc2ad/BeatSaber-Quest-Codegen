@@ -86,8 +86,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: prevPosition and: prevPlayerName
-    private: char __padding8[0x4] = {};
-    public:
+    char __padding8[0x4] = {};
     // private System.String _prevPlayerName
     // Size: 0x8
     // Offset: 0x80
@@ -107,8 +106,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: prevFailed and: prevNumberOfPlayers
-    private: char __padding11[0x3] = {};
-    public:
+    char __padding11[0x3] = {};
     // private System.Int32 _prevNumberOfPlayers
     // Size: 0x4
     // Offset: 0x90

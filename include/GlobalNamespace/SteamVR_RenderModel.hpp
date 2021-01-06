@@ -82,8 +82,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::SteamVR_TrackedObject::EIndex) == 0x4);
     // Padding between fields: index and: modelOverride
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [TooltipAttribute] Offset: 0xD8A600
     // public System.String modelOverride
     // Size: 0x8
@@ -126,8 +125,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(Valve::VR::RenderModel_ControllerMode_State_t) == 0x1);
     // Padding between fields: controllerModeState and: renderModelName
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD8A718
     // private System.String <renderModelName>k__BackingField
     // Size: 0x8

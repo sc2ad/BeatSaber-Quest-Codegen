@@ -31,8 +31,7 @@ namespace Valve::VR {
     // Field size check
     static_assert(sizeof(uint) == 0x4);
     // Padding between fields: unVertexCount and: rIndexData
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // public System.IntPtr rIndexData
     // Size: 0x8
     // Offset: 0x10

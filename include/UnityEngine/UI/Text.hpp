@@ -84,8 +84,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_DisableFontTextureRebuiltCallback and: m_TempVerts
-    private: char __padding4[0x7] = {};
-    public:
+    char __padding4[0x7] = {};
     // private readonly UnityEngine.UIVertex[] m_TempVerts
     // Size: 0x8
     // Offset: 0xE8

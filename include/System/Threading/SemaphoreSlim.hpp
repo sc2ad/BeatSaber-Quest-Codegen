@@ -67,8 +67,7 @@ namespace System::Threading {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_waitCount and: m_lockObj
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private System.Object m_lockObj
     // Size: 0x8
     // Offset: 0x20

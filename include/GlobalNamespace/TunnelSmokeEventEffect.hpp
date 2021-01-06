@@ -41,8 +41,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
     // Padding between fields: event and: particleSystem
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private UnityEngine.ParticleSystem _particleSystem
     // Size: 0x8
     // Offset: 0x20

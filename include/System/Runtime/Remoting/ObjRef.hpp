@@ -74,8 +74,7 @@ namespace System::Runtime::Remoting {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: flags and: serverType
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private System.Type _serverType
     // Size: 0x8
     // Offset: 0x38

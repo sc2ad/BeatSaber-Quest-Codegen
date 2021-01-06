@@ -128,8 +128,7 @@ namespace Mono::Unity {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: closedGraceful and: writeBuffer
-    private: char __padding12[0x5] = {};
-    public:
+    char __padding12[0x5] = {};
     // private System.Byte[] writeBuffer
     // Size: 0x8
     // Offset: 0xB0
@@ -149,8 +148,7 @@ namespace Mono::Unity {
     // Field size check
     static_assert(sizeof(System::Runtime::InteropServices::GCHandle) == 0x4);
     // Padding between fields: handle and: lastException
-    private: char __padding15[0x4] = {};
-    public:
+    char __padding15[0x4] = {};
     // private System.Exception lastException
     // Size: 0x8
     // Offset: 0xC8

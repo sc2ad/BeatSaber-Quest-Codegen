@@ -65,8 +65,7 @@ namespace System::IO {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: enableRaisingEvents and: filter
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // private System.String filter
     // Size: 0x8
     // Offset: 0x30
@@ -80,8 +79,7 @@ namespace System::IO {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: includeSubdirectories and: internalBufferSize
-    private: char __padding2[0x3] = {};
-    public:
+    char __padding2[0x3] = {};
     // private System.Int32 internalBufferSize
     // Size: 0x4
     // Offset: 0x3C
@@ -95,8 +93,7 @@ namespace System::IO {
     // Field size check
     static_assert(sizeof(System::IO::NotifyFilters) == 0x4);
     // Padding between fields: notifyFilter and: path
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private System.String path
     // Size: 0x8
     // Offset: 0x48
@@ -122,8 +119,7 @@ namespace System::IO {
     // Field size check
     static_assert(sizeof(System::IO::WaitForChangedResult) == 0x19);
     // Padding between fields: lastData and: waiting
-    private: char __padding8[0x7] = {};
-    public:
+    char __padding8[0x7] = {};
     // private System.Boolean waiting
     // Size: 0x1
     // Offset: 0x80
@@ -131,8 +127,7 @@ namespace System::IO {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: waiting and: pattern
-    private: char __padding9[0x7] = {};
-    public:
+    char __padding9[0x7] = {};
     // private System.IO.SearchPattern2 pattern
     // Size: 0x8
     // Offset: 0x88
@@ -146,8 +141,7 @@ namespace System::IO {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: disposed and: mangledFilter
-    private: char __padding11[0x7] = {};
-    public:
+    char __padding11[0x7] = {};
     // private System.String mangledFilter
     // Size: 0x8
     // Offset: 0x98

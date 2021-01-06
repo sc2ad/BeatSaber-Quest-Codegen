@@ -158,8 +158,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hideScrollIndicatorIfNotNeeded and: verticalScrollIndicator
-    private: char __padding6[0x7] = {};
-    public:
+    char __padding6[0x7] = {};
     // private HMUI.VerticalScrollIndicator _verticalScrollIndicator
     // Size: 0x8
     // Offset: 0x40
@@ -173,8 +172,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hideScrollButtonsIfNotNeeded and: pageUpButton
-    private: char __padding8[0x7] = {};
-    public:
+    char __padding8[0x7] = {};
     // private UnityEngine.UI.Button _pageUpButton
     // Size: 0x8
     // Offset: 0x50

@@ -50,8 +50,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::EditAvatarViewController::AvatarEditPart) == 0x4);
     // Padding between fields: avatarEditPart and: currentColor
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // public System.Func`1<UnityEngine.Color> currentColor
     // Size: 0x8
     // Offset: 0x28
@@ -65,8 +64,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: uvSegment and: $$9__1
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // public System.Action`1<UnityEngine.Color> <>9__1
     // Size: 0x8
     // Offset: 0x38

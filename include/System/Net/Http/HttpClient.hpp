@@ -56,8 +56,7 @@ namespace System::Net::Http {
   class HttpClient : public System::Net::Http::HttpMessageInvoker {
     public:
     // Writing base type padding for base size: 0x19 to desired offset: 0x20
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // Nested type: System::Net::Http::HttpClient::$SendAsyncWorker$d__47
     struct $SendAsyncWorker$d__47;
     // Nested type: System::Net::Http::HttpClient::$GetStringAsync$d__52
@@ -81,8 +80,7 @@ namespace System::Net::Http {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: disposed and: headers
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // private System.Net.Http.Headers.HttpRequestHeaders headers
     // Size: 0x8
     // Offset: 0x38

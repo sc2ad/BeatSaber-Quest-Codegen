@@ -57,8 +57,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: cutWasOk and: saberDir
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // public UnitVector3Serializable saberDir
     // Size: 0xC
     // Offset: 0x18

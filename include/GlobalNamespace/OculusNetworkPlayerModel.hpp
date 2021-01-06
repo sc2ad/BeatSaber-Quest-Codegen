@@ -111,8 +111,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isRefreshing and: localPlayer
-    private: char __padding2[0x3] = {};
-    public:
+    char __padding2[0x3] = {};
     // private OculusNetworkPlayerModel/OculusNetworkPlayer _localPlayer
     // Size: 0x8
     // Offset: 0x88
@@ -138,8 +137,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: waitingOnRoomCreate and: roomDataStore
-    private: char __padding6[0x2] = {};
-    public:
+    char __padding6[0x2] = {};
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.String> _roomDataStore
     // Size: 0x8
     // Offset: 0x98

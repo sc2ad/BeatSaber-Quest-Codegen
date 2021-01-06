@@ -109,8 +109,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: countOrder and: childTestCountdown
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // private NUnit.Framework.Internal.Execution.CountdownEvent _childTestCountdown
     // Size: 0x8
     // Offset: 0x90

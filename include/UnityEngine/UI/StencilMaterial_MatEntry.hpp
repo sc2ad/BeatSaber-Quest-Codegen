@@ -85,8 +85,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useAlphaClip and: colorMask
-    private: char __padding8[0x3] = {};
-    public:
+    char __padding8[0x3] = {};
     // public UnityEngine.Rendering.ColorWriteMask colorMask
     // Size: 0x4
     // Offset: 0x3C

@@ -61,8 +61,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isConnectionOwner and: sortIndex
-    private: char __padding4[0x2] = {};
-    public:
+    char __padding4[0x2] = {};
     // private System.Int32 _sortIndex
     // Size: 0x4
     // Offset: 0x2C

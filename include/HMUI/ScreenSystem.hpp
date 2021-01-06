@@ -94,8 +94,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: backButtonIsVisible and: buttonBinder
-    private: char __padding8[0x7] = {};
-    public:
+    char __padding8[0x7] = {};
     // private HMUI.ButtonBinder _buttonBinder
     // Size: 0x8
     // Offset: 0x60

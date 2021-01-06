@@ -58,8 +58,7 @@ namespace UnityEngine::ProBuilder {
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Edge) == 0x8);
     // Padding between fields: edge and: face
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // public UnityEngine.ProBuilder.Face face
     // Size: 0x8
     // Offset: 0x30

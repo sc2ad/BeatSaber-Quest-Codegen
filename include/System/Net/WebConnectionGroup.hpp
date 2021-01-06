@@ -79,8 +79,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: closing and: ConnectionClosed
-    private: char __padding4[0x7] = {};
-    public:
+    char __padding4[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD460C4
     // private System.EventHandler ConnectionClosed
     // Size: 0x8

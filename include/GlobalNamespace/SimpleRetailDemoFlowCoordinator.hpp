@@ -96,8 +96,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
     // Padding between fields: demoLevel1Difficulty and: demoLevel2
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private BeatmapLevelSO _demoLevel2
     // Size: 0x8
     // Offset: 0xD0
@@ -117,8 +116,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
     // Padding between fields: demoLevel2Difficulty and: simpleDemoViewController
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // [SpaceAttribute] Offset: 0xDCE164
     // private SimpleRetailDemoViewController _simpleDemoViewController
     // Size: 0x8
@@ -179,8 +177,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: quittingApplication and: gameplayModifiers
-    private: char __padding16[0x7] = {};
-    public:
+    char __padding16[0x7] = {};
     // private readonly GameplayModifiers _gameplayModifiers
     // Size: 0x8
     // Offset: 0x130

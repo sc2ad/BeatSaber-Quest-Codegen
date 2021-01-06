@@ -43,8 +43,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Field size check
     static_assert(sizeof(uint) == 0x4);
     // Padding between fields: cnt and: key
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private System.Byte[] key
     // Size: 0x8
     // Offset: 0x28
@@ -64,8 +63,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: initialised and: buf
-    private: char __padding5[0x7] = {};
-    public:
+    char __padding5[0x7] = {};
     // private System.Byte[] buf
     // Size: 0x8
     // Offset: 0x40

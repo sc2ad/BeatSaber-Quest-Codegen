@@ -38,8 +38,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: CreateKernel and: KernelType
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD94B58
     // private System.Type <KernelType>k__BackingField
     // Size: 0x8

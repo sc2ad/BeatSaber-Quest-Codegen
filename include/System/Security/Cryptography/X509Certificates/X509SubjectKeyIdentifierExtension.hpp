@@ -38,8 +38,7 @@ namespace System::Security::Cryptography::X509Certificates {
   class X509SubjectKeyIdentifierExtension : public System::Security::Cryptography::X509Certificates::X509Extension {
     public:
     // Writing base type padding for base size: 0x21 to desired offset: 0x28
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // private System.Byte[] _subjectKeyIdentifier
     // Size: 0x8
     // Offset: 0x28

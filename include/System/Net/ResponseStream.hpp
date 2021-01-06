@@ -63,8 +63,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: trailer_sent and: stream
-    private: char __padding3[0x5] = {};
-    public:
+    char __padding3[0x5] = {};
     // private System.IO.Stream stream
     // Size: 0x8
     // Offset: 0x38

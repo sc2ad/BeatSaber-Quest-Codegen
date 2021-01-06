@@ -56,8 +56,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: maxAdditiveOffsetMag and: effectorLinks
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // [TooltipAttribute] Offset: 0xDBB6AC
     // public RootMotion.FinalIK.Recoil/RecoilOffset/EffectorLink[] effectorLinks
     // Size: 0x8

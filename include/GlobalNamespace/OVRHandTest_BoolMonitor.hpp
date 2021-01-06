@@ -60,8 +60,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_currentValueRecentlyChanged and: m_displayTimeout
-    private: char __padding4[0x1] = {};
-    public:
+    char __padding4[0x1] = {};
     // private System.Single m_displayTimeout
     // Size: 0x4
     // Offset: 0x24

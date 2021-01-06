@@ -32,8 +32,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: xBufOff and: byteCount
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private System.Int64 byteCount
     // Size: 0x8
     // Offset: 0x20

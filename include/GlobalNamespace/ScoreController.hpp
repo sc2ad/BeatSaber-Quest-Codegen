@@ -226,8 +226,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: feverIsActive and: feverStartTime
-    private: char __padding24[0x3] = {};
-    public:
+    char __padding24[0x3] = {};
     // private System.Single _feverStartTime
     // Size: 0x4
     // Offset: 0xB8
@@ -247,8 +246,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: playerHeadWasInObstacle and: immediateMaxPossibleRawScore
-    private: char __padding27[0x3] = {};
-    public:
+    char __padding27[0x3] = {};
     // private System.Int32 _immediateMaxPossibleRawScore
     // Size: 0x4
     // Offset: 0xC4
@@ -262,8 +260,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: cutOrMissedNotes and: cutScoreBuffers
-    private: char __padding29[0x4] = {};
-    public:
+    char __padding29[0x4] = {};
     // private readonly System.Collections.Generic.List`1<CutScoreBuffer> _cutScoreBuffers
     // Size: 0x8
     // Offset: 0xD0

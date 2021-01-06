@@ -81,8 +81,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: cursorVisible and: csrVisible
-    private: char __padding5[0x7] = {};
-    public:
+    char __padding5[0x7] = {};
     // private System.String csrVisible
     // Size: 0x8
     // Offset: 0x38
@@ -186,8 +185,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: inited and: initLock
-    private: char __padding22[0x7] = {};
-    public:
+    char __padding22[0x7] = {};
     // private System.Object initLock
     // Size: 0x8
     // Offset: 0xA8
@@ -201,8 +199,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: initKeys and: origPair
-    private: char __padding24[0x7] = {};
-    public:
+    char __padding24[0x7] = {};
     // private System.String origPair
     // Size: 0x8
     // Offset: 0xB8
@@ -228,8 +225,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(System::ConsoleColor) == 0x4);
     // Padding between fields: fgcolor and: setfgcolor
-    private: char __padding28[0x4] = {};
-    public:
+    char __padding28[0x4] = {};
     // private System.String setfgcolor
     // Size: 0x8
     // Offset: 0xD8
@@ -255,8 +251,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: noGetPosition and: keymap
-    private: char __padding32[0x3] = {};
-    public:
+    char __padding32[0x3] = {};
     // private System.Collections.Hashtable keymap
     // Size: 0x8
     // Offset: 0xF0

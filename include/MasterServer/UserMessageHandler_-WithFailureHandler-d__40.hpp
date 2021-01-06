@@ -49,8 +49,7 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: $$1__state and: $$t__builder
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
     // Size: 0x20
     // Offset: 0x8

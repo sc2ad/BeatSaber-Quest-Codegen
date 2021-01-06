@@ -74,8 +74,7 @@ namespace UnityEngine::EventSystems {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_sendNavigationEvents and: m_DragThreshold
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // private System.Int32 m_DragThreshold
     // Size: 0x4
     // Offset: 0x34
@@ -101,8 +100,7 @@ namespace UnityEngine::EventSystems {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_SelectionGuard and: m_DummyData
-    private: char __padding7[0x6] = {};
-    public:
+    char __padding7[0x6] = {};
     // private UnityEngine.EventSystems.BaseEventData m_DummyData
     // Size: 0x8
     // Offset: 0x48

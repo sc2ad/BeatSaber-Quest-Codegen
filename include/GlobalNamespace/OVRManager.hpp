@@ -467,8 +467,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: enableMixedReality and: instantiateMixedRealityBackgroundCameraGameObject
-    private: char __padding12[0x2] = {};
-    public:
+    char __padding12[0x2] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD85E34
     // private System.Func`2<UnityEngine.Camera,UnityEngine.GameObject> <instantiateMixedRealityBackgroundCameraGameObject>k__BackingField
     // Size: 0x8
@@ -539,8 +538,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: flipCameraFrameVertically and: handPoseStateLatency
-    private: char __padding21[0x2] = {};
-    public:
+    char __padding21[0x2] = {};
     // [HideInInspector] Offset: 0xD8602C
     // [TooltipAttribute] Offset: 0xD8602C
     // public System.Single handPoseStateLatency
@@ -606,8 +604,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useDynamicLighting and: depthQuality
-    private: char __padding29[0x3] = {};
-    public:
+    char __padding29[0x3] = {};
     // [HideInInspector] Offset: 0xD8628C
     // [TooltipAttribute] Offset: 0xD8628C
     // public OVRManager/DepthQuality depthQuality
@@ -665,8 +662,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: virtualGreenScreenApplyDepthCulling and: virtualGreenScreenDepthTolerance
-    private: char __padding36[0x3] = {};
-    public:
+    char __padding36[0x3] = {};
     // [HideInInspector] Offset: 0xD864A0
     // [TooltipAttribute] Offset: 0xD864A0
     // public System.Single virtualGreenScreenDepthTolerance
@@ -760,8 +756,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: multipleMainCameraWarningPresented and: lastFoundMainCamera
-    private: char __padding49[0x2] = {};
-    public:
+    char __padding49[0x2] = {};
     // private UnityEngine.Camera lastFoundMainCamera
     // Size: 0x8
     // Offset: 0xF0

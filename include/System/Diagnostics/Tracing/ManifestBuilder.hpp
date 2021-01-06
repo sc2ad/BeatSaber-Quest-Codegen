@@ -129,8 +129,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(System::Diagnostics::Tracing::EventManifestOptions) == 0x4);
     // Padding between fields: flags and: errors
-    private: char __padding9[0x4] = {};
-    public:
+    char __padding9[0x4] = {};
     // private System.Collections.Generic.IList`1<System.String> errors
     // Size: 0x8
     // Offset: 0x60
@@ -156,8 +155,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: numParams and: byteArrArgIndices
-    private: char __padding13[0x4] = {};
-    public:
+    char __padding13[0x4] = {};
     // private System.Collections.Generic.List`1<System.Int32> byteArrArgIndices
     // Size: 0x8
     // Offset: 0x80

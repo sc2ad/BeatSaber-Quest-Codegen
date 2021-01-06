@@ -78,8 +78,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_DontRunRestoringResult and: Completed
-    private: char __padding2[0x6] = {};
-    public:
+    char __padding2[0x6] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDE6988
     // private System.EventHandler Completed
     // Size: 0x8
@@ -95,8 +94,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: ResultedInDomainReload and: Context
-    private: char __padding4[0x7] = {};
-    public:
+    char __padding4[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDE69A8
     // private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <Context>k__BackingField
     // Size: 0x8
@@ -126,8 +124,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::Execution::WorkItemState) == 0x4);
     // Padding between fields: State and: Actions
-    private: char __padding8[0x4] = {};
-    public:
+    char __padding8[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDE69E8
     // private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <Actions>k__BackingField
     // Size: 0x8

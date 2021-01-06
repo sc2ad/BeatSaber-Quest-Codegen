@@ -51,8 +51,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: bufOff and: cipher
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // private Org.BouncyCastle.Crypto.IBlockCipher cipher
     // Size: 0x8
     // Offset: 0x30
@@ -66,8 +65,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: macSize and: L
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // private System.Byte[] L
     // Size: 0x8
     // Offset: 0x40

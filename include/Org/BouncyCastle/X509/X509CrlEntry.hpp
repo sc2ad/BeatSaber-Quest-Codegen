@@ -51,8 +51,7 @@ namespace Org::BouncyCastle::X509 {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isIndirect and: previousCertificateIssuer
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // private Org.BouncyCastle.Asn1.X509.X509Name previousCertificateIssuer
     // Size: 0x8
     // Offset: 0x20
@@ -72,8 +71,7 @@ namespace Org::BouncyCastle::X509 {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hashValueSet and: hashValue
-    private: char __padding4[0x3] = {};
-    public:
+    char __padding4[0x3] = {};
     // private System.Int32 hashValue
     // Size: 0x4
     // Offset: 0x34

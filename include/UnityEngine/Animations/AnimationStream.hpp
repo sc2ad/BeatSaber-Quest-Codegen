@@ -29,8 +29,7 @@ namespace UnityEngine::Animations {
     // Field size check
     static_assert(sizeof(uint) == 0x4);
     // Padding between fields: m_AnimatorBindingsVersion and: constant
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.IntPtr constant
     // Size: 0x8
     // Offset: 0x8

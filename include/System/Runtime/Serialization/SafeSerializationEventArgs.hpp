@@ -37,8 +37,7 @@ namespace System::Runtime::Serialization {
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::StreamingContext) == 0xC);
     // Padding between fields: m_streamingContext and: m_serializedStates
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.Collections.Generic.List`1<System.Object> m_serializedStates
     // Size: 0x8
     // Offset: 0x20

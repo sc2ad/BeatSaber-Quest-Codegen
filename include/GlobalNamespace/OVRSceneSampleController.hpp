@@ -42,8 +42,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::KeyCode) == 0x4);
     // Padding between fields: quitKey and: fadeInTexture
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public UnityEngine.Texture fadeInTexture
     // Size: 0x8
     // Offset: 0x20
@@ -57,8 +56,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: speedRotationIncrement and: playerController
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private OVRPlayerController playerController
     // Size: 0x8
     // Offset: 0x30
@@ -84,8 +82,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: visionMode and: gridCube
-    private: char __padding6[0x7] = {};
-    public:
+    char __padding6[0x7] = {};
     // private OVRGridCube gridCube
     // Size: 0x8
     // Offset: 0x50

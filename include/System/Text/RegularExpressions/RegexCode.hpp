@@ -54,8 +54,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: trackcount and: caps
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // System.Collections.Hashtable _caps
     // Size: 0x8
     // Offset: 0x28
@@ -69,8 +68,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: capsize and: fcPrefix
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // System.Text.RegularExpressions.RegexPrefix _fcPrefix
     // Size: 0x8
     // Offset: 0x38

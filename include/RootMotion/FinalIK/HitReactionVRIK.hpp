@@ -31,8 +31,7 @@ namespace RootMotion::FinalIK {
   class HitReactionVRIK : public RootMotion::FinalIK::OffsetModifierVRIK {
     public:
     // Writing base type padding for base size: 0x2C to desired offset: 0x30
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // Nested type: RootMotion::FinalIK::HitReactionVRIK::Offset
     class Offset;
     // Nested type: RootMotion::FinalIK::HitReactionVRIK::PositionOffset

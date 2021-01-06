@@ -34,8 +34,7 @@ namespace MasterServer {
   class BaseConnectToServerRequest : public GlobalNamespace::BaseMasterServerReliableRequest/*, public MasterServer::IUserClientToServerMessage*/ {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDAA634
     // private System.String <userId>k__BackingField
     // Size: 0x8

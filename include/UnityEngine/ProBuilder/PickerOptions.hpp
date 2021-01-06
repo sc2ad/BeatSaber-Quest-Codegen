@@ -26,8 +26,7 @@ namespace UnityEngine::ProBuilder {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: depthTest and: rectSelectMode
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDE50DC
     // private UnityEngine.ProBuilder.RectSelectMode <rectSelectMode>k__BackingField
     // Size: 0x4

@@ -60,8 +60,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::EmitParams) == 0x8F);
     // Padding between fields: sparklesPSEmitParams and: sparklesPSMainModule
-    private: char __padding3[0x1] = {};
-    public:
+    char __padding3[0x1] = {};
     // private UnityEngine.ParticleSystem/MainModule _sparklesPSMainModule
     // Size: 0x8
     // Offset: 0xC0
@@ -87,8 +86,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::EmitParams) == 0x8F);
     // Padding between fields: explosionPSEmitParams and: explosionCoresPSEmitParams
-    private: char __padding7[0x1] = {};
-    public:
+    char __padding7[0x1] = {};
     // private UnityEngine.ParticleSystem/EmitParams _explosionCoresPSEmitParams
     // Size: 0x8F
     // Offset: 0x168
@@ -96,8 +94,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::EmitParams) == 0x8F);
     // Padding between fields: explosionCoresPSEmitParams and: sparklesLifetimeMinMaxCurve
-    private: char __padding8[0x1] = {};
-    public:
+    char __padding8[0x1] = {};
     // private UnityEngine.ParticleSystem/MinMaxCurve _sparklesLifetimeMinMaxCurve
     // Size: 0x20
     // Offset: 0x1F8

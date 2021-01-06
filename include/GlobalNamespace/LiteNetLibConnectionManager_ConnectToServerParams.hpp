@@ -27,8 +27,7 @@ namespace GlobalNamespace {
   class LiteNetLibConnectionManager::ConnectToServerParams : public GlobalNamespace::LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase {
     public:
     // Writing base type padding for base size: 0x34 to desired offset: 0x38
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // public System.Net.IPEndPoint endPoint
     // Size: 0x8
     // Offset: 0x38

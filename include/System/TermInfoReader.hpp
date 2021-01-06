@@ -43,8 +43,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(int16_t) == 0x2);
     // Padding between fields: strOffsets and: buffer
-    private: char __padding2[0x2] = {};
-    public:
+    char __padding2[0x2] = {};
     // private System.Byte[] buffer
     // Size: 0x8
     // Offset: 0x18

@@ -49,8 +49,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: trimmed and: spriteSourceSize
-    private: char __padding3[0x2] = {};
-    public:
+    char __padding3[0x2] = {};
     // public TMPro.SpriteAssetUtilities.TexturePacker/SpriteFrame spriteSourceSize
     // Size: 0x10
     // Offset: 0x1C

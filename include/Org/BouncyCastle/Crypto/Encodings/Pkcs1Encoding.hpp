@@ -60,8 +60,7 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useStrictLength and: pLen
-    private: char __padding4[0x1] = {};
-    public:
+    char __padding4[0x1] = {};
     // private System.Int32 pLen
     // Size: 0x4
     // Offset: 0x24

@@ -45,8 +45,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: maintainRotationWeight and: boneMap
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private RootMotion.FinalIK.IKMapping/BoneMap boneMap
     // Size: 0x8
     // Offset: 0x20

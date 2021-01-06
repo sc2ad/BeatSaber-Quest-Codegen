@@ -40,8 +40,7 @@ namespace Oculus::Platform {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: initialPlaybackDelayMS and: audioSource
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public UnityEngine.AudioSource audioSource
     // Size: 0x8
     // Offset: 0x20
@@ -55,8 +54,7 @@ namespace Oculus::Platform {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: peakAmplitude and: pcmSource
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // protected Oculus.Platform.IVoipPCMSource pcmSource
     // Size: 0x8
     // Offset: 0x30

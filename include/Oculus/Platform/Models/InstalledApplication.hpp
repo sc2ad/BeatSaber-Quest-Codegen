@@ -42,8 +42,7 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: VersionCode and: VersionName
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // public readonly System.String VersionName
     // Size: 0x8
     // Offset: 0x30

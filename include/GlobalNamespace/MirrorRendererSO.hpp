@@ -156,8 +156,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: enableBloomPrePass and: bloomPrePassRenderer
-    private: char __padding7[0x6] = {};
-    public:
+    char __padding7[0x6] = {};
     // [SpaceAttribute] Offset: 0xDB1514
     // private BloomPrePassRendererSO _bloomPrePassRenderer
     // Size: 0x8
@@ -196,8 +195,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: antialiasing and: renderTextures
-    private: char __padding13[0x4] = {};
-    public:
+    char __padding13[0x4] = {};
     // private System.Collections.Generic.Dictionary`2<MirrorRendererSO/CameraTransformData,UnityEngine.RenderTexture> _renderTextures
     // Size: 0x8
     // Offset: 0x68

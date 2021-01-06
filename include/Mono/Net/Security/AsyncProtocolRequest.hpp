@@ -62,8 +62,7 @@ namespace Mono::Net::Security {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: RunSynchronously and: UserResult
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD45EEC
     // private System.Int32 <UserResult>k__BackingField
     // Size: 0x4
@@ -90,8 +89,7 @@ namespace Mono::Net::Security {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: WriteRequested and: locker
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // private readonly System.Object locker
     // Size: 0x8
     // Offset: 0x30

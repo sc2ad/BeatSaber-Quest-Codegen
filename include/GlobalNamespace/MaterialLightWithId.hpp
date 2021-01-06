@@ -29,8 +29,7 @@ namespace GlobalNamespace {
   class MaterialLightWithId : public GlobalNamespace::LightWithIdMonoBehaviour {
     public:
     // Writing base type padding for base size: 0x29 to desired offset: 0x30
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // private UnityEngine.MeshRenderer _meshRenderer
     // Size: 0x8
     // Offset: 0x30
@@ -50,8 +49,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: setColorOnly and: colorProperty
-    private: char __padding2[0x6] = {};
-    public:
+    char __padding2[0x6] = {};
     // private System.String _colorProperty
     // Size: 0x8
     // Offset: 0x40

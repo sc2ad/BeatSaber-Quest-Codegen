@@ -58,8 +58,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: objectInfoId and: obj
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // System.Object obj
     // Size: 0x8
     // Offset: 0x18
@@ -97,8 +96,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isArray and: si
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // System.Runtime.Serialization.SerializationInfo si
     // Size: 0x8
     // Offset: 0x30
@@ -130,8 +128,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::StreamingContext) == 0xC);
     // Padding between fields: context and: serObjectInfoInit
-    private: char __padding11[0x4] = {};
-    public:
+    char __padding11[0x4] = {};
     // System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit
     // Size: 0x8
     // Offset: 0x60

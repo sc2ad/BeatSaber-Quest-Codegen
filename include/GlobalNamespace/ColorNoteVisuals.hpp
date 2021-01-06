@@ -50,8 +50,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: arrowGlowIntensity and: noteController
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [SpaceAttribute] Offset: 0xDC57E8
     // private NoteController _noteController
     // Size: 0x8

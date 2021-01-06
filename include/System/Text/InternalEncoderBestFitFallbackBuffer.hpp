@@ -31,8 +31,7 @@ namespace System::Text {
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
     // Padding between fields: cBestFit and: oFallback
-    private: char __padding0[0x6] = {};
-    public:
+    char __padding0[0x6] = {};
     // private System.Text.InternalEncoderBestFitFallback oFallback
     // Size: 0x8
     // Offset: 0x38

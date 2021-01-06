@@ -47,8 +47,7 @@ namespace Zenject {
   class GameObjectContext : public Zenject::RunnableContext {
     public:
     // Writing base type padding for base size: 0x42 to desired offset: 0x48
-    private: char ___base_padding[0x6] = {};
-    public:
+    char ___base_padding[0x6] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD944C8
     // private System.Action PreInstall
     // Size: 0x8

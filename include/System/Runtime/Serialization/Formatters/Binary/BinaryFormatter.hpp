@@ -74,8 +74,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::StreamingContext) == 0xC);
     // Padding between fields: m_context and: m_binder
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // System.Runtime.Serialization.SerializationBinder m_binder
     // Size: 0x8
     // Offset: 0x28
@@ -101,8 +100,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::TypeFilterLevel) == 0x4);
     // Padding between fields: m_securityLevel and: m_crossAppDomainArray
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // System.Object[] m_crossAppDomainArray
     // Size: 0x8
     // Offset: 0x40

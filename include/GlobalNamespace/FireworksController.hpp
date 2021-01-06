@@ -50,8 +50,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: maxSpawnInterval and: fireworkItemPool
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // [InjectAttribute] Offset: 0xDC6820
     // private readonly FireworkItemController/Pool _fireworkItemPool
     // Size: 0x8

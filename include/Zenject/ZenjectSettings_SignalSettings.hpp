@@ -40,8 +40,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: requireStrictUnsubscribe and: defaultAsyncTickPriority
-    private: char __padding2[0x3] = {};
-    public:
+    char __padding2[0x3] = {};
     // private System.Int32 _defaultAsyncTickPriority
     // Size: 0x4
     // Offset: 0x1C

@@ -35,8 +35,7 @@ namespace GlobalNamespace {
   class MissionSelectionNavigationController : public HMUI::NavigationController {
     public:
     // Writing base type padding for base size: 0x94 to desired offset: 0x98
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // Nested type: GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0
     class $$c__DisplayClass11_0;
     // [InjectAttribute] Offset: 0xDD05F0

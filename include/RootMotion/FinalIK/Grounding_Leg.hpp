@@ -38,8 +38,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isGrounded and: IKPosition
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDB8B00
     // private UnityEngine.Vector3 <IKPosition>k__BackingField
     // Size: 0xC
@@ -61,8 +60,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: initiated and: heightFromGround
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDB8B20
     // private System.Single <heightFromGround>k__BackingField
     // Size: 0x4
@@ -78,8 +76,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: velocity and: transform
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDB8B40
     // private UnityEngine.Transform <transform>k__BackingField
     // Size: 0x8
@@ -101,8 +98,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: invertFootCenter and: heelHit
-    private: char __padding8[0x3] = {};
-    public:
+    char __padding8[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDB8B60
     // private UnityEngine.RaycastHit <heelHit>k__BackingField
     // Size: 0x2C
@@ -166,8 +162,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: doOverrideFootPosition and: overrideFootPosition
-    private: char __padding18[0x3] = {};
-    public:
+    char __padding18[0x3] = {};
     // private UnityEngine.Vector3 overrideFootPosition
     // Size: 0xC
     // Offset: 0xFC

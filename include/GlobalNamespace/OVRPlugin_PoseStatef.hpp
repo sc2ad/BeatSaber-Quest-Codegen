@@ -51,8 +51,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRPlugin::Vector3f) == 0xC);
     // Padding between fields: AngularAcceleration and: Time
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // public System.Double Time
     // Size: 0x8
     // Offset: 0x50

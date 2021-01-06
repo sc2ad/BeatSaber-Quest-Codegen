@@ -64,8 +64,7 @@ namespace HMUI {
   class AlphabetScrollbar : public HMUI::Interactable/*, public UnityEngine::EventSystems::IPointerDownHandler, public UnityEngine::EventSystems::IPointerUpHandler, public UnityEngine::EventSystems::IPointerEnterHandler, public UnityEngine::EventSystems::IPointerExitHandler*/ {
     public:
     // Writing base type padding for base size: 0x19 to desired offset: 0x20
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // Nested type: HMUI::AlphabetScrollbar::$PointerMoveInsideCoroutine$d__18
     class $PointerMoveInsideCoroutine$d__18;
     // private HMUI.TableView _tableView
@@ -88,8 +87,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Padding between fields: normalColor and: textPrefab
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // [SpaceAttribute] Offset: 0xDA6630
     // private TMPro.TextMeshProUGUI _textPrefab
     // Size: 0x8

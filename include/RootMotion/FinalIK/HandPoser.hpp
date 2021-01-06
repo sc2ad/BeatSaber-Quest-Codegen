@@ -27,8 +27,7 @@ namespace RootMotion::FinalIK {
   class HandPoser : public RootMotion::FinalIK::Poser {
     public:
     // Writing base type padding for base size: 0x4D to desired offset: 0x50
-    private: char ___base_padding[0x3] = {};
-    public:
+    char ___base_padding[0x3] = {};
     // protected UnityEngine.Transform[] children
     // Size: 0x8
     // Offset: 0x50

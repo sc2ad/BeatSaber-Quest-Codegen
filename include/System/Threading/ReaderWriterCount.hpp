@@ -40,8 +40,7 @@ namespace System::Threading {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: upgradecount and: next
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // public System.Threading.ReaderWriterCount next
     // Size: 0x8
     // Offset: 0x28

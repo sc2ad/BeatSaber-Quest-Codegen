@@ -43,8 +43,7 @@ namespace LeaderboardsDTO {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: rank and: updated
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // public System.DateTime updated
     // Size: 0x8
     // Offset: 0x20

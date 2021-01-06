@@ -189,8 +189,7 @@ namespace System::Net::NetworkInformation {
     // Field size check
     static_assert(sizeof(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS) == 0xC);
     // Padding between fields: Dhcpv4Server and: CompartmentId
-    private: char __padding26[0x4] = {};
-    public:
+    char __padding26[0x4] = {};
     // public System.UInt32 CompartmentId
     // Size: 0x4
     // Offset: 0xC0
@@ -198,8 +197,7 @@ namespace System::Net::NetworkInformation {
     // Field size check
     static_assert(sizeof(uint) == 0x4);
     // Padding between fields: CompartmentId and: NetworkGuid
-    private: char __padding27[0x4] = {};
-    public:
+    char __padding27[0x4] = {};
     // public System.UInt64 NetworkGuid
     // Size: 0x8
     // Offset: 0xC8
@@ -225,8 +223,7 @@ namespace System::Net::NetworkInformation {
     // Field size check
     static_assert(sizeof(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS) == 0xC);
     // Padding between fields: Dhcpv6Server and: Dhcpv6ClientDuid
-    private: char __padding31[0x4] = {};
-    public:
+    char __padding31[0x4] = {};
     // public System.Byte[] Dhcpv6ClientDuid
     // Size: 0x8
     // Offset: 0xE8

@@ -42,8 +42,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isInitial and: count
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // System.Int32 count
     // Size: 0x4
     // Offset: 0x14
@@ -57,8 +56,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum) == 0x4);
     // Padding between fields: expectedType and: expectedTypeInformation
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // System.Object expectedTypeInformation
     // Size: 0x8
     // Offset: 0x20
@@ -90,8 +88,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE) == 0x4);
     // Padding between fields: memberValueEnum and: dtType
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // System.Type dtType
     // Size: 0x8
     // Offset: 0x40

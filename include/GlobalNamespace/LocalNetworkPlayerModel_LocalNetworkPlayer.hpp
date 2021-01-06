@@ -71,8 +71,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isMe and: joinRequestTime
-    private: char __padding4[0x3] = {};
-    public:
+    char __padding4[0x3] = {};
     // private System.Single _joinRequestTime
     // Size: 0x4
     // Offset: 0x34
@@ -98,8 +97,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasBlockedMe and: secret
-    private: char __padding8[0x2] = {};
-    public:
+    char __padding8[0x2] = {};
     // private System.String _secret
     // Size: 0x8
     // Offset: 0x40
@@ -119,8 +117,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isConnected and: connectingStartTime
-    private: char __padding11[0x3] = {};
-    public:
+    char __padding11[0x3] = {};
     // private System.Single _connectingStartTime
     // Size: 0x4
     // Offset: 0x50
@@ -134,8 +131,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkFlags) == 0x1);
     // Padding between fields: flags and: currentPartySize
-    private: char __padding13[0x3] = {};
-    public:
+    char __padding13[0x3] = {};
     // private System.Int32 _currentPartySize
     // Size: 0x4
     // Offset: 0x58

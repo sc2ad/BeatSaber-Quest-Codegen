@@ -28,8 +28,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_Smoothing and: m_SmoothingThreshold
-    private: char __padding1[0x2] = {};
-    public:
+    char __padding1[0x2] = {};
     // private System.Single m_SmoothingThreshold
     // Size: 0x4
     // Offset: 0x14

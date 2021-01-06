@@ -166,8 +166,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: playerSpawningFinished and: playerSpawningDidFinishEvent
-    private: char __padding11[0x7] = {};
-    public:
+    char __padding11[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDCA428
     // private System.Action playerSpawningDidFinishEvent
     // Size: 0x8

@@ -290,8 +290,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasLookedUpContextTransform and: inheritedDefaultParent
-    private: char __padding12[0x7] = {};
-    public:
+    char __padding12[0x7] = {};
     // private UnityEngine.Transform _inheritedDefaultParent
     // Size: 0x8
     // Offset: 0x78
@@ -311,8 +310,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasExplicitDefaultParent and: settings
-    private: char __padding15[0x7] = {};
-    public:
+    char __padding15[0x7] = {};
     // private Zenject.ZenjectSettings _settings
     // Size: 0x8
     // Offset: 0x90

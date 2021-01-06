@@ -37,8 +37,7 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     // Field size check
     static_assert(sizeof(uint) == 0x4);
     // Padding between fields: ifa_flags and: ifa_addr
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // public System.IntPtr ifa_addr
     // Size: 0x8
     // Offset: 0x18

@@ -49,8 +49,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: moveSensitivity and: camera
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private UnityEngine.Camera _camera
     // Size: 0x8
     // Offset: 0x20
@@ -64,8 +63,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: cameraFov and: centerAdjust
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private VRCenterAdjust _centerAdjust
     // Size: 0x8
     // Offset: 0x30

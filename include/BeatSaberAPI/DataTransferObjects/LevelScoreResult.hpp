@@ -47,8 +47,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fullCombo and: goodCutsCount
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // public System.Int32 goodCutsCount
     // Size: 0x4
     // Offset: 0x24
@@ -74,8 +73,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: maxCombo and: gameplayModifiers
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers[] gameplayModifiers
     // Size: 0x8
     // Offset: 0x38

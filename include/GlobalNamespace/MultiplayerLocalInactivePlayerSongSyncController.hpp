@@ -103,8 +103,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: currentObservableIsFailed and: observable
-    private: char __padding9[0x6] = {};
-    public:
+    char __padding9[0x6] = {};
     // private IMultiplayerObservable _observable
     // Size: 0x8
     // Offset: 0x50

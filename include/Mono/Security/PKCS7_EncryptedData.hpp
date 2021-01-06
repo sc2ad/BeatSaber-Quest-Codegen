@@ -31,8 +31,7 @@ namespace Mono::Security {
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
     // Padding between fields: version and: content
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // private Mono.Security.PKCS7/ContentInfo _content
     // Size: 0x8
     // Offset: 0x18

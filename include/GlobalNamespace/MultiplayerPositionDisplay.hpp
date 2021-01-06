@@ -76,8 +76,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: fadeOutDuration and: scoreProvider
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // [InjectAttribute] Offset: 0xDCA4D8
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
@@ -111,8 +110,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: updatingColor and: startColor
-    private: char __padding11[0x1] = {};
-    public:
+    char __padding11[0x1] = {};
     // private UnityEngine.Color _startColor
     // Size: 0x10
     // Offset: 0x74

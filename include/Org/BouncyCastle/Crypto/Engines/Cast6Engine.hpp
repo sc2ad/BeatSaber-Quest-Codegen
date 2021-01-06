@@ -18,8 +18,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   class Cast6Engine : public Org::BouncyCastle::Crypto::Engines::Cast5Engine {
     public:
     // Writing base type padding for base size: 0x34 to desired offset: 0x38
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // private System.Int32[] _Kr
     // Size: 0x8
     // Offset: 0x38

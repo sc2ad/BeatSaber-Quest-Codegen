@@ -31,8 +31,7 @@ namespace System {
   class MulticastDelegate : public System::Delegate {
     public:
     // Writing base type padding for base size: 0x61 to desired offset: 0x68
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // private System.Delegate[] delegates
     // Size: 0x8
     // Offset: 0x68

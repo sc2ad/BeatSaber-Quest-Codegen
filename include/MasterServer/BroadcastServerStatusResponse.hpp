@@ -96,8 +96,7 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(MasterServer::BroadcastServerStatusResponse::Result) == 0x1);
     // Padding between fields: result and: remoteEndPoint
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // public System.Net.IPEndPoint remoteEndPoint
     // Size: 0x8
     // Offset: 0x20

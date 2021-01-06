@@ -24,8 +24,7 @@ namespace Org::BouncyCastle::Asn1 {
   class LimitedInputStream : public Org::BouncyCastle::Utilities::IO::BaseInputStream {
     public:
     // Writing base type padding for base size: 0x29 to desired offset: 0x30
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // protected readonly System.IO.Stream _in
     // Size: 0x8
     // Offset: 0x30

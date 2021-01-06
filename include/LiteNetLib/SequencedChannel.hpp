@@ -45,8 +45,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: reliable and: lastPacket
-    private: char __padding2[0x1] = {};
-    public:
+    char __padding2[0x1] = {};
     // private LiteNetLib.NetPacket _lastPacket
     // Size: 0x8
     // Offset: 0x30
@@ -72,8 +71,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
     // Padding between fields: id and: lastPacketSendTime
-    private: char __padding6[0x6] = {};
-    public:
+    char __padding6[0x6] = {};
     // private System.Int64 _lastPacketSendTime
     // Size: 0x8
     // Offset: 0x48

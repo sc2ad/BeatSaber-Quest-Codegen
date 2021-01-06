@@ -49,8 +49,7 @@ namespace Mono::Security::Cryptography {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_disposed and: p
-    private: char __padding1[0x6] = {};
-    public:
+    char __padding1[0x6] = {};
     // private Mono.Math.BigInteger p
     // Size: 0x8
     // Offset: 0x28
@@ -106,8 +105,7 @@ namespace Mono::Security::Cryptography {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: j_missing and: rng
-    private: char __padding10[0x3] = {};
-    public:
+    char __padding10[0x3] = {};
     // private System.Security.Cryptography.RandomNumberGenerator rng
     // Size: 0x8
     // Offset: 0x68

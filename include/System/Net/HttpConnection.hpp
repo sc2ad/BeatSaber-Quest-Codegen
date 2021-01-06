@@ -230,8 +230,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: chunked and: reuses
-    private: char __padding10[0x3] = {};
-    public:
+    char __padding10[0x3] = {};
     // private System.Int32 reuses
     // Size: 0x4
     // Offset: 0x64
@@ -251,8 +250,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: secure and: cert
-    private: char __padding13[0x6] = {};
-    public:
+    char __padding13[0x6] = {};
     // private System.Security.Cryptography.X509Certificates.X509Certificate cert
     // Size: 0x8
     // Offset: 0x70
@@ -266,8 +264,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: s_timeout and: timer
-    private: char __padding15[0x4] = {};
-    public:
+    char __padding15[0x4] = {};
     // private System.Threading.Timer timer
     // Size: 0x8
     // Offset: 0x80

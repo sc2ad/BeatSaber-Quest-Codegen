@@ -32,8 +32,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: c and: CS$$$8__locals1
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public UnityEngine.ProBuilder.MeshOperations.Bevel/<>c__DisplayClass0_0 CS$<>8__locals1
     // Size: 0x8
     // Offset: 0x18

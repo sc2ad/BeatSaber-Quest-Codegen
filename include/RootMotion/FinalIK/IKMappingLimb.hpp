@@ -80,8 +80,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: updatePlaneRotations and: boneMapParent
-    private: char __padding6[0x7] = {};
-    public:
+    char __padding6[0x7] = {};
     // private RootMotion.FinalIK.IKMapping/BoneMap boneMapParent
     // Size: 0x8
     // Offset: 0x40

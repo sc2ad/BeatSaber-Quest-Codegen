@@ -40,8 +40,7 @@ namespace UnityEngine::XR {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: renderPassIndex and: renderTarget
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // public UnityEngine.Rendering.RenderTargetIdentifier renderTarget
     // Size: 0x24
     // Offset: 0x10
@@ -49,8 +48,7 @@ namespace UnityEngine::XR {
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::RenderTargetIdentifier) == 0x24);
     // Padding between fields: renderTarget and: renderTargetDesc
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // public UnityEngine.RenderTextureDescriptor renderTargetDesc
     // Size: 0x34
     // Offset: 0x38
@@ -64,8 +62,7 @@ namespace UnityEngine::XR {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: shouldFillOutDepth and: cullingPassIndex
-    private: char __padding4[0x3] = {};
-    public:
+    char __padding4[0x3] = {};
     // public System.Int32 cullingPassIndex
     // Size: 0x4
     // Offset: 0x70

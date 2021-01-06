@@ -24,8 +24,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: unfolded and: startBaseRow
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // public System.Int32 startBaseRow
     // Size: 0x4
     // Offset: 0x4

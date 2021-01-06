@@ -57,8 +57,7 @@ namespace System::Net::Http {
     // Field size check
     static_assert(sizeof(System::Net::HttpStatusCode) == 0x4);
     // Padding between fields: statusCode and: version
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private System.Version version
     // Size: 0x8
     // Offset: 0x28
@@ -72,8 +71,7 @@ namespace System::Net::Http {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: disposed and: Content
-    private: char __padding4[0x7] = {};
-    public:
+    char __padding4[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD9BF18
     // private System.Net.Http.HttpContent <Content>k__BackingField
     // Size: 0x8

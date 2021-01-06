@@ -83,8 +83,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_IsCorrelationMgr and: sendHeaders
-    private: char __padding4[0x7] = {};
-    public:
+    char __padding4[0x7] = {};
     // private System.Runtime.Remoting.Messaging.Header[] _sendHeaders
     // Size: 0x8
     // Offset: 0x38

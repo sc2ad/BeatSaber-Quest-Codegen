@@ -75,8 +75,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_moveHandPosition and: m_gripTransform
-    private: char __padding4[0x5] = {};
-    public:
+    char __padding4[0x5] = {};
     // protected UnityEngine.Transform m_gripTransform
     // Size: 0x8
     // Offset: 0x28
@@ -96,8 +95,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRInput::Controller) == 0x4);
     // Padding between fields: m_controller and: m_parentTransform
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // protected UnityEngine.Transform m_parentTransform
     // Size: 0x8
     // Offset: 0x40
@@ -117,8 +115,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_grabVolumeEnabled and: m_lastPos
-    private: char __padding10[0x3] = {};
-    public:
+    char __padding10[0x3] = {};
     // protected UnityEngine.Vector3 m_lastPos
     // Size: 0xC
     // Offset: 0x54
@@ -168,8 +165,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Padding between fields: m_grabbedObjectRotOff and: m_grabCandidates
-    private: char __padding18[0x4] = {};
-    public:
+    char __padding18[0x4] = {};
     // protected System.Collections.Generic.Dictionary`2<OVRGrabbable,System.Int32> m_grabCandidates
     // Size: 0x8
     // Offset: 0xB8

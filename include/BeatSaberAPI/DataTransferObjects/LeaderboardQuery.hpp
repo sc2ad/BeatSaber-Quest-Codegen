@@ -44,8 +44,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Field size check
     static_assert(sizeof(BeatSaberAPI::DataTransferObjects::ScoresScope) == 0x4);
     // Padding between fields: scope and: friendsUserIds
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // public System.String[] friendsUserIds
     // Size: 0x8
     // Offset: 0x28
@@ -59,8 +58,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: onlyWithSpecificGameplayModifiers and: gameplayModifiers
-    private: char __padding5[0x7] = {};
-    public:
+    char __padding5[0x7] = {};
     // public BeatSaberAPI.DataTransferObjects.LevelScoreResult/GameplayModifiers[] gameplayModifiers
     // Size: 0x8
     // Offset: 0x38

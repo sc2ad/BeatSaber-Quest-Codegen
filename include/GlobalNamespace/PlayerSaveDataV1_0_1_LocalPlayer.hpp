@@ -50,8 +50,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: shouldShow360Warning and: gameplayModifiers
-    private: char __padding3[0x6] = {};
-    public:
+    char __padding3[0x6] = {};
     // public PlayerSaveDataV1_0_1/GameplayModifiers gameplayModifiers
     // Size: 0x8
     // Offset: 0x28

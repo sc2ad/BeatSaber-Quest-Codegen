@@ -102,8 +102,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fixBone1Twist and: bone1
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // [TooltipAttribute] Offset: 0xDB5750
     // public UnityEngine.Transform bone1
     // Size: 0x8
@@ -147,8 +146,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: initiated and: solver
-    private: char __padding9[0x7] = {};
-    public:
+    char __padding9[0x7] = {};
     // private RootMotion.FinalIK.IKSolverLimb solver
     // Size: 0x8
     // Offset: 0x50

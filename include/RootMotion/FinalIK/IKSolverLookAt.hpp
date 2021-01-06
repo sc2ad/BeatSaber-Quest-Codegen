@@ -105,8 +105,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: clampSmoothing and: spineWeightCurve
-    private: char __padding10[0x4] = {};
-    public:
+    char __padding10[0x4] = {};
     // public UnityEngine.AnimationCurve spineWeightCurve
     // Size: 0x8
     // Offset: 0x98
@@ -120,8 +119,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: spineTargetOffset and: spineForwards
-    private: char __padding12[0x4] = {};
-    public:
+    char __padding12[0x4] = {};
     // protected UnityEngine.Vector3[] spineForwards
     // Size: 0x8
     // Offset: 0xB0

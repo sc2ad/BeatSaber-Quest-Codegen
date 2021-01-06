@@ -75,8 +75,7 @@ namespace System::Net::Http {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: disposed and: headers
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // private System.Net.Http.Headers.HttpContentHeaders headers
     // Size: 0x8
     // Offset: 0x20

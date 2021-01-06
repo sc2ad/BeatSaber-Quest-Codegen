@@ -40,8 +40,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: filterByLevelIds and: beatmapLevelIds
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC34CC
     // private System.Collections.Generic.HashSet`1<System.String> <beatmapLevelIds>k__BackingField
     // Size: 0x8
@@ -57,8 +56,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: filterByOwned and: searchText
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC34EC
     // private System.String <searchText>k__BackingField
     // Size: 0x8
@@ -88,8 +86,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: filterBySongPacks and: filteredSongPacks
-    private: char __padding6[0x5] = {};
-    public:
+    char __padding6[0x5] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC352C
     // private SongPackMask <filteredSongPacks>k__BackingField
     // Size: 0x10
@@ -105,8 +102,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: filterByCharacteristic and: filteredCharacteristic
-    private: char __padding8[0x7] = {};
-    public:
+    char __padding8[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC354C
     // private BeatmapCharacteristicSO <filteredCharacteristic>k__BackingField
     // Size: 0x8
@@ -129,8 +125,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: filterByMinBpm and: filteredMinBpm
-    private: char __padding11[0x2] = {};
-    public:
+    char __padding11[0x2] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC357C
     // private System.Single <filteredMinBpm>k__BackingField
     // Size: 0x4
@@ -146,8 +141,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: filterByMaxBpm and: filteredMaxBpm
-    private: char __padding13[0x3] = {};
-    public:
+    char __padding13[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC359C
     // private System.Single <filteredMaxBpm>k__BackingField
     // Size: 0x4

@@ -39,8 +39,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: tiltSensitivity and: poseLeft
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // [TooltipAttribute] Offset: 0xDB81BC
     // public RootMotion.FinalIK.OffsetPose poseLeft
     // Size: 0x8

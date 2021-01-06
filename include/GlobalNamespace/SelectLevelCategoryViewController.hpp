@@ -130,8 +130,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory) == 0x4);
     // Padding between fields: prevSelectedLevelCategory and: levelCategoryInfos
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // private SelectLevelCategoryViewController/LevelCategoryInfo[] _levelCategoryInfos
     // Size: 0x8
     // Offset: 0x90

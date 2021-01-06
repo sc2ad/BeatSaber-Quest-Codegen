@@ -50,8 +50,7 @@ namespace GlobalNamespace {
   class MultiplayerConnectedPlayerBeatmapObjectManager : public GlobalNamespace::BeatmapObjectManager/*, public System::IDisposable*/ {
     public:
     // Writing base type padding for base size: 0x49 to desired offset: 0x50
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // Nested type: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData
     class InitData;
     // private readonly System.Collections.Generic.HashSet`1<ObstacleController> _emptyObstaclesSet

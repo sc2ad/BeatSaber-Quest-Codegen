@@ -25,8 +25,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: i and: CS$$$8__locals1
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public System.Diagnostics.Tracing.ManifestBuilder/<>c__DisplayClass22_0 CS$<>8__locals1
     // Size: 0x8
     // Offset: 0x18

@@ -57,8 +57,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::EmitParams) == 0x8F);
     // Padding between fields: emitParams and: explosionPSEmitParams
-    private: char __padding4[0x1] = {};
-    public:
+    char __padding4[0x1] = {};
     // private UnityEngine.ParticleSystem/EmitParams _explosionPSEmitParams
     // Size: 0x8F
     // Offset: 0xC0

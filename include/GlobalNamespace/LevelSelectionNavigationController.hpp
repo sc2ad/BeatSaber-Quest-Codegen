@@ -63,8 +63,7 @@ namespace GlobalNamespace {
   class LevelSelectionNavigationController : public HMUI::NavigationController {
     public:
     // Writing base type padding for base size: 0x94 to desired offset: 0x98
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // [InjectAttribute] Offset: 0xDD0060
     // private readonly LevelFilteringNavigationController _levelFilteringNavigationController
     // Size: 0x8
@@ -140,8 +139,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: showPlayerStatsInDetailView and: actionButtonText
-    private: char __padding10[0x5] = {};
-    public:
+    char __padding10[0x5] = {};
     // private System.String _actionButtonText
     // Size: 0x8
     // Offset: 0xE0
@@ -155,8 +153,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficultyMask) == 0x1);
     // Padding between fields: allowedBeatmapDifficultyMask and: notAllowedCharacteristics
-    private: char __padding12[0x7] = {};
-    public:
+    char __padding12[0x7] = {};
     // private BeatmapCharacteristicSO[] _notAllowedCharacteristics
     // Size: 0x8
     // Offset: 0xF0

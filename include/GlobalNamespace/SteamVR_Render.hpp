@@ -64,8 +64,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: lockPhysicsUpdateRateToRenderFrequency and: externalCamera
-    private: char __padding1[0x6] = {};
-    public:
+    char __padding1[0x6] = {};
     // public SteamVR_ExternalCamera externalCamera
     // Size: 0x8
     // Offset: 0x20
@@ -85,8 +84,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(Valve::VR::ETrackingUniverseOrigin) == 0x4);
     // Padding between fields: trackingSpace and: cameras
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private SteamVR_Camera[] cameras
     // Size: 0x8
     // Offset: 0x38

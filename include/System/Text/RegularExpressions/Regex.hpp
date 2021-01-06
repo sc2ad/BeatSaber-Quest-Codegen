@@ -77,8 +77,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(System::Text::RegularExpressions::RegexOptions) == 0x4);
     // Padding between fields: roptions and: internalMatchTimeout
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // [OptionalFieldAttribute] Offset: 0xD45F5C
     // protected internal System.TimeSpan internalMatchTimeout
     // Size: 0x8
@@ -111,8 +110,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: capsize and: runnerref
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // System.Text.RegularExpressions.ExclusiveReference runnerref
     // Size: 0x8
     // Offset: 0x50

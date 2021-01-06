@@ -44,8 +44,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hideByDefault and: showTimeoutPeriod
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // [TooltipAttribute] Offset: 0xD869A4
     // public System.Single showTimeoutPeriod
     // Size: 0x4
@@ -68,8 +67,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: dimOnHideRequest and: depthScaleMultiplier
-    private: char __padding4[0x3] = {};
-    public:
+    char __padding4[0x3] = {};
     // [TooltipAttribute] Offset: 0xD86A4C
     // public System.Single depthScaleMultiplier
     // Size: 0x4
@@ -84,8 +82,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: matchNormalOnPhysicsColliders and: rayTransform
-    private: char __padding6[0x3] = {};
-    public:
+    char __padding6[0x3] = {};
     // public UnityEngine.Transform rayTransform
     // Size: 0x8
     // Offset: 0x38
@@ -100,8 +97,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hidden and: currentScale
-    private: char __padding8[0x3] = {};
-    public:
+    char __padding8[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD86A94
     // private System.Single <currentScale>k__BackingField
     // Size: 0x4
@@ -140,8 +136,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: lastHideRequestTime and: progressIndicator
-    private: char __padding14[0x4] = {};
-    public:
+    char __padding14[0x4] = {};
     // private OVRProgressIndicator progressIndicator
     // Size: 0x8
     // Offset: 0x60

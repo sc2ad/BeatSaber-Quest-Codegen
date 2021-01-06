@@ -45,8 +45,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
     // Padding between fields: character and: index
-    private: char __padding0[0x2] = {};
-    public:
+    char __padding0[0x2] = {};
     // public System.Int32 index
     // Size: 0x4
     // Offset: 0x4
@@ -90,8 +89,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: spriteIndex and: material
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // public UnityEngine.Material material
     // Size: 0x8
     // Offset: 0x30
@@ -111,8 +109,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isUsingAlternateTypeface and: pointSize
-    private: char __padding10[0x3] = {};
-    public:
+    char __padding10[0x3] = {};
     // public System.Single pointSize
     // Size: 0x4
     // Offset: 0x40

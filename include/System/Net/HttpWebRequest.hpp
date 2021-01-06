@@ -171,8 +171,7 @@ namespace System::Net {
       // Field size check
       static_assert(sizeof(bool) == 0x1);
       // Padding between fields: isCompleted and: ntlm_auth_state
-      private: char __padding2[0x2] = {};
-      public:
+      char __padding2[0x2] = {};
       // private System.Net.HttpWebRequest/NtlmAuthState ntlm_auth_state
       // Size: 0x4
       // Offset: 0xC
@@ -247,8 +246,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: allowBuffering and: certificates
-    private: char __padding4[0x5] = {};
-    public:
+    char __padding4[0x5] = {};
     // private System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates
     // Size: 0x8
     // Offset: 0x38
@@ -268,8 +266,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: haveContentLength and: contentLength
-    private: char __padding7[0x7] = {};
-    public:
+    char __padding7[0x7] = {};
     // private System.Int64 contentLength
     // Size: 0x8
     // Offset: 0x50
@@ -313,8 +310,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: requestSent and: webHeaders
-    private: char __padding14[0x5] = {};
-    public:
+    char __padding14[0x5] = {};
     // private System.Net.WebHeaderCollection webHeaders
     // Size: 0x8
     // Offset: 0x78
@@ -328,8 +324,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: keepAlive and: maxAutoRedirect
-    private: char __padding16[0x3] = {};
-    public:
+    char __padding16[0x3] = {};
     // private System.Int32 maxAutoRedirect
     // Size: 0x4
     // Offset: 0x84
@@ -373,8 +368,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: usedPreAuth and: version
-    private: char __padding23[0x5] = {};
-    public:
+    char __padding23[0x5] = {};
     // private System.Version version
     // Size: 0x8
     // Offset: 0xA8
@@ -388,8 +382,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: force_version and: actualVersion
-    private: char __padding25[0x7] = {};
-    public:
+    char __padding25[0x7] = {};
     // private System.Version actualVersion
     // Size: 0x8
     // Offset: 0xB8
@@ -409,8 +402,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: sendChunked and: servicePoint
-    private: char __padding28[0x7] = {};
-    public:
+    char __padding28[0x7] = {};
     // private System.Net.ServicePoint servicePoint
     // Size: 0x8
     // Offset: 0xD0
@@ -424,8 +416,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: timeout and: writeStream
-    private: char __padding30[0x4] = {};
-    public:
+    char __padding30[0x4] = {};
     // private System.Net.WebConnectionStream writeStream
     // Size: 0x8
     // Offset: 0xE0
@@ -469,8 +460,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: gotRequestStream and: redirects
-    private: char __padding37[0x3] = {};
-    public:
+    char __padding37[0x3] = {};
     // private System.Int32 redirects
     // Size: 0x4
     // Offset: 0x110
@@ -484,8 +474,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: expectContinue and: bodyBuffer
-    private: char __padding39[0x3] = {};
-    public:
+    char __padding39[0x3] = {};
     // private System.Byte[] bodyBuffer
     // Size: 0x8
     // Offset: 0x118
@@ -505,8 +494,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: getResponseCalled and: saved_exc
-    private: char __padding42[0x3] = {};
-    public:
+    char __padding42[0x3] = {};
     // private System.Exception saved_exc
     // Size: 0x8
     // Offset: 0x128
@@ -526,8 +514,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: finished_reading and: WebConnection
-    private: char __padding45[0x7] = {};
-    public:
+    char __padding45[0x7] = {};
     // System.Net.WebConnection WebConnection
     // Size: 0x8
     // Offset: 0x140
@@ -609,8 +596,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: ReuseConnection and: StoredConnection
-    private: char __padding58[0x5] = {};
-    public:
+    char __padding58[0x5] = {};
     // System.Net.WebConnection StoredConnection
     // Size: 0x8
     // Offset: 0x1A0

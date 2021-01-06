@@ -38,8 +38,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: index and: CS$$$8__locals1
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public OculusPlatformUserModel/<>c__DisplayClass5_0 CS$<>8__locals1
     // Size: 0x8
     // Offset: 0x18

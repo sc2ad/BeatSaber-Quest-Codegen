@@ -45,8 +45,7 @@ namespace Org::BouncyCastle::Crypto {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: forEncryption and: cipher
-    private: char __padding2[0x3] = {};
-    public:
+    char __padding2[0x3] = {};
     // Org.BouncyCastle.Crypto.IBlockCipher cipher
     // Size: 0x8
     // Offset: 0x20

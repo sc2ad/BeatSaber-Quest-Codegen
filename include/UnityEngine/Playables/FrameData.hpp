@@ -140,8 +140,7 @@ namespace UnityEngine::Playables {
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::FrameData::Flags) == 0x4);
     // Padding between fields: m_Flags and: m_Output
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // UnityEngine.Playables.PlayableOutput m_Output
     // Size: 0xC
     // Offset: 0x30

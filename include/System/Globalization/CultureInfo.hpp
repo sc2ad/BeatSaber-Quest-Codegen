@@ -66,8 +66,7 @@ namespace System::Globalization {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_isReadOnly and: cultureID
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // private System.Int32 cultureID
     // Size: 0x4
     // Offset: 0x14
@@ -105,8 +104,7 @@ namespace System::Globalization {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_useUserOverride and: numInfo
-    private: char __padding6[0x7] = {};
-    public:
+    char __padding6[0x7] = {};
     // System.Globalization.NumberFormatInfo numInfo
     // Size: 0x8
     // Offset: 0x30
@@ -192,8 +190,7 @@ namespace System::Globalization {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_dataItem and: calendar
-    private: char __padding20[0x4] = {};
-    public:
+    char __padding20[0x4] = {};
     // private System.Globalization.Calendar calendar
     // Size: 0x8
     // Offset: 0xA0
@@ -213,8 +210,7 @@ namespace System::Globalization {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: constructed and: cached_serialized_form
-    private: char __padding23[0x7] = {};
-    public:
+    char __padding23[0x7] = {};
     // System.Byte[] cached_serialized_form
     // Size: 0x8
     // Offset: 0xB8

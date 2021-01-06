@@ -100,8 +100,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: initialized and: notePlane
-    private: char __padding8[0x2] = {};
-    public:
+    char __padding8[0x2] = {};
     // private UnityEngine.Plane _notePlane
     // Size: 0x10
     // Offset: 0x4C
@@ -115,8 +114,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: notePlaneWasCut and: noteForward
-    private: char __padding10[0x3] = {};
-    public:
+    char __padding10[0x3] = {};
     // private UnityEngine.Vector3 _noteForward
     // Size: 0xC
     // Offset: 0x60

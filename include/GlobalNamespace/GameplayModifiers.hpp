@@ -240,8 +240,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: noBombs and: songSpeed
-    private: char __padding11[0x2] = {};
-    public:
+    char __padding11[0x2] = {};
     // private GameplayModifiers/SongSpeed _songSpeed
     // Size: 0x4
     // Offset: 0x24

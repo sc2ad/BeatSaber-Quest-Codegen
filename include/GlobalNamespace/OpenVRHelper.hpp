@@ -200,8 +200,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: didGetNodeStatesThisFrame and: disabledEventSystem
-    private: char __padding10[0x7] = {};
-    public:
+    char __padding10[0x7] = {};
     // private UnityEngine.EventSystems.EventSystem _disabledEventSystem
     // Size: 0x8
     // Offset: 0x70

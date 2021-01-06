@@ -26,8 +26,7 @@ namespace UnityEngine::EventSystems {
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::EventTriggerType) == 0x4);
     // Padding between fields: eventID and: callback
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public UnityEngine.EventSystems.EventTrigger/TriggerEvent callback
     // Size: 0x8
     // Offset: 0x18

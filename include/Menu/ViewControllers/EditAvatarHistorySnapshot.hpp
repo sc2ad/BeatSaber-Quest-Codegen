@@ -32,8 +32,7 @@ namespace Menu::ViewControllers {
     // Field size check
     static_assert(sizeof(GlobalNamespace::EditAvatarViewController::AvatarEditPart) == 0x4);
     // Padding between fields: avatarEditPart and: avatarData
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDD34B0
     // private readonly AvatarData <avatarData>k__BackingField
     // Size: 0x8

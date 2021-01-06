@@ -88,8 +88,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: sSet and: emBits
-    private: char __padding8[0x3] = {};
-    public:
+    char __padding8[0x3] = {};
     // private System.Int32 emBits
     // Size: 0x4
     // Offset: 0x48
@@ -97,8 +96,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: emBits and: salt
-    private: char __padding9[0x4] = {};
-    public:
+    char __padding9[0x4] = {};
     // private System.Byte[] salt
     // Size: 0x8
     // Offset: 0x50

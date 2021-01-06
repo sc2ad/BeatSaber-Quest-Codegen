@@ -88,8 +88,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: resetToDefaultsSpeed and: characterCollider
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // [HeaderAttribute] Offset: 0xDB7598
     // [TooltipAttribute] Offset: 0xDB7598
     // [FormerlySerializedAsAttribute] Offset: 0xDB7598
@@ -183,8 +182,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(UnityEngine::RaycastHit) == 0x2C);
     // Padding between fields: raycastHit and: fullBody
-    private: char __padding17[0x4] = {};
-    public:
+    char __padding17[0x4] = {};
     // [SpaceAttribute] Offset: 0xDB76FC
     // [TooltipAttribute] Offset: 0xDB76FC
     // private RootMotion.FinalIK.FullBodyBipedIK fullBody
@@ -213,8 +211,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: initiated and: lastCollider
-    private: char __padding21[0x7] = {};
-    public:
+    char __padding21[0x7] = {};
     // private UnityEngine.Collider lastCollider
     // Size: 0x8
     // Offset: 0xE0

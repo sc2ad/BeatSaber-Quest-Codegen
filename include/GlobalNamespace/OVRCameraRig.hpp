@@ -130,8 +130,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: skipUpdate and: trackingSpaceName
-    private: char __padding13[0x4] = {};
-    public:
+    char __padding13[0x4] = {};
     // protected readonly System.String trackingSpaceName
     // Size: 0x8
     // Offset: 0x70

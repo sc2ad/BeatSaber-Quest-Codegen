@@ -59,8 +59,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberType) == 0x4);
     // Padding between fields: saberType and: particleSystem
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private UnityEngine.ParticleSystem _particleSystem
     // Size: 0x8
     // Offset: 0x28
@@ -80,8 +79,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: activationDuration and: ringGLowImages
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private UnityEngine.UI.Image[] _ringGLowImages
     // Size: 0x8
     // Offset: 0x40
@@ -102,8 +100,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: highlighted and: emitNextParticleTimer
-    private: char __padding7[0x3] = {};
-    public:
+    char __padding7[0x3] = {};
     // private System.Single _emitNextParticleTimer
     // Size: 0x4
     // Offset: 0x54
@@ -117,8 +114,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: activationProgress and: sabersInside
-    private: char __padding9[0x4] = {};
-    public:
+    char __padding9[0x4] = {};
     // private readonly System.Collections.Generic.HashSet`1<SaberType> _sabersInside
     // Size: 0x8
     // Offset: 0x60

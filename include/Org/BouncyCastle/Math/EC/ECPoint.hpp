@@ -72,8 +72,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_withCompression and: m_preCompTable
-    private: char __padding4[0x7] = {};
-    public:
+    char __padding4[0x7] = {};
     // protected internal System.Collections.IDictionary m_preCompTable
     // Size: 0x8
     // Offset: 0x38

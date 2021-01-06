@@ -26,8 +26,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_RenderTextureInstanceID and: m_BufferPtr
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // System.IntPtr m_BufferPtr
     // Size: 0x8
     // Offset: 0x8

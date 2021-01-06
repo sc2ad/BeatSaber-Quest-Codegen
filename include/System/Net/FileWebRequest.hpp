@@ -85,8 +85,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(System::IO::FileAccess) == 0x4);
     // Padding between fields: m_fileAccess and: m_headers
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // private System.Net.WebHeaderCollection m_headers
     // Size: 0x8
     // Offset: 0x40
@@ -106,8 +105,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_preauthenticate and: m_proxy
-    private: char __padding6[0x7] = {};
-    public:
+    char __padding6[0x7] = {};
     // private System.Net.IWebProxy m_proxy
     // Size: 0x8
     // Offset: 0x58
@@ -127,8 +125,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_readPending and: m_response
-    private: char __padding9[0x7] = {};
-    public:
+    char __padding9[0x7] = {};
     // private System.Net.WebResponse m_response
     // Size: 0x8
     // Offset: 0x70
@@ -148,8 +145,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_syncHint and: m_timeout
-    private: char __padding12[0x3] = {};
-    public:
+    char __padding12[0x3] = {};
     // private System.Int32 m_timeout
     // Size: 0x4
     // Offset: 0x84
@@ -175,8 +171,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_writing and: m_WriteAResult
-    private: char __padding16[0x6] = {};
-    public:
+    char __padding16[0x6] = {};
     // private System.Net.LazyAsyncResult m_WriteAResult
     // Size: 0x8
     // Offset: 0x98

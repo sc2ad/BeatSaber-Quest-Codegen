@@ -48,8 +48,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(System::Diagnostics::Tracing::EventCommand) == 0x4);
     // Padding between fields: Command and: Arguments
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD3F1A8
     // private System.Collections.Generic.IDictionary`2<System.String,System.String> <Arguments>k__BackingField
     // Size: 0x8
@@ -94,8 +93,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: enable and: level
-    private: char __padding7[0x3] = {};
-    public:
+    char __padding7[0x3] = {};
     // System.Diagnostics.Tracing.EventLevel level
     // Size: 0x4
     // Offset: 0x44

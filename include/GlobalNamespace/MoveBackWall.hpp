@@ -38,8 +38,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: fadeInRegion and: meshRenderer
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private UnityEngine.MeshRenderer _meshRenderer
     // Size: 0x8
     // Offset: 0x20
@@ -66,8 +65,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isVisible and: material
-    private: char __padding4[0x3] = {};
-    public:
+    char __padding4[0x3] = {};
     // private UnityEngine.Material _material
     // Size: 0x8
     // Offset: 0x38

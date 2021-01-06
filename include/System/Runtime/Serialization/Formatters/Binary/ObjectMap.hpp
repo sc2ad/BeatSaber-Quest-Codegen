@@ -89,8 +89,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isInitObjectInfo and: objectReader
-    private: char __padding7[0x7] = {};
-    public:
+    char __padding7[0x7] = {};
     // System.Runtime.Serialization.Formatters.Binary.ObjectReader objectReader
     // Size: 0x8
     // Offset: 0x50
@@ -104,8 +103,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: objectId and: assemblyInfo
-    private: char __padding9[0x4] = {};
-    public:
+    char __padding9[0x4] = {};
     // System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo assemblyInfo
     // Size: 0x8
     // Offset: 0x60

@@ -52,8 +52,7 @@ namespace System::Text {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_throwOnOverflow and: m_bytesUsed
-    private: char __padding2[0x2] = {};
-    public:
+    char __padding2[0x2] = {};
     // System.Int32 m_bytesUsed
     // Size: 0x4
     // Offset: 0x2C

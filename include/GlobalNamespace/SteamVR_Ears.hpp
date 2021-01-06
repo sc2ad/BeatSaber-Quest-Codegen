@@ -38,8 +38,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: usingSpeakers and: offset
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // private UnityEngine.Quaternion offset
     // Size: 0x10
     // Offset: 0x24

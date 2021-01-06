@@ -66,8 +66,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: bArgsPrimitive and: messageEnum
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // private System.Runtime.Serialization.Formatters.Binary.MessageEnum messageEnum
     // Size: 0x4
     // Offset: 0x3C

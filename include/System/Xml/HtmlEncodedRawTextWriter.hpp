@@ -41,8 +41,7 @@ namespace System::Xml {
   class HtmlEncodedRawTextWriter : public System::Xml::XmlEncodedRawTextWriter {
     public:
     // Writing base type padding for base size: 0xB6 to desired offset: 0xB8
-    private: char ___base_padding[0x2] = {};
-    public:
+    char ___base_padding[0x2] = {};
     // protected System.Xml.ByteStack elementScope
     // Size: 0x8
     // Offset: 0xB8
@@ -68,8 +67,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: endsWithAmpersand and: uriEscapingBuffer
-    private: char __padding3[0x7] = {};
-    public:
+    char __padding3[0x7] = {};
     // private System.Byte[] uriEscapingBuffer
     // Size: 0x8
     // Offset: 0xD0

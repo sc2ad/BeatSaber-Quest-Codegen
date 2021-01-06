@@ -37,8 +37,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
     // Padding between fields: version and: userId
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // public System.String userId
     // Size: 0x8
     // Offset: 0x18
@@ -70,8 +69,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
     // Padding between fields: flags and: configuration
-    private: char __padding5[0x7] = {};
-    public:
+    char __padding5[0x7] = {};
     // public GameplayServerConfiguration configuration
     // Size: 0x18
     // Offset: 0x38

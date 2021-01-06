@@ -41,8 +41,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   class DTSweepContext : public UnityEngine::ProBuilder::Poly2Tri::TriangulationContext {
     public:
     // Writing base type padding for base size: 0x3D to desired offset: 0x40
-    private: char ___base_padding[0x3] = {};
-    public:
+    char ___base_padding[0x3] = {};
     // private readonly System.Single ALPHA
     // Size: 0x4
     // Offset: 0x40
@@ -50,8 +49,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: ALPHA and: Front
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public UnityEngine.ProBuilder.Poly2Tri.AdvancingFront Front
     // Size: 0x8
     // Offset: 0x48

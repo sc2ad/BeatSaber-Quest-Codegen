@@ -64,8 +64,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: cl_set and: cookies
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // private System.Net.CookieCollection cookies
     // Size: 0x8
     // Offset: 0x28

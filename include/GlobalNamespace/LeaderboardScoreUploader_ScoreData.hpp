@@ -69,8 +69,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fullCombo and: goodCutsCount
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDD386C
     // private System.Int32 <goodCutsCount>k__BackingField
     // Size: 0x4

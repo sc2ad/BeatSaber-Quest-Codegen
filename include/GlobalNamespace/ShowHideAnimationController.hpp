@@ -47,8 +47,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: deactivateSelfAfterDelay and: deactivationDelay
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // public System.Single _deactivationDelay
     // Size: 0x4
     // Offset: 0x24
@@ -62,8 +61,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: show and: showAnimatorParam
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // private System.Int32 _showAnimatorParam
     // Size: 0x4
     // Offset: 0x2C

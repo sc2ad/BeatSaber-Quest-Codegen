@@ -32,8 +32,7 @@ namespace UnityEngine::EventSystems {
   class BaseEventData : public UnityEngine::EventSystems::AbstractEventData {
     public:
     // Writing base type padding for base size: 0x11 to desired offset: 0x18
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // private readonly UnityEngine.EventSystems.EventSystem m_EventSystem
     // Size: 0x8
     // Offset: 0x18

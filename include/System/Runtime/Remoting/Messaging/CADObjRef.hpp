@@ -35,8 +35,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: SourceDomain and: TypeInfo
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // System.Byte[] TypeInfo
     // Size: 0x8
     // Offset: 0x20

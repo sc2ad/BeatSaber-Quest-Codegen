@@ -35,8 +35,7 @@ namespace RootMotion::FinalIK {
   class GrounderQuadruped : public RootMotion::FinalIK::Grounder {
     public:
     // Writing base type padding for base size: 0x39 to desired offset: 0x40
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // Nested type: RootMotion::FinalIK::GrounderQuadruped::Foot
     struct Foot;
     // [TooltipAttribute] Offset: 0xDB5BFC
@@ -100,8 +99,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: maintainHeadRotationWeight and: characterRoot
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // [TooltipAttribute] Offset: 0xDB5E34
     // public UnityEngine.Transform characterRoot
     // Size: 0x8
@@ -150,8 +148,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: gravity and: feet
-    private: char __padding14[0x4] = {};
-    public:
+    char __padding14[0x4] = {};
     // private RootMotion.FinalIK.GrounderQuadruped/Foot[] feet
     // Size: 0x8
     // Offset: 0xA8
@@ -207,8 +204,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: solved and: angle
-    private: char __padding23[0x3] = {};
-    public:
+    char __padding23[0x3] = {};
     // private System.Single angle
     // Size: 0x4
     // Offset: 0x110
@@ -216,8 +212,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: angle and: forefeetRoot
-    private: char __padding24[0x4] = {};
-    public:
+    char __padding24[0x4] = {};
     // private UnityEngine.Transform forefeetRoot
     // Size: 0x8
     // Offset: 0x118
@@ -237,8 +232,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: lastWeight and: characterRootRigidbody
-    private: char __padding27[0x4] = {};
-    public:
+    char __padding27[0x4] = {};
     // private UnityEngine.Rigidbody characterRootRigidbody
     // Size: 0x8
     // Offset: 0x138

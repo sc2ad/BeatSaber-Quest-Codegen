@@ -91,8 +91,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: path_changed and: loader_optimization
-    private: char __padding11[0x2] = {};
-    public:
+    char __padding11[0x2] = {};
     // private System.Int32 loader_optimization
     // Size: 0x4
     // Offset: 0x64
@@ -112,8 +111,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: disallow_code_downloads and: activationArguments
-    private: char __padding14[0x6] = {};
-    public:
+    char __padding14[0x6] = {};
     // private System.Object _activationArguments
     // Size: 0x8
     // Offset: 0x70
@@ -145,8 +143,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: disallow_appbase_probe and: configuration_bytes
-    private: char __padding19[0x7] = {};
-    public:
+    char __padding19[0x7] = {};
     // private System.Byte[] configuration_bytes
     // Size: 0x8
     // Offset: 0x98

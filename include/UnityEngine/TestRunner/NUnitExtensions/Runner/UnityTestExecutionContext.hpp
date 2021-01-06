@@ -94,8 +94,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: assertCount and: Context
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDE6818
     // private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <Context>k__BackingField
     // Size: 0x8
@@ -145,8 +144,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::TestExecutionStatus) == 0x4);
     // Padding between fields: executionStatus and: UpstreamActions
-    private: char __padding9[0x4] = {};
-    public:
+    char __padding9[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDE6878
     // private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <UpstreamActions>k__BackingField
     // Size: 0x8
@@ -162,8 +160,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: TestCaseTimeout and: CurrentCulture
-    private: char __padding11[0x4] = {};
-    public:
+    char __padding11[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDE6898
     // private System.Globalization.CultureInfo <CurrentCulture>k__BackingField
     // Size: 0x8
@@ -200,8 +197,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: StopOnError and: Dispatcher
-    private: char __padding16[0x7] = {};
-    public:
+    char __padding16[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDE68E8
     // private NUnit.Framework.Internal.Execution.IWorkItemDispatcher <Dispatcher>k__BackingField
     // Size: 0x8
@@ -217,8 +213,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Field size check
     static_assert(sizeof(NUnit::Framework::ParallelScope) == 0x4);
     // Padding between fields: ParallelScope and: WorkerId
-    private: char __padding18[0x4] = {};
-    public:
+    char __padding18[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDE6908
     // private System.String <WorkerId>k__BackingField
     // Size: 0x8
@@ -248,8 +243,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: IsSingleThreaded and: SetUpTearDownState
-    private: char __padding22[0x7] = {};
-    public:
+    char __padding22[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDE6948
     // private UnityEngine.TestTools.BeforeAfterTestCommandState <SetUpTearDownState>k__BackingField
     // Size: 0x8

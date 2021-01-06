@@ -38,8 +38,7 @@ namespace System::Diagnostics {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: needIndent and: listenerName
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // private System.String listenerName
     // Size: 0x8
     // Offset: 0x28

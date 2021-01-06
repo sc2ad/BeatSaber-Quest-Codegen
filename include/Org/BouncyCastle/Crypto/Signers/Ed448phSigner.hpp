@@ -52,8 +52,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: forSigning and: privateKey
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // private Org.BouncyCastle.Crypto.Parameters.Ed448PrivateKeyParameters privateKey
     // Size: 0x8
     // Offset: 0x28

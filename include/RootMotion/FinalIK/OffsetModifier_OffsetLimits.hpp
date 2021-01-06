@@ -67,8 +67,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: z and: minX
-    private: char __padding4[0x1] = {};
-    public:
+    char __padding4[0x1] = {};
     // [TooltipAttribute] Offset: 0xDBB2F4
     // public System.Single minX
     // Size: 0x4

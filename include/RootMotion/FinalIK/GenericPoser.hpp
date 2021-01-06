@@ -28,8 +28,7 @@ namespace RootMotion::FinalIK {
   class GenericPoser : public RootMotion::FinalIK::Poser {
     public:
     // Writing base type padding for base size: 0x4D to desired offset: 0x50
-    private: char ___base_padding[0x3] = {};
-    public:
+    char ___base_padding[0x3] = {};
     // Nested type: RootMotion::FinalIK::GenericPoser::Map
     class Map;
     // public RootMotion.FinalIK.GenericPoser/Map[] maps

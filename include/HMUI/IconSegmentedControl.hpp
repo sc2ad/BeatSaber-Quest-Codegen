@@ -52,8 +52,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: overrideCellSize and: padding
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // [DrawIfAttribute] Offset: 0xDA6890
     // private System.Single _padding
     // Size: 0x4
@@ -68,8 +67,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hideCellBackground and: firstCellPrefab
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // [SpaceAttribute] Offset: 0xDA6948
     // private HMUI.IconSegmentedControlCell _firstCellPrefab
     // Size: 0x8

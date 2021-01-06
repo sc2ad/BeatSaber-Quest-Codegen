@@ -112,8 +112,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: fadeOutStrengthShaderPropertyID and: sabers
-    private: char __padding9[0x4] = {};
-    public:
+    char __padding9[0x4] = {};
     // private Saber[] _sabers
     // Size: 0x8
     // Offset: 0x58
@@ -169,8 +168,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::EmitParams) == 0x8F);
     // Padding between fields: emitParams and: fadeOutMaterial
-    private: char __padding18[0x1] = {};
-    public:
+    char __padding18[0x1] = {};
     // private UnityEngine.Material _fadeOutMaterial
     // Size: 0x8
     // Offset: 0x130

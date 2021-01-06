@@ -29,8 +29,7 @@ namespace RootMotion::FinalIK {
   class HitReaction : public RootMotion::FinalIK::OffsetModifier {
     public:
     // Writing base type padding for base size: 0x2C to desired offset: 0x30
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // Nested type: RootMotion::FinalIK::HitReaction::HitPoint
     class HitPoint;
     // Nested type: RootMotion::FinalIK::HitReaction::HitPointEffector

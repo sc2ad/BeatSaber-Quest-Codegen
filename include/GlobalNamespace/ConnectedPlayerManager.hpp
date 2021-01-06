@@ -262,8 +262,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: syncTimeDelay and: connectionManager
-    private: char __padding11[0x4] = {};
-    public:
+    char __padding11[0x4] = {};
     // private readonly IConnectionManager _connectionManager
     // Size: 0x8
     // Offset: 0x70
@@ -319,8 +318,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
     // Padding between fields: lastConnectionId and: lastSyncTimeUpdate
-    private: char __padding20[0x3] = {};
-    public:
+    char __padding20[0x3] = {};
     // private System.Single _lastSyncTimeUpdate
     // Size: 0x4
     // Offset: 0x11C
@@ -334,8 +332,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: lastPollTime and: messageSerializer
-    private: char __padding22[0x4] = {};
-    public:
+    char __padding22[0x4] = {};
     // private readonly NetworkPacketSerializer`2<ConnectedPlayerManager/InternalMessageType,IConnectedPlayer> _messageSerializer
     // Size: 0x8
     // Offset: 0x128

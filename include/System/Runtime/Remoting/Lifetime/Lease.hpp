@@ -54,8 +54,7 @@ namespace System::Runtime::Remoting::Lifetime {
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Lifetime::LeaseState) == 0x4);
     // Padding between fields: currentState and: initialLeaseTime
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private System.TimeSpan _initialLeaseTime
     // Size: 0x8
     // Offset: 0x28

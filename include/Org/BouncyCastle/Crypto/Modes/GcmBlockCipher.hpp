@@ -64,8 +64,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: initialised and: macSize
-    private: char __padding4[0x2] = {};
-    public:
+    char __padding4[0x2] = {};
     // private System.Int32 macSize
     // Size: 0x4
     // Offset: 0x2C
@@ -169,8 +168,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: atBlockPos and: atLength
-    private: char __padding21[0x4] = {};
-    public:
+    char __padding21[0x4] = {};
     // private System.UInt64 atLength
     // Size: 0x8
     // Offset: 0xA8

@@ -92,8 +92,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_isDefaultMaterial and: m_padding
-    private: char __padding6[0x3] = {};
-    public:
+    char __padding6[0x3] = {};
     // private System.Single m_padding
     // Size: 0x4
     // Offset: 0xF4
@@ -131,8 +130,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_materialDirty and: m_materialReferenceIndex
-    private: char __padding12[0x2] = {};
-    public:
+    char __padding12[0x2] = {};
     // private System.Int32 m_materialReferenceIndex
     // Size: 0x4
     // Offset: 0x114

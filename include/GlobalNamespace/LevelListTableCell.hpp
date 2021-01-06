@@ -127,8 +127,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: notOwnedAlpha and: refreshingAvailabilityCancellationTokenSource
-    private: char __padding11[0x4] = {};
-    public:
+    char __padding11[0x4] = {};
     // private System.Threading.CancellationTokenSource _refreshingAvailabilityCancellationTokenSource
     // Size: 0x8
     // Offset: 0xC8
@@ -148,8 +147,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: notOwned and: refreshingAvailabilityLevelID
-    private: char __padding14[0x7] = {};
-    public:
+    char __padding14[0x7] = {};
     // private System.String _refreshingAvailabilityLevelID
     // Size: 0x8
     // Offset: 0xE0

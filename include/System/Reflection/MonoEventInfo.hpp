@@ -75,8 +75,7 @@ namespace System::Reflection {
     // Field size check
     static_assert(sizeof(System::Reflection::EventAttributes) == 0x4);
     // Padding between fields: attrs and: other_methods
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // public System.Reflection.MethodInfo[] other_methods
     // Size: 0x8
     // Offset: 0x38

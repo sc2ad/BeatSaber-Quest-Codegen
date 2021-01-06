@@ -53,8 +53,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
     // Padding between fields: beatmapDifficulty and: missionObjectives
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private MissionObjective[] _missionObjectives
     // Size: 0x8
     // Offset: 0x30

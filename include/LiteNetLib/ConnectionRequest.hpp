@@ -53,8 +53,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: used and: Data
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // public readonly LiteNetLib.Utils.NetDataReader Data
     // Size: 0x8
     // Offset: 0x20
@@ -69,8 +68,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(LiteNetLib::ConnectionRequestResult) == 0x4);
     // Padding between fields: Result and: ConnectionTime
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // System.Int64 ConnectionTime
     // Size: 0x8
     // Offset: 0x30
@@ -84,8 +82,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
     // Padding between fields: ConnectionNumber and: RemoteEndPoint
-    private: char __padding5[0x7] = {};
-    public:
+    char __padding5[0x7] = {};
     // public readonly System.Net.IPEndPoint RemoteEndPoint
     // Size: 0x8
     // Offset: 0x40

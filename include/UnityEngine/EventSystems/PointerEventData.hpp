@@ -150,8 +150,7 @@ namespace UnityEngine::EventSystems {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: eligibleForClick and: pointerId
-    private: char __padding8[0x3] = {};
-    public:
+    char __padding8[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD7F684
     // private System.Int32 <pointerId>k__BackingField
     // Size: 0x4
@@ -230,8 +229,7 @@ namespace UnityEngine::EventSystems {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: dragging and: button
-    private: char __padding19[0x2] = {};
-    public:
+    char __padding19[0x2] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD7F734
     // private UnityEngine.EventSystems.PointerEventData/InputButton <button>k__BackingField
     // Size: 0x4

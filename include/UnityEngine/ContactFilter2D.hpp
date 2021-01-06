@@ -63,8 +63,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useOutsideNormalAngle and: layerMask
-    private: char __padding5[0x2] = {};
-    public:
+    char __padding5[0x2] = {};
     // [NativeNameAttribute] Offset: 0xD6AE28
     // public UnityEngine.LayerMask layerMask
     // Size: 0x4

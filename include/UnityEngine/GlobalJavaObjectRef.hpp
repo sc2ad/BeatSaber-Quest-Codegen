@@ -24,8 +24,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_disposed and: m_jobject
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // protected System.IntPtr m_jobject
     // Size: 0x8
     // Offset: 0x18

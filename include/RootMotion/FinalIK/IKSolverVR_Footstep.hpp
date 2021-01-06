@@ -70,8 +70,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isSupportLeg and: stepProgress
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDB935C
     // private System.Single <stepProgress>k__BackingField
     // Size: 0x4

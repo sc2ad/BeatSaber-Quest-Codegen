@@ -62,8 +62,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: disposed and: stream
-    private: char __padding4[0x7] = {};
-    public:
+    char __padding4[0x7] = {};
     // private System.IO.Stream stream
     // Size: 0x8
     // Offset: 0x48

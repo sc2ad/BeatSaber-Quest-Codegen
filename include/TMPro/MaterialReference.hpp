@@ -48,8 +48,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: index and: fontAsset
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public TMPro.TMP_FontAsset fontAsset
     // Size: 0x8
     // Offset: 0x8
@@ -81,8 +80,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isFallbackMaterial and: fallbackMaterial
-    private: char __padding5[0x6] = {};
-    public:
+    char __padding5[0x6] = {};
     // public UnityEngine.Material fallbackMaterial
     // Size: 0x8
     // Offset: 0x28

@@ -51,8 +51,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: inCDataSection and: lookupCDataElems
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // private System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Int32> lookupCDataElems
     // Size: 0x8
     // Offset: 0x30
@@ -96,8 +95,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: inAttr and: systemId
-    private: char __padding8[0x4] = {};
-    public:
+    char __padding8[0x4] = {};
     // private System.String systemId
     // Size: 0x8
     // Offset: 0x50

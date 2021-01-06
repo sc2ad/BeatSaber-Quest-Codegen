@@ -51,8 +51,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: needsConfigureTexture and: eyeDescs
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // private OVRDisplay/EyeRenderDesc[] eyeDescs
     // Size: 0x8
     // Offset: 0x18
@@ -66,8 +65,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: recenterRequested and: recenterRequestedFrameCount
-    private: char __padding2[0x3] = {};
-    public:
+    char __padding2[0x3] = {};
     // private System.Int32 recenterRequestedFrameCount
     // Size: 0x4
     // Offset: 0x24

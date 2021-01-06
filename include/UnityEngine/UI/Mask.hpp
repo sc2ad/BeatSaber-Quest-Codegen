@@ -56,8 +56,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_ShowMaskGraphic and: m_Graphic
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // private UnityEngine.UI.Graphic m_Graphic
     // Size: 0x8
     // Offset: 0x28

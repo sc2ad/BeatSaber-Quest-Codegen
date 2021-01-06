@@ -86,8 +86,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: positive and: specifier
-    private: char __padding6[0x1] = {};
-    public:
+    char __padding6[0x1] = {};
     // private System.Char _specifier
     // Size: 0x2
     // Offset: 0x26

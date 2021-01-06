@@ -43,8 +43,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isEditable and: saberAColor
-    private: char __padding2[0x3] = {};
-    public:
+    char __padding2[0x3] = {};
     // [SpaceAttribute] Offset: 0xD9B0F4
     // private UnityEngine.Color _saberAColor
     // Size: 0x10
@@ -85,8 +84,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: supportsEnvironmentColorBoost and: environmentColor0Boost
-    private: char __padding8[0x3] = {};
-    public:
+    char __padding8[0x3] = {};
     // private UnityEngine.Color _environmentColor0Boost
     // Size: 0x10
     // Offset: 0x78

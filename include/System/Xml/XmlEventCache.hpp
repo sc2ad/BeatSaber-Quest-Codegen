@@ -62,8 +62,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasRootNode and: singleText
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // private System.Xml.Xsl.Runtime.StringConcat singleText
     // Size: 0x34
     // Offset: 0x38
@@ -71,8 +70,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(System::Xml::Xsl::Runtime::StringConcat) == 0x34);
     // Padding between fields: singleText and: baseUri
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private System.String baseUri
     // Size: 0x8
     // Offset: 0x70

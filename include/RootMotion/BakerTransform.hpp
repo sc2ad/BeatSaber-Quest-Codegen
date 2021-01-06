@@ -91,8 +91,7 @@ namespace RootMotion {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: recordPosition and: relativePosition
-    private: char __padding9[0x3] = {};
-    public:
+    char __padding9[0x3] = {};
     // private UnityEngine.Vector3 relativePosition
     // Size: 0xC
     // Offset: 0x5C
@@ -106,8 +105,7 @@ namespace RootMotion {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isRootNode and: relativeRotation
-    private: char __padding11[0x3] = {};
-    public:
+    char __padding11[0x3] = {};
     // private UnityEngine.Quaternion relativeRotation
     // Size: 0x10
     // Offset: 0x6C

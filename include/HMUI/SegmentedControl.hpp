@@ -74,8 +74,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: numberOfCells and: cells
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private readonly System.Collections.Generic.List`1<HMUI.SegmentedControlCell> _cells
     // Size: 0x8
     // Offset: 0x30
@@ -101,8 +100,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: selectedCellNumber and: callbacks
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // private System.Collections.Generic.Dictionary`2<System.Int32,System.Action`1<System.Int32>> _callbacks
     // Size: 0x8
     // Offset: 0x50

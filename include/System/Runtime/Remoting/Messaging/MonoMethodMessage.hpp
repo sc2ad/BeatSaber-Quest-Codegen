@@ -116,8 +116,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Messaging::CallType) == 0x4);
     // Padding between fields: call_type and: uri
-    private: char __padding8[0x4] = {};
-    public:
+    char __padding8[0x4] = {};
     // private System.String uri
     // Size: 0x8
     // Offset: 0x58

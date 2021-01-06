@@ -46,8 +46,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isLookingUp and: subContainer
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // private Zenject.DiContainer _subContainer
     // Size: 0x8
     // Offset: 0x20

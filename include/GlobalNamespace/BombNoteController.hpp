@@ -36,8 +36,7 @@ namespace GlobalNamespace {
   class BombNoteController : public GlobalNamespace::NoteController {
     public:
     // Writing base type padding for base size: 0x71 to desired offset: 0x78
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // Nested type: GlobalNamespace::BombNoteController::Pool
     class Pool;
     // private CuttableBySaber _cuttableBySaber

@@ -67,8 +67,7 @@ namespace System::Runtime::InteropServices {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: PreserveSig and: CallingConvention
-    private: char __padding5[0x1] = {};
-    public:
+    char __padding5[0x1] = {};
     // public System.Runtime.InteropServices.CallingConvention CallingConvention
     // Size: 0x4
     // Offset: 0x28

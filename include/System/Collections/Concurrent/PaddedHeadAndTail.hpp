@@ -23,8 +23,7 @@ namespace System::Collections::Concurrent {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: Head and: Tail
-    private: char __padding0[0x7C] = {};
-    public:
+    char __padding0[0x7C] = {};
     // public System.Int32 Tail
     // Size: 0x4
     // Offset: 0x100

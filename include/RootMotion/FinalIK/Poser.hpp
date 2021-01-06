@@ -25,8 +25,7 @@ namespace RootMotion::FinalIK {
   class Poser : public RootMotion::SolverManager {
     public:
     // Writing base type padding for base size: 0x33 to desired offset: 0x38
-    private: char ___base_padding[0x5] = {};
-    public:
+    char ___base_padding[0x5] = {};
     // public UnityEngine.Transform poseRoot
     // Size: 0x8
     // Offset: 0x38

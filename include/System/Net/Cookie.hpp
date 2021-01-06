@@ -61,8 +61,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_discard and: m_domain
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // private System.String m_domain
     // Size: 0x8
     // Offset: 0x28
@@ -76,8 +75,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_domain_implicit and: m_expires
-    private: char __padding5[0x7] = {};
-    public:
+    char __padding5[0x7] = {};
     // private System.DateTime m_expires
     // Size: 0x8
     // Offset: 0x38
@@ -103,8 +101,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_path_implicit and: m_port
-    private: char __padding9[0x7] = {};
-    public:
+    char __padding9[0x7] = {};
     // private System.String m_port
     // Size: 0x8
     // Offset: 0x58
@@ -118,8 +115,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_port_implicit and: m_port_list
-    private: char __padding11[0x7] = {};
-    public:
+    char __padding11[0x7] = {};
     // private System.Int32[] m_port_list
     // Size: 0x8
     // Offset: 0x68
@@ -140,8 +136,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_httpOnly and: m_timeStamp
-    private: char __padding14[0x6] = {};
-    public:
+    char __padding14[0x6] = {};
     // private System.DateTime m_timeStamp
     // Size: 0x8
     // Offset: 0x78
@@ -161,8 +156,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_version and: m_domainKey
-    private: char __padding17[0x4] = {};
-    public:
+    char __padding17[0x4] = {};
     // private System.String m_domainKey
     // Size: 0x8
     // Offset: 0x90

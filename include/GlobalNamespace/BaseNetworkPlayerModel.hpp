@@ -57,8 +57,7 @@ namespace GlobalNamespace {
   class BaseNetworkPlayerModel : public GlobalNamespace::StandaloneMonobehavior/*, public GlobalNamespace::INetworkPlayerModel*/ {
     public:
     // Writing base type padding for base size: 0x2C to desired offset: 0x30
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // Nested type: GlobalNamespace::BaseNetworkPlayerModel::PartyConfig
     class PartyConfig;
     // Nested type: GlobalNamespace::BaseNetworkPlayerModel::$GetPartyPlayers$d__55
@@ -84,8 +83,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: maxPartySize and: configuration
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private GameplayServerConfiguration _configuration
     // Size: 0x18
     // Offset: 0x48
@@ -100,8 +98,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: discoveryEnabled and: connectedPlayerManagerCreatedEvent
-    private: char __padding4[0x7] = {};
-    public:
+    char __padding4[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC44BC
     // private System.Action`1<INetworkPlayerModel> connectedPlayerManagerCreatedEvent
     // Size: 0x8

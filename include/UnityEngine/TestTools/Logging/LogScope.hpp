@@ -61,8 +61,7 @@ namespace UnityEngine::TestTools::Logging {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_NeedToProcessLogs and: ExpectedLogs
-    private: char __padding2[0x6] = {};
-    public:
+    char __padding2[0x6] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDE6A98
     // private System.Collections.Generic.Queue`1<UnityEngine.TestTools.Logging.LogMatch> <ExpectedLogs>k__BackingField
     // Size: 0x8
@@ -120,8 +119,7 @@ namespace UnityEngine::TestTools::Logging {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: IsNUnitIgnoreException and: NUnitExceptionMessage
-    private: char __padding10[0x3] = {};
-    public:
+    char __padding10[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDE6B18
     // private System.String <NUnitExceptionMessage>k__BackingField
     // Size: 0x8

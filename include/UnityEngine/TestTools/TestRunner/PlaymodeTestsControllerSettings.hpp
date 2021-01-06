@@ -45,8 +45,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: sceneBased and: originalScene
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // public System.String originalScene
     // Size: 0x8
     // Offset: 0x20

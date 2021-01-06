@@ -319,8 +319,7 @@ namespace System::Globalization {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_isReadOnly and: formatFlags
-    private: char __padding39[0x3] = {};
-    public:
+    char __padding39[0x3] = {};
     // [OptionalFieldAttribute] Offset: 0xD3E69C
     // System.Globalization.DateTimeFormatFlags formatFlags
     // Size: 0x4
@@ -350,8 +349,7 @@ namespace System::Globalization {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: bUseCalendarInfo and: nDataItem
-    private: char __padding43[0x2] = {};
-    public:
+    char __padding43[0x2] = {};
     // [OptionalFieldAttribute] Offset: 0xD3E77C
     // private System.Int32 nDataItem
     // Size: 0x4
@@ -367,8 +365,7 @@ namespace System::Globalization {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_isDefaultCalendar and: m_dateWords
-    private: char __padding45[0x3] = {};
-    public:
+    char __padding45[0x3] = {};
     // [OptionalFieldAttribute] Offset: 0xD3E824
     // System.String[] m_dateWords
     // Size: 0x8

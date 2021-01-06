@@ -123,8 +123,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: supportsDaylightSavingTime and: adjustmentRules
-    private: char __padding6[0x7] = {};
-    public:
+    char __padding6[0x7] = {};
     // private System.TimeZoneInfo/AdjustmentRule[] adjustmentRules
     // Size: 0x8
     // Offset: 0x48

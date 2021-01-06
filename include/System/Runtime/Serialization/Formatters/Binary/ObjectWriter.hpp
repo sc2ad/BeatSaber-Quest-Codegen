@@ -92,8 +92,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_currentId and: m_surrogates
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private System.Runtime.Serialization.ISurrogateSelector m_surrogates
     // Size: 0x8
     // Offset: 0x28
@@ -107,8 +106,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::StreamingContext) == 0xC);
     // Padding between fields: m_context and: serWriter
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private System.Runtime.Serialization.Formatters.Binary.__BinaryWriter serWriter
     // Size: 0x8
     // Offset: 0x40
@@ -194,8 +192,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE) == 0x4);
     // Padding between fields: previousCode and: assemblyToIdTable
-    private: char __padding18[0x4] = {};
-    public:
+    char __padding18[0x4] = {};
     // private System.Collections.Hashtable assemblyToIdTable
     // Size: 0x8
     // Offset: 0xB0

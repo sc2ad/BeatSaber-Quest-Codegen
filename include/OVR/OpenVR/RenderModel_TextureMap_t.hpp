@@ -31,8 +31,7 @@ namespace OVR::OpenVR {
     // Field size check
     static_assert(sizeof(uint16_t) == 0x2);
     // Padding between fields: unHeight and: rubTextureMapData
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // public System.IntPtr rubTextureMapData
     // Size: 0x8
     // Offset: 0x8

@@ -160,8 +160,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: m_Damping and: m_DampingDistrib
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // public UnityEngine.AnimationCurve m_DampingDistrib
     // Size: 0x8
     // Offset: 0x30
@@ -176,8 +175,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: m_Elasticity and: m_ElasticityDistrib
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // public UnityEngine.AnimationCurve m_ElasticityDistrib
     // Size: 0x8
     // Offset: 0x40
@@ -192,8 +190,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: m_Stiffness and: m_StiffnessDistrib
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // public UnityEngine.AnimationCurve m_StiffnessDistrib
     // Size: 0x8
     // Offset: 0x50
@@ -208,8 +205,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: m_Inert and: m_InertDistrib
-    private: char __padding9[0x4] = {};
-    public:
+    char __padding9[0x4] = {};
     // public UnityEngine.AnimationCurve m_InertDistrib
     // Size: 0x8
     // Offset: 0x60
@@ -223,8 +219,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: m_Radius and: m_RadiusDistrib
-    private: char __padding11[0x4] = {};
-    public:
+    char __padding11[0x4] = {};
     // public UnityEngine.AnimationCurve m_RadiusDistrib
     // Size: 0x8
     // Offset: 0x70
@@ -280,8 +275,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_DistantDisable and: m_ReferenceObject
-    private: char __padding20[0x3] = {};
-    public:
+    char __padding20[0x3] = {};
     // public UnityEngine.Transform m_ReferenceObject
     // Size: 0x8
     // Offset: 0xB8
@@ -343,8 +337,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_DistantDisabled and: m_Particles
-    private: char __padding30[0x7] = {};
-    public:
+    char __padding30[0x7] = {};
     // private System.Collections.Generic.List`1<DynamicBone/Particle> m_Particles
     // Size: 0x8
     // Offset: 0x100

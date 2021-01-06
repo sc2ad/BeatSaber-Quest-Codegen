@@ -26,8 +26,7 @@ namespace System::Text {
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
     // Padding between fields: cFallback and: iCount
-    private: char __padding0[0x2] = {};
-    public:
+    char __padding0[0x2] = {};
     // private System.Int32 iCount
     // Size: 0x4
     // Offset: 0x24

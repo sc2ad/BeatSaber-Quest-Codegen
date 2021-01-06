@@ -74,8 +74,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fCustomNumberParser and: parseNumberDelegate
-    private: char __padding7[0x3] = {};
-    public:
+    char __padding7[0x3] = {};
     // System.DateTimeParse/MatchNumberDelegate parseNumberDelegate
     // Size: 0x8
     // Offset: 0x18

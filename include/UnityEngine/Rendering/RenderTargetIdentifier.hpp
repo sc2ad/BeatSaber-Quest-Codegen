@@ -52,8 +52,7 @@ namespace UnityEngine::Rendering {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_InstanceID and: m_BufferPointer
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private System.IntPtr m_BufferPointer
     // Size: 0x8
     // Offset: 0x10

@@ -45,8 +45,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficultyMask) == 0x1);
     // Padding between fields: difficulties and: modifiers
-    private: char __padding0[0x1] = {};
-    public:
+    char __padding0[0x1] = {};
     // public readonly GameplayModifierMask modifiers
     // Size: 0x2
     // Offset: 0x2
@@ -54,8 +53,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifierMask) == 0x2);
     // Padding between fields: modifiers and: songPacks
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // public readonly SongPackMask songPacks
     // Size: 0x10
     // Offset: 0x8

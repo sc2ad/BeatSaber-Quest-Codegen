@@ -50,8 +50,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::EmitParams) == 0x8F);
     // Padding between fields: shockwavePSEmitParams and: prevShockwaveParticleSpawnTime
-    private: char __padding2[0x1] = {};
-    public:
+    char __padding2[0x1] = {};
     // private System.Single _prevShockwaveParticleSpawnTime
     // Size: 0x4
     // Offset: 0xB8

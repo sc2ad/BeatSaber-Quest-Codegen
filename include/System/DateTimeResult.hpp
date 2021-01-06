@@ -110,8 +110,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(System::ParseFailureKind) == 0x4);
     // Padding between fields: failure and: failureMessageID
-    private: char __padding12[0x4] = {};
-    public:
+    char __padding12[0x4] = {};
     // System.String failureMessageID
     // Size: 0x8
     // Offset: 0x48

@@ -63,8 +63,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: lastContentAnchoredPositionY and: viewportWorldCorners
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // private UnityEngine.Vector3[] _viewportWorldCorners
     // Size: 0x8
     // Offset: 0x38

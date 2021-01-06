@@ -46,8 +46,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: processorCount and: lastSampleTime
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private System.Int64 _lastSampleTime
     // Size: 0x8
     // Offset: 0x28

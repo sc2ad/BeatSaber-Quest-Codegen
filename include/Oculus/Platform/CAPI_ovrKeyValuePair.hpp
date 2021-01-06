@@ -35,8 +35,7 @@ namespace Oculus::Platform {
     // Field size check
     static_assert(sizeof(Oculus::Platform::KeyValuePairType) == 0x4);
     // Padding between fields: valueType and: stringValue
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // public System.String stringValue_
     // Size: 0x8
     // Offset: 0x10
@@ -50,8 +49,7 @@ namespace Oculus::Platform {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: intValue and: doubleValue
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // public System.Double doubleValue_
     // Size: 0x8
     // Offset: 0x20

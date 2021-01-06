@@ -51,8 +51,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: pickUp and: animations
-    private: char __padding2[0x2] = {};
-    public:
+    char __padding2[0x2] = {};
     // [TooltipAttribute] Offset: 0xDBA2EC
     // public RootMotion.FinalIK.InteractionObject/AnimatorEvent[] animations
     // Size: 0x8

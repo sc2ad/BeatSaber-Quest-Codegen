@@ -95,8 +95,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle::ToggleTransition) == 0x4);
     // Padding between fields: toggleTransition and: graphic
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public UnityEngine.UI.Graphic graphic
     // Size: 0x8
     // Offset: 0xF8

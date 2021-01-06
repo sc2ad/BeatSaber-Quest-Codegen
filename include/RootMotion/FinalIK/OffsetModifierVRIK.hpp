@@ -39,8 +39,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: weight and: ik
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [TooltipAttribute] Offset: 0xDB8700
     // public RootMotion.FinalIK.VRIK ik
     // Size: 0x8

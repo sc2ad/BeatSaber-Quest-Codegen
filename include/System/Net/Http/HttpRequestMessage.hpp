@@ -75,8 +75,7 @@ namespace System::Net::Http {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: disposed and: Content
-    private: char __padding5[0x6] = {};
-    public:
+    char __padding5[0x6] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD9BF08
     // private System.Net.Http.HttpContent <Content>k__BackingField
     // Size: 0x8

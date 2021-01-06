@@ -31,8 +31,7 @@ namespace System::Security::Util {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_countTokens and: m_headTokens
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.Security.Util.TokenizerShortBlock m_headTokens
     // Size: 0x8
     // Offset: 0x18
@@ -58,8 +57,7 @@ namespace System::Security::Util {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_indexTokens and: m_headStrings
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private System.Security.Util.TokenizerStringBlock m_headStrings
     // Size: 0x8
     // Offset: 0x38

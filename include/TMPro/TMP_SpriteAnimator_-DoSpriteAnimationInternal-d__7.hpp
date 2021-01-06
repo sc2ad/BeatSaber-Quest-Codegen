@@ -38,8 +38,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: $$1__state and: $$2__current
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.Object <>2__current
     // Size: 0x8
     // Offset: 0x18
@@ -89,8 +88,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: $currentFrame$5__2 and: $charInfo$5__3
-    private: char __padding8[0x4] = {};
-    public:
+    char __padding8[0x4] = {};
     // private TMPro.TMP_CharacterInfo <charInfo>5__3
     // Size: 0x151
     // Offset: 0x48
@@ -98,8 +96,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(TMPro::TMP_CharacterInfo) == 0x151);
     // Padding between fields: $charInfo$5__3 and: $materialIndex$5__4
-    private: char __padding9[0x7] = {};
-    public:
+    char __padding9[0x7] = {};
     // private System.Int32 <materialIndex>5__4
     // Size: 0x4
     // Offset: 0x1A0

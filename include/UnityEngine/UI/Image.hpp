@@ -209,8 +209,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_FillCenter and: m_FillMethod
-    private: char __padding4[0x2] = {};
-    public:
+    char __padding4[0x2] = {};
     // private UnityEngine.UI.Image/FillMethod m_FillMethod
     // Size: 0x4
     // Offset: 0xD8
@@ -231,8 +230,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_FillClockwise and: m_FillOrigin
-    private: char __padding7[0x3] = {};
-    public:
+    char __padding7[0x3] = {};
     // private System.Int32 m_FillOrigin
     // Size: 0x4
     // Offset: 0xE4
@@ -258,8 +256,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_UseSpriteMesh and: m_PixelsPerUnitMultiplier
-    private: char __padding11[0x2] = {};
-    public:
+    char __padding11[0x2] = {};
     // private System.Single m_PixelsPerUnitMultiplier
     // Size: 0x4
     // Offset: 0xF0

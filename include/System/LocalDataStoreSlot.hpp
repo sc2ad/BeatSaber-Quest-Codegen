@@ -36,8 +36,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_slot and: m_cookie
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private System.Int64 m_cookie
     // Size: 0x8
     // Offset: 0x20

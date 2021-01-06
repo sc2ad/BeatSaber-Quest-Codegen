@@ -44,8 +44,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(System::Net::WebExceptionStatus) == 0x4);
     // Padding between fields: m_Status and: m_Response
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.Net.WebResponse m_Response
     // Size: 0x8
     // Offset: 0x90

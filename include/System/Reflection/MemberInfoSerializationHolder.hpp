@@ -68,8 +68,7 @@ namespace System::Reflection {
     // Field size check
     static_assert(sizeof(System::Reflection::MemberTypes) == 0x4);
     // Padding between fields: m_memberType and: m_info
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private System.Runtime.Serialization.SerializationInfo m_info
     // Size: 0x8
     // Offset: 0x38

@@ -111,8 +111,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_RaycastTarget and: m_RectTransform
-    private: char __padding4[0x5] = {};
-    public:
+    char __padding4[0x5] = {};
     // private UnityEngine.RectTransform m_RectTransform
     // Size: 0x8
     // Offset: 0x38
@@ -144,8 +143,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_MaterialDirty and: m_OnDirtyLayoutCallback
-    private: char __padding9[0x6] = {};
-    public:
+    char __padding9[0x6] = {};
     // protected UnityEngine.Events.UnityAction m_OnDirtyLayoutCallback
     // Size: 0x8
     // Offset: 0x58

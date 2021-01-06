@@ -40,8 +40,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: filterByModifiers and: filteredModifiers
-    private: char __padding2[0x1] = {};
-    public:
+    char __padding2[0x1] = {};
     // public GameplayModifierMask filteredModifiers
     // Size: 0x2
     // Offset: 0x14
@@ -55,8 +54,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: filterBySongPacks and: filteredSongPacks
-    private: char __padding4[0x1] = {};
-    public:
+    char __padding4[0x1] = {};
     // public SongPackMask filteredSongPacks
     // Size: 0x10
     // Offset: 0x18

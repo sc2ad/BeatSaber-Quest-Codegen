@@ -48,8 +48,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: allowCulled and: ik
-    private: char __padding2[0x3] = {};
-    public:
+    char __padding2[0x3] = {};
     // private RootMotion.FinalIK.VRIK ik
     // Size: 0x8
     // Offset: 0x28

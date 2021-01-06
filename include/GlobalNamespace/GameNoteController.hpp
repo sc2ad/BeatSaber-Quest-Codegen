@@ -50,8 +50,7 @@ namespace GlobalNamespace {
   class GameNoteController : public GlobalNamespace::NoteController/*, public GlobalNamespace::IGameNoteControllerInitializable_1<GlobalNamespace::GameNoteController*>, public GlobalNamespace::IGameNoteTypeProvider*/ {
     public:
     // Writing base type padding for base size: 0x71 to desired offset: 0x78
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // Nested type: GlobalNamespace::GameNoteController::Pool
     class Pool;
     // private BoxCuttableBySaber _bigCuttableBySaber

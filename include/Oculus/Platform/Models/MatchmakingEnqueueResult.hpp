@@ -56,8 +56,7 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(uint) == 0x4);
     // Padding between fields: MaxExpectedWait and: Pool
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // public readonly System.String Pool
     // Size: 0x8
     // Offset: 0x30
@@ -71,8 +70,7 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(uint) == 0x4);
     // Padding between fields: RecentMatchPercentage and: RequestHash
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // public readonly System.String RequestHash
     // Size: 0x8
     // Offset: 0x40

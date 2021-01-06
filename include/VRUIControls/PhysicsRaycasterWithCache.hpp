@@ -44,8 +44,7 @@ namespace VRUIControls {
       // Field size check
       static_assert(sizeof(bool) == 0x1);
       // Padding between fields: wasHit and: ray
-      private: char __padding0[0x3] = {};
-      public:
+      char __padding0[0x3] = {};
       // public readonly UnityEngine.Ray ray
       // Size: 0x18
       // Offset: 0x4

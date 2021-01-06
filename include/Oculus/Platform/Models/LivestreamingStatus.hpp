@@ -36,8 +36,7 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: LivestreamingEnabled and: LivestreamingType
-    private: char __padding2[0x1] = {};
-    public:
+    char __padding2[0x1] = {};
     // public readonly System.Int32 LivestreamingType
     // Size: 0x4
     // Offset: 0x14

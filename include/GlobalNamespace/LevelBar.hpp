@@ -70,8 +70,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: showDifficultyAndCharacteristic and: difficultyText
-    private: char __padding3[0x7] = {};
-    public:
+    char __padding3[0x7] = {};
     // [DrawIfAttribute] Offset: 0xDD1C8C
     // [NullAllowed] Offset: 0xDD1C8C
     // private TMPro.TextMeshProUGUI _difficultyText
@@ -95,8 +94,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useArtworkBackground and: artworkBackgroundImage
-    private: char __padding6[0x7] = {};
-    public:
+    char __padding6[0x7] = {};
     // [DrawIfAttribute] Offset: 0xDD1E8C
     // [NullAllowed] Offset: 0xDD1E8C
     // private HMUI.ImageView _artworkBackgroundImage

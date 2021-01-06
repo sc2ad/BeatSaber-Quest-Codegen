@@ -28,8 +28,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: IsDst and: Name
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // public System.String Name
     // Size: 0x8
     // Offset: 0x18

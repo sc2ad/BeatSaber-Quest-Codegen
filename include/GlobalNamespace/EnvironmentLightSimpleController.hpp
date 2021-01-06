@@ -39,8 +39,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: colorId and: lightManager
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // [InjectAttribute] Offset: 0xDC6920
     // private LightWithIdManager _lightManager
     // Size: 0x8

@@ -101,8 +101,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRSkeleton::SkeletonType) == 0x4);
     // Padding between fields: skeletonType and: dataProvider
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private OVRSkeleton/IOVRSkeletonDataProvider _dataProvider
     // Size: 0x8
     // Offset: 0x20
@@ -128,8 +127,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: enablePhysicsCapsules and: bonesGO
-    private: char __padding4[0x5] = {};
-    public:
+    char __padding4[0x5] = {};
     // private UnityEngine.GameObject _bonesGO
     // Size: 0x8
     // Offset: 0x30
@@ -194,8 +192,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: IsDataHighConfidence and: Bones
-    private: char __padding14[0x5] = {};
-    public:
+    char __padding14[0x5] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD86ED4
     // private System.Collections.Generic.IList`1<OVRBone> <Bones>k__BackingField
     // Size: 0x8

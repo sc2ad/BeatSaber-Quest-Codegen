@@ -26,8 +26,7 @@ namespace HMUI {
   class TableCell : public HMUI::SelectableCell {
     public:
     // Writing base type padding for base size: 0x3A to desired offset: 0x3C
-    private: char ___base_padding[0x2] = {};
-    public:
+    char ___base_padding[0x2] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDA81F8
     // private System.Int32 <idx>k__BackingField
     // Size: 0x4

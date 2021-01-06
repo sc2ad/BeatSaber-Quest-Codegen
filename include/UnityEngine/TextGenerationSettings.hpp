@@ -66,8 +66,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: richText and: scaleFactor
-    private: char __padding4[0x3] = {};
-    public:
+    char __padding4[0x3] = {};
     // public System.Single scaleFactor
     // Size: 0x4
     // Offset: 0x24
@@ -99,8 +98,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: resizeTextForBestFit and: resizeTextMinSize
-    private: char __padding9[0x2] = {};
-    public:
+    char __padding9[0x2] = {};
     // public System.Int32 resizeTextMinSize
     // Size: 0x4
     // Offset: 0x34
@@ -120,8 +118,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: updateBounds and: verticalOverflow
-    private: char __padding12[0x3] = {};
-    public:
+    char __padding12[0x3] = {};
     // public UnityEngine.VerticalWrapMode verticalOverflow
     // Size: 0x4
     // Offset: 0x40

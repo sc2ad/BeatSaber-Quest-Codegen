@@ -75,8 +75,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: handsPullBody and: rotationWeight
-    private: char __padding4[0x3] = {};
-    public:
+    char __padding4[0x3] = {};
     // [LargeHeader] Offset: 0xDB66EC
     // [TooltipAttribute] Offset: 0xDB66EC
     // [RangeAttribute] Offset: 0xDB66EC
@@ -143,8 +142,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: damper and: CCDBones
-    private: char __padding12[0x4] = {};
-    public:
+    char __padding12[0x4] = {};
     // [TooltipAttribute] Offset: 0xDB69BC
     // public UnityEngine.Transform[] CCDBones
     // Size: 0x8
@@ -183,8 +181,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fixHead and: stretchBones
-    private: char __padding17[0x3] = {};
-    public:
+    char __padding17[0x3] = {};
     // [TooltipAttribute] Offset: 0xDB6B14
     // public UnityEngine.Transform[] stretchBones
     // Size: 0x8
@@ -309,8 +306,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Padding between fields: headLocalRotation and: stretchLocalPositions
-    private: char __padding37[0x4] = {};
-    public:
+    char __padding37[0x4] = {};
     // private UnityEngine.Vector3[] stretchLocalPositions
     // Size: 0x8
     // Offset: 0x140

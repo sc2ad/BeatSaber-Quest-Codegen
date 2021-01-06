@@ -39,8 +39,7 @@ namespace Mono {
     // Field size check
     static_assert(sizeof(uint16_t) == 0x2);
     // Padding between fields: flags and: token
-    private: char __padding2[0x2] = {};
-    public:
+    char __padding2[0x2] = {};
     // System.UInt32 token
     // Size: 0x4
     // Offset: 0x14

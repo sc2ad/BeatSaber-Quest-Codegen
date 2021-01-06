@@ -32,8 +32,7 @@ namespace System::Text::RegularExpressions {
   class MatchSparse : public System::Text::RegularExpressions::Match {
     public:
     // Writing base type padding for base size: 0x69 to desired offset: 0x70
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // System.Collections.Hashtable _caps
     // Size: 0x8
     // Offset: 0x70

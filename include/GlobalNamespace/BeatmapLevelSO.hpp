@@ -124,8 +124,7 @@ namespace GlobalNamespace {
       // Field size check
       static_assert(sizeof(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult::Result) == 0x4);
       // Padding between fields: result and: beatmapLevelData
-      private: char __padding0[0x4] = {};
-      public:
+      char __padding0[0x4] = {};
       // public readonly IBeatmapLevelData beatmapLevelData
       // Size: 0x8
       // Offset: 0x8
@@ -248,8 +247,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: ignore360MovementBeatmaps and: no360MovementDifficultyBeatmapSets
-    private: char __padding16[0x7] = {};
-    public:
+    char __padding16[0x7] = {};
     // private BeatmapLevelSO/DifficultyBeatmapSet[] _no360MovementDifficultyBeatmapSets
     // Size: 0x8
     // Offset: 0x88

@@ -32,8 +32,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: type and: children
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexNode> _children
     // Size: 0x8
     // Offset: 0x18
@@ -53,8 +52,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
     // Padding between fields: ch and: m
-    private: char __padding3[0x2] = {};
-    public:
+    char __padding3[0x2] = {};
     // System.Int32 _m
     // Size: 0x4
     // Offset: 0x2C

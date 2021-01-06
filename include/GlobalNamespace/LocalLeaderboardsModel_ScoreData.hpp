@@ -24,8 +24,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: score and: playerName
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public System.String _playerName
     // Size: 0x8
     // Offset: 0x18
@@ -39,8 +38,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fullCombo and: timestamp
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // public System.Int64 _timestamp
     // Size: 0x8
     // Offset: 0x28

@@ -29,8 +29,7 @@ namespace RootMotion::FinalIK {
   class ArmIK : public RootMotion::FinalIK::IK {
     public:
     // Writing base type padding for base size: 0x33 to desired offset: 0x38
-    private: char ___base_padding[0x5] = {};
-    public:
+    char ___base_padding[0x5] = {};
     // public RootMotion.FinalIK.IKSolverArm solver
     // Size: 0x8
     // Offset: 0x38

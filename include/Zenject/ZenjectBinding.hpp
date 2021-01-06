@@ -107,8 +107,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: ifNotBound and: context
-    private: char __padding3[0x6] = {};
-    public:
+    char __padding3[0x6] = {};
     // [TooltipAttribute] Offset: 0xD949BC
     // [NullAllowed] Offset: 0xD949BC
     // [FormerlySerializedAsAttribute] Offset: 0xD949BC

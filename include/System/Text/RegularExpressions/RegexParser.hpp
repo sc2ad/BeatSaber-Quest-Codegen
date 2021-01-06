@@ -92,8 +92,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: currentPos and: culture
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // System.Globalization.CultureInfo _culture
     // Size: 0x8
     // Offset: 0x48
@@ -155,8 +154,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(System::Text::RegularExpressions::RegexOptions) == 0x4);
     // Padding between fields: options and: optionsStack
-    private: char __padding16[0x4] = {};
-    public:
+    char __padding16[0x4] = {};
     // System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexOptions> _optionsStack
     // Size: 0x8
     // Offset: 0x88

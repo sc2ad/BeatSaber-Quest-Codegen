@@ -63,8 +63,7 @@ namespace GlobalNamespace {
       // Field size check
       static_assert(sizeof(float) == 0x4);
       // Padding between fields: time and: noteCutInfo
-      private: char __padding0[0x4] = {};
-      public:
+      char __padding0[0x4] = {};
       // public readonly NoteCutInfoNetSerializable noteCutInfo
       // Size: 0x8
       // Offset: 0x8
@@ -97,8 +96,7 @@ namespace GlobalNamespace {
       // Field size check
       static_assert(sizeof(float) == 0x4);
       // Padding between fields: time and: noteMissInfo
-      private: char __padding0[0x4] = {};
-      public:
+      char __padding0[0x4] = {};
       // public readonly NoteMissInfoNetSerializable noteMissInfo
       // Size: 0x8
       // Offset: 0x8

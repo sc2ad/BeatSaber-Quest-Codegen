@@ -35,8 +35,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Triangle) == 0xC);
     // Padding between fields: triangle and: $$9__0
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public System.Func`2<UnityEngine.ProBuilder.Triangle,System.Boolean> <>9__0
     // Size: 0x8
     // Offset: 0x20

@@ -59,8 +59,7 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: totalLength and: data
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // private readonly System.Byte[] _data
     // Size: 0x8
     // Offset: 0x28

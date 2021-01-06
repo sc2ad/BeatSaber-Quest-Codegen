@@ -58,8 +58,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: initiated and: lastTime
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // private System.Single lastTime
     // Size: 0x4
     // Offset: 0x3C

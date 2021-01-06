@@ -62,8 +62,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useFixedFoveatedRenderingDuringGameplay and: antiAliasingLevel
-    private: char __padding6[0x3] = {};
-    public:
+    char __padding6[0x3] = {};
     // public System.Int32 antiAliasingLevel
     // Size: 0x4
     // Offset: 0x30
@@ -107,8 +106,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: screenDisplacementEffectsEnabled and: roomCenterX
-    private: char __padding13[0x2] = {};
-    public:
+    char __padding13[0x2] = {};
     // public System.Single roomCenterX
     // Size: 0x4
     // Offset: 0x48
@@ -242,8 +240,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useCustomServerEnvironment and: customServerHostName
-    private: char __padding35[0x3] = {};
-    public:
+    char __padding35[0x3] = {};
     // public System.String customServerHostName
     // Size: 0x8
     // Offset: 0xA0
@@ -263,8 +260,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: controllersRumbleEnabled and: enableAlphaFeatures
-    private: char __padding38[0x3] = {};
-    public:
+    char __padding38[0x3] = {};
     // public System.Int32 enableAlphaFeatures
     // Size: 0x4
     // Offset: 0xB0
@@ -290,8 +286,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: overrideAudioLatency and: audioLatency
-    private: char __padding42[0x3] = {};
-    public:
+    char __padding42[0x3] = {};
     // public System.Single audioLatency
     // Size: 0x4
     // Offset: 0xC0
@@ -323,8 +318,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: openVrThreadedHaptics and: languageSettings
-    private: char __padding47[0x1] = {};
-    public:
+    char __padding47[0x1] = {};
     // public System.Int32 languageSettings
     // Size: 0x4
     // Offset: 0xCC

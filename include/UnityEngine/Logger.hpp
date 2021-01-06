@@ -48,8 +48,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: logEnabled and: filterLogType
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // [DebuggerBrowsableAttribute] Offset: 0xD5084C
     // [CompilerGeneratedAttribute] Offset: 0xD5084C
     // private UnityEngine.LogType <filterLogType>k__BackingField

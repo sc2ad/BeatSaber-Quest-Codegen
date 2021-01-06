@@ -66,8 +66,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isMe and: userName
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // private System.String _userName
     // Size: 0x8
     // Offset: 0x18
@@ -120,8 +119,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficultyMask) == 0x1);
     // Padding between fields: difficulties and: modifiers
-    private: char __padding8[0x1] = {};
-    public:
+    char __padding8[0x1] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC9978
     // private GameplayModifierMask <modifiers>k__BackingField
     // Size: 0x2
@@ -130,8 +128,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifierMask) == 0x2);
     // Padding between fields: modifiers and: songPacks
-    private: char __padding9[0x4] = {};
-    public:
+    char __padding9[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC9988
     // private SongPackMask <songPacks>k__BackingField
     // Size: 0x10
@@ -224,8 +221,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isKicked and: menuRpcManager
-    private: char __padding22[0x4] = {};
-    public:
+    char __padding22[0x4] = {};
     // private MenuRpcManager _menuRpcManager
     // Size: 0x8
     // Offset: 0x68
@@ -251,8 +247,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isReady and: multiplayerAvatarData
-    private: char __padding26[0x6] = {};
-    public:
+    char __padding26[0x6] = {};
     // private MultiplayerAvatarData _multiplayerAvatarData
     // Size: 0x70
     // Offset: 0x80

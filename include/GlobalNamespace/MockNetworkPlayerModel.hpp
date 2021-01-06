@@ -81,8 +81,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: localPlayerIsPartyOwner and: maxPartySize
-    private: char __padding3[0x2] = {};
-    public:
+    char __padding3[0x2] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC97F8
     // private System.Int32 <maxPartySize>k__BackingField
     // Size: 0x4
@@ -105,8 +104,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: currentPartySize and: connectedPlayerManager
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC9828
     // private readonly ConnectedPlayerManager <connectedPlayerManager>k__BackingField
     // Size: 0x8
@@ -122,8 +120,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: enableLocalNetwork and: serverFilter
-    private: char __padding8[0x7] = {};
-    public:
+    char __padding8[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC9848
     // private GameplayServerFilter <serverFilter>k__BackingField
     // Size: 0x28

@@ -109,8 +109,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isInitialized and: beatmapObjectCallbackData
-    private: char __padding7[0x2] = {};
-    public:
+    char __padding7[0x2] = {};
     // private BeatmapObjectCallbackController/BeatmapObjectCallbackData _beatmapObjectCallbackData
     // Size: 0x8
     // Offset: 0x48

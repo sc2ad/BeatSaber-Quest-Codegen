@@ -50,8 +50,7 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(uint) == 0x4);
     // Padding between fields: protocolVersion and: remoteEndPoint
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // public System.Net.IPEndPoint remoteEndPoint
     // Size: 0x8
     // Offset: 0x20

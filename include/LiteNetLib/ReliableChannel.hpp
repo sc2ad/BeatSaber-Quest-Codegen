@@ -99,8 +99,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: ordered and: windowSize
-    private: char __padding10[0x1] = {};
-    public:
+    char __padding10[0x1] = {};
     // private readonly System.Int32 _windowSize
     // Size: 0x4
     // Offset: 0x5C

@@ -60,8 +60,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Padding between fields: bombColorEffect and: colorManager
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // [InjectAttribute] Offset: 0xDC6230
     // private readonly ColorManager _colorManager
     // Size: 0x8

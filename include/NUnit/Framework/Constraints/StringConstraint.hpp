@@ -37,8 +37,7 @@ namespace NUnit::Framework::Constraints {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: caseInsensitive and: descriptionText
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // protected System.String descriptionText
     // Size: 0x8
     // Offset: 0x40

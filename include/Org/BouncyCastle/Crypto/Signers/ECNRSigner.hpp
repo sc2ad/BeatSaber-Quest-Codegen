@@ -46,8 +46,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: forSigning and: key
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // private Org.BouncyCastle.Crypto.Parameters.ECKeyParameters key
     // Size: 0x8
     // Offset: 0x18

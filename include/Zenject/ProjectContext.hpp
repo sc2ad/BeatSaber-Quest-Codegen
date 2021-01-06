@@ -86,8 +86,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: parentNewObjectsUnderContext and: editorReflectionBakingCoverageMode
-    private: char __padding4[0x3] = {};
-    public:
+    char __padding4[0x3] = {};
     // private Zenject.ReflectionBakingCoverageModes _editorReflectionBakingCoverageMode
     // Size: 0x4
     // Offset: 0x64
@@ -101,8 +100,7 @@ namespace Zenject {
     // Field size check
     static_assert(sizeof(Zenject::ReflectionBakingCoverageModes) == 0x4);
     // Padding between fields: buildsReflectionBakingCoverageMode and: settings
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // private Zenject.ZenjectSettings _settings
     // Size: 0x8
     // Offset: 0x70

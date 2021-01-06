@@ -83,8 +83,7 @@ namespace System::Reflection {
     // Field size check
     static_assert(sizeof(System::Reflection::MonoPropertyInfo) == 0x2C);
     // Padding between fields: info and: cached
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private System.Reflection.PInfo cached
     // Size: 0x4
     // Offset: 0x50
@@ -92,8 +91,7 @@ namespace System::Reflection {
     // Field size check
     static_assert(sizeof(System::Reflection::PInfo) == 0x4);
     // Padding between fields: cached and: cached_getter
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // private System.Reflection.MonoProperty/GetterAdapter cached_getter
     // Size: 0x8
     // Offset: 0x58

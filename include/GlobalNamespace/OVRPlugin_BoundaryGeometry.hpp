@@ -27,8 +27,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRPlugin::BoundaryType) == 0x4);
     // Padding between fields: BoundaryType and: Points
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public OVRPlugin/Vector3f[] Points
     // Size: 0x8
     // Offset: 0x8

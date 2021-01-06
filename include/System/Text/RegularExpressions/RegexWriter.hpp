@@ -58,8 +58,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: depth and: emitted
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // System.Int32[] _emitted
     // Size: 0x8
     // Offset: 0x20
@@ -73,8 +72,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: curpos and: stringhash
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // System.Collections.Generic.Dictionary`2<System.String,System.Int32> _stringhash
     // Size: 0x8
     // Offset: 0x30
@@ -94,8 +92,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: counting and: count
-    private: char __padding6[0x3] = {};
-    public:
+    char __padding6[0x3] = {};
     // System.Int32 _count
     // Size: 0x4
     // Offset: 0x44
@@ -109,8 +106,7 @@ namespace System::Text::RegularExpressions {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: trackcount and: caps
-    private: char __padding8[0x4] = {};
-    public:
+    char __padding8[0x4] = {};
     // System.Collections.Hashtable _caps
     // Size: 0x8
     // Offset: 0x50

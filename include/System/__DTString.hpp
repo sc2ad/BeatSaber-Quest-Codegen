@@ -59,8 +59,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
     // Padding between fields: m_current and: m_info
-    private: char __padding3[0x6] = {};
-    public:
+    char __padding3[0x6] = {};
     // private System.Globalization.CompareInfo m_info
     // Size: 0x8
     // Offset: 0x18

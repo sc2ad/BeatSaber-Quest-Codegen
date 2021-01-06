@@ -127,8 +127,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_Version and: m_Tracks
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [HideInInspector] Offset: 0xD8DB14
     // private System.Collections.Generic.List`1<UnityEngine.ScriptableObject> m_Tracks
     // Size: 0x8
@@ -178,8 +177,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::TimelineAsset::DurationMode) == 0x4);
     // Padding between fields: m_DurationMode and: m_MarkerTrack
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // [HideInInspector] Offset: 0xD8DBFC
     // private UnityEngine.Timeline.MarkerTrack m_MarkerTrack
     // Size: 0x8

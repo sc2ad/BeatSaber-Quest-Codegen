@@ -33,8 +33,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Padding between fields: bodyRotation and: muscles
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // public System.Single[] muscles
     // Size: 0x8
     // Offset: 0x20

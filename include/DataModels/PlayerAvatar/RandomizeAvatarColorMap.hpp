@@ -23,8 +23,7 @@ namespace DataModels::PlayerAvatar {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: totalIndices and: colorIndices
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDD34E0
     // private readonly System.Int32[] <colorIndices>k__BackingField
     // Size: 0x8

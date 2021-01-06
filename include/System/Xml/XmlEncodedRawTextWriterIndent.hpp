@@ -36,8 +36,7 @@ namespace System::Xml {
   class XmlEncodedRawTextWriterIndent : public System::Xml::XmlEncodedRawTextWriter {
     public:
     // Writing base type padding for base size: 0xB6 to desired offset: 0xB8
-    private: char ___base_padding[0x2] = {};
-    public:
+    char ___base_padding[0x2] = {};
     // protected System.Int32 indentLevel
     // Size: 0x4
     // Offset: 0xB8
@@ -51,8 +50,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: newLineOnAttributes and: indentChars
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // protected System.String indentChars
     // Size: 0x8
     // Offset: 0xC0
@@ -66,8 +64,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: mixedContent and: mixedContentStack
-    private: char __padding3[0x7] = {};
-    public:
+    char __padding3[0x7] = {};
     // private System.Xml.BitStack mixedContentStack
     // Size: 0x8
     // Offset: 0xD0

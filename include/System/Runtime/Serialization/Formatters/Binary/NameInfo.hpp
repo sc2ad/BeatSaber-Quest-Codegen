@@ -51,8 +51,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE) == 0x4);
     // Padding between fields: NIprimitiveTypeEnum and: NItype
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // System.Type NItype
     // Size: 0x8
     // Offset: 0x30
@@ -96,8 +95,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: NIisParentTypeOnObject and: NIarrayEnum
-    private: char __padding10[0x2] = {};
-    public:
+    char __padding10[0x2] = {};
     // System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE NIarrayEnum
     // Size: 0x4
     // Offset: 0x40

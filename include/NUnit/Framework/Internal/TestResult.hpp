@@ -72,8 +72,7 @@ namespace NUnit::Framework::Internal {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: InternalAssertCount and: resultState
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private NUnit.Framework.Interfaces.ResultState _resultState
     // Size: 0x8
     // Offset: 0x28

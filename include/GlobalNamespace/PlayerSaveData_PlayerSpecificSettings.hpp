@@ -30,8 +30,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: leftHanded and: playerHeight
-    private: char __padding1[0x2] = {};
-    public:
+    char __padding1[0x2] = {};
     // public System.Single playerHeight
     // Size: 0x4
     // Offset: 0x14
@@ -45,8 +44,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: automaticPlayerHeight and: sfxVolume
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // public System.Single sfxVolume
     // Size: 0x4
     // Offset: 0x1C
@@ -72,8 +70,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: advancedHud and: saberTrailIntensity
-    private: char __padding7[0x1] = {};
-    public:
+    char __padding7[0x1] = {};
     // public System.Single saberTrailIntensity
     // Size: 0x4
     // Offset: 0x24
@@ -93,8 +90,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: noFailEffects and: noteJumpBeatOffset
-    private: char __padding10[0x2] = {};
-    public:
+    char __padding10[0x2] = {};
     // public System.Single noteJumpBeatOffset
     // Size: 0x4
     // Offset: 0x2C

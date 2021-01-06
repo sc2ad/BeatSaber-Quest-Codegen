@@ -46,8 +46,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_SyncTime and: m_AssetDuration
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // private System.Double m_AssetDuration
     // Size: 0x8
     // Offset: 0x20

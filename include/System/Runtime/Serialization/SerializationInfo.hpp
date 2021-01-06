@@ -73,8 +73,7 @@ namespace System::Runtime::Serialization {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_currMember and: m_converter
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // System.Runtime.Serialization.IFormatterConverter m_converter
     // Size: 0x8
     // Offset: 0x38

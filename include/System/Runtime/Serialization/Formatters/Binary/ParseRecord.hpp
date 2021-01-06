@@ -127,8 +127,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: PRisEnum and: PRobjectId
-    private: char __padding12[0x3] = {};
-    public:
+    char __padding12[0x3] = {};
     // System.Int64 PRobjectId
     // Size: 0x8
     // Offset: 0x58
@@ -160,8 +159,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: PRisArrayVariant and: PRarrayElementTypeCode
-    private: char __padding17[0x3] = {};
-    public:
+    char __padding17[0x3] = {};
     // System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE PRarrayElementTypeCode
     // Size: 0x4
     // Offset: 0x7C
@@ -175,8 +173,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: PRrank and: PRlengthA
-    private: char __padding19[0x4] = {};
-    public:
+    char __padding19[0x4] = {};
     // System.Int32[] PRlengthA
     // Size: 0x8
     // Offset: 0x88
@@ -232,8 +229,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: PRisLowerBound and: PRtopId
-    private: char __padding28[0x7] = {};
-    public:
+    char __padding28[0x7] = {};
     // System.Int64 PRtopId
     // Size: 0x8
     // Offset: 0xC8
@@ -259,8 +255,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: PRisValueTypeFixup and: PRnewObj
-    private: char __padding32[0x7] = {};
-    public:
+    char __padding32[0x7] = {};
     // System.Object PRnewObj
     // Size: 0x8
     // Offset: 0xE8
@@ -286,8 +281,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: PRisRegistered and: PRmemberData
-    private: char __padding36[0x7] = {};
-    public:
+    char __padding36[0x7] = {};
     // System.Object[] PRmemberData
     // Size: 0x8
     // Offset: 0x108

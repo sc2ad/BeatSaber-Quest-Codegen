@@ -18,8 +18,7 @@ namespace Mono::Security::Cryptography {
   class MD2Managed : public Mono::Security::Cryptography::MD2 {
     public:
     // Writing base type padding for base size: 0x25 to desired offset: 0x28
-    private: char ___base_padding[0x3] = {};
-    public:
+    char ___base_padding[0x3] = {};
     // private System.Byte[] state
     // Size: 0x8
     // Offset: 0x28
@@ -45,8 +44,7 @@ namespace Mono::Security::Cryptography {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: count and: x
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // private System.Byte[] x
     // Size: 0x8
     // Offset: 0x48

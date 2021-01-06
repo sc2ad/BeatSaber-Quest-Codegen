@@ -64,8 +64,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isRead and: cnc
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // private System.Net.WebConnection cnc
     // Size: 0x8
     // Offset: 0x30
@@ -103,8 +102,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: stream_length and: contentLength
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // private System.Int64 contentLength
     // Size: 0x8
     // Offset: 0x58
@@ -130,8 +128,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: nextReadCalled and: pendingReads
-    private: char __padding10[0x3] = {};
-    public:
+    char __padding10[0x3] = {};
     // private System.Int32 pendingReads
     // Size: 0x4
     // Offset: 0x74
@@ -145,8 +142,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: pendingWrites and: pending
-    private: char __padding12[0x4] = {};
-    public:
+    char __padding12[0x4] = {};
     // private System.Threading.ManualResetEvent pending
     // Size: 0x8
     // Offset: 0x80
@@ -166,8 +162,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: sendChunked and: writeBuffer
-    private: char __padding15[0x6] = {};
-    public:
+    char __padding15[0x6] = {};
     // private System.IO.MemoryStream writeBuffer
     // Size: 0x8
     // Offset: 0x90
@@ -181,8 +176,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: requestWritten and: headers
-    private: char __padding17[0x7] = {};
-    public:
+    char __padding17[0x7] = {};
     // private System.Byte[] headers
     // Size: 0x8
     // Offset: 0xA0
@@ -202,8 +196,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: headersSent and: locker
-    private: char __padding20[0x6] = {};
-    public:
+    char __padding20[0x6] = {};
     // private System.Object locker
     // Size: 0x8
     // Offset: 0xB0
@@ -229,8 +222,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: complete_request_written and: read_timeout
-    private: char __padding24[0x1] = {};
-    public:
+    char __padding24[0x1] = {};
     // private System.Int32 read_timeout
     // Size: 0x4
     // Offset: 0xBC
@@ -244,8 +236,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: write_timeout and: cb_wrapper
-    private: char __padding26[0x4] = {};
-    public:
+    char __padding26[0x4] = {};
     // private System.AsyncCallback cb_wrapper
     // Size: 0x8
     // Offset: 0xC8

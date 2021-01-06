@@ -32,8 +32,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::DiscoveryPolicy) == 0x1);
     // Padding between fields: discoveryPolicy and: invitePolicy
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // public InvitePolicy invitePolicy
     // Size: 0x4
     // Offset: 0x3C

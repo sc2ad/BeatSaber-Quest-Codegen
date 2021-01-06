@@ -136,8 +136,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isInitialized and: previewBeatmapLevels
-    private: char __padding11[0x7] = {};
-    public:
+    char __padding11[0x7] = {};
     // private IPreviewBeatmapLevel[] _previewBeatmapLevels
     // Size: 0x8
     // Offset: 0x70
@@ -163,8 +162,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: showLevelPackHeader and: favoriteLevelIds
-    private: char __padding15[0x7] = {};
-    public:
+    char __padding15[0x7] = {};
     // private System.Collections.Generic.HashSet`1<System.String> _favoriteLevelIds
     // Size: 0x8
     // Offset: 0x90
@@ -178,8 +176,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: selectedRow and: selectedPreviewBeatmapLevel
-    private: char __padding17[0x4] = {};
-    public:
+    char __padding17[0x4] = {};
     // private IPreviewBeatmapLevel _selectedPreviewBeatmapLevel
     // Size: 0x8
     // Offset: 0xA0

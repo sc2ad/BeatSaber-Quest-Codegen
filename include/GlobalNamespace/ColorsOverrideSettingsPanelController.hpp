@@ -117,8 +117,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: initialized and: buttonBinder
-    private: char __padding9[0x7] = {};
-    public:
+    char __padding9[0x7] = {};
     // private HMUI.ButtonBinder _buttonBinder
     // Size: 0x8
     // Offset: 0x68

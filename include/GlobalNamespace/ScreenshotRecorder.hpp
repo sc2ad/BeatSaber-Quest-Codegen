@@ -116,8 +116,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: forceFixedFramerate and: interval
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // private System.Int32 _interval
     // Size: 0x4
     // Offset: 0x30
@@ -137,8 +136,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: pauseWithPButton and: antiAlias
-    private: char __padding6[0x3] = {};
-    public:
+    char __padding6[0x3] = {};
     // private System.Int32 _antiAlias
     // Size: 0x4
     // Offset: 0x3C
@@ -176,8 +174,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: paused and: frameNum
-    private: char __padding12[0x3] = {};
-    public:
+    char __padding12[0x3] = {};
     // private System.Int32 _frameNum
     // Size: 0x4
     // Offset: 0x54

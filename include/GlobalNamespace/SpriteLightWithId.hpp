@@ -27,8 +27,7 @@ namespace GlobalNamespace {
   class SpriteLightWithId : public GlobalNamespace::LightWithIdMonoBehaviour {
     public:
     // Writing base type padding for base size: 0x29 to desired offset: 0x30
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // private UnityEngine.SpriteRenderer _spriteRenderer
     // Size: 0x8
     // Offset: 0x30
@@ -43,8 +42,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hideIfAlphaOutOfRange and: hideAlphaRangeMin
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // [DrawIfAttribute] Offset: 0xDA5408
     // private System.Single _hideAlphaRangeMin
     // Size: 0x4

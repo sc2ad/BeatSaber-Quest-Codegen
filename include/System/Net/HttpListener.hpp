@@ -104,8 +104,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(System::Net::AuthenticationSchemes) == 0x4);
     // Padding between fields: auth_schemes and: prefixes
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // private System.Net.HttpListenerPrefixCollection prefixes
     // Size: 0x8
     // Offset: 0x30
@@ -143,8 +142,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: disposed and: internalLock
-    private: char __padding9[0x5] = {};
-    public:
+    char __padding9[0x5] = {};
     // private readonly System.Object _internalLock
     // Size: 0x8
     // Offset: 0x50

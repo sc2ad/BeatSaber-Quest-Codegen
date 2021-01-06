@@ -47,8 +47,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: volume and: bombExplosionAudioClips
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private UnityEngine.AudioClip[] _bombExplosionAudioClips
     // Size: 0x8
     // Offset: 0x20

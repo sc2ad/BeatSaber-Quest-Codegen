@@ -31,8 +31,7 @@ namespace System::Threading {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: lock_thread_id and: handle
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.IntPtr handle
     // Size: 0x8
     // Offset: 0x18
@@ -82,8 +81,7 @@ namespace System::Threading {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: abort_state_handle and: thread_id
-    private: char __padding8[0x4] = {};
-    public:
+    char __padding8[0x4] = {};
     // System.Int64 thread_id
     // Size: 0x8
     // Offset: 0x50
@@ -133,8 +131,7 @@ namespace System::Threading {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: serialized_principal_version and: appdomain_refs
-    private: char __padding16[0x4] = {};
-    public:
+    char __padding16[0x4] = {};
     // private System.IntPtr appdomain_refs
     // Size: 0x8
     // Offset: 0x90
@@ -148,8 +145,7 @@ namespace System::Threading {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: interruption_requested and: synch_cs
-    private: char __padding18[0x4] = {};
-    public:
+    char __padding18[0x4] = {};
     // private System.IntPtr synch_cs
     // Size: 0x8
     // Offset: 0xA0
@@ -169,8 +165,7 @@ namespace System::Threading {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: thread_interrupt_requested and: stack_size
-    private: char __padding21[0x2] = {};
-    public:
+    char __padding21[0x2] = {};
     // System.Int32 stack_size
     // Size: 0x4
     // Offset: 0xAC
@@ -184,8 +179,7 @@ namespace System::Threading {
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
     // Padding between fields: apartment_state and: critical_region_level
-    private: char __padding23[0x3] = {};
-    public:
+    char __padding23[0x3] = {};
     // System.Int32 critical_region_level
     // Size: 0x4
     // Offset: 0xB4
@@ -241,8 +235,7 @@ namespace System::Threading {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: priority and: owned_mutex
-    private: char __padding32[0x4] = {};
-    public:
+    char __padding32[0x4] = {};
     // private System.IntPtr owned_mutex
     // Size: 0x8
     // Offset: 0xF0
@@ -262,8 +255,7 @@ namespace System::Threading {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: self_suspended and: unused1
-    private: char __padding35[0x4] = {};
-    public:
+    char __padding35[0x4] = {};
     // private System.IntPtr unused1
     // Size: 0x8
     // Offset: 0x108

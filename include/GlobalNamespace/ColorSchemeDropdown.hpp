@@ -48,8 +48,7 @@ namespace GlobalNamespace {
   class ColorSchemeDropdown : public HMUI::DropdownWithTableView/*, public HMUI::TableView::IDataSource*/ {
     public:
     // Writing base type padding for base size: 0x44 to desired offset: 0x48
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x48
@@ -81,8 +80,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: cellSize and: colorSchemes
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private System.Collections.Generic.IReadOnlyList`1<ColorScheme> _colorSchemes
     // Size: 0x8
     // Offset: 0x70

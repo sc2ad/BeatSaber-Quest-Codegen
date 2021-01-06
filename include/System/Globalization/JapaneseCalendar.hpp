@@ -35,8 +35,7 @@ namespace System::Globalization {
   class JapaneseCalendar : public System::Globalization::Calendar {
     public:
     // Writing base type padding for base size: 0x1C to desired offset: 0x20
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // System.Globalization.GregorianCalendarHelper helper
     // Size: 0x8
     // Offset: 0x20

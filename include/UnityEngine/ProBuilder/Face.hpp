@@ -64,8 +64,7 @@ namespace UnityEngine::ProBuilder {
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::AutoUnwrapSettings) == 0x20);
     // Padding between fields: m_Uv and: m_Material
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // [FormerlySerializedAsAttribute] Offset: 0xDE374C
     // private UnityEngine.Material m_Material
     // Size: 0x8
@@ -87,8 +86,7 @@ namespace UnityEngine::ProBuilder {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_ManualUV and: elementGroup
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // System.Int32 elementGroup
     // Size: 0x4
     // Offset: 0x50

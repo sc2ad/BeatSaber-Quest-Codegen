@@ -31,8 +31,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: noRounds and: S
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.Int32[] _S
     // Size: 0x8
     // Offset: 0x18

@@ -48,8 +48,7 @@ namespace System::Reflection {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: keyPairExported and: keyPairArray
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // private System.Byte[] _keyPairArray
     // Size: 0x8
     // Offset: 0x28

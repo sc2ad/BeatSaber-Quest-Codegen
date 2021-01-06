@@ -70,8 +70,7 @@ namespace GlobalNamespace {
   class LevelFilteringNavigationController : public HMUI::NavigationController {
     public:
     // Writing base type padding for base size: 0x94 to desired offset: 0x98
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // Nested type: GlobalNamespace::LevelFilteringNavigationController::$$c
     class $$c;
     // Nested type: GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass41_0
@@ -170,8 +169,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: enableCustomLevels and: songPackMask
-    private: char __padding13[0x6] = {};
-    public:
+    char __padding13[0x6] = {};
     // private SongPackMask _songPackMask
     // Size: 0x10
     // Offset: 0x100

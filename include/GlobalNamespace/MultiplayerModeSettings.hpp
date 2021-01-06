@@ -32,8 +32,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficultyMask) == 0x1);
     // Padding between fields: quickPlayBeatmapDifficulty and: quickPlaySongPackMask
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // public SongPackMask quickPlaySongPackMask
     // Size: 0x10
     // Offset: 0x18

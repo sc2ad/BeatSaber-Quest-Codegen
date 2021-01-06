@@ -39,8 +39,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: weight and: solver
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [TooltipAttribute] Offset: 0xDB5930
     // public RootMotion.FinalIK.Grounding solver
     // Size: 0x8

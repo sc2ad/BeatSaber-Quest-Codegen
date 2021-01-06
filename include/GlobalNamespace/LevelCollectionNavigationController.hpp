@@ -68,8 +68,7 @@ namespace GlobalNamespace {
   class LevelCollectionNavigationController : public HMUI::NavigationController {
     public:
     // Writing base type padding for base size: 0x94 to desired offset: 0x98
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // Nested type: GlobalNamespace::LevelCollectionNavigationController::$$c__DisplayClass48_0
     class $$c__DisplayClass48_0;
     // private LoadingControl _loadingControl
@@ -161,8 +160,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: showPracticeButtonInDetailView and: actionButtonTextInDetailView
-    private: char __padding12[0x6] = {};
-    public:
+    char __padding12[0x6] = {};
     // private System.String _actionButtonTextInDetailView
     // Size: 0x8
     // Offset: 0xF8
@@ -182,8 +180,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficultyMask) == 0x1);
     // Padding between fields: allowedBeatmapDifficultyMask and: beatmapLevelToBeSelectedAfterPresent
-    private: char __padding15[0x7] = {};
-    public:
+    char __padding15[0x7] = {};
     // private IPreviewBeatmapLevel _beatmapLevelToBeSelectedAfterPresent
     // Size: 0x8
     // Offset: 0x110
@@ -203,8 +200,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hideDetailViewController and: notAllowedCharacteristics
-    private: char __padding18[0x6] = {};
-    public:
+    char __padding18[0x6] = {};
     // private BeatmapCharacteristicSO[] _notAllowedCharacteristics
     // Size: 0x8
     // Offset: 0x120

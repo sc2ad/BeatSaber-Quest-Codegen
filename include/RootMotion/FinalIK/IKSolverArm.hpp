@@ -43,8 +43,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
     // Padding between fields: IKRotation and: chest
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // public RootMotion.FinalIK.IKSolver/Point chest
     // Size: 0x8
     // Offset: 0x70
@@ -82,8 +81,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isLeft and: arm
-    private: char __padding7[0x7] = {};
-    public:
+    char __padding7[0x7] = {};
     // public RootMotion.FinalIK.IKSolverVR/Arm arm
     // Size: 0x8
     // Offset: 0xA0

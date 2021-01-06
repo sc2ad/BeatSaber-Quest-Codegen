@@ -129,8 +129,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::FBIKChain::Smoothing) == 0x4);
     // Padding between fields: pushSmoothing and: nodes
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // public RootMotion.FinalIK.IKSolver/Node[] nodes
     // Size: 0x8
     // Offset: 0x30
@@ -168,8 +167,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: initiated and: length
-    private: char __padding12[0x3] = {};
-    public:
+    char __padding12[0x3] = {};
     // private System.Single length
     // Size: 0x4
     // Offset: 0x58

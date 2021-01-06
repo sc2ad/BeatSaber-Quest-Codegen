@@ -61,8 +61,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: encoding and: externalContent
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // private Org.BouncyCastle.Asn1.Asn1Object externalContent
     // Size: 0x8
     // Offset: 0x30

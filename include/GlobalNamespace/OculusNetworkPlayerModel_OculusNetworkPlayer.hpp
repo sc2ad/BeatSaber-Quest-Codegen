@@ -78,8 +78,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: removed and: inviteToken
-    private: char __padding5[0x6] = {};
-    public:
+    char __padding5[0x6] = {};
     // public System.String inviteToken
     // Size: 0x8
     // Offset: 0x38

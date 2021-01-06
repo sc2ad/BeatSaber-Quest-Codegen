@@ -38,8 +38,7 @@ namespace System::Threading {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: outerECBelongsToScope and: hecsw
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // System.Object hecsw
     // Size: 0x8
     // Offset: 0x10

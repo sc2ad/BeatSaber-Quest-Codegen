@@ -143,8 +143,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(System::Guid) == 0x10);
     // Padding between fields: m_guid and: m_eventData
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // System.Diagnostics.Tracing.EventSource/EventMetadata[] m_eventData
     // Size: 0x8
     // Offset: 0x38
@@ -176,8 +175,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_eventSourceEnabled and: m_level
-    private: char __padding8[0x3] = {};
-    public:
+    char __padding8[0x3] = {};
     // System.Diagnostics.Tracing.EventLevel m_level
     // Size: 0x4
     // Offset: 0x58
@@ -185,8 +183,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(System::Diagnostics::Tracing::EventLevel) == 0x4);
     // Padding between fields: m_level and: m_matchAnyKeyword
-    private: char __padding9[0x4] = {};
-    public:
+    char __padding9[0x4] = {};
     // System.Diagnostics.Tracing.EventKeywords m_matchAnyKeyword
     // Size: 0x8
     // Offset: 0x60
@@ -212,8 +209,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_completelyInited and: m_constructionException
-    private: char __padding13[0x7] = {};
-    public:
+    char __padding13[0x7] = {};
     // private System.Exception m_constructionException
     // Size: 0x8
     // Offset: 0x80
@@ -227,8 +223,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
     // Padding between fields: m_outOfBandMessageCount and: m_deferredCommands
-    private: char __padding15[0x7] = {};
-    public:
+    char __padding15[0x7] = {};
     // private System.Diagnostics.Tracing.EventCommandEventArgs m_deferredCommands
     // Size: 0x8
     // Offset: 0x90
@@ -248,8 +243,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(System::Diagnostics::Tracing::SessionMask) == 0x4);
     // Padding between fields: m_curLiveSessions and: m_etwSessionIdMap
-    private: char __padding18[0x4] = {};
-    public:
+    char __padding18[0x4] = {};
     // private System.Diagnostics.Tracing.EtwSession[] m_etwSessionIdMap
     // Size: 0x8
     // Offset: 0xA8
@@ -275,8 +269,7 @@ namespace System::Diagnostics::Tracing {
     // Field size check
     static_assert(sizeof(System::Diagnostics::Tracing::SessionMask) == 0x4);
     // Padding between fields: m_activityFilteringForETWEnabled and: m_activityTracker
-    private: char __padding22[0x4] = {};
-    public:
+    char __padding22[0x4] = {};
     // private System.Diagnostics.Tracing.ActivityTracker m_activityTracker
     // Size: 0x8
     // Offset: 0xC8

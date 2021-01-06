@@ -129,8 +129,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: wasActivatedBefore and: title
-    private: char __padding9[0x7] = {};
-    public:
+    char __padding9[0x7] = {};
     // private System.String _title
     // Size: 0x8
     // Offset: 0x68
@@ -198,8 +197,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: showBackButton and: prevEventSystem
-    private: char __padding20[0x3] = {};
-    public:
+    char __padding20[0x3] = {};
     // private UnityEngine.EventSystems.EventSystem _prevEventSystem
     // Size: 0x8
     // Offset: 0xA0

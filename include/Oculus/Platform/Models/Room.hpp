@@ -86,8 +86,7 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: IsMembershipLocked and: JoinPolicy
-    private: char __padding6[0x3] = {};
-    public:
+    char __padding6[0x3] = {};
     // public readonly Oculus.Platform.RoomJoinPolicy JoinPolicy
     // Size: 0x4
     // Offset: 0x44
@@ -101,8 +100,7 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(Oculus::Platform::RoomJoinability) == 0x4);
     // Padding between fields: Joinability and: MatchedUsersOptional
-    private: char __padding8[0x4] = {};
-    public:
+    char __padding8[0x4] = {};
     // public readonly Oculus.Platform.Models.MatchmakingEnqueuedUserList MatchedUsersOptional
     // Size: 0x8
     // Offset: 0x50
@@ -123,8 +121,7 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(uint) == 0x4);
     // Padding between fields: MaxUsers and: Name
-    private: char __padding11[0x4] = {};
-    public:
+    char __padding11[0x4] = {};
     // public readonly System.String Name
     // Size: 0x8
     // Offset: 0x68
@@ -164,8 +161,7 @@ namespace Oculus::Platform::Models {
     // Field size check
     static_assert(sizeof(Oculus::Platform::RoomType) == 0x4);
     // Padding between fields: Type and: UsersOptional
-    private: char __padding17[0x4] = {};
-    public:
+    char __padding17[0x4] = {};
     // public readonly Oculus.Platform.Models.UserList UsersOptional
     // Size: 0x8
     // Offset: 0x98

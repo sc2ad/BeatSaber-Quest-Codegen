@@ -39,8 +39,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(uint) == 0x4);
     // Padding between fields: NumIndices and: VertexPositions
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // public OVRPlugin/Vector3f[] VertexPositions
     // Size: 0x8
     // Offset: 0x20

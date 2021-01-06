@@ -40,8 +40,7 @@ namespace System::Text {
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
     // Padding between fields: charLeftOver and: m_encoding
-    private: char __padding0[0x6] = {};
-    public:
+    char __padding0[0x6] = {};
     // protected System.Text.Encoding m_encoding
     // Size: 0x8
     // Offset: 0x28
@@ -61,8 +60,7 @@ namespace System::Text {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_throwOnOverflow and: m_charsUsed
-    private: char __padding3[0x2] = {};
-    public:
+    char __padding3[0x2] = {};
     // System.Int32 m_charsUsed
     // Size: 0x4
     // Offset: 0x34

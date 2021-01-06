@@ -88,8 +88,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: gradient and: color0
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // private UnityEngine.Color _color0
     // Size: 0x10
     // Offset: 0x100
@@ -115,8 +114,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: flipGradientColors and: curvedCanvasSettingsHelper
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
     // Size: 0x8
     // Offset: 0x128

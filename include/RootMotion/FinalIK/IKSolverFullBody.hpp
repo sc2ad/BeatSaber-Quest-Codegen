@@ -45,8 +45,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: iterations and: chain
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public RootMotion.FinalIK.FBIKChain[] chain
     // Size: 0x8
     // Offset: 0x60
@@ -84,8 +83,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: FABRIKPass and: OnPreRead
-    private: char __padding6[0x7] = {};
-    public:
+    char __padding6[0x7] = {};
     // public RootMotion.FinalIK.IKSolver/UpdateDelegate OnPreRead
     // Size: 0x8
     // Offset: 0x90

@@ -132,8 +132,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRHand::Hand) == 0x4);
     // Padding between fields: HandType and: pointerPoseRoot
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private UnityEngine.Transform _pointerPoseRoot
     // Size: 0x8
     // Offset: 0x20
@@ -188,8 +187,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: IsPointerPoseValid and: PointerPose
-    private: char __padding8[0x3] = {};
-    public:
+    char __padding8[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD86BD4
     // private UnityEngine.Transform <PointerPose>k__BackingField
     // Size: 0x8

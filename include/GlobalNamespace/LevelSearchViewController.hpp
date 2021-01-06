@@ -171,8 +171,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: onlyFavorites and: cancellationTokenSource
-    private: char __padding14[0x7] = {};
-    public:
+    char __padding14[0x7] = {};
     // private System.Threading.CancellationTokenSource _cancellationTokenSource
     // Size: 0x8
     // Offset: 0xE8

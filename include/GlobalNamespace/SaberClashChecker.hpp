@@ -33,8 +33,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: sabersAreClashing and: clashingPoint
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // private UnityEngine.Vector3 _clashingPoint
     // Size: 0xC
     // Offset: 0x14

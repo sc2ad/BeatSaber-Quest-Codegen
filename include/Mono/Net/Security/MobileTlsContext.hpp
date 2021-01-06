@@ -61,8 +61,7 @@ namespace Mono::Net::Security {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: serverMode and: targetHost
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // private System.String targetHost
     // Size: 0x8
     // Offset: 0x20
@@ -82,8 +81,7 @@ namespace Mono::Net::Security {
     // Field size check
     static_assert(sizeof(System::Security::Authentication::SslProtocols) == 0x4);
     // Padding between fields: enabledProtocols and: serverCertificate
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate
     // Size: 0x8
     // Offset: 0x38
@@ -103,8 +101,7 @@ namespace Mono::Net::Security {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: askForClientCert and: certificateValidator
-    private: char __padding7[0x7] = {};
-    public:
+    char __padding7[0x7] = {};
     // private Mono.Security.Interface.ICertificateValidator2 certificateValidator
     // Size: 0x8
     // Offset: 0x50

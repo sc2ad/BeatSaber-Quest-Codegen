@@ -30,8 +30,7 @@ namespace RootMotion::FinalIK {
   class IKSolverLimb : public RootMotion::FinalIK::IKSolverTrigonometric {
     public:
     // Writing base type padding for base size: 0xA5 to desired offset: 0xA8
-    private: char ___base_padding[0x3] = {};
-    public:
+    char ___base_padding[0x3] = {};
     // Nested type: RootMotion::FinalIK::IKSolverLimb::BendModifier
     struct BendModifier;
     // Nested type: RootMotion::FinalIK::IKSolverLimb::AxisDirection
@@ -135,8 +134,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: maintainRotationFor1Frame and: defaultRootRotation
-    private: char __padding6[0x2] = {};
-    public:
+    char __padding6[0x2] = {};
     // private UnityEngine.Quaternion defaultRootRotation
     // Size: 0x10
     // Offset: 0xC4
@@ -180,8 +178,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: animationNormal and: axisDirectionsLeft
-    private: char __padding13[0x4] = {};
-    public:
+    char __padding13[0x4] = {};
     // private RootMotion.FinalIK.IKSolverLimb/AxisDirection[] axisDirectionsLeft
     // Size: 0x8
     // Offset: 0x130

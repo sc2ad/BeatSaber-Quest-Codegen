@@ -26,8 +26,7 @@ namespace System::Collections::Specialized {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: pos and: coll
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.Collections.Specialized.NameObjectCollectionBase _coll
     // Size: 0x8
     // Offset: 0x18

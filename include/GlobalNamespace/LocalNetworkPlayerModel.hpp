@@ -120,8 +120,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: partyEnabled and: maxPlayerCount
-    private: char __padding7[0x2] = {};
-    public:
+    char __padding7[0x2] = {};
     // private System.Int32 _maxPlayerCount
     // Size: 0x4
     // Offset: 0xAC

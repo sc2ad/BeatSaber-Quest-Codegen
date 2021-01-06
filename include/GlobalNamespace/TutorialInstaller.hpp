@@ -46,8 +46,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: songBPM and: beatmapObjectSpawnControllerPlayerHeightSetterPrefab
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // [SpaceAttribute] Offset: 0xDCC328
     // private BeatmapObjectSpawnControllerPlayerHeightSetter _beatmapObjectSpawnControllerPlayerHeightSetterPrefab
     // Size: 0x8

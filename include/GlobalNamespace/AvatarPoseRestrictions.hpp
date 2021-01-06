@@ -65,8 +65,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: forceHeadPosition and: centerHeadOffset
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // private UnityEngine.Vector3 _centerHeadOffset
     // Size: 0xC
     // Offset: 0x30
@@ -74,8 +73,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: centerHeadOffset and: avatarPoseController
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // [InjectAttribute] Offset: 0xDC1E80
     // private readonly AvatarPoseController _avatarPoseController
     // Size: 0x8

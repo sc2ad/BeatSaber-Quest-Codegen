@@ -59,8 +59,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: editInPlayMode and: colors
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // private readonly UnityEngine.Vector4[] _colors
     // Size: 0x8
     // Offset: 0x30
@@ -86,8 +85,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: highlighted and: uvSegment
-    private: char __padding6[0x3] = {};
-    public:
+    char __padding6[0x3] = {};
     // private System.Int32 _uvSegment
     // Size: 0x4
     // Offset: 0x4C

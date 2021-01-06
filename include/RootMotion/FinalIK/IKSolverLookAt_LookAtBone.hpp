@@ -27,8 +27,7 @@ namespace RootMotion::FinalIK {
   class IKSolverLookAt::LookAtBone : public RootMotion::FinalIK::IKSolver::Bone {
     public:
     // Writing base type padding for base size: 0x71 to desired offset: 0x74
-    private: char ___base_padding[0x3] = {};
-    public:
+    char ___base_padding[0x3] = {};
     // public UnityEngine.Vector3 baseForwardOffsetEuler
     // Size: 0xC
     // Offset: 0x74

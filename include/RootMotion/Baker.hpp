@@ -109,8 +109,7 @@ namespace RootMotion {
     // Field size check
     static_assert(sizeof(RootMotion::Baker::Mode) == 0x4);
     // Padding between fields: mode and: animationClips
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // [TooltipAttribute] Offset: 0xDB509C
     // public UnityEngine.AnimationClip[] animationClips
     // Size: 0x8
@@ -133,8 +132,7 @@ namespace RootMotion {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: loop and: saveToFolder
-    private: char __padding5[0x7] = {};
-    public:
+    char __padding5[0x7] = {};
     // [TooltipAttribute] Offset: 0xDB5144
     // public System.String saveToFolder
     // Size: 0x8
@@ -164,8 +162,7 @@ namespace RootMotion {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isBaking and: bakingProgress
-    private: char __padding9[0x3] = {};
-    public:
+    char __padding9[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDB51FC
     // private System.Single <bakingProgress>k__BackingField
     // Size: 0x4

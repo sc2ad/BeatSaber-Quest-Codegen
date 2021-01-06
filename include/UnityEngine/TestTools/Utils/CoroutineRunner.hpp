@@ -67,8 +67,7 @@ namespace UnityEngine::TestTools::Utils {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_Timeout and: m_Controller
-    private: char __padding2[0x5] = {};
-    public:
+    char __padding2[0x5] = {};
     // private readonly UnityEngine.MonoBehaviour m_Controller
     // Size: 0x8
     // Offset: 0x18

@@ -114,8 +114,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: avatarCreated and: lastSelectedBeatmapDifficulty
-    private: char __padding6[0x3] = {};
-    public:
+    char __padding6[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC4B0C
     // private BeatmapDifficulty <lastSelectedBeatmapDifficulty>k__BackingField
     // Size: 0x4
@@ -124,8 +123,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
     // Padding between fields: lastSelectedBeatmapDifficulty and: lastSelectedBeatmapCharacteristic
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC4B1C
     // private BeatmapCharacteristicSO <lastSelectedBeatmapCharacteristic>k__BackingField
     // Size: 0x8

@@ -127,8 +127,7 @@ namespace System::Net::Sockets {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useOverlappedIO and: linger_timeout
-    private: char __padding2[0x1] = {};
-    public:
+    char __padding2[0x1] = {};
     // private System.Int32 linger_timeout
     // Size: 0x4
     // Offset: 0x14
@@ -154,8 +153,7 @@ namespace System::Net::Sockets {
     // Field size check
     static_assert(sizeof(System::Net::Sockets::ProtocolType) == 0x4);
     // Padding between fields: protocolType and: m_Handle
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // System.Net.Sockets.SafeSocketHandle m_Handle
     // Size: 0x8
     // Offset: 0x28
@@ -199,8 +197,7 @@ namespace System::Net::Sockets {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: is_connected and: m_IntCleanedUp
-    private: char __padding13[0x1] = {};
-    public:
+    char __padding13[0x1] = {};
     // private System.Int32 m_IntCleanedUp
     // Size: 0x4
     // Offset: 0x4C

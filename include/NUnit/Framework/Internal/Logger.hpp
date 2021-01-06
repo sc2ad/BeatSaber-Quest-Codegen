@@ -44,8 +44,7 @@ namespace NUnit::Framework::Internal {
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::InternalTraceLevel) == 0x4);
     // Padding between fields: maxLevel and: writer
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private System.IO.TextWriter writer
     // Size: 0x8
     // Offset: 0x28

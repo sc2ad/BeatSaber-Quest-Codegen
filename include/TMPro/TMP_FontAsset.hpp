@@ -66,8 +66,7 @@ namespace TMPro {
   class TMP_FontAsset : public TMPro::TMP_Asset {
     public:
     // Writing base type padding for base size: 0x2C to desired offset: 0x30
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // Nested type: TMPro::TMP_FontAsset::$$c
     class $$c;
     // private System.String m_Version
@@ -95,8 +94,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(TMPro::AtlasPopulationMode) == 0x4);
     // Padding between fields: m_AtlasPopulationMode and: m_FaceInfo
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // private UnityEngine.TextCore.FaceInfo m_FaceInfo
     // Size: 0x54
     // Offset: 0x50
@@ -104,8 +102,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(UnityEngine::TextCore::FaceInfo) == 0x54);
     // Padding between fields: m_FaceInfo and: m_GlyphTable
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> m_GlyphTable
     // Size: 0x8
     // Offset: 0xA8
@@ -149,8 +146,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_AtlasTextureIndex and: m_UsedGlyphRects
-    private: char __padding11[0x4] = {};
-    public:
+    char __padding11[0x4] = {};
     // private System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> m_UsedGlyphRects
     // Size: 0x8
     // Offset: 0xE0
@@ -237,8 +233,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(TMPro::FontAssetCreationSettings) == 0x55);
     // Padding between fields: m_CreationSettings and: m_FontWeightTable
-    private: char __padding25[0x3] = {};
-    public:
+    char __padding25[0x3] = {};
     // private TMPro.TMP_FontWeightPair[] m_FontWeightTable
     // Size: 0x8
     // Offset: 0x190
@@ -300,8 +295,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_IsFontAssetLookupTablesDirty and: m_GlyphsToPack
-    private: char __padding35[0x4] = {};
-    public:
+    char __padding35[0x4] = {};
     // private System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> m_GlyphsToPack
     // Size: 0x8
     // Offset: 0x1B8

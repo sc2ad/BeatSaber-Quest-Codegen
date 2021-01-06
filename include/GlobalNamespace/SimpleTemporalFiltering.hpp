@@ -37,8 +37,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: prevTemporalFilteringTextureIdx and: temporalFilteringMaterial
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private UnityEngine.Material _temporalFilteringMaterial
     // Size: 0x8
     // Offset: 0x20

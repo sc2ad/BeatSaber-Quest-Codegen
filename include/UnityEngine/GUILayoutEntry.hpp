@@ -76,8 +76,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: consideredForMargin and: m_Style
-    private: char __padding7[0x7] = {};
-    public:
+    char __padding7[0x7] = {};
     // private UnityEngine.GUIStyle m_Style
     // Size: 0x8
     // Offset: 0x40

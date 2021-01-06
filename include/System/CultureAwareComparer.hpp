@@ -41,8 +41,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: ignoreCase and: options
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // [OptionalFieldAttribute] Offset: 0xD3DEAC
     // private System.Globalization.CompareOptions _options
     // Size: 0x4

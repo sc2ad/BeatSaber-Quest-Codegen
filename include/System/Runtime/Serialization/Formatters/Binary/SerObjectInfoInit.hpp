@@ -40,8 +40,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: objectInfoIdCount and: oiPool
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // System.Runtime.Serialization.Formatters.Binary.SerStack oiPool
     // Size: 0x8
     // Offset: 0x20

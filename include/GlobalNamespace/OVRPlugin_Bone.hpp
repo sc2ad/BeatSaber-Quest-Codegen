@@ -33,8 +33,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int16_t) == 0x2);
     // Padding between fields: ParentBoneIndex and: Pose
-    private: char __padding1[0x2] = {};
-    public:
+    char __padding1[0x2] = {};
     // public OVRPlugin/Posef Pose
     // Size: 0x1C
     // Offset: 0x8

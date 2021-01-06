@@ -57,8 +57,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: m_SystemTime and: particleSystem
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD8E180
     // private UnityEngine.ParticleSystem <particleSystem>k__BackingField
     // Size: 0x8

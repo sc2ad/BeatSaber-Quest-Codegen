@@ -69,8 +69,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useLocalPosition and: followTransform
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // private UnityEngine.Transform _followTransform
     // Size: 0x8
     // Offset: 0x38

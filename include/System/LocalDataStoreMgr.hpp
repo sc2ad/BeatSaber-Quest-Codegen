@@ -50,8 +50,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_FirstAvailableSlot and: m_ManagedLocalDataStores
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private System.Collections.Generic.List`1<System.LocalDataStore> m_ManagedLocalDataStores
     // Size: 0x8
     // Offset: 0x20

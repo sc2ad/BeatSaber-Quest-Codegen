@@ -85,8 +85,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: rowHeight and: cellInfo
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private System.Collections.Generic.List`1<NetworkPlayersTableView/CellInfo> _cellInfo
     // Size: 0x8
     // Offset: 0x40
@@ -100,8 +99,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: selectedCellIndex and: selectedPlayerID
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // private System.String _selectedPlayerID
     // Size: 0x8
     // Offset: 0x50

@@ -42,8 +42,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: disableMainCamera and: gameScenesManager
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // [InjectAttribute] Offset: 0xDC7DD0
     // private GameScenesManager _gameScenesManager
     // Size: 0x8

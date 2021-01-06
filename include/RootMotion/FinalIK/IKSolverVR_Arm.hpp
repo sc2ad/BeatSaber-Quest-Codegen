@@ -217,8 +217,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasShoulder and: chestForwardAxis
-    private: char __padding19[0x3] = {};
-    public:
+    char __padding19[0x3] = {};
     // private UnityEngine.Vector3 chestForwardAxis
     // Size: 0xC
     // Offset: 0xEC

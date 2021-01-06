@@ -36,8 +36,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: bloomFogEnabled and: transition
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // private System.Single _transition
     // Size: 0x4
     // Offset: 0x1C

@@ -52,8 +52,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: weight and: target
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // [HeaderAttribute] Offset: 0xDB7D10
     // [TooltipAttribute] Offset: 0xDB7D10
     // public UnityEngine.Transform target
@@ -85,8 +84,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: smoothTurnTowardsTarget and: maxRadiansDelta
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // [TooltipAttribute] Offset: 0xDB7E40
     // public System.Single maxRadiansDelta
     // Size: 0x4
@@ -146,8 +144,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: turnToTarget and: turnToTargetTime
-    private: char __padding13[0x3] = {};
-    public:
+    char __padding13[0x3] = {};
     // [TooltipAttribute] Offset: 0xDB8044
     // public System.Single turnToTargetTime
     // Size: 0x4
@@ -164,8 +161,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useAnimatedAimDirection and: animatedAimDirection
-    private: char __padding15[0x3] = {};
-    public:
+    char __padding15[0x3] = {};
     // [TooltipAttribute] Offset: 0xDB80DC
     // public UnityEngine.Vector3 animatedAimDirection
     // Size: 0xC
@@ -222,8 +218,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: turningToTarget and: turnToTargetMlp
-    private: char __padding24[0x2] = {};
-    public:
+    char __padding24[0x2] = {};
     // private System.Single turnToTargetMlp
     // Size: 0x4
     // Offset: 0xB0

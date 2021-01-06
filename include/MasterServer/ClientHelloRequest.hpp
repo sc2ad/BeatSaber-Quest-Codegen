@@ -35,8 +35,7 @@ namespace MasterServer {
   class ClientHelloRequest : public GlobalNamespace::BaseMasterServerReliableRequest/*, public MasterServer::IHandshakeClientToServerMessage*/ {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // public readonly System.Byte[] random
     // Size: 0x8
     // Offset: 0x18

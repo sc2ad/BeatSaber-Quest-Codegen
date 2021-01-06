@@ -66,8 +66,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: highquality and: scale
-    private: char __padding3[0x1] = {};
-    public:
+    char __padding3[0x1] = {};
     // [TooltipAttribute] Offset: 0xD8A50C
     // public System.Single scale
     // Size: 0x4
@@ -115,8 +114,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(Valve::VR::VROverlayInputMethod) == 0x4);
     // Padding between fields: inputMethod and: handle
-    private: char __padding10[0x4] = {};
-    public:
+    char __padding10[0x4] = {};
     // private System.UInt64 handle
     // Size: 0x8
     // Offset: 0x58

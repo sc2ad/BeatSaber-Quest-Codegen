@@ -52,8 +52,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: valid and: state
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // private Valve.VR.VRControllerState_t state
     // Size: 0x40
     // Offset: 0x18
@@ -73,8 +72,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(Valve::VR::TrackedDevicePose_t) == 0x4E);
     // Padding between fields: pose and: prevFrameCount
-    private: char __padding4[0x2] = {};
-    public:
+    char __padding4[0x2] = {};
     // private System.Int32 prevFrameCount
     // Size: 0x4
     // Offset: 0xE8

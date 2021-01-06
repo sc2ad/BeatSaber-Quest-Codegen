@@ -40,8 +40,7 @@ namespace System {
     // Field size check
     static_assert(sizeof(System::Version::ParseFailureKind) == 0x4);
     // Padding between fields: m_failure and: m_exceptionArgument
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // System.String m_exceptionArgument
     // Size: 0x8
     // Offset: 0x10

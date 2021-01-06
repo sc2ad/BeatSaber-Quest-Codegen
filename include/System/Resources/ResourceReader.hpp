@@ -134,8 +134,7 @@ namespace System::Resources {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: numResources and: ums
-    private: char __padding11[0x4] = {};
-    public:
+    char __padding11[0x4] = {};
     // private System.IO.UnmanagedMemoryStream _ums
     // Size: 0x8
     // Offset: 0x70

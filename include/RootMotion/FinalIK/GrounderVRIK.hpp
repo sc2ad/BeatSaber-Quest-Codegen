@@ -33,8 +33,7 @@ namespace RootMotion::FinalIK {
   class GrounderVRIK : public RootMotion::FinalIK::Grounder {
     public:
     // Writing base type padding for base size: 0x39 to desired offset: 0x40
-    private: char ___base_padding[0x7] = {};
-    public:
+    char ___base_padding[0x7] = {};
     // [TooltipAttribute] Offset: 0xDB5F24
     // public RootMotion.FinalIK.VRIK ik
     // Size: 0x8

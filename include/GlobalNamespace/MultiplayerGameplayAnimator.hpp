@@ -63,8 +63,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: leadingSwitchCrossFadeDuration and: gameplayLightsAnimators
-    private: char __padding3[0x4] = {};
-    public:
+    char __padding3[0x4] = {};
     // [SpaceAttribute] Offset: 0xDC9ECC
     // protected LightsAnimator[] _gameplayLightsAnimators
     // Size: 0x8

@@ -96,8 +96,7 @@ namespace Mono::Security::X509 {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: certsChanged and: iterations
-    private: char __padding6[0x1] = {};
-    public:
+    char __padding6[0x1] = {};
     // private System.Int32 _iterations
     // Size: 0x4
     // Offset: 0x34

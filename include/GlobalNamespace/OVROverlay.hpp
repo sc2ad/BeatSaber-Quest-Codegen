@@ -177,8 +177,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isProtectedContent and: srcRectLeft
-    private: char __padding2[0x2] = {};
-    public:
+    char __padding2[0x2] = {};
     // public UnityEngine.Rect srcRectLeft
     // Size: 0x10
     // Offset: 0x20
@@ -222,8 +221,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: overridePerLayerColorScaleAndOffset and: colorScale
-    private: char __padding9[0x2] = {};
-    public:
+    char __padding9[0x2] = {};
     // public UnityEngine.Vector4 colorScale
     // Size: 0x10
     // Offset: 0xA4
@@ -256,8 +254,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isExternalSurface and: externalSurfaceWidth
-    private: char __padding14[0x1] = {};
-    public:
+    char __padding14[0x1] = {};
     // [TooltipAttribute] Offset: 0xD8680C
     // public System.Int32 externalSurfaceWidth
     // Size: 0x4
@@ -287,8 +284,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: noDepthBufferTesting and: currentOverlayShape
-    private: char __padding18[0x3] = {};
-    public:
+    char __padding18[0x3] = {};
     // [TooltipAttribute] Offset: 0xD868EC
     // public OVROverlay/OverlayShape currentOverlayShape
     // Size: 0x4
@@ -334,8 +330,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isOverridePending and: layerTextures
-    private: char __padding25[0x7] = {};
-    public:
+    char __padding25[0x7] = {};
     // private OVROverlay/LayerTexture[] layerTextures
     // Size: 0x8
     // Offset: 0x108
@@ -349,8 +344,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRPlugin::LayerDesc) == 0x3C);
     // Padding between fields: layerDesc and: stageCount
-    private: char __padding27[0x4] = {};
-    public:
+    char __padding27[0x4] = {};
     // private System.Int32 stageCount
     // Size: 0x4
     // Offset: 0x150

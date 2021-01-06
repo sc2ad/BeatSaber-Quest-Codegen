@@ -59,8 +59,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: m_NextliveMessage and: m_SendQueue
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private readonly System.Collections.Generic.Queue`1<UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender/QueueData> m_SendQueue
     // Size: 0x8
     // Offset: 0x20

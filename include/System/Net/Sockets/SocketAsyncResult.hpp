@@ -54,8 +54,7 @@ namespace System::Net::Sockets {
   class SocketAsyncResult : public System::IOAsyncResult {
     public:
     // Writing base type padding for base size: 0x2A to desired offset: 0x30
-    private: char ___base_padding[0x6] = {};
-    public:
+    char ___base_padding[0x6] = {};
     // Nested type: System::Net::Sockets::SocketAsyncResult::$$c
     class $$c;
     // public System.Net.Sockets.Socket socket
@@ -71,8 +70,7 @@ namespace System::Net::Sockets {
     // Field size check
     static_assert(sizeof(System::Net::Sockets::SocketOperation) == 0x4);
     // Padding between fields: operation and: DelayedException
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // private System.Exception DelayedException
     // Size: 0x8
     // Offset: 0x40
@@ -110,8 +108,7 @@ namespace System::Net::Sockets {
     // Field size check
     static_assert(sizeof(System::Net::Sockets::SocketFlags) == 0x4);
     // Padding between fields: SockFlags and: AcceptSocket
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // public System.Net.Sockets.Socket AcceptSocket
     // Size: 0x8
     // Offset: 0x68
@@ -131,8 +128,7 @@ namespace System::Net::Sockets {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: Port and: Buffers
-    private: char __padding10[0x4] = {};
-    public:
+    char __padding10[0x4] = {};
     // public System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> Buffers
     // Size: 0x8
     // Offset: 0x80
@@ -146,8 +142,7 @@ namespace System::Net::Sockets {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: ReuseSocket and: CurrentAddress
-    private: char __padding12[0x3] = {};
-    public:
+    char __padding12[0x3] = {};
     // public System.Int32 CurrentAddress
     // Size: 0x4
     // Offset: 0x8C

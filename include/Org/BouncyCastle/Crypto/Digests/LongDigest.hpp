@@ -26,8 +26,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: MyByteLength and: xBuf
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private System.Byte[] xBuf
     // Size: 0x8
     // Offset: 0x18
@@ -41,8 +40,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: xBufOff and: byteCount1
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private System.Int64 byteCount1
     // Size: 0x8
     // Offset: 0x28

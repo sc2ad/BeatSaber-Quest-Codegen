@@ -28,8 +28,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_Complete and: ModuleAuthenticationType
-    private: char __padding1[0x7] = {};
-    public:
+    char __padding1[0x7] = {};
     // System.String ModuleAuthenticationType
     // Size: 0x8
     // Offset: 0x20

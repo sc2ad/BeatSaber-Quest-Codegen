@@ -74,8 +74,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: forEncryption and: privParam
-    private: char __padding5[0x7] = {};
-    public:
+    char __padding5[0x7] = {};
     // private Org.BouncyCastle.Crypto.ICipherParameters privParam
     // Size: 0x8
     // Offset: 0x40

@@ -54,8 +54,7 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_PerformingGraphicUpdate and: m_CanvasUpdateProfilerStrings
-    private: char __padding1[0x6] = {};
-    public:
+    char __padding1[0x6] = {};
     // private System.String[] m_CanvasUpdateProfilerStrings
     // Size: 0x8
     // Offset: 0x18

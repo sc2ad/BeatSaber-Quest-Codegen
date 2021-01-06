@@ -43,8 +43,7 @@ namespace System::IO {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasWildcard and: pattern
-    private: char __padding2[0x6] = {};
-    public:
+    char __padding2[0x6] = {};
     // private System.String pattern
     // Size: 0x8
     // Offset: 0x20

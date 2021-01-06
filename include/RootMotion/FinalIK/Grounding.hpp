@@ -161,8 +161,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: rotateSolver and: pelvisSpeed
-    private: char __padding10[0x3] = {};
-    public:
+    char __padding10[0x3] = {};
     // [TooltipAttribute] Offset: 0xDB6214
     // public System.Single pelvisSpeed
     // Size: 0x4
@@ -207,8 +206,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: overstepFallsDown and: quality
-    private: char __padding16[0x3] = {};
-    public:
+    char __padding16[0x3] = {};
     // [TooltipAttribute] Offset: 0xDB6380
     // public RootMotion.FinalIK.Grounding/Quality quality
     // Size: 0x4
@@ -238,8 +236,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isGrounded and: root
-    private: char __padding20[0x7] = {};
-    public:
+    char __padding20[0x7] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDB63E8
     // private UnityEngine.Transform <root>k__BackingField
     // Size: 0x8

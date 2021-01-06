@@ -433,8 +433,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_IsDrivenByLayoutComponents and: m_ScrollPosition
-    private: char __padding7[0x3] = {};
-    public:
+    char __padding7[0x3] = {};
     // private System.Single m_ScrollPosition
     // Size: 0x4
     // Offset: 0x12C
@@ -466,8 +465,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
     // Padding between fields: m_AsteriskChar and: m_KeyboardType
-    private: char __padding12[0x2] = {};
-    public:
+    char __padding12[0x2] = {};
     // private UnityEngine.TouchScreenKeyboardType m_KeyboardType
     // Size: 0x4
     // Offset: 0x140
@@ -493,8 +491,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_HideSoftKeyboard and: m_CharacterValidation
-    private: char __padding16[0x2] = {};
-    public:
+    char __padding16[0x2] = {};
     // private TMPro.TMP_InputField/CharacterValidation m_CharacterValidation
     // Size: 0x4
     // Offset: 0x14C
@@ -586,8 +583,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_CustomCaretColor and: m_SelectionColor
-    private: char __padding31[0x3] = {};
-    public:
+    char __padding31[0x3] = {};
     // private UnityEngine.Color m_SelectionColor
     // Size: 0x10
     // Offset: 0x1BC
@@ -595,8 +591,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Padding between fields: m_SelectionColor and: m_Text
-    private: char __padding32[0x4] = {};
-    public:
+    char __padding32[0x4] = {};
     // [TextAreaAttribute] Offset: 0xD8BADC
     // protected System.String m_Text
     // Size: 0x8
@@ -631,8 +626,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_RichText and: m_StringPosition
-    private: char __padding37[0x2] = {};
-    public:
+    char __padding37[0x2] = {};
     // protected System.Int32 m_StringPosition
     // Size: 0x4
     // Offset: 0x1E4
@@ -658,8 +652,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_CaretSelectPosition and: caretRectTrans
-    private: char __padding41[0x4] = {};
-    public:
+    char __padding41[0x4] = {};
     // private UnityEngine.RectTransform caretRectTrans
     // Size: 0x8
     // Offset: 0x1F8
@@ -721,8 +714,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_CaretVisible and: m_BlinkCoroutine
-    private: char __padding51[0x3] = {};
-    public:
+    char __padding51[0x3] = {};
     // private UnityEngine.Coroutine m_BlinkCoroutine
     // Size: 0x8
     // Offset: 0x228
@@ -736,8 +728,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: m_BlinkStartTime and: m_DragCoroutine
-    private: char __padding53[0x4] = {};
-    public:
+    char __padding53[0x4] = {};
     // private UnityEngine.Coroutine m_DragCoroutine
     // Size: 0x8
     // Offset: 0x238
@@ -763,8 +754,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_HasDoneFocusTransition and: m_WaitForSecondsRealtime
-    private: char __padding57[0x6] = {};
-    public:
+    char __padding57[0x6] = {};
     // private UnityEngine.WaitForSecondsRealtime m_WaitForSecondsRealtime
     // Size: 0x8
     // Offset: 0x250
@@ -808,8 +798,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_isLastKeyBackspace and: m_PointerDownClickStartTime
-    private: char __padding64[0x2] = {};
-    public:
+    char __padding64[0x2] = {};
     // private System.Single m_PointerDownClickStartTime
     // Size: 0x4
     // Offset: 0x260
@@ -829,8 +818,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: m_DoubleClickDelay and: m_GlobalFontAsset
-    private: char __padding67[0x4] = {};
-    public:
+    char __padding67[0x4] = {};
     // protected TMPro.TMP_FontAsset m_GlobalFontAsset
     // Size: 0x8
     // Offset: 0x270
@@ -868,8 +856,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_ReleaseSelection and: m_SelectedObject
-    private: char __padding73[0x3] = {};
-    public:
+    char __padding73[0x3] = {};
     // private UnityEngine.GameObject m_SelectedObject
     // Size: 0x8
     // Offset: 0x280
@@ -889,8 +876,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_isRichTextEditingAllowed and: m_LineLimit
-    private: char __padding76[0x2] = {};
-    public:
+    char __padding76[0x2] = {};
     // protected System.Int32 m_LineLimit
     // Size: 0x4
     // Offset: 0x28C
@@ -928,8 +914,7 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_forceRectTransformAdjustment and: m_ProcessingEvent
-    private: char __padding82[0x4] = {};
-    public:
+    char __padding82[0x4] = {};
     // private UnityEngine.Event m_ProcessingEvent
     // Size: 0x8
     // Offset: 0x2A0

@@ -37,8 +37,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: subscriberCount and: messageCallback
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // public UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageEvent messageCallback
     // Size: 0x8
     // Offset: 0x20

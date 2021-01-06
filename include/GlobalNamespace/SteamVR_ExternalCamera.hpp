@@ -181,8 +181,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::SteamVR_ExternalCamera::Config) == 0x49);
     // Padding between fields: config and: configPath
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // public System.String configPath
     // Size: 0x8
     // Offset: 0x68

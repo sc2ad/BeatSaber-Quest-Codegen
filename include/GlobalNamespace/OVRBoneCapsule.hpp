@@ -32,8 +32,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int16_t) == 0x2);
     // Padding between fields: BoneIndex and: CapsuleRigidbody
-    private: char __padding0[0x6] = {};
-    public:
+    char __padding0[0x6] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD86F44
     // private UnityEngine.Rigidbody <CapsuleRigidbody>k__BackingField
     // Size: 0x8

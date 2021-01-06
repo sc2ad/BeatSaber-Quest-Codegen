@@ -178,8 +178,7 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: verticalStretchAmount and: onColors
-    private: char __padding9[0x4] = {};
-    public:
+    char __padding9[0x4] = {};
     // [SpaceAttribute] Offset: 0xDA7350
     // private HMUI.AnimatedSwitchView/ColorBlock _onColors
     // Size: 0x8

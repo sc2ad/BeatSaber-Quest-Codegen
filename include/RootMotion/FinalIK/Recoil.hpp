@@ -34,8 +34,7 @@ namespace RootMotion::FinalIK {
   class Recoil : public RootMotion::FinalIK::OffsetModifier {
     public:
     // Writing base type padding for base size: 0x2C to desired offset: 0x30
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // Nested type: RootMotion::FinalIK::Recoil::RecoilOffset
     class RecoilOffset;
     // Nested type: RootMotion::FinalIK::Recoil::Handedness
@@ -91,8 +90,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: aimIKSolvedLast and: handedness
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // [TooltipAttribute] Offset: 0xDB87E0
     // public RootMotion.FinalIK.Recoil/Handedness handedness
     // Size: 0x4
@@ -108,8 +106,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: twoHanded and: recoilWeight
-    private: char __padding3[0x7] = {};
-    public:
+    char __padding3[0x7] = {};
     // [TooltipAttribute] Offset: 0xDB8850
     // public UnityEngine.AnimationCurve recoilWeight
     // Size: 0x8
@@ -203,8 +200,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: initiated and: blendWeight
-    private: char __padding17[0x3] = {};
-    public:
+    char __padding17[0x3] = {};
     // private System.Single blendWeight
     // Size: 0x4
     // Offset: 0xC8
@@ -230,8 +226,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: handRotationsSet and: aimIKAxis
-    private: char __padding21[0x3] = {};
-    public:
+    char __padding21[0x3] = {};
     // private UnityEngine.Vector3 aimIKAxis
     // Size: 0xC
     // Offset: 0xE4

@@ -44,8 +44,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: practice and: $$9__1
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // public System.Action <>9__1
     // Size: 0x8
     // Offset: 0x28

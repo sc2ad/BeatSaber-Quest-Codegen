@@ -162,8 +162,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::State) == 0x4);
     // Padding between fields: state and: onPlatformTextAlphaTween
-    private: char __padding9[0x4] = {};
-    public:
+    char __padding9[0x4] = {};
     // private Tweening.FloatTween _onPlatformTextAlphaTween
     // Size: 0x8
     // Offset: 0x88

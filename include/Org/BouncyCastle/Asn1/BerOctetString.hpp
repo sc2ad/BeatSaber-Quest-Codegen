@@ -43,8 +43,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: chunkSize and: octs
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private readonly Org.BouncyCastle.Asn1.Asn1OctetString[] octs
     // Size: 0x8
     // Offset: 0x20

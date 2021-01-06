@@ -81,8 +81,7 @@ namespace UnityEngine::ProBuilder {
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::ActionResult::Status) == 0x4);
     // Padding between fields: status and: notification
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDE325C
     // private System.String <notification>k__BackingField
     // Size: 0x8

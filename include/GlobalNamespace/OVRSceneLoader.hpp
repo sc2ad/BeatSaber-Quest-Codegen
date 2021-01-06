@@ -144,8 +144,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: canvasPosUpdated and: scenePath
-    private: char __padding8[0x2] = {};
-    public:
+    char __padding8[0x2] = {};
     // private System.String scenePath
     // Size: 0x8
     // Offset: 0x48

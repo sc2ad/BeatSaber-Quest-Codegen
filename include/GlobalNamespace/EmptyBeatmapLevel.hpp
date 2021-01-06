@@ -131,8 +131,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: songDuration and: environmentInfo
-    private: char __padding11[0x4] = {};
-    public:
+    char __padding11[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC33CC
     // private readonly EnvironmentInfoSO <environmentInfo>k__BackingField
     // Size: 0x8

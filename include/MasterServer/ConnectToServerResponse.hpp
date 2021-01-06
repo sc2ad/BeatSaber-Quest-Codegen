@@ -138,8 +138,7 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(MasterServer::ConnectToServerResponse::Result) == 0x1);
     // Padding between fields: result and: userId
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // public System.String userId
     // Size: 0x8
     // Offset: 0x20
@@ -165,8 +164,7 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(GlobalNamespace::DiscoveryPolicy) == 0x1);
     // Padding between fields: discoveryPolicy and: invitePolicy
-    private: char __padding4[0x3] = {};
-    public:
+    char __padding4[0x3] = {};
     // public InvitePolicy invitePolicy
     // Size: 0x4
     // Offset: 0x3C
@@ -180,8 +178,7 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: maxPlayerCount and: configuration
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // public GameplayServerConfiguration configuration
     // Size: 0x18
     // Offset: 0x48
@@ -201,8 +198,7 @@ namespace MasterServer {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isDedicatedServer and: remoteEndPoint
-    private: char __padding9[0x6] = {};
-    public:
+    char __padding9[0x6] = {};
     // public System.Net.IPEndPoint remoteEndPoint
     // Size: 0x8
     // Offset: 0x68

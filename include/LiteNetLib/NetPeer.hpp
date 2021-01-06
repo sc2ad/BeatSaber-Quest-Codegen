@@ -96,8 +96,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: rttCount and: resendDelay
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private System.Double _resendDelay
     // Size: 0x8
     // Offset: 0x20
@@ -129,8 +128,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: timeSinceLastPacket and: remoteDelta
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // private System.Int64 _remoteDelta
     // Size: 0x8
     // Offset: 0x40
@@ -210,8 +208,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: finishMtu and: mtuCheckTimer
-    private: char __padding20[0x3] = {};
-    public:
+    char __padding20[0x3] = {};
     // private System.Int32 _mtuCheckTimer
     // Size: 0x4
     // Offset: 0x9C
@@ -225,8 +222,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: mtuCheckAttempts and: mtuMutex
-    private: char __padding22[0x4] = {};
-    public:
+    char __padding22[0x4] = {};
     // private readonly System.Object _mtuMutex
     // Size: 0x8
     // Offset: 0xA8
@@ -240,8 +236,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(uint16_t) == 0x2);
     // Padding between fields: fragmentId and: holdedFragments
-    private: char __padding24[0x6] = {};
-    public:
+    char __padding24[0x6] = {};
     // private readonly System.Collections.Generic.Dictionary`2<System.UInt16,LiteNetLib.NetPeer/IncomingFragments> _holdedFragments
     // Size: 0x8
     // Offset: 0xB8
@@ -303,8 +298,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(LiteNetLib::ConnectionState) == 0x1);
     // Padding between fields: connectionState and: shutdownPacket
-    private: char __padding34[0x6] = {};
-    public:
+    char __padding34[0x6] = {};
     // private LiteNetLib.NetPacket _shutdownPacket
     // Size: 0x8
     // Offset: 0xF0
@@ -318,8 +312,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: shutdownTimer and: pingPacket
-    private: char __padding36[0x4] = {};
-    public:
+    char __padding36[0x4] = {};
     // private readonly LiteNetLib.NetPacket _pingPacket
     // Size: 0x8
     // Offset: 0x100
@@ -363,8 +356,7 @@ namespace LiteNetLib {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: Id and: Tag
-    private: char __padding43[0x4] = {};
-    public:
+    char __padding43[0x4] = {};
     // public System.Object Tag
     // Size: 0x8
     // Offset: 0x138

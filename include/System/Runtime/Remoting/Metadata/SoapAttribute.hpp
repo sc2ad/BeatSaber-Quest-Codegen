@@ -25,8 +25,7 @@ namespace System::Runtime::Remoting::Metadata {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useAttribute and: ProtXmlNamespace
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // protected System.String ProtXmlNamespace
     // Size: 0x8
     // Offset: 0x18

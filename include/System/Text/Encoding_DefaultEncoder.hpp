@@ -45,8 +45,7 @@ namespace System::Text {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_hasInitializedEncoding and: charLeftOver
-    private: char __padding1[0x1] = {};
-    public:
+    char __padding1[0x1] = {};
     // System.Char charLeftOver
     // Size: 0x2
     // Offset: 0x2A

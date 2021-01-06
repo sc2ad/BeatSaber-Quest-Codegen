@@ -24,8 +24,7 @@ namespace NetEase::Docker {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: InitializeSuccessful and: InitializeCode
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDB23FC
     // [DebuggerBrowsableAttribute] Offset: 0xDB23FC
     // private System.Int32 <InitializeCode>k__BackingField

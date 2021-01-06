@@ -54,8 +54,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: displaySpotNumber and: spotNumber
-    private: char __padding1[0x2] = {};
-    public:
+    char __padding1[0x2] = {};
     // [DrawIfAttribute] Offset: 0xDCA774
     // private System.Int32 _spotNumber
     // Size: 0x4

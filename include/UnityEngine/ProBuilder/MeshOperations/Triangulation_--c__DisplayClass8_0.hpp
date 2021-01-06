@@ -40,8 +40,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: index and: $$9__1
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public System.Func`2<UnityEngine.Vector2,UnityEngine.ProBuilder.Poly2Tri.PolygonPoint> <>9__1
     // Size: 0x8
     // Offset: 0x18

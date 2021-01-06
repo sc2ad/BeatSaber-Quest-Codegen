@@ -61,8 +61,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum) == 0x4);
     // Padding between fields: binaryTypeEnum and: typeInformation
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // System.Object typeInformation
     // Size: 0x8
     // Offset: 0x30

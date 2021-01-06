@@ -39,8 +39,7 @@ namespace System::Net::Sockets {
   class SafeSocketHandle : public Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
     public:
     // Writing base type padding for base size: 0x1E to desired offset: 0x20
-    private: char ___base_padding[0x2] = {};
-    public:
+    char ___base_padding[0x2] = {};
     // private System.Collections.Generic.List`1<System.Threading.Thread> blocking_threads
     // Size: 0x8
     // Offset: 0x20

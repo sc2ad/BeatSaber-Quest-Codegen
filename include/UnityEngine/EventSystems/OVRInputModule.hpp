@@ -95,8 +95,7 @@ namespace UnityEngine::EventSystems {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useRightStickScroll and: rightStickDeadZone
-    private: char __padding5[0x2] = {};
-    public:
+    char __padding5[0x2] = {};
     // [TooltipAttribute] Offset: 0xD8719C
     // public System.Single rightStickDeadZone
     // Size: 0x4
@@ -113,8 +112,7 @@ namespace UnityEngine::EventSystems {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useSwipeScroll and: swipeDragThreshold
-    private: char __padding7[0x3] = {};
-    public:
+    char __padding7[0x3] = {};
     // [TooltipAttribute] Offset: 0xD87234
     // public System.Single swipeDragThreshold
     // Size: 0x4
@@ -137,8 +135,7 @@ namespace UnityEngine::EventSystems {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: InvertSwipeXAxis and: activeGraphicRaycaster
-    private: char __padding10[0x3] = {};
-    public:
+    char __padding10[0x3] = {};
     // public OVRRaycaster activeGraphicRaycaster
     // Size: 0x8
     // Offset: 0x88
@@ -178,8 +175,7 @@ namespace UnityEngine::EventSystems {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
     // Padding between fields: m_MousePosition and: m_HorizontalAxis
-    private: char __padding16[0x4] = {};
-    public:
+    char __padding16[0x4] = {};
     // [HeaderAttribute] Offset: 0xD8734C
     // private System.String m_HorizontalAxis
     // Size: 0x8
@@ -218,8 +214,7 @@ namespace UnityEngine::EventSystems {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_AllowActivationOnMobileDevice and: m_VRRayPointerData
-    private: char __padding22[0x3] = {};
-    public:
+    char __padding22[0x3] = {};
     // protected System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.OVRPointerEventData> m_VRRayPointerData
     // Size: 0x8
     // Offset: 0xD8

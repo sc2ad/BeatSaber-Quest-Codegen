@@ -51,8 +51,7 @@ namespace System::Net {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: length and: bytes
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // public System.Byte[] bytes
     // Size: 0x8
     // Offset: 0x28

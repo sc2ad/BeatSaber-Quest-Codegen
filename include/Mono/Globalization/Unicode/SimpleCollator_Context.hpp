@@ -29,8 +29,7 @@ namespace Mono::Globalization::Unicode {
     // Field size check
     static_assert(sizeof(System::Globalization::CompareOptions) == 0x4);
     // Padding between fields: Option and: NeverMatchFlags
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // public readonly System.Byte* NeverMatchFlags
     // Size: 0x8
     // Offset: 0x8
@@ -62,8 +61,7 @@ namespace Mono::Globalization::Unicode {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: PrevCode and: PrevSortKey
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // public System.Byte* PrevSortKey
     // Size: 0x8
     // Offset: 0x30

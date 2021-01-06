@@ -37,8 +37,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: cleared and: value
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC3F6C
     // private System.Int32 <value>k__BackingField
     // Size: 0x4

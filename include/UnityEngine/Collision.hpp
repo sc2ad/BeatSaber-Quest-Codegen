@@ -59,8 +59,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_ContactCount and: m_ReusedContacts
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // UnityEngine.ContactPoint[] m_ReusedContacts
     // Size: 0x8
     // Offset: 0x40

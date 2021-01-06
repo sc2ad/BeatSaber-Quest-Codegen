@@ -87,8 +87,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: prevPositionOffset and: startLocalPositions
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // private UnityEngine.Vector3[] _startLocalPositions
     // Size: 0x8
     // Offset: 0x58

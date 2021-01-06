@@ -55,8 +55,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useAsync and: bufBytes
-    private: char __padding0[0x7] = {};
-    public:
+    char __padding0[0x7] = {};
     // protected System.Byte[] bufBytes
     // Size: 0x8
     // Offset: 0x28
@@ -136,8 +135,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: inAttributeValue and: bufBytesUsed
-    private: char __padding13[0x1] = {};
-    public:
+    char __padding13[0x1] = {};
     // protected System.Int32 bufBytesUsed
     // Size: 0x4
     // Offset: 0x64
@@ -175,8 +173,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: inTextContent and: lastMarkPos
-    private: char __padding19[0x2] = {};
-    public:
+    char __padding19[0x2] = {};
     // private System.Int32 lastMarkPos
     // Size: 0x4
     // Offset: 0x84
@@ -214,8 +211,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: omitXmlDeclaration and: newLineChars
-    private: char __padding25[0x2] = {};
-    public:
+    char __padding25[0x2] = {};
     // protected System.String newLineChars
     // Size: 0x8
     // Offset: 0xA0
@@ -229,8 +225,7 @@ namespace System::Xml {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: checkCharacters and: standalone
-    private: char __padding27[0x3] = {};
-    public:
+    char __padding27[0x3] = {};
     // protected System.Xml.XmlStandalone standalone
     // Size: 0x4
     // Offset: 0xAC

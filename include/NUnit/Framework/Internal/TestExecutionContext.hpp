@@ -83,8 +83,7 @@ namespace NUnit::Framework::Internal {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: assertCount and: currentCulture
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // private System.Globalization.CultureInfo _currentCulture
     // Size: 0x8
     // Offset: 0x30
@@ -138,8 +137,7 @@ namespace NUnit::Framework::Internal {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: TestCaseTimeout and: UpstreamActions
-    private: char __padding10[0x4] = {};
-    public:
+    char __padding10[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDB35CC
     // private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <UpstreamActions>k__BackingField
     // Size: 0x8

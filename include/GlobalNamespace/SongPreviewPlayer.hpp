@@ -34,8 +34,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: channelsCount and: audioSourcePrefab
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private UnityEngine.AudioSource _audioSourcePrefab
     // Size: 0x8
     // Offset: 0x20
@@ -97,8 +96,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: transitionAfterDelay and: volumeScale
-    private: char __padding10[0x3] = {};
-    public:
+    char __padding10[0x3] = {};
     // private System.Single _volumeScale
     // Size: 0x4
     // Offset: 0x54

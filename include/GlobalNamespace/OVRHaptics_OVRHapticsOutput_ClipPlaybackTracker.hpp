@@ -32,8 +32,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: ReadCount and: Clip
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xD87528
     // private OVRHapticsClip <Clip>k__BackingField
     // Size: 0x8

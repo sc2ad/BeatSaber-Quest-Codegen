@@ -32,8 +32,7 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: validate and: priority
-    private: char __padding1[0x3] = {};
-    public:
+    char __padding1[0x3] = {};
     // public readonly System.Int32 priority
     // Size: 0x4
     // Offset: 0x1C

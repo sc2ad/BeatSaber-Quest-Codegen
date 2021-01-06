@@ -27,8 +27,7 @@ namespace Zenject {
   class ProjectKernel : public Zenject::MonoKernel {
     public:
     // Writing base type padding for base size: 0x32 to desired offset: 0x38
-    private: char ___base_padding[0x6] = {};
-    public:
+    char ___base_padding[0x6] = {};
     // Nested type: Zenject::ProjectKernel::$$c__DisplayClass4_0
     class $$c__DisplayClass4_0;
     // [InjectAttribute] Offset: 0xD94BC8

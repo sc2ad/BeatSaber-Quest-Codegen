@@ -66,8 +66,7 @@ namespace System::IO {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: NoWildcards and: DisabledTime
-    private: char __padding5[0x5] = {};
-    public:
+    char __padding5[0x5] = {};
     // public System.DateTime DisabledTime
     // Size: 0x8
     // Offset: 0x30

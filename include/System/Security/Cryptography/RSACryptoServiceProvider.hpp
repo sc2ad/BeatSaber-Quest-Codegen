@@ -80,8 +80,7 @@ namespace System::Security::Cryptography {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_disposed and: rsa
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // private Mono.Security.Cryptography.RSAManaged rsa
     // Size: 0x8
     // Offset: 0x30

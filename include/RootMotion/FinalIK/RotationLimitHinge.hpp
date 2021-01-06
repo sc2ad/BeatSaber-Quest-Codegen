@@ -26,8 +26,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useLimits and: min
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // public System.Single min
     // Size: 0x4
     // Offset: 0x3C

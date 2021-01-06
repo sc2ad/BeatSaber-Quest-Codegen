@@ -65,8 +65,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: lightOnStart and: colorEvent
-    private: char __padding4[0x3] = {};
-    public:
+    char __padding4[0x3] = {};
     // private BeatmapEventType _colorEvent
     // Size: 0x4
     // Offset: 0x3C
@@ -94,8 +93,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: lightIsOn and: offColor
-    private: char __padding8[0x3] = {};
-    public:
+    char __padding8[0x3] = {};
     // private UnityEngine.Color _offColor
     // Size: 0x10
     // Offset: 0x54

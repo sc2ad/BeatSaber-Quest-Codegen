@@ -43,8 +43,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: defaultDistnace and: spawnCenterDistanceWasFoundEvent
-    private: char __padding1[0x4] = {};
-    public:
+    char __padding1[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC550C
     // private System.Action`1<System.Single> spawnCenterDistanceWasFoundEvent
     // Size: 0x8
@@ -59,8 +58,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: spawnCenterDistanceWasFound and: spawnCenterDistance
-    private: char __padding3[0x3] = {};
-    public:
+    char __padding3[0x3] = {};
     // private System.Single _spawnCenterDistance
     // Size: 0x4
     // Offset: 0x34

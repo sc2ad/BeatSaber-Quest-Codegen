@@ -152,8 +152,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: masterServerUnreachable and: currentPlayerCount
-    private: char __padding7[0x2] = {};
-    public:
+    char __padding7[0x2] = {};
     // private System.Int32 _currentPlayerCount
     // Size: 0x4
     // Offset: 0xAC
@@ -244,8 +243,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: filterChanged and: serverFilter
-    private: char __padding21[0x2] = {};
-    public:
+    char __padding21[0x2] = {};
     // private GameplayServerFilter _serverFilter
     // Size: 0x28
     // Offset: 0x108

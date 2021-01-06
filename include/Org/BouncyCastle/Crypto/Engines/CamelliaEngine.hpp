@@ -37,8 +37,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: keyIs128 and: subkey
-    private: char __padding1[0x6] = {};
-    public:
+    char __padding1[0x6] = {};
     // private System.UInt32[] subkey
     // Size: 0x8
     // Offset: 0x18

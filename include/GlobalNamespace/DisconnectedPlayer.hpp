@@ -48,8 +48,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: sortIndex and: multiplayerAvatarData
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDA9F34
     // private readonly MultiplayerAvatarData <multiplayerAvatarData>k__BackingField
     // Size: 0x70

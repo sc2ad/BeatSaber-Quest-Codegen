@@ -43,8 +43,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasPathLengthConstraint and: pathLengthConstraint
-    private: char __padding1[0x1] = {};
-    public:
+    char __padding1[0x1] = {};
     // private System.Int32 _pathLengthConstraint
     // Size: 0x4
     // Offset: 0x24

@@ -61,8 +61,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isConnectionOwner and: manager
-    private: char __padding3[0x6] = {};
-    public:
+    char __padding3[0x6] = {};
     // private readonly ConnectedPlayerManager _manager
     // Size: 0x8
     // Offset: 0x28
@@ -94,8 +93,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
     // Padding between fields: remoteConnectionId and: sortIndex
-    private: char __padding8[0x2] = {};
-    public:
+    char __padding8[0x2] = {};
     // private System.Int32 _sortIndex
     // Size: 0x4
     // Offset: 0x44
@@ -109,8 +107,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isConnected and: disconnectedReason
-    private: char __padding10[0x3] = {};
-    public:
+    char __padding10[0x3] = {};
     // private DisconnectedReason _disconnectedReason
     // Size: 0x4
     // Offset: 0x4C
@@ -124,8 +121,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isKicked and: playerState
-    private: char __padding12[0x7] = {};
-    public:
+    char __padding12[0x7] = {};
     // private BloomFilter _playerState
     // Size: 0x10
     // Offset: 0x58

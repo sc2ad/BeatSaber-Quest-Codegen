@@ -35,8 +35,7 @@ namespace MasterServer {
   class RelayServerStatusUpdateRequest : public GlobalNamespace::BaseMasterServerReliableRequest/*, public MasterServer::IDedicatedServerClientToServerMessage*/ {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
-    private: char ___base_padding[0x4] = {};
-    public:
+    char ___base_padding[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDAA534
     // private System.String <dedicatedServerId>k__BackingField
     // Size: 0x8

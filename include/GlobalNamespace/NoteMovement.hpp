@@ -103,8 +103,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: zOffset and: didInitEvent
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDC5E30
     // private System.Action didInitEvent
     // Size: 0x8

@@ -84,8 +84,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: rootNodeIndex and: spine
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // private RootMotion.FinalIK.IKMapping/BoneMap[] spine
     // Size: 0x8
     // Offset: 0x48

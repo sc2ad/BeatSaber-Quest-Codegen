@@ -37,8 +37,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: $$1__state and: $$2__current
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private UnityEngine.Playables.PlayableBinding <>2__current
     // Size: 0x20
     // Offset: 0x18
@@ -52,8 +51,7 @@ namespace UnityEngine::Timeline {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: $$l__initialThreadId and: $$4__this
-    private: char __padding2[0x4] = {};
-    public:
+    char __padding2[0x4] = {};
     // public UnityEngine.Timeline.AudioTrack <>4__this
     // Size: 0x8
     // Offset: 0x40

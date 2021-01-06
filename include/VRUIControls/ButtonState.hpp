@@ -31,8 +31,7 @@ namespace VRUIControls {
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::PointerEventData::InputButton) == 0x4);
     // Padding between fields: button and: eventData
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // private VRUIControls.MouseButtonEventData _eventData
     // Size: 0x8
     // Offset: 0x18

@@ -126,8 +126,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: showHeader and: cancellationTokenSource
-    private: char __padding8[0x7] = {};
-    public:
+    char __padding8[0x7] = {};
     // private System.Threading.CancellationTokenSource _cancellationTokenSource
     // Size: 0x8
     // Offset: 0xB8

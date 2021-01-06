@@ -124,8 +124,7 @@ namespace System::Diagnostics {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: haveProcessId and: processId
-    private: char __padding0[0x3] = {};
-    public:
+    char __padding0[0x3] = {};
     // private System.Int32 processId
     // Size: 0x4
     // Offset: 0x2C
@@ -139,8 +138,7 @@ namespace System::Diagnostics {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: haveProcessHandle and: m_processHandle
-    private: char __padding2[0x7] = {};
-    public:
+    char __padding2[0x7] = {};
     // private Microsoft.Win32.SafeHandles.SafeProcessHandle m_processHandle
     // Size: 0x8
     // Offset: 0x38
@@ -154,8 +152,7 @@ namespace System::Diagnostics {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isRemoteMachine and: machineName
-    private: char __padding4[0x7] = {};
-    public:
+    char __padding4[0x7] = {};
     // private System.String machineName
     // Size: 0x8
     // Offset: 0x48
@@ -169,8 +166,7 @@ namespace System::Diagnostics {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_processAccess and: threads
-    private: char __padding6[0x4] = {};
-    public:
+    char __padding6[0x4] = {};
     // private System.Diagnostics.ProcessThreadCollection threads
     // Size: 0x8
     // Offset: 0x58
@@ -208,8 +204,7 @@ namespace System::Diagnostics {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: watchingForExit and: onExited
-    private: char __padding12[0x4] = {};
-    public:
+    char __padding12[0x4] = {};
     // private System.EventHandler onExited
     // Size: 0x8
     // Offset: 0x70
@@ -223,8 +218,7 @@ namespace System::Diagnostics {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: exited and: exitCode
-    private: char __padding14[0x3] = {};
-    public:
+    char __padding14[0x3] = {};
     // private System.Int32 exitCode
     // Size: 0x4
     // Offset: 0x7C
@@ -250,8 +244,7 @@ namespace System::Diagnostics {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: raisedOnExited and: registeredWaitHandle
-    private: char __padding18[0x5] = {};
-    public:
+    char __padding18[0x5] = {};
     // private System.Threading.RegisteredWaitHandle registeredWaitHandle
     // Size: 0x8
     // Offset: 0x88
@@ -295,8 +288,7 @@ namespace System::Diagnostics {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: disposed and: outputStreamReadMode
-    private: char __padding25[0x3] = {};
-    public:
+    char __padding25[0x3] = {};
     // private System.Diagnostics.Process/StreamReadMode outputStreamReadMode
     // Size: 0x4
     // Offset: 0xBC

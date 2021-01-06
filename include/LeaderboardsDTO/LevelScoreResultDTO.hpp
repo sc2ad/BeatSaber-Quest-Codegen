@@ -59,8 +59,7 @@ namespace LeaderboardsDTO {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fullCombo and: goodCutsCount
-    private: char __padding5[0x3] = {};
-    public:
+    char __padding5[0x3] = {};
     // public System.Int32 goodCutsCount
     // Size: 0x4
     // Offset: 0x34
@@ -86,8 +85,7 @@ namespace LeaderboardsDTO {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: maxCombo and: gameplayModifiers
-    private: char __padding9[0x4] = {};
-    public:
+    char __padding9[0x4] = {};
     // public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
     // Size: 0x8
     // Offset: 0x48

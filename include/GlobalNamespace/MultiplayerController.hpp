@@ -276,8 +276,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerController::State) == 0x4);
     // Padding between fields: state and: otherPlayersCompletionResults
-    private: char __padding17[0x4] = {};
-    public:
+    char __padding17[0x4] = {};
     // private System.Collections.Generic.Dictionary`2<System.String,LevelCompletionResults> _otherPlayersCompletionResults
     // Size: 0x8
     // Offset: 0xA0

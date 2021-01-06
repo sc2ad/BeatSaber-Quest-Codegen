@@ -73,8 +73,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useZPositionForAngleOffset and: zPositionAngleOffsetScale
-    private: char __padding5[0x2] = {};
-    public:
+    char __padding5[0x2] = {};
     // private System.Single _zPositionAngleOffsetScale
     // Size: 0x4
     // Offset: 0x34
@@ -88,8 +87,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: startRotation and: transformL
-    private: char __padding7[0x4] = {};
-    public:
+    char __padding7[0x4] = {};
     // [SpaceAttribute] Offset: 0xDC6E54
     // private UnityEngine.Transform _transformL
     // Size: 0x8

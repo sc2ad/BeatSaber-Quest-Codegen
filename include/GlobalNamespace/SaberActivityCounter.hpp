@@ -67,8 +67,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: movementSensitivityThreshold and: saberManager
-    private: char __padding4[0x4] = {};
-    public:
+    char __padding4[0x4] = {};
     // [InjectAttribute] Offset: 0xDCAD3C
     // private readonly SaberManager _saberManager
     // Size: 0x8
@@ -126,8 +125,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasPrevPos and: leftSaberMovementDistance
-    private: char __padding13[0x3] = {};
-    public:
+    char __padding13[0x3] = {};
     // private System.Single _leftSaberMovementDistance
     // Size: 0x4
     // Offset: 0x84
@@ -153,8 +151,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: rightHandMovementDistance and: saberMovementHistoryRecorder
-    private: char __padding17[0x4] = {};
-    public:
+    char __padding17[0x4] = {};
     // private MovementHistoryRecorder _saberMovementHistoryRecorder
     // Size: 0x8
     // Offset: 0x98

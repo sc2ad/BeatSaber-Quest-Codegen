@@ -147,8 +147,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useAnimatedBendNormal and: position
-    private: char __padding15[0x3] = {};
-    public:
+    char __padding15[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDB9688
     // private UnityEngine.Vector3 <position>k__BackingField
     // Size: 0xC
@@ -171,8 +170,7 @@ namespace RootMotion::FinalIK {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hasToes and: thighRelativeToPelvis
-    private: char __padding18[0x3] = {};
-    public:
+    char __padding18[0x3] = {};
     // [CompilerGeneratedAttribute] Offset: 0xDB96B8
     // private UnityEngine.Vector3 <thighRelativeToPelvis>k__BackingField
     // Size: 0xC

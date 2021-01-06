@@ -147,8 +147,7 @@ namespace System::Threading::Tasks {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_taskId and: m_action
-    private: char __padding0[0x4] = {};
-    public:
+    char __padding0[0x4] = {};
     // System.Object m_action
     // Size: 0x8
     // Offset: 0x18
@@ -180,8 +179,7 @@ namespace System::Threading::Tasks {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: m_stateFlags and: m_continuationObject
-    private: char __padding5[0x4] = {};
-    public:
+    char __padding5[0x4] = {};
     // private System.Object m_continuationObject
     // Size: 0x8
     // Offset: 0x40
