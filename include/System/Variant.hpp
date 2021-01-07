@@ -44,119 +44,107 @@ namespace System {
     uint16_t wReserved3;
     // Field size check
     static_assert(sizeof(uint16_t) == 0x2);
-    // public System.Int64 llVal
-    // Size: 0x8
-    // Offset: 0x8
-    int64_t llVal;
-    // Field size check
-    static_assert(sizeof(int64_t) == 0x8);
-    // WARNING Could not write padding for field: llVal! Ignoring it instead (and assuming correct layout regardless)...
-    // public System.Int32 lVal
-    // Size: 0x4
-    // Offset: 0x8
-    int lVal;
-    // Field size check
-    static_assert(sizeof(int) == 0x4);
-    // WARNING Could not write padding for field: lVal! Ignoring it instead (and assuming correct layout regardless)...
-    // public System.Byte bVal
-    // Size: 0x1
-    // Offset: 0x8
-    uint8_t bVal;
-    // Field size check
-    static_assert(sizeof(uint8_t) == 0x1);
-    // WARNING Could not write padding for field: bVal! Ignoring it instead (and assuming correct layout regardless)...
-    // public System.Int16 iVal
-    // Size: 0x2
-    // Offset: 0x8
-    int16_t iVal;
-    // Field size check
-    static_assert(sizeof(int16_t) == 0x2);
-    // WARNING Could not write padding for field: iVal! Ignoring it instead (and assuming correct layout regardless)...
-    // public System.Single fltVal
-    // Size: 0x4
-    // Offset: 0x8
-    float fltVal;
-    // Field size check
-    static_assert(sizeof(float) == 0x4);
-    // WARNING Could not write padding for field: fltVal! Ignoring it instead (and assuming correct layout regardless)...
-    // public System.Double dblVal
-    // Size: 0x8
-    // Offset: 0x8
-    double dblVal;
-    // Field size check
-    static_assert(sizeof(double) == 0x8);
-    // WARNING Could not write padding for field: dblVal! Ignoring it instead (and assuming correct layout regardless)...
-    // public System.Int16 boolVal
-    // Size: 0x2
-    // Offset: 0x8
-    int16_t boolVal;
-    // Field size check
-    static_assert(sizeof(int16_t) == 0x2);
-    // WARNING Could not write padding for field: boolVal! Ignoring it instead (and assuming correct layout regardless)...
-    // public System.IntPtr bstrVal
-    // Size: 0x8
-    // Offset: 0x8
-    System::IntPtr bstrVal;
-    // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
-    // WARNING Could not write padding for field: bstrVal! Ignoring it instead (and assuming correct layout regardless)...
-    // public System.SByte cVal
-    // Size: 0x1
-    // Offset: 0x8
-    int8_t cVal;
-    // Field size check
-    static_assert(sizeof(int8_t) == 0x1);
-    // WARNING Could not write padding for field: cVal! Ignoring it instead (and assuming correct layout regardless)...
-    // public System.UInt16 uiVal
-    // Size: 0x2
-    // Offset: 0x8
-    uint16_t uiVal;
-    // Field size check
-    static_assert(sizeof(uint16_t) == 0x2);
-    // WARNING Could not write padding for field: uiVal! Ignoring it instead (and assuming correct layout regardless)...
-    // public System.UInt32 ulVal
-    // Size: 0x4
-    // Offset: 0x8
-    uint ulVal;
-    // Field size check
-    static_assert(sizeof(uint) == 0x4);
-    // WARNING Could not write padding for field: ulVal! Ignoring it instead (and assuming correct layout regardless)...
-    // public System.UInt64 ullVal
-    // Size: 0x8
-    // Offset: 0x8
-    uint64_t ullVal;
-    // Field size check
-    static_assert(sizeof(uint64_t) == 0x8);
-    // WARNING Could not write padding for field: ullVal! Ignoring it instead (and assuming correct layout regardless)...
-    // public System.Int32 intVal
-    // Size: 0x4
-    // Offset: 0x8
-    int intVal;
-    // Field size check
-    static_assert(sizeof(int) == 0x4);
-    // WARNING Could not write padding for field: intVal! Ignoring it instead (and assuming correct layout regardless)...
-    // public System.UInt32 uintVal
-    // Size: 0x4
-    // Offset: 0x8
-    uint uintVal;
-    // Field size check
-    static_assert(sizeof(uint) == 0x4);
-    // WARNING Could not write padding for field: uintVal! Ignoring it instead (and assuming correct layout regardless)...
-    // public System.IntPtr pdispVal
-    // Size: 0x8
-    // Offset: 0x8
-    System::IntPtr pdispVal;
-    // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
-    // WARNING Could not write padding for field: pdispVal! Ignoring it instead (and assuming correct layout regardless)...
-    // public System.BRECORD bRecord
-    // Size: 0x10
-    // Offset: 0x8
-    System::BRECORD bRecord;
-    // Field size check
-    static_assert(sizeof(System::BRECORD) == 0x10);
+    // Creating union for fields at offset: 0x8
+    union {
+      // public System.Int64 llVal
+      // Size: 0x8
+      // Offset: 0x8
+      int64_t llVal;
+      // Field size check
+      static_assert(sizeof(int64_t) == 0x8);
+      // public System.Int32 lVal
+      // Size: 0x4
+      // Offset: 0x8
+      int lVal;
+      // Field size check
+      static_assert(sizeof(int) == 0x4);
+      // public System.Byte bVal
+      // Size: 0x1
+      // Offset: 0x8
+      uint8_t bVal;
+      // Field size check
+      static_assert(sizeof(uint8_t) == 0x1);
+      // public System.Int16 iVal
+      // Size: 0x2
+      // Offset: 0x8
+      int16_t iVal;
+      // Field size check
+      static_assert(sizeof(int16_t) == 0x2);
+      // public System.Single fltVal
+      // Size: 0x4
+      // Offset: 0x8
+      float fltVal;
+      // Field size check
+      static_assert(sizeof(float) == 0x4);
+      // public System.Double dblVal
+      // Size: 0x8
+      // Offset: 0x8
+      double dblVal;
+      // Field size check
+      static_assert(sizeof(double) == 0x8);
+      // public System.Int16 boolVal
+      // Size: 0x2
+      // Offset: 0x8
+      int16_t boolVal;
+      // Field size check
+      static_assert(sizeof(int16_t) == 0x2);
+      // public System.IntPtr bstrVal
+      // Size: 0x8
+      // Offset: 0x8
+      System::IntPtr bstrVal;
+      // Field size check
+      static_assert(sizeof(System::IntPtr) == 0x8);
+      // public System.SByte cVal
+      // Size: 0x1
+      // Offset: 0x8
+      int8_t cVal;
+      // Field size check
+      static_assert(sizeof(int8_t) == 0x1);
+      // public System.UInt16 uiVal
+      // Size: 0x2
+      // Offset: 0x8
+      uint16_t uiVal;
+      // Field size check
+      static_assert(sizeof(uint16_t) == 0x2);
+      // public System.UInt32 ulVal
+      // Size: 0x4
+      // Offset: 0x8
+      uint ulVal;
+      // Field size check
+      static_assert(sizeof(uint) == 0x4);
+      // public System.UInt64 ullVal
+      // Size: 0x8
+      // Offset: 0x8
+      uint64_t ullVal;
+      // Field size check
+      static_assert(sizeof(uint64_t) == 0x8);
+      // public System.Int32 intVal
+      // Size: 0x4
+      // Offset: 0x8
+      int intVal;
+      // Field size check
+      static_assert(sizeof(int) == 0x4);
+      // public System.UInt32 uintVal
+      // Size: 0x4
+      // Offset: 0x8
+      uint uintVal;
+      // Field size check
+      static_assert(sizeof(uint) == 0x4);
+      // public System.IntPtr pdispVal
+      // Size: 0x8
+      // Offset: 0x8
+      System::IntPtr pdispVal;
+      // Field size check
+      static_assert(sizeof(System::IntPtr) == 0x8);
+      // public System.BRECORD bRecord
+      // Size: 0x10
+      // Offset: 0x8
+      System::BRECORD bRecord;
+      // Field size check
+      static_assert(sizeof(System::BRECORD) == 0x10);
+    };
     // Creating value type constructor for type: Variant
-    constexpr Variant(int16_t vt_ = {}, uint16_t wReserved1_ = {}, uint16_t wReserved2_ = {}, uint16_t wReserved3_ = {}, int64_t llVal_ = {}, int lVal_ = {}, uint8_t bVal_ = {}, int16_t iVal_ = {}, float fltVal_ = {}, double dblVal_ = {}, int16_t boolVal_ = {}, System::IntPtr bstrVal_ = {}, int8_t cVal_ = {}, uint16_t uiVal_ = {}, uint ulVal_ = {}, uint64_t ullVal_ = {}, int intVal_ = {}, uint uintVal_ = {}, System::IntPtr pdispVal_ = {}, System::BRECORD bRecord_ = {}) noexcept : vt{vt_}, wReserved1{wReserved1_}, wReserved2{wReserved2_}, wReserved3{wReserved3_}, llVal{llVal_}, lVal{lVal_}, bVal{bVal_}, iVal{iVal_}, fltVal{fltVal_}, dblVal{dblVal_}, boolVal{boolVal_}, bstrVal{bstrVal_}, cVal{cVal_}, uiVal{uiVal_}, ulVal{ulVal_}, ullVal{ullVal_}, intVal{intVal_}, uintVal{uintVal_}, pdispVal{pdispVal_}, bRecord{bRecord_} {}
+    constexpr Variant(int16_t vt_ = {}, uint16_t wReserved1_ = {}, uint16_t wReserved2_ = {}, uint16_t wReserved3_ = {}, int64_t llVal_ = {}) noexcept : vt{vt_}, wReserved1{wReserved1_}, wReserved2{wReserved2_}, wReserved3{wReserved3_}, llVal{llVal_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
