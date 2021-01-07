@@ -32,7 +32,7 @@ namespace Zenject {
       return value;
     }
     // static field const value: static public Zenject.InvalidBindResponses Assert
-    static constexpr const int Assert = 0;
+    static constexpr const int _Assert = 0;
     // Get static field: static public Zenject.InvalidBindResponses Assert
     static Zenject::InvalidBindResponses _get_Assert();
     // Set static field: static public Zenject.InvalidBindResponses Assert

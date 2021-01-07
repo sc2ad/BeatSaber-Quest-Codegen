@@ -38,7 +38,7 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.LogType Error
     static void _set_Error(UnityEngine::LogType value);
     // static field const value: static public UnityEngine.LogType Assert
-    static constexpr const int Assert = 1;
+    static constexpr const int _Assert = 1;
     // Get static field: static public UnityEngine.LogType Assert
     static UnityEngine::LogType _get_Assert();
     // Set static field: static public UnityEngine.LogType Assert
