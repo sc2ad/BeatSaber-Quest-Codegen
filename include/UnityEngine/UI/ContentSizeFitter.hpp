@@ -97,9 +97,11 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
     // private UnityEngine.DrivenRectTransformTracker m_Tracker
-    // Size: 0x0
+    // Size: 0x1
     // Offset: 0x28
     UnityEngine::DrivenRectTransformTracker m_Tracker;
+    // Field size check
+    static_assert(sizeof(UnityEngine::DrivenRectTransformTracker) == 0x1);
     // Creating value type constructor for type: ContentSizeFitter
     ContentSizeFitter(UnityEngine::UI::ContentSizeFitter::FitMode m_HorizontalFit_ = {}, UnityEngine::UI::ContentSizeFitter::FitMode m_VerticalFit_ = {}, UnityEngine::RectTransform* m_Rect_ = {}, UnityEngine::DrivenRectTransformTracker m_Tracker_ = {}) noexcept : m_HorizontalFit{m_HorizontalFit_}, m_VerticalFit{m_VerticalFit_}, m_Rect{m_Rect_}, m_Tracker{m_Tracker_} {}
     // Creating interface conversion operator: operator UnityEngine::UI::ILayoutSelfController

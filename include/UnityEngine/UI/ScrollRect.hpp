@@ -378,10 +378,13 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
     // private UnityEngine.DrivenRectTransformTracker m_Tracker
-    // Size: 0x0
+    // Size: 0x1
     // Offset: 0x118
     UnityEngine::DrivenRectTransformTracker m_Tracker;
-    // WARNING Could not write padding for field: m_Tracker! Ignoring it instead (and assuming correct layout regardless)...
+    // Field size check
+    static_assert(sizeof(UnityEngine::DrivenRectTransformTracker) == 0x1);
+    // Padding between fields: m_Tracker and: m_Corners
+    char __padding35[0x7] = {};
     // private readonly UnityEngine.Vector3[] m_Corners
     // Size: 0x8
     // Offset: 0x120

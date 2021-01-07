@@ -105,9 +105,11 @@ namespace System::Security::Cryptography {
     // Field size check
     static_assert(sizeof(System::Threading::SemaphoreSlim*) == 0x8);
     // private System.Security.Cryptography.CryptoStream/HopToThreadPoolAwaitable <>u__1
-    // Size: 0x0
+    // Size: 0x1
     // Offset: 0x58
     System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable $$u__1;
+    // Field size check
+    static_assert(sizeof(System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable) == 0x1);
     // private System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter <>u__2
     // Size: 0x9
     // Offset: 0x60

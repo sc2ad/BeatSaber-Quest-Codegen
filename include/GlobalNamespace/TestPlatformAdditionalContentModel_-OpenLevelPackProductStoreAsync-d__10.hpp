@@ -50,9 +50,11 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
     // private System.Runtime.CompilerServices.YieldAwaitable/YieldAwaiter <>u__1
-    // Size: 0x0
+    // Size: 0x1
     // Offset: 0x30
     System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter $$u__1;
+    // Field size check
+    static_assert(sizeof(System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter) == 0x1);
     // Creating value type constructor for type: $OpenLevelPackProductStoreAsync$d__10
     constexpr $OpenLevelPackProductStoreAsync$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult> $$t__builder_ = {}, System::Threading::CancellationToken token_ = {}, ::Il2CppString* levelPackId_ = {}, System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, token{token_}, levelPackId{levelPackId_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType

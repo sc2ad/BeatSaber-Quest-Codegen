@@ -201,10 +201,11 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
     // private UnityEngine.DrivenRectTransformTracker m_Tracker
-    // Size: 0x0
+    // Size: 0x1
     // Offset: 0x150
     UnityEngine::DrivenRectTransformTracker m_Tracker;
-    // WARNING Could not write padding for field: m_Tracker! Ignoring it instead (and assuming correct layout regardless)...
+    // Field size check
+    static_assert(sizeof(UnityEngine::DrivenRectTransformTracker) == 0x1);
     // private System.Boolean m_DelayedUpdateVisuals
     // Size: 0x1
     // Offset: 0x151

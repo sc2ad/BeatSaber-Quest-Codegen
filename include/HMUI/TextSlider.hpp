@@ -131,9 +131,11 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Graphic*) == 0x8);
     // private UnityEngine.DrivenRectTransformTracker _tracker
-    // Size: 0x0
+    // Size: 0x1
     // Offset: 0x130
     UnityEngine::DrivenRectTransformTracker tracker;
+    // Field size check
+    static_assert(sizeof(UnityEngine::DrivenRectTransformTracker) == 0x1);
     // Creating value type constructor for type: TextSlider
     TextSlider(TMPro::TextMeshProUGUI* valueText_ = {}, UnityEngine::RectTransform* handleRect_ = {}, bool enableDragging_ = {}, float handleSize_ = {}, float valueSize_ = {}, float separatorSize_ = {}, int numberOfSteps_ = {}, float normalizedValue_ = {}, System::Action_2<HMUI::TextSlider*, float>* normalizedValueDidChangeEvent_ = {}, UnityEngine::RectTransform* containerRect_ = {}, UnityEngine::UI::Graphic* handleGraphic_ = {}, UnityEngine::DrivenRectTransformTracker tracker_ = {}) noexcept : valueText{valueText_}, handleRect{handleRect_}, enableDragging{enableDragging_}, handleSize{handleSize_}, valueSize{valueSize_}, separatorSize{separatorSize_}, numberOfSteps{numberOfSteps_}, normalizedValue{normalizedValue_}, normalizedValueDidChangeEvent{normalizedValueDidChangeEvent_}, containerRect{containerRect_}, handleGraphic{handleGraphic_}, tracker{tracker_} {}
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IBeginDragHandler

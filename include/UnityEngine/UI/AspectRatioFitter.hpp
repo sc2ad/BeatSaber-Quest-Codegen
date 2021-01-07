@@ -118,9 +118,11 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // private UnityEngine.DrivenRectTransformTracker m_Tracker
-    // Size: 0x0
+    // Size: 0x1
     // Offset: 0x29
     UnityEngine::DrivenRectTransformTracker m_Tracker;
+    // Field size check
+    static_assert(sizeof(UnityEngine::DrivenRectTransformTracker) == 0x1);
     // Creating value type constructor for type: AspectRatioFitter
     AspectRatioFitter(UnityEngine::UI::AspectRatioFitter::AspectMode m_AspectMode_ = {}, float m_AspectRatio_ = {}, UnityEngine::RectTransform* m_Rect_ = {}, bool m_DelayedSetDirty_ = {}, UnityEngine::DrivenRectTransformTracker m_Tracker_ = {}) noexcept : m_AspectMode{m_AspectMode_}, m_AspectRatio{m_AspectRatio_}, m_Rect{m_Rect_}, m_DelayedSetDirty{m_DelayedSetDirty_}, m_Tracker{m_Tracker_} {}
     // Creating interface conversion operator: operator UnityEngine::UI::ILayoutSelfController
