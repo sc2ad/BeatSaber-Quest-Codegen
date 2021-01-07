@@ -16,6 +16,8 @@ namespace System::Collections::Concurrent {
   // [DebuggerDisplayAttribute] Offset: D3D0F4
   struct PaddedHeadAndTail/*, public System::ValueType*/ {
     public:
+    // Writing base type padding for base size: 0x0 to desired offset: 0x80
+    char ___base_padding[0x80] = {};
     // public System.Int32 Head
     // Size: 0x4
     // Offset: 0x80
