@@ -9,7 +9,7 @@
         "ID=\"il2cpp_codegen\""
       ],
       "includePath": [
-        "C:/android-ndk-r20b/**",
+        "C:/android-ndk-r21d/**",
         "${workspaceFolder}/**",
         "${workspaceFolder}/include"
       ],
